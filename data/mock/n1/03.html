@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>JLPT N1-03 模擬テスト</title>
+<style>
+:root {
+  --primary: #ff3b30;
+  --primary-dark: #d63030;
+  --primary-light: #ffe5e5;
+  --bg-gradient: linear-gradient(135deg, #cb2d3e 0%, #ef473a 100%);
+  --header-gradient: linear-gradient(135deg, #c31432 0%, #240b36 100%);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Yu Gothic', sans-serif;
+  background: var(--bg-gradient);
+  min-height: 100vh;
+  padding: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+.container {
+  max-width: 680px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+  overflow: hidden;
+}
+/* Header */
+.header {
+  background: var(--header-gradient);
+  color: #fff;
+  padding: 24px 20px;
+  text-align: center;
+}
+.header h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+  letter-spacing: 0.5px;
+}
+.header .subtitle {
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+/* Home Screen */
+.home-content { padding: 24px; }
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.stat-card {
+  background: var(--header-gradient);
+  color: #fff;
+  padding: 20px 12px;
+  border-radius: 16px;
+  text-align: center;
+}
+.stat-value {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.stat-label {
+  font-size: 0.75rem;
+  opacity: 0.9;
+  margin-top: 4px;
+}
+.home-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.btn:active { transform: scale(0.98); }
+.btn-primary {
+  background: var(--primary);
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 18px 48px;
+}
+.btn-primary:hover { background: var(--primary-dark); }
+.btn-secondary {
+  background: #f0f0f5;
+  color: #333;
+}
+.btn-secondary:hover { background: #e0e0e5; }
+.btn-danger {
+  background: #ff3b30;
+  color: #fff;
+}
+.btn-row {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* Test Screen */
+.test-header {
+  background: var(--header-gradient);
+  color: #fff;
+  padding: 16px 20px;
+}
+.test-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.test-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.timer {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.timer.warning { color: #ffcc00; }
+.timer.danger { color: #ff3b30; animation: blink 1s infinite; }
+@keyframes blink { 50% { opacity: 0.6; } }
+.progress-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.progress-bar {
+  flex: 1;
+  height: 6px;
+  background: rgba(255,255,255,0.3);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  background: #fff;
+  transition: width 0.3s ease;
+}
+.progress-text {
+  font-size: 0.85rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+/* Question */
+.question-container { padding: 20px; }
+.section-badge {
+  display: inline-block;
+  background: var(--primary-light);
+  color: var(--primary-dark);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.question-text {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+  padding: 16px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  border-left: 4px solid var(--primary);
+}
+.question-text u { 
+  text-decoration: none;
+  background: var(--primary-light);
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.options { display: flex; flex-direction: column; gap: 10px; }
+.option {
+  display: flex;
+  align-items: center;
+  padding: 14px 16px;
+  background: #fff;
+  border: 2px solid #e5e5ea;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.option:hover { border-color: var(--primary); background: var(--primary-light); }
+.option.selected { border-color: var(--primary); background: var(--primary-light); }
+.option.correct { border-color: #34c759; background: #e8f9ee; }
+.option.wrong { border-color: #ff3b30; background: #ffebea; }
+.option-label {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-right: 14px;
+  flex-shrink: 0;
+}
+.option.selected .option-label { background: var(--primary-dark); }
+.option.correct .option-label { background: #34c759; }
+.option.wrong .option-label { background: #ff3b30; }
+.option-text { flex: 1; font-size: 1rem; line-height: 1.5; }
+/* Navigation */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  background: #f8f9fa;
+  border-top: 1px solid #e5e5ea;
+}
+.nav-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.nav-btn-prev, .nav-btn-next {
+  background: var(--primary);
+  color: #fff;
+}
+.nav-btn-prev:hover, .nav-btn-next:hover { background: var(--primary-dark); }
+.nav-btn-submit {
+  background: #34c759;
+  color: #fff;
+  padding: 12px 24px;
+}
+.nav-btn-submit:hover { background: #2db350; }
+.nav-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+/* Results */
+.results-content { padding: 24px; }
+.score-card {
+  background: var(--header-gradient);
+  color: #fff;
+  padding: 32px 24px;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.score-value {
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+.score-detail {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+.pass-badge {
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-weight: 700;
+  margin-top: 12px;
+}
+.pass-badge.pass { background: #34c759; }
+.pass-badge.fail { background: #ff3b30; }
+/* Section Scores */
+.section-scores {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.section-score-card {
+  background: #f8f9fa;
+  padding: 16px;
+  border-radius: 12px;
+  text-align: center;
+  border-left: 4px solid var(--primary);
+}
+.section-score-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+.section-score-label {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 4px;
+}
+/* Answer Review */
+.review-section {
+  margin-top: 24px;
+}
+.review-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.review-toggle {
+  background: var(--primary-light);
+  color: var(--primary);
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 16px;
+}
+.answer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+.answer-item {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 16px;
+  border-left: 4px solid #34c759;
+}
+.answer-item.wrong {
+  border-left-color: #ff3b30;
+  background: #fff5f5;
+}
+.answer-q-num {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #666;
+  margin-bottom: 8px;
+}
+.answer-q-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+.answer-result {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.9rem;
+}
+.answer-your {
+  color: #ff3b30;
+}
+.answer-correct {
+  color: #34c759;
+  font-weight: 600;
+}
+/* Results Actions */
+.results-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 24px;
+}
+/* Audio Button */
+.audio-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 16px;
+  transition: all 0.2s;
+}
+.audio-btn:hover { background: var(--primary-dark); }
+.audio-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.audio-btn.playing { animation: pulse 1s infinite; }
+@keyframes pulse { 50% { opacity: 0.7; } }
+/* Utilities */
+.hidden { display: none !important; }
+/* Responsive */
+@media (max-width: 480px) {
+  body { padding: 8px; }
+  .header { padding: 20px 16px; }
+  .header h1 { font-size: 1.3rem; }
+  .stats-grid { gap: 8px; }
+  .stat-card { padding: 16px 8px; }
+  .stat-value { font-size: 1.6rem; }
+  .question-container { padding: 16px; }
+  .question-text { padding: 12px; font-size: 1rem; }
+  .option { padding: 12px 14px; }
+  .nav-bar { padding: 12px 16px; }
+  .nav-btn { padding: 10px 16px; font-size: 0.9rem; }
+  .score-value { font-size: 3rem; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <!-- Header -->
+  <div class="header">
+    <h1>🇯🇵 JLPT N1-03</h1>
+    <div class="subtitle">第3回模擬テスト | v2.0.0</div>
+  </div>
+
+  <!-- Home Screen -->
+  <div id="home" class="home-content">
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-value" id="stat-best">-%</div>
+        <div class="stat-label">最高スコア</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="stat-attempts">0</div>
+        <div class="stat-label">受験回数</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="stat-wrong">0</div>
+        <div class="stat-label">復習問題</div>
+      </div>
+    </div>
+    <div class="home-actions">
+      <button class="btn btn-primary" onclick="startTest()">📝 テスト開始</button>
+      <div class="btn-row">
+        <button class="btn btn-secondary" onclick="startReview()">📚 復習モード</button>
+        <button class="btn btn-danger" onclick="resetData()">🗑️ リセット</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Test Screen -->
+  <div id="test" class="hidden">
+    <div class="test-header">
+      <div class="test-top">
+        <div class="test-title" id="test-title">模擬テスト</div>
+        <div class="timer" id="timer">00:00</div>
+      </div>
+      <div class="progress-container">
+        <div class="progress-bar">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+        <div class="progress-text" id="progress-text">1 / 15</div>
+      </div>
+    </div>
+    <div class="question-container" id="question-container"></div>
+    <div class="nav-bar">
+      <button class="nav-btn nav-btn-prev" id="btn-prev" onclick="prevQ()">← 前へ</button>
+      <button class="nav-btn nav-btn-submit" id="btn-submit" onclick="submitTest()">採点する</button>
+      <button class="nav-btn nav-btn-next" id="btn-next" onclick="nextQ()">次へ →</button>
+    </div>
+  </div>
+
+  <!-- Results Screen -->
+  <div id="results" class="results-content hidden">
+    <div class="score-card">
+      <div class="score-value" id="score-value">0%</div>
+      <div class="score-detail" id="score-detail">0問正解 / 15問中</div>
+      <div class="pass-badge" id="pass-badge">合格</div>
+    </div>
+    <div class="section-scores" id="section-scores"></div>
+    <div class="review-section">
+      <button class="review-toggle" id="review-toggle" onclick="toggleAnswerList()">
+        📋 正誤一覧を表示
+      </button>
+      <div class="answer-list hidden" id="answer-list"></div>
+    </div>
+    <div class="results-actions">
+      <button class="btn btn-primary" onclick="reviewWrong()">❌ 間違えた問題を復習</button>
+      <button class="btn btn-secondary" onclick="startTest()">🔄 もう一度挑戦</button>
+      <button class="btn btn-secondary" onclick="goHome()">🏠 ホームに戻る</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// Test Data (will be replaced)
+const TEST = {"id":"N1-03","title":"N1模擬テスト 第3回","kanji":[{"context":"彼は真摯な態度で謝罪した。","target":"真摯","options":["しんし","しんじ","まし","まじ"],"answer":0},{"context":"彼女の発言は的を射ている。","target":"的を射","options":["まとをい","てきをい","まとをしゃ","てきをしゃ"],"answer":0},{"context":"条約の批准が遅れている。","target":"批准","options":["ひじゅん","ひしゅん","ひじゅつ","ひしゅつ"],"answer":0},{"context":"彼は事態の推移を見守った。","target":"推移","options":["すいい","すいえ","ついい","ついえ"],"answer":0},{"context":"この地域は水害の脅威にさらされている。","target":"脅威","options":["きょうい","きょうかい","おどい","おどかい"],"answer":0},{"context":"その事件は社会に衝撃を与えた。","target":"衝撃","options":["しょうげき","しゅうげき","しょうけき","しゅうけき"],"answer":0}],"vocab":[{"context":"彼は（　　）を重ねて技術を磨いた。","options":["研鑽","逃避","怠惰","放棄"],"answer":0},{"context":"その企業は業界に（　　）をもたらした。","options":["革新","衰退","混乱","停滞"],"answer":0},{"context":"新しい法案は多くの議員の（　　）を得て可決された。","options":["棄権","批評","反発","賛同"],"answer":3},{"context":"彼の発言は周囲の（　　）を買った。","options":["賛同","顰蹙","称賛","共感"],"answer":1},{"context":"長年の（　　）が実を結び、ついに成功を収めた。","options":["怠惰","研鑽","逃避","停滞"],"answer":1},{"context":"私の主張は単なる（　　）ではなく、確たる証拠に基づいている。","options":["模索","推測","思索","推移"],"answer":1},{"context":"この問題の（　　）を探る必要がある。","options":["本質","表面","外観","印象"],"answer":0}],"grammar":[{"context":"彼女は優秀な（　　）、謙虚だ。","options":["うえに","ばかりか","のみならず","だけでなく"],"answer":0},{"context":"結果（　　）、過程も大切だ。","options":["のみならず","はおろか","どころか","ばかりで"],"answer":0},{"context":"彼は病気（　　）、会議に出席した。","options":["ながらも","にもかかわらず","としても","であろうと"],"answer":1},{"context":"彼女の努力（　　）、プロジェクトは成功した。","options":["をもって","のもとで","なくして","あっての"],"answer":3},{"context":"この機会を（　　）、新しい挑戦をしよう。","options":["契機に","皮切りに","手始めに","きっかけに"],"answer":0},{"context":"時間がない（　　）、急いでください。","options":["以上","からには","ものなら","ことから"],"answer":0},{"context":"彼は疲れている（　　）、笑顔を絶やさない。","options":["ものの","にしては","くせに","わりに"],"answer":0},{"context":"彼の成功は努力（　　）のものだ。","options":["ならでは","あっての","をもって","なくして"],"answer":1},{"context":"この問題は専門家（　　）解決できない。","options":["ならでは","であれ","をおいて","にして"],"answer":2},{"context":"あの人の言動（　　）、信用できない。","options":["からして","にして","として","だけして"],"answer":0}],"reading":[{"section":"内容理解（短文）","passage":"ビジネスの場において、不手際を謝罪する際の「言葉選び」は、その後の関係修復を左右する決定的な要因となる。心理学の研究によれば、単に「申し訳ありません」と繰り返すよりも、何に対して申し訳ないと思っているのかという「具体的対象」と、なぜその事態を招いたのかという「経緯」を簡潔に添える方が、相手の憤りを鎮める効果が高いという。","question":"この文章で筆者が最も言いたいことは何か。","options":["謝罪の言葉を何度も繰り返すことが誠意の証明になる","謝罪において重要なのは、言葉の量よりも謝るスピードである","適切な言葉で経緯を説明することが、相手への敬意として機能する","感情的な謝罪よりも、論理的な言い訳を優先すべきである"],"answer":2},{"section":"内容理解（中文）","passage":"現代は「記憶の外部化」が極限まで進んだ時代と言える。かつては個人の頭の中に蓄えられていた知識や経験の記録は、今やスマートフォンやクラウド上のサーバーに委ねられている。本来、記憶とは単なるデータの蓄積ではない。過去の記憶が脳内で複雑に結びつき、発酵するようにして新しいアイデアや深い洞察が生まれる。しかし、情報を「外」に置いたままにしておくと、知識同士が衝突し、火花を散らすような内省的なプロセスが省略されてしまう。","question":"筆者が言う「記憶の外部化」とはどういうことか。","options":["自分の経験を他人に話して共有すること","知識や記録をデジタルデバイスなどに保存し、頼ること","脳の機能を強化するために新しい技術を導入すること","過去の出来事を忘れるために記録を消去すること"],"answer":1},{"section":"内容理解（中文）","passage":"","question":"筆者は、記憶を「外」に置くことの問題点をどのように捉えているか。","options":["検索エンジンに頼ることで、情報の正確性が損なわれる点","デバイスが故障した際に、すべての情報を失うリスクがある点","脳内での情報の相互作用が減り、深い思考や洞察が生まれにくくなる点","情報を得るスピードが速すぎて、精神的な疲労が溜まる点"],"answer":2},{"section":"内容理解（長文）","passage":"科学の世界において「客観性」は絶対的な美徳とされる。しかし、現代の科学哲学の視点から見れば、完全な意味での「客観的な観察」など果たして可能なのだろうか。観測者は常に何らかの「理論的枠組み」を持って対象を見ているからだ。これを「観察の理論負荷性」と呼ぶ。それゆえ、科学における客観性とは、主観をゼロにすることではなく、自分がどのようなフィルターを通して世界を見ているかを自覚し、そのプロセスを公開することで、他者からの批判や修正を受ける準備があるという「態度の誠実さ」に求められるべきではないか。","question":"筆者が言う「観察の理論負荷性」とはどのような意味か。","options":["観察には常に高度な理論が必要であるということ","観察者の持つ知識や理論が、観察結果の解釈に影響を与えるということ","科学的な実験には、多額の費用と負荷がかかるということ","正しい理論さえあれば、観察をしなくても事実がわかるということ"],"answer":1},{"section":"内容理解（長文）","passage":"","question":"筆者が考える「科学における客観性」のあり方として最も適切なものはどれか。","options":["主観を完全に排除し、機械のように正確に記録すること","自分の見方が偏っている可能性を認め、検証可能な形で公開すること","多くの人が共通して持っている主観を、客観的事実とみなすこと","理論に頼らず、ありのままの自然を五感だけで捉えること"],"answer":1},{"section":"総合理解","passage":"【A】近年、テレワークの普及により対面での接触が激減したが、これは業務効率の面ではプラスでも、組織の創造性においてはマイナスだ。偶然の出会いや、会議前後の雑談から生まれる「知の摩擦」こそが、新しい発想の源泉だからである。\n\n【B】コミュニケーションの質を決定するのは、対面か否かという形式ではなく、情報の透明性と目的の共有である。リモートでは「偶然」は起きにくいが、それは逆に、各人が自律的に情報を発信し、必要な相手と戦略的に繋がる機会を増やしたとも言える。","question":"AとBの両者が共通して触れている点は何か。","options":["リモートワークが個人の生活に与える心理的な影響について","効率性と組織の創造性・質の高い対話の両立の難しさについて","デジタルツールの操作性がコミュニケーションを阻害している点について","物理的な場所を共有することで生じるコストの問題について"],"answer":1},{"section":"総合理解","passage":"","question":"組織における「理想的なコミュニケーション」について、AとBの立場はどう違うか。","options":["Aは意図しない偶然の接触を重視し、Bは目的を持った戦略的な繋がりを重視している","Aは効率を最優先すべきだとし、Bは無駄な時間を大切にすべきだとしている","Aはデジタルツールの導入に反対しており、Bはオフィスそのものを廃止すべきだとしている","Aは個人の思考の深さを重視し、Bは組織全体の雰囲気を重視している"],"answer":0},{"section":"主張理解（長文）","passage":"「孤独」という言葉には、常に寂しさや孤立といった否定的な影がつきまとう。しかし、哲学的な次元で捉え直せば、孤独とは「自己との対話」を可能にするための不可欠な条件である。本当の意味での「自律」とは、集団の意見に流されることではなく、一度他者の声を遮断し、自分自身で価値を吟味するプロセスを経て得られるものだ。他者と真に深く繋がるためにも、実は孤独は必要である。","question":"筆者がこの文章で最も伝えたい主張は何か。","options":["現代社会はネットワークが発達しすぎたため、孤独を感じる人が増えている","孤独は寂しい状態ではなく、自律した個人として思考を深めるために必要な時間である","他者と繋がるためには、自分の空虚さを隠さずにさらけ出す勇気が必要である","集団の意見に合わせることが、社会で生きていくための「自律」の第一歩である"],"answer":1},{"section":"情報検索","passage":"【光の街スポーツセンター利用案内】\n開館時間：9:00〜21:00（月曜休館）\n利用料金：一般600円、市内在住・在勤者400円（要証明書）、65歳以上200円\n予約ルール：個人利用（ジム・プール）は予約不要。団体利用（体育館）は利用月の2ヶ月前から予約可能。キャンセル料：3日前まで無料、それ以降は全額負担。\n特記事項：市外在住者でも市内の会社に勤めている場合は「市内料金」適用。毎月第3日曜日は「市民感謝デー」で市内在住・在勤者は無料。","question":"市外に住んでいるが、市内の銀行に勤めているAさん（35歳）が、8月第3日曜日にジムを個人利用する場合、料金と予約はどうなるか。","options":["料金は400円で、事前に予約をする必要がある","料金は無料で、予約をする必要はない","料金は600円で、予約をする必要はない","料金は無料で、事前に予約をする必要がある"],"answer":1}],"listening":[{"text":"会社で女の人と男の人が話しています。女の人：部長、明日の会議の資料ができました。男の人：ああ、ありがとう。でもグラフが見にくいな。女の人：修正しましょうか。男の人：うん、お願い。コピーは会議の直前でいいよ。","question":"女の人はこの後、まず何をしますか。","options":["グラフを修正する","資料をコピーする","会議に出席する","部長に報告する"],"answer":0},{"text":"ニュースです。今日、政府は新しい環境政策を発表しました。この政策では、2030年までに二酸化炭素の排出量を40%削減することを目標としています。","question":"この政策の目標は何ですか。","options":["二酸化炭素を40%削減する","環境投資を40%増やす","2030年までに政策を完成させる","専門家の意見を取り入れる"],"answer":0},{"text":"駅で男の人と女の人が話しています。男の人：すみません、新宿行きはどのホームですか。女の人：3番ホームです。でも次の電車は快速なので、各駅に止まりたいなら、その次の電車を待ってください。","question":"男の人が各駅停車に乗りたい場合、どうすればいいですか。","options":["3番ホームで次の電車に乗る","3番ホームで次の次の電車を待つ","別のホームに行く","駅員に聞く"],"answer":1},{"text":"大学で先生と学生が話しています。学生：先生、レポートの締め切りは来週の金曜日でしたよね。先生：いいえ、今週の金曜日ですよ。学生：え、そうでしたか。すみません、勘違いしていました。","question":"レポートの締め切りはいつですか。","options":["今週の金曜日","来週の金曜日","今週の月曜日","来週の月曜日"],"answer":0},{"text":"お店で店員と客が話しています。店員：こちらのシャツはいかがですか。客：いいですね。でも少し大きいかな。店員：では、ワンサイズ小さいのをお持ちしましょうか。客：お願いします。","question":"店員はこの後、何をしますか。","options":["小さいサイズのシャツを持ってくる","大きいサイズのシャツを持ってくる","別のデザインのシャツを見せる","会計をする"],"answer":0}]};
+const LEVEL = "N1";
+const TIME_LIMIT = 3600; // seconds
+const PASS_SCORE = 60; // percent
+const STORAGE_KEY = "fujisan_mock_v200_N1_03";
+
+// State
+let currentQ = 0;
+let answers = {};
+let startTime = null;
+let timerInterval = null;
+let isReview = false;
+let questions = [];
+let testResults = null;
+
+// Init
+function init() {
+  loadStats();
+}
+
+function loadStats() {
+  const data = getData();
+  document.getElementById('stat-best').textContent = data.best !== null ? data.best + '%' : '-%';
+  document.getElementById('stat-attempts').textContent = data.attempts || 0;
+  document.getElementById('stat-wrong').textContent = (data.wrongQuestions || []).length;
+}
+
+function getData() {
+  const saved = localStorage.getItem(STORAGE_KEY);
+  return saved ? JSON.parse(saved) : { best: null, attempts: 0, wrongQuestions: [] };
+}
+
+function saveData(data) {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+}
+
+// Start Test
+function startTest() {
+  currentQ = 0;
+  answers = {};
+  isReview = false;
+  questions = [...TEST.questions];
+  testResults = null;
+  
+  showScreen('test');
+  document.getElementById('test-title').textContent = TEST.title;
+  
+  startTime = Date.now();
+  updateTimer();
+  timerInterval = setInterval(updateTimer, 1000);
+  
+  renderQuestion();
+}
+
+function startReview() {
+  const data = getData();
+  if (!data.wrongQuestions || data.wrongQuestions.length === 0) {
+    alert('復習する問題がありません！');
+    return;
+  }
+  
+  currentQ = 0;
+  answers = {};
+  isReview = true;
+  questions = data.wrongQuestions.map((q, i) => ({...q, originalIndex: q.index}));
+  testResults = null;
+  
+  showScreen('test');
+  document.getElementById('test-title').textContent = '📚 復習モード';
+  document.getElementById('timer').textContent = '復習中';
+  
+  if (timerInterval) clearInterval(timerInterval);
+  timerInterval = null;
+  
+  renderQuestion();
+}
+
+// Timer
+function updateTimer() {
+  const elapsed = Math.floor((Date.now() - startTime) / 1000);
+  const remaining = TIME_LIMIT - elapsed;
+  
+  const timerEl = document.getElementById('timer');
+  
+  if (remaining <= 0) {
+    clearInterval(timerInterval);
+    timerEl.textContent = '00:00';
+    timerEl.classList.add('danger');
+    submitTest();
+    return;
+  }
+  
+  const mins = Math.floor(remaining / 60);
+  const secs = remaining % 60;
+  timerEl.textContent = String(mins).padStart(2, '0') + ':' + String(secs).padStart(2, '0');
+  
+  timerEl.classList.remove('warning', 'danger');
+  if (remaining <= 60) {
+    timerEl.classList.add('danger');
+  } else if (remaining <= 180) {
+    timerEl.classList.add('warning');
+  }
+}
+
+// Render Question
+function renderQuestion() {
+  const q = questions[currentQ];
+  const container = document.getElementById('question-container');
+  
+  // Progress
+  document.getElementById('progress-fill').style.width = ((currentQ + 1) / questions.length * 100) + '%';
+  document.getElementById('progress-text').textContent = (currentQ + 1) + ' / ' + questions.length;
+  
+  // Navigation buttons
+  document.getElementById('btn-prev').disabled = currentQ === 0;
+  document.getElementById('btn-next').disabled = currentQ === questions.length - 1;
+  
+  // Question
+  let html = '<div class="section-badge">' + (q.section || '問題') + '</div>';
+  
+  // Audio button for listening
+  if (q.audio) {
+    html += '<button class="audio-btn" id="audio-btn" onclick="playAudio()">🔊 音声を再生</button>';
+  }
+  
+  html += '<div class="question-text">' + q.text + '</div>';
+  html += '<div class="options">';
+  
+  q.options.forEach((opt, i) => {
+    const selected = answers[currentQ] === i ? 'selected' : '';
+    html += '<div class="option ' + selected + '" onclick="selectAnswer(' + i + ')">';
+    html += '<span class="option-label">' + (i + 1) + '</span>';
+    html += '<span class="option-text">' + opt + '</span>';
+    html += '</div>';
+  });
+  
+  html += '</div>';
+  container.innerHTML = html;
+}
+
+function selectAnswer(index) {
+  answers[currentQ] = index;
+  renderQuestion();
+}
+
+function prevQ() {
+  if (currentQ > 0) {
+    currentQ--;
+    renderQuestion();
+  }
+}
+
+function nextQ() {
+  if (currentQ < questions.length - 1) {
+    currentQ++;
+    renderQuestion();
+  }
+}
+
+// Audio
+let isPlaying = false;
+function playAudio() {
+  if (isPlaying) return;
+  const q = questions[currentQ];
+  if (!q.audio) return;
+  
+  const btn = document.getElementById('audio-btn');
+  btn.disabled = true;
+  btn.classList.add('playing');
+  btn.textContent = '🔊 再生中...';
+  isPlaying = true;
+  
+  speechSynthesis.cancel();
+  const utterance = new SpeechSynthesisUtterance(q.audio);
+  utterance.lang = 'ja-JP';
+  utterance.rate = 0.9;
+  
+  utterance.onend = () => {
+    btn.disabled = false;
+    btn.classList.remove('playing');
+    btn.textContent = '🔊 もう一度再生';
+    isPlaying = false;
+  };
+  
+  utterance.onerror = () => {
+    btn.disabled = false;
+    btn.classList.remove('playing');
+    btn.textContent = '🔊 音声を再生';
+    isPlaying = false;
+  };
+  
+  speechSynthesis.speak(utterance);
+}
+
+// Submit Test
+function submitTest() {
+  if (timerInterval) {
+    clearInterval(timerInterval);
+    timerInterval = null;
+  }
+  
+  // Calculate results
+  let correct = 0;
+  const wrongQuestions = [];
+  const sectionScores = {};
+  
+  questions.forEach((q, i) => {
+    const section = q.section || '問題';
+    if (!sectionScores[section]) {
+      sectionScores[section] = { correct: 0, total: 0 };
+    }
+    sectionScores[section].total++;
+    
+    if (answers[i] === q.answer) {
+      correct++;
+      sectionScores[section].correct++;
+    } else {
+      wrongQuestions.push({
+        ...q,
+        index: q.originalIndex !== undefined ? q.originalIndex : i,
+        userAnswer: answers[i]
+      });
+    }
+  });
+  
+  const score = Math.round((correct / questions.length) * 100);
+  const passed = score >= PASS_SCORE;
+  
+  testResults = {
+    score,
+    correct,
+    total: questions.length,
+    passed,
+    sectionScores,
+    wrongQuestions,
+    answers: {...answers}
+  };
+  
+  // Save data (not in review mode)
+  if (!isReview) {
+    const data = getData();
+    data.attempts = (data.attempts || 0) + 1;
+    if (data.best === null || score > data.best) {
+      data.best = score;
+    }
+    // Update wrong questions list
+    const existingWrong = data.wrongQuestions || [];
+    wrongQuestions.forEach(wq => {
+      if (!existingWrong.find(e => e.text === wq.text)) {
+        existingWrong.push(wq);
+      }
+    });
+    // Remove questions that were answered correctly
+    data.wrongQuestions = existingWrong.filter(wq => {
+      const idx = questions.findIndex(q => q.text === wq.text);
+      return idx === -1 || answers[idx] !== wq.answer;
+    });
+    saveData(data);
+  }
+  
+  // Show results
+  showResults();
+}
+
+function showResults() {
+  showScreen('results');
+  
+  const { score, correct, total, passed, sectionScores, wrongQuestions } = testResults;
+  
+  document.getElementById('score-value').textContent = score + '%';
+  document.getElementById('score-detail').textContent = correct + '問正解 / ' + total + '問中';
+  
+  const passBadge = document.getElementById('pass-badge');
+  passBadge.textContent = passed ? '合格ライン到達！' : '不合格';
+  passBadge.className = 'pass-badge ' + (passed ? 'pass' : 'fail');
+  
+  // Section scores
+  let sectionsHtml = '';
+  Object.entries(sectionScores).forEach(([section, scores]) => {
+    const pct = Math.round((scores.correct / scores.total) * 100);
+    sectionsHtml += '<div class="section-score-card">';
+    sectionsHtml += '<div class="section-score-value">' + scores.correct + '/' + scores.total + '</div>';
+    sectionsHtml += '<div class="section-score-label">' + section.substring(0, 8) + '</div>';
+    sectionsHtml += '</div>';
+  });
+  document.getElementById('section-scores').innerHTML = sectionsHtml;
+  
+  // Answer list
+  renderAnswerList();
+  
+  loadStats();
+}
+
+function renderAnswerList() {
+  const { answers: testAnswers } = testResults;
+  let html = '';
+  
+  questions.forEach((q, i) => {
+    const isCorrect = testAnswers[i] === q.answer;
+    const userAns = testAnswers[i] !== undefined ? q.options[testAnswers[i]] : '未回答';
+    const correctAns = q.options[q.answer];
+    
+    html += '<div class="answer-item ' + (isCorrect ? '' : 'wrong') + '">';
+    html += '<div class="answer-q-num">問' + (i + 1) + ' - ' + (q.section || '問題') + '</div>';
+    html += '<div class="answer-q-text">' + q.text.substring(0, 100) + (q.text.length > 100 ? '...' : '') + '</div>';
+    html += '<div class="answer-result">';
+    if (isCorrect) {
+      html += '<div class="answer-correct">✓ 正解: ' + correctAns + '</div>';
+    } else {
+      html += '<div class="answer-your">✗ あなたの回答: ' + userAns + '</div>';
+      html += '<div class="answer-correct">○ 正解: ' + correctAns + '</div>';
+    }
+    html += '</div></div>';
+  });
+  
+  document.getElementById('answer-list').innerHTML = html;
+}
+
+function toggleAnswerList() {
+  const list = document.getElementById('answer-list');
+  const btn = document.getElementById('review-toggle');
+  
+  if (list.classList.contains('hidden')) {
+    list.classList.remove('hidden');
+    btn.textContent = '📋 正誤一覧を隠す';
+  } else {
+    list.classList.add('hidden');
+    btn.textContent = '📋 正誤一覧を表示';
+  }
+}
+
+function reviewWrong() {
+  if (!testResults || testResults.wrongQuestions.length === 0) {
+    alert('間違えた問題がありません！');
+    return;
+  }
+  
+  currentQ = 0;
+  answers = {};
+  isReview = true;
+  questions = testResults.wrongQuestions.map((q, i) => ({...q}));
+  testResults = null;
+  
+  showScreen('test');
+  document.getElementById('test-title').textContent = '❌ 間違えた問題';
+  document.getElementById('timer').textContent = '復習中';
+  
+  renderQuestion();
+}
+
+// Navigation
+function showScreen(id) {
+  ['home', 'test', 'results'].forEach(s => {
+    document.getElementById(s).classList.toggle('hidden', s !== id);
+  });
+}
+
+function goHome() {
+  if (timerInterval) {
+    clearInterval(timerInterval);
+    timerInterval = null;
+  }
+  showScreen('home');
+  loadStats();
+}
+
+function resetData() {
+  if (confirm('このテストのすべてのデータをリセットしますか？')) {
+    localStorage.removeItem(STORAGE_KEY);
+    loadStats();
+    alert('リセットしました');
+  }
+}
+
+// Initialize
+init();
+</script>
+</body>
+</html>

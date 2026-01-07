@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Fujisan.AI — JLPT Learning</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="48x48" href="/images/favicon-48.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16.png">
+  
+  <!-- PWA Meta Tags -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#005BAC">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Fujisan.AI">
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+  
+  <!-- Fonts (Design Guideline) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-vertexai-preview.js"></script>
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ONBOARDING -->
+<div id="onboarding-overlay" class="onboarding-overlay" style="display:none;">
+  <div class="onboarding-container">
+    <!-- Step indicators -->
+    <div class="onboarding-dots">
+      <span class="onboarding-dot active" data-step="1"></span>
+      <span class="onboarding-dot" data-step="2"></span>
+      <span class="onboarding-dot" data-step="3"></span>
+      <span class="onboarding-dot" data-step="4"></span>
+    </div>
+    
+    <!-- Step 1: Welcome -->
+    <div class="onboarding-step active" data-step="1">
+      <div class="onboarding-icon">
+        <svg viewBox="0 0 24 24" width="80" height="80">
+          <path fill="#005BAC" d="M12 4L2 20h20L12 4zm0 4l6 10H6l6-10z"/>
+          <path fill="#e6f0f9" d="M12 4L8 10h8L12 4z"/>
+        </svg>
+      </div>
+      <h1 class="onboarding-title">Welcome to Fujisan.AI</h1>
+      <p class="onboarding-desc">Your AI-powered JLPT tutor. Master Japanese with personalized learning.</p>
+    </div>
+    
+    <!-- Step 2: Select Level -->
+    <div class="onboarding-step" data-step="2">
+      <div class="onboarding-icon">🎯</div>
+      <h1 class="onboarding-title">What's your goal?</h1>
+      <p class="onboarding-desc">Select your target JLPT level</p>
+      <div class="onboarding-levels">
+        <button class="onboarding-level-btn" data-level="N5" onclick="selectOnboardingLevel('N5')">
+          <span class="level-tag n5">N5</span>
+          <span class="level-name">Beginner</span>
+        </button>
+        <button class="onboarding-level-btn" data-level="N4" onclick="selectOnboardingLevel('N4')">
+          <span class="level-tag n4">N4</span>
+          <span class="level-name">Elementary</span>
+        </button>
+        <button class="onboarding-level-btn" data-level="N3" onclick="selectOnboardingLevel('N3')">
+          <span class="level-tag n3">N3</span>
+          <span class="level-name">Intermediate</span>
+        </button>
+        <button class="onboarding-level-btn" data-level="N2" onclick="selectOnboardingLevel('N2')">
+          <span class="level-tag n2">N2</span>
+          <span class="level-name">Advanced</span>
+        </button>
+        <button class="onboarding-level-btn" data-level="N1" onclick="selectOnboardingLevel('N1')">
+          <span class="level-tag n1">N1</span>
+          <span class="level-name">Expert</span>
+        </button>
+      </div>
+    </div>
+    
+    <!-- Step 3: Features -->
+    <div class="onboarding-step" data-step="3">
+      <div class="onboarding-icon">✨</div>
+      <h1 class="onboarding-title">3 Ways to Learn</h1>
+      <div class="onboarding-features">
+        <div class="onboarding-feature">
+          <div class="feature-icon">📚</div>
+          <div class="feature-text">
+            <strong>Drill</strong>
+            <span>Daily vocabulary, kanji & grammar practice</span>
+          </div>
+        </div>
+        <div class="onboarding-feature">
+          <div class="feature-icon">📝</div>
+          <div class="feature-text">
+            <strong>Mock Test</strong>
+            <span>Real JLPT format with 20 practice sets</span>
+          </div>
+        </div>
+        <div class="onboarding-feature">
+          <div class="feature-icon">🤖</div>
+          <div class="feature-text">
+            <strong>AI Tutor</strong>
+            <span>Get personalized explanations for mistakes</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Step 4: Ready -->
+    <div class="onboarding-step" data-step="4">
+      <div class="onboarding-icon">🚀</div>
+      <h1 class="onboarding-title">You're all set!</h1>
+      <p class="onboarding-desc">Start with Unit 1 and let AI guide your journey to JLPT success.</p>
+      <div class="onboarding-tip">
+        <strong>💡 Pro Tip:</strong> Complete at least 1 unit daily for best results
+      </div>
+    </div>
+    
+    <!-- Navigation -->
+    <div class="onboarding-nav">
+      <button class="onboarding-skip" onclick="skipOnboarding()">Skip</button>
+      <button class="onboarding-next" onclick="nextOnboardingStep()">
+        <span id="onboarding-next-text">Next</span>
+        <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- DASHBOARD -->
+<div id="screen-drill" class="screen active dashboard-fixed">
+  <div class="header">
+    <div class="logo" onclick="goHome()" style="cursor:pointer"><img src="/images/logo.png" alt="Fujisan.AI" class="logo-img" style="height:130px;"></div>
+    <div class="header-right">
+      <select class="lang-selector" id="lang-select" onchange="changeLang(this.value)">
+        <option value="en">EN</option>
+        <option value="zh-TW">繁體中文</option>
+        <option value="zh-CN">简体中文</option>
+        <option value="ko">한국어</option>
+        <option value="vi">Tiếng Việt</option>
+        <option value="id" disabled>Indonesia (準備中)</option>
+      </select>
+      <button class="header-btn" onclick="event.stopPropagation(); showScreen('settings')"><svg viewBox="0 0 24 24" width="16" height="16" style="vertical-align:-2px"><path fill="currentColor" d="M19.14 12.94c.04-.31.06-.63.06-.94 0-.31-.02-.63-.06-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.04.31-.06.63-.06.94s.02.63.06.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/></svg></button>
+    </div>
+  </div>
+  
+  <!-- Level Selector (TOP) -->
+  <div class="dash-level-row" id="drill-level-row">
+    <button class="level-select-btn active" data-level="N5">N5</button>
+    <button class="level-select-btn" data-level="N4">N4</button>
+    <button class="level-select-btn" data-level="N3">N3</button>
+    <button class="level-select-btn" data-level="N2">N2</button>
+    <button class="level-select-btn" data-level="N1">N1</button>
+  </div>
+  
+  <!-- NAV BAR (3 items: Drill, Mock, AI) -->
+  <nav class="nav-bar nav-bar-3">
+    <button class="nav-btn active" data-screen="drill"><span class="nav-icon"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M4 4h6c1.1 0 2 .9 2 2v14c0-.55-.45-1-1-1H4V4zm16 0h-6c-1.1 0-2 .9-2 2v14c0-.55.45-1 1-1h7V4z"/></svg></span>Drill</button>
+    <button class="nav-btn" data-screen="mock"><span class="nav-icon"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm-1 2l5 5h-5V4zM6 20V4h6v6h6v10H6z"/></svg></span>Mock</button>
+    <button class="nav-btn" data-screen="ai"><span class="nav-icon ai-nav-icon"></span>AI</button>
+  </nav>
+  
+  <!-- MAIN CONTENT AREA (Fixed Layout) -->
+  <div class="dashboard-content">
+    <!-- Continue Button (shows if last session exists) -->
+    <button class="continue-btn" id="continue-btn" onclick="continueLastSession()" style="display:none;">
+      <svg class="sf-icon" viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M8 5v14l11-7z"/></svg>
+      <span id="continue-btn-text">Continue</span>
+    </button>
+    
+    <!-- Unit Grid -->
+    <div class="dash-unit-section">
+      <div class="unit-grid" id="unit-grid"></div>
+    </div>
+    
+    <!-- Category Buttons (tap to start quiz) -->
+    <div class="category-row">
+      <button class="category-btn" data-cat="vocab" onclick="selectCategoryAndStart('vocab')"><div class="category-icon"><svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z"/></svg></div><div class="category-name" data-i18n="vocab">Vocab</div></button>
+      <button class="category-btn" data-cat="kanji" onclick="selectCategoryAndStart('kanji')"><div class="category-icon"><svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M5 4v3h5.5v12h3V7H19V4H5z"/></svg></div><div class="category-name" data-i18n="kanji">Kanji</div></button>
+      <button class="category-btn" data-cat="grammar" onclick="selectCategoryAndStart('grammar')"><div class="category-icon"><svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zM6 20V4h7v5h5v11H6z"/></svg></div><div class="category-name" data-i18n="grammar">Grammar</div></button>
+    </div>
+  </div>
+</div>
+
+<!-- QUIZ (All Modes) -->
+<div id="screen-quiz" class="screen quiz-screen">
+  <div class="q-header">
+    <button class="back-btn" onclick="confirmExit()">←</button>
+    <div class="q-title" id="quiz-title">Drill</div>
+    <div class="skill-badge" id="skill-badge">👂 Listening</div>
+    <button class="review-header-btn" id="review-header-btn" onclick="startReview()" style="display:none">🔄 <span id="review-header-count">0</span></button>
+    <div class="q-progress" id="quiz-progress">1/10</div>
+  </div>
+  <div class="q-card compact">
+    <div class="q-prompt" id="quiz-prompt">What does this mean?</div>
+    <div class="q-word" id="quiz-word">-</div>
+    <div class="q-reading" id="quiz-reading">-</div>
+    <button class="audio-btn" id="quiz-audio-btn" onclick="playAudio()" style="display:none">🔊 Play</button>
+  </div>
+  <div class="options compact" id="quiz-options"></div>
+  
+  <!-- Feedback Area (shows after answer) -->
+  <div class="feedback-area" id="feedback-area" style="display:none">
+    <div class="feedback-result" id="feedback-result">
+      <span class="feedback-icon"></span>
+      <span class="feedback-text"></span>
+    </div>
+    <div class="feedback-answer" id="feedback-answer"></div>
+    
+    <!-- AI Auto Comment (for wrong answers) -->
+    <div class="feedback-ai-section" id="feedback-ai-section" style="display:none">
+      <div class="feedback-ai-comment" id="feedback-ai-comment">
+        <div class="ai-comment-loading">🤖 Loading...</div>
+      </div>
+      
+      <!-- Follow-up Question Input -->
+      <div class="feedback-followup">
+        <input type="text" class="followup-input" id="followup-input" placeholder="Ask a follow-up question...">
+        <button class="followup-btn" id="followup-btn" onclick="askFollowup()">→</button>
+      </div>
+      <div class="followup-response" id="followup-response" style="display:none"></div>
+    </div>
+    
+    <button class="feedback-next-btn" id="feedback-next-btn" onclick="advanceToNextQuestion()">次へ →</button>
+  </div>
+</div>
+
+<!-- RESULT -->
+<div id="screen-result" class="screen">
+  <div class="result-card" id="result-card">
+    <div class="result-icon" id="result-icon">✓</div>
+    <div class="result-score" id="result-score">0%</div>
+    <div class="result-label" id="result-label">-</div>
+    <div class="result-praise" id="result-praise"></div>
+    <div class="result-stats">
+      <div class="result-stat"><div class="result-stat-value" id="result-correct">0</div><div class="result-stat-label">Correct</div></div>
+      <div class="result-stat"><div class="result-stat-value" id="result-wrong">0</div><div class="result-stat-label">Wrong</div></div>
+      <div class="result-stat"><div class="result-stat-value" id="result-time">0:00</div><div class="result-stat-label">Time</div></div>
+    </div>
+  </div>
+  
+  <!-- Wrong Answers with AI Explanation -->
+  <div class="wrong-answers-section" id="wrongAnswersSection" style="display: none;">
+    <div class="wrong-answers-title">Review Your Mistakes</div>
+    <div id="wrongAnswersList"></div>
+  </div>
+  
+  <div class="result-actions">
+    <button class="btn-primary" id="nextUnitBtn" onclick="goToNextUnit()" style="display:none;">Next Unit →</button>
+    <button class="btn-secondary" onclick="reviewMistakes()" id="reviewMistakesBtn">Review Mistakes</button>
+    <button class="btn-secondary" onclick="retrySession()">Try Again</button>
+    <button class="btn-secondary" onclick="goHome()">Home</button>
+  </div>
+</div>
+
+<!-- MOCK -->
+<div id="screen-mock" class="screen mock-screen-compact">
+  <div class="header">
+    <div class="logo" onclick="goHome()" style="cursor:pointer"><img src="/images/logo.png" alt="Fujisan.AI" class="logo-img" style="height:130px;"></div>
+    <div class="header-right">
+      <select class="lang-selector" onchange="changeLang(this.value)">
+        <option value="en">EN</option>
+        <option value="zh-TW">繁體中文</option>
+        <option value="zh-CN">简体中文</option>
+        <option value="ko">한국어</option>
+        <option value="vi">Tiếng Việt</option>
+        <option value="id" disabled>Indonesia (準備中)</option>
+      </select>
+      <button class="header-btn" onclick="event.stopPropagation(); showScreen('settings')"><svg viewBox="0 0 24 24" width="16" height="16" style="vertical-align:-2px"><path fill="currentColor" d="M19.14 12.94c.04-.31.06-.63.06-.94 0-.31-.02-.63-.06-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.04.31-.06.63-.06.94s.02.63.06.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/></svg></button>
+    </div>
+  </div>
+  
+  <!-- Level Selection -->
+  <div class="dash-level-row" id="mock-levels">
+    <button class="level-select-btn active" data-level="N5">N5</button>
+    <button class="level-select-btn" data-level="N4">N4</button>
+    <button class="level-select-btn" data-level="N3">N3</button>
+    <button class="level-select-btn" data-level="N2">N2</button>
+    <button class="level-select-btn" data-level="N1">N1</button>
+  </div>
+  
+  <nav class="nav-bar nav-bar-3">
+    <button class="nav-btn" data-screen="drill"><span class="nav-icon"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M4 4h6c1.1 0 2 .9 2 2v14c0-.55-.45-1-1-1H4V4zm16 0h-6c-1.1 0-2 .9-2 2v14c0-.55.45-1 1-1h7V4z"/></svg></span>Drill</button>
+    <button class="nav-btn active" data-screen="mock"><span class="nav-icon"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm-1 2l5 5h-5V4zM6 20V4h6v6h6v10H6z"/></svg></span>Mock</button>
+    <button class="nav-btn" data-screen="ai"><span class="nav-icon ai-nav-icon"></span>AI</button>
+  </nav>
+  
+  <!-- Mock Content Area -->
+  <div class="mock-content">
+    <!-- Quick Start Card -->
+    <div class="mock-quick-card">
+      <div class="mock-quick-header">
+        <span class="mock-quick-level" id="mock-level-badge">N5</span>
+        <span class="mock-quick-title">Mock Test</span>
+      </div>
+      <div class="mock-quick-stats">
+        <div class="mock-quick-stat"><span class="mock-stat-num" id="mock-q-count">91</span><span class="mock-stat-label">Q</span></div>
+        <div class="mock-quick-divider"></div>
+        <div class="mock-quick-stat"><span class="mock-stat-num" id="mock-time">105</span><span class="mock-stat-label">min</span></div>
+      </div>
+      <button class="mock-start-btn" onclick="startMock()">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M8 5v14l11-7z"/></svg>
+        Start Test
+      </button>
+    </div>
+    
+    <!-- Mode & Set Selection -->
+    <div class="mock-options">
+      <div class="mock-option-row">
+        <span class="mock-option-label">Mode</span>
+        <div class="mock-option-toggle">
+          <button class="mock-toggle-btn active" data-mode="full" onclick="selectMockMode('full')">Full</button>
+          <button class="mock-toggle-btn" data-mode="section" onclick="selectMockMode('section')">Section</button>
+        </div>
+      </div>
+      
+      <!-- Section Selection (hidden by default) -->
+      <div class="mock-section-select hidden" id="mockSectionSelect">
+        <div class="mock-section-pills">
+          <button class="mock-pill" data-section="moji" onclick="selectMockSection(this)"><span data-i18n="sectionMoji">文字</span></button>
+          <button class="mock-pill" data-section="bunpou" onclick="selectMockSection(this)"><span data-i18n="sectionBunpou">文法</span></button>
+          <button class="mock-pill" data-section="choukai" onclick="selectMockSection(this)"><span data-i18n="sectionChoukai">聴解</span></button>
+        </div>
+      </div>
+      
+      <div class="mock-option-row">
+        <span class="mock-option-label">Set</span>
+        <select class="mock-set-select" id="mockSetSelect" onchange="selectMockSet(this.value)">
+          <option value="1" selected>Set 1</option>
+          <option value="2">Set 2</option>
+          <option value="3">Set 3</option>
+          <option value="4">Set 4</option>
+          <option value="5">Set 5</option>
+          <option value="6">Set 6</option>
+          <option value="7">Set 7</option>
+          <option value="8">Set 8</option>
+          <option value="9">Set 9</option>
+          <option value="10">Set 10</option>
+          <option value="11">Set 11</option>
+          <option value="12">Set 12</option>
+          <option value="13">Set 13</option>
+          <option value="14">Set 14</option>
+          <option value="15">Set 15</option>
+          <option value="16">Set 16</option>
+          <option value="17">Set 17</option>
+          <option value="18">Set 18</option>
+          <option value="19">Set 19</option>
+          <option value="20">Set 20</option>
+          <option value="random">🎲 Random</option>
+        </select>
+      </div>
+    </div>
+    
+    <!-- Recent Score (if exists) -->
+    <div class="mock-recent" id="mockRecent" style="display:none;">
+      <div class="mock-recent-label">Last Score</div>
+      <div class="mock-recent-score" id="mockRecentScore">--</div>
+    </div>
+  </div>
+</div>
+
+<!-- MOCK-Q (JLPT Format) -->
+<div id="screen-mock-q" class="screen">
+  <div class="timer" id="timer">105:00</div>
+  <div class="mock-section-header" id="mockSectionHeader">
+    <div class="mock-section-current" id="mockSectionCurrent">言語知識（文字・語彙）</div>
+    <div class="mock-subsection-current" id="mockSubsectionCurrent">もんだい1</div>
+  </div>
+  <div class="q-header">
+    <button class="back-btn" onclick="confirmExitMock()">←</button>
+    <div class="q-title">Mock Test</div>
+    <div class="q-progress" id="mock-progress">1/91</div>
+  </div>
+  <div class="q-card mock-q-card">
+    <div class="mock-q-instruction" id="mock-instruction"></div>
+    <div class="mock-q-text" id="mock-question-text"></div>
+    <audio id="mockAudio" style="display:none"></audio>
+    <button class="audio-btn mock-audio-btn hidden" id="mockAudioBtn" onclick="playMockAudio()">
+      <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
+      Play Audio
+    </button>
+  </div>
+  <div class="options mock-options" id="mock-options"></div>
+  <div class="mock-nav-btns">
+    <button class="mock-nav-btn" id="mockPrevBtn" onclick="mockPrevQuestion()" disabled>← Previous</button>
+    <button class="mock-nav-btn" id="mockNextBtn" onclick="mockNextQuestion()">Next →</button>
+  </div>
+</div>
+
+<!-- MOCK RESULT -->
+<div id="screen-mock-result" class="screen">
+  <div class="q-header">
+    <button class="back-btn" onclick="showScreen('mock')">←</button>
+    <div class="q-title">Mock Test Result</div>
+  </div>
+  
+  <!-- Score Card -->
+  <div class="mock-result-card">
+    <div class="mock-result-icon" id="mock-result-icon">🎉</div>
+    <div class="mock-result-score" id="mock-result-score">0%</div>
+    <div class="mock-result-label" id="mock-result-label">合格 PASSED!</div>
+    <div class="mock-result-stats" id="mock-result-stats"></div>
+  </div>
+  
+  <!-- Section Breakdown -->
+  <div class="mock-section-breakdown" id="mock-section-breakdown"></div>
+  
+  <!-- AI Study Guidance -->
+  <div class="ai-guidance-card" id="ai-guidance-card">
+    <div class="ai-guidance-title">🤖 AI Study Guidance</div>
+    <div class="ai-guidance-content" id="ai-guidance-content">Analyzing your results...</div>
+  </div>
+  
+  <!-- Wrong Answers with Explanations -->
+  <div class="mock-explanations" id="mock-explanations">
+    <div class="mock-explanations-title">📝 Review & Explanations</div>
+    <div class="mock-explanations-list" id="mock-explanations-list"></div>
+  </div>
+  
+  <!-- Actions -->
+  <div class="mock-result-actions">
+    <button class="btn-primary" onclick="startMock()">Try Again</button>
+    <button class="btn-secondary" onclick="showScreen('mock')">Back to Mock Tests</button>
+    <button class="btn-secondary" onclick="showScreen('drill')">Practice Weak Areas</button>
+  </div>
+</div>
+
+<!-- AI -->
+<div id="screen-ai" class="screen">
+  <div class="header">
+    <div class="logo" onclick="goHome()" style="cursor:pointer"><img src="/images/logo.png" alt="Fujisan.AI" class="logo-img" style="height:130px;"></div>
+    <div class="header-right">
+      <select class="lang-selector" onchange="changeLang(this.value)">
+        <option value="en">EN</option>
+        <option value="zh-TW">繁體中文</option>
+        <option value="zh-CN">简体中文</option>
+        <option value="ko">한국어</option>
+        <option value="vi">Tiếng Việt</option>
+        <option value="id" disabled>Indonesia (準備中)</option>
+      </select>
+      <button class="header-btn" onclick="event.stopPropagation(); showScreen('settings')"><svg viewBox="0 0 24 24" width="16" height="16" style="vertical-align:-2px"><path fill="currentColor" d="M19.14 12.94c.04-.31.06-.63.06-.94 0-.31-.02-.63-.06-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.04.31-.06.63-.06.94s.02.63.06.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/></svg></button>
+    </div>
+  </div>
+  <nav class="nav-bar nav-bar-3">
+    <button class="nav-btn" data-screen="drill"><span class="nav-icon"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M4 4h6c1.1 0 2 .9 2 2v14c0-.55-.45-1-1-1H4V4zm16 0h-6c-1.1 0-2 .9-2 2v14c0-.55.45-1 1-1h7V4z"/></svg></span>Drill</button>
+    <button class="nav-btn" data-screen="mock"><span class="nav-icon"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm-1 2l5 5h-5V4zM6 20V4h6v6h6v10H6z"/></svg></span>Mock</button>
+    <button class="nav-btn active" data-screen="ai"><span class="nav-icon ai-nav-icon"></span>AI</button>
+  </nav>
+  
+  <!-- AI Tutor Locked State -->
+  <div id="aiLocked">
+    <div class="ai-card"><div class="ai-title">AI Study Coach</div><div class="ai-desc">Your personal guide grounded in Second Language Acquisition science. Evidence-based support for your learning journey.</div><div class="ai-badge">Premium Feature</div></div>
+    <div class="ai-features">
+      <div class="ai-feature"><div class="ai-feature-icon">🧠</div><div class="ai-feature-text"><div class="ai-feature-title">Science-Based Explanations</div><div class="ai-feature-desc">Understanding builds stronger memories than memorization</div></div></div>
+      <div class="ai-feature"><div class="ai-feature-icon">🎯</div><div class="ai-feature-text"><div class="ai-feature-title">Personalized Scaffolding</div><div class="ai-feature-desc">Guidance tailored to your current level (i+1)</div></div></div>
+      <div class="ai-feature"><div class="ai-feature-icon">📈</div><div class="ai-feature-text"><div class="ai-feature-title">Growth-Focused Coaching</div><div class="ai-feature-desc">Frame challenges as opportunities, not obstacles</div></div></div>
+      <div class="ai-feature"><div class="ai-feature-icon">💬</div><div class="ai-feature-text"><div class="ai-feature-title">24/7 Support</div><div class="ai-feature-desc">Questions at 2am? Your coach is always here</div></div></div>
+    </div>
+    <button class="btn-primary" style="margin-top:20px" onclick="openSubscriptionModal()">Upgrade to Premium</button>
+  </div>
+  
+  <!-- AI Tutor Unlocked State -->
+  <div id="aiUnlocked" style="display:none;">
+    <div class="ai-card" style="background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);">
+      <div class="ai-title" style="color:white;">AI Study Coach</div>
+      <div class="ai-desc" style="color:rgba(255,255,255,0.9);">Your guide through the language acquisition journey</div>
+    </div>
+    
+    <div id="aiChatHistory" style="flex:1;overflow-y:auto;padding:12px 0;max-height:400px;"></div>
+    
+    <div style="display:flex;flex-direction:column;gap:8px;margin-top:auto;">
+      <div style="display:flex;flex-wrap:wrap;gap:8px;">
+        <button class="ai-quick-btn" onclick="askAI('Analyze my growth areas and suggest focus points')">📊 My Growth Areas</button>
+        <button class="ai-quick-btn" onclick="askAI('Give me evidence-based study strategies for ' + state.level)">📚 Study Science</button>
+        <button class="ai-quick-btn" onclick="askAI('Help me understand common error patterns in Japanese learning')">🧠 Error Patterns</button>
+      </div>
+      <div style="display:flex;gap:8px;">
+        <input type="text" id="aiInput" placeholder="Ask about grammar, vocabulary, or learning strategies..." style="flex:1;padding:12px;border:1px solid var(--border);border-radius:12px;font-size:15px;" onkeypress="if(event.key==='Enter')sendAIMessage()">
+        <button onclick="sendAIMessage()" style="padding:12px 20px;background:var(--primary);color:white;border:none;border-radius:12px;font-weight:600;">Send</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SETTINGS -->
+<div id="screen-settings" class="screen settings-fixed">
+  <div class="settings-header">
+    <button class="back-btn" onclick="showScreen('drill')">←</button>
+    <div class="settings-title">Settings</div>
+  </div>
+  
+  <div class="settings-content">
+    <!-- Account Section -->
+    <div class="settings-section">
+      <div class="settings-section-title">Account</div>
+      <div class="setting-item">
+        <div class="setting-icon">📧</div>
+        <div class="setting-info">
+          <div class="setting-title">Email</div>
+          <div class="setting-desc" id="settingsEmail">Not logged in</div>
+        </div>
+      </div>
+      <div class="setting-item">
+        <div class="setting-icon">⭐</div>
+        <div class="setting-info">
+          <div class="setting-title">Current Plan</div>
+          <div class="setting-desc" id="settingsPlanDesc">Free Trial</div>
+        </div>
+        <button class="setting-action-btn" onclick="openSubscriptionModal()">Upgrade</button>
+      </div>
+    </div>
+    
+    <!-- Study Settings -->
+    <div class="settings-section">
+      <div class="settings-section-title">Study Settings</div>
+      <div class="setting-item">
+        <div class="setting-icon">🔢</div>
+        <div class="setting-info">
+          <div class="setting-title">Questions per Unit</div>
+          <div class="setting-desc">Items in each session</div>
+        </div>
+        <select class="setting-select" id="q-count" onchange="changeQCount(this.value)">
+          <option value="5">5</option>
+          <option value="10">10</option>
+          <option value="22" selected>22 (1 Unit)</option>
+        </select>
+      </div>
+      <div class="setting-item">
+        <div class="setting-icon">🔊</div>
+        <div class="setting-info">
+          <div class="setting-title">Sound Effects</div>
+          <div class="setting-desc">Quiz sounds</div>
+        </div>
+        <label class="setting-toggle">
+          <input type="checkbox" id="sound-toggle" checked onchange="toggleSound(this.checked)">
+          <span class="toggle-slider"></span>
+        </label>
+      </div>
+    </div>
+    
+    <!-- Data Section -->
+    <div class="settings-section">
+      <div class="settings-section-title">Data</div>
+      <div class="setting-item" onclick="resetProgress()" style="cursor:pointer">
+        <div class="setting-icon">🗑️</div>
+        <div class="setting-info">
+          <div class="setting-title">Reset Progress</div>
+          <div class="setting-desc">Clear all learning data</div>
+        </div>
+        <span class="setting-arrow">›</span>
+      </div>
+      <div class="setting-item" onclick="logout()" style="cursor:pointer">
+        <div class="setting-icon">🚪</div>
+        <div class="setting-info">
+          <div class="setting-title" style="color:var(--primary)">Log Out</div>
+          <div class="setting-desc">Sign out of your account</div>
+        </div>
+        <span class="setting-arrow">›</span>
+      </div>
+    </div>
+    
+    <!-- App Info -->
+    <div class="settings-footer">
+      <div class="app-version">Fujisan.AI v<span id="app-version-display">17.3.8</span></div>
+      <div class="app-links">
+        <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a>
+      </div>
+      <div class="app-links" style="margin-top:8px;">
+        <a href="mailto:support@fujisan.ai">Support</a> · <a href="help.html">Help</a>
+      </div>
+      <div class="app-links" style="margin-top:8px;font-size:11px;opacity:0.6;">
+        <a href="#" onclick="openCustomerPortal(); return false;">Manage Subscription</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Subscription Modal -->
+<div class="modal-overlay hidden" id="subscriptionModal">
+  <div class="modal-box">
+    <div class="modal-header">
+      <span class="modal-title">Choose Your Plan</span>
+      <button class="modal-close" onclick="closeSubscriptionModal()">×</button>
+    </div>
+    <p style="font-size:13px;color:var(--text-light);margin-bottom:16px;">7-day free trial • Cancel anytime</p>
+    
+    <div class="plan-card" onclick="selectPlan('basic')">
+      <div class="plan-name">Basic</div>
+      <div class="plan-price">$47.99<span>/year</span></div>
+      <div style="font-size:12px;color:var(--text-light);">or $7.99/month</div>
+      <ul class="plan-features">
+        <li>JLPT N5-N3 content</li>
+        <li>Learn / Practice / Review / Test</li>
+        <li>Progress tracking</li>
+        <li>Unlimited study</li>
+      </ul>
+    </div>
+    
+    <div class="plan-card featured" onclick="selectPlan('standard')">
+      <div class="plan-name">Standard</div>
+      <div class="plan-price">$89.99<span>/year</span></div>
+      <div style="font-size:12px;color:var(--text-light);">or $14.99/month</div>
+      <ul class="plan-features">
+        <li>Everything in Basic</li>
+        <li>🧠 Smart Review (AI-powered)</li>
+        <li>📊 Pass probability prediction</li>
+        <li>📝 Full mock tests</li>
+      </ul>
+    </div>
+    
+    <div class="plan-card" onclick="selectPlan('premium')">
+      <div class="plan-name">Premium</div>
+      <div class="plan-price">$179.99<span>/year</span></div>
+      <div style="font-size:12px;color:var(--text-light);">or $29.99/month</div>
+      <ul class="plan-features">
+        <li>Everything in Standard</li>
+        <li>🤖 AI Tutor (Japanese Q&A)</li>
+        <li>📚 All JLPT levels (N5-N1)</li>
+        <li>Priority support</li>
+      </ul>
+    </div>
+    
+    <button class="btn-secondary" style="width:100%;margin-top:12px" onclick="closeSubscriptionModal()">Maybe Later</button>
+  </div>
+</div>
+
+<!-- Subscription Required Modal (for users without plan) -->
+<div class="modal-overlay hidden" id="subscriptionRequiredModal">
+  <div class="modal-box" style="text-align:center;">
+    <div class="modal-icon" style="font-size:64px;margin-bottom:16px;">🔓</div>
+    <h2 style="font-size:22px;font-weight:700;margin-bottom:8px;">Start Your Free Trial</h2>
+    <p style="font-size:14px;color:var(--text-secondary);margin-bottom:20px;line-height:1.5;">
+      Get <strong>full access</strong> to all JLPT levels, Mock Tests, and AI Tutor for <strong>7 days free</strong>.
+    </p>
+    
+    <div style="background:var(--bg);border-radius:12px;padding:16px;margin-bottom:20px;text-align:left;">
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
+        <span style="font-size:20px;">✅</span>
+        <span style="font-size:14px;">All N5-N1 vocabulary, kanji & grammar</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
+        <span style="font-size:20px;">✅</span>
+        <span style="font-size:14px;">20 full Mock Tests per level</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
+        <span style="font-size:20px;">✅</span>
+        <span style="font-size:14px;">AI Tutor explains every mistake</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:12px;">
+        <span style="font-size:20px;">✅</span>
+        <span style="font-size:14px;">Cancel anytime before trial ends</span>
+      </div>
+    </div>
+    
+    <a href="index.html#pricing" class="btn-primary" style="display:block;width:100%;padding:16px;font-size:16px;text-decoration:none;border-radius:12px;">
+      Start 7-Day Free Trial
+    </a>
+    <p style="font-size:12px;color:var(--text-tertiary);margin-top:12px;">
+      💳 Card required • No charge until trial ends
+    </p>
+    
+    <button class="btn-secondary" style="width:100%;margin-top:12px;padding:12px;" onclick="closeSubscriptionRequiredModal()">Maybe Later</button>
+  </div>
+</div>
+
+<!-- Pass Report Modal -->
+<div class="pass-modal hidden" id="passReportModal">
+  <div class="pass-modal-box">
+    <div class="pass-modal-header">
+      <span class="pass-modal-title">Report Your Success</span>
+      <button class="pass-modal-close" onclick="closePassReportModal()">×</button>
+    </div>
+    
+    <p style="font-size:13px;color:var(--text-light);margin-bottom:20px;">Congratulations on passing JLPT! Share your success and get 3 months free as a thank you.</p>
+    
+    <form id="passReportForm" onsubmit="submitPassReport(event)">
+      <div class="pass-form-group">
+        <label class="pass-form-label">JLPT Level Passed *</label>
+        <select class="pass-form-select" id="passLevel" required>
+          <option value="">Select level...</option>
+          <option value="N5">N5</option>
+          <option value="N4">N4</option>
+          <option value="N3">N3</option>
+          <option value="N2">N2</option>
+          <option value="N1">N1</option>
+        </select>
+      </div>
+      
+      <div class="pass-form-group">
+        <label class="pass-form-label">Your Score (optional)</label>
+        <input type="text" class="pass-form-input" id="passScore" placeholder="e.g., 120/180">
+      </div>
+      
+      <div class="pass-form-group">
+        <label class="pass-form-label">Display Name *</label>
+        <input type="text" class="pass-form-input" id="passName" placeholder="How should we call you?" required>
+      </div>
+      
+      <div class="pass-form-group">
+        <label class="pass-form-label">Your Country/Region</label>
+        <input type="text" class="pass-form-input" id="passCountry" placeholder="e.g., Taiwan, Vietnam, Korea">
+      </div>
+      
+      <div class="pass-form-group">
+        <label class="pass-form-label">Your Message (will be shown on our website)</label>
+        <textarea class="pass-form-textarea" id="passComment" placeholder="Share your experience with Fujisan.AI..."></textarea>
+      </div>
+      
+      <div class="pass-form-group">
+        <label class="pass-form-label">Certificate Photo (optional)</label>
+        <div class="pass-upload-area" id="passUploadArea" onclick="document.getElementById('passCertFile').click()">
+          <div class="pass-upload-icon">📷</div>
+          <div class="pass-upload-text">Click to upload your certificate</div>
+          <img id="passPreview" class="pass-preview" style="display:none;">
+        </div>
+        <input type="file" id="passCertFile" accept="image/*" style="display:none;" onchange="previewCertificate(this)">
+      </div>
+      
+      <p style="font-size:11px;color:var(--text-light);margin-bottom:12px;">By submitting, you agree that your name, message, and photo may be displayed on our website.</p>
+      
+      <button type="submit" class="pass-submit-btn" id="passSubmitBtn">Submit Report</button>
+    </form>
+  </div>
+</div>
+
+<!-- Data will be loaded dynamically -->
+<!-- Fallback: Load all drill data upfront for standalone HTML -->
+<script src="data/n5/vocab.js"></script>
+<script src="data/n5/kanji.js"></script>
+<script src="data/n5/grammar.js"></script>
+<script src="data/n4/vocab.js"></script>
+<script src="data/n4/kanji.js"></script>
+<script src="data/n4/grammar.js"></script>
+<script src="data/n3/vocab.js"></script>
+<script src="data/n3/kanji.js"></script>
+<script src="data/n3/grammar.js"></script>
+<script src="data/n2/vocab.js"></script>
+<script src="data/n2/kanji.js"></script>
+<script src="data/n2/grammar.js"></script>
+<script src="data/n1/vocab.js"></script>
+<script src="data/n1/kanji.js"></script>
+<script src="data/n1/grammar.js"></script>
+
+
+<!-- Main Application Script -->
+<script src="js/app.js"></script>
+</body>
+</html>

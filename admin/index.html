@@ -1,0 +1,1508 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fujisan.AI Admin</title>
+    <meta name="robots" content="noindex, nofollow">
+    
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-database-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-functions-compat.js"></script>
+    
+    <style>
+        :root {
+            --primary: #667eea;
+            --primary-dark: #5a67d8;
+            --success: #48bb78;
+            --warning: #ed8936;
+            --danger: #f56565;
+            --bg: #f7fafc;
+            --card: #ffffff;
+            --text: #2d3748;
+            --text-light: #718096;
+            --border: #e2e8f0;
+        }
+        
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        
+        /* Login Screen */
+        .login-screen {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .login-box {
+            background: white;
+            padding: 48px;
+            border-radius: 16px;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 400px;
+            width: 90%;
+        }
+        
+        .login-logo {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+        
+        .login-title {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        
+        .login-subtitle {
+            color: var(--text-light);
+            margin-bottom: 32px;
+        }
+        
+        .login-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            padding: 14px 32px;
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .login-btn:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+        }
+        
+        .login-btn img {
+            width: 20px;
+            height: 20px;
+        }
+        
+        .login-error {
+            color: var(--danger);
+            margin-top: 16px;
+            font-size: 14px;
+        }
+        
+        /* Admin Layout */
+        .admin-container {
+            display: none;
+        }
+        
+        .admin-container.active {
+            display: block;
+        }
+        
+        /* Sidebar */
+        .sidebar {
+            position: fixed;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 240px;
+            background: var(--text);
+            color: white;
+            padding: 24px 0;
+            z-index: 100;
+        }
+        
+        .sidebar-logo {
+            padding: 0 24px 24px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            margin-bottom: 24px;
+        }
+        
+        .sidebar-logo h1 {
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .sidebar-nav a {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px 24px;
+            color: rgba(255,255,255,0.7);
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        
+        .sidebar-nav a:hover,
+        .sidebar-nav a.active {
+            background: rgba(255,255,255,0.1);
+            color: white;
+        }
+        
+        .sidebar-nav a.active {
+            border-left: 3px solid var(--primary);
+        }
+        
+        .sidebar-user {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 16px 24px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .sidebar-user img {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+        }
+        
+        .sidebar-user-info {
+            flex: 1;
+            overflow: hidden;
+        }
+        
+        .sidebar-user-name {
+            font-size: 14px;
+            font-weight: 600;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .sidebar-user-email {
+            font-size: 11px;
+            color: rgba(255,255,255,0.5);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .logout-btn {
+            background: none;
+            border: none;
+            color: rgba(255,255,255,0.5);
+            cursor: pointer;
+            font-size: 18px;
+        }
+        
+        .logout-btn:hover {
+            color: white;
+        }
+        
+        /* Main Content */
+        .main-content {
+            margin-left: 240px;
+            padding: 32px;
+            min-height: 100vh;
+        }
+        
+        .page-header {
+            margin-bottom: 32px;
+        }
+        
+        .page-title {
+            font-size: 28px;
+            font-weight: 700;
+        }
+        
+        .page-subtitle {
+            color: var(--text-light);
+            margin-top: 4px;
+        }
+        
+        /* Stats Grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 24px;
+            margin-bottom: 32px;
+        }
+        
+        .stat-card {
+            background: var(--card);
+            padding: 24px;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .stat-label {
+            font-size: 13px;
+            color: var(--text-light);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .stat-value {
+            font-size: 32px;
+            font-weight: 700;
+            margin-top: 8px;
+        }
+        
+        .stat-change {
+            font-size: 13px;
+            margin-top: 8px;
+        }
+        
+        .stat-change.up { color: var(--success); }
+        .stat-change.down { color: var(--danger); }
+        
+        /* Cards */
+        .card {
+            background: var(--card);
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            margin-bottom: 24px;
+        }
+        
+        .card-header {
+            padding: 20px 24px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .card-title {
+            font-size: 18px;
+            font-weight: 600;
+        }
+        
+        .card-body {
+            padding: 24px;
+        }
+        
+        /* Tables */
+        .table-container {
+            overflow-x: auto;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th, td {
+            padding: 12px 16px;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        th {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-light);
+            font-weight: 600;
+        }
+        
+        tr:hover {
+            background: #f8fafc;
+        }
+        
+        /* Badges */
+        .badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        
+        .badge-pending { background: #fef3c7; color: #92400e; }
+        .badge-approved { background: #d1fae5; color: #065f46; }
+        .badge-rejected { background: #fee2e2; color: #991b1b; }
+        .badge-trial { background: #e0e7ff; color: #3730a3; }
+        .badge-paid { background: #dbeafe; color: #1e40af; }
+        .badge-rewarded { background: #d1fae5; color: #065f46; }
+        .badge-cancelled { background: #f3f4f6; color: #6b7280; }
+        
+        /* Buttons */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: var(--primary-dark);
+        }
+        
+        .btn-success {
+            background: var(--success);
+            color: white;
+        }
+        
+        .btn-danger {
+            background: var(--danger);
+            color: white;
+        }
+        
+        .btn-sm {
+            padding: 6px 12px;
+            font-size: 13px;
+        }
+        
+        .btn-group {
+            display: flex;
+            gap: 8px;
+        }
+        
+        /* Tabs */
+        .tabs {
+            display: flex;
+            gap: 4px;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 24px;
+        }
+        
+        .tab {
+            padding: 12px 20px;
+            border: none;
+            background: none;
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text-light);
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            margin-bottom: -1px;
+        }
+        
+        .tab:hover {
+            color: var(--text);
+        }
+        
+        .tab.active {
+            color: var(--primary);
+            border-bottom-color: var(--primary);
+        }
+        
+        /* Photo Preview */
+        .photo-thumb {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        
+        .photo-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.9);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+        
+        .photo-modal.active {
+            display: flex;
+        }
+        
+        .photo-modal img {
+            max-width: 90%;
+            max-height: 90%;
+            border-radius: 8px;
+        }
+        
+        .photo-modal-close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 32px;
+            cursor: pointer;
+        }
+        
+        /* Loading */
+        .loading {
+            text-align: center;
+            padding: 48px;
+            color: var(--text-light);
+        }
+        
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid var(--border);
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 16px;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 48px;
+            color: var(--text-light);
+        }
+        
+        .empty-state-icon {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+        
+        /* Page Sections */
+        .page-section {
+            display: none;
+        }
+        
+        .page-section.active {
+            display: block;
+        }
+        
+        /* Filters */
+        .filters {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        
+        .filter-select {
+            padding: 8px 12px;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            font-size: 14px;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .sidebar {
+                transform: translateX(-100%);
+            }
+            
+            .main-content {
+                margin-left: 0;
+            }
+            
+            .stats-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Login Screen -->
+    <div class="login-screen" id="loginScreen">
+        <div class="login-box">
+            <div class="login-logo">🗻</div>
+            <h1 class="login-title">Fujisan.AI Admin</h1>
+            <p class="login-subtitle">管理者としてログインしてください</p>
+            <button class="login-btn" onclick="signInWithGoogle()">
+                <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google">
+                Googleでログイン
+            </button>
+            <p class="login-error" id="loginError"></p>
+        </div>
+    </div>
+    
+    <!-- Admin Container -->
+    <div class="admin-container" id="adminContainer">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <div class="sidebar-logo">
+                <h1>🗻 Fujisan Admin</h1>
+            </div>
+            <div class="sidebar-nav">
+                <a href="#" class="active" data-page="dashboard">📊 ダッシュボード</a>
+                <a href="#" data-page="reports">📝 合格レポート</a>
+                <a href="#" data-page="referrals">🎁 紹介プログラム</a>
+                <a href="#" data-page="cancelsurveys">📋 解約理由</a>
+                <a href="#" data-page="users">👥 ユーザー管理</a>
+            </div>
+            <div class="sidebar-user">
+                <img id="userPhoto" src="" alt="User">
+                <div class="sidebar-user-info">
+                    <div class="sidebar-user-name" id="userName">Admin</div>
+                    <div class="sidebar-user-email" id="userEmail">admin@example.com</div>
+                </div>
+                <button class="logout-btn" onclick="signOut()" title="ログアウト">🚪</button>
+            </div>
+        </nav>
+        
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Dashboard Page -->
+            <section class="page-section active" id="pageDashboard">
+                <div class="page-header">
+                    <h1 class="page-title">ダッシュボード</h1>
+                    <p class="page-subtitle">Fujisan.AI の概要</p>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-label">月間売上 (MRR)</div>
+                        <div class="stat-value" id="statMrr">¥0</div>
+                        <div class="stat-change up" id="statMrrChange">--</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">アクティブユーザー</div>
+                        <div class="stat-value" id="statActiveUsers">0</div>
+                        <div class="stat-change" id="statActiveUsersChange">--</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">トライアル中</div>
+                        <div class="stat-value" id="statTrialUsers">0</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">今月の解約</div>
+                        <div class="stat-value" id="statChurn">0</div>
+                    </div>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-label">未承認レポート</div>
+                        <div class="stat-value" id="statPendingReports">0</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">紹介成功 (今月)</div>
+                        <div class="stat-value" id="statReferrals">0</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">合格レポート総数</div>
+                        <div class="stat-value" id="statTotalReports">0</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">総ユーザー数</div>
+                        <div class="stat-value" id="statTotalUsers">0</div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">最近のアクティビティ</h2>
+                    </div>
+                    <div class="card-body">
+                        <div id="recentActivity">
+                            <div class="loading">
+                                <div class="spinner"></div>
+                                読み込み中...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Pass Reports Page -->
+            <section class="page-section" id="pageReports">
+                <div class="page-header">
+                    <h1 class="page-title">合格レポート管理</h1>
+                    <p class="page-subtitle">JLPT合格報告の承認・管理</p>
+                </div>
+                
+                <div class="tabs">
+                    <button class="tab active" data-tab="pending">未承認</button>
+                    <button class="tab" data-tab="approved">承認済み</button>
+                    <button class="tab" data-tab="rejected">拒否済み</button>
+                </div>
+                
+                <div class="card">
+                    <div class="card-body">
+                        <div class="table-container">
+                            <table id="reportsTable">
+                                <thead>
+                                    <tr>
+                                        <th>証明書</th>
+                                        <th>名前</th>
+                                        <th>レベル</th>
+                                        <th>スコア</th>
+                                        <th>コメント</th>
+                                        <th>提出日</th>
+                                        <th>ステータス</th>
+                                        <th>アクション</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="reportsTableBody">
+                                    <tr>
+                                        <td colspan="8">
+                                            <div class="loading">
+                                                <div class="spinner"></div>
+                                                読み込み中...
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Referrals Page -->
+            <section class="page-section" id="pageReferrals">
+                <div class="page-header">
+                    <h1 class="page-title">紹介プログラム管理</h1>
+                    <p class="page-subtitle">紹介状況とリワード管理</p>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-label">総紹介数</div>
+                        <div class="stat-value" id="refStatTotal">0</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">トライアル中</div>
+                        <div class="stat-value" id="refStatTrial">0</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">課金済み (30日待ち)</div>
+                        <div class="stat-value" id="refStatPaid">0</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">リワード付与済み</div>
+                        <div class="stat-value" id="refStatRewarded">0</div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">紹介一覧</h2>
+                        <select class="filter-select" id="referralFilter" onchange="filterReferrals()">
+                            <option value="all">すべて</option>
+                            <option value="trial">トライアル中</option>
+                            <option value="paid">課金済み</option>
+                            <option value="rewarded">リワード済み</option>
+                            <option value="cancelled">キャンセル</option>
+                        </select>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-container">
+                            <table id="referralsTable">
+                                <thead>
+                                    <tr>
+                                        <th>紹介者ID</th>
+                                        <th>被紹介者ID</th>
+                                        <th>ステータス</th>
+                                        <th>登録日</th>
+                                        <th>課金日</th>
+                                        <th>リワード予定日</th>
+                                        <th>アクション</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="referralsTableBody">
+                                    <tr>
+                                        <td colspan="7">
+                                            <div class="loading">
+                                                <div class="spinner"></div>
+                                                読み込み中...
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Users Page -->
+            <section class="page-section" id="pageUsers">
+                <div class="page-header">
+                    <h1 class="page-title">ユーザー管理</h1>
+                    <p class="page-subtitle">サブスクリプション・ユーザー管理</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">ユーザー一覧</h2>
+                        <select class="filter-select" id="userFilter" onchange="filterUsers()">
+                            <option value="all">すべて</option>
+                            <option value="active">アクティブ</option>
+                            <option value="trial">トライアル</option>
+                            <option value="cancelled">解約済み</option>
+                        </select>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-container">
+                            <table id="usersTable">
+                                <thead>
+                                    <tr>
+                                        <th>ユーザーID</th>
+                                        <th>ニックネーム</th>
+                                        <th>プラン</th>
+                                        <th>ステータス</th>
+                                        <th>登録日</th>
+                                        <th>有効期限</th>
+                                        <th>アクション</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="usersTableBody">
+                                    <tr>
+                                        <td colspan="7">
+                                            <div class="loading">
+                                                <div class="spinner"></div>
+                                                読み込み中...
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Cancel Surveys Page -->
+            <section class="page-section" id="pageCancelsurveys">
+                <div class="page-header">
+                    <h1 class="page-title">📋 解約理由アンケート</h1>
+                    <p class="page-subtitle">ユーザーが解約時に回答した理由</p>
+                </div>
+                
+                <div class="stats-grid" style="margin-bottom:24px;">
+                    <div class="stat-card">
+                        <div class="stat-label">総回答数</div>
+                        <div class="stat-value" id="surveyTotal">0</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">今月の解約</div>
+                        <div class="stat-value" id="surveyThisMonth">0</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">最多理由</div>
+                        <div class="stat-value" id="surveyTopReason" style="font-size:16px;">-</div>
+                    </div>
+                </div>
+                
+                <div class="content-card">
+                    <div class="card-header">
+                        <h2>理由別集計</h2>
+                    </div>
+                    <div class="card-body">
+                        <div id="reasonBreakdown" style="display:grid;gap:12px;"></div>
+                    </div>
+                </div>
+                
+                <div class="content-card" style="margin-top:24px;">
+                    <div class="card-header">
+                        <h2>最近の回答</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>日時</th>
+                                        <th>理由</th>
+                                        <th>プラン</th>
+                                        <th>利用日数</th>
+                                        <th>詳細コメント</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="surveyTableBody">
+                                    <tr><td colspan="5" style="text-align:center;color:var(--text-light);">読み込み中...</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <!-- Photo Modal -->
+    <div class="photo-modal" id="photoModal" onclick="closePhotoModal()">
+        <button class="photo-modal-close">&times;</button>
+        <img id="photoModalImg" src="" alt="Certificate">
+    </div>
+    
+    <script>
+        // ==========================================
+        // Firebase Configuration
+        // ==========================================
+        const firebaseConfig = {
+            apiKey: "AIzaSyD-PLACEHOLDER",
+            authDomain: "fujisan-ai.firebaseapp.com",
+            databaseURL: "https://fujisan-ai-default-rtdb.firebaseio.com",
+            projectId: "fujisan-ai",
+            storageBucket: "fujisan-ai.appspot.com",
+            messagingSenderId: "123456789",
+            appId: "1:123456789:web:abc123"
+        };
+        
+        firebase.initializeApp(firebaseConfig);
+        const auth = firebase.auth();
+        const db = firebase.database();
+        const functions = firebase.functions();
+        
+        // ==========================================
+        // Authentication
+        // ==========================================
+        let currentUser = null;
+        let isAdmin = false;
+        
+        auth.onAuthStateChanged(async (user) => {
+            if (user) {
+                currentUser = user;
+                
+                // Check admin claim
+                const idTokenResult = await user.getIdTokenResult();
+                isAdmin = idTokenResult.claims.admin === true;
+                
+                if (isAdmin) {
+                    showAdminPanel();
+                } else {
+                    showError('管理者権限がありません。');
+                    auth.signOut();
+                }
+            } else {
+                showLoginScreen();
+            }
+        });
+        
+        function signInWithGoogle() {
+            const provider = new firebase.auth.GoogleAuthProvider();
+            auth.signInWithPopup(provider).catch(error => {
+                showError(error.message);
+            });
+        }
+        
+        function signOut() {
+            auth.signOut();
+        }
+        
+        function showError(message) {
+            document.getElementById('loginError').textContent = message;
+        }
+        
+        function showLoginScreen() {
+            document.getElementById('loginScreen').style.display = 'flex';
+            document.getElementById('adminContainer').classList.remove('active');
+        }
+        
+        function showAdminPanel() {
+            document.getElementById('loginScreen').style.display = 'none';
+            document.getElementById('adminContainer').classList.add('active');
+            
+            // Update user info
+            document.getElementById('userPhoto').src = currentUser.photoURL || '';
+            document.getElementById('userName').textContent = currentUser.displayName || 'Admin';
+            document.getElementById('userEmail').textContent = currentUser.email || '';
+            
+            // Load initial data
+            loadDashboard();
+            loadReports('pending');
+            loadReferrals();
+            loadUsers();
+        }
+        
+        // ==========================================
+        // Navigation
+        // ==========================================
+        document.querySelectorAll('.sidebar-nav a').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const page = link.dataset.page;
+                
+                // Update nav
+                document.querySelectorAll('.sidebar-nav a').forEach(l => l.classList.remove('active'));
+                link.classList.add('active');
+                
+                // Show page
+                document.querySelectorAll('.page-section').forEach(p => p.classList.remove('active'));
+                document.getElementById('page' + page.charAt(0).toUpperCase() + page.slice(1)).classList.add('active');
+            });
+        });
+        
+        // ==========================================
+        // Dashboard
+        // ==========================================
+        async function loadDashboard() {
+            try {
+                // Load pass reports count
+                const reportsSnapshot = await db.ref('passReports').once('value');
+                const reports = reportsSnapshot.val() || {};
+                const reportsList = Object.values(reports);
+                
+                const pendingCount = reportsList.filter(r => r.status === 'pending').length;
+                const approvedCount = reportsList.filter(r => r.status === 'approved').length;
+                
+                document.getElementById('statPendingReports').textContent = pendingCount;
+                document.getElementById('statTotalReports').textContent = reportsList.length;
+                
+                // Load referrals
+                const referralsSnapshot = await db.ref('referrals').once('value');
+                const referrals = referralsSnapshot.val() || {};
+                let refCount = 0;
+                let thisMonthRefs = 0;
+                const thisMonth = new Date().toISOString().slice(0, 7);
+                
+                Object.values(referrals).forEach(referrer => {
+                    Object.values(referrer).forEach(ref => {
+                        refCount++;
+                        if (ref.date && ref.date.startsWith(thisMonth)) {
+                            thisMonthRefs++;
+                        }
+                    });
+                });
+                
+                document.getElementById('statReferrals').textContent = thisMonthRefs;
+                
+                // Load users
+                const usersSnapshot = await db.ref('users').once('value');
+                const users = usersSnapshot.val() || {};
+                const usersList = Object.values(users);
+                
+                const activeUsers = usersList.filter(u => 
+                    u.subscription && u.subscription.status === 'active'
+                ).length;
+                
+                const trialUsers = usersList.filter(u => 
+                    u.subscription && u.subscription.status === 'trial'
+                ).length;
+                
+                document.getElementById('statActiveUsers').textContent = activeUsers;
+                document.getElementById('statTrialUsers').textContent = trialUsers;
+                document.getElementById('statTotalUsers').textContent = usersList.length;
+                
+                // Calculate MRR (simplified)
+                const planPrices = { basic: 4.99, pro: 9.99, ultimate: 19.99 };
+                let mrr = 0;
+                usersList.forEach(u => {
+                    if (u.subscription && u.subscription.status === 'active') {
+                        const plan = u.subscription.plan || 'pro';
+                        mrr += (planPrices[plan] || 9.99) * 150; // USD to JPY approx
+                    }
+                });
+                document.getElementById('statMrr').textContent = '¥' + mrr.toLocaleString();
+                
+                // Recent activity
+                const activities = [];
+                
+                reportsList.slice(-5).reverse().forEach(r => {
+                    activities.push({
+                        icon: '📝',
+                        text: `${r.name} が ${r.level} の合格を報告`,
+                        time: r.timestamp
+                    });
+                });
+                
+                renderActivity(activities);
+                
+            } catch (error) {
+                console.error('Dashboard load error:', error);
+            }
+        }
+        
+        function renderActivity(activities) {
+            const container = document.getElementById('recentActivity');
+            
+            if (activities.length === 0) {
+                container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">📭</div><p>アクティビティはありません</p></div>';
+                return;
+            }
+            
+            container.innerHTML = activities.map(a => `
+                <div style="display:flex;align-items:center;gap:12px;padding:12px 0;border-bottom:1px solid var(--border);">
+                    <span style="font-size:24px;">${a.icon}</span>
+                    <div style="flex:1;">
+                        <div>${a.text}</div>
+                        <div style="font-size:12px;color:var(--text-light);">${formatDate(a.time)}</div>
+                    </div>
+                </div>
+            `).join('');
+        }
+        
+        // ==========================================
+        // Pass Reports
+        // ==========================================
+        let allReports = [];
+        let currentReportFilter = 'pending';
+        
+        document.querySelectorAll('.tabs .tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.tabs .tab').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                currentReportFilter = tab.dataset.tab;
+                renderReports();
+            });
+        });
+        
+        async function loadReports() {
+            try {
+                const snapshot = await db.ref('passReports').once('value');
+                const data = snapshot.val() || {};
+                
+                allReports = Object.entries(data).map(([id, report]) => ({
+                    id,
+                    ...report
+                })).sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+                
+                // Load photos
+                const photosSnapshot = await db.ref('passReportPhotos').once('value');
+                const photos = photosSnapshot.val() || {};
+                
+                allReports.forEach(report => {
+                    if (photos[report.id]) {
+                        report.photoData = photos[report.id].photo;
+                    }
+                });
+                
+                renderReports();
+            } catch (error) {
+                console.error('Reports load error:', error);
+            }
+        }
+        
+        function renderReports() {
+            const filtered = allReports.filter(r => r.status === currentReportFilter);
+            const tbody = document.getElementById('reportsTableBody');
+            
+            if (filtered.length === 0) {
+                tbody.innerHTML = `
+                    <tr>
+                        <td colspan="8">
+                            <div class="empty-state">
+                                <div class="empty-state-icon">📭</div>
+                                <p>レポートはありません</p>
+                            </div>
+                        </td>
+                    </tr>
+                `;
+                return;
+            }
+            
+            tbody.innerHTML = filtered.map(r => `
+                <tr>
+                    <td>
+                        ${r.photo || r.photoData ? 
+                            `<img src="${r.photoData || r.photo}" class="photo-thumb" onclick="showPhoto('${r.id}')">` : 
+                            '<span style="color:var(--text-light);">なし</span>'}
+                    </td>
+                    <td><strong>${escapeHtml(r.name)}</strong></td>
+                    <td><span class="badge badge-${r.level?.toLowerCase()}">${r.level}</span></td>
+                    <td>${r.score || '-'}</td>
+                    <td style="max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;" title="${escapeHtml(r.comment)}">
+                        ${escapeHtml(r.comment)}
+                    </td>
+                    <td>${formatDate(r.timestamp)}</td>
+                    <td><span class="badge badge-${r.status}">${getStatusLabel(r.status)}</span></td>
+                    <td>
+                        ${r.status === 'pending' ? `
+                            <div class="btn-group">
+                                <button class="btn btn-success btn-sm" onclick="approveReport('${r.id}')">✓ 承認</button>
+                                <button class="btn btn-danger btn-sm" onclick="rejectReport('${r.id}')">✕ 拒否</button>
+                            </div>
+                        ` : '-'}
+                    </td>
+                </tr>
+            `).join('');
+        }
+        
+        async function approveReport(reportId) {
+            if (!confirm('このレポートを承認しますか？3ヶ月のボーナスが付与されます。')) return;
+            
+            try {
+                const approvePassReport = functions.httpsCallable('approvePassReport');
+                await approvePassReport({ reportId });
+                
+                alert('承認しました！');
+                loadReports();
+                loadDashboard();
+            } catch (error) {
+                alert('エラー: ' + error.message);
+            }
+        }
+        
+        async function rejectReport(reportId) {
+            const reason = prompt('拒否理由を入力してください:');
+            if (!reason) return;
+            
+            try {
+                const rejectPassReport = functions.httpsCallable('rejectPassReport');
+                await rejectPassReport({ reportId, reason });
+                
+                alert('拒否しました。');
+                loadReports();
+                loadDashboard();
+            } catch (error) {
+                alert('エラー: ' + error.message);
+            }
+        }
+        
+        function showPhoto(reportId) {
+            const report = allReports.find(r => r.id === reportId);
+            if (report && (report.photo || report.photoData)) {
+                document.getElementById('photoModalImg').src = report.photoData || report.photo;
+                document.getElementById('photoModal').classList.add('active');
+            }
+        }
+        
+        function closePhotoModal() {
+            document.getElementById('photoModal').classList.remove('active');
+        }
+        
+        // ==========================================
+        // Referrals
+        // ==========================================
+        let allReferrals = [];
+        
+        async function loadReferrals() {
+            try {
+                const snapshot = await db.ref('referrals').once('value');
+                const data = snapshot.val() || {};
+                
+                allReferrals = [];
+                let stats = { total: 0, trial: 0, paid: 0, rewarded: 0, cancelled: 0 };
+                
+                Object.entries(data).forEach(([referrerId, referees]) => {
+                    Object.entries(referees).forEach(([refereeId, info]) => {
+                        allReferrals.push({
+                            referrerId,
+                            refereeId,
+                            ...info
+                        });
+                        stats.total++;
+                        if (stats[info.status] !== undefined) {
+                            stats[info.status]++;
+                        }
+                    });
+                });
+                
+                // Sort by date
+                allReferrals.sort((a, b) => new Date(b.date) - new Date(a.date));
+                
+                // Update stats
+                document.getElementById('refStatTotal').textContent = stats.total;
+                document.getElementById('refStatTrial').textContent = stats.trial;
+                document.getElementById('refStatPaid').textContent = stats.paid;
+                document.getElementById('refStatRewarded').textContent = stats.rewarded;
+                
+                renderReferrals();
+            } catch (error) {
+                console.error('Referrals load error:', error);
+            }
+        }
+        
+        function filterReferrals() {
+            renderReferrals();
+        }
+        
+        function renderReferrals() {
+            const filter = document.getElementById('referralFilter').value;
+            const filtered = filter === 'all' ? allReferrals : allReferrals.filter(r => r.status === filter);
+            const tbody = document.getElementById('referralsTableBody');
+            
+            if (filtered.length === 0) {
+                tbody.innerHTML = `
+                    <tr>
+                        <td colspan="7">
+                            <div class="empty-state">
+                                <div class="empty-state-icon">📭</div>
+                                <p>紹介はありません</p>
+                            </div>
+                        </td>
+                    </tr>
+                `;
+                return;
+            }
+            
+            tbody.innerHTML = filtered.map(r => {
+                const rewardDate = r.paidDate ? 
+                    new Date(new Date(r.paidDate).getTime() + 30 * 24 * 60 * 60 * 1000).toLocaleDateString() : 
+                    '-';
+                
+                return `
+                    <tr>
+                        <td><code style="font-size:11px;">${r.referrerId.slice(0, 12)}...</code></td>
+                        <td><code style="font-size:11px;">${r.refereeId.slice(0, 12)}...</code></td>
+                        <td><span class="badge badge-${r.status}">${getStatusLabel(r.status)}</span></td>
+                        <td>${formatDate(r.date)}</td>
+                        <td>${r.paidDate ? formatDate(r.paidDate) : '-'}</td>
+                        <td>${rewardDate}</td>
+                        <td>
+                            ${r.status === 'paid' ? `
+                                <button class="btn btn-success btn-sm" onclick="grantReward('${r.referrerId}', '${r.refereeId}')">
+                                    リワード付与
+                                </button>
+                            ` : '-'}
+                        </td>
+                    </tr>
+                `;
+            }).join('');
+        }
+        
+        async function grantReward(referrerId, refereeId) {
+            if (!confirm('このリワードを手動で付与しますか？')) return;
+            
+            try {
+                await db.ref(`referrals/${referrerId}/${refereeId}`).update({
+                    status: 'rewarded',
+                    rewardedDate: new Date().toISOString(),
+                    manualGrant: true
+                });
+                
+                // Add free month to referrer
+                await db.ref(`users/${referrerId}/freeMonths`).transaction(current => {
+                    return (current || 0) + 1;
+                });
+                
+                alert('リワードを付与しました！');
+                loadReferrals();
+            } catch (error) {
+                alert('エラー: ' + error.message);
+            }
+        }
+        
+        // ==========================================
+        // Users
+        // ==========================================
+        let allUsers = [];
+        
+        async function loadUsers() {
+            try {
+                const snapshot = await db.ref('users').once('value');
+                const data = snapshot.val() || {};
+                
+                allUsers = Object.entries(data).map(([id, user]) => ({
+                    id,
+                    ...user
+                }));
+                
+                renderUsers();
+            } catch (error) {
+                console.error('Users load error:', error);
+            }
+        }
+        
+        function filterUsers() {
+            renderUsers();
+        }
+        
+        function renderUsers() {
+            const filter = document.getElementById('userFilter').value;
+            let filtered = allUsers;
+            
+            if (filter === 'active') {
+                filtered = allUsers.filter(u => u.subscription?.status === 'active');
+            } else if (filter === 'trial') {
+                filtered = allUsers.filter(u => u.subscription?.status === 'trial');
+            } else if (filter === 'cancelled') {
+                filtered = allUsers.filter(u => u.subscription?.status === 'cancelled');
+            }
+            
+            const tbody = document.getElementById('usersTableBody');
+            
+            if (filtered.length === 0) {
+                tbody.innerHTML = `
+                    <tr>
+                        <td colspan="7">
+                            <div class="empty-state">
+                                <div class="empty-state-icon">👥</div>
+                                <p>ユーザーはいません</p>
+                            </div>
+                        </td>
+                    </tr>
+                `;
+                return;
+            }
+            
+            tbody.innerHTML = filtered.slice(0, 100).map(u => `
+                <tr>
+                    <td><code style="font-size:11px;">${u.id.slice(0, 15)}...</code></td>
+                    <td>${escapeHtml(u.nickname || '-')}</td>
+                    <td>${u.subscription?.plan || 'none'}</td>
+                    <td>
+                        <span class="badge badge-${u.subscription?.status || 'none'}">
+                            ${getStatusLabel(u.subscription?.status || 'none')}
+                        </span>
+                    </td>
+                    <td>${u.subscription?.startDate ? formatDate(u.subscription.startDate) : '-'}</td>
+                    <td>${u.subscription?.currentPeriodEnd ? formatDate(u.subscription.currentPeriodEnd) : '-'}</td>
+                    <td>
+                        <button class="btn btn-primary btn-sm" onclick="grantFreeMonth('${u.id}')">
+                            +1ヶ月
+                        </button>
+                    </td>
+                </tr>
+            `).join('');
+        }
+        
+        async function grantFreeMonth(userId) {
+            if (!confirm('このユーザーに1ヶ月無料を付与しますか？')) return;
+            
+            try {
+                await db.ref(`users/${userId}/freeMonths`).transaction(current => {
+                    return (current || 0) + 1;
+                });
+                
+                alert('1ヶ月無料を付与しました！');
+                loadUsers();
+            } catch (error) {
+                alert('エラー: ' + error.message);
+            }
+        }
+        
+        // ==========================================
+        // Utilities
+        // ==========================================
+        function formatDate(dateString) {
+            if (!dateString) return '-';
+            const date = new Date(dateString);
+            return date.toLocaleDateString('ja-JP', {
+                year: 'numeric',
+                month: 'short',
+                day: 'numeric'
+            });
+        }
+        
+        function escapeHtml(text) {
+            if (!text) return '';
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+        
+        function getStatusLabel(status) {
+            const labels = {
+                pending: '審査中',
+                approved: '承認済み',
+                rejected: '拒否',
+                trial: 'トライアル',
+                paid: '課金済み',
+                rewarded: 'リワード済み',
+                cancelled: 'キャンセル',
+                active: 'アクティブ',
+                none: '無料'
+            };
+            return labels[status] || status;
+        }
+        
+        // ==========================================
+        // Cancel Surveys
+        // ==========================================
+        const reasonLabels = {
+            too_expensive: '料金が高い',
+            not_using: '使用頻度が低い',
+            passed_exam: '試験に合格した',
+            missing_features: '機能が不足',
+            found_alternative: '他サービスへ移行',
+            technical_issues: '技術的問題',
+            other: 'その他'
+        };
+        
+        async function loadCancelSurveys() {
+            try {
+                const snapshot = await db.ref('cancelSurveys').orderByChild('submittedAt').once('value');
+                const surveys = [];
+                snapshot.forEach(child => {
+                    surveys.push({ id: child.key, ...child.val() });
+                });
+                surveys.reverse(); // 新しい順
+                
+                // Stats
+                const thisMonth = new Date().toISOString().slice(0, 7);
+                const thisMonthCount = surveys.filter(s => s.submittedAt && s.submittedAt.startsWith(thisMonth)).length;
+                
+                document.getElementById('surveyTotal').textContent = surveys.length;
+                document.getElementById('surveyThisMonth').textContent = thisMonthCount;
+                
+                // Reason breakdown
+                const reasonCounts = {};
+                surveys.forEach(s => {
+                    const reason = s.reason || 'other';
+                    reasonCounts[reason] = (reasonCounts[reason] || 0) + 1;
+                });
+                
+                const sortedReasons = Object.entries(reasonCounts).sort((a, b) => b[1] - a[1]);
+                if (sortedReasons.length > 0) {
+                    document.getElementById('surveyTopReason').textContent = reasonLabels[sortedReasons[0][0]] || sortedReasons[0][0];
+                }
+                
+                // Reason breakdown chart
+                const breakdownHtml = sortedReasons.map(([reason, count]) => {
+                    const pct = surveys.length > 0 ? Math.round(count / surveys.length * 100) : 0;
+                    return `
+                        <div style="display:flex;align-items:center;gap:12px;">
+                            <div style="width:140px;font-size:14px;">${reasonLabels[reason] || reason}</div>
+                            <div style="flex:1;background:#e2e8f0;border-radius:4px;height:24px;overflow:hidden;">
+                                <div style="width:${pct}%;background:var(--danger);height:100%;"></div>
+                            </div>
+                            <div style="width:60px;text-align:right;font-size:14px;font-weight:600;">${count} (${pct}%)</div>
+                        </div>
+                    `;
+                }).join('');
+                document.getElementById('reasonBreakdown').innerHTML = breakdownHtml || '<p style="color:var(--text-light);">データなし</p>';
+                
+                // Table
+                const tbody = document.getElementById('surveyTableBody');
+                if (surveys.length === 0) {
+                    tbody.innerHTML = '<tr><td colspan="5" style="text-align:center;color:var(--text-light);">解約アンケートの回答がありません</td></tr>';
+                    return;
+                }
+                
+                tbody.innerHTML = surveys.slice(0, 50).map(s => `
+                    <tr>
+                        <td>${formatDate(s.submittedAt)}</td>
+                        <td><span class="status-badge" style="background:#fee2e2;color:#dc2626;">${reasonLabels[s.reason] || s.reason}</span></td>
+                        <td>${s.plan ? s.plan.toUpperCase() : '-'}</td>
+                        <td>${s.daysActive || '-'}日</td>
+                        <td style="max-width:300px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;" title="${escapeHtml(s.detail)}">${escapeHtml(s.detail) || '-'}</td>
+                    </tr>
+                `).join('');
+                
+            } catch (error) {
+                console.error('Error loading cancel surveys:', error);
+                document.getElementById('surveyTableBody').innerHTML = '<tr><td colspan="5" style="text-align:center;color:var(--danger);">読み込みエラー</td></tr>';
+            }
+        }
+        
+        // Load cancel surveys when page is shown
+        document.querySelectorAll('.sidebar-nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                if (link.dataset.page === 'cancelsurveys') {
+                    loadCancelSurveys();
+                }
+            });
+        });
+        
+        // Keyboard shortcut for closing modal
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closePhotoModal();
+            }
+        });
+    </script>
+</body>
+</html>

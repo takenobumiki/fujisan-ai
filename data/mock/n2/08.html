@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>JLPT N2-08 模擬テスト</title>
+<style>
+:root {
+  --primary: #1e3a5f;
+  --primary-dark: #0d2137;
+  --primary-light: #e3eaf2;
+  --bg-gradient: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  --header-gradient: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Yu Gothic', sans-serif;
+  background: var(--bg-gradient);
+  min-height: 100vh;
+  padding: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+.container {
+  max-width: 680px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+  overflow: hidden;
+}
+/* Header */
+.header {
+  background: var(--header-gradient);
+  color: #fff;
+  padding: 24px 20px;
+  text-align: center;
+}
+.header h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+  letter-spacing: 0.5px;
+}
+.header .subtitle {
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+/* Home Screen */
+.home-content { padding: 24px; }
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.stat-card {
+  background: var(--header-gradient);
+  color: #fff;
+  padding: 20px 12px;
+  border-radius: 16px;
+  text-align: center;
+}
+.stat-value {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.stat-label {
+  font-size: 0.75rem;
+  opacity: 0.9;
+  margin-top: 4px;
+}
+.home-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.btn:active { transform: scale(0.98); }
+.btn-primary {
+  background: var(--primary);
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 18px 48px;
+}
+.btn-primary:hover { background: var(--primary-dark); }
+.btn-secondary {
+  background: #f0f0f5;
+  color: #333;
+}
+.btn-secondary:hover { background: #e0e0e5; }
+.btn-danger {
+  background: #ff3b30;
+  color: #fff;
+}
+.btn-row {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* Test Screen */
+.test-header {
+  background: var(--header-gradient);
+  color: #fff;
+  padding: 16px 20px;
+}
+.test-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.test-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.timer {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.timer.warning { color: #ffcc00; }
+.timer.danger { color: #ff3b30; animation: blink 1s infinite; }
+@keyframes blink { 50% { opacity: 0.6; } }
+.progress-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.progress-bar {
+  flex: 1;
+  height: 6px;
+  background: rgba(255,255,255,0.3);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  background: #fff;
+  transition: width 0.3s ease;
+}
+.progress-text {
+  font-size: 0.85rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+/* Question */
+.question-container { padding: 20px; }
+.section-badge {
+  display: inline-block;
+  background: var(--primary-light);
+  color: var(--primary-dark);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.question-text {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+  padding: 16px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  border-left: 4px solid var(--primary);
+}
+.question-text u { 
+  text-decoration: none;
+  background: var(--primary-light);
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.options { display: flex; flex-direction: column; gap: 10px; }
+.option {
+  display: flex;
+  align-items: center;
+  padding: 14px 16px;
+  background: #fff;
+  border: 2px solid #e5e5ea;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.option:hover { border-color: var(--primary); background: var(--primary-light); }
+.option.selected { border-color: var(--primary); background: var(--primary-light); }
+.option.correct { border-color: #34c759; background: #e8f9ee; }
+.option.wrong { border-color: #ff3b30; background: #ffebea; }
+.option-label {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-right: 14px;
+  flex-shrink: 0;
+}
+.option.selected .option-label { background: var(--primary-dark); }
+.option.correct .option-label { background: #34c759; }
+.option.wrong .option-label { background: #ff3b30; }
+.option-text { flex: 1; font-size: 1rem; line-height: 1.5; }
+/* Navigation */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  background: #f8f9fa;
+  border-top: 1px solid #e5e5ea;
+}
+.nav-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.nav-btn-prev, .nav-btn-next {
+  background: var(--primary);
+  color: #fff;
+}
+.nav-btn-prev:hover, .nav-btn-next:hover { background: var(--primary-dark); }
+.nav-btn-submit {
+  background: #34c759;
+  color: #fff;
+  padding: 12px 24px;
+}
+.nav-btn-submit:hover { background: #2db350; }
+.nav-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+/* Results */
+.results-content { padding: 24px; }
+.score-card {
+  background: var(--header-gradient);
+  color: #fff;
+  padding: 32px 24px;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.score-value {
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+.score-detail {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+.pass-badge {
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-weight: 700;
+  margin-top: 12px;
+}
+.pass-badge.pass { background: #34c759; }
+.pass-badge.fail { background: #ff3b30; }
+/* Section Scores */
+.section-scores {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.section-score-card {
+  background: #f8f9fa;
+  padding: 16px;
+  border-radius: 12px;
+  text-align: center;
+  border-left: 4px solid var(--primary);
+}
+.section-score-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+.section-score-label {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 4px;
+}
+/* Answer Review */
+.review-section {
+  margin-top: 24px;
+}
+.review-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.review-toggle {
+  background: var(--primary-light);
+  color: var(--primary);
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 16px;
+}
+.answer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+.answer-item {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 16px;
+  border-left: 4px solid #34c759;
+}
+.answer-item.wrong {
+  border-left-color: #ff3b30;
+  background: #fff5f5;
+}
+.answer-q-num {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #666;
+  margin-bottom: 8px;
+}
+.answer-q-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+.answer-result {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.9rem;
+}
+.answer-your {
+  color: #ff3b30;
+}
+.answer-correct {
+  color: #34c759;
+  font-weight: 600;
+}
+/* Results Actions */
+.results-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 24px;
+}
+/* Audio Button */
+.audio-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 16px;
+  transition: all 0.2s;
+}
+.audio-btn:hover { background: var(--primary-dark); }
+.audio-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.audio-btn.playing { animation: pulse 1s infinite; }
+@keyframes pulse { 50% { opacity: 0.7; } }
+/* Utilities */
+.hidden { display: none !important; }
+/* Responsive */
+@media (max-width: 480px) {
+  body { padding: 8px; }
+  .header { padding: 20px 16px; }
+  .header h1 { font-size: 1.3rem; }
+  .stats-grid { gap: 8px; }
+  .stat-card { padding: 16px 8px; }
+  .stat-value { font-size: 1.6rem; }
+  .question-container { padding: 16px; }
+  .question-text { padding: 12px; font-size: 1rem; }
+  .option { padding: 12px 14px; }
+  .nav-bar { padding: 12px 16px; }
+  .nav-btn { padding: 10px 16px; font-size: 0.9rem; }
+  .score-value { font-size: 3rem; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <!-- Header -->
+  <div class="header">
+    <h1>🇯🇵 JLPT N2-08</h1>
+    <div class="subtitle">第8回模擬テスト | v2.0.0</div>
+  </div>
+
+  <!-- Home Screen -->
+  <div id="home" class="home-content">
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-value" id="stat-best">-%</div>
+        <div class="stat-label">最高スコア</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="stat-attempts">0</div>
+        <div class="stat-label">受験回数</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="stat-wrong">0</div>
+        <div class="stat-label">復習問題</div>
+      </div>
+    </div>
+    <div class="home-actions">
+      <button class="btn btn-primary" onclick="startTest()">📝 テスト開始</button>
+      <div class="btn-row">
+        <button class="btn btn-secondary" onclick="startReview()">📚 復習モード</button>
+        <button class="btn btn-danger" onclick="resetData()">🗑️ リセット</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Test Screen -->
+  <div id="test" class="hidden">
+    <div class="test-header">
+      <div class="test-top">
+        <div class="test-title" id="test-title">模擬テスト</div>
+        <div class="timer" id="timer">00:00</div>
+      </div>
+      <div class="progress-container">
+        <div class="progress-bar">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+        <div class="progress-text" id="progress-text">1 / 15</div>
+      </div>
+    </div>
+    <div class="question-container" id="question-container"></div>
+    <div class="nav-bar">
+      <button class="nav-btn nav-btn-prev" id="btn-prev" onclick="prevQ()">← 前へ</button>
+      <button class="nav-btn nav-btn-submit" id="btn-submit" onclick="submitTest()">採点する</button>
+      <button class="nav-btn nav-btn-next" id="btn-next" onclick="nextQ()">次へ →</button>
+    </div>
+  </div>
+
+  <!-- Results Screen -->
+  <div id="results" class="results-content hidden">
+    <div class="score-card">
+      <div class="score-value" id="score-value">0%</div>
+      <div class="score-detail" id="score-detail">0問正解 / 15問中</div>
+      <div class="pass-badge" id="pass-badge">合格</div>
+    </div>
+    <div class="section-scores" id="section-scores"></div>
+    <div class="review-section">
+      <button class="review-toggle" id="review-toggle" onclick="toggleAnswerList()">
+        📋 正誤一覧を表示
+      </button>
+      <div class="answer-list hidden" id="answer-list"></div>
+    </div>
+    <div class="results-actions">
+      <button class="btn btn-primary" onclick="reviewWrong()">❌ 間違えた問題を復習</button>
+      <button class="btn btn-secondary" onclick="startTest()">🔄 もう一度挑戦</button>
+      <button class="btn btn-secondary" onclick="goHome()">🏠 ホームに戻る</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// Test Data (will be replaced)
+const TEST = {"id":"N2-08","title":"N2模擬テスト 第8回","questions":[{"text":"この映画は大衆に（支持）されている。","question":"（支持）の読み方は？","options":["しち","ささえ","しいじ","しじ"],"answer":3,"type":"漢字読み"},{"text":"彼女は会議の（議題）を提案した。","question":"（議題）の読み方は？","options":["きだい","ぎてい","きてい","ぎだい"],"answer":3,"type":"漢字読み"},{"text":"環境問題に対する（意識）が高まっている。","question":"（意識）の読み方は？","options":["いしょく","いしつ","いしき","いしん"],"answer":2,"type":"漢字読み"},{"text":"彼は（誠実）な態度で謝罪した。","question":"（誠実）の読み方は？","options":["せいじつ","まじつ","しんじつ","ていじつ"],"answer":0,"type":"漢字読み"},{"text":"その計画は（実施）されることになった。","question":"（実施）の読み方は？","options":["じつし","しっし","しつし","じっし"],"answer":3,"type":"漢字読み"},{"text":"彼の（しゅちょう）は論理的だ。","question":"（しゅちょう）の書き方は？","options":["首長","主張","主帳","首張"],"answer":1,"type":"表記"},{"text":"この製品は（ひんしつ）が高い。","question":"（ひんしつ）の書き方は？","options":["瀕室","貧質","頻室","品質"],"answer":3,"type":"表記"},{"text":"彼は（こんきょ）を示した。","question":"（こんきょ）の書き方は？","options":["困拠","懇拠","根拠","混拠"],"answer":2,"type":"表記"},{"text":"その案は（さいよう）された。","question":"（さいよう）の書き方は？","options":["再用","際用","採用","催用"],"answer":2,"type":"表記"},{"text":"彼女は（けんきゅう）に没頭している。","question":"（けんきゅう）の書き方は？","options":["県究","研究","見究","検究"],"answer":1,"type":"表記"},{"text":"（　）場面","question":"（　）に入る接頭辞は？","options":["名","主","真","新"],"answer":0,"type":"語形成"},{"text":"成功（　）","question":"（　）に入る接尾辞は？","options":["式","性","率","度"],"answer":2,"type":"語形成"},{"text":"（　）常識","question":"（　）に入る接頭辞は？","options":["非","不","無","否"],"answer":0,"type":"語形成"},{"text":"国際（　）","question":"（　）に入る接尾辞は？","options":["化","的","性","感"],"answer":0,"type":"語形成"},{"text":"（　）意味","question":"（　）に入る接頭辞は？","options":["不","無","非","未"],"answer":1,"type":"語形成"},{"text":"彼は問題を（　　）解決した。","question":"（　）に入る言葉は？","options":["見物に","見事に","見当に","見識に"],"answer":1,"type":"文脈規定"},{"text":"この件は（　　）検討する必要がある。","question":"（　）に入る言葉は？","options":["慎美に","慎厳に","慎敬に","慎重に"],"answer":3,"type":"文脈規定"},{"text":"彼女の意見は（　　）的だ。","question":"（　）に入る言葉は？","options":["建築","建立","建造","建設"],"answer":3,"type":"文脈規定"},{"text":"この問題は（　　）複雑だ。","question":"（　）に入る言葉は？","options":["極めて","深めて","高めて","強めて"],"answer":0,"type":"文脈規定"},{"text":"彼は責任を（　　）した。","question":"（　）に入る言葉は？","options":["回収","回答","回避","回復"],"answer":2,"type":"文脈規定"},{"text":"その提案は（　　）された。","question":"（　）に入る言葉は？","options":["脚下","却下","客下","格下"],"answer":1,"type":"文脈規定"},{"text":"彼女は目標を（　　）した。","question":"（　）に入る言葉は？","options":["達着","達成","達到","達行"],"answer":1,"type":"文脈規定"},{"text":"彼の説明は（明瞭）だった。","question":"（明瞭）と似た意味は？","options":["あいまいな","複雑な","はっきりしている","長い"],"answer":2,"type":"言い換え"},{"text":"その計画は（頓挫）した。","question":"（頓挫）と似た意味は？","options":["失敗した","成功した","始まった","変更された"],"answer":0,"type":"言い換え"},{"text":"彼女は（辛辣）な批評をした。","question":"（辛辣）と似た意味は？","options":["やさしい","厳しい","あいまいな","長い"],"answer":1,"type":"言い換え"},{"text":"その問題は（深刻）だ。","question":"（深刻）と似た意味は？","options":["簡単な","面白い","重大な","古い"],"answer":2,"type":"言い換え"},{"text":"彼は（寡黙）な人だ。","question":"（寡黙）と似た意味は？","options":["口数が少ない","よく話す","賑やかな","明るい"],"answer":0,"type":"言い換え"},{"text":"「踏まえる」の使い方で正しいものは？","question":"正しい文を選んでください。","options":["踏まえて歩く","料理を踏まえる","本を踏まえる","状況を踏まえて判断する"],"answer":3,"type":"用法"},{"text":"「かねない」の使い方で正しいものは？","question":"正しい文を選んでください。","options":["成功しかねない","楽しみかねない","おいしくかねない","事故につながりかねない"],"answer":3,"type":"用法"},{"text":"「を通じて」の使い方で正しいものは？","question":"正しい文を選んでください。","options":["窓を通じて見る","食事を通じて食べる","友人を通じて紹介された","電車を通じて乗る"],"answer":2,"type":"用法"},{"text":"「にわたって」の使い方で正しいものは？","question":"正しい文を選んでください。","options":["10年にわたって研究した","にわたって歩く","にわたって食べる","にわたって眠る"],"answer":0,"type":"用法"},{"text":"「に基づいて」の使い方で正しいものは？","question":"正しい文を選んでください。","options":["椅子に基づいて座る","データに基づいて分析する","料理に基づいて食べる","本に基づいて読む"],"answer":1,"type":"用法"},{"text":"この問題は難しい（　　）、解けないわけではない。","question":"（　）に入る言葉は？","options":["といっても","としても","とはいえ","とすれば"],"answer":2,"type":"文法形式"},{"text":"彼女は泣き（　　）話し始めた。","question":"（　）に入る言葉は？","options":["つつ","がてら","ながら","かねて"],"answer":2,"type":"文法形式"},{"text":"忙しさの（　　）、健康を害してしまった。","question":"（　）に入る言葉は？","options":["ために","せいで","おかげで","あまり"],"answer":3,"type":"文法形式"},{"text":"彼は努力した（　　）報われなかった。","question":"（　）に入る言葉は？","options":["のに","ものの","くせに","にもかかわらず"],"answer":3,"type":"文法形式"},{"text":"この製品は品質（　　）価格も手頃だ。","question":"（　）に入る言葉は？","options":["もさることながら","はともかく","はおろか","にしても"],"answer":0,"type":"文法形式"},{"text":"彼の成功は努力（　　）だ。","question":"（　）に入る言葉は？","options":["のおかげ","のせい","の賜物","のため"],"answer":2,"type":"文法形式"},{"text":"時間が（　　）、もっと調べたかった。","question":"（　）に入る言葉は？","options":["あったら","あるなら","あれば","あっても"],"answer":2,"type":"文法形式"},{"text":"彼女は医者で（　　）作家でもある。","question":"（　）に入る言葉は？","options":["あって","あれば","あるので","あり"],"answer":3,"type":"文法形式"},{"text":"この店は安い（　　）おいしい。","question":"（　）に入る言葉は？","options":["うえに","うえで","ことに","ものの"],"answer":0,"type":"文法形式"},{"text":"彼は成功（　　）だろう。","question":"（　）に入る言葉は？","options":["するはずだ","するに違いない","するものだ","するべきだ"],"answer":1,"type":"文法形式"},{"text":"あの人の言う（　　）にしたら、失敗するよ。","question":"（　）に入る言葉は？","options":["通り","とおり","どおり","まま"],"answer":0,"type":"文法形式"},{"text":"彼女は病気（　　）出勤した。","question":"（　）に入る言葉は？","options":["をもって","をおして","にして","として"],"answer":1,"type":"文法形式"},{"text":"この問題は ＿＿ ★ ＿＿ ＿＿ 難しい。","question":"★に入るものは？","options":["ずっと","思ったより","かなり","実は"],"answer":0,"type":"文の組み立て"},{"text":"彼女は ＿＿ ＿＿ ★ ＿＿ 成功した。","question":"★に入るものは？","options":["努力した","長年","の","結果"],"answer":3,"type":"文の組み立て"},{"text":"この本は ＿＿ ★ ＿＿ ＿＿ 書かれている。","question":"★に入るものは？","options":["初心者にも","分かりやすく","ように","とても"],"answer":1,"type":"文の組み立て"},{"text":"問題が ＿＿ ＿＿ ★ ＿＿ 解決した。","question":"★に入るものは？","options":["起きてから","ようやく","1年","経って"],"answer":1,"type":"文の組み立て"},{"text":"彼は ＿＿ ★ ＿＿ ＿＿ 帰国した。","question":"★に入るものは？","options":["留学を","無事に","5年間の","終えて"],"answer":3,"type":"文の組み立て"},{"text":"彼の提案は（1）。なぜなら、予算が（2）からだ。しかし、（3）検討の余地はある。","question":"（1）に入るものは？","options":["却下された","採用された","変更された","延期された"],"answer":0,"type":"文章の文法"},{"text":"この計画は（1）。まず、市場調査を（2）。その後、（3）予定だ。","question":"（2）に入るものは？","options":["行って","行う","行い","行った"],"answer":2,"type":"文章の文法"},{"text":"彼女は（1）な人だ。いつも（2）、周りを（3）。","question":"（3）に入るものは？","options":["明るくする","暗くする","静かにする","騒がしくする"],"answer":0,"type":"文章の文法"},{"text":"日本語の勉強は（1）。しかし、（2）続ければ、必ず（3）。","question":"（1）に入るものは？","options":["簡単だ","難しい","楽しい","退屈だ"],"answer":1,"type":"文章の文法"},{"text":"この会社は（1）で知られている。社員の（2）も高く、（3）企業だ。","question":"（2）に入るものは？","options":["不満度","満足度","離職率","欠勤率"],"answer":1,"type":"文章の文法"},{"text":"近年、ビジネスの場においても「共感力」の重要性が指摘されている。しかし、単に相手の感情に流されることが共感ではない。相手が置かれている状況を客観的に分析した上で、その心情を推測する論理的なプロセスが不可欠なのである。真の共感とは、知性に裏付けられた対話の技術に他ならない。","question":"筆者の考える「共感」とはどのようなものか。","options":["相手の感情に合わせて自分の意見を変えること","相手の状況を冷静に分析し、心情を理解しようとすること","自分の感情を優先し、相手との対話を技術で進めること","相手の言うことに常に賛成し、良好な関係を築くこと"],"answer":1,"type":"読解（短文）"},{"text":"現代社会において「時間を効率的に使う」という概念は、もはや義務のように感じられる。しかし、あらゆる隙間時間を生産的な活動で埋め尽くすことが、必ずしも精神的な豊かさにつながるわけではない。何もしない「空白」の時間こそが、新しい発想を生む土壌となることを、私たちは再認識すべきである。","question":"筆者が最も言いたいことは何か。","options":["隙間時間を有効に活用して生産性を高めるべきだ","現代人は時間を無駄にすることに慣れるべきだ","精神的な豊かさを得るには、義務を果たすことが必要だ","何もしない時間は、新しいアイデアを生むために大切だ"],"answer":3,"type":"読解（短文）"},{"text":"技術の進歩は私たちの生活を飛躍的に便利にしたが、同時に「待つ」という能力を失わせた。即座に情報が手に入る環境が、忍耐を不要なものに変えてしまったのである。しかし、成熟した思考や人間関係の構築には、時間をかけて待つというプロセスが不可欠である。","question":"筆者が危惧していることは何か。","options":["現代人が忍耐強く待つ能力を失いつつあること","便利な生活が技術の進歩を止めていること","情報が手に入るまでに時間がかかりすぎること","思考の成熟には技術の進歩が必要だということ"],"answer":0,"type":"読解（短文）"},{"text":"「正解のない問い」に対して、粘り強く考え続ける力が求められている。効率を重視する社会では、つい手近な答えに飛びつきたくなるが、安易な結論は思考の停止を招く。葛藤の中で留まり、多角的な視点から検討を重ねるプロセスこそが、真の創造性を育くむのである。","question":"筆者が考える「真の創造性」に必要なことは何か。","options":["効率的に手近な答えを見つけること","答えがない問題に対して考え続けること","結論が出るまで他人の意見を聞かないこと","過去の成功例を多角的に分析すること"],"answer":1,"type":"読解（短文）"},{"text":"人工知能の飛躍的な発展により、人間にしかできない仕事が問い直されている。定型的な業務が機械に取って代わられる中、我々に求められるのは、単なる知識の蓄積ではない。異なる事象を創造的に結び付け、新しい価値を創出する概念化能力こそが、これからの時代の武器となるのである。","question":"筆者が考える、これからの時代に必要な能力は何か。","options":["膨大な知識を素早く蓄積する能力","決められた業務を正確にこなす能力","異なる事柄を組み合わせて新しい価値を作る能力","機械の仕組みを論理的に分析する能力"],"answer":2,"type":"読解（短文）"},{"text":"リーダーシップの形が多様化する中、最近注目されているのが「サーバント・リーダーシップ」である。これは、リーダーがまず「奉仕者」としてメンバーを支え、彼らの能力を最大限に引き出すことに注力するスタイルだ。かつての「支配者」としてのリーダー像とは対照的だが、変化の激しい現代の組織においては、メンバーの主体性を高めるこの手法が、結果的に強いチームを作る近道となるのである。","question":"サーバント・リーダーシップの特徴として正しいものはどれか。","options":["リーダーが支配的な態度で組織をまとめること","変化を避けるためにメンバーの主体性を制限すること","強いチームを作るために、リーダーがすべての決定を下すこと","リーダーがメンバーをサポートし、その力を引き出すこと"],"answer":3,"type":"読解（中文）"},{"text":"リーダーシップの形が多様化する中、最近注目されているのが「サーバント・リーダーシップ」である。これは、リーダーがまず「奉仕者」としてメンバーを支え、彼らの能力を最大限に引き出すことに注力するスタイルだ。かつての「支配者」としてのリーダー像とは対照的だが、変化の激しい現代の組織においては、メンバーの主体性を高めるこの手法が、結果的に強いチームを作る近道となるのである。","question":"筆者がサーバント・リーダーシップを推奨する理由は何か。","options":["リーダーの負担が軽くなるから","従来のリーダー像を維持できるから","変化の激しい時代を避けられるから","メンバーの主体性が高まり、強いチームになるから"],"answer":3,"type":"読解（中文）"},{"text":"リーダーシップの形が多様化する中、最近注目されているのが「サーバント・リーダーシップ」である。これは、リーダーがまず「奉仕者」としてメンバーを支え、彼らの能力を最大限に引き出すことに注力するスタイルだ。かつての「支配者」としてのリーダー像とは対照的だが、変化の激しい現代の組織においては、メンバーの主体性を高めるこの手法が、結果的に強いチームを作る近道となるのである。","question":"「支配者」としてのリーダー像とはどのようなものか。","options":["メンバーを上から統制するリーダー","メンバーを支援するリーダー","メンバーの能力を引き出すリーダー","メンバーと対等に議論するリーダー"],"answer":0,"type":"読解（中文）"},{"text":"言葉は時代とともに変化する。かつて誤りとされた言葉遣いが、多くの人に使われるうちに正しい表現として認められることは珍しくない。しかし、単に「変化」として片付けてしまうのは危うい。本来の言葉が持っていた繊細なニュアンスが失われてしまう可能性があるからだ。新しい表現を受け入れつつも、言葉の背景にある文化や歴史を尊重する姿勢が、使い手には求められている。","question":"言葉の変化について、筆者はどのように考えているか。","options":["変化を認めつつ、言葉の持つ意味の深さも大切にすべきだ","変化は避けられないので、積極的に新しい言葉を使うべきだ","誤った言葉遣いは、時代に関係なく厳しく正すべきだ","昔の言葉が最も正しいので、新しい表現は認めるべきではない"],"answer":0,"type":"読解（中文）"},{"text":"言葉は時代とともに変化する。かつて誤りとされた言葉遣いが、多くの人に使われるうちに正しい表現として認められることは珍しくない。しかし、単に「変化」として片付けてしまうのは危うい。本来の言葉が持っていた繊細なニュアンスが失われてしまう可能性があるからだ。新しい表現を受け入れつつも、言葉の背景にある文化や歴史を尊重する姿勢が、使い手には求められている。","question":"筆者が「危うい」と言っているのはなぜか。","options":["新しい言葉が増えすぎるから","本来の言葉のニュアンスが失われるから","若者が言葉を使えなくなるから","外国語が日本語に入ってくるから"],"answer":1,"type":"読解（中文）"},{"text":"言葉は時代とともに変化する。かつて誤りとされた言葉遣いが、多くの人に使われるうちに正しい表現として認められることは珍しくない。しかし、単に「変化」として片付けてしまうのは危うい。本来の言葉が持っていた繊細なニュアンスが失われてしまう可能性があるからだ。新しい表現を受け入れつつも、言葉の背景にある文化や歴史を尊重する姿勢が、使い手には求められている。","question":"言葉を使う人に求められていることは何か。","options":["新しい表現だけを使うこと","古い言葉だけを守ること","言葉の文化的背景を尊重すること","言葉の変化を完全に止めること"],"answer":2,"type":"読解（中文）"},{"text":"【あさひ市民大学講座案内】\n■英会話初級：火曜 18:30〜20:00（15,000円）\n■歴史探訪：土曜 10:00〜12:00（12,000円）\n■申込：3月15日まで。2講座同時申込で合計金額から10%割引。\n※市民以外の方は各講座につき一律2,000円の追加料金がかかります。","question":"市民でない人が2講座同時申込した場合の支払い額は？","options":["24,300円","26,300円","28,300円","31,000円"],"answer":2,"type":"読解（情報検索）"},{"text":"【あさひ市民大学講座案内】\n■英会話初級：火曜 18:30〜20:00（15,000円）\n■歴史探訪：土曜 10:00〜12:00（12,000円）\n■申込：3月15日まで。2講座同時申込で合計金額から10%割引。\n※市民以外の方は各講座につき一律2,000円の追加料金がかかります。","question":"市民が英会話初級だけを受講する場合は？","options":["15,000円","13,500円","17,000円","27,000円"],"answer":0,"type":"読解（情報検索）"},{"audio":"会社で女の人と男の人が話しています。男の人はこれから何をしますか。女の人：田中さん、明日の会議の資料、もうできましたか。男の人：すみません、まだ半分しか終わっていないんです。女の人：困りましたね。今日中に完成させてください。男の人：わかりました。今夜残業して仕上げます。","question":"男の人はこれから何をしますか。","options":["会議に出席する","残業して資料を完成させる","部長に報告する","女の人を手伝う"],"answer":1,"type":"課題理解"},{"audio":"大学で学生と教授が話しています。学生は何をしなければなりませんか。教授：来週のレポートですが、テーマを変更しても構いませんよ。学生：本当ですか。実は、資料がなかなか見つからなくて困っていたんです。教授：では、新しいテーマを今週中に私にメールで知らせてください。","question":"学生は何をしなければなりませんか。","options":["レポートを来週提出する","今週中に新しいテーマをメールする","資料を探し続ける","テーマを変更しない"],"answer":1,"type":"課題理解"},{"audio":"ホテルで客と従業員が話しています。客は何をしますか。従業員：チェックアウトは明日の11時までです。客：もう少し遅くできませんか。従業員：追加料金で14時まで延長可能です。1時間1,000円です。客：では、2時間延長してください。","question":"客は何時にチェックアウトしますか。","options":["13時","11時","14時","12時"],"answer":0,"type":"課題理解"},{"audio":"駅のアナウンスです。乗客はどうしなければなりませんか。アナウンス：15時発の新幹線は車両点検のため、発車が15分遅れます。ご乗車のお客様は発車時刻の変更にご注意ください。","question":"乗客はどうしなければなりませんか。","options":["発車時刻の変更に注意する","別の電車に乗る","キャンセルする","車両を点検する"],"answer":0,"type":"課題理解"},{"audio":"病院で医者と患者が話しています。患者は何に気をつけますか。医者：特に問題はありませんが、血圧が少し高めですね。塩分を控えめにして、適度な運動を心がけてください。","question":"患者は何に気をつけますか。","options":["水分を多く取る","塩分を控えて運動する","薬を毎日飲む","検査を毎月受ける"],"answer":1,"type":"課題理解"},{"audio":"女の人が仕事について話しています。女の人は今の仕事の何が一番大変だと言っていますか。女の人：毎日違うプロジェクトを担当するので、新しいことを覚えるのが大変です。でも、やりがいがあります。やっぱり常に勉強し続けなければならないのが一番大変ですね。","question":"女の人は何が一番大変だと言っていますか。","options":["常に新しいことを学ぶこと","給料が低いこと","通勤が不便なこと","やりがいがないこと"],"answer":0,"type":"ポイント理解"},{"audio":"男の人が留学経験について話しています。男の人は留学で一番良かったことは何だと言っていますか。男の人：英語力は伸びましたし、専門知識も深まりました。でも、一番良かったのは、世界中から来た友人ができたことですね。","question":"男の人は留学で一番良かったことは何だと言っていますか。","options":["英語力が伸びたこと","世界中に友人ができたこと","専門知識が深まったこと","アメリカの文化を学んだこと"],"answer":1,"type":"ポイント理解"},{"audio":"女の人がダイエットについて話しています。女の人がダイエットに成功した理由は何ですか。女の人：友達と一緒に始めてからは、お互いに励まし合えるので続けられています。一人だと挫折しやすいですが、仲間がいると違いますね。","question":"女の人がダイエットに成功した理由は何ですか。","options":["新しい方法を見つけたから","専門家に指導してもらったから","友達と一緒に始めたから","食事制限を厳しくしたから"],"answer":2,"type":"ポイント理解"},{"audio":"男の人が読書について話しています。男の人は電子書籍についてどう考えていますか。男の人：電子書籍は便利ですよね。でも、私はやっぱり紙の本が好きなんです。ページをめくる感覚とか、本の匂いとか。","question":"男の人は電子書籍についてどう考えていますか。","options":["便利だが、紙の本の方が好きだ","紙の本より優れている","全く使わない","読書には不向きだ"],"answer":0,"type":"ポイント理解"},{"audio":"女の人がリモートワークについて話しています。女の人はリモートワークの問題点は何だと言っていますか。女の人：通勤時間がなくなって仕事に集中できるようになりました。ただ、同僚と直接話す機会が減ったので、ちょっとした相談がしにくくなったのが問題ですね。","question":"女の人はリモートワークの問題点は何だと言っていますか。","options":["通勤時間が長いこと","仕事に集中できないこと","給料が下がったこと","同僚とのコミュニケーションが減ったこと"],"answer":3,"type":"ポイント理解"},{"audio":"男の人が転職について話しています。男の人は転職を決めた理由は何ですか。男の人：前の会社は給料も良かったし、安定していました。でも、自分のやりたいことができなかったんです。新しい会社は給料は少し下がりましたが、自分の専門を活かせる仕事ができます。","question":"男の人は転職を決めた理由は何ですか。","options":["給料を上げるため","通勤を便利にするため","安定した会社に入るため","自分のやりたい仕事をするため"],"answer":3,"type":"ポイント理解"},{"audio":"ラジオで専門家が話しています。この人は何について話していますか。話し手：最近、スマートフォンの使いすぎによる健康問題が増えています。特に目の疲れや肩こり、睡眠の質の低下が報告されています。","question":"この人は何について話していますか。","options":["スマートフォンの新機能","スマートフォンの選び方","スマートフォンの使いすぎによる健康問題","スマートフォンの修理方法"],"answer":2,"type":"概要理解"},{"audio":"テレビで評論家が話しています。この人が言いたいことは何ですか。話し手：日本の人口減少は深刻な問題です。今のうちに対策を立てなければ、将来取り返しがつかなくなるでしょう。","question":"この人が言いたいことは何ですか。","options":["人口減少は心配ない","地方に移住すべきだ","人口減少への対策を急ぐべきだ","社会保障をなくすべきだ"],"answer":2,"type":"概要理解"},{"audio":"講演会で研究者が話しています。この人は何を主張していますか。話し手：教育において、知識を詰め込むだけでは不十分です。これからの時代に必要なのは、自分で考え、問題を解決する力です。","question":"この人は何を主張していますか。","options":["暗記教育の重要性","思考力を育てる教育の必要性","知識を増やすことの大切さ","試験をなくすべきだ"],"answer":1,"type":"概要理解"},{"audio":"会議で社長が話しています。社長は何を伝えたいですか。社長：今期の業績は目標を達成できませんでしたが、来期に向けての準備は整いました。皆さん、来期こそは必ず成功させましょう。","question":"社長は何を伝えたいですか。","options":["今期の失敗を責める","新製品の開発中止","来期への期待と意気込み","社員の削減"],"answer":2,"type":"概要理解"},{"audio":"セミナーで講師が話しています。講師の話の主題は何ですか。講師：時間管理で最も大切なのは、優先順位をつけることです。重要なことに集中することで、効率が上がります。","question":"講師の話の主題は何ですか。","options":["仕事を増やす方法","全ての仕事を完璧にする方法","残業を増やす方法","優先順位をつけることの重要性"],"answer":3,"type":"概要理解"},{"audio":"この件について、ご意見をお聞かせください。","question":"何と答えますか。","options":["はい、聞こえます","いいえ、知りません","明日行きます","私としては賛成です"],"answer":3,"type":"即時応答"},{"audio":"お忙しいところ申し訳ありません。","question":"何と答えますか。","options":["いいえ、大丈夫ですよ","いいえ、どういたしまして","はい、忙しいです","すみません、遅れました"],"answer":0,"type":"即時応答"},{"audio":"お先に失礼します。","question":"何と答えますか。","options":["お疲れさまでした","いらっしゃいませ","ごちそうさまでした","いただきます"],"answer":0,"type":"即時応答"},{"audio":"ご迷惑をおかけして申し訳ございません。","question":"何と答えますか。","options":["はい、迷惑です","ありがとうございます","おめでとうございます","いえいえ、お気になさらず"],"answer":3,"type":"即時応答"},{"audio":"この資料、確認していただけますか。","question":"何と答えますか。","options":["いいえ、確認しません","確認できません","確認しました","はい、確認します"],"answer":3,"type":"即時応答"},{"audio":"よろしければ、お名前を教えていただけますか。","question":"何と答えますか。","options":["名前がありません","名前は秘密です","山田と申します","名前を忘れました"],"answer":2,"type":"即時応答"},{"audio":"今日の会議、参加されますか。","question":"何と答えますか。","options":["はい、終わりました","はい、参加します","いいえ、始まりました","会議は明日です"],"answer":1,"type":"即時応答"},{"audio":"ご不明な点がございましたら、お申し付けください。","question":"何と答えますか。","options":["不明です","はい、ありがとうございます","分かりません","申し訳ありません"],"answer":1,"type":"即時応答"},{"audio":"お荷物、お持ちしましょうか。","question":"何と答えますか。","options":["荷物はありません","持ってきました","重いです","ありがとうございます、お願いします"],"answer":3,"type":"即時応答"},{"audio":"この問題、解決策が見つかりましたか。","question":"何と答えますか。","options":["問題がありません","解決しました","はい、いくつか案があります","見つけません"],"answer":2,"type":"即時応答"},{"audio":"プレゼンテーション、お疲れさまでした。","question":"何と答えますか。","options":["疲れています","ありがとうございます","プレゼンです","始めます"],"answer":1,"type":"即時応答"},{"audio":"来週の予定、もう決まりましたか。","question":"何と答えますか。","options":["予定がありません","来週は来ません","はい、水曜日なら空いています","決まりです"],"answer":2,"type":"即時応答"},{"audio":"会議で2人が話しています。営業部長：市場調査の結果、若者向けのデザインが好評でした。価格は5千円以下が望ましいです。開発部長：若者向けデザインは可能ですが、5千円以下だと品質が落ちます。6千円なら品質を保てます。","question":"営業部と開発部の意見の違いは何か。","options":["デザインについて","発売時期について","価格について","ターゲット層について"],"answer":2,"type":"統合理解"},{"audio":"司会者：最終決定について話し合いましょう。営業部長：5千円以下にすべきです。競合他社も同じ価格帯です。開発部長：品質を落としては意味がありません。司会者：6千円で販売し、品質をアピールする戦略はいかがでしょう。","question":"司会者はどのような提案をしたか。","options":["6千円で品質をアピールする","5千円で販売する","販売を中止する","もっと安くする"],"answer":0,"type":"統合理解"},{"audio":"大学の説明会で2人の学生が話しています。学生A：この大学は研究設備が充実していて、論文の実績も多いですね。学生B：そうですね。でも、私は就職支援の方が気になります。","question":"学生Aと学生Bが重視していることの違いは何か。","options":["学生Aは就職、学生Bは研究","両方とも研究を重視","両方とも就職を重視","学生Aは研究、学生Bは就職支援"],"answer":3,"type":"統合理解"},{"audio":"学生B：キャリアセンターの相談件数は年々増えているそうです。学生A：それは良いことですね。私も研究と並行して、キャリアのことも考えておこうと思います。学生B：私も、研究の魅力も分かりました。","question":"2人は最終的にどう考えるようになったか。","options":["研究とキャリア両方を大切にする","研究だけに集中する","就職だけを考える","大学を変える"],"answer":0,"type":"統合理解"}]};
+const LEVEL = "N2";
+const TIME_LIMIT = 3000; // seconds
+const PASS_SCORE = 60; // percent
+const STORAGE_KEY = "fujisan_mock_v200_N2_08";
+
+// State
+let currentQ = 0;
+let answers = {};
+let startTime = null;
+let timerInterval = null;
+let isReview = false;
+let questions = [];
+let testResults = null;
+
+// Init
+function init() {
+  loadStats();
+}
+
+function loadStats() {
+  const data = getData();
+  document.getElementById('stat-best').textContent = data.best !== null ? data.best + '%' : '-%';
+  document.getElementById('stat-attempts').textContent = data.attempts || 0;
+  document.getElementById('stat-wrong').textContent = (data.wrongQuestions || []).length;
+}
+
+function getData() {
+  const saved = localStorage.getItem(STORAGE_KEY);
+  return saved ? JSON.parse(saved) : { best: null, attempts: 0, wrongQuestions: [] };
+}
+
+function saveData(data) {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+}
+
+// Start Test
+function startTest() {
+  currentQ = 0;
+  answers = {};
+  isReview = false;
+  questions = [...TEST.questions];
+  testResults = null;
+  
+  showScreen('test');
+  document.getElementById('test-title').textContent = TEST.title;
+  
+  startTime = Date.now();
+  updateTimer();
+  timerInterval = setInterval(updateTimer, 1000);
+  
+  renderQuestion();
+}
+
+function startReview() {
+  const data = getData();
+  if (!data.wrongQuestions || data.wrongQuestions.length === 0) {
+    alert('復習する問題がありません！');
+    return;
+  }
+  
+  currentQ = 0;
+  answers = {};
+  isReview = true;
+  questions = data.wrongQuestions.map((q, i) => ({...q, originalIndex: q.index}));
+  testResults = null;
+  
+  showScreen('test');
+  document.getElementById('test-title').textContent = '📚 復習モード';
+  document.getElementById('timer').textContent = '復習中';
+  
+  if (timerInterval) clearInterval(timerInterval);
+  timerInterval = null;
+  
+  renderQuestion();
+}
+
+// Timer
+function updateTimer() {
+  const elapsed = Math.floor((Date.now() - startTime) / 1000);
+  const remaining = TIME_LIMIT - elapsed;
+  
+  const timerEl = document.getElementById('timer');
+  
+  if (remaining <= 0) {
+    clearInterval(timerInterval);
+    timerEl.textContent = '00:00';
+    timerEl.classList.add('danger');
+    submitTest();
+    return;
+  }
+  
+  const mins = Math.floor(remaining / 60);
+  const secs = remaining % 60;
+  timerEl.textContent = String(mins).padStart(2, '0') + ':' + String(secs).padStart(2, '0');
+  
+  timerEl.classList.remove('warning', 'danger');
+  if (remaining <= 60) {
+    timerEl.classList.add('danger');
+  } else if (remaining <= 180) {
+    timerEl.classList.add('warning');
+  }
+}
+
+// Render Question
+function renderQuestion() {
+  const q = questions[currentQ];
+  const container = document.getElementById('question-container');
+  
+  // Progress
+  document.getElementById('progress-fill').style.width = ((currentQ + 1) / questions.length * 100) + '%';
+  document.getElementById('progress-text').textContent = (currentQ + 1) + ' / ' + questions.length;
+  
+  // Navigation buttons
+  document.getElementById('btn-prev').disabled = currentQ === 0;
+  document.getElementById('btn-next').disabled = currentQ === questions.length - 1;
+  
+  // Question
+  let html = '<div class="section-badge">' + (q.section || '問題') + '</div>';
+  
+  // Audio button for listening
+  if (q.audio) {
+    html += '<button class="audio-btn" id="audio-btn" onclick="playAudio()">🔊 音声を再生</button>';
+  }
+  
+  html += '<div class="question-text">' + q.text + '</div>';
+  html += '<div class="options">';
+  
+  q.options.forEach((opt, i) => {
+    const selected = answers[currentQ] === i ? 'selected' : '';
+    html += '<div class="option ' + selected + '" onclick="selectAnswer(' + i + ')">';
+    html += '<span class="option-label">' + (i + 1) + '</span>';
+    html += '<span class="option-text">' + opt + '</span>';
+    html += '</div>';
+  });
+  
+  html += '</div>';
+  container.innerHTML = html;
+}
+
+function selectAnswer(index) {
+  answers[currentQ] = index;
+  renderQuestion();
+}
+
+function prevQ() {
+  if (currentQ > 0) {
+    currentQ--;
+    renderQuestion();
+  }
+}
+
+function nextQ() {
+  if (currentQ < questions.length - 1) {
+    currentQ++;
+    renderQuestion();
+  }
+}
+
+// Audio
+let isPlaying = false;
+function playAudio() {
+  if (isPlaying) return;
+  const q = questions[currentQ];
+  if (!q.audio) return;
+  
+  const btn = document.getElementById('audio-btn');
+  btn.disabled = true;
+  btn.classList.add('playing');
+  btn.textContent = '🔊 再生中...';
+  isPlaying = true;
+  
+  speechSynthesis.cancel();
+  const utterance = new SpeechSynthesisUtterance(q.audio);
+  utterance.lang = 'ja-JP';
+  utterance.rate = 0.9;
+  
+  utterance.onend = () => {
+    btn.disabled = false;
+    btn.classList.remove('playing');
+    btn.textContent = '🔊 もう一度再生';
+    isPlaying = false;
+  };
+  
+  utterance.onerror = () => {
+    btn.disabled = false;
+    btn.classList.remove('playing');
+    btn.textContent = '🔊 音声を再生';
+    isPlaying = false;
+  };
+  
+  speechSynthesis.speak(utterance);
+}
+
+// Submit Test
+function submitTest() {
+  if (timerInterval) {
+    clearInterval(timerInterval);
+    timerInterval = null;
+  }
+  
+  // Calculate results
+  let correct = 0;
+  const wrongQuestions = [];
+  const sectionScores = {};
+  
+  questions.forEach((q, i) => {
+    const section = q.section || '問題';
+    if (!sectionScores[section]) {
+      sectionScores[section] = { correct: 0, total: 0 };
+    }
+    sectionScores[section].total++;
+    
+    if (answers[i] === q.answer) {
+      correct++;
+      sectionScores[section].correct++;
+    } else {
+      wrongQuestions.push({
+        ...q,
+        index: q.originalIndex !== undefined ? q.originalIndex : i,
+        userAnswer: answers[i]
+      });
+    }
+  });
+  
+  const score = Math.round((correct / questions.length) * 100);
+  const passed = score >= PASS_SCORE;
+  
+  testResults = {
+    score,
+    correct,
+    total: questions.length,
+    passed,
+    sectionScores,
+    wrongQuestions,
+    answers: {...answers}
+  };
+  
+  // Save data (not in review mode)
+  if (!isReview) {
+    const data = getData();
+    data.attempts = (data.attempts || 0) + 1;
+    if (data.best === null || score > data.best) {
+      data.best = score;
+    }
+    // Update wrong questions list
+    const existingWrong = data.wrongQuestions || [];
+    wrongQuestions.forEach(wq => {
+      if (!existingWrong.find(e => e.text === wq.text)) {
+        existingWrong.push(wq);
+      }
+    });
+    // Remove questions that were answered correctly
+    data.wrongQuestions = existingWrong.filter(wq => {
+      const idx = questions.findIndex(q => q.text === wq.text);
+      return idx === -1 || answers[idx] !== wq.answer;
+    });
+    saveData(data);
+  }
+  
+  // Show results
+  showResults();
+}
+
+function showResults() {
+  showScreen('results');
+  
+  const { score, correct, total, passed, sectionScores, wrongQuestions } = testResults;
+  
+  document.getElementById('score-value').textContent = score + '%';
+  document.getElementById('score-detail').textContent = correct + '問正解 / ' + total + '問中';
+  
+  const passBadge = document.getElementById('pass-badge');
+  passBadge.textContent = passed ? '合格ライン到達！' : '不合格';
+  passBadge.className = 'pass-badge ' + (passed ? 'pass' : 'fail');
+  
+  // Section scores
+  let sectionsHtml = '';
+  Object.entries(sectionScores).forEach(([section, scores]) => {
+    const pct = Math.round((scores.correct / scores.total) * 100);
+    sectionsHtml += '<div class="section-score-card">';
+    sectionsHtml += '<div class="section-score-value">' + scores.correct + '/' + scores.total + '</div>';
+    sectionsHtml += '<div class="section-score-label">' + section.substring(0, 8) + '</div>';
+    sectionsHtml += '</div>';
+  });
+  document.getElementById('section-scores').innerHTML = sectionsHtml;
+  
+  // Answer list
+  renderAnswerList();
+  
+  loadStats();
+}
+
+function renderAnswerList() {
+  const { answers: testAnswers } = testResults;
+  let html = '';
+  
+  questions.forEach((q, i) => {
+    const isCorrect = testAnswers[i] === q.answer;
+    const userAns = testAnswers[i] !== undefined ? q.options[testAnswers[i]] : '未回答';
+    const correctAns = q.options[q.answer];
+    
+    html += '<div class="answer-item ' + (isCorrect ? '' : 'wrong') + '">';
+    html += '<div class="answer-q-num">問' + (i + 1) + ' - ' + (q.section || '問題') + '</div>';
+    html += '<div class="answer-q-text">' + q.text.substring(0, 100) + (q.text.length > 100 ? '...' : '') + '</div>';
+    html += '<div class="answer-result">';
+    if (isCorrect) {
+      html += '<div class="answer-correct">✓ 正解: ' + correctAns + '</div>';
+    } else {
+      html += '<div class="answer-your">✗ あなたの回答: ' + userAns + '</div>';
+      html += '<div class="answer-correct">○ 正解: ' + correctAns + '</div>';
+    }
+    html += '</div></div>';
+  });
+  
+  document.getElementById('answer-list').innerHTML = html;
+}
+
+function toggleAnswerList() {
+  const list = document.getElementById('answer-list');
+  const btn = document.getElementById('review-toggle');
+  
+  if (list.classList.contains('hidden')) {
+    list.classList.remove('hidden');
+    btn.textContent = '📋 正誤一覧を隠す';
+  } else {
+    list.classList.add('hidden');
+    btn.textContent = '📋 正誤一覧を表示';
+  }
+}
+
+function reviewWrong() {
+  if (!testResults || testResults.wrongQuestions.length === 0) {
+    alert('間違えた問題がありません！');
+    return;
+  }
+  
+  currentQ = 0;
+  answers = {};
+  isReview = true;
+  questions = testResults.wrongQuestions.map((q, i) => ({...q}));
+  testResults = null;
+  
+  showScreen('test');
+  document.getElementById('test-title').textContent = '❌ 間違えた問題';
+  document.getElementById('timer').textContent = '復習中';
+  
+  renderQuestion();
+}
+
+// Navigation
+function showScreen(id) {
+  ['home', 'test', 'results'].forEach(s => {
+    document.getElementById(s).classList.toggle('hidden', s !== id);
+  });
+}
+
+function goHome() {
+  if (timerInterval) {
+    clearInterval(timerInterval);
+    timerInterval = null;
+  }
+  showScreen('home');
+  loadStats();
+}
+
+function resetData() {
+  if (confirm('このテストのすべてのデータをリセットしますか？')) {
+    localStorage.removeItem(STORAGE_KEY);
+    loadStats();
+    alert('リセットしました');
+  }
+}
+
+// Initialize
+init();
+</script>
+</body>
+</html>
