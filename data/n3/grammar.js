@@ -1,10 +1,9 @@
-// Fujisan.AI N3 Grammar Data
-// Version: 1.4.0
-// Count: 423
+// Fujisan.AI Data
+// Count: 450
 
-const N3_GRAMMAR = [
+const n3Grammar = [
   {
-    "id": "G001",
+    "id": "G0001",
     "p": "〜っぽい",
     "m": {
       "en": "ish",
@@ -16,7 +15,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G002",
+    "id": "G0002",
     "p": "〜がち",
     "m": {
       "en": "tend to",
@@ -28,7 +27,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G003",
+    "id": "G0003",
     "p": "〜気味",
     "m": {
       "en": "somewhat",
@@ -40,7 +39,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G004",
+    "id": "G0004",
     "p": "〜向き",
     "m": {
       "en": "suitable for",
@@ -52,7 +51,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G005",
+    "id": "G0005",
     "p": "〜向け",
     "m": {
       "en": "intended for",
@@ -64,7 +63,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G006",
+    "id": "G0006",
     "p": "〜次第",
     "m": {
       "en": "depending on",
@@ -76,7 +75,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G007",
+    "id": "G0007",
     "p": "〜最中",
     "m": {
       "en": "in the middle of",
@@ -88,7 +87,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G008",
+    "id": "G0008",
     "p": "〜途中",
     "m": {
       "en": "on the way",
@@ -100,7 +99,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G009",
+    "id": "G0009",
     "p": "〜際",
     "m": {
       "en": "when",
@@ -112,7 +111,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G010",
+    "id": "G0010",
     "p": "〜上",
     "m": {
       "en": "from the standpoint",
@@ -124,7 +123,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G011",
+    "id": "G0011",
     "p": "〜うちに",
     "m": {
       "en": "while",
@@ -136,7 +135,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G012",
+    "id": "G0012",
     "p": "〜たびに",
     "m": {
       "en": "every time",
@@ -148,7 +147,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G013",
+    "id": "G0013",
     "p": "〜おかげで",
     "m": {
       "en": "thanks to",
@@ -160,7 +159,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G014",
+    "id": "G0014",
     "p": "〜せいで",
     "m": {
       "en": "because of",
@@ -172,7 +171,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G015",
+    "id": "G0015",
     "p": "〜くせに",
     "m": {
       "en": "although",
@@ -184,7 +183,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G016",
+    "id": "G0016",
     "p": "〜にしては",
     "m": {
       "en": "considering",
@@ -196,7 +195,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G017",
+    "id": "G0017",
     "p": "〜割に",
     "m": {
       "en": "considering",
@@ -208,7 +207,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G018",
+    "id": "G0018",
     "p": "〜に関して",
     "m": {
       "en": "regarding",
@@ -220,7 +219,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G019",
+    "id": "G0019",
     "p": "〜に対して",
     "m": {
       "en": "towards",
@@ -232,7 +231,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G020",
+    "id": "G0020",
     "p": "〜について",
     "m": {
       "en": "about",
@@ -244,7 +243,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G021",
+    "id": "G0021",
     "p": "〜によると",
     "m": {
       "en": "according to",
@@ -256,7 +255,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G022",
+    "id": "G0022",
     "p": "〜によって",
     "m": {
       "en": "by",
@@ -268,7 +267,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G023",
+    "id": "G0023",
     "p": "〜として",
     "m": {
       "en": "as",
@@ -280,7 +279,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G024",
+    "id": "G0024",
     "p": "〜にとって",
     "m": {
       "en": "for",
@@ -292,7 +291,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G025",
+    "id": "G0025",
     "p": "〜において",
     "m": {
       "en": "in",
@@ -304,7 +303,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G026",
+    "id": "G0026",
     "p": "〜を通じて",
     "m": {
       "en": "through",
@@ -316,7 +315,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G027",
+    "id": "G0027",
     "p": "〜をはじめ",
     "m": {
       "en": "starting with",
@@ -328,7 +327,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G028",
+    "id": "G0028",
     "p": "〜を中心に",
     "m": {
       "en": "centered on",
@@ -340,7 +339,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G029",
+    "id": "G0029",
     "p": "〜ついでに",
     "m": {
       "en": "while at it",
@@ -352,7 +351,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G030",
+    "id": "G0030",
     "p": "〜てはじめて",
     "m": {
       "en": "only after",
@@ -364,7 +363,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G031",
+    "id": "G0031",
     "p": "〜てからでないと",
     "m": {
       "en": "unless",
@@ -376,7 +375,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G032",
+    "id": "G0032",
     "p": "〜たとたん",
     "m": {
       "en": "just as",
@@ -388,7 +387,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G033",
+    "id": "G0033",
     "p": "〜ようがない",
     "m": {
       "en": "no way to",
@@ -400,7 +399,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G034",
+    "id": "G0034",
     "p": "〜ざるを得ない",
     "m": {
       "en": "have no choice but",
@@ -412,7 +411,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G035",
+    "id": "G0035",
     "p": "〜ないわけにはいかない",
     "m": {
       "en": "must",
@@ -424,7 +423,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G036",
+    "id": "G0036",
     "p": "〜わけがない",
     "m": {
       "en": "impossible",
@@ -436,7 +435,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G037",
+    "id": "G0037",
     "p": "〜わけではない",
     "m": {
       "en": "not necessarily",
@@ -448,7 +447,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G038",
+    "id": "G0038",
     "p": "〜に違いない",
     "m": {
       "en": "must be",
@@ -460,7 +459,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G039",
+    "id": "G0039",
     "p": "〜に決まっている",
     "m": {
       "en": "surely",
@@ -472,7 +471,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G040",
+    "id": "G0040",
     "p": "〜っけ",
     "m": {
       "en": "was it",
@@ -484,7 +483,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G041",
+    "id": "G0041",
     "p": "〜ものか",
     "m": {
       "en": "never",
@@ -496,7 +495,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G042",
+    "id": "G0042",
     "p": "〜ものだ",
     "m": {
       "en": "should",
@@ -508,7 +507,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G043",
+    "id": "G0043",
     "p": "〜ものの",
     "m": {
       "en": "although",
@@ -520,7 +519,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G044",
+    "id": "G0044",
     "p": "〜ことだ",
     "m": {
       "en": "should",
@@ -532,7 +531,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G045",
+    "id": "G0045",
     "p": "〜ことか",
     "m": {
       "en": "how",
@@ -544,7 +543,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G046",
+    "id": "G0046",
     "p": "〜ことに",
     "m": {
       "en": "to my",
@@ -556,7 +555,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G047",
+    "id": "G0047",
     "p": "〜ことはない",
     "m": {
       "en": "no need",
@@ -568,7 +567,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G048",
+    "id": "G0048",
     "p": "〜ことになっている",
     "m": {
       "en": "supposed to",
@@ -580,7 +579,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G049",
+    "id": "G0049",
     "p": "〜ことにする",
     "m": {
       "en": "decide to",
@@ -592,7 +591,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G050",
+    "id": "G0050",
     "p": "〜ことになる",
     "m": {
       "en": "turn out",
@@ -604,7 +603,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G051",
+    "id": "G0051",
     "p": "〜ことがある",
     "m": {
       "en": "sometimes",
@@ -616,7 +615,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G052",
+    "id": "G0052",
     "p": "〜ところだ",
     "m": {
       "en": "about to",
@@ -628,7 +627,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G053",
+    "id": "G0053",
     "p": "〜ところに",
     "m": {
       "en": "just when",
@@ -640,7 +639,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G054",
+    "id": "G0054",
     "p": "〜ところで",
     "m": {
       "en": "even if",
@@ -652,7 +651,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G055",
+    "id": "G0055",
     "p": "〜ばかりだ",
     "m": {
       "en": "only",
@@ -664,7 +663,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G056",
+    "id": "G0056",
     "p": "〜ばかりに",
     "m": {
       "en": "just because",
@@ -676,7 +675,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G057",
+    "id": "G0057",
     "p": "〜ばかりか",
     "m": {
       "en": "not only",
@@ -688,7 +687,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G058",
+    "id": "G0058",
     "p": "〜ばかりでなく",
     "m": {
       "en": "not only",
@@ -700,7 +699,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G059",
+    "id": "G0059",
     "p": "〜てばかりいる",
     "m": {
       "en": "always",
@@ -712,7 +711,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G060",
+    "id": "G0060",
     "p": "〜きり",
     "m": {
       "en": "only",
@@ -724,7 +723,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G061",
+    "id": "G0061",
     "p": "〜っきり",
     "m": {
       "en": "since",
@@ -736,7 +735,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G062",
+    "id": "G0062",
     "p": "〜きる",
     "m": {
       "en": "completely",
@@ -748,7 +747,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G063",
+    "id": "G0063",
     "p": "〜きれない",
     "m": {
       "en": "cannot completely",
@@ -760,7 +759,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G064",
+    "id": "G0064",
     "p": "〜かける",
     "m": {
       "en": "begin to",
@@ -772,7 +771,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G065",
+    "id": "G0065",
     "p": "〜かけ",
     "m": {
       "en": "half done",
@@ -784,7 +783,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G066",
+    "id": "G0066",
     "p": "〜がたい",
     "m": {
       "en": "hard to",
@@ -796,7 +795,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G067",
+    "id": "G0067",
     "p": "〜かねる",
     "m": {
       "en": "cannot",
@@ -808,7 +807,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G068",
+    "id": "G0068",
     "p": "〜かねない",
     "m": {
       "en": "might",
@@ -820,7 +819,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G069",
+    "id": "G0069",
     "p": "〜得る",
     "m": {
       "en": "can",
@@ -832,7 +831,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G070",
+    "id": "G0070",
     "p": "〜得ない",
     "m": {
       "en": "cannot",
@@ -844,7 +843,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G071",
+    "id": "G0071",
     "p": "〜ぬく",
     "m": {
       "en": "through",
@@ -856,7 +855,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G072",
+    "id": "G0072",
     "p": "〜まくる",
     "m": {
       "en": "keep doing",
@@ -868,7 +867,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G073",
+    "id": "G0073",
     "p": "〜っこない",
     "m": {
       "en": "no chance",
@@ -880,7 +879,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G074",
+    "id": "G0074",
     "p": "〜さえ",
     "m": {
       "en": "even",
@@ -892,7 +891,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G075",
+    "id": "G0075",
     "p": "〜さえすれば",
     "m": {
       "en": "if only",
@@ -904,7 +903,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G076",
+    "id": "G0076",
     "p": "〜すら",
     "m": {
       "en": "even",
@@ -916,7 +915,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G077",
+    "id": "G0077",
     "p": "〜だに",
     "m": {
       "en": "even",
@@ -928,7 +927,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G078",
+    "id": "G0078",
     "p": "〜こそ",
     "m": {
       "en": "indeed",
@@ -940,7 +939,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G079",
+    "id": "G0079",
     "p": "〜からこそ",
     "m": {
       "en": "precisely because",
@@ -952,7 +951,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G080",
+    "id": "G0080",
     "p": "〜てこそ",
     "m": {
       "en": "only by",
@@ -964,7 +963,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G081",
+    "id": "G0081",
     "p": "〜ならでは",
     "m": {
       "en": "unique to",
@@ -976,7 +975,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G082",
+    "id": "G0082",
     "p": "〜ほど",
     "m": {
       "en": "the more",
@@ -988,7 +987,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G083",
+    "id": "G0083",
     "p": "〜ほどだ",
     "m": {
       "en": "so much that",
@@ -1000,7 +999,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G084",
+    "id": "G0084",
     "p": "〜ほどの",
     "m": {
       "en": "worth",
@@ -1012,7 +1011,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G085",
+    "id": "G0085",
     "p": "〜くらい",
     "m": {
       "en": "about",
@@ -1024,7 +1023,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G086",
+    "id": "G0086",
     "p": "〜ぐらい",
     "m": {
       "en": "to the extent",
@@ -1036,7 +1035,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G087",
+    "id": "G0087",
     "p": "〜だけ",
     "m": {
       "en": "as much as",
@@ -1048,7 +1047,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G088",
+    "id": "G0088",
     "p": "〜だけに",
     "m": {
       "en": "because",
@@ -1060,7 +1059,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G089",
+    "id": "G0089",
     "p": "〜だけあって",
     "m": {
       "en": "as expected",
@@ -1072,7 +1071,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G090",
+    "id": "G0090",
     "p": "〜だけのことはある",
     "m": {
       "en": "worth",
@@ -1084,7 +1083,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G091",
+    "id": "G0091",
     "p": "〜限り",
     "m": {
       "en": "as long as",
@@ -1096,7 +1095,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G092",
+    "id": "G0092",
     "p": "〜限りでは",
     "m": {
       "en": "as far as",
@@ -1108,7 +1107,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G093",
+    "id": "G0093",
     "p": "〜に限って",
     "m": {
       "en": "only",
@@ -1120,7 +1119,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G094",
+    "id": "G0094",
     "p": "〜に限らず",
     "m": {
       "en": "not only",
@@ -1132,7 +1131,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G095",
+    "id": "G0095",
     "p": "〜とは限らない",
     "m": {
       "en": "not necessarily",
@@ -1144,7 +1143,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G096",
+    "id": "G0096",
     "p": "〜どころか",
     "m": {
       "en": "far from",
@@ -1156,7 +1155,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G097",
+    "id": "G0097",
     "p": "〜どころではない",
     "m": {
       "en": "no time for",
@@ -1168,7 +1167,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G098",
+    "id": "G0098",
     "p": "〜一方だ",
     "m": {
       "en": "keep doing",
@@ -1180,7 +1179,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G099",
+    "id": "G0099",
     "p": "〜一方で",
     "m": {
       "en": "while",
@@ -1192,7 +1191,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G100",
+    "id": "G0100",
     "p": "〜反面",
     "m": {
       "en": "on the other hand",
@@ -1204,7 +1203,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G101",
+    "id": "G0101",
     "p": "〜をもとに",
     "m": {
       "en": "based on",
@@ -1216,7 +1215,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G102",
+    "id": "G0102",
     "p": "〜に比べて",
     "m": {
       "en": "compared to",
@@ -1228,7 +1227,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G103",
+    "id": "G0103",
     "p": "〜に加えて",
     "m": {
       "en": "in addition to",
@@ -1240,7 +1239,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G104",
+    "id": "G0104",
     "p": "〜に応じて",
     "m": {
       "en": "according to",
@@ -1252,7 +1251,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G105",
+    "id": "G0105",
     "p": "〜に基づいて",
     "m": {
       "en": "based on",
@@ -1264,7 +1263,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G106",
+    "id": "G0106",
     "p": "〜にかけて",
     "m": {
       "en": "from...to",
@@ -1276,7 +1275,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G107",
+    "id": "G0107",
     "p": "〜にわたって",
     "m": {
       "en": "throughout",
@@ -1288,7 +1287,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G108",
+    "id": "G0108",
     "p": "〜に沿って",
     "m": {
       "en": "along",
@@ -1300,7 +1299,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G109",
+    "id": "G0109",
     "p": "〜にかかわらず",
     "m": {
       "en": "regardless of",
@@ -1312,7 +1311,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G110",
+    "id": "G0110",
     "p": "〜に先立って",
     "m": {
       "en": "prior to",
@@ -1324,7 +1323,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G111",
+    "id": "G0111",
     "p": "〜に伴って",
     "m": {
       "en": "along with",
@@ -1336,7 +1335,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G112",
+    "id": "G0112",
     "p": "〜につれて",
     "m": {
       "en": "as...then",
@@ -1348,7 +1347,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G113",
+    "id": "G0113",
     "p": "〜に従って",
     "m": {
       "en": "following",
@@ -1360,7 +1359,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G114",
+    "id": "G0114",
     "p": "〜につき",
     "m": {
       "en": "per/due to",
@@ -1372,7 +1371,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G115",
+    "id": "G0115",
     "p": "〜をきっかけに",
     "m": {
       "en": "triggered by",
@@ -1384,7 +1383,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G116",
+    "id": "G0116",
     "p": "〜を込めて",
     "m": {
       "en": "filled with",
@@ -1396,7 +1395,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G117",
+    "id": "G0117",
     "p": "〜を問わず",
     "m": {
       "en": "regardless of",
@@ -1408,7 +1407,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G118",
+    "id": "G0118",
     "p": "〜はもちろん",
     "m": {
       "en": "not to mention",
@@ -1420,7 +1419,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G119",
+    "id": "G0119",
     "p": "〜はともかく",
     "m": {
       "en": "leaving aside",
@@ -1432,7 +1431,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G120",
+    "id": "G0120",
     "p": "〜からして",
     "m": {
       "en": "judging from",
@@ -1444,7 +1443,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G121",
+    "id": "G0121",
     "p": "〜からには",
     "m": {
       "en": "since/now that",
@@ -1456,7 +1455,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G122",
+    "id": "G0122",
     "p": "〜からといって",
     "m": {
       "en": "just because",
@@ -1468,7 +1467,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G123",
+    "id": "G0123",
     "p": "〜上で",
     "m": {
       "en": "in terms of",
@@ -1480,7 +1479,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G124",
+    "id": "G0124",
     "p": "〜上は",
     "m": {
       "en": "now that",
@@ -1492,7 +1491,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G125",
+    "id": "G0125",
     "p": "〜際に",
     "m": {
       "en": "when/at the time",
@@ -1504,7 +1503,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G126",
+    "id": "G0126",
     "p": "〜次第で",
     "m": {
       "en": "depending on",
@@ -1516,7 +1515,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G127",
+    "id": "G0127",
     "p": "〜最中に",
     "m": {
       "en": "in the middle of",
@@ -1528,7 +1527,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G128",
+    "id": "G0128",
     "p": "〜途中で",
     "m": {
       "en": "on the way",
@@ -1540,7 +1539,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G129",
+    "id": "G0129",
     "p": "〜末に",
     "m": {
       "en": "after/at the end",
@@ -1552,7 +1551,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G130",
+    "id": "G0130",
     "p": "〜あげく",
     "m": {
       "en": "in the end",
@@ -1564,7 +1563,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G131",
+    "id": "G0131",
     "p": "〜た結果",
     "m": {
       "en": "as a result",
@@ -1576,7 +1575,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G132",
+    "id": "G0132",
     "p": "〜とたん",
     "m": {
       "en": "just as",
@@ -1588,7 +1587,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G133",
+    "id": "G0133",
     "p": "〜かと思ったら",
     "m": {
       "en": "no sooner than",
@@ -1600,7 +1599,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G134",
+    "id": "G0134",
     "p": "〜て以来",
     "m": {
       "en": "since",
@@ -1612,7 +1611,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G135",
+    "id": "G0135",
     "p": "〜つつある",
     "m": {
       "en": "in the process of",
@@ -1624,7 +1623,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G136",
+    "id": "G0136",
     "p": "〜つつも",
     "m": {
       "en": "while/although",
@@ -1636,7 +1635,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G137",
+    "id": "G0137",
     "p": "〜ながらも",
     "m": {
       "en": "although",
@@ -1648,7 +1647,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G138",
+    "id": "G0138",
     "p": "〜にもかかわらず",
     "m": {
       "en": "despite",
@@ -1660,7 +1659,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G139",
+    "id": "G0139",
     "p": "〜わりに",
     "m": {
       "en": "for/considering",
@@ -1672,7 +1671,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G140",
+    "id": "G0140",
     "p": "〜としたら",
     "m": {
       "en": "if it were",
@@ -1684,7 +1683,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G141",
+    "id": "G0141",
     "p": "〜とすれば",
     "m": {
       "en": "assuming",
@@ -1696,7 +1695,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G142",
+    "id": "G0142",
     "p": "〜ないことには",
     "m": {
       "en": "unless",
@@ -1708,7 +1707,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G143",
+    "id": "G0143",
     "p": "〜としても",
     "m": {
       "en": "even if",
@@ -1720,7 +1719,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G144",
+    "id": "G0144",
     "p": "〜たとえ〜ても",
     "m": {
       "en": "even if",
@@ -1732,7 +1731,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G145",
+    "id": "G0145",
     "p": "〜ば〜ほど",
     "m": {
       "en": "the more...the more",
@@ -1744,7 +1743,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G146",
+    "id": "G0146",
     "p": "〜さえ〜ば",
     "m": {
       "en": "if only",
@@ -1756,7 +1755,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G147",
+    "id": "G0147",
     "p": "〜しかない",
     "m": {
       "en": "no choice but",
@@ -1768,7 +1767,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G148",
+    "id": "G0148",
     "p": "〜てたまらない",
     "m": {
       "en": "unbearably",
@@ -1780,7 +1779,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G149",
+    "id": "G0149",
     "p": "〜てならない",
     "m": {
       "en": "extremely",
@@ -1792,7 +1791,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G150",
+    "id": "G0150",
     "p": "〜てしょうがない",
     "m": {
       "en": "can't help",
@@ -1804,7 +1803,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G151",
+    "id": "G0151",
     "p": "〜てかなわない",
     "m": {
       "en": "unbearably",
@@ -1816,7 +1815,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G152",
+    "id": "G0152",
     "p": "〜恐れがある",
     "m": {
       "en": "there is a risk",
@@ -1828,7 +1827,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G153",
+    "id": "G0153",
     "p": "〜っぱなし",
     "m": {
       "en": "left as is",
@@ -1840,7 +1839,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G154",
+    "id": "G0154",
     "p": "〜抜く",
     "m": {
       "en": "through to the end",
@@ -1852,7 +1851,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G155",
+    "id": "G0155",
     "p": "〜かい",
     "m": {
       "en": "worth doing",
@@ -1864,7 +1863,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G156",
+    "id": "G0156",
     "p": "〜べき",
     "m": {
       "en": "should",
@@ -1876,7 +1875,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G157",
+    "id": "G0157",
     "p": "〜べきではない",
     "m": {
       "en": "should not",
@@ -1888,7 +1887,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G158",
+    "id": "G0158",
     "p": "〜ものではない",
     "m": {
       "en": "shouldn't",
@@ -1900,7 +1899,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G159",
+    "id": "G0159",
     "p": "〜わけだ",
     "m": {
       "en": "that's why",
@@ -1912,7 +1911,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G160",
+    "id": "G0160",
     "p": "〜わけにはいかない",
     "m": {
       "en": "cannot",
@@ -1924,7 +1923,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G161",
+    "id": "G0161",
     "p": "〜はずだ",
     "m": {
       "en": "should be",
@@ -1936,7 +1935,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G162",
+    "id": "G0162",
     "p": "〜はずがない",
     "m": {
       "en": "can't be",
@@ -1948,7 +1947,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G163",
+    "id": "G0163",
     "p": "〜ということだ",
     "m": {
       "en": "it means that",
@@ -1960,7 +1959,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G164",
+    "id": "G0164",
     "p": "〜といっても",
     "m": {
       "en": "even though I say",
@@ -1972,7 +1971,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G165",
+    "id": "G0165",
     "p": "〜というと",
     "m": {
       "en": "speaking of",
@@ -1984,7 +1983,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G166",
+    "id": "G0166",
     "p": "〜というより",
     "m": {
       "en": "rather than",
@@ -1996,7 +1995,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G167",
+    "id": "G0167",
     "p": "〜というのは",
     "m": {
       "en": "what is meant by",
@@ -2008,7 +2007,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G168",
+    "id": "G0168",
     "p": "〜というものだ",
     "m": {
       "en": "that's what...is",
@@ -2020,7 +2019,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G169",
+    "id": "G0169",
     "p": "〜ないことはない",
     "m": {
       "en": "it's not that...not",
@@ -2032,7 +2031,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G170",
+    "id": "G0170",
     "p": "〜ずにはいられない",
     "m": {
       "en": "can't help but",
@@ -2044,7 +2043,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G171",
+    "id": "G0171",
     "p": "〜てはいられない",
     "m": {
       "en": "can't keep",
@@ -2056,7 +2055,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G172",
+    "id": "G0172",
     "p": "〜てはならない",
     "m": {
       "en": "must not",
@@ -2068,7 +2067,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G173",
+    "id": "G0173",
     "p": "〜のみならず",
     "m": {
       "en": "not only",
@@ -2080,7 +2079,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G174",
+    "id": "G0174",
     "p": "〜に限る",
     "m": {
       "en": "nothing better than",
@@ -2092,7 +2091,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G175",
+    "id": "G0175",
     "p": "〜ばかり",
     "m": {
       "en": "only/just",
@@ -2104,7 +2103,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G176",
+    "id": "G0176",
     "p": "〜んばかり",
     "m": {
       "en": "as if about to",
@@ -2116,7 +2115,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G177",
+    "id": "G0177",
     "p": "〜かのようだ",
     "m": {
       "en": "as if",
@@ -2128,7 +2127,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G178",
+    "id": "G0178",
     "p": "〜ようにする",
     "m": {
       "en": "try to",
@@ -2140,7 +2139,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G179",
+    "id": "G0179",
     "p": "〜ようになる",
     "m": {
       "en": "come to",
@@ -2152,7 +2151,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G180",
+    "id": "G0180",
     "p": "〜ようとする",
     "m": {
       "en": "try to",
@@ -2164,7 +2163,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G181",
+    "id": "G0181",
     "p": "〜ようとしない",
     "m": {
       "en": "refuse to",
@@ -2176,7 +2175,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G182",
+    "id": "G0182",
     "p": "〜ようと思う",
     "m": {
       "en": "thinking of",
@@ -2188,7 +2187,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G183",
+    "id": "G0183",
     "p": "〜ようがある",
     "m": {
       "en": "there is a way",
@@ -2200,7 +2199,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G184",
+    "id": "G0184",
     "p": "〜にすぎない",
     "m": {
       "en": "nothing but",
@@ -2212,7 +2211,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G185",
+    "id": "G0185",
     "p": "〜にほかならない",
     "m": {
       "en": "nothing but",
@@ -2224,7 +2223,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G186",
+    "id": "G0186",
     "p": "〜に相違ない",
     "m": {
       "en": "undoubtedly",
@@ -2236,7 +2235,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G187",
+    "id": "G0187",
     "p": "〜に当たる",
     "m": {
       "en": "equivalent to",
@@ -2248,7 +2247,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G188",
+    "id": "G0188",
     "p": "〜に当たって",
     "m": {
       "en": "on the occasion of",
@@ -2260,7 +2259,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G189",
+    "id": "G0189",
     "p": "〜にかけては",
     "m": {
       "en": "when it comes to",
@@ -2272,7 +2271,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G190",
+    "id": "G0190",
     "p": "〜にかわって",
     "m": {
       "en": "instead of",
@@ -2284,7 +2283,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G191",
+    "id": "G0191",
     "p": "〜に反して",
     "m": {
       "en": "contrary to",
@@ -2296,7 +2295,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G192",
+    "id": "G0192",
     "p": "〜てもかまわない",
     "m": {
       "en": "don't mind if",
@@ -2308,7 +2307,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G193",
+    "id": "G0193",
     "p": "〜ても差し支えない",
     "m": {
       "en": "it's okay to",
@@ -2320,7 +2319,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G194",
+    "id": "G0194",
     "p": "〜なくてはならない",
     "m": {
       "en": "must",
@@ -2332,7 +2331,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G195",
+    "id": "G0195",
     "p": "〜ないではいられない",
     "m": {
       "en": "can't help but",
@@ -2344,7 +2343,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G196",
+    "id": "G0196",
     "p": "〜てほしい",
     "m": {
       "en": "want someone to",
@@ -2356,7 +2355,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G197",
+    "id": "G0197",
     "p": "〜てもらいたい",
     "m": {
       "en": "would like you to",
@@ -2368,7 +2367,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G198",
+    "id": "G0198",
     "p": "〜させてもらう",
     "m": {
       "en": "let me/allow me to",
@@ -2380,7 +2379,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G199",
+    "id": "G0199",
     "p": "〜させられる",
     "m": {
       "en": "be made to",
@@ -2392,7 +2391,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G200",
+    "id": "G0200",
     "p": "〜たがる",
     "m": {
       "en": "want to (3rd person)",
@@ -2404,7 +2403,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G201",
+    "id": "G0201",
     "p": "〜ほうがいい",
     "m": {
       "en": "had better",
@@ -2416,7 +2415,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G202",
+    "id": "G0202",
     "p": "〜に関する",
     "m": {
       "en": "regarding",
@@ -2428,7 +2427,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G203",
+    "id": "G0203",
     "p": "〜に沿った",
     "m": {
       "en": "along with",
@@ -2440,7 +2439,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G204",
+    "id": "G0204",
     "p": "〜に応じた",
     "m": {
       "en": "according to",
@@ -2452,7 +2451,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G205",
+    "id": "G0205",
     "p": "〜における",
     "m": {
       "en": "in/at",
@@ -2464,7 +2463,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G206",
+    "id": "G0206",
     "p": "〜に際して",
     "m": {
       "en": "on the occasion",
@@ -2476,7 +2475,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G207",
+    "id": "G0207",
     "p": "〜に先立ち",
     "m": {
       "en": "prior to",
@@ -2488,7 +2487,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G208",
+    "id": "G0208",
     "p": "〜を契機に",
     "m": {
       "en": "taking opportunity",
@@ -2500,7 +2499,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G209",
+    "id": "G0209",
     "p": "〜を皮切りに",
     "m": {
       "en": "beginning with",
@@ -2512,7 +2511,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G210",
+    "id": "G0210",
     "p": "〜をめぐって",
     "m": {
       "en": "concerning",
@@ -2524,7 +2523,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G211",
+    "id": "G0211",
     "p": "〜あまり",
     "m": {
       "en": "so much that",
@@ -2536,7 +2535,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G212",
+    "id": "G0212",
     "p": "〜かどうか",
     "m": {
       "en": "whether or not",
@@ -2548,7 +2547,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G213",
+    "id": "G0213",
     "p": "〜かというと",
     "m": {
       "en": "the reason is",
@@ -2560,7 +2559,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G214",
+    "id": "G0214",
     "p": "〜ともなると",
     "m": {
       "en": "when it comes to",
@@ -2572,7 +2571,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G215",
+    "id": "G0215",
     "p": "〜にしろ〜にしろ",
     "m": {
       "en": "whether...or",
@@ -2584,7 +2583,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G216",
+    "id": "G0216",
     "p": "〜にせよ〜にせよ",
     "m": {
       "en": "whether...or",
@@ -2596,7 +2595,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G217",
+    "id": "G0217",
     "p": "〜といい〜といい",
     "m": {
       "en": "both...and",
@@ -2608,7 +2607,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G218",
+    "id": "G0218",
     "p": "〜やら〜やら",
     "m": {
       "en": "such things as",
@@ -2620,7 +2619,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G219",
+    "id": "G0219",
     "p": "〜なり〜なり",
     "m": {
       "en": "either...or",
@@ -2632,7 +2631,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G220",
+    "id": "G0220",
     "p": "〜であれ〜であれ",
     "m": {
       "en": "whether...or",
@@ -2644,7 +2643,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G221",
+    "id": "G0221",
     "p": "〜につけ〜につけ",
     "m": {
       "en": "whether...or",
@@ -2656,7 +2655,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G222",
+    "id": "G0222",
     "p": "〜といったら",
     "m": {
       "en": "speaking of",
@@ -2668,7 +2667,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G223",
+    "id": "G0223",
     "p": "〜といえば",
     "m": {
       "en": "speaking of",
@@ -2680,7 +2679,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G224",
+    "id": "G0224",
     "p": "〜からすると",
     "m": {
       "en": "judging from",
@@ -2692,7 +2691,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G225",
+    "id": "G0225",
     "p": "〜からすれば",
     "m": {
       "en": "judging from",
@@ -2704,7 +2703,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G226",
+    "id": "G0226",
     "p": "〜からみると",
     "m": {
       "en": "looking from",
@@ -2716,7 +2715,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G227",
+    "id": "G0227",
     "p": "〜から言って",
     "m": {
       "en": "speaking from",
@@ -2728,7 +2727,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G228",
+    "id": "G0228",
     "p": "〜にしたら",
     "m": {
       "en": "from standpoint",
@@ -2740,7 +2739,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G229",
+    "id": "G0229",
     "p": "〜にしてみれば",
     "m": {
       "en": "from standpoint",
@@ -2752,7 +2751,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G230",
+    "id": "G0230",
     "p": "〜を経て",
     "m": {
       "en": "through/via",
@@ -2764,7 +2763,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G231",
+    "id": "G0231",
     "p": "〜に至るまで",
     "m": {
       "en": "up until",
@@ -2776,7 +2775,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G232",
+    "id": "G0232",
     "p": "〜に至っては",
     "m": {
       "en": "as for",
@@ -2788,7 +2787,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G233",
+    "id": "G0233",
     "p": "〜をもって",
     "m": {
       "en": "with/by means",
@@ -2800,7 +2799,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G234",
+    "id": "G0234",
     "p": "〜をもとにして",
     "m": {
       "en": "based on",
@@ -2812,7 +2811,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G235",
+    "id": "G0235",
     "p": "〜を踏まえて",
     "m": {
       "en": "based on",
@@ -2824,7 +2823,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G236",
+    "id": "G0236",
     "p": "〜を前提に",
     "m": {
       "en": "on premise of",
@@ -2836,7 +2835,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G237",
+    "id": "G0237",
     "p": "〜を抜きにして",
     "m": {
       "en": "without",
@@ -2848,7 +2847,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G238",
+    "id": "G0238",
     "p": "〜をよそに",
     "m": {
       "en": "despite",
@@ -2860,7 +2859,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G239",
+    "id": "G0239",
     "p": "〜を余儀なくされる",
     "m": {
       "en": "be forced to",
@@ -2872,7 +2871,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G240",
+    "id": "G0240",
     "p": "〜たところで",
     "m": {
       "en": "even if",
@@ -2884,7 +2883,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G241",
+    "id": "G0241",
     "p": "〜とあって",
     "m": {
       "en": "because of",
@@ -2896,7 +2895,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G242",
+    "id": "G0242",
     "p": "〜ともあろう",
     "m": {
       "en": "of all people",
@@ -2908,7 +2907,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G243",
+    "id": "G0243",
     "p": "〜てまで",
     "m": {
       "en": "to the extent",
@@ -2920,7 +2919,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G244",
+    "id": "G0244",
     "p": "〜てやまない",
     "m": {
       "en": "never stop",
@@ -2932,7 +2931,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G245",
+    "id": "G0245",
     "p": "〜に堪えない",
     "m": {
       "en": "unbearable",
@@ -2944,7 +2943,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G246",
+    "id": "G0246",
     "p": "〜に足る",
     "m": {
       "en": "worthy of",
@@ -2956,7 +2955,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G247",
+    "id": "G0247",
     "p": "〜の至り",
     "m": {
       "en": "the height of",
@@ -2968,7 +2967,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G248",
+    "id": "G0248",
     "p": "〜ようではないか",
     "m": {
       "en": "let's",
@@ -2980,7 +2979,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G249",
+    "id": "G0249",
     "p": "〜まい",
     "m": {
       "en": "won't/probably not",
@@ -2992,7 +2991,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G250",
+    "id": "G0250",
     "p": "〜まいか",
     "m": {
       "en": "won't you",
@@ -3004,7 +3003,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G251",
+    "id": "G0251",
     "p": "〜ないものか",
     "m": {
       "en": "isn't there",
@@ -3016,7 +3015,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G252",
+    "id": "G0252",
     "p": "〜ないものでもない",
     "m": {
       "en": "not impossible",
@@ -3028,7 +3027,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G253",
+    "id": "G0253",
     "p": "〜ものがある",
     "m": {
       "en": "there is",
@@ -3040,7 +3039,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G254",
+    "id": "G0254",
     "p": "〜ものを",
     "m": {
       "en": "even though",
@@ -3052,7 +3051,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G255",
+    "id": "G0255",
     "p": "〜こととて",
     "m": {
       "en": "because",
@@ -3064,7 +3063,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G256",
+    "id": "G0256",
     "p": "〜ことなく",
     "m": {
       "en": "without",
@@ -3076,7 +3075,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G257",
+    "id": "G0257",
     "p": "〜ことなしに",
     "m": {
       "en": "without",
@@ -3088,7 +3087,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G258",
+    "id": "G0258",
     "p": "〜ことから",
     "m": {
       "en": "from the fact",
@@ -3100,7 +3099,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G259",
+    "id": "G0259",
     "p": "〜手前",
     "m": {
       "en": "in front of",
@@ -3112,7 +3111,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G260",
+    "id": "G0260",
     "p": "〜たが最後",
     "m": {
       "en": "once...then",
@@ -3124,7 +3123,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G261",
+    "id": "G0261",
     "p": "〜が早いか",
     "m": {
       "en": "as soon as",
@@ -3136,7 +3135,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G262",
+    "id": "G0262",
     "p": "〜や否や",
     "m": {
       "en": "as soon as",
@@ -3148,7 +3147,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G263",
+    "id": "G0263",
     "p": "〜そばから",
     "m": {
       "en": "as soon as",
@@ -3160,7 +3159,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G264",
+    "id": "G0264",
     "p": "〜なり",
     "m": {
       "en": "as soon as",
@@ -3172,7 +3171,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G265",
+    "id": "G0265",
     "p": "〜ずじまい",
     "m": {
       "en": "end up not",
@@ -3184,7 +3183,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G266",
+    "id": "G0266",
     "p": "〜ないまでも",
     "m": {
       "en": "even if not",
@@ -3196,7 +3195,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G267",
+    "id": "G0267",
     "p": "〜ながらに",
     "m": {
       "en": "while being",
@@ -3208,7 +3207,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G268",
+    "id": "G0268",
     "p": "〜ともなく",
     "m": {
       "en": "without meaning",
@@ -3220,7 +3219,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G269",
+    "id": "G0269",
     "p": "〜とあれば",
     "m": {
       "en": "if it is",
@@ -3232,7 +3231,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G270",
+    "id": "G0270",
     "p": "〜とばかりに",
     "m": {
       "en": "as if to say",
@@ -3244,7 +3243,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G271",
+    "id": "G0271",
     "p": "〜と思いきや",
     "m": {
       "en": "contrary to",
@@ -3256,7 +3255,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G272",
+    "id": "G0272",
     "p": "〜とはいえ",
     "m": {
       "en": "although",
@@ -3268,7 +3267,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G273",
+    "id": "G0273",
     "p": "〜といったところだ",
     "m": {
       "en": "about",
@@ -3280,7 +3279,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G274",
+    "id": "G0274",
     "p": "〜に限ったことではない",
     "m": {
       "en": "not only",
@@ -3292,7 +3291,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G275",
+    "id": "G0275",
     "p": "〜始末だ",
     "m": {
       "en": "end up",
@@ -3304,7 +3303,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G276",
+    "id": "G0276",
     "p": "〜までだ",
     "m": {
       "en": "just",
@@ -3316,7 +3315,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G277",
+    "id": "G0277",
     "p": "〜までもない",
     "m": {
       "en": "no need",
@@ -3328,7 +3327,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G278",
+    "id": "G0278",
     "p": "〜たりとも",
     "m": {
       "en": "even",
@@ -3340,7 +3339,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G279",
+    "id": "G0279",
     "p": "〜なりに",
     "m": {
       "en": "in one's way",
@@ -3352,7 +3351,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G280",
+    "id": "G0280",
     "p": "〜なりの",
     "m": {
       "en": "one's own",
@@ -3364,7 +3363,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G281",
+    "id": "G0281",
     "p": "〜ごとき",
     "m": {
       "en": "like",
@@ -3376,7 +3375,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G282",
+    "id": "G0282",
     "p": "〜いかんで",
     "m": {
       "en": "depending on",
@@ -3388,7 +3387,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G283",
+    "id": "G0283",
     "p": "〜いかんによらず",
     "m": {
       "en": "regardless",
@@ -3400,7 +3399,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G284",
+    "id": "G0284",
     "p": "〜いかんにかかわらず",
     "m": {
       "en": "regardless",
@@ -3412,7 +3411,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G285",
+    "id": "G0285",
     "p": "〜限りだ",
     "m": {
       "en": "extremely",
@@ -3424,7 +3423,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G286",
+    "id": "G0286",
     "p": "〜極まる",
     "m": {
       "en": "extremely",
@@ -3436,7 +3435,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G287",
+    "id": "G0287",
     "p": "〜極まりない",
     "m": {
       "en": "extremely",
@@ -3448,7 +3447,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G288",
+    "id": "G0288",
     "p": "〜至極",
     "m": {
       "en": "very",
@@ -3460,7 +3459,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G289",
+    "id": "G0289",
     "p": "〜たるもの",
     "m": {
       "en": "as someone who",
@@ -3472,7 +3471,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G290",
+    "id": "G0290",
     "p": "〜にあって",
     "m": {
       "en": "being in",
@@ -3484,7 +3483,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G291",
+    "id": "G0291",
     "p": "〜にして",
     "m": {
       "en": "at/being",
@@ -3496,7 +3495,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G292",
+    "id": "G0292",
     "p": "〜に即して",
     "m": {
       "en": "in accordance",
@@ -3508,7 +3507,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G293",
+    "id": "G0293",
     "p": "〜かたがた",
     "m": {
       "en": "while doing",
@@ -3520,7 +3519,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G294",
+    "id": "G0294",
     "p": "〜かたわら",
     "m": {
       "en": "while doing",
@@ -3532,7 +3531,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G295",
+    "id": "G0295",
     "p": "〜がてら",
     "m": {
       "en": "while doing",
@@ -3544,7 +3543,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G296",
+    "id": "G0296",
     "p": "〜をものともせず",
     "m": {
       "en": "despite",
@@ -3556,7 +3555,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G297",
+    "id": "G0297",
     "p": "〜を禁じ得ない",
     "m": {
       "en": "can't help",
@@ -3568,7 +3567,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G298",
+    "id": "G0298",
     "p": "〜んがため",
     "m": {
       "en": "in order to",
@@ -3580,7 +3579,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G299",
+    "id": "G0299",
     "p": "〜べく",
     "m": {
       "en": "in order to",
@@ -3592,7 +3591,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G300",
+    "id": "G0300",
     "p": "〜べからず",
     "m": {
       "en": "must not",
@@ -3604,7 +3603,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G301",
+    "id": "G0301",
     "p": "〜べからざる",
     "m": {
       "en": "must not",
@@ -3616,7 +3615,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G302",
+    "id": "G0302",
     "p": "〜以上は",
     "m": {
       "en": "now that",
@@ -3628,7 +3627,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G303",
+    "id": "G0303",
     "p": "〜限りは",
     "m": {
       "en": "as long as",
@@ -3640,7 +3639,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G304",
+    "id": "G0304",
     "p": "〜げ",
     "m": {
       "en": "seeming",
@@ -3652,7 +3651,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G305",
+    "id": "G0305",
     "p": "〜めく",
     "m": {
       "en": "seem like",
@@ -3664,7 +3663,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G306",
+    "id": "G0306",
     "p": "〜ぶる",
     "m": {
       "en": "pretend",
@@ -3676,7 +3675,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G307",
+    "id": "G0307",
     "p": "〜ながら（も）",
     "m": {
       "en": "although",
@@ -3688,7 +3687,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G308",
+    "id": "G0308",
     "p": "〜つつ（も）",
     "m": {
       "en": "while/although",
@@ -3700,7 +3699,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G309",
+    "id": "G0309",
     "p": "〜ばこそ",
     "m": {
       "en": "precisely because",
@@ -3712,7 +3711,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G310",
+    "id": "G0310",
     "p": "〜とあっては",
     "m": {
       "en": "since/given",
@@ -3724,7 +3723,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G311",
+    "id": "G0311",
     "p": "〜に比べ",
     "m": {
       "en": "compared to",
@@ -3736,7 +3735,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G312",
+    "id": "G0312",
     "p": "〜に比して",
     "m": {
       "en": "compared to",
@@ -3748,7 +3747,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G313",
+    "id": "G0313",
     "p": "〜ところを見ると",
     "m": {
       "en": "judging from",
@@ -3760,7 +3759,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G314",
+    "id": "G0314",
     "p": "〜ところから",
     "m": {
       "en": "from the fact",
@@ -3772,7 +3771,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G315",
+    "id": "G0315",
     "p": "〜こそあれ",
     "m": {
       "en": "although",
@@ -3784,7 +3783,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G316",
+    "id": "G0316",
     "p": "〜と相まって",
     "m": {
       "en": "combined with",
@@ -3796,7 +3795,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G317",
+    "id": "G0317",
     "p": "〜とあいまって",
     "m": {
       "en": "combined with",
@@ -3808,7 +3807,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G318",
+    "id": "G0318",
     "p": "〜に堪える",
     "m": {
       "en": "can stand",
@@ -3820,7 +3819,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G319",
+    "id": "G0319",
     "p": "〜に耐える",
     "m": {
       "en": "can endure",
@@ -3832,7 +3831,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G320",
+    "id": "G0320",
     "p": "〜に値する",
     "m": {
       "en": "worth",
@@ -3844,7 +3843,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G321",
+    "id": "G0321",
     "p": "〜ゆえ（に）",
     "m": {
       "en": "because of",
@@ -3856,7 +3855,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G322",
+    "id": "G0322",
     "p": "〜ゆえの",
     "m": {
       "en": "due to",
@@ -3868,7 +3867,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G323",
+    "id": "G0323",
     "p": "〜あっての",
     "m": {
       "en": "thanks to",
@@ -3880,7 +3879,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G324",
+    "id": "G0324",
     "p": "〜ては",
     "m": {
       "en": "if/whenever",
@@ -3892,7 +3891,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G325",
+    "id": "G0325",
     "p": "〜てば",
     "m": {
       "en": "if",
@@ -3904,7 +3903,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G326",
+    "id": "G0326",
     "p": "〜ところを",
     "m": {
       "en": "despite",
@@ -3916,7 +3915,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G327",
+    "id": "G0327",
     "p": "〜たところ",
     "m": {
       "en": "when tried",
@@ -3928,7 +3927,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G328",
+    "id": "G0328",
     "p": "〜たとこで",
     "m": {
       "en": "even if",
@@ -3940,7 +3939,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G329",
+    "id": "G0329",
     "p": "〜てみせる",
     "m": {
       "en": "will show",
@@ -3952,7 +3951,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G330",
+    "id": "G0330",
     "p": "〜てやる",
     "m": {
       "en": "do for",
@@ -3964,7 +3963,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G331",
+    "id": "G0331",
     "p": "〜てくれる",
     "m": {
       "en": "do for me",
@@ -3976,7 +3975,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G332",
+    "id": "G0332",
     "p": "〜てもらう",
     "m": {
       "en": "have done",
@@ -3988,7 +3987,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G333",
+    "id": "G0333",
     "p": "〜ていただく",
     "m": {
       "en": "have done (polite)",
@@ -4000,7 +3999,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G334",
+    "id": "G0334",
     "p": "〜てあげる",
     "m": {
       "en": "do for",
@@ -4012,7 +4011,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G335",
+    "id": "G0335",
     "p": "〜てさしあげる",
     "m": {
       "en": "do for (humble)",
@@ -4024,7 +4023,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G336",
+    "id": "G0336",
     "p": "〜ておく",
     "m": {
       "en": "do in advance",
@@ -4036,7 +4035,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G337",
+    "id": "G0337",
     "p": "〜てしまう",
     "m": {
       "en": "end up doing",
@@ -4048,7 +4047,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G338",
+    "id": "G0338",
     "p": "〜ている",
     "m": {
       "en": "be -ing/state",
@@ -4060,7 +4059,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G339",
+    "id": "G0339",
     "p": "〜てある",
     "m": {
       "en": "has been done",
@@ -4072,7 +4071,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G340",
+    "id": "G0340",
     "p": "〜ていく",
     "m": {
       "en": "go on -ing",
@@ -4084,7 +4083,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G341",
+    "id": "G0341",
     "p": "〜てくる",
     "m": {
       "en": "come to -ing",
@@ -4096,7 +4095,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G342",
+    "id": "G0342",
     "p": "〜ないでいる",
     "m": {
       "en": "not doing",
@@ -4108,7 +4107,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G343",
+    "id": "G0343",
     "p": "〜ずにいる",
     "m": {
       "en": "not doing",
@@ -4120,7 +4119,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G344",
+    "id": "G0344",
     "p": "〜かけている",
     "m": {
       "en": "half-done",
@@ -4132,7 +4131,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G345",
+    "id": "G0345",
     "p": "〜たて",
     "m": {
       "en": "just done",
@@ -4144,7 +4143,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G346",
+    "id": "G0346",
     "p": "〜はじめる",
     "m": {
       "en": "begin to",
@@ -4156,7 +4155,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G347",
+    "id": "G0347",
     "p": "〜だす",
     "m": {
       "en": "start to",
@@ -4168,7 +4167,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G348",
+    "id": "G0348",
     "p": "〜おわる",
     "m": {
       "en": "finish",
@@ -4180,7 +4179,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G349",
+    "id": "G0349",
     "p": "〜つづける",
     "m": {
       "en": "continue",
@@ -4192,7 +4191,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G350",
+    "id": "G0350",
     "p": "〜通す",
     "m": {
       "en": "do throughout",
@@ -4204,7 +4203,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G351",
+    "id": "G0351",
     "p": "〜なおす",
     "m": {
       "en": "redo",
@@ -4216,7 +4215,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G352",
+    "id": "G0352",
     "p": "〜かえす",
     "m": {
       "en": "do back",
@@ -4228,7 +4227,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G353",
+    "id": "G0353",
     "p": "〜あう",
     "m": {
       "en": "do together",
@@ -4240,7 +4239,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G354",
+    "id": "G0354",
     "p": "〜あわせる",
     "m": {
       "en": "do together",
@@ -4252,7 +4251,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G355",
+    "id": "G0355",
     "p": "〜すぎる",
     "m": {
       "en": "too much",
@@ -4264,7 +4263,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G356",
+    "id": "G0356",
     "p": "〜がる",
     "m": {
       "en": "show signs",
@@ -4276,7 +4275,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G357",
+    "id": "G0357",
     "p": "〜かた",
     "m": {
       "en": "way of",
@@ -4288,7 +4287,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G358",
+    "id": "G0358",
     "p": "〜よう",
     "m": {
       "en": "way",
@@ -4300,7 +4299,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G359",
+    "id": "G0359",
     "p": "〜づらい",
     "m": {
       "en": "hard to",
@@ -4312,7 +4311,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G360",
+    "id": "G0360",
     "p": "〜にくい",
     "m": {
       "en": "hard to",
@@ -4324,7 +4323,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G361",
+    "id": "G0361",
     "p": "〜やすい",
     "m": {
       "en": "easy to",
@@ -4336,7 +4335,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G362",
+    "id": "G0362",
     "p": "〜らしい",
     "m": {
       "en": "seems like",
@@ -4348,7 +4347,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G363",
+    "id": "G0363",
     "p": "〜そうだ（様態）",
     "m": {
       "en": "looks like",
@@ -4360,7 +4359,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G364",
+    "id": "G0364",
     "p": "〜そうだ（伝聞）",
     "m": {
       "en": "I heard",
@@ -4372,7 +4371,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G365",
+    "id": "G0365",
     "p": "〜みたいだ",
     "m": {
       "en": "looks like",
@@ -4384,7 +4383,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G366",
+    "id": "G0366",
     "p": "〜ようだ",
     "m": {
       "en": "seems",
@@ -4396,7 +4395,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G367",
+    "id": "G0367",
     "p": "〜ことができる",
     "m": {
       "en": "can do",
@@ -4408,7 +4407,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G368",
+    "id": "G0368",
     "p": "〜ことにしている",
     "m": {
       "en": "make a habit",
@@ -4420,7 +4419,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G369",
+    "id": "G0369",
     "p": "〜なければならない",
     "m": {
       "en": "must",
@@ -4432,7 +4431,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G370",
+    "id": "G0370",
     "p": "〜なくてもいい",
     "m": {
       "en": "don't have to",
@@ -4444,7 +4443,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G371",
+    "id": "G0371",
     "p": "〜なくてはいけない",
     "m": {
       "en": "must",
@@ -4456,7 +4455,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G372",
+    "id": "G0372",
     "p": "〜てはいけない",
     "m": {
       "en": "must not",
@@ -4468,7 +4467,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G373",
+    "id": "G0373",
     "p": "〜てもいい",
     "m": {
       "en": "may",
@@ -4480,7 +4479,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G374",
+    "id": "G0374",
     "p": "〜ないといけない",
     "m": {
       "en": "must",
@@ -4492,7 +4491,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G375",
+    "id": "G0375",
     "p": "〜なきゃ",
     "m": {
       "en": "must (casual)",
@@ -4504,7 +4503,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G376",
+    "id": "G0376",
     "p": "〜なくちゃ",
     "m": {
       "en": "must (casual)",
@@ -4516,7 +4515,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G377",
+    "id": "G0377",
     "p": "〜ちゃいけない",
     "m": {
       "en": "must not (casual)",
@@ -4528,7 +4527,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G378",
+    "id": "G0378",
     "p": "〜っちゃ",
     "m": {
       "en": "if (casual)",
@@ -4540,7 +4539,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G379",
+    "id": "G0379",
     "p": "〜だっけ",
     "m": {
       "en": "was it?",
@@ -4552,7 +4551,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G380",
+    "id": "G0380",
     "p": "〜かしら",
     "m": {
       "en": "I wonder",
@@ -4564,7 +4563,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G381",
+    "id": "G0381",
     "p": "〜のかな",
     "m": {
       "en": "I wonder",
@@ -4576,7 +4575,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G382",
+    "id": "G0382",
     "p": "〜もの",
     "m": {
       "en": "because",
@@ -4588,7 +4587,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G383",
+    "id": "G0383",
     "p": "〜んだもの",
     "m": {
       "en": "because",
@@ -4600,7 +4599,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G384",
+    "id": "G0384",
     "p": "〜じゃない",
     "m": {
       "en": "isn't it?",
@@ -4612,7 +4611,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G385",
+    "id": "G0385",
     "p": "〜ではないか",
     "m": {
       "en": "isn't it?",
@@ -4624,7 +4623,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G386",
+    "id": "G0386",
     "p": "〜のではないか",
     "m": {
       "en": "isn't it?",
@@ -4636,7 +4635,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G387",
+    "id": "G0387",
     "p": "〜ないか",
     "m": {
       "en": "won't you?",
@@ -4648,7 +4647,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G388",
+    "id": "G0388",
     "p": "〜ましょうか",
     "m": {
       "en": "shall I?",
@@ -4660,7 +4659,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G389",
+    "id": "G0389",
     "p": "〜ましょう",
     "m": {
       "en": "let's",
@@ -4672,7 +4671,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G390",
+    "id": "G0390",
     "p": "〜ようか",
     "m": {
       "en": "shall I?",
@@ -4684,7 +4683,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G391",
+    "id": "G0391",
     "p": "〜なさい",
     "m": {
       "en": "do (command)",
@@ -4696,7 +4695,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G392",
+    "id": "G0392",
     "p": "〜て",
     "m": {
       "en": "please do",
@@ -4708,7 +4707,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G393",
+    "id": "G0393",
     "p": "〜な（禁止）",
     "m": {
       "en": "don't",
@@ -4720,7 +4719,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G394",
+    "id": "G0394",
     "p": "〜ないで",
     "m": {
       "en": "don't",
@@ -4732,7 +4731,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G395",
+    "id": "G0395",
     "p": "〜のに",
     "m": {
       "en": "although",
@@ -4744,7 +4743,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G396",
+    "id": "G0396",
     "p": "〜のだ",
     "m": {
       "en": "it is that",
@@ -4756,7 +4755,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G397",
+    "id": "G0397",
     "p": "〜んだ",
     "m": {
       "en": "it is that",
@@ -4768,7 +4767,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G398",
+    "id": "G0398",
     "p": "〜つもりだ",
     "m": {
       "en": "intend to",
@@ -4780,7 +4779,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G399",
+    "id": "G0399",
     "p": "〜予定だ",
     "m": {
       "en": "plan to",
@@ -4792,7 +4791,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G400",
+    "id": "G0400",
     "p": "〜べきだ",
     "m": {
       "en": "should",
@@ -4804,7 +4803,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G401",
+    "id": "G0401",
     "p": "〜ないほうがいい",
     "m": {
       "en": "better not",
@@ -4816,7 +4815,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G402",
+    "id": "G0402",
     "p": "〜といい",
     "m": {
       "en": "hope/wish",
@@ -4828,7 +4827,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G403",
+    "id": "G0403",
     "p": "〜ばいい",
     "m": {
       "en": "should just",
@@ -4840,7 +4839,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G404",
+    "id": "G0404",
     "p": "〜たらいい",
     "m": {
       "en": "should just",
@@ -4852,7 +4851,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G405",
+    "id": "G0405",
     "p": "〜ていただきたい",
     "m": {
       "en": "want someone to (polite)",
@@ -4864,7 +4863,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G406",
+    "id": "G0406",
     "p": "〜させてほしい",
     "m": {
       "en": "want to be allowed",
@@ -4876,7 +4875,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G407",
+    "id": "G0407",
     "p": "〜させてください",
     "m": {
       "en": "please let me",
@@ -4888,7 +4887,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G408",
+    "id": "G0408",
     "p": "〜させていただく",
     "m": {
       "en": "let me (humble)",
@@ -4900,7 +4899,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G409",
+    "id": "G0409",
     "p": "〜させる",
     "m": {
       "en": "make/let do",
@@ -4912,7 +4911,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G410",
+    "id": "G0410",
     "p": "〜される",
     "m": {
       "en": "is done (passive)",
@@ -4924,7 +4923,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G411",
+    "id": "G0411",
     "p": "〜られる",
     "m": {
       "en": "is done (passive)",
@@ -4936,7 +4935,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G412",
+    "id": "G0412",
     "p": "〜かけの",
     "m": {
       "en": "half-done",
@@ -4948,7 +4947,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G413",
+    "id": "G0413",
     "p": "〜どおりに",
     "m": {
       "en": "according to",
@@ -4960,7 +4959,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G414",
+    "id": "G0414",
     "p": "〜とおりに",
     "m": {
       "en": "according to",
@@ -4972,7 +4971,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G415",
+    "id": "G0415",
     "p": "〜ままで",
     "m": {
       "en": "as is",
@@ -4984,7 +4983,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G416",
+    "id": "G0416",
     "p": "〜ままに",
     "m": {
       "en": "as...wants",
@@ -4996,7 +4995,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G417",
+    "id": "G0417",
     "p": "〜だけで",
     "m": {
       "en": "just by",
@@ -5008,7 +5007,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G418",
+    "id": "G0418",
     "p": "〜だけの",
     "m": {
       "en": "enough to",
@@ -5020,7 +5019,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G419",
+    "id": "G0419",
     "p": "〜しか〜ない",
     "m": {
       "en": "only",
@@ -5032,7 +5031,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G420",
+    "id": "G0420",
     "p": "〜のみ",
     "m": {
       "en": "only",
@@ -5044,7 +5043,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G421",
+    "id": "G0421",
     "p": "〜はおろか",
     "m": {
       "en": "let alone",
@@ -5056,7 +5055,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G422",
+    "id": "G0422",
     "p": "〜もさることながら",
     "m": {
       "en": "not to mention",
@@ -5068,7 +5067,7 @@ const N3_GRAMMAR = [
     }
   },
   {
-    "id": "G423",
+    "id": "G0423",
     "p": "〜をはじめとして",
     "m": {
       "en": "including",
@@ -5078,7 +5077,331 @@ const N3_GRAMMAR = [
       "vi": "bao gồm",
       "id": "including"
     }
+  },
+  {
+    "id": "G0424",
+    "p": "ために",
+    "m": {
+      "en": "in order to; for the purpose of",
+      "zh-TW": "[in order to; for the purpose of]",
+      "zh-CN": "[in order to; for the purpose of]",
+      "ko": "[in order to; for the purpose of]",
+      "vi": "[in order to; for the purpose of]",
+      "id": "[in order to; for the purpose of]"
+    }
+  },
+  {
+    "id": "G0425",
+    "p": "ように",
+    "m": {
+      "en": "so that; in order to",
+      "zh-TW": "[so that; in order to]",
+      "zh-CN": "[so that; in order to]",
+      "ko": "[so that; in order to]",
+      "vi": "[so that; in order to]",
+      "id": "[so that; in order to]"
+    }
+  },
+  {
+    "id": "G0426",
+    "p": "として",
+    "m": {
+      "en": "as; in the role of",
+      "zh-TW": "[as; in the role of]",
+      "zh-CN": "[as; in the role of]",
+      "ko": "[as; in the role of]",
+      "vi": "[as; in the role of]",
+      "id": "[as; in the role of]"
+    }
+  },
+  {
+    "id": "G0427",
+    "p": "について",
+    "m": {
+      "en": "about; concerning",
+      "zh-TW": "[about; concerning]",
+      "zh-CN": "[about; concerning]",
+      "ko": "[about; concerning]",
+      "vi": "[about; concerning]",
+      "id": "[about; concerning]"
+    }
+  },
+  {
+    "id": "G0428",
+    "p": "によって",
+    "m": {
+      "en": "by means of; depending on",
+      "zh-TW": "[by means of; depending on]",
+      "zh-CN": "[by means of; depending on]",
+      "ko": "[by means of; depending on]",
+      "vi": "[by means of; depending on]",
+      "id": "[by means of; depending on]"
+    }
+  },
+  {
+    "id": "G0429",
+    "p": "に対して",
+    "m": {
+      "en": "toward; in contrast to",
+      "zh-TW": "[toward; in contrast to]",
+      "zh-CN": "[toward; in contrast to]",
+      "ko": "[toward; in contrast to]",
+      "vi": "[toward; in contrast to]",
+      "id": "[toward; in contrast to]"
+    }
+  },
+  {
+    "id": "G0430",
+    "p": "において",
+    "m": {
+      "en": "in; at; on",
+      "zh-TW": "[in; at; on]",
+      "zh-CN": "[in; at; on]",
+      "ko": "[in; at; on]",
+      "vi": "[in; at; on]",
+      "id": "[in; at; on]"
+    }
+  },
+  {
+    "id": "G0431",
+    "p": "にとって",
+    "m": {
+      "en": "for; to",
+      "zh-TW": "[for; to]",
+      "zh-CN": "[for; to]",
+      "ko": "[for; to]",
+      "vi": "[for; to]",
+      "id": "[for; to]"
+    }
+  },
+  {
+    "id": "G0432",
+    "p": "に比べて",
+    "m": {
+      "en": "compared to",
+      "zh-TW": "[compared to]",
+      "zh-CN": "[compared to]",
+      "ko": "[compared to]",
+      "vi": "[compared to]",
+      "id": "[compared to]"
+    }
+  },
+  {
+    "id": "G0433",
+    "p": "に関して",
+    "m": {
+      "en": "regarding; concerning",
+      "zh-TW": "[regarding; concerning]",
+      "zh-CN": "[regarding; concerning]",
+      "ko": "[regarding; concerning]",
+      "vi": "[regarding; concerning]",
+      "id": "[regarding; concerning]"
+    }
+  },
+  {
+    "id": "G0434",
+    "p": "に基づいて",
+    "m": {
+      "en": "based on",
+      "zh-TW": "[based on]",
+      "zh-CN": "[based on]",
+      "ko": "[based on]",
+      "vi": "[based on]",
+      "id": "[based on]"
+    }
+  },
+  {
+    "id": "G0435",
+    "p": "を通じて",
+    "m": {
+      "en": "through; via",
+      "zh-TW": "[through; via]",
+      "zh-CN": "[through; via]",
+      "ko": "[through; via]",
+      "vi": "[through; via]",
+      "id": "[through; via]"
+    }
+  },
+  {
+    "id": "G0436",
+    "p": "わけだ",
+    "m": {
+      "en": "that's why; no wonder",
+      "zh-TW": "[that's why; no wonder]",
+      "zh-CN": "[that's why; no wonder]",
+      "ko": "[that's why; no wonder]",
+      "vi": "[that's why; no wonder]",
+      "id": "[that's why; no wonder]"
+    }
+  },
+  {
+    "id": "G0437",
+    "p": "わけではない",
+    "m": {
+      "en": "it doesn't mean that",
+      "zh-TW": "[it doesn't mean that]",
+      "zh-CN": "[it doesn't mean that]",
+      "ko": "[it doesn't mean that]",
+      "vi": "[it doesn't mean that]",
+      "id": "[it doesn't mean that]"
+    }
+  },
+  {
+    "id": "G0438",
+    "p": "わけがない",
+    "m": {
+      "en": "there's no way that",
+      "zh-TW": "[there's no way that]",
+      "zh-CN": "[there's no way that]",
+      "ko": "[there's no way that]",
+      "vi": "[there's no way that]",
+      "id": "[there's no way that]"
+    }
+  },
+  {
+    "id": "G0439",
+    "p": "わけにはいかない",
+    "m": {
+      "en": "cannot; must not",
+      "zh-TW": "[cannot; must not]",
+      "zh-CN": "[cannot; must not]",
+      "ko": "[cannot; must not]",
+      "vi": "[cannot; must not]",
+      "id": "[cannot; must not]"
+    }
+  },
+  {
+    "id": "G0440",
+    "p": "ざるを得ない",
+    "m": {
+      "en": "have no choice but to",
+      "zh-TW": "[have no choice but to]",
+      "zh-CN": "[have no choice but to]",
+      "ko": "[have no choice but to]",
+      "vi": "[have no choice but to]",
+      "id": "[have no choice but to]"
+    }
+  },
+  {
+    "id": "G0441",
+    "p": "ないわけにはいかない",
+    "m": {
+      "en": "cannot help but",
+      "zh-TW": "[cannot help but]",
+      "zh-CN": "[cannot help but]",
+      "ko": "[cannot help but]",
+      "vi": "[cannot help but]",
+      "id": "[cannot help but]"
+    }
+  },
+  {
+    "id": "G0442",
+    "p": "てたまらない",
+    "m": {
+      "en": "unbearably; extremely",
+      "zh-TW": "[unbearably; extremely]",
+      "zh-CN": "[unbearably; extremely]",
+      "ko": "[unbearably; extremely]",
+      "vi": "[unbearably; extremely]",
+      "id": "[unbearably; extremely]"
+    }
+  },
+  {
+    "id": "G0443",
+    "p": "てならない",
+    "m": {
+      "en": "can't help but",
+      "zh-TW": "[can't help but]",
+      "zh-CN": "[can't help but]",
+      "ko": "[can't help but]",
+      "vi": "[can't help but]",
+      "id": "[can't help but]"
+    }
+  },
+  {
+    "id": "G0444",
+    "p": "てしょうがない",
+    "m": {
+      "en": "can't help; extremely",
+      "zh-TW": "[can't help; extremely]",
+      "zh-CN": "[can't help; extremely]",
+      "ko": "[can't help; extremely]",
+      "vi": "[can't help; extremely]",
+      "id": "[can't help; extremely]"
+    }
+  },
+  {
+    "id": "G0445",
+    "p": "おかげで",
+    "m": {
+      "en": "thanks to",
+      "zh-TW": "[thanks to]",
+      "zh-CN": "[thanks to]",
+      "ko": "[thanks to]",
+      "vi": "[thanks to]",
+      "id": "[thanks to]"
+    }
+  },
+  {
+    "id": "G0446",
+    "p": "せいで",
+    "m": {
+      "en": "because of; due to",
+      "zh-TW": "[because of; due to]",
+      "zh-CN": "[because of; due to]",
+      "ko": "[because of; due to]",
+      "vi": "[because of; due to]",
+      "id": "[because of; due to]"
+    }
+  },
+  {
+    "id": "G0447",
+    "p": "上で",
+    "m": {
+      "en": "after; upon",
+      "zh-TW": "[after; upon]",
+      "zh-CN": "[after; upon]",
+      "ko": "[after; upon]",
+      "vi": "[after; upon]",
+      "id": "[after; upon]"
+    }
+  },
+  {
+    "id": "G0448",
+    "p": "上に",
+    "m": {
+      "en": "in addition to",
+      "zh-TW": "[in addition to]",
+      "zh-CN": "[in addition to]",
+      "ko": "[in addition to]",
+      "vi": "[in addition to]",
+      "id": "[in addition to]"
+    }
+  },
+  {
+    "id": "G0449",
+    "p": "一方で",
+    "m": {
+      "en": "on the other hand; while",
+      "zh-TW": "[on the other hand; while]",
+      "zh-CN": "[on the other hand; while]",
+      "ko": "[on the other hand; while]",
+      "vi": "[on the other hand; while]",
+      "id": "[on the other hand; while]"
+    }
+  },
+  {
+    "id": "G0450",
+    "p": "反面",
+    "m": {
+      "en": "on the other hand; while",
+      "zh-TW": "[on the other hand; while]",
+      "zh-CN": "[on the other hand; while]",
+      "ko": "[on the other hand; while]",
+      "vi": "[on the other hand; while]",
+      "id": "[on the other hand; while]"
+    }
   }
 ];
 
-if (typeof module !== 'undefined') module.exports = { N3_GRAMMAR };
+if (typeof module !== 'undefined') module.exports = { n3Grammar };

@@ -186,9 +186,12 @@
     <!-- Category Buttons (tap to start quiz) -->
     <div class="category-row">
       <button class="category-btn" data-cat="vocab" onclick="selectCategoryAndStart('vocab')"><div class="category-icon"><svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z"/></svg></div><div class="category-name" data-i18n="vocab">Vocab</div></button>
-      <button class="category-btn" data-cat="kanji" onclick="selectCategoryAndStart('kanji')"><div class="category-icon"><svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M5 4v3h5.5v12h3V7H19V4H5z"/></svg></div><div class="category-name" data-i18n="kanji">Kanji</div></button>
+      <button class="category-btn" data-cat="kanji" onclick="selectCategoryAndStart('kanji')"><div class="category-icon"><svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M5 4v3h5.5v12h3V7H19V4H5z"/></svg></div><div class="category-name" data-i18n="new_kanji">New Kanji</div></button>
       <button class="category-btn" data-cat="grammar" onclick="selectCategoryAndStart('grammar')"><div class="category-icon"><svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zM6 20V4h7v5h5v11H6z"/></svg></div><div class="category-name" data-i18n="grammar">Grammar</div></button>
     </div>
+    
+    <!-- SRS Stats Display -->
+    <div id="srs-stats-container" class="srs-stats-container" style="display:none"></div>
   </div>
 </div>
 

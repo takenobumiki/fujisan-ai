@@ -1323,8 +1323,11 @@
             background-position: center;
         }
         .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-        @media (max-width: 900px) { .features-grid { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 1100px) { .features-grid { grid-template-columns: repeat(2, 1fr); } }
         @media (max-width: 600px) { .features-grid { grid-template-columns: 1fr; } }
+        .features-grid[style*="repeat(4"] { grid-template-columns: repeat(4, 1fr) !important; }
+        @media (max-width: 1100px) { .features-grid[style*="repeat(4"] { grid-template-columns: repeat(2, 1fr) !important; } }
+        @media (max-width: 600px) { .features-grid[style*="repeat(4"] { grid-template-columns: 1fr !important; } }
         .feature-card {
             background: var(--bg-primary);
             border-radius: 20px;
@@ -1345,7 +1348,11 @@
         
         /* Why Cards */
         .why-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-        @media (max-width: 900px) { .why-grid { grid-template-columns: 1fr; } }
+        @media (max-width: 1100px) { .why-grid { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 600px) { .why-grid { grid-template-columns: 1fr; } }
+        .why-grid[style*="repeat(4"] { grid-template-columns: repeat(4, 1fr) !important; }
+        @media (max-width: 1100px) { .why-grid[style*="repeat(4"] { grid-template-columns: repeat(2, 1fr) !important; } }
+        @media (max-width: 600px) { .why-grid[style*="repeat(4"] { grid-template-columns: 1fr !important; } }
         .why-card { text-align: center; padding: 36px 24px; background: var(--bg-primary); border-radius: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); display: flex; flex-direction: column; height: 100%; }
         .why-icon { width: 72px; height: 72px; margin: 0 auto 20px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 36px; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); flex-shrink: 0; }
         .why-title { font-size: 20px; font-weight: 700; margin-bottom: 10px; min-height: 28px; }
@@ -1840,29 +1847,57 @@
                 <section class="section" id="features">
                     <div class="container">
                         <div class="section-header">
-                            <div class="section-label">🤖 AI + Cognitive Science</div>
-                            <h2 class="section-title">Hyper-Efficient Learning</h2>
-                            <p class="section-subtitle">Machine learning meets neuroscience. Every feature optimized for maximum retention with minimum effort.</p>
+                            <div class="section-label" data-i18n="features_label">🚀 Why Fujisan.AI</div>
+                            <h2 class="section-title" data-i18n="features_headline">The Smartest Way to Pass JLPT</h2>
+                            <p class="section-subtitle" data-i18n="features_subheadline">Everything you need: mock tests, AI tutoring, and spaced repetition — all in one app.</p>
                         </div>
                         
-                        <div class="why-grid">
+                        <!-- Key Stats Banner -->
+                        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 16px; padding: 24px 32px; margin-bottom: 32px; text-align: center; color: #fff; box-shadow: 0 8px 32px rgba(102,126,234,0.3);">
+                            <div style="display: flex; justify-content: center; gap: 48px; flex-wrap: wrap; font-size: 15px;">
+                                <div style="text-align: center;">
+                                    <div style="font-size: 42px; font-weight: 800;">100</div>
+                                    <div style="opacity: 0.9;" data-i18n="stat_mock_tests">Mock Tests</div>
+                                </div>
+                                <div style="text-align: center;">
+                                    <div style="font-size: 42px; font-weight: 800;">N5-N1</div>
+                                    <div style="opacity: 0.9;" data-i18n="stat_all_levels">All Levels</div>
+                                </div>
+                                <div style="text-align: center;">
+                                    <div style="font-size: 42px; font-weight: 800;">10K+</div>
+                                    <div style="opacity: 0.9;" data-i18n="stat_vocabulary">Vocabulary</div>
+                                </div>
+                                <div style="text-align: center;">
+                                    <div style="font-size: 42px; font-weight: 800;">6</div>
+                                    <div style="opacity: 0.9;" data-i18n="stat_languages">Languages</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="why-grid" style="grid-template-columns: repeat(4, 1fr);">
                             <div class="why-card">
-                                <div class="why-icon">🤖</div>
-                                <h3 class="why-title">AI Explains Every Mistake</h3>
-                                <p class="why-desc">Research shows elaborative encoding creates 3x stronger memories. Our AI generates unique, contextual explanations that help you truly understand — not just memorize.</p>
-                                <img src="images/progress-tracking.jpg" alt="AI tutor explaining Japanese grammar mistakes with personalized feedback">
+                                <div class="why-icon">📝</div>
+                                <h3 class="why-title" data-i18n="feature_mock_title">100 Mock Tests</h3>
+                                <p class="why-desc" data-i18n="feature_mock_desc">20 full-length tests per level (N5-N1). Simulate real JLPT conditions with timer, scoring, and detailed answer review.</p>
+                                <img src="images/exam-room.jpg" alt="JLPT mock test simulating real exam conditions">
                             </div>
                             <div class="why-card">
-                                <div class="why-icon">💬</div>
-                                <h3 class="why-title">24/7 AI Japanese Tutor</h3>
-                                <p class="why-desc">Questions at 2am? No problem. Get instant, natural responses powered by Google Gemini. Ask anything about grammar, vocabulary, or study strategies — anytime.</p>
-                                <img src="images/study-scene.jpg" alt="AI chatbot tutor answering Japanese language questions 24/7">
+                                <div class="why-icon">🤖</div>
+                                <h3 class="why-title" data-i18n="feature_ai_title">AI Explanations</h3>
+                                <p class="why-desc" data-i18n="feature_ai_desc">Wrong answer? Our AI instantly explains why in your language. Understand the logic, not just memorize the answer.</p>
+                                <img src="images/progress-tracking.jpg" alt="AI tutor explaining Japanese grammar mistakes">
                             </div>
                             <div class="why-card">
                                 <div class="why-icon">🧠</div>
-                                <h3 class="why-title">Forgetting Curve Optimization</h3>
-                                <p class="why-desc">Based on Ebbinghaus research: without review, you forget 80% in 24 hours. Our AI predicts your personal forgetting curve and schedules reviews at the optimal moment.</p>
-                                <img src="images/spiral-stairs.jpg" alt="Spaced repetition system powered by AI for optimal Japanese vocabulary retention">
+                                <h3 class="why-title" data-i18n="feature_srs_title">Spaced Repetition</h3>
+                                <p class="why-desc" data-i18n="feature_srs_desc">Based on Ebbinghaus forgetting curve. Our SRS schedules reviews at optimal intervals so you remember forever.</p>
+                                <img src="images/spiral-stairs.jpg" alt="Spaced repetition system for optimal memory retention">
+                            </div>
+                            <div class="why-card">
+                                <div class="why-icon">🌏</div>
+                                <h3 class="why-title" data-i18n="feature_lang_title">6 Languages</h3>
+                                <p class="why-desc" data-i18n="feature_lang_desc">Study in English, 繁體中文, 简体中文, 한국어, Tiếng Việt, or Bahasa Indonesia. AI explanations in your native language.</p>
+                                <img src="images/study-scene.jpg" alt="Multilingual Japanese learning app interface">
                             </div>
                         </div>
                     </div>
@@ -1872,47 +1907,35 @@
                 <section class="section section-dark section-features-bg">
                     <div class="container">
                         <div class="section-header">
-                            <div class="section-label">Complete Learning System</div>
-                            <h2 class="section-title">Everything You Need to Pass JLPT</h2>
-                            <p class="section-subtitle">4 learning modes + gamification = maximum results</p>
+                            <div class="section-label" data-i18n="modes_label">Complete Learning System</div>
+                            <h2 class="section-title" data-i18n="modes_title">4 Learning Modes</h2>
+                            <p class="section-subtitle" data-i18n="modes_subtitle">Learn → Practice → Review → Test. Master JLPT systematically.</p>
                         </div>
                         
-                        <div class="features-grid">
+                        <div class="features-grid" style="grid-template-columns: repeat(4, 1fr);">
                             <div class="feature-card">
                                 <div class="feature-icon" style="font-size:32px;">📖</div>
-                                <h3 class="feature-title">Learn Mode</h3>
-                                <p class="feature-desc">Master new vocabulary and kanji with flashcards. See word, reading, meaning, and example sentences. Swipe through at your own pace.</p>
-                                <img src="images/flashcards.jpg" alt="Japanese vocabulary flashcard learning mode for JLPT preparation">
+                                <h3 class="feature-title" data-i18n="mode_learn_title">Learn Mode</h3>
+                                <p class="feature-desc" data-i18n="mode_learn_desc">Master new vocabulary and kanji with flashcards. See word, reading, meaning, and example sentences.</p>
+                                <img src="images/flashcards.jpg" alt="Japanese vocabulary flashcard learning mode">
                             </div>
                             <div class="feature-card">
                                 <div class="feature-icon" style="font-size:32px;">✍️</div>
-                                <h3 class="feature-title">Practice Mode</h3>
-                                <p class="feature-desc">Test yourself with 4-choice quizzes. Choose from Meaning, Reading, Listening, and Reverse modes. AI explains every wrong answer instantly.</p>
-                                <img src="images/curriculum.jpg" alt="JLPT practice quizzes with multiple choice questions">
+                                <h3 class="feature-title" data-i18n="mode_practice_title">Practice Mode</h3>
+                                <p class="feature-desc" data-i18n="mode_practice_desc">Test yourself with 4-choice quizzes. Listening, Reading, Meaning, and Writing modes available.</p>
+                                <img src="images/curriculum.jpg" alt="JLPT practice quizzes with multiple choice">
                             </div>
                             <div class="feature-card">
-                                <div class="feature-icon" style="font-size:32px;">🧠</div>
-                                <h3 class="feature-title">Review Mode</h3>
-                                <p class="feature-desc">Review your mistakes and strengthen weak areas with targeted practice.</p>
-                                <img src="images/spiral-stairs.jpg" alt="Spaced repetition system for efficient Japanese vocabulary retention">
+                                <div class="feature-icon" style="font-size:32px;">🔄</div>
+                                <h3 class="feature-title" data-i18n="mode_review_title">SRS Review</h3>
+                                <p class="feature-desc" data-i18n="mode_review_desc">Spaced repetition reviews your mistakes at optimal intervals. Never forget what you've learned.</p>
+                                <img src="images/spiral-stairs.jpg" alt="Spaced repetition system for vocabulary retention">
                             </div>
                             <div class="feature-card">
                                 <div class="feature-icon" style="font-size:32px;">📝</div>
-                                <h3 class="feature-title">Mock Test Mode</h3>
-                                <p class="feature-desc">Full timed tests simulating real JLPT conditions. Get detailed score analysis after each test.</p>
-                                <img src="images/exam-room.jpg" alt="JLPT mock test with timer simulating real exam conditions">
-                            </div>
-                            <div class="feature-card">
-                                <div class="feature-icon" style="font-size:32px;">🎯</div>
-                                <h3 class="feature-title">Daily Challenges</h3>
-                                <p class="feature-desc">Complete daily goals like "Answer 10 questions" or "Study 5 minutes" to earn XP. Build streaks and stay motivated every day.</p>
-                                <img src="images/target-archery.jpg" alt="Daily challenges and goals for consistent JLPT study motivation">
-                            </div>
-                            <div class="feature-card">
-                                <div class="feature-icon" style="font-size:32px;">🏆</div>
-                                <h3 class="feature-title">League Competition</h3>
-                                <p class="feature-desc">Compete with learners worldwide. Earn XP, climb from Bronze to Diamond league, and get promoted weekly. Learning becomes a game!</p>
-                                <img src="images/progress-graph.jpg" alt="League ranking system with Bronze Silver Gold Diamond tiers">
+                                <h3 class="feature-title" data-i18n="mode_mock_title">Mock Test</h3>
+                                <p class="feature-desc" data-i18n="mode_mock_desc">100 full mock tests (20 per level). Timed tests simulating real JLPT conditions.</p>
+                                <img src="images/exam-room.jpg" alt="JLPT mock test with timer">
                             </div>
                         </div>
                     </div>
@@ -1923,8 +1946,20 @@
                     <div class="container">
                         <div class="section-header">
                             <div class="section-label" data-i18n="levels_label">JLPT Levels</div>
-                            <h2 class="section-title" data-i18n="levels_title">Comprehensive Coverage for All Levels</h2>
-                            <p class="section-subtitle" data-i18n="levels_subtitle">From beginner to advanced, we have the content you need</p>
+                            <h2 class="section-title" data-i18n="levels_title">100% Official JLPT Coverage</h2>
+                            <p class="section-subtitle" data-i18n="levels_subtitle">Complete coverage of all official JLPT requirements — vocabulary, kanji, and grammar</p>
+                        </div>
+                        
+                        <!-- 100% Coverage Banner -->
+                        <div style="background: linear-gradient(135deg, #00C853 0%, #00E676 100%); border-radius: 16px; padding: 24px 32px; margin-bottom: 32px; text-align: center; color: #fff; box-shadow: 0 8px 32px rgba(0,200,83,0.3);">
+                            <div style="font-size: 48px; font-weight: 800; margin-bottom: 8px;">✅ 100% Coverage</div>
+                            <div style="font-size: 18px; font-weight: 600; margin-bottom: 16px;" data-i18n="coverage_headline">All Official JLPT Requirements Covered</div>
+                            <div style="display: flex; justify-content: center; gap: 32px; flex-wrap: wrap; font-size: 15px;">
+                                <div><strong>10,000+</strong> <span data-i18n="coverage_vocab">Vocabulary</span></div>
+                                <div><strong>2,000+</strong> <span data-i18n="coverage_kanji">Kanji</span></div>
+                                <div><strong>700+</strong> <span data-i18n="coverage_grammar">Grammar</span></div>
+                                <div><strong>100</strong> <span data-i18n="coverage_mock">Mock Tests</span></div>
+                            </div>
                         </div>
                         
                         <div class="levels-grid">
@@ -1933,14 +1968,15 @@
                                 <div class="level-header">
                                     <div class="level-name">N5</div>
                                     <div class="level-title" data-i18n="level_beginner">Beginner</div>
+                                    <div style="background:#00C853;color:#fff;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:700;">✓ 100%</div>
                                 </div>
                                 <div class="level-body">
                                     <p class="level-desc" data-i18n="level_n5_desc">Start your Japanese journey. Master hiragana, katakana, basic kanji, and essential grammar.</p>
                                     <div class="level-stats">
-                                        <div class="level-stat"><div class="level-stat-value">800</div><div class="level-stat-label" data-i18n="level_vocabulary">Vocabulary</div></div>
-                                        <div class="level-stat"><div class="level-stat-value">100</div><div class="level-stat-label" data-i18n="level_kanji">Kanji</div></div>
-                                        <div class="level-stat"><div class="level-stat-value">80</div><div class="level-stat-label" data-i18n="level_grammar">Grammar</div></div>
-                                        <div class="level-stat"><div class="level-stat-value">980</div><div class="level-stat-label" data-i18n="level_total">Total Items</div></div>
+                                        <div class="level-stat"><div class="level-stat-value">800<span style="font-size:12px;color:#00C853;">/800</span></div><div class="level-stat-label" data-i18n="level_vocabulary">Vocabulary</div></div>
+                                        <div class="level-stat"><div class="level-stat-value">144</div><div class="level-stat-label" data-i18n="level_new_kanji">New Kanji</div></div>
+                                        <div class="level-stat"><div class="level-stat-value">80<span style="font-size:12px;color:#00C853;">/80</span></div><div class="level-stat-label" data-i18n="level_grammar">Grammar</div></div>
+                                        <div class="level-stat"><div class="level-stat-value">1,024</div><div class="level-stat-label" data-i18n="level_total">Total Items</div></div>
                                     </div>
                                     <ul class="level-features">
                                         <li data-i18n="level_n5_f1">Hiragana & Katakana mastery</li>
@@ -1955,14 +1991,15 @@
                                 <div class="level-header">
                                     <div class="level-name">N4</div>
                                     <div class="level-title" data-i18n="level_elementary">Elementary</div>
+                                    <div style="background:#00C853;color:#fff;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:700;">✓ 100%</div>
                                 </div>
                                 <div class="level-body">
                                     <p class="level-desc" data-i18n="level_n4_desc">Build on your foundation. Handle complex conversations and read simple texts.</p>
                                     <div class="level-stats">
-                                        <div class="level-stat"><div class="level-stat-value">800</div><div class="level-stat-label" data-i18n="level_vocabulary">Vocabulary</div></div>
-                                        <div class="level-stat"><div class="level-stat-value">200</div><div class="level-stat-label" data-i18n="level_kanji">Kanji</div></div>
-                                        <div class="level-stat"><div class="level-stat-value">120</div><div class="level-stat-label" data-i18n="level_grammar">Grammar</div></div>
-                                        <div class="level-stat"><div class="level-stat-value">1,120</div><div class="level-stat-label" data-i18n="level_total">Total Items</div></div>
+                                        <div class="level-stat"><div class="level-stat-value">1,500<span style="font-size:12px;color:#00C853;">/1,500</span></div><div class="level-stat-label" data-i18n="level_vocabulary">Vocabulary</div></div>
+                                        <div class="level-stat"><div class="level-stat-value">247</div><div class="level-stat-label" data-i18n="level_new_kanji">New Kanji</div></div>
+                                        <div class="level-stat"><div class="level-stat-value">200<span style="font-size:12px;color:#00C853;">/200</span></div><div class="level-stat-label" data-i18n="level_grammar">Grammar</div></div>
+                                        <div class="level-stat"><div class="level-stat-value">1,947</div><div class="level-stat-label" data-i18n="level_total">Total Items</div></div>
                                     </div>
                                     <ul class="level-features">
                                         <li data-i18n="level_n4_f1">て-form and verb conjugations</li>
@@ -1977,14 +2014,15 @@
                                 <div class="level-header">
                                     <div class="level-name">N3</div>
                                     <div class="level-title" data-i18n="level_intermediate">Intermediate</div>
+                                    <div style="background:#00C853;color:#fff;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:700;">✓ 100%</div>
                                 </div>
                                 <div class="level-body">
                                     <p class="level-desc" data-i18n="level_n3_desc">The bridge to fluency. Understand everyday Japanese and express nuanced opinions.</p>
                                     <div class="level-stats">
-                                        <div class="level-stat"><div class="level-stat-value">2,186</div><div class="level-stat-label" data-i18n="level_vocabulary">Vocabulary</div></div>
-                                        <div class="level-stat"><div class="level-stat-value">350</div><div class="level-stat-label" data-i18n="level_kanji">Kanji</div></div>
-                                        <div class="level-stat"><div class="level-stat-value">100</div><div class="level-stat-label" data-i18n="level_grammar">Grammar</div></div>
-                                        <div class="level-stat"><div class="level-stat-value">2,636</div><div class="level-stat-label" data-i18n="level_total">Total Items</div></div>
+                                        <div class="level-stat"><div class="level-stat-value">3,750<span style="font-size:12px;color:#00C853;">/3,750</span></div><div class="level-stat-label" data-i18n="level_vocabulary">Vocabulary</div></div>
+                                        <div class="level-stat"><div class="level-stat-value">577</div><div class="level-stat-label" data-i18n="level_new_kanji">New Kanji</div></div>
+                                        <div class="level-stat"><div class="level-stat-value">450<span style="font-size:12px;color:#00C853;">/450</span></div><div class="level-stat-label" data-i18n="level_grammar">Grammar</div></div>
+                                        <div class="level-stat"><div class="level-stat-value">4,777</div><div class="level-stat-label" data-i18n="level_total">Total Items</div></div>
                                     </div>
                                     <ul class="level-features">
                                         <li data-i18n="level_n3_f1">Complex grammar patterns</li>
@@ -1999,14 +2037,15 @@
                                 <div class="level-header">
                                     <div class="level-name">N2</div>
                                     <div class="level-title" data-i18n="level_advanced">Advanced</div>
+                                    <div style="background:#00C853;color:#fff;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:700;">✓ 100%</div>
                                 </div>
                                 <div class="level-body">
                                     <p class="level-desc" data-i18n="level_n2_desc">Professional-level Japanese. Read newspapers and handle business situations.</p>
                                     <div class="level-stats">
-                                        <div class="level-stat"><div class="level-stat-value">2,684</div><div class="level-stat-label" data-i18n="level_vocabulary">Vocabulary</div></div>
-                                        <div class="level-stat"><div class="level-stat-value">452</div><div class="level-stat-label" data-i18n="level_kanji">Kanji</div></div>
-                                        <div class="level-stat"><div class="level-stat-value">200</div><div class="level-stat-label" data-i18n="level_grammar">Grammar</div></div>
-                                        <div class="level-stat"><div class="level-stat-value">3,336</div><div class="level-stat-label" data-i18n="level_total">Total Items</div></div>
+                                        <div class="level-stat"><div class="level-stat-value">6,000<span style="font-size:12px;color:#00C853;">/6,000</span></div><div class="level-stat-label" data-i18n="level_vocabulary">Vocabulary</div></div>
+                                        <div class="level-stat"><div class="level-stat-value">663</div><div class="level-stat-label" data-i18n="level_new_kanji">New Kanji</div></div>
+                                        <div class="level-stat"><div class="level-stat-value">250<span style="font-size:12px;color:#00C853;">/250</span></div><div class="level-stat-label" data-i18n="level_grammar">Grammar</div></div>
+                                        <div class="level-stat"><div class="level-stat-value">6,913</div><div class="level-stat-label" data-i18n="level_total">Total Items</div></div>
                                     </div>
                                     <ul class="level-features">
                                         <li data-i18n="level_n2_f1">Business Japanese</li>
@@ -2021,14 +2060,15 @@
                                 <div class="level-header">
                                     <div class="level-name">N1</div>
                                     <div class="level-title" data-i18n="level_expert">Expert</div>
+                                    <div style="background:#00C853;color:#fff;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:700;">✓ 100%</div>
                                 </div>
                                 <div class="level-body">
                                     <p class="level-desc" data-i18n="level_n1_desc">Near-native proficiency. Master literary Japanese and sophisticated communication.</p>
                                     <div class="level-stats">
-                                        <div class="level-stat"><div class="level-stat-value">4,475</div><div class="level-stat-label" data-i18n="level_vocabulary">Vocabulary</div></div>
-                                        <div class="level-stat"><div class="level-stat-value">500</div><div class="level-stat-label" data-i18n="level_kanji">Kanji</div></div>
-                                        <div class="level-stat"><div class="level-stat-value">200</div><div class="level-stat-label" data-i18n="level_grammar">Grammar</div></div>
-                                        <div class="level-stat"><div class="level-stat-value">5,175</div><div class="level-stat-label" data-i18n="level_total">Total Items</div></div>
+                                        <div class="level-stat"><div class="level-stat-value">10,000<span style="font-size:12px;color:#00C853;">/10,000</span></div><div class="level-stat-label" data-i18n="level_vocabulary">Vocabulary</div></div>
+                                        <div class="level-stat"><div class="level-stat-value">575</div><div class="level-stat-label" data-i18n="level_new_kanji">New Kanji</div></div>
+                                        <div class="level-stat"><div class="level-stat-value">150<span style="font-size:12px;color:#00C853;">/150</span></div><div class="level-stat-label" data-i18n="level_grammar">Grammar</div></div>
+                                        <div class="level-stat"><div class="level-stat-value">10,775</div><div class="level-stat-label" data-i18n="level_total">Total Items</div></div>
                                     </div>
                                     <ul class="level-features">
                                         <li data-i18n="level_n1_f1">Literary expressions</li>
@@ -3443,9 +3483,41 @@
                 why_japan_desc: "Created by TORAIZ Inc. — pioneers in online language education in Japan for nearly 20 years.",
                 
                 // Features Section
-                features_label: "Features",
+                features_label: "🚀 Why Fujisan.AI",
+                features_headline: "The Smartest Way to Pass JLPT",
+                features_subheadline: "Everything you need: mock tests, AI tutoring, and spaced repetition — all in one app.",
                 features_title: "Everything You Need to Pass JLPT",
                 features_subtitle: "Comprehensive tools designed for maximum efficiency",
+                
+                // Key Stats
+                stat_mock_tests: "Mock Tests",
+                stat_all_levels: "All Levels",
+                stat_vocabulary: "Vocabulary",
+                stat_languages: "Languages",
+                
+                // 4 Key Features
+                feature_mock_title: "100 Mock Tests",
+                feature_mock_desc: "20 full-length tests per level (N5-N1). Simulate real JLPT conditions with timer, scoring, and detailed answer review.",
+                feature_ai_title: "AI Explanations",
+                feature_ai_desc: "Wrong answer? Our AI instantly explains why in your language. Understand the logic, not just memorize the answer.",
+                feature_srs_title: "Spaced Repetition",
+                feature_srs_desc: "Based on Ebbinghaus forgetting curve. Our SRS schedules reviews at optimal intervals so you remember forever.",
+                feature_lang_title: "6 Languages",
+                feature_lang_desc: "Study in English, 繁體中文, 简体中文, 한국어, Tiếng Việt, or Bahasa Indonesia. AI explanations in your native language.",
+                
+                // Learning Modes
+                modes_label: "Complete Learning System",
+                modes_title: "4 Learning Modes",
+                modes_subtitle: "Learn → Practice → Review → Test. Master JLPT systematically.",
+                mode_learn_title: "Learn Mode",
+                mode_learn_desc: "Master new vocabulary and kanji with flashcards. See word, reading, meaning, and example sentences.",
+                mode_practice_title: "Practice Mode",
+                mode_practice_desc: "Test yourself with 4-choice quizzes. Listening, Reading, Meaning, and Writing modes available.",
+                mode_review_title: "SRS Review",
+                mode_review_desc: "Spaced repetition reviews your mistakes at optimal intervals. Never forget what you've learned.",
+                mode_mock_title: "Mock Test",
+                mode_mock_desc: "100 full mock tests (20 per level). Timed tests simulating real JLPT conditions.",
+                
                 feature_spiral_title: "Spiral Learning Method",
                 feature_spiral_desc: "Mock test → Identify weaknesses → Practice similar questions → Repeat. Build skills in a continuous upward spiral until you pass.",
                 feature_analytics_title: "Progress Analytics",
@@ -3461,8 +3533,14 @@
                 
                 // Levels Section
                 levels_label: "JLPT Levels",
-                levels_title: "Comprehensive Coverage for All Levels",
-                levels_subtitle: "From beginner to advanced, we have the content you need",
+                levels_title: "100% Official JLPT Coverage",
+                levels_subtitle: "Complete coverage of all official JLPT requirements — vocabulary, kanji, and grammar",
+                coverage_headline: "All Official JLPT Requirements Covered",
+                coverage_vocab: "Vocabulary",
+                coverage_kanji: "Kanji",
+                coverage_grammar: "Grammar",
+                coverage_mock: "Mock Tests",
+                coverage_total: "Total Items",
                 level_beginner: "Beginner",
                 level_elementary: "Elementary",
                 level_intermediate: "Intermediate",
@@ -3475,6 +3553,7 @@
                 level_n1_desc: "Near-native mastery. Handle any situation with complex, nuanced Japanese.",
                 level_vocabulary: "Vocabulary",
                 level_kanji: "Kanji",
+                level_new_kanji: "New Kanji",
                 level_units: "Units",
                 level_questions: "Questions",
                 level_coming_soon: "Coming Soon",
@@ -3790,9 +3869,41 @@
                 why_japan_desc: "由TORAIZ Inc.創建——日本線上語言教育的先驅，近20年經驗。",
                 
                 // Features Section
-                features_label: "功能",
+                features_label: "🚀 為什麼選擇 Fujisan.AI",
+                features_headline: "通過JLPT的最聰明方式",
+                features_subheadline: "模擬考試、AI輔導、間隔重複——一個App全搞定。",
                 features_title: "通過JLPT所需的一切",
                 features_subtitle: "為最大效率而設計的綜合工具",
+                
+                // Key Stats
+                stat_mock_tests: "套模擬試題",
+                stat_all_levels: "所有級別",
+                stat_vocabulary: "詞彙",
+                stat_languages: "種語言",
+                
+                // 4 Key Features
+                feature_mock_title: "100套模擬試題",
+                feature_mock_desc: "每個級別20套完整測驗（N5-N1）。計時與評分模擬真實JLPT考試。",
+                feature_ai_title: "AI智能解說",
+                feature_ai_desc: "答錯了？AI立即用你的語言解釋原因。理解邏輯，而非死記硬背。",
+                feature_srs_title: "間隔重複系統",
+                feature_srs_desc: "基於艾賓浩斯遺忘曲線。SRS在最佳時間安排複習，讓你永遠記住。",
+                feature_lang_title: "支援6種語言",
+                feature_lang_desc: "支援英文、繁中、簡中、韓文、越南文、印尼文。AI解說使用你的母語。",
+                
+                // Learning Modes
+                modes_label: "完整學習系統",
+                modes_title: "4種學習模式",
+                modes_subtitle: "學習 → 練習 → 複習 → 測試。系統化掌握JLPT。",
+                mode_learn_title: "學習模式",
+                mode_learn_desc: "用單字卡掌握新詞彙和漢字。查看單字、讀音、意思和例句。",
+                mode_practice_title: "練習模式",
+                mode_practice_desc: "用四選一測驗測試自己。提供聽力、閱讀、意思、寫作模式。",
+                mode_review_title: "SRS複習",
+                mode_review_desc: "間隔重複在最佳時間複習錯題。永遠不會忘記學過的內容。",
+                mode_mock_title: "模擬測試",
+                mode_mock_desc: "100套完整模擬試題（每級別20套）。計時測試模擬真實JLPT環境。",
+                
                 feature_spiral_title: "螺旋學習法",
                 feature_spiral_desc: "模擬考試 → 找出弱點 → 練習類似題目 → 重複。持續向上螺旋提升技能直到通過。",
                 feature_analytics_title: "進度分析",
@@ -3808,8 +3919,14 @@
                 
                 // Levels Section
                 levels_label: "JLPT級別",
-                levels_title: "涵蓋所有級別",
-                levels_subtitle: "從初學者到高級，我們有您需要的內容",
+                levels_title: "100% 官方JLPT完整涵蓋",
+                levels_subtitle: "完整涵蓋所有官方JLPT要求——詞彙、漢字和文法",
+                coverage_headline: "完整涵蓋所有官方JLPT要求",
+                coverage_vocab: "詞彙",
+                coverage_kanji: "漢字",
+                coverage_grammar: "文法",
+                coverage_mock: "套模擬試題",
+                coverage_total: "總計",
                 level_beginner: "初學者",
                 level_elementary: "初級",
                 level_intermediate: "中級",
@@ -3822,6 +3939,7 @@
                 level_n1_desc: "接近母語水平。用複雜、細緻的日語處理任何情況。",
                 level_vocabulary: "詞彙",
                 level_kanji: "漢字",
+                level_new_kanji: "新出漢字",
                 level_units: "單元",
                 level_questions: "題目",
                 level_coming_soon: "即將推出",
@@ -4153,8 +4271,13 @@
                 
                 // Levels Section
                 levels_label: "JLPT级别",
-                levels_title: "涵盖所有级别",
-                levels_subtitle: "从初学者到高级，我们有您需要的内容",
+                levels_title: "100% 官方JLPT完整覆盖",
+                levels_subtitle: "完整覆盖所有官方JLPT要求——词汇、汉字和语法",
+                coverage_headline: "完整覆盖所有官方JLPT要求",
+                coverage_vocab: "词汇",
+                coverage_kanji: "汉字",
+                coverage_grammar: "语法",
+                coverage_total: "总计",
                 level_beginner: "初学者",
                 level_elementary: "初级",
                 level_intermediate: "中级",
@@ -4167,6 +4290,7 @@
                 level_n1_desc: "接近母语水平。用复杂、细致的日语处理任何情况。",
                 level_vocabulary: "词汇",
                 level_kanji: "汉字",
+                level_new_kanji: "新出汉字",
                 level_units: "单元",
                 level_questions: "题目",
                 level_coming_soon: "即将推出",
@@ -4467,6 +4591,26 @@
                 why_title: "남다르게, 더 완벽하게",
                 why_subtitle: "수년간 실제 시험을 분석해 만든 가장 효과적인 JLPT 학습 시스템",
                 
+                // Levels Section
+                levels_label: "JLPT 레벨",
+                levels_title: "100% 공식 JLPT 완벽 커버",
+                levels_subtitle: "공식 JLPT 요구 사항 전체 커버 — 어휘, 한자, 문법",
+                coverage_headline: "공식 JLPT 요구 사항 완벽 커버",
+                coverage_vocab: "어휘",
+                coverage_kanji: "한자",
+                coverage_grammar: "문법",
+                coverage_total: "총계",
+                level_beginner: "초급",
+                level_elementary: "기초",
+                level_intermediate: "중급",
+                level_advanced: "중상급",
+                level_expert: "고급",
+                level_vocabulary: "어휘",
+                level_kanji: "한자",
+                level_new_kanji: "새 한자",
+                level_grammar: "문법",
+                level_total: "총 항목",
+                
                 // Features
                 feature_questions_title: "1만 개 이상 문제",
                 feature_questions_desc: "어휘, 문법, 독해, 청해를 총망라한 방대한 문제 은행",
@@ -4613,6 +4757,26 @@
                 why_title: "Khác biệt. Hiệu quả hơn.",
                 why_subtitle: "Hệ thống ôn thi JLPT hiệu quả nhất, được xây dựng từ nhiều năm phân tích đề thi thực tế.",
                 
+                // Levels Section
+                levels_label: "Cấp độ JLPT",
+                levels_title: "Bao phủ 100% JLPT chính thức",
+                levels_subtitle: "Bao phủ đầy đủ tất cả yêu cầu JLPT chính thức — từ vựng, kanji và ngữ pháp",
+                coverage_headline: "Bao phủ đầy đủ mọi yêu cầu JLPT chính thức",
+                coverage_vocab: "Từ vựng",
+                coverage_kanji: "Kanji",
+                coverage_grammar: "Ngữ pháp",
+                coverage_total: "Tổng cộng",
+                level_beginner: "Sơ cấp",
+                level_elementary: "Cơ bản",
+                level_intermediate: "Trung cấp",
+                level_advanced: "Nâng cao",
+                level_expert: "Chuyên gia",
+                level_vocabulary: "Từ vựng",
+                level_kanji: "Kanji",
+                level_new_kanji: "Kanji mới",
+                level_grammar: "Ngữ pháp",
+                level_total: "Tổng số",
+                
                 // Features
                 feature_questions_title: "Hơn 10.000 câu hỏi",
                 feature_questions_desc: "Kho câu hỏi đồ sộ: từ vựng, ngữ pháp, đọc hiểu và nghe hiểu",
@@ -4758,6 +4922,26 @@
                 why_label: "Kenapa Fujisan.AI?",
                 why_title: "Beda. Lebih Efektif.",
                 why_subtitle: "Sistem persiapan JLPT paling efektif, dibangun dari analisis bertahun-tahun soal ujian nyata.",
+                
+                // Levels Section
+                levels_label: "Level JLPT",
+                levels_title: "100% Cakupan JLPT Resmi",
+                levels_subtitle: "Cakupan lengkap semua persyaratan JLPT resmi — kosakata, kanji, dan tata bahasa",
+                coverage_headline: "Mencakup Semua Persyaratan JLPT Resmi",
+                coverage_vocab: "Kosakata",
+                coverage_kanji: "Kanji",
+                coverage_grammar: "Tata Bahasa",
+                coverage_total: "Total",
+                level_beginner: "Pemula",
+                level_elementary: "Dasar",
+                level_intermediate: "Menengah",
+                level_advanced: "Lanjutan",
+                level_expert: "Ahli",
+                level_vocabulary: "Kosakata",
+                level_kanji: "Kanji",
+                level_new_kanji: "Kanji Baru",
+                level_grammar: "Tata Bahasa",
+                level_total: "Total Item",
                 
                 // Features
                 feature_questions_title: "10.000+ Soal",

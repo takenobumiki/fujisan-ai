@@ -1,13 +1,13 @@
 // ========== CONFIG ==========
-const APP_VERSION = '17.8.6';
-const STORAGE_KEY = 'fujisan_v1734';
+const APP_VERSION = '17.16.0';
+const STORAGE_KEY = 'fujisan_v1736';
 
 // ========== UI TRANSLATIONS ==========
 const UI_TEXTS = {
   en: {
     // Navigation
     nav_drill: 'Drill', nav_mock: 'Mock', nav_ai: 'AI',
-    nav_vocab: 'Vocab', nav_kanji: 'Kanji', nav_grammar: 'Grammar',
+    nav_vocab: 'Vocab', nav_kanji: 'Kanji', nav_new_kanji: 'New Kanji', nav_grammar: 'Grammar',
     // Onboarding
     onboarding_welcome: 'Welcome to Fujisan.AI',
     onboarding_welcome_desc: 'Your AI-powered JLPT tutor. Master Japanese with personalized learning.',
@@ -82,7 +82,7 @@ const UI_TEXTS = {
   },
   'zh-TW': {
     nav_drill: '練習', nav_mock: '模擬', nav_ai: 'AI',
-    nav_vocab: '單字', nav_kanji: '漢字', nav_grammar: '文法',
+    nav_vocab: '單字', nav_kanji: '漢字', nav_new_kanji: '新出漢字', nav_grammar: '文法',
     onboarding_welcome: '歡迎使用 Fujisan.AI',
     onboarding_welcome_desc: '您的AI日語學習夥伴。透過個人化學習掌握日語。',
     onboarding_goal: '您的目標是什麼？',
@@ -146,7 +146,7 @@ const UI_TEXTS = {
   },
   'zh-CN': {
     nav_drill: '练习', nav_mock: '模拟', nav_ai: 'AI',
-    nav_vocab: '单词', nav_kanji: '汉字', nav_grammar: '语法',
+    nav_vocab: '单词', nav_kanji: '汉字', nav_new_kanji: '新出汉字', nav_grammar: '语法',
     onboarding_welcome: '欢迎使用 Fujisan.AI',
     onboarding_welcome_desc: '您的AI日语学习伙伴。通过个性化学习掌握日语。',
     onboarding_goal: '您的目标是什么？',
@@ -210,7 +210,7 @@ const UI_TEXTS = {
   },
   ko: {
     nav_drill: '연습', nav_mock: '모의', nav_ai: 'AI',
-    nav_vocab: '단어', nav_kanji: '한자', nav_grammar: '문법',
+    nav_vocab: '단어', nav_kanji: '한자', nav_new_kanji: '새 한자', nav_grammar: '문법',
     onboarding_welcome: 'Fujisan.AI에 오신 것을 환영합니다',
     onboarding_welcome_desc: 'AI 기반 JLPT 튜터. 맞춤형 학습으로 일본어를 마스터하세요.',
     onboarding_goal: '목표가 무엇인가요?',
@@ -274,7 +274,7 @@ const UI_TEXTS = {
   },
   vi: {
     nav_drill: 'Luyện tập', nav_mock: 'Thi thử', nav_ai: 'AI',
-    nav_vocab: 'Từ vựng', nav_kanji: 'Kanji', nav_grammar: 'Ngữ pháp',
+    nav_vocab: 'Từ vựng', nav_kanji: 'Kanji', nav_new_kanji: 'Kanji mới', nav_grammar: 'Ngữ pháp',
     onboarding_welcome: 'Chào mừng đến với Fujisan.AI',
     onboarding_welcome_desc: 'Gia sư JLPT AI của bạn. Làm chủ tiếng Nhật với học tập cá nhân hóa.',
     onboarding_goal: 'Mục tiêu của bạn là gì?',
@@ -354,11 +354,11 @@ const MOCK_QUESTIONS = { full: 91, moji: 35, bunpou: 32, choukai: 24 };
 // Unit system: 22 items per unit (15 min @ 4 questions per item)
 const ITEMS_PER_UNIT = 22;
 const TOTAL_ITEMS = {
-  N5: 980,   // 800 vocab + 100 kanji + 80 grammar
-  N4: 1020,  // 700 vocab + 200 kanji + 120 grammar
-  N3: 2636,  // 2186 vocab + 350 kanji + 100 grammar
-  N2: 3052,  // 2500 vocab + 352 kanji + 200 grammar
-  N1: 2669   // 1969 vocab + 500 kanji + 200 grammar
+  N5: 1024,  // 800 vocab + 144 kanji + 80 grammar
+  N4: 1947,  // 1500 vocab + 247 kanji + 200 grammar
+  N3: 4777,  // 3750 vocab + 577 kanji + 450 grammar
+  N2: 6913,  // 6000 vocab + 663 kanji + 250 grammar
+  N1: 10775  // 10000 vocab + 575 kanji + 200 grammar
 };
 const SKILL_TYPES = ['listening', 'reading', 'meaning', 'writing'];
 
@@ -635,7 +635,9 @@ let state = {
   passBonusExpiry: null,
   // PWA
   pwaDismissed: false,
-  onboardingComplete: false
+  onboardingComplete: false,
+  // SRS (Spaced Repetition System)
+  srs: {} // { "N5_vocab_V0001": { interval, ease, nextReview, reviewCount, lastReview }, ... }
 };
 let session = { mode: null, questions: [], current: 0, correct: 0, wrong: 0, startTime: null, answers: [], currentItem: null, currentSkillIndex: 0 };
 let currentWord = '';
@@ -847,9 +849,23 @@ function updateReviewHeaderButton() {
   const categoryKey = getCategoryKey();
   const mistakeCount = (state.mistakes && state.mistakes[categoryKey]) ? state.mistakes[categoryKey].length : 0;
   
-  if (mistakeCount > 0 && session.mode !== 'review') {
+  // Get SRS due count for current level/category
+  const srsDueCount = getSrsDueCount();
+  const totalCount = Math.max(mistakeCount, srsDueCount);
+  
+  if (totalCount > 0 && session.mode !== 'review') {
     btn.style.display = 'block';
-    if (countEl) countEl.textContent = mistakeCount;
+    if (countEl) {
+      countEl.textContent = totalCount;
+      // Highlight if SRS items are due
+      if (srsDueCount > 0) {
+        countEl.style.background = '#ff9500'; // Orange for SRS due
+        countEl.title = `${srsDueCount} items due for spaced review`;
+      } else {
+        countEl.style.background = '#ff3b30'; // Red for mistakes
+        countEl.title = `${mistakeCount} mistakes to review`;
+      }
+    }
   } else {
     btn.style.display = 'none';
   }
@@ -1186,11 +1202,23 @@ function updateDrillCounts() {
   // Update category names based on language
   updateCategoryNames();
   
-  // Update review count
+  // Update review count with SRS info
   const categoryKey = getCategoryKey();
   const mistakeCount = (state.mistakes[categoryKey] || []).length;
+  const srsDueCount = getSrsDueCount();
   const reviewCountEl = document.getElementById('review-count');
-  if (reviewCountEl) reviewCountEl.textContent = `Mistakes (${mistakeCount})`;
+  if (reviewCountEl) {
+    if (srsDueCount > 0) {
+      reviewCountEl.innerHTML = `<span style="color:#ff9500;">📅 Due (${srsDueCount})</span>`;
+    } else if (mistakeCount > 0) {
+      reviewCountEl.textContent = `Mistakes (${mistakeCount})`;
+    } else {
+      reviewCountEl.textContent = `Review`;
+    }
+  }
+  
+  // Update SRS stats display if element exists
+  updateSrsDisplay();
   
   // Update progress card
   updateProgressCard();
@@ -1304,7 +1332,7 @@ function updateUITexts() {
   
   // Category buttons
   document.querySelectorAll('.category-btn[data-cat="vocab"] .category-name').forEach(el => el.textContent = texts.nav_vocab);
-  document.querySelectorAll('.category-btn[data-cat="kanji"] .category-name').forEach(el => el.textContent = texts.nav_kanji);
+  document.querySelectorAll('.category-btn[data-cat="kanji"] .category-name').forEach(el => el.textContent = texts.nav_new_kanji);
   document.querySelectorAll('.category-btn[data-cat="grammar"] .category-name').forEach(el => el.textContent = texts.nav_grammar);
   
   // Onboarding
@@ -1656,6 +1684,196 @@ function getMistakeItems(pool) {
   return pool.filter(item => mistakeIds.includes(item.id));
 }
 
+// ========== SRS (Spaced Repetition System) ==========
+
+// Get SRS key for an item
+function getSrsKey(item) {
+  return `${state.level}_${state.category}_${item.id}`;
+}
+
+// Initialize SRS data for an item (first time wrong)
+function initSrsItem(item) {
+  const key = getSrsKey(item);
+  if (!state.srs) state.srs = {};
+  if (!state.srs[key]) {
+    state.srs[key] = {
+      interval: 1,
+      ease: 2.5,
+      nextReview: getTodayString(),
+      reviewCount: 0,
+      lastReview: null
+    };
+  }
+  return state.srs[key];
+}
+
+// Get today's date as string (YYYY-MM-DD)
+function getTodayString() {
+  return new Date().toISOString().split('T')[0];
+}
+
+// Update SRS after answering (SM-2 algorithm simplified)
+function updateSrs(item, isCorrect) {
+  const key = getSrsKey(item);
+  if (!state.srs) state.srs = {};
+  
+  let srsData = state.srs[key];
+  if (!srsData) {
+    // First time seeing this item
+    if (!isCorrect) {
+      // Only track items user got wrong
+      srsData = initSrsItem(item);
+    } else {
+      return; // Don't track items user got correct first time
+    }
+  }
+  
+  const today = getTodayString();
+  srsData.lastReview = today;
+  srsData.reviewCount++;
+  
+  if (isCorrect) {
+    // Correct: increase interval
+    if (srsData.interval === 1) {
+      srsData.interval = 3; // 1 day → 3 days
+    } else {
+      srsData.interval = Math.round(srsData.interval * srsData.ease);
+    }
+    // Cap at 180 days
+    srsData.interval = Math.min(srsData.interval, 180);
+    
+    // Slightly increase ease (max 3.0)
+    srsData.ease = Math.min(srsData.ease + 0.1, 3.0);
+  } else {
+    // Wrong: reset interval, decrease ease
+    srsData.interval = 1;
+    srsData.ease = Math.max(srsData.ease - 0.2, 1.3);
+  }
+  
+  // Calculate next review date
+  const nextDate = new Date();
+  nextDate.setDate(nextDate.getDate() + srsData.interval);
+  srsData.nextReview = nextDate.toISOString().split('T')[0];
+  
+  state.srs[key] = srsData;
+  saveState();
+}
+
+// Get items due for review today (across all categories for current level)
+function getSrsDueItems(pool) {
+  if (!state.srs) return [];
+  
+  const today = getTodayString();
+  const dueItems = [];
+  
+  pool.forEach(item => {
+    const key = getSrsKey(item);
+    const srsData = state.srs[key];
+    if (srsData && srsData.nextReview <= today) {
+      dueItems.push({ item, srsData });
+    }
+  });
+  
+  // Sort by overdue days (most overdue first)
+  dueItems.sort((a, b) => {
+    return a.srsData.nextReview.localeCompare(b.srsData.nextReview);
+  });
+  
+  return dueItems.map(d => d.item);
+}
+
+// Get count of items due for review today for current level/category
+function getSrsDueCount() {
+  if (!state.srs) return 0;
+  
+  const today = getTodayString();
+  const prefix = `${state.level}_${state.category}_`;
+  
+  return Object.entries(state.srs).filter(([key, data]) => {
+    return key.startsWith(prefix) && data.nextReview <= today;
+  }).length;
+}
+
+// Get total SRS due count for current level (all categories)
+function getTotalSrsDueCount() {
+  if (!state.srs) return 0;
+  
+  const today = getTodayString();
+  const prefix = `${state.level}_`;
+  
+  return Object.entries(state.srs).filter(([key, data]) => {
+    return key.startsWith(prefix) && data.nextReview <= today;
+  }).length;
+}
+
+// Get SRS stats for display
+function getSrsStats() {
+  if (!state.srs) return { total: 0, dueToday: 0, mastered: 0 };
+  
+  const today = getTodayString();
+  const prefix = `${state.level}_`;
+  
+  let total = 0;
+  let dueToday = 0;
+  let mastered = 0; // interval >= 30 days
+  
+  Object.entries(state.srs).forEach(([key, data]) => {
+    if (key.startsWith(prefix)) {
+      total++;
+      if (data.nextReview <= today) dueToday++;
+      if (data.interval >= 30) mastered++;
+    }
+  });
+  
+  return { total, dueToday, mastered };
+}
+
+// Update SRS display on dashboard
+function updateSrsDisplay() {
+  const srsContainer = document.getElementById('srs-stats-container');
+  if (!srsContainer) return;
+  
+  const stats = getSrsStats();
+  const totalDue = getTotalSrsDueCount();
+  
+  if (stats.total === 0 && totalDue === 0) {
+    srsContainer.style.display = 'none';
+    return;
+  }
+  
+  srsContainer.style.display = 'block';
+  
+  const lang = state.lang || 'en';
+  const labels = {
+    en: { due: 'Due Today', learning: 'Learning', mastered: 'Mastered' },
+    'zh-TW': { due: '今日複習', learning: '學習中', mastered: '已掌握' },
+    'zh-CN': { due: '今日复习', learning: '学习中', mastered: '已掌握' },
+    ko: { due: '오늘 복습', learning: '학습 중', mastered: '마스터' },
+    vi: { due: 'Hôm nay', learning: 'Đang học', mastered: 'Thành thạo' },
+    id: { due: 'Hari ini', learning: 'Sedang belajar', mastered: 'Dikuasai' }
+  };
+  const l = labels[lang] || labels.en;
+  
+  srsContainer.innerHTML = `
+    <div class="srs-stats">
+      <div class="srs-stat ${totalDue > 0 ? 'srs-due' : ''}">
+        <span class="srs-stat-value">${totalDue}</span>
+        <span class="srs-stat-label">${l.due}</span>
+      </div>
+      <div class="srs-stat">
+        <span class="srs-stat-value">${stats.total - stats.mastered}</span>
+        <span class="srs-stat-label">${l.learning}</span>
+      </div>
+      <div class="srs-stat srs-mastered">
+        <span class="srs-stat-value">${stats.mastered}</span>
+        <span class="srs-stat-label">${l.mastered}</span>
+      </div>
+    </div>
+  `;
+}
+
+// ========== END SRS ==========
+
 async function startDrill() {
   // Require valid plan or trial
   if (!hasValidPlan() && !isInTrialPeriod()) {
@@ -1781,16 +1999,32 @@ async function startReview() {
   }
   
   const pool = getPool();
-  const mistakeItems = getMistakeItems(pool);
   
-  if (mistakeItems.length === 0) {
-    alert('No mistakes to review! Great job!');
+  // Get SRS due items first, then fall back to mistakes
+  let reviewItems = getSrsDueItems(pool);
+  
+  // If no SRS items, use traditional mistakes
+  if (reviewItems.length === 0) {
+    reviewItems = getMistakeItems(pool);
+  }
+  
+  if (reviewItems.length === 0) {
+    const lang = state.lang || 'en';
+    const messages = {
+      en: 'No items to review! Great job! 🎉',
+      'zh-TW': '沒有需要復習的項目！做得好！🎉',
+      'zh-CN': '没有需要复习的项目！做得好！🎉',
+      ko: '복습할 항목이 없습니다! 잘했어요! 🎉',
+      vi: 'Không có mục nào cần ôn tập! Tuyệt vời! 🎉',
+      id: 'Tidak ada item untuk ditinjau! Bagus! 🎉'
+    };
+    alert(messages[lang] || messages.en);
     return;
   }
   
   // Create question queue with shuffle
   const questionQueue = [];
-  mistakeItems.forEach((item, itemIndex) => {
+  reviewItems.forEach((item, itemIndex) => {
     SKILL_TYPES.forEach((skill, skillIndex) => {
       questionQueue.push({ item, itemIndex, skill, skillIndex });
     });
@@ -1800,7 +2034,7 @@ async function startReview() {
   
   session = { 
     mode: 'review', 
-    items: mistakeItems,
+    items: reviewItems,
     questionQueue: shuffledQueue,
     currentQuestionIndex: 0,
     currentItemIndex: 0,
@@ -1812,7 +2046,10 @@ async function startReview() {
     itemResults: {}
   };
   
-  document.getElementById('quiz-title').textContent = '🔄 Review';
+  // Show SRS badge count if available
+  const srsDue = getSrsDueCount();
+  const title = srsDue > 0 ? `🔄 Review (${srsDue} due)` : '🔄 Review';
+  document.getElementById('quiz-title').textContent = title;
   showScreen('quiz');
   showLearningQuestion();
 }
@@ -2162,6 +2399,9 @@ function selectLearningAnswer(btn, selected, correct, item, skill) {
       state.mistakes[categoryKey].push(item.id);
     }
   }
+  
+  // Update SRS (Spaced Repetition System)
+  updateSrs(item, isCorrect);
   
   state.totalAnswered++;
   trackDailyActivity();

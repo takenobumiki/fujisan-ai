@@ -1,10 +1,9 @@
-// Fujisan.AI N5 Grammar Data
-// Version: 1.0.0
+// Fujisan.AI Data
 // Count: 80
 
 const N5_GRAMMAR = [
   {
-    "id": "G001",
+    "id": "G0001",
     "p": "〜は〜です",
     "m": {
       "en": "X is Y",
@@ -25,7 +24,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G002",
+    "id": "G0002",
     "p": "〜は〜じゃないです",
     "m": {
       "en": "X is not Y",
@@ -46,7 +45,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G003",
+    "id": "G0003",
     "p": "〜は〜ですか",
     "m": {
       "en": "Is X Y?",
@@ -67,7 +66,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G004",
+    "id": "G0004",
     "p": "〜も",
     "m": {
       "en": "also/too",
@@ -88,7 +87,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G005",
+    "id": "G0005",
     "p": "〜の",
     "m": {
       "en": "possessive",
@@ -109,7 +108,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G006",
+    "id": "G0006",
     "p": "〜に",
     "m": {
       "en": "to/at (location)",
@@ -130,7 +129,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G007",
+    "id": "G0007",
     "p": "〜で",
     "m": {
       "en": "at/by means of",
@@ -151,7 +150,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G008",
+    "id": "G0008",
     "p": "〜を",
     "m": {
       "en": "object marker",
@@ -172,7 +171,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G009",
+    "id": "G0009",
     "p": "〜が",
     "m": {
       "en": "subject marker",
@@ -193,7 +192,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G010",
+    "id": "G0010",
     "p": "〜と",
     "m": {
       "en": "and/with",
@@ -214,7 +213,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G011",
+    "id": "G0011",
     "p": "〜から〜まで",
     "m": {
       "en": "from...to...",
@@ -235,7 +234,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G012",
+    "id": "G0012",
     "p": "〜ます",
     "m": {
       "en": "polite verb ending",
@@ -256,7 +255,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G013",
+    "id": "G0013",
     "p": "〜ません",
     "m": {
       "en": "polite negative",
@@ -277,7 +276,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G014",
+    "id": "G0014",
     "p": "〜ました",
     "m": {
       "en": "polite past",
@@ -298,7 +297,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G015",
+    "id": "G0015",
     "p": "〜ませんでした",
     "m": {
       "en": "polite past negative",
@@ -319,7 +318,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G016",
+    "id": "G0016",
     "p": "〜ましょう",
     "m": {
       "en": "let's...",
@@ -340,7 +339,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G017",
+    "id": "G0017",
     "p": "〜たい",
     "m": {
       "en": "want to...",
@@ -361,7 +360,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G018",
+    "id": "G0018",
     "p": "〜てください",
     "m": {
       "en": "please do...",
@@ -382,7 +381,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G019",
+    "id": "G0019",
     "p": "〜ている",
     "m": {
       "en": "be doing...",
@@ -403,7 +402,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G020",
+    "id": "G0020",
     "p": "〜てもいい",
     "m": {
       "en": "may/can...",
@@ -424,7 +423,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G021",
+    "id": "G0021",
     "p": "〜てはいけない",
     "m": {
       "en": "must not...",
@@ -445,7 +444,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G022",
+    "id": "G0022",
     "p": "〜なければならない",
     "m": {
       "en": "must...",
@@ -466,7 +465,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G023",
+    "id": "G0023",
     "p": "〜ことができる",
     "m": {
       "en": "can...",
@@ -487,7 +486,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G024",
+    "id": "G0024",
     "p": "〜たことがある",
     "m": {
       "en": "have done...",
@@ -508,7 +507,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G025",
+    "id": "G0025",
     "p": "〜前に",
     "m": {
       "en": "before...",
@@ -529,7 +528,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G026",
+    "id": "G0026",
     "p": "〜後で",
     "m": {
       "en": "after...",
@@ -550,7 +549,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G027",
+    "id": "G0027",
     "p": "〜ながら",
     "m": {
       "en": "while...",
@@ -571,7 +570,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G028",
+    "id": "G0028",
     "p": "〜たり〜たりする",
     "m": {
       "en": "do things like...",
@@ -592,7 +591,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G029",
+    "id": "G0029",
     "p": "〜のが好き",
     "m": {
       "en": "like doing...",
@@ -613,7 +612,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G030",
+    "id": "G0030",
     "p": "〜のが上手",
     "m": {
       "en": "good at...",
@@ -634,7 +633,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G031",
+    "id": "G0031",
     "p": "〜つもり",
     "m": {
       "en": "intend to...",
@@ -655,7 +654,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G032",
+    "id": "G0032",
     "p": "〜ほうがいい",
     "m": {
       "en": "should...",
@@ -676,7 +675,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G033",
+    "id": "G0033",
     "p": "〜と思う",
     "m": {
       "en": "think that...",
@@ -697,7 +696,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G034",
+    "id": "G0034",
     "p": "〜と言う",
     "m": {
       "en": "say that...",
@@ -718,7 +717,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G035",
+    "id": "G0035",
     "p": "〜そうです",
     "m": {
       "en": "I heard...",
@@ -739,7 +738,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G036",
+    "id": "G0036",
     "p": "〜ようにする",
     "m": {
       "en": "try to...",
@@ -760,7 +759,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G037",
+    "id": "G0037",
     "p": "〜になる",
     "m": {
       "en": "become...",
@@ -781,7 +780,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G038",
+    "id": "G0038",
     "p": "〜にする",
     "m": {
       "en": "decide on...",
@@ -802,7 +801,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G039",
+    "id": "G0039",
     "p": "〜くなる",
     "m": {
       "en": "become (adj)",
@@ -823,7 +822,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G040",
+    "id": "G0040",
     "p": "〜すぎる",
     "m": {
       "en": "too much...",
@@ -844,7 +843,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G041",
+    "id": "G0041",
     "p": "〜てから",
     "m": {
       "en": "after doing",
@@ -865,7 +864,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G042",
+    "id": "G0042",
     "p": "〜前に",
     "m": {
       "en": "before",
@@ -886,7 +885,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G043",
+    "id": "G0043",
     "p": "〜後で",
     "m": {
       "en": "after",
@@ -907,7 +906,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G044",
+    "id": "G0044",
     "p": "〜時",
     "m": {
       "en": "when",
@@ -928,7 +927,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G045",
+    "id": "G0045",
     "p": "〜ながら",
     "m": {
       "en": "while doing",
@@ -949,7 +948,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G046",
+    "id": "G0046",
     "p": "〜たり〜たり",
     "m": {
       "en": "doing things like",
@@ -970,7 +969,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G047",
+    "id": "G0047",
     "p": "〜し〜し",
     "m": {
       "en": "and also",
@@ -991,7 +990,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G048",
+    "id": "G0048",
     "p": "〜のに",
     "m": {
       "en": "although",
@@ -1012,7 +1011,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G049",
+    "id": "G0049",
     "p": "〜ても",
     "m": {
       "en": "even if",
@@ -1033,7 +1032,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G050",
+    "id": "G0050",
     "p": "〜たら",
     "m": {
       "en": "if/when",
@@ -1054,7 +1053,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G051",
+    "id": "G0051",
     "p": "〜ば",
     "m": {
       "en": "if",
@@ -1075,7 +1074,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G052",
+    "id": "G0052",
     "p": "〜なら",
     "m": {
       "en": "if it's",
@@ -1096,7 +1095,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G053",
+    "id": "G0053",
     "p": "〜そうだ(様態)",
     "m": {
       "en": "looks like",
@@ -1117,7 +1116,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G054",
+    "id": "G0054",
     "p": "〜そうだ(伝聞)",
     "m": {
       "en": "I heard that",
@@ -1138,7 +1137,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G055",
+    "id": "G0055",
     "p": "〜ようだ",
     "m": {
       "en": "seems like",
@@ -1159,7 +1158,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G056",
+    "id": "G0056",
     "p": "〜らしい",
     "m": {
       "en": "apparently",
@@ -1180,7 +1179,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G057",
+    "id": "G0057",
     "p": "〜かもしれない",
     "m": {
       "en": "might",
@@ -1201,7 +1200,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G058",
+    "id": "G0058",
     "p": "〜はずだ",
     "m": {
       "en": "should be",
@@ -1222,7 +1221,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G059",
+    "id": "G0059",
     "p": "〜つもりだ",
     "m": {
       "en": "intend to",
@@ -1243,7 +1242,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G060",
+    "id": "G0060",
     "p": "〜ことにする",
     "m": {
       "en": "decide to",
@@ -1264,7 +1263,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G061",
+    "id": "G0061",
     "p": "〜ことになる",
     "m": {
       "en": "it's been decided",
@@ -1285,7 +1284,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G062",
+    "id": "G0062",
     "p": "〜ようにする",
     "m": {
       "en": "try to",
@@ -1306,7 +1305,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G063",
+    "id": "G0063",
     "p": "〜ようになる",
     "m": {
       "en": "come to be able",
@@ -1327,7 +1326,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G064",
+    "id": "G0064",
     "p": "〜てしまう",
     "m": {
       "en": "end up doing",
@@ -1348,7 +1347,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G065",
+    "id": "G0065",
     "p": "〜ておく",
     "m": {
       "en": "do in advance",
@@ -1369,7 +1368,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G066",
+    "id": "G0066",
     "p": "〜てある",
     "m": {
       "en": "has been done",
@@ -1390,7 +1389,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G067",
+    "id": "G0067",
     "p": "〜ている(状態)",
     "m": {
       "en": "is in state",
@@ -1411,7 +1410,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G068",
+    "id": "G0068",
     "p": "〜てくる",
     "m": {
       "en": "come to do",
@@ -1432,7 +1431,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G069",
+    "id": "G0069",
     "p": "〜ていく",
     "m": {
       "en": "go on doing",
@@ -1453,7 +1452,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G070",
+    "id": "G0070",
     "p": "〜てみる",
     "m": {
       "en": "try doing",
@@ -1474,7 +1473,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G071",
+    "id": "G0071",
     "p": "〜てほしい",
     "m": {
       "en": "want someone to",
@@ -1495,7 +1494,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G072",
+    "id": "G0072",
     "p": "〜てあげる",
     "m": {
       "en": "do for someone",
@@ -1516,7 +1515,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G073",
+    "id": "G0073",
     "p": "〜てもらう",
     "m": {
       "en": "have someone do",
@@ -1537,7 +1536,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G074",
+    "id": "G0074",
     "p": "〜てくれる",
     "m": {
       "en": "someone does for me",
@@ -1558,7 +1557,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G075",
+    "id": "G0075",
     "p": "〜させる",
     "m": {
       "en": "make/let do",
@@ -1579,7 +1578,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G076",
+    "id": "G0076",
     "p": "〜れる/られる(受身)",
     "m": {
       "en": "passive",
@@ -1600,7 +1599,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G077",
+    "id": "G0077",
     "p": "〜れる/られる(可能)",
     "m": {
       "en": "can do",
@@ -1621,7 +1620,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G078",
+    "id": "G0078",
     "p": "〜れる/られる(尊敬)",
     "m": {
       "en": "honorific",
@@ -1642,7 +1641,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G079",
+    "id": "G0079",
     "p": "〜ないでください",
     "m": {
       "en": "please don't",
@@ -1663,7 +1662,7 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G080",
+    "id": "G0080",
     "p": "〜なければならない",
     "m": {
       "en": "must do",

@@ -941,3 +941,87 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
 .mock-set-select option[style*="color: rgb(255, 149, 0)"] {
   font-weight: 500;
 }
+
+/* ========== SRS (Spaced Repetition System) Styles ========== */
+.srs-stats-container {
+  margin: 16px 0;
+  padding: 16px;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+  border-radius: 16px;
+  border: 1px solid rgba(102, 126, 234, 0.2);
+}
+
+.srs-stats {
+  display: flex;
+  justify-content: space-around;
+  gap: 12px;
+}
+
+.srs-stat {
+  text-align: center;
+  flex: 1;
+  padding: 8px;
+  background: var(--card);
+  border-radius: 12px;
+  transition: transform 0.2s ease;
+}
+
+.srs-stat:hover {
+  transform: translateY(-2px);
+}
+
+.srs-stat-value {
+  display: block;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.2;
+}
+
+.srs-stat-label {
+  display: block;
+  font-size: 11px;
+  color: var(--secondary);
+  margin-top: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.srs-stat.srs-due {
+  background: linear-gradient(135deg, #ff9500 0%, #ffcc00 100%);
+  animation: srs-pulse 2s infinite;
+}
+
+.srs-stat.srs-due .srs-stat-value,
+.srs-stat.srs-due .srs-stat-label {
+  color: #fff;
+}
+
+.srs-stat.srs-mastered {
+  background: linear-gradient(135deg, rgba(52, 199, 89, 0.15) 0%, rgba(48, 209, 88, 0.15) 100%);
+}
+
+.srs-stat.srs-mastered .srs-stat-value {
+  color: #34c759;
+}
+
+@keyframes srs-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(255, 149, 0, 0.4); }
+  50% { box-shadow: 0 0 0 8px rgba(255, 149, 0, 0); }
+}
+
+/* SRS Review Header Badge */
+.review-header-btn #review-header-count {
+  transition: background 0.3s ease;
+}
+
+/* Dark mode adjustments */
+@media (prefers-color-scheme: dark) {
+  .srs-stats-container {
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.15) 0%, rgba(118, 75, 162, 0.15) 100%);
+  }
+  
+  .srs-stat {
+    background: rgba(255, 255, 255, 0.05);
+  }
+}
