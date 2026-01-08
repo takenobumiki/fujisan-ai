@@ -3036,7 +3036,7 @@ function showMockQuestion() {
   optionsDiv.innerHTML = '';
   
   const labels = ['A', 'B', 'C', 'D'];
-  q.opts.forEach((opt, idx) => {
+  (q.opts || q.options).forEach((opt, idx) => {
     if (!opt) return; // Skip empty options
     
     const btn = document.createElement('button');
