@@ -3000,14 +3000,14 @@ function showMockQuestion() {
   
   // Update section header
   document.getElementById('mockSectionCurrent').textContent = q.section;
-  document.getElementById('mockSubsectionCurrent').textContent = q.subsection.replace('_', ' ');
+  document.getElementById('mockSubsectionCurrent').textContent = (q.subsection || q.type || '').replace('_', ' ');
   
   // Get instruction based on subsection
-  const instruction = getMockInstruction(q.subsection);
+  const instruction = getMockInstruction(q.subsection || q.type);
   document.getElementById('mock-instruction').innerHTML = instruction;
   
   // Show question text
-  const questionText = q.q.replace(/<u>/g, '<u>').replace(/<\/u>/g, '</u>');
+  const questionText = (q.q || q.text || '').replace(/<u>/g, '<u>').replace(/<\/u>/g, '</u>');
   document.getElementById('mock-question-text').innerHTML = questionText;
   
   // Handle audio for listening section
