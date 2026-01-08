@@ -3023,9 +3023,23 @@ function showMockQuestion() {
   
   if (isListening) {
     // 聴解問題：テキスト非表示、TTSボタン表示
-    questionTextEl.innerHTML = '<div style="text-align:center;padding:20px;color:#666;">🎧 音声を再生してください</div>';
+    const listeningMsg = {
+      en: '🎧 Press play to listen',
+      ja: '🎧 音声を再生してください',
+      zh: '🎧 请点击播放音频',
+      ko: '🎧 재생을 눌러 들으세요',
+      vi: '🎧 Nhấn phát để nghe',
+      th: '🎧 กดเล่นเพื่อฟัง',
+      id: '🎧 Tekan putar untuk mendengarkan',
+      es: '🎧 Presiona reproducir para escuchar',
+      fr: '🎧 Appuyez sur lecture pour écouter',
+      pt: '🎧 Pressione play para ouvir'
+    };
+    const lang = localStorage.getItem('fujisan_lang') || (state && state.lang) || 'en';
+    const msg = listeningMsg[lang] || listeningMsg['en'];
+    questionTextEl.innerHTML = '<div style="text-align:center;padding:20px;color:#666;">' + msg + '</div>';
     audioBtn.classList.remove('hidden');
-    audioBtn.innerHTML = '🔊 音声を再生';
+    audioBtn.innerHTML = '🔊';
     audioBtn.onclick = () => playListeningTTS(q.q || q.text || '');
     audioEl.src = '';
   } else if (q.audio) {
@@ -3120,7 +3134,7 @@ function playListeningTTS(text) {
   function speakNext() {
     if (index >= lines.length) {
       if (audioBtn) {
-        audioBtn.innerHTML = '🔊 もう一度再生';
+        audioBtn.innerHTML = '🔊';
         audioBtn.disabled = false;
       }
       return;
@@ -3177,7 +3191,7 @@ function stopListeningTTS() {
   speechSynthesis.cancel();
   const audioBtn = document.getElementById('mockAudioBtn');
   if (audioBtn) {
-    audioBtn.innerHTML = '🔊 音声を再生';
+    audioBtn.innerHTML = '🔊';
     audioBtn.disabled = false;
   }
 }
