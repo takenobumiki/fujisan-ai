@@ -3037,7 +3037,20 @@ function showMockQuestion() {
     };
     const lang = localStorage.getItem('fujisan_lang') || (state && state.lang) || 'en';
     const msg = listeningMsg[lang] || listeningMsg['en'];
-    questionTextEl.innerHTML = '<div style="text-align:center;padding:20px;color:#666;">' + msg + '</div>';
+    
+    // 会話形式（おとこ：/おんな：を含む）の場合はイラストを表示
+    const questionContent = q.q || q.text || '';
+    const isConversation = questionContent.includes('おとこ：') || questionContent.includes('おんな：') || 
+                           questionContent.includes('男：') || questionContent.includes('女：');
+    
+    if (isConversation) {
+      questionTextEl.innerHTML = '<div style="text-align:center;padding:10px;">' +
+        '<img src="images/mock/conversation.png" alt="会話" style="max-width:280px;width:100%;margin-bottom:10px;">' +
+        '<div style="color:#666;">' + msg + '</div></div>';
+    } else {
+      questionTextEl.innerHTML = '<div style="text-align:center;padding:20px;color:#666;">' + msg + '</div>';
+    }
+    
     audioBtn.classList.remove('hidden');
     audioBtn.innerHTML = '🔊';
     audioBtn.onclick = () => playListeningTTS(q.q || q.text || '');
