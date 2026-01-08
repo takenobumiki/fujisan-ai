@@ -3179,10 +3179,10 @@ function playListeningTTS(text) {
     if (japaneseVoices.length > 0) {
       if (isMale) {
         utterance.voice = japaneseVoices[0];
-        utterance.pitch = 0.8;
+        utterance.pitch = 1.0;
       } else if (isFemale) {
         utterance.voice = japaneseVoices[japaneseVoices.length > 1 ? 1 : 0];
-        utterance.pitch = 1.3;
+        utterance.pitch = 1.15;
       } else {
         utterance.voice = japaneseVoices[0];
       }
