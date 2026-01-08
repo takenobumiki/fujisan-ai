@@ -1025,3 +1025,18 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
     background: rgba(255, 255, 255, 0.05);
   }
 }
+
+/* Mock Test Option Button Selected State */
+.option-btn.selected {
+  border-color: #2563eb;
+  background: #dbeafe;
+}
+.option-btn.correct {
+  border-color: #22c55e;
+  background: #dcfce7;
+}
+.option-btn.incorrect {
+  border-color: #ef4444;
+  background: #fee2e2;
+}
+
