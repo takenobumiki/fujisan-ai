@@ -3046,8 +3046,9 @@ function showMockQuestion() {
     if (mockState.answers[q.id]) {
       btn.onclick = null;
       const answer = mockState.answers[q.id];
-      if (labels[idx] === answer.correct) btn.classList.add('correct');
-      if (labels[idx] === answer.selected && !answer.isCorrect) btn.classList.add('incorrect');
+      const correctLabel = q.ans || labels[q.answer];
+      if (labels[idx] === correctLabel) btn.classList.add('correct');
+      if (labels[idx] === answer.selected && labels[idx] !== correctLabel) btn.classList.add('incorrect');
       if (labels[idx] === answer.selected) btn.classList.add('selected');
     } else {
       btn.onclick = () => selectMockAnswer(btn, labels[idx], q);
@@ -3060,6 +3061,29 @@ function showMockQuestion() {
   // Update navigation buttons
   document.getElementById('mockPrevBtn').disabled = mockState.current === 0;
   document.getElementById('mockNextBtn').textContent = mockState.current === mockState.questions.length - 1 ? 'Finish' : 'Next →';
+}
+
+
+// TTS再生関数 (N5聴解対応)
+function playTTS(text) {
+  if ('speechSynthesis' in window) {
+    speechSynthesis.cancel();
+    const cleanText = text.replace(/<[^>]*>/g, '');
+    const utterance = new SpeechSynthesisUtterance(cleanText);
+    utterance.lang = 'ja-JP';
+    utterance.rate = 0.9;
+    
+    const audioBtn = document.getElementById('mockAudioBtn');
+    if (audioBtn) {
+      utterance.onstart = () => {
+        audioBtn.innerHTML = '<svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg> 再生中...';
+      };
+      utterance.onend = () => {
+        audioBtn.innerHTML = '<svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg> もう一度';
+      };
+    }
+    speechSynthesis.speak(utterance);
+  }
 }
 
 function getMockInstruction(subsection) {
@@ -3140,19 +3164,19 @@ function showMockResult() {
   mockState.questions.forEach(q => {
     const answer = mockState.answers[q.id];
     if (answer) {
-      const isCorrect = answer.selected === q.ans;
+      const isCorrect = (answer.selected === q.ans || answer.selected === ['A','B','C','D'][q.answer]);
       if (isCorrect) {
         correct++;
         state.totalCorrect++;
       } else {
         wrong++;
-        wrongAnswers.push({ question: q, selected: answer.selected, correct: q.ans });
+        wrongAnswers.push({ question: q, selected: answer.selected, correct: q.ans || ['A','B','C','D'][q.answer] });
       }
       state.totalAnswered++;
     } else {
       // Unanswered = wrong
       wrong++;
-      wrongAnswers.push({ question: q, selected: null, correct: q.ans });
+      wrongAnswers.push({ question: q, selected: null, correct: q.ans || ['A','B','C','D'][q.answer] });
     }
   });
   
@@ -3199,7 +3223,7 @@ function showMockResult() {
     if (!sectionScores[section]) sectionScores[section] = { correct: 0, total: 0 };
     sectionScores[section].total++;
     const answer = mockState.answers[q.id];
-    if (answer && answer.selected === q.ans) sectionScores[section].correct++;
+    if (answer && (answer.selected === q.ans || answer.selected === ['A','B','C','D'][q.answer])) sectionScores[section].correct++;
   });
   
   let sectionHtml = '<div class="section-breakdown-title">📊 Section Breakdown</div>';
