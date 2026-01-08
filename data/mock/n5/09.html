@@ -471,6 +471,49 @@ body {
   color: #666;
 }
 
+
+/* 聴解問題：テキスト非表示、音声ボタン表示 */
+.listening-mode .question-text {
+  display: none;
+}
+.tts-container {
+  text-align: center;
+  padding: 30px 20px;
+  background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+.tts-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 20px 40px;
+  border-radius: 50px;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+  transition: all 0.3s;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.tts-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.5);
+}
+.tts-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.tts-btn .icon {
+  font-size: 24px;
+}
+.tts-status {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #666;
+}
+
 </style>
 </head>
 <body>
@@ -657,9 +700,78 @@ function updateTimer() {
 }
 
 // Render Question
+
+// TTS (Text-to-Speech) for listening questions
+let ttsUtterance = null;
+let isSpeaking = false;
+
+function speakText(text, onEnd) {
+  if ('speechSynthesis' in window) {
+    window.speechSynthesis.cancel();
+    ttsUtterance = new SpeechSynthesisUtterance(text);
+    ttsUtterance.lang = 'ja-JP';
+    ttsUtterance.rate = 0.9;
+    ttsUtterance.pitch = 1;
+    
+    ttsUtterance.onstart = () => {
+      isSpeaking = true;
+      updateTTSButton();
+    };
+    ttsUtterance.onend = () => {
+      isSpeaking = false;
+      updateTTSButton();
+      if (onEnd) onEnd();
+    };
+    ttsUtterance.onerror = () => {
+      isSpeaking = false;
+      updateTTSButton();
+    };
+    
+    window.speechSynthesis.speak(ttsUtterance);
+  } else {
+    alert('お使いのブラウザは音声読み上げに対応していません');
+  }
+}
+
+function stopTTS() {
+  if ('speechSynthesis' in window) {
+    window.speechSynthesis.cancel();
+    isSpeaking = false;
+    updateTTSButton();
+  }
+}
+
+function toggleTTS() {
+  if (isSpeaking) {
+    stopTTS();
+  } else {
+    const q = questions[currentQ];
+    // HTMLタグを除去してテキストを取得
+    const text = q.text.replace(/<br>/g, '\n').replace(/<[^>]*>/g, '');
+    speakText(text);
+  }
+}
+
+function updateTTSButton() {
+  const btn = document.getElementById('tts-btn');
+  const status = document.getElementById('tts-status');
+  if (btn) {
+    if (isSpeaking) {
+      btn.innerHTML = '<span class="icon">⏹️</span> 停止';
+      if (status) status.textContent = '再生中...';
+    } else {
+      btn.innerHTML = '<span class="icon">🔊</span> 音声を再生';
+      if (status) status.textContent = 'タップして問題を聞く';
+    }
+  }
+}
+
 function renderQuestion() {
   const q = questions[currentQ];
   const container = document.getElementById('question-container');
+  
+  // Stop any ongoing TTS
+  if (typeof stopTTS === 'function') stopTTS();
   
   // Progress
   document.getElementById('progress-fill').style.width = ((currentQ + 1) / questions.length * 100) + '%';
@@ -669,15 +781,23 @@ function renderQuestion() {
   document.getElementById('btn-prev').disabled = currentQ === 0;
   document.getElementById('btn-next').disabled = currentQ === questions.length - 1;
   
+  // Check if listening question (Q81-100, index 80-99)
+  const isListening = currentQ >= 80 && currentQ < 100;
+  
   // Question
   let html = '<div class="section-badge">' + (q.section || '問題') + '</div>';
   
-  // Audio button for listening
-  if (q.audio) {
-    html += '<button class="audio-btn" id="audio-btn" onclick="playAudio()">🔊 音声を再生</button>';
+  if (isListening) {
+    // 聴解問題：TTSボタンを表示、テキストは非表示
+    html += '<div class="tts-container">';
+    html += '<button class="tts-btn" id="tts-btn" onclick="toggleTTS()">';
+    html += '<span class="icon">🔊</span> 音声を再生</button>';
+    html += '<div class="tts-status" id="tts-status">タップして問題を聞く</div>';
+    html += '</div>';
+  } else {
+    // 通常問題：テキスト表示
+    html += '<div class="question-text">' + q.text + '</div>';
   }
-  
-  html += '<div class="question-text">' + q.text + '</div>';
   
   // アイコン表示（聴解問題でiconsがある場合）
   if (q.icons && q.icons.length === 4) {
