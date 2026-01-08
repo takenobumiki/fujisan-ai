@@ -3102,7 +3102,10 @@ function showMockQuestion() {
 function playTTS(text) {
   if ('speechSynthesis' in window) {
     speechSynthesis.cancel();
-    const cleanText = text.replace(/<[^>]*>/g, '');
+    // rubyタグは漢字部分だけ残す（ふりがなを除去）
+    const cleanText = text
+      .replace(/<ruby>([^<]*)<rt>[^<]*<\/rt><\/ruby>/g, '$1')
+      .replace(/<[^>]*>/g, '');
     const utterance = new SpeechSynthesisUtterance(cleanText);
     utterance.lang = 'ja-JP';
     utterance.rate = 0.9;
@@ -3130,8 +3133,10 @@ function playListeningTTS(text) {
   
   speechSynthesis.cancel();
   
-  // HTMLタグを除去
-  let cleanText = text.replace(/<[^>]*>/g, '');
+  // rubyタグは漢字部分だけ残す（ふりがなを除去）
+  let cleanText = text
+    .replace(/<ruby>([^<]*)<rt>[^<]*<\/rt><\/ruby>/g, '$1')
+    .replace(/<[^>]*>/g, '');
   
   // 会話を分割
   const lines = cleanText.split(/(?=おとこ：|おんな：|男：|女：)/);
@@ -3880,7 +3885,11 @@ function playAudio() {
 function playBrowserTTS(text) {
   if (!text) return;
   speechSynth.cancel();
-  const utterance = new SpeechSynthesisUtterance(text);
+  // rubyタグは漢字部分だけ残す（ふりがなを除去）
+  const cleanText = text
+    .replace(/<ruby>([^<]*)<rt>[^<]*<\/rt><\/ruby>/g, '$1')
+    .replace(/<[^>]*>/g, '');
+  const utterance = new SpeechSynthesisUtterance(cleanText);
   utterance.lang = 'ja-JP'; utterance.rate = 0.8;
   const voices = speechSynth.getVoices();
   const jpVoice = voices.find(v => v.lang.includes('ja'));
