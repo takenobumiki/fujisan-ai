@@ -3007,7 +3007,7 @@ function showMockQuestion() {
   document.getElementById('mock-instruction').innerHTML = instruction;
   
   // Show question text (聴解以外)
-  const isListeningSection = (q.section || '').includes('聴解');
+  const isListeningSection = (q.section || '').includes('聴解') && !(q.type || '').includes('読解');
   if (!isListeningSection) {
     const questionText = (q.q || q.text || '').replace(/<u>/g, '<u>').replace(/<\/u>/g, '</u>');
     document.getElementById('mock-question-text').innerHTML = questionText;
@@ -3019,7 +3019,7 @@ function showMockQuestion() {
   const questionTextEl = document.getElementById('mock-question-text');
   
   // N5聴解セクション判定
-  const isListening = (q.section || '').includes('聴解');
+  const isListening = (q.section || '').includes('聴解') && !(q.type || '').includes('読解');
   
   if (isListening) {
     // 聴解問題：テキスト非表示、TTSボタン表示
