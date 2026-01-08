@@ -1,5 +1,5 @@
 // N5 Mock Test Data - 20 Sets x 100 Questions = 2000 Questions
-// Auto-generated with Furigana v2
+// Auto-generated with Complete Furigana v3
 
 if (typeof MOCK_DATA === 'undefined') {
   var MOCK_DATA = {};
@@ -18,7 +18,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q1",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "きょうは <u>五月</u> <ruby>十日<rt>とおか</rt></ruby>です。<br><br>「五月」のよみかたは？",
+        "text": "きょうは <u>五月</u> <ruby><ruby>十<rt>じゅう</rt></ruby>日<rt>とおか</rt></ruby>です。<br><br>「五月」のよみかたは？",
         "options": [
           "ごがつ",
           "ごかつ",
@@ -551,7 +551,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q42",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "机の <ruby>上<rt>うえ</rt></ruby>に ほん（　　） ノートが あります。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>机<rt>つくえ</rt></ruby>の <ruby>上<rt>うえ</rt></ruby>に ほん（　　） ノートが あります。<br><br>（　）になにがはいりますか。",
         "options": [
           "に",
           "を",
@@ -629,7 +629,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q48",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "もう 晩ごはんを （　　）か。<br><br>（　）になにがはいりますか。",
+        "text": "もう <ruby>晩<rt>ばん</rt></ruby>ごはんを （　　）か。<br><br>（　）になにがはいりますか。",
         "options": [
           "たべました",
           "たべます",
@@ -785,7 +785,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q60",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "あねは <ruby>銀行<rt>ぎんこう</rt></ruby>（　　）はたらいています。<br><br>（　）になにがはいりますか。",
+        "text": "あねは <ruby>銀<ruby>行<rt>い</rt></ruby><rt>ぎんこう</rt></ruby>（　　）はたらいています。<br><br>（　）になにがはいりますか。",
         "options": [
           "で",
           "に",
@@ -798,7 +798,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q61",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（<ruby>手<rt>て</rt></ruby>紙の文）田<ruby>中<rt>なか</rt></ruby>さん、お<ruby>元気<rt>げんき</rt></ruby>ですか。わたしは 今 <ruby>日本<rt>にほん</rt></ruby>に います。<ruby>日本<rt>にほん</rt></ruby>は 今 冬です。（　）さむいです。でも、とても たのしいです。<br><br>（　）になにがはいりますか。",
+        "text": "（<ruby>手<rt>て</rt></ruby><ruby>紙<rt>かみ</rt></ruby>の文）<ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さん、お<ruby>元気<rt>げんき</rt></ruby>ですか。わたしは 今 <ruby>日本<rt>にほん</rt></ruby>に います。<ruby>日本<rt>にほん</rt></ruby>は 今 <ruby>冬<rt>ふゆ</rt></ruby>です。（　）さむいです。でも、とても たのしいです。<br><br>（　）になにがはいりますか。",
         "options": [
           "あまり",
           "とても",
@@ -811,7 +811,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q62",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（<ruby>手<rt>て</rt></ruby>紙の文）あしたは <ruby>日曜日<rt>にちようび</rt></ruby>です。わたしは <ruby>友<rt>とも</rt></ruby>だちと <ruby>山<rt>やま</rt></ruby>へ （　）。<br><br>（　）になにがはいりますか。",
+        "text": "（<ruby>手<rt>て</rt></ruby><ruby>紙<rt>かみ</rt></ruby>の文）あしたは <ruby>日曜日<rt>にちようび</rt></ruby>です。わたしは <ruby>友<rt>とも</rt></ruby>だちと <ruby>山<rt>やま</rt></ruby>へ （　）。<br><br>（　）になにがはいりますか。",
         "options": [
           "いきました",
           "いきたい",
@@ -824,7 +824,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q63",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（<ruby>手<rt>て</rt></ruby>紙の文）<ruby>山<rt>やま</rt></ruby>で 写真を たくさん （　）。<br><br>（　）になにがはいりますか。",
+        "text": "（<ruby>手<rt>て</rt></ruby><ruby>紙<rt>かみ</rt></ruby>の文）<ruby>山<rt>やま</rt></ruby>で <ruby>写真<rt>しゃしん</rt></ruby>を たくさん （　）。<br><br>（　）になにがはいりますか。",
         "options": [
           "かきます",
           "のみます",
@@ -837,7 +837,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q64",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（<ruby>手<rt>て</rt></ruby>紙の文）田<ruby>中<rt>なか</rt></ruby>さんも （　） <ruby>日本<rt>にほん</rt></ruby>へ 来てください。<br><br>（　）になにがはいりますか。",
+        "text": "（<ruby>手<rt>て</rt></ruby><ruby>紙<rt>かみ</rt></ruby>の文）<ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんも （　） <ruby>日本<rt>にほん</rt></ruby>へ <ruby>来<rt>く</rt></ruby>てください。<br><br>（　）になにがはいりますか。",
         "options": [
           "また",
           "まだ",
@@ -850,7 +850,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q65",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（<ruby>手<rt>て</rt></ruby>紙の文）では、さようなら。（　）<br><br>（　）になにがはいりますか。",
+        "text": "（<ruby>手<rt>て</rt></ruby><ruby>紙<rt>かみ</rt></ruby>の文）では、さようなら。（　）<br><br>（　）になにがはいりますか。",
         "options": [
           "おねがいします",
           "お元気で",
@@ -863,7 +863,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q66",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "わたしは 毎<ruby>朝<rt>あさ</rt></ruby> 七時に おきます。パンを たべて コーヒーを のみます。それから <ruby>学校<rt>がっこう</rt></ruby>へ いきます。<br><br>この<ruby>人<rt>ひと</rt></ruby>は <ruby>朝<rt>あさ</rt></ruby> なにを のみますか。",
+        "text": "わたしは <ruby>毎<ruby>朝<rt>あさ</rt></ruby><rt>まいあさ</rt></ruby> <ruby>七<rt>なな</rt></ruby><ruby>時<rt>とき</rt></ruby>に おきます。パンを たべて コーヒーを のみます。それから <ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>へ いきます。<br><br>この<ruby>人<rt>ひと</rt></ruby>は <ruby>朝<rt>あさ</rt></ruby> なにを のみますか。",
         "options": [
           "おちゃ",
           "みず",
@@ -876,7 +876,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q67",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "わたしの 家は <ruby>駅<rt>えき</rt></ruby>の <ruby>前<rt>まえ</rt></ruby>に あります。ちかくに <ruby>銀行<rt>ぎんこう</rt></ruby>と スーパーが あります。とても 便利です。<br><br>この<ruby>人<rt>ひと</rt></ruby>の 家は どこに ありますか。",
+        "text": "わたしの <ruby>家<rt>いえ</rt></ruby>は <ruby>駅<rt>えき</rt></ruby>の <ruby>前<rt>まえ</rt></ruby>に あります。ちかくに <ruby>銀<ruby>行<rt>い</rt></ruby><rt>ぎんこう</rt></ruby>と スーパーが あります。とても <ruby>便利<rt>べんり</rt></ruby>です。<br><br>この<ruby>人<rt>ひと</rt></ruby>の <ruby>家<rt>いえ</rt></ruby>は どこに ありますか。",
         "options": [
           "スーパーの 中",
           "銀行の 後ろ",
@@ -889,7 +889,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q68",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "きのう <ruby>友<rt>とも</rt></ruby>だちと <ruby>映画<rt>えいが</rt></ruby>を 見ました。とても おもしろかったです。でも、<ruby>映画<rt>えいが</rt></ruby>館は <ruby>人<rt>ひと</rt></ruby>が 多かったです。<br><br><ruby>映画<rt>えいが</rt></ruby>は どうでしたか。",
+        "text": "きのう <ruby>友<rt>とも</rt></ruby>だちと <ruby>映画<rt>えいが</rt></ruby>を <ruby>見<rt>み</rt></ruby>ました。とても おもしろかったです。でも、<ruby><ruby>映画<rt>えいが</rt></ruby><ruby>館<rt>かん</rt></ruby><rt>えいがかん</rt></ruby>は <ruby>人<rt>ひと</rt></ruby>が <ruby>多<rt>おお</rt></ruby>かったです。<br><br><ruby>映画<rt>えいが</rt></ruby>は どうでしたか。",
         "options": [
           "おもしろかった",
           "おもしろくなかった",
@@ -902,7 +902,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q69",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "あしたは <ruby>雨<rt>あめ</rt></ruby>です。テニスは しません。家で <ruby>本<rt>ほん</rt></ruby>を 読みます。<br><br>あした 何を しますか。",
+        "text": "あしたは <ruby>雨<rt>あめ</rt></ruby>です。テニスは しません。<ruby>家<rt>いえ</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みます。<br><br>あした <ruby>何<rt>なに</rt></ruby>を しますか。",
         "options": [
           "テニスをする",
           "買い物をする",
@@ -915,7 +915,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q70",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "リーさんは 英語が <ruby>上<rt>うえ</rt></ruby><ruby>手<rt>て</rt></ruby>です。<ruby><ruby>日本<rt>にほん</rt></ruby>語<rt>にほんご</rt></ruby>も 少し 話すことが できます。<br><br>リーさんは 何語が <ruby>上<rt>うえ</rt></ruby><ruby>手<rt>て</rt></ruby>ですか。",
+        "text": "リーさんは 英<ruby>語<rt>ご</rt></ruby>が <ruby><ruby>上<rt>うえ</rt></ruby><ruby>手<rt>て</rt></ruby><rt>じょうず</rt></ruby>です。<ruby><ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby><rt>にほんご</rt></ruby>も <ruby>少<rt>すく</rt></ruby>し <ruby>話<rt>はな</rt></ruby>すことが できます。<br><br>リーさんは <ruby>何<rt>なに</rt></ruby><ruby>語<rt>ご</rt></ruby>が <ruby><ruby>上<rt>うえ</rt></ruby><ruby>手<rt>て</rt></ruby><rt>じょうず</rt></ruby>ですか。",
         "options": [
           "日本語",
           "中国語",
@@ -928,7 +928,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q71",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "この かばんは 五千円です。あの <ruby>白<rt>しろ</rt></ruby>い かばんは 三千円です。<br><br><ruby>白<rt>しろ</rt></ruby>い かばんは いくらですか。",
+        "text": "この かばんは <ruby>五<rt>ご</rt></ruby><ruby><ruby>千<rt>せん</rt></ruby><ruby>円<rt>えん</rt></ruby><rt>せんえん</rt></ruby>です。あの <ruby>白<rt>しろ</rt></ruby>い かばんは <ruby>三<rt>さん</rt></ruby><ruby><ruby>千<rt>せん</rt></ruby><ruby>円<rt>えん</rt></ruby><rt>せんえん</rt></ruby>です。<br><br><ruby>白<rt>しろ</rt></ruby>い かばんは いくらですか。",
         "options": [
           "五千円",
           "八千円",
@@ -941,7 +941,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q72",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "<ruby>月曜日<rt>げつようび</rt></ruby>に テストが あります。<ruby>土曜日<rt>どようび</rt></ruby>と <ruby>日曜日<rt>にちようび</rt></ruby>に たくさん 勉強しました。<br><br>いつ 勉強しましたか。",
+        "text": "<ruby>月曜日<rt>げつようび</rt></ruby>に テストが あります。<ruby>土曜日<rt>どようび</rt></ruby>と <ruby>日曜日<rt>にちようび</rt></ruby>に たくさん <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>しました。<br><br>いつ <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>しましたか。",
         "options": [
           "土曜日と 日曜日",
           "月曜日",
@@ -954,7 +954,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q73",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "わたしは きょねん <ruby>日本<rt>にほん</rt></ruby>へ いきました。きょうとに <ruby>二日<rt>ふつか</rt></ruby>、おおさかに <ruby>三日<rt>みっか</rt></ruby> いました。きょうとでは 古い おてらを たくさん みました。とても きれいでした。おおさかでは 食べものが おいしかったです。わたしは おおさかの たべものが いちばん すきです。<br><br>この<ruby>人<rt>ひと</rt></ruby>は きょうとに 何日 いましたか。",
+        "text": "わたしは きょねん <ruby>日本<rt>にほん</rt></ruby>へ いきました。きょうとに <ruby><ruby>二<rt>に</rt></ruby>日<rt>ふつか</rt></ruby>、おおさかに <ruby><ruby>三<rt>さん</rt></ruby>日<rt>みっか</rt></ruby> いました。きょうとでは <ruby>古<rt>ふる</rt></ruby>い おてらを たくさん みました。とても きれいでした。おおさかでは <ruby>食<rt>た</rt></ruby>べものが おいしかったです。わたしは おおさかの たべものが いちばん すきです。<br><br>この<ruby>人<rt>ひと</rt></ruby>は きょうとに <ruby>何<rt>なに</rt></ruby>日 いましたか。",
         "options": [
           "一日",
           "三日",
@@ -967,7 +967,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q74",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "わたしは きょねん <ruby>日本<rt>にほん</rt></ruby>へ いきました。きょうとに <ruby>二日<rt>ふつか</rt></ruby>、おおさかに <ruby>三日<rt>みっか</rt></ruby> いました。きょうとでは 古い おてらを たくさん みました。とても きれいでした。おおさかでは 食べものが おいしかったです。わたしは おおさかの たべものが いちばん すきです。<br><br>この<ruby>人<rt>ひと</rt></ruby>は なにが いちばん すきですか。",
+        "text": "わたしは きょねん <ruby>日本<rt>にほん</rt></ruby>へ いきました。きょうとに <ruby><ruby>二<rt>に</rt></ruby>日<rt>ふつか</rt></ruby>、おおさかに <ruby><ruby>三<rt>さん</rt></ruby>日<rt>みっか</rt></ruby> いました。きょうとでは <ruby>古<rt>ふる</rt></ruby>い おてらを たくさん みました。とても きれいでした。おおさかでは <ruby>食<rt>た</rt></ruby>べものが おいしかったです。わたしは おおさかの たべものが いちばん すきです。<br><br>この<ruby>人<rt>ひと</rt></ruby>は なにが いちばん すきですか。",
         "options": [
           "きょうとの おてら",
           "おおさかの 町",
@@ -980,7 +980,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q75",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "わたしは きょねん <ruby>日本<rt>にほん</rt></ruby>へ いきました。きょうとに <ruby>二日<rt>ふつか</rt></ruby>、おおさかに <ruby>三日<rt>みっか</rt></ruby> いました。きょうとでは 古い おてらを たくさん みました。とても きれいでした。おおさかでは 食べものが おいしかったです。わたしは おおさかの たべものが いちばん すきです。<br><br>この文の内容とあっているものはどれですか。",
+        "text": "わたしは きょねん <ruby>日本<rt>にほん</rt></ruby>へ いきました。きょうとに <ruby><ruby>二<rt>に</rt></ruby>日<rt>ふつか</rt></ruby>、おおさかに <ruby><ruby>三<rt>さん</rt></ruby>日<rt>みっか</rt></ruby> いました。きょうとでは <ruby>古<rt>ふる</rt></ruby>い おてらを たくさん みました。とても きれいでした。おおさかでは <ruby>食<rt>た</rt></ruby>べものが おいしかったです。わたしは おおさかの たべものが いちばん すきです。<br><br>この文の内容とあっているものはどれですか。",
         "options": [
           "おおさかに いってから きょうとに いった。",
           "きょうとで おいしい 食べものを たべた。",
@@ -993,7 +993,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q76",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "はじめまして。わたしは リーです。スポーツが 大好きです。毎<ruby>朝<rt>あさ</rt></ruby> 公園で 三十分 はしります。<ruby>土曜日<rt>どようび</rt></ruby>と <ruby>日曜日<rt>にちようび</rt></ruby>は ともだちと テニスを します。あまり <ruby>上<rt>うえ</rt></ruby><ruby>手<rt>て</rt></ruby>ではありませんが、とても たのしいです。<br><br>リーさんは 毎<ruby>朝<rt>あさ</rt></ruby> なにを しますか。",
+        "text": "はじめまして。わたしは リーです。スポーツが <ruby><ruby>大<rt>おお</rt></ruby><ruby>好き<rt>すき</rt></ruby><rt>だいすき</rt></ruby>です。<ruby>毎<ruby>朝<rt>あさ</rt></ruby><rt>まいあさ</rt></ruby> <ruby>公<ruby>園<rt>えん</rt></ruby><rt>こうえん</rt></ruby>で <ruby>三<rt>さん</rt></ruby><ruby>十<rt>じゅう</rt></ruby><ruby>分<rt>ふん</rt></ruby> はしります。<ruby>土曜日<rt>どようび</rt></ruby>と <ruby>日曜日<rt>にちようび</rt></ruby>は ともだちと テニスを します。あまり <ruby><ruby>上<rt>うえ</rt></ruby><ruby>手<rt>て</rt></ruby><rt>じょうず</rt></ruby>ではありませんが、とても たのしいです。<br><br>リーさんは <ruby>毎<ruby>朝<rt>あさ</rt></ruby><rt>まいあさ</rt></ruby> なにを しますか。",
         "options": [
           "テニスをする",
           "ともだちと 会う",
@@ -1006,7 +1006,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q77",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "はじめまして。わたしは リーです。スポーツが 大好きです。毎<ruby>朝<rt>あさ</rt></ruby> 公園で 三十分 はしります。<ruby>土曜日<rt>どようび</rt></ruby>と <ruby>日曜日<rt>にちようび</rt></ruby>は ともだちと テニスを します。あまり <ruby>上<rt>うえ</rt></ruby><ruby>手<rt>て</rt></ruby>ではありませんが、とても たのしいです。<br><br>リーさんは いつ テニスを しますか。",
+        "text": "はじめまして。わたしは リーです。スポーツが <ruby><ruby>大<rt>おお</rt></ruby><ruby>好き<rt>すき</rt></ruby><rt>だいすき</rt></ruby>です。<ruby>毎<ruby>朝<rt>あさ</rt></ruby><rt>まいあさ</rt></ruby> <ruby>公<ruby>園<rt>えん</rt></ruby><rt>こうえん</rt></ruby>で <ruby>三<rt>さん</rt></ruby><ruby>十<rt>じゅう</rt></ruby><ruby>分<rt>ふん</rt></ruby> はしります。<ruby>土曜日<rt>どようび</rt></ruby>と <ruby>日曜日<rt>にちようび</rt></ruby>は ともだちと テニスを します。あまり <ruby><ruby>上<rt>うえ</rt></ruby><ruby>手<rt>て</rt></ruby><rt>じょうず</rt></ruby>ではありませんが、とても たのしいです。<br><br>リーさんは いつ テニスを しますか。",
         "options": [
           "休みの日",
           "毎日",
@@ -1019,7 +1019,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q78",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "はじめまして。わたしは リーです。スポーツが 大好きです。毎<ruby>朝<rt>あさ</rt></ruby> 公園で 三十分 はしります。<ruby>土曜日<rt>どようび</rt></ruby>と <ruby>日曜日<rt>にちようび</rt></ruby>は ともだちと テニスを します。あまり <ruby>上<rt>うえ</rt></ruby><ruby>手<rt>て</rt></ruby>ではありませんが、とても たのしいです。<br><br>テニスについて 正しいものは どれですか。",
+        "text": "はじめまして。わたしは リーです。スポーツが <ruby><ruby>大<rt>おお</rt></ruby><ruby>好き<rt>すき</rt></ruby><rt>だいすき</rt></ruby>です。<ruby>毎<ruby>朝<rt>あさ</rt></ruby><rt>まいあさ</rt></ruby> <ruby>公<ruby>園<rt>えん</rt></ruby><rt>こうえん</rt></ruby>で <ruby>三<rt>さん</rt></ruby><ruby>十<rt>じゅう</rt></ruby><ruby>分<rt>ふん</rt></ruby> はしります。<ruby>土曜日<rt>どようび</rt></ruby>と <ruby>日曜日<rt>にちようび</rt></ruby>は ともだちと テニスを します。あまり <ruby><ruby>上<rt>うえ</rt></ruby><ruby>手<rt>て</rt></ruby><rt>じょうず</rt></ruby>ではありませんが、とても たのしいです。<br><br>テニスについて 正しいものは どれですか。",
         "options": [
           "リーさんは とても 上手だ。",
           "一人で 練習している。",
@@ -1032,7 +1032,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q79",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）らいげつ サッカーの たいかいが あります。わたしの チームは つよいです。<br><br>らいげつ 何が ありますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）らいげつ サッカーの たいかいが あります。わたしの チームは つよいです。<br><br>らいげつ <ruby>何<rt>なに</rt></ruby>が ありますか。",
         "options": [
           "りょこう",
           "しけん",
@@ -1045,7 +1045,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q80",
         "section": "言語知識（文法）・読解",
         "type": "読解（情報検索）",
-        "text": "【ゴミの日】<br><ruby>月・木<rt>げつ・もく</rt></ruby>：もえるゴミ<br>火：プラスチック<br>水：ペットボトル<br>金：かみ<br><br>もえるゴミの日は いつですか。",
+        "text": "【ゴミの日】<br>月・木：もえるゴミ<br>火：プラスチック<br>水：ペットボトル<br>金：かみ<br><br>もえるゴミの日は いつですか。",
         "options": [
           "月・木",
           "火・金",
@@ -1058,7 +1058,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q81",
         "section": "聴解",
         "type": "読解（情報検索）",
-        "text": "【ゴミの日】<br><ruby>月・木<rt>げつ・もく</rt></ruby>：もえるゴミ<br>火：プラスチック<br>水：ペットボトル<br>金：かみ<br><br>ペットボトルの日は いつですか。",
+        "text": "【ゴミの日】<br>月・木：もえるゴミ<br>火：プラスチック<br>水：ペットボトル<br>金：かみ<br><br>ペットボトルの日は いつですか。",
         "options": [
           "月曜日",
           "金曜日",
@@ -1071,7 +1071,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q82",
         "section": "聴解",
         "type": "読解（情報検索）",
-        "text": "【ゴミの日】<br><ruby>月・木<rt>げつ・もく</rt></ruby>：もえるゴミ<br>火：プラスチック<br>水：ペットボトル<br>金：かみ<br>※土・日は おやすみ<br><br><ruby>土曜日<rt>どようび</rt></ruby>は どうですか。",
+        "text": "【ゴミの日】<br>月・木：もえるゴミ<br>火：プラスチック<br>水：ペットボトル<br>金：かみ<br>※土・日は おやすみ<br><br><ruby>土曜日<rt>どようび</rt></ruby>は どうですか。",
         "options": [
           "もえるゴミ",
           "プラスチック",
@@ -1084,7 +1084,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q83",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと おんなのひとが はなしています。おんなのひとは あした なにを しますか。<br>おとこ：あしたは 休みですね。なにか しますか。<br>おんな：そうですね。せんたくを してから、買いものに いきます。<br>おとこ：そうですか。わたしは <ruby>映画<rt>えいが</rt></ruby>を 見に いきます。<br><br>おんなのひとは あした なにを しますか。",
+        "text": "おとこのひとと おんなのひとが はなしています。おんなのひとは あした なにを しますか。<br>おとこ：あしたは <ruby>休<rt>やす</rt></ruby>みですね。なにか しますか。<br>おんな：そうですね。せんたくを してから、<ruby>買<rt>か</rt></ruby>いものに いきます。<br>おとこ：そうですか。わたしは <ruby>映画<rt>えいが</rt></ruby>を <ruby>見<rt>み</rt></ruby>に いきます。<br><br>おんなのひとは あした なにを しますか。",
         "options": [
           "映画を 見る",
           "なにも しない",
@@ -1097,7 +1097,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q84",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "みせで おとこのひとと てんいんが はなしています。<br>てんいん：いらっしゃいませ。<br>おとこ：すみません、コーヒーを ひとつ ください。<br>てんいん：ホットと アイス、どちらに しますか。<br>おとこ：ホットを おねがいします。<br><br>おとこのひとは 何を ちゅうもんしましたか。",
+        "text": "みせで おとこのひとと てんいんが はなしています。<br>てんいん：いらっしゃいませ。<br>おとこ：すみません、コーヒーを ひとつ ください。<br>てんいん：ホットと アイス、どちらに しますか。<br>おとこ：ホットを おねがいします。<br><br>おとこのひとは <ruby>何<rt>なに</rt></ruby>を ちゅうもんしましたか。",
         "options": [
           "おちゃ",
           "アイスコーヒー",
@@ -1122,7 +1122,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q85",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>駅<rt>えき</rt></ruby>で アナウンスが あります。<br>「まもなく 2ばんせんに とうきょうゆきの でんしゃが まいります。きいろい せんの うしろで おまちください。」<br><br>でんしゃは 何ばんせんに きますか。",
+        "text": "<ruby>駅<rt>えき</rt></ruby>で アナウンスが あります。<br>「まもなく 2ばんせんに とうきょうゆきの でんしゃが まいります。きいろい せんの うしろで おまちください。」<br><br>でんしゃは <ruby>何<rt>なに</rt></ruby>ばんせんに きますか。",
         "options": [
           "1ばんせん",
           "2ばんせん",
@@ -1135,7 +1135,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q86",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "先生が はなしています。<br>「あしたは テストです。9じに はじまりますから、8じ45ふんまでに きょうしつに きてください。」<br><br>テストは 何じに はじまりますか。",
+        "text": "<ruby>先<ruby>生<rt>せい</rt></ruby><rt>せんせい</rt></ruby>が はなしています。<br>「あしたは テストです。9じに はじまりますから、8じ45ふんまでに きょうしつに きてください。」<br><br>テストは <ruby>何<rt>なに</rt></ruby>じに はじまりますか。",
         "options": [
           "8じ",
           "8じ45ふん",
@@ -1148,7 +1148,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q87",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "でんわで はなしています。<br>おんな：もしもし、やまださんの おたくですか。<br>おとこ：はい、そうです。<br>おんな：やまださんは いらっしゃいますか。<br>おとこ：いま でかけています。4じごろ かえります。<br><br>やまださんは 何じに かえりますか。",
+        "text": "でんわで はなしています。<br>おんな：もしもし、やまださんの おたくですか。<br>おとこ：はい、そうです。<br>おんな：やまださんは いらっしゃいますか。<br>おとこ：いま でかけています。4じごろ かえります。<br><br>やまださんは <ruby>何<rt>なに</rt></ruby>じに かえりますか。",
         "options": [
           "3じ",
           "4じ",
@@ -1161,7 +1161,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q88",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとと おんなのひとが はなしています。おとこのひとは どうして パーティーに いきませんか。<br>おとこ：あしたの パーティー、いきますか。<br>おんな：はい、いきますよ。田<ruby>中<rt>なか</rt></ruby>さんは？<br>おとこ：わたしは あした 仕事が たくさん ありますから、いきません。<br>おんな：そうですか。残念ですね。<br><br>おとこのひとは どうして いきませんか。",
+        "text": "おとこのひとと おんなのひとが はなしています。おとこのひとは どうして パーティーに いきませんか。<br>おとこ：あしたの パーティー、いきますか。<br>おんな：はい、いきますよ。<ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんは？<br>おとこ：わたしは あした <ruby><ruby>仕<rt>し</rt></ruby><ruby>事<rt>こと</rt></ruby><rt>しごと</rt></ruby>が たくさん ありますから、いきません。<br>おんな：そうですか。<ruby>残念<rt>ざんねん</rt></ruby>ですね。<br><br>おとこのひとは どうして いきませんか。",
         "options": [
           "病気だから",
           "忙しいから",
@@ -1187,7 +1187,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q90",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが はなしています。<br>「わたしは まいにち 7じに おきます。8じに いえを でます。」<br><br>おんなのひとは 何じに おきますか。",
+        "text": "おんなのひとが はなしています。<br>「わたしは まいにち 7じに おきます。8じに いえを でます。」<br><br>おんなのひとは <ruby>何<rt>なに</rt></ruby>じに おきますか。",
         "options": [
           "7じ",
           "8じ",
@@ -1200,7 +1200,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q91",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが はなしています。<br>「わたしの しゅみは おんがくを きくことです。とくに クラシックが すきです。」<br><br>おとこのひとは 何が すきですか。",
+        "text": "おとこのひとが はなしています。<br>「わたしの しゅみは おんがくを きくことです。とくに クラシックが すきです。」<br><br>おとこのひとは <ruby>何<rt>なに</rt></ruby>が すきですか。",
         "options": [
           "ジャズ",
           "クラシック",
@@ -1213,7 +1213,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q92",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "せんせいが はなしています。<br>「あしたの じゅぎょうは 10じからです。いつもより 1じかん おそいです。」<br><br>いつもの じゅぎょうは 何じからですか。",
+        "text": "せんせいが はなしています。<br>「あしたの じゅぎょうは 10じからです。いつもより 1じかん おそいです。」<br><br>いつもの じゅぎょうは <ruby>何<rt>なに</rt></ruby>じからですか。",
         "options": [
           "10じ",
           "8じ",
@@ -1226,7 +1226,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q93",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが はなしています。<br>「きのう スーパーで やさいを かいました。トマトと にんじんを かいました。」<br><br>何を かいましたか。",
+        "text": "おんなのひとが はなしています。<br>「きのう スーパーで やさいを かいました。トマトと にんじんを かいました。」<br><br><ruby>何<rt>なに</rt></ruby>を かいましたか。",
         "options": [
           "くだもの",
           "やさい",
@@ -1239,7 +1239,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q94",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが はなしています。<br>「わたしは いぬを かっています。なまえは ポチです。」<br><br>おとこのひとは 何を かっていますか。",
+        "text": "おとこのひとが はなしています。<br>「わたしは いぬを かっています。なまえは ポチです。」<br><br>おとこのひとは <ruby>何<rt>なに</rt></ruby>を かっていますか。",
         "options": [
           "ねこ",
           "とり",
@@ -1278,7 +1278,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M1_Q97",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "すみません、いま 何時ですか。<br><br>なんと こたえますか。",
+        "text": "すみません、いま <ruby>何<rt>なに</rt></ruby><ruby>時<rt>とき</rt></ruby>ですか。<br><br>なんと こたえますか。",
         "options": [
           "三時ですよ",
           "三枚ですよ",
@@ -1358,7 +1358,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q3",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "わたしの <u>父</u>は <ruby>会社<rt>かいしゃ</rt></ruby>員です。<br><br>「父」のよみかたは？",
+        "text": "わたしの <u>父</u>は <ruby><ruby>会社<rt>かいしゃ</rt></ruby><ruby>員<rt>いん</rt></ruby><rt>かいしゃいん</rt></ruby>です。<br><br>「父」のよみかたは？",
         "options": [
           "はは",
           "あに",
@@ -1384,7 +1384,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q5",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>一か月</u>に 二回 <ruby>映画<rt>えいが</rt></ruby>を 見ます。<br><br>「一か月」のよみかたは？",
+        "text": "<u>一か月</u>に <ruby><ruby>二<rt>に</rt></ruby><ruby>回<rt>かい</rt></ruby><rt>にかい</rt></ruby> <ruby>映画<rt>えいが</rt></ruby>を <ruby>見<rt>み</rt></ruby>ます。<br><br>「一か月」のよみかたは？",
         "options": [
           "いっかげつ",
           "ひとつげつ",
@@ -1397,7 +1397,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q6",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>休み</u>は 何曜日ですか。<br><br>「休み」のよみかたは？",
+        "text": "<u>休み</u>は <ruby>何<rt>なに</rt></ruby>曜日ですか。<br><br>「休み」のよみかたは？",
         "options": [
           "よみ",
           "やすみ",
@@ -1449,7 +1449,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q10",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>十時</u>に 寝ます。<br><br>「十時」のよみかたは？",
+        "text": "<u>十時</u>に <ruby>寝<rt>ね</rt></ruby>ます。<br><br>「十時」のよみかたは？",
         "options": [
           "じゅうとき",
           "じゅうじ",
@@ -1462,7 +1462,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q11",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>名前</u>を 書いてください。<br><br>「名前」のよみかたは？",
+        "text": "<u>名前</u>を <ruby>書<rt>か</rt></ruby>いてください。<br><br>「名前」のよみかたは？",
         "options": [
           "めいまえ",
           "めいぜん",
@@ -1475,7 +1475,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q12",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>半分</u> 食べました。<br><br>「半分」のよみかたは？",
+        "text": "<u>半分</u> <ruby>食<rt>た</rt></ruby>べました。<br><br>「半分」のよみかたは？",
         "options": [
           "ほんぶん",
           "はんぷん",
@@ -1514,7 +1514,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q15",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>ひだり</u>に 曲がります。<br><br>「ひだり」のかきかたは？",
+        "text": "<u>ひだり</u>に <ruby>曲<rt>きょく</rt></ruby>がります。<br><br>「ひだり」のかきかたは？",
         "options": [
           "右",
           "左",
@@ -1527,7 +1527,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q16",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>しんぶん</u>を 読みます。<br><br>「しんぶん」のかきかたは？",
+        "text": "<u>しんぶん</u>を <ruby>読<rt>よ</rt></ruby>みます。<br><br>「しんぶん」のかきかたは？",
         "options": [
           "新分",
           "新本",
@@ -1566,7 +1566,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q19",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>ことし</u>は 二十さいです。<br><br>「ことし」のかきかたは？",
+        "text": "<u>ことし</u>は <ruby>二<rt>に</rt></ruby><ruby>十<rt>じゅう</rt></ruby>さいです。<br><br>「ことし」のかきかたは？",
         "options": [
           "今月",
           "今年",
@@ -1579,7 +1579,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q20",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>あさ</u> ごはんを 食べます。<br><br>「あさ」のかきかたは？",
+        "text": "<u>あさ</u> ごはんを <ruby>食<rt>た</rt></ruby>べます。<br><br>「あさ」のかきかたは？",
         "options": [
           "昼",
           "夜",
@@ -1696,7 +1696,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q29",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）で <ruby><ruby>日本<rt>にほん</rt></ruby>語<rt>にほんご</rt></ruby>を べんきょうしています。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）で <ruby><ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby><rt>にほんご</rt></ruby>を べんきょうしています。<br><br>（　）になにがはいりますか。",
         "options": [
           "ページ",
           "コピー",
@@ -1852,7 +1852,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q41",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "きのうは どこ（　　） 行きませんでした。<br><br>（　）になにがはいりますか。",
+        "text": "きのうは どこ（　　） <ruby>行<rt>い</rt></ruby>きませんでした。<br><br>（　）になにがはいりますか。",
         "options": [
           "へ",
           "を",
@@ -1865,7 +1865,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q42",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "机の <ruby>上<rt>うえ</rt></ruby>（　　） ペンが あります。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>机<rt>つくえ</rt></ruby>の <ruby>上<rt>うえ</rt></ruby>（　　） ペンが あります。<br><br>（　）になにがはいりますか。",
         "options": [
           "に",
           "で",
@@ -1891,7 +1891,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q44",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "わたしは パン（　　） 食べます。<br><br>（　）になにがはいりますか。",
+        "text": "わたしは パン（　　） <ruby>食<rt>た</rt></ruby>べます。<br><br>（　）になにがはいりますか。",
         "options": [
           "は",
           "に",
@@ -1904,7 +1904,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q45",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "<ruby>友<rt>とも</rt></ruby>だち（　　） <ruby>電話<rt>でんわ</rt></ruby>を しました。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>友<rt>とも</rt></ruby>だち（　　） <ruby><ruby>電<rt>でん</rt></ruby><ruby>話<rt>はな</rt></ruby><rt>でんわ</rt></ruby>を しました。<br><br>（　）になにがはいりますか。",
         "options": [
           "を",
           "で",
@@ -1917,7 +1917,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q46",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あした <ruby>学校<rt>がっこう</rt></ruby>へ （　　）か。<br><br>（　）になにがはいりますか。",
+        "text": "あした <ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>へ （　　）か。<br><br>（　）になにがはいりますか。",
         "options": [
           "いきます",
           "いきました",
@@ -1943,7 +1943,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q48",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "<ruby><ruby>日本<rt>にほん</rt></ruby>語<rt>にほんご</rt></ruby>を （　　）に なりたいです。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby><ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby><rt>にほんご</rt></ruby>を （　　）に なりたいです。<br><br>（　）になにがはいりますか。",
         "options": [
           "じょうず",
           "はやく",
@@ -1956,7 +1956,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q49",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "もう 宿題を （　　）か。<br><br>（　）になにがはいりますか。",
+        "text": "もう <ruby>宿題<rt>しゅくだい</rt></ruby>を （　　）か。<br><br>（　）になにがはいりますか。",
         "options": [
           "します",
           "して",
@@ -1969,7 +1969,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q50",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "ここ（　　） 名<ruby>前<rt>まえ</rt></ruby>を 書いてください。<br><br>（　）になにがはいりますか。",
+        "text": "ここ（　　） <ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>を <ruby>書<rt>か</rt></ruby>いてください。<br><br>（　）になにがはいりますか。",
         "options": [
           "に",
           "を",
@@ -1982,7 +1982,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q51",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "<ruby>映画<rt>えいが</rt></ruby>を 見（　　） 行きましょう。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>映画<rt>えいが</rt></ruby>を <ruby>見<rt>み</rt></ruby>（　　） <ruby>行<rt>い</rt></ruby>きましょう。<br><br>（　）になにがはいりますか。",
         "options": [
           "を",
           "に",
@@ -1995,7 +1995,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q52",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "おんがくを （　　）ながら 散歩します。<br><br>（　）になにがはいりますか。",
+        "text": "おんがくを （　　）ながら <ruby>散<ruby>歩<rt>ある</rt></ruby><rt>さんぽ</rt></ruby>します。<br><br>（　）になにがはいりますか。",
         "options": [
           "きいて",
           "きく",
@@ -2008,7 +2008,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q53",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "この 料理は （　　） おいしくないです。<br><br>（　）になにがはいりますか。",
+        "text": "この <ruby>料理<rt>りょうり</rt></ruby>は （　　） おいしくないです。<br><br>（　）になにがはいりますか。",
         "options": [
           "とても",
           "すこし",
@@ -2034,7 +2034,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q55",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "きょうは （　　） 暑いですね。<br><br>（　）になにがはいりますか。",
+        "text": "きょうは （　　） <ruby>暑い<rt>あつい</rt></ruby>ですね。<br><br>（　）になにがはいりますか。",
         "options": [
           "あまり",
           "とても",
@@ -2047,7 +2047,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q56",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "机の <ruby>上<rt>うえ</rt></ruby>に きれいな <ruby>本<rt>ほん</rt></ruby>が 一冊 あります。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>机<rt>つくえ</rt></ruby>の <ruby>上<rt>うえ</rt></ruby>に きれいな <ruby>本<rt>ほん</rt></ruby>が <ruby><ruby>一<rt>いち</rt></ruby><ruby>冊<rt>さつ</rt></ruby><rt>いっさつ</rt></ruby> あります。<br><br>（　）になにがはいりますか。",
         "options": [
           "上に",
           "本",
@@ -2060,7 +2060,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q57",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "わたしは 昨日 デパートへ 靴を 買いに いきました。<br><br>（　）になにがはいりますか。",
+        "text": "わたしは <ruby>昨日<rt>きのう</rt></ruby> デパートへ <ruby>靴<rt>くつ</rt></ruby>を <ruby>買<rt>か</rt></ruby>いに いきました。<br><br>（　）になにがはいりますか。",
         "options": [
           "デパート",
           "へ",
@@ -2073,7 +2073,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q58",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "そこに ゆっくり 椅<ruby>子<rt>こ</rt></ruby>に 座って かけて ください。<br><br>（　）になにがはいりますか。",
+        "text": "そこに ゆっくり <ruby>椅<ruby>子<rt>こ</rt></ruby><rt>いす</rt></ruby>に <ruby>座<rt>すわ</rt></ruby>って かけて ください。<br><br>（　）になにがはいりますか。",
         "options": [
           "そこに",
           "座って",
@@ -2086,7 +2086,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q59",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "公園の <ruby>中<rt>なか</rt></ruby>に <ruby>子供<rt>こども</rt></ruby>が 五<ruby>人<rt>ひと</rt></ruby> 遊んで います。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>公<ruby>園<rt>えん</rt></ruby><rt>こうえん</rt></ruby>の <ruby>中<rt>なか</rt></ruby>に <ruby>子供<rt>こども</rt></ruby>が <ruby><ruby>五<rt>ご</rt></ruby><ruby>人<rt>ひと</rt></ruby><rt>ごにん</rt></ruby> <ruby>遊<rt>あそ</rt></ruby>んで います。<br><br>（　）になにがはいりますか。",
         "options": [
           "中に",
           "子供が",
@@ -2099,7 +2099,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q60",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "ここに ボールペンで 名<ruby>前<rt>まえ</rt></ruby>を 書いて ください。<br><br>（　）になにがはいりますか。",
+        "text": "ここに ボールペンで <ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>を <ruby>書<rt>か</rt></ruby>いて ください。<br><br>（　）になにがはいりますか。",
         "options": [
           "ここに",
           "名前を",
@@ -2112,7 +2112,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q61",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（<ruby>手<rt>て</rt></ruby>紙）リーさん、こんにちは。あしたは <ruby>日曜日<rt>にちようび</rt></ruby>ですね。（ 1 ） しますか。<br><br>（ 1 ）になにがはいりますか。",
+        "text": "（<ruby>手<rt>て</rt></ruby><ruby>紙<rt>かみ</rt></ruby>）リーさん、こんにちは。あしたは <ruby>日曜日<rt>にちようび</rt></ruby>ですね。（ 1 ） しますか。<br><br>（ 1 ）になにがはいりますか。",
         "options": [
           "どこを",
           "だれが",
@@ -2125,7 +2125,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q62",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（<ruby>手<rt>て</rt></ruby>紙）わたしは <ruby>友<rt>とも</rt></ruby>だちと <ruby>海<rt>うみ</rt></ruby>へ （ 2 ）。<br><br>（ 2 ）になにがはいりますか。",
+        "text": "（<ruby>手<rt>て</rt></ruby><ruby>紙<rt>かみ</rt></ruby>）わたしは <ruby>友<rt>とも</rt></ruby>だちと <ruby>海<rt>うみ</rt></ruby>へ （ 2 ）。<br><br>（ 2 ）になにがはいりますか。",
         "options": [
           "行きます",
           "行きました",
@@ -2138,7 +2138,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q63",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（<ruby>手<rt>て</rt></ruby>紙）<ruby>海<rt>うみ</rt></ruby>で （ 3 ） 泳ぎます。<br><br>（ 3 ）になにがはいりますか。",
+        "text": "（<ruby>手<rt>て</rt></ruby><ruby>紙<rt>かみ</rt></ruby>）<ruby>海<rt>うみ</rt></ruby>で （ 3 ） <ruby>泳<rt>およ</rt></ruby>ぎます。<br><br>（ 3 ）になにがはいりますか。",
         "options": [
           "魚と",
           "元気に",
@@ -2151,7 +2151,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q64",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（<ruby>手<rt>て</rt></ruby>紙）リーさんも （ 4 ） 行きませんか。<br><br>（ 4 ）になにがはいりますか。",
+        "text": "（<ruby>手<rt>て</rt></ruby><ruby>紙<rt>かみ</rt></ruby>）リーさんも （ 4 ） <ruby>行<rt>い</rt></ruby>きませんか。<br><br>（ 4 ）になにがはいりますか。",
         "options": [
           "ひとりで",
           "いっしょに",
@@ -2164,7 +2164,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q65",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（<ruby>手<rt>て</rt></ruby>紙）（ 5 ） お返事を ください。<br><br>（ 5 ）になにがはいりますか。",
+        "text": "（<ruby>手<rt>て</rt></ruby><ruby>紙<rt>かみ</rt></ruby>）（ 5 ） お<ruby><ruby>返<rt>かえ</rt></ruby><ruby>事<rt>こと</rt></ruby><rt>へんじ</rt></ruby>を ください。<br><br>（ 5 ）になにがはいりますか。",
         "options": [
           "たぶん",
           "もっと",
@@ -2177,7 +2177,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q66",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）昨日は <ruby>友<rt>とも</rt></ruby>だちの 誕生日でした。パーティーで ケーキを 食べました。<br><br>昨日は 何の日でしたか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>昨日<rt>きのう</rt></ruby>は <ruby>友<rt>とも</rt></ruby>だちの <ruby>誕<ruby>生<rt>せい</rt></ruby>日<rt>たんじょうび</rt></ruby>でした。パーティーで ケーキを <ruby>食<rt>た</rt></ruby>べました。<br><br><ruby>昨日<rt>きのう</rt></ruby>は <ruby>何<rt>なに</rt></ruby>の日でしたか。",
         "options": [
           "パーティー",
           "ケーキの日",
@@ -2190,7 +2190,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q67",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）わたしの 部屋は 狭いですが、とても きれいです。窓が <ruby>二つ<rt>ふたつ</rt></ruby> あります。<br><br>部屋は どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）わたしの <ruby>部屋<rt>へや</rt></ruby>は <ruby>狭<rt>せま</rt></ruby>いですが、とても きれいです。<ruby><ruby>窓<rt>まど</rt></ruby><rt>まど</rt></ruby>が <ruby><ruby>二<rt>に</rt></ruby>つ<rt>ふたつ</rt></ruby> あります。<br><br><ruby>部屋<rt>へや</rt></ruby>は どうですか。",
         "options": [
           "狭くてきれい",
           "広くてきれい",
@@ -2203,7 +2203,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q68",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）<ruby>月曜日<rt>げつようび</rt></ruby>から <ruby>金曜日<rt>きんようび</rt></ruby>まで 働きます。<ruby>土曜日<rt>どようび</rt></ruby>と <ruby>日曜日<rt>にちようび</rt></ruby>は 休みます。<br><br>いつ 休みますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>月曜日<rt>げつようび</rt></ruby>から <ruby>金曜日<rt>きんようび</rt></ruby>まで <ruby>働<rt>はたら</rt></ruby>きます。<ruby>土曜日<rt>どようび</rt></ruby>と <ruby>日曜日<rt>にちようび</rt></ruby>は <ruby>休<rt>やす</rt></ruby>みます。<br><br>いつ <ruby>休<rt>やす</rt></ruby>みますか。",
         "options": [
           "金曜日",
           "土曜日と日曜日",
@@ -2216,7 +2216,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q69",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）この <ruby>店<rt>みせ</rt></ruby>の りんごは <ruby>一つ<rt>ひとつ</rt></ruby> 百円です。みかんは <ruby>三つ<rt>みっつ</rt></ruby>で 二百円です。<br><br>みかん <ruby>三つ<rt>みっつ</rt></ruby>で いくらですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）この <ruby>店<rt>みせ</rt></ruby>の りんごは <ruby><ruby>一<rt>いち</rt></ruby>つ<rt>ひとつ</rt></ruby> <ruby><ruby>百<rt>ひゃく</rt></ruby><ruby>円<rt>えん</rt></ruby><rt>ひゃくえん</rt></ruby>です。みかんは <ruby><ruby>三<rt>さん</rt></ruby>つ<rt>みっつ</rt></ruby>で <ruby>二<rt>に</rt></ruby><ruby><ruby>百<rt>ひゃく</rt></ruby><ruby>円<rt>えん</rt></ruby><rt>ひゃくえん</rt></ruby>です。<br><br>みかん <ruby><ruby>三<rt>さん</rt></ruby>つ<rt>みっつ</rt></ruby>で いくらですか。",
         "options": [
           "百円",
           "三百円",
@@ -2229,7 +2229,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q70",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）<ruby>雨<rt>あめ</rt></ruby>が 降っていますから、傘を さして 行きます。<br><br>どうして 傘を さしますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>雨<rt>あめ</rt></ruby>が 降っていますから、<ruby>傘<rt>かさ</rt></ruby>を さして <ruby>行<rt>い</rt></ruby>きます。<br><br>どうして <ruby>傘<rt>かさ</rt></ruby>を さしますか。",
         "options": [
           "暑いから",
           "寒いから",
@@ -2242,7 +2242,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q71",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）田<ruby>中<rt>なか</rt></ruby>さんは テニスが 好きですが、あまり <ruby>上<rt>うえ</rt></ruby><ruby>手<rt>て</rt></ruby>ではありません。<br><br>田<ruby>中<rt>なか</rt></ruby>さんは テニスが どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんは テニスが <ruby>好き<rt>すき</rt></ruby>ですが、あまり <ruby><ruby>上<rt>うえ</rt></ruby><ruby>手<rt>て</rt></ruby><rt>じょうず</rt></ruby>ではありません。<br><br><ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんは テニスが どうですか。",
         "options": [
           "あまり上手くない",
           "嫌い",
@@ -2255,7 +2255,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q72",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）<ruby>毎日<rt>まいにち</rt></ruby> 八時に 家を 出ます。九時に <ruby>会社<rt>かいしゃ</rt></ruby>に 着きます。<br><br><ruby>会社<rt>かいしゃ</rt></ruby>に 何時に 着きますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>毎日<rt>まいにち</rt></ruby> <ruby>八<rt>はち</rt></ruby><ruby>時<rt>とき</rt></ruby>に <ruby>家<rt>いえ</rt></ruby>を <ruby>出<rt>で</rt></ruby>ます。<ruby>九<rt>きゅう</rt></ruby><ruby>時<rt>とき</rt></ruby>に <ruby>会社<rt>かいしゃ</rt></ruby>に 着きます。<br><br><ruby>会社<rt>かいしゃ</rt></ruby>に <ruby>何<rt>なに</rt></ruby><ruby>時<rt>とき</rt></ruby>に 着きますか。",
         "options": [
           "八時",
           "九時",
@@ -2268,7 +2268,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q73",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）<ruby><ruby>日本<rt>にほん</rt></ruby>語<rt>にほんご</rt></ruby>の クラスは <ruby>午後<rt>ごご</rt></ruby> 一時から 三時までです。<br><br>何時間 ありますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby><ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby><rt>にほんご</rt></ruby>の クラスは <ruby>午後<rt>ごご</rt></ruby> <ruby>一<rt>いち</rt></ruby><ruby>時<rt>とき</rt></ruby>から <ruby>三<rt>さん</rt></ruby><ruby>時<rt>とき</rt></ruby>までです。<br><br><ruby>何<rt>なに</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby> ありますか。",
         "options": [
           "一時間",
           "三時間",
@@ -2281,7 +2281,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q74",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）わたしは <ruby>日本<rt>にほん</rt></ruby>りょうりが 大好きです。とくに すしが 好きです。<br><br>何が 一番 好きですか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）わたしは <ruby>日本<rt>にほん</rt></ruby>りょうりが <ruby><ruby>大<rt>おお</rt></ruby><ruby>好き<rt>すき</rt></ruby><rt>だいすき</rt></ruby>です。とくに すしが <ruby>好き<rt>すき</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby>が <ruby><ruby>一<rt>いち</rt></ruby><ruby>番<rt>ばん</rt></ruby><rt>いちばん</rt></ruby> <ruby>好き<rt>すき</rt></ruby>ですか。",
         "options": [
           "ラーメン",
           "てんぷら",
@@ -2294,7 +2294,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q75",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）週末は よく <ruby>日本<rt>にほん</rt></ruby>りょうりの レストランに 行きます。<br><br>いつ レストランに 行きますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby><rt>しゅうまつ</rt></ruby>は よく <ruby>日本<rt>にほん</rt></ruby>りょうりの レストランに <ruby>行<rt>い</rt></ruby>きます。<br><br>いつ レストランに <ruby>行<rt>い</rt></ruby>きますか。",
         "options": [
           "週末",
           "毎日",
@@ -2307,7 +2307,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q76",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）<ruby>友<rt>とも</rt></ruby>だちと いっしょに 食べます。とても たのしいです。<br><br>だれと 食べますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby>友<rt>とも</rt></ruby>だちと いっしょに <ruby>食<rt>た</rt></ruby>べます。とても たのしいです。<br><br>だれと <ruby>食<rt>た</rt></ruby>べますか。",
         "options": [
           "一人で",
           "友だち",
@@ -2320,7 +2320,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q77",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）<ruby>来週<rt>らいしゅう</rt></ruby>の <ruby>土曜日<rt>どようび</rt></ruby>に <ruby>映画<rt>えいが</rt></ruby>を 見に 行きます。<br><br>いつ <ruby>映画<rt>えいが</rt></ruby>を 見ますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>来<rt>く</rt></ruby><ruby>週<rt>しゅう</rt></ruby><rt>らいしゅう</rt></ruby>の <ruby>土曜日<rt>どようび</rt></ruby>に <ruby>映画<rt>えいが</rt></ruby>を <ruby>見<rt>み</rt></ruby>に <ruby>行<rt>い</rt></ruby>きます。<br><br>いつ <ruby>映画<rt>えいが</rt></ruby>を <ruby>見<rt>み</rt></ruby>ますか。",
         "options": [
           "今週",
           "来月",
@@ -2333,7 +2333,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q78",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）<ruby>映画<rt>えいが</rt></ruby>の あとで レストランで 食事を します。<br><br><ruby>映画<rt>えいが</rt></ruby>の あとで 何を しますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby>映画<rt>えいが</rt></ruby>の あとで レストランで <ruby>食<rt>た</rt></ruby><ruby>事<rt>こと</rt></ruby>を します。<br><br><ruby>映画<rt>えいが</rt></ruby>の あとで <ruby>何<rt>なに</rt></ruby>を しますか。",
         "options": [
           "帰る",
           "買い物",
@@ -2346,7 +2346,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q79",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）いい 週末に なると いいですね。<br><br>どんな 週末に したいですか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）いい <ruby><ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby><rt>しゅうまつ</rt></ruby>に なると いいですね。<br><br>どんな <ruby><ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby><rt>しゅうまつ</rt></ruby>に したいですか。",
         "options": [
           "いい週末",
           "忙しい週末",
@@ -2359,7 +2359,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q80",
         "section": "言語知識（文法）・読解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【<ruby>図書館<rt>としょかん</rt></ruby>】<ruby>月曜日<rt>げつようび</rt></ruby>：休み　火〜日：9時〜19時<br><br><ruby>月曜日<rt>げつようび</rt></ruby>は どうですか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【<ruby><ruby>図<rt>と</rt></ruby><ruby>書<rt>か</rt></ruby><ruby>館<rt>かん</rt></ruby><rt>としょかん</rt></ruby>】<ruby>月曜日<rt>げつようび</rt></ruby>：<ruby>休<rt>やす</rt></ruby>み　火〜日：9<ruby>時<rt>とき</rt></ruby>〜19<ruby>時<rt>とき</rt></ruby><br><br><ruby>月曜日<rt>げつようび</rt></ruby>は どうですか。",
         "options": [
           "開いている",
           "休み",
@@ -2372,7 +2372,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q81",
         "section": "聴解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【<ruby>図書館<rt>としょかん</rt></ruby>】火〜日：9時〜19時<br><br>何時まで 開いていますか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【<ruby><ruby>図<rt>と</rt></ruby><ruby>書<rt>か</rt></ruby><ruby>館<rt>かん</rt></ruby><rt>としょかん</rt></ruby>】火〜日：9<ruby>時<rt>とき</rt></ruby>〜19<ruby>時<rt>とき</rt></ruby><br><br><ruby>何<rt>なに</rt></ruby><ruby>時<rt>とき</rt></ruby>まで <ruby>開<rt>あ</rt></ruby>いていますか。",
         "options": [
           "五時",
           "六時",
@@ -2385,7 +2385,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q82",
         "section": "聴解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【<ruby>図書館<rt>としょかん</rt></ruby>】祝日も 開いています<br><br>祝日は どうですか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【<ruby><ruby>図<rt>と</rt></ruby><ruby>書<rt>か</rt></ruby><ruby>館<rt>かん</rt></ruby><rt>としょかん</rt></ruby>】<ruby>祝日<rt>しゅくじつ</rt></ruby>も <ruby>開<rt>あ</rt></ruby>いています<br><br><ruby>祝日<rt>しゅくじつ</rt></ruby>は どうですか。",
         "options": [
           "休み",
           "午前だけ",
@@ -2398,7 +2398,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q83",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>今日<rt>きょう</rt></ruby>は 何を しますか。<br><ruby>男<rt>おとこ</rt></ruby>：そうですね、<ruby>買い物<rt>かいもの</rt></ruby>に 行きましょう。<br><br><ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は これから 何を しますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>今日<rt>きょう</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を しますか。<br><ruby>男<rt>おとこ</rt></ruby>：そうですね、<ruby><ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby><rt>かいもの</rt></ruby>に <ruby>行<rt>い</rt></ruby>きましょう。<br><br><ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は これから <ruby>何<rt>なに</rt></ruby>を しますか。",
         "options": [
           "買い物",
           "掃除",
@@ -2423,7 +2423,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q84",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "アナウンス：三番の バスは 10時に 出発します。<br><br>何番の バスに 乗りますか。",
+        "text": "アナウンス：<ruby><ruby>三<rt>さん</rt></ruby><ruby>番<rt>ばん</rt></ruby><rt>さんばん</rt></ruby>の バスは 10<ruby>時<rt>とき</rt></ruby>に <ruby>出<rt>で</rt></ruby>発します。<br><br><ruby>何<rt>なに</rt></ruby><ruby>番<rt>ばん</rt></ruby>の バスに 乗りますか。",
         "options": [
           "一番",
           "二番",
@@ -2449,7 +2449,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q86",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "先生：宿題は 明日 出してください。<br><br>いつ 宿題を 出しますか。",
+        "text": "<ruby>先<ruby>生<rt>せい</rt></ruby><rt>せんせい</rt></ruby>：<ruby>宿題<rt>しゅくだい</rt></ruby>は <ruby><ruby>明<rt>あか</rt></ruby>日<rt>あした</rt></ruby> <ruby>出<rt>で</rt></ruby>してください。<br><br>いつ <ruby>宿題<rt>しゅくだい</rt></ruby>を <ruby>出<rt>で</rt></ruby>しますか。",
         "options": [
           "明日",
           "明後日",
@@ -2462,7 +2462,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q87",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：あ、傘を 忘れました。<br><ruby>男<rt>おとこ</rt></ruby>：あそこに ありますよ。<br><br>何を 忘れましたか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：あ、<ruby>傘<rt>かさ</rt></ruby>を 忘れました。<br><ruby>男<rt>おとこ</rt></ruby>：あそこに ありますよ。<br><br><ruby>何<rt>なに</rt></ruby>を 忘れましたか。",
         "options": [
           "財布",
           "傘",
@@ -2475,7 +2475,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q88",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとと おんなのひとが はなしています。おとこのひとは なにが いちばん すきですか。<br>おんな：たなかさんは スポーツが すきですか。<br>おとこ：はい。サッカーや 野球が すきです。<br>おんな：テニスは？<br>おとこ：テニスも しますが、サッカーが いちばん すきです。<br><br>おとこのひとは なにが いちばん すきですか。",
+        "text": "おとこのひとと おんなのひとが はなしています。おとこのひとは なにが いちばん すきですか。<br>おんな：たなかさんは スポーツが すきですか。<br>おとこ：はい。サッカーや <ruby>野球<rt>やきゅう</rt></ruby>が すきです。<br>おんな：テニスは？<br>おとこ：テニスも しますが、サッカーが いちばん すきです。<br><br>おとこのひとは なにが いちばん すきですか。",
         "options": [
           "テニス",
           "野球",
@@ -2500,7 +2500,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q89",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：明日の パーティーに 行きますか。<br><ruby>男<rt>おとこ</rt></ruby>：病気ですから、行けません。<br><br>どうして 行きませんか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby><ruby>明<rt>あか</rt></ruby>日<rt>あした</rt></ruby>の パーティーに <ruby>行<rt>い</rt></ruby>きますか。<br><ruby>男<rt>おとこ</rt></ruby>：病気ですから、<ruby>行<rt>い</rt></ruby>けません。<br><br>どうして <ruby>行<rt>い</rt></ruby>きませんか。",
         "options": [
           "忙しいから",
           "寒いから",
@@ -2513,7 +2513,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q90",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>日本<rt>にほん</rt></ruby>りょうりで 何が 好きですか。<br><ruby>女<rt>おんな</rt></ruby>：すしが 一番 好きです。<br><br>何が 好きですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>日本<rt>にほん</rt></ruby>りょうりで <ruby>何<rt>なに</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>ですか。<br><ruby>女<rt>おんな</rt></ruby>：すしが <ruby><ruby>一<rt>いち</rt></ruby><ruby>番<rt>ばん</rt></ruby><rt>いちばん</rt></ruby> <ruby>好き<rt>すき</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>ですか。",
         "options": [
           "すし",
           "天ぷら",
@@ -2526,7 +2526,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q91",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：鍵は どこに ありますか。<br><ruby>男<rt>おとこ</rt></ruby>：机の <ruby>上<rt>うえ</rt></ruby>に あります。<br><br>どこに ありますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>鍵<rt>かぎ</rt></ruby>は どこに ありますか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>机<rt>つくえ</rt></ruby>の <ruby>上<rt>うえ</rt></ruby>に あります。<br><br>どこに ありますか。",
         "options": [
           "箱の中",
           "机の上",
@@ -2539,7 +2539,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q92",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "客：これは いくらですか。<br><ruby>店<rt>みせ</rt></ruby>員：三千円です。<br><br>いくらですか。",
+        "text": "<ruby>客<rt>きゃく</rt></ruby>：これは いくらですか。<br><ruby><ruby>店<rt>みせ</rt></ruby><ruby>員<rt>いん</rt></ruby><rt>てんいん</rt></ruby>：<ruby>三<rt>さん</rt></ruby><ruby><ruby>千<rt>せん</rt></ruby><ruby>円<rt>えん</rt></ruby><rt>せんえん</rt></ruby>です。<br><br>いくらですか。",
         "options": [
           "千円",
           "二千円",
@@ -2552,7 +2552,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q93",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：会議は 何時に 終わりますか。<br><ruby>女<rt>おんな</rt></ruby>：五時に 終わります。<br><br>何時に 終わりますか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>会議<rt>かいぎ</rt></ruby>は <ruby>何<rt>なに</rt></ruby><ruby>時<rt>とき</rt></ruby>に <ruby>終わり<rt>おわり</rt></ruby>ますか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>五<rt>ご</rt></ruby><ruby>時<rt>とき</rt></ruby>に <ruby>終わり<rt>おわり</rt></ruby>ます。<br><br><ruby>何<rt>なに</rt></ruby><ruby>時<rt>とき</rt></ruby>に <ruby>終わり<rt>おわり</rt></ruby>ますか。",
         "options": [
           "六時",
           "七時",
@@ -2565,7 +2565,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q94",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：旅行は 誰と 行きますか。<br><ruby>男<rt>おとこ</rt></ruby>：家族と 行きます。<br><br>誰と 行きますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby><ruby>旅<rt>たび</rt></ruby><ruby>行<rt>い</rt></ruby><rt>りょこう</rt></ruby>は <ruby>誰<rt>だれ</rt></ruby>と <ruby>行<rt>い</rt></ruby>きますか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby><ruby>家<rt>いえ</rt></ruby>族<rt>かぞく</rt></ruby>と <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>誰<rt>だれ</rt></ruby>と <ruby>行<rt>い</rt></ruby>きますか。",
         "options": [
           "家族",
           "友達",
@@ -2604,7 +2604,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M2_Q97",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "失礼します。<br><br>なんと こたえますか。",
+        "text": "<ruby>失礼<rt>しつれい</rt></ruby>します。<br><br>なんと こたえますか。",
         "options": [
           "すみません",
           "ありがとう",
@@ -2658,7 +2658,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q1",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>水</u>を 飲みます。<br><br>「水」のよみかたは？",
+        "text": "<u>水</u>を <ruby>飲<rt>の</rt></ruby>みます。<br><br>「水」のよみかたは？",
         "options": [
           "みず",
           "ひ",
@@ -2684,7 +2684,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q3",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>新</u>しい <ruby>本<rt>ほん</rt></ruby>を 買いました。<br><br>「新」のよみかたは？",
+        "text": "<u>新</u>しい <ruby>本<rt>ほん</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。<br><br>「新」のよみかたは？",
         "options": [
           "ふる",
           "やす",
@@ -2697,7 +2697,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q4",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "この <u>山</u>は 高いです。<br><br>「山」のよみかたは？",
+        "text": "この <u>山</u>は <ruby>高<rt>たか</rt></ruby>いです。<br><br>「山」のよみかたは？",
         "options": [
           "うみ",
           "かわ",
@@ -2723,7 +2723,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q6",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>四</u>時です。<br><br>「四」のよみかたは？",
+        "text": "<u>四</u><ruby>時<rt>とき</rt></ruby>です。<br><br>「四」のよみかたは？",
         "options": [
           "しじ",
           "よじ",
@@ -2749,7 +2749,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q8",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>何</u>を 飲みますか。<br><br>「何」のよみかたは？",
+        "text": "<u>何</u>を <ruby>飲<rt>の</rt></ruby>みますか。<br><br>「何」のよみかたは？",
         "options": [
           "だれ",
           "どこ",
@@ -2762,7 +2762,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q9",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>母</u>に <ruby>手<rt>て</rt></ruby>紙を 書きました。<br><br>「母」のよみかたは？",
+        "text": "<u>母</u>に <ruby>手<rt>て</rt></ruby><ruby>紙<rt>かみ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きました。<br><br>「母」のよみかたは？",
         "options": [
           "はは",
           "ちち",
@@ -2775,7 +2775,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q10",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>九日</u>は 休みです。<br><br>「九日」のよみかたは？",
+        "text": "<u>九日</u>は <ruby>休<rt>やす</rt></ruby>みです。<br><br>「九日」のよみかたは？",
         "options": [
           "きゅうにち",
           "ここのか",
@@ -2801,7 +2801,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q12",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>話</u>を 聞いてください。<br><br>「話」のよみかたは？",
+        "text": "<u>話</u>を <ruby>聞<rt>き</rt></ruby>いてください。<br><br>「話」のよみかたは？",
         "options": [
           "ことば",
           "よみ",
@@ -2814,7 +2814,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q13",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>くるま</u>で 行きます。<br><br>「くるま」のかきかたは？",
+        "text": "<u>くるま</u>で <ruby>行<rt>い</rt></ruby>きます。<br><br>「くるま」のかきかたは？",
         "options": [
           "車",
           "東",
@@ -2827,7 +2827,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q14",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>ともだち</u>と 遊びます。<br><br>「ともだち」のかきかたは？",
+        "text": "<u>ともだち</u>と <ruby>遊<rt>あそ</rt></ruby>びます。<br><br>「ともだち」のかきかたは？",
         "options": [
           "父",
           "友",
@@ -2840,7 +2840,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q15",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>そと</u>に 出ます。<br><br>「そと」のかきかたは？",
+        "text": "<u>そと</u>に <ruby>出<rt>で</rt></ruby>ます。<br><br>「そと」のかきかたは？",
         "options": [
           "中",
           "右",
@@ -2866,7 +2866,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q17",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>ひる</u> ごはんを 食べます。<br><br>「ひる」のかきかたは？",
+        "text": "<u>ひる</u> ごはんを <ruby>食<rt>た</rt></ruby>べます。<br><br>「ひる」のかきかたは？",
         "options": [
           "昼",
           "朝",
@@ -2879,7 +2879,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q18",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>いちねん</u>に 一回 旅行します。<br><br>「いちねん」のかきかたは？",
+        "text": "<u>いちねん</u>に <ruby><ruby>一<rt>いち</rt></ruby><ruby>回<rt>かい</rt></ruby><rt>いっかい</rt></ruby> <ruby><ruby>旅<rt>たび</rt></ruby><ruby>行<rt>い</rt></ruby><rt>りょこう</rt></ruby>します。<br><br>「いちねん」のかきかたは？",
         "options": [
           "一月",
           "一年",
@@ -2892,7 +2892,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q19",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>みち</u>を 歩きます。<br><br>「みち」のかきかたは？",
+        "text": "<u>みち</u>を <ruby>歩<rt>ある</rt></ruby>きます。<br><br>「みち」のかきかたは？",
         "options": [
           "車",
           "駅",
@@ -2905,7 +2905,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q20",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>ごご</u> 三時です。<br><br>「ごご」のかきかたは？",
+        "text": "<u>ごご</u> <ruby>三<rt>さん</rt></ruby><ruby>時<rt>とき</rt></ruby>です。<br><br>「ごご」のかきかたは？",
         "options": [
           "午前",
           "今夜",
@@ -2918,7 +2918,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q21",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "エレベーターが （　　）ですから、階段を 使いましょう。<br><br>（　）になにがはいりますか。",
+        "text": "エレベーターが （　　）ですから、<ruby>階段<rt>かいだん</rt></ruby>を <ruby>使<rt>つか</rt></ruby>いましょう。<br><br>（　）になにがはいりますか。",
         "options": [
           "とまっています",
           "うごいています",
@@ -2931,7 +2931,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q22",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "この りんごは 五つで （　　）円です。やすいですね。<br><br>（　）になにがはいりますか。",
+        "text": "この りんごは <ruby><ruby>五<rt>ご</rt></ruby>つ<rt>いつつ</rt></ruby>で （　　）<ruby>円<rt>えん</rt></ruby>です。やすいですね。<br><br>（　）になにがはいりますか。",
         "options": [
           "ぜんぶ",
           "五百",
@@ -2957,7 +2957,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q24",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を つけてください。暗いですから。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を つけてください。<ruby>暗<rt>くら</rt></ruby>いですから。<br><br>（　）になにがはいりますか。",
         "options": [
           "エアコン",
           "ラジオ",
@@ -2970,7 +2970,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q25",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "おなかが （　　）ですから、何か 食べましょう。<br><br>（　）になにがはいりますか。",
+        "text": "おなかが （　　）ですから、<ruby>何<rt>なに</rt></ruby>か <ruby>食<rt>た</rt></ruby>べましょう。<br><br>（　）になにがはいりますか。",
         "options": [
           "すきました",
           "いたいです",
@@ -2996,7 +2996,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q27",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "あの <ruby>人<rt>ひと</rt></ruby>は （　　）が 高いですね。<br><br>（　）になにがはいりますか。",
+        "text": "あの <ruby>人<rt>ひと</rt></ruby>は （　　）が <ruby>高<rt>たか</rt></ruby>いですね。<br><br>（　）になにがはいりますか。",
         "options": [
           "め",
           "はな",
@@ -3022,7 +3022,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q29",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）に <ruby>買い物<rt>かいもの</rt></ruby>に 行きます。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）に <ruby><ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby><rt>かいもの</rt></ruby>に <ruby>行<rt>い</rt></ruby>きます。<br><br>（　）になにがはいりますか。",
         "options": [
           "スーパー",
           "ポスト",
@@ -3035,7 +3035,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q30",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を 見て、時間を 確認します。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を <ruby>見<rt>み</rt></ruby>て、<ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>を <ruby>確認<rt>かくにん</rt></ruby>します。<br><br>（　）になにがはいりますか。",
         "options": [
           "ノート",
           "とけい",
@@ -3061,7 +3061,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q32",
         "section": "言語知識（文法）・読解",
         "type": "言い換え類義",
-        "text": "<u>すぐ</u> 行きます。<br><br>「すぐ」に ちかい いみの ことばは？",
+        "text": "<u>すぐ</u> <ruby>行<rt>い</rt></ruby>きます。<br><br>「すぐ」に ちかい いみの ことばは？",
         "options": [
           "あとで",
           "ゆっくり",
@@ -3074,7 +3074,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q33",
         "section": "言語知識（文法）・読解",
         "type": "言い換え類義",
-        "text": "<u>ちょうど</u> 一時です。<br><br>「ちょうど」に ちかい いみの ことばは？",
+        "text": "<u>ちょうど</u> <ruby>一<rt>いち</rt></ruby><ruby>時<rt>とき</rt></ruby>です。<br><br>「ちょうど」に ちかい いみの ことばは？",
         "options": [
           "ぴったり",
           "だいたい",
@@ -3087,7 +3087,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q34",
         "section": "言語知識（文法）・読解",
         "type": "言い換え類義",
-        "text": "この 料理は <u>まずい</u>です。<br><br>「まずい」に ちかい いみの ことばは？",
+        "text": "この <ruby>料理<rt>りょうり</rt></ruby>は <u>まずい</u>です。<br><br>「まずい」に ちかい いみの ことばは？",
         "options": [
           "からい",
           "おいしくない",
@@ -3178,7 +3178,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q41",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "ペン（　　） <ruby>手<rt>て</rt></ruby>紙を 書きました。<br><br>（　）になにがはいりますか。",
+        "text": "ペン（　　） <ruby>手<rt>て</rt></ruby><ruby>紙<rt>かみ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きました。<br><br>（　）になにがはいりますか。",
         "options": [
           "で",
           "を",
@@ -3191,7 +3191,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q42",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "だれ（　　） 来ませんでした。<br><br>（　）になにがはいりますか。",
+        "text": "だれ（　　） <ruby>来<rt>く</rt></ruby>ませんでした。<br><br>（　）になにがはいりますか。",
         "options": [
           "に",
           "も",
@@ -3204,7 +3204,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q43",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あした <ruby>学校<rt>がっこう</rt></ruby>へ 行く（　　）が できません。<br><br>（　）になにがはいりますか。",
+        "text": "あした <ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>く（　　）が できません。<br><br>（　）になにがはいりますか。",
         "options": [
           "もの",
           "の",
@@ -3230,7 +3230,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q45",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "この 部屋は （　　） ありません。<br><br>（　）になにがはいりますか。",
+        "text": "この <ruby>部屋<rt>へや</rt></ruby>は （　　） ありません。<br><br>（　）になにがはいりますか。",
         "options": [
           "しずかでは",
           "しずかだ",
@@ -3243,7 +3243,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q46",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "お酒を （　　）ください。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>お<ruby>酒<rt>さけ</rt></ruby><rt>おさけ</rt></ruby>を （　　）ください。<br><br>（　）になにがはいりますか。",
         "options": [
           "のまなくて",
           "のまないで",
@@ -3256,7 +3256,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q47",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "もう 宿題を （　　）しまいました。<br><br>（　）になにがはいりますか。",
+        "text": "もう <ruby>宿題<rt>しゅくだい</rt></ruby>を （　　）しまいました。<br><br>（　）になにがはいりますか。",
         "options": [
           "する",
           "した",
@@ -3269,7 +3269,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q48",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "おんがくを （　　）ことが 好きです。<br><br>（　）になにがはいりますか。",
+        "text": "おんがくを （　　）ことが <ruby>好き<rt>すき</rt></ruby>です。<br><br>（　）になにがはいりますか。",
         "options": [
           "きいた",
           "きいて",
@@ -3282,7 +3282,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q49",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "昨日 （　　） <ruby>映画<rt>えいが</rt></ruby>は おもしろかったです。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>昨日<rt>きのう</rt></ruby> （　　） <ruby>映画<rt>えいが</rt></ruby>は おもしろかったです。<br><br>（　）になにがはいりますか。",
         "options": [
           "みた",
           "みて",
@@ -3295,7 +3295,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q50",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "コーヒー（　　） 紅茶、どちらが 好きですか。<br><br>（　）になにがはいりますか。",
+        "text": "コーヒー（　　） <ruby>紅<ruby>茶<rt>ちゃ</rt></ruby><rt>こうちゃ</rt></ruby>、どちらが <ruby>好き<rt>すき</rt></ruby>ですか。<br><br>（　）になにがはいりますか。",
         "options": [
           "か",
           "と",
@@ -3308,7 +3308,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q51",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "これは わたし（　　） 撮った 写真です。<br><br>（　）になにがはいりますか。",
+        "text": "これは わたし（　　） <ruby>撮<rt>と</rt></ruby>った <ruby>写真<rt>しゃしん</rt></ruby>です。<br><br>（　）になにがはいりますか。",
         "options": [
           "を",
           "に",
@@ -3321,7 +3321,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q52",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "<ruby>来週<rt>らいしゅう</rt></ruby> （　　）に 会います。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby><ruby>来<rt>く</rt></ruby><ruby>週<rt>しゅう</rt></ruby><rt>らいしゅう</rt></ruby> （　　）に 会います。<br><br>（　）になにがはいりますか。",
         "options": [
           "だれ",
           "なにか",
@@ -3334,7 +3334,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q53",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "この バスは <ruby>駅<rt>えき</rt></ruby>（　　） 行きます。<br><br>（　）になにがはいりますか。",
+        "text": "この バスは <ruby>駅<rt>えき</rt></ruby>（　　） <ruby>行<rt>い</rt></ruby>きます。<br><br>（　）になにがはいりますか。",
         "options": [
           "まで",
           "から",
@@ -3347,7 +3347,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q54",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あそこに 猫が （　　） います。<br><br>（　）になにがはいりますか。",
+        "text": "あそこに <ruby>猫<rt>ねこ</rt></ruby>が （　　） います。<br><br>（　）になにがはいりますか。",
         "options": [
           "ひとつ",
           "いっぴき",
@@ -3360,7 +3360,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q55",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "<ruby>今日<rt>きょう</rt></ruby>は （　　） 寒いですね。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>今日<rt>きょう</rt></ruby>は （　　） <ruby>寒い<rt>さむい</rt></ruby>ですね。<br><br>（　）になにがはいりますか。",
         "options": [
           "あまり",
           "すこし",
@@ -3373,7 +3373,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q56",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "わたしは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>朝<rt>あさ</rt></ruby> 牛乳を 一回 飲みます。<br><br>★に入るものはどれですか。",
+        "text": "わたしは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>朝<rt>あさ</rt></ruby> <ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>を <ruby><ruby>一<rt>いち</rt></ruby><ruby>回<rt>かい</rt></ruby><rt>いっかい</rt></ruby> <ruby>飲<rt>の</rt></ruby>みます。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "毎日",
           "朝",
@@ -3386,7 +3386,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q57",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "その 言葉の 意味を わたしに ちょっと 教えてください。<br><br>★に入るものはどれですか。",
+        "text": "その <ruby>言葉<rt>ことば</rt></ruby>の <ruby>意<ruby>味<rt>あじ</rt></ruby><rt>いみ</rt></ruby>を わたしに ちょっと <ruby>教<rt>おし</rt></ruby>えてください。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "言葉の",
           "意味を",
@@ -3399,7 +3399,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q58",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "昨日は あまり <ruby>天気<rt>てんき</rt></ruby>は 良く ありませんでした。<br><br>★に入るものはどれですか。",
+        "text": "<ruby>昨日<rt>きのう</rt></ruby>は あまり <ruby>天気<rt>てんき</rt></ruby>は <ruby>良<rt>よ</rt></ruby>く ありませんでした。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "あまり",
           "天気は",
@@ -3412,7 +3412,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q59",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "<ruby>駅<rt>えき</rt></ruby>の 近くに 小さな 交番 が あります。<br><br>★に入るものはどれですか。",
+        "text": "<ruby>駅<rt>えき</rt></ruby>の <ruby>近<rt>ちか</rt></ruby>くに <ruby>小<rt>ちい</rt></ruby>さな <ruby>交<ruby>番<rt>ばん</rt></ruby><rt>こうばん</rt></ruby> が あります。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "近くに",
           "交番",
@@ -3425,7 +3425,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q60",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "田<ruby>中<rt>なか</rt></ruby>さんは <ruby>白<rt>しろ</rt></ruby>い 帽<ruby>子<rt>こ</rt></ruby>を かぶって います。<br><br>★に入るものはどれですか。",
+        "text": "<ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんは <ruby>白<rt>しろ</rt></ruby>い <ruby>帽<ruby>子<rt>こ</rt></ruby><rt>ぼうし</rt></ruby>を かぶって います。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "白い",
           "帽子を",
@@ -3438,7 +3438,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q61",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（メール）ジョンさん、<ruby>元気<rt>げんき</rt></ruby>ですか。わたしは <ruby>来週<rt>らいしゅう</rt></ruby> （ 1 ） します。<br><br>（ 1 ）になにがはいりますか。",
+        "text": "（メール）ジョンさん、<ruby>元気<rt>げんき</rt></ruby>ですか。わたしは <ruby><ruby>来<rt>く</rt></ruby><ruby>週<rt>しゅう</rt></ruby><rt>らいしゅう</rt></ruby> （ 1 ） します。<br><br>（ 1 ）になにがはいりますか。",
         "options": [
           "引越しを",
           "掃除を",
@@ -3451,7 +3451,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q62",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（メール）ですから、今 部屋が とても （ 2 ）。<br><br>（ 2 ）になにがはいりますか。",
+        "text": "（メール）ですから、今 <ruby>部屋<rt>へや</rt></ruby>が とても （ 2 ）。<br><br>（ 2 ）になにがはいりますか。",
         "options": [
           "きれいです",
           "散らかっています",
@@ -3464,7 +3464,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q63",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（メール）荷物が たくさん （ 3 ）。<br><br>（ 3 ）になにがはいりますか。",
+        "text": "（メール）<ruby>荷<ruby>物<rt>もの</rt></ruby><rt>にもつ</rt></ruby>が たくさん （ 3 ）。<br><br>（ 3 ）になにがはいりますか。",
         "options": [
           "あります",
           "ありますから",
@@ -3490,7 +3490,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q65",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（メール）お返事を （ 5 ）。<br><br>（ 5 ）になにがはいりますか。",
+        "text": "（メール）お<ruby><ruby>返<rt>かえ</rt></ruby><ruby>事<rt>こと</rt></ruby><rt>へんじ</rt></ruby>を （ 5 ）。<br><br>（ 5 ）になにがはいりますか。",
         "options": [
           "待っています",
           "待っていました",
@@ -3503,7 +3503,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q66",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）わたしは <ruby>本<rt>ほん</rt></ruby>を 読むのが 好きです。昨日は <ruby>図書館<rt>としょかん</rt></ruby>で 三時間 読みました。<br><br>昨日は どこで <ruby>本<rt>ほん</rt></ruby>を 読みましたか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）わたしは <ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>むのが <ruby>好き<rt>すき</rt></ruby>です。<ruby>昨日<rt>きのう</rt></ruby>は <ruby><ruby>図<rt>と</rt></ruby><ruby>書<rt>か</rt></ruby><ruby>館<rt>かん</rt></ruby><rt>としょかん</rt></ruby>で <ruby>三<rt>さん</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby> <ruby>読<rt>よ</rt></ruby>みました。<br><br><ruby>昨日<rt>きのう</rt></ruby>は どこで <ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みましたか。",
         "options": [
           "家",
           "図書館",
@@ -3516,7 +3516,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q67",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）<ruby>今日<rt>きょう</rt></ruby>は <ruby>雨<rt>あめ</rt></ruby>ですから、自転車で 行きません。バスで 行きます。<br><br><ruby>今日<rt>きょう</rt></ruby>は 何で 行きますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>今日<rt>きょう</rt></ruby>は <ruby>雨<rt>あめ</rt></ruby>ですから、<ruby>自転<ruby>車<rt>くるま</rt></ruby><rt>じてんしゃ</rt></ruby>で <ruby>行<rt>い</rt></ruby>きません。バスで <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>今日<rt>きょう</rt></ruby>は <ruby>何<rt>なに</rt></ruby>で <ruby>行<rt>い</rt></ruby>きますか。",
         "options": [
           "自転車",
           "徒歩",
@@ -3529,7 +3529,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q68",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）この 料理は 少し 辛いですが、とても おいしいです。<br><br>この 料理は どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）この <ruby>料理<rt>りょうり</rt></ruby>は <ruby>少<rt>すく</rt></ruby>し <ruby>辛い<rt>からい</rt></ruby>ですが、とても おいしいです。<br><br>この <ruby>料理<rt>りょうり</rt></ruby>は どうですか。",
         "options": [
           "甘くておいしい",
           "辛くてまずい",
@@ -3542,7 +3542,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q69",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）わたしの <ruby>会社<rt>かいしゃ</rt></ruby>は 九時に 始まります。五時に 終わります。<br><br><ruby>会社<rt>かいしゃ</rt></ruby>は 何時に 終わりますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）わたしの <ruby>会社<rt>かいしゃ</rt></ruby>は <ruby>九<rt>きゅう</rt></ruby><ruby>時<rt>とき</rt></ruby>に 始まります。<ruby>五<rt>ご</rt></ruby><ruby>時<rt>とき</rt></ruby>に <ruby>終わり<rt>おわり</rt></ruby>ます。<br><br><ruby>会社<rt>かいしゃ</rt></ruby>は <ruby>何<rt>なに</rt></ruby><ruby>時<rt>とき</rt></ruby>に <ruby>終わり<rt>おわり</rt></ruby>ますか。",
         "options": [
           "五時",
           "七時",
@@ -3555,7 +3555,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q70",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）田<ruby>中<rt>なか</rt></ruby>さんは 背が 高くて、髪が 短い <ruby>人<rt>ひと</rt></ruby>です。<br><br>田<ruby>中<rt>なか</rt></ruby>さんは どんな <ruby>人<rt>ひと</rt></ruby>ですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんは <ruby>背<rt>せ</rt></ruby>が <ruby>高<rt>たか</rt></ruby>くて、<ruby>髪<rt>かみ</rt></ruby>が 短い <ruby>人<rt>ひと</rt></ruby>です。<br><br><ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんは どんな <ruby>人<rt>ひと</rt></ruby>ですか。",
         "options": [
           "背が低くて髪が長い",
           "背が高くて髪が短い",
@@ -3568,7 +3568,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q71",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）冷蔵庫に 牛乳が 三<ruby>本<rt>ほん</rt></ruby> あります。卵も あります。<br><br>冷蔵庫に 何が ありますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>に <ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>が <ruby>三<rt>さん</rt></ruby><ruby>本<rt>ほん</rt></ruby> あります。<ruby>卵<rt>たまご</rt></ruby>も あります。<br><br><ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>に <ruby>何<rt>なに</rt></ruby>が ありますか。",
         "options": [
           "水",
           "お肉",
@@ -3581,7 +3581,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q72",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）<ruby>来週<rt>らいしゅう</rt></ruby> <ruby>友<rt>とも</rt></ruby>だちと 旅行に 行きます。とても 楽しみです。<br><br>いつ 旅行に 行きますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby><ruby>来<rt>く</rt></ruby><ruby>週<rt>しゅう</rt></ruby><rt>らいしゅう</rt></ruby> <ruby>友<rt>とも</rt></ruby>だちと <ruby><ruby>旅<rt>たび</rt></ruby><ruby>行<rt>い</rt></ruby><rt>りょこう</rt></ruby>に <ruby>行<rt>い</rt></ruby>きます。とても <ruby>楽しみ<rt>たのしみ</rt></ruby>です。<br><br>いつ <ruby><ruby>旅<rt>たび</rt></ruby><ruby>行<rt>い</rt></ruby><rt>りょこう</rt></ruby>に <ruby>行<rt>い</rt></ruby>きますか。",
         "options": [
           "今週",
           "来月",
@@ -3594,7 +3594,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q73",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "わたしの あたらしい 家は、<ruby>駅<rt>えき</rt></ruby>から 歩いて 五分です。近くに コンビニが <ruby>二つ<rt>ふたつ</rt></ruby> あります。とても 便利ですが、車の おとが 少し うるさいです。部屋は <ruby>三つ<rt>みっつ</rt></ruby> あります。明るくて <ruby>白<rt>しろ</rt></ruby>い 部屋です。わたしは この 家が 好きです。<br><br>家は どこに ありますか。",
+        "text": "わたしの あたらしい <ruby>家<rt>いえ</rt></ruby>は、<ruby>駅<rt>えき</rt></ruby>から <ruby>歩<rt>ある</rt></ruby>いて <ruby>五<rt>ご</rt></ruby><ruby>分<rt>ふん</rt></ruby>です。<ruby>近<rt>ちか</rt></ruby>くに コンビニが <ruby><ruby>二<rt>に</rt></ruby>つ<rt>ふたつ</rt></ruby> あります。とても <ruby>便利<rt>べんり</rt></ruby>ですが、<ruby>車<rt>くるま</rt></ruby>の おとが <ruby>少<rt>すく</rt></ruby>し うるさいです。<ruby>部屋<rt>へや</rt></ruby>は <ruby><ruby>三<rt>さん</rt></ruby>つ<rt>みっつ</rt></ruby> あります。<ruby>明<rt>あか</rt></ruby>るくて <ruby>白<rt>しろ</rt></ruby>い <ruby>部屋<rt>へや</rt></ruby>です。わたしは この <ruby>家<rt>いえ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>です。<br><br><ruby>家<rt>いえ</rt></ruby>は どこに ありますか。",
         "options": [
           "駅の 中",
           "駅から 近い ところ",
@@ -3607,7 +3607,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q74",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "わたしの あたらしい 家は、<ruby>駅<rt>えき</rt></ruby>から 歩いて 五分です。近くに コンビニが <ruby>二つ<rt>ふたつ</rt></ruby> あります。とても 便利ですが、車の おとが 少し うるさいです。部屋は <ruby>三つ<rt>みっつ</rt></ruby> あります。明るくて <ruby>白<rt>しろ</rt></ruby>い 部屋です。わたしは この 家が 好きです。<br><br>家は どうですか。",
+        "text": "わたしの あたらしい <ruby>家<rt>いえ</rt></ruby>は、<ruby>駅<rt>えき</rt></ruby>から <ruby>歩<rt>ある</rt></ruby>いて <ruby>五<rt>ご</rt></ruby><ruby>分<rt>ふん</rt></ruby>です。<ruby>近<rt>ちか</rt></ruby>くに コンビニが <ruby><ruby>二<rt>に</rt></ruby>つ<rt>ふたつ</rt></ruby> あります。とても <ruby>便利<rt>べんり</rt></ruby>ですが、<ruby>車<rt>くるま</rt></ruby>の おとが <ruby>少<rt>すく</rt></ruby>し うるさいです。<ruby>部屋<rt>へや</rt></ruby>は <ruby><ruby>三<rt>さん</rt></ruby>つ<rt>みっつ</rt></ruby> あります。<ruby>明<rt>あか</rt></ruby>るくて <ruby>白<rt>しろ</rt></ruby>い <ruby>部屋<rt>へや</rt></ruby>です。わたしは この <ruby>家<rt>いえ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>です。<br><br><ruby>家<rt>いえ</rt></ruby>は どうですか。",
         "options": [
           "不便だが 静かだ",
           "便利だが うるさい",
@@ -3620,7 +3620,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q75",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）部屋は <ruby>二つ<rt>ふたつ</rt></ruby> あります。キッチンも 広いです。<br><br>部屋は いくつ ありますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby>部屋<rt>へや</rt></ruby>は <ruby><ruby>二<rt>に</rt></ruby>つ<rt>ふたつ</rt></ruby> あります。キッチンも <ruby>広<rt>ひろ</rt></ruby>いです。<br><br><ruby>部屋<rt>へや</rt></ruby>は いくつ ありますか。",
         "options": [
           "二つ",
           "一つ",
@@ -3633,7 +3633,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q76",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）窓から <ruby>山<rt>やま</rt></ruby>が 見えます。とても きれいです。<br><br>窓から 何が 見えますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>窓<rt>まど</rt></ruby><rt>まど</rt></ruby>から <ruby>山<rt>やま</rt></ruby>が <ruby>見<rt>み</rt></ruby>えます。とても きれいです。<br><br><ruby><ruby>窓<rt>まど</rt></ruby><rt>まど</rt></ruby>から <ruby>何<rt>なに</rt></ruby>が <ruby>見<rt>み</rt></ruby>えますか。",
         "options": [
           "海",
           "川",
@@ -3646,7 +3646,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q77",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）わたしの しゅみは 写真を とることです。週末に よく カメラを もって でかけます。<br><br>しゅみは 何ですか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）わたしの しゅみは <ruby>写真<rt>しゃしん</rt></ruby>を とることです。<ruby><ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby><rt>しゅうまつ</rt></ruby>に よく カメラを もって でかけます。<br><br>しゅみは <ruby>何<rt>なに</rt></ruby>ですか。",
         "options": [
           "旅行",
           "料理",
@@ -3659,7 +3659,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q78",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）<ruby>先週<rt>せんしゅう</rt></ruby>は 公園で <ruby>花<rt>はな</rt></ruby>の 写真を たくさん とりました。<br><br><ruby>先週<rt>せんしゅう</rt></ruby> 何の 写真を とりましたか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby>先<ruby>週<rt>しゅう</rt></ruby><rt>せんしゅう</rt></ruby>は <ruby>公<ruby>園<rt>えん</rt></ruby><rt>こうえん</rt></ruby>で <ruby>花<rt>はな</rt></ruby>の <ruby>写真<rt>しゃしん</rt></ruby>を たくさん とりました。<br><br><ruby>先<ruby>週<rt>しゅう</rt></ruby><rt>せんしゅう</rt></ruby> <ruby>何<rt>なに</rt></ruby>の <ruby>写真<rt>しゃしん</rt></ruby>を とりましたか。",
         "options": [
           "花",
           "鳥",
@@ -3672,7 +3672,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q79",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）<ruby>来月<rt>らいげつ</rt></ruby> 写真の コンテストに 出します。<br><br><ruby>来月<rt>らいげつ</rt></ruby> 何を しますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>来<rt>く</rt></ruby>月<rt>らいげつ</rt></ruby> <ruby>写真<rt>しゃしん</rt></ruby>の コンテストに <ruby>出<rt>で</rt></ruby>します。<br><br><ruby><ruby>来<rt>く</rt></ruby>月<rt>らいげつ</rt></ruby> <ruby>何<rt>なに</rt></ruby>を しますか。",
         "options": [
           "旅行に行く",
           "写真を撮る",
@@ -3685,7 +3685,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q80",
         "section": "言語知識（文法）・読解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【<ruby>映画<rt>えいが</rt></ruby>館】大<ruby>人<rt>ひと</rt></ruby>：千五百円　<ruby>子供<rt>こども</rt></ruby>：八百円<br><br><ruby>子供<rt>こども</rt></ruby>は いくらですか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【<ruby><ruby>映画<rt>えいが</rt></ruby><ruby>館<rt>かん</rt></ruby><rt>えいがかん</rt></ruby>】<ruby>大<rt>おお</rt></ruby><ruby>人<rt>ひと</rt></ruby>：<ruby>千<rt>せん</rt></ruby><ruby>五<rt>ご</rt></ruby><ruby><ruby>百<rt>ひゃく</rt></ruby><ruby>円<rt>えん</rt></ruby><rt>ひゃくえん</rt></ruby>　<ruby>子供<rt>こども</rt></ruby>：<ruby>八<rt>はち</rt></ruby><ruby><ruby>百<rt>ひゃく</rt></ruby><ruby>円<rt>えん</rt></ruby><rt>ひゃくえん</rt></ruby><br><br><ruby>子供<rt>こども</rt></ruby>は いくらですか。",
         "options": [
           "五百円",
           "千円",
@@ -3698,7 +3698,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q81",
         "section": "聴解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【<ruby>映画<rt>えいが</rt></ruby>館】<ruby>上<rt>うえ</rt></ruby>映時間：10時、13時、16時、19時<br><br>最<ruby>後<rt>うしろ</rt></ruby>の 回は 何時に 始まりますか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【<ruby><ruby>映画<rt>えいが</rt></ruby><ruby>館<rt>かん</rt></ruby><rt>えいがかん</rt></ruby>】<ruby>上<rt>うえ</rt></ruby>映<ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>：10<ruby>時<rt>とき</rt></ruby>、13<ruby>時<rt>とき</rt></ruby>、16<ruby>時<rt>とき</rt></ruby>、19<ruby>時<rt>とき</rt></ruby><br><br><ruby>最<ruby>後<rt>うしろ</rt></ruby><rt>さいご</rt></ruby>の <ruby>回<rt>かい</rt></ruby>は <ruby>何<rt>なに</rt></ruby><ruby>時<rt>とき</rt></ruby>に 始まりますか。",
         "options": [
           "六時",
           "七時",
@@ -3711,7 +3711,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q82",
         "section": "聴解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【<ruby>映画<rt>えいが</rt></ruby>館】<ruby>水曜日<rt>すいようび</rt></ruby>はサービスデイ　全員千円<br><br><ruby>水曜日<rt>すいようび</rt></ruby>は 何の日ですか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【<ruby><ruby>映画<rt>えいが</rt></ruby><ruby>館<rt>かん</rt></ruby><rt>えいがかん</rt></ruby>】<ruby>水曜日<rt>すいようび</rt></ruby>はサービスデイ　<ruby>全<ruby>員<rt>いん</rt></ruby><rt>ぜんいん</rt></ruby><ruby><ruby>千<rt>せん</rt></ruby><ruby>円<rt>えん</rt></ruby><rt>せんえん</rt></ruby><br><br><ruby>水曜日<rt>すいようび</rt></ruby>は <ruby>何<rt>なに</rt></ruby>の日ですか。",
         "options": [
           "サービスデイ",
           "レディースデイ",
@@ -3724,7 +3724,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q83",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：何を 飲みますか。<br><ruby>女<rt>おんな</rt></ruby>：わたしは コーヒーを。<br><ruby>男<rt>おとこ</rt></ruby>：わたしは ビールに します。<br><br><ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は 何を 飲みますか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>何<rt>なに</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みますか。<br><ruby>女<rt>おんな</rt></ruby>：わたしは コーヒーを。<br><ruby>男<rt>おとこ</rt></ruby>：わたしは ビールに します。<br><br><ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みますか。",
         "options": [
           "水",
           "ビール",
@@ -3737,7 +3737,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q84",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "先生：宿題は <ruby>水曜日<rt>すいようび</rt></ruby>までに 出してください。<br><br>いつ 宿題を 出しますか。",
+        "text": "<ruby>先<ruby>生<rt>せい</rt></ruby><rt>せんせい</rt></ruby>：<ruby>宿題<rt>しゅくだい</rt></ruby>は <ruby>水曜日<rt>すいようび</rt></ruby>までに <ruby>出<rt>で</rt></ruby>してください。<br><br>いつ <ruby>宿題<rt>しゅくだい</rt></ruby>を <ruby>出<rt>で</rt></ruby>しますか。",
         "options": [
           "月曜日",
           "火曜日",
@@ -3750,7 +3750,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q85",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>電話<rt>でんわ</rt></ruby>番号は 03-1234-5678です。<br><br>正しい 番号は どれですか。",
+        "text": "<ruby><ruby>電<rt>でん</rt></ruby><ruby>話<rt>はな</rt></ruby><rt>でんわ</rt></ruby><ruby><ruby>番<rt>ばん</rt></ruby><ruby>号<rt>ごう</rt></ruby><rt>ばんごう</rt></ruby>は 03-1234-5678です。<br><br>正しい <ruby><ruby>番<rt>ばん</rt></ruby><ruby>号<rt>ごう</rt></ruby><rt>ばんごう</rt></ruby>は どれですか。",
         "options": [
           "03-1234-5679",
           "03-1234-5668",
@@ -3763,7 +3763,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q86",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：何時に 会いましょうか。<br><ruby>女<rt>おんな</rt></ruby>：六時半は どうですか。<br><ruby>男<rt>おとこ</rt></ruby>：いいですよ。<br><br>何時に 会いますか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>何<rt>なに</rt></ruby><ruby>時<rt>とき</rt></ruby>に 会いましょうか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>六<rt>ろく</rt></ruby><ruby>時<rt>とき</rt></ruby><ruby>半<rt>はん</rt></ruby>は どうですか。<br><ruby>男<rt>おとこ</rt></ruby>：いいですよ。<br><br><ruby>何<rt>なに</rt></ruby><ruby>時<rt>とき</rt></ruby>に 会いますか。",
         "options": [
           "六時半",
           "六時",
@@ -3776,7 +3776,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q87",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "先生：明日は 遠<ruby>足<rt>あし</rt></ruby>です。<ruby>飲み物<rt>のみもの</rt></ruby>を 持って来てください。<br><br>何を 持って行きますか。",
+        "text": "<ruby>先<ruby>生<rt>せい</rt></ruby><rt>せんせい</rt></ruby>：<ruby><ruby>明<rt>あか</rt></ruby>日<rt>あした</rt></ruby>は <ruby>遠<rt>とお</rt></ruby><ruby>足<rt>あし</rt></ruby>です。<ruby><ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby><rt>のみもの</rt></ruby>を <ruby>持<rt>も</rt></ruby>って<ruby>来<rt>く</rt></ruby>てください。<br><br><ruby>何<rt>なに</rt></ruby>を <ruby>持<rt>も</rt></ruby>って<ruby>行<rt>い</rt></ruby>きますか。",
         "options": [
           "お弁当",
           "飲み物",
@@ -3789,7 +3789,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q88",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：何を あげますか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>本<rt>ほん</rt></ruby>を あげようと 思います。<br><br>何を あげますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>何<rt>なに</rt></ruby>を あげますか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>本<rt>ほん</rt></ruby>を あげようと <ruby>思<rt>おも</rt></ruby>います。<br><br><ruby>何<rt>なに</rt></ruby>を あげますか。",
         "options": [
           "花",
           "時計",
@@ -3802,7 +3802,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q89",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：どうして 遅れましたか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>電車<rt>でんしゃ</rt></ruby>が 遅れたんです。<br><br>どうして 遅れましたか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：どうして <ruby>遅<rt>おそ</rt></ruby>れましたか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby><ruby>電<rt>でん</rt></ruby><ruby>車<rt>くるま</rt></ruby><rt>でんしゃ</rt></ruby>が <ruby>遅<rt>おそ</rt></ruby>れたんです。<br><br>どうして <ruby>遅<rt>おそ</rt></ruby>れましたか。",
         "options": [
           "寝坊した",
           "道を間違えた",
@@ -3815,7 +3815,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q90",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：明日は 何を しますか。<br><ruby>男<rt>おとこ</rt></ruby>：休みですから、家で ゆっくりします。<br><br>あした 何を しますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby><ruby>明<rt>あか</rt></ruby>日<rt>あした</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を しますか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>休<rt>やす</rt></ruby>みですから、<ruby>家<rt>いえ</rt></ruby>で ゆっくりします。<br><br>あした <ruby>何<rt>なに</rt></ruby>を しますか。",
         "options": [
           "休み",
           "仕事",
@@ -3828,7 +3828,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q91",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：鍵は どこに ありましたか。<br><ruby>男<rt>おとこ</rt></ruby>：ポケットの <ruby>中<rt>なか</rt></ruby>に ありました。<br><br>鍵は どこに ありましたか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>鍵<rt>かぎ</rt></ruby>は どこに ありましたか。<br><ruby>男<rt>おとこ</rt></ruby>：ポケットの <ruby>中<rt>なか</rt></ruby>に ありました。<br><br><ruby>鍵<rt>かぎ</rt></ruby>は どこに ありましたか。",
         "options": [
           "机の上",
           "ポケットの中",
@@ -3841,7 +3841,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q92",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：パーティーに 何<ruby>人<rt>ひと</rt></ruby> 来ますか。<br><ruby>男<rt>おとこ</rt></ruby>：五<ruby>人<rt>ひと</rt></ruby> 来ます。<br><br>何<ruby>人<rt>ひと</rt></ruby> 来ますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：パーティーに <ruby>何<rt>なに</rt></ruby><ruby>人<rt>ひと</rt></ruby> <ruby>来<rt>く</rt></ruby>ますか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby><ruby>五<rt>ご</rt></ruby><ruby>人<rt>ひと</rt></ruby><rt>ごにん</rt></ruby> <ruby>来<rt>く</rt></ruby>ます。<br><br><ruby>何<rt>なに</rt></ruby><ruby>人<rt>ひと</rt></ruby> <ruby>来<rt>く</rt></ruby>ますか。",
         "options": [
           "二人",
           "三人",
@@ -3854,7 +3854,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q93",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>日本<rt>にほん</rt></ruby>料理で 何が 一番 好きですか。<br><ruby>女<rt>おんな</rt></ruby>：そばが 一番 好きです。<br><br>何が 一番 好きですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>日本<rt>にほん</rt></ruby><ruby>料理<rt>りょうり</rt></ruby>で <ruby>何<rt>なに</rt></ruby>が <ruby><ruby>一<rt>いち</rt></ruby><ruby>番<rt>ばん</rt></ruby><rt>いちばん</rt></ruby> <ruby>好き<rt>すき</rt></ruby>ですか。<br><ruby>女<rt>おんな</rt></ruby>：そばが <ruby><ruby>一<rt>いち</rt></ruby><ruby>番<rt>ばん</rt></ruby><rt>いちばん</rt></ruby> <ruby>好き<rt>すき</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby>が <ruby><ruby>一<rt>いち</rt></ruby><ruby>番<rt>ばん</rt></ruby><rt>いちばん</rt></ruby> <ruby>好き<rt>すき</rt></ruby>ですか。",
         "options": [
           "カレー",
           "ラーメン",
@@ -3867,7 +3867,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q94",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>天気<rt>てんき</rt></ruby>予報：<ruby>午後<rt>ごご</rt></ruby>から <ruby>雪<rt>ゆき</rt></ruby>に なるでしょう。<br><br><ruby>午後<rt>ごご</rt></ruby>の <ruby>天気<rt>てんき</rt></ruby>は どうですか。",
+        "text": "<ruby>天気<rt>てんき</rt></ruby>予<ruby>報<rt>ほう</rt></ruby>：<ruby>午後<rt>ごご</rt></ruby>から <ruby>雪<rt>ゆき</rt></ruby>に なるでしょう。<br><br><ruby>午後<rt>ごご</rt></ruby>の <ruby>天気<rt>てんき</rt></ruby>は どうですか。",
         "options": [
           "雪",
           "晴れ",
@@ -3918,7 +3918,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q97",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "お疲れ様でした。<br><br>なんと こたえますか。",
+        "text": "お疲れ<ruby>様<rt>さま</rt></ruby>でした。<br><br>なんと こたえますか。",
         "options": [
           "さようなら",
           "はい",
@@ -3944,7 +3944,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M3_Q99",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "行ってらっしゃい。<br><br>なんと こたえますか。",
+        "text": "<ruby>行<rt>い</rt></ruby>ってらっしゃい。<br><br>なんと こたえますか。",
         "options": [
           "ただいま",
           "行ってきます",
@@ -3972,7 +3972,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q1",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>毎朝</u> 七時に おきます。<br><br>「毎朝」のよみかたは？",
+        "text": "<u>毎朝</u> <ruby>七<rt>なな</rt></ruby><ruby>時<rt>とき</rt></ruby>に おきます。<br><br>「毎朝」のよみかたは？",
         "options": [
           "まいあさ",
           "まいにち",
@@ -4037,7 +4037,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q6",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>一万</u>円 あります。<br><br>「一万」のよみかたは？",
+        "text": "<u>一万</u><ruby>円<rt>えん</rt></ruby> あります。<br><br>「一万」のよみかたは？",
         "options": [
           "いちぜん",
           "いちまん",
@@ -4076,7 +4076,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q9",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>半分</u> 食べました。<br><br>「半分」のよみかたは？",
+        "text": "<u>半分</u> <ruby>食<rt>た</rt></ruby>べました。<br><br>「半分」のよみかたは？",
         "options": [
           "はんぶん",
           "はなぶん",
@@ -4089,7 +4089,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q10",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>水</u>を <u>飲</u>みます。<br><br>「飲」みますのよみかたは？",
+        "text": "<u>水</u>を <u>飲</u>みます。<br><br>「<ruby>飲<rt>の</rt></ruby>」みますのよみかたは？",
         "options": [
           "た",
           "の",
@@ -4115,7 +4115,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q12",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>作文</u>を <u>書</u>きました。<br><br>「書」きましたのよみかたは？",
+        "text": "<u>作文</u>を <u>書</u>きました。<br><br>「<ruby>書<rt>か</rt></ruby>」きましたのよみかたは？",
         "options": [
           "き",
           "よ",
@@ -4167,7 +4167,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q16",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>さき</u>に 行ってください。<br><br>「さき」のかきかたは？",
+        "text": "<u>さき</u>に <ruby>行<rt>い</rt></ruby>ってください。<br><br>「さき」のかきかたは？",
         "options": [
           "今",
           "毎",
@@ -4193,7 +4193,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q18",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>よむ</u>のが 好きです。<br><br>「よむ」のかきかたは？",
+        "text": "<u>よむ</u>のが <ruby>好き<rt>すき</rt></ruby>です。<br><br>「よむ」のかきかたは？",
         "options": [
           "書",
           "読",
@@ -4245,7 +4245,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q22",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "この 料理は （　　）が おもしろいですね。<br><br>（　）になにがはいりますか。",
+        "text": "この <ruby>料理<rt>りょうり</rt></ruby>は （　　）が おもしろいですね。<br><br>（　）になにがはいりますか。",
         "options": [
           "あじ",
           "かたち",
@@ -4258,7 +4258,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q23",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "あしたは （　　）が いいですから、<ruby>海<rt>うみ</rt></ruby>へ 行きましょう。<br><br>（　）になにがはいりますか。",
+        "text": "あしたは （　　）が いいですから、<ruby>海<rt>うみ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きましょう。<br><br>（　）になにがはいりますか。",
         "options": [
           "きぶん",
           "びょうき",
@@ -4271,7 +4271,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q24",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を つけてください。ニュースを 見ます。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を つけてください。ニュースを <ruby>見<rt>み</rt></ruby>ます。<br><br>（　）になにがはいりますか。",
         "options": [
           "ラジオ",
           "エアコン",
@@ -4284,7 +4284,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q25",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "わたしの 部屋は （　　）です。あまり 物が ありません。<br><br>（　）になにがはいりますか。",
+        "text": "わたしの <ruby>部屋<rt>へや</rt></ruby>は （　　）です。あまり <ruby>物<rt>もの</rt></ruby>が ありません。<br><br>（　）になにがはいりますか。",
         "options": [
           "せまい",
           "ひろい",
@@ -4297,7 +4297,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q26",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）が いたいので、<ruby>病院<rt>びょういん</rt></ruby>へ 行きます。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）が いたいので、<ruby>病院<rt>びょういん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。<br><br>（　）になにがはいりますか。",
         "options": [
           "あし",
           "おなか",
@@ -4323,7 +4323,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q28",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "おんがくを （　　）のが 好きです。<br><br>（　）になにがはいりますか。",
+        "text": "おんがくを （　　）のが <ruby>好き<rt>すき</rt></ruby>です。<br><br>（　）になにがはいりますか。",
         "options": [
           "みる",
           "うたう",
@@ -4349,7 +4349,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q30",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "すみません、この 漢字を （　　）ください。<br><br>（　）になにがはいりますか。",
+        "text": "すみません、この <ruby>漢字<rt>かんじ</rt></ruby>を （　　）ください。<br><br>（　）になにがはいりますか。",
         "options": [
           "おぼえて",
           "おしえて",
@@ -4362,7 +4362,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q31",
         "section": "言語知識（文法）・読解",
         "type": "言い換え類義",
-        "text": "この 料理は <u>おいしい</u>です。<br><br>「おいしい」に ちかい いみの ことばは？",
+        "text": "この <ruby>料理<rt>りょうり</rt></ruby>は <u>おいしい</u>です。<br><br>「おいしい」に ちかい いみの ことばは？",
         "options": [
           "あまい",
           "たかい",
@@ -4388,7 +4388,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q33",
         "section": "言語知識（文法）・読解",
         "type": "言い換え類義",
-        "text": "<u>いつも</u> 勉強します。<br><br>「いつも」に ちかい いみの ことばは？",
+        "text": "<u>いつも</u> <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>します。<br><br>「いつも」に ちかい いみの ことばは？",
         "options": [
           "毎日",
           "よく",
@@ -4401,7 +4401,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q34",
         "section": "言語知識（文法）・読解",
         "type": "言い換え類義",
-        "text": "<u>あまり</u> 食べません。<br><br>「あまり」に ちかい いみの ことばは？",
+        "text": "<u>あまり</u> <ruby>食<rt>た</rt></ruby>べません。<br><br>「あまり」に ちかい いみの ことばは？",
         "options": [
           "ぜんぜん",
           "すこしだけ",
@@ -4492,7 +4492,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q41",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "机の<ruby>上<rt>うえ</rt></ruby>に 辞書（　　） あります。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>机<rt>つくえ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に <ruby>辞<ruby>書<rt>か</rt></ruby><rt>じしょ</rt></ruby>（　　） あります。<br><br>（　）になにがはいりますか。",
         "options": [
           "が",
           "を",
@@ -4505,7 +4505,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q42",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "わたしは パンより ごはん（　　） 好きです。<br><br>（　）になにがはいりますか。",
+        "text": "わたしは パンより ごはん（　　） <ruby>好き<rt>すき</rt></ruby>です。<br><br>（　）になにがはいりますか。",
         "options": [
           "が",
           "を",
@@ -4518,7 +4518,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q43",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "昨日は （　　） 暑かったです。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>昨日<rt>きのう</rt></ruby>は （　　） 暑かったです。<br><br>（　）になにがはいりますか。",
         "options": [
           "あまり",
           "とても",
@@ -4531,7 +4531,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q44",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "ここ（　　） 入らないでください。<br><br>（　）になにがはいりますか。",
+        "text": "ここ（　　） <ruby>入<rt>はい</rt></ruby>らないでください。<br><br>（　）になにがはいりますか。",
         "options": [
           "を",
           "へ",
@@ -4544,7 +4544,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q45",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "おんがくを （　　）ながら 歩きます。<br><br>（　）になにがはいりますか。",
+        "text": "おんがくを （　　）ながら <ruby>歩<rt>ある</rt></ruby>きます。<br><br>（　）になにがはいりますか。",
         "options": [
           "きいて",
           "きく",
@@ -4557,7 +4557,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q46",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あした <ruby>学校<rt>がっこう</rt></ruby>を （　　）ます。<br><br>（　）になにがはいりますか。",
+        "text": "あした <ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>を （　　）ます。<br><br>（　）になにがはいりますか。",
         "options": [
           "やすみ",
           "やすんで",
@@ -4583,7 +4583,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q48",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "<ruby>図書館<rt>としょかん</rt></ruby>へ （　　）に 行きます。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby><ruby>図<rt>と</rt></ruby><ruby>書<rt>か</rt></ruby><ruby>館<rt>かん</rt></ruby><rt>としょかん</rt></ruby>へ （　　）に <ruby>行<rt>い</rt></ruby>きます。<br><br>（　）になにがはいりますか。",
         "options": [
           "べんきょう",
           "べんきょうする",
@@ -4596,7 +4596,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q49",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "昨日は （　　） 行きませんでした。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>昨日<rt>きのう</rt></ruby>は （　　） <ruby>行<rt>い</rt></ruby>きませんでした。<br><br>（　）になにがはいりますか。",
         "options": [
           "どこかへ",
           "どこに",
@@ -4609,7 +4609,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q50",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "<ruby>映画<rt>えいが</rt></ruby>を 見に （　　）ましょう。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>映画<rt>えいが</rt></ruby>を <ruby>見<rt>み</rt></ruby>に （　　）ましょう。<br><br>（　）になにがはいりますか。",
         "options": [
           "いき",
           "いって",
@@ -4622,7 +4622,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q51",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "コーヒー（　　） 飲みますか。<br><br>（　）になにがはいりますか。",
+        "text": "コーヒー（　　） <ruby>飲<rt>の</rt></ruby>みますか。<br><br>（　）になにがはいりますか。",
         "options": [
           "が",
           "を",
@@ -4648,7 +4648,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q53",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "勉強を （　　）から 寝ます。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>を （　　）から <ruby>寝<rt>ね</rt></ruby>ます。<br><br>（　）になにがはいりますか。",
         "options": [
           "した",
           "する",
@@ -4661,7 +4661,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q54",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "この 料理は （　　） おいしいですね。<br><br>（　）になにがはいりますか。",
+        "text": "この <ruby>料理<rt>りょうり</rt></ruby>は （　　） おいしいですね。<br><br>（　）になにがはいりますか。",
         "options": [
           "とても",
           "あまり",
@@ -4674,7 +4674,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q55",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あの 建物は （　　）ですか。<br><br>（　）になにがはいりますか。",
+        "text": "あの <ruby><ruby>建<rt>た</rt></ruby><ruby>物<rt>もの</rt></ruby><rt>たてもの</rt></ruby>は （　　）ですか。<br><br>（　）になにがはいりますか。",
         "options": [
           "どこ",
           "なん",
@@ -4687,7 +4687,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q56",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "わたしは 毎<ruby>朝<rt>あさ</rt></ruby> 六時に シャワーを あびてから おきます。<br><br>★に入るものはどれですか。",
+        "text": "わたしは <ruby>毎<ruby>朝<rt>あさ</rt></ruby><rt>まいあさ</rt></ruby> <ruby>六<rt>ろく</rt></ruby><ruby>時<rt>とき</rt></ruby>に シャワーを あびてから おきます。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "毎朝",
           "六時に",
@@ -4700,7 +4700,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q57",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "昨日は <ruby>図書館<rt>としょかん</rt></ruby>で 三時間 <ruby>本<rt>ほん</rt></ruby>を 読みました。<br><br>★に入るものはどれですか。",
+        "text": "<ruby>昨日<rt>きのう</rt></ruby>は <ruby><ruby>図<rt>と</rt></ruby><ruby>書<rt>か</rt></ruby><ruby>館<rt>かん</rt></ruby><rt>としょかん</rt></ruby>で <ruby>三<rt>さん</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby> <ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みました。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "昨日は",
           "図書館で",
@@ -4713,7 +4713,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q58",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "<ruby>日本<rt>にほん</rt></ruby>へ 来てから もう 三か月に なりました。<br><br>★に入るものはどれですか。",
+        "text": "<ruby>日本<rt>にほん</rt></ruby>へ <ruby>来<rt>く</rt></ruby>てから もう <ruby>三<rt>さん</rt></ruby>か月に なりました。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "日本へ",
           "来てから",
@@ -4726,7 +4726,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q59",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "あの <ruby>赤<rt>あか</rt></ruby>い セーターを 着ている <ruby>人<rt>ひと</rt></ruby>は 田<ruby>中<rt>なか</rt></ruby>さんです。<br><br>★に入るものはどれですか。",
+        "text": "あの <ruby>赤<rt>あか</rt></ruby>い セーターを 着ている <ruby>人<rt>ひと</rt></ruby>は <ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんです。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "赤い",
           "セーターを",
@@ -4739,7 +4739,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q60",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "冷蔵庫に 冷たい 水が 三<ruby>本<rt>ほん</rt></ruby> 入っています。<br><br>★に入るものはどれですか。",
+        "text": "<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>に <ruby>冷たい<rt>つめたい</rt></ruby> 水が <ruby>三<rt>さん</rt></ruby><ruby>本<rt>ほん</rt></ruby> <ruby>入<rt>はい</rt></ruby>っています。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "冷蔵庫に",
           "冷たい",
@@ -4752,7 +4752,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q61",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（日記）七月 <ruby>十日<rt>とおか</rt></ruby>。<ruby>今日<rt>きょう</rt></ruby>は <ruby>日曜日<rt>にちようび</rt></ruby>でした。（ 1 ） おきました。<br><br>（ 1 ）になにがはいりますか。",
+        "text": "（日<ruby>記<rt>き</rt></ruby>）<ruby><ruby>七<rt>なな</rt></ruby>月<rt>しちがつ</rt></ruby> <ruby><ruby>十<rt>じゅう</rt></ruby>日<rt>とおか</rt></ruby>。<ruby>今日<rt>きょう</rt></ruby>は <ruby>日曜日<rt>にちようび</rt></ruby>でした。（ 1 ） おきました。<br><br>（ 1 ）になにがはいりますか。",
         "options": [
           "はやく",
           "さっき",
@@ -4765,7 +4765,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q62",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（日記）<ruby>午前<rt>ごぜん</rt></ruby><ruby>中<rt>なか</rt></ruby>は 部屋の （ 2 ）を しました。<br><br>（ 2 ）になにがはいりますか。",
+        "text": "（日<ruby>記<rt>き</rt></ruby>）<ruby>午前<rt>ごぜん</rt></ruby><ruby>中<rt>なか</rt></ruby>は <ruby>部屋<rt>へや</rt></ruby>の （ 2 ）を しました。<br><br>（ 2 ）になにがはいりますか。",
         "options": [
           "そうじ",
           "せんたく",
@@ -4778,7 +4778,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q63",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（日記）<ruby>午後<rt>ごご</rt></ruby>は 公園へ 行って 散歩を （ 3 ）。<br><br>（ 3 ）になにがはいりますか。",
+        "text": "（日<ruby>記<rt>き</rt></ruby>）<ruby>午後<rt>ごご</rt></ruby>は <ruby>公<ruby>園<rt>えん</rt></ruby><rt>こうえん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>って <ruby>散<ruby>歩<rt>ある</rt></ruby><rt>さんぽ</rt></ruby>を （ 3 ）。<br><br>（ 3 ）になにがはいりますか。",
         "options": [
           "しましたから",
           "したとき",
@@ -4791,7 +4791,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q64",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（日記）<ruby>夜<rt>よる</rt></ruby>は <ruby>友<rt>とも</rt></ruby>だちと （ 4 ） 食べました。<br><br>（ 4 ）になにがはいりますか。",
+        "text": "（日<ruby>記<rt>き</rt></ruby>）<ruby>夜<rt>よる</rt></ruby>は <ruby>友<rt>とも</rt></ruby>だちと （ 4 ） <ruby>食<rt>た</rt></ruby>べました。<br><br>（ 4 ）になにがはいりますか。",
         "options": [
           "パンを",
           "おかしを",
@@ -4804,7 +4804,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q65",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（日記）とても （ 5 ） <ruby>一日<rt>ついたち</rt></ruby>でした。<br><br>（ 5 ）になにがはいりますか。",
+        "text": "（日<ruby>記<rt>き</rt></ruby>）とても （ 5 ） <ruby><ruby>一<rt>いち</rt></ruby>日<rt>ついたち</rt></ruby>でした。<br><br>（ 5 ）になにがはいりますか。",
         "options": [
           "たのしい",
           "たのしかった",
@@ -4817,7 +4817,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q66",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）田<ruby>中<rt>なか</rt></ruby>さんは 毎<ruby>朝<rt>あさ</rt></ruby> パンを 食べます。牛乳も 飲みます。<br><br>田<ruby>中<rt>なか</rt></ruby>さんは <ruby>朝<rt>あさ</rt></ruby> 何を 飲みますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんは <ruby>毎<ruby>朝<rt>あさ</rt></ruby><rt>まいあさ</rt></ruby> パンを <ruby>食<rt>た</rt></ruby>べます。<ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>も <ruby>飲<rt>の</rt></ruby>みます。<br><br><ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんは <ruby>朝<rt>あさ</rt></ruby> <ruby>何<rt>なに</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みますか。",
         "options": [
           "コーヒー",
           "牛乳",
@@ -4830,7 +4830,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q67",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）昨日は 休みでした。家で <ruby>本<rt>ほん</rt></ruby>を 読みました。<br><br>昨日は 何を しましたか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>昨日<rt>きのう</rt></ruby>は <ruby>休<rt>やす</rt></ruby>みでした。<ruby>家<rt>いえ</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みました。<br><br><ruby>昨日<rt>きのう</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を しましたか。",
         "options": [
           "仕事をしました",
           "旅行に行きました",
@@ -4843,7 +4843,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q68",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）わたしの <ruby>国<rt>くに</rt></ruby>は 夏 暑いです。冬は <ruby>雪<rt>ゆき</rt></ruby>が 降ります。<br><br>冬は どうなりますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）わたしの <ruby>国<rt>くに</rt></ruby>は <ruby>夏<rt>なつ</rt></ruby> <ruby>暑い<rt>あつい</rt></ruby>です。<ruby>冬<rt>ふゆ</rt></ruby>は <ruby>雪<rt>ゆき</rt></ruby>が 降ります。<br><br><ruby>冬<rt>ふゆ</rt></ruby>は どうなりますか。",
         "options": [
           "暑くなります",
           "雨が降ります",
@@ -4856,7 +4856,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q69",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）この ズボンは 少し 短いです。もっと 長いのは ありませんか。<br><br>この ズボンは どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）この ズボンは <ruby>少<rt>すく</rt></ruby>し 短いです。もっと <ruby>長<rt>なが</rt></ruby>いのは ありませんか。<br><br>この ズボンは どうですか。",
         "options": [
           "短い",
           "長い",
@@ -4869,7 +4869,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q70",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）あの <ruby>店<rt>みせ</rt></ruby>は 安くて おいしいです。いつも <ruby>人<rt>ひと</rt></ruby>が たくさん います。<br><br>あの <ruby>店<rt>みせ</rt></ruby>は どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）あの <ruby>店<rt>みせ</rt></ruby>は <ruby>安<rt>やす</rt></ruby>くて おいしいです。いつも <ruby>人<rt>ひと</rt></ruby>が たくさん います。<br><br>あの <ruby>店<rt>みせ</rt></ruby>は どうですか。",
         "options": [
           "高くておいしい",
           "安くておいしい",
@@ -4882,7 +4882,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q71",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）明日は <ruby>月曜日<rt>げつようび</rt></ruby>です。テストが あります。<br><br>テストは いつ ありますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby><ruby>明<rt>あか</rt></ruby>日<rt>あした</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>です。テストが あります。<br><br>テストは いつ ありますか。",
         "options": [
           "今日",
           "昨日",
@@ -4895,7 +4895,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q72",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）木村さんは ギターが 好きです。<ruby>毎日<rt>まいにち</rt></ruby> 練習します。<br><br>木村さんは 何を 練習しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>木村<rt>きむら</rt></ruby>さんは ギターが <ruby>好き<rt>すき</rt></ruby>です。<ruby>毎日<rt>まいにち</rt></ruby> <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>します。<br><br><ruby>木村<rt>きむら</rt></ruby>さんは <ruby>何<rt>なに</rt></ruby>を <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>しますか。",
         "options": [
           "ピアノ",
           "ギター",
@@ -4908,7 +4908,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q73",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "<ruby>日本<rt>にほん</rt></ruby>には 四つの 季節が あります。春、夏、秋、冬です。わたしは 春が いちばん 好きです。<ruby>花<rt>はな</rt></ruby>が たくさん さきますから。夏は とても 暑いです。<ruby>海<rt>うみ</rt></ruby>へ 行きます。秋は <ruby>山<rt>やま</rt></ruby>が <ruby>赤<rt>あか</rt></ruby>くなります。冬は <ruby>雪<rt>ゆき</rt></ruby>が 降ります。とても 寒いです。<br><br>この<ruby>人<rt>ひと</rt></ruby>は どうして 春が 好きですか。",
+        "text": "<ruby>日本<rt>にほん</rt></ruby>には <ruby><ruby>四<rt>よん</rt></ruby>つ<rt>よっつ</rt></ruby>の <ruby>季節<rt>きせつ</rt></ruby>が あります。<ruby>春<rt>はる</rt></ruby>、<ruby>夏<rt>なつ</rt></ruby>、<ruby>秋<rt>あき</rt></ruby>、<ruby>冬<rt>ふゆ</rt></ruby>です。わたしは <ruby>春<rt>はる</rt></ruby>が いちばん <ruby>好き<rt>すき</rt></ruby>です。<ruby>花<rt>はな</rt></ruby>が たくさん さきますから。<ruby>夏<rt>なつ</rt></ruby>は とても <ruby>暑い<rt>あつい</rt></ruby>です。<ruby>海<rt>うみ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。<ruby>秋<rt>あき</rt></ruby>は <ruby>山<rt>やま</rt></ruby>が <ruby>赤<rt>あか</rt></ruby>くなります。<ruby>冬<rt>ふゆ</rt></ruby>は <ruby>雪<rt>ゆき</rt></ruby>が 降ります。とても <ruby>寒い<rt>さむい</rt></ruby>です。<br><br>この<ruby>人<rt>ひと</rt></ruby>は どうして <ruby>春<rt>はる</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>ですか。",
         "options": [
           "暑いから",
           "雪が ふるから",
@@ -4921,7 +4921,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q74",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "<ruby>日本<rt>にほん</rt></ruby>には 四つの 季節が あります。春、夏、秋、冬です。わたしは 春が いちばん 好きです。<ruby>花<rt>はな</rt></ruby>が たくさん さきますから。夏は とても 暑いです。<ruby>海<rt>うみ</rt></ruby>へ 行きます。秋は <ruby>山<rt>やま</rt></ruby>が <ruby>赤<rt>あか</rt></ruby>くなります。冬は <ruby>雪<rt>ゆき</rt></ruby>が 降ります。とても 寒いです。<br><br>冬は どうなりますか。",
+        "text": "<ruby>日本<rt>にほん</rt></ruby>には <ruby><ruby>四<rt>よん</rt></ruby>つ<rt>よっつ</rt></ruby>の <ruby>季節<rt>きせつ</rt></ruby>が あります。<ruby>春<rt>はる</rt></ruby>、<ruby>夏<rt>なつ</rt></ruby>、<ruby>秋<rt>あき</rt></ruby>、<ruby>冬<rt>ふゆ</rt></ruby>です。わたしは <ruby>春<rt>はる</rt></ruby>が いちばん <ruby>好き<rt>すき</rt></ruby>です。<ruby>花<rt>はな</rt></ruby>が たくさん さきますから。<ruby>夏<rt>なつ</rt></ruby>は とても <ruby>暑い<rt>あつい</rt></ruby>です。<ruby>海<rt>うみ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。<ruby>秋<rt>あき</rt></ruby>は <ruby>山<rt>やま</rt></ruby>が <ruby>赤<rt>あか</rt></ruby>くなります。<ruby>冬<rt>ふゆ</rt></ruby>は <ruby>雪<rt>ゆき</rt></ruby>が 降ります。とても <ruby>寒い<rt>さむい</rt></ruby>です。<br><br><ruby>冬<rt>ふゆ</rt></ruby>は どうなりますか。",
         "options": [
           "暑くなる",
           "花が さく",
@@ -4934,7 +4934,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q75",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）<ruby>学校<rt>がっこう</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>から <ruby>金曜日<rt>きんようび</rt></ruby>まで あります。<br><br><ruby>学校<rt>がっこう</rt></ruby>は いつ ありますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>から <ruby>金曜日<rt>きんようび</rt></ruby>まで あります。<br><br><ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>は いつ ありますか。",
         "options": [
           "毎日",
           "週末",
@@ -4947,7 +4947,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q76",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）週末は アルバイトを しています。<br><br>週末は 何を しますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby><rt>しゅうまつ</rt></ruby>は アルバイトを しています。<br><br><ruby><ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby><rt>しゅうまつ</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を しますか。",
         "options": [
           "べんきょう",
           "りょこう",
@@ -4960,7 +4960,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q77",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）<ruby>日本<rt>にほん</rt></ruby>の 季節で いちばん 好きなのは 春です。桜が きれいです。<br><br>いちばん 好きな 季節は いつですか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby>日本<rt>にほん</rt></ruby>の <ruby>季節<rt>きせつ</rt></ruby>で いちばん <ruby>好き<rt>すき</rt></ruby>なのは <ruby>春<rt>はる</rt></ruby>です。桜が きれいです。<br><br>いちばん <ruby>好き<rt>すき</rt></ruby>な <ruby>季節<rt>きせつ</rt></ruby>は いつですか。",
         "options": [
           "夏",
           "春",
@@ -4973,7 +4973,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q78",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）夏は 暑いですが、<ruby>海<rt>うみ</rt></ruby>で およげますから 好きです。<br><br>夏は どうですか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby>夏<rt>なつ</rt></ruby>は <ruby>暑い<rt>あつい</rt></ruby>ですが、<ruby>海<rt>うみ</rt></ruby>で およげますから <ruby>好き<rt>すき</rt></ruby>です。<br><br><ruby>夏<rt>なつ</rt></ruby>は どうですか。",
         "options": [
           "暑くて好き",
           "暑くて嫌い",
@@ -4986,7 +4986,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q79",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）冬は スキーを します。<ruby>雪<rt>ゆき</rt></ruby>が たくさん ふります。<br><br>冬は 何を しますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby>冬<rt>ふゆ</rt></ruby>は スキーを します。<ruby>雪<rt>ゆき</rt></ruby>が たくさん ふります。<br><br><ruby>冬<rt>ふゆ</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を しますか。",
         "options": [
           "およぐ",
           "スキー",
@@ -4999,7 +4999,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q80",
         "section": "言語知識（文法）・読解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【動物園】休み：<ruby>月曜日<rt>げつようび</rt></ruby>　時間：9:00〜17:00<br><br>休みは いつですか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【<ruby><ruby>動<ruby>物<rt>もの</rt></ruby><rt>どうぶつ</rt></ruby><ruby>園<rt>えん</rt></ruby><rt>どうぶつえん</rt></ruby>】<ruby>休<rt>やす</rt></ruby>み：<ruby>月曜日<rt>げつようび</rt></ruby>　<ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>：9:00〜17:00<br><br><ruby>休<rt>やす</rt></ruby>みは いつですか。",
         "options": [
           "月曜日",
           "火曜日",
@@ -5012,7 +5012,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q81",
         "section": "聴解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【動物園】時間：9:00〜17:00<br><br>開く 時間は 何時ですか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【<ruby><ruby>動<ruby>物<rt>もの</rt></ruby><rt>どうぶつ</rt></ruby><ruby>園<rt>えん</rt></ruby><rt>どうぶつえん</rt></ruby>】<ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>：9:00〜17:00<br><br><ruby>開<rt>あ</rt></ruby>く <ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>は <ruby>何<rt>なに</rt></ruby><ruby>時<rt>とき</rt></ruby>ですか。",
         "options": [
           "八時",
           "九時",
@@ -5025,7 +5025,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q82",
         "section": "聴解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【動物園】大<ruby>人<rt>ひと</rt></ruby>：800円　<ruby>子供<rt>こども</rt></ruby>：400円<br><br>大<ruby>人<rt>ひと</rt></ruby>は いくらですか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【<ruby><ruby>動<ruby>物<rt>もの</rt></ruby><rt>どうぶつ</rt></ruby><ruby>園<rt>えん</rt></ruby><rt>どうぶつえん</rt></ruby>】<ruby>大<rt>おお</rt></ruby><ruby>人<rt>ひと</rt></ruby>：800<ruby>円<rt>えん</rt></ruby>　<ruby>子供<rt>こども</rt></ruby>：400<ruby>円<rt>えん</rt></ruby><br><br><ruby>大<rt>おお</rt></ruby><ruby>人<rt>ひと</rt></ruby>は いくらですか。",
         "options": [
           "五百円",
           "六百円",
@@ -5038,7 +5038,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q83",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：くだものを 買いに 行きます。何が いいですか。<br><ruby>男<rt>おとこ</rt></ruby>：バナナを おねがいします。<br><br>何を 買いますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：くだものを <ruby>買<rt>か</rt></ruby>いに <ruby>行<rt>い</rt></ruby>きます。<ruby>何<rt>なに</rt></ruby>が いいですか。<br><ruby>男<rt>おとこ</rt></ruby>：バナナを おねがいします。<br><br><ruby>何<rt>なに</rt></ruby>を <ruby>買<rt>か</rt></ruby>いますか。",
         "options": [
           "りんご",
           "みかん",
@@ -5063,7 +5063,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q84",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：いつ 会いましょうか。<br><ruby>女<rt>おんな</rt></ruby>：十<ruby>三日<rt>みっか</rt></ruby>は どうですか。<br><ruby>男<rt>おとこ</rt></ruby>：いいですよ。<br><br>いつ 会いますか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：いつ 会いましょうか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>十<rt>じゅう</rt></ruby><ruby><ruby>三<rt>さん</rt></ruby>日<rt>みっか</rt></ruby>は どうですか。<br><ruby>男<rt>おとこ</rt></ruby>：いいですよ。<br><br>いつ 会いますか。",
         "options": [
           "十三日",
           "十日",
@@ -5101,7 +5101,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q86",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：誰と 行きますか。<br><ruby>女<rt>おんな</rt></ruby>：佐藤さんと 行きます。<br><br>誰と 行きますか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>誰<rt>だれ</rt></ruby>と <ruby>行<rt>い</rt></ruby>きますか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>佐藤<rt>さとう</rt></ruby>さんと <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>誰<rt>だれ</rt></ruby>と <ruby>行<rt>い</rt></ruby>きますか。",
         "options": [
           "先生",
           "田中さん",
@@ -5114,7 +5114,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q87",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：何で 行きますか。<br><ruby>男<rt>おとこ</rt></ruby>：自転車で 行きます。<br><br>何で 行きますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>何<rt>なに</rt></ruby>で <ruby>行<rt>い</rt></ruby>きますか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>自転<ruby>車<rt>くるま</rt></ruby><rt>じてんしゃ</rt></ruby>で <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>何<rt>なに</rt></ruby>で <ruby>行<rt>い</rt></ruby>きますか。",
         "options": [
           "バス",
           "電車",
@@ -5127,7 +5127,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q88",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>映画<rt>えいが</rt></ruby>は 何時間ですか。<br><ruby>女<rt>おんな</rt></ruby>：二時間です。<br><br>何時間ですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>映画<rt>えいが</rt></ruby>は <ruby>何<rt>なに</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>ですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>二<rt>に</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>ですか。",
         "options": [
           "二時間",
           "三時間",
@@ -5140,7 +5140,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q89",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：どうして 行きませんでしたか。<br><ruby>男<rt>おとこ</rt></ruby>：遠いからです。<br><br>どうして 行きませんでしたか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：どうして <ruby>行<rt>い</rt></ruby>きませんでしたか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>遠<rt>とお</rt></ruby>いからです。<br><br>どうして <ruby>行<rt>い</rt></ruby>きませんでしたか。",
         "options": [
           "忙しい",
           "遠い",
@@ -5153,7 +5153,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q90",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：鍵は どこに ありましたか。<br><ruby>女<rt>おんな</rt></ruby>：椅<ruby>子<rt>こ</rt></ruby>の <ruby>上<rt>うえ</rt></ruby>に ありました。<br><br>どこに ありましたか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>鍵<rt>かぎ</rt></ruby>は どこに ありましたか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>椅<ruby>子<rt>こ</rt></ruby><rt>いす</rt></ruby>の <ruby>上<rt>うえ</rt></ruby>に ありました。<br><br>どこに ありましたか。",
         "options": [
           "箱の下",
           "机の上",
@@ -5166,7 +5166,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q91",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：何色が 好きですか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>黒<rt>くろ</rt></ruby>が 好きです。<br><br>何色が 好きですか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>何<rt>なに</rt></ruby><ruby>色<rt>いろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>ですか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>黒<rt>くろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby>色<rt>いろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>ですか。",
         "options": [
           "赤",
           "青",
@@ -5179,7 +5179,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q92",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：何番の バスですか。<br><ruby>女<rt>おんな</rt></ruby>：一番です。<br><br>何番ですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>何<rt>なに</rt></ruby><ruby>番<rt>ばん</rt></ruby>の バスですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby><ruby>一<rt>いち</rt></ruby><ruby>番<rt>ばん</rt></ruby><rt>いちばん</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby>番<rt>ばん</rt></ruby>ですか。",
         "options": [
           "一番",
           "二番",
@@ -5192,7 +5192,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q93",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：誰が 作りましたか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>母<rt>はは</rt></ruby>が 作りました。<br><br>誰が 作りましたか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>誰<rt>だれ</rt></ruby>が <ruby>作<rt>つく</rt></ruby>りましたか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>母<rt>はは</rt></ruby>が <ruby>作<rt>つく</rt></ruby>りました。<br><br><ruby>誰<rt>だれ</rt></ruby>が <ruby>作<rt>つく</rt></ruby>りましたか。",
         "options": [
           "兄",
           "母",
@@ -5205,7 +5205,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q94",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：どこへ 行きたいですか。<br><ruby>女<rt>おんな</rt></ruby>：京都へ 行きたいです。<br><br>どこへ 行きたいですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：どこへ <ruby>行<rt>い</rt></ruby>きたいですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby><ruby>京<rt>きょう</rt></ruby>都<rt>きょうと</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きたいです。<br><br>どこへ <ruby>行<rt>い</rt></ruby>きたいですか。",
         "options": [
           "東京",
           "大阪",
@@ -5231,7 +5231,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M4_Q96",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "お帰りなさい。<br><br>なんと こたえますか。",
+        "text": "お<ruby>帰<rt>かえ</rt></ruby>りなさい。<br><br>なんと こたえますか。",
         "options": [
           "ただいま",
           "行ってきます",
@@ -5324,7 +5324,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q3",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "この <u>お茶</u>は <u>熱</u>いです。<br><br>「熱」いのよみかたは？",
+        "text": "この <u>お茶</u>は <u>熱</u>いです。<br><br>「<ruby>熱<rt>ねつ</rt></ruby>」いのよみかたは？",
         "options": [
           "さむい",
           "たかい",
@@ -5350,7 +5350,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q5",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>電</u>車を <u>待</u>っています。<br><br>「待」っていますのよみかたは？",
+        "text": "<u>電</u><ruby>車<rt>くるま</rt></ruby>を <u>待</u>っています。<br><br>「<ruby>待<rt>ま</rt></ruby>」っていますのよみかたは？",
         "options": [
           "も",
           "ま",
@@ -5363,7 +5363,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q6",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>毎月</u> <u>本</u>を 読みます。<br><br>「毎月」のよみかたは？",
+        "text": "<u>毎月</u> <u>本</u>を <ruby>読<rt>よ</rt></ruby>みます。<br><br>「毎月」のよみかたは？",
         "options": [
           "まいにち",
           "まいしゅう",
@@ -5389,7 +5389,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q8",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>自分</u>で <u>作</u>りました。<br><br>「作」りましたのよみかたは？",
+        "text": "<u>自分</u>で <u>作</u>りました。<br><br>「<ruby>作<rt>つく</rt></ruby>」りましたのよみかたは？",
         "options": [
           "つく",
           "つか",
@@ -5402,7 +5402,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q9",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>金</u>曜日、<u>会社</u>へ 行きません。<br><br>「<ruby>会社<rt>かいしゃ</rt></ruby>」のよみかたは？",
+        "text": "<u>金</u>曜日、<u>会社</u>へ <ruby>行<rt>い</rt></ruby>きません。<br><br>「<ruby>会社<rt>かいしゃ</rt></ruby>」のよみかたは？",
         "options": [
           "がっこう",
           "かいしゃ",
@@ -5545,7 +5545,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q20",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>よん</u>じに 終わります。<br><br>「よん」のかきかたは？",
+        "text": "<u>よん</u>じに <ruby>終わり<rt>おわり</rt></ruby>ます。<br><br>「よん」のかきかたは？",
         "options": [
           "四",
           "三",
@@ -5571,7 +5571,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q22",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を かけてください。音楽を ききましょう。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を かけてください。<ruby><ruby>音<rt>おと</rt></ruby>楽<rt>おんがく</rt></ruby>を ききましょう。<br><br>（　）になにがはいりますか。",
         "options": [
           "テレビ",
           "めがね",
@@ -5584,7 +5584,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q23",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）が ふっていますから、傘を かします。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）が ふっていますから、<ruby>傘<rt>かさ</rt></ruby>を かします。<br><br>（　）になにがはいりますか。",
         "options": [
           "ゆき",
           "かぜ",
@@ -5597,7 +5597,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q24",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を あけてください。暑いですから。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を あけてください。<ruby>暑い<rt>あつい</rt></ruby>ですから。<br><br>（　）になにがはいりますか。",
         "options": [
           "まど",
           "ドア",
@@ -5623,7 +5623,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q26",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "おなかが （　　）です。何か 食べたいです。<br><br>（　）になにがはいりますか。",
+        "text": "おなかが （　　）です。<ruby>何<rt>なに</rt></ruby>か <ruby>食<rt>た</rt></ruby>べたいです。<br><br>（　）になにがはいりますか。",
         "options": [
           "いたいです",
           "いっぱい",
@@ -5636,7 +5636,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q27",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）で 料理を 作ります。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）で <ruby>料理<rt>りょうり</rt></ruby>を <ruby>作<rt>つく</rt></ruby>ります。<br><br>（　）になにがはいりますか。",
         "options": [
           "おふろ",
           "トイレ",
@@ -5662,7 +5662,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q29",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を 撮りましょう。みんな 並んでください。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を <ruby>撮<rt>と</rt></ruby>りましょう。みんな <ruby>並<rt>なら</rt></ruby>んでください。<br><br>（　）になにがはいりますか。",
         "options": [
           "てがみ",
           "しゃしん",
@@ -5675,7 +5675,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q30",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を つけます。暗いですから。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を つけます。<ruby>暗<rt>くら</rt></ruby>いですから。<br><br>（　）になにがはいりますか。",
         "options": [
           "ラジオ",
           "エアコン",
@@ -5701,7 +5701,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q32",
         "section": "言語知識（文法）・読解",
         "type": "言い換え類義",
-        "text": "<u>おととし</u> 結婚しました。<br><br>「おととし」に ちかい いみの ことばは？",
+        "text": "<u>おととし</u> <ruby>結婚<rt>けっこん</rt></ruby>しました。<br><br>「おととし」に ちかい いみの ことばは？",
         "options": [
           "にねんまえ",
           "きょねん",
@@ -5714,7 +5714,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q33",
         "section": "言語知識（文法）・読解",
         "type": "言い換え類義",
-        "text": "<u>ゆっくり</u> 話してください。<br><br>「ゆっくり」に ちかい いみの ことばは？",
+        "text": "<u>ゆっくり</u> <ruby>話<rt>はな</rt></ruby>してください。<br><br>「ゆっくり」に ちかい いみの ことばは？",
         "options": [
           "はやく",
           "時間をかけて",
@@ -5818,7 +5818,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q41",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "コーヒー（　　） 紅茶、どちらが いいですか。<br><br>（　）になにがはいりますか。",
+        "text": "コーヒー（　　） <ruby>紅<ruby>茶<rt>ちゃ</rt></ruby><rt>こうちゃ</rt></ruby>、どちらが いいですか。<br><br>（　）になにがはいりますか。",
         "options": [
           "と",
           "か",
@@ -5831,7 +5831,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q42",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "昨日 どこ（　　） 行きませんでした。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>昨日<rt>きのう</rt></ruby> どこ（　　） <ruby>行<rt>い</rt></ruby>きませんでした。<br><br>（　）になにがはいりますか。",
         "options": [
           "へ",
           "を",
@@ -5844,7 +5844,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q43",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "教室に だれ（　　） いません。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby><ruby>教<rt>おし</rt></ruby>室<rt>きょうしつ</rt></ruby>に だれ（　　） いません。<br><br>（　）になにがはいりますか。",
         "options": [
           "に",
           "を",
@@ -5857,7 +5857,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q44",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あした <ruby>学校<rt>がっこう</rt></ruby>へ 行く（　　）が できません。<br><br>（　）になにがはいりますか。",
+        "text": "あした <ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>く（　　）が できません。<br><br>（　）になにがはいりますか。",
         "options": [
           "こと",
           "の",
@@ -5870,7 +5870,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q45",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "おんがくを （　　）ながら 勉強します。<br><br>（　）になにがはいりますか。",
+        "text": "おんがくを （　　）ながら <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>します。<br><br>（　）になにがはいりますか。",
         "options": [
           "きいて",
           "きき",
@@ -5883,7 +5883,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q46",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "宿題を （　　）から、遊びに行きます。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>宿題<rt>しゅくだい</rt></ruby>を （　　）から、<ruby>遊<rt>あそ</rt></ruby>びに<ruby>行<rt>い</rt></ruby>きます。<br><br>（　）になにがはいりますか。",
         "options": [
           "した",
           "する",
@@ -5896,7 +5896,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q47",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "冷たい 水を （　　）たいです。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>冷たい<rt>つめたい</rt></ruby> 水を （　　）たいです。<br><br>（　）になにがはいりますか。",
         "options": [
           "のんで",
           "のむ",
@@ -5922,7 +5922,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q49",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "<ruby><ruby>日本<rt>にほん</rt></ruby>語<rt>にほんご</rt></ruby>を 話すのが （　　）です。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby><ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby><rt>にほんご</rt></ruby>を <ruby>話<rt>はな</rt></ruby>すのが （　　）です。<br><br>（　）になにがはいりますか。",
         "options": [
           "うまく",
           "じょうず",
@@ -5935,7 +5935,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q50",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "この 部屋は （　　） ありません。<br><br>（　）になにがはいりますか。",
+        "text": "この <ruby>部屋<rt>へや</rt></ruby>は （　　） ありません。<br><br>（　）になにがはいりますか。",
         "options": [
           "しずかだ",
           "しずかに",
@@ -5948,7 +5948,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q51",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "昨日 （　　） <ruby>映画<rt>えいが</rt></ruby>は おもしろかったです。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>昨日<rt>きのう</rt></ruby> （　　） <ruby>映画<rt>えいが</rt></ruby>は おもしろかったです。<br><br>（　）になにがはいりますか。",
         "options": [
           "みて",
           "みる",
@@ -5961,7 +5961,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q52",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "これ（　　） わたしの 傘です。<br><br>（　）になにがはいりますか。",
+        "text": "これ（　　） わたしの <ruby>傘<rt>かさ</rt></ruby>です。<br><br>（　）になにがはいりますか。",
         "options": [
           "は",
           "を",
@@ -5987,7 +5987,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q54",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "<ruby>今日<rt>きょう</rt></ruby>は （　　） 寒いですね。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>今日<rt>きょう</rt></ruby>は （　　） <ruby>寒い<rt>さむい</rt></ruby>ですね。<br><br>（　）になにがはいりますか。",
         "options": [
           "あまり",
           "すこし",
@@ -6013,7 +6013,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q56",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "わたしは <ruby>毎週<rt>まいしゅう</rt></ruby> <ruby>日曜日<rt>にちようび</rt></ruby>に テニスを する のが 好きです。<br><br>★に入るものはどれですか。",
+        "text": "わたしは <ruby>毎<ruby>週<rt>しゅう</rt></ruby><rt>まいしゅう</rt></ruby> <ruby>日曜日<rt>にちようび</rt></ruby>に テニスを する のが <ruby>好き<rt>すき</rt></ruby>です。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "毎週",
           "日曜日に",
@@ -6026,7 +6026,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q57",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "あそこに <ruby>白<rt>しろ</rt></ruby>い 帽<ruby>子<rt>こ</rt></ruby>を かぶった <ruby>人<rt>ひと</rt></ruby>が います。<br><br>★に入るものはどれですか。",
+        "text": "あそこに <ruby>白<rt>しろ</rt></ruby>い <ruby>帽<ruby>子<rt>こ</rt></ruby><rt>ぼうし</rt></ruby>を かぶった <ruby>人<rt>ひと</rt></ruby>が います。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "白い",
           "帽子を",
@@ -6039,7 +6039,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q58",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "昨日は <ruby>一人<rt>ひとり</rt></ruby>で デパートへ <ruby>買い物<rt>かいもの</rt></ruby>をしに 歩いて いきました。<br><br>★に入るものはどれですか。",
+        "text": "<ruby>昨日<rt>きのう</rt></ruby>は <ruby>一人<rt>ひとり</rt></ruby>で デパートへ <ruby><ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby><rt>かいもの</rt></ruby>をしに <ruby>歩<rt>ある</rt></ruby>いて いきました。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "一人で",
           "デパートへ",
@@ -6052,7 +6052,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q59",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "すみませんが、 暑いので 窓を 少し しめて ください。<br><br>★に入るものはどれですか。",
+        "text": "すみませんが、 <ruby>暑い<rt>あつい</rt></ruby>ので <ruby><ruby>窓<rt>まど</rt></ruby><rt>まど</rt></ruby>を <ruby>少<rt>すく</rt></ruby>し しめて ください。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "窓を",
           "しめて",
@@ -6065,7 +6065,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q60",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "<ruby>父<rt>ちち</rt></ruby>は <ruby>銀行<rt>ぎんこう</rt></ruby>で 働いている とても忙しい <ruby>会社<rt>かいしゃ</rt></ruby>員 です。<br><br>★に入るものはどれですか。",
+        "text": "<ruby>父<rt>ちち</rt></ruby>は <ruby>銀<ruby>行<rt>い</rt></ruby><rt>ぎんこう</rt></ruby>で <ruby>働<rt>はたら</rt></ruby>いている とても<ruby>忙しい<rt>いそがしい</rt></ruby> <ruby><ruby>会社<rt>かいしゃ</rt></ruby><ruby>員<rt>いん</rt></ruby><rt>かいしゃいん</rt></ruby> です。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "銀行で",
           "働いている",
@@ -6078,7 +6078,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q61",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（<ruby>手<rt>て</rt></ruby>紙）田<ruby>中<rt>なか</rt></ruby>さんへ。お<ruby>元気<rt>げんき</rt></ruby>ですか。わたしは 今 （ 1 ）に います。<br><br>（ 1 ）になにがはいりますか。",
+        "text": "（<ruby>手<rt>て</rt></ruby><ruby>紙<rt>かみ</rt></ruby>）<ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんへ。お<ruby>元気<rt>げんき</rt></ruby>ですか。わたしは 今 （ 1 ）に います。<br><br>（ 1 ）になにがはいりますか。",
         "options": [
           "東京",
           "京都",
@@ -6091,7 +6091,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q62",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（<ruby>手<rt>て</rt></ruby>紙）昨日は とても （ 2 ） <ruby>天気<rt>てんき</rt></ruby>でした。<br><br>（ 2 ）になにがはいりますか。",
+        "text": "（<ruby>手<rt>て</rt></ruby><ruby>紙<rt>かみ</rt></ruby>）<ruby>昨日<rt>きのう</rt></ruby>は とても （ 2 ） <ruby>天気<rt>てんき</rt></ruby>でした。<br><br>（ 2 ）になにがはいりますか。",
         "options": [
           "よくて",
           "いい",
@@ -6104,7 +6104,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q63",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（<ruby>手<rt>て</rt></ruby>紙）古い お寺へ 行って、写真を たくさん （ 3 ）。<br><br>（ 3 ）になにがはいりますか。",
+        "text": "（<ruby>手<rt>て</rt></ruby><ruby>紙<rt>かみ</rt></ruby>）<ruby>古<rt>ふる</rt></ruby>い お<ruby>寺<rt>てら</rt></ruby>へ <ruby>行<rt>い</rt></ruby>って、<ruby>写真<rt>しゃしん</rt></ruby>を たくさん （ 3 ）。<br><br>（ 3 ）になにがはいりますか。",
         "options": [
           "かきました",
           "みました",
@@ -6117,7 +6117,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q64",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（<ruby>手<rt>て</rt></ruby>紙）今度 いっしょに （ 4 ） 行きましょう。<br><br>（ 4 ）になにがはいりますか。",
+        "text": "（<ruby>手<rt>て</rt></ruby><ruby>紙<rt>かみ</rt></ruby>）今<ruby>度<rt>ど</rt></ruby> いっしょに （ 4 ） <ruby>行<rt>い</rt></ruby>きましょう。<br><br>（ 4 ）になにがはいりますか。",
         "options": [
           "どこへも",
           "どこを",
@@ -6130,7 +6130,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q65",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（<ruby>手<rt>て</rt></ruby>紙）では、 （ 5 ） ください。<br><br>（ 5 ）になにがはいりますか。",
+        "text": "（<ruby>手<rt>て</rt></ruby><ruby>紙<rt>かみ</rt></ruby>）では、 （ 5 ） ください。<br><br>（ 5 ）になにがはいりますか。",
         "options": [
           "お元気で",
           "お元気でいて",
@@ -6143,7 +6143,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q66",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）佐藤さんは <ruby>毎日<rt>まいにち</rt></ruby> 六時に おきます。コーヒーを 飲んでから 仕事に 行きます。<br><br>佐藤さんは 仕事に 行く<ruby>前<rt>まえ</rt></ruby>に 何を しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>佐藤<rt>さとう</rt></ruby>さんは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>六<rt>ろく</rt></ruby><ruby>時<rt>とき</rt></ruby>に おきます。コーヒーを <ruby>飲<rt>の</rt></ruby>んでから <ruby><ruby>仕<rt>し</rt></ruby><ruby>事<rt>こと</rt></ruby><rt>しごと</rt></ruby>に <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>佐藤<rt>さとう</rt></ruby>さんは <ruby><ruby>仕<rt>し</rt></ruby><ruby>事<rt>こと</rt></ruby><rt>しごと</rt></ruby>に <ruby>行<rt>い</rt></ruby>く<ruby>前<rt>まえ</rt></ruby>に <ruby>何<rt>なに</rt></ruby>を しますか。",
         "options": [
           "パンを食べる",
           "コーヒーを飲む",
@@ -6156,7 +6156,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q67",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）わたしの 部屋には 窓が <ruby>二つ<rt>ふたつ</rt></ruby> あります。明るくて 静かです。<br><br>部屋は どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）わたしの <ruby>部屋<rt>へや</rt></ruby>には <ruby><ruby>窓<rt>まど</rt></ruby><rt>まど</rt></ruby>が <ruby><ruby>二<rt>に</rt></ruby>つ<rt>ふたつ</rt></ruby> あります。<ruby>明<rt>あか</rt></ruby>るくて <ruby>静か<rt>しずか</rt></ruby>です。<br><br><ruby>部屋<rt>へや</rt></ruby>は どうですか。",
         "options": [
           "暗くてうるさい",
           "明るくてうるさい",
@@ -6169,7 +6169,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q68",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）昨日は <ruby>雨<rt>あめ</rt></ruby>が 降っていましたから、どこへも 行きませんでした。<br><br>昨日は 何を しましたか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>昨日<rt>きのう</rt></ruby>は <ruby>雨<rt>あめ</rt></ruby>が 降っていましたから、どこへも <ruby>行<rt>い</rt></ruby>きませんでした。<br><br><ruby>昨日<rt>きのう</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を しましたか。",
         "options": [
           "買い物に行った",
           "公園に行った",
@@ -6182,7 +6182,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q69",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）この 辞書は 三千円です。あの 辞書は 二千円です。<br><br>どちらが 安いですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）この <ruby>辞<ruby>書<rt>か</rt></ruby><rt>じしょ</rt></ruby>は <ruby>三<rt>さん</rt></ruby><ruby><ruby>千<rt>せん</rt></ruby><ruby>円<rt>えん</rt></ruby><rt>せんえん</rt></ruby>です。あの <ruby>辞<ruby>書<rt>か</rt></ruby><rt>じしょ</rt></ruby>は <ruby>二<rt>に</rt></ruby><ruby><ruby>千<rt>せん</rt></ruby><ruby>円<rt>えん</rt></ruby><rt>せんえん</rt></ruby>です。<br><br>どちらが <ruby>安<rt>やす</rt></ruby>いですか。",
         "options": [
           "あの辞書",
           "この辞書",
@@ -6195,7 +6195,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q70",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）田<ruby>中<rt>なか</rt></ruby>さんは 英語が <ruby>上<rt>うえ</rt></ruby><ruby>手<rt>て</rt></ruby>です。フランス語も 少し できます。<br><br>田<ruby>中<rt>なか</rt></ruby>さんは 何語が できますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんは 英<ruby>語<rt>ご</rt></ruby>が <ruby><ruby>上<rt>うえ</rt></ruby><ruby>手<rt>て</rt></ruby><rt>じょうず</rt></ruby>です。フランス<ruby>語<rt>ご</rt></ruby>も <ruby>少<rt>すく</rt></ruby>し できます。<br><br><ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんは <ruby>何<rt>なに</rt></ruby><ruby>語<rt>ご</rt></ruby>が できますか。",
         "options": [
           "英語だけ",
           "英語とフランス語",
@@ -6208,7 +6208,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q71",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）木村さんは 背が 高いです。お兄さんも 背が 高いです。<br><br>誰が 背が 高いですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>木村<rt>きむら</rt></ruby>さんは <ruby>背<rt>せ</rt></ruby>が <ruby>高<rt>たか</rt></ruby>いです。お<ruby>兄<rt>あに</rt></ruby>さんも <ruby>背<rt>せ</rt></ruby>が <ruby>高<rt>たか</rt></ruby>いです。<br><br><ruby>誰<rt>だれ</rt></ruby>が <ruby>背<rt>せ</rt></ruby>が <ruby>高<rt>たか</rt></ruby>いですか。",
         "options": [
           "二人とも高い",
           "お兄さんだけ",
@@ -6221,7 +6221,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q72",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）明日は テストが ありますから、<ruby>今日<rt>きょう</rt></ruby>は たくさん 勉強します。<br><br>いつ 勉強しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby><ruby>明<rt>あか</rt></ruby>日<rt>あした</rt></ruby>は テストが ありますから、<ruby>今日<rt>きょう</rt></ruby>は たくさん <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>します。<br><br>いつ <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>しますか。",
         "options": [
           "明日",
           "昨日",
@@ -6234,7 +6234,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q73",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "<ruby>日本<rt>にほん</rt></ruby>のお弁当は とても おもしろいです。いろいろな 食べものが 入っています。お肉、お魚、野菜、卵などです。形も きれいです。わたしは <ruby>毎日<rt>まいにち</rt></ruby> 自分で お弁当を 作ります。コンビニでも 買うことが できますが、自分で 作ったほうが 安いです。<br><br>お弁当には なにが 入っていますか。",
+        "text": "<ruby>日本<rt>にほん</rt></ruby>のお<ruby>弁<ruby>当<rt>とう</rt></ruby><rt>べんとう</rt></ruby>は とても おもしろいです。いろいろな <ruby>食<rt>た</rt></ruby>べものが <ruby>入<rt>はい</rt></ruby>っています。お<ruby>肉<rt>にく</rt></ruby>、お<ruby>魚<rt>さかな</rt></ruby>、<ruby>野菜<rt>やさい</rt></ruby>、<ruby>卵<rt>たまご</rt></ruby>などです。<ruby>形<rt>かたち</rt></ruby>も きれいです。わたしは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>自<ruby>分<rt>ふん</rt></ruby><rt>じぶん</rt></ruby>で お<ruby>弁<ruby>当<rt>とう</rt></ruby><rt>べんとう</rt></ruby>を <ruby>作<rt>つく</rt></ruby>ります。コンビニでも <ruby>買<rt>か</rt></ruby>うことが できますが、<ruby>自<ruby>分<rt>ふん</rt></ruby><rt>じぶん</rt></ruby>で <ruby>作<rt>つく</rt></ruby>ったほうが <ruby>安<rt>やす</rt></ruby>いです。<br><br>お<ruby>弁<ruby>当<rt>とう</rt></ruby><rt>べんとう</rt></ruby>には なにが <ruby>入<rt>はい</rt></ruby>っていますか。",
         "options": [
           "パンだけ",
           "いろいろな もの",
@@ -6247,7 +6247,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q74",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "<ruby>日本<rt>にほん</rt></ruby>のお弁当は とても おもしろいです。いろいろな 食べものが 入っています。お肉、お魚、野菜、卵などです。形も きれいです。わたしは <ruby>毎日<rt>まいにち</rt></ruby> 自分で お弁当を 作ります。コンビニでも 買うことが できますが、自分で 作ったほうが 安いです。<br><br>どうして 自分で 作りますか。",
+        "text": "<ruby>日本<rt>にほん</rt></ruby>のお<ruby>弁<ruby>当<rt>とう</rt></ruby><rt>べんとう</rt></ruby>は とても おもしろいです。いろいろな <ruby>食<rt>た</rt></ruby>べものが <ruby>入<rt>はい</rt></ruby>っています。お<ruby>肉<rt>にく</rt></ruby>、お<ruby>魚<rt>さかな</rt></ruby>、<ruby>野菜<rt>やさい</rt></ruby>、<ruby>卵<rt>たまご</rt></ruby>などです。<ruby>形<rt>かたち</rt></ruby>も きれいです。わたしは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>自<ruby>分<rt>ふん</rt></ruby><rt>じぶん</rt></ruby>で お<ruby>弁<ruby>当<rt>とう</rt></ruby><rt>べんとう</rt></ruby>を <ruby>作<rt>つく</rt></ruby>ります。コンビニでも <ruby>買<rt>か</rt></ruby>うことが できますが、<ruby>自<ruby>分<rt>ふん</rt></ruby><rt>じぶん</rt></ruby>で <ruby>作<rt>つく</rt></ruby>ったほうが <ruby>安<rt>やす</rt></ruby>いです。<br><br>どうして <ruby>自<ruby>分<rt>ふん</rt></ruby><rt>じぶん</rt></ruby>で <ruby>作<rt>つく</rt></ruby>りますか。",
         "options": [
           "コンビニが ないから",
           "作るのが きらいだから",
@@ -6260,7 +6260,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q75",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）お弁当は ごはんと おかずで できています。<br><br>お弁当には 何が 入っていますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）お<ruby>弁<ruby>当<rt>とう</rt></ruby><rt>べんとう</rt></ruby>は ごはんと おかずで できています。<br><br>お<ruby>弁<ruby>当<rt>とう</rt></ruby><rt>べんとう</rt></ruby>には <ruby>何<rt>なに</rt></ruby>が <ruby>入<rt>はい</rt></ruby>っていますか。",
         "options": [
           "パンだけ",
           "ごはんだけ",
@@ -6273,7 +6273,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q76",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）<ruby>駅<rt>えき</rt></ruby>弁は <ruby>駅<rt>えき</rt></ruby>で 売っています。旅行のときに よく 食べます。<br><br><ruby>駅<rt>えき</rt></ruby>弁は どこで 売っていますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby>駅<rt>えき</rt></ruby>弁は <ruby>駅<rt>えき</rt></ruby>で <ruby>売<rt>う</rt></ruby>っています。<ruby><ruby>旅<rt>たび</rt></ruby><ruby>行<rt>い</rt></ruby><rt>りょこう</rt></ruby>のときに よく <ruby>食<rt>た</rt></ruby>べます。<br><br><ruby>駅<rt>えき</rt></ruby>弁は どこで <ruby>売<rt>う</rt></ruby>っていますか。",
         "options": [
           "学校",
           "デパート",
@@ -6286,7 +6286,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q77",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）<ruby>来週<rt>らいしゅう</rt></ruby>は <ruby>友<rt>とも</rt></ruby>だちの 誕生日です。プレゼントを 買いたいです。<br><br>何を 買いたいですか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>来<rt>く</rt></ruby><ruby>週<rt>しゅう</rt></ruby><rt>らいしゅう</rt></ruby>は <ruby>友<rt>とも</rt></ruby>だちの <ruby>誕<ruby>生<rt>せい</rt></ruby>日<rt>たんじょうび</rt></ruby>です。プレゼントを <ruby>買<rt>か</rt></ruby>いたいです。<br><br><ruby>何<rt>なに</rt></ruby>を <ruby>買<rt>か</rt></ruby>いたいですか。",
         "options": [
           "プレゼント",
           "ケーキ",
@@ -6299,7 +6299,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q78",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）<ruby>友<rt>とも</rt></ruby>だちは <ruby>本<rt>ほん</rt></ruby>が 好きですから、小説を 買います。<br><br>何を 買いますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby>友<rt>とも</rt></ruby>だちは <ruby>本<rt>ほん</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>ですから、<ruby>小<rt>ちい</rt></ruby>説を <ruby>買<rt>か</rt></ruby>います。<br><br><ruby>何<rt>なに</rt></ruby>を <ruby>買<rt>か</rt></ruby>いますか。",
         "options": [
           "小説",
           "辞書",
@@ -6312,7 +6312,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q79",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）誕生日に パーティーを します。ケーキも 作ります。<br><br>パーティーで 何を しますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby>誕<ruby>生<rt>せい</rt></ruby>日<rt>たんじょうび</rt></ruby>に パーティーを します。ケーキも <ruby>作<rt>つく</rt></ruby>ります。<br><br>パーティーで <ruby>何<rt>なに</rt></ruby>を しますか。",
         "options": [
           "プレゼントを買う",
           "旅行に行く",
@@ -6325,7 +6325,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q80",
         "section": "言語知識（文法）・読解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【料理教室】月・水・金：13:00〜17:00　一回：3000円　休み：<ruby>日曜日<rt>にちようび</rt></ruby><br><br><ruby>月曜日<rt>げつようび</rt></ruby>の クラスは 何時までですか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【<ruby>料理<rt>りょうり</rt></ruby><ruby><ruby>教<rt>おし</rt></ruby>室<rt>きょうしつ</rt></ruby>】月・水・金：13:00〜17:00　<ruby><ruby>一<rt>いち</rt></ruby><ruby>回<rt>かい</rt></ruby><rt>いっかい</rt></ruby>：3000<ruby>円<rt>えん</rt></ruby>　<ruby>休<rt>やす</rt></ruby>み：<ruby>日曜日<rt>にちようび</rt></ruby><br><br><ruby>月曜日<rt>げつようび</rt></ruby>の クラスは <ruby>何<rt>なに</rt></ruby><ruby>時<rt>とき</rt></ruby>までですか。",
         "options": [
           "三時",
           "四時",
@@ -6338,7 +6338,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q81",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "おとこと おんなの<ruby>人<rt>ひと</rt></ruby>が はなしています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は これから 何を しますか。<br><ruby>男<rt>おとこ</rt></ruby>：部屋が 汚いですね。掃除しましょうか。<br><ruby>女<rt>おんな</rt></ruby>：そうですね。わたしは 洗濯を します。あなたは 掃除機を かけてください。<br><ruby>男<rt>おとこ</rt></ruby>：わかりました。あ、買いものも 行かなくちゃ。<br><ruby>女<rt>おんな</rt></ruby>：買いものは 掃除の <ruby>後<rt>うしろ</rt></ruby>で いっしょに 行きましょう。<br><br><ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は これから 何を しますか。",
+        "text": "おとこと おんなの<ruby>人<rt>ひと</rt></ruby>が はなしています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は これから <ruby>何<rt>なに</rt></ruby>を しますか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>部屋<rt>へや</rt></ruby>が <ruby>汚<rt>きたな</rt></ruby>いですね。<ruby>掃除<rt>そうじ</rt></ruby>しましょうか。<br><ruby>女<rt>おんな</rt></ruby>：そうですね。わたしは <ruby><ruby>洗<rt>あら</rt></ruby>濯<rt>せんたく</rt></ruby>を します。あなたは <ruby>掃除<rt>そうじ</rt></ruby>機を かけてください。<br><ruby>男<rt>おとこ</rt></ruby>：わかりました。あ、<ruby>買<rt>か</rt></ruby>いものも <ruby>行<rt>い</rt></ruby>かなくちゃ。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>買<rt>か</rt></ruby>いものは <ruby>掃除<rt>そうじ</rt></ruby>の <ruby>後<rt>うしろ</rt></ruby>で いっしょに <ruby>行<rt>い</rt></ruby>きましょう。<br><br><ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は これから <ruby>何<rt>なに</rt></ruby>を しますか。",
         "options": [
           "掃除機をかける",
           "料理を作る",
@@ -6351,7 +6351,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q82",
         "section": "聴解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【料理教室】休み：<ruby>日曜日<rt>にちようび</rt></ruby><br><br>休みの日は いつですか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【<ruby>料理<rt>りょうり</rt></ruby><ruby><ruby>教<rt>おし</rt></ruby>室<rt>きょうしつ</rt></ruby>】<ruby>休<rt>やす</rt></ruby>み：<ruby>日曜日<rt>にちようび</rt></ruby><br><br><ruby>休<rt>やす</rt></ruby>みの日は いつですか。",
         "options": [
           "日曜日",
           "土曜日",
@@ -6364,7 +6364,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q83",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>今日<rt>きょう</rt></ruby>は 何を しますか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>買い物<rt>かいもの</rt></ruby>に 行きましょう。<br><br><ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は 何を しますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>今日<rt>きょう</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を しますか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby><ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby><rt>かいもの</rt></ruby>に <ruby>行<rt>い</rt></ruby>きましょう。<br><br><ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を しますか。",
         "options": [
           "洗濯",
           "買い物",
@@ -6389,7 +6389,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q84",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：何時に 会いましょうか。<br><ruby>女<rt>おんな</rt></ruby>：七時半は どうですか。<br><ruby>男<rt>おとこ</rt></ruby>：いいですよ。<br><br>何時に 会いますか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>何<rt>なに</rt></ruby><ruby>時<rt>とき</rt></ruby>に 会いましょうか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>七<rt>なな</rt></ruby><ruby>時<rt>とき</rt></ruby><ruby>半<rt>はん</rt></ruby>は どうですか。<br><ruby>男<rt>おとこ</rt></ruby>：いいですよ。<br><br><ruby>何<rt>なに</rt></ruby><ruby>時<rt>とき</rt></ruby>に 会いますか。",
         "options": [
           "六時",
           "六時半",
@@ -6402,7 +6402,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q85",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：何番の バスですか。<br><ruby>男<rt>おとこ</rt></ruby>：六番です。<br><br>何番の バスですか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>何<rt>なに</rt></ruby><ruby>番<rt>ばん</rt></ruby>の バスですか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>六<rt>ろく</rt></ruby><ruby>番<rt>ばん</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby>番<rt>ばん</rt></ruby>の バスですか。",
         "options": [
           "三番",
           "四番",
@@ -6415,7 +6415,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q86",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：これは だれの 鞄ですか。<br><ruby>女<rt>おんな</rt></ruby>：木村さんのです。<br><br>誰の 鞄ですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：これは だれの <ruby>鞄<rt>かばん</rt></ruby>ですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>木村<rt>きむら</rt></ruby>さんのです。<br><br><ruby>誰<rt>だれ</rt></ruby>の <ruby>鞄<rt>かばん</rt></ruby>ですか。",
         "options": [
           "木村さん",
           "田中さん",
@@ -6428,7 +6428,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q87",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：どこで 待ちましょうか。<br><ruby>男<rt>おとこ</rt></ruby>：ポストの 横で 待ちましょう。<br><br>どこで 待ちますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：どこで <ruby>待<rt>ま</rt></ruby>ちましょうか。<br><ruby>男<rt>おとこ</rt></ruby>：ポストの <ruby>横<rt>よこ</rt></ruby>で <ruby>待<rt>ま</rt></ruby>ちましょう。<br><br>どこで <ruby>待<rt>ま</rt></ruby>ちますか。",
         "options": [
           "駅の中",
           "ポストの横",
@@ -6441,7 +6441,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q88",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：好きな スポーツは 何ですか。<br><ruby>女<rt>おんな</rt></ruby>：野球が 好きです。<br><br>好きな スポーツは？",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>好き<rt>すき</rt></ruby>な スポーツは <ruby>何<rt>なに</rt></ruby>ですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>野球<rt>やきゅう</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>です。<br><br><ruby>好き<rt>すき</rt></ruby>な スポーツは？",
         "options": [
           "サッカー",
           "テニス",
@@ -6466,7 +6466,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q89",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：昨日の <ruby>天気<rt>てんき</rt></ruby>は どうでしたか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>雨<rt>あめ</rt></ruby>でした。<br><br>昨日の <ruby>天気<rt>てんき</rt></ruby>は？",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>昨日<rt>きのう</rt></ruby>の <ruby>天気<rt>てんき</rt></ruby>は どうでしたか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>雨<rt>あめ</rt></ruby>でした。<br><br><ruby>昨日<rt>きのう</rt></ruby>の <ruby>天気<rt>てんき</rt></ruby>は？",
         "options": [
           "晴れ",
           "曇り",
@@ -6491,7 +6491,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q90",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：いくらですか。<br><ruby>女<rt>おんな</rt></ruby>：八百円です。<br><br>いくらですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：いくらですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>八<rt>はち</rt></ruby><ruby><ruby>百<rt>ひゃく</rt></ruby><ruby>円<rt>えん</rt></ruby><rt>ひゃくえん</rt></ruby>です。<br><br>いくらですか。",
         "options": [
           "八百円",
           "九百円",
@@ -6504,7 +6504,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q91",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：どうして 遅れましたか。<br><ruby>男<rt>おとこ</rt></ruby>：バスが 来なかったんです。<br><br>どうして 遅れましたか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：どうして <ruby>遅<rt>おそ</rt></ruby>れましたか。<br><ruby>男<rt>おとこ</rt></ruby>：バスが <ruby>来<rt>く</rt></ruby>なかったんです。<br><br>どうして <ruby>遅<rt>おそ</rt></ruby>れましたか。",
         "options": [
           "寝坊",
           "バスが来ない",
@@ -6517,7 +6517,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q92",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：何<ruby>人<rt>ひと</rt></ruby> いますか。<br><ruby>女<rt>おんな</rt></ruby>：五<ruby>人<rt>ひと</rt></ruby> います。<br><br>何<ruby>人<rt>ひと</rt></ruby> いますか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>何<rt>なに</rt></ruby><ruby>人<rt>ひと</rt></ruby> いますか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby><ruby>五<rt>ご</rt></ruby><ruby>人<rt>ひと</rt></ruby><rt>ごにん</rt></ruby> います。<br><br><ruby>何<rt>なに</rt></ruby><ruby>人<rt>ひと</rt></ruby> いますか。",
         "options": [
           "三人",
           "四人",
@@ -6530,7 +6530,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q93",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>飲み物<rt>のみもの</rt></ruby>は 何に しますか。<br><ruby>男<rt>おとこ</rt></ruby>：ジュースを ください。<br><br>何を 飲みますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby><ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby><rt>のみもの</rt></ruby>は <ruby>何<rt>なに</rt></ruby>に しますか。<br><ruby>男<rt>おとこ</rt></ruby>：ジュースを ください。<br><br><ruby>何<rt>なに</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みますか。",
         "options": [
           "コーヒー",
           "お茶",
@@ -6555,7 +6555,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q94",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：趣味は 何ですか。<br><ruby>女<rt>おんな</rt></ruby>：読書です。<br><br>趣味は 何ですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>趣<ruby>味<rt>あじ</rt></ruby><rt>しゅみ</rt></ruby>は <ruby>何<rt>なに</rt></ruby>ですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby><ruby>読<rt>よ</rt></ruby><ruby>書<rt>か</rt></ruby><rt>どくしょ</rt></ruby>です。<br><br><ruby>趣<ruby>味<rt>あじ</rt></ruby><rt>しゅみ</rt></ruby>は <ruby>何<rt>なに</rt></ruby>ですか。",
         "options": [
           "読書",
           "映画",
@@ -6594,7 +6594,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q97",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "すみません、ペンを 貸してください。<br><br>なんと こたえますか。",
+        "text": "すみません、ペンを <ruby>貸<rt>か</rt></ruby>してください。<br><br>なんと こたえますか。",
         "options": [
           "ありがとう",
           "いいえ",
@@ -6620,7 +6620,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q99",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "お名<ruby>前<rt>まえ</rt></ruby>は？<br><br>なんと こたえますか。",
+        "text": "お<ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>は？<br><br>なんと こたえますか。",
         "options": [
           "銀行員です",
           "田中です",
@@ -6633,7 +6633,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M5_Q100",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "また <ruby>来週<rt>らいしゅう</rt></ruby>。<br><br>なんと こたえますか。",
+        "text": "また <ruby><ruby>来<rt>く</rt></ruby><ruby>週<rt>しゅう</rt></ruby><rt>らいしゅう</rt></ruby>。<br><br>なんと こたえますか。",
         "options": [
           "おはよう",
           "おやすみなさい",
@@ -6648,7 +6648,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M6_Q1",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>毎朝</u> 八時に <u>家</u>を 出ます。<br><br>「家」のよみかたは？",
+        "text": "<u>毎朝</u> <ruby>八<rt>はち</rt></ruby><ruby>時<rt>とき</rt></ruby>に <u>家</u>を <ruby>出<rt>で</rt></ruby>ます。<br><br>「<ruby>家<rt>いえ</rt></ruby>」のよみかたは？",
         "options": [
           "みせ",
           "いえ",
@@ -6661,7 +6661,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M6_Q2",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "この <u>料理</u>は <u>安</u>いです。<br><br>「安」いのよみかたは？",
+        "text": "この <u>料理</u>は <u>安</u>いです。<br><br>「<ruby>安<rt>やす</rt></ruby>」いのよみかたは？",
         "options": [
           "たか",
           "あたら",
@@ -6713,7 +6713,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M6_Q6",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>手紙</u>を <u>二通</u> <u>書</u>きました。<br><br>「書」きましたのよみかたは？",
+        "text": "<u>手紙</u>を <u>二通</u> <u>書</u>きました。<br><br>「<ruby>書<rt>か</rt></ruby>」きましたのよみかたは？",
         "options": [
           "き",
           "か",
@@ -6739,7 +6739,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M6_Q8",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>何</u>を <u>飲</u>みますか。<br><br>「飲」みますのよみかたは？",
+        "text": "<u>何</u>を <u>飲</u>みますか。<br><br>「<ruby>飲<rt>の</rt></ruby>」みますのよみかたは？",
         "options": [
           "た",
           "よ",
@@ -6752,7 +6752,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M6_Q9",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>私</u>の <u>名前</u>は 田<ruby>中<rt>なか</rt></ruby>です。<br><br>「名<ruby>前<rt>まえ</rt></ruby>」のよみかたは？",
+        "text": "<u>私</u>の <u>名前</u>は <ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>です。<br><br>「<ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>」のよみかたは？",
         "options": [
           "なまえ",
           "めいまえ",
@@ -6765,7 +6765,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M6_Q10",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>会社</u>へ <u>行</u>きます。<br><br>「行」きますのよみかたは？",
+        "text": "<u>会社</u>へ <u>行</u>きます。<br><br>「<ruby>行<rt>い</rt></ruby>」きますのよみかたは？",
         "options": [
           "き",
           "い",
@@ -6778,7 +6778,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M6_Q11",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>時間</u>が <u>少</u>ないです。<br><br>「少」ないのよみかたは？",
+        "text": "<u>時間</u>が <u>少</u>ないです。<br><br>「<ruby>少<rt>すく</rt></ruby>」ないのよみかたは？",
         "options": [
           "おお",
           "ちいさ",
@@ -6791,7 +6791,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M6_Q12",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>先生</u>と <u>話</u>しました。<br><br>「話」しましたのよみかたは？",
+        "text": "<u>先生</u>と <u>話</u>しました。<br><br>「<ruby>話<rt>はな</rt></ruby>」しましたのよみかたは？",
         "options": [
           "よ",
           "き",
@@ -7363,7 +7363,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M6_Q56",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "つくえの うえに きれいな ほん いっさつが あります。<br><br>★に入るものはどれですか。",
+        "text": "つくえの うえに きれいな ほん いっさつが あります。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "うえに",
           "ほん",
@@ -7376,7 +7376,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M6_Q57",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "わたしは きのう でぱーとへ くつを かいに いきました。<br><br>★に入るものはどれですか。",
+        "text": "わたしは きのう でぱーとへ くつを かいに いきました。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "でぱーと",
           "へ",
@@ -7389,7 +7389,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M6_Q58",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "そこに ゆっくり いすに すわって かけて ください。<br><br>★に入るものはどれですか。",
+        "text": "そこに ゆっくり いすに すわって かけて ください。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "そこに",
           "すわって",
@@ -7402,7 +7402,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M6_Q59",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "こうえんの なかに こどもが ごにん あそんで います。<br><br>★に入るものはどれですか。",
+        "text": "こうえんの なかに こどもが ごにん あそんで います。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "なかに",
           "こどもが",
@@ -7415,7 +7415,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M6_Q60",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "ここに ぼーるぺんで なまえを かいて ください。<br><br>★に入るものはどれですか。",
+        "text": "ここに ぼーるぺんで なまえを かいて ください。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "ここに",
           "なまえを",
@@ -7584,7 +7584,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M6_Q73",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "<ruby>日本<rt>にほん</rt></ruby>料理には いろいろな 種類が あります。わたしは 天ぷらが いちばん 好きです。刺身も 食べますが、少し 高いです。<ruby>日本<rt>にほん</rt></ruby>へ 来る <ruby>前<rt>まえ</rt></ruby>は 魚が 嫌いでしたが、今は <ruby>毎日<rt>まいにち</rt></ruby> 食べます。とても 体に いいですから。<br><br>この<ruby>人<rt>ひと</rt></ruby>は 何が いちばん 好きですか。",
+        "text": "<ruby>日本<rt>にほん</rt></ruby><ruby>料理<rt>りょうり</rt></ruby>には いろいろな 種類が あります。わたしは 天ぷらが いちばん <ruby>好き<rt>すき</rt></ruby>です。<ruby>刺身<rt>さしみ</rt></ruby>も <ruby>食<rt>た</rt></ruby>べますが、<ruby>少<rt>すく</rt></ruby>し <ruby>高<rt>たか</rt></ruby>いです。<ruby>日本<rt>にほん</rt></ruby>へ <ruby>来<rt>く</rt></ruby>る <ruby>前<rt>まえ</rt></ruby>は <ruby>魚<rt>さかな</rt></ruby>が <ruby>嫌い<rt>きらい</rt></ruby>でしたが、今は <ruby>毎日<rt>まいにち</rt></ruby> <ruby>食<rt>た</rt></ruby>べます。とても <ruby>体<rt>からだ</rt></ruby>に いいですから。<br><br>この<ruby>人<rt>ひと</rt></ruby>は <ruby>何<rt>なに</rt></ruby>が いちばん <ruby>好き<rt>すき</rt></ruby>ですか。",
         "options": [
           "刺身",
           "魚",
@@ -7623,7 +7623,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M6_Q76",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "今度の <ruby>土曜日<rt>どようび</rt></ruby>に <ruby>友<rt>とも</rt></ruby>だちと <ruby>山<rt>やま</rt></ruby>へ 行きます。<ruby>朝<rt>あさ</rt></ruby> 八時に <ruby>駅<rt>えき</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>で 会います。<ruby>山<rt>やま</rt></ruby>へ 行く <ruby>前<rt>まえ</rt></ruby>に コンビニで <ruby>飲み物<rt>のみもの</rt></ruby>と お菓<ruby>子<rt>こ</rt></ruby>を 買います。<ruby>山<rt>やま</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>で 食べる お弁当は とても おいしいです。夕方 六時ごろ 家に 帰ります。<br><br>いつ <ruby>友<rt>とも</rt></ruby>だちと 会いますか。",
+        "text": "今<ruby>度<rt>ど</rt></ruby>の <ruby>土曜日<rt>どようび</rt></ruby>に <ruby>友<rt>とも</rt></ruby>だちと <ruby>山<rt>やま</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。<ruby>朝<rt>あさ</rt></ruby> <ruby>八<rt>はち</rt></ruby><ruby>時<rt>とき</rt></ruby>に <ruby>駅<rt>えき</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>で 会います。<ruby>山<rt>やま</rt></ruby>へ <ruby>行<rt>い</rt></ruby>く <ruby>前<rt>まえ</rt></ruby>に コンビニで <ruby><ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby><rt>のみもの</rt></ruby>と <ruby>お<ruby>菓<ruby>子<rt>こ</rt></ruby><rt>かし</rt></ruby><rt>おかし</rt></ruby>を <ruby>買<rt>か</rt></ruby>います。<ruby>山<rt>やま</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>で <ruby>食<rt>た</rt></ruby>べる お<ruby>弁<ruby>当<rt>とう</rt></ruby><rt>べんとう</rt></ruby>は とても おいしいです。<ruby>夕<rt>ゆう</rt></ruby><ruby>方<rt>かた</rt></ruby> <ruby>六<rt>ろく</rt></ruby><ruby>時<rt>とき</rt></ruby>ごろ <ruby>家<rt>いえ</rt></ruby>に <ruby>帰<rt>かえ</rt></ruby>ります。<br><br>いつ <ruby>友<rt>とも</rt></ruby>だちと 会いますか。",
         "options": [
           "金曜日",
           "土曜日の朝",
@@ -7963,7 +7963,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q2",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "この <u>道</u>を まっすぐ 行きます。<br><br>「道」のよみかたは？",
+        "text": "この <u>道</u>を まっすぐ <ruby>行<rt>い</rt></ruby>きます。<br><br>「道」のよみかたは？",
         "options": [
           "やま",
           "みち",
@@ -7976,7 +7976,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q3",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>今週</u>は とても 忙しいです。<br><br>「今週」のよみかたは？",
+        "text": "<u>今週</u>は とても <ruby>忙しい<rt>いそがしい</rt></ruby>です。<br><br>「今週」のよみかたは？",
         "options": [
           "まいしゅう",
           "らいしゅう",
@@ -8002,7 +8002,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q5",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>午前</u> 九時に 始まります。<br><br>「午前」のよみかたは？",
+        "text": "<u>午前</u> <ruby>九<rt>きゅう</rt></ruby><ruby>時<rt>とき</rt></ruby>に 始まります。<br><br>「午前」のよみかたは？",
         "options": [
           "ごぜん",
           "ごご",
@@ -8015,7 +8015,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q6",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>何</u>を <u>買</u>いましたか。<br><br>「買」いましたのよみかたは？",
+        "text": "<u>何</u>を <u>買</u>いましたか。<br><br>「<ruby>買<rt>か</rt></ruby>」いましたのよみかたは？",
         "options": [
           "き",
           "か",
@@ -8041,7 +8041,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q8",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>半分</u> 食べました。<br><br>「半分」のよみかたは？",
+        "text": "<u>半分</u> <ruby>食<rt>た</rt></ruby>べました。<br><br>「半分」のよみかたは？",
         "options": [
           "はなぶん",
           "ほんぶん",
@@ -8080,7 +8080,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q11",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>百</u>円 <u>安</u>いです。<br><br>「百」のよみかたは？",
+        "text": "<u>百</u><ruby>円<rt>えん</rt></ruby> <u>安</u>いです。<br><br>「百」のよみかたは？",
         "options": [
           "せん",
           "まん",
@@ -8119,7 +8119,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q14",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>らいねん</u> <ruby>日本<rt>にほん</rt></ruby>に 行きます。<br><br>「らいねん」のかきかたは？",
+        "text": "<u>らいねん</u> <ruby>日本<rt>にほん</rt></ruby>に <ruby>行<rt>い</rt></ruby>きます。<br><br>「らいねん」のかきかたは？",
         "options": [
           "今年",
           "来年",
@@ -8145,7 +8145,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q16",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>さんぷん</u> 待ってください。<br><br>「さんぷん」のかきかたは？",
+        "text": "<u>さんぷん</u> <ruby>待<rt>ま</rt></ruby>ってください。<br><br>「さんぷん」のかきかたは？",
         "options": [
           "三時",
           "三日",
@@ -8158,7 +8158,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q17",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>がいこく</u>の 言葉を 習います。<br><br>「がいこく」のかきかたは？",
+        "text": "<u>がいこく</u>の <ruby>言葉<rt>ことば</rt></ruby>を <ruby>習<rt>なら</rt></ruby>います。<br><br>「がいこく」のかきかたは？",
         "options": [
           "外国",
           "中国",
@@ -8184,7 +8184,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q19",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>ともだち</u>と 遊びます。<br><br>「ともだち」のかきかたは？",
+        "text": "<u>ともだち</u>と <ruby>遊<rt>あそ</rt></ruby>びます。<br><br>「ともだち」のかきかたは？",
         "options": [
           "友人",
           "友立",
@@ -8197,7 +8197,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q20",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>ひる</u> ごはんを 食べます。<br><br>「ひる」のかきかたは？",
+        "text": "<u>ひる</u> ごはんを <ruby>食<rt>た</rt></ruby>べます。<br><br>「ひる」のかきかたは？",
         "options": [
           "朝",
           "夜",
@@ -8223,7 +8223,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q22",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "この 部屋は （　　）です。エアコンを つけましょう。<br><br>（　）になにがはいりますか。",
+        "text": "この <ruby>部屋<rt>へや</rt></ruby>は （　　）です。エアコンを つけましょう。<br><br>（　）になにがはいりますか。",
         "options": [
           "さむい",
           "あつい",
@@ -8236,7 +8236,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q23",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を ぬいで、部屋に 入ります。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を ぬいで、<ruby>部屋<rt>へや</rt></ruby>に <ruby>入<rt>はい</rt></ruby>ります。<br><br>（　）になにがはいりますか。",
         "options": [
           "シャツ",
           "ぼうし",
@@ -8249,7 +8249,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q24",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を 見て、漢字を 調べます。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を <ruby>見<rt>み</rt></ruby>て、<ruby>漢字<rt>かんじ</rt></ruby>を 調べます。<br><br>（　）になにがはいりますか。",
         "options": [
           "ノート",
           "新聞",
@@ -8262,7 +8262,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q25",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "おなかが （　　）です。何か 食べたいです。<br><br>（　）になにがはいりますか。",
+        "text": "おなかが （　　）です。<ruby>何<rt>なに</rt></ruby>か <ruby>食<rt>た</rt></ruby>べたいです。<br><br>（　）になにがはいりますか。",
         "options": [
           "すきました",
           "いたいです",
@@ -8275,7 +8275,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q26",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を 撮りました。とても きれいでした。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を <ruby>撮<rt>と</rt></ruby>りました。とても きれいでした。<br><br>（　）になにがはいりますか。",
         "options": [
           "てがみ",
           "しゃしん",
@@ -8288,7 +8288,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q27",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "すみませんが、窓を （　　）ください。暑いですから。<br><br>（　）になにがはいりますか。",
+        "text": "すみませんが、<ruby><ruby>窓<rt>まど</rt></ruby><rt>まど</rt></ruby>を （　　）ください。<ruby>暑い<rt>あつい</rt></ruby>ですから。<br><br>（　）になにがはいりますか。",
         "options": [
           "しめて",
           "つけて",
@@ -8314,7 +8314,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q29",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を かけて、出かけます。<ruby>目<rt>め</rt></ruby>が わるいですから。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を かけて、<ruby>出<rt>で</rt></ruby>かけます。<ruby>目<rt>め</rt></ruby>が わるいですから。<br><br>（　）になにがはいりますか。",
         "options": [
           "めがね",
           "シャツ",
@@ -8327,7 +8327,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q30",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）が いたいので、<ruby>病院<rt>びょういん</rt></ruby>へ 行きます。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）が いたいので、<ruby>病院<rt>びょういん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。<br><br>（　）になにがはいりますか。",
         "options": [
           "みみ",
           "あたま",
@@ -8340,7 +8340,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q31",
         "section": "言語知識（文法）・読解",
         "type": "言い換え類義",
-        "text": "<u>すぐ</u> 行きます。<br><br>「すぐ」に ちかい いみの ことばは？",
+        "text": "<u>すぐ</u> <ruby>行<rt>い</rt></ruby>きます。<br><br>「すぐ」に ちかい いみの ことばは？",
         "options": [
           "あとで",
           "時間をかけて",
@@ -8353,7 +8353,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q32",
         "section": "言語知識（文法）・読解",
         "type": "言い換え類義",
-        "text": "<u>ちょうど</u> 10時です。<br><br>「ちょうど」に ちかい いみの ことばは？",
+        "text": "<u>ちょうど</u> 10<ruby>時<rt>とき</rt></ruby>です。<br><br>「ちょうど」に ちかい いみの ことばは？",
         "options": [
           "だいたい",
           "すこし",
@@ -8470,7 +8470,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q41",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "ペン（　　） <ruby>手<rt>て</rt></ruby>紙を 書きました。<br><br>（　）になにがはいりますか。",
+        "text": "ペン（　　） <ruby>手<rt>て</rt></ruby><ruby>紙<rt>かみ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きました。<br><br>（　）になにがはいりますか。",
         "options": [
           "で",
           "を",
@@ -8483,7 +8483,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q42",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あした <ruby>学校<rt>がっこう</rt></ruby>（　　） 行きません。<br><br>（　）になにがはいりますか。",
+        "text": "あした <ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>（　　） <ruby>行<rt>い</rt></ruby>きません。<br><br>（　）になにがはいりますか。",
         "options": [
           "へを",
           "へは",
@@ -8496,7 +8496,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q43",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "だれ（　　） 来ませんでした。<br><br>（　）になにがはいりますか。",
+        "text": "だれ（　　） <ruby>来<rt>く</rt></ruby>ませんでした。<br><br>（　）になにがはいりますか。",
         "options": [
           "に",
           "を",
@@ -8509,7 +8509,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q44",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あそこに 猫が （　　） います。<br><br>（　）になにがはいりますか。",
+        "text": "あそこに <ruby>猫<rt>ねこ</rt></ruby>が （　　） います。<br><br>（　）になにがはいりますか。",
         "options": [
           "ひとつ",
           "ひとり",
@@ -8522,7 +8522,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q45",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "おんがくを （　　）ながら 勉強します。<br><br>（　）になにがはいりますか。",
+        "text": "おんがくを （　　）ながら <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>します。<br><br>（　）になにがはいりますか。",
         "options": [
           "きき",
           "きいて",
@@ -8535,7 +8535,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q46",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "<ruby><ruby>日本<rt>にほん</rt></ruby>語<rt>にほんご</rt></ruby>を 話すのが （　　）です。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby><ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby><rt>にほんご</rt></ruby>を <ruby>話<rt>はな</rt></ruby>すのが （　　）です。<br><br>（　）になにがはいりますか。",
         "options": [
           "うまく",
           "じょうず",
@@ -8548,7 +8548,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q47",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "宿題を （　　）から、遊びに行きます。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>宿題<rt>しゅくだい</rt></ruby>を （　　）から、<ruby>遊<rt>あそ</rt></ruby>びに<ruby>行<rt>い</rt></ruby>きます。<br><br>（　）になにがはいりますか。",
         "options": [
           "した",
           "する",
@@ -8561,7 +8561,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q48",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "この 料理は （　　） おいしくないです。<br><br>（　）になにがはいりますか。",
+        "text": "この <ruby>料理<rt>りょうり</rt></ruby>は （　　） おいしくないです。<br><br>（　）になにがはいりますか。",
         "options": [
           "とても",
           "すこし",
@@ -8574,7 +8574,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q49",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "これ（　　） わたしの 鞄です。<br><br>（　）になにがはいりますか。",
+        "text": "これ（　　） わたしの <ruby>鞄<rt>かばん</rt></ruby>です。<br><br>（　）になにがはいりますか。",
         "options": [
           "は",
           "を",
@@ -8587,7 +8587,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q50",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "昨日 （　　） <ruby>映画<rt>えいが</rt></ruby>は おもしろかったです。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>昨日<rt>きのう</rt></ruby> （　　） <ruby>映画<rt>えいが</rt></ruby>は おもしろかったです。<br><br>（　）になにがはいりますか。",
         "options": [
           "みて",
           "みた",
@@ -8600,7 +8600,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q51",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "コーヒー（　　） 紅茶、どちらが いいですか。<br><br>（　）になにがはいりますか。",
+        "text": "コーヒー（　　） <ruby>紅<ruby>茶<rt>ちゃ</rt></ruby><rt>こうちゃ</rt></ruby>、どちらが いいですか。<br><br>（　）になにがはいりますか。",
         "options": [
           "と",
           "を",
@@ -8613,7 +8613,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q52",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "<ruby>今日<rt>きょう</rt></ruby>は （　　） 寒いですね。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>今日<rt>きょう</rt></ruby>は （　　） <ruby>寒い<rt>さむい</rt></ruby>ですね。<br><br>（　）になにがはいりますか。",
         "options": [
           "あまり",
           "すこし",
@@ -8626,7 +8626,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q53",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あの 建物は （　　）ですか。<br><br>（　）になにがはいりますか。",
+        "text": "あの <ruby><ruby>建<rt>た</rt></ruby><ruby>物<rt>もの</rt></ruby><rt>たてもの</rt></ruby>は （　　）ですか。<br><br>（　）になにがはいりますか。",
         "options": [
           "なん",
           "どこ",
@@ -8639,7 +8639,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q54",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "机の<ruby>上<rt>うえ</rt></ruby>に 辞書（　　） あります。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>机<rt>つくえ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に <ruby>辞<ruby>書<rt>か</rt></ruby><rt>じしょ</rt></ruby>（　　） あります。<br><br>（　）になにがはいりますか。",
         "options": [
           "を",
           "が",
@@ -8652,7 +8652,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q55",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "ここ（　　） 名<ruby>前<rt>まえ</rt></ruby>を 書いてください。<br><br>（　）になにがはいりますか。",
+        "text": "ここ（　　） <ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>を <ruby>書<rt>か</rt></ruby>いてください。<br><br>（　）になにがはいりますか。",
         "options": [
           "を",
           "で",
@@ -8665,7 +8665,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q56",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "わたしは 毎<ruby>朝<rt>あさ</rt></ruby> 六時に 牛乳を 一回 飲みます。<br><br>★に入るものはどれですか。",
+        "text": "わたしは <ruby>毎<ruby>朝<rt>あさ</rt></ruby><rt>まいあさ</rt></ruby> <ruby>六<rt>ろく</rt></ruby><ruby>時<rt>とき</rt></ruby>に <ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>を <ruby><ruby>一<rt>いち</rt></ruby><ruby>回<rt>かい</rt></ruby><rt>いっかい</rt></ruby> <ruby>飲<rt>の</rt></ruby>みます。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "毎朝",
           "六時に",
@@ -8678,7 +8678,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q57",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "あそこに <ruby>白<rt>しろ</rt></ruby>い 帽<ruby>子<rt>こ</rt></ruby>を かぶった <ruby>人<rt>ひと</rt></ruby>が います。<br><br>★に入るものはどれですか。",
+        "text": "あそこに <ruby>白<rt>しろ</rt></ruby>い <ruby>帽<ruby>子<rt>こ</rt></ruby><rt>ぼうし</rt></ruby>を かぶった <ruby>人<rt>ひと</rt></ruby>が います。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "白い",
           "帽子を",
@@ -8691,7 +8691,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q58",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "そこに ゆっくり 椅<ruby>子<rt>こ</rt></ruby>に 座って かけて ください。<br><br>★に入るものはどれですか。",
+        "text": "そこに ゆっくり <ruby>椅<ruby>子<rt>こ</rt></ruby><rt>いす</rt></ruby>に <ruby>座<rt>すわ</rt></ruby>って かけて ください。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "そこに",
           "座って",
@@ -8704,7 +8704,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q59",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "公園の <ruby>中<rt>なか</rt></ruby>に <ruby>子供<rt>こども</rt></ruby>が 五<ruby>人<rt>ひと</rt></ruby> 遊んで います。<br><br>★に入るものはどれですか。",
+        "text": "<ruby>公<ruby>園<rt>えん</rt></ruby><rt>こうえん</rt></ruby>の <ruby>中<rt>なか</rt></ruby>に <ruby>子供<rt>こども</rt></ruby>が <ruby><ruby>五<rt>ご</rt></ruby><ruby>人<rt>ひと</rt></ruby><rt>ごにん</rt></ruby> <ruby>遊<rt>あそ</rt></ruby>んで います。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "中に",
           "子供が",
@@ -8717,7 +8717,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q60",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "ここに ボールペンで 名<ruby>前<rt>まえ</rt></ruby>を 書いて ください。<br><br>★に入るものはどれですか。",
+        "text": "ここに ボールペンで <ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>を <ruby>書<rt>か</rt></ruby>いて ください。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "ここに",
           "名前を",
@@ -8756,7 +8756,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q63",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（メール）<ruby>海<rt>うみ</rt></ruby>で たくさん （ 3 ） 泳ぎます。<br><br>（ 3 ）になにがはいりますか。",
+        "text": "（メール）<ruby>海<rt>うみ</rt></ruby>で たくさん （ 3 ） <ruby>泳<rt>およ</rt></ruby>ぎます。<br><br>（ 3 ）になにがはいりますか。",
         "options": [
           "魚と",
           "水を",
@@ -8769,7 +8769,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q64",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（メール）ジョンさんも （ 4 ） 行きませんか。<br><br>（ 4 ）になにがはいりますか。",
+        "text": "（メール）ジョンさんも （ 4 ） <ruby>行<rt>い</rt></ruby>きませんか。<br><br>（ 4 ）になにがはいりますか。",
         "options": [
           "ひとりで",
           "どこかへ",
@@ -8782,7 +8782,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q65",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（メール）（ 5 ） お返事を ください。<br><br>（ 5 ）になにがはいりますか。",
+        "text": "（メール）（ 5 ） お<ruby><ruby>返<rt>かえ</rt></ruby><ruby>事<rt>こと</rt></ruby><rt>へんじ</rt></ruby>を ください。<br><br>（ 5 ）になにがはいりますか。",
         "options": [
           "ぜひ",
           "たぶん",
@@ -8795,7 +8795,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q66",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）田<ruby>中<rt>なか</rt></ruby>さんは <ruby>毎日<rt>まいにち</rt></ruby> 七時に おきます。パンを 食べてから 仕事に 行きます。<br><br>田<ruby>中<rt>なか</rt></ruby>さんは <ruby>朝<rt>あさ</rt></ruby> 何を しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>七<rt>なな</rt></ruby><ruby>時<rt>とき</rt></ruby>に おきます。パンを <ruby>食<rt>た</rt></ruby>べてから <ruby><ruby>仕<rt>し</rt></ruby><ruby>事<rt>こと</rt></ruby><rt>しごと</rt></ruby>に <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんは <ruby>朝<rt>あさ</rt></ruby> <ruby>何<rt>なに</rt></ruby>を しますか。",
         "options": [
           "コーヒーを飲む",
           "パンを食べる",
@@ -8808,7 +8808,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q67",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）わたしの 家は <ruby>駅<rt>えき</rt></ruby>から 十分くらいです。とても 便利です。<br><br>家は どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）わたしの <ruby>家<rt>いえ</rt></ruby>は <ruby>駅<rt>えき</rt></ruby>から <ruby>十<rt>じゅう</rt></ruby><ruby>分<rt>ふん</rt></ruby>くらいです。とても <ruby>便利<rt>べんり</rt></ruby>です。<br><br><ruby>家<rt>いえ</rt></ruby>は どうですか。",
         "options": [
           "遠くて不便",
           "広くて古い",
@@ -8821,7 +8821,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q68",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）昨日は 休みでした。どこへも 行きませんでした。家で <ruby>本<rt>ほん</rt></ruby>を 読みました。<br><br>昨日は 何を しましたか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>昨日<rt>きのう</rt></ruby>は <ruby>休<rt>やす</rt></ruby>みでした。どこへも <ruby>行<rt>い</rt></ruby>きませんでした。<ruby>家<rt>いえ</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みました。<br><br><ruby>昨日<rt>きのう</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を しましたか。",
         "options": [
           "買い物に行った",
           "公園に行った",
@@ -8834,7 +8834,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q69",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）この 料理は 少し 辛いですが、とても おいしいです。<br><br>この 料理は どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）この <ruby>料理<rt>りょうり</rt></ruby>は <ruby>少<rt>すく</rt></ruby>し <ruby>辛い<rt>からい</rt></ruby>ですが、とても おいしいです。<br><br>この <ruby>料理<rt>りょうり</rt></ruby>は どうですか。",
         "options": [
           "辛いがおいしい",
           "甘い",
@@ -8847,7 +8847,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q70",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）明日は <ruby>月曜日<rt>げつようび</rt></ruby>です。テストが ありますから、<ruby>今日<rt>きょう</rt></ruby>は 勉強します。<br><br>いつ 勉強しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby><ruby>明<rt>あか</rt></ruby>日<rt>あした</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>です。テストが ありますから、<ruby>今日<rt>きょう</rt></ruby>は <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>します。<br><br>いつ <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>しますか。",
         "options": [
           "明日",
           "今日",
@@ -8860,7 +8860,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q71",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）この ズボンは 少し 短いです。もっと 長いのは ありませんか。<br><br>この ズボンは どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）この ズボンは <ruby>少<rt>すく</rt></ruby>し 短いです。もっと <ruby>長<rt>なが</rt></ruby>いのは ありませんか。<br><br>この ズボンは どうですか。",
         "options": [
           "短い",
           "太い",
@@ -8873,7 +8873,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q72",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）木村さんは ギターが 好きです。<ruby>毎日<rt>まいにち</rt></ruby> 練習します。<br><br>木村さんは 何を 練習しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>木村<rt>きむら</rt></ruby>さんは ギターが <ruby>好き<rt>すき</rt></ruby>です。<ruby>毎日<rt>まいにち</rt></ruby> <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>します。<br><br><ruby>木村<rt>きむら</rt></ruby>さんは <ruby>何<rt>なに</rt></ruby>を <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>しますか。",
         "options": [
           "ピアノ",
           "歌",
@@ -8886,7 +8886,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q73",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "わたしは 去年 <ruby>日本<rt>にほん</rt></ruby>に 来ました。今は <ruby>銀行<rt>ぎんこう</rt></ruby>の 近くの 小さな 家に 住んでいます。近くに スーパーが ありませんから、少し 不便です。でも、<ruby>駅<rt>えき</rt></ruby>が 近いですから、どこへ 行くのも 便利です。毎<ruby>朝<rt>あさ</rt></ruby> 八時に <ruby>電車<rt>でんしゃ</rt></ruby>に 乗って <ruby>会社<rt>かいしゃ</rt></ruby>へ 行きます。<br><br>この<ruby>人<rt>ひと</rt></ruby>の 家は どうですか。",
+        "text": "わたしは <ruby>去<ruby>年<rt>ねん</rt></ruby><rt>きょねん</rt></ruby> <ruby>日本<rt>にほん</rt></ruby>に <ruby>来<rt>く</rt></ruby>ました。今は <ruby>銀<ruby>行<rt>い</rt></ruby><rt>ぎんこう</rt></ruby>の <ruby>近<rt>ちか</rt></ruby>くの <ruby>小<rt>ちい</rt></ruby>さな <ruby>家<rt>いえ</rt></ruby>に 住んでいます。<ruby>近<rt>ちか</rt></ruby>くに スーパーが ありませんから、<ruby>少<rt>すく</rt></ruby>し <ruby>不便<rt>ふべん</rt></ruby>です。でも、<ruby>駅<rt>えき</rt></ruby>が <ruby>近<rt>ちか</rt></ruby>いですから、どこへ <ruby>行<rt>い</rt></ruby>くのも <ruby>便利<rt>べんり</rt></ruby>です。<ruby>毎<ruby>朝<rt>あさ</rt></ruby><rt>まいあさ</rt></ruby> <ruby>八<rt>はち</rt></ruby><ruby>時<rt>とき</rt></ruby>に <ruby><ruby>電<rt>でん</rt></ruby><ruby>車<rt>くるま</rt></ruby><rt>でんしゃ</rt></ruby>に 乗って <ruby>会社<rt>かいしゃ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。<br><br>この<ruby>人<rt>ひと</rt></ruby>の <ruby>家<rt>いえ</rt></ruby>は どうですか。",
         "options": [
           "大きくて 便利だ",
           "小さくて 駅から 遠い",
@@ -8899,7 +8899,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q74",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）わたしは <ruby>日本<rt>にほん</rt></ruby>に 来て 一年に なります。<ruby><ruby>日本<rt>にほん</rt></ruby>語<rt>にほんご</rt></ruby><ruby>学校<rt>がっこう</rt></ruby>で べんきょうしています。<br><br><ruby>日本<rt>にほん</rt></ruby>に 来て どのくらいですか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）わたしは <ruby>日本<rt>にほん</rt></ruby>に <ruby>来<rt>く</rt></ruby>て <ruby>一<rt>いち</rt></ruby><ruby>年<rt>ねん</rt></ruby>に なります。<ruby><ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby><rt>にほんご</rt></ruby><ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>で べんきょうしています。<br><br><ruby>日本<rt>にほん</rt></ruby>に <ruby>来<rt>く</rt></ruby>て どのくらいですか。",
         "options": [
           "半年",
           "一年",
@@ -8912,7 +8912,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q75",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）<ruby>学校<rt>がっこう</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>から <ruby>金曜日<rt>きんようび</rt></ruby>まで あります。<br><br><ruby>学校<rt>がっこう</rt></ruby>は いつ ありますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>から <ruby>金曜日<rt>きんようび</rt></ruby>まで あります。<br><br><ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>は いつ ありますか。",
         "options": [
           "毎日",
           "週末",
@@ -8925,7 +8925,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q76",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "わたしの 趣味は スポーツを することです。特に サッカーが 好きです。<ruby>高校<rt>こうこう</rt></ruby>生の ときから <ruby>毎日<rt>まいにち</rt></ruby> 練習して いました。今は 忙しいですから、<ruby>日曜日<rt>にちようび</rt></ruby>だけ 公園で <ruby>友<rt>とも</rt></ruby>だちと します。テニスも 好きですが、あまり <ruby>上<rt>うえ</rt></ruby><ruby>手<rt>て</rt></ruby>では ありません。<br><br>今は いつ サッカーを しますか。",
+        "text": "わたしの <ruby>趣<ruby>味<rt>あじ</rt></ruby><rt>しゅみ</rt></ruby>は スポーツを することです。<ruby>特に<rt>とくに</rt></ruby> サッカーが <ruby>好き<rt>すき</rt></ruby>です。<ruby><ruby>高<rt>たか</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>こうこう</rt></ruby><ruby>生<rt>せい</rt></ruby>の ときから <ruby>毎日<rt>まいにち</rt></ruby> <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>して いました。今は <ruby>忙しい<rt>いそがしい</rt></ruby>ですから、<ruby>日曜日<rt>にちようび</rt></ruby>だけ <ruby>公<ruby>園<rt>えん</rt></ruby><rt>こうえん</rt></ruby>で <ruby>友<rt>とも</rt></ruby>だちと します。テニスも <ruby>好き<rt>すき</rt></ruby>ですが、あまり <ruby><ruby>上<rt>うえ</rt></ruby><ruby>手<rt>て</rt></ruby><rt>じょうず</rt></ruby>では ありません。<br><br>今は いつ サッカーを しますか。",
         "options": [
           "毎日",
           "平日",
@@ -8938,7 +8938,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q77",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）わたしの しゅみは サッカーです。週に 二回 練習します。<br><br>しゅみは 何ですか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）わたしの しゅみは サッカーです。<ruby>週<rt>しゅう</rt></ruby>に <ruby><ruby>二<rt>に</rt></ruby><ruby>回<rt>かい</rt></ruby><rt>にかい</rt></ruby> <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>します。<br><br>しゅみは <ruby>何<rt>なに</rt></ruby>ですか。",
         "options": [
           "サッカー",
           "テニス",
@@ -8951,7 +8951,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q78",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）週末は <ruby>友<rt>とも</rt></ruby>だちと サッカーを します。とても たのしいです。<br><br>だれと サッカーを しますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby><rt>しゅうまつ</rt></ruby>は <ruby>友<rt>とも</rt></ruby>だちと サッカーを します。とても たのしいです。<br><br>だれと サッカーを しますか。",
         "options": [
           "一人で",
           "友だち",
@@ -8964,7 +8964,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q79",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）<ruby>来月<rt>らいげつ</rt></ruby> サッカーの 大会が あります。たくさん 練習します。<br><br><ruby>来月<rt>らいげつ</rt></ruby> 何が ありますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>来<rt>く</rt></ruby>月<rt>らいげつ</rt></ruby> サッカーの <ruby>大<rt>おお</rt></ruby>会が あります。たくさん <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>します。<br><br><ruby><ruby>来<rt>く</rt></ruby>月<rt>らいげつ</rt></ruby> <ruby>何<rt>なに</rt></ruby>が ありますか。",
         "options": [
           "りょこう",
           "しけん",
@@ -8977,7 +8977,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q80",
         "section": "言語知識（文法）・読解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【ゴミの日】<ruby>月・木<rt>げつ・もく</rt></ruby>：もえるゴミ　火：プラスチック　水：ペットボトル<br><br>燃えるゴミの日は いつですか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【ゴミの日】月・木：もえるゴミ　火：プラスチック　水：ペットボトル<br><br>燃えるゴミの日は いつですか。",
         "options": [
           "火・金",
           "水・土",
@@ -8990,7 +8990,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q81",
         "section": "聴解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【ゴミの日】水：ペットボトル<br><br>ペットボトルの日は いつですか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【ゴミの日】水：ペットボトル<br><br>ペットボトルの日は いつですか。",
         "options": [
           "水曜日",
           "月曜日",
@@ -9003,7 +9003,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q82",
         "section": "聴解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【ゴミの日】第3<ruby>日曜日<rt>にちようび</rt></ruby>：休み<br><br>第3<ruby>日曜日<rt>にちようび</rt></ruby>は どうですか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【ゴミの日】第3<ruby>日曜日<rt>にちようび</rt></ruby>：<ruby>休<rt>やす</rt></ruby>み<br><br>第3<ruby>日曜日<rt>にちようび</rt></ruby>は どうですか。",
         "options": [
           "燃えないゴミ",
           "休み",
@@ -9224,7 +9224,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q99",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "お名<ruby>前<rt>まえ</rt></ruby>は？<br><br>なんと こたえますか。",
+        "text": "お<ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>は？<br><br>なんと こたえますか。",
         "options": [
           "銀行員です",
           "二十歳です",
@@ -9237,7 +9237,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M7_Q100",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "また <ruby>来週<rt>らいしゅう</rt></ruby>。<br><br>なんと こたえますか。",
+        "text": "また <ruby><ruby>来<rt>く</rt></ruby><ruby>週<rt>しゅう</rt></ruby><rt>らいしゅう</rt></ruby>。<br><br>なんと こたえますか。",
         "options": [
           "おはよう",
           "おやすみなさい",
@@ -9252,7 +9252,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M8_Q1",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>毎朝</u> <u>新聞</u>を <u>読</u>みます。<br><br>「読」みますのよみかたは？",
+        "text": "<u>毎朝</u> <u>新聞</u>を <u>読</u>みます。<br><br>「<ruby>読<rt>よ</rt></ruby>」みますのよみかたは？",
         "options": [
           "よ",
           "か",
@@ -9265,7 +9265,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M8_Q2",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>水</u>を <u>一万</u>円分 買いました。<br><br>「一万」のよみかたは？",
+        "text": "<u>水</u>を <u>一万</u><ruby>円<rt>えん</rt></ruby><ruby>分<rt>ふん</rt></ruby> <ruby>買<rt>か</rt></ruby>いました。<br><br>「<ruby><ruby>一<rt>いち</rt></ruby><ruby>万<rt>まん</rt></ruby><rt>いちまん</rt></ruby>」のよみかたは？",
         "options": [
           "いちぜん",
           "いちまん",
@@ -9291,7 +9291,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M8_Q4",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>田中</u>さんは <u>足</u>が <u>長</u>いです。<br><br>「長」いのよみかたは？",
+        "text": "<u>田中</u>さんは <u>足</u>が <u>長</u>いです。<br><br>「<ruby>長<rt>なが</rt></ruby>」いのよみかたは？",
         "options": [
           "みじかい",
           "たかい",
@@ -9304,7 +9304,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M8_Q5",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>来月</u> <u>外国</u>へ <u>行</u>きます。<br><br>「<ruby>外<rt>そと</rt></ruby><ruby>国<rt>くに</rt></ruby>」のよみかたは？",
+        "text": "<u>来月</u> <u>外国</u>へ <u>行</u>きます。<br><br>「<ruby><ruby>外<rt>そと</rt></ruby><ruby>国<rt>くに</rt></ruby><rt>がいこく</rt></ruby>」のよみかたは？",
         "options": [
           "がいこく",
           "そとくに",
@@ -9343,7 +9343,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M8_Q8",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>友</u>だちと <u>山</u>へ 行きました。<br><br>「友」だちのよみかたは？",
+        "text": "<u>友</u>だちと <u>山</u>へ <ruby>行<rt>い</rt></ruby>きました。<br><br>「友」だちのよみかたは？",
         "options": [
           "ひと",
           "こ",
@@ -9356,7 +9356,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M8_Q9",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>時間</u>が <u>半分</u> あります。<br><br>「半分」のよみかたは？",
+        "text": "<u>時間</u>が <u>半分</u> あります。<br><br>「<ruby><ruby>半<rt>はん</rt></ruby><ruby>分<rt>ふん</rt></ruby><rt>はんぶん</rt></ruby>」のよみかたは？",
         "options": [
           "はんぶん",
           "はなぶん",
@@ -9369,7 +9369,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M8_Q10",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>先生</u>と <u>話</u>しました。<br><br>「話」しましたのよみかたは？",
+        "text": "<u>先生</u>と <u>話</u>しました。<br><br>「<ruby>話<rt>はな</rt></ruby>」しましたのよみかたは？",
         "options": [
           "よ",
           "はな",
@@ -9967,7 +9967,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M8_Q56",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "わたしは まいあさ ろくじに しゃわーを あびてから おきます。<br><br>★に入るものはどれですか。",
+        "text": "わたしは まいあさ ろくじに しゃわーを あびてから おきます。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "まいあさ",
           "ろくじに",
@@ -9980,7 +9980,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M8_Q57",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "きのうは としょかんで さんじかん ほんを よみました。<br><br>★に入るものはどれですか。",
+        "text": "きのうは としょかんで さんじかん ほんを よみました。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "きのうは",
           "としょかんで",
@@ -9993,7 +9993,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M8_Q58",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "にほんへ きてから もう さんかげつに なりました。<br><br>★に入るものはどれですか。",
+        "text": "にほんへ きてから もう さんかげつに なりました。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "にほんへ",
           "きてから",
@@ -10006,7 +10006,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M8_Q59",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "あの あかい せーたーを きている ひとは たなかさんです。<br><br>★に入るものはどれですか。",
+        "text": "あの あかい せーたーを きている ひとは たなかさんです。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "あかい",
           "せーたーを",
@@ -10019,7 +10019,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M8_Q60",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "れいぞうこに つめたい みずが さんぼん はいって あります。<br><br>★に入るものはどれですか。",
+        "text": "れいぞうこに つめたい みずが さんぼん はいって あります。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "つめたい",
           "みずが",
@@ -10188,7 +10188,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M8_Q73",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "昨日は 木村さんの 誕生日でした。田<ruby>中<rt>なか</rt></ruby>さんと いっしょに プレゼントを 買いに 行きました。デパートで <ruby>白<rt>しろ</rt></ruby>い 帽<ruby>子<rt>こ</rt></ruby>を 買いました。<ruby>夜<rt>よる</rt></ruby>は 木村さんの 家で パーティーを しました。ケーキも 料理も とても おいしかったです。とても 楽しかったです。<br><br>木村さんに 何を 買いましたか。",
+        "text": "<ruby>昨日<rt>きのう</rt></ruby>は <ruby>木村<rt>きむら</rt></ruby>さんの <ruby>誕<ruby>生<rt>せい</rt></ruby>日<rt>たんじょうび</rt></ruby>でした。<ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんと いっしょに プレゼントを <ruby>買<rt>か</rt></ruby>いに <ruby>行<rt>い</rt></ruby>きました。デパートで <ruby>白<rt>しろ</rt></ruby>い <ruby>帽<ruby>子<rt>こ</rt></ruby><rt>ぼうし</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。<ruby>夜<rt>よる</rt></ruby>は <ruby>木村<rt>きむら</rt></ruby>さんの <ruby>家<rt>いえ</rt></ruby>で パーティーを しました。ケーキも <ruby>料理<rt>りょうり</rt></ruby>も とても おいしかったです。とても 楽しかったです。<br><br><ruby>木村<rt>きむら</rt></ruby>さんに <ruby>何<rt>なに</rt></ruby>を <ruby>買<rt>か</rt></ruby>いましたか。",
         "options": [
           "ケーキ",
           "料理",
@@ -10292,7 +10292,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M8_Q81",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと おんなのひとが はなしています。おんなのひとは なにを かいますか。<br><ruby>男<rt>おとこ</rt></ruby>：これから <ruby>買い物<rt>かいもの</rt></ruby>に 行きます。りんごを 買います。<br><ruby>女<rt>おんな</rt></ruby>：いいですね。みかんも 買ってきてください。<br><ruby>男<rt>おとこ</rt></ruby>：バナナも いりますか。<br><ruby>女<rt>おんな</rt></ruby>：いいえ、バナナは まだ ありますから、いいです。<br><br>おんなのひとは なにを かいますか。",
+        "text": "おとこのひとと おんなのひとが はなしています。おんなのひとは なにを かいますか。<br><ruby>男<rt>おとこ</rt></ruby>：これから <ruby><ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby><rt>かいもの</rt></ruby>に <ruby>行<rt>い</rt></ruby>きます。りんごを <ruby>買<rt>か</rt></ruby>います。<br><ruby>女<rt>おんな</rt></ruby>：いいですね。みかんも <ruby>買<rt>か</rt></ruby>ってきてください。<br><ruby>男<rt>おとこ</rt></ruby>：バナナも いりますか。<br><ruby>女<rt>おんな</rt></ruby>：いいえ、バナナは まだ ありますから、いいです。<br><br>おんなのひとは なにを かいますか。",
         "options": [
           "りんご",
           "みかん",
@@ -10382,7 +10382,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M8_Q87",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとと おとこのひとが はなしています。おとこのひとは どうして いきませんか。<br><ruby>女<rt>おんな</rt></ruby>：あしたの 旅行、いっしょに 行きませんか。<br><ruby>男<rt>おとこ</rt></ruby>：行きたいですが、あしたは 仕事が たくさん ありますから、行けません。<br><ruby>女<rt>おんな</rt></ruby>：そうですか。残念ですね。<br><br>おとこのひとは どうして いきませんか。",
+        "text": "おんなのひとと おとこのひとが はなしています。おとこのひとは どうして いきませんか。<br><ruby>女<rt>おんな</rt></ruby>：あしたの <ruby><ruby>旅<rt>たび</rt></ruby><ruby>行<rt>い</rt></ruby><rt>りょこう</rt></ruby>、いっしょに <ruby>行<rt>い</rt></ruby>きませんか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>行<rt>い</rt></ruby>きたいですが、あしたは <ruby><ruby>仕<rt>し</rt></ruby><ruby>事<rt>こと</rt></ruby><rt>しごと</rt></ruby>が たくさん ありますから、<ruby>行<rt>い</rt></ruby>けません。<br><ruby>女<rt>おんな</rt></ruby>：そうですか。<ruby>残念<rt>ざんねん</rt></ruby>ですね。<br><br>おとこのひとは どうして いきませんか。",
         "options": [
           "病気だから",
           "寒いから",
@@ -10579,7 +10579,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q2",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "この <u>道</u>を まっすぐ 行きます。<br><br>「道」のよみかたは？",
+        "text": "この <u>道</u>を まっすぐ <ruby>行<rt>い</rt></ruby>きます。<br><br>「道」のよみかたは？",
         "options": [
           "やま",
           "かわ",
@@ -10592,7 +10592,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q3",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>今週</u>は とても 忙しいです。<br><br>「今週」のよみかたは？",
+        "text": "<u>今週</u>は とても <ruby>忙しい<rt>いそがしい</rt></ruby>です。<br><br>「今週」のよみかたは？",
         "options": [
           "まいしゅう",
           "こんしゅう",
@@ -10618,7 +10618,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q5",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>午前</u> 九時に 始まります。<br><br>「午前」のよみかたは？",
+        "text": "<u>午前</u> <ruby>九<rt>きゅう</rt></ruby><ruby>時<rt>とき</rt></ruby>に 始まります。<br><br>「午前」のよみかたは？",
         "options": [
           "ごご",
           "あさ",
@@ -10631,7 +10631,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q6",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>何</u>を <u>買</u>いましたか。<br><br>「買」いましたのよみかたは？",
+        "text": "<u>何</u>を <u>買</u>いましたか。<br><br>「<ruby>買<rt>か</rt></ruby>」いましたのよみかたは？",
         "options": [
           "か",
           "き",
@@ -10657,7 +10657,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q8",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>半分</u> 食べました。<br><br>「半分」のよみかたは？",
+        "text": "<u>半分</u> <ruby>食<rt>た</rt></ruby>べました。<br><br>「半分」のよみかたは？",
         "options": [
           "はなぶん",
           "ほんぶん",
@@ -10696,7 +10696,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q11",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>百</u>円 <u>安</u>いです。<br><br>「百」のよみかたは？",
+        "text": "<u>百</u><ruby>円<rt>えん</rt></ruby> <u>安</u>いです。<br><br>「百」のよみかたは？",
         "options": [
           "せん",
           "ひゃく",
@@ -10735,7 +10735,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q14",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>らいねん</u> <ruby>日本<rt>にほん</rt></ruby>に 行きます。<br><br>「らいねん」のかきかたは？",
+        "text": "<u>らいねん</u> <ruby>日本<rt>にほん</rt></ruby>に <ruby>行<rt>い</rt></ruby>きます。<br><br>「らいねん」のかきかたは？",
         "options": [
           "来年",
           "今年",
@@ -10761,7 +10761,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q16",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>さんぷん</u> 待ってください。<br><br>「さんぷん」のかきかたは？",
+        "text": "<u>さんぷん</u> <ruby>待<rt>ま</rt></ruby>ってください。<br><br>「さんぷん」のかきかたは？",
         "options": [
           "三時",
           "三日",
@@ -10774,7 +10774,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q17",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>がいこく</u>の 言葉を 習います。<br><br>「がいこく」のかきかたは？",
+        "text": "<u>がいこく</u>の <ruby>言葉<rt>ことば</rt></ruby>を <ruby>習<rt>なら</rt></ruby>います。<br><br>「がいこく」のかきかたは？",
         "options": [
           "中国",
           "国名",
@@ -10800,7 +10800,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q19",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>ともだち</u>と 遊びます。<br><br>「ともだち」のかきかたは？",
+        "text": "<u>ともだち</u>と <ruby>遊<rt>あそ</rt></ruby>びます。<br><br>「ともだち」のかきかたは？",
         "options": [
           "友人",
           "友だち",
@@ -10813,7 +10813,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q20",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>ひる</u> ごはんを 食べます。<br><br>「ひる」のかきかたは？",
+        "text": "<u>ひる</u> ごはんを <ruby>食<rt>た</rt></ruby>べます。<br><br>「ひる」のかきかたは？",
         "options": [
           "朝",
           "夜",
@@ -10839,7 +10839,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q22",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "この 部屋は （　　）です。エアコンを つけましょう。<br><br>（　）になにがはいりますか。",
+        "text": "この <ruby>部屋<rt>へや</rt></ruby>は （　　）です。エアコンを つけましょう。<br><br>（　）になにがはいりますか。",
         "options": [
           "あつい",
           "さむい",
@@ -10852,7 +10852,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q23",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を ぬいで、部屋に 入ります。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を ぬいで、<ruby>部屋<rt>へや</rt></ruby>に <ruby>入<rt>はい</rt></ruby>ります。<br><br>（　）になにがはいりますか。",
         "options": [
           "シャツ",
           "くつ",
@@ -10865,7 +10865,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q24",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を 見て、漢字を 調べます。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を <ruby>見<rt>み</rt></ruby>て、<ruby>漢字<rt>かんじ</rt></ruby>を 調べます。<br><br>（　）になにがはいりますか。",
         "options": [
           "ノート",
           "新聞",
@@ -10878,7 +10878,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q25",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "おなかが （　　）です。何か 食べたいです。<br><br>（　）になにがはいりますか。",
+        "text": "おなかが （　　）です。<ruby>何<rt>なに</rt></ruby>か <ruby>食<rt>た</rt></ruby>べたいです。<br><br>（　）になにがはいりますか。",
         "options": [
           "いたいです",
           "あついです",
@@ -10891,7 +10891,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q26",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を 撮りました。とても きれいでした。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を <ruby>撮<rt>と</rt></ruby>りました。とても きれいでした。<br><br>（　）になにがはいりますか。",
         "options": [
           "しゃしん",
           "てがみ",
@@ -10904,7 +10904,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q27",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "すみませんが、窓を （　　）ください。暑いですから。<br><br>（　）になにがはいりますか。",
+        "text": "すみませんが、<ruby><ruby>窓<rt>まど</rt></ruby><rt>まど</rt></ruby>を （　　）ください。<ruby>暑い<rt>あつい</rt></ruby>ですから。<br><br>（　）になにがはいりますか。",
         "options": [
           "しめて",
           "あけて",
@@ -10930,7 +10930,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q29",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を かけて、出かけます。<ruby>目<rt>め</rt></ruby>が わるいですから。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を かけて、<ruby>出<rt>で</rt></ruby>かけます。<ruby>目<rt>め</rt></ruby>が わるいですから。<br><br>（　）になにがはいりますか。",
         "options": [
           "シャツ",
           "くつ",
@@ -10943,7 +10943,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q30",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）が いたいので、<ruby>病院<rt>びょういん</rt></ruby>へ 行きます。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）が いたいので、<ruby>病院<rt>びょういん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。<br><br>（　）になにがはいりますか。",
         "options": [
           "あたま",
           "みみ",
@@ -10956,7 +10956,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q31",
         "section": "言語知識（文法）・読解",
         "type": "言い換え類義",
-        "text": "<u>すぐ</u> 行きます。<br><br>「すぐ」に ちかい いみの ことばは？",
+        "text": "<u>すぐ</u> <ruby>行<rt>い</rt></ruby>きます。<br><br>「すぐ」に ちかい いみの ことばは？",
         "options": [
           "あとで",
           "いまから",
@@ -10969,7 +10969,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q32",
         "section": "言語知識（文法）・読解",
         "type": "言い換え類義",
-        "text": "<u>ちょうど</u> 10時です。<br><br>「ちょうど」に ちかい いみの ことばは？",
+        "text": "<u>ちょうど</u> 10<ruby>時<rt>とき</rt></ruby>です。<br><br>「ちょうど」に ちかい いみの ことばは？",
         "options": [
           "だいたい",
           "すこし",
@@ -11086,7 +11086,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q41",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "ペン（　　） <ruby>手<rt>て</rt></ruby>紙を 書きました。<br><br>（　）になにがはいりますか。",
+        "text": "ペン（　　） <ruby>手<rt>て</rt></ruby><ruby>紙<rt>かみ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きました。<br><br>（　）になにがはいりますか。",
         "options": [
           "を",
           "に",
@@ -11099,7 +11099,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q42",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あした <ruby>学校<rt>がっこう</rt></ruby>（　　） 行きません。<br><br>（　）になにがはいりますか。",
+        "text": "あした <ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>（　　） <ruby>行<rt>い</rt></ruby>きません。<br><br>（　）になにがはいりますか。",
         "options": [
           "へは",
           "へを",
@@ -11112,7 +11112,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q43",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "だれ（　　） 来ませんでした。<br><br>（　）になにがはいりますか。",
+        "text": "だれ（　　） <ruby>来<rt>く</rt></ruby>ませんでした。<br><br>（　）になにがはいりますか。",
         "options": [
           "に",
           "も",
@@ -11125,7 +11125,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q44",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あそこに 猫が （　　） います。<br><br>（　）になにがはいりますか。",
+        "text": "あそこに <ruby>猫<rt>ねこ</rt></ruby>が （　　） います。<br><br>（　）になにがはいりますか。",
         "options": [
           "ひとつ",
           "ひとり",
@@ -11138,7 +11138,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q45",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "おんがくを （　　）ながら 勉強します。<br><br>（　）になにがはいりますか。",
+        "text": "おんがくを （　　）ながら <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>します。<br><br>（　）になにがはいりますか。",
         "options": [
           "きいて",
           "きく",
@@ -11151,7 +11151,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q46",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "<ruby><ruby>日本<rt>にほん</rt></ruby>語<rt>にほんご</rt></ruby>を 話すのが （　　）です。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby><ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby><rt>にほんご</rt></ruby>を <ruby>話<rt>はな</rt></ruby>すのが （　　）です。<br><br>（　）になにがはいりますか。",
         "options": [
           "じょうず",
           "うまく",
@@ -11164,7 +11164,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q47",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "宿題を （　　）から、遊びに行きます。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>宿題<rt>しゅくだい</rt></ruby>を （　　）から、<ruby>遊<rt>あそ</rt></ruby>びに<ruby>行<rt>い</rt></ruby>きます。<br><br>（　）になにがはいりますか。",
         "options": [
           "した",
           "する",
@@ -11177,7 +11177,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q48",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "この 料理は （　　） おいしくないです。<br><br>（　）になにがはいりますか。",
+        "text": "この <ruby>料理<rt>りょうり</rt></ruby>は （　　） おいしくないです。<br><br>（　）になにがはいりますか。",
         "options": [
           "とても",
           "すこし",
@@ -11190,7 +11190,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q49",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "これ（　　） わたしの 鞄です。<br><br>（　）になにがはいりますか。",
+        "text": "これ（　　） わたしの <ruby>鞄<rt>かばん</rt></ruby>です。<br><br>（　）になにがはいりますか。",
         "options": [
           "は",
           "を",
@@ -11203,7 +11203,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q50",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "昨日 （　　） <ruby>映画<rt>えいが</rt></ruby>は おもしろかったです。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>昨日<rt>きのう</rt></ruby> （　　） <ruby>映画<rt>えいが</rt></ruby>は おもしろかったです。<br><br>（　）になにがはいりますか。",
         "options": [
           "みて",
           "みた",
@@ -11216,7 +11216,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q51",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "コーヒー（　　） 紅茶、どちらが いいですか。<br><br>（　）になにがはいりますか。",
+        "text": "コーヒー（　　） <ruby>紅<ruby>茶<rt>ちゃ</rt></ruby><rt>こうちゃ</rt></ruby>、どちらが いいですか。<br><br>（　）になにがはいりますか。",
         "options": [
           "と",
           "を",
@@ -11229,7 +11229,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q52",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "<ruby>今日<rt>きょう</rt></ruby>は （　　） 寒いですね。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>今日<rt>きょう</rt></ruby>は （　　） <ruby>寒い<rt>さむい</rt></ruby>ですね。<br><br>（　）になにがはいりますか。",
         "options": [
           "あまり",
           "すこし",
@@ -11242,7 +11242,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q53",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あの 建物は （　　）ですか。<br><br>（　）になにがはいりますか。",
+        "text": "あの <ruby><ruby>建<rt>た</rt></ruby><ruby>物<rt>もの</rt></ruby><rt>たてもの</rt></ruby>は （　　）ですか。<br><br>（　）になにがはいりますか。",
         "options": [
           "なん",
           "どこ",
@@ -11255,7 +11255,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q54",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "机の<ruby>上<rt>うえ</rt></ruby>に 辞書（　　） あります。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>机<rt>つくえ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に <ruby>辞<ruby>書<rt>か</rt></ruby><rt>じしょ</rt></ruby>（　　） あります。<br><br>（　）になにがはいりますか。",
         "options": [
           "を",
           "が",
@@ -11268,7 +11268,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q55",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "ここ（　　） 名<ruby>前<rt>まえ</rt></ruby>を 書いてください。<br><br>（　）になにがはいりますか。",
+        "text": "ここ（　　） <ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>を <ruby>書<rt>か</rt></ruby>いてください。<br><br>（　）になにがはいりますか。",
         "options": [
           "を",
           "で",
@@ -11281,7 +11281,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q56",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "わたしは 毎<ruby>朝<rt>あさ</rt></ruby> 六時に 牛乳を 一回 飲みます。<br><br>★に入るものはどれですか。",
+        "text": "わたしは <ruby>毎<ruby>朝<rt>あさ</rt></ruby><rt>まいあさ</rt></ruby> <ruby>六<rt>ろく</rt></ruby><ruby>時<rt>とき</rt></ruby>に <ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>を <ruby><ruby>一<rt>いち</rt></ruby><ruby>回<rt>かい</rt></ruby><rt>いっかい</rt></ruby> <ruby>飲<rt>の</rt></ruby>みます。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "毎朝",
           "六時に",
@@ -11294,7 +11294,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q57",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "あそこに <ruby>白<rt>しろ</rt></ruby>い 帽<ruby>子<rt>こ</rt></ruby>を かぶった <ruby>人<rt>ひと</rt></ruby>が います。<br><br>★に入るものはどれですか。",
+        "text": "あそこに <ruby>白<rt>しろ</rt></ruby>い <ruby>帽<ruby>子<rt>こ</rt></ruby><rt>ぼうし</rt></ruby>を かぶった <ruby>人<rt>ひと</rt></ruby>が います。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "白い",
           "帽子を",
@@ -11307,7 +11307,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q58",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "そこに ゆっくり 椅<ruby>子<rt>こ</rt></ruby>に 座って かけて ください。<br><br>★に入るものはどれですか。",
+        "text": "そこに ゆっくり <ruby>椅<ruby>子<rt>こ</rt></ruby><rt>いす</rt></ruby>に <ruby>座<rt>すわ</rt></ruby>って かけて ください。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "そこに",
           "座って",
@@ -11320,7 +11320,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q59",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "公園の <ruby>中<rt>なか</rt></ruby>に <ruby>子供<rt>こども</rt></ruby>が 五<ruby>人<rt>ひと</rt></ruby> 遊んで います。<br><br>★に入るものはどれですか。",
+        "text": "<ruby>公<ruby>園<rt>えん</rt></ruby><rt>こうえん</rt></ruby>の <ruby>中<rt>なか</rt></ruby>に <ruby>子供<rt>こども</rt></ruby>が <ruby><ruby>五<rt>ご</rt></ruby><ruby>人<rt>ひと</rt></ruby><rt>ごにん</rt></ruby> <ruby>遊<rt>あそ</rt></ruby>んで います。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "中に",
           "子供が",
@@ -11333,7 +11333,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q60",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "ここに ボールペンで 名<ruby>前<rt>まえ</rt></ruby>を 書いて ください。<br><br>★に入るものはどれですか。",
+        "text": "ここに ボールペンで <ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>を <ruby>書<rt>か</rt></ruby>いて ください。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "ここに",
           "名前を",
@@ -11372,7 +11372,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q63",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（メール）<ruby>海<rt>うみ</rt></ruby>で たくさん （ 3 ） 泳ぎます。<br><br>（ 3 ）になにがはいりますか。",
+        "text": "（メール）<ruby>海<rt>うみ</rt></ruby>で たくさん （ 3 ） <ruby>泳<rt>およ</rt></ruby>ぎます。<br><br>（ 3 ）になにがはいりますか。",
         "options": [
           "魚と",
           "水を",
@@ -11385,7 +11385,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q64",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（メール）ジョンさんも （ 4 ） 行きませんか。<br><br>（ 4 ）になにがはいりますか。",
+        "text": "（メール）ジョンさんも （ 4 ） <ruby>行<rt>い</rt></ruby>きませんか。<br><br>（ 4 ）になにがはいりますか。",
         "options": [
           "ひとりで",
           "どこかへ",
@@ -11398,7 +11398,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q65",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（メール）（ 5 ） お返事を ください。<br><br>（ 5 ）になにがはいりますか。",
+        "text": "（メール）（ 5 ） お<ruby><ruby>返<rt>かえ</rt></ruby><ruby>事<rt>こと</rt></ruby><rt>へんじ</rt></ruby>を ください。<br><br>（ 5 ）になにがはいりますか。",
         "options": [
           "ぜひ",
           "たぶん",
@@ -11411,7 +11411,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q66",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）田<ruby>中<rt>なか</rt></ruby>さんは <ruby>毎日<rt>まいにち</rt></ruby> 七時に おきます。パンを 食べてから 仕事に 行きます。<br><br>田<ruby>中<rt>なか</rt></ruby>さんは <ruby>朝<rt>あさ</rt></ruby> 何を しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>七<rt>なな</rt></ruby><ruby>時<rt>とき</rt></ruby>に おきます。パンを <ruby>食<rt>た</rt></ruby>べてから <ruby><ruby>仕<rt>し</rt></ruby><ruby>事<rt>こと</rt></ruby><rt>しごと</rt></ruby>に <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんは <ruby>朝<rt>あさ</rt></ruby> <ruby>何<rt>なに</rt></ruby>を しますか。",
         "options": [
           "コーヒーを飲む",
           "パンを食べる",
@@ -11424,7 +11424,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q67",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）わたしの 家は <ruby>駅<rt>えき</rt></ruby>から 十分くらいです。とても 便利です。<br><br>家は どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）わたしの <ruby>家<rt>いえ</rt></ruby>は <ruby>駅<rt>えき</rt></ruby>から <ruby>十<rt>じゅう</rt></ruby><ruby>分<rt>ふん</rt></ruby>くらいです。とても <ruby>便利<rt>べんり</rt></ruby>です。<br><br><ruby>家<rt>いえ</rt></ruby>は どうですか。",
         "options": [
           "遠くて不便",
           "不便だ",
@@ -11437,7 +11437,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q68",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）昨日は 休みでした。どこへも 行きませんでした。家で <ruby>本<rt>ほん</rt></ruby>を 読みました。<br><br>昨日は 何を しましたか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>昨日<rt>きのう</rt></ruby>は <ruby>休<rt>やす</rt></ruby>みでした。どこへも <ruby>行<rt>い</rt></ruby>きませんでした。<ruby>家<rt>いえ</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みました。<br><br><ruby>昨日<rt>きのう</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を しましたか。",
         "options": [
           "買い物に行った",
           "公園に行った",
@@ -11450,7 +11450,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q69",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）この 料理は 少し 辛いですが、とても おいしいです。<br><br>この 料理は どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）この <ruby>料理<rt>りょうり</rt></ruby>は <ruby>少<rt>すく</rt></ruby>し <ruby>辛い<rt>からい</rt></ruby>ですが、とても おいしいです。<br><br>この <ruby>料理<rt>りょうり</rt></ruby>は どうですか。",
         "options": [
           "辛いがおいしい",
           "甘い",
@@ -11463,7 +11463,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q70",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）明日は <ruby>月曜日<rt>げつようび</rt></ruby>です。テストが ありますから、<ruby>今日<rt>きょう</rt></ruby>は 勉強します。<br><br>いつ 勉強しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby><ruby>明<rt>あか</rt></ruby>日<rt>あした</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>です。テストが ありますから、<ruby>今日<rt>きょう</rt></ruby>は <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>します。<br><br>いつ <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>しますか。",
         "options": [
           "明日",
           "今日",
@@ -11476,7 +11476,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q71",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）この ズボンは 少し 短いです。もっと 長いのは ありませんか。<br><br>この ズボンは どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）この ズボンは <ruby>少<rt>すく</rt></ruby>し 短いです。もっと <ruby>長<rt>なが</rt></ruby>いのは ありませんか。<br><br>この ズボンは どうですか。",
         "options": [
           "長い",
           "太い",
@@ -11489,7 +11489,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q72",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）木村さんは ギターが 好きです。<ruby>毎日<rt>まいにち</rt></ruby> 練習します。<br><br>木村さんは 何を 練習しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>木村<rt>きむら</rt></ruby>さんは ギターが <ruby>好き<rt>すき</rt></ruby>です。<ruby>毎日<rt>まいにち</rt></ruby> <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>します。<br><br><ruby>木村<rt>きむら</rt></ruby>さんは <ruby>何<rt>なに</rt></ruby>を <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>しますか。",
         "options": [
           "ギター",
           "歌",
@@ -11502,7 +11502,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q73",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "<ruby>日本<rt>にほん</rt></ruby>の 生活は 楽しいです。食べものは おいしいし、町は とても きれいです。でも、<ruby>日本<rt>にほん</rt></ruby>の <ruby>電車<rt>でんしゃ</rt></ruby>は とても 難しいです。<ruby>人<rt>ひと</rt></ruby>が たくさん いますし、いろいろな 種類が あります。わたしは よく 乗り方を 間違えます。もっと 勉強しなければなりません。<br><br>この<ruby>人<rt>ひと</rt></ruby>は <ruby>日本<rt>にほん</rt></ruby>の <ruby>電車<rt>でんしゃ</rt></ruby>について どう 思っていますか。",
+        "text": "<ruby>日本<rt>にほん</rt></ruby>の <ruby>生<rt>せい</rt></ruby><ruby>活<rt>かつ</rt></ruby>は <ruby>楽しい<rt>たのしい</rt></ruby>です。<ruby>食<rt>た</rt></ruby>べものは おいしいし、<ruby>町<rt>まち</rt></ruby>は とても きれいです。でも、<ruby>日本<rt>にほん</rt></ruby>の <ruby><ruby>電<rt>でん</rt></ruby><ruby>車<rt>くるま</rt></ruby><rt>でんしゃ</rt></ruby>は とても <ruby>難しい<rt>むずかしい</rt></ruby>です。<ruby>人<rt>ひと</rt></ruby>が たくさん いますし、いろいろな 種類が あります。わたしは よく 乗り<ruby>方<rt>かた</rt></ruby>を <ruby>間<rt>あいだ</rt></ruby>違えます。もっと <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>しなければなりません。<br><br>この<ruby>人<rt>ひと</rt></ruby>は <ruby>日本<rt>にほん</rt></ruby>の <ruby><ruby>電<rt>でん</rt></ruby><ruby>車<rt>くるま</rt></ruby><rt>でんしゃ</rt></ruby>について どう <ruby>思<rt>おも</rt></ruby>っていますか。",
         "options": [
           "とても 簡単だ",
           "難しい",
@@ -11515,7 +11515,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q74",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）わたしは <ruby>日本<rt>にほん</rt></ruby>に 来て 一年に なります。<ruby><ruby>日本<rt>にほん</rt></ruby>語<rt>にほんご</rt></ruby><ruby>学校<rt>がっこう</rt></ruby>で べんきょうしています。<br><br><ruby>日本<rt>にほん</rt></ruby>に 来て どのくらいですか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）わたしは <ruby>日本<rt>にほん</rt></ruby>に <ruby>来<rt>く</rt></ruby>て <ruby>一<rt>いち</rt></ruby><ruby>年<rt>ねん</rt></ruby>に なります。<ruby><ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby><rt>にほんご</rt></ruby><ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>で べんきょうしています。<br><br><ruby>日本<rt>にほん</rt></ruby>に <ruby>来<rt>く</rt></ruby>て どのくらいですか。",
         "options": [
           "半年",
           "一年",
@@ -11528,7 +11528,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q75",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）<ruby>学校<rt>がっこう</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>から <ruby>金曜日<rt>きんようび</rt></ruby>まで あります。<br><br><ruby>学校<rt>がっこう</rt></ruby>は いつ ありますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>から <ruby>金曜日<rt>きんようび</rt></ruby>まで あります。<br><br><ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>は いつ ありますか。",
         "options": [
           "毎日",
           "週末",
@@ -11541,7 +11541,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q76",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）週末は アルバイトを しています。とても 忙しいです。<br><br>週末は 何を しますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby><rt>しゅうまつ</rt></ruby>は アルバイトを しています。とても <ruby>忙しい<rt>いそがしい</rt></ruby>です。<br><br><ruby><ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby><rt>しゅうまつ</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を しますか。",
         "options": [
           "べんきょう",
           "りょこう",
@@ -11554,7 +11554,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q77",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）わたしの しゅみは サッカーです。週に 二回 練習します。<br><br>しゅみは 何ですか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）わたしの しゅみは サッカーです。<ruby>週<rt>しゅう</rt></ruby>に <ruby><ruby>二<rt>に</rt></ruby><ruby>回<rt>かい</rt></ruby><rt>にかい</rt></ruby> <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>します。<br><br>しゅみは <ruby>何<rt>なに</rt></ruby>ですか。",
         "options": [
           "サッカー",
           "テニス",
@@ -11567,7 +11567,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q78",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）週末は <ruby>友<rt>とも</rt></ruby>だちと サッカーを します。とても たのしいです。<br><br>だれと サッカーを しますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby><rt>しゅうまつ</rt></ruby>は <ruby>友<rt>とも</rt></ruby>だちと サッカーを します。とても たのしいです。<br><br>だれと サッカーを しますか。",
         "options": [
           "一人で",
           "友だち",
@@ -11580,7 +11580,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q79",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）<ruby>来月<rt>らいげつ</rt></ruby> サッカーの 大会が あります。たくさん 練習します。<br><br><ruby>来月<rt>らいげつ</rt></ruby> 何が ありますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>来<rt>く</rt></ruby>月<rt>らいげつ</rt></ruby> サッカーの <ruby>大<rt>おお</rt></ruby>会が あります。たくさん <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>します。<br><br><ruby><ruby>来<rt>く</rt></ruby>月<rt>らいげつ</rt></ruby> <ruby>何<rt>なに</rt></ruby>が ありますか。",
         "options": [
           "りょこう",
           "しけん",
@@ -11593,7 +11593,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q80",
         "section": "言語知識（文法）・読解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【<ruby>図書館<rt>としょかん</rt></ruby>】<ruby>月曜日<rt>げつようび</rt></ruby>：休み　火〜日：9時〜18時<br><br><ruby>月曜日<rt>げつようび</rt></ruby>は どうですか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【<ruby><ruby>図<rt>と</rt></ruby><ruby>書<rt>か</rt></ruby><ruby>館<rt>かん</rt></ruby><rt>としょかん</rt></ruby>】<ruby>月曜日<rt>げつようび</rt></ruby>：<ruby>休<rt>やす</rt></ruby>み　火〜日：9<ruby>時<rt>とき</rt></ruby>〜18<ruby>時<rt>とき</rt></ruby><br><br><ruby>月曜日<rt>げつようび</rt></ruby>は どうですか。",
         "options": [
           "開いている",
           "午前だけ",
@@ -11606,7 +11606,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q81",
         "section": "聴解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【<ruby>図書館<rt>としょかん</rt></ruby>】火〜日：9時〜18時<br><br>何時から 始まりますか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【<ruby><ruby>図<rt>と</rt></ruby><ruby>書<rt>か</rt></ruby><ruby>館<rt>かん</rt></ruby><rt>としょかん</rt></ruby>】火〜日：9<ruby>時<rt>とき</rt></ruby>〜18<ruby>時<rt>とき</rt></ruby><br><br><ruby>何<rt>なに</rt></ruby><ruby>時<rt>とき</rt></ruby>から 始まりますか。",
         "options": [
           "九時",
           "八時",
@@ -11619,7 +11619,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q82",
         "section": "聴解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【プール】<ruby>木曜日<rt>もくようび</rt></ruby>：休み<br><br>休みは いつですか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【プール】<ruby>木曜日<rt>もくようび</rt></ruby>：<ruby>休<rt>やす</rt></ruby>み<br><br><ruby>休<rt>やす</rt></ruby>みは いつですか。",
         "options": [
           "月曜日",
           "木曜日",
@@ -11632,7 +11632,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q83",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：くだものを 買いに 行きます。何が いいですか。<br><ruby>男<rt>おとこ</rt></ruby>：バナナを おねがいします。<br><br>何を 買いますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：くだものを <ruby>買<rt>か</rt></ruby>いに <ruby>行<rt>い</rt></ruby>きます。<ruby>何<rt>なに</rt></ruby>が いいですか。<br><ruby>男<rt>おとこ</rt></ruby>：バナナを おねがいします。<br><br><ruby>何<rt>なに</rt></ruby>を <ruby>買<rt>か</rt></ruby>いますか。",
         "options": [
           "りんご",
           "みかん",
@@ -11657,7 +11657,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q84",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：いつ 会いましょうか。<br><ruby>女<rt>おんな</rt></ruby>：十<ruby>三日<rt>みっか</rt></ruby>は どうですか。<br><ruby>男<rt>おとこ</rt></ruby>：いいですよ。<br><br>いつ 会いますか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：いつ 会いましょうか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>十<rt>じゅう</rt></ruby><ruby><ruby>三<rt>さん</rt></ruby>日<rt>みっか</rt></ruby>は どうですか。<br><ruby>男<rt>おとこ</rt></ruby>：いいですよ。<br><br>いつ 会いますか。",
         "options": [
           "十日",
           "十一日",
@@ -11695,7 +11695,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q86",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：誰と 行きますか。<br><ruby>女<rt>おんな</rt></ruby>：田<ruby>中<rt>なか</rt></ruby>さんと 行きます。<br><br>誰と 行きますか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>誰<rt>だれ</rt></ruby>と <ruby>行<rt>い</rt></ruby>きますか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんと <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>誰<rt>だれ</rt></ruby>と <ruby>行<rt>い</rt></ruby>きますか。",
         "options": [
           "先生",
           "田中さん",
@@ -11708,7 +11708,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q87",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：何で 行きますか。<br><ruby>男<rt>おとこ</rt></ruby>：自転車で 行きます。<br><br>何で 行きますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>何<rt>なに</rt></ruby>で <ruby>行<rt>い</rt></ruby>きますか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>自転<ruby>車<rt>くるま</rt></ruby><rt>じてんしゃ</rt></ruby>で <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>何<rt>なに</rt></ruby>で <ruby>行<rt>い</rt></ruby>きますか。",
         "options": [
           "バス",
           "電車",
@@ -11721,7 +11721,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q88",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>映画<rt>えいが</rt></ruby>は 何時間ですか。<br><ruby>女<rt>おんな</rt></ruby>：三時間です。<br><br>何時間ですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>映画<rt>えいが</rt></ruby>は <ruby>何<rt>なに</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>ですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>三<rt>さん</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>ですか。",
         "options": [
           "二時間",
           "四時間",
@@ -11734,7 +11734,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q89",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：どうして 行きませんでしたか。<br><ruby>男<rt>おとこ</rt></ruby>：忙しかったからです。<br><br>どうして 行きませんでしたか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：どうして <ruby>行<rt>い</rt></ruby>きませんでしたか。<br><ruby>男<rt>おとこ</rt></ruby>：忙しかったからです。<br><br>どうして <ruby>行<rt>い</rt></ruby>きませんでしたか。",
         "options": [
           "忙しいから",
           "寒いから",
@@ -11747,7 +11747,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q90",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：鍵は どこに ありましたか。<br><ruby>女<rt>おんな</rt></ruby>：机の <ruby>上<rt>うえ</rt></ruby>に ありました。<br><br>どこに ありましたか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>鍵<rt>かぎ</rt></ruby>は どこに ありましたか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>机<rt>つくえ</rt></ruby>の <ruby>上<rt>うえ</rt></ruby>に ありました。<br><br>どこに ありましたか。",
         "options": [
           "箱の中",
           "机の上",
@@ -11760,7 +11760,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q91",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：何色が 好きですか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>白<rt>しろ</rt></ruby>が 好きです。<br><br>何色が 好きですか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>何<rt>なに</rt></ruby><ruby>色<rt>いろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>ですか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>白<rt>しろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby>色<rt>いろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>ですか。",
         "options": [
           "赤",
           "青",
@@ -11773,7 +11773,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q92",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：何番の バスですか。<br><ruby>女<rt>おんな</rt></ruby>：四番です。<br><br>何番ですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>何<rt>なに</rt></ruby><ruby>番<rt>ばん</rt></ruby>の バスですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>四<rt>よん</rt></ruby><ruby>番<rt>ばん</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby>番<rt>ばん</rt></ruby>ですか。",
         "options": [
           "一番",
           "二番",
@@ -11786,7 +11786,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q93",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：誰が 来ましたか。<br><ruby>男<rt>おとこ</rt></ruby>：兄が 来ました。<br><br>誰が 来ましたか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>誰<rt>だれ</rt></ruby>が <ruby>来<rt>く</rt></ruby>ましたか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>兄<rt>あに</rt></ruby>が <ruby>来<rt>く</rt></ruby>ました。<br><br><ruby>誰<rt>だれ</rt></ruby>が <ruby>来<rt>く</rt></ruby>ましたか。",
         "options": [
           "兄",
           "姉",
@@ -11799,7 +11799,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q94",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：どこへ 行きたいですか。<br><ruby>女<rt>おんな</rt></ruby>：大阪へ 行きたいです。<br><br>どこへ 行きたいですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：どこへ <ruby>行<rt>い</rt></ruby>きたいですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby><ruby>大<rt>おお</rt></ruby>阪<rt>おおさか</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きたいです。<br><br>どこへ <ruby>行<rt>い</rt></ruby>きたいですか。",
         "options": [
           "東京",
           "大阪",
@@ -11864,7 +11864,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q99",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "お名<ruby>前<rt>まえ</rt></ruby>は？<br><br>なんと こたえますか。",
+        "text": "お<ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>は？<br><br>なんと こたえますか。",
         "options": [
           "銀行員です",
           "二十歳です",
@@ -11877,7 +11877,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M9_Q100",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "また <ruby>来週<rt>らいしゅう</rt></ruby>。<br><br>なんと こたえますか。",
+        "text": "また <ruby><ruby>来<rt>く</rt></ruby><ruby>週<rt>しゅう</rt></ruby><rt>らいしゅう</rt></ruby>。<br><br>なんと こたえますか。",
         "options": [
           "おはよう",
           "おやすみなさい",
@@ -11957,7 +11957,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q6",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>何</u>を <u>買</u>いましたか。<br><br>「買」いましたのよみかたは？",
+        "text": "<u>何</u>を <u>買</u>いましたか。<br><br>「<ruby>買<rt>か</rt></ruby>」いましたのよみかたは？",
         "options": [
           "き",
           "か",
@@ -11996,7 +11996,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q9",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>自分</u>で <u>作</u>りました。<br><br>「作」りましたのよみかたは？",
+        "text": "<u>自分</u>で <u>作</u>りました。<br><br>「<ruby>作<rt>つく</rt></ruby>」りましたのよみかたは？",
         "options": [
           "つく",
           "つか",
@@ -12022,7 +12022,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q11",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>一万</u>円 あります。<br><br>「一万」のよみかたは？",
+        "text": "<u>一万</u><ruby>円<rt>えん</rt></ruby> あります。<br><br>「一万」のよみかたは？",
         "options": [
           "いちぜん",
           "いちひゃく",
@@ -12061,7 +12061,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q14",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>らいげつ</u> <ruby>日本<rt>にほん</rt></ruby>に 行きます。<br><br>「らいげつ」のかきかたは？",
+        "text": "<u>らいげつ</u> <ruby>日本<rt>にほん</rt></ruby>に <ruby>行<rt>い</rt></ruby>きます。<br><br>「らいげつ」のかきかたは？",
         "options": [
           "今月",
           "来年",
@@ -12087,7 +12087,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q16",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>じゅうぷん</u> 待ってください。<br><br>「じゅうぷん」のかきかたは？",
+        "text": "<u>じゅうぷん</u> <ruby>待<rt>ま</rt></ruby>ってください。<br><br>「じゅうぷん」のかきかたは？",
         "options": [
           "十分",
           "十日",
@@ -12100,7 +12100,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q17",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>がいこく</u>の 料理を 食べます。<br><br>「がいこく」のかきかたは？",
+        "text": "<u>がいこく</u>の <ruby>料理<rt>りょうり</rt></ruby>を <ruby>食<rt>た</rt></ruby>べます。<br><br>「がいこく」のかきかたは？",
         "options": [
           "中国",
           "外国",
@@ -12126,7 +12126,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q19",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>ともだち</u>と 遊びます。<br><br>「ともだち」のかきかたは？",
+        "text": "<u>ともだち</u>と <ruby>遊<rt>あそ</rt></ruby>びます。<br><br>「ともだち」のかきかたは？",
         "options": [
           "友人",
           "友立",
@@ -12139,7 +12139,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q20",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>よる</u> ごはんを 食べます。<br><br>「よる」のかきかたは？",
+        "text": "<u>よる</u> ごはんを <ruby>食<rt>た</rt></ruby>べます。<br><br>「よる」のかきかたは？",
         "options": [
           "夜",
           "朝",
@@ -12152,7 +12152,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q21",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "この 部屋は （　　）です。エアコンを つけましょう。<br><br>（　）になにがはいりますか。",
+        "text": "この <ruby>部屋<rt>へや</rt></ruby>は （　　）です。エアコンを つけましょう。<br><br>（　）になにがはいりますか。",
         "options": [
           "さむい",
           "あつい",
@@ -12165,7 +12165,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q22",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "あしたは （　　）ですね。買いものに 行きましょう。<br><br>（　）になにがはいりますか。",
+        "text": "あしたは （　　）ですね。<ruby>買<rt>か</rt></ruby>いものに <ruby>行<rt>い</rt></ruby>きましょう。<br><br>（　）になにがはいりますか。",
         "options": [
           "てんき",
           "しごと",
@@ -12178,7 +12178,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q23",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を ぬいで、家に入ります。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を ぬいで、<ruby>家<rt>いえ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ります。<br><br>（　）になにがはいりますか。",
         "options": [
           "シャツ",
           "ぼうし",
@@ -12191,7 +12191,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q24",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を 見て、漢字を 読みます。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を <ruby>見<rt>み</rt></ruby>て、<ruby>漢字<rt>かんじ</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みます。<br><br>（　）になにがはいりますか。",
         "options": [
           "じしょ",
           "ノート",
@@ -12204,7 +12204,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q25",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "おなかが （　　）です。何か 食べたいです。<br><br>（　）になにがはいりますか。",
+        "text": "おなかが （　　）です。<ruby>何<rt>なに</rt></ruby>か <ruby>食<rt>た</rt></ruby>べたいです。<br><br>（　）になにがはいりますか。",
         "options": [
           "いたいです",
           "すきました",
@@ -12217,7 +12217,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q26",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を 撮りました。とても きれいでした。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を <ruby>撮<rt>と</rt></ruby>りました。とても きれいでした。<br><br>（　）になにがはいりますか。",
         "options": [
           "てがみ",
           "えいが",
@@ -12230,7 +12230,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q27",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "すみませんが、窓を （　　）ください。暑いですから。<br><br>（　）になにがはいりますか。",
+        "text": "すみませんが、<ruby><ruby>窓<rt>まど</rt></ruby><rt>まど</rt></ruby>を （　　）ください。<ruby>暑い<rt>あつい</rt></ruby>ですから。<br><br>（　）になにがはいりますか。",
         "options": [
           "しめて",
           "つけて",
@@ -12256,7 +12256,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q29",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を かけて、出かけます。<ruby>目<rt>め</rt></ruby>が わるいですから。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を かけて、<ruby>出<rt>で</rt></ruby>かけます。<ruby>目<rt>め</rt></ruby>が わるいですから。<br><br>（　）になにがはいりますか。",
         "options": [
           "シャツ",
           "めがね",
@@ -12269,7 +12269,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q30",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）が いたいので、<ruby>病院<rt>びょういん</rt></ruby>へ 行きます。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）が いたいので、<ruby>病院<rt>びょういん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。<br><br>（　）になにがはいりますか。",
         "options": [
           "みみ",
           "はな",
@@ -12282,7 +12282,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q31",
         "section": "言語知識（文法）・読解",
         "type": "言い換え類義",
-        "text": "<u>すぐ</u> 行きます。<br><br>「すぐ」に ちかい いみの ことばは？",
+        "text": "<u>すぐ</u> <ruby>行<rt>い</rt></ruby>きます。<br><br>「すぐ」に ちかい いみの ことばは？",
         "options": [
           "あとで",
           "時間をかけて",
@@ -12295,7 +12295,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q32",
         "section": "言語知識（文法）・読解",
         "type": "言い換え類義",
-        "text": "<u>ちょうど</u> 12時です。<br><br>「ちょうど」に ちかい いみの ことばは？",
+        "text": "<u>ちょうど</u> 12<ruby>時<rt>とき</rt></ruby>です。<br><br>「ちょうど」に ちかい いみの ことばは？",
         "options": [
           "ぴったり",
           "だいたい",
@@ -12412,7 +12412,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q41",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "ペン（　　） <ruby>手<rt>て</rt></ruby>紙を 書きました。<br><br>（　）になにがはいりますか。",
+        "text": "ペン（　　） <ruby>手<rt>て</rt></ruby><ruby>紙<rt>かみ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きました。<br><br>（　）になにがはいりますか。",
         "options": [
           "を",
           "で",
@@ -12425,7 +12425,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q42",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あした <ruby>学校<rt>がっこう</rt></ruby>（　　） 行きません。<br><br>（　）になにがはいりますか。",
+        "text": "あした <ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>（　　） <ruby>行<rt>い</rt></ruby>きません。<br><br>（　）になにがはいりますか。",
         "options": [
           "へを",
           "へが",
@@ -12438,7 +12438,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q43",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "だれ（　　） 来ませんでした。<br><br>（　）になにがはいりますか。",
+        "text": "だれ（　　） <ruby>来<rt>く</rt></ruby>ませんでした。<br><br>（　）になにがはいりますか。",
         "options": [
           "に",
           "を",
@@ -12451,7 +12451,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q44",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あそこに 猫が （　　） います。<br><br>（　）になにがはいりますか。",
+        "text": "あそこに <ruby>猫<rt>ねこ</rt></ruby>が （　　） います。<br><br>（　）になにがはいりますか。",
         "options": [
           "いっぴき",
           "ひとつ",
@@ -12464,7 +12464,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q45",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "おんがくを （　　）ながら 勉強します。<br><br>（　）になにがはいりますか。",
+        "text": "おんがくを （　　）ながら <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>します。<br><br>（　）になにがはいりますか。",
         "options": [
           "きいて",
           "きき",
@@ -12477,7 +12477,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q46",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "<ruby><ruby>日本<rt>にほん</rt></ruby>語<rt>にほんご</rt></ruby>を 話すのが （　　）です。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby><ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby><rt>にほんご</rt></ruby>を <ruby>話<rt>はな</rt></ruby>すのが （　　）です。<br><br>（　）になにがはいりますか。",
         "options": [
           "うまく",
           "はやく",
@@ -12490,7 +12490,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q47",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "宿題を （　　）から、遊びに行きます。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>宿題<rt>しゅくだい</rt></ruby>を （　　）から、<ruby>遊<rt>あそ</rt></ruby>びに<ruby>行<rt>い</rt></ruby>きます。<br><br>（　）になにがはいりますか。",
         "options": [
           "した",
           "する",
@@ -12503,7 +12503,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q48",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "この 料理は （　　） おいしくないです。<br><br>（　）になにがはいりますか。",
+        "text": "この <ruby>料理<rt>りょうり</rt></ruby>は （　　） おいしくないです。<br><br>（　）になにがはいりますか。",
         "options": [
           "あまり",
           "とても",
@@ -12516,7 +12516,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q49",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "これ（　　） わたしの 鞄です。<br><br>（　）になにがはいりますか。",
+        "text": "これ（　　） わたしの <ruby>鞄<rt>かばん</rt></ruby>です。<br><br>（　）になにがはいりますか。",
         "options": [
           "を",
           "は",
@@ -12529,7 +12529,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q50",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "昨日 （　　） <ruby>映画<rt>えいが</rt></ruby>は おもしろかったです。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>昨日<rt>きのう</rt></ruby> （　　） <ruby>映画<rt>えいが</rt></ruby>は おもしろかったです。<br><br>（　）になにがはいりますか。",
         "options": [
           "みて",
           "みる",
@@ -12542,7 +12542,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q51",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "コーヒー（　　） 紅茶、どちらが いいですか。<br><br>（　）になにがはいりますか。",
+        "text": "コーヒー（　　） <ruby>紅<ruby>茶<rt>ちゃ</rt></ruby><rt>こうちゃ</rt></ruby>、どちらが いいですか。<br><br>（　）になにがはいりますか。",
         "options": [
           "と",
           "を",
@@ -12555,7 +12555,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q52",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "<ruby>今日<rt>きょう</rt></ruby>は （　　） 寒いですね。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>今日<rt>きょう</rt></ruby>は （　　） <ruby>寒い<rt>さむい</rt></ruby>ですね。<br><br>（　）になにがはいりますか。",
         "options": [
           "とても",
           "あまり",
@@ -12568,7 +12568,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q53",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あの 建物は （　　）ですか。<br><br>（　）になにがはいりますか。",
+        "text": "あの <ruby><ruby>建<rt>た</rt></ruby><ruby>物<rt>もの</rt></ruby><rt>たてもの</rt></ruby>は （　　）ですか。<br><br>（　）になにがはいりますか。",
         "options": [
           "どこ",
           "なん",
@@ -12581,7 +12581,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q54",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "机の<ruby>上<rt>うえ</rt></ruby>に 辞書（　　） あります。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>机<rt>つくえ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に <ruby>辞<ruby>書<rt>か</rt></ruby><rt>じしょ</rt></ruby>（　　） あります。<br><br>（　）になにがはいりますか。",
         "options": [
           "を",
           "に",
@@ -12594,7 +12594,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q55",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "ここ（　　） 名<ruby>前<rt>まえ</rt></ruby>を 書いてください。<br><br>（　）になにがはいりますか。",
+        "text": "ここ（　　） <ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>を <ruby>書<rt>か</rt></ruby>いてください。<br><br>（　）になにがはいりますか。",
         "options": [
           "を",
           "で",
@@ -12607,7 +12607,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q56",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "わたしは 毎<ruby>朝<rt>あさ</rt></ruby> 六時に 牛乳を 一回 飲みます。<br><br>★に入るものはどれですか。",
+        "text": "わたしは <ruby>毎<ruby>朝<rt>あさ</rt></ruby><rt>まいあさ</rt></ruby> <ruby>六<rt>ろく</rt></ruby><ruby>時<rt>とき</rt></ruby>に <ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>を <ruby><ruby>一<rt>いち</rt></ruby><ruby>回<rt>かい</rt></ruby><rt>いっかい</rt></ruby> <ruby>飲<rt>の</rt></ruby>みます。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "毎朝",
           "六時に",
@@ -12620,7 +12620,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q57",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "あそこに <ruby>白<rt>しろ</rt></ruby>い 帽<ruby>子<rt>こ</rt></ruby>を かぶった <ruby>人<rt>ひと</rt></ruby>が います。<br><br>★に入るものはどれですか。",
+        "text": "あそこに <ruby>白<rt>しろ</rt></ruby>い <ruby>帽<ruby>子<rt>こ</rt></ruby><rt>ぼうし</rt></ruby>を かぶった <ruby>人<rt>ひと</rt></ruby>が います。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "白い",
           "帽子を",
@@ -12633,7 +12633,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q58",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "そこに ゆっくり 椅<ruby>子<rt>こ</rt></ruby>に 座って かけて ください。<br><br>★に入るものはどれですか。",
+        "text": "そこに ゆっくり <ruby>椅<ruby>子<rt>こ</rt></ruby><rt>いす</rt></ruby>に <ruby>座<rt>すわ</rt></ruby>って かけて ください。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "そこに",
           "座って",
@@ -12646,7 +12646,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q59",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "公園の <ruby>中<rt>なか</rt></ruby>に <ruby>子供<rt>こども</rt></ruby>が 五<ruby>人<rt>ひと</rt></ruby> 遊んで います。<br><br>★に入るものはどれですか。",
+        "text": "<ruby>公<ruby>園<rt>えん</rt></ruby><rt>こうえん</rt></ruby>の <ruby>中<rt>なか</rt></ruby>に <ruby>子供<rt>こども</rt></ruby>が <ruby><ruby>五<rt>ご</rt></ruby><ruby>人<rt>ひと</rt></ruby><rt>ごにん</rt></ruby> <ruby>遊<rt>あそ</rt></ruby>んで います。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "中に",
           "子供が",
@@ -12659,7 +12659,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q60",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "ここに ボールペンで 名<ruby>前<rt>まえ</rt></ruby>を 書いて ください。<br><br>★に入るものはどれですか。",
+        "text": "ここに ボールペンで <ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>を <ruby>書<rt>か</rt></ruby>いて ください。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "ここに",
           "名前を",
@@ -12698,7 +12698,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q63",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（メール）<ruby>山<rt>やま</rt></ruby>で たくさん （ 3 ） 撮ります。<br><br>（ 3 ）になにがはいりますか。",
+        "text": "（メール）<ruby>山<rt>やま</rt></ruby>で たくさん （ 3 ） <ruby>撮<rt>と</rt></ruby>ります。<br><br>（ 3 ）になにがはいりますか。",
         "options": [
           "水を",
           "いっしょに",
@@ -12711,7 +12711,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q64",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（メール）ジョンさんも （ 4 ） 行きませんか。<br><br>（ 4 ）になにがはいりますか。",
+        "text": "（メール）ジョンさんも （ 4 ） <ruby>行<rt>い</rt></ruby>きませんか。<br><br>（ 4 ）になにがはいりますか。",
         "options": [
           "いっしょに",
           "ひとりで",
@@ -12724,7 +12724,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q65",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（メール）（ 5 ） お返事を ください。<br><br>（ 5 ）になにがはいりますか。",
+        "text": "（メール）（ 5 ） お<ruby><ruby>返<rt>かえ</rt></ruby><ruby>事<rt>こと</rt></ruby><rt>へんじ</rt></ruby>を ください。<br><br>（ 5 ）になにがはいりますか。",
         "options": [
           "たぶん",
           "ぜひ",
@@ -12737,7 +12737,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q66",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）田<ruby>中<rt>なか</rt></ruby>さんは <ruby>毎日<rt>まいにち</rt></ruby> 七時に おきます。パンを 食べてから 仕事に 行きます。<br><br>田<ruby>中<rt>なか</rt></ruby>さんは <ruby>朝<rt>あさ</rt></ruby> 何を しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>七<rt>なな</rt></ruby><ruby>時<rt>とき</rt></ruby>に おきます。パンを <ruby>食<rt>た</rt></ruby>べてから <ruby><ruby>仕<rt>し</rt></ruby><ruby>事<rt>こと</rt></ruby><rt>しごと</rt></ruby>に <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんは <ruby>朝<rt>あさ</rt></ruby> <ruby>何<rt>なに</rt></ruby>を しますか。",
         "options": [
           "コーヒーを飲む",
           "新聞を読む",
@@ -12750,7 +12750,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q67",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）わたしの 家は <ruby>駅<rt>えき</rt></ruby>から 十五分くらいです。とても 便利です。<br><br>家は どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）わたしの <ruby>家<rt>いえ</rt></ruby>は <ruby>駅<rt>えき</rt></ruby>から <ruby>十<rt>じゅう</rt></ruby><ruby>五<rt>ご</rt></ruby><ruby>分<rt>ふん</rt></ruby>くらいです。とても <ruby>便利<rt>べんり</rt></ruby>です。<br><br><ruby>家<rt>いえ</rt></ruby>は どうですか。",
         "options": [
           "遠くて不便",
           "少し遠い",
@@ -12763,7 +12763,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q68",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）昨日は 休みでした。どこへも 行きませんでした。家で <ruby>本<rt>ほん</rt></ruby>を 読みました。<br><br>昨日は 何を しましたか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>昨日<rt>きのう</rt></ruby>は <ruby>休<rt>やす</rt></ruby>みでした。どこへも <ruby>行<rt>い</rt></ruby>きませんでした。<ruby>家<rt>いえ</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みました。<br><br><ruby>昨日<rt>きのう</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を しましたか。",
         "options": [
           "家で本を読んだ",
           "買い物に行った",
@@ -12776,7 +12776,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q69",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）この 料理は 少し 辛いですが、とても おいしいです。<br><br>この 料理は どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）この <ruby>料理<rt>りょうり</rt></ruby>は <ruby>少<rt>すく</rt></ruby>し <ruby>辛い<rt>からい</rt></ruby>ですが、とても おいしいです。<br><br>この <ruby>料理<rt>りょうり</rt></ruby>は どうですか。",
         "options": [
           "甘い",
           "辛いがおいしい",
@@ -12789,7 +12789,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q70",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）明日は <ruby>月曜日<rt>げつようび</rt></ruby>です。テストが ありますから、<ruby>今日<rt>きょう</rt></ruby>は 勉強します。<br><br>いつ 勉強しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby><ruby>明<rt>あか</rt></ruby>日<rt>あした</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>です。テストが ありますから、<ruby>今日<rt>きょう</rt></ruby>は <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>します。<br><br>いつ <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>しますか。",
         "options": [
           "明日",
           "昨日",
@@ -12802,7 +12802,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q71",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）この ズボンは 少し 短いです。もっと 長いのは ありませんか。<br><br>この ズボンは どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）この ズボンは <ruby>少<rt>すく</rt></ruby>し 短いです。もっと <ruby>長<rt>なが</rt></ruby>いのは ありませんか。<br><br>この ズボンは どうですか。",
         "options": [
           "長い",
           "短い",
@@ -12815,7 +12815,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q72",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）木村さんは ギターが 好きです。<ruby>毎日<rt>まいにち</rt></ruby> 練習します。<br><br>木村さんは 何を 練習しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>木村<rt>きむら</rt></ruby>さんは ギターが <ruby>好き<rt>すき</rt></ruby>です。<ruby>毎日<rt>まいにち</rt></ruby> <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>します。<br><br><ruby>木村<rt>きむら</rt></ruby>さんは <ruby>何<rt>なに</rt></ruby>を <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>しますか。",
         "options": [
           "ギター",
           "ピアノ",
@@ -12828,7 +12828,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q73",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "わたしは <ruby>毎日<rt>まいにち</rt></ruby> 料理を 作ります。お肉より 魚が 好きですから、よく 魚を 買います。昨日は 近くの <ruby>店<rt>みせ</rt></ruby>で 新しい 魚を 買いました。野菜も たくさん 食べます。果物は 高いですから、あまり 買いません。でも、リンゴは 好きです。<br><br>この<ruby>人<rt>ひと</rt></ruby>は 魚と 肉、どちらが 好きですか。",
+        "text": "わたしは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>料理<rt>りょうり</rt></ruby>を <ruby>作<rt>つく</rt></ruby>ります。お<ruby>肉<rt>にく</rt></ruby>より <ruby>魚<rt>さかな</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>ですから、よく <ruby>魚<rt>さかな</rt></ruby>を <ruby>買<rt>か</rt></ruby>います。<ruby>昨日<rt>きのう</rt></ruby>は <ruby>近<rt>ちか</rt></ruby>くの <ruby>店<rt>みせ</rt></ruby>で <ruby>新<rt>あたら</rt></ruby>しい <ruby>魚<rt>さかな</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。<ruby>野菜<rt>やさい</rt></ruby>も たくさん <ruby>食<rt>た</rt></ruby>べます。<ruby>果<ruby>物<rt>もの</rt></ruby><rt>くだもの</rt></ruby>は <ruby>高<rt>たか</rt></ruby>いですから、あまり <ruby>買<rt>か</rt></ruby>いません。でも、リンゴは <ruby>好き<rt>すき</rt></ruby>です。<br><br>この<ruby>人<rt>ひと</rt></ruby>は <ruby>魚<rt>さかな</rt></ruby>と <ruby>肉<rt>にく</rt></ruby>、どちらが <ruby>好き<rt>すき</rt></ruby>ですか。",
         "options": [
           "肉",
           "どちらも嫌い",
@@ -12841,7 +12841,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q74",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）わたしは <ruby>日本<rt>にほん</rt></ruby>に 来て 半年に なります。<ruby><ruby>日本<rt>にほん</rt></ruby>語<rt>にほんご</rt></ruby><ruby>学校<rt>がっこう</rt></ruby>で べんきょうしています。<br><br><ruby>日本<rt>にほん</rt></ruby>に 来て どのくらいですか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）わたしは <ruby>日本<rt>にほん</rt></ruby>に <ruby>来<rt>く</rt></ruby>て <ruby>半<rt>はん</rt></ruby><ruby>年<rt>ねん</rt></ruby>に なります。<ruby><ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby><rt>にほんご</rt></ruby><ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>で べんきょうしています。<br><br><ruby>日本<rt>にほん</rt></ruby>に <ruby>来<rt>く</rt></ruby>て どのくらいですか。",
         "options": [
           "三か月",
           "半年",
@@ -12854,7 +12854,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q75",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）<ruby>学校<rt>がっこう</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>から <ruby>金曜日<rt>きんようび</rt></ruby>まで あります。<br><br><ruby>学校<rt>がっこう</rt></ruby>は いつ ありますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>から <ruby>金曜日<rt>きんようび</rt></ruby>まで あります。<br><br><ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>は いつ ありますか。",
         "options": [
           "毎日",
           "週末",
@@ -12867,7 +12867,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q76",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）週末は アルバイトを しています。とても 忙しいです。<br><br>週末は 何を しますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby><rt>しゅうまつ</rt></ruby>は アルバイトを しています。とても <ruby>忙しい<rt>いそがしい</rt></ruby>です。<br><br><ruby><ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby><rt>しゅうまつ</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を しますか。",
         "options": [
           "アルバイト",
           "べんきょう",
@@ -12880,7 +12880,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q77",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）<ruby>日本<rt>にほん</rt></ruby>の 季節で いちばん 好きなのは 春です。桜が きれいです。<br><br>いちばん 好きな 季節は いつですか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby>日本<rt>にほん</rt></ruby>の <ruby>季節<rt>きせつ</rt></ruby>で いちばん <ruby>好き<rt>すき</rt></ruby>なのは <ruby>春<rt>はる</rt></ruby>です。桜が きれいです。<br><br>いちばん <ruby>好き<rt>すき</rt></ruby>な <ruby>季節<rt>きせつ</rt></ruby>は いつですか。",
         "options": [
           "夏",
           "春",
@@ -12893,7 +12893,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q78",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）夏は 暑いですが、<ruby>海<rt>うみ</rt></ruby>で およげますから 好きです。<br><br>夏は どうですか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby>夏<rt>なつ</rt></ruby>は <ruby>暑い<rt>あつい</rt></ruby>ですが、<ruby>海<rt>うみ</rt></ruby>で およげますから <ruby>好き<rt>すき</rt></ruby>です。<br><br><ruby>夏<rt>なつ</rt></ruby>は どうですか。",
         "options": [
           "暑くて嫌い",
           "寒くて好き",
@@ -12906,7 +12906,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q79",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）冬は スキーを します。<ruby>雪<rt>ゆき</rt></ruby>が たくさん ふります。<br><br>冬は 何を しますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby>冬<rt>ふゆ</rt></ruby>は スキーを します。<ruby>雪<rt>ゆき</rt></ruby>が たくさん ふります。<br><br><ruby>冬<rt>ふゆ</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を しますか。",
         "options": [
           "およぐ",
           "さんぽ",
@@ -12919,7 +12919,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q80",
         "section": "言語知識（文法）・読解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【<ruby>図書館<rt>としょかん</rt></ruby>】火〜日：9時〜18時　<ruby>月曜日<rt>げつようび</rt></ruby>：開館<br><br><ruby>月曜日<rt>げつようび</rt></ruby>は 休みですか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【<ruby><ruby>図<rt>と</rt></ruby><ruby>書<rt>か</rt></ruby><ruby>館<rt>かん</rt></ruby><rt>としょかん</rt></ruby>】火〜日：9<ruby>時<rt>とき</rt></ruby>〜18<ruby>時<rt>とき</rt></ruby>　<ruby>月曜日<rt>げつようび</rt></ruby>：<ruby>開<rt>あ</rt></ruby><ruby>館<rt>かん</rt></ruby><br><br><ruby>月曜日<rt>げつようび</rt></ruby>は <ruby>休<rt>やす</rt></ruby>みですか。",
         "options": [
           "いいえ",
           "はい",
@@ -12932,7 +12932,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q81",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "おんなのひとが はなしています。これから なにを しますか。<br><ruby>女<rt>おんな</rt></ruby>：あ、もう 八時ですね。掃除を する <ruby>前<rt>まえ</rt></ruby>に、洗濯を しましょう。それから <ruby>朝<rt>あさ</rt></ruby>ごはんを 食べます。<ruby>買い物<rt>かいもの</rt></ruby>は <ruby>午後<rt>ごご</rt></ruby>に 行きます。<br><br>これから なにを しますか。",
+        "text": "おんなのひとが はなしています。これから なにを しますか。<br><ruby>女<rt>おんな</rt></ruby>：あ、もう <ruby>八<rt>はち</rt></ruby><ruby>時<rt>とき</rt></ruby>ですね。<ruby>掃除<rt>そうじ</rt></ruby>を する <ruby>前<rt>まえ</rt></ruby>に、<ruby><ruby>洗<rt>あら</rt></ruby>濯<rt>せんたく</rt></ruby>を しましょう。それから <ruby>朝<rt>あさ</rt></ruby>ごはんを <ruby>食<rt>た</rt></ruby>べます。<ruby><ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby><rt>かいもの</rt></ruby>は <ruby>午後<rt>ごご</rt></ruby>に <ruby>行<rt>い</rt></ruby>きます。<br><br>これから なにを しますか。",
         "options": [
           "掃除",
           "朝ごはん",
@@ -12945,7 +12945,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q82",
         "section": "聴解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【プール】<ruby>日曜日<rt>にちようび</rt></ruby>：休み<br><br>休みは いつですか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【プール】<ruby>日曜日<rt>にちようび</rt></ruby>：<ruby>休<rt>やす</rt></ruby>み<br><br><ruby>休<rt>やす</rt></ruby>みは いつですか。",
         "options": [
           "月曜日",
           "日曜日",
@@ -12958,7 +12958,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q83",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：くだものを 買いに 行きます。何が いいですか。<br><ruby>男<rt>おとこ</rt></ruby>：ぶどうを おねがいします。<br><br>何を 買いますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：くだものを <ruby>買<rt>か</rt></ruby>いに <ruby>行<rt>い</rt></ruby>きます。<ruby>何<rt>なに</rt></ruby>が いいですか。<br><ruby>男<rt>おとこ</rt></ruby>：ぶどうを おねがいします。<br><br><ruby>何<rt>なに</rt></ruby>を <ruby>買<rt>か</rt></ruby>いますか。",
         "options": [
           "りんご",
           "みかん",
@@ -12983,7 +12983,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q84",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：いつ 会いましょうか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>十日<rt>とおか</rt></ruby>は どうですか。<br><ruby>男<rt>おとこ</rt></ruby>：いいですよ。<br><br>いつ 会いますか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：いつ 会いましょうか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby><ruby>十<rt>じゅう</rt></ruby>日<rt>とおか</rt></ruby>は どうですか。<br><ruby>男<rt>おとこ</rt></ruby>：いいですよ。<br><br>いつ 会いますか。",
         "options": [
           "十日",
           "十一日",
@@ -12996,7 +12996,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q85",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：どこで 会いますか。<br><ruby>男<rt>おとこ</rt></ruby>：公園の <ruby>前<rt>まえ</rt></ruby>は どうですか。<br><ruby>女<rt>おんな</rt></ruby>：わかりました。<br><br>どこで 会いますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：どこで 会いますか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>公<ruby>園<rt>えん</rt></ruby><rt>こうえん</rt></ruby>の <ruby>前<rt>まえ</rt></ruby>は どうですか。<br><ruby>女<rt>おんな</rt></ruby>：わかりました。<br><br>どこで 会いますか。",
         "options": [
           "駅",
           "公園",
@@ -13021,7 +13021,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q86",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：誰と 行きますか。<br><ruby>女<rt>おんな</rt></ruby>：鈴木さんと 行きます。<br><br>誰と 行きますか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>誰<rt>だれ</rt></ruby>と <ruby>行<rt>い</rt></ruby>きますか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>鈴木<rt>すずき</rt></ruby>さんと <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>誰<rt>だれ</rt></ruby>と <ruby>行<rt>い</rt></ruby>きますか。",
         "options": [
           "先生",
           "田中さん",
@@ -13034,7 +13034,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q87",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとと おんなのひとが はなしています。おとこのひとは なにが いちばん すきですか。<br><ruby>女<rt>おんな</rt></ruby>：田<ruby>中<rt>なか</rt></ruby>さんは 何の 料理が 一番 好きですか。<br><ruby>男<rt>おとこ</rt></ruby>：そうですね、カレーも 好きですが、やっぱり お寿司が 一番ですね。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は？<br><ruby>女<rt>おんな</rt></ruby>：わたしは 天ぷらです。<br><br>おとこのひとは なにが いちばん すきですか。",
+        "text": "おとこのひとと おんなのひとが はなしています。おとこのひとは なにが いちばん すきですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんは <ruby>何<rt>なに</rt></ruby>の <ruby>料理<rt>りょうり</rt></ruby>が <ruby><ruby>一<rt>いち</rt></ruby><ruby>番<rt>ばん</rt></ruby><rt>いちばん</rt></ruby> <ruby>好き<rt>すき</rt></ruby>ですか。<br><ruby>男<rt>おとこ</rt></ruby>：そうですね、カレーも <ruby>好き<rt>すき</rt></ruby>ですが、やっぱり <ruby>お<ruby>寿司<rt>すし</rt></ruby><rt>おすし</rt></ruby>が <ruby><ruby>一<rt>いち</rt></ruby><ruby>番<rt>ばん</rt></ruby><rt>いちばん</rt></ruby>ですね。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は？<br><ruby>女<rt>おんな</rt></ruby>：わたしは 天ぷらです。<br><br>おとこのひとは なにが いちばん すきですか。",
         "options": [
           "カレー",
           "天ぷら",
@@ -13059,7 +13059,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q88",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>映画<rt>えいが</rt></ruby>は 何時間ですか。<br><ruby>女<rt>おんな</rt></ruby>：二時間です。<br><br>何時間ですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>映画<rt>えいが</rt></ruby>は <ruby>何<rt>なに</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>ですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>二<rt>に</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>ですか。",
         "options": [
           "二時間",
           "三時間",
@@ -13072,7 +13072,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q89",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：どうして 行きませんでしたか。<br><ruby>男<rt>おとこ</rt></ruby>：寒かったからです。<br><br>どうして 行きませんでしたか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：どうして <ruby>行<rt>い</rt></ruby>きませんでしたか。<br><ruby>男<rt>おとこ</rt></ruby>：寒かったからです。<br><br>どうして <ruby>行<rt>い</rt></ruby>きませんでしたか。",
         "options": [
           "忙しいから",
           "寒いから",
@@ -13085,7 +13085,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q90",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：鍵は どこに ありましたか。<br><ruby>女<rt>おんな</rt></ruby>：椅<ruby>子<rt>こ</rt></ruby>の <ruby>下<rt>した</rt></ruby>に ありました。<br><br>どこに ありましたか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>鍵<rt>かぎ</rt></ruby>は どこに ありましたか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>椅<ruby>子<rt>こ</rt></ruby><rt>いす</rt></ruby>の <ruby>下<rt>した</rt></ruby>に ありました。<br><br>どこに ありましたか。",
         "options": [
           "箱の中",
           "机の上",
@@ -13098,7 +13098,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q91",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：何色が 好きですか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>黒<rt>くろ</rt></ruby>が 好きです。<br><br>何色が 好きですか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>何<rt>なに</rt></ruby><ruby>色<rt>いろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>ですか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>黒<rt>くろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby>色<rt>いろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>ですか。",
         "options": [
           "赤",
           "青",
@@ -13111,7 +13111,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q92",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：何番の バスですか。<br><ruby>女<rt>おんな</rt></ruby>：一番です。<br><br>何番ですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>何<rt>なに</rt></ruby><ruby>番<rt>ばん</rt></ruby>の バスですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby><ruby>一<rt>いち</rt></ruby><ruby>番<rt>ばん</rt></ruby><rt>いちばん</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby>番<rt>ばん</rt></ruby>ですか。",
         "options": [
           "一番",
           "二番",
@@ -13124,7 +13124,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q93",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：誰が 来ましたか。<br><ruby>男<rt>おとこ</rt></ruby>：姉が 来ました。<br><br>誰が 来ましたか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>誰<rt>だれ</rt></ruby>が <ruby>来<rt>く</rt></ruby>ましたか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>姉<rt>あね</rt></ruby>が <ruby>来<rt>く</rt></ruby>ました。<br><br><ruby>誰<rt>だれ</rt></ruby>が <ruby>来<rt>く</rt></ruby>ましたか。",
         "options": [
           "兄",
           "姉",
@@ -13137,7 +13137,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q94",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：どこへ 行きたいですか。<br><ruby>女<rt>おんな</rt></ruby>：京都へ 行きたいです。<br><br>どこへ 行きたいですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：どこへ <ruby>行<rt>い</rt></ruby>きたいですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby><ruby>京<rt>きょう</rt></ruby>都<rt>きょうと</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きたいです。<br><br>どこへ <ruby>行<rt>い</rt></ruby>きたいですか。",
         "options": [
           "東京",
           "大阪",
@@ -13202,7 +13202,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q99",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "お名<ruby>前<rt>まえ</rt></ruby>は？<br><br>なんと こたえますか。",
+        "text": "お<ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>は？<br><br>なんと こたえますか。",
         "options": [
           "銀行員です",
           "二十歳です",
@@ -13215,7 +13215,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M10_Q100",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "また <ruby>来週<rt>らいしゅう</rt></ruby>。<br><br>なんと こたえますか。",
+        "text": "また <ruby><ruby>来<rt>く</rt></ruby><ruby>週<rt>しゅう</rt></ruby><rt>らいしゅう</rt></ruby>。<br><br>なんと こたえますか。",
         "options": [
           "はい、また来週",
           "おはよう",
@@ -13230,7 +13230,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q1",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>毎朝</u> <u>七時</u>に <u>起</u>きます。<br><br>「起」きますのよみかたは？",
+        "text": "<u>毎朝</u> <u>七時</u>に <u>起</u>きます。<br><br>「<ruby>起<rt>お</rt></ruby>」きますのよみかたは？",
         "options": [
           "お",
           "き",
@@ -13243,7 +13243,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q2",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "この <u>料理</u>は <u>安</u>いです。<br><br>「安」いのよみかたは？",
+        "text": "この <u>料理</u>は <u>安</u>いです。<br><br>「<ruby>安<rt>やす</rt></ruby>」いのよみかたは？",
         "options": [
           "たか",
           "やす",
@@ -13295,7 +13295,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q6",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>一万</u>円の <u>時計</u>を <u>買</u>いました。<br><br>「買」いましたのよみかたは？",
+        "text": "<u>一万</u><ruby>円<rt>えん</rt></ruby>の <u>時計</u>を <u>買</u>いました。<br><br>「<ruby>買<rt>か</rt></ruby>」いましたのよみかたは？",
         "options": [
           "き",
           "か",
@@ -13334,7 +13334,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q9",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>自分</u>で <u>作</u>りました。<br><br>「作」りましたのよみかたは？",
+        "text": "<u>自分</u>で <u>作</u>りました。<br><br>「<ruby>作<rt>つく</rt></ruby>」りましたのよみかたは？",
         "options": [
           "つく",
           "つか",
@@ -13347,7 +13347,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q10",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>何</u>を <u>話</u>していますか。<br><br>「話」していますのよみかたは？",
+        "text": "<u>何</u>を <u>話</u>していますか。<br><br>「<ruby>話<rt>はな</rt></ruby>」していますのよみかたは？",
         "options": [
           "よ",
           "はな",
@@ -13425,7 +13425,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q16",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>ごふん</u> 待ってください。<br><br>「ごふん」のかきかたは？",
+        "text": "<u>ごふん</u> <ruby>待<rt>ま</rt></ruby>ってください。<br><br>「ごふん」のかきかたは？",
         "options": [
           "五時",
           "五日",
@@ -13438,7 +13438,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q17",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>がいこく</u>へ 行きます。<br><br>「がいこく」のかきかたは？",
+        "text": "<u>がいこく</u>へ <ruby>行<rt>い</rt></ruby>きます。<br><br>「がいこく」のかきかたは？",
         "options": [
           "外国",
           "中国",
@@ -13477,7 +13477,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q20",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>よる</u> <ruby>本<rt>ほん</rt></ruby>を 読みます。<br><br>「よる」のかきかたは？",
+        "text": "<u>よる</u> <ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みます。<br><br>「よる」のかきかたは？",
         "options": [
           "朝",
           "昼",
@@ -13490,7 +13490,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q21",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を ぬぎます。部屋に 入りますから。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を ぬぎます。<ruby>部屋<rt>へや</rt></ruby>に <ruby>入<rt>はい</rt></ruby>りますから。<br><br>（　）になにがはいりますか。",
         "options": [
           "くつ",
           "シャツ",
@@ -13503,7 +13503,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q22",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "この 荷物は （　　）ですね。<ruby>手<rt>て</rt></ruby>伝ってください。<br><br>（　）になにがはいりますか。",
+        "text": "この <ruby>荷<ruby>物<rt>もの</rt></ruby><rt>にもつ</rt></ruby>は （　　）ですね。<ruby>手<rt>て</rt></ruby>伝ってください。<br><br>（　）になにがはいりますか。",
         "options": [
           "かるい",
           "おもい",
@@ -13516,7 +13516,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q23",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を つけてください。ニュースを 見ます。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を つけてください。ニュースを <ruby>見<rt>み</rt></ruby>ます。<br><br>（　）になにがはいりますか。",
         "options": [
           "ラジオ",
           "エアコン",
@@ -13529,7 +13529,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q24",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を 見て、時間を 確認します。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を <ruby>見<rt>み</rt></ruby>て、<ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>を <ruby>確認<rt>かくにん</rt></ruby>します。<br><br>（　）になにがはいりますか。",
         "options": [
           "ノート",
           "じしょ",
@@ -13542,7 +13542,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q25",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "おなかが （　　）です。何か 食べましょう。<br><br>（　）になにがはいりますか。",
+        "text": "おなかが （　　）です。<ruby>何<rt>なに</rt></ruby>か <ruby>食<rt>た</rt></ruby>べましょう。<br><br>（　）になにがはいりますか。",
         "options": [
           "すきました",
           "いたいです",
@@ -13555,7 +13555,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q26",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を 撮りましょう。とても きれいな <ruby>山<rt>やま</rt></ruby>ですね。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を <ruby>撮<rt>と</rt></ruby>りましょう。とても きれいな <ruby>山<rt>やま</rt></ruby>ですね。<br><br>（　）になにがはいりますか。",
         "options": [
           "てがみ",
           "しゃしん",
@@ -13568,7 +13568,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q27",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "すみませんが、窓を （　　）ください。暑いですから。<br><br>（　）になにがはいりますか。",
+        "text": "すみませんが、<ruby><ruby>窓<rt>まど</rt></ruby><rt>まど</rt></ruby>を （　　）ください。<ruby>暑い<rt>あつい</rt></ruby>ですから。<br><br>（　）になにがはいりますか。",
         "options": [
           "しめて",
           "つけて",
@@ -13581,7 +13581,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q28",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を あらいます。ご飯を 食べる <ruby>前<rt>まえ</rt></ruby>です。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を あらいます。<ruby>ご飯<rt>ごはん</rt></ruby>を <ruby>食<rt>た</rt></ruby>べる <ruby>前<rt>まえ</rt></ruby>です。<br><br>（　）になにがはいりますか。",
         "options": [
           "かお",
           "あし",
@@ -13594,7 +13594,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q29",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を かけて、<ruby>本<rt>ほん</rt></ruby>を 読みます。<ruby>目<rt>め</rt></ruby>が わるいですから。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を かけて、<ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みます。<ruby>目<rt>め</rt></ruby>が わるいですから。<br><br>（　）になにがはいりますか。",
         "options": [
           "めがね",
           "シャツ",
@@ -13607,7 +13607,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q30",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）が いたいので、休みます。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）が いたいので、<ruby>休<rt>やす</rt></ruby>みます。<br><br>（　）になにがはいりますか。",
         "options": [
           "みみ",
           "あたま",
@@ -13620,7 +13620,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q31",
         "section": "言語知識（文法）・読解",
         "type": "言い換え類義",
-        "text": "<u>すぐ</u> 終わります。<br><br>「すぐ」に ちかい いみの ことばは？",
+        "text": "<u>すぐ</u> <ruby>終わり<rt>おわり</rt></ruby>ます。<br><br>「すぐ」に ちかい いみの ことばは？",
         "options": [
           "あとで",
           "時間をかけて",
@@ -13633,7 +13633,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q32",
         "section": "言語知識（文法）・読解",
         "type": "言い換え類義",
-        "text": "<u>ちょうど</u> 十時です。<br><br>「ちょうど」に ちかい いみの ことばは？",
+        "text": "<u>ちょうど</u> <ruby>十<rt>じゅう</rt></ruby><ruby>時<rt>とき</rt></ruby>です。<br><br>「ちょうど」に ちかい いみの ことばは？",
         "options": [
           "だいたい",
           "すこし",
@@ -13750,7 +13750,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q41",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "ペン（　　） 名<ruby>前<rt>まえ</rt></ruby>を 書きました。<br><br>（　）になにがはいりますか。",
+        "text": "ペン（　　） <ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きました。<br><br>（　）になにがはいりますか。",
         "options": [
           "で",
           "を",
@@ -13763,7 +13763,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q42",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あした <ruby>学校<rt>がっこう</rt></ruby>（　　） 行きません。<br><br>（　）になにがはいりますか。",
+        "text": "あした <ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>（　　） <ruby>行<rt>い</rt></ruby>きません。<br><br>（　）になにがはいりますか。",
         "options": [
           "へを",
           "へは",
@@ -13776,7 +13776,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q43",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "だれ（　　） 来ませんでした。<br><br>（　）になにがはいりますか。",
+        "text": "だれ（　　） <ruby>来<rt>く</rt></ruby>ませんでした。<br><br>（　）になにがはいりますか。",
         "options": [
           "に",
           "を",
@@ -13789,7 +13789,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q44",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あそこに 猫が （　　） います。<br><br>（　）になにがはいりますか。",
+        "text": "あそこに <ruby>猫<rt>ねこ</rt></ruby>が （　　） います。<br><br>（　）になにがはいりますか。",
         "options": [
           "ひとつ",
           "ひとり",
@@ -13802,7 +13802,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q45",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "おんがくを （　　）ながら 勉強します。<br><br>（　）になにがはいりますか。",
+        "text": "おんがくを （　　）ながら <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>します。<br><br>（　）になにがはいりますか。",
         "options": [
           "きき",
           "きいて",
@@ -13815,7 +13815,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q46",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "<ruby><ruby>日本<rt>にほん</rt></ruby>語<rt>にほんご</rt></ruby>を 話すのが （　　）です。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby><ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby><rt>にほんご</rt></ruby>を <ruby>話<rt>はな</rt></ruby>すのが （　　）です。<br><br>（　）になにがはいりますか。",
         "options": [
           "うまく",
           "じょうず",
@@ -13828,7 +13828,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q47",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "宿題を （　　）から、遊びに行きます。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>宿題<rt>しゅくだい</rt></ruby>を （　　）から、<ruby>遊<rt>あそ</rt></ruby>びに<ruby>行<rt>い</rt></ruby>きます。<br><br>（　）になにがはいりますか。",
         "options": [
           "した",
           "する",
@@ -13841,7 +13841,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q48",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "この 料理は （　　） おいしくないです。<br><br>（　）になにがはいりますか。",
+        "text": "この <ruby>料理<rt>りょうり</rt></ruby>は （　　） おいしくないです。<br><br>（　）になにがはいりますか。",
         "options": [
           "とても",
           "すこし",
@@ -13854,7 +13854,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q49",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "これ（　　） わたしの 鞄です。<br><br>（　）になにがはいりますか。",
+        "text": "これ（　　） わたしの <ruby>鞄<rt>かばん</rt></ruby>です。<br><br>（　）になにがはいりますか。",
         "options": [
           "は",
           "を",
@@ -13867,7 +13867,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q50",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "昨日 （　　） <ruby>映画<rt>えいが</rt></ruby>は おもしろかったです。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>昨日<rt>きのう</rt></ruby> （　　） <ruby>映画<rt>えいが</rt></ruby>は おもしろかったです。<br><br>（　）になにがはいりますか。",
         "options": [
           "みて",
           "みた",
@@ -13880,7 +13880,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q51",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "コーヒー（　　） 紅茶、どちらが いいですか。<br><br>（　）になにがはいりますか。",
+        "text": "コーヒー（　　） <ruby>紅<ruby>茶<rt>ちゃ</rt></ruby><rt>こうちゃ</rt></ruby>、どちらが いいですか。<br><br>（　）になにがはいりますか。",
         "options": [
           "と",
           "を",
@@ -13893,7 +13893,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q52",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "<ruby>今日<rt>きょう</rt></ruby>は （　　） 寒いですね。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>今日<rt>きょう</rt></ruby>は （　　） <ruby>寒い<rt>さむい</rt></ruby>ですね。<br><br>（　）になにがはいりますか。",
         "options": [
           "あまり",
           "すこし",
@@ -13906,7 +13906,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q53",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あの 建物は （　　）ですか。<br><br>（　）になにがはいりますか。",
+        "text": "あの <ruby><ruby>建<rt>た</rt></ruby><ruby>物<rt>もの</rt></ruby><rt>たてもの</rt></ruby>は （　　）ですか。<br><br>（　）になにがはいりますか。",
         "options": [
           "なん",
           "どこ",
@@ -13919,7 +13919,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q54",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "机の<ruby>上<rt>うえ</rt></ruby>に 辞書（　　） あります。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>机<rt>つくえ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に <ruby>辞<ruby>書<rt>か</rt></ruby><rt>じしょ</rt></ruby>（　　） あります。<br><br>（　）になにがはいりますか。",
         "options": [
           "を",
           "が",
@@ -13932,7 +13932,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q55",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "ここ（　　） 名<ruby>前<rt>まえ</rt></ruby>を 書いてください。<br><br>（　）になにがはいりますか。",
+        "text": "ここ（　　） <ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>を <ruby>書<rt>か</rt></ruby>いてください。<br><br>（　）になにがはいりますか。",
         "options": [
           "を",
           "で",
@@ -13945,7 +13945,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q56",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "わたしは 毎<ruby>朝<rt>あさ</rt></ruby> 六時に 牛乳を 一回 飲みます。<br><br>★に入るものはどれですか。",
+        "text": "わたしは <ruby>毎<ruby>朝<rt>あさ</rt></ruby><rt>まいあさ</rt></ruby> <ruby>六<rt>ろく</rt></ruby><ruby>時<rt>とき</rt></ruby>に <ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>を <ruby><ruby>一<rt>いち</rt></ruby><ruby>回<rt>かい</rt></ruby><rt>いっかい</rt></ruby> <ruby>飲<rt>の</rt></ruby>みます。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "毎朝",
           "六時に",
@@ -13958,7 +13958,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q57",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "あそこに <ruby>白<rt>しろ</rt></ruby>い 帽<ruby>子<rt>こ</rt></ruby>を かぶった <ruby>人<rt>ひと</rt></ruby>が います。<br><br>★に入るものはどれですか。",
+        "text": "あそこに <ruby>白<rt>しろ</rt></ruby>い <ruby>帽<ruby>子<rt>こ</rt></ruby><rt>ぼうし</rt></ruby>を かぶった <ruby>人<rt>ひと</rt></ruby>が います。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "白い",
           "帽子を",
@@ -13971,7 +13971,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q58",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "そこに ゆっくり 椅<ruby>子<rt>こ</rt></ruby>に 座って かけて ください。<br><br>★に入るものはどれですか。",
+        "text": "そこに ゆっくり <ruby>椅<ruby>子<rt>こ</rt></ruby><rt>いす</rt></ruby>に <ruby>座<rt>すわ</rt></ruby>って かけて ください。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "そこに",
           "座って",
@@ -13984,7 +13984,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q59",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "公園の <ruby>中<rt>なか</rt></ruby>に <ruby>子供<rt>こども</rt></ruby>が 五<ruby>人<rt>ひと</rt></ruby> 遊んで います。<br><br>★に入るものはどれですか。",
+        "text": "<ruby>公<ruby>園<rt>えん</rt></ruby><rt>こうえん</rt></ruby>の <ruby>中<rt>なか</rt></ruby>に <ruby>子供<rt>こども</rt></ruby>が <ruby><ruby>五<rt>ご</rt></ruby><ruby>人<rt>ひと</rt></ruby><rt>ごにん</rt></ruby> <ruby>遊<rt>あそ</rt></ruby>んで います。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "中に",
           "子供が",
@@ -13997,7 +13997,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q60",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "ここに ボールペンで 名<ruby>前<rt>まえ</rt></ruby>を 書いて ください。<br><br>★に入るものはどれですか。",
+        "text": "ここに ボールペンで <ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>を <ruby>書<rt>か</rt></ruby>いて ください。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "ここに",
           "名前を",
@@ -14036,7 +14036,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q63",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（メール）<ruby>海<rt>うみ</rt></ruby>で たくさん （ 3 ） 泳ぎます。<br><br>（ 3 ）になにがはいりますか。",
+        "text": "（メール）<ruby>海<rt>うみ</rt></ruby>で たくさん （ 3 ） <ruby>泳<rt>およ</rt></ruby>ぎます。<br><br>（ 3 ）になにがはいりますか。",
         "options": [
           "魚と",
           "水を",
@@ -14049,7 +14049,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q64",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（メール）ジョンさんも （ 4 ） 行きませんか。<br><br>（ 4 ）になにがはいりますか。",
+        "text": "（メール）ジョンさんも （ 4 ） <ruby>行<rt>い</rt></ruby>きませんか。<br><br>（ 4 ）になにがはいりますか。",
         "options": [
           "ひとりで",
           "どこかへ",
@@ -14062,7 +14062,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q65",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（メール）（ 5 ） お返事を ください。<br><br>（ 5 ）になにがはいりますか。",
+        "text": "（メール）（ 5 ） お<ruby><ruby>返<rt>かえ</rt></ruby><ruby>事<rt>こと</rt></ruby><rt>へんじ</rt></ruby>を ください。<br><br>（ 5 ）になにがはいりますか。",
         "options": [
           "ぜひ",
           "たぶん",
@@ -14075,7 +14075,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q66",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）田<ruby>中<rt>なか</rt></ruby>さんは <ruby>毎日<rt>まいにち</rt></ruby> 七時に おきます。パンを 食べてから 仕事に 行きます。<br><br>田<ruby>中<rt>なか</rt></ruby>さんは <ruby>朝<rt>あさ</rt></ruby> 何を しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>七<rt>なな</rt></ruby><ruby>時<rt>とき</rt></ruby>に おきます。パンを <ruby>食<rt>た</rt></ruby>べてから <ruby><ruby>仕<rt>し</rt></ruby><ruby>事<rt>こと</rt></ruby><rt>しごと</rt></ruby>に <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんは <ruby>朝<rt>あさ</rt></ruby> <ruby>何<rt>なに</rt></ruby>を しますか。",
         "options": [
           "コーヒーを飲む",
           "パンを食べる",
@@ -14088,7 +14088,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q67",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）わたしの 家は <ruby>駅<rt>えき</rt></ruby>から 十五分くらいです。とても 便利です。<br><br>家は どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）わたしの <ruby>家<rt>いえ</rt></ruby>は <ruby>駅<rt>えき</rt></ruby>から <ruby>十<rt>じゅう</rt></ruby><ruby>五<rt>ご</rt></ruby><ruby>分<rt>ふん</rt></ruby>くらいです。とても <ruby>便利<rt>べんり</rt></ruby>です。<br><br><ruby>家<rt>いえ</rt></ruby>は どうですか。",
         "options": [
           "遠くて不便",
           "少し遠い",
@@ -14101,7 +14101,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q68",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）昨日は 休みでした。どこへも 行きませんでした。家で <ruby>本<rt>ほん</rt></ruby>を 読みました。<br><br>昨日は 何を しましたか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>昨日<rt>きのう</rt></ruby>は <ruby>休<rt>やす</rt></ruby>みでした。どこへも <ruby>行<rt>い</rt></ruby>きませんでした。<ruby>家<rt>いえ</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みました。<br><br><ruby>昨日<rt>きのう</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を しましたか。",
         "options": [
           "買い物に行った",
           "公園に行った",
@@ -14114,7 +14114,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q69",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）この 料理は 少し 辛いですが、とても おいしいです。<br><br>この 料理は どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）この <ruby>料理<rt>りょうり</rt></ruby>は <ruby>少<rt>すく</rt></ruby>し <ruby>辛い<rt>からい</rt></ruby>ですが、とても おいしいです。<br><br>この <ruby>料理<rt>りょうり</rt></ruby>は どうですか。",
         "options": [
           "辛いがおいしい",
           "甘い",
@@ -14127,7 +14127,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q70",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）明日は <ruby>月曜日<rt>げつようび</rt></ruby>です。テストが ありますから、<ruby>今日<rt>きょう</rt></ruby>は 勉強します。<br><br>いつ 勉強しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby><ruby>明<rt>あか</rt></ruby>日<rt>あした</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>です。テストが ありますから、<ruby>今日<rt>きょう</rt></ruby>は <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>します。<br><br>いつ <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>しますか。",
         "options": [
           "明日",
           "今日",
@@ -14140,7 +14140,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q71",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）この ズボンは 少し 短いです。もっと 長いのは ありませんか。<br><br>この ズボンは どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）この ズボンは <ruby>少<rt>すく</rt></ruby>し 短いです。もっと <ruby>長<rt>なが</rt></ruby>いのは ありませんか。<br><br>この ズボンは どうですか。",
         "options": [
           "短い",
           "太い",
@@ -14153,7 +14153,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q72",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）木村さんは ギターが 好きです。<ruby>毎日<rt>まいにち</rt></ruby> 練習します。<br><br>木村さんは 何を 練習しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>木村<rt>きむら</rt></ruby>さんは ギターが <ruby>好き<rt>すき</rt></ruby>です。<ruby>毎日<rt>まいにち</rt></ruby> <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>します。<br><br><ruby>木村<rt>きむら</rt></ruby>さんは <ruby>何<rt>なに</rt></ruby>を <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>しますか。",
         "options": [
           "ピアノ",
           "歌",
@@ -14166,7 +14166,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q73",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "昨日は <ruby>友達<rt>ともだち</rt></ruby>と レストランへ 行きました。わたしは カレーを 食べました。<ruby>友達<rt>ともだち</rt></ruby>は ハンバーグを 食べました。カレーは 少し 辛かったですが、とても おいしかったです。<ruby>店<rt>みせ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>に <ruby>花<rt>はな</rt></ruby>が たくさん あって、とても きれいでした。また 行きたいです。<br><br>昨日は だれと レストランへ 行きましたか。",
+        "text": "<ruby>昨日<rt>きのう</rt></ruby>は <ruby>友達<rt>ともだち</rt></ruby>と レストランへ <ruby>行<rt>い</rt></ruby>きました。わたしは カレーを <ruby>食<rt>た</rt></ruby>べました。<ruby>友達<rt>ともだち</rt></ruby>は ハンバーグを <ruby>食<rt>た</rt></ruby>べました。カレーは <ruby>少<rt>すく</rt></ruby>し 辛かったですが、とても おいしかったです。<ruby>店<rt>みせ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>に <ruby>花<rt>はな</rt></ruby>が たくさん あって、とても きれいでした。また <ruby>行<rt>い</rt></ruby>きたいです。<br><br><ruby>昨日<rt>きのう</rt></ruby>は だれと レストランへ <ruby>行<rt>い</rt></ruby>きましたか。",
         "options": [
           "家族",
           "一人",
@@ -14179,7 +14179,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q74",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）わたしは <ruby>日本<rt>にほん</rt></ruby>に 来て 一年に なります。<ruby><ruby>日本<rt>にほん</rt></ruby>語<rt>にほんご</rt></ruby><ruby>学校<rt>がっこう</rt></ruby>で べんきょうしています。<br><br><ruby>日本<rt>にほん</rt></ruby>に 来て どのくらいですか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）わたしは <ruby>日本<rt>にほん</rt></ruby>に <ruby>来<rt>く</rt></ruby>て <ruby>一<rt>いち</rt></ruby><ruby>年<rt>ねん</rt></ruby>に なります。<ruby><ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby><rt>にほんご</rt></ruby><ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>で べんきょうしています。<br><br><ruby>日本<rt>にほん</rt></ruby>に <ruby>来<rt>く</rt></ruby>て どのくらいですか。",
         "options": [
           "半年",
           "一年",
@@ -14192,7 +14192,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q75",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）<ruby>学校<rt>がっこう</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>から <ruby>金曜日<rt>きんようび</rt></ruby>まで あります。<br><br><ruby>学校<rt>がっこう</rt></ruby>は いつ ありますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>から <ruby>金曜日<rt>きんようび</rt></ruby>まで あります。<br><br><ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>は いつ ありますか。",
         "options": [
           "毎日",
           "週末",
@@ -14205,7 +14205,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q76",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "わたしの 趣味は 写真を 撮ることです。新しい カメラを 買いましたから、<ruby>先週<rt>せんしゅう</rt></ruby>の <ruby>日曜日<rt>にちようび</rt></ruby>に 公園へ 行きました。公園には <ruby>白<rt>しろ</rt></ruby>い <ruby>花<rt>はな</rt></ruby>が たくさん 咲いていました。<ruby>子供<rt>こども</rt></ruby>が <ruby>元気<rt>げんき</rt></ruby>に 遊んでいました。わたしは <ruby>花<rt>はな</rt></ruby>と <ruby>子供<rt>こども</rt></ruby>の 写真を 二十枚 撮りました。<br><br><ruby>先週<rt>せんしゅう</rt></ruby>の <ruby>日曜日<rt>にちようび</rt></ruby>に 何を しましたか。",
+        "text": "わたしの <ruby>趣<ruby>味<rt>あじ</rt></ruby><rt>しゅみ</rt></ruby>は <ruby>写真<rt>しゃしん</rt></ruby>を <ruby>撮<rt>と</rt></ruby>ることです。<ruby>新<rt>あたら</rt></ruby>しい カメラを <ruby>買<rt>か</rt></ruby>いましたから、<ruby>先<ruby>週<rt>しゅう</rt></ruby><rt>せんしゅう</rt></ruby>の <ruby>日曜日<rt>にちようび</rt></ruby>に <ruby>公<ruby>園<rt>えん</rt></ruby><rt>こうえん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。<ruby>公<ruby>園<rt>えん</rt></ruby><rt>こうえん</rt></ruby>には <ruby>白<rt>しろ</rt></ruby>い <ruby>花<rt>はな</rt></ruby>が たくさん <ruby>咲<rt>さ</rt></ruby>いていました。<ruby>子供<rt>こども</rt></ruby>が <ruby>元気<rt>げんき</rt></ruby>に <ruby>遊<rt>あそ</rt></ruby>んでいました。わたしは <ruby>花<rt>はな</rt></ruby>と <ruby>子供<rt>こども</rt></ruby>の <ruby>写真<rt>しゃしん</rt></ruby>を <ruby>二<rt>に</rt></ruby><ruby>十<rt>じゅう</rt></ruby><ruby>枚<rt>まい</rt></ruby> <ruby>撮<rt>と</rt></ruby>りました。<br><br><ruby>先<ruby>週<rt>しゅう</rt></ruby><rt>せんしゅう</rt></ruby>の <ruby>日曜日<rt>にちようび</rt></ruby>に <ruby>何<rt>なに</rt></ruby>を しましたか。",
         "options": [
           "カメラを買いに行った",
           "子供と遊んだ",
@@ -14218,7 +14218,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q77",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）わたしの しゅみは サッカーです。週に 二回 練習します。<br><br>しゅみは 何ですか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）わたしの しゅみは サッカーです。<ruby>週<rt>しゅう</rt></ruby>に <ruby><ruby>二<rt>に</rt></ruby><ruby>回<rt>かい</rt></ruby><rt>にかい</rt></ruby> <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>します。<br><br>しゅみは <ruby>何<rt>なに</rt></ruby>ですか。",
         "options": [
           "サッカー",
           "テニス",
@@ -14231,7 +14231,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q78",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）週末は <ruby>友<rt>とも</rt></ruby>だちと サッカーを します。とても たのしいです。<br><br>だれと サッカーを しますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby><rt>しゅうまつ</rt></ruby>は <ruby>友<rt>とも</rt></ruby>だちと サッカーを します。とても たのしいです。<br><br>だれと サッカーを しますか。",
         "options": [
           "一人で",
           "友だち",
@@ -14244,7 +14244,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q79",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）<ruby>来月<rt>らいげつ</rt></ruby> サッカーの 大会が あります。たくさん 練習します。<br><br><ruby>来月<rt>らいげつ</rt></ruby> 何が ありますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>来<rt>く</rt></ruby>月<rt>らいげつ</rt></ruby> サッカーの <ruby>大<rt>おお</rt></ruby>会が あります。たくさん <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>します。<br><br><ruby><ruby>来<rt>く</rt></ruby>月<rt>らいげつ</rt></ruby> <ruby>何<rt>なに</rt></ruby>が ありますか。",
         "options": [
           "りょこう",
           "しけん",
@@ -14257,7 +14257,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q80",
         "section": "言語知識（文法）・読解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【デパート】火〜日：10時〜20時　<ruby>月曜日<rt>げつようび</rt></ruby>：開館<br><br><ruby>月曜日<rt>げつようび</rt></ruby>は 休みですか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【デパート】火〜日：10<ruby>時<rt>とき</rt></ruby>〜20<ruby>時<rt>とき</rt></ruby>　<ruby>月曜日<rt>げつようび</rt></ruby>：<ruby>開<rt>あ</rt></ruby><ruby>館<rt>かん</rt></ruby><br><br><ruby>月曜日<rt>げつようび</rt></ruby>は <ruby>休<rt>やす</rt></ruby>みですか。",
         "options": [
           "はい",
           "午前だけ",
@@ -14270,7 +14270,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q81",
         "section": "聴解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【デパート】火〜日：10時〜20時<br><br>何時に 始まりますか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【デパート】火〜日：10<ruby>時<rt>とき</rt></ruby>〜20<ruby>時<rt>とき</rt></ruby><br><br><ruby>何<rt>なに</rt></ruby><ruby>時<rt>とき</rt></ruby>に 始まりますか。",
         "options": [
           "十時",
           "八時",
@@ -14283,7 +14283,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q82",
         "section": "聴解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【デパート】<ruby>日曜日<rt>にちようび</rt></ruby>：休み<br><br>休みは いつですか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【デパート】<ruby>日曜日<rt>にちようび</rt></ruby>：<ruby>休<rt>やす</rt></ruby>み<br><br><ruby>休<rt>やす</rt></ruby>みは いつですか。",
         "options": [
           "月曜日",
           "日曜日",
@@ -14296,7 +14296,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q83",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：くだものを 買いに 行きます。何が いいですか。<br><ruby>男<rt>おとこ</rt></ruby>：バナナを おねがいします。<br><br>何を 買いますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：くだものを <ruby>買<rt>か</rt></ruby>いに <ruby>行<rt>い</rt></ruby>きます。<ruby>何<rt>なに</rt></ruby>が いいですか。<br><ruby>男<rt>おとこ</rt></ruby>：バナナを おねがいします。<br><br><ruby>何<rt>なに</rt></ruby>を <ruby>買<rt>か</rt></ruby>いますか。",
         "options": [
           "りんご",
           "みかん",
@@ -14321,7 +14321,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q84",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：いつ 会いましょうか。<br><ruby>女<rt>おんな</rt></ruby>：十<ruby>三日<rt>みっか</rt></ruby>は どうですか。<br><ruby>男<rt>おとこ</rt></ruby>：いいですよ。<br><br>いつ 会いますか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：いつ 会いましょうか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>十<rt>じゅう</rt></ruby><ruby><ruby>三<rt>さん</rt></ruby>日<rt>みっか</rt></ruby>は どうですか。<br><ruby>男<rt>おとこ</rt></ruby>：いいですよ。<br><br>いつ 会いますか。",
         "options": [
           "十日",
           "十一日",
@@ -14359,7 +14359,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q86",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：誰と 行きますか。<br><ruby>女<rt>おんな</rt></ruby>：田<ruby>中<rt>なか</rt></ruby>さんと 行きます。<br><br>誰と 行きますか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>誰<rt>だれ</rt></ruby>と <ruby>行<rt>い</rt></ruby>きますか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんと <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>誰<rt>だれ</rt></ruby>と <ruby>行<rt>い</rt></ruby>きますか。",
         "options": [
           "先生",
           "田中さん",
@@ -14372,7 +14372,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q87",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：何で 行きますか。<br><ruby>男<rt>おとこ</rt></ruby>：自転車で 行きます。<br><br>何で 行きますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>何<rt>なに</rt></ruby>で <ruby>行<rt>い</rt></ruby>きますか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>自転<ruby>車<rt>くるま</rt></ruby><rt>じてんしゃ</rt></ruby>で <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>何<rt>なに</rt></ruby>で <ruby>行<rt>い</rt></ruby>きますか。",
         "options": [
           "バス",
           "電車",
@@ -14385,7 +14385,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q88",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>映画<rt>えいが</rt></ruby>は 何時間ですか。<br><ruby>女<rt>おんな</rt></ruby>：三時間です。<br><br>何時間ですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>映画<rt>えいが</rt></ruby>は <ruby>何<rt>なに</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>ですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>三<rt>さん</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>ですか。",
         "options": [
           "二時間",
           "四時間",
@@ -14398,7 +14398,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q89",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：どうして 行きませんでしたか。<br><ruby>男<rt>おとこ</rt></ruby>：忙しかったからです。<br><br>どうして 行きませんでしたか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：どうして <ruby>行<rt>い</rt></ruby>きませんでしたか。<br><ruby>男<rt>おとこ</rt></ruby>：忙しかったからです。<br><br>どうして <ruby>行<rt>い</rt></ruby>きませんでしたか。",
         "options": [
           "忙しいから",
           "寒いから",
@@ -14411,7 +14411,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q90",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：鍵は どこに ありましたか。<br><ruby>女<rt>おんな</rt></ruby>：机の <ruby>上<rt>うえ</rt></ruby>に ありました。<br><br>どこに ありましたか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>鍵<rt>かぎ</rt></ruby>は どこに ありましたか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>机<rt>つくえ</rt></ruby>の <ruby>上<rt>うえ</rt></ruby>に ありました。<br><br>どこに ありましたか。",
         "options": [
           "箱の中",
           "机の上",
@@ -14424,7 +14424,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q91",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：何色が 好きですか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>白<rt>しろ</rt></ruby>が 好きです。<br><br>何色が 好きですか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>何<rt>なに</rt></ruby><ruby>色<rt>いろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>ですか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>白<rt>しろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby>色<rt>いろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>ですか。",
         "options": [
           "赤",
           "青",
@@ -14437,7 +14437,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q92",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：何番の バスですか。<br><ruby>女<rt>おんな</rt></ruby>：四番です。<br><br>何番ですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>何<rt>なに</rt></ruby><ruby>番<rt>ばん</rt></ruby>の バスですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>四<rt>よん</rt></ruby><ruby>番<rt>ばん</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby>番<rt>ばん</rt></ruby>ですか。",
         "options": [
           "一番",
           "二番",
@@ -14450,7 +14450,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q93",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：誰が 来ましたか。<br><ruby>男<rt>おとこ</rt></ruby>：兄が 来ました。<br><br>誰が 来ましたか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>誰<rt>だれ</rt></ruby>が <ruby>来<rt>く</rt></ruby>ましたか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>兄<rt>あに</rt></ruby>が <ruby>来<rt>く</rt></ruby>ました。<br><br><ruby>誰<rt>だれ</rt></ruby>が <ruby>来<rt>く</rt></ruby>ましたか。",
         "options": [
           "兄",
           "姉",
@@ -14463,7 +14463,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q94",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：どこへ 行きたいですか。<br><ruby>女<rt>おんな</rt></ruby>：大阪へ 行きたいです。<br><br>どこへ 行きたいですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：どこへ <ruby>行<rt>い</rt></ruby>きたいですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby><ruby>大<rt>おお</rt></ruby>阪<rt>おおさか</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きたいです。<br><br>どこへ <ruby>行<rt>い</rt></ruby>きたいですか。",
         "options": [
           "東京",
           "大阪",
@@ -14528,7 +14528,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q99",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "お名<ruby>前<rt>まえ</rt></ruby>は？<br><br>なんと こたえますか。",
+        "text": "お<ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>は？<br><br>なんと こたえますか。",
         "options": [
           "銀行員です",
           "二十歳です",
@@ -14541,7 +14541,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M11_Q100",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "また <ruby>来週<rt>らいしゅう</rt></ruby>。<br><br>なんと こたえますか。",
+        "text": "また <ruby><ruby>来<rt>く</rt></ruby><ruby>週<rt>しゅう</rt></ruby><rt>らいしゅう</rt></ruby>。<br><br>なんと こたえますか。",
         "options": [
           "おはよう",
           "おやすみなさい",
@@ -14569,7 +14569,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M12_Q2",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "この <u>料理</u>は <u>新</u>しいです。<br><br>「新」しいのよみかたは？",
+        "text": "この <u>料理</u>は <u>新</u>しいです。<br><br>「<ruby>新<rt>あたら</rt></ruby>」しいのよみかたは？",
         "options": [
           "ふる",
           "やす",
@@ -14621,7 +14621,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M12_Q6",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>一</u>に <u>十</u>を <u>入</u>れます。<br><br>「十」のよみかたは？",
+        "text": "<u>一</u>に <u>十</u>を <u>入</u>れます。<br><br>「<ruby>十<rt>じゅう</rt></ruby>」のよみかたは？",
         "options": [
           "じゅう",
           "とお",
@@ -14660,7 +14660,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M12_Q9",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>友</u>だちの <u>名前</u>を <u>書</u>きました。<br><br>「名<ruby>前<rt>まえ</rt></ruby>」のよみかたは？",
+        "text": "<u>友</u>だちの <u>名前</u>を <u>書</u>きました。<br><br>「<ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>」のよみかたは？",
         "options": [
           "めいまえ",
           "めいぜん",
@@ -14686,7 +14686,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M12_Q11",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>自分</u>で <u>車</u>を <u>持</u>っています。<br><br>「車」のよみかたは？",
+        "text": "<u>自分</u>で <u>車</u>を <u>持</u>っています。<br><br>「<ruby>車<rt>くるま</rt></ruby>」のよみかたは？",
         "options": [
           "みち",
           "くるま",
@@ -14699,7 +14699,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M12_Q12",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>毎日</u> <u>話</u>を <u>聞</u>きます。<br><br>「聞」きますのよみかたは？",
+        "text": "<u>毎日</u> <u>話</u>を <u>聞</u>きます。<br><br>「<ruby>聞<rt>き</rt></ruby>」きますのよみかたは？",
         "options": [
           "きい",
           "きけ",
@@ -15271,7 +15271,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M12_Q56",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "わたしは まいあさ ろくじに しゃわーを あびてから おきます。<br><br>★に入るものはどれですか。",
+        "text": "わたしは まいあさ ろくじに しゃわーを あびてから おきます。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "まいあさ",
           "ろくじに",
@@ -15284,7 +15284,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M12_Q57",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "きのうは としょかんで さんじかん ほんを よみました。<br><br>★に入るものはどれですか。",
+        "text": "きのうは としょかんで さんじかん ほんを よみました。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "きのうは",
           "としょかんで",
@@ -15297,7 +15297,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M12_Q58",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "にほんへ きてから もう さんかげつに なりました。<br><br>★に入るものはどれですか。",
+        "text": "にほんへ きてから もう さんかげつに なりました。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "にほんへ",
           "きてから",
@@ -15310,7 +15310,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M12_Q59",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "あの あかい せーたーを きている ひとは たなかさんです。<br><br>★に入るものはどれですか。",
+        "text": "あの あかい せーたーを きている ひとは たなかさんです。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "あかい",
           "せーたーを",
@@ -15323,7 +15323,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M12_Q60",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "れいぞうこに つめたい みずが さんぼん はいって あります。<br><br>★に入るものはどれですか。",
+        "text": "れいぞうこに つめたい みずが さんぼん はいって あります。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "つめたい",
           "みずが",
@@ -15583,7 +15583,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M12_Q80",
         "section": "言語知識（文法）・読解",
         "type": "読解（情報検索）",
-        "text": "（じょうほうけんさく）【ゆうびんきょく】げつ〜きん：9時〜17時　ど：9時〜12時　にち：やすみ<br><br>やすみは いつですか。",
+        "text": "（じょうほうけんさく）【ゆうびんきょく】げつ〜きん：9<ruby>時<rt>とき</rt></ruby>〜17<ruby>時<rt>とき</rt></ruby>　ど：9<ruby>時<rt>とき</rt></ruby>〜12<ruby>時<rt>とき</rt></ruby>　にち：やすみ<br><br>やすみは いつですか。",
         "options": [
           "げつようび",
           "かようび",
@@ -15596,7 +15596,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M12_Q81",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと おんなのひとが はなしています。おんなのひとは なにを かいますか。<br><ruby>男<rt>おとこ</rt></ruby>：これから <ruby>買い物<rt>かいもの</rt></ruby>に 行きます。パンを 買います。<br><ruby>女<rt>おんな</rt></ruby>：いいですね。<ruby>飲み物<rt>のみもの</rt></ruby>も 買ってきてください。お茶が いいです。<br><ruby>男<rt>おとこ</rt></ruby>：わかりました。お菓<ruby>子<rt>こ</rt></ruby>も いりますか。<br><ruby>女<rt>おんな</rt></ruby>：いいえ、お菓<ruby>子<rt>こ</rt></ruby>は いりません。<br><br>おんなのひとは なにを 買いますか。",
+        "text": "おとこのひとと おんなのひとが はなしています。おんなのひとは なにを かいますか。<br><ruby>男<rt>おとこ</rt></ruby>：これから <ruby><ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby><rt>かいもの</rt></ruby>に <ruby>行<rt>い</rt></ruby>きます。パンを <ruby>買<rt>か</rt></ruby>います。<br><ruby>女<rt>おんな</rt></ruby>：いいですね。<ruby><ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby><rt>のみもの</rt></ruby>も <ruby>買<rt>か</rt></ruby>ってきてください。<ruby>お<ruby>茶<rt>ちゃ</rt></ruby><rt>おちゃ</rt></ruby>が いいです。<br><ruby>男<rt>おとこ</rt></ruby>：わかりました。<ruby>お<ruby>菓<ruby>子<rt>こ</rt></ruby><rt>かし</rt></ruby><rt>おかし</rt></ruby>も いりますか。<br><ruby>女<rt>おんな</rt></ruby>：いいえ、<ruby>お<ruby>菓<ruby>子<rt>こ</rt></ruby><rt>かし</rt></ruby><rt>おかし</rt></ruby>は いりません。<br><br>おんなのひとは なにを <ruby>買<rt>か</rt></ruby>いますか。",
         "options": [
           "パン",
           "お菓子",
@@ -15609,7 +15609,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M12_Q82",
         "section": "聴解",
         "type": "読解（情報検索）",
-        "text": "（じょうほうけんさく）【ゆうびんきょく】ど：9時〜12時<br><br>どようびは なんじまでですか。",
+        "text": "（じょうほうけんさく）【ゆうびんきょく】ど：9<ruby>時<rt>とき</rt></ruby>〜12<ruby>時<rt>とき</rt></ruby><br><br>どようびは なんじまでですか。",
         "options": [
           "ごじ",
           "じゅうにじ",
@@ -15622,7 +15622,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M12_Q83",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：くだものを 買いに 行きます。何が いいですか。<br><ruby>男<rt>おとこ</rt></ruby>：ぶどうを おねがいします。<br><br>何を 買いますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：くだものを <ruby>買<rt>か</rt></ruby>いに <ruby>行<rt>い</rt></ruby>きます。<ruby>何<rt>なに</rt></ruby>が いいですか。<br><ruby>男<rt>おとこ</rt></ruby>：ぶどうを おねがいします。<br><br><ruby>何<rt>なに</rt></ruby>を <ruby>買<rt>か</rt></ruby>いますか。",
         "options": [
           "りんご",
           "みかん",
@@ -15635,7 +15635,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M12_Q84",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：いつ 会いましょうか。<br><ruby>女<rt>おんな</rt></ruby>：十<ruby>三日<rt>みっか</rt></ruby>は どうですか。<br><ruby>男<rt>おとこ</rt></ruby>：いいですよ。<br><br>いつ 会いますか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：いつ 会いましょうか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>十<rt>じゅう</rt></ruby><ruby><ruby>三<rt>さん</rt></ruby>日<rt>みっか</rt></ruby>は どうですか。<br><ruby>男<rt>おとこ</rt></ruby>：いいですよ。<br><br>いつ 会いますか。",
         "options": [
           "とおか",
           "じゅういちにち",
@@ -15661,7 +15661,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M12_Q86",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：誰と 行きますか。<br><ruby>女<rt>おんな</rt></ruby>：田<ruby>中<rt>なか</rt></ruby>さんと 行きます。<br><br>誰と 行きますか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>誰<rt>だれ</rt></ruby>と <ruby>行<rt>い</rt></ruby>きますか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんと <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>誰<rt>だれ</rt></ruby>と <ruby>行<rt>い</rt></ruby>きますか。",
         "options": [
           "せんせい",
           "たなかさん",
@@ -15674,7 +15674,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M12_Q87",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとと おとこのひとが はなしています。おとこのひとは どうして いきませんか。<br><ruby>女<rt>おんな</rt></ruby>：あした いっしょに テニスを しませんか。<br><ruby>男<rt>おとこ</rt></ruby>：行きたいですが、あしたは <ruby>友達<rt>ともだち</rt></ruby>が 家に 来ますから、行けません。<br><ruby>女<rt>おんな</rt></ruby>：そうですか。残念ですね。<br><br>おとこのひとは どうして いきませんか。",
+        "text": "おんなのひとと おとこのひとが はなしています。おとこのひとは どうして いきませんか。<br><ruby>女<rt>おんな</rt></ruby>：あした いっしょに テニスを しませんか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>行<rt>い</rt></ruby>きたいですが、あしたは <ruby>友達<rt>ともだち</rt></ruby>が <ruby>家<rt>いえ</rt></ruby>に <ruby>来<rt>く</rt></ruby>ますから、<ruby>行<rt>い</rt></ruby>けません。<br><ruby>女<rt>おんな</rt></ruby>：そうですか。<ruby>残念<rt>ざんねん</rt></ruby>ですね。<br><br>おとこのひとは どうして いきませんか。",
         "options": [
           "忙しいから",
           "寒いから",
@@ -15687,7 +15687,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M12_Q88",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>映画<rt>えいが</rt></ruby>は 何時間ですか。<br><ruby>女<rt>おんな</rt></ruby>：三時間です。<br><br>何時間ですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>映画<rt>えいが</rt></ruby>は <ruby>何<rt>なに</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>ですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>三<rt>さん</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>ですか。",
         "options": [
           "にじかん",
           "よじかん",
@@ -15700,7 +15700,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M12_Q89",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：どうして 行きませんでしたか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>雨<rt>あめ</rt></ruby>だったからです。<br><br>どうして 行きませんでしたか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：どうして <ruby>行<rt>い</rt></ruby>きませんでしたか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>雨<rt>あめ</rt></ruby>だったからです。<br><br>どうして <ruby>行<rt>い</rt></ruby>きませんでしたか。",
         "options": [
           "あめだから",
           "いそがしいから",
@@ -15713,7 +15713,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M12_Q90",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：鍵は どこに ありましたか。<br><ruby>女<rt>おんな</rt></ruby>：机の <ruby>上<rt>うえ</rt></ruby>に ありました。<br><br>どこに ありましたか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>鍵<rt>かぎ</rt></ruby>は どこに ありましたか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>机<rt>つくえ</rt></ruby>の <ruby>上<rt>うえ</rt></ruby>に ありました。<br><br>どこに ありましたか。",
         "options": [
           "はこのなか",
           "つくえのうえ",
@@ -15726,7 +15726,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M12_Q91",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：何色が 好きですか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>白<rt>しろ</rt></ruby>が 好きです。<br><br>何色が 好きですか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>何<rt>なに</rt></ruby><ruby>色<rt>いろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>ですか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>白<rt>しろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby>色<rt>いろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>ですか。",
         "options": [
           "あか",
           "あお",
@@ -15739,7 +15739,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M12_Q92",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：何番の バスですか。<br><ruby>女<rt>おんな</rt></ruby>：四番です。<br><br>何番ですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>何<rt>なに</rt></ruby><ruby>番<rt>ばん</rt></ruby>の バスですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>四<rt>よん</rt></ruby><ruby>番<rt>ばん</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby>番<rt>ばん</rt></ruby>ですか。",
         "options": [
           "いちばん",
           "にばん",
@@ -15752,7 +15752,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M12_Q93",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：誰が 来ましたか。<br><ruby>男<rt>おとこ</rt></ruby>：兄が 来ました。<br><br>誰が 来ましたか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>誰<rt>だれ</rt></ruby>が <ruby>来<rt>く</rt></ruby>ましたか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>兄<rt>あに</rt></ruby>が <ruby>来<rt>く</rt></ruby>ました。<br><br><ruby>誰<rt>だれ</rt></ruby>が <ruby>来<rt>く</rt></ruby>ましたか。",
         "options": [
           "あに",
           "あね",
@@ -15765,7 +15765,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M12_Q94",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：どこへ 行きたいですか。<br><ruby>女<rt>おんな</rt></ruby>：大阪へ 行きたいです。<br><br>どこへ 行きたいですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：どこへ <ruby>行<rt>い</rt></ruby>きたいですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby><ruby>大<rt>おお</rt></ruby>阪<rt>おおさか</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きたいです。<br><br>どこへ <ruby>行<rt>い</rt></ruby>きたいですか。",
         "options": [
           "とうきょう",
           "おおさか",
@@ -15871,7 +15871,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q2",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "この <u>道</u>を まっすぐ 行きます。<br><br>「道」のよみかたは？",
+        "text": "この <u>道</u>を まっすぐ <ruby>行<rt>い</rt></ruby>きます。<br><br>「道」のよみかたは？",
         "options": [
           "やま",
           "みち",
@@ -15884,7 +15884,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q3",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>今週</u>は とても 忙しいです。<br><br>「今週」のよみかたは？",
+        "text": "<u>今週</u>は とても <ruby>忙しい<rt>いそがしい</rt></ruby>です。<br><br>「今週」のよみかたは？",
         "options": [
           "まいしゅう",
           "らいしゅう",
@@ -15910,7 +15910,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q5",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>午前</u> 九時に 始まります。<br><br>「午前」のよみかたは？",
+        "text": "<u>午前</u> <ruby>九<rt>きゅう</rt></ruby><ruby>時<rt>とき</rt></ruby>に 始まります。<br><br>「午前」のよみかたは？",
         "options": [
           "ごぜん",
           "ごご",
@@ -15923,7 +15923,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q6",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>何</u>を <u>買</u>いましたか。<br><br>「買」いましたのよみかたは？",
+        "text": "<u>何</u>を <u>買</u>いましたか。<br><br>「<ruby>買<rt>か</rt></ruby>」いましたのよみかたは？",
         "options": [
           "き",
           "か",
@@ -15949,7 +15949,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q8",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>半分</u> 食べました。<br><br>「半分」のよみかたは？",
+        "text": "<u>半分</u> <ruby>食<rt>た</rt></ruby>べました。<br><br>「半分」のよみかたは？",
         "options": [
           "はなぶん",
           "ほんぶん",
@@ -15988,7 +15988,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q11",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>百</u>円 <u>安</u>いです。<br><br>「百」のよみかたは？",
+        "text": "<u>百</u><ruby>円<rt>えん</rt></ruby> <u>安</u>いです。<br><br>「百」のよみかたは？",
         "options": [
           "せん",
           "まん",
@@ -16027,7 +16027,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q14",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>らいねん</u> <ruby>日本<rt>にほん</rt></ruby>に 行きます。<br><br>「らいねん」のかきかたは？",
+        "text": "<u>らいねん</u> <ruby>日本<rt>にほん</rt></ruby>に <ruby>行<rt>い</rt></ruby>きます。<br><br>「らいねん」のかきかたは？",
         "options": [
           "今年",
           "来年",
@@ -16053,7 +16053,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q16",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>さんぷん</u> 待ってください。<br><br>「さんぷん」のかきかたは？",
+        "text": "<u>さんぷん</u> <ruby>待<rt>ま</rt></ruby>ってください。<br><br>「さんぷん」のかきかたは？",
         "options": [
           "三時",
           "三日",
@@ -16066,7 +16066,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q17",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>がいこく</u>の 言葉を 習います。<br><br>「がいこく」のかきかたは？",
+        "text": "<u>がいこく</u>の <ruby>言葉<rt>ことば</rt></ruby>を <ruby>習<rt>なら</rt></ruby>います。<br><br>「がいこく」のかきかたは？",
         "options": [
           "外国",
           "中国",
@@ -16092,7 +16092,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q19",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>ともだち</u>と 遊びます。<br><br>「ともだち」のかきかたは？",
+        "text": "<u>ともだち</u>と <ruby>遊<rt>あそ</rt></ruby>びます。<br><br>「ともだち」のかきかたは？",
         "options": [
           "友人",
           "友立",
@@ -16105,7 +16105,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q20",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>ひる</u> ごはんを 食べます。<br><br>「ひる」のかきかたは？",
+        "text": "<u>ひる</u> ごはんを <ruby>食<rt>た</rt></ruby>べます。<br><br>「ひる」のかきかたは？",
         "options": [
           "朝",
           "夜",
@@ -16131,7 +16131,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q22",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "この 部屋は （　　）です。エアコンを つけましょう。<br><br>（　）になにがはいりますか。",
+        "text": "この <ruby>部屋<rt>へや</rt></ruby>は （　　）です。エアコンを つけましょう。<br><br>（　）になにがはいりますか。",
         "options": [
           "さむい",
           "あつい",
@@ -16144,7 +16144,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q23",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を ぬいで、部屋に 入ります。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を ぬいで、<ruby>部屋<rt>へや</rt></ruby>に <ruby>入<rt>はい</rt></ruby>ります。<br><br>（　）になにがはいりますか。",
         "options": [
           "シャツ",
           "ぼうし",
@@ -16157,7 +16157,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q24",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を 見て、漢字を 調べます。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を <ruby>見<rt>み</rt></ruby>て、<ruby>漢字<rt>かんじ</rt></ruby>を 調べます。<br><br>（　）になにがはいりますか。",
         "options": [
           "ノート",
           "新聞",
@@ -16170,7 +16170,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q25",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "おなかが （　　）です。何か 食べたいです。<br><br>（　）になにがはいりますか。",
+        "text": "おなかが （　　）です。<ruby>何<rt>なに</rt></ruby>か <ruby>食<rt>た</rt></ruby>べたいです。<br><br>（　）になにがはいりますか。",
         "options": [
           "すきました",
           "いたいです",
@@ -16183,7 +16183,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q26",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を 撮りました。とても きれいでした。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を <ruby>撮<rt>と</rt></ruby>りました。とても きれいでした。<br><br>（　）になにがはいりますか。",
         "options": [
           "てがみ",
           "しゃしん",
@@ -16196,7 +16196,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q27",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "すみませんが、窓を （　　）ください。暑いですから。<br><br>（　）になにがはいりますか。",
+        "text": "すみませんが、<ruby><ruby>窓<rt>まど</rt></ruby><rt>まど</rt></ruby>を （　　）ください。<ruby>暑い<rt>あつい</rt></ruby>ですから。<br><br>（　）になにがはいりますか。",
         "options": [
           "しめて",
           "つけて",
@@ -16222,7 +16222,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q29",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を かけて、出かけます。<ruby>目<rt>め</rt></ruby>が わるいですから。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を かけて、<ruby>出<rt>で</rt></ruby>かけます。<ruby>目<rt>め</rt></ruby>が わるいですから。<br><br>（　）になにがはいりますか。",
         "options": [
           "めがね",
           "シャツ",
@@ -16235,7 +16235,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q30",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）が いたいので、<ruby>病院<rt>びょういん</rt></ruby>へ 行きます。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）が いたいので、<ruby>病院<rt>びょういん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。<br><br>（　）になにがはいりますか。",
         "options": [
           "みみ",
           "あたま",
@@ -16248,7 +16248,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q31",
         "section": "言語知識（文法）・読解",
         "type": "言い換え類義",
-        "text": "<u>すぐ</u> 行きます。<br><br>「すぐ」に ちかい いみの ことばは？",
+        "text": "<u>すぐ</u> <ruby>行<rt>い</rt></ruby>きます。<br><br>「すぐ」に ちかい いみの ことばは？",
         "options": [
           "あとで",
           "時間をかけて",
@@ -16261,7 +16261,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q32",
         "section": "言語知識（文法）・読解",
         "type": "言い換え類義",
-        "text": "<u>ちょうど</u> 10時です。<br><br>「ちょうど」に ちかい いみの ことばは？",
+        "text": "<u>ちょうど</u> 10<ruby>時<rt>とき</rt></ruby>です。<br><br>「ちょうど」に ちかい いみの ことばは？",
         "options": [
           "だいたい",
           "すこし",
@@ -16378,7 +16378,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q41",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "ペン（　　） <ruby>手<rt>て</rt></ruby>紙を 書きました。<br><br>（　）になにがはいりますか。",
+        "text": "ペン（　　） <ruby>手<rt>て</rt></ruby><ruby>紙<rt>かみ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きました。<br><br>（　）になにがはいりますか。",
         "options": [
           "で",
           "を",
@@ -16391,7 +16391,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q42",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あした <ruby>学校<rt>がっこう</rt></ruby>（　　） 行きません。<br><br>（　）になにがはいりますか。",
+        "text": "あした <ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>（　　） <ruby>行<rt>い</rt></ruby>きません。<br><br>（　）になにがはいりますか。",
         "options": [
           "へを",
           "へは",
@@ -16404,7 +16404,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q43",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "だれ（　　） 来ませんでした。<br><br>（　）になにがはいりますか。",
+        "text": "だれ（　　） <ruby>来<rt>く</rt></ruby>ませんでした。<br><br>（　）になにがはいりますか。",
         "options": [
           "に",
           "を",
@@ -16417,7 +16417,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q44",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あそこに 猫が （　　） います。<br><br>（　）になにがはいりますか。",
+        "text": "あそこに <ruby>猫<rt>ねこ</rt></ruby>が （　　） います。<br><br>（　）になにがはいりますか。",
         "options": [
           "ひとつ",
           "ひとり",
@@ -16430,7 +16430,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q45",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "おんがくを （　　）ながら 勉強します。<br><br>（　）になにがはいりますか。",
+        "text": "おんがくを （　　）ながら <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>します。<br><br>（　）になにがはいりますか。",
         "options": [
           "きき",
           "きいて",
@@ -16443,7 +16443,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q46",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "<ruby><ruby>日本<rt>にほん</rt></ruby>語<rt>にほんご</rt></ruby>を 話すのが （　　）です。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby><ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby><rt>にほんご</rt></ruby>を <ruby>話<rt>はな</rt></ruby>すのが （　　）です。<br><br>（　）になにがはいりますか。",
         "options": [
           "うまく",
           "じょうず",
@@ -16456,7 +16456,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q47",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "宿題を （　　）から、遊びに行きます。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>宿題<rt>しゅくだい</rt></ruby>を （　　）から、<ruby>遊<rt>あそ</rt></ruby>びに<ruby>行<rt>い</rt></ruby>きます。<br><br>（　）になにがはいりますか。",
         "options": [
           "した",
           "する",
@@ -16469,7 +16469,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q48",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "この 料理は （　　） おいしくないです。<br><br>（　）になにがはいりますか。",
+        "text": "この <ruby>料理<rt>りょうり</rt></ruby>は （　　） おいしくないです。<br><br>（　）になにがはいりますか。",
         "options": [
           "とても",
           "すこし",
@@ -16482,7 +16482,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q49",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "これ（　　） わたしの 鞄です。<br><br>（　）になにがはいりますか。",
+        "text": "これ（　　） わたしの <ruby>鞄<rt>かばん</rt></ruby>です。<br><br>（　）になにがはいりますか。",
         "options": [
           "は",
           "を",
@@ -16495,7 +16495,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q50",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "昨日 （　　） <ruby>映画<rt>えいが</rt></ruby>は おもしろかったです。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>昨日<rt>きのう</rt></ruby> （　　） <ruby>映画<rt>えいが</rt></ruby>は おもしろかったです。<br><br>（　）になにがはいりますか。",
         "options": [
           "みて",
           "みた",
@@ -16508,7 +16508,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q51",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "コーヒー（　　） 紅茶、どちらが いいですか。<br><br>（　）になにがはいりますか。",
+        "text": "コーヒー（　　） <ruby>紅<ruby>茶<rt>ちゃ</rt></ruby><rt>こうちゃ</rt></ruby>、どちらが いいですか。<br><br>（　）になにがはいりますか。",
         "options": [
           "と",
           "を",
@@ -16521,7 +16521,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q52",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "<ruby>今日<rt>きょう</rt></ruby>は （　　） 寒いですね。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>今日<rt>きょう</rt></ruby>は （　　） <ruby>寒い<rt>さむい</rt></ruby>ですね。<br><br>（　）になにがはいりますか。",
         "options": [
           "あまり",
           "すこし",
@@ -16534,7 +16534,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q53",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あの 建物は （　　）ですか。<br><br>（　）になにがはいりますか。",
+        "text": "あの <ruby><ruby>建<rt>た</rt></ruby><ruby>物<rt>もの</rt></ruby><rt>たてもの</rt></ruby>は （　　）ですか。<br><br>（　）になにがはいりますか。",
         "options": [
           "なん",
           "どこ",
@@ -16547,7 +16547,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q54",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "机の<ruby>上<rt>うえ</rt></ruby>に 辞書（　　） あります。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>机<rt>つくえ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に <ruby>辞<ruby>書<rt>か</rt></ruby><rt>じしょ</rt></ruby>（　　） あります。<br><br>（　）になにがはいりますか。",
         "options": [
           "を",
           "が",
@@ -16560,7 +16560,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q55",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "ここ（　　） 名<ruby>前<rt>まえ</rt></ruby>を 書いてください。<br><br>（　）になにがはいりますか。",
+        "text": "ここ（　　） <ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>を <ruby>書<rt>か</rt></ruby>いてください。<br><br>（　）になにがはいりますか。",
         "options": [
           "を",
           "で",
@@ -16573,7 +16573,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q56",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "わたしは 毎<ruby>朝<rt>あさ</rt></ruby> 六時に 牛乳を 一回 飲みます。<br><br>★に入るものはどれですか。",
+        "text": "わたしは <ruby>毎<ruby>朝<rt>あさ</rt></ruby><rt>まいあさ</rt></ruby> <ruby>六<rt>ろく</rt></ruby><ruby>時<rt>とき</rt></ruby>に <ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>を <ruby><ruby>一<rt>いち</rt></ruby><ruby>回<rt>かい</rt></ruby><rt>いっかい</rt></ruby> <ruby>飲<rt>の</rt></ruby>みます。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "毎朝",
           "六時に",
@@ -16586,7 +16586,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q57",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "あそこに <ruby>白<rt>しろ</rt></ruby>い 帽<ruby>子<rt>こ</rt></ruby>を かぶった <ruby>人<rt>ひと</rt></ruby>が います。<br><br>★に入るものはどれですか。",
+        "text": "あそこに <ruby>白<rt>しろ</rt></ruby>い <ruby>帽<ruby>子<rt>こ</rt></ruby><rt>ぼうし</rt></ruby>を かぶった <ruby>人<rt>ひと</rt></ruby>が います。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "白い",
           "帽子を",
@@ -16599,7 +16599,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q58",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "そこに ゆっくり 椅<ruby>子<rt>こ</rt></ruby>に 座って かけて ください。<br><br>★に入るものはどれですか。",
+        "text": "そこに ゆっくり <ruby>椅<ruby>子<rt>こ</rt></ruby><rt>いす</rt></ruby>に <ruby>座<rt>すわ</rt></ruby>って かけて ください。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "そこに",
           "座って",
@@ -16612,7 +16612,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q59",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "公園の <ruby>中<rt>なか</rt></ruby>に <ruby>子供<rt>こども</rt></ruby>が 五<ruby>人<rt>ひと</rt></ruby> 遊んで います。<br><br>★に入るものはどれですか。",
+        "text": "<ruby>公<ruby>園<rt>えん</rt></ruby><rt>こうえん</rt></ruby>の <ruby>中<rt>なか</rt></ruby>に <ruby>子供<rt>こども</rt></ruby>が <ruby><ruby>五<rt>ご</rt></ruby><ruby>人<rt>ひと</rt></ruby><rt>ごにん</rt></ruby> <ruby>遊<rt>あそ</rt></ruby>んで います。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "中に",
           "子供が",
@@ -16625,7 +16625,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q60",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "ここに ボールペンで 名<ruby>前<rt>まえ</rt></ruby>を 書いて ください。<br><br>★に入るものはどれですか。",
+        "text": "ここに ボールペンで <ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>を <ruby>書<rt>か</rt></ruby>いて ください。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "ここに",
           "名前を",
@@ -16664,7 +16664,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q63",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（メール）<ruby>海<rt>うみ</rt></ruby>で たくさん （ 3 ） 泳ぎます。<br><br>（ 3 ）になにがはいりますか。",
+        "text": "（メール）<ruby>海<rt>うみ</rt></ruby>で たくさん （ 3 ） <ruby>泳<rt>およ</rt></ruby>ぎます。<br><br>（ 3 ）になにがはいりますか。",
         "options": [
           "魚と",
           "水を",
@@ -16677,7 +16677,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q64",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（メール）ジョンさんも （ 4 ） 行きませんか。<br><br>（ 4 ）になにがはいりますか。",
+        "text": "（メール）ジョンさんも （ 4 ） <ruby>行<rt>い</rt></ruby>きませんか。<br><br>（ 4 ）になにがはいりますか。",
         "options": [
           "ひとりで",
           "どこかへ",
@@ -16690,7 +16690,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q65",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（メール）（ 5 ） お返事を ください。<br><br>（ 5 ）になにがはいりますか。",
+        "text": "（メール）（ 5 ） お<ruby><ruby>返<rt>かえ</rt></ruby><ruby>事<rt>こと</rt></ruby><rt>へんじ</rt></ruby>を ください。<br><br>（ 5 ）になにがはいりますか。",
         "options": [
           "ぜひ",
           "たぶん",
@@ -16703,7 +16703,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q66",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）田<ruby>中<rt>なか</rt></ruby>さんは <ruby>毎日<rt>まいにち</rt></ruby> 七時に おきます。パンを 食べてから 仕事に 行きます。<br><br>田<ruby>中<rt>なか</rt></ruby>さんは <ruby>朝<rt>あさ</rt></ruby> 何を しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>七<rt>なな</rt></ruby><ruby>時<rt>とき</rt></ruby>に おきます。パンを <ruby>食<rt>た</rt></ruby>べてから <ruby><ruby>仕<rt>し</rt></ruby><ruby>事<rt>こと</rt></ruby><rt>しごと</rt></ruby>に <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんは <ruby>朝<rt>あさ</rt></ruby> <ruby>何<rt>なに</rt></ruby>を しますか。",
         "options": [
           "コーヒーを飲む",
           "パンを食べる",
@@ -16716,7 +16716,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q67",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）わたしの 家は <ruby>駅<rt>えき</rt></ruby>から 十五分くらいです。とても 便利です。<br><br>家は どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）わたしの <ruby>家<rt>いえ</rt></ruby>は <ruby>駅<rt>えき</rt></ruby>から <ruby>十<rt>じゅう</rt></ruby><ruby>五<rt>ご</rt></ruby><ruby>分<rt>ふん</rt></ruby>くらいです。とても <ruby>便利<rt>べんり</rt></ruby>です。<br><br><ruby>家<rt>いえ</rt></ruby>は どうですか。",
         "options": [
           "遠くて不便",
           "少し遠い",
@@ -16729,7 +16729,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q68",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）昨日は 休みでした。どこへも 行きませんでした。家で <ruby>本<rt>ほん</rt></ruby>を 読みました。<br><br>昨日は 何を しましたか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>昨日<rt>きのう</rt></ruby>は <ruby>休<rt>やす</rt></ruby>みでした。どこへも <ruby>行<rt>い</rt></ruby>きませんでした。<ruby>家<rt>いえ</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みました。<br><br><ruby>昨日<rt>きのう</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を しましたか。",
         "options": [
           "買い物に行った",
           "公園に行った",
@@ -16742,7 +16742,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q69",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）この 料理は 少し 辛いですが、とても おいしいです。<br><br>この 料理は どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）この <ruby>料理<rt>りょうり</rt></ruby>は <ruby>少<rt>すく</rt></ruby>し <ruby>辛い<rt>からい</rt></ruby>ですが、とても おいしいです。<br><br>この <ruby>料理<rt>りょうり</rt></ruby>は どうですか。",
         "options": [
           "辛いがおいしい",
           "甘い",
@@ -16755,7 +16755,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q70",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）明日は <ruby>月曜日<rt>げつようび</rt></ruby>です。テストが ありますから、<ruby>今日<rt>きょう</rt></ruby>は 勉強します。<br><br>いつ 勉強しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby><ruby>明<rt>あか</rt></ruby>日<rt>あした</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>です。テストが ありますから、<ruby>今日<rt>きょう</rt></ruby>は <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>します。<br><br>いつ <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>しますか。",
         "options": [
           "明日",
           "今日",
@@ -16768,7 +16768,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q71",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）この ズボンは 少し 短いです。もっと 長いのは ありませんか。<br><br>この ズボンは どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）この ズボンは <ruby>少<rt>すく</rt></ruby>し 短いです。もっと <ruby>長<rt>なが</rt></ruby>いのは ありませんか。<br><br>この ズボンは どうですか。",
         "options": [
           "長い",
           "太い",
@@ -16781,7 +16781,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q72",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）木村さんは ギターが 好きです。<ruby>毎日<rt>まいにち</rt></ruby> 練習します。<br><br>木村さんは 何を 練習しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>木村<rt>きむら</rt></ruby>さんは ギターが <ruby>好き<rt>すき</rt></ruby>です。<ruby>毎日<rt>まいにち</rt></ruby> <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>します。<br><br><ruby>木村<rt>きむら</rt></ruby>さんは <ruby>何<rt>なに</rt></ruby>を <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>しますか。",
         "options": [
           "ピアノ",
           "歌",
@@ -16794,7 +16794,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q73",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "<ruby>日本<rt>にほん</rt></ruby>のお菓<ruby>子<rt>こ</rt></ruby>は 形が とても きれいです。わたしは 昨日 デパートで お菓<ruby>子<rt>こ</rt></ruby>を 買いました。<ruby>一つ<rt>ひとつ</rt></ruby>は 魚の 形で、もう<ruby>一つ<rt>ひとつ</rt></ruby>は <ruby>花<rt>はな</rt></ruby>の 形でした。食べるのが もったいなかったですが、食べました。甘くて とても おいしかったです。また 買いたいです。<br><br>この<ruby>人<rt>ひと</rt></ruby>は 昨日 何を しましたか。",
+        "text": "<ruby>日本<rt>にほん</rt></ruby>の<ruby>お<ruby>菓<ruby>子<rt>こ</rt></ruby><rt>かし</rt></ruby><rt>おかし</rt></ruby>は <ruby>形<rt>かたち</rt></ruby>が とても きれいです。わたしは <ruby>昨日<rt>きのう</rt></ruby> デパートで <ruby>お<ruby>菓<ruby>子<rt>こ</rt></ruby><rt>かし</rt></ruby><rt>おかし</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。<ruby><ruby>一<rt>いち</rt></ruby>つ<rt>ひとつ</rt></ruby>は <ruby>魚<rt>さかな</rt></ruby>の <ruby>形<rt>かたち</rt></ruby>で、もう<ruby><ruby>一<rt>いち</rt></ruby>つ<rt>ひとつ</rt></ruby>は <ruby>花<rt>はな</rt></ruby>の <ruby>形<rt>かたち</rt></ruby>でした。<ruby>食<rt>た</rt></ruby>べるのが もったいなかったですが、<ruby>食<rt>た</rt></ruby>べました。甘くて とても おいしかったです。また <ruby>買<rt>か</rt></ruby>いたいです。<br><br>この<ruby>人<rt>ひと</rt></ruby>は <ruby>昨日<rt>きのう</rt></ruby> <ruby>何<rt>なに</rt></ruby>を しましたか。",
         "options": [
           "お菓子を作った",
           "デパートでお菓子を買った",
@@ -16807,7 +16807,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q74",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）わたしは <ruby>日本<rt>にほん</rt></ruby>に 来て 一年に なります。<ruby><ruby>日本<rt>にほん</rt></ruby>語<rt>にほんご</rt></ruby><ruby>学校<rt>がっこう</rt></ruby>で べんきょうしています。<br><br><ruby>日本<rt>にほん</rt></ruby>に 来て どのくらいですか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）わたしは <ruby>日本<rt>にほん</rt></ruby>に <ruby>来<rt>く</rt></ruby>て <ruby>一<rt>いち</rt></ruby><ruby>年<rt>ねん</rt></ruby>に なります。<ruby><ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby><rt>にほんご</rt></ruby><ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>で べんきょうしています。<br><br><ruby>日本<rt>にほん</rt></ruby>に <ruby>来<rt>く</rt></ruby>て どのくらいですか。",
         "options": [
           "半年",
           "三年",
@@ -16820,7 +16820,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q75",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）<ruby>学校<rt>がっこう</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>から <ruby>金曜日<rt>きんようび</rt></ruby>まで あります。<br><br><ruby>学校<rt>がっこう</rt></ruby>は いつ ありますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>から <ruby>金曜日<rt>きんようび</rt></ruby>まで あります。<br><br><ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>は いつ ありますか。",
         "options": [
           "毎日",
           "週末",
@@ -16833,7 +16833,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q76",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "昨日は <ruby>一日<rt>ついたち</rt></ruby><ruby>中<rt>なか</rt></ruby> <ruby>雨<rt>あめ</rt></ruby>が 降っていました。どこへも 行きませんでしたから、家で 掃除を しました。それから 好きな 音楽を 聞きながら <ruby>本<rt>ほん</rt></ruby>を 読みました。<ruby>夜<rt>よる</rt></ruby>は 少し 勉強を しました。静かな <ruby>一日<rt>ついたち</rt></ruby>でした。<br><br>昨日は 何を しましたか。",
+        "text": "<ruby>昨日<rt>きのう</rt></ruby>は <ruby><ruby>一<rt>いち</rt></ruby>日<rt>ついたち</rt></ruby><ruby>中<rt>なか</rt></ruby> <ruby>雨<rt>あめ</rt></ruby>が 降っていました。どこへも <ruby>行<rt>い</rt></ruby>きませんでしたから、<ruby>家<rt>いえ</rt></ruby>で <ruby>掃除<rt>そうじ</rt></ruby>を しました。それから <ruby>好き<rt>すき</rt></ruby>な <ruby><ruby>音<rt>おと</rt></ruby>楽<rt>おんがく</rt></ruby>を <ruby>聞<rt>き</rt></ruby>きながら <ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みました。<ruby>夜<rt>よる</rt></ruby>は <ruby>少<rt>すく</rt></ruby>し <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>を しました。<ruby>静か<rt>しずか</rt></ruby>な <ruby><ruby>一<rt>いち</rt></ruby>日<rt>ついたち</rt></ruby>でした。<br><br><ruby>昨日<rt>きのう</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を しましたか。",
         "options": [
           "買い物に行った",
           "友達と遊んだ",
@@ -16846,7 +16846,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q77",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）わたしの しゅみは サッカーです。週に 二回 練習します。<br><br>しゅみは 何ですか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）わたしの しゅみは サッカーです。<ruby>週<rt>しゅう</rt></ruby>に <ruby><ruby>二<rt>に</rt></ruby><ruby>回<rt>かい</rt></ruby><rt>にかい</rt></ruby> <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>します。<br><br>しゅみは <ruby>何<rt>なに</rt></ruby>ですか。",
         "options": [
           "サッカー",
           "テニス",
@@ -16859,7 +16859,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q78",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）週末は <ruby>友<rt>とも</rt></ruby>だちと サッカーを します。とても たのしいです。<br><br>だれと サッカーを しますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby><rt>しゅうまつ</rt></ruby>は <ruby>友<rt>とも</rt></ruby>だちと サッカーを します。とても たのしいです。<br><br>だれと サッカーを しますか。",
         "options": [
           "一人で",
           "友だち",
@@ -16872,7 +16872,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q79",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）<ruby>来月<rt>らいげつ</rt></ruby> サッカーの 大会が あります。たくさん 練習します。<br><br><ruby>来月<rt>らいげつ</rt></ruby> 何が ありますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>来<rt>く</rt></ruby>月<rt>らいげつ</rt></ruby> サッカーの <ruby>大<rt>おお</rt></ruby>会が あります。たくさん <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>します。<br><br><ruby><ruby>来<rt>く</rt></ruby>月<rt>らいげつ</rt></ruby> <ruby>何<rt>なに</rt></ruby>が ありますか。",
         "options": [
           "りょこう",
           "しけん",
@@ -16885,7 +16885,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q80",
         "section": "言語知識（文法）・読解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【バス】<ruby>毎日<rt>まいにち</rt></ruby> 運行　にちようび：特別ダイヤ<br><br><ruby>日曜日<rt>にちようび</rt></ruby>は 休みですか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【バス】<ruby>毎日<rt>まいにち</rt></ruby> <ruby>運<rt>うん</rt></ruby><ruby>行<rt>い</rt></ruby>　にちようび：<ruby>特別<rt>とくべつ</rt></ruby>ダイヤ<br><br><ruby>日曜日<rt>にちようび</rt></ruby>は <ruby>休<rt>やす</rt></ruby>みですか。",
         "options": [
           "はい",
           "午前だけ",
@@ -16898,7 +16898,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q81",
         "section": "聴解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【バス】一時間に 2<ruby>本<rt>ほん</rt></ruby><br><br>一時間に 何<ruby>本<rt>ほん</rt></ruby> ありますか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【バス】<ruby><ruby>一<rt>いち</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby><rt>いちじかん</rt></ruby>に 2<ruby>本<rt>ほん</rt></ruby><br><br><ruby><ruby>一<rt>いち</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby><rt>いちじかん</rt></ruby>に <ruby>何<rt>なに</rt></ruby><ruby>本<rt>ほん</rt></ruby> ありますか。",
         "options": [
           "二本",
           "一本",
@@ -16911,7 +16911,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q82",
         "section": "聴解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【バス】最終：22時<br><br>最終バスは 何時ですか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【バス】最終：22<ruby>時<rt>とき</rt></ruby><br><br>最終バスは <ruby>何<rt>なに</rt></ruby><ruby>時<rt>とき</rt></ruby>ですか。",
         "options": [
           "八時",
           "九時",
@@ -16924,7 +16924,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q83",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：くだものを 買いに 行きます。何が いいですか。<br><ruby>男<rt>おとこ</rt></ruby>：りんごを おねがいします。<br><br>何を 買いますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：くだものを <ruby>買<rt>か</rt></ruby>いに <ruby>行<rt>い</rt></ruby>きます。<ruby>何<rt>なに</rt></ruby>が いいですか。<br><ruby>男<rt>おとこ</rt></ruby>：りんごを おねがいします。<br><br><ruby>何<rt>なに</rt></ruby>を <ruby>買<rt>か</rt></ruby>いますか。",
         "options": [
           "りんご",
           "みかん",
@@ -16949,7 +16949,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q84",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：いつ 会いましょうか。<br><ruby>女<rt>おんな</rt></ruby>：十<ruby>一日<rt>ついたち</rt></ruby>は どうですか。<br><ruby>男<rt>おとこ</rt></ruby>：いいですよ。<br><br>いつ 会いますか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：いつ 会いましょうか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>十<rt>じゅう</rt></ruby><ruby><ruby>一<rt>いち</rt></ruby>日<rt>ついたち</rt></ruby>は どうですか。<br><ruby>男<rt>おとこ</rt></ruby>：いいですよ。<br><br>いつ 会いますか。",
         "options": [
           "十日",
           "十一日",
@@ -16962,7 +16962,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q85",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：どこで 会いますか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>学校<rt>がっこう</rt></ruby>の <ruby>前<rt>まえ</rt></ruby>は どうですか。<br><ruby>女<rt>おんな</rt></ruby>：わかりました。<br><br>どこで 会いますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：どこで 会いますか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>の <ruby>前<rt>まえ</rt></ruby>は どうですか。<br><ruby>女<rt>おんな</rt></ruby>：わかりました。<br><br>どこで 会いますか。",
         "options": [
           "駅",
           "公園",
@@ -16987,7 +16987,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q86",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：誰と 行きますか。<br><ruby>女<rt>おんな</rt></ruby>：佐藤さんと 行きます。<br><br>誰と 行きますか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>誰<rt>だれ</rt></ruby>と <ruby>行<rt>い</rt></ruby>きますか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>佐藤<rt>さとう</rt></ruby>さんと <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>誰<rt>だれ</rt></ruby>と <ruby>行<rt>い</rt></ruby>きますか。",
         "options": [
           "先生",
           "田中さん",
@@ -17000,7 +17000,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q87",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：何で 行きますか。<br><ruby>男<rt>おとこ</rt></ruby>：バスで 行きます。<br><br>何で 行きますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>何<rt>なに</rt></ruby>で <ruby>行<rt>い</rt></ruby>きますか。<br><ruby>男<rt>おとこ</rt></ruby>：バスで <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>何<rt>なに</rt></ruby>で <ruby>行<rt>い</rt></ruby>きますか。",
         "options": [
           "バス",
           "電車",
@@ -17013,7 +17013,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q88",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>映画<rt>えいが</rt></ruby>は 何時間ですか。<br><ruby>女<rt>おんな</rt></ruby>：二時間です。<br><br>何時間ですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>映画<rt>えいが</rt></ruby>は <ruby>何<rt>なに</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>ですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>二<rt>に</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>ですか。",
         "options": [
           "一時間",
           "二時間",
@@ -17026,7 +17026,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q89",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：どうして 行きませんでしたか。<br><ruby>男<rt>おとこ</rt></ruby>：遠かったからです。<br><br>どうして 行きませんでしたか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：どうして <ruby>行<rt>い</rt></ruby>きませんでしたか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>遠<rt>とお</rt></ruby>かったからです。<br><br>どうして <ruby>行<rt>い</rt></ruby>きませんでしたか。",
         "options": [
           "忙しいから",
           "寒いから",
@@ -17039,7 +17039,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q90",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：鍵は どこに ありましたか。<br><ruby>女<rt>おんな</rt></ruby>：棚の <ruby>上<rt>うえ</rt></ruby>に ありました。<br><br>どこに ありましたか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>鍵<rt>かぎ</rt></ruby>は どこに ありましたか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>棚<rt>たな</rt></ruby>の <ruby>上<rt>うえ</rt></ruby>に ありました。<br><br>どこに ありましたか。",
         "options": [
           "箱の中",
           "机の上",
@@ -17052,7 +17052,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q91",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：何色が 好きですか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>赤<rt>あか</rt></ruby>が 好きです。<br><br>何色が 好きですか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>何<rt>なに</rt></ruby><ruby>色<rt>いろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>ですか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>赤<rt>あか</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby>色<rt>いろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>ですか。",
         "options": [
           "赤",
           "青",
@@ -17065,7 +17065,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q92",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：何番の バスですか。<br><ruby>女<rt>おんな</rt></ruby>：二番です。<br><br>何番ですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>何<rt>なに</rt></ruby><ruby>番<rt>ばん</rt></ruby>の バスですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby><ruby>二<rt>に</rt></ruby><ruby>番<rt>ばん</rt></ruby><rt>にばん</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby>番<rt>ばん</rt></ruby>ですか。",
         "options": [
           "一番",
           "二番",
@@ -17078,7 +17078,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q93",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：誰が 来ましたか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>父<rt>ちち</rt></ruby>が 来ました。<br><br>誰が 来ましたか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>誰<rt>だれ</rt></ruby>が <ruby>来<rt>く</rt></ruby>ましたか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>父<rt>ちち</rt></ruby>が <ruby>来<rt>く</rt></ruby>ました。<br><br><ruby>誰<rt>だれ</rt></ruby>が <ruby>来<rt>く</rt></ruby>ましたか。",
         "options": [
           "兄",
           "姉",
@@ -17091,7 +17091,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q94",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：どこへ 行きたいですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>北<rt>きた</rt></ruby><ruby>海<rt>うみ</rt></ruby><ruby>道<rt>みち</rt></ruby>へ 行きたいです。<br><br>どこへ 行きたいですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：どこへ <ruby>行<rt>い</rt></ruby>きたいですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>北<rt>きた</rt></ruby><ruby>海<rt>うみ</rt></ruby><ruby>道<rt>みち</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きたいです。<br><br>どこへ <ruby>行<rt>い</rt></ruby>きたいですか。",
         "options": [
           "東京",
           "大阪",
@@ -17104,7 +17104,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q95",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "お名<ruby>前<rt>まえ</rt></ruby>は？<br><br>なんと こたえますか。",
+        "text": "お<ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>は？<br><br>なんと こたえますか。",
         "options": [
           "田中です",
           "銀行員です",
@@ -17130,7 +17130,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q97",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "また <ruby>来週<rt>らいしゅう</rt></ruby>。<br><br>なんと こたえますか。",
+        "text": "また <ruby><ruby>来<rt>く</rt></ruby><ruby>週<rt>しゅう</rt></ruby><rt>らいしゅう</rt></ruby>。<br><br>なんと こたえますか。",
         "options": [
           "おはよう",
           "おやすみなさい",
@@ -17143,7 +17143,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M13_Q98",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "失礼します。<br><br>なんと こたえますか。",
+        "text": "<ruby>失礼<rt>しつれい</rt></ruby>します。<br><br>なんと こたえますか。",
         "options": [
           "すみません",
           "ありがとう",
@@ -17184,7 +17184,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M14_Q1",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>父</u>と <u>母</u>は <u>今</u> <u>家</u>に います。<br><br>「家」のよみかたは？",
+        "text": "<u>父</u>と <u>母</u>は <u>今</u> <u>家</u>に います。<br><br>「<ruby>家<rt>いえ</rt></ruby>」のよみかたは？",
         "options": [
           "えき",
           "いえ",
@@ -17197,7 +17197,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M14_Q2",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>百</u>円の <u>ペン</u>を <u>二本</u> <u>買</u>いました。<br><br>「百」のよみかたは？",
+        "text": "<u>百</u><ruby>円<rt>えん</rt></ruby>の <u>ペン</u>を <u>二本</u> <u>買</u>いました。<br><br>「百」のよみかたは？",
         "options": [
           "せん",
           "まん",
@@ -17236,7 +17236,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M14_Q5",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>時間</u>が <u>少</u>ないです。<br><br>「少」ないのよみかたは？",
+        "text": "<u>時間</u>が <u>少</u>ないです。<br><br>「<ruby>少<rt>すく</rt></ruby>」ないのよみかたは？",
         "options": [
           "おお",
           "すくな",
@@ -17249,7 +17249,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M14_Q6",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>何</u>を <u>書</u>いていますか。<br><br>「書」いていますのよみかたは？",
+        "text": "<u>何</u>を <u>書</u>いていますか。<br><br>「<ruby>書<rt>か</rt></ruby>」いていますのよみかたは？",
         "options": [
           "き",
           "よ",
@@ -17262,7 +17262,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M14_Q7",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>一万</u>円の <u>時計</u>を <u>持</u>っています。<br><br>「持」っていますのよみかたは？",
+        "text": "<u>一万</u><ruby>円<rt>えん</rt></ruby>の <u>時計</u>を <u>持</u>っています。<br><br>「<ruby>持<rt>も</rt></ruby>」っていますのよみかたは？",
         "options": [
           "ま",
           "あ",
@@ -17301,7 +17301,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M14_Q10",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>自分</u>で <u>作</u>りました。<br><br>「作」りましたのよみかたは？",
+        "text": "<u>自分</u>で <u>作</u>りました。<br><br>「<ruby>作<rt>つく</rt></ruby>」りましたのよみかたは？",
         "options": [
           "つか",
           "か",
@@ -17327,7 +17327,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M14_Q12",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>先生</u>と <u>話</u>しました。<br><br>「話」しましたのよみかたは？",
+        "text": "<u>先生</u>と <u>話</u>しました。<br><br>「<ruby>話<rt>はな</rt></ruby>」しましたのよみかたは？",
         "options": [
           "はな",
           "よ",
@@ -17899,7 +17899,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M14_Q56",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "わたしは まいあさ ろくじに しゃわーを あびてから おきます。<br><br>★に入るものはどれですか。",
+        "text": "わたしは まいあさ ろくじに しゃわーを あびてから おきます。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "まいあさ",
           "ろくじに",
@@ -17912,7 +17912,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M14_Q57",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "きのうは としょかんで さんじかん ほんを よみました。<br><br>★に入るものはどれですか。",
+        "text": "きのうは としょかんで さんじかん ほんを よみました。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "きのうは",
           "としょかんで",
@@ -17925,7 +17925,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M14_Q58",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "にほんへ きてから もう さんかげつに なりました。<br><br>★に入るものはどれですか。",
+        "text": "にほんへ きてから もう さんかげつに なりました。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "にほんへ",
           "きてから",
@@ -17938,7 +17938,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M14_Q59",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "あの あかい せーたーを きている ひとは たなかさんです。<br><br>★に入るものはどれですか。",
+        "text": "あの あかい せーたーを きている ひとは たなかさんです。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "あかい",
           "せーたーを",
@@ -17951,7 +17951,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M14_Q60",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "れいぞうこに つめたい みずが さんぼん はいって あります。<br><br>★に入るものはどれですか。",
+        "text": "れいぞうこに つめたい みずが さんぼん はいって あります。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "つめたい",
           "みずが",
@@ -18211,7 +18211,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M14_Q80",
         "section": "言語知識（文法）・読解",
         "type": "読解（情報検索）",
-        "text": "（じょうほうけんさく）【じどうかん】にちようび：やすみ　げつ〜ど：9時〜17時<br><br><ruby>日曜日<rt>にちようび</rt></ruby>は 休みですか。",
+        "text": "（じょうほうけんさく）【じどうかん】にちようび：やすみ　げつ〜ど：9<ruby>時<rt>とき</rt></ruby>〜17<ruby>時<rt>とき</rt></ruby><br><br><ruby>日曜日<rt>にちようび</rt></ruby>は <ruby>休<rt>やす</rt></ruby>みですか。",
         "options": [
           "いいえ",
           "はい",
@@ -18224,7 +18224,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M14_Q81",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと おんなのひとが はなしています。おんなのひとは これから なにを しますか。<br><ruby>男<rt>おとこ</rt></ruby>：あ、もう こんな 時間ですね。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>本<rt>ほん</rt></ruby>当ですね。掃除を しなくちゃ。<br><ruby>男<rt>おとこ</rt></ruby>：わたしが 部屋を 掃除しますから、あなたは お皿を 洗ってください。<br><ruby>女<rt>おんな</rt></ruby>：わかりました。<br><br>おんなのひとは これから なにを しますか。",
+        "text": "おとこのひとと おんなのひとが はなしています。おんなのひとは これから なにを しますか。<br><ruby>男<rt>おとこ</rt></ruby>：あ、もう こんな <ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>ですね。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>本<rt>ほん</rt></ruby><ruby>当<rt>とう</rt></ruby>ですね。<ruby>掃除<rt>そうじ</rt></ruby>を しなくちゃ。<br><ruby>男<rt>おとこ</rt></ruby>：わたしが <ruby>部屋<rt>へや</rt></ruby>を <ruby>掃除<rt>そうじ</rt></ruby>しますから、あなたは お<ruby>皿<rt>さら</rt></ruby>を <ruby>洗<rt>あら</rt></ruby>ってください。<br><ruby>女<rt>おんな</rt></ruby>：わかりました。<br><br>おんなのひとは これから なにを しますか。",
         "options": [
           "掃除をする",
           "料理を作る",
@@ -18237,7 +18237,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M14_Q82",
         "section": "聴解",
         "type": "読解（情報検索）",
-        "text": "（じょうほうけんさく）【じどうかん】ちゅうがくせい：200円<br><br><ruby>中<rt>なか</rt></ruby><ruby>学生<rt>がくせい</rt></ruby>は いくらですか。",
+        "text": "（じょうほうけんさく）【じどうかん】ちゅうがくせい：200<ruby>円<rt>えん</rt></ruby><br><br><ruby>中<rt>なか</rt></ruby><ruby><ruby>学<rt>がく</rt></ruby><ruby>生<rt>せい</rt></ruby><rt>がくせい</rt></ruby>は いくらですか。",
         "options": [
           "二百円",
           "百円",
@@ -18250,7 +18250,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M14_Q83",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：くだものを 買いに 行きます。何が いいですか。<br><ruby>男<rt>おとこ</rt></ruby>：みかんを おねがいします。<br><br>何を 買いますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：くだものを <ruby>買<rt>か</rt></ruby>いに <ruby>行<rt>い</rt></ruby>きます。<ruby>何<rt>なに</rt></ruby>が いいですか。<br><ruby>男<rt>おとこ</rt></ruby>：みかんを おねがいします。<br><br><ruby>何<rt>なに</rt></ruby>を <ruby>買<rt>か</rt></ruby>いますか。",
         "options": [
           "りんご",
           "みかん",
@@ -18275,7 +18275,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M14_Q84",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：いつ 会いましょうか。<br><ruby>女<rt>おんな</rt></ruby>：十<ruby>二日<rt>ふつか</rt></ruby>は どうですか。<br><ruby>男<rt>おとこ</rt></ruby>：いいですよ。<br><br>いつ 会いますか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：いつ 会いましょうか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>十<rt>じゅう</rt></ruby><ruby><ruby>二<rt>に</rt></ruby>日<rt>ふつか</rt></ruby>は どうですか。<br><ruby>男<rt>おとこ</rt></ruby>：いいですよ。<br><br>いつ 会いますか。",
         "options": [
           "十日",
           "十一日",
@@ -18313,7 +18313,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M14_Q86",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：誰と 行きますか。<br><ruby>女<rt>おんな</rt></ruby>：先生と 行きます。<br><br>誰と 行きますか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>誰<rt>だれ</rt></ruby>と <ruby>行<rt>い</rt></ruby>きますか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>先<ruby>生<rt>せい</rt></ruby><rt>せんせい</rt></ruby>と <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>誰<rt>だれ</rt></ruby>と <ruby>行<rt>い</rt></ruby>きますか。",
         "options": [
           "先生",
           "田中さん",
@@ -18326,7 +18326,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M14_Q87",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとと おんなのひとが はなしています。おとこのひとは なにが いちばん すきですか。<br><ruby>女<rt>おんな</rt></ruby>：田<ruby>中<rt>なか</rt></ruby>さんは 果物が 好きですか。<br><ruby>男<rt>おとこ</rt></ruby>：はい、大好きです。リンゴも バナナも よく 食べますよ。<br><ruby>女<rt>おんな</rt></ruby>：ミカンは？<br><ruby>男<rt>おとこ</rt></ruby>：ミカンも 好きですが、リンゴが 一番 好きです。<br><br>おとこのひとは なにが いちばん すきですか。",
+        "text": "おとこのひとと おんなのひとが はなしています。おとこのひとは なにが いちばん すきですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんは <ruby>果<ruby>物<rt>もの</rt></ruby><rt>くだもの</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>ですか。<br><ruby>男<rt>おとこ</rt></ruby>：はい、<ruby><ruby>大<rt>おお</rt></ruby><ruby>好き<rt>すき</rt></ruby><rt>だいすき</rt></ruby>です。リンゴも バナナも よく <ruby>食<rt>た</rt></ruby>べますよ。<br><ruby>女<rt>おんな</rt></ruby>：ミカンは？<br><ruby>男<rt>おとこ</rt></ruby>：ミカンも <ruby>好き<rt>すき</rt></ruby>ですが、リンゴが <ruby><ruby>一<rt>いち</rt></ruby><ruby>番<rt>ばん</rt></ruby><rt>いちばん</rt></ruby> <ruby>好き<rt>すき</rt></ruby>です。<br><br>おとこのひとは なにが いちばん すきですか。",
         "options": [
           "ミカン",
           "バナナ",
@@ -18351,7 +18351,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M14_Q88",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>映画<rt>えいが</rt></ruby>は 何時間ですか。<br><ruby>女<rt>おんな</rt></ruby>：四時間です。<br><br>何時間ですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>映画<rt>えいが</rt></ruby>は <ruby>何<rt>なに</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>ですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>四<rt>よん</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>ですか。",
         "options": [
           "二時間",
           "三時間",
@@ -18364,7 +18364,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M14_Q89",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：どうして 行きませんでしたか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>雨<rt>あめ</rt></ruby>だったからです。<br><br>どうして 行きませんでしたか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：どうして <ruby>行<rt>い</rt></ruby>きませんでしたか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>雨<rt>あめ</rt></ruby>だったからです。<br><br>どうして <ruby>行<rt>い</rt></ruby>きませんでしたか。",
         "options": [
           "忙しいから",
           "寒いから",
@@ -18377,7 +18377,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M14_Q90",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：鍵は どこに ありましたか。<br><ruby>女<rt>おんな</rt></ruby>：箱の <ruby>中<rt>なか</rt></ruby>に ありました。<br><br>どこに ありましたか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>鍵<rt>かぎ</rt></ruby>は どこに ありましたか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>箱<rt>はこ</rt></ruby>の <ruby>中<rt>なか</rt></ruby>に ありました。<br><br>どこに ありましたか。",
         "options": [
           "箱の中",
           "机の上",
@@ -18390,7 +18390,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M14_Q91",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：何色が 好きですか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>青<rt>あお</rt></ruby>が 好きです。<br><br>何色が 好きですか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>何<rt>なに</rt></ruby><ruby>色<rt>いろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>ですか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>青<rt>あお</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby>色<rt>いろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>ですか。",
         "options": [
           "赤",
           "青",
@@ -18403,7 +18403,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M14_Q92",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：何番の バスですか。<br><ruby>女<rt>おんな</rt></ruby>：三番です。<br><br>何番ですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>何<rt>なに</rt></ruby><ruby>番<rt>ばん</rt></ruby>の バスですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby><ruby>三<rt>さん</rt></ruby><ruby>番<rt>ばん</rt></ruby><rt>さんばん</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby>番<rt>ばん</rt></ruby>ですか。",
         "options": [
           "一番",
           "二番",
@@ -18416,7 +18416,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M14_Q93",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：誰が 来ましたか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>母<rt>はは</rt></ruby>が 来ました。<br><br>誰が 来ましたか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>誰<rt>だれ</rt></ruby>が <ruby>来<rt>く</rt></ruby>ましたか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>母<rt>はは</rt></ruby>が <ruby>来<rt>く</rt></ruby>ました。<br><br><ruby>誰<rt>だれ</rt></ruby>が <ruby>来<rt>く</rt></ruby>ましたか。",
         "options": [
           "兄",
           "姉",
@@ -18429,7 +18429,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M14_Q94",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：どこへ 行きたいですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>東<rt>ひがし</rt></ruby>京へ 行きたいです。<br><br>どこへ 行きたいですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：どこへ <ruby>行<rt>い</rt></ruby>きたいですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby><ruby>東<rt>ひがし</rt></ruby><ruby>京<rt>きょう</rt></ruby><rt>とうきょう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きたいです。<br><br>どこへ <ruby>行<rt>い</rt></ruby>きたいですか。",
         "options": [
           "東京",
           "大阪",
@@ -18494,7 +18494,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M14_Q99",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "お名<ruby>前<rt>まえ</rt></ruby>は？<br><br>なんと こたえますか。",
+        "text": "お<ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>は？<br><br>なんと こたえますか。",
         "options": [
           "銀行員です",
           "田中です",
@@ -18507,7 +18507,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M14_Q100",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "また <ruby>来週<rt>らいしゅう</rt></ruby>。<br><br>なんと こたえますか。",
+        "text": "また <ruby><ruby>来<rt>く</rt></ruby><ruby>週<rt>しゅう</rt></ruby><rt>らいしゅう</rt></ruby>。<br><br>なんと こたえますか。",
         "options": [
           "おはよう",
           "おやすみなさい",
@@ -18535,7 +18535,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q2",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "この <u>本</u>は <u>新</u>しいです。<br><br>「新」しいのよみかたは？",
+        "text": "この <u>本</u>は <u>新</u>しいです。<br><br>「<ruby>新<rt>あたら</rt></ruby>」しいのよみかたは？",
         "options": [
           "ふる",
           "やす",
@@ -18548,7 +18548,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q3",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>田中</u>さんは <u>足</u>が <u>長</u>いです。<br><br>「長」いのよみかたは？",
+        "text": "<u>田中</u>さんは <u>足</u>が <u>長</u>いです。<br><br>「<ruby>長<rt>なが</rt></ruby>」いのよみかたは？",
         "options": [
           "みじかい",
           "ながい",
@@ -18613,7 +18613,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q8",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>自分</u>で <u>作</u>りました。<br><br>「作」りましたのよみかたは？",
+        "text": "<u>自分</u>で <u>作</u>りました。<br><br>「<ruby>作<rt>つく</rt></ruby>」りましたのよみかたは？",
         "options": [
           "つか",
           "か",
@@ -18626,7 +18626,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q9",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>英語</u>を <u>話</u>します。<br><br>「話」しますのよみかたは？",
+        "text": "<u>英語</u>を <u>話</u>します。<br><br>「<ruby>話<rt>はな</rt></ruby>」しますのよみかたは？",
         "options": [
           "よ",
           "き",
@@ -18652,7 +18652,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q11",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>時間</u>が <u>少</u>ないです。<br><br>「少」ないのよみかたは？",
+        "text": "<u>時間</u>が <u>少</u>ないです。<br><br>「<ruby>少<rt>すく</rt></ruby>」ないのよみかたは？",
         "options": [
           "おお",
           "すくな",
@@ -18665,7 +18665,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q12",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>百</u>円 <u>安</u>いです。<br><br>「百」のよみかたは？",
+        "text": "<u>百</u><ruby>円<rt>えん</rt></ruby> <u>安</u>いです。<br><br>「百」のよみかたは？",
         "options": [
           "せん",
           "まん",
@@ -18717,7 +18717,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q16",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>ごふん</u> 待ってください。<br><br>「ごふん」のかきかたは？",
+        "text": "<u>ごふん</u> <ruby>待<rt>ま</rt></ruby>ってください。<br><br>「ごふん」のかきかたは？",
         "options": [
           "五時",
           "五日",
@@ -18730,7 +18730,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q17",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>がいこく</u>へ 行きます。<br><br>「がいこく」のかきかたは？",
+        "text": "<u>がいこく</u>へ <ruby>行<rt>い</rt></ruby>きます。<br><br>「がいこく」のかきかたは？",
         "options": [
           "中国",
           "国名",
@@ -18769,7 +18769,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q20",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>よる</u> <ruby>本<rt>ほん</rt></ruby>を 読みます。<br><br>「よる」のかきかたは？",
+        "text": "<u>よる</u> <ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みます。<br><br>「よる」のかきかたは？",
         "options": [
           "朝",
           "昼",
@@ -18782,7 +18782,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q21",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を ぬぎます。部屋に 入りますから。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を ぬぎます。<ruby>部屋<rt>へや</rt></ruby>に <ruby>入<rt>はい</rt></ruby>りますから。<br><br>（　）になにがはいりますか。",
         "options": [
           "シャツ",
           "ぼうし",
@@ -18795,7 +18795,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q22",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "この 荷物は （　　）ですね。<ruby>手<rt>て</rt></ruby>伝ってください。<br><br>（　）になにがはいりますか。",
+        "text": "この <ruby>荷<ruby>物<rt>もの</rt></ruby><rt>にもつ</rt></ruby>は （　　）ですね。<ruby>手<rt>て</rt></ruby>伝ってください。<br><br>（　）になにがはいりますか。",
         "options": [
           "おもい",
           "かるい",
@@ -18808,7 +18808,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q23",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を つけてください。ニュースを 見ます。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を つけてください。ニュースを <ruby>見<rt>み</rt></ruby>ます。<br><br>（　）になにがはいりますか。",
         "options": [
           "ラジオ",
           "テレビ",
@@ -18821,7 +18821,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q24",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を 見て、時間を 確認します。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を <ruby>見<rt>み</rt></ruby>て、<ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>を <ruby>確認<rt>かくにん</rt></ruby>します。<br><br>（　）になにがはいりますか。",
         "options": [
           "ノート",
           "じしょ",
@@ -18834,7 +18834,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q25",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "おなかが （　　）です。何か 食べましょう。<br><br>（　）になにがはいりますか。",
+        "text": "おなかが （　　）です。<ruby>何<rt>なに</rt></ruby>か <ruby>食<rt>た</rt></ruby>べましょう。<br><br>（　）になにがはいりますか。",
         "options": [
           "いたいです",
           "あついです",
@@ -18847,7 +18847,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q26",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を 撮りましょう。とても きれいな <ruby>山<rt>やま</rt></ruby>ですね。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を <ruby>撮<rt>と</rt></ruby>りましょう。とても きれいな <ruby>山<rt>やま</rt></ruby>ですね。<br><br>（　）になにがはいりますか。",
         "options": [
           "しゃしん",
           "てがみ",
@@ -18860,7 +18860,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q27",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "すみませんが、窓を （　　）ください。暑いですから。<br><br>（　）になにがはいりますか。",
+        "text": "すみませんが、<ruby><ruby>窓<rt>まど</rt></ruby><rt>まど</rt></ruby>を （　　）ください。<ruby>暑い<rt>あつい</rt></ruby>ですから。<br><br>（　）になにがはいりますか。",
         "options": [
           "しめて",
           "あけて",
@@ -18873,7 +18873,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q28",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を あらいます。ご飯を 食べる <ruby>前<rt>まえ</rt></ruby>です。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を あらいます。<ruby>ご飯<rt>ごはん</rt></ruby>を <ruby>食<rt>た</rt></ruby>べる <ruby>前<rt>まえ</rt></ruby>です。<br><br>（　）になにがはいりますか。",
         "options": [
           "かお",
           "あし",
@@ -18886,7 +18886,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q29",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を かけて、<ruby>本<rt>ほん</rt></ruby>を 読みます。<ruby>目<rt>め</rt></ruby>が わるいですから。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を かけて、<ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みます。<ruby>目<rt>め</rt></ruby>が わるいですから。<br><br>（　）になにがはいりますか。",
         "options": [
           "シャツ",
           "くつ",
@@ -18899,7 +18899,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q30",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）が いたいので、休みます。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）が いたいので、<ruby>休<rt>やす</rt></ruby>みます。<br><br>（　）になにがはいりますか。",
         "options": [
           "あたま",
           "みみ",
@@ -18912,7 +18912,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q31",
         "section": "言語知識（文法）・読解",
         "type": "言い換え類義",
-        "text": "<u>すぐ</u> 終わります。<br><br>「すぐ」に ちかい いみの ことばは？",
+        "text": "<u>すぐ</u> <ruby>終わり<rt>おわり</rt></ruby>ます。<br><br>「すぐ」に ちかい いみの ことばは？",
         "options": [
           "あとで",
           "いまから",
@@ -18925,7 +18925,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q32",
         "section": "言語知識（文法）・読解",
         "type": "言い換え類義",
-        "text": "<u>ちょうど</u> 十時です。<br><br>「ちょうど」に ちかい いみの ことばは？",
+        "text": "<u>ちょうど</u> <ruby>十<rt>じゅう</rt></ruby><ruby>時<rt>とき</rt></ruby>です。<br><br>「ちょうど」に ちかい いみの ことばは？",
         "options": [
           "だいたい",
           "すこし",
@@ -19042,7 +19042,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q41",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "ペン（　　） 名<ruby>前<rt>まえ</rt></ruby>を 書きました。<br><br>（　）になにがはいりますか。",
+        "text": "ペン（　　） <ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きました。<br><br>（　）になにがはいりますか。",
         "options": [
           "を",
           "に",
@@ -19055,7 +19055,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q42",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あした <ruby>学校<rt>がっこう</rt></ruby>（　　） 行きません。<br><br>（　）になにがはいりますか。",
+        "text": "あした <ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>（　　） <ruby>行<rt>い</rt></ruby>きません。<br><br>（　）になにがはいりますか。",
         "options": [
           "へは",
           "へを",
@@ -19068,7 +19068,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q43",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "だれ（　　） 来ませんでした。<br><br>（　）になにがはいりますか。",
+        "text": "だれ（　　） <ruby>来<rt>く</rt></ruby>ませんでした。<br><br>（　）になにがはいりますか。",
         "options": [
           "に",
           "も",
@@ -19081,7 +19081,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q44",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あそこに 猫が （　　） います。<br><br>（　）になにがはいりますか。",
+        "text": "あそこに <ruby>猫<rt>ねこ</rt></ruby>が （　　） います。<br><br>（　）になにがはいりますか。",
         "options": [
           "ひとつ",
           "ひとり",
@@ -19094,7 +19094,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q45",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "おんがくを （　　）ながら 勉強します。<br><br>（　）になにがはいりますか。",
+        "text": "おんがくを （　　）ながら <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>します。<br><br>（　）になにがはいりますか。",
         "options": [
           "きいて",
           "きく",
@@ -19107,7 +19107,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q46",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "<ruby><ruby>日本<rt>にほん</rt></ruby>語<rt>にほんご</rt></ruby>を 話すのが （　　）です。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby><ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby><rt>にほんご</rt></ruby>を <ruby>話<rt>はな</rt></ruby>すのが （　　）です。<br><br>（　）になにがはいりますか。",
         "options": [
           "じょうず",
           "うまく",
@@ -19120,7 +19120,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q47",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "宿題を （　　）から、遊びに行きます。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>宿題<rt>しゅくだい</rt></ruby>を （　　）から、<ruby>遊<rt>あそ</rt></ruby>びに<ruby>行<rt>い</rt></ruby>きます。<br><br>（　）になにがはいりますか。",
         "options": [
           "した",
           "して",
@@ -19133,7 +19133,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q48",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "この 料理は （　　） おいしくないです。<br><br>（　）になにがはいりますか。",
+        "text": "この <ruby>料理<rt>りょうり</rt></ruby>は （　　） おいしくないです。<br><br>（　）になにがはいりますか。",
         "options": [
           "とても",
           "すこし",
@@ -19146,7 +19146,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q49",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "これ（　　） わたしの 鞄です。<br><br>（　）になにがはいりますか。",
+        "text": "これ（　　） わたしの <ruby>鞄<rt>かばん</rt></ruby>です。<br><br>（　）になにがはいりますか。",
         "options": [
           "を",
           "に",
@@ -19159,7 +19159,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q50",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "昨日 （　　） <ruby>映画<rt>えいが</rt></ruby>は おもしろかったです。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>昨日<rt>きのう</rt></ruby> （　　） <ruby>映画<rt>えいが</rt></ruby>は おもしろかったです。<br><br>（　）になにがはいりますか。",
         "options": [
           "みた",
           "みて",
@@ -19172,7 +19172,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q51",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "コーヒー（　　） 紅茶、どちらが いいですか。<br><br>（　）になにがはいりますか。",
+        "text": "コーヒー（　　） <ruby>紅<ruby>茶<rt>ちゃ</rt></ruby><rt>こうちゃ</rt></ruby>、どちらが いいですか。<br><br>（　）になにがはいりますか。",
         "options": [
           "と",
           "か",
@@ -19185,7 +19185,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q52",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "<ruby>今日<rt>きょう</rt></ruby>は （　　） 寒いですね。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>今日<rt>きょう</rt></ruby>は （　　） <ruby>寒い<rt>さむい</rt></ruby>ですね。<br><br>（　）になにがはいりますか。",
         "options": [
           "あまり",
           "すこし",
@@ -19198,7 +19198,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q53",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あの 建物は （　　）ですか。<br><br>（　）になにがはいりますか。",
+        "text": "あの <ruby><ruby>建<rt>た</rt></ruby><ruby>物<rt>もの</rt></ruby><rt>たてもの</rt></ruby>は （　　）ですか。<br><br>（　）になにがはいりますか。",
         "options": [
           "どこ",
           "だれ",
@@ -19211,7 +19211,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q54",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "机の<ruby>上<rt>うえ</rt></ruby>に 辞書（　　） あります。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>机<rt>つくえ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に <ruby>辞<ruby>書<rt>か</rt></ruby><rt>じしょ</rt></ruby>（　　） あります。<br><br>（　）になにがはいりますか。",
         "options": [
           "が",
           "を",
@@ -19224,7 +19224,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q55",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "ここ（　　） 名<ruby>前<rt>まえ</rt></ruby>を 書いてください。<br><br>（　）になにがはいりますか。",
+        "text": "ここ（　　） <ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>を <ruby>書<rt>か</rt></ruby>いてください。<br><br>（　）になにがはいりますか。",
         "options": [
           "を",
           "に",
@@ -19237,7 +19237,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q56",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "わたしは 毎<ruby>朝<rt>あさ</rt></ruby> 六時に 牛乳を 一回 飲みます。<br><br>★に入るものはどれですか。",
+        "text": "わたしは <ruby>毎<ruby>朝<rt>あさ</rt></ruby><rt>まいあさ</rt></ruby> <ruby>六<rt>ろく</rt></ruby><ruby>時<rt>とき</rt></ruby>に <ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>を <ruby><ruby>一<rt>いち</rt></ruby><ruby>回<rt>かい</rt></ruby><rt>いっかい</rt></ruby> <ruby>飲<rt>の</rt></ruby>みます。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "毎朝",
           "六時に",
@@ -19250,7 +19250,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q57",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "あそこに <ruby>白<rt>しろ</rt></ruby>い 帽<ruby>子<rt>こ</rt></ruby>を かぶった <ruby>人<rt>ひと</rt></ruby>が います。<br><br>★に入るものはどれですか。",
+        "text": "あそこに <ruby>白<rt>しろ</rt></ruby>い <ruby>帽<ruby>子<rt>こ</rt></ruby><rt>ぼうし</rt></ruby>を かぶった <ruby>人<rt>ひと</rt></ruby>が います。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "白い",
           "帽子を",
@@ -19263,7 +19263,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q58",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "そこに ゆっくり 椅<ruby>子<rt>こ</rt></ruby>に 座って かけて ください。<br><br>★に入るものはどれですか。",
+        "text": "そこに ゆっくり <ruby>椅<ruby>子<rt>こ</rt></ruby><rt>いす</rt></ruby>に <ruby>座<rt>すわ</rt></ruby>って かけて ください。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "そこに",
           "座って",
@@ -19276,7 +19276,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q59",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "公園の <ruby>中<rt>なか</rt></ruby>に <ruby>子供<rt>こども</rt></ruby>が 五<ruby>人<rt>ひと</rt></ruby> 遊んで います。<br><br>★に入るものはどれですか。",
+        "text": "<ruby>公<ruby>園<rt>えん</rt></ruby><rt>こうえん</rt></ruby>の <ruby>中<rt>なか</rt></ruby>に <ruby>子供<rt>こども</rt></ruby>が <ruby><ruby>五<rt>ご</rt></ruby><ruby>人<rt>ひと</rt></ruby><rt>ごにん</rt></ruby> <ruby>遊<rt>あそ</rt></ruby>んで います。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "中に",
           "子供が",
@@ -19289,7 +19289,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q60",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "ここに ボールペンで 名<ruby>前<rt>まえ</rt></ruby>を 書いて ください。<br><br>★に入るものはどれですか。",
+        "text": "ここに ボールペンで <ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>を <ruby>書<rt>か</rt></ruby>いて ください。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "ここに",
           "名前を",
@@ -19302,7 +19302,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q61",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（メール）田<ruby>中<rt>なか</rt></ruby>さん、<ruby>元気<rt>げんき</rt></ruby>ですか。あしたは <ruby>日曜日<rt>にちようび</rt></ruby>ですね。（ 1 ） しますか。<br><br>（ 1 ）になにがはいりますか。",
+        "text": "（メール）<ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さん、<ruby>元気<rt>げんき</rt></ruby>ですか。あしたは <ruby>日曜日<rt>にちようび</rt></ruby>ですね。（ 1 ） しますか。<br><br>（ 1 ）になにがはいりますか。",
         "options": [
           "どこを",
           "だれが",
@@ -19328,7 +19328,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q63",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（メール）<ruby>海<rt>うみ</rt></ruby>で たくさん （ 3 ） 泳ぎます。<br><br>（ 3 ）になにがはいりますか。",
+        "text": "（メール）<ruby>海<rt>うみ</rt></ruby>で たくさん （ 3 ） <ruby>泳<rt>およ</rt></ruby>ぎます。<br><br>（ 3 ）になにがはいりますか。",
         "options": [
           "魚と",
           "元気に",
@@ -19341,7 +19341,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q64",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（メール）田<ruby>中<rt>なか</rt></ruby>さんも （ 4 ） 行きませんか。<br><br>（ 4 ）になにがはいりますか。",
+        "text": "（メール）<ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんも （ 4 ） <ruby>行<rt>い</rt></ruby>きませんか。<br><br>（ 4 ）になにがはいりますか。",
         "options": [
           "ひとりで",
           "どこかへ",
@@ -19354,7 +19354,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q65",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（メール）（ 5 ） お返事を ください。<br><br>（ 5 ）になにがはいりますか。",
+        "text": "（メール）（ 5 ） お<ruby><ruby>返<rt>かえ</rt></ruby><ruby>事<rt>こと</rt></ruby><rt>へんじ</rt></ruby>を ください。<br><br>（ 5 ）になにがはいりますか。",
         "options": [
           "たぶん",
           "もっと",
@@ -19367,7 +19367,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q66",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）佐藤さんは <ruby>毎日<rt>まいにち</rt></ruby> 七時に おきます。パンを 食べてから 仕事に 行きます。<br><br>佐藤さんは <ruby>朝<rt>あさ</rt></ruby> 何を しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>佐藤<rt>さとう</rt></ruby>さんは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>七<rt>なな</rt></ruby><ruby>時<rt>とき</rt></ruby>に おきます。パンを <ruby>食<rt>た</rt></ruby>べてから <ruby><ruby>仕<rt>し</rt></ruby><ruby>事<rt>こと</rt></ruby><rt>しごと</rt></ruby>に <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>佐藤<rt>さとう</rt></ruby>さんは <ruby>朝<rt>あさ</rt></ruby> <ruby>何<rt>なに</rt></ruby>を しますか。",
         "options": [
           "パンを食べる",
           "コーヒーを飲む",
@@ -19380,7 +19380,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q67",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）わたしの 家は <ruby>駅<rt>えき</rt></ruby>から 十五分くらいです。とても 便利です。<br><br>家は どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）わたしの <ruby>家<rt>いえ</rt></ruby>は <ruby>駅<rt>えき</rt></ruby>から <ruby>十<rt>じゅう</rt></ruby><ruby>五<rt>ご</rt></ruby><ruby>分<rt>ふん</rt></ruby>くらいです。とても <ruby>便利<rt>べんり</rt></ruby>です。<br><br><ruby>家<rt>いえ</rt></ruby>は どうですか。",
         "options": [
           "遠くて不便",
           "便利だ",
@@ -19393,7 +19393,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q68",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）昨日は 休みでした。どこへも 行きませんでした。家で <ruby>本<rt>ほん</rt></ruby>を 読みました。<br><br>昨日は 何を しましたか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>昨日<rt>きのう</rt></ruby>は <ruby>休<rt>やす</rt></ruby>みでした。どこへも <ruby>行<rt>い</rt></ruby>きませんでした。<ruby>家<rt>いえ</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みました。<br><br><ruby>昨日<rt>きのう</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を しましたか。",
         "options": [
           "買い物に行った",
           "公園に行った",
@@ -19406,7 +19406,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q69",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）この 料理は 少し 辛いですが、とても おいしいです。<br><br>この 料理は どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）この <ruby>料理<rt>りょうり</rt></ruby>は <ruby>少<rt>すく</rt></ruby>し <ruby>辛い<rt>からい</rt></ruby>ですが、とても おいしいです。<br><br>この <ruby>料理<rt>りょうり</rt></ruby>は どうですか。",
         "options": [
           "甘い",
           "まずい",
@@ -19419,7 +19419,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q70",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）明日は <ruby>月曜日<rt>げつようび</rt></ruby>です。テストが ありますから、<ruby>今日<rt>きょう</rt></ruby>は 勉強します。<br><br>いつ 勉強しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby><ruby>明<rt>あか</rt></ruby>日<rt>あした</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>です。テストが ありますから、<ruby>今日<rt>きょう</rt></ruby>は <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>します。<br><br>いつ <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>しますか。",
         "options": [
           "今日",
           "明日",
@@ -19432,7 +19432,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q71",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）この ズボンは 少し 短いです。もっと 長いのは ありませんか。<br><br>この ズボンは どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）この ズボンは <ruby>少<rt>すく</rt></ruby>し 短いです。もっと <ruby>長<rt>なが</rt></ruby>いのは ありませんか。<br><br>この ズボンは どうですか。",
         "options": [
           "長い",
           "細い",
@@ -19445,7 +19445,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q72",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）木村さんは ギターが 好きです。<ruby>毎日<rt>まいにち</rt></ruby> 練習します。<br><br>木村さんは 何を 練習しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>木村<rt>きむら</rt></ruby>さんは ギターが <ruby>好き<rt>すき</rt></ruby>です。<ruby>毎日<rt>まいにち</rt></ruby> <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>します。<br><br><ruby>木村<rt>きむら</rt></ruby>さんは <ruby>何<rt>なに</rt></ruby>を <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>しますか。",
         "options": [
           "ピアノ",
           "歌",
@@ -19458,7 +19458,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q73",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "<ruby>日本<rt>にほん</rt></ruby>には 四つの 季節が あります。わたしは 秋が 一番 好きです。<ruby>山<rt>やま</rt></ruby>が とても きれいになりますから。去年の 秋に <ruby>友達<rt>ともだち</rt></ruby>と <ruby>山<rt>やま</rt></ruby>へ 行きました。<ruby>天気<rt>てんき</rt></ruby>が 良くて、<ruby>空<rt>そら</rt></ruby>が <ruby>青<rt>あお</rt></ruby>かったです。写真を たくさん 撮りました。冬は 寒いから あまり 好きではありません。<br><br>この<ruby>人<rt>ひと</rt></ruby>は どの 季節が 一番 好きですか。",
+        "text": "<ruby>日本<rt>にほん</rt></ruby>には <ruby><ruby>四<rt>よん</rt></ruby>つ<rt>よっつ</rt></ruby>の <ruby>季節<rt>きせつ</rt></ruby>が あります。わたしは <ruby>秋<rt>あき</rt></ruby>が <ruby><ruby>一<rt>いち</rt></ruby><ruby>番<rt>ばん</rt></ruby><rt>いちばん</rt></ruby> <ruby>好き<rt>すき</rt></ruby>です。<ruby>山<rt>やま</rt></ruby>が とても きれいになりますから。<ruby>去<ruby>年<rt>ねん</rt></ruby><rt>きょねん</rt></ruby>の <ruby>秋<rt>あき</rt></ruby>に <ruby>友達<rt>ともだち</rt></ruby>と <ruby>山<rt>やま</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。<ruby>天気<rt>てんき</rt></ruby>が <ruby>良<rt>よ</rt></ruby>くて、<ruby>空<rt>そら</rt></ruby>が <ruby>青<rt>あお</rt></ruby>かったです。<ruby>写真<rt>しゃしん</rt></ruby>を たくさん <ruby>撮<rt>と</rt></ruby>りました。<ruby>冬<rt>ふゆ</rt></ruby>は <ruby>寒い<rt>さむい</rt></ruby>から あまり <ruby>好き<rt>すき</rt></ruby>ではありません。<br><br>この<ruby>人<rt>ひと</rt></ruby>は どの <ruby>季節<rt>きせつ</rt></ruby>が <ruby><ruby>一<rt>いち</rt></ruby><ruby>番<rt>ばん</rt></ruby><rt>いちばん</rt></ruby> <ruby>好き<rt>すき</rt></ruby>ですか。",
         "options": [
           "春",
           "夏",
@@ -19471,7 +19471,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q74",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）わたしは <ruby>日本<rt>にほん</rt></ruby>に 来て 一年に なります。<ruby><ruby>日本<rt>にほん</rt></ruby>語<rt>にほんご</rt></ruby><ruby>学校<rt>がっこう</rt></ruby>で べんきょうしています。<br><br><ruby>日本<rt>にほん</rt></ruby>に 来て どのくらいですか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）わたしは <ruby>日本<rt>にほん</rt></ruby>に <ruby>来<rt>く</rt></ruby>て <ruby>一<rt>いち</rt></ruby><ruby>年<rt>ねん</rt></ruby>に なります。<ruby><ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby><rt>にほんご</rt></ruby><ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>で べんきょうしています。<br><br><ruby>日本<rt>にほん</rt></ruby>に <ruby>来<rt>く</rt></ruby>て どのくらいですか。",
         "options": [
           "一年",
           "半年",
@@ -19484,7 +19484,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q75",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）<ruby>学校<rt>がっこう</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>から <ruby>金曜日<rt>きんようび</rt></ruby>まで あります。<br><br><ruby>学校<rt>がっこう</rt></ruby>は いつ ありますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>から <ruby>金曜日<rt>きんようび</rt></ruby>まで あります。<br><br><ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>は いつ ありますか。",
         "options": [
           "毎日",
           "月曜日から金曜日",
@@ -19497,7 +19497,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q76",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "わたしの 趣味は ギターです。毎晩 自分の 部屋で 練習します。最初は 難しかったですが、今は 少し <ruby>上<rt>うえ</rt></ruby><ruby>手<rt>て</rt></ruby>になりました。<ruby>来月<rt>らいげつ</rt></ruby>の パーティーで 弾きますから、<ruby>毎日<rt>まいにち</rt></ruby> 頑張っています。<ruby>友達<rt>ともだち</rt></ruby>に 聞いてもらうのが 楽しみです。<br><br>この<ruby>人<rt>ひと</rt></ruby>は いつ ギターを 練習しますか。",
+        "text": "わたしの <ruby>趣<ruby>味<rt>あじ</rt></ruby><rt>しゅみ</rt></ruby>は ギターです。<ruby>毎<ruby>晩<rt>ばん</rt></ruby><rt>まいばん</rt></ruby> <ruby>自<ruby>分<rt>ふん</rt></ruby><rt>じぶん</rt></ruby>の <ruby>部屋<rt>へや</rt></ruby>で <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>します。<ruby>最初<rt>さいしょ</rt></ruby>は 難しかったですが、今は <ruby>少<rt>すく</rt></ruby>し <ruby><ruby>上<rt>うえ</rt></ruby><ruby>手<rt>て</rt></ruby><rt>じょうず</rt></ruby>になりました。<ruby><ruby>来<rt>く</rt></ruby>月<rt>らいげつ</rt></ruby>の パーティーで 弾きますから、<ruby>毎日<rt>まいにち</rt></ruby> <ruby>頑張って<rt>がんばって</rt></ruby>います。<ruby>友達<rt>ともだち</rt></ruby>に <ruby>聞<rt>き</rt></ruby>いてもらうのが <ruby>楽しみ<rt>たのしみ</rt></ruby>です。<br><br>この<ruby>人<rt>ひと</rt></ruby>は いつ ギターを <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>しますか。",
         "options": [
           "毎朝",
           "毎晩",
@@ -19510,7 +19510,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q77",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）わたしの しゅみは サッカーです。週に 二回 練習します。<br><br>しゅみは 何ですか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）わたしの しゅみは サッカーです。<ruby>週<rt>しゅう</rt></ruby>に <ruby><ruby>二<rt>に</rt></ruby><ruby>回<rt>かい</rt></ruby><rt>にかい</rt></ruby> <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>します。<br><br>しゅみは <ruby>何<rt>なに</rt></ruby>ですか。",
         "options": [
           "テニス",
           "野球",
@@ -19523,7 +19523,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q78",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）週末は <ruby>友<rt>とも</rt></ruby>だちと サッカーを します。とても たのしいです。<br><br>だれと サッカーを しますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby><rt>しゅうまつ</rt></ruby>は <ruby>友<rt>とも</rt></ruby>だちと サッカーを します。とても たのしいです。<br><br>だれと サッカーを しますか。",
         "options": [
           "友だち",
           "一人で",
@@ -19536,7 +19536,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q79",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）<ruby>来月<rt>らいげつ</rt></ruby> サッカーの 大会が あります。たくさん 練習します。<br><br><ruby>来月<rt>らいげつ</rt></ruby> 何が ありますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>来<rt>く</rt></ruby>月<rt>らいげつ</rt></ruby> サッカーの <ruby>大<rt>おお</rt></ruby>会が あります。たくさん <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>します。<br><br><ruby><ruby>来<rt>く</rt></ruby>月<rt>らいげつ</rt></ruby> <ruby>何<rt>なに</rt></ruby>が ありますか。",
         "options": [
           "りょこう",
           "大会",
@@ -19549,7 +19549,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q80",
         "section": "言語知識（文法）・読解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【<ruby>駅<rt>えき</rt></ruby>の時刻表】<ruby>日曜日<rt>にちようび</rt></ruby> 始発：6時<br><br><ruby>日曜日<rt>にちようび</rt></ruby>の 始発は 何時ですか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【<ruby>駅<rt>えき</rt></ruby>の<ruby><ruby><ruby>時<rt>とき</rt></ruby>刻<rt>じこく</rt></ruby>表<rt>じこくひょう</rt></ruby>】<ruby>日曜日<rt>にちようび</rt></ruby> 始発：6<ruby>時<rt>とき</rt></ruby><br><br><ruby>日曜日<rt>にちようび</rt></ruby>の 始発は <ruby>何<rt>なに</rt></ruby><ruby>時<rt>とき</rt></ruby>ですか。",
         "options": [
           "五時",
           "七時",
@@ -19562,7 +19562,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q81",
         "section": "聴解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【<ruby>駅<rt>えき</rt></ruby>の時刻表】一時間に 4<ruby>本<rt>ほん</rt></ruby><br><br>一時間に 何<ruby>本<rt>ほん</rt></ruby> ありますか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【<ruby>駅<rt>えき</rt></ruby>の<ruby><ruby><ruby>時<rt>とき</rt></ruby>刻<rt>じこく</rt></ruby>表<rt>じこくひょう</rt></ruby>】<ruby><ruby>一<rt>いち</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby><rt>いちじかん</rt></ruby>に 4<ruby>本<rt>ほん</rt></ruby><br><br><ruby><ruby>一<rt>いち</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby><rt>いちじかん</rt></ruby>に <ruby>何<rt>なに</rt></ruby><ruby>本<rt>ほん</rt></ruby> ありますか。",
         "options": [
           "二本",
           "三本",
@@ -19575,7 +19575,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q82",
         "section": "聴解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【<ruby>駅<rt>えき</rt></ruby>の時刻表】祝日は <ruby>日曜日<rt>にちようび</rt></ruby>と 同じ<br><br>祝日は 何曜日と 同じですか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【<ruby>駅<rt>えき</rt></ruby>の<ruby><ruby><ruby>時<rt>とき</rt></ruby>刻<rt>じこく</rt></ruby>表<rt>じこくひょう</rt></ruby>】<ruby>祝日<rt>しゅくじつ</rt></ruby>は <ruby>日曜日<rt>にちようび</rt></ruby>と <ruby>同じ<rt>おなじ</rt></ruby><br><br><ruby>祝日<rt>しゅくじつ</rt></ruby>は <ruby>何<rt>なに</rt></ruby>曜日と <ruby>同じ<rt>おなじ</rt></ruby>ですか。",
         "options": [
           "日曜日",
           "月曜日",
@@ -19588,7 +19588,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q83",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：くだものを 買いに 行きます。何が いいですか。<br><ruby>男<rt>おとこ</rt></ruby>：りんごを おねがいします。<br><br>何を 買いますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：くだものを <ruby>買<rt>か</rt></ruby>いに <ruby>行<rt>い</rt></ruby>きます。<ruby>何<rt>なに</rt></ruby>が いいですか。<br><ruby>男<rt>おとこ</rt></ruby>：りんごを おねがいします。<br><br><ruby>何<rt>なに</rt></ruby>を <ruby>買<rt>か</rt></ruby>いますか。",
         "options": [
           "みかん",
           "りんご",
@@ -19613,7 +19613,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q84",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：いつ 会いましょうか。<br><ruby>女<rt>おんな</rt></ruby>：十<ruby>二日<rt>ふつか</rt></ruby>は どうですか。<br><ruby>男<rt>おとこ</rt></ruby>：いいですよ。<br><br>いつ 会いますか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：いつ 会いましょうか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>十<rt>じゅう</rt></ruby><ruby><ruby>二<rt>に</rt></ruby>日<rt>ふつか</rt></ruby>は どうですか。<br><ruby>男<rt>おとこ</rt></ruby>：いいですよ。<br><br>いつ 会いますか。",
         "options": [
           "十日",
           "十一日",
@@ -19651,7 +19651,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q86",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：誰と 行きますか。<br><ruby>女<rt>おんな</rt></ruby>：先生と 行きます。<br><br>誰と 行きますか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>誰<rt>だれ</rt></ruby>と <ruby>行<rt>い</rt></ruby>きますか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>先<ruby>生<rt>せい</rt></ruby><rt>せんせい</rt></ruby>と <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>誰<rt>だれ</rt></ruby>と <ruby>行<rt>い</rt></ruby>きますか。",
         "options": [
           "先生",
           "田中さん",
@@ -19664,7 +19664,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q87",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：何で 行きますか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>電車<rt>でんしゃ</rt></ruby>で 行きます。<br><br>何で 行きますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>何<rt>なに</rt></ruby>で <ruby>行<rt>い</rt></ruby>きますか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby><ruby>電<rt>でん</rt></ruby><ruby>車<rt>くるま</rt></ruby><rt>でんしゃ</rt></ruby>で <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>何<rt>なに</rt></ruby>で <ruby>行<rt>い</rt></ruby>きますか。",
         "options": [
           "バス",
           "電車",
@@ -19677,7 +19677,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q88",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>映画<rt>えいが</rt></ruby>は 何時間ですか。<br><ruby>女<rt>おんな</rt></ruby>：三時間です。<br><br>何時間ですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>映画<rt>えいが</rt></ruby>は <ruby>何<rt>なに</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>ですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>三<rt>さん</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>ですか。",
         "options": [
           "二時間",
           "四時間",
@@ -19690,7 +19690,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q89",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：どうして 行きませんでしたか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>雨<rt>あめ</rt></ruby>だったからです。<br><br>どうして 行きませんでしたか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：どうして <ruby>行<rt>い</rt></ruby>きませんでしたか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>雨<rt>あめ</rt></ruby>だったからです。<br><br>どうして <ruby>行<rt>い</rt></ruby>きませんでしたか。",
         "options": [
           "忙しいから",
           "寒いから",
@@ -19703,7 +19703,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q90",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：鍵は どこに ありましたか。<br><ruby>女<rt>おんな</rt></ruby>：箱の <ruby>中<rt>なか</rt></ruby>に ありました。<br><br>どこに ありましたか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>鍵<rt>かぎ</rt></ruby>は どこに ありましたか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>箱<rt>はこ</rt></ruby>の <ruby>中<rt>なか</rt></ruby>に ありました。<br><br>どこに ありましたか。",
         "options": [
           "箱の中",
           "机の上",
@@ -19716,7 +19716,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q91",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：何色が 好きですか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>青<rt>あお</rt></ruby>が 好きです。<br><br>何色が 好きですか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>何<rt>なに</rt></ruby><ruby>色<rt>いろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>ですか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>青<rt>あお</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby>色<rt>いろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>ですか。",
         "options": [
           "赤",
           "青",
@@ -19729,7 +19729,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q92",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：何番の バスですか。<br><ruby>女<rt>おんな</rt></ruby>：三番です。<br><br>何番ですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>何<rt>なに</rt></ruby><ruby>番<rt>ばん</rt></ruby>の バスですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby><ruby>三<rt>さん</rt></ruby><ruby>番<rt>ばん</rt></ruby><rt>さんばん</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby>番<rt>ばん</rt></ruby>ですか。",
         "options": [
           "一番",
           "二番",
@@ -19742,7 +19742,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q93",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：誰が 来ましたか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>母<rt>はは</rt></ruby>が 来ました。<br><br>誰が 来ましたか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>誰<rt>だれ</rt></ruby>が <ruby>来<rt>く</rt></ruby>ましたか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>母<rt>はは</rt></ruby>が <ruby>来<rt>く</rt></ruby>ました。<br><br><ruby>誰<rt>だれ</rt></ruby>が <ruby>来<rt>く</rt></ruby>ましたか。",
         "options": [
           "兄",
           "姉",
@@ -19755,7 +19755,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q94",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：どこへ 行きたいですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>東<rt>ひがし</rt></ruby>京へ 行きたいです。<br><br>どこへ 行きたいですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：どこへ <ruby>行<rt>い</rt></ruby>きたいですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby><ruby>東<rt>ひがし</rt></ruby><ruby>京<rt>きょう</rt></ruby><rt>とうきょう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きたいです。<br><br>どこへ <ruby>行<rt>い</rt></ruby>きたいですか。",
         "options": [
           "東京",
           "大阪",
@@ -19820,7 +19820,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q99",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "お名<ruby>前<rt>まえ</rt></ruby>は？<br><br>なんと こたえますか。",
+        "text": "お<ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>は？<br><br>なんと こたえますか。",
         "options": [
           "銀行員です",
           "田中です",
@@ -19833,7 +19833,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M15_Q100",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "また <ruby>来週<rt>らいしゅう</rt></ruby>。<br><br>なんと こたえますか。",
+        "text": "また <ruby><ruby>来<rt>く</rt></ruby><ruby>週<rt>しゅう</rt></ruby><rt>らいしゅう</rt></ruby>。<br><br>なんと こたえますか。",
         "options": [
           "おはよう",
           "おやすみなさい",
@@ -19848,7 +19848,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q1",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>毎朝</u> <u>新聞</u>を <u>読</u>みます。<br><br>「読」みますのよみかたは？",
+        "text": "<u>毎朝</u> <u>新聞</u>を <u>読</u>みます。<br><br>「<ruby>読<rt>よ</rt></ruby>」みますのよみかたは？",
         "options": [
           "よ",
           "か",
@@ -19861,7 +19861,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q2",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "この <u>料理</u>は <u>安</u>いです。<br><br>「安」いのよみかたは？",
+        "text": "この <u>料理</u>は <u>安</u>いです。<br><br>「<ruby>安<rt>やす</rt></ruby>」いのよみかたは？",
         "options": [
           "たか",
           "やす",
@@ -19887,7 +19887,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q4",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>父</u>と <u>母</u>に <u>手紙</u>を <u>書</u>きました。<br><br>「<ruby>手<rt>て</rt></ruby>紙」のよみかたは？",
+        "text": "<u>父</u>と <u>母</u>に <u>手紙</u>を <u>書</u>きました。<br><br>「<ruby>手<rt>て</rt></ruby><ruby>紙<rt>かみ</rt></ruby>」のよみかたは？",
         "options": [
           "てかみ",
           "でがみ",
@@ -19939,7 +19939,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q8",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>自分</u>で <u>作</u>りました。<br><br>「作」りましたのよみかたは？",
+        "text": "<u>自分</u>で <u>作</u>りました。<br><br>「<ruby>作<rt>つく</rt></ruby>」りましたのよみかたは？",
         "options": [
           "つか",
           "か",
@@ -19952,7 +19952,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q9",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>英語</u>を <u>話</u>します。<br><br>「話」しますのよみかたは？",
+        "text": "<u>英語</u>を <u>話</u>します。<br><br>「<ruby>話<rt>はな</rt></ruby>」しますのよみかたは？",
         "options": [
           "はな",
           "よ",
@@ -19978,7 +19978,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q11",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>時間</u>が <u>少</u>ないです。<br><br>「少」ないのよみかたは？",
+        "text": "<u>時間</u>が <u>少</u>ないです。<br><br>「<ruby>少<rt>すく</rt></ruby>」ないのよみかたは？",
         "options": [
           "おお",
           "ちいさ",
@@ -19991,7 +19991,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q12",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>百</u>円 <u>安</u>いです。<br><br>「百」のよみかたは？",
+        "text": "<u>百</u><ruby>円<rt>えん</rt></ruby> <u>安</u>いです。<br><br>「百」のよみかたは？",
         "options": [
           "せん",
           "まん",
@@ -20043,7 +20043,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q16",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>ごふん</u> 待ってください。<br><br>「ごふん」のかきかたは？",
+        "text": "<u>ごふん</u> <ruby>待<rt>ま</rt></ruby>ってください。<br><br>「ごふん」のかきかたは？",
         "options": [
           "五時",
           "五日",
@@ -20056,7 +20056,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q17",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>がいこく</u>へ 行きます。<br><br>「がいこく」のかきかたは？",
+        "text": "<u>がいこく</u>へ <ruby>行<rt>い</rt></ruby>きます。<br><br>「がいこく」のかきかたは？",
         "options": [
           "外国",
           "中国",
@@ -20095,7 +20095,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q20",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>よる</u> <ruby>本<rt>ほん</rt></ruby>を 読みます。<br><br>「よる」のかきかたは？",
+        "text": "<u>よる</u> <ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みます。<br><br>「よる」のかきかたは？",
         "options": [
           "朝",
           "昼",
@@ -20108,7 +20108,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q21",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を ぬぎます。部屋に 入りますから。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を ぬぎます。<ruby>部屋<rt>へや</rt></ruby>に <ruby>入<rt>はい</rt></ruby>りますから。<br><br>（　）になにがはいりますか。",
         "options": [
           "くつ",
           "シャツ",
@@ -20121,7 +20121,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q22",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "この 荷物は （　　）ですね。<ruby>手<rt>て</rt></ruby>伝ってください。<br><br>（　）になにがはいりますか。",
+        "text": "この <ruby>荷<ruby>物<rt>もの</rt></ruby><rt>にもつ</rt></ruby>は （　　）ですね。<ruby>手<rt>て</rt></ruby>伝ってください。<br><br>（　）になにがはいりますか。",
         "options": [
           "かるい",
           "おもい",
@@ -20134,7 +20134,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q23",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を つけてください。ニュースを 見ます。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を つけてください。ニュースを <ruby>見<rt>み</rt></ruby>ます。<br><br>（　）になにがはいりますか。",
         "options": [
           "ラジオ",
           "エアコン",
@@ -20147,7 +20147,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q24",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を 見て、時間を 確認します。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を <ruby>見<rt>み</rt></ruby>て、<ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>を <ruby>確認<rt>かくにん</rt></ruby>します。<br><br>（　）になにがはいりますか。",
         "options": [
           "ノート",
           "じしょ",
@@ -20160,7 +20160,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q25",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "おなかが （　　）です。何か 食べましょう。<br><br>（　）になにがはいりますか。",
+        "text": "おなかが （　　）です。<ruby>何<rt>なに</rt></ruby>か <ruby>食<rt>た</rt></ruby>べましょう。<br><br>（　）になにがはいりますか。",
         "options": [
           "すきました",
           "いたいです",
@@ -20173,7 +20173,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q26",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を 撮りましょう。とても きれいな <ruby>山<rt>やま</rt></ruby>ですね。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を <ruby>撮<rt>と</rt></ruby>りましょう。とても きれいな <ruby>山<rt>やま</rt></ruby>ですね。<br><br>（　）になにがはいりますか。",
         "options": [
           "てがみ",
           "しゃしん",
@@ -20186,7 +20186,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q27",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "すみませんが、窓を （　　）ください。暑いですから。<br><br>（　）になにがはいりますか。",
+        "text": "すみませんが、<ruby><ruby>窓<rt>まど</rt></ruby><rt>まど</rt></ruby>を （　　）ください。<ruby>暑い<rt>あつい</rt></ruby>ですから。<br><br>（　）になにがはいりますか。",
         "options": [
           "しめて",
           "つけて",
@@ -20199,7 +20199,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q28",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を あらいます。ご飯を 食べる <ruby>前<rt>まえ</rt></ruby>です。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を あらいます。<ruby>ご飯<rt>ごはん</rt></ruby>を <ruby>食<rt>た</rt></ruby>べる <ruby>前<rt>まえ</rt></ruby>です。<br><br>（　）になにがはいりますか。",
         "options": [
           "かお",
           "あし",
@@ -20212,7 +20212,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q29",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を かけて、<ruby>本<rt>ほん</rt></ruby>を 読みます。<ruby>目<rt>め</rt></ruby>が わるいですから。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を かけて、<ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みます。<ruby>目<rt>め</rt></ruby>が わるいですから。<br><br>（　）になにがはいりますか。",
         "options": [
           "めがね",
           "シャツ",
@@ -20225,7 +20225,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q30",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）が いたいので、休みます。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）が いたいので、<ruby>休<rt>やす</rt></ruby>みます。<br><br>（　）になにがはいりますか。",
         "options": [
           "みみ",
           "あたま",
@@ -20238,7 +20238,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q31",
         "section": "言語知識（文法）・読解",
         "type": "言い換え類義",
-        "text": "<u>すぐ</u> 終わります。<br><br>「すぐ」に ちかい いみの ことばは？",
+        "text": "<u>すぐ</u> <ruby>終わり<rt>おわり</rt></ruby>ます。<br><br>「すぐ」に ちかい いみの ことばは？",
         "options": [
           "あとで",
           "時間をかけて",
@@ -20251,7 +20251,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q32",
         "section": "言語知識（文法）・読解",
         "type": "言い換え類義",
-        "text": "<u>ちょうど</u> 十時です。<br><br>「ちょうど」に ちかい いみの ことばは？",
+        "text": "<u>ちょうど</u> <ruby>十<rt>じゅう</rt></ruby><ruby>時<rt>とき</rt></ruby>です。<br><br>「ちょうど」に ちかい いみの ことばは？",
         "options": [
           "だいたい",
           "すこし",
@@ -20368,7 +20368,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q41",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "ペン（　　） 名<ruby>前<rt>まえ</rt></ruby>を 書きました。<br><br>（　）になにがはいりますか。",
+        "text": "ペン（　　） <ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きました。<br><br>（　）になにがはいりますか。",
         "options": [
           "で",
           "を",
@@ -20381,7 +20381,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q42",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あした <ruby>学校<rt>がっこう</rt></ruby>（　　） 行きません。<br><br>（　）になにがはいりますか。",
+        "text": "あした <ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>（　　） <ruby>行<rt>い</rt></ruby>きません。<br><br>（　）になにがはいりますか。",
         "options": [
           "へを",
           "へは",
@@ -20394,7 +20394,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q43",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "だれ（　　） 来ませんでした。<br><br>（　）になにがはいりますか。",
+        "text": "だれ（　　） <ruby>来<rt>く</rt></ruby>ませんでした。<br><br>（　）になにがはいりますか。",
         "options": [
           "に",
           "を",
@@ -20407,7 +20407,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q44",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あそこに 猫が （　　） います。<br><br>（　）になにがはいりますか。",
+        "text": "あそこに <ruby>猫<rt>ねこ</rt></ruby>が （　　） います。<br><br>（　）になにがはいりますか。",
         "options": [
           "ひとつ",
           "ひとり",
@@ -20420,7 +20420,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q45",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "おんがくを （　　）ながら 勉強します。<br><br>（　）になにがはいりますか。",
+        "text": "おんがくを （　　）ながら <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>します。<br><br>（　）になにがはいりますか。",
         "options": [
           "きき",
           "きいて",
@@ -20433,7 +20433,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q46",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "<ruby><ruby>日本<rt>にほん</rt></ruby>語<rt>にほんご</rt></ruby>を 話すのが （　　）です。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby><ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby><rt>にほんご</rt></ruby>を <ruby>話<rt>はな</rt></ruby>すのが （　　）です。<br><br>（　）になにがはいりますか。",
         "options": [
           "うまく",
           "じょうず",
@@ -20446,7 +20446,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q47",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "宿題を （　　）から、遊びに行きます。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>宿題<rt>しゅくだい</rt></ruby>を （　　）から、<ruby>遊<rt>あそ</rt></ruby>びに<ruby>行<rt>い</rt></ruby>きます。<br><br>（　）になにがはいりますか。",
         "options": [
           "した",
           "する",
@@ -20459,7 +20459,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q48",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "この 料理は （　　） おいしくないです。<br><br>（　）になにがはいりますか。",
+        "text": "この <ruby>料理<rt>りょうり</rt></ruby>は （　　） おいしくないです。<br><br>（　）になにがはいりますか。",
         "options": [
           "とても",
           "すこし",
@@ -20472,7 +20472,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q49",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "これ（　　） わたしの 鞄です。<br><br>（　）になにがはいりますか。",
+        "text": "これ（　　） わたしの <ruby>鞄<rt>かばん</rt></ruby>です。<br><br>（　）になにがはいりますか。",
         "options": [
           "は",
           "を",
@@ -20485,7 +20485,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q50",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "昨日 （　　） <ruby>映画<rt>えいが</rt></ruby>は おもしろかったです。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>昨日<rt>きのう</rt></ruby> （　　） <ruby>映画<rt>えいが</rt></ruby>は おもしろかったです。<br><br>（　）になにがはいりますか。",
         "options": [
           "みて",
           "みた",
@@ -20498,7 +20498,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q51",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "コーヒー（　　） 紅茶、どちらが いいですか。<br><br>（　）になにがはいりますか。",
+        "text": "コーヒー（　　） <ruby>紅<ruby>茶<rt>ちゃ</rt></ruby><rt>こうちゃ</rt></ruby>、どちらが いいですか。<br><br>（　）になにがはいりますか。",
         "options": [
           "と",
           "を",
@@ -20511,7 +20511,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q52",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "<ruby>今日<rt>きょう</rt></ruby>は （　　） 寒いですね。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>今日<rt>きょう</rt></ruby>は （　　） <ruby>寒い<rt>さむい</rt></ruby>ですね。<br><br>（　）になにがはいりますか。",
         "options": [
           "あまり",
           "すこし",
@@ -20524,7 +20524,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q53",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あの 建物は （　　）ですか。<br><br>（　）になにがはいりますか。",
+        "text": "あの <ruby><ruby>建<rt>た</rt></ruby><ruby>物<rt>もの</rt></ruby><rt>たてもの</rt></ruby>は （　　）ですか。<br><br>（　）になにがはいりますか。",
         "options": [
           "なん",
           "どこ",
@@ -20537,7 +20537,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q54",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "机の<ruby>上<rt>うえ</rt></ruby>に 辞書（　　） あります。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>机<rt>つくえ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に <ruby>辞<ruby>書<rt>か</rt></ruby><rt>じしょ</rt></ruby>（　　） あります。<br><br>（　）になにがはいりますか。",
         "options": [
           "を",
           "が",
@@ -20550,7 +20550,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q55",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "ここ（　　） 名<ruby>前<rt>まえ</rt></ruby>を 書いてください。<br><br>（　）になにがはいりますか。",
+        "text": "ここ（　　） <ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>を <ruby>書<rt>か</rt></ruby>いてください。<br><br>（　）になにがはいりますか。",
         "options": [
           "を",
           "で",
@@ -20563,7 +20563,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q56",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "わたしは 毎<ruby>朝<rt>あさ</rt></ruby> 六時に 牛乳を 一回 飲みます。<br><br>★に入るものはどれですか。",
+        "text": "わたしは <ruby>毎<ruby>朝<rt>あさ</rt></ruby><rt>まいあさ</rt></ruby> <ruby>六<rt>ろく</rt></ruby><ruby>時<rt>とき</rt></ruby>に <ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>を <ruby><ruby>一<rt>いち</rt></ruby><ruby>回<rt>かい</rt></ruby><rt>いっかい</rt></ruby> <ruby>飲<rt>の</rt></ruby>みます。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "毎朝",
           "六時に",
@@ -20576,7 +20576,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q57",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "あそこに <ruby>白<rt>しろ</rt></ruby>い 帽<ruby>子<rt>こ</rt></ruby>を かぶった <ruby>人<rt>ひと</rt></ruby>が います。<br><br>★に入るものはどれですか。",
+        "text": "あそこに <ruby>白<rt>しろ</rt></ruby>い <ruby>帽<ruby>子<rt>こ</rt></ruby><rt>ぼうし</rt></ruby>を かぶった <ruby>人<rt>ひと</rt></ruby>が います。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "白い",
           "帽子を",
@@ -20589,7 +20589,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q58",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "そこに ゆっくり 椅<ruby>子<rt>こ</rt></ruby>に 座って かけて ください。<br><br>★に入るものはどれですか。",
+        "text": "そこに ゆっくり <ruby>椅<ruby>子<rt>こ</rt></ruby><rt>いす</rt></ruby>に <ruby>座<rt>すわ</rt></ruby>って かけて ください。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "そこに",
           "座って",
@@ -20602,7 +20602,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q59",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "公園の <ruby>中<rt>なか</rt></ruby>に <ruby>子供<rt>こども</rt></ruby>が 五<ruby>人<rt>ひと</rt></ruby> 遊んで います。<br><br>★に入るものはどれですか。",
+        "text": "<ruby>公<ruby>園<rt>えん</rt></ruby><rt>こうえん</rt></ruby>の <ruby>中<rt>なか</rt></ruby>に <ruby>子供<rt>こども</rt></ruby>が <ruby><ruby>五<rt>ご</rt></ruby><ruby>人<rt>ひと</rt></ruby><rt>ごにん</rt></ruby> <ruby>遊<rt>あそ</rt></ruby>んで います。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "中に",
           "子供が",
@@ -20615,7 +20615,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q60",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "ここに ボールペンで 名<ruby>前<rt>まえ</rt></ruby>を 書いて ください。<br><br>★に入るものはどれですか。",
+        "text": "ここに ボールペンで <ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>を <ruby>書<rt>か</rt></ruby>いて ください。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "ここに",
           "名前を",
@@ -20628,7 +20628,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q61",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（日記）一月 <ruby>八日<rt>ようか</rt></ruby>。<ruby>今日<rt>きょう</rt></ruby>は <ruby>学校<rt>がっこう</rt></ruby>へ 行きました。（ 1 ） 寒かったです。<br><br>（ 1 ）になにがはいりますか。",
+        "text": "（日<ruby>記<rt>き</rt></ruby>）<ruby><ruby>一<rt>いち</rt></ruby>月<rt>いちがつ</rt></ruby> <ruby><ruby>八<rt>はち</rt></ruby>日<rt>ようか</rt></ruby>。<ruby>今日<rt>きょう</rt></ruby>は <ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。（ 1 ） 寒かったです。<br><br>（ 1 ）になにがはいりますか。",
         "options": [
           "とても",
           "あまり",
@@ -20641,7 +20641,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q62",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（日記）放課<ruby>後<rt>うしろ</rt></ruby>、図書室で （ 2 ）を しました。<br><br>（ 2 ）になにがはいりますか。",
+        "text": "（日<ruby>記<rt>き</rt></ruby>）<ruby><ruby>放<rt>ほう</rt></ruby><ruby>課<rt>か</rt></ruby><ruby>後<rt>うしろ</rt></ruby><rt>ほうかご</rt></ruby>、<ruby>図<rt>と</rt></ruby><ruby>書<rt>か</rt></ruby>室で （ 2 ）を しました。<br><br>（ 2 ）になにがはいりますか。",
         "options": [
           "洗濯",
           "勉強",
@@ -20654,7 +20654,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q63",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（日記）それから <ruby>友<rt>とも</rt></ruby>だちと （ 3 ）に 行きました。<br><br>（ 3 ）になにがはいりますか。",
+        "text": "（日<ruby>記<rt>き</rt></ruby>）それから <ruby>友<rt>とも</rt></ruby>だちと （ 3 ）に <ruby>行<rt>い</rt></ruby>きました。<br><br>（ 3 ）になにがはいりますか。",
         "options": [
           "学校",
           "病院",
@@ -20667,7 +20667,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q64",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（日記）コーヒーを 飲みながら （ 4 ） 話しました。<br><br>（ 4 ）になにがはいりますか。",
+        "text": "（日<ruby>記<rt>き</rt></ruby>）コーヒーを <ruby>飲<rt>の</rt></ruby>みながら （ 4 ） <ruby>話<rt>はな</rt></ruby>しました。<br><br>（ 4 ）になにがはいりますか。",
         "options": [
           "いろいろ",
           "ちょっと",
@@ -20680,7 +20680,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q65",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（日記）とても （ 5 ） <ruby>一日<rt>ついたち</rt></ruby>でした。<br><br>（ 5 ）になにがはいりますか。",
+        "text": "（日<ruby>記<rt>き</rt></ruby>）とても （ 5 ） <ruby><ruby>一<rt>いち</rt></ruby>日<rt>ついたち</rt></ruby>でした。<br><br>（ 5 ）になにがはいりますか。",
         "options": [
           "たのしかった",
           "たのしい",
@@ -20693,7 +20693,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q66",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）田<ruby>中<rt>なか</rt></ruby>さんは <ruby>毎日<rt>まいにち</rt></ruby> 七時に おきます。パンを 食べてから 仕事に 行きます。<br><br>田<ruby>中<rt>なか</rt></ruby>さんは <ruby>朝<rt>あさ</rt></ruby> 何を しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>七<rt>なな</rt></ruby><ruby>時<rt>とき</rt></ruby>に おきます。パンを <ruby>食<rt>た</rt></ruby>べてから <ruby><ruby>仕<rt>し</rt></ruby><ruby>事<rt>こと</rt></ruby><rt>しごと</rt></ruby>に <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんは <ruby>朝<rt>あさ</rt></ruby> <ruby>何<rt>なに</rt></ruby>を しますか。",
         "options": [
           "コーヒーを飲む",
           "パンを食べる",
@@ -20706,7 +20706,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q67",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）わたしの 家は <ruby>駅<rt>えき</rt></ruby>から 十五分くらいです。とても 便利です。<br><br>家は どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）わたしの <ruby>家<rt>いえ</rt></ruby>は <ruby>駅<rt>えき</rt></ruby>から <ruby>十<rt>じゅう</rt></ruby><ruby>五<rt>ご</rt></ruby><ruby>分<rt>ふん</rt></ruby>くらいです。とても <ruby>便利<rt>べんり</rt></ruby>です。<br><br><ruby>家<rt>いえ</rt></ruby>は どうですか。",
         "options": [
           "遠くて不便",
           "少し遠い",
@@ -20719,7 +20719,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q68",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）昨日は 休みでした。どこへも 行きませんでした。家で <ruby>本<rt>ほん</rt></ruby>を 読みました。<br><br>昨日は 何を しましたか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>昨日<rt>きのう</rt></ruby>は <ruby>休<rt>やす</rt></ruby>みでした。どこへも <ruby>行<rt>い</rt></ruby>きませんでした。<ruby>家<rt>いえ</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みました。<br><br><ruby>昨日<rt>きのう</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を しましたか。",
         "options": [
           "買い物に行った",
           "公園に行った",
@@ -20732,7 +20732,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q69",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）この 料理は 少し 辛いですが、とても おいしいです。<br><br>この 料理は どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）この <ruby>料理<rt>りょうり</rt></ruby>は <ruby>少<rt>すく</rt></ruby>し <ruby>辛い<rt>からい</rt></ruby>ですが、とても おいしいです。<br><br>この <ruby>料理<rt>りょうり</rt></ruby>は どうですか。",
         "options": [
           "辛いがおいしい",
           "甘い",
@@ -20745,7 +20745,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q70",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）明日は <ruby>月曜日<rt>げつようび</rt></ruby>です。テストが ありますから、<ruby>今日<rt>きょう</rt></ruby>は 勉強します。<br><br>いつ 勉強しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby><ruby>明<rt>あか</rt></ruby>日<rt>あした</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>です。テストが ありますから、<ruby>今日<rt>きょう</rt></ruby>は <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>します。<br><br>いつ <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>しますか。",
         "options": [
           "明日",
           "今日",
@@ -20758,7 +20758,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q71",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）この ズボンは 少し 短いです。もっと 長いのは ありませんか。<br><br>この ズボンは どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）この ズボンは <ruby>少<rt>すく</rt></ruby>し 短いです。もっと <ruby>長<rt>なが</rt></ruby>いのは ありませんか。<br><br>この ズボンは どうですか。",
         "options": [
           "短い",
           "太い",
@@ -20771,7 +20771,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q72",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）木村さんは ギターが 好きです。<ruby>毎日<rt>まいにち</rt></ruby> 練習します。<br><br>木村さんは 何を 練習しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>木村<rt>きむら</rt></ruby>さんは ギターが <ruby>好き<rt>すき</rt></ruby>です。<ruby>毎日<rt>まいにち</rt></ruby> <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>します。<br><br><ruby>木村<rt>きむら</rt></ruby>さんは <ruby>何<rt>なに</rt></ruby>を <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>しますか。",
         "options": [
           "ピアノ",
           "歌",
@@ -20784,7 +20784,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q73",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "わたしは きょねん <ruby>日本<rt>にほん</rt></ruby>へ りょこうに いきました。一週間 ひとりで いろいろな 町を みました。にぎやかな 町も ありましたが、静かな ところが いちばん すきでした。こんどは 家族と いっしょに また <ruby>日本<rt>にほん</rt></ruby>へ いきたいです。<br><br>この<ruby>人<rt>ひと</rt></ruby>は <ruby>日本<rt>にほん</rt></ruby>へ だれと いきましたか。",
+        "text": "わたしは きょねん <ruby>日本<rt>にほん</rt></ruby>へ りょこうに いきました。<ruby>一<rt>いち</rt></ruby><ruby>週<rt>しゅう</rt></ruby><ruby>間<rt>あいだ</rt></ruby> ひとりで いろいろな <ruby>町<rt>まち</rt></ruby>を みました。にぎやかな <ruby>町<rt>まち</rt></ruby>も ありましたが、<ruby>静か<rt>しずか</rt></ruby>な ところが いちばん すきでした。こんどは <ruby><ruby>家<rt>いえ</rt></ruby>族<rt>かぞく</rt></ruby>と いっしょに また <ruby>日本<rt>にほん</rt></ruby>へ いきたいです。<br><br>この<ruby>人<rt>ひと</rt></ruby>は <ruby>日本<rt>にほん</rt></ruby>へ だれと いきましたか。",
         "options": [
           "友達",
           "家族",
@@ -20797,7 +20797,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q74",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）わたしは <ruby>日本<rt>にほん</rt></ruby>に 来て 一年に なります。<ruby><ruby>日本<rt>にほん</rt></ruby>語<rt>にほんご</rt></ruby><ruby>学校<rt>がっこう</rt></ruby>で べんきょうしています。<br><br><ruby>日本<rt>にほん</rt></ruby>に 来て どのくらいですか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）わたしは <ruby>日本<rt>にほん</rt></ruby>に <ruby>来<rt>く</rt></ruby>て <ruby>一<rt>いち</rt></ruby><ruby>年<rt>ねん</rt></ruby>に なります。<ruby><ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby><rt>にほんご</rt></ruby><ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>で べんきょうしています。<br><br><ruby>日本<rt>にほん</rt></ruby>に <ruby>来<rt>く</rt></ruby>て どのくらいですか。",
         "options": [
           "半年",
           "一年",
@@ -20810,7 +20810,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q75",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）<ruby>学校<rt>がっこう</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>から <ruby>金曜日<rt>きんようび</rt></ruby>まで あります。<br><br><ruby>学校<rt>がっこう</rt></ruby>は いつ ありますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>から <ruby>金曜日<rt>きんようび</rt></ruby>まで あります。<br><br><ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>は いつ ありますか。",
         "options": [
           "毎日",
           "週末",
@@ -20823,7 +20823,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q76",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "わたしの あたらしい いえは、<ruby>駅<rt>えき</rt></ruby>から 歩いて 十五分くらいです。ちかくに 大きな スーパーが ありますから、とても 便利です。いえの <ruby>中<rt>なか</rt></ruby>には 部屋が 四つ あります。明るくて 静かなので、わたしは この いえが とても 気に入っています。<br><br>この<ruby>人<rt>ひと</rt></ruby>の いえは どうですか。",
+        "text": "わたしの あたらしい いえは、<ruby>駅<rt>えき</rt></ruby>から <ruby>歩<rt>ある</rt></ruby>いて <ruby>十<rt>じゅう</rt></ruby><ruby>五<rt>ご</rt></ruby><ruby>分<rt>ふん</rt></ruby>くらいです。ちかくに <ruby>大<rt>おお</rt></ruby>きな スーパーが ありますから、とても <ruby>便利<rt>べんり</rt></ruby>です。いえの <ruby>中<rt>なか</rt></ruby>には <ruby>部屋<rt>へや</rt></ruby>が <ruby><ruby>四<rt>よん</rt></ruby>つ<rt>よっつ</rt></ruby> あります。<ruby>明<rt>あか</rt></ruby>るくて <ruby>静か<rt>しずか</rt></ruby>なので、わたしは この いえが とても 気に<ruby>入<rt>はい</rt></ruby>っています。<br><br>この<ruby>人<rt>ひと</rt></ruby>の いえは どうですか。",
         "options": [
           "駅から とおい",
           "不便だ",
@@ -20836,7 +20836,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q77",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）わたしの しゅみは サッカーです。週に 二回 練習します。<br><br>しゅみは 何ですか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）わたしの しゅみは サッカーです。<ruby>週<rt>しゅう</rt></ruby>に <ruby><ruby>二<rt>に</rt></ruby><ruby>回<rt>かい</rt></ruby><rt>にかい</rt></ruby> <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>します。<br><br>しゅみは <ruby>何<rt>なに</rt></ruby>ですか。",
         "options": [
           "サッカー",
           "テニス",
@@ -20849,7 +20849,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q78",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）週末は <ruby>友<rt>とも</rt></ruby>だちと サッカーを します。とても たのしいです。<br><br>だれと サッカーを しますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby><rt>しゅうまつ</rt></ruby>は <ruby>友<rt>とも</rt></ruby>だちと サッカーを します。とても たのしいです。<br><br>だれと サッカーを しますか。",
         "options": [
           "一人で",
           "友だち",
@@ -20862,7 +20862,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q79",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）<ruby>来月<rt>らいげつ</rt></ruby> サッカーの 大会が あります。たくさん 練習します。<br><br><ruby>来月<rt>らいげつ</rt></ruby> 何が ありますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>来<rt>く</rt></ruby>月<rt>らいげつ</rt></ruby> サッカーの <ruby>大<rt>おお</rt></ruby>会が あります。たくさん <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>します。<br><br><ruby><ruby>来<rt>く</rt></ruby>月<rt>らいげつ</rt></ruby> <ruby>何<rt>なに</rt></ruby>が ありますか。",
         "options": [
           "りょこう",
           "しけん",
@@ -20875,7 +20875,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q80",
         "section": "言語知識（文法）・読解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【食堂のメニュー】カレー：600円<br><br>カレーは いくらですか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【<ruby><ruby>食<rt>た</rt></ruby><ruby>堂<rt>どう</rt></ruby><rt>しょくどう</rt></ruby>のメニュー】カレー：600<ruby>円<rt>えん</rt></ruby><br><br>カレーは いくらですか。",
         "options": [
           "五百円",
           "七百円",
@@ -20888,7 +20888,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q81",
         "section": "聴解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【食堂】<ruby>日曜日<rt>にちようび</rt></ruby>：営業<br><br><ruby>日曜日<rt>にちようび</rt></ruby>は 休みですか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【<ruby><ruby>食<rt>た</rt></ruby><ruby>堂<rt>どう</rt></ruby><rt>しょくどう</rt></ruby>】<ruby>日曜日<rt>にちようび</rt></ruby>：<ruby>営業<rt>えいぎょう</rt></ruby><br><br><ruby>日曜日<rt>にちようび</rt></ruby>は <ruby>休<rt>やす</rt></ruby>みですか。",
         "options": [
           "いいえ",
           "はい",
@@ -20901,7 +20901,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q82",
         "section": "聴解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【食堂】営業時間：〜20時<br><br>何時に 閉まりますか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【<ruby><ruby>食<rt>た</rt></ruby><ruby>堂<rt>どう</rt></ruby><rt>しょくどう</rt></ruby>】<ruby><ruby>営業<rt>えいぎょう</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby><rt>えいぎょうじかん</rt></ruby>：〜20<ruby>時<rt>とき</rt></ruby><br><br><ruby>何<rt>なに</rt></ruby><ruby>時<rt>とき</rt></ruby>に <ruby>閉<rt>し</rt></ruby>まりますか。",
         "options": [
           "六時",
           "八時",
@@ -20914,7 +20914,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q83",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：くだものを 買いに 行きます。何が いいですか。<br><ruby>男<rt>おとこ</rt></ruby>：ぶどうを おねがいします。<br><br>何を 買いますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：くだものを <ruby>買<rt>か</rt></ruby>いに <ruby>行<rt>い</rt></ruby>きます。<ruby>何<rt>なに</rt></ruby>が いいですか。<br><ruby>男<rt>おとこ</rt></ruby>：ぶどうを おねがいします。<br><br><ruby>何<rt>なに</rt></ruby>を <ruby>買<rt>か</rt></ruby>いますか。",
         "options": [
           "りんご",
           "みかん",
@@ -20939,7 +20939,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q84",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：いつ 会いましょうか。<br><ruby>女<rt>おんな</rt></ruby>：十<ruby>三日<rt>みっか</rt></ruby>は どうですか。<br><ruby>男<rt>おとこ</rt></ruby>：いいですよ。<br><br>いつ 会いますか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：いつ 会いましょうか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>十<rt>じゅう</rt></ruby><ruby><ruby>三<rt>さん</rt></ruby>日<rt>みっか</rt></ruby>は どうですか。<br><ruby>男<rt>おとこ</rt></ruby>：いいですよ。<br><br>いつ 会いますか。",
         "options": [
           "十日",
           "十一日",
@@ -20977,7 +20977,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q86",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：誰と 行きますか。<br><ruby>女<rt>おんな</rt></ruby>：田<ruby>中<rt>なか</rt></ruby>さんと 行きます。<br><br>誰と 行きますか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>誰<rt>だれ</rt></ruby>と <ruby>行<rt>い</rt></ruby>きますか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんと <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>誰<rt>だれ</rt></ruby>と <ruby>行<rt>い</rt></ruby>きますか。",
         "options": [
           "先生",
           "田中さん",
@@ -20990,7 +20990,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q87",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：何で 行きますか。<br><ruby>男<rt>おとこ</rt></ruby>：自転車で 行きます。<br><br>何で 行きますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>何<rt>なに</rt></ruby>で <ruby>行<rt>い</rt></ruby>きますか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>自転<ruby>車<rt>くるま</rt></ruby><rt>じてんしゃ</rt></ruby>で <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>何<rt>なに</rt></ruby>で <ruby>行<rt>い</rt></ruby>きますか。",
         "options": [
           "バス",
           "電車",
@@ -21003,7 +21003,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q88",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>映画<rt>えいが</rt></ruby>は 何時間ですか。<br><ruby>女<rt>おんな</rt></ruby>：三時間です。<br><br>何時間ですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>映画<rt>えいが</rt></ruby>は <ruby>何<rt>なに</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>ですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>三<rt>さん</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>ですか。",
         "options": [
           "二時間",
           "四時間",
@@ -21016,7 +21016,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q89",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：どうして 行きませんでしたか。<br><ruby>男<rt>おとこ</rt></ruby>：忙しかったからです。<br><br>どうして 行きませんでしたか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：どうして <ruby>行<rt>い</rt></ruby>きませんでしたか。<br><ruby>男<rt>おとこ</rt></ruby>：忙しかったからです。<br><br>どうして <ruby>行<rt>い</rt></ruby>きませんでしたか。",
         "options": [
           "忙しいから",
           "寒いから",
@@ -21029,7 +21029,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q90",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：鍵は どこに ありましたか。<br><ruby>女<rt>おんな</rt></ruby>：机の <ruby>上<rt>うえ</rt></ruby>に ありました。<br><br>どこに ありましたか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>鍵<rt>かぎ</rt></ruby>は どこに ありましたか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>机<rt>つくえ</rt></ruby>の <ruby>上<rt>うえ</rt></ruby>に ありました。<br><br>どこに ありましたか。",
         "options": [
           "箱の中",
           "机の上",
@@ -21042,7 +21042,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q91",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：何色が 好きですか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>白<rt>しろ</rt></ruby>が 好きです。<br><br>何色が 好きですか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>何<rt>なに</rt></ruby><ruby>色<rt>いろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>ですか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>白<rt>しろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby>色<rt>いろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>ですか。",
         "options": [
           "赤",
           "青",
@@ -21055,7 +21055,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q92",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：何番の バスですか。<br><ruby>女<rt>おんな</rt></ruby>：四番です。<br><br>何番ですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>何<rt>なに</rt></ruby><ruby>番<rt>ばん</rt></ruby>の バスですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>四<rt>よん</rt></ruby><ruby>番<rt>ばん</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby>番<rt>ばん</rt></ruby>ですか。",
         "options": [
           "一番",
           "二番",
@@ -21068,7 +21068,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q93",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：誰が 来ましたか。<br><ruby>男<rt>おとこ</rt></ruby>：兄が 来ました。<br><br>誰が 来ましたか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>誰<rt>だれ</rt></ruby>が <ruby>来<rt>く</rt></ruby>ましたか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>兄<rt>あに</rt></ruby>が <ruby>来<rt>く</rt></ruby>ました。<br><br><ruby>誰<rt>だれ</rt></ruby>が <ruby>来<rt>く</rt></ruby>ましたか。",
         "options": [
           "兄",
           "姉",
@@ -21081,7 +21081,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q94",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：どこへ 行きたいですか。<br><ruby>女<rt>おんな</rt></ruby>：大阪へ 行きたいです。<br><br>どこへ 行きたいですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：どこへ <ruby>行<rt>い</rt></ruby>きたいですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby><ruby>大<rt>おお</rt></ruby>阪<rt>おおさか</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きたいです。<br><br>どこへ <ruby>行<rt>い</rt></ruby>きたいですか。",
         "options": [
           "東京",
           "大阪",
@@ -21094,7 +21094,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q95",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "お名<ruby>前<rt>まえ</rt></ruby>は？<br><br>なんと こたえますか。",
+        "text": "お<ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>は？<br><br>なんと こたえますか。",
         "options": [
           "銀行員です",
           "二十歳です",
@@ -21120,7 +21120,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q97",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "また <ruby>来週<rt>らいしゅう</rt></ruby>。<br><br>なんと こたえますか。",
+        "text": "また <ruby><ruby>来<rt>く</rt></ruby><ruby>週<rt>しゅう</rt></ruby><rt>らいしゅう</rt></ruby>。<br><br>なんと こたえますか。",
         "options": [
           "さようなら",
           "おはよう",
@@ -21133,7 +21133,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M16_Q98",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "失礼します。<br><br>なんと こたえますか。",
+        "text": "<ruby>失礼<rt>しつれい</rt></ruby>します。<br><br>なんと こたえますか。",
         "options": [
           "すみません",
           "どうぞ",
@@ -21187,7 +21187,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q2",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>父</u>は <u>毎朝</u> <u>六時</u>に <u>起</u>きます。<br><br>「起」きますのよみかたは？",
+        "text": "<u>父</u>は <u>毎朝</u> <u>六時</u>に <u>起</u>きます。<br><br>「<ruby>起<rt>お</rt></ruby>」きますのよみかたは？",
         "options": [
           "お",
           "き",
@@ -21213,7 +21213,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q4",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>母</u>と <u>店</u>で <u>魚</u>を <u>買</u>いました。<br><br>「魚」のよみかたは？",
+        "text": "<u>母</u>と <u>店</u>で <u>魚</u>を <u>買</u>いました。<br><br>「<ruby>魚<rt>さかな</rt></ruby>」のよみかたは？",
         "options": [
           "にく",
           "やさい",
@@ -21226,7 +21226,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q5",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "この <u>本</u>は <u>安</u>いです。<br><br>「安」いのよみかたは？",
+        "text": "この <u>本</u>は <u>安</u>いです。<br><br>「<ruby>安<rt>やす</rt></ruby>」いのよみかたは？",
         "options": [
           "たか",
           "あたら",
@@ -21252,7 +21252,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q7",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>自分</u>で <u>作</u>りました。<br><br>「作」りましたのよみかたは？",
+        "text": "<u>自分</u>で <u>作</u>りました。<br><br>「<ruby>作<rt>つく</rt></ruby>」りましたのよみかたは？",
         "options": [
           "つか",
           "つく",
@@ -21278,7 +21278,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q9",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>英語</u>を <u>話</u>します。<br><br>「話」しますのよみかたは？",
+        "text": "<u>英語</u>を <u>話</u>します。<br><br>「<ruby>話<rt>はな</rt></ruby>」しますのよみかたは？",
         "options": [
           "よ",
           "き",
@@ -21304,7 +21304,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q11",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>時間</u>が <u>少</u>ないです。<br><br>「少」ないのよみかたは？",
+        "text": "<u>時間</u>が <u>少</u>ないです。<br><br>「<ruby>少<rt>すく</rt></ruby>」ないのよみかたは？",
         "options": [
           "おお",
           "すくな",
@@ -21317,7 +21317,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q12",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>百</u>円 <u>安</u>いです。<br><br>「百」のよみかたは？",
+        "text": "<u>百</u><ruby>円<rt>えん</rt></ruby> <u>安</u>いです。<br><br>「百」のよみかたは？",
         "options": [
           "せん",
           "まん",
@@ -21369,7 +21369,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q16",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>ごふん</u> 待ってください。<br><br>「ごふん」のかきかたは？",
+        "text": "<u>ごふん</u> <ruby>待<rt>ま</rt></ruby>ってください。<br><br>「ごふん」のかきかたは？",
         "options": [
           "五時",
           "五日",
@@ -21382,7 +21382,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q17",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>がいこく</u>へ 行きます。<br><br>「がいこく」のかきかたは？",
+        "text": "<u>がいこく</u>へ <ruby>行<rt>い</rt></ruby>きます。<br><br>「がいこく」のかきかたは？",
         "options": [
           "中国",
           "国名",
@@ -21421,7 +21421,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q20",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>よる</u> <ruby>本<rt>ほん</rt></ruby>を 読みます。<br><br>「よる」のかきかたは？",
+        "text": "<u>よる</u> <ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みます。<br><br>「よる」のかきかたは？",
         "options": [
           "朝",
           "昼",
@@ -21434,7 +21434,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q21",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を ぬぎます。部屋に 入りますから。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を ぬぎます。<ruby>部屋<rt>へや</rt></ruby>に <ruby>入<rt>はい</rt></ruby>りますから。<br><br>（　）になにがはいりますか。",
         "options": [
           "シャツ",
           "ぼうし",
@@ -21447,7 +21447,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q22",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "この 荷物は （　　）ですね。<ruby>手<rt>て</rt></ruby>伝ってください。<br><br>（　）になにがはいりますか。",
+        "text": "この <ruby>荷<ruby>物<rt>もの</rt></ruby><rt>にもつ</rt></ruby>は （　　）ですね。<ruby>手<rt>て</rt></ruby>伝ってください。<br><br>（　）になにがはいりますか。",
         "options": [
           "おもい",
           "かるい",
@@ -21460,7 +21460,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q23",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を つけてください。ニュースを 見ます。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を つけてください。ニュースを <ruby>見<rt>み</rt></ruby>ます。<br><br>（　）になにがはいりますか。",
         "options": [
           "ラジオ",
           "テレビ",
@@ -21473,7 +21473,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q24",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を 見て、時間を 確認します。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を <ruby>見<rt>み</rt></ruby>て、<ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>を <ruby>確認<rt>かくにん</rt></ruby>します。<br><br>（　）になにがはいりますか。",
         "options": [
           "ノート",
           "じしょ",
@@ -21486,7 +21486,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q25",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "おなかが （　　）です。何か 食べましょう。<br><br>（　）になにがはいりますか。",
+        "text": "おなかが （　　）です。<ruby>何<rt>なに</rt></ruby>か <ruby>食<rt>た</rt></ruby>べましょう。<br><br>（　）になにがはいりますか。",
         "options": [
           "いたいです",
           "あついです",
@@ -21499,7 +21499,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q26",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を 撮りましょう。とても きれいな <ruby>山<rt>やま</rt></ruby>ですね。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を <ruby>撮<rt>と</rt></ruby>りましょう。とても きれいな <ruby>山<rt>やま</rt></ruby>ですね。<br><br>（　）になにがはいりますか。",
         "options": [
           "しゃしん",
           "てがみ",
@@ -21512,7 +21512,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q27",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "すみませんが、窓を （　　）ください。暑いですから。<br><br>（　）になにがはいりますか。",
+        "text": "すみませんが、<ruby><ruby>窓<rt>まど</rt></ruby><rt>まど</rt></ruby>を （　　）ください。<ruby>暑い<rt>あつい</rt></ruby>ですから。<br><br>（　）になにがはいりますか。",
         "options": [
           "しめて",
           "あけて",
@@ -21525,7 +21525,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q28",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を あらいます。ご飯を 食べる <ruby>前<rt>まえ</rt></ruby>です。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を あらいます。<ruby>ご飯<rt>ごはん</rt></ruby>を <ruby>食<rt>た</rt></ruby>べる <ruby>前<rt>まえ</rt></ruby>です。<br><br>（　）になにがはいりますか。",
         "options": [
           "かお",
           "あし",
@@ -21538,7 +21538,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q29",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を かけて、<ruby>本<rt>ほん</rt></ruby>を 読みます。<ruby>目<rt>め</rt></ruby>が わるいですから。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を かけて、<ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みます。<ruby>目<rt>め</rt></ruby>が わるいですから。<br><br>（　）になにがはいりますか。",
         "options": [
           "シャツ",
           "くつ",
@@ -21551,7 +21551,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q30",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）が いたいので、休みます。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）が いたいので、<ruby>休<rt>やす</rt></ruby>みます。<br><br>（　）になにがはいりますか。",
         "options": [
           "あたま",
           "みみ",
@@ -21564,7 +21564,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q31",
         "section": "言語知識（文法）・読解",
         "type": "言い換え類義",
-        "text": "<u>すぐ</u> 終わります。<br><br>「すぐ」に ちかい いみの ことばは？",
+        "text": "<u>すぐ</u> <ruby>終わり<rt>おわり</rt></ruby>ます。<br><br>「すぐ」に ちかい いみの ことばは？",
         "options": [
           "あとで",
           "いまから",
@@ -21577,7 +21577,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q32",
         "section": "言語知識（文法）・読解",
         "type": "言い換え類義",
-        "text": "<u>ちょうど</u> 十時です。<br><br>「ちょうど」に ちかい いみの ことばは？",
+        "text": "<u>ちょうど</u> <ruby>十<rt>じゅう</rt></ruby><ruby>時<rt>とき</rt></ruby>です。<br><br>「ちょうど」に ちかい いみの ことばは？",
         "options": [
           "だいたい",
           "すこし",
@@ -21694,7 +21694,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q41",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "ペン（　　） 名<ruby>前<rt>まえ</rt></ruby>を 書きました。<br><br>（　）になにがはいりますか。",
+        "text": "ペン（　　） <ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きました。<br><br>（　）になにがはいりますか。",
         "options": [
           "を",
           "に",
@@ -21707,7 +21707,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q42",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あした <ruby>学校<rt>がっこう</rt></ruby>（　　） 行きません。<br><br>（　）になにがはいりますか。",
+        "text": "あした <ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>（　　） <ruby>行<rt>い</rt></ruby>きません。<br><br>（　）になにがはいりますか。",
         "options": [
           "へは",
           "へを",
@@ -21720,7 +21720,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q43",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "だれ（　　） 来ませんでした。<br><br>（　）になにがはいりますか。",
+        "text": "だれ（　　） <ruby>来<rt>く</rt></ruby>ませんでした。<br><br>（　）になにがはいりますか。",
         "options": [
           "に",
           "も",
@@ -21733,7 +21733,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q44",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あそこに 猫が （　　） います。<br><br>（　）になにがはいりますか。",
+        "text": "あそこに <ruby>猫<rt>ねこ</rt></ruby>が （　　） います。<br><br>（　）になにがはいりますか。",
         "options": [
           "ひとつ",
           "ひとり",
@@ -21746,7 +21746,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q45",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "おんがくを （　　）ながら 勉強します。<br><br>（　）になにがはいりますか。",
+        "text": "おんがくを （　　）ながら <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>します。<br><br>（　）になにがはいりますか。",
         "options": [
           "きいて",
           "きく",
@@ -21759,7 +21759,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q46",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "<ruby><ruby>日本<rt>にほん</rt></ruby>語<rt>にほんご</rt></ruby>を 話すのが （　　）です。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby><ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby><rt>にほんご</rt></ruby>を <ruby>話<rt>はな</rt></ruby>すのが （　　）です。<br><br>（　）になにがはいりますか。",
         "options": [
           "じょうず",
           "うまく",
@@ -21772,7 +21772,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q47",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "宿題を （　　）から、遊びに行きます。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>宿題<rt>しゅくだい</rt></ruby>を （　　）から、<ruby>遊<rt>あそ</rt></ruby>びに<ruby>行<rt>い</rt></ruby>きます。<br><br>（　）になにがはいりますか。",
         "options": [
           "した",
           "して",
@@ -21785,7 +21785,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q48",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "この 料理は （　　） おいしくないです。<br><br>（　）になにがはいりますか。",
+        "text": "この <ruby>料理<rt>りょうり</rt></ruby>は （　　） おいしくないです。<br><br>（　）になにがはいりますか。",
         "options": [
           "とても",
           "すこし",
@@ -21798,7 +21798,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q49",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "これ（　　） わたしの 鞄です。<br><br>（　）になにがはいりますか。",
+        "text": "これ（　　） わたしの <ruby>鞄<rt>かばん</rt></ruby>です。<br><br>（　）になにがはいりますか。",
         "options": [
           "を",
           "に",
@@ -21811,7 +21811,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q50",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "昨日 （　　） <ruby>映画<rt>えいが</rt></ruby>は おもしろかったです。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>昨日<rt>きのう</rt></ruby> （　　） <ruby>映画<rt>えいが</rt></ruby>は おもしろかったです。<br><br>（　）になにがはいりますか。",
         "options": [
           "みた",
           "みて",
@@ -21824,7 +21824,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q51",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "コーヒー（　　） 紅茶、どちらが いいですか。<br><br>（　）になにがはいりますか。",
+        "text": "コーヒー（　　） <ruby>紅<ruby>茶<rt>ちゃ</rt></ruby><rt>こうちゃ</rt></ruby>、どちらが いいですか。<br><br>（　）になにがはいりますか。",
         "options": [
           "と",
           "か",
@@ -21837,7 +21837,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q52",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "<ruby>今日<rt>きょう</rt></ruby>は （　　） 寒いですね。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>今日<rt>きょう</rt></ruby>は （　　） <ruby>寒い<rt>さむい</rt></ruby>ですね。<br><br>（　）になにがはいりますか。",
         "options": [
           "あまり",
           "すこし",
@@ -21850,7 +21850,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q53",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あの 建物は （　　）ですか。<br><br>（　）になにがはいりますか。",
+        "text": "あの <ruby><ruby>建<rt>た</rt></ruby><ruby>物<rt>もの</rt></ruby><rt>たてもの</rt></ruby>は （　　）ですか。<br><br>（　）になにがはいりますか。",
         "options": [
           "どこ",
           "だれ",
@@ -21863,7 +21863,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q54",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "机の<ruby>上<rt>うえ</rt></ruby>に 辞書（　　） あります。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>机<rt>つくえ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に <ruby>辞<ruby>書<rt>か</rt></ruby><rt>じしょ</rt></ruby>（　　） あります。<br><br>（　）になにがはいりますか。",
         "options": [
           "が",
           "を",
@@ -21876,7 +21876,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q55",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "ここ（　　） 名<ruby>前<rt>まえ</rt></ruby>を 書いてください。<br><br>（　）になにがはいりますか。",
+        "text": "ここ（　　） <ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>を <ruby>書<rt>か</rt></ruby>いてください。<br><br>（　）になにがはいりますか。",
         "options": [
           "を",
           "に",
@@ -21889,7 +21889,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q56",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "わたしは 毎<ruby>朝<rt>あさ</rt></ruby> 六時に 牛乳を 一回 飲みます。<br><br>★に入るものはどれですか。",
+        "text": "わたしは <ruby>毎<ruby>朝<rt>あさ</rt></ruby><rt>まいあさ</rt></ruby> <ruby>六<rt>ろく</rt></ruby><ruby>時<rt>とき</rt></ruby>に <ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>を <ruby><ruby>一<rt>いち</rt></ruby><ruby>回<rt>かい</rt></ruby><rt>いっかい</rt></ruby> <ruby>飲<rt>の</rt></ruby>みます。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "毎朝",
           "六時に",
@@ -21902,7 +21902,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q57",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "あそこに <ruby>白<rt>しろ</rt></ruby>い 帽<ruby>子<rt>こ</rt></ruby>を かぶった <ruby>人<rt>ひと</rt></ruby>が います。<br><br>★に入るものはどれですか。",
+        "text": "あそこに <ruby>白<rt>しろ</rt></ruby>い <ruby>帽<ruby>子<rt>こ</rt></ruby><rt>ぼうし</rt></ruby>を かぶった <ruby>人<rt>ひと</rt></ruby>が います。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "白い",
           "帽子を",
@@ -21915,7 +21915,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q58",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "そこに ゆっくり 椅<ruby>子<rt>こ</rt></ruby>に 座って かけて ください。<br><br>★に入るものはどれですか。",
+        "text": "そこに ゆっくり <ruby>椅<ruby>子<rt>こ</rt></ruby><rt>いす</rt></ruby>に <ruby>座<rt>すわ</rt></ruby>って かけて ください。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "そこに",
           "座って",
@@ -21928,7 +21928,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q59",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "公園の <ruby>中<rt>なか</rt></ruby>に <ruby>子供<rt>こども</rt></ruby>が 五<ruby>人<rt>ひと</rt></ruby> 遊んで います。<br><br>★に入るものはどれですか。",
+        "text": "<ruby>公<ruby>園<rt>えん</rt></ruby><rt>こうえん</rt></ruby>の <ruby>中<rt>なか</rt></ruby>に <ruby>子供<rt>こども</rt></ruby>が <ruby><ruby>五<rt>ご</rt></ruby><ruby>人<rt>ひと</rt></ruby><rt>ごにん</rt></ruby> <ruby>遊<rt>あそ</rt></ruby>んで います。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "中に",
           "子供が",
@@ -21941,7 +21941,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q60",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "ここに ボールペンで 名<ruby>前<rt>まえ</rt></ruby>を 書いて ください。<br><br>★に入るものはどれですか。",
+        "text": "ここに ボールペンで <ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>を <ruby>書<rt>か</rt></ruby>いて ください。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "ここに",
           "名前を",
@@ -21954,7 +21954,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q61",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（<ruby>手<rt>て</rt></ruby>紙）リーさん、<ruby>元気<rt>げんき</rt></ruby>ですか。あしたは <ruby>日曜日<rt>にちようび</rt></ruby>ですね。（ 1 ） しますか。<br><br>（ 1 ）になにがはいりますか。",
+        "text": "（<ruby>手<rt>て</rt></ruby><ruby>紙<rt>かみ</rt></ruby>）リーさん、<ruby>元気<rt>げんき</rt></ruby>ですか。あしたは <ruby>日曜日<rt>にちようび</rt></ruby>ですね。（ 1 ） しますか。<br><br>（ 1 ）になにがはいりますか。",
         "options": [
           "どこを",
           "だれが",
@@ -21967,7 +21967,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q62",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（<ruby>手<rt>て</rt></ruby>紙）わたしは <ruby>友<rt>とも</rt></ruby>だちと <ruby>海<rt>うみ</rt></ruby>へ （ 2 ）。<br><br>（ 2 ）になにがはいりますか。",
+        "text": "（<ruby>手<rt>て</rt></ruby><ruby>紙<rt>かみ</rt></ruby>）わたしは <ruby>友<rt>とも</rt></ruby>だちと <ruby>海<rt>うみ</rt></ruby>へ （ 2 ）。<br><br>（ 2 ）になにがはいりますか。",
         "options": [
           "行きます",
           "行きました",
@@ -21980,7 +21980,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q63",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（<ruby>手<rt>て</rt></ruby>紙）<ruby>海<rt>うみ</rt></ruby>で たくさん （ 3 ） 泳ぎます。<br><br>（ 3 ）になにがはいりますか。",
+        "text": "（<ruby>手<rt>て</rt></ruby><ruby>紙<rt>かみ</rt></ruby>）<ruby>海<rt>うみ</rt></ruby>で たくさん （ 3 ） <ruby>泳<rt>およ</rt></ruby>ぎます。<br><br>（ 3 ）になにがはいりますか。",
         "options": [
           "魚と",
           "元気に",
@@ -21993,7 +21993,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q64",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（<ruby>手<rt>て</rt></ruby>紙）リーさんも （ 4 ） 行きませんか。<br><br>（ 4 ）になにがはいりますか。",
+        "text": "（<ruby>手<rt>て</rt></ruby><ruby>紙<rt>かみ</rt></ruby>）リーさんも （ 4 ） <ruby>行<rt>い</rt></ruby>きませんか。<br><br>（ 4 ）になにがはいりますか。",
         "options": [
           "ひとりで",
           "どこかへ",
@@ -22006,7 +22006,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q65",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（<ruby>手<rt>て</rt></ruby>紙）（ 5 ） お返事を ください。<br><br>（ 5 ）になにがはいりますか。",
+        "text": "（<ruby>手<rt>て</rt></ruby><ruby>紙<rt>かみ</rt></ruby>）（ 5 ） お<ruby><ruby>返<rt>かえ</rt></ruby><ruby>事<rt>こと</rt></ruby><rt>へんじ</rt></ruby>を ください。<br><br>（ 5 ）になにがはいりますか。",
         "options": [
           "たぶん",
           "もっと",
@@ -22019,7 +22019,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q66",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）田<ruby>中<rt>なか</rt></ruby>さんは <ruby>毎日<rt>まいにち</rt></ruby> 七時に おきます。パンを 食べてから 仕事に 行きます。<br><br>田<ruby>中<rt>なか</rt></ruby>さんは <ruby>朝<rt>あさ</rt></ruby> 何を しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>七<rt>なな</rt></ruby><ruby>時<rt>とき</rt></ruby>に おきます。パンを <ruby>食<rt>た</rt></ruby>べてから <ruby><ruby>仕<rt>し</rt></ruby><ruby>事<rt>こと</rt></ruby><rt>しごと</rt></ruby>に <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんは <ruby>朝<rt>あさ</rt></ruby> <ruby>何<rt>なに</rt></ruby>を しますか。",
         "options": [
           "パンを食べる",
           "コーヒーを飲む",
@@ -22032,7 +22032,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q67",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）わたしの 家は <ruby>駅<rt>えき</rt></ruby>から 十五分くらいです。とても 便利です。<br><br>家は どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）わたしの <ruby>家<rt>いえ</rt></ruby>は <ruby>駅<rt>えき</rt></ruby>から <ruby>十<rt>じゅう</rt></ruby><ruby>五<rt>ご</rt></ruby><ruby>分<rt>ふん</rt></ruby>くらいです。とても <ruby>便利<rt>べんり</rt></ruby>です。<br><br><ruby>家<rt>いえ</rt></ruby>は どうですか。",
         "options": [
           "遠くて不便",
           "便利だ",
@@ -22045,7 +22045,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q68",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）昨日は 休みでした。どこへも 行きませんでした。家で <ruby>本<rt>ほん</rt></ruby>を 読みました。<br><br>昨日は 何を しましたか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>昨日<rt>きのう</rt></ruby>は <ruby>休<rt>やす</rt></ruby>みでした。どこへも <ruby>行<rt>い</rt></ruby>きませんでした。<ruby>家<rt>いえ</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みました。<br><br><ruby>昨日<rt>きのう</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を しましたか。",
         "options": [
           "買い物に行った",
           "公園に行った",
@@ -22058,7 +22058,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q69",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）この 料理は 少し 辛いですが、とても おいしいです。<br><br>この 料理は どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）この <ruby>料理<rt>りょうり</rt></ruby>は <ruby>少<rt>すく</rt></ruby>し <ruby>辛い<rt>からい</rt></ruby>ですが、とても おいしいです。<br><br>この <ruby>料理<rt>りょうり</rt></ruby>は どうですか。",
         "options": [
           "甘い",
           "まずい",
@@ -22071,7 +22071,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q70",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）明日は <ruby>月曜日<rt>げつようび</rt></ruby>です。テストが ありますから、<ruby>今日<rt>きょう</rt></ruby>は 勉強します。<br><br>いつ 勉強しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby><ruby>明<rt>あか</rt></ruby>日<rt>あした</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>です。テストが ありますから、<ruby>今日<rt>きょう</rt></ruby>は <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>します。<br><br>いつ <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>しますか。",
         "options": [
           "今日",
           "明日",
@@ -22084,7 +22084,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q71",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）この ズボンは 少し 短いです。もっと 長いのは ありませんか。<br><br>この ズボンは どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）この ズボンは <ruby>少<rt>すく</rt></ruby>し 短いです。もっと <ruby>長<rt>なが</rt></ruby>いのは ありませんか。<br><br>この ズボンは どうですか。",
         "options": [
           "長い",
           "短い",
@@ -22097,7 +22097,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q72",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）木村さんは ギターが 好きです。<ruby>毎日<rt>まいにち</rt></ruby> 練習します。<br><br>木村さんは 何を 練習しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>木村<rt>きむら</rt></ruby>さんは ギターが <ruby>好き<rt>すき</rt></ruby>です。<ruby>毎日<rt>まいにち</rt></ruby> <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>します。<br><br><ruby>木村<rt>きむら</rt></ruby>さんは <ruby>何<rt>なに</rt></ruby>を <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>しますか。",
         "options": [
           "ピアノ",
           "歌",
@@ -22110,7 +22110,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q73",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）冷蔵庫に 牛乳が 三<ruby>本<rt>ほん</rt></ruby> あります。みかんは ありません。<br><br>冷蔵庫に 何が ありますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>に <ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>が <ruby>三<rt>さん</rt></ruby><ruby>本<rt>ほん</rt></ruby> あります。みかんは ありません。<br><br><ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>に <ruby>何<rt>なに</rt></ruby>が ありますか。",
         "options": [
           "みかん",
           "バナナ",
@@ -22123,7 +22123,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q74",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）わたしは <ruby>日本<rt>にほん</rt></ruby>に 来て 一年に なります。<ruby><ruby>日本<rt>にほん</rt></ruby>語<rt>にほんご</rt></ruby><ruby>学校<rt>がっこう</rt></ruby>で べんきょうしています。<br><br><ruby>日本<rt>にほん</rt></ruby>に 来て どのくらいですか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）わたしは <ruby>日本<rt>にほん</rt></ruby>に <ruby>来<rt>く</rt></ruby>て <ruby>一<rt>いち</rt></ruby><ruby>年<rt>ねん</rt></ruby>に なります。<ruby><ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby><rt>にほんご</rt></ruby><ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>で べんきょうしています。<br><br><ruby>日本<rt>にほん</rt></ruby>に <ruby>来<rt>く</rt></ruby>て どのくらいですか。",
         "options": [
           "一年",
           "半年",
@@ -22136,7 +22136,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q75",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）<ruby>学校<rt>がっこう</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>から <ruby>金曜日<rt>きんようび</rt></ruby>まで あります。<br><br><ruby>学校<rt>がっこう</rt></ruby>は いつ ありますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>から <ruby>金曜日<rt>きんようび</rt></ruby>まで あります。<br><br><ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>は いつ ありますか。",
         "options": [
           "毎日",
           "月曜日から金曜日",
@@ -22149,7 +22149,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q76",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）週末は アルバイトを しています。とても 忙しいです。<br><br>週末は 何を しますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby><rt>しゅうまつ</rt></ruby>は アルバイトを しています。とても <ruby>忙しい<rt>いそがしい</rt></ruby>です。<br><br><ruby><ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby><rt>しゅうまつ</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を しますか。",
         "options": [
           "べんきょう",
           "りょこう",
@@ -22162,7 +22162,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q77",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）わたしの しゅみは サッカーです。週に 二回 練習します。<br><br>しゅみは 何ですか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）わたしの しゅみは サッカーです。<ruby>週<rt>しゅう</rt></ruby>に <ruby><ruby>二<rt>に</rt></ruby><ruby>回<rt>かい</rt></ruby><rt>にかい</rt></ruby> <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>します。<br><br>しゅみは <ruby>何<rt>なに</rt></ruby>ですか。",
         "options": [
           "テニス",
           "野球",
@@ -22175,7 +22175,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q78",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）週末は <ruby>友<rt>とも</rt></ruby>だちと サッカーを します。とても たのしいです。<br><br>だれと サッカーを しますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby><rt>しゅうまつ</rt></ruby>は <ruby>友<rt>とも</rt></ruby>だちと サッカーを します。とても たのしいです。<br><br>だれと サッカーを しますか。",
         "options": [
           "友だち",
           "一人で",
@@ -22188,7 +22188,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q79",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）<ruby>来月<rt>らいげつ</rt></ruby> サッカーの 大会が あります。たくさん 練習します。<br><br><ruby>来月<rt>らいげつ</rt></ruby> 何が ありますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>来<rt>く</rt></ruby>月<rt>らいげつ</rt></ruby> サッカーの <ruby>大<rt>おお</rt></ruby>会が あります。たくさん <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>します。<br><br><ruby><ruby>来<rt>く</rt></ruby>月<rt>らいげつ</rt></ruby> <ruby>何<rt>なに</rt></ruby>が ありますか。",
         "options": [
           "りょこう",
           "大会",
@@ -22201,7 +22201,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q80",
         "section": "言語知識（文法）・読解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【郵便局】<ruby>日曜日<rt>にちようび</rt></ruby>：やすみ　月〜金：9時〜17時　土：9時〜12時<br><br><ruby>日曜日<rt>にちようび</rt></ruby>は 休みですか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>】<ruby>日曜日<rt>にちようび</rt></ruby>：やすみ　月〜金：9<ruby>時<rt>とき</rt></ruby>〜17<ruby>時<rt>とき</rt></ruby>　土：9<ruby>時<rt>とき</rt></ruby>〜12<ruby>時<rt>とき</rt></ruby><br><br><ruby>日曜日<rt>にちようび</rt></ruby>は <ruby>休<rt>やす</rt></ruby>みですか。",
         "options": [
           "はい",
           "午前だけ",
@@ -22214,7 +22214,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q81",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと おんなのひとが はなしています。おんなのひとは なにを かいますか。<br><ruby>男<rt>おとこ</rt></ruby>：これから <ruby>買い物<rt>かいもの</rt></ruby>に 行きます。パンを 買います。<br><ruby>女<rt>おんな</rt></ruby>：いいですね。<ruby>飲み物<rt>のみもの</rt></ruby>も 買ってきてください。お茶が いいです。<br><ruby>男<rt>おとこ</rt></ruby>：わかりました。お菓<ruby>子<rt>こ</rt></ruby>も いりますか。<br><ruby>女<rt>おんな</rt></ruby>：いいえ、お菓<ruby>子<rt>こ</rt></ruby>は いりません。<br><br>おんなのひとは なにを 買いますか。",
+        "text": "おとこのひとと おんなのひとが はなしています。おんなのひとは なにを かいますか。<br><ruby>男<rt>おとこ</rt></ruby>：これから <ruby><ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby><rt>かいもの</rt></ruby>に <ruby>行<rt>い</rt></ruby>きます。パンを <ruby>買<rt>か</rt></ruby>います。<br><ruby>女<rt>おんな</rt></ruby>：いいですね。<ruby><ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby><rt>のみもの</rt></ruby>も <ruby>買<rt>か</rt></ruby>ってきてください。<ruby>お<ruby>茶<rt>ちゃ</rt></ruby><rt>おちゃ</rt></ruby>が いいです。<br><ruby>男<rt>おとこ</rt></ruby>：わかりました。<ruby>お<ruby>菓<ruby>子<rt>こ</rt></ruby><rt>かし</rt></ruby><rt>おかし</rt></ruby>も いりますか。<br><ruby>女<rt>おんな</rt></ruby>：いいえ、<ruby>お<ruby>菓<ruby>子<rt>こ</rt></ruby><rt>かし</rt></ruby><rt>おかし</rt></ruby>は いりません。<br><br>おんなのひとは なにを <ruby>買<rt>か</rt></ruby>いますか。",
         "options": [
           "パン",
           "お菓子",
@@ -22240,7 +22240,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q83",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：くだものを 買いに 行きます。何が いいですか。<br><ruby>男<rt>おとこ</rt></ruby>：りんごを おねがいします。<br><br>何を 買いますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：くだものを <ruby>買<rt>か</rt></ruby>いに <ruby>行<rt>い</rt></ruby>きます。<ruby>何<rt>なに</rt></ruby>が いいですか。<br><ruby>男<rt>おとこ</rt></ruby>：りんごを おねがいします。<br><br><ruby>何<rt>なに</rt></ruby>を <ruby>買<rt>か</rt></ruby>いますか。",
         "options": [
           "みかん",
           "りんご",
@@ -22265,7 +22265,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q84",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：いつ 会いましょうか。<br><ruby>女<rt>おんな</rt></ruby>：十<ruby>二日<rt>ふつか</rt></ruby>は どうですか。<br><ruby>男<rt>おとこ</rt></ruby>：いいですよ。<br><br>いつ 会いますか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：いつ 会いましょうか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>十<rt>じゅう</rt></ruby><ruby><ruby>二<rt>に</rt></ruby>日<rt>ふつか</rt></ruby>は どうですか。<br><ruby>男<rt>おとこ</rt></ruby>：いいですよ。<br><br>いつ 会いますか。",
         "options": [
           "十日",
           "十一日",
@@ -22303,7 +22303,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q86",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：誰と 行きますか。<br><ruby>女<rt>おんな</rt></ruby>：先生と 行きます。<br><br>誰と 行きますか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>誰<rt>だれ</rt></ruby>と <ruby>行<rt>い</rt></ruby>きますか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>先<ruby>生<rt>せい</rt></ruby><rt>せんせい</rt></ruby>と <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>誰<rt>だれ</rt></ruby>と <ruby>行<rt>い</rt></ruby>きますか。",
         "options": [
           "先生",
           "田中さん",
@@ -22316,7 +22316,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q87",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：何で 行きますか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>電車<rt>でんしゃ</rt></ruby>で 行きます。<br><br>何で 行きますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>何<rt>なに</rt></ruby>で <ruby>行<rt>い</rt></ruby>きますか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby><ruby>電<rt>でん</rt></ruby><ruby>車<rt>くるま</rt></ruby><rt>でんしゃ</rt></ruby>で <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>何<rt>なに</rt></ruby>で <ruby>行<rt>い</rt></ruby>きますか。",
         "options": [
           "バス",
           "電車",
@@ -22329,7 +22329,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q88",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>映画<rt>えいが</rt></ruby>は 何時間ですか。<br><ruby>女<rt>おんな</rt></ruby>：三時間です。<br><br>何時間ですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>映画<rt>えいが</rt></ruby>は <ruby>何<rt>なに</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>ですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>三<rt>さん</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>ですか。",
         "options": [
           "二時間",
           "四時間",
@@ -22342,7 +22342,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q89",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：どうして 行きませんでしたか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>雨<rt>あめ</rt></ruby>だったからです。<br><br>どうして 行きませんでしたか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：どうして <ruby>行<rt>い</rt></ruby>きませんでしたか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>雨<rt>あめ</rt></ruby>だったからです。<br><br>どうして <ruby>行<rt>い</rt></ruby>きませんでしたか。",
         "options": [
           "忙しいから",
           "寒いから",
@@ -22355,7 +22355,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q90",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：鍵は どこに ありましたか。<br><ruby>女<rt>おんな</rt></ruby>：箱の <ruby>中<rt>なか</rt></ruby>に ありました。<br><br>どこに ありましたか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>鍵<rt>かぎ</rt></ruby>は どこに ありましたか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>箱<rt>はこ</rt></ruby>の <ruby>中<rt>なか</rt></ruby>に ありました。<br><br>どこに ありましたか。",
         "options": [
           "箱の中",
           "机の上",
@@ -22368,7 +22368,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q91",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：何色が 好きですか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>青<rt>あお</rt></ruby>が 好きです。<br><br>何色が 好きですか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>何<rt>なに</rt></ruby><ruby>色<rt>いろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>ですか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>青<rt>あお</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby>色<rt>いろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>ですか。",
         "options": [
           "赤",
           "青",
@@ -22381,7 +22381,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q92",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：何番の バスですか。<br><ruby>女<rt>おんな</rt></ruby>：三番です。<br><br>何番ですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>何<rt>なに</rt></ruby><ruby>番<rt>ばん</rt></ruby>の バスですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby><ruby>三<rt>さん</rt></ruby><ruby>番<rt>ばん</rt></ruby><rt>さんばん</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby>番<rt>ばん</rt></ruby>ですか。",
         "options": [
           "一番",
           "二番",
@@ -22394,7 +22394,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q93",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：誰が 来ましたか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>母<rt>はは</rt></ruby>が 来ました。<br><br>誰が 来ましたか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>誰<rt>だれ</rt></ruby>が <ruby>来<rt>く</rt></ruby>ましたか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>母<rt>はは</rt></ruby>が <ruby>来<rt>く</rt></ruby>ました。<br><br><ruby>誰<rt>だれ</rt></ruby>が <ruby>来<rt>く</rt></ruby>ましたか。",
         "options": [
           "兄",
           "姉",
@@ -22407,7 +22407,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q94",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：どこへ 行きたいですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>東<rt>ひがし</rt></ruby>京へ 行きたいです。<br><br>どこへ 行きたいですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：どこへ <ruby>行<rt>い</rt></ruby>きたいですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby><ruby>東<rt>ひがし</rt></ruby><ruby>京<rt>きょう</rt></ruby><rt>とうきょう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きたいです。<br><br>どこへ <ruby>行<rt>い</rt></ruby>きたいですか。",
         "options": [
           "東京",
           "大阪",
@@ -22472,7 +22472,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q99",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "お名<ruby>前<rt>まえ</rt></ruby>は？<br><br>なんと こたえますか。",
+        "text": "お<ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>は？<br><br>なんと こたえますか。",
         "options": [
           "銀行員です",
           "田中です",
@@ -22485,7 +22485,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M17_Q100",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "また <ruby>来週<rt>らいしゅう</rt></ruby>。<br><br>なんと こたえますか。",
+        "text": "また <ruby><ruby>来<rt>く</rt></ruby><ruby>週<rt>しゅう</rt></ruby><rt>らいしゅう</rt></ruby>。<br><br>なんと こたえますか。",
         "options": [
           "おはよう",
           "おやすみなさい",
@@ -22500,7 +22500,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q1",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>父</u>は <u>毎朝</u> <u>新聞</u>を <u>読</u>みます。<br><br>「新聞」のよみかたは？",
+        "text": "<u>父</u>は <u>毎朝</u> <u>新聞</u>を <u>読</u>みます。<br><br>「<ruby><ruby>新<rt>あたら</rt></ruby><ruby>聞<rt>き</rt></ruby><rt>しんぶん</rt></ruby>」のよみかたは？",
         "options": [
           "しんぶん",
           "きんぶん",
@@ -22513,7 +22513,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q2",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "この <u>料理</u>は <u>熱</u>いです。<br><br>「熱」いのよみかたは？",
+        "text": "この <u>料理</u>は <u>熱</u>いです。<br><br>「<ruby>熱<rt>ねつ</rt></ruby>」いのよみかたは？",
         "options": [
           "さむい",
           "あつい",
@@ -22526,7 +22526,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q3",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>水曜日</u>の <u>午前</u><ruby>中<rt>なか</rt></ruby>に 行きます。<br><br>「<ruby>午前<rt>ごぜん</rt></ruby>」のよみかたは？",
+        "text": "<u>水曜日</u>の <u>午前</u><ruby>中<rt>なか</rt></ruby>に <ruby>行<rt>い</rt></ruby>きます。<br><br>「<ruby>午前<rt>ごぜん</rt></ruby>」のよみかたは？",
         "options": [
           "ごご",
           "あさ",
@@ -22539,7 +22539,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q4",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>名前</u>を <u>教</u>えてください。<br><br>「教」えてのよみかたは？",
+        "text": "<u>名前</u>を <u>教</u>えてください。<br><br>「<ruby>教<rt>おし</rt></ruby>」えてのよみかたは？",
         "options": [
           "か",
           "よ",
@@ -22565,7 +22565,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q6",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>南</u>に <u>新</u>しい <u>駅</u>が できました。<br><br>「新」しいのよみかたは？",
+        "text": "<u>南</u>に <u>新</u>しい <u>駅</u>が できました。<br><br>「<ruby>新<rt>あたら</rt></ruby>」しいのよみかたは？",
         "options": [
           "ふるい",
           "あたらしい",
@@ -22591,7 +22591,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q8",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>一万</u>円の <u>時計</u>を <u>持</u>っています。<br><br>「持」っていますのよみかたは？",
+        "text": "<u>一万</u><ruby>円<rt>えん</rt></ruby>の <u>時計</u>を <u>持</u>っています。<br><br>「<ruby>持<rt>も</rt></ruby>」っていますのよみかたは？",
         "options": [
           "ま",
           "あ",
@@ -22630,7 +22630,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q11",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>時間</u>が <u>少</u>ないです。<br><br>「少」ないのよみかたは？",
+        "text": "<u>時間</u>が <u>少</u>ないです。<br><br>「<ruby>少<rt>すく</rt></ruby>」ないのよみかたは？",
         "options": [
           "おお",
           "ちいさ",
@@ -22656,7 +22656,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q13",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>でんしゃ</u>で 来ました。<br><br>「でんしゃ」のかきかたは？",
+        "text": "<u>でんしゃ</u>で <ruby>来<rt>く</rt></ruby>ました。<br><br>「でんしゃ」のかきかたは？",
         "options": [
           "電車",
           "田車",
@@ -22682,7 +22682,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q15",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>しろい</u> 鞄を 買いました。<br><br>「しろい」のかきかたは？",
+        "text": "<u>しろい</u> <ruby>鞄<rt>かばん</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。<br><br>「しろい」のかきかたは？",
         "options": [
           "青い",
           "赤い",
@@ -22695,7 +22695,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q16",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>じゅうぷん</u> 休みます。<br><br>「じゅうぷん」のかきかたは？",
+        "text": "<u>じゅうぷん</u> <ruby>休<rt>やす</rt></ruby>みます。<br><br>「じゅうぷん」のかきかたは？",
         "options": [
           "十日",
           "十回",
@@ -22734,7 +22734,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q19",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>ともだち</u>と 遊びます。<br><br>「ともだち」のかきかたは？",
+        "text": "<u>ともだち</u>と <ruby>遊<rt>あそ</rt></ruby>びます。<br><br>「ともだち」のかきかたは？",
         "options": [
           "友人",
           "友立",
@@ -22747,7 +22747,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q20",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>よる</u> ご飯を 食べます。<br><br>「よる」のかきかたは？",
+        "text": "<u>よる</u> <ruby>ご飯<rt>ごはん</rt></ruby>を <ruby>食<rt>た</rt></ruby>べます。<br><br>「よる」のかきかたは？",
         "options": [
           "朝",
           "昼",
@@ -22760,7 +22760,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q21",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "この 部屋は （　　）です。エアコンを つけましょう。<br><br>（　）になにがはいりますか。",
+        "text": "この <ruby>部屋<rt>へや</rt></ruby>は （　　）です。エアコンを つけましょう。<br><br>（　）になにがはいりますか。",
         "options": [
           "あつい",
           "さむい",
@@ -22773,7 +22773,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q22",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "あしたは （　　）ですね。<ruby>海<rt>うみ</rt></ruby>へ 行きましょう。<br><br>（　）になにがはいりますか。",
+        "text": "あしたは （　　）ですね。<ruby>海<rt>うみ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きましょう。<br><br>（　）になにがはいりますか。",
         "options": [
           "てんき",
           "やすみ",
@@ -22786,7 +22786,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q23",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を ぬいで、部屋に 入ります。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を ぬいで、<ruby>部屋<rt>へや</rt></ruby>に <ruby>入<rt>はい</rt></ruby>ります。<br><br>（　）になにがはいりますか。",
         "options": [
           "シャツ",
           "ぼうし",
@@ -22799,7 +22799,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q24",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を 見て、漢字を 調べます。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を <ruby>見<rt>み</rt></ruby>て、<ruby>漢字<rt>かんじ</rt></ruby>を 調べます。<br><br>（　）になにがはいりますか。",
         "options": [
           "ノート",
           "新聞",
@@ -22812,7 +22812,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q25",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "おなかが （　　）です。何か 食べたいです。<br><br>（　）になにがはいりますか。",
+        "text": "おなかが （　　）です。<ruby>何<rt>なに</rt></ruby>か <ruby>食<rt>た</rt></ruby>べたいです。<br><br>（　）になにがはいりますか。",
         "options": [
           "すきました",
           "いたいです",
@@ -22825,7 +22825,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q26",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を 撮りました。とても きれいでした。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を <ruby>撮<rt>と</rt></ruby>りました。とても きれいでした。<br><br>（　）になにがはいりますか。",
         "options": [
           "てがみ",
           "しゃしん",
@@ -22838,7 +22838,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q27",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "すみませんが、窓を （　　）ください。暑いですから。<br><br>（　）になにがはいりますか。",
+        "text": "すみませんが、<ruby><ruby>窓<rt>まど</rt></ruby><rt>まど</rt></ruby>を （　　）ください。<ruby>暑い<rt>あつい</rt></ruby>ですから。<br><br>（　）になにがはいりますか。",
         "options": [
           "しめて",
           "つけて",
@@ -22864,7 +22864,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q29",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を かけて、出かけます。<ruby>目<rt>め</rt></ruby>が わるいですから。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を かけて、<ruby>出<rt>で</rt></ruby>かけます。<ruby>目<rt>め</rt></ruby>が わるいですから。<br><br>（　）になにがはいりますか。",
         "options": [
           "めがね",
           "シャツ",
@@ -22877,7 +22877,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q30",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）が いたいので、<ruby>病院<rt>びょういん</rt></ruby>へ 行きます。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）が いたいので、<ruby>病院<rt>びょういん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。<br><br>（　）になにがはいりますか。",
         "options": [
           "みみ",
           "あたま",
@@ -22890,7 +22890,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q31",
         "section": "言語知識（文法）・読解",
         "type": "言い換え類義",
-        "text": "<u>すぐ</u> 行きます。<br><br>「すぐ」に ちかい いみの ことばは？",
+        "text": "<u>すぐ</u> <ruby>行<rt>い</rt></ruby>きます。<br><br>「すぐ」に ちかい いみの ことばは？",
         "options": [
           "あとで",
           "時間をかけて",
@@ -22903,7 +22903,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q32",
         "section": "言語知識（文法）・読解",
         "type": "言い換え類義",
-        "text": "<u>ちょうど</u> 十時です。<br><br>「ちょうど」に ちかい いみの ことばは？",
+        "text": "<u>ちょうど</u> <ruby>十<rt>じゅう</rt></ruby><ruby>時<rt>とき</rt></ruby>です。<br><br>「ちょうど」に ちかい いみの ことばは？",
         "options": [
           "だいたい",
           "すこし",
@@ -23020,7 +23020,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q41",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "ペン（　　） 名<ruby>前<rt>まえ</rt></ruby>を 書きました。<br><br>（　）になにがはいりますか。",
+        "text": "ペン（　　） <ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きました。<br><br>（　）になにがはいりますか。",
         "options": [
           "で",
           "を",
@@ -23033,7 +23033,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q42",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あした <ruby>学校<rt>がっこう</rt></ruby>（　　） 行きません。<br><br>（　）になにがはいりますか。",
+        "text": "あした <ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>（　　） <ruby>行<rt>い</rt></ruby>きません。<br><br>（　）になにがはいりますか。",
         "options": [
           "へを",
           "へは",
@@ -23046,7 +23046,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q43",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "だれ（　　） 来ませんでした。<br><br>（　）になにがはいりますか。",
+        "text": "だれ（　　） <ruby>来<rt>く</rt></ruby>ませんでした。<br><br>（　）になにがはいりますか。",
         "options": [
           "に",
           "を",
@@ -23059,7 +23059,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q44",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あそこに 猫が （　　） います。<br><br>（　）になにがはいりますか。",
+        "text": "あそこに <ruby>猫<rt>ねこ</rt></ruby>が （　　） います。<br><br>（　）になにがはいりますか。",
         "options": [
           "ひとつ",
           "ひとり",
@@ -23072,7 +23072,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q45",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "おんがくを （　　）ながら 勉強します。<br><br>（　）になにがはいりますか。",
+        "text": "おんがくを （　　）ながら <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>します。<br><br>（　）になにがはいりますか。",
         "options": [
           "きき",
           "きいて",
@@ -23085,7 +23085,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q46",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "<ruby><ruby>日本<rt>にほん</rt></ruby>語<rt>にほんご</rt></ruby>を 話すのが （　　）です。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby><ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby><rt>にほんご</rt></ruby>を <ruby>話<rt>はな</rt></ruby>すのが （　　）です。<br><br>（　）になにがはいりますか。",
         "options": [
           "うまく",
           "じょうず",
@@ -23098,7 +23098,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q47",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "宿題を （　　）から、遊びに行きます。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>宿題<rt>しゅくだい</rt></ruby>を （　　）から、<ruby>遊<rt>あそ</rt></ruby>びに<ruby>行<rt>い</rt></ruby>きます。<br><br>（　）になにがはいりますか。",
         "options": [
           "した",
           "する",
@@ -23111,7 +23111,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q48",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "この 料理は （　　） おいしくないです。<br><br>（　）になにがはいりますか。",
+        "text": "この <ruby>料理<rt>りょうり</rt></ruby>は （　　） おいしくないです。<br><br>（　）になにがはいりますか。",
         "options": [
           "とても",
           "すこし",
@@ -23124,7 +23124,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q49",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "これ（　　） わたしの 鞄です。<br><br>（　）になにがはいりますか。",
+        "text": "これ（　　） わたしの <ruby>鞄<rt>かばん</rt></ruby>です。<br><br>（　）になにがはいりますか。",
         "options": [
           "は",
           "を",
@@ -23137,7 +23137,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q50",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "昨日 （　　） <ruby>映画<rt>えいが</rt></ruby>は おもしろかったです。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>昨日<rt>きのう</rt></ruby> （　　） <ruby>映画<rt>えいが</rt></ruby>は おもしろかったです。<br><br>（　）になにがはいりますか。",
         "options": [
           "みて",
           "みた",
@@ -23150,7 +23150,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q51",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "コーヒー（　　） 紅茶、どちらが いいですか。<br><br>（　）になにがはいりますか。",
+        "text": "コーヒー（　　） <ruby>紅<ruby>茶<rt>ちゃ</rt></ruby><rt>こうちゃ</rt></ruby>、どちらが いいですか。<br><br>（　）になにがはいりますか。",
         "options": [
           "と",
           "を",
@@ -23163,7 +23163,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q52",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "<ruby>今日<rt>きょう</rt></ruby>は （　　） 寒いですね。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>今日<rt>きょう</rt></ruby>は （　　） <ruby>寒い<rt>さむい</rt></ruby>ですね。<br><br>（　）になにがはいりますか。",
         "options": [
           "あまり",
           "すこし",
@@ -23176,7 +23176,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q53",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あの 建物は （　　）ですか。<br><br>（　）になにがはいりますか。",
+        "text": "あの <ruby><ruby>建<rt>た</rt></ruby><ruby>物<rt>もの</rt></ruby><rt>たてもの</rt></ruby>は （　　）ですか。<br><br>（　）になにがはいりますか。",
         "options": [
           "なん",
           "どこ",
@@ -23189,7 +23189,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q54",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "机の<ruby>上<rt>うえ</rt></ruby>に 辞書（　　） あります。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>机<rt>つくえ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に <ruby>辞<ruby>書<rt>か</rt></ruby><rt>じしょ</rt></ruby>（　　） あります。<br><br>（　）になにがはいりますか。",
         "options": [
           "を",
           "が",
@@ -23202,7 +23202,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q55",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "ここ（　　） 名<ruby>前<rt>まえ</rt></ruby>を 書いてください。<br><br>（　）になにがはいりますか。",
+        "text": "ここ（　　） <ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>を <ruby>書<rt>か</rt></ruby>いてください。<br><br>（　）になにがはいりますか。",
         "options": [
           "を",
           "で",
@@ -23215,7 +23215,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q56",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "わたしは 毎<ruby>朝<rt>あさ</rt></ruby> 六時に 牛乳を 一回 飲みます。<br><br>★に入るものはどれですか。",
+        "text": "わたしは <ruby>毎<ruby>朝<rt>あさ</rt></ruby><rt>まいあさ</rt></ruby> <ruby>六<rt>ろく</rt></ruby><ruby>時<rt>とき</rt></ruby>に <ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>を <ruby><ruby>一<rt>いち</rt></ruby><ruby>回<rt>かい</rt></ruby><rt>いっかい</rt></ruby> <ruby>飲<rt>の</rt></ruby>みます。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "毎朝",
           "六時に",
@@ -23228,7 +23228,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q57",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "あそこに <ruby>白<rt>しろ</rt></ruby>い 帽<ruby>子<rt>こ</rt></ruby>を かぶった <ruby>人<rt>ひと</rt></ruby>が います。<br><br>★に入るものはどれですか。",
+        "text": "あそこに <ruby>白<rt>しろ</rt></ruby>い <ruby>帽<ruby>子<rt>こ</rt></ruby><rt>ぼうし</rt></ruby>を かぶった <ruby>人<rt>ひと</rt></ruby>が います。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "白い",
           "帽子を",
@@ -23241,7 +23241,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q58",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "そこに ゆっくり 椅<ruby>子<rt>こ</rt></ruby>に 座って かけて ください。<br><br>★に入るものはどれですか。",
+        "text": "そこに ゆっくり <ruby>椅<ruby>子<rt>こ</rt></ruby><rt>いす</rt></ruby>に <ruby>座<rt>すわ</rt></ruby>って かけて ください。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "そこに",
           "座って",
@@ -23254,7 +23254,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q59",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "公園の <ruby>中<rt>なか</rt></ruby>に <ruby>子供<rt>こども</rt></ruby>が 五<ruby>人<rt>ひと</rt></ruby> 遊んで います。<br><br>★に入るものはどれですか。",
+        "text": "<ruby>公<ruby>園<rt>えん</rt></ruby><rt>こうえん</rt></ruby>の <ruby>中<rt>なか</rt></ruby>に <ruby>子供<rt>こども</rt></ruby>が <ruby><ruby>五<rt>ご</rt></ruby><ruby>人<rt>ひと</rt></ruby><rt>ごにん</rt></ruby> <ruby>遊<rt>あそ</rt></ruby>んで います。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "中に",
           "子供が",
@@ -23267,7 +23267,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q60",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "ここに ボールペンで 名<ruby>前<rt>まえ</rt></ruby>を 書いて ください。<br><br>★に入るものはどれですか。",
+        "text": "ここに ボールペンで <ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>を <ruby>書<rt>か</rt></ruby>いて ください。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "ここに",
           "名前を",
@@ -23306,7 +23306,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q63",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（メール）<ruby>海<rt>うみ</rt></ruby>で たくさん （ 3 ） 泳ぎます。<br><br>（ 3 ）になにがはいりますか。",
+        "text": "（メール）<ruby>海<rt>うみ</rt></ruby>で たくさん （ 3 ） <ruby>泳<rt>およ</rt></ruby>ぎます。<br><br>（ 3 ）になにがはいりますか。",
         "options": [
           "魚と",
           "水を",
@@ -23319,7 +23319,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q64",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（メール）ジョンさんも （ 4 ） 行きませんか。<br><br>（ 4 ）になにがはいりますか。",
+        "text": "（メール）ジョンさんも （ 4 ） <ruby>行<rt>い</rt></ruby>きませんか。<br><br>（ 4 ）になにがはいりますか。",
         "options": [
           "ひとりで",
           "どこかへ",
@@ -23332,7 +23332,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q65",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（メール）（ 5 ） お返事を ください。<br><br>（ 5 ）になにがはいりますか。",
+        "text": "（メール）（ 5 ） お<ruby><ruby>返<rt>かえ</rt></ruby><ruby>事<rt>こと</rt></ruby><rt>へんじ</rt></ruby>を ください。<br><br>（ 5 ）になにがはいりますか。",
         "options": [
           "ぜひ",
           "たぶん",
@@ -23345,7 +23345,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q66",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）田<ruby>中<rt>なか</rt></ruby>さんは <ruby>毎日<rt>まいにち</rt></ruby> 七時に おきます。パンを 食べてから 仕事に 行きます。<br><br>田<ruby>中<rt>なか</rt></ruby>さんは <ruby>朝<rt>あさ</rt></ruby> 何を しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>七<rt>なな</rt></ruby><ruby>時<rt>とき</rt></ruby>に おきます。パンを <ruby>食<rt>た</rt></ruby>べてから <ruby><ruby>仕<rt>し</rt></ruby><ruby>事<rt>こと</rt></ruby><rt>しごと</rt></ruby>に <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんは <ruby>朝<rt>あさ</rt></ruby> <ruby>何<rt>なに</rt></ruby>を しますか。",
         "options": [
           "コーヒーを飲む",
           "パンを食べる",
@@ -23358,7 +23358,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q67",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）わたしの 家は <ruby>駅<rt>えき</rt></ruby>から 十五分くらいです。とても 便利です。<br><br>家は どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）わたしの <ruby>家<rt>いえ</rt></ruby>は <ruby>駅<rt>えき</rt></ruby>から <ruby>十<rt>じゅう</rt></ruby><ruby>五<rt>ご</rt></ruby><ruby>分<rt>ふん</rt></ruby>くらいです。とても <ruby>便利<rt>べんり</rt></ruby>です。<br><br><ruby>家<rt>いえ</rt></ruby>は どうですか。",
         "options": [
           "遠くて不便",
           "少し遠い",
@@ -23371,7 +23371,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q68",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）昨日は 休みでした。どこへも 行きませんでした。家で <ruby>本<rt>ほん</rt></ruby>を 読みました。<br><br>昨日は 何を しましたか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>昨日<rt>きのう</rt></ruby>は <ruby>休<rt>やす</rt></ruby>みでした。どこへも <ruby>行<rt>い</rt></ruby>きませんでした。<ruby>家<rt>いえ</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みました。<br><br><ruby>昨日<rt>きのう</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を しましたか。",
         "options": [
           "買い物に行った",
           "公園に行った",
@@ -23384,7 +23384,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q69",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）この 料理は 少し 辛いですが、とても おいしいです。<br><br>この 料理は どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）この <ruby>料理<rt>りょうり</rt></ruby>は <ruby>少<rt>すく</rt></ruby>し <ruby>辛い<rt>からい</rt></ruby>ですが、とても おいしいです。<br><br>この <ruby>料理<rt>りょうり</rt></ruby>は どうですか。",
         "options": [
           "辛いがおいしい",
           "甘い",
@@ -23397,7 +23397,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q70",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）明日は <ruby>月曜日<rt>げつようび</rt></ruby>です。テストが ありますから、<ruby>今日<rt>きょう</rt></ruby>は 勉強します。<br><br>いつ 勉強しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby><ruby>明<rt>あか</rt></ruby>日<rt>あした</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>です。テストが ありますから、<ruby>今日<rt>きょう</rt></ruby>は <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>します。<br><br>いつ <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>しますか。",
         "options": [
           "明日",
           "今日",
@@ -23410,7 +23410,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q71",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）この ズボンは 少し 短いです。もっと 長いのは ありませんか。<br><br>この ズボンは どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）この ズボンは <ruby>少<rt>すく</rt></ruby>し 短いです。もっと <ruby>長<rt>なが</rt></ruby>いのは ありませんか。<br><br>この ズボンは どうですか。",
         "options": [
           "短い",
           "太い",
@@ -23423,7 +23423,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q72",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）木村さんは ギターが 好きです。<ruby>毎日<rt>まいにち</rt></ruby> 練習します。<br><br>木村さんは 何を 練習しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>木村<rt>きむら</rt></ruby>さんは ギターが <ruby>好き<rt>すき</rt></ruby>です。<ruby>毎日<rt>まいにち</rt></ruby> <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>します。<br><br><ruby>木村<rt>きむら</rt></ruby>さんは <ruby>何<rt>なに</rt></ruby>を <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>しますか。",
         "options": [
           "ピアノ",
           "歌",
@@ -23436,7 +23436,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q73",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "<ruby>日本<rt>にほん</rt></ruby>には いろいろな 食べものが あります。わたしは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>日本<rt>にほん</rt></ruby>の ごはんを 食べます。<ruby>朝<rt>あさ</rt></ruby>は パンと 牛乳ですが、<ruby>昼<rt>ひる</rt></ruby>と <ruby>夜<rt>よる</rt></ruby>は お米を 食べます。お米は とても おいしいです。ときどき <ruby>友達<rt>ともだち</rt></ruby>と いっしょに レストランへ 行って お寿司を 食べます。<br><br>この<ruby>人<rt>ひと</rt></ruby>は いつ お米を 食べますか。",
+        "text": "<ruby>日本<rt>にほん</rt></ruby>には いろいろな <ruby>食<rt>た</rt></ruby>べものが あります。わたしは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>日本<rt>にほん</rt></ruby>の ごはんを <ruby>食<rt>た</rt></ruby>べます。<ruby>朝<rt>あさ</rt></ruby>は パンと <ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>ですが、<ruby>昼<rt>ひる</rt></ruby>と <ruby>夜<rt>よる</rt></ruby>は お<ruby>米<rt>こめ</rt></ruby>を <ruby>食<rt>た</rt></ruby>べます。お<ruby>米<rt>こめ</rt></ruby>は とても おいしいです。ときどき <ruby>友達<rt>ともだち</rt></ruby>と いっしょに レストランへ <ruby>行<rt>い</rt></ruby>って <ruby>お<ruby>寿司<rt>すし</rt></ruby><rt>おすし</rt></ruby>を <ruby>食<rt>た</rt></ruby>べます。<br><br>この<ruby>人<rt>ひと</rt></ruby>は いつ お<ruby>米<rt>こめ</rt></ruby>を <ruby>食<rt>た</rt></ruby>べますか。",
         "options": [
           "朝だけ",
           "昼だけ",
@@ -23449,7 +23449,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q74",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）わたしは <ruby>日本<rt>にほん</rt></ruby>に 来て 一年に なります。<ruby><ruby>日本<rt>にほん</rt></ruby>語<rt>にほんご</rt></ruby><ruby>学校<rt>がっこう</rt></ruby>で べんきょうしています。<br><br><ruby>日本<rt>にほん</rt></ruby>に 来て どのくらいですか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）わたしは <ruby>日本<rt>にほん</rt></ruby>に <ruby>来<rt>く</rt></ruby>て <ruby>一<rt>いち</rt></ruby><ruby>年<rt>ねん</rt></ruby>に なります。<ruby><ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby><rt>にほんご</rt></ruby><ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>で べんきょうしています。<br><br><ruby>日本<rt>にほん</rt></ruby>に <ruby>来<rt>く</rt></ruby>て どのくらいですか。",
         "options": [
           "半年",
           "一年",
@@ -23462,7 +23462,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q75",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）<ruby>学校<rt>がっこう</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>から <ruby>金曜日<rt>きんようび</rt></ruby>まで あります。<br><br><ruby>学校<rt>がっこう</rt></ruby>は いつ ありますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>から <ruby>金曜日<rt>きんようび</rt></ruby>まで あります。<br><br><ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>は いつ ありますか。",
         "options": [
           "毎日",
           "週末",
@@ -23475,7 +23475,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q76",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "わたしの 趣味は スポーツです。特に テニスが 好きで、<ruby>毎週<rt>まいしゅう</rt></ruby> <ruby>土曜日<rt>どようび</rt></ruby>に 公園で 練習します。去年の 夏に 新しい ラケットを 買いました。とても 軽くて 使いやすいです。もっと <ruby>上<rt>うえ</rt></ruby><ruby>手<rt>て</rt></ruby>になって、<ruby>友達<rt>ともだち</rt></ruby>と 試合を したいです。<br><br>この<ruby>人<rt>ひと</rt></ruby>の ラケットは どうですか。",
+        "text": "わたしの <ruby>趣<ruby>味<rt>あじ</rt></ruby><rt>しゅみ</rt></ruby>は スポーツです。<ruby>特に<rt>とくに</rt></ruby> テニスが <ruby>好き<rt>すき</rt></ruby>で、<ruby>毎<ruby>週<rt>しゅう</rt></ruby><rt>まいしゅう</rt></ruby> <ruby>土曜日<rt>どようび</rt></ruby>に <ruby>公<ruby>園<rt>えん</rt></ruby><rt>こうえん</rt></ruby>で <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>します。<ruby>去<ruby>年<rt>ねん</rt></ruby><rt>きょねん</rt></ruby>の <ruby>夏<rt>なつ</rt></ruby>に <ruby>新<rt>あたら</rt></ruby>しい ラケットを <ruby>買<rt>か</rt></ruby>いました。とても <ruby>軽<rt>かる</rt></ruby>くて <ruby>使<rt>つか</rt></ruby>いやすいです。もっと <ruby><ruby>上<rt>うえ</rt></ruby><ruby>手<rt>て</rt></ruby><rt>じょうず</rt></ruby>になって、<ruby>友達<rt>ともだち</rt></ruby>と <ruby><ruby>試<rt>し</rt></ruby><ruby>合<rt>あ</rt></ruby><rt>しあい</rt></ruby>を したいです。<br><br>この<ruby>人<rt>ひと</rt></ruby>の ラケットは どうですか。",
         "options": [
           "重い",
           "古い",
@@ -23488,7 +23488,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q77",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）わたしの しゅみは サッカーです。週に 二回 練習します。<br><br>しゅみは 何ですか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）わたしの しゅみは サッカーです。<ruby>週<rt>しゅう</rt></ruby>に <ruby><ruby>二<rt>に</rt></ruby><ruby>回<rt>かい</rt></ruby><rt>にかい</rt></ruby> <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>します。<br><br>しゅみは <ruby>何<rt>なに</rt></ruby>ですか。",
         "options": [
           "サッカー",
           "テニス",
@@ -23501,7 +23501,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q78",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）週末は <ruby>友<rt>とも</rt></ruby>だちと サッカーを します。とても たのしいです。<br><br>だれと サッカーを しますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby><rt>しゅうまつ</rt></ruby>は <ruby>友<rt>とも</rt></ruby>だちと サッカーを します。とても たのしいです。<br><br>だれと サッカーを しますか。",
         "options": [
           "一人で",
           "友だち",
@@ -23514,7 +23514,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q79",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）<ruby>来月<rt>らいげつ</rt></ruby> サッカーの 大会が あります。たくさん 練習します。<br><br><ruby>来月<rt>らいげつ</rt></ruby> 何が ありますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>来<rt>く</rt></ruby>月<rt>らいげつ</rt></ruby> サッカーの <ruby>大<rt>おお</rt></ruby>会が あります。たくさん <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>します。<br><br><ruby><ruby>来<rt>く</rt></ruby>月<rt>らいげつ</rt></ruby> <ruby>何<rt>なに</rt></ruby>が ありますか。",
         "options": [
           "りょこう",
           "しけん",
@@ -23527,7 +23527,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q80",
         "section": "言語知識（文法）・読解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【レストラン】<ruby>月曜日<rt>げつようび</rt></ruby>：営業　<ruby>日曜日<rt>にちようび</rt></ruby>：やすみ　営業時間：9時〜20時<br><br><ruby>月曜日<rt>げつようび</rt></ruby>は 休みですか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【レストラン】<ruby>月曜日<rt>げつようび</rt></ruby>：<ruby>営業<rt>えいぎょう</rt></ruby>　<ruby>日曜日<rt>にちようび</rt></ruby>：やすみ　<ruby><ruby>営業<rt>えいぎょう</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby><rt>えいぎょうじかん</rt></ruby>：9<ruby>時<rt>とき</rt></ruby>〜20<ruby>時<rt>とき</rt></ruby><br><br><ruby>月曜日<rt>げつようび</rt></ruby>は <ruby>休<rt>やす</rt></ruby>みですか。",
         "options": [
           "はい",
           "午前だけ",
@@ -23540,7 +23540,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q81",
         "section": "聴解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【レストラン】営業時間：9時〜20時<br><br>何時に 始まりますか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【レストラン】<ruby><ruby>営業<rt>えいぎょう</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby><rt>えいぎょうじかん</rt></ruby>：9<ruby>時<rt>とき</rt></ruby>〜20<ruby>時<rt>とき</rt></ruby><br><br><ruby>何<rt>なに</rt></ruby><ruby>時<rt>とき</rt></ruby>に 始まりますか。",
         "options": [
           "くじ",
           "はちじ",
@@ -23553,7 +23553,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q82",
         "section": "聴解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【レストラン】<ruby>日曜日<rt>にちようび</rt></ruby>：やすみ<br><br>休みは いつですか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【レストラン】<ruby>日曜日<rt>にちようび</rt></ruby>：やすみ<br><br><ruby>休<rt>やす</rt></ruby>みは いつですか。",
         "options": [
           "月曜日",
           "日曜日",
@@ -23566,7 +23566,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q83",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：くだものを 買いに 行きます。何が いいですか。<br><ruby>男<rt>おとこ</rt></ruby>：ぶどうを おねがいします。<br><br>何を 買いますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：くだものを <ruby>買<rt>か</rt></ruby>いに <ruby>行<rt>い</rt></ruby>きます。<ruby>何<rt>なに</rt></ruby>が いいですか。<br><ruby>男<rt>おとこ</rt></ruby>：ぶどうを おねがいします。<br><br><ruby>何<rt>なに</rt></ruby>を <ruby>買<rt>か</rt></ruby>いますか。",
         "options": [
           "りんご",
           "みかん",
@@ -23591,7 +23591,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q84",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：いつ 会いましょうか。<br><ruby>女<rt>おんな</rt></ruby>：十<ruby>三日<rt>みっか</rt></ruby>は どうですか。<br><ruby>男<rt>おとこ</rt></ruby>：いいですよ。<br><br>いつ 会いますか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：いつ 会いましょうか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>十<rt>じゅう</rt></ruby><ruby><ruby>三<rt>さん</rt></ruby>日<rt>みっか</rt></ruby>は どうですか。<br><ruby>男<rt>おとこ</rt></ruby>：いいですよ。<br><br>いつ 会いますか。",
         "options": [
           "十日",
           "十一日",
@@ -23629,7 +23629,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q86",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：誰と 行きますか。<br><ruby>女<rt>おんな</rt></ruby>：田<ruby>中<rt>なか</rt></ruby>さんと 行きます。<br><br>誰と 行きますか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>誰<rt>だれ</rt></ruby>と <ruby>行<rt>い</rt></ruby>きますか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんと <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>誰<rt>だれ</rt></ruby>と <ruby>行<rt>い</rt></ruby>きますか。",
         "options": [
           "先生",
           "田中さん",
@@ -23642,7 +23642,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q87",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：何で 行きますか。<br><ruby>男<rt>おとこ</rt></ruby>：自転車で 行きます。<br><br>何で 行きますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>何<rt>なに</rt></ruby>で <ruby>行<rt>い</rt></ruby>きますか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>自転<ruby>車<rt>くるま</rt></ruby><rt>じてんしゃ</rt></ruby>で <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>何<rt>なに</rt></ruby>で <ruby>行<rt>い</rt></ruby>きますか。",
         "options": [
           "バス",
           "電車",
@@ -23655,7 +23655,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q88",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>映画<rt>えいが</rt></ruby>は 何時間ですか。<br><ruby>女<rt>おんな</rt></ruby>：三時間です。<br><br>何時間ですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>映画<rt>えいが</rt></ruby>は <ruby>何<rt>なに</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>ですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>三<rt>さん</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>ですか。",
         "options": [
           "二時間",
           "四時間",
@@ -23668,7 +23668,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q89",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：どうして 行きませんでしたか。<br><ruby>男<rt>おとこ</rt></ruby>：忙しかったからです。<br><br>どうして 行きませんでしたか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：どうして <ruby>行<rt>い</rt></ruby>きませんでしたか。<br><ruby>男<rt>おとこ</rt></ruby>：忙しかったからです。<br><br>どうして <ruby>行<rt>い</rt></ruby>きませんでしたか。",
         "options": [
           "忙しいから",
           "寒いから",
@@ -23681,7 +23681,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q90",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：鍵は どこに ありましたか。<br><ruby>女<rt>おんな</rt></ruby>：机の <ruby>上<rt>うえ</rt></ruby>に ありました。<br><br>どこに ありましたか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>鍵<rt>かぎ</rt></ruby>は どこに ありましたか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>机<rt>つくえ</rt></ruby>の <ruby>上<rt>うえ</rt></ruby>に ありました。<br><br>どこに ありましたか。",
         "options": [
           "箱の中",
           "机の上",
@@ -23694,7 +23694,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q91",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：何色が 好きですか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>白<rt>しろ</rt></ruby>が 好きです。<br><br>何色が 好きですか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>何<rt>なに</rt></ruby><ruby>色<rt>いろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>ですか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>白<rt>しろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby>色<rt>いろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>ですか。",
         "options": [
           "赤",
           "青",
@@ -23707,7 +23707,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q92",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：何番の バスですか。<br><ruby>女<rt>おんな</rt></ruby>：四番です。<br><br>何番ですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>何<rt>なに</rt></ruby><ruby>番<rt>ばん</rt></ruby>の バスですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>四<rt>よん</rt></ruby><ruby>番<rt>ばん</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby>番<rt>ばん</rt></ruby>ですか。",
         "options": [
           "一番",
           "二番",
@@ -23720,7 +23720,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q93",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：誰が 来ましたか。<br><ruby>男<rt>おとこ</rt></ruby>：兄が 来ました。<br><br>誰が 来ましたか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>誰<rt>だれ</rt></ruby>が <ruby>来<rt>く</rt></ruby>ましたか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>兄<rt>あに</rt></ruby>が <ruby>来<rt>く</rt></ruby>ました。<br><br><ruby>誰<rt>だれ</rt></ruby>が <ruby>来<rt>く</rt></ruby>ましたか。",
         "options": [
           "兄",
           "姉",
@@ -23733,7 +23733,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q94",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：どこへ 行きたいですか。<br><ruby>女<rt>おんな</rt></ruby>：大阪へ 行きたいです。<br><br>どこへ 行きたいですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：どこへ <ruby>行<rt>い</rt></ruby>きたいですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby><ruby>大<rt>おお</rt></ruby>阪<rt>おおさか</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きたいです。<br><br>どこへ <ruby>行<rt>い</rt></ruby>きたいですか。",
         "options": [
           "東京",
           "大阪",
@@ -23798,7 +23798,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q99",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "お名<ruby>前<rt>まえ</rt></ruby>は？<br><br>なんと こたえますか。",
+        "text": "お<ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>は？<br><br>なんと こたえますか。",
         "options": [
           "銀行員です",
           "二十歳です",
@@ -23811,7 +23811,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M18_Q100",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "また <ruby>来週<rt>らいしゅう</rt></ruby>。<br><br>なんと こたえますか。",
+        "text": "また <ruby><ruby>来<rt>く</rt></ruby><ruby>週<rt>しゅう</rt></ruby><rt>らいしゅう</rt></ruby>。<br><br>なんと こたえますか。",
         "options": [
           "おはよう",
           "おやすみなさい",
@@ -23826,7 +23826,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M19_Q1",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>毎朝</u> <u>八時</u>に <u>家</u>を 出ます。<br><br>「家」のよみかたは？",
+        "text": "<u>毎朝</u> <u>八時</u>に <u>家</u>を <ruby>出<rt>で</rt></ruby>ます。<br><br>「<ruby>家<rt>いえ</rt></ruby>」のよみかたは？",
         "options": [
           "えき",
           "いえ",
@@ -23839,7 +23839,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M19_Q2",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "この <u>料理</u>は <u>新</u>しいです。<br><br>「新」しいのよみかたは？",
+        "text": "この <u>料理</u>は <u>新</u>しいです。<br><br>「<ruby>新<rt>あたら</rt></ruby>」しいのよみかたは？",
         "options": [
           "ふる",
           "やす",
@@ -23891,7 +23891,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M19_Q6",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>百</u>円の <u>切符</u>を <u>買</u>いました。<br><br>「百」のよみかたは？",
+        "text": "<u>百</u><ruby>円<rt>えん</rt></ruby>の <u>切符</u>を <u>買</u>いました。<br><br>「百」のよみかたは？",
         "options": [
           "せん",
           "まん",
@@ -23930,7 +23930,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M19_Q9",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>一万</u>円の <u>時計</u>を <u>持</u>っています。<br><br>「持」っていますのよみかたは？",
+        "text": "<u>一万</u><ruby>円<rt>えん</rt></ruby>の <u>時計</u>を <u>持</u>っています。<br><br>「<ruby>持<rt>も</rt></ruby>」っていますのよみかたは？",
         "options": [
           "ま",
           "も",
@@ -23969,7 +23969,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M19_Q12",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>時間</u>が <u>少</u>ないです。<br><br>「少」ないのよみかたは？",
+        "text": "<u>時間</u>が <u>少</u>ないです。<br><br>「<ruby>少<rt>すく</rt></ruby>」ないのよみかたは？",
         "options": [
           "すくな",
           "おお",
@@ -23982,7 +23982,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M19_Q13",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>でんしゃ</u>で 来ました。<br><br>「でんしゃ」のかきかたは？",
+        "text": "<u>でんしゃ</u>で <ruby>来<rt>く</rt></ruby>ました。<br><br>「でんしゃ」のかきかたは？",
         "options": [
           "田車",
           "電車",
@@ -24008,7 +24008,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M19_Q15",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>しろい</u> 鞄を 買いました。<br><br>「しろい」のかきかたは？",
+        "text": "<u>しろい</u> <ruby>鞄<rt>かばん</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。<br><br>「しろい」のかきかたは？",
         "options": [
           "青い",
           "赤い",
@@ -24021,7 +24021,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M19_Q16",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>じゅうぷん</u> 休みます。<br><br>「じゅうぷん」のかきかたは？",
+        "text": "<u>じゅうぷん</u> <ruby>休<rt>やす</rt></ruby>みます。<br><br>「じゅうぷん」のかきかたは？",
         "options": [
           "十分",
           "十日",
@@ -24060,7 +24060,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M19_Q19",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>ともだち</u>と 遊びます。<br><br>「ともだち」のかきかたは？",
+        "text": "<u>ともだち</u>と <ruby>遊<rt>あそ</rt></ruby>びます。<br><br>「ともだち」のかきかたは？",
         "options": [
           "友人",
           "友立",
@@ -24073,7 +24073,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M19_Q20",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>よる</u> ご飯を 食べます。<br><br>「よる」のかきかたは？",
+        "text": "<u>よる</u> <ruby>ご飯<rt>ごはん</rt></ruby>を <ruby>食<rt>た</rt></ruby>べます。<br><br>「よる」のかきかたは？",
         "options": [
           "夜",
           "朝",
@@ -24541,7 +24541,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M19_Q56",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "わたしは まいあさ ろくじに しゃわーを あびてから おきます。<br><br>★に入るものはどれですか。",
+        "text": "わたしは まいあさ ろくじに しゃわーを あびてから おきます。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "まいあさ",
           "ろくじに",
@@ -24554,7 +24554,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M19_Q57",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "きのうは としょかんで さんじかん ほんを よみました。<br><br>★に入るものはどれですか。",
+        "text": "きのうは としょかんで さんじかん ほんを よみました。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "きのうは",
           "としょかんで",
@@ -24567,7 +24567,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M19_Q58",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "にほんへ きてから もう さんかげつに なりました。<br><br>★に入るものはどれですか。",
+        "text": "にほんへ きてから もう さんかげつに なりました。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "にほんへ",
           "きてから",
@@ -24580,7 +24580,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M19_Q59",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "あの あかい せーたーを きている ひとは たなかさんです。<br><br>★に入るものはどれですか。",
+        "text": "あの あかい せーたーを きている ひとは たなかさんです。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "あかい",
           "せーたーを",
@@ -24593,7 +24593,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M19_Q60",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "れいぞうこに つめたい みずが さんぼん はいって あります。<br><br>★に入るものはどれですか。",
+        "text": "れいぞうこに つめたい みずが さんぼん はいって あります。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "つめたい",
           "みずが",
@@ -24853,7 +24853,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M19_Q80",
         "section": "言語知識（文法）・読解",
         "type": "読解（情報検索）",
-        "text": "（じょうほうけんさく）【レストラン】<ruby>月曜日<rt>げつようび</rt></ruby>：営業　<ruby>日曜日<rt>にちようび</rt></ruby>：やすみ　営業時間：9時〜20時<br><br><ruby>月曜日<rt>げつようび</rt></ruby>は 休みですか。",
+        "text": "（じょうほうけんさく）【レストラン】<ruby>月曜日<rt>げつようび</rt></ruby>：<ruby>営業<rt>えいぎょう</rt></ruby>　<ruby>日曜日<rt>にちようび</rt></ruby>：やすみ　<ruby><ruby>営業<rt>えいぎょう</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby><rt>えいぎょうじかん</rt></ruby>：9<ruby>時<rt>とき</rt></ruby>〜20<ruby>時<rt>とき</rt></ruby><br><br><ruby>月曜日<rt>げつようび</rt></ruby>は <ruby>休<rt>やす</rt></ruby>みですか。",
         "options": [
           "はい",
           "いいえ",
@@ -24879,7 +24879,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M19_Q82",
         "section": "聴解",
         "type": "読解（情報検索）",
-        "text": "（じょうほうけんさく）【レストラン】<ruby>日曜日<rt>にちようび</rt></ruby>：やすみ<br><br>休みは いつですか。",
+        "text": "（じょうほうけんさく）【レストラン】<ruby>日曜日<rt>にちようび</rt></ruby>：やすみ<br><br><ruby>休<rt>やす</rt></ruby>みは いつですか。",
         "options": [
           "月曜日",
           "火曜日",
@@ -24892,7 +24892,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M19_Q83",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：くだものを 買いに 行きます。何が いいですか。<br><ruby>男<rt>おとこ</rt></ruby>：りんごを おねがいします。<br><br>何を 買いますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：くだものを <ruby>買<rt>か</rt></ruby>いに <ruby>行<rt>い</rt></ruby>きます。<ruby>何<rt>なに</rt></ruby>が いいですか。<br><ruby>男<rt>おとこ</rt></ruby>：りんごを おねがいします。<br><br><ruby>何<rt>なに</rt></ruby>を <ruby>買<rt>か</rt></ruby>いますか。",
         "options": [
           "りんご",
           "みかん",
@@ -24917,7 +24917,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M19_Q84",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：いつ 会いましょうか。<br><ruby>女<rt>おんな</rt></ruby>：十<ruby>一日<rt>ついたち</rt></ruby>は どうですか。<br><ruby>男<rt>おとこ</rt></ruby>：いいですよ。<br><br>いつ 会いますか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：いつ 会いましょうか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>十<rt>じゅう</rt></ruby><ruby><ruby>一<rt>いち</rt></ruby>日<rt>ついたち</rt></ruby>は どうですか。<br><ruby>男<rt>おとこ</rt></ruby>：いいですよ。<br><br>いつ 会いますか。",
         "options": [
           "十日",
           "十一日",
@@ -24930,7 +24930,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M19_Q85",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：どこで 会いますか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>学校<rt>がっこう</rt></ruby>の <ruby>前<rt>まえ</rt></ruby>は どうですか。<br><ruby>女<rt>おんな</rt></ruby>：わかりました。<br><br>どこで 会いますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：どこで 会いますか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>の <ruby>前<rt>まえ</rt></ruby>は どうですか。<br><ruby>女<rt>おんな</rt></ruby>：わかりました。<br><br>どこで 会いますか。",
         "options": [
           "駅",
           "公園",
@@ -24955,7 +24955,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M19_Q86",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：誰と 行きますか。<br><ruby>女<rt>おんな</rt></ruby>：佐藤さんと 行きます。<br><br>誰と 行きますか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>誰<rt>だれ</rt></ruby>と <ruby>行<rt>い</rt></ruby>きますか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>佐藤<rt>さとう</rt></ruby>さんと <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>誰<rt>だれ</rt></ruby>と <ruby>行<rt>い</rt></ruby>きますか。",
         "options": [
           "先生",
           "田中さん",
@@ -24968,7 +24968,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M19_Q87",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：何で 行きますか。<br><ruby>男<rt>おとこ</rt></ruby>：バスで 行きます。<br><br>何で 行きますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>何<rt>なに</rt></ruby>で <ruby>行<rt>い</rt></ruby>きますか。<br><ruby>男<rt>おとこ</rt></ruby>：バスで <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>何<rt>なに</rt></ruby>で <ruby>行<rt>い</rt></ruby>きますか。",
         "options": [
           "バス",
           "電車",
@@ -24981,7 +24981,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M19_Q88",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>映画<rt>えいが</rt></ruby>は 何時間ですか。<br><ruby>女<rt>おんな</rt></ruby>：二時間です。<br><br>何時間ですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>映画<rt>えいが</rt></ruby>は <ruby>何<rt>なに</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>ですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>二<rt>に</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>ですか。",
         "options": [
           "一時間",
           "二時間",
@@ -24994,7 +24994,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M19_Q89",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：どうして 行きませんでしたか。<br><ruby>男<rt>おとこ</rt></ruby>：遠かったからです。<br><br>どうして 行きませんでしたか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：どうして <ruby>行<rt>い</rt></ruby>きませんでしたか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>遠<rt>とお</rt></ruby>かったからです。<br><br>どうして <ruby>行<rt>い</rt></ruby>きませんでしたか。",
         "options": [
           "忙しいから",
           "寒いから",
@@ -25007,7 +25007,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M19_Q90",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：鍵は どこに ありましたか。<br><ruby>女<rt>おんな</rt></ruby>：棚の <ruby>上<rt>うえ</rt></ruby>に ありました。<br><br>どこに ありましたか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>鍵<rt>かぎ</rt></ruby>は どこに ありましたか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>棚<rt>たな</rt></ruby>の <ruby>上<rt>うえ</rt></ruby>に ありました。<br><br>どこに ありましたか。",
         "options": [
           "箱の中",
           "机の上",
@@ -25020,7 +25020,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M19_Q91",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：何色が 好きですか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>赤<rt>あか</rt></ruby>が 好きです。<br><br>何色が 好きですか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>何<rt>なに</rt></ruby><ruby>色<rt>いろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>ですか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>赤<rt>あか</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby>色<rt>いろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>ですか。",
         "options": [
           "赤",
           "青",
@@ -25033,7 +25033,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M19_Q92",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：何番の バスですか。<br><ruby>女<rt>おんな</rt></ruby>：二番です。<br><br>何番ですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>何<rt>なに</rt></ruby><ruby>番<rt>ばん</rt></ruby>の バスですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby><ruby>二<rt>に</rt></ruby><ruby>番<rt>ばん</rt></ruby><rt>にばん</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby>番<rt>ばん</rt></ruby>ですか。",
         "options": [
           "一番",
           "二番",
@@ -25046,7 +25046,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M19_Q93",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：誰が 来ましたか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>父<rt>ちち</rt></ruby>が 来ました。<br><br>誰が 来ましたか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>誰<rt>だれ</rt></ruby>が <ruby>来<rt>く</rt></ruby>ましたか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>父<rt>ちち</rt></ruby>が <ruby>来<rt>く</rt></ruby>ました。<br><br><ruby>誰<rt>だれ</rt></ruby>が <ruby>来<rt>く</rt></ruby>ましたか。",
         "options": [
           "兄",
           "姉",
@@ -25059,7 +25059,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M19_Q94",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：どこへ 行きたいですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>北<rt>きた</rt></ruby><ruby>海<rt>うみ</rt></ruby><ruby>道<rt>みち</rt></ruby>へ 行きたいです。<br><br>どこへ 行きたいですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：どこへ <ruby>行<rt>い</rt></ruby>きたいですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>北<rt>きた</rt></ruby><ruby>海<rt>うみ</rt></ruby><ruby>道<rt>みち</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きたいです。<br><br>どこへ <ruby>行<rt>い</rt></ruby>きたいですか。",
         "options": [
           "東京",
           "大阪",
@@ -25124,7 +25124,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M19_Q99",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "お名<ruby>前<rt>まえ</rt></ruby>は？<br><br>なんと こたえますか。",
+        "text": "お<ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>は？<br><br>なんと こたえますか。",
         "options": [
           "田中です",
           "銀行員です",
@@ -25137,7 +25137,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M19_Q100",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "また <ruby>来週<rt>らいしゅう</rt></ruby>。<br><br>なんと こたえますか。",
+        "text": "また <ruby><ruby>来<rt>く</rt></ruby><ruby>週<rt>しゅう</rt></ruby><rt>らいしゅう</rt></ruby>。<br><br>なんと こたえますか。",
         "options": [
           "おはよう",
           "はい、また来週",
@@ -25152,7 +25152,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q1",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>今日</u>は <u>一月</u> <ruby>八日<rt>ようか</rt></ruby>です。<br><br>「今日」のよみかたは？",
+        "text": "<u>今日</u>は <u>一月</u> <ruby><ruby>八<rt>はち</rt></ruby>日<rt>ようか</rt></ruby>です。<br><br>「今日」のよみかたは？",
         "options": [
           "きょう",
           "きのう",
@@ -25178,7 +25178,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q3",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "この <u>本</u>は <u>安</u>いです。<br><br>「安」いのよみかたは？",
+        "text": "この <u>本</u>は <u>安</u>いです。<br><br>「<ruby>安<rt>やす</rt></ruby>」いのよみかたは？",
         "options": [
           "たか",
           "やす",
@@ -25191,7 +25191,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q4",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>水曜日</u>に <u>映画</u>を 見ます。<br><br>「水曜日」のよみかたは？",
+        "text": "<u>水曜日</u>に <u>映画</u>を <ruby>見<rt>み</rt></ruby>ます。<br><br>「水曜日」のよみかたは？",
         "options": [
           "かようび",
           "もくようび",
@@ -25204,7 +25204,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q5",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>田中</u>さんは <u>足</u>が <u>長</u>いです。<br><br>「長」いのよみかたは？",
+        "text": "<u>田中</u>さんは <u>足</u>が <u>長</u>いです。<br><br>「<ruby>長<rt>なが</rt></ruby>」いのよみかたは？",
         "options": [
           "ながい",
           "ひろい",
@@ -25243,7 +25243,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q8",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>英語</u>を <u>話</u>します。<br><br>「話」しますのよみかたは？",
+        "text": "<u>英語</u>を <u>話</u>します。<br><br>「<ruby>話<rt>はな</rt></ruby>」しますのよみかたは？",
         "options": [
           "よ",
           "き",
@@ -25256,7 +25256,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q9",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>自分</u>で <u>作</u>りました。<br><br>「作」りましたのよみかたは？",
+        "text": "<u>自分</u>で <u>作</u>りました。<br><br>「<ruby>作<rt>つく</rt></ruby>」りましたのよみかたは？",
         "options": [
           "つく",
           "つか",
@@ -25282,7 +25282,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q11",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>時間</u>が <u>少</u>ないです。<br><br>「少」ないのよみかたは？",
+        "text": "<u>時間</u>が <u>少</u>ないです。<br><br>「<ruby>少<rt>すく</rt></ruby>」ないのよみかたは？",
         "options": [
           "おお",
           "ちいさ",
@@ -25295,7 +25295,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q12",
         "section": "言語知識（文字・語彙）",
         "type": "漢字読み",
-        "text": "<u>百</u>円の <u>ペン</u>を <u>買</u>いました。<br><br>「百」のよみかたは？",
+        "text": "<u>百</u><ruby>円<rt>えん</rt></ruby>の <u>ペン</u>を <u>買</u>いました。<br><br>「百」のよみかたは？",
         "options": [
           "せん",
           "まん",
@@ -25347,7 +25347,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q16",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>ごふん</u> 待ってください。<br><br>「ごふん」のかきかたは？",
+        "text": "<u>ごふん</u> <ruby>待<rt>ま</rt></ruby>ってください。<br><br>「ごふん」のかきかたは？",
         "options": [
           "五時",
           "五日",
@@ -25360,7 +25360,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q17",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>がいこく</u>へ 行きます。<br><br>「がいこく」のかきかたは？",
+        "text": "<u>がいこく</u>へ <ruby>行<rt>い</rt></ruby>きます。<br><br>「がいこく」のかきかたは？",
         "options": [
           "外国",
           "中国",
@@ -25399,7 +25399,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q20",
         "section": "言語知識（文法）・読解",
         "type": "表記",
-        "text": "<u>よる</u> <ruby>本<rt>ほん</rt></ruby>を 読みます。<br><br>「よる」のかきかたは？",
+        "text": "<u>よる</u> <ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みます。<br><br>「よる」のかきかたは？",
         "options": [
           "朝",
           "昼",
@@ -25412,7 +25412,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q21",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を ぬぎます。部屋に 入りますから。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を ぬぎます。<ruby>部屋<rt>へや</rt></ruby>に <ruby>入<rt>はい</rt></ruby>りますから。<br><br>（　）になにがはいりますか。",
         "options": [
           "くつ",
           "シャツ",
@@ -25425,7 +25425,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q22",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "この 荷物は （　　）ですね。<ruby>手<rt>て</rt></ruby>伝ってください。<br><br>（　）になにがはいりますか。",
+        "text": "この <ruby>荷<ruby>物<rt>もの</rt></ruby><rt>にもつ</rt></ruby>は （　　）ですね。<ruby>手<rt>て</rt></ruby>伝ってください。<br><br>（　）になにがはいりますか。",
         "options": [
           "かるい",
           "おもい",
@@ -25438,7 +25438,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q23",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を つけてください。ニュースを 見ます。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を つけてください。ニュースを <ruby>見<rt>み</rt></ruby>ます。<br><br>（　）になにがはいりますか。",
         "options": [
           "ラジオ",
           "エアコン",
@@ -25451,7 +25451,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q24",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を 見て、時間を 確認します。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を <ruby>見<rt>み</rt></ruby>て、<ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>を <ruby>確認<rt>かくにん</rt></ruby>します。<br><br>（　）になにがはいりますか。",
         "options": [
           "ノート",
           "じしょ",
@@ -25464,7 +25464,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q25",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "おなかが （　　）です。何か 食べましょう。<br><br>（　）になにがはいりますか。",
+        "text": "おなかが （　　）です。<ruby>何<rt>なに</rt></ruby>か <ruby>食<rt>た</rt></ruby>べましょう。<br><br>（　）になにがはいりますか。",
         "options": [
           "すきました",
           "いたいです",
@@ -25477,7 +25477,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q26",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を 撮りましょう。とても きれいな <ruby>山<rt>やま</rt></ruby>ですね。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を <ruby>撮<rt>と</rt></ruby>りましょう。とても きれいな <ruby>山<rt>やま</rt></ruby>ですね。<br><br>（　）になにがはいりますか。",
         "options": [
           "てがみ",
           "しゃしん",
@@ -25490,7 +25490,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q27",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "すみませんが、窓を （　　）ください。暑いですから。<br><br>（　）になにがはいりますか。",
+        "text": "すみませんが、<ruby><ruby>窓<rt>まど</rt></ruby><rt>まど</rt></ruby>を （　　）ください。<ruby>暑い<rt>あつい</rt></ruby>ですから。<br><br>（　）になにがはいりますか。",
         "options": [
           "しめて",
           "つけて",
@@ -25503,7 +25503,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q28",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を あらいます。ご飯を 食べる <ruby>前<rt>まえ</rt></ruby>です。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を あらいます。<ruby>ご飯<rt>ごはん</rt></ruby>を <ruby>食<rt>た</rt></ruby>べる <ruby>前<rt>まえ</rt></ruby>です。<br><br>（　）になにがはいりますか。",
         "options": [
           "かお",
           "あし",
@@ -25516,7 +25516,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q29",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）を かけて、<ruby>本<rt>ほん</rt></ruby>を 読みます。<ruby>目<rt>め</rt></ruby>が わるいですから。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）を かけて、<ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みます。<ruby>目<rt>め</rt></ruby>が わるいですから。<br><br>（　）になにがはいりますか。",
         "options": [
           "めがね",
           "シャツ",
@@ -25529,7 +25529,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q30",
         "section": "言語知識（文法）・読解",
         "type": "文脈規定",
-        "text": "（　　）が いたいので、休みます。<br><br>（　）になにがはいりますか。",
+        "text": "（　　）が いたいので、<ruby>休<rt>やす</rt></ruby>みます。<br><br>（　）になにがはいりますか。",
         "options": [
           "みみ",
           "あたま",
@@ -25542,7 +25542,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q31",
         "section": "言語知識（文法）・読解",
         "type": "言い換え類義",
-        "text": "<u>すぐ</u> 終わります。<br><br>「すぐ」に ちかい いみの ことばは？",
+        "text": "<u>すぐ</u> <ruby>終わり<rt>おわり</rt></ruby>ます。<br><br>「すぐ」に ちかい いみの ことばは？",
         "options": [
           "あとで",
           "時間をかけて",
@@ -25555,7 +25555,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q32",
         "section": "言語知識（文法）・読解",
         "type": "言い換え類義",
-        "text": "<u>ちょうど</u> 十時です。<br><br>「ちょうど」に ちかい いみの ことばは？",
+        "text": "<u>ちょうど</u> <ruby>十<rt>じゅう</rt></ruby><ruby>時<rt>とき</rt></ruby>です。<br><br>「ちょうど」に ちかい いみの ことばは？",
         "options": [
           "だいたい",
           "すこし",
@@ -25672,7 +25672,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q41",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "ペン（　　） 名<ruby>前<rt>まえ</rt></ruby>を 書きました。<br><br>（　）になにがはいりますか。",
+        "text": "ペン（　　） <ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きました。<br><br>（　）になにがはいりますか。",
         "options": [
           "で",
           "を",
@@ -25685,7 +25685,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q42",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あした <ruby>学校<rt>がっこう</rt></ruby>（　　） 行きません。<br><br>（　）になにがはいりますか。",
+        "text": "あした <ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>（　　） <ruby>行<rt>い</rt></ruby>きません。<br><br>（　）になにがはいりますか。",
         "options": [
           "へを",
           "へは",
@@ -25698,7 +25698,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q43",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "だれ（　　） 来ませんでした。<br><br>（　）になにがはいりますか。",
+        "text": "だれ（　　） <ruby>来<rt>く</rt></ruby>ませんでした。<br><br>（　）になにがはいりますか。",
         "options": [
           "に",
           "を",
@@ -25711,7 +25711,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q44",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あそこに 猫が （　　） います。<br><br>（　）になにがはいりますか。",
+        "text": "あそこに <ruby>猫<rt>ねこ</rt></ruby>が （　　） います。<br><br>（　）になにがはいりますか。",
         "options": [
           "ひとつ",
           "ひとり",
@@ -25724,7 +25724,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q45",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "おんがくを （　　）ながら 勉強します。<br><br>（　）になにがはいりますか。",
+        "text": "おんがくを （　　）ながら <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>します。<br><br>（　）になにがはいりますか。",
         "options": [
           "きき",
           "きいて",
@@ -25737,7 +25737,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q46",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "<ruby><ruby>日本<rt>にほん</rt></ruby>語<rt>にほんご</rt></ruby>を 話すのが （　　）です。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby><ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby><rt>にほんご</rt></ruby>を <ruby>話<rt>はな</rt></ruby>すのが （　　）です。<br><br>（　）になにがはいりますか。",
         "options": [
           "うまく",
           "じょうず",
@@ -25750,7 +25750,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q47",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "宿題を （　　）から、遊びに行きます。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>宿題<rt>しゅくだい</rt></ruby>を （　　）から、<ruby>遊<rt>あそ</rt></ruby>びに<ruby>行<rt>い</rt></ruby>きます。<br><br>（　）になにがはいりますか。",
         "options": [
           "した",
           "する",
@@ -25763,7 +25763,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q48",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "この 料理は （　　） おいしくないです。<br><br>（　）になにがはいりますか。",
+        "text": "この <ruby>料理<rt>りょうり</rt></ruby>は （　　） おいしくないです。<br><br>（　）になにがはいりますか。",
         "options": [
           "とても",
           "すこし",
@@ -25776,7 +25776,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q49",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "これ（　　） わたしの 鞄です。<br><br>（　）になにがはいりますか。",
+        "text": "これ（　　） わたしの <ruby>鞄<rt>かばん</rt></ruby>です。<br><br>（　）になにがはいりますか。",
         "options": [
           "は",
           "を",
@@ -25789,7 +25789,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q50",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "昨日 （　　） <ruby>映画<rt>えいが</rt></ruby>は おもしろかったです。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>昨日<rt>きのう</rt></ruby> （　　） <ruby>映画<rt>えいが</rt></ruby>は おもしろかったです。<br><br>（　）になにがはいりますか。",
         "options": [
           "みて",
           "みた",
@@ -25802,7 +25802,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q51",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "コーヒー（　　） 紅茶、どちらが いいですか。<br><br>（　）になにがはいりますか。",
+        "text": "コーヒー（　　） <ruby>紅<ruby>茶<rt>ちゃ</rt></ruby><rt>こうちゃ</rt></ruby>、どちらが いいですか。<br><br>（　）になにがはいりますか。",
         "options": [
           "と",
           "を",
@@ -25815,7 +25815,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q52",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "<ruby>今日<rt>きょう</rt></ruby>は （　　） 寒いですね。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>今日<rt>きょう</rt></ruby>は （　　） <ruby>寒い<rt>さむい</rt></ruby>ですね。<br><br>（　）になにがはいりますか。",
         "options": [
           "あまり",
           "すこし",
@@ -25828,7 +25828,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q53",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "あの 建物は （　　）ですか。<br><br>（　）になにがはいりますか。",
+        "text": "あの <ruby><ruby>建<rt>た</rt></ruby><ruby>物<rt>もの</rt></ruby><rt>たてもの</rt></ruby>は （　　）ですか。<br><br>（　）になにがはいりますか。",
         "options": [
           "なん",
           "どこ",
@@ -25841,7 +25841,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q54",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "机の<ruby>上<rt>うえ</rt></ruby>に 辞書（　　） あります。<br><br>（　）になにがはいりますか。",
+        "text": "<ruby>机<rt>つくえ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に <ruby>辞<ruby>書<rt>か</rt></ruby><rt>じしょ</rt></ruby>（　　） あります。<br><br>（　）になにがはいりますか。",
         "options": [
           "を",
           "が",
@@ -25854,7 +25854,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q55",
         "section": "言語知識（文法）・読解",
         "type": "文法形式",
-        "text": "ここ（　　） 名<ruby>前<rt>まえ</rt></ruby>を 書いてください。<br><br>（　）になにがはいりますか。",
+        "text": "ここ（　　） <ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>を <ruby>書<rt>か</rt></ruby>いてください。<br><br>（　）になにがはいりますか。",
         "options": [
           "を",
           "で",
@@ -25867,7 +25867,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q56",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "わたしは 毎<ruby>朝<rt>あさ</rt></ruby> 六時に 牛乳を 一回 飲みます。<br><br>★に入るものはどれですか。",
+        "text": "わたしは <ruby>毎<ruby>朝<rt>あさ</rt></ruby><rt>まいあさ</rt></ruby> <ruby>六<rt>ろく</rt></ruby><ruby>時<rt>とき</rt></ruby>に <ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>を <ruby><ruby>一<rt>いち</rt></ruby><ruby>回<rt>かい</rt></ruby><rt>いっかい</rt></ruby> <ruby>飲<rt>の</rt></ruby>みます。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "毎朝",
           "六時に",
@@ -25880,7 +25880,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q57",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "あそこに <ruby>白<rt>しろ</rt></ruby>い 帽<ruby>子<rt>こ</rt></ruby>を かぶった <ruby>人<rt>ひと</rt></ruby>が います。<br><br>★に入るものはどれですか。",
+        "text": "あそこに <ruby>白<rt>しろ</rt></ruby>い <ruby>帽<ruby>子<rt>こ</rt></ruby><rt>ぼうし</rt></ruby>を かぶった <ruby>人<rt>ひと</rt></ruby>が います。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "白い",
           "帽子を",
@@ -25893,7 +25893,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q58",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "そこに ゆっくり 椅<ruby>子<rt>こ</rt></ruby>に 座って かけて ください。<br><br>★に入るものはどれですか。",
+        "text": "そこに ゆっくり <ruby>椅<ruby>子<rt>こ</rt></ruby><rt>いす</rt></ruby>に <ruby>座<rt>すわ</rt></ruby>って かけて ください。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "そこに",
           "座って",
@@ -25906,7 +25906,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q59",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "公園の <ruby>中<rt>なか</rt></ruby>に <ruby>子供<rt>こども</rt></ruby>が 五<ruby>人<rt>ひと</rt></ruby> 遊んで います。<br><br>★に入るものはどれですか。",
+        "text": "<ruby>公<ruby>園<rt>えん</rt></ruby><rt>こうえん</rt></ruby>の <ruby>中<rt>なか</rt></ruby>に <ruby>子供<rt>こども</rt></ruby>が <ruby><ruby>五<rt>ご</rt></ruby><ruby>人<rt>ひと</rt></ruby><rt>ごにん</rt></ruby> <ruby>遊<rt>あそ</rt></ruby>んで います。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "中に",
           "子供が",
@@ -25919,7 +25919,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q60",
         "section": "言語知識（文法）・読解",
         "type": "文の組み立て",
-        "text": "ここに ボールペンで 名<ruby>前<rt>まえ</rt></ruby>を 書いて ください。<br><br>★に入るものはどれですか。",
+        "text": "ここに ボールペンで <ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>を <ruby>書<rt>か</rt></ruby>いて ください。<br><br>★に<ruby>入<rt>はい</rt></ruby>るものはどれですか。",
         "options": [
           "ここに",
           "名前を",
@@ -25932,7 +25932,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q61",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（<ruby>手<rt>て</rt></ruby>紙）田<ruby>中<rt>なか</rt></ruby>さん、<ruby>元気<rt>げんき</rt></ruby>ですか。あしたは <ruby>日曜日<rt>にちようび</rt></ruby>ですね。（ 1 ） しますか。<br><br>（ 1 ）になにがはいりますか。",
+        "text": "（<ruby>手<rt>て</rt></ruby><ruby>紙<rt>かみ</rt></ruby>）<ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さん、<ruby>元気<rt>げんき</rt></ruby>ですか。あしたは <ruby>日曜日<rt>にちようび</rt></ruby>ですね。（ 1 ） しますか。<br><br>（ 1 ）になにがはいりますか。",
         "options": [
           "なにを",
           "どこを",
@@ -25945,7 +25945,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q62",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（<ruby>手<rt>て</rt></ruby>紙）わたしは <ruby>友<rt>とも</rt></ruby>だちと <ruby>海<rt>うみ</rt></ruby>へ （ 2 ）。<br><br>（ 2 ）になにがはいりますか。",
+        "text": "（<ruby>手<rt>て</rt></ruby><ruby>紙<rt>かみ</rt></ruby>）わたしは <ruby>友<rt>とも</rt></ruby>だちと <ruby>海<rt>うみ</rt></ruby>へ （ 2 ）。<br><br>（ 2 ）になにがはいりますか。",
         "options": [
           "行きました",
           "行きます",
@@ -25958,7 +25958,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q63",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（<ruby>手<rt>て</rt></ruby>紙）<ruby>海<rt>うみ</rt></ruby>で たくさん （ 3 ） 泳ぎます。<br><br>（ 3 ）になにがはいりますか。",
+        "text": "（<ruby>手<rt>て</rt></ruby><ruby>紙<rt>かみ</rt></ruby>）<ruby>海<rt>うみ</rt></ruby>で たくさん （ 3 ） <ruby>泳<rt>およ</rt></ruby>ぎます。<br><br>（ 3 ）になにがはいりますか。",
         "options": [
           "魚と",
           "水を",
@@ -25971,7 +25971,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q64",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（<ruby>手<rt>て</rt></ruby>紙）田<ruby>中<rt>なか</rt></ruby>さんも （ 4 ） 行きませんか。<br><br>（ 4 ）になにがはいりますか。",
+        "text": "（<ruby>手<rt>て</rt></ruby><ruby>紙<rt>かみ</rt></ruby>）<ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんも （ 4 ） <ruby>行<rt>い</rt></ruby>きませんか。<br><br>（ 4 ）になにがはいりますか。",
         "options": [
           "ひとりで",
           "どこかへ",
@@ -25984,7 +25984,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q65",
         "section": "言語知識（文法）・読解",
         "type": "文章の文法",
-        "text": "（<ruby>手<rt>て</rt></ruby>紙）（ 5 ） お返事を ください。<br><br>（ 5 ）になにがはいりますか。",
+        "text": "（<ruby>手<rt>て</rt></ruby><ruby>紙<rt>かみ</rt></ruby>）（ 5 ） お<ruby><ruby>返<rt>かえ</rt></ruby><ruby>事<rt>こと</rt></ruby><rt>へんじ</rt></ruby>を ください。<br><br>（ 5 ）になにがはいりますか。",
         "options": [
           "ぜひ",
           "たぶん",
@@ -25997,7 +25997,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q66",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）佐藤さんは <ruby>毎日<rt>まいにち</rt></ruby> 七時に おきます。パンを 食べてから 仕事に 行きます。<br><br>佐藤さんは <ruby>朝<rt>あさ</rt></ruby> 何を しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>佐藤<rt>さとう</rt></ruby>さんは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>七<rt>なな</rt></ruby><ruby>時<rt>とき</rt></ruby>に おきます。パンを <ruby>食<rt>た</rt></ruby>べてから <ruby><ruby>仕<rt>し</rt></ruby><ruby>事<rt>こと</rt></ruby><rt>しごと</rt></ruby>に <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>佐藤<rt>さとう</rt></ruby>さんは <ruby>朝<rt>あさ</rt></ruby> <ruby>何<rt>なに</rt></ruby>を しますか。",
         "options": [
           "コーヒーを飲む",
           "パンを食べる",
@@ -26010,7 +26010,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q67",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）わたしの 家は <ruby>駅<rt>えき</rt></ruby>から 十五分くらいです。とても 便利です。<br><br>家は どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）わたしの <ruby>家<rt>いえ</rt></ruby>は <ruby>駅<rt>えき</rt></ruby>から <ruby>十<rt>じゅう</rt></ruby><ruby>五<rt>ご</rt></ruby><ruby>分<rt>ふん</rt></ruby>くらいです。とても <ruby>便利<rt>べんり</rt></ruby>です。<br><br><ruby>家<rt>いえ</rt></ruby>は どうですか。",
         "options": [
           "遠くて不便",
           "少し遠い",
@@ -26023,7 +26023,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q68",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）昨日は 休みでした。どこへも 行きませんでした。家で <ruby>本<rt>ほん</rt></ruby>を 読みました。<br><br>昨日は 何を しましたか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>昨日<rt>きのう</rt></ruby>は <ruby>休<rt>やす</rt></ruby>みでした。どこへも <ruby>行<rt>い</rt></ruby>きませんでした。<ruby>家<rt>いえ</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みました。<br><br><ruby>昨日<rt>きのう</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を しましたか。",
         "options": [
           "買い物に行った",
           "公園に行った",
@@ -26036,7 +26036,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q69",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）この 料理は 少し 辛いですが、とても おいしいです。<br><br>この 料理は どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）この <ruby>料理<rt>りょうり</rt></ruby>は <ruby>少<rt>すく</rt></ruby>し <ruby>辛い<rt>からい</rt></ruby>ですが、とても おいしいです。<br><br>この <ruby>料理<rt>りょうり</rt></ruby>は どうですか。",
         "options": [
           "辛いがおいしい",
           "甘い",
@@ -26049,7 +26049,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q70",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）明日は <ruby>月曜日<rt>げつようび</rt></ruby>です。テストが ありますから、<ruby>今日<rt>きょう</rt></ruby>は 勉強します。<br><br>いつ 勉強しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby><ruby>明<rt>あか</rt></ruby>日<rt>あした</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>です。テストが ありますから、<ruby>今日<rt>きょう</rt></ruby>は <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>します。<br><br>いつ <ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby><rt>べんきょう</rt></ruby>しますか。",
         "options": [
           "明日",
           "今日",
@@ -26062,7 +26062,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q71",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）この ズボンは 少し 短いです。もっと 長いのは ありませんか。<br><br>この ズボンは どうですか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）この ズボンは <ruby>少<rt>すく</rt></ruby>し 短いです。もっと <ruby>長<rt>なが</rt></ruby>いのは ありませんか。<br><br>この ズボンは どうですか。",
         "options": [
           "長い",
           "太い",
@@ -26075,7 +26075,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q72",
         "section": "言語知識（文法）・読解",
         "type": "読解（短文）",
-        "text": "（短文）木村さんは ギターが 好きです。<ruby>毎日<rt>まいにち</rt></ruby> 練習します。<br><br>木村さんは 何を 練習しますか。",
+        "text": "（<ruby>短文<rt>たんぶん</rt></ruby>）<ruby>木村<rt>きむら</rt></ruby>さんは ギターが <ruby>好き<rt>すき</rt></ruby>です。<ruby>毎日<rt>まいにち</rt></ruby> <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>します。<br><br><ruby>木村<rt>きむら</rt></ruby>さんは <ruby>何<rt>なに</rt></ruby>を <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>しますか。",
         "options": [
           "ピアノ",
           "歌",
@@ -26088,7 +26088,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q73",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "<ruby>日本<rt>にほん</rt></ruby>のお弁当は とても おもしろいです。いろいろな 食べものが 入っています。お肉、お魚、野菜、卵などです。形も きれいです。わたしは <ruby>毎日<rt>まいにち</rt></ruby> 自分で お弁当を 作ります。コンビニでも 買うことが できますが、自分で 作ったほうが 安いです。<br><br>お弁当には なにが 入っていますか。",
+        "text": "<ruby>日本<rt>にほん</rt></ruby>のお<ruby>弁<ruby>当<rt>とう</rt></ruby><rt>べんとう</rt></ruby>は とても おもしろいです。いろいろな <ruby>食<rt>た</rt></ruby>べものが <ruby>入<rt>はい</rt></ruby>っています。お<ruby>肉<rt>にく</rt></ruby>、お<ruby>魚<rt>さかな</rt></ruby>、<ruby>野菜<rt>やさい</rt></ruby>、<ruby>卵<rt>たまご</rt></ruby>などです。<ruby>形<rt>かたち</rt></ruby>も きれいです。わたしは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>自<ruby>分<rt>ふん</rt></ruby><rt>じぶん</rt></ruby>で お<ruby>弁<ruby>当<rt>とう</rt></ruby><rt>べんとう</rt></ruby>を <ruby>作<rt>つく</rt></ruby>ります。コンビニでも <ruby>買<rt>か</rt></ruby>うことが できますが、<ruby>自<ruby>分<rt>ふん</rt></ruby><rt>じぶん</rt></ruby>で <ruby>作<rt>つく</rt></ruby>ったほうが <ruby>安<rt>やす</rt></ruby>いです。<br><br>お<ruby>弁<ruby>当<rt>とう</rt></ruby><rt>べんとう</rt></ruby>には なにが <ruby>入<rt>はい</rt></ruby>っていますか。",
         "options": [
           "パンだけ",
           "いろいろな もの",
@@ -26101,7 +26101,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q74",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）わたしは <ruby>日本<rt>にほん</rt></ruby>に 来て 一年に なります。<ruby><ruby>日本<rt>にほん</rt></ruby>語<rt>にほんご</rt></ruby><ruby>学校<rt>がっこう</rt></ruby>で べんきょうしています。<br><br><ruby>日本<rt>にほん</rt></ruby>に 来て どのくらいですか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）わたしは <ruby>日本<rt>にほん</rt></ruby>に <ruby>来<rt>く</rt></ruby>て <ruby>一<rt>いち</rt></ruby><ruby>年<rt>ねん</rt></ruby>に なります。<ruby><ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby><rt>にほんご</rt></ruby><ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>で べんきょうしています。<br><br><ruby>日本<rt>にほん</rt></ruby>に <ruby>来<rt>く</rt></ruby>て どのくらいですか。",
         "options": [
           "一年",
           "半年",
@@ -26114,7 +26114,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q75",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）<ruby>学校<rt>がっこう</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>から <ruby>金曜日<rt>きんようび</rt></ruby>まで あります。<br><br><ruby>学校<rt>がっこう</rt></ruby>は いつ ありますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>は <ruby>月曜日<rt>げつようび</rt></ruby>から <ruby>金曜日<rt>きんようび</rt></ruby>まで あります。<br><br><ruby><ruby>学<rt>がく</rt></ruby><ruby>校<rt>こう</rt></ruby><rt>がっこう</rt></ruby>は いつ ありますか。",
         "options": [
           "毎日",
           "週末",
@@ -26127,7 +26127,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q76",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "わたしの 趣味は ギターです。毎晩 自分の 部屋で 練習します。最初は 難しかったですが、今は 少し <ruby>上<rt>うえ</rt></ruby><ruby>手<rt>て</rt></ruby>になりました。<ruby>来月<rt>らいげつ</rt></ruby>の パーティーで 弾きますから、<ruby>毎日<rt>まいにち</rt></ruby> 頑張っています。<ruby>友達<rt>ともだち</rt></ruby>に 聞いてもらうのが 楽しみです。<br><br>この<ruby>人<rt>ひと</rt></ruby>は いつ ギターを 練習しますか。",
+        "text": "わたしの <ruby>趣<ruby>味<rt>あじ</rt></ruby><rt>しゅみ</rt></ruby>は ギターです。<ruby>毎<ruby>晩<rt>ばん</rt></ruby><rt>まいばん</rt></ruby> <ruby>自<ruby>分<rt>ふん</rt></ruby><rt>じぶん</rt></ruby>の <ruby>部屋<rt>へや</rt></ruby>で <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>します。<ruby>最初<rt>さいしょ</rt></ruby>は 難しかったですが、今は <ruby>少<rt>すく</rt></ruby>し <ruby><ruby>上<rt>うえ</rt></ruby><ruby>手<rt>て</rt></ruby><rt>じょうず</rt></ruby>になりました。<ruby><ruby>来<rt>く</rt></ruby>月<rt>らいげつ</rt></ruby>の パーティーで 弾きますから、<ruby>毎日<rt>まいにち</rt></ruby> <ruby>頑張って<rt>がんばって</rt></ruby>います。<ruby>友達<rt>ともだち</rt></ruby>に <ruby>聞<rt>き</rt></ruby>いてもらうのが <ruby>楽しみ<rt>たのしみ</rt></ruby>です。<br><br>この<ruby>人<rt>ひと</rt></ruby>は いつ ギターを <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>しますか。",
         "options": [
           "毎朝",
           "毎晩",
@@ -26140,7 +26140,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q77",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）わたしの しゅみは サッカーです。週に 二回 練習します。<br><br>しゅみは 何ですか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）わたしの しゅみは サッカーです。<ruby>週<rt>しゅう</rt></ruby>に <ruby><ruby>二<rt>に</rt></ruby><ruby>回<rt>かい</rt></ruby><rt>にかい</rt></ruby> <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>します。<br><br>しゅみは <ruby>何<rt>なに</rt></ruby>ですか。",
         "options": [
           "サッカー",
           "テニス",
@@ -26153,7 +26153,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q78",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）週末は <ruby>友<rt>とも</rt></ruby>だちと サッカーを します。とても たのしいです。<br><br>だれと サッカーを しますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby><rt>しゅうまつ</rt></ruby>は <ruby>友<rt>とも</rt></ruby>だちと サッカーを します。とても たのしいです。<br><br>だれと サッカーを しますか。",
         "options": [
           "一人で",
           "先生",
@@ -26166,7 +26166,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q79",
         "section": "言語知識（文法）・読解",
         "type": "読解（中文）",
-        "text": "（<ruby>中<rt>なか</rt></ruby>文）<ruby>来月<rt>らいげつ</rt></ruby> サッカーの 大会が あります。たくさん 練習します。<br><br><ruby>来月<rt>らいげつ</rt></ruby> 何が ありますか。",
+        "text": "（<ruby><ruby>中<rt>なか</rt></ruby>文<rt>ちゅうぶん</rt></ruby>）<ruby><ruby>来<rt>く</rt></ruby>月<rt>らいげつ</rt></ruby> サッカーの <ruby>大<rt>おお</rt></ruby>会が あります。たくさん <ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>なら</rt></ruby><rt>れんしゅう</rt></ruby>します。<br><br><ruby><ruby>来<rt>く</rt></ruby>月<rt>らいげつ</rt></ruby> <ruby>何<rt>なに</rt></ruby>が ありますか。",
         "options": [
           "りょこう",
           "しけん",
@@ -26179,7 +26179,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q80",
         "section": "言語知識（文法）・読解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【休館日】<ruby>月曜日<rt>げつようび</rt></ruby>：やすみ　火〜日：9時〜19時　祝日：<ruby>日曜日<rt>にちようび</rt></ruby>と同じ<br><br><ruby>月曜日<rt>げつようび</rt></ruby>は 休みですか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【<ruby>休<rt>やす</rt></ruby><ruby>館<rt>かん</rt></ruby>日】<ruby>月曜日<rt>げつようび</rt></ruby>：やすみ　火〜日：9<ruby>時<rt>とき</rt></ruby>〜19<ruby>時<rt>とき</rt></ruby>　<ruby>祝日<rt>しゅくじつ</rt></ruby>：<ruby>日曜日<rt>にちようび</rt></ruby>と<ruby>同じ<rt>おなじ</rt></ruby><br><br><ruby>月曜日<rt>げつようび</rt></ruby>は <ruby>休<rt>やす</rt></ruby>みですか。",
         "options": [
           "いいえ",
           "午前だけ",
@@ -26192,7 +26192,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q81",
         "section": "聴解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【休館日】火〜日：9時〜19時<br><br>何時に 閉まりますか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【<ruby>休<rt>やす</rt></ruby><ruby>館<rt>かん</rt></ruby>日】火〜日：9<ruby>時<rt>とき</rt></ruby>〜19<ruby>時<rt>とき</rt></ruby><br><br><ruby>何<rt>なに</rt></ruby><ruby>時<rt>とき</rt></ruby>に <ruby>閉<rt>し</rt></ruby>まりますか。",
         "options": [
           "十九時",
           "五時",
@@ -26205,7 +26205,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q82",
         "section": "聴解",
         "type": "読解（情報検索）",
-        "text": "（情報検索）【休館日】祝日：<ruby>日曜日<rt>にちようび</rt></ruby>と同じ<br><br>祝日は 何曜日と 同じですか。",
+        "text": "（<ruby><ruby>情<ruby>報<rt>ほう</rt></ruby><rt>じょうほう</rt></ruby><ruby>検索<rt>けんさく</rt></ruby><rt>じょうほうけんさく</rt></ruby>）【<ruby>休<rt>やす</rt></ruby><ruby>館<rt>かん</rt></ruby>日】<ruby>祝日<rt>しゅくじつ</rt></ruby>：<ruby>日曜日<rt>にちようび</rt></ruby>と<ruby>同じ<rt>おなじ</rt></ruby><br><br><ruby>祝日<rt>しゅくじつ</rt></ruby>は <ruby>何<rt>なに</rt></ruby>曜日と <ruby>同じ<rt>おなじ</rt></ruby>ですか。",
         "options": [
           "月曜日",
           "日曜日",
@@ -26218,7 +26218,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q83",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：くだものを 買いに 行きます。何が いいですか。<br><ruby>男<rt>おとこ</rt></ruby>：ぶどうを おねがいします。<br><br>何を 買いますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：くだものを <ruby>買<rt>か</rt></ruby>いに <ruby>行<rt>い</rt></ruby>きます。<ruby>何<rt>なに</rt></ruby>が いいですか。<br><ruby>男<rt>おとこ</rt></ruby>：ぶどうを おねがいします。<br><br><ruby>何<rt>なに</rt></ruby>を <ruby>買<rt>か</rt></ruby>いますか。",
         "options": [
           "りんご",
           "みかん",
@@ -26243,7 +26243,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q84",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：いつ 会いましょうか。<br><ruby>女<rt>おんな</rt></ruby>：十<ruby>三日<rt>みっか</rt></ruby>は どうですか。<br><ruby>男<rt>おとこ</rt></ruby>：いいですよ。<br><br>いつ 会いますか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：いつ 会いましょうか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>十<rt>じゅう</rt></ruby><ruby><ruby>三<rt>さん</rt></ruby>日<rt>みっか</rt></ruby>は どうですか。<br><ruby>男<rt>おとこ</rt></ruby>：いいですよ。<br><br>いつ 会いますか。",
         "options": [
           "十日",
           "十一日",
@@ -26281,7 +26281,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q86",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：誰と 行きますか。<br><ruby>女<rt>おんな</rt></ruby>：田<ruby>中<rt>なか</rt></ruby>さんと 行きます。<br><br>誰と 行きますか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>誰<rt>だれ</rt></ruby>と <ruby>行<rt>い</rt></ruby>きますか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>田<ruby>中<rt>なか</rt></ruby><rt>たなか</rt></ruby>さんと <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>誰<rt>だれ</rt></ruby>と <ruby>行<rt>い</rt></ruby>きますか。",
         "options": [
           "先生",
           "田中さん",
@@ -26294,7 +26294,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q87",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：何で 行きますか。<br><ruby>男<rt>おとこ</rt></ruby>：自転車で 行きます。<br><br>何で 行きますか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>何<rt>なに</rt></ruby>で <ruby>行<rt>い</rt></ruby>きますか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>自転<ruby>車<rt>くるま</rt></ruby><rt>じてんしゃ</rt></ruby>で <ruby>行<rt>い</rt></ruby>きます。<br><br><ruby>何<rt>なに</rt></ruby>で <ruby>行<rt>い</rt></ruby>きますか。",
         "options": [
           "バス",
           "電車",
@@ -26307,7 +26307,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q88",
         "section": "聴解",
         "type": "聴解（課題理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>映画<rt>えいが</rt></ruby>は 何時間ですか。<br><ruby>女<rt>おんな</rt></ruby>：三時間です。<br><br>何時間ですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>映画<rt>えいが</rt></ruby>は <ruby>何<rt>なに</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>ですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>三<rt>さん</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby><ruby>時<rt>とき</rt></ruby><ruby>間<rt>あいだ</rt></ruby><rt>じかん</rt></ruby>ですか。",
         "options": [
           "二時間",
           "四時間",
@@ -26320,7 +26320,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q89",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：どうして 行きませんでしたか。<br><ruby>男<rt>おとこ</rt></ruby>：忙しかったからです。<br><br>どうして 行きませんでしたか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：どうして <ruby>行<rt>い</rt></ruby>きませんでしたか。<br><ruby>男<rt>おとこ</rt></ruby>：忙しかったからです。<br><br>どうして <ruby>行<rt>い</rt></ruby>きませんでしたか。",
         "options": [
           "忙しいから",
           "寒いから",
@@ -26333,7 +26333,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q90",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：鍵は どこに ありましたか。<br><ruby>女<rt>おんな</rt></ruby>：机の <ruby>上<rt>うえ</rt></ruby>に ありました。<br><br>どこに ありましたか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>鍵<rt>かぎ</rt></ruby>は どこに ありましたか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>机<rt>つくえ</rt></ruby>の <ruby>上<rt>うえ</rt></ruby>に ありました。<br><br>どこに ありましたか。",
         "options": [
           "箱の中",
           "机の上",
@@ -26346,7 +26346,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q91",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：何色が 好きですか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>白<rt>しろ</rt></ruby>が 好きです。<br><br>何色が 好きですか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>何<rt>なに</rt></ruby><ruby>色<rt>いろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>ですか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>白<rt>しろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby>色<rt>いろ</rt></ruby>が <ruby>好き<rt>すき</rt></ruby>ですか。",
         "options": [
           "赤",
           "青",
@@ -26359,7 +26359,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q92",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：何番の バスですか。<br><ruby>女<rt>おんな</rt></ruby>：四番です。<br><br>何番ですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：<ruby>何<rt>なに</rt></ruby><ruby>番<rt>ばん</rt></ruby>の バスですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby>四<rt>よん</rt></ruby><ruby>番<rt>ばん</rt></ruby>です。<br><br><ruby>何<rt>なに</rt></ruby><ruby>番<rt>ばん</rt></ruby>ですか。",
         "options": [
           "一番",
           "二番",
@@ -26372,7 +26372,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q93",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>女<rt>おんな</rt></ruby>：誰が 来ましたか。<br><ruby>男<rt>おとこ</rt></ruby>：兄が 来ました。<br><br>誰が 来ましたか。",
+        "text": "<ruby>女<rt>おんな</rt></ruby>：<ruby>誰<rt>だれ</rt></ruby>が <ruby>来<rt>く</rt></ruby>ましたか。<br><ruby>男<rt>おとこ</rt></ruby>：<ruby>兄<rt>あに</rt></ruby>が <ruby>来<rt>く</rt></ruby>ました。<br><br><ruby>誰<rt>だれ</rt></ruby>が <ruby>来<rt>く</rt></ruby>ましたか。",
         "options": [
           "兄",
           "姉",
@@ -26385,7 +26385,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q94",
         "section": "聴解",
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>男<rt>おとこ</rt></ruby>：どこへ 行きたいですか。<br><ruby>女<rt>おんな</rt></ruby>：大阪へ 行きたいです。<br><br>どこへ 行きたいですか。",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>：どこへ <ruby>行<rt>い</rt></ruby>きたいですか。<br><ruby>女<rt>おんな</rt></ruby>：<ruby><ruby>大<rt>おお</rt></ruby>阪<rt>おおさか</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きたいです。<br><br>どこへ <ruby>行<rt>い</rt></ruby>きたいですか。",
         "options": [
           "東京",
           "大阪",
@@ -26450,7 +26450,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q99",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "お名<ruby>前<rt>まえ</rt></ruby>は？<br><br>なんと こたえますか。",
+        "text": "お<ruby>名<ruby>前<rt>まえ</rt></ruby><rt>なまえ</rt></ruby>は？<br><br>なんと こたえますか。",
         "options": [
           "銀行員です",
           "二十歳です",
@@ -26463,7 +26463,7 @@ MOCK_DATA['N5'] = {
         "id": "N5_M20_Q100",
         "section": "聴解",
         "type": "聴解（即時応答）",
-        "text": "また <ruby>来週<rt>らいしゅう</rt></ruby>。<br><br>なんと こたえますか。",
+        "text": "また <ruby><ruby>来<rt>く</rt></ruby><ruby>週<rt>しゅう</rt></ruby><rt>らいしゅう</rt></ruby>。<br><br>なんと こたえますか。",
         "options": [
           "おはよう",
           "おやすみなさい",
