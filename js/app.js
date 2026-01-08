@@ -3088,7 +3088,13 @@ function showMockQuestion() {
       btn.onclick = () => selectMockAnswer(btn, labels[idx], q);
     }
     
-    btn.innerHTML = `<span class="option-label">${labels[idx]}</span> ${opt}`;
+    // アイコン表示（icons配列がある場合）
+    let iconHtml = '';
+    if (q.icons && q.icons[idx]) {
+      const count = (q.counts && q.counts[idx]) || 1;
+      iconHtml = `<span class="option-icons" style="font-size:1.5em;margin-right:8px;">${q.icons[idx].repeat(count)}</span>`;
+    }
+    btn.innerHTML = `<span class="option-label">${labels[idx]}</span> ${iconHtml}${opt}`;
     optionsDiv.appendChild(btn);
   });
   
