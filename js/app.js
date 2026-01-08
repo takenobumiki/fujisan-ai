@@ -1,6 +1,6 @@
 // ========== CONFIG ==========
-const APP_VERSION = '17.16.0';
-const STORAGE_KEY = 'fujisan_v1736';
+const APP_VERSION = '17.17.0';
+const STORAGE_KEY = 'fujisan_v1737';
 
 // ========== UI TRANSLATIONS ==========
 const UI_TEXTS = {
@@ -390,6 +390,97 @@ const STRIPE_LINKS = {
 
 // Stripe Customer Portal URL (for managing subscriptions / cancellation)
 const STRIPE_CUSTOMER_PORTAL = 'https://billing.stripe.com/p/login/6oE6s81f66Wkgko8ww';
+
+// ========== REFERRAL SYSTEM ==========
+const REFERRAL_CODES = ['REF001', 'REF002', 'REF003', 'REF004', 'REF005', 'REF006', 'REF007', 'REF008', 'REF009', 'REF010'];
+
+// Get user's assigned referral code (for now, based on user index or manual assignment)
+function getMyReferralCode() {
+  // Check if already assigned
+  let myCode = localStorage.getItem('fujisan_my_referral_code');
+  if (myCode) return myCode;
+  
+  // For now, assign based on creation order (in production, use Firebase)
+  // This is a placeholder - in production, assign from server
+  const userIndex = parseInt(localStorage.getItem('fujisan_user_index') || '0');
+  if (userIndex < REFERRAL_CODES.length) {
+    myCode = REFERRAL_CODES[userIndex];
+    localStorage.setItem('fujisan_my_referral_code', myCode);
+    return myCode;
+  }
+  
+  // If no more codes, generate a placeholder
+  return 'Coming Soon';
+}
+
+// Copy referral code to clipboard
+function copyReferralCode() {
+  const code = getMyReferralCode();
+  if (code === 'Coming Soon') {
+    alert('Referral codes are currently limited. Please contact support.');
+    return;
+  }
+  
+  const referralUrl = `https://fujisan.ai/?ref=${code}`;
+  
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(referralUrl).then(() => {
+      showToast('✅ Referral link copied!');
+    }).catch(() => {
+      fallbackCopyReferralCode(referralUrl);
+    });
+  } else {
+    fallbackCopyReferralCode(referralUrl);
+  }
+}
+
+function fallbackCopyReferralCode(text) {
+  const textarea = document.createElement('textarea');
+  textarea.value = text;
+  document.body.appendChild(textarea);
+  textarea.select();
+  document.execCommand('copy');
+  document.body.removeChild(textarea);
+  showToast('✅ Referral link copied!');
+}
+
+// Update referral code display in settings
+function updateReferralDisplay() {
+  const codeEl = document.getElementById('myReferralCode');
+  if (codeEl) {
+    codeEl.textContent = getMyReferralCode();
+  }
+}
+
+// Simple toast notification
+function showToast(message) {
+  // Remove existing toast
+  const existing = document.querySelector('.toast-notification');
+  if (existing) existing.remove();
+  
+  const toast = document.createElement('div');
+  toast.className = 'toast-notification';
+  toast.textContent = message;
+  toast.style.cssText = `
+    position: fixed;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 14px;
+    z-index: 10000;
+    animation: fadeInUp 0.3s ease;
+  `;
+  document.body.appendChild(toast);
+  
+  setTimeout(() => {
+    toast.style.opacity = '0';
+    setTimeout(() => toast.remove(), 300);
+  }, 2000);
+}
 
 function openCustomerPortal() {
   if (!currentUser) {
@@ -3695,6 +3786,9 @@ function updateSettingsUI() {
   
   const versionDisplay = document.getElementById('app-version-display');
   if (versionDisplay) versionDisplay.textContent = APP_VERSION;
+  
+  // Update referral code display
+  updateReferralDisplay();
 }
 
 // ========== PLAN SYSTEM ==========

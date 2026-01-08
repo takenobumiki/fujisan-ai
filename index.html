@@ -2203,6 +2203,17 @@
                                 <p class="section-subtitle">🎉 7-day free trial on all plans (card required)</p>
                             </div>
                             
+                            <!-- 紹介コード入力エリア -->
+                            <div id="referral-input-box" style="max-width:500px;margin:0 auto 32px;padding:20px;background:rgba(102,126,234,0.08);border:2px dashed rgba(102,126,234,0.3);border-radius:16px;text-align:center;">
+                                <div style="font-weight:600;margin-bottom:12px;" data-i18n="referral_input_title">🎁 Have a referral code?</div>
+                                <div style="display:flex;gap:8px;justify-content:center;align-items:center;flex-wrap:wrap;">
+                                    <input type="text" id="referral-code-input" placeholder="REF001" style="padding:12px 16px;border:1px solid #ddd;border-radius:8px;font-size:16px;width:140px;text-transform:uppercase;text-align:center;">
+                                    <button id="referral-apply-btn" onclick="applyReferralCode()" style="padding:12px 24px;background:linear-gradient(90deg,#667eea,#764ba2);color:#fff;border:none;border-radius:8px;font-weight:600;cursor:pointer;">Apply</button>
+                                </div>
+                                <div id="referral-message" style="margin-top:8px;font-size:13px;min-height:20px;"></div>
+                                <div style="font-size:12px;color:var(--text-secondary);margin-top:8px;" data-i18n="referral_input_hint">Get 30-day free trial instead of 7 days!</div>
+                            </div>
+                            
                             <div class="pricing-grid" style="max-width:1000px;grid-template-columns:repeat(3,1fr);">
                                 <!-- Basic Plan -->
                                 <div class="pricing-card">
@@ -2874,8 +2885,118 @@
                 standard_annual: 'https://buy.stripe.com/eVq4gA14w72KaKD4Qe6g803',
                 premium_monthly: 'https://buy.stripe.com/dRm8wQeVmcn4f0T3Ma6g804',
                 premium_annual: 'https://buy.stripe.com/00w14ofZq72Kg4X6Ym6g805'
-            }
+            },
+            // 紹介用リンク（30日トライアル）
+            referralLinks: {
+                basic_monthly: 'https://buy.stripe.com/14AaEY5kM72K6uneqO6g806',
+                basic_annual: 'https://buy.stripe.com/dRm7sM7sUcn42e796u6g807',
+                standard_monthly: 'https://buy.stripe.com/6oU14ofZqaeW7yraay6g808',
+                standard_annual: 'https://buy.stripe.com/00wcN6dRi2Mu05Z0zY6g809',
+                premium_monthly: 'https://buy.stripe.com/fZu5kEaF6gDkf0T3Ma6g80a',
+                premium_annual: 'https://buy.stripe.com/dRm9AUcNe4UC6un2I66g80b'
+            },
+            // 有効な紹介コード
+            validReferralCodes: ['REF001', 'REF002', 'REF003', 'REF004', 'REF005', 'REF006', 'REF007', 'REF008', 'REF009', 'REF010']
         };
+        
+        // 紹介コード状態
+        let referralState = {
+            isReferred: false,
+            referralCode: null
+        };
+        
+        // 紹介コード検証
+        function validateReferralCode(code) {
+            const upperCode = code.toUpperCase().trim();
+            return STRIPE_CONFIG.validReferralCodes.includes(upperCode);
+        }
+        
+        // 紹介コード適用
+        function applyReferralCode() {
+            const input = document.getElementById('referral-code-input');
+            const message = document.getElementById('referral-message');
+            const code = input.value.toUpperCase().trim();
+            
+            if (!code) {
+                message.textContent = 'Please enter a code';
+                message.style.color = '#ff3b30';
+                return;
+            }
+            
+            if (validateReferralCode(code)) {
+                referralState.isReferred = true;
+                referralState.referralCode = code;
+                localStorage.setItem('fujisan_referral_code', code);
+                
+                message.textContent = '✅ Code applied! You get 30-day free trial';
+                message.style.color = '#34c759';
+                
+                // UIを更新
+                updatePricingForReferral();
+                
+                // 入力欄を無効化
+                input.disabled = true;
+                document.getElementById('referral-apply-btn').disabled = true;
+            } else {
+                message.textContent = '❌ Invalid code';
+                message.style.color = '#ff3b30';
+            }
+        }
+        
+        // 紹介適用時のUI更新
+        function updatePricingForReferral() {
+            // トライアル期間テキストを更新
+            document.querySelectorAll('.pricing-cta-btn').forEach(btn => {
+                btn.textContent = 'Start 30-Day Free Trial';
+                btn.style.background = 'linear-gradient(90deg, #f093fb, #f5576c)';
+            });
+            
+            // サブタイトル更新
+            const subtitle = document.querySelector('#pricing .section-subtitle');
+            if (subtitle) {
+                subtitle.innerHTML = '🎉 <strong style="color:#f5576c;">30-day free trial</strong> with referral code (card required)';
+            }
+            
+            // リンクを紹介用に切り替え
+            const links = STRIPE_CONFIG.referralLinks;
+            const buttons = document.querySelectorAll('.pricing-cta-btn');
+            buttons[0].href = links.basic_annual;
+            buttons[1].href = links.standard_annual;
+            buttons[2].href = links.premium_annual;
+            
+            // 紹介コード入力エリアを成功表示に
+            const referralBox = document.getElementById('referral-input-box');
+            if (referralBox) {
+                referralBox.style.background = 'linear-gradient(135deg, rgba(52,199,89,0.1), rgba(48,209,88,0.1))';
+                referralBox.style.borderColor = '#34c759';
+            }
+        }
+        
+        // ページ読み込み時に紹介状態を確認
+        function checkReferralOnLoad() {
+            const savedCode = localStorage.getItem('fujisan_referral_code');
+            if (savedCode && validateReferralCode(savedCode)) {
+                referralState.isReferred = true;
+                referralState.referralCode = savedCode;
+                
+                // 入力欄に表示
+                const input = document.getElementById('referral-code-input');
+                if (input) {
+                    input.value = savedCode;
+                    input.disabled = true;
+                }
+                const btn = document.getElementById('referral-apply-btn');
+                if (btn) btn.disabled = true;
+                
+                const message = document.getElementById('referral-message');
+                if (message) {
+                    message.textContent = '✅ Code applied! You get 30-day free trial';
+                    message.style.color = '#34c759';
+                }
+                
+                updatePricingForReferral();
+            }
+        }
         
         // ==========================================
         // Question Database
@@ -2963,6 +3084,9 @@
             if (!localStorage.getItem('cookies_accepted')) {
                 document.getElementById('cookieBanner').classList.add('show');
             }
+            
+            // Check referral code on load
+            checkReferralOnLoad();
             
             // Auth state listener
             if (isFirebaseReady) {
@@ -3622,6 +3746,8 @@
                 plan_premium_f4: "Priority support",
                 referral_title: "🎁 Invite Friends, Get Free Months!",
                 referral_desc: "Get 1 month free for every friend who subscribes",
+                referral_input_title: "🎁 Have a referral code?",
+                referral_input_hint: "Get 30-day free trial instead of 7 days!",
                 
                 // FAQ Section
                 faq_label: "FAQ",
