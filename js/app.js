@@ -3006,26 +3006,33 @@ function showMockQuestion() {
   const instruction = getMockInstruction(q.subsection || q.type);
   document.getElementById('mock-instruction').innerHTML = instruction;
   
-  // Show question text
-  const questionText = (q.q || q.text || '').replace(/<u>/g, '<u>').replace(/<\/u>/g, '</u>');
-  document.getElementById('mock-question-text').innerHTML = questionText;
+  // Show question text (聴解以外)
+  const isListeningSection = (q.section || '').includes('聴解');
+  if (!isListeningSection) {
+    const questionText = (q.q || q.text || '').replace(/<u>/g, '<u>').replace(/<\/u>/g, '</u>');
+    document.getElementById('mock-question-text').innerHTML = questionText;
+  }
   
   // Handle audio for listening section
   const audioBtn = document.getElementById('mockAudioBtn');
   const audioEl = document.getElementById('mockAudio');
+  const questionTextEl = document.getElementById('mock-question-text');
   
-  if (q.section === '聴解' && q.audio) {
+  // N5聴解セクション判定
+  const isListening = (q.section || '').includes('聴解');
+  
+  if (isListening) {
+    // 聴解問題：テキスト非表示、TTSボタン表示
+    questionTextEl.innerHTML = '<div style="text-align:center;padding:20px;color:#666;">🎧 音声を再生してください</div>';
+    audioBtn.classList.remove('hidden');
+    audioBtn.innerHTML = '🔊 音声を再生';
+    audioBtn.onclick = () => playListeningTTS(q.q || q.text || '');
+    audioEl.src = '';
+  } else if (q.audio) {
     audioBtn.classList.remove('hidden');
     const audioPath = getAudioPath(state.level, q.setNum, q.audio);
     audioEl.src = audioPath;
-    
-    // Auto-play audio for listening questions (only first time)
-    if (!mockState.audioPlayed[q.id]) {
-      setTimeout(() => {
-        playMockAudio();
-        mockState.audioPlayed[q.id] = true;
-      }, 500);
-    }
+    audioBtn.onclick = () => playMockAudio();
   } else {
     audioBtn.classList.add('hidden');
     audioEl.src = '';
@@ -3083,6 +3090,95 @@ function playTTS(text) {
       };
     }
     speechSynthesis.speak(utterance);
+  }
+}
+
+
+// N5聴解用TTS関数 - 男女の声で会話を読み上げ
+function playListeningTTS(text) {
+  if (!('speechSynthesis' in window)) {
+    alert('このブラウザはTTSに対応していません');
+    return;
+  }
+  
+  speechSynthesis.cancel();
+  
+  // HTMLタグを除去
+  let cleanText = text.replace(/<[^>]*>/g, '');
+  
+  // 会話を分割
+  const lines = cleanText.split(/(?=おとこ：|おんな：|男：|女：)/);
+  
+  const audioBtn = document.getElementById('mockAudioBtn');
+  if (audioBtn) {
+    audioBtn.innerHTML = '⏹️ 再生中...';
+    audioBtn.disabled = true;
+  }
+  
+  let index = 0;
+  
+  function speakNext() {
+    if (index >= lines.length) {
+      if (audioBtn) {
+        audioBtn.innerHTML = '🔊 もう一度再生';
+        audioBtn.disabled = false;
+      }
+      return;
+    }
+    
+    let line = lines[index].trim();
+    if (!line) { index++; speakNext(); return; }
+    
+    let isMale = false;
+    let isFemale = false;
+    
+    if (line.startsWith('おとこ：') || line.startsWith('男：')) {
+      isMale = true;
+      line = line.replace(/^(おとこ：|男：)/, '').trim();
+    } else if (line.startsWith('おんな：') || line.startsWith('女：')) {
+      isFemale = true;
+      line = line.replace(/^(おんな：|女：)/, '').trim();
+    }
+    
+    if (!line) { index++; speakNext(); return; }
+    
+    const utterance = new SpeechSynthesisUtterance(line);
+    utterance.lang = 'ja-JP';
+    utterance.rate = 0.85;
+    
+    const voices = speechSynthesis.getVoices();
+    const japaneseVoices = voices.filter(v => v.lang.startsWith('ja'));
+    
+    if (japaneseVoices.length > 0) {
+      if (isMale) {
+        utterance.voice = japaneseVoices[0];
+        utterance.pitch = 0.8;
+      } else if (isFemale) {
+        utterance.voice = japaneseVoices[japaneseVoices.length > 1 ? 1 : 0];
+        utterance.pitch = 1.3;
+      } else {
+        utterance.voice = japaneseVoices[0];
+      }
+    }
+    
+    utterance.onend = () => { index++; setTimeout(speakNext, 400); };
+    utterance.onerror = () => { index++; speakNext(); };
+    speechSynthesis.speak(utterance);
+  }
+  
+  if (speechSynthesis.getVoices().length === 0) {
+    speechSynthesis.onvoiceschanged = () => speakNext();
+  } else {
+    speakNext();
+  }
+}
+
+function stopListeningTTS() {
+  speechSynthesis.cancel();
+  const audioBtn = document.getElementById('mockAudioBtn');
+  if (audioBtn) {
+    audioBtn.innerHTML = '🔊 音声を再生';
+    audioBtn.disabled = false;
   }
 }
 
