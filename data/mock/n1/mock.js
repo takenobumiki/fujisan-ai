@@ -1,4 +1,4 @@
-// N1 Mock Test Data - v18.7.0 (fixed context questions)
+// N1 Mock Test Data - v18.7.1 (fixed reading questions)
 if (typeof MOCK_DATA === 'undefined') { var MOCK_DATA = {}; }
 MOCK_DATA['N1'] = {
   "info": {
@@ -596,221 +596,221 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-01-046"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-01-047"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-01-048"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-01-049"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-01-050"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-01-051"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-01-052"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-01-053"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-01-054"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-01-055"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-01-056"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-01-057"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-01-058"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-01-059"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-01-060"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-01-061"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-01-062"
@@ -856,78 +856,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-01-066"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-01-067"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-01-068"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-01-069"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【シンポジウム開催案内】参加費：一般3,000円　学生1,000円　事前登録必須",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "無料",
+          "1,000円",
+          "2,000円",
+          "3,000円"
         ],
         "answer": 1,
         "id": "N1-01-070"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【学会発表募集】締切：8月31日　発表時間：20分（質疑応答5分含む）",
+        "question": "発表時間は何分ですか。",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "15分",
+          "20分",
+          "25分",
+          "30分"
         ],
         "answer": 1,
         "id": "N1-01-071"
@@ -2271,221 +2271,221 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-02-046"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-02-047"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-02-048"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-02-049"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-02-050"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-02-051"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-02-052"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-02-053"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-02-054"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-02-055"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-02-056"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-02-057"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-02-058"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-02-059"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-02-060"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-02-061"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-02-062"
@@ -2531,78 +2531,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-02-066"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-02-067"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-02-068"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-02-069"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【シンポジウム開催案内】参加費：一般3,000円　学生1,000円　事前登録必須",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "無料",
+          "1,000円",
+          "2,000円",
+          "3,000円"
         ],
         "answer": 1,
         "id": "N1-02-070"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【学会発表募集】締切：8月31日　発表時間：20分（質疑応答5分含む）",
+        "question": "発表時間は何分ですか。",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "15分",
+          "20分",
+          "25分",
+          "30分"
         ],
         "answer": 1,
         "id": "N1-02-071"
@@ -3946,221 +3946,221 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-03-046"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-03-047"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-03-048"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-03-049"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-03-050"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-03-051"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-03-052"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-03-053"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-03-054"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-03-055"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-03-056"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-03-057"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-03-058"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-03-059"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-03-060"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-03-061"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-03-062"
@@ -4206,78 +4206,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-03-066"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-03-067"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-03-068"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-03-069"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【シンポジウム開催案内】参加費：一般3,000円　学生1,000円　事前登録必須",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "無料",
+          "1,000円",
+          "2,000円",
+          "3,000円"
         ],
         "answer": 1,
         "id": "N1-03-070"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【学会発表募集】締切：8月31日　発表時間：20分（質疑応答5分含む）",
+        "question": "発表時間は何分ですか。",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "15分",
+          "20分",
+          "25分",
+          "30分"
         ],
         "answer": 1,
         "id": "N1-03-071"
@@ -5621,221 +5621,221 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-04-046"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-04-047"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-04-048"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-04-049"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-04-050"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-04-051"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-04-052"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-04-053"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-04-054"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-04-055"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-04-056"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-04-057"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-04-058"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-04-059"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-04-060"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-04-061"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-04-062"
@@ -5881,78 +5881,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-04-066"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-04-067"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-04-068"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-04-069"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【シンポジウム開催案内】参加費：一般3,000円　学生1,000円　事前登録必須",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "無料",
+          "1,000円",
+          "2,000円",
+          "3,000円"
         ],
         "answer": 1,
         "id": "N1-04-070"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【学会発表募集】締切：8月31日　発表時間：20分（質疑応答5分含む）",
+        "question": "発表時間は何分ですか。",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "15分",
+          "20分",
+          "25分",
+          "30分"
         ],
         "answer": 1,
         "id": "N1-04-071"
@@ -7296,221 +7296,221 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-05-046"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-05-047"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-05-048"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-05-049"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-05-050"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-05-051"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-05-052"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-05-053"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-05-054"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-05-055"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-05-056"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-05-057"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-05-058"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-05-059"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-05-060"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-05-061"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-05-062"
@@ -7556,78 +7556,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-05-066"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-05-067"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-05-068"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-05-069"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【シンポジウム開催案内】参加費：一般3,000円　学生1,000円　事前登録必須",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "無料",
+          "1,000円",
+          "2,000円",
+          "3,000円"
         ],
         "answer": 1,
         "id": "N1-05-070"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【学会発表募集】締切：8月31日　発表時間：20分（質疑応答5分含む）",
+        "question": "発表時間は何分ですか。",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "15分",
+          "20分",
+          "25分",
+          "30分"
         ],
         "answer": 1,
         "id": "N1-05-071"
@@ -8971,221 +8971,221 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-06-046"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-06-047"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-06-048"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-06-049"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-06-050"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-06-051"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-06-052"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-06-053"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-06-054"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-06-055"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-06-056"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-06-057"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-06-058"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-06-059"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-06-060"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-06-061"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-06-062"
@@ -9231,78 +9231,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-06-066"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-06-067"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-06-068"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-06-069"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【シンポジウム開催案内】参加費：一般3,000円　学生1,000円　事前登録必須",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "無料",
+          "1,000円",
+          "2,000円",
+          "3,000円"
         ],
         "answer": 1,
         "id": "N1-06-070"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【学会発表募集】締切：8月31日　発表時間：20分（質疑応答5分含む）",
+        "question": "発表時間は何分ですか。",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "15分",
+          "20分",
+          "25分",
+          "30分"
         ],
         "answer": 1,
         "id": "N1-06-071"
@@ -10646,221 +10646,221 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-07-046"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-07-047"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-07-048"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-07-049"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-07-050"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-07-051"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-07-052"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-07-053"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-07-054"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-07-055"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-07-056"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-07-057"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-07-058"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-07-059"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-07-060"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-07-061"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-07-062"
@@ -10906,78 +10906,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-07-066"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-07-067"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-07-068"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-07-069"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【シンポジウム開催案内】参加費：一般3,000円　学生1,000円　事前登録必須",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "無料",
+          "1,000円",
+          "2,000円",
+          "3,000円"
         ],
         "answer": 1,
         "id": "N1-07-070"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【学会発表募集】締切：8月31日　発表時間：20分（質疑応答5分含む）",
+        "question": "発表時間は何分ですか。",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "15分",
+          "20分",
+          "25分",
+          "30分"
         ],
         "answer": 1,
         "id": "N1-07-071"
@@ -12321,221 +12321,221 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-08-046"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-08-047"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-08-048"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-08-049"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-08-050"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-08-051"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-08-052"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-08-053"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-08-054"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-08-055"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-08-056"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-08-057"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-08-058"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-08-059"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-08-060"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-08-061"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-08-062"
@@ -12581,78 +12581,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-08-066"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-08-067"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-08-068"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-08-069"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【シンポジウム開催案内】参加費：一般3,000円　学生1,000円　事前登録必須",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "無料",
+          "1,000円",
+          "2,000円",
+          "3,000円"
         ],
         "answer": 1,
         "id": "N1-08-070"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【学会発表募集】締切：8月31日　発表時間：20分（質疑応答5分含む）",
+        "question": "発表時間は何分ですか。",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "15分",
+          "20分",
+          "25分",
+          "30分"
         ],
         "answer": 1,
         "id": "N1-08-071"
@@ -13996,221 +13996,221 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-09-046"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-09-047"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-09-048"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-09-049"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-09-050"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-09-051"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-09-052"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-09-053"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-09-054"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-09-055"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-09-056"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-09-057"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-09-058"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-09-059"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-09-060"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-09-061"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-09-062"
@@ -14256,78 +14256,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-09-066"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-09-067"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-09-068"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-09-069"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【シンポジウム開催案内】参加費：一般3,000円　学生1,000円　事前登録必須",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "無料",
+          "1,000円",
+          "2,000円",
+          "3,000円"
         ],
         "answer": 1,
         "id": "N1-09-070"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【学会発表募集】締切：8月31日　発表時間：20分（質疑応答5分含む）",
+        "question": "発表時間は何分ですか。",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "15分",
+          "20分",
+          "25分",
+          "30分"
         ],
         "answer": 1,
         "id": "N1-09-071"
@@ -15671,221 +15671,221 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-10-046"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-10-047"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-10-048"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-10-049"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-10-050"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-10-051"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-10-052"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-10-053"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-10-054"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-10-055"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-10-056"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-10-057"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-10-058"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-10-059"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-10-060"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-10-061"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-10-062"
@@ -15931,78 +15931,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-10-066"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-10-067"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-10-068"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-10-069"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【シンポジウム開催案内】参加費：一般3,000円　学生1,000円　事前登録必須",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "無料",
+          "1,000円",
+          "2,000円",
+          "3,000円"
         ],
         "answer": 1,
         "id": "N1-10-070"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【学会発表募集】締切：8月31日　発表時間：20分（質疑応答5分含む）",
+        "question": "発表時間は何分ですか。",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "15分",
+          "20分",
+          "25分",
+          "30分"
         ],
         "answer": 1,
         "id": "N1-10-071"
@@ -17346,221 +17346,221 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-11-046"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-11-047"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-11-048"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-11-049"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-11-050"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-11-051"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-11-052"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-11-053"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-11-054"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-11-055"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-11-056"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-11-057"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-11-058"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-11-059"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-11-060"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-11-061"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-11-062"
@@ -17606,78 +17606,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-11-066"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-11-067"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-11-068"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-11-069"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【シンポジウム開催案内】参加費：一般3,000円　学生1,000円　事前登録必須",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "無料",
+          "1,000円",
+          "2,000円",
+          "3,000円"
         ],
         "answer": 1,
         "id": "N1-11-070"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【学会発表募集】締切：8月31日　発表時間：20分（質疑応答5分含む）",
+        "question": "発表時間は何分ですか。",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "15分",
+          "20分",
+          "25分",
+          "30分"
         ],
         "answer": 1,
         "id": "N1-11-071"
@@ -19021,221 +19021,221 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-12-046"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-12-047"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-12-048"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-12-049"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-12-050"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-12-051"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-12-052"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-12-053"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-12-054"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-12-055"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-12-056"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-12-057"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-12-058"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-12-059"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-12-060"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-12-061"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-12-062"
@@ -19281,78 +19281,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-12-066"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-12-067"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-12-068"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-12-069"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【シンポジウム開催案内】参加費：一般3,000円　学生1,000円　事前登録必須",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "無料",
+          "1,000円",
+          "2,000円",
+          "3,000円"
         ],
         "answer": 1,
         "id": "N1-12-070"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【学会発表募集】締切：8月31日　発表時間：20分（質疑応答5分含む）",
+        "question": "発表時間は何分ですか。",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "15分",
+          "20分",
+          "25分",
+          "30分"
         ],
         "answer": 1,
         "id": "N1-12-071"
@@ -20696,221 +20696,221 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-13-046"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-13-047"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-13-048"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-13-049"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-13-050"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-13-051"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-13-052"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-13-053"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-13-054"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-13-055"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-13-056"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-13-057"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-13-058"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-13-059"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-13-060"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-13-061"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-13-062"
@@ -20956,78 +20956,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-13-066"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-13-067"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-13-068"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-13-069"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【シンポジウム開催案内】参加費：一般3,000円　学生1,000円　事前登録必須",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "無料",
+          "1,000円",
+          "2,000円",
+          "3,000円"
         ],
         "answer": 1,
         "id": "N1-13-070"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【学会発表募集】締切：8月31日　発表時間：20分（質疑応答5分含む）",
+        "question": "発表時間は何分ですか。",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "15分",
+          "20分",
+          "25分",
+          "30分"
         ],
         "answer": 1,
         "id": "N1-13-071"
@@ -22371,221 +22371,221 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-14-046"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-14-047"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-14-048"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-14-049"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-14-050"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-14-051"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-14-052"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-14-053"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-14-054"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-14-055"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-14-056"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-14-057"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-14-058"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-14-059"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-14-060"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-14-061"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-14-062"
@@ -22631,78 +22631,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-14-066"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-14-067"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-14-068"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-14-069"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【シンポジウム開催案内】参加費：一般3,000円　学生1,000円　事前登録必須",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "無料",
+          "1,000円",
+          "2,000円",
+          "3,000円"
         ],
         "answer": 1,
         "id": "N1-14-070"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【学会発表募集】締切：8月31日　発表時間：20分（質疑応答5分含む）",
+        "question": "発表時間は何分ですか。",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "15分",
+          "20分",
+          "25分",
+          "30分"
         ],
         "answer": 1,
         "id": "N1-14-071"
@@ -24046,221 +24046,221 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-15-046"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-15-047"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-15-048"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-15-049"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-15-050"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-15-051"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-15-052"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-15-053"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-15-054"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-15-055"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-15-056"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-15-057"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-15-058"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-15-059"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-15-060"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-15-061"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-15-062"
@@ -24306,78 +24306,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-15-066"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-15-067"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-15-068"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-15-069"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【シンポジウム開催案内】参加費：一般3,000円　学生1,000円　事前登録必須",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "無料",
+          "1,000円",
+          "2,000円",
+          "3,000円"
         ],
         "answer": 1,
         "id": "N1-15-070"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【学会発表募集】締切：8月31日　発表時間：20分（質疑応答5分含む）",
+        "question": "発表時間は何分ですか。",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "15分",
+          "20分",
+          "25分",
+          "30分"
         ],
         "answer": 1,
         "id": "N1-15-071"
@@ -25721,221 +25721,221 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-16-046"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-16-047"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-16-048"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-16-049"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-16-050"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-16-051"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-16-052"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-16-053"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-16-054"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-16-055"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-16-056"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-16-057"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-16-058"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-16-059"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-16-060"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-16-061"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-16-062"
@@ -25981,78 +25981,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-16-066"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-16-067"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-16-068"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-16-069"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【シンポジウム開催案内】参加費：一般3,000円　学生1,000円　事前登録必須",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "無料",
+          "1,000円",
+          "2,000円",
+          "3,000円"
         ],
         "answer": 1,
         "id": "N1-16-070"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【学会発表募集】締切：8月31日　発表時間：20分（質疑応答5分含む）",
+        "question": "発表時間は何分ですか。",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "15分",
+          "20分",
+          "25分",
+          "30分"
         ],
         "answer": 1,
         "id": "N1-16-071"
@@ -27396,221 +27396,221 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-17-046"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-17-047"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-17-048"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-17-049"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-17-050"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-17-051"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-17-052"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-17-053"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-17-054"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-17-055"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-17-056"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-17-057"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-17-058"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-17-059"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-17-060"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-17-061"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-17-062"
@@ -27656,78 +27656,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-17-066"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-17-067"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-17-068"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-17-069"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【シンポジウム開催案内】参加費：一般3,000円　学生1,000円　事前登録必須",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "無料",
+          "1,000円",
+          "2,000円",
+          "3,000円"
         ],
         "answer": 1,
         "id": "N1-17-070"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【学会発表募集】締切：8月31日　発表時間：20分（質疑応答5分含む）",
+        "question": "発表時間は何分ですか。",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "15分",
+          "20分",
+          "25分",
+          "30分"
         ],
         "answer": 1,
         "id": "N1-17-071"
@@ -29071,221 +29071,221 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-18-046"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-18-047"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-18-048"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-18-049"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-18-050"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-18-051"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-18-052"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-18-053"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-18-054"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-18-055"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-18-056"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-18-057"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-18-058"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-18-059"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-18-060"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-18-061"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-18-062"
@@ -29331,78 +29331,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-18-066"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-18-067"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-18-068"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-18-069"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【シンポジウム開催案内】参加費：一般3,000円　学生1,000円　事前登録必須",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "無料",
+          "1,000円",
+          "2,000円",
+          "3,000円"
         ],
         "answer": 1,
         "id": "N1-18-070"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【学会発表募集】締切：8月31日　発表時間：20分（質疑応答5分含む）",
+        "question": "発表時間は何分ですか。",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "15分",
+          "20分",
+          "25分",
+          "30分"
         ],
         "answer": 1,
         "id": "N1-18-071"
@@ -30746,221 +30746,221 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-19-046"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-19-047"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-19-048"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-19-049"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-19-050"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-19-051"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-19-052"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-19-053"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-19-054"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-19-055"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-19-056"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-19-057"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-19-058"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-19-059"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-19-060"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-19-061"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-19-062"
@@ -31006,78 +31006,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-19-066"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-19-067"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-19-068"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-19-069"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【シンポジウム開催案内】参加費：一般3,000円　学生1,000円　事前登録必須",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "無料",
+          "1,000円",
+          "2,000円",
+          "3,000円"
         ],
         "answer": 1,
         "id": "N1-19-070"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【学会発表募集】締切：8月31日　発表時間：20分（質疑応答5分含む）",
+        "question": "発表時間は何分ですか。",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "15分",
+          "20分",
+          "25分",
+          "30分"
         ],
         "answer": 1,
         "id": "N1-19-071"
@@ -32421,221 +32421,221 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-20-046"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-20-047"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "知識社会において、情報リテラシーの重要性が増している。膨大な情報の中から必要なものを選別し、批判的に分析する能力が求められる。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "全ての情報を受け入れる",
+          "情報を批判的に分析する能力",
+          "情報を無視する",
+          "専門家に頼る"
         ],
         "answer": 1,
         "id": "N1-20-048"
       },
       {
         "type": "内容理解（短文）",
-        "text": "<ruby>知識<rt>ちしき</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>情報<rt>じょうほう</rt></ruby>リテラシーの<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>膨大な<rt>ぼうだいな</rt></ruby><ruby>情報<rt>じょうほう</rt></ruby>の<ruby>中<rt>ちゅう</rt></ruby>から<ruby>必要な<rt>ひつような</rt></ruby>ものを選<ruby>別<rt>べつ</rt></ruby>し、<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>が求められる。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "科学技術の発展は、人類に多大な恩恵をもたらしてきた。しかし同時に、環境破壊や倫理的問題など、新たな課題も生み出している。",
+        "question": "科学技術の発展について正しいのは？",
         "options": [
-          "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>批判的<rt>ひはんてき</rt></ruby>に<ruby>分析する<rt>ぶんせきする</rt></ruby><ruby>能力<rt>のうりょく</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>の速さ",
-          "<ruby>情報<rt>じょうほう</rt></ruby>源の<ruby>数<rt>すう</rt></ruby>"
+          "問題はない",
+          "恩恵のみ",
+          "恩恵と課題の両方がある",
+          "害のみ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-20-049"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-20-050"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-20-051"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-20-052"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-20-053"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-20-054"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-20-055"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-20-056"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "持続可能な社会の実現には、経済成長と環境保護の両立が不可欠である。そのためには、技術革新だけでなく、社会システムの変革も必要とされる。",
+        "question": "持続可能な社会に必要なのは？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "経済成長のみ",
+          "環境保護のみ",
+          "経済成長と環境保護の両立",
+          "現状維持"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-20-057"
       },
       {
         "type": "内容理解（中文）",
-        "text": "<ruby>人工知能<rt>じんこうちのう</rt></ruby>の<ruby>発展<rt>はってん</rt></ruby>は、<ruby>社会<rt>しゃかい</rt></ruby>に<ruby>大きな<rt>おおきな</rt></ruby><ruby>変革<rt>へんかく</rt></ruby>をもたらしつつある。<ruby>自動運転<rt>じどううんてん</rt></ruby>、<ruby>医療<rt>いりょう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>、<ruby>金融<rt>きんゆう</rt></ruby><ruby>取引<rt>とりひき</rt></ruby>など、<ruby>様々な<rt>さまざまな</rt></ruby><ruby>分野<rt>ぶんや</rt></ruby>でAIの<ruby>活用<rt>かつよう</rt></ruby>が進んでいる。",
-        "question": "AIに<ruby>関する<rt>かんする</rt></ruby><ruby>懸念<rt>けねん</rt></ruby>として挙げられているのは？",
+        "text": "人工知能の発展は、社会に大きな変革をもたらしつつある。一方で、意思決定過程が不透明であるという懸念も指摘されている。",
+        "question": "AIに関する懸念は？",
         "options": [
-          "<ruby>処理<rt>しょり</rt></ruby><ruby>速度<rt>そくど</rt></ruby>が<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>意思決定過程<rt>いしけっていかてい</rt></ruby>が<ruby>不<rt>ふ</rt></ruby><ruby>透明<rt>とうめい</rt></ruby>",
-          "<ruby>電力<rt>でんりょく</rt></ruby><ruby>消費<rt>しょうひ</rt></ruby>が<ruby>大きい<rt>おおきい</rt></ruby>",
-          "<ruby>コスト<rt>こすと</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby>"
+          "処理速度が遅い",
+          "意思決定過程が不透明",
+          "電力消費が少ない",
+          "普及していない"
         ],
         "answer": 1,
         "id": "N1-20-058"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-20-059"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-20-060"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-20-061"
       },
       {
         "type": "内容理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-20-062"
@@ -32681,78 +32681,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-20-066"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-20-067"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、専門知と市民知の関係が問い直されている。従来、専門家の知見は絶対的なものとされてきたが、市民との対話の重要性が認識されつつある。",
+        "question": "筆者が求めている知の在り方は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "専門家のみ重視",
+          "市民のみ重視",
+          "専門家と市民の対話",
+          "知識は不要"
         ],
         "answer": 2,
         "id": "N1-20-068"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、プライバシーの<ruby>概念<rt>がいねん</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変容<rt>へんよう</rt></ruby>している。<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>普及<rt>ふきゅう</rt></ruby>により、<ruby>人々<rt>ひとびと</rt></ruby>は自らプライベートな<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>するようになった。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代の情報社会において、プライバシーの概念は変容している。個人情報保護と利便性のバランスをどう取るかが課題となっている。",
+        "question": "プライバシーに関する課題は？",
         "options": [
-          "プライバシーは<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>権利<rt>けんり</rt></ruby>である",
-          "<ruby>情報<rt>じょうほう</rt></ruby><ruby>収集<rt>しゅうしゅう</rt></ruby>は<ruby>全て<rt>すべて</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>すべき",
-          "プライバシーは<ruby>他<rt>ほか</rt></ruby>の<ruby>価値<rt>かち</rt></ruby>とのバランスで<ruby>考える<rt>かんがえる</rt></ruby>べき",
-          "プライバシーは<ruby>時代<rt>じだい</rt></ruby><ruby>遅れ<rt>おくれ</rt></ruby>の<ruby>概念<rt>がいねん</rt></ruby>だ"
+          "保護は不要",
+          "利便性は不要",
+          "保護と利便性のバランス",
+          "法律は完璧"
         ],
         "answer": 2,
         "id": "N1-20-069"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【シンポジウム開催案内】参加費：一般3,000円　学生1,000円　事前登録必須",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "無料",
+          "1,000円",
+          "2,000円",
+          "3,000円"
         ],
         "answer": 1,
         "id": "N1-20-070"
       },
       {
         "type": "情報検索",
-        "text": "【シンポジウム<ruby>開催<rt>かいさい</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>参加<rt>さんか</rt></ruby>費：<ruby>一般<rt>いっぱん</rt></ruby>3,000<ruby>円<rt>えん</rt></ruby>、<ruby>学生<rt>がくせい</rt></ruby>1,000<ruby>円<rt>えん</rt></ruby>",
-        "question": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>事前<rt>じぜん</rt></ruby><ruby>登録<rt>とうろく</rt></ruby>して<ruby>参加する<rt>さんかする</rt></ruby><ruby>場合<rt>ばあい</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>は？",
+        "text": "【学会発表募集】締切：8月31日　発表時間：20分（質疑応答5分含む）",
+        "question": "発表時間は何分ですか。",
         "options": [
-          "<ruby>無料<rt>むりょう</rt></ruby>",
-          "1,000<ruby>円<rt>えん</rt></ruby>",
-          "3,000<ruby>円<rt>えん</rt></ruby>",
-          "4,000<ruby>円<rt>えん</rt></ruby>"
+          "15分",
+          "20分",
+          "25分",
+          "30分"
         ],
         "answer": 1,
         "id": "N1-20-071"

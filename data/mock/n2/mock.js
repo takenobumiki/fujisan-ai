@@ -1,4 +1,4 @@
-// N2 Mock Test Data - v18.7.0 (fixed context questions)
+// N2 Mock Test Data - v18.7.1 (fixed reading questions)
 if (typeof MOCK_DATA === 'undefined') { var MOCK_DATA = {}; }
 MOCK_DATA['N2'] = {
   "info": {
@@ -713,182 +713,182 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-01-055"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-01-056"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-01-057"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-01-058"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-01-059"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-01-060"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-01-061"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-01-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-01-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-01-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-01-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-01-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-01-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-01-068"
@@ -921,67 +921,67 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-01-071"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-01-072"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-01-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【研修案内】対象：入社3年目以上　日程：7月15日（月）9:00-17:00　参加費：無料",
+        "question": "この研修に参加できるのは？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "新入社員",
+          "入社2年目",
+          "入社3年目以上",
+          "全員"
         ],
         "answer": 2,
         "id": "N2-01-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【セミナー案内】テーマ：AI活用　定員：50名　参加費：3,000円（学生1,500円）",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "無料",
+          "1,500円",
+          "3,000円",
+          "5,000円"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N2-01-075"
       },
       {
@@ -2390,182 +2390,182 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-02-055"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-02-056"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-02-057"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-02-058"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-02-059"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-02-060"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-02-061"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-02-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-02-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-02-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-02-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-02-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-02-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-02-068"
@@ -2598,67 +2598,67 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-02-071"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-02-072"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-02-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【研修案内】対象：入社3年目以上　日程：7月15日（月）9:00-17:00　参加費：無料",
+        "question": "この研修に参加できるのは？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "新入社員",
+          "入社2年目",
+          "入社3年目以上",
+          "全員"
         ],
         "answer": 2,
         "id": "N2-02-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【セミナー案内】テーマ：AI活用　定員：50名　参加費：3,000円（学生1,500円）",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "無料",
+          "1,500円",
+          "3,000円",
+          "5,000円"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N2-02-075"
       },
       {
@@ -4067,182 +4067,182 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-03-055"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-03-056"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-03-057"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-03-058"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-03-059"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-03-060"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-03-061"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-03-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-03-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-03-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-03-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-03-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-03-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-03-068"
@@ -4275,67 +4275,67 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-03-071"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-03-072"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-03-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【研修案内】対象：入社3年目以上　日程：7月15日（月）9:00-17:00　参加費：無料",
+        "question": "この研修に参加できるのは？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "新入社員",
+          "入社2年目",
+          "入社3年目以上",
+          "全員"
         ],
         "answer": 2,
         "id": "N2-03-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【セミナー案内】テーマ：AI活用　定員：50名　参加費：3,000円（学生1,500円）",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "無料",
+          "1,500円",
+          "3,000円",
+          "5,000円"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N2-03-075"
       },
       {
@@ -5744,182 +5744,182 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-04-055"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-04-056"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-04-057"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-04-058"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-04-059"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-04-060"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-04-061"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-04-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-04-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-04-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-04-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-04-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-04-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-04-068"
@@ -5952,67 +5952,67 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-04-071"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-04-072"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-04-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【研修案内】対象：入社3年目以上　日程：7月15日（月）9:00-17:00　参加費：無料",
+        "question": "この研修に参加できるのは？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "新入社員",
+          "入社2年目",
+          "入社3年目以上",
+          "全員"
         ],
         "answer": 2,
         "id": "N2-04-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【セミナー案内】テーマ：AI活用　定員：50名　参加費：3,000円（学生1,500円）",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "無料",
+          "1,500円",
+          "3,000円",
+          "5,000円"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N2-04-075"
       },
       {
@@ -7421,182 +7421,182 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-05-055"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-05-056"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-05-057"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-05-058"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-05-059"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-05-060"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-05-061"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-05-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-05-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-05-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-05-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-05-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-05-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-05-068"
@@ -7629,67 +7629,67 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-05-071"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-05-072"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-05-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【研修案内】対象：入社3年目以上　日程：7月15日（月）9:00-17:00　参加費：無料",
+        "question": "この研修に参加できるのは？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "新入社員",
+          "入社2年目",
+          "入社3年目以上",
+          "全員"
         ],
         "answer": 2,
         "id": "N2-05-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【セミナー案内】テーマ：AI活用　定員：50名　参加費：3,000円（学生1,500円）",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "無料",
+          "1,500円",
+          "3,000円",
+          "5,000円"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N2-05-075"
       },
       {
@@ -9098,182 +9098,182 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-06-055"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-06-056"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-06-057"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-06-058"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-06-059"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-06-060"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-06-061"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-06-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-06-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-06-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-06-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-06-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-06-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-06-068"
@@ -9306,67 +9306,67 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-06-071"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-06-072"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-06-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【研修案内】対象：入社3年目以上　日程：7月15日（月）9:00-17:00　参加費：無料",
+        "question": "この研修に参加できるのは？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "新入社員",
+          "入社2年目",
+          "入社3年目以上",
+          "全員"
         ],
         "answer": 2,
         "id": "N2-06-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【セミナー案内】テーマ：AI活用　定員：50名　参加費：3,000円（学生1,500円）",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "無料",
+          "1,500円",
+          "3,000円",
+          "5,000円"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N2-06-075"
       },
       {
@@ -10775,182 +10775,182 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-07-055"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-07-056"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-07-057"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-07-058"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-07-059"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-07-060"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-07-061"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-07-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-07-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-07-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-07-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-07-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-07-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-07-068"
@@ -10983,67 +10983,67 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-07-071"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-07-072"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-07-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【研修案内】対象：入社3年目以上　日程：7月15日（月）9:00-17:00　参加費：無料",
+        "question": "この研修に参加できるのは？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "新入社員",
+          "入社2年目",
+          "入社3年目以上",
+          "全員"
         ],
         "answer": 2,
         "id": "N2-07-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【セミナー案内】テーマ：AI活用　定員：50名　参加費：3,000円（学生1,500円）",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "無料",
+          "1,500円",
+          "3,000円",
+          "5,000円"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N2-07-075"
       },
       {
@@ -12452,182 +12452,182 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-08-055"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-08-056"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-08-057"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-08-058"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-08-059"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-08-060"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-08-061"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-08-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-08-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-08-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-08-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-08-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-08-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-08-068"
@@ -12660,67 +12660,67 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-08-071"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-08-072"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-08-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【研修案内】対象：入社3年目以上　日程：7月15日（月）9:00-17:00　参加費：無料",
+        "question": "この研修に参加できるのは？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "新入社員",
+          "入社2年目",
+          "入社3年目以上",
+          "全員"
         ],
         "answer": 2,
         "id": "N2-08-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【セミナー案内】テーマ：AI活用　定員：50名　参加費：3,000円（学生1,500円）",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "無料",
+          "1,500円",
+          "3,000円",
+          "5,000円"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N2-08-075"
       },
       {
@@ -14129,182 +14129,182 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-09-055"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-09-056"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-09-057"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-09-058"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-09-059"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-09-060"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-09-061"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-09-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-09-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-09-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-09-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-09-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-09-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-09-068"
@@ -14337,67 +14337,67 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-09-071"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-09-072"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-09-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【研修案内】対象：入社3年目以上　日程：7月15日（月）9:00-17:00　参加費：無料",
+        "question": "この研修に参加できるのは？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "新入社員",
+          "入社2年目",
+          "入社3年目以上",
+          "全員"
         ],
         "answer": 2,
         "id": "N2-09-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【セミナー案内】テーマ：AI活用　定員：50名　参加費：3,000円（学生1,500円）",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "無料",
+          "1,500円",
+          "3,000円",
+          "5,000円"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N2-09-075"
       },
       {
@@ -15806,182 +15806,182 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-10-055"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-10-056"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-10-057"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-10-058"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-10-059"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-10-060"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-10-061"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-10-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-10-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-10-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-10-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-10-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-10-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-10-068"
@@ -16014,67 +16014,67 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-10-071"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-10-072"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-10-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【研修案内】対象：入社3年目以上　日程：7月15日（月）9:00-17:00　参加費：無料",
+        "question": "この研修に参加できるのは？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "新入社員",
+          "入社2年目",
+          "入社3年目以上",
+          "全員"
         ],
         "answer": 2,
         "id": "N2-10-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【セミナー案内】テーマ：AI活用　定員：50名　参加費：3,000円（学生1,500円）",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "無料",
+          "1,500円",
+          "3,000円",
+          "5,000円"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N2-10-075"
       },
       {
@@ -17483,182 +17483,182 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-11-055"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-11-056"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-11-057"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-11-058"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-11-059"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-11-060"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-11-061"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-11-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-11-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-11-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-11-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-11-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-11-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-11-068"
@@ -17691,67 +17691,67 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-11-071"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-11-072"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-11-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【研修案内】対象：入社3年目以上　日程：7月15日（月）9:00-17:00　参加費：無料",
+        "question": "この研修に参加できるのは？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "新入社員",
+          "入社2年目",
+          "入社3年目以上",
+          "全員"
         ],
         "answer": 2,
         "id": "N2-11-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【セミナー案内】テーマ：AI活用　定員：50名　参加費：3,000円（学生1,500円）",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "無料",
+          "1,500円",
+          "3,000円",
+          "5,000円"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N2-11-075"
       },
       {
@@ -19160,182 +19160,182 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-12-055"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-12-056"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-12-057"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-12-058"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-12-059"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-12-060"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-12-061"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-12-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-12-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-12-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-12-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-12-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-12-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-12-068"
@@ -19368,67 +19368,67 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-12-071"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-12-072"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-12-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【研修案内】対象：入社3年目以上　日程：7月15日（月）9:00-17:00　参加費：無料",
+        "question": "この研修に参加できるのは？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "新入社員",
+          "入社2年目",
+          "入社3年目以上",
+          "全員"
         ],
         "answer": 2,
         "id": "N2-12-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【セミナー案内】テーマ：AI活用　定員：50名　参加費：3,000円（学生1,500円）",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "無料",
+          "1,500円",
+          "3,000円",
+          "5,000円"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N2-12-075"
       },
       {
@@ -20837,182 +20837,182 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-13-055"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-13-056"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-13-057"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-13-058"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-13-059"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-13-060"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-13-061"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-13-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-13-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-13-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-13-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-13-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-13-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-13-068"
@@ -21045,67 +21045,67 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-13-071"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-13-072"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-13-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【研修案内】対象：入社3年目以上　日程：7月15日（月）9:00-17:00　参加費：無料",
+        "question": "この研修に参加できるのは？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "新入社員",
+          "入社2年目",
+          "入社3年目以上",
+          "全員"
         ],
         "answer": 2,
         "id": "N2-13-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【セミナー案内】テーマ：AI活用　定員：50名　参加費：3,000円（学生1,500円）",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "無料",
+          "1,500円",
+          "3,000円",
+          "5,000円"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N2-13-075"
       },
       {
@@ -22514,182 +22514,182 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-14-055"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-14-056"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-14-057"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-14-058"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-14-059"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-14-060"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-14-061"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-14-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-14-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-14-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-14-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-14-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-14-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-14-068"
@@ -22722,67 +22722,67 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-14-071"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-14-072"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-14-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【研修案内】対象：入社3年目以上　日程：7月15日（月）9:00-17:00　参加費：無料",
+        "question": "この研修に参加できるのは？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "新入社員",
+          "入社2年目",
+          "入社3年目以上",
+          "全員"
         ],
         "answer": 2,
         "id": "N2-14-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【セミナー案内】テーマ：AI活用　定員：50名　参加費：3,000円（学生1,500円）",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "無料",
+          "1,500円",
+          "3,000円",
+          "5,000円"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N2-14-075"
       },
       {
@@ -24191,182 +24191,182 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-15-055"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-15-056"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-15-057"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-15-058"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-15-059"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-15-060"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-15-061"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-15-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-15-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-15-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-15-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-15-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-15-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-15-068"
@@ -24399,67 +24399,67 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-15-071"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-15-072"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-15-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【研修案内】対象：入社3年目以上　日程：7月15日（月）9:00-17:00　参加費：無料",
+        "question": "この研修に参加できるのは？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "新入社員",
+          "入社2年目",
+          "入社3年目以上",
+          "全員"
         ],
         "answer": 2,
         "id": "N2-15-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【セミナー案内】テーマ：AI活用　定員：50名　参加費：3,000円（学生1,500円）",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "無料",
+          "1,500円",
+          "3,000円",
+          "5,000円"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N2-15-075"
       },
       {
@@ -25868,182 +25868,182 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-16-055"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-16-056"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-16-057"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-16-058"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-16-059"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-16-060"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-16-061"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-16-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-16-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-16-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-16-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-16-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-16-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-16-068"
@@ -26076,67 +26076,67 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-16-071"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-16-072"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-16-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【研修案内】対象：入社3年目以上　日程：7月15日（月）9:00-17:00　参加費：無料",
+        "question": "この研修に参加できるのは？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "新入社員",
+          "入社2年目",
+          "入社3年目以上",
+          "全員"
         ],
         "answer": 2,
         "id": "N2-16-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【セミナー案内】テーマ：AI活用　定員：50名　参加費：3,000円（学生1,500円）",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "無料",
+          "1,500円",
+          "3,000円",
+          "5,000円"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N2-16-075"
       },
       {
@@ -27545,182 +27545,182 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-17-055"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-17-056"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-17-057"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-17-058"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-17-059"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-17-060"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-17-061"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-17-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-17-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-17-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-17-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-17-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-17-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-17-068"
@@ -27753,67 +27753,67 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-17-071"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-17-072"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-17-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【研修案内】対象：入社3年目以上　日程：7月15日（月）9:00-17:00　参加費：無料",
+        "question": "この研修に参加できるのは？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "新入社員",
+          "入社2年目",
+          "入社3年目以上",
+          "全員"
         ],
         "answer": 2,
         "id": "N2-17-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【セミナー案内】テーマ：AI活用　定員：50名　参加費：3,000円（学生1,500円）",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "無料",
+          "1,500円",
+          "3,000円",
+          "5,000円"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N2-17-075"
       },
       {
@@ -29222,182 +29222,182 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-18-055"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-18-056"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-18-057"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-18-058"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-18-059"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-18-060"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-18-061"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-18-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-18-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-18-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-18-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-18-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-18-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-18-068"
@@ -29430,67 +29430,67 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-18-071"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-18-072"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-18-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【研修案内】対象：入社3年目以上　日程：7月15日（月）9:00-17:00　参加費：無料",
+        "question": "この研修に参加できるのは？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "新入社員",
+          "入社2年目",
+          "入社3年目以上",
+          "全員"
         ],
         "answer": 2,
         "id": "N2-18-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【セミナー案内】テーマ：AI活用　定員：50名　参加費：3,000円（学生1,500円）",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "無料",
+          "1,500円",
+          "3,000円",
+          "5,000円"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N2-18-075"
       },
       {
@@ -30899,182 +30899,182 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-19-055"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-19-056"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-19-057"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-19-058"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-19-059"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-19-060"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-19-061"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-19-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-19-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-19-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-19-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-19-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-19-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-19-068"
@@ -31107,67 +31107,67 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-19-071"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-19-072"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-19-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【研修案内】対象：入社3年目以上　日程：7月15日（月）9:00-17:00　参加費：無料",
+        "question": "この研修に参加できるのは？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "新入社員",
+          "入社2年目",
+          "入社3年目以上",
+          "全員"
         ],
         "answer": 2,
         "id": "N2-19-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【セミナー案内】テーマ：AI活用　定員：50名　参加費：3,000円（学生1,500円）",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "無料",
+          "1,500円",
+          "3,000円",
+          "5,000円"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N2-19-075"
       },
       {
@@ -32576,182 +32576,182 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-20-055"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-20-056"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-20-057"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "AI技術の発展により、多くの仕事が自動化される可能性がある。一方で、創造性を必要とする仕事の価値は高まると予想される。",
+        "question": "AI時代に価値が高まるのは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "単純作業",
+          "創造性を必要とする仕事",
+          "全ての仕事",
+          "肉体労働"
         ],
         "answer": 1,
         "id": "N2-20-058"
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が<ruby>進む<rt>すすむ</rt></ruby><ruby>現代<rt>げんだい</rt></ruby>において、異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が<ruby>増<rt>ぞう</rt></ruby>している。<ruby>異なる<rt>ことなる</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby><ruby>背景<rt>はいけい</rt></ruby>を<ruby>持つ<rt>もつ</rt></ruby><ruby>人々<rt>ひとびと</rt></ruby>と<ruby>円滑に<rt>えんかつに</rt></ruby>コミュニケーションを<ruby>取る<rt>とる</rt></ruby>ためには、<ruby>相手<rt>あいて</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>や<ruby>価値観<rt>かちかん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>する<ruby>姿勢<rt>しせい</rt></ruby>が欠かせない。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>重要<rt>じゅうよう</rt></ruby>だと<ruby>考え<rt>かんがえ</rt></ruby>ていることは？",
+        "text": "グローバル化が進む現代において、異文化理解の重要性が増している。異なる文化を尊重し、相互理解を深めることが求められている。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>語<rt>ご</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "異<ruby>文化<rt>ぶんか</rt></ruby><ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>経済<rt>けいざい</rt></ruby><ruby>力<rt>ちから</rt></ruby>",
-          "<ruby>技術<rt>ぎじゅつ</rt></ruby><ruby>力<rt>ちから</rt></ruby>"
+          "自国文化のみ重視",
+          "異文化理解と相互尊重",
+          "外国語は不要",
+          "伝統を守る"
         ],
         "answer": 1,
         "id": "N2-20-059"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-20-060"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-20-061"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-20-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-20-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-20-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-20-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-20-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "少子高齢化の進行により、労働力不足が深刻な問題となっている。その対策として、外国人労働者の受け入れ拡大や高齢者の就労促進が議論されている。",
+        "question": "労働力不足の対策として挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "出生率の低下",
+          "外国人労働者の受け入れ",
+          "企業の海外移転",
+          "自動化の禁止"
         ],
         "answer": 1,
         "id": "N2-20-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>がますます<ruby>認識<rt>にんしき</rt></ruby>されるようになっている。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>人間関係<rt>にんげんかんけい</rt></ruby>の<ruby>ストレス<rt>すとれす</rt></ruby>により、<ruby>心<rt>こころ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を害する<ruby>人<rt>ひと</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>している。",
-        "question": "<ruby>企業<rt>きぎょう</rt></ruby>が行っている<ruby>メンタルヘルス<rt>めんたるへるす</rt></ruby>ケアの<ruby>取り組み<rt>とりくみ</rt></ruby>は？",
+        "text": "現代社会において、メンタルヘルスの重要性が認識されるようになっている。企業では相談窓口の設置や研修の実施など、様々な取り組みが行われている。",
+        "question": "企業の取り組みとして挙げられているのは？",
         "options": [
-          "<ruby>給料<rt>きゅうりょう</rt></ruby>の引き<ruby>上<rt>うえ</rt></ruby>げ",
-          "<ruby>相談<rt>そうだん</rt></ruby><ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>設置<rt>せっち</rt></ruby>",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby><ruby>支援<rt>しえん</rt></ruby>"
+          "給料を上げる",
+          "相談窓口の設置",
+          "残業を増やす",
+          "休日を減らす"
         ],
         "answer": 1,
         "id": "N2-20-068"
@@ -32784,67 +32784,67 @@ MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-20-071"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-20-072"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>ワークライフバランス<rt>わーくらいふばらんす</rt></ruby>の<ruby>重要性<rt>じゅうようせい</rt></ruby>が叫ばれている。<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>生産性<rt>せいさんせい</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>健康<rt>けんこう</rt></ruby><ruby>被害<rt>ひがい</rt></ruby>をもたらすだけでなく、<ruby>少子化<rt>しょうしか</rt></ruby>の一因ともなっている。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>主張<rt>しゅちょう</rt></ruby>として<ruby>最も<rt>もっとも</rt></ruby><ruby>適切な<rt>てきせつな</rt></ruby>のは？",
+        "text": "現代社会において、ワークライフバランスの重要性が叫ばれている。長時間労働は生産性の低下や健康被害をもたらすだけでなく、家庭生活にも影響を与える。",
+        "question": "長時間労働の問題として挙げられているのは？",
         "options": [
-          "<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ",
-          "<ruby>制度<rt>せいど</rt></ruby>だけでなく<ruby>意識<rt>いしき</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>",
-          "<ruby>制度<rt>せいど</rt></ruby><ruby>改革<rt>かいかく</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby><ruby>優先<rt>ゆうせん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>"
+          "生産性の向上",
+          "健康増進",
+          "生産性低下と健康被害",
+          "収入増加"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N2-20-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【研修案内】対象：入社3年目以上　日程：7月15日（月）9:00-17:00　参加費：無料",
+        "question": "この研修に参加できるのは？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "新入社員",
+          "入社2年目",
+          "入社3年目以上",
+          "全員"
         ],
         "answer": 2,
         "id": "N2-20-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>研修<rt>けんしゅう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】<ruby>対象<rt>たいしょう</rt></ruby>：<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>　<ruby>日程<rt>にってい</rt></ruby>：7<ruby>月<rt>つき</rt></ruby>15<ruby>日<rt>ひ</rt></ruby>（<ruby>月<rt>つき</rt></ruby>）9:00-17:00",
-        "question": "この<ruby>研修<rt>けんしゅう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>できるのは？",
+        "text": "【セミナー案内】テーマ：AI活用　定員：50名　参加費：3,000円（学生1,500円）",
+        "question": "学生の参加費は？",
         "options": [
-          "<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>2<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>入社<rt>にゅうしゃ</rt></ruby>3<ruby>年<rt>とし</rt></ruby><ruby>目<rt>め</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>社員<rt>しゃいん</rt></ruby>",
-          "<ruby>全<rt>ぜん</rt></ruby><ruby>社員<rt>しゃいん</rt></ruby>"
+          "無料",
+          "1,500円",
+          "3,000円",
+          "5,000円"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N2-20-075"
       },
       {

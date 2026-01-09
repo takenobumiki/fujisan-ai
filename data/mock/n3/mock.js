@@ -1,4 +1,4 @@
-// N3 Mock Test Data - v18.7.0 (fixed context questions)
+// N3 Mock Test Data - v18.7.1 (fixed reading questions)
 if (typeof MOCK_DATA === 'undefined') { var MOCK_DATA = {}; }
 MOCK_DATA['N3'] = {
   "info": {
@@ -765,223 +765,223 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "最近、在宅勤務が増えています。通勤時間がなくなり、自分の時間が増えました。しかし、運動不足になる人も多いようです。",
+        "question": "在宅勤務のメリットは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "運動できる",
+          "通勤時間がなくなる",
+          "人に会える",
+          "集中できない"
         ],
         "answer": 1,
         "id": "N3-01-059"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "この商品は品質がよく、価格も手頃です。多くの人に人気があります。",
+        "question": "この商品の特徴は？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "高い",
+          "品質がよく価格も手頃",
+          "品質が悪い",
+          "人気がない"
         ],
         "answer": 1,
         "id": "N3-01-060"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "日本では、電車の中で電話をするのはマナー違反とされています。",
+        "question": "電車の中でしてはいけないことは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "本を読む",
+          "音楽を聴く",
+          "電話をする",
+          "寝る"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-01-061"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "このアプリは無料でダウンロードできますが、一部の機能は有料です。",
+        "question": "このアプリについて正しいのは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "全て無料",
+          "全て有料",
+          "無料だが一部有料",
+          "ダウンロードできない"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-01-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-01-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-01-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-01-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-01-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-01-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-01-068"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-01-069"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-01-070"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-01-071"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-01-072"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-01-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【スポーツジム案内】営業時間：6:00-23:00　月会費：8,000円　入会金：5,000円",
+        "question": "月会費はいくらですか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5,000円",
+          "6,000円",
+          "8,000円",
+          "10,000円"
         ],
         "answer": 2,
         "id": "N3-01-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-01-075"
       },
       {
@@ -2417,223 +2417,223 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "最近、在宅勤務が増えています。通勤時間がなくなり、自分の時間が増えました。しかし、運動不足になる人も多いようです。",
+        "question": "在宅勤務のメリットは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "運動できる",
+          "通勤時間がなくなる",
+          "人に会える",
+          "集中できない"
         ],
         "answer": 1,
         "id": "N3-02-059"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "この商品は品質がよく、価格も手頃です。多くの人に人気があります。",
+        "question": "この商品の特徴は？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "高い",
+          "品質がよく価格も手頃",
+          "品質が悪い",
+          "人気がない"
         ],
         "answer": 1,
         "id": "N3-02-060"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "日本では、電車の中で電話をするのはマナー違反とされています。",
+        "question": "電車の中でしてはいけないことは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "本を読む",
+          "音楽を聴く",
+          "電話をする",
+          "寝る"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-02-061"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "このアプリは無料でダウンロードできますが、一部の機能は有料です。",
+        "question": "このアプリについて正しいのは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "全て無料",
+          "全て有料",
+          "無料だが一部有料",
+          "ダウンロードできない"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-02-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-02-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-02-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-02-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-02-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-02-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-02-068"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-02-069"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-02-070"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-02-071"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-02-072"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-02-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【スポーツジム案内】営業時間：6:00-23:00　月会費：8,000円　入会金：5,000円",
+        "question": "月会費はいくらですか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5,000円",
+          "6,000円",
+          "8,000円",
+          "10,000円"
         ],
         "answer": 2,
         "id": "N3-02-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-02-075"
       },
       {
@@ -4069,223 +4069,223 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "最近、在宅勤務が増えています。通勤時間がなくなり、自分の時間が増えました。しかし、運動不足になる人も多いようです。",
+        "question": "在宅勤務のメリットは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "運動できる",
+          "通勤時間がなくなる",
+          "人に会える",
+          "集中できない"
         ],
         "answer": 1,
         "id": "N3-03-059"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "この商品は品質がよく、価格も手頃です。多くの人に人気があります。",
+        "question": "この商品の特徴は？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "高い",
+          "品質がよく価格も手頃",
+          "品質が悪い",
+          "人気がない"
         ],
         "answer": 1,
         "id": "N3-03-060"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "日本では、電車の中で電話をするのはマナー違反とされています。",
+        "question": "電車の中でしてはいけないことは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "本を読む",
+          "音楽を聴く",
+          "電話をする",
+          "寝る"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-03-061"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "このアプリは無料でダウンロードできますが、一部の機能は有料です。",
+        "question": "このアプリについて正しいのは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "全て無料",
+          "全て有料",
+          "無料だが一部有料",
+          "ダウンロードできない"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-03-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-03-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-03-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-03-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-03-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-03-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-03-068"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-03-069"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-03-070"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-03-071"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-03-072"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-03-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【スポーツジム案内】営業時間：6:00-23:00　月会費：8,000円　入会金：5,000円",
+        "question": "月会費はいくらですか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5,000円",
+          "6,000円",
+          "8,000円",
+          "10,000円"
         ],
         "answer": 2,
         "id": "N3-03-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-03-075"
       },
       {
@@ -5721,223 +5721,223 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "最近、在宅勤務が増えています。通勤時間がなくなり、自分の時間が増えました。しかし、運動不足になる人も多いようです。",
+        "question": "在宅勤務のメリットは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "運動できる",
+          "通勤時間がなくなる",
+          "人に会える",
+          "集中できない"
         ],
         "answer": 1,
         "id": "N3-04-059"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "この商品は品質がよく、価格も手頃です。多くの人に人気があります。",
+        "question": "この商品の特徴は？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "高い",
+          "品質がよく価格も手頃",
+          "品質が悪い",
+          "人気がない"
         ],
         "answer": 1,
         "id": "N3-04-060"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "日本では、電車の中で電話をするのはマナー違反とされています。",
+        "question": "電車の中でしてはいけないことは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "本を読む",
+          "音楽を聴く",
+          "電話をする",
+          "寝る"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-04-061"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "このアプリは無料でダウンロードできますが、一部の機能は有料です。",
+        "question": "このアプリについて正しいのは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "全て無料",
+          "全て有料",
+          "無料だが一部有料",
+          "ダウンロードできない"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-04-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-04-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-04-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-04-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-04-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-04-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-04-068"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-04-069"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-04-070"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-04-071"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-04-072"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-04-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【スポーツジム案内】営業時間：6:00-23:00　月会費：8,000円　入会金：5,000円",
+        "question": "月会費はいくらですか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5,000円",
+          "6,000円",
+          "8,000円",
+          "10,000円"
         ],
         "answer": 2,
         "id": "N3-04-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-04-075"
       },
       {
@@ -7373,223 +7373,223 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "最近、在宅勤務が増えています。通勤時間がなくなり、自分の時間が増えました。しかし、運動不足になる人も多いようです。",
+        "question": "在宅勤務のメリットは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "運動できる",
+          "通勤時間がなくなる",
+          "人に会える",
+          "集中できない"
         ],
         "answer": 1,
         "id": "N3-05-059"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "この商品は品質がよく、価格も手頃です。多くの人に人気があります。",
+        "question": "この商品の特徴は？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "高い",
+          "品質がよく価格も手頃",
+          "品質が悪い",
+          "人気がない"
         ],
         "answer": 1,
         "id": "N3-05-060"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "日本では、電車の中で電話をするのはマナー違反とされています。",
+        "question": "電車の中でしてはいけないことは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "本を読む",
+          "音楽を聴く",
+          "電話をする",
+          "寝る"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-05-061"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "このアプリは無料でダウンロードできますが、一部の機能は有料です。",
+        "question": "このアプリについて正しいのは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "全て無料",
+          "全て有料",
+          "無料だが一部有料",
+          "ダウンロードできない"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-05-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-05-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-05-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-05-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-05-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-05-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-05-068"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-05-069"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-05-070"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-05-071"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-05-072"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-05-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【スポーツジム案内】営業時間：6:00-23:00　月会費：8,000円　入会金：5,000円",
+        "question": "月会費はいくらですか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5,000円",
+          "6,000円",
+          "8,000円",
+          "10,000円"
         ],
         "answer": 2,
         "id": "N3-05-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-05-075"
       },
       {
@@ -9025,223 +9025,223 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "最近、在宅勤務が増えています。通勤時間がなくなり、自分の時間が増えました。しかし、運動不足になる人も多いようです。",
+        "question": "在宅勤務のメリットは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "運動できる",
+          "通勤時間がなくなる",
+          "人に会える",
+          "集中できない"
         ],
         "answer": 1,
         "id": "N3-06-059"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "この商品は品質がよく、価格も手頃です。多くの人に人気があります。",
+        "question": "この商品の特徴は？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "高い",
+          "品質がよく価格も手頃",
+          "品質が悪い",
+          "人気がない"
         ],
         "answer": 1,
         "id": "N3-06-060"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "日本では、電車の中で電話をするのはマナー違反とされています。",
+        "question": "電車の中でしてはいけないことは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "本を読む",
+          "音楽を聴く",
+          "電話をする",
+          "寝る"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-06-061"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "このアプリは無料でダウンロードできますが、一部の機能は有料です。",
+        "question": "このアプリについて正しいのは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "全て無料",
+          "全て有料",
+          "無料だが一部有料",
+          "ダウンロードできない"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-06-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-06-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-06-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-06-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-06-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-06-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-06-068"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-06-069"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-06-070"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-06-071"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-06-072"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-06-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【スポーツジム案内】営業時間：6:00-23:00　月会費：8,000円　入会金：5,000円",
+        "question": "月会費はいくらですか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5,000円",
+          "6,000円",
+          "8,000円",
+          "10,000円"
         ],
         "answer": 2,
         "id": "N3-06-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-06-075"
       },
       {
@@ -10677,223 +10677,223 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "最近、在宅勤務が増えています。通勤時間がなくなり、自分の時間が増えました。しかし、運動不足になる人も多いようです。",
+        "question": "在宅勤務のメリットは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "運動できる",
+          "通勤時間がなくなる",
+          "人に会える",
+          "集中できない"
         ],
         "answer": 1,
         "id": "N3-07-059"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "この商品は品質がよく、価格も手頃です。多くの人に人気があります。",
+        "question": "この商品の特徴は？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "高い",
+          "品質がよく価格も手頃",
+          "品質が悪い",
+          "人気がない"
         ],
         "answer": 1,
         "id": "N3-07-060"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "日本では、電車の中で電話をするのはマナー違反とされています。",
+        "question": "電車の中でしてはいけないことは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "本を読む",
+          "音楽を聴く",
+          "電話をする",
+          "寝る"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-07-061"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "このアプリは無料でダウンロードできますが、一部の機能は有料です。",
+        "question": "このアプリについて正しいのは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "全て無料",
+          "全て有料",
+          "無料だが一部有料",
+          "ダウンロードできない"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-07-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-07-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-07-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-07-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-07-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-07-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-07-068"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-07-069"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-07-070"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-07-071"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-07-072"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-07-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【スポーツジム案内】営業時間：6:00-23:00　月会費：8,000円　入会金：5,000円",
+        "question": "月会費はいくらですか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5,000円",
+          "6,000円",
+          "8,000円",
+          "10,000円"
         ],
         "answer": 2,
         "id": "N3-07-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-07-075"
       },
       {
@@ -12329,223 +12329,223 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "最近、在宅勤務が増えています。通勤時間がなくなり、自分の時間が増えました。しかし、運動不足になる人も多いようです。",
+        "question": "在宅勤務のメリットは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "運動できる",
+          "通勤時間がなくなる",
+          "人に会える",
+          "集中できない"
         ],
         "answer": 1,
         "id": "N3-08-059"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "この商品は品質がよく、価格も手頃です。多くの人に人気があります。",
+        "question": "この商品の特徴は？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "高い",
+          "品質がよく価格も手頃",
+          "品質が悪い",
+          "人気がない"
         ],
         "answer": 1,
         "id": "N3-08-060"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "日本では、電車の中で電話をするのはマナー違反とされています。",
+        "question": "電車の中でしてはいけないことは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "本を読む",
+          "音楽を聴く",
+          "電話をする",
+          "寝る"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-08-061"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "このアプリは無料でダウンロードできますが、一部の機能は有料です。",
+        "question": "このアプリについて正しいのは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "全て無料",
+          "全て有料",
+          "無料だが一部有料",
+          "ダウンロードできない"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-08-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-08-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-08-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-08-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-08-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-08-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-08-068"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-08-069"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-08-070"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-08-071"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-08-072"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-08-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【スポーツジム案内】営業時間：6:00-23:00　月会費：8,000円　入会金：5,000円",
+        "question": "月会費はいくらですか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5,000円",
+          "6,000円",
+          "8,000円",
+          "10,000円"
         ],
         "answer": 2,
         "id": "N3-08-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-08-075"
       },
       {
@@ -13981,223 +13981,223 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "最近、在宅勤務が増えています。通勤時間がなくなり、自分の時間が増えました。しかし、運動不足になる人も多いようです。",
+        "question": "在宅勤務のメリットは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "運動できる",
+          "通勤時間がなくなる",
+          "人に会える",
+          "集中できない"
         ],
         "answer": 1,
         "id": "N3-09-059"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "この商品は品質がよく、価格も手頃です。多くの人に人気があります。",
+        "question": "この商品の特徴は？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "高い",
+          "品質がよく価格も手頃",
+          "品質が悪い",
+          "人気がない"
         ],
         "answer": 1,
         "id": "N3-09-060"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "日本では、電車の中で電話をするのはマナー違反とされています。",
+        "question": "電車の中でしてはいけないことは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "本を読む",
+          "音楽を聴く",
+          "電話をする",
+          "寝る"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-09-061"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "このアプリは無料でダウンロードできますが、一部の機能は有料です。",
+        "question": "このアプリについて正しいのは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "全て無料",
+          "全て有料",
+          "無料だが一部有料",
+          "ダウンロードできない"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-09-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-09-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-09-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-09-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-09-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-09-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-09-068"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-09-069"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-09-070"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-09-071"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-09-072"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-09-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【スポーツジム案内】営業時間：6:00-23:00　月会費：8,000円　入会金：5,000円",
+        "question": "月会費はいくらですか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5,000円",
+          "6,000円",
+          "8,000円",
+          "10,000円"
         ],
         "answer": 2,
         "id": "N3-09-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-09-075"
       },
       {
@@ -15633,223 +15633,223 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "最近、在宅勤務が増えています。通勤時間がなくなり、自分の時間が増えました。しかし、運動不足になる人も多いようです。",
+        "question": "在宅勤務のメリットは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "運動できる",
+          "通勤時間がなくなる",
+          "人に会える",
+          "集中できない"
         ],
         "answer": 1,
         "id": "N3-10-059"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "この商品は品質がよく、価格も手頃です。多くの人に人気があります。",
+        "question": "この商品の特徴は？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "高い",
+          "品質がよく価格も手頃",
+          "品質が悪い",
+          "人気がない"
         ],
         "answer": 1,
         "id": "N3-10-060"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "日本では、電車の中で電話をするのはマナー違反とされています。",
+        "question": "電車の中でしてはいけないことは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "本を読む",
+          "音楽を聴く",
+          "電話をする",
+          "寝る"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-10-061"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "このアプリは無料でダウンロードできますが、一部の機能は有料です。",
+        "question": "このアプリについて正しいのは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "全て無料",
+          "全て有料",
+          "無料だが一部有料",
+          "ダウンロードできない"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-10-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-10-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-10-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-10-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-10-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-10-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-10-068"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-10-069"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-10-070"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-10-071"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-10-072"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-10-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【スポーツジム案内】営業時間：6:00-23:00　月会費：8,000円　入会金：5,000円",
+        "question": "月会費はいくらですか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5,000円",
+          "6,000円",
+          "8,000円",
+          "10,000円"
         ],
         "answer": 2,
         "id": "N3-10-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-10-075"
       },
       {
@@ -17285,223 +17285,223 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "最近、在宅勤務が増えています。通勤時間がなくなり、自分の時間が増えました。しかし、運動不足になる人も多いようです。",
+        "question": "在宅勤務のメリットは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "運動できる",
+          "通勤時間がなくなる",
+          "人に会える",
+          "集中できない"
         ],
         "answer": 1,
         "id": "N3-11-059"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "この商品は品質がよく、価格も手頃です。多くの人に人気があります。",
+        "question": "この商品の特徴は？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "高い",
+          "品質がよく価格も手頃",
+          "品質が悪い",
+          "人気がない"
         ],
         "answer": 1,
         "id": "N3-11-060"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "日本では、電車の中で電話をするのはマナー違反とされています。",
+        "question": "電車の中でしてはいけないことは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "本を読む",
+          "音楽を聴く",
+          "電話をする",
+          "寝る"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-11-061"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "このアプリは無料でダウンロードできますが、一部の機能は有料です。",
+        "question": "このアプリについて正しいのは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "全て無料",
+          "全て有料",
+          "無料だが一部有料",
+          "ダウンロードできない"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-11-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-11-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-11-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-11-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-11-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-11-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-11-068"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-11-069"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-11-070"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-11-071"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-11-072"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-11-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【スポーツジム案内】営業時間：6:00-23:00　月会費：8,000円　入会金：5,000円",
+        "question": "月会費はいくらですか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5,000円",
+          "6,000円",
+          "8,000円",
+          "10,000円"
         ],
         "answer": 2,
         "id": "N3-11-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-11-075"
       },
       {
@@ -18937,223 +18937,223 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "最近、在宅勤務が増えています。通勤時間がなくなり、自分の時間が増えました。しかし、運動不足になる人も多いようです。",
+        "question": "在宅勤務のメリットは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "運動できる",
+          "通勤時間がなくなる",
+          "人に会える",
+          "集中できない"
         ],
         "answer": 1,
         "id": "N3-12-059"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "この商品は品質がよく、価格も手頃です。多くの人に人気があります。",
+        "question": "この商品の特徴は？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "高い",
+          "品質がよく価格も手頃",
+          "品質が悪い",
+          "人気がない"
         ],
         "answer": 1,
         "id": "N3-12-060"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "日本では、電車の中で電話をするのはマナー違反とされています。",
+        "question": "電車の中でしてはいけないことは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "本を読む",
+          "音楽を聴く",
+          "電話をする",
+          "寝る"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-12-061"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "このアプリは無料でダウンロードできますが、一部の機能は有料です。",
+        "question": "このアプリについて正しいのは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "全て無料",
+          "全て有料",
+          "無料だが一部有料",
+          "ダウンロードできない"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-12-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-12-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-12-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-12-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-12-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-12-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-12-068"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-12-069"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-12-070"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-12-071"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-12-072"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-12-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【スポーツジム案内】営業時間：6:00-23:00　月会費：8,000円　入会金：5,000円",
+        "question": "月会費はいくらですか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5,000円",
+          "6,000円",
+          "8,000円",
+          "10,000円"
         ],
         "answer": 2,
         "id": "N3-12-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-12-075"
       },
       {
@@ -20589,223 +20589,223 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "最近、在宅勤務が増えています。通勤時間がなくなり、自分の時間が増えました。しかし、運動不足になる人も多いようです。",
+        "question": "在宅勤務のメリットは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "運動できる",
+          "通勤時間がなくなる",
+          "人に会える",
+          "集中できない"
         ],
         "answer": 1,
         "id": "N3-13-059"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "この商品は品質がよく、価格も手頃です。多くの人に人気があります。",
+        "question": "この商品の特徴は？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "高い",
+          "品質がよく価格も手頃",
+          "品質が悪い",
+          "人気がない"
         ],
         "answer": 1,
         "id": "N3-13-060"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "日本では、電車の中で電話をするのはマナー違反とされています。",
+        "question": "電車の中でしてはいけないことは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "本を読む",
+          "音楽を聴く",
+          "電話をする",
+          "寝る"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-13-061"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "このアプリは無料でダウンロードできますが、一部の機能は有料です。",
+        "question": "このアプリについて正しいのは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "全て無料",
+          "全て有料",
+          "無料だが一部有料",
+          "ダウンロードできない"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-13-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-13-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-13-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-13-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-13-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-13-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-13-068"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-13-069"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-13-070"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-13-071"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-13-072"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-13-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【スポーツジム案内】営業時間：6:00-23:00　月会費：8,000円　入会金：5,000円",
+        "question": "月会費はいくらですか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5,000円",
+          "6,000円",
+          "8,000円",
+          "10,000円"
         ],
         "answer": 2,
         "id": "N3-13-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-13-075"
       },
       {
@@ -22241,223 +22241,223 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "最近、在宅勤務が増えています。通勤時間がなくなり、自分の時間が増えました。しかし、運動不足になる人も多いようです。",
+        "question": "在宅勤務のメリットは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "運動できる",
+          "通勤時間がなくなる",
+          "人に会える",
+          "集中できない"
         ],
         "answer": 1,
         "id": "N3-14-059"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "この商品は品質がよく、価格も手頃です。多くの人に人気があります。",
+        "question": "この商品の特徴は？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "高い",
+          "品質がよく価格も手頃",
+          "品質が悪い",
+          "人気がない"
         ],
         "answer": 1,
         "id": "N3-14-060"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "日本では、電車の中で電話をするのはマナー違反とされています。",
+        "question": "電車の中でしてはいけないことは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "本を読む",
+          "音楽を聴く",
+          "電話をする",
+          "寝る"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-14-061"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "このアプリは無料でダウンロードできますが、一部の機能は有料です。",
+        "question": "このアプリについて正しいのは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "全て無料",
+          "全て有料",
+          "無料だが一部有料",
+          "ダウンロードできない"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-14-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-14-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-14-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-14-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-14-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-14-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-14-068"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-14-069"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-14-070"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-14-071"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-14-072"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-14-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【スポーツジム案内】営業時間：6:00-23:00　月会費：8,000円　入会金：5,000円",
+        "question": "月会費はいくらですか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5,000円",
+          "6,000円",
+          "8,000円",
+          "10,000円"
         ],
         "answer": 2,
         "id": "N3-14-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-14-075"
       },
       {
@@ -23893,223 +23893,223 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "最近、在宅勤務が増えています。通勤時間がなくなり、自分の時間が増えました。しかし、運動不足になる人も多いようです。",
+        "question": "在宅勤務のメリットは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "運動できる",
+          "通勤時間がなくなる",
+          "人に会える",
+          "集中できない"
         ],
         "answer": 1,
         "id": "N3-15-059"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "この商品は品質がよく、価格も手頃です。多くの人に人気があります。",
+        "question": "この商品の特徴は？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "高い",
+          "品質がよく価格も手頃",
+          "品質が悪い",
+          "人気がない"
         ],
         "answer": 1,
         "id": "N3-15-060"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "日本では、電車の中で電話をするのはマナー違反とされています。",
+        "question": "電車の中でしてはいけないことは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "本を読む",
+          "音楽を聴く",
+          "電話をする",
+          "寝る"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-15-061"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "このアプリは無料でダウンロードできますが、一部の機能は有料です。",
+        "question": "このアプリについて正しいのは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "全て無料",
+          "全て有料",
+          "無料だが一部有料",
+          "ダウンロードできない"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-15-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-15-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-15-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-15-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-15-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-15-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-15-068"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-15-069"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-15-070"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-15-071"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-15-072"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-15-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【スポーツジム案内】営業時間：6:00-23:00　月会費：8,000円　入会金：5,000円",
+        "question": "月会費はいくらですか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5,000円",
+          "6,000円",
+          "8,000円",
+          "10,000円"
         ],
         "answer": 2,
         "id": "N3-15-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-15-075"
       },
       {
@@ -25545,223 +25545,223 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "最近、在宅勤務が増えています。通勤時間がなくなり、自分の時間が増えました。しかし、運動不足になる人も多いようです。",
+        "question": "在宅勤務のメリットは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "運動できる",
+          "通勤時間がなくなる",
+          "人に会える",
+          "集中できない"
         ],
         "answer": 1,
         "id": "N3-16-059"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "この商品は品質がよく、価格も手頃です。多くの人に人気があります。",
+        "question": "この商品の特徴は？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "高い",
+          "品質がよく価格も手頃",
+          "品質が悪い",
+          "人気がない"
         ],
         "answer": 1,
         "id": "N3-16-060"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "日本では、電車の中で電話をするのはマナー違反とされています。",
+        "question": "電車の中でしてはいけないことは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "本を読む",
+          "音楽を聴く",
+          "電話をする",
+          "寝る"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-16-061"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "このアプリは無料でダウンロードできますが、一部の機能は有料です。",
+        "question": "このアプリについて正しいのは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "全て無料",
+          "全て有料",
+          "無料だが一部有料",
+          "ダウンロードできない"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-16-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-16-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-16-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-16-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-16-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-16-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-16-068"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-16-069"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-16-070"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-16-071"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-16-072"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-16-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【スポーツジム案内】営業時間：6:00-23:00　月会費：8,000円　入会金：5,000円",
+        "question": "月会費はいくらですか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5,000円",
+          "6,000円",
+          "8,000円",
+          "10,000円"
         ],
         "answer": 2,
         "id": "N3-16-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-16-075"
       },
       {
@@ -27197,223 +27197,223 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "最近、在宅勤務が増えています。通勤時間がなくなり、自分の時間が増えました。しかし、運動不足になる人も多いようです。",
+        "question": "在宅勤務のメリットは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "運動できる",
+          "通勤時間がなくなる",
+          "人に会える",
+          "集中できない"
         ],
         "answer": 1,
         "id": "N3-17-059"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "この商品は品質がよく、価格も手頃です。多くの人に人気があります。",
+        "question": "この商品の特徴は？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "高い",
+          "品質がよく価格も手頃",
+          "品質が悪い",
+          "人気がない"
         ],
         "answer": 1,
         "id": "N3-17-060"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "日本では、電車の中で電話をするのはマナー違反とされています。",
+        "question": "電車の中でしてはいけないことは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "本を読む",
+          "音楽を聴く",
+          "電話をする",
+          "寝る"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-17-061"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "このアプリは無料でダウンロードできますが、一部の機能は有料です。",
+        "question": "このアプリについて正しいのは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "全て無料",
+          "全て有料",
+          "無料だが一部有料",
+          "ダウンロードできない"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-17-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-17-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-17-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-17-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-17-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-17-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-17-068"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-17-069"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-17-070"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-17-071"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-17-072"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-17-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【スポーツジム案内】営業時間：6:00-23:00　月会費：8,000円　入会金：5,000円",
+        "question": "月会費はいくらですか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5,000円",
+          "6,000円",
+          "8,000円",
+          "10,000円"
         ],
         "answer": 2,
         "id": "N3-17-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-17-075"
       },
       {
@@ -28849,223 +28849,223 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "最近、在宅勤務が増えています。通勤時間がなくなり、自分の時間が増えました。しかし、運動不足になる人も多いようです。",
+        "question": "在宅勤務のメリットは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "運動できる",
+          "通勤時間がなくなる",
+          "人に会える",
+          "集中できない"
         ],
         "answer": 1,
         "id": "N3-18-059"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "この商品は品質がよく、価格も手頃です。多くの人に人気があります。",
+        "question": "この商品の特徴は？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "高い",
+          "品質がよく価格も手頃",
+          "品質が悪い",
+          "人気がない"
         ],
         "answer": 1,
         "id": "N3-18-060"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "日本では、電車の中で電話をするのはマナー違反とされています。",
+        "question": "電車の中でしてはいけないことは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "本を読む",
+          "音楽を聴く",
+          "電話をする",
+          "寝る"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-18-061"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "このアプリは無料でダウンロードできますが、一部の機能は有料です。",
+        "question": "このアプリについて正しいのは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "全て無料",
+          "全て有料",
+          "無料だが一部有料",
+          "ダウンロードできない"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-18-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-18-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-18-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-18-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-18-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-18-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-18-068"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-18-069"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-18-070"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-18-071"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-18-072"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-18-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【スポーツジム案内】営業時間：6:00-23:00　月会費：8,000円　入会金：5,000円",
+        "question": "月会費はいくらですか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5,000円",
+          "6,000円",
+          "8,000円",
+          "10,000円"
         ],
         "answer": 2,
         "id": "N3-18-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-18-075"
       },
       {
@@ -30501,223 +30501,223 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "最近、在宅勤務が増えています。通勤時間がなくなり、自分の時間が増えました。しかし、運動不足になる人も多いようです。",
+        "question": "在宅勤務のメリットは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "運動できる",
+          "通勤時間がなくなる",
+          "人に会える",
+          "集中できない"
         ],
         "answer": 1,
         "id": "N3-19-059"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "この商品は品質がよく、価格も手頃です。多くの人に人気があります。",
+        "question": "この商品の特徴は？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "高い",
+          "品質がよく価格も手頃",
+          "品質が悪い",
+          "人気がない"
         ],
         "answer": 1,
         "id": "N3-19-060"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "日本では、電車の中で電話をするのはマナー違反とされています。",
+        "question": "電車の中でしてはいけないことは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "本を読む",
+          "音楽を聴く",
+          "電話をする",
+          "寝る"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-19-061"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "このアプリは無料でダウンロードできますが、一部の機能は有料です。",
+        "question": "このアプリについて正しいのは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "全て無料",
+          "全て有料",
+          "無料だが一部有料",
+          "ダウンロードできない"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-19-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-19-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-19-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-19-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-19-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-19-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-19-068"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-19-069"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-19-070"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-19-071"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-19-072"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-19-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【スポーツジム案内】営業時間：6:00-23:00　月会費：8,000円　入会金：5,000円",
+        "question": "月会費はいくらですか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5,000円",
+          "6,000円",
+          "8,000円",
+          "10,000円"
         ],
         "answer": 2,
         "id": "N3-19-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-19-075"
       },
       {
@@ -32153,223 +32153,223 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "最近、在宅勤務が増えています。通勤時間がなくなり、自分の時間が増えました。しかし、運動不足になる人も多いようです。",
+        "question": "在宅勤務のメリットは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "運動できる",
+          "通勤時間がなくなる",
+          "人に会える",
+          "集中できない"
         ],
         "answer": 1,
         "id": "N3-20-059"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "この商品は品質がよく、価格も手頃です。多くの人に人気があります。",
+        "question": "この商品の特徴は？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "高い",
+          "品質がよく価格も手頃",
+          "品質が悪い",
+          "人気がない"
         ],
         "answer": 1,
         "id": "N3-20-060"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "日本では、電車の中で電話をするのはマナー違反とされています。",
+        "question": "電車の中でしてはいけないことは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "本を読む",
+          "音楽を聴く",
+          "電話をする",
+          "寝る"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-20-061"
       },
       {
         "type": "読解（短文）",
-        "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>が<ruby>増えています<rt>ふえています</rt></ruby>。<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がなくなり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>増えました<rt>ふえました</rt></ruby>。しかし、<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>も<ruby>多い<rt>おおい</rt></ruby>ようです。",
-        "question": "<ruby>在宅勤務<rt>ざいたくきんむ</rt></ruby>のデメリットは？",
+        "text": "このアプリは無料でダウンロードできますが、一部の機能は有料です。",
+        "question": "このアプリについて正しいのは？",
         "options": [
-          "<ruby>通勤<rt>つうきん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>が<ruby>長い<rt>ながい</rt></ruby>",
-          "<ruby>運動<rt>うんどう</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>になりやすい",
-          "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>がない",
-          "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "全て無料",
+          "全て有料",
+          "無料だが一部有料",
+          "ダウンロードできない"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-20-062"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-20-063"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-20-064"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-20-065"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-20-066"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "私は大学で日本語を専攻しています。将来は日本で働きたいと思っています。そのために、今は日本語だけでなく、日本のビジネスマナーも勉強しています。",
+        "question": "この人は何を勉強していますか。",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "英語だけ",
+          "日本語とビジネスマナー",
+          "中国語",
+          "数学"
         ],
         "answer": 1,
         "id": "N3-20-067"
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は<ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>専攻<rt>せんこう</rt></ruby>しています。<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>で<ruby>働き<rt>はたらき</rt></ruby>たいと思っています。そのために、<ruby>今<rt>いま</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく、<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やビジネス<ruby>マナー<rt>まなー</rt></ruby>も勉強しています。",
-        "question": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>日本<rt>にほん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は？",
+        "text": "環境問題の解決には、個人の努力だけでなく、企業や政府の取り組みも必要です。一人一人ができることから始めることが大切です。",
+        "question": "環境問題について筆者の考えは？",
         "options": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教える<rt>おしえる</rt></ruby>",
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>で<ruby>学<rt>がく</rt></ruby>べないことを<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>日本<rt>にほん</rt></ruby>で<ruby>働く<rt>はたらく</rt></ruby>",
-          "ビジネスを<ruby>始める<rt>はじめる</rt></ruby>"
+          "個人だけで解決できる",
+          "企業だけが取り組むべき",
+          "個人・企業・政府の協力が必要",
+          "解決は不可能"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-20-068"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-20-069"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-20-070"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "現代社会において、情報リテラシーの重要性が増しています。インターネット上には正確な情報と不正確な情報が混在しており、それを見分ける力が必要です。",
+        "question": "筆者が重要だと考えていることは？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "インターネットを使わない",
+          "全ての情報を信じる",
+          "情報を見分ける力",
+          "テレビだけを見る"
         ],
         "answer": 2,
         "id": "N3-20-071"
       },
       {
         "type": "読解（長文）",
-        "text": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>専門<rt>せんもん</rt></ruby><ruby>知<rt>ち</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>が<ruby>問い<rt>とい</rt></ruby>直されている。<ruby>従来<rt>じゅうらい</rt></ruby>、<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>知見<rt>ちけん</rt></ruby>は<ruby>絶対的な<rt>ぜったいてきな</rt></ruby>ものとして扱われてきた。",
-        "question": "<ruby>筆者<rt>ひっしゃ</rt></ruby>が求めている<ruby>知<rt>ち</rt></ruby>の<ruby>在り方<rt>ありかた</rt></ruby>は？",
+        "text": "働き方改革により、多くの企業で残業時間の削減が進んでいます。しかし、仕事量は変わらないため、効率化が課題となっています。",
+        "question": "働き方改革の課題は？",
         "options": [
-          "<ruby>専門家<rt>せんもんか</rt></ruby>への<ruby>絶対的<rt>ぜったいてき</rt></ruby><ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>市民<rt>しみん</rt></ruby><ruby>知<rt>ち</rt></ruby>の優位",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>と<ruby>市民<rt>しみん</rt></ruby>の<ruby>対話<rt>たいわ</rt></ruby>",
-          "<ruby>専門家<rt>せんもんか</rt></ruby>の<ruby>排除<rt>はいじょ</rt></ruby>"
+          "残業が増えた",
+          "効率化が必要",
+          "仕事が減った",
+          "給料が上がった"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-20-072"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-20-073"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【スポーツジム案内】営業時間：6:00-23:00　月会費：8,000円　入会金：5,000円",
+        "question": "月会費はいくらですか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5,000円",
+          "6,000円",
+          "8,000円",
+          "10,000円"
         ],
         "answer": 2,
         "id": "N3-20-074"
       },
       {
         "type": "情報検索",
-        "text": "【<ruby>図書館<rt>としょかん</rt></ruby><ruby>利用<rt>りよう</rt></ruby><ruby>案内<rt>あんない</rt></ruby>】開館<ruby>時間<rt>じかん</rt></ruby>：9:00-20:00（<ruby>土<rt>つち</rt></ruby><ruby>日<rt>ひ</rt></ruby>は17:00まで）貸<ruby>出<rt>で</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>数<rt>すう</rt></ruby>：1<ruby>人<rt>ひと</rt></ruby>10<ruby>冊<rt>さつ</rt></ruby>まで",
-        "question": "<ruby>本<rt>ほん</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>長<rt>ちょう</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby><ruby>借り<rt>かり</rt></ruby>られますか。",
+        "text": "【図書館利用案内】開館時間：9:00-20:00（土日は17:00まで）貸出冊数：1人10冊まで",
+        "question": "1人で何冊まで借りられますか。",
         "options": [
-          "2<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "3<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "4<ruby>週間<rt>しゅうかん</rt></ruby>",
-          "<ruby>制限<rt>せいげん</rt></ruby>なし"
+          "5冊",
+          "10冊",
+          "15冊",
+          "20冊"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-20-075"
       },
       {
