@@ -2160,12 +2160,6 @@ async function startReview() {
   showLearningQuestion();
 }
 
-// Start drill from dashboard
-function startDrill(type) {
-  if (type === 'quiz' || type === 'learn') startDrill();
-  else if (type === 'review') startReview();
-}
-
 // ========== SOUND EFFECTS ==========
 const SFX = {
   newQuestion: null,
@@ -2588,6 +2582,10 @@ function showFeedbackArea(item, skill, userAnswer, correctAnswer, isCorrect) {
   }
   
   feedbackArea.style.display = 'block';
+  
+  // Show next button
+  const nextBtn = document.getElementById('feedback-next-btn');
+  if (nextBtn) nextBtn.style.display = 'block';
 }
 
 function updateFollowupPlaceholder() {
@@ -2851,6 +2849,10 @@ function advanceToNextQuestion() {
   // Hide feedback area
   const feedbackArea = document.getElementById('feedback-area');
   if (feedbackArea) feedbackArea.style.display = 'none';
+  
+  // Hide next button
+  const nextBtn = document.getElementById('feedback-next-btn');
+  if (nextBtn) nextBtn.style.display = 'none';
   
   session.pendingAI = null;
   
