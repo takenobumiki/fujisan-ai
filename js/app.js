@@ -3208,10 +3208,12 @@ function showMockQuestion() {
     const lang = localStorage.getItem('fujisan_lang') || (state && state.lang) || 'en';
     const msg = listeningMsg[lang] || listeningMsg['en'];
     
-    // 会話形式（おとこ：/おんな：を含む）の場合はイラストを表示
-    const questionContent = q.q || q.text || '';
-    const isConversation = questionContent.includes('おとこ：') || questionContent.includes('おんな：') || 
-                           questionContent.includes('男：') || questionContent.includes('女：');
+    // 会話形式の判定（scriptフィールドも確認）
+    const scriptContent = q.script || '';
+    const isConversation = scriptContent.includes('おとこのひと') || scriptContent.includes('おんなのひと') || 
+                           scriptContent.includes('男の人') || scriptContent.includes('女の人') ||
+                           scriptContent.includes('おとこ：') || scriptContent.includes('おんな：') || 
+                           scriptContent.includes('男：') || scriptContent.includes('女：');
     
     if (isConversation) {
       questionTextEl.innerHTML = '<div style="text-align:center;padding:10px;">' +
