@@ -2229,6 +2229,26 @@ function initSoundEffects() {
       osc.start(ctx.currentTime);
       osc.stop(ctx.currentTime + 0.2);
     };
+    
+    // Typewriter click sound
+    SFX.typewriter = () => {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      const filter = ctx.createBiquadFilter();
+      osc.connect(filter);
+      filter.connect(gain);
+      gain.connect(ctx.destination);
+      filter.type = 'highpass';
+      filter.frequency.setValueAtTime(2000, ctx.currentTime);
+      osc.type = 'square';
+      osc.frequency.setValueAtTime(800, ctx.currentTime);
+      osc.frequency.setValueAtTime(400, ctx.currentTime + 0.01);
+      gain.gain.setValueAtTime(0.15, ctx.currentTime);
+      gain.gain.exponentialDecayTo && gain.gain.exponentialDecayTo(0.001, ctx.currentTime + 0.05);
+      gain.gain.linearRampToValueAtTime(0.001, ctx.currentTime + 0.04);
+      osc.start(ctx.currentTime);
+      osc.stop(ctx.currentTime + 0.05);
+    };
   } catch (e) {
     console.log('Sound effects not available');
   }
@@ -3294,6 +3314,9 @@ function playMockAudio() {
 }
 
 function selectMockAnswer(btn, selected, question) {
+  // Play typewriter sound
+  playSound('typewriter');
+  
   // Save answer without showing correct/incorrect (real exam style)
   mockState.answers[question.id] = { selected, question };
   
