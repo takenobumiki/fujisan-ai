@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.5.7';
+const APP_VERSION = '18.6.0';
 const STORAGE_KEY = 'fujisan_v1737';
 
 // ========== UI TRANSLATIONS ==========
@@ -1843,8 +1843,8 @@ function updateUnitGrid(level, totalUnits, masteredItems, allItems) {
 }
 
 async function startUnitDrill(unitIndex) {
-  // Require valid plan or trial
-  if (!hasValidPlan() && !isInTrialPeriod()) {
+  // N5 is always free, other levels require valid plan or trial
+  if (state.level !== 'N5' && !hasValidPlan() && !isInTrialPeriod()) {
     showSubscriptionRequiredModal();
     return;
   }
@@ -2126,8 +2126,8 @@ function updateSrsDisplay() {
 // ========== END SRS ==========
 
 async function startDrill() {
-  // Require valid plan or trial
-  if (!hasValidPlan() && !isInTrialPeriod()) {
+  // N5 is always free, other levels require valid plan or trial
+  if (state.level !== 'N5' && !hasValidPlan() && !isInTrialPeriod()) {
     showSubscriptionRequiredModal();
     return;
   }
@@ -3175,7 +3175,8 @@ function showMockQuestion() {
   document.getElementById('mock-instruction').innerHTML = instruction;
   
   // Show question text (聴解以外)
-  const isListeningSection = (q.section || '').includes('聴解') && !(q.type || '').includes('読解');
+  const isListeningSection = (q.section || '').includes('聴解') || (q.type || '').includes('聴解') ||
+                             ['課題理解', 'ポイント理解', '概要理解', '即時応答', '統合理解'].includes(q.type || '');
   if (!isListeningSection) {
     const questionText = (q.q || q.text || '').replace(/<u>/g, '<u>').replace(/<\/u>/g, '</u>');
     document.getElementById('mock-question-text').innerHTML = questionText;
@@ -3187,7 +3188,8 @@ function showMockQuestion() {
   const questionTextEl = document.getElementById('mock-question-text');
   
   // N5聴解セクション判定
-  const isListening = (q.section || '').includes('聴解') && !(q.type || '').includes('読解');
+  const isListening = (q.section || '').includes('聴解') || (q.type || '').includes('聴解') || 
+                      ['課題理解', 'ポイント理解', '概要理解', '即時応答', '統合理解'].includes(q.type || '');
   
   if (isListening) {
     // 聴解問題：テキスト非表示、TTSボタン表示
@@ -3221,7 +3223,7 @@ function showMockQuestion() {
     
     audioBtn.classList.remove('hidden');
     audioBtn.innerHTML = '🔊';
-    audioBtn.onclick = () => playListeningTTS(q.q || q.text || '');
+    audioBtn.onclick = () => playListeningTTS(q.script || q.q || (typeof q.text === 'string' ? q.text : '') || '');
     audioEl.src = '';
   } else if (q.audio) {
     audioBtn.classList.remove('hidden');

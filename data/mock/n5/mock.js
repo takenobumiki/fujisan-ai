@@ -1,4 +1,4 @@
-// N5 Mock Test Data - v18.6.7 (with content icons)
+// N5 Mock Test Data - v18.6.8 (with TTS listening)
 if (typeof MOCK_DATA === 'undefined') { var MOCK_DATA = {}; }
 MOCK_DATA['N5'] = {
   "info": {
@@ -674,7 +674,18 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -683,11 +694,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-01-052"
+        "id": "N5-01-052",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -696,11 +719,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-01-053"
+        "id": "N5-01-053",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -709,11 +744,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-01-054"
+        "id": "N5-01-054",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -722,11 +769,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-01-055"
+        "id": "N5-01-055",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -735,11 +794,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-01-056"
+        "id": "N5-01-056",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -748,11 +819,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-01-057"
+        "id": "N5-01-057",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -761,11 +844,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-01-058"
+        "id": "N5-01-058",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -774,11 +869,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-01-059"
+        "id": "N5-01-059",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -787,11 +894,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-01-060"
+        "id": "N5-01-060",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -800,11 +919,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-01-061"
+        "id": "N5-01-061",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -813,11 +944,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-01-062"
+        "id": "N5-01-062",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -826,11 +969,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-01-063"
+        "id": "N5-01-063",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -839,11 +994,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-01-064"
+        "id": "N5-01-064",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -852,11 +1019,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-01-065"
+        "id": "N5-01-065",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -865,11 +1044,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-01-066"
+        "id": "N5-01-066",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -878,11 +1069,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-01-067"
+        "id": "N5-01-067",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -891,11 +1094,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-01-068"
+        "id": "N5-01-068",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -904,11 +1119,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-01-069"
+        "id": "N5-01-069",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -917,11 +1144,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-01-070"
+        "id": "N5-01-070",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -930,11 +1169,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-01-071"
+        "id": "N5-01-071",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -943,11 +1194,23 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-01-072"
+        "id": "N5-01-072",
+        "script": "なんさいですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -956,11 +1219,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-01-073"
+        "id": "N5-01-073",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -969,11 +1244,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-01-074"
+        "id": "N5-01-074",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -982,11 +1269,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-01-075"
+        "id": "N5-01-075",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -995,7 +1294,8 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-01-076"
+        "id": "N5-01-076",
+        "script": "なんさいですか。"
       }
     ],
     "2": [
@@ -1664,7 +1964,18 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -1673,11 +1984,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-02-052"
+        "id": "N5-02-052",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -1686,11 +2009,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-02-053"
+        "id": "N5-02-053",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -1699,11 +2034,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-02-054"
+        "id": "N5-02-054",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -1712,11 +2059,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-02-055"
+        "id": "N5-02-055",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -1725,11 +2084,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-02-056"
+        "id": "N5-02-056",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -1738,11 +2109,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-02-057"
+        "id": "N5-02-057",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -1751,11 +2134,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-02-058"
+        "id": "N5-02-058",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -1764,11 +2159,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-02-059"
+        "id": "N5-02-059",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -1777,11 +2184,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-02-060"
+        "id": "N5-02-060",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -1790,11 +2209,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-02-061"
+        "id": "N5-02-061",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -1803,11 +2234,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-02-062"
+        "id": "N5-02-062",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -1816,11 +2259,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-02-063"
+        "id": "N5-02-063",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -1829,11 +2284,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-02-064"
+        "id": "N5-02-064",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -1842,11 +2309,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-02-065"
+        "id": "N5-02-065",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -1855,11 +2334,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-02-066"
+        "id": "N5-02-066",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -1868,11 +2359,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-02-067"
+        "id": "N5-02-067",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -1881,11 +2384,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-02-068"
+        "id": "N5-02-068",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -1894,11 +2409,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-02-069"
+        "id": "N5-02-069",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -1907,11 +2434,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-02-070"
+        "id": "N5-02-070",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -1920,11 +2459,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-02-071"
+        "id": "N5-02-071",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -1933,11 +2484,23 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-02-072"
+        "id": "N5-02-072",
+        "script": "なんさいですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -1946,11 +2509,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-02-073"
+        "id": "N5-02-073",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -1959,11 +2534,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-02-074"
+        "id": "N5-02-074",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -1972,11 +2559,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-02-075"
+        "id": "N5-02-075",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -1985,7 +2584,8 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-02-076"
+        "id": "N5-02-076",
+        "script": "なんさいですか。"
       }
     ],
     "3": [
@@ -2654,7 +3254,18 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -2663,11 +3274,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-03-052"
+        "id": "N5-03-052",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -2676,11 +3299,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-03-053"
+        "id": "N5-03-053",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -2689,11 +3324,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-03-054"
+        "id": "N5-03-054",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -2702,11 +3349,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-03-055"
+        "id": "N5-03-055",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -2715,11 +3374,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-03-056"
+        "id": "N5-03-056",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -2728,11 +3399,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-03-057"
+        "id": "N5-03-057",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -2741,11 +3424,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-03-058"
+        "id": "N5-03-058",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -2754,11 +3449,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-03-059"
+        "id": "N5-03-059",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -2767,11 +3474,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-03-060"
+        "id": "N5-03-060",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -2780,11 +3499,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-03-061"
+        "id": "N5-03-061",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -2793,11 +3524,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-03-062"
+        "id": "N5-03-062",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -2806,11 +3549,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-03-063"
+        "id": "N5-03-063",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -2819,11 +3574,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-03-064"
+        "id": "N5-03-064",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -2832,11 +3599,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-03-065"
+        "id": "N5-03-065",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -2845,11 +3624,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-03-066"
+        "id": "N5-03-066",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -2858,11 +3649,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-03-067"
+        "id": "N5-03-067",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -2871,11 +3674,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-03-068"
+        "id": "N5-03-068",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -2884,11 +3699,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-03-069"
+        "id": "N5-03-069",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -2897,11 +3724,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-03-070"
+        "id": "N5-03-070",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -2910,11 +3749,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-03-071"
+        "id": "N5-03-071",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -2923,11 +3774,23 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-03-072"
+        "id": "N5-03-072",
+        "script": "なんさいですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -2936,11 +3799,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-03-073"
+        "id": "N5-03-073",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -2949,11 +3824,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-03-074"
+        "id": "N5-03-074",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -2962,11 +3849,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-03-075"
+        "id": "N5-03-075",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -2975,7 +3874,8 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-03-076"
+        "id": "N5-03-076",
+        "script": "なんさいですか。"
       }
     ],
     "4": [
@@ -3644,7 +4544,18 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -3653,11 +4564,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-04-052"
+        "id": "N5-04-052",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -3666,11 +4589,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-04-053"
+        "id": "N5-04-053",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -3679,11 +4614,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-04-054"
+        "id": "N5-04-054",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -3692,11 +4639,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-04-055"
+        "id": "N5-04-055",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -3705,11 +4664,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-04-056"
+        "id": "N5-04-056",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -3718,11 +4689,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-04-057"
+        "id": "N5-04-057",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -3731,11 +4714,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-04-058"
+        "id": "N5-04-058",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -3744,11 +4739,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-04-059"
+        "id": "N5-04-059",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -3757,11 +4764,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-04-060"
+        "id": "N5-04-060",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -3770,11 +4789,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-04-061"
+        "id": "N5-04-061",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -3783,11 +4814,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-04-062"
+        "id": "N5-04-062",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -3796,11 +4839,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-04-063"
+        "id": "N5-04-063",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -3809,11 +4864,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-04-064"
+        "id": "N5-04-064",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -3822,11 +4889,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-04-065"
+        "id": "N5-04-065",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -3835,11 +4914,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-04-066"
+        "id": "N5-04-066",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -3848,11 +4939,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-04-067"
+        "id": "N5-04-067",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -3861,11 +4964,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-04-068"
+        "id": "N5-04-068",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -3874,11 +4989,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-04-069"
+        "id": "N5-04-069",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -3887,11 +5014,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-04-070"
+        "id": "N5-04-070",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -3900,11 +5039,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-04-071"
+        "id": "N5-04-071",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -3913,11 +5064,23 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-04-072"
+        "id": "N5-04-072",
+        "script": "なんさいですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -3926,11 +5089,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-04-073"
+        "id": "N5-04-073",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -3939,11 +5114,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-04-074"
+        "id": "N5-04-074",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -3952,11 +5139,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-04-075"
+        "id": "N5-04-075",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -3965,7 +5164,8 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-04-076"
+        "id": "N5-04-076",
+        "script": "なんさいですか。"
       }
     ],
     "5": [
@@ -4634,7 +5834,18 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -4643,11 +5854,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-05-052"
+        "id": "N5-05-052",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -4656,11 +5879,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-05-053"
+        "id": "N5-05-053",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -4669,11 +5904,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-05-054"
+        "id": "N5-05-054",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -4682,11 +5929,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-05-055"
+        "id": "N5-05-055",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -4695,11 +5954,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-05-056"
+        "id": "N5-05-056",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -4708,11 +5979,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-05-057"
+        "id": "N5-05-057",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -4721,11 +6004,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-05-058"
+        "id": "N5-05-058",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -4734,11 +6029,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-05-059"
+        "id": "N5-05-059",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -4747,11 +6054,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-05-060"
+        "id": "N5-05-060",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -4760,11 +6079,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-05-061"
+        "id": "N5-05-061",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -4773,11 +6104,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-05-062"
+        "id": "N5-05-062",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -4786,11 +6129,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-05-063"
+        "id": "N5-05-063",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -4799,11 +6154,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-05-064"
+        "id": "N5-05-064",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -4812,11 +6179,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-05-065"
+        "id": "N5-05-065",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -4825,11 +6204,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-05-066"
+        "id": "N5-05-066",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -4838,11 +6229,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-05-067"
+        "id": "N5-05-067",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -4851,11 +6254,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-05-068"
+        "id": "N5-05-068",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -4864,11 +6279,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-05-069"
+        "id": "N5-05-069",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -4877,11 +6304,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-05-070"
+        "id": "N5-05-070",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -4890,11 +6329,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-05-071"
+        "id": "N5-05-071",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -4903,11 +6354,23 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-05-072"
+        "id": "N5-05-072",
+        "script": "なんさいですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -4916,11 +6379,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-05-073"
+        "id": "N5-05-073",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -4929,11 +6404,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-05-074"
+        "id": "N5-05-074",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -4942,11 +6429,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-05-075"
+        "id": "N5-05-075",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -4955,7 +6454,8 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-05-076"
+        "id": "N5-05-076",
+        "script": "なんさいですか。"
       }
     ],
     "6": [
@@ -5624,7 +7124,18 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -5633,11 +7144,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-06-052"
+        "id": "N5-06-052",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -5646,11 +7169,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-06-053"
+        "id": "N5-06-053",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -5659,11 +7194,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-06-054"
+        "id": "N5-06-054",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -5672,11 +7219,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-06-055"
+        "id": "N5-06-055",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -5685,11 +7244,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-06-056"
+        "id": "N5-06-056",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -5698,11 +7269,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-06-057"
+        "id": "N5-06-057",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -5711,11 +7294,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-06-058"
+        "id": "N5-06-058",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -5724,11 +7319,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-06-059"
+        "id": "N5-06-059",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -5737,11 +7344,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-06-060"
+        "id": "N5-06-060",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -5750,11 +7369,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-06-061"
+        "id": "N5-06-061",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -5763,11 +7394,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-06-062"
+        "id": "N5-06-062",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -5776,11 +7419,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-06-063"
+        "id": "N5-06-063",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -5789,11 +7444,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-06-064"
+        "id": "N5-06-064",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -5802,11 +7469,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-06-065"
+        "id": "N5-06-065",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -5815,11 +7494,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-06-066"
+        "id": "N5-06-066",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -5828,11 +7519,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-06-067"
+        "id": "N5-06-067",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -5841,11 +7544,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-06-068"
+        "id": "N5-06-068",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -5854,11 +7569,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-06-069"
+        "id": "N5-06-069",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -5867,11 +7594,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-06-070"
+        "id": "N5-06-070",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -5880,11 +7619,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-06-071"
+        "id": "N5-06-071",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -5893,11 +7644,23 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-06-072"
+        "id": "N5-06-072",
+        "script": "なんさいですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -5906,11 +7669,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-06-073"
+        "id": "N5-06-073",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -5919,11 +7694,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-06-074"
+        "id": "N5-06-074",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -5932,11 +7719,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-06-075"
+        "id": "N5-06-075",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -5945,7 +7744,8 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-06-076"
+        "id": "N5-06-076",
+        "script": "なんさいですか。"
       }
     ],
     "7": [
@@ -6614,7 +8414,18 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -6623,11 +8434,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-07-052"
+        "id": "N5-07-052",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -6636,11 +8459,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-07-053"
+        "id": "N5-07-053",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -6649,11 +8484,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-07-054"
+        "id": "N5-07-054",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -6662,11 +8509,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-07-055"
+        "id": "N5-07-055",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -6675,11 +8534,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-07-056"
+        "id": "N5-07-056",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -6688,11 +8559,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-07-057"
+        "id": "N5-07-057",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -6701,11 +8584,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-07-058"
+        "id": "N5-07-058",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -6714,11 +8609,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-07-059"
+        "id": "N5-07-059",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -6727,11 +8634,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-07-060"
+        "id": "N5-07-060",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -6740,11 +8659,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-07-061"
+        "id": "N5-07-061",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -6753,11 +8684,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-07-062"
+        "id": "N5-07-062",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -6766,11 +8709,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-07-063"
+        "id": "N5-07-063",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -6779,11 +8734,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-07-064"
+        "id": "N5-07-064",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -6792,11 +8759,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-07-065"
+        "id": "N5-07-065",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -6805,11 +8784,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-07-066"
+        "id": "N5-07-066",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -6818,11 +8809,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-07-067"
+        "id": "N5-07-067",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -6831,11 +8834,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-07-068"
+        "id": "N5-07-068",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -6844,11 +8859,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-07-069"
+        "id": "N5-07-069",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -6857,11 +8884,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-07-070"
+        "id": "N5-07-070",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -6870,11 +8909,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-07-071"
+        "id": "N5-07-071",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -6883,11 +8934,23 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-07-072"
+        "id": "N5-07-072",
+        "script": "なんさいですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -6896,11 +8959,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-07-073"
+        "id": "N5-07-073",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -6909,11 +8984,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-07-074"
+        "id": "N5-07-074",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -6922,11 +9009,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-07-075"
+        "id": "N5-07-075",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -6935,7 +9034,8 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-07-076"
+        "id": "N5-07-076",
+        "script": "なんさいですか。"
       }
     ],
     "8": [
@@ -7604,7 +9704,18 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -7613,11 +9724,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-08-052"
+        "id": "N5-08-052",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -7626,11 +9749,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-08-053"
+        "id": "N5-08-053",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -7639,11 +9774,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-08-054"
+        "id": "N5-08-054",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -7652,11 +9799,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-08-055"
+        "id": "N5-08-055",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -7665,11 +9824,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-08-056"
+        "id": "N5-08-056",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -7678,11 +9849,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-08-057"
+        "id": "N5-08-057",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -7691,11 +9874,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-08-058"
+        "id": "N5-08-058",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -7704,11 +9899,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-08-059"
+        "id": "N5-08-059",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -7717,11 +9924,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-08-060"
+        "id": "N5-08-060",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -7730,11 +9949,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-08-061"
+        "id": "N5-08-061",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -7743,11 +9974,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-08-062"
+        "id": "N5-08-062",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -7756,11 +9999,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-08-063"
+        "id": "N5-08-063",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -7769,11 +10024,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-08-064"
+        "id": "N5-08-064",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -7782,11 +10049,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-08-065"
+        "id": "N5-08-065",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -7795,11 +10074,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-08-066"
+        "id": "N5-08-066",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -7808,11 +10099,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-08-067"
+        "id": "N5-08-067",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -7821,11 +10124,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-08-068"
+        "id": "N5-08-068",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -7834,11 +10149,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-08-069"
+        "id": "N5-08-069",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -7847,11 +10174,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-08-070"
+        "id": "N5-08-070",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -7860,11 +10199,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-08-071"
+        "id": "N5-08-071",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -7873,11 +10224,23 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-08-072"
+        "id": "N5-08-072",
+        "script": "なんさいですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -7886,11 +10249,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-08-073"
+        "id": "N5-08-073",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -7899,11 +10274,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-08-074"
+        "id": "N5-08-074",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -7912,11 +10299,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-08-075"
+        "id": "N5-08-075",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -7925,7 +10324,8 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-08-076"
+        "id": "N5-08-076",
+        "script": "なんさいですか。"
       }
     ],
     "9": [
@@ -8594,7 +10994,18 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -8603,11 +11014,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-09-052"
+        "id": "N5-09-052",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -8616,11 +11039,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-09-053"
+        "id": "N5-09-053",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -8629,11 +11064,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-09-054"
+        "id": "N5-09-054",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -8642,11 +11089,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-09-055"
+        "id": "N5-09-055",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -8655,11 +11114,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-09-056"
+        "id": "N5-09-056",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -8668,11 +11139,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-09-057"
+        "id": "N5-09-057",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -8681,11 +11164,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-09-058"
+        "id": "N5-09-058",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -8694,11 +11189,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-09-059"
+        "id": "N5-09-059",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -8707,11 +11214,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-09-060"
+        "id": "N5-09-060",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -8720,11 +11239,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-09-061"
+        "id": "N5-09-061",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -8733,11 +11264,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-09-062"
+        "id": "N5-09-062",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -8746,11 +11289,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-09-063"
+        "id": "N5-09-063",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -8759,11 +11314,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-09-064"
+        "id": "N5-09-064",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -8772,11 +11339,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-09-065"
+        "id": "N5-09-065",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -8785,11 +11364,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-09-066"
+        "id": "N5-09-066",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -8798,11 +11389,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-09-067"
+        "id": "N5-09-067",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -8811,11 +11414,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-09-068"
+        "id": "N5-09-068",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -8824,11 +11439,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-09-069"
+        "id": "N5-09-069",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -8837,11 +11464,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-09-070"
+        "id": "N5-09-070",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -8850,11 +11489,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-09-071"
+        "id": "N5-09-071",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -8863,11 +11514,23 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-09-072"
+        "id": "N5-09-072",
+        "script": "なんさいですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -8876,11 +11539,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-09-073"
+        "id": "N5-09-073",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -8889,11 +11564,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-09-074"
+        "id": "N5-09-074",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -8902,11 +11589,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-09-075"
+        "id": "N5-09-075",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -8915,7 +11614,8 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-09-076"
+        "id": "N5-09-076",
+        "script": "なんさいですか。"
       }
     ],
     "10": [
@@ -9584,7 +12284,18 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -9593,11 +12304,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-10-052"
+        "id": "N5-10-052",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -9606,11 +12329,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-10-053"
+        "id": "N5-10-053",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -9619,11 +12354,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-10-054"
+        "id": "N5-10-054",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -9632,11 +12379,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-10-055"
+        "id": "N5-10-055",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -9645,11 +12404,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-10-056"
+        "id": "N5-10-056",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -9658,11 +12429,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-10-057"
+        "id": "N5-10-057",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -9671,11 +12454,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-10-058"
+        "id": "N5-10-058",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -9684,11 +12479,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-10-059"
+        "id": "N5-10-059",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -9697,11 +12504,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-10-060"
+        "id": "N5-10-060",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -9710,11 +12529,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-10-061"
+        "id": "N5-10-061",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -9723,11 +12554,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-10-062"
+        "id": "N5-10-062",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -9736,11 +12579,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-10-063"
+        "id": "N5-10-063",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -9749,11 +12604,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-10-064"
+        "id": "N5-10-064",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -9762,11 +12629,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-10-065"
+        "id": "N5-10-065",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -9775,11 +12654,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-10-066"
+        "id": "N5-10-066",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -9788,11 +12679,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-10-067"
+        "id": "N5-10-067",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -9801,11 +12704,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-10-068"
+        "id": "N5-10-068",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -9814,11 +12729,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-10-069"
+        "id": "N5-10-069",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -9827,11 +12754,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-10-070"
+        "id": "N5-10-070",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -9840,11 +12779,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-10-071"
+        "id": "N5-10-071",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -9853,11 +12804,23 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-10-072"
+        "id": "N5-10-072",
+        "script": "なんさいですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -9866,11 +12829,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-10-073"
+        "id": "N5-10-073",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -9879,11 +12854,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-10-074"
+        "id": "N5-10-074",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -9892,11 +12879,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-10-075"
+        "id": "N5-10-075",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -9905,7 +12904,8 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-10-076"
+        "id": "N5-10-076",
+        "script": "なんさいですか。"
       }
     ],
     "11": [
@@ -10574,7 +13574,18 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -10583,11 +13594,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-11-052"
+        "id": "N5-11-052",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -10596,11 +13619,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-11-053"
+        "id": "N5-11-053",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -10609,11 +13644,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-11-054"
+        "id": "N5-11-054",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -10622,11 +13669,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-11-055"
+        "id": "N5-11-055",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -10635,11 +13694,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-11-056"
+        "id": "N5-11-056",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -10648,11 +13719,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-11-057"
+        "id": "N5-11-057",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -10661,11 +13744,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-11-058"
+        "id": "N5-11-058",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -10674,11 +13769,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-11-059"
+        "id": "N5-11-059",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -10687,11 +13794,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-11-060"
+        "id": "N5-11-060",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -10700,11 +13819,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-11-061"
+        "id": "N5-11-061",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -10713,11 +13844,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-11-062"
+        "id": "N5-11-062",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -10726,11 +13869,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-11-063"
+        "id": "N5-11-063",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -10739,11 +13894,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-11-064"
+        "id": "N5-11-064",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -10752,11 +13919,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-11-065"
+        "id": "N5-11-065",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -10765,11 +13944,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-11-066"
+        "id": "N5-11-066",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -10778,11 +13969,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-11-067"
+        "id": "N5-11-067",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -10791,11 +13994,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-11-068"
+        "id": "N5-11-068",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -10804,11 +14019,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-11-069"
+        "id": "N5-11-069",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -10817,11 +14044,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-11-070"
+        "id": "N5-11-070",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -10830,11 +14069,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-11-071"
+        "id": "N5-11-071",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -10843,11 +14094,23 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-11-072"
+        "id": "N5-11-072",
+        "script": "なんさいですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -10856,11 +14119,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-11-073"
+        "id": "N5-11-073",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -10869,11 +14144,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-11-074"
+        "id": "N5-11-074",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -10882,11 +14169,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-11-075"
+        "id": "N5-11-075",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -10895,7 +14194,8 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-11-076"
+        "id": "N5-11-076",
+        "script": "なんさいですか。"
       }
     ],
     "12": [
@@ -11564,7 +14864,18 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -11573,11 +14884,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-12-052"
+        "id": "N5-12-052",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -11586,11 +14909,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-12-053"
+        "id": "N5-12-053",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -11599,11 +14934,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-12-054"
+        "id": "N5-12-054",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -11612,11 +14959,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-12-055"
+        "id": "N5-12-055",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -11625,11 +14984,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-12-056"
+        "id": "N5-12-056",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -11638,11 +15009,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-12-057"
+        "id": "N5-12-057",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -11651,11 +15034,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-12-058"
+        "id": "N5-12-058",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -11664,11 +15059,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-12-059"
+        "id": "N5-12-059",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -11677,11 +15084,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-12-060"
+        "id": "N5-12-060",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -11690,11 +15109,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-12-061"
+        "id": "N5-12-061",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -11703,11 +15134,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-12-062"
+        "id": "N5-12-062",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -11716,11 +15159,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-12-063"
+        "id": "N5-12-063",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -11729,11 +15184,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-12-064"
+        "id": "N5-12-064",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -11742,11 +15209,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-12-065"
+        "id": "N5-12-065",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -11755,11 +15234,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-12-066"
+        "id": "N5-12-066",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -11768,11 +15259,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-12-067"
+        "id": "N5-12-067",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -11781,11 +15284,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-12-068"
+        "id": "N5-12-068",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -11794,11 +15309,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-12-069"
+        "id": "N5-12-069",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -11807,11 +15334,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-12-070"
+        "id": "N5-12-070",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -11820,11 +15359,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-12-071"
+        "id": "N5-12-071",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -11833,11 +15384,23 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-12-072"
+        "id": "N5-12-072",
+        "script": "なんさいですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -11846,11 +15409,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-12-073"
+        "id": "N5-12-073",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -11859,11 +15434,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-12-074"
+        "id": "N5-12-074",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -11872,11 +15459,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-12-075"
+        "id": "N5-12-075",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -11885,7 +15484,8 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-12-076"
+        "id": "N5-12-076",
+        "script": "なんさいですか。"
       }
     ],
     "13": [
@@ -12554,7 +16154,18 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -12563,11 +16174,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-13-052"
+        "id": "N5-13-052",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -12576,11 +16199,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-13-053"
+        "id": "N5-13-053",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -12589,11 +16224,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-13-054"
+        "id": "N5-13-054",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -12602,11 +16249,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-13-055"
+        "id": "N5-13-055",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -12615,11 +16274,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-13-056"
+        "id": "N5-13-056",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -12628,11 +16299,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-13-057"
+        "id": "N5-13-057",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -12641,11 +16324,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-13-058"
+        "id": "N5-13-058",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -12654,11 +16349,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-13-059"
+        "id": "N5-13-059",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -12667,11 +16374,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-13-060"
+        "id": "N5-13-060",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -12680,11 +16399,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-13-061"
+        "id": "N5-13-061",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -12693,11 +16424,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-13-062"
+        "id": "N5-13-062",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -12706,11 +16449,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-13-063"
+        "id": "N5-13-063",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -12719,11 +16474,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-13-064"
+        "id": "N5-13-064",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -12732,11 +16499,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-13-065"
+        "id": "N5-13-065",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -12745,11 +16524,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-13-066"
+        "id": "N5-13-066",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -12758,11 +16549,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-13-067"
+        "id": "N5-13-067",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -12771,11 +16574,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-13-068"
+        "id": "N5-13-068",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -12784,11 +16599,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-13-069"
+        "id": "N5-13-069",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -12797,11 +16624,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-13-070"
+        "id": "N5-13-070",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -12810,11 +16649,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-13-071"
+        "id": "N5-13-071",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -12823,11 +16674,23 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-13-072"
+        "id": "N5-13-072",
+        "script": "なんさいですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -12836,11 +16699,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-13-073"
+        "id": "N5-13-073",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -12849,11 +16724,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-13-074"
+        "id": "N5-13-074",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -12862,11 +16749,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-13-075"
+        "id": "N5-13-075",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -12875,7 +16774,8 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-13-076"
+        "id": "N5-13-076",
+        "script": "なんさいですか。"
       }
     ],
     "14": [
@@ -13544,7 +17444,18 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -13553,11 +17464,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-14-052"
+        "id": "N5-14-052",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -13566,11 +17489,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-14-053"
+        "id": "N5-14-053",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -13579,11 +17514,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-14-054"
+        "id": "N5-14-054",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -13592,11 +17539,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-14-055"
+        "id": "N5-14-055",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -13605,11 +17564,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-14-056"
+        "id": "N5-14-056",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -13618,11 +17589,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-14-057"
+        "id": "N5-14-057",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -13631,11 +17614,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-14-058"
+        "id": "N5-14-058",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -13644,11 +17639,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-14-059"
+        "id": "N5-14-059",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -13657,11 +17664,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-14-060"
+        "id": "N5-14-060",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -13670,11 +17689,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-14-061"
+        "id": "N5-14-061",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -13683,11 +17714,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-14-062"
+        "id": "N5-14-062",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -13696,11 +17739,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-14-063"
+        "id": "N5-14-063",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -13709,11 +17764,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-14-064"
+        "id": "N5-14-064",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -13722,11 +17789,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-14-065"
+        "id": "N5-14-065",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -13735,11 +17814,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-14-066"
+        "id": "N5-14-066",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -13748,11 +17839,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-14-067"
+        "id": "N5-14-067",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -13761,11 +17864,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-14-068"
+        "id": "N5-14-068",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -13774,11 +17889,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-14-069"
+        "id": "N5-14-069",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -13787,11 +17914,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-14-070"
+        "id": "N5-14-070",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -13800,11 +17939,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-14-071"
+        "id": "N5-14-071",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -13813,11 +17964,23 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-14-072"
+        "id": "N5-14-072",
+        "script": "なんさいですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -13826,11 +17989,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-14-073"
+        "id": "N5-14-073",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -13839,11 +18014,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-14-074"
+        "id": "N5-14-074",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -13852,11 +18039,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-14-075"
+        "id": "N5-14-075",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -13865,7 +18064,8 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-14-076"
+        "id": "N5-14-076",
+        "script": "なんさいですか。"
       }
     ],
     "15": [
@@ -14534,7 +18734,18 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -14543,11 +18754,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-15-052"
+        "id": "N5-15-052",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -14556,11 +18779,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-15-053"
+        "id": "N5-15-053",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -14569,11 +18804,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-15-054"
+        "id": "N5-15-054",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -14582,11 +18829,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-15-055"
+        "id": "N5-15-055",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -14595,11 +18854,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-15-056"
+        "id": "N5-15-056",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -14608,11 +18879,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-15-057"
+        "id": "N5-15-057",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -14621,11 +18904,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-15-058"
+        "id": "N5-15-058",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -14634,11 +18929,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-15-059"
+        "id": "N5-15-059",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -14647,11 +18954,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-15-060"
+        "id": "N5-15-060",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -14660,11 +18979,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-15-061"
+        "id": "N5-15-061",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -14673,11 +19004,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-15-062"
+        "id": "N5-15-062",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -14686,11 +19029,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-15-063"
+        "id": "N5-15-063",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -14699,11 +19054,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-15-064"
+        "id": "N5-15-064",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -14712,11 +19079,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-15-065"
+        "id": "N5-15-065",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -14725,11 +19104,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-15-066"
+        "id": "N5-15-066",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -14738,11 +19129,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-15-067"
+        "id": "N5-15-067",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -14751,11 +19154,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-15-068"
+        "id": "N5-15-068",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -14764,11 +19179,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-15-069"
+        "id": "N5-15-069",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -14777,11 +19204,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-15-070"
+        "id": "N5-15-070",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -14790,11 +19229,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-15-071"
+        "id": "N5-15-071",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -14803,11 +19254,23 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-15-072"
+        "id": "N5-15-072",
+        "script": "なんさいですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -14816,11 +19279,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-15-073"
+        "id": "N5-15-073",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -14829,11 +19304,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-15-074"
+        "id": "N5-15-074",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -14842,11 +19329,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-15-075"
+        "id": "N5-15-075",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -14855,7 +19354,8 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-15-076"
+        "id": "N5-15-076",
+        "script": "なんさいですか。"
       }
     ],
     "16": [
@@ -15524,7 +20024,18 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -15533,11 +20044,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-16-052"
+        "id": "N5-16-052",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -15546,11 +20069,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-16-053"
+        "id": "N5-16-053",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -15559,11 +20094,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-16-054"
+        "id": "N5-16-054",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -15572,11 +20119,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-16-055"
+        "id": "N5-16-055",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -15585,11 +20144,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-16-056"
+        "id": "N5-16-056",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -15598,11 +20169,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-16-057"
+        "id": "N5-16-057",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -15611,11 +20194,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-16-058"
+        "id": "N5-16-058",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -15624,11 +20219,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-16-059"
+        "id": "N5-16-059",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -15637,11 +20244,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-16-060"
+        "id": "N5-16-060",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -15650,11 +20269,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-16-061"
+        "id": "N5-16-061",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -15663,11 +20294,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-16-062"
+        "id": "N5-16-062",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -15676,11 +20319,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-16-063"
+        "id": "N5-16-063",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -15689,11 +20344,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-16-064"
+        "id": "N5-16-064",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -15702,11 +20369,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-16-065"
+        "id": "N5-16-065",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -15715,11 +20394,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-16-066"
+        "id": "N5-16-066",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -15728,11 +20419,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-16-067"
+        "id": "N5-16-067",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -15741,11 +20444,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-16-068"
+        "id": "N5-16-068",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -15754,11 +20469,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-16-069"
+        "id": "N5-16-069",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -15767,11 +20494,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-16-070"
+        "id": "N5-16-070",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -15780,11 +20519,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-16-071"
+        "id": "N5-16-071",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -15793,11 +20544,23 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-16-072"
+        "id": "N5-16-072",
+        "script": "なんさいですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -15806,11 +20569,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-16-073"
+        "id": "N5-16-073",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -15819,11 +20594,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-16-074"
+        "id": "N5-16-074",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -15832,11 +20619,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-16-075"
+        "id": "N5-16-075",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -15845,7 +20644,8 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-16-076"
+        "id": "N5-16-076",
+        "script": "なんさいですか。"
       }
     ],
     "17": [
@@ -16514,7 +21314,18 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -16523,11 +21334,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-17-052"
+        "id": "N5-17-052",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -16536,11 +21359,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-17-053"
+        "id": "N5-17-053",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -16549,11 +21384,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-17-054"
+        "id": "N5-17-054",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -16562,11 +21409,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-17-055"
+        "id": "N5-17-055",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -16575,11 +21434,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-17-056"
+        "id": "N5-17-056",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -16588,11 +21459,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-17-057"
+        "id": "N5-17-057",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -16601,11 +21484,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-17-058"
+        "id": "N5-17-058",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -16614,11 +21509,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-17-059"
+        "id": "N5-17-059",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -16627,11 +21534,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-17-060"
+        "id": "N5-17-060",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -16640,11 +21559,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-17-061"
+        "id": "N5-17-061",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -16653,11 +21584,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-17-062"
+        "id": "N5-17-062",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -16666,11 +21609,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-17-063"
+        "id": "N5-17-063",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -16679,11 +21634,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-17-064"
+        "id": "N5-17-064",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -16692,11 +21659,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-17-065"
+        "id": "N5-17-065",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -16705,11 +21684,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-17-066"
+        "id": "N5-17-066",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -16718,11 +21709,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-17-067"
+        "id": "N5-17-067",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -16731,11 +21734,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-17-068"
+        "id": "N5-17-068",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -16744,11 +21759,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-17-069"
+        "id": "N5-17-069",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -16757,11 +21784,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-17-070"
+        "id": "N5-17-070",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -16770,11 +21809,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-17-071"
+        "id": "N5-17-071",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -16783,11 +21834,23 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-17-072"
+        "id": "N5-17-072",
+        "script": "なんさいですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -16796,11 +21859,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-17-073"
+        "id": "N5-17-073",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -16809,11 +21884,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-17-074"
+        "id": "N5-17-074",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -16822,11 +21909,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-17-075"
+        "id": "N5-17-075",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -16835,7 +21934,8 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-17-076"
+        "id": "N5-17-076",
+        "script": "なんさいですか。"
       }
     ],
     "18": [
@@ -17504,7 +22604,18 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -17513,11 +22624,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-18-052"
+        "id": "N5-18-052",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -17526,11 +22649,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-18-053"
+        "id": "N5-18-053",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -17539,11 +22674,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-18-054"
+        "id": "N5-18-054",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -17552,11 +22699,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-18-055"
+        "id": "N5-18-055",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -17565,11 +22724,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-18-056"
+        "id": "N5-18-056",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -17578,11 +22749,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-18-057"
+        "id": "N5-18-057",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -17591,11 +22774,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-18-058"
+        "id": "N5-18-058",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -17604,11 +22799,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-18-059"
+        "id": "N5-18-059",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -17617,11 +22824,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-18-060"
+        "id": "N5-18-060",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -17630,11 +22849,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-18-061"
+        "id": "N5-18-061",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -17643,11 +22874,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-18-062"
+        "id": "N5-18-062",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -17656,11 +22899,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-18-063"
+        "id": "N5-18-063",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -17669,11 +22924,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-18-064"
+        "id": "N5-18-064",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -17682,11 +22949,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-18-065"
+        "id": "N5-18-065",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -17695,11 +22974,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-18-066"
+        "id": "N5-18-066",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -17708,11 +22999,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-18-067"
+        "id": "N5-18-067",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -17721,11 +23024,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-18-068"
+        "id": "N5-18-068",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -17734,11 +23049,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-18-069"
+        "id": "N5-18-069",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -17747,11 +23074,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-18-070"
+        "id": "N5-18-070",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -17760,11 +23099,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-18-071"
+        "id": "N5-18-071",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -17773,11 +23124,23 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-18-072"
+        "id": "N5-18-072",
+        "script": "なんさいですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -17786,11 +23149,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-18-073"
+        "id": "N5-18-073",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -17799,11 +23174,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-18-074"
+        "id": "N5-18-074",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -17812,11 +23199,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-18-075"
+        "id": "N5-18-075",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -17825,7 +23224,8 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-18-076"
+        "id": "N5-18-076",
+        "script": "なんさいですか。"
       }
     ],
     "19": [
@@ -18494,7 +23894,18 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -18503,11 +23914,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-19-052"
+        "id": "N5-19-052",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -18516,11 +23939,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-19-053"
+        "id": "N5-19-053",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -18529,11 +23964,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-19-054"
+        "id": "N5-19-054",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -18542,11 +23989,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-19-055"
+        "id": "N5-19-055",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -18555,11 +24014,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-19-056"
+        "id": "N5-19-056",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -18568,11 +24039,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-19-057"
+        "id": "N5-19-057",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -18581,11 +24064,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-19-058"
+        "id": "N5-19-058",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -18594,11 +24089,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-19-059"
+        "id": "N5-19-059",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -18607,11 +24114,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-19-060"
+        "id": "N5-19-060",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -18620,11 +24139,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-19-061"
+        "id": "N5-19-061",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -18633,11 +24164,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-19-062"
+        "id": "N5-19-062",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -18646,11 +24189,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-19-063"
+        "id": "N5-19-063",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -18659,11 +24214,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-19-064"
+        "id": "N5-19-064",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -18672,11 +24239,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-19-065"
+        "id": "N5-19-065",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -18685,11 +24264,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-19-066"
+        "id": "N5-19-066",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -18698,11 +24289,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-19-067"
+        "id": "N5-19-067",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -18711,11 +24314,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-19-068"
+        "id": "N5-19-068",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -18724,11 +24339,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-19-069"
+        "id": "N5-19-069",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -18737,11 +24364,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-19-070"
+        "id": "N5-19-070",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -18750,11 +24389,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-19-071"
+        "id": "N5-19-071",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -18763,11 +24414,23 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-19-072"
+        "id": "N5-19-072",
+        "script": "なんさいですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -18776,11 +24439,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-19-073"
+        "id": "N5-19-073",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -18789,11 +24464,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-19-074"
+        "id": "N5-19-074",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -18802,11 +24489,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-19-075"
+        "id": "N5-19-075",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -18815,7 +24514,8 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-19-076"
+        "id": "N5-19-076",
+        "script": "なんさいですか。"
       }
     ],
     "20": [
@@ -19484,7 +25184,18 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -19493,11 +25204,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-20-052"
+        "id": "N5-20-052",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -19506,11 +25229,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-20-053"
+        "id": "N5-20-053",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -19519,11 +25254,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-20-054"
+        "id": "N5-20-054",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -19532,11 +25279,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-20-055"
+        "id": "N5-20-055",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🍎 りんご",
@@ -19545,11 +25304,23 @@ MOCK_DATA['N5'] = {
           "🍓 いちご"
         ],
         "answer": 0,
-        "id": "N5-20-056"
+        "id": "N5-20-056",
+        "script": "おとこのひとと　おんなのひとが　はなしています。おとこのひとは　なにを　かいますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "げつようび",
@@ -19558,11 +25329,23 @@ MOCK_DATA['N5'] = {
           "もくようび"
         ],
         "answer": 2,
-        "id": "N5-20-057"
+        "id": "N5-20-057",
+        "script": "がくせいと　せんせいが　はなしています。しゅくだいは　いつまでですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -19571,11 +25354,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-20-058"
+        "id": "N5-20-058",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -19584,11 +25379,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-20-059"
+        "id": "N5-20-059",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -19597,11 +25404,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-20-060"
+        "id": "N5-20-060",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -19610,11 +25429,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-20-061"
+        "id": "N5-20-061",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。なにが　すきですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "🎵 おんがく",
@@ -19623,11 +25454,23 @@ MOCK_DATA['N5'] = {
           "🎬 えいが"
         ],
         "answer": 0,
-        "id": "N5-20-062"
+        "id": "N5-20-062",
+        "script": "おんなのひとが　はなしています。なにが　すきですか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おとこのひとが　はなしています。どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "とうきょう",
@@ -19636,11 +25479,23 @@ MOCK_DATA['N5'] = {
           "なごや"
         ],
         "answer": 1,
-        "id": "N5-20-063"
+        "id": "N5-20-063",
+        "script": "おとこのひとが　はなしています。どこに　すんでいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -19649,11 +25504,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-20-064"
+        "id": "N5-20-064",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -19662,11 +25529,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-20-065"
+        "id": "N5-20-065",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -19675,11 +25554,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-20-066"
+        "id": "N5-20-066",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "「ありがとう」と　いわれました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "どういたしまして",
@@ -19688,11 +25579,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-20-067"
+        "id": "N5-20-067",
+        "script": "「ありがとう」と　いわれました。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "あさ、せんせいに　あいました。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "おはようございます",
@@ -19701,11 +25604,23 @@ MOCK_DATA['N5'] = {
           "さようなら"
         ],
         "answer": 0,
-        "id": "N5-20-068"
+        "id": "N5-20-068",
+        "script": "あさ、せんせいに　あいました。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -19714,11 +25629,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-20-069"
+        "id": "N5-20-069",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -19727,11 +25654,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-20-070"
+        "id": "N5-20-070",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -19740,11 +25679,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-20-071"
+        "id": "N5-20-071",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -19753,11 +25704,23 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-20-072"
+        "id": "N5-20-072",
+        "script": "なんさいですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "おなまえは？",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "たなかです",
@@ -19766,11 +25729,23 @@ MOCK_DATA['N5'] = {
           "どうぞ"
         ],
         "answer": 0,
-        "id": "N5-20-073"
+        "id": "N5-20-073",
+        "script": "おなまえは？"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "これは　いくらですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "100えんです",
@@ -19779,11 +25754,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-20-074"
+        "id": "N5-20-074",
+        "script": "これは　いくらですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに　すんでいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "とうきょうです",
@@ -19792,11 +25779,23 @@ MOCK_DATA['N5'] = {
           "ありがとう"
         ],
         "answer": 0,
-        "id": "N5-20-075"
+        "id": "N5-20-075",
+        "script": "どこに　すんでいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "なんさいですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "20さいです",
@@ -19805,7 +25804,8 @@ MOCK_DATA['N5'] = {
           "たなかです"
         ],
         "answer": 0,
-        "id": "N5-20-076"
+        "id": "N5-20-076",
+        "script": "なんさいですか。"
       }
     ]
   }

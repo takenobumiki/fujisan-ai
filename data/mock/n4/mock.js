@@ -1,4 +1,4 @@
-// N4 Mock Test Data - v18.6.7 (with content icons)
+// N4 Mock Test Data - v18.6.8 (with TTS listening)
 if (typeof MOCK_DATA === 'undefined') { var MOCK_DATA = {}; }
 MOCK_DATA['N4'] = {
   "info": {
@@ -869,7 +869,18 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -878,11 +889,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-01-067"
+        "id": "N4-01-067",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -891,11 +914,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-01-068"
+        "id": "N4-01-068",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -904,11 +939,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-01-069"
+        "id": "N4-01-069",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -917,11 +964,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-01-070"
+        "id": "N4-01-070",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -930,11 +989,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-01-071"
+        "id": "N4-01-071",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -943,11 +1014,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-01-072"
+        "id": "N4-01-072",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -956,11 +1039,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-01-073"
+        "id": "N4-01-073",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -969,11 +1064,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-01-074"
+        "id": "N4-01-074",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -982,11 +1089,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-01-075"
+        "id": "N4-01-075",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -995,11 +1114,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-01-076"
+        "id": "N4-01-076",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -1008,11 +1139,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-01-077"
+        "id": "N4-01-077",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -1021,11 +1164,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-01-078"
+        "id": "N4-01-078",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -1034,11 +1189,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-01-079"
+        "id": "N4-01-079",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -1047,11 +1214,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-01-080"
+        "id": "N4-01-080",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -1060,11 +1239,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-01-081"
+        "id": "N4-01-081",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -1073,11 +1264,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-01-082"
+        "id": "N4-01-082",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -1086,11 +1289,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-01-083"
+        "id": "N4-01-083",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -1099,11 +1314,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-01-084"
+        "id": "N4-01-084",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -1112,11 +1339,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-01-085"
+        "id": "N4-01-085",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -1125,11 +1364,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-01-086"
+        "id": "N4-01-086",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -1138,11 +1389,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-01-087"
+        "id": "N4-01-087",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -1151,11 +1414,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-01-088"
+        "id": "N4-01-088",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -1164,11 +1439,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-01-089"
+        "id": "N4-01-089",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -1177,11 +1464,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-01-090"
+        "id": "N4-01-090",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -1190,11 +1489,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-01-091"
+        "id": "N4-01-091",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -1203,11 +1514,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-01-092"
+        "id": "N4-01-092",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -1216,11 +1539,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-01-093"
+        "id": "N4-01-093",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -1229,11 +1564,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-01-094"
+        "id": "N4-01-094",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -1242,7 +1589,8 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-01-095"
+        "id": "N4-01-095",
+        "script": "すみません、えきは　どこですか。"
       }
     ],
     "2": [
@@ -2106,7 +2454,18 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -2115,11 +2474,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-02-067"
+        "id": "N4-02-067",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -2128,11 +2499,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-02-068"
+        "id": "N4-02-068",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -2141,11 +2524,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-02-069"
+        "id": "N4-02-069",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -2154,11 +2549,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-02-070"
+        "id": "N4-02-070",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -2167,11 +2574,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-02-071"
+        "id": "N4-02-071",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -2180,11 +2599,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-02-072"
+        "id": "N4-02-072",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -2193,11 +2624,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-02-073"
+        "id": "N4-02-073",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -2206,11 +2649,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-02-074"
+        "id": "N4-02-074",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -2219,11 +2674,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-02-075"
+        "id": "N4-02-075",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -2232,11 +2699,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-02-076"
+        "id": "N4-02-076",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -2245,11 +2724,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-02-077"
+        "id": "N4-02-077",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -2258,11 +2749,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-02-078"
+        "id": "N4-02-078",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -2271,11 +2774,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-02-079"
+        "id": "N4-02-079",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -2284,11 +2799,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-02-080"
+        "id": "N4-02-080",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -2297,11 +2824,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-02-081"
+        "id": "N4-02-081",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -2310,11 +2849,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-02-082"
+        "id": "N4-02-082",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -2323,11 +2874,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-02-083"
+        "id": "N4-02-083",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -2336,11 +2899,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-02-084"
+        "id": "N4-02-084",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -2349,11 +2924,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-02-085"
+        "id": "N4-02-085",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -2362,11 +2949,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-02-086"
+        "id": "N4-02-086",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -2375,11 +2974,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-02-087"
+        "id": "N4-02-087",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -2388,11 +2999,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-02-088"
+        "id": "N4-02-088",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -2401,11 +3024,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-02-089"
+        "id": "N4-02-089",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -2414,11 +3049,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-02-090"
+        "id": "N4-02-090",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -2427,11 +3074,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-02-091"
+        "id": "N4-02-091",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -2440,11 +3099,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-02-092"
+        "id": "N4-02-092",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -2453,11 +3124,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-02-093"
+        "id": "N4-02-093",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -2466,11 +3149,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-02-094"
+        "id": "N4-02-094",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -2479,7 +3174,8 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-02-095"
+        "id": "N4-02-095",
+        "script": "しゅうまつは　なにを　しますか。"
       }
     ],
     "3": [
@@ -3343,7 +4039,18 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -3352,11 +4059,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-03-067"
+        "id": "N4-03-067",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -3365,11 +4084,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-03-068"
+        "id": "N4-03-068",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -3378,11 +4109,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-03-069"
+        "id": "N4-03-069",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -3391,11 +4134,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-03-070"
+        "id": "N4-03-070",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -3404,11 +4159,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-03-071"
+        "id": "N4-03-071",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -3417,11 +4184,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-03-072"
+        "id": "N4-03-072",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -3430,11 +4209,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-03-073"
+        "id": "N4-03-073",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -3443,11 +4234,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-03-074"
+        "id": "N4-03-074",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -3456,11 +4259,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-03-075"
+        "id": "N4-03-075",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -3469,11 +4284,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-03-076"
+        "id": "N4-03-076",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -3482,11 +4309,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-03-077"
+        "id": "N4-03-077",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -3495,11 +4334,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-03-078"
+        "id": "N4-03-078",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -3508,11 +4359,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-03-079"
+        "id": "N4-03-079",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -3521,11 +4384,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-03-080"
+        "id": "N4-03-080",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -3534,11 +4409,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-03-081"
+        "id": "N4-03-081",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -3547,11 +4434,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-03-082"
+        "id": "N4-03-082",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -3560,11 +4459,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-03-083"
+        "id": "N4-03-083",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -3573,11 +4484,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-03-084"
+        "id": "N4-03-084",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -3586,11 +4509,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-03-085"
+        "id": "N4-03-085",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -3599,11 +4534,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-03-086"
+        "id": "N4-03-086",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -3612,11 +4559,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-03-087"
+        "id": "N4-03-087",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -3625,11 +4584,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-03-088"
+        "id": "N4-03-088",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -3638,11 +4609,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-03-089"
+        "id": "N4-03-089",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -3651,11 +4634,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-03-090"
+        "id": "N4-03-090",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -3664,11 +4659,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-03-091"
+        "id": "N4-03-091",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -3677,11 +4684,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-03-092"
+        "id": "N4-03-092",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -3690,11 +4709,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-03-093"
+        "id": "N4-03-093",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -3703,11 +4734,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-03-094"
+        "id": "N4-03-094",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -3716,7 +4759,8 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-03-095"
+        "id": "N4-03-095",
+        "script": "すみません、えきは　どこですか。"
       }
     ],
     "4": [
@@ -4580,7 +5624,18 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -4589,11 +5644,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-04-067"
+        "id": "N4-04-067",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -4602,11 +5669,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-04-068"
+        "id": "N4-04-068",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -4615,11 +5694,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-04-069"
+        "id": "N4-04-069",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -4628,11 +5719,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-04-070"
+        "id": "N4-04-070",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -4641,11 +5744,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-04-071"
+        "id": "N4-04-071",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -4654,11 +5769,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-04-072"
+        "id": "N4-04-072",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -4667,11 +5794,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-04-073"
+        "id": "N4-04-073",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -4680,11 +5819,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-04-074"
+        "id": "N4-04-074",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -4693,11 +5844,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-04-075"
+        "id": "N4-04-075",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -4706,11 +5869,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-04-076"
+        "id": "N4-04-076",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -4719,11 +5894,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-04-077"
+        "id": "N4-04-077",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -4732,11 +5919,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-04-078"
+        "id": "N4-04-078",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -4745,11 +5944,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-04-079"
+        "id": "N4-04-079",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -4758,11 +5969,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-04-080"
+        "id": "N4-04-080",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -4771,11 +5994,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-04-081"
+        "id": "N4-04-081",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -4784,11 +6019,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-04-082"
+        "id": "N4-04-082",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -4797,11 +6044,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-04-083"
+        "id": "N4-04-083",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -4810,11 +6069,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-04-084"
+        "id": "N4-04-084",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -4823,11 +6094,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-04-085"
+        "id": "N4-04-085",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -4836,11 +6119,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-04-086"
+        "id": "N4-04-086",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -4849,11 +6144,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-04-087"
+        "id": "N4-04-087",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -4862,11 +6169,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-04-088"
+        "id": "N4-04-088",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -4875,11 +6194,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-04-089"
+        "id": "N4-04-089",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -4888,11 +6219,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-04-090"
+        "id": "N4-04-090",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -4901,11 +6244,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-04-091"
+        "id": "N4-04-091",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -4914,11 +6269,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-04-092"
+        "id": "N4-04-092",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -4927,11 +6294,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-04-093"
+        "id": "N4-04-093",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -4940,11 +6319,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-04-094"
+        "id": "N4-04-094",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -4953,7 +6344,8 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-04-095"
+        "id": "N4-04-095",
+        "script": "しゅうまつは　なにを　しますか。"
       }
     ],
     "5": [
@@ -5817,7 +7209,18 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -5826,11 +7229,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-05-067"
+        "id": "N4-05-067",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -5839,11 +7254,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-05-068"
+        "id": "N4-05-068",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -5852,11 +7279,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-05-069"
+        "id": "N4-05-069",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -5865,11 +7304,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-05-070"
+        "id": "N4-05-070",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -5878,11 +7329,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-05-071"
+        "id": "N4-05-071",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -5891,11 +7354,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-05-072"
+        "id": "N4-05-072",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -5904,11 +7379,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-05-073"
+        "id": "N4-05-073",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -5917,11 +7404,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-05-074"
+        "id": "N4-05-074",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -5930,11 +7429,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-05-075"
+        "id": "N4-05-075",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -5943,11 +7454,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-05-076"
+        "id": "N4-05-076",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -5956,11 +7479,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-05-077"
+        "id": "N4-05-077",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -5969,11 +7504,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-05-078"
+        "id": "N4-05-078",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -5982,11 +7529,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-05-079"
+        "id": "N4-05-079",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -5995,11 +7554,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-05-080"
+        "id": "N4-05-080",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -6008,11 +7579,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-05-081"
+        "id": "N4-05-081",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -6021,11 +7604,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-05-082"
+        "id": "N4-05-082",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -6034,11 +7629,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-05-083"
+        "id": "N4-05-083",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -6047,11 +7654,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-05-084"
+        "id": "N4-05-084",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -6060,11 +7679,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-05-085"
+        "id": "N4-05-085",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -6073,11 +7704,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-05-086"
+        "id": "N4-05-086",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -6086,11 +7729,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-05-087"
+        "id": "N4-05-087",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -6099,11 +7754,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-05-088"
+        "id": "N4-05-088",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -6112,11 +7779,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-05-089"
+        "id": "N4-05-089",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -6125,11 +7804,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-05-090"
+        "id": "N4-05-090",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -6138,11 +7829,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-05-091"
+        "id": "N4-05-091",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -6151,11 +7854,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-05-092"
+        "id": "N4-05-092",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -6164,11 +7879,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-05-093"
+        "id": "N4-05-093",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -6177,11 +7904,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-05-094"
+        "id": "N4-05-094",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -6190,7 +7929,8 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-05-095"
+        "id": "N4-05-095",
+        "script": "すみません、えきは　どこですか。"
       }
     ],
     "6": [
@@ -7054,7 +8794,18 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -7063,11 +8814,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-06-067"
+        "id": "N4-06-067",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -7076,11 +8839,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-06-068"
+        "id": "N4-06-068",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -7089,11 +8864,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-06-069"
+        "id": "N4-06-069",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -7102,11 +8889,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-06-070"
+        "id": "N4-06-070",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -7115,11 +8914,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-06-071"
+        "id": "N4-06-071",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -7128,11 +8939,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-06-072"
+        "id": "N4-06-072",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -7141,11 +8964,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-06-073"
+        "id": "N4-06-073",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -7154,11 +8989,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-06-074"
+        "id": "N4-06-074",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -7167,11 +9014,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-06-075"
+        "id": "N4-06-075",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -7180,11 +9039,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-06-076"
+        "id": "N4-06-076",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -7193,11 +9064,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-06-077"
+        "id": "N4-06-077",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -7206,11 +9089,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-06-078"
+        "id": "N4-06-078",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -7219,11 +9114,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-06-079"
+        "id": "N4-06-079",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -7232,11 +9139,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-06-080"
+        "id": "N4-06-080",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -7245,11 +9164,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-06-081"
+        "id": "N4-06-081",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -7258,11 +9189,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-06-082"
+        "id": "N4-06-082",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -7271,11 +9214,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-06-083"
+        "id": "N4-06-083",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -7284,11 +9239,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-06-084"
+        "id": "N4-06-084",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -7297,11 +9264,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-06-085"
+        "id": "N4-06-085",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -7310,11 +9289,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-06-086"
+        "id": "N4-06-086",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -7323,11 +9314,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-06-087"
+        "id": "N4-06-087",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -7336,11 +9339,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-06-088"
+        "id": "N4-06-088",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -7349,11 +9364,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-06-089"
+        "id": "N4-06-089",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -7362,11 +9389,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-06-090"
+        "id": "N4-06-090",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -7375,11 +9414,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-06-091"
+        "id": "N4-06-091",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -7388,11 +9439,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-06-092"
+        "id": "N4-06-092",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -7401,11 +9464,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-06-093"
+        "id": "N4-06-093",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -7414,11 +9489,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-06-094"
+        "id": "N4-06-094",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -7427,7 +9514,8 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-06-095"
+        "id": "N4-06-095",
+        "script": "しゅうまつは　なにを　しますか。"
       }
     ],
     "7": [
@@ -8291,7 +10379,18 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -8300,11 +10399,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-07-067"
+        "id": "N4-07-067",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -8313,11 +10424,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-07-068"
+        "id": "N4-07-068",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -8326,11 +10449,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-07-069"
+        "id": "N4-07-069",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -8339,11 +10474,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-07-070"
+        "id": "N4-07-070",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -8352,11 +10499,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-07-071"
+        "id": "N4-07-071",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -8365,11 +10524,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-07-072"
+        "id": "N4-07-072",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -8378,11 +10549,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-07-073"
+        "id": "N4-07-073",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -8391,11 +10574,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-07-074"
+        "id": "N4-07-074",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -8404,11 +10599,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-07-075"
+        "id": "N4-07-075",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -8417,11 +10624,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-07-076"
+        "id": "N4-07-076",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -8430,11 +10649,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-07-077"
+        "id": "N4-07-077",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -8443,11 +10674,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-07-078"
+        "id": "N4-07-078",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -8456,11 +10699,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-07-079"
+        "id": "N4-07-079",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -8469,11 +10724,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-07-080"
+        "id": "N4-07-080",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -8482,11 +10749,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-07-081"
+        "id": "N4-07-081",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -8495,11 +10774,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-07-082"
+        "id": "N4-07-082",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -8508,11 +10799,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-07-083"
+        "id": "N4-07-083",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -8521,11 +10824,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-07-084"
+        "id": "N4-07-084",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -8534,11 +10849,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-07-085"
+        "id": "N4-07-085",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -8547,11 +10874,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-07-086"
+        "id": "N4-07-086",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -8560,11 +10899,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-07-087"
+        "id": "N4-07-087",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -8573,11 +10924,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-07-088"
+        "id": "N4-07-088",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -8586,11 +10949,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-07-089"
+        "id": "N4-07-089",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -8599,11 +10974,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-07-090"
+        "id": "N4-07-090",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -8612,11 +10999,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-07-091"
+        "id": "N4-07-091",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -8625,11 +11024,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-07-092"
+        "id": "N4-07-092",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -8638,11 +11049,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-07-093"
+        "id": "N4-07-093",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -8651,11 +11074,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-07-094"
+        "id": "N4-07-094",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -8664,7 +11099,8 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-07-095"
+        "id": "N4-07-095",
+        "script": "すみません、えきは　どこですか。"
       }
     ],
     "8": [
@@ -9528,7 +11964,18 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -9537,11 +11984,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-08-067"
+        "id": "N4-08-067",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -9550,11 +12009,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-08-068"
+        "id": "N4-08-068",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -9563,11 +12034,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-08-069"
+        "id": "N4-08-069",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -9576,11 +12059,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-08-070"
+        "id": "N4-08-070",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -9589,11 +12084,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-08-071"
+        "id": "N4-08-071",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -9602,11 +12109,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-08-072"
+        "id": "N4-08-072",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -9615,11 +12134,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-08-073"
+        "id": "N4-08-073",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -9628,11 +12159,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-08-074"
+        "id": "N4-08-074",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -9641,11 +12184,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-08-075"
+        "id": "N4-08-075",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -9654,11 +12209,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-08-076"
+        "id": "N4-08-076",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -9667,11 +12234,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-08-077"
+        "id": "N4-08-077",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -9680,11 +12259,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-08-078"
+        "id": "N4-08-078",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -9693,11 +12284,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-08-079"
+        "id": "N4-08-079",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -9706,11 +12309,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-08-080"
+        "id": "N4-08-080",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -9719,11 +12334,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-08-081"
+        "id": "N4-08-081",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -9732,11 +12359,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-08-082"
+        "id": "N4-08-082",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -9745,11 +12384,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-08-083"
+        "id": "N4-08-083",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -9758,11 +12409,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-08-084"
+        "id": "N4-08-084",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -9771,11 +12434,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-08-085"
+        "id": "N4-08-085",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -9784,11 +12459,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-08-086"
+        "id": "N4-08-086",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -9797,11 +12484,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-08-087"
+        "id": "N4-08-087",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -9810,11 +12509,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-08-088"
+        "id": "N4-08-088",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -9823,11 +12534,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-08-089"
+        "id": "N4-08-089",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -9836,11 +12559,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-08-090"
+        "id": "N4-08-090",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -9849,11 +12584,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-08-091"
+        "id": "N4-08-091",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -9862,11 +12609,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-08-092"
+        "id": "N4-08-092",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -9875,11 +12634,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-08-093"
+        "id": "N4-08-093",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -9888,11 +12659,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-08-094"
+        "id": "N4-08-094",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -9901,7 +12684,8 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-08-095"
+        "id": "N4-08-095",
+        "script": "しゅうまつは　なにを　しますか。"
       }
     ],
     "9": [
@@ -10765,7 +13549,18 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -10774,11 +13569,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-09-067"
+        "id": "N4-09-067",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -10787,11 +13594,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-09-068"
+        "id": "N4-09-068",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -10800,11 +13619,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-09-069"
+        "id": "N4-09-069",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -10813,11 +13644,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-09-070"
+        "id": "N4-09-070",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -10826,11 +13669,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-09-071"
+        "id": "N4-09-071",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -10839,11 +13694,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-09-072"
+        "id": "N4-09-072",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -10852,11 +13719,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-09-073"
+        "id": "N4-09-073",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -10865,11 +13744,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-09-074"
+        "id": "N4-09-074",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -10878,11 +13769,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-09-075"
+        "id": "N4-09-075",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -10891,11 +13794,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-09-076"
+        "id": "N4-09-076",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -10904,11 +13819,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-09-077"
+        "id": "N4-09-077",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -10917,11 +13844,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-09-078"
+        "id": "N4-09-078",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -10930,11 +13869,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-09-079"
+        "id": "N4-09-079",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -10943,11 +13894,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-09-080"
+        "id": "N4-09-080",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -10956,11 +13919,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-09-081"
+        "id": "N4-09-081",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -10969,11 +13944,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-09-082"
+        "id": "N4-09-082",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -10982,11 +13969,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-09-083"
+        "id": "N4-09-083",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -10995,11 +13994,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-09-084"
+        "id": "N4-09-084",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -11008,11 +14019,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-09-085"
+        "id": "N4-09-085",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -11021,11 +14044,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-09-086"
+        "id": "N4-09-086",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -11034,11 +14069,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-09-087"
+        "id": "N4-09-087",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -11047,11 +14094,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-09-088"
+        "id": "N4-09-088",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -11060,11 +14119,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-09-089"
+        "id": "N4-09-089",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -11073,11 +14144,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-09-090"
+        "id": "N4-09-090",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -11086,11 +14169,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-09-091"
+        "id": "N4-09-091",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -11099,11 +14194,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-09-092"
+        "id": "N4-09-092",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -11112,11 +14219,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-09-093"
+        "id": "N4-09-093",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -11125,11 +14244,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-09-094"
+        "id": "N4-09-094",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -11138,7 +14269,8 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-09-095"
+        "id": "N4-09-095",
+        "script": "すみません、えきは　どこですか。"
       }
     ],
     "10": [
@@ -12002,7 +15134,18 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -12011,11 +15154,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-10-067"
+        "id": "N4-10-067",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -12024,11 +15179,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-10-068"
+        "id": "N4-10-068",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -12037,11 +15204,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-10-069"
+        "id": "N4-10-069",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -12050,11 +15229,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-10-070"
+        "id": "N4-10-070",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -12063,11 +15254,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-10-071"
+        "id": "N4-10-071",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -12076,11 +15279,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-10-072"
+        "id": "N4-10-072",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -12089,11 +15304,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-10-073"
+        "id": "N4-10-073",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -12102,11 +15329,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-10-074"
+        "id": "N4-10-074",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -12115,11 +15354,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-10-075"
+        "id": "N4-10-075",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -12128,11 +15379,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-10-076"
+        "id": "N4-10-076",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -12141,11 +15404,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-10-077"
+        "id": "N4-10-077",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -12154,11 +15429,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-10-078"
+        "id": "N4-10-078",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -12167,11 +15454,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-10-079"
+        "id": "N4-10-079",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -12180,11 +15479,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-10-080"
+        "id": "N4-10-080",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -12193,11 +15504,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-10-081"
+        "id": "N4-10-081",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -12206,11 +15529,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-10-082"
+        "id": "N4-10-082",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -12219,11 +15554,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-10-083"
+        "id": "N4-10-083",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -12232,11 +15579,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-10-084"
+        "id": "N4-10-084",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -12245,11 +15604,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-10-085"
+        "id": "N4-10-085",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -12258,11 +15629,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-10-086"
+        "id": "N4-10-086",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -12271,11 +15654,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-10-087"
+        "id": "N4-10-087",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -12284,11 +15679,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-10-088"
+        "id": "N4-10-088",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -12297,11 +15704,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-10-089"
+        "id": "N4-10-089",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -12310,11 +15729,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-10-090"
+        "id": "N4-10-090",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -12323,11 +15754,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-10-091"
+        "id": "N4-10-091",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -12336,11 +15779,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-10-092"
+        "id": "N4-10-092",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -12349,11 +15804,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-10-093"
+        "id": "N4-10-093",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -12362,11 +15829,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-10-094"
+        "id": "N4-10-094",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -12375,7 +15854,8 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-10-095"
+        "id": "N4-10-095",
+        "script": "しゅうまつは　なにを　しますか。"
       }
     ],
     "11": [
@@ -13239,7 +16719,18 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -13248,11 +16739,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-11-067"
+        "id": "N4-11-067",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -13261,11 +16764,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-11-068"
+        "id": "N4-11-068",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -13274,11 +16789,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-11-069"
+        "id": "N4-11-069",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -13287,11 +16814,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-11-070"
+        "id": "N4-11-070",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -13300,11 +16839,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-11-071"
+        "id": "N4-11-071",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -13313,11 +16864,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-11-072"
+        "id": "N4-11-072",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -13326,11 +16889,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-11-073"
+        "id": "N4-11-073",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -13339,11 +16914,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-11-074"
+        "id": "N4-11-074",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -13352,11 +16939,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-11-075"
+        "id": "N4-11-075",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -13365,11 +16964,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-11-076"
+        "id": "N4-11-076",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -13378,11 +16989,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-11-077"
+        "id": "N4-11-077",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -13391,11 +17014,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-11-078"
+        "id": "N4-11-078",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -13404,11 +17039,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-11-079"
+        "id": "N4-11-079",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -13417,11 +17064,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-11-080"
+        "id": "N4-11-080",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -13430,11 +17089,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-11-081"
+        "id": "N4-11-081",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -13443,11 +17114,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-11-082"
+        "id": "N4-11-082",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -13456,11 +17139,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-11-083"
+        "id": "N4-11-083",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -13469,11 +17164,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-11-084"
+        "id": "N4-11-084",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -13482,11 +17189,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-11-085"
+        "id": "N4-11-085",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -13495,11 +17214,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-11-086"
+        "id": "N4-11-086",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -13508,11 +17239,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-11-087"
+        "id": "N4-11-087",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -13521,11 +17264,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-11-088"
+        "id": "N4-11-088",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -13534,11 +17289,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-11-089"
+        "id": "N4-11-089",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -13547,11 +17314,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-11-090"
+        "id": "N4-11-090",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -13560,11 +17339,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-11-091"
+        "id": "N4-11-091",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -13573,11 +17364,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-11-092"
+        "id": "N4-11-092",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -13586,11 +17389,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-11-093"
+        "id": "N4-11-093",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -13599,11 +17414,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-11-094"
+        "id": "N4-11-094",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -13612,7 +17439,8 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-11-095"
+        "id": "N4-11-095",
+        "script": "すみません、えきは　どこですか。"
       }
     ],
     "12": [
@@ -14476,7 +18304,18 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -14485,11 +18324,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-12-067"
+        "id": "N4-12-067",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -14498,11 +18349,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-12-068"
+        "id": "N4-12-068",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -14511,11 +18374,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-12-069"
+        "id": "N4-12-069",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -14524,11 +18399,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-12-070"
+        "id": "N4-12-070",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -14537,11 +18424,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-12-071"
+        "id": "N4-12-071",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -14550,11 +18449,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-12-072"
+        "id": "N4-12-072",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -14563,11 +18474,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-12-073"
+        "id": "N4-12-073",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -14576,11 +18499,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-12-074"
+        "id": "N4-12-074",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -14589,11 +18524,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-12-075"
+        "id": "N4-12-075",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -14602,11 +18549,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-12-076"
+        "id": "N4-12-076",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -14615,11 +18574,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-12-077"
+        "id": "N4-12-077",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -14628,11 +18599,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-12-078"
+        "id": "N4-12-078",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -14641,11 +18624,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-12-079"
+        "id": "N4-12-079",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -14654,11 +18649,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-12-080"
+        "id": "N4-12-080",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -14667,11 +18674,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-12-081"
+        "id": "N4-12-081",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -14680,11 +18699,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-12-082"
+        "id": "N4-12-082",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -14693,11 +18724,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-12-083"
+        "id": "N4-12-083",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -14706,11 +18749,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-12-084"
+        "id": "N4-12-084",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -14719,11 +18774,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-12-085"
+        "id": "N4-12-085",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -14732,11 +18799,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-12-086"
+        "id": "N4-12-086",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -14745,11 +18824,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-12-087"
+        "id": "N4-12-087",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -14758,11 +18849,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-12-088"
+        "id": "N4-12-088",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -14771,11 +18874,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-12-089"
+        "id": "N4-12-089",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -14784,11 +18899,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-12-090"
+        "id": "N4-12-090",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -14797,11 +18924,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-12-091"
+        "id": "N4-12-091",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -14810,11 +18949,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-12-092"
+        "id": "N4-12-092",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -14823,11 +18974,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-12-093"
+        "id": "N4-12-093",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -14836,11 +18999,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-12-094"
+        "id": "N4-12-094",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -14849,7 +19024,8 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-12-095"
+        "id": "N4-12-095",
+        "script": "しゅうまつは　なにを　しますか。"
       }
     ],
     "13": [
@@ -15713,7 +19889,18 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -15722,11 +19909,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-13-067"
+        "id": "N4-13-067",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -15735,11 +19934,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-13-068"
+        "id": "N4-13-068",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -15748,11 +19959,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-13-069"
+        "id": "N4-13-069",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -15761,11 +19984,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-13-070"
+        "id": "N4-13-070",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -15774,11 +20009,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-13-071"
+        "id": "N4-13-071",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -15787,11 +20034,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-13-072"
+        "id": "N4-13-072",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -15800,11 +20059,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-13-073"
+        "id": "N4-13-073",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -15813,11 +20084,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-13-074"
+        "id": "N4-13-074",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -15826,11 +20109,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-13-075"
+        "id": "N4-13-075",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -15839,11 +20134,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-13-076"
+        "id": "N4-13-076",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -15852,11 +20159,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-13-077"
+        "id": "N4-13-077",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -15865,11 +20184,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-13-078"
+        "id": "N4-13-078",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -15878,11 +20209,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-13-079"
+        "id": "N4-13-079",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -15891,11 +20234,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-13-080"
+        "id": "N4-13-080",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -15904,11 +20259,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-13-081"
+        "id": "N4-13-081",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -15917,11 +20284,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-13-082"
+        "id": "N4-13-082",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -15930,11 +20309,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-13-083"
+        "id": "N4-13-083",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -15943,11 +20334,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-13-084"
+        "id": "N4-13-084",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -15956,11 +20359,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-13-085"
+        "id": "N4-13-085",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -15969,11 +20384,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-13-086"
+        "id": "N4-13-086",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -15982,11 +20409,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-13-087"
+        "id": "N4-13-087",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -15995,11 +20434,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-13-088"
+        "id": "N4-13-088",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -16008,11 +20459,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-13-089"
+        "id": "N4-13-089",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -16021,11 +20484,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-13-090"
+        "id": "N4-13-090",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -16034,11 +20509,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-13-091"
+        "id": "N4-13-091",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -16047,11 +20534,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-13-092"
+        "id": "N4-13-092",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -16060,11 +20559,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-13-093"
+        "id": "N4-13-093",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -16073,11 +20584,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-13-094"
+        "id": "N4-13-094",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -16086,7 +20609,8 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-13-095"
+        "id": "N4-13-095",
+        "script": "すみません、えきは　どこですか。"
       }
     ],
     "14": [
@@ -16950,7 +21474,18 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -16959,11 +21494,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-14-067"
+        "id": "N4-14-067",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -16972,11 +21519,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-14-068"
+        "id": "N4-14-068",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -16985,11 +21544,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-14-069"
+        "id": "N4-14-069",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -16998,11 +21569,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-14-070"
+        "id": "N4-14-070",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -17011,11 +21594,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-14-071"
+        "id": "N4-14-071",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -17024,11 +21619,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-14-072"
+        "id": "N4-14-072",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -17037,11 +21644,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-14-073"
+        "id": "N4-14-073",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -17050,11 +21669,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-14-074"
+        "id": "N4-14-074",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -17063,11 +21694,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-14-075"
+        "id": "N4-14-075",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -17076,11 +21719,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-14-076"
+        "id": "N4-14-076",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -17089,11 +21744,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-14-077"
+        "id": "N4-14-077",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -17102,11 +21769,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-14-078"
+        "id": "N4-14-078",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -17115,11 +21794,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-14-079"
+        "id": "N4-14-079",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -17128,11 +21819,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-14-080"
+        "id": "N4-14-080",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -17141,11 +21844,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-14-081"
+        "id": "N4-14-081",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -17154,11 +21869,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-14-082"
+        "id": "N4-14-082",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -17167,11 +21894,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-14-083"
+        "id": "N4-14-083",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -17180,11 +21919,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-14-084"
+        "id": "N4-14-084",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -17193,11 +21944,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-14-085"
+        "id": "N4-14-085",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -17206,11 +21969,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-14-086"
+        "id": "N4-14-086",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -17219,11 +21994,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-14-087"
+        "id": "N4-14-087",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -17232,11 +22019,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-14-088"
+        "id": "N4-14-088",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -17245,11 +22044,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-14-089"
+        "id": "N4-14-089",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -17258,11 +22069,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-14-090"
+        "id": "N4-14-090",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -17271,11 +22094,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-14-091"
+        "id": "N4-14-091",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -17284,11 +22119,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-14-092"
+        "id": "N4-14-092",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -17297,11 +22144,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-14-093"
+        "id": "N4-14-093",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -17310,11 +22169,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-14-094"
+        "id": "N4-14-094",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -17323,7 +22194,8 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-14-095"
+        "id": "N4-14-095",
+        "script": "しゅうまつは　なにを　しますか。"
       }
     ],
     "15": [
@@ -18187,7 +23059,18 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -18196,11 +23079,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-15-067"
+        "id": "N4-15-067",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -18209,11 +23104,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-15-068"
+        "id": "N4-15-068",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -18222,11 +23129,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-15-069"
+        "id": "N4-15-069",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -18235,11 +23154,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-15-070"
+        "id": "N4-15-070",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -18248,11 +23179,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-15-071"
+        "id": "N4-15-071",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -18261,11 +23204,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-15-072"
+        "id": "N4-15-072",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -18274,11 +23229,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-15-073"
+        "id": "N4-15-073",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -18287,11 +23254,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-15-074"
+        "id": "N4-15-074",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -18300,11 +23279,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-15-075"
+        "id": "N4-15-075",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -18313,11 +23304,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-15-076"
+        "id": "N4-15-076",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -18326,11 +23329,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-15-077"
+        "id": "N4-15-077",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -18339,11 +23354,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-15-078"
+        "id": "N4-15-078",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -18352,11 +23379,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-15-079"
+        "id": "N4-15-079",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -18365,11 +23404,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-15-080"
+        "id": "N4-15-080",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -18378,11 +23429,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-15-081"
+        "id": "N4-15-081",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -18391,11 +23454,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-15-082"
+        "id": "N4-15-082",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -18404,11 +23479,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-15-083"
+        "id": "N4-15-083",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -18417,11 +23504,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-15-084"
+        "id": "N4-15-084",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -18430,11 +23529,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-15-085"
+        "id": "N4-15-085",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -18443,11 +23554,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-15-086"
+        "id": "N4-15-086",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -18456,11 +23579,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-15-087"
+        "id": "N4-15-087",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -18469,11 +23604,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-15-088"
+        "id": "N4-15-088",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -18482,11 +23629,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-15-089"
+        "id": "N4-15-089",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -18495,11 +23654,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-15-090"
+        "id": "N4-15-090",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -18508,11 +23679,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-15-091"
+        "id": "N4-15-091",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -18521,11 +23704,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-15-092"
+        "id": "N4-15-092",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -18534,11 +23729,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-15-093"
+        "id": "N4-15-093",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -18547,11 +23754,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-15-094"
+        "id": "N4-15-094",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -18560,7 +23779,8 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-15-095"
+        "id": "N4-15-095",
+        "script": "すみません、えきは　どこですか。"
       }
     ],
     "16": [
@@ -19424,7 +24644,18 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -19433,11 +24664,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-16-067"
+        "id": "N4-16-067",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -19446,11 +24689,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-16-068"
+        "id": "N4-16-068",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -19459,11 +24714,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-16-069"
+        "id": "N4-16-069",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -19472,11 +24739,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-16-070"
+        "id": "N4-16-070",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -19485,11 +24764,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-16-071"
+        "id": "N4-16-071",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -19498,11 +24789,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-16-072"
+        "id": "N4-16-072",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -19511,11 +24814,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-16-073"
+        "id": "N4-16-073",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -19524,11 +24839,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-16-074"
+        "id": "N4-16-074",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -19537,11 +24864,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-16-075"
+        "id": "N4-16-075",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -19550,11 +24889,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-16-076"
+        "id": "N4-16-076",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -19563,11 +24914,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-16-077"
+        "id": "N4-16-077",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -19576,11 +24939,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-16-078"
+        "id": "N4-16-078",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -19589,11 +24964,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-16-079"
+        "id": "N4-16-079",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -19602,11 +24989,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-16-080"
+        "id": "N4-16-080",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -19615,11 +25014,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-16-081"
+        "id": "N4-16-081",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -19628,11 +25039,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-16-082"
+        "id": "N4-16-082",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -19641,11 +25064,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-16-083"
+        "id": "N4-16-083",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -19654,11 +25089,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-16-084"
+        "id": "N4-16-084",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -19667,11 +25114,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-16-085"
+        "id": "N4-16-085",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -19680,11 +25139,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-16-086"
+        "id": "N4-16-086",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -19693,11 +25164,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-16-087"
+        "id": "N4-16-087",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -19706,11 +25189,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-16-088"
+        "id": "N4-16-088",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -19719,11 +25214,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-16-089"
+        "id": "N4-16-089",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -19732,11 +25239,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-16-090"
+        "id": "N4-16-090",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -19745,11 +25264,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-16-091"
+        "id": "N4-16-091",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -19758,11 +25289,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-16-092"
+        "id": "N4-16-092",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -19771,11 +25314,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-16-093"
+        "id": "N4-16-093",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -19784,11 +25339,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-16-094"
+        "id": "N4-16-094",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -19797,7 +25364,8 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-16-095"
+        "id": "N4-16-095",
+        "script": "しゅうまつは　なにを　しますか。"
       }
     ],
     "17": [
@@ -20661,7 +26229,18 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -20670,11 +26249,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-17-067"
+        "id": "N4-17-067",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -20683,11 +26274,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-17-068"
+        "id": "N4-17-068",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -20696,11 +26299,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-17-069"
+        "id": "N4-17-069",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -20709,11 +26324,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-17-070"
+        "id": "N4-17-070",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -20722,11 +26349,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-17-071"
+        "id": "N4-17-071",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -20735,11 +26374,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-17-072"
+        "id": "N4-17-072",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -20748,11 +26399,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-17-073"
+        "id": "N4-17-073",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -20761,11 +26424,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-17-074"
+        "id": "N4-17-074",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -20774,11 +26449,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-17-075"
+        "id": "N4-17-075",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -20787,11 +26474,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-17-076"
+        "id": "N4-17-076",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -20800,11 +26499,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-17-077"
+        "id": "N4-17-077",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -20813,11 +26524,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-17-078"
+        "id": "N4-17-078",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -20826,11 +26549,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-17-079"
+        "id": "N4-17-079",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -20839,11 +26574,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-17-080"
+        "id": "N4-17-080",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -20852,11 +26599,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-17-081"
+        "id": "N4-17-081",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -20865,11 +26624,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-17-082"
+        "id": "N4-17-082",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -20878,11 +26649,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-17-083"
+        "id": "N4-17-083",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -20891,11 +26674,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-17-084"
+        "id": "N4-17-084",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -20904,11 +26699,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-17-085"
+        "id": "N4-17-085",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -20917,11 +26724,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-17-086"
+        "id": "N4-17-086",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -20930,11 +26749,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-17-087"
+        "id": "N4-17-087",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -20943,11 +26774,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-17-088"
+        "id": "N4-17-088",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -20956,11 +26799,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-17-089"
+        "id": "N4-17-089",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -20969,11 +26824,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-17-090"
+        "id": "N4-17-090",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -20982,11 +26849,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-17-091"
+        "id": "N4-17-091",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -20995,11 +26874,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-17-092"
+        "id": "N4-17-092",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -21008,11 +26899,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-17-093"
+        "id": "N4-17-093",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -21021,11 +26924,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-17-094"
+        "id": "N4-17-094",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -21034,7 +26949,8 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-17-095"
+        "id": "N4-17-095",
+        "script": "すみません、えきは　どこですか。"
       }
     ],
     "18": [
@@ -21898,7 +27814,18 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -21907,11 +27834,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-18-067"
+        "id": "N4-18-067",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -21920,11 +27859,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-18-068"
+        "id": "N4-18-068",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -21933,11 +27884,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-18-069"
+        "id": "N4-18-069",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -21946,11 +27909,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-18-070"
+        "id": "N4-18-070",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -21959,11 +27934,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-18-071"
+        "id": "N4-18-071",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -21972,11 +27959,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-18-072"
+        "id": "N4-18-072",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -21985,11 +27984,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-18-073"
+        "id": "N4-18-073",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -21998,11 +28009,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-18-074"
+        "id": "N4-18-074",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -22011,11 +28034,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-18-075"
+        "id": "N4-18-075",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -22024,11 +28059,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-18-076"
+        "id": "N4-18-076",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -22037,11 +28084,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-18-077"
+        "id": "N4-18-077",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -22050,11 +28109,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-18-078"
+        "id": "N4-18-078",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -22063,11 +28134,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-18-079"
+        "id": "N4-18-079",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -22076,11 +28159,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-18-080"
+        "id": "N4-18-080",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -22089,11 +28184,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-18-081"
+        "id": "N4-18-081",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -22102,11 +28209,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-18-082"
+        "id": "N4-18-082",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -22115,11 +28234,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-18-083"
+        "id": "N4-18-083",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -22128,11 +28259,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-18-084"
+        "id": "N4-18-084",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -22141,11 +28284,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-18-085"
+        "id": "N4-18-085",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -22154,11 +28309,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-18-086"
+        "id": "N4-18-086",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -22167,11 +28334,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-18-087"
+        "id": "N4-18-087",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -22180,11 +28359,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-18-088"
+        "id": "N4-18-088",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -22193,11 +28384,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-18-089"
+        "id": "N4-18-089",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -22206,11 +28409,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-18-090"
+        "id": "N4-18-090",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -22219,11 +28434,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-18-091"
+        "id": "N4-18-091",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -22232,11 +28459,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-18-092"
+        "id": "N4-18-092",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -22245,11 +28484,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-18-093"
+        "id": "N4-18-093",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -22258,11 +28509,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-18-094"
+        "id": "N4-18-094",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -22271,7 +28534,8 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-18-095"
+        "id": "N4-18-095",
+        "script": "しゅうまつは　なにを　しますか。"
       }
     ],
     "19": [
@@ -23135,7 +29399,18 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -23144,11 +29419,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-19-067"
+        "id": "N4-19-067",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -23157,11 +29444,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-19-068"
+        "id": "N4-19-068",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -23170,11 +29469,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-19-069"
+        "id": "N4-19-069",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -23183,11 +29494,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-19-070"
+        "id": "N4-19-070",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -23196,11 +29519,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-19-071"
+        "id": "N4-19-071",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -23209,11 +29544,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-19-072"
+        "id": "N4-19-072",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -23222,11 +29569,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-19-073"
+        "id": "N4-19-073",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -23235,11 +29594,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-19-074"
+        "id": "N4-19-074",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -23248,11 +29619,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-19-075"
+        "id": "N4-19-075",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -23261,11 +29644,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-19-076"
+        "id": "N4-19-076",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -23274,11 +29669,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-19-077"
+        "id": "N4-19-077",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -23287,11 +29694,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-19-078"
+        "id": "N4-19-078",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -23300,11 +29719,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-19-079"
+        "id": "N4-19-079",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -23313,11 +29744,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-19-080"
+        "id": "N4-19-080",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -23326,11 +29769,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-19-081"
+        "id": "N4-19-081",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -23339,11 +29794,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-19-082"
+        "id": "N4-19-082",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -23352,11 +29819,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-19-083"
+        "id": "N4-19-083",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -23365,11 +29844,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-19-084"
+        "id": "N4-19-084",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -23378,11 +29869,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-19-085"
+        "id": "N4-19-085",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -23391,11 +29894,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-19-086"
+        "id": "N4-19-086",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -23404,11 +29919,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-19-087"
+        "id": "N4-19-087",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -23417,11 +29944,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-19-088"
+        "id": "N4-19-088",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -23430,11 +29969,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-19-089"
+        "id": "N4-19-089",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -23443,11 +29994,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-19-090"
+        "id": "N4-19-090",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -23456,11 +30019,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-19-091"
+        "id": "N4-19-091",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -23469,11 +30044,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-19-092"
+        "id": "N4-19-092",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -23482,11 +30069,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-19-093"
+        "id": "N4-19-093",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -23495,11 +30094,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-19-094"
+        "id": "N4-19-094",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -23508,7 +30119,8 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-19-095"
+        "id": "N4-19-095",
+        "script": "すみません、えきは　どこですか。"
       }
     ],
     "20": [
@@ -24372,7 +30984,18 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -24381,11 +31004,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-20-067"
+        "id": "N4-20-067",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -24394,11 +31029,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-20-068"
+        "id": "N4-20-068",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -24407,11 +31054,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-20-069"
+        "id": "N4-20-069",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -24420,11 +31079,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-20-070"
+        "id": "N4-20-070",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -24433,11 +31104,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-20-071"
+        "id": "N4-20-071",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -24446,11 +31129,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-20-072"
+        "id": "N4-20-072",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -24459,11 +31154,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-20-073"
+        "id": "N4-20-073",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "かいぎに　でる",
@@ -24472,11 +31179,23 @@ MOCK_DATA['N4'] = {
           "ほうこくしょを　<ruby>書く<rt>かく</rt></ruby>"
         ],
         "answer": 1,
-        "id": "N4-20-074"
+        "id": "N4-20-074",
+        "script": "かいしゃで　おとこのひとと　おんなのひとが　はなしています。おとこのひとは　あした　なにを　しますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -24485,11 +31204,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-20-075"
+        "id": "N4-20-075",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -24498,11 +31229,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-20-076"
+        "id": "N4-20-076",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -24511,11 +31254,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-20-077"
+        "id": "N4-20-077",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -24524,11 +31279,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-20-078"
+        "id": "N4-20-078",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -24537,11 +31304,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-20-079"
+        "id": "N4-20-079",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -24550,11 +31329,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-20-080"
+        "id": "N4-20-080",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "しつもん",
         "options": [
           "じかんがない",
@@ -24563,11 +31354,23 @@ MOCK_DATA['N4'] = {
           "ばしょがない"
         ],
         "answer": 2,
-        "id": "N4-20-081"
+        "id": "N4-20-081",
+        "script": "おんなのひとが　はなしています。もんだいは　なんだと　いっていますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -24576,11 +31379,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-20-082"
+        "id": "N4-20-082",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -24589,11 +31404,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-20-083"
+        "id": "N4-20-083",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -24602,11 +31429,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-20-084"
+        "id": "N4-20-084",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -24615,11 +31454,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-20-085"
+        "id": "N4-20-085",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "じょうしに　<ruby>休み<rt>やすみ</rt></ruby>を　もらいたいです。なんと　いいますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　いいますか。",
         "options": [
           "<ruby>休み<rt>やすみ</rt></ruby>を　ください",
@@ -24628,11 +31479,23 @@ MOCK_DATA['N4'] = {
           "<ruby>休み<rt>やすみ</rt></ruby>たいです"
         ],
         "answer": 1,
-        "id": "N4-20-086"
+        "id": "N4-20-086",
+        "script": "じょうしに　休みを　もらいたいです。なんと　いいますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -24641,11 +31504,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-20-087"
+        "id": "N4-20-087",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -24654,11 +31529,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-20-088"
+        "id": "N4-20-088",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -24667,11 +31554,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-20-089"
+        "id": "N4-20-089",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -24680,11 +31579,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-20-090"
+        "id": "N4-20-090",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -24693,11 +31604,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-20-091"
+        "id": "N4-20-091",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -24706,11 +31629,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-20-092"
+        "id": "N4-20-092",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -24719,11 +31654,23 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-20-093"
+        "id": "N4-20-093",
+        "script": "しゅうまつは　なにを　しますか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "すみません、えきは　どこですか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "まっすぐ　行って、<ruby>右<rt>みぎ</rt></ruby>です",
@@ -24732,11 +31679,23 @@ MOCK_DATA['N4'] = {
           "🚉 えきが　すきです"
         ],
         "answer": 0,
-        "id": "N4-20-094"
+        "id": "N4-20-094",
+        "script": "すみません、えきは　どこですか。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "しゅうまつは　なにを　しますか。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "なんと　こたえますか。",
         "options": [
           "🎬 ともだちと　えいがを　みます",
@@ -24745,7 +31704,8 @@ MOCK_DATA['N4'] = {
           "🎬 えいがかんです"
         ],
         "answer": 0,
-        "id": "N4-20-095"
+        "id": "N4-20-095",
+        "script": "しゅうまつは　なにを　しますか。"
       }
     ]
   }

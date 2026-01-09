@@ -1,4 +1,4 @@
-// N3 Mock Test Data - v18.6.7 (with content icons)
+// N3 Mock Test Data - v18.6.8 (with TTS listening)
 if (typeof MOCK_DATA === 'undefined') { var MOCK_DATA = {}; }
 MOCK_DATA['N3'] = {
   "info": {
@@ -986,7 +986,18 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -995,11 +1006,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-01-076"
+        "id": "N3-01-076",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -1008,11 +1031,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-01-077"
+        "id": "N3-01-077",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -1021,11 +1056,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-01-078"
+        "id": "N3-01-078",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -1034,11 +1081,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-01-079"
+        "id": "N3-01-079",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -1047,11 +1106,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-01-080"
+        "id": "N3-01-080",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -1060,11 +1131,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-01-081"
+        "id": "N3-01-081",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -1073,11 +1156,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-01-082"
+        "id": "N3-01-082",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -1086,11 +1181,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-01-083"
+        "id": "N3-01-083",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -1099,11 +1206,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-01-084"
+        "id": "N3-01-084",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -1112,11 +1231,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-01-085"
+        "id": "N3-01-085",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -1125,11 +1256,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-01-086"
+        "id": "N3-01-086",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -1138,11 +1281,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-01-087"
+        "id": "N3-01-087",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -1151,11 +1306,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-01-088"
+        "id": "N3-01-088",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -1164,11 +1331,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-01-089"
+        "id": "N3-01-089",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -1177,11 +1356,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-01-090"
+        "id": "N3-01-090",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -1190,11 +1381,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-01-091"
+        "id": "N3-01-091",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -1203,11 +1406,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-01-092"
+        "id": "N3-01-092",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -1216,11 +1431,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-01-093"
+        "id": "N3-01-093",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -1229,11 +1456,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-01-094"
+        "id": "N3-01-094",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -1242,11 +1481,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-01-095"
+        "id": "N3-01-095",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -1255,11 +1506,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-01-096"
+        "id": "N3-01-096",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -1268,11 +1531,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-01-097"
+        "id": "N3-01-097",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -1281,11 +1556,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-01-098"
+        "id": "N3-01-098",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -1294,11 +1581,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-01-099"
+        "id": "N3-01-099",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -1307,11 +1606,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-01-100"
+        "id": "N3-01-100",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -1320,11 +1631,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-01-101"
+        "id": "N3-01-101",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -1333,7 +1656,8 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-01-102"
+        "id": "N3-01-102",
+        "script": "音声を聞いて答えてください。"
       }
     ],
     "2": [
@@ -2314,7 +2638,18 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -2323,11 +2658,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-02-076"
+        "id": "N3-02-076",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -2336,11 +2683,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-02-077"
+        "id": "N3-02-077",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -2349,11 +2708,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-02-078"
+        "id": "N3-02-078",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -2362,11 +2733,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-02-079"
+        "id": "N3-02-079",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -2375,11 +2758,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-02-080"
+        "id": "N3-02-080",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -2388,11 +2783,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-02-081"
+        "id": "N3-02-081",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -2401,11 +2808,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-02-082"
+        "id": "N3-02-082",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -2414,11 +2833,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-02-083"
+        "id": "N3-02-083",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -2427,11 +2858,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-02-084"
+        "id": "N3-02-084",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -2440,11 +2883,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-02-085"
+        "id": "N3-02-085",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -2453,11 +2908,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-02-086"
+        "id": "N3-02-086",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -2466,11 +2933,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-02-087"
+        "id": "N3-02-087",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -2479,11 +2958,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-02-088"
+        "id": "N3-02-088",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -2492,11 +2983,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-02-089"
+        "id": "N3-02-089",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -2505,11 +3008,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-02-090"
+        "id": "N3-02-090",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -2518,11 +3033,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-02-091"
+        "id": "N3-02-091",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -2531,11 +3058,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-02-092"
+        "id": "N3-02-092",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -2544,11 +3083,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-02-093"
+        "id": "N3-02-093",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -2557,11 +3108,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-02-094"
+        "id": "N3-02-094",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -2570,11 +3133,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-02-095"
+        "id": "N3-02-095",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -2583,11 +3158,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-02-096"
+        "id": "N3-02-096",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -2596,11 +3183,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-02-097"
+        "id": "N3-02-097",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -2609,11 +3208,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-02-098"
+        "id": "N3-02-098",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -2622,11 +3233,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-02-099"
+        "id": "N3-02-099",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -2635,11 +3258,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-02-100"
+        "id": "N3-02-100",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -2648,11 +3283,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-02-101"
+        "id": "N3-02-101",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -2661,7 +3308,8 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-02-102"
+        "id": "N3-02-102",
+        "script": "音声を聞いて答えてください。"
       }
     ],
     "3": [
@@ -3642,7 +4290,18 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -3651,11 +4310,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-03-076"
+        "id": "N3-03-076",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -3664,11 +4335,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-03-077"
+        "id": "N3-03-077",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -3677,11 +4360,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-03-078"
+        "id": "N3-03-078",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -3690,11 +4385,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-03-079"
+        "id": "N3-03-079",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -3703,11 +4410,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-03-080"
+        "id": "N3-03-080",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -3716,11 +4435,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-03-081"
+        "id": "N3-03-081",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -3729,11 +4460,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-03-082"
+        "id": "N3-03-082",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -3742,11 +4485,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-03-083"
+        "id": "N3-03-083",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -3755,11 +4510,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-03-084"
+        "id": "N3-03-084",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -3768,11 +4535,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-03-085"
+        "id": "N3-03-085",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -3781,11 +4560,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-03-086"
+        "id": "N3-03-086",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -3794,11 +4585,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-03-087"
+        "id": "N3-03-087",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -3807,11 +4610,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-03-088"
+        "id": "N3-03-088",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -3820,11 +4635,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-03-089"
+        "id": "N3-03-089",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -3833,11 +4660,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-03-090"
+        "id": "N3-03-090",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -3846,11 +4685,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-03-091"
+        "id": "N3-03-091",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -3859,11 +4710,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-03-092"
+        "id": "N3-03-092",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -3872,11 +4735,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-03-093"
+        "id": "N3-03-093",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -3885,11 +4760,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-03-094"
+        "id": "N3-03-094",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -3898,11 +4785,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-03-095"
+        "id": "N3-03-095",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -3911,11 +4810,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-03-096"
+        "id": "N3-03-096",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -3924,11 +4835,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-03-097"
+        "id": "N3-03-097",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -3937,11 +4860,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-03-098"
+        "id": "N3-03-098",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -3950,11 +4885,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-03-099"
+        "id": "N3-03-099",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -3963,11 +4910,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-03-100"
+        "id": "N3-03-100",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -3976,11 +4935,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-03-101"
+        "id": "N3-03-101",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -3989,7 +4960,8 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-03-102"
+        "id": "N3-03-102",
+        "script": "音声を聞いて答えてください。"
       }
     ],
     "4": [
@@ -4970,7 +5942,18 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -4979,11 +5962,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-04-076"
+        "id": "N3-04-076",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -4992,11 +5987,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-04-077"
+        "id": "N3-04-077",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -5005,11 +6012,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-04-078"
+        "id": "N3-04-078",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -5018,11 +6037,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-04-079"
+        "id": "N3-04-079",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -5031,11 +6062,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-04-080"
+        "id": "N3-04-080",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -5044,11 +6087,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-04-081"
+        "id": "N3-04-081",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -5057,11 +6112,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-04-082"
+        "id": "N3-04-082",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -5070,11 +6137,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-04-083"
+        "id": "N3-04-083",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -5083,11 +6162,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-04-084"
+        "id": "N3-04-084",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -5096,11 +6187,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-04-085"
+        "id": "N3-04-085",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -5109,11 +6212,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-04-086"
+        "id": "N3-04-086",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -5122,11 +6237,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-04-087"
+        "id": "N3-04-087",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -5135,11 +6262,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-04-088"
+        "id": "N3-04-088",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -5148,11 +6287,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-04-089"
+        "id": "N3-04-089",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -5161,11 +6312,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-04-090"
+        "id": "N3-04-090",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -5174,11 +6337,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-04-091"
+        "id": "N3-04-091",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -5187,11 +6362,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-04-092"
+        "id": "N3-04-092",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -5200,11 +6387,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-04-093"
+        "id": "N3-04-093",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -5213,11 +6412,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-04-094"
+        "id": "N3-04-094",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -5226,11 +6437,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-04-095"
+        "id": "N3-04-095",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -5239,11 +6462,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-04-096"
+        "id": "N3-04-096",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -5252,11 +6487,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-04-097"
+        "id": "N3-04-097",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -5265,11 +6512,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-04-098"
+        "id": "N3-04-098",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -5278,11 +6537,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-04-099"
+        "id": "N3-04-099",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -5291,11 +6562,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-04-100"
+        "id": "N3-04-100",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -5304,11 +6587,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-04-101"
+        "id": "N3-04-101",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -5317,7 +6612,8 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-04-102"
+        "id": "N3-04-102",
+        "script": "音声を聞いて答えてください。"
       }
     ],
     "5": [
@@ -6298,7 +7594,18 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -6307,11 +7614,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-05-076"
+        "id": "N3-05-076",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -6320,11 +7639,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-05-077"
+        "id": "N3-05-077",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -6333,11 +7664,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-05-078"
+        "id": "N3-05-078",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -6346,11 +7689,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-05-079"
+        "id": "N3-05-079",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -6359,11 +7714,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-05-080"
+        "id": "N3-05-080",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -6372,11 +7739,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-05-081"
+        "id": "N3-05-081",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -6385,11 +7764,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-05-082"
+        "id": "N3-05-082",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -6398,11 +7789,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-05-083"
+        "id": "N3-05-083",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -6411,11 +7814,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-05-084"
+        "id": "N3-05-084",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -6424,11 +7839,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-05-085"
+        "id": "N3-05-085",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -6437,11 +7864,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-05-086"
+        "id": "N3-05-086",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -6450,11 +7889,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-05-087"
+        "id": "N3-05-087",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -6463,11 +7914,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-05-088"
+        "id": "N3-05-088",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -6476,11 +7939,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-05-089"
+        "id": "N3-05-089",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -6489,11 +7964,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-05-090"
+        "id": "N3-05-090",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -6502,11 +7989,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-05-091"
+        "id": "N3-05-091",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -6515,11 +8014,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-05-092"
+        "id": "N3-05-092",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -6528,11 +8039,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-05-093"
+        "id": "N3-05-093",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -6541,11 +8064,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-05-094"
+        "id": "N3-05-094",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -6554,11 +8089,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-05-095"
+        "id": "N3-05-095",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -6567,11 +8114,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-05-096"
+        "id": "N3-05-096",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -6580,11 +8139,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-05-097"
+        "id": "N3-05-097",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -6593,11 +8164,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-05-098"
+        "id": "N3-05-098",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -6606,11 +8189,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-05-099"
+        "id": "N3-05-099",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -6619,11 +8214,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-05-100"
+        "id": "N3-05-100",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -6632,11 +8239,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-05-101"
+        "id": "N3-05-101",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -6645,7 +8264,8 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-05-102"
+        "id": "N3-05-102",
+        "script": "音声を聞いて答えてください。"
       }
     ],
     "6": [
@@ -7626,7 +9246,18 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -7635,11 +9266,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-06-076"
+        "id": "N3-06-076",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -7648,11 +9291,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-06-077"
+        "id": "N3-06-077",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -7661,11 +9316,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-06-078"
+        "id": "N3-06-078",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -7674,11 +9341,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-06-079"
+        "id": "N3-06-079",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -7687,11 +9366,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-06-080"
+        "id": "N3-06-080",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -7700,11 +9391,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-06-081"
+        "id": "N3-06-081",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -7713,11 +9416,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-06-082"
+        "id": "N3-06-082",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -7726,11 +9441,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-06-083"
+        "id": "N3-06-083",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -7739,11 +9466,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-06-084"
+        "id": "N3-06-084",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -7752,11 +9491,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-06-085"
+        "id": "N3-06-085",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -7765,11 +9516,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-06-086"
+        "id": "N3-06-086",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -7778,11 +9541,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-06-087"
+        "id": "N3-06-087",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -7791,11 +9566,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-06-088"
+        "id": "N3-06-088",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -7804,11 +9591,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-06-089"
+        "id": "N3-06-089",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -7817,11 +9616,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-06-090"
+        "id": "N3-06-090",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -7830,11 +9641,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-06-091"
+        "id": "N3-06-091",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -7843,11 +9666,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-06-092"
+        "id": "N3-06-092",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -7856,11 +9691,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-06-093"
+        "id": "N3-06-093",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -7869,11 +9716,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-06-094"
+        "id": "N3-06-094",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -7882,11 +9741,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-06-095"
+        "id": "N3-06-095",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -7895,11 +9766,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-06-096"
+        "id": "N3-06-096",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -7908,11 +9791,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-06-097"
+        "id": "N3-06-097",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -7921,11 +9816,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-06-098"
+        "id": "N3-06-098",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -7934,11 +9841,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-06-099"
+        "id": "N3-06-099",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -7947,11 +9866,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-06-100"
+        "id": "N3-06-100",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -7960,11 +9891,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-06-101"
+        "id": "N3-06-101",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -7973,7 +9916,8 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-06-102"
+        "id": "N3-06-102",
+        "script": "音声を聞いて答えてください。"
       }
     ],
     "7": [
@@ -8954,7 +10898,18 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -8963,11 +10918,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-07-076"
+        "id": "N3-07-076",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -8976,11 +10943,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-07-077"
+        "id": "N3-07-077",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -8989,11 +10968,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-07-078"
+        "id": "N3-07-078",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -9002,11 +10993,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-07-079"
+        "id": "N3-07-079",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -9015,11 +11018,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-07-080"
+        "id": "N3-07-080",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -9028,11 +11043,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-07-081"
+        "id": "N3-07-081",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -9041,11 +11068,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-07-082"
+        "id": "N3-07-082",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -9054,11 +11093,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-07-083"
+        "id": "N3-07-083",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -9067,11 +11118,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-07-084"
+        "id": "N3-07-084",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -9080,11 +11143,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-07-085"
+        "id": "N3-07-085",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -9093,11 +11168,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-07-086"
+        "id": "N3-07-086",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -9106,11 +11193,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-07-087"
+        "id": "N3-07-087",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -9119,11 +11218,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-07-088"
+        "id": "N3-07-088",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -9132,11 +11243,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-07-089"
+        "id": "N3-07-089",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -9145,11 +11268,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-07-090"
+        "id": "N3-07-090",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -9158,11 +11293,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-07-091"
+        "id": "N3-07-091",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -9171,11 +11318,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-07-092"
+        "id": "N3-07-092",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -9184,11 +11343,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-07-093"
+        "id": "N3-07-093",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -9197,11 +11368,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-07-094"
+        "id": "N3-07-094",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -9210,11 +11393,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-07-095"
+        "id": "N3-07-095",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -9223,11 +11418,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-07-096"
+        "id": "N3-07-096",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -9236,11 +11443,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-07-097"
+        "id": "N3-07-097",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -9249,11 +11468,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-07-098"
+        "id": "N3-07-098",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -9262,11 +11493,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-07-099"
+        "id": "N3-07-099",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -9275,11 +11518,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-07-100"
+        "id": "N3-07-100",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -9288,11 +11543,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-07-101"
+        "id": "N3-07-101",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -9301,7 +11568,8 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-07-102"
+        "id": "N3-07-102",
+        "script": "音声を聞いて答えてください。"
       }
     ],
     "8": [
@@ -10282,7 +12550,18 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -10291,11 +12570,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-08-076"
+        "id": "N3-08-076",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -10304,11 +12595,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-08-077"
+        "id": "N3-08-077",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -10317,11 +12620,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-08-078"
+        "id": "N3-08-078",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -10330,11 +12645,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-08-079"
+        "id": "N3-08-079",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -10343,11 +12670,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-08-080"
+        "id": "N3-08-080",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -10356,11 +12695,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-08-081"
+        "id": "N3-08-081",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -10369,11 +12720,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-08-082"
+        "id": "N3-08-082",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -10382,11 +12745,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-08-083"
+        "id": "N3-08-083",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -10395,11 +12770,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-08-084"
+        "id": "N3-08-084",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -10408,11 +12795,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-08-085"
+        "id": "N3-08-085",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -10421,11 +12820,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-08-086"
+        "id": "N3-08-086",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -10434,11 +12845,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-08-087"
+        "id": "N3-08-087",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -10447,11 +12870,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-08-088"
+        "id": "N3-08-088",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -10460,11 +12895,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-08-089"
+        "id": "N3-08-089",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -10473,11 +12920,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-08-090"
+        "id": "N3-08-090",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -10486,11 +12945,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-08-091"
+        "id": "N3-08-091",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -10499,11 +12970,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-08-092"
+        "id": "N3-08-092",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -10512,11 +12995,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-08-093"
+        "id": "N3-08-093",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -10525,11 +13020,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-08-094"
+        "id": "N3-08-094",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -10538,11 +13045,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-08-095"
+        "id": "N3-08-095",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -10551,11 +13070,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-08-096"
+        "id": "N3-08-096",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -10564,11 +13095,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-08-097"
+        "id": "N3-08-097",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -10577,11 +13120,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-08-098"
+        "id": "N3-08-098",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -10590,11 +13145,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-08-099"
+        "id": "N3-08-099",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -10603,11 +13170,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-08-100"
+        "id": "N3-08-100",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -10616,11 +13195,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-08-101"
+        "id": "N3-08-101",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -10629,7 +13220,8 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-08-102"
+        "id": "N3-08-102",
+        "script": "音声を聞いて答えてください。"
       }
     ],
     "9": [
@@ -11610,7 +14202,18 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -11619,11 +14222,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-09-076"
+        "id": "N3-09-076",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -11632,11 +14247,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-09-077"
+        "id": "N3-09-077",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -11645,11 +14272,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-09-078"
+        "id": "N3-09-078",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -11658,11 +14297,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-09-079"
+        "id": "N3-09-079",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -11671,11 +14322,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-09-080"
+        "id": "N3-09-080",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -11684,11 +14347,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-09-081"
+        "id": "N3-09-081",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -11697,11 +14372,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-09-082"
+        "id": "N3-09-082",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -11710,11 +14397,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-09-083"
+        "id": "N3-09-083",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -11723,11 +14422,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-09-084"
+        "id": "N3-09-084",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -11736,11 +14447,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-09-085"
+        "id": "N3-09-085",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -11749,11 +14472,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-09-086"
+        "id": "N3-09-086",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -11762,11 +14497,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-09-087"
+        "id": "N3-09-087",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -11775,11 +14522,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-09-088"
+        "id": "N3-09-088",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -11788,11 +14547,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-09-089"
+        "id": "N3-09-089",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -11801,11 +14572,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-09-090"
+        "id": "N3-09-090",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -11814,11 +14597,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-09-091"
+        "id": "N3-09-091",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -11827,11 +14622,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-09-092"
+        "id": "N3-09-092",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -11840,11 +14647,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-09-093"
+        "id": "N3-09-093",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -11853,11 +14672,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-09-094"
+        "id": "N3-09-094",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -11866,11 +14697,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-09-095"
+        "id": "N3-09-095",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -11879,11 +14722,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-09-096"
+        "id": "N3-09-096",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -11892,11 +14747,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-09-097"
+        "id": "N3-09-097",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -11905,11 +14772,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-09-098"
+        "id": "N3-09-098",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -11918,11 +14797,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-09-099"
+        "id": "N3-09-099",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -11931,11 +14822,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-09-100"
+        "id": "N3-09-100",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -11944,11 +14847,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-09-101"
+        "id": "N3-09-101",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -11957,7 +14872,8 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-09-102"
+        "id": "N3-09-102",
+        "script": "音声を聞いて答えてください。"
       }
     ],
     "10": [
@@ -12938,7 +15854,18 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -12947,11 +15874,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-10-076"
+        "id": "N3-10-076",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -12960,11 +15899,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-10-077"
+        "id": "N3-10-077",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -12973,11 +15924,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-10-078"
+        "id": "N3-10-078",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -12986,11 +15949,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-10-079"
+        "id": "N3-10-079",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -12999,11 +15974,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-10-080"
+        "id": "N3-10-080",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -13012,11 +15999,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-10-081"
+        "id": "N3-10-081",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -13025,11 +16024,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-10-082"
+        "id": "N3-10-082",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -13038,11 +16049,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-10-083"
+        "id": "N3-10-083",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -13051,11 +16074,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-10-084"
+        "id": "N3-10-084",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -13064,11 +16099,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-10-085"
+        "id": "N3-10-085",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -13077,11 +16124,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-10-086"
+        "id": "N3-10-086",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -13090,11 +16149,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-10-087"
+        "id": "N3-10-087",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -13103,11 +16174,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-10-088"
+        "id": "N3-10-088",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -13116,11 +16199,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-10-089"
+        "id": "N3-10-089",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -13129,11 +16224,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-10-090"
+        "id": "N3-10-090",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -13142,11 +16249,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-10-091"
+        "id": "N3-10-091",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -13155,11 +16274,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-10-092"
+        "id": "N3-10-092",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -13168,11 +16299,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-10-093"
+        "id": "N3-10-093",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -13181,11 +16324,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-10-094"
+        "id": "N3-10-094",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -13194,11 +16349,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-10-095"
+        "id": "N3-10-095",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -13207,11 +16374,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-10-096"
+        "id": "N3-10-096",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -13220,11 +16399,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-10-097"
+        "id": "N3-10-097",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -13233,11 +16424,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-10-098"
+        "id": "N3-10-098",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -13246,11 +16449,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-10-099"
+        "id": "N3-10-099",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -13259,11 +16474,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-10-100"
+        "id": "N3-10-100",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -13272,11 +16499,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-10-101"
+        "id": "N3-10-101",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -13285,7 +16524,8 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-10-102"
+        "id": "N3-10-102",
+        "script": "音声を聞いて答えてください。"
       }
     ],
     "11": [
@@ -14266,7 +17506,18 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -14275,11 +17526,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-11-076"
+        "id": "N3-11-076",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -14288,11 +17551,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-11-077"
+        "id": "N3-11-077",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -14301,11 +17576,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-11-078"
+        "id": "N3-11-078",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -14314,11 +17601,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-11-079"
+        "id": "N3-11-079",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -14327,11 +17626,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-11-080"
+        "id": "N3-11-080",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -14340,11 +17651,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-11-081"
+        "id": "N3-11-081",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -14353,11 +17676,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-11-082"
+        "id": "N3-11-082",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -14366,11 +17701,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-11-083"
+        "id": "N3-11-083",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -14379,11 +17726,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-11-084"
+        "id": "N3-11-084",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -14392,11 +17751,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-11-085"
+        "id": "N3-11-085",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -14405,11 +17776,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-11-086"
+        "id": "N3-11-086",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -14418,11 +17801,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-11-087"
+        "id": "N3-11-087",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -14431,11 +17826,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-11-088"
+        "id": "N3-11-088",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -14444,11 +17851,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-11-089"
+        "id": "N3-11-089",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -14457,11 +17876,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-11-090"
+        "id": "N3-11-090",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -14470,11 +17901,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-11-091"
+        "id": "N3-11-091",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -14483,11 +17926,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-11-092"
+        "id": "N3-11-092",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -14496,11 +17951,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-11-093"
+        "id": "N3-11-093",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -14509,11 +17976,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-11-094"
+        "id": "N3-11-094",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -14522,11 +18001,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-11-095"
+        "id": "N3-11-095",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -14535,11 +18026,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-11-096"
+        "id": "N3-11-096",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -14548,11 +18051,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-11-097"
+        "id": "N3-11-097",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -14561,11 +18076,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-11-098"
+        "id": "N3-11-098",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -14574,11 +18101,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-11-099"
+        "id": "N3-11-099",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -14587,11 +18126,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-11-100"
+        "id": "N3-11-100",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -14600,11 +18151,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-11-101"
+        "id": "N3-11-101",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -14613,7 +18176,8 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-11-102"
+        "id": "N3-11-102",
+        "script": "音声を聞いて答えてください。"
       }
     ],
     "12": [
@@ -15594,7 +19158,18 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -15603,11 +19178,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-12-076"
+        "id": "N3-12-076",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -15616,11 +19203,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-12-077"
+        "id": "N3-12-077",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -15629,11 +19228,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-12-078"
+        "id": "N3-12-078",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -15642,11 +19253,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-12-079"
+        "id": "N3-12-079",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -15655,11 +19278,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-12-080"
+        "id": "N3-12-080",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -15668,11 +19303,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-12-081"
+        "id": "N3-12-081",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -15681,11 +19328,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-12-082"
+        "id": "N3-12-082",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -15694,11 +19353,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-12-083"
+        "id": "N3-12-083",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -15707,11 +19378,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-12-084"
+        "id": "N3-12-084",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -15720,11 +19403,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-12-085"
+        "id": "N3-12-085",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -15733,11 +19428,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-12-086"
+        "id": "N3-12-086",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -15746,11 +19453,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-12-087"
+        "id": "N3-12-087",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -15759,11 +19478,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-12-088"
+        "id": "N3-12-088",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -15772,11 +19503,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-12-089"
+        "id": "N3-12-089",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -15785,11 +19528,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-12-090"
+        "id": "N3-12-090",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -15798,11 +19553,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-12-091"
+        "id": "N3-12-091",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -15811,11 +19578,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-12-092"
+        "id": "N3-12-092",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -15824,11 +19603,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-12-093"
+        "id": "N3-12-093",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -15837,11 +19628,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-12-094"
+        "id": "N3-12-094",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -15850,11 +19653,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-12-095"
+        "id": "N3-12-095",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -15863,11 +19678,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-12-096"
+        "id": "N3-12-096",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -15876,11 +19703,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-12-097"
+        "id": "N3-12-097",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -15889,11 +19728,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-12-098"
+        "id": "N3-12-098",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -15902,11 +19753,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-12-099"
+        "id": "N3-12-099",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -15915,11 +19778,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-12-100"
+        "id": "N3-12-100",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -15928,11 +19803,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-12-101"
+        "id": "N3-12-101",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -15941,7 +19828,8 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-12-102"
+        "id": "N3-12-102",
+        "script": "音声を聞いて答えてください。"
       }
     ],
     "13": [
@@ -16922,7 +20810,18 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -16931,11 +20830,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-13-076"
+        "id": "N3-13-076",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -16944,11 +20855,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-13-077"
+        "id": "N3-13-077",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -16957,11 +20880,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-13-078"
+        "id": "N3-13-078",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -16970,11 +20905,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-13-079"
+        "id": "N3-13-079",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -16983,11 +20930,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-13-080"
+        "id": "N3-13-080",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -16996,11 +20955,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-13-081"
+        "id": "N3-13-081",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -17009,11 +20980,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-13-082"
+        "id": "N3-13-082",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -17022,11 +21005,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-13-083"
+        "id": "N3-13-083",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -17035,11 +21030,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-13-084"
+        "id": "N3-13-084",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -17048,11 +21055,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-13-085"
+        "id": "N3-13-085",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -17061,11 +21080,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-13-086"
+        "id": "N3-13-086",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -17074,11 +21105,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-13-087"
+        "id": "N3-13-087",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -17087,11 +21130,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-13-088"
+        "id": "N3-13-088",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -17100,11 +21155,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-13-089"
+        "id": "N3-13-089",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -17113,11 +21180,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-13-090"
+        "id": "N3-13-090",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -17126,11 +21205,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-13-091"
+        "id": "N3-13-091",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -17139,11 +21230,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-13-092"
+        "id": "N3-13-092",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -17152,11 +21255,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-13-093"
+        "id": "N3-13-093",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -17165,11 +21280,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-13-094"
+        "id": "N3-13-094",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -17178,11 +21305,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-13-095"
+        "id": "N3-13-095",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -17191,11 +21330,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-13-096"
+        "id": "N3-13-096",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -17204,11 +21355,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-13-097"
+        "id": "N3-13-097",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -17217,11 +21380,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-13-098"
+        "id": "N3-13-098",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -17230,11 +21405,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-13-099"
+        "id": "N3-13-099",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -17243,11 +21430,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-13-100"
+        "id": "N3-13-100",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -17256,11 +21455,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-13-101"
+        "id": "N3-13-101",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -17269,7 +21480,8 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-13-102"
+        "id": "N3-13-102",
+        "script": "音声を聞いて答えてください。"
       }
     ],
     "14": [
@@ -18250,7 +22462,18 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -18259,11 +22482,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-14-076"
+        "id": "N3-14-076",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -18272,11 +22507,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-14-077"
+        "id": "N3-14-077",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -18285,11 +22532,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-14-078"
+        "id": "N3-14-078",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -18298,11 +22557,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-14-079"
+        "id": "N3-14-079",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -18311,11 +22582,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-14-080"
+        "id": "N3-14-080",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -18324,11 +22607,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-14-081"
+        "id": "N3-14-081",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -18337,11 +22632,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-14-082"
+        "id": "N3-14-082",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -18350,11 +22657,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-14-083"
+        "id": "N3-14-083",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -18363,11 +22682,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-14-084"
+        "id": "N3-14-084",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -18376,11 +22707,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-14-085"
+        "id": "N3-14-085",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -18389,11 +22732,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-14-086"
+        "id": "N3-14-086",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -18402,11 +22757,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-14-087"
+        "id": "N3-14-087",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -18415,11 +22782,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-14-088"
+        "id": "N3-14-088",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -18428,11 +22807,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-14-089"
+        "id": "N3-14-089",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -18441,11 +22832,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-14-090"
+        "id": "N3-14-090",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -18454,11 +22857,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-14-091"
+        "id": "N3-14-091",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -18467,11 +22882,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-14-092"
+        "id": "N3-14-092",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -18480,11 +22907,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-14-093"
+        "id": "N3-14-093",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -18493,11 +22932,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-14-094"
+        "id": "N3-14-094",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -18506,11 +22957,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-14-095"
+        "id": "N3-14-095",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -18519,11 +22982,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-14-096"
+        "id": "N3-14-096",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -18532,11 +23007,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-14-097"
+        "id": "N3-14-097",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -18545,11 +23032,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-14-098"
+        "id": "N3-14-098",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -18558,11 +23057,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-14-099"
+        "id": "N3-14-099",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -18571,11 +23082,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-14-100"
+        "id": "N3-14-100",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -18584,11 +23107,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-14-101"
+        "id": "N3-14-101",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -18597,7 +23132,8 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-14-102"
+        "id": "N3-14-102",
+        "script": "音声を聞いて答えてください。"
       }
     ],
     "15": [
@@ -19578,7 +24114,18 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -19587,11 +24134,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-15-076"
+        "id": "N3-15-076",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -19600,11 +24159,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-15-077"
+        "id": "N3-15-077",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -19613,11 +24184,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-15-078"
+        "id": "N3-15-078",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -19626,11 +24209,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-15-079"
+        "id": "N3-15-079",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -19639,11 +24234,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-15-080"
+        "id": "N3-15-080",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -19652,11 +24259,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-15-081"
+        "id": "N3-15-081",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -19665,11 +24284,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-15-082"
+        "id": "N3-15-082",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -19678,11 +24309,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-15-083"
+        "id": "N3-15-083",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -19691,11 +24334,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-15-084"
+        "id": "N3-15-084",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -19704,11 +24359,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-15-085"
+        "id": "N3-15-085",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -19717,11 +24384,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-15-086"
+        "id": "N3-15-086",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -19730,11 +24409,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-15-087"
+        "id": "N3-15-087",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -19743,11 +24434,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-15-088"
+        "id": "N3-15-088",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -19756,11 +24459,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-15-089"
+        "id": "N3-15-089",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -19769,11 +24484,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-15-090"
+        "id": "N3-15-090",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -19782,11 +24509,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-15-091"
+        "id": "N3-15-091",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -19795,11 +24534,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-15-092"
+        "id": "N3-15-092",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -19808,11 +24559,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-15-093"
+        "id": "N3-15-093",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -19821,11 +24584,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-15-094"
+        "id": "N3-15-094",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -19834,11 +24609,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-15-095"
+        "id": "N3-15-095",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -19847,11 +24634,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-15-096"
+        "id": "N3-15-096",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -19860,11 +24659,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-15-097"
+        "id": "N3-15-097",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -19873,11 +24684,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-15-098"
+        "id": "N3-15-098",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -19886,11 +24709,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-15-099"
+        "id": "N3-15-099",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -19899,11 +24734,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-15-100"
+        "id": "N3-15-100",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -19912,11 +24759,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-15-101"
+        "id": "N3-15-101",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -19925,7 +24784,8 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-15-102"
+        "id": "N3-15-102",
+        "script": "音声を聞いて答えてください。"
       }
     ],
     "16": [
@@ -20906,7 +25766,18 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -20915,11 +25786,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-16-076"
+        "id": "N3-16-076",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -20928,11 +25811,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-16-077"
+        "id": "N3-16-077",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -20941,11 +25836,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-16-078"
+        "id": "N3-16-078",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -20954,11 +25861,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-16-079"
+        "id": "N3-16-079",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -20967,11 +25886,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-16-080"
+        "id": "N3-16-080",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -20980,11 +25911,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-16-081"
+        "id": "N3-16-081",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -20993,11 +25936,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-16-082"
+        "id": "N3-16-082",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -21006,11 +25961,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-16-083"
+        "id": "N3-16-083",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -21019,11 +25986,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-16-084"
+        "id": "N3-16-084",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -21032,11 +26011,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-16-085"
+        "id": "N3-16-085",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -21045,11 +26036,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-16-086"
+        "id": "N3-16-086",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -21058,11 +26061,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-16-087"
+        "id": "N3-16-087",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -21071,11 +26086,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-16-088"
+        "id": "N3-16-088",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -21084,11 +26111,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-16-089"
+        "id": "N3-16-089",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -21097,11 +26136,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-16-090"
+        "id": "N3-16-090",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -21110,11 +26161,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-16-091"
+        "id": "N3-16-091",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -21123,11 +26186,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-16-092"
+        "id": "N3-16-092",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -21136,11 +26211,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-16-093"
+        "id": "N3-16-093",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -21149,11 +26236,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-16-094"
+        "id": "N3-16-094",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -21162,11 +26261,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-16-095"
+        "id": "N3-16-095",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -21175,11 +26286,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-16-096"
+        "id": "N3-16-096",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -21188,11 +26311,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-16-097"
+        "id": "N3-16-097",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -21201,11 +26336,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-16-098"
+        "id": "N3-16-098",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -21214,11 +26361,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-16-099"
+        "id": "N3-16-099",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -21227,11 +26386,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-16-100"
+        "id": "N3-16-100",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -21240,11 +26411,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-16-101"
+        "id": "N3-16-101",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -21253,7 +26436,8 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-16-102"
+        "id": "N3-16-102",
+        "script": "音声を聞いて答えてください。"
       }
     ],
     "17": [
@@ -22234,7 +27418,18 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -22243,11 +27438,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-17-076"
+        "id": "N3-17-076",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -22256,11 +27463,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-17-077"
+        "id": "N3-17-077",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -22269,11 +27488,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-17-078"
+        "id": "N3-17-078",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -22282,11 +27513,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-17-079"
+        "id": "N3-17-079",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -22295,11 +27538,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-17-080"
+        "id": "N3-17-080",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -22308,11 +27563,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-17-081"
+        "id": "N3-17-081",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -22321,11 +27588,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-17-082"
+        "id": "N3-17-082",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -22334,11 +27613,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-17-083"
+        "id": "N3-17-083",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -22347,11 +27638,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-17-084"
+        "id": "N3-17-084",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -22360,11 +27663,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-17-085"
+        "id": "N3-17-085",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -22373,11 +27688,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-17-086"
+        "id": "N3-17-086",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -22386,11 +27713,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-17-087"
+        "id": "N3-17-087",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -22399,11 +27738,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-17-088"
+        "id": "N3-17-088",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -22412,11 +27763,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-17-089"
+        "id": "N3-17-089",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -22425,11 +27788,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-17-090"
+        "id": "N3-17-090",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -22438,11 +27813,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-17-091"
+        "id": "N3-17-091",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -22451,11 +27838,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-17-092"
+        "id": "N3-17-092",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -22464,11 +27863,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-17-093"
+        "id": "N3-17-093",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -22477,11 +27888,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-17-094"
+        "id": "N3-17-094",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -22490,11 +27913,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-17-095"
+        "id": "N3-17-095",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -22503,11 +27938,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-17-096"
+        "id": "N3-17-096",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -22516,11 +27963,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-17-097"
+        "id": "N3-17-097",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -22529,11 +27988,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-17-098"
+        "id": "N3-17-098",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -22542,11 +28013,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-17-099"
+        "id": "N3-17-099",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -22555,11 +28038,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-17-100"
+        "id": "N3-17-100",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -22568,11 +28063,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-17-101"
+        "id": "N3-17-101",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -22581,7 +28088,8 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-17-102"
+        "id": "N3-17-102",
+        "script": "音声を聞いて答えてください。"
       }
     ],
     "18": [
@@ -23562,7 +29070,18 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -23571,11 +29090,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-18-076"
+        "id": "N3-18-076",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -23584,11 +29115,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-18-077"
+        "id": "N3-18-077",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -23597,11 +29140,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-18-078"
+        "id": "N3-18-078",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -23610,11 +29165,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-18-079"
+        "id": "N3-18-079",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -23623,11 +29190,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-18-080"
+        "id": "N3-18-080",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -23636,11 +29215,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-18-081"
+        "id": "N3-18-081",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -23649,11 +29240,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-18-082"
+        "id": "N3-18-082",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -23662,11 +29265,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-18-083"
+        "id": "N3-18-083",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -23675,11 +29290,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-18-084"
+        "id": "N3-18-084",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -23688,11 +29315,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-18-085"
+        "id": "N3-18-085",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -23701,11 +29340,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-18-086"
+        "id": "N3-18-086",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -23714,11 +29365,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-18-087"
+        "id": "N3-18-087",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -23727,11 +29390,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-18-088"
+        "id": "N3-18-088",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -23740,11 +29415,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-18-089"
+        "id": "N3-18-089",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -23753,11 +29440,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-18-090"
+        "id": "N3-18-090",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -23766,11 +29465,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-18-091"
+        "id": "N3-18-091",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -23779,11 +29490,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-18-092"
+        "id": "N3-18-092",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -23792,11 +29515,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-18-093"
+        "id": "N3-18-093",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -23805,11 +29540,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-18-094"
+        "id": "N3-18-094",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -23818,11 +29565,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-18-095"
+        "id": "N3-18-095",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -23831,11 +29590,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-18-096"
+        "id": "N3-18-096",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -23844,11 +29615,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-18-097"
+        "id": "N3-18-097",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -23857,11 +29640,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-18-098"
+        "id": "N3-18-098",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -23870,11 +29665,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-18-099"
+        "id": "N3-18-099",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -23883,11 +29690,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-18-100"
+        "id": "N3-18-100",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -23896,11 +29715,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-18-101"
+        "id": "N3-18-101",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -23909,7 +29740,8 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-18-102"
+        "id": "N3-18-102",
+        "script": "音声を聞いて答えてください。"
       }
     ],
     "19": [
@@ -24890,7 +30722,18 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -24899,11 +30742,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-19-076"
+        "id": "N3-19-076",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -24912,11 +30767,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-19-077"
+        "id": "N3-19-077",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -24925,11 +30792,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-19-078"
+        "id": "N3-19-078",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -24938,11 +30817,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-19-079"
+        "id": "N3-19-079",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -24951,11 +30842,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-19-080"
+        "id": "N3-19-080",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -24964,11 +30867,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-19-081"
+        "id": "N3-19-081",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -24977,11 +30892,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-19-082"
+        "id": "N3-19-082",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -24990,11 +30917,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-19-083"
+        "id": "N3-19-083",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -25003,11 +30942,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-19-084"
+        "id": "N3-19-084",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -25016,11 +30967,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-19-085"
+        "id": "N3-19-085",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -25029,11 +30992,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-19-086"
+        "id": "N3-19-086",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -25042,11 +31017,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-19-087"
+        "id": "N3-19-087",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -25055,11 +31042,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-19-088"
+        "id": "N3-19-088",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -25068,11 +31067,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-19-089"
+        "id": "N3-19-089",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -25081,11 +31092,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-19-090"
+        "id": "N3-19-090",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -25094,11 +31117,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-19-091"
+        "id": "N3-19-091",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -25107,11 +31142,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-19-092"
+        "id": "N3-19-092",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -25120,11 +31167,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-19-093"
+        "id": "N3-19-093",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -25133,11 +31192,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-19-094"
+        "id": "N3-19-094",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -25146,11 +31217,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-19-095"
+        "id": "N3-19-095",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -25159,11 +31242,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-19-096"
+        "id": "N3-19-096",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -25172,11 +31267,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-19-097"
+        "id": "N3-19-097",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -25185,11 +31292,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-19-098"
+        "id": "N3-19-098",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -25198,11 +31317,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-19-099"
+        "id": "N3-19-099",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -25211,11 +31342,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-19-100"
+        "id": "N3-19-100",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -25224,11 +31367,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-19-101"
+        "id": "N3-19-101",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -25237,7 +31392,8 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-19-102"
+        "id": "N3-19-102",
+        "script": "音声を聞いて答えてください。"
       }
     ],
     "20": [
@@ -26218,7 +32374,18 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -26227,11 +32394,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-20-076"
+        "id": "N3-20-076",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -26240,11 +32419,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-20-077"
+        "id": "N3-20-077",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -26253,11 +32444,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-20-078"
+        "id": "N3-20-078",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -26266,11 +32469,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-20-079"
+        "id": "N3-20-079",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -26279,11 +32494,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-20-080"
+        "id": "N3-20-080",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -26292,11 +32519,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-20-081"
+        "id": "N3-20-081",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -26305,11 +32544,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-20-082"
+        "id": "N3-20-082",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -26318,11 +32569,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-20-083"
+        "id": "N3-20-083",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -26331,11 +32594,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-20-084"
+        "id": "N3-20-084",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -26344,11 +32619,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-20-085"
+        "id": "N3-20-085",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -26357,11 +32644,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-20-086"
+        "id": "N3-20-086",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -26370,11 +32669,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-20-087"
+        "id": "N3-20-087",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -26383,11 +32694,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-20-088"
+        "id": "N3-20-088",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -26396,11 +32719,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-20-089"
+        "id": "N3-20-089",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（概要理解）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -26409,11 +32744,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-20-090"
+        "id": "N3-20-090",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -26422,11 +32769,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 1,
-        "id": "N3-20-091"
+        "id": "N3-20-091",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -26435,11 +32794,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-20-092"
+        "id": "N3-20-092",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -26448,11 +32819,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-20-093"
+        "id": "N3-20-093",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -26461,11 +32844,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-20-094"
+        "id": "N3-20-094",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -26474,11 +32869,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-20-095"
+        "id": "N3-20-095",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -26487,11 +32894,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-20-096"
+        "id": "N3-20-096",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -26500,11 +32919,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-20-097"
+        "id": "N3-20-097",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -26513,11 +32944,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 2,
-        "id": "N3-20-098"
+        "id": "N3-20-098",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -26526,11 +32969,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-20-099"
+        "id": "N3-20-099",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -26539,11 +32994,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 3,
-        "id": "N3-20-100"
+        "id": "N3-20-100",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -26552,11 +33019,23 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-20-101"
+        "id": "N3-20-101",
+        "script": "音声を聞いて答えてください。"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "<ruby>音声<rt>おんせい</rt></ruby>を<ruby>聞いて<rt>きいて</rt></ruby><ruby>答えて<rt>こたえて</rt></ruby>ください。",
+        "text": {
+          "ja": "🔊 音声を聞いて答えてください",
+          "en": "🔊 Listen and answer",
+          "zh": "🔊 请听录音并回答",
+          "ko": "🔊 음성을 듣고 답하세요",
+          "vi": "🔊 Nghe và trả lời",
+          "id": "🔊 Dengarkan dan jawab",
+          "th": "🔊 ฟังและตอบ",
+          "es": "🔊 Escucha y responde",
+          "pt": "🔊 Ouça e responda",
+          "fr": "🔊 Écoutez et répondez"
+        },
         "question": "<ruby>質問<rt>しつもん</rt></ruby>",
         "options": [
           "A",
@@ -26565,7 +33044,8 @@ MOCK_DATA['N3'] = {
           "D"
         ],
         "answer": 0,
-        "id": "N3-20-102"
+        "id": "N3-20-102",
+        "script": "音声を聞いて答えてください。"
       }
     ]
   }
