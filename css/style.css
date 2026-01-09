@@ -194,6 +194,7 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
 .option-btn:active:not(:disabled) { transform: scale(0.98); box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
 .option-btn.correct { border-color: var(--success); background: var(--success-light); animation: successPop 0.3s ease; }
 .option-btn.incorrect { border-color: var(--error); background: var(--error-light); }
+.option-btn.selected { border-color: var(--primary); background: rgba(0, 91, 172, 0.08); box-shadow: 0 0 0 3px rgba(0, 91, 172, 0.15); }
 .option-btn:disabled { pointer-events: none; }
 
 /* Feedback Area */
