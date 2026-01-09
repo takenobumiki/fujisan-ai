@@ -882,6 +882,17 @@ function goHome() {
   showScreen('drill');
 }
 
+// Hide app loading overlay with smooth fade
+function hideAppLoadingOverlay() {
+  const overlay = document.getElementById('app-loading-overlay');
+  if (overlay) {
+    overlay.style.opacity = '0';
+    setTimeout(() => {
+      overlay.style.display = 'none';
+    }, 300);
+  }
+}
+
 function showScreen(id) {
   console.log('showScreen called with id:', id);
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
@@ -5153,11 +5164,14 @@ function initFirebase() {
         console.log('Demo mode - no login required');
         showScreen('drill');
       }
+      // Hide loading overlay with smooth fade
+      hideAppLoadingOverlay();
     });
   } catch (e) {
     console.log('Firebase init error:', e);
     // Demo mode fallback
     showScreen('drill');
+    hideAppLoadingOverlay();
   }
 }
 
@@ -5372,6 +5386,10 @@ if (fromLogin) {
     state.onboardingComplete = true;
     saveState();
   }
+} else {
+  // Direct access to app.html (not from LP) - hide loading immediately
+  // Only show loading for LP → app transitions
+  hideAppLoadingOverlay();
 }
 
 // Show onboarding for new users (only if not from LP login)
