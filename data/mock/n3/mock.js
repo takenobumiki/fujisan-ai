@@ -1,4 +1,4 @@
-// N3 Mock Test Data - v18.6.8 (with TTS listening)
+// N3 Mock Test Data - v18.7.0 (fixed context questions)
 if (typeof MOCK_DATA === 'undefined') { var MOCK_DATA = {}; }
 MOCK_DATA['N3'] = {
   "info": {
@@ -193,143 +193,143 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この問題は慎重な（　）が必要です。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>頭<rt>とう</rt></ruby>",
-          "<ruby>招く<rt>まねく</rt></ruby>",
-          "すする",
-          "<ruby>在庫<rt>ざいこ</rt></ruby>"
+          "掃除",
+          "買い物",
+          "洗濯",
+          "対応"
         ],
         "answer": 3,
         "id": "N3-01-015"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "会議で（　）を述べた。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>賛成<rt>さんせい</rt></ruby>",
-          "<ruby>確認する<rt>かくにんする</rt></ruby>",
-          "<ruby>職場<rt>しょくば</rt></ruby>",
-          "<ruby>東<rt>ひがし</rt></ruby>"
+          "掃除",
+          "料理",
+          "説明",
+          "洗濯"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-01-016"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "計画を（　）必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>重大<rt>じゅうだい</rt></ruby>",
-          "いらっしゃる",
-          "<ruby>炭水化物<rt>たんすいかぶつ</rt></ruby>",
-          "<ruby>社会<rt>しゃかい</rt></ruby>"
+          "見直す",
+          "料理する",
+          "散歩する",
+          "洗濯する"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-01-017"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "プロジェクトの（　）を担当している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>治す<rt>なおす</rt></ruby>",
-          "<ruby>出張する<rt>しゅっちょうする</rt></ruby>",
-          "<ruby>下ろす<rt>おろす</rt></ruby>",
-          "<ruby>別々<rt>べつべつ</rt></ruby>"
+          "洗濯",
+          "料理",
+          "進行",
+          "散歩"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-01-018"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "契約の（　）を確認した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>数学<rt>すうがく</rt></ruby>",
-          "<ruby>茶色<rt>ちゃいろ</rt></ruby>",
-          "メーカー",
-          "<ruby>知る<rt>しる</rt></ruby>"
+          "掃除",
+          "散歩",
+          "詳細",
+          "洗濯"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-01-019"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "環境（　）が深刻になっている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>牛<rt>うし</rt></ruby>",
-          "<ruby>割引<rt>わりびき</rt></ruby>",
-          "<ruby>同い年<rt>おないどし</rt></ruby>",
-          "<ruby>水準<rt>すいじゅん</rt></ruby>"
+          "洗濯",
+          "破壊",
+          "運動",
+          "料理"
         ],
         "answer": 1,
         "id": "N3-01-020"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "経済（　）が回復している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "スポーツ",
-          "<ruby>木<rt>き</rt></ruby>",
-          "セール",
-          "<ruby>都心<rt>としん</rt></ruby>"
+          "洗濯",
+          "散歩",
+          "成長",
+          "料理"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-01-021"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "社会（　）に貢献したい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "ズボン",
-          "<ruby>試み<rt>こころみ</rt></ruby>",
-          "ブランコ",
-          "<ruby>危ない<rt>あぶない</rt></ruby>"
+          "活動",
+          "洗濯",
+          "料理",
+          "掃除"
         ],
         "answer": 0,
         "id": "N3-01-022"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）は素晴らしい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>逆らう<rt>さからう</rt></ruby>",
-          "<ruby>差し上げる<rt>さしあげる</rt></ruby>",
-          "リハーサル",
-          "<ruby>図<rt>ず</rt></ruby>"
+          "料理",
+          "散歩",
+          "才能",
+          "洗濯"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-01-023"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼女の（　）な態度に感心した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>商業<rt>しょうぎょう</rt></ruby>",
-          "<ruby>オフィス街<rt>おふぃすがい</rt></ruby>",
-          "<ruby>逆<rt>ぎゃく</rt></ruby>",
-          "<ruby>跳ねる<rt>はねる</rt></ruby>"
+          "無責任",
+          "親切",
+          "横柄",
+          "不真面目"
         ],
         "answer": 1,
         "id": "N3-01-024"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な状況が続いている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>酸っぱい<rt>すっぱい</rt></ruby>",
-          "<ruby>考える<rt>かんがえる</rt></ruby>",
-          "ごちそうさま",
-          "<ruby>公園<rt>こうえん</rt></ruby>"
+          "簡単",
+          "楽",
+          "順調",
+          "深刻"
         ],
         "answer": 3,
         "id": "N3-01-025"
@@ -1845,145 +1845,145 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この問題は慎重な（　）が必要です。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>新しい<rt>あたらしい</rt></ruby>",
-          "<ruby>電器屋<rt>でんきや</rt></ruby>",
-          "<ruby>済ませる<rt>すませる</rt></ruby>",
-          "<ruby>卸す<rt>おろす</rt></ruby>"
+          "検討",
+          "買い物",
+          "洗濯",
+          "料理"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-02-015"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "会議で（　）を述べた。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>隠す<rt>かくす</rt></ruby>",
-          "カーディガン",
-          "<ruby>解ける<rt>とける</rt></ruby>",
-          "<ruby>写る<rt>うつる</rt></ruby>"
+          "運動",
+          "説明",
+          "料理",
+          "散歩"
         ],
         "answer": 1,
         "id": "N3-02-016"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "計画を（　）必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>仮定<rt>かてい</rt></ruby>",
-          "<ruby>弱まる<rt>よわまる</rt></ruby>",
-          "<ruby>場合<rt>ばあい</rt></ruby>",
-          "<ruby>使う<rt>つかう</rt></ruby>"
+          "修正",
+          "掃除する",
+          "散歩する",
+          "料理する"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-02-017"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "プロジェクトの（　）を担当している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>知識<rt>ちしき</rt></ruby>",
-          "<ruby>ナイフを使う<rt>ないふをつかう</rt></ruby>",
-          "<ruby>各々<rt>おのおの</rt></ruby>",
-          "<ruby>食欲<rt>しょくよく</rt></ruby>"
+          "掃除",
+          "企画",
+          "洗濯",
+          "散歩"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-02-018"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "契約の（　）を確認した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>紙<rt>かみ</rt></ruby>",
-          "<ruby>近所<rt>きんじょ</rt></ruby>",
-          "<ruby>後<rt>ご</rt></ruby>",
-          "クローゼット"
+          "内容",
+          "散歩",
+          "掃除",
+          "運動"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-02-019"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "環境（　）が深刻になっている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>嫌う<rt>きらう</rt></ruby>",
-          "<ruby>触る<rt>さわる</rt></ruby>",
-          "あるいは",
-          "<ruby>伸ばす<rt>のばす</rt></ruby>"
+          "散歩",
+          "洗濯",
+          "問題",
+          "運動"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-02-020"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "経済（　）が回復している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>仕上がる<rt>しあがる</rt></ruby>",
-          "パターン",
-          "<ruby>煙<rt>けむり</rt></ruby>",
-          "<ruby>走る<rt>はしる</rt></ruby>"
+          "洗濯",
+          "散歩",
+          "成長",
+          "料理"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-02-021"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "社会（　）に貢献したい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>権利<rt>けんり</rt></ruby>",
-          "<ruby>一安心<rt>ひとあんしん</rt></ruby>",
-          "<ruby>意味<rt>いみ</rt></ruby>",
-          "<ruby>伝わる<rt>つたわる</rt></ruby>"
+          "運動",
+          "掃除",
+          "洗濯",
+          "問題"
         ],
         "answer": 3,
         "id": "N3-02-022"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）は素晴らしい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>法則<rt>ほうそく</rt></ruby>",
-          "ビル",
-          "<ruby>玄関<rt>げんかん</rt></ruby>",
-          "<ruby>働き手<rt>はたらきて</rt></ruby>"
+          "洗濯",
+          "料理",
+          "散歩",
+          "能力"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-02-023"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼女の（　）な態度に感心した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>比率<rt>ひりつ</rt></ruby>",
-          "<ruby>見かける<rt>みかける</rt></ruby>",
-          "<ruby>村<rt>むら</rt></ruby>",
-          "<ruby>過半数<rt>かはんすう</rt></ruby>"
+          "横柄",
+          "誠実",
+          "無責任",
+          "不真面目"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-02-024"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な状況が続いている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>飯<rt>めし</rt></ruby>",
-          "<ruby>届け<rt>とどけ</rt></ruby>",
-          "<ruby>営業<rt>えいぎょう</rt></ruby>",
-          "<ruby>来週<rt>らいしゅう</rt></ruby>"
+          "順調",
+          "安定",
+          "楽",
+          "深刻"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-02-025"
       },
       {
@@ -3497,143 +3497,143 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この問題は慎重な（　）が必要です。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>値<rt>ね</rt></ruby>",
-          "<ruby>鍵<rt>かぎ</rt></ruby>",
-          "<ruby>以前<rt>いぜん</rt></ruby>",
-          "<ruby>危ない<rt>あぶない</rt></ruby>"
+          "散歩",
+          "検討",
+          "掃除",
+          "洗濯"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-03-015"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "会議で（　）を述べた。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "レジャー",
-          "<ruby>丘<rt>おか</rt></ruby>",
-          "<ruby>標準<rt>ひょうじゅん</rt></ruby>",
-          "<ruby>波<rt>なみ</rt></ruby>"
+          "料理",
+          "運動",
+          "掃除",
+          "説明"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-03-016"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "計画を（　）必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>類<rt>るい</rt></ruby>",
-          "<ruby>毎年<rt>まいとし</rt></ruby>",
-          "<ruby>比較的簡単<rt>ひかくてきかんたん</rt></ruby>",
-          "<ruby>洋服<rt>ようふく</rt></ruby>"
+          "掃除する",
+          "料理する",
+          "変更",
+          "洗濯する"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-03-017"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "プロジェクトの（　）を担当している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "マナー",
-          "<ruby>人気<rt>にんき</rt></ruby>",
-          "<ruby>青<rt>あお</rt></ruby>",
-          "<ruby>苦痛<rt>くつう</rt></ruby>"
+          "料理",
+          "洗濯",
+          "掃除",
+          "運営"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-03-018"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "契約の（　）を確認した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>寝る<rt>ねる</rt></ruby>",
-          "<ruby>最近<rt>さいきん</rt></ruby>",
-          "<ruby>出<rt>で</rt></ruby>",
-          "<ruby>水族館<rt>すいぞくかん</rt></ruby>"
+          "洗濯",
+          "掃除",
+          "料理",
+          "内容"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-03-019"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "環境（　）が深刻になっている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "バレーボール",
-          "<ruby>死ぬ<rt>しぬ</rt></ruby>",
-          "<ruby>傾向<rt>けいこう</rt></ruby>",
-          "<ruby>以前<rt>いぜん</rt></ruby>"
+          "破壊",
+          "運動",
+          "洗濯",
+          "料理"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-03-020"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "経済（　）が回復している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>損害<rt>そんがい</rt></ruby>",
-          "<ruby>痛む<rt>いたむ</rt></ruby>",
-          "<ruby>閉まる<rt>しまる</rt></ruby>",
-          "<ruby>商業<rt>しょうぎょう</rt></ruby>"
+          "洗濯",
+          "掃除",
+          "発展",
+          "散歩"
         ],
         "answer": 2,
         "id": "N3-03-021"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "社会（　）に貢献したい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>攻める<rt>せめる</rt></ruby>",
-          "<ruby>世話<rt>せわ</rt></ruby>",
-          "<ruby>勘<rt>かん</rt></ruby>",
-          "めまい"
+          "洗濯",
+          "運動",
+          "掃除",
+          "問題"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-03-022"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）は素晴らしい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "それから",
-          "<ruby>気候<rt>きこう</rt></ruby>",
-          "<ruby>機能<rt>きのう</rt></ruby>",
-          "<ruby>食欲<rt>しょくよく</rt></ruby>"
+          "散歩",
+          "掃除",
+          "洗濯",
+          "能力"
         ],
         "answer": 3,
         "id": "N3-03-023"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼女の（　）な態度に感心した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>働き手<rt>はたらきて</rt></ruby>",
-          "<ruby>気候<rt>きこう</rt></ruby>",
-          "<ruby>兄<rt>あに</rt></ruby>",
-          "<ruby>決済<rt>けっさい</rt></ruby>"
+          "不真面目",
+          "無責任",
+          "誠実",
+          "横柄"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-03-024"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な状況が続いている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>出場<rt>しゅつじょう</rt></ruby>",
-          "グループ",
-          "<ruby>お願い<rt>おねがい</rt></ruby>",
-          "もらう"
+          "安定",
+          "簡単",
+          "楽",
+          "困難"
         ],
         "answer": 3,
         "id": "N3-03-025"
@@ -5149,145 +5149,145 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この問題は慎重な（　）が必要です。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>親友<rt>しんゆう</rt></ruby>",
-          "<ruby>謝罪<rt>しゃざい</rt></ruby>",
-          "<ruby>太る<rt>ふとる</rt></ruby>",
-          "<ruby>見上げる<rt>みあげる</rt></ruby>"
+          "判断",
+          "掃除",
+          "料理",
+          "買い物"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-04-015"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "会議で（　）を述べた。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>文字<rt>もじ</rt></ruby>",
-          "<ruby>発見<rt>はっけん</rt></ruby>",
-          "たまに",
-          "<ruby>問い合わせ<rt>といあわせ</rt></ruby>"
+          "提案",
+          "運動",
+          "洗濯",
+          "散歩"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-04-016"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "計画を（　）必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "コップ",
-          "<ruby>数える<rt>かぞえる</rt></ruby>",
-          "<ruby>生む<rt>うむ</rt></ruby>",
-          "<ruby>目<rt>め</rt></ruby>"
+          "洗濯する",
+          "散歩する",
+          "変更",
+          "掃除する"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-04-017"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "プロジェクトの（　）を担当している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "つまらない",
-          "<ruby>事務所<rt>じむしょ</rt></ruby>",
-          "<ruby>結構<rt>けっこう</rt></ruby>",
-          "<ruby>主張<rt>しゅちょう</rt></ruby>"
+          "進行",
+          "料理",
+          "洗濯",
+          "散歩"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-04-018"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "契約の（　）を確認した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "カレンダー",
-          "<ruby>今年<rt>ことし</rt></ruby>",
-          "ボクシング",
-          "<ruby>通過<rt>つうか</rt></ruby>"
+          "洗濯",
+          "散歩",
+          "期間",
+          "料理"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-04-019"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "環境（　）が深刻になっている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>暖<rt>だん</rt></ruby>",
-          "インドア",
-          "<ruby>働く<rt>はたらく</rt></ruby>",
-          "<ruby>変更<rt>へんこう</rt></ruby>"
+          "洗濯",
+          "汚染",
+          "散歩",
+          "料理"
         ],
         "answer": 1,
         "id": "N3-04-020"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "経済（　）が回復している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>車庫<rt>しゃこ</rt></ruby>",
-          "<ruby>中学<rt>ちゅうがく</rt></ruby>",
-          "<ruby>不動産<rt>ふどうさん</rt></ruby>",
-          "<ruby>雨<rt>あめ</rt></ruby>"
+          "洗濯",
+          "状況",
+          "料理",
+          "掃除"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-04-021"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "社会（　）に貢献したい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>構う<rt>かまう</rt></ruby>",
-          "<ruby>事務所<rt>じむしょ</rt></ruby>",
-          "<ruby>危機<rt>きき</rt></ruby>",
-          "<ruby>思い切り<rt>おもいきり</rt></ruby>"
+          "福祉",
+          "掃除",
+          "料理",
+          "洗濯"
         ],
         "answer": 0,
         "id": "N3-04-022"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）は素晴らしい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "ワンピース",
-          "ドラム",
-          "<ruby>ゆっくり歩く<rt>ゆっくりあるく</rt></ruby>",
-          "<ruby>修正液<rt>しゅうせいえき</rt></ruby>"
+          "料理",
+          "努力",
+          "掃除",
+          "散歩"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-04-023"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼女の（　）な態度に感心した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>暇<rt>ひま</rt></ruby>",
-          "<ruby>自信<rt>じしん</rt></ruby>",
-          "ホチキス",
-          "<ruby>会計<rt>かいけい</rt></ruby>"
+          "親切",
+          "不真面目",
+          "不誠実",
+          "横柄"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-04-024"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な状況が続いている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>過半数<rt>かはんすう</rt></ruby>",
-          "<ruby>一つ<rt>ひとつ</rt></ruby>",
-          "<ruby>決まる<rt>きまる</rt></ruby>",
-          "<ruby>お金<rt>おかね</rt></ruby>"
+          "安定",
+          "困難",
+          "楽",
+          "順調"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-04-025"
       },
       {
@@ -6801,145 +6801,145 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この問題は慎重な（　）が必要です。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>首<rt>くび</rt></ruby>",
-          "<ruby>人数<rt>にんずう</rt></ruby>",
-          "<ruby>仕事<rt>しごと</rt></ruby>",
-          "<ruby>欠ける<rt>かける</rt></ruby>"
+          "分析",
+          "料理",
+          "散歩",
+          "買い物"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-05-015"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "会議で（　）を述べた。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>接触<rt>せっしょく</rt></ruby>",
-          "<ruby>雇う<rt>やとう</rt></ruby>",
-          "<ruby>勢い<rt>いきおい</rt></ruby>",
-          "<ruby>外国人<rt>がいこくじん</rt></ruby>"
+          "掃除",
+          "散歩",
+          "運動",
+          "説明"
         ],
         "answer": 3,
         "id": "N3-05-016"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "計画を（　）必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "じっと",
-          "<ruby>牛<rt>うし</rt></ruby>",
-          "<ruby>場所<rt>ばしょ</rt></ruby>",
-          "<ruby>開ける<rt>あける</rt></ruby>"
+          "掃除する",
+          "洗濯する",
+          "変更",
+          "料理する"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-05-017"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "プロジェクトの（　）を担当している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>強まる<rt>つよまる</rt></ruby>",
-          "<ruby>秋<rt>あき</rt></ruby>",
-          "<ruby>酸<rt>さん</rt></ruby>",
-          "<ruby>押し入れ<rt>おしいれ</rt></ruby>"
+          "洗濯",
+          "掃除",
+          "料理",
+          "運営"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-05-018"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "契約の（　）を確認した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>手すり<rt>てすり</rt></ruby>",
-          "<ruby>番号<rt>ばんごう</rt></ruby>",
-          "<ruby>机<rt>つくえ</rt></ruby>",
-          "<ruby>教科<rt>きょうか</rt></ruby>"
+          "洗濯",
+          "運動",
+          "料理",
+          "内容"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-05-019"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "環境（　）が深刻になっている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>路地<rt>ろじ</rt></ruby>",
-          "<ruby>社交的<rt>しゃこうてき</rt></ruby>",
-          "つまらない",
-          "<ruby>部下<rt>ぶか</rt></ruby>"
+          "散歩",
+          "料理",
+          "破壊",
+          "運動"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-05-020"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "経済（　）が回復している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>機嫌<rt>きげん</rt></ruby>",
-          "ホーム",
-          "<ruby>高校<rt>こうこう</rt></ruby>",
-          "イベント"
+          "掃除",
+          "洗濯",
+          "発展",
+          "散歩"
         ],
         "answer": 2,
         "id": "N3-05-021"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "社会（　）に貢献したい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "だから",
-          "<ruby>増える<rt>ふえる</rt></ruby>",
-          "<ruby>長<rt>ちょう</rt></ruby>",
-          "<ruby>助ける<rt>たすける</rt></ruby>"
+          "活動",
+          "料理",
+          "洗濯",
+          "運動"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-05-022"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）は素晴らしい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>今<rt>いま</rt></ruby>",
-          "<ruby>過去<rt>かこ</rt></ruby>",
-          "グルメ",
-          "<ruby>似る<rt>にる</rt></ruby>"
+          "才能",
+          "料理",
+          "掃除",
+          "洗濯"
         ],
         "answer": 0,
         "id": "N3-05-023"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼女の（　）な態度に感心した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>一方<rt>いっぽう</rt></ruby>",
-          "<ruby>支持<rt>しじ</rt></ruby>",
-          "<ruby>長所<rt>ちょうしょ</rt></ruby>",
-          "<ruby>政党<rt>せいとう</rt></ruby>"
+          "無責任",
+          "横柄",
+          "不真面目",
+          "親切"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-05-024"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な状況が続いている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>教科<rt>きょうか</rt></ruby>",
-          "<ruby>走る<rt>はしる</rt></ruby>",
-          "<ruby>皆<rt>みんな</rt></ruby>",
-          "<ruby>原理<rt>げんり</rt></ruby>"
+          "安定",
+          "順調",
+          "簡単",
+          "厳しい"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-05-025"
       },
       {
@@ -8453,143 +8453,143 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この問題は慎重な（　）が必要です。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>黒<rt>くろ</rt></ruby>",
-          "フォルダ",
-          "<ruby>悪化<rt>あっか</rt></ruby>",
-          "<ruby>雲<rt>くも</rt></ruby>"
+          "掃除",
+          "洗濯",
+          "対応",
+          "散歩"
         ],
         "answer": 2,
         "id": "N3-06-015"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "会議で（　）を述べた。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>太陽<rt>たいよう</rt></ruby>",
-          "すごい",
-          "<ruby>鋭い<rt>するどい</rt></ruby>",
-          "<ruby>四<rt>し</rt></ruby>"
+          "運動",
+          "掃除",
+          "報告",
+          "洗濯"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-06-016"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "計画を（　）必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>先月<rt>せんげつ</rt></ruby>",
-          "カレンダー",
-          "<ruby>悲劇<rt>ひげき</rt></ruby>",
-          "<ruby>遠い<rt>とおい</rt></ruby>"
+          "掃除する",
+          "散歩する",
+          "料理する",
+          "変更"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-06-017"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "プロジェクトの（　）を担当している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "メール",
-          "<ruby>買い物<rt>かいもの</rt></ruby>",
-          "<ruby>報告する<rt>ほうこくする</rt></ruby>",
-          "<ruby>中<rt>ちゅう</rt></ruby>"
+          "料理",
+          "洗濯",
+          "散歩",
+          "進行"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-06-018"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "契約の（　）を確認した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>汚い<rt>きたない</rt></ruby>",
-          "<ruby>時間<rt>じかん</rt></ruby>",
-          "<ruby>物<rt>もの</rt></ruby>",
-          "および"
+          "運動",
+          "期間",
+          "料理",
+          "散歩"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-06-019"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "環境（　）が深刻になっている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>承知<rt>しょうち</rt></ruby>",
-          "<ruby>本質<rt>ほんしつ</rt></ruby>",
-          "いくつ",
-          "いつも"
+          "問題",
+          "運動",
+          "洗濯",
+          "散歩"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-06-020"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "経済（　）が回復している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>転職する<rt>てんしょくする</rt></ruby>",
-          "<ruby>届ける<rt>とどける</rt></ruby>",
-          "ダイエット",
-          "<ruby>鈍い<rt>にぶい</rt></ruby>"
+          "料理",
+          "発展",
+          "散歩",
+          "掃除"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-06-021"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "社会（　）に貢献したい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>その上<rt>そのうえ</rt></ruby>",
-          "なる",
-          "<ruby>建てる<rt>たてる</rt></ruby>",
-          "<ruby>会計<rt>かいけい</rt></ruby>"
+          "料理",
+          "洗濯",
+          "運動",
+          "福祉"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-06-022"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）は素晴らしい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>住まい<rt>すまい</rt></ruby>",
-          "シーソー",
-          "<ruby>痛覚<rt>つうかく</rt></ruby>",
-          "<ruby>冷める<rt>さめる</rt></ruby>"
+          "能力",
+          "洗濯",
+          "料理",
+          "散歩"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-06-023"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼女の（　）な態度に感心した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>見せる<rt>みせる</rt></ruby>",
-          "<ruby>地<rt>ち</rt></ruby>",
-          "<ruby>留まる<rt>とどまる</rt></ruby>",
-          "<ruby>外出する<rt>がいしゅつする</rt></ruby>"
+          "不誠実",
+          "不真面目",
+          "横柄",
+          "親切"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-06-024"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な状況が続いている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>休学<rt>きゅうがく</rt></ruby>",
-          "<ruby>明日<rt>あした</rt></ruby>",
-          "<ruby>嫌がる<rt>いやがる</rt></ruby>",
-          "<ruby>退院<rt>たいいん</rt></ruby>"
+          "簡単",
+          "楽",
+          "困難",
+          "安定"
         ],
         "answer": 2,
         "id": "N3-06-025"
@@ -10105,145 +10105,145 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この問題は慎重な（　）が必要です。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>笑い<rt>わらい</rt></ruby>",
-          "ダム",
-          "<ruby>資源<rt>しげん</rt></ruby>",
-          "<ruby>出来る<rt>できる</rt></ruby>"
+          "洗濯",
+          "散歩",
+          "判断",
+          "買い物"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-07-015"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "会議で（　）を述べた。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>駐車<rt>ちゅうしゃ</rt></ruby>",
-          "<ruby>四つ<rt>よっつ</rt></ruby>",
-          "<ruby>社会<rt>しゃかい</rt></ruby>",
-          "<ruby>方<rt>ほう</rt></ruby>"
+          "洗濯",
+          "掃除",
+          "散歩",
+          "説明"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-07-016"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "計画を（　）必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>冷たい<rt>つめたい</rt></ruby>",
-          "<ruby>観光<rt>かんこう</rt></ruby>",
-          "<ruby>移動<rt>いどう</rt></ruby>",
-          "<ruby>有名<rt>ゆうめい</rt></ruby>"
+          "料理する",
+          "掃除する",
+          "変更",
+          "散歩する"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-07-017"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "プロジェクトの（　）を担当している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>常識<rt>じょうしき</rt></ruby>",
-          "<ruby>信号を渡る<rt>しんごうをわたる</rt></ruby>",
-          "コーヒー",
-          "<ruby>職員<rt>しょくいん</rt></ruby>"
+          "料理",
+          "管理",
+          "掃除",
+          "散歩"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-07-018"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "契約の（　）を確認した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>思い<rt>おもい</rt></ruby>",
-          "さようなら",
-          "<ruby>広場<rt>ひろば</rt></ruby>",
-          "ペットショップ"
+          "掃除",
+          "運動",
+          "散歩",
+          "期間"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-07-019"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "環境（　）が深刻になっている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>明確<rt>めいかく</rt></ruby>",
-          "<ruby>十<rt>じゅう</rt></ruby>",
-          "<ruby>減<rt>へん</rt></ruby>",
-          "コンパス"
+          "汚染",
+          "運動",
+          "散歩",
+          "料理"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-07-020"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "経済（　）が回復している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "よく",
-          "<ruby>持つ<rt>もつ</rt></ruby>",
-          "<ruby>特徴<rt>とくちょう</rt></ruby>",
-          "<ruby>簡単<rt>かんたん</rt></ruby>"
+          "散歩",
+          "洗濯",
+          "料理",
+          "成長"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-07-021"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "社会（　）に貢献したい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>通りかかる<rt>とおりかかる</rt></ruby>",
-          "<ruby>目指す<rt>めざす</rt></ruby>",
-          "<ruby>会場<rt>かいじょう</rt></ruby>",
-          "<ruby>親<rt>おや</rt></ruby>"
+          "活動",
+          "洗濯",
+          "運動",
+          "料理"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-07-022"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）は素晴らしい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>地区<rt>ちく</rt></ruby>",
-          "<ruby>否定<rt>ひてい</rt></ruby>",
-          "<ruby>互いに<rt>たがいに</rt></ruby>",
-          "<ruby>スキー場<rt>すきーじょう</rt></ruby>"
+          "技術",
+          "料理",
+          "洗濯",
+          "掃除"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-07-023"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼女の（　）な態度に感心した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>含む<rt>ふくむ</rt></ruby>",
-          "<ruby>時間<rt>じかん</rt></ruby>",
-          "タンス",
-          "<ruby>風土<rt>ふうど</rt></ruby>"
+          "横柄",
+          "誠実",
+          "不誠実",
+          "無責任"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-07-024"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な状況が続いている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "コーヒー",
-          "<ruby>通過<rt>つうか</rt></ruby>",
-          "<ruby>政策<rt>せいさく</rt></ruby>",
-          "<ruby>来年<rt>らいねん</rt></ruby>"
+          "安定",
+          "簡単",
+          "困難",
+          "順調"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-07-025"
       },
       {
@@ -11757,145 +11757,145 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この問題は慎重な（　）が必要です。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>笑い<rt>わらい</rt></ruby>",
-          "<ruby>近づける<rt>ちかづける</rt></ruby>",
-          "<ruby>授業<rt>じゅぎょう</rt></ruby>",
-          "<ruby>知恵<rt>ちえ</rt></ruby>"
+          "散歩",
+          "対応",
+          "掃除",
+          "買い物"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-08-015"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "会議で（　）を述べた。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>冬<rt>ふゆ</rt></ruby>",
-          "クラス",
-          "<ruby>謝る<rt>あやまる</rt></ruby>",
-          "<ruby>話しかける<rt>はなしかける</rt></ruby>"
+          "料理",
+          "洗濯",
+          "説明",
+          "運動"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-08-016"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "計画を（　）必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>教科書<rt>きょうかしょ</rt></ruby>",
-          "<ruby>商業<rt>しょうぎょう</rt></ruby>",
-          "<ruby>出社する<rt>しゅっしゃする</rt></ruby>",
-          "<ruby>最後に<rt>さいごに</rt></ruby>"
+          "洗濯する",
+          "修正",
+          "料理する",
+          "散歩する"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-08-017"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "プロジェクトの（　）を担当している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>悪い<rt>わるい</rt></ruby>",
-          "<ruby>文句<rt>もんく</rt></ruby>",
-          "はさみ",
-          "<ruby>進める<rt>すすめる</rt></ruby>"
+          "掃除",
+          "洗濯",
+          "運営",
+          "散歩"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-08-018"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "契約の（　）を確認した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>店員<rt>てんいん</rt></ruby>",
-          "<ruby>教授<rt>きょうじゅ</rt></ruby>",
-          "<ruby>道<rt>どう</rt></ruby>",
-          "<ruby>散歩<rt>さんぽ</rt></ruby>"
+          "料理",
+          "期間",
+          "散歩",
+          "掃除"
         ],
         "answer": 1,
         "id": "N3-08-019"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "環境（　）が深刻になっている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>熱<rt>ねつ</rt></ruby>",
-          "<ruby>薬局<rt>やっきょく</rt></ruby>",
-          "<ruby>騒がしい<rt>さわがしい</rt></ruby>",
-          "<ruby>広さ<rt>ひろさ</rt></ruby>"
+          "散歩",
+          "料理",
+          "汚染",
+          "運動"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-08-020"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "経済（　）が回復している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "たいてい",
-          "うどん",
-          "<ruby>見かける<rt>みかける</rt></ruby>",
-          "<ruby>権<rt>けん</rt></ruby>"
+          "料理",
+          "掃除",
+          "発展",
+          "洗濯"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-08-021"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "社会（　）に貢献したい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>会う<rt>あう</rt></ruby>",
-          "<ruby>夏<rt>なつ</rt></ruby>",
-          "<ruby>何となく<rt>なんとなく</rt></ruby>",
-          "<ruby>海外<rt>かいがい</rt></ruby>"
+          "福祉",
+          "運動",
+          "料理",
+          "洗濯"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-08-022"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）は素晴らしい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>別<rt>べつ</rt></ruby>",
-          "<ruby>機会<rt>きかい</rt></ruby>",
-          "<ruby>技能<rt>ぎのう</rt></ruby>",
-          "<ruby>有利<rt>ゆうり</rt></ruby>"
+          "散歩",
+          "料理",
+          "掃除",
+          "能力"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-08-023"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼女の（　）な態度に感心した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>湖<rt>みずうみ</rt></ruby>",
-          "<ruby>肉類<rt>にくるい</rt></ruby>",
-          "<ruby>出る<rt>でる</rt></ruby>",
-          "<ruby>休憩室<rt>きゅうけいしつ</rt></ruby>"
+          "無責任",
+          "不誠実",
+          "誠実",
+          "不真面目"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-08-024"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な状況が続いている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>踊り<rt>おどり</rt></ruby>",
-          "<ruby>見守る<rt>みまもる</rt></ruby>",
-          "<ruby>七つ<rt>ななつ</rt></ruby>",
-          "<ruby>定める<rt>さだめる</rt></ruby>"
+          "深刻",
+          "安定",
+          "順調",
+          "簡単"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-08-025"
       },
       {
@@ -13409,143 +13409,143 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この問題は慎重な（　）が必要です。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>理解する<rt>りかいする</rt></ruby>",
-          "ジュース",
-          "<ruby>最中<rt>さいちゅう</rt></ruby>",
-          "<ruby>書く<rt>かく</rt></ruby>"
+          "買い物",
+          "料理",
+          "洗濯",
+          "判断"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-09-015"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "会議で（　）を述べた。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "あそこ",
-          "<ruby>決まり<rt>きまり</rt></ruby>",
-          "<ruby>駅前<rt>えきまえ</rt></ruby>",
-          "<ruby>売る<rt>うる</rt></ruby>"
+          "洗濯",
+          "運動",
+          "提案",
+          "料理"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-09-016"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "計画を（　）必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>叫ぶ<rt>さけぶ</rt></ruby>",
-          "<ruby>準備する<rt>じゅんびする</rt></ruby>",
-          "<ruby>活力<rt>かつりょく</rt></ruby>",
-          "うどん"
+          "料理する",
+          "洗濯する",
+          "散歩する",
+          "改善"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-09-017"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "プロジェクトの（　）を担当している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>単に<rt>たんに</rt></ruby>",
-          "<ruby>角度<rt>かくど</rt></ruby>",
-          "<ruby>無数<rt>むすう</rt></ruby>",
-          "<ruby>地方<rt>ちほう</rt></ruby>"
+          "散歩",
+          "掃除",
+          "管理",
+          "料理"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-09-018"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "契約の（　）を確認した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>手<rt>て</rt></ruby>",
-          "<ruby>密<rt>みつ</rt></ruby>",
-          "<ruby>民間<rt>みんかん</rt></ruby>",
-          "<ruby>壊す<rt>こわす</rt></ruby>"
+          "条件",
+          "散歩",
+          "洗濯",
+          "料理"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-09-019"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "環境（　）が深刻になっている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "なる",
-          "スマートフォン",
-          "プール",
-          "<ruby>草<rt>くさ</rt></ruby>"
+          "散歩",
+          "破壊",
+          "洗濯",
+          "運動"
         ],
         "answer": 1,
         "id": "N3-09-020"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "経済（　）が回復している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>国道<rt>こくどう</rt></ruby>",
-          "<ruby>大<rt>だい</rt></ruby>",
-          "<ruby>発行<rt>はっこう</rt></ruby>",
-          "<ruby>魚屋<rt>さかなや</rt></ruby>"
+          "状況",
+          "洗濯",
+          "掃除",
+          "料理"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-09-021"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "社会（　）に貢献したい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>例<rt>たとえ</rt></ruby>",
-          "いつも",
-          "<ruby>魚介類<rt>ぎょかいるい</rt></ruby>",
-          "こぼす"
+          "掃除",
+          "料理",
+          "活動",
+          "洗濯"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-09-022"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）は素晴らしい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>運賃<rt>うんちん</rt></ruby>",
-          "<ruby>機会<rt>きかい</rt></ruby>",
-          "<ruby>外観<rt>がいかん</rt></ruby>",
-          "<ruby>運輸業<rt>うんゆぎょう</rt></ruby>"
+          "洗濯",
+          "散歩",
+          "実力",
+          "掃除"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-09-023"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼女の（　）な態度に感心した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>済む<rt>すむ</rt></ruby>",
-          "<ruby>丸<rt>まる</rt></ruby>",
-          "<ruby>月<rt>つき</rt></ruby>",
-          "<ruby>出口<rt>でぐち</rt></ruby>"
+          "横柄",
+          "丁寧",
+          "無責任",
+          "不真面目"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-09-024"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な状況が続いている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>お帰りになる<rt>おかえりになる</rt></ruby>",
-          "<ruby>政治<rt>せいじ</rt></ruby>",
-          "カーディガン",
-          "どのくらい"
+          "簡単",
+          "順調",
+          "楽",
+          "厳しい"
         ],
         "answer": 3,
         "id": "N3-09-025"
@@ -15061,143 +15061,143 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この問題は慎重な（　）が必要です。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>権利<rt>けんり</rt></ruby>",
-          "<ruby>完全<rt>かんぜん</rt></ruby>",
-          "<ruby>都市<rt>とし</rt></ruby>",
-          "<ruby>製造<rt>せいぞう</rt></ruby>"
+          "散歩",
+          "掃除",
+          "買い物",
+          "対応"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-10-015"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "会議で（　）を述べた。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>学問<rt>がくもん</rt></ruby>",
-          "<ruby>大使<rt>たいし</rt></ruby>",
-          "<ruby>世間<rt>せけん</rt></ruby>",
-          "<ruby>接触<rt>せっしょく</rt></ruby>"
+          "運動",
+          "料理",
+          "提案",
+          "洗濯"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-10-016"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "計画を（　）必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "だから",
-          "じっと",
-          "ワイン",
-          "<ruby>懐かしい<rt>なつかしい</rt></ruby>"
+          "料理する",
+          "修正",
+          "洗濯する",
+          "散歩する"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-10-017"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "プロジェクトの（　）を担当している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "エレベーター",
-          "<ruby>味覚<rt>みかく</rt></ruby>",
-          "<ruby>大半<rt>たいはん</rt></ruby>",
-          "スリッパ"
+          "散歩",
+          "料理",
+          "進行",
+          "洗濯"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-10-018"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "契約の（　）を確認した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>死ぬ<rt>しぬ</rt></ruby>",
-          "<ruby>聞こえる<rt>きこえる</rt></ruby>",
-          "なる",
-          "<ruby>売買<rt>ばいばい</rt></ruby>"
+          "散歩",
+          "料理",
+          "詳細",
+          "洗濯"
         ],
         "answer": 2,
         "id": "N3-10-019"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "環境（　）が深刻になっている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "ダイエット",
-          "<ruby>変わり<rt>かわり</rt></ruby>",
-          "<ruby>確認する<rt>かくにんする</rt></ruby>",
-          "<ruby>社交的<rt>しゃこうてき</rt></ruby>"
+          "散歩",
+          "汚染",
+          "洗濯",
+          "運動"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-10-020"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "経済（　）が回復している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>港<rt>みなと</rt></ruby>",
-          "<ruby>大げさ<rt>おおげさ</rt></ruby>",
-          "<ruby>態度<rt>たいど</rt></ruby>",
-          "<ruby>穴<rt>あな</rt></ruby>"
+          "料理",
+          "状況",
+          "洗濯",
+          "掃除"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-10-021"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "社会（　）に貢献したい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>二つ<rt>ふたつ</rt></ruby>",
-          "<ruby>台数<rt>だいすう</rt></ruby>",
-          "<ruby>事務員<rt>じむいん</rt></ruby>",
-          "<ruby>鬼<rt>おに</rt></ruby>"
+          "問題",
+          "洗濯",
+          "運動",
+          "料理"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-10-022"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）は素晴らしい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>お断り<rt>おことわり</rt></ruby>",
-          "なお",
-          "きっと",
-          "<ruby>路線<rt>ろせん</rt></ruby>"
+          "掃除",
+          "技術",
+          "散歩",
+          "料理"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-10-023"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼女の（　）な態度に感心した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>講義<rt>こうぎ</rt></ruby>",
-          "<ruby>仕上がる<rt>しあがる</rt></ruby>",
-          "<ruby>公民館<rt>こうみんかん</rt></ruby>",
-          "キャンプ"
+          "無責任",
+          "不真面目",
+          "真剣",
+          "横柄"
         ],
         "answer": 2,
         "id": "N3-10-024"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な状況が続いている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>読む<rt>よむ</rt></ruby>",
-          "<ruby>先<rt>さき</rt></ruby>",
-          "<ruby>狭い<rt>せまい</rt></ruby>",
-          "<ruby>遅い<rt>おそい</rt></ruby>"
+          "順調",
+          "深刻",
+          "安定",
+          "楽"
         ],
         "answer": 1,
         "id": "N3-10-025"
@@ -16713,145 +16713,145 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この問題は慎重な（　）が必要です。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>銀<rt>ぎん</rt></ruby>",
-          "<ruby>通信<rt>つうしん</rt></ruby>",
-          "<ruby>鉄道<rt>てつどう</rt></ruby>",
-          "<ruby>隠す<rt>かくす</rt></ruby>"
+          "洗濯",
+          "買い物",
+          "散歩",
+          "検討"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-11-015"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "会議で（　）を述べた。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>郊外<rt>こうがい</rt></ruby>",
-          "<ruby>六つ<rt>むっつ</rt></ruby>",
-          "<ruby>急<rt>きゅう</rt></ruby>",
-          "<ruby>対人<rt>たいじん</rt></ruby>"
+          "料理",
+          "意見",
+          "散歩",
+          "洗濯"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-11-016"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "計画を（　）必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>下がる<rt>さがる</rt></ruby>",
-          "<ruby>助かる<rt>たすかる</rt></ruby>",
-          "<ruby>浅くなる<rt>あさくなる</rt></ruby>",
-          "<ruby>典<rt>てん</rt></ruby>"
+          "洗濯する",
+          "掃除する",
+          "料理する",
+          "修正"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-11-017"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "プロジェクトの（　）を担当している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>懐かしい<rt>なつかしい</rt></ruby>",
-          "<ruby>出発する<rt>しゅっぱつする</rt></ruby>",
-          "<ruby>体育館<rt>たいいくかん</rt></ruby>",
-          "<ruby>発売<rt>はつばい</rt></ruby>"
+          "料理",
+          "散歩",
+          "掃除",
+          "進行"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-11-018"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "契約の（　）を確認した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>届け物<rt>とどけもの</rt></ruby>",
-          "<ruby>貝<rt>かい</rt></ruby>",
-          "<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>頑固<rt>がんこ</rt></ruby>"
+          "散歩",
+          "料理",
+          "運動",
+          "詳細"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-11-019"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "環境（　）が深刻になっている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>バーベキュー場<rt>ばーべきゅーじょう</rt></ruby>",
-          "<ruby>神経<rt>しんけい</rt></ruby>",
-          "<ruby>現金<rt>げんきん</rt></ruby>",
-          "<ruby>剣道<rt>けんどう</rt></ruby>"
+          "料理",
+          "破壊",
+          "洗濯",
+          "散歩"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-11-020"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "経済（　）が回復している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>缶<rt>かん</rt></ruby>",
-          "<ruby>冷める<rt>さめる</rt></ruby>",
-          "<ruby>留学<rt>りゅうがく</rt></ruby>",
-          "<ruby>民間<rt>みんかん</rt></ruby>"
+          "散歩",
+          "洗濯",
+          "成長",
+          "料理"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-11-021"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "社会（　）に貢献したい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>終日<rt>しゅうじつ</rt></ruby>",
-          "<ruby>季節<rt>きせつ</rt></ruby>",
-          "<ruby>予報<rt>よほう</rt></ruby>",
-          "<ruby>情報<rt>じょうほう</rt></ruby>"
+          "掃除",
+          "運動",
+          "活動",
+          "洗濯"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-11-022"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）は素晴らしい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>抜ける<rt>ぬける</rt></ruby>",
-          "<ruby>経営<rt>けいえい</rt></ruby>",
-          "<ruby>世代<rt>せだい</rt></ruby>",
-          "<ruby>最後<rt>さいご</rt></ruby>"
+          "料理",
+          "洗濯",
+          "散歩",
+          "実力"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-11-023"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼女の（　）な態度に感心した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>修正液<rt>しゅうせいえき</rt></ruby>",
-          "<ruby>残業<rt>ざんぎょう</rt></ruby>",
-          "<ruby>決して<rt>けっして</rt></ruby>",
-          "<ruby>年度<rt>ねんど</rt></ruby>"
+          "真剣",
+          "不真面目",
+          "横柄",
+          "無責任"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-11-024"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な状況が続いている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>軽い<rt>かるい</rt></ruby>",
-          "<ruby>在庫を聞く<rt>ざいこをきく</rt></ruby>",
-          "<ruby>眠る<rt>ねむる</rt></ruby>",
-          "<ruby>終始<rt>しゅうし</rt></ruby>"
+          "楽",
+          "安定",
+          "厳しい",
+          "順調"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-11-025"
       },
       {
@@ -18365,145 +18365,145 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この問題は慎重な（　）が必要です。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>ゴルフ場<rt>ごるふじょう</rt></ruby>",
-          "<ruby>地下室<rt>ちかしつ</rt></ruby>",
-          "さらに",
-          "きっと"
+          "買い物",
+          "掃除",
+          "判断",
+          "散歩"
         ],
         "answer": 2,
         "id": "N3-12-015"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "会議で（　）を述べた。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>温暖<rt>おんだん</rt></ruby>",
-          "リビング",
-          "<ruby>追いかける<rt>おいかける</rt></ruby>",
-          "<ruby>女性<rt>じょせい</rt></ruby>"
+          "洗濯",
+          "意見",
+          "料理",
+          "運動"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-12-016"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "計画を（　）必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>有効<rt>ゆうこう</rt></ruby>",
-          "<ruby>件<rt>けん</rt></ruby>",
-          "きちんと",
-          "<ruby>弟<rt>おとうと</rt></ruby>"
+          "料理する",
+          "散歩する",
+          "改善",
+          "洗濯する"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-12-017"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "プロジェクトの（　）を担当している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "ハイキング",
-          "<ruby>学問<rt>がくもん</rt></ruby>",
-          "さようなら",
-          "うどん"
+          "洗濯",
+          "料理",
+          "企画",
+          "散歩"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-12-018"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "契約の（　）を確認した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>弟<rt>おとうと</rt></ruby>",
-          "<ruby>通信業<rt>つうしんぎょう</rt></ruby>",
-          "<ruby>打つ<rt>ぶつ</rt></ruby>",
-          "<ruby>玄関<rt>げんかん</rt></ruby>"
+          "料理",
+          "洗濯",
+          "条件",
+          "運動"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-12-019"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "環境（　）が深刻になっている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>貢献<rt>こうけん</rt></ruby>",
-          "<ruby>出張する<rt>しゅっちょうする</rt></ruby>",
-          "<ruby>医者<rt>いしゃ</rt></ruby>",
-          "<ruby>洋服<rt>ようふく</rt></ruby>"
+          "運動",
+          "散歩",
+          "破壊",
+          "料理"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-12-020"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "経済（　）が回復している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>物事<rt>ものごと</rt></ruby>",
-          "<ruby>組む<rt>くむ</rt></ruby>",
-          "<ruby>発展<rt>はってん</rt></ruby>",
-          "<ruby>汚す<rt>よごす</rt></ruby>"
+          "散歩",
+          "状況",
+          "掃除",
+          "洗濯"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-12-021"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "社会（　）に貢献したい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>久しぶり<rt>ひさしぶり</rt></ruby>",
-          "リンス",
-          "<ruby>路線図<rt>ろせんず</rt></ruby>",
-          "<ruby>互い<rt>たがい</rt></ruby>"
+          "運動",
+          "福祉",
+          "料理",
+          "掃除"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-12-022"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）は素晴らしい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>駅<rt>えき</rt></ruby>",
-          "<ruby>機能<rt>きのう</rt></ruby>",
-          "<ruby>休む<rt>やすむ</rt></ruby>",
-          "<ruby>送別<rt>そうべつ</rt></ruby>"
+          "努力",
+          "散歩",
+          "洗濯",
+          "料理"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-12-023"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼女の（　）な態度に感心した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>心<rt>こころ</rt></ruby>",
-          "のど",
-          "<ruby>靴下<rt>くつした</rt></ruby>",
-          "<ruby>バーベキュー場<rt>ばーべきゅーじょう</rt></ruby>"
+          "不誠実",
+          "不真面目",
+          "横柄",
+          "真剣"
         ],
         "answer": 3,
         "id": "N3-12-024"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な状況が続いている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>車道<rt>しゃどう</rt></ruby>",
-          "<ruby>くしゃみが出る<rt>くしゃみがでる</rt></ruby>",
-          "<ruby>海岸<rt>かいがん</rt></ruby>",
-          "<ruby>政党<rt>せいとう</rt></ruby>"
+          "順調",
+          "楽",
+          "簡単",
+          "困難"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-12-025"
       },
       {
@@ -20017,143 +20017,143 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この問題は慎重な（　）が必要です。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>特性<rt>とくせい</rt></ruby>",
-          "<ruby>同い年<rt>おないどし</rt></ruby>",
-          "<ruby>限界<rt>げんかい</rt></ruby>",
-          "<ruby>像<rt>ぞう</rt></ruby>"
+          "掃除",
+          "洗濯",
+          "分析",
+          "散歩"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-13-015"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "会議で（　）を述べた。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>先生<rt>せんせい</rt></ruby>",
-          "<ruby>相場<rt>そうば</rt></ruby>",
-          "<ruby>特別<rt>とくべつ</rt></ruby>",
-          "<ruby>現場<rt>げんば</rt></ruby>"
+          "意見",
+          "洗濯",
+          "散歩",
+          "掃除"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-13-016"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "計画を（　）必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>病気<rt>びょうき</rt></ruby>",
-          "<ruby>貢献<rt>こうけん</rt></ruby>",
-          "だらだらする",
-          "<ruby>学校<rt>がっこう</rt></ruby>"
+          "料理する",
+          "修正",
+          "掃除する",
+          "散歩する"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-13-017"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "プロジェクトの（　）を担当している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>半分<rt>はんぶん</rt></ruby>",
-          "<ruby>気に入る<rt>きにいる</rt></ruby>",
-          "<ruby>辞書<rt>じしょ</rt></ruby>",
-          "<ruby>電池<rt>でんち</rt></ruby>"
+          "洗濯",
+          "掃除",
+          "進行",
+          "散歩"
         ],
         "answer": 2,
         "id": "N3-13-018"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "契約の（　）を確認した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>縁<rt>えん</rt></ruby>",
-          "<ruby>踏む<rt>ふむ</rt></ruby>",
-          "<ruby>勝利<rt>しょうり</rt></ruby>",
-          "<ruby>手<rt>て</rt></ruby>"
+          "条件",
+          "料理",
+          "運動",
+          "掃除"
         ],
         "answer": 0,
         "id": "N3-13-019"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "環境（　）が深刻になっている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>打ち合わせる<rt>うちあわせる</rt></ruby>",
-          "<ruby>明日の朝<rt>あしたのあさ</rt></ruby>",
-          "<ruby>構う<rt>かまう</rt></ruby>",
-          "<ruby>風土<rt>ふうど</rt></ruby>"
+          "汚染",
+          "散歩",
+          "運動",
+          "洗濯"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-13-020"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "経済（　）が回復している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>半分<rt>はんぶん</rt></ruby>",
-          "<ruby>難しい<rt>むずかしい</rt></ruby>",
-          "コンビニ",
-          "<ruby>知らせる<rt>しらせる</rt></ruby>"
+          "状況",
+          "掃除",
+          "洗濯",
+          "料理"
         ],
         "answer": 0,
         "id": "N3-13-021"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "社会（　）に貢献したい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>文字<rt>もじ</rt></ruby>",
-          "<ruby>今に<rt>いまに</rt></ruby>",
-          "<ruby>典<rt>てん</rt></ruby>",
-          "<ruby>通信業<rt>つうしんぎょう</rt></ruby>"
+          "運動",
+          "料理",
+          "活動",
+          "洗濯"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-13-022"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）は素晴らしい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>全く<rt>まったく</rt></ruby>",
-          "<ruby>救う<rt>すくう</rt></ruby>",
-          "やや",
-          "<ruby>伸びる<rt>のびる</rt></ruby>"
+          "掃除",
+          "能力",
+          "散歩",
+          "洗濯"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-13-023"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼女の（　）な態度に感心した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>輸入<rt>ゆにゅう</rt></ruby>",
-          "すっかり",
-          "<ruby>主義<rt>しゅぎ</rt></ruby>",
-          "<ruby>寄る<rt>よる</rt></ruby>"
+          "不真面目",
+          "横柄",
+          "無責任",
+          "誠実"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-13-024"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な状況が続いている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>攻撃<rt>こうげき</rt></ruby>",
-          "<ruby>急激<rt>きゅうげき</rt></ruby>",
-          "<ruby>映画を見る<rt>えいがをみる</rt></ruby>",
-          "<ruby>本数<rt>ほんすう</rt></ruby>"
+          "順調",
+          "安定",
+          "困難",
+          "簡単"
         ],
         "answer": 2,
         "id": "N3-13-025"
@@ -21669,143 +21669,143 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この問題は慎重な（　）が必要です。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>勝ち<rt>かち</rt></ruby>",
-          "こちら",
-          "ダム",
-          "<ruby>休日<rt>きゅうじつ</rt></ruby>"
+          "料理",
+          "買い物",
+          "掃除",
+          "対応"
         ],
         "answer": 3,
         "id": "N3-14-015"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "会議で（　）を述べた。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>建てる<rt>たてる</rt></ruby>",
-          "<ruby>靴<rt>くつ</rt></ruby>",
-          "<ruby>自転車<rt>じてんしゃ</rt></ruby>",
-          "<ruby>輸出<rt>ゆしゅつ</rt></ruby>"
+          "洗濯",
+          "運動",
+          "報告",
+          "散歩"
         ],
         "answer": 2,
         "id": "N3-14-016"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "計画を（　）必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>件数<rt>けんすう</rt></ruby>",
-          "<ruby>急ぐ<rt>いそぐ</rt></ruby>",
-          "<ruby>学ぶ<rt>まなぶ</rt></ruby>",
-          "<ruby>時計<rt>とけい</rt></ruby>"
+          "料理する",
+          "掃除する",
+          "修正",
+          "散歩する"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-14-017"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "プロジェクトの（　）を担当している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>例年<rt>れいねん</rt></ruby>",
-          "<ruby>思いつく<rt>おもいつく</rt></ruby>",
-          "<ruby>騒音<rt>そうおん</rt></ruby>",
-          "<ruby>雪が降る<rt>ゆきがふる</rt></ruby>"
+          "料理",
+          "掃除",
+          "洗濯",
+          "運営"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-14-018"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "契約の（　）を確認した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>行く<rt>いく</rt></ruby>",
-          "<ruby>パン屋<rt>ぱんや</rt></ruby>",
-          "<ruby>晩ご飯<rt>ばんごはん</rt></ruby>",
-          "<ruby>義理の姉<rt>ぎりのあね</rt></ruby>"
+          "洗濯",
+          "運動",
+          "期間",
+          "散歩"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-14-019"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "環境（　）が深刻になっている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>地図<rt>ちず</rt></ruby>",
-          "<ruby>気圧<rt>きあつ</rt></ruby>",
-          "<ruby>含む<rt>ふくむ</rt></ruby>",
-          "<ruby>文句<rt>もんく</rt></ruby>"
+          "散歩",
+          "運動",
+          "汚染",
+          "洗濯"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-14-020"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "経済（　）が回復している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "ホーム",
-          "<ruby>値段<rt>ねだん</rt></ruby>",
-          "<ruby>意識<rt>いしき</rt></ruby>",
-          "<ruby>職務<rt>しょくむ</rt></ruby>"
+          "掃除",
+          "洗濯",
+          "散歩",
+          "状況"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-14-021"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "社会（　）に貢献したい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>散歩<rt>さんぽ</rt></ruby>",
-          "ちょっと",
-          "<ruby>気づく<rt>きづく</rt></ruby>",
-          "さっぱり"
+          "福祉",
+          "運動",
+          "洗濯",
+          "料理"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-14-022"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）は素晴らしい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>移動<rt>いどう</rt></ruby>",
-          "カラー",
-          "<ruby>何十<rt>なんじゅう</rt></ruby>",
-          "<ruby>魚介類<rt>ぎょかいるい</rt></ruby>"
+          "努力",
+          "料理",
+          "洗濯",
+          "散歩"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-14-023"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼女の（　）な態度に感心した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>質問する<rt>しつもんする</rt></ruby>",
-          "キャンセルする",
-          "エアコン",
-          "<ruby>野球場<rt>やきゅうじょう</rt></ruby>"
+          "丁寧",
+          "不誠実",
+          "不真面目",
+          "無責任"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-14-024"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な状況が続いている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "パン",
-          "<ruby>影<rt>かげ</rt></ruby>",
-          "する",
-          "<ruby>確信<rt>かくしん</rt></ruby>"
+          "安定",
+          "楽",
+          "不安定",
+          "簡単"
         ],
         "answer": 2,
         "id": "N3-14-025"
@@ -23321,145 +23321,145 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この問題は慎重な（　）が必要です。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "すっかり",
-          "<ruby>運行<rt>うんこう</rt></ruby>",
-          "テーブル",
-          "<ruby>留学<rt>りゅうがく</rt></ruby>"
+          "散歩",
+          "料理",
+          "洗濯",
+          "分析"
         ],
         "answer": 3,
         "id": "N3-15-015"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "会議で（　）を述べた。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>中継地<rt>ちゅうけいち</rt></ruby>",
-          "<ruby>行事<rt>ぎょうじ</rt></ruby>",
-          "<ruby>規則<rt>きそく</rt></ruby>",
-          "<ruby>現場<rt>げんば</rt></ruby>"
+          "掃除",
+          "運動",
+          "洗濯",
+          "提案"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-15-016"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "計画を（　）必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>段<rt>だん</rt></ruby>",
-          "<ruby>科目<rt>かもく</rt></ruby>",
-          "<ruby>偉い<rt>えらい</rt></ruby>",
-          "くつろぐ"
+          "改善",
+          "洗濯する",
+          "散歩する",
+          "料理する"
         ],
         "answer": 0,
         "id": "N3-15-017"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "プロジェクトの（　）を担当している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>丸い<rt>まるい</rt></ruby>",
-          "はっきり",
-          "<ruby>留守番<rt>るすばん</rt></ruby>",
-          "<ruby>サービス業<rt>さーびすぎょう</rt></ruby>"
+          "散歩",
+          "洗濯",
+          "管理",
+          "料理"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-15-018"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "契約の（　）を確認した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>最小<rt>さいしょう</rt></ruby>",
-          "<ruby>割る<rt>わる</rt></ruby>",
-          "<ruby>観光<rt>かんこう</rt></ruby>",
-          "<ruby>抜ける<rt>ぬける</rt></ruby>"
+          "散歩",
+          "運動",
+          "内容",
+          "料理"
         ],
         "answer": 2,
         "id": "N3-15-019"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "環境（　）が深刻になっている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>資産<rt>しさん</rt></ruby>",
-          "<ruby>中間<rt>ちゅうかん</rt></ruby>",
-          "<ruby>発見<rt>はっけん</rt></ruby>",
-          "ハサミ"
+          "洗濯",
+          "汚染",
+          "散歩",
+          "料理"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-15-020"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "経済（　）が回復している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>卸売業<rt>おろしうりぎょう</rt></ruby>",
-          "<ruby>目覚める<rt>めざめる</rt></ruby>",
-          "<ruby>貸し出す<rt>かしだす</rt></ruby>",
-          "<ruby>場所<rt>ばしょ</rt></ruby>"
+          "状況",
+          "散歩",
+          "洗濯",
+          "料理"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-15-021"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "社会（　）に貢献したい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>涼しくなる<rt>すずしくなる</rt></ruby>",
-          "<ruby>悩む<rt>なやむ</rt></ruby>",
-          "つまり",
-          "<ruby>首<rt>くび</rt></ruby>"
+          "洗濯",
+          "掃除",
+          "福祉",
+          "料理"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-15-022"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）は素晴らしい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "アドバイスする",
-          "<ruby>社会<rt>しゃかい</rt></ruby>",
-          "<ruby>書き留める<rt>かきとめる</rt></ruby>",
-          "じっと"
+          "散歩",
+          "実力",
+          "掃除",
+          "洗濯"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-15-023"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼女の（　）な態度に感心した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>角<rt>つの</rt></ruby>",
-          "いくつ",
-          "<ruby>人気<rt>にんき</rt></ruby>",
-          "<ruby>接触<rt>せっしょく</rt></ruby>"
+          "不誠実",
+          "丁寧",
+          "無責任",
+          "不真面目"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-15-024"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な状況が続いている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "エレベーター",
-          "<ruby>汚れる<rt>よごれる</rt></ruby>",
-          "<ruby>電化製品<rt>でんかせいひん</rt></ruby>",
-          "<ruby>皆<rt>みんな</rt></ruby>"
+          "順調",
+          "簡単",
+          "厳しい",
+          "安定"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-15-025"
       },
       {
@@ -24973,145 +24973,145 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この問題は慎重な（　）が必要です。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "たった",
-          "<ruby>学部<rt>がくぶ</rt></ruby>",
-          "<ruby>進化<rt>しんか</rt></ruby>",
-          "<ruby>社交<rt>しゃこう</rt></ruby>"
+          "買い物",
+          "判断",
+          "洗濯",
+          "散歩"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-16-015"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "会議で（　）を述べた。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>枯れる<rt>かれる</rt></ruby>",
-          "<ruby>届け出<rt>とどけで</rt></ruby>",
-          "<ruby>分かる<rt>わかる</rt></ruby>",
-          "<ruby>食べ物<rt>たべもの</rt></ruby>"
+          "運動",
+          "洗濯",
+          "意見",
+          "散歩"
         ],
         "answer": 2,
         "id": "N3-16-016"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "計画を（　）必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>足首<rt>あしくび</rt></ruby>",
-          "<ruby>スキー場<rt>すきーじょう</rt></ruby>",
-          "ベッド",
-          "<ruby>永久<rt>えいきゅう</rt></ruby>"
+          "掃除する",
+          "料理する",
+          "修正",
+          "散歩する"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-16-017"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "プロジェクトの（　）を担当している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "リハーサル",
-          "<ruby>品質<rt>ひんしつ</rt></ruby>",
-          "<ruby>国語<rt>こくご</rt></ruby>",
-          "<ruby>成績<rt>せいせき</rt></ruby>"
+          "料理",
+          "掃除",
+          "散歩",
+          "管理"
         ],
         "answer": 3,
         "id": "N3-16-018"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "契約の（　）を確認した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "ペットショップ",
-          "<ruby>支度<rt>したく</rt></ruby>",
-          "<ruby>疑う<rt>うたがう</rt></ruby>",
-          "<ruby>一度に<rt>いちどに</rt></ruby>"
+          "洗濯",
+          "掃除",
+          "期間",
+          "料理"
         ],
         "answer": 2,
         "id": "N3-16-019"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "環境（　）が深刻になっている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>引退<rt>いんたい</rt></ruby>",
-          "ハサミ",
-          "<ruby>体温<rt>たいおん</rt></ruby>",
-          "<ruby>危機<rt>きき</rt></ruby>"
+          "破壊",
+          "料理",
+          "洗濯",
+          "散歩"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-16-020"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "経済（　）が回復している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>靴<rt>くつ</rt></ruby>",
-          "<ruby>見下ろす<rt>みおろす</rt></ruby>",
-          "<ruby>方向<rt>ほうこう</rt></ruby>",
-          "<ruby>都市<rt>とし</rt></ruby>"
+          "掃除",
+          "料理",
+          "洗濯",
+          "成長"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-16-021"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "社会（　）に貢献したい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>小説<rt>しょうせつ</rt></ruby>",
-          "<ruby>個数<rt>こすう</rt></ruby>",
-          "<ruby>木<rt>き</rt></ruby>",
-          "<ruby>判明<rt>はんめい</rt></ruby>"
+          "掃除",
+          "料理",
+          "活動",
+          "運動"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-16-022"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）は素晴らしい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>見守る<rt>みまもる</rt></ruby>",
-          "<ruby>乗り換え<rt>のりかえ</rt></ruby>",
-          "<ruby>泥<rt>どろ</rt></ruby>",
-          "<ruby>関心<rt>かんしん</rt></ruby>"
+          "料理",
+          "掃除",
+          "才能",
+          "散歩"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-16-023"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼女の（　）な態度に感心した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>三つ<rt>みっつ</rt></ruby>",
-          "<ruby>下着<rt>したぎ</rt></ruby>",
-          "<ruby>体験<rt>たいけん</rt></ruby>",
-          "トランペット"
+          "無責任",
+          "不真面目",
+          "横柄",
+          "親切"
         ],
         "answer": 3,
         "id": "N3-16-024"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な状況が続いている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "なお",
-          "<ruby>天<rt>てん</rt></ruby>",
-          "<ruby>赤字<rt>あかじ</rt></ruby>",
-          "<ruby>鋭い<rt>するどい</rt></ruby>"
+          "順調",
+          "楽",
+          "困難",
+          "簡単"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-16-025"
       },
       {
@@ -26625,143 +26625,143 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この問題は慎重な（　）が必要です。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>行動<rt>こうどう</rt></ruby>",
-          "<ruby>法案<rt>ほうあん</rt></ruby>",
-          "<ruby>最終<rt>さいしゅう</rt></ruby>",
-          "<ruby>発言<rt>はつげん</rt></ruby>"
+          "洗濯",
+          "掃除",
+          "対応",
+          "散歩"
         ],
         "answer": 2,
         "id": "N3-17-015"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "会議で（　）を述べた。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "レポート",
-          "<ruby>特徴<rt>とくちょう</rt></ruby>",
-          "<ruby>体温<rt>たいおん</rt></ruby>",
-          "<ruby>終始<rt>しゅうし</rt></ruby>"
+          "散歩",
+          "掃除",
+          "料理",
+          "説明"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-17-016"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "計画を（　）必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>大人<rt>おとな</rt></ruby>",
-          "<ruby>打ち合わせる<rt>うちあわせる</rt></ruby>",
-          "ところが",
-          "<ruby>魚屋<rt>さかなや</rt></ruby>"
+          "改善",
+          "掃除する",
+          "洗濯する",
+          "散歩する"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-17-017"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "プロジェクトの（　）を担当している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>固い<rt>かたい</rt></ruby>",
-          "スイーツ",
-          "<ruby>岩<rt>いわ</rt></ruby>",
-          "リビング"
+          "散歩",
+          "掃除",
+          "企画",
+          "料理"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-17-018"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "契約の（　）を確認した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>伸びる<rt>のびる</rt></ruby>",
-          "めまい",
-          "<ruby>通学<rt>つうがく</rt></ruby>",
-          "プリンター"
+          "洗濯",
+          "運動",
+          "料理",
+          "詳細"
         ],
         "answer": 3,
         "id": "N3-17-019"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "環境（　）が深刻になっている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>謝罪<rt>しゃざい</rt></ruby>",
-          "<ruby>活気<rt>かっき</rt></ruby>",
-          "<ruby>合計<rt>ごうけい</rt></ruby>",
-          "<ruby>洗顔<rt>せんがん</rt></ruby>"
+          "破壊",
+          "洗濯",
+          "散歩",
+          "料理"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-17-020"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "経済（　）が回復している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>差す<rt>さす</rt></ruby>",
-          "なぜ",
-          "<ruby>降ろす<rt>おろす</rt></ruby>",
-          "すぐ"
+          "洗濯",
+          "発展",
+          "料理",
+          "散歩"
         ],
         "answer": 1,
         "id": "N3-17-021"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "社会（　）に貢献したい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>春<rt>はる</rt></ruby>",
-          "<ruby>決して<rt>けっして</rt></ruby>",
-          "<ruby>住民<rt>じゅうみん</rt></ruby>",
-          "<ruby>朝ご飯<rt>あさごはん</rt></ruby>"
+          "掃除",
+          "洗濯",
+          "福祉",
+          "料理"
         ],
         "answer": 2,
         "id": "N3-17-022"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）は素晴らしい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>出場<rt>しゅつじょう</rt></ruby>",
-          "<ruby>乗車<rt>じょうしゃ</rt></ruby>",
-          "<ruby>酸っぱい<rt>すっぱい</rt></ruby>",
-          "<ruby>値段<rt>ねだん</rt></ruby>"
+          "技術",
+          "洗濯",
+          "料理",
+          "散歩"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-17-023"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼女の（　）な態度に感心した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>お願いする<rt>おねがいする</rt></ruby>",
-          "<ruby>火山<rt>かざん</rt></ruby>",
-          "<ruby>比較<rt>ひかく</rt></ruby>",
-          "<ruby>長<rt>ちょう</rt></ruby>"
+          "不真面目",
+          "無責任",
+          "不誠実",
+          "親切"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-17-024"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な状況が続いている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>方角<rt>ほうがく</rt></ruby>",
-          "<ruby>違う<rt>ちがう</rt></ruby>",
-          "<ruby>有難い<rt>ありがたい</rt></ruby>",
-          "こだわる"
+          "楽",
+          "安定",
+          "不安定",
+          "順調"
         ],
         "answer": 2,
         "id": "N3-17-025"
@@ -28277,143 +28277,143 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この問題は慎重な（　）が必要です。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>石<rt>いし</rt></ruby>",
-          "バイク",
-          "<ruby>三角<rt>さんかく</rt></ruby>",
-          "<ruby>地元<rt>じもと</rt></ruby>"
+          "対応",
+          "買い物",
+          "散歩",
+          "洗濯"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-18-015"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "会議で（　）を述べた。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "テニス",
-          "<ruby>絶対<rt>ぜったい</rt></ruby>",
-          "<ruby>通常<rt>つうじょう</rt></ruby>",
-          "<ruby>欠ける<rt>かける</rt></ruby>"
+          "運動",
+          "提案",
+          "掃除",
+          "料理"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-18-016"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "計画を（　）必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>電器屋<rt>でんきや</rt></ruby>",
-          "<ruby>汚い<rt>きたない</rt></ruby>",
-          "<ruby>互い<rt>たがい</rt></ruby>",
-          "<ruby>少ない<rt>すくない</rt></ruby>"
+          "掃除する",
+          "見直す",
+          "料理する",
+          "散歩する"
         ],
         "answer": 1,
         "id": "N3-18-017"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "プロジェクトの（　）を担当している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>鉄棒<rt>てつぼう</rt></ruby>",
-          "<ruby>量<rt>りょう</rt></ruby>",
-          "<ruby>凍る<rt>こおる</rt></ruby>",
-          "<ruby>逆らう<rt>さからう</rt></ruby>"
+          "管理",
+          "散歩",
+          "料理",
+          "掃除"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-18-018"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "契約の（　）を確認した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>目標<rt>もくひょう</rt></ruby>",
-          "<ruby>首<rt>くび</rt></ruby>",
-          "<ruby>生活<rt>せいかつ</rt></ruby>",
-          "<ruby>働き<rt>はたらき</rt></ruby>"
+          "散歩",
+          "洗濯",
+          "詳細",
+          "運動"
         ],
         "answer": 2,
         "id": "N3-18-019"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "環境（　）が深刻になっている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>数万<rt>すうまん</rt></ruby>",
-          "<ruby>起き上がる<rt>おきあがる</rt></ruby>",
-          "<ruby>築く<rt>きずく</rt></ruby>",
-          "<ruby>毎朝<rt>まいあさ</rt></ruby>"
+          "料理",
+          "問題",
+          "運動",
+          "洗濯"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-18-020"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "経済（　）が回復している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "ファイル",
-          "<ruby>青<rt>あお</rt></ruby>",
-          "<ruby>退院<rt>たいいん</rt></ruby>",
-          "<ruby>足<rt>あし</rt></ruby>"
+          "掃除",
+          "散歩",
+          "発展",
+          "洗濯"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-18-021"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "社会（　）に貢献したい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>先日<rt>せんじつ</rt></ruby>",
-          "できる",
-          "<ruby>店員<rt>てんいん</rt></ruby>",
-          "なお"
+          "掃除",
+          "福祉",
+          "運動",
+          "洗濯"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-18-022"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）は素晴らしい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "カレー",
-          "<ruby>分割<rt>ぶんかつ</rt></ruby>",
-          "<ruby>個性<rt>こせい</rt></ruby>",
-          "<ruby>太い<rt>ふとい</rt></ruby>"
+          "才能",
+          "掃除",
+          "洗濯",
+          "料理"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-18-023"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼女の（　）な態度に感心した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>頼る<rt>たよる</rt></ruby>",
-          "<ruby>週刊<rt>しゅうかん</rt></ruby>",
-          "ウサギ",
-          "<ruby>解説<rt>かいせつ</rt></ruby>"
+          "横柄",
+          "不真面目",
+          "親切",
+          "不誠実"
         ],
         "answer": 2,
         "id": "N3-18-024"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な状況が続いている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>学者<rt>がくしゃ</rt></ruby>",
-          "<ruby>遠足<rt>えんそく</rt></ruby>",
-          "<ruby>出会う<rt>であう</rt></ruby>",
-          "<ruby>相手<rt>あいて</rt></ruby>"
+          "安定",
+          "順調",
+          "不安定",
+          "簡単"
         ],
         "answer": 2,
         "id": "N3-18-025"
@@ -29929,145 +29929,145 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この問題は慎重な（　）が必要です。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "それから",
-          "<ruby>出会う<rt>であう</rt></ruby>",
-          "<ruby>空気<rt>くうき</rt></ruby>",
-          "<ruby>作文<rt>さくぶん</rt></ruby>"
+          "買い物",
+          "散歩",
+          "洗濯",
+          "分析"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-19-015"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "会議で（　）を述べた。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>正午<rt>しょうご</rt></ruby>",
-          "<ruby>仕上げる<rt>しあげる</rt></ruby>",
-          "<ruby>魚屋<rt>さかなや</rt></ruby>",
-          "<ruby>有効<rt>ゆうこう</rt></ruby>"
+          "掃除",
+          "料理",
+          "洗濯",
+          "報告"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-19-016"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "計画を（　）必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>八百屋<rt>やおや</rt></ruby>",
-          "<ruby>週間予報<rt>しゅうかんよほう</rt></ruby>",
-          "<ruby>豊富<rt>ほうふ</rt></ruby>",
-          "<ruby>運<rt>うん</rt></ruby>"
+          "掃除する",
+          "洗濯する",
+          "修正",
+          "料理する"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-19-017"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "プロジェクトの（　）を担当している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>緩む<rt>ゆるむ</rt></ruby>",
-          "<ruby>勢い<rt>いきおい</rt></ruby>",
-          "<ruby>大学<rt>だいがく</rt></ruby>",
-          "<ruby>逆<rt>ぎゃく</rt></ruby>"
+          "進行",
+          "料理",
+          "掃除",
+          "散歩"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-19-018"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "契約の（　）を確認した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>録音<rt>ろくおん</rt></ruby>",
-          "<ruby>明朝<rt>みょうちょう</rt></ruby>",
-          "<ruby>支える<rt>ささえる</rt></ruby>",
-          "レスリング"
+          "洗濯",
+          "散歩",
+          "掃除",
+          "期間"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-19-019"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "環境（　）が深刻になっている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>収める<rt>おさめる</rt></ruby>",
-          "あちこち",
-          "<ruby>運転<rt>うんてん</rt></ruby>",
-          "メーカー"
+          "運動",
+          "料理",
+          "汚染",
+          "洗濯"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-19-020"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "経済（　）が回復している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>近い<rt>ちかい</rt></ruby>",
-          "<ruby>技術者<rt>ぎじゅつしゃ</rt></ruby>",
-          "こちら",
-          "タクシー"
+          "散歩",
+          "掃除",
+          "状況",
+          "洗濯"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-19-021"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "社会（　）に貢献したい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>酸<rt>さん</rt></ruby>",
-          "<ruby>地理<rt>ちり</rt></ruby>",
-          "<ruby>断<rt>だん</rt></ruby>",
-          "<ruby>強まる<rt>つよまる</rt></ruby>"
+          "料理",
+          "洗濯",
+          "運動",
+          "活動"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-19-022"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）は素晴らしい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>標準<rt>ひょうじゅん</rt></ruby>",
-          "<ruby>留学<rt>りゅうがく</rt></ruby>",
-          "かなり",
-          "<ruby>物理<rt>ぶつり</rt></ruby>"
+          "散歩",
+          "掃除",
+          "料理",
+          "技術"
         ],
         "answer": 3,
         "id": "N3-19-023"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼女の（　）な態度に感心した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>引退<rt>いんたい</rt></ruby>",
-          "<ruby>驚く<rt>おどろく</rt></ruby>",
-          "<ruby>適切<rt>てきせつ</rt></ruby>",
-          "だいたい"
+          "横柄",
+          "無責任",
+          "不誠実",
+          "丁寧"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-19-024"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な状況が続いている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>見る<rt>みる</rt></ruby>",
-          "<ruby>最低<rt>さいてい</rt></ruby>",
-          "<ruby>以上<rt>いじょう</rt></ruby>",
-          "<ruby>漢方薬<rt>かんぽうやく</rt></ruby>"
+          "楽",
+          "深刻",
+          "簡単",
+          "順調"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-19-025"
       },
       {
@@ -31581,143 +31581,143 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この問題は慎重な（　）が必要です。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "だから",
-          "<ruby>行動<rt>こうどう</rt></ruby>",
-          "<ruby>駆ける<rt>かける</rt></ruby>",
-          "<ruby>海外<rt>かいがい</rt></ruby>"
+          "料理",
+          "買い物",
+          "掃除",
+          "対応"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-20-015"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "会議で（　）を述べた。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "もちろん",
-          "<ruby>一戸建て<rt>いっこだて</rt></ruby>",
-          "<ruby>留学<rt>りゅうがく</rt></ruby>",
-          "<ruby>等しい<rt>ひとしい</rt></ruby>"
+          "運動",
+          "掃除",
+          "説明",
+          "洗濯"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-20-016"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "計画を（　）必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>住居<rt>じゅうきょ</rt></ruby>",
-          "<ruby>生える<rt>はえる</rt></ruby>",
-          "<ruby>同い年<rt>おないどし</rt></ruby>",
-          "<ruby>関係<rt>かんけい</rt></ruby>"
+          "掃除する",
+          "修正",
+          "散歩する",
+          "洗濯する"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-20-017"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "プロジェクトの（　）を担当している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>留学<rt>りゅうがく</rt></ruby>",
-          "<ruby>教室<rt>きょうしつ</rt></ruby>",
-          "<ruby>入る<rt>はいる</rt></ruby>",
-          "<ruby>金額<rt>きんがく</rt></ruby>"
+          "運営",
+          "料理",
+          "掃除",
+          "洗濯"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-20-018"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "契約の（　）を確認した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>幹<rt>みき</rt></ruby>",
-          "<ruby>赤い<rt>あかい</rt></ruby>",
-          "<ruby>知らせ<rt>しらせ</rt></ruby>",
-          "メーカー"
+          "洗濯",
+          "散歩",
+          "期間",
+          "料理"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-20-019"
       },
       {
         "type": "文脈規定",
-        "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "環境（　）が深刻になっている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>使う<rt>つかう</rt></ruby>",
-          "ネックレス",
-          "<ruby>治る<rt>なおる</rt></ruby>",
-          "<ruby>空<rt>そら</rt></ruby>"
+          "散歩",
+          "破壊",
+          "洗濯",
+          "運動"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-20-020"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "経済（　）が回復している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "ところが",
-          "<ruby>合意<rt>ごうい</rt></ruby>",
-          "<ruby>有効<rt>ゆうこう</rt></ruby>",
-          "<ruby>設定<rt>せってい</rt></ruby>"
+          "料理",
+          "散歩",
+          "状況",
+          "洗濯"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-20-021"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "社会（　）に貢献したい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>案内所<rt>あんないじょ</rt></ruby>",
-          "<ruby>降ろす<rt>おろす</rt></ruby>",
-          "トリートメント",
-          "<ruby>田舎<rt>いなか</rt></ruby>"
+          "掃除",
+          "運動",
+          "問題",
+          "洗濯"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-20-022"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）は素晴らしい。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>職務<rt>しょくむ</rt></ruby>",
-          "<ruby>工事<rt>こうじ</rt></ruby>",
-          "<ruby>詰まる<rt>つまる</rt></ruby>",
-          "ドラム"
+          "能力",
+          "散歩",
+          "料理",
+          "掃除"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-20-023"
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼女の（　）な態度に感心した。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>親しむ<rt>したしむ</rt></ruby>",
-          "<ruby>晩ご飯<rt>ばんごはん</rt></ruby>",
-          "<ruby>違う<rt>ちがう</rt></ruby>",
-          "ギター"
+          "親切",
+          "横柄",
+          "不真面目",
+          "不誠実"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-20-024"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な状況が続いている。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>謝る<rt>あやまる</rt></ruby>",
-          "ショッピングモール",
-          "<ruby>日常<rt>にちじょう</rt></ruby>",
-          "<ruby>追いつく<rt>おいつく</rt></ruby>"
+          "簡単",
+          "深刻",
+          "順調",
+          "安定"
         ],
         "answer": 1,
         "id": "N3-20-025"

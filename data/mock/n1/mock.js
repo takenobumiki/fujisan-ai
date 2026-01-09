@@ -1,4 +1,4 @@
-// N1 Mock Test Data - v18.6.8 (with TTS listening)
+// N1 Mock Test Data - v18.7.0 (fixed context questions)
 if (typeof MOCK_DATA === 'undefined') { var MOCK_DATA = {}; }
 MOCK_DATA['N1'] = {
   "info": {
@@ -89,93 +89,93 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この政策は（　）な改革を目指している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>詐称<rt>さしょう</rt></ruby>",
-          "<ruby>酸化<rt>さんか</rt></ruby>",
-          "<ruby>疲弊<rt>ひへい</rt></ruby>",
-          "<ruby>和歌<rt>わか</rt></ruby>"
+          "表面的",
+          "部分的",
+          "根本的",
+          "一時的"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-01-007"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）な判断が評価された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>飽きる<rt>あきる</rt></ruby>",
-          "<ruby>虚無<rt>きょむ</rt></ruby>",
-          "<ruby>超える<rt>こえる</rt></ruby>",
-          "<ruby>差し替える<rt>さしかえる</rt></ruby>"
+          "曖昧",
+          "賢明",
+          "軽率",
+          "杜撰"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N1-01-008"
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な対応が求められる局面だ。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>襲撃<rt>しゅうげき</rt></ruby>",
-          "<ruby>映る<rt>うつる</rt></ruby>",
-          "<ruby>今晩<rt>こんばん</rt></ruby>",
-          "<ruby>躍進<rt>やくしん</rt></ruby>"
+          "断固",
+          "消極的",
+          "曖昧",
+          "優柔不断"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N1-01-009"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "問題の（　）を明らかにする必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>潜る<rt>もぐる</rt></ruby>",
-          "<ruby>計り知れない<rt>はかりしれない</rt></ruby>",
-          "<ruby>篤く<rt>あつく</rt></ruby>",
-          "<ruby>通<rt>つう</rt></ruby>"
+          "外観",
+          "印象",
+          "根源",
+          "表面"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N1-01-010"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な議論が展開された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>歩き回る<rt>あるきまわる</rt></ruby>",
-          "<ruby>及ぼす<rt>およぼす</rt></ruby>",
-          "<ruby>締まる<rt>しまる</rt></ruby>",
-          "<ruby>迫る<rt>せまる</rt></ruby>"
+          "散漫",
+          "白熱",
+          "形式的",
+          "消極的"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N1-01-011"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "理論の（　）を検証する。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>出典<rt>しゅってん</rt></ruby>",
-          "<ruby>遮蔽<rt>しゃへい</rt></ruby>",
-          "<ruby>月末<rt>げつまつ</rt></ruby>",
-          "<ruby>研究手法<rt>けんきゅうしゅほう</rt></ruby>"
+          "整合性",
+          "矛盾",
+          "不整合",
+          "欠陥"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N1-01-012"
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な分析が求められる。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>恥<rt>はじ</rt></ruby>",
-          "なびく",
-          "<ruby>地図<rt>ちず</rt></ruby>",
-          "<ruby>一方<rt>いっぽう</rt></ruby>"
+          "粗雑",
+          "緻密",
+          "杜撰",
+          "大雑把"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N1-01-013"
       },
       {
@@ -1764,93 +1764,93 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この政策は（　）な改革を目指している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>知性<rt>ちせい</rt></ruby>",
-          "<ruby>跡<rt>あと</rt></ruby>",
-          "そそのかす",
-          "<ruby>沈殿<rt>ちんでん</rt></ruby>"
+          "一時的",
+          "形式的",
+          "部分的",
+          "全面的"
         ],
         "answer": 3,
         "id": "N1-02-007"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）な判断が評価された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>哀しみ<rt>かなしみ</rt></ruby>",
-          "<ruby>克明な<rt>こくめいな</rt></ruby>",
-          "<ruby>製品<rt>せいひん</rt></ruby>",
-          "<ruby>太い<rt>ふとい</rt></ruby>"
+          "賢明",
+          "軽率",
+          "安易",
+          "杜撰"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N1-02-008"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な対応が求められる局面だ。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>却下する<rt>きゃっかする</rt></ruby>",
-          "<ruby>川辺<rt>かわべ</rt></ruby>",
-          "<ruby>論難<rt>ろんなん</rt></ruby>",
-          "<ruby>追及<rt>ついきゅう</rt></ruby>"
+          "曖昧",
+          "無責任",
+          "果敢",
+          "優柔不断"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-02-009"
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "問題の（　）を明らかにする必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>光景<rt>こうけい</rt></ruby>",
-          "<ruby>浮かべる<rt>うかべる</rt></ruby>",
-          "<ruby>各論<rt>かくろん</rt></ruby>",
-          "<ruby>侍<rt>さむらい</rt></ruby>"
+          "外観",
+          "印象",
+          "本質",
+          "表面"
         ],
         "answer": 2,
         "id": "N1-02-010"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な議論が展開された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>憂患<rt>ゆうかん</rt></ruby>",
-          "<ruby>頭注<rt>とうちゅう</rt></ruby>",
-          "<ruby>芸術学<rt>げいじゅつがく</rt></ruby>",
-          "まごころ"
+          "活発",
+          "散漫",
+          "形式的",
+          "表面的"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N1-02-011"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "理論の（　）を検証する。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>豊か<rt>ゆたか</rt></ruby>",
-          "<ruby>寒気<rt>さむけ</rt></ruby>",
-          "<ruby>法社会学<rt>ほうしゃかいがく</rt></ruby>",
-          "<ruby>出来る<rt>できる</rt></ruby>"
+          "破綻",
+          "欠陥",
+          "有効性",
+          "不整合"
         ],
         "answer": 2,
         "id": "N1-02-012"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な分析が求められる。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>泊まる<rt>とまる</rt></ruby>",
-          "<ruby>稀少<rt>きしょう</rt></ruby>",
-          "<ruby>大げさ<rt>おおげさ</rt></ruby>",
-          "クラスタリング"
+          "精緻",
+          "大雑把",
+          "不十分",
+          "杜撰"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N1-02-013"
       },
       {
@@ -3439,93 +3439,93 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この政策は（　）な改革を目指している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>耕作<rt>こうさく</rt></ruby>",
-          "<ruby>論じる<rt>ろんじる</rt></ruby>",
-          "<ruby>予後<rt>よご</rt></ruby>",
-          "<ruby>分類する<rt>ぶんるいする</rt></ruby>"
+          "部分的",
+          "表面的",
+          "本格的",
+          "形式的"
         ],
         "answer": 2,
         "id": "N1-03-007"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）な判断が評価された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>不義<rt>ふぎ</rt></ruby>",
-          "まぎれる",
-          "<ruby>同床異夢<rt>どうしょういむ</rt></ruby>",
-          "<ruby>代数<rt>だいすう</rt></ruby>"
+          "曖昧",
+          "適切",
+          "安易",
+          "杜撰"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N1-03-008"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な対応が求められる局面だ。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>何があっても<rt>なにがあっても</rt></ruby>",
-          "<ruby>財政赤字<rt>ざいせいあかじ</rt></ruby>",
-          "<ruby>準備<rt>じゅんび</rt></ruby>",
-          "<ruby>攻める<rt>せめる</rt></ruby>"
+          "無責任",
+          "優柔不断",
+          "毅然",
+          "消極的"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N1-03-009"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "問題の（　）を明らかにする必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>噛み砕く<rt>かみくだく</rt></ruby>",
-          "<ruby>条件<rt>じょうけん</rt></ruby>",
-          "<ruby>機運<rt>きうん</rt></ruby>",
-          "おごる"
+          "表面",
+          "外観",
+          "核心",
+          "印象"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N1-03-010"
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な議論が展開された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>緩慢な<rt>かんまんな</rt></ruby>",
-          "<ruby>叩く<rt>たたく</rt></ruby>",
-          "<ruby>末端<rt>まったん</rt></ruby>",
-          "<ruby>天<rt>てん</rt></ruby>"
+          "表面的",
+          "建設的",
+          "形式的",
+          "散漫"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N1-03-011"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "理論の（　）を検証する。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>価格決定<rt>かかくけってい</rt></ruby>",
-          "<ruby>宛も<rt>あたかも</rt></ruby>",
-          "<ruby>厚く<rt>あつく</rt></ruby>",
-          "<ruby>刷る<rt>する</rt></ruby>"
+          "不整合",
+          "妥当性",
+          "欠陥",
+          "矛盾"
         ],
         "answer": 1,
         "id": "N1-03-012"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な分析が求められる。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>練る<rt>ねる</rt></ruby>",
-          "<ruby>自戒する<rt>じかいする</rt></ruby>",
-          "<ruby>裁決<rt>さいけつ</rt></ruby>",
-          "<ruby>在住<rt>ざいじゅう</rt></ruby>"
+          "不十分",
+          "杜撰",
+          "粗雑",
+          "精緻"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N1-03-013"
       },
       {
@@ -5114,93 +5114,93 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この政策は（　）な改革を目指している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>検証<rt>けんしょう</rt></ruby>",
-          "<ruby>凶暴な<rt>きょうぼうな</rt></ruby>",
-          "<ruby>夜中<rt>よなか</rt></ruby>",
-          "<ruby>品質管理論<rt>ひんしつかんりろん</rt></ruby>"
+          "部分的",
+          "表面的",
+          "一時的",
+          "全面的"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N1-04-007"
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）な判断が評価された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "もともと",
-          "<ruby>幾許か<rt>いくばくか</rt></ruby>",
-          "<ruby>精励<rt>せいれい</rt></ruby>",
-          "<ruby>銀河<rt>ぎんが</rt></ruby>"
+          "曖昧",
+          "杜撰",
+          "安易",
+          "賢明"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N1-04-008"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な対応が求められる局面だ。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>刷新<rt>さっしん</rt></ruby>",
-          "<ruby>古今無双<rt>ここんむそう</rt></ruby>",
-          "<ruby>口語<rt>こうご</rt></ruby>",
-          "<ruby>卓越する<rt>たくえつする</rt></ruby>"
+          "消極的",
+          "優柔不断",
+          "曖昧",
+          "慎重"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N1-04-009"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "問題の（　）を明らかにする必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>完了する<rt>かんりょうする</rt></ruby>",
-          "<ruby>臨機応変<rt>りんきおうへん</rt></ruby>",
-          "<ruby>認識<rt>にんしき</rt></ruby>",
-          "<ruby>作業<rt>さぎょう</rt></ruby>"
+          "雰囲気",
+          "表面",
+          "本質",
+          "印象"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N1-04-010"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な議論が展開された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>通<rt>つう</rt></ruby>",
-          "どう",
-          "<ruby>図らずも<rt>はからずも</rt></ruby>",
-          "<ruby>住民<rt>じゅうみん</rt></ruby>"
+          "白熱",
+          "消極的",
+          "形式的",
+          "散漫"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N1-04-011"
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "理論の（　）を検証する。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>開発<rt>かいはつ</rt></ruby>",
-          "<ruby>衷心より<rt>ちゅうしんより</rt></ruby>",
-          "<ruby>弾ずる<rt>だんずる</rt></ruby>",
-          "<ruby>分<rt>ぶん</rt></ruby>"
+          "破綻",
+          "不整合",
+          "矛盾",
+          "正当性"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N1-04-012"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な分析が求められる。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>売る<rt>うる</rt></ruby>",
-          "さらさらと",
-          "<ruby>仕業<rt>しわざ</rt></ruby>",
-          "<ruby>扱う<rt>あつかう</rt></ruby>"
+          "大雑把",
+          "精緻",
+          "杜撰",
+          "粗雑"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N1-04-013"
       },
       {
@@ -6789,93 +6789,93 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この政策は（　）な改革を目指している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>滑空する<rt>かっくうする</rt></ruby>",
-          "<ruby>度々<rt>たびたび</rt></ruby>",
-          "<ruby>腸<rt>ちょう</rt></ruby>",
-          "<ruby>記す<rt>しるす</rt></ruby>"
+          "部分的",
+          "根本的",
+          "表面的",
+          "一時的"
         ],
         "answer": 1,
         "id": "N1-05-007"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）な判断が評価された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>研究論文<rt>けんきゅうろんぶん</rt></ruby>",
-          "<ruby>本性<rt>ほんしょう</rt></ruby>",
-          "いらいらと",
-          "<ruby>奉る<rt>たてまつる</rt></ruby>"
+          "杜撰",
+          "曖昧",
+          "適切",
+          "安易"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N1-05-008"
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な対応が求められる局面だ。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "ものものしい",
-          "<ruby>来る<rt>くる</rt></ruby>",
-          "<ruby>胴<rt>どう</rt></ruby>",
-          "<ruby>伝承<rt>でんしょう</rt></ruby>"
+          "毅然",
+          "優柔不断",
+          "無責任",
+          "消極的"
         ],
         "answer": 0,
         "id": "N1-05-009"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "問題の（　）を明らかにする必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>客観的<rt>きゃっかんてき</rt></ruby>",
-          "<ruby>威風堂々<rt>いふうどうどう</rt></ruby>",
-          "<ruby>企業価値<rt>きぎょうかち</rt></ruby>",
-          "<ruby>諦観する<rt>ていかんする</rt></ruby>"
+          "外観",
+          "表面",
+          "核心",
+          "雰囲気"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N1-05-010"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な議論が展開された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>哲学<rt>てつがく</rt></ruby>",
-          "<ruby>遅れ<rt>おくれ</rt></ruby>",
-          "<ruby>属性<rt>ぞくせい</rt></ruby>",
-          "<ruby>権利<rt>けんり</rt></ruby>"
+          "散漫",
+          "消極的",
+          "表面的",
+          "建設的"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N1-05-011"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "理論の（　）を検証する。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>民主<rt>みんしゅ</rt></ruby>",
-          "<ruby>完璧無欠<rt>かんぺきむけつ</rt></ruby>",
-          "<ruby>星<rt>ほし</rt></ruby>",
-          "<ruby>疲れ<rt>つかれ</rt></ruby>"
+          "正当性",
+          "破綻",
+          "欠陥",
+          "矛盾"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N1-05-012"
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な分析が求められる。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>紛れる<rt>まぎれる</rt></ruby>",
-          "<ruby>優雅<rt>ゆうが</rt></ruby>",
-          "<ruby>有効<rt>ゆうこう</rt></ruby>",
-          "<ruby>格差<rt>かくさ</rt></ruby>"
+          "大雑把",
+          "緻密",
+          "粗雑",
+          "杜撰"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N1-05-013"
       },
       {
@@ -8464,93 +8464,93 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この政策は（　）な改革を目指している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>穀物<rt>こくもつ</rt></ruby>",
-          "<ruby>民主主義<rt>みんしゅしゅぎ</rt></ruby>",
-          "<ruby>恩沢<rt>おんたく</rt></ruby>",
-          "<ruby>緊迫<rt>きんぱく</rt></ruby>"
+          "表面的",
+          "全面的",
+          "一時的",
+          "部分的"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N1-06-007"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）な判断が評価された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>所存<rt>しょぞん</rt></ruby>",
-          "<ruby>財産<rt>ざいさん</rt></ruby>",
-          "<ruby>共存共栄<rt>きょうぞんきょうえい</rt></ruby>",
-          "<ruby>相対的<rt>そうたいてき</rt></ruby>"
+          "的確",
+          "杜撰",
+          "軽率",
+          "安易"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N1-06-008"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な対応が求められる局面だ。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>正す<rt>ただす</rt></ruby>",
-          "<ruby>発展<rt>はってん</rt></ruby>",
-          "<ruby>特徴<rt>とくちょう</rt></ruby>",
-          "<ruby>警告<rt>けいこく</rt></ruby>"
+          "無責任",
+          "優柔不断",
+          "果敢",
+          "曖昧"
         ],
         "answer": 2,
         "id": "N1-06-009"
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "問題の（　）を明らかにする必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>好む<rt>このむ</rt></ruby>",
-          "<ruby>経験論的<rt>けいけんろんてき</rt></ruby>",
-          "<ruby>汲む<rt>くむ</rt></ruby>",
-          "<ruby>差額<rt>さがく</rt></ruby>"
+          "根源",
+          "表面",
+          "雰囲気",
+          "印象"
         ],
         "answer": 0,
         "id": "N1-06-010"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な議論が展開された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>書き換える<rt>かきかえる</rt></ruby>",
-          "<ruby>再建<rt>さいけん</rt></ruby>",
-          "どっしりと",
-          "<ruby>社説<rt>しゃせつ</rt></ruby>"
+          "散漫",
+          "消極的",
+          "白熱",
+          "形式的"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-06-011"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "理論の（　）を検証する。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>定数<rt>ていすう</rt></ruby>",
-          "<ruby>恨み<rt>うらみ</rt></ruby>",
-          "<ruby>厳密<rt>げんみつ</rt></ruby>",
-          "<ruby>例<rt>たとえ</rt></ruby>"
+          "有効性",
+          "破綻",
+          "欠陥",
+          "矛盾"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N1-06-012"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な分析が求められる。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>預かる<rt>あずかる</rt></ruby>",
-          "<ruby>男子<rt>だんし</rt></ruby>",
-          "<ruby>決裁<rt>けっさい</rt></ruby>",
-          "<ruby>観測<rt>かんそく</rt></ruby>"
+          "杜撰",
+          "粗雑",
+          "徹底的",
+          "大雑把"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N1-06-013"
       },
       {
@@ -10139,93 +10139,93 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この政策は（　）な改革を目指している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>再構築<rt>さいこうちく</rt></ruby>",
-          "<ruby>一心一意<rt>いっしんいちい</rt></ruby>",
-          "<ruby>姿態<rt>したい</rt></ruby>",
-          "<ruby>守る<rt>まもる</rt></ruby>"
+          "部分的",
+          "抜本的",
+          "表面的",
+          "形式的"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N1-07-007"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）な判断が評価された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>異質<rt>いしつ</rt></ruby>",
-          "<ruby>出征<rt>しゅっせい</rt></ruby>",
-          "<ruby>師弟<rt>してい</rt></ruby>",
-          "<ruby>誇張<rt>こちょう</rt></ruby>"
+          "冷静",
+          "杜撰",
+          "曖昧",
+          "安易"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N1-07-008"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な対応が求められる局面だ。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>見込む<rt>みこむ</rt></ruby>",
-          "<ruby>特殊化<rt>とくしゅか</rt></ruby>",
-          "<ruby>継承する<rt>けいしょうする</rt></ruby>",
-          "<ruby>前途洋々<rt>ぜんとようよう</rt></ruby>"
+          "慎重",
+          "曖昧",
+          "優柔不断",
+          "無責任"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N1-07-009"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "問題の（　）を明らかにする必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>判定<rt>はんてい</rt></ruby>",
-          "<ruby>下がる<rt>さがる</rt></ruby>",
-          "とにかく",
-          "<ruby>顕著に<rt>けんちょに</rt></ruby>"
+          "雰囲気",
+          "表面",
+          "原因",
+          "外観"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-07-010"
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な議論が展開された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>臨界<rt>りんかい</rt></ruby>",
-          "つくづく",
-          "<ruby>難しい<rt>むずかしい</rt></ruby>",
-          "<ruby>教育心理学<rt>きょういくしんりがく</rt></ruby>"
+          "散漫",
+          "表面的",
+          "活発",
+          "消極的"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-07-011"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "理論の（　）を検証する。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>総括すれば<rt>そうかつすれば</rt></ruby>",
-          "<ruby>劣る<rt>おとる</rt></ruby>",
-          "<ruby>蹴る<rt>ける</rt></ruby>",
-          "<ruby>政局<rt>せいきょく</rt></ruby>"
+          "破綻",
+          "妥当性",
+          "欠陥",
+          "矛盾"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N1-07-012"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な分析が求められる。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>甘え<rt>あまえ</rt></ruby>",
-          "<ruby>明確でない<rt>めいかくでない</rt></ruby>",
-          "<ruby>悠々自適<rt>ゆうゆうじてき</rt></ruby>",
-          "<ruby>暗示<rt>あんじ</rt></ruby>"
+          "大雑把",
+          "杜撰",
+          "徹底的",
+          "不十分"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N1-07-013"
       },
       {
@@ -11814,91 +11814,91 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この政策は（　）な改革を目指している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>運航<rt>うんこう</rt></ruby>",
-          "<ruby>特殊な<rt>とくしゅな</rt></ruby>",
-          "<ruby>建築<rt>けんちく</rt></ruby>",
-          "<ruby>前例<rt>ぜんれい</rt></ruby>"
+          "表面的",
+          "一時的",
+          "形式的",
+          "全面的"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N1-08-007"
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）な判断が評価された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>論及<rt>ろんきゅう</rt></ruby>",
-          "<ruby>無言<rt>むごん</rt></ruby>",
-          "<ruby>激怒<rt>げきど</rt></ruby>",
-          "<ruby>滝<rt>たき</rt></ruby>"
+          "迅速",
+          "安易",
+          "軽率",
+          "曖昧"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N1-08-008"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な対応が求められる局面だ。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>合体する<rt>がったいする</rt></ruby>",
-          "<ruby>堪え抜く<rt>こらえぬく</rt></ruby>",
-          "<ruby>鍛錬<rt>たんれん</rt></ruby>",
-          "<ruby>渇く<rt>かわく</rt></ruby>"
+          "曖昧",
+          "慎重",
+          "消極的",
+          "優柔不断"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N1-08-009"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "問題の（　）を明らかにする必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>存える<rt>ながらえる</rt></ruby>",
-          "<ruby>圧迫<rt>あっぱく</rt></ruby>",
-          "<ruby>後手<rt>ごて</rt></ruby>",
-          "<ruby>薬局<rt>やっきょく</rt></ruby>"
+          "核心",
+          "雰囲気",
+          "外観",
+          "表面"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N1-08-010"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な議論が展開された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>追悼<rt>ついとう</rt></ruby>",
-          "<ruby>核心に迫る<rt>かくしんにせまる</rt></ruby>",
-          "<ruby>延びる<rt>のびる</rt></ruby>",
-          "インフレーション"
+          "表面的",
+          "消極的",
+          "散漫",
+          "活発"
         ],
         "answer": 3,
         "id": "N1-08-011"
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "理論の（　）を検証する。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>低気圧<rt>ていきあつ</rt></ruby>",
-          "<ruby>年寄り<rt>としより</rt></ruby>",
-          "<ruby>粗い<rt>あらい</rt></ruby>",
-          "<ruby>草花<rt>くさばな</rt></ruby>"
+          "正当性",
+          "不整合",
+          "破綻",
+          "矛盾"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N1-08-012"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な分析が求められる。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>均衡価格<rt>きんこうかかく</rt></ruby>",
-          "<ruby>審議する<rt>しんぎする</rt></ruby>",
-          "<ruby>循環経済<rt>じゅんかんけいざい</rt></ruby>",
-          "<ruby>暴論<rt>ぼうろん</rt></ruby>"
+          "粗雑",
+          "大雑把",
+          "杜撰",
+          "緻密"
         ],
         "answer": 3,
         "id": "N1-08-013"
@@ -13489,93 +13489,93 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この政策は（　）な改革を目指している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>勧める<rt>すすめる</rt></ruby>",
-          "<ruby>図鑑<rt>ずかん</rt></ruby>",
-          "<ruby>中旬<rt>ちゅうじゅん</rt></ruby>",
-          "<ruby>効果<rt>こうか</rt></ruby>"
+          "表面的",
+          "部分的",
+          "形式的",
+          "根本的"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N1-09-007"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）な判断が評価された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>経済学<rt>けいざいがく</rt></ruby>",
-          "<ruby>手紙<rt>てがみ</rt></ruby>",
-          "<ruby>着る<rt>きる</rt></ruby>",
-          "<ruby>景気刺激策<rt>けいきしげきさく</rt></ruby>"
+          "曖昧",
+          "安易",
+          "適切",
+          "杜撰"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N1-09-008"
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な対応が求められる局面だ。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>親子<rt>おやこ</rt></ruby>",
-          "<ruby>証明する<rt>しょうめいする</rt></ruby>",
-          "<ruby>薄める<rt>うすめる</rt></ruby>",
-          "<ruby>延長<rt>えんちょう</rt></ruby>"
+          "消極的",
+          "果敢",
+          "曖昧",
+          "優柔不断"
         ],
         "answer": 1,
         "id": "N1-09-009"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "問題の（　）を明らかにする必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>笑い<rt>わらい</rt></ruby>",
-          "<ruby>和衷協同<rt>わちゅうきょうどう</rt></ruby>",
-          "<ruby>即して<rt>そくして</rt></ruby>",
-          "おしなべて"
+          "雰囲気",
+          "外観",
+          "原因",
+          "表面"
         ],
         "answer": 2,
         "id": "N1-09-010"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な議論が展開された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>梗概<rt>こうがい</rt></ruby>",
-          "ひやひやと",
-          "<ruby>疑う<rt>うたがう</rt></ruby>",
-          "<ruby>粒<rt>つぶ</rt></ruby>"
+          "消極的",
+          "散漫",
+          "形式的",
+          "白熱"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N1-09-011"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "理論の（　）を検証する。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>自在<rt>じざい</rt></ruby>",
-          "<ruby>欠ける<rt>かける</rt></ruby>",
-          "<ruby>一瞥する<rt>いちべつする</rt></ruby>",
-          "<ruby>活力<rt>かつりょく</rt></ruby>"
+          "整合性",
+          "破綻",
+          "矛盾",
+          "欠陥"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N1-09-012"
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な分析が求められる。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>足りる<rt>たりる</rt></ruby>",
-          "<ruby>謎<rt>なぞ</rt></ruby>",
-          "<ruby>物悲しい<rt>ものがなしい</rt></ruby>",
-          "<ruby>古趣<rt>こしゅ</rt></ruby>"
+          "大雑把",
+          "緻密",
+          "粗雑",
+          "杜撰"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N1-09-013"
       },
       {
@@ -15164,93 +15164,93 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この政策は（　）な改革を目指している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>報酬<rt>ほうしゅう</rt></ruby>",
-          "<ruby>過度<rt>かど</rt></ruby>",
-          "ついに",
-          "<ruby>結集する<rt>けっしゅうする</rt></ruby>"
+          "全面的",
+          "形式的",
+          "表面的",
+          "一時的"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N1-10-007"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）な判断が評価された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>逸話<rt>いつわ</rt></ruby>",
-          "<ruby>客観的な<rt>きゃっかんてきな</rt></ruby>",
-          "<ruby>決行する<rt>けっこうする</rt></ruby>",
-          "<ruby>変遷する<rt>へんせんする</rt></ruby>"
+          "安易",
+          "迅速",
+          "杜撰",
+          "曖昧"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N1-10-008"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な対応が求められる局面だ。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>恩恵<rt>おんけい</rt></ruby>",
-          "つのる",
-          "<ruby>固持する<rt>こじする</rt></ruby>",
-          "<ruby>短評<rt>たんぴょう</rt></ruby>"
+          "消極的",
+          "曖昧",
+          "優柔不断",
+          "断固"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N1-10-009"
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "問題の（　）を明らかにする必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>岐路<rt>きろ</rt></ruby>",
-          "<ruby>載せる<rt>のせる</rt></ruby>",
-          "<ruby>急変<rt>きゅうへん</rt></ruby>",
-          "<ruby>友好関係<rt>ゆうこうかんけい</rt></ruby>"
+          "印象",
+          "外観",
+          "雰囲気",
+          "原因"
         ],
         "answer": 3,
         "id": "N1-10-010"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な議論が展開された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "ただし",
-          "<ruby>億劫<rt>おっくう</rt></ruby>",
-          "<ruby>困惑<rt>こんわく</rt></ruby>",
-          "<ruby>述語論理<rt>じゅつごろんり</rt></ruby>"
+          "本格的",
+          "消極的",
+          "形式的",
+          "表面的"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N1-10-011"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "理論の（　）を検証する。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>決裂<rt>けつれつ</rt></ruby>",
-          "ゆっくりした",
-          "<ruby>驚嘆<rt>きょうたん</rt></ruby>",
-          "<ruby>再建する<rt>さいけんする</rt></ruby>"
+          "破綻",
+          "欠陥",
+          "有効性",
+          "矛盾"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N1-10-012"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な分析が求められる。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>濁る<rt>にごる</rt></ruby>",
-          "<ruby>個性<rt>こせい</rt></ruby>",
-          "<ruby>代<rt>だい</rt></ruby>",
-          "<ruby>経営学<rt>けいえいがく</rt></ruby>"
+          "杜撰",
+          "粗雑",
+          "大雑把",
+          "詳細"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N1-10-013"
       },
       {
@@ -16839,91 +16839,91 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この政策は（　）な改革を目指している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>相対的な<rt>そうたいてきな</rt></ruby>",
-          "<ruby>思い込む<rt>おもいこむ</rt></ruby>",
-          "<ruby>八方塞がり<rt>はっぽうふさがり</rt></ruby>",
-          "<ruby>正否<rt>せいひ</rt></ruby>"
+          "抜本的",
+          "一時的",
+          "部分的",
+          "形式的"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N1-11-007"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）な判断が評価された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>暮れる<rt>くれる</rt></ruby>",
-          "<ruby>裁く<rt>さばく</rt></ruby>",
-          "あくまで",
-          "<ruby>統治する<rt>とうちする</rt></ruby>"
+          "杜撰",
+          "曖昧",
+          "安易",
+          "賢明"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N1-11-008"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な対応が求められる局面だ。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>年下<rt>としした</rt></ruby>",
-          "<ruby>縁起<rt>えんぎ</rt></ruby>",
-          "<ruby>速度<rt>そくど</rt></ruby>",
-          "<ruby>絶句する<rt>ぜっくする</rt></ruby>"
+          "優柔不断",
+          "曖昧",
+          "無責任",
+          "果敢"
         ],
         "answer": 3,
         "id": "N1-11-009"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "問題の（　）を明らかにする必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>屈折<rt>くっせつ</rt></ruby>",
-          "<ruby>溶質<rt>ようしつ</rt></ruby>",
-          "<ruby>低額<rt>ていがく</rt></ruby>",
-          "<ruby>具体的な<rt>ぐたいてきな</rt></ruby>"
+          "雰囲気",
+          "本質",
+          "外観",
+          "表面"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N1-11-010"
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な議論が展開された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>瓦解する<rt>がかいする</rt></ruby>",
-          "<ruby>見上げる<rt>みあげる</rt></ruby>",
-          "<ruby>強いる<rt>しいる</rt></ruby>",
-          "<ruby>差別<rt>さべつ</rt></ruby>"
+          "形式的",
+          "消極的",
+          "白熱",
+          "散漫"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N1-11-011"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "理論の（　）を検証する。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>協和する<rt>きょうわする</rt></ruby>",
-          "<ruby>友<rt>とも</rt></ruby>",
-          "<ruby>引退する<rt>いんたいする</rt></ruby>",
-          "<ruby>援助する<rt>えんじょする</rt></ruby>"
+          "矛盾",
+          "破綻",
+          "欠陥",
+          "整合性"
         ],
         "answer": 3,
         "id": "N1-11-012"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な分析が求められる。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "ワクチン",
-          "<ruby>簡明な<rt>かんめいな</rt></ruby>",
-          "<ruby>改定<rt>かいてい</rt></ruby>",
-          "<ruby>古今東西<rt>ここんとうざい</rt></ruby>"
+          "大雑把",
+          "不十分",
+          "詳細",
+          "粗雑"
         ],
         "answer": 2,
         "id": "N1-11-013"
@@ -18514,93 +18514,93 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この政策は（　）な改革を目指している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>合格<rt>ごうかく</rt></ruby>",
-          "<ruby>習慣<rt>しゅうかん</rt></ruby>",
-          "<ruby>正誤<rt>せいご</rt></ruby>",
-          "<ruby>顕在<rt>けんざい</rt></ruby>"
+          "全面的",
+          "部分的",
+          "一時的",
+          "表面的"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N1-12-007"
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）な判断が評価された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>個別性<rt>こべつせい</rt></ruby>",
-          "<ruby>晩御飯<rt>ばんごはん</rt></ruby>",
-          "<ruby>統一<rt>とういつ</rt></ruby>",
-          "<ruby>押収<rt>おうしゅう</rt></ruby>"
+          "軽率",
+          "安易",
+          "曖昧",
+          "賢明"
         ],
         "answer": 3,
         "id": "N1-12-008"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な対応が求められる局面だ。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>内省する<rt>ないせいする</rt></ruby>",
-          "<ruby>受かる<rt>うかる</rt></ruby>",
-          "<ruby>訓育する<rt>くんいくする</rt></ruby>",
-          "<ruby>短歌<rt>たんか</rt></ruby>"
+          "慎重",
+          "消極的",
+          "無責任",
+          "曖昧"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N1-12-009"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "問題の（　）を明らかにする必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>楽しみ<rt>たのしみ</rt></ruby>",
-          "<ruby>重ねる<rt>かさねる</rt></ruby>",
-          "なおさら",
-          "<ruby>把握<rt>はあく</rt></ruby>"
+          "外観",
+          "印象",
+          "表面",
+          "根源"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N1-12-010"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な議論が展開された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>千秋万歳<rt>せんしゅうばんざい</rt></ruby>",
-          "<ruby>天衣無縫<rt>てんいむほう</rt></ruby>",
-          "<ruby>天知<rt>てんち</rt></ruby>",
-          "<ruby>違い<rt>ちがい</rt></ruby>"
+          "散漫",
+          "本格的",
+          "形式的",
+          "表面的"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N1-12-011"
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "理論の（　）を検証する。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>楽譜<rt>がくふ</rt></ruby>",
-          "どうやら",
-          "<ruby>亡くなる<rt>なくなる</rt></ruby>",
-          "わずらう"
+          "欠陥",
+          "破綻",
+          "妥当性",
+          "不整合"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-12-012"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な分析が求められる。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>金融<rt>きんゆう</rt></ruby>",
-          "<ruby>優しい<rt>やさしい</rt></ruby>",
-          "<ruby>噴出する<rt>ふんしゅつする</rt></ruby>",
-          "<ruby>困難<rt>こんなん</rt></ruby>"
+          "詳細",
+          "杜撰",
+          "不十分",
+          "粗雑"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N1-12-013"
       },
       {
@@ -20189,93 +20189,93 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この政策は（　）な改革を目指している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>部位<rt>ぶい</rt></ruby>",
-          "<ruby>超新星<rt>ちょうしんせい</rt></ruby>",
-          "<ruby>塩辛い<rt>しおからい</rt></ruby>",
-          "<ruby>堂々と<rt>どうどうと</rt></ruby>"
+          "一時的",
+          "表面的",
+          "根本的",
+          "形式的"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N1-13-007"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）な判断が評価された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "ポップアート",
-          "<ruby>比較法研究<rt>ひかくほうけんきゅう</rt></ruby>",
-          "<ruby>統計<rt>とうけい</rt></ruby>",
-          "<ruby>噂<rt>うわさ</rt></ruby>"
+          "杜撰",
+          "曖昧",
+          "冷静",
+          "安易"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N1-13-008"
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な対応が求められる局面だ。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>万感<rt>ばんかん</rt></ruby>",
-          "<ruby>熱意を示す<rt>ねついをしめす</rt></ruby>",
-          "<ruby>一重に<rt>ひとえに</rt></ruby>",
-          "<ruby>審議する<rt>しんぎする</rt></ruby>"
+          "慎重",
+          "優柔不断",
+          "曖昧",
+          "無責任"
         ],
         "answer": 0,
         "id": "N1-13-009"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "問題の（　）を明らかにする必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>手練手管<rt>てれんてくだ</rt></ruby>",
-          "<ruby>限界生産性<rt>げんかいせいさんせい</rt></ruby>",
-          "<ruby>錯綜<rt>さくそう</rt></ruby>",
-          "<ruby>見地<rt>けんち</rt></ruby>"
+          "表面",
+          "雰囲気",
+          "外観",
+          "根源"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N1-13-010"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な議論が展開された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>新陳代謝<rt>しんちんたいしゃ</rt></ruby>",
-          "<ruby>国会<rt>こっかい</rt></ruby>",
-          "<ruby>予算<rt>よさん</rt></ruby>",
-          "<ruby>概括すれば<rt>がいかつすれば</rt></ruby>"
+          "表面的",
+          "活発",
+          "消極的",
+          "散漫"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N1-13-011"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "理論の（　）を検証する。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>注目<rt>ちゅうもく</rt></ruby>",
-          "<ruby>渡す<rt>わたす</rt></ruby>",
-          "<ruby>慰める<rt>なぐさめる</rt></ruby>",
-          "<ruby>病状<rt>びょうじょう</rt></ruby>"
+          "破綻",
+          "不整合",
+          "矛盾",
+          "有効性"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N1-13-012"
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な分析が求められる。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>万古<rt>ばんこ</rt></ruby>",
-          "<ruby>因みに<rt>ちなみに</rt></ruby>",
-          "<ruby>隔たりが生じる<rt>へだたりがしょうじる</rt></ruby>",
-          "<ruby>皮<rt>かわ</rt></ruby>"
+          "徹底的",
+          "杜撰",
+          "粗雑",
+          "大雑把"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N1-13-013"
       },
       {
@@ -21864,93 +21864,93 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この政策は（　）な改革を目指している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>飽きる<rt>あきる</rt></ruby>",
-          "<ruby>偏在する<rt>へんざいする</rt></ruby>",
-          "<ruby>務めて<rt>つとめて</rt></ruby>",
-          "<ruby>一途<rt>いちず</rt></ruby>"
+          "一時的",
+          "部分的",
+          "本格的",
+          "形式的"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-14-007"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）な判断が評価された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>偏在する<rt>へんざいする</rt></ruby>",
-          "<ruby>口下手<rt>くちべた</rt></ruby>",
-          "<ruby>撫でる<rt>なでる</rt></ruby>",
-          "<ruby>安穏な<rt>あんのんな</rt></ruby>"
+          "的確",
+          "安易",
+          "杜撰",
+          "軽率"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N1-14-008"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な対応が求められる局面だ。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "ひしひしと",
-          "<ruby>資産<rt>しさん</rt></ruby>",
-          "<ruby>見地<rt>けんち</rt></ruby>",
-          "<ruby>浸透する<rt>しんとうする</rt></ruby>"
+          "優柔不断",
+          "毅然",
+          "無責任",
+          "消極的"
         ],
         "answer": 1,
         "id": "N1-14-009"
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "問題の（　）を明らかにする必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>終わる<rt>おわる</rt></ruby>",
-          "<ruby>車椅子<rt>くるまいす</rt></ruby>",
-          "<ruby>懲罰<rt>ちょうばつ</rt></ruby>",
-          "<ruby>生態<rt>せいたい</rt></ruby>"
+          "雰囲気",
+          "核心",
+          "外観",
+          "印象"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N1-14-010"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な議論が展開された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>辞職する<rt>じしょくする</rt></ruby>",
-          "<ruby>注ぎ込む<rt>そそぎこむ</rt></ruby>",
-          "<ruby>一念発起<rt>いちねんほっき</rt></ruby>",
-          "<ruby>埋まる<rt>うまる</rt></ruby>"
+          "表面的",
+          "消極的",
+          "本格的",
+          "散漫"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N1-14-011"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "理論の（　）を検証する。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>著名<rt>ちょめい</rt></ruby>",
-          "<ruby>上訴する<rt>じょうそする</rt></ruby>",
-          "<ruby>吐露する<rt>とろする</rt></ruby>",
-          "ワクチン"
+          "有効性",
+          "不整合",
+          "破綻",
+          "欠陥"
         ],
         "answer": 0,
         "id": "N1-14-012"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な分析が求められる。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>弾ずる<rt>だんずる</rt></ruby>",
-          "<ruby>在す<rt>います</rt></ruby>",
-          "<ruby>左右<rt>さゆう</rt></ruby>",
-          "サイバーセキュリティ"
+          "詳細",
+          "杜撰",
+          "大雑把",
+          "粗雑"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N1-14-013"
       },
       {
@@ -23539,93 +23539,93 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この政策は（　）な改革を目指している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>穏やかに<rt>おだやかに</rt></ruby>",
-          "<ruby>斥候<rt>せっこう</rt></ruby>",
-          "<ruby>体型<rt>たいけい</rt></ruby>",
-          "<ruby>洗礼を受ける<rt>せんれいをうける</rt></ruby>"
+          "形式的",
+          "一時的",
+          "抜本的",
+          "表面的"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-15-007"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）な判断が評価された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>旅行<rt>りょこう</rt></ruby>",
-          "<ruby>差し支える<rt>さしつかえる</rt></ruby>",
-          "<ruby>心寂しい<rt>こころさびしい</rt></ruby>",
-          "<ruby>深慮<rt>しんりょ</rt></ruby>"
+          "曖昧",
+          "安易",
+          "杜撰",
+          "冷静"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N1-15-008"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な対応が求められる局面だ。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>心境<rt>しんきょう</rt></ruby>",
-          "<ruby>酸化<rt>さんか</rt></ruby>",
-          "<ruby>自発<rt>じはつ</rt></ruby>",
-          "<ruby>所為<rt>しょい</rt></ruby>"
+          "曖昧",
+          "優柔不断",
+          "断固",
+          "消極的"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N1-15-009"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "問題の（　）を明らかにする必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>帰着<rt>きちゃく</rt></ruby>",
-          "<ruby>教師なし学習<rt>きょうしなしがくしゅう</rt></ruby>",
-          "<ruby>来<rt>らい</rt></ruby>",
-          "<ruby>好況<rt>こうきょう</rt></ruby>"
+          "原因",
+          "外観",
+          "雰囲気",
+          "印象"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N1-15-010"
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な議論が展開された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>方言<rt>ほうげん</rt></ruby>",
-          "<ruby>中性子<rt>ちゅうせいし</rt></ruby>",
-          "<ruby>届く<rt>とどく</rt></ruby>",
-          "<ruby>行政法<rt>ぎょうせいほう</rt></ruby>"
+          "消極的",
+          "本格的",
+          "表面的",
+          "散漫"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N1-15-011"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "理論の（　）を検証する。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>審議する<rt>しんぎする</rt></ruby>",
-          "<ruby>融通<rt>ゆうずう</rt></ruby>",
-          "<ruby>弾き出す<rt>はじきだす</rt></ruby>",
-          "<ruby>移行する<rt>いこうする</rt></ruby>"
+          "不整合",
+          "矛盾",
+          "妥当性",
+          "欠陥"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N1-15-012"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な分析が求められる。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>自信<rt>じしん</rt></ruby>",
-          "<ruby>卑劣<rt>ひれつ</rt></ruby>",
-          "<ruby>協力<rt>きょうりょく</rt></ruby>",
-          "<ruby>暗黙に<rt>あんもくに</rt></ruby>"
+          "粗雑",
+          "詳細",
+          "不十分",
+          "杜撰"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N1-15-013"
       },
       {
@@ -25214,93 +25214,93 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この政策は（　）な改革を目指している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>人材<rt>じんざい</rt></ruby>",
-          "<ruby>趣向<rt>しゅこう</rt></ruby>",
-          "<ruby>融解する<rt>ゆうかいする</rt></ruby>",
-          "<ruby>難局<rt>なんきょく</rt></ruby>"
+          "本格的",
+          "一時的",
+          "形式的",
+          "表面的"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N1-16-007"
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）な判断が評価された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>知覚<rt>ちかく</rt></ruby>",
-          "<ruby>迫る<rt>せまる</rt></ruby>",
-          "<ruby>精力<rt>せいりょく</rt></ruby>",
-          "<ruby>電球<rt>でんきゅう</rt></ruby>"
+          "適切",
+          "曖昧",
+          "安易",
+          "軽率"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N1-16-008"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な対応が求められる局面だ。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>拡散<rt>かくさん</rt></ruby>",
-          "<ruby>通念<rt>つうねん</rt></ruby>",
-          "<ruby>出資する<rt>しゅっしする</rt></ruby>",
-          "<ruby>権現<rt>ごんげん</rt></ruby>"
+          "慎重",
+          "優柔不断",
+          "消極的",
+          "無責任"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N1-16-009"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "問題の（　）を明らかにする必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>衛星<rt>えいせい</rt></ruby>",
-          "<ruby>昆虫<rt>こんちゅう</rt></ruby>",
-          "<ruby>園芸<rt>えんげい</rt></ruby>",
-          "<ruby>慣習法<rt>かんしゅうほう</rt></ruby>"
+          "外観",
+          "本質",
+          "印象",
+          "雰囲気"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N1-16-010"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な議論が展開された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>潜る<rt>もぐる</rt></ruby>",
-          "<ruby>賛同する<rt>さんどうする</rt></ruby>",
-          "<ruby>才能<rt>さいのう</rt></ruby>",
-          "<ruby>図らずも<rt>はからずも</rt></ruby>"
+          "本格的",
+          "表面的",
+          "消極的",
+          "形式的"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N1-16-011"
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "理論の（　）を検証する。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>況んや<rt>いわんや</rt></ruby>",
-          "<ruby>混沌として<rt>こんとんとして</rt></ruby>",
-          "<ruby>理論<rt>りろん</rt></ruby>",
-          "<ruby>変遷する<rt>へんせんする</rt></ruby>"
+          "整合性",
+          "破綻",
+          "不整合",
+          "矛盾"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N1-16-012"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な分析が求められる。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>行き渡る<rt>いきわたる</rt></ruby>",
-          "<ruby>生け垣<rt>いけがき</rt></ruby>",
-          "<ruby>規範<rt>きはん</rt></ruby>",
-          "まぎれる"
+          "不十分",
+          "詳細",
+          "杜撰",
+          "粗雑"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N1-16-013"
       },
       {
@@ -26889,93 +26889,93 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この政策は（　）な改革を目指している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>環境設計<rt>かんきょうせっけい</rt></ruby>",
-          "<ruby>長閑な<rt>のどかな</rt></ruby>",
-          "<ruby>茶道<rt>さどう</rt></ruby>",
-          "<ruby>修繕<rt>しゅうぜん</rt></ruby>"
+          "形式的",
+          "全面的",
+          "部分的",
+          "一時的"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N1-17-007"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）な判断が評価された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>フレーミング効果<rt>ふれーみんぐこうか</rt></ruby>",
-          "<ruby>願いを叶える<rt>ねがいをかなえる</rt></ruby>",
-          "<ruby>借り<rt>かり</rt></ruby>",
-          "<ruby>鋳造<rt>ちゅうぞう</rt></ruby>"
+          "適切",
+          "安易",
+          "曖昧",
+          "軽率"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N1-17-008"
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な対応が求められる局面だ。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>目論見<rt>もくろみ</rt></ruby>",
-          "<ruby>分かれる<rt>わかれる</rt></ruby>",
-          "<ruby>解く<rt>とく</rt></ruby>",
-          "<ruby>覆す<rt>くつがえす</rt></ruby>"
+          "優柔不断",
+          "無責任",
+          "曖昧",
+          "断固"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N1-17-009"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "問題の（　）を明らかにする必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>採る<rt>とる</rt></ruby>",
-          "<ruby>逃げ出す<rt>にげだす</rt></ruby>",
-          "<ruby>換言すれば<rt>かんげんすれば</rt></ruby>",
-          "<ruby>憤り<rt>いきどおり</rt></ruby>"
+          "表面",
+          "核心",
+          "雰囲気",
+          "外観"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N1-17-010"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な議論が展開された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>予告<rt>よこく</rt></ruby>",
-          "<ruby>人込み<rt>ひとごみ</rt></ruby>",
-          "<ruby>外泊<rt>がいはく</rt></ruby>",
-          "<ruby>呈示する<rt>ていじする</rt></ruby>"
+          "表面的",
+          "消極的",
+          "建設的",
+          "形式的"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N1-17-011"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "理論の（　）を検証する。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>狩り<rt>かり</rt></ruby>",
-          "<ruby>腕前<rt>うでまえ</rt></ruby>",
-          "<ruby>声明する<rt>せいめいする</rt></ruby>",
-          "<ruby>債務者<rt>さいむしゃ</rt></ruby>"
+          "不整合",
+          "破綻",
+          "正当性",
+          "矛盾"
         ],
         "answer": 2,
         "id": "N1-17-012"
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な分析が求められる。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>戸惑い<rt>とまどい</rt></ruby>",
-          "<ruby>感涙<rt>かんるい</rt></ruby>",
-          "<ruby>社会主義<rt>しゃかいしゅぎ</rt></ruby>",
-          "したためる"
+          "大雑把",
+          "緻密",
+          "粗雑",
+          "不十分"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N1-17-013"
       },
       {
@@ -28564,93 +28564,93 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この政策は（　）な改革を目指している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>雪月風花<rt>せつげつふうか</rt></ruby>",
-          "<ruby>腕を磨く<rt>うでをみがく</rt></ruby>",
-          "<ruby>最も<rt>もっとも</rt></ruby>",
-          "<ruby>概略<rt>がいりゃく</rt></ruby>"
+          "抜本的",
+          "形式的",
+          "一時的",
+          "部分的"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N1-18-007"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）な判断が評価された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>風<rt>ふう</rt></ruby>",
-          "いたみ",
-          "<ruby>素粒子<rt>そりゅうし</rt></ruby>",
-          "<ruby>昇華する<rt>しょうかする</rt></ruby>"
+          "冷静",
+          "曖昧",
+          "軽率",
+          "安易"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N1-18-008"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な対応が求められる局面だ。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>前途洋々<rt>ぜんとようよう</rt></ruby>",
-          "<ruby>補助<rt>ほじょ</rt></ruby>",
-          "<ruby>物寂しい<rt>ものさびしい</rt></ruby>",
-          "どうせ"
+          "曖昧",
+          "無責任",
+          "消極的",
+          "毅然"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N1-18-009"
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "問題の（　）を明らかにする必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>滞る<rt>とどこおる</rt></ruby>",
-          "<ruby>露呈する<rt>ろていする</rt></ruby>",
-          "<ruby>傾倒する<rt>けいとうする</rt></ruby>",
-          "<ruby>踏まえ<rt>ふまえ</rt></ruby>"
+          "本質",
+          "外観",
+          "雰囲気",
+          "表面"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N1-18-010"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な議論が展開された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>寄る<rt>よる</rt></ruby>",
-          "<ruby>自粛する<rt>じしゅくする</rt></ruby>",
-          "ざらざらと",
-          "<ruby>右<rt>みぎ</rt></ruby>"
+          "建設的",
+          "消極的",
+          "散漫",
+          "形式的"
         ],
         "answer": 0,
         "id": "N1-18-011"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "理論の（　）を検証する。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>口伝心授<rt>くでんしんじゅ</rt></ruby>",
-          "<ruby>栄転する<rt>えいてんする</rt></ruby>",
-          "<ruby>代理権<rt>だいりけん</rt></ruby>",
-          "<ruby>窺わせる<rt>うかがわせる</rt></ruby>"
+          "欠陥",
+          "矛盾",
+          "正当性",
+          "不整合"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N1-18-012"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な分析が求められる。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>市況<rt>しきょう</rt></ruby>",
-          "<ruby>母語干渉<rt>ぼごかんしょう</rt></ruby>",
-          "<ruby>対位法<rt>たいいほう</rt></ruby>",
-          "<ruby>計算機科学<rt>けいさんきかがく</rt></ruby>"
+          "不十分",
+          "杜撰",
+          "粗雑",
+          "緻密"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N1-18-013"
       },
       {
@@ -30239,93 +30239,93 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この政策は（　）な改革を目指している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>動揺<rt>どうよう</rt></ruby>",
-          "<ruby>格好<rt>かっこう</rt></ruby>",
-          "<ruby>詳述する<rt>しょうじゅつする</rt></ruby>",
-          "<ruby>自粛する<rt>じしゅくする</rt></ruby>"
+          "抜本的",
+          "一時的",
+          "部分的",
+          "形式的"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N1-19-007"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）な判断が評価された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>関わる<rt>かかわる</rt></ruby>",
-          "<ruby>触れる<rt>ふれる</rt></ruby>",
-          "<ruby>困難<rt>こんなん</rt></ruby>",
-          "<ruby>届ける<rt>とどける</rt></ruby>"
+          "杜撰",
+          "曖昧",
+          "的確",
+          "軽率"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N1-19-008"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な対応が求められる局面だ。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>和む<rt>なごむ</rt></ruby>",
-          "<ruby>着く<rt>つく</rt></ruby>",
-          "<ruby>設える<rt>しつらえる</rt></ruby>",
-          "<ruby>幹細胞<rt>かんさいぼう</rt></ruby>"
+          "消極的",
+          "無責任",
+          "曖昧",
+          "果敢"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N1-19-009"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "問題の（　）を明らかにする必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>諦める<rt>あきらめる</rt></ruby>",
-          "<ruby>陥れる<rt>おとしいれる</rt></ruby>",
-          "<ruby>物<rt>もの</rt></ruby>",
-          "<ruby>遼遠な<rt>りょうえんな</rt></ruby>"
+          "原因",
+          "外観",
+          "印象",
+          "表面"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N1-19-010"
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な議論が展開された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>机上の空論<rt>きじょうのくうろん</rt></ruby>",
-          "<ruby>数学<rt>すうがく</rt></ruby>",
-          "<ruby>物件<rt>ぶっけん</rt></ruby>",
-          "<ruby>秩序正しく<rt>ちつじょただしく</rt></ruby>"
+          "本格的",
+          "形式的",
+          "消極的",
+          "表面的"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N1-19-011"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "理論の（　）を検証する。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>限定<rt>げんてい</rt></ruby>",
-          "<ruby>資する<rt>しする</rt></ruby>",
-          "<ruby>再編成<rt>さいへんせい</rt></ruby>",
-          "<ruby>薬<rt>くすり</rt></ruby>"
+          "破綻",
+          "不整合",
+          "正当性",
+          "矛盾"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N1-19-012"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な分析が求められる。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>基地<rt>きち</rt></ruby>",
-          "<ruby>景況<rt>けいきょう</rt></ruby>",
-          "はっきりと",
-          "<ruby>前者<rt>ぜんしゃ</rt></ruby>"
+          "徹底的",
+          "大雑把",
+          "杜撰",
+          "粗雑"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N1-19-013"
       },
       {
@@ -31914,91 +31914,91 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この政策は（　）な改革を目指している。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>踏み込む<rt>ふみこむ</rt></ruby>",
-          "<ruby>肝<rt>きも</rt></ruby>",
-          "<ruby>怒り<rt>いかり</rt></ruby>",
-          "<ruby>切れ目なく<rt>きれめなく</rt></ruby>"
+          "表面的",
+          "本格的",
+          "形式的",
+          "部分的"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N1-20-007"
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の（　）な判断が評価された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>深遠<rt>しんえん</rt></ruby>",
-          "<ruby>設計<rt>せっけい</rt></ruby>",
-          "<ruby>小型<rt>こがた</rt></ruby>",
-          "<ruby>気まぐれ<rt>きまぐれ</rt></ruby>"
+          "適切",
+          "安易",
+          "杜撰",
+          "曖昧"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N1-20-008"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な対応が求められる局面だ。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>所産<rt>しょさん</rt></ruby>",
-          "<ruby>悟る<rt>さとる</rt></ruby>",
-          "<ruby>活気<rt>かっき</rt></ruby>",
-          "<ruby>歩く<rt>あるく</rt></ruby>"
+          "消極的",
+          "果敢",
+          "曖昧",
+          "優柔不断"
         ],
         "answer": 1,
         "id": "N1-20-009"
       },
       {
         "type": "文脈規定",
-        "text": "この<ruby>政策<rt>せいさく</rt></ruby>は（　）な<ruby>改革<rt>かいかく</rt></ruby>を<ruby>目<rt>め</rt></ruby><ruby>指<rt>ゆび</rt></ruby>している。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "問題の（　）を明らかにする必要がある。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>準備万端<rt>じゅんびばんたん</rt></ruby>",
-          "<ruby>情緒<rt>じょうちょ</rt></ruby>",
-          "<ruby>応じ<rt>おうじ</rt></ruby>",
-          "<ruby>限界<rt>げんかい</rt></ruby>"
+          "雰囲気",
+          "印象",
+          "外観",
+          "本質"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N1-20-010"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）な<ruby>判断<rt>はんだん</rt></ruby>が<ruby>評価<rt>ひょうか</rt></ruby>された。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な議論が展開された。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>神出鬼没<rt>しんしゅつきぼつ</rt></ruby>",
-          "<ruby>被害<rt>ひがい</rt></ruby>",
-          "<ruby>記述<rt>きじゅつ</rt></ruby>",
-          "たいてい"
+          "形式的",
+          "消極的",
+          "本格的",
+          "散漫"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N1-20-011"
       },
       {
         "type": "文脈規定",
-        "text": "（　）な<ruby>対応<rt>たいおう</rt></ruby>が求められる<ruby>局面<rt>きょくめん</rt></ruby>だ。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "理論の（　）を検証する。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "<ruby>情緒<rt>じょうちょ</rt></ruby>",
-          "<ruby>一時停止<rt>いちじていし</rt></ruby>",
-          "<ruby>唯物<rt>ゆいぶつ</rt></ruby>",
-          "<ruby>幽居<rt>ゆうきょ</rt></ruby>"
+          "欠陥",
+          "破綻",
+          "有効性",
+          "不整合"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N1-20-012"
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>の（　）を<ruby>明らかにする<rt>あきらかにする</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby>がある。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "（　）な分析が求められる。",
+        "question": "（　）に入れるのに最もよいものを選んでください。",
         "options": [
-          "くつがえす",
-          "<ruby>茂る<rt>しげる</rt></ruby>",
-          "<ruby>飢える<rt>うえる</rt></ruby>",
-          "<ruby>洞窟<rt>どうくつ</rt></ruby>"
+          "不十分",
+          "大雑把",
+          "徹底的",
+          "杜撰"
         ],
         "answer": 2,
         "id": "N1-20-013"
