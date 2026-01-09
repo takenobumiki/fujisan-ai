@@ -1,21288 +1,19813 @@
-// N5 Mock Test Data - v18.5.0
-// Total: 1640, Unique: 1630, Dup rate: 0.6%
+// N5 Mock Test Data - v18.6.0
+// Total: 1520, Unique: 503, Dup rate: 66.9%
 if (typeof MOCK_DATA === 'undefined') { var MOCK_DATA = {}; }
 MOCK_DATA['N5'] = {
-  "info": {"level": "N5", "totalSets": 20, "questionsPerSet": 82, "timeLimit": 105},
+  "info": {
+    "level": "N5",
+    "totalSets": 20,
+    "questionsPerSet": 76,
+    "timeLimit": 90
+  },
   "sets": {
-  "1": [
-    {
-      "id": "N5-01-001",
-      "type": "漢字読み",
-      "text": "<u>日</u>を読んでください。",
-      "question": "「日」の読み方は？",
-      "options": [
-        "ひう",
-        "ひい",
-        "ひえ",
-        "ひ"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-01-002",
-      "type": "漢字読み",
-      "text": "<u>月</u>を読んでください。",
-      "question": "「月」の読み方は？",
-      "options": [
-        "つきえ",
-        "つきう",
-        "つき",
-        "つきい"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-01-003",
-      "type": "漢字読み",
-      "text": "<u>火</u>を読んでください。",
-      "question": "「火」の読み方は？",
-      "options": [
-        "ひい",
-        "ひえ",
-        "ひう",
-        "ひ"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-01-004",
-      "type": "漢字読み",
-      "text": "<u>水</u>を読んでください。",
-      "question": "「水」の読み方は？",
-      "options": [
-        "みずい",
-        "みずう",
-        "みず",
-        "みずえ"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-01-005",
-      "type": "表記",
-      "text": "<u>ひ</u>の漢字は？",
-      "question": "「ひ」の書き方は？",
-      "options": [
-        "日々",
-        "々日",
-        "日々",
-        "日"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-01-006",
-      "type": "表記",
-      "text": "<u>つき</u>の漢字は？",
-      "question": "「つき」の書き方は？",
-      "options": [
-        "月々",
-        "月々",
-        "々月",
-        "月"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-01-007",
-      "type": "表記",
-      "text": "<u>ひ</u>の漢字は？",
-      "question": "「ひ」の書き方は？",
-      "options": [
-        "々火",
-        "火々",
-        "火",
-        "火々"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-01-008",
-      "type": "表記",
-      "text": "<u>みず</u>の漢字は？",
-      "question": "「みず」の書き方は？",
-      "options": [
-        "水々",
-        "水々",
-        "水",
-        "々水"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-01-009",
-      "type": "文脈規定",
-      "text": "今日は（　）がいいです。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "天気",
-        "元気",
-        "電気",
-        "空気"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-01-010",
-      "type": "文脈規定",
-      "text": "私は毎日（　）を読みます。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "新品",
-        "新人",
-        "新聞",
-        "新年"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-01-011",
-      "type": "文脈規定",
-      "text": "（　）に電話してください。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "もう",
-        "まだ",
-        "よく",
-        "すぐ"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-01-012",
-      "type": "文脈規定",
-      "text": "この本は（　）面白いです。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "すこし",
-        "あまり",
-        "たくさん",
-        "とても"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-01-013",
-      "type": "文法",
-      "text": "S1Q1:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-01-014",
-      "type": "文法",
-      "text": "S1Q2:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-01-015",
-      "type": "文法",
-      "text": "S1Q3:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-01-016",
-      "type": "文法",
-      "text": "S1Q4:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-01-017",
-      "type": "文法",
-      "text": "S1Q5:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-01-018",
-      "type": "文法",
-      "text": "S1Q6:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-01-019",
-      "type": "文法",
-      "text": "S1Q7:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-01-020",
-      "type": "文法",
-      "text": "S1Q8:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-01-021",
-      "type": "文法",
-      "text": "S1Q9:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-01-022",
-      "type": "文法",
-      "text": "S1Q10:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-01-023",
-      "type": "読解",
-      "text": "S1Q1:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-01-024",
-      "type": "読解",
-      "text": "S1Q2:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-01-025",
-      "type": "読解",
-      "text": "S1Q3:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-01-026",
-      "type": "読解",
-      "text": "S1Q4:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-01-027",
-      "type": "読解",
-      "text": "S1Q5:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-01-028",
-      "type": "読解",
-      "text": "S1Q6:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-01-029",
-      "type": "読解",
-      "text": "S1Q7:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-01-030",
-      "type": "読解",
-      "text": "S1Q8:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-01-031",
-      "type": "読解",
-      "text": "S1Q9:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-01-032",
-      "type": "読解",
-      "text": "S1Q10:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-01-033",
-      "type": "聴解",
-      "text": "S1Q1:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-01-034",
-      "type": "聴解",
-      "text": "S1Q2:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-01-035",
-      "type": "聴解",
-      "text": "S1Q3:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-01-036",
-      "type": "聴解",
-      "text": "S1Q4:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-01-037",
-      "type": "聴解",
-      "text": "S1Q5:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-01-038",
-      "type": "聴解",
-      "text": "S1Q6:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-01-039",
-      "type": "聴解",
-      "text": "S1Q7:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-01-040",
-      "type": "聴解",
-      "text": "S1Q8:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-01-041",
-      "type": "聴解",
-      "text": "S1Q9:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-01-042",
-      "type": "聴解",
-      "text": "S1Q10:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-01-043",
-      "type": "聴解",
-      "text": "S1Q11:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-01-044",
-      "type": "聴解",
-      "text": "S1Q12:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-01-045",
-      "type": "聴解",
-      "text": "S1Q13:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-01-046",
-      "type": "聴解",
-      "text": "S1Q14:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-01-047",
-      "type": "聴解",
-      "text": "S1Q15:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-01-048",
-      "type": "聴解",
-      "text": "S1Q16:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-01-049",
-      "type": "即時応答",
-      "text": "S1Q1: おはようございます。",
-      "question": "何と答えますか。",
-      "options": [
-        "おはようございます。",
-        "こんにちは。",
-        "こんばんは。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-01-050",
-      "type": "即時応答",
-      "text": "S1Q2: ありがとうございます。",
-      "question": "何と答えますか。",
-      "options": [
-        "どういたしまして。",
-        "すみません。",
-        "ごめんなさい。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-01-051",
-      "type": "即時応答",
-      "text": "S1Q3: すみません。",
-      "question": "何と答えますか。",
-      "options": [
-        "いいえ。",
-        "はい。",
-        "どうも。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-01-052",
-      "type": "即時応答",
-      "text": "S1Q4: お元気ですか。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、元気です。",
-        "いいえ、元気です。",
-        "はい、大丈夫です。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-01-053",
-      "type": "その他",
-      "text": "S1Q1:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-01-054",
-      "type": "その他",
-      "text": "S1Q2:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-01-055",
-      "type": "その他",
-      "text": "S1Q3:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-01-056",
-      "type": "その他",
-      "text": "S1Q4:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-01-057",
-      "type": "その他",
-      "text": "S1Q5:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-01-058",
-      "type": "その他",
-      "text": "S1Q6:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-01-059",
-      "type": "その他",
-      "text": "S1Q7:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-01-060",
-      "type": "その他",
-      "text": "S1Q8:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-01-061",
-      "type": "その他",
-      "text": "S1Q9:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-01-062",
-      "type": "その他",
-      "text": "S1Q10:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-01-063",
-      "type": "その他",
-      "text": "S1Q11:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-01-064",
-      "type": "その他",
-      "text": "S1Q12:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-01-065",
-      "type": "その他",
-      "text": "S1Q13:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-01-066",
-      "type": "その他",
-      "text": "S1Q14:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-01-067",
-      "type": "その他",
-      "text": "S1Q15:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-01-068",
-      "type": "その他",
-      "text": "S1Q16:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-01-069",
-      "type": "その他",
-      "text": "S1Q17:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-01-070",
-      "type": "その他",
-      "text": "S1Q18:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-01-071",
-      "type": "その他",
-      "text": "S1Q19:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-01-072",
-      "type": "その他",
-      "text": "S1Q20:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-01-073",
-      "type": "その他",
-      "text": "S1Q21:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-01-074",
-      "type": "その他",
-      "text": "S1Q22:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-01-075",
-      "type": "その他",
-      "text": "S1Q23:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-01-076",
-      "type": "その他",
-      "text": "S1Q24:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-01-077",
-      "type": "その他",
-      "text": "S1Q25:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-01-078",
-      "type": "その他",
-      "text": "S1Q26:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-01-079",
-      "type": "その他",
-      "text": "S1Q27:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-01-080",
-      "type": "その他",
-      "text": "S1Q28:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-01-081",
-      "type": "その他",
-      "text": "S1Q29:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-01-082",
-      "type": "その他",
-      "text": "S1Q30:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    }
-  ],
-  "2": [
-    {
-      "id": "N5-02-001",
-      "type": "漢字読み",
-      "text": "<u>木</u>を読んでください。",
-      "question": "「木」の読み方は？",
-      "options": [
-        "きえ",
-        "きい",
-        "き",
-        "きう"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-02-002",
-      "type": "漢字読み",
-      "text": "<u>金</u>を読んでください。",
-      "question": "「金」の読み方は？",
-      "options": [
-        "かねう",
-        "かねえ",
-        "かねい",
-        "かね"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-02-003",
-      "type": "漢字読み",
-      "text": "<u>土</u>を読んでください。",
-      "question": "「土」の読み方は？",
-      "options": [
-        "つち",
-        "つちい",
-        "つちえ",
-        "つちう"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-02-004",
-      "type": "漢字読み",
-      "text": "<u>山</u>を読んでください。",
-      "question": "「山」の読み方は？",
-      "options": [
-        "やまえ",
-        "やま",
-        "やまう",
-        "やまい"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-02-005",
-      "type": "表記",
-      "text": "<u>き</u>の漢字は？",
-      "question": "「き」の書き方は？",
-      "options": [
-        "木々",
-        "木々",
-        "々木",
-        "木"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-02-006",
-      "type": "表記",
-      "text": "<u>かね</u>の漢字は？",
-      "question": "「かね」の書き方は？",
-      "options": [
-        "金々",
-        "金々",
-        "金",
-        "々金"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-02-007",
-      "type": "表記",
-      "text": "<u>つち</u>の漢字は？",
-      "question": "「つち」の書き方は？",
-      "options": [
-        "土々",
-        "々土",
-        "土々",
-        "土"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-02-008",
-      "type": "表記",
-      "text": "<u>やま</u>の漢字は？",
-      "question": "「やま」の書き方は？",
-      "options": [
-        "山",
-        "山々",
-        "々山",
-        "山々"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-02-009",
-      "type": "文脈規定",
-      "text": "駅まで（　）で行きます。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "電車",
-        "電気",
-        "電池",
-        "電話"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-02-010",
-      "type": "文脈規定",
-      "text": "日曜日は（　）が休みです。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "学校",
-        "学期",
-        "学年",
-        "学生"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-02-011",
-      "type": "文脈規定",
-      "text": "（　）を食べましたか。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "昼ご飯",
-        "夜ご飯",
-        "晩ご飯",
-        "朝ご飯"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-02-012",
-      "type": "文脈規定",
-      "text": "この店は（　）が安いです。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "金額",
-        "料金",
-        "値段",
-        "代金"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-02-013",
-      "type": "文法",
-      "text": "S2Q1:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-02-014",
-      "type": "文法",
-      "text": "S2Q2:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-02-015",
-      "type": "文法",
-      "text": "S2Q3:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-02-016",
-      "type": "文法",
-      "text": "S2Q4:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-02-017",
-      "type": "文法",
-      "text": "S2Q5:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-02-018",
-      "type": "文法",
-      "text": "S2Q6:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-02-019",
-      "type": "文法",
-      "text": "S2Q7:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-02-020",
-      "type": "文法",
-      "text": "S2Q8:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-02-021",
-      "type": "文法",
-      "text": "S2Q9:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-02-022",
-      "type": "文法",
-      "text": "S2Q10:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-02-023",
-      "type": "読解",
-      "text": "S2Q1:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-02-024",
-      "type": "読解",
-      "text": "S2Q2:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-02-025",
-      "type": "読解",
-      "text": "S2Q3:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-02-026",
-      "type": "読解",
-      "text": "S2Q4:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-02-027",
-      "type": "読解",
-      "text": "S2Q5:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-02-028",
-      "type": "読解",
-      "text": "S2Q6:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-02-029",
-      "type": "読解",
-      "text": "S2Q7:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-02-030",
-      "type": "読解",
-      "text": "S2Q8:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-02-031",
-      "type": "読解",
-      "text": "S2Q9:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-02-032",
-      "type": "読解",
-      "text": "S2Q10:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-02-033",
-      "type": "聴解",
-      "text": "S2Q1:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-02-034",
-      "type": "聴解",
-      "text": "S2Q2:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-02-035",
-      "type": "聴解",
-      "text": "S2Q3:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-02-036",
-      "type": "聴解",
-      "text": "S2Q4:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-02-037",
-      "type": "聴解",
-      "text": "S2Q5:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-02-038",
-      "type": "聴解",
-      "text": "S2Q6:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-02-039",
-      "type": "聴解",
-      "text": "S2Q7:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-02-040",
-      "type": "聴解",
-      "text": "S2Q8:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-02-041",
-      "type": "聴解",
-      "text": "S2Q9:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-02-042",
-      "type": "聴解",
-      "text": "S2Q10:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-02-043",
-      "type": "聴解",
-      "text": "S2Q11:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-02-044",
-      "type": "聴解",
-      "text": "S2Q12:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-02-045",
-      "type": "聴解",
-      "text": "S2Q13:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-02-046",
-      "type": "聴解",
-      "text": "S2Q14:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-02-047",
-      "type": "聴解",
-      "text": "S2Q15:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-02-048",
-      "type": "聴解",
-      "text": "S2Q16:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-02-049",
-      "type": "即時応答",
-      "text": "S2Q1: お名前は？",
-      "question": "何と答えますか。",
-      "options": [
-        "田中です。",
-        "日本です。",
-        "学生です。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-02-050",
-      "type": "即時応答",
-      "text": "S2Q2: 何歳ですか。",
-      "question": "何と答えますか。",
-      "options": [
-        "20歳です。",
-        "20時です。",
-        "20円です。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-02-051",
-      "type": "即時応答",
-      "text": "S2Q3: これは何ですか。",
-      "question": "何と答えますか。",
-      "options": [
-        "本です。",
-        "本でした。",
-        "本でしょう。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-02-052",
-      "type": "即時応答",
-      "text": "S2Q4: いくらですか。",
-      "question": "何と答えますか。",
-      "options": [
-        "500円です。",
-        "500人です。",
-        "500個です。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-02-053",
-      "type": "その他",
-      "text": "S2Q1:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-02-054",
-      "type": "その他",
-      "text": "S2Q2:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-02-055",
-      "type": "その他",
-      "text": "S2Q3:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-02-056",
-      "type": "その他",
-      "text": "S2Q4:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-02-057",
-      "type": "その他",
-      "text": "S2Q5:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-02-058",
-      "type": "その他",
-      "text": "S2Q6:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-02-059",
-      "type": "その他",
-      "text": "S2Q7:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-02-060",
-      "type": "その他",
-      "text": "S2Q8:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-02-061",
-      "type": "その他",
-      "text": "S2Q9:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-02-062",
-      "type": "その他",
-      "text": "S2Q10:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-02-063",
-      "type": "その他",
-      "text": "S2Q11:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-02-064",
-      "type": "その他",
-      "text": "S2Q12:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-02-065",
-      "type": "その他",
-      "text": "S2Q13:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-02-066",
-      "type": "その他",
-      "text": "S2Q14:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-02-067",
-      "type": "その他",
-      "text": "S2Q15:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-02-068",
-      "type": "その他",
-      "text": "S2Q16:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-02-069",
-      "type": "その他",
-      "text": "S2Q17:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-02-070",
-      "type": "その他",
-      "text": "S2Q18:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-02-071",
-      "type": "その他",
-      "text": "S2Q19:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-02-072",
-      "type": "その他",
-      "text": "S2Q20:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-02-073",
-      "type": "その他",
-      "text": "S2Q21:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-02-074",
-      "type": "その他",
-      "text": "S2Q22:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-02-075",
-      "type": "その他",
-      "text": "S2Q23:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-02-076",
-      "type": "その他",
-      "text": "S2Q24:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-02-077",
-      "type": "その他",
-      "text": "S2Q25:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-02-078",
-      "type": "その他",
-      "text": "S2Q26:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-02-079",
-      "type": "その他",
-      "text": "S2Q27:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-02-080",
-      "type": "その他",
-      "text": "S2Q28:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-02-081",
-      "type": "その他",
-      "text": "S2Q29:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-02-082",
-      "type": "その他",
-      "text": "S2Q30:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    }
-  ],
-  "3": [
-    {
-      "id": "N5-03-001",
-      "type": "漢字読み",
-      "text": "<u>川</u>を読んでください。",
-      "question": "「川」の読み方は？",
-      "options": [
-        "かわう",
-        "かわ",
-        "かわい",
-        "かわえ"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-03-002",
-      "type": "漢字読み",
-      "text": "<u>田</u>を読んでください。",
-      "question": "「田」の読み方は？",
-      "options": [
-        "たい",
-        "たえ",
-        "た",
-        "たう"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-03-003",
-      "type": "漢字読み",
-      "text": "<u>人</u>を読んでください。",
-      "question": "「人」の読み方は？",
-      "options": [
-        "ひとえ",
-        "ひとう",
-        "ひとい",
-        "ひと"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-03-004",
-      "type": "漢字読み",
-      "text": "<u>口</u>を読んでください。",
-      "question": "「口」の読み方は？",
-      "options": [
-        "くちい",
-        "くちえ",
-        "くち",
-        "くちう"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-03-005",
-      "type": "表記",
-      "text": "<u>かわ</u>の漢字は？",
-      "question": "「かわ」の書き方は？",
-      "options": [
-        "川々",
-        "川々",
-        "川",
-        "々川"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-03-006",
-      "type": "表記",
-      "text": "<u>た</u>の漢字は？",
-      "question": "「た」の書き方は？",
-      "options": [
-        "田",
-        "田々",
-        "々田",
-        "田々"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-03-007",
-      "type": "表記",
-      "text": "<u>ひと</u>の漢字は？",
-      "question": "「ひと」の書き方は？",
-      "options": [
-        "々人",
-        "人",
-        "人々",
-        "人々"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-03-008",
-      "type": "表記",
-      "text": "<u>くち</u>の漢字は？",
-      "question": "「くち」の書き方は？",
-      "options": [
-        "口",
-        "口々",
-        "々口",
-        "口々"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-03-009",
-      "type": "文脈規定",
-      "text": "友達と（　）に行きます。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "買い物",
-        "食べ物",
-        "飲み物",
-        "着物"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-03-010",
-      "type": "文脈規定",
-      "text": "今日は（　）ですね。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "熱い",
-        "篤い",
-        "暑い",
-        "厚い"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-03-011",
-      "type": "文脈規定",
-      "text": "（　）を開けてください。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "門",
-        "戸",
-        "窓",
-        "扉"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-03-012",
-      "type": "文脈規定",
-      "text": "お茶を（　）ください。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "どこか",
-        "どなた",
-        "どちら",
-        "どうぞ"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-03-013",
-      "type": "文法",
-      "text": "S3Q1:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-03-014",
-      "type": "文法",
-      "text": "S3Q2:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-03-015",
-      "type": "文法",
-      "text": "S3Q3:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-03-016",
-      "type": "文法",
-      "text": "S3Q4:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-03-017",
-      "type": "文法",
-      "text": "S3Q5:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-03-018",
-      "type": "文法",
-      "text": "S3Q6:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-03-019",
-      "type": "文法",
-      "text": "S3Q7:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-03-020",
-      "type": "文法",
-      "text": "S3Q8:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-03-021",
-      "type": "文法",
-      "text": "S3Q9:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-03-022",
-      "type": "文法",
-      "text": "S3Q10:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-03-023",
-      "type": "読解",
-      "text": "S3Q1:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-03-024",
-      "type": "読解",
-      "text": "S3Q2:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-03-025",
-      "type": "読解",
-      "text": "S3Q3:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-03-026",
-      "type": "読解",
-      "text": "S3Q4:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-03-027",
-      "type": "読解",
-      "text": "S3Q5:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-03-028",
-      "type": "読解",
-      "text": "S3Q6:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-03-029",
-      "type": "読解",
-      "text": "S3Q7:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-03-030",
-      "type": "読解",
-      "text": "S3Q8:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-03-031",
-      "type": "読解",
-      "text": "S3Q9:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-03-032",
-      "type": "読解",
-      "text": "S3Q10:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-03-033",
-      "type": "聴解",
-      "text": "S3Q1:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-03-034",
-      "type": "聴解",
-      "text": "S3Q2:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-03-035",
-      "type": "聴解",
-      "text": "S3Q3:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-03-036",
-      "type": "聴解",
-      "text": "S3Q4:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-03-037",
-      "type": "聴解",
-      "text": "S3Q5:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-03-038",
-      "type": "聴解",
-      "text": "S3Q6:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-03-039",
-      "type": "聴解",
-      "text": "S3Q7:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-03-040",
-      "type": "聴解",
-      "text": "S3Q8:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-03-041",
-      "type": "聴解",
-      "text": "S3Q9:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-03-042",
-      "type": "聴解",
-      "text": "S3Q10:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-03-043",
-      "type": "聴解",
-      "text": "S3Q11:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-03-044",
-      "type": "聴解",
-      "text": "S3Q12:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-03-045",
-      "type": "聴解",
-      "text": "S3Q13:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-03-046",
-      "type": "聴解",
-      "text": "S3Q14:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-03-047",
-      "type": "聴解",
-      "text": "S3Q15:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-03-048",
-      "type": "聴解",
-      "text": "S3Q16:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-03-049",
-      "type": "即時応答",
-      "text": "S3Q1: どこですか。",
-      "question": "何と答えますか。",
-      "options": [
-        "あそこです。",
-        "あれです。",
-        "あの人です。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-03-050",
-      "type": "即時応答",
-      "text": "S3Q2: いつですか。",
-      "question": "何と答えますか。",
-      "options": [
-        "明日です。",
-        "ここです。",
-        "これです。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-03-051",
-      "type": "即時応答",
-      "text": "S3Q3: だれですか。",
-      "question": "何と答えますか。",
-      "options": [
-        "友達です。",
-        "友達でした。",
-        "友達でしょう。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-03-052",
-      "type": "即時応答",
-      "text": "S3Q4: コーヒーはいかがですか。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、お願いします。",
-        "いいえ、お願いします。",
-        "はい、結構です。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-03-053",
-      "type": "その他",
-      "text": "S3Q1:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-03-054",
-      "type": "その他",
-      "text": "S3Q2:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-03-055",
-      "type": "その他",
-      "text": "S3Q3:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-03-056",
-      "type": "その他",
-      "text": "S3Q4:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-03-057",
-      "type": "その他",
-      "text": "S3Q5:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-03-058",
-      "type": "その他",
-      "text": "S3Q6:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-03-059",
-      "type": "その他",
-      "text": "S3Q7:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-03-060",
-      "type": "その他",
-      "text": "S3Q8:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-03-061",
-      "type": "その他",
-      "text": "S3Q9:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-03-062",
-      "type": "その他",
-      "text": "S3Q10:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-03-063",
-      "type": "その他",
-      "text": "S3Q11:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-03-064",
-      "type": "その他",
-      "text": "S3Q12:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-03-065",
-      "type": "その他",
-      "text": "S3Q13:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-03-066",
-      "type": "その他",
-      "text": "S3Q14:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-03-067",
-      "type": "その他",
-      "text": "S3Q15:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-03-068",
-      "type": "その他",
-      "text": "S3Q16:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-03-069",
-      "type": "その他",
-      "text": "S3Q17:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-03-070",
-      "type": "その他",
-      "text": "S3Q18:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-03-071",
-      "type": "その他",
-      "text": "S3Q19:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-03-072",
-      "type": "その他",
-      "text": "S3Q20:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-03-073",
-      "type": "その他",
-      "text": "S3Q21:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-03-074",
-      "type": "その他",
-      "text": "S3Q22:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-03-075",
-      "type": "その他",
-      "text": "S3Q23:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-03-076",
-      "type": "その他",
-      "text": "S3Q24:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-03-077",
-      "type": "その他",
-      "text": "S3Q25:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-03-078",
-      "type": "その他",
-      "text": "S3Q26:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-03-079",
-      "type": "その他",
-      "text": "S3Q27:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-03-080",
-      "type": "その他",
-      "text": "S3Q28:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-03-081",
-      "type": "その他",
-      "text": "S3Q29:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-03-082",
-      "type": "その他",
-      "text": "S3Q30:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    }
-  ],
-  "4": [
-    {
-      "id": "N5-04-001",
-      "type": "漢字読み",
-      "text": "<u>目</u>を読んでください。",
-      "question": "「目」の読み方は？",
-      "options": [
-        "めい",
-        "め",
-        "めう",
-        "めえ"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-04-002",
-      "type": "漢字読み",
-      "text": "<u>耳</u>を読んでください。",
-      "question": "「耳」の読み方は？",
-      "options": [
-        "みみ",
-        "みみう",
-        "みみい",
-        "みみえ"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-04-003",
-      "type": "漢字読み",
-      "text": "<u>手</u>を読んでください。",
-      "question": "「手」の読み方は？",
-      "options": [
-        "てい",
-        "て",
-        "てえ",
-        "てう"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-04-004",
-      "type": "漢字読み",
-      "text": "<u>足</u>を読んでください。",
-      "question": "「足」の読み方は？",
-      "options": [
-        "あしえ",
-        "あしい",
-        "あしう",
-        "あし"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-04-005",
-      "type": "表記",
-      "text": "<u>め</u>の漢字は？",
-      "question": "「め」の書き方は？",
-      "options": [
-        "目々",
-        "目々",
-        "目",
-        "々目"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-04-006",
-      "type": "表記",
-      "text": "<u>みみ</u>の漢字は？",
-      "question": "「みみ」の書き方は？",
-      "options": [
-        "々耳",
-        "耳々",
-        "耳",
-        "耳々"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-04-007",
-      "type": "表記",
-      "text": "<u>て</u>の漢字は？",
-      "question": "「て」の書き方は？",
-      "options": [
-        "手々",
-        "手々",
-        "々手",
-        "手"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-04-008",
-      "type": "表記",
-      "text": "<u>あし</u>の漢字は？",
-      "question": "「あし」の書き方は？",
-      "options": [
-        "足々",
-        "足",
-        "々足",
-        "足々"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-04-009",
-      "type": "文脈規定",
-      "text": "明日は（　）が降るでしょう。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "雪",
-        "雨",
-        "雲",
-        "風"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-04-010",
-      "type": "文脈規定",
-      "text": "この映画は（　）です。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "匿名",
-        "有名",
-        "実名",
-        "無名"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-04-011",
-      "type": "文脈規定",
-      "text": "私の（　）は東京です。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "出席",
-        "出発",
-        "出口",
-        "出身"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-04-012",
-      "type": "文脈規定",
-      "text": "（　）に住んでいます。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "デパート",
-        "コンサート",
-        "アパート",
-        "スポーツ"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-04-013",
-      "type": "文法",
-      "text": "S4Q1:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-04-014",
-      "type": "文法",
-      "text": "S4Q2:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-04-015",
-      "type": "文法",
-      "text": "S4Q3:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-04-016",
-      "type": "文法",
-      "text": "S4Q4:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-04-017",
-      "type": "文法",
-      "text": "S4Q5:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-04-018",
-      "type": "文法",
-      "text": "S4Q6:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-04-019",
-      "type": "文法",
-      "text": "S4Q7:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-04-020",
-      "type": "文法",
-      "text": "S4Q8:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-04-021",
-      "type": "文法",
-      "text": "S4Q9:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-04-022",
-      "type": "文法",
-      "text": "S4Q10:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-04-023",
-      "type": "読解",
-      "text": "S4Q1:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-04-024",
-      "type": "読解",
-      "text": "S4Q2:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-04-025",
-      "type": "読解",
-      "text": "S4Q3:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-04-026",
-      "type": "読解",
-      "text": "S4Q4:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-04-027",
-      "type": "読解",
-      "text": "S4Q5:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-04-028",
-      "type": "読解",
-      "text": "S4Q6:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-04-029",
-      "type": "読解",
-      "text": "S4Q7:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-04-030",
-      "type": "読解",
-      "text": "S4Q8:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-04-031",
-      "type": "読解",
-      "text": "S4Q9:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-04-032",
-      "type": "読解",
-      "text": "S4Q10:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-04-033",
-      "type": "聴解",
-      "text": "S4Q1:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-04-034",
-      "type": "聴解",
-      "text": "S4Q2:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-04-035",
-      "type": "聴解",
-      "text": "S4Q3:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-04-036",
-      "type": "聴解",
-      "text": "S4Q4:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-04-037",
-      "type": "聴解",
-      "text": "S4Q5:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-04-038",
-      "type": "聴解",
-      "text": "S4Q6:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-04-039",
-      "type": "聴解",
-      "text": "S4Q7:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-04-040",
-      "type": "聴解",
-      "text": "S4Q8:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-04-041",
-      "type": "聴解",
-      "text": "S4Q9:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-04-042",
-      "type": "聴解",
-      "text": "S4Q10:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-04-043",
-      "type": "聴解",
-      "text": "S4Q11:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-04-044",
-      "type": "聴解",
-      "text": "S4Q12:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-04-045",
-      "type": "聴解",
-      "text": "S4Q13:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-04-046",
-      "type": "聴解",
-      "text": "S4Q14:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-04-047",
-      "type": "聴解",
-      "text": "S4Q15:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-04-048",
-      "type": "聴解",
-      "text": "S4Q16:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-04-049",
-      "type": "即時応答",
-      "text": "S4Q1: お水をください。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、どうぞ。",
-        "いいえ、どうぞ。",
-        "はい、ください。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-04-050",
-      "type": "即時応答",
-      "text": "S4Q2: 今日は暑いですね。",
-      "question": "何と答えますか。",
-      "options": [
-        "そうですね。",
-        "いいえ、暑いです。",
-        "はい、寒いです。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-04-051",
-      "type": "即時応答",
-      "text": "S4Q3: いただきます。",
-      "question": "何と答えますか。",
-      "options": [
-        "どうぞ。",
-        "ごちそうさま。",
-        "すみません。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-04-052",
-      "type": "即時応答",
-      "text": "S4Q4: ごちそうさまでした。",
-      "question": "何と答えますか。",
-      "options": [
-        "お粗末さまでした。",
-        "いただきます。",
-        "どういたしまして。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-04-053",
-      "type": "その他",
-      "text": "S4Q1:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-04-054",
-      "type": "その他",
-      "text": "S4Q2:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-04-055",
-      "type": "その他",
-      "text": "S4Q3:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-04-056",
-      "type": "その他",
-      "text": "S4Q4:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-04-057",
-      "type": "その他",
-      "text": "S4Q5:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-04-058",
-      "type": "その他",
-      "text": "S4Q6:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-04-059",
-      "type": "その他",
-      "text": "S4Q7:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-04-060",
-      "type": "その他",
-      "text": "S4Q8:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-04-061",
-      "type": "その他",
-      "text": "S4Q9:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-04-062",
-      "type": "その他",
-      "text": "S4Q10:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-04-063",
-      "type": "その他",
-      "text": "S4Q11:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-04-064",
-      "type": "その他",
-      "text": "S4Q12:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-04-065",
-      "type": "その他",
-      "text": "S4Q13:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-04-066",
-      "type": "その他",
-      "text": "S4Q14:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-04-067",
-      "type": "その他",
-      "text": "S4Q15:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-04-068",
-      "type": "その他",
-      "text": "S4Q16:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-04-069",
-      "type": "その他",
-      "text": "S4Q17:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-04-070",
-      "type": "その他",
-      "text": "S4Q18:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-04-071",
-      "type": "その他",
-      "text": "S4Q19:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-04-072",
-      "type": "その他",
-      "text": "S4Q20:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-04-073",
-      "type": "その他",
-      "text": "S4Q21:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-04-074",
-      "type": "その他",
-      "text": "S4Q22:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-04-075",
-      "type": "その他",
-      "text": "S4Q23:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-04-076",
-      "type": "その他",
-      "text": "S4Q24:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-04-077",
-      "type": "その他",
-      "text": "S4Q25:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-04-078",
-      "type": "その他",
-      "text": "S4Q26:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-04-079",
-      "type": "その他",
-      "text": "S4Q27:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-04-080",
-      "type": "その他",
-      "text": "S4Q28:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-04-081",
-      "type": "その他",
-      "text": "S4Q29:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-04-082",
-      "type": "その他",
-      "text": "S4Q30:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    }
-  ],
-  "5": [
-    {
-      "id": "N5-05-001",
-      "type": "漢字読み",
-      "text": "<u>力</u>を読んでください。",
-      "question": "「力」の読み方は？",
-      "options": [
-        "ちからえ",
-        "ちから",
-        "ちからい",
-        "ちからう"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-05-002",
-      "type": "漢字読み",
-      "text": "<u>男</u>を読んでください。",
-      "question": "「男」の読み方は？",
-      "options": [
-        "おとこい",
-        "おとこう",
-        "おとこえ",
-        "おとこ"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-05-003",
-      "type": "漢字読み",
-      "text": "<u>女</u>を読んでください。",
-      "question": "「女」の読み方は？",
-      "options": [
-        "おんなえ",
-        "おんない",
-        "おんなう",
-        "おんな"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-05-004",
-      "type": "漢字読み",
-      "text": "<u>子</u>を読んでください。",
-      "question": "「子」の読み方は？",
-      "options": [
-        "こい",
-        "こえ",
-        "こう",
-        "こ"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-05-005",
-      "type": "表記",
-      "text": "<u>ちから</u>の漢字は？",
-      "question": "「ちから」の書き方は？",
-      "options": [
-        "力",
-        "力々",
-        "々力",
-        "力々"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-05-006",
-      "type": "表記",
-      "text": "<u>おとこ</u>の漢字は？",
-      "question": "「おとこ」の書き方は？",
-      "options": [
-        "男",
-        "々男",
-        "男々",
-        "男々"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-05-007",
-      "type": "表記",
-      "text": "<u>おんな</u>の漢字は？",
-      "question": "「おんな」の書き方は？",
-      "options": [
-        "女々",
-        "女",
-        "々女",
-        "女々"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-05-008",
-      "type": "表記",
-      "text": "<u>こ</u>の漢字は？",
-      "question": "「こ」の書き方は？",
-      "options": [
-        "子",
-        "子々",
-        "子々",
-        "々子"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-05-009",
-      "type": "文脈規定",
-      "text": "バスの（　）はどこですか。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "乗り場",
-        "売り場",
-        "置き場",
-        "広場"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-05-010",
-      "type": "文脈規定",
-      "text": "時計が（　）います。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "割れて",
-        "折れて",
-        "切れて",
-        "壊れて"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-05-011",
-      "type": "文脈規定",
-      "text": "この花は（　）がいいです。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "音",
-        "形",
-        "味",
-        "色"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-05-012",
-      "type": "文脈規定",
-      "text": "（　）を持っていますか。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "鞄",
-        "傘",
-        "帽子",
-        "靴"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-05-013",
-      "type": "文法",
-      "text": "S5Q1:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-05-014",
-      "type": "文法",
-      "text": "S5Q2:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-05-015",
-      "type": "文法",
-      "text": "S5Q3:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-05-016",
-      "type": "文法",
-      "text": "S5Q4:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-05-017",
-      "type": "文法",
-      "text": "S5Q5:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-05-018",
-      "type": "文法",
-      "text": "S5Q6:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-05-019",
-      "type": "文法",
-      "text": "S5Q7:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-05-020",
-      "type": "文法",
-      "text": "S5Q8:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-05-021",
-      "type": "文法",
-      "text": "S5Q9:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-05-022",
-      "type": "文法",
-      "text": "S5Q10:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-05-023",
-      "type": "読解",
-      "text": "S5Q1:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-05-024",
-      "type": "読解",
-      "text": "S5Q2:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-05-025",
-      "type": "読解",
-      "text": "S5Q3:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-05-026",
-      "type": "読解",
-      "text": "S5Q4:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-05-027",
-      "type": "読解",
-      "text": "S5Q5:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-05-028",
-      "type": "読解",
-      "text": "S5Q6:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-05-029",
-      "type": "読解",
-      "text": "S5Q7:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-05-030",
-      "type": "読解",
-      "text": "S5Q8:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-05-031",
-      "type": "読解",
-      "text": "S5Q9:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-05-032",
-      "type": "読解",
-      "text": "S5Q10:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-05-033",
-      "type": "聴解",
-      "text": "S5Q1:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-05-034",
-      "type": "聴解",
-      "text": "S5Q2:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-05-035",
-      "type": "聴解",
-      "text": "S5Q3:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-05-036",
-      "type": "聴解",
-      "text": "S5Q4:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-05-037",
-      "type": "聴解",
-      "text": "S5Q5:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-05-038",
-      "type": "聴解",
-      "text": "S5Q6:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-05-039",
-      "type": "聴解",
-      "text": "S5Q7:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-05-040",
-      "type": "聴解",
-      "text": "S5Q8:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-05-041",
-      "type": "聴解",
-      "text": "S5Q9:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-05-042",
-      "type": "聴解",
-      "text": "S5Q10:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-05-043",
-      "type": "聴解",
-      "text": "S5Q11:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-05-044",
-      "type": "聴解",
-      "text": "S5Q12:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-05-045",
-      "type": "聴解",
-      "text": "S5Q13:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-05-046",
-      "type": "聴解",
-      "text": "S5Q14:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-05-047",
-      "type": "聴解",
-      "text": "S5Q15:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-05-048",
-      "type": "聴解",
-      "text": "S5Q16:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-05-049",
-      "type": "即時応答",
-      "text": "S5Q1: 行ってきます。",
-      "question": "何と答えますか。",
-      "options": [
-        "行ってらっしゃい。",
-        "ただいま。",
-        "おかえりなさい。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-05-050",
-      "type": "即時応答",
-      "text": "S5Q2: ただいま。",
-      "question": "何と答えますか。",
-      "options": [
-        "おかえりなさい。",
-        "行ってきます。",
-        "行ってらっしゃい。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-05-051",
-      "type": "即時応答",
-      "text": "S5Q3: おやすみなさい。",
-      "question": "何と答えますか。",
-      "options": [
-        "おやすみなさい。",
-        "おはようございます。",
-        "こんにちは。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-05-052",
-      "type": "即時応答",
-      "text": "S5Q4: さようなら。",
-      "question": "何と答えますか。",
-      "options": [
-        "さようなら。",
-        "こんにちは。",
-        "おはようございます。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-05-053",
-      "type": "その他",
-      "text": "S5Q1:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-05-054",
-      "type": "その他",
-      "text": "S5Q2:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-05-055",
-      "type": "その他",
-      "text": "S5Q3:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-05-056",
-      "type": "その他",
-      "text": "S5Q4:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-05-057",
-      "type": "その他",
-      "text": "S5Q5:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-05-058",
-      "type": "その他",
-      "text": "S5Q6:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-05-059",
-      "type": "その他",
-      "text": "S5Q7:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-05-060",
-      "type": "その他",
-      "text": "S5Q8:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-05-061",
-      "type": "その他",
-      "text": "S5Q9:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-05-062",
-      "type": "その他",
-      "text": "S5Q10:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-05-063",
-      "type": "その他",
-      "text": "S5Q11:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-05-064",
-      "type": "その他",
-      "text": "S5Q12:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-05-065",
-      "type": "その他",
-      "text": "S5Q13:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-05-066",
-      "type": "その他",
-      "text": "S5Q14:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-05-067",
-      "type": "その他",
-      "text": "S5Q15:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-05-068",
-      "type": "その他",
-      "text": "S5Q16:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-05-069",
-      "type": "その他",
-      "text": "S5Q17:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-05-070",
-      "type": "その他",
-      "text": "S5Q18:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-05-071",
-      "type": "その他",
-      "text": "S5Q19:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-05-072",
-      "type": "その他",
-      "text": "S5Q20:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-05-073",
-      "type": "その他",
-      "text": "S5Q21:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-05-074",
-      "type": "その他",
-      "text": "S5Q22:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-05-075",
-      "type": "その他",
-      "text": "S5Q23:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-05-076",
-      "type": "その他",
-      "text": "S5Q24:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-05-077",
-      "type": "その他",
-      "text": "S5Q25:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-05-078",
-      "type": "その他",
-      "text": "S5Q26:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-05-079",
-      "type": "その他",
-      "text": "S5Q27:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-05-080",
-      "type": "その他",
-      "text": "S5Q28:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-05-081",
-      "type": "その他",
-      "text": "S5Q29:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-05-082",
-      "type": "その他",
-      "text": "S5Q30:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    }
-  ],
-  "6": [
-    {
-      "id": "N5-06-001",
-      "type": "漢字読み",
-      "text": "<u>父</u>を読んでください。",
-      "question": "「父」の読み方は？",
-      "options": [
-        "ちちい",
-        "ちちう",
-        "ちちえ",
-        "ちち"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-06-002",
-      "type": "漢字読み",
-      "text": "<u>母</u>を読んでください。",
-      "question": "「母」の読み方は？",
-      "options": [
-        "ははえ",
-        "ははう",
-        "はは",
-        "ははい"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-06-003",
-      "type": "漢字読み",
-      "text": "<u>友</u>を読んでください。",
-      "question": "「友」の読み方は？",
-      "options": [
-        "ともい",
-        "ともえ",
-        "とも",
-        "ともう"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-06-004",
-      "type": "漢字読み",
-      "text": "<u>先</u>を読んでください。",
-      "question": "「先」の読み方は？",
-      "options": [
-        "さき",
-        "さきい",
-        "さきえ",
-        "さきう"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-06-005",
-      "type": "表記",
-      "text": "<u>ちち</u>の漢字は？",
-      "question": "「ちち」の書き方は？",
-      "options": [
-        "父々",
-        "父",
-        "々父",
-        "父々"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-06-006",
-      "type": "表記",
-      "text": "<u>はは</u>の漢字は？",
-      "question": "「はは」の書き方は？",
-      "options": [
-        "々母",
-        "母々",
-        "母",
-        "母々"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-06-007",
-      "type": "表記",
-      "text": "<u>とも</u>の漢字は？",
-      "question": "「とも」の書き方は？",
-      "options": [
-        "友々",
-        "々友",
-        "友",
-        "友々"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-06-008",
-      "type": "表記",
-      "text": "<u>さき</u>の漢字は？",
-      "question": "「さき」の書き方は？",
-      "options": [
-        "先々",
-        "先々",
-        "々先",
-        "先"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-06-009",
-      "type": "文脈規定",
-      "text": "日本語を（　）います。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "勉強して",
-        "掃除して",
-        "練習して",
-        "運動して"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-06-010",
-      "type": "文脈規定",
-      "text": "この道を（　）行ってください。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "すぐに",
-        "まっすぐ",
-        "急に",
-        "静かに"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-06-011",
-      "type": "文脈規定",
-      "text": "電車が（　）です。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "籠んで",
-        "込んで",
-        "濃んで",
-        "混んで"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-06-012",
-      "type": "文脈規定",
-      "text": "（　）はいくらですか。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "切手",
-        "写真",
-        "切符",
-        "手紙"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-06-013",
-      "type": "文法",
-      "text": "S6Q1:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-06-014",
-      "type": "文法",
-      "text": "S6Q2:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-06-015",
-      "type": "文法",
-      "text": "S6Q3:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-06-016",
-      "type": "文法",
-      "text": "S6Q4:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-06-017",
-      "type": "文法",
-      "text": "S6Q5:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-06-018",
-      "type": "文法",
-      "text": "S6Q6:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-06-019",
-      "type": "文法",
-      "text": "S6Q7:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-06-020",
-      "type": "文法",
-      "text": "S6Q8:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-06-021",
-      "type": "文法",
-      "text": "S6Q9:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-06-022",
-      "type": "文法",
-      "text": "S6Q10:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-06-023",
-      "type": "読解",
-      "text": "S6Q1:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-06-024",
-      "type": "読解",
-      "text": "S6Q2:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-06-025",
-      "type": "読解",
-      "text": "S6Q3:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-06-026",
-      "type": "読解",
-      "text": "S6Q4:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-06-027",
-      "type": "読解",
-      "text": "S6Q5:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-06-028",
-      "type": "読解",
-      "text": "S6Q6:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-06-029",
-      "type": "読解",
-      "text": "S6Q7:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-06-030",
-      "type": "読解",
-      "text": "S6Q8:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-06-031",
-      "type": "読解",
-      "text": "S6Q9:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-06-032",
-      "type": "読解",
-      "text": "S6Q10:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-06-033",
-      "type": "聴解",
-      "text": "S6Q1:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-06-034",
-      "type": "聴解",
-      "text": "S6Q2:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-06-035",
-      "type": "聴解",
-      "text": "S6Q3:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-06-036",
-      "type": "聴解",
-      "text": "S6Q4:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-06-037",
-      "type": "聴解",
-      "text": "S6Q5:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-06-038",
-      "type": "聴解",
-      "text": "S6Q6:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-06-039",
-      "type": "聴解",
-      "text": "S6Q7:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-06-040",
-      "type": "聴解",
-      "text": "S6Q8:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-06-041",
-      "type": "聴解",
-      "text": "S6Q9:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-06-042",
-      "type": "聴解",
-      "text": "S6Q10:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-06-043",
-      "type": "聴解",
-      "text": "S6Q11:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-06-044",
-      "type": "聴解",
-      "text": "S6Q12:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-06-045",
-      "type": "聴解",
-      "text": "S6Q13:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-06-046",
-      "type": "聴解",
-      "text": "S6Q14:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-06-047",
-      "type": "聴解",
-      "text": "S6Q15:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-06-048",
-      "type": "聴解",
-      "text": "S6Q16:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-06-049",
-      "type": "即時応答",
-      "text": "S6Q1: はじめまして。",
-      "question": "何と答えますか。",
-      "options": [
-        "はじめまして。",
-        "お久しぶりです。",
-        "お元気ですか。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-06-050",
-      "type": "即時応答",
-      "text": "S6Q2: よろしくお願いします。",
-      "question": "何と答えますか。",
-      "options": [
-        "こちらこそ。",
-        "どういたしまして。",
-        "すみません。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-06-051",
-      "type": "即時応答",
-      "text": "S6Q3: 失礼します。",
-      "question": "何と答えますか。",
-      "options": [
-        "どうぞ。",
-        "すみません。",
-        "ありがとう。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-06-052",
-      "type": "即時応答",
-      "text": "S6Q4: お大事に。",
-      "question": "何と答えますか。",
-      "options": [
-        "ありがとうございます。",
-        "すみません。",
-        "ごめんなさい。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-06-053",
-      "type": "その他",
-      "text": "S6Q1:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-06-054",
-      "type": "その他",
-      "text": "S6Q2:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-06-055",
-      "type": "その他",
-      "text": "S6Q3:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-06-056",
-      "type": "その他",
-      "text": "S6Q4:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-06-057",
-      "type": "その他",
-      "text": "S6Q5:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-06-058",
-      "type": "その他",
-      "text": "S6Q6:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-06-059",
-      "type": "その他",
-      "text": "S6Q7:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-06-060",
-      "type": "その他",
-      "text": "S6Q8:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-06-061",
-      "type": "その他",
-      "text": "S6Q9:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-06-062",
-      "type": "その他",
-      "text": "S6Q10:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-06-063",
-      "type": "その他",
-      "text": "S6Q11:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-06-064",
-      "type": "その他",
-      "text": "S6Q12:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-06-065",
-      "type": "その他",
-      "text": "S6Q13:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-06-066",
-      "type": "その他",
-      "text": "S6Q14:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-06-067",
-      "type": "その他",
-      "text": "S6Q15:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-06-068",
-      "type": "その他",
-      "text": "S6Q16:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-06-069",
-      "type": "その他",
-      "text": "S6Q17:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-06-070",
-      "type": "その他",
-      "text": "S6Q18:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-06-071",
-      "type": "その他",
-      "text": "S6Q19:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-06-072",
-      "type": "その他",
-      "text": "S6Q20:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-06-073",
-      "type": "その他",
-      "text": "S6Q21:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-06-074",
-      "type": "その他",
-      "text": "S6Q22:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-06-075",
-      "type": "その他",
-      "text": "S6Q23:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-06-076",
-      "type": "その他",
-      "text": "S6Q24:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-06-077",
-      "type": "その他",
-      "text": "S6Q25:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-06-078",
-      "type": "その他",
-      "text": "S6Q26:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-06-079",
-      "type": "その他",
-      "text": "S6Q27:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-06-080",
-      "type": "その他",
-      "text": "S6Q28:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-06-081",
-      "type": "その他",
-      "text": "S6Q29:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-06-082",
-      "type": "その他",
-      "text": "S6Q30:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    }
-  ],
-  "7": [
-    {
-      "id": "N5-07-001",
-      "type": "漢字読み",
-      "text": "<u>生</u>を読んでください。",
-      "question": "「生」の読み方は？",
-      "options": [
-        "せいう",
-        "せいえ",
-        "せい",
-        "せいい"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-07-002",
-      "type": "漢字読み",
-      "text": "<u>学</u>を読んでください。",
-      "question": "「学」の読み方は？",
-      "options": [
-        "がくう",
-        "がく",
-        "がくえ",
-        "がくい"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-07-003",
-      "type": "漢字読み",
-      "text": "<u>校</u>を読んでください。",
-      "question": "「校」の読み方は？",
-      "options": [
-        "こうえ",
-        "こう",
-        "こうい",
-        "こうう"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-07-004",
-      "type": "漢字読み",
-      "text": "<u>本</u>を読んでください。",
-      "question": "「本」の読み方は？",
-      "options": [
-        "ほんう",
-        "ほんえ",
-        "ほんい",
-        "ほん"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-07-005",
-      "type": "表記",
-      "text": "<u>せい</u>の漢字は？",
-      "question": "「せい」の書き方は？",
-      "options": [
-        "生々",
-        "生々",
-        "々生",
-        "生"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-07-006",
-      "type": "表記",
-      "text": "<u>がく</u>の漢字は？",
-      "question": "「がく」の書き方は？",
-      "options": [
-        "学々",
-        "々学",
-        "学々",
-        "学"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-07-007",
-      "type": "表記",
-      "text": "<u>こう</u>の漢字は？",
-      "question": "「こう」の書き方は？",
-      "options": [
-        "校",
-        "々校",
-        "校々",
-        "校々"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-07-008",
-      "type": "表記",
-      "text": "<u>ほん</u>の漢字は？",
-      "question": "「ほん」の書き方は？",
-      "options": [
-        "々本",
-        "本",
-        "本々",
-        "本々"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-07-009",
-      "type": "文脈規定",
-      "text": "お腹が（　）ました。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "明き",
-        "空き",
-        "飽き",
-        "開き"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-07-010",
-      "type": "文脈規定",
-      "text": "部屋を（　）にしてください。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "きれい",
-        "丈夫",
-        "元気",
-        "静か"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-07-011",
-      "type": "文脈規定",
-      "text": "（　）に会いたいです。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "皆さん",
-        "どこか",
-        "誰か",
-        "何か"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-07-012",
-      "type": "文脈規定",
-      "text": "明日の（　）は何ですか。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "予想",
-        "予算",
-        "予定",
-        "予約"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-07-013",
-      "type": "文法",
-      "text": "S7Q1:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-07-014",
-      "type": "文法",
-      "text": "S7Q2:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-07-015",
-      "type": "文法",
-      "text": "S7Q3:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-07-016",
-      "type": "文法",
-      "text": "S7Q4:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-07-017",
-      "type": "文法",
-      "text": "S7Q5:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-07-018",
-      "type": "文法",
-      "text": "S7Q6:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-07-019",
-      "type": "文法",
-      "text": "S7Q7:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-07-020",
-      "type": "文法",
-      "text": "S7Q8:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-07-021",
-      "type": "文法",
-      "text": "S7Q9:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-07-022",
-      "type": "文法",
-      "text": "S7Q10:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-07-023",
-      "type": "読解",
-      "text": "S7Q1:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-07-024",
-      "type": "読解",
-      "text": "S7Q2:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-07-025",
-      "type": "読解",
-      "text": "S7Q3:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-07-026",
-      "type": "読解",
-      "text": "S7Q4:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-07-027",
-      "type": "読解",
-      "text": "S7Q5:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-07-028",
-      "type": "読解",
-      "text": "S7Q6:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-07-029",
-      "type": "読解",
-      "text": "S7Q7:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-07-030",
-      "type": "読解",
-      "text": "S7Q8:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-07-031",
-      "type": "読解",
-      "text": "S7Q9:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-07-032",
-      "type": "読解",
-      "text": "S7Q10:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-07-033",
-      "type": "聴解",
-      "text": "S7Q1:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-07-034",
-      "type": "聴解",
-      "text": "S7Q2:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-07-035",
-      "type": "聴解",
-      "text": "S7Q3:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-07-036",
-      "type": "聴解",
-      "text": "S7Q4:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-07-037",
-      "type": "聴解",
-      "text": "S7Q5:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-07-038",
-      "type": "聴解",
-      "text": "S7Q6:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-07-039",
-      "type": "聴解",
-      "text": "S7Q7:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-07-040",
-      "type": "聴解",
-      "text": "S7Q8:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-07-041",
-      "type": "聴解",
-      "text": "S7Q9:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-07-042",
-      "type": "聴解",
-      "text": "S7Q10:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-07-043",
-      "type": "聴解",
-      "text": "S7Q11:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-07-044",
-      "type": "聴解",
-      "text": "S7Q12:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-07-045",
-      "type": "聴解",
-      "text": "S7Q13:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-07-046",
-      "type": "聴解",
-      "text": "S7Q14:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-07-047",
-      "type": "聴解",
-      "text": "S7Q15:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-07-048",
-      "type": "聴解",
-      "text": "S7Q16:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-07-049",
-      "type": "即時応答",
-      "text": "S7Q1: お誕生日おめでとう。",
-      "question": "何と答えますか。",
-      "options": [
-        "ありがとう。",
-        "すみません。",
-        "ごめんなさい。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-07-050",
-      "type": "即時応答",
-      "text": "S7Q2: 明日会いましょう。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、楽しみです。",
-        "いいえ、会いません。",
-        "はい、会いました。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-07-051",
-      "type": "即時応答",
-      "text": "S7Q3: 電話番号を教えてください。",
-      "question": "何と答えますか。",
-      "options": [
-        "090-1234-5678です。",
-        "東京です。",
-        "田中です。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-07-052",
-      "type": "即時応答",
-      "text": "S7Q4: この席、空いていますか。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、どうぞ。",
-        "いいえ、座ります。",
-        "はい、立っています。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-07-053",
-      "type": "その他",
-      "text": "S7Q1:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-07-054",
-      "type": "その他",
-      "text": "S7Q2:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-07-055",
-      "type": "その他",
-      "text": "S7Q3:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-07-056",
-      "type": "その他",
-      "text": "S7Q4:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-07-057",
-      "type": "その他",
-      "text": "S7Q5:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-07-058",
-      "type": "その他",
-      "text": "S7Q6:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-07-059",
-      "type": "その他",
-      "text": "S7Q7:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-07-060",
-      "type": "その他",
-      "text": "S7Q8:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-07-061",
-      "type": "その他",
-      "text": "S7Q9:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-07-062",
-      "type": "その他",
-      "text": "S7Q10:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-07-063",
-      "type": "その他",
-      "text": "S7Q11:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-07-064",
-      "type": "その他",
-      "text": "S7Q12:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-07-065",
-      "type": "その他",
-      "text": "S7Q13:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-07-066",
-      "type": "その他",
-      "text": "S7Q14:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-07-067",
-      "type": "その他",
-      "text": "S7Q15:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-07-068",
-      "type": "その他",
-      "text": "S7Q16:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-07-069",
-      "type": "その他",
-      "text": "S7Q17:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-07-070",
-      "type": "その他",
-      "text": "S7Q18:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-07-071",
-      "type": "その他",
-      "text": "S7Q19:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-07-072",
-      "type": "その他",
-      "text": "S7Q20:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-07-073",
-      "type": "その他",
-      "text": "S7Q21:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-07-074",
-      "type": "その他",
-      "text": "S7Q22:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-07-075",
-      "type": "その他",
-      "text": "S7Q23:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-07-076",
-      "type": "その他",
-      "text": "S7Q24:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-07-077",
-      "type": "その他",
-      "text": "S7Q25:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-07-078",
-      "type": "その他",
-      "text": "S7Q26:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-07-079",
-      "type": "その他",
-      "text": "S7Q27:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-07-080",
-      "type": "その他",
-      "text": "S7Q28:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-07-081",
-      "type": "その他",
-      "text": "S7Q29:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-07-082",
-      "type": "その他",
-      "text": "S7Q30:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    }
-  ],
-  "8": [
-    {
-      "id": "N5-08-001",
-      "type": "漢字読み",
-      "text": "<u>名</u>を読んでください。",
-      "question": "「名」の読み方は？",
-      "options": [
-        "なえ",
-        "なう",
-        "な",
-        "ない"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-08-002",
-      "type": "漢字読み",
-      "text": "<u>何</u>を読んでください。",
-      "question": "「何」の読み方は？",
-      "options": [
-        "なにい",
-        "なにえ",
-        "なに",
-        "なにう"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-08-003",
-      "type": "漢字読み",
-      "text": "<u>今</u>を読んでください。",
-      "question": "「今」の読み方は？",
-      "options": [
-        "いまい",
-        "いま",
-        "いまう",
-        "いまえ"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-08-004",
-      "type": "漢字読み",
-      "text": "<u>午</u>を読んでください。",
-      "question": "「午」の読み方は？",
-      "options": [
-        "ごい",
-        "ごえ",
-        "ごう",
-        "ご"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-08-005",
-      "type": "表記",
-      "text": "<u>な</u>の漢字は？",
-      "question": "「な」の書き方は？",
-      "options": [
-        "名々",
-        "々名",
-        "名",
-        "名々"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-08-006",
-      "type": "表記",
-      "text": "<u>なに</u>の漢字は？",
-      "question": "「なに」の書き方は？",
-      "options": [
-        "々何",
-        "何",
-        "何々",
-        "何々"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-08-007",
-      "type": "表記",
-      "text": "<u>いま</u>の漢字は？",
-      "question": "「いま」の書き方は？",
-      "options": [
-        "今々",
-        "今",
-        "々今",
-        "今々"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-08-008",
-      "type": "表記",
-      "text": "<u>ご</u>の漢字は？",
-      "question": "「ご」の書き方は？",
-      "options": [
-        "午々",
-        "々午",
-        "午々",
-        "午"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-08-009",
-      "type": "文脈規定",
-      "text": "（　）を閉めてください。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "テレビ",
-        "カーテン",
-        "ドア",
-        "スイッチ"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-08-010",
-      "type": "文脈規定",
-      "text": "この料理は（　）です。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "辛い",
-        "酸い",
-        "甘い",
-        "苦い"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-08-011",
-      "type": "文脈規定",
-      "text": "（　）をつけてください。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "電気",
-        "空気",
-        "天気",
-        "元気"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-08-012",
-      "type": "文脈規定",
-      "text": "夏は（　）が長いです。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "夜",
-        "昼",
-        "朝",
-        "晩"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-08-013",
-      "type": "文法",
-      "text": "S8Q1:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-08-014",
-      "type": "文法",
-      "text": "S8Q2:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-08-015",
-      "type": "文法",
-      "text": "S8Q3:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-08-016",
-      "type": "文法",
-      "text": "S8Q4:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-08-017",
-      "type": "文法",
-      "text": "S8Q5:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-08-018",
-      "type": "文法",
-      "text": "S8Q6:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-08-019",
-      "type": "文法",
-      "text": "S8Q7:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-08-020",
-      "type": "文法",
-      "text": "S8Q8:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-08-021",
-      "type": "文法",
-      "text": "S8Q9:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-08-022",
-      "type": "文法",
-      "text": "S8Q10:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-08-023",
-      "type": "読解",
-      "text": "S8Q1:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-08-024",
-      "type": "読解",
-      "text": "S8Q2:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-08-025",
-      "type": "読解",
-      "text": "S8Q3:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-08-026",
-      "type": "読解",
-      "text": "S8Q4:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-08-027",
-      "type": "読解",
-      "text": "S8Q5:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-08-028",
-      "type": "読解",
-      "text": "S8Q6:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-08-029",
-      "type": "読解",
-      "text": "S8Q7:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-08-030",
-      "type": "読解",
-      "text": "S8Q8:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-08-031",
-      "type": "読解",
-      "text": "S8Q9:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-08-032",
-      "type": "読解",
-      "text": "S8Q10:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-08-033",
-      "type": "聴解",
-      "text": "S8Q1:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-08-034",
-      "type": "聴解",
-      "text": "S8Q2:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-08-035",
-      "type": "聴解",
-      "text": "S8Q3:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-08-036",
-      "type": "聴解",
-      "text": "S8Q4:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-08-037",
-      "type": "聴解",
-      "text": "S8Q5:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-08-038",
-      "type": "聴解",
-      "text": "S8Q6:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-08-039",
-      "type": "聴解",
-      "text": "S8Q7:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-08-040",
-      "type": "聴解",
-      "text": "S8Q8:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-08-041",
-      "type": "聴解",
-      "text": "S8Q9:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-08-042",
-      "type": "聴解",
-      "text": "S8Q10:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-08-043",
-      "type": "聴解",
-      "text": "S8Q11:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-08-044",
-      "type": "聴解",
-      "text": "S8Q12:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-08-045",
-      "type": "聴解",
-      "text": "S8Q13:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-08-046",
-      "type": "聴解",
-      "text": "S8Q14:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-08-047",
-      "type": "聴解",
-      "text": "S8Q15:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-08-048",
-      "type": "聴解",
-      "text": "S8Q16:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-08-049",
-      "type": "即時応答",
-      "text": "S8Q1: 写真を撮ってもいいですか。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、どうぞ。",
-        "いいえ、撮ってください。",
-        "はい、撮りません。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-08-050",
-      "type": "即時応答",
-      "text": "S8Q2: トイレはどこですか。",
-      "question": "何と答えますか。",
-      "options": [
-        "あちらです。",
-        "あれです。",
-        "あの人です。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-08-051",
-      "type": "即時応答",
-      "text": "S8Q3: 日本語が上手ですね。",
-      "question": "何と答えますか。",
-      "options": [
-        "いいえ、まだまだです。",
-        "はい、下手です。",
-        "いいえ、上手です。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-08-052",
-      "type": "即時応答",
-      "text": "S8Q4: お仕事は何ですか。",
-      "question": "何と答えますか。",
-      "options": [
-        "会社員です。",
-        "会社です。",
-        "仕事です。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-08-053",
-      "type": "その他",
-      "text": "S8Q1:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-08-054",
-      "type": "その他",
-      "text": "S8Q2:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-08-055",
-      "type": "その他",
-      "text": "S8Q3:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-08-056",
-      "type": "その他",
-      "text": "S8Q4:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-08-057",
-      "type": "その他",
-      "text": "S8Q5:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-08-058",
-      "type": "その他",
-      "text": "S8Q6:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-08-059",
-      "type": "その他",
-      "text": "S8Q7:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-08-060",
-      "type": "その他",
-      "text": "S8Q8:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-08-061",
-      "type": "その他",
-      "text": "S8Q9:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-08-062",
-      "type": "その他",
-      "text": "S8Q10:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-08-063",
-      "type": "その他",
-      "text": "S8Q11:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-08-064",
-      "type": "その他",
-      "text": "S8Q12:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-08-065",
-      "type": "その他",
-      "text": "S8Q13:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-08-066",
-      "type": "その他",
-      "text": "S8Q14:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-08-067",
-      "type": "その他",
-      "text": "S8Q15:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-08-068",
-      "type": "その他",
-      "text": "S8Q16:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-08-069",
-      "type": "その他",
-      "text": "S8Q17:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-08-070",
-      "type": "その他",
-      "text": "S8Q18:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-08-071",
-      "type": "その他",
-      "text": "S8Q19:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-08-072",
-      "type": "その他",
-      "text": "S8Q20:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-08-073",
-      "type": "その他",
-      "text": "S8Q21:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-08-074",
-      "type": "その他",
-      "text": "S8Q22:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-08-075",
-      "type": "その他",
-      "text": "S8Q23:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-08-076",
-      "type": "その他",
-      "text": "S8Q24:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-08-077",
-      "type": "その他",
-      "text": "S8Q25:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-08-078",
-      "type": "その他",
-      "text": "S8Q26:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-08-079",
-      "type": "その他",
-      "text": "S8Q27:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-08-080",
-      "type": "その他",
-      "text": "S8Q28:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-08-081",
-      "type": "その他",
-      "text": "S8Q29:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-08-082",
-      "type": "その他",
-      "text": "S8Q30:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    }
-  ],
-  "9": [
-    {
-      "id": "N5-09-001",
-      "type": "漢字読み",
-      "text": "<u>前</u>を読んでください。",
-      "question": "「前」の読み方は？",
-      "options": [
-        "まえう",
-        "まええ",
-        "まえい",
-        "まえ"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-09-002",
-      "type": "漢字読み",
-      "text": "<u>後</u>を読んでください。",
-      "question": "「後」の読み方は？",
-      "options": [
-        "うしろい",
-        "うしろえ",
-        "うしろう",
-        "うしろ"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-09-003",
-      "type": "漢字読み",
-      "text": "<u>上</u>を読んでください。",
-      "question": "「上」の読み方は？",
-      "options": [
-        "うええ",
-        "うえい",
-        "うえ",
-        "うえう"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-09-004",
-      "type": "漢字読み",
-      "text": "<u>下</u>を読んでください。",
-      "question": "「下」の読み方は？",
-      "options": [
-        "したう",
-        "したい",
-        "したえ",
-        "した"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-09-005",
-      "type": "表記",
-      "text": "<u>まえ</u>の漢字は？",
-      "question": "「まえ」の書き方は？",
-      "options": [
-        "前々",
-        "前々",
-        "前",
-        "々前"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-09-006",
-      "type": "表記",
-      "text": "<u>うしろ</u>の漢字は？",
-      "question": "「うしろ」の書き方は？",
-      "options": [
-        "後々",
-        "後",
-        "後々",
-        "々後"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-09-007",
-      "type": "表記",
-      "text": "<u>うえ</u>の漢字は？",
-      "question": "「うえ」の書き方は？",
-      "options": [
-        "上々",
-        "上",
-        "上々",
-        "々上"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-09-008",
-      "type": "表記",
-      "text": "<u>した</u>の漢字は？",
-      "question": "「した」の書き方は？",
-      "options": [
-        "々下",
-        "下",
-        "下々",
-        "下々"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-09-009",
-      "type": "文脈規定",
-      "text": "（　）を払ってください。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "お茶",
-        "お米",
-        "お酒",
-        "お金"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-09-010",
-      "type": "文脈規定",
-      "text": "この本は（　）です。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "嬉しい",
-        "難しい",
-        "易しい",
-        "優しい"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-09-011",
-      "type": "文脈規定",
-      "text": "（　）を忘れました。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "話題",
-        "問題",
-        "宿題",
-        "課題"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-09-012",
-      "type": "文脈規定",
-      "text": "今日は（　）があります。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "仕事",
-        "用事",
-        "返事",
-        "食事"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-09-013",
-      "type": "文法",
-      "text": "S9Q1:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-09-014",
-      "type": "文法",
-      "text": "S9Q2:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-09-015",
-      "type": "文法",
-      "text": "S9Q3:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-09-016",
-      "type": "文法",
-      "text": "S9Q4:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-09-017",
-      "type": "文法",
-      "text": "S9Q5:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-09-018",
-      "type": "文法",
-      "text": "S9Q6:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-09-019",
-      "type": "文法",
-      "text": "S9Q7:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-09-020",
-      "type": "文法",
-      "text": "S9Q8:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-09-021",
-      "type": "文法",
-      "text": "S9Q9:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-09-022",
-      "type": "文法",
-      "text": "S9Q10:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-09-023",
-      "type": "読解",
-      "text": "S9Q1:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-09-024",
-      "type": "読解",
-      "text": "S9Q2:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-09-025",
-      "type": "読解",
-      "text": "S9Q3:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-09-026",
-      "type": "読解",
-      "text": "S9Q4:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-09-027",
-      "type": "読解",
-      "text": "S9Q5:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-09-028",
-      "type": "読解",
-      "text": "S9Q6:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-09-029",
-      "type": "読解",
-      "text": "S9Q7:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-09-030",
-      "type": "読解",
-      "text": "S9Q8:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-09-031",
-      "type": "読解",
-      "text": "S9Q9:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-09-032",
-      "type": "読解",
-      "text": "S9Q10:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-09-033",
-      "type": "聴解",
-      "text": "S9Q1:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-09-034",
-      "type": "聴解",
-      "text": "S9Q2:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-09-035",
-      "type": "聴解",
-      "text": "S9Q3:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-09-036",
-      "type": "聴解",
-      "text": "S9Q4:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-09-037",
-      "type": "聴解",
-      "text": "S9Q5:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-09-038",
-      "type": "聴解",
-      "text": "S9Q6:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-09-039",
-      "type": "聴解",
-      "text": "S9Q7:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-09-040",
-      "type": "聴解",
-      "text": "S9Q8:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-09-041",
-      "type": "聴解",
-      "text": "S9Q9:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-09-042",
-      "type": "聴解",
-      "text": "S9Q10:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-09-043",
-      "type": "聴解",
-      "text": "S9Q11:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-09-044",
-      "type": "聴解",
-      "text": "S9Q12:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-09-045",
-      "type": "聴解",
-      "text": "S9Q13:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-09-046",
-      "type": "聴解",
-      "text": "S9Q14:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-09-047",
-      "type": "聴解",
-      "text": "S9Q15:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-09-048",
-      "type": "聴解",
-      "text": "S9Q16:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-09-049",
-      "type": "即時応答",
-      "text": "S9Q1: 趣味は何ですか。",
-      "question": "何と答えますか。",
-      "options": [
-        "読書です。",
-        "読書します。",
-        "読書しました。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-09-050",
-      "type": "即時応答",
-      "text": "S9Q2: 何か飲みますか。",
-      "question": "何と答えますか。",
-      "options": [
-        "お茶をください。",
-        "お茶を飲みました。",
-        "お茶が好きです。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-09-051",
-      "type": "即時応答",
-      "text": "S9Q3: 今何時ですか。",
-      "question": "何と答えますか。",
-      "options": [
-        "3時です。",
-        "3日です。",
-        "3人です。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-09-052",
-      "type": "即時応答",
-      "text": "S9Q4: 明日暇ですか。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、暇です。",
-        "いいえ、暇です。",
-        "はい、忙しいです。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-09-053",
-      "type": "その他",
-      "text": "S9Q1:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-09-054",
-      "type": "その他",
-      "text": "S9Q2:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-09-055",
-      "type": "その他",
-      "text": "S9Q3:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-09-056",
-      "type": "その他",
-      "text": "S9Q4:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-09-057",
-      "type": "その他",
-      "text": "S9Q5:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-09-058",
-      "type": "その他",
-      "text": "S9Q6:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-09-059",
-      "type": "その他",
-      "text": "S9Q7:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-09-060",
-      "type": "その他",
-      "text": "S9Q8:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-09-061",
-      "type": "その他",
-      "text": "S9Q9:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-09-062",
-      "type": "その他",
-      "text": "S9Q10:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-09-063",
-      "type": "その他",
-      "text": "S9Q11:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-09-064",
-      "type": "その他",
-      "text": "S9Q12:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-09-065",
-      "type": "その他",
-      "text": "S9Q13:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-09-066",
-      "type": "その他",
-      "text": "S9Q14:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-09-067",
-      "type": "その他",
-      "text": "S9Q15:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-09-068",
-      "type": "その他",
-      "text": "S9Q16:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-09-069",
-      "type": "その他",
-      "text": "S9Q17:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-09-070",
-      "type": "その他",
-      "text": "S9Q18:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-09-071",
-      "type": "その他",
-      "text": "S9Q19:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-09-072",
-      "type": "その他",
-      "text": "S9Q20:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-09-073",
-      "type": "その他",
-      "text": "S9Q21:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-09-074",
-      "type": "その他",
-      "text": "S9Q22:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-09-075",
-      "type": "その他",
-      "text": "S9Q23:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-09-076",
-      "type": "その他",
-      "text": "S9Q24:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-09-077",
-      "type": "その他",
-      "text": "S9Q25:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-09-078",
-      "type": "その他",
-      "text": "S9Q26:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-09-079",
-      "type": "その他",
-      "text": "S9Q27:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-09-080",
-      "type": "その他",
-      "text": "S9Q28:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-09-081",
-      "type": "その他",
-      "text": "S9Q29:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-09-082",
-      "type": "その他",
-      "text": "S9Q30:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    }
-  ],
-  "10": [
-    {
-      "id": "N5-10-001",
-      "type": "漢字読み",
-      "text": "<u>中</u>を読んでください。",
-      "question": "「中」の読み方は？",
-      "options": [
-        "なかえ",
-        "なかい",
-        "なかう",
-        "なか"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-10-002",
-      "type": "漢字読み",
-      "text": "<u>外</u>を読んでください。",
-      "question": "「外」の読み方は？",
-      "options": [
-        "そとい",
-        "そとえ",
-        "そと",
-        "そとう"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-10-003",
-      "type": "漢字読み",
-      "text": "<u>右</u>を読んでください。",
-      "question": "「右」の読み方は？",
-      "options": [
-        "みぎえ",
-        "みぎい",
-        "みぎ",
-        "みぎう"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-10-004",
-      "type": "漢字読み",
-      "text": "<u>左</u>を読んでください。",
-      "question": "「左」の読み方は？",
-      "options": [
-        "ひだり",
-        "ひだりえ",
-        "ひだりう",
-        "ひだりい"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-10-005",
-      "type": "表記",
-      "text": "<u>なか</u>の漢字は？",
-      "question": "「なか」の書き方は？",
-      "options": [
-        "中々",
-        "中",
-        "々中",
-        "中々"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-10-006",
-      "type": "表記",
-      "text": "<u>そと</u>の漢字は？",
-      "question": "「そと」の書き方は？",
-      "options": [
-        "外々",
-        "々外",
-        "外々",
-        "外"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-10-007",
-      "type": "表記",
-      "text": "<u>みぎ</u>の漢字は？",
-      "question": "「みぎ」の書き方は？",
-      "options": [
-        "々右",
-        "右々",
-        "右々",
-        "右"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-10-008",
-      "type": "表記",
-      "text": "<u>ひだり</u>の漢字は？",
-      "question": "「ひだり」の書き方は？",
-      "options": [
-        "左々",
-        "々左",
-        "左",
-        "左々"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-10-009",
-      "type": "文脈規定",
-      "text": "（　）がほしいです。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "汗",
-        "水",
-        "湯",
-        "氷"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-10-010",
-      "type": "文脈規定",
-      "text": "電話（　）を教えてください。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "記号",
-        "信号",
-        "番号",
-        "暗号"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-10-011",
-      "type": "文脈規定",
-      "text": "この椅子に（　）ください。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "起きて",
-        "寝て",
-        "立って",
-        "座って"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-10-012",
-      "type": "文脈規定",
-      "text": "（　）の後で会いましょう。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "練習",
-        "勉強",
-        "授業",
-        "宿題"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-10-013",
-      "type": "文法",
-      "text": "S10Q1:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-10-014",
-      "type": "文法",
-      "text": "S10Q2:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-10-015",
-      "type": "文法",
-      "text": "S10Q3:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-10-016",
-      "type": "文法",
-      "text": "S10Q4:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-10-017",
-      "type": "文法",
-      "text": "S10Q5:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-10-018",
-      "type": "文法",
-      "text": "S10Q6:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-10-019",
-      "type": "文法",
-      "text": "S10Q7:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-10-020",
-      "type": "文法",
-      "text": "S10Q8:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-10-021",
-      "type": "文法",
-      "text": "S10Q9:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-10-022",
-      "type": "文法",
-      "text": "S10Q10:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-10-023",
-      "type": "読解",
-      "text": "S10Q1:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-10-024",
-      "type": "読解",
-      "text": "S10Q2:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-10-025",
-      "type": "読解",
-      "text": "S10Q3:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-10-026",
-      "type": "読解",
-      "text": "S10Q4:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-10-027",
-      "type": "読解",
-      "text": "S10Q5:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-10-028",
-      "type": "読解",
-      "text": "S10Q6:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-10-029",
-      "type": "読解",
-      "text": "S10Q7:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-10-030",
-      "type": "読解",
-      "text": "S10Q8:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-10-031",
-      "type": "読解",
-      "text": "S10Q9:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-10-032",
-      "type": "読解",
-      "text": "S10Q10:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-10-033",
-      "type": "聴解",
-      "text": "S10Q1:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-10-034",
-      "type": "聴解",
-      "text": "S10Q2:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-10-035",
-      "type": "聴解",
-      "text": "S10Q3:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-10-036",
-      "type": "聴解",
-      "text": "S10Q4:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-10-037",
-      "type": "聴解",
-      "text": "S10Q5:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-10-038",
-      "type": "聴解",
-      "text": "S10Q6:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-10-039",
-      "type": "聴解",
-      "text": "S10Q7:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-10-040",
-      "type": "聴解",
-      "text": "S10Q8:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-10-041",
-      "type": "聴解",
-      "text": "S10Q9:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-10-042",
-      "type": "聴解",
-      "text": "S10Q10:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-10-043",
-      "type": "聴解",
-      "text": "S10Q11:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-10-044",
-      "type": "聴解",
-      "text": "S10Q12:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-10-045",
-      "type": "聴解",
-      "text": "S10Q13:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-10-046",
-      "type": "聴解",
-      "text": "S10Q14:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-10-047",
-      "type": "聴解",
-      "text": "S10Q15:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-10-048",
-      "type": "聴解",
-      "text": "S10Q16:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-10-049",
-      "type": "即時応答",
-      "text": "S10Q1: どうしましたか。",
-      "question": "何と答えますか。",
-      "options": [
-        "頭が痛いです。",
-        "頭が痛かったです。",
-        "頭が痛くなります。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-10-050",
-      "type": "即時応答",
-      "text": "S10Q2: もう一度言ってください。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、分かりました。",
-        "いいえ、分かりました。",
-        "はい、分かりません。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-10-051",
-      "type": "即時応答",
-      "text": "S10Q3: ゆっくり話してください。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、分かりました。",
-        "いいえ、ゆっくりです。",
-        "はい、速いです。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-10-052",
-      "type": "即時応答",
-      "text": "S10Q4: ちょっと待ってください。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、分かりました。",
-        "いいえ、待ちます。",
-        "はい、待ちません。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-10-053",
-      "type": "その他",
-      "text": "S10Q1:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-10-054",
-      "type": "その他",
-      "text": "S10Q2:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-10-055",
-      "type": "その他",
-      "text": "S10Q3:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-10-056",
-      "type": "その他",
-      "text": "S10Q4:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-10-057",
-      "type": "その他",
-      "text": "S10Q5:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-10-058",
-      "type": "その他",
-      "text": "S10Q6:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-10-059",
-      "type": "その他",
-      "text": "S10Q7:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-10-060",
-      "type": "その他",
-      "text": "S10Q8:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-10-061",
-      "type": "その他",
-      "text": "S10Q9:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-10-062",
-      "type": "その他",
-      "text": "S10Q10:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-10-063",
-      "type": "その他",
-      "text": "S10Q11:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-10-064",
-      "type": "その他",
-      "text": "S10Q12:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-10-065",
-      "type": "その他",
-      "text": "S10Q13:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-10-066",
-      "type": "その他",
-      "text": "S10Q14:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-10-067",
-      "type": "その他",
-      "text": "S10Q15:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-10-068",
-      "type": "その他",
-      "text": "S10Q16:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-10-069",
-      "type": "その他",
-      "text": "S10Q17:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-10-070",
-      "type": "その他",
-      "text": "S10Q18:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-10-071",
-      "type": "その他",
-      "text": "S10Q19:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-10-072",
-      "type": "その他",
-      "text": "S10Q20:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-10-073",
-      "type": "その他",
-      "text": "S10Q21:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-10-074",
-      "type": "その他",
-      "text": "S10Q22:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-10-075",
-      "type": "その他",
-      "text": "S10Q23:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-10-076",
-      "type": "その他",
-      "text": "S10Q24:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-10-077",
-      "type": "その他",
-      "text": "S10Q25:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-10-078",
-      "type": "その他",
-      "text": "S10Q26:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-10-079",
-      "type": "その他",
-      "text": "S10Q27:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-10-080",
-      "type": "その他",
-      "text": "S10Q28:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-10-081",
-      "type": "その他",
-      "text": "S10Q29:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-10-082",
-      "type": "その他",
-      "text": "S10Q30:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    }
-  ],
-  "11": [
-    {
-      "id": "N5-11-001",
-      "type": "漢字読み",
-      "text": "<u>東</u>を読んでください。",
-      "question": "「東」の読み方は？",
-      "options": [
-        "ひがしう",
-        "ひがし",
-        "ひがしえ",
-        "ひがしい"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-11-002",
-      "type": "漢字読み",
-      "text": "<u>西</u>を読んでください。",
-      "question": "「西」の読み方は？",
-      "options": [
-        "にし",
-        "にしえ",
-        "にしう",
-        "にしい"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-11-003",
-      "type": "漢字読み",
-      "text": "<u>南</u>を読んでください。",
-      "question": "「南」の読み方は？",
-      "options": [
-        "みなみい",
-        "みなみ",
-        "みなみう",
-        "みなみえ"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-11-004",
-      "type": "漢字読み",
-      "text": "<u>北</u>を読んでください。",
-      "question": "「北」の読み方は？",
-      "options": [
-        "きたい",
-        "きたえ",
-        "きた",
-        "きたう"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-11-005",
-      "type": "表記",
-      "text": "<u>ひがし</u>の漢字は？",
-      "question": "「ひがし」の書き方は？",
-      "options": [
-        "々東",
-        "東々",
-        "東",
-        "東々"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-11-006",
-      "type": "表記",
-      "text": "<u>にし</u>の漢字は？",
-      "question": "「にし」の書き方は？",
-      "options": [
-        "々西",
-        "西々",
-        "西",
-        "西々"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-11-007",
-      "type": "表記",
-      "text": "<u>みなみ</u>の漢字は？",
-      "question": "「みなみ」の書き方は？",
-      "options": [
-        "南々",
-        "南",
-        "南々",
-        "々南"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-11-008",
-      "type": "表記",
-      "text": "<u>きた</u>の漢字は？",
-      "question": "「きた」の書き方は？",
-      "options": [
-        "北々",
-        "々北",
-        "北",
-        "北々"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-11-009",
-      "type": "文脈規定",
-      "text": "今日は（　）が痛いです。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "頭",
-        "腰",
-        "胸",
-        "背中"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-11-010",
-      "type": "文脈規定",
-      "text": "私は（　）が好きです。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "料理",
-        "旅行",
-        "映画",
-        "音楽"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-11-011",
-      "type": "文脈規定",
-      "text": "（　）を持ってきてください。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "本",
-        "紙",
-        "鉛筆",
-        "消しゴム"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-11-012",
-      "type": "文脈規定",
-      "text": "明日（　）に来てください。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "速く",
-        "遅く",
-        "近く",
-        "早く"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-11-013",
-      "type": "文法",
-      "text": "S11Q1:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-11-014",
-      "type": "文法",
-      "text": "S11Q2:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-11-015",
-      "type": "文法",
-      "text": "S11Q3:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-11-016",
-      "type": "文法",
-      "text": "S11Q4:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-11-017",
-      "type": "文法",
-      "text": "S11Q5:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-11-018",
-      "type": "文法",
-      "text": "S11Q6:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-11-019",
-      "type": "文法",
-      "text": "S11Q7:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-11-020",
-      "type": "文法",
-      "text": "S11Q8:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-11-021",
-      "type": "文法",
-      "text": "S11Q9:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-11-022",
-      "type": "文法",
-      "text": "S11Q10:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-11-023",
-      "type": "読解",
-      "text": "S11Q1:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-11-024",
-      "type": "読解",
-      "text": "S11Q2:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-11-025",
-      "type": "読解",
-      "text": "S11Q3:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-11-026",
-      "type": "読解",
-      "text": "S11Q4:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-11-027",
-      "type": "読解",
-      "text": "S11Q5:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-11-028",
-      "type": "読解",
-      "text": "S11Q6:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-11-029",
-      "type": "読解",
-      "text": "S11Q7:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-11-030",
-      "type": "読解",
-      "text": "S11Q8:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-11-031",
-      "type": "読解",
-      "text": "S11Q9:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-11-032",
-      "type": "読解",
-      "text": "S11Q10:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-11-033",
-      "type": "聴解",
-      "text": "S11Q1:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-11-034",
-      "type": "聴解",
-      "text": "S11Q2:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-11-035",
-      "type": "聴解",
-      "text": "S11Q3:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-11-036",
-      "type": "聴解",
-      "text": "S11Q4:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-11-037",
-      "type": "聴解",
-      "text": "S11Q5:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-11-038",
-      "type": "聴解",
-      "text": "S11Q6:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-11-039",
-      "type": "聴解",
-      "text": "S11Q7:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-11-040",
-      "type": "聴解",
-      "text": "S11Q8:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-11-041",
-      "type": "聴解",
-      "text": "S11Q9:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-11-042",
-      "type": "聴解",
-      "text": "S11Q10:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-11-043",
-      "type": "聴解",
-      "text": "S11Q11:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-11-044",
-      "type": "聴解",
-      "text": "S11Q12:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-11-045",
-      "type": "聴解",
-      "text": "S11Q13:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-11-046",
-      "type": "聴解",
-      "text": "S11Q14:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-11-047",
-      "type": "聴解",
-      "text": "S11Q15:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-11-048",
-      "type": "聴解",
-      "text": "S11Q16:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-11-049",
-      "type": "即時応答",
-      "text": "S11Q1: 手伝いましょうか。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、お願いします。",
-        "いいえ、お願いします。",
-        "はい、手伝いません。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-11-050",
-      "type": "即時応答",
-      "text": "S11Q2: お会計お願いします。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、少々お待ちください。",
-        "いいえ、お待ちください。",
-        "はい、会計です。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-11-051",
-      "type": "即時応答",
-      "text": "S11Q3: 領収書をください。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、かしこまりました。",
-        "いいえ、領収書です。",
-        "はい、領収です。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-11-052",
-      "type": "即時応答",
-      "text": "S11Q4: おすすめは何ですか。",
-      "question": "何と答えますか。",
-      "options": [
-        "こちらの料理です。",
-        "おすすめです。",
-        "おすすめします。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-11-053",
-      "type": "その他",
-      "text": "S11Q1:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-11-054",
-      "type": "その他",
-      "text": "S11Q2:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-11-055",
-      "type": "その他",
-      "text": "S11Q3:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-11-056",
-      "type": "その他",
-      "text": "S11Q4:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-11-057",
-      "type": "その他",
-      "text": "S11Q5:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-11-058",
-      "type": "その他",
-      "text": "S11Q6:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-11-059",
-      "type": "その他",
-      "text": "S11Q7:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-11-060",
-      "type": "その他",
-      "text": "S11Q8:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-11-061",
-      "type": "その他",
-      "text": "S11Q9:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-11-062",
-      "type": "その他",
-      "text": "S11Q10:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-11-063",
-      "type": "その他",
-      "text": "S11Q11:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-11-064",
-      "type": "その他",
-      "text": "S11Q12:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-11-065",
-      "type": "その他",
-      "text": "S11Q13:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-11-066",
-      "type": "その他",
-      "text": "S11Q14:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-11-067",
-      "type": "その他",
-      "text": "S11Q15:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-11-068",
-      "type": "その他",
-      "text": "S11Q16:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-11-069",
-      "type": "その他",
-      "text": "S11Q17:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-11-070",
-      "type": "その他",
-      "text": "S11Q18:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-11-071",
-      "type": "その他",
-      "text": "S11Q19:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-11-072",
-      "type": "その他",
-      "text": "S11Q20:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-11-073",
-      "type": "その他",
-      "text": "S11Q21:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-11-074",
-      "type": "その他",
-      "text": "S11Q22:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-11-075",
-      "type": "その他",
-      "text": "S11Q23:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-11-076",
-      "type": "その他",
-      "text": "S11Q24:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-11-077",
-      "type": "その他",
-      "text": "S11Q25:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-11-078",
-      "type": "その他",
-      "text": "S11Q26:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-11-079",
-      "type": "その他",
-      "text": "S11Q27:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-11-080",
-      "type": "その他",
-      "text": "S11Q28:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-11-081",
-      "type": "その他",
-      "text": "S11Q29:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-11-082",
-      "type": "その他",
-      "text": "S11Q30:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    }
-  ],
-  "12": [
-    {
-      "id": "N5-12-001",
-      "type": "漢字読み",
-      "text": "<u>大</u>を読んでください。",
-      "question": "「大」の読み方は？",
-      "options": [
-        "おお",
-        "おおえ",
-        "おおう",
-        "おおい"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-12-002",
-      "type": "漢字読み",
-      "text": "<u>小</u>を読んでください。",
-      "question": "「小」の読み方は？",
-      "options": [
-        "ちいう",
-        "ちいい",
-        "ちいえ",
-        "ちい"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-12-003",
-      "type": "漢字読み",
-      "text": "<u>高</u>を読んでください。",
-      "question": "「高」の読み方は？",
-      "options": [
-        "たか",
-        "たかい",
-        "たかえ",
-        "たかう"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-12-004",
-      "type": "漢字読み",
-      "text": "<u>安</u>を読んでください。",
-      "question": "「安」の読み方は？",
-      "options": [
-        "やすい",
-        "やす",
-        "やすう",
-        "やすえ"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-12-005",
-      "type": "表記",
-      "text": "<u>おお</u>の漢字は？",
-      "question": "「おお」の書き方は？",
-      "options": [
-        "大々",
-        "大",
-        "々大",
-        "大々"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-12-006",
-      "type": "表記",
-      "text": "<u>ちい</u>の漢字は？",
-      "question": "「ちい」の書き方は？",
-      "options": [
-        "小々",
-        "小々",
-        "小",
-        "々小"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-12-007",
-      "type": "表記",
-      "text": "<u>たか</u>の漢字は？",
-      "question": "「たか」の書き方は？",
-      "options": [
-        "高々",
-        "高々",
-        "々高",
-        "高"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-12-008",
-      "type": "表記",
-      "text": "<u>やす</u>の漢字は？",
-      "question": "「やす」の書き方は？",
-      "options": [
-        "安々",
-        "安",
-        "安々",
-        "々安"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-12-009",
-      "type": "文脈規定",
-      "text": "この部屋は（　）です。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "広い",
-        "狭い",
-        "暗い",
-        "明るい"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-12-010",
-      "type": "文脈規定",
-      "text": "（　）を食べませんか。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "夜食",
-        "朝ご飯",
-        "晩ご飯",
-        "昼ご飯"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-12-011",
-      "type": "文脈規定",
-      "text": "駅の（　）で待っています。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "前",
-        "後",
-        "隣",
-        "横"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-12-012",
-      "type": "文脈規定",
-      "text": "日本の（　）は美しいです。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "春",
-        "冬",
-        "夏",
-        "秋"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-12-013",
-      "type": "文法",
-      "text": "S12Q1:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-12-014",
-      "type": "文法",
-      "text": "S12Q2:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-12-015",
-      "type": "文法",
-      "text": "S12Q3:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-12-016",
-      "type": "文法",
-      "text": "S12Q4:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-12-017",
-      "type": "文法",
-      "text": "S12Q5:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-12-018",
-      "type": "文法",
-      "text": "S12Q6:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-12-019",
-      "type": "文法",
-      "text": "S12Q7:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-12-020",
-      "type": "文法",
-      "text": "S12Q8:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-12-021",
-      "type": "文法",
-      "text": "S12Q9:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-12-022",
-      "type": "文法",
-      "text": "S12Q10:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-12-023",
-      "type": "読解",
-      "text": "S12Q1:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-12-024",
-      "type": "読解",
-      "text": "S12Q2:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-12-025",
-      "type": "読解",
-      "text": "S12Q3:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-12-026",
-      "type": "読解",
-      "text": "S12Q4:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-12-027",
-      "type": "読解",
-      "text": "S12Q5:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-12-028",
-      "type": "読解",
-      "text": "S12Q6:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-12-029",
-      "type": "読解",
-      "text": "S12Q7:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-12-030",
-      "type": "読解",
-      "text": "S12Q8:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-12-031",
-      "type": "読解",
-      "text": "S12Q9:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-12-032",
-      "type": "読解",
-      "text": "S12Q10:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-12-033",
-      "type": "聴解",
-      "text": "S12Q1:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-12-034",
-      "type": "聴解",
-      "text": "S12Q2:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-12-035",
-      "type": "聴解",
-      "text": "S12Q3:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-12-036",
-      "type": "聴解",
-      "text": "S12Q4:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-12-037",
-      "type": "聴解",
-      "text": "S12Q5:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-12-038",
-      "type": "聴解",
-      "text": "S12Q6:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-12-039",
-      "type": "聴解",
-      "text": "S12Q7:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-12-040",
-      "type": "聴解",
-      "text": "S12Q8:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-12-041",
-      "type": "聴解",
-      "text": "S12Q9:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-12-042",
-      "type": "聴解",
-      "text": "S12Q10:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-12-043",
-      "type": "聴解",
-      "text": "S12Q11:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-12-044",
-      "type": "聴解",
-      "text": "S12Q12:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-12-045",
-      "type": "聴解",
-      "text": "S12Q13:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-12-046",
-      "type": "聴解",
-      "text": "S12Q14:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-12-047",
-      "type": "聴解",
-      "text": "S12Q15:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-12-048",
-      "type": "聴解",
-      "text": "S12Q16:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-12-049",
-      "type": "即時応答",
-      "text": "S12Q1: 予約していますか。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、田中で予約しました。",
-        "いいえ、予約です。",
-        "はい、予約です。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-12-050",
-      "type": "即時応答",
-      "text": "S12Q2: 喫煙席と禁煙席、どちらがいいですか。",
-      "question": "何と答えますか。",
-      "options": [
-        "禁煙席でお願いします。",
-        "喫煙です。",
-        "禁煙です。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-12-051",
-      "type": "即時応答",
-      "text": "S12Q3: お持ち帰りですか。",
-      "question": "何と答えますか。",
-      "options": [
-        "いいえ、ここで食べます。",
-        "はい、食べます。",
-        "いいえ、持ちます。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-12-052",
-      "type": "即時応答",
-      "text": "S12Q4: クレジットカードは使えますか。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、使えます。",
-        "いいえ、使えます。",
-        "はい、使いません。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-12-053",
-      "type": "その他",
-      "text": "S12Q1:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-12-054",
-      "type": "その他",
-      "text": "S12Q2:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-12-055",
-      "type": "その他",
-      "text": "S12Q3:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-12-056",
-      "type": "その他",
-      "text": "S12Q4:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-12-057",
-      "type": "その他",
-      "text": "S12Q5:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-12-058",
-      "type": "その他",
-      "text": "S12Q6:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-12-059",
-      "type": "その他",
-      "text": "S12Q7:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-12-060",
-      "type": "その他",
-      "text": "S12Q8:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-12-061",
-      "type": "その他",
-      "text": "S12Q9:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-12-062",
-      "type": "その他",
-      "text": "S12Q10:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-12-063",
-      "type": "その他",
-      "text": "S12Q11:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-12-064",
-      "type": "その他",
-      "text": "S12Q12:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-12-065",
-      "type": "その他",
-      "text": "S12Q13:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-12-066",
-      "type": "その他",
-      "text": "S12Q14:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-12-067",
-      "type": "その他",
-      "text": "S12Q15:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-12-068",
-      "type": "その他",
-      "text": "S12Q16:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-12-069",
-      "type": "その他",
-      "text": "S12Q17:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-12-070",
-      "type": "その他",
-      "text": "S12Q18:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-12-071",
-      "type": "その他",
-      "text": "S12Q19:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-12-072",
-      "type": "その他",
-      "text": "S12Q20:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-12-073",
-      "type": "その他",
-      "text": "S12Q21:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-12-074",
-      "type": "その他",
-      "text": "S12Q22:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-12-075",
-      "type": "その他",
-      "text": "S12Q23:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-12-076",
-      "type": "その他",
-      "text": "S12Q24:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-12-077",
-      "type": "その他",
-      "text": "S12Q25:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-12-078",
-      "type": "その他",
-      "text": "S12Q26:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-12-079",
-      "type": "その他",
-      "text": "S12Q27:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-12-080",
-      "type": "その他",
-      "text": "S12Q28:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-12-081",
-      "type": "その他",
-      "text": "S12Q29:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-12-082",
-      "type": "その他",
-      "text": "S12Q30:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    }
-  ],
-  "13": [
-    {
-      "id": "N5-13-001",
-      "type": "漢字読み",
-      "text": "<u>新</u>を読んでください。",
-      "question": "「新」の読み方は？",
-      "options": [
-        "あたらう",
-        "あたらえ",
-        "あたら",
-        "あたらい"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-13-002",
-      "type": "漢字読み",
-      "text": "<u>古</u>を読んでください。",
-      "question": "「古」の読み方は？",
-      "options": [
-        "ふるい",
-        "ふる",
-        "ふるう",
-        "ふるえ"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-13-003",
-      "type": "漢字読み",
-      "text": "<u>長</u>を読んでください。",
-      "question": "「長」の読み方は？",
-      "options": [
-        "ながえ",
-        "なが",
-        "ながい",
-        "ながう"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-13-004",
-      "type": "漢字読み",
-      "text": "<u>白</u>を読んでください。",
-      "question": "「白」の読み方は？",
-      "options": [
-        "しろえ",
-        "しろ",
-        "しろい",
-        "しろう"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-13-005",
-      "type": "表記",
-      "text": "<u>あたら</u>の漢字は？",
-      "question": "「あたら」の書き方は？",
-      "options": [
-        "新",
-        "新々",
-        "々新",
-        "新々"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-13-006",
-      "type": "表記",
-      "text": "<u>ふる</u>の漢字は？",
-      "question": "「ふる」の書き方は？",
-      "options": [
-        "古",
-        "々古",
-        "古々",
-        "古々"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-13-007",
-      "type": "表記",
-      "text": "<u>なが</u>の漢字は？",
-      "question": "「なが」の書き方は？",
-      "options": [
-        "長",
-        "長々",
-        "々長",
-        "長々"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-13-008",
-      "type": "表記",
-      "text": "<u>しろ</u>の漢字は？",
-      "question": "「しろ」の書き方は？",
-      "options": [
-        "白々",
-        "白",
-        "々白",
-        "白々"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-13-009",
-      "type": "文脈規定",
-      "text": "彼は（　）が上手です。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "日本語",
-        "英語",
-        "韓国語",
-        "中国語"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-13-010",
-      "type": "文脈規定",
-      "text": "今日は（　）を買いました。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "帽子",
-        "靴",
-        "鞄",
-        "服"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-13-011",
-      "type": "文脈規定",
-      "text": "（　）の中で一番好きです。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "魚",
-        "肉",
-        "果物",
-        "野菜"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-13-012",
-      "type": "文脈規定",
-      "text": "電車に（　）ました。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "降り",
-        "入り",
-        "出",
-        "乗り"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-13-013",
-      "type": "文法",
-      "text": "S13Q1:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-13-014",
-      "type": "文法",
-      "text": "S13Q2:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-13-015",
-      "type": "文法",
-      "text": "S13Q3:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-13-016",
-      "type": "文法",
-      "text": "S13Q4:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-13-017",
-      "type": "文法",
-      "text": "S13Q5:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-13-018",
-      "type": "文法",
-      "text": "S13Q6:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-13-019",
-      "type": "文法",
-      "text": "S13Q7:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-13-020",
-      "type": "文法",
-      "text": "S13Q8:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-13-021",
-      "type": "文法",
-      "text": "S13Q9:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-13-022",
-      "type": "文法",
-      "text": "S13Q10:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-13-023",
-      "type": "読解",
-      "text": "S13Q1:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-13-024",
-      "type": "読解",
-      "text": "S13Q2:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-13-025",
-      "type": "読解",
-      "text": "S13Q3:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-13-026",
-      "type": "読解",
-      "text": "S13Q4:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-13-027",
-      "type": "読解",
-      "text": "S13Q5:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-13-028",
-      "type": "読解",
-      "text": "S13Q6:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-13-029",
-      "type": "読解",
-      "text": "S13Q7:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-13-030",
-      "type": "読解",
-      "text": "S13Q8:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-13-031",
-      "type": "読解",
-      "text": "S13Q9:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-13-032",
-      "type": "読解",
-      "text": "S13Q10:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-13-033",
-      "type": "聴解",
-      "text": "S13Q1:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-13-034",
-      "type": "聴解",
-      "text": "S13Q2:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-13-035",
-      "type": "聴解",
-      "text": "S13Q3:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-13-036",
-      "type": "聴解",
-      "text": "S13Q4:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-13-037",
-      "type": "聴解",
-      "text": "S13Q5:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-13-038",
-      "type": "聴解",
-      "text": "S13Q6:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-13-039",
-      "type": "聴解",
-      "text": "S13Q7:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-13-040",
-      "type": "聴解",
-      "text": "S13Q8:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-13-041",
-      "type": "聴解",
-      "text": "S13Q9:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-13-042",
-      "type": "聴解",
-      "text": "S13Q10:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-13-043",
-      "type": "聴解",
-      "text": "S13Q11:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-13-044",
-      "type": "聴解",
-      "text": "S13Q12:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-13-045",
-      "type": "聴解",
-      "text": "S13Q13:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-13-046",
-      "type": "聴解",
-      "text": "S13Q14:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-13-047",
-      "type": "聴解",
-      "text": "S13Q15:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-13-048",
-      "type": "聴解",
-      "text": "S13Q16:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-13-049",
-      "type": "即時応答",
-      "text": "S13Q1: 袋は要りますか。",
-      "question": "何と答えますか。",
-      "options": [
-        "いいえ、大丈夫です。",
-        "はい、要りません。",
-        "いいえ、要ります。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-13-050",
-      "type": "即時応答",
-      "text": "S13Q2: ポイントカードはお持ちですか。",
-      "question": "何と答えますか。",
-      "options": [
-        "いいえ、持っていません。",
-        "はい、持っていません。",
-        "いいえ、持っています。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-13-051",
-      "type": "即時応答",
-      "text": "S13Q3: 試着してもいいですか。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、どうぞ。",
-        "いいえ、試着です。",
-        "はい、試着しません。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-13-052",
-      "type": "即時応答",
-      "text": "S13Q4: サイズはありますか。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、こちらにあります。",
-        "いいえ、あります。",
-        "はい、ありません。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-13-053",
-      "type": "その他",
-      "text": "S13Q1:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-13-054",
-      "type": "その他",
-      "text": "S13Q2:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-13-055",
-      "type": "その他",
-      "text": "S13Q3:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-13-056",
-      "type": "その他",
-      "text": "S13Q4:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-13-057",
-      "type": "その他",
-      "text": "S13Q5:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-13-058",
-      "type": "その他",
-      "text": "S13Q6:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-13-059",
-      "type": "その他",
-      "text": "S13Q7:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-13-060",
-      "type": "その他",
-      "text": "S13Q8:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-13-061",
-      "type": "その他",
-      "text": "S13Q9:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-13-062",
-      "type": "その他",
-      "text": "S13Q10:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-13-063",
-      "type": "その他",
-      "text": "S13Q11:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-13-064",
-      "type": "その他",
-      "text": "S13Q12:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-13-065",
-      "type": "その他",
-      "text": "S13Q13:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-13-066",
-      "type": "その他",
-      "text": "S13Q14:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-13-067",
-      "type": "その他",
-      "text": "S13Q15:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-13-068",
-      "type": "その他",
-      "text": "S13Q16:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-13-069",
-      "type": "その他",
-      "text": "S13Q17:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-13-070",
-      "type": "その他",
-      "text": "S13Q18:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-13-071",
-      "type": "その他",
-      "text": "S13Q19:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-13-072",
-      "type": "その他",
-      "text": "S13Q20:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-13-073",
-      "type": "その他",
-      "text": "S13Q21:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-13-074",
-      "type": "その他",
-      "text": "S13Q22:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-13-075",
-      "type": "その他",
-      "text": "S13Q23:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-13-076",
-      "type": "その他",
-      "text": "S13Q24:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-13-077",
-      "type": "その他",
-      "text": "S13Q25:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-13-078",
-      "type": "その他",
-      "text": "S13Q26:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-13-079",
-      "type": "その他",
-      "text": "S13Q27:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-13-080",
-      "type": "その他",
-      "text": "S13Q28:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-13-081",
-      "type": "その他",
-      "text": "S13Q29:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-13-082",
-      "type": "その他",
-      "text": "S13Q30:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    }
-  ],
-  "14": [
-    {
-      "id": "N5-14-001",
-      "type": "漢字読み",
-      "text": "<u>黒</u>を読んでください。",
-      "question": "「黒」の読み方は？",
-      "options": [
-        "くろい",
-        "くろ",
-        "くろう",
-        "くろえ"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-14-002",
-      "type": "漢字読み",
-      "text": "<u>赤</u>を読んでください。",
-      "question": "「赤」の読み方は？",
-      "options": [
-        "あかう",
-        "あか",
-        "あかい",
-        "あかえ"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-14-003",
-      "type": "漢字読み",
-      "text": "<u>青</u>を読んでください。",
-      "question": "「青」の読み方は？",
-      "options": [
-        "あお",
-        "あおう",
-        "あおい",
-        "あおえ"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-14-004",
-      "type": "漢字読み",
-      "text": "<u>百</u>を読んでください。",
-      "question": "「百」の読み方は？",
-      "options": [
-        "ひゃくえ",
-        "ひゃくう",
-        "ひゃく",
-        "ひゃくい"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-14-005",
-      "type": "表記",
-      "text": "<u>くろ</u>の漢字は？",
-      "question": "「くろ」の書き方は？",
-      "options": [
-        "々黒",
-        "黒々",
-        "黒々",
-        "黒"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-14-006",
-      "type": "表記",
-      "text": "<u>あか</u>の漢字は？",
-      "question": "「あか」の書き方は？",
-      "options": [
-        "赤",
-        "赤々",
-        "々赤",
-        "赤々"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-14-007",
-      "type": "表記",
-      "text": "<u>あお</u>の漢字は？",
-      "question": "「あお」の書き方は？",
-      "options": [
-        "青々",
-        "青々",
-        "々青",
-        "青"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-14-008",
-      "type": "表記",
-      "text": "<u>ひゃく</u>の漢字は？",
-      "question": "「ひゃく」の書き方は？",
-      "options": [
-        "々百",
-        "百々",
-        "百々",
-        "百"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-14-009",
-      "type": "文脈規定",
-      "text": "（　）を渡ってください。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "橋",
-        "道",
-        "階段",
-        "坂"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-14-010",
-      "type": "文脈規定",
-      "text": "この店は（　）が多いです。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "お客さん",
-        "店員",
-        "社員",
-        "会員"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-14-011",
-      "type": "文脈規定",
-      "text": "（　）で手を洗います。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "歯磨き",
-        "洗剤",
-        "石鹸",
-        "化粧品"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-14-012",
-      "type": "文脈規定",
-      "text": "私は（　）に住んでいます。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "大阪",
-        "日本",
-        "東京",
-        "京都"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-14-013",
-      "type": "文法",
-      "text": "S14Q1:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-14-014",
-      "type": "文法",
-      "text": "S14Q2:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-14-015",
-      "type": "文法",
-      "text": "S14Q3:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-14-016",
-      "type": "文法",
-      "text": "S14Q4:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-14-017",
-      "type": "文法",
-      "text": "S14Q5:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-14-018",
-      "type": "文法",
-      "text": "S14Q6:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-14-019",
-      "type": "文法",
-      "text": "S14Q7:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-14-020",
-      "type": "文法",
-      "text": "S14Q8:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-14-021",
-      "type": "文法",
-      "text": "S14Q9:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-14-022",
-      "type": "文法",
-      "text": "S14Q10:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-14-023",
-      "type": "読解",
-      "text": "S14Q1:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-14-024",
-      "type": "読解",
-      "text": "S14Q2:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-14-025",
-      "type": "読解",
-      "text": "S14Q3:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-14-026",
-      "type": "読解",
-      "text": "S14Q4:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-14-027",
-      "type": "読解",
-      "text": "S14Q5:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-14-028",
-      "type": "読解",
-      "text": "S14Q6:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-14-029",
-      "type": "読解",
-      "text": "S14Q7:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-14-030",
-      "type": "読解",
-      "text": "S14Q8:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-14-031",
-      "type": "読解",
-      "text": "S14Q9:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-14-032",
-      "type": "読解",
-      "text": "S14Q10:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-14-033",
-      "type": "聴解",
-      "text": "S14Q1:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-14-034",
-      "type": "聴解",
-      "text": "S14Q2:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-14-035",
-      "type": "聴解",
-      "text": "S14Q3:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-14-036",
-      "type": "聴解",
-      "text": "S14Q4:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-14-037",
-      "type": "聴解",
-      "text": "S14Q5:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-14-038",
-      "type": "聴解",
-      "text": "S14Q6:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-14-039",
-      "type": "聴解",
-      "text": "S14Q7:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-14-040",
-      "type": "聴解",
-      "text": "S14Q8:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-14-041",
-      "type": "聴解",
-      "text": "S14Q9:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-14-042",
-      "type": "聴解",
-      "text": "S14Q10:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-14-043",
-      "type": "聴解",
-      "text": "S14Q11:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-14-044",
-      "type": "聴解",
-      "text": "S14Q12:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-14-045",
-      "type": "聴解",
-      "text": "S14Q13:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-14-046",
-      "type": "聴解",
-      "text": "S14Q14:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-14-047",
-      "type": "聴解",
-      "text": "S14Q15:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-14-048",
-      "type": "聴解",
-      "text": "S14Q16:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-14-049",
-      "type": "即時応答",
-      "text": "S14Q1: 色違いはありますか。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、こちらです。",
-        "いいえ、色です。",
-        "はい、違います。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-14-050",
-      "type": "即時応答",
-      "text": "S14Q2: 返品できますか。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、レシートをお持ちなら可能です。",
-        "いいえ、できます。",
-        "はい、できません。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-14-051",
-      "type": "即時応答",
-      "text": "S14Q3: 配送してもらえますか。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、可能です。",
-        "いいえ、配送です。",
-        "はい、もらえません。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-14-052",
-      "type": "即時応答",
-      "text": "S14Q4: これをください。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、かしこまりました。",
-        "いいえ、ください。",
-        "はい、くださいません。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-14-053",
-      "type": "その他",
-      "text": "S14Q1:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-14-054",
-      "type": "その他",
-      "text": "S14Q2:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-14-055",
-      "type": "その他",
-      "text": "S14Q3:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-14-056",
-      "type": "その他",
-      "text": "S14Q4:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-14-057",
-      "type": "その他",
-      "text": "S14Q5:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-14-058",
-      "type": "その他",
-      "text": "S14Q6:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-14-059",
-      "type": "その他",
-      "text": "S14Q7:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-14-060",
-      "type": "その他",
-      "text": "S14Q8:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-14-061",
-      "type": "その他",
-      "text": "S14Q9:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-14-062",
-      "type": "その他",
-      "text": "S14Q10:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-14-063",
-      "type": "その他",
-      "text": "S14Q11:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-14-064",
-      "type": "その他",
-      "text": "S14Q12:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-14-065",
-      "type": "その他",
-      "text": "S14Q13:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-14-066",
-      "type": "その他",
-      "text": "S14Q14:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-14-067",
-      "type": "その他",
-      "text": "S14Q15:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-14-068",
-      "type": "その他",
-      "text": "S14Q16:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-14-069",
-      "type": "その他",
-      "text": "S14Q17:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-14-070",
-      "type": "その他",
-      "text": "S14Q18:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-14-071",
-      "type": "その他",
-      "text": "S14Q19:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-14-072",
-      "type": "その他",
-      "text": "S14Q20:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-14-073",
-      "type": "その他",
-      "text": "S14Q21:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-14-074",
-      "type": "その他",
-      "text": "S14Q22:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-14-075",
-      "type": "その他",
-      "text": "S14Q23:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-14-076",
-      "type": "その他",
-      "text": "S14Q24:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-14-077",
-      "type": "その他",
-      "text": "S14Q25:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-14-078",
-      "type": "その他",
-      "text": "S14Q26:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-14-079",
-      "type": "その他",
-      "text": "S14Q27:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-14-080",
-      "type": "その他",
-      "text": "S14Q28:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-14-081",
-      "type": "その他",
-      "text": "S14Q29:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-14-082",
-      "type": "その他",
-      "text": "S14Q30:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    }
-  ],
-  "15": [
-    {
-      "id": "N5-15-001",
-      "type": "漢字読み",
-      "text": "<u>千</u>を読んでください。",
-      "question": "「千」の読み方は？",
-      "options": [
-        "せん",
-        "せんい",
-        "せんえ",
-        "せんう"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-15-002",
-      "type": "漢字読み",
-      "text": "<u>万</u>を読んでください。",
-      "question": "「万」の読み方は？",
-      "options": [
-        "まん",
-        "まんう",
-        "まんえ",
-        "まんい"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-15-003",
-      "type": "漢字読み",
-      "text": "<u>円</u>を読んでください。",
-      "question": "「円」の読み方は？",
-      "options": [
-        "えんえ",
-        "えんい",
-        "えんう",
-        "えん"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-15-004",
-      "type": "漢字読み",
-      "text": "<u>年</u>を読んでください。",
-      "question": "「年」の読み方は？",
-      "options": [
-        "とし",
-        "としう",
-        "としえ",
-        "としい"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-15-005",
-      "type": "表記",
-      "text": "<u>せん</u>の漢字は？",
-      "question": "「せん」の書き方は？",
-      "options": [
-        "千々",
-        "千",
-        "千々",
-        "々千"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-15-006",
-      "type": "表記",
-      "text": "<u>まん</u>の漢字は？",
-      "question": "「まん」の書き方は？",
-      "options": [
-        "万々",
-        "々万",
-        "万",
-        "万々"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-15-007",
-      "type": "表記",
-      "text": "<u>えん</u>の漢字は？",
-      "question": "「えん」の書き方は？",
-      "options": [
-        "円々",
-        "円",
-        "々円",
-        "円々"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-15-008",
-      "type": "表記",
-      "text": "<u>とし</u>の漢字は？",
-      "question": "「とし」の書き方は？",
-      "options": [
-        "々年",
-        "年々",
-        "年",
-        "年々"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-15-009",
-      "type": "文脈規定",
-      "text": "彼は（　）が高いです。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "背",
-        "声",
-        "顔",
-        "足"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-15-010",
-      "type": "文脈規定",
-      "text": "今日の（　）は25度です。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "水温",
-        "体温",
-        "気温",
-        "室温"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-15-011",
-      "type": "文脈規定",
-      "text": "（　）をかけてもいいですか。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "マスク",
-        "眼鏡",
-        "帽子",
-        "手袋"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-15-012",
-      "type": "文脈規定",
-      "text": "彼女は（　）が長いです。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "足",
-        "髪",
-        "爪",
-        "腕"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-15-013",
-      "type": "文法",
-      "text": "S15Q1:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-15-014",
-      "type": "文法",
-      "text": "S15Q2:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-15-015",
-      "type": "文法",
-      "text": "S15Q3:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-15-016",
-      "type": "文法",
-      "text": "S15Q4:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-15-017",
-      "type": "文法",
-      "text": "S15Q5:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-15-018",
-      "type": "文法",
-      "text": "S15Q6:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-15-019",
-      "type": "文法",
-      "text": "S15Q7:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-15-020",
-      "type": "文法",
-      "text": "S15Q8:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-15-021",
-      "type": "文法",
-      "text": "S15Q9:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-15-022",
-      "type": "文法",
-      "text": "S15Q10:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-15-023",
-      "type": "読解",
-      "text": "S15Q1:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-15-024",
-      "type": "読解",
-      "text": "S15Q2:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-15-025",
-      "type": "読解",
-      "text": "S15Q3:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-15-026",
-      "type": "読解",
-      "text": "S15Q4:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-15-027",
-      "type": "読解",
-      "text": "S15Q5:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-15-028",
-      "type": "読解",
-      "text": "S15Q6:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-15-029",
-      "type": "読解",
-      "text": "S15Q7:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-15-030",
-      "type": "読解",
-      "text": "S15Q8:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-15-031",
-      "type": "読解",
-      "text": "S15Q9:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-15-032",
-      "type": "読解",
-      "text": "S15Q10:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-15-033",
-      "type": "聴解",
-      "text": "S15Q1:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-15-034",
-      "type": "聴解",
-      "text": "S15Q2:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-15-035",
-      "type": "聴解",
-      "text": "S15Q3:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-15-036",
-      "type": "聴解",
-      "text": "S15Q4:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-15-037",
-      "type": "聴解",
-      "text": "S15Q5:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-15-038",
-      "type": "聴解",
-      "text": "S15Q6:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-15-039",
-      "type": "聴解",
-      "text": "S15Q7:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-15-040",
-      "type": "聴解",
-      "text": "S15Q8:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-15-041",
-      "type": "聴解",
-      "text": "S15Q9:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-15-042",
-      "type": "聴解",
-      "text": "S15Q10:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-15-043",
-      "type": "聴解",
-      "text": "S15Q11:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-15-044",
-      "type": "聴解",
-      "text": "S15Q12:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-15-045",
-      "type": "聴解",
-      "text": "S15Q13:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-15-046",
-      "type": "聴解",
-      "text": "S15Q14:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-15-047",
-      "type": "聴解",
-      "text": "S15Q15:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-15-048",
-      "type": "聴解",
-      "text": "S15Q16:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-15-049",
-      "type": "即時応答",
-      "text": "S15Q1: 現金でお願いします。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、かしこまりました。",
-        "いいえ、現金です。",
-        "はい、カードです。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-15-050",
-      "type": "即時応答",
-      "text": "S15Q2: お釣りです。",
-      "question": "何と答えますか。",
-      "options": [
-        "ありがとうございます。",
-        "すみません。",
-        "ごめんなさい。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-15-051",
-      "type": "即時応答",
-      "text": "S15Q3: また来てくださいね。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、また来ます。",
-        "いいえ、来ます。",
-        "はい、来ません。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-15-052",
-      "type": "即時応答",
-      "text": "S15Q4: 道に迷いました。",
-      "question": "何と答えますか。",
-      "options": [
-        "どこに行きたいですか。",
-        "迷いました。",
-        "道です。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-15-053",
-      "type": "その他",
-      "text": "S15Q1:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-15-054",
-      "type": "その他",
-      "text": "S15Q2:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-15-055",
-      "type": "その他",
-      "text": "S15Q3:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-15-056",
-      "type": "その他",
-      "text": "S15Q4:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-15-057",
-      "type": "その他",
-      "text": "S15Q5:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-15-058",
-      "type": "その他",
-      "text": "S15Q6:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-15-059",
-      "type": "その他",
-      "text": "S15Q7:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-15-060",
-      "type": "その他",
-      "text": "S15Q8:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-15-061",
-      "type": "その他",
-      "text": "S15Q9:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-15-062",
-      "type": "その他",
-      "text": "S15Q10:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-15-063",
-      "type": "その他",
-      "text": "S15Q11:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-15-064",
-      "type": "その他",
-      "text": "S15Q12:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-15-065",
-      "type": "その他",
-      "text": "S15Q13:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-15-066",
-      "type": "その他",
-      "text": "S15Q14:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-15-067",
-      "type": "その他",
-      "text": "S15Q15:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-15-068",
-      "type": "その他",
-      "text": "S15Q16:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-15-069",
-      "type": "その他",
-      "text": "S15Q17:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-15-070",
-      "type": "その他",
-      "text": "S15Q18:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-15-071",
-      "type": "その他",
-      "text": "S15Q19:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-15-072",
-      "type": "その他",
-      "text": "S15Q20:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-15-073",
-      "type": "その他",
-      "text": "S15Q21:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-15-074",
-      "type": "その他",
-      "text": "S15Q22:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-15-075",
-      "type": "その他",
-      "text": "S15Q23:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-15-076",
-      "type": "その他",
-      "text": "S15Q24:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-15-077",
-      "type": "その他",
-      "text": "S15Q25:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-15-078",
-      "type": "その他",
-      "text": "S15Q26:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-15-079",
-      "type": "その他",
-      "text": "S15Q27:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-15-080",
-      "type": "その他",
-      "text": "S15Q28:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-15-081",
-      "type": "その他",
-      "text": "S15Q29:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-15-082",
-      "type": "その他",
-      "text": "S15Q30:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    }
-  ],
-  "16": [
-    {
-      "id": "N5-16-001",
-      "type": "漢字読み",
-      "text": "<u>時</u>を読んでください。",
-      "question": "「時」の読み方は？",
-      "options": [
-        "とき",
-        "ときえ",
-        "ときい",
-        "ときう"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-16-002",
-      "type": "漢字読み",
-      "text": "<u>分</u>を読んでください。",
-      "question": "「分」の読み方は？",
-      "options": [
-        "ふんい",
-        "ふん",
-        "ふんう",
-        "ふんえ"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-16-003",
-      "type": "漢字読み",
-      "text": "<u>半</u>を読んでください。",
-      "question": "「半」の読み方は？",
-      "options": [
-        "はんう",
-        "はんい",
-        "はん",
-        "はんえ"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-16-004",
-      "type": "漢字読み",
-      "text": "<u>毎</u>を読んでください。",
-      "question": "「毎」の読み方は？",
-      "options": [
-        "まいう",
-        "まい",
-        "まいい",
-        "まいえ"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-16-005",
-      "type": "表記",
-      "text": "<u>とき</u>の漢字は？",
-      "question": "「とき」の書き方は？",
-      "options": [
-        "時",
-        "々時",
-        "時々",
-        "時々"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-16-006",
-      "type": "表記",
-      "text": "<u>ふん</u>の漢字は？",
-      "question": "「ふん」の書き方は？",
-      "options": [
-        "々分",
-        "分",
-        "分々",
-        "分々"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-16-007",
-      "type": "表記",
-      "text": "<u>はん</u>の漢字は？",
-      "question": "「はん」の書き方は？",
-      "options": [
-        "々半",
-        "半々",
-        "半々",
-        "半"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-16-008",
-      "type": "表記",
-      "text": "<u>まい</u>の漢字は？",
-      "question": "「まい」の書き方は？",
-      "options": [
-        "毎々",
-        "毎々",
-        "々毎",
-        "毎"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-16-009",
-      "type": "文脈規定",
-      "text": "今年の（　）は何月ですか。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "祝日",
-        "誕生日",
-        "休日",
-        "記念日"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-16-010",
-      "type": "文脈規定",
-      "text": "この川は（　）が速いです。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "船",
-        "魚",
-        "水",
-        "流れ"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-16-011",
-      "type": "文脈規定",
-      "text": "（　）を押してください。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "ハンドル",
-        "スイッチ",
-        "ボタン",
-        "レバー"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-16-012",
-      "type": "文脈規定",
-      "text": "彼の（　）は優しいです。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "性格",
-        "言葉",
-        "態度",
-        "行動"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-16-013",
-      "type": "文法",
-      "text": "S16Q1:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-16-014",
-      "type": "文法",
-      "text": "S16Q2:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-16-015",
-      "type": "文法",
-      "text": "S16Q3:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-16-016",
-      "type": "文法",
-      "text": "S16Q4:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-16-017",
-      "type": "文法",
-      "text": "S16Q5:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-16-018",
-      "type": "文法",
-      "text": "S16Q6:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-16-019",
-      "type": "文法",
-      "text": "S16Q7:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-16-020",
-      "type": "文法",
-      "text": "S16Q8:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-16-021",
-      "type": "文法",
-      "text": "S16Q9:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-16-022",
-      "type": "文法",
-      "text": "S16Q10:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-16-023",
-      "type": "読解",
-      "text": "S16Q1:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-16-024",
-      "type": "読解",
-      "text": "S16Q2:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-16-025",
-      "type": "読解",
-      "text": "S16Q3:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-16-026",
-      "type": "読解",
-      "text": "S16Q4:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-16-027",
-      "type": "読解",
-      "text": "S16Q5:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-16-028",
-      "type": "読解",
-      "text": "S16Q6:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-16-029",
-      "type": "読解",
-      "text": "S16Q7:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-16-030",
-      "type": "読解",
-      "text": "S16Q8:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-16-031",
-      "type": "読解",
-      "text": "S16Q9:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-16-032",
-      "type": "読解",
-      "text": "S16Q10:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-16-033",
-      "type": "聴解",
-      "text": "S16Q1:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-16-034",
-      "type": "聴解",
-      "text": "S16Q2:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-16-035",
-      "type": "聴解",
-      "text": "S16Q3:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-16-036",
-      "type": "聴解",
-      "text": "S16Q4:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-16-037",
-      "type": "聴解",
-      "text": "S16Q5:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-16-038",
-      "type": "聴解",
-      "text": "S16Q6:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-16-039",
-      "type": "聴解",
-      "text": "S16Q7:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-16-040",
-      "type": "聴解",
-      "text": "S16Q8:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-16-041",
-      "type": "聴解",
-      "text": "S16Q9:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-16-042",
-      "type": "聴解",
-      "text": "S16Q10:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-16-043",
-      "type": "聴解",
-      "text": "S16Q11:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-16-044",
-      "type": "聴解",
-      "text": "S16Q12:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-16-045",
-      "type": "聴解",
-      "text": "S16Q13:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-16-046",
-      "type": "聴解",
-      "text": "S16Q14:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-16-047",
-      "type": "聴解",
-      "text": "S16Q15:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-16-048",
-      "type": "聴解",
-      "text": "S16Q16:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-16-049",
-      "type": "即時応答",
-      "text": "S16Q1: 駅はどこですか。",
-      "question": "何と答えますか。",
-      "options": [
-        "この道をまっすぐです。",
-        "駅です。",
-        "どこです。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-16-050",
-      "type": "即時応答",
-      "text": "S16Q2: バス停はどこですか。",
-      "question": "何と答えますか。",
-      "options": [
-        "あの角を曲がってください。",
-        "バスです。",
-        "停です。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-16-051",
-      "type": "即時応答",
-      "text": "S16Q3: 地図を見せてください。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、どうぞ。",
-        "いいえ、見せます。",
-        "はい、見せません。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-16-052",
-      "type": "即時応答",
-      "text": "S16Q4: タクシーを呼んでください。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、すぐ呼びます。",
-        "いいえ、呼びます。",
-        "はい、呼びません。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-16-053",
-      "type": "その他",
-      "text": "S16Q1:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-16-054",
-      "type": "その他",
-      "text": "S16Q2:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-16-055",
-      "type": "その他",
-      "text": "S16Q3:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-16-056",
-      "type": "その他",
-      "text": "S16Q4:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-16-057",
-      "type": "その他",
-      "text": "S16Q5:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-16-058",
-      "type": "その他",
-      "text": "S16Q6:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-16-059",
-      "type": "その他",
-      "text": "S16Q7:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-16-060",
-      "type": "その他",
-      "text": "S16Q8:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-16-061",
-      "type": "その他",
-      "text": "S16Q9:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-16-062",
-      "type": "その他",
-      "text": "S16Q10:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-16-063",
-      "type": "その他",
-      "text": "S16Q11:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-16-064",
-      "type": "その他",
-      "text": "S16Q12:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-16-065",
-      "type": "その他",
-      "text": "S16Q13:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-16-066",
-      "type": "その他",
-      "text": "S16Q14:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-16-067",
-      "type": "その他",
-      "text": "S16Q15:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-16-068",
-      "type": "その他",
-      "text": "S16Q16:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-16-069",
-      "type": "その他",
-      "text": "S16Q17:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-16-070",
-      "type": "その他",
-      "text": "S16Q18:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-16-071",
-      "type": "その他",
-      "text": "S16Q19:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-16-072",
-      "type": "その他",
-      "text": "S16Q20:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-16-073",
-      "type": "その他",
-      "text": "S16Q21:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-16-074",
-      "type": "その他",
-      "text": "S16Q22:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-16-075",
-      "type": "その他",
-      "text": "S16Q23:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-16-076",
-      "type": "その他",
-      "text": "S16Q24:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-16-077",
-      "type": "その他",
-      "text": "S16Q25:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-16-078",
-      "type": "その他",
-      "text": "S16Q26:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-16-079",
-      "type": "その他",
-      "text": "S16Q27:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-16-080",
-      "type": "その他",
-      "text": "S16Q28:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-16-081",
-      "type": "その他",
-      "text": "S16Q29:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-16-082",
-      "type": "その他",
-      "text": "S16Q30:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    }
-  ],
-  "17": [
-    {
-      "id": "N5-17-001",
-      "type": "漢字読み",
-      "text": "<u>週</u>を読んでください。",
-      "question": "「週」の読み方は？",
-      "options": [
-        "しゅう",
-        "しゅうえ",
-        "しゅうい",
-        "しゅうう"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-17-002",
-      "type": "漢字読み",
-      "text": "<u>来</u>を読んでください。",
-      "question": "「来」の読み方は？",
-      "options": [
-        "くう",
-        "くえ",
-        "くい",
-        "く"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-17-003",
-      "type": "漢字読み",
-      "text": "<u>行</u>を読んでください。",
-      "question": "「行」の読み方は？",
-      "options": [
-        "いう",
-        "いえ",
-        "いい",
-        "い"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-17-004",
-      "type": "漢字読み",
-      "text": "<u>見</u>を読んでください。",
-      "question": "「見」の読み方は？",
-      "options": [
-        "みい",
-        "みえ",
-        "みう",
-        "み"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-17-005",
-      "type": "表記",
-      "text": "<u>しゅう</u>の漢字は？",
-      "question": "「しゅう」の書き方は？",
-      "options": [
-        "週々",
-        "々週",
-        "週々",
-        "週"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-17-006",
-      "type": "表記",
-      "text": "<u>く</u>の漢字は？",
-      "question": "「く」の書き方は？",
-      "options": [
-        "来々",
-        "来々",
-        "々来",
-        "来"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-17-007",
-      "type": "表記",
-      "text": "<u>い</u>の漢字は？",
-      "question": "「い」の書き方は？",
-      "options": [
-        "々行",
-        "行々",
-        "行",
-        "行々"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-17-008",
-      "type": "表記",
-      "text": "<u>み</u>の漢字は？",
-      "question": "「み」の書き方は？",
-      "options": [
-        "見々",
-        "見々",
-        "々見",
-        "見"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-17-009",
-      "type": "文脈規定",
-      "text": "私は（　）が下手です。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "料理",
-        "掃除",
-        "洗濯",
-        "運転"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-17-010",
-      "type": "文脈規定",
-      "text": "（　）をなくしました。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "鍵",
-        "パスポート",
-        "財布",
-        "携帯"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-17-011",
-      "type": "文脈規定",
-      "text": "今日は（　）に行きます。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "郵便局",
-        "病院",
-        "役所",
-        "銀行"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-17-012",
-      "type": "文脈規定",
-      "text": "この道は（　）です。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "不便",
-        "便利",
-        "安全",
-        "危険"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-17-013",
-      "type": "文法",
-      "text": "S17Q1:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-17-014",
-      "type": "文法",
-      "text": "S17Q2:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-17-015",
-      "type": "文法",
-      "text": "S17Q3:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-17-016",
-      "type": "文法",
-      "text": "S17Q4:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-17-017",
-      "type": "文法",
-      "text": "S17Q5:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-17-018",
-      "type": "文法",
-      "text": "S17Q6:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-17-019",
-      "type": "文法",
-      "text": "S17Q7:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-17-020",
-      "type": "文法",
-      "text": "S17Q8:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-17-021",
-      "type": "文法",
-      "text": "S17Q9:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-17-022",
-      "type": "文法",
-      "text": "S17Q10:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-17-023",
-      "type": "読解",
-      "text": "S17Q1:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-17-024",
-      "type": "読解",
-      "text": "S17Q2:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-17-025",
-      "type": "読解",
-      "text": "S17Q3:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-17-026",
-      "type": "読解",
-      "text": "S17Q4:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-17-027",
-      "type": "読解",
-      "text": "S17Q5:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-17-028",
-      "type": "読解",
-      "text": "S17Q6:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-17-029",
-      "type": "読解",
-      "text": "S17Q7:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-17-030",
-      "type": "読解",
-      "text": "S17Q8:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-17-031",
-      "type": "読解",
-      "text": "S17Q9:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-17-032",
-      "type": "読解",
-      "text": "S17Q10:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-17-033",
-      "type": "聴解",
-      "text": "S17Q1:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-17-034",
-      "type": "聴解",
-      "text": "S17Q2:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-17-035",
-      "type": "聴解",
-      "text": "S17Q3:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-17-036",
-      "type": "聴解",
-      "text": "S17Q4:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-17-037",
-      "type": "聴解",
-      "text": "S17Q5:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-17-038",
-      "type": "聴解",
-      "text": "S17Q6:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-17-039",
-      "type": "聴解",
-      "text": "S17Q7:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-17-040",
-      "type": "聴解",
-      "text": "S17Q8:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-17-041",
-      "type": "聴解",
-      "text": "S17Q9:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-17-042",
-      "type": "聴解",
-      "text": "S17Q10:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-17-043",
-      "type": "聴解",
-      "text": "S17Q11:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-17-044",
-      "type": "聴解",
-      "text": "S17Q12:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-17-045",
-      "type": "聴解",
-      "text": "S17Q13:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-17-046",
-      "type": "聴解",
-      "text": "S17Q14:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-17-047",
-      "type": "聴解",
-      "text": "S17Q15:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-17-048",
-      "type": "聴解",
-      "text": "S17Q16:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-17-049",
-      "type": "即時応答",
-      "text": "S17Q1: この電車は東京に行きますか。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、行きます。",
-        "いいえ、行きます。",
-        "はい、行きません。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-17-050",
-      "type": "即時応答",
-      "text": "S17Q2: 乗り換えはどこですか。",
-      "question": "何と答えますか。",
-      "options": [
-        "新宿駅です。",
-        "乗り換えです。",
-        "どこです。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-17-051",
-      "type": "即時応答",
-      "text": "S17Q3: 終電は何時ですか。",
-      "question": "何と答えますか。",
-      "options": [
-        "23時です。",
-        "終電です。",
-        "何時です。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-17-052",
-      "type": "即時応答",
-      "text": "S17Q4: 空港までどのくらいかかりますか。",
-      "question": "何と答えますか。",
-      "options": [
-        "1時間くらいです。",
-        "空港です。",
-        "かかります。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-17-053",
-      "type": "その他",
-      "text": "S17Q1:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-17-054",
-      "type": "その他",
-      "text": "S17Q2:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-17-055",
-      "type": "その他",
-      "text": "S17Q3:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-17-056",
-      "type": "その他",
-      "text": "S17Q4:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-17-057",
-      "type": "その他",
-      "text": "S17Q5:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-17-058",
-      "type": "その他",
-      "text": "S17Q6:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-17-059",
-      "type": "その他",
-      "text": "S17Q7:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-17-060",
-      "type": "その他",
-      "text": "S17Q8:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-17-061",
-      "type": "その他",
-      "text": "S17Q9:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-17-062",
-      "type": "その他",
-      "text": "S17Q10:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-17-063",
-      "type": "その他",
-      "text": "S17Q11:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-17-064",
-      "type": "その他",
-      "text": "S17Q12:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-17-065",
-      "type": "その他",
-      "text": "S17Q13:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-17-066",
-      "type": "その他",
-      "text": "S17Q14:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-17-067",
-      "type": "その他",
-      "text": "S17Q15:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-17-068",
-      "type": "その他",
-      "text": "S17Q16:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-17-069",
-      "type": "その他",
-      "text": "S17Q17:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-17-070",
-      "type": "その他",
-      "text": "S17Q18:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-17-071",
-      "type": "その他",
-      "text": "S17Q19:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-17-072",
-      "type": "その他",
-      "text": "S17Q20:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-17-073",
-      "type": "その他",
-      "text": "S17Q21:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-17-074",
-      "type": "その他",
-      "text": "S17Q22:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-17-075",
-      "type": "その他",
-      "text": "S17Q23:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-17-076",
-      "type": "その他",
-      "text": "S17Q24:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-17-077",
-      "type": "その他",
-      "text": "S17Q25:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-17-078",
-      "type": "その他",
-      "text": "S17Q26:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-17-079",
-      "type": "その他",
-      "text": "S17Q27:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-17-080",
-      "type": "その他",
-      "text": "S17Q28:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-17-081",
-      "type": "その他",
-      "text": "S17Q29:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-17-082",
-      "type": "その他",
-      "text": "S17Q30:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    }
-  ],
-  "18": [
-    {
-      "id": "N5-18-001",
-      "type": "漢字読み",
-      "text": "<u>聞</u>を読んでください。",
-      "question": "「聞」の読み方は？",
-      "options": [
-        "きい",
-        "き",
-        "きう",
-        "きえ"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-18-002",
-      "type": "漢字読み",
-      "text": "<u>話</u>を読んでください。",
-      "question": "「話」の読み方は？",
-      "options": [
-        "はない",
-        "はなえ",
-        "はなう",
-        "はな"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-18-003",
-      "type": "漢字読み",
-      "text": "<u>読</u>を読んでください。",
-      "question": "「読」の読み方は？",
-      "options": [
-        "よえ",
-        "よい",
-        "よう",
-        "よ"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-18-004",
-      "type": "漢字読み",
-      "text": "<u>書</u>を読んでください。",
-      "question": "「書」の読み方は？",
-      "options": [
-        "かい",
-        "かえ",
-        "かう",
-        "か"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-18-005",
-      "type": "表記",
-      "text": "<u>き</u>の漢字は？",
-      "question": "「き」の書き方は？",
-      "options": [
-        "聞",
-        "聞々",
-        "聞々",
-        "々聞"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-18-006",
-      "type": "表記",
-      "text": "<u>はな</u>の漢字は？",
-      "question": "「はな」の書き方は？",
-      "options": [
-        "話々",
-        "話々",
-        "話",
-        "々話"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-18-007",
-      "type": "表記",
-      "text": "<u>よ</u>の漢字は？",
-      "question": "「よ」の書き方は？",
-      "options": [
-        "読々",
-        "々読",
-        "読々",
-        "読"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-18-008",
-      "type": "表記",
-      "text": "<u>か</u>の漢字は？",
-      "question": "「か」の書き方は？",
-      "options": [
-        "書々",
-        "々書",
-        "書々",
-        "書"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-18-009",
-      "type": "文脈規定",
-      "text": "（　）を消してください。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "ラジオ",
-        "テレビ",
-        "エアコン",
-        "電気"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-18-010",
-      "type": "文脈規定",
-      "text": "彼女は（　）が上手です。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "絵",
-        "踊り",
-        "歌",
-        "字"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-18-011",
-      "type": "文脈規定",
-      "text": "今日は（　）がありません。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "時間",
-        "元気",
-        "お金",
-        "予定"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-18-012",
-      "type": "文脈規定",
-      "text": "（　）に電話してください。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "銀行",
-        "会社",
-        "学校",
-        "病院"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-18-013",
-      "type": "文法",
-      "text": "S18Q1:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-18-014",
-      "type": "文法",
-      "text": "S18Q2:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-18-015",
-      "type": "文法",
-      "text": "S18Q3:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-18-016",
-      "type": "文法",
-      "text": "S18Q4:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-18-017",
-      "type": "文法",
-      "text": "S18Q5:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-18-018",
-      "type": "文法",
-      "text": "S18Q6:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-18-019",
-      "type": "文法",
-      "text": "S18Q7:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-18-020",
-      "type": "文法",
-      "text": "S18Q8:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-18-021",
-      "type": "文法",
-      "text": "S18Q9:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-18-022",
-      "type": "文法",
-      "text": "S18Q10:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-18-023",
-      "type": "読解",
-      "text": "S18Q1:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-18-024",
-      "type": "読解",
-      "text": "S18Q2:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-18-025",
-      "type": "読解",
-      "text": "S18Q3:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-18-026",
-      "type": "読解",
-      "text": "S18Q4:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-18-027",
-      "type": "読解",
-      "text": "S18Q5:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-18-028",
-      "type": "読解",
-      "text": "S18Q6:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-18-029",
-      "type": "読解",
-      "text": "S18Q7:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-18-030",
-      "type": "読解",
-      "text": "S18Q8:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-18-031",
-      "type": "読解",
-      "text": "S18Q9:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-18-032",
-      "type": "読解",
-      "text": "S18Q10:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-18-033",
-      "type": "聴解",
-      "text": "S18Q1:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-18-034",
-      "type": "聴解",
-      "text": "S18Q2:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-18-035",
-      "type": "聴解",
-      "text": "S18Q3:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-18-036",
-      "type": "聴解",
-      "text": "S18Q4:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-18-037",
-      "type": "聴解",
-      "text": "S18Q5:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-18-038",
-      "type": "聴解",
-      "text": "S18Q6:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-18-039",
-      "type": "聴解",
-      "text": "S18Q7:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-18-040",
-      "type": "聴解",
-      "text": "S18Q8:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-18-041",
-      "type": "聴解",
-      "text": "S18Q9:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-18-042",
-      "type": "聴解",
-      "text": "S18Q10:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-18-043",
-      "type": "聴解",
-      "text": "S18Q11:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-18-044",
-      "type": "聴解",
-      "text": "S18Q12:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-18-045",
-      "type": "聴解",
-      "text": "S18Q13:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-18-046",
-      "type": "聴解",
-      "text": "S18Q14:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-18-047",
-      "type": "聴解",
-      "text": "S18Q15:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-18-048",
-      "type": "聴解",
-      "text": "S18Q16:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-18-049",
-      "type": "即時応答",
-      "text": "S18Q1: チケットを2枚ください。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、2000円です。",
-        "いいえ、2枚です。",
-        "はい、チケットです。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-18-050",
-      "type": "即時応答",
-      "text": "S18Q2: 予約したいのですが。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、お名前をお願いします。",
-        "いいえ、予約です。",
-        "はい、したいです。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-18-051",
-      "type": "即時応答",
-      "text": "S18Q3: キャンセルしたいのですが。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、承知しました。",
-        "いいえ、キャンセルです。",
-        "はい、したいです。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-18-052",
-      "type": "即時応答",
-      "text": "S18Q4: 変更できますか。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、可能です。",
-        "いいえ、変更です。",
-        "はい、できません。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-18-053",
-      "type": "その他",
-      "text": "S18Q1:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-18-054",
-      "type": "その他",
-      "text": "S18Q2:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-18-055",
-      "type": "その他",
-      "text": "S18Q3:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-18-056",
-      "type": "その他",
-      "text": "S18Q4:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-18-057",
-      "type": "その他",
-      "text": "S18Q5:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-18-058",
-      "type": "その他",
-      "text": "S18Q6:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-18-059",
-      "type": "その他",
-      "text": "S18Q7:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-18-060",
-      "type": "その他",
-      "text": "S18Q8:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-18-061",
-      "type": "その他",
-      "text": "S18Q9:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-18-062",
-      "type": "その他",
-      "text": "S18Q10:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-18-063",
-      "type": "その他",
-      "text": "S18Q11:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-18-064",
-      "type": "その他",
-      "text": "S18Q12:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-18-065",
-      "type": "その他",
-      "text": "S18Q13:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-18-066",
-      "type": "その他",
-      "text": "S18Q14:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-18-067",
-      "type": "その他",
-      "text": "S18Q15:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-18-068",
-      "type": "その他",
-      "text": "S18Q16:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-18-069",
-      "type": "その他",
-      "text": "S18Q17:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-18-070",
-      "type": "その他",
-      "text": "S18Q18:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-18-071",
-      "type": "その他",
-      "text": "S18Q19:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-18-072",
-      "type": "その他",
-      "text": "S18Q20:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-18-073",
-      "type": "その他",
-      "text": "S18Q21:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-18-074",
-      "type": "その他",
-      "text": "S18Q22:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-18-075",
-      "type": "その他",
-      "text": "S18Q23:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-18-076",
-      "type": "その他",
-      "text": "S18Q24:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-18-077",
-      "type": "その他",
-      "text": "S18Q25:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-18-078",
-      "type": "その他",
-      "text": "S18Q26:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-18-079",
-      "type": "その他",
-      "text": "S18Q27:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-18-080",
-      "type": "その他",
-      "text": "S18Q28:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-18-081",
-      "type": "その他",
-      "text": "S18Q29:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-18-082",
-      "type": "その他",
-      "text": "S18Q30:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    }
-  ],
-  "19": [
-    {
-      "id": "N5-19-001",
-      "type": "漢字読み",
-      "text": "<u>食</u>を読んでください。",
-      "question": "「食」の読み方は？",
-      "options": [
-        "たえ",
-        "たう",
-        "たい",
-        "た"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-19-002",
-      "type": "漢字読み",
-      "text": "<u>飲</u>を読んでください。",
-      "question": "「飲」の読み方は？",
-      "options": [
-        "の",
-        "のう",
-        "のえ",
-        "のい"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-19-003",
-      "type": "漢字読み",
-      "text": "<u>買</u>を読んでください。",
-      "question": "「買」の読み方は？",
-      "options": [
-        "かえ",
-        "かい",
-        "か",
-        "かう"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-19-004",
-      "type": "漢字読み",
-      "text": "<u>入</u>を読んでください。",
-      "question": "「入」の読み方は？",
-      "options": [
-        "はいえ",
-        "はいい",
-        "はい",
-        "はいう"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-19-005",
-      "type": "表記",
-      "text": "<u>た</u>の漢字は？",
-      "question": "「た」の書き方は？",
-      "options": [
-        "食",
-        "々食",
-        "食々",
-        "食々"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-19-006",
-      "type": "表記",
-      "text": "<u>の</u>の漢字は？",
-      "question": "「の」の書き方は？",
-      "options": [
-        "飲",
-        "飲々",
-        "飲々",
-        "々飲"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-19-007",
-      "type": "表記",
-      "text": "<u>か</u>の漢字は？",
-      "question": "「か」の書き方は？",
-      "options": [
-        "買々",
-        "買々",
-        "々買",
-        "買"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-19-008",
-      "type": "表記",
-      "text": "<u>はい</u>の漢字は？",
-      "question": "「はい」の書き方は？",
-      "options": [
-        "々入",
-        "入々",
-        "入々",
-        "入"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-19-009",
-      "type": "文脈規定",
-      "text": "この本は（　）円です。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "600",
-        "500",
-        "700",
-        "800"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-19-010",
-      "type": "文脈規定",
-      "text": "私の（　）は教師です。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "仕事",
-        "趣味",
-        "夢",
-        "目標"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-19-011",
-      "type": "文脈規定",
-      "text": "（　）を聞いてください。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "質問",
-        "答え",
-        "説明",
-        "話"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-19-012",
-      "type": "文脈規定",
-      "text": "今日は（　）が強いです。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "日差し",
-        "雨",
-        "風",
-        "雪"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-19-013",
-      "type": "文法",
-      "text": "S19Q1:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-19-014",
-      "type": "文法",
-      "text": "S19Q2:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-19-015",
-      "type": "文法",
-      "text": "S19Q3:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-19-016",
-      "type": "文法",
-      "text": "S19Q4:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-19-017",
-      "type": "文法",
-      "text": "S19Q5:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-19-018",
-      "type": "文法",
-      "text": "S19Q6:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-19-019",
-      "type": "文法",
-      "text": "S19Q7:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-19-020",
-      "type": "文法",
-      "text": "S19Q8:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-19-021",
-      "type": "文法",
-      "text": "S19Q9:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-19-022",
-      "type": "文法",
-      "text": "S19Q10:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-19-023",
-      "type": "読解",
-      "text": "S19Q1:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-19-024",
-      "type": "読解",
-      "text": "S19Q2:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-19-025",
-      "type": "読解",
-      "text": "S19Q3:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-19-026",
-      "type": "読解",
-      "text": "S19Q4:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-19-027",
-      "type": "読解",
-      "text": "S19Q5:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-19-028",
-      "type": "読解",
-      "text": "S19Q6:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-19-029",
-      "type": "読解",
-      "text": "S19Q7:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-19-030",
-      "type": "読解",
-      "text": "S19Q8:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-19-031",
-      "type": "読解",
-      "text": "S19Q9:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-19-032",
-      "type": "読解",
-      "text": "S19Q10:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-19-033",
-      "type": "聴解",
-      "text": "S19Q1:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-19-034",
-      "type": "聴解",
-      "text": "S19Q2:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-19-035",
-      "type": "聴解",
-      "text": "S19Q3:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-19-036",
-      "type": "聴解",
-      "text": "S19Q4:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-19-037",
-      "type": "聴解",
-      "text": "S19Q5:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-19-038",
-      "type": "聴解",
-      "text": "S19Q6:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-19-039",
-      "type": "聴解",
-      "text": "S19Q7:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-19-040",
-      "type": "聴解",
-      "text": "S19Q8:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-19-041",
-      "type": "聴解",
-      "text": "S19Q9:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-19-042",
-      "type": "聴解",
-      "text": "S19Q10:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-19-043",
-      "type": "聴解",
-      "text": "S19Q11:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-19-044",
-      "type": "聴解",
-      "text": "S19Q12:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-19-045",
-      "type": "聴解",
-      "text": "S19Q13:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-19-046",
-      "type": "聴解",
-      "text": "S19Q14:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-19-047",
-      "type": "聴解",
-      "text": "S19Q15:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-19-048",
-      "type": "聴解",
-      "text": "S19Q16:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-19-049",
-      "type": "即時応答",
-      "text": "S19Q1: インターネットは使えますか。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、無料で使えます。",
-        "いいえ、使えます。",
-        "はい、使えません。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-19-050",
-      "type": "即時応答",
-      "text": "S19Q2: 充電できますか。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、こちらでどうぞ。",
-        "いいえ、充電です。",
-        "はい、できません。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-19-051",
-      "type": "即時応答",
-      "text": "S19Q3: Wi-Fiのパスワードを教えてください。",
-      "question": "何と答えますか。",
-      "options": [
-        "hotel2024です。",
-        "Wi-Fiです。",
-        "パスワードです。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-19-052",
-      "type": "即時応答",
-      "text": "S19Q4: チェックインお願いします。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、お名前をお願いします。",
-        "いいえ、チェックインです。",
-        "はい、チェックアウトです。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-19-053",
-      "type": "その他",
-      "text": "S19Q1:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-19-054",
-      "type": "その他",
-      "text": "S19Q2:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-19-055",
-      "type": "その他",
-      "text": "S19Q3:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-19-056",
-      "type": "その他",
-      "text": "S19Q4:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-19-057",
-      "type": "その他",
-      "text": "S19Q5:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-19-058",
-      "type": "その他",
-      "text": "S19Q6:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-19-059",
-      "type": "その他",
-      "text": "S19Q7:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-19-060",
-      "type": "その他",
-      "text": "S19Q8:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-19-061",
-      "type": "その他",
-      "text": "S19Q9:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-19-062",
-      "type": "その他",
-      "text": "S19Q10:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-19-063",
-      "type": "その他",
-      "text": "S19Q11:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-19-064",
-      "type": "その他",
-      "text": "S19Q12:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-19-065",
-      "type": "その他",
-      "text": "S19Q13:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-19-066",
-      "type": "その他",
-      "text": "S19Q14:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-19-067",
-      "type": "その他",
-      "text": "S19Q15:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-19-068",
-      "type": "その他",
-      "text": "S19Q16:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-19-069",
-      "type": "その他",
-      "text": "S19Q17:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-19-070",
-      "type": "その他",
-      "text": "S19Q18:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-19-071",
-      "type": "その他",
-      "text": "S19Q19:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-19-072",
-      "type": "その他",
-      "text": "S19Q20:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-19-073",
-      "type": "その他",
-      "text": "S19Q21:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-19-074",
-      "type": "その他",
-      "text": "S19Q22:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-19-075",
-      "type": "その他",
-      "text": "S19Q23:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-19-076",
-      "type": "その他",
-      "text": "S19Q24:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-19-077",
-      "type": "その他",
-      "text": "S19Q25:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-19-078",
-      "type": "その他",
-      "text": "S19Q26:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-19-079",
-      "type": "その他",
-      "text": "S19Q27:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-19-080",
-      "type": "その他",
-      "text": "S19Q28:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-19-081",
-      "type": "その他",
-      "text": "S19Q29:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-19-082",
-      "type": "その他",
-      "text": "S19Q30:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    }
-  ],
-  "20": [
-    {
-      "id": "N5-20-001",
-      "type": "漢字読み",
-      "text": "<u>出</u>を読んでください。",
-      "question": "「出」の読み方は？",
-      "options": [
-        "で",
-        "でう",
-        "でえ",
-        "でい"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-20-002",
-      "type": "漢字読み",
-      "text": "<u>立</u>を読んでください。",
-      "question": "「立」の読み方は？",
-      "options": [
-        "た",
-        "たい",
-        "たう",
-        "たえ"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-20-003",
-      "type": "漢字読み",
-      "text": "<u>休</u>を読んでください。",
-      "question": "「休」の読み方は？",
-      "options": [
-        "やす",
-        "やすい",
-        "やすう",
-        "やすえ"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-20-004",
-      "type": "漢字読み",
-      "text": "<u>言</u>を読んでください。",
-      "question": "「言」の読み方は？",
-      "options": [
-        "い",
-        "いい",
-        "いえ",
-        "いう"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-20-005",
-      "type": "表記",
-      "text": "<u>で</u>の漢字は？",
-      "question": "「で」の書き方は？",
-      "options": [
-        "出",
-        "出々",
-        "出々",
-        "々出"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-20-006",
-      "type": "表記",
-      "text": "<u>た</u>の漢字は？",
-      "question": "「た」の書き方は？",
-      "options": [
-        "立々",
-        "々立",
-        "立",
-        "立々"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-20-007",
-      "type": "表記",
-      "text": "<u>やす</u>の漢字は？",
-      "question": "「やす」の書き方は？",
-      "options": [
-        "休々",
-        "休々",
-        "休",
-        "々休"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-20-008",
-      "type": "表記",
-      "text": "<u>い</u>の漢字は？",
-      "question": "「い」の書き方は？",
-      "options": [
-        "々言",
-        "言々",
-        "言",
-        "言々"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-20-009",
-      "type": "文脈規定",
-      "text": "彼は（　）が速いです。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "足",
-        "手",
-        "頭",
-        "口"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-20-010",
-      "type": "文脈規定",
-      "text": "（　）を開けてください。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "手",
-        "口",
-        "足",
-        "目"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-20-011",
-      "type": "文脈規定",
-      "text": "この町は（　）です。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "便利",
-        "静か",
-        "不便",
-        "賑やか"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-20-012",
-      "type": "文脈規定",
-      "text": "今日は（　）がいいです。",
-      "question": "（　）に入るのは？",
-      "options": [
-        "電気",
-        "空気",
-        "天気",
-        "元気"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-20-013",
-      "type": "文法",
-      "text": "S20Q1:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-20-014",
-      "type": "文法",
-      "text": "S20Q2:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-20-015",
-      "type": "文法",
-      "text": "S20Q3:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-20-016",
-      "type": "文法",
-      "text": "S20Q4:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-20-017",
-      "type": "文法",
-      "text": "S20Q5:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-20-018",
-      "type": "文法",
-      "text": "S20Q6:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-20-019",
-      "type": "文法",
-      "text": "S20Q7:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-20-020",
-      "type": "文法",
-      "text": "S20Q8:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-20-021",
-      "type": "文法",
-      "text": "S20Q9:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-20-022",
-      "type": "文法",
-      "text": "S20Q10:文法問題",
-      "question": "正しいのは？",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-20-023",
-      "type": "読解",
-      "text": "S20Q1:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-20-024",
-      "type": "読解",
-      "text": "S20Q2:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-20-025",
-      "type": "読解",
-      "text": "S20Q3:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-20-026",
-      "type": "読解",
-      "text": "S20Q4:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-20-027",
-      "type": "読解",
-      "text": "S20Q5:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-20-028",
-      "type": "読解",
-      "text": "S20Q6:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-20-029",
-      "type": "読解",
-      "text": "S20Q7:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-20-030",
-      "type": "読解",
-      "text": "S20Q8:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-20-031",
-      "type": "読解",
-      "text": "S20Q9:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-20-032",
-      "type": "読解",
-      "text": "S20Q10:読解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-20-033",
-      "type": "聴解",
-      "text": "S20Q1:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-20-034",
-      "type": "聴解",
-      "text": "S20Q2:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-20-035",
-      "type": "聴解",
-      "text": "S20Q3:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-20-036",
-      "type": "聴解",
-      "text": "S20Q4:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-20-037",
-      "type": "聴解",
-      "text": "S20Q5:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-20-038",
-      "type": "聴解",
-      "text": "S20Q6:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-20-039",
-      "type": "聴解",
-      "text": "S20Q7:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-20-040",
-      "type": "聴解",
-      "text": "S20Q8:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-20-041",
-      "type": "聴解",
-      "text": "S20Q9:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-20-042",
-      "type": "聴解",
-      "text": "S20Q10:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-20-043",
-      "type": "聴解",
-      "text": "S20Q11:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-20-044",
-      "type": "聴解",
-      "text": "S20Q12:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-20-045",
-      "type": "聴解",
-      "text": "S20Q13:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-20-046",
-      "type": "聴解",
-      "text": "S20Q14:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-20-047",
-      "type": "聴解",
-      "text": "S20Q15:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-20-048",
-      "type": "聴解",
-      "text": "S20Q16:聴解問題",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-20-049",
-      "type": "即時応答",
-      "text": "S20Q1: チェックアウトは何時ですか。",
-      "question": "何と答えますか。",
-      "options": [
-        "11時です。",
-        "チェックアウトです。",
-        "何時です。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-20-050",
-      "type": "即時応答",
-      "text": "S20Q2: 荷物を預かってもらえますか。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、こちらでお預かりします。",
-        "いいえ、預かります。",
-        "はい、預かりません。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-20-051",
-      "type": "即時応答",
-      "text": "S20Q3: タオルをもう一枚ください。",
-      "question": "何と答えますか。",
-      "options": [
-        "はい、すぐお持ちします。",
-        "いいえ、タオルです。",
-        "はい、一枚です。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-20-052",
-      "type": "即時応答",
-      "text": "S20Q4: おはようございます。",
-      "question": "何と答えますか。",
-      "options": [
-        "おはようございます。",
-        "こんにちは。",
-        "こんばんは。"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-20-053",
-      "type": "その他",
-      "text": "S20Q1:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-20-054",
-      "type": "その他",
-      "text": "S20Q2:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-20-055",
-      "type": "その他",
-      "text": "S20Q3:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-20-056",
-      "type": "その他",
-      "text": "S20Q4:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-20-057",
-      "type": "その他",
-      "text": "S20Q5:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-20-058",
-      "type": "その他",
-      "text": "S20Q6:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-20-059",
-      "type": "その他",
-      "text": "S20Q7:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-20-060",
-      "type": "その他",
-      "text": "S20Q8:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-20-061",
-      "type": "その他",
-      "text": "S20Q9:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-20-062",
-      "type": "その他",
-      "text": "S20Q10:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-20-063",
-      "type": "その他",
-      "text": "S20Q11:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-20-064",
-      "type": "その他",
-      "text": "S20Q12:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-20-065",
-      "type": "その他",
-      "text": "S20Q13:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-20-066",
-      "type": "その他",
-      "text": "S20Q14:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-20-067",
-      "type": "その他",
-      "text": "S20Q15:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-20-068",
-      "type": "その他",
-      "text": "S20Q16:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-20-069",
-      "type": "その他",
-      "text": "S20Q17:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-20-070",
-      "type": "その他",
-      "text": "S20Q18:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-20-071",
-      "type": "その他",
-      "text": "S20Q19:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-20-072",
-      "type": "その他",
-      "text": "S20Q20:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-20-073",
-      "type": "その他",
-      "text": "S20Q21:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-20-074",
-      "type": "その他",
-      "text": "S20Q22:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-20-075",
-      "type": "その他",
-      "text": "S20Q23:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-20-076",
-      "type": "その他",
-      "text": "S20Q24:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-20-077",
-      "type": "その他",
-      "text": "S20Q25:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-20-078",
-      "type": "その他",
-      "text": "S20Q26:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    },
-    {
-      "id": "N5-20-079",
-      "type": "その他",
-      "text": "S20Q27:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 2
-    },
-    {
-      "id": "N5-20-080",
-      "type": "その他",
-      "text": "S20Q28:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 3
-    },
-    {
-      "id": "N5-20-081",
-      "type": "その他",
-      "text": "S20Q29:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 0
-    },
-    {
-      "id": "N5-20-082",
-      "type": "その他",
-      "text": "S20Q30:その他",
-      "question": "質問",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "answer": 1
-    }
-  ]
-}
+    "1": [
+      {
+        "type": "漢字読み",
+        "text": "<u>上がる</u>の読み方は？",
+        "question": "「上がる」の読み方は？",
+        "options": [
+          "おくれる",
+          "すむ",
+          "あがる",
+          "しずか"
+        ],
+        "answer": 2,
+        "id": "N5-01-001"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>電話</u>の読み方は？",
+        "question": "「電話」の読み方は？",
+        "options": [
+          "もんだい",
+          "でんわ",
+          "けんぶつ",
+          "おしえる"
+        ],
+        "answer": 1,
+        "id": "N5-01-002"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>冷蔵庫</u>の読み方は？",
+        "question": "「冷蔵庫」の読み方は？",
+        "options": [
+          "びょうき",
+          "けいさつ",
+          "なつ",
+          "れいぞうこ"
+        ],
+        "answer": 3,
+        "id": "N5-01-003"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>前</u>の読み方は？",
+        "question": "「前」の読み方は？",
+        "options": [
+          "まえ",
+          "こんばん",
+          "うんてん",
+          "あし"
+        ],
+        "answer": 0,
+        "id": "N5-01-004"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>靴</u>の読み方は？",
+        "question": "「靴」の読み方は？",
+        "options": [
+          "らいげつ",
+          "くつ",
+          "ゆき",
+          "つづける"
+        ],
+        "answer": 1,
+        "id": "N5-01-005"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>古い</u>の読み方は？",
+        "question": "「古い」の読み方は？",
+        "options": [
+          "ふるい",
+          "じゅうしょ",
+          "こんしゅう",
+          "なく"
+        ],
+        "answer": 0,
+        "id": "N5-01-006"
+      },
+      {
+        "type": "表記",
+        "text": "<u>あかい</u>の漢字は？",
+        "question": "「あかい」の書き方は？",
+        "options": [
+          "離婚する",
+          "翻訳",
+          "赤い",
+          "風"
+        ],
+        "answer": 2,
+        "id": "N5-01-007"
+      },
+      {
+        "type": "表記",
+        "text": "<u>じこ</u>の漢字は？",
+        "question": "「じこ」の書き方は？",
+        "options": [
+          "間違い",
+          "事故",
+          "住所",
+          "約束"
+        ],
+        "answer": 1,
+        "id": "N5-01-008"
+      },
+      {
+        "type": "表記",
+        "text": "<u>つくる</u>の漢字は？",
+        "question": "「つくる」の書き方は？",
+        "options": [
+          "叫ぶ",
+          "作る",
+          "今週",
+          "千"
+        ],
+        "answer": 1,
+        "id": "N5-01-009"
+      },
+      {
+        "type": "表記",
+        "text": "<u>ひろい</u>の漢字は？",
+        "question": "「ひろい」の書き方は？",
+        "options": [
+          "辛い",
+          "広い",
+          "結果",
+          "来年"
+        ],
+        "answer": 1,
+        "id": "N5-01-010"
+      },
+      {
+        "type": "表記",
+        "text": "<u>やね</u>の漢字は？",
+        "question": "「やね」の書き方は？",
+        "options": [
+          "多い",
+          "屋根",
+          "探す",
+          "島"
+        ],
+        "answer": 1,
+        "id": "N5-01-011"
+      },
+      {
+        "type": "表記",
+        "text": "<u>しっぱいする</u>の漢字は？",
+        "question": "「しっぱいする」の書き方は？",
+        "options": [
+          "父",
+          "寝かす",
+          "失敗する",
+          "録音"
+        ],
+        "answer": 2,
+        "id": "N5-01-012"
+      },
+      {
+        "type": "文脈規定",
+        "text": "朝（　）を食べます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "弾く",
+          "送る",
+          "雨",
+          "駄目"
+        ],
+        "answer": 1,
+        "id": "N5-01-013"
+      },
+      {
+        "type": "文脈規定",
+        "text": "毎日（　）を飲みます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "静か",
+          "直す",
+          "下がる",
+          "枚"
+        ],
+        "answer": 2,
+        "id": "N5-01-014"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）がほしいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "並べる",
+          "全然",
+          "町",
+          "月"
+        ],
+        "answer": 0,
+        "id": "N5-01-015"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）に行きたいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "午前",
+          "いいえ",
+          "バス",
+          "大きい"
+        ],
+        "answer": 1,
+        "id": "N5-01-016"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）が好きです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "楽しい",
+          "忙しい",
+          "ジュース",
+          "男の子"
+        ],
+        "answer": 0,
+        "id": "N5-01-017"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を見ました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "まだ",
+          "計画",
+          "もらう",
+          "時計"
+        ],
+        "answer": 1,
+        "id": "N5-01-018"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を買いました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "意見",
+          "今朝",
+          "配達",
+          "履く"
+        ],
+        "answer": 1,
+        "id": "N5-01-019"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）で働いています。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "左",
+          "決める",
+          "天井",
+          "手袋"
+        ],
+        "answer": 0,
+        "id": "N5-01-020"
+      },
+      {
+        "type": "言い換え",
+        "text": "「食事」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "explanation",
+          "oneself",
+          "meal",
+          "two things"
+        ],
+        "answer": 2,
+        "id": "N5-01-021"
+      },
+      {
+        "type": "言い換え",
+        "text": "「引っ越す」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "to move house",
+          "glasses",
+          "delivery",
+          "street"
+        ],
+        "answer": 0,
+        "id": "N5-01-022"
+      },
+      {
+        "type": "言い換え",
+        "text": "「週末」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "to live",
+          "weekend",
+          "table",
+          "bus stop"
+        ],
+        "answer": 1,
+        "id": "N5-01-023"
+      },
+      {
+        "type": "言い換え",
+        "text": "「用事」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "thanks for meal",
+          "to melt",
+          "errand",
+          "suddenly"
+        ],
+        "answer": 2,
+        "id": "N5-01-024"
+      },
+      {
+        "type": "言い換え",
+        "text": "「顔」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "to scold",
+          "to decrease",
+          "face",
+          "school"
+        ],
+        "answer": 2,
+        "id": "N5-01-025"
+      },
+      {
+        "type": "文法形式",
+        "text": "私は学生（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "です",
+          "だ",
+          "ます",
+          "ある"
+        ],
+        "answer": 0,
+        "id": "N5-01-026"
+      },
+      {
+        "type": "文法形式",
+        "text": "これは本（　）ありません。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "では",
+          "が",
+          "を",
+          "に"
+        ],
+        "answer": 0,
+        "id": "N5-01-027"
+      },
+      {
+        "type": "文法形式",
+        "text": "学校（　）行きます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "に",
+          "を",
+          "が",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-01-028"
+      },
+      {
+        "type": "文法形式",
+        "text": "友だち（　）会いました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "に",
+          "を",
+          "が",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-01-029"
+      },
+      {
+        "type": "文法形式",
+        "text": "日本語（　）勉強しています。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "を",
+          "に",
+          "が",
+          "で"
+        ],
+        "answer": 0,
+        "id": "N5-01-030"
+      },
+      {
+        "type": "文法形式",
+        "text": "電車（　）来ます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-01-031"
+      },
+      {
+        "type": "文法形式",
+        "text": "コーヒー（　）飲みたいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-01-032"
+      },
+      {
+        "type": "文法形式",
+        "text": "映画（　）見ました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "を",
+          "が",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-01-033"
+      },
+      {
+        "type": "文法形式",
+        "text": "部屋（　）きれいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "は",
+          "を",
+          "に",
+          "が"
+        ],
+        "answer": 0,
+        "id": "N5-01-034"
+      },
+      {
+        "type": "文法形式",
+        "text": "本を読む（　）が好きです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "の",
+          "を",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-01-035"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: です / は / 学生 / 私",
+        "question": "★に入るのは？",
+        "options": [
+          "です",
+          "は",
+          "学生",
+          "私"
+        ],
+        "answer": 2,
+        "id": "N5-01-036"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 毎日 / 勉強します / を / 日本語",
+        "question": "★に入るのは？",
+        "options": [
+          "毎日",
+          "勉強します",
+          "を",
+          "日本語"
+        ],
+        "answer": 2,
+        "id": "N5-01-037"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: と / きのう / 会いました / 友だち",
+        "question": "★に入るのは？",
+        "options": [
+          "と",
+          "きのう",
+          "会いました",
+          "友だち"
+        ],
+        "answer": 0,
+        "id": "N5-01-038"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: は / 本 / この / おもしろい",
+        "question": "★に入るのは？",
+        "options": [
+          "は",
+          "本",
+          "この",
+          "おもしろい"
+        ],
+        "answer": 3,
+        "id": "N5-01-039"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 歩いて / 行きます / 駅 / まで",
+        "question": "★に入るのは？",
+        "options": [
+          "歩いて",
+          "行きます",
+          "駅",
+          "まで"
+        ],
+        "answer": 1,
+        "id": "N5-01-040"
+      },
+      {
+        "type": "文章の文法",
+        "text": "私は毎朝6時に起きます。顔を洗って、朝ごはんを（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "食べます",
+          "食べて",
+          "食べた",
+          "食べる"
+        ],
+        "answer": 0,
+        "id": "N5-01-041"
+      },
+      {
+        "type": "文章の文法",
+        "text": "きのうは日曜日でした。友だちと公園で（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "遊びました",
+          "遊びます",
+          "遊んで",
+          "遊ぶ"
+        ],
+        "answer": 0,
+        "id": "N5-01-042"
+      },
+      {
+        "type": "文章の文法",
+        "text": "この店は安くて、（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "おいしいです",
+          "おいしい",
+          "おいしくて",
+          "おいしかった"
+        ],
+        "answer": 0,
+        "id": "N5-01-043"
+      },
+      {
+        "type": "文章の文法",
+        "text": "来週テストがあります。だから、今日は（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "勉強します",
+          "勉強した",
+          "勉強して",
+          "勉強する"
+        ],
+        "answer": 0,
+        "id": "N5-01-044"
+      },
+      {
+        "type": "文章の文法",
+        "text": "電車が来ません。30分（　）います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "待って",
+          "待った",
+          "待つ",
+          "待ち"
+        ],
+        "answer": 0,
+        "id": "N5-01-045"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "田中さんは毎朝7時に起きます。",
+        "question": "何時に起きますか。",
+        "options": [
+          "6時",
+          "7時",
+          "8時",
+          "9時"
+        ],
+        "answer": 1,
+        "id": "N5-01-046"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "私の部屋は広くないですが、明るいです。",
+        "question": "部屋はどうですか。",
+        "options": [
+          "広い",
+          "暗い",
+          "明るい",
+          "寒い"
+        ],
+        "answer": 2,
+        "id": "N5-01-047"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "駅から学校までバスで5分です。",
+        "question": "バスで何分？",
+        "options": [
+          "3分",
+          "5分",
+          "10分",
+          "15分"
+        ],
+        "answer": 1,
+        "id": "N5-01-048"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "私は日本語を勉強しています。毎日2時間勉強します。日本語は難しいですが、おもしろいです。",
+        "question": "日本語をどう思いますか。",
+        "options": [
+          "簡単",
+          "難しいけどおもしろい",
+          "つまらない",
+          "簡単でおもしろい"
+        ],
+        "answer": 1,
+        "id": "N5-01-049"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "山田さんの家族は4人です。お父さんとお母さんと妹がいます。",
+        "question": "家族は何人？",
+        "options": [
+          "3人",
+          "4人",
+          "5人",
+          "6人"
+        ],
+        "answer": 1,
+        "id": "N5-01-050"
+      },
+      {
+        "type": "情報検索",
+        "text": "【図書館】開館: 9:00-17:00 休み: 月曜日",
+        "question": "何時まで？",
+        "options": [
+          "16時",
+          "17時",
+          "18時",
+          "19時"
+        ],
+        "answer": 1,
+        "id": "N5-01-051"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人と女の人が話しています。男の人は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "りんご",
+          "みかん",
+          "バナナ",
+          "いちご"
+        ],
+        "answer": 0,
+        "id": "N5-01-052"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "学生と先生が話しています。宿題はいつまでですか。",
+        "question": "質問",
+        "options": [
+          "月曜",
+          "火曜",
+          "水曜",
+          "木曜"
+        ],
+        "answer": 2,
+        "id": "N5-01-053"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "女の人と男の人が話しています。どこで会いますか。",
+        "question": "質問",
+        "options": [
+          "駅",
+          "学校",
+          "図書館",
+          "公園"
+        ],
+        "answer": 0,
+        "id": "N5-01-054"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "お母さんと子供が話しています。子供は何を食べますか。",
+        "question": "質問",
+        "options": [
+          "パン",
+          "ごはん",
+          "たまご",
+          "サラダ"
+        ],
+        "answer": 1,
+        "id": "N5-01-055"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "店員と客が話しています。客は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "シャツ",
+          "ズボン",
+          "靴",
+          "帽子"
+        ],
+        "answer": 0,
+        "id": "N5-01-056"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人が話しています。明日の天気は？",
+        "question": "質問",
+        "options": [
+          "晴れ",
+          "曇り",
+          "雨",
+          "雪"
+        ],
+        "answer": 2,
+        "id": "N5-01-057"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。何が好きですか。",
+        "question": "質問",
+        "options": [
+          "音楽",
+          "スポーツ",
+          "料理",
+          "映画"
+        ],
+        "answer": 0,
+        "id": "N5-01-058"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。どこに住んでいますか。",
+        "question": "質問",
+        "options": [
+          "東京",
+          "大阪",
+          "京都",
+          "名古屋"
+        ],
+        "answer": 1,
+        "id": "N5-01-059"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "学生が話しています。何を勉強していますか。",
+        "question": "質問",
+        "options": [
+          "英語",
+          "日本語",
+          "数学",
+          "歴史"
+        ],
+        "answer": 1,
+        "id": "N5-01-060"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。趣味は何ですか。",
+        "question": "質問",
+        "options": [
+          "読書",
+          "映画",
+          "旅行",
+          "料理"
+        ],
+        "answer": 2,
+        "id": "N5-01-061"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。いつ日本に来ましたか。",
+        "question": "質問",
+        "options": [
+          "去年",
+          "2年前",
+          "先月",
+          "先週"
+        ],
+        "answer": 0,
+        "id": "N5-01-062"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "二人が話しています。パーティーは何時から？",
+        "question": "質問",
+        "options": [
+          "5時",
+          "6時",
+          "7時",
+          "8時"
+        ],
+        "answer": 1,
+        "id": "N5-01-063"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "「ありがとう」と言われました。",
+        "question": "何と言いますか。",
+        "options": [
+          "どういたしまして",
+          "すみません",
+          "おはよう",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-01-064"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "朝、先生に会いました。",
+        "question": "何と言いますか。",
+        "options": [
+          "おはようございます",
+          "こんにちは",
+          "こんばんは",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-01-065"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べる前です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 0,
+        "id": "N5-01-066"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べた後です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 1,
+        "id": "N5-01-067"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "出かける時、家族に。",
+        "question": "何と言いますか。",
+        "options": [
+          "行ってきます",
+          "ただいま",
+          "おかえり",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-01-068"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お名前は？",
+        "question": "何と答えますか。",
+        "options": [
+          "田中です",
+          "いいえ",
+          "はい",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-01-069"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "これはいくらですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "100円です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-01-070"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "どこに住んでいますか。",
+        "question": "何と答えますか。",
+        "options": [
+          "東京です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-01-071"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "何歳ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "20歳です",
+          "学生です",
+          "日本人です",
+          "田中です"
+        ],
+        "answer": 0,
+        "id": "N5-01-072"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お仕事は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "会社員です",
+          "東京です",
+          "日本です",
+          "20歳です"
+        ],
+        "answer": 0,
+        "id": "N5-01-073"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "趣味は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "読書です",
+          "はい",
+          "いいえ",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-01-074"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今何時ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "3時です",
+          "月曜日です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-01-075"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今日は何曜日ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "月曜日です",
+          "3時です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-01-076"
+      }
+    ],
+    "2": [
+      {
+        "type": "漢字読み",
+        "text": "<u>問題</u>の読み方は？",
+        "question": "「問題」の読み方は？",
+        "options": [
+          "もんだい",
+          "ちかてつ",
+          "ひっこす",
+          "かく"
+        ],
+        "answer": 0,
+        "id": "N5-02-001"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>話す</u>の読み方は？",
+        "question": "「話す」の読み方は？",
+        "options": [
+          "そうだん",
+          "はなす",
+          "せんげつ",
+          "ひとり"
+        ],
+        "answer": 1,
+        "id": "N5-02-002"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>男</u>の読み方は？",
+        "question": "「男」の読み方は？",
+        "options": [
+          "きょうみ",
+          "ぬれる",
+          "わるい",
+          "おとこ"
+        ],
+        "answer": 3,
+        "id": "N5-02-003"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>接続</u>の読み方は？",
+        "question": "「接続」の読み方は？",
+        "options": [
+          "いそぐ",
+          "せつぞく",
+          "さんか",
+          "じゅうしょ"
+        ],
+        "answer": 1,
+        "id": "N5-02-004"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>休み</u>の読み方は？",
+        "question": "「休み」の読み方は？",
+        "options": [
+          "しずか",
+          "やすみ",
+          "ぎんこう",
+          "すばらしい"
+        ],
+        "answer": 1,
+        "id": "N5-02-005"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>中</u>の読み方は？",
+        "question": "「中」の読み方は？",
+        "options": [
+          "ちから",
+          "ひろい",
+          "なか",
+          "かたち"
+        ],
+        "answer": 2,
+        "id": "N5-02-006"
+      },
+      {
+        "type": "表記",
+        "text": "<u>おいしい</u>の漢字は？",
+        "question": "「おいしい」の書き方は？",
+        "options": [
+          "脱ぐ",
+          "研究",
+          "美味しい",
+          "お客さん"
+        ],
+        "answer": 2,
+        "id": "N5-02-007"
+      },
+      {
+        "type": "表記",
+        "text": "<u>しらべる</u>の漢字は？",
+        "question": "「しらべる」の書き方は？",
+        "options": [
+          "調べる",
+          "台",
+          "貸す",
+          "時々"
+        ],
+        "answer": 0,
+        "id": "N5-02-008"
+      },
+      {
+        "type": "表記",
+        "text": "<u>どうぶつ</u>の漢字は？",
+        "question": "「どうぶつ」の書き方は？",
+        "options": [
+          "動物",
+          "会う",
+          "座る",
+          "昼"
+        ],
+        "answer": 0,
+        "id": "N5-02-009"
+      },
+      {
+        "type": "表記",
+        "text": "<u>じんじゃ</u>の漢字は？",
+        "question": "「じんじゃ」の書き方は？",
+        "options": [
+          "先週",
+          "弟",
+          "神社",
+          "探す"
+        ],
+        "answer": 2,
+        "id": "N5-02-010"
+      },
+      {
+        "type": "表記",
+        "text": "<u>すばらしい</u>の漢字は？",
+        "question": "「すばらしい」の書き方は？",
+        "options": [
+          "眠い",
+          "夕方",
+          "続ける",
+          "素晴らしい"
+        ],
+        "answer": 3,
+        "id": "N5-02-011"
+      },
+      {
+        "type": "表記",
+        "text": "<u>たとえば</u>の漢字は？",
+        "question": "「たとえば」の書き方は？",
+        "options": [
+          "運転手",
+          "教える",
+          "呼ぶ",
+          "例えば"
+        ],
+        "answer": 3,
+        "id": "N5-02-012"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を勉強しています。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "味",
+          "外",
+          "友達",
+          "似る"
+        ],
+        "answer": 2,
+        "id": "N5-02-013"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）が上手です。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "祖母",
+          "冷たい",
+          "入学",
+          "野菜"
+        ],
+        "answer": 3,
+        "id": "N5-02-014"
+      },
+      {
+        "type": "文脈規定",
+        "text": "部屋に（　）があります。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "届く",
+          "見物",
+          "練習",
+          "色々"
+        ],
+        "answer": 3,
+        "id": "N5-02-015"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）は難しいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "机",
+          "本棚",
+          "お風呂",
+          "店"
+        ],
+        "answer": 2,
+        "id": "N5-02-016"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）は楽しいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "利用",
+          "泣く",
+          "花",
+          "ちょっと"
+        ],
+        "answer": 1,
+        "id": "N5-02-017"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を聞きます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "物",
+          "注意",
+          "質問する",
+          "退職"
+        ],
+        "answer": 2,
+        "id": "N5-02-018"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を読みます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "休み",
+          "発見",
+          "同僚",
+          "火曜日"
+        ],
+        "answer": 1,
+        "id": "N5-02-019"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を作ります。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "一回",
+          "経験",
+          "押す",
+          "成功する"
+        ],
+        "answer": 1,
+        "id": "N5-02-020"
+      },
+      {
+        "type": "言い換え",
+        "text": "「とても」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "to believe",
+          "visit",
+          "very",
+          "last year"
+        ],
+        "answer": 2,
+        "id": "N5-02-021"
+      },
+      {
+        "type": "言い換え",
+        "text": "「あなた」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "ear",
+          "strong",
+          "you",
+          "absent"
+        ],
+        "answer": 2,
+        "id": "N5-02-022"
+      },
+      {
+        "type": "言い換え",
+        "text": "「お茶」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "sound",
+          "sky",
+          "tea",
+          "bread"
+        ],
+        "answer": 2,
+        "id": "N5-02-023"
+      },
+      {
+        "type": "言い換え",
+        "text": "「発表」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "shoes",
+          "announce",
+          "free",
+          "corner"
+        ],
+        "answer": 1,
+        "id": "N5-02-024"
+      },
+      {
+        "type": "言い換え",
+        "text": "「近い」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "bed",
+          "mother",
+          "to pull",
+          "near"
+        ],
+        "answer": 3,
+        "id": "N5-02-025"
+      },
+      {
+        "type": "文法形式",
+        "text": "食べ（　）から寝ます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-02-026"
+      },
+      {
+        "type": "文法形式",
+        "text": "日本に行き（　）です。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "たい",
+          "ます",
+          "た",
+          "る"
+        ],
+        "answer": 0,
+        "id": "N5-02-027"
+      },
+      {
+        "type": "文法形式",
+        "text": "雨が降っ（　）います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-02-028"
+      },
+      {
+        "type": "文法形式",
+        "text": "ここに座っ（　）ください。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-02-029"
+      },
+      {
+        "type": "文法形式",
+        "text": "まだ食べ（　）いません。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-02-030"
+      },
+      {
+        "type": "文法形式",
+        "text": "明日来（　）か。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "ます",
+          "る",
+          "た",
+          "て"
+        ],
+        "answer": 0,
+        "id": "N5-02-031"
+      },
+      {
+        "type": "文法形式",
+        "text": "きのう何を（　）か。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "しました",
+          "します",
+          "する",
+          "して"
+        ],
+        "answer": 0,
+        "id": "N5-02-032"
+      },
+      {
+        "type": "文法形式",
+        "text": "この本は（　）です。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "おもしろい",
+          "おもしろく",
+          "おもしろ",
+          "おもしろいな"
+        ],
+        "answer": 0,
+        "id": "N5-02-033"
+      },
+      {
+        "type": "文法形式",
+        "text": "部屋を（　）しました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "きれいに",
+          "きれい",
+          "きれいな",
+          "きれいく"
+        ],
+        "answer": 0,
+        "id": "N5-02-034"
+      },
+      {
+        "type": "文法形式",
+        "text": "早く（　）ください。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "起きて",
+          "起きる",
+          "起きた",
+          "起き"
+        ],
+        "answer": 0,
+        "id": "N5-02-035"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: ながら / を / 飲み / コーヒー",
+        "question": "★に入るのは？",
+        "options": [
+          "ながら",
+          "を",
+          "飲み",
+          "コーヒー"
+        ],
+        "answer": 0,
+        "id": "N5-02-036"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 雨 / います / 降って / が",
+        "question": "★に入るのは？",
+        "options": [
+          "雨",
+          "います",
+          "降って",
+          "が"
+        ],
+        "answer": 0,
+        "id": "N5-02-037"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: たいです / 行き / 日本 / に",
+        "question": "★に入るのは？",
+        "options": [
+          "たいです",
+          "行き",
+          "日本",
+          "に"
+        ],
+        "answer": 0,
+        "id": "N5-02-038"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 部屋 / が / です / きれい",
+        "question": "★に入るのは？",
+        "options": [
+          "部屋",
+          "が",
+          "です",
+          "きれい"
+        ],
+        "answer": 3,
+        "id": "N5-02-039"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: を / ました / 見 / 映画",
+        "question": "★に入るのは？",
+        "options": [
+          "を",
+          "ました",
+          "見",
+          "映画"
+        ],
+        "answer": 3,
+        "id": "N5-02-040"
+      },
+      {
+        "type": "文章の文法",
+        "text": "私は毎朝6時に起きます。顔を洗って、朝ごはんを（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "食べます",
+          "食べて",
+          "食べた",
+          "食べる"
+        ],
+        "answer": 0,
+        "id": "N5-02-041"
+      },
+      {
+        "type": "文章の文法",
+        "text": "きのうは日曜日でした。友だちと公園で（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "遊びました",
+          "遊びます",
+          "遊んで",
+          "遊ぶ"
+        ],
+        "answer": 0,
+        "id": "N5-02-042"
+      },
+      {
+        "type": "文章の文法",
+        "text": "この店は安くて、（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "おいしいです",
+          "おいしい",
+          "おいしくて",
+          "おいしかった"
+        ],
+        "answer": 0,
+        "id": "N5-02-043"
+      },
+      {
+        "type": "文章の文法",
+        "text": "来週テストがあります。だから、今日は（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "勉強します",
+          "勉強した",
+          "勉強して",
+          "勉強する"
+        ],
+        "answer": 0,
+        "id": "N5-02-044"
+      },
+      {
+        "type": "文章の文法",
+        "text": "電車が来ません。30分（　）います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "待って",
+          "待った",
+          "待つ",
+          "待ち"
+        ],
+        "answer": 0,
+        "id": "N5-02-045"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "山田さんは毎日図書館で本を読みます。",
+        "question": "どこで読みますか。",
+        "options": [
+          "学校",
+          "公園",
+          "図書館",
+          "家"
+        ],
+        "answer": 2,
+        "id": "N5-02-046"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "今日は雨です。傘を持っていきます。",
+        "question": "今日の天気は？",
+        "options": [
+          "晴れ",
+          "曇り",
+          "雨",
+          "雪"
+        ],
+        "answer": 2,
+        "id": "N5-02-047"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "このりんごは100円です。",
+        "question": "いくら？",
+        "options": [
+          "50円",
+          "100円",
+          "150円",
+          "200円"
+        ],
+        "answer": 1,
+        "id": "N5-02-048"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "私の町は小さいですが、きれいです。山と川があります。",
+        "question": "この町に何がある？",
+        "options": [
+          "海",
+          "山と川",
+          "ビル",
+          "空港"
+        ],
+        "answer": 1,
+        "id": "N5-02-049"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "田中さんは朝6時に起きます。7時に朝ごはんを食べます。8時に家を出ます。",
+        "question": "何時に家を出る？",
+        "options": [
+          "6時",
+          "7時",
+          "8時",
+          "9時"
+        ],
+        "answer": 2,
+        "id": "N5-02-050"
+      },
+      {
+        "type": "情報検索",
+        "text": "【映画】時間: 10:00, 14:00 料金: 大人1800円",
+        "question": "何時から？",
+        "options": [
+          "9時",
+          "10時",
+          "11時",
+          "12時"
+        ],
+        "answer": 1,
+        "id": "N5-02-051"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人と女の人が話しています。男の人は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "りんご",
+          "みかん",
+          "バナナ",
+          "いちご"
+        ],
+        "answer": 0,
+        "id": "N5-02-052"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "学生と先生が話しています。宿題はいつまでですか。",
+        "question": "質問",
+        "options": [
+          "月曜",
+          "火曜",
+          "水曜",
+          "木曜"
+        ],
+        "answer": 2,
+        "id": "N5-02-053"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "女の人と男の人が話しています。どこで会いますか。",
+        "question": "質問",
+        "options": [
+          "駅",
+          "学校",
+          "図書館",
+          "公園"
+        ],
+        "answer": 0,
+        "id": "N5-02-054"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "お母さんと子供が話しています。子供は何を食べますか。",
+        "question": "質問",
+        "options": [
+          "パン",
+          "ごはん",
+          "たまご",
+          "サラダ"
+        ],
+        "answer": 1,
+        "id": "N5-02-055"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "店員と客が話しています。客は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "シャツ",
+          "ズボン",
+          "靴",
+          "帽子"
+        ],
+        "answer": 0,
+        "id": "N5-02-056"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人が話しています。明日の天気は？",
+        "question": "質問",
+        "options": [
+          "晴れ",
+          "曇り",
+          "雨",
+          "雪"
+        ],
+        "answer": 2,
+        "id": "N5-02-057"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。何が好きですか。",
+        "question": "質問",
+        "options": [
+          "音楽",
+          "スポーツ",
+          "料理",
+          "映画"
+        ],
+        "answer": 0,
+        "id": "N5-02-058"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。どこに住んでいますか。",
+        "question": "質問",
+        "options": [
+          "東京",
+          "大阪",
+          "京都",
+          "名古屋"
+        ],
+        "answer": 1,
+        "id": "N5-02-059"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "学生が話しています。何を勉強していますか。",
+        "question": "質問",
+        "options": [
+          "英語",
+          "日本語",
+          "数学",
+          "歴史"
+        ],
+        "answer": 1,
+        "id": "N5-02-060"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。趣味は何ですか。",
+        "question": "質問",
+        "options": [
+          "読書",
+          "映画",
+          "旅行",
+          "料理"
+        ],
+        "answer": 2,
+        "id": "N5-02-061"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。いつ日本に来ましたか。",
+        "question": "質問",
+        "options": [
+          "去年",
+          "2年前",
+          "先月",
+          "先週"
+        ],
+        "answer": 0,
+        "id": "N5-02-062"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "二人が話しています。パーティーは何時から？",
+        "question": "質問",
+        "options": [
+          "5時",
+          "6時",
+          "7時",
+          "8時"
+        ],
+        "answer": 1,
+        "id": "N5-02-063"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "「ありがとう」と言われました。",
+        "question": "何と言いますか。",
+        "options": [
+          "どういたしまして",
+          "すみません",
+          "おはよう",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-02-064"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "朝、先生に会いました。",
+        "question": "何と言いますか。",
+        "options": [
+          "おはようございます",
+          "こんにちは",
+          "こんばんは",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-02-065"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べる前です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 0,
+        "id": "N5-02-066"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べた後です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 1,
+        "id": "N5-02-067"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "出かける時、家族に。",
+        "question": "何と言いますか。",
+        "options": [
+          "行ってきます",
+          "ただいま",
+          "おかえり",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-02-068"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お名前は？",
+        "question": "何と答えますか。",
+        "options": [
+          "田中です",
+          "いいえ",
+          "はい",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-02-069"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "これはいくらですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "100円です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-02-070"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "どこに住んでいますか。",
+        "question": "何と答えますか。",
+        "options": [
+          "東京です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-02-071"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "何歳ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "20歳です",
+          "学生です",
+          "日本人です",
+          "田中です"
+        ],
+        "answer": 0,
+        "id": "N5-02-072"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お仕事は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "会社員です",
+          "東京です",
+          "日本です",
+          "20歳です"
+        ],
+        "answer": 0,
+        "id": "N5-02-073"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "趣味は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "読書です",
+          "はい",
+          "いいえ",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-02-074"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今何時ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "3時です",
+          "月曜日です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-02-075"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今日は何曜日ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "月曜日です",
+          "3時です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-02-076"
+      }
+    ],
+    "3": [
+      {
+        "type": "漢字読み",
+        "text": "<u>雲</u>の読み方は？",
+        "question": "「雲」の読み方は？",
+        "options": [
+          "のる",
+          "じょうほう",
+          "くも",
+          "みる"
+        ],
+        "answer": 2,
+        "id": "N5-03-001"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>帽子</u>の読み方は？",
+        "question": "「帽子」の読み方は？",
+        "options": [
+          "なれる",
+          "でぐち",
+          "ぼうし",
+          "おこる"
+        ],
+        "answer": 2,
+        "id": "N5-03-002"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>全部</u>の読み方は？",
+        "question": "「全部」の読み方は？",
+        "options": [
+          "ぜんぶ",
+          "わたし",
+          "はつめい",
+          "さむい"
+        ],
+        "answer": 0,
+        "id": "N5-03-003"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>交差点</u>の読み方は？",
+        "question": "「交差点」の読み方は？",
+        "options": [
+          "うんてんする",
+          "こうさてん",
+          "ひゃく",
+          "うる"
+        ],
+        "answer": 1,
+        "id": "N5-03-004"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>受け取る</u>の読み方は？",
+        "question": "「受け取る」の読み方は？",
+        "options": [
+          "ほうそう",
+          "ともだち",
+          "うけとる",
+          "はしる"
+        ],
+        "answer": 2,
+        "id": "N5-03-005"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>料理</u>の読み方は？",
+        "question": "「料理」の読み方は？",
+        "options": [
+          "りょうり",
+          "たんじょうび",
+          "はやい",
+          "やめる"
+        ],
+        "answer": 0,
+        "id": "N5-03-006"
+      },
+      {
+        "type": "表記",
+        "text": "<u>あたらしい</u>の漢字は？",
+        "question": "「あたらしい」の書き方は？",
+        "options": [
+          "神社",
+          "新しい",
+          "お兄さん",
+          "多い"
+        ],
+        "answer": 1,
+        "id": "N5-03-007"
+      },
+      {
+        "type": "表記",
+        "text": "<u>とまる</u>の漢字は？",
+        "question": "「とまる」の書き方は？",
+        "options": [
+          "理由",
+          "止まる",
+          "卒業",
+          "将来"
+        ],
+        "answer": 1,
+        "id": "N5-03-008"
+      },
+      {
+        "type": "表記",
+        "text": "<u>けんきゅう</u>の漢字は？",
+        "question": "「けんきゅう」の書き方は？",
+        "options": [
+          "前",
+          "映画",
+          "研究",
+          "初めて"
+        ],
+        "answer": 2,
+        "id": "N5-03-009"
+      },
+      {
+        "type": "表記",
+        "text": "<u>けす</u>の漢字は？",
+        "question": "「けす」の書き方は？",
+        "options": [
+          "安心",
+          "立つ",
+          "眼鏡",
+          "消す"
+        ],
+        "answer": 3,
+        "id": "N5-03-010"
+      },
+      {
+        "type": "表記",
+        "text": "<u>めがね</u>の漢字は？",
+        "question": "「めがね」の書き方は？",
+        "options": [
+          "欠席",
+          "眼鏡",
+          "置く",
+          "軽い"
+        ],
+        "answer": 1,
+        "id": "N5-03-011"
+      },
+      {
+        "type": "表記",
+        "text": "<u>おんがく</u>の漢字は？",
+        "question": "「おんがく」の書き方は？",
+        "options": [
+          "音楽",
+          "反対",
+          "電気",
+          "休む"
+        ],
+        "answer": 0,
+        "id": "N5-03-012"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）に住んでいます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "島",
+          "同じ",
+          "運転手",
+          "今晩"
+        ],
+        "answer": 2,
+        "id": "N5-03-013"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を使います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "午後",
+          "休む",
+          "空港",
+          "鼻"
+        ],
+        "answer": 3,
+        "id": "N5-03-014"
+      },
+      {
+        "type": "文脈規定",
+        "text": "友だちと（　）をしました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "食べる",
+          "毎週",
+          "大丈夫",
+          "マフラー"
+        ],
+        "answer": 2,
+        "id": "N5-03-015"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）が終わりました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "中",
+          "下がる",
+          "レストラン",
+          "二人"
+        ],
+        "answer": 0,
+        "id": "N5-03-016"
+      },
+      {
+        "type": "文脈規定",
+        "text": "朝（　）を食べます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "聞こえる",
+          "返す",
+          "こんばんは",
+          "一回"
+        ],
+        "answer": 0,
+        "id": "N5-03-017"
+      },
+      {
+        "type": "文脈規定",
+        "text": "毎日（　）を飲みます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "掃除する",
+          "今月",
+          "鉛筆",
+          "電気"
+        ],
+        "answer": 3,
+        "id": "N5-03-018"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）がほしいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "兄",
+          "泣く",
+          "忙しい",
+          "いつ"
+        ],
+        "answer": 0,
+        "id": "N5-03-019"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）に行きたいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "足",
+          "冷蔵庫",
+          "元気",
+          "意見"
+        ],
+        "answer": 0,
+        "id": "N5-03-020"
+      },
+      {
+        "type": "言い換え",
+        "text": "「半分」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "bon appetit",
+          "that",
+          "half",
+          "exit"
+        ],
+        "answer": 2,
+        "id": "N5-03-021"
+      },
+      {
+        "type": "言い換え",
+        "text": "「お母さん」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "mother (polite)",
+          "to play (instrument)",
+          "paper",
+          "to be born"
+        ],
+        "answer": 0,
+        "id": "N5-03-022"
+      },
+      {
+        "type": "言い換え",
+        "text": "「姉」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "to turn on",
+          "to enter",
+          "this month",
+          "older sister"
+        ],
+        "answer": 3,
+        "id": "N5-03-023"
+      },
+      {
+        "type": "言い換え",
+        "text": "「口」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "office worker",
+          "sports",
+          "mouth",
+          "ceiling"
+        ],
+        "answer": 2,
+        "id": "N5-03-024"
+      },
+      {
+        "type": "言い換え",
+        "text": "「日曜日」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "to forgive",
+          "next week",
+          "Sunday",
+          "dark"
+        ],
+        "answer": 2,
+        "id": "N5-03-025"
+      },
+      {
+        "type": "文法形式",
+        "text": "私は学生（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "です",
+          "だ",
+          "ます",
+          "ある"
+        ],
+        "answer": 0,
+        "id": "N5-03-026"
+      },
+      {
+        "type": "文法形式",
+        "text": "これは本（　）ありません。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "では",
+          "が",
+          "を",
+          "に"
+        ],
+        "answer": 0,
+        "id": "N5-03-027"
+      },
+      {
+        "type": "文法形式",
+        "text": "学校（　）行きます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "に",
+          "を",
+          "が",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-03-028"
+      },
+      {
+        "type": "文法形式",
+        "text": "友だち（　）会いました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "に",
+          "を",
+          "が",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-03-029"
+      },
+      {
+        "type": "文法形式",
+        "text": "日本語（　）勉強しています。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "を",
+          "に",
+          "が",
+          "で"
+        ],
+        "answer": 0,
+        "id": "N5-03-030"
+      },
+      {
+        "type": "文法形式",
+        "text": "電車（　）来ます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-03-031"
+      },
+      {
+        "type": "文法形式",
+        "text": "コーヒー（　）飲みたいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-03-032"
+      },
+      {
+        "type": "文法形式",
+        "text": "映画（　）見ました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "を",
+          "が",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-03-033"
+      },
+      {
+        "type": "文法形式",
+        "text": "部屋（　）きれいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "は",
+          "を",
+          "に",
+          "が"
+        ],
+        "answer": 0,
+        "id": "N5-03-034"
+      },
+      {
+        "type": "文法形式",
+        "text": "本を読む（　）が好きです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "の",
+          "を",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-03-035"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: です / は / 私 / 学生",
+        "question": "★に入るのは？",
+        "options": [
+          "です",
+          "は",
+          "私",
+          "学生"
+        ],
+        "answer": 3,
+        "id": "N5-03-036"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 勉強します / を / 毎日 / 日本語",
+        "question": "★に入るのは？",
+        "options": [
+          "勉強します",
+          "を",
+          "毎日",
+          "日本語"
+        ],
+        "answer": 2,
+        "id": "N5-03-037"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: と / 友だち / きのう / 会いました",
+        "question": "★に入るのは？",
+        "options": [
+          "と",
+          "友だち",
+          "きのう",
+          "会いました"
+        ],
+        "answer": 3,
+        "id": "N5-03-038"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: この / は / 本 / おもしろい",
+        "question": "★に入るのは？",
+        "options": [
+          "この",
+          "は",
+          "本",
+          "おもしろい"
+        ],
+        "answer": 0,
+        "id": "N5-03-039"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 歩いて / 駅 / 行きます / まで",
+        "question": "★に入るのは？",
+        "options": [
+          "歩いて",
+          "駅",
+          "行きます",
+          "まで"
+        ],
+        "answer": 0,
+        "id": "N5-03-040"
+      },
+      {
+        "type": "文章の文法",
+        "text": "私は毎朝6時に起きます。顔を洗って、朝ごはんを（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "食べます",
+          "食べて",
+          "食べた",
+          "食べる"
+        ],
+        "answer": 0,
+        "id": "N5-03-041"
+      },
+      {
+        "type": "文章の文法",
+        "text": "きのうは日曜日でした。友だちと公園で（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "遊びました",
+          "遊びます",
+          "遊んで",
+          "遊ぶ"
+        ],
+        "answer": 0,
+        "id": "N5-03-042"
+      },
+      {
+        "type": "文章の文法",
+        "text": "この店は安くて、（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "おいしいです",
+          "おいしい",
+          "おいしくて",
+          "おいしかった"
+        ],
+        "answer": 0,
+        "id": "N5-03-043"
+      },
+      {
+        "type": "文章の文法",
+        "text": "来週テストがあります。だから、今日は（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "勉強します",
+          "勉強した",
+          "勉強して",
+          "勉強する"
+        ],
+        "answer": 0,
+        "id": "N5-03-044"
+      },
+      {
+        "type": "文章の文法",
+        "text": "電車が来ません。30分（　）います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "待って",
+          "待った",
+          "待つ",
+          "待ち"
+        ],
+        "answer": 0,
+        "id": "N5-03-045"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "田中さんは毎朝7時に起きます。",
+        "question": "何時に起きますか。",
+        "options": [
+          "6時",
+          "7時",
+          "8時",
+          "9時"
+        ],
+        "answer": 1,
+        "id": "N5-03-046"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "私の部屋は広くないですが、明るいです。",
+        "question": "部屋はどうですか。",
+        "options": [
+          "広い",
+          "暗い",
+          "明るい",
+          "寒い"
+        ],
+        "answer": 2,
+        "id": "N5-03-047"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "駅から学校までバスで5分です。",
+        "question": "バスで何分？",
+        "options": [
+          "3分",
+          "5分",
+          "10分",
+          "15分"
+        ],
+        "answer": 1,
+        "id": "N5-03-048"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "私は日本語を勉強しています。毎日2時間勉強します。日本語は難しいですが、おもしろいです。",
+        "question": "日本語をどう思いますか。",
+        "options": [
+          "簡単",
+          "難しいけどおもしろい",
+          "つまらない",
+          "簡単でおもしろい"
+        ],
+        "answer": 1,
+        "id": "N5-03-049"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "山田さんの家族は4人です。お父さんとお母さんと妹がいます。",
+        "question": "家族は何人？",
+        "options": [
+          "3人",
+          "4人",
+          "5人",
+          "6人"
+        ],
+        "answer": 1,
+        "id": "N5-03-050"
+      },
+      {
+        "type": "情報検索",
+        "text": "【レストラン】ランチ: 11:00-14:00 休み: 火曜日",
+        "question": "ランチは何時まで？",
+        "options": [
+          "13時",
+          "14時",
+          "15時",
+          "16時"
+        ],
+        "answer": 1,
+        "id": "N5-03-051"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人と女の人が話しています。男の人は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "りんご",
+          "みかん",
+          "バナナ",
+          "いちご"
+        ],
+        "answer": 0,
+        "id": "N5-03-052"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "学生と先生が話しています。宿題はいつまでですか。",
+        "question": "質問",
+        "options": [
+          "月曜",
+          "火曜",
+          "水曜",
+          "木曜"
+        ],
+        "answer": 2,
+        "id": "N5-03-053"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "女の人と男の人が話しています。どこで会いますか。",
+        "question": "質問",
+        "options": [
+          "駅",
+          "学校",
+          "図書館",
+          "公園"
+        ],
+        "answer": 0,
+        "id": "N5-03-054"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "お母さんと子供が話しています。子供は何を食べますか。",
+        "question": "質問",
+        "options": [
+          "パン",
+          "ごはん",
+          "たまご",
+          "サラダ"
+        ],
+        "answer": 1,
+        "id": "N5-03-055"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "店員と客が話しています。客は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "シャツ",
+          "ズボン",
+          "靴",
+          "帽子"
+        ],
+        "answer": 0,
+        "id": "N5-03-056"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人が話しています。明日の天気は？",
+        "question": "質問",
+        "options": [
+          "晴れ",
+          "曇り",
+          "雨",
+          "雪"
+        ],
+        "answer": 2,
+        "id": "N5-03-057"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。何が好きですか。",
+        "question": "質問",
+        "options": [
+          "音楽",
+          "スポーツ",
+          "料理",
+          "映画"
+        ],
+        "answer": 0,
+        "id": "N5-03-058"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。どこに住んでいますか。",
+        "question": "質問",
+        "options": [
+          "東京",
+          "大阪",
+          "京都",
+          "名古屋"
+        ],
+        "answer": 1,
+        "id": "N5-03-059"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "学生が話しています。何を勉強していますか。",
+        "question": "質問",
+        "options": [
+          "英語",
+          "日本語",
+          "数学",
+          "歴史"
+        ],
+        "answer": 1,
+        "id": "N5-03-060"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。趣味は何ですか。",
+        "question": "質問",
+        "options": [
+          "読書",
+          "映画",
+          "旅行",
+          "料理"
+        ],
+        "answer": 2,
+        "id": "N5-03-061"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。いつ日本に来ましたか。",
+        "question": "質問",
+        "options": [
+          "去年",
+          "2年前",
+          "先月",
+          "先週"
+        ],
+        "answer": 0,
+        "id": "N5-03-062"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "二人が話しています。パーティーは何時から？",
+        "question": "質問",
+        "options": [
+          "5時",
+          "6時",
+          "7時",
+          "8時"
+        ],
+        "answer": 1,
+        "id": "N5-03-063"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "「ありがとう」と言われました。",
+        "question": "何と言いますか。",
+        "options": [
+          "どういたしまして",
+          "すみません",
+          "おはよう",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-03-064"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "朝、先生に会いました。",
+        "question": "何と言いますか。",
+        "options": [
+          "おはようございます",
+          "こんにちは",
+          "こんばんは",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-03-065"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べる前です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 0,
+        "id": "N5-03-066"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べた後です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 1,
+        "id": "N5-03-067"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "出かける時、家族に。",
+        "question": "何と言いますか。",
+        "options": [
+          "行ってきます",
+          "ただいま",
+          "おかえり",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-03-068"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お名前は？",
+        "question": "何と答えますか。",
+        "options": [
+          "田中です",
+          "いいえ",
+          "はい",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-03-069"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "これはいくらですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "100円です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-03-070"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "どこに住んでいますか。",
+        "question": "何と答えますか。",
+        "options": [
+          "東京です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-03-071"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "何歳ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "20歳です",
+          "学生です",
+          "日本人です",
+          "田中です"
+        ],
+        "answer": 0,
+        "id": "N5-03-072"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お仕事は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "会社員です",
+          "東京です",
+          "日本です",
+          "20歳です"
+        ],
+        "answer": 0,
+        "id": "N5-03-073"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "趣味は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "読書です",
+          "はい",
+          "いいえ",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-03-074"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今何時ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "3時です",
+          "月曜日です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-03-075"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今日は何曜日ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "月曜日です",
+          "3時です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-03-076"
+      }
+    ],
+    "4": [
+      {
+        "type": "漢字読み",
+        "text": "<u>鳴る</u>の読み方は？",
+        "question": "「鳴る」の読み方は？",
+        "options": [
+          "しぬ",
+          "なる",
+          "さんぽ",
+          "じしょ"
+        ],
+        "answer": 1,
+        "id": "N5-04-001"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>回</u>の読み方は？",
+        "question": "「回」の読み方は？",
+        "options": [
+          "かお",
+          "こうかん",
+          "しんぱい",
+          "かい"
+        ],
+        "answer": 3,
+        "id": "N5-04-002"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>理由</u>の読み方は？",
+        "question": "「理由」の読み方は？",
+        "options": [
+          "おりる",
+          "ばん",
+          "あさごはん",
+          "りゆう"
+        ],
+        "answer": 3,
+        "id": "N5-04-003"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>外国</u>の読み方は？",
+        "question": "「外国」の読み方は？",
+        "options": [
+          "いけん",
+          "おくる",
+          "がいこく",
+          "ちゅうもん"
+        ],
+        "answer": 2,
+        "id": "N5-04-004"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>翻訳</u>の読み方は？",
+        "question": "「翻訳」の読み方は？",
+        "options": [
+          "れきし",
+          "ほんやく",
+          "くつした",
+          "けいたいでんわ"
+        ],
+        "answer": 1,
+        "id": "N5-04-005"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>習慣</u>の読み方は？",
+        "question": "「習慣」の読み方は？",
+        "options": [
+          "きょうしつ",
+          "けんぶつ",
+          "あじ",
+          "しゅうかん"
+        ],
+        "answer": 3,
+        "id": "N5-04-006"
+      },
+      {
+        "type": "表記",
+        "text": "<u>ちゅうしゃじょう</u>の漢字は？",
+        "question": "「ちゅうしゃじょう」の書き方は？",
+        "options": [
+          "書く",
+          "信じる",
+          "駐車場",
+          "繋ぐ"
+        ],
+        "answer": 2,
+        "id": "N5-04-007"
+      },
+      {
+        "type": "表記",
+        "text": "<u>バスてい</u>の漢字は？",
+        "question": "「バスてい」の書き方は？",
+        "options": [
+          "気持ち",
+          "環境",
+          "バス停",
+          "宿題"
+        ],
+        "answer": 2,
+        "id": "N5-04-008"
+      },
+      {
+        "type": "表記",
+        "text": "<u>さけぶ</u>の漢字は？",
+        "question": "「さけぶ」の書き方は？",
+        "options": [
+          "送る",
+          "仕事",
+          "叫ぶ",
+          "研究"
+        ],
+        "answer": 2,
+        "id": "N5-04-009"
+      },
+      {
+        "type": "表記",
+        "text": "<u>こうえん</u>の漢字は？",
+        "question": "「こうえん」の書き方は？",
+        "options": [
+          "雑誌",
+          "公園",
+          "説明する",
+          "強い"
+        ],
+        "answer": 1,
+        "id": "N5-04-010"
+      },
+      {
+        "type": "表記",
+        "text": "<u>ほし</u>の漢字は？",
+        "question": "「ほし」の書き方は？",
+        "options": [
+          "星",
+          "五つ",
+          "卒業",
+          "綺麗"
+        ],
+        "answer": 0,
+        "id": "N5-04-011"
+      },
+      {
+        "type": "表記",
+        "text": "<u>せんぱい</u>の漢字は？",
+        "question": "「せんぱい」の書き方は？",
+        "options": [
+          "昼",
+          "先輩",
+          "信号",
+          "色"
+        ],
+        "answer": 1,
+        "id": "N5-04-012"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）が好きです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "使う",
+          "案内",
+          "それ",
+          "習慣"
+        ],
+        "answer": 1,
+        "id": "N5-04-013"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を見ました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "人",
+          "掃除する",
+          "ペン",
+          "工場"
+        ],
+        "answer": 3,
+        "id": "N5-04-014"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を買いました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "誰",
+          "調査",
+          "成功",
+          "図書館"
+        ],
+        "answer": 1,
+        "id": "N5-04-015"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）で働いています。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "鼻",
+          "電車",
+          "絶対",
+          "安心する"
+        ],
+        "answer": 2,
+        "id": "N5-04-016"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を勉強しています。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "遊ぶ",
+          "貸す",
+          "コーヒー",
+          "携帯電話"
+        ],
+        "answer": 2,
+        "id": "N5-04-017"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）が上手です。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "女",
+          "ベッド",
+          "でも",
+          "似る"
+        ],
+        "answer": 1,
+        "id": "N5-04-018"
+      },
+      {
+        "type": "文脈規定",
+        "text": "部屋に（　）があります。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "優しい",
+          "タクシー",
+          "送る",
+          "個"
+        ],
+        "answer": 3,
+        "id": "N5-04-019"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）は難しいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "待つ",
+          "録音",
+          "鉛筆",
+          "パソコン"
+        ],
+        "answer": 2,
+        "id": "N5-04-020"
+      },
+      {
+        "type": "言い換え",
+        "text": "「浴室」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "now",
+          "become empty",
+          "bathroom",
+          "to sell"
+        ],
+        "answer": 2,
+        "id": "N5-04-021"
+      },
+      {
+        "type": "言い換え",
+        "text": "「燃える」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "to say",
+          "egg",
+          "to burn",
+          "house"
+        ],
+        "answer": 2,
+        "id": "N5-04-022"
+      },
+      {
+        "type": "言い換え",
+        "text": "「右」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "vegetable",
+          "right",
+          "over there",
+          "house"
+        ],
+        "answer": 1,
+        "id": "N5-04-023"
+      },
+      {
+        "type": "言い換え",
+        "text": "「可愛い」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "cute",
+          "street",
+          "shop clerk",
+          "get job"
+        ],
+        "answer": 0,
+        "id": "N5-04-024"
+      },
+      {
+        "type": "言い換え",
+        "text": "「太陽」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "refrigerator",
+          "to try",
+          "sun",
+          "to be late"
+        ],
+        "answer": 2,
+        "id": "N5-04-025"
+      },
+      {
+        "type": "文法形式",
+        "text": "食べ（　）から寝ます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-04-026"
+      },
+      {
+        "type": "文法形式",
+        "text": "日本に行き（　）です。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "たい",
+          "ます",
+          "た",
+          "る"
+        ],
+        "answer": 0,
+        "id": "N5-04-027"
+      },
+      {
+        "type": "文法形式",
+        "text": "雨が降っ（　）います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-04-028"
+      },
+      {
+        "type": "文法形式",
+        "text": "ここに座っ（　）ください。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-04-029"
+      },
+      {
+        "type": "文法形式",
+        "text": "まだ食べ（　）いません。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-04-030"
+      },
+      {
+        "type": "文法形式",
+        "text": "明日来（　）か。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "ます",
+          "る",
+          "た",
+          "て"
+        ],
+        "answer": 0,
+        "id": "N5-04-031"
+      },
+      {
+        "type": "文法形式",
+        "text": "きのう何を（　）か。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "しました",
+          "します",
+          "する",
+          "して"
+        ],
+        "answer": 0,
+        "id": "N5-04-032"
+      },
+      {
+        "type": "文法形式",
+        "text": "この本は（　）です。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "おもしろい",
+          "おもしろく",
+          "おもしろ",
+          "おもしろいな"
+        ],
+        "answer": 0,
+        "id": "N5-04-033"
+      },
+      {
+        "type": "文法形式",
+        "text": "部屋を（　）しました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "きれいに",
+          "きれい",
+          "きれいな",
+          "きれいく"
+        ],
+        "answer": 0,
+        "id": "N5-04-034"
+      },
+      {
+        "type": "文法形式",
+        "text": "早く（　）ください。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "起きて",
+          "起きる",
+          "起きた",
+          "起き"
+        ],
+        "answer": 0,
+        "id": "N5-04-035"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 飲み / を / コーヒー / ながら",
+        "question": "★に入るのは？",
+        "options": [
+          "飲み",
+          "を",
+          "コーヒー",
+          "ながら"
+        ],
+        "answer": 3,
+        "id": "N5-04-036"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 雨 / います / が / 降って",
+        "question": "★に入るのは？",
+        "options": [
+          "雨",
+          "います",
+          "が",
+          "降って"
+        ],
+        "answer": 3,
+        "id": "N5-04-037"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: たいです / に / 日本 / 行き",
+        "question": "★に入るのは？",
+        "options": [
+          "たいです",
+          "に",
+          "日本",
+          "行き"
+        ],
+        "answer": 3,
+        "id": "N5-04-038"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: が / 部屋 / です / きれい",
+        "question": "★に入るのは？",
+        "options": [
+          "が",
+          "部屋",
+          "です",
+          "きれい"
+        ],
+        "answer": 0,
+        "id": "N5-04-039"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: ました / を / 見 / 映画",
+        "question": "★に入るのは？",
+        "options": [
+          "ました",
+          "を",
+          "見",
+          "映画"
+        ],
+        "answer": 3,
+        "id": "N5-04-040"
+      },
+      {
+        "type": "文章の文法",
+        "text": "私は毎朝6時に起きます。顔を洗って、朝ごはんを（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "食べます",
+          "食べて",
+          "食べた",
+          "食べる"
+        ],
+        "answer": 0,
+        "id": "N5-04-041"
+      },
+      {
+        "type": "文章の文法",
+        "text": "きのうは日曜日でした。友だちと公園で（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "遊びました",
+          "遊びます",
+          "遊んで",
+          "遊ぶ"
+        ],
+        "answer": 0,
+        "id": "N5-04-042"
+      },
+      {
+        "type": "文章の文法",
+        "text": "この店は安くて、（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "おいしいです",
+          "おいしい",
+          "おいしくて",
+          "おいしかった"
+        ],
+        "answer": 0,
+        "id": "N5-04-043"
+      },
+      {
+        "type": "文章の文法",
+        "text": "来週テストがあります。だから、今日は（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "勉強します",
+          "勉強した",
+          "勉強して",
+          "勉強する"
+        ],
+        "answer": 0,
+        "id": "N5-04-044"
+      },
+      {
+        "type": "文章の文法",
+        "text": "電車が来ません。30分（　）います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "待って",
+          "待った",
+          "待つ",
+          "待ち"
+        ],
+        "answer": 0,
+        "id": "N5-04-045"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "山田さんは毎日図書館で本を読みます。",
+        "question": "どこで読みますか。",
+        "options": [
+          "学校",
+          "公園",
+          "図書館",
+          "家"
+        ],
+        "answer": 2,
+        "id": "N5-04-046"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "今日は雨です。傘を持っていきます。",
+        "question": "今日の天気は？",
+        "options": [
+          "晴れ",
+          "曇り",
+          "雨",
+          "雪"
+        ],
+        "answer": 2,
+        "id": "N5-04-047"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "このりんごは100円です。",
+        "question": "いくら？",
+        "options": [
+          "50円",
+          "100円",
+          "150円",
+          "200円"
+        ],
+        "answer": 1,
+        "id": "N5-04-048"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "私の町は小さいですが、きれいです。山と川があります。",
+        "question": "この町に何がある？",
+        "options": [
+          "海",
+          "山と川",
+          "ビル",
+          "空港"
+        ],
+        "answer": 1,
+        "id": "N5-04-049"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "田中さんは朝6時に起きます。7時に朝ごはんを食べます。8時に家を出ます。",
+        "question": "何時に家を出る？",
+        "options": [
+          "6時",
+          "7時",
+          "8時",
+          "9時"
+        ],
+        "answer": 2,
+        "id": "N5-04-050"
+      },
+      {
+        "type": "情報検索",
+        "text": "【図書館】開館: 9:00-17:00 休み: 月曜日",
+        "question": "何時まで？",
+        "options": [
+          "16時",
+          "17時",
+          "18時",
+          "19時"
+        ],
+        "answer": 1,
+        "id": "N5-04-051"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人と女の人が話しています。男の人は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "りんご",
+          "みかん",
+          "バナナ",
+          "いちご"
+        ],
+        "answer": 0,
+        "id": "N5-04-052"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "学生と先生が話しています。宿題はいつまでですか。",
+        "question": "質問",
+        "options": [
+          "月曜",
+          "火曜",
+          "水曜",
+          "木曜"
+        ],
+        "answer": 2,
+        "id": "N5-04-053"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "女の人と男の人が話しています。どこで会いますか。",
+        "question": "質問",
+        "options": [
+          "駅",
+          "学校",
+          "図書館",
+          "公園"
+        ],
+        "answer": 0,
+        "id": "N5-04-054"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "お母さんと子供が話しています。子供は何を食べますか。",
+        "question": "質問",
+        "options": [
+          "パン",
+          "ごはん",
+          "たまご",
+          "サラダ"
+        ],
+        "answer": 1,
+        "id": "N5-04-055"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "店員と客が話しています。客は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "シャツ",
+          "ズボン",
+          "靴",
+          "帽子"
+        ],
+        "answer": 0,
+        "id": "N5-04-056"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人が話しています。明日の天気は？",
+        "question": "質問",
+        "options": [
+          "晴れ",
+          "曇り",
+          "雨",
+          "雪"
+        ],
+        "answer": 2,
+        "id": "N5-04-057"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。何が好きですか。",
+        "question": "質問",
+        "options": [
+          "音楽",
+          "スポーツ",
+          "料理",
+          "映画"
+        ],
+        "answer": 0,
+        "id": "N5-04-058"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。どこに住んでいますか。",
+        "question": "質問",
+        "options": [
+          "東京",
+          "大阪",
+          "京都",
+          "名古屋"
+        ],
+        "answer": 1,
+        "id": "N5-04-059"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "学生が話しています。何を勉強していますか。",
+        "question": "質問",
+        "options": [
+          "英語",
+          "日本語",
+          "数学",
+          "歴史"
+        ],
+        "answer": 1,
+        "id": "N5-04-060"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。趣味は何ですか。",
+        "question": "質問",
+        "options": [
+          "読書",
+          "映画",
+          "旅行",
+          "料理"
+        ],
+        "answer": 2,
+        "id": "N5-04-061"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。いつ日本に来ましたか。",
+        "question": "質問",
+        "options": [
+          "去年",
+          "2年前",
+          "先月",
+          "先週"
+        ],
+        "answer": 0,
+        "id": "N5-04-062"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "二人が話しています。パーティーは何時から？",
+        "question": "質問",
+        "options": [
+          "5時",
+          "6時",
+          "7時",
+          "8時"
+        ],
+        "answer": 1,
+        "id": "N5-04-063"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "「ありがとう」と言われました。",
+        "question": "何と言いますか。",
+        "options": [
+          "どういたしまして",
+          "すみません",
+          "おはよう",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-04-064"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "朝、先生に会いました。",
+        "question": "何と言いますか。",
+        "options": [
+          "おはようございます",
+          "こんにちは",
+          "こんばんは",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-04-065"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べる前です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 0,
+        "id": "N5-04-066"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べた後です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 1,
+        "id": "N5-04-067"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "出かける時、家族に。",
+        "question": "何と言いますか。",
+        "options": [
+          "行ってきます",
+          "ただいま",
+          "おかえり",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-04-068"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お名前は？",
+        "question": "何と答えますか。",
+        "options": [
+          "田中です",
+          "いいえ",
+          "はい",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-04-069"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "これはいくらですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "100円です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-04-070"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "どこに住んでいますか。",
+        "question": "何と答えますか。",
+        "options": [
+          "東京です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-04-071"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "何歳ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "20歳です",
+          "学生です",
+          "日本人です",
+          "田中です"
+        ],
+        "answer": 0,
+        "id": "N5-04-072"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お仕事は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "会社員です",
+          "東京です",
+          "日本です",
+          "20歳です"
+        ],
+        "answer": 0,
+        "id": "N5-04-073"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "趣味は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "読書です",
+          "はい",
+          "いいえ",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-04-074"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今何時ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "3時です",
+          "月曜日です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-04-075"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今日は何曜日ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "月曜日です",
+          "3時です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-04-076"
+      }
+    ],
+    "5": [
+      {
+        "type": "漢字読み",
+        "text": "<u>努力</u>の読み方は？",
+        "question": "「努力」の読み方は？",
+        "options": [
+          "どりょく",
+          "よくしつ",
+          "すいようび",
+          "おくれる"
+        ],
+        "answer": 0,
+        "id": "N5-05-001"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>狭い</u>の読み方は？",
+        "question": "「狭い」の読み方は？",
+        "options": [
+          "いしゃ",
+          "よくしつ",
+          "まいあさ",
+          "せまい"
+        ],
+        "answer": 3,
+        "id": "N5-05-002"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>飛ぶ</u>の読み方は？",
+        "question": "「飛ぶ」の読み方は？",
+        "options": [
+          "へんじ",
+          "とぶ",
+          "かんがえる",
+          "ろうか"
+        ],
+        "answer": 1,
+        "id": "N5-05-003"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>二つ</u>の読み方は？",
+        "question": "「二つ」の読み方は？",
+        "options": [
+          "ふたつ",
+          "となり",
+          "おしえる",
+          "つなぐ"
+        ],
+        "answer": 0,
+        "id": "N5-05-004"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>離婚する</u>の読み方は？",
+        "question": "「離婚する」の読み方は？",
+        "options": [
+          "おさけ",
+          "りこんする",
+          "かいだん",
+          "しろい"
+        ],
+        "answer": 1,
+        "id": "N5-05-005"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>私</u>の読み方は？",
+        "question": "「私」の読み方は？",
+        "options": [
+          "じかん",
+          "わたし",
+          "かど",
+          "しゅみ"
+        ],
+        "answer": 1,
+        "id": "N5-05-006"
+      },
+      {
+        "type": "表記",
+        "text": "<u>はなす</u>の漢字は？",
+        "question": "「はなす」の書き方は？",
+        "options": [
+          "将来",
+          "課長",
+          "離す",
+          "読む"
+        ],
+        "answer": 2,
+        "id": "N5-05-007"
+      },
+      {
+        "type": "表記",
+        "text": "<u>みず</u>の漢字は？",
+        "question": "「みず」の書き方は？",
+        "options": [
+          "歴史",
+          "許す",
+          "水",
+          "注意"
+        ],
+        "answer": 2,
+        "id": "N5-05-008"
+      },
+      {
+        "type": "表記",
+        "text": "<u>わたる</u>の漢字は？",
+        "question": "「わたる」の書き方は？",
+        "options": [
+          "運転する",
+          "風邪",
+          "渡る",
+          "鍵"
+        ],
+        "answer": 2,
+        "id": "N5-05-009"
+      },
+      {
+        "type": "表記",
+        "text": "<u>がいこく</u>の漢字は？",
+        "question": "「がいこく」の書き方は？",
+        "options": [
+          "外国",
+          "掃除する",
+          "買い物",
+          "雨"
+        ],
+        "answer": 0,
+        "id": "N5-05-010"
+      },
+      {
+        "type": "表記",
+        "text": "<u>ねる</u>の漢字は？",
+        "question": "「ねる」の書き方は？",
+        "options": [
+          "学校",
+          "万",
+          "寝る",
+          "同じ"
+        ],
+        "answer": 2,
+        "id": "N5-05-011"
+      },
+      {
+        "type": "表記",
+        "text": "<u>みんな</u>の漢字は？",
+        "question": "「みんな」の書き方は？",
+        "options": [
+          "熱い",
+          "断る",
+          "一枚",
+          "皆"
+        ],
+        "answer": 3,
+        "id": "N5-05-012"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）は楽しいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "前",
+          "廊下",
+          "肉",
+          "予定"
+        ],
+        "answer": 1,
+        "id": "N5-05-013"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を聞きます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "休む",
+          "止まる",
+          "頼む",
+          "階"
+        ],
+        "answer": 2,
+        "id": "N5-05-014"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を読みます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "到着",
+          "時計",
+          "予定",
+          "町"
+        ],
+        "answer": 2,
+        "id": "N5-05-015"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を作ります。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "一枚",
+          "耳",
+          "集める",
+          "試す"
+        ],
+        "answer": 1,
+        "id": "N5-05-016"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）に住んでいます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "回",
+          "雪",
+          "多い",
+          "少し"
+        ],
+        "answer": 3,
+        "id": "N5-05-017"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を使います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "絵",
+          "地図",
+          "時計",
+          "ポケット"
+        ],
+        "answer": 1,
+        "id": "N5-05-018"
+      },
+      {
+        "type": "文脈規定",
+        "text": "友だちと（　）をしました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "起こす",
+          "お酒",
+          "道",
+          "お風呂"
+        ],
+        "answer": 1,
+        "id": "N5-05-019"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）が終わりました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "描く",
+          "あなた",
+          "交差点",
+          "曲がる"
+        ],
+        "answer": 1,
+        "id": "N5-05-020"
+      },
+      {
+        "type": "言い換え",
+        "text": "「母」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "that (far)",
+          "be visible",
+          "I/me",
+          "mother"
+        ],
+        "answer": 3,
+        "id": "N5-05-021"
+      },
+      {
+        "type": "言い換え",
+        "text": "「明るい」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "yes",
+          "bright",
+          "museum",
+          "to heal"
+        ],
+        "answer": 1,
+        "id": "N5-05-022"
+      },
+      {
+        "type": "言い換え",
+        "text": "「魚」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "fish",
+          "life",
+          "watch/clock",
+          "to guide"
+        ],
+        "answer": 0,
+        "id": "N5-05-023"
+      },
+      {
+        "type": "言い換え",
+        "text": "「赤ちゃん」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "sofa",
+          "tooth",
+          "reply",
+          "baby"
+        ],
+        "answer": 3,
+        "id": "N5-05-024"
+      },
+      {
+        "type": "言い換え",
+        "text": "「心配」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "machine",
+          "worry",
+          "slowly",
+          "every day"
+        ],
+        "answer": 1,
+        "id": "N5-05-025"
+      },
+      {
+        "type": "文法形式",
+        "text": "私は学生（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "です",
+          "だ",
+          "ます",
+          "ある"
+        ],
+        "answer": 0,
+        "id": "N5-05-026"
+      },
+      {
+        "type": "文法形式",
+        "text": "これは本（　）ありません。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "では",
+          "が",
+          "を",
+          "に"
+        ],
+        "answer": 0,
+        "id": "N5-05-027"
+      },
+      {
+        "type": "文法形式",
+        "text": "学校（　）行きます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "に",
+          "を",
+          "が",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-05-028"
+      },
+      {
+        "type": "文法形式",
+        "text": "友だち（　）会いました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "に",
+          "を",
+          "が",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-05-029"
+      },
+      {
+        "type": "文法形式",
+        "text": "日本語（　）勉強しています。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "を",
+          "に",
+          "が",
+          "で"
+        ],
+        "answer": 0,
+        "id": "N5-05-030"
+      },
+      {
+        "type": "文法形式",
+        "text": "電車（　）来ます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-05-031"
+      },
+      {
+        "type": "文法形式",
+        "text": "コーヒー（　）飲みたいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-05-032"
+      },
+      {
+        "type": "文法形式",
+        "text": "映画（　）見ました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "を",
+          "が",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-05-033"
+      },
+      {
+        "type": "文法形式",
+        "text": "部屋（　）きれいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "は",
+          "を",
+          "に",
+          "が"
+        ],
+        "answer": 0,
+        "id": "N5-05-034"
+      },
+      {
+        "type": "文法形式",
+        "text": "本を読む（　）が好きです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "の",
+          "を",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-05-035"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 学生 / です / は / 私",
+        "question": "★に入るのは？",
+        "options": [
+          "学生",
+          "です",
+          "は",
+          "私"
+        ],
+        "answer": 3,
+        "id": "N5-05-036"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 日本語 / 勉強します / 毎日 / を",
+        "question": "★に入るのは？",
+        "options": [
+          "日本語",
+          "勉強します",
+          "毎日",
+          "を"
+        ],
+        "answer": 0,
+        "id": "N5-05-037"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 友だち / と / きのう / 会いました",
+        "question": "★に入るのは？",
+        "options": [
+          "友だち",
+          "と",
+          "きのう",
+          "会いました"
+        ],
+        "answer": 3,
+        "id": "N5-05-038"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: は / 本 / おもしろい / この",
+        "question": "★に入るのは？",
+        "options": [
+          "は",
+          "本",
+          "おもしろい",
+          "この"
+        ],
+        "answer": 1,
+        "id": "N5-05-039"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 歩いて / まで / 駅 / 行きます",
+        "question": "★に入るのは？",
+        "options": [
+          "歩いて",
+          "まで",
+          "駅",
+          "行きます"
+        ],
+        "answer": 0,
+        "id": "N5-05-040"
+      },
+      {
+        "type": "文章の文法",
+        "text": "私は毎朝6時に起きます。顔を洗って、朝ごはんを（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "食べます",
+          "食べて",
+          "食べた",
+          "食べる"
+        ],
+        "answer": 0,
+        "id": "N5-05-041"
+      },
+      {
+        "type": "文章の文法",
+        "text": "きのうは日曜日でした。友だちと公園で（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "遊びました",
+          "遊びます",
+          "遊んで",
+          "遊ぶ"
+        ],
+        "answer": 0,
+        "id": "N5-05-042"
+      },
+      {
+        "type": "文章の文法",
+        "text": "この店は安くて、（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "おいしいです",
+          "おいしい",
+          "おいしくて",
+          "おいしかった"
+        ],
+        "answer": 0,
+        "id": "N5-05-043"
+      },
+      {
+        "type": "文章の文法",
+        "text": "来週テストがあります。だから、今日は（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "勉強します",
+          "勉強した",
+          "勉強して",
+          "勉強する"
+        ],
+        "answer": 0,
+        "id": "N5-05-044"
+      },
+      {
+        "type": "文章の文法",
+        "text": "電車が来ません。30分（　）います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "待って",
+          "待った",
+          "待つ",
+          "待ち"
+        ],
+        "answer": 0,
+        "id": "N5-05-045"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "田中さんは毎朝7時に起きます。",
+        "question": "何時に起きますか。",
+        "options": [
+          "6時",
+          "7時",
+          "8時",
+          "9時"
+        ],
+        "answer": 1,
+        "id": "N5-05-046"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "私の部屋は広くないですが、明るいです。",
+        "question": "部屋はどうですか。",
+        "options": [
+          "広い",
+          "暗い",
+          "明るい",
+          "寒い"
+        ],
+        "answer": 2,
+        "id": "N5-05-047"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "駅から学校までバスで5分です。",
+        "question": "バスで何分？",
+        "options": [
+          "3分",
+          "5分",
+          "10分",
+          "15分"
+        ],
+        "answer": 1,
+        "id": "N5-05-048"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "私は日本語を勉強しています。毎日2時間勉強します。日本語は難しいですが、おもしろいです。",
+        "question": "日本語をどう思いますか。",
+        "options": [
+          "簡単",
+          "難しいけどおもしろい",
+          "つまらない",
+          "簡単でおもしろい"
+        ],
+        "answer": 1,
+        "id": "N5-05-049"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "山田さんの家族は4人です。お父さんとお母さんと妹がいます。",
+        "question": "家族は何人？",
+        "options": [
+          "3人",
+          "4人",
+          "5人",
+          "6人"
+        ],
+        "answer": 1,
+        "id": "N5-05-050"
+      },
+      {
+        "type": "情報検索",
+        "text": "【映画】時間: 10:00, 14:00 料金: 大人1800円",
+        "question": "何時から？",
+        "options": [
+          "9時",
+          "10時",
+          "11時",
+          "12時"
+        ],
+        "answer": 1,
+        "id": "N5-05-051"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人と女の人が話しています。男の人は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "りんご",
+          "みかん",
+          "バナナ",
+          "いちご"
+        ],
+        "answer": 0,
+        "id": "N5-05-052"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "学生と先生が話しています。宿題はいつまでですか。",
+        "question": "質問",
+        "options": [
+          "月曜",
+          "火曜",
+          "水曜",
+          "木曜"
+        ],
+        "answer": 2,
+        "id": "N5-05-053"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "女の人と男の人が話しています。どこで会いますか。",
+        "question": "質問",
+        "options": [
+          "駅",
+          "学校",
+          "図書館",
+          "公園"
+        ],
+        "answer": 0,
+        "id": "N5-05-054"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "お母さんと子供が話しています。子供は何を食べますか。",
+        "question": "質問",
+        "options": [
+          "パン",
+          "ごはん",
+          "たまご",
+          "サラダ"
+        ],
+        "answer": 1,
+        "id": "N5-05-055"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "店員と客が話しています。客は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "シャツ",
+          "ズボン",
+          "靴",
+          "帽子"
+        ],
+        "answer": 0,
+        "id": "N5-05-056"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人が話しています。明日の天気は？",
+        "question": "質問",
+        "options": [
+          "晴れ",
+          "曇り",
+          "雨",
+          "雪"
+        ],
+        "answer": 2,
+        "id": "N5-05-057"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。何が好きですか。",
+        "question": "質問",
+        "options": [
+          "音楽",
+          "スポーツ",
+          "料理",
+          "映画"
+        ],
+        "answer": 0,
+        "id": "N5-05-058"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。どこに住んでいますか。",
+        "question": "質問",
+        "options": [
+          "東京",
+          "大阪",
+          "京都",
+          "名古屋"
+        ],
+        "answer": 1,
+        "id": "N5-05-059"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "学生が話しています。何を勉強していますか。",
+        "question": "質問",
+        "options": [
+          "英語",
+          "日本語",
+          "数学",
+          "歴史"
+        ],
+        "answer": 1,
+        "id": "N5-05-060"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。趣味は何ですか。",
+        "question": "質問",
+        "options": [
+          "読書",
+          "映画",
+          "旅行",
+          "料理"
+        ],
+        "answer": 2,
+        "id": "N5-05-061"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。いつ日本に来ましたか。",
+        "question": "質問",
+        "options": [
+          "去年",
+          "2年前",
+          "先月",
+          "先週"
+        ],
+        "answer": 0,
+        "id": "N5-05-062"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "二人が話しています。パーティーは何時から？",
+        "question": "質問",
+        "options": [
+          "5時",
+          "6時",
+          "7時",
+          "8時"
+        ],
+        "answer": 1,
+        "id": "N5-05-063"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "「ありがとう」と言われました。",
+        "question": "何と言いますか。",
+        "options": [
+          "どういたしまして",
+          "すみません",
+          "おはよう",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-05-064"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "朝、先生に会いました。",
+        "question": "何と言いますか。",
+        "options": [
+          "おはようございます",
+          "こんにちは",
+          "こんばんは",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-05-065"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べる前です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 0,
+        "id": "N5-05-066"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べた後です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 1,
+        "id": "N5-05-067"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "出かける時、家族に。",
+        "question": "何と言いますか。",
+        "options": [
+          "行ってきます",
+          "ただいま",
+          "おかえり",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-05-068"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お名前は？",
+        "question": "何と答えますか。",
+        "options": [
+          "田中です",
+          "いいえ",
+          "はい",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-05-069"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "これはいくらですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "100円です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-05-070"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "どこに住んでいますか。",
+        "question": "何と答えますか。",
+        "options": [
+          "東京です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-05-071"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "何歳ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "20歳です",
+          "学生です",
+          "日本人です",
+          "田中です"
+        ],
+        "answer": 0,
+        "id": "N5-05-072"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お仕事は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "会社員です",
+          "東京です",
+          "日本です",
+          "20歳です"
+        ],
+        "answer": 0,
+        "id": "N5-05-073"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "趣味は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "読書です",
+          "はい",
+          "いいえ",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-05-074"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今何時ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "3時です",
+          "月曜日です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-05-075"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今日は何曜日ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "月曜日です",
+          "3時です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-05-076"
+      }
+    ],
+    "6": [
+      {
+        "type": "漢字読み",
+        "text": "<u>浴室</u>の読み方は？",
+        "question": "「浴室」の読み方は？",
+        "options": [
+          "じょうほう",
+          "よくしつ",
+          "おとうと",
+          "ならう"
+        ],
+        "answer": 1,
+        "id": "N5-06-001"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>住所</u>の読み方は？",
+        "question": "「住所」の読み方は？",
+        "options": [
+          "にく",
+          "とどく",
+          "じゅうしょ",
+          "しんせつ"
+        ],
+        "answer": 2,
+        "id": "N5-06-002"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>欠席</u>の読み方は？",
+        "question": "「欠席」の読み方は？",
+        "options": [
+          "そふ",
+          "けっせき",
+          "わたし",
+          "れいぞうこ"
+        ],
+        "answer": 1,
+        "id": "N5-06-003"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>居間</u>の読み方は？",
+        "question": "「居間」の読み方は？",
+        "options": [
+          "はんたい",
+          "あまい",
+          "いま",
+          "けいさつ"
+        ],
+        "answer": 2,
+        "id": "N5-06-004"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>近い</u>の読み方は？",
+        "question": "「近い」の読み方は？",
+        "options": [
+          "てんいん",
+          "えき",
+          "ちかい",
+          "ちち"
+        ],
+        "answer": 2,
+        "id": "N5-06-005"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>燃える</u>の読み方は？",
+        "question": "「燃える」の読み方は？",
+        "options": [
+          "とまる",
+          "もえる",
+          "よる",
+          "おかあさん"
+        ],
+        "answer": 1,
+        "id": "N5-06-006"
+      },
+      {
+        "type": "表記",
+        "text": "<u>おてら</u>の漢字は？",
+        "question": "「おてら」の書き方は？",
+        "options": [
+          "お寺",
+          "準備",
+          "来週",
+          "好き"
+        ],
+        "answer": 0,
+        "id": "N5-06-007"
+      },
+      {
+        "type": "表記",
+        "text": "<u>かい</u>の漢字は？",
+        "question": "「かい」の書き方は？",
+        "options": [
+          "聞こえる",
+          "急ぐ",
+          "階",
+          "出る"
+        ],
+        "answer": 2,
+        "id": "N5-06-008"
+      },
+      {
+        "type": "表記",
+        "text": "<u>はっぴょう</u>の漢字は？",
+        "question": "「はっぴょう」の書き方は？",
+        "options": [
+          "発表",
+          "散歩",
+          "混ぜる",
+          "歯"
+        ],
+        "answer": 0,
+        "id": "N5-06-009"
+      },
+      {
+        "type": "表記",
+        "text": "<u>わける</u>の漢字は？",
+        "question": "「わける」の書き方は？",
+        "options": [
+          "離す",
+          "動物",
+          "夢",
+          "分ける"
+        ],
+        "answer": 3,
+        "id": "N5-06-010"
+      },
+      {
+        "type": "表記",
+        "text": "<u>たつ</u>の漢字は？",
+        "question": "「たつ」の書き方は？",
+        "options": [
+          "一人",
+          "立つ",
+          "探す",
+          "落とす"
+        ],
+        "answer": 1,
+        "id": "N5-06-011"
+      },
+      {
+        "type": "表記",
+        "text": "<u>ことし</u>の漢字は？",
+        "question": "「ことし」の書き方は？",
+        "options": [
+          "話す",
+          "お弁当",
+          "今年",
+          "答える"
+        ],
+        "answer": 2,
+        "id": "N5-06-012"
+      },
+      {
+        "type": "文脈規定",
+        "text": "朝（　）を食べます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "台",
+          "千",
+          "呼ぶ",
+          "成功"
+        ],
+        "answer": 1,
+        "id": "N5-06-013"
+      },
+      {
+        "type": "文脈規定",
+        "text": "毎日（　）を飲みます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "置く",
+          "味",
+          "警察",
+          "歯"
+        ],
+        "answer": 1,
+        "id": "N5-06-014"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）がほしいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "困る",
+          "夫",
+          "環境",
+          "エアコン"
+        ],
+        "answer": 0,
+        "id": "N5-06-015"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）に行きたいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "駐車場",
+          "返品",
+          "似る",
+          "足りる"
+        ],
+        "answer": 1,
+        "id": "N5-06-016"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）が好きです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "遅い",
+          "来る",
+          "出力",
+          "ペン"
+        ],
+        "answer": 0,
+        "id": "N5-06-017"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を見ました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "二人",
+          "行く",
+          "撮る",
+          "忘れる"
+        ],
+        "answer": 1,
+        "id": "N5-06-018"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を買いました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "あげる",
+          "傘",
+          "聞こえる",
+          "お客さん"
+        ],
+        "answer": 0,
+        "id": "N5-06-019"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）で働いています。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "タクシー",
+          "縛る",
+          "体",
+          "多い"
+        ],
+        "answer": 2,
+        "id": "N5-06-020"
+      },
+      {
+        "type": "言い換え",
+        "text": "「打つ」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "to connect",
+          "to make sound (animal)",
+          "a little",
+          "to hit"
+        ],
+        "answer": 3,
+        "id": "N5-06-021"
+      },
+      {
+        "type": "言い換え",
+        "text": "「消える」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "morning/AM",
+          "to disappear",
+          "near",
+          "to be changed"
+        ],
+        "answer": 1,
+        "id": "N5-06-022"
+      },
+      {
+        "type": "言い換え",
+        "text": "「早い」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "cat",
+          "broadcast",
+          "early",
+          "to walk"
+        ],
+        "answer": 2,
+        "id": "N5-06-023"
+      },
+      {
+        "type": "言い換え",
+        "text": "「褒める」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "to praise",
+          "wife (polite)",
+          "noon",
+          "easy"
+        ],
+        "answer": 0,
+        "id": "N5-06-024"
+      },
+      {
+        "type": "言い換え",
+        "text": "「直す」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "map",
+          "problem",
+          "to fix",
+          "cold (weather)"
+        ],
+        "answer": 2,
+        "id": "N5-06-025"
+      },
+      {
+        "type": "文法形式",
+        "text": "食べ（　）から寝ます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-06-026"
+      },
+      {
+        "type": "文法形式",
+        "text": "日本に行き（　）です。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "たい",
+          "ます",
+          "た",
+          "る"
+        ],
+        "answer": 0,
+        "id": "N5-06-027"
+      },
+      {
+        "type": "文法形式",
+        "text": "雨が降っ（　）います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-06-028"
+      },
+      {
+        "type": "文法形式",
+        "text": "ここに座っ（　）ください。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-06-029"
+      },
+      {
+        "type": "文法形式",
+        "text": "まだ食べ（　）いません。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-06-030"
+      },
+      {
+        "type": "文法形式",
+        "text": "明日来（　）か。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "ます",
+          "る",
+          "た",
+          "て"
+        ],
+        "answer": 0,
+        "id": "N5-06-031"
+      },
+      {
+        "type": "文法形式",
+        "text": "きのう何を（　）か。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "しました",
+          "します",
+          "する",
+          "して"
+        ],
+        "answer": 0,
+        "id": "N5-06-032"
+      },
+      {
+        "type": "文法形式",
+        "text": "この本は（　）です。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "おもしろい",
+          "おもしろく",
+          "おもしろ",
+          "おもしろいな"
+        ],
+        "answer": 0,
+        "id": "N5-06-033"
+      },
+      {
+        "type": "文法形式",
+        "text": "部屋を（　）しました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "きれいに",
+          "きれい",
+          "きれいな",
+          "きれいく"
+        ],
+        "answer": 0,
+        "id": "N5-06-034"
+      },
+      {
+        "type": "文法形式",
+        "text": "早く（　）ください。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "起きて",
+          "起きる",
+          "起きた",
+          "起き"
+        ],
+        "answer": 0,
+        "id": "N5-06-035"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 飲み / コーヒー / を / ながら",
+        "question": "★に入るのは？",
+        "options": [
+          "飲み",
+          "コーヒー",
+          "を",
+          "ながら"
+        ],
+        "answer": 2,
+        "id": "N5-06-036"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 雨 / が / います / 降って",
+        "question": "★に入るのは？",
+        "options": [
+          "雨",
+          "が",
+          "います",
+          "降って"
+        ],
+        "answer": 3,
+        "id": "N5-06-037"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 行き / たいです / 日本 / に",
+        "question": "★に入るのは？",
+        "options": [
+          "行き",
+          "たいです",
+          "日本",
+          "に"
+        ],
+        "answer": 1,
+        "id": "N5-06-038"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 部屋 / が / です / きれい",
+        "question": "★に入るのは？",
+        "options": [
+          "部屋",
+          "が",
+          "です",
+          "きれい"
+        ],
+        "answer": 3,
+        "id": "N5-06-039"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: ました / 映画 / 見 / を",
+        "question": "★に入るのは？",
+        "options": [
+          "ました",
+          "映画",
+          "見",
+          "を"
+        ],
+        "answer": 1,
+        "id": "N5-06-040"
+      },
+      {
+        "type": "文章の文法",
+        "text": "私は毎朝6時に起きます。顔を洗って、朝ごはんを（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "食べます",
+          "食べて",
+          "食べた",
+          "食べる"
+        ],
+        "answer": 0,
+        "id": "N5-06-041"
+      },
+      {
+        "type": "文章の文法",
+        "text": "きのうは日曜日でした。友だちと公園で（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "遊びました",
+          "遊びます",
+          "遊んで",
+          "遊ぶ"
+        ],
+        "answer": 0,
+        "id": "N5-06-042"
+      },
+      {
+        "type": "文章の文法",
+        "text": "この店は安くて、（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "おいしいです",
+          "おいしい",
+          "おいしくて",
+          "おいしかった"
+        ],
+        "answer": 0,
+        "id": "N5-06-043"
+      },
+      {
+        "type": "文章の文法",
+        "text": "来週テストがあります。だから、今日は（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "勉強します",
+          "勉強した",
+          "勉強して",
+          "勉強する"
+        ],
+        "answer": 0,
+        "id": "N5-06-044"
+      },
+      {
+        "type": "文章の文法",
+        "text": "電車が来ません。30分（　）います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "待って",
+          "待った",
+          "待つ",
+          "待ち"
+        ],
+        "answer": 0,
+        "id": "N5-06-045"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "山田さんは毎日図書館で本を読みます。",
+        "question": "どこで読みますか。",
+        "options": [
+          "学校",
+          "公園",
+          "図書館",
+          "家"
+        ],
+        "answer": 2,
+        "id": "N5-06-046"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "今日は雨です。傘を持っていきます。",
+        "question": "今日の天気は？",
+        "options": [
+          "晴れ",
+          "曇り",
+          "雨",
+          "雪"
+        ],
+        "answer": 2,
+        "id": "N5-06-047"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "このりんごは100円です。",
+        "question": "いくら？",
+        "options": [
+          "50円",
+          "100円",
+          "150円",
+          "200円"
+        ],
+        "answer": 1,
+        "id": "N5-06-048"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "私の町は小さいですが、きれいです。山と川があります。",
+        "question": "この町に何がある？",
+        "options": [
+          "海",
+          "山と川",
+          "ビル",
+          "空港"
+        ],
+        "answer": 1,
+        "id": "N5-06-049"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "田中さんは朝6時に起きます。7時に朝ごはんを食べます。8時に家を出ます。",
+        "question": "何時に家を出る？",
+        "options": [
+          "6時",
+          "7時",
+          "8時",
+          "9時"
+        ],
+        "answer": 2,
+        "id": "N5-06-050"
+      },
+      {
+        "type": "情報検索",
+        "text": "【レストラン】ランチ: 11:00-14:00 休み: 火曜日",
+        "question": "ランチは何時まで？",
+        "options": [
+          "13時",
+          "14時",
+          "15時",
+          "16時"
+        ],
+        "answer": 1,
+        "id": "N5-06-051"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人と女の人が話しています。男の人は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "りんご",
+          "みかん",
+          "バナナ",
+          "いちご"
+        ],
+        "answer": 0,
+        "id": "N5-06-052"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "学生と先生が話しています。宿題はいつまでですか。",
+        "question": "質問",
+        "options": [
+          "月曜",
+          "火曜",
+          "水曜",
+          "木曜"
+        ],
+        "answer": 2,
+        "id": "N5-06-053"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "女の人と男の人が話しています。どこで会いますか。",
+        "question": "質問",
+        "options": [
+          "駅",
+          "学校",
+          "図書館",
+          "公園"
+        ],
+        "answer": 0,
+        "id": "N5-06-054"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "お母さんと子供が話しています。子供は何を食べますか。",
+        "question": "質問",
+        "options": [
+          "パン",
+          "ごはん",
+          "たまご",
+          "サラダ"
+        ],
+        "answer": 1,
+        "id": "N5-06-055"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "店員と客が話しています。客は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "シャツ",
+          "ズボン",
+          "靴",
+          "帽子"
+        ],
+        "answer": 0,
+        "id": "N5-06-056"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人が話しています。明日の天気は？",
+        "question": "質問",
+        "options": [
+          "晴れ",
+          "曇り",
+          "雨",
+          "雪"
+        ],
+        "answer": 2,
+        "id": "N5-06-057"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。何が好きですか。",
+        "question": "質問",
+        "options": [
+          "音楽",
+          "スポーツ",
+          "料理",
+          "映画"
+        ],
+        "answer": 0,
+        "id": "N5-06-058"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。どこに住んでいますか。",
+        "question": "質問",
+        "options": [
+          "東京",
+          "大阪",
+          "京都",
+          "名古屋"
+        ],
+        "answer": 1,
+        "id": "N5-06-059"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "学生が話しています。何を勉強していますか。",
+        "question": "質問",
+        "options": [
+          "英語",
+          "日本語",
+          "数学",
+          "歴史"
+        ],
+        "answer": 1,
+        "id": "N5-06-060"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。趣味は何ですか。",
+        "question": "質問",
+        "options": [
+          "読書",
+          "映画",
+          "旅行",
+          "料理"
+        ],
+        "answer": 2,
+        "id": "N5-06-061"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。いつ日本に来ましたか。",
+        "question": "質問",
+        "options": [
+          "去年",
+          "2年前",
+          "先月",
+          "先週"
+        ],
+        "answer": 0,
+        "id": "N5-06-062"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "二人が話しています。パーティーは何時から？",
+        "question": "質問",
+        "options": [
+          "5時",
+          "6時",
+          "7時",
+          "8時"
+        ],
+        "answer": 1,
+        "id": "N5-06-063"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "「ありがとう」と言われました。",
+        "question": "何と言いますか。",
+        "options": [
+          "どういたしまして",
+          "すみません",
+          "おはよう",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-06-064"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "朝、先生に会いました。",
+        "question": "何と言いますか。",
+        "options": [
+          "おはようございます",
+          "こんにちは",
+          "こんばんは",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-06-065"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べる前です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 0,
+        "id": "N5-06-066"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べた後です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 1,
+        "id": "N5-06-067"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "出かける時、家族に。",
+        "question": "何と言いますか。",
+        "options": [
+          "行ってきます",
+          "ただいま",
+          "おかえり",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-06-068"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お名前は？",
+        "question": "何と答えますか。",
+        "options": [
+          "田中です",
+          "いいえ",
+          "はい",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-06-069"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "これはいくらですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "100円です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-06-070"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "どこに住んでいますか。",
+        "question": "何と答えますか。",
+        "options": [
+          "東京です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-06-071"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "何歳ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "20歳です",
+          "学生です",
+          "日本人です",
+          "田中です"
+        ],
+        "answer": 0,
+        "id": "N5-06-072"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お仕事は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "会社員です",
+          "東京です",
+          "日本です",
+          "20歳です"
+        ],
+        "answer": 0,
+        "id": "N5-06-073"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "趣味は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "読書です",
+          "はい",
+          "いいえ",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-06-074"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今何時ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "3時です",
+          "月曜日です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-06-075"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今日は何曜日ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "月曜日です",
+          "3時です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-06-076"
+      }
+    ],
+    "7": [
+      {
+        "type": "漢字読み",
+        "text": "<u>後で</u>の読み方は？",
+        "question": "「後で」の読み方は？",
+        "options": [
+          "あとで",
+          "おねがい",
+          "まぜる",
+          "むかえる"
+        ],
+        "answer": 0,
+        "id": "N5-07-001"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>発送</u>の読み方は？",
+        "question": "「発送」の読み方は？",
+        "options": [
+          "はっそう",
+          "せんげつ",
+          "はい",
+          "あるく"
+        ],
+        "answer": 0,
+        "id": "N5-07-002"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>水</u>の読み方は？",
+        "question": "「水」の読み方は？",
+        "options": [
+          "おもしろい",
+          "もんだい",
+          "みず",
+          "くすり"
+        ],
+        "answer": 2,
+        "id": "N5-07-003"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>県</u>の読み方は？",
+        "question": "「県」の読み方は？",
+        "options": [
+          "へんぴん",
+          "けん",
+          "かんごし",
+          "かいしゃいん"
+        ],
+        "answer": 1,
+        "id": "N5-07-004"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>食事</u>の読み方は？",
+        "question": "「食事」の読み方は？",
+        "options": [
+          "さんかする",
+          "しょくじ",
+          "やすむ",
+          "しゃしん"
+        ],
+        "answer": 1,
+        "id": "N5-07-005"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>行く</u>の読み方は？",
+        "question": "「行く」の読み方は？",
+        "options": [
+          "あらう",
+          "いく",
+          "いっかい",
+          "つなぐ"
+        ],
+        "answer": 1,
+        "id": "N5-07-006"
+      },
+      {
+        "type": "表記",
+        "text": "<u>あした</u>の漢字は？",
+        "question": "「あした」の書き方は？",
+        "options": [
+          "賑やか",
+          "美術館",
+          "明日",
+          "鍵"
+        ],
+        "answer": 2,
+        "id": "N5-07-007"
+      },
+      {
+        "type": "表記",
+        "text": "<u>ほめる</u>の漢字は？",
+        "question": "「ほめる」の書き方は？",
+        "options": [
+          "褒める",
+          "重い",
+          "先生",
+          "閉める"
+        ],
+        "answer": 0,
+        "id": "N5-07-008"
+      },
+      {
+        "type": "表記",
+        "text": "<u>きょうしつ</u>の漢字は？",
+        "question": "「きょうしつ」の書き方は？",
+        "options": [
+          "面白い",
+          "教室",
+          "全然",
+          "出る"
+        ],
+        "answer": 1,
+        "id": "N5-07-009"
+      },
+      {
+        "type": "表記",
+        "text": "<u>たずねる</u>の漢字は？",
+        "question": "「たずねる」の書き方は？",
+        "options": [
+          "月",
+          "一回",
+          "退職",
+          "訪ねる"
+        ],
+        "answer": 3,
+        "id": "N5-07-010"
+      },
+      {
+        "type": "表記",
+        "text": "<u>にゅうりょく</u>の漢字は？",
+        "question": "「にゅうりょく」の書き方は？",
+        "options": [
+          "住む",
+          "集まる",
+          "入力",
+          "思い出"
+        ],
+        "answer": 2,
+        "id": "N5-07-011"
+      },
+      {
+        "type": "表記",
+        "text": "<u>ゆき</u>の漢字は？",
+        "question": "「ゆき」の書き方は？",
+        "options": [
+          "説明する",
+          "ご飯",
+          "雪",
+          "正しい"
+        ],
+        "answer": 2,
+        "id": "N5-07-012"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を勉強しています。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "信じる",
+          "環境",
+          "要る",
+          "秋"
+        ],
+        "answer": 3,
+        "id": "N5-07-013"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）が上手です。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "ごめんなさい",
+          "役に立つ",
+          "光",
+          "コート"
+        ],
+        "answer": 2,
+        "id": "N5-07-014"
+      },
+      {
+        "type": "文脈規定",
+        "text": "部屋に（　）があります。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "二つ",
+          "もし",
+          "参加する",
+          "降りる"
+        ],
+        "answer": 2,
+        "id": "N5-07-015"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）は難しいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "顔",
+          "魚",
+          "映画館",
+          "発展"
+        ],
+        "answer": 1,
+        "id": "N5-07-016"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）は楽しいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "体",
+          "お金",
+          "今日",
+          "エアコン"
+        ],
+        "answer": 3,
+        "id": "N5-07-017"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を聞きます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "古い",
+          "捕まえる",
+          "練習",
+          "掃除機"
+        ],
+        "answer": 0,
+        "id": "N5-07-018"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を読みます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "比べる",
+          "将来",
+          "先輩",
+          "ベランダ"
+        ],
+        "answer": 1,
+        "id": "N5-07-019"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を作ります。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "間に合う",
+          "技術",
+          "あそこ",
+          "道路"
+        ],
+        "answer": 1,
+        "id": "N5-07-020"
+      },
+      {
+        "type": "言い換え",
+        "text": "「お兄さん」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "always",
+          "backpack",
+          "news",
+          "older brother (polite)"
+        ],
+        "answer": 3,
+        "id": "N5-07-021"
+      },
+      {
+        "type": "言い換え",
+        "text": "「歩道」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "register",
+          "older sister",
+          "sidewalk",
+          "everyone"
+        ],
+        "answer": 2,
+        "id": "N5-07-022"
+      },
+      {
+        "type": "言い換え",
+        "text": "「勉強する」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "homework",
+          "entrance",
+          "to study",
+          "input"
+        ],
+        "answer": 2,
+        "id": "N5-07-023"
+      },
+      {
+        "type": "言い換え",
+        "text": "「果物」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "bridge",
+          "that (far)",
+          "future",
+          "fruit"
+        ],
+        "answer": 3,
+        "id": "N5-07-024"
+      },
+      {
+        "type": "言い換え",
+        "text": "「読む」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "to count",
+          "to throw",
+          "to jump",
+          "to read"
+        ],
+        "answer": 3,
+        "id": "N5-07-025"
+      },
+      {
+        "type": "文法形式",
+        "text": "私は学生（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "です",
+          "だ",
+          "ます",
+          "ある"
+        ],
+        "answer": 0,
+        "id": "N5-07-026"
+      },
+      {
+        "type": "文法形式",
+        "text": "これは本（　）ありません。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "では",
+          "が",
+          "を",
+          "に"
+        ],
+        "answer": 0,
+        "id": "N5-07-027"
+      },
+      {
+        "type": "文法形式",
+        "text": "学校（　）行きます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "に",
+          "を",
+          "が",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-07-028"
+      },
+      {
+        "type": "文法形式",
+        "text": "友だち（　）会いました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "に",
+          "を",
+          "が",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-07-029"
+      },
+      {
+        "type": "文法形式",
+        "text": "日本語（　）勉強しています。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "を",
+          "に",
+          "が",
+          "で"
+        ],
+        "answer": 0,
+        "id": "N5-07-030"
+      },
+      {
+        "type": "文法形式",
+        "text": "電車（　）来ます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-07-031"
+      },
+      {
+        "type": "文法形式",
+        "text": "コーヒー（　）飲みたいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-07-032"
+      },
+      {
+        "type": "文法形式",
+        "text": "映画（　）見ました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "を",
+          "が",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-07-033"
+      },
+      {
+        "type": "文法形式",
+        "text": "部屋（　）きれいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "は",
+          "を",
+          "に",
+          "が"
+        ],
+        "answer": 0,
+        "id": "N5-07-034"
+      },
+      {
+        "type": "文法形式",
+        "text": "本を読む（　）が好きです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "の",
+          "を",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-07-035"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: です / は / 私 / 学生",
+        "question": "★に入るのは？",
+        "options": [
+          "です",
+          "は",
+          "私",
+          "学生"
+        ],
+        "answer": 2,
+        "id": "N5-07-036"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 日本語 / 勉強します / 毎日 / を",
+        "question": "★に入るのは？",
+        "options": [
+          "日本語",
+          "勉強します",
+          "毎日",
+          "を"
+        ],
+        "answer": 1,
+        "id": "N5-07-037"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 友だち / 会いました / と / きのう",
+        "question": "★に入るのは？",
+        "options": [
+          "友だち",
+          "会いました",
+          "と",
+          "きのう"
+        ],
+        "answer": 3,
+        "id": "N5-07-038"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: この / おもしろい / 本 / は",
+        "question": "★に入るのは？",
+        "options": [
+          "この",
+          "おもしろい",
+          "本",
+          "は"
+        ],
+        "answer": 2,
+        "id": "N5-07-039"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 歩いて / 行きます / 駅 / まで",
+        "question": "★に入るのは？",
+        "options": [
+          "歩いて",
+          "行きます",
+          "駅",
+          "まで"
+        ],
+        "answer": 3,
+        "id": "N5-07-040"
+      },
+      {
+        "type": "文章の文法",
+        "text": "私は毎朝6時に起きます。顔を洗って、朝ごはんを（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "食べます",
+          "食べて",
+          "食べた",
+          "食べる"
+        ],
+        "answer": 0,
+        "id": "N5-07-041"
+      },
+      {
+        "type": "文章の文法",
+        "text": "きのうは日曜日でした。友だちと公園で（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "遊びました",
+          "遊びます",
+          "遊んで",
+          "遊ぶ"
+        ],
+        "answer": 0,
+        "id": "N5-07-042"
+      },
+      {
+        "type": "文章の文法",
+        "text": "この店は安くて、（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "おいしいです",
+          "おいしい",
+          "おいしくて",
+          "おいしかった"
+        ],
+        "answer": 0,
+        "id": "N5-07-043"
+      },
+      {
+        "type": "文章の文法",
+        "text": "来週テストがあります。だから、今日は（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "勉強します",
+          "勉強した",
+          "勉強して",
+          "勉強する"
+        ],
+        "answer": 0,
+        "id": "N5-07-044"
+      },
+      {
+        "type": "文章の文法",
+        "text": "電車が来ません。30分（　）います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "待って",
+          "待った",
+          "待つ",
+          "待ち"
+        ],
+        "answer": 0,
+        "id": "N5-07-045"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "田中さんは毎朝7時に起きます。",
+        "question": "何時に起きますか。",
+        "options": [
+          "6時",
+          "7時",
+          "8時",
+          "9時"
+        ],
+        "answer": 1,
+        "id": "N5-07-046"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "私の部屋は広くないですが、明るいです。",
+        "question": "部屋はどうですか。",
+        "options": [
+          "広い",
+          "暗い",
+          "明るい",
+          "寒い"
+        ],
+        "answer": 2,
+        "id": "N5-07-047"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "駅から学校までバスで5分です。",
+        "question": "バスで何分？",
+        "options": [
+          "3分",
+          "5分",
+          "10分",
+          "15分"
+        ],
+        "answer": 1,
+        "id": "N5-07-048"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "私は日本語を勉強しています。毎日2時間勉強します。日本語は難しいですが、おもしろいです。",
+        "question": "日本語をどう思いますか。",
+        "options": [
+          "簡単",
+          "難しいけどおもしろい",
+          "つまらない",
+          "簡単でおもしろい"
+        ],
+        "answer": 1,
+        "id": "N5-07-049"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "山田さんの家族は4人です。お父さんとお母さんと妹がいます。",
+        "question": "家族は何人？",
+        "options": [
+          "3人",
+          "4人",
+          "5人",
+          "6人"
+        ],
+        "answer": 1,
+        "id": "N5-07-050"
+      },
+      {
+        "type": "情報検索",
+        "text": "【図書館】開館: 9:00-17:00 休み: 月曜日",
+        "question": "何時まで？",
+        "options": [
+          "16時",
+          "17時",
+          "18時",
+          "19時"
+        ],
+        "answer": 1,
+        "id": "N5-07-051"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人と女の人が話しています。男の人は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "りんご",
+          "みかん",
+          "バナナ",
+          "いちご"
+        ],
+        "answer": 0,
+        "id": "N5-07-052"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "学生と先生が話しています。宿題はいつまでですか。",
+        "question": "質問",
+        "options": [
+          "月曜",
+          "火曜",
+          "水曜",
+          "木曜"
+        ],
+        "answer": 2,
+        "id": "N5-07-053"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "女の人と男の人が話しています。どこで会いますか。",
+        "question": "質問",
+        "options": [
+          "駅",
+          "学校",
+          "図書館",
+          "公園"
+        ],
+        "answer": 0,
+        "id": "N5-07-054"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "お母さんと子供が話しています。子供は何を食べますか。",
+        "question": "質問",
+        "options": [
+          "パン",
+          "ごはん",
+          "たまご",
+          "サラダ"
+        ],
+        "answer": 1,
+        "id": "N5-07-055"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "店員と客が話しています。客は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "シャツ",
+          "ズボン",
+          "靴",
+          "帽子"
+        ],
+        "answer": 0,
+        "id": "N5-07-056"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人が話しています。明日の天気は？",
+        "question": "質問",
+        "options": [
+          "晴れ",
+          "曇り",
+          "雨",
+          "雪"
+        ],
+        "answer": 2,
+        "id": "N5-07-057"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。何が好きですか。",
+        "question": "質問",
+        "options": [
+          "音楽",
+          "スポーツ",
+          "料理",
+          "映画"
+        ],
+        "answer": 0,
+        "id": "N5-07-058"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。どこに住んでいますか。",
+        "question": "質問",
+        "options": [
+          "東京",
+          "大阪",
+          "京都",
+          "名古屋"
+        ],
+        "answer": 1,
+        "id": "N5-07-059"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "学生が話しています。何を勉強していますか。",
+        "question": "質問",
+        "options": [
+          "英語",
+          "日本語",
+          "数学",
+          "歴史"
+        ],
+        "answer": 1,
+        "id": "N5-07-060"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。趣味は何ですか。",
+        "question": "質問",
+        "options": [
+          "読書",
+          "映画",
+          "旅行",
+          "料理"
+        ],
+        "answer": 2,
+        "id": "N5-07-061"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。いつ日本に来ましたか。",
+        "question": "質問",
+        "options": [
+          "去年",
+          "2年前",
+          "先月",
+          "先週"
+        ],
+        "answer": 0,
+        "id": "N5-07-062"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "二人が話しています。パーティーは何時から？",
+        "question": "質問",
+        "options": [
+          "5時",
+          "6時",
+          "7時",
+          "8時"
+        ],
+        "answer": 1,
+        "id": "N5-07-063"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "「ありがとう」と言われました。",
+        "question": "何と言いますか。",
+        "options": [
+          "どういたしまして",
+          "すみません",
+          "おはよう",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-07-064"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "朝、先生に会いました。",
+        "question": "何と言いますか。",
+        "options": [
+          "おはようございます",
+          "こんにちは",
+          "こんばんは",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-07-065"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べる前です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 0,
+        "id": "N5-07-066"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べた後です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 1,
+        "id": "N5-07-067"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "出かける時、家族に。",
+        "question": "何と言いますか。",
+        "options": [
+          "行ってきます",
+          "ただいま",
+          "おかえり",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-07-068"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お名前は？",
+        "question": "何と答えますか。",
+        "options": [
+          "田中です",
+          "いいえ",
+          "はい",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-07-069"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "これはいくらですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "100円です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-07-070"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "どこに住んでいますか。",
+        "question": "何と答えますか。",
+        "options": [
+          "東京です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-07-071"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "何歳ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "20歳です",
+          "学生です",
+          "日本人です",
+          "田中です"
+        ],
+        "answer": 0,
+        "id": "N5-07-072"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お仕事は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "会社員です",
+          "東京です",
+          "日本です",
+          "20歳です"
+        ],
+        "answer": 0,
+        "id": "N5-07-073"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "趣味は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "読書です",
+          "はい",
+          "いいえ",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-07-074"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今何時ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "3時です",
+          "月曜日です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-07-075"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今日は何曜日ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "月曜日です",
+          "3時です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-07-076"
+      }
+    ],
+    "8": [
+      {
+        "type": "漢字読み",
+        "text": "<u>撮影</u>の読み方は？",
+        "question": "「撮影」の読み方は？",
+        "options": [
+          "かぞく",
+          "おいわい",
+          "さつえい",
+          "そうじする"
+        ],
+        "answer": 2,
+        "id": "N5-08-001"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>消す</u>の読み方は？",
+        "question": "「消す」の読み方は？",
+        "options": [
+          "けす",
+          "かぎ",
+          "かいけい",
+          "おちゃ"
+        ],
+        "answer": 0,
+        "id": "N5-08-002"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>安い</u>の読み方は？",
+        "question": "「安い」の読み方は？",
+        "options": [
+          "きく",
+          "でんわ",
+          "つうやく",
+          "やすい"
+        ],
+        "answer": 3,
+        "id": "N5-08-003"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>忘れる</u>の読み方は？",
+        "question": "「忘れる」の読み方は？",
+        "options": [
+          "うんてん",
+          "すく",
+          "つくえ",
+          "わすれる"
+        ],
+        "answer": 3,
+        "id": "N5-08-004"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>溶ける</u>の読み方は？",
+        "question": "「溶ける」の読み方は？",
+        "options": [
+          "くらべる",
+          "ことし",
+          "たまご",
+          "とける"
+        ],
+        "answer": 3,
+        "id": "N5-08-005"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>消える</u>の読み方は？",
+        "question": "「消える」の読み方は？",
+        "options": [
+          "にゅうりょく",
+          "ざっし",
+          "きえる",
+          "ようい"
+        ],
+        "answer": 2,
+        "id": "N5-08-006"
+      },
+      {
+        "type": "表記",
+        "text": "<u>えらぶ</u>の漢字は？",
+        "question": "「えらぶ」の書き方は？",
+        "options": [
+          "図書館",
+          "子供",
+          "選ぶ",
+          "国"
+        ],
+        "answer": 2,
+        "id": "N5-08-007"
+      },
+      {
+        "type": "表記",
+        "text": "<u>しゃしん</u>の漢字は？",
+        "question": "「しゃしん」の書き方は？",
+        "options": [
+          "新しい",
+          "引っ越す",
+          "写真",
+          "研究"
+        ],
+        "answer": 2,
+        "id": "N5-08-008"
+      },
+      {
+        "type": "表記",
+        "text": "<u>どうりょう</u>の漢字は？",
+        "question": "「どうりょう」の書き方は？",
+        "options": [
+          "動物",
+          "守る",
+          "度",
+          "同僚"
+        ],
+        "answer": 3,
+        "id": "N5-08-009"
+      },
+      {
+        "type": "表記",
+        "text": "<u>はっけん</u>の漢字は？",
+        "question": "「はっけん」の書き方は？",
+        "options": [
+          "案内する",
+          "バス停",
+          "発見",
+          "掃除"
+        ],
+        "answer": 2,
+        "id": "N5-08-010"
+      },
+      {
+        "type": "表記",
+        "text": "<u>つかれる</u>の漢字は？",
+        "question": "「つかれる」の書き方は？",
+        "options": [
+          "疲れる",
+          "母",
+          "死ぬ",
+          "謝る"
+        ],
+        "answer": 0,
+        "id": "N5-08-011"
+      },
+      {
+        "type": "表記",
+        "text": "<u>たいよう</u>の漢字は？",
+        "question": "「たいよう」の書き方は？",
+        "options": [
+          "案内する",
+          "太陽",
+          "信じる",
+          "交差点"
+        ],
+        "answer": 1,
+        "id": "N5-08-012"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）に住んでいます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "荷物",
+          "飛ぶ",
+          "優しい",
+          "短い"
+        ],
+        "answer": 3,
+        "id": "N5-08-013"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を使います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "無料",
+          "鼻",
+          "ソファ",
+          "だから"
+        ],
+        "answer": 0,
+        "id": "N5-08-014"
+      },
+      {
+        "type": "文脈規定",
+        "text": "友だちと（　）をしました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "濡れる",
+          "合う",
+          "なる",
+          "困る"
+        ],
+        "answer": 0,
+        "id": "N5-08-015"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）が終わりました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "親切",
+          "写真",
+          "ご飯",
+          "光"
+        ],
+        "answer": 1,
+        "id": "N5-08-016"
+      },
+      {
+        "type": "文脈規定",
+        "text": "朝（　）を食べます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "お願いします",
+          "大人",
+          "保存",
+          "報告"
+        ],
+        "answer": 2,
+        "id": "N5-08-017"
+      },
+      {
+        "type": "文脈規定",
+        "text": "毎日（　）を飲みます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "図書館",
+          "意味",
+          "技術",
+          "果物"
+        ],
+        "answer": 0,
+        "id": "N5-08-018"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）がほしいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "祖母",
+          "杯",
+          "片付ける",
+          "卵"
+        ],
+        "answer": 0,
+        "id": "N5-08-019"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）に行きたいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "台",
+          "主人",
+          "全部",
+          "公園"
+        ],
+        "answer": 3,
+        "id": "N5-08-020"
+      },
+      {
+        "type": "言い換え",
+        "text": "「問題」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "supermarket",
+          "problem",
+          "how",
+          "wonderful"
+        ],
+        "answer": 1,
+        "id": "N5-08-021"
+      },
+      {
+        "type": "言い換え",
+        "text": "「つける」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "fruit",
+          "window",
+          "break",
+          "to turn on"
+        ],
+        "answer": 3,
+        "id": "N5-08-022"
+      },
+      {
+        "type": "言い換え",
+        "text": "「寝る」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "sound",
+          "shop",
+          "to send",
+          "to sleep"
+        ],
+        "answer": 3,
+        "id": "N5-08-023"
+      },
+      {
+        "type": "言い換え",
+        "text": "「電話」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "to knock",
+          "telephone",
+          "to help",
+          "to dance"
+        ],
+        "answer": 1,
+        "id": "N5-08-024"
+      },
+      {
+        "type": "言い換え",
+        "text": "「家族」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "nature",
+          "inside",
+          "family",
+          "to try"
+        ],
+        "answer": 2,
+        "id": "N5-08-025"
+      },
+      {
+        "type": "文法形式",
+        "text": "食べ（　）から寝ます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-08-026"
+      },
+      {
+        "type": "文法形式",
+        "text": "日本に行き（　）です。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "たい",
+          "ます",
+          "た",
+          "る"
+        ],
+        "answer": 0,
+        "id": "N5-08-027"
+      },
+      {
+        "type": "文法形式",
+        "text": "雨が降っ（　）います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-08-028"
+      },
+      {
+        "type": "文法形式",
+        "text": "ここに座っ（　）ください。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-08-029"
+      },
+      {
+        "type": "文法形式",
+        "text": "まだ食べ（　）いません。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-08-030"
+      },
+      {
+        "type": "文法形式",
+        "text": "明日来（　）か。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "ます",
+          "る",
+          "た",
+          "て"
+        ],
+        "answer": 0,
+        "id": "N5-08-031"
+      },
+      {
+        "type": "文法形式",
+        "text": "きのう何を（　）か。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "しました",
+          "します",
+          "する",
+          "して"
+        ],
+        "answer": 0,
+        "id": "N5-08-032"
+      },
+      {
+        "type": "文法形式",
+        "text": "この本は（　）です。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "おもしろい",
+          "おもしろく",
+          "おもしろ",
+          "おもしろいな"
+        ],
+        "answer": 0,
+        "id": "N5-08-033"
+      },
+      {
+        "type": "文法形式",
+        "text": "部屋を（　）しました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "きれいに",
+          "きれい",
+          "きれいな",
+          "きれいく"
+        ],
+        "answer": 0,
+        "id": "N5-08-034"
+      },
+      {
+        "type": "文法形式",
+        "text": "早く（　）ください。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "起きて",
+          "起きる",
+          "起きた",
+          "起き"
+        ],
+        "answer": 0,
+        "id": "N5-08-035"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: ながら / 飲み / コーヒー / を",
+        "question": "★に入るのは？",
+        "options": [
+          "ながら",
+          "飲み",
+          "コーヒー",
+          "を"
+        ],
+        "answer": 1,
+        "id": "N5-08-036"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 降って / が / 雨 / います",
+        "question": "★に入るのは？",
+        "options": [
+          "降って",
+          "が",
+          "雨",
+          "います"
+        ],
+        "answer": 1,
+        "id": "N5-08-037"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 日本 / 行き / に / たいです",
+        "question": "★に入るのは？",
+        "options": [
+          "日本",
+          "行き",
+          "に",
+          "たいです"
+        ],
+        "answer": 0,
+        "id": "N5-08-038"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: です / が / きれい / 部屋",
+        "question": "★に入るのは？",
+        "options": [
+          "です",
+          "が",
+          "きれい",
+          "部屋"
+        ],
+        "answer": 1,
+        "id": "N5-08-039"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: を / ました / 見 / 映画",
+        "question": "★に入るのは？",
+        "options": [
+          "を",
+          "ました",
+          "見",
+          "映画"
+        ],
+        "answer": 0,
+        "id": "N5-08-040"
+      },
+      {
+        "type": "文章の文法",
+        "text": "私は毎朝6時に起きます。顔を洗って、朝ごはんを（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "食べます",
+          "食べて",
+          "食べた",
+          "食べる"
+        ],
+        "answer": 0,
+        "id": "N5-08-041"
+      },
+      {
+        "type": "文章の文法",
+        "text": "きのうは日曜日でした。友だちと公園で（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "遊びました",
+          "遊びます",
+          "遊んで",
+          "遊ぶ"
+        ],
+        "answer": 0,
+        "id": "N5-08-042"
+      },
+      {
+        "type": "文章の文法",
+        "text": "この店は安くて、（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "おいしいです",
+          "おいしい",
+          "おいしくて",
+          "おいしかった"
+        ],
+        "answer": 0,
+        "id": "N5-08-043"
+      },
+      {
+        "type": "文章の文法",
+        "text": "来週テストがあります。だから、今日は（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "勉強します",
+          "勉強した",
+          "勉強して",
+          "勉強する"
+        ],
+        "answer": 0,
+        "id": "N5-08-044"
+      },
+      {
+        "type": "文章の文法",
+        "text": "電車が来ません。30分（　）います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "待って",
+          "待った",
+          "待つ",
+          "待ち"
+        ],
+        "answer": 0,
+        "id": "N5-08-045"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "山田さんは毎日図書館で本を読みます。",
+        "question": "どこで読みますか。",
+        "options": [
+          "学校",
+          "公園",
+          "図書館",
+          "家"
+        ],
+        "answer": 2,
+        "id": "N5-08-046"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "今日は雨です。傘を持っていきます。",
+        "question": "今日の天気は？",
+        "options": [
+          "晴れ",
+          "曇り",
+          "雨",
+          "雪"
+        ],
+        "answer": 2,
+        "id": "N5-08-047"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "このりんごは100円です。",
+        "question": "いくら？",
+        "options": [
+          "50円",
+          "100円",
+          "150円",
+          "200円"
+        ],
+        "answer": 1,
+        "id": "N5-08-048"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "私の町は小さいですが、きれいです。山と川があります。",
+        "question": "この町に何がある？",
+        "options": [
+          "海",
+          "山と川",
+          "ビル",
+          "空港"
+        ],
+        "answer": 1,
+        "id": "N5-08-049"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "田中さんは朝6時に起きます。7時に朝ごはんを食べます。8時に家を出ます。",
+        "question": "何時に家を出る？",
+        "options": [
+          "6時",
+          "7時",
+          "8時",
+          "9時"
+        ],
+        "answer": 2,
+        "id": "N5-08-050"
+      },
+      {
+        "type": "情報検索",
+        "text": "【映画】時間: 10:00, 14:00 料金: 大人1800円",
+        "question": "何時から？",
+        "options": [
+          "9時",
+          "10時",
+          "11時",
+          "12時"
+        ],
+        "answer": 1,
+        "id": "N5-08-051"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人と女の人が話しています。男の人は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "りんご",
+          "みかん",
+          "バナナ",
+          "いちご"
+        ],
+        "answer": 0,
+        "id": "N5-08-052"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "学生と先生が話しています。宿題はいつまでですか。",
+        "question": "質問",
+        "options": [
+          "月曜",
+          "火曜",
+          "水曜",
+          "木曜"
+        ],
+        "answer": 2,
+        "id": "N5-08-053"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "女の人と男の人が話しています。どこで会いますか。",
+        "question": "質問",
+        "options": [
+          "駅",
+          "学校",
+          "図書館",
+          "公園"
+        ],
+        "answer": 0,
+        "id": "N5-08-054"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "お母さんと子供が話しています。子供は何を食べますか。",
+        "question": "質問",
+        "options": [
+          "パン",
+          "ごはん",
+          "たまご",
+          "サラダ"
+        ],
+        "answer": 1,
+        "id": "N5-08-055"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "店員と客が話しています。客は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "シャツ",
+          "ズボン",
+          "靴",
+          "帽子"
+        ],
+        "answer": 0,
+        "id": "N5-08-056"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人が話しています。明日の天気は？",
+        "question": "質問",
+        "options": [
+          "晴れ",
+          "曇り",
+          "雨",
+          "雪"
+        ],
+        "answer": 2,
+        "id": "N5-08-057"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。何が好きですか。",
+        "question": "質問",
+        "options": [
+          "音楽",
+          "スポーツ",
+          "料理",
+          "映画"
+        ],
+        "answer": 0,
+        "id": "N5-08-058"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。どこに住んでいますか。",
+        "question": "質問",
+        "options": [
+          "東京",
+          "大阪",
+          "京都",
+          "名古屋"
+        ],
+        "answer": 1,
+        "id": "N5-08-059"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "学生が話しています。何を勉強していますか。",
+        "question": "質問",
+        "options": [
+          "英語",
+          "日本語",
+          "数学",
+          "歴史"
+        ],
+        "answer": 1,
+        "id": "N5-08-060"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。趣味は何ですか。",
+        "question": "質問",
+        "options": [
+          "読書",
+          "映画",
+          "旅行",
+          "料理"
+        ],
+        "answer": 2,
+        "id": "N5-08-061"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。いつ日本に来ましたか。",
+        "question": "質問",
+        "options": [
+          "去年",
+          "2年前",
+          "先月",
+          "先週"
+        ],
+        "answer": 0,
+        "id": "N5-08-062"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "二人が話しています。パーティーは何時から？",
+        "question": "質問",
+        "options": [
+          "5時",
+          "6時",
+          "7時",
+          "8時"
+        ],
+        "answer": 1,
+        "id": "N5-08-063"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "「ありがとう」と言われました。",
+        "question": "何と言いますか。",
+        "options": [
+          "どういたしまして",
+          "すみません",
+          "おはよう",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-08-064"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "朝、先生に会いました。",
+        "question": "何と言いますか。",
+        "options": [
+          "おはようございます",
+          "こんにちは",
+          "こんばんは",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-08-065"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べる前です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 0,
+        "id": "N5-08-066"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べた後です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 1,
+        "id": "N5-08-067"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "出かける時、家族に。",
+        "question": "何と言いますか。",
+        "options": [
+          "行ってきます",
+          "ただいま",
+          "おかえり",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-08-068"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お名前は？",
+        "question": "何と答えますか。",
+        "options": [
+          "田中です",
+          "いいえ",
+          "はい",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-08-069"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "これはいくらですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "100円です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-08-070"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "どこに住んでいますか。",
+        "question": "何と答えますか。",
+        "options": [
+          "東京です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-08-071"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "何歳ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "20歳です",
+          "学生です",
+          "日本人です",
+          "田中です"
+        ],
+        "answer": 0,
+        "id": "N5-08-072"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お仕事は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "会社員です",
+          "東京です",
+          "日本です",
+          "20歳です"
+        ],
+        "answer": 0,
+        "id": "N5-08-073"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "趣味は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "読書です",
+          "はい",
+          "いいえ",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-08-074"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今何時ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "3時です",
+          "月曜日です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-08-075"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今日は何曜日ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "月曜日です",
+          "3時です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-08-076"
+      }
+    ],
+    "9": [
+      {
+        "type": "漢字読み",
+        "text": "<u>予定</u>の読み方は？",
+        "question": "「予定」の読み方は？",
+        "options": [
+          "いう",
+          "くる",
+          "いっかい",
+          "よてい"
+        ],
+        "answer": 3,
+        "id": "N5-09-001"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>洗濯</u>の読み方は？",
+        "question": "「洗濯」の読み方は？",
+        "options": [
+          "おとうさん",
+          "ちゅうもん",
+          "せんたく",
+          "みなと"
+        ],
+        "answer": 2,
+        "id": "N5-09-002"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>鍵</u>の読み方は？",
+        "question": "「鍵」の読み方は？",
+        "options": [
+          "むら",
+          "おとな",
+          "みじかい",
+          "かぎ"
+        ],
+        "answer": 3,
+        "id": "N5-09-003"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>兄</u>の読み方は？",
+        "question": "「兄」の読み方は？",
+        "options": [
+          "あに",
+          "たたく",
+          "かなしい",
+          "まいしゅう"
+        ],
+        "answer": 0,
+        "id": "N5-09-004"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>電車</u>の読み方は？",
+        "question": "「電車」の読み方は？",
+        "options": [
+          "とる",
+          "しゅくだい",
+          "ひこうき",
+          "でんしゃ"
+        ],
+        "answer": 3,
+        "id": "N5-09-005"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>歳</u>の読み方は？",
+        "question": "「歳」の読み方は？",
+        "options": [
+          "けっこんする",
+          "ほうこく",
+          "ちがう",
+          "さい"
+        ],
+        "answer": 3,
+        "id": "N5-09-006"
+      },
+      {
+        "type": "表記",
+        "text": "<u>じぶん</u>の漢字は？",
+        "question": "「じぶん」の書き方は？",
+        "options": [
+          "自分",
+          "有名",
+          "姉",
+          "後輩"
+        ],
+        "answer": 0,
+        "id": "N5-09-007"
+      },
+      {
+        "type": "表記",
+        "text": "<u>きらい</u>の漢字は？",
+        "question": "「きらい」の書き方は？",
+        "options": [
+          "壊す",
+          "行く",
+          "去年",
+          "嫌い"
+        ],
+        "answer": 3,
+        "id": "N5-09-008"
+      },
+      {
+        "type": "表記",
+        "text": "<u>ふるい</u>の漢字は？",
+        "question": "「ふるい」の書き方は？",
+        "options": [
+          "食事",
+          "就職",
+          "古い",
+          "走る"
+        ],
+        "answer": 2,
+        "id": "N5-09-009"
+      },
+      {
+        "type": "表記",
+        "text": "<u>はは</u>の漢字は？",
+        "question": "「はは」の書き方は？",
+        "options": [
+          "回",
+          "港",
+          "慣れる",
+          "母"
+        ],
+        "answer": 3,
+        "id": "N5-09-010"
+      },
+      {
+        "type": "表記",
+        "text": "<u>かわる</u>の漢字は？",
+        "question": "「かわる」の書き方は？",
+        "options": [
+          "光る",
+          "持つ",
+          "変わる",
+          "電話"
+        ],
+        "answer": 2,
+        "id": "N5-09-011"
+      },
+      {
+        "type": "表記",
+        "text": "<u>でんしゃ</u>の漢字は？",
+        "question": "「でんしゃ」の書き方は？",
+        "options": [
+          "重い",
+          "二人",
+          "電車",
+          "通訳"
+        ],
+        "answer": 2,
+        "id": "N5-09-012"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）が好きです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "おばあさん",
+          "雨",
+          "美味しい",
+          "こんばんは"
+        ],
+        "answer": 3,
+        "id": "N5-09-013"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を見ました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "店",
+          "服",
+          "週末",
+          "始める"
+        ],
+        "answer": 2,
+        "id": "N5-09-014"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を買いました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "有名",
+          "銀行",
+          "いくつ",
+          "男の子"
+        ],
+        "answer": 3,
+        "id": "N5-09-015"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）で働いています。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "削除",
+          "怒る",
+          "食事",
+          "鳴る"
+        ],
+        "answer": 3,
+        "id": "N5-09-016"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を勉強しています。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "欠席",
+          "座る",
+          "それ",
+          "減る"
+        ],
+        "answer": 2,
+        "id": "N5-09-017"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）が上手です。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "光る",
+          "練習",
+          "彼女",
+          "驚く"
+        ],
+        "answer": 1,
+        "id": "N5-09-018"
+      },
+      {
+        "type": "文脈規定",
+        "text": "部屋に（　）があります。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "女の子",
+          "押す",
+          "参加する",
+          "社会"
+        ],
+        "answer": 0,
+        "id": "N5-09-019"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）は難しいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "大丈夫",
+          "コンビニ",
+          "買い物",
+          "買う"
+        ],
+        "answer": 3,
+        "id": "N5-09-020"
+      },
+      {
+        "type": "言い換え",
+        "text": "「旅行」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "toothpaste",
+          "years old",
+          "lake",
+          "travel"
+        ],
+        "answer": 3,
+        "id": "N5-09-021"
+      },
+      {
+        "type": "言い換え",
+        "text": "「掃除」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "car",
+          "cleaning",
+          "delivery",
+          "tooth"
+        ],
+        "answer": 1,
+        "id": "N5-09-022"
+      },
+      {
+        "type": "言い換え",
+        "text": "「探す」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "bath",
+          "reply",
+          "to search",
+          "to turn off"
+        ],
+        "answer": 2,
+        "id": "N5-09-023"
+      },
+      {
+        "type": "言い換え",
+        "text": "「コーヒー」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "now",
+          "button",
+          "road",
+          "coffee"
+        ],
+        "answer": 3,
+        "id": "N5-09-024"
+      },
+      {
+        "type": "言い換え",
+        "text": "「本当に」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "really",
+          "last week",
+          "foreign country",
+          "inside"
+        ],
+        "answer": 0,
+        "id": "N5-09-025"
+      },
+      {
+        "type": "文法形式",
+        "text": "私は学生（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "です",
+          "だ",
+          "ます",
+          "ある"
+        ],
+        "answer": 0,
+        "id": "N5-09-026"
+      },
+      {
+        "type": "文法形式",
+        "text": "これは本（　）ありません。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "では",
+          "が",
+          "を",
+          "に"
+        ],
+        "answer": 0,
+        "id": "N5-09-027"
+      },
+      {
+        "type": "文法形式",
+        "text": "学校（　）行きます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "に",
+          "を",
+          "が",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-09-028"
+      },
+      {
+        "type": "文法形式",
+        "text": "友だち（　）会いました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "に",
+          "を",
+          "が",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-09-029"
+      },
+      {
+        "type": "文法形式",
+        "text": "日本語（　）勉強しています。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "を",
+          "に",
+          "が",
+          "で"
+        ],
+        "answer": 0,
+        "id": "N5-09-030"
+      },
+      {
+        "type": "文法形式",
+        "text": "電車（　）来ます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-09-031"
+      },
+      {
+        "type": "文法形式",
+        "text": "コーヒー（　）飲みたいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-09-032"
+      },
+      {
+        "type": "文法形式",
+        "text": "映画（　）見ました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "を",
+          "が",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-09-033"
+      },
+      {
+        "type": "文法形式",
+        "text": "部屋（　）きれいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "は",
+          "を",
+          "に",
+          "が"
+        ],
+        "answer": 0,
+        "id": "N5-09-034"
+      },
+      {
+        "type": "文法形式",
+        "text": "本を読む（　）が好きです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "の",
+          "を",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-09-035"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: です / 私 / 学生 / は",
+        "question": "★に入るのは？",
+        "options": [
+          "です",
+          "私",
+          "学生",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-09-036"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: を / 勉強します / 毎日 / 日本語",
+        "question": "★に入るのは？",
+        "options": [
+          "を",
+          "勉強します",
+          "毎日",
+          "日本語"
+        ],
+        "answer": 3,
+        "id": "N5-09-037"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: と / 友だち / 会いました / きのう",
+        "question": "★に入るのは？",
+        "options": [
+          "と",
+          "友だち",
+          "会いました",
+          "きのう"
+        ],
+        "answer": 3,
+        "id": "N5-09-038"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: は / この / おもしろい / 本",
+        "question": "★に入るのは？",
+        "options": [
+          "は",
+          "この",
+          "おもしろい",
+          "本"
+        ],
+        "answer": 0,
+        "id": "N5-09-039"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 行きます / 歩いて / 駅 / まで",
+        "question": "★に入るのは？",
+        "options": [
+          "行きます",
+          "歩いて",
+          "駅",
+          "まで"
+        ],
+        "answer": 2,
+        "id": "N5-09-040"
+      },
+      {
+        "type": "文章の文法",
+        "text": "私は毎朝6時に起きます。顔を洗って、朝ごはんを（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "食べます",
+          "食べて",
+          "食べた",
+          "食べる"
+        ],
+        "answer": 0,
+        "id": "N5-09-041"
+      },
+      {
+        "type": "文章の文法",
+        "text": "きのうは日曜日でした。友だちと公園で（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "遊びました",
+          "遊びます",
+          "遊んで",
+          "遊ぶ"
+        ],
+        "answer": 0,
+        "id": "N5-09-042"
+      },
+      {
+        "type": "文章の文法",
+        "text": "この店は安くて、（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "おいしいです",
+          "おいしい",
+          "おいしくて",
+          "おいしかった"
+        ],
+        "answer": 0,
+        "id": "N5-09-043"
+      },
+      {
+        "type": "文章の文法",
+        "text": "来週テストがあります。だから、今日は（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "勉強します",
+          "勉強した",
+          "勉強して",
+          "勉強する"
+        ],
+        "answer": 0,
+        "id": "N5-09-044"
+      },
+      {
+        "type": "文章の文法",
+        "text": "電車が来ません。30分（　）います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "待って",
+          "待った",
+          "待つ",
+          "待ち"
+        ],
+        "answer": 0,
+        "id": "N5-09-045"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "田中さんは毎朝7時に起きます。",
+        "question": "何時に起きますか。",
+        "options": [
+          "6時",
+          "7時",
+          "8時",
+          "9時"
+        ],
+        "answer": 1,
+        "id": "N5-09-046"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "私の部屋は広くないですが、明るいです。",
+        "question": "部屋はどうですか。",
+        "options": [
+          "広い",
+          "暗い",
+          "明るい",
+          "寒い"
+        ],
+        "answer": 2,
+        "id": "N5-09-047"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "駅から学校までバスで5分です。",
+        "question": "バスで何分？",
+        "options": [
+          "3分",
+          "5分",
+          "10分",
+          "15分"
+        ],
+        "answer": 1,
+        "id": "N5-09-048"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "私は日本語を勉強しています。毎日2時間勉強します。日本語は難しいですが、おもしろいです。",
+        "question": "日本語をどう思いますか。",
+        "options": [
+          "簡単",
+          "難しいけどおもしろい",
+          "つまらない",
+          "簡単でおもしろい"
+        ],
+        "answer": 1,
+        "id": "N5-09-049"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "山田さんの家族は4人です。お父さんとお母さんと妹がいます。",
+        "question": "家族は何人？",
+        "options": [
+          "3人",
+          "4人",
+          "5人",
+          "6人"
+        ],
+        "answer": 1,
+        "id": "N5-09-050"
+      },
+      {
+        "type": "情報検索",
+        "text": "【レストラン】ランチ: 11:00-14:00 休み: 火曜日",
+        "question": "ランチは何時まで？",
+        "options": [
+          "13時",
+          "14時",
+          "15時",
+          "16時"
+        ],
+        "answer": 1,
+        "id": "N5-09-051"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人と女の人が話しています。男の人は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "りんご",
+          "みかん",
+          "バナナ",
+          "いちご"
+        ],
+        "answer": 0,
+        "id": "N5-09-052"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "学生と先生が話しています。宿題はいつまでですか。",
+        "question": "質問",
+        "options": [
+          "月曜",
+          "火曜",
+          "水曜",
+          "木曜"
+        ],
+        "answer": 2,
+        "id": "N5-09-053"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "女の人と男の人が話しています。どこで会いますか。",
+        "question": "質問",
+        "options": [
+          "駅",
+          "学校",
+          "図書館",
+          "公園"
+        ],
+        "answer": 0,
+        "id": "N5-09-054"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "お母さんと子供が話しています。子供は何を食べますか。",
+        "question": "質問",
+        "options": [
+          "パン",
+          "ごはん",
+          "たまご",
+          "サラダ"
+        ],
+        "answer": 1,
+        "id": "N5-09-055"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "店員と客が話しています。客は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "シャツ",
+          "ズボン",
+          "靴",
+          "帽子"
+        ],
+        "answer": 0,
+        "id": "N5-09-056"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人が話しています。明日の天気は？",
+        "question": "質問",
+        "options": [
+          "晴れ",
+          "曇り",
+          "雨",
+          "雪"
+        ],
+        "answer": 2,
+        "id": "N5-09-057"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。何が好きですか。",
+        "question": "質問",
+        "options": [
+          "音楽",
+          "スポーツ",
+          "料理",
+          "映画"
+        ],
+        "answer": 0,
+        "id": "N5-09-058"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。どこに住んでいますか。",
+        "question": "質問",
+        "options": [
+          "東京",
+          "大阪",
+          "京都",
+          "名古屋"
+        ],
+        "answer": 1,
+        "id": "N5-09-059"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "学生が話しています。何を勉強していますか。",
+        "question": "質問",
+        "options": [
+          "英語",
+          "日本語",
+          "数学",
+          "歴史"
+        ],
+        "answer": 1,
+        "id": "N5-09-060"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。趣味は何ですか。",
+        "question": "質問",
+        "options": [
+          "読書",
+          "映画",
+          "旅行",
+          "料理"
+        ],
+        "answer": 2,
+        "id": "N5-09-061"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。いつ日本に来ましたか。",
+        "question": "質問",
+        "options": [
+          "去年",
+          "2年前",
+          "先月",
+          "先週"
+        ],
+        "answer": 0,
+        "id": "N5-09-062"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "二人が話しています。パーティーは何時から？",
+        "question": "質問",
+        "options": [
+          "5時",
+          "6時",
+          "7時",
+          "8時"
+        ],
+        "answer": 1,
+        "id": "N5-09-063"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "「ありがとう」と言われました。",
+        "question": "何と言いますか。",
+        "options": [
+          "どういたしまして",
+          "すみません",
+          "おはよう",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-09-064"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "朝、先生に会いました。",
+        "question": "何と言いますか。",
+        "options": [
+          "おはようございます",
+          "こんにちは",
+          "こんばんは",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-09-065"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べる前です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 0,
+        "id": "N5-09-066"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べた後です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 1,
+        "id": "N5-09-067"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "出かける時、家族に。",
+        "question": "何と言いますか。",
+        "options": [
+          "行ってきます",
+          "ただいま",
+          "おかえり",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-09-068"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お名前は？",
+        "question": "何と答えますか。",
+        "options": [
+          "田中です",
+          "いいえ",
+          "はい",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-09-069"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "これはいくらですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "100円です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-09-070"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "どこに住んでいますか。",
+        "question": "何と答えますか。",
+        "options": [
+          "東京です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-09-071"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "何歳ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "20歳です",
+          "学生です",
+          "日本人です",
+          "田中です"
+        ],
+        "answer": 0,
+        "id": "N5-09-072"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お仕事は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "会社員です",
+          "東京です",
+          "日本です",
+          "20歳です"
+        ],
+        "answer": 0,
+        "id": "N5-09-073"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "趣味は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "読書です",
+          "はい",
+          "いいえ",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-09-074"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今何時ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "3時です",
+          "月曜日です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-09-075"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今日は何曜日ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "月曜日です",
+          "3時です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-09-076"
+      }
+    ],
+    "10": [
+      {
+        "type": "漢字読み",
+        "text": "<u>毎月</u>の読み方は？",
+        "question": "「毎月」の読み方は？",
+        "options": [
+          "はらう",
+          "わりびき",
+          "まいつき",
+          "せつぞく"
+        ],
+        "answer": 2,
+        "id": "N5-10-001"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>入学</u>の読み方は？",
+        "question": "「入学」の読み方は？",
+        "options": [
+          "かく",
+          "ばん",
+          "にゅうがく",
+          "しんせつ"
+        ],
+        "answer": 2,
+        "id": "N5-10-002"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>教室</u>の読み方は？",
+        "question": "「教室」の読み方は？",
+        "options": [
+          "きょうしつ",
+          "みなさん",
+          "つなぐ",
+          "せいこう"
+        ],
+        "answer": 0,
+        "id": "N5-10-003"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>個</u>の読み方は？",
+        "question": "「個」の読み方は？",
+        "options": [
+          "はなす",
+          "いろ",
+          "こ",
+          "かぞえる"
+        ],
+        "answer": 2,
+        "id": "N5-10-004"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>混ぜる</u>の読み方は？",
+        "question": "「混ぜる」の読み方は？",
+        "options": [
+          "まぜる",
+          "て",
+          "おとうさん",
+          "みせ"
+        ],
+        "answer": 0,
+        "id": "N5-10-005"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>皆</u>の読み方は？",
+        "question": "「皆」の読み方は？",
+        "options": [
+          "みんな",
+          "れきし",
+          "しけん",
+          "おちる"
+        ],
+        "answer": 0,
+        "id": "N5-10-006"
+      },
+      {
+        "type": "表記",
+        "text": "<u>ほんとう</u>の漢字は？",
+        "question": "「ほんとう」の書き方は？",
+        "options": [
+          "靴下",
+          "例えば",
+          "遊ぶ",
+          "本当"
+        ],
+        "answer": 3,
+        "id": "N5-10-007"
+      },
+      {
+        "type": "表記",
+        "text": "<u>かぞく</u>の漢字は？",
+        "question": "「かぞく」の書き方は？",
+        "options": [
+          "翻訳",
+          "選ぶ",
+          "家族",
+          "医者"
+        ],
+        "answer": 2,
+        "id": "N5-10-008"
+      },
+      {
+        "type": "表記",
+        "text": "<u>ふゆ</u>の漢字は？",
+        "question": "「ふゆ」の書き方は？",
+        "options": [
+          "お寺",
+          "隣",
+          "直す",
+          "冬"
+        ],
+        "answer": 3,
+        "id": "N5-10-009"
+      },
+      {
+        "type": "表記",
+        "text": "<u>おとうさん</u>の漢字は？",
+        "question": "「おとうさん」の書き方は？",
+        "options": [
+          "引っ越す",
+          "お父さん",
+          "発表",
+          "乗る"
+        ],
+        "answer": 1,
+        "id": "N5-10-010"
+      },
+      {
+        "type": "表記",
+        "text": "<u>あつい</u>の漢字は？",
+        "question": "「あつい」の書き方は？",
+        "options": [
+          "赤い",
+          "楽しい",
+          "暑い",
+          "終える"
+        ],
+        "answer": 2,
+        "id": "N5-10-011"
+      },
+      {
+        "type": "表記",
+        "text": "<u>ひと</u>の漢字は？",
+        "question": "「ひと」の書き方は？",
+        "options": [
+          "終わる",
+          "人",
+          "鳴る",
+          "色"
+        ],
+        "answer": 1,
+        "id": "N5-10-012"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）は楽しいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "履く",
+          "時々",
+          "スカート",
+          "店"
+        ],
+        "answer": 2,
+        "id": "N5-10-013"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を聞きます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "紙",
+          "招待する",
+          "読む",
+          "案内する"
+        ],
+        "answer": 0,
+        "id": "N5-10-014"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を読みます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "空港",
+          "おじいさん",
+          "ここ",
+          "犬"
+        ],
+        "answer": 1,
+        "id": "N5-10-015"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を作ります。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "賛成",
+          "犬",
+          "届く",
+          "開ける"
+        ],
+        "answer": 1,
+        "id": "N5-10-016"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）に住んでいます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "時間",
+          "台所",
+          "下手",
+          "壁"
+        ],
+        "answer": 1,
+        "id": "N5-10-017"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を使います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "並べる",
+          "賛成",
+          "値段",
+          "誰"
+        ],
+        "answer": 3,
+        "id": "N5-10-018"
+      },
+      {
+        "type": "文脈規定",
+        "text": "友だちと（　）をしました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "忘れる",
+          "印刷",
+          "できる",
+          "親切"
+        ],
+        "answer": 1,
+        "id": "N5-10-019"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）が終わりました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "研究",
+          "掃除機",
+          "叫ぶ",
+          "辛い"
+        ],
+        "answer": 0,
+        "id": "N5-10-020"
+      },
+      {
+        "type": "言い換え",
+        "text": "「まだ」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "still/not yet",
+          "delivery",
+          "to search",
+          "enough"
+        ],
+        "answer": 0,
+        "id": "N5-10-021"
+      },
+      {
+        "type": "言い換え",
+        "text": "「誰」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "who",
+          "when",
+          "child",
+          "grandfather"
+        ],
+        "answer": 0,
+        "id": "N5-10-022"
+      },
+      {
+        "type": "言い換え",
+        "text": "「紙」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "lake",
+          "address",
+          "absent",
+          "paper"
+        ],
+        "answer": 3,
+        "id": "N5-10-023"
+      },
+      {
+        "type": "言い換え",
+        "text": "「開ける」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "to open",
+          "introduction",
+          "to learn",
+          "to divide"
+        ],
+        "answer": 0,
+        "id": "N5-10-024"
+      },
+      {
+        "type": "言い換え",
+        "text": "「トイレ」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "toilet",
+          "last week",
+          "ten thousand",
+          "to refuse"
+        ],
+        "answer": 0,
+        "id": "N5-10-025"
+      },
+      {
+        "type": "文法形式",
+        "text": "食べ（　）から寝ます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-10-026"
+      },
+      {
+        "type": "文法形式",
+        "text": "日本に行き（　）です。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "たい",
+          "ます",
+          "た",
+          "る"
+        ],
+        "answer": 0,
+        "id": "N5-10-027"
+      },
+      {
+        "type": "文法形式",
+        "text": "雨が降っ（　）います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-10-028"
+      },
+      {
+        "type": "文法形式",
+        "text": "ここに座っ（　）ください。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-10-029"
+      },
+      {
+        "type": "文法形式",
+        "text": "まだ食べ（　）いません。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-10-030"
+      },
+      {
+        "type": "文法形式",
+        "text": "明日来（　）か。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "ます",
+          "る",
+          "た",
+          "て"
+        ],
+        "answer": 0,
+        "id": "N5-10-031"
+      },
+      {
+        "type": "文法形式",
+        "text": "きのう何を（　）か。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "しました",
+          "します",
+          "する",
+          "して"
+        ],
+        "answer": 0,
+        "id": "N5-10-032"
+      },
+      {
+        "type": "文法形式",
+        "text": "この本は（　）です。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "おもしろい",
+          "おもしろく",
+          "おもしろ",
+          "おもしろいな"
+        ],
+        "answer": 0,
+        "id": "N5-10-033"
+      },
+      {
+        "type": "文法形式",
+        "text": "部屋を（　）しました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "きれいに",
+          "きれい",
+          "きれいな",
+          "きれいく"
+        ],
+        "answer": 0,
+        "id": "N5-10-034"
+      },
+      {
+        "type": "文法形式",
+        "text": "早く（　）ください。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "起きて",
+          "起きる",
+          "起きた",
+          "起き"
+        ],
+        "answer": 0,
+        "id": "N5-10-035"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 飲み / コーヒー / ながら / を",
+        "question": "★に入るのは？",
+        "options": [
+          "飲み",
+          "コーヒー",
+          "ながら",
+          "を"
+        ],
+        "answer": 3,
+        "id": "N5-10-036"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: が / 降って / います / 雨",
+        "question": "★に入るのは？",
+        "options": [
+          "が",
+          "降って",
+          "います",
+          "雨"
+        ],
+        "answer": 1,
+        "id": "N5-10-037"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 行き / に / 日本 / たいです",
+        "question": "★に入るのは？",
+        "options": [
+          "行き",
+          "に",
+          "日本",
+          "たいです"
+        ],
+        "answer": 1,
+        "id": "N5-10-038"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 部屋 / きれい / が / です",
+        "question": "★に入るのは？",
+        "options": [
+          "部屋",
+          "きれい",
+          "が",
+          "です"
+        ],
+        "answer": 0,
+        "id": "N5-10-039"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 見 / を / ました / 映画",
+        "question": "★に入るのは？",
+        "options": [
+          "見",
+          "を",
+          "ました",
+          "映画"
+        ],
+        "answer": 1,
+        "id": "N5-10-040"
+      },
+      {
+        "type": "文章の文法",
+        "text": "私は毎朝6時に起きます。顔を洗って、朝ごはんを（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "食べます",
+          "食べて",
+          "食べた",
+          "食べる"
+        ],
+        "answer": 0,
+        "id": "N5-10-041"
+      },
+      {
+        "type": "文章の文法",
+        "text": "きのうは日曜日でした。友だちと公園で（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "遊びました",
+          "遊びます",
+          "遊んで",
+          "遊ぶ"
+        ],
+        "answer": 0,
+        "id": "N5-10-042"
+      },
+      {
+        "type": "文章の文法",
+        "text": "この店は安くて、（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "おいしいです",
+          "おいしい",
+          "おいしくて",
+          "おいしかった"
+        ],
+        "answer": 0,
+        "id": "N5-10-043"
+      },
+      {
+        "type": "文章の文法",
+        "text": "来週テストがあります。だから、今日は（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "勉強します",
+          "勉強した",
+          "勉強して",
+          "勉強する"
+        ],
+        "answer": 0,
+        "id": "N5-10-044"
+      },
+      {
+        "type": "文章の文法",
+        "text": "電車が来ません。30分（　）います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "待って",
+          "待った",
+          "待つ",
+          "待ち"
+        ],
+        "answer": 0,
+        "id": "N5-10-045"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "山田さんは毎日図書館で本を読みます。",
+        "question": "どこで読みますか。",
+        "options": [
+          "学校",
+          "公園",
+          "図書館",
+          "家"
+        ],
+        "answer": 2,
+        "id": "N5-10-046"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "今日は雨です。傘を持っていきます。",
+        "question": "今日の天気は？",
+        "options": [
+          "晴れ",
+          "曇り",
+          "雨",
+          "雪"
+        ],
+        "answer": 2,
+        "id": "N5-10-047"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "このりんごは100円です。",
+        "question": "いくら？",
+        "options": [
+          "50円",
+          "100円",
+          "150円",
+          "200円"
+        ],
+        "answer": 1,
+        "id": "N5-10-048"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "私の町は小さいですが、きれいです。山と川があります。",
+        "question": "この町に何がある？",
+        "options": [
+          "海",
+          "山と川",
+          "ビル",
+          "空港"
+        ],
+        "answer": 1,
+        "id": "N5-10-049"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "田中さんは朝6時に起きます。7時に朝ごはんを食べます。8時に家を出ます。",
+        "question": "何時に家を出る？",
+        "options": [
+          "6時",
+          "7時",
+          "8時",
+          "9時"
+        ],
+        "answer": 2,
+        "id": "N5-10-050"
+      },
+      {
+        "type": "情報検索",
+        "text": "【図書館】開館: 9:00-17:00 休み: 月曜日",
+        "question": "何時まで？",
+        "options": [
+          "16時",
+          "17時",
+          "18時",
+          "19時"
+        ],
+        "answer": 1,
+        "id": "N5-10-051"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人と女の人が話しています。男の人は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "りんご",
+          "みかん",
+          "バナナ",
+          "いちご"
+        ],
+        "answer": 0,
+        "id": "N5-10-052"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "学生と先生が話しています。宿題はいつまでですか。",
+        "question": "質問",
+        "options": [
+          "月曜",
+          "火曜",
+          "水曜",
+          "木曜"
+        ],
+        "answer": 2,
+        "id": "N5-10-053"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "女の人と男の人が話しています。どこで会いますか。",
+        "question": "質問",
+        "options": [
+          "駅",
+          "学校",
+          "図書館",
+          "公園"
+        ],
+        "answer": 0,
+        "id": "N5-10-054"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "お母さんと子供が話しています。子供は何を食べますか。",
+        "question": "質問",
+        "options": [
+          "パン",
+          "ごはん",
+          "たまご",
+          "サラダ"
+        ],
+        "answer": 1,
+        "id": "N5-10-055"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "店員と客が話しています。客は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "シャツ",
+          "ズボン",
+          "靴",
+          "帽子"
+        ],
+        "answer": 0,
+        "id": "N5-10-056"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人が話しています。明日の天気は？",
+        "question": "質問",
+        "options": [
+          "晴れ",
+          "曇り",
+          "雨",
+          "雪"
+        ],
+        "answer": 2,
+        "id": "N5-10-057"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。何が好きですか。",
+        "question": "質問",
+        "options": [
+          "音楽",
+          "スポーツ",
+          "料理",
+          "映画"
+        ],
+        "answer": 0,
+        "id": "N5-10-058"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。どこに住んでいますか。",
+        "question": "質問",
+        "options": [
+          "東京",
+          "大阪",
+          "京都",
+          "名古屋"
+        ],
+        "answer": 1,
+        "id": "N5-10-059"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "学生が話しています。何を勉強していますか。",
+        "question": "質問",
+        "options": [
+          "英語",
+          "日本語",
+          "数学",
+          "歴史"
+        ],
+        "answer": 1,
+        "id": "N5-10-060"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。趣味は何ですか。",
+        "question": "質問",
+        "options": [
+          "読書",
+          "映画",
+          "旅行",
+          "料理"
+        ],
+        "answer": 2,
+        "id": "N5-10-061"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。いつ日本に来ましたか。",
+        "question": "質問",
+        "options": [
+          "去年",
+          "2年前",
+          "先月",
+          "先週"
+        ],
+        "answer": 0,
+        "id": "N5-10-062"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "二人が話しています。パーティーは何時から？",
+        "question": "質問",
+        "options": [
+          "5時",
+          "6時",
+          "7時",
+          "8時"
+        ],
+        "answer": 1,
+        "id": "N5-10-063"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "「ありがとう」と言われました。",
+        "question": "何と言いますか。",
+        "options": [
+          "どういたしまして",
+          "すみません",
+          "おはよう",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-10-064"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "朝、先生に会いました。",
+        "question": "何と言いますか。",
+        "options": [
+          "おはようございます",
+          "こんにちは",
+          "こんばんは",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-10-065"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べる前です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 0,
+        "id": "N5-10-066"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べた後です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 1,
+        "id": "N5-10-067"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "出かける時、家族に。",
+        "question": "何と言いますか。",
+        "options": [
+          "行ってきます",
+          "ただいま",
+          "おかえり",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-10-068"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お名前は？",
+        "question": "何と答えますか。",
+        "options": [
+          "田中です",
+          "いいえ",
+          "はい",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-10-069"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "これはいくらですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "100円です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-10-070"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "どこに住んでいますか。",
+        "question": "何と答えますか。",
+        "options": [
+          "東京です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-10-071"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "何歳ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "20歳です",
+          "学生です",
+          "日本人です",
+          "田中です"
+        ],
+        "answer": 0,
+        "id": "N5-10-072"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お仕事は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "会社員です",
+          "東京です",
+          "日本です",
+          "20歳です"
+        ],
+        "answer": 0,
+        "id": "N5-10-073"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "趣味は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "読書です",
+          "はい",
+          "いいえ",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-10-074"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今何時ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "3時です",
+          "月曜日です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-10-075"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今日は何曜日ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "月曜日です",
+          "3時です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-10-076"
+      }
+    ],
+    "11": [
+      {
+        "type": "漢字読み",
+        "text": "<u>杯</u>の読み方は？",
+        "question": "「杯」の読み方は？",
+        "options": [
+          "おと",
+          "じゅうしょ",
+          "かく",
+          "はい"
+        ],
+        "answer": 3,
+        "id": "N5-11-001"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>晩ご飯</u>の読み方は？",
+        "question": "「晩ご飯」の読み方は？",
+        "options": [
+          "ばんごはん",
+          "すぎる",
+          "うれしい",
+          "よごれる"
+        ],
+        "answer": 0,
+        "id": "N5-11-002"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>手</u>の読み方は？",
+        "question": "「手」の読み方は？",
+        "options": [
+          "て",
+          "へた",
+          "せいこう",
+          "さつえい"
+        ],
+        "answer": 0,
+        "id": "N5-11-003"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>入る</u>の読み方は？",
+        "question": "「入る」の読み方は？",
+        "options": [
+          "はし",
+          "はいる",
+          "ぬれる",
+          "うけとる"
+        ],
+        "answer": 1,
+        "id": "N5-11-004"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>落ちる</u>の読み方は？",
+        "question": "「落ちる」の読み方は？",
+        "options": [
+          "いきる",
+          "やくそく",
+          "おちる",
+          "そうだん"
+        ],
+        "answer": 2,
+        "id": "N5-11-005"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>お願い</u>の読み方は？",
+        "question": "「お願い」の読み方は？",
+        "options": [
+          "しゃかい",
+          "ならぶ",
+          "どうろ",
+          "おねがい"
+        ],
+        "answer": 3,
+        "id": "N5-11-006"
+      },
+      {
+        "type": "表記",
+        "text": "<u>ごぜん</u>の漢字は？",
+        "question": "「ごぜん」の書き方は？",
+        "options": [
+          "食べる",
+          "午前",
+          "発展",
+          "匂い"
+        ],
+        "answer": 1,
+        "id": "N5-11-007"
+      },
+      {
+        "type": "表記",
+        "text": "<u>こんしゅう</u>の漢字は？",
+        "question": "「こんしゅう」の書き方は？",
+        "options": [
+          "起きる",
+          "今週",
+          "捨てる",
+          "呼ぶ"
+        ],
+        "answer": 1,
+        "id": "N5-11-008"
+      },
+      {
+        "type": "表記",
+        "text": "<u>ちかてつ</u>の漢字は？",
+        "question": "「ちかてつ」の書き方は？",
+        "options": [
+          "予約",
+          "木",
+          "少ない",
+          "地下鉄"
+        ],
+        "answer": 3,
+        "id": "N5-11-009"
+      },
+      {
+        "type": "表記",
+        "text": "<u>きんようび</u>の漢字は？",
+        "question": "「きんようび」の書き方は？",
+        "options": [
+          "金曜日",
+          "待つ",
+          "今朝",
+          "消える"
+        ],
+        "answer": 0,
+        "id": "N5-11-010"
+      },
+      {
+        "type": "表記",
+        "text": "<u>てぶくろ</u>の漢字は？",
+        "question": "「てぶくろ」の書き方は？",
+        "options": [
+          "見つける",
+          "手袋",
+          "森",
+          "日曜日"
+        ],
+        "answer": 1,
+        "id": "N5-11-011"
+      },
+      {
+        "type": "表記",
+        "text": "<u>はじめて</u>の漢字は？",
+        "question": "「はじめて」の書き方は？",
+        "options": [
+          "課長",
+          "速い",
+          "初めて",
+          "引く"
+        ],
+        "answer": 2,
+        "id": "N5-11-012"
+      },
+      {
+        "type": "文脈規定",
+        "text": "朝（　）を食べます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "夜",
+          "つける",
+          "野菜",
+          "脱ぐ"
+        ],
+        "answer": 1,
+        "id": "N5-11-013"
+      },
+      {
+        "type": "文脈規定",
+        "text": "毎日（　）を飲みます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "覚える",
+          "来年",
+          "慣れる",
+          "捨てる"
+        ],
+        "answer": 1,
+        "id": "N5-11-014"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）がほしいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "風",
+          "猫",
+          "お願い",
+          "上"
+        ],
+        "answer": 1,
+        "id": "N5-11-015"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）に行きたいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "初めて",
+          "ネクタイ",
+          "趣味",
+          "コーヒー"
+        ],
+        "answer": 1,
+        "id": "N5-11-016"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）が好きです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "雲",
+          "失敗する",
+          "同じ",
+          "切る"
+        ],
+        "answer": 0,
+        "id": "N5-11-017"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を見ました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "課長",
+          "思う",
+          "混ぜる",
+          "忙しい"
+        ],
+        "answer": 2,
+        "id": "N5-11-018"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を買いました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "失敗する",
+          "スーパー",
+          "急ぐ",
+          "小さい"
+        ],
+        "answer": 0,
+        "id": "N5-11-019"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）で働いています。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "出る",
+          "木",
+          "遅れる",
+          "部長"
+        ],
+        "answer": 1,
+        "id": "N5-11-020"
+      },
+      {
+        "type": "言い換え",
+        "text": "「正しい」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "correct",
+          "thanks",
+          "pass",
+          "that (far)"
+        ],
+        "answer": 0,
+        "id": "N5-11-021"
+      },
+      {
+        "type": "言い換え",
+        "text": "「時々」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "cheap",
+          "sometimes",
+          "perfect",
+          "junior"
+        ],
+        "answer": 1,
+        "id": "N5-11-022"
+      },
+      {
+        "type": "言い換え",
+        "text": "「なる」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "pen",
+          "to become",
+          "times",
+          "light"
+        ],
+        "answer": 1,
+        "id": "N5-11-023"
+      },
+      {
+        "type": "言い換え",
+        "text": "「手袋」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "gloves",
+          "simple",
+          "spring",
+          "tea"
+        ],
+        "answer": 0,
+        "id": "N5-11-024"
+      },
+      {
+        "type": "言い換え",
+        "text": "「山」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "oneself",
+          "to memorize",
+          "mountain",
+          "to fail"
+        ],
+        "answer": 2,
+        "id": "N5-11-025"
+      },
+      {
+        "type": "文法形式",
+        "text": "私は学生（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "です",
+          "だ",
+          "ます",
+          "ある"
+        ],
+        "answer": 0,
+        "id": "N5-11-026"
+      },
+      {
+        "type": "文法形式",
+        "text": "これは本（　）ありません。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "では",
+          "が",
+          "を",
+          "に"
+        ],
+        "answer": 0,
+        "id": "N5-11-027"
+      },
+      {
+        "type": "文法形式",
+        "text": "学校（　）行きます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "に",
+          "を",
+          "が",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-11-028"
+      },
+      {
+        "type": "文法形式",
+        "text": "友だち（　）会いました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "に",
+          "を",
+          "が",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-11-029"
+      },
+      {
+        "type": "文法形式",
+        "text": "日本語（　）勉強しています。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "を",
+          "に",
+          "が",
+          "で"
+        ],
+        "answer": 0,
+        "id": "N5-11-030"
+      },
+      {
+        "type": "文法形式",
+        "text": "電車（　）来ます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-11-031"
+      },
+      {
+        "type": "文法形式",
+        "text": "コーヒー（　）飲みたいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-11-032"
+      },
+      {
+        "type": "文法形式",
+        "text": "映画（　）見ました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "を",
+          "が",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-11-033"
+      },
+      {
+        "type": "文法形式",
+        "text": "部屋（　）きれいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "は",
+          "を",
+          "に",
+          "が"
+        ],
+        "answer": 0,
+        "id": "N5-11-034"
+      },
+      {
+        "type": "文法形式",
+        "text": "本を読む（　）が好きです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "の",
+          "を",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-11-035"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 学生 / 私 / です / は",
+        "question": "★に入るのは？",
+        "options": [
+          "学生",
+          "私",
+          "です",
+          "は"
+        ],
+        "answer": 3,
+        "id": "N5-11-036"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 日本語 / 勉強します / 毎日 / を",
+        "question": "★に入るのは？",
+        "options": [
+          "日本語",
+          "勉強します",
+          "毎日",
+          "を"
+        ],
+        "answer": 2,
+        "id": "N5-11-037"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 友だち / きのう / と / 会いました",
+        "question": "★に入るのは？",
+        "options": [
+          "友だち",
+          "きのう",
+          "と",
+          "会いました"
+        ],
+        "answer": 3,
+        "id": "N5-11-038"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: この / 本 / おもしろい / は",
+        "question": "★に入るのは？",
+        "options": [
+          "この",
+          "本",
+          "おもしろい",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-11-039"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 駅 / 歩いて / 行きます / まで",
+        "question": "★に入るのは？",
+        "options": [
+          "駅",
+          "歩いて",
+          "行きます",
+          "まで"
+        ],
+        "answer": 1,
+        "id": "N5-11-040"
+      },
+      {
+        "type": "文章の文法",
+        "text": "私は毎朝6時に起きます。顔を洗って、朝ごはんを（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "食べます",
+          "食べて",
+          "食べた",
+          "食べる"
+        ],
+        "answer": 0,
+        "id": "N5-11-041"
+      },
+      {
+        "type": "文章の文法",
+        "text": "きのうは日曜日でした。友だちと公園で（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "遊びました",
+          "遊びます",
+          "遊んで",
+          "遊ぶ"
+        ],
+        "answer": 0,
+        "id": "N5-11-042"
+      },
+      {
+        "type": "文章の文法",
+        "text": "この店は安くて、（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "おいしいです",
+          "おいしい",
+          "おいしくて",
+          "おいしかった"
+        ],
+        "answer": 0,
+        "id": "N5-11-043"
+      },
+      {
+        "type": "文章の文法",
+        "text": "来週テストがあります。だから、今日は（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "勉強します",
+          "勉強した",
+          "勉強して",
+          "勉強する"
+        ],
+        "answer": 0,
+        "id": "N5-11-044"
+      },
+      {
+        "type": "文章の文法",
+        "text": "電車が来ません。30分（　）います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "待って",
+          "待った",
+          "待つ",
+          "待ち"
+        ],
+        "answer": 0,
+        "id": "N5-11-045"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "田中さんは毎朝7時に起きます。",
+        "question": "何時に起きますか。",
+        "options": [
+          "6時",
+          "7時",
+          "8時",
+          "9時"
+        ],
+        "answer": 1,
+        "id": "N5-11-046"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "私の部屋は広くないですが、明るいです。",
+        "question": "部屋はどうですか。",
+        "options": [
+          "広い",
+          "暗い",
+          "明るい",
+          "寒い"
+        ],
+        "answer": 2,
+        "id": "N5-11-047"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "駅から学校までバスで5分です。",
+        "question": "バスで何分？",
+        "options": [
+          "3分",
+          "5分",
+          "10分",
+          "15分"
+        ],
+        "answer": 1,
+        "id": "N5-11-048"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "私は日本語を勉強しています。毎日2時間勉強します。日本語は難しいですが、おもしろいです。",
+        "question": "日本語をどう思いますか。",
+        "options": [
+          "簡単",
+          "難しいけどおもしろい",
+          "つまらない",
+          "簡単でおもしろい"
+        ],
+        "answer": 1,
+        "id": "N5-11-049"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "山田さんの家族は4人です。お父さんとお母さんと妹がいます。",
+        "question": "家族は何人？",
+        "options": [
+          "3人",
+          "4人",
+          "5人",
+          "6人"
+        ],
+        "answer": 1,
+        "id": "N5-11-050"
+      },
+      {
+        "type": "情報検索",
+        "text": "【映画】時間: 10:00, 14:00 料金: 大人1800円",
+        "question": "何時から？",
+        "options": [
+          "9時",
+          "10時",
+          "11時",
+          "12時"
+        ],
+        "answer": 1,
+        "id": "N5-11-051"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人と女の人が話しています。男の人は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "りんご",
+          "みかん",
+          "バナナ",
+          "いちご"
+        ],
+        "answer": 0,
+        "id": "N5-11-052"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "学生と先生が話しています。宿題はいつまでですか。",
+        "question": "質問",
+        "options": [
+          "月曜",
+          "火曜",
+          "水曜",
+          "木曜"
+        ],
+        "answer": 2,
+        "id": "N5-11-053"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "女の人と男の人が話しています。どこで会いますか。",
+        "question": "質問",
+        "options": [
+          "駅",
+          "学校",
+          "図書館",
+          "公園"
+        ],
+        "answer": 0,
+        "id": "N5-11-054"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "お母さんと子供が話しています。子供は何を食べますか。",
+        "question": "質問",
+        "options": [
+          "パン",
+          "ごはん",
+          "たまご",
+          "サラダ"
+        ],
+        "answer": 1,
+        "id": "N5-11-055"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "店員と客が話しています。客は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "シャツ",
+          "ズボン",
+          "靴",
+          "帽子"
+        ],
+        "answer": 0,
+        "id": "N5-11-056"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人が話しています。明日の天気は？",
+        "question": "質問",
+        "options": [
+          "晴れ",
+          "曇り",
+          "雨",
+          "雪"
+        ],
+        "answer": 2,
+        "id": "N5-11-057"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。何が好きですか。",
+        "question": "質問",
+        "options": [
+          "音楽",
+          "スポーツ",
+          "料理",
+          "映画"
+        ],
+        "answer": 0,
+        "id": "N5-11-058"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。どこに住んでいますか。",
+        "question": "質問",
+        "options": [
+          "東京",
+          "大阪",
+          "京都",
+          "名古屋"
+        ],
+        "answer": 1,
+        "id": "N5-11-059"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "学生が話しています。何を勉強していますか。",
+        "question": "質問",
+        "options": [
+          "英語",
+          "日本語",
+          "数学",
+          "歴史"
+        ],
+        "answer": 1,
+        "id": "N5-11-060"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。趣味は何ですか。",
+        "question": "質問",
+        "options": [
+          "読書",
+          "映画",
+          "旅行",
+          "料理"
+        ],
+        "answer": 2,
+        "id": "N5-11-061"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。いつ日本に来ましたか。",
+        "question": "質問",
+        "options": [
+          "去年",
+          "2年前",
+          "先月",
+          "先週"
+        ],
+        "answer": 0,
+        "id": "N5-11-062"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "二人が話しています。パーティーは何時から？",
+        "question": "質問",
+        "options": [
+          "5時",
+          "6時",
+          "7時",
+          "8時"
+        ],
+        "answer": 1,
+        "id": "N5-11-063"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "「ありがとう」と言われました。",
+        "question": "何と言いますか。",
+        "options": [
+          "どういたしまして",
+          "すみません",
+          "おはよう",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-11-064"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "朝、先生に会いました。",
+        "question": "何と言いますか。",
+        "options": [
+          "おはようございます",
+          "こんにちは",
+          "こんばんは",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-11-065"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べる前です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 0,
+        "id": "N5-11-066"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べた後です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 1,
+        "id": "N5-11-067"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "出かける時、家族に。",
+        "question": "何と言いますか。",
+        "options": [
+          "行ってきます",
+          "ただいま",
+          "おかえり",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-11-068"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お名前は？",
+        "question": "何と答えますか。",
+        "options": [
+          "田中です",
+          "いいえ",
+          "はい",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-11-069"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "これはいくらですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "100円です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-11-070"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "どこに住んでいますか。",
+        "question": "何と答えますか。",
+        "options": [
+          "東京です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-11-071"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "何歳ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "20歳です",
+          "学生です",
+          "日本人です",
+          "田中です"
+        ],
+        "answer": 0,
+        "id": "N5-11-072"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お仕事は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "会社員です",
+          "東京です",
+          "日本です",
+          "20歳です"
+        ],
+        "answer": 0,
+        "id": "N5-11-073"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "趣味は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "読書です",
+          "はい",
+          "いいえ",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-11-074"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今何時ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "3時です",
+          "月曜日です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-11-075"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今日は何曜日ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "月曜日です",
+          "3時です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-11-076"
+      }
+    ],
+    "12": [
+      {
+        "type": "漢字読み",
+        "text": "<u>大丈夫</u>の読み方は？",
+        "question": "「大丈夫」の読み方は？",
+        "options": [
+          "だいじょうぶ",
+          "はつめい",
+          "わける",
+          "かう"
+        ],
+        "answer": 0,
+        "id": "N5-12-001"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>月曜日</u>の読み方は？",
+        "question": "「月曜日」の読み方は？",
+        "options": [
+          "すてる",
+          "しらべる",
+          "やね",
+          "げつようび"
+        ],
+        "answer": 3,
+        "id": "N5-12-002"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>お金</u>の読み方は？",
+        "question": "「お金」の読み方は？",
+        "options": [
+          "おかね",
+          "きく",
+          "まん",
+          "つなぐ"
+        ],
+        "answer": 0,
+        "id": "N5-12-003"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>お茶</u>の読み方は？",
+        "question": "「お茶」の読み方は？",
+        "options": [
+          "うれしい",
+          "おちゃ",
+          "でる",
+          "しずか"
+        ],
+        "answer": 1,
+        "id": "N5-12-004"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>増える</u>の読み方は？",
+        "question": "「増える」の読み方は？",
+        "options": [
+          "ふえる",
+          "らいねん",
+          "うたう",
+          "おりる"
+        ],
+        "answer": 0,
+        "id": "N5-12-005"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>服</u>の読み方は？",
+        "question": "「服」の読み方は？",
+        "options": [
+          "ひき",
+          "れんらく",
+          "はっけん",
+          "ふく"
+        ],
+        "answer": 3,
+        "id": "N5-12-006"
+      },
+      {
+        "type": "表記",
+        "text": "<u>ほん</u>の漢字は？",
+        "question": "「ほん」の書き方は？",
+        "options": [
+          "本",
+          "台所",
+          "寒い",
+          "凍る"
+        ],
+        "answer": 0,
+        "id": "N5-12-007"
+      },
+      {
+        "type": "表記",
+        "text": "<u>かかる</u>の漢字は？",
+        "question": "「かかる」の書き方は？",
+        "options": [
+          "紹介",
+          "掛かる",
+          "朝ご飯",
+          "閉める"
+        ],
+        "answer": 1,
+        "id": "N5-12-008"
+      },
+      {
+        "type": "表記",
+        "text": "<u>よぶ</u>の漢字は？",
+        "question": "「よぶ」の書き方は？",
+        "options": [
+          "お金",
+          "切る",
+          "気持ち",
+          "呼ぶ"
+        ],
+        "answer": 3,
+        "id": "N5-12-009"
+      },
+      {
+        "type": "表記",
+        "text": "<u>ゆにゅう</u>の漢字は？",
+        "question": "「ゆにゅう」の書き方は？",
+        "options": [
+          "辞書",
+          "最高",
+          "輸入",
+          "自然"
+        ],
+        "answer": 2,
+        "id": "N5-12-010"
+      },
+      {
+        "type": "表記",
+        "text": "<u>はんぶん</u>の漢字は？",
+        "question": "「はんぶん」の書き方は？",
+        "options": [
+          "犬",
+          "心配",
+          "廊下",
+          "半分"
+        ],
+        "answer": 3,
+        "id": "N5-12-011"
+      },
+      {
+        "type": "表記",
+        "text": "<u>みなと</u>の漢字は？",
+        "question": "「みなと」の書き方は？",
+        "options": [
+          "今日",
+          "直す",
+          "港",
+          "動物"
+        ],
+        "answer": 2,
+        "id": "N5-12-012"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を勉強しています。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "神社",
+          "用意",
+          "探す",
+          "皆"
+        ],
+        "answer": 2,
+        "id": "N5-12-013"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）が上手です。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "男",
+          "歯",
+          "注文",
+          "印刷"
+        ],
+        "answer": 0,
+        "id": "N5-12-014"
+      },
+      {
+        "type": "文脈規定",
+        "text": "部屋に（　）があります。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "素晴らしい",
+          "月曜日",
+          "水",
+          "星"
+        ],
+        "answer": 3,
+        "id": "N5-12-015"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）は難しいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "選ぶ",
+          "新しい",
+          "晩",
+          "駐車場"
+        ],
+        "answer": 3,
+        "id": "N5-12-016"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）は楽しいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "雨",
+          "会議",
+          "並ぶ",
+          "時計"
+        ],
+        "answer": 0,
+        "id": "N5-12-017"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を聞きます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "閉める",
+          "力",
+          "報告",
+          "空港"
+        ],
+        "answer": 3,
+        "id": "N5-12-018"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を読みます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "秒",
+          "薬",
+          "部屋",
+          "寝室"
+        ],
+        "answer": 0,
+        "id": "N5-12-019"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を作ります。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "挨拶",
+          "毎年",
+          "上がる",
+          "生きる"
+        ],
+        "answer": 3,
+        "id": "N5-12-020"
+      },
+      {
+        "type": "言い換え",
+        "text": "「経験」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "to turn off",
+          "experience",
+          "parking lot",
+          "beautiful"
+        ],
+        "answer": 1,
+        "id": "N5-12-021"
+      },
+      {
+        "type": "言い換え",
+        "text": "「する」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "to wear (hat)",
+          "to do",
+          "parking lot",
+          "rain"
+        ],
+        "answer": 1,
+        "id": "N5-12-022"
+      },
+      {
+        "type": "言い換え",
+        "text": "「発展」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "to be left over",
+          "pen",
+          "development",
+          "husband"
+        ],
+        "answer": 2,
+        "id": "N5-12-023"
+      },
+      {
+        "type": "言い換え",
+        "text": "「残念」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "environment",
+          "fruit",
+          "regrettable",
+          "to ask"
+        ],
+        "answer": 2,
+        "id": "N5-12-024"
+      },
+      {
+        "type": "言い換え",
+        "text": "「撮影」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "near",
+          "temple",
+          "father (polite)",
+          "photography"
+        ],
+        "answer": 3,
+        "id": "N5-12-025"
+      },
+      {
+        "type": "文法形式",
+        "text": "食べ（　）から寝ます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-12-026"
+      },
+      {
+        "type": "文法形式",
+        "text": "日本に行き（　）です。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "たい",
+          "ます",
+          "た",
+          "る"
+        ],
+        "answer": 0,
+        "id": "N5-12-027"
+      },
+      {
+        "type": "文法形式",
+        "text": "雨が降っ（　）います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-12-028"
+      },
+      {
+        "type": "文法形式",
+        "text": "ここに座っ（　）ください。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-12-029"
+      },
+      {
+        "type": "文法形式",
+        "text": "まだ食べ（　）いません。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-12-030"
+      },
+      {
+        "type": "文法形式",
+        "text": "明日来（　）か。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "ます",
+          "る",
+          "た",
+          "て"
+        ],
+        "answer": 0,
+        "id": "N5-12-031"
+      },
+      {
+        "type": "文法形式",
+        "text": "きのう何を（　）か。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "しました",
+          "します",
+          "する",
+          "して"
+        ],
+        "answer": 0,
+        "id": "N5-12-032"
+      },
+      {
+        "type": "文法形式",
+        "text": "この本は（　）です。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "おもしろい",
+          "おもしろく",
+          "おもしろ",
+          "おもしろいな"
+        ],
+        "answer": 0,
+        "id": "N5-12-033"
+      },
+      {
+        "type": "文法形式",
+        "text": "部屋を（　）しました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "きれいに",
+          "きれい",
+          "きれいな",
+          "きれいく"
+        ],
+        "answer": 0,
+        "id": "N5-12-034"
+      },
+      {
+        "type": "文法形式",
+        "text": "早く（　）ください。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "起きて",
+          "起きる",
+          "起きた",
+          "起き"
+        ],
+        "answer": 0,
+        "id": "N5-12-035"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: コーヒー / 飲み / ながら / を",
+        "question": "★に入るのは？",
+        "options": [
+          "コーヒー",
+          "飲み",
+          "ながら",
+          "を"
+        ],
+        "answer": 3,
+        "id": "N5-12-036"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 雨 / 降って / が / います",
+        "question": "★に入るのは？",
+        "options": [
+          "雨",
+          "降って",
+          "が",
+          "います"
+        ],
+        "answer": 3,
+        "id": "N5-12-037"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 行き / たいです / 日本 / に",
+        "question": "★に入るのは？",
+        "options": [
+          "行き",
+          "たいです",
+          "日本",
+          "に"
+        ],
+        "answer": 0,
+        "id": "N5-12-038"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: が / です / 部屋 / きれい",
+        "question": "★に入るのは？",
+        "options": [
+          "が",
+          "です",
+          "部屋",
+          "きれい"
+        ],
+        "answer": 0,
+        "id": "N5-12-039"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: を / ました / 見 / 映画",
+        "question": "★に入るのは？",
+        "options": [
+          "を",
+          "ました",
+          "見",
+          "映画"
+        ],
+        "answer": 1,
+        "id": "N5-12-040"
+      },
+      {
+        "type": "文章の文法",
+        "text": "私は毎朝6時に起きます。顔を洗って、朝ごはんを（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "食べます",
+          "食べて",
+          "食べた",
+          "食べる"
+        ],
+        "answer": 0,
+        "id": "N5-12-041"
+      },
+      {
+        "type": "文章の文法",
+        "text": "きのうは日曜日でした。友だちと公園で（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "遊びました",
+          "遊びます",
+          "遊んで",
+          "遊ぶ"
+        ],
+        "answer": 0,
+        "id": "N5-12-042"
+      },
+      {
+        "type": "文章の文法",
+        "text": "この店は安くて、（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "おいしいです",
+          "おいしい",
+          "おいしくて",
+          "おいしかった"
+        ],
+        "answer": 0,
+        "id": "N5-12-043"
+      },
+      {
+        "type": "文章の文法",
+        "text": "来週テストがあります。だから、今日は（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "勉強します",
+          "勉強した",
+          "勉強して",
+          "勉強する"
+        ],
+        "answer": 0,
+        "id": "N5-12-044"
+      },
+      {
+        "type": "文章の文法",
+        "text": "電車が来ません。30分（　）います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "待って",
+          "待った",
+          "待つ",
+          "待ち"
+        ],
+        "answer": 0,
+        "id": "N5-12-045"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "山田さんは毎日図書館で本を読みます。",
+        "question": "どこで読みますか。",
+        "options": [
+          "学校",
+          "公園",
+          "図書館",
+          "家"
+        ],
+        "answer": 2,
+        "id": "N5-12-046"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "今日は雨です。傘を持っていきます。",
+        "question": "今日の天気は？",
+        "options": [
+          "晴れ",
+          "曇り",
+          "雨",
+          "雪"
+        ],
+        "answer": 2,
+        "id": "N5-12-047"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "このりんごは100円です。",
+        "question": "いくら？",
+        "options": [
+          "50円",
+          "100円",
+          "150円",
+          "200円"
+        ],
+        "answer": 1,
+        "id": "N5-12-048"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "私の町は小さいですが、きれいです。山と川があります。",
+        "question": "この町に何がある？",
+        "options": [
+          "海",
+          "山と川",
+          "ビル",
+          "空港"
+        ],
+        "answer": 1,
+        "id": "N5-12-049"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "田中さんは朝6時に起きます。7時に朝ごはんを食べます。8時に家を出ます。",
+        "question": "何時に家を出る？",
+        "options": [
+          "6時",
+          "7時",
+          "8時",
+          "9時"
+        ],
+        "answer": 2,
+        "id": "N5-12-050"
+      },
+      {
+        "type": "情報検索",
+        "text": "【レストラン】ランチ: 11:00-14:00 休み: 火曜日",
+        "question": "ランチは何時まで？",
+        "options": [
+          "13時",
+          "14時",
+          "15時",
+          "16時"
+        ],
+        "answer": 1,
+        "id": "N5-12-051"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人と女の人が話しています。男の人は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "りんご",
+          "みかん",
+          "バナナ",
+          "いちご"
+        ],
+        "answer": 0,
+        "id": "N5-12-052"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "学生と先生が話しています。宿題はいつまでですか。",
+        "question": "質問",
+        "options": [
+          "月曜",
+          "火曜",
+          "水曜",
+          "木曜"
+        ],
+        "answer": 2,
+        "id": "N5-12-053"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "女の人と男の人が話しています。どこで会いますか。",
+        "question": "質問",
+        "options": [
+          "駅",
+          "学校",
+          "図書館",
+          "公園"
+        ],
+        "answer": 0,
+        "id": "N5-12-054"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "お母さんと子供が話しています。子供は何を食べますか。",
+        "question": "質問",
+        "options": [
+          "パン",
+          "ごはん",
+          "たまご",
+          "サラダ"
+        ],
+        "answer": 1,
+        "id": "N5-12-055"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "店員と客が話しています。客は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "シャツ",
+          "ズボン",
+          "靴",
+          "帽子"
+        ],
+        "answer": 0,
+        "id": "N5-12-056"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人が話しています。明日の天気は？",
+        "question": "質問",
+        "options": [
+          "晴れ",
+          "曇り",
+          "雨",
+          "雪"
+        ],
+        "answer": 2,
+        "id": "N5-12-057"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。何が好きですか。",
+        "question": "質問",
+        "options": [
+          "音楽",
+          "スポーツ",
+          "料理",
+          "映画"
+        ],
+        "answer": 0,
+        "id": "N5-12-058"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。どこに住んでいますか。",
+        "question": "質問",
+        "options": [
+          "東京",
+          "大阪",
+          "京都",
+          "名古屋"
+        ],
+        "answer": 1,
+        "id": "N5-12-059"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "学生が話しています。何を勉強していますか。",
+        "question": "質問",
+        "options": [
+          "英語",
+          "日本語",
+          "数学",
+          "歴史"
+        ],
+        "answer": 1,
+        "id": "N5-12-060"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。趣味は何ですか。",
+        "question": "質問",
+        "options": [
+          "読書",
+          "映画",
+          "旅行",
+          "料理"
+        ],
+        "answer": 2,
+        "id": "N5-12-061"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。いつ日本に来ましたか。",
+        "question": "質問",
+        "options": [
+          "去年",
+          "2年前",
+          "先月",
+          "先週"
+        ],
+        "answer": 0,
+        "id": "N5-12-062"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "二人が話しています。パーティーは何時から？",
+        "question": "質問",
+        "options": [
+          "5時",
+          "6時",
+          "7時",
+          "8時"
+        ],
+        "answer": 1,
+        "id": "N5-12-063"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "「ありがとう」と言われました。",
+        "question": "何と言いますか。",
+        "options": [
+          "どういたしまして",
+          "すみません",
+          "おはよう",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-12-064"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "朝、先生に会いました。",
+        "question": "何と言いますか。",
+        "options": [
+          "おはようございます",
+          "こんにちは",
+          "こんばんは",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-12-065"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べる前です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 0,
+        "id": "N5-12-066"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べた後です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 1,
+        "id": "N5-12-067"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "出かける時、家族に。",
+        "question": "何と言いますか。",
+        "options": [
+          "行ってきます",
+          "ただいま",
+          "おかえり",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-12-068"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お名前は？",
+        "question": "何と答えますか。",
+        "options": [
+          "田中です",
+          "いいえ",
+          "はい",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-12-069"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "これはいくらですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "100円です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-12-070"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "どこに住んでいますか。",
+        "question": "何と答えますか。",
+        "options": [
+          "東京です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-12-071"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "何歳ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "20歳です",
+          "学生です",
+          "日本人です",
+          "田中です"
+        ],
+        "answer": 0,
+        "id": "N5-12-072"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お仕事は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "会社員です",
+          "東京です",
+          "日本です",
+          "20歳です"
+        ],
+        "answer": 0,
+        "id": "N5-12-073"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "趣味は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "読書です",
+          "はい",
+          "いいえ",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-12-074"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今何時ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "3時です",
+          "月曜日です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-12-075"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今日は何曜日ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "月曜日です",
+          "3時です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-12-076"
+      }
+    ],
+    "13": [
+      {
+        "type": "漢字読み",
+        "text": "<u>放送</u>の読み方は？",
+        "question": "「放送」の読み方は？",
+        "options": [
+          "ちかい",
+          "にぎやか",
+          "やさしい",
+          "ほうそう"
+        ],
+        "answer": 3,
+        "id": "N5-13-001"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>花</u>の読み方は？",
+        "question": "「花」の読み方は？",
+        "options": [
+          "てんき",
+          "おれい",
+          "はな",
+          "ろくおん"
+        ],
+        "answer": 2,
+        "id": "N5-13-002"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>落とす</u>の読み方は？",
+        "question": "「落とす」の読み方は？",
+        "options": [
+          "あじ",
+          "いっかい",
+          "おとす",
+          "つくる"
+        ],
+        "answer": 2,
+        "id": "N5-13-003"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>天井</u>の読み方は？",
+        "question": "「天井」の読み方は？",
+        "options": [
+          "せっけん",
+          "おふろ",
+          "てんじょう",
+          "じゅうでん"
+        ],
+        "answer": 2,
+        "id": "N5-13-004"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>一本</u>の読み方は？",
+        "question": "「一本」の読み方は？",
+        "options": [
+          "ひと",
+          "あまる",
+          "いっぽん",
+          "あじ"
+        ],
+        "answer": 2,
+        "id": "N5-13-005"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>質問する</u>の読み方は？",
+        "question": "「質問する」の読み方は？",
+        "options": [
+          "かたづける",
+          "まいあさ",
+          "みじかい",
+          "しつもんする"
+        ],
+        "answer": 3,
+        "id": "N5-13-006"
+      },
+      {
+        "type": "表記",
+        "text": "<u>しんごう</u>の漢字は？",
+        "question": "「しんごう」の書き方は？",
+        "options": [
+          "熱い",
+          "受ける",
+          "信号",
+          "工場"
+        ],
+        "answer": 2,
+        "id": "N5-13-007"
+      },
+      {
+        "type": "表記",
+        "text": "<u>そうじ</u>の漢字は？",
+        "question": "「そうじ」の書き方は？",
+        "options": [
+          "驚く",
+          "合う",
+          "約束",
+          "掃除"
+        ],
+        "answer": 3,
+        "id": "N5-13-008"
+      },
+      {
+        "type": "表記",
+        "text": "<u>あたま</u>の漢字は？",
+        "question": "「あたま」の書き方は？",
+        "options": [
+          "先週",
+          "趣味",
+          "頭",
+          "電車"
+        ],
+        "answer": 2,
+        "id": "N5-13-009"
+      },
+      {
+        "type": "表記",
+        "text": "<u>へる</u>の漢字は？",
+        "question": "「へる」の書き方は？",
+        "options": [
+          "新しい",
+          "紹介する",
+          "分ける",
+          "減る"
+        ],
+        "answer": 3,
+        "id": "N5-13-010"
+      },
+      {
+        "type": "表記",
+        "text": "<u>さがる</u>の漢字は？",
+        "question": "「さがる」の書き方は？",
+        "options": [
+          "失敗",
+          "妹",
+          "下がる",
+          "撮影"
+        ],
+        "answer": 2,
+        "id": "N5-13-011"
+      },
+      {
+        "type": "表記",
+        "text": "<u>ことわる</u>の漢字は？",
+        "question": "「ことわる」の書き方は？",
+        "options": [
+          "番",
+          "慣れる",
+          "犬",
+          "断る"
+        ],
+        "answer": 3,
+        "id": "N5-13-012"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）に住んでいます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "忘れる",
+          "来週",
+          "注文",
+          "集める"
+        ],
+        "answer": 1,
+        "id": "N5-13-013"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を使います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "家",
+          "遠い",
+          "毎日",
+          "縛る"
+        ],
+        "answer": 0,
+        "id": "N5-13-014"
+      },
+      {
+        "type": "文脈規定",
+        "text": "友だちと（　）をしました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "もらう",
+          "乗る",
+          "部屋",
+          "こんばんは"
+        ],
+        "answer": 2,
+        "id": "N5-13-015"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）が終わりました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "溶ける",
+          "面白い",
+          "努力する",
+          "通訳"
+        ],
+        "answer": 0,
+        "id": "N5-13-016"
+      },
+      {
+        "type": "文脈規定",
+        "text": "朝（　）を食べます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "毎日",
+          "誕生日",
+          "値段",
+          "空"
+        ],
+        "answer": 2,
+        "id": "N5-13-017"
+      },
+      {
+        "type": "文脈規定",
+        "text": "毎日（　）を飲みます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "ご飯",
+          "思う",
+          "打つ",
+          "迎える"
+        ],
+        "answer": 3,
+        "id": "N5-13-018"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）がほしいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "考える",
+          "頭",
+          "引く",
+          "辛い"
+        ],
+        "answer": 0,
+        "id": "N5-13-019"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）に行きたいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "慣れる",
+          "魚",
+          "手紙",
+          "道路"
+        ],
+        "answer": 0,
+        "id": "N5-13-020"
+      },
+      {
+        "type": "言い換え",
+        "text": "「ズボン」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "to cross",
+          "pants",
+          "very",
+          "star"
+        ],
+        "answer": 1,
+        "id": "N5-13-021"
+      },
+      {
+        "type": "言い換え",
+        "text": "「取る」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "town",
+          "to take",
+          "one thing",
+          "reply"
+        ],
+        "answer": 1,
+        "id": "N5-13-022"
+      },
+      {
+        "type": "言い換え",
+        "text": "「彼女」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "shrine",
+          "living room",
+          "she/girlfriend",
+          "bag"
+        ],
+        "answer": 2,
+        "id": "N5-13-023"
+      },
+      {
+        "type": "言い換え",
+        "text": "「朝ご飯」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "export",
+          "search",
+          "breakfast",
+          "remember"
+        ],
+        "answer": 2,
+        "id": "N5-13-024"
+      },
+      {
+        "type": "言い換え",
+        "text": "「住所」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "to get off",
+          "to study",
+          "address",
+          "sky"
+        ],
+        "answer": 2,
+        "id": "N5-13-025"
+      },
+      {
+        "type": "文法形式",
+        "text": "私は学生（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "です",
+          "だ",
+          "ます",
+          "ある"
+        ],
+        "answer": 0,
+        "id": "N5-13-026"
+      },
+      {
+        "type": "文法形式",
+        "text": "これは本（　）ありません。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "では",
+          "が",
+          "を",
+          "に"
+        ],
+        "answer": 0,
+        "id": "N5-13-027"
+      },
+      {
+        "type": "文法形式",
+        "text": "学校（　）行きます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "に",
+          "を",
+          "が",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-13-028"
+      },
+      {
+        "type": "文法形式",
+        "text": "友だち（　）会いました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "に",
+          "を",
+          "が",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-13-029"
+      },
+      {
+        "type": "文法形式",
+        "text": "日本語（　）勉強しています。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "を",
+          "に",
+          "が",
+          "で"
+        ],
+        "answer": 0,
+        "id": "N5-13-030"
+      },
+      {
+        "type": "文法形式",
+        "text": "電車（　）来ます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-13-031"
+      },
+      {
+        "type": "文法形式",
+        "text": "コーヒー（　）飲みたいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-13-032"
+      },
+      {
+        "type": "文法形式",
+        "text": "映画（　）見ました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "を",
+          "が",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-13-033"
+      },
+      {
+        "type": "文法形式",
+        "text": "部屋（　）きれいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "は",
+          "を",
+          "に",
+          "が"
+        ],
+        "answer": 0,
+        "id": "N5-13-034"
+      },
+      {
+        "type": "文法形式",
+        "text": "本を読む（　）が好きです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "の",
+          "を",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-13-035"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: は / です / 私 / 学生",
+        "question": "★に入るのは？",
+        "options": [
+          "は",
+          "です",
+          "私",
+          "学生"
+        ],
+        "answer": 3,
+        "id": "N5-13-036"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 日本語 / 勉強します / を / 毎日",
+        "question": "★に入るのは？",
+        "options": [
+          "日本語",
+          "勉強します",
+          "を",
+          "毎日"
+        ],
+        "answer": 2,
+        "id": "N5-13-037"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: と / 友だち / 会いました / きのう",
+        "question": "★に入るのは？",
+        "options": [
+          "と",
+          "友だち",
+          "会いました",
+          "きのう"
+        ],
+        "answer": 2,
+        "id": "N5-13-038"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: この / 本 / は / おもしろい",
+        "question": "★に入るのは？",
+        "options": [
+          "この",
+          "本",
+          "は",
+          "おもしろい"
+        ],
+        "answer": 1,
+        "id": "N5-13-039"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 歩いて / 駅 / 行きます / まで",
+        "question": "★に入るのは？",
+        "options": [
+          "歩いて",
+          "駅",
+          "行きます",
+          "まで"
+        ],
+        "answer": 1,
+        "id": "N5-13-040"
+      },
+      {
+        "type": "文章の文法",
+        "text": "私は毎朝6時に起きます。顔を洗って、朝ごはんを（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "食べます",
+          "食べて",
+          "食べた",
+          "食べる"
+        ],
+        "answer": 0,
+        "id": "N5-13-041"
+      },
+      {
+        "type": "文章の文法",
+        "text": "きのうは日曜日でした。友だちと公園で（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "遊びました",
+          "遊びます",
+          "遊んで",
+          "遊ぶ"
+        ],
+        "answer": 0,
+        "id": "N5-13-042"
+      },
+      {
+        "type": "文章の文法",
+        "text": "この店は安くて、（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "おいしいです",
+          "おいしい",
+          "おいしくて",
+          "おいしかった"
+        ],
+        "answer": 0,
+        "id": "N5-13-043"
+      },
+      {
+        "type": "文章の文法",
+        "text": "来週テストがあります。だから、今日は（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "勉強します",
+          "勉強した",
+          "勉強して",
+          "勉強する"
+        ],
+        "answer": 0,
+        "id": "N5-13-044"
+      },
+      {
+        "type": "文章の文法",
+        "text": "電車が来ません。30分（　）います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "待って",
+          "待った",
+          "待つ",
+          "待ち"
+        ],
+        "answer": 0,
+        "id": "N5-13-045"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "田中さんは毎朝7時に起きます。",
+        "question": "何時に起きますか。",
+        "options": [
+          "6時",
+          "7時",
+          "8時",
+          "9時"
+        ],
+        "answer": 1,
+        "id": "N5-13-046"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "私の部屋は広くないですが、明るいです。",
+        "question": "部屋はどうですか。",
+        "options": [
+          "広い",
+          "暗い",
+          "明るい",
+          "寒い"
+        ],
+        "answer": 2,
+        "id": "N5-13-047"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "駅から学校までバスで5分です。",
+        "question": "バスで何分？",
+        "options": [
+          "3分",
+          "5分",
+          "10分",
+          "15分"
+        ],
+        "answer": 1,
+        "id": "N5-13-048"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "私は日本語を勉強しています。毎日2時間勉強します。日本語は難しいですが、おもしろいです。",
+        "question": "日本語をどう思いますか。",
+        "options": [
+          "簡単",
+          "難しいけどおもしろい",
+          "つまらない",
+          "簡単でおもしろい"
+        ],
+        "answer": 1,
+        "id": "N5-13-049"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "山田さんの家族は4人です。お父さんとお母さんと妹がいます。",
+        "question": "家族は何人？",
+        "options": [
+          "3人",
+          "4人",
+          "5人",
+          "6人"
+        ],
+        "answer": 1,
+        "id": "N5-13-050"
+      },
+      {
+        "type": "情報検索",
+        "text": "【図書館】開館: 9:00-17:00 休み: 月曜日",
+        "question": "何時まで？",
+        "options": [
+          "16時",
+          "17時",
+          "18時",
+          "19時"
+        ],
+        "answer": 1,
+        "id": "N5-13-051"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人と女の人が話しています。男の人は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "りんご",
+          "みかん",
+          "バナナ",
+          "いちご"
+        ],
+        "answer": 0,
+        "id": "N5-13-052"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "学生と先生が話しています。宿題はいつまでですか。",
+        "question": "質問",
+        "options": [
+          "月曜",
+          "火曜",
+          "水曜",
+          "木曜"
+        ],
+        "answer": 2,
+        "id": "N5-13-053"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "女の人と男の人が話しています。どこで会いますか。",
+        "question": "質問",
+        "options": [
+          "駅",
+          "学校",
+          "図書館",
+          "公園"
+        ],
+        "answer": 0,
+        "id": "N5-13-054"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "お母さんと子供が話しています。子供は何を食べますか。",
+        "question": "質問",
+        "options": [
+          "パン",
+          "ごはん",
+          "たまご",
+          "サラダ"
+        ],
+        "answer": 1,
+        "id": "N5-13-055"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "店員と客が話しています。客は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "シャツ",
+          "ズボン",
+          "靴",
+          "帽子"
+        ],
+        "answer": 0,
+        "id": "N5-13-056"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人が話しています。明日の天気は？",
+        "question": "質問",
+        "options": [
+          "晴れ",
+          "曇り",
+          "雨",
+          "雪"
+        ],
+        "answer": 2,
+        "id": "N5-13-057"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。何が好きですか。",
+        "question": "質問",
+        "options": [
+          "音楽",
+          "スポーツ",
+          "料理",
+          "映画"
+        ],
+        "answer": 0,
+        "id": "N5-13-058"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。どこに住んでいますか。",
+        "question": "質問",
+        "options": [
+          "東京",
+          "大阪",
+          "京都",
+          "名古屋"
+        ],
+        "answer": 1,
+        "id": "N5-13-059"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "学生が話しています。何を勉強していますか。",
+        "question": "質問",
+        "options": [
+          "英語",
+          "日本語",
+          "数学",
+          "歴史"
+        ],
+        "answer": 1,
+        "id": "N5-13-060"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。趣味は何ですか。",
+        "question": "質問",
+        "options": [
+          "読書",
+          "映画",
+          "旅行",
+          "料理"
+        ],
+        "answer": 2,
+        "id": "N5-13-061"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。いつ日本に来ましたか。",
+        "question": "質問",
+        "options": [
+          "去年",
+          "2年前",
+          "先月",
+          "先週"
+        ],
+        "answer": 0,
+        "id": "N5-13-062"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "二人が話しています。パーティーは何時から？",
+        "question": "質問",
+        "options": [
+          "5時",
+          "6時",
+          "7時",
+          "8時"
+        ],
+        "answer": 1,
+        "id": "N5-13-063"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "「ありがとう」と言われました。",
+        "question": "何と言いますか。",
+        "options": [
+          "どういたしまして",
+          "すみません",
+          "おはよう",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-13-064"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "朝、先生に会いました。",
+        "question": "何と言いますか。",
+        "options": [
+          "おはようございます",
+          "こんにちは",
+          "こんばんは",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-13-065"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べる前です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 0,
+        "id": "N5-13-066"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べた後です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 1,
+        "id": "N5-13-067"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "出かける時、家族に。",
+        "question": "何と言いますか。",
+        "options": [
+          "行ってきます",
+          "ただいま",
+          "おかえり",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-13-068"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お名前は？",
+        "question": "何と答えますか。",
+        "options": [
+          "田中です",
+          "いいえ",
+          "はい",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-13-069"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "これはいくらですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "100円です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-13-070"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "どこに住んでいますか。",
+        "question": "何と答えますか。",
+        "options": [
+          "東京です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-13-071"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "何歳ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "20歳です",
+          "学生です",
+          "日本人です",
+          "田中です"
+        ],
+        "answer": 0,
+        "id": "N5-13-072"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お仕事は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "会社員です",
+          "東京です",
+          "日本です",
+          "20歳です"
+        ],
+        "answer": 0,
+        "id": "N5-13-073"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "趣味は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "読書です",
+          "はい",
+          "いいえ",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-13-074"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今何時ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "3時です",
+          "月曜日です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-13-075"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今日は何曜日ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "月曜日です",
+          "3時です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-13-076"
+      }
+    ],
+    "14": [
+      {
+        "type": "漢字読み",
+        "text": "<u>計画</u>の読み方は？",
+        "question": "「計画」の読み方は？",
+        "options": [
+          "ちかい",
+          "しゅうかん",
+          "けいかく",
+          "は"
+        ],
+        "answer": 2,
+        "id": "N5-14-001"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>お詫び</u>の読み方は？",
+        "question": "「お詫び」の読み方は？",
+        "options": [
+          "おりる",
+          "おわび",
+          "ひるごはん",
+          "みじかい"
+        ],
+        "answer": 1,
+        "id": "N5-14-002"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>可愛い</u>の読み方は？",
+        "question": "「可愛い」の読み方は？",
+        "options": [
+          "かわいい",
+          "ばん",
+          "あまい",
+          "かいだん"
+        ],
+        "answer": 0,
+        "id": "N5-14-003"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>床</u>の読み方は？",
+        "question": "「床」の読み方は？",
+        "options": [
+          "わかる",
+          "なまえ",
+          "ゆか",
+          "せいかつ"
+        ],
+        "answer": 2,
+        "id": "N5-14-004"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>犬</u>の読み方は？",
+        "question": "「犬」の読み方は？",
+        "options": [
+          "なげる",
+          "げつようび",
+          "いぬ",
+          "ど"
+        ],
+        "answer": 2,
+        "id": "N5-14-005"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>美味しい</u>の読み方は？",
+        "question": "「美味しい」の読み方は？",
+        "options": [
+          "おんな",
+          "さがす",
+          "おいしい",
+          "そと"
+        ],
+        "answer": 2,
+        "id": "N5-14-006"
+      },
+      {
+        "type": "表記",
+        "text": "<u>おとうと</u>の漢字は？",
+        "question": "「おとうと」の書き方は？",
+        "options": [
+          "弟",
+          "絵",
+          "お母さん",
+          "説明"
+        ],
+        "answer": 0,
+        "id": "N5-14-007"
+      },
+      {
+        "type": "表記",
+        "text": "<u>びょうき</u>の漢字は？",
+        "question": "「びょうき」の書き方は？",
+        "options": [
+          "病気",
+          "忘れる",
+          "見物",
+          "顔"
+        ],
+        "answer": 0,
+        "id": "N5-14-008"
+      },
+      {
+        "type": "表記",
+        "text": "<u>けいさつ</u>の漢字は？",
+        "question": "「けいさつ」の書き方は？",
+        "options": [
+          "反対",
+          "警察",
+          "比べる",
+          "今朝"
+        ],
+        "answer": 1,
+        "id": "N5-14-009"
+      },
+      {
+        "type": "表記",
+        "text": "<u>いろ</u>の漢字は？",
+        "question": "「いろ」の書き方は？",
+        "options": [
+          "来る",
+          "全部",
+          "色",
+          "星"
+        ],
+        "answer": 2,
+        "id": "N5-14-010"
+      },
+      {
+        "type": "表記",
+        "text": "<u>ちず</u>の漢字は？",
+        "question": "「ちず」の書き方は？",
+        "options": [
+          "光",
+          "地図",
+          "お弁当",
+          "町"
+        ],
+        "answer": 1,
+        "id": "N5-14-011"
+      },
+      {
+        "type": "表記",
+        "text": "<u>もつ</u>の漢字は？",
+        "question": "「もつ」の書き方は？",
+        "options": [
+          "起こす",
+          "持つ",
+          "市",
+          "困る"
+        ],
+        "answer": 1,
+        "id": "N5-14-012"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）が好きです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "パソコン",
+          "謝る",
+          "匹",
+          "お姉さん"
+        ],
+        "answer": 1,
+        "id": "N5-14-013"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を見ました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "石鹸",
+          "通訳",
+          "春",
+          "返す"
+        ],
+        "answer": 1,
+        "id": "N5-14-014"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を買いました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "上",
+          "生まれる",
+          "山",
+          "正しい"
+        ],
+        "answer": 1,
+        "id": "N5-14-015"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）で働いています。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "たくさん",
+          "案内",
+          "紹介する",
+          "会計"
+        ],
+        "answer": 3,
+        "id": "N5-14-016"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を勉強しています。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "入学",
+          "店員",
+          "履く",
+          "今週"
+        ],
+        "answer": 1,
+        "id": "N5-14-017"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）が上手です。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "橋",
+          "港",
+          "町",
+          "本棚"
+        ],
+        "answer": 1,
+        "id": "N5-14-018"
+      },
+      {
+        "type": "文脈規定",
+        "text": "部屋に（　）があります。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "好き",
+          "問題",
+          "比べる",
+          "上手"
+        ],
+        "answer": 0,
+        "id": "N5-14-019"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）は難しいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "家族",
+          "まだ",
+          "肉",
+          "とても"
+        ],
+        "answer": 1,
+        "id": "N5-14-020"
+      },
+      {
+        "type": "言い換え",
+        "text": "「叩く」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "there",
+          "to knock",
+          "that (far)",
+          "notebook"
+        ],
+        "answer": 1,
+        "id": "N5-14-021"
+      },
+      {
+        "type": "言い換え",
+        "text": "「ここ」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "high/expensive",
+          "here",
+          "car",
+          "he/boyfriend"
+        ],
+        "answer": 1,
+        "id": "N5-14-022"
+      },
+      {
+        "type": "言い換え",
+        "text": "「形」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "shape",
+          "to decrease",
+          "holiday",
+          "to fly"
+        ],
+        "answer": 0,
+        "id": "N5-14-023"
+      },
+      {
+        "type": "言い換え",
+        "text": "「会社員」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "to help",
+          "to freeze",
+          "office worker",
+          "to receive"
+        ],
+        "answer": 2,
+        "id": "N5-14-024"
+      },
+      {
+        "type": "言い換え",
+        "text": "「減る」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "charge",
+          "early",
+          "but",
+          "to decrease"
+        ],
+        "answer": 3,
+        "id": "N5-14-025"
+      },
+      {
+        "type": "文法形式",
+        "text": "食べ（　）から寝ます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-14-026"
+      },
+      {
+        "type": "文法形式",
+        "text": "日本に行き（　）です。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "たい",
+          "ます",
+          "た",
+          "る"
+        ],
+        "answer": 0,
+        "id": "N5-14-027"
+      },
+      {
+        "type": "文法形式",
+        "text": "雨が降っ（　）います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-14-028"
+      },
+      {
+        "type": "文法形式",
+        "text": "ここに座っ（　）ください。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-14-029"
+      },
+      {
+        "type": "文法形式",
+        "text": "まだ食べ（　）いません。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-14-030"
+      },
+      {
+        "type": "文法形式",
+        "text": "明日来（　）か。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "ます",
+          "る",
+          "た",
+          "て"
+        ],
+        "answer": 0,
+        "id": "N5-14-031"
+      },
+      {
+        "type": "文法形式",
+        "text": "きのう何を（　）か。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "しました",
+          "します",
+          "する",
+          "して"
+        ],
+        "answer": 0,
+        "id": "N5-14-032"
+      },
+      {
+        "type": "文法形式",
+        "text": "この本は（　）です。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "おもしろい",
+          "おもしろく",
+          "おもしろ",
+          "おもしろいな"
+        ],
+        "answer": 0,
+        "id": "N5-14-033"
+      },
+      {
+        "type": "文法形式",
+        "text": "部屋を（　）しました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "きれいに",
+          "きれい",
+          "きれいな",
+          "きれいく"
+        ],
+        "answer": 0,
+        "id": "N5-14-034"
+      },
+      {
+        "type": "文法形式",
+        "text": "早く（　）ください。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "起きて",
+          "起きる",
+          "起きた",
+          "起き"
+        ],
+        "answer": 0,
+        "id": "N5-14-035"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: ながら / コーヒー / 飲み / を",
+        "question": "★に入るのは？",
+        "options": [
+          "ながら",
+          "コーヒー",
+          "飲み",
+          "を"
+        ],
+        "answer": 2,
+        "id": "N5-14-036"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: が / 降って / います / 雨",
+        "question": "★に入るのは？",
+        "options": [
+          "が",
+          "降って",
+          "います",
+          "雨"
+        ],
+        "answer": 3,
+        "id": "N5-14-037"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: たいです / 日本 / に / 行き",
+        "question": "★に入るのは？",
+        "options": [
+          "たいです",
+          "日本",
+          "に",
+          "行き"
+        ],
+        "answer": 2,
+        "id": "N5-14-038"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: きれい / 部屋 / です / が",
+        "question": "★に入るのは？",
+        "options": [
+          "きれい",
+          "部屋",
+          "です",
+          "が"
+        ],
+        "answer": 3,
+        "id": "N5-14-039"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 見 / を / ました / 映画",
+        "question": "★に入るのは？",
+        "options": [
+          "見",
+          "を",
+          "ました",
+          "映画"
+        ],
+        "answer": 2,
+        "id": "N5-14-040"
+      },
+      {
+        "type": "文章の文法",
+        "text": "私は毎朝6時に起きます。顔を洗って、朝ごはんを（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "食べます",
+          "食べて",
+          "食べた",
+          "食べる"
+        ],
+        "answer": 0,
+        "id": "N5-14-041"
+      },
+      {
+        "type": "文章の文法",
+        "text": "きのうは日曜日でした。友だちと公園で（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "遊びました",
+          "遊びます",
+          "遊んで",
+          "遊ぶ"
+        ],
+        "answer": 0,
+        "id": "N5-14-042"
+      },
+      {
+        "type": "文章の文法",
+        "text": "この店は安くて、（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "おいしいです",
+          "おいしい",
+          "おいしくて",
+          "おいしかった"
+        ],
+        "answer": 0,
+        "id": "N5-14-043"
+      },
+      {
+        "type": "文章の文法",
+        "text": "来週テストがあります。だから、今日は（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "勉強します",
+          "勉強した",
+          "勉強して",
+          "勉強する"
+        ],
+        "answer": 0,
+        "id": "N5-14-044"
+      },
+      {
+        "type": "文章の文法",
+        "text": "電車が来ません。30分（　）います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "待って",
+          "待った",
+          "待つ",
+          "待ち"
+        ],
+        "answer": 0,
+        "id": "N5-14-045"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "山田さんは毎日図書館で本を読みます。",
+        "question": "どこで読みますか。",
+        "options": [
+          "学校",
+          "公園",
+          "図書館",
+          "家"
+        ],
+        "answer": 2,
+        "id": "N5-14-046"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "今日は雨です。傘を持っていきます。",
+        "question": "今日の天気は？",
+        "options": [
+          "晴れ",
+          "曇り",
+          "雨",
+          "雪"
+        ],
+        "answer": 2,
+        "id": "N5-14-047"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "このりんごは100円です。",
+        "question": "いくら？",
+        "options": [
+          "50円",
+          "100円",
+          "150円",
+          "200円"
+        ],
+        "answer": 1,
+        "id": "N5-14-048"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "私の町は小さいですが、きれいです。山と川があります。",
+        "question": "この町に何がある？",
+        "options": [
+          "海",
+          "山と川",
+          "ビル",
+          "空港"
+        ],
+        "answer": 1,
+        "id": "N5-14-049"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "田中さんは朝6時に起きます。7時に朝ごはんを食べます。8時に家を出ます。",
+        "question": "何時に家を出る？",
+        "options": [
+          "6時",
+          "7時",
+          "8時",
+          "9時"
+        ],
+        "answer": 2,
+        "id": "N5-14-050"
+      },
+      {
+        "type": "情報検索",
+        "text": "【映画】時間: 10:00, 14:00 料金: 大人1800円",
+        "question": "何時から？",
+        "options": [
+          "9時",
+          "10時",
+          "11時",
+          "12時"
+        ],
+        "answer": 1,
+        "id": "N5-14-051"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人と女の人が話しています。男の人は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "りんご",
+          "みかん",
+          "バナナ",
+          "いちご"
+        ],
+        "answer": 0,
+        "id": "N5-14-052"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "学生と先生が話しています。宿題はいつまでですか。",
+        "question": "質問",
+        "options": [
+          "月曜",
+          "火曜",
+          "水曜",
+          "木曜"
+        ],
+        "answer": 2,
+        "id": "N5-14-053"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "女の人と男の人が話しています。どこで会いますか。",
+        "question": "質問",
+        "options": [
+          "駅",
+          "学校",
+          "図書館",
+          "公園"
+        ],
+        "answer": 0,
+        "id": "N5-14-054"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "お母さんと子供が話しています。子供は何を食べますか。",
+        "question": "質問",
+        "options": [
+          "パン",
+          "ごはん",
+          "たまご",
+          "サラダ"
+        ],
+        "answer": 1,
+        "id": "N5-14-055"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "店員と客が話しています。客は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "シャツ",
+          "ズボン",
+          "靴",
+          "帽子"
+        ],
+        "answer": 0,
+        "id": "N5-14-056"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人が話しています。明日の天気は？",
+        "question": "質問",
+        "options": [
+          "晴れ",
+          "曇り",
+          "雨",
+          "雪"
+        ],
+        "answer": 2,
+        "id": "N5-14-057"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。何が好きですか。",
+        "question": "質問",
+        "options": [
+          "音楽",
+          "スポーツ",
+          "料理",
+          "映画"
+        ],
+        "answer": 0,
+        "id": "N5-14-058"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。どこに住んでいますか。",
+        "question": "質問",
+        "options": [
+          "東京",
+          "大阪",
+          "京都",
+          "名古屋"
+        ],
+        "answer": 1,
+        "id": "N5-14-059"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "学生が話しています。何を勉強していますか。",
+        "question": "質問",
+        "options": [
+          "英語",
+          "日本語",
+          "数学",
+          "歴史"
+        ],
+        "answer": 1,
+        "id": "N5-14-060"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。趣味は何ですか。",
+        "question": "質問",
+        "options": [
+          "読書",
+          "映画",
+          "旅行",
+          "料理"
+        ],
+        "answer": 2,
+        "id": "N5-14-061"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。いつ日本に来ましたか。",
+        "question": "質問",
+        "options": [
+          "去年",
+          "2年前",
+          "先月",
+          "先週"
+        ],
+        "answer": 0,
+        "id": "N5-14-062"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "二人が話しています。パーティーは何時から？",
+        "question": "質問",
+        "options": [
+          "5時",
+          "6時",
+          "7時",
+          "8時"
+        ],
+        "answer": 1,
+        "id": "N5-14-063"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "「ありがとう」と言われました。",
+        "question": "何と言いますか。",
+        "options": [
+          "どういたしまして",
+          "すみません",
+          "おはよう",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-14-064"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "朝、先生に会いました。",
+        "question": "何と言いますか。",
+        "options": [
+          "おはようございます",
+          "こんにちは",
+          "こんばんは",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-14-065"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べる前です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 0,
+        "id": "N5-14-066"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べた後です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 1,
+        "id": "N5-14-067"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "出かける時、家族に。",
+        "question": "何と言いますか。",
+        "options": [
+          "行ってきます",
+          "ただいま",
+          "おかえり",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-14-068"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お名前は？",
+        "question": "何と答えますか。",
+        "options": [
+          "田中です",
+          "いいえ",
+          "はい",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-14-069"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "これはいくらですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "100円です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-14-070"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "どこに住んでいますか。",
+        "question": "何と答えますか。",
+        "options": [
+          "東京です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-14-071"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "何歳ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "20歳です",
+          "学生です",
+          "日本人です",
+          "田中です"
+        ],
+        "answer": 0,
+        "id": "N5-14-072"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お仕事は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "会社員です",
+          "東京です",
+          "日本です",
+          "20歳です"
+        ],
+        "answer": 0,
+        "id": "N5-14-073"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "趣味は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "読書です",
+          "はい",
+          "いいえ",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-14-074"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今何時ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "3時です",
+          "月曜日です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-14-075"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今日は何曜日ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "月曜日です",
+          "3時です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-14-076"
+      }
+    ],
+    "15": [
+      {
+        "type": "漢字読み",
+        "text": "<u>寝かす</u>の読み方は？",
+        "question": "「寝かす」の読み方は？",
+        "options": [
+          "なに",
+          "げんきん",
+          "みっつ",
+          "ねかす"
+        ],
+        "answer": 3,
+        "id": "N5-15-001"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>階段</u>の読み方は？",
+        "question": "「階段」の読み方は？",
+        "options": [
+          "かいだん",
+          "ながい",
+          "しゃしん",
+          "かいしゃいん"
+        ],
+        "answer": 0,
+        "id": "N5-15-002"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>運転する</u>の読み方は？",
+        "question": "「運転する」の読み方は？",
+        "options": [
+          "うんてんする",
+          "ほし",
+          "あう",
+          "あんないする"
+        ],
+        "answer": 0,
+        "id": "N5-15-003"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>公園</u>の読み方は？",
+        "question": "「公園」の読み方は？",
+        "options": [
+          "おれい",
+          "ごはん",
+          "さんか",
+          "こうえん"
+        ],
+        "answer": 3,
+        "id": "N5-15-004"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>人</u>の読み方は？",
+        "question": "「人」の読み方は？",
+        "options": [
+          "へんじ",
+          "ひと",
+          "しごと",
+          "おてら"
+        ],
+        "answer": 1,
+        "id": "N5-15-005"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>印刷</u>の読み方は？",
+        "question": "「印刷」の読み方は？",
+        "options": [
+          "しんごう",
+          "おわび",
+          "いんさつ",
+          "おとす"
+        ],
+        "answer": 2,
+        "id": "N5-15-006"
+      },
+      {
+        "type": "表記",
+        "text": "<u>ばん</u>の漢字は？",
+        "question": "「ばん」の書き方は？",
+        "options": [
+          "出張",
+          "晩",
+          "理由",
+          "久しぶり"
+        ],
+        "answer": 1,
+        "id": "N5-15-007"
+      },
+      {
+        "type": "表記",
+        "text": "<u>なおす</u>の漢字は？",
+        "question": "「なおす」の書き方は？",
+        "options": [
+          "断る",
+          "習慣",
+          "直す",
+          "一枚"
+        ],
+        "answer": 2,
+        "id": "N5-15-008"
+      },
+      {
+        "type": "表記",
+        "text": "<u>おわる</u>の漢字は？",
+        "question": "「おわる」の書き方は？",
+        "options": [
+          "橋",
+          "大丈夫",
+          "注意",
+          "終わる"
+        ],
+        "answer": 3,
+        "id": "N5-15-009"
+      },
+      {
+        "type": "表記",
+        "text": "<u>つつむ</u>の漢字は？",
+        "question": "「つつむ」の書き方は？",
+        "options": [
+          "番",
+          "会社員",
+          "包む",
+          "天井"
+        ],
+        "answer": 2,
+        "id": "N5-15-010"
+      },
+      {
+        "type": "表記",
+        "text": "<u>げんき</u>の漢字は？",
+        "question": "「げんき」の書き方は？",
+        "options": [
+          "元気",
+          "怒る",
+          "来週",
+          "便利"
+        ],
+        "answer": 0,
+        "id": "N5-15-011"
+      },
+      {
+        "type": "表記",
+        "text": "<u>さんか</u>の漢字は？",
+        "question": "「さんか」の書き方は？",
+        "options": [
+          "鞄",
+          "午前",
+          "招待",
+          "参加"
+        ],
+        "answer": 3,
+        "id": "N5-15-012"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）は楽しいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "役に立つ",
+          "さようなら",
+          "注文",
+          "もし"
+        ],
+        "answer": 3,
+        "id": "N5-15-013"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を聞きます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "放送",
+          "頭",
+          "洗濯機",
+          "お願いします"
+        ],
+        "answer": 2,
+        "id": "N5-15-014"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を読みます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "環境",
+          "お酒",
+          "お詫び",
+          "空"
+        ],
+        "answer": 2,
+        "id": "N5-15-015"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を作ります。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "安心",
+          "雨",
+          "泳ぐ",
+          "本当"
+        ],
+        "answer": 3,
+        "id": "N5-15-016"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）に住んでいます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "県",
+          "この",
+          "もっと",
+          "上"
+        ],
+        "answer": 1,
+        "id": "N5-15-017"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を使います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "エレベーター",
+          "短い",
+          "起きる",
+          "川"
+        ],
+        "answer": 3,
+        "id": "N5-15-018"
+      },
+      {
+        "type": "文脈規定",
+        "text": "友だちと（　）をしました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "選ぶ",
+          "歩く",
+          "青い",
+          "白い"
+        ],
+        "answer": 0,
+        "id": "N5-15-019"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）が終わりました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "レストラン",
+          "電話",
+          "持つ",
+          "後輩"
+        ],
+        "answer": 3,
+        "id": "N5-15-020"
+      },
+      {
+        "type": "言い換え",
+        "text": "「閉める」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "to close",
+          "bath",
+          "to be left over",
+          "to be changed"
+        ],
+        "answer": 0,
+        "id": "N5-15-021"
+      },
+      {
+        "type": "言い換え",
+        "text": "「散歩」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "necktie",
+          "to resemble",
+          "walk",
+          "park"
+        ],
+        "answer": 2,
+        "id": "N5-15-022"
+      },
+      {
+        "type": "言い換え",
+        "text": "「飲む」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "machine",
+          "to drink",
+          "car",
+          "agree"
+        ],
+        "answer": 1,
+        "id": "N5-15-023"
+      },
+      {
+        "type": "言い換え",
+        "text": "「一緒に」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "picture",
+          "together",
+          "to disappear",
+          "morning/AM"
+        ],
+        "answer": 1,
+        "id": "N5-15-024"
+      },
+      {
+        "type": "言い換え",
+        "text": "「冊」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "to date",
+          "books",
+          "to sit",
+          "alcohol"
+        ],
+        "answer": 1,
+        "id": "N5-15-025"
+      },
+      {
+        "type": "文法形式",
+        "text": "私は学生（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "です",
+          "だ",
+          "ます",
+          "ある"
+        ],
+        "answer": 0,
+        "id": "N5-15-026"
+      },
+      {
+        "type": "文法形式",
+        "text": "これは本（　）ありません。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "では",
+          "が",
+          "を",
+          "に"
+        ],
+        "answer": 0,
+        "id": "N5-15-027"
+      },
+      {
+        "type": "文法形式",
+        "text": "学校（　）行きます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "に",
+          "を",
+          "が",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-15-028"
+      },
+      {
+        "type": "文法形式",
+        "text": "友だち（　）会いました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "に",
+          "を",
+          "が",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-15-029"
+      },
+      {
+        "type": "文法形式",
+        "text": "日本語（　）勉強しています。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "を",
+          "に",
+          "が",
+          "で"
+        ],
+        "answer": 0,
+        "id": "N5-15-030"
+      },
+      {
+        "type": "文法形式",
+        "text": "電車（　）来ます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-15-031"
+      },
+      {
+        "type": "文法形式",
+        "text": "コーヒー（　）飲みたいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-15-032"
+      },
+      {
+        "type": "文法形式",
+        "text": "映画（　）見ました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "を",
+          "が",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-15-033"
+      },
+      {
+        "type": "文法形式",
+        "text": "部屋（　）きれいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "は",
+          "を",
+          "に",
+          "が"
+        ],
+        "answer": 0,
+        "id": "N5-15-034"
+      },
+      {
+        "type": "文法形式",
+        "text": "本を読む（　）が好きです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "の",
+          "を",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-15-035"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: です / は / 私 / 学生",
+        "question": "★に入るのは？",
+        "options": [
+          "です",
+          "は",
+          "私",
+          "学生"
+        ],
+        "answer": 0,
+        "id": "N5-15-036"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 勉強します / 毎日 / を / 日本語",
+        "question": "★に入るのは？",
+        "options": [
+          "勉強します",
+          "毎日",
+          "を",
+          "日本語"
+        ],
+        "answer": 3,
+        "id": "N5-15-037"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: と / 会いました / 友だち / きのう",
+        "question": "★に入るのは？",
+        "options": [
+          "と",
+          "会いました",
+          "友だち",
+          "きのう"
+        ],
+        "answer": 2,
+        "id": "N5-15-038"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: この / は / おもしろい / 本",
+        "question": "★に入るのは？",
+        "options": [
+          "この",
+          "は",
+          "おもしろい",
+          "本"
+        ],
+        "answer": 0,
+        "id": "N5-15-039"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 駅 / まで / 歩いて / 行きます",
+        "question": "★に入るのは？",
+        "options": [
+          "駅",
+          "まで",
+          "歩いて",
+          "行きます"
+        ],
+        "answer": 1,
+        "id": "N5-15-040"
+      },
+      {
+        "type": "文章の文法",
+        "text": "私は毎朝6時に起きます。顔を洗って、朝ごはんを（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "食べます",
+          "食べて",
+          "食べた",
+          "食べる"
+        ],
+        "answer": 0,
+        "id": "N5-15-041"
+      },
+      {
+        "type": "文章の文法",
+        "text": "きのうは日曜日でした。友だちと公園で（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "遊びました",
+          "遊びます",
+          "遊んで",
+          "遊ぶ"
+        ],
+        "answer": 0,
+        "id": "N5-15-042"
+      },
+      {
+        "type": "文章の文法",
+        "text": "この店は安くて、（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "おいしいです",
+          "おいしい",
+          "おいしくて",
+          "おいしかった"
+        ],
+        "answer": 0,
+        "id": "N5-15-043"
+      },
+      {
+        "type": "文章の文法",
+        "text": "来週テストがあります。だから、今日は（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "勉強します",
+          "勉強した",
+          "勉強して",
+          "勉強する"
+        ],
+        "answer": 0,
+        "id": "N5-15-044"
+      },
+      {
+        "type": "文章の文法",
+        "text": "電車が来ません。30分（　）います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "待って",
+          "待った",
+          "待つ",
+          "待ち"
+        ],
+        "answer": 0,
+        "id": "N5-15-045"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "田中さんは毎朝7時に起きます。",
+        "question": "何時に起きますか。",
+        "options": [
+          "6時",
+          "7時",
+          "8時",
+          "9時"
+        ],
+        "answer": 1,
+        "id": "N5-15-046"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "私の部屋は広くないですが、明るいです。",
+        "question": "部屋はどうですか。",
+        "options": [
+          "広い",
+          "暗い",
+          "明るい",
+          "寒い"
+        ],
+        "answer": 2,
+        "id": "N5-15-047"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "駅から学校までバスで5分です。",
+        "question": "バスで何分？",
+        "options": [
+          "3分",
+          "5分",
+          "10分",
+          "15分"
+        ],
+        "answer": 1,
+        "id": "N5-15-048"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "私は日本語を勉強しています。毎日2時間勉強します。日本語は難しいですが、おもしろいです。",
+        "question": "日本語をどう思いますか。",
+        "options": [
+          "簡単",
+          "難しいけどおもしろい",
+          "つまらない",
+          "簡単でおもしろい"
+        ],
+        "answer": 1,
+        "id": "N5-15-049"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "山田さんの家族は4人です。お父さんとお母さんと妹がいます。",
+        "question": "家族は何人？",
+        "options": [
+          "3人",
+          "4人",
+          "5人",
+          "6人"
+        ],
+        "answer": 1,
+        "id": "N5-15-050"
+      },
+      {
+        "type": "情報検索",
+        "text": "【レストラン】ランチ: 11:00-14:00 休み: 火曜日",
+        "question": "ランチは何時まで？",
+        "options": [
+          "13時",
+          "14時",
+          "15時",
+          "16時"
+        ],
+        "answer": 1,
+        "id": "N5-15-051"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人と女の人が話しています。男の人は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "りんご",
+          "みかん",
+          "バナナ",
+          "いちご"
+        ],
+        "answer": 0,
+        "id": "N5-15-052"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "学生と先生が話しています。宿題はいつまでですか。",
+        "question": "質問",
+        "options": [
+          "月曜",
+          "火曜",
+          "水曜",
+          "木曜"
+        ],
+        "answer": 2,
+        "id": "N5-15-053"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "女の人と男の人が話しています。どこで会いますか。",
+        "question": "質問",
+        "options": [
+          "駅",
+          "学校",
+          "図書館",
+          "公園"
+        ],
+        "answer": 0,
+        "id": "N5-15-054"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "お母さんと子供が話しています。子供は何を食べますか。",
+        "question": "質問",
+        "options": [
+          "パン",
+          "ごはん",
+          "たまご",
+          "サラダ"
+        ],
+        "answer": 1,
+        "id": "N5-15-055"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "店員と客が話しています。客は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "シャツ",
+          "ズボン",
+          "靴",
+          "帽子"
+        ],
+        "answer": 0,
+        "id": "N5-15-056"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人が話しています。明日の天気は？",
+        "question": "質問",
+        "options": [
+          "晴れ",
+          "曇り",
+          "雨",
+          "雪"
+        ],
+        "answer": 2,
+        "id": "N5-15-057"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。何が好きですか。",
+        "question": "質問",
+        "options": [
+          "音楽",
+          "スポーツ",
+          "料理",
+          "映画"
+        ],
+        "answer": 0,
+        "id": "N5-15-058"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。どこに住んでいますか。",
+        "question": "質問",
+        "options": [
+          "東京",
+          "大阪",
+          "京都",
+          "名古屋"
+        ],
+        "answer": 1,
+        "id": "N5-15-059"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "学生が話しています。何を勉強していますか。",
+        "question": "質問",
+        "options": [
+          "英語",
+          "日本語",
+          "数学",
+          "歴史"
+        ],
+        "answer": 1,
+        "id": "N5-15-060"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。趣味は何ですか。",
+        "question": "質問",
+        "options": [
+          "読書",
+          "映画",
+          "旅行",
+          "料理"
+        ],
+        "answer": 2,
+        "id": "N5-15-061"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。いつ日本に来ましたか。",
+        "question": "質問",
+        "options": [
+          "去年",
+          "2年前",
+          "先月",
+          "先週"
+        ],
+        "answer": 0,
+        "id": "N5-15-062"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "二人が話しています。パーティーは何時から？",
+        "question": "質問",
+        "options": [
+          "5時",
+          "6時",
+          "7時",
+          "8時"
+        ],
+        "answer": 1,
+        "id": "N5-15-063"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "「ありがとう」と言われました。",
+        "question": "何と言いますか。",
+        "options": [
+          "どういたしまして",
+          "すみません",
+          "おはよう",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-15-064"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "朝、先生に会いました。",
+        "question": "何と言いますか。",
+        "options": [
+          "おはようございます",
+          "こんにちは",
+          "こんばんは",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-15-065"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べる前です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 0,
+        "id": "N5-15-066"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べた後です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 1,
+        "id": "N5-15-067"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "出かける時、家族に。",
+        "question": "何と言いますか。",
+        "options": [
+          "行ってきます",
+          "ただいま",
+          "おかえり",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-15-068"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お名前は？",
+        "question": "何と答えますか。",
+        "options": [
+          "田中です",
+          "いいえ",
+          "はい",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-15-069"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "これはいくらですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "100円です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-15-070"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "どこに住んでいますか。",
+        "question": "何と答えますか。",
+        "options": [
+          "東京です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-15-071"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "何歳ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "20歳です",
+          "学生です",
+          "日本人です",
+          "田中です"
+        ],
+        "answer": 0,
+        "id": "N5-15-072"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お仕事は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "会社員です",
+          "東京です",
+          "日本です",
+          "20歳です"
+        ],
+        "answer": 0,
+        "id": "N5-15-073"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "趣味は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "読書です",
+          "はい",
+          "いいえ",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-15-074"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今何時ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "3時です",
+          "月曜日です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-15-075"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今日は何曜日ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "月曜日です",
+          "3時です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-15-076"
+      }
+    ],
+    "16": [
+      {
+        "type": "漢字読み",
+        "text": "<u>分かる</u>の読み方は？",
+        "question": "「分かる」の読み方は？",
+        "options": [
+          "わかる",
+          "りこんする",
+          "しょうかいする",
+          "あいさつ"
+        ],
+        "answer": 0,
+        "id": "N5-16-001"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>庭</u>の読み方は？",
+        "question": "「庭」の読み方は？",
+        "options": [
+          "にわ",
+          "ばんごはん",
+          "しつもんする",
+          "けいさつ"
+        ],
+        "answer": 0,
+        "id": "N5-16-002"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>生活</u>の読み方は？",
+        "question": "「生活」の読み方は？",
+        "options": [
+          "せいかつ",
+          "そぼ",
+          "ほうこく",
+          "はい"
+        ],
+        "answer": 0,
+        "id": "N5-16-003"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>思い出</u>の読み方は？",
+        "question": "「思い出」の読み方は？",
+        "options": [
+          "ことし",
+          "おもいで",
+          "しゃしん",
+          "まちがい"
+        ],
+        "answer": 1,
+        "id": "N5-16-004"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>将来</u>の読み方は？",
+        "question": "「将来」の読み方は？",
+        "options": [
+          "しょうらい",
+          "ようい",
+          "いま",
+          "こども"
+        ],
+        "answer": 0,
+        "id": "N5-16-005"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>山</u>の読み方は？",
+        "question": "「山」の読み方は？",
+        "options": [
+          "ゆしゅつ",
+          "やま",
+          "ざっし",
+          "わかれる"
+        ],
+        "answer": 1,
+        "id": "N5-16-006"
+      },
+      {
+        "type": "表記",
+        "text": "<u>ゆしゅつ</u>の漢字は？",
+        "question": "「ゆしゅつ」の書き方は？",
+        "options": [
+          "断る",
+          "輸出",
+          "閉める",
+          "秋"
+        ],
+        "answer": 1,
+        "id": "N5-16-007"
+      },
+      {
+        "type": "表記",
+        "text": "<u>しゅっせき</u>の漢字は？",
+        "question": "「しゅっせき」の書き方は？",
+        "options": [
+          "夏",
+          "出席",
+          "遅刻",
+          "登録"
+        ],
+        "answer": 1,
+        "id": "N5-16-008"
+      },
+      {
+        "type": "表記",
+        "text": "<u>ひき</u>の漢字は？",
+        "question": "「ひき」の書き方は？",
+        "options": [
+          "匹",
+          "変える",
+          "午前",
+          "木曜日"
+        ],
+        "answer": 0,
+        "id": "N5-16-009"
+      },
+      {
+        "type": "表記",
+        "text": "<u>おふろ</u>の漢字は？",
+        "question": "「おふろ」の書き方は？",
+        "options": [
+          "変わる",
+          "面白い",
+          "本当に",
+          "お風呂"
+        ],
+        "answer": 3,
+        "id": "N5-16-010"
+      },
+      {
+        "type": "表記",
+        "text": "<u>はしる</u>の漢字は？",
+        "question": "「はしる」の書き方は？",
+        "options": [
+          "窓",
+          "燃える",
+          "頼む",
+          "走る"
+        ],
+        "answer": 3,
+        "id": "N5-16-011"
+      },
+      {
+        "type": "表記",
+        "text": "<u>おもう</u>の漢字は？",
+        "question": "「おもう」の書き方は？",
+        "options": [
+          "山",
+          "思う",
+          "風",
+          "鳴る"
+        ],
+        "answer": 1,
+        "id": "N5-16-012"
+      },
+      {
+        "type": "文脈規定",
+        "text": "朝（　）を食べます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "郵便局",
+          "綺麗",
+          "甘い",
+          "引っ越す"
+        ],
+        "answer": 1,
+        "id": "N5-16-013"
+      },
+      {
+        "type": "文脈規定",
+        "text": "毎日（　）を飲みます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "服",
+          "雲",
+          "気持ち",
+          "結果"
+        ],
+        "answer": 3,
+        "id": "N5-16-014"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）がほしいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "研究",
+          "優しい",
+          "速い",
+          "二人"
+        ],
+        "answer": 3,
+        "id": "N5-16-015"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）に行きたいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "撮る",
+          "本",
+          "エアコン",
+          "もらう"
+        ],
+        "answer": 3,
+        "id": "N5-16-016"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）が好きです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "勉強する",
+          "入学",
+          "働く",
+          "やっと"
+        ],
+        "answer": 3,
+        "id": "N5-16-017"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を見ました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "おやすみ",
+          "意見",
+          "床",
+          "離婚する"
+        ],
+        "answer": 2,
+        "id": "N5-16-018"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を買いました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "持つ",
+          "荷物",
+          "一本",
+          "返品"
+        ],
+        "answer": 1,
+        "id": "N5-16-019"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）で働いています。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "お金",
+          "宿題",
+          "預ける",
+          "いる"
+        ],
+        "answer": 1,
+        "id": "N5-16-020"
+      },
+      {
+        "type": "言い換え",
+        "text": "「努力」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "laundry",
+          "correct",
+          "effort",
+          "to forgive"
+        ],
+        "answer": 2,
+        "id": "N5-16-021"
+      },
+      {
+        "type": "言い換え",
+        "text": "「履く」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "to connect",
+          "to wear (shoes/pants)",
+          "cleaning",
+          "mobile phone"
+        ],
+        "answer": 1,
+        "id": "N5-16-022"
+      },
+      {
+        "type": "言い換え",
+        "text": "「石鹸」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "to clean",
+          "office worker",
+          "eraser",
+          "soap"
+        ],
+        "answer": 3,
+        "id": "N5-16-023"
+      },
+      {
+        "type": "言い換え",
+        "text": "「削除」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "milk",
+          "truth",
+          "delete",
+          "Saturday"
+        ],
+        "answer": 2,
+        "id": "N5-16-024"
+      },
+      {
+        "type": "言い換え",
+        "text": "「答える」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "family",
+          "a little",
+          "to answer",
+          "water"
+        ],
+        "answer": 2,
+        "id": "N5-16-025"
+      },
+      {
+        "type": "文法形式",
+        "text": "食べ（　）から寝ます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-16-026"
+      },
+      {
+        "type": "文法形式",
+        "text": "日本に行き（　）です。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "たい",
+          "ます",
+          "た",
+          "る"
+        ],
+        "answer": 0,
+        "id": "N5-16-027"
+      },
+      {
+        "type": "文法形式",
+        "text": "雨が降っ（　）います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-16-028"
+      },
+      {
+        "type": "文法形式",
+        "text": "ここに座っ（　）ください。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-16-029"
+      },
+      {
+        "type": "文法形式",
+        "text": "まだ食べ（　）いません。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-16-030"
+      },
+      {
+        "type": "文法形式",
+        "text": "明日来（　）か。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "ます",
+          "る",
+          "た",
+          "て"
+        ],
+        "answer": 0,
+        "id": "N5-16-031"
+      },
+      {
+        "type": "文法形式",
+        "text": "きのう何を（　）か。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "しました",
+          "します",
+          "する",
+          "して"
+        ],
+        "answer": 0,
+        "id": "N5-16-032"
+      },
+      {
+        "type": "文法形式",
+        "text": "この本は（　）です。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "おもしろい",
+          "おもしろく",
+          "おもしろ",
+          "おもしろいな"
+        ],
+        "answer": 0,
+        "id": "N5-16-033"
+      },
+      {
+        "type": "文法形式",
+        "text": "部屋を（　）しました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "きれいに",
+          "きれい",
+          "きれいな",
+          "きれいく"
+        ],
+        "answer": 0,
+        "id": "N5-16-034"
+      },
+      {
+        "type": "文法形式",
+        "text": "早く（　）ください。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "起きて",
+          "起きる",
+          "起きた",
+          "起き"
+        ],
+        "answer": 0,
+        "id": "N5-16-035"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: ながら / コーヒー / を / 飲み",
+        "question": "★に入るのは？",
+        "options": [
+          "ながら",
+          "コーヒー",
+          "を",
+          "飲み"
+        ],
+        "answer": 0,
+        "id": "N5-16-036"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 雨 / います / 降って / が",
+        "question": "★に入るのは？",
+        "options": [
+          "雨",
+          "います",
+          "降って",
+          "が"
+        ],
+        "answer": 3,
+        "id": "N5-16-037"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 日本 / 行き / たいです / に",
+        "question": "★に入るのは？",
+        "options": [
+          "日本",
+          "行き",
+          "たいです",
+          "に"
+        ],
+        "answer": 1,
+        "id": "N5-16-038"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: です / が / 部屋 / きれい",
+        "question": "★に入るのは？",
+        "options": [
+          "です",
+          "が",
+          "部屋",
+          "きれい"
+        ],
+        "answer": 0,
+        "id": "N5-16-039"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 見 / 映画 / を / ました",
+        "question": "★に入るのは？",
+        "options": [
+          "見",
+          "映画",
+          "を",
+          "ました"
+        ],
+        "answer": 0,
+        "id": "N5-16-040"
+      },
+      {
+        "type": "文章の文法",
+        "text": "私は毎朝6時に起きます。顔を洗って、朝ごはんを（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "食べます",
+          "食べて",
+          "食べた",
+          "食べる"
+        ],
+        "answer": 0,
+        "id": "N5-16-041"
+      },
+      {
+        "type": "文章の文法",
+        "text": "きのうは日曜日でした。友だちと公園で（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "遊びました",
+          "遊びます",
+          "遊んで",
+          "遊ぶ"
+        ],
+        "answer": 0,
+        "id": "N5-16-042"
+      },
+      {
+        "type": "文章の文法",
+        "text": "この店は安くて、（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "おいしいです",
+          "おいしい",
+          "おいしくて",
+          "おいしかった"
+        ],
+        "answer": 0,
+        "id": "N5-16-043"
+      },
+      {
+        "type": "文章の文法",
+        "text": "来週テストがあります。だから、今日は（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "勉強します",
+          "勉強した",
+          "勉強して",
+          "勉強する"
+        ],
+        "answer": 0,
+        "id": "N5-16-044"
+      },
+      {
+        "type": "文章の文法",
+        "text": "電車が来ません。30分（　）います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "待って",
+          "待った",
+          "待つ",
+          "待ち"
+        ],
+        "answer": 0,
+        "id": "N5-16-045"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "山田さんは毎日図書館で本を読みます。",
+        "question": "どこで読みますか。",
+        "options": [
+          "学校",
+          "公園",
+          "図書館",
+          "家"
+        ],
+        "answer": 2,
+        "id": "N5-16-046"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "今日は雨です。傘を持っていきます。",
+        "question": "今日の天気は？",
+        "options": [
+          "晴れ",
+          "曇り",
+          "雨",
+          "雪"
+        ],
+        "answer": 2,
+        "id": "N5-16-047"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "このりんごは100円です。",
+        "question": "いくら？",
+        "options": [
+          "50円",
+          "100円",
+          "150円",
+          "200円"
+        ],
+        "answer": 1,
+        "id": "N5-16-048"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "私の町は小さいですが、きれいです。山と川があります。",
+        "question": "この町に何がある？",
+        "options": [
+          "海",
+          "山と川",
+          "ビル",
+          "空港"
+        ],
+        "answer": 1,
+        "id": "N5-16-049"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "田中さんは朝6時に起きます。7時に朝ごはんを食べます。8時に家を出ます。",
+        "question": "何時に家を出る？",
+        "options": [
+          "6時",
+          "7時",
+          "8時",
+          "9時"
+        ],
+        "answer": 2,
+        "id": "N5-16-050"
+      },
+      {
+        "type": "情報検索",
+        "text": "【図書館】開館: 9:00-17:00 休み: 月曜日",
+        "question": "何時まで？",
+        "options": [
+          "16時",
+          "17時",
+          "18時",
+          "19時"
+        ],
+        "answer": 1,
+        "id": "N5-16-051"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人と女の人が話しています。男の人は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "りんご",
+          "みかん",
+          "バナナ",
+          "いちご"
+        ],
+        "answer": 0,
+        "id": "N5-16-052"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "学生と先生が話しています。宿題はいつまでですか。",
+        "question": "質問",
+        "options": [
+          "月曜",
+          "火曜",
+          "水曜",
+          "木曜"
+        ],
+        "answer": 2,
+        "id": "N5-16-053"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "女の人と男の人が話しています。どこで会いますか。",
+        "question": "質問",
+        "options": [
+          "駅",
+          "学校",
+          "図書館",
+          "公園"
+        ],
+        "answer": 0,
+        "id": "N5-16-054"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "お母さんと子供が話しています。子供は何を食べますか。",
+        "question": "質問",
+        "options": [
+          "パン",
+          "ごはん",
+          "たまご",
+          "サラダ"
+        ],
+        "answer": 1,
+        "id": "N5-16-055"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "店員と客が話しています。客は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "シャツ",
+          "ズボン",
+          "靴",
+          "帽子"
+        ],
+        "answer": 0,
+        "id": "N5-16-056"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人が話しています。明日の天気は？",
+        "question": "質問",
+        "options": [
+          "晴れ",
+          "曇り",
+          "雨",
+          "雪"
+        ],
+        "answer": 2,
+        "id": "N5-16-057"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。何が好きですか。",
+        "question": "質問",
+        "options": [
+          "音楽",
+          "スポーツ",
+          "料理",
+          "映画"
+        ],
+        "answer": 0,
+        "id": "N5-16-058"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。どこに住んでいますか。",
+        "question": "質問",
+        "options": [
+          "東京",
+          "大阪",
+          "京都",
+          "名古屋"
+        ],
+        "answer": 1,
+        "id": "N5-16-059"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "学生が話しています。何を勉強していますか。",
+        "question": "質問",
+        "options": [
+          "英語",
+          "日本語",
+          "数学",
+          "歴史"
+        ],
+        "answer": 1,
+        "id": "N5-16-060"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。趣味は何ですか。",
+        "question": "質問",
+        "options": [
+          "読書",
+          "映画",
+          "旅行",
+          "料理"
+        ],
+        "answer": 2,
+        "id": "N5-16-061"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。いつ日本に来ましたか。",
+        "question": "質問",
+        "options": [
+          "去年",
+          "2年前",
+          "先月",
+          "先週"
+        ],
+        "answer": 0,
+        "id": "N5-16-062"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "二人が話しています。パーティーは何時から？",
+        "question": "質問",
+        "options": [
+          "5時",
+          "6時",
+          "7時",
+          "8時"
+        ],
+        "answer": 1,
+        "id": "N5-16-063"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "「ありがとう」と言われました。",
+        "question": "何と言いますか。",
+        "options": [
+          "どういたしまして",
+          "すみません",
+          "おはよう",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-16-064"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "朝、先生に会いました。",
+        "question": "何と言いますか。",
+        "options": [
+          "おはようございます",
+          "こんにちは",
+          "こんばんは",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-16-065"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べる前です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 0,
+        "id": "N5-16-066"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べた後です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 1,
+        "id": "N5-16-067"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "出かける時、家族に。",
+        "question": "何と言いますか。",
+        "options": [
+          "行ってきます",
+          "ただいま",
+          "おかえり",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-16-068"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お名前は？",
+        "question": "何と答えますか。",
+        "options": [
+          "田中です",
+          "いいえ",
+          "はい",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-16-069"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "これはいくらですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "100円です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-16-070"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "どこに住んでいますか。",
+        "question": "何と答えますか。",
+        "options": [
+          "東京です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-16-071"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "何歳ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "20歳です",
+          "学生です",
+          "日本人です",
+          "田中です"
+        ],
+        "answer": 0,
+        "id": "N5-16-072"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お仕事は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "会社員です",
+          "東京です",
+          "日本です",
+          "20歳です"
+        ],
+        "answer": 0,
+        "id": "N5-16-073"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "趣味は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "読書です",
+          "はい",
+          "いいえ",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-16-074"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今何時ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "3時です",
+          "月曜日です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-16-075"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今日は何曜日ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "月曜日です",
+          "3時です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-16-076"
+      }
+    ],
+    "17": [
+      {
+        "type": "漢字読み",
+        "text": "<u>湖</u>の読み方は？",
+        "question": "「湖」の読み方は？",
+        "options": [
+          "からだ",
+          "みずうみ",
+          "ゆうびんきょく",
+          "りょうりする"
+        ],
+        "answer": 1,
+        "id": "N5-17-001"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>素晴らしい</u>の読み方は？",
+        "question": "「素晴らしい」の読み方は？",
+        "options": [
+          "すばらしい",
+          "ゆき",
+          "しっぱいする",
+          "たすける"
+        ],
+        "answer": 0,
+        "id": "N5-17-002"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>閉める</u>の読み方は？",
+        "question": "「閉める」の読み方は？",
+        "options": [
+          "かみ",
+          "しめる",
+          "ゆにゅう",
+          "いんさつ"
+        ],
+        "answer": 1,
+        "id": "N5-17-003"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>失敗</u>の読み方は？",
+        "question": "「失敗」の読み方は？",
+        "options": [
+          "おぼえる",
+          "ゆしゅつ",
+          "しっぱい",
+          "うる"
+        ],
+        "answer": 2,
+        "id": "N5-17-004"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>欲しい</u>の読み方は？",
+        "question": "「欲しい」の読み方は？",
+        "options": [
+          "ほしい",
+          "どようび",
+          "けっこんする",
+          "つくえ"
+        ],
+        "answer": 0,
+        "id": "N5-17-005"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>今週</u>の読み方は？",
+        "question": "「今週」の読み方は？",
+        "options": [
+          "おくれる",
+          "こんしゅう",
+          "きゃく",
+          "よむ"
+        ],
+        "answer": 1,
+        "id": "N5-17-006"
+      },
+      {
+        "type": "表記",
+        "text": "<u>つかう</u>の漢字は？",
+        "question": "「つかう」の書き方は？",
+        "options": [
+          "有名",
+          "脱ぐ",
+          "案内する",
+          "使う"
+        ],
+        "answer": 3,
+        "id": "N5-17-007"
+      },
+      {
+        "type": "表記",
+        "text": "<u>え</u>の漢字は？",
+        "question": "「え」の書き方は？",
+        "options": [
+          "賛成",
+          "絵",
+          "熱い",
+          "漢字"
+        ],
+        "answer": 1,
+        "id": "N5-17-008"
+      },
+      {
+        "type": "表記",
+        "text": "<u>した</u>の漢字は？",
+        "question": "「した」の書き方は？",
+        "options": [
+          "眠い",
+          "慣れる",
+          "下",
+          "弟"
+        ],
+        "answer": 2,
+        "id": "N5-17-009"
+      },
+      {
+        "type": "表記",
+        "text": "<u>だめ</u>の漢字は？",
+        "question": "「だめ」の書き方は？",
+        "options": [
+          "駄目",
+          "全然",
+          "姉",
+          "市"
+        ],
+        "answer": 0,
+        "id": "N5-17-010"
+      },
+      {
+        "type": "表記",
+        "text": "<u>かい</u>の漢字は？",
+        "question": "「かい」の書き方は？",
+        "options": [
+          "課長",
+          "早い",
+          "朝",
+          "回"
+        ],
+        "answer": 3,
+        "id": "N5-17-011"
+      },
+      {
+        "type": "表記",
+        "text": "<u>よむ</u>の漢字は？",
+        "question": "「よむ」の書き方は？",
+        "options": [
+          "眠い",
+          "走る",
+          "読む",
+          "書く"
+        ],
+        "answer": 2,
+        "id": "N5-17-012"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を勉強しています。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "頼む",
+          "相談",
+          "新聞",
+          "易しい"
+        ],
+        "answer": 3,
+        "id": "N5-17-013"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）が上手です。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "払う",
+          "こんばんは",
+          "歯",
+          "体"
+        ],
+        "answer": 0,
+        "id": "N5-17-014"
+      },
+      {
+        "type": "文脈規定",
+        "text": "部屋に（　）があります。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "ベランダ",
+          "風",
+          "店",
+          "作る"
+        ],
+        "answer": 0,
+        "id": "N5-17-015"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）は難しいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "本当に",
+          "消す",
+          "迎える",
+          "大きい"
+        ],
+        "answer": 3,
+        "id": "N5-17-016"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）は楽しいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "毎日",
+          "卒業",
+          "驚く",
+          "やっと"
+        ],
+        "answer": 1,
+        "id": "N5-17-017"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を聞きます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "悲しい",
+          "弟",
+          "強い",
+          "ポケット"
+        ],
+        "answer": 2,
+        "id": "N5-17-018"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を読みます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "消える",
+          "妻",
+          "歩道",
+          "発送"
+        ],
+        "answer": 2,
+        "id": "N5-17-019"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を作ります。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "捕まえる",
+          "間に合う",
+          "続ける",
+          "荷物"
+        ],
+        "answer": 0,
+        "id": "N5-17-020"
+      },
+      {
+        "type": "言い換え",
+        "text": "「台所」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "future",
+          "result",
+          "kitchen",
+          "to find"
+        ],
+        "answer": 2,
+        "id": "N5-17-021"
+      },
+      {
+        "type": "言い換え",
+        "text": "「百」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "subway",
+          "taste",
+          "Sunday",
+          "hundred"
+        ],
+        "answer": 3,
+        "id": "N5-17-022"
+      },
+      {
+        "type": "言い換え",
+        "text": "「子供」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "world",
+          "child",
+          "sheet",
+          "translate"
+        ],
+        "answer": 1,
+        "id": "N5-17-023"
+      },
+      {
+        "type": "言い換え",
+        "text": "「中」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "to divide",
+          "to choose",
+          "inside",
+          "bill"
+        ],
+        "answer": 2,
+        "id": "N5-17-024"
+      },
+      {
+        "type": "言い換え",
+        "text": "「ベランダ」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "balcony",
+          "departure",
+          "to be enough",
+          "to go"
+        ],
+        "answer": 0,
+        "id": "N5-17-025"
+      },
+      {
+        "type": "文法形式",
+        "text": "私は学生（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "です",
+          "だ",
+          "ます",
+          "ある"
+        ],
+        "answer": 0,
+        "id": "N5-17-026"
+      },
+      {
+        "type": "文法形式",
+        "text": "これは本（　）ありません。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "では",
+          "が",
+          "を",
+          "に"
+        ],
+        "answer": 0,
+        "id": "N5-17-027"
+      },
+      {
+        "type": "文法形式",
+        "text": "学校（　）行きます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "に",
+          "を",
+          "が",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-17-028"
+      },
+      {
+        "type": "文法形式",
+        "text": "友だち（　）会いました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "に",
+          "を",
+          "が",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-17-029"
+      },
+      {
+        "type": "文法形式",
+        "text": "日本語（　）勉強しています。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "を",
+          "に",
+          "が",
+          "で"
+        ],
+        "answer": 0,
+        "id": "N5-17-030"
+      },
+      {
+        "type": "文法形式",
+        "text": "電車（　）来ます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-17-031"
+      },
+      {
+        "type": "文法形式",
+        "text": "コーヒー（　）飲みたいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-17-032"
+      },
+      {
+        "type": "文法形式",
+        "text": "映画（　）見ました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "を",
+          "が",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-17-033"
+      },
+      {
+        "type": "文法形式",
+        "text": "部屋（　）きれいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "は",
+          "を",
+          "に",
+          "が"
+        ],
+        "answer": 0,
+        "id": "N5-17-034"
+      },
+      {
+        "type": "文法形式",
+        "text": "本を読む（　）が好きです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "の",
+          "を",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-17-035"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: です / 学生 / は / 私",
+        "question": "★に入るのは？",
+        "options": [
+          "です",
+          "学生",
+          "は",
+          "私"
+        ],
+        "answer": 2,
+        "id": "N5-17-036"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 毎日 / 勉強します / を / 日本語",
+        "question": "★に入るのは？",
+        "options": [
+          "毎日",
+          "勉強します",
+          "を",
+          "日本語"
+        ],
+        "answer": 3,
+        "id": "N5-17-037"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 会いました / 友だち / きのう / と",
+        "question": "★に入るのは？",
+        "options": [
+          "会いました",
+          "友だち",
+          "きのう",
+          "と"
+        ],
+        "answer": 1,
+        "id": "N5-17-038"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: おもしろい / この / は / 本",
+        "question": "★に入るのは？",
+        "options": [
+          "おもしろい",
+          "この",
+          "は",
+          "本"
+        ],
+        "answer": 0,
+        "id": "N5-17-039"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 行きます / 駅 / 歩いて / まで",
+        "question": "★に入るのは？",
+        "options": [
+          "行きます",
+          "駅",
+          "歩いて",
+          "まで"
+        ],
+        "answer": 0,
+        "id": "N5-17-040"
+      },
+      {
+        "type": "文章の文法",
+        "text": "私は毎朝6時に起きます。顔を洗って、朝ごはんを（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "食べます",
+          "食べて",
+          "食べた",
+          "食べる"
+        ],
+        "answer": 0,
+        "id": "N5-17-041"
+      },
+      {
+        "type": "文章の文法",
+        "text": "きのうは日曜日でした。友だちと公園で（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "遊びました",
+          "遊びます",
+          "遊んで",
+          "遊ぶ"
+        ],
+        "answer": 0,
+        "id": "N5-17-042"
+      },
+      {
+        "type": "文章の文法",
+        "text": "この店は安くて、（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "おいしいです",
+          "おいしい",
+          "おいしくて",
+          "おいしかった"
+        ],
+        "answer": 0,
+        "id": "N5-17-043"
+      },
+      {
+        "type": "文章の文法",
+        "text": "来週テストがあります。だから、今日は（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "勉強します",
+          "勉強した",
+          "勉強して",
+          "勉強する"
+        ],
+        "answer": 0,
+        "id": "N5-17-044"
+      },
+      {
+        "type": "文章の文法",
+        "text": "電車が来ません。30分（　）います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "待って",
+          "待った",
+          "待つ",
+          "待ち"
+        ],
+        "answer": 0,
+        "id": "N5-17-045"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "田中さんは毎朝7時に起きます。",
+        "question": "何時に起きますか。",
+        "options": [
+          "6時",
+          "7時",
+          "8時",
+          "9時"
+        ],
+        "answer": 1,
+        "id": "N5-17-046"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "私の部屋は広くないですが、明るいです。",
+        "question": "部屋はどうですか。",
+        "options": [
+          "広い",
+          "暗い",
+          "明るい",
+          "寒い"
+        ],
+        "answer": 2,
+        "id": "N5-17-047"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "駅から学校までバスで5分です。",
+        "question": "バスで何分？",
+        "options": [
+          "3分",
+          "5分",
+          "10分",
+          "15分"
+        ],
+        "answer": 1,
+        "id": "N5-17-048"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "私は日本語を勉強しています。毎日2時間勉強します。日本語は難しいですが、おもしろいです。",
+        "question": "日本語をどう思いますか。",
+        "options": [
+          "簡単",
+          "難しいけどおもしろい",
+          "つまらない",
+          "簡単でおもしろい"
+        ],
+        "answer": 1,
+        "id": "N5-17-049"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "山田さんの家族は4人です。お父さんとお母さんと妹がいます。",
+        "question": "家族は何人？",
+        "options": [
+          "3人",
+          "4人",
+          "5人",
+          "6人"
+        ],
+        "answer": 1,
+        "id": "N5-17-050"
+      },
+      {
+        "type": "情報検索",
+        "text": "【映画】時間: 10:00, 14:00 料金: 大人1800円",
+        "question": "何時から？",
+        "options": [
+          "9時",
+          "10時",
+          "11時",
+          "12時"
+        ],
+        "answer": 1,
+        "id": "N5-17-051"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人と女の人が話しています。男の人は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "りんご",
+          "みかん",
+          "バナナ",
+          "いちご"
+        ],
+        "answer": 0,
+        "id": "N5-17-052"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "学生と先生が話しています。宿題はいつまでですか。",
+        "question": "質問",
+        "options": [
+          "月曜",
+          "火曜",
+          "水曜",
+          "木曜"
+        ],
+        "answer": 2,
+        "id": "N5-17-053"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "女の人と男の人が話しています。どこで会いますか。",
+        "question": "質問",
+        "options": [
+          "駅",
+          "学校",
+          "図書館",
+          "公園"
+        ],
+        "answer": 0,
+        "id": "N5-17-054"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "お母さんと子供が話しています。子供は何を食べますか。",
+        "question": "質問",
+        "options": [
+          "パン",
+          "ごはん",
+          "たまご",
+          "サラダ"
+        ],
+        "answer": 1,
+        "id": "N5-17-055"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "店員と客が話しています。客は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "シャツ",
+          "ズボン",
+          "靴",
+          "帽子"
+        ],
+        "answer": 0,
+        "id": "N5-17-056"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人が話しています。明日の天気は？",
+        "question": "質問",
+        "options": [
+          "晴れ",
+          "曇り",
+          "雨",
+          "雪"
+        ],
+        "answer": 2,
+        "id": "N5-17-057"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。何が好きですか。",
+        "question": "質問",
+        "options": [
+          "音楽",
+          "スポーツ",
+          "料理",
+          "映画"
+        ],
+        "answer": 0,
+        "id": "N5-17-058"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。どこに住んでいますか。",
+        "question": "質問",
+        "options": [
+          "東京",
+          "大阪",
+          "京都",
+          "名古屋"
+        ],
+        "answer": 1,
+        "id": "N5-17-059"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "学生が話しています。何を勉強していますか。",
+        "question": "質問",
+        "options": [
+          "英語",
+          "日本語",
+          "数学",
+          "歴史"
+        ],
+        "answer": 1,
+        "id": "N5-17-060"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。趣味は何ですか。",
+        "question": "質問",
+        "options": [
+          "読書",
+          "映画",
+          "旅行",
+          "料理"
+        ],
+        "answer": 2,
+        "id": "N5-17-061"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。いつ日本に来ましたか。",
+        "question": "質問",
+        "options": [
+          "去年",
+          "2年前",
+          "先月",
+          "先週"
+        ],
+        "answer": 0,
+        "id": "N5-17-062"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "二人が話しています。パーティーは何時から？",
+        "question": "質問",
+        "options": [
+          "5時",
+          "6時",
+          "7時",
+          "8時"
+        ],
+        "answer": 1,
+        "id": "N5-17-063"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "「ありがとう」と言われました。",
+        "question": "何と言いますか。",
+        "options": [
+          "どういたしまして",
+          "すみません",
+          "おはよう",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-17-064"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "朝、先生に会いました。",
+        "question": "何と言いますか。",
+        "options": [
+          "おはようございます",
+          "こんにちは",
+          "こんばんは",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-17-065"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べる前です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 0,
+        "id": "N5-17-066"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べた後です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 1,
+        "id": "N5-17-067"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "出かける時、家族に。",
+        "question": "何と言いますか。",
+        "options": [
+          "行ってきます",
+          "ただいま",
+          "おかえり",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-17-068"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お名前は？",
+        "question": "何と答えますか。",
+        "options": [
+          "田中です",
+          "いいえ",
+          "はい",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-17-069"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "これはいくらですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "100円です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-17-070"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "どこに住んでいますか。",
+        "question": "何と答えますか。",
+        "options": [
+          "東京です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-17-071"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "何歳ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "20歳です",
+          "学生です",
+          "日本人です",
+          "田中です"
+        ],
+        "answer": 0,
+        "id": "N5-17-072"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お仕事は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "会社員です",
+          "東京です",
+          "日本です",
+          "20歳です"
+        ],
+        "answer": 0,
+        "id": "N5-17-073"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "趣味は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "読書です",
+          "はい",
+          "いいえ",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-17-074"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今何時ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "3時です",
+          "月曜日です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-17-075"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今日は何曜日ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "月曜日です",
+          "3時です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-17-076"
+      }
+    ],
+    "18": [
+      {
+        "type": "漢字読み",
+        "text": "<u>削除</u>の読み方は？",
+        "question": "「削除」の読み方は？",
+        "options": [
+          "さくじょ",
+          "よっつ",
+          "ゆうめい",
+          "おねがい"
+        ],
+        "answer": 0,
+        "id": "N5-18-001"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>遅刻</u>の読み方は？",
+        "question": "「遅刻」の読み方は？",
+        "options": [
+          "おかし",
+          "うつ",
+          "ちこく",
+          "くだもの"
+        ],
+        "answer": 2,
+        "id": "N5-18-002"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>叩く</u>の読み方は？",
+        "question": "「叩く」の読み方は？",
+        "options": [
+          "たたく",
+          "かいぎ",
+          "かいけい",
+          "ぶちょう"
+        ],
+        "answer": 0,
+        "id": "N5-18-003"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>手袋</u>の読み方は？",
+        "question": "「手袋」の読み方は？",
+        "options": [
+          "さつ",
+          "あさごはん",
+          "てぶくろ",
+          "かぜ"
+        ],
+        "answer": 2,
+        "id": "N5-18-004"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>火曜日</u>の読み方は？",
+        "question": "「火曜日」の読み方は？",
+        "options": [
+          "すいようび",
+          "あさ",
+          "かようび",
+          "かんきょう"
+        ],
+        "answer": 2,
+        "id": "N5-18-005"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>村</u>の読み方は？",
+        "question": "「村」の読み方は？",
+        "options": [
+          "ほし",
+          "いる",
+          "むら",
+          "かえす"
+        ],
+        "answer": 2,
+        "id": "N5-18-006"
+      },
+      {
+        "type": "表記",
+        "text": "<u>かいしゃいん</u>の漢字は？",
+        "question": "「かいしゃいん」の書き方は？",
+        "options": [
+          "切符",
+          "取る",
+          "痛い",
+          "会社員"
+        ],
+        "answer": 3,
+        "id": "N5-18-007"
+      },
+      {
+        "type": "表記",
+        "text": "<u>しゅうまつ</u>の漢字は？",
+        "question": "「しゅうまつ」の書き方は？",
+        "options": [
+          "週末",
+          "将来",
+          "バス停",
+          "お兄さん"
+        ],
+        "answer": 0,
+        "id": "N5-18-008"
+      },
+      {
+        "type": "表記",
+        "text": "<u>わたし</u>の漢字は？",
+        "question": "「わたし」の書き方は？",
+        "options": [
+          "踊る",
+          "寝かす",
+          "私",
+          "消える"
+        ],
+        "answer": 2,
+        "id": "N5-18-009"
+      },
+      {
+        "type": "表記",
+        "text": "<u>すぎる</u>の漢字は？",
+        "question": "「すぎる」の書き方は？",
+        "options": [
+          "冊",
+          "魚",
+          "過ぎる",
+          "果物"
+        ],
+        "answer": 2,
+        "id": "N5-18-010"
+      },
+      {
+        "type": "表記",
+        "text": "<u>やさしい</u>の漢字は？",
+        "question": "「やさしい」の書き方は？",
+        "options": [
+          "形",
+          "易しい",
+          "銀行",
+          "飛ぶ"
+        ],
+        "answer": 1,
+        "id": "N5-18-011"
+      },
+      {
+        "type": "表記",
+        "text": "<u>おっと</u>の漢字は？",
+        "question": "「おっと」の書き方は？",
+        "options": [
+          "夫",
+          "将来",
+          "食べる",
+          "眼鏡"
+        ],
+        "answer": 0,
+        "id": "N5-18-012"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）に住んでいます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "放送",
+          "空",
+          "机",
+          "タオル"
+        ],
+        "answer": 2,
+        "id": "N5-18-013"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を使います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "祖母",
+          "注文",
+          "下手",
+          "お風呂"
+        ],
+        "answer": 1,
+        "id": "N5-18-014"
+      },
+      {
+        "type": "文脈規定",
+        "text": "友だちと（　）をしました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "よく",
+          "充電",
+          "狭い",
+          "触る"
+        ],
+        "answer": 3,
+        "id": "N5-18-015"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）が終わりました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "預ける",
+          "怖い",
+          "凍る",
+          "バス"
+        ],
+        "answer": 0,
+        "id": "N5-18-016"
+      },
+      {
+        "type": "文脈規定",
+        "text": "朝（　）を食べます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "情報",
+          "文化",
+          "働く",
+          "それ"
+        ],
+        "answer": 2,
+        "id": "N5-18-017"
+      },
+      {
+        "type": "文脈規定",
+        "text": "毎日（　）を飲みます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "消す",
+          "鞄",
+          "壊れる",
+          "聞こえる"
+        ],
+        "answer": 0,
+        "id": "N5-18-018"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）がほしいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "妹",
+          "紹介",
+          "取る",
+          "交換"
+        ],
+        "answer": 0,
+        "id": "N5-18-019"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）に行きたいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "度",
+          "集まる",
+          "帰る",
+          "発展"
+        ],
+        "answer": 0,
+        "id": "N5-18-020"
+      },
+      {
+        "type": "言い換え",
+        "text": "「デパート」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "this week",
+          "customer",
+          "department store",
+          "to disappear"
+        ],
+        "answer": 2,
+        "id": "N5-18-021"
+      },
+      {
+        "type": "言い換え",
+        "text": "「病気」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "person",
+          "boy",
+          "sick",
+          "to dry"
+        ],
+        "answer": 2,
+        "id": "N5-18-022"
+      },
+      {
+        "type": "言い換え",
+        "text": "「弟」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "younger brother",
+          "travel",
+          "exam",
+          "to cut"
+        ],
+        "answer": 0,
+        "id": "N5-18-023"
+      },
+      {
+        "type": "言い換え",
+        "text": "「欠席」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "glasses",
+          "absent",
+          "to make sound (animal)",
+          "to put to sleep"
+        ],
+        "answer": 1,
+        "id": "N5-18-024"
+      },
+      {
+        "type": "言い換え",
+        "text": "「失敗する」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "to fail",
+          "this",
+          "announce",
+          "photography"
+        ],
+        "answer": 0,
+        "id": "N5-18-025"
+      },
+      {
+        "type": "文法形式",
+        "text": "食べ（　）から寝ます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-18-026"
+      },
+      {
+        "type": "文法形式",
+        "text": "日本に行き（　）です。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "たい",
+          "ます",
+          "た",
+          "る"
+        ],
+        "answer": 0,
+        "id": "N5-18-027"
+      },
+      {
+        "type": "文法形式",
+        "text": "雨が降っ（　）います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-18-028"
+      },
+      {
+        "type": "文法形式",
+        "text": "ここに座っ（　）ください。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-18-029"
+      },
+      {
+        "type": "文法形式",
+        "text": "まだ食べ（　）いません。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-18-030"
+      },
+      {
+        "type": "文法形式",
+        "text": "明日来（　）か。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "ます",
+          "る",
+          "た",
+          "て"
+        ],
+        "answer": 0,
+        "id": "N5-18-031"
+      },
+      {
+        "type": "文法形式",
+        "text": "きのう何を（　）か。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "しました",
+          "します",
+          "する",
+          "して"
+        ],
+        "answer": 0,
+        "id": "N5-18-032"
+      },
+      {
+        "type": "文法形式",
+        "text": "この本は（　）です。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "おもしろい",
+          "おもしろく",
+          "おもしろ",
+          "おもしろいな"
+        ],
+        "answer": 0,
+        "id": "N5-18-033"
+      },
+      {
+        "type": "文法形式",
+        "text": "部屋を（　）しました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "きれいに",
+          "きれい",
+          "きれいな",
+          "きれいく"
+        ],
+        "answer": 0,
+        "id": "N5-18-034"
+      },
+      {
+        "type": "文法形式",
+        "text": "早く（　）ください。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "起きて",
+          "起きる",
+          "起きた",
+          "起き"
+        ],
+        "answer": 0,
+        "id": "N5-18-035"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: コーヒー / 飲み / ながら / を",
+        "question": "★に入るのは？",
+        "options": [
+          "コーヒー",
+          "飲み",
+          "ながら",
+          "を"
+        ],
+        "answer": 2,
+        "id": "N5-18-036"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 雨 / が / 降って / います",
+        "question": "★に入るのは？",
+        "options": [
+          "雨",
+          "が",
+          "降って",
+          "います"
+        ],
+        "answer": 0,
+        "id": "N5-18-037"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: たいです / に / 行き / 日本",
+        "question": "★に入るのは？",
+        "options": [
+          "たいです",
+          "に",
+          "行き",
+          "日本"
+        ],
+        "answer": 2,
+        "id": "N5-18-038"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: が / 部屋 / きれい / です",
+        "question": "★に入るのは？",
+        "options": [
+          "が",
+          "部屋",
+          "きれい",
+          "です"
+        ],
+        "answer": 1,
+        "id": "N5-18-039"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 映画 / 見 / ました / を",
+        "question": "★に入るのは？",
+        "options": [
+          "映画",
+          "見",
+          "ました",
+          "を"
+        ],
+        "answer": 0,
+        "id": "N5-18-040"
+      },
+      {
+        "type": "文章の文法",
+        "text": "私は毎朝6時に起きます。顔を洗って、朝ごはんを（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "食べます",
+          "食べて",
+          "食べた",
+          "食べる"
+        ],
+        "answer": 0,
+        "id": "N5-18-041"
+      },
+      {
+        "type": "文章の文法",
+        "text": "きのうは日曜日でした。友だちと公園で（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "遊びました",
+          "遊びます",
+          "遊んで",
+          "遊ぶ"
+        ],
+        "answer": 0,
+        "id": "N5-18-042"
+      },
+      {
+        "type": "文章の文法",
+        "text": "この店は安くて、（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "おいしいです",
+          "おいしい",
+          "おいしくて",
+          "おいしかった"
+        ],
+        "answer": 0,
+        "id": "N5-18-043"
+      },
+      {
+        "type": "文章の文法",
+        "text": "来週テストがあります。だから、今日は（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "勉強します",
+          "勉強した",
+          "勉強して",
+          "勉強する"
+        ],
+        "answer": 0,
+        "id": "N5-18-044"
+      },
+      {
+        "type": "文章の文法",
+        "text": "電車が来ません。30分（　）います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "待って",
+          "待った",
+          "待つ",
+          "待ち"
+        ],
+        "answer": 0,
+        "id": "N5-18-045"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "山田さんは毎日図書館で本を読みます。",
+        "question": "どこで読みますか。",
+        "options": [
+          "学校",
+          "公園",
+          "図書館",
+          "家"
+        ],
+        "answer": 2,
+        "id": "N5-18-046"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "今日は雨です。傘を持っていきます。",
+        "question": "今日の天気は？",
+        "options": [
+          "晴れ",
+          "曇り",
+          "雨",
+          "雪"
+        ],
+        "answer": 2,
+        "id": "N5-18-047"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "このりんごは100円です。",
+        "question": "いくら？",
+        "options": [
+          "50円",
+          "100円",
+          "150円",
+          "200円"
+        ],
+        "answer": 1,
+        "id": "N5-18-048"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "私の町は小さいですが、きれいです。山と川があります。",
+        "question": "この町に何がある？",
+        "options": [
+          "海",
+          "山と川",
+          "ビル",
+          "空港"
+        ],
+        "answer": 1,
+        "id": "N5-18-049"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "田中さんは朝6時に起きます。7時に朝ごはんを食べます。8時に家を出ます。",
+        "question": "何時に家を出る？",
+        "options": [
+          "6時",
+          "7時",
+          "8時",
+          "9時"
+        ],
+        "answer": 2,
+        "id": "N5-18-050"
+      },
+      {
+        "type": "情報検索",
+        "text": "【レストラン】ランチ: 11:00-14:00 休み: 火曜日",
+        "question": "ランチは何時まで？",
+        "options": [
+          "13時",
+          "14時",
+          "15時",
+          "16時"
+        ],
+        "answer": 1,
+        "id": "N5-18-051"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人と女の人が話しています。男の人は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "りんご",
+          "みかん",
+          "バナナ",
+          "いちご"
+        ],
+        "answer": 0,
+        "id": "N5-18-052"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "学生と先生が話しています。宿題はいつまでですか。",
+        "question": "質問",
+        "options": [
+          "月曜",
+          "火曜",
+          "水曜",
+          "木曜"
+        ],
+        "answer": 2,
+        "id": "N5-18-053"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "女の人と男の人が話しています。どこで会いますか。",
+        "question": "質問",
+        "options": [
+          "駅",
+          "学校",
+          "図書館",
+          "公園"
+        ],
+        "answer": 0,
+        "id": "N5-18-054"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "お母さんと子供が話しています。子供は何を食べますか。",
+        "question": "質問",
+        "options": [
+          "パン",
+          "ごはん",
+          "たまご",
+          "サラダ"
+        ],
+        "answer": 1,
+        "id": "N5-18-055"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "店員と客が話しています。客は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "シャツ",
+          "ズボン",
+          "靴",
+          "帽子"
+        ],
+        "answer": 0,
+        "id": "N5-18-056"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人が話しています。明日の天気は？",
+        "question": "質問",
+        "options": [
+          "晴れ",
+          "曇り",
+          "雨",
+          "雪"
+        ],
+        "answer": 2,
+        "id": "N5-18-057"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。何が好きですか。",
+        "question": "質問",
+        "options": [
+          "音楽",
+          "スポーツ",
+          "料理",
+          "映画"
+        ],
+        "answer": 0,
+        "id": "N5-18-058"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。どこに住んでいますか。",
+        "question": "質問",
+        "options": [
+          "東京",
+          "大阪",
+          "京都",
+          "名古屋"
+        ],
+        "answer": 1,
+        "id": "N5-18-059"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "学生が話しています。何を勉強していますか。",
+        "question": "質問",
+        "options": [
+          "英語",
+          "日本語",
+          "数学",
+          "歴史"
+        ],
+        "answer": 1,
+        "id": "N5-18-060"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。趣味は何ですか。",
+        "question": "質問",
+        "options": [
+          "読書",
+          "映画",
+          "旅行",
+          "料理"
+        ],
+        "answer": 2,
+        "id": "N5-18-061"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。いつ日本に来ましたか。",
+        "question": "質問",
+        "options": [
+          "去年",
+          "2年前",
+          "先月",
+          "先週"
+        ],
+        "answer": 0,
+        "id": "N5-18-062"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "二人が話しています。パーティーは何時から？",
+        "question": "質問",
+        "options": [
+          "5時",
+          "6時",
+          "7時",
+          "8時"
+        ],
+        "answer": 1,
+        "id": "N5-18-063"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "「ありがとう」と言われました。",
+        "question": "何と言いますか。",
+        "options": [
+          "どういたしまして",
+          "すみません",
+          "おはよう",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-18-064"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "朝、先生に会いました。",
+        "question": "何と言いますか。",
+        "options": [
+          "おはようございます",
+          "こんにちは",
+          "こんばんは",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-18-065"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べる前です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 0,
+        "id": "N5-18-066"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べた後です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 1,
+        "id": "N5-18-067"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "出かける時、家族に。",
+        "question": "何と言いますか。",
+        "options": [
+          "行ってきます",
+          "ただいま",
+          "おかえり",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-18-068"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お名前は？",
+        "question": "何と答えますか。",
+        "options": [
+          "田中です",
+          "いいえ",
+          "はい",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-18-069"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "これはいくらですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "100円です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-18-070"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "どこに住んでいますか。",
+        "question": "何と答えますか。",
+        "options": [
+          "東京です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-18-071"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "何歳ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "20歳です",
+          "学生です",
+          "日本人です",
+          "田中です"
+        ],
+        "answer": 0,
+        "id": "N5-18-072"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お仕事は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "会社員です",
+          "東京です",
+          "日本です",
+          "20歳です"
+        ],
+        "answer": 0,
+        "id": "N5-18-073"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "趣味は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "読書です",
+          "はい",
+          "いいえ",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-18-074"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今何時ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "3時です",
+          "月曜日です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-18-075"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今日は何曜日ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "月曜日です",
+          "3時です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-18-076"
+      }
+    ],
+    "19": [
+      {
+        "type": "漢字読み",
+        "text": "<u>一枚</u>の読み方は？",
+        "question": "「一枚」の読み方は？",
+        "options": [
+          "ちず",
+          "わかる",
+          "いちまい",
+          "ごはん"
+        ],
+        "answer": 2,
+        "id": "N5-19-001"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>運動</u>の読み方は？",
+        "question": "「運動」の読み方は？",
+        "options": [
+          "せかい",
+          "ひき",
+          "しゃかい",
+          "うんどう"
+        ],
+        "answer": 3,
+        "id": "N5-19-002"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>牛乳</u>の読み方は？",
+        "question": "「牛乳」の読み方は？",
+        "options": [
+          "うける",
+          "かんじ",
+          "ぎゅうにゅう",
+          "くろい"
+        ],
+        "answer": 2,
+        "id": "N5-19-003"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>旅行</u>の読み方は？",
+        "question": "「旅行」の読み方は？",
+        "options": [
+          "きもち",
+          "はらう",
+          "かんきょう",
+          "りょこう"
+        ],
+        "answer": 3,
+        "id": "N5-19-004"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>写真</u>の読み方は？",
+        "question": "「写真」の読み方は？",
+        "options": [
+          "ぶんか",
+          "あんしん",
+          "かいぎ",
+          "しゃしん"
+        ],
+        "answer": 3,
+        "id": "N5-19-005"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>携帯</u>の読み方は？",
+        "question": "「携帯」の読み方は？",
+        "options": [
+          "けいたい",
+          "ふゆ",
+          "なか",
+          "まもる"
+        ],
+        "answer": 0,
+        "id": "N5-19-006"
+      },
+      {
+        "type": "表記",
+        "text": "<u>いちまい</u>の漢字は？",
+        "question": "「いちまい」の書き方は？",
+        "options": [
+          "一枚",
+          "半分",
+          "好き",
+          "中"
+        ],
+        "answer": 0,
+        "id": "N5-19-007"
+      },
+      {
+        "type": "表記",
+        "text": "<u>がっこう</u>の漢字は？",
+        "question": "「がっこう」の書き方は？",
+        "options": [
+          "歌う",
+          "学校",
+          "夕方",
+          "歩道"
+        ],
+        "answer": 1,
+        "id": "N5-19-008"
+      },
+      {
+        "type": "表記",
+        "text": "<u>やすみ</u>の漢字は？",
+        "question": "「やすみ」の書き方は？",
+        "options": [
+          "お金",
+          "掃除",
+          "白い",
+          "休み"
+        ],
+        "answer": 3,
+        "id": "N5-19-009"
+      },
+      {
+        "type": "表記",
+        "text": "<u>とどく</u>の漢字は？",
+        "question": "「とどく」の書き方は？",
+        "options": [
+          "就職",
+          "届く",
+          "出る",
+          "遠い"
+        ],
+        "answer": 1,
+        "id": "N5-19-010"
+      },
+      {
+        "type": "表記",
+        "text": "<u>しんしつ</u>の漢字は？",
+        "question": "「しんしつ」の書き方は？",
+        "options": [
+          "寝室",
+          "自分",
+          "絶対",
+          "金曜日"
+        ],
+        "answer": 0,
+        "id": "N5-19-011"
+      },
+      {
+        "type": "表記",
+        "text": "<u>さわる</u>の漢字は？",
+        "question": "「さわる」の書き方は？",
+        "options": [
+          "触る",
+          "片付ける",
+          "掃除する",
+          "石鹸"
+        ],
+        "answer": 0,
+        "id": "N5-19-012"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）が好きです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "屋根",
+          "風邪",
+          "言う",
+          "火曜日"
+        ],
+        "answer": 0,
+        "id": "N5-19-013"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を見ました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "魚",
+          "綺麗",
+          "映画館",
+          "上"
+        ],
+        "answer": 3,
+        "id": "N5-19-014"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を買いました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "会社員",
+          "問題",
+          "便利",
+          "訪ねる"
+        ],
+        "answer": 3,
+        "id": "N5-19-015"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）で働いています。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "終わる",
+          "利用",
+          "脱ぐ",
+          "つける"
+        ],
+        "answer": 2,
+        "id": "N5-19-016"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を勉強しています。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "体",
+          "暑い",
+          "テレビ",
+          "お店"
+        ],
+        "answer": 2,
+        "id": "N5-19-017"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）が上手です。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "弱い",
+          "接続",
+          "歯ブラシ",
+          "話す"
+        ],
+        "answer": 1,
+        "id": "N5-19-018"
+      },
+      {
+        "type": "文脈規定",
+        "text": "部屋に（　）があります。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "靴下",
+          "家",
+          "おばあさん",
+          "学生"
+        ],
+        "answer": 2,
+        "id": "N5-19-019"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）は難しいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "冬",
+          "故障",
+          "趣味",
+          "泣く"
+        ],
+        "answer": 2,
+        "id": "N5-19-020"
+      },
+      {
+        "type": "言い換え",
+        "text": "「凍る」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "gradually",
+          "to freeze",
+          "teacher",
+          "older brother (polite)"
+        ],
+        "answer": 1,
+        "id": "N5-19-021"
+      },
+      {
+        "type": "言い換え",
+        "text": "「土曜日」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "five things",
+          "to consider",
+          "to die",
+          "Saturday"
+        ],
+        "answer": 3,
+        "id": "N5-19-022"
+      },
+      {
+        "type": "言い換え",
+        "text": "「兄」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "later",
+          "morning/AM",
+          "every year",
+          "older brother"
+        ],
+        "answer": 3,
+        "id": "N5-19-023"
+      },
+      {
+        "type": "言い換え",
+        "text": "「悪い」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "to go down",
+          "to ask",
+          "bad",
+          "regrettable"
+        ],
+        "answer": 2,
+        "id": "N5-19-024"
+      },
+      {
+        "type": "言い換え",
+        "text": "「木」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "tree",
+          "when",
+          "left",
+          "to request"
+        ],
+        "answer": 0,
+        "id": "N5-19-025"
+      },
+      {
+        "type": "文法形式",
+        "text": "私は学生（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "です",
+          "だ",
+          "ます",
+          "ある"
+        ],
+        "answer": 0,
+        "id": "N5-19-026"
+      },
+      {
+        "type": "文法形式",
+        "text": "これは本（　）ありません。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "では",
+          "が",
+          "を",
+          "に"
+        ],
+        "answer": 0,
+        "id": "N5-19-027"
+      },
+      {
+        "type": "文法形式",
+        "text": "学校（　）行きます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "に",
+          "を",
+          "が",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-19-028"
+      },
+      {
+        "type": "文法形式",
+        "text": "友だち（　）会いました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "に",
+          "を",
+          "が",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-19-029"
+      },
+      {
+        "type": "文法形式",
+        "text": "日本語（　）勉強しています。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "を",
+          "に",
+          "が",
+          "で"
+        ],
+        "answer": 0,
+        "id": "N5-19-030"
+      },
+      {
+        "type": "文法形式",
+        "text": "電車（　）来ます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-19-031"
+      },
+      {
+        "type": "文法形式",
+        "text": "コーヒー（　）飲みたいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "が",
+          "を",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-19-032"
+      },
+      {
+        "type": "文法形式",
+        "text": "映画（　）見ました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "を",
+          "が",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-19-033"
+      },
+      {
+        "type": "文法形式",
+        "text": "部屋（　）きれいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "は",
+          "を",
+          "に",
+          "が"
+        ],
+        "answer": 0,
+        "id": "N5-19-034"
+      },
+      {
+        "type": "文法形式",
+        "text": "本を読む（　）が好きです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "の",
+          "を",
+          "に",
+          "は"
+        ],
+        "answer": 0,
+        "id": "N5-19-035"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: は / 学生 / 私 / です",
+        "question": "★に入るのは？",
+        "options": [
+          "は",
+          "学生",
+          "私",
+          "です"
+        ],
+        "answer": 0,
+        "id": "N5-19-036"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: を / 毎日 / 日本語 / 勉強します",
+        "question": "★に入るのは？",
+        "options": [
+          "を",
+          "毎日",
+          "日本語",
+          "勉強します"
+        ],
+        "answer": 1,
+        "id": "N5-19-037"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 会いました / きのう / 友だち / と",
+        "question": "★に入るのは？",
+        "options": [
+          "会いました",
+          "きのう",
+          "友だち",
+          "と"
+        ],
+        "answer": 0,
+        "id": "N5-19-038"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: おもしろい / は / 本 / この",
+        "question": "★に入るのは？",
+        "options": [
+          "おもしろい",
+          "は",
+          "本",
+          "この"
+        ],
+        "answer": 1,
+        "id": "N5-19-039"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 歩いて / まで / 駅 / 行きます",
+        "question": "★に入るのは？",
+        "options": [
+          "歩いて",
+          "まで",
+          "駅",
+          "行きます"
+        ],
+        "answer": 1,
+        "id": "N5-19-040"
+      },
+      {
+        "type": "文章の文法",
+        "text": "私は毎朝6時に起きます。顔を洗って、朝ごはんを（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "食べます",
+          "食べて",
+          "食べた",
+          "食べる"
+        ],
+        "answer": 0,
+        "id": "N5-19-041"
+      },
+      {
+        "type": "文章の文法",
+        "text": "きのうは日曜日でした。友だちと公園で（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "遊びました",
+          "遊びます",
+          "遊んで",
+          "遊ぶ"
+        ],
+        "answer": 0,
+        "id": "N5-19-042"
+      },
+      {
+        "type": "文章の文法",
+        "text": "この店は安くて、（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "おいしいです",
+          "おいしい",
+          "おいしくて",
+          "おいしかった"
+        ],
+        "answer": 0,
+        "id": "N5-19-043"
+      },
+      {
+        "type": "文章の文法",
+        "text": "来週テストがあります。だから、今日は（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "勉強します",
+          "勉強した",
+          "勉強して",
+          "勉強する"
+        ],
+        "answer": 0,
+        "id": "N5-19-044"
+      },
+      {
+        "type": "文章の文法",
+        "text": "電車が来ません。30分（　）います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "待って",
+          "待った",
+          "待つ",
+          "待ち"
+        ],
+        "answer": 0,
+        "id": "N5-19-045"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "田中さんは毎朝7時に起きます。",
+        "question": "何時に起きますか。",
+        "options": [
+          "6時",
+          "7時",
+          "8時",
+          "9時"
+        ],
+        "answer": 1,
+        "id": "N5-19-046"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "私の部屋は広くないですが、明るいです。",
+        "question": "部屋はどうですか。",
+        "options": [
+          "広い",
+          "暗い",
+          "明るい",
+          "寒い"
+        ],
+        "answer": 2,
+        "id": "N5-19-047"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "駅から学校までバスで5分です。",
+        "question": "バスで何分？",
+        "options": [
+          "3分",
+          "5分",
+          "10分",
+          "15分"
+        ],
+        "answer": 1,
+        "id": "N5-19-048"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "私は日本語を勉強しています。毎日2時間勉強します。日本語は難しいですが、おもしろいです。",
+        "question": "日本語をどう思いますか。",
+        "options": [
+          "簡単",
+          "難しいけどおもしろい",
+          "つまらない",
+          "簡単でおもしろい"
+        ],
+        "answer": 1,
+        "id": "N5-19-049"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "山田さんの家族は4人です。お父さんとお母さんと妹がいます。",
+        "question": "家族は何人？",
+        "options": [
+          "3人",
+          "4人",
+          "5人",
+          "6人"
+        ],
+        "answer": 1,
+        "id": "N5-19-050"
+      },
+      {
+        "type": "情報検索",
+        "text": "【図書館】開館: 9:00-17:00 休み: 月曜日",
+        "question": "何時まで？",
+        "options": [
+          "16時",
+          "17時",
+          "18時",
+          "19時"
+        ],
+        "answer": 1,
+        "id": "N5-19-051"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人と女の人が話しています。男の人は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "りんご",
+          "みかん",
+          "バナナ",
+          "いちご"
+        ],
+        "answer": 0,
+        "id": "N5-19-052"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "学生と先生が話しています。宿題はいつまでですか。",
+        "question": "質問",
+        "options": [
+          "月曜",
+          "火曜",
+          "水曜",
+          "木曜"
+        ],
+        "answer": 2,
+        "id": "N5-19-053"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "女の人と男の人が話しています。どこで会いますか。",
+        "question": "質問",
+        "options": [
+          "駅",
+          "学校",
+          "図書館",
+          "公園"
+        ],
+        "answer": 0,
+        "id": "N5-19-054"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "お母さんと子供が話しています。子供は何を食べますか。",
+        "question": "質問",
+        "options": [
+          "パン",
+          "ごはん",
+          "たまご",
+          "サラダ"
+        ],
+        "answer": 1,
+        "id": "N5-19-055"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "店員と客が話しています。客は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "シャツ",
+          "ズボン",
+          "靴",
+          "帽子"
+        ],
+        "answer": 0,
+        "id": "N5-19-056"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人が話しています。明日の天気は？",
+        "question": "質問",
+        "options": [
+          "晴れ",
+          "曇り",
+          "雨",
+          "雪"
+        ],
+        "answer": 2,
+        "id": "N5-19-057"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。何が好きですか。",
+        "question": "質問",
+        "options": [
+          "音楽",
+          "スポーツ",
+          "料理",
+          "映画"
+        ],
+        "answer": 0,
+        "id": "N5-19-058"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。どこに住んでいますか。",
+        "question": "質問",
+        "options": [
+          "東京",
+          "大阪",
+          "京都",
+          "名古屋"
+        ],
+        "answer": 1,
+        "id": "N5-19-059"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "学生が話しています。何を勉強していますか。",
+        "question": "質問",
+        "options": [
+          "英語",
+          "日本語",
+          "数学",
+          "歴史"
+        ],
+        "answer": 1,
+        "id": "N5-19-060"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。趣味は何ですか。",
+        "question": "質問",
+        "options": [
+          "読書",
+          "映画",
+          "旅行",
+          "料理"
+        ],
+        "answer": 2,
+        "id": "N5-19-061"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。いつ日本に来ましたか。",
+        "question": "質問",
+        "options": [
+          "去年",
+          "2年前",
+          "先月",
+          "先週"
+        ],
+        "answer": 0,
+        "id": "N5-19-062"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "二人が話しています。パーティーは何時から？",
+        "question": "質問",
+        "options": [
+          "5時",
+          "6時",
+          "7時",
+          "8時"
+        ],
+        "answer": 1,
+        "id": "N5-19-063"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "「ありがとう」と言われました。",
+        "question": "何と言いますか。",
+        "options": [
+          "どういたしまして",
+          "すみません",
+          "おはよう",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-19-064"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "朝、先生に会いました。",
+        "question": "何と言いますか。",
+        "options": [
+          "おはようございます",
+          "こんにちは",
+          "こんばんは",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-19-065"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べる前です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 0,
+        "id": "N5-19-066"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べた後です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 1,
+        "id": "N5-19-067"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "出かける時、家族に。",
+        "question": "何と言いますか。",
+        "options": [
+          "行ってきます",
+          "ただいま",
+          "おかえり",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-19-068"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お名前は？",
+        "question": "何と答えますか。",
+        "options": [
+          "田中です",
+          "いいえ",
+          "はい",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-19-069"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "これはいくらですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "100円です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-19-070"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "どこに住んでいますか。",
+        "question": "何と答えますか。",
+        "options": [
+          "東京です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-19-071"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "何歳ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "20歳です",
+          "学生です",
+          "日本人です",
+          "田中です"
+        ],
+        "answer": 0,
+        "id": "N5-19-072"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お仕事は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "会社員です",
+          "東京です",
+          "日本です",
+          "20歳です"
+        ],
+        "answer": 0,
+        "id": "N5-19-073"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "趣味は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "読書です",
+          "はい",
+          "いいえ",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-19-074"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今何時ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "3時です",
+          "月曜日です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-19-075"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今日は何曜日ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "月曜日です",
+          "3時です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-19-076"
+      }
+    ],
+    "20": [
+      {
+        "type": "漢字読み",
+        "text": "<u>薬</u>の読み方は？",
+        "question": "「薬」の読み方は？",
+        "options": [
+          "とぶ",
+          "くすり",
+          "しんぶん",
+          "はな"
+        ],
+        "answer": 1,
+        "id": "N5-20-001"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>夜</u>の読み方は？",
+        "question": "「夜」の読み方は？",
+        "options": [
+          "きこえる",
+          "けんぶつ",
+          "よる",
+          "てがみ"
+        ],
+        "answer": 2,
+        "id": "N5-20-002"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>度</u>の読み方は？",
+        "question": "「度」の読み方は？",
+        "options": [
+          "こんげつ",
+          "うつ",
+          "なげる",
+          "ど"
+        ],
+        "answer": 3,
+        "id": "N5-20-003"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>映画館</u>の読み方は？",
+        "question": "「映画館」の読み方は？",
+        "options": [
+          "おべんとう",
+          "たすける",
+          "えいがかん",
+          "おくれる"
+        ],
+        "answer": 2,
+        "id": "N5-20-004"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>新聞</u>の読み方は？",
+        "question": "「新聞」の読み方は？",
+        "options": [
+          "しんぶん",
+          "むかえる",
+          "ゆにゅう",
+          "おわび"
+        ],
+        "answer": 0,
+        "id": "N5-20-005"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>新しい</u>の読み方は？",
+        "question": "「新しい」の読み方は？",
+        "options": [
+          "あたらしい",
+          "とくべつ",
+          "くも",
+          "くらい"
+        ],
+        "answer": 0,
+        "id": "N5-20-006"
+      },
+      {
+        "type": "表記",
+        "text": "<u>にもつ</u>の漢字は？",
+        "question": "「にもつ」の書き方は？",
+        "options": [
+          "荷物",
+          "お姉さん",
+          "始める",
+          "練習"
+        ],
+        "answer": 0,
+        "id": "N5-20-007"
+      },
+      {
+        "type": "表記",
+        "text": "<u>うみ</u>の漢字は？",
+        "question": "「うみ」の書き方は？",
+        "options": [
+          "要る",
+          "脱ぐ",
+          "海",
+          "最近"
+        ],
+        "answer": 2,
+        "id": "N5-20-008"
+      },
+      {
+        "type": "表記",
+        "text": "<u>あつめる</u>の漢字は？",
+        "question": "「あつめる」の書き方は？",
+        "options": [
+          "壊す",
+          "喜ぶ",
+          "集める",
+          "料理"
+        ],
+        "answer": 2,
+        "id": "N5-20-009"
+      },
+      {
+        "type": "表記",
+        "text": "<u>おもいで</u>の漢字は？",
+        "question": "「おもいで」の書き方は？",
+        "options": [
+          "火曜日",
+          "女",
+          "比べる",
+          "思い出"
+        ],
+        "answer": 3,
+        "id": "N5-20-010"
+      },
+      {
+        "type": "表記",
+        "text": "<u>かばん</u>の漢字は？",
+        "question": "「かばん」の書き方は？",
+        "options": [
+          "行く",
+          "鞄",
+          "探す",
+          "取る"
+        ],
+        "answer": 1,
+        "id": "N5-20-011"
+      },
+      {
+        "type": "表記",
+        "text": "<u>いそぐ</u>の漢字は？",
+        "question": "「いそぐ」の書き方は？",
+        "options": [
+          "床",
+          "急ぐ",
+          "就職",
+          "少し"
+        ],
+        "answer": 1,
+        "id": "N5-20-012"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）は楽しいです。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "個",
+          "使う",
+          "止める",
+          "洗う"
+        ],
+        "answer": 1,
+        "id": "N5-20-013"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を聞きます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "会議",
+          "同じ",
+          "電車",
+          "変わる"
+        ],
+        "answer": 2,
+        "id": "N5-20-014"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を読みます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "店",
+          "お礼",
+          "おはよう",
+          "案内"
+        ],
+        "answer": 0,
+        "id": "N5-20-015"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を作ります。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "退職",
+          "跳ぶ",
+          "エレベーター",
+          "音"
+        ],
+        "answer": 1,
+        "id": "N5-20-016"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）に住んでいます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "退職",
+          "招待する",
+          "人",
+          "完璧"
+        ],
+        "answer": 0,
+        "id": "N5-20-017"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）を使います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "医者",
+          "こんばんは",
+          "引っ越す",
+          "勉強する"
+        ],
+        "answer": 0,
+        "id": "N5-20-018"
+      },
+      {
+        "type": "文脈規定",
+        "text": "友だちと（　）をしました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "成功",
+          "今晩",
+          "招待",
+          "妹"
+        ],
+        "answer": 1,
+        "id": "N5-20-019"
+      },
+      {
+        "type": "文脈規定",
+        "text": "（　）が終わりました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "店",
+          "余る",
+          "冊",
+          "毎朝"
+        ],
+        "answer": 2,
+        "id": "N5-20-020"
+      },
+      {
+        "type": "言い換え",
+        "text": "「選ぶ」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "time",
+          "to choose",
+          "one (flat)",
+          "bath"
+        ],
+        "answer": 1,
+        "id": "N5-20-021"
+      },
+      {
+        "type": "言い換え",
+        "text": "「リュック」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "backpack",
+          "to return",
+          "umbrella",
+          "juice"
+        ],
+        "answer": 0,
+        "id": "N5-20-022"
+      },
+      {
+        "type": "言い換え",
+        "text": "「準備」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "refrigerator",
+          "translate",
+          "preparation",
+          "bill"
+        ],
+        "answer": 2,
+        "id": "N5-20-023"
+      },
+      {
+        "type": "言い換え",
+        "text": "「脱ぐ」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "to take off",
+          "sweater",
+          "goodbye",
+          "to climb"
+        ],
+        "answer": 0,
+        "id": "N5-20-024"
+      },
+      {
+        "type": "言い換え",
+        "text": "「時間」の意味は？",
+        "question": "近い意味は？",
+        "options": [
+          "time",
+          "street",
+          "younger brother",
+          "to separate"
+        ],
+        "answer": 0,
+        "id": "N5-20-025"
+      },
+      {
+        "type": "文法形式",
+        "text": "食べ（　）から寝ます。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-20-026"
+      },
+      {
+        "type": "文法形式",
+        "text": "日本に行き（　）です。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "たい",
+          "ます",
+          "た",
+          "る"
+        ],
+        "answer": 0,
+        "id": "N5-20-027"
+      },
+      {
+        "type": "文法形式",
+        "text": "雨が降っ（　）います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-20-028"
+      },
+      {
+        "type": "文法形式",
+        "text": "ここに座っ（　）ください。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-20-029"
+      },
+      {
+        "type": "文法形式",
+        "text": "まだ食べ（　）いません。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "て",
+          "た",
+          "る",
+          "ない"
+        ],
+        "answer": 0,
+        "id": "N5-20-030"
+      },
+      {
+        "type": "文法形式",
+        "text": "明日来（　）か。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "ます",
+          "る",
+          "た",
+          "て"
+        ],
+        "answer": 0,
+        "id": "N5-20-031"
+      },
+      {
+        "type": "文法形式",
+        "text": "きのう何を（　）か。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "しました",
+          "します",
+          "する",
+          "して"
+        ],
+        "answer": 0,
+        "id": "N5-20-032"
+      },
+      {
+        "type": "文法形式",
+        "text": "この本は（　）です。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "おもしろい",
+          "おもしろく",
+          "おもしろ",
+          "おもしろいな"
+        ],
+        "answer": 0,
+        "id": "N5-20-033"
+      },
+      {
+        "type": "文法形式",
+        "text": "部屋を（　）しました。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "きれいに",
+          "きれい",
+          "きれいな",
+          "きれいく"
+        ],
+        "answer": 0,
+        "id": "N5-20-034"
+      },
+      {
+        "type": "文法形式",
+        "text": "早く（　）ください。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "起きて",
+          "起きる",
+          "起きた",
+          "起き"
+        ],
+        "answer": 0,
+        "id": "N5-20-035"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 飲み / コーヒー / ながら / を",
+        "question": "★に入るのは？",
+        "options": [
+          "飲み",
+          "コーヒー",
+          "ながら",
+          "を"
+        ],
+        "answer": 1,
+        "id": "N5-20-036"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 降って / います / 雨 / が",
+        "question": "★に入るのは？",
+        "options": [
+          "降って",
+          "います",
+          "雨",
+          "が"
+        ],
+        "answer": 2,
+        "id": "N5-20-037"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 行き / 日本 / たいです / に",
+        "question": "★に入るのは？",
+        "options": [
+          "行き",
+          "日本",
+          "たいです",
+          "に"
+        ],
+        "answer": 1,
+        "id": "N5-20-038"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: きれい / 部屋 / です / が",
+        "question": "★に入るのは？",
+        "options": [
+          "きれい",
+          "部屋",
+          "です",
+          "が"
+        ],
+        "answer": 1,
+        "id": "N5-20-039"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: ました / 映画 / を / 見",
+        "question": "★に入るのは？",
+        "options": [
+          "ました",
+          "映画",
+          "を",
+          "見"
+        ],
+        "answer": 1,
+        "id": "N5-20-040"
+      },
+      {
+        "type": "文章の文法",
+        "text": "私は毎朝6時に起きます。顔を洗って、朝ごはんを（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "食べます",
+          "食べて",
+          "食べた",
+          "食べる"
+        ],
+        "answer": 0,
+        "id": "N5-20-041"
+      },
+      {
+        "type": "文章の文法",
+        "text": "きのうは日曜日でした。友だちと公園で（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "遊びました",
+          "遊びます",
+          "遊んで",
+          "遊ぶ"
+        ],
+        "answer": 0,
+        "id": "N5-20-042"
+      },
+      {
+        "type": "文章の文法",
+        "text": "この店は安くて、（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "おいしいです",
+          "おいしい",
+          "おいしくて",
+          "おいしかった"
+        ],
+        "answer": 0,
+        "id": "N5-20-043"
+      },
+      {
+        "type": "文章の文法",
+        "text": "来週テストがあります。だから、今日は（　）。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "勉強します",
+          "勉強した",
+          "勉強して",
+          "勉強する"
+        ],
+        "answer": 0,
+        "id": "N5-20-044"
+      },
+      {
+        "type": "文章の文法",
+        "text": "電車が来ません。30分（　）います。",
+        "question": "（　）に入るのは？",
+        "options": [
+          "待って",
+          "待った",
+          "待つ",
+          "待ち"
+        ],
+        "answer": 0,
+        "id": "N5-20-045"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "山田さんは毎日図書館で本を読みます。",
+        "question": "どこで読みますか。",
+        "options": [
+          "学校",
+          "公園",
+          "図書館",
+          "家"
+        ],
+        "answer": 2,
+        "id": "N5-20-046"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "今日は雨です。傘を持っていきます。",
+        "question": "今日の天気は？",
+        "options": [
+          "晴れ",
+          "曇り",
+          "雨",
+          "雪"
+        ],
+        "answer": 2,
+        "id": "N5-20-047"
+      },
+      {
+        "type": "読解（短文）",
+        "text": "このりんごは100円です。",
+        "question": "いくら？",
+        "options": [
+          "50円",
+          "100円",
+          "150円",
+          "200円"
+        ],
+        "answer": 1,
+        "id": "N5-20-048"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "私の町は小さいですが、きれいです。山と川があります。",
+        "question": "この町に何がある？",
+        "options": [
+          "海",
+          "山と川",
+          "ビル",
+          "空港"
+        ],
+        "answer": 1,
+        "id": "N5-20-049"
+      },
+      {
+        "type": "読解（中文）",
+        "text": "田中さんは朝6時に起きます。7時に朝ごはんを食べます。8時に家を出ます。",
+        "question": "何時に家を出る？",
+        "options": [
+          "6時",
+          "7時",
+          "8時",
+          "9時"
+        ],
+        "answer": 2,
+        "id": "N5-20-050"
+      },
+      {
+        "type": "情報検索",
+        "text": "【映画】時間: 10:00, 14:00 料金: 大人1800円",
+        "question": "何時から？",
+        "options": [
+          "9時",
+          "10時",
+          "11時",
+          "12時"
+        ],
+        "answer": 1,
+        "id": "N5-20-051"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人と女の人が話しています。男の人は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "りんご",
+          "みかん",
+          "バナナ",
+          "いちご"
+        ],
+        "answer": 0,
+        "id": "N5-20-052"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "学生と先生が話しています。宿題はいつまでですか。",
+        "question": "質問",
+        "options": [
+          "月曜",
+          "火曜",
+          "水曜",
+          "木曜"
+        ],
+        "answer": 2,
+        "id": "N5-20-053"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "女の人と男の人が話しています。どこで会いますか。",
+        "question": "質問",
+        "options": [
+          "駅",
+          "学校",
+          "図書館",
+          "公園"
+        ],
+        "answer": 0,
+        "id": "N5-20-054"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "お母さんと子供が話しています。子供は何を食べますか。",
+        "question": "質問",
+        "options": [
+          "パン",
+          "ごはん",
+          "たまご",
+          "サラダ"
+        ],
+        "answer": 1,
+        "id": "N5-20-055"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "店員と客が話しています。客は何を買いますか。",
+        "question": "質問",
+        "options": [
+          "シャツ",
+          "ズボン",
+          "靴",
+          "帽子"
+        ],
+        "answer": 0,
+        "id": "N5-20-056"
+      },
+      {
+        "type": "聴解（課題理解）",
+        "text": "男の人が話しています。明日の天気は？",
+        "question": "質問",
+        "options": [
+          "晴れ",
+          "曇り",
+          "雨",
+          "雪"
+        ],
+        "answer": 2,
+        "id": "N5-20-057"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。何が好きですか。",
+        "question": "質問",
+        "options": [
+          "音楽",
+          "スポーツ",
+          "料理",
+          "映画"
+        ],
+        "answer": 0,
+        "id": "N5-20-058"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。どこに住んでいますか。",
+        "question": "質問",
+        "options": [
+          "東京",
+          "大阪",
+          "京都",
+          "名古屋"
+        ],
+        "answer": 1,
+        "id": "N5-20-059"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "学生が話しています。何を勉強していますか。",
+        "question": "質問",
+        "options": [
+          "英語",
+          "日本語",
+          "数学",
+          "歴史"
+        ],
+        "answer": 1,
+        "id": "N5-20-060"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "男の人が話しています。趣味は何ですか。",
+        "question": "質問",
+        "options": [
+          "読書",
+          "映画",
+          "旅行",
+          "料理"
+        ],
+        "answer": 2,
+        "id": "N5-20-061"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "女の人が話しています。いつ日本に来ましたか。",
+        "question": "質問",
+        "options": [
+          "去年",
+          "2年前",
+          "先月",
+          "先週"
+        ],
+        "answer": 0,
+        "id": "N5-20-062"
+      },
+      {
+        "type": "聴解（ポイント理解）",
+        "text": "二人が話しています。パーティーは何時から？",
+        "question": "質問",
+        "options": [
+          "5時",
+          "6時",
+          "7時",
+          "8時"
+        ],
+        "answer": 1,
+        "id": "N5-20-063"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "「ありがとう」と言われました。",
+        "question": "何と言いますか。",
+        "options": [
+          "どういたしまして",
+          "すみません",
+          "おはよう",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-20-064"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "朝、先生に会いました。",
+        "question": "何と言いますか。",
+        "options": [
+          "おはようございます",
+          "こんにちは",
+          "こんばんは",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-20-065"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べる前です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 0,
+        "id": "N5-20-066"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "食べた後です。",
+        "question": "何と言いますか。",
+        "options": [
+          "いただきます",
+          "ごちそうさま",
+          "おやすみ",
+          "行ってきます"
+        ],
+        "answer": 1,
+        "id": "N5-20-067"
+      },
+      {
+        "type": "聴解（発話表現）",
+        "text": "出かける時、家族に。",
+        "question": "何と言いますか。",
+        "options": [
+          "行ってきます",
+          "ただいま",
+          "おかえり",
+          "さようなら"
+        ],
+        "answer": 0,
+        "id": "N5-20-068"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お名前は？",
+        "question": "何と答えますか。",
+        "options": [
+          "田中です",
+          "いいえ",
+          "はい",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-20-069"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "これはいくらですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "100円です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-20-070"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "どこに住んでいますか。",
+        "question": "何と答えますか。",
+        "options": [
+          "東京です",
+          "はい",
+          "いいえ",
+          "ありがとう"
+        ],
+        "answer": 0,
+        "id": "N5-20-071"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "何歳ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "20歳です",
+          "学生です",
+          "日本人です",
+          "田中です"
+        ],
+        "answer": 0,
+        "id": "N5-20-072"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "お仕事は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "会社員です",
+          "東京です",
+          "日本です",
+          "20歳です"
+        ],
+        "answer": 0,
+        "id": "N5-20-073"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "趣味は何ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "読書です",
+          "はい",
+          "いいえ",
+          "どうぞ"
+        ],
+        "answer": 0,
+        "id": "N5-20-074"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今何時ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "3時です",
+          "月曜日です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-20-075"
+      },
+      {
+        "type": "聴解（即時応答）",
+        "text": "今日は何曜日ですか。",
+        "question": "何と答えますか。",
+        "options": [
+          "月曜日です",
+          "3時です",
+          "はい",
+          "いいえ"
+        ],
+        "answer": 0,
+        "id": "N5-20-076"
+      }
+    ]
+  }
 };
