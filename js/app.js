@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '17.17.0';
+const APP_VERSION = '18.5.7';
 const STORAGE_KEY = 'fujisan_v1737';
 
 // ========== UI TRANSLATIONS ==========
@@ -932,6 +932,11 @@ function updateDrillScreen() {
   document.querySelectorAll('.level-select-btn').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.level === state.level);
   });
+  
+  // Update category button selection state
+  document.querySelectorAll('.category-btn').forEach(btn => {
+    btn.classList.toggle('selected', btn.dataset.cat === state.category);
+  });
 }
 
 // S2: Continue from last session
@@ -1069,6 +1074,12 @@ document.querySelectorAll('.level-btn').forEach(btn => {
 function selectCategoryAndStart(cat) {
   state.category = cat;
   saveState();
+  
+  // Update category button selection state
+  document.querySelectorAll('.category-btn').forEach(btn => {
+    btn.classList.toggle('selected', btn.dataset.cat === cat);
+  });
+  
   startDrill();
 }
 
