@@ -1937,45 +1937,7 @@ function getSrsStats() {
 // Update SRS display on dashboard
 function updateSrsDisplay() {
   const srsContainer = document.getElementById('srs-stats-container');
-  if (!srsContainer) return;
-  
-  const stats = getSrsStats();
-  const totalDue = getTotalSrsDueCount();
-  
-  if (stats.total === 0 && totalDue === 0) {
-    srsContainer.style.display = 'none';
-    return;
-  }
-  
-  srsContainer.style.display = 'block';
-  
-  const lang = state.lang || 'en';
-  const labels = {
-    en: { due: 'Due Today', learning: 'Learning', mastered: 'Mastered' },
-    'zh-TW': { due: '今日複習', learning: '學習中', mastered: '已掌握' },
-    'zh-CN': { due: '今日复习', learning: '学习中', mastered: '已掌握' },
-    ko: { due: '오늘 복습', learning: '학습 중', mastered: '마스터' },
-    vi: { due: 'Hôm nay', learning: 'Đang học', mastered: 'Thành thạo' },
-    id: { due: 'Hari ini', learning: 'Sedang belajar', mastered: 'Dikuasai' }
-  };
-  const l = labels[lang] || labels.en;
-  
-  srsContainer.innerHTML = `
-    <div class="srs-stats">
-      <div class="srs-stat ${totalDue > 0 ? 'srs-due' : ''}">
-        <span class="srs-stat-value">${totalDue}</span>
-        <span class="srs-stat-label">${l.due}</span>
-      </div>
-      <div class="srs-stat">
-        <span class="srs-stat-value">${stats.total - stats.mastered}</span>
-        <span class="srs-stat-label">${l.learning}</span>
-      </div>
-      <div class="srs-stat srs-mastered">
-        <span class="srs-stat-value">${stats.mastered}</span>
-        <span class="srs-stat-label">${l.mastered}</span>
-      </div>
-    </div>
-  `;
+  if (srsContainer) srsContainer.style.display = 'none';
 }
 
 // ========== END SRS ==========
