@@ -1,4 +1,4 @@
-// N3 Mock Test Data - v18.6.6 (with furigana)
+// N3 Mock Test Data - v18.6.7 (with content icons)
 if (typeof MOCK_DATA === 'undefined') { var MOCK_DATA = {}; }
 MOCK_DATA['N3'] = {
   "info": {
@@ -11,184 +11,184 @@ MOCK_DATA['N3'] = {
     "1": [
       {
         "type": "漢字読み",
-        "text": "<u>汗</u>の読み方は？",
+        "text": "<u>話し合い</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "ほうこく",
-          "くりーにんぐてん",
-          "はし",
-          "あせ"
+          "にゅうじょう",
+          "はなしあい",
+          "おもい",
+          "きゅうけいしつ"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-01-001"
       },
       {
         "type": "漢字読み",
-        "text": "<u>技師</u>の読み方は？",
+        "text": "<u>黒</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "すうじ",
-          "ぎし",
-          "せんじつ",
-          "あるいていく"
+          "くろ",
+          "たん",
+          "きゅうけいする",
+          "せいしつ"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-01-002"
       },
       {
         "type": "漢字読み",
-        "text": "<u>札</u>の読み方は？",
+        "text": "<u>掛け算</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "さつ",
-          "かてい",
-          "もじ",
-          "ふり"
+          "しょうてんがい",
+          "ときおり",
+          "かけざん",
+          "こうし"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-01-003"
       },
       {
         "type": "漢字読み",
-        "text": "<u>学習</u>の読み方は？",
+        "text": "<u>集まる</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "こうそく",
-          "ひさしぶり",
-          "おろす",
-          "がくしゅう"
+          "じもと",
+          "まるい",
+          "あつまる",
+          "ごしつもん"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-01-004"
       },
       {
         "type": "漢字読み",
-        "text": "<u>知識</u>の読み方は？",
+        "text": "<u>固める</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "かいせつ",
-          "ちしき",
-          "ごらく",
-          "くろい"
+          "いちにちじゅう",
+          "かためる",
+          "まよう",
+          "しあい"
         ],
         "answer": 1,
         "id": "N3-01-005"
       },
       {
         "type": "漢字読み",
-        "text": "<u>数十</u>の読み方は？",
+        "text": "<u>頭痛</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "おうじる",
-          "おくる",
-          "すうじゅう",
-          "しゃどう"
+          "きぎょう",
+          "ずつう",
+          "くむ",
+          "こうむいん"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-01-006"
       },
       {
         "type": "漢字読み",
-        "text": "<u>歩く</u>の読み方は？",
+        "text": "<u>有効</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "わかれる",
-          "ひきだす",
-          "とし",
-          "あるく"
+          "のびる",
+          "しょくじ",
+          "ゆうこう",
+          "こと"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-01-007"
       },
       {
         "type": "漢字読み",
-        "text": "<u>四角</u>の読み方は？",
+        "text": "<u>雇う</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "こうせい",
-          "うみ",
-          "しかく",
-          "やっきょく"
+          "せいふ",
+          "やとう",
+          "あけがた",
+          "はやし"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-01-008"
       },
       {
         "type": "表記",
-        "text": "<u>あげる</u>の漢字は？",
+        "text": "<u>そのうえ</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "教科",
-          "市",
-          "上げる",
-          "個"
+          "限度",
+          "住所",
+          "合図",
+          "その上"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-01-009"
       },
       {
         "type": "表記",
-        "text": "<u>はげしい</u>の漢字は？",
+        "text": "<u>すうひゃく</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "激しい",
-          "建設",
-          "勝つ",
-          "信じる"
+          "本格",
+          "薬局",
+          "西",
+          "数百"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-01-010"
       },
       {
         "type": "表記",
-        "text": "<u>ごうう</u>の漢字は？",
+        "text": "<u>てつどう</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "豪雨",
-          "中止",
-          "今",
-          "元気が出る"
+          "呼ぶ",
+          "嫌",
+          "鉄道",
+          "輸入"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-01-011"
       },
       {
         "type": "表記",
-        "text": "<u>ちゅうもんする</u>の漢字は？",
+        "text": "<u>でぐち</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "事務所",
-          "注文する",
-          "時々",
-          "残業する"
+          "出口",
+          "見せる",
+          "病気",
+          "拾う"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-01-012"
       },
       {
         "type": "表記",
-        "text": "<u>さんかく</u>の漢字は？",
+        "text": "<u>おおきい</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "学",
-          "三角",
-          "通る",
-          "寝室"
+          "所",
+          "出口",
+          "届け",
+          "大きい"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-01-013"
       },
       {
         "type": "表記",
-        "text": "<u>しんゆう</u>の漢字は？",
+        "text": "<u>あさ</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "親友",
-          "夕食",
-          "柔道",
-          "目安"
+          "気圧",
+          "壁",
+          "朝",
+          "茶"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-01-014"
       },
       {
@@ -196,12 +196,12 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>先週<rt>せんしゅう</rt></ruby>",
-          "<ruby>明ける<rt>あける</rt></ruby>",
-          "<ruby>売買<rt>ばいばい</rt></ruby>",
-          "たった"
+          "<ruby>頭<rt>とう</rt></ruby>",
+          "<ruby>招く<rt>まねく</rt></ruby>",
+          "すする",
+          "<ruby>在庫<rt>ざいこ</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-01-015"
       },
       {
@@ -209,10 +209,10 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>夕食<rt>ゆうしょく</rt></ruby>",
-          "<ruby>車で行く<rt>くるまでいく</rt></ruby>",
-          "<ruby>車<rt>しゃ</rt></ruby>",
-          "<ruby>育てる<rt>そだてる</rt></ruby>"
+          "<ruby>賛成<rt>さんせい</rt></ruby>",
+          "<ruby>確認する<rt>かくにんする</rt></ruby>",
+          "<ruby>職場<rt>しょくば</rt></ruby>",
+          "<ruby>東<rt>ひがし</rt></ruby>"
         ],
         "answer": 3,
         "id": "N3-01-016"
@@ -222,10 +222,10 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>春<rt>はる</rt></ruby>",
-          "<ruby>心境<rt>しんきょう</rt></ruby>",
-          "<ruby>移動<rt>いどう</rt></ruby>",
-          "<ruby>知<rt>ち</rt></ruby>"
+          "<ruby>重大<rt>じゅうだい</rt></ruby>",
+          "いらっしゃる",
+          "<ruby>炭水化物<rt>たんすいかぶつ</rt></ruby>",
+          "<ruby>社会<rt>しゃかい</rt></ruby>"
         ],
         "answer": 3,
         "id": "N3-01-017"
@@ -235,12 +235,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "のど",
-          "<ruby>一方<rt>いっぽう</rt></ruby>",
-          "<ruby>禁止<rt>きんし</rt></ruby>",
-          "<ruby>勝利<rt>しょうり</rt></ruby>"
+          "<ruby>治す<rt>なおす</rt></ruby>",
+          "<ruby>出張する<rt>しゅっちょうする</rt></ruby>",
+          "<ruby>下ろす<rt>おろす</rt></ruby>",
+          "<ruby>別々<rt>べつべつ</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-01-018"
       },
       {
@@ -248,12 +248,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>超<rt>ちょう</rt></ruby>",
-          "<ruby>逆<rt>ぎゃく</rt></ruby>",
-          "<ruby>退院<rt>たいいん</rt></ruby>",
-          "ウサギ"
+          "<ruby>数学<rt>すうがく</rt></ruby>",
+          "<ruby>茶色<rt>ちゃいろ</rt></ruby>",
+          "メーカー",
+          "<ruby>知る<rt>しる</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-01-019"
       },
       {
@@ -261,12 +261,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "のんびりする",
-          "サービス",
-          "<ruby>応じる<rt>おうじる</rt></ruby>",
-          "<ruby>冷める<rt>さめる</rt></ruby>"
+          "<ruby>牛<rt>うし</rt></ruby>",
+          "<ruby>割引<rt>わりびき</rt></ruby>",
+          "<ruby>同い年<rt>おないどし</rt></ruby>",
+          "<ruby>水準<rt>すいじゅん</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-01-020"
       },
       {
@@ -274,12 +274,12 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>断る<rt>ことわる</rt></ruby>",
-          "<ruby>物理<rt>ぶつり</rt></ruby>",
-          "<ruby>支持<rt>しじ</rt></ruby>",
-          "<ruby>ご質問<rt>ごしつもん</rt></ruby>"
+          "スポーツ",
+          "<ruby>木<rt>き</rt></ruby>",
+          "セール",
+          "<ruby>都心<rt>としん</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-01-021"
       },
       {
@@ -287,12 +287,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>公開<rt>こうかい</rt></ruby>",
-          "<ruby>駅構内<rt>えきこうない</rt></ruby>",
-          "<ruby>入院する<rt>にゅういんする</rt></ruby>",
-          "<ruby>浮かべる<rt>うかべる</rt></ruby>"
+          "ズボン",
+          "<ruby>試み<rt>こころみ</rt></ruby>",
+          "ブランコ",
+          "<ruby>危ない<rt>あぶない</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-01-022"
       },
       {
@@ -300,12 +300,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>打つ<rt>ぶつ</rt></ruby>",
-          "<ruby>産業<rt>さんぎょう</rt></ruby>",
-          "<ruby>送る<rt>おくる</rt></ruby>",
-          "<ruby>人々<rt>ひとびと</rt></ruby>"
+          "<ruby>逆らう<rt>さからう</rt></ruby>",
+          "<ruby>差し上げる<rt>さしあげる</rt></ruby>",
+          "リハーサル",
+          "<ruby>図<rt>ず</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-01-023"
       },
       {
@@ -313,12 +313,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "やはり",
-          "<ruby>設備<rt>せつび</rt></ruby>",
-          "<ruby>国<rt>くに</rt></ruby>",
-          "<ruby>食欲<rt>しょくよく</rt></ruby>"
+          "<ruby>商業<rt>しょうぎょう</rt></ruby>",
+          "<ruby>オフィス街<rt>おふぃすがい</rt></ruby>",
+          "<ruby>逆<rt>ぎゃく</rt></ruby>",
+          "<ruby>跳ねる<rt>はねる</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-01-024"
       },
       {
@@ -326,75 +326,75 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>類<rt>るい</rt></ruby>",
-          "<ruby>運転<rt>うんてん</rt></ruby>",
-          "まったく",
-          "ちゃんと"
+          "<ruby>酸っぱい<rt>すっぱい</rt></ruby>",
+          "<ruby>考える<rt>かんがえる</rt></ruby>",
+          "ごちそうさま",
+          "<ruby>公園<rt>こうえん</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-01-025"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>世界<rt>せかい</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>災い<rt>わざわい</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "to go out",
-          "tonight",
-          "world",
-          "note"
+          "amount",
+          "dropping out",
+          "disaster",
+          "display"
         ],
         "answer": 2,
         "id": "N3-01-026"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>以後<rt>いご</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>異動する<rt>いどうする</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "knowledge",
-          "after",
-          "victory",
-          "upper limit"
+          "to arrange",
+          "to transfer",
+          "slowly",
+          "physical education"
         ],
         "answer": 1,
         "id": "N3-01-027"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>海外<rt>かいがい</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>規則<rt>きそく</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "overseas",
-          "to sweep",
-          "live",
-          "visit"
+          "parent",
+          "careless",
+          "allergy",
+          "rule"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-01-028"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>数倍<rt>すうばい</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>人格<rt>じんかく</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "basic",
-          "that way",
-          "several times",
-          "to advance"
+          "personality",
+          "way",
+          "to copy",
+          "government"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-01-029"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>口紅<rt>くちべに</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>二つ<rt>ふたつ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "number of copies",
-          "mother",
-          "lipstick",
-          "thousands of"
+          "to walk",
+          "light",
+          "two",
+          "group"
         ],
         "answer": 2,
         "id": "N3-01-030"
@@ -635,67 +635,67 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>彼<rt>かれ</rt></ruby>は / にもかかわらず / <ruby>忙しい<rt>いそがしい</rt></ruby> / <ruby>笑顔<rt>えがお</rt></ruby>だ",
+        "text": "並べ替え: <ruby>笑顔<rt>えがお</rt></ruby>だ / <ruby>彼<rt>かれ</rt></ruby>は / にもかかわらず / <ruby>忙しい<rt>いそがしい</rt></ruby>",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
+          "<ruby>笑顔<rt>えがお</rt></ruby>だ",
           "<ruby>彼<rt>かれ</rt></ruby>は",
           "にもかかわらず",
-          "<ruby>忙しい<rt>いそがしい</rt></ruby>",
-          "<ruby>笑顔<rt>えがお</rt></ruby>だ"
+          "<ruby>忙しい<rt>いそがしい</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-01-049"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: わからない / <ruby>説明<rt>せつめい</rt></ruby>を / ものの / 聞いた",
+        "text": "並べ替え: 聞いた / わからない / <ruby>説明<rt>せつめい</rt></ruby>を / ものの",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
+          "聞いた",
           "わからない",
           "<ruby>説明<rt>せつめい</rt></ruby>を",
-          "ものの",
-          "聞いた"
+          "ものの"
         ],
         "answer": 0,
         "id": "N3-01-050"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>場合<rt>ばあい</rt></ruby> / <ruby>雨<rt>あめ</rt></ruby>が / <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>降る<rt>ふる</rt></ruby>",
+        "text": "並べ替え: <ruby>雨<rt>あめ</rt></ruby>が / <ruby>降る<rt>ふる</rt></ruby> / <ruby>場合<rt>ばあい</rt></ruby> / <ruby>中止<rt>ちゅうし</rt></ruby>になる",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>場合<rt>ばあい</rt></ruby>",
           "<ruby>雨<rt>あめ</rt></ruby>が",
-          "<ruby>中止<rt>ちゅうし</rt></ruby>になる",
-          "<ruby>降る<rt>ふる</rt></ruby>"
+          "<ruby>降る<rt>ふる</rt></ruby>",
+          "<ruby>場合<rt>ばあい</rt></ruby>",
+          "<ruby>中止<rt>ちゅうし</rt></ruby>になる"
         ],
         "answer": 2,
         "id": "N3-01-051"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>医者<rt>いしゃ</rt></ruby> / として / <ruby>彼女<rt>かのじょ</rt></ruby>は / 働いている",
+        "text": "並べ替え: 働いている / <ruby>医者<rt>いしゃ</rt></ruby> / として / <ruby>彼女<rt>かのじょ</rt></ruby>は",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
+          "働いている",
           "<ruby>医者<rt>いしゃ</rt></ruby>",
           "として",
-          "<ruby>彼女<rt>かのじょ</rt></ruby>は",
-          "働いている"
+          "<ruby>彼女<rt>かのじょ</rt></ruby>は"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-01-052"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>彼<rt>かれ</rt></ruby>は / にもかかわらず / <ruby>忙しい<rt>いそがしい</rt></ruby> / <ruby>笑顔<rt>えがお</rt></ruby>だ",
+        "text": "並べ替え: <ruby>彼<rt>かれ</rt></ruby>は / <ruby>忙しい<rt>いそがしい</rt></ruby> / にもかかわらず / <ruby>笑顔<rt>えがお</rt></ruby>だ",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
           "<ruby>彼<rt>かれ</rt></ruby>は",
-          "にもかかわらず",
           "<ruby>忙しい<rt>いそがしい</rt></ruby>",
+          "にもかかわらず",
           "<ruby>笑顔<rt>えがお</rt></ruby>だ"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-01-053"
       },
       {
@@ -994,7 +994,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-01-076"
       },
       {
@@ -1020,7 +1020,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-01-078"
       },
       {
@@ -1033,7 +1033,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-01-079"
       },
       {
@@ -1046,7 +1046,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-01-080"
       },
       {
@@ -1059,7 +1059,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-01-081"
       },
       {
@@ -1085,7 +1085,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-01-083"
       },
       {
@@ -1098,7 +1098,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-01-084"
       },
       {
@@ -1111,7 +1111,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-01-085"
       },
       {
@@ -1124,7 +1124,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-01-086"
       },
       {
@@ -1137,7 +1137,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-01-087"
       },
       {
@@ -1163,7 +1163,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-01-089"
       },
       {
@@ -1176,7 +1176,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-01-090"
       },
       {
@@ -1189,7 +1189,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-01-091"
       },
       {
@@ -1228,7 +1228,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-01-094"
       },
       {
@@ -1254,7 +1254,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-01-096"
       },
       {
@@ -1267,7 +1267,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-01-097"
       },
       {
@@ -1280,7 +1280,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-01-098"
       },
       {
@@ -1293,7 +1293,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-01-099"
       },
       {
@@ -1306,7 +1306,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-01-100"
       },
       {
@@ -1319,7 +1319,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-01-101"
       },
       {
@@ -1332,191 +1332,191 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-01-102"
       }
     ],
     "2": [
       {
         "type": "漢字読み",
-        "text": "<u>維持</u>の読み方は？",
+        "text": "<u>主</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "いじ",
-          "おう",
-          "もつ",
-          "やさしい"
+          "しゅ",
+          "きょねん",
+          "きゅうか",
+          "おだやか"
         ],
         "answer": 0,
         "id": "N3-02-001"
       },
       {
         "type": "漢字読み",
-        "text": "<u>移住</u>の読み方は？",
+        "text": "<u>経過</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "としん",
-          "すむ",
-          "いじゅう",
-          "じょうぎ"
+          "すすむ",
+          "おる",
+          "けいか",
+          "どうじ"
         ],
         "answer": 2,
         "id": "N3-02-002"
       },
       {
         "type": "漢字読み",
-        "text": "<u>悲しみ</u>の読み方は？",
+        "text": "<u>驚き</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "さいきん",
-          "ふえる",
-          "かなしみ",
-          "えんじょ"
+          "はる",
+          "かねもち",
+          "ひきおこす",
+          "おどろき"
+        ],
+        "answer": 3,
+        "id": "N3-02-003"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>招く</u>の読み方は？",
+        "question": "読み方",
+        "options": [
+          "まねく",
+          "しょうけい",
+          "このみ",
+          "さん"
+        ],
+        "answer": 0,
+        "id": "N3-02-004"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>何故</u>の読み方は？",
+        "question": "読み方",
+        "options": [
+          "さいがい",
+          "せいじ",
+          "なぜ",
+          "のうりょく"
         ],
         "answer": 2,
-        "id": "N3-02-003"
+        "id": "N3-02-005"
+      },
+      {
+        "type": "漢字読み",
+        "text": "<u>散る</u>の読み方は？",
+        "question": "読み方",
+        "options": [
+          "ちる",
+          "いし",
+          "かみ",
+          "えんじょ"
+        ],
+        "answer": 0,
+        "id": "N3-02-006"
       },
       {
         "type": "漢字読み",
         "text": "<u>運動</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "すすめる",
-          "げしゃ",
-          "うんどう",
-          "いちど"
-        ],
-        "answer": 2,
-        "id": "N3-02-004"
-      },
-      {
-        "type": "漢字読み",
-        "text": "<u>攻める</u>の読み方は？",
-        "question": "読み方",
-        "options": [
-          "てつ",
-          "おうえん",
-          "てんこう",
-          "せめる"
+          "ざいこをきく",
+          "かげん",
+          "とどける",
+          "うんどう"
         ],
         "answer": 3,
-        "id": "N3-02-005"
-      },
-      {
-        "type": "漢字読み",
-        "text": "<u>低い</u>の読み方は？",
-        "question": "読み方",
-        "options": [
-          "ちらかる",
-          "ひくい",
-          "さいきん",
-          "おとな"
-        ],
-        "answer": 1,
-        "id": "N3-02-006"
-      },
-      {
-        "type": "漢字読み",
-        "text": "<u>車両</u>の読み方は？",
-        "question": "読み方",
-        "options": [
-          "めずらしい",
-          "しゃりょう",
-          "こころみ",
-          "ぎりのあに"
-        ],
-        "answer": 1,
         "id": "N3-02-007"
       },
       {
         "type": "漢字読み",
-        "text": "<u>町</u>の読み方は？",
+        "text": "<u>追いかける</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "まち",
-          "あつりょく",
-          "しんぽ",
-          "うちあわせ"
+          "ほんじつ",
+          "かくにんする",
+          "びょういんにいく",
+          "おいかける"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-02-008"
       },
       {
         "type": "表記",
-        "text": "<u>さん</u>の漢字は？",
+        "text": "<u>きく</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "食品",
-          "計算する",
-          "三",
-          "気温"
+          "効く",
+          "地味",
+          "語る",
+          "新幹線"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-02-009"
       },
       {
         "type": "表記",
-        "text": "<u>すべりだい</u>の漢字は？",
+        "text": "<u>せいふく</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "済む",
-          "踊り場",
-          "滑り台",
-          "遅れる"
+          "進化",
+          "瓶",
+          "制服",
+          "騒音"
         ],
         "answer": 2,
         "id": "N3-02-010"
       },
       {
         "type": "表記",
-        "text": "<u>おや</u>の漢字は？",
+        "text": "<u>けっさい</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "紅茶",
-          "親",
-          "輸入",
-          "覚ます"
+          "離れる",
+          "建つ",
+          "決済",
+          "時代"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-02-011"
       },
       {
         "type": "表記",
-        "text": "<u>さっかーじょう</u>の漢字は？",
+        "text": "<u>しまる</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "サッカー場",
-          "馬",
-          "見せる",
-          "私"
+          "知",
+          "念",
+          "学ぶ",
+          "閉まる"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-02-012"
       },
       {
         "type": "表記",
-        "text": "<u>こころみ</u>の漢字は？",
+        "text": "<u>とうろく</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "一日中",
-          "思いつく",
-          "再会",
-          "試み"
+          "登録",
+          "生涯",
+          "風景",
+          "作品"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-02-013"
       },
       {
         "type": "表記",
-        "text": "<u>ほし</u>の漢字は？",
+        "text": "<u>はねる</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "星",
-          "宿題",
-          "大部分",
-          "体育"
+          "お金",
+          "見つける",
+          "完成",
+          "跳ねる"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-02-014"
       },
       {
@@ -1524,12 +1524,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>送る<rt>おくる</rt></ruby>",
-          "すでに",
-          "<ruby>探す<rt>さがす</rt></ruby>",
-          "ざる"
+          "<ruby>新しい<rt>あたらしい</rt></ruby>",
+          "<ruby>電器屋<rt>でんきや</rt></ruby>",
+          "<ruby>済ませる<rt>すませる</rt></ruby>",
+          "<ruby>卸す<rt>おろす</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-02-015"
       },
       {
@@ -1537,12 +1537,12 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>発生<rt>はっせい</rt></ruby>",
-          "<ruby>略<rt>りゃく</rt></ruby>",
-          "<ruby>数学<rt>すうがく</rt></ruby>",
-          "<ruby>件<rt>けん</rt></ruby>"
+          "<ruby>隠す<rt>かくす</rt></ruby>",
+          "カーディガン",
+          "<ruby>解ける<rt>とける</rt></ruby>",
+          "<ruby>写る<rt>うつる</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-02-016"
       },
       {
@@ -1550,10 +1550,10 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>駆け足で行く<rt>かけあしでいく</rt></ruby>",
-          "<ruby>賛成する<rt>さんせいする</rt></ruby>",
-          "すなわち",
-          "<ruby>有効<rt>ゆうこう</rt></ruby>"
+          "<ruby>仮定<rt>かてい</rt></ruby>",
+          "<ruby>弱まる<rt>よわまる</rt></ruby>",
+          "<ruby>場合<rt>ばあい</rt></ruby>",
+          "<ruby>使う<rt>つかう</rt></ruby>"
         ],
         "answer": 1,
         "id": "N3-02-017"
@@ -1563,12 +1563,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>火山<rt>かざん</rt></ruby>",
-          "ドア",
-          "<ruby>寒い<rt>さむい</rt></ruby>",
-          "<ruby>責める<rt>せめる</rt></ruby>"
+          "<ruby>知識<rt>ちしき</rt></ruby>",
+          "<ruby>ナイフを使う<rt>ないふをつかう</rt></ruby>",
+          "<ruby>各々<rt>おのおの</rt></ruby>",
+          "<ruby>食欲<rt>しょくよく</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-02-018"
       },
       {
@@ -1576,10 +1576,10 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>神社<rt>じんじゃ</rt></ruby>",
-          "<ruby>先<rt>さき</rt></ruby>",
-          "<ruby>集合場所<rt>しゅうごうばしょ</rt></ruby>",
-          "<ruby>文化センター<rt>ぶんかせんたー</rt></ruby>"
+          "<ruby>紙<rt>かみ</rt></ruby>",
+          "<ruby>近所<rt>きんじょ</rt></ruby>",
+          "<ruby>後<rt>ご</rt></ruby>",
+          "クローゼット"
         ],
         "answer": 1,
         "id": "N3-02-019"
@@ -1589,12 +1589,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>制服<rt>せいふく</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby>",
-          "<ruby>残り<rt>のこり</rt></ruby>",
-          "<ruby>新幹線<rt>しんかんせん</rt></ruby>"
+          "<ruby>嫌う<rt>きらう</rt></ruby>",
+          "<ruby>触る<rt>さわる</rt></ruby>",
+          "あるいは",
+          "<ruby>伸ばす<rt>のばす</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-02-020"
       },
       {
@@ -1602,12 +1602,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>電気<rt>でんき</rt></ruby>",
-          "<ruby>三つ<rt>みっつ</rt></ruby>",
-          "<ruby>観光<rt>かんこう</rt></ruby>",
-          "<ruby>収支<rt>しゅうし</rt></ruby>"
+          "<ruby>仕上がる<rt>しあがる</rt></ruby>",
+          "パターン",
+          "<ruby>煙<rt>けむり</rt></ruby>",
+          "<ruby>走る<rt>はしる</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-02-021"
       },
       {
@@ -1615,12 +1615,12 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>判定<rt>はんてい</rt></ruby>",
-          "<ruby>映画<rt>えいが</rt></ruby>",
-          "<ruby>件<rt>けん</rt></ruby>",
-          "<ruby>有難い<rt>ありがたい</rt></ruby>"
+          "<ruby>権利<rt>けんり</rt></ruby>",
+          "<ruby>一安心<rt>ひとあんしん</rt></ruby>",
+          "<ruby>意味<rt>いみ</rt></ruby>",
+          "<ruby>伝わる<rt>つたわる</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-02-022"
       },
       {
@@ -1628,10 +1628,10 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>西<rt>にし</rt></ruby>",
-          "<ruby>赤い<rt>あかい</rt></ruby>",
-          "<ruby>広がる<rt>ひろがる</rt></ruby>",
-          "<ruby>製造<rt>せいぞう</rt></ruby>"
+          "<ruby>法則<rt>ほうそく</rt></ruby>",
+          "ビル",
+          "<ruby>玄関<rt>げんかん</rt></ruby>",
+          "<ruby>働き手<rt>はたらきて</rt></ruby>"
         ],
         "answer": 1,
         "id": "N3-02-023"
@@ -1641,12 +1641,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>お茶<rt>おちゃ</rt></ruby>",
-          "<ruby>伸びる<rt>のびる</rt></ruby>",
-          "<ruby>図書館<rt>としょかん</rt></ruby>",
-          "クリップ"
+          "<ruby>比率<rt>ひりつ</rt></ruby>",
+          "<ruby>見かける<rt>みかける</rt></ruby>",
+          "<ruby>村<rt>むら</rt></ruby>",
+          "<ruby>過半数<rt>かはんすう</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-02-024"
       },
       {
@@ -1654,77 +1654,77 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "だらだらする",
-          "インドア",
-          "<ruby>一安心<rt>ひとあんしん</rt></ruby>",
-          "<ruby>収入<rt>しゅうにゅう</rt></ruby>"
+          "<ruby>飯<rt>めし</rt></ruby>",
+          "<ruby>届け<rt>とどけ</rt></ruby>",
+          "<ruby>営業<rt>えいぎょう</rt></ruby>",
+          "<ruby>来週<rt>らいしゅう</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-02-025"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>花屋<rt>はなや</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>謝罪<rt>しゃざい</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "coat hanger",
-          "registration",
-          "automatic",
-          "florist"
+          "apology",
+          "throat",
+          "several days",
+          "dense"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-02-026"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>合意<rt>ごうい</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>公開<rt>こうかい</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "sale",
-          "curiosity",
-          "agreement",
-          "laugh"
+          "busy",
+          "insect",
+          "public",
+          "can do"
         ],
         "answer": 2,
         "id": "N3-02-027"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>引き受ける<rt>ひきうける</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>好奇心<rt>こうきしん</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "over there",
-          "smell",
-          "to lower",
-          "to undertake"
+          "scissors",
+          "district",
+          "curiosity",
+          "group"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-02-028"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>ボクシング<rt>ぼくしんぐ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>空<rt>そら</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "boxing",
-          "exit",
-          "to point",
-          "import"
+          "misunderstanding",
+          "empty",
+          "society",
+          "one side"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-02-029"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>高める<rt>たかめる</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>生き生き<rt>いきいき</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "standard",
-          "to disappear",
-          "to cheer up",
-          "to raise"
+          "lively",
+          "hygiene",
+          "cloud",
+          "notice"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-02-030"
       },
       {
@@ -1963,63 +1963,63 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>説明<rt>せつめい</rt></ruby>を / 聞いた / わからない / ものの",
+        "text": "並べ替え: わからない / <ruby>説明<rt>せつめい</rt></ruby>を / ものの / 聞いた",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>説明<rt>せつめい</rt></ruby>を",
-          "聞いた",
           "わからない",
-          "ものの"
+          "<ruby>説明<rt>せつめい</rt></ruby>を",
+          "ものの",
+          "聞いた"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-02-049"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>降る<rt>ふる</rt></ruby> / <ruby>場合<rt>ばあい</rt></ruby> / <ruby>雨<rt>あめ</rt></ruby>が",
+        "text": "並べ替え: <ruby>場合<rt>ばあい</rt></ruby> / <ruby>雨<rt>あめ</rt></ruby>が / <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>降る<rt>ふる</rt></ruby>",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>中止<rt>ちゅうし</rt></ruby>になる",
-          "<ruby>降る<rt>ふる</rt></ruby>",
           "<ruby>場合<rt>ばあい</rt></ruby>",
-          "<ruby>雨<rt>あめ</rt></ruby>が"
+          "<ruby>雨<rt>あめ</rt></ruby>が",
+          "<ruby>中止<rt>ちゅうし</rt></ruby>になる",
+          "<ruby>降る<rt>ふる</rt></ruby>"
         ],
         "answer": 0,
         "id": "N3-02-050"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: として / <ruby>彼女<rt>かのじょ</rt></ruby>は / 働いている / <ruby>医者<rt>いしゃ</rt></ruby>",
+        "text": "並べ替え: <ruby>医者<rt>いしゃ</rt></ruby> / として / 働いている / <ruby>彼女<rt>かのじょ</rt></ruby>は",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
+          "<ruby>医者<rt>いしゃ</rt></ruby>",
           "として",
-          "<ruby>彼女<rt>かのじょ</rt></ruby>は",
           "働いている",
-          "<ruby>医者<rt>いしゃ</rt></ruby>"
+          "<ruby>彼女<rt>かのじょ</rt></ruby>は"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-02-051"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>忙しい<rt>いそがしい</rt></ruby> / <ruby>彼<rt>かれ</rt></ruby>は / <ruby>笑顔<rt>えがお</rt></ruby>だ / にもかかわらず",
+        "text": "並べ替え: <ruby>笑顔<rt>えがお</rt></ruby>だ / <ruby>忙しい<rt>いそがしい</rt></ruby> / <ruby>彼<rt>かれ</rt></ruby>は / にもかかわらず",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
+          "<ruby>笑顔<rt>えがお</rt></ruby>だ",
           "<ruby>忙しい<rt>いそがしい</rt></ruby>",
           "<ruby>彼<rt>かれ</rt></ruby>は",
-          "<ruby>笑顔<rt>えがお</rt></ruby>だ",
           "にもかかわらず"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-02-052"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: ものの / <ruby>説明<rt>せつめい</rt></ruby>を / わからない / 聞いた",
+        "text": "並べ替え: <ruby>説明<rt>せつめい</rt></ruby>を / ものの / わからない / 聞いた",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "ものの",
           "<ruby>説明<rt>せつめい</rt></ruby>を",
+          "ものの",
           "わからない",
           "聞いた"
         ],
@@ -2322,7 +2322,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-02-076"
       },
       {
@@ -2348,7 +2348,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-02-078"
       },
       {
@@ -2374,7 +2374,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-02-080"
       },
       {
@@ -2387,7 +2387,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-02-081"
       },
       {
@@ -2413,7 +2413,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-02-083"
       },
       {
@@ -2426,7 +2426,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-02-084"
       },
       {
@@ -2439,7 +2439,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-02-085"
       },
       {
@@ -2452,7 +2452,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-02-086"
       },
       {
@@ -2465,7 +2465,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-02-087"
       },
       {
@@ -2478,7 +2478,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-02-088"
       },
       {
@@ -2491,7 +2491,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-02-089"
       },
       {
@@ -2504,7 +2504,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-02-090"
       },
       {
@@ -2517,7 +2517,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-02-091"
       },
       {
@@ -2543,7 +2543,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-02-093"
       },
       {
@@ -2569,7 +2569,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-02-095"
       },
       {
@@ -2595,7 +2595,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-02-097"
       },
       {
@@ -2621,7 +2621,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-02-099"
       },
       {
@@ -2634,7 +2634,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-02-100"
       },
       {
@@ -2647,7 +2647,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-02-101"
       },
       {
@@ -2667,119 +2667,119 @@ MOCK_DATA['N3'] = {
     "3": [
       {
         "type": "漢字読み",
-        "text": "<u>事務所</u>の読み方は？",
+        "text": "<u>肩</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "ごご",
-          "そうい",
-          "じむしょ",
-          "じゅうみん"
+          "きょうし",
+          "なく",
+          "かた",
+          "しる"
         ],
         "answer": 2,
         "id": "N3-03-001"
       },
       {
         "type": "漢字読み",
-        "text": "<u>決して</u>の読み方は？",
+        "text": "<u>刈る</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "けっして",
-          "さしあげる",
-          "むら",
-          "いなか"
+          "かる",
+          "はなしかける",
+          "わたす",
+          "うんゆぎょう"
         ],
         "answer": 0,
         "id": "N3-03-002"
       },
       {
         "type": "漢字読み",
-        "text": "<u>病院</u>の読み方は？",
+        "text": "<u>火事</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "びょういん",
-          "にほんじん",
-          "いっこだて",
-          "いみ"
+          "じんせい",
+          "おりる",
+          "できる",
+          "かじ"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-03-003"
       },
       {
         "type": "漢字読み",
-        "text": "<u>祖父母</u>の読み方は？",
+        "text": "<u>週刊</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "じしん",
-          "わだい",
-          "かがやく",
-          "そふぼ"
+          "ぬける",
+          "おこない",
+          "しゅうかん",
+          "さんぽ"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-03-004"
       },
       {
         "type": "漢字読み",
-        "text": "<u>キャンプ場</u>の読み方は？",
+        "text": "<u>来月</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "しかく",
-          "しんしつ",
-          "じんかく",
-          "きゃんぷじょう"
+          "ねむる",
+          "かもく",
+          "らいげつ",
+          "いまさら"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-03-005"
       },
       {
         "type": "漢字読み",
-        "text": "<u>減らす</u>の読み方は？",
+        "text": "<u>思考</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "きく",
-          "かしだし",
-          "きじゅん",
-          "へらす"
+          "しかく",
+          "みちにまよう",
+          "しこう",
+          "とどく"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-03-006"
       },
       {
         "type": "漢字読み",
-        "text": "<u>七つ</u>の読み方は？",
+        "text": "<u>入れる</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "ななつ",
-          "ちょう",
-          "そうすう",
-          "ぎし"
+          "いれる",
+          "せってい",
+          "あいま",
+          "さん"
         ],
         "answer": 0,
         "id": "N3-03-007"
       },
       {
         "type": "漢字読み",
-        "text": "<u>炭水化物</u>の読み方は？",
+        "text": "<u>習う</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "たんすいかぶつ",
-          "こうすいりょう",
-          "ふたたび",
-          "たいしょくする"
+          "ならう",
+          "こうりつ",
+          "かるい",
+          "つゆ"
         ],
         "answer": 0,
         "id": "N3-03-008"
       },
       {
         "type": "表記",
-        "text": "<u>そせん</u>の漢字は？",
+        "text": "<u>でんわ</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "学生",
-          "谷",
-          "祖先",
-          "器具"
+          "大通り",
+          "試み",
+          "ゴミを出す",
+          "電話"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-03-009"
       },
       {
@@ -2787,62 +2787,62 @@ MOCK_DATA['N3'] = {
         "text": "<u>いう</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "明確",
+          "濃い",
+          "法案",
           "言う",
-          "切手",
-          "財産"
+          "以前"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-03-010"
       },
       {
         "type": "表記",
-        "text": "<u>じだい</u>の漢字は？",
+        "text": "<u>さら</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "幸せ",
-          "技術",
-          "時代",
-          "下車"
+          "数十",
+          "応じる",
+          "皿",
+          "近づける"
         ],
         "answer": 2,
         "id": "N3-03-011"
       },
       {
         "type": "表記",
-        "text": "<u>ひげき</u>の漢字は？",
+        "text": "<u>こえ</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "知らせる",
-          "悲劇",
-          "全く",
-          "大学"
+          "声",
+          "気づく",
+          "業種",
+          "閉じる"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-03-012"
       },
       {
         "type": "表記",
-        "text": "<u>のりかえ</u>の漢字は？",
+        "text": "<u>えんぜつ</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "同意",
-          "乗り換え",
-          "勢い",
-          "道に迷う"
+          "中央",
+          "演説",
+          "本日",
+          "作品"
         ],
         "answer": 1,
         "id": "N3-03-013"
       },
       {
         "type": "表記",
-        "text": "<u>きんえん</u>の漢字は？",
+        "text": "<u>ばいばい</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "制度",
-          "不便",
-          "強い",
-          "禁煙"
+          "液体",
+          "弱まる",
+          "親子",
+          "売買"
         ],
         "answer": 3,
         "id": "N3-03-014"
@@ -2852,10 +2852,10 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "アドバイスする",
-          "<ruby>収支<rt>しゅうし</rt></ruby>",
-          "<ruby>三つ<rt>みっつ</rt></ruby>",
-          "<ruby>お願い<rt>おねがい</rt></ruby>"
+          "<ruby>値<rt>ね</rt></ruby>",
+          "<ruby>鍵<rt>かぎ</rt></ruby>",
+          "<ruby>以前<rt>いぜん</rt></ruby>",
+          "<ruby>危ない<rt>あぶない</rt></ruby>"
         ],
         "answer": 0,
         "id": "N3-03-015"
@@ -2865,12 +2865,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>鉄道<rt>てつどう</rt></ruby>",
-          "<ruby>激増<rt>げきぞう</rt></ruby>",
-          "パン",
-          "<ruby>外す<rt>はずす</rt></ruby>"
+          "レジャー",
+          "<ruby>丘<rt>おか</rt></ruby>",
+          "<ruby>標準<rt>ひょうじゅん</rt></ruby>",
+          "<ruby>波<rt>なみ</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-03-016"
       },
       {
@@ -2878,12 +2878,12 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>賛成する<rt>さんせいする</rt></ruby>",
-          "<ruby>冷たい<rt>つめたい</rt></ruby>",
-          "<ruby>傾向<rt>けいこう</rt></ruby>",
-          "ちゃんと"
+          "<ruby>類<rt>るい</rt></ruby>",
+          "<ruby>毎年<rt>まいとし</rt></ruby>",
+          "<ruby>比較的簡単<rt>ひかくてきかんたん</rt></ruby>",
+          "<ruby>洋服<rt>ようふく</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-03-017"
       },
       {
@@ -2891,12 +2891,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>勝ち<rt>かち</rt></ruby>",
-          "<ruby>体<rt>たい</rt></ruby>",
-          "<ruby>今すぐ<rt>いますぐ</rt></ruby>",
-          "<ruby>悩む<rt>なやむ</rt></ruby>"
+          "マナー",
+          "<ruby>人気<rt>にんき</rt></ruby>",
+          "<ruby>青<rt>あお</rt></ruby>",
+          "<ruby>苦痛<rt>くつう</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-03-018"
       },
       {
@@ -2904,10 +2904,10 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>華やか<rt>はなやか</rt></ruby>",
-          "<ruby>飲む<rt>のむ</rt></ruby>",
-          "<ruby>信仰<rt>しんこう</rt></ruby>",
-          "ノート"
+          "<ruby>寝る<rt>ねる</rt></ruby>",
+          "<ruby>最近<rt>さいきん</rt></ruby>",
+          "<ruby>出<rt>で</rt></ruby>",
+          "<ruby>水族館<rt>すいぞくかん</rt></ruby>"
         ],
         "answer": 0,
         "id": "N3-03-019"
@@ -2917,12 +2917,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "スーパー",
-          "<ruby>恵み<rt>めぐみ</rt></ruby>",
-          "ブラシ",
-          "<ruby>黒い<rt>くろい</rt></ruby>"
+          "バレーボール",
+          "<ruby>死ぬ<rt>しぬ</rt></ruby>",
+          "<ruby>傾向<rt>けいこう</rt></ruby>",
+          "<ruby>以前<rt>いぜん</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-03-020"
       },
       {
@@ -2930,12 +2930,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>喜び<rt>よろこび</rt></ruby>",
-          "<ruby>濃い<rt>こい</rt></ruby>",
-          "<ruby>異動<rt>いどう</rt></ruby>",
-          "<ruby>王<rt>おう</rt></ruby>"
+          "<ruby>損害<rt>そんがい</rt></ruby>",
+          "<ruby>痛む<rt>いたむ</rt></ruby>",
+          "<ruby>閉まる<rt>しまる</rt></ruby>",
+          "<ruby>商業<rt>しょうぎょう</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-03-021"
       },
       {
@@ -2943,10 +2943,10 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>救う<rt>すくう</rt></ruby>",
-          "<ruby>算数<rt>さんすう</rt></ruby>",
-          "<ruby>図書館<rt>としょかん</rt></ruby>",
-          "<ruby>谷<rt>たに</rt></ruby>"
+          "<ruby>攻める<rt>せめる</rt></ruby>",
+          "<ruby>世話<rt>せわ</rt></ruby>",
+          "<ruby>勘<rt>かん</rt></ruby>",
+          "めまい"
         ],
         "answer": 1,
         "id": "N3-03-022"
@@ -2956,12 +2956,12 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>外国人<rt>がいこくじん</rt></ruby>",
-          "<ruby>新<rt>しん</rt></ruby>",
-          "<ruby>学生<rt>がくせい</rt></ruby>",
-          "<ruby>上<rt>うえ</rt></ruby>"
+          "それから",
+          "<ruby>気候<rt>きこう</rt></ruby>",
+          "<ruby>機能<rt>きのう</rt></ruby>",
+          "<ruby>食欲<rt>しょくよく</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-03-023"
       },
       {
@@ -2969,12 +2969,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "さらに",
-          "<ruby>辞める<rt>やめる</rt></ruby>",
-          "<ruby>打つ<rt>ぶつ</rt></ruby>",
-          "<ruby>日の出<rt>ひので</rt></ruby>"
+          "<ruby>働き手<rt>はたらきて</rt></ruby>",
+          "<ruby>気候<rt>きこう</rt></ruby>",
+          "<ruby>兄<rt>あに</rt></ruby>",
+          "<ruby>決済<rt>けっさい</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-03-024"
       },
       {
@@ -2982,77 +2982,77 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>踏む<rt>ふむ</rt></ruby>",
-          "<ruby>呼びかける<rt>よびかける</rt></ruby>",
-          "<ruby>踏まえる<rt>ふまえる</rt></ruby>",
-          "<ruby>年度<rt>ねんど</rt></ruby>"
+          "<ruby>出場<rt>しゅつじょう</rt></ruby>",
+          "グループ",
+          "<ruby>お願い<rt>おねがい</rt></ruby>",
+          "もらう"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-03-025"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>指示<rt>しじ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「すぐに」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "meeting",
-          "instruction",
-          "handrail",
-          "subway"
+          "treatment",
+          "immediately",
+          "here and there",
+          "socks"
         ],
         "answer": 1,
         "id": "N3-03-026"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>現れる<rt>あらわれる</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>散らかす<rt>ちらかす</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "to appear",
-          "the other day",
-          "shopping",
-          "to weigh"
+          "well",
+          "international",
+          "step",
+          "to scatter"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-03-027"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>くしゃみが出る<rt>くしゃみがでる</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>有利<rt>ゆうり</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "carbohydrate",
-          "ankle",
-          "most",
-          "to sneeze"
+          "money",
+          "reunion",
+          "advantageous",
+          "juice"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-03-028"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>トリートメント<rt>とりーとめんと</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>盛ん<rt>さかん</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "pattern",
-          "relax",
-          "treatment",
-          "answer"
+          "wave",
+          "prosperous",
+          "map",
+          "grave"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-03-029"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>一人一人<rt>ひとりひとり</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>強める<rt>つよめる</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "idea",
-          "theater",
-          "confirmation",
-          "each person"
+          "to strengthen",
+          "good morning",
+          "instrument",
+          "mother"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-03-030"
       },
       {
@@ -3291,67 +3291,67 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>降る<rt>ふる</rt></ruby> / <ruby>雨<rt>あめ</rt></ruby>が / <ruby>場合<rt>ばあい</rt></ruby>",
+        "text": "並べ替え: <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>降る<rt>ふる</rt></ruby> / <ruby>場合<rt>ばあい</rt></ruby> / <ruby>雨<rt>あめ</rt></ruby>が",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
           "<ruby>中止<rt>ちゅうし</rt></ruby>になる",
           "<ruby>降る<rt>ふる</rt></ruby>",
-          "<ruby>雨<rt>あめ</rt></ruby>が",
-          "<ruby>場合<rt>ばあい</rt></ruby>"
+          "<ruby>場合<rt>ばあい</rt></ruby>",
+          "<ruby>雨<rt>あめ</rt></ruby>が"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-03-049"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: として / <ruby>彼女<rt>かのじょ</rt></ruby>は / 働いている / <ruby>医者<rt>いしゃ</rt></ruby>",
+        "text": "並べ替え: <ruby>医者<rt>いしゃ</rt></ruby> / <ruby>彼女<rt>かのじょ</rt></ruby>は / として / 働いている",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "として",
+          "<ruby>医者<rt>いしゃ</rt></ruby>",
           "<ruby>彼女<rt>かのじょ</rt></ruby>は",
-          "働いている",
-          "<ruby>医者<rt>いしゃ</rt></ruby>"
+          "として",
+          "働いている"
         ],
         "answer": 3,
         "id": "N3-03-050"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>彼<rt>かれ</rt></ruby>は / <ruby>笑顔<rt>えがお</rt></ruby>だ / <ruby>忙しい<rt>いそがしい</rt></ruby> / にもかかわらず",
+        "text": "並べ替え: <ruby>忙しい<rt>いそがしい</rt></ruby> / にもかかわらず / <ruby>彼<rt>かれ</rt></ruby>は / <ruby>笑顔<rt>えがお</rt></ruby>だ",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>彼<rt>かれ</rt></ruby>は",
-          "<ruby>笑顔<rt>えがお</rt></ruby>だ",
           "<ruby>忙しい<rt>いそがしい</rt></ruby>",
-          "にもかかわらず"
+          "にもかかわらず",
+          "<ruby>彼<rt>かれ</rt></ruby>は",
+          "<ruby>笑顔<rt>えがお</rt></ruby>だ"
         ],
         "answer": 1,
         "id": "N3-03-051"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>説明<rt>せつめい</rt></ruby>を / 聞いた / ものの / わからない",
+        "text": "並べ替え: ものの / わからない / 聞いた / <ruby>説明<rt>せつめい</rt></ruby>を",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>説明<rt>せつめい</rt></ruby>を",
-          "聞いた",
           "ものの",
-          "わからない"
+          "わからない",
+          "聞いた",
+          "<ruby>説明<rt>せつめい</rt></ruby>を"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-03-052"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>雨<rt>あめ</rt></ruby>が / <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>降る<rt>ふる</rt></ruby> / <ruby>場合<rt>ばあい</rt></ruby>",
+        "text": "並べ替え: <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>場合<rt>ばあい</rt></ruby> / <ruby>降る<rt>ふる</rt></ruby> / <ruby>雨<rt>あめ</rt></ruby>が",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>雨<rt>あめ</rt></ruby>が",
           "<ruby>中止<rt>ちゅうし</rt></ruby>になる",
+          "<ruby>場合<rt>ばあい</rt></ruby>",
           "<ruby>降る<rt>ふる</rt></ruby>",
-          "<ruby>場合<rt>ばあい</rt></ruby>"
+          "<ruby>雨<rt>あめ</rt></ruby>が"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-03-053"
       },
       {
@@ -3650,7 +3650,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-03-076"
       },
       {
@@ -3663,7 +3663,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-03-077"
       },
       {
@@ -3676,7 +3676,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-03-078"
       },
       {
@@ -3689,7 +3689,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-03-079"
       },
       {
@@ -3702,7 +3702,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-03-080"
       },
       {
@@ -3715,7 +3715,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-03-081"
       },
       {
@@ -3728,7 +3728,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-03-082"
       },
       {
@@ -3741,7 +3741,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-03-083"
       },
       {
@@ -3754,7 +3754,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-03-084"
       },
       {
@@ -3780,7 +3780,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-03-086"
       },
       {
@@ -3819,7 +3819,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-03-089"
       },
       {
@@ -3832,7 +3832,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-03-090"
       },
       {
@@ -3845,7 +3845,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-03-091"
       },
       {
@@ -3858,7 +3858,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-03-092"
       },
       {
@@ -3871,7 +3871,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-03-093"
       },
       {
@@ -3897,7 +3897,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-03-095"
       },
       {
@@ -3910,7 +3910,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-03-096"
       },
       {
@@ -3936,7 +3936,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-03-098"
       },
       {
@@ -3949,7 +3949,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-03-099"
       },
       {
@@ -3962,7 +3962,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-03-100"
       },
       {
@@ -3975,7 +3975,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-03-101"
       },
       {
@@ -3988,191 +3988,191 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-03-102"
       }
     ],
     "4": [
       {
         "type": "漢字読み",
-        "text": "<u>生産</u>の読み方は？",
+        "text": "<u>類似</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "いまさら",
-          "てくび",
-          "すこし",
-          "せいさん"
+          "るいじ",
+          "はずかしい",
+          "とうけい",
+          "かくにんする"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-04-001"
       },
       {
         "type": "漢字読み",
-        "text": "<u>例年</u>の読み方は？",
+        "text": "<u>観光</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "とける",
-          "だい",
-          "れいねん",
-          "きかく"
+          "かんこう",
+          "はなしあう",
+          "ひびく",
+          "たいかい"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-04-002"
       },
       {
         "type": "漢字読み",
-        "text": "<u>原則</u>の読み方は？",
+        "text": "<u>駐車場</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "えいがかん",
-          "て",
-          "げんそく",
-          "ひく"
+          "さだめる",
+          "ちゅうしゃじょう",
+          "みなみ",
+          "すずしくなる"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-04-003"
       },
       {
         "type": "漢字読み",
-        "text": "<u>世話</u>の読み方は？",
+        "text": "<u>中学校</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "しえん",
-          "かいいん",
-          "はじめる",
-          "せわ"
+          "かもく",
+          "もくてき",
+          "ひきだす",
+          "ちゅうがっこう"
         ],
         "answer": 3,
         "id": "N3-04-004"
       },
       {
         "type": "漢字読み",
-        "text": "<u>親</u>の読み方は？",
+        "text": "<u>試合</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "おや",
-          "いね",
-          "かがやく",
-          "かくど"
+          "そだつ",
+          "あるいていく",
+          "たべもの",
+          "しあい"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-04-005"
       },
       {
         "type": "漢字読み",
-        "text": "<u>数量</u>の読み方は？",
+        "text": "<u>組み合わせ</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "かつりょく",
-          "ふそく",
-          "すうりょう",
-          "げんきがでる"
+          "にげる",
+          "こたえる",
+          "くみあわせ",
+          "たけ"
         ],
         "answer": 2,
         "id": "N3-04-006"
       },
       {
         "type": "漢字読み",
-        "text": "<u>商業</u>の読み方は？",
+        "text": "<u>震える</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "しょうぎょう",
-          "ほうどう",
-          "したしむ",
-          "さらいしゅう"
+          "じょうたい",
+          "えいぞうへんしゅう",
+          "そうべつ",
+          "ふるえる"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-04-007"
       },
       {
         "type": "漢字読み",
-        "text": "<u>勝利</u>の読み方は？",
+        "text": "<u>映画を見る</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "あつさ",
-          "えいが",
-          "しょうり",
-          "がいこく"
+          "おもに",
+          "えいがをみる",
+          "きせつ",
+          "おんかく"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-04-008"
       },
       {
         "type": "表記",
-        "text": "<u>いだく</u>の漢字は？",
+        "text": "<u>しゅうかん</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "分野",
-          "抱く",
-          "祖父母",
-          "林"
+          "悲劇",
+          "靴下",
+          "確率",
+          "習慣"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-04-009"
       },
       {
         "type": "表記",
-        "text": "<u>なみ</u>の漢字は？",
+        "text": "<u>ほんじつ</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "国",
-          "波",
-          "建造",
-          "謝罪"
+          "本日",
+          "月",
+          "商店",
+          "書く"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-04-010"
       },
       {
         "type": "表記",
-        "text": "<u>ほんや</u>の漢字は？",
+        "text": "<u>ちかてつ</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "本屋",
-          "下車",
-          "西",
-          "入院する"
+          "悪化",
+          "外",
+          "戻る",
+          "地下鉄"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-04-011"
       },
       {
         "type": "表記",
-        "text": "<u>かいいん</u>の漢字は？",
+        "text": "<u>せいさく</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "医師",
-          "野菜",
-          "留守番",
-          "会員"
+          "本数",
+          "制作",
+          "乗車",
+          "兄弟"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-04-012"
       },
       {
         "type": "表記",
-        "text": "<u>はやし</u>の漢字は？",
+        "text": "<u>かん</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "招く",
-          "働く",
-          "林",
-          "御飯"
+          "義理の兄",
+          "勘",
+          "台所",
+          "購入"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-04-013"
       },
       {
         "type": "表記",
-        "text": "<u>たいし</u>の漢字は？",
+        "text": "<u>よごれる</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "転ぶ",
-          "大使",
-          "発明",
-          "文学"
+          "技術者",
+          "人間",
+          "汚れる",
+          "通知"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-04-014"
       },
       {
@@ -4180,12 +4180,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>合計<rt>ごうけい</rt></ruby>",
-          "タンス",
-          "<ruby>広がる<rt>ひろがる</rt></ruby>",
-          "<ruby>思考<rt>しこう</rt></ruby>"
+          "<ruby>親友<rt>しんゆう</rt></ruby>",
+          "<ruby>謝罪<rt>しゃざい</rt></ruby>",
+          "<ruby>太る<rt>ふとる</rt></ruby>",
+          "<ruby>見上げる<rt>みあげる</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-04-015"
       },
       {
@@ -4193,12 +4193,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "カード",
-          "<ruby>案内所<rt>あんないじょ</rt></ruby>",
-          "<ruby>乗り物<rt>のりもの</rt></ruby>",
-          "よく"
+          "<ruby>文字<rt>もじ</rt></ruby>",
+          "<ruby>発見<rt>はっけん</rt></ruby>",
+          "たまに",
+          "<ruby>問い合わせ<rt>といあわせ</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-04-016"
       },
       {
@@ -4206,10 +4206,10 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "イヤリング",
-          "<ruby>靴<rt>くつ</rt></ruby>",
-          "<ruby>林<rt>はやし</rt></ruby>",
-          "<ruby>最低<rt>さいてい</rt></ruby>"
+          "コップ",
+          "<ruby>数える<rt>かぞえる</rt></ruby>",
+          "<ruby>生む<rt>うむ</rt></ruby>",
+          "<ruby>目<rt>め</rt></ruby>"
         ],
         "answer": 1,
         "id": "N3-04-017"
@@ -4219,12 +4219,12 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>食事<rt>しょくじ</rt></ruby>",
-          "<ruby>限度<rt>げんど</rt></ruby>",
-          "<ruby>幸せ<rt>しあわせ</rt></ruby>",
-          "<ruby>本質<rt>ほんしつ</rt></ruby>"
+          "つまらない",
+          "<ruby>事務所<rt>じむしょ</rt></ruby>",
+          "<ruby>結構<rt>けっこう</rt></ruby>",
+          "<ruby>主張<rt>しゅちょう</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-04-018"
       },
       {
@@ -4232,12 +4232,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>便利<rt>べんり</rt></ruby>",
-          "<ruby>出<rt>で</rt></ruby>",
-          "<ruby>何<rt>なに</rt></ruby>",
-          "<ruby>暖かい<rt>あたたかい</rt></ruby>"
+          "カレンダー",
+          "<ruby>今年<rt>ことし</rt></ruby>",
+          "ボクシング",
+          "<ruby>通過<rt>つうか</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-04-019"
       },
       {
@@ -4245,10 +4245,10 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>別れ<rt>わかれ</rt></ruby>",
-          "おにぎり",
-          "<ruby>例え<rt>たとえ</rt></ruby>",
-          "そして"
+          "<ruby>暖<rt>だん</rt></ruby>",
+          "インドア",
+          "<ruby>働く<rt>はたらく</rt></ruby>",
+          "<ruby>変更<rt>へんこう</rt></ruby>"
         ],
         "answer": 1,
         "id": "N3-04-020"
@@ -4258,12 +4258,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>捕らえる<rt>とらえる</rt></ruby>",
-          "<ruby>後日<rt>ごじつ</rt></ruby>",
-          "<ruby>逆らう<rt>さからう</rt></ruby>",
-          "<ruby>開ける<rt>あける</rt></ruby>"
+          "<ruby>車庫<rt>しゃこ</rt></ruby>",
+          "<ruby>中学<rt>ちゅうがく</rt></ruby>",
+          "<ruby>不動産<rt>ふどうさん</rt></ruby>",
+          "<ruby>雨<rt>あめ</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-04-021"
       },
       {
@@ -4271,10 +4271,10 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>夜中<rt>よなか</rt></ruby>",
-          "<ruby>沈める<rt>しずめる</rt></ruby>",
-          "<ruby>気持<rt>きもち</rt></ruby>",
-          "<ruby>文化<rt>ぶんか</rt></ruby>"
+          "<ruby>構う<rt>かまう</rt></ruby>",
+          "<ruby>事務所<rt>じむしょ</rt></ruby>",
+          "<ruby>危機<rt>きき</rt></ruby>",
+          "<ruby>思い切り<rt>おもいきり</rt></ruby>"
         ],
         "answer": 0,
         "id": "N3-04-022"
@@ -4284,12 +4284,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>笑う<rt>わらう</rt></ruby>",
-          "<ruby>詰める<rt>つめる</rt></ruby>",
-          "<ruby>技<rt>わざ</rt></ruby>",
-          "<ruby>木<rt>き</rt></ruby>"
+          "ワンピース",
+          "ドラム",
+          "<ruby>ゆっくり歩く<rt>ゆっくりあるく</rt></ruby>",
+          "<ruby>修正液<rt>しゅうせいえき</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-04-023"
       },
       {
@@ -4297,10 +4297,10 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>決まる<rt>きまる</rt></ruby>",
-          "<ruby>判断<rt>はんだん</rt></ruby>",
-          "ペン",
-          "<ruby>ケーキ屋<rt>けーきや</rt></ruby>"
+          "<ruby>暇<rt>ひま</rt></ruby>",
+          "<ruby>自信<rt>じしん</rt></ruby>",
+          "ホチキス",
+          "<ruby>会計<rt>かいけい</rt></ruby>"
         ],
         "answer": 1,
         "id": "N3-04-024"
@@ -4310,77 +4310,77 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "レジ",
-          "<ruby>異なる<rt>ことなる</rt></ruby>",
-          "<ruby>薬<rt>くすり</rt></ruby>",
-          "<ruby>近代<rt>きんだい</rt></ruby>"
+          "<ruby>過半数<rt>かはんすう</rt></ruby>",
+          "<ruby>一つ<rt>ひとつ</rt></ruby>",
+          "<ruby>決まる<rt>きまる</rt></ruby>",
+          "<ruby>お金<rt>おかね</rt></ruby>"
         ],
         "answer": 2,
         "id": "N3-04-025"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>カーペット<rt>かーぺっと</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>ズボン<rt>ずぼん</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "carpet",
-          "question",
-          "same age",
-          "climate"
+          "pants",
+          "delay",
+          "professor",
+          "grandmother"
         ],
         "answer": 0,
         "id": "N3-04-026"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>田舎<rt>いなか</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>明け方<rt>あけがた</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "lecturer",
-          "countryside",
-          "action",
-          "hospitalization"
+          "to have meeting",
+          "steak",
+          "to see",
+          "dawn"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-04-027"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>伝統<rt>でんとう</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>捕らえる<rt>とらえる</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "discovery",
-          "gum",
-          "sharp increase",
-          "tradition"
+          "this year",
+          "student",
+          "to catch",
+          "skating"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-04-028"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>図<rt>ず</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「のんびりする」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "bill",
-          "diagram",
-          "route",
-          "private"
+          "to take it easy",
+          "blue",
+          "firmly",
+          "to cause"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-04-029"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>時折<rt>ときおり</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>例<rt>たとえ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "ethnic",
-          "round",
-          "every night",
-          "occasionally"
+          "roadway",
+          "weekly forecast",
+          "example",
+          "to jump"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-04-030"
       },
       {
@@ -4619,54 +4619,54 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: として / <ruby>彼女<rt>かのじょ</rt></ruby>は / 働いている / <ruby>医者<rt>いしゃ</rt></ruby>",
+        "text": "並べ替え: <ruby>医者<rt>いしゃ</rt></ruby> / <ruby>彼女<rt>かのじょ</rt></ruby>は / 働いている / として",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "として",
+          "<ruby>医者<rt>いしゃ</rt></ruby>",
           "<ruby>彼女<rt>かのじょ</rt></ruby>は",
           "働いている",
-          "<ruby>医者<rt>いしゃ</rt></ruby>"
+          "として"
         ],
         "answer": 2,
         "id": "N3-04-049"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>笑顔<rt>えがお</rt></ruby>だ / <ruby>忙しい<rt>いそがしい</rt></ruby> / にもかかわらず / <ruby>彼<rt>かれ</rt></ruby>は",
+        "text": "並べ替え: <ruby>彼<rt>かれ</rt></ruby>は / <ruby>忙しい<rt>いそがしい</rt></ruby> / にもかかわらず / <ruby>笑顔<rt>えがお</rt></ruby>だ",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>笑顔<rt>えがお</rt></ruby>だ",
+          "<ruby>彼<rt>かれ</rt></ruby>は",
           "<ruby>忙しい<rt>いそがしい</rt></ruby>",
           "にもかかわらず",
-          "<ruby>彼<rt>かれ</rt></ruby>は"
+          "<ruby>笑顔<rt>えがお</rt></ruby>だ"
         ],
         "answer": 1,
         "id": "N3-04-050"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: わからない / <ruby>説明<rt>せつめい</rt></ruby>を / ものの / 聞いた",
+        "text": "並べ替え: 聞いた / ものの / <ruby>説明<rt>せつめい</rt></ruby>を / わからない",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "わからない",
-          "<ruby>説明<rt>せつめい</rt></ruby>を",
+          "聞いた",
           "ものの",
-          "聞いた"
+          "<ruby>説明<rt>せつめい</rt></ruby>を",
+          "わからない"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-04-051"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>場合<rt>ばあい</rt></ruby> / <ruby>雨<rt>あめ</rt></ruby>が / <ruby>降る<rt>ふる</rt></ruby> / <ruby>中止<rt>ちゅうし</rt></ruby>になる",
+        "text": "並べ替え: <ruby>場合<rt>ばあい</rt></ruby> / <ruby>降る<rt>ふる</rt></ruby> / <ruby>雨<rt>あめ</rt></ruby>が / <ruby>中止<rt>ちゅうし</rt></ruby>になる",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
           "<ruby>場合<rt>ばあい</rt></ruby>",
-          "<ruby>雨<rt>あめ</rt></ruby>が",
           "<ruby>降る<rt>ふる</rt></ruby>",
+          "<ruby>雨<rt>あめ</rt></ruby>が",
           "<ruby>中止<rt>ちゅうし</rt></ruby>になる"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-04-052"
       },
       {
@@ -4679,7 +4679,7 @@ MOCK_DATA['N3'] = {
           "<ruby>彼女<rt>かのじょ</rt></ruby>は",
           "として"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-04-053"
       },
       {
@@ -4978,7 +4978,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-04-076"
       },
       {
@@ -5004,7 +5004,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-04-078"
       },
       {
@@ -5030,7 +5030,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-04-080"
       },
       {
@@ -5056,7 +5056,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-04-082"
       },
       {
@@ -5069,7 +5069,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-04-083"
       },
       {
@@ -5095,7 +5095,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-04-085"
       },
       {
@@ -5108,7 +5108,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-04-086"
       },
       {
@@ -5121,7 +5121,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-04-087"
       },
       {
@@ -5147,7 +5147,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-04-089"
       },
       {
@@ -5160,7 +5160,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-04-090"
       },
       {
@@ -5173,7 +5173,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-04-091"
       },
       {
@@ -5186,7 +5186,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-04-092"
       },
       {
@@ -5199,7 +5199,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-04-093"
       },
       {
@@ -5225,7 +5225,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-04-095"
       },
       {
@@ -5238,7 +5238,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-04-096"
       },
       {
@@ -5251,7 +5251,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-04-097"
       },
       {
@@ -5277,7 +5277,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-04-099"
       },
       {
@@ -5290,7 +5290,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-04-100"
       },
       {
@@ -5303,7 +5303,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-04-101"
       },
       {
@@ -5316,48 +5316,48 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-04-102"
       }
     ],
     "5": [
       {
         "type": "漢字読み",
-        "text": "<u>収める</u>の読み方は？",
+        "text": "<u>不満</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "いまに",
-          "おさめる",
-          "じこ",
-          "たしかに"
+          "かまう",
+          "ふまん",
+          "だす",
+          "たいしゃする"
         ],
         "answer": 1,
         "id": "N3-05-001"
       },
       {
         "type": "漢字読み",
-        "text": "<u>古い</u>の読み方は？",
+        "text": "<u>工業</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "とし",
-          "おか",
-          "ふるい",
-          "おそれ"
+          "おおきな",
+          "たのしみ",
+          "およぼす",
+          "こうぎょう"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-05-002"
       },
       {
         "type": "漢字読み",
-        "text": "<u>送る</u>の読み方は？",
+        "text": "<u>変える</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "とけいや",
-          "おくる",
-          "みまもる",
-          "ひろば"
+          "まちがう",
+          "あか",
+          "みせ",
+          "かえる"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-05-003"
       },
       {
@@ -5365,140 +5365,140 @@ MOCK_DATA['N3'] = {
         "text": "<u>王</u>の読み方は？",
         "question": "読み方",
         "options": [
+          "ぶんや",
           "おう",
-          "かみ",
-          "かげ",
-          "いそいで"
+          "ふたつ",
+          "にがて"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-05-004"
       },
       {
         "type": "漢字読み",
-        "text": "<u>退職する</u>の読み方は？",
+        "text": "<u>法案</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "たいしょくする",
-          "やとう",
-          "かんこう",
-          "じょうしき"
+          "ひ",
+          "おもう",
+          "れいねん",
+          "ほうあん"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-05-005"
       },
       {
         "type": "漢字読み",
-        "text": "<u>火山</u>の読み方は？",
+        "text": "<u>作文</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "かくにん",
-          "ころがる",
-          "かざん",
-          "せいさん"
+          "せんげつ",
+          "ち",
+          "ふとる",
+          "さくぶん"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-05-006"
       },
       {
         "type": "漢字読み",
-        "text": "<u>引っ掛かる</u>の読み方は？",
+        "text": "<u>音楽</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "あか",
-          "ちゅう",
-          "がくぶ",
-          "ひっかかる"
+          "せいぶん",
+          "おとうと",
+          "びょういん",
+          "おんがく"
         ],
         "answer": 3,
         "id": "N3-05-007"
       },
       {
         "type": "漢字読み",
-        "text": "<u>気味</u>の読み方は？",
+        "text": "<u>等しい</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "きみ",
-          "すぐれる",
-          "じぎょう",
-          "がくせい"
+          "ひとしい",
+          "きにいる",
+          "かんがえかた",
+          "じけん"
         ],
         "answer": 0,
         "id": "N3-05-008"
       },
       {
         "type": "表記",
-        "text": "<u>たつ</u>の漢字は？",
+        "text": "<u>うむ</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "留まる",
-          "疑問",
-          "建つ",
-          "決済"
+          "正確",
+          "外国",
+          "温暖",
+          "産む"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-05-009"
       },
       {
         "type": "表記",
-        "text": "<u>しょうがい</u>の漢字は？",
+        "text": "<u>はなしあい</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "事務員",
-          "損害",
-          "笑顔",
-          "生涯"
+          "話し合い",
+          "告げる",
+          "角度",
+          "義理の姉"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-05-010"
       },
       {
         "type": "表記",
-        "text": "<u>まつ</u>の漢字は？",
+        "text": "<u>せん</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "頭",
-          "待つ",
-          "起こる",
-          "一日中"
+          "国際",
+          "進める",
+          "日々",
+          "線"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-05-011"
       },
       {
         "type": "表記",
-        "text": "<u>しなぎれ</u>の漢字は？",
+        "text": "<u>はは</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "速い",
-          "自動",
-          "最低",
-          "品切れ"
+          "母",
+          "欲しい",
+          "答え",
+          "含む"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-05-012"
       },
       {
         "type": "表記",
-        "text": "<u>ごはん</u>の漢字は？",
+        "text": "<u>げんてい</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "角",
-          "何",
-          "ご飯",
-          "車"
+          "晩ご飯",
+          "建設",
+          "売る",
+          "限定"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-05-013"
       },
       {
         "type": "表記",
-        "text": "<u>あつい</u>の漢字は？",
+        "text": "<u>けん</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "鍵",
-          "細い",
-          "熱い",
-          "境"
+          "存在",
+          "予習する",
+          "権",
+          "亡くなる"
         ],
         "answer": 2,
         "id": "N3-05-014"
@@ -5508,12 +5508,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "うれしい",
-          "<ruby>抜ける<rt>ぬける</rt></ruby>",
-          "<ruby>悪い<rt>わるい</rt></ruby>",
-          "チーム"
+          "<ruby>首<rt>くび</rt></ruby>",
+          "<ruby>人数<rt>にんずう</rt></ruby>",
+          "<ruby>仕事<rt>しごと</rt></ruby>",
+          "<ruby>欠ける<rt>かける</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-05-015"
       },
       {
@@ -5521,10 +5521,10 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>雲<rt>くも</rt></ruby>",
-          "<ruby>早退<rt>そうたい</rt></ruby>",
-          "<ruby>海<rt>うみ</rt></ruby>",
-          "<ruby>細かい<rt>こまかい</rt></ruby>"
+          "<ruby>接触<rt>せっしょく</rt></ruby>",
+          "<ruby>雇う<rt>やとう</rt></ruby>",
+          "<ruby>勢い<rt>いきおい</rt></ruby>",
+          "<ruby>外国人<rt>がいこくじん</rt></ruby>"
         ],
         "answer": 3,
         "id": "N3-05-016"
@@ -5534,12 +5534,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>忙しい<rt>いそがしい</rt></ruby>",
-          "<ruby>助かる<rt>たすかる</rt></ruby>",
-          "<ruby>体温<rt>たいおん</rt></ruby>",
-          "<ruby>危険<rt>きけん</rt></ruby>"
+          "じっと",
+          "<ruby>牛<rt>うし</rt></ruby>",
+          "<ruby>場所<rt>ばしょ</rt></ruby>",
+          "<ruby>開ける<rt>あける</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-05-017"
       },
       {
@@ -5547,10 +5547,10 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>人気<rt>にんき</rt></ruby>",
-          "<ruby>残り<rt>のこり</rt></ruby>",
-          "<ruby>理解<rt>りかい</rt></ruby>",
-          "<ruby>国民<rt>こくみん</rt></ruby>"
+          "<ruby>強まる<rt>つよまる</rt></ruby>",
+          "<ruby>秋<rt>あき</rt></ruby>",
+          "<ruby>酸<rt>さん</rt></ruby>",
+          "<ruby>押し入れ<rt>おしいれ</rt></ruby>"
         ],
         "answer": 2,
         "id": "N3-05-018"
@@ -5560,10 +5560,10 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>定<rt>てい</rt></ruby>",
-          "<ruby>値段<rt>ねだん</rt></ruby>",
-          "<ruby>現状<rt>げんじょう</rt></ruby>",
-          "<ruby>手紙<rt>てがみ</rt></ruby>"
+          "<ruby>手すり<rt>てすり</rt></ruby>",
+          "<ruby>番号<rt>ばんごう</rt></ruby>",
+          "<ruby>机<rt>つくえ</rt></ruby>",
+          "<ruby>教科<rt>きょうか</rt></ruby>"
         ],
         "answer": 1,
         "id": "N3-05-019"
@@ -5573,12 +5573,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "ところで",
-          "<ruby>生かす<rt>いかす</rt></ruby>",
-          "<ruby>行く<rt>いく</rt></ruby>",
-          "<ruby>数<rt>すう</rt></ruby>"
+          "<ruby>路地<rt>ろじ</rt></ruby>",
+          "<ruby>社交的<rt>しゃこうてき</rt></ruby>",
+          "つまらない",
+          "<ruby>部下<rt>ぶか</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-05-020"
       },
       {
@@ -5586,10 +5586,10 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "メンバー",
-          "<ruby>死<rt>し</rt></ruby>",
-          "<ruby>代わり<rt>かわり</rt></ruby>",
-          "<ruby>買う<rt>かう</rt></ruby>"
+          "<ruby>機嫌<rt>きげん</rt></ruby>",
+          "ホーム",
+          "<ruby>高校<rt>こうこう</rt></ruby>",
+          "イベント"
         ],
         "answer": 2,
         "id": "N3-05-021"
@@ -5599,10 +5599,10 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>鉄棒<rt>てつぼう</rt></ruby>",
-          "<ruby>来年<rt>らいねん</rt></ruby>",
-          "<ruby>親子<rt>おやこ</rt></ruby>",
-          "<ruby>日の出<rt>ひので</rt></ruby>"
+          "だから",
+          "<ruby>増える<rt>ふえる</rt></ruby>",
+          "<ruby>長<rt>ちょう</rt></ruby>",
+          "<ruby>助ける<rt>たすける</rt></ruby>"
         ],
         "answer": 3,
         "id": "N3-05-022"
@@ -5612,12 +5612,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>世界<rt>せかい</rt></ruby>",
-          "<ruby>生きる<rt>いきる</rt></ruby>",
-          "<ruby>触る<rt>さわる</rt></ruby>",
-          "<ruby>単<rt>たん</rt></ruby>"
+          "<ruby>今<rt>いま</rt></ruby>",
+          "<ruby>過去<rt>かこ</rt></ruby>",
+          "グルメ",
+          "<ruby>似る<rt>にる</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-05-023"
       },
       {
@@ -5625,12 +5625,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>技<rt>わざ</rt></ruby>",
-          "メール",
-          "<ruby>対人<rt>たいじん</rt></ruby>",
-          "<ruby>目的地<rt>もくてきち</rt></ruby>"
+          "<ruby>一方<rt>いっぽう</rt></ruby>",
+          "<ruby>支持<rt>しじ</rt></ruby>",
+          "<ruby>長所<rt>ちょうしょ</rt></ruby>",
+          "<ruby>政党<rt>せいとう</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-05-024"
       },
       {
@@ -5638,77 +5638,77 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>右<rt>みぎ</rt></ruby>",
-          "<ruby>決済<rt>けっさい</rt></ruby>",
-          "<ruby>見解<rt>けんかい</rt></ruby>",
-          "<ruby>限界<rt>げんかい</rt></ruby>"
+          "<ruby>教科<rt>きょうか</rt></ruby>",
+          "<ruby>走る<rt>はしる</rt></ruby>",
+          "<ruby>皆<rt>みんな</rt></ruby>",
+          "<ruby>原理<rt>げんり</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-05-025"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>商店街<rt>しょうてんがい</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>特に<rt>とくに</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "rooftop",
-          "buy",
-          "complaint",
-          "shopping street"
+          "progress",
+          "especially",
+          "sandbox",
+          "woman"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-05-026"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>事務所<rt>じむしょ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>長所<rt>ちょうしょ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "office",
-          "appearance",
-          "research",
-          "allergy"
+          "strong point",
+          "immediately",
+          "over there",
+          "at any moment"
         ],
         "answer": 0,
         "id": "N3-05-027"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>大きさ<rt>おおきさ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>集合場所<rt>しゅうごうばしょ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "size",
-          "to disappear",
-          "blackout",
-          "physical strength"
+          "meeting place",
+          "to hand over",
+          "more than",
+          "wisdom"
         ],
         "answer": 0,
         "id": "N3-05-028"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>借りる<rt>かりる</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>世<rt>よ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "knowledge",
-          "traffic",
-          "report",
-          "to borrow"
+          "consciousness",
+          "woman",
+          "world",
+          "smoke"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-05-029"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>一日中<rt>いちにちじゅう</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>親子<rt>おやこ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "all day",
-          "rule",
-          "wave",
-          "star"
+          "company",
+          "parent and child",
+          "now",
+          "voice"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-05-030"
       },
       {
@@ -5947,51 +5947,51 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: にもかかわらず / <ruby>笑顔<rt>えがお</rt></ruby>だ / <ruby>忙しい<rt>いそがしい</rt></ruby> / <ruby>彼<rt>かれ</rt></ruby>は",
+        "text": "並べ替え: <ruby>笑顔<rt>えがお</rt></ruby>だ / <ruby>彼<rt>かれ</rt></ruby>は / <ruby>忙しい<rt>いそがしい</rt></ruby> / にもかかわらず",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "にもかかわらず",
           "<ruby>笑顔<rt>えがお</rt></ruby>だ",
+          "<ruby>彼<rt>かれ</rt></ruby>は",
           "<ruby>忙しい<rt>いそがしい</rt></ruby>",
-          "<ruby>彼<rt>かれ</rt></ruby>は"
+          "にもかかわらず"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-05-049"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: わからない / ものの / <ruby>説明<rt>せつめい</rt></ruby>を / 聞いた",
+        "text": "並べ替え: ものの / 聞いた / わからない / <ruby>説明<rt>せつめい</rt></ruby>を",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "わからない",
           "ものの",
-          "<ruby>説明<rt>せつめい</rt></ruby>を",
-          "聞いた"
+          "聞いた",
+          "わからない",
+          "<ruby>説明<rt>せつめい</rt></ruby>を"
         ],
         "answer": 1,
         "id": "N3-05-050"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>降る<rt>ふる</rt></ruby> / <ruby>場合<rt>ばあい</rt></ruby> / <ruby>雨<rt>あめ</rt></ruby>が / <ruby>中止<rt>ちゅうし</rt></ruby>になる",
+        "text": "並べ替え: <ruby>場合<rt>ばあい</rt></ruby> / <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>雨<rt>あめ</rt></ruby>が / <ruby>降る<rt>ふる</rt></ruby>",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>降る<rt>ふる</rt></ruby>",
           "<ruby>場合<rt>ばあい</rt></ruby>",
+          "<ruby>中止<rt>ちゅうし</rt></ruby>になる",
           "<ruby>雨<rt>あめ</rt></ruby>が",
-          "<ruby>中止<rt>ちゅうし</rt></ruby>になる"
+          "<ruby>降る<rt>ふる</rt></ruby>"
         ],
         "answer": 3,
         "id": "N3-05-051"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: 働いている / <ruby>彼女<rt>かのじょ</rt></ruby>は / として / <ruby>医者<rt>いしゃ</rt></ruby>",
+        "text": "並べ替え: <ruby>彼女<rt>かのじょ</rt></ruby>は / として / 働いている / <ruby>医者<rt>いしゃ</rt></ruby>",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "働いている",
           "<ruby>彼女<rt>かのじょ</rt></ruby>は",
           "として",
+          "働いている",
           "<ruby>医者<rt>いしゃ</rt></ruby>"
         ],
         "answer": 2,
@@ -5999,15 +5999,15 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>彼<rt>かれ</rt></ruby>は / <ruby>忙しい<rt>いそがしい</rt></ruby> / <ruby>笑顔<rt>えがお</rt></ruby>だ / にもかかわらず",
+        "text": "並べ替え: <ruby>笑顔<rt>えがお</rt></ruby>だ / <ruby>彼<rt>かれ</rt></ruby>は / にもかかわらず / <ruby>忙しい<rt>いそがしい</rt></ruby>",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>彼<rt>かれ</rt></ruby>は",
-          "<ruby>忙しい<rt>いそがしい</rt></ruby>",
           "<ruby>笑顔<rt>えがお</rt></ruby>だ",
-          "にもかかわらず"
+          "<ruby>彼<rt>かれ</rt></ruby>は",
+          "にもかかわらず",
+          "<ruby>忙しい<rt>いそがしい</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-05-053"
       },
       {
@@ -6306,7 +6306,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-05-076"
       },
       {
@@ -6319,7 +6319,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-05-077"
       },
       {
@@ -6332,7 +6332,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-05-078"
       },
       {
@@ -6358,7 +6358,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-05-080"
       },
       {
@@ -6371,7 +6371,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-05-081"
       },
       {
@@ -6410,7 +6410,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-05-084"
       },
       {
@@ -6423,7 +6423,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-05-085"
       },
       {
@@ -6462,7 +6462,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-05-088"
       },
       {
@@ -6475,7 +6475,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-05-089"
       },
       {
@@ -6488,7 +6488,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-05-090"
       },
       {
@@ -6501,7 +6501,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-05-091"
       },
       {
@@ -6514,7 +6514,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-05-092"
       },
       {
@@ -6527,7 +6527,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-05-093"
       },
       {
@@ -6540,7 +6540,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-05-094"
       },
       {
@@ -6553,7 +6553,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-05-095"
       },
       {
@@ -6566,7 +6566,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-05-096"
       },
       {
@@ -6592,7 +6592,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-05-098"
       },
       {
@@ -6605,7 +6605,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-05-099"
       },
       {
@@ -6618,7 +6618,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-05-100"
       },
       {
@@ -6631,7 +6631,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-05-101"
       },
       {
@@ -6644,189 +6644,189 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-05-102"
       }
     ],
     "6": [
       {
         "type": "漢字読み",
-        "text": "<u>筋肉</u>の読み方は？",
+        "text": "<u>伝える</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "せいひん",
-          "うつす",
-          "きんにく",
-          "さいこう"
+          "かう",
+          "つたえる",
+          "ぶぶん",
+          "かてい"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-06-001"
       },
       {
         "type": "漢字読み",
-        "text": "<u>近い</u>の読み方は？",
+        "text": "<u>上</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "ちかい",
-          "れいねん",
-          "こころざし",
-          "きんぞく"
+          "やわらかい",
+          "げんてい",
+          "とどく",
+          "うえ"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-06-002"
       },
       {
         "type": "漢字読み",
-        "text": "<u>屋上</u>の読み方は？",
+        "text": "<u>急激</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "おくじょう",
-          "ふかのう",
-          "にがい",
-          "あたたかくなる"
+          "やとう",
+          "きゅうげき",
+          "あさごはん",
+          "わざわい"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-06-003"
       },
       {
         "type": "漢字読み",
-        "text": "<u>洋食</u>の読み方は？",
+        "text": "<u>承知</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "わるい",
-          "いったい",
-          "ばーべきゅーじょう",
-          "ようしょく"
+          "そうおん",
+          "こじん",
+          "あかい",
+          "しょうち"
         ],
         "answer": 3,
         "id": "N3-06-004"
       },
       {
         "type": "漢字読み",
-        "text": "<u>解ける</u>の読み方は？",
+        "text": "<u>語</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "まい",
-          "こうかん",
-          "ぞう",
-          "とける"
+          "こたえる",
+          "ご",
+          "かこ",
+          "ちかづける"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-06-005"
       },
       {
         "type": "漢字読み",
-        "text": "<u>午後</u>の読み方は？",
+        "text": "<u>元気</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "ごご",
-          "かぎあな",
-          "いろちがいをみる",
-          "さかい"
+          "きにいる",
+          "あるく",
+          "げんき",
+          "けんさ"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-06-006"
       },
       {
         "type": "漢字読み",
-        "text": "<u>週刊</u>の読み方は？",
+        "text": "<u>線</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "いんしょくぎょう",
-          "しゅうかん",
-          "はんてい",
-          "ひかる"
+          "しゅじん",
+          "うちあわせ",
+          "うつす",
+          "せん"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-06-007"
       },
       {
         "type": "漢字読み",
-        "text": "<u>過ごしやすい</u>の読み方は？",
+        "text": "<u>効率</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "ゆっくりあるく",
-          "すごしやすい",
-          "すいぞくかん",
-          "しょるい"
+          "こうりつ",
+          "おろす",
+          "つまる",
+          "みっつ"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-06-008"
       },
       {
         "type": "表記",
-        "text": "<u>つつむ</u>の漢字は？",
+        "text": "<u>つうか</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "包む",
-          "自動車",
-          "団体",
-          "問う"
+          "海岸",
+          "通過",
+          "学習",
+          "枝"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-06-009"
       },
       {
         "type": "表記",
-        "text": "<u>ひくい</u>の漢字は？",
+        "text": "<u>げしゃ</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "学校",
-          "切手",
-          "低い",
-          "伝わる"
+          "娯楽",
+          "入院する",
+          "案内",
+          "下車"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-06-010"
       },
       {
         "type": "表記",
-        "text": "<u>かんぜん</u>の漢字は？",
+        "text": "<u>ざいこをきく</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "世",
-          "橋",
-          "穴",
-          "完全"
+          "休み",
+          "在庫を聞く",
+          "継ぐ",
+          "機会"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-06-011"
       },
       {
         "type": "表記",
-        "text": "<u>ていでん</u>の漢字は？",
+        "text": "<u>うえる</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "伝わる",
-          "停電",
-          "速い",
-          "馬"
+          "影",
+          "飢える",
+          "玄関マット",
+          "動力"
         ],
         "answer": 1,
         "id": "N3-06-012"
       },
       {
         "type": "表記",
-        "text": "<u>せいこう</u>の漢字は？",
+        "text": "<u>おこる</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "技師",
-          "成功",
-          "休む",
-          "大部分"
+          "外す",
+          "傾向",
+          "成績",
+          "怒る"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-06-013"
       },
       {
         "type": "表記",
-        "text": "<u>かいものする</u>の漢字は？",
+        "text": "<u>ゆうがた</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "対人",
-          "買い物する",
-          "優しい",
-          "林業"
+          "医師",
+          "夕方",
+          "合間",
+          "本を読む"
         ],
         "answer": 1,
         "id": "N3-06-014"
@@ -6836,10 +6836,10 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>別離<rt>べつり</rt></ruby>",
-          "<ruby>季節<rt>きせつ</rt></ruby>",
-          "<ruby>話し合う<rt>はなしあう</rt></ruby>",
-          "<ruby>泣く<rt>なく</rt></ruby>"
+          "<ruby>黒<rt>くろ</rt></ruby>",
+          "フォルダ",
+          "<ruby>悪化<rt>あっか</rt></ruby>",
+          "<ruby>雲<rt>くも</rt></ruby>"
         ],
         "answer": 2,
         "id": "N3-06-015"
@@ -6849,12 +6849,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>公民館<rt>こうみんかん</rt></ruby>",
-          "<ruby>進学<rt>しんがく</rt></ruby>",
-          "<ruby>今朝<rt>けさ</rt></ruby>",
-          "<ruby>留まる<rt>とどまる</rt></ruby>"
+          "<ruby>太陽<rt>たいよう</rt></ruby>",
+          "すごい",
+          "<ruby>鋭い<rt>するどい</rt></ruby>",
+          "<ruby>四<rt>し</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-06-016"
       },
       {
@@ -6862,12 +6862,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>混ざる<rt>まざる</rt></ruby>",
-          "<ruby>悩む<rt>なやむ</rt></ruby>",
-          "<ruby>友情<rt>ゆうじょう</rt></ruby>",
-          "<ruby>伝える<rt>つたえる</rt></ruby>"
+          "<ruby>先月<rt>せんげつ</rt></ruby>",
+          "カレンダー",
+          "<ruby>悲劇<rt>ひげき</rt></ruby>",
+          "<ruby>遠い<rt>とおい</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-06-017"
       },
       {
@@ -6875,12 +6875,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "あちこち",
-          "<ruby>見上げる<rt>みあげる</rt></ruby>",
-          "トリートメント",
-          "<ruby>急激<rt>きゅうげき</rt></ruby>"
+          "メール",
+          "<ruby>買い物<rt>かいもの</rt></ruby>",
+          "<ruby>報告する<rt>ほうこくする</rt></ruby>",
+          "<ruby>中<rt>ちゅう</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-06-018"
       },
       {
@@ -6888,12 +6888,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "バスケットボール",
-          "<ruby>上司<rt>じょうし</rt></ruby>",
-          "カフェ",
-          "<ruby>心理<rt>しんり</rt></ruby>"
+          "<ruby>汚い<rt>きたない</rt></ruby>",
+          "<ruby>時間<rt>じかん</rt></ruby>",
+          "<ruby>物<rt>もの</rt></ruby>",
+          "および"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-06-019"
       },
       {
@@ -6901,12 +6901,12 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>問題<rt>もんだい</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby>",
-          "<ruby>予算<rt>よさん</rt></ruby>",
-          "<ruby>瓶<rt>びん</rt></ruby>"
+          "<ruby>承知<rt>しょうち</rt></ruby>",
+          "<ruby>本質<rt>ほんしつ</rt></ruby>",
+          "いくつ",
+          "いつも"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-06-020"
       },
       {
@@ -6914,12 +6914,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>過ぎる<rt>すぎる</rt></ruby>",
-          "<ruby>渡す<rt>わたす</rt></ruby>",
-          "<ruby>毎<rt>まい</rt></ruby>",
-          "<ruby>購入<rt>こうにゅう</rt></ruby>"
+          "<ruby>転職する<rt>てんしょくする</rt></ruby>",
+          "<ruby>届ける<rt>とどける</rt></ruby>",
+          "ダイエット",
+          "<ruby>鈍い<rt>にぶい</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-06-021"
       },
       {
@@ -6927,10 +6927,10 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>毎年<rt>まいとし</rt></ruby>",
-          "<ruby>フォークを使う<rt>ふぉーくをつかう</rt></ruby>",
-          "<ruby>経過<rt>けいか</rt></ruby>",
-          "<ruby>能力<rt>のうりょく</rt></ruby>"
+          "<ruby>その上<rt>そのうえ</rt></ruby>",
+          "なる",
+          "<ruby>建てる<rt>たてる</rt></ruby>",
+          "<ruby>会計<rt>かいけい</rt></ruby>"
         ],
         "answer": 2,
         "id": "N3-06-022"
@@ -6940,12 +6940,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>安定<rt>あんてい</rt></ruby>",
-          "いらっしゃる",
-          "<ruby>渡す<rt>わたす</rt></ruby>",
-          "<ruby>花<rt>はな</rt></ruby>"
+          "<ruby>住まい<rt>すまい</rt></ruby>",
+          "シーソー",
+          "<ruby>痛覚<rt>つうかく</rt></ruby>",
+          "<ruby>冷める<rt>さめる</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-06-023"
       },
       {
@@ -6953,12 +6953,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>稲妻<rt>いなずま</rt></ruby>",
-          "<ruby>恵み<rt>めぐみ</rt></ruby>",
-          "<ruby>妹<rt>いもうと</rt></ruby>",
-          "<ruby>経路<rt>けいろ</rt></ruby>"
+          "<ruby>見せる<rt>みせる</rt></ruby>",
+          "<ruby>地<rt>ち</rt></ruby>",
+          "<ruby>留まる<rt>とどまる</rt></ruby>",
+          "<ruby>外出する<rt>がいしゅつする</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-06-024"
       },
       {
@@ -6966,77 +6966,77 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>足す<rt>たす</rt></ruby>",
-          "ゴルフ",
-          "<ruby>口紅<rt>くちべに</rt></ruby>",
-          "すなわち"
+          "<ruby>休学<rt>きゅうがく</rt></ruby>",
+          "<ruby>明日<rt>あした</rt></ruby>",
+          "<ruby>嫌がる<rt>いやがる</rt></ruby>",
+          "<ruby>退院<rt>たいいん</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-06-025"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>深夜<rt>しんや</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>共通<rt>きょうつう</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "city center",
-          "several times",
-          "late night",
-          "danger"
+          "moon",
+          "common",
+          "take out",
+          "parking"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-06-026"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>先日<rt>せんじつ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>大使<rt>たいし</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "reputation",
-          "the other day",
-          "to plow",
-          "lower limit"
+          "ambassador",
+          "plain",
+          "feeling",
+          "dropping out"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-06-027"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>建設<rt>けんせつ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>断る<rt>ことわる</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "at last",
-          "construction",
-          "to starve",
-          "hotel"
+          "to refuse",
+          "morning",
+          "composition",
+          "wall"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-06-028"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>特定<rt>とくてい</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>少し<rt>すこし</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "attention",
-          "to knit",
-          "specific",
-          "two"
+          "ski resort",
+          "karaoke",
+          "fixed price",
+          "a little"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-06-029"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>コンサート<rt>こんさーと</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>レストラン<rt>れすとらん</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "origin",
-          "many",
-          "breakfast",
-          "concert"
+          "drawer",
+          "care",
+          "restaurant",
+          "how to use"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-06-030"
       },
       {
@@ -7275,67 +7275,67 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: ものの / 聞いた / わからない / <ruby>説明<rt>せつめい</rt></ruby>を",
+        "text": "並べ替え: 聞いた / <ruby>説明<rt>せつめい</rt></ruby>を / ものの / わからない",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "ものの",
           "聞いた",
-          "わからない",
-          "<ruby>説明<rt>せつめい</rt></ruby>を"
+          "<ruby>説明<rt>せつめい</rt></ruby>を",
+          "ものの",
+          "わからない"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-06-049"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>雨<rt>あめ</rt></ruby>が / <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>降る<rt>ふる</rt></ruby> / <ruby>場合<rt>ばあい</rt></ruby>",
+        "text": "並べ替え: <ruby>場合<rt>ばあい</rt></ruby> / <ruby>降る<rt>ふる</rt></ruby> / <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>雨<rt>あめ</rt></ruby>が",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>雨<rt>あめ</rt></ruby>が",
-          "<ruby>中止<rt>ちゅうし</rt></ruby>になる",
+          "<ruby>場合<rt>ばあい</rt></ruby>",
           "<ruby>降る<rt>ふる</rt></ruby>",
-          "<ruby>場合<rt>ばあい</rt></ruby>"
+          "<ruby>中止<rt>ちゅうし</rt></ruby>になる",
+          "<ruby>雨<rt>あめ</rt></ruby>が"
         ],
         "answer": 1,
         "id": "N3-06-050"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: として / 働いている / <ruby>医者<rt>いしゃ</rt></ruby> / <ruby>彼女<rt>かのじょ</rt></ruby>は",
+        "text": "並べ替え: として / <ruby>彼女<rt>かのじょ</rt></ruby>は / <ruby>医者<rt>いしゃ</rt></ruby> / 働いている",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
           "として",
-          "働いている",
+          "<ruby>彼女<rt>かのじょ</rt></ruby>は",
           "<ruby>医者<rt>いしゃ</rt></ruby>",
-          "<ruby>彼女<rt>かのじょ</rt></ruby>は"
+          "働いている"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-06-051"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>忙しい<rt>いそがしい</rt></ruby> / にもかかわらず / <ruby>彼<rt>かれ</rt></ruby>は / <ruby>笑顔<rt>えがお</rt></ruby>だ",
+        "text": "並べ替え: <ruby>笑顔<rt>えがお</rt></ruby>だ / にもかかわらず / <ruby>彼<rt>かれ</rt></ruby>は / <ruby>忙しい<rt>いそがしい</rt></ruby>",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>忙しい<rt>いそがしい</rt></ruby>",
+          "<ruby>笑顔<rt>えがお</rt></ruby>だ",
           "にもかかわらず",
           "<ruby>彼<rt>かれ</rt></ruby>は",
-          "<ruby>笑顔<rt>えがお</rt></ruby>だ"
+          "<ruby>忙しい<rt>いそがしい</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-06-052"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: 聞いた / わからない / <ruby>説明<rt>せつめい</rt></ruby>を / ものの",
+        "text": "並べ替え: 聞いた / <ruby>説明<rt>せつめい</rt></ruby>を / ものの / わからない",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
           "聞いた",
-          "わからない",
           "<ruby>説明<rt>せつめい</rt></ruby>を",
-          "ものの"
+          "ものの",
+          "わからない"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-06-053"
       },
       {
@@ -7634,7 +7634,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-06-076"
       },
       {
@@ -7647,7 +7647,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-06-077"
       },
       {
@@ -7660,7 +7660,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-06-078"
       },
       {
@@ -7673,7 +7673,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-06-079"
       },
       {
@@ -7686,7 +7686,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-06-080"
       },
       {
@@ -7699,7 +7699,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-06-081"
       },
       {
@@ -7712,7 +7712,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-06-082"
       },
       {
@@ -7725,7 +7725,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-06-083"
       },
       {
@@ -7738,7 +7738,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-06-084"
       },
       {
@@ -7751,7 +7751,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-06-085"
       },
       {
@@ -7777,7 +7777,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-06-087"
       },
       {
@@ -7803,7 +7803,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-06-089"
       },
       {
@@ -7816,7 +7816,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-06-090"
       },
       {
@@ -7829,7 +7829,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-06-091"
       },
       {
@@ -7842,7 +7842,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-06-092"
       },
       {
@@ -7868,7 +7868,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-06-094"
       },
       {
@@ -7894,7 +7894,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-06-096"
       },
       {
@@ -7920,7 +7920,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-06-098"
       },
       {
@@ -7933,7 +7933,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-06-099"
       },
       {
@@ -7946,7 +7946,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-06-100"
       },
       {
@@ -7959,7 +7959,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-06-101"
       },
       {
@@ -7972,191 +7972,191 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-06-102"
       }
     ],
     "7": [
       {
         "type": "漢字読み",
-        "text": "<u>酸っぱい</u>の読み方は？",
+        "text": "<u>使う</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "すっぱい",
-          "き",
-          "びょういんにいく",
-          "こと"
+          "かけざん",
+          "ほんしつ",
+          "つかう",
+          "さいずをかくにんする"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-07-001"
       },
       {
         "type": "漢字読み",
-        "text": "<u>急ぐ</u>の読み方は？",
+        "text": "<u>悲しみ</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "ぎんこう",
-          "ほうふ",
-          "いそぐ",
-          "かんせい"
+          "かなしみ",
+          "みまもる",
+          "うたう",
+          "にくるい"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-07-002"
       },
       {
         "type": "漢字読み",
-        "text": "<u>現れる</u>の読み方は？",
+        "text": "<u>種</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "あらわれる",
-          "せばまる",
-          "たいいん",
-          "じむいん"
+          "なつ",
+          "しゅっちょう",
+          "たね",
+          "ほん"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-07-003"
       },
       {
         "type": "漢字読み",
-        "text": "<u>草</u>の読み方は？",
+        "text": "<u>押し寄せる</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "ぶんか",
-          "くさ",
-          "こまかい",
-          "えん"
+          "おとうと",
+          "ゆっくりあるく",
+          "おしよせる",
+          "しつ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-07-004"
       },
       {
         "type": "漢字読み",
-        "text": "<u>戻る</u>の読み方は？",
+        "text": "<u>最小</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "もどる",
-          "ふとる",
-          "ちゅうし",
-          "きた"
+          "おもい",
+          "かいせつ",
+          "さいしょう",
+          "ぶんや"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-07-005"
       },
       {
         "type": "漢字読み",
-        "text": "<u>味</u>の読み方は？",
+        "text": "<u>無くす</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "ばしょ",
-          "あじ",
-          "き",
-          "ふるえる"
+          "めいかく",
+          "なくす",
+          "ごほうこく",
+          "せだい"
         ],
         "answer": 1,
         "id": "N3-07-006"
       },
       {
         "type": "漢字読み",
-        "text": "<u>額</u>の読み方は？",
+        "text": "<u>届け出</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "たずねる",
-          "ひたい",
-          "けいそつ",
-          "そのうえ"
+          "じぶん",
+          "とおり",
+          "よてい",
+          "とどけで"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-07-007"
       },
       {
         "type": "漢字読み",
-        "text": "<u>限り</u>の読み方は？",
+        "text": "<u>傾く</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "こうかんする",
-          "かぎり",
-          "なおる",
-          "できごと"
+          "はかる",
+          "つかれ",
+          "ともに",
+          "かたむく"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-07-008"
       },
       {
         "type": "表記",
-        "text": "<u>のこり</u>の漢字は？",
+        "text": "<u>さんぽする</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "数十",
-          "休憩室",
-          "痛覚",
-          "残り"
+          "散歩する",
+          "少数",
+          "駅構内",
+          "結構"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-07-009"
       },
       {
         "type": "表記",
-        "text": "<u>かける</u>の漢字は？",
+        "text": "<u>ほんをよむ</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "授業",
-          "構う",
-          "駆ける",
-          "気に入る"
+          "人物",
+          "鈍い",
+          "恥",
+          "本を読む"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-07-010"
       },
       {
         "type": "表記",
-        "text": "<u>そくてい</u>の漢字は？",
+        "text": "<u>そふ</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "引っ掛ける",
-          "測定",
-          "階段",
-          "全力"
+          "祖父",
+          "年始",
+          "意思",
+          "興味"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-07-011"
       },
       {
         "type": "表記",
-        "text": "<u>さんせいする</u>の漢字は？",
+        "text": "<u>きがかり</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "賛成する",
-          "答え",
-          "歯茎",
-          "公開"
+          "方法",
+          "気がかり",
+          "黒い",
+          "例"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-07-012"
       },
       {
         "type": "表記",
-        "text": "<u>あたらしい</u>の漢字は？",
+        "text": "<u>じしん</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "新しい",
-          "明らか",
-          "謝罪",
-          "在庫"
+          "数える",
+          "勉強する",
+          "遠く",
+          "地震"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-07-013"
       },
       {
         "type": "表記",
-        "text": "<u>わかれ</u>の漢字は？",
+        "text": "<u>いく</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "離す",
-          "欠ける",
-          "休憩する",
-          "別れ"
+          "法案",
+          "歌",
+          "行く",
+          "方"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-07-014"
       },
       {
@@ -8164,12 +8164,12 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>開ける<rt>あける</rt></ruby>",
-          "<ruby>性<rt>せい</rt></ruby>",
-          "<ruby>混ざる<rt>まざる</rt></ruby>",
-          "<ruby>触覚<rt>しょっかく</rt></ruby>"
+          "<ruby>笑い<rt>わらい</rt></ruby>",
+          "ダム",
+          "<ruby>資源<rt>しげん</rt></ruby>",
+          "<ruby>出来る<rt>できる</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-07-015"
       },
       {
@@ -8177,12 +8177,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>林業<rt>りんぎょう</rt></ruby>",
-          "<ruby>天候<rt>てんこう</rt></ruby>",
-          "うどん",
-          "<ruby>汚す<rt>よごす</rt></ruby>"
+          "<ruby>駐車<rt>ちゅうしゃ</rt></ruby>",
+          "<ruby>四つ<rt>よっつ</rt></ruby>",
+          "<ruby>社会<rt>しゃかい</rt></ruby>",
+          "<ruby>方<rt>ほう</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-07-016"
       },
       {
@@ -8190,12 +8190,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "カーテン",
-          "<ruby>握る<rt>にぎる</rt></ruby>",
-          "<ruby>原因<rt>げんいん</rt></ruby>",
-          "エスカレーター"
+          "<ruby>冷たい<rt>つめたい</rt></ruby>",
+          "<ruby>観光<rt>かんこう</rt></ruby>",
+          "<ruby>移動<rt>いどう</rt></ruby>",
+          "<ruby>有名<rt>ゆうめい</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-07-017"
       },
       {
@@ -8203,10 +8203,10 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>札<rt>さつ</rt></ruby>",
-          "<ruby>満たす<rt>みたす</rt></ruby>",
-          "もらう",
-          "なかなか"
+          "<ruby>常識<rt>じょうしき</rt></ruby>",
+          "<ruby>信号を渡る<rt>しんごうをわたる</rt></ruby>",
+          "コーヒー",
+          "<ruby>職員<rt>しょくいん</rt></ruby>"
         ],
         "answer": 3,
         "id": "N3-07-018"
@@ -8216,12 +8216,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "ノート",
-          "<ruby>覚える<rt>おぼえる</rt></ruby>",
-          "<ruby>都合<rt>つごう</rt></ruby>",
-          "きっかけ"
+          "<ruby>思い<rt>おもい</rt></ruby>",
+          "さようなら",
+          "<ruby>広場<rt>ひろば</rt></ruby>",
+          "ペットショップ"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-07-019"
       },
       {
@@ -8229,12 +8229,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "まとめる",
-          "<ruby>質問<rt>しつもん</rt></ruby>",
-          "エステサロン",
-          "<ruby>支度<rt>したく</rt></ruby>"
+          "<ruby>明確<rt>めいかく</rt></ruby>",
+          "<ruby>十<rt>じゅう</rt></ruby>",
+          "<ruby>減<rt>へん</rt></ruby>",
+          "コンパス"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-07-020"
       },
       {
@@ -8242,12 +8242,12 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>高速道路<rt>こうそくどうろ</rt></ruby>",
-          "<ruby>試合<rt>しあい</rt></ruby>",
-          "<ruby>転職<rt>てんしょく</rt></ruby>",
-          "<ruby>お帰りになる<rt>おかえりになる</rt></ruby>"
+          "よく",
+          "<ruby>持つ<rt>もつ</rt></ruby>",
+          "<ruby>特徴<rt>とくちょう</rt></ruby>",
+          "<ruby>簡単<rt>かんたん</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-07-021"
       },
       {
@@ -8255,12 +8255,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "ほぼ",
-          "<ruby>行う<rt>おこなう</rt></ruby>",
-          "<ruby>不便<rt>ふべん</rt></ruby>",
-          "<ruby>住所<rt>じゅうしょ</rt></ruby>"
+          "<ruby>通りかかる<rt>とおりかかる</rt></ruby>",
+          "<ruby>目指す<rt>めざす</rt></ruby>",
+          "<ruby>会場<rt>かいじょう</rt></ruby>",
+          "<ruby>親<rt>おや</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-07-022"
       },
       {
@@ -8268,12 +8268,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>遠足<rt>えんそく</rt></ruby>",
-          "コンパス",
-          "<ruby>学<rt>がく</rt></ruby>",
-          "<ruby>商店<rt>しょうてん</rt></ruby>"
+          "<ruby>地区<rt>ちく</rt></ruby>",
+          "<ruby>否定<rt>ひてい</rt></ruby>",
+          "<ruby>互いに<rt>たがいに</rt></ruby>",
+          "<ruby>スキー場<rt>すきーじょう</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-07-023"
       },
       {
@@ -8281,12 +8281,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>不可能<rt>ふかのう</rt></ruby>",
-          "<ruby>送る<rt>おくる</rt></ruby>",
-          "スマートフォン",
-          "データ"
+          "<ruby>含む<rt>ふくむ</rt></ruby>",
+          "<ruby>時間<rt>じかん</rt></ruby>",
+          "タンス",
+          "<ruby>風土<rt>ふうど</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-07-024"
       },
       {
@@ -8294,75 +8294,75 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>知<rt>ち</rt></ruby>",
-          "<ruby>華道<rt>かどう</rt></ruby>",
-          "<ruby>技術者<rt>ぎじゅつしゃ</rt></ruby>",
-          "<ruby>台所<rt>だいどころ</rt></ruby>"
+          "コーヒー",
+          "<ruby>通過<rt>つうか</rt></ruby>",
+          "<ruby>政策<rt>せいさく</rt></ruby>",
+          "<ruby>来年<rt>らいねん</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-07-025"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>形成<rt>けいせい</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>優しい<rt>やさしい</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "to prohibit",
-          "formation",
-          "resident",
-          "that"
+          "life",
+          "thousand",
+          "hamburger steak",
+          "gentle"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-07-026"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>札<rt>さつ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>橋<rt>はし</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "minimum",
-          "bill",
-          "winter",
-          "buy"
+          "bridge",
+          "to exist",
+          "sociable",
+          "to panic"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-07-027"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>忘れる<rt>わすれる</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>路地<rt>ろじ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "sharp",
-          "tentatively",
-          "to forget",
-          "product"
+          "alley",
+          "spa",
+          "tourist spot",
+          "scenery"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-07-028"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>職員<rt>しょくいん</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>九つ<rt>ここのつ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "consciousness",
-          "to go",
-          "staff",
-          "for example"
+          "clear",
+          "mechanical pencil",
+          "surprise",
+          "nine"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-07-029"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>ご質問<rt>ごしつもん</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>先月<rt>せんげつ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "area",
-          "accessory",
-          "exit",
-          "question"
+          "I",
+          "to make noise",
+          "final",
+          "last month"
         ],
         "answer": 3,
         "id": "N3-07-030"
@@ -8603,13 +8603,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>降る<rt>ふる</rt></ruby> / <ruby>場合<rt>ばあい</rt></ruby> / <ruby>雨<rt>あめ</rt></ruby>が",
+        "text": "並べ替え: <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>降る<rt>ふる</rt></ruby> / <ruby>雨<rt>あめ</rt></ruby>が / <ruby>場合<rt>ばあい</rt></ruby>",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
           "<ruby>中止<rt>ちゅうし</rt></ruby>になる",
           "<ruby>降る<rt>ふる</rt></ruby>",
-          "<ruby>場合<rt>ばあい</rt></ruby>",
-          "<ruby>雨<rt>あめ</rt></ruby>が"
+          "<ruby>雨<rt>あめ</rt></ruby>が",
+          "<ruby>場合<rt>ばあい</rt></ruby>"
         ],
         "answer": 3,
         "id": "N3-07-049"
@@ -8624,46 +8624,46 @@ MOCK_DATA['N3'] = {
           "働いている",
           "<ruby>医者<rt>いしゃ</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-07-050"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>忙しい<rt>いそがしい</rt></ruby> / <ruby>彼<rt>かれ</rt></ruby>は / <ruby>笑顔<rt>えがお</rt></ruby>だ / にもかかわらず",
+        "text": "並べ替え: <ruby>彼<rt>かれ</rt></ruby>は / にもかかわらず / <ruby>忙しい<rt>いそがしい</rt></ruby> / <ruby>笑顔<rt>えがお</rt></ruby>だ",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>忙しい<rt>いそがしい</rt></ruby>",
           "<ruby>彼<rt>かれ</rt></ruby>は",
-          "<ruby>笑顔<rt>えがお</rt></ruby>だ",
-          "にもかかわらず"
+          "にもかかわらず",
+          "<ruby>忙しい<rt>いそがしい</rt></ruby>",
+          "<ruby>笑顔<rt>えがお</rt></ruby>だ"
         ],
         "answer": 1,
         "id": "N3-07-051"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>説明<rt>せつめい</rt></ruby>を / 聞いた / ものの / わからない",
+        "text": "並べ替え: ものの / <ruby>説明<rt>せつめい</rt></ruby>を / 聞いた / わからない",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
+          "ものの",
           "<ruby>説明<rt>せつめい</rt></ruby>を",
           "聞いた",
-          "ものの",
           "わからない"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-07-052"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>場合<rt>ばあい</rt></ruby> / <ruby>雨<rt>あめ</rt></ruby>が / <ruby>降る<rt>ふる</rt></ruby>",
+        "text": "並べ替え: <ruby>雨<rt>あめ</rt></ruby>が / <ruby>場合<rt>ばあい</rt></ruby> / <ruby>降る<rt>ふる</rt></ruby> / <ruby>中止<rt>ちゅうし</rt></ruby>になる",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>中止<rt>ちゅうし</rt></ruby>になる",
-          "<ruby>場合<rt>ばあい</rt></ruby>",
           "<ruby>雨<rt>あめ</rt></ruby>が",
-          "<ruby>降る<rt>ふる</rt></ruby>"
+          "<ruby>場合<rt>ばあい</rt></ruby>",
+          "<ruby>降る<rt>ふる</rt></ruby>",
+          "<ruby>中止<rt>ちゅうし</rt></ruby>になる"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-07-053"
       },
       {
@@ -8975,7 +8975,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-07-077"
       },
       {
@@ -8988,7 +8988,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-07-078"
       },
       {
@@ -9001,7 +9001,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-07-079"
       },
       {
@@ -9014,7 +9014,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-07-080"
       },
       {
@@ -9027,7 +9027,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-07-081"
       },
       {
@@ -9040,7 +9040,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-07-082"
       },
       {
@@ -9053,7 +9053,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-07-083"
       },
       {
@@ -9066,7 +9066,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-07-084"
       },
       {
@@ -9079,7 +9079,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-07-085"
       },
       {
@@ -9105,7 +9105,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-07-087"
       },
       {
@@ -9118,7 +9118,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-07-088"
       },
       {
@@ -9157,7 +9157,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-07-091"
       },
       {
@@ -9170,7 +9170,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-07-092"
       },
       {
@@ -9183,7 +9183,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-07-093"
       },
       {
@@ -9196,7 +9196,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-07-094"
       },
       {
@@ -9209,7 +9209,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-07-095"
       },
       {
@@ -9222,7 +9222,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-07-096"
       },
       {
@@ -9235,7 +9235,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-07-097"
       },
       {
@@ -9248,7 +9248,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-07-098"
       },
       {
@@ -9261,7 +9261,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-07-099"
       },
       {
@@ -9274,7 +9274,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-07-100"
       },
       {
@@ -9300,191 +9300,191 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-07-102"
       }
     ],
     "8": [
       {
         "type": "漢字読み",
-        "text": "<u>麦</u>の読み方は？",
+        "text": "<u>熱心</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "むぎ",
-          "きこう",
-          "じむしょ",
-          "よろこび"
+          "たつ",
+          "むし",
+          "りゃく",
+          "ねっしん"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-08-001"
       },
       {
         "type": "漢字読み",
-        "text": "<u>再び</u>の読み方は？",
+        "text": "<u>損</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "ちゅうもく",
-          "どうぶつえん",
-          "ふたたび",
-          "ちゅうかん"
+          "ひろば",
+          "いつつ",
+          "そん",
+          "で"
         ],
         "answer": 2,
         "id": "N3-08-002"
       },
       {
         "type": "漢字読み",
-        "text": "<u>製造</u>の読み方は？",
+        "text": "<u>馬</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "せいぞう",
-          "やま",
-          "りかいする",
-          "よろこぶ"
+          "うま",
+          "なつかしい",
+          "かさなる",
+          "さんぽ"
         ],
         "answer": 0,
         "id": "N3-08-003"
       },
       {
         "type": "漢字読み",
-        "text": "<u>壊れる</u>の読み方は？",
+        "text": "<u>絵</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "たとえ",
-          "きのう",
-          "こわれる",
-          "そうげん"
+          "え",
+          "ふむ",
+          "れいねん",
+          "ぶんかつ"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-08-004"
       },
       {
         "type": "漢字読み",
-        "text": "<u>知り合い</u>の読み方は？",
+        "text": "<u>単に</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "せめる",
-          "ご",
-          "ぞう",
-          "しりあい"
+          "たん",
+          "たんに",
+          "つうち",
+          "ぜったいに"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-08-005"
       },
       {
         "type": "漢字読み",
-        "text": "<u>劇場</u>の読み方は？",
+        "text": "<u>階段</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "きゅうげきに",
-          "ひかくてきかんたん",
-          "いし",
-          "げきじょう"
+          "どうぐ",
+          "いただく",
+          "かいだん",
+          "あさい"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-08-006"
       },
       {
         "type": "漢字読み",
-        "text": "<u>電話</u>の読み方は？",
+        "text": "<u>嗅ぐ</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "でんわ",
-          "すすむ",
-          "むける",
-          "みおろす"
+          "じしん",
+          "でんち",
+          "こうじょう",
+          "かぐ"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-08-007"
       },
       {
         "type": "漢字読み",
-        "text": "<u>春</u>の読み方は？",
+        "text": "<u>親子</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "はる",
-          "もの",
-          "ねっしん",
-          "あじわう"
+          "あける",
+          "こうこう",
+          "おやこ",
+          "つかう"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-08-008"
       },
       {
         "type": "表記",
-        "text": "<u>なんとか</u>の漢字は？",
+        "text": "<u>さだめる</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "香り",
-          "明け方",
-          "何とか",
-          "発明"
+          "定める",
+          "許可する",
+          "出張する",
+          "別々"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-08-009"
       },
       {
         "type": "表記",
-        "text": "<u>よむ</u>の漢字は？",
+        "text": "<u>すうじゅう</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "空",
-          "読む",
-          "花",
-          "講師"
+          "数十",
+          "主人",
+          "便利",
+          "前日"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-08-010"
       },
       {
         "type": "表記",
-        "text": "<u>おそれ</u>の漢字は？",
+        "text": "<u>まん</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "映画",
-          "速度",
-          "恐れ",
-          "教科"
+          "万",
+          "電気",
+          "心境",
+          "目指す"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-08-011"
       },
       {
         "type": "表記",
-        "text": "<u>とどけもの</u>の漢字は？",
+        "text": "<u>ちゅうがっこう</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "一体",
-          "運",
-          "届け物",
-          "厳しい"
+          "ご報告",
+          "開く",
+          "中学校",
+          "細かい"
         ],
         "answer": 2,
         "id": "N3-08-012"
       },
       {
         "type": "表記",
-        "text": "<u>よっつ</u>の漢字は？",
+        "text": "<u>しげん</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "今すぐ",
-          "夢",
-          "四つ",
-          "自動"
+          "資源",
+          "通信",
+          "食事",
+          "新聞"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-08-013"
       },
       {
         "type": "表記",
-        "text": "<u>のりかえる</u>の漢字は？",
+        "text": "<u>ぎょうしゅ</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "修正液",
-          "夕方",
-          "辞める",
-          "乗り換える"
+          "業種",
+          "半分",
+          "友人",
+          "急激"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-08-014"
       },
       {
@@ -9492,12 +9492,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>砂<rt>すな</rt></ruby>",
-          "ごみ",
-          "<ruby>離れる<rt>はなれる</rt></ruby>",
-          "<ruby>驚き<rt>おどろき</rt></ruby>"
+          "<ruby>笑い<rt>わらい</rt></ruby>",
+          "<ruby>近づける<rt>ちかづける</rt></ruby>",
+          "<ruby>授業<rt>じゅぎょう</rt></ruby>",
+          "<ruby>知恵<rt>ちえ</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-08-015"
       },
       {
@@ -9505,12 +9505,12 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>後ろ<rt>うしろ</rt></ruby>",
-          "<ruby>勘<rt>かん</rt></ruby>",
-          "<ruby>質<rt>しつ</rt></ruby>",
-          "<ruby>急ぐ<rt>いそぐ</rt></ruby>"
+          "<ruby>冬<rt>ふゆ</rt></ruby>",
+          "クラス",
+          "<ruby>謝る<rt>あやまる</rt></ruby>",
+          "<ruby>話しかける<rt>はなしかける</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-08-016"
       },
       {
@@ -9518,12 +9518,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>年代<rt>ねんだい</rt></ruby>",
-          "<ruby>届け<rt>とどけ</rt></ruby>",
-          "<ruby>残業する<rt>ざんぎょうする</rt></ruby>",
-          "<ruby>話題<rt>わだい</rt></ruby>"
+          "<ruby>教科書<rt>きょうかしょ</rt></ruby>",
+          "<ruby>商業<rt>しょうぎょう</rt></ruby>",
+          "<ruby>出社する<rt>しゅっしゃする</rt></ruby>",
+          "<ruby>最後に<rt>さいごに</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-08-017"
       },
       {
@@ -9531,10 +9531,10 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "サービス",
-          "スプーン",
-          "ダンス",
-          "<ruby>薬<rt>くすり</rt></ruby>"
+          "<ruby>悪い<rt>わるい</rt></ruby>",
+          "<ruby>文句<rt>もんく</rt></ruby>",
+          "はさみ",
+          "<ruby>進める<rt>すすめる</rt></ruby>"
         ],
         "answer": 0,
         "id": "N3-08-018"
@@ -9544,10 +9544,10 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "あちら",
-          "<ruby>青<rt>あお</rt></ruby>",
-          "<ruby>新しい<rt>あたらしい</rt></ruby>",
-          "<ruby>各々<rt>おのおの</rt></ruby>"
+          "<ruby>店員<rt>てんいん</rt></ruby>",
+          "<ruby>教授<rt>きょうじゅ</rt></ruby>",
+          "<ruby>道<rt>どう</rt></ruby>",
+          "<ruby>散歩<rt>さんぽ</rt></ruby>"
         ],
         "answer": 1,
         "id": "N3-08-019"
@@ -9557,12 +9557,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>体育館<rt>たいいくかん</rt></ruby>",
-          "<ruby>光る<rt>ひかる</rt></ruby>",
-          "<ruby>態勢<rt>たいせい</rt></ruby>",
-          "<ruby>国際<rt>こくさい</rt></ruby>"
+          "<ruby>熱<rt>ねつ</rt></ruby>",
+          "<ruby>薬局<rt>やっきょく</rt></ruby>",
+          "<ruby>騒がしい<rt>さわがしい</rt></ruby>",
+          "<ruby>広さ<rt>ひろさ</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-08-020"
       },
       {
@@ -9570,10 +9570,10 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>本質<rt>ほんしつ</rt></ruby>",
-          "<ruby>物質<rt>ぶっしつ</rt></ruby>",
-          "<ruby>捕らえる<rt>とらえる</rt></ruby>",
-          "<ruby>構う<rt>かまう</rt></ruby>"
+          "たいてい",
+          "うどん",
+          "<ruby>見かける<rt>みかける</rt></ruby>",
+          "<ruby>権<rt>けん</rt></ruby>"
         ],
         "answer": 3,
         "id": "N3-08-021"
@@ -9583,12 +9583,12 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>遅い<rt>おそい</rt></ruby>",
-          "<ruby>閉会<rt>へいかい</rt></ruby>",
-          "<ruby>土<rt>つち</rt></ruby>",
-          "<ruby>確定<rt>かくてい</rt></ruby>"
+          "<ruby>会う<rt>あう</rt></ruby>",
+          "<ruby>夏<rt>なつ</rt></ruby>",
+          "<ruby>何となく<rt>なんとなく</rt></ruby>",
+          "<ruby>海外<rt>かいがい</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-08-022"
       },
       {
@@ -9596,12 +9596,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>車道<rt>しゃどう</rt></ruby>",
-          "<ruby>打ち切る<rt>うちきる</rt></ruby>",
-          "<ruby>割引<rt>わりびき</rt></ruby>",
-          "<ruby>泣く<rt>なく</rt></ruby>"
+          "<ruby>別<rt>べつ</rt></ruby>",
+          "<ruby>機会<rt>きかい</rt></ruby>",
+          "<ruby>技能<rt>ぎのう</rt></ruby>",
+          "<ruby>有利<rt>ゆうり</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-08-023"
       },
       {
@@ -9609,12 +9609,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>一つ<rt>ひとつ</rt></ruby>",
-          "<ruby>運賃<rt>うんちん</rt></ruby>",
-          "<ruby>例外<rt>れいがい</rt></ruby>",
-          "ベルト"
+          "<ruby>湖<rt>みずうみ</rt></ruby>",
+          "<ruby>肉類<rt>にくるい</rt></ruby>",
+          "<ruby>出る<rt>でる</rt></ruby>",
+          "<ruby>休憩室<rt>きゅうけいしつ</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-08-024"
       },
       {
@@ -9622,77 +9622,77 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>半分<rt>はんぶん</rt></ruby>",
-          "<ruby>変わる<rt>かわる</rt></ruby>",
-          "<ruby>金銭<rt>きんせん</rt></ruby>",
-          "<ruby>通り<rt>とおり</rt></ruby>"
+          "<ruby>踊り<rt>おどり</rt></ruby>",
+          "<ruby>見守る<rt>みまもる</rt></ruby>",
+          "<ruby>七つ<rt>ななつ</rt></ruby>",
+          "<ruby>定める<rt>さだめる</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-08-025"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>数学<rt>すうがく</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>中止<rt>ちゅうし</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "change",
-          "form",
-          "mathematics",
-          "ally"
+          "clothing shop",
+          "probability",
+          "suspension",
+          "escalator"
         ],
         "answer": 2,
         "id": "N3-08-026"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>入院<rt>にゅういん</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>残業<rt>ざんぎょう</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "older brother",
-          "to throw",
-          "hospitalization",
-          "sea"
+          "overtime",
+          "to sing",
+          "separation",
+          "for example"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-08-027"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>起こす<rt>おこす</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>下ろす<rt>おろす</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "rice plant",
-          "dialogue",
-          "staff",
-          "to cause"
+          "subway",
+          "perfume",
+          "to lower",
+          "ambassador"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-08-028"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>間違う<rt>まちがう</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>電子レンジ<rt>でんしれんじ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "to branch",
-          "to mistake",
-          "picture",
-          "next time"
+          "microwave",
+          "exchange",
+          "warm",
+          "to cause"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-08-029"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>水<rt>みず</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>天気予報<rt>てんきよほう</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "lightning",
-          "water",
-          "skirt",
-          "usual"
+          "foreign country",
+          "to discuss",
+          "peace of mind",
+          "weather forecast"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-08-030"
       },
       {
@@ -9931,38 +9931,38 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>彼女<rt>かのじょ</rt></ruby>は / 働いている / として / <ruby>医者<rt>いしゃ</rt></ruby>",
+        "text": "並べ替え: <ruby>彼女<rt>かのじょ</rt></ruby>は / として / <ruby>医者<rt>いしゃ</rt></ruby> / 働いている",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
           "<ruby>彼女<rt>かのじょ</rt></ruby>は",
-          "働いている",
           "として",
-          "<ruby>医者<rt>いしゃ</rt></ruby>"
+          "<ruby>医者<rt>いしゃ</rt></ruby>",
+          "働いている"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-08-049"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: にもかかわらず / <ruby>忙しい<rt>いそがしい</rt></ruby> / <ruby>笑顔<rt>えがお</rt></ruby>だ / <ruby>彼<rt>かれ</rt></ruby>は",
+        "text": "並べ替え: <ruby>笑顔<rt>えがお</rt></ruby>だ / <ruby>忙しい<rt>いそがしい</rt></ruby> / <ruby>彼<rt>かれ</rt></ruby>は / にもかかわらず",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "にもかかわらず",
-          "<ruby>忙しい<rt>いそがしい</rt></ruby>",
           "<ruby>笑顔<rt>えがお</rt></ruby>だ",
-          "<ruby>彼<rt>かれ</rt></ruby>は"
+          "<ruby>忙しい<rt>いそがしい</rt></ruby>",
+          "<ruby>彼<rt>かれ</rt></ruby>は",
+          "にもかかわらず"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-08-050"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: ものの / <ruby>説明<rt>せつめい</rt></ruby>を / わからない / 聞いた",
+        "text": "並べ替え: わからない / ものの / <ruby>説明<rt>せつめい</rt></ruby>を / 聞いた",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
+          "わからない",
           "ものの",
           "<ruby>説明<rt>せつめい</rt></ruby>を",
-          "わからない",
           "聞いた"
         ],
         "answer": 3,
@@ -9970,28 +9970,28 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>降る<rt>ふる</rt></ruby> / <ruby>雨<rt>あめ</rt></ruby>が / <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>場合<rt>ばあい</rt></ruby>",
+        "text": "並べ替え: <ruby>雨<rt>あめ</rt></ruby>が / <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>降る<rt>ふる</rt></ruby> / <ruby>場合<rt>ばあい</rt></ruby>",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>降る<rt>ふる</rt></ruby>",
           "<ruby>雨<rt>あめ</rt></ruby>が",
           "<ruby>中止<rt>ちゅうし</rt></ruby>になる",
+          "<ruby>降る<rt>ふる</rt></ruby>",
           "<ruby>場合<rt>ばあい</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-08-052"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>医者<rt>いしゃ</rt></ruby> / <ruby>彼女<rt>かのじょ</rt></ruby>は / として / 働いている",
+        "text": "並べ替え: として / <ruby>彼女<rt>かのじょ</rt></ruby>は / 働いている / <ruby>医者<rt>いしゃ</rt></ruby>",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>医者<rt>いしゃ</rt></ruby>",
-          "<ruby>彼女<rt>かのじょ</rt></ruby>は",
           "として",
-          "働いている"
+          "<ruby>彼女<rt>かのじょ</rt></ruby>は",
+          "働いている",
+          "<ruby>医者<rt>いしゃ</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-08-053"
       },
       {
@@ -10316,7 +10316,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-08-078"
       },
       {
@@ -10329,7 +10329,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-08-079"
       },
       {
@@ -10342,7 +10342,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-08-080"
       },
       {
@@ -10368,7 +10368,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-08-082"
       },
       {
@@ -10381,7 +10381,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-08-083"
       },
       {
@@ -10394,7 +10394,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-08-084"
       },
       {
@@ -10407,7 +10407,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-08-085"
       },
       {
@@ -10420,7 +10420,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-08-086"
       },
       {
@@ -10433,7 +10433,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-08-087"
       },
       {
@@ -10446,7 +10446,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-08-088"
       },
       {
@@ -10459,7 +10459,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-08-089"
       },
       {
@@ -10485,7 +10485,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-08-091"
       },
       {
@@ -10498,7 +10498,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-08-092"
       },
       {
@@ -10511,7 +10511,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-08-093"
       },
       {
@@ -10537,7 +10537,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-08-095"
       },
       {
@@ -10550,7 +10550,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-08-096"
       },
       {
@@ -10563,7 +10563,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-08-097"
       },
       {
@@ -10576,7 +10576,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-08-098"
       },
       {
@@ -10589,7 +10589,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-08-099"
       },
       {
@@ -10602,7 +10602,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-08-100"
       },
       {
@@ -10615,7 +10615,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-08-101"
       },
       {
@@ -10628,191 +10628,191 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-08-102"
       }
     ],
     "9": [
       {
         "type": "漢字読み",
-        "text": "<u>見解</u>の読み方は？",
+        "text": "<u>情報</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "れっしゃ",
-          "ひかり",
-          "けんかい",
-          "さいかい"
+          "じょうほう",
+          "たすう",
+          "あめ",
+          "けっしんする"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-09-001"
       },
       {
         "type": "漢字読み",
-        "text": "<u>文字</u>の読み方は？",
+        "text": "<u>頭が痛い</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "もじ",
-          "き",
-          "やめる",
-          "しあわせ"
+          "ほんき",
+          "あたまがいたい",
+          "さいしょ",
+          "せいふ"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-09-002"
       },
       {
         "type": "漢字読み",
-        "text": "<u>出社する</u>の読み方は？",
+        "text": "<u>不可能</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "しゅっしゃする",
-          "きゅうじつ",
-          "おもい",
-          "はっせい"
+          "ふかのう",
+          "とける",
+          "けってい",
+          "かた"
         ],
         "answer": 0,
         "id": "N3-09-003"
       },
       {
         "type": "漢字読み",
-        "text": "<u>品切れ</u>の読み方は？",
+        "text": "<u>気</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "しゅっしゃする",
-          "しなぎれ",
-          "さます",
-          "そうり"
+          "なぜ",
+          "みなと",
+          "かける",
+          "き"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-09-004"
       },
       {
         "type": "漢字読み",
-        "text": "<u>ご確認</u>の読み方は？",
+        "text": "<u>体温</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "ごかくにん",
-          "しゅっちょう",
-          "みえる",
-          "いと"
+          "たいおん",
+          "しゅっちょうする",
+          "てすり",
+          "りょうしゅうしょ"
         ],
         "answer": 0,
         "id": "N3-09-005"
       },
       {
         "type": "漢字読み",
-        "text": "<u>神</u>の読み方は？",
+        "text": "<u>修理に出す</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "じょうげん",
-          "だいり",
-          "さんかく",
-          "かみ"
+          "しゅうりにだす",
+          "かべ",
+          "おおきな",
+          "せいしん"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-09-006"
       },
       {
         "type": "漢字読み",
-        "text": "<u>豪雨</u>の読み方は？",
+        "text": "<u>本</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "ごうう",
-          "かがく",
-          "ぐあい",
-          "いね"
+          "ほん",
+          "じむいん",
+          "こうかい",
+          "しゅっしゃする"
         ],
         "answer": 0,
         "id": "N3-09-007"
       },
       {
         "type": "漢字読み",
-        "text": "<u>戻す</u>の読み方は？",
+        "text": "<u>言う</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "もどす",
-          "さいかい",
-          "しょくよく",
-          "だいきん"
+          "ゆき",
+          "きんじょ",
+          "いう",
+          "しゅう"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-09-008"
       },
       {
         "type": "表記",
-        "text": "<u>ち</u>の漢字は？",
+        "text": "<u>しんぶん</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "首",
-          "通常",
-          "知",
-          "矢"
+          "形状",
+          "測る",
+          "新聞",
+          "学者"
         ],
         "answer": 2,
         "id": "N3-09-009"
       },
       {
         "type": "表記",
-        "text": "<u>かいがい</u>の漢字は？",
+        "text": "<u>てんこう</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "海外",
-          "熱",
-          "固い",
-          "苦しむ"
+          "天候",
+          "空港",
+          "神社",
+          "弱まる"
         ],
         "answer": 0,
         "id": "N3-09-010"
       },
       {
         "type": "表記",
-        "text": "<u>くしゃみがでる</u>の漢字は？",
+        "text": "<u>じょうたい</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "固まる",
-          "くしゃみが出る",
-          "首都",
-          "品質"
+          "状態",
+          "楽器",
+          "古い",
+          "湖"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-09-011"
       },
       {
         "type": "表記",
-        "text": "<u>こえる</u>の漢字は？",
+        "text": "<u>にんげんかんけい</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "悲しい",
-          "超える",
-          "決済",
-          "退職する"
+          "人間関係",
+          "報道",
+          "前",
+          "数十"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-09-012"
       },
       {
         "type": "表記",
-        "text": "<u>あね</u>の漢字は？",
+        "text": "<u>じゅうみん</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "アニメを見る",
-          "柔道",
-          "弱まる",
-          "姉"
+          "住民",
+          "引く",
+          "震える",
+          "有難い"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-09-013"
       },
       {
         "type": "表記",
-        "text": "<u>なおる</u>の漢字は？",
+        "text": "<u>つくる</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "動き",
-          "治る",
-          "入口",
-          "確信"
+          "騒がしい",
+          "情け",
+          "作る",
+          "母"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-09-014"
       },
       {
@@ -10820,12 +10820,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>卸す<rt>おろす</rt></ruby>",
-          "<ruby>一つ<rt>ひとつ</rt></ruby>",
-          "<ruby>学生<rt>がくせい</rt></ruby>",
-          "<ruby>災害<rt>さいがい</rt></ruby>"
+          "<ruby>理解する<rt>りかいする</rt></ruby>",
+          "ジュース",
+          "<ruby>最中<rt>さいちゅう</rt></ruby>",
+          "<ruby>書く<rt>かく</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-09-015"
       },
       {
@@ -10833,12 +10833,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>夕方<rt>ゆうがた</rt></ruby>",
-          "<ruby>目的<rt>もくてき</rt></ruby>",
-          "<ruby>楽しい<rt>たのしい</rt></ruby>",
-          "<ruby>決まる<rt>きまる</rt></ruby>"
+          "あそこ",
+          "<ruby>決まり<rt>きまり</rt></ruby>",
+          "<ruby>駅前<rt>えきまえ</rt></ruby>",
+          "<ruby>売る<rt>うる</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-09-016"
       },
       {
@@ -10846,12 +10846,12 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>済む<rt>すむ</rt></ruby>",
-          "<ruby>鉄棒<rt>てつぼう</rt></ruby>",
-          "<ruby>首<rt>くび</rt></ruby>",
-          "<ruby>以前<rt>いぜん</rt></ruby>"
+          "<ruby>叫ぶ<rt>さけぶ</rt></ruby>",
+          "<ruby>準備する<rt>じゅんびする</rt></ruby>",
+          "<ruby>活力<rt>かつりょく</rt></ruby>",
+          "うどん"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-09-017"
       },
       {
@@ -10859,12 +10859,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>散る<rt>ちる</rt></ruby>",
-          "<ruby>太い<rt>ふとい</rt></ruby>",
-          "<ruby>話し合い<rt>はなしあい</rt></ruby>",
-          "<ruby>体質<rt>たいしつ</rt></ruby>"
+          "<ruby>単に<rt>たんに</rt></ruby>",
+          "<ruby>角度<rt>かくど</rt></ruby>",
+          "<ruby>無数<rt>むすう</rt></ruby>",
+          "<ruby>地方<rt>ちほう</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-09-018"
       },
       {
@@ -10872,12 +10872,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "ボールペン",
-          "<ruby>人口<rt>じんこう</rt></ruby>",
-          "<ruby>自信<rt>じしん</rt></ruby>",
-          "なるべく"
+          "<ruby>手<rt>て</rt></ruby>",
+          "<ruby>密<rt>みつ</rt></ruby>",
+          "<ruby>民間<rt>みんかん</rt></ruby>",
+          "<ruby>壊す<rt>こわす</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-09-019"
       },
       {
@@ -10885,10 +10885,10 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>手<rt>て</rt></ruby>",
-          "<ruby>留守番<rt>るすばん</rt></ruby>",
-          "<ruby>居間<rt>いま</rt></ruby>",
-          "<ruby>相手<rt>あいて</rt></ruby>"
+          "なる",
+          "スマートフォン",
+          "プール",
+          "<ruby>草<rt>くさ</rt></ruby>"
         ],
         "answer": 1,
         "id": "N3-09-020"
@@ -10898,12 +10898,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>菊<rt>きく</rt></ruby>",
-          "<ruby>路線図<rt>ろせんず</rt></ruby>",
-          "<ruby>確かめる<rt>たしかめる</rt></ruby>",
-          "<ruby>飢える<rt>うえる</rt></ruby>"
+          "<ruby>国道<rt>こくどう</rt></ruby>",
+          "<ruby>大<rt>だい</rt></ruby>",
+          "<ruby>発行<rt>はっこう</rt></ruby>",
+          "<ruby>魚屋<rt>さかなや</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-09-021"
       },
       {
@@ -10911,12 +10911,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>混ぜる<rt>まぜる</rt></ruby>",
-          "<ruby>散歩<rt>さんぽ</rt></ruby>",
-          "<ruby>森林<rt>しんりん</rt></ruby>",
-          "<ruby>毎年<rt>まいとし</rt></ruby>"
+          "<ruby>例<rt>たとえ</rt></ruby>",
+          "いつも",
+          "<ruby>魚介類<rt>ぎょかいるい</rt></ruby>",
+          "こぼす"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-09-022"
       },
       {
@@ -10924,12 +10924,12 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "それから",
-          "<ruby>商品を探す<rt>しょうひんをさがす</rt></ruby>",
-          "<ruby>入学<rt>にゅうがく</rt></ruby>",
-          "<ruby>今更<rt>いまさら</rt></ruby>"
+          "<ruby>運賃<rt>うんちん</rt></ruby>",
+          "<ruby>機会<rt>きかい</rt></ruby>",
+          "<ruby>外観<rt>がいかん</rt></ruby>",
+          "<ruby>運輸業<rt>うんゆぎょう</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-09-023"
       },
       {
@@ -10937,12 +10937,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>送信<rt>そうしん</rt></ruby>",
-          "<ruby>超<rt>ちょう</rt></ruby>",
-          "<ruby>予算<rt>よさん</rt></ruby>",
-          "<ruby>再来年<rt>さらいねん</rt></ruby>"
+          "<ruby>済む<rt>すむ</rt></ruby>",
+          "<ruby>丸<rt>まる</rt></ruby>",
+          "<ruby>月<rt>つき</rt></ruby>",
+          "<ruby>出口<rt>でぐち</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-09-024"
       },
       {
@@ -10950,77 +10950,77 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>問い合わせる<rt>といあわせる</rt></ruby>",
-          "<ruby>気にする<rt>きにする</rt></ruby>",
-          "<ruby>思う<rt>おもう</rt></ruby>",
-          "<ruby>協力<rt>きょうりょく</rt></ruby>"
+          "<ruby>お帰りになる<rt>おかえりになる</rt></ruby>",
+          "<ruby>政治<rt>せいじ</rt></ruby>",
+          "カーディガン",
+          "どのくらい"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-09-025"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>文学<rt>ぶんがく</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>数千<rt>すうせん</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "food",
-          "now",
-          "literature",
-          "to hold down"
+          "to get dirty",
+          "deterioration",
+          "technology",
+          "thousands of"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-09-026"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>薬局<rt>やっきょく</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>火事<rt>かじ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "composition",
-          "lodging",
-          "spirit",
-          "pharmacy"
+          "to fold",
+          "to forgive",
+          "key",
+          "fire"
         ],
         "answer": 3,
         "id": "N3-09-027"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>信仰<rt>しんこう</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>多分<rt>たぶん</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "blue",
-          "to deepen",
-          "faith",
-          "grassland"
+          "existence",
+          "probably",
+          "obvious",
+          "thing"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-09-028"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>品質<rt>ひんしつ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>高さ<rt>たかさ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "certain",
-          "goods",
-          "quality",
-          "last month"
+          "kind",
+          "tablet",
+          "electronic",
+          "height"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-09-029"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>否定<rt>ひてい</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>入力<rt>にゅうりょく</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "arrival",
-          "sandbox",
-          "progress",
-          "denial"
+          "mild",
+          "bow",
+          "input",
+          "adult"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-09-030"
       },
       {
@@ -11259,67 +11259,67 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>忙しい<rt>いそがしい</rt></ruby> / にもかかわらず / <ruby>彼<rt>かれ</rt></ruby>は / <ruby>笑顔<rt>えがお</rt></ruby>だ",
+        "text": "並べ替え: にもかかわらず / <ruby>彼<rt>かれ</rt></ruby>は / <ruby>笑顔<rt>えがお</rt></ruby>だ / <ruby>忙しい<rt>いそがしい</rt></ruby>",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>忙しい<rt>いそがしい</rt></ruby>",
           "にもかかわらず",
           "<ruby>彼<rt>かれ</rt></ruby>は",
-          "<ruby>笑顔<rt>えがお</rt></ruby>だ"
+          "<ruby>笑顔<rt>えがお</rt></ruby>だ",
+          "<ruby>忙しい<rt>いそがしい</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-09-049"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>説明<rt>せつめい</rt></ruby>を / わからない / ものの / 聞いた",
+        "text": "並べ替え: 聞いた / <ruby>説明<rt>せつめい</rt></ruby>を / ものの / わからない",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
+          "聞いた",
           "<ruby>説明<rt>せつめい</rt></ruby>を",
-          "わからない",
           "ものの",
-          "聞いた"
+          "わからない"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-09-050"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>場合<rt>ばあい</rt></ruby> / <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>降る<rt>ふる</rt></ruby> / <ruby>雨<rt>あめ</rt></ruby>が",
+        "text": "並べ替え: <ruby>場合<rt>ばあい</rt></ruby> / <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>雨<rt>あめ</rt></ruby>が / <ruby>降る<rt>ふる</rt></ruby>",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
           "<ruby>場合<rt>ばあい</rt></ruby>",
           "<ruby>中止<rt>ちゅうし</rt></ruby>になる",
-          "<ruby>降る<rt>ふる</rt></ruby>",
-          "<ruby>雨<rt>あめ</rt></ruby>が"
+          "<ruby>雨<rt>あめ</rt></ruby>が",
+          "<ruby>降る<rt>ふる</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-09-051"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>彼女<rt>かのじょ</rt></ruby>は / <ruby>医者<rt>いしゃ</rt></ruby> / 働いている / として",
+        "text": "並べ替え: 働いている / <ruby>医者<rt>いしゃ</rt></ruby> / として / <ruby>彼女<rt>かのじょ</rt></ruby>は",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>彼女<rt>かのじょ</rt></ruby>は",
-          "<ruby>医者<rt>いしゃ</rt></ruby>",
           "働いている",
-          "として"
+          "<ruby>医者<rt>いしゃ</rt></ruby>",
+          "として",
+          "<ruby>彼女<rt>かのじょ</rt></ruby>は"
         ],
         "answer": 0,
         "id": "N3-09-052"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: にもかかわらず / <ruby>忙しい<rt>いそがしい</rt></ruby> / <ruby>彼<rt>かれ</rt></ruby>は / <ruby>笑顔<rt>えがお</rt></ruby>だ",
+        "text": "並べ替え: <ruby>笑顔<rt>えがお</rt></ruby>だ / <ruby>忙しい<rt>いそがしい</rt></ruby> / <ruby>彼<rt>かれ</rt></ruby>は / にもかかわらず",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "にもかかわらず",
+          "<ruby>笑顔<rt>えがお</rt></ruby>だ",
           "<ruby>忙しい<rt>いそがしい</rt></ruby>",
           "<ruby>彼<rt>かれ</rt></ruby>は",
-          "<ruby>笑顔<rt>えがお</rt></ruby>だ"
+          "にもかかわらず"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-09-053"
       },
       {
@@ -11618,7 +11618,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-09-076"
       },
       {
@@ -11644,7 +11644,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-09-078"
       },
       {
@@ -11657,7 +11657,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-09-079"
       },
       {
@@ -11670,7 +11670,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-09-080"
       },
       {
@@ -11683,7 +11683,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-09-081"
       },
       {
@@ -11696,7 +11696,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-09-082"
       },
       {
@@ -11709,7 +11709,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-09-083"
       },
       {
@@ -11722,7 +11722,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-09-084"
       },
       {
@@ -11748,7 +11748,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-09-086"
       },
       {
@@ -11761,7 +11761,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-09-087"
       },
       {
@@ -11774,7 +11774,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-09-088"
       },
       {
@@ -11787,7 +11787,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-09-089"
       },
       {
@@ -11800,7 +11800,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-09-090"
       },
       {
@@ -11813,7 +11813,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-09-091"
       },
       {
@@ -11826,7 +11826,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-09-092"
       },
       {
@@ -11839,7 +11839,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-09-093"
       },
       {
@@ -11852,7 +11852,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-09-094"
       },
       {
@@ -11865,7 +11865,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-09-095"
       },
       {
@@ -11878,7 +11878,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-09-096"
       },
       {
@@ -11930,7 +11930,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-09-100"
       },
       {
@@ -11943,7 +11943,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-09-101"
       },
       {
@@ -11956,191 +11956,191 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-09-102"
       }
     ],
     "10": [
       {
         "type": "漢字読み",
-        "text": "<u>毎年</u>の読み方は？",
+        "text": "<u>情け</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "まいとし",
-          "しょくば",
-          "ささえる",
-          "さいてい"
+          "なさけ",
+          "ちがい",
+          "たがいに",
+          "きる"
         ],
         "answer": 0,
         "id": "N3-10-001"
       },
       {
         "type": "漢字読み",
-        "text": "<u>絶対</u>の読み方は？",
+        "text": "<u>引き出し</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "わたる",
-          "ぜったい",
-          "いりぐち",
-          "つげる"
+          "ひきだし",
+          "すっぱい",
+          "いし",
+          "したくする"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-10-002"
       },
       {
         "type": "漢字読み",
-        "text": "<u>嵐</u>の読み方は？",
+        "text": "<u>行事</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "うちあわせ",
-          "しゅうかん",
-          "あらし",
-          "じんかく"
+          "じじょう",
+          "かがく",
+          "しる",
+          "ぎょうじ"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-10-003"
       },
       {
         "type": "漢字読み",
-        "text": "<u>成分</u>の読み方は？",
+        "text": "<u>遅れる</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "ひろさ",
-          "なに",
-          "せいぶん",
-          "きかく"
+          "えんじょ",
+          "きょういく",
+          "おくれる",
+          "しごとちゅう"
         ],
         "answer": 2,
         "id": "N3-10-004"
       },
       {
         "type": "漢字読み",
-        "text": "<u>苦痛</u>の読み方は？",
+        "text": "<u>車</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "おもいきり",
-          "くろ",
-          "くつう",
-          "にゅうりょく"
+          "くるま",
+          "たすう",
+          "てつ",
+          "まいにち"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-10-005"
       },
       {
         "type": "漢字読み",
-        "text": "<u>朝食</u>の読み方は？",
+        "text": "<u>外</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "ていいん",
-          "ちょうしょく",
-          "みず",
-          "きる"
+          "しんや",
+          "そと",
+          "わたす",
+          "ひとりひとり"
         ],
         "answer": 1,
         "id": "N3-10-006"
       },
       {
         "type": "漢字読み",
-        "text": "<u>出張</u>の読み方は？",
+        "text": "<u>経費</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "よごれる",
-          "うんどうする",
-          "うわぎ",
-          "しゅっちょう"
+          "たずねる",
+          "あう",
+          "どうさ",
+          "けいひ"
         ],
         "answer": 3,
         "id": "N3-10-007"
       },
       {
         "type": "漢字読み",
-        "text": "<u>向上</u>の読み方は？",
+        "text": "<u>楽</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "ひさしぶり",
-          "ひくい",
-          "こうじょう",
-          "うえる"
+          "ごうり",
+          "さいずをかくにんする",
+          "きせい",
+          "らく"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-10-008"
       },
       {
         "type": "表記",
-        "text": "<u>しょくよく</u>の漢字は？",
+        "text": "<u>かみ</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "経つ",
-          "始まる",
-          "相互",
-          "食欲"
+          "書く",
+          "紙",
+          "休日",
+          "岩"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-10-009"
       },
       {
         "type": "表記",
-        "text": "<u>ふかのう</u>の漢字は？",
+        "text": "<u>こんばん</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "下げる",
-          "上着",
-          "死ぬ",
-          "不可能"
+          "最も",
+          "今晩",
+          "肩",
+          "互い"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-10-010"
       },
       {
         "type": "表記",
-        "text": "<u>しょうてん</u>の漢字は？",
+        "text": "<u>かんせい</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "語る",
-          "電子",
-          "商店",
-          "金額"
+          "民宿",
+          "妹",
+          "気分",
+          "完成"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-10-011"
       },
       {
         "type": "表記",
-        "text": "<u>どろ</u>の漢字は？",
+        "text": "<u>ときおり</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "泥",
-          "公園",
-          "その上",
-          "学"
+          "金額",
+          "時折",
+          "砂",
+          "相変わらず"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-10-012"
       },
       {
         "type": "表記",
-        "text": "<u>ぶんや</u>の漢字は？",
+        "text": "<u>よわい</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "引っ掛かる",
-          "規制",
-          "分野",
-          "輸出"
+          "欲しい",
+          "限定",
+          "会場",
+          "弱い"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-10-013"
       },
       {
         "type": "表記",
-        "text": "<u>いそいで</u>の漢字は？",
+        "text": "<u>ずつう</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "終える",
-          "転ぶ",
-          "天気",
-          "急いで"
+          "互い",
+          "打ち合わせる",
+          "頭痛",
+          "水準"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-10-014"
       },
       {
@@ -12148,12 +12148,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>下りる<rt>おりる</rt></ruby>",
-          "<ruby>割引<rt>わりびき</rt></ruby>",
-          "<ruby>離す<rt>はなす</rt></ruby>",
-          "<ruby>問い合わせる<rt>といあわせる</rt></ruby>"
+          "<ruby>権利<rt>けんり</rt></ruby>",
+          "<ruby>完全<rt>かんぜん</rt></ruby>",
+          "<ruby>都市<rt>とし</rt></ruby>",
+          "<ruby>製造<rt>せいぞう</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-10-015"
       },
       {
@@ -12161,12 +12161,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>残す<rt>のこす</rt></ruby>",
-          "<ruby>態勢<rt>たいせい</rt></ruby>",
-          "<ruby>楽<rt>らく</rt></ruby>",
-          "<ruby>野球場<rt>やきゅうじょう</rt></ruby>"
+          "<ruby>学問<rt>がくもん</rt></ruby>",
+          "<ruby>大使<rt>たいし</rt></ruby>",
+          "<ruby>世間<rt>せけん</rt></ruby>",
+          "<ruby>接触<rt>せっしょく</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-10-016"
       },
       {
@@ -12174,10 +12174,10 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>測定<rt>そくてい</rt></ruby>",
-          "<ruby>外出<rt>がいしゅつ</rt></ruby>",
-          "ラッシュ",
-          "あまり"
+          "だから",
+          "じっと",
+          "ワイン",
+          "<ruby>懐かしい<rt>なつかしい</rt></ruby>"
         ],
         "answer": 2,
         "id": "N3-10-017"
@@ -12187,12 +12187,12 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>化学<rt>かがく</rt></ruby>",
-          "<ruby>事業<rt>じぎょう</rt></ruby>",
-          "リハーサル",
-          "リビング"
+          "エレベーター",
+          "<ruby>味覚<rt>みかく</rt></ruby>",
+          "<ruby>大半<rt>たいはん</rt></ruby>",
+          "スリッパ"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-10-018"
       },
       {
@@ -12200,12 +12200,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>車道<rt>しゃどう</rt></ruby>",
-          "<ruby>像<rt>ぞう</rt></ruby>",
+          "<ruby>死ぬ<rt>しぬ</rt></ruby>",
+          "<ruby>聞こえる<rt>きこえる</rt></ruby>",
           "なる",
-          "<ruby>興味<rt>きょうみ</rt></ruby>"
+          "<ruby>売買<rt>ばいばい</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-10-019"
       },
       {
@@ -12213,10 +12213,10 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>意識<rt>いしき</rt></ruby>",
-          "<ruby>意見<rt>いけん</rt></ruby>",
-          "いただきます",
-          "<ruby>決まり<rt>きまり</rt></ruby>"
+          "ダイエット",
+          "<ruby>変わり<rt>かわり</rt></ruby>",
+          "<ruby>確認する<rt>かくにんする</rt></ruby>",
+          "<ruby>社交的<rt>しゃこうてき</rt></ruby>"
         ],
         "answer": 2,
         "id": "N3-10-020"
@@ -12226,12 +12226,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>兄<rt>あに</rt></ruby>",
-          "<ruby>光<rt>ひかり</rt></ruby>",
-          "<ruby>移す<rt>うつす</rt></ruby>",
-          "<ruby>大気<rt>たいき</rt></ruby>"
+          "<ruby>港<rt>みなと</rt></ruby>",
+          "<ruby>大げさ<rt>おおげさ</rt></ruby>",
+          "<ruby>態度<rt>たいど</rt></ruby>",
+          "<ruby>穴<rt>あな</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-10-021"
       },
       {
@@ -12239,12 +12239,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>嗅覚<rt>きゅうかく</rt></ruby>",
-          "<ruby>変わる<rt>かわる</rt></ruby>",
-          "<ruby>建つ<rt>たつ</rt></ruby>",
-          "<ruby>事業<rt>じぎょう</rt></ruby>"
+          "<ruby>二つ<rt>ふたつ</rt></ruby>",
+          "<ruby>台数<rt>だいすう</rt></ruby>",
+          "<ruby>事務員<rt>じむいん</rt></ruby>",
+          "<ruby>鬼<rt>おに</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-10-022"
       },
       {
@@ -12252,12 +12252,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>金<rt>きん</rt></ruby>",
-          "<ruby>高める<rt>たかめる</rt></ruby>",
-          "<ruby>四月<rt>しがつ</rt></ruby>",
-          "ラッシュ"
+          "<ruby>お断り<rt>おことわり</rt></ruby>",
+          "なお",
+          "きっと",
+          "<ruby>路線<rt>ろせん</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-10-023"
       },
       {
@@ -12265,12 +12265,12 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>駐車<rt>ちゅうしゃ</rt></ruby>",
-          "<ruby>地理<rt>ちり</rt></ruby>",
-          "<ruby>寄る<rt>よる</rt></ruby>",
-          "<ruby>告げる<rt>つげる</rt></ruby>"
+          "<ruby>講義<rt>こうぎ</rt></ruby>",
+          "<ruby>仕上がる<rt>しあがる</rt></ruby>",
+          "<ruby>公民館<rt>こうみんかん</rt></ruby>",
+          "キャンプ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-10-024"
       },
       {
@@ -12278,77 +12278,77 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>組織<rt>そしき</rt></ruby>",
-          "はがき",
-          "<ruby>統計<rt>とうけい</rt></ruby>",
-          "<ruby>毎<rt>まい</rt></ruby>"
+          "<ruby>読む<rt>よむ</rt></ruby>",
+          "<ruby>先<rt>さき</rt></ruby>",
+          "<ruby>狭い<rt>せまい</rt></ruby>",
+          "<ruby>遅い<rt>おそい</rt></ruby>"
         ],
         "answer": 1,
         "id": "N3-10-025"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>確信<rt>かくしん</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>戻る<rt>もどる</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "conviction",
-          "vacation",
-          "aquarium",
-          "to cause"
+          "to return",
+          "research",
+          "coach",
+          "management"
         ],
         "answer": 0,
         "id": "N3-10-026"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>勉強する<rt>べんきょうする</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>終日<rt>しゅうじつ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "work",
-          "warm",
-          "to study",
-          "great"
+          "to decorate",
+          "all day",
+          "church",
+          "living room"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-10-027"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>業界<rt>ぎょうかい</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>共に<rt>ともに</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "midnight",
-          "industry",
-          "still",
-          "receipt"
+          "to build",
+          "to deliver",
+          "together",
+          "to say"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-10-028"
       },
       {
         "type": "言い換え",
-        "text": "「ふざける」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>温かい<rt>あたたかい</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "to have a fever",
-          "to joke",
-          "detached house",
-          "younger brother"
+          "expenses",
+          "warm",
+          "ground",
+          "rice plant"
         ],
         "answer": 1,
         "id": "N3-10-029"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>採る<rt>とる</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>馬<rt>うま</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "to adopt",
-          "and",
-          "theory",
-          "wine"
+          "matter",
+          "recently",
+          "number of items",
+          "horse"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-10-030"
       },
       {
@@ -12587,67 +12587,67 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: わからない / <ruby>説明<rt>せつめい</rt></ruby>を / ものの / 聞いた",
+        "text": "並べ替え: ものの / わからない / 聞いた / <ruby>説明<rt>せつめい</rt></ruby>を",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "わからない",
-          "<ruby>説明<rt>せつめい</rt></ruby>を",
           "ものの",
-          "聞いた"
+          "わからない",
+          "聞いた",
+          "<ruby>説明<rt>せつめい</rt></ruby>を"
         ],
         "answer": 2,
         "id": "N3-10-049"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>場合<rt>ばあい</rt></ruby> / <ruby>降る<rt>ふる</rt></ruby> / <ruby>雨<rt>あめ</rt></ruby>が",
+        "text": "並べ替え: <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>場合<rt>ばあい</rt></ruby> / <ruby>雨<rt>あめ</rt></ruby>が / <ruby>降る<rt>ふる</rt></ruby>",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
           "<ruby>中止<rt>ちゅうし</rt></ruby>になる",
           "<ruby>場合<rt>ばあい</rt></ruby>",
-          "<ruby>降る<rt>ふる</rt></ruby>",
-          "<ruby>雨<rt>あめ</rt></ruby>が"
+          "<ruby>雨<rt>あめ</rt></ruby>が",
+          "<ruby>降る<rt>ふる</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-10-050"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>医者<rt>いしゃ</rt></ruby> / <ruby>彼女<rt>かのじょ</rt></ruby>は / として / 働いている",
+        "text": "並べ替え: として / 働いている / <ruby>医者<rt>いしゃ</rt></ruby> / <ruby>彼女<rt>かのじょ</rt></ruby>は",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>医者<rt>いしゃ</rt></ruby>",
-          "<ruby>彼女<rt>かのじょ</rt></ruby>は",
           "として",
-          "働いている"
+          "働いている",
+          "<ruby>医者<rt>いしゃ</rt></ruby>",
+          "<ruby>彼女<rt>かのじょ</rt></ruby>は"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-10-051"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>彼<rt>かれ</rt></ruby>は / <ruby>忙しい<rt>いそがしい</rt></ruby> / にもかかわらず / <ruby>笑顔<rt>えがお</rt></ruby>だ",
+        "text": "並べ替え: <ruby>笑顔<rt>えがお</rt></ruby>だ / にもかかわらず / <ruby>彼<rt>かれ</rt></ruby>は / <ruby>忙しい<rt>いそがしい</rt></ruby>",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>彼<rt>かれ</rt></ruby>は",
-          "<ruby>忙しい<rt>いそがしい</rt></ruby>",
+          "<ruby>笑顔<rt>えがお</rt></ruby>だ",
           "にもかかわらず",
-          "<ruby>笑顔<rt>えがお</rt></ruby>だ"
+          "<ruby>彼<rt>かれ</rt></ruby>は",
+          "<ruby>忙しい<rt>いそがしい</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-10-052"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>説明<rt>せつめい</rt></ruby>を / 聞いた / わからない / ものの",
+        "text": "並べ替え: ものの / <ruby>説明<rt>せつめい</rt></ruby>を / 聞いた / わからない",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
+          "ものの",
           "<ruby>説明<rt>せつめい</rt></ruby>を",
           "聞いた",
-          "わからない",
-          "ものの"
+          "わからない"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-10-053"
       },
       {
@@ -12946,7 +12946,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-10-076"
       },
       {
@@ -12959,7 +12959,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-10-077"
       },
       {
@@ -12972,7 +12972,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-10-078"
       },
       {
@@ -12985,7 +12985,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-10-079"
       },
       {
@@ -13011,7 +13011,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-10-081"
       },
       {
@@ -13024,7 +13024,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-10-082"
       },
       {
@@ -13037,7 +13037,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-10-083"
       },
       {
@@ -13050,7 +13050,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-10-084"
       },
       {
@@ -13076,7 +13076,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-10-086"
       },
       {
@@ -13089,7 +13089,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-10-087"
       },
       {
@@ -13102,7 +13102,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-10-088"
       },
       {
@@ -13115,7 +13115,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-10-089"
       },
       {
@@ -13128,7 +13128,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-10-090"
       },
       {
@@ -13141,7 +13141,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-10-091"
       },
       {
@@ -13154,7 +13154,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-10-092"
       },
       {
@@ -13167,7 +13167,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-10-093"
       },
       {
@@ -13180,7 +13180,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-10-094"
       },
       {
@@ -13193,7 +13193,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-10-095"
       },
       {
@@ -13206,7 +13206,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-10-096"
       },
       {
@@ -13219,7 +13219,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-10-097"
       },
       {
@@ -13245,7 +13245,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-10-099"
       },
       {
@@ -13258,7 +13258,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-10-100"
       },
       {
@@ -13271,7 +13271,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-10-101"
       },
       {
@@ -13284,191 +13284,191 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-10-102"
       }
     ],
     "11": [
       {
         "type": "漢字読み",
-        "text": "<u>来週</u>の読み方は？",
+        "text": "<u>中間</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "とくちょう",
-          "どろ",
-          "せっしょく",
-          "らいしゅう"
+          "かいいん",
+          "かくてい",
+          "はっせい",
+          "ちゅうかん"
         ],
         "answer": 3,
         "id": "N3-11-001"
       },
       {
         "type": "漢字読み",
-        "text": "<u>事故</u>の読み方は？",
+        "text": "<u>小包</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "はげしい",
-          "すうばい",
-          "おおかた",
-          "じこ"
+          "せんじつ",
+          "かぎ",
+          "ぜん",
+          "こづつみ"
         ],
         "answer": 3,
         "id": "N3-11-002"
       },
       {
         "type": "漢字読み",
-        "text": "<u>交換</u>の読み方は？",
+        "text": "<u>幸せ</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "ふかまる",
-          "こうかん",
-          "なくなる",
-          "くむ"
+          "しあい",
+          "およぐ",
+          "げしゅく",
+          "しあわせ"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-11-003"
       },
       {
         "type": "漢字読み",
-        "text": "<u>年</u>の読み方は？",
+        "text": "<u>金属</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "ありがたい",
-          "とし",
-          "しんぽ",
-          "てつ"
+          "おえる",
+          "きんぞく",
+          "へんどう",
+          "しこう"
         ],
         "answer": 1,
         "id": "N3-11-004"
       },
       {
         "type": "漢字読み",
-        "text": "<u>使う</u>の読み方は？",
+        "text": "<u>お会計</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "おそろしい",
-          "そうしん",
-          "つかう",
-          "くび"
+          "せいのう",
+          "おなじ",
+          "おかいけい",
+          "にんげん"
         ],
         "answer": 2,
         "id": "N3-11-005"
       },
       {
         "type": "漢字読み",
-        "text": "<u>世間</u>の読み方は？",
+        "text": "<u>買う</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "そのご",
-          "せけん",
-          "ふどうさん",
-          "しんらい"
+          "なんばい",
+          "おんがくをきく",
+          "あいかわらず",
+          "かう"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-11-006"
       },
       {
         "type": "漢字読み",
-        "text": "<u>田舎</u>の読み方は？",
+        "text": "<u>大学</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "たいしつ",
-          "びょうき",
-          "いなか",
-          "たのしい"
+          "としん",
+          "のりもの",
+          "だいがく",
+          "みちにまよう"
         ],
         "answer": 2,
         "id": "N3-11-007"
       },
       {
         "type": "漢字読み",
-        "text": "<u>遠く</u>の読み方は？",
+        "text": "<u>構う</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "はずれる",
-          "とおく",
-          "まよう",
-          "あお"
+          "うつす",
+          "かまう",
+          "そうい",
+          "すな"
         ],
         "answer": 1,
         "id": "N3-11-008"
       },
       {
         "type": "表記",
-        "text": "<u>みんかん</u>の漢字は？",
+        "text": "<u>ぞう</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "スキー場",
-          "買い物",
-          "詰まる",
-          "民間"
+          "対話",
+          "像",
+          "嵐",
+          "凍る"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-11-009"
       },
       {
         "type": "表記",
-        "text": "<u>あけがた</u>の漢字は？",
+        "text": "<u>そせん</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "重大",
-          "鉄",
-          "明け方",
-          "散歩する"
+          "毎日",
+          "毎晩",
+          "祖先",
+          "相違"
         ],
         "answer": 2,
         "id": "N3-11-010"
       },
       {
         "type": "表記",
-        "text": "<u>あいま</u>の漢字は？",
+        "text": "<u>ひく</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "高校",
-          "合間",
-          "滑る",
-          "打ち合わせする"
+          "支度する",
+          "引く",
+          "修正液",
+          "展示"
         ],
         "answer": 1,
         "id": "N3-11-011"
       },
       {
         "type": "表記",
-        "text": "<u>じてんしゃ</u>の漢字は？",
+        "text": "<u>さいしょ</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "自転車",
-          "新",
-          "居間",
-          "乗り換える"
+          "最初",
+          "市場",
+          "事業",
+          "割合"
         ],
         "answer": 0,
         "id": "N3-11-012"
       },
       {
         "type": "表記",
-        "text": "<u>にゅうがく</u>の漢字は？",
+        "text": "<u>みおろす</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "気に入る",
-          "入学",
-          "最大",
-          "目的"
+          "開会",
+          "満足",
+          "見下ろす",
+          "義理の父"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-11-013"
       },
       {
         "type": "表記",
-        "text": "<u>き</u>の漢字は？",
+        "text": "<u>やすい</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "知り合い",
-          "貢献",
-          "木",
-          "個"
+          "安い",
+          "限る",
+          "金銭",
+          "親友"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-11-014"
       },
       {
@@ -13476,12 +13476,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>洋服屋<rt>ようふくや</rt></ruby>",
-          "<ruby>月<rt>つき</rt></ruby>",
-          "<ruby>通常<rt>つうじょう</rt></ruby>",
-          "ラッシュ"
+          "<ruby>銀<rt>ぎん</rt></ruby>",
+          "<ruby>通信<rt>つうしん</rt></ruby>",
+          "<ruby>鉄道<rt>てつどう</rt></ruby>",
+          "<ruby>隠す<rt>かくす</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-11-015"
       },
       {
@@ -13489,10 +13489,10 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>認識<rt>にんしき</rt></ruby>",
-          "<ruby>風土<rt>ふうど</rt></ruby>",
-          "<ruby>遅れる<rt>おくれる</rt></ruby>",
-          "インドア"
+          "<ruby>郊外<rt>こうがい</rt></ruby>",
+          "<ruby>六つ<rt>むっつ</rt></ruby>",
+          "<ruby>急<rt>きゅう</rt></ruby>",
+          "<ruby>対人<rt>たいじん</rt></ruby>"
         ],
         "answer": 2,
         "id": "N3-11-016"
@@ -13502,10 +13502,10 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "インドア",
-          "<ruby>品切れ<rt>しなぎれ</rt></ruby>",
-          "<ruby>七つ<rt>ななつ</rt></ruby>",
-          "<ruby>飢える<rt>うえる</rt></ruby>"
+          "<ruby>下がる<rt>さがる</rt></ruby>",
+          "<ruby>助かる<rt>たすかる</rt></ruby>",
+          "<ruby>浅くなる<rt>あさくなる</rt></ruby>",
+          "<ruby>典<rt>てん</rt></ruby>"
         ],
         "answer": 0,
         "id": "N3-11-017"
@@ -13515,12 +13515,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>残す<rt>のこす</rt></ruby>",
-          "<ruby>衛生<rt>えいせい</rt></ruby>",
-          "<ruby>鍵<rt>かぎ</rt></ruby>",
-          "<ruby>熱が出る<rt>ねつがでる</rt></ruby>"
+          "<ruby>懐かしい<rt>なつかしい</rt></ruby>",
+          "<ruby>出発する<rt>しゅっぱつする</rt></ruby>",
+          "<ruby>体育館<rt>たいいくかん</rt></ruby>",
+          "<ruby>発売<rt>はつばい</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-11-018"
       },
       {
@@ -13528,12 +13528,12 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>建設業<rt>けんせつぎょう</rt></ruby>",
-          "<ruby>心境<rt>しんきょう</rt></ruby>",
-          "パターン",
-          "パソコン"
+          "<ruby>届け物<rt>とどけもの</rt></ruby>",
+          "<ruby>貝<rt>かい</rt></ruby>",
+          "<ruby>食べる<rt>たべる</rt></ruby>",
+          "<ruby>頑固<rt>がんこ</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-11-019"
       },
       {
@@ -13541,10 +13541,10 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>戻る<rt>もどる</rt></ruby>",
-          "<ruby>深夜<rt>しんや</rt></ruby>",
-          "<ruby>肩<rt>かた</rt></ruby>",
-          "ずっと"
+          "<ruby>バーベキュー場<rt>ばーべきゅーじょう</rt></ruby>",
+          "<ruby>神経<rt>しんけい</rt></ruby>",
+          "<ruby>現金<rt>げんきん</rt></ruby>",
+          "<ruby>剣道<rt>けんどう</rt></ruby>"
         ],
         "answer": 3,
         "id": "N3-11-020"
@@ -13554,12 +13554,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>四月<rt>しがつ</rt></ruby>",
-          "ひどい",
-          "<ruby>歌<rt>うた</rt></ruby>",
-          "<ruby>集合場所<rt>しゅうごうばしょ</rt></ruby>"
+          "<ruby>缶<rt>かん</rt></ruby>",
+          "<ruby>冷める<rt>さめる</rt></ruby>",
+          "<ruby>留学<rt>りゅうがく</rt></ruby>",
+          "<ruby>民間<rt>みんかん</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-11-021"
       },
       {
@@ -13567,12 +13567,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>勘<rt>かん</rt></ruby>",
-          "<ruby>行い<rt>おこない</rt></ruby>",
-          "<ruby>報道<rt>ほうどう</rt></ruby>",
-          "<ruby>安心<rt>あんしん</rt></ruby>"
+          "<ruby>終日<rt>しゅうじつ</rt></ruby>",
+          "<ruby>季節<rt>きせつ</rt></ruby>",
+          "<ruby>予報<rt>よほう</rt></ruby>",
+          "<ruby>情報<rt>じょうほう</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-11-022"
       },
       {
@@ -13580,12 +13580,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>歩道<rt>ほどう</rt></ruby>",
-          "バス",
-          "<ruby>天気<rt>てんき</rt></ruby>",
-          "<ruby>数<rt>すう</rt></ruby>"
+          "<ruby>抜ける<rt>ぬける</rt></ruby>",
+          "<ruby>経営<rt>けいえい</rt></ruby>",
+          "<ruby>世代<rt>せだい</rt></ruby>",
+          "<ruby>最後<rt>さいご</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-11-023"
       },
       {
@@ -13593,12 +13593,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "スポーツジム",
-          "<ruby>利益<rt>りえき</rt></ruby>",
-          "<ruby>懸念<rt>けねん</rt></ruby>",
-          "<ruby>注<rt>ちゅう</rt></ruby>"
+          "<ruby>修正液<rt>しゅうせいえき</rt></ruby>",
+          "<ruby>残業<rt>ざんぎょう</rt></ruby>",
+          "<ruby>決して<rt>けっして</rt></ruby>",
+          "<ruby>年度<rt>ねんど</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-11-024"
       },
       {
@@ -13606,77 +13606,77 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "しかし",
-          "さようなら",
-          "<ruby>疲れ<rt>つかれ</rt></ruby>",
-          "<ruby>超<rt>ちょう</rt></ruby>"
+          "<ruby>軽い<rt>かるい</rt></ruby>",
+          "<ruby>在庫を聞く<rt>ざいこをきく</rt></ruby>",
+          "<ruby>眠る<rt>ねむる</rt></ruby>",
+          "<ruby>終始<rt>しゅうし</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-11-025"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>卸す<rt>おろす</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>入院<rt>にゅういん</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "formation",
-          "how much",
-          "nerve",
-          "to wholesale"
+          "middle school",
+          "to see",
+          "hospitalization",
+          "postcard"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-11-026"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>閉まる<rt>しまる</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>ホチキス<rt>ほちきす</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "thank you for the meal",
-          "to close",
-          "charcoal",
-          "lively"
+          "to ask",
+          "individual",
+          "how many tens",
+          "stapler"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-11-027"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>服<rt>ふく</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>最近<rt>さいきん</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "clothes",
-          "get ready",
-          "reception",
-          "to talk"
+          "to read",
+          "sports",
+          "recently",
+          "infinite"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-11-028"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>活気<rt>かっき</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>一戸建て<rt>いっこだて</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "reading",
-          "out of stock",
-          "vigor",
-          "sometimes"
+          "to take medicine",
+          "to disappear",
+          "door",
+          "detached house"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-11-029"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>毎朝<rt>まいあさ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>低い<rt>ひくい</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "every morning",
-          "newspaper",
-          "acquaintance",
-          "section"
+          "agent",
+          "sweets",
+          "expenses",
+          "low"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-11-030"
       },
       {
@@ -13915,65 +13915,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>場合<rt>ばあい</rt></ruby> / <ruby>雨<rt>あめ</rt></ruby>が / <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>降る<rt>ふる</rt></ruby>",
+        "text": "並べ替え: <ruby>降る<rt>ふる</rt></ruby> / <ruby>雨<rt>あめ</rt></ruby>が / <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>場合<rt>ばあい</rt></ruby>",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>場合<rt>ばあい</rt></ruby>",
+          "<ruby>降る<rt>ふる</rt></ruby>",
           "<ruby>雨<rt>あめ</rt></ruby>が",
           "<ruby>中止<rt>ちゅうし</rt></ruby>になる",
-          "<ruby>降る<rt>ふる</rt></ruby>"
+          "<ruby>場合<rt>ばあい</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-11-049"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: として / 働いている / <ruby>彼女<rt>かのじょ</rt></ruby>は / <ruby>医者<rt>いしゃ</rt></ruby>",
+        "text": "並べ替え: <ruby>医者<rt>いしゃ</rt></ruby> / として / 働いている / <ruby>彼女<rt>かのじょ</rt></ruby>は",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
+          "<ruby>医者<rt>いしゃ</rt></ruby>",
           "として",
           "働いている",
-          "<ruby>彼女<rt>かのじょ</rt></ruby>は",
-          "<ruby>医者<rt>いしゃ</rt></ruby>"
+          "<ruby>彼女<rt>かのじょ</rt></ruby>は"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-11-050"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: にもかかわらず / <ruby>笑顔<rt>えがお</rt></ruby>だ / <ruby>忙しい<rt>いそがしい</rt></ruby> / <ruby>彼<rt>かれ</rt></ruby>は",
+        "text": "並べ替え: <ruby>彼<rt>かれ</rt></ruby>は / <ruby>笑顔<rt>えがお</rt></ruby>だ / にもかかわらず / <ruby>忙しい<rt>いそがしい</rt></ruby>",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "にもかかわらず",
+          "<ruby>彼<rt>かれ</rt></ruby>は",
           "<ruby>笑顔<rt>えがお</rt></ruby>だ",
-          "<ruby>忙しい<rt>いそがしい</rt></ruby>",
-          "<ruby>彼<rt>かれ</rt></ruby>は"
+          "にもかかわらず",
+          "<ruby>忙しい<rt>いそがしい</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-11-051"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>説明<rt>せつめい</rt></ruby>を / ものの / 聞いた / わからない",
+        "text": "並べ替え: ものの / <ruby>説明<rt>せつめい</rt></ruby>を / わからない / 聞いた",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>説明<rt>せつめい</rt></ruby>を",
           "ものの",
-          "聞いた",
-          "わからない"
+          "<ruby>説明<rt>せつめい</rt></ruby>を",
+          "わからない",
+          "聞いた"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-11-052"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>場合<rt>ばあい</rt></ruby> / <ruby>降る<rt>ふる</rt></ruby> / <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>雨<rt>あめ</rt></ruby>が",
+        "text": "並べ替え: <ruby>雨<rt>あめ</rt></ruby>が / <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>場合<rt>ばあい</rt></ruby> / <ruby>降る<rt>ふる</rt></ruby>",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>場合<rt>ばあい</rt></ruby>",
-          "<ruby>降る<rt>ふる</rt></ruby>",
+          "<ruby>雨<rt>あめ</rt></ruby>が",
           "<ruby>中止<rt>ちゅうし</rt></ruby>になる",
-          "<ruby>雨<rt>あめ</rt></ruby>が"
+          "<ruby>場合<rt>ばあい</rt></ruby>",
+          "<ruby>降る<rt>ふる</rt></ruby>"
         ],
         "answer": 1,
         "id": "N3-11-053"
@@ -14274,7 +14274,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-11-076"
       },
       {
@@ -14287,7 +14287,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-11-077"
       },
       {
@@ -14300,7 +14300,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-11-078"
       },
       {
@@ -14313,7 +14313,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-11-079"
       },
       {
@@ -14326,7 +14326,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-11-080"
       },
       {
@@ -14339,7 +14339,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-11-081"
       },
       {
@@ -14352,7 +14352,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-11-082"
       },
       {
@@ -14365,7 +14365,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-11-083"
       },
       {
@@ -14378,7 +14378,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-11-084"
       },
       {
@@ -14404,7 +14404,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-11-086"
       },
       {
@@ -14417,7 +14417,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-11-087"
       },
       {
@@ -14430,7 +14430,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-11-088"
       },
       {
@@ -14443,7 +14443,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-11-089"
       },
       {
@@ -14456,7 +14456,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-11-090"
       },
       {
@@ -14469,7 +14469,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-11-091"
       },
       {
@@ -14495,7 +14495,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-11-093"
       },
       {
@@ -14508,7 +14508,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-11-094"
       },
       {
@@ -14521,7 +14521,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-11-095"
       },
       {
@@ -14547,7 +14547,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-11-097"
       },
       {
@@ -14573,7 +14573,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-11-099"
       },
       {
@@ -14586,7 +14586,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-11-100"
       },
       {
@@ -14612,191 +14612,191 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-11-102"
       }
     ],
     "12": [
       {
         "type": "漢字読み",
-        "text": "<u>広げる</u>の読み方は？",
+        "text": "<u>鉱業</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "はかる",
-          "こうすい",
-          "まざる",
-          "ひろげる"
+          "しゅうり",
+          "くりーにんぐてん",
+          "こうぎょう",
+          "ざんぎょう"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-12-001"
       },
       {
         "type": "漢字読み",
-        "text": "<u>切る</u>の読み方は？",
+        "text": "<u>重大</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "じぶん",
-          "くつや",
-          "きる",
-          "かんしょく"
+          "ばんごう",
+          "じゅうだい",
+          "ぐあい",
+          "くらい"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-12-002"
       },
       {
         "type": "漢字読み",
-        "text": "<u>弱める</u>の読み方は？",
+        "text": "<u>報道</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "うたう",
-          "もくてき",
-          "みる",
-          "よわめる"
+          "しじ",
+          "かわり",
+          "ちかづける",
+          "ほうどう"
         ],
         "answer": 3,
         "id": "N3-12-003"
       },
       {
         "type": "漢字読み",
-        "text": "<u>主義</u>の読み方は？",
+        "text": "<u>比べる</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "えいせい",
-          "へん",
-          "ふる",
-          "しゅぎ"
+          "ひと",
+          "むすう",
+          "くらべる",
+          "はつめい"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-12-004"
       },
       {
         "type": "漢字読み",
-        "text": "<u>判定</u>の読み方は？",
+        "text": "<u>録音</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "はんてい",
-          "ちかい",
-          "りゃく",
-          "けいじょう"
+          "しいる",
+          "ろくおん",
+          "りべつ",
+          "しゅっちょうする"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-12-005"
       },
       {
         "type": "漢字読み",
-        "text": "<u>知らせる</u>の読み方は？",
+        "text": "<u>設備</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "おとなしい",
-          "しらせる",
-          "けんすう",
-          "まちあわせ"
+          "ちょう",
+          "もる",
+          "せつび",
+          "いだく"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-12-006"
       },
       {
         "type": "漢字読み",
-        "text": "<u>経る</u>の読み方は？",
+        "text": "<u>職種</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "けんせつ",
-          "ぎむ",
-          "ちゅうもん",
-          "へる"
+          "しょくしゅ",
+          "せけん",
+          "べんり",
+          "おおかた"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-12-007"
       },
       {
         "type": "漢字読み",
-        "text": "<u>再来月</u>の読み方は？",
+        "text": "<u>服</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "どらまをみる",
-          "こたえる",
-          "さらいげつ",
-          "だん"
+          "はたらく",
+          "ふく",
+          "すごしやすい",
+          "ぼう"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-12-008"
       },
       {
         "type": "表記",
-        "text": "<u>へらす</u>の漢字は？",
+        "text": "<u>しゅつげん</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "遅れる",
-          "形成",
-          "魚屋",
-          "減らす"
+          "出現",
+          "ドラマを見る",
+          "菓子",
+          "早い"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-12-009"
       },
       {
         "type": "表記",
-        "text": "<u>いじゅう</u>の漢字は？",
+        "text": "<u>あつい</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "年度",
-          "移住",
-          "合意",
-          "閉める"
+          "法則",
+          "熱い",
+          "司会",
+          "定める"
         ],
         "answer": 1,
         "id": "N3-12-010"
       },
       {
         "type": "表記",
-        "text": "<u>かぎ</u>の漢字は？",
+        "text": "<u>げんざい</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "外す",
-          "再会",
-          "鍵",
-          "冷ます"
+          "現在",
+          "欠ける",
+          "段々",
+          "習う"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-12-011"
       },
       {
         "type": "表記",
-        "text": "<u>わかれる</u>の漢字は？",
+        "text": "<u>ぎん</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "主に",
-          "別れる",
-          "今に",
-          "主張"
+          "銀",
+          "登る",
+          "賛成",
+          "小説"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-12-012"
       },
       {
         "type": "表記",
-        "text": "<u>そふ</u>の漢字は？",
+        "text": "<u>だいがく</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "気持",
-          "祖父",
-          "話題",
-          "驚かす"
+          "心",
+          "目",
+          "建設",
+          "大学"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-12-013"
       },
       {
         "type": "表記",
-        "text": "<u>よん</u>の漢字は？",
+        "text": "<u>きゅうかく</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "悲劇",
-          "明るい",
-          "飲み物",
-          "四"
+          "嗅覚",
+          "支度",
+          "明朝",
+          "体験"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-12-014"
       },
       {
@@ -14804,10 +14804,10 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "ギター",
-          "<ruby>辞書<rt>じしょ</rt></ruby>",
-          "<ruby>華道<rt>かどう</rt></ruby>",
-          "<ruby>押し入れ<rt>おしいれ</rt></ruby>"
+          "<ruby>ゴルフ場<rt>ごるふじょう</rt></ruby>",
+          "<ruby>地下室<rt>ちかしつ</rt></ruby>",
+          "さらに",
+          "きっと"
         ],
         "answer": 2,
         "id": "N3-12-015"
@@ -14817,12 +14817,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>閉める<rt>しめる</rt></ruby>",
-          "<ruby>国語<rt>こくご</rt></ruby>",
-          "<ruby>通<rt>つう</rt></ruby>",
-          "すっかり"
+          "<ruby>温暖<rt>おんだん</rt></ruby>",
+          "リビング",
+          "<ruby>追いかける<rt>おいかける</rt></ruby>",
+          "<ruby>女性<rt>じょせい</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-12-016"
       },
       {
@@ -14830,12 +14830,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "パソコン",
-          "<ruby>欠く<rt>かく</rt></ruby>",
-          "<ruby>生む<rt>うむ</rt></ruby>",
-          "<ruby>母<rt>はは</rt></ruby>"
+          "<ruby>有効<rt>ゆうこう</rt></ruby>",
+          "<ruby>件<rt>けん</rt></ruby>",
+          "きちんと",
+          "<ruby>弟<rt>おとうと</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-12-017"
       },
       {
@@ -14843,12 +14843,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>資源<rt>しげん</rt></ruby>",
-          "しばらく",
-          "<ruby>本気<rt>ほんき</rt></ruby>",
-          "<ruby>相場<rt>そうば</rt></ruby>"
+          "ハイキング",
+          "<ruby>学問<rt>がくもん</rt></ruby>",
+          "さようなら",
+          "うどん"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-12-018"
       },
       {
@@ -14856,12 +14856,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "アパート",
-          "<ruby>貝<rt>かい</rt></ruby>",
-          "<ruby>部品<rt>ぶひん</rt></ruby>",
-          "<ruby>伝統<rt>でんとう</rt></ruby>"
+          "<ruby>弟<rt>おとうと</rt></ruby>",
+          "<ruby>通信業<rt>つうしんぎょう</rt></ruby>",
+          "<ruby>打つ<rt>ぶつ</rt></ruby>",
+          "<ruby>玄関<rt>げんかん</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-12-019"
       },
       {
@@ -14869,12 +14869,12 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>柔道<rt>じゅうどう</rt></ruby>",
-          "<ruby>オフィス街<rt>おふぃすがい</rt></ruby>",
-          "<ruby>通う<rt>かよう</rt></ruby>",
-          "<ruby>比較的簡単<rt>ひかくてきかんたん</rt></ruby>"
+          "<ruby>貢献<rt>こうけん</rt></ruby>",
+          "<ruby>出張する<rt>しゅっちょうする</rt></ruby>",
+          "<ruby>医者<rt>いしゃ</rt></ruby>",
+          "<ruby>洋服<rt>ようふく</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-12-020"
       },
       {
@@ -14882,12 +14882,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>成長する<rt>せいちょうする</rt></ruby>",
-          "<ruby>景色<rt>けしき</rt></ruby>",
-          "する",
-          "いくつ"
+          "<ruby>物事<rt>ものごと</rt></ruby>",
+          "<ruby>組む<rt>くむ</rt></ruby>",
+          "<ruby>発展<rt>はってん</rt></ruby>",
+          "<ruby>汚す<rt>よごす</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-12-021"
       },
       {
@@ -14895,12 +14895,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>数倍<rt>すうばい</rt></ruby>",
-          "<ruby>権利<rt>けんり</rt></ruby>",
-          "<ruby>狭い<rt>せまい</rt></ruby>",
-          "<ruby>大事<rt>だいじ</rt></ruby>"
+          "<ruby>久しぶり<rt>ひさしぶり</rt></ruby>",
+          "リンス",
+          "<ruby>路線図<rt>ろせんず</rt></ruby>",
+          "<ruby>互い<rt>たがい</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-12-022"
       },
       {
@@ -14908,12 +14908,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "きちんと",
-          "<ruby>大使<rt>たいし</rt></ruby>",
-          "シーツ",
-          "<ruby>現状<rt>げんじょう</rt></ruby>"
+          "<ruby>駅<rt>えき</rt></ruby>",
+          "<ruby>機能<rt>きのう</rt></ruby>",
+          "<ruby>休む<rt>やすむ</rt></ruby>",
+          "<ruby>送別<rt>そうべつ</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-12-023"
       },
       {
@@ -14921,12 +14921,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "アウトドア",
-          "<ruby>顔<rt>かお</rt></ruby>",
-          "<ruby>教育業<rt>きょういくぎょう</rt></ruby>",
-          "ボクシング"
+          "<ruby>心<rt>こころ</rt></ruby>",
+          "のど",
+          "<ruby>靴下<rt>くつした</rt></ruby>",
+          "<ruby>バーベキュー場<rt>ばーべきゅーじょう</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-12-024"
       },
       {
@@ -14934,77 +14934,77 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>出現<rt>しゅつげん</rt></ruby>",
-          "<ruby>路地<rt>ろじ</rt></ruby>",
-          "<ruby>登録<rt>とうろく</rt></ruby>",
-          "<ruby>注文<rt>ちゅうもん</rt></ruby>"
+          "<ruby>車道<rt>しゃどう</rt></ruby>",
+          "<ruby>くしゃみが出る<rt>くしゃみがでる</rt></ruby>",
+          "<ruby>海岸<rt>かいがん</rt></ruby>",
+          "<ruby>政党<rt>せいとう</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-12-025"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>断<rt>だん</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>損<rt>そん</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "to savor",
-          "decision",
-          "to do",
-          "to call"
+          "loss",
+          "attention",
+          "to cut",
+          "number of machines"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-12-026"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>狂う<rt>くるう</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>汚い<rt>きたない</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "to go mad",
-          "change",
-          "debt",
-          "surgery"
+          "dirty",
+          "fun",
+          "skiing",
+          "furthermore"
         ],
         "answer": 0,
         "id": "N3-12-027"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>逃げる<rt>にげる</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>高める<rt>たかめる</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "to wake up",
-          "finally",
-          "to turn toward",
-          "to escape"
+          "north",
+          "to raise",
+          "piano",
+          "railway"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-12-028"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>三<rt>さん</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>神<rt>かみ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "wake up",
-          "three",
-          "iron",
-          "most"
+          "thick",
+          "sandbox",
+          "god",
+          "near"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-12-029"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>階<rt>かい</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>出発地<rt>しゅっぱつち</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "notice",
-          "slightly",
-          "principle",
-          "floor"
+          "departure point",
+          "to answer",
+          "mild",
+          "to resemble"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-12-030"
       },
       {
@@ -15243,65 +15243,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>医者<rt>いしゃ</rt></ruby> / <ruby>彼女<rt>かのじょ</rt></ruby>は / 働いている / として",
+        "text": "並べ替え: として / 働いている / <ruby>彼女<rt>かのじょ</rt></ruby>は / <ruby>医者<rt>いしゃ</rt></ruby>",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>医者<rt>いしゃ</rt></ruby>",
-          "<ruby>彼女<rt>かのじょ</rt></ruby>は",
+          "として",
           "働いている",
-          "として"
+          "<ruby>彼女<rt>かのじょ</rt></ruby>は",
+          "<ruby>医者<rt>いしゃ</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-12-049"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>彼<rt>かれ</rt></ruby>は / にもかかわらず / <ruby>忙しい<rt>いそがしい</rt></ruby> / <ruby>笑顔<rt>えがお</rt></ruby>だ",
+        "text": "並べ替え: <ruby>笑顔<rt>えがお</rt></ruby>だ / にもかかわらず / <ruby>彼<rt>かれ</rt></ruby>は / <ruby>忙しい<rt>いそがしい</rt></ruby>",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>彼<rt>かれ</rt></ruby>は",
+          "<ruby>笑顔<rt>えがお</rt></ruby>だ",
           "にもかかわらず",
-          "<ruby>忙しい<rt>いそがしい</rt></ruby>",
-          "<ruby>笑顔<rt>えがお</rt></ruby>だ"
+          "<ruby>彼<rt>かれ</rt></ruby>は",
+          "<ruby>忙しい<rt>いそがしい</rt></ruby>"
         ],
         "answer": 3,
         "id": "N3-12-050"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>説明<rt>せつめい</rt></ruby>を / ものの / 聞いた / わからない",
+        "text": "並べ替え: ものの / わからない / 聞いた / <ruby>説明<rt>せつめい</rt></ruby>を",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>説明<rt>せつめい</rt></ruby>を",
           "ものの",
+          "わからない",
           "聞いた",
-          "わからない"
+          "<ruby>説明<rt>せつめい</rt></ruby>を"
         ],
         "answer": 3,
         "id": "N3-12-051"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>場合<rt>ばあい</rt></ruby> / <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>雨<rt>あめ</rt></ruby>が / <ruby>降る<rt>ふる</rt></ruby>",
+        "text": "並べ替え: <ruby>場合<rt>ばあい</rt></ruby> / <ruby>雨<rt>あめ</rt></ruby>が / <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>降る<rt>ふる</rt></ruby>",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
           "<ruby>場合<rt>ばあい</rt></ruby>",
-          "<ruby>中止<rt>ちゅうし</rt></ruby>になる",
           "<ruby>雨<rt>あめ</rt></ruby>が",
+          "<ruby>中止<rt>ちゅうし</rt></ruby>になる",
           "<ruby>降る<rt>ふる</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-12-052"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>彼女<rt>かのじょ</rt></ruby>は / 働いている / として / <ruby>医者<rt>いしゃ</rt></ruby>",
+        "text": "並べ替え: として / <ruby>彼女<rt>かのじょ</rt></ruby>は / <ruby>医者<rt>いしゃ</rt></ruby> / 働いている",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>彼女<rt>かのじょ</rt></ruby>は",
-          "働いている",
           "として",
-          "<ruby>医者<rt>いしゃ</rt></ruby>"
+          "<ruby>彼女<rt>かのじょ</rt></ruby>は",
+          "<ruby>医者<rt>いしゃ</rt></ruby>",
+          "働いている"
         ],
         "answer": 3,
         "id": "N3-12-053"
@@ -15602,7 +15602,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-12-076"
       },
       {
@@ -15615,7 +15615,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-12-077"
       },
       {
@@ -15628,7 +15628,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-12-078"
       },
       {
@@ -15641,7 +15641,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-12-079"
       },
       {
@@ -15654,7 +15654,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-12-080"
       },
       {
@@ -15667,7 +15667,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-12-081"
       },
       {
@@ -15680,7 +15680,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-12-082"
       },
       {
@@ -15693,7 +15693,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-12-083"
       },
       {
@@ -15706,7 +15706,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-12-084"
       },
       {
@@ -15732,7 +15732,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-12-086"
       },
       {
@@ -15745,7 +15745,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-12-087"
       },
       {
@@ -15758,7 +15758,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-12-088"
       },
       {
@@ -15771,7 +15771,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-12-089"
       },
       {
@@ -15784,7 +15784,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-12-090"
       },
       {
@@ -15797,7 +15797,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-12-091"
       },
       {
@@ -15823,7 +15823,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-12-093"
       },
       {
@@ -15836,7 +15836,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-12-094"
       },
       {
@@ -15849,7 +15849,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-12-095"
       },
       {
@@ -15875,7 +15875,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-12-097"
       },
       {
@@ -15888,7 +15888,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-12-098"
       },
       {
@@ -15901,7 +15901,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-12-099"
       },
       {
@@ -15927,7 +15927,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-12-101"
       },
       {
@@ -15940,191 +15940,191 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-12-102"
       }
     ],
     "13": [
       {
         "type": "漢字読み",
-        "text": "<u>誤解</u>の読み方は？",
+        "text": "<u>頂く</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "たけ",
-          "かん",
-          "ごかい",
-          "けん"
+          "いただく",
+          "たいへん",
+          "おねがいする",
+          "げんち"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-13-001"
       },
       {
         "type": "漢字読み",
-        "text": "<u>天ぷら</u>の読み方は？",
+        "text": "<u>数</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "げんり",
-          "ばい",
-          "げしゅく",
-          "てんぷら"
+          "かいもの",
+          "すう",
+          "じむ",
+          "ふあん"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-13-002"
       },
       {
         "type": "漢字読み",
-        "text": "<u>今すぐ</u>の読み方は？",
+        "text": "<u>動機</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "いますぐ",
-          "あけがた",
-          "まぜる",
-          "とくせい"
+          "どうき",
+          "ふそく",
+          "まざる",
+          "がくせい"
         ],
         "answer": 0,
         "id": "N3-13-003"
       },
       {
         "type": "漢字読み",
-        "text": "<u>天</u>の読み方は？",
+        "text": "<u>悪化</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "たよる",
-          "てん",
-          "とうろく",
-          "がいこく"
+          "はっけん",
+          "あっか",
+          "きょねん",
+          "よむ"
         ],
         "answer": 1,
         "id": "N3-13-004"
       },
       {
         "type": "漢字読み",
-        "text": "<u>接客</u>の読み方は？",
+        "text": "<u>駆ける</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "まち",
-          "せっきゃく",
-          "やさい",
-          "すうまん"
+          "かんげい",
+          "かける",
+          "えいが",
+          "まるい"
         ],
         "answer": 1,
         "id": "N3-13-005"
       },
       {
         "type": "漢字読み",
-        "text": "<u>願う</u>の読み方は？",
+        "text": "<u>五つ</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "ねがう",
-          "びん",
-          "はぶく",
-          "こんしゅう"
+          "いつつ",
+          "つくる",
+          "しょくじ",
+          "たしかめる"
         ],
         "answer": 0,
         "id": "N3-13-006"
       },
       {
         "type": "漢字読み",
-        "text": "<u>三角</u>の読み方は？",
+        "text": "<u>優れる</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "まつ",
-          "つめる",
-          "さんかく",
-          "かんげい"
+          "ゆうしょく",
+          "すぐれる",
+          "ぞうげん",
+          "たん"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-13-007"
       },
       {
         "type": "漢字読み",
-        "text": "<u>着る</u>の読み方は？",
+        "text": "<u>泳ぐ</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "やすむ",
-          "こうむいん",
-          "きる",
-          "すすめる"
+          "ぶんがく",
+          "とけいや",
+          "およぐ",
+          "せいぞう"
         ],
         "answer": 2,
         "id": "N3-13-008"
       },
       {
         "type": "表記",
-        "text": "<u>おちゃ</u>の漢字は？",
+        "text": "<u>そしき</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "千",
-          "車道",
-          "救急車",
-          "お茶"
+          "市場",
+          "触覚",
+          "夜間",
+          "組織"
         ],
         "answer": 3,
         "id": "N3-13-009"
       },
       {
         "type": "表記",
-        "text": "<u>おどる</u>の漢字は？",
+        "text": "<u>げんきん</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "例年",
-          "環境",
           "歩く",
-          "踊る"
+          "週",
+          "現金",
+          "写る"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-13-010"
       },
       {
         "type": "表記",
-        "text": "<u>でぐち</u>の漢字は？",
+        "text": "<u>ごはん</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "長",
-          "秋",
-          "結婚",
-          "出口"
+          "御飯",
+          "発生",
+          "散らかす",
+          "開発"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-13-011"
       },
       {
         "type": "表記",
-        "text": "<u>あつさ</u>の漢字は？",
+        "text": "<u>いのる</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "勝つ",
-          "男",
-          "厚さ",
-          "頭"
+          "増やす",
+          "祈る",
+          "売れる",
+          "映像編集"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-13-012"
       },
       {
         "type": "表記",
-        "text": "<u>ぜん</u>の漢字は？",
+        "text": "<u>せんじつ</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "前",
-          "売上",
-          "日常",
-          "暖かくなる"
+          "先日",
+          "購入",
+          "虫",
+          "驚く"
         ],
         "answer": 0,
         "id": "N3-13-013"
       },
       {
         "type": "表記",
-        "text": "<u>よわめる</u>の漢字は？",
+        "text": "<u>さいきん</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "職務",
-          "弱める",
-          "不満",
-          "判定"
+          "今週",
+          "認める",
+          "最近",
+          "中継地"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-13-014"
       },
       {
@@ -16132,12 +16132,12 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>魚介類<rt>ぎょかいるい</rt></ruby>",
-          "<ruby>会議<rt>かいぎ</rt></ruby>",
-          "<ruby>眠る<rt>ねむる</rt></ruby>",
-          "<ruby>自分<rt>じぶん</rt></ruby>"
+          "<ruby>特性<rt>とくせい</rt></ruby>",
+          "<ruby>同い年<rt>おないどし</rt></ruby>",
+          "<ruby>限界<rt>げんかい</rt></ruby>",
+          "<ruby>像<rt>ぞう</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-13-015"
       },
       {
@@ -16145,12 +16145,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>郊外<rt>こうがい</rt></ruby>",
-          "<ruby>毎度<rt>まいど</rt></ruby>",
-          "<ruby>上げる<rt>あげる</rt></ruby>",
-          "<ruby>お願いする<rt>おねがいする</rt></ruby>"
+          "<ruby>先生<rt>せんせい</rt></ruby>",
+          "<ruby>相場<rt>そうば</rt></ruby>",
+          "<ruby>特別<rt>とくべつ</rt></ruby>",
+          "<ruby>現場<rt>げんば</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-13-016"
       },
       {
@@ -16158,10 +16158,10 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>線<rt>せん</rt></ruby>",
-          "<ruby>指<rt>ゆび</rt></ruby>",
-          "<ruby>終わる<rt>おわる</rt></ruby>",
-          "<ruby>生きる<rt>いきる</rt></ruby>"
+          "<ruby>病気<rt>びょうき</rt></ruby>",
+          "<ruby>貢献<rt>こうけん</rt></ruby>",
+          "だらだらする",
+          "<ruby>学校<rt>がっこう</rt></ruby>"
         ],
         "answer": 0,
         "id": "N3-13-017"
@@ -16171,12 +16171,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>鍵<rt>かぎ</rt></ruby>",
-          "<ruby>降る<rt>ふる</rt></ruby>",
-          "<ruby>暖かくなる<rt>あたたかくなる</rt></ruby>",
-          "<ruby>禁煙<rt>きんえん</rt></ruby>"
+          "<ruby>半分<rt>はんぶん</rt></ruby>",
+          "<ruby>気に入る<rt>きにいる</rt></ruby>",
+          "<ruby>辞書<rt>じしょ</rt></ruby>",
+          "<ruby>電池<rt>でんち</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-13-018"
       },
       {
@@ -16184,12 +16184,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>見せる<rt>みせる</rt></ruby>",
-          "<ruby>手本<rt>てほん</rt></ruby>",
-          "<ruby>社長<rt>しゃちょう</rt></ruby>",
-          "<ruby>茶色<rt>ちゃいろ</rt></ruby>"
+          "<ruby>縁<rt>えん</rt></ruby>",
+          "<ruby>踏む<rt>ふむ</rt></ruby>",
+          "<ruby>勝利<rt>しょうり</rt></ruby>",
+          "<ruby>手<rt>て</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-13-019"
       },
       {
@@ -16197,10 +16197,10 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>起き上がる<rt>おきあがる</rt></ruby>",
-          "<ruby>別<rt>べつ</rt></ruby>",
-          "<ruby>今週<rt>こんしゅう</rt></ruby>",
-          "<ruby>過ぎる<rt>すぎる</rt></ruby>"
+          "<ruby>打ち合わせる<rt>うちあわせる</rt></ruby>",
+          "<ruby>明日の朝<rt>あしたのあさ</rt></ruby>",
+          "<ruby>構う<rt>かまう</rt></ruby>",
+          "<ruby>風土<rt>ふうど</rt></ruby>"
         ],
         "answer": 3,
         "id": "N3-13-020"
@@ -16210,10 +16210,10 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>働き手<rt>はたらきて</rt></ruby>",
-          "<ruby>聞く<rt>きく</rt></ruby>",
-          "<ruby>小計<rt>しょうけい</rt></ruby>",
-          "<ruby>確率<rt>かくりつ</rt></ruby>"
+          "<ruby>半分<rt>はんぶん</rt></ruby>",
+          "<ruby>難しい<rt>むずかしい</rt></ruby>",
+          "コンビニ",
+          "<ruby>知らせる<rt>しらせる</rt></ruby>"
         ],
         "answer": 0,
         "id": "N3-13-021"
@@ -16223,12 +16223,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>収める<rt>おさめる</rt></ruby>",
-          "<ruby>金属<rt>きんぞく</rt></ruby>",
-          "<ruby>省く<rt>はぶく</rt></ruby>",
-          "カラオケ"
+          "<ruby>文字<rt>もじ</rt></ruby>",
+          "<ruby>今に<rt>いまに</rt></ruby>",
+          "<ruby>典<rt>てん</rt></ruby>",
+          "<ruby>通信業<rt>つうしんぎょう</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-13-022"
       },
       {
@@ -16236,12 +16236,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>予報<rt>よほう</rt></ruby>",
-          "<ruby>空間<rt>くうかん</rt></ruby>",
-          "<ruby>主義<rt>しゅぎ</rt></ruby>",
-          "キャンセルする"
+          "<ruby>全く<rt>まったく</rt></ruby>",
+          "<ruby>救う<rt>すくう</rt></ruby>",
+          "やや",
+          "<ruby>伸びる<rt>のびる</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-13-023"
       },
       {
@@ -16249,12 +16249,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>聴覚<rt>ちょうかく</rt></ruby>",
-          "トレーニング",
-          "<ruby>文化<rt>ぶんか</rt></ruby>",
-          "<ruby>気持<rt>きもち</rt></ruby>"
+          "<ruby>輸入<rt>ゆにゅう</rt></ruby>",
+          "すっかり",
+          "<ruby>主義<rt>しゅぎ</rt></ruby>",
+          "<ruby>寄る<rt>よる</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-13-024"
       },
       {
@@ -16262,77 +16262,77 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "すぐに",
-          "<ruby>毎朝<rt>まいあさ</rt></ruby>",
-          "<ruby>部分<rt>ぶぶん</rt></ruby>",
-          "<ruby>物事<rt>ものごと</rt></ruby>"
+          "<ruby>攻撃<rt>こうげき</rt></ruby>",
+          "<ruby>急激<rt>きゅうげき</rt></ruby>",
+          "<ruby>映画を見る<rt>えいがをみる</rt></ruby>",
+          "<ruby>本数<rt>ほんすう</rt></ruby>"
         ],
         "answer": 2,
         "id": "N3-13-025"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>動物<rt>どうぶつ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>野球場<rt>やきゅうじょう</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "animal",
-          "thin",
-          "subtotal",
-          "lodging"
+          "cash",
+          "to omit",
+          "baseball stadium",
+          "to recall"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-13-026"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>仕事<rt>しごと</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>一度<rt>いちど</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "last year",
-          "fluctuation",
-          "work",
-          "illness"
+          "painful",
+          "once",
+          "to conduct",
+          "cup"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-13-027"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>危険<rt>きけん</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「すごい」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "migration",
-          "shopping mall",
-          "rich",
-          "danger"
+          "edge",
+          "to put in",
+          "interview",
+          "amazing"
         ],
         "answer": 3,
         "id": "N3-13-028"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>国際<rt>こくさい</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>義理の兄<rt>ぎりのあに</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "route",
-          "international",
-          "information",
-          "final"
+          "money",
+          "brother-in-law",
+          "steak",
+          "acting"
         ],
         "answer": 1,
         "id": "N3-13-029"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>転職<rt>てんしょく</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>所<rt>ところ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "job change",
-          "another day",
-          "to go on business trip",
-          "force"
+          "performance",
+          "rice",
+          "place",
+          "believe"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-13-030"
       },
       {
@@ -16571,67 +16571,67 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>忙しい<rt>いそがしい</rt></ruby> / <ruby>彼<rt>かれ</rt></ruby>は / にもかかわらず / <ruby>笑顔<rt>えがお</rt></ruby>だ",
+        "text": "並べ替え: にもかかわらず / <ruby>笑顔<rt>えがお</rt></ruby>だ / <ruby>忙しい<rt>いそがしい</rt></ruby> / <ruby>彼<rt>かれ</rt></ruby>は",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>忙しい<rt>いそがしい</rt></ruby>",
-          "<ruby>彼<rt>かれ</rt></ruby>は",
           "にもかかわらず",
-          "<ruby>笑顔<rt>えがお</rt></ruby>だ"
+          "<ruby>笑顔<rt>えがお</rt></ruby>だ",
+          "<ruby>忙しい<rt>いそがしい</rt></ruby>",
+          "<ruby>彼<rt>かれ</rt></ruby>は"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-13-049"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: わからない / 聞いた / ものの / <ruby>説明<rt>せつめい</rt></ruby>を",
+        "text": "並べ替え: <ruby>説明<rt>せつめい</rt></ruby>を / 聞いた / わからない / ものの",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "わからない",
+          "<ruby>説明<rt>せつめい</rt></ruby>を",
           "聞いた",
-          "ものの",
-          "<ruby>説明<rt>せつめい</rt></ruby>を"
+          "わからない",
+          "ものの"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-13-050"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>降る<rt>ふる</rt></ruby> / <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>場合<rt>ばあい</rt></ruby> / <ruby>雨<rt>あめ</rt></ruby>が",
+        "text": "並べ替え: <ruby>雨<rt>あめ</rt></ruby>が / <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>場合<rt>ばあい</rt></ruby> / <ruby>降る<rt>ふる</rt></ruby>",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>降る<rt>ふる</rt></ruby>",
+          "<ruby>雨<rt>あめ</rt></ruby>が",
           "<ruby>中止<rt>ちゅうし</rt></ruby>になる",
           "<ruby>場合<rt>ばあい</rt></ruby>",
-          "<ruby>雨<rt>あめ</rt></ruby>が"
+          "<ruby>降る<rt>ふる</rt></ruby>"
         ],
         "answer": 0,
         "id": "N3-13-051"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: 働いている / として / <ruby>彼女<rt>かのじょ</rt></ruby>は / <ruby>医者<rt>いしゃ</rt></ruby>",
+        "text": "並べ替え: <ruby>彼女<rt>かのじょ</rt></ruby>は / として / 働いている / <ruby>医者<rt>いしゃ</rt></ruby>",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "働いている",
-          "として",
           "<ruby>彼女<rt>かのじょ</rt></ruby>は",
+          "として",
+          "働いている",
           "<ruby>医者<rt>いしゃ</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-13-052"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>忙しい<rt>いそがしい</rt></ruby> / <ruby>笑顔<rt>えがお</rt></ruby>だ / にもかかわらず / <ruby>彼<rt>かれ</rt></ruby>は",
+        "text": "並べ替え: にもかかわらず / <ruby>彼<rt>かれ</rt></ruby>は / <ruby>忙しい<rt>いそがしい</rt></ruby> / <ruby>笑顔<rt>えがお</rt></ruby>だ",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>忙しい<rt>いそがしい</rt></ruby>",
-          "<ruby>笑顔<rt>えがお</rt></ruby>だ",
           "にもかかわらず",
-          "<ruby>彼<rt>かれ</rt></ruby>は"
+          "<ruby>彼<rt>かれ</rt></ruby>は",
+          "<ruby>忙しい<rt>いそがしい</rt></ruby>",
+          "<ruby>笑顔<rt>えがお</rt></ruby>だ"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-13-053"
       },
       {
@@ -16930,7 +16930,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-13-076"
       },
       {
@@ -16943,7 +16943,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-13-077"
       },
       {
@@ -16969,7 +16969,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-13-079"
       },
       {
@@ -17008,7 +17008,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-13-082"
       },
       {
@@ -17021,7 +17021,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-13-083"
       },
       {
@@ -17034,7 +17034,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-13-084"
       },
       {
@@ -17047,7 +17047,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-13-085"
       },
       {
@@ -17073,7 +17073,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-13-087"
       },
       {
@@ -17086,7 +17086,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-13-088"
       },
       {
@@ -17099,7 +17099,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-13-089"
       },
       {
@@ -17112,7 +17112,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-13-090"
       },
       {
@@ -17125,7 +17125,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-13-091"
       },
       {
@@ -17164,7 +17164,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-13-094"
       },
       {
@@ -17177,7 +17177,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-13-095"
       },
       {
@@ -17190,7 +17190,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-13-096"
       },
       {
@@ -17203,7 +17203,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-13-097"
       },
       {
@@ -17229,7 +17229,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-13-099"
       },
       {
@@ -17242,7 +17242,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-13-100"
       },
       {
@@ -17255,7 +17255,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-13-101"
       },
       {
@@ -17275,184 +17275,184 @@ MOCK_DATA['N3'] = {
     "14": [
       {
         "type": "漢字読み",
-        "text": "<u>兄</u>の読み方は？",
+        "text": "<u>閉じる</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "まいど",
-          "へんこう",
-          "あに",
-          "て"
+          "きかく",
+          "とじる",
+          "ていでん",
+          "せいど"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-14-001"
       },
       {
         "type": "漢字読み",
-        "text": "<u>この間</u>の読み方は？",
+        "text": "<u>触れる</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "このあいだ",
-          "にちじょう",
-          "くち",
-          "きこう"
+          "とじる",
+          "ぜったいに",
+          "しゃざい",
+          "ふれる"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-14-002"
       },
       {
         "type": "漢字読み",
-        "text": "<u>止まる</u>の読み方は？",
+        "text": "<u>出場</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "とまる",
-          "さだめる",
-          "みまもる",
-          "ちゅうかん"
+          "せいせき",
+          "しゅつじょう",
+          "かんがえかた",
+          "にゅういん"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-14-003"
       },
       {
         "type": "漢字読み",
-        "text": "<u>勉強する</u>の読み方は？",
+        "text": "<u>涼しくなる</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "きゅうきゅうしゃ",
-          "ざんぎょうする",
-          "よろしくおねがいします",
-          "べんきょうする"
+          "すずしくなる",
+          "りょう",
+          "よわまる",
+          "おやこ"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-14-004"
       },
       {
         "type": "漢字読み",
-        "text": "<u>無くなる</u>の読み方は？",
+        "text": "<u>八つ</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "ざんぎょうする",
-          "まち",
-          "なくなる",
-          "しんじる"
+          "ほうどう",
+          "かいわ",
+          "やっつ",
+          "ほしい"
         ],
         "answer": 2,
         "id": "N3-14-005"
       },
       {
         "type": "漢字読み",
-        "text": "<u>工場</u>の読み方は？",
+        "text": "<u>問い合わせる</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "ふむ",
-          "こうじょう",
-          "ちかく",
-          "およぶ"
+          "せいちょう",
+          "むすぶ",
+          "といあわせる",
+          "ていれ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-14-006"
       },
       {
         "type": "漢字読み",
-        "text": "<u>現場</u>の読み方は？",
+        "text": "<u>高速</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "さいかい",
-          "げんば",
-          "ねっしん",
-          "かね"
+          "さら",
+          "きかく",
+          "じかん",
+          "こうそく"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-14-007"
       },
       {
         "type": "漢字読み",
-        "text": "<u>奥</u>の読み方は？",
+        "text": "<u>少し</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "うかぶ",
-          "あげる",
-          "そせん",
-          "おく"
+          "かんぽうやく",
+          "ふまえる",
+          "すこし",
+          "ぶか"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-14-008"
       },
       {
         "type": "表記",
-        "text": "<u>もくてきち</u>の漢字は？",
+        "text": "<u>しけん</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "目的地",
-          "遠い",
-          "確信",
-          "領収書"
+          "試験",
+          "業務",
+          "一応",
+          "戻る"
         ],
         "answer": 0,
         "id": "N3-14-009"
       },
       {
         "type": "表記",
-        "text": "<u>ゆうこう</u>の漢字は？",
+        "text": "<u>でんかせいひん</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "有効",
-          "雨が降る",
-          "朝ご飯",
-          "通り"
+          "送別",
+          "皆",
+          "電化製品",
+          "週刊"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-14-010"
       },
       {
         "type": "表記",
-        "text": "<u>こうえん</u>の漢字は？",
+        "text": "<u>おおきさ</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "別離",
-          "報道",
-          "社交的",
-          "公園"
+          "霧",
+          "道に迷う",
+          "大きさ",
+          "引き出し"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-14-011"
       },
       {
         "type": "表記",
-        "text": "<u>しゅうせい</u>の漢字は？",
+        "text": "<u>やま</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "海外",
-          "修正",
-          "一応",
-          "米"
+          "報告する",
+          "本格",
+          "半島",
+          "山"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-14-012"
       },
       {
         "type": "表記",
-        "text": "<u>ちじん</u>の漢字は？",
+        "text": "<u>たに</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "知人",
-          "響く",
-          "説明",
-          "収支"
+          "谷",
+          "修理",
+          "製造",
+          "居る"
         ],
         "answer": 0,
         "id": "N3-14-013"
       },
       {
         "type": "表記",
-        "text": "<u>がいこくじん</u>の漢字は？",
+        "text": "<u>しあわせ</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "外国人",
-          "生き生き",
-          "乗り換え",
-          "割引"
+          "掛け算",
+          "青い",
+          "幸せ",
+          "気がかり"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-14-014"
       },
       {
@@ -17460,12 +17460,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>再来週<rt>さらいしゅう</rt></ruby>",
-          "<ruby>火<rt>ひ</rt></ruby>",
-          "<ruby>互いに<rt>たがいに</rt></ruby>",
-          "<ruby>技師<rt>ぎし</rt></ruby>"
+          "<ruby>勝ち<rt>かち</rt></ruby>",
+          "こちら",
+          "ダム",
+          "<ruby>休日<rt>きゅうじつ</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-14-015"
       },
       {
@@ -17473,12 +17473,12 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>欲しい<rt>ほしい</rt></ruby>",
-          "<ruby>機関<rt>きかん</rt></ruby>",
-          "<ruby>全体<rt>ぜんたい</rt></ruby>",
-          "<ruby>地区<rt>ちく</rt></ruby>"
+          "<ruby>建てる<rt>たてる</rt></ruby>",
+          "<ruby>靴<rt>くつ</rt></ruby>",
+          "<ruby>自転車<rt>じてんしゃ</rt></ruby>",
+          "<ruby>輸出<rt>ゆしゅつ</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-14-016"
       },
       {
@@ -17486,12 +17486,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>投げる<rt>なげる</rt></ruby>",
-          "<ruby>机<rt>つくえ</rt></ruby>",
-          "<ruby>雪<rt>ゆき</rt></ruby>",
-          "<ruby>台風<rt>たいふう</rt></ruby>"
+          "<ruby>件数<rt>けんすう</rt></ruby>",
+          "<ruby>急ぐ<rt>いそぐ</rt></ruby>",
+          "<ruby>学ぶ<rt>まなぶ</rt></ruby>",
+          "<ruby>時計<rt>とけい</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-14-017"
       },
       {
@@ -17499,12 +17499,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>準備<rt>じゅんび</rt></ruby>",
-          "<ruby>扱う<rt>あつかう</rt></ruby>",
-          "<ruby>器<rt>うつわ</rt></ruby>",
-          "<ruby>伝わる<rt>つたわる</rt></ruby>"
+          "<ruby>例年<rt>れいねん</rt></ruby>",
+          "<ruby>思いつく<rt>おもいつく</rt></ruby>",
+          "<ruby>騒音<rt>そうおん</rt></ruby>",
+          "<ruby>雪が降る<rt>ゆきがふる</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-14-018"
       },
       {
@@ -17512,12 +17512,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>弓<rt>ゆみ</rt></ruby>",
-          "<ruby>発見<rt>はっけん</rt></ruby>",
-          "<ruby>答え<rt>こたえ</rt></ruby>",
-          "<ruby>経つ<rt>たつ</rt></ruby>"
+          "<ruby>行く<rt>いく</rt></ruby>",
+          "<ruby>パン屋<rt>ぱんや</rt></ruby>",
+          "<ruby>晩ご飯<rt>ばんごはん</rt></ruby>",
+          "<ruby>義理の姉<rt>ぎりのあね</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-14-019"
       },
       {
@@ -17525,12 +17525,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>中央<rt>ちゅうおう</rt></ruby>",
-          "<ruby>相<rt>そう</rt></ruby>",
-          "<ruby>典<rt>てん</rt></ruby>",
-          "トンネル"
+          "<ruby>地図<rt>ちず</rt></ruby>",
+          "<ruby>気圧<rt>きあつ</rt></ruby>",
+          "<ruby>含む<rt>ふくむ</rt></ruby>",
+          "<ruby>文句<rt>もんく</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-14-020"
       },
       {
@@ -17538,12 +17538,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>済む<rt>すむ</rt></ruby>",
-          "<ruby>受け入れる<rt>うけいれる</rt></ruby>",
-          "<ruby>米<rt>こめ</rt></ruby>",
-          "<ruby>暖かくなる<rt>あたたかくなる</rt></ruby>"
+          "ホーム",
+          "<ruby>値段<rt>ねだん</rt></ruby>",
+          "<ruby>意識<rt>いしき</rt></ruby>",
+          "<ruby>職務<rt>しょくむ</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-14-021"
       },
       {
@@ -17551,12 +17551,12 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>冷める<rt>さめる</rt></ruby>",
-          "<ruby>解決<rt>かいけつ</rt></ruby>",
-          "<ruby>海<rt>うみ</rt></ruby>",
-          "<ruby>写す<rt>うつす</rt></ruby>"
+          "<ruby>散歩<rt>さんぽ</rt></ruby>",
+          "ちょっと",
+          "<ruby>気づく<rt>きづく</rt></ruby>",
+          "さっぱり"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-14-022"
       },
       {
@@ -17564,12 +17564,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "コンサートホール",
-          "<ruby>何<rt>なに</rt></ruby>",
-          "<ruby>本<rt>ほん</rt></ruby>",
-          "<ruby>価格<rt>かかく</rt></ruby>"
+          "<ruby>移動<rt>いどう</rt></ruby>",
+          "カラー",
+          "<ruby>何十<rt>なんじゅう</rt></ruby>",
+          "<ruby>魚介類<rt>ぎょかいるい</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-14-023"
       },
       {
@@ -17577,12 +17577,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>汚い<rt>きたない</rt></ruby>",
-          "<ruby>原理<rt>げんり</rt></ruby>",
-          "<ruby>夢<rt>ゆめ</rt></ruby>",
-          "<ruby>人間<rt>にんげん</rt></ruby>"
+          "<ruby>質問する<rt>しつもんする</rt></ruby>",
+          "キャンセルする",
+          "エアコン",
+          "<ruby>野球場<rt>やきゅうじょう</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-14-024"
       },
       {
@@ -17590,77 +17590,77 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>組<rt>くみ</rt></ruby>",
-          "<ruby>明日<rt>あした</rt></ruby>",
-          "<ruby>禁煙<rt>きんえん</rt></ruby>",
-          "<ruby>届け出る<rt>とどけでる</rt></ruby>"
+          "パン",
+          "<ruby>影<rt>かげ</rt></ruby>",
+          "する",
+          "<ruby>確信<rt>かくしん</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-14-025"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>響く<rt>ひびく</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>アウトドア<rt>あうとどあ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "notebook",
-          "to look for product",
-          "to echo",
-          "always"
+          "outdoor",
+          "every",
+          "to exist",
+          "opening"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-14-026"
       },
       {
         "type": "言い換え",
-        "text": "「ひどい」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>洗う<rt>あらう</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "accessory",
-          "people",
-          "terrible",
-          "pillar"
+          "to wash",
+          "horse",
+          "visit",
+          "professor"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-14-027"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>合理<rt>ごうり</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>自動<rt>じどう</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "to copy",
-          "rational",
-          "to panic",
-          "to be surprised"
+          "work clothes",
+          "automatic",
+          "modern",
+          "week"
         ],
         "answer": 1,
         "id": "N3-14-028"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>日光<rt>にっこう</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>青<rt>あお</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "sunlight",
-          "to have headache",
-          "last",
-          "to advance"
+          "fixed",
+          "blue",
+          "to know",
+          "this"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-14-029"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>激増<rt>げきぞう</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>元々<rt>もともと</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "job change",
-          "sharp increase",
-          "feeling",
-          "line"
+          "usually",
+          "power",
+          "originally",
+          "open"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-14-030"
       },
       {
@@ -17899,58 +17899,6 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: 聞いた / ものの / わからない / <ruby>説明<rt>せつめい</rt></ruby>を",
-        "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
-        "options": [
-          "聞いた",
-          "ものの",
-          "わからない",
-          "<ruby>説明<rt>せつめい</rt></ruby>を"
-        ],
-        "answer": 3,
-        "id": "N3-14-049"
-      },
-      {
-        "type": "文の組み立て",
-        "text": "並べ替え: <ruby>降る<rt>ふる</rt></ruby> / <ruby>雨<rt>あめ</rt></ruby>が / <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>場合<rt>ばあい</rt></ruby>",
-        "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
-        "options": [
-          "<ruby>降る<rt>ふる</rt></ruby>",
-          "<ruby>雨<rt>あめ</rt></ruby>が",
-          "<ruby>中止<rt>ちゅうし</rt></ruby>になる",
-          "<ruby>場合<rt>ばあい</rt></ruby>"
-        ],
-        "answer": 2,
-        "id": "N3-14-050"
-      },
-      {
-        "type": "文の組み立て",
-        "text": "並べ替え: 働いている / <ruby>医者<rt>いしゃ</rt></ruby> / <ruby>彼女<rt>かのじょ</rt></ruby>は / として",
-        "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
-        "options": [
-          "働いている",
-          "<ruby>医者<rt>いしゃ</rt></ruby>",
-          "<ruby>彼女<rt>かのじょ</rt></ruby>は",
-          "として"
-        ],
-        "answer": 0,
-        "id": "N3-14-051"
-      },
-      {
-        "type": "文の組み立て",
-        "text": "並べ替え: <ruby>忙しい<rt>いそがしい</rt></ruby> / にもかかわらず / <ruby>笑顔<rt>えがお</rt></ruby>だ / <ruby>彼<rt>かれ</rt></ruby>は",
-        "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
-        "options": [
-          "<ruby>忙しい<rt>いそがしい</rt></ruby>",
-          "にもかかわらず",
-          "<ruby>笑顔<rt>えがお</rt></ruby>だ",
-          "<ruby>彼<rt>かれ</rt></ruby>は"
-        ],
-        "answer": 0,
-        "id": "N3-14-052"
-      },
-      {
-        "type": "文の組み立て",
         "text": "並べ替え: <ruby>説明<rt>せつめい</rt></ruby>を / ものの / 聞いた / わからない",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
@@ -17958,6 +17906,58 @@ MOCK_DATA['N3'] = {
           "ものの",
           "聞いた",
           "わからない"
+        ],
+        "answer": 0,
+        "id": "N3-14-049"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>雨<rt>あめ</rt></ruby>が / <ruby>降る<rt>ふる</rt></ruby> / <ruby>場合<rt>ばあい</rt></ruby>",
+        "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": [
+          "<ruby>中止<rt>ちゅうし</rt></ruby>になる",
+          "<ruby>雨<rt>あめ</rt></ruby>が",
+          "<ruby>降る<rt>ふる</rt></ruby>",
+          "<ruby>場合<rt>ばあい</rt></ruby>"
+        ],
+        "answer": 0,
+        "id": "N3-14-050"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: として / 働いている / <ruby>医者<rt>いしゃ</rt></ruby> / <ruby>彼女<rt>かのじょ</rt></ruby>は",
+        "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": [
+          "として",
+          "働いている",
+          "<ruby>医者<rt>いしゃ</rt></ruby>",
+          "<ruby>彼女<rt>かのじょ</rt></ruby>は"
+        ],
+        "answer": 3,
+        "id": "N3-14-051"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: にもかかわらず / <ruby>彼<rt>かれ</rt></ruby>は / <ruby>忙しい<rt>いそがしい</rt></ruby> / <ruby>笑顔<rt>えがお</rt></ruby>だ",
+        "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": [
+          "にもかかわらず",
+          "<ruby>彼<rt>かれ</rt></ruby>は",
+          "<ruby>忙しい<rt>いそがしい</rt></ruby>",
+          "<ruby>笑顔<rt>えがお</rt></ruby>だ"
+        ],
+        "answer": 2,
+        "id": "N3-14-052"
+      },
+      {
+        "type": "文の組み立て",
+        "text": "並べ替え: 聞いた / ものの / わからない / <ruby>説明<rt>せつめい</rt></ruby>を",
+        "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": [
+          "聞いた",
+          "ものの",
+          "わからない",
+          "<ruby>説明<rt>せつめい</rt></ruby>を"
         ],
         "answer": 2,
         "id": "N3-14-053"
@@ -18258,7 +18258,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-14-076"
       },
       {
@@ -18271,7 +18271,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-14-077"
       },
       {
@@ -18284,7 +18284,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-14-078"
       },
       {
@@ -18297,7 +18297,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-14-079"
       },
       {
@@ -18323,7 +18323,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-14-081"
       },
       {
@@ -18362,7 +18362,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-14-084"
       },
       {
@@ -18388,7 +18388,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-14-086"
       },
       {
@@ -18401,7 +18401,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-14-087"
       },
       {
@@ -18427,7 +18427,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-14-089"
       },
       {
@@ -18440,7 +18440,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-14-090"
       },
       {
@@ -18466,7 +18466,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-14-092"
       },
       {
@@ -18479,7 +18479,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-14-093"
       },
       {
@@ -18492,7 +18492,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-14-094"
       },
       {
@@ -18518,7 +18518,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-14-096"
       },
       {
@@ -18544,7 +18544,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-14-098"
       },
       {
@@ -18570,7 +18570,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-14-100"
       },
       {
@@ -18596,189 +18596,189 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-14-102"
       }
     ],
     "15": [
       {
         "type": "漢字読み",
-        "text": "<u>目指す</u>の読み方は？",
+        "text": "<u>知人</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "めざす",
-          "おいかける",
-          "けっこん",
-          "とどけ"
+          "ごはん",
+          "あやまる",
+          "ちじん",
+          "がくしゃ"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-15-001"
       },
       {
         "type": "漢字読み",
-        "text": "<u>休学</u>の読み方は？",
+        "text": "<u>押す</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "よさん",
-          "ろくおん",
-          "ぜったい",
-          "きゅうがく"
+          "たがやす",
+          "おす",
+          "びょういん",
+          "おろす"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-15-002"
       },
       {
         "type": "漢字読み",
-        "text": "<u>待ち合わせ</u>の読み方は？",
+        "text": "<u>赤字</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "まちあわせ",
-          "どうい",
-          "うんてんしゅ",
-          "そだつ"
+          "ろくおん",
+          "おや",
+          "くつう",
+          "あかじ"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-15-003"
       },
       {
         "type": "漢字読み",
-        "text": "<u>空気</u>の読み方は？",
+        "text": "<u>本数</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "こせい",
-          "ゆき",
-          "がくもん",
-          "くうき"
+          "ほんすう",
+          "いたむ",
+          "きんようび",
+          "だいとうりょう"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-15-004"
       },
       {
         "type": "漢字読み",
-        "text": "<u>目的地</u>の読み方は？",
+        "text": "<u>丘</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "かきとめる",
-          "ばんごはん",
-          "もくてきち",
-          "そうおん"
+          "にわとり",
+          "おえる",
+          "おか",
+          "けいこうぺん"
         ],
         "answer": 2,
         "id": "N3-15-005"
       },
       {
         "type": "漢字読み",
-        "text": "<u>庭</u>の読み方は？",
+        "text": "<u>学校</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "ふたつ",
-          "あな",
-          "にわ",
-          "かぎる"
+          "といあわせる",
+          "しょうひん",
+          "がっこう",
+          "さいてい"
         ],
         "answer": 2,
         "id": "N3-15-006"
       },
       {
         "type": "漢字読み",
-        "text": "<u>予定</u>の読み方は？",
+        "text": "<u>建てる</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "まちがう",
-          "しゅぎ",
-          "おしえる",
-          "よてい"
+          "たてる",
+          "ちょう",
+          "きずく",
+          "あか"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-15-007"
       },
       {
         "type": "漢字読み",
-        "text": "<u>明治</u>の読み方は？",
+        "text": "<u>言語</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "めずらしい",
-          "およぎ",
-          "めいじ",
-          "とくちょう"
+          "いう",
+          "きょういくぎょう",
+          "げんご",
+          "ちがう"
         ],
         "answer": 2,
         "id": "N3-15-008"
       },
       {
         "type": "表記",
-        "text": "<u>けっして</u>の漢字は？",
+        "text": "<u>ろせんず</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "炭",
-          "見つける",
-          "地理",
-          "決して"
+          "今朝",
+          "路線図",
+          "空",
+          "強いる"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-15-009"
       },
       {
         "type": "表記",
-        "text": "<u>ます</u>の漢字は？",
+        "text": "<u>おえる</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "細い",
-          "態度",
-          "増す",
-          "教える"
+          "ゴミを出す",
+          "終える",
+          "欠ける",
+          "飯"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-15-010"
       },
       {
         "type": "表記",
-        "text": "<u>すうじ</u>の漢字は？",
+        "text": "<u>ちょうかく</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "物",
-          "数字",
-          "機嫌",
-          "地方"
+          "全て",
+          "聴覚",
+          "社交的",
+          "休憩"
         ],
         "answer": 1,
         "id": "N3-15-011"
       },
       {
         "type": "表記",
-        "text": "<u>はる</u>の漢字は？",
+        "text": "<u>にげる</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "頭が痛い",
-          "国道",
-          "春",
-          "留守"
+          "逃げる",
+          "お知らせ",
+          "体力",
+          "売る"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-15-012"
       },
       {
         "type": "表記",
-        "text": "<u>ご</u>の漢字は？",
+        "text": "<u>つうしんぎょう</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "十",
-          "語",
-          "今すぐ",
-          "総理"
+          "傾く",
+          "通信業",
+          "現在",
+          "継ぐ"
         ],
         "answer": 1,
         "id": "N3-15-013"
       },
       {
         "type": "表記",
-        "text": "<u>じむ</u>の漢字は？",
+        "text": "<u>いたい</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "事務",
-          "玄関マット",
-          "教授",
-          "引退"
+          "痛い",
+          "香り",
+          "支持",
+          "青い"
         ],
         "answer": 0,
         "id": "N3-15-014"
@@ -18788,12 +18788,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "マンション",
-          "<ruby>天気予報<rt>てんきよほう</rt></ruby>",
-          "<ruby>服<rt>ふく</rt></ruby>",
-          "<ruby>講師<rt>こうし</rt></ruby>"
+          "すっかり",
+          "<ruby>運行<rt>うんこう</rt></ruby>",
+          "テーブル",
+          "<ruby>留学<rt>りゅうがく</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-15-015"
       },
       {
@@ -18801,12 +18801,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>心理<rt>しんり</rt></ruby>",
-          "<ruby>高速道路<rt>こうそくどうろ</rt></ruby>",
-          "<ruby>心<rt>こころ</rt></ruby>",
-          "<ruby>問い合わせ<rt>といあわせ</rt></ruby>"
+          "<ruby>中継地<rt>ちゅうけいち</rt></ruby>",
+          "<ruby>行事<rt>ぎょうじ</rt></ruby>",
+          "<ruby>規則<rt>きそく</rt></ruby>",
+          "<ruby>現場<rt>げんば</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-15-016"
       },
       {
@@ -18814,10 +18814,10 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>届く<rt>とどく</rt></ruby>",
-          "<ruby>開発<rt>かいはつ</rt></ruby>",
-          "<ruby>話題<rt>わだい</rt></ruby>",
-          "<ruby>医者<rt>いしゃ</rt></ruby>"
+          "<ruby>段<rt>だん</rt></ruby>",
+          "<ruby>科目<rt>かもく</rt></ruby>",
+          "<ruby>偉い<rt>えらい</rt></ruby>",
+          "くつろぐ"
         ],
         "answer": 0,
         "id": "N3-15-017"
@@ -18827,12 +18827,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>東<rt>ひがし</rt></ruby>",
-          "<ruby>一応<rt>いちおう</rt></ruby>",
-          "がっかり",
-          "<ruby>事故<rt>じこ</rt></ruby>"
+          "<ruby>丸い<rt>まるい</rt></ruby>",
+          "はっきり",
+          "<ruby>留守番<rt>るすばん</rt></ruby>",
+          "<ruby>サービス業<rt>さーびすぎょう</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-15-018"
       },
       {
@@ -18840,10 +18840,10 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "それで",
-          "<ruby>質<rt>しつ</rt></ruby>",
-          "<ruby>晩ご飯<rt>ばんごはん</rt></ruby>",
-          "<ruby>言語<rt>げんご</rt></ruby>"
+          "<ruby>最小<rt>さいしょう</rt></ruby>",
+          "<ruby>割る<rt>わる</rt></ruby>",
+          "<ruby>観光<rt>かんこう</rt></ruby>",
+          "<ruby>抜ける<rt>ぬける</rt></ruby>"
         ],
         "answer": 2,
         "id": "N3-15-019"
@@ -18853,12 +18853,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "およそ",
-          "<ruby>動力<rt>どうりょく</rt></ruby>",
-          "<ruby>商業<rt>しょうぎょう</rt></ruby>",
-          "<ruby>利口<rt>りこう</rt></ruby>"
+          "<ruby>資産<rt>しさん</rt></ruby>",
+          "<ruby>中間<rt>ちゅうかん</rt></ruby>",
+          "<ruby>発見<rt>はっけん</rt></ruby>",
+          "ハサミ"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-15-020"
       },
       {
@@ -18866,12 +18866,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>上限<rt>じょうげん</rt></ruby>",
-          "<ruby>計算<rt>けいさん</rt></ruby>",
-          "<ruby>高さ<rt>たかさ</rt></ruby>",
-          "<ruby>減<rt>へん</rt></ruby>"
+          "<ruby>卸売業<rt>おろしうりぎょう</rt></ruby>",
+          "<ruby>目覚める<rt>めざめる</rt></ruby>",
+          "<ruby>貸し出す<rt>かしだす</rt></ruby>",
+          "<ruby>場所<rt>ばしょ</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-15-021"
       },
       {
@@ -18879,10 +18879,10 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>分かる<rt>わかる</rt></ruby>",
-          "<ruby>圧力<rt>あつりょく</rt></ruby>",
-          "カラー",
-          "<ruby>災い<rt>わざわい</rt></ruby>"
+          "<ruby>涼しくなる<rt>すずしくなる</rt></ruby>",
+          "<ruby>悩む<rt>なやむ</rt></ruby>",
+          "つまり",
+          "<ruby>首<rt>くび</rt></ruby>"
         ],
         "answer": 3,
         "id": "N3-15-022"
@@ -18892,10 +18892,10 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>何とか<rt>なんとか</rt></ruby>",
-          "<ruby>高める<rt>たかめる</rt></ruby>",
-          "<ruby>玄関マット<rt>げんかんまっと</rt></ruby>",
-          "<ruby>池<rt>いけ</rt></ruby>"
+          "アドバイスする",
+          "<ruby>社会<rt>しゃかい</rt></ruby>",
+          "<ruby>書き留める<rt>かきとめる</rt></ruby>",
+          "じっと"
         ],
         "answer": 2,
         "id": "N3-15-023"
@@ -18905,12 +18905,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "スキー",
-          "<ruby>進化<rt>しんか</rt></ruby>",
-          "<ruby>再び<rt>ふたたび</rt></ruby>",
-          "<ruby>確定<rt>かくてい</rt></ruby>"
+          "<ruby>角<rt>つの</rt></ruby>",
+          "いくつ",
+          "<ruby>人気<rt>にんき</rt></ruby>",
+          "<ruby>接触<rt>せっしょく</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-15-024"
       },
       {
@@ -18918,75 +18918,75 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "たいてい",
-          "かなり",
-          "<ruby>地<rt>ち</rt></ruby>",
-          "<ruby>案内所<rt>あんないじょ</rt></ruby>"
+          "エレベーター",
+          "<ruby>汚れる<rt>よごれる</rt></ruby>",
+          "<ruby>電化製品<rt>でんかせいひん</rt></ruby>",
+          "<ruby>皆<rt>みんな</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-15-025"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>カレンダー<rt>かれんだー</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>ダイエット<rt>だいえっと</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "office",
-          "calendar",
-          "painful",
-          "emcee"
+          "pressure",
+          "to hook",
+          "trunk",
+          "diet"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-15-026"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>ヨガ<rt>よが</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>人気<rt>にんき</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "this month",
-          "yoga",
-          "composition",
-          "rehearsal"
+          "to knit",
+          "impossible",
+          "popularity",
+          "every day"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-15-027"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>招く<rt>まねく</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>安心する<rt>あんしんする</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "hand",
-          "to invite",
-          "counter for long objects",
-          "professor"
+          "custom",
+          "to open",
+          "be relieved",
+          "migration"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-15-028"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>休む<rt>やすむ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>合意<rt>ごうい</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "clerk",
-          "to rest",
-          "request",
-          "cup"
+          "to lower",
+          "agreement",
+          "mountain",
+          "to escape"
         ],
         "answer": 1,
         "id": "N3-15-029"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>外交<rt>がいこう</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>速い<rt>はやい</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "diplomacy",
-          "why",
-          "blessing",
-          "want"
+          "fast",
+          "pillar",
+          "preparation",
+          "level"
         ],
         "answer": 0,
         "id": "N3-15-030"
@@ -19227,38 +19227,38 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>降る<rt>ふる</rt></ruby> / <ruby>場合<rt>ばあい</rt></ruby> / <ruby>雨<rt>あめ</rt></ruby>が / <ruby>中止<rt>ちゅうし</rt></ruby>になる",
+        "text": "並べ替え: <ruby>雨<rt>あめ</rt></ruby>が / <ruby>降る<rt>ふる</rt></ruby> / <ruby>場合<rt>ばあい</rt></ruby> / <ruby>中止<rt>ちゅうし</rt></ruby>になる",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
+          "<ruby>雨<rt>あめ</rt></ruby>が",
           "<ruby>降る<rt>ふる</rt></ruby>",
           "<ruby>場合<rt>ばあい</rt></ruby>",
-          "<ruby>雨<rt>あめ</rt></ruby>が",
           "<ruby>中止<rt>ちゅうし</rt></ruby>になる"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-15-049"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>彼女<rt>かのじょ</rt></ruby>は / 働いている / として / <ruby>医者<rt>いしゃ</rt></ruby>",
+        "text": "並べ替え: <ruby>彼女<rt>かのじょ</rt></ruby>は / 働いている / <ruby>医者<rt>いしゃ</rt></ruby> / として",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
           "<ruby>彼女<rt>かのじょ</rt></ruby>は",
           "働いている",
-          "として",
-          "<ruby>医者<rt>いしゃ</rt></ruby>"
+          "<ruby>医者<rt>いしゃ</rt></ruby>",
+          "として"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-15-050"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>笑顔<rt>えがお</rt></ruby>だ / <ruby>忙しい<rt>いそがしい</rt></ruby> / にもかかわらず / <ruby>彼<rt>かれ</rt></ruby>は",
+        "text": "並べ替え: <ruby>笑顔<rt>えがお</rt></ruby>だ / にもかかわらず / <ruby>忙しい<rt>いそがしい</rt></ruby> / <ruby>彼<rt>かれ</rt></ruby>は",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
           "<ruby>笑顔<rt>えがお</rt></ruby>だ",
-          "<ruby>忙しい<rt>いそがしい</rt></ruby>",
           "にもかかわらず",
+          "<ruby>忙しい<rt>いそがしい</rt></ruby>",
           "<ruby>彼<rt>かれ</rt></ruby>は"
         ],
         "answer": 2,
@@ -19266,25 +19266,25 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>説明<rt>せつめい</rt></ruby>を / ものの / わからない / 聞いた",
+        "text": "並べ替え: 聞いた / <ruby>説明<rt>せつめい</rt></ruby>を / わからない / ものの",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
+          "聞いた",
           "<ruby>説明<rt>せつめい</rt></ruby>を",
-          "ものの",
           "わからない",
-          "聞いた"
+          "ものの"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-15-052"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>降る<rt>ふる</rt></ruby> / <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>場合<rt>ばあい</rt></ruby> / <ruby>雨<rt>あめ</rt></ruby>が",
+        "text": "並べ替え: <ruby>場合<rt>ばあい</rt></ruby> / <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>降る<rt>ふる</rt></ruby> / <ruby>雨<rt>あめ</rt></ruby>が",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>降る<rt>ふる</rt></ruby>",
-          "<ruby>中止<rt>ちゅうし</rt></ruby>になる",
           "<ruby>場合<rt>ばあい</rt></ruby>",
+          "<ruby>中止<rt>ちゅうし</rt></ruby>になる",
+          "<ruby>降る<rt>ふる</rt></ruby>",
           "<ruby>雨<rt>あめ</rt></ruby>が"
         ],
         "answer": 1,
@@ -19586,7 +19586,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-15-076"
       },
       {
@@ -19599,7 +19599,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-15-077"
       },
       {
@@ -19612,7 +19612,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-15-078"
       },
       {
@@ -19625,7 +19625,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-15-079"
       },
       {
@@ -19651,7 +19651,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-15-081"
       },
       {
@@ -19664,7 +19664,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-15-082"
       },
       {
@@ -19677,7 +19677,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-15-083"
       },
       {
@@ -19690,7 +19690,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-15-084"
       },
       {
@@ -19729,7 +19729,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-15-087"
       },
       {
@@ -19768,7 +19768,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-15-090"
       },
       {
@@ -19781,7 +19781,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-15-091"
       },
       {
@@ -19794,7 +19794,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-15-092"
       },
       {
@@ -19833,7 +19833,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-15-095"
       },
       {
@@ -19846,7 +19846,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-15-096"
       },
       {
@@ -19859,7 +19859,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-15-097"
       },
       {
@@ -19885,7 +19885,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-15-099"
       },
       {
@@ -19898,7 +19898,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-15-100"
       },
       {
@@ -19911,7 +19911,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-15-101"
       },
       {
@@ -19924,191 +19924,191 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-15-102"
       }
     ],
     "16": [
       {
         "type": "漢字読み",
-        "text": "<u>豊富</u>の読み方は？",
+        "text": "<u>成績</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "しんこう",
-          "いわ",
-          "きょうかしょ",
-          "ほうふ"
+          "いちどに",
+          "がいかん",
+          "せいせき",
+          "さいしん"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-16-001"
       },
       {
         "type": "漢字読み",
-        "text": "<u>法則</u>の読み方は？",
+        "text": "<u>否定</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "ほうそく",
-          "ひろげる",
-          "こうどう",
-          "えだ"
+          "ひてい",
+          "しゃざい",
+          "とどけでる",
+          "むすぶ"
         ],
         "answer": 0,
         "id": "N3-16-002"
       },
       {
         "type": "漢字読み",
-        "text": "<u>価格</u>の読み方は？",
+        "text": "<u>見つける</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "かかく",
-          "ぜん",
-          "せっしょく",
-          "せいど"
+          "みつける",
+          "きき",
+          "ごしつもん",
+          "こ"
         ],
         "answer": 0,
         "id": "N3-16-003"
       },
       {
         "type": "漢字読み",
-        "text": "<u>薬を飲む</u>の読み方は？",
+        "text": "<u>豊か</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "くわしい",
-          "けってい",
-          "くすりをのむ",
-          "にちじょう"
+          "ゆたか",
+          "きく",
+          "かいけい",
+          "えきまえ"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-16-004"
       },
       {
         "type": "漢字読み",
-        "text": "<u>明朝</u>の読み方は？",
+        "text": "<u>減少</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "でんしゃ",
-          "てつぼう",
-          "みょうちょう",
-          "ちち"
+          "げんしょう",
+          "ちゅうか",
+          "おちゃ",
+          "こじん"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-16-005"
       },
       {
         "type": "漢字読み",
-        "text": "<u>自動</u>の読み方は？",
+        "text": "<u>空く</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "よっつ",
-          "ちゅう",
-          "しゅうごう",
-          "じどう"
+          "はぐき",
+          "あく",
+          "きょうだい",
+          "しらせる"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-16-006"
       },
       {
         "type": "漢字読み",
-        "text": "<u>終える</u>の読み方は？",
+        "text": "<u>気候</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "しぬ",
-          "あめ",
-          "や",
-          "おえる"
+          "かどう",
+          "きこう",
+          "いっこだて",
+          "さんぽする"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-16-007"
       },
       {
         "type": "漢字読み",
-        "text": "<u>部品</u>の読み方は？",
+        "text": "<u>通信業</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "うん",
-          "ぶひん",
-          "ひょうばん",
-          "ぎし"
+          "ふどうさんぎょう",
+          "おどりば",
+          "つうしんぎょう",
+          "ふぉーくをつかう"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-16-008"
       },
       {
         "type": "表記",
-        "text": "<u>いそぐ</u>の漢字は？",
+        "text": "<u>せめる</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "お世話になります",
-          "目覚める",
-          "文",
-          "急ぐ"
+          "攻める",
+          "休暇",
+          "丸",
+          "覚ます"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-16-009"
       },
       {
         "type": "表記",
-        "text": "<u>ほんらい</u>の漢字は？",
+        "text": "<u>とけい</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "禁止する",
-          "本来",
-          "集中",
-          "研究"
+          "何とか",
+          "著者",
+          "大会",
+          "時計"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-16-010"
       },
       {
         "type": "表記",
-        "text": "<u>せいぞう</u>の漢字は？",
+        "text": "<u>じゅちゅう</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "製造",
-          "文学",
-          "香水",
-          "転がる"
+          "受注",
+          "法案",
+          "決心する",
+          "喜び"
         ],
         "answer": 0,
         "id": "N3-16-011"
       },
       {
         "type": "表記",
-        "text": "<u>うま</u>の漢字は？",
+        "text": "<u>よさん</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "耕す",
-          "退職する",
-          "馬",
-          "波"
+          "万一",
+          "湖",
+          "味",
+          "予算"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-16-012"
       },
       {
         "type": "表記",
-        "text": "<u>にくるい</u>の漢字は？",
+        "text": "<u>みつける</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "鳥",
-          "肉類",
-          "成長",
-          "原理"
+          "日",
+          "一番",
+          "泳ぐ",
+          "見つける"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-16-013"
       },
       {
         "type": "表記",
-        "text": "<u>なんばい</u>の漢字は？",
+        "text": "<u>ほんらい</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "太る",
-          "何倍",
-          "瓶",
-          "地球"
+          "心",
+          "サッカー場",
+          "同時",
+          "本来"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-16-014"
       },
       {
@@ -20116,10 +20116,10 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>長男<rt>ちょうなん</rt></ruby>",
-          "<ruby>商業<rt>しょうぎょう</rt></ruby>",
-          "<ruby>減らす<rt>へらす</rt></ruby>",
-          "<ruby>対人<rt>たいじん</rt></ruby>"
+          "たった",
+          "<ruby>学部<rt>がくぶ</rt></ruby>",
+          "<ruby>進化<rt>しんか</rt></ruby>",
+          "<ruby>社交<rt>しゃこう</rt></ruby>"
         ],
         "answer": 3,
         "id": "N3-16-015"
@@ -20129,12 +20129,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>音楽を聴く<rt>おんがくをきく</rt></ruby>",
-          "<ruby>全く<rt>まったく</rt></ruby>",
-          "<ruby>乗り物<rt>のりもの</rt></ruby>",
-          "<ruby>継ぐ<rt>つぐ</rt></ruby>"
+          "<ruby>枯れる<rt>かれる</rt></ruby>",
+          "<ruby>届け出<rt>とどけで</rt></ruby>",
+          "<ruby>分かる<rt>わかる</rt></ruby>",
+          "<ruby>食べ物<rt>たべもの</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-16-016"
       },
       {
@@ -20142,12 +20142,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "ひどい",
-          "どうしても",
-          "さっぱり",
-          "<ruby>具体的には<rt>ぐたいてきには</rt></ruby>"
+          "<ruby>足首<rt>あしくび</rt></ruby>",
+          "<ruby>スキー場<rt>すきーじょう</rt></ruby>",
+          "ベッド",
+          "<ruby>永久<rt>えいきゅう</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-16-017"
       },
       {
@@ -20155,10 +20155,10 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>お菓子<rt>おかし</rt></ruby>",
-          "<ruby>お茶<rt>おちゃ</rt></ruby>",
-          "<ruby>運転手<rt>うんてんしゅ</rt></ruby>",
-          "でも"
+          "リハーサル",
+          "<ruby>品質<rt>ひんしつ</rt></ruby>",
+          "<ruby>国語<rt>こくご</rt></ruby>",
+          "<ruby>成績<rt>せいせき</rt></ruby>"
         ],
         "answer": 3,
         "id": "N3-16-018"
@@ -20168,12 +20168,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>音楽<rt>おんがく</rt></ruby>",
-          "<ruby>電池<rt>でんち</rt></ruby>",
-          "<ruby>電気<rt>でんき</rt></ruby>",
-          "<ruby>車<rt>しゃ</rt></ruby>"
+          "ペットショップ",
+          "<ruby>支度<rt>したく</rt></ruby>",
+          "<ruby>疑う<rt>うたがう</rt></ruby>",
+          "<ruby>一度に<rt>いちどに</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-16-019"
       },
       {
@@ -20181,12 +20181,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>柔道<rt>じゅうどう</rt></ruby>",
-          "<ruby>銀行<rt>ぎんこう</rt></ruby>",
-          "<ruby>くしゃみが出る<rt>くしゃみがでる</rt></ruby>",
-          "<ruby>定食<rt>ていしょく</rt></ruby>"
+          "<ruby>引退<rt>いんたい</rt></ruby>",
+          "ハサミ",
+          "<ruby>体温<rt>たいおん</rt></ruby>",
+          "<ruby>危機<rt>きき</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-16-020"
       },
       {
@@ -20194,12 +20194,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>来週<rt>らいしゅう</rt></ruby>",
-          "<ruby>発生<rt>はっせい</rt></ruby>",
-          "<ruby>届ける<rt>とどける</rt></ruby>",
-          "<ruby>冷める<rt>さめる</rt></ruby>"
+          "<ruby>靴<rt>くつ</rt></ruby>",
+          "<ruby>見下ろす<rt>みおろす</rt></ruby>",
+          "<ruby>方向<rt>ほうこう</rt></ruby>",
+          "<ruby>都市<rt>とし</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-16-021"
       },
       {
@@ -20207,12 +20207,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>稲<rt>いね</rt></ruby>",
-          "<ruby>雪<rt>ゆき</rt></ruby>",
-          "<ruby>現地<rt>げんち</rt></ruby>",
-          "<ruby>法律<rt>ほうりつ</rt></ruby>"
+          "<ruby>小説<rt>しょうせつ</rt></ruby>",
+          "<ruby>個数<rt>こすう</rt></ruby>",
+          "<ruby>木<rt>き</rt></ruby>",
+          "<ruby>判明<rt>はんめい</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-16-022"
       },
       {
@@ -20220,12 +20220,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>去年<rt>きょねん</rt></ruby>",
-          "コンビニ",
-          "<ruby>電子<rt>でんし</rt></ruby>",
-          "<ruby>両親<rt>りょうしん</rt></ruby>"
+          "<ruby>見守る<rt>みまもる</rt></ruby>",
+          "<ruby>乗り換え<rt>のりかえ</rt></ruby>",
+          "<ruby>泥<rt>どろ</rt></ruby>",
+          "<ruby>関心<rt>かんしん</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-16-023"
       },
       {
@@ -20233,12 +20233,12 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>及ぼす<rt>およぼす</rt></ruby>",
-          "<ruby>打ち合わせする<rt>うちあわせする</rt></ruby>",
-          "<ruby>嫌<rt>いや</rt></ruby>",
-          "<ruby>建造<rt>けんぞう</rt></ruby>"
+          "<ruby>三つ<rt>みっつ</rt></ruby>",
+          "<ruby>下着<rt>したぎ</rt></ruby>",
+          "<ruby>体験<rt>たいけん</rt></ruby>",
+          "トランペット"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-16-024"
       },
       {
@@ -20246,77 +20246,77 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>秋<rt>あき</rt></ruby>",
-          "<ruby>構造<rt>こうぞう</rt></ruby>",
-          "<ruby>一晩中<rt>ひとばんじゅう</rt></ruby>",
-          "<ruby>王<rt>おう</rt></ruby>"
+          "なお",
+          "<ruby>天<rt>てん</rt></ruby>",
+          "<ruby>赤字<rt>あかじ</rt></ruby>",
+          "<ruby>鋭い<rt>するどい</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-16-025"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>解答<rt>かいとう</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>冷やす<rt>ひやす</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "participation",
-          "area",
-          "pet shop",
-          "solution"
+          "to cool down",
+          "finally",
+          "to cool",
+          "law"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-16-026"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>移住<rt>いじゅう</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>日の入り<rt>ひのいり</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "specifically",
-          "cow",
-          "migration",
-          "construction"
+          "yoga",
+          "sunset",
+          "to be",
+          "never"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-16-027"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>泳ぐ<rt>およぐ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>現場<rt>げんば</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "rice",
-          "no smoking",
-          "to call out",
-          "to swim"
+          "site",
+          "to wake up",
+          "by all means",
+          "to watch over"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-16-028"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>商品を探す<rt>しょうひんをさがす</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>掘る<rt>ほる</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "to look for product",
-          "assistance",
-          "date and time",
-          "week after next"
+          "early",
+          "to dig",
+          "juice",
+          "sunrise"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-16-029"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>姉<rt>あね</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>預かる<rt>あずかる</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "older sister",
-          "supermarket",
-          "manners",
-          "standard"
+          "toilet",
+          "to rain",
+          "to keep",
+          "previous day"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-16-030"
       },
       {
@@ -20555,41 +20555,41 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>医者<rt>いしゃ</rt></ruby> / 働いている / として / <ruby>彼女<rt>かのじょ</rt></ruby>は",
+        "text": "並べ替え: 働いている / として / <ruby>彼女<rt>かのじょ</rt></ruby>は / <ruby>医者<rt>いしゃ</rt></ruby>",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>医者<rt>いしゃ</rt></ruby>",
           "働いている",
           "として",
-          "<ruby>彼女<rt>かのじょ</rt></ruby>は"
+          "<ruby>彼女<rt>かのじょ</rt></ruby>は",
+          "<ruby>医者<rt>いしゃ</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-16-049"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>彼<rt>かれ</rt></ruby>は / <ruby>忙しい<rt>いそがしい</rt></ruby> / <ruby>笑顔<rt>えがお</rt></ruby>だ / にもかかわらず",
+        "text": "並べ替え: <ruby>彼<rt>かれ</rt></ruby>は / <ruby>忙しい<rt>いそがしい</rt></ruby> / にもかかわらず / <ruby>笑顔<rt>えがお</rt></ruby>だ",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
           "<ruby>彼<rt>かれ</rt></ruby>は",
           "<ruby>忙しい<rt>いそがしい</rt></ruby>",
-          "<ruby>笑顔<rt>えがお</rt></ruby>だ",
-          "にもかかわらず"
+          "にもかかわらず",
+          "<ruby>笑顔<rt>えがお</rt></ruby>だ"
         ],
         "answer": 3,
         "id": "N3-16-050"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>説明<rt>せつめい</rt></ruby>を / 聞いた / ものの / わからない",
+        "text": "並べ替え: <ruby>説明<rt>せつめい</rt></ruby>を / ものの / わからない / 聞いた",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
           "<ruby>説明<rt>せつめい</rt></ruby>を",
-          "聞いた",
           "ものの",
-          "わからない"
+          "わからない",
+          "聞いた"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-16-051"
       },
       {
@@ -20602,20 +20602,20 @@ MOCK_DATA['N3'] = {
           "<ruby>雨<rt>あめ</rt></ruby>が",
           "<ruby>降る<rt>ふる</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-16-052"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: 働いている / <ruby>彼女<rt>かのじょ</rt></ruby>は / として / <ruby>医者<rt>いしゃ</rt></ruby>",
+        "text": "並べ替え: <ruby>医者<rt>いしゃ</rt></ruby> / <ruby>彼女<rt>かのじょ</rt></ruby>は / として / 働いている",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "働いている",
+          "<ruby>医者<rt>いしゃ</rt></ruby>",
           "<ruby>彼女<rt>かのじょ</rt></ruby>は",
           "として",
-          "<ruby>医者<rt>いしゃ</rt></ruby>"
+          "働いている"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-16-053"
       },
       {
@@ -20914,7 +20914,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-16-076"
       },
       {
@@ -20927,7 +20927,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-16-077"
       },
       {
@@ -20940,7 +20940,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-16-078"
       },
       {
@@ -20953,7 +20953,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-16-079"
       },
       {
@@ -20966,7 +20966,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-16-080"
       },
       {
@@ -20979,7 +20979,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-16-081"
       },
       {
@@ -21018,7 +21018,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-16-084"
       },
       {
@@ -21031,7 +21031,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-16-085"
       },
       {
@@ -21044,7 +21044,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-16-086"
       },
       {
@@ -21057,7 +21057,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-16-087"
       },
       {
@@ -21070,7 +21070,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-16-088"
       },
       {
@@ -21083,7 +21083,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-16-089"
       },
       {
@@ -21096,7 +21096,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-16-090"
       },
       {
@@ -21148,7 +21148,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-16-094"
       },
       {
@@ -21161,7 +21161,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-16-095"
       },
       {
@@ -21174,7 +21174,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-16-096"
       },
       {
@@ -21187,7 +21187,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-16-097"
       },
       {
@@ -21213,7 +21213,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-16-099"
       },
       {
@@ -21239,7 +21239,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-16-101"
       },
       {
@@ -21252,189 +21252,189 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-16-102"
       }
     ],
     "17": [
       {
         "type": "漢字読み",
-        "text": "<u>入学</u>の読み方は？",
+        "text": "<u>文学</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "にゅうがく",
-          "ねんかん",
-          "ぞうげん",
-          "じゅう"
+          "にっこう",
+          "ぶんがく",
+          "いちぶ",
+          "おのおの"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-17-001"
       },
       {
         "type": "漢字読み",
-        "text": "<u>代</u>の読み方は？",
+        "text": "<u>合意</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "としょかん",
-          "だい",
-          "りょうしん",
-          "えんぜつ"
+          "ゆっくりあるく",
+          "おきる",
+          "ごうい",
+          "あじわう"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-17-002"
       },
       {
         "type": "漢字読み",
-        "text": "<u>強める</u>の読み方は？",
+        "text": "<u>受信</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "かけあしでいく",
-          "つよめる",
-          "くしゃみがでる",
-          "うたがう"
+          "じょうたい",
+          "いじゅう",
+          "じゅしん",
+          "うごき"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-17-003"
       },
       {
         "type": "漢字読み",
-        "text": "<u>中</u>の読み方は？",
+        "text": "<u>一度に</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "けいせい",
-          "いちねんじゅう",
-          "ちゅう",
-          "とどけでる"
+          "いちどに",
+          "ぎょかいるい",
+          "しょうけい",
+          "さらいねん"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-17-004"
       },
       {
         "type": "漢字読み",
-        "text": "<u>知恵</u>の読み方は？",
+        "text": "<u>本人</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "あじ",
-          "ちえ",
-          "しゅぎ",
-          "おこない"
+          "ほんにん",
+          "きょねん",
+          "しょくじ",
+          "てがみ"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-17-005"
       },
       {
         "type": "漢字読み",
-        "text": "<u>間違う</u>の読み方は？",
+        "text": "<u>着物</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "ちほう",
-          "みち",
-          "まちがう",
-          "いま"
+          "じゅしん",
+          "みょうちょう",
+          "きもの",
+          "サービスぎょう"
         ],
         "answer": 2,
         "id": "N3-17-006"
       },
       {
         "type": "漢字読み",
-        "text": "<u>拾う</u>の読み方は？",
+        "text": "<u>出口</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "げんしょう",
-          "ろせん",
-          "しょうりゃく",
-          "ひろう"
+          "おもい",
+          "あいま",
+          "でぐち",
+          "くるまでいく"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-17-007"
       },
       {
         "type": "漢字読み",
-        "text": "<u>茶色</u>の読み方は？",
+        "text": "<u>難しい</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "しんがく",
-          "かわり",
-          "ちゃいろ",
-          "きけん"
+          "ほう",
+          "あずかる",
+          "とくばい",
+          "むずかしい"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-17-008"
       },
       {
         "type": "表記",
-        "text": "<u>とじる</u>の漢字は？",
+        "text": "<u>ひ</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "閉じる",
-          "書道",
-          "去年",
-          "無事"
+          "火",
+          "助かる",
+          "宿題",
+          "戻す"
         ],
         "answer": 0,
         "id": "N3-17-009"
       },
       {
         "type": "表記",
-        "text": "<u>しょくひん</u>の漢字は？",
+        "text": "<u>せいしつ</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "台数",
-          "科目",
-          "語",
-          "食品"
+          "性質",
+          "群れ",
+          "書く",
+          "魚"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-17-010"
       },
       {
         "type": "表記",
-        "text": "<u>そんざい</u>の漢字は？",
+        "text": "<u>あかるい</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "義理の兄",
-          "築く",
-          "存在",
-          "伸びる"
+          "新しい",
+          "明るい",
+          "増減",
+          "結局"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-17-011"
       },
       {
         "type": "表記",
-        "text": "<u>はいる</u>の漢字は？",
+        "text": "<u>のむ</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "入る",
-          "退院",
-          "司会",
-          "確かに"
+          "飲む",
+          "図書館",
+          "対策",
+          "打ち合わせ"
         ],
         "answer": 0,
         "id": "N3-17-012"
       },
       {
         "type": "表記",
-        "text": "<u>あやまる</u>の漢字は？",
+        "text": "<u>がんこ</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "港",
-          "演技",
-          "誤る",
-          "開会"
+          "頭痛",
+          "写す",
+          "頑固",
+          "大"
         ],
         "answer": 2,
         "id": "N3-17-013"
       },
       {
         "type": "表記",
-        "text": "<u>とくべつ</u>の漢字は？",
+        "text": "<u>けさ</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "特別",
-          "増す",
-          "教授",
-          "減らす"
+          "今朝",
+          "主人",
+          "楽しみ",
+          "例"
         ],
         "answer": 0,
         "id": "N3-17-014"
@@ -21444,10 +21444,10 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>深夜<rt>しんや</rt></ruby>",
-          "<ruby>急いで<rt>いそいで</rt></ruby>",
-          "<ruby>買い物<rt>かいもの</rt></ruby>",
-          "<ruby>赤<rt>あか</rt></ruby>"
+          "<ruby>行動<rt>こうどう</rt></ruby>",
+          "<ruby>法案<rt>ほうあん</rt></ruby>",
+          "<ruby>最終<rt>さいしゅう</rt></ruby>",
+          "<ruby>発言<rt>はつげん</rt></ruby>"
         ],
         "answer": 2,
         "id": "N3-17-015"
@@ -21457,12 +21457,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>主に<rt>おもに</rt></ruby>",
-          "<ruby>空っぽ<rt>からっぽ</rt></ruby>",
-          "<ruby>認定<rt>にんてい</rt></ruby>",
-          "<ruby>都市<rt>とし</rt></ruby>"
+          "レポート",
+          "<ruby>特徴<rt>とくちょう</rt></ruby>",
+          "<ruby>体温<rt>たいおん</rt></ruby>",
+          "<ruby>終始<rt>しゅうし</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-17-016"
       },
       {
@@ -21470,10 +21470,10 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>告げる<rt>つげる</rt></ruby>",
-          "<ruby>見下ろす<rt>みおろす</rt></ruby>",
-          "<ruby>浮かぶ<rt>うかぶ</rt></ruby>",
-          "<ruby>引っ掛かる<rt>ひっかかる</rt></ruby>"
+          "<ruby>大人<rt>おとな</rt></ruby>",
+          "<ruby>打ち合わせる<rt>うちあわせる</rt></ruby>",
+          "ところが",
+          "<ruby>魚屋<rt>さかなや</rt></ruby>"
         ],
         "answer": 1,
         "id": "N3-17-017"
@@ -21483,10 +21483,10 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>色違いを見る<rt>いろちがいをみる</rt></ruby>",
-          "<ruby>嗅ぐ<rt>かぐ</rt></ruby>",
-          "<ruby>外国人<rt>がいこくじん</rt></ruby>",
-          "<ruby>別れ<rt>わかれ</rt></ruby>"
+          "<ruby>固い<rt>かたい</rt></ruby>",
+          "スイーツ",
+          "<ruby>岩<rt>いわ</rt></ruby>",
+          "リビング"
         ],
         "answer": 0,
         "id": "N3-17-018"
@@ -21496,12 +21496,12 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>味方<rt>みかた</rt></ruby>",
-          "<ruby>慌てる<rt>あわてる</rt></ruby>",
-          "ヘリコプター",
-          "<ruby>医師<rt>いし</rt></ruby>"
+          "<ruby>伸びる<rt>のびる</rt></ruby>",
+          "めまい",
+          "<ruby>通学<rt>つうがく</rt></ruby>",
+          "プリンター"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-17-019"
       },
       {
@@ -21509,12 +21509,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "ごちそうさま",
-          "<ruby>通りかかる<rt>とおりかかる</rt></ruby>",
-          "<ruby>現場<rt>げんば</rt></ruby>",
-          "<ruby>恵む<rt>めぐむ</rt></ruby>"
+          "<ruby>謝罪<rt>しゃざい</rt></ruby>",
+          "<ruby>活気<rt>かっき</rt></ruby>",
+          "<ruby>合計<rt>ごうけい</rt></ruby>",
+          "<ruby>洗顔<rt>せんがん</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-17-020"
       },
       {
@@ -21522,12 +21522,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "すぐに",
-          "チーム",
-          "<ruby>飲食業<rt>いんしょくぎょう</rt></ruby>",
-          "<ruby>引き受ける<rt>ひきうける</rt></ruby>"
+          "<ruby>差す<rt>さす</rt></ruby>",
+          "なぜ",
+          "<ruby>降ろす<rt>おろす</rt></ruby>",
+          "すぐ"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-17-021"
       },
       {
@@ -21535,12 +21535,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>風景<rt>ふうけい</rt></ruby>",
-          "<ruby>損<rt>そん</rt></ruby>",
-          "ピアノ",
-          "<ruby>前<rt>まえ</rt></ruby>"
+          "<ruby>春<rt>はる</rt></ruby>",
+          "<ruby>決して<rt>けっして</rt></ruby>",
+          "<ruby>住民<rt>じゅうみん</rt></ruby>",
+          "<ruby>朝ご飯<rt>あさごはん</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-17-022"
       },
       {
@@ -21548,10 +21548,10 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>特性<rt>とくせい</rt></ruby>",
-          "<ruby>踏まえる<rt>ふまえる</rt></ruby>",
-          "<ruby>成長<rt>せいちょう</rt></ruby>",
-          "<ruby>安全<rt>あんぜん</rt></ruby>"
+          "<ruby>出場<rt>しゅつじょう</rt></ruby>",
+          "<ruby>乗車<rt>じょうしゃ</rt></ruby>",
+          "<ruby>酸っぱい<rt>すっぱい</rt></ruby>",
+          "<ruby>値段<rt>ねだん</rt></ruby>"
         ],
         "answer": 2,
         "id": "N3-17-023"
@@ -21561,10 +21561,10 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "ただし",
-          "<ruby>飾り<rt>かざり</rt></ruby>",
-          "<ruby>場所<rt>ばしょ</rt></ruby>",
-          "<ruby>切手<rt>きって</rt></ruby>"
+          "<ruby>お願いする<rt>おねがいする</rt></ruby>",
+          "<ruby>火山<rt>かざん</rt></ruby>",
+          "<ruby>比較<rt>ひかく</rt></ruby>",
+          "<ruby>長<rt>ちょう</rt></ruby>"
         ],
         "answer": 2,
         "id": "N3-17-024"
@@ -21574,77 +21574,77 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>例年<rt>れいねん</rt></ruby>",
-          "<ruby>典<rt>てん</rt></ruby>",
-          "<ruby>休憩室<rt>きゅうけいしつ</rt></ruby>",
-          "<ruby>降水量<rt>こうすいりょう</rt></ruby>"
+          "<ruby>方角<rt>ほうがく</rt></ruby>",
+          "<ruby>違う<rt>ちがう</rt></ruby>",
+          "<ruby>有難い<rt>ありがたい</rt></ruby>",
+          "こだわる"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-17-025"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>貸す<rt>かす</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>探す<rt>さがす</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "menu",
-          "this month",
-          "lend",
-          "high"
+          "exchange",
+          "to stay",
+          "accounting",
+          "to search"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-17-026"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>講義<rt>こうぎ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「おやつ」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "atmospheric pressure",
-          "lend",
-          "pass",
-          "lecture"
+          "live",
+          "snack",
+          "difference",
+          "leaving early"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-17-027"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>父<rt>ちち</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>信じる<rt>しんじる</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "to add",
-          "severe cold",
-          "father",
-          "library"
+          "believe",
+          "from start to end",
+          "progress",
+          "I"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-17-028"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>気<rt>き</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>電話<rt>でんわ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "to leave",
-          "spirit",
-          "rough",
-          "desk"
+          "to inform",
+          "telephone",
+          "bullet train",
+          "abbreviation"
         ],
         "answer": 1,
         "id": "N3-17-029"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>気温<rt>きおん</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>知<rt>ち</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "black",
-          "temperature",
-          "difference",
-          "three"
+          "register",
+          "theory",
+          "knowledge",
+          "to rely on"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-17-030"
       },
       {
@@ -21883,41 +21883,41 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: にもかかわらず / <ruby>忙しい<rt>いそがしい</rt></ruby> / <ruby>笑顔<rt>えがお</rt></ruby>だ / <ruby>彼<rt>かれ</rt></ruby>は",
+        "text": "並べ替え: にもかかわらず / <ruby>笑顔<rt>えがお</rt></ruby>だ / <ruby>忙しい<rt>いそがしい</rt></ruby> / <ruby>彼<rt>かれ</rt></ruby>は",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
           "にもかかわらず",
-          "<ruby>忙しい<rt>いそがしい</rt></ruby>",
           "<ruby>笑顔<rt>えがお</rt></ruby>だ",
+          "<ruby>忙しい<rt>いそがしい</rt></ruby>",
           "<ruby>彼<rt>かれ</rt></ruby>は"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-17-049"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: わからない / 聞いた / <ruby>説明<rt>せつめい</rt></ruby>を / ものの",
+        "text": "並べ替え: ものの / わからない / 聞いた / <ruby>説明<rt>せつめい</rt></ruby>を",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
+          "ものの",
           "わからない",
           "聞いた",
-          "<ruby>説明<rt>せつめい</rt></ruby>を",
-          "ものの"
+          "<ruby>説明<rt>せつめい</rt></ruby>を"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-17-050"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>降る<rt>ふる</rt></ruby> / <ruby>雨<rt>あめ</rt></ruby>が / <ruby>場合<rt>ばあい</rt></ruby>",
+        "text": "並べ替え: <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>場合<rt>ばあい</rt></ruby> / <ruby>降る<rt>ふる</rt></ruby> / <ruby>雨<rt>あめ</rt></ruby>が",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
           "<ruby>中止<rt>ちゅうし</rt></ruby>になる",
+          "<ruby>場合<rt>ばあい</rt></ruby>",
           "<ruby>降る<rt>ふる</rt></ruby>",
-          "<ruby>雨<rt>あめ</rt></ruby>が",
-          "<ruby>場合<rt>ばあい</rt></ruby>"
+          "<ruby>雨<rt>あめ</rt></ruby>が"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-17-051"
       },
       {
@@ -21930,20 +21930,20 @@ MOCK_DATA['N3'] = {
           "<ruby>彼女<rt>かのじょ</rt></ruby>は",
           "<ruby>医者<rt>いしゃ</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-17-052"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>忙しい<rt>いそがしい</rt></ruby> / <ruby>笑顔<rt>えがお</rt></ruby>だ / にもかかわらず / <ruby>彼<rt>かれ</rt></ruby>は",
+        "text": "並べ替え: にもかかわらず / <ruby>忙しい<rt>いそがしい</rt></ruby> / <ruby>笑顔<rt>えがお</rt></ruby>だ / <ruby>彼<rt>かれ</rt></ruby>は",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
+          "にもかかわらず",
           "<ruby>忙しい<rt>いそがしい</rt></ruby>",
           "<ruby>笑顔<rt>えがお</rt></ruby>だ",
-          "にもかかわらず",
           "<ruby>彼<rt>かれ</rt></ruby>は"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-17-053"
       },
       {
@@ -22242,7 +22242,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-17-076"
       },
       {
@@ -22255,7 +22255,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-17-077"
       },
       {
@@ -22268,7 +22268,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-17-078"
       },
       {
@@ -22281,7 +22281,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-17-079"
       },
       {
@@ -22307,7 +22307,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-17-081"
       },
       {
@@ -22320,7 +22320,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-17-082"
       },
       {
@@ -22346,7 +22346,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-17-084"
       },
       {
@@ -22359,7 +22359,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-17-085"
       },
       {
@@ -22372,7 +22372,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-17-086"
       },
       {
@@ -22385,7 +22385,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-17-087"
       },
       {
@@ -22398,7 +22398,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-17-088"
       },
       {
@@ -22411,7 +22411,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-17-089"
       },
       {
@@ -22424,7 +22424,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-17-090"
       },
       {
@@ -22437,7 +22437,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-17-091"
       },
       {
@@ -22450,7 +22450,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-17-092"
       },
       {
@@ -22463,7 +22463,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-17-093"
       },
       {
@@ -22476,7 +22476,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-17-094"
       },
       {
@@ -22489,7 +22489,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-17-095"
       },
       {
@@ -22515,7 +22515,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-17-097"
       },
       {
@@ -22528,7 +22528,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-17-098"
       },
       {
@@ -22541,7 +22541,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-17-099"
       },
       {
@@ -22567,7 +22567,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-17-101"
       },
       {
@@ -22580,191 +22580,191 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-17-102"
       }
     ],
     "18": [
       {
         "type": "漢字読み",
-        "text": "<u>日</u>の読み方は？",
+        "text": "<u>運動する</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "ひ",
-          "けんどう",
-          "ちゅうしゃ",
-          "ひく"
+          "うんどうする",
+          "ず",
+          "いや",
+          "きんえん"
         ],
         "answer": 0,
         "id": "N3-18-001"
       },
       {
         "type": "漢字読み",
-        "text": "<u>大通り</u>の読み方は？",
+        "text": "<u>代わり</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "かくち",
-          "うりきれ",
-          "むかえる",
-          "おおどおり"
+          "さいしん",
+          "がいこく",
+          "かわり",
+          "りく"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-18-002"
       },
       {
         "type": "漢字読み",
-        "text": "<u>足</u>の読み方は？",
+        "text": "<u>能</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "あし",
-          "あつい",
-          "かわる",
-          "つよい"
+          "ほうほう",
+          "まちあわせ",
+          "のう",
+          "たかめる"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-18-003"
       },
       {
         "type": "漢字読み",
-        "text": "<u>技</u>の読み方は？",
+        "text": "<u>守る</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "あにめをみる",
-          "ぶっしつ",
-          "わざ",
-          "そんざい"
+          "うつす",
+          "みとめる",
+          "まもる",
+          "きかく"
         ],
         "answer": 2,
         "id": "N3-18-004"
       },
       {
         "type": "漢字読み",
-        "text": "<u>個数</u>の読み方は？",
+        "text": "<u>人間関係</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "はしら",
-          "りく",
-          "こすう",
-          "きる"
+          "えいが",
+          "しょるい",
+          "にんげんかんけい",
+          "さくぶん"
         ],
         "answer": 2,
         "id": "N3-18-005"
       },
       {
         "type": "漢字読み",
-        "text": "<u>類似</u>の読み方は？",
+        "text": "<u>収入</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "なげる",
-          "ちゅうもん",
-          "るいじ",
-          "ちかみちする"
+          "こうぎょう",
+          "きゅうげきに",
+          "しゅうにゅう",
+          "きゃくほん"
         ],
         "answer": 2,
         "id": "N3-18-006"
       },
       {
         "type": "漢字読み",
-        "text": "<u>損</u>の読み方は？",
+        "text": "<u>割合</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "かざり",
-          "ここのつ",
-          "ことなる",
-          "そん"
+          "みみ",
+          "わりあい",
+          "かおいろ",
+          "しあげる"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-18-007"
       },
       {
         "type": "漢字読み",
-        "text": "<u>混ざる</u>の読み方は？",
+        "text": "<u>年代</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "きんぞく",
-          "しょうてんがい",
-          "ようしょく",
-          "まざる"
+          "かんこう",
+          "まざる",
+          "ねんだい",
+          "あつめる"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-18-008"
       },
       {
         "type": "表記",
-        "text": "<u>かんこうぎょう</u>の漢字は？",
+        "text": "<u>そぼ</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "売れる",
-          "観光業",
-          "確定",
-          "生まれる"
+          "無限",
+          "着く",
+          "祖母",
+          "学ぶ"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-18-009"
       },
       {
         "type": "表記",
-        "text": "<u>ならう</u>の漢字は？",
+        "text": "<u>つく</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "上司",
-          "眠る",
-          "習う",
-          "怒り"
+          "着く",
+          "恐ろしい",
+          "間違う",
+          "閉める"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-18-010"
       },
       {
         "type": "表記",
-        "text": "<u>うごく</u>の漢字は？",
+        "text": "<u>ねんかん</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "更に",
-          "フォークを使う",
-          "動く",
-          "営業"
+          "年間",
+          "支度する",
+          "歓迎",
+          "懐かしい"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-18-011"
       },
       {
         "type": "表記",
-        "text": "<u>はんてい</u>の漢字は？",
+        "text": "<u>かんこうち</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "バーベキュー場",
-          "日の入り",
-          "判定",
-          "責める"
+          "壁",
+          "安定",
+          "製造",
+          "観光地"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-18-012"
       },
       {
         "type": "表記",
-        "text": "<u>つたわる</u>の漢字は？",
+        "text": "<u>せいせき</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "四月",
-          "伝わる",
-          "体",
-          "以下"
+          "単なる",
+          "常識",
+          "砂場",
+          "成績"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-18-013"
       },
       {
         "type": "表記",
-        "text": "<u>まる</u>の漢字は？",
+        "text": "<u>たがやす</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "振る",
-          "意思",
-          "一安心",
-          "丸"
+          "掛ける",
+          "耕す",
+          "親子",
+          "何より"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-18-014"
       },
       {
@@ -22772,12 +22772,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>小説<rt>しょうせつ</rt></ruby>",
-          "<ruby>短<rt>たん</rt></ruby>",
-          "<ruby>県<rt>けん</rt></ruby>",
-          "どのように"
+          "<ruby>石<rt>いし</rt></ruby>",
+          "バイク",
+          "<ruby>三角<rt>さんかく</rt></ruby>",
+          "<ruby>地元<rt>じもと</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-18-015"
       },
       {
@@ -22785,10 +22785,10 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>地方<rt>ちほう</rt></ruby>",
-          "<ruby>空く<rt>あく</rt></ruby>",
-          "<ruby>友情<rt>ゆうじょう</rt></ruby>",
-          "<ruby>かなり悪い<rt>かなりわるい</rt></ruby>"
+          "テニス",
+          "<ruby>絶対<rt>ぜったい</rt></ruby>",
+          "<ruby>通常<rt>つうじょう</rt></ruby>",
+          "<ruby>欠ける<rt>かける</rt></ruby>"
         ],
         "answer": 2,
         "id": "N3-18-016"
@@ -22798,12 +22798,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>飲食業<rt>いんしょくぎょう</rt></ruby>",
-          "<ruby>掛け算<rt>かけざん</rt></ruby>",
-          "<ruby>父<rt>ちち</rt></ruby>",
-          "<ruby>許可<rt>きょか</rt></ruby>"
+          "<ruby>電器屋<rt>でんきや</rt></ruby>",
+          "<ruby>汚い<rt>きたない</rt></ruby>",
+          "<ruby>互い<rt>たがい</rt></ruby>",
+          "<ruby>少ない<rt>すくない</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-18-017"
       },
       {
@@ -22811,12 +22811,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>重ねる<rt>かさねる</rt></ruby>",
-          "それから",
-          "<ruby>見解<rt>けんかい</rt></ruby>",
-          "<ruby>毎晩<rt>まいばん</rt></ruby>"
+          "<ruby>鉄棒<rt>てつぼう</rt></ruby>",
+          "<ruby>量<rt>りょう</rt></ruby>",
+          "<ruby>凍る<rt>こおる</rt></ruby>",
+          "<ruby>逆らう<rt>さからう</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-18-018"
       },
       {
@@ -22824,12 +22824,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>差<rt>さ</rt></ruby>",
-          "<ruby>条件<rt>じょうけん</rt></ruby>",
-          "<ruby>危険<rt>きけん</rt></ruby>",
-          "コンサート"
+          "<ruby>目標<rt>もくひょう</rt></ruby>",
+          "<ruby>首<rt>くび</rt></ruby>",
+          "<ruby>生活<rt>せいかつ</rt></ruby>",
+          "<ruby>働き<rt>はたらき</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-18-019"
       },
       {
@@ -22837,12 +22837,12 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>割合<rt>わりあい</rt></ruby>",
-          "<ruby>顧客<rt>こきゃく</rt></ruby>",
-          "<ruby>触れる<rt>ふれる</rt></ruby>",
-          "<ruby>早退<rt>そうたい</rt></ruby>"
+          "<ruby>数万<rt>すうまん</rt></ruby>",
+          "<ruby>起き上がる<rt>おきあがる</rt></ruby>",
+          "<ruby>築く<rt>きずく</rt></ruby>",
+          "<ruby>毎朝<rt>まいあさ</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-18-020"
       },
       {
@@ -22850,12 +22850,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "あそこ",
-          "<ruby>講義<rt>こうぎ</rt></ruby>",
-          "<ruby>解ける<rt>とける</rt></ruby>",
-          "<ruby>成分<rt>せいぶん</rt></ruby>"
+          "ファイル",
+          "<ruby>青<rt>あお</rt></ruby>",
+          "<ruby>退院<rt>たいいん</rt></ruby>",
+          "<ruby>足<rt>あし</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-18-021"
       },
       {
@@ -22863,12 +22863,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>活力<rt>かつりょく</rt></ruby>",
-          "<ruby>相手<rt>あいて</rt></ruby>",
-          "<ruby>広さ<rt>ひろさ</rt></ruby>",
-          "<ruby>解説<rt>かいせつ</rt></ruby>"
+          "<ruby>先日<rt>せんじつ</rt></ruby>",
+          "できる",
+          "<ruby>店員<rt>てんいん</rt></ruby>",
+          "なお"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-18-022"
       },
       {
@@ -22876,10 +22876,10 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>味方<rt>みかた</rt></ruby>",
-          "<ruby>特定<rt>とくてい</rt></ruby>",
-          "<ruby>終える<rt>おえる</rt></ruby>",
-          "<ruby>種<rt>たね</rt></ruby>"
+          "カレー",
+          "<ruby>分割<rt>ぶんかつ</rt></ruby>",
+          "<ruby>個性<rt>こせい</rt></ruby>",
+          "<ruby>太い<rt>ふとい</rt></ruby>"
         ],
         "answer": 1,
         "id": "N3-18-023"
@@ -22889,12 +22889,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>八百屋<rt>やおや</rt></ruby>",
-          "<ruby>オフィス街<rt>おふぃすがい</rt></ruby>",
-          "まず",
-          "ちょっと"
+          "<ruby>頼る<rt>たよる</rt></ruby>",
+          "<ruby>週刊<rt>しゅうかん</rt></ruby>",
+          "ウサギ",
+          "<ruby>解説<rt>かいせつ</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-18-024"
       },
       {
@@ -22902,75 +22902,75 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>汚い<rt>きたない</rt></ruby>",
-          "<ruby>肩<rt>かた</rt></ruby>",
-          "<ruby>分野<rt>ぶんや</rt></ruby>",
-          "<ruby>前日<rt>ぜんじつ</rt></ruby>"
+          "<ruby>学者<rt>がくしゃ</rt></ruby>",
+          "<ruby>遠足<rt>えんそく</rt></ruby>",
+          "<ruby>出会う<rt>であう</rt></ruby>",
+          "<ruby>相手<rt>あいて</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-18-025"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>出来る<rt>できる</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>今晩<rt>こんばん</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "detached house",
-          "to deduct",
-          "if by any chance",
-          "can do"
+          "to admit",
+          "building",
+          "tonight",
+          "breakfast"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-18-026"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>損<rt>そん</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>チーム<rt>ちーむ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "picture",
-          "loss",
-          "fragrance",
-          "luck"
+          "denial",
+          "map",
+          "team",
+          "sharp increase"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-18-027"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>確か<rt>たしか</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>信仰<rt>しんこう</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "for example",
-          "certain",
-          "to be saved",
-          "earring"
+          "faith",
+          "to weigh",
+          "to have meeting",
+          "building"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-18-028"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>本数<rt>ほんすう</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>有効<rt>ゆうこう</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "support",
-          "lecturer",
-          "nail salon",
-          "number of long objects"
+          "effective",
+          "case",
+          "meeting",
+          "meal"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-18-029"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>危機<rt>きき</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>音<rt>おと</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "shoes",
-          "reunion",
-          "crisis",
-          "probably"
+          "bow",
+          "approval",
+          "sound",
+          "to cause"
         ],
         "answer": 2,
         "id": "N3-18-030"
@@ -23211,67 +23211,67 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: ものの / 聞いた / わからない / <ruby>説明<rt>せつめい</rt></ruby>を",
+        "text": "並べ替え: 聞いた / <ruby>説明<rt>せつめい</rt></ruby>を / わからない / ものの",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "ものの",
           "聞いた",
+          "<ruby>説明<rt>せつめい</rt></ruby>を",
           "わからない",
-          "<ruby>説明<rt>せつめい</rt></ruby>を"
+          "ものの"
         ],
         "answer": 3,
         "id": "N3-18-049"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>場合<rt>ばあい</rt></ruby> / <ruby>降る<rt>ふる</rt></ruby> / <ruby>雨<rt>あめ</rt></ruby>が / <ruby>中止<rt>ちゅうし</rt></ruby>になる",
+        "text": "並べ替え: <ruby>雨<rt>あめ</rt></ruby>が / <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>降る<rt>ふる</rt></ruby> / <ruby>場合<rt>ばあい</rt></ruby>",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>場合<rt>ばあい</rt></ruby>",
-          "<ruby>降る<rt>ふる</rt></ruby>",
           "<ruby>雨<rt>あめ</rt></ruby>が",
-          "<ruby>中止<rt>ちゅうし</rt></ruby>になる"
+          "<ruby>中止<rt>ちゅうし</rt></ruby>になる",
+          "<ruby>降る<rt>ふる</rt></ruby>",
+          "<ruby>場合<rt>ばあい</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-18-050"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>医者<rt>いしゃ</rt></ruby> / として / <ruby>彼女<rt>かのじょ</rt></ruby>は / 働いている",
+        "text": "並べ替え: <ruby>彼女<rt>かのじょ</rt></ruby>は / <ruby>医者<rt>いしゃ</rt></ruby> / 働いている / として",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>医者<rt>いしゃ</rt></ruby>",
-          "として",
           "<ruby>彼女<rt>かのじょ</rt></ruby>は",
-          "働いている"
+          "<ruby>医者<rt>いしゃ</rt></ruby>",
+          "働いている",
+          "として"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-18-051"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>笑顔<rt>えがお</rt></ruby>だ / にもかかわらず / <ruby>忙しい<rt>いそがしい</rt></ruby> / <ruby>彼<rt>かれ</rt></ruby>は",
+        "text": "並べ替え: <ruby>彼<rt>かれ</rt></ruby>は / <ruby>忙しい<rt>いそがしい</rt></ruby> / <ruby>笑顔<rt>えがお</rt></ruby>だ / にもかかわらず",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>笑顔<rt>えがお</rt></ruby>だ",
-          "にもかかわらず",
+          "<ruby>彼<rt>かれ</rt></ruby>は",
           "<ruby>忙しい<rt>いそがしい</rt></ruby>",
-          "<ruby>彼<rt>かれ</rt></ruby>は"
+          "<ruby>笑顔<rt>えがお</rt></ruby>だ",
+          "にもかかわらず"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-18-052"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: ものの / わからない / 聞いた / <ruby>説明<rt>せつめい</rt></ruby>を",
+        "text": "並べ替え: ものの / <ruby>説明<rt>せつめい</rt></ruby>を / わからない / 聞いた",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
           "ものの",
+          "<ruby>説明<rt>せつめい</rt></ruby>を",
           "わからない",
-          "聞いた",
-          "<ruby>説明<rt>せつめい</rt></ruby>を"
+          "聞いた"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-18-053"
       },
       {
@@ -23570,7 +23570,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-18-076"
       },
       {
@@ -23583,7 +23583,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-18-077"
       },
       {
@@ -23596,7 +23596,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-18-078"
       },
       {
@@ -23609,7 +23609,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-18-079"
       },
       {
@@ -23635,7 +23635,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-18-081"
       },
       {
@@ -23674,7 +23674,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-18-084"
       },
       {
@@ -23687,7 +23687,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-18-085"
       },
       {
@@ -23713,7 +23713,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-18-087"
       },
       {
@@ -23726,7 +23726,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-18-088"
       },
       {
@@ -23739,7 +23739,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-18-089"
       },
       {
@@ -23765,7 +23765,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-18-091"
       },
       {
@@ -23791,7 +23791,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-18-093"
       },
       {
@@ -23804,7 +23804,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-18-094"
       },
       {
@@ -23830,7 +23830,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-18-096"
       },
       {
@@ -23843,7 +23843,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-18-097"
       },
       {
@@ -23856,7 +23856,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-18-098"
       },
       {
@@ -23869,7 +23869,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-18-099"
       },
       {
@@ -23882,7 +23882,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-18-100"
       },
       {
@@ -23915,184 +23915,184 @@ MOCK_DATA['N3'] = {
     "19": [
       {
         "type": "漢字読み",
-        "text": "<u>乗り換える</u>の読み方は？",
+        "text": "<u>最高</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "がいかん",
-          "のりかえる",
-          "このみ",
-          "きこう"
+          "さいこう",
+          "はねる",
+          "したく",
+          "ぶっしつ"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-19-001"
       },
       {
         "type": "漢字読み",
-        "text": "<u>少し</u>の読み方は？",
+        "text": "<u>列車</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "えいがをみる",
-          "こまかい",
-          "すこし",
-          "てつぼう"
+          "れっしゃ",
+          "ようふく",
+          "かち",
+          "いわ"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-19-002"
       },
       {
         "type": "漢字読み",
-        "text": "<u>信仰</u>の読み方は？",
+        "text": "<u>気にする</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "おさめる",
-          "しんこう",
-          "せい",
-          "よわめる"
+          "おふぃすがい",
+          "でんしゃ",
+          "きにする",
+          "うんこう"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-19-003"
       },
       {
         "type": "漢字読み",
-        "text": "<u>数倍</u>の読み方は？",
+        "text": "<u>電化製品</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "おちゃ",
-          "あしくび",
-          "せいちょう",
-          "すうばい"
+          "おか",
+          "やすみ",
+          "かんぽうやく",
+          "でんかせいひん"
         ],
         "answer": 3,
         "id": "N3-19-004"
       },
       {
         "type": "漢字読み",
-        "text": "<u>山</u>の読み方は？",
+        "text": "<u>散歩する</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "すべりだい",
-          "やま",
-          "かはんすう",
-          "ばいばい"
+          "りゃく",
+          "もと",
+          "つたわる",
+          "さんぽする"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-19-005"
       },
       {
         "type": "漢字読み",
-        "text": "<u>決心する</u>の読み方は？",
+        "text": "<u>先月</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "べつべつ",
-          "けっしんする",
-          "きょねん",
-          "おもたい"
+          "おとこ",
+          "いなか",
+          "ひま",
+          "せんげつ"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-19-006"
       },
       {
         "type": "漢字読み",
-        "text": "<u>別</u>の読み方は？",
+        "text": "<u>小説</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "あお",
-          "ちゃ",
-          "えきこうない",
-          "べつ"
+          "およぐ",
+          "さいずをかくにんする",
+          "あらし",
+          "しょうせつ"
         ],
         "answer": 3,
         "id": "N3-19-007"
       },
       {
         "type": "漢字読み",
-        "text": "<u>駐車</u>の読み方は？",
+        "text": "<u>習慣</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "ちゅうしゃ",
-          "のばす",
-          "すべる",
-          "こうさい"
+          "みせ",
+          "こうもく",
+          "しゅうかん",
+          "しょくば"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-19-008"
       },
       {
         "type": "表記",
-        "text": "<u>あお</u>の漢字は？",
+        "text": "<u>やけい</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "安心する",
-          "明け方",
-          "青",
-          "炭"
+          "備える",
+          "重なる",
+          "靴下",
+          "夜景"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-19-009"
       },
       {
         "type": "表記",
-        "text": "<u>けいこうぺん</u>の漢字は？",
+        "text": "<u>もっとも</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "部屋",
-          "蛍光ペン",
-          "金持ち",
-          "分度器"
+          "指示",
+          "毎晩",
+          "低い",
+          "最も"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-19-010"
       },
       {
         "type": "表記",
-        "text": "<u>しょうせつ</u>の漢字は？",
+        "text": "<u>じみ</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "倍",
-          "小説",
-          "中学校",
-          "読み"
+          "病院",
+          "決定",
+          "間食",
+          "地味"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-19-011"
       },
       {
         "type": "表記",
-        "text": "<u>さんぽ</u>の漢字は？",
+        "text": "<u>まちあわせ</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "散歩",
-          "留まる",
-          "動物",
-          "個数"
+          "広い",
+          "状態",
+          "待ち合わせ",
+          "試合"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-19-012"
       },
       {
         "type": "表記",
-        "text": "<u>いんたい</u>の漢字は？",
+        "text": "<u>たいはん</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "引退",
-          "職業",
-          "活動",
-          "計る"
+          "湖",
+          "地理",
+          "大半",
+          "景色"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-19-013"
       },
       {
         "type": "表記",
-        "text": "<u>きゅうきゅうしゃ</u>の漢字は？",
+        "text": "<u>はんぶん</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "以下",
-          "救急車",
-          "全て",
-          "確率"
+          "半分",
+          "建設",
+          "剣道",
+          "確かに"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-19-014"
       },
       {
@@ -24100,12 +24100,12 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>政治<rt>せいじ</rt></ruby>",
-          "したがって",
-          "<ruby>新しい<rt>あたらしい</rt></ruby>",
-          "<ruby>社会<rt>しゃかい</rt></ruby>"
+          "それから",
+          "<ruby>出会う<rt>であう</rt></ruby>",
+          "<ruby>空気<rt>くうき</rt></ruby>",
+          "<ruby>作文<rt>さくぶん</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-19-015"
       },
       {
@@ -24113,10 +24113,10 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "ほとんど",
-          "<ruby>主<rt>しゅ</rt></ruby>",
-          "<ruby>関係<rt>かんけい</rt></ruby>",
-          "<ruby>経過<rt>けいか</rt></ruby>"
+          "<ruby>正午<rt>しょうご</rt></ruby>",
+          "<ruby>仕上げる<rt>しあげる</rt></ruby>",
+          "<ruby>魚屋<rt>さかなや</rt></ruby>",
+          "<ruby>有効<rt>ゆうこう</rt></ruby>"
         ],
         "answer": 1,
         "id": "N3-19-016"
@@ -24126,12 +24126,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>閉会<rt>へいかい</rt></ruby>",
-          "<ruby>欲しい<rt>ほしい</rt></ruby>",
-          "<ruby>季節<rt>きせつ</rt></ruby>",
-          "<ruby>押す<rt>おす</rt></ruby>"
+          "<ruby>八百屋<rt>やおや</rt></ruby>",
+          "<ruby>週間予報<rt>しゅうかんよほう</rt></ruby>",
+          "<ruby>豊富<rt>ほうふ</rt></ruby>",
+          "<ruby>運<rt>うん</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-19-017"
       },
       {
@@ -24139,10 +24139,10 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>最初<rt>さいしょ</rt></ruby>",
-          "<ruby>具体的には<rt>ぐたいてきには</rt></ruby>",
-          "<ruby>送り届ける<rt>おくりとどける</rt></ruby>",
-          "<ruby>喜ぶ<rt>よろこぶ</rt></ruby>"
+          "<ruby>緩む<rt>ゆるむ</rt></ruby>",
+          "<ruby>勢い<rt>いきおい</rt></ruby>",
+          "<ruby>大学<rt>だいがく</rt></ruby>",
+          "<ruby>逆<rt>ぎゃく</rt></ruby>"
         ],
         "answer": 2,
         "id": "N3-19-018"
@@ -24152,12 +24152,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>北<rt>きた</rt></ruby>",
-          "セール",
-          "<ruby>金属<rt>きんぞく</rt></ruby>",
-          "<ruby>今に<rt>いまに</rt></ruby>"
+          "<ruby>録音<rt>ろくおん</rt></ruby>",
+          "<ruby>明朝<rt>みょうちょう</rt></ruby>",
+          "<ruby>支える<rt>ささえる</rt></ruby>",
+          "レスリング"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-19-019"
       },
       {
@@ -24165,12 +24165,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>滑る<rt>すべる</rt></ruby>",
-          "<ruby>判明<rt>はんめい</rt></ruby>",
-          "<ruby>見る<rt>みる</rt></ruby>",
-          "<ruby>進歩<rt>しんぽ</rt></ruby>"
+          "<ruby>収める<rt>おさめる</rt></ruby>",
+          "あちこち",
+          "<ruby>運転<rt>うんてん</rt></ruby>",
+          "メーカー"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-19-020"
       },
       {
@@ -24178,10 +24178,10 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>足<rt>あし</rt></ruby>",
-          "ブランコ",
-          "<ruby>数<rt>すう</rt></ruby>",
-          "<ruby>血<rt>ち</rt></ruby>"
+          "<ruby>近い<rt>ちかい</rt></ruby>",
+          "<ruby>技術者<rt>ぎじゅつしゃ</rt></ruby>",
+          "こちら",
+          "タクシー"
         ],
         "answer": 3,
         "id": "N3-19-021"
@@ -24191,12 +24191,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>晩ご飯<rt>ばんごはん</rt></ruby>",
-          "<ruby>四つ<rt>よっつ</rt></ruby>",
-          "<ruby>路線図<rt>ろせんず</rt></ruby>",
-          "<ruby>紙<rt>かみ</rt></ruby>"
+          "<ruby>酸<rt>さん</rt></ruby>",
+          "<ruby>地理<rt>ちり</rt></ruby>",
+          "<ruby>断<rt>だん</rt></ruby>",
+          "<ruby>強まる<rt>つよまる</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-19-022"
       },
       {
@@ -24204,12 +24204,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>教育業<rt>きょういくぎょう</rt></ruby>",
-          "<ruby>守る<rt>まもる</rt></ruby>",
-          "パーセント",
-          "<ruby>収入<rt>しゅうにゅう</rt></ruby>"
+          "<ruby>標準<rt>ひょうじゅん</rt></ruby>",
+          "<ruby>留学<rt>りゅうがく</rt></ruby>",
+          "かなり",
+          "<ruby>物理<rt>ぶつり</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-19-023"
       },
       {
@@ -24217,12 +24217,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>父<rt>ちち</rt></ruby>",
-          "<ruby>海外<rt>かいがい</rt></ruby>",
-          "<ruby>話し合う<rt>はなしあう</rt></ruby>",
-          "<ruby>成長<rt>せいちょう</rt></ruby>"
+          "<ruby>引退<rt>いんたい</rt></ruby>",
+          "<ruby>驚く<rt>おどろく</rt></ruby>",
+          "<ruby>適切<rt>てきせつ</rt></ruby>",
+          "だいたい"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-19-024"
       },
       {
@@ -24230,77 +24230,77 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>訪問<rt>ほうもん</rt></ruby>",
-          "<ruby>鉄棒<rt>てつぼう</rt></ruby>",
-          "<ruby>項目<rt>こうもく</rt></ruby>",
-          "<ruby>相互<rt>そうご</rt></ruby>"
+          "<ruby>見る<rt>みる</rt></ruby>",
+          "<ruby>最低<rt>さいてい</rt></ruby>",
+          "<ruby>以上<rt>いじょう</rt></ruby>",
+          "<ruby>漢方薬<rt>かんぽうやく</rt></ruby>"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-19-025"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>計算<rt>けいさん</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>通信<rt>つうしん</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "tree",
-          "calculation",
-          "to be effective",
-          "information desk"
+          "custom",
+          "equal",
+          "communication",
+          "weekly forecast"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-19-026"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>パーマ<rt>ぱーま</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>性質<rt>せいしつ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "to listen",
-          "to go out",
-          "tiredness",
-          "perm"
+          "to make noise",
+          "skirt",
+          "snack",
+          "nature"
         ],
         "answer": 3,
         "id": "N3-19-027"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>絶対<rt>ぜったい</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>構成<rt>こうせい</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "harbor",
-          "ambulance",
-          "absolutely",
-          "rice"
+          "composition",
+          "manufacturing",
+          "constitution",
+          "bon appetit"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-19-028"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>香水<rt>こうすい</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>上司<rt>じょうし</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "decrease",
-          "perfume",
-          "to harden",
-          "grass"
+          "face",
+          "boss",
+          "movie",
+          "lukewarm"
         ],
         "answer": 1,
         "id": "N3-19-029"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>糸<rt>いと</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>弱める<rt>よわめる</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "learning",
-          "thread",
-          "world",
-          "enjoyment"
+          "to weaken",
+          "to look for product",
+          "to call out",
+          "to grow"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-19-030"
       },
       {
@@ -24539,67 +24539,67 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>場合<rt>ばあい</rt></ruby> / <ruby>降る<rt>ふる</rt></ruby> / <ruby>雨<rt>あめ</rt></ruby>が",
+        "text": "並べ替え: <ruby>雨<rt>あめ</rt></ruby>が / <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>場合<rt>ばあい</rt></ruby> / <ruby>降る<rt>ふる</rt></ruby>",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
+          "<ruby>雨<rt>あめ</rt></ruby>が",
           "<ruby>中止<rt>ちゅうし</rt></ruby>になる",
           "<ruby>場合<rt>ばあい</rt></ruby>",
-          "<ruby>降る<rt>ふる</rt></ruby>",
-          "<ruby>雨<rt>あめ</rt></ruby>が"
+          "<ruby>降る<rt>ふる</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-19-049"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: 働いている / として / <ruby>医者<rt>いしゃ</rt></ruby> / <ruby>彼女<rt>かのじょ</rt></ruby>は",
+        "text": "並べ替え: 働いている / として / <ruby>彼女<rt>かのじょ</rt></ruby>は / <ruby>医者<rt>いしゃ</rt></ruby>",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
           "働いている",
           "として",
-          "<ruby>医者<rt>いしゃ</rt></ruby>",
-          "<ruby>彼女<rt>かのじょ</rt></ruby>は"
+          "<ruby>彼女<rt>かのじょ</rt></ruby>は",
+          "<ruby>医者<rt>いしゃ</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-19-050"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: にもかかわらず / <ruby>笑顔<rt>えがお</rt></ruby>だ / <ruby>彼<rt>かれ</rt></ruby>は / <ruby>忙しい<rt>いそがしい</rt></ruby>",
+        "text": "並べ替え: <ruby>忙しい<rt>いそがしい</rt></ruby> / <ruby>彼<rt>かれ</rt></ruby>は / にもかかわらず / <ruby>笑顔<rt>えがお</rt></ruby>だ",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "にもかかわらず",
-          "<ruby>笑顔<rt>えがお</rt></ruby>だ",
+          "<ruby>忙しい<rt>いそがしい</rt></ruby>",
           "<ruby>彼<rt>かれ</rt></ruby>は",
-          "<ruby>忙しい<rt>いそがしい</rt></ruby>"
+          "にもかかわらず",
+          "<ruby>笑顔<rt>えがお</rt></ruby>だ"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-19-051"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: ものの / わからない / <ruby>説明<rt>せつめい</rt></ruby>を / 聞いた",
+        "text": "並べ替え: 聞いた / <ruby>説明<rt>せつめい</rt></ruby>を / ものの / わからない",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "ものの",
-          "わからない",
+          "聞いた",
           "<ruby>説明<rt>せつめい</rt></ruby>を",
-          "聞いた"
+          "ものの",
+          "わからない"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-19-052"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>降る<rt>ふる</rt></ruby> / <ruby>雨<rt>あめ</rt></ruby>が / <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>場合<rt>ばあい</rt></ruby>",
+        "text": "並べ替え: <ruby>雨<rt>あめ</rt></ruby>が / <ruby>降る<rt>ふる</rt></ruby> / <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>場合<rt>ばあい</rt></ruby>",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>降る<rt>ふる</rt></ruby>",
           "<ruby>雨<rt>あめ</rt></ruby>が",
+          "<ruby>降る<rt>ふる</rt></ruby>",
           "<ruby>中止<rt>ちゅうし</rt></ruby>になる",
           "<ruby>場合<rt>ばあい</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-19-053"
       },
       {
@@ -24898,7 +24898,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-19-076"
       },
       {
@@ -24911,7 +24911,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-19-077"
       },
       {
@@ -24937,7 +24937,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-19-079"
       },
       {
@@ -24950,7 +24950,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-19-080"
       },
       {
@@ -24976,7 +24976,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-19-082"
       },
       {
@@ -24989,7 +24989,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-19-083"
       },
       {
@@ -25002,7 +25002,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-19-084"
       },
       {
@@ -25041,7 +25041,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-19-087"
       },
       {
@@ -25054,7 +25054,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-19-088"
       },
       {
@@ -25067,7 +25067,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-19-089"
       },
       {
@@ -25106,7 +25106,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-19-092"
       },
       {
@@ -25119,7 +25119,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-19-093"
       },
       {
@@ -25132,7 +25132,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-19-094"
       },
       {
@@ -25145,7 +25145,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-19-095"
       },
       {
@@ -25158,7 +25158,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-19-096"
       },
       {
@@ -25171,7 +25171,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-19-097"
       },
       {
@@ -25223,7 +25223,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-19-101"
       },
       {
@@ -25236,191 +25236,191 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-19-102"
       }
     ],
     "20": [
       {
         "type": "漢字読み",
-        "text": "<u>先週</u>の読み方は？",
+        "text": "<u>物理</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "おか",
-          "せんしゅう",
-          "るいじ",
-          "むく"
+          "ほう",
+          "にぶい",
+          "こたえる",
+          "ぶつり"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-20-001"
       },
       {
         "type": "漢字読み",
-        "text": "<u>比較</u>の読み方は？",
+        "text": "<u>騒ぐ</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "ひかく",
-          "ざんねん",
-          "ほんをよむ",
-          "しょうご"
+          "さわぐ",
+          "のりかえる",
+          "こうすいりょう",
+          "しぬ"
         ],
         "answer": 0,
         "id": "N3-20-002"
       },
       {
         "type": "漢字読み",
-        "text": "<u>存在</u>の読み方は？",
+        "text": "<u>コート掛け</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "ほうそく",
-          "うたをうたう",
-          "そんざい",
-          "しげん"
+          "こーとかけ",
+          "いかり",
+          "とまる",
+          "せんしゅう"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-20-003"
       },
       {
         "type": "漢字読み",
-        "text": "<u>最近</u>の読み方は？",
+        "text": "<u>離れる</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "へんか",
-          "こおる",
-          "むげん",
-          "さいきん"
+          "はなれる",
+          "ばーべきゅーじょう",
+          "こうぎょう",
+          "はえる"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-20-004"
       },
       {
         "type": "漢字読み",
-        "text": "<u>華やか</u>の読み方は？",
+        "text": "<u>構造</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "きく",
-          "はなやか",
-          "りつ",
-          "はしら"
+          "こうぎょう",
+          "こうぞう",
+          "ふべん",
+          "おんがくをきく"
         ],
         "answer": 1,
         "id": "N3-20-005"
       },
       {
         "type": "漢字読み",
-        "text": "<u>四</u>の読み方は？",
+        "text": "<u>屋上</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "こころ",
-          "まちがう",
-          "かんきょう",
-          "よん"
+          "おくじょう",
+          "けいひ",
+          "ぜったい",
+          "ぎんこう"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-20-006"
       },
       {
         "type": "漢字読み",
-        "text": "<u>数千</u>の読み方は？",
+        "text": "<u>作法</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "ばあい",
-          "ぎょかいるい",
-          "つげる",
-          "すうせん"
+          "さほう",
+          "けってい",
+          "ちいさい",
+          "ひがし"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-20-007"
       },
       {
         "type": "漢字読み",
-        "text": "<u>出掛ける</u>の読み方は？",
+        "text": "<u>定価</u>の読み方は？",
         "question": "読み方",
         "options": [
-          "といあわせる",
-          "たとえば",
-          "でかける",
-          "うつる"
+          "てんそう",
+          "ていか",
+          "みず",
+          "おく"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-20-008"
       },
       {
         "type": "表記",
-        "text": "<u>ちかづける</u>の漢字は？",
+        "text": "<u>いちどに</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "林",
-          "後",
-          "相変わらず",
-          "近づける"
+          "笑う",
+          "一度に",
+          "恐ろしい",
+          "机"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-20-009"
       },
       {
         "type": "表記",
-        "text": "<u>かお</u>の漢字は？",
+        "text": "<u>たすう</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "禁止する",
-          "顔",
-          "谷",
-          "響く"
+          "多数",
+          "神経",
+          "顧客",
+          "親友"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-20-010"
       },
       {
         "type": "表記",
-        "text": "<u>おきあがる</u>の漢字は？",
+        "text": "<u>かつどう</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "起き上がる",
-          "生涯",
-          "知る",
-          "開発"
+          "活動",
+          "時々",
+          "前",
+          "上司"
         ],
         "answer": 0,
         "id": "N3-20-011"
       },
       {
         "type": "表記",
-        "text": "<u>にんしき</u>の漢字は？",
+        "text": "<u>ちきゅう</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "新しい",
-          "述べる",
-          "認識",
-          "固い"
+          "転職",
+          "嫌う",
+          "地球",
+          "歩いて行く"
         ],
         "answer": 2,
         "id": "N3-20-012"
       },
       {
         "type": "表記",
-        "text": "<u>きみ</u>の漢字は？",
+        "text": "<u>ひょうばん</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "承知",
-          "気味",
-          "移転",
-          "境"
+          "濃い",
+          "評判",
+          "激しい",
+          "発明"
         ],
         "answer": 1,
         "id": "N3-20-013"
       },
       {
         "type": "表記",
-        "text": "<u>すいえい</u>の漢字は？",
+        "text": "<u>にがい</u>の漢字は？",
         "question": "書き方",
         "options": [
-          "地下室",
-          "鍵穴",
-          "水泳",
-          "建物"
+          "国民",
+          "苦い",
+          "売れる",
+          "許す"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-20-014"
       },
       {
@@ -25428,12 +25428,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>条件<rt>じょうけん</rt></ruby>",
-          "<ruby>恐れ<rt>おそれ</rt></ruby>",
-          "なるべく",
-          "<ruby>四月<rt>しがつ</rt></ruby>"
+          "だから",
+          "<ruby>行動<rt>こうどう</rt></ruby>",
+          "<ruby>駆ける<rt>かける</rt></ruby>",
+          "<ruby>海外<rt>かいがい</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-20-015"
       },
       {
@@ -25441,12 +25441,12 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>似る<rt>にる</rt></ruby>",
-          "<ruby>一人一人<rt>ひとりひとり</rt></ruby>",
-          "<ruby>靴屋<rt>くつや</rt></ruby>",
-          "<ruby>覚める<rt>さめる</rt></ruby>"
+          "もちろん",
+          "<ruby>一戸建て<rt>いっこだて</rt></ruby>",
+          "<ruby>留学<rt>りゅうがく</rt></ruby>",
+          "<ruby>等しい<rt>ひとしい</rt></ruby>"
         ],
-        "answer": 2,
+        "answer": 3,
         "id": "N3-20-016"
       },
       {
@@ -25454,12 +25454,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>注文<rt>ちゅうもん</rt></ruby>",
-          "<ruby>都市<rt>とし</rt></ruby>",
-          "<ruby>公務員<rt>こうむいん</rt></ruby>",
-          "<ruby>歩道<rt>ほどう</rt></ruby>"
+          "<ruby>住居<rt>じゅうきょ</rt></ruby>",
+          "<ruby>生える<rt>はえる</rt></ruby>",
+          "<ruby>同い年<rt>おないどし</rt></ruby>",
+          "<ruby>関係<rt>かんけい</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-20-017"
       },
       {
@@ -25467,12 +25467,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>発注<rt>はっちゅう</rt></ruby>",
-          "<ruby>生む<rt>うむ</rt></ruby>",
-          "<ruby>炭<rt>たん</rt></ruby>",
-          "<ruby>最も<rt>もっとも</rt></ruby>"
+          "<ruby>留学<rt>りゅうがく</rt></ruby>",
+          "<ruby>教室<rt>きょうしつ</rt></ruby>",
+          "<ruby>入る<rt>はいる</rt></ruby>",
+          "<ruby>金額<rt>きんがく</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-20-018"
       },
       {
@@ -25480,10 +25480,10 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>退化<rt>たいか</rt></ruby>",
-          "<ruby>クリーニング店<rt>くりーにんぐてん</rt></ruby>",
-          "<ruby>数量<rt>すうりょう</rt></ruby>",
-          "<ruby>最近<rt>さいきん</rt></ruby>"
+          "<ruby>幹<rt>みき</rt></ruby>",
+          "<ruby>赤い<rt>あかい</rt></ruby>",
+          "<ruby>知らせ<rt>しらせ</rt></ruby>",
+          "メーカー"
         ],
         "answer": 3,
         "id": "N3-20-019"
@@ -25493,12 +25493,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）に<ruby>基づいて<rt>もとづいて</rt></ruby><ruby>判断する<rt>はんだんする</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>サービス業<rt>さーびすぎょう</rt></ruby>",
-          "<ruby>試験<rt>しけん</rt></ruby>",
-          "<ruby>先週<rt>せんしゅう</rt></ruby>",
-          "<ruby>開く<rt>ひらく</rt></ruby>"
+          "<ruby>使う<rt>つかう</rt></ruby>",
+          "ネックレス",
+          "<ruby>治る<rt>なおる</rt></ruby>",
+          "<ruby>空<rt>そら</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-20-020"
       },
       {
@@ -25506,12 +25506,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は（　）が<ruby>高い<rt>たかい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>電池<rt>でんち</rt></ruby>",
-          "<ruby>新しい<rt>あたらしい</rt></ruby>",
-          "<ruby>断<rt>だん</rt></ruby>",
-          "<ruby>値<rt>ね</rt></ruby>"
+          "ところが",
+          "<ruby>合意<rt>ごうい</rt></ruby>",
+          "<ruby>有効<rt>ゆうこう</rt></ruby>",
+          "<ruby>設定<rt>せってい</rt></ruby>"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-20-021"
       },
       {
@@ -25519,10 +25519,10 @@ MOCK_DATA['N3'] = {
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は（　）が<ruby>必要<rt>ひつよう</rt></ruby>です。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "カット",
-          "そば",
-          "なる",
-          "<ruby>その上<rt>そのうえ</rt></ruby>"
+          "<ruby>案内所<rt>あんないじょ</rt></ruby>",
+          "<ruby>降ろす<rt>おろす</rt></ruby>",
+          "トリートメント",
+          "<ruby>田舎<rt>いなか</rt></ruby>"
         ],
         "answer": 3,
         "id": "N3-20-022"
@@ -25532,12 +25532,12 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>の（　）は<ruby>素晴らしい<rt>すばらしい</rt></ruby>。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>文句<rt>もんく</rt></ruby>",
-          "それに",
-          "<ruby>水族館<rt>すいぞくかん</rt></ruby>",
-          "<ruby>来週<rt>らいしゅう</rt></ruby>"
+          "<ruby>職務<rt>しょくむ</rt></ruby>",
+          "<ruby>工事<rt>こうじ</rt></ruby>",
+          "<ruby>詰まる<rt>つまる</rt></ruby>",
+          "ドラム"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-20-023"
       },
       {
@@ -25545,12 +25545,12 @@ MOCK_DATA['N3'] = {
         "text": "（　）を<ruby>取る<rt>とる</rt></ruby>ために<ruby>努力<rt>どりょく</rt></ruby>した。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>札<rt>さつ</rt></ruby>",
-          "<ruby>銀行<rt>ぎんこう</rt></ruby>",
-          "<ruby>書く<rt>かく</rt></ruby>",
-          "<ruby>応じる<rt>おうじる</rt></ruby>"
+          "<ruby>親しむ<rt>したしむ</rt></ruby>",
+          "<ruby>晩ご飯<rt>ばんごはん</rt></ruby>",
+          "<ruby>違う<rt>ちがう</rt></ruby>",
+          "ギター"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-20-024"
       },
       {
@@ -25558,75 +25558,75 @@ MOCK_DATA['N3'] = {
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>で（　）を述べた。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>高度<rt>こうど</rt></ruby>",
-          "<ruby>観光業<rt>かんこうぎょう</rt></ruby>",
-          "<ruby>貸し出し<rt>かしだし</rt></ruby>",
-          "<ruby>目指す<rt>めざす</rt></ruby>"
+          "<ruby>謝る<rt>あやまる</rt></ruby>",
+          "ショッピングモール",
+          "<ruby>日常<rt>にちじょう</rt></ruby>",
+          "<ruby>追いつく<rt>おいつく</rt></ruby>"
         ],
         "answer": 1,
         "id": "N3-20-025"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>台風<rt>たいふう</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>食べ物<rt>たべもの</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "typhoon",
-          "item",
-          "year",
-          "strainer"
+          "difference",
+          "to be effective",
+          "food",
+          "to catch up"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-20-026"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>祖父<rt>そふ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「すみません」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "to agree",
-          "grandfather",
-          "start",
-          "society"
+          "excuse me",
+          "suddenly",
+          "tournament",
+          "careless"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-20-027"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>日々<rt>ひび</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>カロリー<rt>かろりー</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "daily",
-          "movement",
-          "condition",
-          "bamboo"
+          "bad",
+          "disaster",
+          "calorie",
+          "amount"
         ],
-        "answer": 0,
+        "answer": 2,
         "id": "N3-20-028"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>待合室<rt>まちあいしつ</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>主張<rt>しゅちょう</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "ground",
-          "lecturer",
-          "quantity",
-          "waiting room"
+          "claim",
+          "vitamin",
+          "more than",
+          "to say"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-20-029"
       },
       {
         "type": "言い換え",
-        "text": "「<ruby>馬<rt>うま</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
+        "text": "「<ruby>思い<rt>おもい</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>は？",
         "question": "<ruby>近い<rt>ちかい</rt></ruby><ruby>意味<rt>いみ</rt></ruby>",
         "options": [
-          "horse",
-          "dresser",
-          "group",
-          "rule"
+          "thought",
+          "speaker",
+          "adult",
+          "circumstances"
         ],
         "answer": 0,
         "id": "N3-20-030"
@@ -25867,67 +25867,67 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: として / <ruby>医者<rt>いしゃ</rt></ruby> / 働いている / <ruby>彼女<rt>かのじょ</rt></ruby>は",
+        "text": "並べ替え: <ruby>医者<rt>いしゃ</rt></ruby> / 働いている / <ruby>彼女<rt>かのじょ</rt></ruby>は / として",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "として",
           "<ruby>医者<rt>いしゃ</rt></ruby>",
           "働いている",
-          "<ruby>彼女<rt>かのじょ</rt></ruby>は"
+          "<ruby>彼女<rt>かのじょ</rt></ruby>は",
+          "として"
         ],
-        "answer": 0,
+        "answer": 1,
         "id": "N3-20-049"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>笑顔<rt>えがお</rt></ruby>だ / <ruby>忙しい<rt>いそがしい</rt></ruby> / にもかかわらず / <ruby>彼<rt>かれ</rt></ruby>は",
+        "text": "並べ替え: <ruby>笑顔<rt>えがお</rt></ruby>だ / <ruby>彼<rt>かれ</rt></ruby>は / にもかかわらず / <ruby>忙しい<rt>いそがしい</rt></ruby>",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
           "<ruby>笑顔<rt>えがお</rt></ruby>だ",
-          "<ruby>忙しい<rt>いそがしい</rt></ruby>",
+          "<ruby>彼<rt>かれ</rt></ruby>は",
           "にもかかわらず",
-          "<ruby>彼<rt>かれ</rt></ruby>は"
+          "<ruby>忙しい<rt>いそがしい</rt></ruby>"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-20-050"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: わからない / <ruby>説明<rt>せつめい</rt></ruby>を / 聞いた / ものの",
+        "text": "並べ替え: 聞いた / <ruby>説明<rt>せつめい</rt></ruby>を / わからない / ものの",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "わからない",
-          "<ruby>説明<rt>せつめい</rt></ruby>を",
           "聞いた",
+          "<ruby>説明<rt>せつめい</rt></ruby>を",
+          "わからない",
           "ものの"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-20-051"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>場合<rt>ばあい</rt></ruby> / <ruby>降る<rt>ふる</rt></ruby> / <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>雨<rt>あめ</rt></ruby>が",
+        "text": "並べ替え: <ruby>降る<rt>ふる</rt></ruby> / <ruby>場合<rt>ばあい</rt></ruby> / <ruby>中止<rt>ちゅうし</rt></ruby>になる / <ruby>雨<rt>あめ</rt></ruby>が",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>場合<rt>ばあい</rt></ruby>",
           "<ruby>降る<rt>ふる</rt></ruby>",
+          "<ruby>場合<rt>ばあい</rt></ruby>",
           "<ruby>中止<rt>ちゅうし</rt></ruby>になる",
           "<ruby>雨<rt>あめ</rt></ruby>が"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-20-052"
       },
       {
         "type": "文の組み立て",
-        "text": "並べ替え: <ruby>医者<rt>いしゃ</rt></ruby> / 働いている / として / <ruby>彼女<rt>かのじょ</rt></ruby>は",
+        "text": "並べ替え: <ruby>彼女<rt>かのじょ</rt></ruby>は / 働いている / <ruby>医者<rt>いしゃ</rt></ruby> / として",
         "question": "★に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "<ruby>医者<rt>いしゃ</rt></ruby>",
+          "<ruby>彼女<rt>かのじょ</rt></ruby>は",
           "働いている",
-          "として",
-          "<ruby>彼女<rt>かのじょ</rt></ruby>は"
+          "<ruby>医者<rt>いしゃ</rt></ruby>",
+          "として"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-20-053"
       },
       {
@@ -26226,7 +26226,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-20-076"
       },
       {
@@ -26239,7 +26239,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-20-077"
       },
       {
@@ -26265,7 +26265,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 1,
         "id": "N3-20-079"
       },
       {
@@ -26278,7 +26278,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 2,
         "id": "N3-20-080"
       },
       {
@@ -26291,7 +26291,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-20-081"
       },
       {
@@ -26304,7 +26304,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 2,
         "id": "N3-20-082"
       },
       {
@@ -26317,7 +26317,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 0,
+        "answer": 3,
         "id": "N3-20-083"
       },
       {
@@ -26330,7 +26330,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-20-084"
       },
       {
@@ -26343,7 +26343,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-20-085"
       },
       {
@@ -26356,7 +26356,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-20-086"
       },
       {
@@ -26369,7 +26369,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-20-087"
       },
       {
@@ -26421,7 +26421,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 1,
         "id": "N3-20-091"
       },
       {
@@ -26460,7 +26460,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-20-094"
       },
       {
@@ -26473,7 +26473,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 0,
         "id": "N3-20-095"
       },
       {
@@ -26538,7 +26538,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 1,
+        "answer": 3,
         "id": "N3-20-100"
       },
       {
@@ -26551,7 +26551,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 3,
+        "answer": 0,
         "id": "N3-20-101"
       },
       {
@@ -26564,7 +26564,7 @@ MOCK_DATA['N3'] = {
           "C",
           "D"
         ],
-        "answer": 2,
+        "answer": 0,
         "id": "N3-20-102"
       }
     ]
