@@ -1,7 +1,7 @@
 // Fujisan.AI Data
 // Count: 247
 
-const N4_KANJI = [
+const n4Kanji = [
   {
     "id": "K0001",
     "k": "届",

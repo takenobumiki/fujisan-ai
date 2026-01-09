@@ -1,7 +1,7 @@
 // Fujisan.AI Data
 // Count: 200
 
-const N4_GRAMMAR = [
+const n4Grammar = [
   {
     "id": "G0001",
     "p": "〜ようにする",

@@ -653,23 +653,14 @@ async function loadDrillData(level) {
 async function loadMockData(level) {
   // Check if already loaded (mock.js sets MOCK_DATA directly)
   if (typeof MOCK_DATA !== 'undefined' && MOCK_DATA[level] && MOCK_DATA[level].sets && Object.keys(MOCK_DATA[level].sets).length > 0) {
-    // Verify data integrity
-    const firstSet = MOCK_DATA[level].sets['1'] || MOCK_DATA[level].sets[1];
-    if (firstSet && firstSet.length > 0 && firstSet[0].options) {
-      return true;
-    }
-    // Data seems corrupted, reload
-    console.warn('Mock data appears corrupted, reloading...');
-    delete MOCK_DATA[level];
+    return true;
   }
   if (loadingData[`mock_${level}`]) return loadingData[`mock_${level}`];
   
   const lvl = level.toLowerCase();
   loadingData[`mock_${level}`] = (async () => {
     try {
-      // Add cache buster to force fresh load
-      const cacheBuster = Date.now();
-      await loadScript(`data/mock/${lvl}/mock.js?v=${cacheBuster}`);
+      await loadScript(`data/mock/${lvl}/mock.js`);
       
       // Verify data was loaded
       if (typeof MOCK_DATA !== 'undefined' && MOCK_DATA[level] && MOCK_DATA[level].sets) {
@@ -680,9 +671,6 @@ async function loadMockData(level) {
     } catch (e) {
       console.error(`Failed to load mock data for ${level}:`, e);
       return false;
-    } finally {
-      // Clear loading flag so retry is possible
-      delete loadingData[`mock_${level}`];
     }
   })();
   
@@ -1535,34 +1523,16 @@ function updateUITexts() {
   if (mockPrevBtn) mockPrevBtn.textContent = texts.mock_prev;
   
   // AI Screen
-  const aiTitleText = document.getElementById('ai-title-text');
-  if (aiTitleText) aiTitleText.textContent = texts.ai_title;
+  const aiTitle = document.querySelector('.ai-title');
+  if (aiTitle) aiTitle.textContent = texts.ai_title;
   
-  const aiDescText = document.getElementById('ai-desc-text');
-  if (aiDescText) aiDescText.textContent = texts.ai_desc;
+  const aiDesc = document.querySelector('.ai-desc');
+  if (aiDesc) aiDesc.textContent = texts.ai_desc;
   
   const aiBadge = document.querySelector('.ai-badge');
   if (aiBadge) aiBadge.textContent = texts.ai_premium;
   
-  // AI quick buttons
-  const aiBtnGrowth = document.getElementById('ai-btn-growth');
-  if (aiBtnGrowth) aiBtnGrowth.textContent = texts.ai_growth_areas;
-  
-  const aiBtnScience = document.getElementById('ai-btn-science');
-  if (aiBtnScience) aiBtnScience.textContent = texts.ai_study_science;
-  
-  const aiBtnErrors = document.getElementById('ai-btn-errors');
-  if (aiBtnErrors) aiBtnErrors.textContent = texts.ai_error_patterns;
-  
-  // AI send button
-  const aiSendBtn = document.getElementById('ai-send-btn');
-  if (aiSendBtn) aiSendBtn.textContent = texts.ai_send;
-  
-  // AI input placeholder
-  const aiInput = document.getElementById('aiInput');
-  if (aiInput) aiInput.placeholder = texts.ai_placeholder;
-  
-  // AI features (locked state)
+  // AI features
   const aiFeatures = document.querySelectorAll('.ai-feature');
   const aiFeatureTexts = [
     { title: texts.ai_science, desc: texts.ai_science_desc },
@@ -1578,6 +1548,17 @@ function updateUITexts() {
       if (desc) desc.textContent = aiFeatureTexts[i].desc;
     }
   });
+  
+  // AI chips
+  document.querySelectorAll('.ai-chip').forEach(el => {
+    if (el.textContent.includes('Growth Areas')) el.textContent = texts.ai_growth_areas;
+    if (el.textContent.includes('Study Science')) el.textContent = texts.ai_study_science;
+    if (el.textContent.includes('Error Patterns')) el.textContent = texts.ai_error_patterns;
+  });
+  
+  // AI send button
+  const aiSendBtn = document.querySelector('.ai-send-btn');
+  if (aiSendBtn) aiSendBtn.textContent = texts.ai_send;
   
   // Settings
   const settingsTitle = document.querySelector('.settings-title');
@@ -1944,7 +1925,45 @@ function getSrsStats() {
 // Update SRS display on dashboard
 function updateSrsDisplay() {
   const srsContainer = document.getElementById('srs-stats-container');
-  if (srsContainer) srsContainer.style.display = 'none';
+  if (!srsContainer) return;
+  
+  const stats = getSrsStats();
+  const totalDue = getTotalSrsDueCount();
+  
+  if (stats.total === 0 && totalDue === 0) {
+    srsContainer.style.display = 'none';
+    return;
+  }
+  
+  srsContainer.style.display = 'block';
+  
+  const lang = state.lang || 'en';
+  const labels = {
+    en: { due: 'Due Today', learning: 'Learning', mastered: 'Mastered' },
+    'zh-TW': { due: '今日複習', learning: '學習中', mastered: '已掌握' },
+    'zh-CN': { due: '今日复习', learning: '学习中', mastered: '已掌握' },
+    ko: { due: '오늘 복습', learning: '학습 중', mastered: '마스터' },
+    vi: { due: 'Hôm nay', learning: 'Đang học', mastered: 'Thành thạo' },
+    id: { due: 'Hari ini', learning: 'Sedang belajar', mastered: 'Dikuasai' }
+  };
+  const l = labels[lang] || labels.en;
+  
+  srsContainer.innerHTML = `
+    <div class="srs-stats">
+      <div class="srs-stat ${totalDue > 0 ? 'srs-due' : ''}">
+        <span class="srs-stat-value">${totalDue}</span>
+        <span class="srs-stat-label">${l.due}</span>
+      </div>
+      <div class="srs-stat">
+        <span class="srs-stat-value">${stats.total - stats.mastered}</span>
+        <span class="srs-stat-label">${l.learning}</span>
+      </div>
+      <div class="srs-stat srs-mastered">
+        <span class="srs-stat-value">${stats.mastered}</span>
+        <span class="srs-stat-label">${l.mastered}</span>
+      </div>
+    </div>
+  `;
 }
 
 // ========== END SRS ==========
@@ -2129,6 +2148,12 @@ async function startReview() {
   showLearningQuestion();
 }
 
+// Start drill from dashboard
+function startDrill(type) {
+  if (type === 'quiz' || type === 'learn') startDrill();
+  else if (type === 'review') startReview();
+}
+
 // ========== SOUND EFFECTS ==========
 const SFX = {
   newQuestion: null,
@@ -2191,26 +2216,6 @@ function initSoundEffects() {
       gain.gain.linearRampToValueAtTime(0.01, ctx.currentTime + 0.2);
       osc.start(ctx.currentTime);
       osc.stop(ctx.currentTime + 0.2);
-    };
-    
-    // Typewriter click sound
-    SFX.typewriter = () => {
-      const osc = ctx.createOscillator();
-      const gain = ctx.createGain();
-      const filter = ctx.createBiquadFilter();
-      osc.connect(filter);
-      filter.connect(gain);
-      gain.connect(ctx.destination);
-      filter.type = 'highpass';
-      filter.frequency.setValueAtTime(2000, ctx.currentTime);
-      osc.type = 'square';
-      osc.frequency.setValueAtTime(800, ctx.currentTime);
-      osc.frequency.setValueAtTime(400, ctx.currentTime + 0.01);
-      gain.gain.setValueAtTime(0.15, ctx.currentTime);
-      gain.gain.exponentialDecayTo && gain.gain.exponentialDecayTo(0.001, ctx.currentTime + 0.05);
-      gain.gain.linearRampToValueAtTime(0.001, ctx.currentTime + 0.04);
-      osc.start(ctx.currentTime);
-      osc.stop(ctx.currentTime + 0.05);
     };
   } catch (e) {
     console.log('Sound effects not available');
@@ -3001,29 +3006,11 @@ async function startMock() {
 function showMockQuestion() {
   const q = mockState.questions[mockState.current];
   
-  // Error check - if question is undefined or missing data
-  if (!q || (!q.opts && !q.options)) {
-    console.error('Invalid question data:', q, 'current:', mockState.current);
-    // Try to reload the question
-    if (mockState.questions.length > 0) {
-      // Skip to next valid question
-      for (let i = mockState.current; i < mockState.questions.length; i++) {
-        if (mockState.questions[i] && (mockState.questions[i].opts || mockState.questions[i].options)) {
-          mockState.current = i;
-          showMockQuestion();
-          return;
-        }
-      }
-    }
-    alert('問題データの読み込みに失敗しました。ページを再読み込みしてください。');
-    return;
-  }
-  
   // Update progress
   document.getElementById('mock-progress').textContent = `${mockState.current + 1}/${mockState.questions.length}`;
   
   // Update section header
-  document.getElementById('mockSectionCurrent').textContent = q.section || '';
+  document.getElementById('mockSectionCurrent').textContent = q.section;
   document.getElementById('mockSubsectionCurrent').textContent = (q.subsection || q.type || '').replace('_', ' ');
   
   // Get instruction based on subsection
@@ -3285,9 +3272,6 @@ function playMockAudio() {
 }
 
 function selectMockAnswer(btn, selected, question) {
-  // Play typewriter sound
-  playSound('typewriter');
-  
   // Save answer without showing correct/incorrect (real exam style)
   mockState.answers[question.id] = { selected, question };
   
@@ -5173,9 +5157,6 @@ checkPlanFromURL();
 registerServiceWorker();
 updateUITexts(); // Apply translations on init
 
-// Set initial level theme
-document.body.setAttribute('data-theme', state.level || 'N5');
-
 // Show onboarding for new users
 setTimeout(() => {
   showOnboarding();
@@ -5274,5 +5255,8 @@ document.querySelectorAll('.level-select-btn').forEach(btn => {
     document.body.setAttribute('data-theme', btn.dataset.level);
   }, { passive: true });
 });
+
+// Set initial level theme
+document.body.setAttribute('data-theme', state.level || 'N5');
 
 console.log('Fujisan.AI v' + APP_VERSION + ' loaded (lazy loading enabled)');

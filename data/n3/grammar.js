@@ -1,7 +1,7 @@
 // Fujisan.AI Data
 // Count: 450
 
-const N3_GRAMMAR = [
+const n3Grammar = [
   {
     "id": "G0001",
     "p": "〜っぽい",

@@ -1,5 +1,5 @@
-// Fujisan.AI Service Worker v17.10.0
-const CACHE_NAME = 'fujisan-v17.10.0';
+// Fujisan.AI Service Worker v18.5.2
+const CACHE_NAME = 'fujisan-v18.5.2';
 const urlsToCache = [
   '/',
   '/index.html',
@@ -22,6 +22,10 @@ const urlsToCache = [
   '/data/n1/kanji.js',
   '/data/n1/grammar.js',
   '/data/mock/n5/mock.js',
+  '/data/mock/n4/mock.js',
+  '/data/mock/n3/mock.js',
+  '/data/mock/n2/mock.js',
+  '/data/mock/n1/mock.js',
   '/images/og-image.jpg'
 ];
 
@@ -29,13 +33,9 @@ const urlsToCache = [
 self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(CACHE_NAME)
-      .then(cache => {
-        console.log('Fujisan.AI: Caching app shell');
-        return cache.addAll(urlsToCache);
-      })
-      .catch(err => console.log('Cache error:', err))
+      .then(cache => cache.addAll(urlsToCache))
+      .then(() => self.skipWaiting())
   );
-  self.skipWaiting();
 });
 
 // Activate event - clean old caches
@@ -45,14 +45,12 @@ self.addEventListener('activate', event => {
       return Promise.all(
         cacheNames.map(cacheName => {
           if (cacheName !== CACHE_NAME) {
-            console.log('Fujisan.AI: Removing old cache', cacheName);
             return caches.delete(cacheName);
           }
         })
       );
-    })
+    }).then(() => self.clients.claim())
   );
-  self.clients.claim();
 });
 
 // Fetch event - serve from cache, fallback to network
@@ -63,64 +61,18 @@ self.addEventListener('fetch', event => {
         if (response) {
           return response;
         }
-        return fetch(event.request)
-          .then(response => {
-            if (!response || response.status !== 200 || response.type !== 'basic') {
-              return response;
-            }
-            const responseToCache = response.clone();
-            caches.open(CACHE_NAME)
-              .then(cache => {
-                cache.put(event.request, responseToCache);
-              });
+        return fetch(event.request).then(response => {
+          // Don't cache non-successful responses or non-GET requests
+          if (!response || response.status !== 200 || event.request.method !== 'GET') {
             return response;
+          }
+          // Clone and cache
+          const responseToCache = response.clone();
+          caches.open(CACHE_NAME).then(cache => {
+            cache.put(event.request, responseToCache);
           });
-      })
-      .catch(() => {
-        if (event.request.destination === 'document') {
-          return caches.match('/app.html');
-        }
+          return response;
+        });
       })
   );
 });
-
-// Push notification event
-self.addEventListener('push', event => {
-  const options = {
-    body: event.data ? event.data.text() : 'Time to study Japanese! 🗻',
-    icon: '/images/icon-192.png',
-    badge: '/images/icon-192.png',
-    vibrate: [100, 50, 100],
-    data: {
-      dateOfArrival: Date.now(),
-      primaryKey: 1
-    },
-    actions: [
-      { action: 'study', title: '📚 Study Now' },
-      { action: 'later', title: '⏰ Later' }
-    ]
-  };
-
-  event.waitUntil(
-    self.registration.showNotification('Fujisan.AI', options)
-  );
-});
-
-// Notification click event
-self.addEventListener('notificationclick', event => {
-  event.notification.close();
-  if (event.action === 'study' || !event.action) {
-    event.waitUntil(clients.openWindow('/app.html'));
-  }
-});
-
-// Background sync for offline data
-self.addEventListener('sync', event => {
-  if (event.tag === 'sync-progress') {
-    event.waitUntil(syncProgress());
-  }
-});
-
-async function syncProgress() {
-  console.log('Fujisan.AI: Syncing progress...');
-}

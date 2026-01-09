@@ -1,7 +1,7 @@
 // Fujisan.AI Data
 // Count: 575
 
-const N1_KANJI = [
+const n1Kanji = [
   {
     "id": "K0001",
     "k": "璧",

@@ -1,7 +1,7 @@
 // Fujisan.AI Data
 // Count: 250
 
-const N2_GRAMMAR = [
+const n2Grammar = [
   {
     "id": "G0001",
     "p": "〜に関して",

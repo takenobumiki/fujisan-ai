@@ -1,7 +1,7 @@
 // Fujisan.AI Data
 // Count: 577
 
-const N3_KANJI = [
+const n3Kanji = [
   {
     "id": "K0001",
     "k": "握",
