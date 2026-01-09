@@ -653,14 +653,23 @@ async function loadDrillData(level) {
 async function loadMockData(level) {
   // Check if already loaded (mock.js sets MOCK_DATA directly)
   if (typeof MOCK_DATA !== 'undefined' && MOCK_DATA[level] && MOCK_DATA[level].sets && Object.keys(MOCK_DATA[level].sets).length > 0) {
-    return true;
+    // Verify data integrity
+    const firstSet = MOCK_DATA[level].sets['1'] || MOCK_DATA[level].sets[1];
+    if (firstSet && firstSet.length > 0 && firstSet[0].options) {
+      return true;
+    }
+    // Data seems corrupted, reload
+    console.warn('Mock data appears corrupted, reloading...');
+    delete MOCK_DATA[level];
   }
   if (loadingData[`mock_${level}`]) return loadingData[`mock_${level}`];
   
   const lvl = level.toLowerCase();
   loadingData[`mock_${level}`] = (async () => {
     try {
-      await loadScript(`data/mock/${lvl}/mock.js`);
+      // Add cache buster to force fresh load
+      const cacheBuster = Date.now();
+      await loadScript(`data/mock/${lvl}/mock.js?v=${cacheBuster}`);
       
       // Verify data was loaded
       if (typeof MOCK_DATA !== 'undefined' && MOCK_DATA[level] && MOCK_DATA[level].sets) {
@@ -671,6 +680,9 @@ async function loadMockData(level) {
     } catch (e) {
       console.error(`Failed to load mock data for ${level}:`, e);
       return false;
+    } finally {
+      // Clear loading flag so retry is possible
+      delete loadingData[`mock_${level}`];
     }
   })();
   
@@ -2995,11 +3007,29 @@ async function startMock() {
 function showMockQuestion() {
   const q = mockState.questions[mockState.current];
   
+  // Error check - if question is undefined or missing data
+  if (!q || (!q.opts && !q.options)) {
+    console.error('Invalid question data:', q, 'current:', mockState.current);
+    // Try to reload the question
+    if (mockState.questions.length > 0) {
+      // Skip to next valid question
+      for (let i = mockState.current; i < mockState.questions.length; i++) {
+        if (mockState.questions[i] && (mockState.questions[i].opts || mockState.questions[i].options)) {
+          mockState.current = i;
+          showMockQuestion();
+          return;
+        }
+      }
+    }
+    alert('問題データの読み込みに失敗しました。ページを再読み込みしてください。');
+    return;
+  }
+  
   // Update progress
   document.getElementById('mock-progress').textContent = `${mockState.current + 1}/${mockState.questions.length}`;
   
   // Update section header
-  document.getElementById('mockSectionCurrent').textContent = q.section;
+  document.getElementById('mockSectionCurrent').textContent = q.section || '';
   document.getElementById('mockSubsectionCurrent').textContent = (q.subsection || q.type || '').replace('_', ' ');
   
   // Get instruction based on subsection
