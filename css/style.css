@@ -216,7 +216,7 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
 .followup-btn:active { transform: scale(0.9); }
 .followup-btn:disabled { opacity: 0.5; cursor: not-allowed; }
 .followup-response { font-size: var(--font-sm); line-height: 1.5; padding: var(--space-sm) var(--space-md); background: white; border-radius: 10px; border: 1px solid var(--border); margin-top: var(--space-sm); max-height: 60px; overflow-y: auto; }
-.feedback-next-btn { width: 100%; padding: var(--space-md); background: var(--quiz-color, var(--primary)); color: white; border: none; border-radius: 14px; font-size: var(--font-md); font-weight: 600; cursor: pointer; flex-shrink: 0; margin-top: var(--space-sm); box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: all 0.2s; }
+.feedback-next-btn { width: 100%; padding: var(--space-md); background: var(--quiz-color, var(--primary)); color: white; border: none; border-radius: 14px; font-size: var(--font-md); font-weight: 600; cursor: pointer; flex-shrink: 0; margin-top: var(--space-sm); box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: all 0.2s; position: sticky; bottom: 0; z-index: 10; }
 .feedback-next-btn:active { transform: scale(0.98); }
 
 /* Result Screen */
