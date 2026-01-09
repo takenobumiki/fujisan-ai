@@ -32,7 +32,7 @@
   --bronze: #CD7F32; --silver: #C0C0C0; --gold: #FFD700; --diamond: #B9F2FF;
 }
 
-body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; min-height: 100dvh; overflow: hidden; -webkit-font-smoothing: antialiased; font-size: var(--font-md); line-height: 1.4; }
+body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; min-height: 100dvh; -webkit-font-smoothing: antialiased; font-size: var(--font-md); line-height: 1.4; }
 
 /* Animations - Apple-style smooth easing */
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
@@ -78,7 +78,7 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
 .screen.active { display: flex; flex-direction: column; animation: fadeIn 0.35s var(--ease-out-expo); }
 
 /* Screens that should not scroll (drill/quiz keep fixed layout) */
-#screen-drill, #screen-quiz { overflow: hidden; }
+#screen-drill, #screen-quiz { overflow-y: auto; }
 #screen-mock, #screen-ai, #screen-settings { overflow-y: auto; }
 
 /* Header */
@@ -160,7 +160,7 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
 .category-name { font-size: var(--font-sm); font-weight: 600; color: var(--text); }
 
 /* Quiz Screen */
-.quiz-screen { flex-direction: column; height: calc(100vh - 32px); height: calc(100dvh - 32px); overflow: hidden; padding: var(--space-md) !important; }
+.quiz-screen { flex-direction: column; height: calc(100vh - 32px); height: calc(100dvh - 32px); overflow-y: auto; padding: var(--space-md) !important; }
 .quiz-screen.active { display: flex; }
 .quiz-screen[data-level="N5"] { --quiz-color: var(--n5); --quiz-light: var(--n5-light); }
 .quiz-screen[data-level="N4"] { --quiz-color: var(--n4); --quiz-light: var(--n4-light); }
@@ -239,7 +239,7 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
 
 /* Mock Test Screen */
 /* Mock Screen - Apple-style Compact Design */
-.mock-screen-compact { overflow: hidden !important; }
+.mock-screen-compact { overflow-y: auto !important; }
 .mock-content { flex: 1; display: flex; flex-direction: column; gap: var(--space-md); }
 
 /* Quick Start Card */
