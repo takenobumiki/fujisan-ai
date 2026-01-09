@@ -5266,4 +5266,19 @@ document.querySelectorAll('.level-select-btn').forEach(btn => {
   btn.classList.toggle('active', btn.dataset.level === state.level);
 });
 
+// Level hover preview - instantly change all UI colors on hover
+document.querySelectorAll('.level-select-btn').forEach(btn => {
+  btn.addEventListener('mouseenter', () => {
+    document.body.setAttribute('data-theme', btn.dataset.level);
+  });
+  btn.addEventListener('mouseleave', () => {
+    // Revert to active level when mouse leaves
+    document.body.setAttribute('data-theme', state.level);
+  });
+  // Touch support for mobile
+  btn.addEventListener('touchstart', () => {
+    document.body.setAttribute('data-theme', btn.dataset.level);
+  }, { passive: true });
+});
+
 console.log('Fujisan.AI v' + APP_VERSION + ' loaded (lazy loading enabled)');
