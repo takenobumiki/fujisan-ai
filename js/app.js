@@ -1535,16 +1535,34 @@ function updateUITexts() {
   if (mockPrevBtn) mockPrevBtn.textContent = texts.mock_prev;
   
   // AI Screen
-  const aiTitle = document.querySelector('.ai-title');
-  if (aiTitle) aiTitle.textContent = texts.ai_title;
+  const aiTitleText = document.getElementById('ai-title-text');
+  if (aiTitleText) aiTitleText.textContent = texts.ai_title;
   
-  const aiDesc = document.querySelector('.ai-desc');
-  if (aiDesc) aiDesc.textContent = texts.ai_desc;
+  const aiDescText = document.getElementById('ai-desc-text');
+  if (aiDescText) aiDescText.textContent = texts.ai_desc;
   
   const aiBadge = document.querySelector('.ai-badge');
   if (aiBadge) aiBadge.textContent = texts.ai_premium;
   
-  // AI features
+  // AI quick buttons
+  const aiBtnGrowth = document.getElementById('ai-btn-growth');
+  if (aiBtnGrowth) aiBtnGrowth.textContent = texts.ai_growth_areas;
+  
+  const aiBtnScience = document.getElementById('ai-btn-science');
+  if (aiBtnScience) aiBtnScience.textContent = texts.ai_study_science;
+  
+  const aiBtnErrors = document.getElementById('ai-btn-errors');
+  if (aiBtnErrors) aiBtnErrors.textContent = texts.ai_error_patterns;
+  
+  // AI send button
+  const aiSendBtn = document.getElementById('ai-send-btn');
+  if (aiSendBtn) aiSendBtn.textContent = texts.ai_send;
+  
+  // AI input placeholder
+  const aiInput = document.getElementById('aiInput');
+  if (aiInput) aiInput.placeholder = texts.ai_placeholder;
+  
+  // AI features (locked state)
   const aiFeatures = document.querySelectorAll('.ai-feature');
   const aiFeatureTexts = [
     { title: texts.ai_science, desc: texts.ai_science_desc },
@@ -1560,17 +1578,6 @@ function updateUITexts() {
       if (desc) desc.textContent = aiFeatureTexts[i].desc;
     }
   });
-  
-  // AI chips
-  document.querySelectorAll('.ai-chip').forEach(el => {
-    if (el.textContent.includes('Growth Areas')) el.textContent = texts.ai_growth_areas;
-    if (el.textContent.includes('Study Science')) el.textContent = texts.ai_study_science;
-    if (el.textContent.includes('Error Patterns')) el.textContent = texts.ai_error_patterns;
-  });
-  
-  // AI send button
-  const aiSendBtn = document.querySelector('.ai-send-btn');
-  if (aiSendBtn) aiSendBtn.textContent = texts.ai_send;
   
   // Settings
   const settingsTitle = document.querySelector('.settings-title');

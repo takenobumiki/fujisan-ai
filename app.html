@@ -233,9 +233,10 @@
       </div>
       <div class="followup-response" id="followup-response" style="display:none"></div>
     </div>
-    
-    <button class="feedback-next-btn" id="feedback-next-btn" onclick="advanceToNextQuestion()">次へ →</button>
   </div>
+  
+  <!-- Next Button (always visible at bottom) -->
+  <button class="feedback-next-btn" id="feedback-next-btn" onclick="advanceToNextQuestion()" style="display:none">次へ →</button>
 </div>
 
 <!-- RESULT -->
@@ -475,21 +476,21 @@
   <!-- AI Tutor Unlocked State -->
   <div id="aiUnlocked" style="display:none;">
     <div class="ai-card" style="background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);">
-      <div class="ai-title" style="color:white;">AI Study Coach</div>
-      <div class="ai-desc" style="color:rgba(255,255,255,0.9);">Your guide through the language acquisition journey</div>
+      <div class="ai-title" id="ai-title-text" style="color:white;">AI Study Coach</div>
+      <div class="ai-desc" id="ai-desc-text" style="color:rgba(255,255,255,0.9);">Your guide through the language acquisition journey</div>
     </div>
     
     <div id="aiChatHistory" style="flex:1;overflow-y:auto;padding:12px 0;max-height:400px;"></div>
     
     <div style="display:flex;flex-direction:column;gap:8px;margin-top:auto;">
       <div style="display:flex;flex-wrap:wrap;gap:8px;">
-        <button class="ai-quick-btn" onclick="askAI('Analyze my growth areas and suggest focus points')">📊 My Growth Areas</button>
-        <button class="ai-quick-btn" onclick="askAI('Give me evidence-based study strategies for ' + state.level)">📚 Study Science</button>
-        <button class="ai-quick-btn" onclick="askAI('Help me understand common error patterns in Japanese learning')">🧠 Error Patterns</button>
+        <button class="ai-quick-btn" id="ai-btn-growth" onclick="askAI('Analyze my growth areas and suggest focus points')">📊 My Growth Areas</button>
+        <button class="ai-quick-btn" id="ai-btn-science" onclick="askAI('Give me evidence-based study strategies for ' + state.level)">📚 Study Science</button>
+        <button class="ai-quick-btn" id="ai-btn-errors" onclick="askAI('Help me understand common error patterns in Japanese learning')">🧠 Error Patterns</button>
       </div>
       <div style="display:flex;gap:8px;">
         <input type="text" id="aiInput" placeholder="Ask about grammar, vocabulary, or learning strategies..." style="flex:1;padding:12px;border:1px solid var(--border);border-radius:12px;font-size:15px;" onkeypress="if(event.key==='Enter')sendAIMessage()">
-        <button onclick="sendAIMessage()" style="padding:12px 20px;background:var(--primary);color:white;border:none;border-radius:12px;font-weight:600;">Send</button>
+        <button id="ai-send-btn" onclick="sendAIMessage()" style="padding:12px 20px;background:var(--primary);color:white;border:none;border-radius:12px;font-weight:600;">Send</button>
       </div>
     </div>
   </div>
