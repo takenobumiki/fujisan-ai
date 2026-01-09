@@ -5361,10 +5361,25 @@ checkPlanFromURL();
 registerServiceWorker();
 updateUITexts(); // Apply translations on init
 
-// Show onboarding for new users
-setTimeout(() => {
-  showOnboarding();
-}, 100);
+// Check if coming from LP login (skip onboarding)
+const urlParams = new URLSearchParams(window.location.search);
+const fromLogin = urlParams.get('logged_in');
+if (fromLogin) {
+  // Clean URL
+  window.history.replaceState({}, '', window.location.pathname);
+  // Mark onboarding as complete for logged-in users from LP
+  if (!state.onboardingComplete) {
+    state.onboardingComplete = true;
+    saveState();
+  }
+}
+
+// Show onboarding for new users (only if not from LP login)
+if (!fromLogin) {
+  setTimeout(() => {
+    showOnboarding();
+  }, 100);
+}
 
 // S3: Swipe to switch tabs
 (function initSwipeNavigation() {
