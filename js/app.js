@@ -394,14 +394,37 @@ const STRIPE_CUSTOMER_PORTAL = 'https://billing.stripe.com/p/login/6oE6s81f66Wkg
 // ========== REFERRAL SYSTEM ==========
 const REFERRAL_CODES = ['REF001', 'REF002', 'REF003', 'REF004', 'REF005', 'REF006', 'REF007', 'REF008', 'REF009', 'REF010'];
 
+// Generate unique referral code for user
+function generateUniqueReferralCode() {
+  // Use userId if available, otherwise create random
+  const base = state.userId ? state.userId.substring(0, 6).toUpperCase() : '';
+  const random = Math.random().toString(36).substring(2, 6).toUpperCase();
+  return 'FJ' + (base || random) + random.substring(0, 2);
+}
+
 // Get user's assigned referral code (for now, based on user index or manual assignment)
 function getMyReferralCode() {
   // Check if already assigned
   let myCode = localStorage.getItem('fujisan_my_referral_code');
-  if (myCode) return myCode;
+  if (myCode && myCode !== 'Coming Soon') return myCode;
   
-  // For now, assign based on creation order (in production, use Firebase)
-  // This is a placeholder - in production, assign from server
+  // Generate unique code based on userId or random
+  if (state.userId) {
+    myCode = generateUniqueReferralCode();
+    localStorage.setItem('fujisan_my_referral_code', myCode);
+    
+    // Also save to Firestore for tracking
+    if (typeof db !== 'undefined') {
+      db.collection('users').doc(state.userId).set({
+        referralCode: myCode,
+        referralCodeCreatedAt: firebase.firestore.FieldValue.serverTimestamp()
+      }, { merge: true }).catch(e => console.log('Could not save referral code:', e));
+    }
+    
+    return myCode;
+  }
+  
+  // Fallback to predefined codes for non-logged-in users
   const userIndex = parseInt(localStorage.getItem('fujisan_user_index') || '0');
   if (userIndex < REFERRAL_CODES.length) {
     myCode = REFERRAL_CODES[userIndex];
@@ -409,8 +432,101 @@ function getMyReferralCode() {
     return myCode;
   }
   
-  // If no more codes, generate a placeholder
-  return 'Coming Soon';
+  // If no more codes and not logged in, generate temporary one
+  myCode = generateUniqueReferralCode();
+  localStorage.setItem('fujisan_my_referral_code', myCode);
+  return myCode;
+}
+
+// Handle incoming referral code from URL
+async function handleReferralCode(refCode) {
+  // Validate referral code format
+  if (!refCode || refCode.length < 3) return;
+  
+  // Don't allow self-referral
+  const myCode = localStorage.getItem('fujisan_my_referral_code');
+  if (myCode && myCode === refCode) {
+    console.log('Self-referral not allowed');
+    return;
+  }
+  
+  // Check if already referred
+  if (state.referredBy) {
+    console.log('Already referred by:', state.referredBy);
+    return;
+  }
+  
+  // Store referral info
+  state.referredBy = refCode;
+  state.referredAt = new Date().toISOString();
+  
+  // Grant 30-day extended trial (instead of 7 days)
+  const trialExpiry = new Date();
+  trialExpiry.setDate(trialExpiry.getDate() + 30);
+  state.planExpiry = trialExpiry.toISOString();
+  state.isTrialing = true;
+  state.plan = state.plan || 'basic'; // Give basic plan if none
+  state.referralBonus = '30-day-trial';
+  
+  saveState();
+  
+  // Clean URL
+  window.history.replaceState({}, '', window.location.pathname);
+  
+  // Note: Firestore recording happens in syncUserData() after login
+  
+  // Show welcome message
+  const lang = state.lang || 'en';
+  const messages = {
+    en: '🎁 Welcome! You\'ve been referred by a friend and received a 30-day free trial!',
+    'zh-TW': '🎁 歡迎！您透過朋友推薦獲得了30天免費試用！',
+    'zh-CN': '🎁 欢迎！您通过朋友推荐获得了30天免费试用！',
+    ko: '🎁 환영합니다! 친구 추천으로 30일 무료 체험을 받으셨습니다!',
+    vi: '🎁 Chào mừng! Bạn đã được giới thiệu và nhận 30 ngày dùng thử miễn phí!',
+    id: '🎁 Selamat datang! Anda mendapat uji coba gratis 30 hari dari referensi teman!'
+  };
+  
+  setTimeout(() => {
+    alert(messages[lang] || messages.en);
+  }, 800);
+  
+  console.log('Referral applied:', { refCode, trialExpiry: state.planExpiry });
+}
+
+// Check and reward referrer when user subscribes
+async function checkAndRewardReferrer() {
+  if (!state.referredBy || state.referrerRewarded) return;
+  
+  // Only reward when user actually subscribes (not during trial)
+  if (state.isTrialing) return;
+  
+  try {
+    if (typeof db !== 'undefined') {
+      // Find referrer by code and grant them 1 month free
+      const referralsRef = db.collection('referrals');
+      const snapshot = await referralsRef
+        .where('referrerCode', '==', state.referredBy)
+        .where('referredUserId', '==', state.userId)
+        .where('status', '==', 'pending')
+        .get();
+      
+      if (!snapshot.empty) {
+        const doc = snapshot.docs[0];
+        await doc.ref.update({
+          status: 'completed',
+          completedAt: firebase.firestore.FieldValue.serverTimestamp(),
+          referrerReward: '1-month-free'
+        });
+        
+        state.referrerRewarded = true;
+        saveState();
+        
+        console.log('Referrer reward recorded');
+      }
+    }
+  } catch (e) {
+    console.log('Could not reward referrer:', e);
+  }
 }
 
 // Copy referral code to clipboard
@@ -448,7 +564,26 @@ function fallbackCopyReferralCode(text) {
 function updateReferralDisplay() {
   const codeEl = document.getElementById('myReferralCode');
   if (codeEl) {
-    codeEl.textContent = getMyReferralCode();
+    const code = getMyReferralCode();
+    codeEl.textContent = `fujisan.ai/?ref=${code}`;
+  }
+  
+  // Show referral status if user was referred
+  const statusEl = document.getElementById('referralStatus');
+  const bonusTextEl = document.getElementById('referralBonusText');
+  if (statusEl && state.referredBy) {
+    statusEl.style.display = 'block';
+    if (bonusTextEl) {
+      const expiry = state.planExpiry ? new Date(state.planExpiry) : null;
+      if (expiry && expiry > new Date()) {
+        const daysLeft = Math.ceil((expiry - new Date()) / (1000 * 60 * 60 * 24));
+        bonusTextEl.textContent = `30-day trial: ${daysLeft} days remaining`;
+      } else {
+        bonusTextEl.textContent = 'Trial bonus applied';
+      }
+    }
+  } else if (statusEl) {
+    statusEl.style.display = 'none';
   }
 }
 
@@ -3982,6 +4117,12 @@ function checkPlanFromURL() {
   const status = params.get('status');
   const billing = params.get('billing');
   const sessionId = params.get('session_id');
+  const refCode = params.get('ref');
+  
+  // Handle referral code: ?ref=XXX
+  if (refCode && !state.referredBy) {
+    handleReferralCode(refCode);
+  }
   
   // Stripe成功時: ?plan=xxx&billing=xxx&status=success&session_id=xxx
   if (plan && ['basic', 'standard', 'premium'].includes(plan)) {
@@ -3992,11 +4133,33 @@ function checkPlanFromURL() {
       state.billing = billing || 'annual'; // デフォルトは年払い
       state.stripeSessionId = sessionId || null;
       
-      // Set trial period: 7 days from now
-      const trialExpiry = new Date();
-      trialExpiry.setDate(trialExpiry.getDate() + 7);
-      state.planExpiry = trialExpiry.toISOString();
-      state.isTrialing = true; // Mark as in trial period
+      // Check if this is an actual subscription (not trial start)
+      // If session_id exists and status=success, this is a real payment
+      const isRealPayment = sessionId && status === 'success';
+      
+      if (isRealPayment) {
+        // Real payment - no longer trialing
+        state.isTrialing = false;
+        // Set plan expiry based on billing cycle
+        const planExpiry = new Date();
+        if (billing === 'monthly') {
+          planExpiry.setMonth(planExpiry.getMonth() + 1);
+        } else {
+          planExpiry.setFullYear(planExpiry.getFullYear() + 1);
+        }
+        state.planExpiry = planExpiry.toISOString();
+        
+        // Reward referrer if applicable
+        checkAndRewardReferrer();
+      } else {
+        // Trial start - 7 days (or 30 if referred)
+        const trialDays = state.referredBy ? 30 : 7;
+        const trialExpiry = new Date();
+        trialExpiry.setDate(trialExpiry.getDate() + trialDays);
+        state.planExpiry = trialExpiry.toISOString();
+        state.isTrialing = true;
+      }
+      
       saveState();
       
       // URLをクリーンに
@@ -5001,6 +5164,9 @@ function initFirebase() {
 async function syncUserData() {
   if (!currentUser || !firebaseDb) return;
   
+  // Set userId for referral tracking
+  state.userId = currentUser.uid;
+  
   // Update email display
   const emailEl = document.getElementById('settingsEmail');
   if (emailEl) emailEl.textContent = currentUser.email || 'Logged in';
@@ -5017,8 +5183,46 @@ async function syncUserData() {
       saveState();
       updateDashboard();
     }
+    
+    // Record referral to Firestore if pending (user was referred before login)
+    if (state.referredBy && !state.referralRecordedToFirestore) {
+      await recordReferralToFirestore();
+    }
+    
+    // Generate and save referral code for this user
+    getMyReferralCode();
+    
   } catch (e) {
     console.log('Sync error:', e);
+  }
+}
+
+// Record referral relationship to Firestore
+async function recordReferralToFirestore() {
+  if (!currentUser || !firebaseDb || !state.referredBy) return;
+  
+  try {
+    // Check if already recorded
+    const existing = await firebaseDb.collection('referrals')
+      .where('referredUserId', '==', currentUser.uid)
+      .get();
+    
+    if (existing.empty) {
+      await firebaseDb.collection('referrals').add({
+        referrerCode: state.referredBy,
+        referredUserId: currentUser.uid,
+        referredEmail: currentUser.email,
+        referredAt: firebase.firestore.FieldValue.serverTimestamp(),
+        bonusGranted: '30-day-trial',
+        status: 'pending' // Will be 'completed' when they subscribe
+      });
+      
+      state.referralRecordedToFirestore = true;
+      saveState();
+      console.log('Referral recorded to Firestore');
+    }
+  } catch (e) {
+    console.log('Could not record referral:', e);
   }
 }
 
