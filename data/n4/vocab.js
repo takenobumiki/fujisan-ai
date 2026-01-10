@@ -13,7 +13,14 @@ const N4_VOCAB = [
       "ko": "배달하다",
       "vi": "giao",
       "id": "mengirim"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "友達に荷物を届ける",
+    "syn": [
+      "送る",
+      "渡す",
+      "配達する"
+    ]
   },
   {
     "id": "V0002",
@@ -26,7 +33,14 @@ const N4_VOCAB = [
       "ko": "도착하다",
       "vi": "đến",
       "id": "sampai"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "手紙が届く",
+    "syn": [
+      "着く",
+      "到着する",
+      "届く"
+    ]
   },
   {
     "id": "V0003",
@@ -39,7 +53,9 @@ const N4_VOCAB = [
       "ko": "신고",
       "vi": "thông báo",
       "id": "pemberitahuan"
-    }
+    },
+    "pos": "noun",
+    "ex": "届を出す"
   },
   {
     "id": "V0004",
@@ -52,7 +68,14 @@ const N4_VOCAB = [
       "ko": "신고",
       "vi": "khai báo",
       "id": "laporan"
-    }
+    },
+    "pos": "noun",
+    "ex": "届け出を提出する",
+    "syn": [
+      "申請",
+      "届",
+      "報告"
+    ]
   },
   {
     "id": "V0005",
@@ -65,7 +88,14 @@ const N4_VOCAB = [
       "ko": "배송지",
       "vi": "địa chỉ giao",
       "id": "alamat tujuan"
-    }
+    },
+    "pos": "noun",
+    "ex": "届け先を確認する",
+    "syn": [
+      "送付先",
+      "宛先",
+      "配送先"
+    ]
   },
   {
     "id": "V0006",
@@ -78,7 +108,14 @@ const N4_VOCAB = [
       "ko": "모으다",
       "vi": "thu thập",
       "id": "mengumpulkan"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "切手を集めるのが趣味だ",
+    "syn": [
+      "収集する",
+      "集合させる",
+      "寄せ集める"
+    ]
   },
   {
     "id": "V0007",
@@ -91,7 +128,14 @@ const N4_VOCAB = [
       "ko": "모이다",
       "vi": "tụ họp",
       "id": "berkumpul"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "駅前に人が集まる",
+    "syn": [
+      "集合する",
+      "寄り集まる",
+      "参集する"
+    ]
   },
   {
     "id": "V0008",
@@ -104,7 +148,14 @@ const N4_VOCAB = [
       "ko": "나아가다",
       "vi": "tiến lên",
       "id": "maju"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "工事が順調に進む",
+    "syn": [
+      "前進する",
+      "進行する",
+      "発展する"
+    ]
   },
   {
     "id": "V0009",
@@ -117,7 +168,14 @@ const N4_VOCAB = [
       "ko": "진행하다",
       "vi": "thúc đẩy",
       "id": "memajukan"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "計画を進める",
+    "syn": [
+      "推進する",
+      "促進する",
+      "前進させる"
+    ]
   },
   {
     "id": "V0010",
@@ -130,7 +188,14 @@ const N4_VOCAB = [
       "ko": "정하다",
       "vi": "quyết định",
       "id": "memutuskan"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "旅行の日程を決める",
+    "syn": [
+      "決定する",
+      "定める",
+      "確定する"
+    ]
   },
   {
     "id": "V0011",
@@ -143,7 +208,14 @@ const N4_VOCAB = [
       "ko": "정해지다",
       "vi": "được quyết định",
       "id": "diputuskan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "会議の場所が決まる",
+    "syn": [
+      "確定する",
+      "定まる",
+      "決定される"
+    ]
   },
   {
     "id": "V0012",
@@ -156,7 +228,14 @@ const N4_VOCAB = [
       "ko": "바꾸다",
       "vi": "thay đổi",
       "id": "mengubah"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "髪型を変える",
+    "syn": [
+      "変更する",
+      "改める",
+      "替える"
+    ]
   },
   {
     "id": "V0013",
@@ -169,7 +248,14 @@ const N4_VOCAB = [
       "ko": "변하다",
       "vi": "thay đổi",
       "id": "berubah"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "季節が変わる",
+    "syn": [
+      "変化する",
+      "移り変わる",
+      "異なる"
+    ]
   },
   {
     "id": "V0014",
@@ -182,7 +268,14 @@ const N4_VOCAB = [
       "ko": "전하다",
       "vi": "truyền đạt",
       "id": "menyampaikan"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "感謝の気持ちを伝える",
+    "syn": [
+      "知らせる",
+      "連絡する",
+      "報告する"
+    ]
   },
   {
     "id": "V0015",
@@ -195,7 +288,14 @@ const N4_VOCAB = [
       "ko": "전해지다",
       "vi": "được truyền",
       "id": "tersampaikan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "噂が伝わる",
+    "syn": [
+      "広まる",
+      "伝達される",
+      "知れ渡る"
+    ]
   },
   {
     "id": "V0016",
@@ -208,7 +308,14 @@ const N4_VOCAB = [
       "ko": "기르다",
       "vi": "nuôi dưỡng",
       "id": "membesarkan"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "花を育てる",
+    "syn": [
+      "養う",
+      "育成する",
+      "成長させる"
+    ]
   },
   {
     "id": "V0017",
@@ -221,7 +328,14 @@ const N4_VOCAB = [
       "ko": "자라다",
       "vi": "lớn lên",
       "id": "tumbuh"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "子供が元気に育つ",
+    "syn": [
+      "成長する",
+      "発育する",
+      "大きくなる"
+    ]
   },
   {
     "id": "V0018",
@@ -234,7 +348,14 @@ const N4_VOCAB = [
       "ko": "늘다",
       "vi": "tăng",
       "id": "bertambah"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "観光客が増える",
+    "syn": [
+      "増加する",
+      "多くなる",
+      "増大する"
+    ]
   },
   {
     "id": "V0019",
@@ -247,7 +368,14 @@ const N4_VOCAB = [
       "ko": "늘리다",
       "vi": "tăng thêm",
       "id": "menambah"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "貯金を増やす",
+    "syn": [
+      "増加させる",
+      "拡大する",
+      "多くする"
+    ]
   },
   {
     "id": "V0020",
@@ -260,7 +388,14 @@ const N4_VOCAB = [
       "ko": "줄다",
       "vi": "giảm",
       "id": "berkurang"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "人口が減る",
+    "syn": [
+      "減少する",
+      "少なくなる",
+      "縮小する"
+    ]
   },
   {
     "id": "V0021",
@@ -273,7 +408,14 @@ const N4_VOCAB = [
       "ko": "줄이다",
       "vi": "giảm bớt",
       "id": "mengurangi"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "出費を減らす",
+    "syn": [
+      "削減する",
+      "縮小する",
+      "少なくする"
+    ]
   },
   {
     "id": "V0022",
@@ -286,7 +428,14 @@ const N4_VOCAB = [
       "ko": "계속하다",
       "vi": "tiếp tục",
       "id": "melanjutkan"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "毎日運動を続ける",
+    "syn": [
+      "継続する",
+      "持続する",
+      "維持する"
+    ]
   },
   {
     "id": "V0023",
@@ -299,7 +448,14 @@ const N4_VOCAB = [
       "ko": "이어지다",
       "vi": "tiếp diễn",
       "id": "berlanjut"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "雨が三日間続く",
+    "syn": [
+      "継続する",
+      "持続する",
+      "連続する"
+    ]
   },
   {
     "id": "V0024",
@@ -312,7 +468,14 @@ const N4_VOCAB = [
       "ko": "남다",
       "vi": "còn lại",
       "id": "tersisa"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "印象に残る",
+    "syn": [
+      "残存する",
+      "とどまる",
+      "留まる"
+    ]
   },
   {
     "id": "V0025",
@@ -325,7 +488,14 @@ const N4_VOCAB = [
       "ko": "남기다",
       "vi": "để lại",
       "id": "meninggalkan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "仕事を残す",
+    "syn": [
+      "残存させる",
+      "取り置く",
+      "保存する"
+    ]
   },
   {
     "id": "V0026",
@@ -338,7 +508,14 @@ const N4_VOCAB = [
       "ko": "정리하다",
       "vi": "dọn dẹp",
       "id": "merapikan"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "部屋を片付ける",
+    "syn": [
+      "整理する",
+      "整頓する",
+      "清掃する"
+    ]
   },
   {
     "id": "V0027",
@@ -351,7 +528,14 @@ const N4_VOCAB = [
       "ko": "정리되다",
       "vi": "được dọn",
       "id": "rapi"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "仕事が片付く",
+    "syn": [
+      "整理される",
+      "解決する",
+      "終わる"
+    ]
   },
   {
     "id": "V0028",
@@ -364,7 +548,14 @@ const N4_VOCAB = [
       "ko": "찾다",
       "vi": "tìm thấy",
       "id": "menemukan"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "落とし物を見つける",
+    "syn": [
+      "発見する",
+      "見出す",
+      "探し出す"
+    ]
   },
   {
     "id": "V0029",
@@ -377,7 +568,14 @@ const N4_VOCAB = [
       "ko": "발견되다",
       "vi": "được tìm thấy",
       "id": "ditemukan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "犯人が見つかる",
+    "syn": [
+      "発見される",
+      "見出される",
+      "判明する"
+    ]
   },
   {
     "id": "V0030",
@@ -390,7 +588,14 @@ const N4_VOCAB = [
       "ko": "맞추다",
       "vi": "kịp",
       "id": "tepat waktu"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "電車に間に合う",
+    "syn": [
+      "到着する",
+      "追いつく",
+      "達する"
+    ]
   },
   {
     "id": "V0031",
@@ -403,7 +608,14 @@ const N4_VOCAB = [
       "ko": "도움이 되다",
       "vi": "hữu ích",
       "id": "berguna"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "経験が役立つ",
+    "syn": [
+      "役に立つ",
+      "有用である",
+      "活用できる"
+    ]
   },
   {
     "id": "V0032",
@@ -416,7 +628,14 @@ const N4_VOCAB = [
       "ko": "알아차리다",
       "vi": "nhận ra",
       "id": "menyadari"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "間違いに気付く",
+    "syn": [
+      "気がつく",
+      "認識する",
+      "察知する"
+    ]
   },
   {
     "id": "V0033",
@@ -429,7 +648,14 @@ const N4_VOCAB = [
       "ko": "떠올리다",
       "vi": "nhớ lại",
       "id": "mengingat"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "子供の頃を思い出す",
+    "syn": [
+      "回想する",
+      "想起する",
+      "記憶を呼び起こす"
+    ]
   },
   {
     "id": "V0034",
@@ -442,7 +668,14 @@ const N4_VOCAB = [
       "ko": "신청하다",
       "vi": "đăng ký",
       "id": "mendaftar"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "セミナーに申し込む",
+    "syn": [
+      "応募する",
+      "登録する",
+      "申請する"
+    ]
   },
   {
     "id": "V0035",
@@ -455,7 +688,14 @@ const N4_VOCAB = [
       "ko": "취소하다",
       "vi": "hủy bỏ",
       "id": "membatalkan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "予約を取り消す",
+    "syn": [
+      "キャンセルする",
+      "解約する",
+      "撤回する"
+    ]
   },
   {
     "id": "V0036",
@@ -468,7 +708,14 @@ const N4_VOCAB = [
       "ko": "맡다",
       "vi": "đảm nhận",
       "id": "menerima"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "仕事を引き受ける",
+    "syn": [
+      "担当する",
+      "請け負う",
+      "受諾する"
+    ]
   },
   {
     "id": "V0037",
@@ -481,7 +728,9 @@ const N4_VOCAB = [
       "ko": "협의하다",
       "vi": "bàn bạc",
       "id": "berunding"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "打ち合わせることができる"
   },
   {
     "id": "V0038",
@@ -494,7 +743,14 @@ const N4_VOCAB = [
       "ko": "받다",
       "vi": "nhận",
       "id": "menerima"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "荷物を受け取る",
+    "syn": [
+      "受領する",
+      "受理する",
+      "もらう"
+    ]
   },
   {
     "id": "V0039",
@@ -507,7 +763,14 @@ const N4_VOCAB = [
       "ko": "접수하다",
       "vi": "tiếp nhận",
       "id": "menerima"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "申し込みを受け付ける",
+    "syn": [
+      "受理する",
+      "受諾する",
+      "承認する"
+    ]
   },
   {
     "id": "V0040",
@@ -520,7 +783,14 @@ const N4_VOCAB = [
       "ko": "다루다",
       "vi": "đề cập",
       "id": "mengangkat"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "テーマとして取り上げる",
+    "syn": [
+      "扱う",
+      "採用する",
+      "選ぶ"
+    ]
   },
   {
     "id": "V0041",
@@ -533,7 +803,14 @@ const N4_VOCAB = [
       "ko": "기뻐하다",
       "vi": "vui mừng",
       "id": "senang"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "プレゼントを喜ぶ",
+    "syn": [
+      "嬉しがる",
+      "歓喜する",
+      "楽しむ"
+    ]
   },
   {
     "id": "V0042",
@@ -546,7 +823,14 @@ const N4_VOCAB = [
       "ko": "슬퍼하다",
       "vi": "buồn",
       "id": "bersedih"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "別れを悲しむ",
+    "syn": [
+      "嘆く",
+      "悔やむ",
+      "哀しむ"
+    ]
   },
   {
     "id": "V0043",
@@ -559,7 +843,14 @@ const N4_VOCAB = [
       "ko": "놀라다",
       "vi": "ngạc nhiên",
       "id": "terkejut"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "ニュースに驚く",
+    "syn": [
+      "びっくりする",
+      "仰天する",
+      "衝撃を受ける"
+    ]
   },
   {
     "id": "V0044",
@@ -572,7 +863,14 @@ const N4_VOCAB = [
       "ko": "화내다",
       "vi": "tức giận",
       "id": "marah"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "失礼な態度に怒る",
+    "syn": [
+      "腹を立てる",
+      "激怒する",
+      "憤慨する"
+    ]
   },
   {
     "id": "V0045",
@@ -585,7 +883,14 @@ const N4_VOCAB = [
       "ko": "곤란하다",
       "vi": "khó xử",
       "id": "kesulitan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "道に迷って困る",
+    "syn": [
+      "困惑する",
+      "当惑する",
+      "難儀する"
+    ]
   },
   {
     "id": "V0046",
@@ -598,7 +903,14 @@ const N4_VOCAB = [
       "ko": "망설이다",
       "vi": "do dự",
       "id": "ragu"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "進路に迷う",
+    "syn": [
+      "悩む",
+      "ためらう",
+      "躊躇する"
+    ]
   },
   {
     "id": "V0047",
@@ -611,7 +923,14 @@ const N4_VOCAB = [
       "ko": "익숙해지다",
       "vi": "quen",
       "id": "terbiasa"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "新しい環境に慣れる",
+    "syn": [
+      "習熟する",
+      "馴染む",
+      "順応する"
+    ]
   },
   {
     "id": "V0048",
@@ -624,7 +943,14 @@ const N4_VOCAB = [
       "ko": "피곤하다",
       "vi": "mệt",
       "id": "lelah"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "仕事で疲れる",
+    "syn": [
+      "疲労する",
+      "くたびれる",
+      "消耗する"
+    ]
   },
   {
     "id": "V0049",
@@ -637,7 +963,14 @@ const N4_VOCAB = [
       "ko": "살찌다",
       "vi": "béo",
       "id": "gemuk"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "食べ過ぎて太る",
+    "syn": [
+      "肥える",
+      "体重が増える",
+      "ふくよかになる"
+    ]
   },
   {
     "id": "V0050",
@@ -650,7 +983,14 @@ const N4_VOCAB = [
       "ko": "살빠지다",
       "vi": "gầy",
       "id": "kurus"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "ダイエットで痩せる",
+    "syn": [
+      "体重が減る",
+      "スリムになる",
+      "細くなる"
+    ]
   },
   {
     "id": "V0051",
@@ -663,7 +1003,9 @@ const N4_VOCAB = [
       "ko": "지키다",
       "vi": "bảo vệ",
       "id": "melindungi"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "守ることができる"
   },
   {
     "id": "V0052",
@@ -676,7 +1018,9 @@ const N4_VOCAB = [
       "ko": "돕다",
       "vi": "giúp",
       "id": "membantu"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "助けることができる"
   },
   {
     "id": "V0053",
@@ -689,7 +1033,9 @@ const N4_VOCAB = [
       "ko": "구하다",
       "vi": "cứu",
       "id": "menyelamatkan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "救うことができる"
   },
   {
     "id": "V0054",
@@ -702,7 +1048,9 @@ const N4_VOCAB = [
       "ko": "용서하다",
       "vi": "tha thứ",
       "id": "memaafkan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "許すことができる"
   },
   {
     "id": "V0055",
@@ -715,7 +1063,9 @@ const N4_VOCAB = [
       "ko": "꾸짖다",
       "vi": "mắng",
       "id": "memarahi"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "叱ることができる"
   },
   {
     "id": "V0056",
@@ -728,7 +1078,9 @@ const N4_VOCAB = [
       "ko": "칭찬하다",
       "vi": "khen",
       "id": "memuji"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "褒めることができる"
   },
   {
     "id": "V0057",
@@ -741,7 +1093,9 @@ const N4_VOCAB = [
       "ko": "사과하다",
       "vi": "xin lỗi",
       "id": "minta maaf"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "謝ることができる"
   },
   {
     "id": "V0058",
@@ -754,7 +1108,9 @@ const N4_VOCAB = [
       "ko": "거절하다",
       "vi": "từ chối",
       "id": "menolak"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "断ることができる"
   },
   {
     "id": "V0059",
@@ -767,7 +1123,9 @@ const N4_VOCAB = [
       "ko": "부탁하다",
       "vi": "nhờ",
       "id": "meminta"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "頼むことができる"
   },
   {
     "id": "V0060",
@@ -780,7 +1138,9 @@ const N4_VOCAB = [
       "ko": "초대하다",
       "vi": "mời",
       "id": "mengundang"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "誘うことができる"
   },
   {
     "id": "V0061",
@@ -793,7 +1153,9 @@ const N4_VOCAB = [
       "ko": "소개하다",
       "vi": "giới thiệu",
       "id": "memperkenalkan"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "紹介することができる"
   },
   {
     "id": "V0062",
@@ -806,7 +1168,9 @@ const N4_VOCAB = [
       "ko": "안내하다",
       "vi": "hướng dẫn",
       "id": "memandu"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "案内することができる"
   },
   {
     "id": "V0063",
@@ -819,7 +1183,9 @@ const N4_VOCAB = [
       "ko": "설명하다",
       "vi": "giải thích",
       "id": "menjelaskan"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "説明することができる"
   },
   {
     "id": "V0064",
@@ -832,7 +1198,9 @@ const N4_VOCAB = [
       "ko": "보고하다",
       "vi": "báo cáo",
       "id": "melaporkan"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "報告することができる"
   },
   {
     "id": "V0065",
@@ -845,7 +1213,9 @@ const N4_VOCAB = [
       "ko": "상담하다",
       "vi": "tham khảo",
       "id": "berkonsultasi"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "相談することができる"
   },
   {
     "id": "V0066",
@@ -858,7 +1228,9 @@ const N4_VOCAB = [
       "ko": "연락하다",
       "vi": "liên lạc",
       "id": "menghubungi"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "連絡することができる"
   },
   {
     "id": "V0067",
@@ -871,7 +1243,9 @@ const N4_VOCAB = [
       "ko": "확인하다",
       "vi": "xác nhận",
       "id": "mengkonfirmasi"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "確認することができる"
   },
   {
     "id": "V0068",
@@ -884,7 +1258,9 @@ const N4_VOCAB = [
       "ko": "준비하다",
       "vi": "chuẩn bị",
       "id": "mempersiapkan"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "準備することができる"
   },
   {
     "id": "V0069",
@@ -897,7 +1273,9 @@ const N4_VOCAB = [
       "ko": "계획하다",
       "vi": "lên kế hoạch",
       "id": "merencanakan"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "計画することができる"
   },
   {
     "id": "V0070",
@@ -910,7 +1288,9 @@ const N4_VOCAB = [
       "ko": "예약하다",
       "vi": "đặt trước",
       "id": "memesan"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "予約することができる"
   },
   {
     "id": "V0071",
@@ -923,7 +1303,9 @@ const N4_VOCAB = [
       "ko": "주문하다",
       "vi": "gọi món",
       "id": "memesan"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "注文することができる"
   },
   {
     "id": "V0072",
@@ -936,7 +1318,9 @@ const N4_VOCAB = [
       "ko": "참가하다",
       "vi": "tham gia",
       "id": "berpartisipasi"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "参加することができる"
   },
   {
     "id": "V0073",
@@ -949,7 +1333,9 @@ const N4_VOCAB = [
       "ko": "출석하다",
       "vi": "tham dự",
       "id": "menghadiri"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "出席することができる"
   },
   {
     "id": "V0074",
@@ -962,7 +1348,9 @@ const N4_VOCAB = [
       "ko": "결석하다",
       "vi": "vắng mặt",
       "id": "absen"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "欠席することができる"
   },
   {
     "id": "V0075",
@@ -975,7 +1363,9 @@ const N4_VOCAB = [
       "ko": "지각하다",
       "vi": "đến muộn",
       "id": "terlambat"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "遅刻することができる"
   },
   {
     "id": "V0076",
@@ -988,7 +1378,9 @@ const N4_VOCAB = [
       "ko": "졸업하다",
       "vi": "tốt nghiệp",
       "id": "lulus"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "卒業することができる"
   },
   {
     "id": "V0077",
@@ -1001,7 +1393,9 @@ const N4_VOCAB = [
       "ko": "입학하다",
       "vi": "nhập học",
       "id": "masuk sekolah"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "入学することができる"
   },
   {
     "id": "V0078",
@@ -1014,7 +1408,9 @@ const N4_VOCAB = [
       "ko": "취직하다",
       "vi": "xin việc",
       "id": "bekerja"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "就職することができる"
   },
   {
     "id": "V0079",
@@ -1027,7 +1423,9 @@ const N4_VOCAB = [
       "ko": "퇴직하다",
       "vi": "nghỉ việc",
       "id": "pensiun"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "退職することができる"
   },
   {
     "id": "V0080",
@@ -1040,7 +1438,9 @@ const N4_VOCAB = [
       "ko": "이직하다",
       "vi": "đổi việc",
       "id": "pindah kerja"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "転職することができる"
   },
   {
     "id": "V0081",
@@ -1053,7 +1453,9 @@ const N4_VOCAB = [
       "ko": "출장하다",
       "vi": "công tác",
       "id": "dinas"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "出張することができる"
   },
   {
     "id": "V0082",
@@ -1066,7 +1468,9 @@ const N4_VOCAB = [
       "ko": "야근하다",
       "vi": "làm thêm",
       "id": "lembur"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "残業することができる"
   },
   {
     "id": "V0083",
@@ -1079,7 +1483,9 @@ const N4_VOCAB = [
       "ko": "휴식하다",
       "vi": "nghỉ ngơi",
       "id": "istirahat"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "休憩することができる"
   },
   {
     "id": "V0084",
@@ -1092,7 +1498,9 @@ const N4_VOCAB = [
       "ko": "산책하다",
       "vi": "đi dạo",
       "id": "jalan-jalan"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "散歩することができる"
   },
   {
     "id": "V0085",
@@ -1105,7 +1513,9 @@ const N4_VOCAB = [
       "ko": "운동하다",
       "vi": "tập thể dục",
       "id": "berolahraga"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "運動することができる"
   },
   {
     "id": "V0086",
@@ -1118,7 +1528,9 @@ const N4_VOCAB = [
       "ko": "연습하다",
       "vi": "luyện tập",
       "id": "berlatih"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "練習することができる"
   },
   {
     "id": "V0087",
@@ -1131,7 +1543,9 @@ const N4_VOCAB = [
       "ko": "경험하다",
       "vi": "trải nghiệm",
       "id": "mengalami"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "経験することができる"
   },
   {
     "id": "V0088",
@@ -1144,7 +1558,9 @@ const N4_VOCAB = [
       "ko": "성공하다",
       "vi": "thành công",
       "id": "berhasil"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "成功することができる"
   },
   {
     "id": "V0089",
@@ -1157,7 +1573,9 @@ const N4_VOCAB = [
       "ko": "실패하다",
       "vi": "thất bại",
       "id": "gagal"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "失敗することができる"
   },
   {
     "id": "V0090",
@@ -1170,7 +1588,9 @@ const N4_VOCAB = [
       "ko": "노력하다",
       "vi": "nỗ lực",
       "id": "berusaha"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "努力することができる"
   },
   {
     "id": "V0091",
@@ -1183,7 +1603,9 @@ const N4_VOCAB = [
       "ko": "주의하다",
       "vi": "chú ý",
       "id": "berhati-hati"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "注意することができる"
   },
   {
     "id": "V0092",
@@ -1196,7 +1618,9 @@ const N4_VOCAB = [
       "ko": "걱정하다",
       "vi": "lo lắng",
       "id": "khawatir"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "心配することができる"
   },
   {
     "id": "V0093",
@@ -1209,7 +1633,9 @@ const N4_VOCAB = [
       "ko": "안심하다",
       "vi": "yên tâm",
       "id": "lega"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "安心することができる"
   },
   {
     "id": "V0094",
@@ -1222,7 +1648,9 @@ const N4_VOCAB = [
       "ko": "감동하다",
       "vi": "cảm động",
       "id": "terharu"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "感動することができる"
   },
   {
     "id": "V0095",
@@ -1235,7 +1663,9 @@ const N4_VOCAB = [
       "ko": "감사하다",
       "vi": "cảm ơn",
       "id": "berterima kasih"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "感謝することができる"
   },
   {
     "id": "V0096",
@@ -1248,7 +1678,9 @@ const N4_VOCAB = [
       "ko": "반대하다",
       "vi": "phản đối",
       "id": "menentang"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "反対することができる"
   },
   {
     "id": "V0097",
@@ -1261,7 +1693,9 @@ const N4_VOCAB = [
       "ko": "찬성하다",
       "vi": "đồng ý",
       "id": "setuju"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "賛成することができる"
   },
   {
     "id": "V0098",
@@ -1274,7 +1708,9 @@ const N4_VOCAB = [
       "ko": "비교하다",
       "vi": "so sánh",
       "id": "membandingkan"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "比較することができる"
   },
   {
     "id": "V0099",
@@ -1287,7 +1723,9 @@ const N4_VOCAB = [
       "ko": "구별하다",
       "vi": "phân biệt",
       "id": "membedakan"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "区別することができる"
   },
   {
     "id": "V0100",
@@ -1300,7 +1738,9 @@ const N4_VOCAB = [
       "ko": "판단하다",
       "vi": "phán đoán",
       "id": "menilai"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "判断することができる"
   },
   {
     "id": "V0101",
@@ -1313,7 +1753,9 @@ const N4_VOCAB = [
       "ko": "선택하다",
       "vi": "lựa chọn",
       "id": "memilih"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "選択することができる"
   },
   {
     "id": "V0102",
@@ -1326,7 +1768,9 @@ const N4_VOCAB = [
       "ko": "발견하다",
       "vi": "phát hiện",
       "id": "menemukan"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "発見することができる"
   },
   {
     "id": "V0103",
@@ -1339,7 +1783,9 @@ const N4_VOCAB = [
       "ko": "발명하다",
       "vi": "phát minh",
       "id": "menemukan"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "発明することができる"
   },
   {
     "id": "V0104",
@@ -1352,7 +1798,9 @@ const N4_VOCAB = [
       "ko": "발표하다",
       "vi": "công bố",
       "id": "mengumumkan"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "発表することができる"
   },
   {
     "id": "V0105",
@@ -1365,7 +1813,9 @@ const N4_VOCAB = [
       "ko": "표현하다",
       "vi": "biểu đạt",
       "id": "mengekspresikan"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "表現することができる"
   },
   {
     "id": "V0106",
@@ -1378,7 +1828,9 @@ const N4_VOCAB = [
       "ko": "실현하다",
       "vi": "thực hiện",
       "id": "mewujudkan"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "実現することができる"
   },
   {
     "id": "V0107",
@@ -1391,7 +1843,9 @@ const N4_VOCAB = [
       "ko": "완성하다",
       "vi": "hoàn thành",
       "id": "menyelesaikan"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "完成することができる"
   },
   {
     "id": "V0108",
@@ -1404,7 +1858,9 @@ const N4_VOCAB = [
       "ko": "해결하다",
       "vi": "giải quyết",
       "id": "menyelesaikan"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "解決することができる"
   },
   {
     "id": "V0109",
@@ -1417,7 +1873,9 @@ const N4_VOCAB = [
       "ko": "이해하다",
       "vi": "hiểu",
       "id": "memahami"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "理解することができる"
   },
   {
     "id": "V0110",
@@ -1430,7 +1888,9 @@ const N4_VOCAB = [
       "ko": "납득하다",
       "vi": "chấp nhận",
       "id": "menerima"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "納得することができる"
   },
   {
     "id": "V0111",
@@ -1443,7 +1903,9 @@ const N4_VOCAB = [
       "ko": "이용하다",
       "vi": "sử dụng",
       "id": "menggunakan"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "利用することができる"
   },
   {
     "id": "V0112",
@@ -1456,7 +1918,9 @@ const N4_VOCAB = [
       "ko": "활용하다",
       "vi": "vận dụng",
       "id": "memanfaatkan"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "活用することができる"
   },
   {
     "id": "V0113",
@@ -1469,7 +1933,9 @@ const N4_VOCAB = [
       "ko": "응용하다",
       "vi": "áp dụng",
       "id": "menerapkan"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "応用することができる"
   },
   {
     "id": "V0114",
@@ -1482,7 +1948,9 @@ const N4_VOCAB = [
       "ko": "영향하다",
       "vi": "ảnh hưởng",
       "id": "mempengaruhi"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "影響することができる"
   },
   {
     "id": "V0115",
@@ -1495,7 +1963,9 @@ const N4_VOCAB = [
       "ko": "관계하다",
       "vi": "liên quan",
       "id": "berhubungan"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "関係することができる"
   },
   {
     "id": "V0116",
@@ -1508,7 +1978,9 @@ const N4_VOCAB = [
       "ko": "존재하다",
       "vi": "tồn tại",
       "id": "ada"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "存在することができる"
   },
   {
     "id": "V0117",
@@ -1521,7 +1993,9 @@ const N4_VOCAB = [
       "ko": "발생하다",
       "vi": "xảy ra",
       "id": "terjadi"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "発生することができる"
   },
   {
     "id": "V0118",
@@ -1534,7 +2008,9 @@ const N4_VOCAB = [
       "ko": "변화하다",
       "vi": "biến đổi",
       "id": "berubah"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "変化することができる"
   },
   {
     "id": "V0119",
@@ -1547,7 +2023,9 @@ const N4_VOCAB = [
       "ko": "진보하다",
       "vi": "tiến bộ",
       "id": "maju"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "進歩することができる"
   },
   {
     "id": "V0120",
@@ -1560,7 +2038,9 @@ const N4_VOCAB = [
       "ko": "발전하다",
       "vi": "phát triển",
       "id": "berkembang"
-    }
+    },
+    "pos": "verb-suru",
+    "ex": "発展することができる"
   },
   {
     "id": "V0121",
@@ -1573,7 +2053,9 @@ const N4_VOCAB = [
       "ko": "정중",
       "vi": "lịch sự",
       "id": "sopan"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても丁寧"
   },
   {
     "id": "V0122",
@@ -1586,7 +2068,9 @@ const N4_VOCAB = [
       "ko": "친절",
       "vi": "tử tế",
       "id": "baik hati"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "親切ことができる"
   },
   {
     "id": "V0123",
@@ -1599,7 +2083,9 @@ const N4_VOCAB = [
       "ko": "열심",
       "vi": "nhiệt tình",
       "id": "antusias"
-    }
+    },
+    "pos": "noun",
+    "ex": "熱心について話す"
   },
   {
     "id": "V0124",
@@ -1612,7 +2098,9 @@ const N4_VOCAB = [
       "ko": "성실",
       "vi": "nghiêm túc",
       "id": "serius"
-    }
+    },
+    "pos": "noun",
+    "ex": "真面目について話す"
   },
   {
     "id": "V0125",
@@ -1625,7 +2113,9 @@ const N4_VOCAB = [
       "ko": "정직",
       "vi": "thật thà",
       "id": "jujur"
-    }
+    },
+    "pos": "noun",
+    "ex": "正直について話す"
   },
   {
     "id": "V0126",
@@ -1638,7 +2128,9 @@ const N4_VOCAB = [
       "ko": "솔직",
       "vi": "ngoan",
       "id": "patuh"
-    }
+    },
+    "pos": "noun",
+    "ex": "素直について話す"
   },
   {
     "id": "V0127",
@@ -1651,7 +2143,9 @@ const N4_VOCAB = [
       "ko": "적당",
       "vi": "thích hợp",
       "id": "tepat"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "適当ことができる"
   },
   {
     "id": "V0128",
@@ -1664,7 +2158,9 @@ const N4_VOCAB = [
       "ko": "필요",
       "vi": "cần thiết",
       "id": "perlu"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "必要ことができる"
   },
   {
     "id": "V0129",
@@ -1677,7 +2173,9 @@ const N4_VOCAB = [
       "ko": "중요",
       "vi": "quan trọng",
       "id": "penting"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "重要ことができる"
   },
   {
     "id": "V0130",
@@ -1690,7 +2188,9 @@ const N4_VOCAB = [
       "ko": "위험",
       "vi": "nguy hiểm",
       "id": "berbahaya"
-    }
+    },
+    "pos": "noun",
+    "ex": "危険について話す"
   },
   {
     "id": "V0131",
@@ -1703,7 +2203,9 @@ const N4_VOCAB = [
       "ko": "안전",
       "vi": "an toàn",
       "id": "aman"
-    }
+    },
+    "pos": "noun",
+    "ex": "安全について話す"
   },
   {
     "id": "V0132",
@@ -1716,7 +2218,9 @@ const N4_VOCAB = [
       "ko": "완전",
       "vi": "hoàn toàn",
       "id": "sempurna"
-    }
+    },
+    "pos": "noun",
+    "ex": "完全について話す"
   },
   {
     "id": "V0133",
@@ -1729,7 +2233,9 @@ const N4_VOCAB = [
       "ko": "불안",
       "vi": "lo âu",
       "id": "cemas"
-    }
+    },
+    "pos": "noun",
+    "ex": "不安について話す"
   },
   {
     "id": "V0134",
@@ -1742,7 +2248,9 @@ const N4_VOCAB = [
       "ko": "행복",
       "vi": "hạnh phúc",
       "id": "bahagia"
-    }
+    },
+    "pos": "noun",
+    "ex": "幸せについて話す"
   },
   {
     "id": "V0135",
@@ -1755,7 +2263,9 @@ const N4_VOCAB = [
       "ko": "가능",
       "vi": "có thể",
       "id": "mungkin"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "可能ことができる"
   },
   {
     "id": "V0136",
@@ -1768,7 +2278,9 @@ const N4_VOCAB = [
       "ko": "불가능",
       "vi": "không thể",
       "id": "mustahil"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "不可能ことができる"
   },
   {
     "id": "V0137",
@@ -1781,7 +2293,9 @@ const N4_VOCAB = [
       "ko": "특별",
       "vi": "đặc biệt",
       "id": "khusus"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "特別ことができる"
   },
   {
     "id": "V0138",
@@ -1794,7 +2308,9 @@ const N4_VOCAB = [
       "ko": "보통",
       "vi": "bình thường",
       "id": "biasa"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "普通ことができる"
   },
   {
     "id": "V0139",
@@ -1807,7 +2323,9 @@ const N4_VOCAB = [
       "ko": "복잡",
       "vi": "phức tạp",
       "id": "rumit"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "複雑ことができる"
   },
   {
     "id": "V0140",
@@ -1820,7 +2338,9 @@ const N4_VOCAB = [
       "ko": "간단",
       "vi": "đơn giản",
       "id": "sederhana"
-    }
+    },
+    "pos": "noun",
+    "ex": "簡単について話す"
   },
   {
     "id": "V0141",
@@ -1833,7 +2353,9 @@ const N4_VOCAB = [
       "ko": "잘하다",
       "vi": "giỏi",
       "id": "mahir"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても得意"
   },
   {
     "id": "V0142",
@@ -1846,7 +2368,9 @@ const N4_VOCAB = [
       "ko": "못하다",
       "vi": "không giỏi",
       "id": "lemah"
-    }
+    },
+    "pos": "noun",
+    "ex": "苦手について話す"
   },
   {
     "id": "V0143",
@@ -1859,7 +2383,9 @@ const N4_VOCAB = [
       "ko": "잘하다",
       "vi": "giỏi",
       "id": "pandai"
-    }
+    },
+    "pos": "noun",
+    "ex": "上手について話す"
   },
   {
     "id": "V0144",
@@ -1872,7 +2398,9 @@ const N4_VOCAB = [
       "ko": "서툴다",
       "vi": "vụng",
       "id": "tidak pandai"
-    }
+    },
+    "pos": "noun",
+    "ex": "下手について話す"
   },
   {
     "id": "V0145",
@@ -1885,7 +2413,9 @@ const N4_VOCAB = [
       "ko": "정확",
       "vi": "chính xác",
       "id": "akurat"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "正確ことができる"
   },
   {
     "id": "V0146",
@@ -1898,7 +2428,9 @@ const N4_VOCAB = [
       "ko": "애매",
       "vi": "mơ hồ",
       "id": "ambigu"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても曖昧"
   },
   {
     "id": "V0147",
@@ -1911,7 +2443,9 @@ const N4_VOCAB = [
       "ko": "명확",
       "vi": "rõ ràng",
       "id": "jelas"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "明確ことができる"
   },
   {
     "id": "V0148",
@@ -1924,7 +2458,9 @@ const N4_VOCAB = [
       "ko": "구체적",
       "vi": "cụ thể",
       "id": "konkret"
-    }
+    },
+    "pos": "na-adj",
+    "ex": "とても具体的だ"
   },
   {
     "id": "V0149",
@@ -1937,7 +2473,9 @@ const N4_VOCAB = [
       "ko": "추상적",
       "vi": "trừu tượng",
       "id": "abstrak"
-    }
+    },
+    "pos": "na-adj",
+    "ex": "とても抽象的だ"
   },
   {
     "id": "V0150",
@@ -1950,7 +2488,9 @@ const N4_VOCAB = [
       "ko": "적극적",
       "vi": "tích cực",
       "id": "positif"
-    }
+    },
+    "pos": "na-adj",
+    "ex": "とても積極的だ"
   },
   {
     "id": "V0151",
@@ -1963,7 +2503,9 @@ const N4_VOCAB = [
       "ko": "맡기다",
       "vi": "gửi",
       "id": "menitipkan"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "預けることができる"
   },
   {
     "id": "V0152",
@@ -1976,7 +2518,9 @@ const N4_VOCAB = [
       "ko": "맡다",
       "vi": "giữ",
       "id": "menyimpan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "預かることができる"
   },
   {
     "id": "V0153",
@@ -1989,7 +2533,9 @@ const N4_VOCAB = [
       "ko": "맛보다",
       "vi": "nếm",
       "id": "merasakan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "味わうことができる"
   },
   {
     "id": "V0154",
@@ -2002,7 +2548,9 @@ const N4_VOCAB = [
       "ko": "따뜻해지다",
       "vi": "ấm lên",
       "id": "menghangat"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "暖まることができる"
   },
   {
     "id": "V0155",
@@ -2015,7 +2563,9 @@ const N4_VOCAB = [
       "ko": "맞다",
       "vi": "trúng",
       "id": "kena"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "当たることができる"
   },
   {
     "id": "V0156",
@@ -2028,7 +2578,9 @@ const N4_VOCAB = [
       "ko": "다루다",
       "vi": "xử lý",
       "id": "menangani"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "扱うことができる"
   },
   {
     "id": "V0157",
@@ -2041,7 +2593,9 @@ const N4_VOCAB = [
       "ko": "맞추다",
       "vi": "đoán",
       "id": "menebak"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "当てることができる"
   },
   {
     "id": "V0158",
@@ -2054,7 +2608,9 @@ const N4_VOCAB = [
       "ko": "날뛰다",
       "vi": "hung hăng",
       "id": "mengamuk"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "暴れることができる"
   },
   {
     "id": "V0159",
@@ -2067,7 +2623,9 @@ const N4_VOCAB = [
       "ko": "넘치다",
       "vi": "tràn",
       "id": "meluap"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "溢れることができる"
   },
   {
     "id": "V0160",
@@ -2080,7 +2638,9 @@ const N4_VOCAB = [
       "ko": "다투다",
       "vi": "tranh",
       "id": "bersaing"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "争うことができる"
   },
   {
     "id": "V0161",
@@ -2093,7 +2653,9 @@ const N4_VOCAB = [
       "ko": "고치다",
       "vi": "sửa đổi",
       "id": "memperbaiki"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "改めることができる"
   },
   {
     "id": "V0162",
@@ -2106,7 +2668,9 @@ const N4_VOCAB = [
       "ko": "나타내다",
       "vi": "biểu thị",
       "id": "menyatakan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "表すことができる"
   },
   {
     "id": "V0163",
@@ -2119,7 +2683,9 @@ const N4_VOCAB = [
       "ko": "나타나다",
       "vi": "xuất hiện",
       "id": "muncul"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "現れることができる"
   },
   {
     "id": "V0164",
@@ -2132,7 +2698,9 @@ const N4_VOCAB = [
       "ko": "살다",
       "vi": "sống",
       "id": "hidup"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "生きることができる"
   },
   {
     "id": "V0165",
@@ -2145,7 +2713,9 @@ const N4_VOCAB = [
       "ko": "품다",
       "vi": "ôm",
       "id": "memeluk"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "抱くことができる"
   },
   {
     "id": "V0166",
@@ -2158,7 +2728,9 @@ const N4_VOCAB = [
       "ko": "기도하다",
       "vi": "cầu nguyện",
       "id": "berdoa"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "祈ることができる"
   },
   {
     "id": "V0167",
@@ -2171,7 +2743,9 @@ const N4_VOCAB = [
       "ko": "축하하다",
       "vi": "chúc mừng",
       "id": "merayakan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "祝うことができる"
   },
   {
     "id": "V0168",
@@ -2184,7 +2758,9 @@ const N4_VOCAB = [
       "ko": "심다",
       "vi": "trồng",
       "id": "menanam"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "植えることができる"
   },
   {
     "id": "V0169",
@@ -2197,7 +2773,9 @@ const N4_VOCAB = [
       "ko": "띄우다",
       "vi": "nổi",
       "id": "mengapungkan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "浮かべることができる"
   },
   {
     "id": "V0170",
@@ -2210,7 +2788,9 @@ const N4_VOCAB = [
       "ko": "받다",
       "vi": "nhận",
       "id": "menerima"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "受けることができる"
   },
   {
     "id": "V0171",
@@ -2223,7 +2803,9 @@ const N4_VOCAB = [
       "ko": "잃다",
       "vi": "mất",
       "id": "kehilangan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "失うことができる"
   },
   {
     "id": "V0172",
@@ -2236,7 +2818,9 @@ const N4_VOCAB = [
       "ko": "의심하다",
       "vi": "nghi ngờ",
       "id": "meragukan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "疑うことができる"
   },
   {
     "id": "V0173",
@@ -2249,7 +2833,9 @@ const N4_VOCAB = [
       "ko": "호소하다",
       "vi": "kiện",
       "id": "menuntut"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "訴えることができる"
   },
   {
     "id": "V0174",
@@ -2262,7 +2848,9 @@ const N4_VOCAB = [
       "ko": "빼앗다",
       "vi": "cướp",
       "id": "merampas"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "奪うことができる"
   },
   {
     "id": "V0175",
@@ -2275,7 +2863,9 @@ const N4_VOCAB = [
       "ko": "묻다",
       "vi": "chôn",
       "id": "mengubur"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "埋めることができる"
   },
   {
     "id": "V0176",
@@ -2288,7 +2878,9 @@ const N4_VOCAB = [
       "ko": "공경하다",
       "vi": "kính trọng",
       "id": "menghormati"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "敬うことができる"
   },
   {
     "id": "V0177",
@@ -2301,7 +2893,9 @@ const N4_VOCAB = [
       "ko": "점치다",
       "vi": "xem bói",
       "id": "meramal"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "占うことができる"
   },
   {
     "id": "V0178",
@@ -2314,7 +2908,9 @@ const N4_VOCAB = [
       "ko": "원망하다",
       "vi": "oán hận",
       "id": "membenci"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "恨むことができる"
   },
   {
     "id": "V0179",
@@ -2327,7 +2923,9 @@ const N4_VOCAB = [
       "ko": "팔리다",
       "vi": "bán chạy",
       "id": "laku"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "売れることができる"
   },
   {
     "id": "V0180",
@@ -2340,7 +2938,9 @@ const N4_VOCAB = [
       "ko": "쫓다",
       "vi": "đuổi",
       "id": "mengejar"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "追うことができる"
   },
   {
     "id": "V0181",
@@ -2353,7 +2953,9 @@ const N4_VOCAB = [
       "ko": "지다",
       "vi": "gánh",
       "id": "menanggung"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "負うことができる"
   },
   {
     "id": "V0182",
@@ -2366,7 +2968,9 @@ const N4_VOCAB = [
       "ko": "덮다",
       "vi": "che",
       "id": "menutupi"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "覆うことができる"
   },
   {
     "id": "V0183",
@@ -2379,7 +2983,9 @@ const N4_VOCAB = [
       "ko": "보충하다",
       "vi": "bổ sung",
       "id": "melengkapi"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "補うことができる"
   },
   {
     "id": "V0184",
@@ -2392,7 +2998,9 @@ const N4_VOCAB = [
       "ko": "보내다",
       "vi": "gửi",
       "id": "mengirim"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "送ることができる"
   },
   {
     "id": "V0185",
@@ -2405,7 +3013,9 @@ const N4_VOCAB = [
       "ko": "선물하다",
       "vi": "tặng",
       "id": "menghadiahi"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "贈ることができる"
   },
   {
     "id": "V0186",
@@ -2418,7 +3028,9 @@ const N4_VOCAB = [
       "ko": "깨우다",
       "vi": "đánh thức",
       "id": "membangunkan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "起こすことができる"
   },
   {
     "id": "V0187",
@@ -2431,7 +3043,9 @@ const N4_VOCAB = [
       "ko": "행하다",
       "vi": "tiến hành",
       "id": "melakukan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "行うことができる"
   },
   {
     "id": "V0188",
@@ -2444,7 +3058,9 @@ const N4_VOCAB = [
       "ko": "거두다",
       "vi": "thu được",
       "id": "memperoleh"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "収めることができる"
   },
   {
     "id": "V0189",
@@ -2457,7 +3073,9 @@ const N4_VOCAB = [
       "ko": "다스리다",
       "vi": "cai trị",
       "id": "memerintah"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "治めることができる"
   },
   {
     "id": "V0190",
@@ -2470,7 +3088,9 @@ const N4_VOCAB = [
       "ko": "아끼다",
       "vi": "tiếc",
       "id": "menyayangkan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "惜しむことができる"
   },
   {
     "id": "V0191",
@@ -2483,7 +3103,9 @@ const N4_VOCAB = [
       "ko": "두려워하다",
       "vi": "sợ",
       "id": "takut"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "恐れることができる"
   },
   {
     "id": "V0192",
@@ -2496,7 +3118,9 @@ const N4_VOCAB = [
       "ko": "습격하다",
       "vi": "tấn công",
       "id": "menyerang"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "襲うことができる"
   },
   {
     "id": "V0193",
@@ -2509,7 +3133,9 @@ const N4_VOCAB = [
       "ko": "배우다",
       "vi": "được dạy",
       "id": "diajarkan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "教わることができる"
   },
   {
     "id": "V0194",
@@ -2522,7 +3148,9 @@ const N4_VOCAB = [
       "ko": "침착하다",
       "vi": "bình tĩnh",
       "id": "tenang"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "落ち着くことができる"
   },
   {
     "id": "V0195",
@@ -2535,7 +3163,9 @@ const N4_VOCAB = [
       "ko": "위협하다",
       "vi": "đe dọa",
       "id": "mengancam"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "脅かすことができる"
   },
   {
     "id": "V0196",
@@ -2548,7 +3178,9 @@ const N4_VOCAB = [
       "ko": "춤추다",
       "vi": "nhảy",
       "id": "menari"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "踊ることができる"
   },
   {
     "id": "V0197",
@@ -2561,7 +3193,9 @@ const N4_VOCAB = [
       "ko": "빠지다",
       "vi": "chìm",
       "id": "tenggelam"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "溺れることができる"
   },
   {
     "id": "V0198",
@@ -2574,7 +3208,9 @@ const N4_VOCAB = [
       "ko": "떠오르다",
       "vi": "nghĩ ra",
       "id": "terpikir"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "思い付くことができる"
   },
   {
     "id": "V0199",
@@ -2587,7 +3223,9 @@ const N4_VOCAB = [
       "ko": "수영하다",
       "vi": "bơi",
       "id": "berenang"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "泳ぐことができる"
   },
   {
     "id": "V0200",
@@ -2600,7 +3238,9 @@ const N4_VOCAB = [
       "ko": "미치다",
       "vi": "đạt",
       "id": "mencapai"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "及ぶことができる"
   },
   {
     "id": "V0201",
@@ -2613,7 +3253,9 @@ const N4_VOCAB = [
       "ko": "내리다",
       "vi": "xuống",
       "id": "turun"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "降りることができる"
   },
   {
     "id": "V0202",
@@ -2626,7 +3268,9 @@ const N4_VOCAB = [
       "ko": "꺾다",
       "vi": "bẻ",
       "id": "mematahkan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "折ることができる"
   },
   {
     "id": "V0203",
@@ -2639,7 +3283,9 @@ const N4_VOCAB = [
       "ko": "끝나다",
       "vi": "kết thúc",
       "id": "selesai"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "終わることができる"
   },
   {
     "id": "V0204",
@@ -2652,7 +3298,9 @@ const N4_VOCAB = [
       "ko": "제한하다",
       "vi": "giới hạn",
       "id": "membatasi"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "限ることができる"
   },
   {
     "id": "V0205",
@@ -2665,7 +3313,9 @@ const N4_VOCAB = [
       "ko": "숨기다",
       "vi": "giấu",
       "id": "menyembunyikan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "隠すことができる"
   },
   {
     "id": "V0206",
@@ -2678,7 +3328,9 @@ const N4_VOCAB = [
       "ko": "숨다",
       "vi": "ẩn",
       "id": "bersembunyi"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "隠れることができる"
   },
   {
     "id": "V0207",
@@ -2691,7 +3343,9 @@ const N4_VOCAB = [
       "ko": "빠지다",
       "vi": "thiếu",
       "id": "kurang"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "欠けることができる"
   },
   {
     "id": "V0208",
@@ -2704,7 +3358,9 @@ const N4_VOCAB = [
       "ko": "둘러싸다",
       "vi": "bao vây",
       "id": "mengelilingi"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "囲むことができる"
   },
   {
     "id": "V0209",
@@ -2717,7 +3373,9 @@ const N4_VOCAB = [
       "ko": "겹치다",
       "vi": "chồng",
       "id": "menumpuk"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "重ねることができる"
   },
   {
     "id": "V0210",
@@ -2730,7 +3388,9 @@ const N4_VOCAB = [
       "ko": "장식하다",
       "vi": "trang trí",
       "id": "menghias"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "飾ることができる"
   },
   {
     "id": "V0211",
@@ -2743,7 +3403,9 @@ const N4_VOCAB = [
       "ko": "벌다",
       "vi": "kiếm",
       "id": "menghasilkan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "稼ぐことができる"
   },
   {
     "id": "V0212",
@@ -2756,7 +3418,9 @@ const N4_VOCAB = [
       "ko": "굳히다",
       "vi": "làm cứng",
       "id": "mengeraskan"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "固めることができる"
   },
   {
     "id": "V0213",
@@ -2769,7 +3433,9 @@ const N4_VOCAB = [
       "ko": "기울다",
       "vi": "nghiêng",
       "id": "miring"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "傾くことができる"
   },
   {
     "id": "V0214",
@@ -2782,7 +3448,9 @@ const N4_VOCAB = [
       "ko": "이야기하다",
       "vi": "kể",
       "id": "menceritakan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "語ることができる"
   },
   {
     "id": "V0215",
@@ -2795,7 +3463,9 @@ const N4_VOCAB = [
       "ko": "이기다",
       "vi": "thắng",
       "id": "menang"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "勝つことができる"
   },
   {
     "id": "V0216",
@@ -2808,7 +3478,9 @@ const N4_VOCAB = [
       "ko": "이루어지다",
       "vi": "thành hiện thực",
       "id": "terwujud"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "叶うことができる"
   },
   {
     "id": "V0217",
@@ -2821,7 +3493,9 @@ const N4_VOCAB = [
       "ko": "신경쓰다",
       "vi": "quan tâm",
       "id": "peduli"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "構うことができる"
   },
   {
     "id": "V0218",
@@ -2834,7 +3508,9 @@ const N4_VOCAB = [
       "ko": "다니다",
       "vi": "đi lại",
       "id": "bolak-balik"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "通うことができる"
   },
   {
     "id": "V0219",
@@ -2847,7 +3523,9 @@ const N4_VOCAB = [
       "ko": "시들다",
       "vi": "héo",
       "id": "layu"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "枯れることができる"
   },
   {
     "id": "V0220",
@@ -2860,7 +3538,9 @@ const N4_VOCAB = [
       "ko": "마르다",
       "vi": "khô",
       "id": "kering"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "乾くことができる"
   },
   {
     "id": "V0221",
@@ -2873,7 +3553,9 @@ const N4_VOCAB = [
       "ko": "생각하다",
       "vi": "suy nghĩ",
       "id": "berpikir"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "考えることができる"
   },
   {
     "id": "V0222",
@@ -2886,7 +3568,9 @@ const N4_VOCAB = [
       "ko": "느끼다",
       "vi": "cảm thấy",
       "id": "merasakan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "感じることができる"
   },
   {
     "id": "V0223",
@@ -2899,7 +3583,9 @@ const N4_VOCAB = [
       "ko": "들리다",
       "vi": "nghe thấy",
       "id": "terdengar"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "聞こえることができる"
   },
   {
     "id": "V0224",
@@ -2912,7 +3598,9 @@ const N4_VOCAB = [
       "ko": "새기다",
       "vi": "khắc",
       "id": "mengukir"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "刻むことができる"
   },
   {
     "id": "V0225",
@@ -2925,7 +3613,9 @@ const N4_VOCAB = [
       "ko": "상처받다",
       "vi": "bị thương",
       "id": "terluka"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "傷つくことができる"
   },
   {
     "id": "V0226",
@@ -2938,7 +3628,9 @@ const N4_VOCAB = [
       "ko": "상처주다",
       "vi": "làm tổn thương",
       "id": "melukai"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "傷つけることができる"
   },
   {
     "id": "V0227",
@@ -2951,7 +3643,9 @@ const N4_VOCAB = [
       "ko": "쌓다",
       "vi": "xây dựng",
       "id": "membangun"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "築くことができる"
   },
   {
     "id": "V0228",
@@ -2964,7 +3658,9 @@ const N4_VOCAB = [
       "ko": "경쟁하다",
       "vi": "cạnh tranh",
       "id": "bersaing"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "競うことができる"
   },
   {
     "id": "V0229",
@@ -2977,7 +3673,9 @@ const N4_VOCAB = [
       "ko": "단련하다",
       "vi": "rèn luyện",
       "id": "melatih"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "鍛えることができる"
   },
   {
     "id": "V0230",
@@ -2990,7 +3688,9 @@ const N4_VOCAB = [
       "ko": "극하다",
       "vi": "thành thạo",
       "id": "menguasai"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "極めることができる"
   },
   {
     "id": "V0231",
@@ -3003,7 +3703,9 @@ const N4_VOCAB = [
       "ko": "무너지다",
       "vi": "sụp đổ",
       "id": "runtuh"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "崩れることができる"
   },
   {
     "id": "V0232",
@@ -3016,7 +3718,9 @@ const N4_VOCAB = [
       "ko": "부수다",
       "vi": "nghiền",
       "id": "menghancurkan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "砕くことができる"
   },
   {
     "id": "V0233",
@@ -3029,7 +3733,9 @@ const N4_VOCAB = [
       "ko": "썩다",
       "vi": "thối",
       "id": "membusuk"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "腐ることができる"
   },
   {
     "id": "V0234",
@@ -3042,7 +3748,9 @@ const N4_VOCAB = [
       "ko": "나누다",
       "vi": "phân phát",
       "id": "membagikan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "配ることができる"
   },
   {
     "id": "V0235",
@@ -3055,7 +3763,9 @@ const N4_VOCAB = [
       "ko": "짜다",
       "vi": "lắp",
       "id": "merakit"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "組むことができる"
   },
   {
     "id": "V0236",
@@ -3068,7 +3778,9 @@ const N4_VOCAB = [
       "ko": "후회하다",
       "vi": "hối hận",
       "id": "menyesal"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "悔やむことができる"
   },
   {
     "id": "V0237",
@@ -3081,7 +3793,9 @@ const N4_VOCAB = [
       "ko": "살다",
       "vi": "sống",
       "id": "tinggal"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "暮らすことができる"
   },
   {
     "id": "V0238",
@@ -3094,7 +3808,9 @@ const N4_VOCAB = [
       "ko": "비교하다",
       "vi": "so sánh",
       "id": "membandingkan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "比べることができる"
   },
   {
     "id": "V0239",
@@ -3107,7 +3823,9 @@ const N4_VOCAB = [
       "ko": "괴로워하다",
       "vi": "đau khổ",
       "id": "menderita"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "苦しむことができる"
   },
   {
     "id": "V0240",
@@ -3120,7 +3838,9 @@ const N4_VOCAB = [
       "ko": "더하다",
       "vi": "thêm",
       "id": "menambah"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "加えることができる"
   },
   {
     "id": "V0241",
@@ -3133,7 +3853,9 @@ const N4_VOCAB = [
       "ko": "사라지다",
       "vi": "biến mất",
       "id": "menghilang"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "消えることができる"
   },
   {
     "id": "V0242",
@@ -3146,7 +3868,9 @@ const N4_VOCAB = [
       "ko": "지우다",
       "vi": "xóa",
       "id": "menghapus"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "消すことができる"
   },
   {
     "id": "V0243",
@@ -3159,7 +3883,9 @@ const N4_VOCAB = [
       "ko": "차다",
       "vi": "đá",
       "id": "menendang"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "蹴ることができる"
   },
   {
     "id": "V0244",
@@ -3172,7 +3898,9 @@ const N4_VOCAB = [
       "ko": "넘다",
       "vi": "vượt qua",
       "id": "melewati"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "越えることができる"
   },
   {
     "id": "V0245",
@@ -3185,7 +3913,9 @@ const N4_VOCAB = [
       "ko": "얼다",
       "vi": "đóng băng",
       "id": "membeku"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "凍ることができる"
   },
   {
     "id": "V0246",
@@ -3198,7 +3928,9 @@ const N4_VOCAB = [
       "ko": "타다",
       "vi": "cháy",
       "id": "gosong"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "焦げることができる"
   },
   {
     "id": "V0247",
@@ -3211,7 +3943,9 @@ const N4_VOCAB = [
       "ko": "시도하다",
       "vi": "thử",
       "id": "mencoba"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "試みることができる"
   },
   {
     "id": "V0248",
@@ -3224,7 +3958,9 @@ const N4_VOCAB = [
       "ko": "좋아하다",
       "vi": "thích",
       "id": "menyukai"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "好むことができる"
   },
   {
     "id": "V0249",
@@ -3237,7 +3973,9 @@ const N4_VOCAB = [
       "ko": "구르다",
       "vi": "lăn",
       "id": "menggelinding"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "転がることができる"
   },
   {
     "id": "V0250",
@@ -3250,7 +3988,9 @@ const N4_VOCAB = [
       "ko": "죽이다",
       "vi": "giết",
       "id": "membunuh"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "殺すことができる"
   },
   {
     "id": "V0251",
@@ -3263,7 +4003,9 @@ const N4_VOCAB = [
       "ko": "부수다",
       "vi": "phá",
       "id": "merusak"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "壊すことができる"
   },
   {
     "id": "V0252",
@@ -3276,7 +4018,9 @@ const N4_VOCAB = [
       "ko": "고장나다",
       "vi": "hỏng",
       "id": "rusak"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "壊れることができる"
   },
   {
     "id": "V0253",
@@ -3289,7 +4033,9 @@ const N4_VOCAB = [
       "ko": "붐비다",
       "vi": "đông",
       "id": "ramai"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "混むことができる"
   },
   {
     "id": "V0254",
@@ -3302,7 +4048,9 @@ const N4_VOCAB = [
       "ko": "담다",
       "vi": "chứa",
       "id": "memasukkan"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "込めることができる"
   },
   {
     "id": "V0255",
@@ -3315,7 +4063,9 @@ const N4_VOCAB = [
       "ko": "찾다",
       "vi": "tìm",
       "id": "mencari"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "探すことができる"
   },
   {
     "id": "V0256",
@@ -3328,7 +4078,9 @@ const N4_VOCAB = [
       "ko": "내리다",
       "vi": "giảm",
       "id": "turun"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "下がることができる"
   },
   {
     "id": "V0257",
@@ -3341,7 +4093,9 @@ const N4_VOCAB = [
       "ko": "외치다",
       "vi": "hét",
       "id": "berteriak"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "叫ぶことができる"
   },
   {
     "id": "V0258",
@@ -3354,7 +4108,9 @@ const N4_VOCAB = [
       "ko": "피하다",
       "vi": "tránh",
       "id": "menghindari"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "避けることができる"
   },
   {
     "id": "V0259",
@@ -3367,7 +4123,9 @@ const N4_VOCAB = [
       "ko": "내리다",
       "vi": "hạ",
       "id": "menurunkan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "下げることができる"
   },
   {
     "id": "V0260",
@@ -3380,7 +4138,9 @@ const N4_VOCAB = [
       "ko": "지탱하다",
       "vi": "hỗ trợ",
       "id": "mendukung"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "支えることができる"
   },
   {
     "id": "V0261",
@@ -3393,7 +4153,9 @@ const N4_VOCAB = [
       "ko": "찌르다",
       "vi": "đâm",
       "id": "menusuk"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "刺すことができる"
   },
   {
     "id": "V0262",
@@ -3406,7 +4168,9 @@ const N4_VOCAB = [
       "ko": "정하다",
       "vi": "quy định",
       "id": "menetapkan"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "定めることができる"
   },
   {
     "id": "V0263",
@@ -3419,7 +4183,9 @@ const N4_VOCAB = [
       "ko": "깨다",
       "vi": "tỉnh",
       "id": "bangun"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "覚めることができる"
   },
   {
     "id": "V0264",
@@ -3432,7 +4198,9 @@ const N4_VOCAB = [
       "ko": "떠들다",
       "vi": "ồn ào",
       "id": "ribut"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "騒ぐことができる"
   },
   {
     "id": "V0265",
@@ -3445,7 +4213,9 @@ const N4_VOCAB = [
       "ko": "닿다",
       "vi": "chạm",
       "id": "menyentuh"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "触れることができる"
   },
   {
     "id": "V0266",
@@ -3458,7 +4228,9 @@ const N4_VOCAB = [
       "ko": "완성하다",
       "vi": "hoàn thành",
       "id": "menyelesaikan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "仕上げることができる"
   },
   {
     "id": "V0267",
@@ -3471,7 +4243,9 @@ const N4_VOCAB = [
       "ko": "나누다",
       "vi": "phân chia",
       "id": "memisahkan"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "仕切ることができる"
   },
   {
     "id": "V0268",
@@ -3484,7 +4258,9 @@ const N4_VOCAB = [
       "ko": "가라앉다",
       "vi": "chìm",
       "id": "tenggelam"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "沈むことができる"
   },
   {
     "id": "V0269",
@@ -3497,7 +4273,9 @@ const N4_VOCAB = [
       "ko": "따르다",
       "vi": "tuân theo",
       "id": "mengikuti"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "従うことができる"
   },
   {
     "id": "V0270",
@@ -3510,7 +4288,9 @@ const N4_VOCAB = [
       "ko": "묶다",
       "vi": "buộc",
       "id": "mengikat"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "縛ることができる"
   },
   {
     "id": "V0271",
@@ -3523,7 +4303,9 @@ const N4_VOCAB = [
       "ko": "짜다",
       "vi": "vắt",
       "id": "memeras"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "絞ることができる"
   },
   {
     "id": "V0272",
@@ -3536,7 +4318,9 @@ const N4_VOCAB = [
       "ko": "닫히다",
       "vi": "đóng",
       "id": "tertutup"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "閉まることができる"
   },
   {
     "id": "V0273",
@@ -3549,7 +4333,9 @@ const N4_VOCAB = [
       "ko": "보이다",
       "vi": "chỉ ra",
       "id": "menunjukkan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "示すことができる"
   },
   {
     "id": "V0274",
@@ -3562,7 +4348,9 @@ const N4_VOCAB = [
       "ko": "차지하다",
       "vi": "chiếm",
       "id": "menempati"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "占めることができる"
   },
   {
     "id": "V0275",
@@ -3575,7 +4363,9 @@ const N4_VOCAB = [
       "ko": "축축해지다",
       "vi": "ẩm",
       "id": "lembab"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "湿ることができる"
   },
   {
     "id": "V0276",
@@ -3588,7 +4378,9 @@ const N4_VOCAB = [
       "ko": "조사하다",
       "vi": "điều tra",
       "id": "menyelidiki"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "調べることができる"
   },
   {
     "id": "V0277",
@@ -3601,7 +4393,9 @@ const N4_VOCAB = [
       "ko": "알리다",
       "vi": "thông báo",
       "id": "memberitahu"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "知らせることができる"
   },
   {
     "id": "V0278",
@@ -3614,7 +4408,9 @@ const N4_VOCAB = [
       "ko": "믿다",
       "vi": "tin",
       "id": "percaya"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "信じることができる"
   },
   {
     "id": "V0279",
@@ -3627,7 +4423,9 @@ const N4_VOCAB = [
       "ko": "지나다",
       "vi": "qua",
       "id": "lewat"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "過ぎることができる"
   },
   {
     "id": "V0280",
@@ -3640,7 +4438,9 @@ const N4_VOCAB = [
       "ko": "뛰어나다",
       "vi": "xuất sắc",
       "id": "unggul"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "優れることができる"
   },
   {
     "id": "V0281",
@@ -3653,7 +4453,9 @@ const N4_VOCAB = [
       "ko": "권하다",
       "vi": "khuyên",
       "id": "merekomendasikan"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "勧めることができる"
   },
   {
     "id": "V0282",
@@ -3666,7 +4468,9 @@ const N4_VOCAB = [
       "ko": "버리다",
       "vi": "vứt",
       "id": "membuang"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "捨てることができる"
   },
   {
     "id": "V0283",
@@ -3679,7 +4483,9 @@ const N4_VOCAB = [
       "ko": "미끄러지다",
       "vi": "trượt",
       "id": "tergelincir"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "滑ることができる"
   },
   {
     "id": "V0284",
@@ -3692,7 +4498,9 @@ const N4_VOCAB = [
       "ko": "끝나다",
       "vi": "xong",
       "id": "selesai"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "済むことができる"
   },
   {
     "id": "V0285",
@@ -3705,7 +4513,9 @@ const N4_VOCAB = [
       "ko": "맑아지다",
       "vi": "trong",
       "id": "jernih"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "澄むことができる"
   },
   {
     "id": "V0286",
@@ -3718,7 +4528,9 @@ const N4_VOCAB = [
       "ko": "인쇄하다",
       "vi": "in",
       "id": "mencetak"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "刷ることができる"
   },
   {
     "id": "V0287",
@@ -3731,7 +4543,14 @@ const N4_VOCAB = [
       "ko": "앉다",
       "vi": "ngồi",
       "id": "duduk"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "椅子に座る",
+    "syn": [
+      "腰掛ける",
+      "着席する",
+      "座席につく"
+    ]
   },
   {
     "id": "V0288",
@@ -3744,7 +4563,9 @@ const N4_VOCAB = [
       "ko": "책망하다",
       "vi": "trách",
       "id": "menyalahkan"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "責めることができる"
   },
   {
     "id": "V0289",
@@ -3757,7 +4578,9 @@ const N4_VOCAB = [
       "ko": "공격하다",
       "vi": "tấn công",
       "id": "menyerang"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "攻めることができる"
   },
   {
     "id": "V0290",
@@ -3770,7 +4593,9 @@ const N4_VOCAB = [
       "ko": "곁들이다",
       "vi": "thêm vào",
       "id": "menambahkan"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "添えることができる"
   },
   {
     "id": "V0291",
@@ -3783,7 +4608,9 @@ const N4_VOCAB = [
       "ko": "갖추다",
       "vi": "chuẩn bị",
       "id": "mempersiapkan"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "備えることができる"
   },
   {
     "id": "V0292",
@@ -3796,7 +4623,9 @@ const N4_VOCAB = [
       "ko": "물들이다",
       "vi": "nhuộm",
       "id": "mewarnai"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "染めることができる"
   },
   {
     "id": "V0293",
@@ -3809,7 +4638,9 @@ const N4_VOCAB = [
       "ko": "갖추다",
       "vi": "sắp xếp",
       "id": "menyusun"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "揃えることができる"
   },
   {
     "id": "V0294",
@@ -3822,7 +4653,9 @@ const N4_VOCAB = [
       "ko": "견디다",
       "vi": "chịu đựng",
       "id": "bertahan"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "耐えることができる"
   },
   {
     "id": "V0295",
@@ -3835,7 +4668,9 @@ const N4_VOCAB = [
       "ko": "쓰러뜨리다",
       "vi": "đánh đổ",
       "id": "menjatuhkan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "倒すことができる"
   },
   {
     "id": "V0296",
@@ -3848,7 +4683,9 @@ const N4_VOCAB = [
       "ko": "쓰러지다",
       "vi": "ngã",
       "id": "jatuh"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "倒れることができる"
   },
   {
     "id": "V0297",
@@ -3861,7 +4698,9 @@ const N4_VOCAB = [
       "ko": "높이다",
       "vi": "nâng cao",
       "id": "meningkatkan"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "高めることができる"
   },
   {
     "id": "V0298",
@@ -3874,7 +4713,9 @@ const N4_VOCAB = [
       "ko": "밥짓다",
       "vi": "nấu cơm",
       "id": "menanak"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "炊くことができる"
   },
   {
     "id": "V0299",
@@ -3887,7 +4728,9 @@ const N4_VOCAB = [
       "ko": "확인하다",
       "vi": "xác nhận",
       "id": "memastikan"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "確かめることができる"
   },
   {
     "id": "V0300",
@@ -3900,7 +4743,9 @@ const N4_VOCAB = [
       "ko": "살아나다",
       "vi": "được cứu",
       "id": "tertolong"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "助かることができる"
   },
   {
     "id": "V0301",
@@ -3913,7 +4758,9 @@ const N4_VOCAB = [
       "ko": "접다",
       "vi": "gấp",
       "id": "melipat"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "畳むことができる"
   },
   {
     "id": "V0302",
@@ -3926,7 +4773,9 @@ const N4_VOCAB = [
       "ko": "싸우다",
       "vi": "chiến đấu",
       "id": "berperang"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "戦うことができる"
   },
   {
     "id": "V0303",
@@ -3939,7 +4788,9 @@ const N4_VOCAB = [
       "ko": "두드리다",
       "vi": "gõ",
       "id": "mengetuk"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "叩くことができる"
   },
   {
     "id": "V0304",
@@ -3952,7 +4803,9 @@ const N4_VOCAB = [
       "ko": "세우다",
       "vi": "dựng",
       "id": "mendirikan"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "立てることができる"
   },
   {
     "id": "V0305",
@@ -3965,7 +4818,9 @@ const N4_VOCAB = [
       "ko": "짓다",
       "vi": "xây",
       "id": "membangun"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "建てることができる"
   },
   {
     "id": "V0306",
@@ -3978,7 +4833,9 @@ const N4_VOCAB = [
       "ko": "즐기다",
       "vi": "vui vẻ",
       "id": "menikmati"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "楽しむことができる"
   },
   {
     "id": "V0307",
@@ -3991,7 +4848,9 @@ const N4_VOCAB = [
       "ko": "묶다",
       "vi": "bó",
       "id": "mengikat"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "束ねることができる"
   },
   {
     "id": "V0308",
@@ -4004,7 +4863,9 @@ const N4_VOCAB = [
       "ko": "먹다",
       "vi": "ăn",
       "id": "makan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "食べることができる"
   },
   {
     "id": "V0309",
@@ -4017,7 +4878,9 @@ const N4_VOCAB = [
       "ko": "시험하다",
       "vi": "thử",
       "id": "mencoba"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "試すことができる"
   },
   {
     "id": "V0310",
@@ -4030,7 +4893,9 @@ const N4_VOCAB = [
       "ko": "모으다",
       "vi": "tích",
       "id": "mengumpulkan"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "溜めることができる"
   },
   {
     "id": "V0311",
@@ -4043,7 +4908,9 @@ const N4_VOCAB = [
       "ko": "유지하다",
       "vi": "giữ",
       "id": "mempertahankan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "保つことができる"
   },
   {
     "id": "V0312",
@@ -4056,7 +4923,9 @@ const N4_VOCAB = [
       "ko": "충분하다",
       "vi": "đủ",
       "id": "cukup"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "足りることができる"
   },
   {
     "id": "V0313",
@@ -4069,7 +4938,9 @@ const N4_VOCAB = [
       "ko": "늘어지다",
       "vi": "rủ",
       "id": "menggantung"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "垂れることができる"
   },
   {
     "id": "V0314",
@@ -4082,7 +4953,9 @@ const N4_VOCAB = [
       "ko": "다르다",
       "vi": "khác",
       "id": "berbeda"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "違うことができる"
   },
   {
     "id": "V0315",
@@ -4095,7 +4968,9 @@ const N4_VOCAB = [
       "ko": "다가가다",
       "vi": "đến gần",
       "id": "mendekati"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "近づくことができる"
   },
   {
     "id": "V0316",
@@ -4108,7 +4983,9 @@ const N4_VOCAB = [
       "ko": "맹세하다",
       "vi": "thề",
       "id": "bersumpah"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "誓うことができる"
   },
   {
     "id": "V0317",
@@ -4121,7 +4998,9 @@ const N4_VOCAB = [
       "ko": "줄어들다",
       "vi": "co",
       "id": "menyusut"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "縮むことができる"
   },
   {
     "id": "V0318",
@@ -4134,7 +5013,9 @@ const N4_VOCAB = [
       "ko": "흩뿌리다",
       "vi": "rải",
       "id": "menyebarkan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "散らすことができる"
   },
   {
     "id": "V0319",
@@ -4147,7 +5028,9 @@ const N4_VOCAB = [
       "ko": "흩어지다",
       "vi": "rơi rụng",
       "id": "berguguran"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "散ることができる"
   },
   {
     "id": "V0320",
@@ -4160,7 +5043,9 @@ const N4_VOCAB = [
       "ko": "쓰다",
       "vi": "dùng",
       "id": "menggunakan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "使うことができる"
   },
   {
     "id": "V0321",
@@ -4173,7 +5058,9 @@ const N4_VOCAB = [
       "ko": "잡다",
       "vi": "bắt",
       "id": "menangkap"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "捕まえることができる"
   },
   {
     "id": "V0322",
@@ -4186,7 +5073,9 @@ const N4_VOCAB = [
       "ko": "잡히다",
       "vi": "bị bắt",
       "id": "tertangkap"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "捕まることができる"
   },
   {
     "id": "V0323",
@@ -4199,7 +5088,9 @@ const N4_VOCAB = [
       "ko": "붙다",
       "vi": "dính",
       "id": "menempel"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "付くことができる"
   },
   {
     "id": "V0324",
@@ -4212,7 +5103,9 @@ const N4_VOCAB = [
       "ko": "도착하다",
       "vi": "đến",
       "id": "tiba"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "着くことができる"
   },
   {
     "id": "V0325",
@@ -4225,7 +5118,9 @@ const N4_VOCAB = [
       "ko": "다하다",
       "vi": "tận tâm",
       "id": "menghabiskan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "尽くすことができる"
   },
   {
     "id": "V0326",
@@ -4238,7 +5133,9 @@ const N4_VOCAB = [
       "ko": "만들다",
       "vi": "làm",
       "id": "membuat"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "作ることができる"
   },
   {
     "id": "V0327",
@@ -4251,7 +5148,9 @@ const N4_VOCAB = [
       "ko": "알리다",
       "vi": "nói",
       "id": "memberitahu"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "告げることができる"
   },
   {
     "id": "V0328",
@@ -4264,7 +5163,9 @@ const N4_VOCAB = [
       "ko": "싸다",
       "vi": "gói",
       "id": "membungkus"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "包むことができる"
   },
   {
     "id": "V0329",
@@ -4277,7 +5178,9 @@ const N4_VOCAB = [
       "ko": "근무하다",
       "vi": "làm việc",
       "id": "bekerja"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "勤めることができる"
   },
   {
     "id": "V0330",
@@ -4290,7 +5193,9 @@ const N4_VOCAB = [
       "ko": "노력하다",
       "vi": "cố gắng",
       "id": "berusaha"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "努めることができる"
   },
   {
     "id": "V0331",
@@ -4303,7 +5208,9 @@ const N4_VOCAB = [
       "ko": "연결하다",
       "vi": "kết nối",
       "id": "menghubungkan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "繋ぐことができる"
   },
   {
     "id": "V0332",
@@ -4316,7 +5223,9 @@ const N4_VOCAB = [
       "ko": "쌓다",
       "vi": "chất",
       "id": "menumpuk"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "積むことができる"
   },
   {
     "id": "V0333",
@@ -4329,7 +5238,9 @@ const N4_VOCAB = [
       "ko": "낚다",
       "vi": "câu",
       "id": "memancing"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "釣ることができる"
   },
   {
     "id": "V0334",
@@ -4342,7 +5253,9 @@ const N4_VOCAB = [
       "ko": "데려가다",
       "vi": "dẫn",
       "id": "membawa"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "連れることができる"
   },
   {
     "id": "V0335",
@@ -4355,7 +5268,9 @@ const N4_VOCAB = [
       "ko": "만나다",
       "vi": "gặp",
       "id": "bertemu"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "出会うことができる"
   },
   {
     "id": "V0336",
@@ -4368,7 +5283,9 @@ const N4_VOCAB = [
       "ko": "외출하다",
       "vi": "ra ngoài",
       "id": "pergi keluar"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "出かけることができる"
   },
   {
     "id": "V0337",
@@ -4381,7 +5298,9 @@ const N4_VOCAB = [
       "ko": "할 수 있다",
       "vi": "có thể",
       "id": "bisa"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "できることができる"
   },
   {
     "id": "V0338",
@@ -4394,7 +5313,9 @@ const N4_VOCAB = [
       "ko": "비추다",
       "vi": "chiếu sáng",
       "id": "menerangi"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "照らすことができる"
   },
   {
     "id": "V0339",
@@ -4407,7 +5328,9 @@ const N4_VOCAB = [
       "ko": "통하다",
       "vi": "cho qua",
       "id": "melewatkan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "通すことができる"
   },
   {
     "id": "V0340",
@@ -4420,7 +5343,9 @@ const N4_VOCAB = [
       "ko": "지나가다",
       "vi": "đi qua",
       "id": "lewat"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "通ることができる"
   },
   {
     "id": "V0341",
@@ -4433,7 +5358,9 @@ const N4_VOCAB = [
       "ko": "녹이다",
       "vi": "tan",
       "id": "melelehkan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "溶かすことができる"
   },
   {
     "id": "V0342",
@@ -4446,7 +5373,9 @@ const N4_VOCAB = [
       "ko": "녹다",
       "vi": "tan chảy",
       "id": "meleleh"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "溶けることができる"
   },
   {
     "id": "V0343",
@@ -4459,7 +5388,9 @@ const N4_VOCAB = [
       "ko": "정돈하다",
       "vi": "sắp xếp",
       "id": "merapikan"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "整えることができる"
   },
   {
     "id": "V0344",
@@ -4472,7 +5403,9 @@ const N4_VOCAB = [
       "ko": "날다",
       "vi": "bay",
       "id": "terbang"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "飛ぶことができる"
   },
   {
     "id": "V0345",
@@ -4485,7 +5418,9 @@ const N4_VOCAB = [
       "ko": "멈추다",
       "vi": "dừng",
       "id": "berhenti"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "止まることができる"
   },
   {
     "id": "V0346",
@@ -4498,7 +5433,9 @@ const N4_VOCAB = [
       "ko": "멈추다",
       "vi": "dừng lại",
       "id": "menghentikan"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "止めることができる"
   },
   {
     "id": "V0347",
@@ -4511,7 +5448,9 @@ const N4_VOCAB = [
       "ko": "잡다",
       "vi": "lấy",
       "id": "mengambil"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "取ることができる"
   },
   {
     "id": "V0348",
@@ -4524,7 +5463,9 @@ const N4_VOCAB = [
       "ko": "찍다",
       "vi": "chụp",
       "id": "memotret"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "撮ることができる"
   },
   {
     "id": "V0349",
@@ -4537,7 +5478,9 @@ const N4_VOCAB = [
       "ko": "고치다",
       "vi": "sửa",
       "id": "memperbaiki"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "直すことができる"
   },
   {
     "id": "V0350",
@@ -4550,7 +5493,9 @@ const N4_VOCAB = [
       "ko": "낫다",
       "vi": "được sửa",
       "id": "diperbaiki"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "直ることができる"
   },
   {
     "id": "V0351",
@@ -4563,7 +5508,9 @@ const N4_VOCAB = [
       "ko": "흘리다",
       "vi": "làm chảy",
       "id": "mengalirkan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "流すことができる"
   },
   {
     "id": "V0352",
@@ -4576,7 +5523,9 @@ const N4_VOCAB = [
       "ko": "흐르다",
       "vi": "chảy",
       "id": "mengalir"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "流れることができる"
   },
   {
     "id": "V0353",
@@ -4589,7 +5538,9 @@ const N4_VOCAB = [
       "ko": "울다",
       "vi": "khóc",
       "id": "menangis"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "泣くことができる"
   },
   {
     "id": "V0354",
@@ -4602,7 +5553,9 @@ const N4_VOCAB = [
       "ko": "돌아가시다",
       "vi": "qua đời",
       "id": "meninggal"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "亡くなることができる"
   },
   {
     "id": "V0355",
@@ -4615,7 +5568,9 @@ const N4_VOCAB = [
       "ko": "없어지다",
       "vi": "mất",
       "id": "habis"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "無くなることができる"
   },
   {
     "id": "V0356",
@@ -4628,7 +5583,9 @@ const N4_VOCAB = [
       "ko": "잃어버리다",
       "vi": "mất",
       "id": "kehilangan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "無くすことができる"
   },
   {
     "id": "V0357",
@@ -4641,7 +5598,9 @@ const N4_VOCAB = [
       "ko": "던지다",
       "vi": "ném",
       "id": "melempar"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "投げることができる"
   },
   {
     "id": "V0358",
@@ -4654,7 +5613,9 @@ const N4_VOCAB = [
       "ko": "한탄하다",
       "vi": "than thở",
       "id": "meratap"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "嘆くことができる"
   },
   {
     "id": "V0359",
@@ -4667,7 +5628,9 @@ const N4_VOCAB = [
       "ko": "때리다",
       "vi": "đấm",
       "id": "memukul"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "殴ることができる"
   },
   {
     "id": "V0360",
@@ -4680,7 +5643,9 @@ const N4_VOCAB = [
       "ko": "위로하다",
       "vi": "an ủi",
       "id": "menghibur"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "慰めることができる"
   },
   {
     "id": "V0361",
@@ -4693,7 +5658,9 @@ const N4_VOCAB = [
       "ko": "고민하다",
       "vi": "lo lắng",
       "id": "bingung"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "悩むことができる"
   },
   {
     "id": "V0362",
@@ -4706,7 +5673,9 @@ const N4_VOCAB = [
       "ko": "줄서다",
       "vi": "xếp hàng",
       "id": "berbaris"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "並ぶことができる"
   },
   {
     "id": "V0363",
@@ -4719,7 +5688,9 @@ const N4_VOCAB = [
       "ko": "늘어놓다",
       "vi": "sắp xếp",
       "id": "menyusun"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "並べることができる"
   },
   {
     "id": "V0364",
@@ -4732,7 +5703,9 @@ const N4_VOCAB = [
       "ko": "되다",
       "vi": "trở thành",
       "id": "menjadi"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "成ることができる"
   },
   {
     "id": "V0365",
@@ -4745,7 +5718,9 @@ const N4_VOCAB = [
       "ko": "울리다",
       "vi": "kêu",
       "id": "berbunyi"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "鳴ることができる"
   },
   {
     "id": "V0366",
@@ -4758,7 +5733,9 @@ const N4_VOCAB = [
       "ko": "냄새나다",
       "vi": "có mùi",
       "id": "berbau"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "匂うことができる"
   },
   {
     "id": "V0367",
@@ -4771,7 +5748,9 @@ const N4_VOCAB = [
       "ko": "도망치다",
       "vi": "chạy trốn",
       "id": "melarikan diri"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "逃げることができる"
   },
   {
     "id": "V0368",
@@ -4784,7 +5763,9 @@ const N4_VOCAB = [
       "ko": "쥐다",
       "vi": "nắm",
       "id": "menggenggam"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "握ることができる"
   },
   {
     "id": "V0369",
@@ -4797,7 +5778,9 @@ const N4_VOCAB = [
       "ko": "미워하다",
       "vi": "ghét",
       "id": "membenci"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "憎むことができる"
   },
   {
     "id": "V0370",
@@ -4810,7 +5793,9 @@ const N4_VOCAB = [
       "ko": "삶다",
       "vi": "nấu",
       "id": "merebus"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "煮ることができる"
   },
   {
     "id": "V0371",
@@ -4823,7 +5808,9 @@ const N4_VOCAB = [
       "ko": "닮다",
       "vi": "giống",
       "id": "mirip"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "似ることができる"
   },
   {
     "id": "V0372",
@@ -4836,7 +5823,9 @@ const N4_VOCAB = [
       "ko": "젖다",
       "vi": "ướt",
       "id": "basah"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "濡れることができる"
   },
   {
     "id": "V0373",
@@ -4849,7 +5838,9 @@ const N4_VOCAB = [
       "ko": "바르다",
       "vi": "sơn",
       "id": "mengecat"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "塗ることができる"
   },
   {
     "id": "V0374",
@@ -4862,7 +5853,9 @@ const N4_VOCAB = [
       "ko": "빼다",
       "vi": "rút",
       "id": "mencabut"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "抜くことができる"
   },
   {
     "id": "V0375",
@@ -4875,7 +5868,9 @@ const N4_VOCAB = [
       "ko": "빠지다",
       "vi": "rơi ra",
       "id": "terlepas"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "抜けることができる"
   },
   {
     "id": "V0376",
@@ -4888,7 +5883,9 @@ const N4_VOCAB = [
       "ko": "훔치다",
       "vi": "trộm",
       "id": "mencuri"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "盗むことができる"
   },
   {
     "id": "V0377",
@@ -4901,7 +5898,9 @@ const N4_VOCAB = [
       "ko": "벗다",
       "vi": "cởi",
       "id": "melepas"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "脱ぐことができる"
   },
   {
     "id": "V0378",
@@ -4914,7 +5913,9 @@ const N4_VOCAB = [
       "ko": "바라다",
       "vi": "mong",
       "id": "berharap"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "願うことができる"
   },
   {
     "id": "V0379",
@@ -4927,7 +5928,9 @@ const N4_VOCAB = [
       "ko": "잠들다",
       "vi": "ngủ",
       "id": "tidur"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "眠ることができる"
   },
   {
     "id": "V0380",
@@ -4940,7 +5943,9 @@ const N4_VOCAB = [
       "ko": "노리다",
       "vi": "nhắm",
       "id": "mengincar"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "狙うことができる"
   },
   {
     "id": "V0381",
@@ -4953,7 +5958,9 @@ const N4_VOCAB = [
       "ko": "바라다",
       "vi": "mong muốn",
       "id": "mengharapkan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "望むことができる"
   },
   {
     "id": "V0382",
@@ -4966,7 +5973,9 @@ const N4_VOCAB = [
       "ko": "들여다보다",
       "vi": "nhìn trộm",
       "id": "mengintip"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "覗くことができる"
   },
   {
     "id": "V0383",
@@ -4979,7 +5988,9 @@ const N4_VOCAB = [
       "ko": "늘리다",
       "vi": "kéo dài",
       "id": "memperpanjang"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "延ばすことができる"
   },
   {
     "id": "V0384",
@@ -4992,7 +6003,9 @@ const N4_VOCAB = [
       "ko": "늘어나다",
       "vi": "kéo dài",
       "id": "diperpanjang"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "延びることができる"
   },
   {
     "id": "V0385",
@@ -5005,7 +6018,9 @@ const N4_VOCAB = [
       "ko": "뻗다",
       "vi": "duỗi",
       "id": "meregangkan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "伸ばすことができる"
   },
   {
     "id": "V0386",
@@ -5018,7 +6033,9 @@ const N4_VOCAB = [
       "ko": "자라다",
       "vi": "mọc",
       "id": "tumbuh"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "伸びることができる"
   },
   {
     "id": "V0387",
@@ -5031,7 +6048,9 @@ const N4_VOCAB = [
       "ko": "마시다",
       "vi": "uống",
       "id": "minum"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "飲むことができる"
   },
   {
     "id": "V0388",
@@ -5044,7 +6063,9 @@ const N4_VOCAB = [
       "ko": "타다",
       "vi": "đi",
       "id": "naik"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "乗ることができる"
   },
   {
     "id": "V0389",
@@ -5057,7 +6078,9 @@ const N4_VOCAB = [
       "ko": "실리다",
       "vi": "được đăng",
       "id": "dimuat"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "載ることができる"
   },
   {
     "id": "V0390",
@@ -5070,7 +6093,9 @@ const N4_VOCAB = [
       "ko": "들어가다",
       "vi": "vào",
       "id": "masuk"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "入ることができる"
   },
   {
     "id": "V0391",
@@ -5083,7 +6108,9 @@ const N4_VOCAB = [
       "ko": "나다",
       "vi": "mọc",
       "id": "tumbuh"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "生えることができる"
   },
   {
     "id": "V0392",
@@ -5096,7 +6123,9 @@ const N4_VOCAB = [
       "ko": "재다",
       "vi": "đo",
       "id": "mengukur"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "測ることができる"
   },
   {
     "id": "V0393",
@@ -5109,7 +6138,9 @@ const N4_VOCAB = [
       "ko": "재다",
       "vi": "tính",
       "id": "menghitung"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "計ることができる"
   },
   {
     "id": "V0394",
@@ -5122,7 +6153,9 @@ const N4_VOCAB = [
       "ko": "토하다",
       "vi": "nôn",
       "id": "muntah"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "吐くことができる"
   },
   {
     "id": "V0395",
@@ -5135,7 +6168,9 @@ const N4_VOCAB = [
       "ko": "신다",
       "vi": "mặc",
       "id": "memakai"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "履くことができる"
   },
   {
     "id": "V0396",
@@ -5148,7 +6183,9 @@ const N4_VOCAB = [
       "ko": "운반하다",
       "vi": "vận chuyển",
       "id": "mengangkut"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "運ぶことができる"
   },
   {
     "id": "V0397",
@@ -5161,7 +6198,9 @@ const N4_VOCAB = [
       "ko": "끼우다",
       "vi": "kẹp",
       "id": "menjepit"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "挟むことができる"
   },
   {
     "id": "V0398",
@@ -5174,7 +6213,9 @@ const N4_VOCAB = [
       "ko": "시작되다",
       "vi": "bắt đầu",
       "id": "dimulai"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "始まることができる"
   },
   {
     "id": "V0399",
@@ -5187,7 +6228,9 @@ const N4_VOCAB = [
       "ko": "시작하다",
       "vi": "bắt đầu",
       "id": "memulai"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "始めることができる"
   },
   {
     "id": "V0400",
@@ -5200,7 +6243,9 @@ const N4_VOCAB = [
       "ko": "달리다",
       "vi": "chạy",
       "id": "berlari"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "走ることができる"
   },
   {
     "id": "V0401",
@@ -5213,7 +6258,9 @@ const N4_VOCAB = [
       "ko": "빼다",
       "vi": "tháo",
       "id": "melepas"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "外すことができる"
   },
   {
     "id": "V0402",
@@ -5226,7 +6273,9 @@ const N4_VOCAB = [
       "ko": "일하다",
       "vi": "làm việc",
       "id": "bekerja"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "働くことができる"
   },
   {
     "id": "V0403",
@@ -5239,7 +6288,9 @@ const N4_VOCAB = [
       "ko": "말하다",
       "vi": "nói",
       "id": "berbicara"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "話すことができる"
   },
   {
     "id": "V0404",
@@ -5252,7 +6303,9 @@ const N4_VOCAB = [
       "ko": "떼다",
       "vi": "tách",
       "id": "memisahkan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "離すことができる"
   },
   {
     "id": "V0405",
@@ -5265,7 +6318,9 @@ const N4_VOCAB = [
       "ko": "놓다",
       "vi": "thả",
       "id": "melepaskan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "放すことができる"
   },
   {
     "id": "V0406",
@@ -5278,7 +6333,9 @@ const N4_VOCAB = [
       "ko": "떨어지다",
       "vi": "rời",
       "id": "meninggalkan"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "離れることができる"
   },
   {
     "id": "V0407",
@@ -5291,7 +6348,9 @@ const N4_VOCAB = [
       "ko": "뛰다",
       "vi": "nhảy",
       "id": "melompat"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "跳ねることができる"
   },
   {
     "id": "V0408",
@@ -5304,7 +6363,9 @@ const N4_VOCAB = [
       "ko": "지불하다",
       "vi": "trả",
       "id": "membayar"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "払うことができる"
   },
   {
     "id": "V0409",
@@ -5317,7 +6378,9 @@ const N4_VOCAB = [
       "ko": "펴다",
       "vi": "căng",
       "id": "merentangkan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "張ることができる"
   },
   {
     "id": "V0410",
@@ -5330,7 +6393,9 @@ const N4_VOCAB = [
       "ko": "붙이다",
       "vi": "dán",
       "id": "menempel"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "貼ることができる"
   },
   {
     "id": "V0411",
@@ -5343,7 +6408,9 @@ const N4_VOCAB = [
       "ko": "맑아지다",
       "vi": "nắng",
       "id": "cerah"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "晴れることができる"
   },
   {
     "id": "V0412",
@@ -5356,7 +6423,9 @@ const N4_VOCAB = [
       "ko": "붓다",
       "vi": "sưng",
       "id": "bengkak"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "腫れることができる"
   },
   {
     "id": "V0413",
@@ -5369,7 +6438,9 @@ const N4_VOCAB = [
       "ko": "차가워지다",
       "vi": "lạnh",
       "id": "dingin"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "冷えることができる"
   },
   {
     "id": "V0414",
@@ -5382,7 +6453,9 @@ const N4_VOCAB = [
       "ko": "빛나다",
       "vi": "sáng",
       "id": "bersinar"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "光ることができる"
   },
   {
     "id": "V0415",
@@ -5395,7 +6468,9 @@ const N4_VOCAB = [
       "ko": "당기다",
       "vi": "kéo",
       "id": "menarik"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "引くことができる"
   },
   {
     "id": "V0416",
@@ -5408,7 +6483,9 @@ const N4_VOCAB = [
       "ko": "치다",
       "vi": "chơi",
       "id": "memainkan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "弾くことができる"
   },
   {
     "id": "V0417",
@@ -5421,7 +6498,9 @@ const N4_VOCAB = [
       "ko": "울리다",
       "vi": "vang",
       "id": "bergema"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "響くことができる"
   },
   {
     "id": "V0418",
@@ -5434,7 +6513,9 @@ const N4_VOCAB = [
       "ko": "열다",
       "vi": "mở",
       "id": "membuka"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "開くことができる"
   },
   {
     "id": "V0419",
@@ -5447,7 +6528,9 @@ const N4_VOCAB = [
       "ko": "줍다",
       "vi": "nhặt",
       "id": "memungut"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "拾うことができる"
   },
   {
     "id": "V0420",
@@ -5460,7 +6543,9 @@ const N4_VOCAB = [
       "ko": "펼쳐지다",
       "vi": "lan rộng",
       "id": "menyebar"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "広がることができる"
   },
   {
     "id": "V0421",
@@ -5473,7 +6558,9 @@ const N4_VOCAB = [
       "ko": "펼치다",
       "vi": "mở rộng",
       "id": "memperluas"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "広げることができる"
   },
   {
     "id": "V0422",
@@ -5486,7 +6573,9 @@ const N4_VOCAB = [
       "ko": "깊게하다",
       "vi": "đào sâu",
       "id": "memperdalam"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "深めることができる"
   },
   {
     "id": "V0423",
@@ -5499,7 +6588,9 @@ const N4_VOCAB = [
       "ko": "불다",
       "vi": "thổi",
       "id": "meniup"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "吹くことができる"
   },
   {
     "id": "V0424",
@@ -5512,7 +6603,9 @@ const N4_VOCAB = [
       "ko": "닦다",
       "vi": "lau",
       "id": "mengelap"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "拭くことができる"
   },
   {
     "id": "V0425",
@@ -5525,7 +6618,9 @@ const N4_VOCAB = [
       "ko": "포함하다",
       "vi": "bao gồm",
       "id": "mengandung"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "含むことができる"
   },
   {
     "id": "V0426",
@@ -5538,7 +6633,9 @@ const N4_VOCAB = [
       "ko": "부풀다",
       "vi": "phồng",
       "id": "mengembang"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "膨らむことができる"
   },
   {
     "id": "V0427",
@@ -5551,7 +6648,9 @@ const N4_VOCAB = [
       "ko": "막다",
       "vi": "ngăn chặn",
       "id": "mencegah"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "防ぐことができる"
   },
   {
     "id": "V0428",
@@ -5564,7 +6663,9 @@ const N4_VOCAB = [
       "ko": "밟다",
       "vi": "giẫm",
       "id": "menginjak"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "踏むことができる"
   },
   {
     "id": "V0429",
@@ -5577,7 +6678,9 @@ const N4_VOCAB = [
       "ko": "흔들다",
       "vi": "vẫy",
       "id": "mengayunkan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "振ることができる"
   },
   {
     "id": "V0430",
@@ -5590,7 +6693,9 @@ const N4_VOCAB = [
       "ko": "내리다",
       "vi": "rơi",
       "id": "turun"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "降ることができる"
   },
   {
     "id": "V0431",
@@ -5603,7 +6708,9 @@ const N4_VOCAB = [
       "ko": "말리다",
       "vi": "phơi",
       "id": "menjemur"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "干すことができる"
   },
   {
     "id": "V0432",
@@ -5616,7 +6723,9 @@ const N4_VOCAB = [
       "ko": "파다",
       "vi": "đào",
       "id": "menggali"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "掘ることができる"
   },
   {
     "id": "V0433",
@@ -5629,7 +6738,9 @@ const N4_VOCAB = [
       "ko": "지다",
       "vi": "thua",
       "id": "kalah"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "負けることができる"
   },
   {
     "id": "V0434",
@@ -5642,7 +6753,9 @@ const N4_VOCAB = [
       "ko": "꺾이다",
       "vi": "rẽ",
       "id": "berbelok"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "曲がることができる"
   },
   {
     "id": "V0435",
@@ -5655,7 +6768,9 @@ const N4_VOCAB = [
       "ko": "구부리다",
       "vi": "uốn",
       "id": "membengkokkan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "曲げることができる"
   },
   {
     "id": "V0436",
@@ -5668,7 +6783,9 @@ const N4_VOCAB = [
       "ko": "섞다",
       "vi": "trộn",
       "id": "mencampur"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "混ぜることができる"
   },
   {
     "id": "V0437",
@@ -5681,7 +6798,9 @@ const N4_VOCAB = [
       "ko": "기다리다",
       "vi": "chờ",
       "id": "menunggu"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "待つことができる"
   },
   {
     "id": "V0438",
@@ -5694,7 +6813,9 @@ const N4_VOCAB = [
       "ko": "정리하다",
       "vi": "tổng hợp",
       "id": "meringkas"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "纏めることができる"
   },
   {
     "id": "V0439",
@@ -5707,7 +6828,9 @@ const N4_VOCAB = [
       "ko": "배우다",
       "vi": "học",
       "id": "belajar"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "学ぶことができる"
   },
   {
     "id": "V0440",
@@ -5720,7 +6843,9 @@ const N4_VOCAB = [
       "ko": "돌리다",
       "vi": "xoay",
       "id": "memutar"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "回すことができる"
   },
   {
     "id": "V0441",
@@ -5733,7 +6858,9 @@ const N4_VOCAB = [
       "ko": "돌다",
       "vi": "vòng",
       "id": "berkeliling"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "回ることができる"
   },
   {
     "id": "V0442",
@@ -5746,7 +6873,9 @@ const N4_VOCAB = [
       "ko": "보이다",
       "vi": "thấy",
       "id": "terlihat"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "見えることができる"
   },
   {
     "id": "V0443",
@@ -5759,7 +6888,9 @@ const N4_VOCAB = [
       "ko": "닦다",
       "vi": "đánh",
       "id": "menggosok"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "磨くことができる"
   },
   {
     "id": "V0444",
@@ -5772,7 +6903,9 @@ const N4_VOCAB = [
       "ko": "보여주다",
       "vi": "cho xem",
       "id": "memperlihatkan"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "見せることができる"
   },
   {
     "id": "V0445",
@@ -5785,7 +6918,9 @@ const N4_VOCAB = [
       "ko": "인정하다",
       "vi": "công nhận",
       "id": "mengakui"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "認めることができる"
   },
   {
     "id": "V0446",
@@ -5798,7 +6933,9 @@ const N4_VOCAB = [
       "ko": "향하다",
       "vi": "hướng tới",
       "id": "menuju"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "向かうことができる"
   },
   {
     "id": "V0447",
@@ -5811,7 +6948,9 @@ const N4_VOCAB = [
       "ko": "맞이하다",
       "vi": "đón",
       "id": "menyambut"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "迎えることができる"
   },
   {
     "id": "V0448",
@@ -5824,7 +6963,9 @@ const N4_VOCAB = [
       "ko": "향하다",
       "vi": "hướng",
       "id": "menghadap"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "向くことができる"
   },
   {
     "id": "V0449",
@@ -5837,7 +6978,9 @@ const N4_VOCAB = [
       "ko": "향하게하다",
       "vi": "hướng về",
       "id": "mengarahkan"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "向けることができる"
   },
   {
     "id": "V0450",
@@ -5850,7 +6993,9 @@ const N4_VOCAB = [
       "ko": "묶다",
       "vi": "buộc",
       "id": "mengikat"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "結ぶことができる"
   },
   {
     "id": "V0451",
@@ -5863,7 +7008,9 @@ const N4_VOCAB = [
       "ko": "타다",
       "vi": "cháy",
       "id": "terbakar"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "燃えることができる"
   },
   {
     "id": "V0452",
@@ -5876,7 +7023,9 @@ const N4_VOCAB = [
       "ko": "태우다",
       "vi": "đốt",
       "id": "membakar"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "燃やすことができる"
   },
   {
     "id": "V0453",
@@ -5889,7 +7038,9 @@ const N4_VOCAB = [
       "ko": "들다",
       "vi": "cầm",
       "id": "memegang"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "持つことができる"
   },
   {
     "id": "V0454",
@@ -5902,7 +7053,9 @@ const N4_VOCAB = [
       "ko": "되돌리다",
       "vi": "trả lại",
       "id": "mengembalikan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "戻すことができる"
   },
   {
     "id": "V0455",
@@ -5915,7 +7068,9 @@ const N4_VOCAB = [
       "ko": "돌아오다",
       "vi": "quay lại",
       "id": "kembali"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "戻ることができる"
   },
   {
     "id": "V0456",
@@ -5928,7 +7083,9 @@ const N4_VOCAB = [
       "ko": "구하다",
       "vi": "tìm kiếm",
       "id": "mencari"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "求めることができる"
   },
   {
     "id": "V0457",
@@ -5941,7 +7098,9 @@ const N4_VOCAB = [
       "ko": "받다",
       "vi": "nhận",
       "id": "menerima"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "貰うことができる"
   },
   {
     "id": "V0458",
@@ -5954,7 +7113,9 @@ const N4_VOCAB = [
       "ko": "새다",
       "vi": "rò rỉ",
       "id": "bocor"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "漏れることができる"
   },
   {
     "id": "V0459",
@@ -5967,7 +7128,9 @@ const N4_VOCAB = [
       "ko": "굽다",
       "vi": "nướng",
       "id": "memanggang"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "焼くことができる"
   },
   {
     "id": "V0460",
@@ -5980,7 +7143,9 @@ const N4_VOCAB = [
       "ko": "타다",
       "vi": "cháy",
       "id": "terbakar"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "焼けることができる"
   },
   {
     "id": "V0461",
@@ -5993,7 +7158,9 @@ const N4_VOCAB = [
       "ko": "찢다",
       "vi": "xé",
       "id": "merobek"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "破ることができる"
   },
   {
     "id": "V0462",
@@ -6006,7 +7173,9 @@ const N4_VOCAB = [
       "ko": "찢어지다",
       "vi": "rách",
       "id": "robek"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "破れることができる"
   },
   {
     "id": "V0463",
@@ -6019,7 +7188,9 @@ const N4_VOCAB = [
       "ko": "그만두다",
       "vi": "nghỉ",
       "id": "berhenti"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "辞めることができる"
   },
   {
     "id": "V0464",
@@ -6032,7 +7203,9 @@ const N4_VOCAB = [
       "ko": "하다",
       "vi": "làm",
       "id": "melakukan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "やることができる"
   },
   {
     "id": "V0465",
@@ -6045,7 +7218,9 @@ const N4_VOCAB = [
       "ko": "흔들리다",
       "vi": "rung",
       "id": "bergoyang"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "揺れることができる"
   },
   {
     "id": "V0466",
@@ -6058,7 +7233,9 @@ const N4_VOCAB = [
       "ko": "더럽히다",
       "vi": "làm bẩn",
       "id": "mengotori"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "汚すことができる"
   },
   {
     "id": "V0467",
@@ -6071,7 +7248,9 @@ const N4_VOCAB = [
       "ko": "더러워지다",
       "vi": "bẩn",
       "id": "kotor"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "汚れることができる"
   },
   {
     "id": "V0468",
@@ -6084,7 +7263,9 @@ const N4_VOCAB = [
       "ko": "다가가다",
       "vi": "đến gần",
       "id": "mendekati"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "寄せることができる"
   },
   {
     "id": "V0469",
@@ -6097,7 +7278,9 @@ const N4_VOCAB = [
       "ko": "부르다",
       "vi": "gọi",
       "id": "memanggil"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "呼ぶことができる"
   },
   {
     "id": "V0470",
@@ -6110,7 +7293,9 @@ const N4_VOCAB = [
       "ko": "읽다",
       "vi": "đọc",
       "id": "membaca"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "読むことができる"
   },
   {
     "id": "V0471",
@@ -6123,7 +7308,9 @@ const N4_VOCAB = [
       "ko": "알다",
       "vi": "hiểu",
       "id": "mengerti"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "分かることができる"
   },
   {
     "id": "V0472",
@@ -6136,7 +7323,9 @@ const N4_VOCAB = [
       "ko": "나뉘다",
       "vi": "chia",
       "id": "berpisah"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "分かれることができる"
   },
   {
     "id": "V0473",
@@ -6149,7 +7338,9 @@ const N4_VOCAB = [
       "ko": "나누다",
       "vi": "chia",
       "id": "membagi"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "分けることができる"
   },
   {
     "id": "V0474",
@@ -6162,7 +7353,9 @@ const N4_VOCAB = [
       "ko": "건네다",
       "vi": "đưa",
       "id": "menyerahkan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "渡すことができる"
   },
   {
     "id": "V0475",
@@ -6175,7 +7368,9 @@ const N4_VOCAB = [
       "ko": "건너다",
       "vi": "qua",
       "id": "menyeberang"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "渡ることができる"
   },
   {
     "id": "V0476",
@@ -6188,7 +7383,9 @@ const N4_VOCAB = [
       "ko": "웃다",
       "vi": "cười",
       "id": "tertawa"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "笑うことができる"
   },
   {
     "id": "V0477",
@@ -6201,7 +7398,9 @@ const N4_VOCAB = [
       "ko": "깨다",
       "vi": "vỡ",
       "id": "memecah"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "割ることができる"
   },
   {
     "id": "V0478",
@@ -6214,7 +7413,9 @@ const N4_VOCAB = [
       "ko": "깨지다",
       "vi": "vỡ",
       "id": "pecah"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "割れることができる"
   },
   {
     "id": "V0479",
@@ -6227,7 +7428,9 @@ const N4_VOCAB = [
       "ko": "회의",
       "vi": "cuộc họp",
       "id": "rapat"
-    }
+    },
+    "pos": "noun",
+    "ex": "会議について話す"
   },
   {
     "id": "V0480",
@@ -6240,7 +7443,9 @@ const N4_VOCAB = [
       "ko": "회장",
       "vi": "hội trường",
       "id": "tempat"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "会場ことができる"
   },
   {
     "id": "V0481",
@@ -6253,7 +7458,9 @@ const N4_VOCAB = [
       "ko": "계단",
       "vi": "cầu thang",
       "id": "tangga"
-    }
+    },
+    "pos": "noun",
+    "ex": "階段について話す"
   },
   {
     "id": "V0482",
@@ -6266,7 +7473,9 @@ const N4_VOCAB = [
       "ko": "회화",
       "vi": "hội thoại",
       "id": "percakapan"
-    }
+    },
+    "pos": "noun",
+    "ex": "会話について話す"
   },
   {
     "id": "V0483",
@@ -6279,7 +7488,9 @@ const N4_VOCAB = [
       "ko": "과학",
       "vi": "khoa học",
       "id": "sains"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "科学ことができる"
   },
   {
     "id": "V0484",
@@ -6292,7 +7503,9 @@ const N4_VOCAB = [
       "ko": "거울",
       "vi": "gương",
       "id": "cermin"
-    }
+    },
+    "pos": "noun",
+    "ex": "鏡について話す"
   },
   {
     "id": "V0485",
@@ -6305,7 +7518,9 @@ const N4_VOCAB = [
       "ko": "가구",
       "vi": "đồ nội thất",
       "id": "furnitur"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "家具ことができる"
   },
   {
     "id": "V0486",
@@ -6318,7 +7533,9 @@ const N4_VOCAB = [
       "ko": "학기",
       "vi": "học kỳ",
       "id": "semester"
-    }
+    },
+    "pos": "noun",
+    "ex": "学期について話す"
   },
   {
     "id": "V0487",
@@ -6331,7 +7548,9 @@ const N4_VOCAB = [
       "ko": "악기",
       "vi": "nhạc cụ",
       "id": "alat musik"
-    }
+    },
+    "pos": "noun",
+    "ex": "楽器について話す"
   },
   {
     "id": "V0488",
@@ -6344,7 +7563,9 @@ const N4_VOCAB = [
       "ko": "모퉁이",
       "vi": "góc",
       "id": "sudut"
-    }
+    },
+    "pos": "noun",
+    "ex": "角について話す"
   },
   {
     "id": "V0489",
@@ -6357,7 +7578,9 @@ const N4_VOCAB = [
       "ko": "벽",
       "vi": "tường",
       "id": "dinding"
-    }
+    },
+    "pos": "noun",
+    "ex": "壁について話す"
   },
   {
     "id": "V0490",
@@ -6370,7 +7593,9 @@ const N4_VOCAB = [
       "ko": "머리카락",
       "vi": "tóc",
       "id": "rambut"
-    }
+    },
+    "pos": "noun",
+    "ex": "髪について話す"
   },
   {
     "id": "V0491",
@@ -6383,7 +7608,9 @@ const N4_VOCAB = [
       "ko": "종이",
       "vi": "giấy",
       "id": "kertas"
-    }
+    },
+    "pos": "noun",
+    "ex": "紙について話す"
   },
   {
     "id": "V0492",
@@ -6396,7 +7623,9 @@ const N4_VOCAB = [
       "ko": "여자친구",
       "vi": "bạn gái",
       "id": "pacar perempuan"
-    }
+    },
+    "pos": "noun",
+    "ex": "彼女について話す"
   },
   {
     "id": "V0493",
@@ -6409,7 +7638,9 @@ const N4_VOCAB = [
       "ko": "남자친구",
       "vi": "bạn trai",
       "id": "pacar laki-laki"
-    }
+    },
+    "pos": "noun",
+    "ex": "彼氏について話す"
   },
   {
     "id": "V0494",
@@ -6422,7 +7653,9 @@ const N4_VOCAB = [
       "ko": "환경",
       "vi": "môi trường",
       "id": "lingkungan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "環境ことができる"
   },
   {
     "id": "V0495",
@@ -6435,7 +7668,14 @@ const N4_VOCAB = [
       "ko": "관계",
       "vi": "quan hệ",
       "id": "hubungan"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "人間関係を大切にする",
+    "syn": [
+      "つながり",
+      "関連",
+      "絆"
+    ]
   },
   {
     "id": "V0496",
@@ -6448,7 +7688,9 @@ const N4_VOCAB = [
       "ko": "관광",
       "vi": "du lịch",
       "id": "wisata"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "観光ことができる"
   },
   {
     "id": "V0497",
@@ -6461,7 +7703,9 @@ const N4_VOCAB = [
       "ko": "감정",
       "vi": "cảm xúc",
       "id": "emosi"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "感情ことができる"
   },
   {
     "id": "V0498",
@@ -6474,7 +7718,9 @@ const N4_VOCAB = [
       "ko": "완성",
       "vi": "hoàn thành",
       "id": "penyelesaian"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても完成"
   },
   {
     "id": "V0499",
@@ -6487,7 +7733,9 @@ const N4_VOCAB = [
       "ko": "건조",
       "vi": "khô",
       "id": "kering"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "乾燥ことができる"
   },
   {
     "id": "V0500",
@@ -6500,7 +7748,9 @@ const N4_VOCAB = [
       "ko": "기회",
       "vi": "cơ hội",
       "id": "kesempatan"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても機会"
   },
   {
     "id": "V0501",
@@ -6513,7 +7763,9 @@ const N4_VOCAB = [
       "ko": "기계",
       "vi": "máy móc",
       "id": "mesin"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても機械"
   },
   {
     "id": "V0502",
@@ -6526,7 +7778,9 @@ const N4_VOCAB = [
       "ko": "기사",
       "vi": "bài báo",
       "id": "artikel"
-    }
+    },
+    "pos": "noun",
+    "ex": "記事について話す"
   },
   {
     "id": "V0503",
@@ -6539,7 +7793,9 @@ const N4_VOCAB = [
       "ko": "기술",
       "vi": "công nghệ",
       "id": "teknologi"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "技術ことができる"
   },
   {
     "id": "V0504",
@@ -6552,7 +7808,9 @@ const N4_VOCAB = [
       "ko": "계절",
       "vi": "mùa",
       "id": "musim"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "季節ことができる"
   },
   {
     "id": "V0505",
@@ -6565,7 +7823,9 @@ const N4_VOCAB = [
       "ko": "규칙",
       "vi": "quy tắc",
       "id": "aturan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "規則ことができる"
   },
   {
     "id": "V0506",
@@ -6578,7 +7838,9 @@ const N4_VOCAB = [
       "ko": "기대",
       "vi": "kỳ vọng",
       "id": "harapan"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても期待"
   },
   {
     "id": "V0507",
@@ -6591,7 +7853,9 @@ const N4_VOCAB = [
       "ko": "기분",
       "vi": "tâm trạng",
       "id": "suasana hati"
-    }
+    },
+    "pos": "noun",
+    "ex": "気分について話す"
   },
   {
     "id": "V0508",
@@ -6604,7 +7868,9 @@ const N4_VOCAB = [
       "ko": "희망",
       "vi": "hy vọng",
       "id": "harapan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "希望ことができる"
   },
   {
     "id": "V0509",
@@ -6617,7 +7883,9 @@ const N4_VOCAB = [
       "ko": "기분",
       "vi": "cảm giác",
       "id": "perasaan"
-    }
+    },
+    "pos": "noun",
+    "ex": "気持ちについて話す"
   },
   {
     "id": "V0510",
@@ -6630,7 +7898,9 @@ const N4_VOCAB = [
       "ko": "손님",
       "vi": "khách",
       "id": "tamu"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "客ことができる"
   },
   {
     "id": "V0511",
@@ -6643,7 +7913,9 @@ const N4_VOCAB = [
       "ko": "월급",
       "vi": "lương",
       "id": "gaji"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "給料ことができる"
   },
   {
     "id": "V0512",
@@ -6656,7 +7928,9 @@ const N4_VOCAB = [
       "ko": "교육",
       "vi": "giáo dục",
       "id": "pendidikan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "教育ことができる"
   },
   {
     "id": "V0513",
@@ -6669,7 +7943,9 @@ const N4_VOCAB = [
       "ko": "교실",
       "vi": "lớp học",
       "id": "ruang kelas"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "教室ことができる"
   },
   {
     "id": "V0514",
@@ -6682,7 +7958,14 @@ const N4_VOCAB = [
       "ko": "흥미",
       "vi": "hứng thú",
       "id": "minat"
-    }
+    },
+    "pos": "noun",
+    "ex": "日本文化に興味がある",
+    "syn": [
+      "関心",
+      "好奇心",
+      "面白み"
+    ]
   },
   {
     "id": "V0515",
@@ -6695,7 +7978,9 @@ const N4_VOCAB = [
       "ko": "거리",
       "vi": "khoảng cách",
       "id": "jarak"
-    }
+    },
+    "pos": "noun",
+    "ex": "距離について話す"
   },
   {
     "id": "V0516",
@@ -6708,7 +7993,9 @@ const N4_VOCAB = [
       "ko": "금지",
       "vi": "cấm",
       "id": "larangan"
-    }
+    },
+    "pos": "noun",
+    "ex": "禁止について話す"
   },
   {
     "id": "V0517",
@@ -6721,7 +8008,9 @@ const N4_VOCAB = [
       "ko": "공항",
       "vi": "sân bay",
       "id": "bandara"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "空港ことができる"
   },
   {
     "id": "V0518",
@@ -6734,7 +8023,14 @@ const N4_VOCAB = [
       "ko": "경험",
       "vi": "kinh nghiệm",
       "id": "pengalaman"
-    }
+    },
+    "pos": "noun",
+    "ex": "貴重な経験を積む",
+    "syn": [
+      "体験",
+      "実績",
+      "実体験"
+    ]
   },
   {
     "id": "V0519",
@@ -6747,7 +8043,14 @@ const N4_VOCAB = [
       "ko": "결과",
       "vi": "kết quả",
       "id": "hasil"
-    }
+    },
+    "pos": "noun",
+    "ex": "試験の結果が出る",
+    "syn": [
+      "成果",
+      "成績",
+      "結末"
+    ]
   },
   {
     "id": "V0520",
@@ -6760,7 +8063,9 @@ const N4_VOCAB = [
       "ko": "결혼",
       "vi": "kết hôn",
       "id": "pernikahan"
-    }
+    },
+    "pos": "noun",
+    "ex": "結婚について話す"
   },
   {
     "id": "V0521",
@@ -6773,7 +8078,14 @@ const N4_VOCAB = [
       "ko": "원인",
       "vi": "nguyên nhân",
       "id": "penyebab"
-    }
+    },
+    "pos": "noun",
+    "ex": "事故の原因を調べる",
+    "syn": [
+      "理由",
+      "要因",
+      "根本"
+    ]
   },
   {
     "id": "V0522",
@@ -6786,7 +8098,9 @@ const N4_VOCAB = [
       "ko": "현재",
       "vi": "hiện tại",
       "id": "sekarang"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても現在"
   },
   {
     "id": "V0523",
@@ -6799,7 +8113,9 @@ const N4_VOCAB = [
       "ko": "건축",
       "vi": "kiến trúc",
       "id": "arsitektur"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "建築ことができる"
   },
   {
     "id": "V0524",
@@ -6812,7 +8128,9 @@ const N4_VOCAB = [
       "ko": "공원",
       "vi": "công viên",
       "id": "taman"
-    }
+    },
+    "pos": "noun",
+    "ex": "公園について話す"
   },
   {
     "id": "V0525",
@@ -6825,7 +8143,9 @@ const N4_VOCAB = [
       "ko": "강의",
       "vi": "bài giảng",
       "id": "kuliah"
-    }
+    },
+    "pos": "noun",
+    "ex": "講義について話す"
   },
   {
     "id": "V0526",
@@ -6838,7 +8158,9 @@ const N4_VOCAB = [
       "ko": "공장",
       "vi": "nhà máy",
       "id": "pabrik"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "工場ことができる"
   },
   {
     "id": "V0527",
@@ -6851,7 +8173,9 @@ const N4_VOCAB = [
       "ko": "교통",
       "vi": "giao thông",
       "id": "lalu lintas"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "交通ことができる"
   },
   {
     "id": "V0528",
@@ -6864,7 +8188,9 @@ const N4_VOCAB = [
       "ko": "국제",
       "vi": "quốc tế",
       "id": "internasional"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても国際"
   },
   {
     "id": "V0529",
@@ -6877,7 +8203,9 @@ const N4_VOCAB = [
       "ko": "고장",
       "vi": "hỏng",
       "id": "kerusakan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "故障ことができる"
   },
   {
     "id": "V0530",
@@ -6890,7 +8218,9 @@ const N4_VOCAB = [
       "ko": "개인",
       "vi": "cá nhân",
       "id": "individu"
-    }
+    },
+    "pos": "noun",
+    "ex": "個人について話す"
   },
   {
     "id": "V0531",
@@ -6903,7 +8233,9 @@ const N4_VOCAB = [
       "ko": "대답",
       "vi": "câu trả lời",
       "id": "jawaban"
-    }
+    },
+    "pos": "noun",
+    "ex": "答えについて話す"
   },
   {
     "id": "V0532",
@@ -6916,7 +8248,9 @@ const N4_VOCAB = [
       "ko": "말",
       "vi": "từ ngữ",
       "id": "kata"
-    }
+    },
+    "pos": "noun",
+    "ex": "言葉について話す"
   },
   {
     "id": "V0533",
@@ -6929,7 +8263,9 @@ const N4_VOCAB = [
       "ko": "이번",
       "vi": "lần này",
       "id": "kali ini"
-    }
+    },
+    "pos": "noun",
+    "ex": "今度について話す"
   },
   {
     "id": "V0534",
@@ -6942,7 +8278,9 @@ const N4_VOCAB = [
       "ko": "최근",
       "vi": "gần đây",
       "id": "baru-baru ini"
-    }
+    },
+    "pos": "noun",
+    "ex": "最近について話す"
   },
   {
     "id": "V0535",
@@ -6955,7 +8293,9 @@ const N4_VOCAB = [
       "ko": "마지막",
       "vi": "cuối cùng",
       "id": "terakhir"
-    }
+    },
+    "pos": "noun",
+    "ex": "最後について話す"
   },
   {
     "id": "V0536",
@@ -6968,7 +8308,9 @@ const N4_VOCAB = [
       "ko": "처음",
       "vi": "đầu tiên",
       "id": "pertama"
-    }
+    },
+    "pos": "noun",
+    "ex": "最初について話す"
   },
   {
     "id": "V0537",
@@ -6981,7 +8323,9 @@ const N4_VOCAB = [
       "ko": "재료",
       "vi": "nguyên liệu",
       "id": "bahan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "材料ことができる"
   },
   {
     "id": "V0538",
@@ -6994,7 +8338,9 @@ const N4_VOCAB = [
       "ko": "작품",
       "vi": "tác phẩm",
       "id": "karya"
-    }
+    },
+    "pos": "noun",
+    "ex": "作品について話す"
   },
   {
     "id": "V0539",
@@ -7007,7 +8353,9 @@ const N4_VOCAB = [
       "ko": "참가",
       "vi": "tham gia",
       "id": "partisipasi"
-    }
+    },
+    "pos": "noun",
+    "ex": "参加について話す"
   },
   {
     "id": "V0540",
@@ -7020,7 +8368,9 @@ const N4_VOCAB = [
       "ko": "유감",
       "vi": "đáng tiếc",
       "id": "sayang"
-    }
+    },
+    "pos": "noun",
+    "ex": "残念について話す"
   },
   {
     "id": "V0541",
@@ -7033,7 +8383,9 @@ const N4_VOCAB = [
       "ko": "시합",
       "vi": "trận đấu",
       "id": "pertandingan"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても試合"
   },
   {
     "id": "V0542",
@@ -7046,7 +8398,9 @@ const N4_VOCAB = [
       "ko": "사고",
       "vi": "tai nạn",
       "id": "kecelakaan"
-    }
+    },
+    "pos": "noun",
+    "ex": "事故について話す"
   },
   {
     "id": "V0543",
@@ -7059,7 +8413,9 @@ const N4_VOCAB = [
       "ko": "지진",
       "vi": "động đất",
       "id": "gempa"
-    }
+    },
+    "pos": "noun",
+    "ex": "地震について話す"
   },
   {
     "id": "V0544",
@@ -7072,7 +8428,9 @@ const N4_VOCAB = [
       "ko": "자연",
       "vi": "tự nhiên",
       "id": "alam"
-    }
+    },
+    "pos": "noun",
+    "ex": "自然について話す"
   },
   {
     "id": "V0545",
@@ -7085,7 +8443,9 @@ const N4_VOCAB = [
       "ko": "실제",
       "vi": "thực tế",
       "id": "sebenarnya"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても実際"
   },
   {
     "id": "V0546",
@@ -7098,7 +8458,9 @@ const N4_VOCAB = [
       "ko": "실패",
       "vi": "thất bại",
       "id": "kegagalan"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても失敗"
   },
   {
     "id": "V0547",
@@ -7111,7 +8473,9 @@ const N4_VOCAB = [
       "ko": "질문",
       "vi": "câu hỏi",
       "id": "pertanyaan"
-    }
+    },
+    "pos": "noun",
+    "ex": "質問について話す"
   },
   {
     "id": "V0548",
@@ -7124,7 +8488,9 @@ const N4_VOCAB = [
       "ko": "지불",
       "vi": "thanh toán",
       "id": "pembayaran"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても支払"
   },
   {
     "id": "V0549",
@@ -7137,7 +8503,9 @@ const N4_VOCAB = [
       "ko": "섬",
       "vi": "đảo",
       "id": "pulau"
-    }
+    },
+    "pos": "noun",
+    "ex": "島について話す"
   },
   {
     "id": "V0550",
@@ -7150,7 +8518,9 @@ const N4_VOCAB = [
       "ko": "사무소",
       "vi": "văn phòng",
       "id": "kantor"
-    }
+    },
+    "pos": "noun",
+    "ex": "事務所について話す"
   },
   {
     "id": "V0551",
@@ -7163,7 +8533,9 @@ const N4_VOCAB = [
       "ko": "사회",
       "vi": "xã hội",
       "id": "masyarakat"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても社会"
   },
   {
     "id": "V0552",
@@ -7176,7 +8548,9 @@ const N4_VOCAB = [
       "ko": "사장",
       "vi": "giám đốc",
       "id": "direktur"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "社長ことができる"
   },
   {
     "id": "V0553",
@@ -7189,7 +8563,9 @@ const N4_VOCAB = [
       "ko": "자유",
       "vi": "tự do",
       "id": "kebebasan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "自由ことができる"
   },
   {
     "id": "V0554",
@@ -7202,7 +8578,9 @@ const N4_VOCAB = [
       "ko": "습관",
       "vi": "thói quen",
       "id": "kebiasaan"
-    }
+    },
+    "pos": "noun",
+    "ex": "習慣について話す"
   },
   {
     "id": "V0555",
@@ -7215,7 +8593,9 @@ const N4_VOCAB = [
       "ko": "주소",
       "vi": "địa chỉ",
       "id": "alamat"
-    }
+    },
+    "pos": "noun",
+    "ex": "住所について話す"
   },
   {
     "id": "V0556",
@@ -7228,7 +8608,9 @@ const N4_VOCAB = [
       "ko": "수업",
       "vi": "bài học",
       "id": "pelajaran"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "授業ことができる"
   },
   {
     "id": "V0557",
@@ -7241,7 +8623,9 @@ const N4_VOCAB = [
       "ko": "출발",
       "vi": "khởi hành",
       "id": "keberangkatan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "出発ことができる"
   },
   {
     "id": "V0558",
@@ -7254,7 +8638,9 @@ const N4_VOCAB = [
       "ko": "취미",
       "vi": "sở thích",
       "id": "hobi"
-    }
+    },
+    "pos": "noun",
+    "ex": "趣味について話す"
   },
   {
     "id": "V0559",
@@ -7267,7 +8653,14 @@ const N4_VOCAB = [
       "ko": "준비",
       "vi": "chuẩn bị",
       "id": "persiapan"
-    }
+    },
+    "pos": "noun",
+    "ex": "旅行の準備をする",
+    "syn": [
+      "用意",
+      "支度",
+      "仕度"
+    ]
   },
   {
     "id": "V0560",
@@ -7280,7 +8673,9 @@ const N4_VOCAB = [
       "ko": "소개",
       "vi": "giới thiệu",
       "id": "perkenalan"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても紹介"
   },
   {
     "id": "V0561",
@@ -7293,7 +8688,9 @@ const N4_VOCAB = [
       "ko": "장래",
       "vi": "tương lai",
       "id": "masa depan"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても将来"
   },
   {
     "id": "V0562",
@@ -7306,7 +8703,9 @@ const N4_VOCAB = [
       "ko": "식사",
       "vi": "bữa ăn",
       "id": "makan"
-    }
+    },
+    "pos": "noun",
+    "ex": "食事について話す"
   },
   {
     "id": "V0563",
@@ -7319,7 +8718,9 @@ const N4_VOCAB = [
       "ko": "여성",
       "vi": "phụ nữ",
       "id": "wanita"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても女性"
   },
   {
     "id": "V0564",
@@ -7332,7 +8733,9 @@ const N4_VOCAB = [
       "ko": "서류",
       "vi": "tài liệu",
       "id": "dokumen"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても書類"
   },
   {
     "id": "V0565",
@@ -7345,7 +8748,9 @@ const N4_VOCAB = [
       "ko": "인구",
       "vi": "dân số",
       "id": "populasi"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "人口ことができる"
   },
   {
     "id": "V0566",
@@ -7358,7 +8763,9 @@ const N4_VOCAB = [
       "ko": "신문",
       "vi": "báo",
       "id": "koran"
-    }
+    },
+    "pos": "noun",
+    "ex": "新聞について話す"
   },
   {
     "id": "V0567",
@@ -7371,7 +8778,9 @@ const N4_VOCAB = [
       "ko": "수도",
       "vi": "nước máy",
       "id": "air ledeng"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "水道ことができる"
   },
   {
     "id": "V0568",
@@ -7384,7 +8793,9 @@ const N4_VOCAB = [
       "ko": "수학",
       "vi": "toán học",
       "id": "matematika"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "数学ことができる"
   },
   {
     "id": "V0569",
@@ -7397,7 +8808,9 @@ const N4_VOCAB = [
       "ko": "훌륭한",
       "vi": "tuyệt vời",
       "id": "luar biasa"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても素晴らしい"
   },
   {
     "id": "V0570",
@@ -7410,7 +8823,9 @@ const N4_VOCAB = [
       "ko": "생활",
       "vi": "cuộc sống",
       "id": "kehidupan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "生活ことができる"
   },
   {
     "id": "V0571",
@@ -7423,7 +8838,9 @@ const N4_VOCAB = [
       "ko": "정치",
       "vi": "chính trị",
       "id": "politik"
-    }
+    },
+    "pos": "noun",
+    "ex": "政治について話す"
   },
   {
     "id": "V0572",
@@ -7436,7 +8853,9 @@ const N4_VOCAB = [
       "ko": "제품",
       "vi": "sản phẩm",
       "id": "produk"
-    }
+    },
+    "pos": "noun",
+    "ex": "製品について話す"
   },
   {
     "id": "V0573",
@@ -7449,7 +8868,9 @@ const N4_VOCAB = [
       "ko": "세계",
       "vi": "thế giới",
       "id": "dunia"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても世界"
   },
   {
     "id": "V0574",
@@ -7462,7 +8883,9 @@ const N4_VOCAB = [
       "ko": "자리",
       "vi": "chỗ ngồi",
       "id": "tempat duduk"
-    }
+    },
+    "pos": "noun",
+    "ex": "席について話す"
   },
   {
     "id": "V0575",
@@ -7475,7 +8898,14 @@ const N4_VOCAB = [
       "ko": "설명",
       "vi": "giải thích",
       "id": "penjelasan"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "詳しい説明を聞く",
+    "syn": [
+      "解説",
+      "案内",
+      "紹介"
+    ]
   },
   {
     "id": "V0576",
@@ -7488,7 +8918,9 @@ const N4_VOCAB = [
       "ko": "돌봄",
       "vi": "chăm sóc",
       "id": "perawatan"
-    }
+    },
+    "pos": "noun",
+    "ex": "世話について話す"
   },
   {
     "id": "V0577",
@@ -7501,7 +8933,9 @@ const N4_VOCAB = [
       "ko": "선수",
       "vi": "vận động viên",
       "id": "atlet"
-    }
+    },
+    "pos": "noun",
+    "ex": "選手について話す"
   },
   {
     "id": "V0578",
@@ -7514,7 +8948,9 @@ const N4_VOCAB = [
       "ko": "전문",
       "vi": "chuyên môn",
       "id": "spesialisasi"
-    }
+    },
+    "pos": "noun",
+    "ex": "専門について話す"
   },
   {
     "id": "V0579",
@@ -7527,7 +8963,14 @@ const N4_VOCAB = [
       "ko": "상담",
       "vi": "tư vấn",
       "id": "konsultasi"
-    }
+    },
+    "pos": "noun",
+    "ex": "先生に相談する",
+    "syn": [
+      "協議",
+      "話し合い",
+      "アドバイス"
+    ]
   },
   {
     "id": "V0580",
@@ -7540,7 +8983,9 @@ const N4_VOCAB = [
       "ko": "졸업",
       "vi": "tốt nghiệp",
       "id": "lulus"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "卒業ことができる"
   },
   {
     "id": "V0581",
@@ -7553,7 +8998,9 @@ const N4_VOCAB = [
       "ko": "할아버지",
       "vi": "ông",
       "id": "kakek"
-    }
+    },
+    "pos": "noun",
+    "ex": "祖父について話す"
   },
   {
     "id": "V0582",
@@ -7566,7 +9013,9 @@ const N4_VOCAB = [
       "ko": "할머니",
       "vi": "bà",
       "id": "nenek"
-    }
+    },
+    "pos": "noun",
+    "ex": "祖母について話す"
   },
   {
     "id": "V0583",
@@ -7579,7 +9028,9 @@ const N4_VOCAB = [
       "ko": "대학",
       "vi": "đại học",
       "id": "universitas"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "大学ことができる"
   },
   {
     "id": "V0584",
@@ -7592,7 +9043,9 @@ const N4_VOCAB = [
       "ko": "중요한",
       "vi": "quan trọng",
       "id": "penting"
-    }
+    },
+    "pos": "noun",
+    "ex": "大事について話す"
   },
   {
     "id": "V0585",
@@ -7605,7 +9058,9 @@ const N4_VOCAB = [
       "ko": "괜찮다",
       "vi": "không sao",
       "id": "tidak apa-apa"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "大丈夫ことができる"
   },
   {
     "id": "V0586",
@@ -7618,7 +9073,9 @@ const N4_VOCAB = [
       "ko": "태풍",
       "vi": "bão",
       "id": "topan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "台風ことができる"
   },
   {
     "id": "V0587",
@@ -7631,7 +9088,9 @@ const N4_VOCAB = [
       "ko": "보물",
       "vi": "kho báu",
       "id": "harta"
-    }
+    },
+    "pos": "noun",
+    "ex": "宝物について話す"
   },
   {
     "id": "V0588",
@@ -7644,7 +9103,9 @@ const N4_VOCAB = [
       "ko": "선반",
       "vi": "kệ",
       "id": "rak"
-    }
+    },
+    "pos": "noun",
+    "ex": "棚について話す"
   },
   {
     "id": "V0589",
@@ -7657,7 +9118,9 @@ const N4_VOCAB = [
       "ko": "생일",
       "vi": "sinh nhật",
       "id": "ulang tahun"
-    }
+    },
+    "pos": "noun",
+    "ex": "誕生日について話す"
   },
   {
     "id": "V0590",
@@ -7670,7 +9133,9 @@ const N4_VOCAB = [
       "ko": "남성",
       "vi": "nam giới",
       "id": "pria"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても男性"
   },
   {
     "id": "V0591",
@@ -7683,7 +9148,9 @@ const N4_VOCAB = [
       "ko": "지도",
       "vi": "bản đồ",
       "id": "peta"
-    }
+    },
+    "pos": "noun",
+    "ex": "地図について話す"
   },
   {
     "id": "V0592",
@@ -7696,7 +9163,14 @@ const N4_VOCAB = [
       "ko": "주의",
       "vi": "chú ý",
       "id": "perhatian"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "注意を払う",
+    "syn": [
+      "警戒",
+      "用心",
+      "気をつけること"
+    ]
   },
   {
     "id": "V0593",
@@ -7709,7 +9183,9 @@ const N4_VOCAB = [
       "ko": "중심",
       "vi": "trung tâm",
       "id": "pusat"
-    }
+    },
+    "pos": "noun",
+    "ex": "中心について話す"
   },
   {
     "id": "V0594",
@@ -7722,7 +9198,9 @@ const N4_VOCAB = [
       "ko": "주차장",
       "vi": "bãi đỗ xe",
       "id": "tempat parkir"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "駐車場ことができる"
   },
   {
     "id": "V0595",
@@ -7735,7 +9213,9 @@ const N4_VOCAB = [
       "ko": "상태",
       "vi": "tình trạng",
       "id": "kondisi"
-    }
+    },
+    "pos": "noun",
+    "ex": "調子について話す"
   },
   {
     "id": "V0596",
@@ -7748,7 +9228,9 @@ const N4_VOCAB = [
       "ko": "통근",
       "vi": "đi làm",
       "id": "perjalanan kerja"
-    }
+    },
+    "pos": "noun",
+    "ex": "通勤について話す"
   },
   {
     "id": "V0597",
@@ -7761,7 +9243,9 @@ const N4_VOCAB = [
       "ko": "전통",
       "vi": "truyền thống",
       "id": "tradisi"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "伝統ことができる"
   },
   {
     "id": "V0598",
@@ -7774,7 +9258,9 @@ const N4_VOCAB = [
       "ko": "전화",
       "vi": "điện thoại",
       "id": "telepon"
-    }
+    },
+    "pos": "noun",
+    "ex": "電話について話す"
   },
   {
     "id": "V0599",
@@ -7787,7 +9273,9 @@ const N4_VOCAB = [
       "ko": "도시",
       "vi": "thành phố",
       "id": "kota"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても都会"
   },
   {
     "id": "V0600",
@@ -7800,7 +9288,9 @@ const N4_VOCAB = [
       "ko": "신고",
       "vi": "thông báo",
       "id": "pemberitahuan"
-    }
+    },
+    "pos": "noun",
+    "ex": "届けについて話す"
   },
   {
     "id": "V0601",
@@ -7813,7 +9303,9 @@ const N4_VOCAB = [
       "ko": "옆",
       "vi": "bên cạnh",
       "id": "sebelah"
-    }
+    },
+    "pos": "noun",
+    "ex": "隣について話す"
   },
   {
     "id": "V0602",
@@ -7826,7 +9318,9 @@ const N4_VOCAB = [
       "ko": "동료",
       "vi": "bạn bè",
       "id": "teman"
-    }
+    },
+    "pos": "noun",
+    "ex": "仲間について話す"
   },
   {
     "id": "V0603",
@@ -7839,7 +9333,9 @@ const N4_VOCAB = [
       "ko": "내용",
       "vi": "nội dung",
       "id": "isi"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "内容ことができる"
   },
   {
     "id": "V0604",
@@ -7852,7 +9348,9 @@ const N4_VOCAB = [
       "ko": "짐",
       "vi": "hành lý",
       "id": "barang"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "荷物ことができる"
   },
   {
     "id": "V0605",
@@ -7865,7 +9363,9 @@ const N4_VOCAB = [
       "ko": "입원",
       "vi": "nhập viện",
       "id": "rawat inap"
-    }
+    },
+    "pos": "noun",
+    "ex": "入院について話す"
   },
   {
     "id": "V0606",
@@ -7878,7 +9378,9 @@ const N4_VOCAB = [
       "ko": "입학",
       "vi": "nhập học",
       "id": "masuk sekolah"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "入学ことができる"
   },
   {
     "id": "V0607",
@@ -7891,7 +9393,9 @@ const N4_VOCAB = [
       "ko": "인기",
       "vi": "phổ biến",
       "id": "populer"
-    }
+    },
+    "pos": "noun",
+    "ex": "人気について話す"
   },
   {
     "id": "V0608",
@@ -7904,7 +9408,9 @@ const N4_VOCAB = [
       "ko": "가격",
       "vi": "giá",
       "id": "harga"
-    }
+    },
+    "pos": "noun",
+    "ex": "値段について話す"
   },
   {
     "id": "V0609",
@@ -7917,7 +9423,9 @@ const N4_VOCAB = [
       "ko": "나이",
       "vi": "tuổi",
       "id": "usia"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても年齢"
   },
   {
     "id": "V0610",
@@ -7930,7 +9438,9 @@ const N4_VOCAB = [
       "ko": "농업",
       "vi": "nông nghiệp",
       "id": "pertanian"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "農業ことができる"
   },
   {
     "id": "V0611",
@@ -7943,7 +9453,9 @@ const N4_VOCAB = [
       "ko": "경우",
       "vi": "trường hợp",
       "id": "kasus"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても場合"
   },
   {
     "id": "V0612",
@@ -7956,7 +9468,9 @@ const N4_VOCAB = [
       "ko": "매장",
       "vi": "quầy bán",
       "id": "tempat jual"
-    }
+    },
+    "pos": "noun",
+    "ex": "売り場について話す"
   },
   {
     "id": "V0613",
@@ -7969,7 +9483,9 @@ const N4_VOCAB = [
       "ko": "발표",
       "vi": "công bố",
       "id": "pengumuman"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "発表ことができる"
   },
   {
     "id": "V0614",
@@ -7982,7 +9498,9 @@ const N4_VOCAB = [
       "ko": "프로그램",
       "vi": "chương trình",
       "id": "acara"
-    }
+    },
+    "pos": "noun",
+    "ex": "番組について話す"
   },
   {
     "id": "V0615",
@@ -7995,7 +9513,9 @@ const N4_VOCAB = [
       "ko": "반대",
       "vi": "phản đối",
       "id": "kebalikan"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても反対"
   },
   {
     "id": "V0616",
@@ -8008,7 +9528,9 @@ const N4_VOCAB = [
       "ko": "일기",
       "vi": "nhật ký",
       "id": "buku harian"
-    }
+    },
+    "pos": "noun",
+    "ex": "日記について話す"
   },
   {
     "id": "V0617",
@@ -8021,7 +9543,9 @@ const N4_VOCAB = [
       "ko": "미술",
       "vi": "mỹ thuật",
       "id": "seni"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "美術ことができる"
   },
   {
     "id": "V0618",
@@ -8034,7 +9558,9 @@ const N4_VOCAB = [
       "ko": "비밀",
       "vi": "bí mật",
       "id": "rahasia"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "秘密ことができる"
   },
   {
     "id": "V0619",
@@ -8047,7 +9573,9 @@ const N4_VOCAB = [
       "ko": "표현",
       "vi": "biểu hiện",
       "id": "ekspresi"
-    }
+    },
+    "pos": "noun",
+    "ex": "表現について話す"
   },
   {
     "id": "V0620",
@@ -8060,7 +9588,9 @@ const N4_VOCAB = [
       "ko": "병원",
       "vi": "bệnh viện",
       "id": "rumah sakit"
-    }
+    },
+    "pos": "noun",
+    "ex": "病院について話す"
   },
   {
     "id": "V0621",
@@ -8073,7 +9603,9 @@ const N4_VOCAB = [
       "ko": "부장",
       "vi": "trưởng phòng",
       "id": "kepala bagian"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "部長ことができる"
   },
   {
     "id": "V0622",
@@ -8086,7 +9618,9 @@ const N4_VOCAB = [
       "ko": "부분",
       "vi": "phần",
       "id": "bagian"
-    }
+    },
+    "pos": "noun",
+    "ex": "部分について話す"
   },
   {
     "id": "V0623",
@@ -8099,7 +9633,9 @@ const N4_VOCAB = [
       "ko": "문화",
       "vi": "văn hóa",
       "id": "budaya"
-    }
+    },
+    "pos": "noun",
+    "ex": "文化について話す"
   },
   {
     "id": "V0624",
@@ -8112,7 +9648,9 @@ const N4_VOCAB = [
       "ko": "문학",
       "vi": "văn học",
       "id": "sastra"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "文学ことができる"
   },
   {
     "id": "V0625",
@@ -8125,7 +9663,9 @@ const N4_VOCAB = [
       "ko": "평화",
       "vi": "hòa bình",
       "id": "damai"
-    }
+    },
+    "pos": "noun",
+    "ex": "平和について話す"
   },
   {
     "id": "V0626",
@@ -8138,7 +9678,9 @@ const N4_VOCAB = [
       "ko": "별",
       "vi": "khác",
       "id": "lain"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "別ことができる"
   },
   {
     "id": "V0627",
@@ -8151,7 +9693,9 @@ const N4_VOCAB = [
       "ko": "변화",
       "vi": "thay đổi",
       "id": "perubahan"
-    }
+    },
+    "pos": "noun",
+    "ex": "変化について話す"
   },
   {
     "id": "V0628",
@@ -8164,7 +9708,9 @@ const N4_VOCAB = [
       "ko": "대답",
       "vi": "trả lời",
       "id": "balasan"
-    }
+    },
+    "pos": "noun",
+    "ex": "返事について話す"
   },
   {
     "id": "V0629",
@@ -8177,7 +9723,14 @@ const N4_VOCAB = [
       "ko": "방법",
       "vi": "phương pháp",
       "id": "metode"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "新しい方法を試す",
+    "syn": [
+      "やり方",
+      "手段",
+      "仕方"
+    ]
   },
   {
     "id": "V0630",
@@ -8190,7 +9743,9 @@ const N4_VOCAB = [
       "ko": "방송",
       "vi": "phát sóng",
       "id": "siaran"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "放送ことができる"
   },
   {
     "id": "V0631",
@@ -8203,7 +9758,9 @@ const N4_VOCAB = [
       "ko": "무역",
       "vi": "thương mại",
       "id": "perdagangan"
-    }
+    },
+    "pos": "noun",
+    "ex": "貿易について話す"
   },
   {
     "id": "V0632",
@@ -8216,7 +9773,9 @@ const N4_VOCAB = [
       "ko": "정말",
       "vi": "thật sự",
       "id": "benar"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "本当ことができる"
   },
   {
     "id": "V0633",
@@ -8229,7 +9788,9 @@ const N4_VOCAB = [
       "ko": "매일",
       "vi": "hàng ngày",
       "id": "setiap hari"
-    }
+    },
+    "pos": "noun",
+    "ex": "毎日について話す"
   },
   {
     "id": "V0634",
@@ -8242,7 +9803,9 @@ const N4_VOCAB = [
       "ko": "만족",
       "vi": "hài lòng",
       "id": "kepuasan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "満足ことができる"
   },
   {
     "id": "V0635",
@@ -8255,7 +9818,9 @@ const N4_VOCAB = [
       "ko": "견해",
       "vi": "quan điểm",
       "id": "pandangan"
-    }
+    },
+    "pos": "noun",
+    "ex": "見方について話す"
   },
   {
     "id": "V0636",
@@ -8268,7 +9833,9 @@ const N4_VOCAB = [
       "ko": "길",
       "vi": "đường",
       "id": "jalan"
-    }
+    },
+    "pos": "noun",
+    "ex": "道について話す"
   },
   {
     "id": "V0637",
@@ -8281,7 +9848,9 @@ const N4_VOCAB = [
       "ko": "모두",
       "vi": "mọi người",
       "id": "semua orang"
-    }
+    },
+    "pos": "noun",
+    "ex": "皆について話す"
   },
   {
     "id": "V0638",
@@ -8294,7 +9863,9 @@ const N4_VOCAB = [
       "ko": "미래",
       "vi": "tương lai",
       "id": "masa depan"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても未来"
   },
   {
     "id": "V0639",
@@ -8307,7 +9878,9 @@ const N4_VOCAB = [
       "ko": "무리",
       "vi": "không thể",
       "id": "mustahil"
-    }
+    },
+    "pos": "noun",
+    "ex": "無理について話す"
   },
   {
     "id": "V0640",
@@ -8320,7 +9893,9 @@ const N4_VOCAB = [
       "ko": "폐",
       "vi": "phiền",
       "id": "gangguan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "迷惑ことができる"
   },
   {
     "id": "V0641",
@@ -8333,7 +9908,14 @@ const N4_VOCAB = [
       "ko": "목적",
       "vi": "mục đích",
       "id": "tujuan"
-    }
+    },
+    "pos": "na-adj",
+    "ex": "旅行の目的を話す",
+    "syn": [
+      "目標",
+      "狙い",
+      "ゴール"
+    ]
   },
   {
     "id": "V0642",
@@ -8346,7 +9928,14 @@ const N4_VOCAB = [
       "ko": "문제",
       "vi": "vấn đề",
       "id": "masalah"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "問題を解決する",
+    "syn": [
+      "課題",
+      "難題",
+      "トラブル"
+    ]
   },
   {
     "id": "V0643",
@@ -8359,7 +9948,9 @@ const N4_VOCAB = [
       "ko": "약속",
       "vi": "hẹn",
       "id": "janji"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "約束ことができる"
   },
   {
     "id": "V0644",
@@ -8372,7 +9963,9 @@ const N4_VOCAB = [
       "ko": "우승",
       "vi": "vô địch",
       "id": "juara"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "優勝ことができる"
   },
   {
     "id": "V0645",
@@ -8385,7 +9978,9 @@ const N4_VOCAB = [
       "ko": "우편",
       "vi": "bưu điện",
       "id": "pos"
-    }
+    },
+    "pos": "noun",
+    "ex": "郵便について話す"
   },
   {
     "id": "V0646",
@@ -8398,7 +9993,9 @@ const N4_VOCAB = [
       "ko": "수출",
       "vi": "xuất khẩu",
       "id": "ekspor"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "輸出ことができる"
   },
   {
     "id": "V0647",
@@ -8411,7 +10008,9 @@ const N4_VOCAB = [
       "ko": "수입",
       "vi": "nhập khẩu",
       "id": "impor"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "輸入ことができる"
   },
   {
     "id": "V0648",
@@ -8424,7 +10023,9 @@ const N4_VOCAB = [
       "ko": "꿈",
       "vi": "giấc mơ",
       "id": "mimpi"
-    }
+    },
+    "pos": "noun",
+    "ex": "夢について話す"
   },
   {
     "id": "V0649",
@@ -8437,7 +10038,9 @@ const N4_VOCAB = [
       "ko": "준비",
       "vi": "chuẩn bị",
       "id": "persiapan"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても用意"
   },
   {
     "id": "V0650",
@@ -8450,7 +10053,9 @@ const N4_VOCAB = [
       "ko": "용건",
       "vi": "việc",
       "id": "urusan"
-    }
+    },
+    "pos": "noun",
+    "ex": "用事について話す"
   },
   {
     "id": "V0651",
@@ -8463,7 +10068,9 @@ const N4_VOCAB = [
       "ko": "예약",
       "vi": "đặt chỗ",
       "id": "reservasi"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "予約ことができる"
   },
   {
     "id": "V0652",
@@ -8476,7 +10083,14 @@ const N4_VOCAB = [
       "ko": "이유",
       "vi": "lý do",
       "id": "alasan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "遅刻の理由を説明する",
+    "syn": [
+      "原因",
+      "わけ",
+      "根拠"
+    ]
   },
   {
     "id": "V0653",
@@ -8489,7 +10103,9 @@ const N4_VOCAB = [
       "ko": "유학",
       "vi": "du học",
       "id": "belajar di luar negeri"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "留学ことができる"
   },
   {
     "id": "V0654",
@@ -8502,7 +10118,9 @@ const N4_VOCAB = [
       "ko": "여행",
       "vi": "du lịch",
       "id": "perjalanan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "旅行ことができる"
   },
   {
     "id": "V0655",
@@ -8515,7 +10133,9 @@ const N4_VOCAB = [
       "ko": "역사",
       "vi": "lịch sử",
       "id": "sejarah"
-    }
+    },
+    "pos": "noun",
+    "ex": "歴史について話す"
   },
   {
     "id": "V0656",
@@ -8528,7 +10148,14 @@ const N4_VOCAB = [
       "ko": "연락",
       "vi": "liên lạc",
       "id": "kontak"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "友達に連絡する",
+    "syn": [
+      "通知",
+      "報告",
+      "コンタクト"
+    ]
   },
   {
     "id": "V0657",
@@ -8541,7 +10168,9 @@ const N4_VOCAB = [
       "ko": "연습",
       "vi": "luyện tập",
       "id": "latihan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "練習ことができる"
   },
   {
     "id": "V0658",
@@ -8554,7 +10183,9 @@ const N4_VOCAB = [
       "ko": "젊은",
       "vi": "trẻ",
       "id": "muda"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても若い"
   },
   {
     "id": "V0659",
@@ -8567,7 +10198,9 @@ const N4_VOCAB = [
       "ko": "일식",
       "vi": "ẩm thực Nhật",
       "id": "makanan Jepang"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "和食ことができる"
   },
   {
     "id": "V0660",
@@ -8580,7 +10213,9 @@ const N4_VOCAB = [
       "ko": "비율",
       "vi": "tỷ lệ",
       "id": "rasio"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても割合"
   },
   {
     "id": "V0661",
@@ -8593,7 +10228,9 @@ const N4_VOCAB = [
       "ko": "팔",
       "vi": "cánh tay",
       "id": "lengan"
-    }
+    },
+    "pos": "noun",
+    "ex": "腕について話す"
   },
   {
     "id": "V0662",
@@ -8606,7 +10243,9 @@ const N4_VOCAB = [
       "ko": "졸리다",
       "vi": "buồn ngủ",
       "id": "mengantuk"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても眠い"
   },
   {
     "id": "V0663",
@@ -8619,7 +10258,9 @@ const N4_VOCAB = [
       "ko": "연대",
       "vi": "thời đại",
       "id": "era"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても年代"
   },
   {
     "id": "V0664",
@@ -8632,7 +10273,9 @@ const N4_VOCAB = [
       "ko": "연도",
       "vi": "năm tài chính",
       "id": "tahun fiskal"
-    }
+    },
+    "pos": "noun",
+    "ex": "年度について話す"
   },
   {
     "id": "V0665",
@@ -8645,7 +10288,9 @@ const N4_VOCAB = [
       "ko": "능력",
       "vi": "năng lực",
       "id": "kemampuan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "能力ことができる"
   },
   {
     "id": "V0666",
@@ -8658,7 +10303,9 @@ const N4_VOCAB = [
       "ko": "탈것",
       "vi": "phương tiện",
       "id": "kendaraan"
-    }
+    },
+    "pos": "noun",
+    "ex": "乗り物について話す"
   },
   {
     "id": "V0667",
@@ -8671,7 +10318,9 @@ const N4_VOCAB = [
       "ko": "갈아타다",
       "vi": "chuyển xe",
       "id": "transfer"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "乗り換えることができる"
   },
   {
     "id": "V0668",
@@ -8684,7 +10333,9 @@ const N4_VOCAB = [
       "ko": "배",
       "vi": "gấp đôi",
       "id": "kali lipat"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても倍"
   },
   {
     "id": "V0669",
@@ -8697,7 +10348,9 @@ const N4_VOCAB = [
       "ko": "배달",
       "vi": "giao hàng",
       "id": "pengiriman"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "配達ことができる"
   },
   {
     "id": "V0670",
@@ -8710,7 +10363,9 @@ const N4_VOCAB = [
       "ko": "박수",
       "vi": "vỗ tay",
       "id": "tepuk tangan"
-    }
+    },
+    "pos": "noun",
+    "ex": "拍手について話す"
   },
   {
     "id": "V0671",
@@ -8723,7 +10378,9 @@ const N4_VOCAB = [
       "ko": "박물관",
       "vi": "bảo tàng",
       "id": "museum"
-    }
+    },
+    "pos": "noun",
+    "ex": "博物館について話す"
   },
   {
     "id": "V0672",
@@ -8736,7 +10393,9 @@ const N4_VOCAB = [
       "ko": "부끄럽다",
       "vi": "xấu hổ",
       "id": "malu"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても恥ずかしい"
   },
   {
     "id": "V0673",
@@ -8749,7 +10408,9 @@ const N4_VOCAB = [
       "ko": "발견",
       "vi": "phát hiện",
       "id": "penemuan"
-    }
+    },
+    "pos": "noun",
+    "ex": "発見について話す"
   },
   {
     "id": "V0674",
@@ -8762,7 +10423,9 @@ const N4_VOCAB = [
       "ko": "발전",
       "vi": "phát triển",
       "id": "perkembangan"
-    }
+    },
+    "pos": "noun",
+    "ex": "発展について話す"
   },
   {
     "id": "V0675",
@@ -8775,7 +10438,9 @@ const N4_VOCAB = [
       "ko": "발명",
       "vi": "phát minh",
       "id": "penemuan"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても発明"
   },
   {
     "id": "V0676",
@@ -8788,7 +10453,9 @@ const N4_VOCAB = [
       "ko": "불꽃놀이",
       "vi": "pháo hoa",
       "id": "kembang api"
-    }
+    },
+    "pos": "noun",
+    "ex": "花火について話す"
   },
   {
     "id": "V0677",
@@ -8801,7 +10468,9 @@ const N4_VOCAB = [
       "ko": "폭",
       "vi": "chiều rộng",
       "id": "lebar"
-    }
+    },
+    "pos": "noun",
+    "ex": "幅について話す"
   },
   {
     "id": "V0678",
@@ -8814,7 +10483,9 @@ const N4_VOCAB = [
       "ko": "생략하다",
       "vi": "bỏ qua",
       "id": "menghilangkan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "省くことができる"
   },
   {
     "id": "V0679",
@@ -8827,7 +10498,9 @@ const N4_VOCAB = [
       "ko": "해변",
       "vi": "bãi biển",
       "id": "pantai"
-    }
+    },
+    "pos": "noun",
+    "ex": "浜について話す"
   },
   {
     "id": "V0680",
@@ -8840,7 +10513,9 @@ const N4_VOCAB = [
       "ko": "범위",
       "vi": "phạm vi",
       "id": "jangkauan"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても範囲"
   },
   {
     "id": "V0681",
@@ -8853,7 +10528,9 @@ const N4_VOCAB = [
       "ko": "반영",
       "vi": "phản ánh",
       "id": "refleksi"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても反映"
   },
   {
     "id": "V0682",
@@ -8866,7 +10543,9 @@ const N4_VOCAB = [
       "ko": "범죄",
       "vi": "tội phạm",
       "id": "kejahatan"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても犯罪"
   },
   {
     "id": "V0683",
@@ -8879,7 +10558,9 @@ const N4_VOCAB = [
       "ko": "판단",
       "vi": "phán đoán",
       "id": "penilaian"
-    }
+    },
+    "pos": "noun",
+    "ex": "判断について話す"
   },
   {
     "id": "V0684",
@@ -8892,7 +10573,9 @@ const N4_VOCAB = [
       "ko": "판매",
       "vi": "bán hàng",
       "id": "penjualan"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても販売"
   },
   {
     "id": "V0685",
@@ -8905,7 +10588,9 @@ const N4_VOCAB = [
       "ko": "당일치기",
       "vi": "đi về trong ngày",
       "id": "pulang pergi"
-    }
+    },
+    "pos": "noun",
+    "ex": "日帰りについて話す"
   },
   {
     "id": "V0686",
@@ -8918,7 +10603,9 @@ const N4_VOCAB = [
       "ko": "비교",
       "vi": "so sánh",
       "id": "perbandingan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "比較ことができる"
   },
   {
     "id": "V0687",
@@ -8931,7 +10618,9 @@ const N4_VOCAB = [
       "ko": "빛",
       "vi": "ánh sáng",
       "id": "cahaya"
-    }
+    },
+    "pos": "noun",
+    "ex": "光について話す"
   },
   {
     "id": "V0688",
@@ -8944,7 +10633,9 @@ const N4_VOCAB = [
       "ko": "인출하다",
       "vi": "rút ra",
       "id": "menarik"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "引き出すことができる"
   },
   {
     "id": "V0689",
@@ -8957,7 +10648,9 @@ const N4_VOCAB = [
       "ko": "비상",
       "vi": "khẩn cấp",
       "id": "darurat"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "非常ことができる"
   },
   {
     "id": "V0690",
@@ -8970,7 +10663,9 @@ const N4_VOCAB = [
       "ko": "필사",
       "vi": "liều mạng",
       "id": "mati-matian"
-    }
+    },
+    "pos": "noun",
+    "ex": "必死について話す"
   },
   {
     "id": "V0691",
@@ -8983,7 +10678,9 @@ const N4_VOCAB = [
       "ko": "이사하다",
       "vi": "chuyển nhà",
       "id": "pindah"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "引っ越すことができる"
   },
   {
     "id": "V0692",
@@ -8996,7 +10693,9 @@ const N4_VOCAB = [
       "ko": "부정",
       "vi": "phủ định",
       "id": "penolakan"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても否定"
   },
   {
     "id": "V0693",
@@ -9009,7 +10708,9 @@ const N4_VOCAB = [
       "ko": "사람들",
       "vi": "mọi người",
       "id": "orang-orang"
-    }
+    },
+    "pos": "adverb",
+    "ex": "人々について話す"
   },
   {
     "id": "V0694",
@@ -9022,7 +10723,9 @@ const N4_VOCAB = [
       "ko": "비판",
       "vi": "phê phán",
       "id": "kritik"
-    }
+    },
+    "pos": "noun",
+    "ex": "批判について話す"
   },
   {
     "id": "V0695",
@@ -9035,7 +10738,9 @@ const N4_VOCAB = [
       "ko": "피부",
       "vi": "da",
       "id": "kulit"
-    }
+    },
+    "pos": "noun",
+    "ex": "皮膚について話す"
   },
   {
     "id": "V0696",
@@ -9048,7 +10753,9 @@ const N4_VOCAB = [
       "ko": "표",
       "vi": "bảng",
       "id": "tabel"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "表ことができる"
   },
   {
     "id": "V0697",
@@ -9061,7 +10768,9 @@ const N4_VOCAB = [
       "ko": "평가",
       "vi": "đánh giá",
       "id": "penilaian"
-    }
+    },
+    "pos": "noun",
+    "ex": "評価について話す"
   },
   {
     "id": "V0698",
@@ -9074,7 +10783,9 @@ const N4_VOCAB = [
       "ko": "표정",
       "vi": "biểu cảm",
       "id": "ekspresi wajah"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "表情ことができる"
   },
   {
     "id": "V0699",
@@ -9087,7 +10798,9 @@ const N4_VOCAB = [
       "ko": "미용",
       "vi": "làm đẹp",
       "id": "kecantikan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "美容ことができる"
   },
   {
     "id": "V0700",
@@ -9100,7 +10813,9 @@ const N4_VOCAB = [
       "ko": "품질",
       "vi": "chất lượng",
       "id": "kualitas"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "品質ことができる"
   },
   {
     "id": "V0701",
@@ -9113,7 +10828,9 @@ const N4_VOCAB = [
       "ko": "가난",
       "vi": "nghèo",
       "id": "miskin"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "貧乏ことができる"
   },
   {
     "id": "V0702",
@@ -9126,7 +10843,9 @@ const N4_VOCAB = [
       "ko": "부부",
       "vi": "vợ chồng",
       "id": "pasangan suami istri"
-    }
+    },
+    "pos": "noun",
+    "ex": "夫婦について話す"
   },
   {
     "id": "V0703",
@@ -9139,7 +10858,9 @@ const N4_VOCAB = [
       "ko": "깊다",
       "vi": "sâu",
       "id": "dalam"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても深い"
   },
   {
     "id": "V0704",
@@ -9152,7 +10873,9 @@ const N4_VOCAB = [
       "ko": "복지",
       "vi": "phúc lợi",
       "id": "kesejahteraan"
-    }
+    },
+    "pos": "noun",
+    "ex": "福祉について話す"
   },
   {
     "id": "V0705",
@@ -9165,7 +10888,9 @@ const N4_VOCAB = [
       "ko": "평소",
       "vi": "thường ngày",
       "id": "biasanya"
-    }
+    },
+    "pos": "noun",
+    "ex": "普段について話す"
   },
   {
     "id": "V0706",
@@ -9178,7 +10903,9 @@ const N4_VOCAB = [
       "ko": "부품",
       "vi": "linh kiện",
       "id": "suku cadang"
-    }
+    },
+    "pos": "noun",
+    "ex": "部品について話す"
   },
   {
     "id": "V0707",
@@ -9191,7 +10918,9 @@ const N4_VOCAB = [
       "ko": "불만",
       "vi": "bất mãn",
       "id": "ketidakpuasan"
-    }
+    },
+    "pos": "noun",
+    "ex": "不満について話す"
   },
   {
     "id": "V0708",
@@ -9204,7 +10933,9 @@ const N4_VOCAB = [
       "ko": "분위기",
       "vi": "bầu không khí",
       "id": "suasana"
-    }
+    },
+    "pos": "noun",
+    "ex": "雰囲気について話す"
   },
   {
     "id": "V0709",
@@ -9217,7 +10948,9 @@ const N4_VOCAB = [
       "ko": "분야",
       "vi": "lĩnh vực",
       "id": "bidang"
-    }
+    },
+    "pos": "noun",
+    "ex": "分野について話す"
   },
   {
     "id": "V0710",
@@ -9230,7 +10963,9 @@ const N4_VOCAB = [
       "ko": "분석",
       "vi": "phân tích",
       "id": "analisis"
-    }
+    },
+    "pos": "noun",
+    "ex": "分析について話す"
   },
   {
     "id": "V0711",
@@ -9243,7 +10978,9 @@ const N4_VOCAB = [
       "ko": "평균",
       "vi": "trung bình",
       "id": "rata-rata"
-    }
+    },
+    "pos": "noun",
+    "ex": "平均について話す"
   },
   {
     "id": "V0712",
@@ -9256,7 +10993,9 @@ const N4_VOCAB = [
       "ko": "법률",
       "vi": "pháp luật",
       "id": "hukum"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "法律ことができる"
   },
   {
     "id": "V0713",
@@ -9269,7 +11008,9 @@ const N4_VOCAB = [
       "ko": "방문",
       "vi": "thăm",
       "id": "kunjungan"
-    }
+    },
+    "pos": "noun",
+    "ex": "訪問について話す"
   },
   {
     "id": "V0714",
@@ -9282,7 +11023,9 @@ const N4_VOCAB = [
       "ko": "방향",
       "vi": "hướng",
       "id": "arah"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "方向ことができる"
   },
   {
     "id": "V0715",
@@ -9295,7 +11038,9 @@ const N4_VOCAB = [
       "ko": "보석",
       "vi": "đá quý",
       "id": "permata"
-    }
+    },
+    "pos": "noun",
+    "ex": "宝石について話す"
   },
   {
     "id": "V0716",
@@ -9308,7 +11053,9 @@ const N4_VOCAB = [
       "ko": "방지",
       "vi": "phòng ngừa",
       "id": "pencegahan"
-    }
+    },
+    "pos": "noun",
+    "ex": "防止について話す"
   },
   {
     "id": "V0717",
@@ -9321,7 +11068,9 @@ const N4_VOCAB = [
       "ko": "보고",
       "vi": "báo cáo",
       "id": "laporan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "報告ことができる"
   },
   {
     "id": "V0718",
@@ -9334,7 +11083,9 @@ const N4_VOCAB = [
       "ko": "모집",
       "vi": "tuyển dụng",
       "id": "rekrutmen"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "募集ことができる"
   },
   {
     "id": "V0719",
@@ -9347,7 +11098,9 @@ const N4_VOCAB = [
       "ko": "보존",
       "vi": "bảo quản",
       "id": "pelestarian"
-    }
+    },
+    "pos": "noun",
+    "ex": "保存について話す"
   },
   {
     "id": "V0720",
@@ -9360,7 +11113,9 @@ const N4_VOCAB = [
       "ko": "보호",
       "vi": "bảo vệ",
       "id": "perlindungan"
-    }
+    },
+    "pos": "noun",
+    "ex": "保護について話す"
   },
   {
     "id": "V0721",
@@ -9373,7 +11128,9 @@ const N4_VOCAB = [
       "ko": "보험",
       "vi": "bảo hiểm",
       "id": "asuransi"
-    }
+    },
+    "pos": "noun",
+    "ex": "保険について話す"
   },
   {
     "id": "V0722",
@@ -9386,7 +11143,9 @@ const N4_VOCAB = [
       "ko": "보증",
       "vi": "bảo đảm",
       "id": "jaminan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "保証ことができる"
   },
   {
     "id": "V0723",
@@ -9399,7 +11158,9 @@ const N4_VOCAB = [
       "ko": "보조",
       "vi": "hỗ trợ",
       "id": "bantuan"
-    }
+    },
+    "pos": "noun",
+    "ex": "補助について話す"
   },
   {
     "id": "V0724",
@@ -9412,7 +11173,9 @@ const N4_VOCAB = [
       "ko": "가늘다",
       "vi": "mảnh",
       "id": "tipis"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても細い"
   },
   {
     "id": "V0725",
@@ -9425,7 +11188,9 @@ const N4_VOCAB = [
       "ko": "뼈",
       "vi": "xương",
       "id": "tulang"
-    }
+    },
+    "pos": "noun",
+    "ex": "骨について話す"
   },
   {
     "id": "V0726",
@@ -9438,7 +11203,9 @@ const N4_VOCAB = [
       "ko": "번역",
       "vi": "dịch thuật",
       "id": "terjemahan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "翻訳ことができる"
   },
   {
     "id": "V0727",
@@ -9451,7 +11218,9 @@ const N4_VOCAB = [
       "ko": "notification",
       "vi": "notification",
       "id": "notification"
-    }
+    },
+    "pos": "noun",
+    "ex": "届出について話す"
   },
   {
     "id": "V0728",
@@ -9464,7 +11233,9 @@ const N4_VOCAB = [
       "ko": "deposit",
       "vi": "deposit",
       "id": "deposit"
-    }
+    },
+    "pos": "noun",
+    "ex": "預金について話す"
   },
   {
     "id": "V0729",
@@ -9477,7 +11248,9 @@ const N4_VOCAB = [
       "ko": "savings",
       "vi": "savings",
       "id": "savings"
-    }
+    },
+    "pos": "noun",
+    "ex": "貯金について話す"
   },
   {
     "id": "V0730",
@@ -9490,7 +11263,9 @@ const N4_VOCAB = [
       "ko": "to save",
       "vi": "to save",
       "id": "to save"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "貯めることができる"
   },
   {
     "id": "V0731",
@@ -9503,7 +11278,9 @@ const N4_VOCAB = [
       "ko": "street",
       "vi": "street",
       "id": "street"
-    }
+    },
+    "pos": "noun",
+    "ex": "通りについて話す"
   },
   {
     "id": "V0732",
@@ -9516,7 +11293,9 @@ const N4_VOCAB = [
       "ko": "road",
       "vi": "road",
       "id": "road"
-    }
+    },
+    "pos": "noun",
+    "ex": "道路について話す"
   },
   {
     "id": "V0733",
@@ -9529,7 +11308,9 @@ const N4_VOCAB = [
       "ko": "crossing",
       "vi": "crossing",
       "id": "crossing"
-    }
+    },
+    "pos": "noun",
+    "ex": "横断について話す"
   },
   {
     "id": "V0734",
@@ -9542,7 +11323,9 @@ const N4_VOCAB = [
       "ko": "signal",
       "vi": "signal",
       "id": "signal"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "信号ことができる"
   },
   {
     "id": "V0735",
@@ -9555,7 +11338,9 @@ const N4_VOCAB = [
       "ko": "intersection",
       "vi": "intersection",
       "id": "intersection"
-    }
+    },
+    "pos": "noun",
+    "ex": "交差点について話す"
   },
   {
     "id": "V0736",
@@ -9568,7 +11353,9 @@ const N4_VOCAB = [
       "ko": "straight",
       "vi": "straight",
       "id": "straight"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "真っ直ぐことができる"
   },
   {
     "id": "V0737",
@@ -9581,7 +11368,9 @@ const N4_VOCAB = [
       "ko": "right side",
       "vi": "right side",
       "id": "right side"
-    }
+    },
+    "pos": "noun",
+    "ex": "右側について話す"
   },
   {
     "id": "V0738",
@@ -9594,7 +11383,9 @@ const N4_VOCAB = [
       "ko": "left side",
       "vi": "left side",
       "id": "left side"
-    }
+    },
+    "pos": "noun",
+    "ex": "左側について話す"
   },
   {
     "id": "V0739",
@@ -9607,7 +11398,9 @@ const N4_VOCAB = [
       "ko": "over there",
       "vi": "over there",
       "id": "over there"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "向こうことができる"
   },
   {
     "id": "V0740",
@@ -9620,7 +11413,9 @@ const N4_VOCAB = [
       "ko": "front",
       "vi": "front",
       "id": "front"
-    }
+    },
+    "pos": "noun",
+    "ex": "正面について話す"
   },
   {
     "id": "V0741",
@@ -9633,7 +11428,9 @@ const N4_VOCAB = [
       "ko": "building",
       "vi": "building",
       "id": "building"
-    }
+    },
+    "pos": "noun",
+    "ex": "建物について話す"
   },
   {
     "id": "V0742",
@@ -9646,7 +11443,9 @@ const N4_VOCAB = [
       "ko": "construction",
       "vi": "construction",
       "id": "construction"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "建設ことができる"
   },
   {
     "id": "V0743",
@@ -9659,7 +11458,9 @@ const N4_VOCAB = [
       "ko": "construction work",
       "vi": "construction work",
       "id": "construction work"
-    }
+    },
+    "pos": "noun",
+    "ex": "工事について話す"
   },
   {
     "id": "V0744",
@@ -9672,7 +11473,9 @@ const N4_VOCAB = [
       "ko": "plan",
       "vi": "plan",
       "id": "plan"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "計画ことができる"
   },
   {
     "id": "V0745",
@@ -9685,7 +11488,14 @@ const N4_VOCAB = [
       "ko": "schedule",
       "vi": "schedule",
       "id": "schedule"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "今週の予定を確認する",
+    "syn": [
+      "スケジュール",
+      "計画",
+      "日程"
+    ]
   },
   {
     "id": "V0746",
@@ -9698,7 +11508,9 @@ const N4_VOCAB = [
       "ko": "contract",
       "vi": "contract",
       "id": "contract"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "契約ことができる"
   },
   {
     "id": "V0747",
@@ -9711,7 +11523,9 @@ const N4_VOCAB = [
       "ko": "government",
       "vi": "government",
       "id": "government"
-    }
+    },
+    "pos": "noun",
+    "ex": "政府について話す"
   },
   {
     "id": "V0748",
@@ -9724,7 +11538,9 @@ const N4_VOCAB = [
       "ko": "earth",
       "vi": "earth",
       "id": "earth"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "地球ことができる"
   },
   {
     "id": "V0749",
@@ -9737,7 +11553,9 @@ const N4_VOCAB = [
       "ko": "universe",
       "vi": "universe",
       "id": "universe"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "宇宙ことができる"
   },
   {
     "id": "V0750",
@@ -9750,7 +11568,9 @@ const N4_VOCAB = [
       "ko": "warm",
       "vi": "warm",
       "id": "warm"
-    }
+    },
+    "pos": "noun",
+    "ex": "温暖について話す"
   },
   {
     "id": "V0751",
@@ -9763,7 +11583,9 @@ const N4_VOCAB = [
       "ko": "cold",
       "vi": "cold",
       "id": "cold"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても寒冷"
   },
   {
     "id": "V0752",
@@ -9776,7 +11598,9 @@ const N4_VOCAB = [
       "ko": "humidity",
       "vi": "humidity",
       "id": "humidity"
-    }
+    },
+    "pos": "noun",
+    "ex": "湿度について話す"
   },
   {
     "id": "V0753",
@@ -9789,7 +11613,9 @@ const N4_VOCAB = [
       "ko": "weather",
       "vi": "weather",
       "id": "weather"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "天候ことができる"
   },
   {
     "id": "V0754",
@@ -9802,7 +11628,9 @@ const N4_VOCAB = [
       "ko": "weather",
       "vi": "weather",
       "id": "weather"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "気象ことができる"
   },
   {
     "id": "V0755",
@@ -9815,7 +11643,9 @@ const N4_VOCAB = [
       "ko": "forecast",
       "vi": "forecast",
       "id": "forecast"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "予報ことができる"
   },
   {
     "id": "V0756",
@@ -9828,7 +11658,9 @@ const N4_VOCAB = [
       "ko": "confirmation",
       "vi": "confirmation",
       "id": "confirmation"
-    }
+    },
+    "pos": "noun",
+    "ex": "確認について話す"
   },
   {
     "id": "V0757",
@@ -9841,7 +11673,9 @@ const N4_VOCAB = [
       "ko": "certain",
       "vi": "certain",
       "id": "certain"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "確実ことができる"
   },
   {
     "id": "V0758",
@@ -9854,7 +11688,9 @@ const N4_VOCAB = [
       "ko": "mistake",
       "vi": "mistake",
       "id": "mistake"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても間違い"
   },
   {
     "id": "V0759",
@@ -9867,7 +11703,9 @@ const N4_VOCAB = [
       "ko": "success",
       "vi": "success",
       "id": "success"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "成功ことができる"
   },
   {
     "id": "V0760",
@@ -9880,7 +11718,9 @@ const N4_VOCAB = [
       "ko": "means",
       "vi": "means",
       "id": "means"
-    }
+    },
+    "pos": "noun",
+    "ex": "手段について話す"
   },
   {
     "id": "V0761",
@@ -9893,7 +11733,9 @@ const N4_VOCAB = [
       "ko": "position",
       "vi": "position",
       "id": "position"
-    }
+    },
+    "pos": "noun",
+    "ex": "位置について話す"
   },
   {
     "id": "V0762",
@@ -9906,7 +11748,9 @@ const N4_VOCAB = [
       "ko": "place",
       "vi": "place",
       "id": "place"
-    }
+    },
+    "pos": "noun",
+    "ex": "場所について話す"
   },
   {
     "id": "V0763",
@@ -9919,7 +11763,9 @@ const N4_VOCAB = [
       "ko": "point",
       "vi": "point",
       "id": "point"
-    }
+    },
+    "pos": "noun",
+    "ex": "地点について話す"
   },
   {
     "id": "V0764",
@@ -9932,7 +11778,9 @@ const N4_VOCAB = [
       "ko": "degree",
       "vi": "degree",
       "id": "degree"
-    }
+    },
+    "pos": "noun",
+    "ex": "程度について話す"
   },
   {
     "id": "V0765",
@@ -9945,7 +11793,9 @@ const N4_VOCAB = [
       "ko": "same",
       "vi": "same",
       "id": "same"
-    }
+    },
+    "pos": "noun",
+    "ex": "同じについて話す"
   },
   {
     "id": "V0766",
@@ -9958,7 +11808,9 @@ const N4_VOCAB = [
       "ko": "difference",
       "vi": "difference",
       "id": "difference"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても違い"
   },
   {
     "id": "V0767",
@@ -9971,7 +11823,9 @@ const N4_VOCAB = [
       "ko": "difference",
       "vi": "difference",
       "id": "difference"
-    }
+    },
+    "pos": "noun",
+    "ex": "差について話す"
   },
   {
     "id": "V0768",
@@ -9984,7 +11838,9 @@ const N4_VOCAB = [
       "ko": "type",
       "vi": "type",
       "id": "type"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても種類"
   },
   {
     "id": "V0769",
@@ -9997,7 +11853,9 @@ const N4_VOCAB = [
       "ko": "classification",
       "vi": "classification",
       "id": "classification"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても分類"
   },
   {
     "id": "V0770",
@@ -10010,7 +11868,9 @@ const N4_VOCAB = [
       "ko": "distinction",
       "vi": "distinction",
       "id": "distinction"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "区別ことができる"
   },
   {
     "id": "V0771",
@@ -10023,7 +11883,9 @@ const N4_VOCAB = [
       "ko": "to choose",
       "vi": "to choose",
       "id": "to choose"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "選ぶことができる"
   },
   {
     "id": "V0772",
@@ -10036,7 +11898,9 @@ const N4_VOCAB = [
       "ko": "choice",
       "vi": "choice",
       "id": "choice"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "選択ことができる"
   },
   {
     "id": "V0773",
@@ -10049,7 +11913,9 @@ const N4_VOCAB = [
       "ko": "decision",
       "vi": "decision",
       "id": "decision"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても決定"
   },
   {
     "id": "V0774",
@@ -10062,7 +11928,9 @@ const N4_VOCAB = [
       "ko": "thought",
       "vi": "thought",
       "id": "thought"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "思考ことができる"
   },
   {
     "id": "V0775",
@@ -10075,7 +11943,14 @@ const N4_VOCAB = [
       "ko": "opinion",
       "vi": "opinion",
       "id": "opinion"
-    }
+    },
+    "pos": "noun",
+    "ex": "意見を述べる",
+    "syn": [
+      "考え",
+      "見解",
+      "主張"
+    ]
   },
   {
     "id": "V0776",
@@ -10088,7 +11963,9 @@ const N4_VOCAB = [
       "ko": "claim",
       "vi": "claim",
       "id": "claim"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "主張ことができる"
   },
   {
     "id": "V0777",
@@ -10101,7 +11978,9 @@ const N4_VOCAB = [
       "ko": "approval",
       "vi": "approval",
       "id": "approval"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても賛成"
   },
   {
     "id": "V0778",
@@ -10114,7 +11993,9 @@ const N4_VOCAB = [
       "ko": "permission",
       "vi": "permission",
       "id": "permission"
-    }
+    },
+    "pos": "noun",
+    "ex": "許可について話す"
   },
   {
     "id": "V0779",
@@ -10127,7 +12008,9 @@ const N4_VOCAB = [
       "ko": "restriction",
       "vi": "restriction",
       "id": "restriction"
-    }
+    },
+    "pos": "noun",
+    "ex": "制限について話す"
   },
   {
     "id": "V0780",
@@ -10140,7 +12023,9 @@ const N4_VOCAB = [
       "ko": "right",
       "vi": "right",
       "id": "right"
-    }
+    },
+    "pos": "noun",
+    "ex": "権利について話す"
   },
   {
     "id": "V0781",
@@ -10153,7 +12038,9 @@ const N4_VOCAB = [
       "ko": "duty",
       "vi": "duty",
       "id": "duty"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "義務ことができる"
   },
   {
     "id": "V0782",
@@ -10166,7 +12053,9 @@ const N4_VOCAB = [
       "ko": "responsibility",
       "vi": "responsibility",
       "id": "responsibility"
-    }
+    },
+    "pos": "noun",
+    "ex": "責任について話す"
   },
   {
     "id": "V0783",
@@ -10179,7 +12068,9 @@ const N4_VOCAB = [
       "ko": "charge",
       "vi": "charge",
       "id": "charge"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "担当ことができる"
   },
   {
     "id": "V0784",
@@ -10192,7 +12083,9 @@ const N4_VOCAB = [
       "ko": "person in charge",
       "vi": "person in charge",
       "id": "person in charge"
-    }
+    },
+    "pos": "noun",
+    "ex": "係について話す"
   },
   {
     "id": "V0785",
@@ -10205,7 +12098,9 @@ const N4_VOCAB = [
       "ko": "role",
       "vi": "role",
       "id": "role"
-    }
+    },
+    "pos": "noun",
+    "ex": "役割について話す"
   },
   {
     "id": "V0786",
@@ -10218,7 +12113,9 @@ const N4_VOCAB = [
       "ko": "work",
       "vi": "work",
       "id": "work"
-    }
+    },
+    "pos": "adverb",
+    "ex": "仕事について話す"
   },
   {
     "id": "V0787",
@@ -10231,7 +12128,9 @@ const N4_VOCAB = [
       "ko": "task",
       "vi": "task",
       "id": "task"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "作業ことができる"
   },
   {
     "id": "V0788",
@@ -10244,7 +12143,9 @@ const N4_VOCAB = [
       "ko": "business",
       "vi": "business",
       "id": "business"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "業務ことができる"
   },
   {
     "id": "V0789",
@@ -10257,7 +12158,9 @@ const N4_VOCAB = [
       "ko": "occupation",
       "vi": "occupation",
       "id": "occupation"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "職業ことができる"
   },
   {
     "id": "V0790",
@@ -10270,7 +12173,9 @@ const N4_VOCAB = [
       "ko": "work",
       "vi": "work",
       "id": "work"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "勤務ことができる"
   },
   {
     "id": "V0791",
@@ -10283,7 +12188,9 @@ const N4_VOCAB = [
       "ko": "going to work",
       "vi": "going to work",
       "id": "going to work"
-    }
+    },
+    "pos": "noun",
+    "ex": "出勤について話す"
   },
   {
     "id": "V0792",
@@ -10296,7 +12203,9 @@ const N4_VOCAB = [
       "ko": "leaving work",
       "vi": "leaving work",
       "id": "leaving work"
-    }
+    },
+    "pos": "noun",
+    "ex": "退勤について話す"
   },
   {
     "id": "V0793",
@@ -10309,7 +12218,9 @@ const N4_VOCAB = [
       "ko": "overtime",
       "vi": "overtime",
       "id": "overtime"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "残業ことができる"
   },
   {
     "id": "V0794",
@@ -10322,7 +12233,9 @@ const N4_VOCAB = [
       "ko": "break",
       "vi": "break",
       "id": "break"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても休憩"
   },
   {
     "id": "V0795",
@@ -10335,7 +12248,9 @@ const N4_VOCAB = [
       "ko": "holiday",
       "vi": "holiday",
       "id": "holiday"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "休日ことができる"
   },
   {
     "id": "V0796",
@@ -10348,7 +12263,9 @@ const N4_VOCAB = [
       "ko": "national holiday",
       "vi": "national holiday",
       "id": "national holiday"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "祝日ことができる"
   },
   {
     "id": "V0797",
@@ -10361,7 +12278,9 @@ const N4_VOCAB = [
       "ko": "consecutive holidays",
       "vi": "consecutive holidays",
       "id": "consecutive holidays"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "連休ことができる"
   },
   {
     "id": "V0798",
@@ -10374,7 +12293,9 @@ const N4_VOCAB = [
       "ko": "paid leave",
       "vi": "paid leave",
       "id": "paid leave"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "有給ことができる"
   },
   {
     "id": "V0799",
@@ -10387,7 +12308,9 @@ const N4_VOCAB = [
       "ko": "absence",
       "vi": "absence",
       "id": "absence"
-    }
+    },
+    "pos": "noun",
+    "ex": "欠席について話す"
   },
   {
     "id": "V0800",
@@ -10400,7 +12323,9 @@ const N4_VOCAB = [
       "ko": "attendance",
       "vi": "attendance",
       "id": "attendance"
-    }
+    },
+    "pos": "noun",
+    "ex": "出席について話す"
   },
   {
     "id": "V0801",
@@ -10413,7 +12338,9 @@ const N4_VOCAB = [
       "ko": "application",
       "vi": "application",
       "id": "application"
-    }
+    },
+    "pos": "noun",
+    "ex": "申込について話す"
   },
   {
     "id": "V0802",
@@ -10426,7 +12353,9 @@ const N4_VOCAB = [
       "ko": "reception",
       "vi": "reception",
       "id": "reception"
-    }
+    },
+    "pos": "noun",
+    "ex": "受付について話す"
   },
   {
     "id": "V0803",
@@ -10439,7 +12368,9 @@ const N4_VOCAB = [
       "ko": "procedure",
       "vi": "procedure",
       "id": "procedure"
-    }
+    },
+    "pos": "noun",
+    "ex": "手続きについて話す"
   },
   {
     "id": "V0804",
@@ -10452,7 +12383,9 @@ const N4_VOCAB = [
       "ko": "material",
       "vi": "material",
       "id": "material"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "資料ことができる"
   },
   {
     "id": "V0805",
@@ -10465,7 +12398,9 @@ const N4_VOCAB = [
       "ko": "mobile",
       "vi": "mobile",
       "id": "mobile"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても携帯"
   },
   {
     "id": "V0806",
@@ -10478,7 +12413,9 @@ const N4_VOCAB = [
       "ko": "number",
       "vi": "number",
       "id": "number"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "番号ことができる"
   },
   {
     "id": "V0807",
@@ -10491,7 +12428,9 @@ const N4_VOCAB = [
       "ko": "name",
       "vi": "name",
       "id": "name"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても氏名"
   },
   {
     "id": "V0808",
@@ -10504,7 +12443,9 @@ const N4_VOCAB = [
       "ko": "gender",
       "vi": "gender",
       "id": "gender"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "性別ことができる"
   },
   {
     "id": "V0809",
@@ -10517,7 +12458,9 @@ const N4_VOCAB = [
       "ko": "date of birth",
       "vi": "date of birth",
       "id": "date of birth"
-    }
+    },
+    "pos": "noun",
+    "ex": "生年月日について話す"
   },
   {
     "id": "V0810",
@@ -10530,7 +12473,9 @@ const N4_VOCAB = [
       "ko": "single",
       "vi": "single",
       "id": "single"
-    }
+    },
+    "pos": "noun",
+    "ex": "独身について話す"
   },
   {
     "id": "V0811",
@@ -10543,7 +12488,9 @@ const N4_VOCAB = [
       "ko": "married",
       "vi": "married",
       "id": "married"
-    }
+    },
+    "pos": "noun",
+    "ex": "既婚について話す"
   },
   {
     "id": "V0812",
@@ -10556,7 +12503,9 @@ const N4_VOCAB = [
       "ko": "divorce",
       "vi": "divorce",
       "id": "divorce"
-    }
+    },
+    "pos": "noun",
+    "ex": "離婚について話す"
   },
   {
     "id": "V0813",
@@ -10569,7 +12518,9 @@ const N4_VOCAB = [
       "ko": "engagement",
       "vi": "engagement",
       "id": "engagement"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "婚約ことができる"
   },
   {
     "id": "V0814",
@@ -10582,7 +12533,9 @@ const N4_VOCAB = [
       "ko": "relationship",
       "vi": "relationship",
       "id": "relationship"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても交際"
   },
   {
     "id": "V0815",
@@ -10595,7 +12548,9 @@ const N4_VOCAB = [
       "ko": "romance",
       "vi": "romance",
       "id": "romance"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても恋愛"
   },
   {
     "id": "V0816",
@@ -10608,7 +12563,9 @@ const N4_VOCAB = [
       "ko": "friendship",
       "vi": "friendship",
       "id": "friendship"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "友情ことができる"
   },
   {
     "id": "V0817",
@@ -10621,7 +12578,9 @@ const N4_VOCAB = [
       "ko": "trust",
       "vi": "trust",
       "id": "trust"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても信頼"
   },
   {
     "id": "V0818",
@@ -10634,7 +12593,9 @@ const N4_VOCAB = [
       "ko": "respect",
       "vi": "respect",
       "id": "respect"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても尊敬"
   },
   {
     "id": "V0819",
@@ -10647,7 +12608,9 @@ const N4_VOCAB = [
       "ko": "gratitude",
       "vi": "gratitude",
       "id": "gratitude"
-    }
+    },
+    "pos": "noun",
+    "ex": "感謝について話す"
   },
   {
     "id": "V0820",
@@ -10660,7 +12623,9 @@ const N4_VOCAB = [
       "ko": "to encourage",
       "vi": "to encourage",
       "id": "to encourage"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "励ますことができる"
   },
   {
     "id": "V0821",
@@ -10673,7 +12638,9 @@ const N4_VOCAB = [
       "ko": "determination",
       "vi": "determination",
       "id": "determination"
-    }
+    },
+    "pos": "noun",
+    "ex": "決心について話す"
   },
   {
     "id": "V0822",
@@ -10686,7 +12653,9 @@ const N4_VOCAB = [
       "ko": "resolution",
       "vi": "resolution",
       "id": "resolution"
-    }
+    },
+    "pos": "noun",
+    "ex": "覚悟について話す"
   },
   {
     "id": "V0823",
@@ -10699,7 +12668,9 @@ const N4_VOCAB = [
       "ko": "effort",
       "vi": "effort",
       "id": "effort"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "努力ことができる"
   },
   {
     "id": "V0824",
@@ -10712,7 +12683,9 @@ const N4_VOCAB = [
       "ko": "to do one's best",
       "vi": "to do one's best",
       "id": "to do one's best"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "頑張ることができる"
   },
   {
     "id": "V0825",
@@ -10725,7 +12698,9 @@ const N4_VOCAB = [
       "ko": "to give up",
       "vi": "to give up",
       "id": "to give up"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "諦めることができる"
   },
   {
     "id": "V0826",
@@ -10738,7 +12713,9 @@ const N4_VOCAB = [
       "ko": "to repeat",
       "vi": "to repeat",
       "id": "to repeat"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "繰り返すことができる"
   },
   {
     "id": "V0827",
@@ -10751,7 +12728,9 @@ const N4_VOCAB = [
       "ko": "training",
       "vi": "training",
       "id": "training"
-    }
+    },
+    "pos": "noun",
+    "ex": "訓練について話す"
   },
   {
     "id": "V0828",
@@ -10764,7 +12743,9 @@ const N4_VOCAB = [
       "ko": "knowledge",
       "vi": "knowledge",
       "id": "knowledge"
-    }
+    },
+    "pos": "noun",
+    "ex": "知識について話す"
   },
   {
     "id": "V0829",
@@ -10777,7 +12758,9 @@ const N4_VOCAB = [
       "ko": "talent",
       "vi": "talent",
       "id": "talent"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "才能ことができる"
   },
   {
     "id": "V0830",
@@ -10790,7 +12773,9 @@ const N4_VOCAB = [
       "ko": "strength",
       "vi": "strength",
       "id": "strength"
-    }
+    },
+    "pos": "noun",
+    "ex": "長所について話す"
   },
   {
     "id": "V0831",
@@ -10803,7 +12788,9 @@ const N4_VOCAB = [
       "ko": "weakness",
       "vi": "weakness",
       "id": "weakness"
-    }
+    },
+    "pos": "noun",
+    "ex": "短所について話す"
   },
   {
     "id": "V0832",
@@ -10816,7 +12803,9 @@ const N4_VOCAB = [
       "ko": "personality",
       "vi": "personality",
       "id": "personality"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "性格ことができる"
   },
   {
     "id": "V0833",
@@ -10829,7 +12818,9 @@ const N4_VOCAB = [
       "ko": "attitude",
       "vi": "attitude",
       "id": "attitude"
-    }
+    },
+    "pos": "noun",
+    "ex": "態度について話す"
   },
   {
     "id": "V0834",
@@ -10842,7 +12833,9 @@ const N4_VOCAB = [
       "ko": "behavior",
       "vi": "behavior",
       "id": "behavior"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "行動ことができる"
   },
   {
     "id": "V0835",
@@ -10855,7 +12848,9 @@ const N4_VOCAB = [
       "ko": "concern",
       "vi": "concern",
       "id": "concern"
-    }
+    },
+    "pos": "noun",
+    "ex": "関心について話す"
   },
   {
     "id": "V0836",
@@ -10868,7 +12863,9 @@ const N4_VOCAB = [
       "ko": "attention",
       "vi": "attention",
       "id": "attention"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "注目ことができる"
   },
   {
     "id": "V0837",
@@ -10881,7 +12878,9 @@ const N4_VOCAB = [
       "ko": "concentration",
       "vi": "concentration",
       "id": "concentration"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "集中ことができる"
   },
   {
     "id": "V0838",
@@ -10894,7 +12893,9 @@ const N4_VOCAB = [
       "ko": "serious",
       "vi": "serious",
       "id": "serious"
-    }
+    },
+    "pos": "noun",
+    "ex": "真剣について話す"
   },
   {
     "id": "V0839",
@@ -10907,7 +12908,9 @@ const N4_VOCAB = [
       "ko": "seriousness",
       "vi": "seriousness",
       "id": "seriousness"
-    }
+    },
+    "pos": "noun",
+    "ex": "本気について話す"
   },
   {
     "id": "V0840",
@@ -10920,7 +12923,9 @@ const N4_VOCAB = [
       "ko": "joke",
       "vi": "joke",
       "id": "joke"
-    }
+    },
+    "pos": "noun",
+    "ex": "冗談について話す"
   },
   {
     "id": "V0841",
@@ -10933,7 +12938,9 @@ const N4_VOCAB = [
       "ko": "laughter",
       "vi": "laughter",
       "id": "laughter"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても笑い"
   },
   {
     "id": "V0842",
@@ -10946,7 +12953,9 @@ const N4_VOCAB = [
       "ko": "emotion",
       "vi": "emotion",
       "id": "emotion"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "感動ことができる"
   },
   {
     "id": "V0843",
@@ -10959,7 +12968,9 @@ const N4_VOCAB = [
       "ko": "impression",
       "vi": "impression",
       "id": "impression"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "感想ことができる"
   },
   {
     "id": "V0844",
@@ -10972,7 +12983,9 @@ const N4_VOCAB = [
       "ko": "impression",
       "vi": "impression",
       "id": "impression"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "印象ことができる"
   },
   {
     "id": "V0845",
@@ -10985,7 +12998,9 @@ const N4_VOCAB = [
       "ko": "memory",
       "vi": "memory",
       "id": "memory"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "記憶ことができる"
   },
   {
     "id": "V0846",
@@ -10998,7 +13013,9 @@ const N4_VOCAB = [
       "ko": "memory",
       "vi": "memory",
       "id": "memory"
-    }
+    },
+    "pos": "noun",
+    "ex": "思い出について話す"
   },
   {
     "id": "V0847",
@@ -11011,7 +13028,9 @@ const N4_VOCAB = [
       "ko": "to forget",
       "vi": "to forget",
       "id": "to forget"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "忘れることができる"
   },
   {
     "id": "V0848",
@@ -11024,7 +13043,9 @@ const N4_VOCAB = [
       "ko": "to remember",
       "vi": "to remember",
       "id": "to remember"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "覚えることができる"
   },
   {
     "id": "V0849",
@@ -11037,7 +13058,9 @@ const N4_VOCAB = [
       "ko": "understanding",
       "vi": "understanding",
       "id": "understanding"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても理解"
   },
   {
     "id": "V0850",
@@ -11050,7 +13073,9 @@ const N4_VOCAB = [
       "ko": "consent",
       "vi": "consent",
       "id": "consent"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "納得ことができる"
   },
   {
     "id": "V0851",
@@ -11063,7 +13088,9 @@ const N4_VOCAB = [
       "ko": "statement",
       "vi": "statement",
       "id": "statement"
-    }
+    },
+    "pos": "noun",
+    "ex": "発言について話す"
   },
   {
     "id": "V0852",
@@ -11076,7 +13103,9 @@ const N4_VOCAB = [
       "ko": "answer",
       "vi": "answer",
       "id": "answer"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "回答ことができる"
   },
   {
     "id": "V0853",
@@ -11089,7 +13118,9 @@ const N4_VOCAB = [
       "ko": "solution",
       "vi": "solution",
       "id": "solution"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "解答ことができる"
   },
   {
     "id": "V0854",
@@ -11102,7 +13133,9 @@ const N4_VOCAB = [
       "ko": "correct answer",
       "vi": "correct answer",
       "id": "correct answer"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても正解"
   },
   {
     "id": "V0855",
@@ -11115,7 +13148,9 @@ const N4_VOCAB = [
       "ko": "wrong answer",
       "vi": "wrong answer",
       "id": "wrong answer"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても不正解"
   },
   {
     "id": "V0856",
@@ -11128,7 +13163,9 @@ const N4_VOCAB = [
       "ko": "grading",
       "vi": "grading",
       "id": "grading"
-    }
+    },
+    "pos": "noun",
+    "ex": "採点について話す"
   },
   {
     "id": "V0857",
@@ -11141,7 +13178,9 @@ const N4_VOCAB = [
       "ko": "grade",
       "vi": "grade",
       "id": "grade"
-    }
+    },
+    "pos": "noun",
+    "ex": "成績について話す"
   },
   {
     "id": "V0858",
@@ -11154,7 +13193,9 @@ const N4_VOCAB = [
       "ko": "passing",
       "vi": "passing",
       "id": "passing"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "合格ことができる"
   },
   {
     "id": "V0859",
@@ -11167,7 +13208,9 @@ const N4_VOCAB = [
       "ko": "failure",
       "vi": "failure",
       "id": "failure"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "不合格ことができる"
   },
   {
     "id": "V0860",
@@ -11180,7 +13223,9 @@ const N4_VOCAB = [
       "ko": "advancing",
       "vi": "advancing",
       "id": "advancing"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "進学ことができる"
   },
   {
     "id": "V0861",
@@ -11193,7 +13238,9 @@ const N4_VOCAB = [
       "ko": "employment",
       "vi": "employment",
       "id": "employment"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "就職ことができる"
   },
   {
     "id": "V0862",
@@ -11206,7 +13253,9 @@ const N4_VOCAB = [
       "ko": "job change",
       "vi": "job change",
       "id": "job change"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "転職ことができる"
   },
   {
     "id": "V0863",
@@ -11219,7 +13268,9 @@ const N4_VOCAB = [
       "ko": "retirement",
       "vi": "retirement",
       "id": "retirement"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "退職ことができる"
   },
   {
     "id": "V0864",
@@ -11232,7 +13283,9 @@ const N4_VOCAB = [
       "ko": "income",
       "vi": "income",
       "id": "income"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "収入ことができる"
   },
   {
     "id": "V0865",
@@ -11245,7 +13298,9 @@ const N4_VOCAB = [
       "ko": "expense",
       "vi": "expense",
       "id": "expense"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "支出ことができる"
   },
   {
     "id": "V0866",
@@ -11258,7 +13313,9 @@ const N4_VOCAB = [
       "ko": "savings",
       "vi": "savings",
       "id": "savings"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "貯蓄ことができる"
   },
   {
     "id": "V0867",
@@ -11271,7 +13328,9 @@ const N4_VOCAB = [
       "ko": "investment",
       "vi": "investment",
       "id": "investment"
-    }
+    },
+    "pos": "noun",
+    "ex": "投資について話す"
   },
   {
     "id": "V0868",
@@ -11284,7 +13343,9 @@ const N4_VOCAB = [
       "ko": "profit",
       "vi": "profit",
       "id": "profit"
-    }
+    },
+    "pos": "noun",
+    "ex": "利益について話す"
   },
   {
     "id": "V0869",
@@ -11297,7 +13358,9 @@ const N4_VOCAB = [
       "ko": "loss",
       "vi": "loss",
       "id": "loss"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "損失ことができる"
   },
   {
     "id": "V0870",
@@ -11310,7 +13373,9 @@ const N4_VOCAB = [
       "ko": "debt",
       "vi": "debt",
       "id": "debt"
-    }
+    },
+    "pos": "noun",
+    "ex": "借金について話す"
   },
   {
     "id": "V0871",
@@ -11323,7 +13388,9 @@ const N4_VOCAB = [
       "ko": "repayment",
       "vi": "repayment",
       "id": "repayment"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても返済"
   },
   {
     "id": "V0872",
@@ -11336,7 +13403,9 @@ const N4_VOCAB = [
       "ko": "bill",
       "vi": "bill",
       "id": "bill"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "請求ことができる"
   },
   {
     "id": "V0873",
@@ -11349,7 +13418,9 @@ const N4_VOCAB = [
       "ko": "payment",
       "vi": "payment",
       "id": "payment"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても支払い"
   },
   {
     "id": "V0874",
@@ -11362,7 +13433,9 @@ const N4_VOCAB = [
       "ko": "cash",
       "vi": "cash",
       "id": "cash"
-    }
+    },
+    "pos": "noun",
+    "ex": "現金について話す"
   },
   {
     "id": "V0875",
@@ -11375,7 +13448,9 @@ const N4_VOCAB = [
       "ko": "coins",
       "vi": "coins",
       "id": "coins"
-    }
+    },
+    "pos": "adverb",
+    "ex": "小銭について話す"
   },
   {
     "id": "V0876",
@@ -11388,7 +13463,9 @@ const N4_VOCAB = [
       "ko": "bill",
       "vi": "bill",
       "id": "bill"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても紙幣"
   },
   {
     "id": "V0877",
@@ -11401,7 +13478,9 @@ const N4_VOCAB = [
       "ko": "exchange",
       "vi": "exchange",
       "id": "exchange"
-    }
+    },
+    "pos": "noun",
+    "ex": "両替について話す"
   },
   {
     "id": "V0878",
@@ -11414,7 +13493,9 @@ const N4_VOCAB = [
       "ko": "transfer",
       "vi": "transfer",
       "id": "transfer"
-    }
+    },
+    "pos": "noun",
+    "ex": "振込について話す"
   },
   {
     "id": "V0879",
@@ -11427,7 +13508,9 @@ const N4_VOCAB = [
       "ko": "deposit",
       "vi": "deposit",
       "id": "deposit"
-    }
+    },
+    "pos": "noun",
+    "ex": "預け入れについて話す"
   },
   {
     "id": "V0880",
@@ -11440,7 +13523,9 @@ const N4_VOCAB = [
       "ko": "account",
       "vi": "account",
       "id": "account"
-    }
+    },
+    "pos": "noun",
+    "ex": "口座について話す"
   },
   {
     "id": "V0881",
@@ -11453,7 +13538,9 @@ const N4_VOCAB = [
       "ko": "PIN",
       "vi": "PIN",
       "id": "PIN"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "暗証番号ことができる"
   },
   {
     "id": "V0882",
@@ -11466,7 +13553,9 @@ const N4_VOCAB = [
       "ko": "fee",
       "vi": "fee",
       "id": "fee"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "手数料ことができる"
   },
   {
     "id": "V0883",
@@ -11479,7 +13568,9 @@ const N4_VOCAB = [
       "ko": "free",
       "vi": "free",
       "id": "free"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "無料ことができる"
   },
   {
     "id": "V0884",
@@ -11492,7 +13583,9 @@ const N4_VOCAB = [
       "ko": "paid",
       "vi": "paid",
       "id": "paid"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "有料ことができる"
   },
   {
     "id": "V0885",
@@ -11505,7 +13598,9 @@ const N4_VOCAB = [
       "ko": "price",
       "vi": "price",
       "id": "price"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "価格ことができる"
   },
   {
     "id": "V0886",
@@ -11518,7 +13613,9 @@ const N4_VOCAB = [
       "ko": "fixed price",
       "vi": "fixed price",
       "id": "fixed price"
-    }
+    },
+    "pos": "noun",
+    "ex": "定価について話す"
   },
   {
     "id": "V0887",
@@ -11531,7 +13628,9 @@ const N4_VOCAB = [
       "ko": "discount",
       "vi": "discount",
       "id": "discount"
-    }
+    },
+    "pos": "noun",
+    "ex": "割引について話す"
   },
   {
     "id": "V0888",
@@ -11544,7 +13643,9 @@ const N4_VOCAB = [
       "ko": "half price",
       "vi": "half price",
       "id": "half price"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "半額ことができる"
   },
   {
     "id": "V0889",
@@ -11557,7 +13658,9 @@ const N4_VOCAB = [
       "ko": "tax included",
       "vi": "tax included",
       "id": "tax included"
-    }
+    },
+    "pos": "noun",
+    "ex": "税込について話す"
   },
   {
     "id": "V0890",
@@ -11570,7 +13673,9 @@ const N4_VOCAB = [
       "ko": "excluding tax",
       "vi": "excluding tax",
       "id": "excluding tax"
-    }
+    },
+    "pos": "noun",
+    "ex": "税抜について話す"
   },
   {
     "id": "V0891",
@@ -11583,7 +13688,9 @@ const N4_VOCAB = [
       "ko": "consumption tax",
       "vi": "consumption tax",
       "id": "consumption tax"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても消費税"
   },
   {
     "id": "V0892",
@@ -11596,7 +13703,9 @@ const N4_VOCAB = [
       "ko": "receipt",
       "vi": "receipt",
       "id": "receipt"
-    }
+    },
+    "pos": "noun",
+    "ex": "領収書について話す"
   },
   {
     "id": "V0893",
@@ -11609,7 +13718,9 @@ const N4_VOCAB = [
       "ko": "receipt",
       "vi": "receipt",
       "id": "receipt"
-    }
+    },
+    "pos": "adverb",
+    "ex": "レシートについて話す"
   },
   {
     "id": "V0894",
@@ -11622,7 +13733,9 @@ const N4_VOCAB = [
       "ko": "shopping",
       "vi": "shopping",
       "id": "shopping"
-    }
+    },
+    "pos": "noun",
+    "ex": "買い物について話す"
   },
   {
     "id": "V0895",
@@ -11635,7 +13748,9 @@ const N4_VOCAB = [
       "ko": "purchase",
       "vi": "purchase",
       "id": "purchase"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "購入ことができる"
   },
   {
     "id": "V0896",
@@ -11648,7 +13763,9 @@ const N4_VOCAB = [
       "ko": "order",
       "vi": "order",
       "id": "order"
-    }
+    },
+    "pos": "noun",
+    "ex": "注文について話す"
   },
   {
     "id": "V0897",
@@ -11661,7 +13778,9 @@ const N4_VOCAB = [
       "ko": "home delivery",
       "vi": "home delivery",
       "id": "home delivery"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても宅配"
   },
   {
     "id": "V0898",
@@ -11674,7 +13793,9 @@ const N4_VOCAB = [
       "ko": "shipping",
       "vi": "shipping",
       "id": "shipping"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "送料ことができる"
   },
   {
     "id": "V0899",
@@ -11687,7 +13808,9 @@ const N4_VOCAB = [
       "ko": "return",
       "vi": "return",
       "id": "return"
-    }
+    },
+    "pos": "noun",
+    "ex": "返品について話す"
   },
   {
     "id": "V0900",
@@ -11700,7 +13823,9 @@ const N4_VOCAB = [
       "ko": "exchange",
       "vi": "exchange",
       "id": "exchange"
-    }
+    },
+    "pos": "noun",
+    "ex": "交換について話す"
   },
   {
     "id": "V0901",
@@ -11713,7 +13838,9 @@ const N4_VOCAB = [
       "ko": "repair",
       "vi": "repair",
       "id": "repair"
-    }
+    },
+    "pos": "noun",
+    "ex": "修理について話す"
   },
   {
     "id": "V0902",
@@ -11726,7 +13853,9 @@ const N4_VOCAB = [
       "ko": "new item",
       "vi": "new item",
       "id": "new item"
-    }
+    },
+    "pos": "noun",
+    "ex": "新品について話す"
   },
   {
     "id": "V0903",
@@ -11739,7 +13868,9 @@ const N4_VOCAB = [
       "ko": "used",
       "vi": "used",
       "id": "used"
-    }
+    },
+    "pos": "noun",
+    "ex": "中古について話す"
   },
   {
     "id": "V0904",
@@ -11752,7 +13883,9 @@ const N4_VOCAB = [
       "ko": "deadline",
       "vi": "deadline",
       "id": "deadline"
-    }
+    },
+    "pos": "noun",
+    "ex": "期限について話す"
   },
   {
     "id": "V0905",
@@ -11765,7 +13898,9 @@ const N4_VOCAB = [
       "ko": "valid",
       "vi": "valid",
       "id": "valid"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "有効ことができる"
   },
   {
     "id": "V0906",
@@ -11778,7 +13913,9 @@ const N4_VOCAB = [
       "ko": "invalid",
       "vi": "invalid",
       "id": "invalid"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "無効ことができる"
   },
   {
     "id": "V0907",
@@ -11791,7 +13928,9 @@ const N4_VOCAB = [
       "ko": "period",
       "vi": "period",
       "id": "period"
-    }
+    },
+    "pos": "noun",
+    "ex": "期間について話す"
   },
   {
     "id": "V0908",
@@ -11804,7 +13943,9 @@ const N4_VOCAB = [
       "ko": "schedule",
       "vi": "schedule",
       "id": "schedule"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても日程"
   },
   {
     "id": "V0909",
@@ -11817,7 +13958,9 @@ const N4_VOCAB = [
       "ko": "timetable",
       "vi": "timetable",
       "id": "timetable"
-    }
+    },
+    "pos": "noun",
+    "ex": "時間割について話す"
   },
   {
     "id": "V0910",
@@ -11830,7 +13973,9 @@ const N4_VOCAB = [
       "ko": "deadline",
       "vi": "deadline",
       "id": "deadline"
-    }
+    },
+    "pos": "noun",
+    "ex": "締め切りについて話す"
   },
   {
     "id": "V0911",
@@ -11843,7 +13988,9 @@ const N4_VOCAB = [
       "ko": "extension",
       "vi": "extension",
       "id": "extension"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "延長ことができる"
   },
   {
     "id": "V0912",
@@ -11856,7 +14003,9 @@ const N4_VOCAB = [
       "ko": "shortening",
       "vi": "shortening",
       "id": "shortening"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "短縮ことができる"
   },
   {
     "id": "V0913",
@@ -11869,7 +14018,9 @@ const N4_VOCAB = [
       "ko": "change",
       "vi": "change",
       "id": "change"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "変更ことができる"
   },
   {
     "id": "V0914",
@@ -11882,7 +14033,9 @@ const N4_VOCAB = [
       "ko": "correction",
       "vi": "correction",
       "id": "correction"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても訂正"
   },
   {
     "id": "V0915",
@@ -11895,7 +14048,9 @@ const N4_VOCAB = [
       "ko": "revision",
       "vi": "revision",
       "id": "revision"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても修正"
   },
   {
     "id": "V0916",
@@ -11908,7 +14063,9 @@ const N4_VOCAB = [
       "ko": "addition",
       "vi": "addition",
       "id": "addition"
-    }
+    },
+    "pos": "noun",
+    "ex": "追加について話す"
   },
   {
     "id": "V0917",
@@ -11921,7 +14078,9 @@ const N4_VOCAB = [
       "ko": "deletion",
       "vi": "deletion",
       "id": "deletion"
-    }
+    },
+    "pos": "noun",
+    "ex": "削除について話す"
   },
   {
     "id": "V0918",
@@ -11934,7 +14093,9 @@ const N4_VOCAB = [
       "ko": "input",
       "vi": "input",
       "id": "input"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "入力ことができる"
   },
   {
     "id": "V0919",
@@ -11947,7 +14108,9 @@ const N4_VOCAB = [
       "ko": "output",
       "vi": "output",
       "id": "output"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "出力ことができる"
   },
   {
     "id": "V0920",
@@ -11960,7 +14123,9 @@ const N4_VOCAB = [
       "ko": "search",
       "vi": "search",
       "id": "search"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "検索ことができる"
   },
   {
     "id": "V0921",
@@ -11973,7 +14138,9 @@ const N4_VOCAB = [
       "ko": "registration",
       "vi": "registration",
       "id": "registration"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "登録ことができる"
   },
   {
     "id": "V0922",
@@ -11986,7 +14153,9 @@ const N4_VOCAB = [
       "ko": "setting",
       "vi": "setting",
       "id": "setting"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても設定"
   },
   {
     "id": "V0923",
@@ -11999,7 +14168,9 @@ const N4_VOCAB = [
       "ko": "operation",
       "vi": "operation",
       "id": "operation"
-    }
+    },
+    "pos": "noun",
+    "ex": "操作について話す"
   },
   {
     "id": "V0924",
@@ -12012,7 +14183,9 @@ const N4_VOCAB = [
       "ko": "startup",
       "vi": "startup",
       "id": "startup"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "起動ことができる"
   },
   {
     "id": "V0925",
@@ -12025,7 +14198,9 @@ const N4_VOCAB = [
       "ko": "end",
       "vi": "end",
       "id": "end"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "終了ことができる"
   },
   {
     "id": "V0926",
@@ -12038,7 +14213,9 @@ const N4_VOCAB = [
       "ko": "restart",
       "vi": "restart",
       "id": "restart"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "再起動ことができる"
   },
   {
     "id": "V0927",
@@ -12051,7 +14228,9 @@ const N4_VOCAB = [
       "ko": "update",
       "vi": "update",
       "id": "update"
-    }
+    },
+    "pos": "noun",
+    "ex": "更新について話す"
   },
   {
     "id": "V0928",
@@ -12064,7 +14243,9 @@ const N4_VOCAB = [
       "ko": "connection",
       "vi": "connection",
       "id": "connection"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "接続ことができる"
   },
   {
     "id": "V0929",
@@ -12077,7 +14258,9 @@ const N4_VOCAB = [
       "ko": "disconnection",
       "vi": "disconnection",
       "id": "disconnection"
-    }
+    },
+    "pos": "noun",
+    "ex": "切断について話す"
   },
   {
     "id": "V0930",
@@ -12090,7 +14273,9 @@ const N4_VOCAB = [
       "ko": "charging",
       "vi": "charging",
       "id": "charging"
-    }
+    },
+    "pos": "noun",
+    "ex": "充電について話す"
   },
   {
     "id": "V0931",
@@ -12103,7 +14288,9 @@ const N4_VOCAB = [
       "ko": "battery",
       "vi": "battery",
       "id": "battery"
-    }
+    },
+    "pos": "noun",
+    "ex": "電池について話す"
   },
   {
     "id": "V0932",
@@ -12116,7 +14303,9 @@ const N4_VOCAB = [
       "ko": "power",
       "vi": "power",
       "id": "power"
-    }
+    },
+    "pos": "noun",
+    "ex": "電源について話す"
   },
   {
     "id": "V0933",
@@ -12129,7 +14318,9 @@ const N4_VOCAB = [
       "ko": "screen",
       "vi": "screen",
       "id": "screen"
-    }
+    },
+    "pos": "noun",
+    "ex": "画面について話す"
   },
   {
     "id": "V0934",
@@ -12142,7 +14333,9 @@ const N4_VOCAB = [
       "ko": "display",
       "vi": "display",
       "id": "display"
-    }
+    },
+    "pos": "noun",
+    "ex": "表示について話す"
   },
   {
     "id": "V0935",
@@ -12155,7 +14348,9 @@ const N4_VOCAB = [
       "ko": "volume",
       "vi": "volume",
       "id": "volume"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "音量ことができる"
   },
   {
     "id": "V0936",
@@ -12168,7 +14363,9 @@ const N4_VOCAB = [
       "ko": "brightness",
       "vi": "brightness",
       "id": "brightness"
-    }
+    },
+    "pos": "noun",
+    "ex": "明るさについて話す"
   },
   {
     "id": "V0937",
@@ -12181,7 +14378,9 @@ const N4_VOCAB = [
       "ko": "enlargement",
       "vi": "enlargement",
       "id": "enlargement"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても拡大"
   },
   {
     "id": "V0938",
@@ -12194,7 +14393,9 @@ const N4_VOCAB = [
       "ko": "reduction",
       "vi": "reduction",
       "id": "reduction"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "縮小ことができる"
   },
   {
     "id": "V0939",
@@ -12207,7 +14408,9 @@ const N4_VOCAB = [
       "ko": "printing",
       "vi": "printing",
       "id": "printing"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "印刷ことができる"
   },
   {
     "id": "V0940",
@@ -12220,7 +14423,9 @@ const N4_VOCAB = [
       "ko": "copying",
       "vi": "copying",
       "id": "copying"
-    }
+    },
+    "pos": "noun",
+    "ex": "複写について話す"
   },
   {
     "id": "V0941",
@@ -12233,7 +14438,9 @@ const N4_VOCAB = [
       "ko": "photography",
       "vi": "photography",
       "id": "photography"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても撮影"
   },
   {
     "id": "V0942",
@@ -12246,7 +14453,9 @@ const N4_VOCAB = [
       "ko": "recording",
       "vi": "recording",
       "id": "recording"
-    }
+    },
+    "pos": "noun",
+    "ex": "録音について話す"
   },
   {
     "id": "V0943",
@@ -12259,7 +14468,9 @@ const N4_VOCAB = [
       "ko": "playback",
       "vi": "playback",
       "id": "playback"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても再生"
   },
   {
     "id": "V0944",
@@ -12272,7 +14483,9 @@ const N4_VOCAB = [
       "ko": "pause",
       "vi": "pause",
       "id": "pause"
-    }
+    },
+    "pos": "noun",
+    "ex": "一時停止について話す"
   },
   {
     "id": "V0945",
@@ -12285,7 +14498,9 @@ const N4_VOCAB = [
       "ko": "stop",
       "vi": "stop",
       "id": "stop"
-    }
+    },
+    "pos": "noun",
+    "ex": "停止について話す"
   },
   {
     "id": "V0946",
@@ -12298,7 +14513,9 @@ const N4_VOCAB = [
       "ko": "start",
       "vi": "start",
       "id": "start"
-    }
+    },
+    "pos": "noun",
+    "ex": "開始について話す"
   },
   {
     "id": "V0947",
@@ -12311,7 +14528,9 @@ const N4_VOCAB = [
       "ko": "completion",
       "vi": "completion",
       "id": "completion"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "完了ことができる"
   },
   {
     "id": "V0948",
@@ -12324,7 +14543,9 @@ const N4_VOCAB = [
       "ko": "progress",
       "vi": "progress",
       "id": "progress"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "進行ことができる"
   },
   {
     "id": "V0949",
@@ -12337,7 +14558,9 @@ const N4_VOCAB = [
       "ko": "cancellation",
       "vi": "cancellation",
       "id": "cancellation"
-    }
+    },
+    "pos": "noun",
+    "ex": "中止について話す"
   },
   {
     "id": "V0950",
@@ -12350,7 +14573,9 @@ const N4_VOCAB = [
       "ko": "postponement",
       "vi": "postponement",
       "id": "postponement"
-    }
+    },
+    "pos": "noun",
+    "ex": "延期について話す"
   },
   {
     "id": "V0951",
@@ -12363,7 +14588,9 @@ const N4_VOCAB = [
       "ko": "implementation",
       "vi": "implementation",
       "id": "implementation"
-    }
+    },
+    "pos": "noun",
+    "ex": "実施について話す"
   },
   {
     "id": "V0952",
@@ -12376,7 +14603,9 @@ const N4_VOCAB = [
       "ko": "holding",
       "vi": "holding",
       "id": "holding"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても開催"
   },
   {
     "id": "V0953",
@@ -12389,7 +14618,9 @@ const N4_VOCAB = [
       "ko": "sponsorship",
       "vi": "sponsorship",
       "id": "sponsorship"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても主催"
   },
   {
     "id": "V0954",
@@ -12402,7 +14633,9 @@ const N4_VOCAB = [
       "ko": "appearance",
       "vi": "appearance",
       "id": "appearance"
-    }
+    },
+    "pos": "noun",
+    "ex": "出演について話す"
   },
   {
     "id": "V0955",
@@ -12415,7 +14648,9 @@ const N4_VOCAB = [
       "ko": "viewing",
       "vi": "viewing",
       "id": "viewing"
-    }
+    },
+    "pos": "noun",
+    "ex": "観覧について話す"
   },
   {
     "id": "V0956",
@@ -12428,7 +14663,9 @@ const N4_VOCAB = [
       "ko": "tour",
       "vi": "tour",
       "id": "tour"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "見学ことができる"
   },
   {
     "id": "V0957",
@@ -12441,7 +14678,9 @@ const N4_VOCAB = [
       "ko": "experience",
       "vi": "experience",
       "id": "experience"
-    }
+    },
+    "pos": "noun",
+    "ex": "体験について話す"
   },
   {
     "id": "V0958",
@@ -12454,7 +14693,9 @@ const N4_VOCAB = [
       "ko": "fitting",
       "vi": "fitting",
       "id": "fitting"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "試着ことができる"
   },
   {
     "id": "V0959",
@@ -12467,7 +14708,9 @@ const N4_VOCAB = [
       "ko": "tasting",
       "vi": "tasting",
       "id": "tasting"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "試食ことができる"
   },
   {
     "id": "V0960",
@@ -12480,7 +14723,9 @@ const N4_VOCAB = [
       "ko": "admission",
       "vi": "admission",
       "id": "admission"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "入場ことができる"
   },
   {
     "id": "V0961",
@@ -12493,7 +14738,9 @@ const N4_VOCAB = [
       "ko": "exit",
       "vi": "exit",
       "id": "exit"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "退場ことができる"
   },
   {
     "id": "V0962",
@@ -12506,7 +14753,9 @@ const N4_VOCAB = [
       "ko": "opening",
       "vi": "opening",
       "id": "opening"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "開場ことができる"
   },
   {
     "id": "V0963",
@@ -12519,7 +14768,9 @@ const N4_VOCAB = [
       "ko": "closing",
       "vi": "closing",
       "id": "closing"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "閉場ことができる"
   },
   {
     "id": "V0964",
@@ -12532,7 +14783,9 @@ const N4_VOCAB = [
       "ko": "full",
       "vi": "full",
       "id": "full"
-    }
+    },
+    "pos": "noun",
+    "ex": "満席について話す"
   },
   {
     "id": "V0965",
@@ -12545,7 +14798,9 @@ const N4_VOCAB = [
       "ko": "empty seat",
       "vi": "empty seat",
       "id": "empty seat"
-    }
+    },
+    "pos": "noun",
+    "ex": "空席について話す"
   },
   {
     "id": "V0966",
@@ -12558,7 +14813,9 @@ const N4_VOCAB = [
       "ko": "cancel",
       "vi": "cancel",
       "id": "cancel"
-    }
+    },
+    "pos": "verb-ichidan",
+    "ex": "キャンセルことができる"
   },
   {
     "id": "V0967",
@@ -12571,7 +14828,9 @@ const N4_VOCAB = [
       "ko": "guidance",
       "vi": "guidance",
       "id": "guidance"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても案内"
   },
   {
     "id": "V0968",
@@ -12584,7 +14843,9 @@ const N4_VOCAB = [
       "ko": "counter",
       "vi": "counter",
       "id": "counter"
-    }
+    },
+    "pos": "noun",
+    "ex": "窓口について話す"
   },
   {
     "id": "V0969",
@@ -12597,7 +14858,9 @@ const N4_VOCAB = [
       "ko": "waiting room",
       "vi": "waiting room",
       "id": "waiting room"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "待合室ことができる"
   },
   {
     "id": "V0970",
@@ -12610,7 +14873,9 @@ const N4_VOCAB = [
       "ko": "meeting room",
       "vi": "meeting room",
       "id": "meeting room"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "会議室ことができる"
   },
   {
     "id": "V0971",
@@ -12623,7 +14888,9 @@ const N4_VOCAB = [
       "ko": "break room",
       "vi": "break room",
       "id": "break room"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "休憩室ことができる"
   },
   {
     "id": "V0972",
@@ -12636,7 +14903,9 @@ const N4_VOCAB = [
       "ko": "cafeteria",
       "vi": "cafeteria",
       "id": "cafeteria"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "食堂ことができる"
   },
   {
     "id": "V0973",
@@ -12649,7 +14918,9 @@ const N4_VOCAB = [
       "ko": "shop",
       "vi": "shop",
       "id": "shop"
-    }
+    },
+    "pos": "noun",
+    "ex": "売店について話す"
   },
   {
     "id": "V0974",
@@ -12662,7 +14933,9 @@ const N4_VOCAB = [
       "ko": "vending machine",
       "vi": "vending machine",
       "id": "vending machine"
-    }
+    },
+    "pos": "noun",
+    "ex": "自動販売機について話す"
   },
   {
     "id": "V0975",
@@ -12675,7 +14948,9 @@ const N4_VOCAB = [
       "ko": "toilet",
       "vi": "toilet",
       "id": "toilet"
-    }
+    },
+    "pos": "noun",
+    "ex": "トイレについて話す"
   },
   {
     "id": "V0976",
@@ -12688,7 +14963,9 @@ const N4_VOCAB = [
       "ko": "washroom",
       "vi": "washroom",
       "id": "washroom"
-    }
+    },
+    "pos": "noun",
+    "ex": "洗面所について話す"
   },
   {
     "id": "V0977",
@@ -12701,7 +14978,9 @@ const N4_VOCAB = [
       "ko": "changing room",
       "vi": "changing room",
       "id": "changing room"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "更衣室ことができる"
   },
   {
     "id": "V0978",
@@ -12714,7 +14993,9 @@ const N4_VOCAB = [
       "ko": "bicycle parking",
       "vi": "bicycle parking",
       "id": "bicycle parking"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "駐輪場ことができる"
   },
   {
     "id": "V0979",
@@ -12727,7 +15008,9 @@ const N4_VOCAB = [
       "ko": "entrance/exit",
       "vi": "entrance/exit",
       "id": "entrance/exit"
-    }
+    },
+    "pos": "noun",
+    "ex": "出入口について話す"
   },
   {
     "id": "V0980",
@@ -12740,7 +15023,9 @@ const N4_VOCAB = [
       "ko": "emergency exit",
       "vi": "emergency exit",
       "id": "emergency exit"
-    }
+    },
+    "pos": "noun",
+    "ex": "非常口について話す"
   },
   {
     "id": "V0981",
@@ -12753,7 +15038,9 @@ const N4_VOCAB = [
       "ko": "elevator",
       "vi": "elevator",
       "id": "elevator"
-    }
+    },
+    "pos": "noun",
+    "ex": "エレベーターについて話す"
   },
   {
     "id": "V0982",
@@ -12766,7 +15053,9 @@ const N4_VOCAB = [
       "ko": "escalator",
       "vi": "escalator",
       "id": "escalator"
-    }
+    },
+    "pos": "noun",
+    "ex": "エスカレーターについて話す"
   },
   {
     "id": "V0983",
@@ -12779,7 +15068,9 @@ const N4_VOCAB = [
       "ko": "corridor",
       "vi": "corridor",
       "id": "corridor"
-    }
+    },
+    "pos": "noun",
+    "ex": "廊下について話す"
   },
   {
     "id": "V0984",
@@ -12792,7 +15083,9 @@ const N4_VOCAB = [
       "ko": "passage",
       "vi": "passage",
       "id": "passage"
-    }
+    },
+    "pos": "noun",
+    "ex": "通路について話す"
   },
   {
     "id": "V0985",
@@ -12805,7 +15098,9 @@ const N4_VOCAB = [
       "ko": "plaza",
       "vi": "plaza",
       "id": "plaza"
-    }
+    },
+    "pos": "noun",
+    "ex": "広場について話す"
   },
   {
     "id": "V0986",
@@ -12818,7 +15113,9 @@ const N4_VOCAB = [
       "ko": "playground",
       "vi": "playground",
       "id": "playground"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "運動場ことができる"
   },
   {
     "id": "V0987",
@@ -12831,7 +15128,9 @@ const N4_VOCAB = [
       "ko": "gymnasium",
       "vi": "gymnasium",
       "id": "gymnasium"
-    }
+    },
+    "pos": "noun",
+    "ex": "体育館について話す"
   },
   {
     "id": "V0988",
@@ -12844,7 +15143,9 @@ const N4_VOCAB = [
       "ko": "library",
       "vi": "library",
       "id": "library"
-    }
+    },
+    "pos": "noun",
+    "ex": "図書館について話す"
   },
   {
     "id": "V0989",
@@ -12857,7 +15158,9 @@ const N4_VOCAB = [
       "ko": "art museum",
       "vi": "art museum",
       "id": "art museum"
-    }
+    },
+    "pos": "noun",
+    "ex": "美術館について話す"
   },
   {
     "id": "V0990",
@@ -12870,7 +15173,9 @@ const N4_VOCAB = [
       "ko": "aquarium",
       "vi": "aquarium",
       "id": "aquarium"
-    }
+    },
+    "pos": "noun",
+    "ex": "水族館について話す"
   },
   {
     "id": "V0991",
@@ -12883,7 +15188,9 @@ const N4_VOCAB = [
       "ko": "zoo",
       "vi": "zoo",
       "id": "zoo"
-    }
+    },
+    "pos": "noun",
+    "ex": "動物園について話す"
   },
   {
     "id": "V0992",
@@ -12896,7 +15203,9 @@ const N4_VOCAB = [
       "ko": "amusement park",
       "vi": "amusement park",
       "id": "amusement park"
-    }
+    },
+    "pos": "noun",
+    "ex": "遊園地について話す"
   },
   {
     "id": "V0993",
@@ -12909,7 +15218,9 @@ const N4_VOCAB = [
       "ko": "cinema",
       "vi": "cinema",
       "id": "cinema"
-    }
+    },
+    "pos": "noun",
+    "ex": "映画館について話す"
   },
   {
     "id": "V0994",
@@ -12922,7 +15233,9 @@ const N4_VOCAB = [
       "ko": "theater",
       "vi": "theater",
       "id": "theater"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "劇場ことができる"
   },
   {
     "id": "V0995",
@@ -12935,7 +15248,9 @@ const N4_VOCAB = [
       "ko": "stadium",
       "vi": "stadium",
       "id": "stadium"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "競技場ことができる"
   },
   {
     "id": "V0996",
@@ -12948,7 +15263,9 @@ const N4_VOCAB = [
       "ko": "ballpark",
       "vi": "ballpark",
       "id": "ballpark"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "球場ことができる"
   },
   {
     "id": "V0997",
@@ -12961,7 +15278,9 @@ const N4_VOCAB = [
       "ko": "pool",
       "vi": "pool",
       "id": "pool"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "プールことができる"
   },
   {
     "id": "V0998",
@@ -12974,7 +15293,9 @@ const N4_VOCAB = [
       "ko": "gym",
       "vi": "gym",
       "id": "gym"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "ジムことができる"
   },
   {
     "id": "V0999",
@@ -12987,7 +15308,9 @@ const N4_VOCAB = [
       "ko": "sports club",
       "vi": "sports club",
       "id": "sports club"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "スポーツクラブことができる"
   },
   {
     "id": "V1000",
@@ -13000,7 +15323,9 @@ const N4_VOCAB = [
       "ko": "lessons",
       "vi": "lessons",
       "id": "lessons"
-    }
+    },
+    "pos": "adverb",
+    "ex": "習い事について話す"
   },
   {
     "id": "V1001",
@@ -13013,7 +15338,9 @@ const N4_VOCAB = [
       "ko": "cram school",
       "vi": "cram school",
       "id": "cram school"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "塾ことができる"
   },
   {
     "id": "V1002",
@@ -13026,7 +15353,9 @@ const N4_VOCAB = [
       "ko": "prep school",
       "vi": "prep school",
       "id": "prep school"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "予備校ことができる"
   },
   {
     "id": "V1003",
@@ -13039,7 +15368,9 @@ const N4_VOCAB = [
       "ko": "vocational school",
       "vi": "vocational school",
       "id": "vocational school"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "専門学校ことができる"
   },
   {
     "id": "V1004",
@@ -13052,7 +15383,9 @@ const N4_VOCAB = [
       "ko": "graduate school",
       "vi": "graduate school",
       "id": "graduate school"
-    }
+    },
+    "pos": "noun",
+    "ex": "大学院について話す"
   },
   {
     "id": "V1005",
@@ -13065,7 +15398,9 @@ const N4_VOCAB = [
       "ko": "research institute",
       "vi": "research institute",
       "id": "research institute"
-    }
+    },
+    "pos": "noun",
+    "ex": "研究所について話す"
   },
   {
     "id": "V1006",
@@ -13078,7 +15413,9 @@ const N4_VOCAB = [
       "ko": "company",
       "vi": "company",
       "id": "company"
-    }
+    },
+    "pos": "noun",
+    "ex": "会社について話す"
   },
   {
     "id": "V1007",
@@ -13091,7 +15428,9 @@ const N4_VOCAB = [
       "ko": "warehouse",
       "vi": "warehouse",
       "id": "warehouse"
-    }
+    },
+    "pos": "noun",
+    "ex": "倉庫について話す"
   },
   {
     "id": "V1008",
@@ -13104,7 +15443,9 @@ const N4_VOCAB = [
       "ko": "store",
       "vi": "store",
       "id": "store"
-    }
+    },
+    "pos": "noun",
+    "ex": "店舗について話す"
   },
   {
     "id": "V1009",
@@ -13117,7 +15458,9 @@ const N4_VOCAB = [
       "ko": "head office",
       "vi": "head office",
       "id": "head office"
-    }
+    },
+    "pos": "noun",
+    "ex": "本店について話す"
   },
   {
     "id": "V1010",
@@ -13130,7 +15473,9 @@ const N4_VOCAB = [
       "ko": "branch",
       "vi": "branch",
       "id": "branch"
-    }
+    },
+    "pos": "noun",
+    "ex": "支店について話す"
   },
   {
     "id": "V1011",
@@ -13143,7 +15488,9 @@ const N4_VOCAB = [
       "ko": "sales office",
       "vi": "sales office",
       "id": "sales office"
-    }
+    },
+    "pos": "noun",
+    "ex": "営業所について話す"
   },
   {
     "id": "V1012",
@@ -13156,7 +15503,9 @@ const N4_VOCAB = [
       "ko": "department",
       "vi": "department",
       "id": "department"
-    }
+    },
+    "pos": "noun",
+    "ex": "部門について話す"
   },
   {
     "id": "V1013",
@@ -13169,7 +15518,9 @@ const N4_VOCAB = [
       "ko": "section",
       "vi": "section",
       "id": "section"
-    }
+    },
+    "pos": "noun",
+    "ex": "課について話す"
   },
   {
     "id": "V1014",
@@ -13182,7 +15533,9 @@ const N4_VOCAB = [
       "ko": "section chief",
       "vi": "section chief",
       "id": "section chief"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "課長ことができる"
   },
   {
     "id": "V1015",
@@ -13195,7 +15548,9 @@ const N4_VOCAB = [
       "ko": "chief clerk",
       "vi": "chief clerk",
       "id": "chief clerk"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "係長ことができる"
   },
   {
     "id": "V1016",
@@ -13208,7 +15563,9 @@ const N4_VOCAB = [
       "ko": "supervisor",
       "vi": "supervisor",
       "id": "supervisor"
-    }
+    },
+    "pos": "noun",
+    "ex": "主任について話す"
   },
   {
     "id": "V1017",
@@ -13221,7 +15578,9 @@ const N4_VOCAB = [
       "ko": "employee",
       "vi": "employee",
       "id": "employee"
-    }
+    },
+    "pos": "noun",
+    "ex": "社員について話す"
   },
   {
     "id": "V1018",
@@ -13234,7 +15593,9 @@ const N4_VOCAB = [
       "ko": "regular employee",
       "vi": "regular employee",
       "id": "regular employee"
-    }
+    },
+    "pos": "noun",
+    "ex": "正社員について話す"
   },
   {
     "id": "V1019",
@@ -13247,7 +15608,9 @@ const N4_VOCAB = [
       "ko": "dispatch",
       "vi": "dispatch",
       "id": "dispatch"
-    }
+    },
+    "pos": "noun",
+    "ex": "派遣について話す"
   },
   {
     "id": "V1020",
@@ -13260,7 +15623,9 @@ const N4_VOCAB = [
       "ko": "part-time job",
       "vi": "part-time job",
       "id": "part-time job"
-    }
+    },
+    "pos": "adverb",
+    "ex": "アルバイトについて話す"
   },
   {
     "id": "V1021",
@@ -13273,7 +15638,9 @@ const N4_VOCAB = [
       "ko": "part-time",
       "vi": "part-time",
       "id": "part-time"
-    }
+    },
+    "pos": "adverb",
+    "ex": "パートについて話す"
   },
   {
     "id": "V1022",
@@ -13286,7 +15653,9 @@ const N4_VOCAB = [
       "ko": "interview",
       "vi": "interview",
       "id": "interview"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "面接ことができる"
   },
   {
     "id": "V1023",
@@ -13299,7 +15668,9 @@ const N4_VOCAB = [
       "ko": "hiring",
       "vi": "hiring",
       "id": "hiring"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "採用ことができる"
   },
   {
     "id": "V1024",
@@ -13312,7 +15683,9 @@ const N4_VOCAB = [
       "ko": "rejection",
       "vi": "rejection",
       "id": "rejection"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "不採用ことができる"
   },
   {
     "id": "V1025",
@@ -13325,7 +15698,9 @@ const N4_VOCAB = [
       "ko": "informal offer",
       "vi": "informal offer",
       "id": "informal offer"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても内定"
   },
   {
     "id": "V1026",
@@ -13338,7 +15713,9 @@ const N4_VOCAB = [
       "ko": "joining company",
       "vi": "joining company",
       "id": "joining company"
-    }
+    },
+    "pos": "noun",
+    "ex": "入社について話す"
   },
   {
     "id": "V1027",
@@ -13351,7 +15728,9 @@ const N4_VOCAB = [
       "ko": "training",
       "vi": "training",
       "id": "training"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "研修ことができる"
   },
   {
     "id": "V1028",
@@ -13364,7 +15743,9 @@ const N4_VOCAB = [
       "ko": "assignment",
       "vi": "assignment",
       "id": "assignment"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "配属ことができる"
   },
   {
     "id": "V1029",
@@ -13377,7 +15758,9 @@ const N4_VOCAB = [
       "ko": "transfer",
       "vi": "transfer",
       "id": "transfer"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "異動ことができる"
   },
   {
     "id": "V1030",
@@ -13390,7 +15773,9 @@ const N4_VOCAB = [
       "ko": "promotion",
       "vi": "promotion",
       "id": "promotion"
-    }
+    },
+    "pos": "noun",
+    "ex": "昇進について話す"
   },
   {
     "id": "V1031",
@@ -13403,7 +15788,9 @@ const N4_VOCAB = [
       "ko": "demotion",
       "vi": "demotion",
       "id": "demotion"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "降格ことができる"
   },
   {
     "id": "V1032",
@@ -13416,7 +15803,9 @@ const N4_VOCAB = [
       "ko": "dismissal",
       "vi": "dismissal",
       "id": "dismissal"
-    }
+    },
+    "pos": "noun",
+    "ex": "解雇について話す"
   },
   {
     "id": "V1033",
@@ -13429,7 +15818,9 @@ const N4_VOCAB = [
       "ko": "resignation",
       "vi": "resignation",
       "id": "resignation"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "辞職ことができる"
   },
   {
     "id": "V1034",
@@ -13442,7 +15833,9 @@ const N4_VOCAB = [
       "ko": "retirement age",
       "vi": "retirement age",
       "id": "retirement age"
-    }
+    },
+    "pos": "noun",
+    "ex": "定年について話す"
   },
   {
     "id": "V1035",
@@ -13455,7 +15848,9 @@ const N4_VOCAB = [
       "ko": "pension",
       "vi": "pension",
       "id": "pension"
-    }
+    },
+    "pos": "noun",
+    "ex": "年金について話す"
   },
   {
     "id": "V1036",
@@ -13468,7 +15863,9 @@ const N4_VOCAB = [
       "ko": "allowance",
       "vi": "allowance",
       "id": "allowance"
-    }
+    },
+    "pos": "noun",
+    "ex": "手当について話す"
   },
   {
     "id": "V1037",
@@ -13481,7 +15878,9 @@ const N4_VOCAB = [
       "ko": "bonus",
       "vi": "bonus",
       "id": "bonus"
-    }
+    },
+    "pos": "noun",
+    "ex": "賞与について話す"
   },
   {
     "id": "V1038",
@@ -13494,7 +15893,9 @@ const N4_VOCAB = [
       "ko": "benefits",
       "vi": "benefits",
       "id": "benefits"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても福利厚生"
   },
   {
     "id": "V1039",
@@ -13507,7 +15908,9 @@ const N4_VOCAB = [
       "ko": "paid vacation",
       "vi": "paid vacation",
       "id": "paid vacation"
-    }
+    },
+    "pos": "noun",
+    "ex": "有給休暇について話す"
   },
   {
     "id": "V1040",
@@ -13520,7 +15923,9 @@ const N4_VOCAB = [
       "ko": "maternity leave",
       "vi": "maternity leave",
       "id": "maternity leave"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "産休ことができる"
   },
   {
     "id": "V1041",
@@ -13533,7 +15938,9 @@ const N4_VOCAB = [
       "ko": "childcare leave",
       "vi": "childcare leave",
       "id": "childcare leave"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "育休ことができる"
   },
   {
     "id": "V1042",
@@ -13546,7 +15953,9 @@ const N4_VOCAB = [
       "ko": "nursing care",
       "vi": "nursing care",
       "id": "nursing care"
-    }
+    },
+    "pos": "noun",
+    "ex": "介護について話す"
   },
   {
     "id": "V1043",
@@ -13559,7 +15968,9 @@ const N4_VOCAB = [
       "ko": "illness",
       "vi": "illness",
       "id": "illness"
-    }
+    },
+    "pos": "noun",
+    "ex": "病気について話す"
   },
   {
     "id": "V1044",
@@ -13572,7 +15983,9 @@ const N4_VOCAB = [
       "ko": "injury",
       "vi": "injury",
       "id": "injury"
-    }
+    },
+    "pos": "noun",
+    "ex": "怪我について話す"
   },
   {
     "id": "V1045",
@@ -13585,7 +15998,9 @@ const N4_VOCAB = [
       "ko": "health",
       "vi": "health",
       "id": "health"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "健康ことができる"
   },
   {
     "id": "V1046",
@@ -13598,7 +16013,9 @@ const N4_VOCAB = [
       "ko": "physical condition",
       "vi": "physical condition",
       "id": "physical condition"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "体調ことができる"
   },
   {
     "id": "V1047",
@@ -13611,7 +16028,9 @@ const N4_VOCAB = [
       "ko": "symptom",
       "vi": "symptom",
       "id": "symptom"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "症状ことができる"
   },
   {
     "id": "V1048",
@@ -13624,7 +16043,9 @@ const N4_VOCAB = [
       "ko": "examination",
       "vi": "examination",
       "id": "examination"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "診察ことができる"
   },
   {
     "id": "V1049",
@@ -13637,7 +16058,9 @@ const N4_VOCAB = [
       "ko": "treatment",
       "vi": "treatment",
       "id": "treatment"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "治療ことができる"
   },
   {
     "id": "V1050",
@@ -13650,7 +16073,9 @@ const N4_VOCAB = [
       "ko": "surgery",
       "vi": "surgery",
       "id": "surgery"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "手術ことができる"
   },
   {
     "id": "V1051",
@@ -13663,7 +16088,9 @@ const N4_VOCAB = [
       "ko": "discharge",
       "vi": "discharge",
       "id": "discharge"
-    }
+    },
+    "pos": "noun",
+    "ex": "退院について話す"
   },
   {
     "id": "V1052",
@@ -13676,7 +16103,9 @@ const N4_VOCAB = [
       "ko": "outpatient",
       "vi": "outpatient",
       "id": "outpatient"
-    }
+    },
+    "pos": "noun",
+    "ex": "通院について話す"
   },
   {
     "id": "V1053",
@@ -13689,7 +16118,9 @@ const N4_VOCAB = [
       "ko": "prescription",
       "vi": "prescription",
       "id": "prescription"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "処方ことができる"
   },
   {
     "id": "V1054",
@@ -13702,7 +16133,9 @@ const N4_VOCAB = [
       "ko": "medicine",
       "vi": "medicine",
       "id": "medicine"
-    }
+    },
+    "pos": "noun",
+    "ex": "薬について話す"
   },
   {
     "id": "V1055",
@@ -13715,7 +16148,9 @@ const N4_VOCAB = [
       "ko": "side effect",
       "vi": "side effect",
       "id": "side effect"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "副作用ことができる"
   },
   {
     "id": "V1056",
@@ -13728,7 +16163,9 @@ const N4_VOCAB = [
       "ko": "allergy",
       "vi": "allergy",
       "id": "allergy"
-    }
+    },
+    "pos": "noun",
+    "ex": "アレルギーについて話す"
   },
   {
     "id": "V1057",
@@ -13741,7 +16178,9 @@ const N4_VOCAB = [
       "ko": "prevention",
       "vi": "prevention",
       "id": "prevention"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "予防ことができる"
   },
   {
     "id": "V1058",
@@ -13754,7 +16193,9 @@ const N4_VOCAB = [
       "ko": "checkup",
       "vi": "checkup",
       "id": "checkup"
-    }
+    },
+    "pos": "noun",
+    "ex": "検診について話す"
   },
   {
     "id": "V1059",
@@ -13767,7 +16208,9 @@ const N4_VOCAB = [
       "ko": "health examination",
       "vi": "health examination",
       "id": "health examination"
-    }
+    },
+    "pos": "noun",
+    "ex": "健康診断について話す"
   },
   {
     "id": "V1060",
@@ -13780,7 +16223,9 @@ const N4_VOCAB = [
       "ko": "blood pressure",
       "vi": "blood pressure",
       "id": "blood pressure"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "血圧ことができる"
   },
   {
     "id": "V1061",
@@ -13793,7 +16238,9 @@ const N4_VOCAB = [
       "ko": "body temperature",
       "vi": "body temperature",
       "id": "body temperature"
-    }
+    },
+    "pos": "noun",
+    "ex": "体温について話す"
   },
   {
     "id": "V1062",
@@ -13806,7 +16253,9 @@ const N4_VOCAB = [
       "ko": "pulse",
       "vi": "pulse",
       "id": "pulse"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "脈拍ことができる"
   },
   {
     "id": "V1063",
@@ -13819,7 +16268,9 @@ const N4_VOCAB = [
       "ko": "height",
       "vi": "height",
       "id": "height"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "身長ことができる"
   },
   {
     "id": "V1064",
@@ -13832,7 +16283,9 @@ const N4_VOCAB = [
       "ko": "weight",
       "vi": "weight",
       "id": "weight"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "体重ことができる"
   },
   {
     "id": "V1065",
@@ -13845,7 +16298,9 @@ const N4_VOCAB = [
       "ko": "eyesight",
       "vi": "eyesight",
       "id": "eyesight"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "視力ことができる"
   },
   {
     "id": "V1066",
@@ -13858,7 +16313,9 @@ const N4_VOCAB = [
       "ko": "hearing",
       "vi": "hearing",
       "id": "hearing"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "聴力ことができる"
   },
   {
     "id": "V1067",
@@ -13871,7 +16328,9 @@ const N4_VOCAB = [
       "ko": "dentistry",
       "vi": "dentistry",
       "id": "dentistry"
-    }
+    },
+    "pos": "noun",
+    "ex": "歯科について話す"
   },
   {
     "id": "V1068",
@@ -13884,7 +16343,9 @@ const N4_VOCAB = [
       "ko": "ophthalmology",
       "vi": "ophthalmology",
       "id": "ophthalmology"
-    }
+    },
+    "pos": "noun",
+    "ex": "眼科について話す"
   },
   {
     "id": "V1069",
@@ -13897,7 +16358,9 @@ const N4_VOCAB = [
       "ko": "internal medicine",
       "vi": "internal medicine",
       "id": "internal medicine"
-    }
+    },
+    "pos": "noun",
+    "ex": "内科について話す"
   },
   {
     "id": "V1070",
@@ -13910,7 +16373,9 @@ const N4_VOCAB = [
       "ko": "surgery",
       "vi": "surgery",
       "id": "surgery"
-    }
+    },
+    "pos": "noun",
+    "ex": "外科について話す"
   },
   {
     "id": "V1071",
@@ -13923,7 +16388,9 @@ const N4_VOCAB = [
       "ko": "pediatrics",
       "vi": "pediatrics",
       "id": "pediatrics"
-    }
+    },
+    "pos": "noun",
+    "ex": "小児科について話す"
   },
   {
     "id": "V1072",
@@ -13936,7 +16403,9 @@ const N4_VOCAB = [
       "ko": "obstetrics",
       "vi": "obstetrics",
       "id": "obstetrics"
-    }
+    },
+    "pos": "noun",
+    "ex": "産婦人科について話す"
   },
   {
     "id": "V1073",
@@ -13949,7 +16418,9 @@ const N4_VOCAB = [
       "ko": "psychiatry",
       "vi": "psychiatry",
       "id": "psychiatry"
-    }
+    },
+    "pos": "noun",
+    "ex": "精神科について話す"
   },
   {
     "id": "V1074",
@@ -13962,7 +16433,9 @@ const N4_VOCAB = [
       "ko": "dermatology",
       "vi": "dermatology",
       "id": "dermatology"
-    }
+    },
+    "pos": "noun",
+    "ex": "皮膚科について話す"
   },
   {
     "id": "V1075",
@@ -13975,7 +16448,9 @@ const N4_VOCAB = [
       "ko": "ENT",
       "vi": "ENT",
       "id": "ENT"
-    }
+    },
+    "pos": "noun",
+    "ex": "耳鼻科について話す"
   },
   {
     "id": "V1076",
@@ -13988,7 +16463,9 @@ const N4_VOCAB = [
       "ko": "orthopedics",
       "vi": "orthopedics",
       "id": "orthopedics"
-    }
+    },
+    "pos": "noun",
+    "ex": "整形外科について話す"
   },
   {
     "id": "V1077",
@@ -14001,7 +16478,9 @@ const N4_VOCAB = [
       "ko": "emergency",
       "vi": "emergency",
       "id": "emergency"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "救急ことができる"
   },
   {
     "id": "V1078",
@@ -14014,7 +16493,9 @@ const N4_VOCAB = [
       "ko": "ambulance",
       "vi": "ambulance",
       "id": "ambulance"
-    }
+    },
+    "pos": "noun",
+    "ex": "救急車について話す"
   },
   {
     "id": "V1079",
@@ -14027,7 +16508,9 @@ const N4_VOCAB = [
       "ko": "fire fighting",
       "vi": "fire fighting",
       "id": "fire fighting"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "消防ことができる"
   },
   {
     "id": "V1080",
@@ -14040,7 +16523,9 @@ const N4_VOCAB = [
       "ko": "fire engine",
       "vi": "fire engine",
       "id": "fire engine"
-    }
+    },
+    "pos": "noun",
+    "ex": "消防車について話す"
   },
   {
     "id": "V1081",
@@ -14053,7 +16538,9 @@ const N4_VOCAB = [
       "ko": "police",
       "vi": "police",
       "id": "police"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "警察ことができる"
   },
   {
     "id": "V1082",
@@ -14066,7 +16553,9 @@ const N4_VOCAB = [
       "ko": "police officer",
       "vi": "police officer",
       "id": "police officer"
-    }
+    },
+    "pos": "noun",
+    "ex": "警察官について話す"
   },
   {
     "id": "V1083",
@@ -14079,7 +16568,9 @@ const N4_VOCAB = [
       "ko": "police box",
       "vi": "police box",
       "id": "police box"
-    }
+    },
+    "pos": "noun",
+    "ex": "交番について話す"
   },
   {
     "id": "V1084",
@@ -14092,7 +16583,9 @@ const N4_VOCAB = [
       "ko": "incident",
       "vi": "incident",
       "id": "incident"
-    }
+    },
+    "pos": "noun",
+    "ex": "事件について話す"
   },
   {
     "id": "V1085",
@@ -14105,7 +16598,9 @@ const N4_VOCAB = [
       "ko": "damage",
       "vi": "damage",
       "id": "damage"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても被害"
   },
   {
     "id": "V1086",
@@ -14118,7 +16613,9 @@ const N4_VOCAB = [
       "ko": "harm",
       "vi": "harm",
       "id": "harm"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても加害"
   },
   {
     "id": "V1087",
@@ -14131,7 +16628,9 @@ const N4_VOCAB = [
       "ko": "arrest",
       "vi": "arrest",
       "id": "arrest"
-    }
+    },
+    "pos": "noun",
+    "ex": "逮捕について話す"
   },
   {
     "id": "V1088",
@@ -14144,7 +16643,9 @@ const N4_VOCAB = [
       "ko": "trial",
       "vi": "trial",
       "id": "trial"
-    }
+    },
+    "pos": "noun",
+    "ex": "裁判について話す"
   },
   {
     "id": "V1089",
@@ -14157,7 +16658,9 @@ const N4_VOCAB = [
       "ko": "lawyer",
       "vi": "lawyer",
       "id": "lawyer"
-    }
+    },
+    "pos": "noun",
+    "ex": "弁護士について話す"
   },
   {
     "id": "V1090",
@@ -14170,7 +16673,9 @@ const N4_VOCAB = [
       "ko": "prosecution",
       "vi": "prosecution",
       "id": "prosecution"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "検察ことができる"
   },
   {
     "id": "V1091",
@@ -14183,7 +16688,9 @@ const N4_VOCAB = [
       "ko": "prison",
       "vi": "prison",
       "id": "prison"
-    }
+    },
+    "pos": "noun",
+    "ex": "刑務所について話す"
   },
   {
     "id": "V1092",
@@ -14196,7 +16703,9 @@ const N4_VOCAB = [
       "ko": "release",
       "vi": "release",
       "id": "release"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "釈放ことができる"
   },
   {
     "id": "V1093",
@@ -14209,7 +16718,9 @@ const N4_VOCAB = [
       "ko": "innocent",
       "vi": "innocent",
       "id": "innocent"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても無罪"
   },
   {
     "id": "V1094",
@@ -14222,7 +16733,9 @@ const N4_VOCAB = [
       "ko": "guilty",
       "vi": "guilty",
       "id": "guilty"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても有罪"
   },
   {
     "id": "V1095",
@@ -14235,7 +16748,9 @@ const N4_VOCAB = [
       "ko": "fine",
       "vi": "fine",
       "id": "fine"
-    }
+    },
+    "pos": "noun",
+    "ex": "罰金について話す"
   },
   {
     "id": "V1096",
@@ -14248,7 +16763,9 @@ const N4_VOCAB = [
       "ko": "imprisonment",
       "vi": "imprisonment",
       "id": "imprisonment"
-    }
+    },
+    "pos": "noun",
+    "ex": "懲役について話す"
   },
   {
     "id": "V1097",
@@ -14261,7 +16778,9 @@ const N4_VOCAB = [
       "ko": "death penalty",
       "vi": "death penalty",
       "id": "death penalty"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても死刑"
   },
   {
     "id": "V1098",
@@ -14274,7 +16793,9 @@ const N4_VOCAB = [
       "ko": "citizen",
       "vi": "citizen",
       "id": "citizen"
-    }
+    },
+    "pos": "noun",
+    "ex": "市民について話す"
   },
   {
     "id": "V1099",
@@ -14287,7 +16808,9 @@ const N4_VOCAB = [
       "ko": "resident",
       "vi": "resident",
       "id": "resident"
-    }
+    },
+    "pos": "noun",
+    "ex": "住民について話す"
   },
   {
     "id": "V1100",
@@ -14300,7 +16823,9 @@ const N4_VOCAB = [
       "ko": "nation",
       "vi": "nation",
       "id": "nation"
-    }
+    },
+    "pos": "noun",
+    "ex": "国民について話す"
   },
   {
     "id": "V1101",
@@ -14313,7 +16838,9 @@ const N4_VOCAB = [
       "ko": "mayor",
       "vi": "mayor",
       "id": "mayor"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "市長ことができる"
   },
   {
     "id": "V1102",
@@ -14326,7 +16853,9 @@ const N4_VOCAB = [
       "ko": "governor",
       "vi": "governor",
       "id": "governor"
-    }
+    },
+    "pos": "noun",
+    "ex": "知事について話す"
   },
   {
     "id": "V1103",
@@ -14339,7 +16868,9 @@ const N4_VOCAB = [
       "ko": "prime minister",
       "vi": "prime minister",
       "id": "prime minister"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "首相ことができる"
   },
   {
     "id": "V1104",
@@ -14352,7 +16883,9 @@ const N4_VOCAB = [
       "ko": "minister",
       "vi": "minister",
       "id": "minister"
-    }
+    },
+    "pos": "noun",
+    "ex": "大臣について話す"
   },
   {
     "id": "V1105",
@@ -14365,7 +16898,9 @@ const N4_VOCAB = [
       "ko": "election",
       "vi": "election",
       "id": "election"
-    }
+    },
+    "pos": "noun",
+    "ex": "選挙について話す"
   },
   {
     "id": "V1106",
@@ -14378,7 +16913,9 @@ const N4_VOCAB = [
       "ko": "voting",
       "vi": "voting",
       "id": "voting"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "投票ことができる"
   },
   {
     "id": "V1107",
@@ -14391,7 +16928,9 @@ const N4_VOCAB = [
       "ko": "candidate",
       "vi": "candidate",
       "id": "candidate"
-    }
+    },
+    "pos": "noun",
+    "ex": "候補について話す"
   },
   {
     "id": "V1108",
@@ -14404,7 +16943,9 @@ const N4_VOCAB = [
       "ko": "elected",
       "vi": "elected",
       "id": "elected"
-    }
+    },
+    "pos": "noun",
+    "ex": "当選について話す"
   },
   {
     "id": "V1109",
@@ -14417,7 +16958,9 @@ const N4_VOCAB = [
       "ko": "defeated",
       "vi": "defeated",
       "id": "defeated"
-    }
+    },
+    "pos": "noun",
+    "ex": "落選について話す"
   },
   {
     "id": "V1110",
@@ -14430,7 +16973,9 @@ const N4_VOCAB = [
       "ko": "member of parliament",
       "vi": "member of parliament",
       "id": "member of parliament"
-    }
+    },
+    "pos": "noun",
+    "ex": "議員について話す"
   },
   {
     "id": "V1111",
@@ -14443,7 +16988,9 @@ const N4_VOCAB = [
       "ko": "parliament",
       "vi": "parliament",
       "id": "parliament"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても議会"
   },
   {
     "id": "V1112",
@@ -14456,7 +17003,9 @@ const N4_VOCAB = [
       "ko": "bill",
       "vi": "bill",
       "id": "bill"
-    }
+    },
+    "pos": "noun",
+    "ex": "法案について話す"
   },
   {
     "id": "V1113",
@@ -14469,7 +17018,9 @@ const N4_VOCAB = [
       "ko": "passage",
       "vi": "passage",
       "id": "passage"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "可決ことができる"
   },
   {
     "id": "V1114",
@@ -14482,7 +17033,9 @@ const N4_VOCAB = [
       "ko": "rejection",
       "vi": "rejection",
       "id": "rejection"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "否決ことができる"
   },
   {
     "id": "V1115",
@@ -14495,7 +17048,9 @@ const N4_VOCAB = [
       "ko": "diplomacy",
       "vi": "diplomacy",
       "id": "diplomacy"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "外交ことができる"
   },
   {
     "id": "V1116",
@@ -14508,7 +17063,9 @@ const N4_VOCAB = [
       "ko": "embassy",
       "vi": "embassy",
       "id": "embassy"
-    }
+    },
+    "pos": "noun",
+    "ex": "大使館について話す"
   },
   {
     "id": "V1117",
@@ -14521,7 +17078,9 @@ const N4_VOCAB = [
       "ko": "consulate",
       "vi": "consulate",
       "id": "consulate"
-    }
+    },
+    "pos": "noun",
+    "ex": "領事館について話す"
   },
   {
     "id": "V1118",
@@ -14534,7 +17093,9 @@ const N4_VOCAB = [
       "ko": "visa",
       "vi": "visa",
       "id": "visa"
-    }
+    },
+    "pos": "noun",
+    "ex": "ビザについて話す"
   },
   {
     "id": "V1119",
@@ -14547,7 +17108,9 @@ const N4_VOCAB = [
       "ko": "passport",
       "vi": "passport",
       "id": "passport"
-    }
+    },
+    "pos": "adverb",
+    "ex": "パスポートについて話す"
   },
   {
     "id": "V1120",
@@ -14560,7 +17123,9 @@ const N4_VOCAB = [
       "ko": "entry",
       "vi": "entry",
       "id": "entry"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "入国ことができる"
   },
   {
     "id": "V1121",
@@ -14573,7 +17138,9 @@ const N4_VOCAB = [
       "ko": "departure",
       "vi": "departure",
       "id": "departure"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "出国ことができる"
   },
   {
     "id": "V1122",
@@ -14586,7 +17153,9 @@ const N4_VOCAB = [
       "ko": "customs",
       "vi": "customs",
       "id": "customs"
-    }
+    },
+    "pos": "noun",
+    "ex": "税関について話す"
   },
   {
     "id": "V1123",
@@ -14599,7 +17168,9 @@ const N4_VOCAB = [
       "ko": "product",
       "vi": "product",
       "id": "product"
-    }
+    },
+    "pos": "noun",
+    "ex": "商品について話す"
   },
   {
     "id": "V1124",
@@ -14612,7 +17183,9 @@ const N4_VOCAB = [
       "ko": "raw material",
       "vi": "raw material",
       "id": "raw material"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "原料ことができる"
   },
   {
     "id": "V1125",
@@ -14625,7 +17198,9 @@ const N4_VOCAB = [
       "ko": "finished product",
       "vi": "finished product",
       "id": "finished product"
-    }
+    },
+    "pos": "noun",
+    "ex": "完成品について話す"
   },
   {
     "id": "V1126",
@@ -14638,7 +17213,9 @@ const N4_VOCAB = [
       "ko": "inventory",
       "vi": "inventory",
       "id": "inventory"
-    }
+    },
+    "pos": "noun",
+    "ex": "在庫について話す"
   },
   {
     "id": "V1127",
@@ -14651,7 +17228,9 @@ const N4_VOCAB = [
       "ko": "order",
       "vi": "order",
       "id": "order"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "発注ことができる"
   },
   {
     "id": "V1128",
@@ -14664,7 +17243,9 @@ const N4_VOCAB = [
       "ko": "delivery",
       "vi": "delivery",
       "id": "delivery"
-    }
+    },
+    "pos": "noun",
+    "ex": "納品について話す"
   },
   {
     "id": "V1129",
@@ -14677,7 +17258,9 @@ const N4_VOCAB = [
       "ko": "defective",
       "vi": "defective",
       "id": "defective"
-    }
+    },
+    "pos": "noun",
+    "ex": "不良品について話す"
   },
   {
     "id": "V1130",
@@ -14690,7 +17273,9 @@ const N4_VOCAB = [
       "ko": "inspection",
       "vi": "inspection",
       "id": "inspection"
-    }
+    },
+    "pos": "noun",
+    "ex": "検品について話す"
   },
   {
     "id": "V1131",
@@ -14703,7 +17288,9 @@ const N4_VOCAB = [
       "ko": "packing",
       "vi": "packing",
       "id": "packing"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "梱包ことができる"
   },
   {
     "id": "V1132",
@@ -14716,7 +17303,9 @@ const N4_VOCAB = [
       "ko": "shipping",
       "vi": "shipping",
       "id": "shipping"
-    }
+    },
+    "pos": "noun",
+    "ex": "出荷について話す"
   },
   {
     "id": "V1133",
@@ -14729,7 +17318,9 @@ const N4_VOCAB = [
       "ko": "arrival",
       "vi": "arrival",
       "id": "arrival"
-    }
+    },
+    "pos": "noun",
+    "ex": "入荷について話す"
   },
   {
     "id": "V1134",
@@ -14742,7 +17333,9 @@ const N4_VOCAB = [
       "ko": "out of stock",
       "vi": "out of stock",
       "id": "out of stock"
-    }
+    },
+    "pos": "noun",
+    "ex": "品切れについて話す"
   },
   {
     "id": "V1135",
@@ -14755,7 +17348,9 @@ const N4_VOCAB = [
       "ko": "order",
       "vi": "order",
       "id": "order"
-    }
+    },
+    "pos": "noun",
+    "ex": "取り寄せについて話す"
   },
   {
     "id": "V1136",
@@ -14768,7 +17363,9 @@ const N4_VOCAB = [
       "ko": "advertisement",
       "vi": "advertisement",
       "id": "advertisement"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "広告ことができる"
   },
   {
     "id": "V1137",
@@ -14781,7 +17378,9 @@ const N4_VOCAB = [
       "ko": "publicity",
       "vi": "publicity",
       "id": "publicity"
-    }
+    },
+    "pos": "noun",
+    "ex": "宣伝について話す"
   },
   {
     "id": "V1138",
@@ -14794,7 +17393,9 @@ const N4_VOCAB = [
       "ko": "campaign",
       "vi": "campaign",
       "id": "campaign"
-    }
+    },
+    "pos": "noun",
+    "ex": "キャンペーンについて話す"
   },
   {
     "id": "V1139",
@@ -14807,7 +17408,9 @@ const N4_VOCAB = [
       "ko": "promotion",
       "vi": "promotion",
       "id": "promotion"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "販促ことができる"
   },
   {
     "id": "V1140",
@@ -14820,7 +17423,9 @@ const N4_VOCAB = [
       "ko": "sales",
       "vi": "sales",
       "id": "sales"
-    }
+    },
+    "pos": "noun",
+    "ex": "売上について話す"
   },
   {
     "id": "V1141",
@@ -14833,7 +17438,9 @@ const N4_VOCAB = [
       "ko": "deficit",
       "vi": "deficit",
       "id": "deficit"
-    }
+    },
+    "pos": "noun",
+    "ex": "赤字について話す"
   },
   {
     "id": "V1142",
@@ -14846,7 +17453,9 @@ const N4_VOCAB = [
       "ko": "surplus",
       "vi": "surplus",
       "id": "surplus"
-    }
+    },
+    "pos": "noun",
+    "ex": "黒字について話す"
   },
   {
     "id": "V1143",
@@ -14859,7 +17468,9 @@ const N4_VOCAB = [
       "ko": "expense",
       "vi": "expense",
       "id": "expense"
-    }
+    },
+    "pos": "noun",
+    "ex": "経費について話す"
   },
   {
     "id": "V1144",
@@ -14872,7 +17483,9 @@ const N4_VOCAB = [
       "ko": "cost",
       "vi": "cost",
       "id": "cost"
-    }
+    },
+    "pos": "adverb",
+    "ex": "コストについて話す"
   },
   {
     "id": "V1145",
@@ -14885,7 +17498,9 @@ const N4_VOCAB = [
       "ko": "budget",
       "vi": "budget",
       "id": "budget"
-    }
+    },
+    "pos": "noun",
+    "ex": "予算について話す"
   },
   {
     "id": "V1146",
@@ -14898,7 +17513,9 @@ const N4_VOCAB = [
       "ko": "settlement",
       "vi": "settlement",
       "id": "settlement"
-    }
+    },
+    "pos": "noun",
+    "ex": "決算について話す"
   },
   {
     "id": "V1147",
@@ -14911,7 +17528,9 @@ const N4_VOCAB = [
       "ko": "accounting",
       "vi": "accounting",
       "id": "accounting"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても会計"
   },
   {
     "id": "V1148",
@@ -14924,7 +17543,9 @@ const N4_VOCAB = [
       "ko": "audit",
       "vi": "audit",
       "id": "audit"
-    }
+    },
+    "pos": "noun",
+    "ex": "監査について話す"
   },
   {
     "id": "V1149",
@@ -14937,7 +17558,9 @@ const N4_VOCAB = [
       "ko": "tax",
       "vi": "tax",
       "id": "tax"
-    }
+    },
+    "pos": "noun",
+    "ex": "税金について話す"
   },
   {
     "id": "V1150",
@@ -14950,7 +17573,9 @@ const N4_VOCAB = [
       "ko": "tax return",
       "vi": "tax return",
       "id": "tax return"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "確定申告ことができる"
   },
   {
     "id": "V1151",
@@ -14963,7 +17588,9 @@ const N4_VOCAB = [
       "ko": "tax saving",
       "vi": "tax saving",
       "id": "tax saving"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても節税"
   },
   {
     "id": "V1152",
@@ -14976,7 +17603,9 @@ const N4_VOCAB = [
       "ko": "tax evasion",
       "vi": "tax evasion",
       "id": "tax evasion"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても脱税"
   },
   {
     "id": "V1153",
@@ -14989,7 +17618,9 @@ const N4_VOCAB = [
       "ko": "inheritance",
       "vi": "inheritance",
       "id": "inheritance"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "相続ことができる"
   },
   {
     "id": "V1154",
@@ -15002,7 +17633,9 @@ const N4_VOCAB = [
       "ko": "legacy",
       "vi": "legacy",
       "id": "legacy"
-    }
+    },
+    "pos": "noun",
+    "ex": "遺産について話す"
   },
   {
     "id": "V1155",
@@ -15015,7 +17648,9 @@ const N4_VOCAB = [
       "ko": "property",
       "vi": "property",
       "id": "property"
-    }
+    },
+    "pos": "noun",
+    "ex": "財産について話す"
   },
   {
     "id": "V1156",
@@ -15028,7 +17663,9 @@ const N4_VOCAB = [
       "ko": "assets",
       "vi": "assets",
       "id": "assets"
-    }
+    },
+    "pos": "noun",
+    "ex": "資産について話す"
   },
   {
     "id": "V1157",
@@ -15041,7 +17678,9 @@ const N4_VOCAB = [
       "ko": "liability",
       "vi": "liability",
       "id": "liability"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても負債"
   },
   {
     "id": "V1158",
@@ -15054,7 +17693,9 @@ const N4_VOCAB = [
       "ko": "loan",
       "vi": "loan",
       "id": "loan"
-    }
+    },
+    "pos": "noun",
+    "ex": "ローンについて話す"
   },
   {
     "id": "V1159",
@@ -15067,7 +17708,9 @@ const N4_VOCAB = [
       "ko": "mortgage",
       "vi": "mortgage",
       "id": "mortgage"
-    }
+    },
+    "pos": "noun",
+    "ex": "住宅ローンについて話す"
   },
   {
     "id": "V1160",
@@ -15080,7 +17723,9 @@ const N4_VOCAB = [
       "ko": "down payment",
       "vi": "down payment",
       "id": "down payment"
-    }
+    },
+    "pos": "noun",
+    "ex": "頭金について話す"
   },
   {
     "id": "V1161",
@@ -15093,7 +17738,9 @@ const N4_VOCAB = [
       "ko": "installment",
       "vi": "installment",
       "id": "installment"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても分割払い"
   },
   {
     "id": "V1162",
@@ -15106,7 +17753,9 @@ const N4_VOCAB = [
       "ko": "lump sum",
       "vi": "lump sum",
       "id": "lump sum"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても一括払い"
   },
   {
     "id": "V1163",
@@ -15119,7 +17768,9 @@ const N4_VOCAB = [
       "ko": "interest rate",
       "vi": "interest rate",
       "id": "interest rate"
-    }
+    },
+    "pos": "noun",
+    "ex": "金利について話す"
   },
   {
     "id": "V1164",
@@ -15132,7 +17783,9 @@ const N4_VOCAB = [
       "ko": "principal",
       "vi": "principal",
       "id": "principal"
-    }
+    },
+    "pos": "noun",
+    "ex": "元金について話す"
   },
   {
     "id": "V1165",
@@ -15145,7 +17798,9 @@ const N4_VOCAB = [
       "ko": "interest",
       "vi": "interest",
       "id": "interest"
-    }
+    },
+    "pos": "noun",
+    "ex": "利子について話す"
   },
   {
     "id": "V1166",
@@ -15158,7 +17813,9 @@ const N4_VOCAB = [
       "ko": "compound interest",
       "vi": "compound interest",
       "id": "compound interest"
-    }
+    },
+    "pos": "noun",
+    "ex": "複利について話す"
   },
   {
     "id": "V1167",
@@ -15171,7 +17828,9 @@ const N4_VOCAB = [
       "ko": "management",
       "vi": "management",
       "id": "management"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "運用ことができる"
   },
   {
     "id": "V1168",
@@ -15184,7 +17843,9 @@ const N4_VOCAB = [
       "ko": "dividend",
       "vi": "dividend",
       "id": "dividend"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "配当ことができる"
   },
   {
     "id": "V1169",
@@ -15197,7 +17858,9 @@ const N4_VOCAB = [
       "ko": "stock price",
       "vi": "stock price",
       "id": "stock price"
-    }
+    },
+    "pos": "noun",
+    "ex": "株価について話す"
   },
   {
     "id": "V1170",
@@ -15210,7 +17873,9 @@ const N4_VOCAB = [
       "ko": "listing",
       "vi": "listing",
       "id": "listing"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "上場ことができる"
   },
   {
     "id": "V1171",
@@ -15223,7 +17888,9 @@ const N4_VOCAB = [
       "ko": "decline",
       "vi": "decline",
       "id": "decline"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "下落ことができる"
   },
   {
     "id": "V1172",
@@ -15236,7 +17903,9 @@ const N4_VOCAB = [
       "ko": "surge",
       "vi": "surge",
       "id": "surge"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "高騰ことができる"
   },
   {
     "id": "V1173",
@@ -15249,7 +17918,9 @@ const N4_VOCAB = [
       "ko": "crash",
       "vi": "crash",
       "id": "crash"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "暴落ことができる"
   },
   {
     "id": "V1174",
@@ -15262,7 +17933,9 @@ const N4_VOCAB = [
       "ko": "stability",
       "vi": "stability",
       "id": "stability"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても安定"
   },
   {
     "id": "V1175",
@@ -15275,7 +17948,9 @@ const N4_VOCAB = [
       "ko": "instability",
       "vi": "instability",
       "id": "instability"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても不安定"
   },
   {
     "id": "V1176",
@@ -15288,7 +17963,9 @@ const N4_VOCAB = [
       "ko": "economy",
       "vi": "economy",
       "id": "economy"
-    }
+    },
+    "pos": "noun",
+    "ex": "景気について話す"
   },
   {
     "id": "V1177",
@@ -15301,7 +17978,9 @@ const N4_VOCAB = [
       "ko": "boom",
       "vi": "boom",
       "id": "boom"
-    }
+    },
+    "pos": "noun",
+    "ex": "好景気について話す"
   },
   {
     "id": "V1178",
@@ -15314,7 +17993,9 @@ const N4_VOCAB = [
       "ko": "recession",
       "vi": "recession",
       "id": "recession"
-    }
+    },
+    "pos": "noun",
+    "ex": "不景気について話す"
   },
   {
     "id": "V1179",
@@ -15327,7 +18008,9 @@ const N4_VOCAB = [
       "ko": "inflation",
       "vi": "inflation",
       "id": "inflation"
-    }
+    },
+    "pos": "noun",
+    "ex": "インフレについて話す"
   },
   {
     "id": "V1180",
@@ -15340,7 +18023,9 @@ const N4_VOCAB = [
       "ko": "deflation",
       "vi": "deflation",
       "id": "deflation"
-    }
+    },
+    "pos": "noun",
+    "ex": "デフレについて話す"
   },
   {
     "id": "V1181",
@@ -15353,7 +18038,9 @@ const N4_VOCAB = [
       "ko": "strong yen",
       "vi": "strong yen",
       "id": "strong yen"
-    }
+    },
+    "pos": "noun",
+    "ex": "円高について話す"
   },
   {
     "id": "V1182",
@@ -15366,7 +18053,9 @@ const N4_VOCAB = [
       "ko": "weak yen",
       "vi": "weak yen",
       "id": "weak yen"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "円安ことができる"
   },
   {
     "id": "V1183",
@@ -15379,7 +18068,9 @@ const N4_VOCAB = [
       "ko": "exchange",
       "vi": "exchange",
       "id": "exchange"
-    }
+    },
+    "pos": "noun",
+    "ex": "為替について話す"
   },
   {
     "id": "V1184",
@@ -15392,7 +18083,9 @@ const N4_VOCAB = [
       "ko": "market price",
       "vi": "market price",
       "id": "market price"
-    }
+    },
+    "pos": "noun",
+    "ex": "相場について話す"
   },
   {
     "id": "V1185",
@@ -15405,7 +18098,9 @@ const N4_VOCAB = [
       "ko": "prices",
       "vi": "prices",
       "id": "prices"
-    }
+    },
+    "pos": "noun",
+    "ex": "物価について話す"
   },
   {
     "id": "V1186",
@@ -15418,7 +18113,9 @@ const N4_VOCAB = [
       "ko": "price increase",
       "vi": "price increase",
       "id": "price increase"
-    }
+    },
+    "pos": "noun",
+    "ex": "値上げについて話す"
   },
   {
     "id": "V1187",
@@ -15431,7 +18128,9 @@ const N4_VOCAB = [
       "ko": "price cut",
       "vi": "price cut",
       "id": "price cut"
-    }
+    },
+    "pos": "noun",
+    "ex": "値下げについて話す"
   },
   {
     "id": "V1188",
@@ -15444,7 +18143,9 @@ const N4_VOCAB = [
       "ko": "special price",
       "vi": "special price",
       "id": "special price"
-    }
+    },
+    "pos": "noun",
+    "ex": "特価について話す"
   },
   {
     "id": "V1189",
@@ -15457,7 +18158,9 @@ const N4_VOCAB = [
       "ko": "bottom price",
       "vi": "bottom price",
       "id": "bottom price"
-    }
+    },
+    "pos": "noun",
+    "ex": "底値について話す"
   },
   {
     "id": "V1190",
@@ -15470,7 +18173,9 @@ const N4_VOCAB = [
       "ko": "high price",
       "vi": "high price",
       "id": "high price"
-    }
+    },
+    "pos": "noun",
+    "ex": "高値について話す"
   },
   {
     "id": "V1191",
@@ -15483,7 +18188,9 @@ const N4_VOCAB = [
       "ko": "low price",
       "vi": "low price",
       "id": "low price"
-    }
+    },
+    "pos": "noun",
+    "ex": "安値について話す"
   },
   {
     "id": "V1192",
@@ -15496,7 +18203,9 @@ const N4_VOCAB = [
       "ko": "fair price",
       "vi": "fair price",
       "id": "fair price"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "適正価格ことができる"
   },
   {
     "id": "V1193",
@@ -15509,7 +18218,9 @@ const N4_VOCAB = [
       "ko": "market",
       "vi": "market",
       "id": "market"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "市場ことができる"
   },
   {
     "id": "V1194",
@@ -15522,7 +18233,9 @@ const N4_VOCAB = [
       "ko": "monopoly",
       "vi": "monopoly",
       "id": "monopoly"
-    }
+    },
+    "pos": "noun",
+    "ex": "独占について話す"
   },
   {
     "id": "V1195",
@@ -15535,7 +18248,9 @@ const N4_VOCAB = [
       "ko": "competition",
       "vi": "competition",
       "id": "competition"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "競争ことができる"
   },
   {
     "id": "V1196",
@@ -15548,7 +18263,9 @@ const N4_VOCAB = [
       "ko": "joint",
       "vi": "joint",
       "id": "joint"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "共同ことができる"
   },
   {
     "id": "V1197",
@@ -15561,7 +18278,9 @@ const N4_VOCAB = [
       "ko": "partnership",
       "vi": "partnership",
       "id": "partnership"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても提携"
   },
   {
     "id": "V1198",
@@ -15574,7 +18293,9 @@ const N4_VOCAB = [
       "ko": "merger",
       "vi": "merger",
       "id": "merger"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても合併"
   },
   {
     "id": "V1199",
@@ -15587,7 +18308,9 @@ const N4_VOCAB = [
       "ko": "acquisition",
       "vi": "acquisition",
       "id": "acquisition"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "買収ことができる"
   },
   {
     "id": "V1200",
@@ -15600,7 +18323,9 @@ const N4_VOCAB = [
       "ko": "bankruptcy",
       "vi": "bankruptcy",
       "id": "bankruptcy"
-    }
+    },
+    "pos": "noun",
+    "ex": "破産について話す"
   },
   {
     "id": "V1201",
@@ -15613,7 +18338,9 @@ const N4_VOCAB = [
       "ko": "failure",
       "vi": "failure",
       "id": "failure"
-    }
+    },
+    "pos": "noun",
+    "ex": "倒産について話す"
   },
   {
     "id": "V1202",
@@ -15626,7 +18353,9 @@ const N4_VOCAB = [
       "ko": "reconstruction",
       "vi": "reconstruction",
       "id": "reconstruction"
-    }
+    },
+    "pos": "noun",
+    "ex": "再建について話す"
   },
   {
     "id": "V1203",
@@ -15639,7 +18368,9 @@ const N4_VOCAB = [
       "ko": "restructuring",
       "vi": "restructuring",
       "id": "restructuring"
-    }
+    },
+    "pos": "noun",
+    "ex": "リストラについて話す"
   },
   {
     "id": "V1204",
@@ -15652,7 +18383,9 @@ const N4_VOCAB = [
       "ko": "management",
       "vi": "management",
       "id": "management"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても経営"
   },
   {
     "id": "V1205",
@@ -15665,7 +18398,9 @@ const N4_VOCAB = [
       "ko": "enterprise",
       "vi": "enterprise",
       "id": "enterprise"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "企業ことができる"
   },
   {
     "id": "V1206",
@@ -15678,7 +18413,9 @@ const N4_VOCAB = [
       "ko": "SME",
       "vi": "SME",
       "id": "SME"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "中小企業ことができる"
   },
   {
     "id": "V1207",
@@ -15691,7 +18428,9 @@ const N4_VOCAB = [
       "ko": "large company",
       "vi": "large company",
       "id": "large company"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "大企業ことができる"
   },
   {
     "id": "V1208",
@@ -15704,7 +18443,9 @@ const N4_VOCAB = [
       "ko": "venture",
       "vi": "venture",
       "id": "venture"
-    }
+    },
+    "pos": "noun",
+    "ex": "ベンチャーについて話す"
   },
   {
     "id": "V1209",
@@ -15717,7 +18458,9 @@ const N4_VOCAB = [
       "ko": "startup",
       "vi": "startup",
       "id": "startup"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "起業ことができる"
   },
   {
     "id": "V1210",
@@ -15730,7 +18473,9 @@ const N4_VOCAB = [
       "ko": "founding",
       "vi": "founding",
       "id": "founding"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "創業ことができる"
   },
   {
     "id": "V1211",
@@ -15743,7 +18488,9 @@ const N4_VOCAB = [
       "ko": "long-established",
       "vi": "long-established",
       "id": "long-established"
-    }
+    },
+    "pos": "noun",
+    "ex": "老舗について話す"
   },
   {
     "id": "V1212",
@@ -15756,7 +18503,9 @@ const N4_VOCAB = [
       "ko": "headquarters",
       "vi": "headquarters",
       "id": "headquarters"
-    }
+    },
+    "pos": "noun",
+    "ex": "本社について話す"
   },
   {
     "id": "V1213",
@@ -15769,7 +18518,9 @@ const N4_VOCAB = [
       "ko": "subsidiary",
       "vi": "subsidiary",
       "id": "subsidiary"
-    }
+    },
+    "pos": "noun",
+    "ex": "子会社について話す"
   },
   {
     "id": "V1214",
@@ -15782,7 +18533,9 @@ const N4_VOCAB = [
       "ko": "parent company",
       "vi": "parent company",
       "id": "parent company"
-    }
+    },
+    "pos": "noun",
+    "ex": "親会社について話す"
   },
   {
     "id": "V1215",
@@ -15795,7 +18548,9 @@ const N4_VOCAB = [
       "ko": "affiliate",
       "vi": "affiliate",
       "id": "affiliate"
-    }
+    },
+    "pos": "noun",
+    "ex": "関連会社について話す"
   },
   {
     "id": "V1216",
@@ -15808,7 +18563,9 @@ const N4_VOCAB = [
       "ko": "client",
       "vi": "client",
       "id": "client"
-    }
+    },
+    "pos": "noun",
+    "ex": "取引先について話す"
   },
   {
     "id": "V1217",
@@ -15821,7 +18578,9 @@ const N4_VOCAB = [
       "ko": "customer",
       "vi": "customer",
       "id": "customer"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "顧客ことができる"
   },
   {
     "id": "V1218",
@@ -15834,7 +18593,9 @@ const N4_VOCAB = [
       "ko": "regular customer",
       "vi": "regular customer",
       "id": "regular customer"
-    }
+    },
+    "pos": "noun",
+    "ex": "得意先について話す"
   },
   {
     "id": "V1219",
@@ -15847,7 +18608,9 @@ const N4_VOCAB = [
       "ko": "supplier",
       "vi": "supplier",
       "id": "supplier"
-    }
+    },
+    "pos": "noun",
+    "ex": "仕入れ先について話す"
   },
   {
     "id": "V1220",
@@ -15860,7 +18623,9 @@ const N4_VOCAB = [
       "ko": "ordering party",
       "vi": "ordering party",
       "id": "ordering party"
-    }
+    },
+    "pos": "noun",
+    "ex": "発注先について話す"
   },
   {
     "id": "V1221",
@@ -15873,7 +18638,9 @@ const N4_VOCAB = [
       "ko": "delivery destination",
       "vi": "delivery destination",
       "id": "delivery destination"
-    }
+    },
+    "pos": "noun",
+    "ex": "納品先について話す"
   },
   {
     "id": "V1222",
@@ -15886,7 +18653,9 @@ const N4_VOCAB = [
       "ko": "billing address",
       "vi": "billing address",
       "id": "billing address"
-    }
+    },
+    "pos": "noun",
+    "ex": "請求先について話す"
   },
   {
     "id": "V1223",
@@ -15899,7 +18668,9 @@ const N4_VOCAB = [
       "ko": "contract",
       "vi": "contract",
       "id": "contract"
-    }
+    },
+    "pos": "noun",
+    "ex": "契約書について話す"
   },
   {
     "id": "V1224",
@@ -15912,7 +18683,9 @@ const N4_VOCAB = [
       "ko": "estimate",
       "vi": "estimate",
       "id": "estimate"
-    }
+    },
+    "pos": "noun",
+    "ex": "見積書について話す"
   },
   {
     "id": "V1225",
@@ -15925,7 +18698,9 @@ const N4_VOCAB = [
       "ko": "invoice",
       "vi": "invoice",
       "id": "invoice"
-    }
+    },
+    "pos": "noun",
+    "ex": "請求書について話す"
   },
   {
     "id": "V1226",
@@ -15938,7 +18713,9 @@ const N4_VOCAB = [
       "ko": "delivery note",
       "vi": "delivery note",
       "id": "delivery note"
-    }
+    },
+    "pos": "noun",
+    "ex": "納品書について話す"
   },
   {
     "id": "V1227",
@@ -15951,7 +18728,9 @@ const N4_VOCAB = [
       "ko": "report",
       "vi": "report",
       "id": "report"
-    }
+    },
+    "pos": "noun",
+    "ex": "報告書について話す"
   },
   {
     "id": "V1228",
@@ -15964,7 +18743,9 @@ const N4_VOCAB = [
       "ko": "proposal",
       "vi": "proposal",
       "id": "proposal"
-    }
+    },
+    "pos": "noun",
+    "ex": "企画書について話す"
   },
   {
     "id": "V1229",
@@ -15977,7 +18758,9 @@ const N4_VOCAB = [
       "ko": "specification",
       "vi": "specification",
       "id": "specification"
-    }
+    },
+    "pos": "noun",
+    "ex": "仕様書について話す"
   },
   {
     "id": "V1230",
@@ -15990,7 +18773,9 @@ const N4_VOCAB = [
       "ko": "manual",
       "vi": "manual",
       "id": "manual"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "マニュアルことができる"
   },
   {
     "id": "V1231",
@@ -16003,7 +18788,9 @@ const N4_VOCAB = [
       "ko": "minutes",
       "vi": "minutes",
       "id": "minutes"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "議事録ことができる"
   },
   {
     "id": "V1232",
@@ -16016,7 +18803,9 @@ const N4_VOCAB = [
       "ko": "business card",
       "vi": "business card",
       "id": "business card"
-    }
+    },
+    "pos": "noun",
+    "ex": "名刺について話す"
   },
   {
     "id": "V1233",
@@ -16029,7 +18818,9 @@ const N4_VOCAB = [
       "ko": "envelope",
       "vi": "envelope",
       "id": "envelope"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "封筒ことができる"
   },
   {
     "id": "V1234",
@@ -16042,7 +18833,9 @@ const N4_VOCAB = [
       "ko": "stamp",
       "vi": "stamp",
       "id": "stamp"
-    }
+    },
+    "pos": "noun",
+    "ex": "切手について話す"
   },
   {
     "id": "V1235",
@@ -16055,7 +18848,9 @@ const N4_VOCAB = [
       "ko": "express mail",
       "vi": "express mail",
       "id": "express mail"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "速達ことができる"
   },
   {
     "id": "V1236",
@@ -16068,7 +18863,9 @@ const N4_VOCAB = [
       "ko": "registered mail",
       "vi": "registered mail",
       "id": "registered mail"
-    }
+    },
+    "pos": "noun",
+    "ex": "書留について話す"
   },
   {
     "id": "V1237",
@@ -16081,7 +18878,9 @@ const N4_VOCAB = [
       "ko": "courier",
       "vi": "courier",
       "id": "courier"
-    }
+    },
+    "pos": "noun",
+    "ex": "宅配便について話す"
   },
   {
     "id": "V1238",
@@ -16094,7 +18893,9 @@ const N4_VOCAB = [
       "ko": "cash on delivery",
       "vi": "cash on delivery",
       "id": "cash on delivery"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても着払い"
   },
   {
     "id": "V1239",
@@ -16107,7 +18908,9 @@ const N4_VOCAB = [
       "ko": "prepaid",
       "vi": "prepaid",
       "id": "prepaid"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても元払い"
   },
   {
     "id": "V1240",
@@ -16120,7 +18923,9 @@ const N4_VOCAB = [
       "ko": "enclosure",
       "vi": "enclosure",
       "id": "enclosure"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "同封ことができる"
   },
   {
     "id": "V1241",
@@ -16133,7 +18938,9 @@ const N4_VOCAB = [
       "ko": "attachment",
       "vi": "attachment",
       "id": "attachment"
-    }
+    },
+    "pos": "noun",
+    "ex": "添付について話す"
   },
   {
     "id": "V1242",
@@ -16146,7 +18953,9 @@ const N4_VOCAB = [
       "ko": "forwarding",
       "vi": "forwarding",
       "id": "forwarding"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "転送ことができる"
   },
   {
     "id": "V1243",
@@ -16159,7 +18968,9 @@ const N4_VOCAB = [
       "ko": "return",
       "vi": "return",
       "id": "return"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "返送ことができる"
   },
   {
     "id": "V1244",
@@ -16172,7 +18983,9 @@ const N4_VOCAB = [
       "ko": "receipt",
       "vi": "receipt",
       "id": "receipt"
-    }
+    },
+    "pos": "noun",
+    "ex": "受取について話す"
   },
   {
     "id": "V1245",
@@ -16185,7 +18998,9 @@ const N4_VOCAB = [
       "ko": "delivery",
       "vi": "delivery",
       "id": "delivery"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "配送ことができる"
   },
   {
     "id": "V1246",
@@ -16198,7 +19013,9 @@ const N4_VOCAB = [
       "ko": "transportation",
       "vi": "transportation",
       "id": "transportation"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "運送ことができる"
   },
   {
     "id": "V1247",
@@ -16211,7 +19028,9 @@ const N4_VOCAB = [
       "ko": "transport",
       "vi": "transport",
       "id": "transport"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "輸送ことができる"
   },
   {
     "id": "V1248",
@@ -16224,7 +19043,9 @@ const N4_VOCAB = [
       "ko": "airmail",
       "vi": "airmail",
       "id": "airmail"
-    }
+    },
+    "pos": "noun",
+    "ex": "航空便について話す"
   },
   {
     "id": "V1249",
@@ -16237,7 +19058,9 @@ const N4_VOCAB = [
       "ko": "sea mail",
       "vi": "sea mail",
       "id": "sea mail"
-    }
+    },
+    "pos": "noun",
+    "ex": "船便について話す"
   },
   {
     "id": "V1250",
@@ -16250,7 +19073,9 @@ const N4_VOCAB = [
       "ko": "land transport",
       "vi": "land transport",
       "id": "land transport"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "陸送ことができる"
   },
   {
     "id": "V1251",
@@ -16263,7 +19088,9 @@ const N4_VOCAB = [
       "ko": "container",
       "vi": "container",
       "id": "container"
-    }
+    },
+    "pos": "noun",
+    "ex": "コンテナについて話す"
   },
   {
     "id": "V1252",
@@ -16276,7 +19103,9 @@ const N4_VOCAB = [
       "ko": "loading",
       "vi": "loading",
       "id": "loading"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても積載"
   },
   {
     "id": "V1253",
@@ -16289,7 +19118,9 @@ const N4_VOCAB = [
       "ko": "unloading",
       "vi": "unloading",
       "id": "unloading"
-    }
+    },
+    "pos": "noun",
+    "ex": "荷降ろしについて話す"
   },
   {
     "id": "V1254",
@@ -16302,7 +19133,9 @@ const N4_VOCAB = [
       "ko": "storage",
       "vi": "storage",
       "id": "storage"
-    }
+    },
+    "pos": "noun",
+    "ex": "保管について話す"
   },
   {
     "id": "V1255",
@@ -16315,7 +19148,9 @@ const N4_VOCAB = [
       "ko": "logistics",
       "vi": "logistics",
       "id": "logistics"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "物流ことができる"
   },
   {
     "id": "V1256",
@@ -16328,7 +19163,9 @@ const N4_VOCAB = [
       "ko": "inventory management",
       "vi": "inventory management",
       "id": "inventory management"
-    }
+    },
+    "pos": "noun",
+    "ex": "在庫管理について話す"
   },
   {
     "id": "V1257",
@@ -16341,7 +19178,9 @@ const N4_VOCAB = [
       "ko": "quality control",
       "vi": "quality control",
       "id": "quality control"
-    }
+    },
+    "pos": "noun",
+    "ex": "品質管理について話す"
   },
   {
     "id": "V1258",
@@ -16354,7 +19193,9 @@ const N4_VOCAB = [
       "ko": "production management",
       "vi": "production management",
       "id": "production management"
-    }
+    },
+    "pos": "noun",
+    "ex": "生産管理について話す"
   },
   {
     "id": "V1259",
@@ -16367,7 +19208,9 @@ const N4_VOCAB = [
       "ko": "process",
       "vi": "process",
       "id": "process"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても工程"
   },
   {
     "id": "V1260",
@@ -16380,7 +19223,9 @@ const N4_VOCAB = [
       "ko": "assembly",
       "vi": "assembly",
       "id": "assembly"
-    }
+    },
+    "pos": "noun",
+    "ex": "組立について話す"
   },
   {
     "id": "V1261",
@@ -16393,7 +19238,9 @@ const N4_VOCAB = [
       "ko": "processing",
       "vi": "processing",
       "id": "processing"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "加工ことができる"
   },
   {
     "id": "V1262",
@@ -16406,7 +19253,9 @@ const N4_VOCAB = [
       "ko": "painting",
       "vi": "painting",
       "id": "painting"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "塗装ことができる"
   },
   {
     "id": "V1263",
@@ -16419,7 +19268,9 @@ const N4_VOCAB = [
       "ko": "welding",
       "vi": "welding",
       "id": "welding"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "溶接ことができる"
   },
   {
     "id": "V1264",
@@ -16432,7 +19283,9 @@ const N4_VOCAB = [
       "ko": "pressing",
       "vi": "pressing",
       "id": "pressing"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "プレスことができる"
   },
   {
     "id": "V1265",
@@ -16445,7 +19298,9 @@ const N4_VOCAB = [
       "ko": "molding",
       "vi": "molding",
       "id": "molding"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても成形"
   },
   {
     "id": "V1266",
@@ -16458,7 +19313,9 @@ const N4_VOCAB = [
       "ko": "cutting",
       "vi": "cutting",
       "id": "cutting"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "切削ことができる"
   },
   {
     "id": "V1267",
@@ -16471,7 +19328,9 @@ const N4_VOCAB = [
       "ko": "polishing",
       "vi": "polishing",
       "id": "polishing"
-    }
+    },
+    "pos": "noun",
+    "ex": "研磨について話す"
   },
   {
     "id": "V1268",
@@ -16484,7 +19343,9 @@ const N4_VOCAB = [
       "ko": "inspection",
       "vi": "inspection",
       "id": "inspection"
-    }
+    },
+    "pos": "noun",
+    "ex": "検査について話す"
   },
   {
     "id": "V1269",
@@ -16497,7 +19358,9 @@ const N4_VOCAB = [
       "ko": "measurement",
       "vi": "measurement",
       "id": "measurement"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても測定"
   },
   {
     "id": "V1270",
@@ -16510,7 +19373,9 @@ const N4_VOCAB = [
       "ko": "test",
       "vi": "test",
       "id": "test"
-    }
+    },
+    "pos": "noun",
+    "ex": "試験について話す"
   },
   {
     "id": "V1271",
@@ -16523,7 +19388,9 @@ const N4_VOCAB = [
       "ko": "design",
       "vi": "design",
       "id": "design"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても設計"
   },
   {
     "id": "V1272",
@@ -16536,7 +19403,9 @@ const N4_VOCAB = [
       "ko": "development",
       "vi": "development",
       "id": "development"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "開発ことができる"
   },
   {
     "id": "V1273",
@@ -16549,7 +19418,9 @@ const N4_VOCAB = [
       "ko": "research",
       "vi": "research",
       "id": "research"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "研究ことができる"
   },
   {
     "id": "V1274",
@@ -16562,7 +19433,9 @@ const N4_VOCAB = [
       "ko": "patent",
       "vi": "patent",
       "id": "patent"
-    }
+    },
+    "pos": "noun",
+    "ex": "特許について話す"
   },
   {
     "id": "V1275",
@@ -16575,7 +19448,9 @@ const N4_VOCAB = [
       "ko": "trademark",
       "vi": "trademark",
       "id": "trademark"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "商標ことができる"
   },
   {
     "id": "V1276",
@@ -16588,7 +19463,9 @@ const N4_VOCAB = [
       "ko": "copyright",
       "vi": "copyright",
       "id": "copyright"
-    }
+    },
+    "pos": "noun",
+    "ex": "著作権について話す"
   },
   {
     "id": "V1277",
@@ -16601,7 +19478,9 @@ const N4_VOCAB = [
       "ko": "intellectual property",
       "vi": "intellectual property",
       "id": "intellectual property"
-    }
+    },
+    "pos": "noun",
+    "ex": "知的財産について話す"
   },
   {
     "id": "V1278",
@@ -16614,7 +19493,9 @@ const N4_VOCAB = [
       "ko": "license",
       "vi": "license",
       "id": "license"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "ライセンスことができる"
   },
   {
     "id": "V1279",
@@ -16627,7 +19508,9 @@ const N4_VOCAB = [
       "ko": "royalty",
       "vi": "royalty",
       "id": "royalty"
-    }
+    },
+    "pos": "noun",
+    "ex": "ロイヤリティについて話す"
   },
   {
     "id": "V1280",
@@ -16640,7 +19523,9 @@ const N4_VOCAB = [
       "ko": "innovation",
       "vi": "innovation",
       "id": "innovation"
-    }
+    },
+    "pos": "noun",
+    "ex": "革新について話す"
   },
   {
     "id": "V1281",
@@ -16653,7 +19538,9 @@ const N4_VOCAB = [
       "ko": "improvement",
       "vi": "improvement",
       "id": "improvement"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "改良ことができる"
   },
   {
     "id": "V1282",
@@ -16666,7 +19553,9 @@ const N4_VOCAB = [
       "ko": "efficiency",
       "vi": "efficiency",
       "id": "efficiency"
-    }
+    },
+    "pos": "noun",
+    "ex": "効率化について話す"
   },
   {
     "id": "V1283",
@@ -16679,7 +19568,9 @@ const N4_VOCAB = [
       "ko": "automation",
       "vi": "automation",
       "id": "automation"
-    }
+    },
+    "pos": "noun",
+    "ex": "自動化について話す"
   },
   {
     "id": "V1284",
@@ -16692,7 +19583,9 @@ const N4_VOCAB = [
       "ko": "labor saving",
       "vi": "labor saving",
       "id": "labor saving"
-    }
+    },
+    "pos": "noun",
+    "ex": "省力化について話す"
   },
   {
     "id": "V1285",
@@ -16705,7 +19598,9 @@ const N4_VOCAB = [
       "ko": "rationalization",
       "vi": "rationalization",
       "id": "rationalization"
-    }
+    },
+    "pos": "noun",
+    "ex": "合理化について話す"
   },
   {
     "id": "V1286",
@@ -16718,7 +19613,9 @@ const N4_VOCAB = [
       "ko": "standardization",
       "vi": "standardization",
       "id": "standardization"
-    }
+    },
+    "pos": "noun",
+    "ex": "標準化について話す"
   },
   {
     "id": "V1287",
@@ -16731,7 +19628,9 @@ const N4_VOCAB = [
       "ko": "uniformity",
       "vi": "uniformity",
       "id": "uniformity"
-    }
+    },
+    "pos": "noun",
+    "ex": "均一化について話す"
   },
   {
     "id": "V1288",
@@ -16744,7 +19643,9 @@ const N4_VOCAB = [
       "ko": "differentiation",
       "vi": "differentiation",
       "id": "differentiation"
-    }
+    },
+    "pos": "noun",
+    "ex": "差別化について話す"
   },
   {
     "id": "V1289",
@@ -16757,7 +19658,9 @@ const N4_VOCAB = [
       "ko": "diversification",
       "vi": "diversification",
       "id": "diversification"
-    }
+    },
+    "pos": "noun",
+    "ex": "多様化について話す"
   },
   {
     "id": "V1290",
@@ -16770,7 +19673,9 @@ const N4_VOCAB = [
       "ko": "complication",
       "vi": "complication",
       "id": "complication"
-    }
+    },
+    "pos": "noun",
+    "ex": "複雑化について話す"
   },
   {
     "id": "V1291",
@@ -16783,7 +19688,9 @@ const N4_VOCAB = [
       "ko": "simplification",
       "vi": "simplification",
       "id": "simplification"
-    }
+    },
+    "pos": "noun",
+    "ex": "簡素化について話す"
   },
   {
     "id": "V1292",
@@ -16796,7 +19703,9 @@ const N4_VOCAB = [
       "ko": "acceleration",
       "vi": "acceleration",
       "id": "acceleration"
-    }
+    },
+    "pos": "noun",
+    "ex": "迅速化について話す"
   },
   {
     "id": "V1293",
@@ -16809,7 +19718,9 @@ const N4_VOCAB = [
       "ko": "warning",
       "vi": "warning",
       "id": "warning"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "警告ことができる"
   },
   {
     "id": "V1294",
@@ -16822,7 +19733,9 @@ const N4_VOCAB = [
       "ko": "approval",
       "vi": "approval",
       "id": "approval"
-    }
+    },
+    "pos": "noun",
+    "ex": "承認について話す"
   },
   {
     "id": "V1295",
@@ -16835,7 +19748,9 @@ const N4_VOCAB = [
       "ko": "authorization",
       "vi": "authorization",
       "id": "authorization"
-    }
+    },
+    "pos": "noun",
+    "ex": "認可について話す"
   },
   {
     "id": "V1296",
@@ -16848,7 +19763,9 @@ const N4_VOCAB = [
       "ko": "license",
       "vi": "license",
       "id": "license"
-    }
+    },
+    "pos": "noun",
+    "ex": "免許について話す"
   },
   {
     "id": "V1297",
@@ -16861,7 +19778,9 @@ const N4_VOCAB = [
       "ko": "qualification",
       "vi": "qualification",
       "id": "qualification"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "資格ことができる"
   },
   {
     "id": "V1298",
@@ -16874,7 +19793,9 @@ const N4_VOCAB = [
       "ko": "certification",
       "vi": "certification",
       "id": "certification"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても認定"
   },
   {
     "id": "V1299",
@@ -16887,7 +19808,9 @@ const N4_VOCAB = [
       "ko": "application",
       "vi": "application",
       "id": "application"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても申請"
   },
   {
     "id": "V1300",
@@ -16900,7 +19823,9 @@ const N4_VOCAB = [
       "ko": "examination",
       "vi": "examination",
       "id": "examination"
-    }
+    },
+    "pos": "noun",
+    "ex": "審査について話す"
   },
   {
     "id": "V1301",
@@ -16913,7 +19838,9 @@ const N4_VOCAB = [
       "ko": "pass or fail",
       "vi": "pass or fail",
       "id": "pass or fail"
-    }
+    },
+    "pos": "noun",
+    "ex": "合否について話す"
   },
   {
     "id": "V1302",
@@ -16926,7 +19853,9 @@ const N4_VOCAB = [
       "ko": "cancellation",
       "vi": "cancellation",
       "id": "cancellation"
-    }
+    },
+    "pos": "noun",
+    "ex": "取消について話す"
   },
   {
     "id": "V1303",
@@ -16939,7 +19868,9 @@ const N4_VOCAB = [
       "ko": "revision",
       "vi": "revision",
       "id": "revision"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても改正"
   },
   {
     "id": "V1304",
@@ -16952,7 +19883,9 @@ const N4_VOCAB = [
       "ko": "improvement",
       "vi": "improvement",
       "id": "improvement"
-    }
+    },
+    "pos": "noun",
+    "ex": "改善について話す"
   },
   {
     "id": "V1305",
@@ -16965,7 +19898,9 @@ const N4_VOCAB = [
       "ko": "reform",
       "vi": "reform",
       "id": "reform"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "改革ことができる"
   },
   {
     "id": "V1306",
@@ -16978,7 +19913,9 @@ const N4_VOCAB = [
       "ko": "reform",
       "vi": "reform",
       "id": "reform"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "変革ことができる"
   },
   {
     "id": "V1307",
@@ -16991,7 +19928,9 @@ const N4_VOCAB = [
       "ko": "conversion",
       "vi": "conversion",
       "id": "conversion"
-    }
+    },
+    "pos": "noun",
+    "ex": "転換について話す"
   },
   {
     "id": "V1308",
@@ -17004,7 +19943,9 @@ const N4_VOCAB = [
       "ko": "transition",
       "vi": "transition",
       "id": "transition"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "移行ことができる"
   },
   {
     "id": "V1309",
@@ -17017,7 +19958,9 @@ const N4_VOCAB = [
       "ko": "introduction",
       "vi": "introduction",
       "id": "introduction"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "導入ことができる"
   },
   {
     "id": "V1310",
@@ -17030,7 +19973,9 @@ const N4_VOCAB = [
       "ko": "withdrawal",
       "vi": "withdrawal",
       "id": "withdrawal"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても撤退"
   },
   {
     "id": "V1311",
@@ -17043,7 +19988,9 @@ const N4_VOCAB = [
       "ko": "abolition",
       "vi": "abolition",
       "id": "abolition"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても撤廃"
   },
   {
     "id": "V1312",
@@ -17056,7 +20003,9 @@ const N4_VOCAB = [
       "ko": "abolition",
       "vi": "abolition",
       "id": "abolition"
-    }
+    },
+    "pos": "noun",
+    "ex": "廃止について話す"
   },
   {
     "id": "V1313",
@@ -17069,7 +20018,9 @@ const N4_VOCAB = [
       "ko": "resumption",
       "vi": "resumption",
       "id": "resumption"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても再開"
   },
   {
     "id": "V1314",
@@ -17082,7 +20033,9 @@ const N4_VOCAB = [
       "ko": "achievement",
       "vi": "achievement",
       "id": "achievement"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても達成"
   },
   {
     "id": "V1315",
@@ -17095,7 +20048,9 @@ const N4_VOCAB = [
       "ko": "realization",
       "vi": "realization",
       "id": "realization"
-    }
+    },
+    "pos": "noun",
+    "ex": "実現について話す"
   },
   {
     "id": "V1316",
@@ -17108,7 +20063,9 @@ const N4_VOCAB = [
       "ko": "establishment",
       "vi": "establishment",
       "id": "establishment"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "成立ことができる"
   },
   {
     "id": "V1317",
@@ -17121,7 +20078,9 @@ const N4_VOCAB = [
       "ko": "inauguration",
       "vi": "inauguration",
       "id": "inauguration"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "発足ことができる"
   },
   {
     "id": "V1318",
@@ -17134,7 +20093,9 @@ const N4_VOCAB = [
       "ko": "dissolution",
       "vi": "dissolution",
       "id": "dissolution"
-    }
+    },
+    "pos": "noun",
+    "ex": "解散について話す"
   },
   {
     "id": "V1319",
@@ -17147,7 +20108,9 @@ const N4_VOCAB = [
       "ko": "integration",
       "vi": "integration",
       "id": "integration"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "統合ことができる"
   },
   {
     "id": "V1320",
@@ -17160,7 +20123,9 @@ const N4_VOCAB = [
       "ko": "separation",
       "vi": "separation",
       "id": "separation"
-    }
+    },
+    "pos": "noun",
+    "ex": "分離について話す"
   },
   {
     "id": "V1321",
@@ -17173,7 +20138,9 @@ const N4_VOCAB = [
       "ko": "independence",
       "vi": "independence",
       "id": "independence"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "独立ことができる"
   },
   {
     "id": "V1322",
@@ -17186,7 +20153,9 @@ const N4_VOCAB = [
       "ko": "dependence",
       "vi": "dependence",
       "id": "dependence"
-    }
+    },
+    "pos": "noun",
+    "ex": "依存について話す"
   },
   {
     "id": "V1323",
@@ -17199,7 +20168,9 @@ const N4_VOCAB = [
       "ko": "cooperation",
       "vi": "cooperation",
       "id": "cooperation"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても連携"
   },
   {
     "id": "V1324",
@@ -17212,7 +20183,9 @@ const N4_VOCAB = [
       "ko": "cooperation",
       "vi": "cooperation",
       "id": "cooperation"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "協力ことができる"
   },
   {
     "id": "V1325",
@@ -17225,7 +20198,9 @@ const N4_VOCAB = [
       "ko": "opposition",
       "vi": "opposition",
       "id": "opposition"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "対立ことができる"
   },
   {
     "id": "V1326",
@@ -17238,7 +20213,9 @@ const N4_VOCAB = [
       "ko": "compromise",
       "vi": "compromise",
       "id": "compromise"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "妥協ことができる"
   },
   {
     "id": "V1327",
@@ -17251,7 +20228,9 @@ const N4_VOCAB = [
       "ko": "adjustment",
       "vi": "adjustment",
       "id": "adjustment"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても調整"
   },
   {
     "id": "V1328",
@@ -17264,7 +20243,9 @@ const N4_VOCAB = [
       "ko": "mediation",
       "vi": "mediation",
       "id": "mediation"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても仲介"
   },
   {
     "id": "V1329",
@@ -17277,7 +20258,9 @@ const N4_VOCAB = [
       "ko": "negotiation",
       "vi": "negotiation",
       "id": "negotiation"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "交渉ことができる"
   },
   {
     "id": "V1330",
@@ -17290,7 +20273,9 @@ const N4_VOCAB = [
       "ko": "conclusion",
       "vi": "conclusion",
       "id": "conclusion"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "締結ことができる"
   },
   {
     "id": "V1331",
@@ -17303,7 +20288,9 @@ const N4_VOCAB = [
       "ko": "performance",
       "vi": "performance",
       "id": "performance"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "履行ことができる"
   },
   {
     "id": "V1332",
@@ -17316,7 +20303,9 @@ const N4_VOCAB = [
       "ko": "violation",
       "vi": "violation",
       "id": "violation"
-    }
+    },
+    "pos": "noun",
+    "ex": "違反について話す"
   },
   {
     "id": "V1333",
@@ -17329,7 +20318,9 @@ const N4_VOCAB = [
       "ko": "cancellation",
       "vi": "cancellation",
       "id": "cancellation"
-    }
+    },
+    "pos": "noun",
+    "ex": "解除について話す"
   },
   {
     "id": "V1334",
@@ -17342,7 +20333,9 @@ const N4_VOCAB = [
       "ko": "termination",
       "vi": "termination",
       "id": "termination"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "解約ことができる"
   },
   {
     "id": "V1335",
@@ -17355,7 +20348,9 @@ const N4_VOCAB = [
       "ko": "increase",
       "vi": "increase",
       "id": "increase"
-    }
+    },
+    "pos": "noun",
+    "ex": "増加について話す"
   },
   {
     "id": "V1336",
@@ -17368,7 +20363,9 @@ const N4_VOCAB = [
       "ko": "decrease",
       "vi": "decrease",
       "id": "decrease"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "減少ことができる"
   },
   {
     "id": "V1337",
@@ -17381,7 +20378,9 @@ const N4_VOCAB = [
       "ko": "rise",
       "vi": "rise",
       "id": "rise"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "上昇ことができる"
   },
   {
     "id": "V1338",
@@ -17394,7 +20393,9 @@ const N4_VOCAB = [
       "ko": "descent",
       "vi": "descent",
       "id": "descent"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "下降ことができる"
   },
   {
     "id": "V1339",
@@ -17407,7 +20408,9 @@ const N4_VOCAB = [
       "ko": "improvement",
       "vi": "improvement",
       "id": "improvement"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "向上ことができる"
   },
   {
     "id": "V1340",
@@ -17420,7 +20423,9 @@ const N4_VOCAB = [
       "ko": "decline",
       "vi": "decline",
       "id": "decline"
-    }
+    },
+    "pos": "noun",
+    "ex": "低下について話す"
   },
   {
     "id": "V1341",
@@ -17433,7 +20438,9 @@ const N4_VOCAB = [
       "ko": "deterioration",
       "vi": "deterioration",
       "id": "deterioration"
-    }
+    },
+    "pos": "noun",
+    "ex": "悪化について話す"
   },
   {
     "id": "V1342",
@@ -17446,7 +20453,9 @@ const N4_VOCAB = [
       "ko": "recovery",
       "vi": "recovery",
       "id": "recovery"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "回復ことができる"
   },
   {
     "id": "V1343",
@@ -17459,7 +20468,9 @@ const N4_VOCAB = [
       "ko": "maintenance",
       "vi": "maintenance",
       "id": "maintenance"
-    }
+    },
+    "pos": "noun",
+    "ex": "維持について話す"
   },
   {
     "id": "V1344",
@@ -17472,7 +20483,9 @@ const N4_VOCAB = [
       "ko": "continuation",
       "vi": "continuation",
       "id": "continuation"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "継続ことができる"
   },
   {
     "id": "V1345",
@@ -17485,7 +20498,9 @@ const N4_VOCAB = [
       "ko": "interruption",
       "vi": "interruption",
       "id": "interruption"
-    }
+    },
+    "pos": "noun",
+    "ex": "中断について話す"
   },
   {
     "id": "V1346",
@@ -17498,7 +20513,9 @@ const N4_VOCAB = [
       "ko": "pause",
       "vi": "pause",
       "id": "pause"
-    }
+    },
+    "pos": "noun",
+    "ex": "休止について話す"
   },
   {
     "id": "V1347",
@@ -17511,7 +20528,9 @@ const N4_VOCAB = [
       "ko": "activity",
       "vi": "activity",
       "id": "activity"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "活動ことができる"
   },
   {
     "id": "V1348",
@@ -17524,7 +20543,9 @@ const N4_VOCAB = [
       "ko": "execution",
       "vi": "execution",
       "id": "execution"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "実行ことができる"
   },
   {
     "id": "V1349",
@@ -17537,7 +20558,9 @@ const N4_VOCAB = [
       "ko": "accomplishment",
       "vi": "accomplishment",
       "id": "accomplishment"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "遂行ことができる"
   },
   {
     "id": "V1350",
@@ -17550,7 +20573,9 @@ const N4_VOCAB = [
       "ko": "promotion",
       "vi": "promotion",
       "id": "promotion"
-    }
+    },
+    "pos": "noun",
+    "ex": "推進について話す"
   },
   {
     "id": "V1351",
@@ -17563,7 +20588,9 @@ const N4_VOCAB = [
       "ko": "acceleration",
       "vi": "acceleration",
       "id": "acceleration"
-    }
+    },
+    "pos": "noun",
+    "ex": "促進について話す"
   },
   {
     "id": "V1352",
@@ -17576,7 +20603,9 @@ const N4_VOCAB = [
       "ko": "restraint",
       "vi": "restraint",
       "id": "restraint"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても抑制"
   },
   {
     "id": "V1353",
@@ -17589,7 +20618,9 @@ const N4_VOCAB = [
       "ko": "regulation",
       "vi": "regulation",
       "id": "regulation"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても規制"
   },
   {
     "id": "V1354",
@@ -17602,7 +20633,9 @@ const N4_VOCAB = [
       "ko": "relaxation",
       "vi": "relaxation",
       "id": "relaxation"
-    }
+    },
+    "pos": "noun",
+    "ex": "緩和について話す"
   },
   {
     "id": "V1355",
@@ -17615,7 +20648,9 @@ const N4_VOCAB = [
       "ko": "strengthening",
       "vi": "strengthening",
       "id": "strengthening"
-    }
+    },
+    "pos": "noun",
+    "ex": "強化について話す"
   },
   {
     "id": "V1356",
@@ -17628,7 +20663,9 @@ const N4_VOCAB = [
       "ko": "weakening",
       "vi": "weakening",
       "id": "weakening"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても弱体"
   },
   {
     "id": "V1357",
@@ -17641,7 +20678,9 @@ const N4_VOCAB = [
       "ko": "enhancement",
       "vi": "enhancement",
       "id": "enhancement"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "充実ことができる"
   },
   {
     "id": "V1358",
@@ -17654,7 +20693,9 @@ const N4_VOCAB = [
       "ko": "maintenance",
       "vi": "maintenance",
       "id": "maintenance"
-    }
+    },
+    "pos": "noun",
+    "ex": "整備について話す"
   },
   {
     "id": "V1359",
@@ -17667,7 +20708,9 @@ const N4_VOCAB = [
       "ko": "response",
       "vi": "response",
       "id": "response"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "対応ことができる"
   },
   {
     "id": "V1360",
@@ -17680,7 +20723,9 @@ const N4_VOCAB = [
       "ko": "coping",
       "vi": "coping",
       "id": "coping"
-    }
+    },
+    "pos": "noun",
+    "ex": "対処について話す"
   },
   {
     "id": "V1361",
@@ -17693,7 +20738,9 @@ const N4_VOCAB = [
       "ko": "processing",
       "vi": "processing",
       "id": "processing"
-    }
+    },
+    "pos": "noun",
+    "ex": "処理について話す"
   },
   {
     "id": "V1362",
@@ -17706,7 +20753,9 @@ const N4_VOCAB = [
       "ko": "management",
       "vi": "management",
       "id": "management"
-    }
+    },
+    "pos": "noun",
+    "ex": "管理について話す"
   },
   {
     "id": "V1363",
@@ -17719,7 +20768,9 @@ const N4_VOCAB = [
       "ko": "monitoring",
       "vi": "monitoring",
       "id": "monitoring"
-    }
+    },
+    "pos": "noun",
+    "ex": "監視について話す"
   },
   {
     "id": "V1364",
@@ -17732,7 +20783,9 @@ const N4_VOCAB = [
       "ko": "inspection",
       "vi": "inspection",
       "id": "inspection"
-    }
+    },
+    "pos": "noun",
+    "ex": "点検について話す"
   },
   {
     "id": "V1365",
@@ -17745,7 +20798,9 @@ const N4_VOCAB = [
       "ko": "verification",
       "vi": "verification",
       "id": "verification"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "検証ことができる"
   },
   {
     "id": "V1366",
@@ -17758,7 +20813,9 @@ const N4_VOCAB = [
       "ko": "judgment",
       "vi": "judgment",
       "id": "judgment"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても判定"
   },
   {
     "id": "V1367",
@@ -17771,7 +20828,9 @@ const N4_VOCAB = [
       "ko": "selection",
       "vi": "selection",
       "id": "selection"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても選定"
   },
   {
     "id": "V1368",
@@ -17784,7 +20843,9 @@ const N4_VOCAB = [
       "ko": "rejection",
       "vi": "rejection",
       "id": "rejection"
-    }
+    },
+    "pos": "noun",
+    "ex": "却下について話す"
   },
   {
     "id": "V1369",
@@ -17797,7 +20858,9 @@ const N4_VOCAB = [
       "ko": "denial",
       "vi": "denial",
       "id": "denial"
-    }
+    },
+    "pos": "noun",
+    "ex": "否認について話す"
   },
   {
     "id": "V1370",
@@ -17810,7 +20873,9 @@ const N4_VOCAB = [
       "ko": "designation",
       "vi": "designation",
       "id": "designation"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても指定"
   },
   {
     "id": "V1371",
@@ -17823,7 +20888,9 @@ const N4_VOCAB = [
       "ko": "issuance",
       "vi": "issuance",
       "id": "issuance"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても発令"
   },
   {
     "id": "V1372",
@@ -17836,7 +20903,9 @@ const N4_VOCAB = [
       "ko": "enforcement",
       "vi": "enforcement",
       "id": "enforcement"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "施行ことができる"
   },
   {
     "id": "V1373",
@@ -17849,7 +20918,9 @@ const N4_VOCAB = [
       "ko": "application",
       "vi": "application",
       "id": "application"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "適用ことができる"
   },
   {
     "id": "V1374",
@@ -17862,7 +20933,9 @@ const N4_VOCAB = [
       "ko": "exclusion",
       "vi": "exclusion",
       "id": "exclusion"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても除外"
   },
   {
     "id": "V1375",
@@ -17875,7 +20948,9 @@ const N4_VOCAB = [
       "ko": "target",
       "vi": "target",
       "id": "target"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "対象ことができる"
   },
   {
     "id": "V1376",
@@ -17888,7 +20963,9 @@ const N4_VOCAB = [
       "ko": "standard",
       "vi": "standard",
       "id": "standard"
-    }
+    },
+    "pos": "noun",
+    "ex": "基準について話す"
   },
   {
     "id": "V1377",
@@ -17901,7 +20978,9 @@ const N4_VOCAB = [
       "ko": "condition",
       "vi": "condition",
       "id": "condition"
-    }
+    },
+    "pos": "noun",
+    "ex": "条件について話す"
   },
   {
     "id": "V1378",
@@ -17914,7 +20993,9 @@ const N4_VOCAB = [
       "ko": "requirement",
       "vi": "requirement",
       "id": "requirement"
-    }
+    },
+    "pos": "noun",
+    "ex": "要件について話す"
   },
   {
     "id": "V1379",
@@ -17927,7 +21008,9 @@ const N4_VOCAB = [
       "ko": "authority",
       "vi": "authority",
       "id": "authority"
-    }
+    },
+    "pos": "noun",
+    "ex": "権限について話す"
   },
   {
     "id": "V1380",
@@ -17940,7 +21023,9 @@ const N4_VOCAB = [
       "ko": "function",
       "vi": "function",
       "id": "function"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "機能ことができる"
   },
   {
     "id": "V1381",
@@ -17953,7 +21038,9 @@ const N4_VOCAB = [
       "ko": "performance",
       "vi": "performance",
       "id": "performance"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "性能ことができる"
   },
   {
     "id": "V1382",
@@ -17966,7 +21053,9 @@ const N4_VOCAB = [
       "ko": "effect",
       "vi": "effect",
       "id": "effect"
-    }
+    },
+    "pos": "noun",
+    "ex": "効果について話す"
   },
   {
     "id": "V1383",
@@ -17979,7 +21068,14 @@ const N4_VOCAB = [
       "ko": "influence",
       "vi": "influence",
       "id": "influence"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "健康に影響がある",
+    "syn": [
+      "作用",
+      "効果",
+      "インパクト"
+    ]
   },
   {
     "id": "V1384",
@@ -17992,7 +21088,9 @@ const N4_VOCAB = [
       "ko": "achievement",
       "vi": "achievement",
       "id": "achievement"
-    }
+    },
+    "pos": "noun",
+    "ex": "成果について話す"
   },
   {
     "id": "V1385",
@@ -18005,7 +21103,9 @@ const N4_VOCAB = [
       "ko": "track record",
       "vi": "track record",
       "id": "track record"
-    }
+    },
+    "pos": "noun",
+    "ex": "実績について話す"
   },
   {
     "id": "V1386",
@@ -18018,7 +21118,9 @@ const N4_VOCAB = [
       "ko": "performance",
       "vi": "performance",
       "id": "performance"
-    }
+    },
+    "pos": "noun",
+    "ex": "業績について話す"
   },
   {
     "id": "V1387",
@@ -18031,7 +21133,9 @@ const N4_VOCAB = [
       "ko": "reputation",
       "vi": "reputation",
       "id": "reputation"
-    }
+    },
+    "pos": "noun",
+    "ex": "評判について話す"
   },
   {
     "id": "V1388",
@@ -18044,7 +21148,9 @@ const N4_VOCAB = [
       "ko": "credit",
       "vi": "credit",
       "id": "credit"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "信用ことができる"
   },
   {
     "id": "V1389",
@@ -18057,7 +21163,9 @@ const N4_VOCAB = [
       "ko": "ability",
       "vi": "ability",
       "id": "ability"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "実力ことができる"
   },
   {
     "id": "V1390",
@@ -18070,7 +21178,9 @@ const N4_VOCAB = [
       "ko": "education",
       "vi": "education",
       "id": "education"
-    }
+    },
+    "pos": "noun",
+    "ex": "学歴について話す"
   },
   {
     "id": "V1391",
@@ -18083,7 +21193,9 @@ const N4_VOCAB = [
       "ko": "career",
       "vi": "career",
       "id": "career"
-    }
+    },
+    "pos": "noun",
+    "ex": "職歴について話す"
   },
   {
     "id": "V1392",
@@ -18096,7 +21208,9 @@ const N4_VOCAB = [
       "ko": "history",
       "vi": "history",
       "id": "history"
-    }
+    },
+    "pos": "noun",
+    "ex": "履歴について話す"
   },
   {
     "id": "V1393",
@@ -18109,7 +21223,9 @@ const N4_VOCAB = [
       "ko": "background",
       "vi": "background",
       "id": "background"
-    }
+    },
+    "pos": "noun",
+    "ex": "経歴について話す"
   },
   {
     "id": "V1394",
@@ -18122,7 +21238,9 @@ const N4_VOCAB = [
       "ko": "brief history",
       "vi": "brief history",
       "id": "brief history"
-    }
+    },
+    "pos": "noun",
+    "ex": "略歴について話す"
   },
   {
     "id": "V1395",
@@ -18135,7 +21253,9 @@ const N4_VOCAB = [
       "ko": "details",
       "vi": "details",
       "id": "details"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても詳細"
   },
   {
     "id": "V1396",
@@ -18148,7 +21268,9 @@ const N4_VOCAB = [
       "ko": "outline",
       "vi": "outline",
       "id": "outline"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "概要ことができる"
   },
   {
     "id": "V1397",
@@ -18161,7 +21283,9 @@ const N4_VOCAB = [
       "ko": "summary",
       "vi": "summary",
       "id": "summary"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "要約ことができる"
   },
   {
     "id": "V1398",
@@ -18174,7 +21298,9 @@ const N4_VOCAB = [
       "ko": "main point",
       "vi": "main point",
       "id": "main point"
-    }
+    },
+    "pos": "noun",
+    "ex": "要点について話す"
   },
   {
     "id": "V1399",
@@ -18187,7 +21313,9 @@ const N4_VOCAB = [
       "ko": "issue",
       "vi": "issue",
       "id": "issue"
-    }
+    },
+    "pos": "noun",
+    "ex": "論点について話す"
   },
   {
     "id": "V1400",
@@ -18200,7 +21328,9 @@ const N4_VOCAB = [
       "ko": "point of contention",
       "vi": "point of contention",
       "id": "point of contention"
-    }
+    },
+    "pos": "noun",
+    "ex": "争点について話す"
   },
   {
     "id": "V1401",
@@ -18213,7 +21343,9 @@ const N4_VOCAB = [
       "ko": "focus",
       "vi": "focus",
       "id": "focus"
-    }
+    },
+    "pos": "noun",
+    "ex": "焦点について話す"
   },
   {
     "id": "V1402",
@@ -18226,7 +21358,9 @@ const N4_VOCAB = [
       "ko": "viewpoint",
       "vi": "viewpoint",
       "id": "viewpoint"
-    }
+    },
+    "pos": "noun",
+    "ex": "視点について話す"
   },
   {
     "id": "V1403",
@@ -18239,7 +21373,9 @@ const N4_VOCAB = [
       "ko": "perspective",
       "vi": "perspective",
       "id": "perspective"
-    }
+    },
+    "pos": "noun",
+    "ex": "観点について話す"
   },
   {
     "id": "V1404",
@@ -18252,7 +21388,9 @@ const N4_VOCAB = [
       "ko": "standpoint",
       "vi": "standpoint",
       "id": "standpoint"
-    }
+    },
+    "pos": "noun",
+    "ex": "立場について話す"
   },
   {
     "id": "V1405",
@@ -18265,7 +21403,9 @@ const N4_VOCAB = [
       "ko": "view",
       "vi": "view",
       "id": "view"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても見解"
   },
   {
     "id": "V1406",
@@ -18278,7 +21418,9 @@ const N4_VOCAB = [
       "ko": "way of thinking",
       "vi": "way of thinking",
       "id": "way of thinking"
-    }
+    },
+    "pos": "noun",
+    "ex": "考え方について話す"
   },
   {
     "id": "V1407",
@@ -18291,7 +21433,9 @@ const N4_VOCAB = [
       "ko": "policy",
       "vi": "policy",
       "id": "policy"
-    }
+    },
+    "pos": "noun",
+    "ex": "方針について話す"
   },
   {
     "id": "V1408",
@@ -18304,7 +21448,9 @@ const N4_VOCAB = [
       "ko": "goal",
       "vi": "goal",
       "id": "goal"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "目標ことができる"
   },
   {
     "id": "V1409",
@@ -18317,7 +21463,9 @@ const N4_VOCAB = [
       "ko": "aim",
       "vi": "aim",
       "id": "aim"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても狙い"
   },
   {
     "id": "V1410",
@@ -18330,7 +21478,9 @@ const N4_VOCAB = [
       "ko": "purpose",
       "vi": "purpose",
       "id": "purpose"
-    }
+    },
+    "pos": "noun",
+    "ex": "趣旨について話す"
   },
   {
     "id": "V1411",
@@ -18343,7 +21493,9 @@ const N4_VOCAB = [
       "ko": "principle",
       "vi": "principle",
       "id": "principle"
-    }
+    },
+    "pos": "noun",
+    "ex": "理念について話す"
   },
   {
     "id": "V1412",
@@ -18356,7 +21508,9 @@ const N4_VOCAB = [
       "ko": "conviction",
       "vi": "conviction",
       "id": "conviction"
-    }
+    },
+    "pos": "noun",
+    "ex": "信念について話す"
   },
   {
     "id": "V1413",
@@ -18369,7 +21523,9 @@ const N4_VOCAB = [
       "ko": "values",
       "vi": "values",
       "id": "values"
-    }
+    },
+    "pos": "noun",
+    "ex": "価値観について話す"
   },
   {
     "id": "V1414",
@@ -18382,7 +21538,9 @@ const N4_VOCAB = [
       "ko": "worldview",
       "vi": "worldview",
       "id": "worldview"
-    }
+    },
+    "pos": "noun",
+    "ex": "世界観について話す"
   },
   {
     "id": "V1415",
@@ -18395,7 +21553,9 @@ const N4_VOCAB = [
       "ko": "view of life",
       "vi": "view of life",
       "id": "view of life"
-    }
+    },
+    "pos": "noun",
+    "ex": "人生観について話す"
   },
   {
     "id": "V1416",
@@ -18408,7 +21568,9 @@ const N4_VOCAB = [
       "ko": "view of life and death",
       "vi": "view of life and death",
       "id": "view of life and death"
-    }
+    },
+    "pos": "noun",
+    "ex": "死生観について話す"
   },
   {
     "id": "V1417",
@@ -18421,7 +21583,9 @@ const N4_VOCAB = [
       "ko": "common sense",
       "vi": "common sense",
       "id": "common sense"
-    }
+    },
+    "pos": "noun",
+    "ex": "常識について話す"
   },
   {
     "id": "V1418",
@@ -18434,7 +21598,9 @@ const N4_VOCAB = [
       "ko": "good sense",
       "vi": "good sense",
       "id": "good sense"
-    }
+    },
+    "pos": "noun",
+    "ex": "良識について話す"
   },
   {
     "id": "V1419",
@@ -18447,7 +21613,9 @@ const N4_VOCAB = [
       "ko": "morality",
       "vi": "morality",
       "id": "morality"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "道徳ことができる"
   },
   {
     "id": "V1420",
@@ -18460,7 +21628,9 @@ const N4_VOCAB = [
       "ko": "ethics",
       "vi": "ethics",
       "id": "ethics"
-    }
+    },
+    "pos": "noun",
+    "ex": "倫理について話す"
   },
   {
     "id": "V1421",
@@ -18473,7 +21643,9 @@ const N4_VOCAB = [
       "ko": "etiquette",
       "vi": "etiquette",
       "id": "etiquette"
-    }
+    },
+    "pos": "noun",
+    "ex": "礼儀について話す"
   },
   {
     "id": "V1422",
@@ -18486,7 +21658,9 @@ const N4_VOCAB = [
       "ko": "manners",
       "vi": "manners",
       "id": "manners"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "作法ことができる"
   },
   {
     "id": "V1423",
@@ -18499,7 +21673,9 @@ const N4_VOCAB = [
       "ko": "behavior",
       "vi": "behavior",
       "id": "behavior"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても振る舞い"
   },
   {
     "id": "V1424",
@@ -18512,7 +21688,9 @@ const N4_VOCAB = [
       "ko": "souvenir",
       "vi": "souvenir",
       "id": "souvenir"
-    }
+    },
+    "pos": "noun",
+    "ex": "お土産について話す"
   },
   {
     "id": "V1425",
@@ -18525,7 +21703,9 @@ const N4_VOCAB = [
       "ko": "pedestrian crossing",
       "vi": "pedestrian crossing",
       "id": "pedestrian crossing"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "横断歩道ことができる"
   },
   {
     "id": "V1426",
@@ -18538,7 +21718,9 @@ const N4_VOCAB = [
       "ko": "pedestrian bridge",
       "vi": "pedestrian bridge",
       "id": "pedestrian bridge"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "歩道橋ことができる"
   },
   {
     "id": "V1427",
@@ -18551,7 +21733,9 @@ const N4_VOCAB = [
       "ko": "worry",
       "vi": "worry",
       "id": "worry"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても心配"
   },
   {
     "id": "V1428",
@@ -18564,7 +21748,9 @@ const N4_VOCAB = [
       "ko": "relief",
       "vi": "relief",
       "id": "relief"
-    }
+    },
+    "pos": "noun",
+    "ex": "安心について話す"
   },
   {
     "id": "V1429",
@@ -18577,7 +21763,14 @@ const N4_VOCAB = [
       "ko": "sad",
       "vi": "sad",
       "id": "sad"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "別れが悲しい",
+    "syn": [
+      "寂しい",
+      "切ない",
+      "哀しい"
+    ]
   },
   {
     "id": "V1430",
@@ -18590,7 +21783,9 @@ const N4_VOCAB = [
       "ko": "lonely",
       "vi": "lonely",
       "id": "lonely"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても寂しい"
   },
   {
     "id": "V1431",
@@ -18603,7 +21798,9 @@ const N4_VOCAB = [
       "ko": "envious",
       "vi": "envious",
       "id": "envious"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても羨ましい"
   },
   {
     "id": "V1432",
@@ -18616,7 +21813,9 @@ const N4_VOCAB = [
       "ko": "nostalgic",
       "vi": "nostalgic",
       "id": "nostalgic"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても懐かしい"
   },
   {
     "id": "V1433",
@@ -18629,7 +21828,14 @@ const N4_VOCAB = [
       "ko": "rare",
       "vi": "rare",
       "id": "rare"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "珍しい花を見る",
+    "syn": [
+      "希少",
+      "まれ",
+      "稀有"
+    ]
   },
   {
     "id": "V1434",
@@ -18642,7 +21848,9 @@ const N4_VOCAB = [
       "ko": "frightening",
       "vi": "frightening",
       "id": "frightening"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても恐ろしい"
   },
   {
     "id": "V1435",
@@ -18655,7 +21863,14 @@ const N4_VOCAB = [
       "ko": "correct",
       "vi": "correct",
       "id": "correct"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "正しい答えを選ぶ",
+    "syn": [
+      "正確",
+      "適切",
+      "妥当"
+    ]
   },
   {
     "id": "V1436",
@@ -18668,7 +21883,14 @@ const N4_VOCAB = [
       "ko": "kind",
       "vi": "kind",
       "id": "kind"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "彼女は優しい",
+    "syn": [
+      "親切",
+      "温かい",
+      "思いやりがある"
+    ]
   },
   {
     "id": "V1437",
@@ -18681,7 +21903,14 @@ const N4_VOCAB = [
       "ko": "strict",
       "vi": "strict",
       "id": "strict"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "先生は厳しい",
+    "syn": [
+      "厳格",
+      "手厳しい",
+      "きつい"
+    ]
   },
   {
     "id": "V1438",
@@ -18694,7 +21923,9 @@ const N4_VOCAB = [
       "ko": "intense",
       "vi": "intense",
       "id": "intense"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても激しい"
   },
   {
     "id": "V1439",
@@ -18707,7 +21938,9 @@ const N4_VOCAB = [
       "ko": "detailed",
       "vi": "detailed",
       "id": "detailed"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても詳しい"
   },
   {
     "id": "V1440",
@@ -18720,7 +21953,9 @@ const N4_VOCAB = [
       "ko": "close/friendly",
       "vi": "close/friendly",
       "id": "close/friendly"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても親しい"
   },
   {
     "id": "V1441",
@@ -18733,7 +21968,9 @@ const N4_VOCAB = [
       "ko": "equal",
       "vi": "equal",
       "id": "equal"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても等しい"
   },
   {
     "id": "V1442",
@@ -18746,7 +21983,9 @@ const N4_VOCAB = [
       "ko": "busy",
       "vi": "busy",
       "id": "busy"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても忙しい"
   },
   {
     "id": "V1443",
@@ -18759,7 +21998,9 @@ const N4_VOCAB = [
       "ko": "painful",
       "vi": "painful",
       "id": "painful"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても苦しい"
   },
   {
     "id": "V1444",
@@ -18772,7 +22013,14 @@ const N4_VOCAB = [
       "ko": "fun",
       "vi": "fun",
       "id": "fun"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "旅行は楽しい",
+    "syn": [
+      "愉快",
+      "面白い",
+      "わくわくする"
+    ]
   },
   {
     "id": "V1445",
@@ -18785,7 +22033,9 @@ const N4_VOCAB = [
       "ko": "beautiful",
       "vi": "beautiful",
       "id": "beautiful"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても美しい"
   },
   {
     "id": "V1446",
@@ -18798,7 +22048,9 @@ const N4_VOCAB = [
       "ko": "new",
       "vi": "new",
       "id": "new"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても新しい"
   },
   {
     "id": "V1447",
@@ -18811,7 +22063,9 @@ const N4_VOCAB = [
       "ko": "old",
       "vi": "old",
       "id": "old"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても古い"
   },
   {
     "id": "V1448",
@@ -18824,7 +22078,9 @@ const N4_VOCAB = [
       "ko": "bright",
       "vi": "bright",
       "id": "bright"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても明るい"
   },
   {
     "id": "V1449",
@@ -18837,7 +22093,9 @@ const N4_VOCAB = [
       "ko": "dark",
       "vi": "dark",
       "id": "dark"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても暗い"
   },
   {
     "id": "V1450",
@@ -18850,7 +22108,9 @@ const N4_VOCAB = [
       "ko": "wide",
       "vi": "wide",
       "id": "wide"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても広い"
   },
   {
     "id": "V1451",
@@ -18863,7 +22123,9 @@ const N4_VOCAB = [
       "ko": "narrow",
       "vi": "narrow",
       "id": "narrow"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても狭い"
   },
   {
     "id": "V1452",
@@ -18876,7 +22138,9 @@ const N4_VOCAB = [
       "ko": "shallow",
       "vi": "shallow",
       "id": "shallow"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても浅い"
   },
   {
     "id": "V1453",
@@ -18889,7 +22153,9 @@ const N4_VOCAB = [
       "ko": "thick",
       "vi": "thick",
       "id": "thick"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても太い"
   },
   {
     "id": "V1454",
@@ -18902,7 +22168,9 @@ const N4_VOCAB = [
       "ko": "hard",
       "vi": "hard",
       "id": "hard"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても固い"
   },
   {
     "id": "V1455",
@@ -18915,7 +22183,9 @@ const N4_VOCAB = [
       "ko": "soft",
       "vi": "soft",
       "id": "soft"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても柔らかい"
   },
   {
     "id": "V1456",
@@ -18928,7 +22198,9 @@ const N4_VOCAB = [
       "ko": "heavy",
       "vi": "heavy",
       "id": "heavy"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても重い"
   },
   {
     "id": "V1457",
@@ -18941,7 +22213,9 @@ const N4_VOCAB = [
       "ko": "light",
       "vi": "light",
       "id": "light"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても軽い"
   },
   {
     "id": "V1458",
@@ -18954,7 +22228,9 @@ const N4_VOCAB = [
       "ko": "fast",
       "vi": "fast",
       "id": "fast"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても速い"
   },
   {
     "id": "V1459",
@@ -18967,7 +22243,9 @@ const N4_VOCAB = [
       "ko": "slow",
       "vi": "slow",
       "id": "slow"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても遅い"
   },
   {
     "id": "V1460",
@@ -18980,7 +22258,9 @@ const N4_VOCAB = [
       "ko": "near",
       "vi": "near",
       "id": "near"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても近い"
   },
   {
     "id": "V1461",
@@ -18993,7 +22273,9 @@ const N4_VOCAB = [
       "ko": "far",
       "vi": "far",
       "id": "far"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても遠い"
   },
   {
     "id": "V1462",
@@ -19006,7 +22288,9 @@ const N4_VOCAB = [
       "ko": "long",
       "vi": "long",
       "id": "long"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても長い"
   },
   {
     "id": "V1463",
@@ -19019,7 +22303,9 @@ const N4_VOCAB = [
       "ko": "short",
       "vi": "short",
       "id": "short"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても短い"
   },
   {
     "id": "V1464",
@@ -19032,7 +22318,9 @@ const N4_VOCAB = [
       "ko": "high/expensive",
       "vi": "high/expensive",
       "id": "high/expensive"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても高い"
   },
   {
     "id": "V1465",
@@ -19045,7 +22333,9 @@ const N4_VOCAB = [
       "ko": "low",
       "vi": "low",
       "id": "low"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても低い"
   },
   {
     "id": "V1466",
@@ -19058,7 +22348,9 @@ const N4_VOCAB = [
       "ko": "cheap",
       "vi": "cheap",
       "id": "cheap"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても安い"
   },
   {
     "id": "V1467",
@@ -19071,7 +22363,9 @@ const N4_VOCAB = [
       "ko": "tool",
       "vi": "tool",
       "id": "tool"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "道具ことができる"
   },
   {
     "id": "V1468",
@@ -19084,7 +22378,9 @@ const N4_VOCAB = [
       "ko": "goods",
       "vi": "goods",
       "id": "goods"
-    }
+    },
+    "pos": "noun",
+    "ex": "品物について話す"
   },
   {
     "id": "V1469",
@@ -19097,7 +22393,9 @@ const N4_VOCAB = [
       "ko": "to apply",
       "vi": "to apply",
       "id": "to apply"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "申込むことができる"
   },
   {
     "id": "V1470",
@@ -19110,7 +22408,9 @@ const N4_VOCAB = [
       "ko": "proof",
       "vi": "proof",
       "id": "proof"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても証明"
   },
   {
     "id": "V1471",
@@ -19123,7 +22423,9 @@ const N4_VOCAB = [
       "ko": "understanding",
       "vi": "understanding",
       "id": "understanding"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても了解"
   },
   {
     "id": "V1472",
@@ -19136,7 +22438,9 @@ const N4_VOCAB = [
       "ko": "consent",
       "vi": "consent",
       "id": "consent"
-    }
+    },
+    "pos": "noun",
+    "ex": "承知について話す"
   },
   {
     "id": "V1473",
@@ -19149,7 +22453,9 @@ const N4_VOCAB = [
       "ko": "agreement",
       "vi": "agreement",
       "id": "agreement"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても同意"
   },
   {
     "id": "V1474",
@@ -19162,7 +22468,9 @@ const N4_VOCAB = [
       "ko": "transaction",
       "vi": "transaction",
       "id": "transaction"
-    }
+    },
+    "pos": "noun",
+    "ex": "取引について話す"
   },
   {
     "id": "V1475",
@@ -19175,7 +22483,9 @@ const N4_VOCAB = [
       "ko": "meeting",
       "vi": "meeting",
       "id": "meeting"
-    }
+    },
+    "pos": "noun",
+    "ex": "打ち合わせについて話す"
   },
   {
     "id": "V1476",
@@ -19188,7 +22498,9 @@ const N4_VOCAB = [
       "ko": "discussion",
       "vi": "discussion",
       "id": "discussion"
-    }
+    },
+    "pos": "noun",
+    "ex": "議論について話す"
   },
   {
     "id": "V1477",
@@ -19201,7 +22513,9 @@ const N4_VOCAB = [
       "ko": "notice",
       "vi": "notice",
       "id": "notice"
-    }
+    },
+    "pos": "noun",
+    "ex": "通知について話す"
   },
   {
     "id": "V1478",
@@ -19214,7 +22528,9 @@ const N4_VOCAB = [
       "ko": "invitation",
       "vi": "invitation",
       "id": "invitation"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても招待"
   },
   {
     "id": "V1479",
@@ -19227,7 +22543,9 @@ const N4_VOCAB = [
       "ko": "welcome",
       "vi": "welcome",
       "id": "welcome"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても歓迎"
   },
   {
     "id": "V1480",
@@ -19240,7 +22558,9 @@ const N4_VOCAB = [
       "ko": "seeing off",
       "vi": "seeing off",
       "id": "seeing off"
-    }
+    },
+    "pos": "noun",
+    "ex": "見送りについて話す"
   },
   {
     "id": "V1481",
@@ -19253,7 +22573,9 @@ const N4_VOCAB = [
       "ko": "meeting someone",
       "vi": "meeting someone",
       "id": "meeting someone"
-    }
+    },
+    "pos": "noun",
+    "ex": "出迎えについて話す"
   },
   {
     "id": "V1482",
@@ -19266,7 +22588,9 @@ const N4_VOCAB = [
       "ko": "parting",
       "vi": "parting",
       "id": "parting"
-    }
+    },
+    "pos": "noun",
+    "ex": "別れについて話す"
   },
   {
     "id": "V1483",
@@ -19279,7 +22603,9 @@ const N4_VOCAB = [
       "ko": "reunion",
       "vi": "reunion",
       "id": "reunion"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても再会"
   },
   {
     "id": "V1484",
@@ -19292,7 +22618,9 @@ const N4_VOCAB = [
       "ko": "greeting",
       "vi": "greeting",
       "id": "greeting"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "挨拶ことができる"
   },
   {
     "id": "V1485",
@@ -19305,7 +22633,9 @@ const N4_VOCAB = [
       "ko": "thanks",
       "vi": "thanks",
       "id": "thanks"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とてもお礼"
   },
   {
     "id": "V1486",
@@ -19318,7 +22648,9 @@ const N4_VOCAB = [
       "ko": "apology",
       "vi": "apology",
       "id": "apology"
-    }
+    },
+    "pos": "noun",
+    "ex": "お詫びについて話す"
   },
   {
     "id": "V1487",
@@ -19331,7 +22663,9 @@ const N4_VOCAB = [
       "ko": "celebration",
       "vi": "celebration",
       "id": "celebration"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とてもお祝い"
   },
   {
     "id": "V1488",
@@ -19344,7 +22678,9 @@ const N4_VOCAB = [
       "ko": "visit to sick person",
       "vi": "visit to sick person",
       "id": "visit to sick person"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とてもお見舞い"
   },
   {
     "id": "V1489",
@@ -19357,7 +22693,9 @@ const N4_VOCAB = [
       "ko": "gift",
       "vi": "gift",
       "id": "gift"
-    }
+    },
+    "pos": "noun",
+    "ex": "贈り物について話す"
   },
   {
     "id": "V1490",
@@ -19370,7 +22708,9 @@ const N4_VOCAB = [
       "ko": "present",
       "vi": "present",
       "id": "present"
-    }
+    },
+    "pos": "noun",
+    "ex": "プレゼントについて話す"
   },
   {
     "id": "V1491",
@@ -19383,7 +22723,9 @@ const N4_VOCAB = [
       "ko": "commemoration",
       "vi": "commemoration",
       "id": "commemoration"
-    }
+    },
+    "pos": "noun",
+    "ex": "記念について話す"
   },
   {
     "id": "V1492",
@@ -19396,7 +22738,9 @@ const N4_VOCAB = [
       "ko": "trigger",
       "vi": "trigger",
       "id": "trigger"
-    }
+    },
+    "pos": "noun",
+    "ex": "きっかけについて話す"
   },
   {
     "id": "V1493",
@@ -19409,7 +22753,9 @@ const N4_VOCAB = [
       "ko": "motive",
       "vi": "motive",
       "id": "motive"
-    }
+    },
+    "pos": "noun",
+    "ex": "動機について話す"
   },
   {
     "id": "V1494",
@@ -19422,7 +22768,9 @@ const N4_VOCAB = [
       "ko": "wish",
       "vi": "wish",
       "id": "wish"
-    }
+    },
+    "pos": "i-adj",
+    "ex": "とても願い"
   },
   {
     "id": "V1495",
@@ -19435,7 +22783,9 @@ const N4_VOCAB = [
       "ko": "ideal",
       "vi": "ideal",
       "id": "ideal"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "理想ことができる"
   },
   {
     "id": "V1496",
@@ -19448,7 +22798,9 @@ const N4_VOCAB = [
       "ko": "reality",
       "vi": "reality",
       "id": "reality"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "現実ことができる"
   },
   {
     "id": "V1497",
@@ -19461,7 +22813,9 @@ const N4_VOCAB = [
       "ko": "unnecessary",
       "vi": "unnecessary",
       "id": "unnecessary"
-    }
+    },
+    "pos": "verb-godan",
+    "ex": "不要ことができる"
   },
   {
     "id": "V1498",
@@ -19474,7 +22828,9 @@ const N4_VOCAB = [
       "ko": "inevitable",
       "vi": "inevitable",
       "id": "inevitable"
-    }
+    },
+    "pos": "noun",
+    "ex": "必然について話す"
   },
   {
     "id": "V1499",
@@ -19487,7 +22843,9 @@ const N4_VOCAB = [
       "ko": "coincidence",
       "vi": "coincidence",
       "id": "coincidence"
-    }
+    },
+    "pos": "noun",
+    "ex": "偶然について話す"
   },
   {
     "id": "V1500",
@@ -19500,8 +22858,8 @@ const N4_VOCAB = [
       "ko": "naturally",
       "vi": "naturally",
       "id": "naturally"
-    }
+    },
+    "pos": "noun",
+    "ex": "当然について話す"
   }
 ];
-
-if (typeof module !== 'undefined') module.exports = { N4_VOCAB };
