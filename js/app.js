@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.14.2';
+const APP_VERSION = '18.14.3';
 const STORAGE_KEY = 'fujisan_v1737';
 
 // ========== UI TRANSLATIONS ==========
@@ -123,6 +123,20 @@ const UI_TEXTS = {
     srs_later: "this week",
     srs_start: "Start Review",
     srs_no_items: "No items due for review!",
+    // Habit Tracker
+    habit_greeting_morning: "Good morning",
+    habit_greeting_afternoon: "Good afternoon",
+    habit_greeting_evening: "Good evening",
+    habit_day_streak: "day streak",
+    habit_min_today: "min today",
+    habit_dont_break: "don't break your",
+    habit_streak_suffix: "-day streak!",
+    habit_start_study: "start your study session!",
+    habit_more_minutes: "more minutes to reach your daily goal!",
+    // Daily Coach
+    habit_build_foundation: "let's build your foundation!",
+    habit_more_questions: "more questions to unlock personalized analysis.",
+    habit_journey_begun: "your journey has begun!",
     // Mock Result Report
     mock_report_analyzing: '🔍 AI is analyzing your results...',
     mock_report_strengths: 'Strengths',
@@ -431,6 +445,18 @@ const UI_TEXTS = {
     srs_later: "本週",
     srs_start: "開始複習",
     srs_no_items: "沒有待複習的項目！",
+    habit_greeting_morning: "早安",
+    habit_greeting_afternoon: "午安",
+    habit_greeting_evening: "晚安",
+    habit_day_streak: "天連續學習",
+    habit_min_today: "分鐘（今日）",
+    habit_dont_break: "不要中斷您的",
+    habit_streak_suffix: "天連續記錄！",
+    habit_start_study: "開始今天的學習吧！",
+    habit_more_minutes: "分鐘即可達成今日目標！",
+    habit_build_foundation: "來打好基礎吧！",
+    habit_more_questions: "題後即可解鎖個人化分析。",
+    habit_journey_begun: "您的學習之旅開始了！",
     mock_report_analyzing: '🔍 AI 正在分析您的結果...',
     mock_report_strengths: '優勢',
     mock_report_weaknesses: '需要加強的領域',
@@ -636,6 +662,18 @@ const UI_TEXTS = {
     srs_later: "本周",
     srs_start: "开始复习",
     srs_no_items: "没有待复习的项目！",
+    habit_greeting_morning: "早上好",
+    habit_greeting_afternoon: "下午好",
+    habit_greeting_evening: "晚上好",
+    habit_day_streak: "天连续学习",
+    habit_min_today: "分钟（今日）",
+    habit_dont_break: "不要中断您的",
+    habit_streak_suffix: "天连续记录！",
+    habit_start_study: "开始今天的学习吧！",
+    habit_more_minutes: "分钟即可达成今日目标！",
+    habit_build_foundation: "来打好基础吧！",
+    habit_more_questions: "题后即可解锁个人化分析。",
+    habit_journey_begun: "您的学习之旅开始了！",
     mock_report_analyzing: '🔍 AI 正在分析您的结果...',
     mock_report_strengths: '优势',
     mock_report_weaknesses: '需要加强的领域',
@@ -841,6 +879,18 @@ const UI_TEXTS = {
     srs_later: "이번 주",
     srs_start: "복습 시작",
     srs_no_items: "복습할 항목이 없습니다!",
+    habit_greeting_morning: "좋은 아침이에요",
+    habit_greeting_afternoon: "좋은 오후에요",
+    habit_greeting_evening: "좋은 저녁이에요",
+    habit_day_streak: "일 연속 학습",
+    habit_min_today: "분 (오늘)",
+    habit_dont_break: "연속 기록을 끊지 마세요!",
+    habit_streak_suffix: "일!",
+    habit_start_study: "오늘 학습을 시작하세요!",
+    habit_more_minutes: "분 더 하면 오늘 목표 달성!",
+    habit_build_foundation: "기초를 다져요!",
+    habit_more_questions: "문제 더 풀면 맞춤 분석이 열려요.",
+    habit_journey_begun: "학습 여정이 시작됐어요!",
     mock_report_analyzing: '🔍 AI가 결과를 분석 중입니다...',
     mock_report_strengths: '강점',
     mock_report_weaknesses: '개선이 필요한 부분',
@@ -1046,6 +1096,18 @@ const UI_TEXTS = {
     srs_later: "tuần này",
     srs_start: "Bắt đầu ôn",
     srs_no_items: "Không có mục nào cần ôn tập!",
+    habit_greeting_morning: "Chào buổi sáng",
+    habit_greeting_afternoon: "Chào buổi chiều",
+    habit_greeting_evening: "Chào buổi tối",
+    habit_day_streak: "ngày liên tục",
+    habit_min_today: "phút hôm nay",
+    habit_dont_break: "đừng phá vỡ chuỗi",
+    habit_streak_suffix: " ngày!",
+    habit_start_study: "bắt đầu học hôm nay!",
+    habit_more_minutes: "phút nữa để đạt mục tiêu!",
+    habit_build_foundation: "hãy xây dựng nền tảng!",
+    habit_more_questions: "câu nữa để mở khóa phân tích cá nhân.",
+    habit_journey_begun: "hành trình của bạn đã bắt đầu!",
     mock_report_analyzing: '🔍 AI đang phân tích kết quả của bạn...',
     mock_report_strengths: 'Điểm mạnh',
     mock_report_weaknesses: 'Cần cải thiện',
@@ -1234,6 +1296,18 @@ const UI_TEXTS = {
     srs_later: "minggu ini",
     srs_start: "Mulai Review",
     srs_no_items: "Tidak ada item untuk direview!",
+    habit_greeting_morning: "Selamat pagi",
+    habit_greeting_afternoon: "Selamat siang",
+    habit_greeting_evening: "Selamat malam",
+    habit_day_streak: "hari berturut-turut",
+    habit_min_today: "menit hari ini",
+    habit_dont_break: "jangan putus streak",
+    habit_streak_suffix: " hari!",
+    habit_start_study: "mulai belajar hari ini!",
+    habit_more_minutes: "menit lagi untuk capai target!",
+    habit_build_foundation: "mari bangun fondasi!",
+    habit_more_questions: "soal lagi untuk buka analisis personal.",
+    habit_journey_begun: "perjalanan Anda telah dimulai!",
     mock_report_analyzing: '🔍 AI sedang menganalisis hasil Anda...',
     mock_report_strengths: 'Kekuatan', mock_report_weaknesses: 'Perlu Ditingkatkan', mock_report_next_steps: 'Rencana Belajar',
     mock_report_error: 'Tidak dapat membuat laporan AI. Silakan coba lagi.',
@@ -6767,9 +6841,9 @@ function updateHabitTracker() {
   const greetingEl = document.getElementById('habit-greeting');
   if (greetingEl) {
     const hour = new Date().getHours();
-    let greeting = 'Good morning';
-    if (hour >= 12 && hour < 17) greeting = 'Good afternoon';
-    else if (hour >= 17) greeting = 'Good evening';
+    let greeting = getText('habit_greeting_morning') || 'Good morning';
+    if (hour >= 12 && hour < 17) greeting = getText('habit_greeting_afternoon') || 'Good afternoon';
+    else if (hour >= 17) greeting = getText('habit_greeting_evening') || 'Good evening';
     greetingEl.textContent = `${greeting}, ${prefs.userName}!`;
   }
   
@@ -6795,7 +6869,7 @@ function updateHabitTracker() {
   if (streakEl) {
     streakEl.innerHTML = `
       <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
-      <span><strong>${streak}</strong> day streak</span>
+      <span><strong>${streak}</strong> ${getText('habit_day_streak') || 'day streak'}</span>
     `;
   }
   
@@ -6803,7 +6877,7 @@ function updateHabitTracker() {
   if (todayEl) {
     todayEl.innerHTML = `
       <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-      <span><strong>${todayMinutes}</strong> min today</span>
+      <span><strong>${todayMinutes}</strong> ${getText('habit_min_today') || 'min today'}</span>
     `;
   }
   
@@ -6813,14 +6887,14 @@ function updateHabitTracker() {
   if (alertEl && alertTextEl) {
     if (todayMinutes === 0 && streak > 0) {
       alertEl.style.display = 'flex';
-      alertTextEl.textContent = `${prefs.userName}, don't break your ${streak}-day streak!`;
+      alertTextEl.textContent = `${prefs.userName}, ${getText('habit_dont_break') || "don't break your"} ${streak}${getText('habit_streak_suffix') || '-day streak!'}`;
     } else if (todayMinutes === 0) {
       alertEl.style.display = 'flex';
-      alertTextEl.textContent = `${prefs.userName}, start your study session!`;
+      alertTextEl.textContent = `${prefs.userName}, ${getText('habit_start_study') || 'start your study session!'}`;
     } else if (todayMinutes < (parseInt(prefs.studyTime) || 30)) {
       alertEl.style.display = 'flex';
       const remaining = (parseInt(prefs.studyTime) || 30) - todayMinutes;
-      alertTextEl.textContent = `${remaining} more minutes to reach your daily goal!`;
+      alertTextEl.textContent = `${remaining} ${getText('habit_more_minutes') || 'more minutes to reach your daily goal!'}`;
     } else {
       alertEl.style.display = 'none';
     }
@@ -6852,8 +6926,8 @@ function displayDailyCoach(prefs) {
   
   if (totalAnswers < 10) {
     // Still need more data
-    focusEl.textContent = `${prefs.userName}, let's build your foundation!`;
-    reasonEl.textContent = `Complete ${10 - totalAnswers} more questions to unlock personalized analysis.`;
+    focusEl.textContent = `${prefs.userName}, ${getText('habit_build_foundation') || "let's build your foundation!"}`;
+    reasonEl.textContent = `${10 - totalAnswers} ${getText('habit_more_questions') || 'more questions to unlock personalized analysis.'}`;
   } else {
     // Enough data - load AI analysis
     loadAICoach(false);
@@ -7455,7 +7529,7 @@ function startJourneyFromCoach() {
   const prefs = JSON.parse(localStorage.getItem('fujisan_coach_prefs') || '{}');
   const userName = prefs.userName || '';
   document.getElementById('ai-coach-focus').textContent = userName ? 
-    `${userName}, your journey has begun!` : 
+    `${userName}, ${getText('habit_journey_begun') || 'your journey has begun!'}` : 
     (getText('ai_coach_journey_started') || "Your journey has begun!");
   document.getElementById('ai-coach-reason').textContent = getText('ai_coach_journey_desc') || "Complete 10 questions to unlock your detailed weekly analysis.";
   
