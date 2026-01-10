@@ -215,6 +215,7 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
 .options.compact .option-btn { padding: 14px var(--space-md); }
 .option-btn { padding: var(--space-md) var(--space-lg); background: var(--card); border: 2px solid var(--border); border-radius: 14px; font-size: var(--font-md); font-weight: 500; cursor: pointer; text-align: left; transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94); box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
 .option-btn:active:not(:disabled) { transform: scale(0.98); box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+.option-btn.selected { border-color: var(--primary); background: rgba(0, 91, 172, 0.08); }
 .option-btn.correct { border-color: var(--success); background: var(--success-light); animation: successPop 0.3s ease; }
 .option-btn.incorrect { border-color: var(--error); background: var(--error-light); }
 .option-btn:disabled { pointer-events: none; }
