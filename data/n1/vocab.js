@@ -15,7 +15,7 @@ const N1_VOCAB = [
       "id": "pity"
     },
     "pos": "noun",
-    "ex": "哀れについて考える"
+    "ex": "哀れな姿に同情する"
   },
   {
     "id": "V0002",
@@ -30,7 +30,7 @@ const N1_VOCAB = [
       "id": "ambiguous"
     },
     "pos": "i-adj",
-    "ex": "とても曖昧と思う"
+    "ex": "曖昧な表現を避ける"
   },
   {
     "id": "V0003",
@@ -45,7 +45,7 @@ const N1_VOCAB = [
       "id": "to fan"
     },
     "pos": "verb-godan",
-    "ex": "煽ることにする"
+    "ex": "危機感を煽る発言"
   },
   {
     "id": "V0004",
@@ -60,7 +60,7 @@ const N1_VOCAB = [
       "id": "dawn"
     },
     "pos": "noun",
-    "ex": "暁について考える"
+    "ex": "成功の暁には感謝する"
   },
   {
     "id": "V0005",
@@ -75,7 +75,7 @@ const N1_VOCAB = [
       "id": "to reveal"
     },
     "pos": "verb-godan",
-    "ex": "明かすことにする"
+    "ex": "秘密を明かす"
   },
   {
     "id": "V0006",
@@ -105,7 +105,7 @@ const N1_VOCAB = [
       "id": "to tire of"
     },
     "pos": "verb-ichidan",
-    "ex": "飽きることにする"
+    "ex": "同じ仕事に飽きる"
   },
   {
     "id": "V0008",
@@ -120,7 +120,7 @@ const N1_VOCAB = [
       "id": "to be amazed"
     },
     "pos": "verb-ichidan",
-    "ex": "呆れることにする"
+    "ex": "彼の態度に呆れる"
   },
   {
     "id": "V0009",
@@ -135,7 +135,7 @@ const N1_VOCAB = [
       "id": "deterioration"
     },
     "pos": "noun",
-    "ex": "悪化について考える"
+    "ex": "病状が悪化する"
   },
   {
     "id": "V0010",
@@ -285,7 +285,7 @@ const N1_VOCAB = [
       "id": "berbahaya"
     },
     "pos": "i-adj",
-    "ex": "とても危ういと思う"
+    "ex": "立場が危うい"
   },
   {
     "id": "V0020",
@@ -345,7 +345,7 @@ const N1_VOCAB = [
       "id": "to compete"
     },
     "pos": "verb-godan",
-    "ex": "争うことにする"
+    "ex": "首位を争う展開"
   },
   {
     "id": "V0024",
@@ -360,7 +360,7 @@ const N1_VOCAB = [
       "id": "berubah"
     },
     "pos": "verb-ichidan",
-    "ex": "改めることにする"
+    "ex": "態度を改める"
   },
   {
     "id": "V0025",
@@ -465,7 +465,7 @@ const N1_VOCAB = [
       "id": "to worry"
     },
     "pos": "verb-godan",
-    "ex": "案じることにする"
+    "ex": "将来を案じる"
   },
   {
     "id": "V0032",
@@ -825,7 +825,7 @@ const N1_VOCAB = [
       "id": "to reach"
     },
     "pos": "verb-godan",
-    "ex": "至ることにする"
+    "ex": "結論に至る"
   },
   {
     "id": "V0056",
@@ -1410,7 +1410,7 @@ const N1_VOCAB = [
       "id": "to doubt"
     },
     "pos": "verb-godan",
-    "ex": "疑うことにする"
+    "ex": "真偽を疑う"
   },
   {
     "id": "V0095",
@@ -1455,7 +1455,7 @@ const N1_VOCAB = [
       "id": "to sue"
     },
     "pos": "verb-ichidan",
-    "ex": "訴えることにする"
+    "ex": "不満を訴える"
   },
   {
     "id": "V0098",
@@ -1650,7 +1650,7 @@ const N1_VOCAB = [
       "id": "to respect"
     },
     "pos": "verb-godan",
-    "ex": "敬うことにする"
+    "ex": "先人を敬う"
   },
   {
     "id": "V0111",
@@ -1710,7 +1710,7 @@ const N1_VOCAB = [
       "id": "to resent"
     },
     "pos": "verb-godan",
-    "ex": "恨むことにする"
+    "ex": "運命を恨む"
   },
   {
     "id": "V0115",
@@ -1725,7 +1725,7 @@ const N1_VOCAB = [
       "id": "to envy"
     },
     "pos": "verb-godan",
-    "ex": "羨むことにする"
+    "ex": "成功を羨む"
   },
   {
     "id": "V0116",
@@ -1740,7 +1740,7 @@ const N1_VOCAB = [
       "id": "to betray"
     },
     "pos": "verb-godan",
-    "ex": "裏切ることにする"
+    "ex": "期待を裏切る"
   },
   {
     "id": "V0117",
@@ -1770,7 +1770,7 @@ const N1_VOCAB = [
       "id": "to moisten"
     },
     "pos": "verb-godan",
-    "ex": "潤うことにする"
+    "ex": "肌が潤う"
   },
   {
     "id": "V0119",
@@ -1935,7 +1935,7 @@ const N1_VOCAB = [
       "id": "menggambar"
     },
     "pos": "verb-godan",
-    "ex": "描くことにする"
+    "ex": "将来像を描く"
   },
   {
     "id": "V0130",
@@ -1950,7 +1950,7 @@ const N1_VOCAB = [
       "id": "to obtain"
     },
     "pos": "verb-ichidan",
-    "ex": "得ることにする"
+    "ex": "承認を得る"
   },
   {
     "id": "V0131",
@@ -2325,7 +2325,7 @@ const N1_VOCAB = [
       "id": "to supplement"
     },
     "pos": "verb-godan",
-    "ex": "補うことにする"
+    "ex": "不足を補う"
   },
   {
     "id": "V0156",
@@ -2445,7 +2445,7 @@ const N1_VOCAB = [
       "id": "to obtain"
     },
     "pos": "verb-ichidan",
-    "ex": "収めることにする"
+    "ex": "大きな成果を収める"
   },
   {
     "id": "V0164",
@@ -2640,7 +2640,7 @@ const N1_VOCAB = [
       "id": "to fall into"
     },
     "pos": "verb-ichidan",
-    "ex": "陥ることにする"
+    "ex": "窮地に陥る"
   },
   {
     "id": "V0177",
@@ -2700,7 +2700,7 @@ const N1_VOCAB = [
       "id": "to threaten"
     },
     "pos": "verb-godan",
-    "ex": "脅かすことにする"
+    "ex": "安全を脅かす"
   },
   {
     "id": "V0181",
@@ -3195,7 +3195,7 @@ const N1_VOCAB = [
       "id": "to lack"
     },
     "pos": "verb-godan",
-    "ex": "欠くことにする"
+    "ex": "配慮を欠く"
   },
   {
     "id": "V0214",
@@ -3345,7 +3345,7 @@ const N1_VOCAB = [
       "id": "to overlap"
     },
     "pos": "verb-godan",
-    "ex": "重なることにする"
+    "ex": "不運が重なる"
   },
   {
     "id": "V0224",
@@ -3390,7 +3390,7 @@ const N1_VOCAB = [
       "id": "to decorate"
     },
     "pos": "verb-godan",
-    "ex": "飾ることにする"
+    "ex": "部屋を花で飾る"
   },
   {
     "id": "V0227",
@@ -3450,7 +3450,7 @@ const N1_VOCAB = [
       "id": "to lean"
     },
     "pos": "verb-godan",
-    "ex": "傾くことにする"
+    "ex": "会社が傾く"
   },
   {
     "id": "V0231",
@@ -3630,7 +3630,7 @@ const N1_VOCAB = [
       "id": "to come true"
     },
     "pos": "verb-godan",
-    "ex": "叶うことにする"
+    "ex": "夢が叶う"
   },
   {
     "id": "V0243",
@@ -3660,7 +3660,7 @@ const N1_VOCAB = [
       "id": "to combine"
     },
     "pos": "verb-ichidan",
-    "ex": "兼ねることにする"
+    "ex": "二役を兼ねる"
   },
   {
     "id": "V0245",
@@ -3690,7 +3690,7 @@ const N1_VOCAB = [
       "id": "to set up"
     },
     "pos": "verb-ichidan",
-    "ex": "構えることにする"
+    "ex": "身構える"
   },
   {
     "id": "V0247",
@@ -3735,7 +3735,7 @@ const N1_VOCAB = [
       "id": "to get involved"
     },
     "pos": "verb-godan",
-    "ex": "絡むことにする"
+    "ex": "利害が絡む問題"
   },
   {
     "id": "V0250",
@@ -3810,7 +3810,7 @@ const N1_VOCAB = [
       "id": "layu"
     },
     "pos": "verb-ichidan",
-    "ex": "枯れることにする"
+    "ex": "才能が枯れる"
   },
   {
     "id": "V0255",
@@ -4080,7 +4080,7 @@ const N1_VOCAB = [
       "id": "to avoid"
     },
     "pos": "verb-ichidan",
-    "ex": "避けることにする"
+    "ex": "リスクを避ける"
   },
   {
     "id": "V0273",
@@ -4215,7 +4215,7 @@ const N1_VOCAB = [
       "id": "to realize"
     },
     "pos": "verb-godan",
-    "ex": "悟ることにする"
+    "ex": "真理を悟る"
   },
   {
     "id": "V0282",
@@ -4290,7 +4290,7 @@ const N1_VOCAB = [
       "id": "sejuk"
     },
     "pos": "verb-ichidan",
-    "ex": "冷めることにする"
+    "ex": "熱意が冷める"
   },
   {
     "id": "V0287",
@@ -4905,7 +4905,7 @@ const N1_VOCAB = [
       "id": "to squeeze"
     },
     "pos": "verb-godan",
-    "ex": "絞ることにする"
+    "ex": "知恵を絞る"
   },
   {
     "id": "V0328",
@@ -4935,7 +4935,7 @@ const N1_VOCAB = [
       "id": "to fasten"
     },
     "pos": "verb-ichidan",
-    "ex": "締めることにする"
+    "ex": "気を締める"
   },
   {
     "id": "V0330",
@@ -4950,7 +4950,7 @@ const N1_VOCAB = [
       "id": "to occupy"
     },
     "pos": "verb-ichidan",
-    "ex": "占めることにする"
+    "ex": "大きな割合を占める"
   },
   {
     "id": "V0331",
@@ -4965,7 +4965,7 @@ const N1_VOCAB = [
       "id": "menunjukkan"
     },
     "pos": "verb-godan",
-    "ex": "示すことにする"
+    "ex": "姿勢を示す"
   },
   {
     "id": "V0332",
@@ -5655,7 +5655,7 @@ const N1_VOCAB = [
       "id": "to install"
     },
     "pos": "verb-ichidan",
-    "ex": "据えることにする"
+    "ex": "腰を据える"
   },
   {
     "id": "V0378",
@@ -5700,7 +5700,7 @@ const N1_VOCAB = [
       "id": "Menyelamatkan"
     },
     "pos": "verb-godan",
-    "ex": "救うことにする"
+    "ex": "命を救う"
   },
   {
     "id": "V0381",
@@ -5820,7 +5820,7 @@ const N1_VOCAB = [
       "id": "to clear"
     },
     "pos": "verb-godan",
-    "ex": "澄むことにする"
+    "ex": "心が澄む"
   },
   {
     "id": "V0389",
@@ -5835,7 +5835,7 @@ const N1_VOCAB = [
       "id": "menggosok"
     },
     "pos": "verb-ichidan",
-    "ex": "擦れることにする"
+    "ex": "意見が擦れる"
   },
   {
     "id": "V0390",
@@ -6015,7 +6015,7 @@ const N1_VOCAB = [
       "id": "mendekati"
     },
     "pos": "verb-godan",
-    "ex": "迫ることにする"
+    "ex": "期限が迫る"
   },
   {
     "id": "V0402",
@@ -6360,7 +6360,7 @@ const N1_VOCAB = [
       "id": "to prepare"
     },
     "pos": "verb-ichidan",
-    "ex": "備えることにする"
+    "ex": "災害に備える"
   },
   {
     "id": "V0425",
@@ -6375,7 +6375,7 @@ const N1_VOCAB = [
       "id": "to go against"
     },
     "pos": "verb-godan",
-    "ex": "背くことにする"
+    "ex": "期待に背く"
   },
   {
     "id": "V0426",
@@ -6390,7 +6390,7 @@ const N1_VOCAB = [
       "id": "to be dyed"
     },
     "pos": "verb-godan",
-    "ex": "染まることにする"
+    "ex": "朝焼けに染まる"
   },
   {
     "id": "V0427",
@@ -6435,7 +6435,7 @@ const N1_VOCAB = [
       "id": "to stray"
     },
     "pos": "verb-ichidan",
-    "ex": "逸れることにする"
+    "ex": "話が逸れる"
   },
   {
     "id": "V0430",
@@ -6450,7 +6450,7 @@ const N1_VOCAB = [
       "id": "to be complete"
     },
     "pos": "verb-godan",
-    "ex": "揃うことにする"
+    "ex": "条件が揃う"
   },
   {
     "id": "V0431",
@@ -6480,7 +6480,7 @@ const N1_VOCAB = [
       "id": "to harm"
     },
     "pos": "verb-godan",
-    "ex": "損なうことにする"
+    "ex": "健康を損なう"
   },
   {
     "id": "V0433",
@@ -6765,7 +6765,7 @@ const N1_VOCAB = [
       "id": "to cease"
     },
     "pos": "verb-ichidan",
-    "ex": "絶えることにする"
+    "ex": "連絡が絶える"
   },
   {
     "id": "V0452",
@@ -6780,7 +6780,7 @@ const N1_VOCAB = [
       "id": "to endure"
     },
     "pos": "verb-ichidan",
-    "ex": "耐えることにする"
+    "ex": "痛みに耐える"
   },
   {
     "id": "V0453",
@@ -6810,7 +6810,7 @@ const N1_VOCAB = [
       "id": "menaikkan"
     },
     "pos": "verb-ichidan",
-    "ex": "高めることにする"
+    "ex": "意識を高める"
   },
   {
     "id": "V0455",
@@ -6885,7 +6885,7 @@ const N1_VOCAB = [
       "id": "to scheme"
     },
     "pos": "verb-godan",
-    "ex": "企むことにする"
+    "ex": "悪事を企む"
   },
   {
     "id": "V0460",
@@ -7335,7 +7335,7 @@ const N1_VOCAB = [
       "id": "to rely on"
     },
     "pos": "verb-godan",
-    "ex": "頼ることにする"
+    "ex": "人に頼る"
   },
   {
     "id": "V0490",
@@ -7395,7 +7395,7 @@ const N1_VOCAB = [
       "id": "membawa"
     },
     "pos": "verb-godan",
-    "ex": "担うことにする"
+    "ex": "役割を担う"
   },
   {
     "id": "V0494",
@@ -7575,7 +7575,7 @@ const N1_VOCAB = [
       "id": "to shrink"
     },
     "pos": "verb-godan",
-    "ex": "縮むことにする"
+    "ex": "経済が縮む"
   },
   {
     "id": "V0506",
@@ -7845,7 +7845,7 @@ const N1_VOCAB = [
       "id": "to scatter"
     },
     "pos": "verb-ichidan",
-    "ex": "散ることにする"
+    "ex": "桜が散る"
   },
   {
     "id": "V0524",
@@ -7920,7 +7920,7 @@ const N1_VOCAB = [
       "id": "to spend"
     },
     "pos": "verb-godan",
-    "ex": "費やすことにする"
+    "ex": "時間を費やす"
   },
   {
     "id": "V0529",
@@ -8070,7 +8070,7 @@ const N1_VOCAB = [
       "id": "to pour"
     },
     "pos": "verb-godan",
-    "ex": "注ぐことにする"
+    "ex": "愛情を注ぐ"
   },
   {
     "id": "V0539",
@@ -8325,7 +8325,7 @@ const N1_VOCAB = [
       "id": "to crush"
     },
     "pos": "verb-godan",
-    "ex": "潰すことにする"
+    "ex": "計画を潰す"
   },
   {
     "id": "V0556",
@@ -8370,7 +8370,7 @@ const N1_VOCAB = [
       "id": "to pack"
     },
     "pos": "verb-ichidan",
-    "ex": "詰めることにする"
+    "ex": "荷物を詰める"
   },
   {
     "id": "V0559",
@@ -8610,7 +8610,7 @@ const N1_VOCAB = [
       "id": "to illuminate"
     },
     "pos": "verb-godan",
-    "ex": "照らすことにする"
+    "ex": "道を照らす"
   },
   {
     "id": "V0575",
@@ -8955,7 +8955,7 @@ const N1_VOCAB = [
       "id": "Memecahkan"
     },
     "pos": "verb-godan",
-    "ex": "解くことにする"
+    "ex": "謎を解く"
   },
   {
     "id": "V0598",
@@ -9090,7 +9090,7 @@ const N1_VOCAB = [
       "id": "to melt"
     },
     "pos": "verb-ichidan",
-    "ex": "溶けることにする"
+    "ex": "氷が溶ける"
   },
   {
     "id": "V0607",
@@ -9300,7 +9300,7 @@ const N1_VOCAB = [
       "id": "to be rich"
     },
     "pos": "verb-godan",
-    "ex": "富むことにする"
+    "ex": "経験に富む"
   },
   {
     "id": "V0621",
@@ -9345,7 +9345,7 @@ const N1_VOCAB = [
       "id": "to grasp"
     },
     "pos": "verb-ichidan",
-    "ex": "捉えることにする"
+    "ex": "本質を捉える"
   },
   {
     "id": "V0624",
@@ -9465,7 +9465,7 @@ const N1_VOCAB = [
       "id": "bertanya"
     },
     "pos": "verb-godan",
-    "ex": "問うことにする"
+    "ex": "責任を問う"
   },
   {
     "id": "V0632",
@@ -9600,7 +9600,7 @@ const N1_VOCAB = [
       "id": "to flow"
     },
     "pos": "verb-ichidan",
-    "ex": "流れることにする"
+    "ex": "時間が流れる"
   },
   {
     "id": "V0641",
@@ -9720,7 +9720,7 @@ const N1_VOCAB = [
       "id": "to get used to"
     },
     "pos": "verb-ichidan",
-    "ex": "慣れることにする"
+    "ex": "環境に慣れる"
   },
   {
     "id": "V0649",
@@ -9750,7 +9750,7 @@ const N1_VOCAB = [
       "id": "to grip"
     },
     "pos": "verb-godan",
-    "ex": "握ることにする"
+    "ex": "権力を握る"
   },
   {
     "id": "V0651",
@@ -9825,7 +9825,7 @@ const N1_VOCAB = [
       "id": "to pull out"
     },
     "pos": "verb-godan",
-    "ex": "抜くことにする"
+    "ex": "手を抜く"
   },
   {
     "id": "V0656",
@@ -9885,7 +9885,7 @@ const N1_VOCAB = [
       "id": "to wish"
     },
     "pos": "verb-godan",
-    "ex": "願うことにする"
+    "ex": "幸福を願う"
   },
   {
     "id": "V0660",
@@ -9930,7 +9930,7 @@ const N1_VOCAB = [
       "id": "to knead"
     },
     "pos": "verb-ichidan",
-    "ex": "練ることにする"
+    "ex": "計画を練る"
   },
   {
     "id": "V0663",
@@ -9960,7 +9960,7 @@ const N1_VOCAB = [
       "id": "to miss"
     },
     "pos": "verb-godan",
-    "ex": "逃すことにする"
+    "ex": "チャンスを逃す"
   },
   {
     "id": "V0665",
@@ -9990,7 +9990,7 @@ const N1_VOCAB = [
       "id": "pergi"
     },
     "pos": "verb-godan",
-    "ex": "残すことにする"
+    "ex": "足跡を残す"
   },
   {
     "id": "V0667",
@@ -10020,7 +10020,7 @@ const N1_VOCAB = [
       "id": "wajah"
     },
     "pos": "verb-godan",
-    "ex": "臨むことにする"
+    "ex": "決戦に臨む"
   },
   {
     "id": "V0669",
@@ -10065,7 +10065,7 @@ const N1_VOCAB = [
       "id": "tumbuh"
     },
     "pos": "verb-godan",
-    "ex": "伸びることにする"
+    "ex": "業績が伸びる"
   },
   {
     "id": "V0672",
@@ -10095,7 +10095,7 @@ const N1_VOCAB = [
       "id": "to climb"
     },
     "pos": "verb-godan",
-    "ex": "登ることにする"
+    "ex": "山に登る"
   },
   {
     "id": "V0674",
@@ -10275,7 +10275,7 @@ const N1_VOCAB = [
       "id": "mengukur"
     },
     "pos": "verb-godan",
-    "ex": "測ることにする"
+    "ex": "距離を測る"
   },
   {
     "id": "V0686",
@@ -10305,7 +10305,7 @@ const N1_VOCAB = [
       "id": "rencana"
     },
     "pos": "verb-godan",
-    "ex": "図ることにする"
+    "ex": "改善を図る"
   },
   {
     "id": "V0688",
@@ -13140,7 +13140,12 @@ const N1_VOCAB = [
       "id": "contradiction"
     },
     "pos": "noun",
-    "ex": "矛盾について考える"
+    "ex": "発言の矛盾を指摘する",
+    "syn": [
+      "不一致",
+      "齟齬",
+      "相違"
+    ]
   },
   {
     "id": "V0877",
@@ -14805,7 +14810,12 @@ const N1_VOCAB = [
       "id": "enormous"
     },
     "pos": "i-adj",
-    "ex": "とても膨大と思う"
+    "ex": "膨大な資料を整理する",
+    "syn": [
+      "莫大",
+      "巨大",
+      "大量"
+    ]
   },
   {
     "id": "V0988",
@@ -15390,7 +15400,12 @@ const N1_VOCAB = [
       "id": "Konsep"
     },
     "pos": "noun",
-    "ex": "概念について考える"
+    "ex": "新しい概念を提唱する",
+    "syn": [
+      "考え方",
+      "観念",
+      "コンセプト"
+    ]
   },
   {
     "id": "V1027",
@@ -15450,7 +15465,12 @@ const N1_VOCAB = [
       "id": "Kelebihan"
     },
     "pos": "verb-godan",
-    "ex": "過剰ことにする"
+    "ex": "過剰な反応を示す",
+    "syn": [
+      "行き過ぎ",
+      "度を超えた",
+      "過度"
+    ]
   },
   {
     "id": "V1031",
@@ -15945,7 +15965,12 @@ const N1_VOCAB = [
       "id": "Luar biasa"
     },
     "pos": "noun",
-    "ex": "顕著について考える"
+    "ex": "顕著な成果を上げる",
+    "syn": [
+      "著しい",
+      "目立つ",
+      "明らか"
+    ]
   },
   {
     "id": "V1064",
@@ -18795,7 +18820,7 @@ const N1_VOCAB = [
       "id": "momentum"
     },
     "pos": "i-adj",
-    "ex": "とても勢いと思う"
+    "ex": "勢いが衰える"
   },
   {
     "id": "V1254",
@@ -23805,7 +23830,7 @@ const N1_VOCAB = [
       "id": "dangkal"
     },
     "pos": "i-adj",
-    "ex": "とても浅いと思う"
+    "ex": "経験が浅い"
   },
   {
     "id": "V1588",
@@ -26760,7 +26785,7 @@ const N1_VOCAB = [
       "id": "intention"
     },
     "pos": "adverb",
-    "ex": "意図考える"
+    "ex": "真の意図を探る"
   },
   {
     "id": "V1785",
@@ -27030,7 +27055,7 @@ const N1_VOCAB = [
       "id": "memberi"
     },
     "pos": "verb-ichidan",
-    "ex": "与えることにする"
+    "ex": "大きな影響を与える"
   },
   {
     "id": "V1803",
@@ -27090,7 +27115,7 @@ const N1_VOCAB = [
       "id": "Mengungkapkan"
     },
     "pos": "verb-godan",
-    "ex": "表すことにする"
+    "ex": "敬意を表す"
   },
   {
     "id": "V1807",
@@ -27105,7 +27130,7 @@ const N1_VOCAB = [
       "id": "muncul"
     },
     "pos": "verb-ichidan",
-    "ex": "現れることにする"
+    "ex": "効果が現れる"
   },
   {
     "id": "V1808",
@@ -27240,7 +27265,7 @@ const N1_VOCAB = [
       "id": "kalah"
     },
     "pos": "verb-godan",
-    "ex": "失うことにする"
+    "ex": "信用を失う"
   },
   {
     "id": "V1817",
@@ -27300,7 +27325,7 @@ const N1_VOCAB = [
       "id": "memilih"
     },
     "pos": "verb-godan",
-    "ex": "選ぶことにする"
+    "ex": "最善の道を選ぶ"
   },
   {
     "id": "V1821",
@@ -27405,7 +27430,7 @@ const N1_VOCAB = [
       "id": "to get angry"
     },
     "pos": "verb-godan",
-    "ex": "怒ることにする"
+    "ex": "不正に怒る"
   },
   {
     "id": "V1828",
@@ -27480,7 +27505,7 @@ const N1_VOCAB = [
       "id": "to be surprised"
     },
     "pos": "verb-godan",
-    "ex": "驚くことにする"
+    "ex": "結果に驚く"
   },
   {
     "id": "V1833",
@@ -27855,7 +27880,7 @@ const N1_VOCAB = [
       "id": "mendengar"
     },
     "pos": "verb-godan",
-    "ex": "聞くことにする"
+    "ex": "噂を聞く"
   },
   {
     "id": "V1858",
@@ -27870,7 +27895,7 @@ const N1_VOCAB = [
       "id": "to be effective"
     },
     "pos": "verb-godan",
-    "ex": "効くことにする"
+    "ex": "薬が効く"
   },
   {
     "id": "V1859",
@@ -27885,7 +27910,7 @@ const N1_VOCAB = [
       "id": "to carve"
     },
     "pos": "verb-godan",
-    "ex": "刻むことにする"
+    "ex": "歴史に刻む"
   },
   {
     "id": "V1860",
@@ -27960,7 +27985,7 @@ const N1_VOCAB = [
       "id": "memotong"
     },
     "pos": "verb-ichidan",
-    "ex": "切ることにする"
+    "ex": "関係を切る"
   },
   {
     "id": "V1865",
@@ -28035,7 +28060,7 @@ const N1_VOCAB = [
       "id": "to get dark"
     },
     "pos": "verb-ichidan",
-    "ex": "暮れることにする"
+    "ex": "日が暮れる"
   },
   {
     "id": "V1870",
@@ -28050,7 +28075,7 @@ const N1_VOCAB = [
       "id": "menambah"
     },
     "pos": "verb-ichidan",
-    "ex": "加えることにする"
+    "ex": "圧力を加える"
   },
   {
     "id": "V1871",
@@ -28425,7 +28450,7 @@ const N1_VOCAB = [
       "id": "menutup"
     },
     "pos": "verb-ichidan",
-    "ex": "閉めることにする"
+    "ex": "店を閉める"
   },
   {
     "id": "V1896",
@@ -28680,7 +28705,7 @@ const N1_VOCAB = [
       "id": "memegang"
     },
     "pos": "verb-godan",
-    "ex": "抱くことにする"
+    "ex": "疑問を抱く"
   },
   {
     "id": "V1913",
@@ -28785,7 +28810,7 @@ const N1_VOCAB = [
       "id": "to differ"
     },
     "pos": "verb-godan",
-    "ex": "違うことにする"
+    "ex": "予想と違う"
   },
   {
     "id": "V1920",
@@ -28905,7 +28930,7 @@ const N1_VOCAB = [
       "id": "menghubungkan"
     },
     "pos": "verb-godan",
-    "ex": "繋ぐことにする"
+    "ex": "命を繋ぐ"
   },
   {
     "id": "V1928",
@@ -28950,7 +28975,7 @@ const N1_VOCAB = [
       "id": "to fly"
     },
     "pos": "verb-godan",
-    "ex": "飛ぶことにする"
+    "ex": "噂が飛ぶ"
   },
   {
     "id": "V1931",
@@ -28980,7 +29005,7 @@ const N1_VOCAB = [
       "id": "to stay"
     },
     "pos": "verb-godan",
-    "ex": "泊まることにする"
+    "ex": "ホテルに泊まる"
   },
   {
     "id": "V1933",
@@ -29010,7 +29035,7 @@ const N1_VOCAB = [
       "id": "mengambil"
     },
     "pos": "verb-godan",
-    "ex": "取ることにする"
+    "ex": "責任を取る"
   },
   {
     "id": "V1935",
@@ -29025,7 +29050,7 @@ const N1_VOCAB = [
       "id": "to photograph"
     },
     "pos": "verb-godan",
-    "ex": "撮ることにする"
+    "ex": "写真を撮る"
   },
   {
     "id": "V1936",
@@ -29205,7 +29230,7 @@ const N1_VOCAB = [
       "id": "to get wet"
     },
     "pos": "verb-ichidan",
-    "ex": "濡れることにする"
+    "ex": "雨に濡れる"
   },
   {
     "id": "V1948",
@@ -29250,7 +29275,7 @@ const N1_VOCAB = [
       "id": "berharap"
     },
     "pos": "verb-godan",
-    "ex": "望むことにする"
+    "ex": "成功を望む"
   },
   {
     "id": "V1951",
@@ -29655,7 +29680,7 @@ const N1_VOCAB = [
       "id": "menipu"
     },
     "pos": "verb-godan",
-    "ex": "欺くことにする"
+    "ex": "人を欺く行為"
   },
   {
     "id": "V1978",
@@ -29670,7 +29695,7 @@ const N1_VOCAB = [
       "id": "meronta"
     },
     "pos": "verb-godan",
-    "ex": "足掻くことにする"
+    "ex": "必死に足掻く"
   },
   {
     "id": "V1979",
@@ -29730,7 +29755,7 @@ const N1_VOCAB = [
       "id": "gelisah"
     },
     "pos": "verb-ichidan",
-    "ex": "焦ることにする"
+    "ex": "結果を焦る"
   },
   {
     "id": "V1983",
@@ -29805,7 +29830,7 @@ const N1_VOCAB = [
       "id": "meremehkan"
     },
     "pos": "verb-godan",
-    "ex": "侮ることにする"
+    "ex": "相手を侮る"
   },
   {
     "id": "V1988",
@@ -29865,7 +29890,7 @@ const N1_VOCAB = [
       "id": "kasar"
     },
     "pos": "i-adj",
-    "ex": "とても粗いと思う"
+    "ex": "仕事が粗い"
   },
   {
     "id": "V1992",
@@ -30495,7 +30520,7 @@ const N1_VOCAB = [
       "id": "mendesak"
     },
     "pos": "verb-godan",
-    "ex": "促すことにする"
+    "ex": "参加を促す"
   },
   {
     "id": "V2034",
@@ -30840,7 +30865,7 @@ const N1_VOCAB = [
       "id": "menutupi"
     },
     "pos": "verb-godan",
-    "ex": "覆うことにする"
+    "ex": "不安が覆う"
   },
   {
     "id": "V2057",
@@ -31110,7 +31135,7 @@ const N1_VOCAB = [
       "id": "kurang"
     },
     "pos": "verb-ichidan",
-    "ex": "欠けることにする"
+    "ex": "配慮に欠ける"
   },
   {
     "id": "V2075",
@@ -32640,7 +32665,12 @@ const N1_VOCAB = [
       "id": "pendapat"
     },
     "pos": "i-adj",
-    "ex": "とても見解と思う"
+    "ex": "専門家の見解を聞く",
+    "syn": [
+      "意見",
+      "考え",
+      "所見"
+    ]
   },
   {
     "id": "V2177",
@@ -33570,7 +33600,7 @@ const N1_VOCAB = [
       "id": "memutuskan"
     },
     "pos": "verb-ichidan",
-    "ex": "定めることにする"
+    "ex": "規則を定める"
   },
   {
     "id": "V2239",
@@ -34710,7 +34740,7 @@ const N1_VOCAB = [
       "id": "tergelincir"
     },
     "pos": "verb-godan",
-    "ex": "滑ることにする"
+    "ex": "足が滑る"
   },
   {
     "id": "V2315",
@@ -37695,7 +37725,7 @@ const N1_VOCAB = [
       "id": "menyerah"
     },
     "pos": "verb-ichidan",
-    "ex": "諦めることにする"
+    "ex": "夢を諦めない"
   },
   {
     "id": "V2514",
@@ -37830,7 +37860,7 @@ const N1_VOCAB = [
       "id": "musuh"
     },
     "pos": "noun",
-    "ex": "仇について考える"
+    "ex": "恩を仇で返す"
   },
   {
     "id": "V2523",
@@ -38355,7 +38385,7 @@ const N1_VOCAB = [
       "id": "merawat"
     },
     "pos": "verb-godan",
-    "ex": "労ることにする"
+    "ex": "疲れた体を労る"
   },
   {
     "id": "V2558",
@@ -40305,7 +40335,7 @@ const N1_VOCAB = [
       "id": "bertukar"
     },
     "pos": "verb-godan",
-    "ex": "交わすことにする"
+    "ex": "約束を交わす"
   },
   {
     "id": "V2688",
@@ -41385,7 +41415,7 @@ const N1_VOCAB = [
       "id": "busuk"
     },
     "pos": "verb-godan",
-    "ex": "腐ることにする"
+    "ex": "心が腐る"
   },
   {
     "id": "V2760",
@@ -41430,7 +41460,7 @@ const N1_VOCAB = [
       "id": "runtuh"
     },
     "pos": "verb-ichidan",
-    "ex": "崩れることにする"
+    "ex": "計画が崩れる"
   },
   {
     "id": "V2763",
@@ -41520,7 +41550,7 @@ const N1_VOCAB = [
       "id": "membalikkan"
     },
     "pos": "verb-godan",
-    "ex": "覆すことにする"
+    "ex": "常識を覆す"
   },
   {
     "id": "V2769",
@@ -42105,7 +42135,7 @@ const N1_VOCAB = [
       "id": "mengikis"
     },
     "pos": "verb-godan",
-    "ex": "削ることにする"
+    "ex": "予算を削る"
   },
   {
     "id": "V2808",
@@ -48180,7 +48210,12 @@ const N1_VOCAB = [
       "id": "prospek"
     },
     "pos": "verb-godan",
-    "ex": "展望ことにする"
+    "ex": "将来の展望を語る",
+    "syn": [
+      "見通し",
+      "ビジョン",
+      "展開"
+    ]
   },
   {
     "id": "V3213",
@@ -48900,7 +48935,7 @@ const N1_VOCAB = [
       "id": "menutup"
     },
     "pos": "verb-godan",
-    "ex": "閉じることにする"
+    "ex": "目を閉じる"
   },
   {
     "id": "V3261",
@@ -49740,7 +49775,7 @@ const N1_VOCAB = [
       "id": "mengecualikan"
     },
     "pos": "verb-godan",
-    "ex": "除くことにする"
+    "ex": "例外を除く"
   },
   {
     "id": "V3317",
@@ -49770,7 +49805,7 @@ const N1_VOCAB = [
       "id": "naik"
     },
     "pos": "verb-godan",
-    "ex": "上ることにする"
+    "ex": "階段を上る"
   },
   {
     "id": "V3319",
@@ -52935,7 +52970,12 @@ const N1_VOCAB = [
       "id": "latent"
     },
     "pos": "i-adj",
-    "ex": "とても潜在と思う"
+    "ex": "潜在的な問題がある",
+    "syn": [
+      "隠れた",
+      "表面下の",
+      "内在"
+    ]
   },
   {
     "id": "V3530",
@@ -52950,7 +52990,12 @@ const N1_VOCAB = [
       "id": "apparent"
     },
     "pos": "i-adj",
-    "ex": "とても顕在と思う"
+    "ex": "問題が顕在化する",
+    "syn": [
+      "明らか",
+      "表面化した",
+      "明白"
+    ]
   },
   {
     "id": "V3531",
@@ -53145,7 +53190,12 @@ const N1_VOCAB = [
       "id": "grounding"
     },
     "pos": "verb-godan",
-    "ex": "素養ことにする"
+    "ex": "芸術的な素養がある",
+    "syn": [
+      "教養",
+      "資質",
+      "素地"
+    ]
   },
   {
     "id": "V3544",
@@ -54090,7 +54140,12 @@ const N1_VOCAB = [
       "id": "trend"
     },
     "pos": "i-adj",
-    "ex": "とても趨勢と思う"
+    "ex": "時代の趨勢を読む",
+    "syn": [
+      "動向",
+      "流れ",
+      "傾向"
+    ]
   },
   {
     "id": "V3607",
@@ -54105,7 +54160,12 @@ const N1_VOCAB = [
       "id": "current"
     },
     "pos": "verb-godan",
-    "ex": "潮流ことにする"
+    "ex": "新しい潮流が生まれる",
+    "syn": [
+      "流れ",
+      "動向",
+      "トレンド"
+    ]
   },
   {
     "id": "V3608",
@@ -54120,7 +54180,12 @@ const N1_VOCAB = [
       "id": "trend"
     },
     "pos": "verb-godan",
-    "ex": "風潮ことにする"
+    "ex": "社会の風潮に逆らう",
+    "syn": [
+      "傾向",
+      "流れ",
+      "気運"
+    ]
   },
   {
     "id": "V3609",
@@ -54165,7 +54230,12 @@ const N1_VOCAB = [
       "id": "opportunity"
     },
     "pos": "noun",
-    "ex": "契機について考える"
+    "ex": "変革の契機となる",
+    "syn": [
+      "きっかけ",
+      "機会",
+      "転機"
+    ]
   },
   {
     "id": "V3612",
@@ -54360,7 +54430,12 @@ const N1_VOCAB = [
       "id": "capacity"
     },
     "pos": "verb-godan",
-    "ex": "器量ことにする"
+    "ex": "リーダーの器量を持つ",
+    "syn": [
+      "才覚",
+      "能力",
+      "実力"
+    ]
   },
   {
     "id": "V3625",
@@ -55875,7 +55950,12 @@ const N1_VOCAB = [
       "id": "consequence"
     },
     "pos": "verb-godan",
-    "ex": "帰結ことにする"
+    "ex": "論理的な帰結を導く",
+    "syn": [
+      "結論",
+      "結果",
+      "結末"
+    ]
   },
   {
     "id": "V3726",
@@ -63045,7 +63125,12 @@ const N1_VOCAB = [
       "id": "basis"
     },
     "pos": "noun",
-    "ex": "根幹について考える"
+    "ex": "問題の根幹に迫る",
+    "syn": [
+      "根本",
+      "核心",
+      "本質"
+    ]
   },
   {
     "id": "V4204",
@@ -65865,7 +65950,12 @@ const N1_VOCAB = [
       "id": "insight"
     },
     "pos": "verb-godan",
-    "ex": "洞察ことにする"
+    "ex": "鋭い洞察を示す",
+    "syn": [
+      "見抜く力",
+      "洞察力",
+      "眼力"
+    ]
   },
   {
     "id": "V4392",
@@ -72600,7 +72690,12 @@ const N1_VOCAB = [
       "id": "strict"
     },
     "pos": "verb-godan",
-    "ex": "厳格ことにする"
+    "ex": "厳格な規則を設ける",
+    "syn": [
+      "厳しい",
+      "厳密",
+      "厳正"
+    ]
   },
   {
     "id": "V4841",
@@ -74970,7 +75065,7 @@ const N1_VOCAB = [
       "id": "confide"
     },
     "pos": "verb-ichidan",
-    "ex": "打ち明けることにする"
+    "ex": "本音を打ち明ける"
   },
   {
     "id": "V4999",
@@ -76770,7 +76865,12 @@ const N1_VOCAB = [
       "id": "thin"
     },
     "pos": "verb-godan",
-    "ex": "希薄ことにする"
+    "ex": "関心が希薄になる",
+    "syn": [
+      "薄い",
+      "乏しい",
+      "稀薄"
+    ]
   },
   {
     "id": "V5119",
@@ -76785,7 +76885,12 @@ const N1_VOCAB = [
       "id": "dense"
     },
     "pos": "verb-godan",
-    "ex": "濃厚ことにする"
+    "ex": "嫌疑が濃厚になる",
+    "syn": [
+      "濃い",
+      "強い",
+      "明らか"
+    ]
   },
   {
     "id": "V5120",
@@ -79845,7 +79950,12 @@ const N1_VOCAB = [
       "id": "conflict"
     },
     "pos": "verb-godan",
-    "ex": "葛藤ことにする"
+    "ex": "内面の葛藤を抱える",
+    "syn": [
+      "対立",
+      "軋轢",
+      "衝突"
+    ]
   },
   {
     "id": "V5324",
@@ -80025,7 +80135,12 @@ const N1_VOCAB = [
       "id": "miscellaneous"
     },
     "pos": "noun",
-    "ex": "雑多について考える"
+    "ex": "雑多な情報が溢れる",
+    "syn": [
+      "様々",
+      "多種多様",
+      "雑然"
+    ]
   },
   {
     "id": "V5336",
@@ -82590,7 +82705,7 @@ const N1_VOCAB = [
       "id": "state"
     },
     "pos": "verb-godan",
-    "ex": "述べることにする"
+    "ex": "意見を述べる"
   },
   {
     "id": "V5507",
@@ -89340,7 +89455,7 @@ const N1_VOCAB = [
       "id": "be sufficient"
     },
     "pos": "verb-godan",
-    "ex": "足ることにする"
+    "ex": "努力が足りない"
   },
   {
     "id": "V5957",
@@ -89400,7 +89515,7 @@ const N1_VOCAB = [
       "id": "accomplish"
     },
     "pos": "verb-godan",
-    "ex": "成すことにする"
+    "ex": "偉業を成す"
   },
   {
     "id": "V5961",
@@ -96585,7 +96700,7 @@ const N1_VOCAB = [
       "id": "to master"
     },
     "pos": "verb-ichidan",
-    "ex": "極めることにする"
+    "ex": "技術を極める"
   },
   {
     "id": "V6440",
@@ -96915,7 +97030,12 @@ const N1_VOCAB = [
       "id": "to expose"
     },
     "pos": "verb-suru",
-    "ex": "露呈することが大切だ"
+    "ex": "問題が露呈する",
+    "syn": [
+      "明らかになる",
+      "発覚する",
+      "表面化する"
+    ]
   },
   {
     "id": "V6462",
@@ -99105,7 +99225,12 @@ const N1_VOCAB = [
       "id": "to derive"
     },
     "pos": "verb-suru",
-    "ex": "派生することが大切だ"
+    "ex": "問題が派生する",
+    "syn": [
+      "生じる",
+      "発生する",
+      "生まれる"
+    ]
   },
   {
     "id": "V6608",
@@ -99255,7 +99380,12 @@ const N1_VOCAB = [
       "id": "to examine closely"
     },
     "pos": "verb-suru",
-    "ex": "精査することが大切だ"
+    "ex": "書類を精査する",
+    "syn": [
+      "詳しく調べる",
+      "検討する",
+      "吟味する"
+    ]
   },
   {
     "id": "V6618",
@@ -101730,7 +101860,12 @@ const N1_VOCAB = [
       "id": "rare"
     },
     "pos": "verb-godan",
-    "ex": "稀有ことにする"
+    "ex": "稀有な才能を持つ",
+    "syn": [
+      "珍しい",
+      "希少",
+      "まれ"
+    ]
   },
   {
     "id": "V6783",
@@ -105090,7 +105225,12 @@ const N1_VOCAB = [
       "id": "to deliberate"
     },
     "pos": "verb-suru",
-    "ex": "熟慮することが大切だ"
+    "ex": "決定を熟慮する",
+    "syn": [
+      "熟考する",
+      "深く考える",
+      "検討する"
+    ]
   },
   {
     "id": "V7007",
@@ -105555,7 +105695,12 @@ const N1_VOCAB = [
       "id": "to suggest"
     },
     "pos": "verb-suru",
-    "ex": "示唆することが大切だ"
+    "ex": "可能性を示唆する",
+    "syn": [
+      "暗示する",
+      "ほのめかす",
+      "匂わせる"
+    ]
   },
   {
     "id": "V7038",
@@ -107040,7 +107185,12 @@ const N1_VOCAB = [
       "id": "to surpass"
     },
     "pos": "verb-suru",
-    "ex": "凌駕することが大切だ"
+    "ex": "ライバルを凌駕する",
+    "syn": [
+      "超える",
+      "上回る",
+      "勝る"
+    ]
   },
   {
     "id": "V7137",
@@ -107805,7 +107955,7 @@ const N1_VOCAB = [
       "id": "to plot"
     },
     "pos": "verb-godan",
-    "ex": "謀ることにする"
+    "ex": "策を謀る"
   },
   {
     "id": "V7188",
@@ -110670,7 +110820,12 @@ const N1_VOCAB = [
       "id": "to infer"
     },
     "pos": "verb-suru",
-    "ex": "推察することが大切だ"
+    "ex": "心情を推察する",
+    "syn": [
+      "推測する",
+      "察する",
+      "想像する"
+    ]
   },
   {
     "id": "V7379",
@@ -118680,7 +118835,12 @@ const N1_VOCAB = [
       "id": "to observe"
     },
     "pos": "verb-suru",
-    "ex": "遵守することが大切だ"
+    "ex": "法律を遵守する",
+    "syn": [
+      "守る",
+      "順守する",
+      "従う"
+    ]
   },
   {
     "id": "V7913",
@@ -118740,7 +118900,12 @@ const N1_VOCAB = [
       "id": "to deviate"
     },
     "pos": "verb-suru",
-    "ex": "逸脱することが大切だ"
+    "ex": "規則から逸脱する",
+    "syn": [
+      "外れる",
+      "違反する",
+      "離れる"
+    ]
   },
   {
     "id": "V7917",
@@ -121170,7 +121335,12 @@ const N1_VOCAB = [
       "id": "knowledge"
     },
     "pos": "noun",
-    "ex": "知見について考える"
+    "ex": "豊富な知見を活かす",
+    "syn": [
+      "知識",
+      "見識",
+      "経験"
+    ]
   },
   {
     "id": "V8079",
@@ -121830,7 +122000,12 @@ const N1_VOCAB = [
       "id": "to maintain"
     },
     "pos": "verb-suru",
-    "ex": "堅持することが大切だ"
+    "ex": "方針を堅持する",
+    "syn": [
+      "守り通す",
+      "固守する",
+      "維持する"
+    ]
   },
   {
     "id": "V8123",
@@ -122820,7 +122995,12 @@ const N1_VOCAB = [
       "id": "to devote oneself"
     },
     "pos": "verb-suru",
-    "ex": "傾倒することが大切だ"
+    "ex": "研究に傾倒する",
+    "syn": [
+      "没頭する",
+      "熱中する",
+      "打ち込む"
+    ]
   },
   {
     "id": "V8189",
@@ -123870,7 +124050,12 @@ const N1_VOCAB = [
       "id": "to celebrate"
     },
     "pos": "verb-suru",
-    "ex": "謳歌することが大切だ"
+    "ex": "青春を謳歌する",
+    "syn": [
+      "楽しむ",
+      "満喫する",
+      "享受する"
+    ]
   },
   {
     "id": "V8259",
@@ -128175,7 +128360,12 @@ const N1_VOCAB = [
       "id": "pending issue"
     },
     "pos": "noun",
-    "ex": "懸案について考える"
+    "ex": "長年の懸案を解決する",
+    "syn": [
+      "課題",
+      "問題",
+      "案件"
+    ]
   },
   {
     "id": "V8546",
@@ -128250,7 +128440,12 @@ const N1_VOCAB = [
       "id": "to be concerned"
     },
     "pos": "verb-suru",
-    "ex": "懸念することが大切だ"
+    "ex": "将来を懸念する",
+    "syn": [
+      "心配する",
+      "危惧する",
+      "案じる"
+    ]
   },
   {
     "id": "V8551",
@@ -131580,7 +131775,12 @@ const N1_VOCAB = [
       "id": "to supervise"
     },
     "pos": "verb-suru",
-    "ex": "統括することが大切だ"
+    "ex": "全体を統括する",
+    "syn": [
+      "統率する",
+      "管理する",
+      "指揮する"
+    ]
   },
   {
     "id": "V8773",
@@ -131625,7 +131825,12 @@ const N1_VOCAB = [
       "id": "to cover"
     },
     "pos": "verb-suru",
-    "ex": "網羅することが大切だ"
+    "ex": "全分野を網羅する",
+    "syn": [
+      "カバーする",
+      "包含する",
+      "含む"
+    ]
   },
   {
     "id": "V8776",
@@ -137430,7 +137635,12 @@ const N1_VOCAB = [
       "id": "prestige"
     },
     "pos": "noun",
-    "ex": "威信について考える"
+    "ex": "国の威信をかける",
+    "syn": [
+      "権威",
+      "名誉",
+      "信用"
+    ]
   },
   {
     "id": "V9163",
@@ -144645,7 +144855,7 @@ const N1_VOCAB = [
       "id": "to tear"
     },
     "pos": "verb-godan",
-    "ex": "裂くことにする"
+    "ex": "時間を裂く"
   },
   {
     "id": "V9644",
@@ -144690,7 +144900,7 @@ const N1_VOCAB = [
       "id": "to spend"
     },
     "pos": "verb-godan",
-    "ex": "過ごすことにする"
+    "ex": "静かに過ごす"
   },
   {
     "id": "V9647",
@@ -144840,7 +145050,7 @@ const N1_VOCAB = [
       "id": "to suppress"
     },
     "pos": "verb-ichidan",
-    "ex": "抑えることにする"
+    "ex": "出費を抑える"
   },
   {
     "id": "V9657",
