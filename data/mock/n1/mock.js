@@ -1,4 +1,4 @@
-// N1 Mock Test Data - v18.8.7
+// N1 Mock Test Data - v18.8.8
 if (typeof MOCK_DATA === 'undefined') { var MOCK_DATA = {}; }
 MOCK_DATA['N1'] = {
   "info": {
@@ -258,78 +258,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>届ける<rt>とどける</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "荷物を届ける",
+          "届けるを食べる",
+          "届けるに乗る",
+          "届けるを着る"
         ],
         "answer": 0,
         "id": "N1-01-020"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>届く<rt>とどく</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "手紙が届く",
+          "届くを飲む",
+          "届くに住む",
+          "届くを走る"
         ],
         "answer": 0,
         "id": "N1-01-021"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>集める<rt>あつめる</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "情報を集める",
+          "集めるを食べる",
+          "集めるに乗る",
+          "集めるを着る"
         ],
         "answer": 0,
         "id": "N1-01-022"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>集まる<rt>あつまる</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "人が集まる",
+          "集まるを飲む",
+          "集まるに住む",
+          "集まるを走る"
         ],
         "answer": 0,
         "id": "N1-01-023"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>始める<rt>はじめる</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "仕事を始める",
+          "始めるを食べる",
+          "始めるに乗る",
+          "始めるを着る"
         ],
         "answer": 0,
         "id": "N1-01-024"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>始まる<rt>はじまる</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "授業が始まる",
+          "始まるを飲む",
+          "始まるに住む",
+          "始まるを走る"
         ],
         "answer": 0,
         "id": "N1-01-025"
@@ -1963,78 +1963,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>終わる<rt>おわる</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "会議が終わる",
+          "終わるを食べる",
+          "終わるに乗る",
+          "終わるを着る"
         ],
         "answer": 0,
         "id": "N1-02-020"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>続ける<rt>つづける</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "努力を続ける",
+          "続けるを飲む",
+          "続けるに住む",
+          "続けるを走る"
         ],
         "answer": 0,
         "id": "N1-02-021"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>続く<rt>つづく</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "雨が続く",
+          "続くを食べる",
+          "続くに乗る",
+          "続くを着る"
         ],
         "answer": 0,
         "id": "N1-02-022"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>決める<rt>きめる</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "予定を決める",
+          "決めるを飲む",
+          "決めるに住む",
+          "決めるを走る"
         ],
         "answer": 0,
         "id": "N1-02-023"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>決まる<rt>きまる</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "日程が決まる",
+          "決まるを食べる",
+          "決まるに乗る",
+          "決まるを着る"
         ],
         "answer": 0,
         "id": "N1-02-024"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>伝える<rt>つたえる</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "気持ちを伝える",
+          "伝えるを飲む",
+          "伝えるに住む",
+          "伝えるを走る"
         ],
         "answer": 0,
         "id": "N1-02-025"
@@ -3668,78 +3668,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>伝わる<rt>つたわる</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "文化が伝わる",
+          "伝わるを食べる",
+          "伝わるに乗る",
+          "伝わるを着る"
         ],
         "answer": 0,
         "id": "N1-03-020"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>変える<rt>かえる</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "計画を変える",
+          "変えるを飲む",
+          "変えるに住む",
+          "変えるを走る"
         ],
         "answer": 0,
         "id": "N1-03-021"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>変わる<rt>かわる</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "季節が変わる",
+          "変わるを食べる",
+          "変わるに乗る",
+          "変わるを着る"
         ],
         "answer": 0,
         "id": "N1-03-022"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>開ける<rt>あける</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "ドアを開ける",
+          "開けるを飲む",
+          "開けるに住む",
+          "開けるを走る"
         ],
         "answer": 0,
         "id": "N1-03-023"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>開く<rt>ひらく</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "会議を開く",
+          "開くを食べる",
+          "開くに乗る",
+          "開くを着る"
         ],
         "answer": 0,
         "id": "N1-03-024"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>閉める<rt>しめる</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "店を閉める",
+          "閉めるを飲む",
+          "閉めるに住む",
+          "閉めるを走る"
         ],
         "answer": 0,
         "id": "N1-03-025"
@@ -5373,78 +5373,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>閉まる<rt>しまる</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "ドアが閉まる",
+          "閉まるを食べる",
+          "閉まるに乗る",
+          "閉まるを着る"
         ],
         "answer": 0,
         "id": "N1-04-020"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>上げる<rt>あげる</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "手を上げる",
+          "上げるを飲む",
+          "上げるに住む",
+          "上げるを走る"
         ],
         "answer": 0,
         "id": "N1-04-021"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>上がる<rt>あがる</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "気温が上がる",
+          "上がるを食べる",
+          "上がるに乗る",
+          "上がるを着る"
         ],
         "answer": 0,
         "id": "N1-04-022"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>下げる<rt>さげる</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "頭を下げる",
+          "下げるを飲む",
+          "下げるに住む",
+          "下げるを走る"
         ],
         "answer": 0,
         "id": "N1-04-023"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>下がる<rt>さがる</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "熱が下がる",
+          "下がるを食べる",
+          "下がるに乗る",
+          "下がるを着る"
         ],
         "answer": 0,
         "id": "N1-04-024"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>入れる<rt>いれる</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "力を入れる",
+          "入れるを飲む",
+          "入れるに住む",
+          "入れるを走る"
         ],
         "answer": 0,
         "id": "N1-04-025"
@@ -7078,78 +7078,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>入る<rt>はいる</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "大学に入る",
+          "入るを食べる",
+          "入るを着る",
+          "入るに乗る"
         ],
         "answer": 0,
         "id": "N1-05-020"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>出す<rt>だす</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "結果を出す",
+          "出すを飲む",
+          "出すに住む",
+          "出すを走る"
         ],
         "answer": 0,
         "id": "N1-05-021"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>出る<rt>でる</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "答えが出る",
+          "出るを食べる",
+          "出るに乗る",
+          "出るを着る"
         ],
         "answer": 0,
         "id": "N1-05-022"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>付ける<rt>つける</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "名前を付ける",
+          "付けるを飲む",
+          "付けるに住む",
+          "付けるを走る"
         ],
         "answer": 0,
         "id": "N1-05-023"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>付く<rt>つく</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "力が付く",
+          "付くを食べる",
+          "付くに乗る",
+          "付くを着る"
         ],
         "answer": 0,
         "id": "N1-05-024"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>立てる<rt>たてる</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "計画を立てる",
+          "立てるを飲む",
+          "立てるに住む",
+          "立てるを走る"
         ],
         "answer": 0,
         "id": "N1-05-025"
@@ -8783,78 +8783,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>立つ<rt>たつ</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "役に立つ",
+          "立つを食べる",
+          "立つに乗る",
+          "立つを着る"
         ],
         "answer": 0,
         "id": "N1-06-020"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>取る<rt>とる</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "休みを取る",
+          "取るを飲む",
+          "取るに住む",
+          "取るを走る"
         ],
         "answer": 0,
         "id": "N1-06-021"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>持つ<rt>もつ</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "興味を持つ",
+          "持つを食べる",
+          "持つに乗る",
+          "持つを着る"
         ],
         "answer": 0,
         "id": "N1-06-022"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>置く<rt>おく</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "重点を置く",
+          "置くを飲む",
+          "置くに住む",
+          "置くを走る"
         ],
         "answer": 0,
         "id": "N1-06-023"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>落とす<rt>おとす</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "スピードを落とす",
+          "落とすを食べる",
+          "落とすに乗る",
+          "落とすを着る"
         ],
         "answer": 0,
         "id": "N1-06-024"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>落ちる<rt>おちる</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "試験に落ちる",
+          "落ちるを飲む",
+          "落ちるに住む",
+          "落ちるを走る"
         ],
         "answer": 0,
         "id": "N1-06-025"
@@ -10488,78 +10488,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>回す<rt>まわす</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "お金を回す",
+          "回すを食べる",
+          "回すに乗る",
+          "回すを着る"
         ],
         "answer": 0,
         "id": "N1-07-020"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>回る<rt>まわる</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "頭が回る",
+          "回るを飲む",
+          "回るに住む",
+          "回るを走る"
         ],
         "answer": 0,
         "id": "N1-07-021"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>通す<rt>とおす</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "筋を通す",
+          "通すを食べる",
+          "通すに乗る",
+          "通すを着る"
         ],
         "answer": 0,
         "id": "N1-07-022"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>通る<rt>とおる</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "試験に通る",
+          "通るを飲む",
+          "通るに住む",
+          "通るを走る"
         ],
         "answer": 0,
         "id": "N1-07-023"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>引く<rt>ひく</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "線を引く",
+          "引くを食べる",
+          "引くに乗る",
+          "引くを着る"
         ],
         "answer": 0,
         "id": "N1-07-024"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>押す<rt>おす</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "ボタンを押す",
+          "押すを飲む",
+          "押すに住む",
+          "押すを走る"
         ],
         "answer": 0,
         "id": "N1-07-025"
@@ -12193,78 +12193,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>動かす<rt>うごかす</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "心を動かす",
+          "動かすを食べる",
+          "動かすに乗る",
+          "動かすを着る"
         ],
         "answer": 0,
         "id": "N1-08-020"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>動く<rt>うごく</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "機械が動く",
+          "動くを飲む",
+          "動くに住む",
+          "動くを走る"
         ],
         "answer": 0,
         "id": "N1-08-021"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>直す<rt>なおす</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "間違いを直す",
+          "直すを食べる",
+          "直すに乗る",
+          "直すを着る"
         ],
         "answer": 0,
         "id": "N1-08-022"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>直る<rt>なおる</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "病気が直る",
+          "直るを飲む",
+          "直るに住む",
+          "直るを走る"
         ],
         "answer": 0,
         "id": "N1-08-023"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>向ける<rt>むける</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "注意を向ける",
+          "向けるを食べる",
+          "向けるに乗る",
+          "向けるを着る"
         ],
         "answer": 0,
         "id": "N1-08-024"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>向く<rt>むく</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "仕事に向く",
+          "向くを飲む",
+          "向くに住む",
+          "向くを走る"
         ],
         "answer": 0,
         "id": "N1-08-025"
@@ -13898,78 +13898,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>残す<rt>のこす</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "記録を残す",
+          "残すを食べる",
+          "残すに乗る",
+          "残すを着る"
         ],
         "answer": 0,
         "id": "N1-09-020"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>残る<rt>のこる</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "記憶に残る",
+          "残るを飲む",
+          "残るに住む",
+          "残るを走る"
         ],
         "answer": 0,
         "id": "N1-09-021"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>深い<rt>ふかい</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "関係が深い",
+          "深いを食べる",
+          "深いに乗る",
+          "深いを走る"
         ],
         "answer": 0,
         "id": "N1-09-022"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>浅い<rt>あさい</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "考えが浅い",
+          "浅いを飲む",
+          "浅いに住む",
+          "浅いを着る"
         ],
         "answer": 0,
         "id": "N1-09-023"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>広い<rt>ひろい</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "心が広い",
+          "広いを食べる",
+          "広いに乗る",
+          "広いを走る"
         ],
         "answer": 0,
         "id": "N1-09-024"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>狭い<rt>せまい</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "視野が狭い",
+          "狭いを飲む",
+          "狭いに住む",
+          "狭いを着る"
         ],
         "answer": 0,
         "id": "N1-09-025"
@@ -15603,78 +15603,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>長い<rt>ながい</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "気が長い",
+          "長いを食べる",
+          "長いに乗る",
+          "長いを走る"
         ],
         "answer": 0,
         "id": "N1-10-020"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>短い<rt>みじかい</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "気が短い",
+          "短いを飲む",
+          "短いに住む",
+          "短いを着る"
         ],
         "answer": 0,
         "id": "N1-10-021"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>強い<rt>つよい</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "意志が強い",
+          "強いを食べる",
+          "強いに乗る",
+          "強いを走る"
         ],
         "answer": 0,
         "id": "N1-10-022"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>弱い<rt>よわい</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "体が弱い",
+          "弱いを飲む",
+          "弱いに住む",
+          "弱いを着る"
         ],
         "answer": 0,
         "id": "N1-10-023"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>高い<rt>たかい</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "目が高い",
+          "高いを食べる",
+          "高いに乗る",
+          "高いを走る"
         ],
         "answer": 0,
         "id": "N1-10-024"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>低い<rt>ひくい</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "姿勢が低い",
+          "低いを飲む",
+          "低いに住む",
+          "低いを着る"
         ],
         "answer": 0,
         "id": "N1-10-025"
@@ -17308,78 +17308,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>重い<rt>おもい</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "責任が重い",
+          "重いを食べる",
+          "重いに乗る",
+          "重いを走る"
         ],
         "answer": 0,
         "id": "N1-11-020"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>軽い<rt>かるい</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "口が軽い",
+          "軽いを飲む",
+          "軽いに住む",
+          "軽いを着る"
         ],
         "answer": 0,
         "id": "N1-11-021"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>固い<rt>かたい</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "約束が固い",
+          "固いを食べる",
+          "固いに乗る",
+          "固いを走る"
         ],
         "answer": 0,
         "id": "N1-11-022"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>柔らかい<rt>やわらかい</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "頭が柔らかい",
+          "柔らかいを飲む",
+          "柔らかいに住む",
+          "柔らかいを着る"
         ],
         "answer": 0,
         "id": "N1-11-023"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>甘い<rt>あまい</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "考えが甘い",
+          "甘いに乗る",
+          "甘いに住む",
+          "甘いを走る"
         ],
         "answer": 0,
         "id": "N1-11-024"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>辛い<rt>つらい</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "仕事が辛い",
+          "辛いを食べる",
+          "辛いに乗る",
+          "辛いを走る"
         ],
         "answer": 0,
         "id": "N1-11-025"
@@ -19013,78 +19013,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>明るい<rt>あかるい</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "性格が明るい",
+          "明るいを飲む",
+          "明るいに住む",
+          "明るいを着る"
         ],
         "answer": 0,
         "id": "N1-12-020"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>暗い<rt>くらい</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "未来が暗い",
+          "暗いを食べる",
+          "暗いに乗る",
+          "暗いを走る"
         ],
         "answer": 0,
         "id": "N1-12-021"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>温かい<rt>あたたかい</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "心が温かい",
+          "温かいを飲む",
+          "温かいに住む",
+          "温かいを着る"
         ],
         "answer": 0,
         "id": "N1-12-022"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>冷たい<rt>つめたい</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "態度が冷たい",
+          "冷たいを食べる",
+          "冷たいに乗る",
+          "冷たいを走る"
         ],
         "answer": 0,
         "id": "N1-12-023"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>手<rt>て</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "手を打つ",
+          "手を食べる",
+          "手に乗る",
+          "手を走る"
         ],
         "answer": 0,
         "id": "N1-12-024"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>足<rt>あし</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "足を運ぶ",
+          "足を飲む",
+          "足に住む",
+          "足を着る"
         ],
         "answer": 0,
         "id": "N1-12-025"
@@ -20718,78 +20718,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>目<rt>め</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "目を通す",
+          "目を食べる",
+          "目に乗る",
+          "目を走る"
         ],
         "answer": 0,
         "id": "N1-13-020"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>耳<rt>みみ</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "耳を傾ける",
+          "耳を飲む",
+          "耳に住む",
+          "耳を着る"
         ],
         "answer": 0,
         "id": "N1-13-021"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>口<rt>くち</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "口を出す",
+          "口を食べる",
+          "口に乗る",
+          "口を走る"
         ],
         "answer": 0,
         "id": "N1-13-022"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>顔<rt>かお</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "顔が広い",
+          "顔を飲む",
+          "顔に住む",
+          "顔を着る"
         ],
         "answer": 0,
         "id": "N1-13-023"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>心<rt>こころ</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "心を打つ",
+          "心を食べる",
+          "心に乗る",
+          "心を走る"
         ],
         "answer": 0,
         "id": "N1-13-024"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>気<rt>き</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "気を使う",
+          "気を食べる",
+          "気に乗る",
+          "気を走る"
         ],
         "answer": 0,
         "id": "N1-13-025"
@@ -22423,78 +22423,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>頭<rt>あたま</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "頭が切れる",
+          "頭を飲む",
+          "頭に住む",
+          "頭を着る"
         ],
         "answer": 0,
         "id": "N1-14-020"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>腕<rt>うで</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "腕を磨く",
+          "腕を食べる",
+          "腕に乗る",
+          "腕を走る"
         ],
         "answer": 0,
         "id": "N1-14-021"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>息<rt>いき</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "息が合う",
+          "息を食べる",
+          "息に乗る",
+          "息を走る"
         ],
         "answer": 0,
         "id": "N1-14-022"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>声<rt>こえ</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "声を上げる",
+          "声を飲む",
+          "声に住む",
+          "声を着る"
         ],
         "answer": 0,
         "id": "N1-14-023"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>力<rt>ちから</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "力を入れる",
+          "力を食べる",
+          "力に乗る",
+          "力を走る"
         ],
         "answer": 0,
         "id": "N1-14-024"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>道<rt>みち</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "道を開く",
+          "道を飲む",
+          "道に住む",
+          "道を着る"
         ],
         "answer": 0,
         "id": "N1-14-025"
@@ -24128,78 +24128,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>金<rt>かね</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "金がかかる",
+          "金を食べる",
+          "金に乗る",
+          "金を走る"
         ],
         "answer": 0,
         "id": "N1-15-020"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>時<rt>とき</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "時が経つ",
+          "時を食べる",
+          "時に乗る",
+          "時を着る"
         ],
         "answer": 0,
         "id": "N1-15-021"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>話<rt>はなし</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "話が弾む",
+          "話を飲む",
+          "話に住む",
+          "話を走る"
         ],
         "answer": 0,
         "id": "N1-15-022"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>先<rt>さき</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "先を読む",
+          "先を食べる",
+          "先に乗る",
+          "先を着る"
         ],
         "answer": 0,
         "id": "N1-15-023"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>後<rt>あと</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "後を引く",
+          "後を飲む",
+          "後に住む",
+          "後を走る"
         ],
         "answer": 0,
         "id": "N1-15-024"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>間<rt>ま</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "間に合う",
+          "間を食べる",
+          "間に乗る",
+          "間を着る"
         ],
         "answer": 0,
         "id": "N1-15-025"
@@ -25833,78 +25833,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>名<rt>な</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "名を挙げる",
+          "名を飲む",
+          "名に住む",
+          "名を走る"
         ],
         "answer": 0,
         "id": "N1-16-020"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>身<rt>み</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "身に付く",
+          "身を食べる",
+          "身に乗る",
+          "身を走る"
         ],
         "answer": 0,
         "id": "N1-16-021"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>根<rt>ね</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "根を詰める",
+          "根を飲む",
+          "根に住む",
+          "根を着る"
         ],
         "answer": 0,
         "id": "N1-16-022"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>水<rt>みず</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "水に流す",
+          "水を食べる",
+          "水に乗る",
+          "水を走る"
         ],
         "answer": 0,
         "id": "N1-16-023"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>油<rt>あぶら</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "油を売る",
+          "油を食べる",
+          "油に乗る",
+          "油を走る"
         ],
         "answer": 0,
         "id": "N1-16-024"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>風<rt>かぜ</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "風を切る",
+          "風を飲む",
+          "風に住む",
+          "風を着る"
         ],
         "answer": 0,
         "id": "N1-16-025"
@@ -27538,78 +27538,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>火<rt>ひ</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "火を付ける",
+          "火を食べる",
+          "火に乗る",
+          "火を走る"
         ],
         "answer": 0,
         "id": "N1-17-020"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>石<rt>いし</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "石橋を叩く",
+          "石を飲む",
+          "石に住む",
+          "石を着る"
         ],
         "answer": 0,
         "id": "N1-17-021"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>波<rt>なみ</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "波に乗る",
+          "波を食べる",
+          "波に住む",
+          "波を走る"
         ],
         "answer": 0,
         "id": "N1-17-022"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>花<rt>はな</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "花を咲かせる",
+          "花を飲む",
+          "花に住む",
+          "花を走る"
         ],
         "answer": 0,
         "id": "N1-17-023"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "任務を遂行する",
+          "遂行を食べる",
+          "遂行に乗る",
+          "遂行を着る"
         ],
         "answer": 0,
         "id": "N1-17-024"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "競合を凌駕する",
+          "凌駕を飲む",
+          "凌駕に住む",
+          "凌駕を走る"
         ],
         "answer": 0,
         "id": "N1-17-025"
@@ -29243,78 +29243,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>把握<rt>はあく</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "状況を把握する",
+          "把握を食べる",
+          "把握に乗る",
+          "把握を着る"
         ],
         "answer": 0,
         "id": "N1-18-020"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>促進<rt>そくしん</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "成長を促進する",
+          "促進を飲む",
+          "促進に住む",
+          "促進を走る"
         ],
         "answer": 0,
         "id": "N1-18-021"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>是正<rt>ぜせい</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "問題を是正する",
+          "是正を食べる",
+          "是正に乗る",
+          "是正を着る"
         ],
         "answer": 0,
         "id": "N1-18-022"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>網羅<rt>もうら</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "全てを網羅する",
+          "網羅を飲む",
+          "網羅に住む",
+          "網羅を走る"
         ],
         "answer": 0,
         "id": "N1-18-023"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>逸脱<rt>いつだつ</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "規則を逸脱する",
+          "逸脱を食べる",
+          "逸脱に乗る",
+          "逸脱を着る"
         ],
         "answer": 0,
         "id": "N1-18-024"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>推敲<rt>すいこう</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "文章を推敲する",
+          "推敲を飲む",
+          "推敲に住む",
+          "推敲を走る"
         ],
         "answer": 0,
         "id": "N1-18-025"
@@ -30948,78 +30948,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>斟酌<rt>しんしゃく</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "事情を斟酌する",
+          "斟酌を食べる",
+          "斟酌に乗る",
+          "斟酌を着る"
         ],
         "answer": 0,
         "id": "N1-19-020"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>鍛錬<rt>たんれん</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "技を鍛錬する",
+          "鍛錬を飲む",
+          "鍛錬に住む",
+          "鍛錬を走る"
         ],
         "answer": 0,
         "id": "N1-19-021"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>傾倒<rt>けいとう</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "思想に傾倒する",
+          "傾倒を食べる",
+          "傾倒に乗る",
+          "傾倒を着る"
         ],
         "answer": 0,
         "id": "N1-19-022"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>邁進<rt>まいしん</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "目標に邁進する",
+          "邁進を飲む",
+          "邁進に住む",
+          "邁進を走る"
         ],
         "answer": 0,
         "id": "N1-19-023"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>懸念<rt>けねん</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "懸念を抱く",
+          "懸念を食べる",
+          "懸念に乗る",
+          "懸念を着る"
         ],
         "answer": 0,
         "id": "N1-19-024"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>払拭<rt>ふっしょく</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "不安を払拭する",
+          "払拭を飲む",
+          "払拭に住む",
+          "払拭を走る"
         ],
         "answer": 0,
         "id": "N1-19-025"
@@ -32653,78 +32653,78 @@ MOCK_DATA['N1'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>醸成<rt>じょうせい</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "雰囲気を醸成する",
+          "醸成を食べる",
+          "醸成に乗る",
+          "醸成を着る"
         ],
         "answer": 0,
         "id": "N1-20-020"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>踏襲<rt>とうしゅう</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "伝統を踏襲する",
+          "踏襲を飲む",
+          "踏襲に住む",
+          "踏襲を走る"
         ],
         "answer": 0,
         "id": "N1-20-021"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>逡巡<rt>しゅんじゅん</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "決断に逡巡する",
+          "逡巡を食べる",
+          "逡巡に乗る",
+          "逡巡を着る"
         ],
         "answer": 0,
         "id": "N1-20-022"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>傾注<rt>けいちゅう</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "力を傾注する",
+          "傾注を飲む",
+          "傾注に住む",
+          "傾注を走る"
         ],
         "answer": 0,
         "id": "N1-20-023"
       },
       {
         "type": "用法",
-        "text": "「<ruby>遂行<rt>すいこう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>堅持<rt>けんじ</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>任務を遂行する<rt>にんむをすいこうする</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>遂行<rt>すいこう</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "方針を堅持する",
+          "堅持を食べる",
+          "堅持に乗る",
+          "堅持を着る"
         ],
         "answer": 0,
         "id": "N1-20-024"
       },
       {
         "type": "用法",
-        "text": "「<ruby>凌駕<rt>りょうが</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>",
+        "text": "「<ruby>喚起<rt>かんき</rt></ruby>」の使い方",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
         "options": [
-          "<ruby>競合<rt>きょうごう</rt></ruby>を<ruby>凌駕する<rt>りょうがする</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>食べる<rt>たべる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>に<ruby>乗る<rt>のる</rt></ruby>",
-          "<ruby>凌駕<rt>りょうが</rt></ruby>を<ruby>着る<rt>きる</rt></ruby>"
+          "注意を喚起する",
+          "喚起を飲む",
+          "喚起に住む",
+          "喚起を走る"
         ],
         "answer": 0,
         "id": "N1-20-025"
