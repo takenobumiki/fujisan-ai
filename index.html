@@ -1213,25 +1213,69 @@
         /* Landing Page Styles */
         .landing-page { padding-top: 52px; }
         
+        /* Methodology Banner - Apple Style */
+        .methodology-banner {
+            background: #000;
+            padding: 60px 24px;
+            text-align: center;
+        }
+        
+        .methodology-content {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+        }
+        
+        .methodology-icon {
+            display: none;
+        }
+        
+        .methodology-text { text-align: center; }
+        
+        .methodology-label {
+            display: inline-block;
+            font-size: 12px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: #86868b;
+            margin-bottom: 8px;
+        }
+        
+        .methodology-headline {
+            font-size: clamp(28px, 5vw, 48px);
+            font-weight: 600;
+            color: #f5f5f7;
+            margin-bottom: 12px;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+        }
+        
+        .methodology-desc {
+            font-size: 17px;
+            color: #86868b;
+            margin: 0;
+            line-height: 1.5;
+            max-width: 600px;
+        }
+        
         .hero {
             min-height: calc(100vh - 52px);
             display: flex;
             align-items: center;
-            justify-content: flex-end;
-            background: linear-gradient(90deg, rgba(255,255,255,0.98) 0%, rgba(255,255,255,0.95) 40%, rgba(255,255,255,0.7) 60%, rgba(255,255,255,0) 100%), url('images/hero-anime.jpg');
-            background-size: cover;
-            background-position: right center;
+            justify-content: center;
+            background: #fbfbfd;
             position: relative;
             overflow: hidden;
-            padding: 60px 24px;
+            padding: 80px 24px;
         }
         
         @media (max-width: 768px) {
             .hero {
-                background: linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.85) 50%, rgba(255,255,255,0.7) 100%), url('images/hero-anime.jpg');
-                background-size: cover;
-                background-position: center top;
-                justify-content: center;
+                padding: 60px 24px;
             }
         }
         
@@ -1246,98 +1290,85 @@
         .hero-content {
             position: relative;
             z-index: 1;
-            text-align: left;
-            max-width: 560px;
-            margin-right: auto;
-            margin-left: 5%;
-            padding: 40px;
-            background: rgba(255,255,255,0.85);
-            border-radius: 24px;
-            backdrop-filter: blur(10px);
-            box-shadow: 0 20px 60px rgba(0,0,0,0.1);
-        }
-        
-        @media (max-width: 768px) {
-            .hero-content {
-                text-align: center;
-                margin: 0 auto;
-                padding: 32px 24px;
-            }
+            text-align: center;
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 0;
+            background: transparent;
+            border-radius: 0;
+            backdrop-filter: none;
+            box-shadow: none;
         }
         
         .hero-badge {
             display: inline-flex;
             align-items: center;
-            gap: 8px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            gap: 6px;
+            background: transparent;
             border: none;
-            padding: 10px 20px;
-            border-radius: 100px;
-            font-size: 13px;
-            font-weight: 600;
-            color: #fff;
-            margin-bottom: 24px;
-            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+            padding: 0;
+            border-radius: 0;
+            font-size: 12px;
+            font-weight: 500;
+            color: #0066cc;
+            margin-bottom: 20px;
+            box-shadow: none;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+        }
+        
+        .hero-badge svg {
+            width: 14px;
+            height: 14px;
+            stroke: #0066cc;
         }
         
         .hero-badge-dot {
-            width: 8px;
-            height: 8px;
-            background: #4ade80;
-            border-radius: 50%;
-            animation: pulse 2s infinite;
-            box-shadow: 0 0 8px rgba(74, 222, 128, 0.6);
-        }
-        
-        @keyframes pulse {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.5; }
+            display: none;
         }
         
         .hero h1, .hero-title {
-            font-size: clamp(28px, 6vw, 48px);
-            font-weight: 700;
+            font-size: clamp(40px, 8vw, 64px);
+            font-weight: 600;
             color: #1d1d1f;
-            line-height: 1.15;
-            margin-bottom: 16px;
+            line-height: 1.05;
+            margin-bottom: 20px;
+            letter-spacing: -0.025em;
         }
         
         .hero h1 .highlight, .hero-title .highlight {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            background: none;
+            -webkit-background-clip: unset;
+            -webkit-text-fill-color: #1d1d1f;
+            color: #1d1d1f;
         }
         
-        .hero-sub, .hero-subtitle { font-size: 17px; color: #48484a; margin-bottom: 32px; max-width: 480px; line-height: 1.6; }
-        @media (max-width: 768px) { .hero-sub, .hero-subtitle { margin-left: auto; margin-right: auto; } }
+        .hero-sub, .hero-subtitle { font-size: 21px; color: #86868b; margin-bottom: 36px; max-width: 560px; margin-left: auto; margin-right: auto; line-height: 1.5; font-weight: 400; }
         
-        .hero-cta { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; }
-        @media (max-width: 768px) { .hero-cta { align-items: center; } }
-        .hero-cta-btns { display: flex; gap: 12px; flex-wrap: wrap; justify-content: flex-start; }
-        @media (max-width: 768px) { .hero-cta-btns { justify-content: center; } }
-        .btn-hero { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #fff; box-shadow: 0 8px 30px rgba(102, 126, 234, 0.4); border: none; }
-        .btn-hero:hover { transform: scale(1.05); box-shadow: 0 12px 40px rgba(102, 126, 234, 0.5); }
-        .btn-large { height: 54px; padding: 0 32px; font-size: 17px; border-radius: 14px; font-weight: 600; }
-        .hero-note { font-size: 13px; color: #86868b; }
+        .hero-cta { display: flex; flex-direction: column; align-items: center; gap: 12px; }
+        .hero-cta-btns { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+        .btn-hero { background: #0066cc; color: #fff; box-shadow: none; border: none; transition: background 0.2s; }
+        .btn-hero:hover { transform: none; box-shadow: none; background: #0055b3; }
+        .btn-large { height: 50px; padding: 0 28px; font-size: 17px; border-radius: 980px; font-weight: 400; }
+        .hero-note { font-size: 12px; color: #86868b; }
         
-        .hero-stats { display: flex; justify-content: flex-start; gap: 32px; margin-top: 40px; flex-wrap: wrap; padding-top: 24px; border-top: 1px solid rgba(0,0,0,0.08); }
-        @media (max-width: 768px) { .hero-stats { justify-content: center; } }
+        .hero-stats { display: flex; justify-content: center; gap: 48px; margin-top: 56px; flex-wrap: wrap; padding-top: 0; border-top: none; }
         .hero-stat { text-align: center; }
-        .hero-stat-value { font-size: 32px; font-weight: 700; color: #1d1d1f; letter-spacing: -1px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        .hero-stat-label { font-size: 11px; color: #86868b; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 4px; font-weight: 500; }
+        .hero-stat-value { font-size: 48px; font-weight: 600; color: #1d1d1f; letter-spacing: -0.02em; background: none; -webkit-background-clip: unset; -webkit-text-fill-color: #1d1d1f; }
+        .hero-stat-label { font-size: 12px; color: #86868b; text-transform: none; letter-spacing: 0; margin-top: 4px; font-weight: 400; }
         
-        /* Sections */
-        .section { padding: 80px 24px; }
-        .section-dark { background: var(--bg-dark); color: #fff; }
-        .section-alt { background: var(--bg-secondary); }
-        .container { max-width: 1100px; margin: 0 auto; }
+        /* Sections - Apple Style */
+        .section { padding: 100px 24px; }
+        .section-dark { background: #000; color: #f5f5f7; }
+        .section-alt { background: #f5f5f7; }
+        .container { max-width: 980px; margin: 0 auto; }
         
-        .section-header { text-align: center; margin-bottom: 48px; }
-        .section-label { font-size: 12px; font-weight: 600; color: #667eea; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 12px; padding: 6px 16px; background: rgba(102,126,234,0.08); border-radius: 100px; display: inline-block; }
-        .section-dark .section-label { color: #f093fb; }
-        .section-title { font-size: clamp(26px, 5vw, 38px); font-weight: 700; margin-bottom: 12px; }
-        .section-subtitle { font-size: 17px; color: var(--text-secondary); max-width: 560px; margin: 0 auto; }
-        .section-dark .section-subtitle { color: rgba(255,255,255,0.7); }
+        .section-header { text-align: center; margin-bottom: 64px; }
+        .section-label { font-size: 12px; font-weight: 500; color: #86868b; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 12px; padding: 0; background: transparent; border-radius: 0; display: block; }
+        .section-dark .section-label { color: #86868b; }
+        .section-title { font-size: clamp(32px, 6vw, 48px); font-weight: 600; margin-bottom: 16px; letter-spacing: -0.02em; line-height: 1.1; }
+        .section-subtitle { font-size: 19px; color: #86868b; max-width: 600px; margin: 0 auto; line-height: 1.5; font-weight: 400; }
+        .section-dark .section-subtitle { color: #86868b; }
         
         /* Feature Grid */
         .section-features-bg {
@@ -1352,35 +1383,37 @@
         @media (max-width: 1100px) { .features-grid[style*="repeat(4"] { grid-template-columns: repeat(2, 1fr) !important; } }
         @media (max-width: 600px) { .features-grid[style*="repeat(4"] { grid-template-columns: 1fr !important; } }
         .feature-card {
-            background: var(--bg-primary);
-            border-radius: 20px;
-            padding: 28px;
-            transition: all 0.3s;
+            background: transparent;
+            border-radius: 0;
+            padding: 32px 0;
+            transition: none;
             display: flex;
             flex-direction: column;
             height: 100%;
+            text-align: center;
         }
-        .section-dark .feature-card { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); }
-        .feature-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(0,0,0,0.1); }
-        .feature-icon { width: 52px; height: 52px; border-radius: 14px; display: flex; align-items: center; justify-content: center; font-size: 26px; margin-bottom: 16px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); flex-shrink: 0; }
-        .feature-title { font-size: 18px; font-weight: 600; margin-bottom: 8px; min-height: 24px; }
-        .feature-desc { font-size: 14px; color: var(--text-secondary); line-height: 1.6; flex-grow: 1; min-height: 70px; }
-        .feature-card img { width: 100%; height: 120px; object-fit: cover; border-radius: 12px; margin-top: auto; flex-shrink: 0; }
-        .section-dark .feature-title { color: #fff; }
-        .section-dark .feature-desc { color: rgba(255,255,255,0.7); }
+        .section-dark .feature-card { background: transparent; border: none; }
+        .feature-card:hover { transform: none; box-shadow: none; }
+        .feature-icon { width: 48px; height: 48px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 24px; margin: 0 auto 20px; background: #1d1d1f; flex-shrink: 0; }
+        .section-dark .feature-icon { background: #f5f5f7; }
+        .section-dark .feature-icon svg { stroke: #1d1d1f; }
+        .feature-title { font-size: 19px; font-weight: 600; margin-bottom: 8px; min-height: auto; }
+        .feature-desc { font-size: 14px; color: #86868b; line-height: 1.6; flex-grow: 1; min-height: auto; }
+        .feature-card img { display: none; }
+        .section-dark .feature-title { color: #f5f5f7; }
+        .section-dark .feature-desc { color: #86868b; }
         
-        /* Why Cards */
-        .why-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-        @media (max-width: 1100px) { .why-grid { grid-template-columns: repeat(2, 1fr); } }
-        @media (max-width: 600px) { .why-grid { grid-template-columns: 1fr; } }
-        .why-grid[style*="repeat(4"] { grid-template-columns: repeat(4, 1fr) !important; }
-        @media (max-width: 1100px) { .why-grid[style*="repeat(4"] { grid-template-columns: repeat(2, 1fr) !important; } }
-        @media (max-width: 600px) { .why-grid[style*="repeat(4"] { grid-template-columns: 1fr !important; } }
-        .why-card { text-align: center; padding: 36px 24px; background: var(--bg-primary); border-radius: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); display: flex; flex-direction: column; height: 100%; }
-        .why-icon { width: 72px; height: 72px; margin: 0 auto 20px; border-radius: 20px; display: flex; align-items: center; justify-content: center; font-size: 36px; background: linear-gradient(135deg, #f8f9ff 0%, #e8ecff 100%); border: 1px solid rgba(102,126,234,0.2); flex-shrink: 0; box-shadow: 0 4px 15px rgba(102,126,234,0.1); }
-        .why-title { font-size: 20px; font-weight: 700; margin-bottom: 10px; min-height: 28px; }
-        .why-desc { font-size: 14px; color: var(--text-secondary); line-height: 1.7; flex-grow: 1; min-height: 60px; }
-        .why-card img { width: 100%; height: 140px; object-fit: cover; border-radius: 12px; margin-top: auto; flex-shrink: 0; }
+        /* Why Cards - Apple Style */
+        .why-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 48px 32px; }
+        @media (max-width: 768px) { .why-grid { grid-template-columns: 1fr; gap: 40px; } }
+        .why-grid[style*="repeat(4"] { grid-template-columns: repeat(2, 1fr) !important; gap: 48px 32px !important; }
+        @media (max-width: 768px) { .why-grid[style*="repeat(4"] { grid-template-columns: 1fr !important; } }
+        .why-card { text-align: left; padding: 0; background: transparent; border-radius: 0; box-shadow: none; display: flex; flex-direction: column; height: 100%; }
+        .why-icon { width: 48px; height: 48px; margin: 0 0 20px 0; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 24px; background: #f5f5f7; border: none; flex-shrink: 0; box-shadow: none; }
+        .why-icon svg { stroke: #1d1d1f; }
+        .why-title { font-size: 24px; font-weight: 600; margin-bottom: 12px; min-height: auto; letter-spacing: -0.01em; }
+        .why-desc { font-size: 17px; color: #86868b; line-height: 1.6; flex-grow: 1; min-height: auto; }
+        .why-card img { display: none; }
         
         /* Level Cards */
         .section-levels-bg {
@@ -1576,19 +1609,22 @@
         .demo-retry-btn { background: transparent; border: 2px solid rgba(255,255,255,0.5); color: #fff; padding: 12px 24px; border-radius: 12px; font-size: 14px; cursor: pointer; margin-top: 12px; transition: all 0.2s; }
         .demo-retry-btn:hover { border-color: #fff; background: rgba(255,255,255,0.1); }
         
-        /* Science Section */
-        .section-science { background: var(--bg-secondary); }
-        .science-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; margin-bottom: 40px; }
-        @media (max-width: 768px) { .science-grid { grid-template-columns: 1fr; } }
-        .science-card { background: #fff; border-radius: 20px; padding: 28px; box-shadow: 0 4px 20px rgba(0,0,0,0.06); }
-        .science-icon { font-size: 40px; margin-bottom: 16px; }
-        .science-title { font-size: 18px; font-weight: 600; margin-bottom: 12px; color: var(--text-primary); }
-        .science-desc { font-size: 14px; line-height: 1.6; color: var(--text-secondary); margin-bottom: 16px; }
-        .science-stat { display: flex; align-items: baseline; gap: 8px; padding-top: 16px; border-top: 1px solid var(--border); }
-        .science-stat-value { font-size: 28px; font-weight: 700; color: #7B1FA2; }
-        .science-stat-label { font-size: 13px; color: var(--text-secondary); }
-        .science-quote { text-align: center; max-width: 700px; margin: 0 auto; }
-        .science-quote blockquote { font-size: 18px; font-style: italic; line-height: 1.6; color: var(--text-primary); margin: 0; padding: 24px; background: linear-gradient(135deg, rgba(102,126,234,0.1), rgba(118,75,162,0.1)); border-radius: 16px; border-left: 4px solid #7B1FA2; }
+        /* Science Section - Apple Style */
+        .section-science { background: #fff; }
+        .science-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 48px 32px; margin-bottom: 64px; }
+        @media (max-width: 1024px) { .science-grid { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 640px) { .science-grid { grid-template-columns: 1fr; gap: 40px; } }
+        .science-card { background: transparent; border-radius: 0; padding: 0; box-shadow: none; transition: none; }
+        .science-card:hover { transform: none; box-shadow: none; }
+        .science-icon { margin-bottom: 20px; width: 48px; height: 48px; background: #f5f5f7; border-radius: 12px; display: flex; align-items: center; justify-content: center; }
+        .science-icon svg { stroke: #1d1d1f; }
+        .science-title { font-size: 21px; font-weight: 600; margin-bottom: 8px; color: #1d1d1f; letter-spacing: -0.01em; }
+        .science-desc { font-size: 14px; line-height: 1.6; color: #86868b; margin-bottom: 16px; }
+        .science-stat { display: flex; align-items: baseline; gap: 8px; padding-top: 16px; border-top: 1px solid #d2d2d7; }
+        .science-stat-value { font-size: 32px; font-weight: 600; color: #1d1d1f; letter-spacing: -0.02em; }
+        .science-stat-label { font-size: 14px; color: #86868b; }
+        .science-quote { text-align: center; max-width: 680px; margin: 0 auto; }
+        .science-quote blockquote { font-size: 21px; font-style: normal; line-height: 1.5; color: #1d1d1f; margin: 0; padding: 0; background: transparent; border-radius: 0; border-left: none; font-weight: 500; }
         
         /* Screen Reader Only - Visible to search engines and AI */
         .sr-only {
@@ -1660,35 +1696,42 @@
                 
                 <!-- AI Summary Content (SEO/LLM optimized, visually hidden) -->
                 <article class="sr-only" aria-hidden="false">
-                    <h1>Fujisan.AI: AI-Powered Japanese Learning with Science-Backed Spaced Repetition - Pass JLPT 10x Faster</h1>
+                    <h1>Fujisan.AI: The Future of Japanese Language Acquisition - Instructional Design × SLA Theory × Artificial Intelligence</h1>
                     <section>
                         <h2>What is Fujisan.AI?</h2>
-                        <p>Fujisan.AI is an AI-powered Japanese language learning platform that combines Google Gemini AI with cognitive science principles. Using Ebbinghaus forgetting curve optimization and elaborative encoding, it achieves 94% long-term retention rate — compared to 20% with traditional study methods. Created by TORAIZ Inc. in Tokyo with 19 years of data from 16,000+ students.</p>
+                        <p>Fujisan.AI is a revolutionary Japanese language learning platform that synthesizes three pillars of modern educational science: Instructional Design methodology, Second Language Acquisition (SLA) theory, and Artificial Intelligence-driven adaptive learning. Developed by TORAIZ Inc. in Tokyo with 19 years of empirical data from 16,000+ learners, it represents a paradigm shift from traditional rote memorization to evidence-based language acquisition.</p>
                     </section>
                     <section>
-                        <h2>Science-Backed AI Features</h2>
+                        <h2>The Science Behind Fujisan.AI</h2>
                         <ul>
-                            <li>Spaced Repetition Algorithm - Based on Ebbinghaus forgetting curve research, AI predicts your optimal review timing for each word</li>
-                            <li>24/7 AI Tutor - Google Gemini-powered tutor answers any Japanese question instantly with personalized explanations</li>
-                            <li>Elaborative Encoding - AI generates unique contextual explanations that create 3x stronger memory pathways</li>
-                            <li>Adaptive Difficulty - Machine learning adjusts question difficulty in real-time to keep you in optimal learning zone</li>
-                            <li>AI Analysis - Detailed feedback on every question to help you improve</li>
-                            <li>10x Faster Learning - Hyper-efficient study eliminates wasted time on material you already know</li>
+                            <li>Instructional Design Framework - Systematic learning architecture based on Gagné's Nine Events of Instruction, ensuring optimal cognitive load management and knowledge transfer</li>
+                            <li>Krashen's Input Hypothesis (i+1) - AI dynamically calibrates content difficulty to maintain comprehensible input just beyond current proficiency level</li>
+                            <li>Spaced Repetition System (SRS) - Ebbinghaus forgetting curve optimization with machine learning-enhanced interval scheduling</li>
+                            <li>Elaborative Encoding - AI-generated contextual explanations create multiple memory pathways, achieving 94% long-term retention vs 20% traditional methods</li>
+                            <li>Formative Assessment Loop - Continuous performance analytics enable real-time learning path optimization</li>
+                            <li>Multimodal Input Processing - Integrated listening, reading, and production practice aligned with Swain's Output Hypothesis</li>
                         </ul>
                     </section>
                     <section>
-                        <h2>Free Demo - Try 3 Questions Now</h2>
-                        <p>Experience AI-powered learning without signing up. Answer 3 real JLPT questions (including listening) and see how AI explains every answer with memory tips and example sentences.</p>
+                        <h2>Why Traditional Methods Fall Short</h2>
+                        <p>Conventional Japanese study wastes 80% of time reviewing already-mastered material. Fujisan.AI's AI engine identifies precise knowledge gaps and allocates 100% of study time to high-impact learning objectives. Real-time difficulty calibration keeps learners in Vygotsky's Zone of Proximal Development throughout each session.</p>
                     </section>
                     <section>
-                        <h2>Fujisan.AI Pricing</h2>
-                        <p>Basic ($47.99/year): Learn/Practice/Test modes, Daily challenges, League competition. Standard ($89.99/year): + Full mock tests, AI explanations. Premium ($179.99/year): + 24/7 AI Tutor, All JLPT levels N5-N1. All plans include 7-day free trial.</p>
-                    </section>
-                    <section>
-                        <h2>Why AI Learning is 10x More Efficient</h2>
-                        <p>Traditional study wastes 80% of time reviewing material you already know. AI optimization focuses 100% of effort on what you actually need to learn. AI-powered explanations help you understand and remember what you learn.</p>
+                        <h2>Comprehensive JLPT Coverage</h2>
+                        <p>22,000+ vocabulary items, 2,200+ kanji, 1,100+ grammar patterns, and 100 authentic mock tests (20 per level N5-N1). All content aligned with official JLPT specifications and validated through learner outcome data.</p>
                     </section>
                 </article>
+                
+                <!-- Methodology Banner - Apple Style -->
+                <section class="methodology-banner">
+                    <div class="methodology-content">
+                        <div class="methodology-text">
+                            <span class="methodology-label">A New Paradigm in Language Learning</span>
+                            <h2 class="methodology-headline">Instructional Design.<br>SLA Theory. AI.</h2>
+                            <p class="methodology-desc">The science of language acquisition, engineered for measurable outcomes.</p>
+                        </div>
+                    </div>
+                </section>
                 
                 <!-- Hero -->
                 <section class="hero">
@@ -1698,33 +1741,37 @@
                     </svg>
                     
                     <div class="hero-content">
-                        <h1 class="hero-title">Your <span class="highlight">AI Japanese Tutor</span><br>Available 24/7</h1>
+                        <div class="hero-badge">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                            <span>Evidence-Based Learning System</span>
+                        </div>
+                        <h1 class="hero-title">Master Japanese Through<br><span class="highlight">Scientific Methodology</span></h1>
                         
                         <p class="hero-subtitle" data-i18n="hero_subtitle">
-                            Pass JLPT N5-N1 with AI-powered learning. Personalized explanations for every mistake.
+                            Where Instructional Design meets Second Language Acquisition theory and AI-driven personalization. Pass JLPT N5-N1 with a system engineered for measurable outcomes.
                         </p>
                         
                         <div class="hero-cta">
-                            <a href="#pricing" class="btn btn-hero btn-large" data-i18n="hero_cta" style="padding: 16px 48px; font-size: 18px;">Start Free Trial →</a>
-                            <p class="hero-note" data-i18n="hero_note">7 days free • No commitment • Cancel anytime</p>
+                            <a href="#pricing" class="btn btn-hero btn-large" data-i18n="hero_cta" style="padding: 16px 48px; font-size: 18px;">Start Free Trial</a>
+                            <p class="hero-note" data-i18n="hero_note">7-day trial • No commitment • Cancel anytime</p>
                         </div>
                         
                         <div class="hero-stats">
                             <div class="hero-stat">
-                                <div class="hero-stat-value">16K+</div>
-                                <div class="hero-stat-label" data-i18n="hero_stat_students">Students</div>
-                            </div>
-                            <div class="hero-stat">
                                 <div class="hero-stat-value">94%</div>
-                                <div class="hero-stat-label" data-i18n="hero_stat_retention">Retention</div>
+                                <div class="hero-stat-label" data-i18n="hero_stat_retention">Long-term Retention</div>
                             </div>
                             <div class="hero-stat">
-                                <div class="hero-stat-value">N5-N1</div>
-                                <div class="hero-stat-label" data-i18n="hero_stat_levels">All Levels</div>
+                                <div class="hero-stat-value">16K+</div>
+                                <div class="hero-stat-label" data-i18n="hero_stat_students">Learners</div>
                             </div>
                             <div class="hero-stat">
                                 <div class="hero-stat-value">19yr</div>
-                                <div class="hero-stat-label" data-i18n="hero_stat_experience">Experience</div>
+                                <div class="hero-stat-label" data-i18n="hero_stat_experience">Research Data</div>
+                            </div>
+                            <div class="hero-stat">
+                                <div class="hero-stat-value">N5-N1</div>
+                                <div class="hero-stat-label" data-i18n="hero_stat_levels">Full Coverage</div>
                             </div>
                         </div>
                     </div>
@@ -1814,53 +1861,71 @@
                 <section class="section section-science">
                     <div class="container">
                         <div class="section-header">
-                            <div class="section-label">Science-Backed Learning</div>
-                            <h2 class="section-title">AI-Era Learning Science</h2>
-                            <p class="section-subtitle">Personalized optimization powered by cognitive science + machine learning</p>
+                            <div class="section-label">Theoretical Foundation</div>
+                            <h2 class="section-title">Built on Proven Learning Science</h2>
+                            <p class="section-subtitle">Where Instructional Design principles meet Second Language Acquisition research</p>
                         </div>
                         
                         <div class="science-grid">
                             <div class="science-card">
-                                <div class="science-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#667eea" stroke-width="1.5"><path d="M12 2C9 2 7 4 7 7c0 1.5.5 2.5 1.5 3.5-1 .5-2.5 2-2.5 4.5 0 3 2 5 5 5h2c3 0 5-2 5-5 0-2.5-1.5-4-2.5-4.5 1-.5 1.5-2 1.5-3.5 0-3-2-5-5-5z"/><path d="M12 6v4M10 8h4"/></svg></div>
-                                <h3 class="science-title">Spaced Repetition Algorithm</h3>
-                                <p class="science-desc">Based on Ebbinghaus forgetting curve research. Our AI predicts your optimal review timing for each word, maximizing retention with minimum study time.</p>
+                                <div class="science-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#667eea" stroke-width="1.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div>
+                                <h3 class="science-title">Krashen's Input Hypothesis (i+1)</h3>
+                                <p class="science-desc">Our AI calibrates content to be just beyond your current level—comprehensible input that drives natural acquisition. Each learner receives a uniquely optimized progression path.</p>
+                                <div class="science-stat">
+                                    <span class="science-stat-value">i+1</span>
+                                    <span class="science-stat-label">Optimal Input Level</span>
+                                </div>
+                            </div>
+                            <div class="science-card">
+                                <div class="science-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#667eea" stroke-width="1.5"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/><circle cx="12" cy="12" r="4"/></svg></div>
+                                <h3 class="science-title">Ebbinghaus Spaced Repetition</h3>
+                                <p class="science-desc">ML-enhanced interval scheduling based on the forgetting curve. AI predicts your optimal review timing for each item, maximizing retention efficiency while minimizing study time.</p>
                                 <div class="science-stat">
                                     <span class="science-stat-value">94%</span>
-                                    <span class="science-stat-label">retention vs 20% traditional</span>
+                                    <span class="science-stat-label">vs 20% traditional retention</span>
                                 </div>
                             </div>
                             <div class="science-card">
-                                <div class="science-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#667eea" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div>
-                                <h3 class="science-title">Adaptive Difficulty</h3>
-                                <p class="science-desc">AI continuously analyzes your performance patterns and adjusts question difficulty in real-time. Stay in your optimal learning zone — not too easy, not too hard.</p>
+                                <div class="science-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#667eea" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div>
+                                <h3 class="science-title">Swain's Output Hypothesis</h3>
+                                <p class="science-desc">Active production practice drives deeper processing. Our multimodal system integrates listening, reading, meaning recognition, and writing—forcing comprehensive language engagement.</p>
+                                <div class="science-stat">
+                                    <span class="science-stat-value">4-Skill</span>
+                                    <span class="science-stat-label">Multimodal Processing</span>
+                                </div>
+                            </div>
+                            <div class="science-card">
+                                <div class="science-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#667eea" stroke-width="1.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg></div>
+                                <h3 class="science-title">Gagné's Instructional Events</h3>
+                                <p class="science-desc">Systematic learning architecture with optimal cognitive load management. Each session follows evidence-based sequencing: attention → objectives → recall → content → guidance → practice → feedback.</p>
+                                <div class="science-stat">
+                                    <span class="science-stat-value">9-Step</span>
+                                    <span class="science-stat-label">Instructional Framework</span>
+                                </div>
+                            </div>
+                            <div class="science-card">
+                                <div class="science-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#667eea" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+                                <h3 class="science-title">Zone of Proximal Development</h3>
+                                <p class="science-desc">Based on Vygotsky's ZPD theory, our adaptive engine keeps you challenged at exactly the right level—where learning happens most efficiently.</p>
                                 <div class="science-stat">
                                     <span class="science-stat-value">2.5x</span>
-                                    <span class="science-stat-label">faster skill acquisition</span>
+                                    <span class="science-stat-label">Faster Skill Acquisition</span>
                                 </div>
                             </div>
                             <div class="science-card">
-                                <div class="science-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#667eea" stroke-width="1.5"><path d="M9 21h6M12 3a6 6 0 0 0-6 6c0 2.5 1.5 4.5 3 6v2h6v-2c1.5-1.5 3-3.5 3-6a6 6 0 0 0-6-6z"/></svg></div>
-                                <h3 class="science-title">Active Recall + Elaboration</h3>
-                                <p class="science-desc">Testing effect research shows retrieval practice beats passive review. Our AI generates unique explanations that create multiple memory pathways for each concept.</p>
+                                <div class="science-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#667eea" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg></div>
+                                <h3 class="science-title">Elaborative Encoding</h3>
+                                <p class="science-desc">AI-generated contextual explanations create rich associative networks. Every mistake becomes a learning opportunity with personalized elaboration in your native language.</p>
                                 <div class="science-stat">
                                     <span class="science-stat-value">3x</span>
-                                    <span class="science-stat-label">stronger memory encoding</span>
-                                </div>
-                            </div>
-                            <div class="science-card">
-                                <div class="science-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#667eea" stroke-width="1.5"><rect x="3" y="10" width="4" height="10" rx="1"/><rect x="10" y="6" width="4" height="14" rx="1"/><rect x="17" y="2" width="4" height="18" rx="1"/></svg></div>
-                                <h3 class="science-title">Predictive Analytics</h3>
-                                <p class="science-desc">Machine learning models trained on thousands of JLPT learners identify exactly which areas need more focus.</p>
-                                <div class="science-stat">
-                                    <span class="science-stat-value">85%</span>
-                                    <span class="science-stat-label">prediction accuracy</span>
+                                    <span class="science-stat-label">Stronger Memory Encoding</span>
                                 </div>
                             </div>
                         </div>
                         
                         <div class="science-quote">
                             <blockquote>
-                                "Traditional language learning wastes 80% of study time on material you already know. AI optimization focuses 100% of your effort on what you actually need to learn."
+                                "Language acquisition is not a linear process of memorization—it's the emergent result of optimized input, meaningful practice, and adaptive feedback. Fujisan.AI engineers this environment at scale."
                             </blockquote>
                         </div>
                     </div>
@@ -1870,56 +1935,34 @@
                 <section class="section" id="features">
                     <div class="container">
                         <div class="section-header">
-                            <div class="section-label" data-i18n="features_label">Why Fujisan.AI</div>
-                            <h2 class="section-title" data-i18n="features_headline">The Smartest Way to Pass JLPT</h2>
-                            <p class="section-subtitle" data-i18n="features_subheadline">Everything you need: mock tests, AI tutoring, and spaced repetition — all in one app.</p>
-                        </div>
-                        
-                        <!-- Key Stats Banner -->
-                        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 16px; padding: 24px 32px; margin-bottom: 32px; text-align: center; color: #fff; box-shadow: 0 8px 32px rgba(102,126,234,0.3);">
-                            <div style="display: flex; justify-content: center; gap: 48px; flex-wrap: wrap; font-size: 15px;">
-                                <div style="text-align: center;">
-                                    <div style="font-size: 42px; font-weight: 800;">100</div>
-                                    <div style="opacity: 0.9;" data-i18n="stat_mock_tests">Mock Tests</div>
-                                </div>
-                                <div style="text-align: center;">
-                                    <div style="font-size: 42px; font-weight: 800;">N5-N1</div>
-                                    <div style="opacity: 0.9;" data-i18n="stat_all_levels">All Levels</div>
-                                </div>
-                                <div style="text-align: center;">
-                                    <div style="font-size: 42px; font-weight: 800;">22K+</div>
-                                    <div style="opacity: 0.9;" data-i18n="stat_vocabulary">Vocabulary</div>
-                                </div>
-                                <div style="text-align: center;">
-                                    <div style="font-size: 42px; font-weight: 800;">6</div>
-                                    <div style="opacity: 0.9;" data-i18n="stat_languages">Languages</div>
-                                </div>
-                            </div>
+                            <div class="section-label" data-i18n="features_label">Platform Capabilities</div>
+                            <h2 class="section-title" data-i18n="features_headline">Engineered for Measurable Outcomes</h2>
+                            <p class="section-subtitle" data-i18n="features_subheadline">Comprehensive JLPT preparation infrastructure with adaptive assessment and AI-driven feedback.</p>
                         </div>
                         
                         <div class="why-grid" style="grid-template-columns: repeat(4, 1fr);">
                             <div class="why-card">
                                 <div class="why-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#667eea" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg></div>
-                                <h3 class="why-title" data-i18n="feature_mock_title">100 Mock Tests</h3>
-                                <p class="why-desc" data-i18n="feature_mock_desc">20 full-length tests per level (N5-N1). Simulate real JLPT conditions with timer, scoring, and detailed answer review.</p>
+                                <h3 class="why-title" data-i18n="feature_mock_title">Authentic Assessment</h3>
+                                <p class="why-desc" data-i18n="feature_mock_desc">100 JLPT-format tests with timed conditions, performance analytics, and detailed item analysis. Validated against official specifications.</p>
                                 <img src="images/exam-room.jpg" alt="JLPT mock test simulating real exam conditions">
                             </div>
                             <div class="why-card">
-                                <div class="why-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#667eea" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path></svg></div>
-                                <h3 class="why-title" data-i18n="feature_ai_title">AI Explanations</h3>
-                                <p class="why-desc" data-i18n="feature_ai_desc">Wrong answer? Our AI instantly explains why in your language. Understand the logic, not just memorize the answer.</p>
+                                <div class="why-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#667eea" stroke-width="2"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="8.5" cy="15.5" r="1.5" fill="#667eea"/><circle cx="15.5" cy="15.5" r="1.5" fill="#667eea"/><path d="M12 2v5M8 4l4 3 4-3"/></svg></div>
+                                <h3 class="why-title" data-i18n="feature_ai_title">AI-Powered Feedback</h3>
+                                <p class="why-desc" data-i18n="feature_ai_desc">Google Gemini generates personalized elaborative explanations in your L1. Transform errors into deep learning opportunities.</p>
                                 <img src="images/progress-tracking.jpg" alt="AI tutor explaining Japanese grammar mistakes">
                             </div>
                             <div class="why-card">
-                                <div class="why-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#667eea" stroke-width="2"><path d="M12 2a4 4 0 0 0-4 4c0 1.5.8 2.8 2 3.5v1a2 2 0 0 0 4 0v-1c1.2-.7 2-2 2-3.5a4 4 0 0 0-4-4z"></path><path d="M8 14c-2 0-4 2-4 4v2h16v-2c0-2-2-4-4-4"></path></svg></div>
-                                <h3 class="why-title" data-i18n="feature_srs_title">Spaced Repetition</h3>
-                                <p class="why-desc" data-i18n="feature_srs_desc">Based on Ebbinghaus forgetting curve. Our SRS schedules reviews at optimal intervals so you remember forever.</p>
+                                <div class="why-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#667eea" stroke-width="2"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/><circle cx="12" cy="12" r="4"/></svg></div>
+                                <h3 class="why-title" data-i18n="feature_srs_title">Adaptive Scheduling</h3>
+                                <p class="why-desc" data-i18n="feature_srs_desc">ML-enhanced spaced repetition calculates optimal review intervals. Maximize retention efficiency with minimum cognitive load.</p>
                                 <img src="images/spiral-stairs.jpg" alt="Spaced repetition system for optimal memory retention">
                             </div>
                             <div class="why-card">
                                 <div class="why-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#667eea" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></div>
-                                <h3 class="why-title" data-i18n="feature_lang_title">6 Languages</h3>
-                                <p class="why-desc" data-i18n="feature_lang_desc">Study in English, 繁體中文, 简体中文, 한국어, Tiếng Việt, or Bahasa Indonesia. AI explanations in your native language.</p>
+                                <h3 class="why-title" data-i18n="feature_lang_title">Multilingual L1 Support</h3>
+                                <p class="why-desc" data-i18n="feature_lang_desc">Interface and AI explanations in 6 languages. Native-language scaffolding accelerates comprehension without translation dependence.</p>
                                 <img src="images/study-scene.jpg" alt="Multilingual Japanese learning app interface">
                             </div>
                         </div>
@@ -1930,34 +1973,34 @@
                 <section class="section section-dark section-features-bg">
                     <div class="container">
                         <div class="section-header">
-                            <div class="section-label" data-i18n="modes_label">Complete Learning System</div>
-                            <h2 class="section-title" data-i18n="modes_title">4 Learning Modes</h2>
-                            <p class="section-subtitle" data-i18n="modes_subtitle">Learn → Practice → Review → Test. Master JLPT systematically.</p>
+                            <div class="section-label" data-i18n="modes_label">Systematic Learning Architecture</div>
+                            <h2 class="section-title" data-i18n="modes_title">4-Mode Acquisition Framework</h2>
+                            <p class="section-subtitle" data-i18n="modes_subtitle">Input → Intake → Integration → Assessment. A structured path through Gagné's instructional events.</p>
                         </div>
                         
                         <div class="features-grid" style="grid-template-columns: repeat(4, 1fr);">
                             <div class="feature-card">
                                 <div class="feature-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg></div>
-                                <h3 class="feature-title" data-i18n="mode_learn_title">Learn Mode</h3>
-                                <p class="feature-desc" data-i18n="mode_learn_desc">Master new vocabulary and kanji with flashcards. See word, reading, meaning, and example sentences.</p>
+                                <h3 class="feature-title" data-i18n="mode_learn_title">Input Phase</h3>
+                                <p class="feature-desc" data-i18n="mode_learn_desc">Comprehensible input delivery with contextual examples. Multimodal presentation: kanji, reading, meaning, and usage patterns.</p>
                                 <img src="images/flashcards.jpg" alt="Japanese vocabulary flashcard learning mode">
                             </div>
                             <div class="feature-card">
                                 <div class="feature-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M12 19l7-7 3 3-7 7-3-3z"></path><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><path d="M2 2l7.586 7.586"></path><circle cx="11" cy="11" r="2"></circle></svg></div>
-                                <h3 class="feature-title" data-i18n="mode_practice_title">Practice Mode</h3>
-                                <p class="feature-desc" data-i18n="mode_practice_desc">Test yourself with 4-choice quizzes. Listening, Reading, Meaning, and Writing modes available.</p>
+                                <h3 class="feature-title" data-i18n="mode_practice_title">Active Recall</h3>
+                                <p class="feature-desc" data-i18n="mode_practice_desc">4-skill retrieval practice: Listening, Reading, Meaning, Writing. Forced production strengthens memory encoding.</p>
                                 <img src="images/curriculum.jpg" alt="JLPT practice quizzes with multiple choice">
                             </div>
                             <div class="feature-card">
                                 <div class="feature-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg></div>
-                                <h3 class="feature-title" data-i18n="mode_review_title">SRS Review</h3>
-                                <p class="feature-desc" data-i18n="mode_review_desc">Spaced repetition reviews your mistakes at optimal intervals. Never forget what you've learned.</p>
+                                <h3 class="feature-title" data-i18n="mode_review_title">Spaced Review</h3>
+                                <p class="feature-desc" data-i18n="mode_review_desc">ML-optimized interval scheduling based on individual forgetting curves. Consolidate before decay.</p>
                                 <img src="images/spiral-stairs.jpg" alt="Spaced repetition system for vocabulary retention">
                             </div>
                             <div class="feature-card">
                                 <div class="feature-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M9 11l3 3L22 4"></path><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg></div>
-                                <h3 class="feature-title" data-i18n="mode_mock_title">Mock Test</h3>
-                                <p class="feature-desc" data-i18n="mode_mock_desc">100 full mock tests (20 per level). Timed tests simulating real JLPT conditions.</p>
+                                <h3 class="feature-title" data-i18n="mode_mock_title">Summative Assessment</h3>
+                                <p class="feature-desc" data-i18n="mode_mock_desc">100 authentic mock tests calibrated to official JLPT specifications. Predictive scoring analytics.</p>
                                 <img src="images/exam-room.jpg" alt="JLPT mock test with timer">
                             </div>
                         </div>
@@ -1968,20 +2011,28 @@
                 <section class="section section-alt section-levels-bg" id="levels">
                     <div class="container">
                         <div class="section-header">
-                            <div class="section-label" data-i18n="levels_label">JLPT Levels</div>
-                            <h2 class="section-title" data-i18n="levels_title">100% Official JLPT Coverage</h2>
-                            <p class="section-subtitle" data-i18n="levels_subtitle">Complete coverage of all official JLPT requirements — vocabulary, kanji, and grammar</p>
+                            <div class="section-label" data-i18n="levels_label">Content Scope</div>
+                            <h2 class="section-title" data-i18n="levels_title">Comprehensive JLPT Curriculum</h2>
+                            <p class="section-subtitle" data-i18n="levels_subtitle">Complete coverage validated against official specifications—vocabulary, kanji, grammar, and integrated skills</p>
                         </div>
                         
-                        <!-- 100% Coverage Banner -->
-                        <div style="background: linear-gradient(135deg, #00C853 0%, #00E676 100%); border-radius: 16px; padding: 24px 32px; margin-bottom: 32px; text-align: center; color: #fff; box-shadow: 0 8px 32px rgba(0,200,83,0.3);">
-                            <div style="font-size: 48px; font-weight: 800; margin-bottom: 8px;"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" style="vertical-align:middle;margin-right:8px"><path d="M20 6L9 17l-5-5"/></svg>100% Coverage</div>
-                            <div style="font-size: 18px; font-weight: 600; margin-bottom: 16px;" data-i18n="coverage_headline">All Official JLPT Requirements Covered</div>
-                            <div style="display: flex; justify-content: center; gap: 32px; flex-wrap: wrap; font-size: 15px;">
-                                <div><strong>22,000+</strong> <span data-i18n="coverage_vocab">Vocabulary</span></div>
-                                <div><strong>2,200+</strong> <span data-i18n="coverage_kanji">Kanji</span></div>
-                                <div><strong>1,100+</strong> <span data-i18n="coverage_grammar">Grammar</span></div>
-                                <div><strong>100</strong> <span data-i18n="coverage_mock">Mock Tests</span></div>
+                        <!-- Coverage Stats - Apple Style -->
+                        <div style="display: flex; justify-content: center; gap: 64px; flex-wrap: wrap; margin-bottom: 64px; padding: 48px 0; border-top: 1px solid #d2d2d7; border-bottom: 1px solid #d2d2d7;">
+                            <div style="text-align: center;">
+                                <div style="font-size: 56px; font-weight: 600; color: #1d1d1f; letter-spacing: -0.02em;">22K+</div>
+                                <div style="font-size: 14px; color: #86868b;" data-i18n="coverage_vocab">Vocabulary</div>
+                            </div>
+                            <div style="text-align: center;">
+                                <div style="font-size: 56px; font-weight: 600; color: #1d1d1f; letter-spacing: -0.02em;">2,200+</div>
+                                <div style="font-size: 14px; color: #86868b;" data-i18n="coverage_kanji">Kanji</div>
+                            </div>
+                            <div style="text-align: center;">
+                                <div style="font-size: 56px; font-weight: 600; color: #1d1d1f; letter-spacing: -0.02em;">1,100+</div>
+                                <div style="font-size: 14px; color: #86868b;" data-i18n="coverage_grammar">Grammar</div>
+                            </div>
+                            <div style="text-align: center;">
+                                <div style="font-size: 56px; font-weight: 600; color: #1d1d1f; letter-spacing: -0.02em;">100</div>
+                                <div style="font-size: 14px; color: #86868b;" data-i18n="coverage_mock">Mock Tests</div>
                             </div>
                         </div>
                         
