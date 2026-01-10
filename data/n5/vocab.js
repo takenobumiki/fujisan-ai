@@ -22,7 +22,12 @@ const N5_VOCAB = [
       "ko": "[eat rice]",
       "vi": "[eat rice]",
       "id": "[eat rice]"
-    }
+    },
+    "syn": [
+      "食す",
+      "召し上がる",
+      "いただく"
+    ]
   },
   {
     "id": "V0002",
@@ -44,7 +49,12 @@ const N5_VOCAB = [
       "ko": "[drink water]",
       "vi": "[drink water]",
       "id": "[drink water]"
-    }
+    },
+    "syn": [
+      "服用する",
+      "いただく",
+      "摂取する"
+    ]
   },
   {
     "id": "V0003",
@@ -66,7 +76,12 @@ const N5_VOCAB = [
       "ko": "[watch TV]",
       "vi": "[watch TV]",
       "id": "[watch TV]"
-    }
+    },
+    "syn": [
+      "観る",
+      "眺める",
+      "見つめる"
+    ]
   },
   {
     "id": "V0004",
@@ -88,7 +103,12 @@ const N5_VOCAB = [
       "ko": "[listen to music]",
       "vi": "[listen to music]",
       "id": "[listen to music]"
-    }
+    },
+    "syn": [
+      "聴く",
+      "伺う",
+      "耳にする"
+    ]
   },
   {
     "id": "V0005",
@@ -110,7 +130,12 @@ const N5_VOCAB = [
       "ko": "[read a book]",
       "vi": "[read a book]",
       "id": "[read a book]"
-    }
+    },
+    "syn": [
+      "目を通す",
+      "読書する",
+      "拝読する"
+    ]
   },
   {
     "id": "V0006",
@@ -132,7 +157,12 @@ const N5_VOCAB = [
       "ko": "[write a letter]",
       "vi": "[write a letter]",
       "id": "[write a letter]"
-    }
+    },
+    "syn": [
+      "記す",
+      "記入する",
+      "執筆する"
+    ]
   },
   {
     "id": "V0007",
@@ -154,7 +184,12 @@ const N5_VOCAB = [
       "ko": "[speak Japanese]",
       "vi": "[speak Japanese]",
       "id": "[speak Japanese]"
-    }
+    },
+    "syn": [
+      "喋る",
+      "語る",
+      "述べる"
+    ]
   },
   {
     "id": "V0008",
@@ -176,7 +211,12 @@ const N5_VOCAB = [
       "ko": "[say name]",
       "vi": "[say name]",
       "id": "[say name]"
-    }
+    },
+    "syn": [
+      "述べる",
+      "語る",
+      "申す"
+    ]
   },
   {
     "id": "V0009",
@@ -198,7 +238,12 @@ const N5_VOCAB = [
       "ko": "[go to school]",
       "vi": "[go to school]",
       "id": "[go to school]"
-    }
+    },
+    "syn": [
+      "向かう",
+      "参る",
+      "出かける"
+    ]
   },
   {
     "id": "V0010",
@@ -220,7 +265,12 @@ const N5_VOCAB = [
       "ko": "[friend comes]",
       "vi": "[friend comes]",
       "id": "[friend comes]"
-    }
+    },
+    "syn": [
+      "訪れる",
+      "いらっしゃる",
+      "参る"
+    ]
   },
   {
     "id": "V0011",
@@ -242,7 +292,12 @@ const N5_VOCAB = [
       "ko": "[go home]",
       "vi": "[go home]",
       "id": "[go home]"
-    }
+    },
+    "syn": [
+      "戻る",
+      "帰宅する",
+      "引き返す"
+    ]
   },
   {
     "id": "V0012",
@@ -264,7 +319,12 @@ const N5_VOCAB = [
       "ko": "[enter room]",
       "vi": "[enter room]",
       "id": "[enter room]"
-    }
+    },
+    "syn": [
+      "入室する",
+      "加わる",
+      "参加する"
+    ]
   },
   {
     "id": "V0013",
@@ -286,7 +346,12 @@ const N5_VOCAB = [
       "ko": "[go outside]",
       "vi": "[go outside]",
       "id": "[go outside]"
-    }
+    },
+    "syn": [
+      "出発する",
+      "退出する",
+      "現れる"
+    ]
   },
   {
     "id": "V0014",
@@ -308,7 +373,12 @@ const N5_VOCAB = [
       "ko": "[wake up morning]",
       "vi": "[wake up morning]",
       "id": "[wake up morning]"
-    }
+    },
+    "syn": [
+      "起床する",
+      "目覚める",
+      "起き上がる"
+    ]
   },
   {
     "id": "V0015",
@@ -330,7 +400,12 @@ const N5_VOCAB = [
       "ko": "[sleep at night]",
       "vi": "[sleep at night]",
       "id": "[sleep at night]"
-    }
+    },
+    "syn": [
+      "就寝する",
+      "眠る",
+      "休む"
+    ]
   },
   {
     "id": "V0016",
@@ -352,7 +427,12 @@ const N5_VOCAB = [
       "ko": "[sit on chair]",
       "vi": "[sit on chair]",
       "id": "[sit on chair]"
-    }
+    },
+    "syn": [
+      "着席する",
+      "腰掛ける",
+      "座す"
+    ]
   },
   {
     "id": "V0017",
@@ -374,7 +454,12 @@ const N5_VOCAB = [
       "ko": "[stand here]",
       "vi": "[stand here]",
       "id": "[stand here]"
-    }
+    },
+    "syn": [
+      "起立する",
+      "立ち上がる",
+      "直立する"
+    ]
   },
   {
     "id": "V0018",
@@ -396,7 +481,12 @@ const N5_VOCAB = [
       "ko": "[walk on road]",
       "vi": "[walk on road]",
       "id": "[walk on road]"
-    }
+    },
+    "syn": [
+      "歩行する",
+      "散歩する",
+      "徒歩で行く"
+    ]
   },
   {
     "id": "V0019",
@@ -418,7 +508,12 @@ const N5_VOCAB = [
       "ko": "[run in park]",
       "vi": "[run in park]",
       "id": "[run in park]"
-    }
+    },
+    "syn": [
+      "駆ける",
+      "疾走する",
+      "ダッシュする"
+    ]
   },
   {
     "id": "V0020",
@@ -440,7 +535,12 @@ const N5_VOCAB = [
       "ko": "[swim in sea]",
       "vi": "[swim in sea]",
       "id": "[swim in sea]"
-    }
+    },
+    "syn": [
+      "水泳する",
+      "遊泳する",
+      "泳ぎ回る"
+    ]
   },
   {
     "id": "V0021",
@@ -462,7 +562,12 @@ const N5_VOCAB = [
       "ko": "[buy a book]",
       "vi": "[buy a book]",
       "id": "[buy a book]"
-    }
+    },
+    "syn": [
+      "購入する",
+      "求める",
+      "手に入れる"
+    ]
   },
   {
     "id": "V0022",
@@ -484,7 +589,12 @@ const N5_VOCAB = [
       "ko": "[sell a car]",
       "vi": "[sell a car]",
       "id": "[sell a car]"
-    }
+    },
+    "syn": [
+      "販売する",
+      "売却する",
+      "売りさばく"
+    ]
   },
   {
     "id": "V0023",
@@ -506,7 +616,12 @@ const N5_VOCAB = [
       "ko": "[make food]",
       "vi": "[make food]",
       "id": "[make food]"
-    }
+    },
+    "syn": [
+      "製作する",
+      "制作する",
+      "作成する"
+    ]
   },
   {
     "id": "V0024",
@@ -528,7 +643,12 @@ const N5_VOCAB = [
       "ko": "[use computer]",
       "vi": "[use computer]",
       "id": "[use computer]"
-    }
+    },
+    "syn": [
+      "利用する",
+      "活用する",
+      "用いる"
+    ]
   },
   {
     "id": "V0025",
@@ -550,7 +670,12 @@ const N5_VOCAB = [
       "ko": "[carry bag]",
       "vi": "[carry bag]",
       "id": "[carry bag]"
-    }
+    },
+    "syn": [
+      "所有する",
+      "保持する",
+      "携帯する"
+    ]
   },
   {
     "id": "V0026",
@@ -572,7 +697,12 @@ const N5_VOCAB = [
       "ko": "[put book]",
       "vi": "[put book]",
       "id": "[put book]"
-    }
+    },
+    "syn": [
+      "設置する",
+      "配置する",
+      "据える"
+    ]
   },
   {
     "id": "V0027",
@@ -616,7 +746,12 @@ const N5_VOCAB = [
       "ko": "[wait here]",
       "vi": "[wait here]",
       "id": "[wait here]"
-    }
+    },
+    "syn": [
+      "待機する",
+      "お待ちする",
+      "待ち受ける"
+    ]
   },
   {
     "id": "V0029",
@@ -638,7 +773,12 @@ const N5_VOCAB = [
       "ko": "[meet friend]",
       "vi": "[meet friend]",
       "id": "[meet friend]"
-    }
+    },
+    "syn": [
+      "お目にかかる",
+      "面会する",
+      "対面する"
+    ]
   },
   {
     "id": "V0030",
@@ -660,7 +800,12 @@ const N5_VOCAB = [
       "ko": "[teach English]",
       "vi": "[teach English]",
       "id": "[teach English]"
-    }
+    },
+    "syn": [
+      "指導する",
+      "伝授する",
+      "教授する"
+    ]
   },
   {
     "id": "V0031",
@@ -682,7 +827,12 @@ const N5_VOCAB = [
       "ko": "[learn Japanese]",
       "vi": "[learn Japanese]",
       "id": "[learn Japanese]"
-    }
+    },
+    "syn": [
+      "学ぶ",
+      "習得する",
+      "マスターする"
+    ]
   },
   {
     "id": "V0032",
@@ -704,7 +854,12 @@ const N5_VOCAB = [
       "ko": "[study daily]",
       "vi": "[study daily]",
       "id": "[study daily]"
-    }
+    },
+    "syn": [
+      "学習する",
+      "学ぶ",
+      "習う"
+    ]
   },
   {
     "id": "V0033",
@@ -726,7 +881,12 @@ const N5_VOCAB = [
       "ko": "[work at company]",
       "vi": "[work at company]",
       "id": "[work at company]"
-    }
+    },
+    "syn": [
+      "勤務する",
+      "労働する",
+      "就労する"
+    ]
   },
   {
     "id": "V0034",
@@ -748,7 +908,12 @@ const N5_VOCAB = [
       "ko": "[rest a little]",
       "vi": "[rest a little]",
       "id": "[rest a little]"
-    }
+    },
+    "syn": [
+      "休憩する",
+      "休息する",
+      "一服する"
+    ]
   },
   {
     "id": "V0035",
@@ -770,7 +935,12 @@ const N5_VOCAB = [
       "ko": "[play in park]",
       "vi": "[play in park]",
       "id": "[play in park]"
-    }
+    },
+    "syn": [
+      "戯れる",
+      "楽しむ",
+      "レジャーを楽しむ"
+    ]
   },
   {
     "id": "V0036",
@@ -990,7 +1160,12 @@ const N5_VOCAB = [
       "ko": "[open window]",
       "vi": "[open window]",
       "id": "[open window]"
-    }
+    },
+    "syn": [
+      "開く",
+      "開放する",
+      "オープンする"
+    ]
   },
   {
     "id": "V0046",
@@ -1012,7 +1187,12 @@ const N5_VOCAB = [
       "ko": "[close door]",
       "vi": "[close door]",
       "id": "[close door]"
-    }
+    },
+    "syn": [
+      "閉じる",
+      "閉鎖する",
+      "クローズする"
+    ]
   },
   {
     "id": "V0047",
@@ -1342,7 +1522,12 @@ const N5_VOCAB = [
       "ko": "[know name]",
       "vi": "[know name]",
       "id": "[know name]"
-    }
+    },
+    "syn": [
+      "理解する",
+      "把握する",
+      "認識する"
+    ]
   },
   {
     "id": "V0062",
@@ -1364,7 +1549,12 @@ const N5_VOCAB = [
       "ko": "[understand meaning]",
       "vi": "[understand meaning]",
       "id": "[understand meaning]"
-    }
+    },
+    "syn": [
+      "理解する",
+      "把握する",
+      "了解する"
+    ]
   },
   {
     "id": "V0063",
@@ -1386,7 +1576,12 @@ const N5_VOCAB = [
       "ko": "[memorize kanji]",
       "vi": "[memorize kanji]",
       "id": "[memorize kanji]"
-    }
+    },
+    "syn": [
+      "記憶する",
+      "暗記する",
+      "習得する"
+    ]
   },
   {
     "id": "V0064",
@@ -1408,7 +1603,12 @@ const N5_VOCAB = [
       "ko": "[forget name]",
       "vi": "[forget name]",
       "id": "[forget name]"
-    }
+    },
+    "syn": [
+      "失念する",
+      "度忘れする",
+      "記憶から消える"
+    ]
   },
   {
     "id": "V0065",
@@ -1430,7 +1630,12 @@ const N5_VOCAB = [
       "ko": "[think so]",
       "vi": "[think so]",
       "id": "[think so]"
-    }
+    },
+    "syn": [
+      "考える",
+      "感じる",
+      "思案する"
+    ]
   },
   {
     "id": "V0066",
@@ -1562,7 +1767,12 @@ const N5_VOCAB = [
       "ko": "[start work]",
       "vi": "[start work]",
       "id": "[start work]"
-    }
+    },
+    "syn": [
+      "開始する",
+      "スタートする",
+      "着手する"
+    ]
   },
   {
     "id": "V0072",
@@ -1584,7 +1794,12 @@ const N5_VOCAB = [
       "ko": "[class ends]",
       "vi": "[class ends]",
       "id": "[class ends]"
-    }
+    },
+    "syn": [
+      "終了する",
+      "完了する",
+      "済む"
+    ]
   },
   {
     "id": "V0073",
@@ -3542,7 +3757,12 @@ const N5_VOCAB = [
       "ko": "[answer question]",
       "vi": "[answer question]",
       "id": "[answer question]"
-    }
+    },
+    "syn": [
+      "返答する",
+      "回答する",
+      "応答する"
+    ]
   },
   {
     "id": "V0162",
@@ -4532,7 +4752,12 @@ const N5_VOCAB = [
       "ko": "[Who is that person?]",
       "vi": "[Who is that person?]",
       "id": "[Who is that person?]"
-    }
+    },
+    "syn": [
+      "人間",
+      "人物",
+      "人々"
+    ]
   },
   {
     "id": "V0207",
@@ -4642,7 +4867,12 @@ const N5_VOCAB = [
       "ko": "[I have two children]",
       "vi": "[I have two children]",
       "id": "[I have two children]"
-    }
+    },
+    "syn": [
+      "子ども",
+      "お子さん",
+      "児童"
+    ]
   },
   {
     "id": "V0212",
@@ -5126,7 +5356,12 @@ const N5_VOCAB = [
       "ko": "[Play with friend]",
       "vi": "[Play with friend]",
       "id": "[Play with friend]"
-    }
+    },
+    "syn": [
+      "友人",
+      "仲間",
+      "親友"
+    ]
   },
   {
     "id": "V0234",
@@ -5148,7 +5383,12 @@ const N5_VOCAB = [
       "ko": "[Ask teacher]",
       "vi": "[Ask teacher]",
       "id": "[Ask teacher]"
-    }
+    },
+    "syn": [
+      "教師",
+      "教員",
+      "講師"
+    ]
   },
   {
     "id": "V0235",
@@ -5170,7 +5410,12 @@ const N5_VOCAB = [
       "ko": "[I am a student]",
       "vi": "[I am a student]",
       "id": "[I am a student]"
-    }
+    },
+    "syn": [
+      "生徒",
+      "学習者",
+      "受講生"
+    ]
   },
   {
     "id": "V0236",
@@ -5522,7 +5767,12 @@ const N5_VOCAB = [
       "ko": "[Go home]",
       "vi": "[Go home]",
       "id": "[Go home]"
-    }
+    },
+    "syn": [
+      "住宅",
+      "住居",
+      "自宅"
+    ]
   },
   {
     "id": "V0252",
@@ -5544,7 +5794,12 @@ const N5_VOCAB = [
       "ko": "[Clean room]",
       "vi": "[Clean room]",
       "id": "[Clean room]"
-    }
+    },
+    "syn": [
+      "室",
+      "ルーム",
+      "室内"
+    ]
   },
   {
     "id": "V0253",
@@ -5676,7 +5931,12 @@ const N5_VOCAB = [
       "ko": "[Go to school]",
       "vi": "[Go to school]",
       "id": "[Go to school]"
-    }
+    },
+    "syn": [
+      "教育機関",
+      "学園",
+      "スクール"
+    ]
   },
   {
     "id": "V0259",
@@ -5764,7 +6024,12 @@ const N5_VOCAB = [
       "ko": "[Go to hospital]",
       "vi": "[Go to hospital]",
       "id": "[Go to hospital]"
-    }
+    },
+    "syn": [
+      "医療機関",
+      "医院",
+      "クリニック"
+    ]
   },
   {
     "id": "V0263",
@@ -5830,7 +6095,12 @@ const N5_VOCAB = [
       "ko": "[Wait at station]",
       "vi": "[Wait at station]",
       "id": "[Wait at station]"
-    }
+    },
+    "syn": [
+      "ステーション",
+      "停車場",
+      "乗り場"
+    ]
   },
   {
     "id": "V0266",
@@ -5918,7 +6188,12 @@ const N5_VOCAB = [
       "ko": "[Buy at shop]",
       "vi": "[Buy at shop]",
       "id": "[Buy at shop]"
-    }
+    },
+    "syn": [
+      "ショップ",
+      "店舗",
+      "販売店"
+    ]
   },
   {
     "id": "V0270",
@@ -6028,7 +6303,12 @@ const N5_VOCAB = [
       "ko": "[Work at company]",
       "vi": "[Work at company]",
       "id": "[Work at company]"
-    }
+    },
+    "syn": [
+      "企業",
+      "会社組織",
+      "法人"
+    ]
   },
   {
     "id": "V0275",
@@ -6182,7 +6462,12 @@ const N5_VOCAB = [
       "ko": "[Walk on road]",
       "vi": "[Walk on road]",
       "id": "[Walk on road]"
-    }
+    },
+    "syn": [
+      "道路",
+      "通り",
+      "ストリート"
+    ]
   },
   {
     "id": "V0282",
@@ -6468,7 +6753,12 @@ const N5_VOCAB = [
       "ko": "[Climb mountain]",
       "vi": "[Climb mountain]",
       "id": "[Climb mountain]"
-    }
+    },
+    "syn": [
+      "山岳",
+      "山脈",
+      "マウンテン"
+    ]
   },
   {
     "id": "V0295",
@@ -6490,7 +6780,12 @@ const N5_VOCAB = [
       "ko": "[Swim in river]",
       "vi": "[Swim in river]",
       "id": "[Swim in river]"
-    }
+    },
+    "syn": [
+      "河川",
+      "河",
+      "リバー"
+    ]
   },
   {
     "id": "V0296",
@@ -6512,7 +6807,12 @@ const N5_VOCAB = [
       "ko": "[Swim in sea]",
       "vi": "[Swim in sea]",
       "id": "[Swim in sea]"
-    }
+    },
+    "syn": [
+      "大海",
+      "オーシャン",
+      "海洋"
+    ]
   },
   {
     "id": "V0297",
@@ -6644,7 +6944,12 @@ const N5_VOCAB = [
       "ko": "[Look at sky]",
       "vi": "[Look at sky]",
       "id": "[Look at sky]"
-    }
+    },
+    "syn": [
+      "天空",
+      "上空",
+      "スカイ"
+    ]
   },
   {
     "id": "V0303",
@@ -6754,7 +7059,12 @@ const N5_VOCAB = [
       "ko": "[Today's weather]",
       "vi": "[Today's weather]",
       "id": "[Today's weather]"
-    }
+    },
+    "syn": [
+      "天候",
+      "気象",
+      "空模様"
+    ]
   },
   {
     "id": "V0308",
@@ -7568,7 +7878,12 @@ const N5_VOCAB = [
       "ko": "[No time]",
       "vi": "[No time]",
       "id": "[No time]"
-    }
+    },
+    "syn": [
+      "時刻",
+      "タイム",
+      "時"
+    ]
   },
   {
     "id": "V0345",
@@ -8162,7 +8477,12 @@ const N5_VOCAB = [
       "ko": "[Make call]",
       "vi": "[Make call]",
       "id": "[Make call]"
-    }
+    },
+    "syn": [
+      "通話",
+      "コール",
+      "テレフォン"
+    ]
   },
   {
     "id": "V0372",
@@ -8822,7 +9142,12 @@ const N5_VOCAB = [
       "ko": "[Big house]",
       "vi": "[Big house]",
       "id": "[Big house]"
-    }
+    },
+    "syn": [
+      "巨大",
+      "大型",
+      "ビッグ"
+    ]
   },
   {
     "id": "V0402",
@@ -8844,7 +9169,12 @@ const N5_VOCAB = [
       "ko": "[Small dog]",
       "vi": "[Small dog]",
       "id": "[Small dog]"
-    }
+    },
+    "syn": [
+      "小型",
+      "小さな",
+      "ミニ"
+    ]
   },
   {
     "id": "V0403",
@@ -8866,7 +9196,12 @@ const N5_VOCAB = [
       "ko": "[Tall building]",
       "vi": "[Tall building]",
       "id": "[Tall building]"
-    }
+    },
+    "syn": [
+      "高価",
+      "高額",
+      "高値"
+    ]
   },
   {
     "id": "V0404",
@@ -8888,7 +9223,12 @@ const N5_VOCAB = [
       "ko": "[Cheap shop]",
       "vi": "[Cheap shop]",
       "id": "[Cheap shop]"
-    }
+    },
+    "syn": [
+      "低価格",
+      "格安",
+      "リーズナブル"
+    ]
   },
   {
     "id": "V0405",
@@ -8910,7 +9250,12 @@ const N5_VOCAB = [
       "ko": "[Long hair]",
       "vi": "[Long hair]",
       "id": "[Long hair]"
-    }
+    },
+    "syn": [
+      "長大",
+      "長期",
+      "ロング"
+    ]
   },
   {
     "id": "V0406",
@@ -8932,7 +9277,12 @@ const N5_VOCAB = [
       "ko": "[Short skirt]",
       "vi": "[Short skirt]",
       "id": "[Short skirt]"
-    }
+    },
+    "syn": [
+      "短期",
+      "短小",
+      "ショート"
+    ]
   },
   {
     "id": "V0407",
@@ -8954,7 +9304,12 @@ const N5_VOCAB = [
       "ko": "[New car]",
       "vi": "[New car]",
       "id": "[New car]"
-    }
+    },
+    "syn": [
+      "新品",
+      "最新",
+      "ニュー"
+    ]
   },
   {
     "id": "V0408",
@@ -8976,7 +9331,12 @@ const N5_VOCAB = [
       "ko": "[Old house]",
       "vi": "[Old house]",
       "id": "[Old house]"
-    }
+    },
+    "syn": [
+      "旧式",
+      "古風",
+      "オールド"
+    ]
   },
   {
     "id": "V0409",
@@ -8998,7 +9358,12 @@ const N5_VOCAB = [
       "ko": "[Good weather]",
       "vi": "[Good weather]",
       "id": "[Good weather]"
-    }
+    },
+    "syn": [
+      "優良",
+      "優秀",
+      "素晴らしい"
+    ]
   },
   {
     "id": "V0410",
@@ -9020,7 +9385,12 @@ const N5_VOCAB = [
       "ko": "[Bad person]",
       "vi": "[Bad person]",
       "id": "[Bad person]"
-    }
+    },
+    "syn": [
+      "不良",
+      "劣悪",
+      "ひどい"
+    ]
   },
   {
     "id": "V0411",
@@ -9064,7 +9434,12 @@ const N5_VOCAB = [
       "ko": "[Today is hot]",
       "vi": "[Today is hot]",
       "id": "[Today is hot]"
-    }
+    },
+    "syn": [
+      "猛暑",
+      "酷暑",
+      "蒸し暑い"
+    ]
   },
   {
     "id": "V0413",
@@ -9108,7 +9483,12 @@ const N5_VOCAB = [
       "ko": "[Today is cold]",
       "vi": "[Today is cold]",
       "id": "[Today is cold]"
-    }
+    },
+    "syn": [
+      "極寒",
+      "冷たい",
+      "冷え込む"
+    ]
   },
   {
     "id": "V0415",
@@ -9130,7 +9510,12 @@ const N5_VOCAB = [
       "ko": "[Busy day]",
       "vi": "[Busy day]",
       "id": "[Busy day]"
-    }
+    },
+    "syn": [
+      "多忙",
+      "繁忙",
+      "慌ただしい"
+    ]
   },
   {
     "id": "V0416",
@@ -9152,7 +9537,12 @@ const N5_VOCAB = [
       "ko": "[Fun party]",
       "vi": "[Fun party]",
       "id": "[Fun party]"
-    }
+    },
+    "syn": [
+      "愉快",
+      "面白い",
+      "ハッピー"
+    ]
   },
   {
     "id": "V0417",
@@ -9174,7 +9564,12 @@ const N5_VOCAB = [
       "ko": "[Happy news]",
       "vi": "[Happy news]",
       "id": "[Happy news]"
-    }
+    },
+    "syn": [
+      "喜ばしい",
+      "幸せ",
+      "ハッピー"
+    ]
   },
   {
     "id": "V0418",
@@ -9196,7 +9591,12 @@ const N5_VOCAB = [
       "ko": "[Sad movie]",
       "vi": "[Sad movie]",
       "id": "[Sad movie]"
-    }
+    },
+    "syn": [
+      "哀しい",
+      "寂しい",
+      "切ない"
+    ]
   },
   {
     "id": "V0419",
@@ -9218,7 +9618,12 @@ const N5_VOCAB = [
       "ko": "[Interesting book]",
       "vi": "[Interesting book]",
       "id": "[Interesting book]"
-    }
+    },
+    "syn": [
+      "興味深い",
+      "楽しい",
+      "ユニーク"
+    ]
   },
   {
     "id": "V0420",
@@ -9240,7 +9645,12 @@ const N5_VOCAB = [
       "ko": "[Difficult problem]",
       "vi": "[Difficult problem]",
       "id": "[Difficult problem]"
-    }
+    },
+    "syn": [
+      "困難",
+      "複雑",
+      "難解"
+    ]
   },
   {
     "id": "V0421",
@@ -9262,7 +9672,12 @@ const N5_VOCAB = [
       "ko": "[Easy problem]",
       "vi": "[Easy problem]",
       "id": "[Easy problem]"
-    }
+    },
+    "syn": [
+      "簡単",
+      "シンプル",
+      "平易"
+    ]
   },
   {
     "id": "V0422",
@@ -9284,7 +9699,12 @@ const N5_VOCAB = [
       "ko": "[Kind person]",
       "vi": "[Kind person]",
       "id": "[Kind person]"
-    }
+    },
+    "syn": [
+      "親切",
+      "思いやりがある",
+      "温かい"
+    ]
   },
   {
     "id": "V0423",
@@ -9306,7 +9726,12 @@ const N5_VOCAB = [
       "ko": "[Delicious food]",
       "vi": "[Delicious food]",
       "id": "[Delicious food]"
-    }
+    },
+    "syn": [
+      "美味",
+      "絶品",
+      "グルメ"
+    ]
   },
   {
     "id": "V0424",
@@ -9768,7 +10193,12 @@ const N5_VOCAB = [
       "ko": "[Many people]",
       "vi": "[Many people]",
       "id": "[Many people]"
-    }
+    },
+    "syn": [
+      "多数",
+      "多量",
+      "豊富"
+    ]
   },
   {
     "id": "V0445",
@@ -9790,7 +10220,12 @@ const N5_VOCAB = [
       "ko": "[Few people]",
       "vi": "[Few people]",
       "id": "[Few people]"
-    }
+    },
+    "syn": [
+      "少数",
+      "少量",
+      "僅か"
+    ]
   },
   {
     "id": "V0446",
@@ -9834,7 +10269,12 @@ const N5_VOCAB = [
       "ko": "[Scary movie]",
       "vi": "[Scary movie]",
       "id": "[Scary movie]"
-    }
+    },
+    "syn": [
+      "恐ろしい",
+      "恐い",
+      "不気味"
+    ]
   },
   {
     "id": "V0448",
@@ -10142,7 +10582,12 @@ const N5_VOCAB = [
       "ko": "[Free time]",
       "vi": "[Free time]",
       "id": "[Free time]"
-    }
+    },
+    "syn": [
+      "閑暇",
+      "余暇",
+      "フリー"
+    ]
   },
   {
     "id": "V0462",
@@ -11946,7 +12391,12 @@ const N5_VOCAB = [
       "ko": "[Do work]",
       "vi": "[Do work]",
       "id": "[Do work]"
-    }
+    },
+    "syn": [
+      "業務",
+      "職務",
+      "労働"
+    ]
   },
   {
     "id": "V0544",
@@ -12320,7 +12770,12 @@ const N5_VOCAB = [
       "ko": "[Drive car]",
       "vi": "[Drive car]",
       "id": "[Drive car]"
-    }
+    },
+    "syn": [
+      "自動車",
+      "自家用車",
+      "カー"
+    ]
   },
   {
     "id": "V0561",
@@ -12342,7 +12797,12 @@ const N5_VOCAB = [
       "ko": "[Ride train]",
       "vi": "[Ride train]",
       "id": "[Ride train]"
-    }
+    },
+    "syn": [
+      "列車",
+      "鉄道",
+      "トレイン"
+    ]
   },
   {
     "id": "V0562",
@@ -12408,7 +12868,12 @@ const N5_VOCAB = [
       "ko": "[Ride airplane]",
       "vi": "[Ride airplane]",
       "id": "[Ride airplane]"
-    }
+    },
+    "syn": [
+      "航空機",
+      "飛行機",
+      "プレーン"
+    ]
   },
   {
     "id": "V0565",
@@ -17144,5 +17609,3 @@ const N5_VOCAB = [
     }
   }
 ];
-
-if (typeof module !== 'undefined') module.exports = { N5_VOCAB };

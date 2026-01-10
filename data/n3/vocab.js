@@ -19,7 +19,7 @@ const N3_VOCAB = [
     "syn": [
       "お辞儀",
       "会釈",
-      "グリーティング"
+      "あいさつ"
     ]
   },
   {
@@ -55,7 +55,7 @@ const N3_VOCAB = [
       "id": "sinyal"
     },
     "pos": "noun",
-    "ex": "合図について考える"
+    "ex": "手で合図を送る"
   },
   {
     "id": "V0004",
@@ -70,7 +70,7 @@ const N3_VOCAB = [
       "id": "lawan"
     },
     "pos": "noun",
-    "ex": "相手について考える"
+    "ex": "相手の気持ちを考える"
   },
   {
     "id": "V0005",
@@ -240,7 +240,7 @@ const N3_VOCAB = [
       "id": "lubang"
     },
     "pos": "noun",
-    "ex": "穴について考える"
+    "ex": "道に穴があいている"
   },
   {
     "id": "V0016",
@@ -300,7 +300,7 @@ const N3_VOCAB = [
       "id": "minyak"
     },
     "pos": "noun",
-    "ex": "油について考える"
+    "ex": "フライパンに油を引く"
   },
   {
     "id": "V0020",
@@ -425,7 +425,7 @@ const N3_VOCAB = [
       "id": "mengekspresikan"
     },
     "pos": "verb-godan",
-    "ex": "表すことにする"
+    "ex": "感謝の気持ちを表す"
   },
   {
     "id": "V0028",
@@ -440,7 +440,7 @@ const N3_VOCAB = [
       "id": "muncul"
     },
     "pos": "verb-ichidan",
-    "ex": "現れることにする"
+    "ex": "症状が現れる"
   },
   {
     "id": "V0029",
@@ -515,7 +515,7 @@ const N3_VOCAB = [
       "id": "rencana"
     },
     "pos": "noun",
-    "ex": "案について考える"
+    "ex": "新しい案を提出する"
   },
   {
     "id": "V0034",
@@ -530,7 +530,7 @@ const N3_VOCAB = [
       "id": "panduan"
     },
     "pos": "i-adj",
-    "ex": "とても案内と思う"
+    "ex": "観光客を案内する"
   },
   {
     "id": "V0035",
@@ -715,7 +715,7 @@ const N3_VOCAB = [
       "id": "papan"
     },
     "pos": "noun",
-    "ex": "板について考える"
+    "ex": "木の板を切る"
   },
   {
     "id": "V0047",
@@ -1000,7 +1000,7 @@ const N3_VOCAB = [
       "id": "tidak suka"
     },
     "pos": "noun",
-    "ex": "嫌について考える"
+    "ex": "嫌な予感がする"
   },
   {
     "id": "V0066",
@@ -1345,7 +1345,7 @@ const N3_VOCAB = [
       "id": "menyalin"
     },
     "pos": "verb-godan",
-    "ex": "写すことにする"
+    "ex": "黒板の内容をノートに写す"
   },
   {
     "id": "V0088",
@@ -1360,7 +1360,7 @@ const N3_VOCAB = [
       "id": "memindahkan"
     },
     "pos": "verb-godan",
-    "ex": "移すことにする"
+    "ex": "荷物を別の部屋に移す"
   },
   {
     "id": "V0089",
@@ -1585,7 +1585,7 @@ const N3_VOCAB = [
       "id": "film"
     },
     "pos": "noun",
-    "ex": "映画について考える"
+    "ex": "週末に映画を見に行く"
   },
   {
     "id": "V0104",
@@ -1770,7 +1770,7 @@ const N3_VOCAB = [
       "id": "yen"
     },
     "pos": "noun",
-    "ex": "円について考える"
+    "ex": "500円の商品を買う"
   },
   {
     "id": "V0116",
@@ -3510,7 +3510,7 @@ const N3_VOCAB = [
       "id": "masa lalu"
     },
     "pos": "noun",
-    "ex": "過去について考える"
+    "ex": "過去の経験を生かす"
   },
   {
     "id": "V0232",
@@ -4020,7 +4020,7 @@ const N3_VOCAB = [
       "id": "kesabaran"
     },
     "pos": "noun",
-    "ex": "我慢について考える"
+    "ex": "痛みを我慢する"
   },
   {
     "id": "V0266",
@@ -4110,7 +4110,7 @@ const N3_VOCAB = [
       "id": "ringan"
     },
     "pos": "i-adj",
-    "ex": "とても軽いと思う"
+    "ex": "軽い荷物で旅行する"
   },
   {
     "id": "V0272",
@@ -4140,7 +4140,7 @@ const N3_VOCAB = [
       "id": "sungai"
     },
     "pos": "noun",
-    "ex": "川について考える"
+    "ex": "川で魚を捕まえる"
   },
   {
     "id": "V0274",
@@ -4605,7 +4605,7 @@ const N3_VOCAB = [
       "id": "perasaan"
     },
     "pos": "noun",
-    "ex": "気持ちについて考える"
+    "ex": "気持ちを伝える"
   },
   {
     "id": "V0305",
@@ -4650,7 +4650,7 @@ const N3_VOCAB = [
       "id": "tamu"
     },
     "pos": "verb-godan",
-    "ex": "客ことにする"
+    "ex": "お客様をお迎えする"
   },
   {
     "id": "V0308",
@@ -5040,7 +5040,7 @@ const N3_VOCAB = [
       "id": "udara"
     },
     "pos": "noun",
-    "ex": "空気について考える"
+    "ex": "新鮮な空気を吸う"
   },
   {
     "id": "V0334",
@@ -5085,7 +5085,7 @@ const N3_VOCAB = [
       "id": "rumput"
     },
     "pos": "noun",
-    "ex": "草について考える"
+    "ex": "庭の草を抜く"
   },
   {
     "id": "V0337",
@@ -5160,7 +5160,7 @@ const N3_VOCAB = [
       "id": "obat"
     },
     "pos": "noun",
-    "ex": "薬について考える"
+    "ex": "薬を飲む"
   },
   {
     "id": "V0342",
@@ -5190,7 +5190,7 @@ const N3_VOCAB = [
       "id": "mulut"
     },
     "pos": "noun",
-    "ex": "口について考える"
+    "ex": "口を開ける"
   },
   {
     "id": "V0344",
@@ -5220,7 +5220,7 @@ const N3_VOCAB = [
       "id": "sepatu"
     },
     "pos": "verb-godan",
-    "ex": "靴ことにする"
+    "ex": "新しい靴を買う"
   },
   {
     "id": "V0346",
@@ -5340,7 +5340,7 @@ const N3_VOCAB = [
       "id": "awan"
     },
     "pos": "noun",
-    "ex": "雲について考える"
+    "ex": "空に雲が浮かんでいる"
   },
   {
     "id": "V0354",
@@ -5490,7 +5490,7 @@ const N3_VOCAB = [
       "id": "mobil"
     },
     "pos": "noun",
-    "ex": "車について考える"
+    "ex": "車で出かける"
   },
   {
     "id": "V0364",
@@ -5550,7 +5550,12 @@ const N3_VOCAB = [
       "id": "pelatihan"
     },
     "pos": "noun",
-    "ex": "訓練について考える"
+    "ex": "訓練について考える",
+    "syn": [
+      "練習する",
+      "トレーニングする",
+      "鍛える"
+    ]
   },
   {
     "id": "V0368",
@@ -5610,7 +5615,12 @@ const N3_VOCAB = [
       "id": "perhitungan"
     },
     "pos": "noun",
-    "ex": "計算について考える"
+    "ex": "計算について考える",
+    "syn": [
+      "算出する",
+      "計る",
+      "割り出す"
+    ]
   },
   {
     "id": "V0372",
@@ -5880,7 +5890,12 @@ const N3_VOCAB = [
       "id": "keputusan"
     },
     "pos": "i-adj",
-    "ex": "とても決定と思う"
+    "ex": "とても決定と思う",
+    "syn": [
+      "決める",
+      "確定する",
+      "定める"
+    ]
   },
   {
     "id": "V0390",
@@ -6030,7 +6045,7 @@ const N3_VOCAB = [
       "id": "sekarang"
     },
     "pos": "i-adj",
-    "ex": "とても現在と思う"
+    "ex": "現在の状況を説明する"
   },
   {
     "id": "V0400",
@@ -6760,7 +6775,7 @@ const N3_VOCAB = [
       "id": "suara"
     },
     "pos": "noun",
-    "ex": "声について考える"
+    "ex": "大きな声で話す"
   },
   {
     "id": "V0448",
@@ -6865,7 +6880,7 @@ const N3_VOCAB = [
       "id": "hati"
     },
     "pos": "noun",
-    "ex": "心について考える"
+    "ex": "心から感謝する"
   },
   {
     "id": "V0455",
@@ -6955,7 +6970,7 @@ const N3_VOCAB = [
       "id": "jawaban"
     },
     "pos": "noun",
-    "ex": "答えについて考える"
+    "ex": "正しい答えを選ぶ"
   },
   {
     "id": "V0461",
@@ -7135,7 +7150,7 @@ const N3_VOCAB = [
       "id": "halus"
     },
     "pos": "i-adj",
-    "ex": "とても細かいと思う"
+    "ex": "細かい作業をする"
   },
   {
     "id": "V0473",
@@ -7150,7 +7165,7 @@ const N3_VOCAB = [
       "id": "kesulitan"
     },
     "pos": "verb-godan",
-    "ex": "困ることにする"
+    "ex": "道に迷って困る"
   },
   {
     "id": "V0474",
@@ -7270,7 +7285,7 @@ const N3_VOCAB = [
       "id": "menakutkan"
     },
     "pos": "i-adj",
-    "ex": "とても怖いと思う"
+    "ex": "暗い場所が怖い"
   },
   {
     "id": "V0482",
@@ -7585,7 +7600,7 @@ const N3_VOCAB = [
       "id": "mencari"
     },
     "pos": "verb-godan",
-    "ex": "探すことにする"
+    "ex": "鍵を探す"
   },
   {
     "id": "V0503",
@@ -7795,7 +7810,7 @@ const N3_VOCAB = [
       "id": "sepi"
     },
     "pos": "i-adj",
-    "ex": "とても寂しいと思う"
+    "ex": "一人で寂しい"
   },
   {
     "id": "V0517",
@@ -7960,7 +7975,7 @@ const N3_VOCAB = [
       "id": "menyesal"
     },
     "pos": "noun",
-    "ex": "残念について考える"
+    "ex": "参加できなくて残念だ"
   },
   {
     "id": "V0528",
@@ -8440,7 +8455,12 @@ const N3_VOCAB = [
       "id": "eksperimen"
     },
     "pos": "noun",
-    "ex": "実験について考える"
+    "ex": "実験について考える",
+    "syn": [
+      "試す",
+      "テストする",
+      "検証する"
+    ]
   },
   {
     "id": "V0560",
@@ -8635,7 +8655,7 @@ const N3_VOCAB = [
       "id": "masyarakat"
     },
     "pos": "i-adj",
-    "ex": "とても社会と思う"
+    "ex": "社会に貢献する"
   },
   {
     "id": "V0573",
@@ -8710,7 +8730,7 @@ const N3_VOCAB = [
       "id": "kebebasan"
     },
     "pos": "verb-godan",
-    "ex": "自由ことにする"
+    "ex": "自由に意見を言う"
   },
   {
     "id": "V0578",
@@ -8740,7 +8760,7 @@ const N3_VOCAB = [
       "id": "kebiasaan"
     },
     "pos": "noun",
-    "ex": "習慣について考える"
+    "ex": "良い習慣を身につける"
   },
   {
     "id": "V0580",
@@ -9220,7 +9240,7 @@ const N3_VOCAB = [
       "id": "perkenalan"
     },
     "pos": "i-adj",
-    "ex": "とても紹介と思う"
+    "ex": "友達を紹介する"
   },
   {
     "id": "V0612",
@@ -9485,7 +9505,12 @@ const N3_VOCAB = [
       "id": "bukti"
     },
     "pos": "i-adj",
-    "ex": "とても証明と思う"
+    "ex": "とても証明と思う",
+    "syn": [
+      "立証する",
+      "実証する",
+      "明らかにする"
+    ]
   },
   {
     "id": "V0629",
@@ -9515,7 +9540,7 @@ const N3_VOCAB = [
       "id": "masa depan"
     },
     "pos": "i-adj",
-    "ex": "とても将来と思う"
+    "ex": "将来の夢を語る"
   },
   {
     "id": "V0631",
@@ -10040,7 +10065,7 @@ const N3_VOCAB = [
       "id": "sejuk"
     },
     "pos": "i-adj",
-    "ex": "とても涼しいと思う"
+    "ex": "涼しい風が吹く"
   },
   {
     "id": "V0666",
@@ -10315,7 +10340,7 @@ const N3_VOCAB = [
       "id": "kehidupan"
     },
     "pos": "verb-godan",
-    "ex": "生活ことにする"
+    "ex": "生活費を節約する"
   },
   {
     "id": "V0684",
@@ -10345,7 +10370,12 @@ const N3_VOCAB = [
       "id": "kesuksesan"
     },
     "pos": "verb-godan",
-    "ex": "成功ことにする"
+    "ex": "努力の結果成功した",
+    "syn": [
+      "うまくいく",
+      "達成する",
+      "成就する"
+    ]
   },
   {
     "id": "V0686",
@@ -10770,7 +10800,7 @@ const N3_VOCAB = [
       "id": "perawatan"
     },
     "pos": "noun",
-    "ex": "世話について考える"
+    "ex": "植物の世話をする"
   },
   {
     "id": "V0714",
@@ -10845,7 +10875,12 @@ const N3_VOCAB = [
       "id": "pilihan"
     },
     "pos": "verb-godan",
-    "ex": "選択ことにする"
+    "ex": "選択ことにする",
+    "syn": [
+      "選ぶ",
+      "選定する",
+      "決める"
+    ]
   },
   {
     "id": "V0719",
@@ -11040,7 +11075,12 @@ const N3_VOCAB = [
       "id": "imajinasi"
     },
     "pos": "verb-godan",
-    "ex": "想像ことにする"
+    "ex": "想像ことにする",
+    "syn": [
+      "イメージする",
+      "思い描く",
+      "空想する"
+    ]
   },
   {
     "id": "V0732",
@@ -11115,7 +11155,12 @@ const N3_VOCAB = [
       "id": "pengukuran"
     },
     "pos": "i-adj",
-    "ex": "とても測定と思う"
+    "ex": "とても測定と思う",
+    "syn": [
+      "計る",
+      "測る",
+      "計測する"
+    ]
   },
   {
     "id": "V0737",
@@ -11205,7 +11250,7 @@ const N3_VOCAB = [
       "id": "menaikkan"
     },
     "pos": "verb-ichidan",
-    "ex": "育てることにする"
+    "ex": "花を育てる"
   },
   {
     "id": "V0743",
@@ -12175,7 +12220,7 @@ const N3_VOCAB = [
       "id": "bangunan"
     },
     "pos": "noun",
-    "ex": "建物について考える"
+    "ex": "高い建物が見える"
   },
   {
     "id": "V0807",
@@ -12235,7 +12280,7 @@ const N3_VOCAB = [
       "id": "meminta"
     },
     "pos": "verb-godan",
-    "ex": "頼むことにする"
+    "ex": "仕事を頼む"
   },
   {
     "id": "V0811",
@@ -12265,7 +12310,7 @@ const N3_VOCAB = [
       "id": "cukup"
     },
     "pos": "verb-ichidan",
-    "ex": "足りることにする"
+    "ex": "お金が足りる"
   },
   {
     "id": "V0813",
@@ -12460,7 +12505,7 @@ const N3_VOCAB = [
       "id": "kekuatan"
     },
     "pos": "noun",
-    "ex": "力について考える"
+    "ex": "力を合わせる"
   },
   {
     "id": "V0826",
@@ -12705,7 +12750,12 @@ const N3_VOCAB = [
       "id": "perhatian"
     },
     "pos": "verb-godan",
-    "ex": "注目ことにする"
+    "ex": "注目ことにする",
+    "syn": [
+      "注視する",
+      "着目する",
+      "目を向ける"
+    ]
   },
   {
     "id": "V0842",
@@ -12735,7 +12785,12 @@ const N3_VOCAB = [
       "id": "survei"
     },
     "pos": "noun",
-    "ex": "調査について考える"
+    "ex": "調査について考える",
+    "syn": [
+      "調べる",
+      "検査する",
+      "探る"
+    ]
   },
   {
     "id": "V0844",
@@ -12795,7 +12850,12 @@ const N3_VOCAB = [
       "id": "tantangan"
     },
     "pos": "noun",
-    "ex": "挑戦について考える"
+    "ex": "挑戦について考える",
+    "syn": [
+      "チャレンジする",
+      "試みる",
+      "取り組む"
+    ]
   },
   {
     "id": "V0848",
@@ -13260,7 +13320,7 @@ const N3_VOCAB = [
       "id": "menyampaikan"
     },
     "pos": "verb-ichidan",
-    "ex": "伝えることにする"
+    "ex": "気持ちを伝える"
   },
   {
     "id": "V0879",
@@ -13290,7 +13350,7 @@ const N3_VOCAB = [
       "id": "melanjutkan"
     },
     "pos": "verb-godan",
-    "ex": "続くことにする"
+    "ex": "雨が続く"
   },
   {
     "id": "V0881",
@@ -13305,7 +13365,7 @@ const N3_VOCAB = [
       "id": "melanjutkan"
     },
     "pos": "verb-ichidan",
-    "ex": "続けることにする"
+    "ex": "努力を続ける"
   },
   {
     "id": "V0882",
@@ -14360,7 +14420,7 @@ const N3_VOCAB = [
       "id": "mengantar"
     },
     "pos": "verb-ichidan",
-    "ex": "届けることにする"
+    "ex": "荷物を届ける"
   },
   {
     "id": "V0952",
@@ -14375,7 +14435,7 @@ const N3_VOCAB = [
       "id": "sampai"
     },
     "pos": "verb-godan",
-    "ex": "届くことにする"
+    "ex": "手紙が届く"
   },
   {
     "id": "V0953",
@@ -14480,7 +14540,7 @@ const N3_VOCAB = [
       "id": "berhenti"
     },
     "pos": "verb-godan",
-    "ex": "止まることにする"
+    "ex": "電車が止まる"
   },
   {
     "id": "V0960",
@@ -14495,7 +14555,7 @@ const N3_VOCAB = [
       "id": "berhenti"
     },
     "pos": "verb-ichidan",
-    "ex": "止めることにする"
+    "ex": "車を止める"
   },
   {
     "id": "V0961",
@@ -14645,7 +14705,12 @@ const N3_VOCAB = [
       "id": "usaha"
     },
     "pos": "verb-godan",
-    "ex": "努力ことにする"
+    "ex": "努力ことにする",
+    "syn": [
+      "頑張る",
+      "尽力する",
+      "励む"
+    ]
   },
   {
     "id": "V0971",
@@ -14725,7 +14790,7 @@ const N3_VOCAB = [
       "id": "memperbaiki"
     },
     "pos": "verb-godan",
-    "ex": "直すことにする"
+    "ex": "機械を直す"
   },
   {
     "id": "V0976",
@@ -14740,7 +14805,7 @@ const N3_VOCAB = [
       "id": "menyembuhkan"
     },
     "pos": "verb-godan",
-    "ex": "治すことにする"
+    "ex": "病気を治す"
   },
   {
     "id": "V0977",
@@ -14785,7 +14850,7 @@ const N3_VOCAB = [
       "id": "panjang"
     },
     "pos": "i-adj",
-    "ex": "とても長いと思う"
+    "ex": "長い時間待った"
   },
   {
     "id": "V0980",
@@ -14890,7 +14955,7 @@ const N3_VOCAB = [
       "id": "menangis"
     },
     "pos": "verb-godan",
-    "ex": "泣くことにする"
+    "ex": "悲しくて泣く"
   },
   {
     "id": "V0987",
@@ -14935,7 +15000,7 @@ const N3_VOCAB = [
       "id": "kalah"
     },
     "pos": "verb-godan",
-    "ex": "無くすことにする"
+    "ex": "財布を無くす"
   },
   {
     "id": "V0990",
@@ -15085,7 +15150,7 @@ const N3_VOCAB = [
       "id": "melarikan diri"
     },
     "pos": "verb-godan",
-    "ex": "逃げることにする"
+    "ex": "危険から逃げる"
   },
   {
     "id": "V1000",
@@ -15235,7 +15300,7 @@ const N3_VOCAB = [
       "id": "mirip"
     },
     "pos": "verb-ichidan",
-    "ex": "似ることにする"
+    "ex": "父に似ている"
   },
   {
     "id": "V1010",
@@ -15295,7 +15360,12 @@ const N3_VOCAB = [
       "id": "pengenalan"
     },
     "pos": "noun",
-    "ex": "認識について考える"
+    "ex": "認識について考える",
+    "syn": [
+      "把握する",
+      "理解する",
+      "自覚する"
+    ]
   },
   {
     "id": "V1014",
@@ -15340,7 +15410,7 @@ const N3_VOCAB = [
       "id": "mencabut"
     },
     "pos": "verb-godan",
-    "ex": "抜くことにする"
+    "ex": "歯を抜く"
   },
   {
     "id": "V1017",
@@ -15385,7 +15455,7 @@ const N3_VOCAB = [
       "id": "basah"
     },
     "pos": "verb-ichidan",
-    "ex": "濡れることにする"
+    "ex": "雨に濡れる"
   },
   {
     "id": "V1020",
@@ -15445,7 +15515,7 @@ const N3_VOCAB = [
       "id": "berharap"
     },
     "pos": "verb-godan",
-    "ex": "願うことにする"
+    "ex": "幸せを願う"
   },
   {
     "id": "V1024",
@@ -15690,7 +15760,7 @@ const N3_VOCAB = [
       "id": "tersisa"
     },
     "pos": "verb-godan",
-    "ex": "残ることにする"
+    "ex": "印象に残る"
   },
   {
     "id": "V1040",
@@ -15990,7 +16060,7 @@ const N3_VOCAB = [
       "id": "masuk"
     },
     "pos": "verb-ichidan",
-    "ex": "入ることにする"
+    "ex": "部屋に入る"
   },
   {
     "id": "V1060",
@@ -16245,7 +16315,7 @@ const N3_VOCAB = [
       "id": "mulai"
     },
     "pos": "verb-godan",
-    "ex": "始まることにする"
+    "ex": "授業が始まる"
   },
   {
     "id": "V1077",
@@ -16305,7 +16375,7 @@ const N3_VOCAB = [
       "id": "berlari"
     },
     "pos": "verb-ichidan",
-    "ex": "走ることにする"
+    "ex": "公園を走る"
   },
   {
     "id": "V1081",
@@ -16415,7 +16485,12 @@ const N3_VOCAB = [
       "id": "penemuan"
     },
     "pos": "noun",
-    "ex": "発見について考える"
+    "ex": "発見について考える",
+    "syn": [
+      "見つける",
+      "見出す",
+      "発掘する"
+    ]
   },
   {
     "id": "V1088",
@@ -16535,7 +16610,12 @@ const N3_VOCAB = [
       "id": "pengumuman"
     },
     "pos": "verb-godan",
-    "ex": "発表ことにする"
+    "ex": "発表ことにする",
+    "syn": [
+      "公表する",
+      "発言する",
+      "報告する"
+    ]
   },
   {
     "id": "V1096",
@@ -16550,7 +16630,12 @@ const N3_VOCAB = [
       "id": "penemuan"
     },
     "pos": "i-adj",
-    "ex": "とても発明と思う"
+    "ex": "とても発明と思う",
+    "syn": [
+      "考案する",
+      "創造する",
+      "発見する"
+    ]
   },
   {
     "id": "V1097",
@@ -16715,7 +16800,7 @@ const N3_VOCAB = [
       "id": "awal"
     },
     "pos": "i-adj",
-    "ex": "とても早いと思う"
+    "ex": "朝早く起きる"
   },
   {
     "id": "V1108",
@@ -16730,7 +16815,7 @@ const N3_VOCAB = [
       "id": "cepat"
     },
     "pos": "i-adj",
-    "ex": "とても速いと思う"
+    "ex": "走るのが速い"
   },
   {
     "id": "V1109",
@@ -16760,7 +16845,7 @@ const N3_VOCAB = [
       "id": "membayar"
     },
     "pos": "verb-godan",
-    "ex": "払うことにする"
+    "ex": "お金を払う"
   },
   {
     "id": "V1111",
@@ -16820,7 +16905,7 @@ const N3_VOCAB = [
       "id": "cerah"
     },
     "pos": "verb-ichidan",
-    "ex": "晴れることにする"
+    "ex": "明日は晴れるだろう"
   },
   {
     "id": "V1115",
@@ -17020,7 +17105,7 @@ const N3_VOCAB = [
       "id": "ringan"
     },
     "pos": "noun",
-    "ex": "光について考える"
+    "ex": "光が差し込む"
   },
   {
     "id": "V1128",
@@ -17110,7 +17195,7 @@ const N3_VOCAB = [
       "id": "menarik"
     },
     "pos": "verb-godan",
-    "ex": "引くことにする"
+    "ex": "ドアを引く"
   },
   {
     "id": "V1134",
@@ -17125,7 +17210,7 @@ const N3_VOCAB = [
       "id": "bermain"
     },
     "pos": "verb-godan",
-    "ex": "弾くことにする"
+    "ex": "ピアノを弾く"
   },
   {
     "id": "V1135",
@@ -17140,7 +17225,7 @@ const N3_VOCAB = [
       "id": "rendah"
     },
     "pos": "i-adj",
-    "ex": "とても低いと思う"
+    "ex": "声が低い"
   },
   {
     "id": "V1136",
@@ -17530,7 +17615,12 @@ const N3_VOCAB = [
       "id": "ekspresi"
     },
     "pos": "noun",
-    "ex": "表現について考える"
+    "ex": "表現について考える",
+    "syn": [
+      "表す",
+      "伝える",
+      "示す"
+    ]
   },
   {
     "id": "V1162",
@@ -17640,7 +17730,7 @@ const N3_VOCAB = [
       "id": "membuka"
     },
     "pos": "verb-godan",
-    "ex": "開くことにする"
+    "ex": "窓を開けて換気する"
   },
   {
     "id": "V1169",
@@ -17655,7 +17745,7 @@ const N3_VOCAB = [
       "id": "siang"
     },
     "pos": "verb-ichidan",
-    "ex": "昼ことにする"
+    "ex": "昼ご飯を食べる"
   },
   {
     "id": "V1170",
@@ -17835,7 +17925,7 @@ const N3_VOCAB = [
       "id": "meningkat"
     },
     "pos": "verb-ichidan",
-    "ex": "増えることにする"
+    "ex": "人口が増える"
   },
   {
     "id": "V1182",
@@ -17850,7 +17940,7 @@ const N3_VOCAB = [
       "id": "dalam"
     },
     "pos": "i-adj",
-    "ex": "とても深いと思う"
+    "ex": "川が深い"
   },
   {
     "id": "V1183",
@@ -18170,7 +18260,7 @@ const N3_VOCAB = [
       "id": "tebal"
     },
     "pos": "i-adj",
-    "ex": "とても太いと思う"
+    "ex": "太い木がある"
   },
   {
     "id": "V1204",
@@ -18185,7 +18275,7 @@ const N3_VOCAB = [
       "id": "gemuk"
     },
     "pos": "verb-godan",
-    "ex": "太ることにする"
+    "ex": "食べ過ぎて太る"
   },
   {
     "id": "V1205",
@@ -18320,7 +18410,7 @@ const N3_VOCAB = [
       "id": "musim dingin"
     },
     "pos": "noun",
-    "ex": "冬について考える"
+    "ex": "冬は寒い"
   },
   {
     "id": "V1214",
@@ -18365,7 +18455,7 @@ const N3_VOCAB = [
       "id": "turun"
     },
     "pos": "verb-godan",
-    "ex": "降ることにする"
+    "ex": "雨が降る"
   },
   {
     "id": "V1217",
@@ -18380,7 +18470,7 @@ const N3_VOCAB = [
       "id": "lama"
     },
     "pos": "i-adj",
-    "ex": "とても古いと思う"
+    "ex": "古い建物を見学する"
   },
   {
     "id": "V1218",
@@ -19060,7 +19150,7 @@ const N3_VOCAB = [
       "id": "ingin"
     },
     "pos": "i-adj",
-    "ex": "とても欲しいと思う"
+    "ex": "新しい車が欲しい"
   },
   {
     "id": "V1263",
@@ -19090,7 +19180,7 @@ const N3_VOCAB = [
       "id": "tipis"
     },
     "pos": "i-adj",
-    "ex": "とても細いと思う"
+    "ex": "細い道を通る"
   },
   {
     "id": "V1265",
@@ -19135,7 +19225,7 @@ const N3_VOCAB = [
       "id": "memuji"
     },
     "pos": "verb-ichidan",
-    "ex": "褒めることにする"
+    "ex": "子供を褒める"
   },
   {
     "id": "V1268",
@@ -19240,7 +19330,7 @@ const N3_VOCAB = [
       "id": "berbelok"
     },
     "pos": "verb-godan",
-    "ex": "曲がることにする"
+    "ex": "角を曲がる"
   },
   {
     "id": "V1275",
@@ -19270,7 +19360,7 @@ const N3_VOCAB = [
       "id": "kalah"
     },
     "pos": "verb-ichidan",
-    "ex": "負けることにする"
+    "ex": "試合に負ける"
   },
   {
     "id": "V1277",
@@ -19345,7 +19435,12 @@ const N3_VOCAB = [
       "id": "miskin"
     },
     "pos": "i-adj",
-    "ex": "とても貧しいと思う"
+    "ex": "とても貧しいと思う",
+    "syn": [
+      "貧乏",
+      "乏しい",
+      "不足"
+    ]
   },
   {
     "id": "V1282",
@@ -19420,7 +19515,7 @@ const N3_VOCAB = [
       "id": "menunggu"
     },
     "pos": "verb-godan",
-    "ex": "待つことにする"
+    "ex": "友達を待つ"
   },
   {
     "id": "V1287",
@@ -19570,7 +19665,7 @@ const N3_VOCAB = [
       "id": "bulat"
     },
     "pos": "i-adj",
-    "ex": "とても丸いと思う"
+    "ex": "丸いボール"
   },
   {
     "id": "V1297",
@@ -19630,7 +19725,12 @@ const N3_VOCAB = [
       "id": "kepuasan"
     },
     "pos": "verb-godan",
-    "ex": "満足ことにする"
+    "ex": "満足ことにする",
+    "syn": [
+      "満ち足りる",
+      "納得する",
+      "充足する"
+    ]
   },
   {
     "id": "V1301",
@@ -19705,7 +19805,7 @@ const N3_VOCAB = [
       "id": "pendek"
     },
     "pos": "i-adj",
-    "ex": "とても短いと思う"
+    "ex": "短い時間で終わる"
   },
   {
     "id": "V1306",
@@ -19855,7 +19955,7 @@ const N3_VOCAB = [
       "id": "menemukan"
     },
     "pos": "verb-ichidan",
-    "ex": "見つけることにする"
+    "ex": "鍵を見つける"
   },
   {
     "id": "V1316",
@@ -19960,7 +20060,7 @@ const N3_VOCAB = [
       "id": "melihat"
     },
     "pos": "verb-ichidan",
-    "ex": "見ることにする"
+    "ex": "テレビを見る"
   },
   {
     "id": "V1323",
@@ -20065,7 +20165,7 @@ const N3_VOCAB = [
       "id": "menyambut"
     },
     "pos": "verb-ichidan",
-    "ex": "迎えることにする"
+    "ex": "客を迎える"
   },
   {
     "id": "V1330",
@@ -20080,7 +20180,7 @@ const N3_VOCAB = [
       "id": "dulu"
     },
     "pos": "noun",
-    "ex": "昔について考える"
+    "ex": "昔の話をする"
   },
   {
     "id": "V1331",
@@ -20095,7 +20195,7 @@ const N3_VOCAB = [
       "id": "wajah"
     },
     "pos": "verb-godan",
-    "ex": "向くことにする"
+    "ex": "北を向く"
   },
   {
     "id": "V1332",
@@ -20155,7 +20255,7 @@ const N3_VOCAB = [
       "id": "sulit"
     },
     "pos": "i-adj",
-    "ex": "とても難しいと思う"
+    "ex": "この問題は難しい"
   },
   {
     "id": "V1336",
@@ -20185,7 +20285,7 @@ const N3_VOCAB = [
       "id": "dada"
     },
     "pos": "noun",
-    "ex": "胸について考える"
+    "ex": "胸が痛い"
   },
   {
     "id": "V1338",
@@ -20215,7 +20315,7 @@ const N3_VOCAB = [
       "id": "desa"
     },
     "pos": "noun",
-    "ex": "村について考える"
+    "ex": "小さな村に住む"
   },
   {
     "id": "V1340",
@@ -20305,7 +20405,7 @@ const N3_VOCAB = [
       "id": "mata"
     },
     "pos": "noun",
-    "ex": "目について考える"
+    "ex": "目が疲れた"
   },
   {
     "id": "V1346",
@@ -20520,7 +20620,12 @@ const N3_VOCAB = [
       "id": "tujuan"
     },
     "pos": "verb-godan",
-    "ex": "目標ことにする"
+    "ex": "目標ことにする",
+    "syn": [
+      "ゴール",
+      "目的",
+      "ターゲット"
+    ]
   },
   {
     "id": "V1360",
@@ -20595,7 +20700,7 @@ const N3_VOCAB = [
       "id": "kembali"
     },
     "pos": "verb-godan",
-    "ex": "戻ることにする"
+    "ex": "家に戻る"
   },
   {
     "id": "V1365",
@@ -20685,7 +20790,7 @@ const N3_VOCAB = [
       "id": "hutan"
     },
     "pos": "noun",
-    "ex": "森について考える"
+    "ex": "森を散歩する"
   },
   {
     "id": "V1371",
@@ -20765,7 +20870,7 @@ const N3_VOCAB = [
       "id": "janji"
     },
     "pos": "verb-godan",
-    "ex": "約束ことにする"
+    "ex": "約束を守る"
   },
   {
     "id": "V1376",
@@ -20810,7 +20915,7 @@ const N3_VOCAB = [
       "id": "lembut"
     },
     "pos": "i-adj",
-    "ex": "とても優しいと思う"
+    "ex": "優しい人だ"
   },
   {
     "id": "V1379",
@@ -20885,7 +20990,7 @@ const N3_VOCAB = [
       "id": "istirahat"
     },
     "pos": "verb-godan",
-    "ex": "休むことにする"
+    "ex": "仕事を休む"
   },
   {
     "id": "V1384",
@@ -21095,7 +21200,12 @@ const N3_VOCAB = [
       "id": "kaya"
     },
     "pos": "noun",
-    "ex": "豊かについて考える"
+    "ex": "豊かについて考える",
+    "syn": [
+      "豊富",
+      "恵まれた",
+      "潤沢"
+    ]
   },
   {
     "id": "V1398",
@@ -21155,7 +21265,7 @@ const N3_VOCAB = [
       "id": "memaafkan"
     },
     "pos": "verb-godan",
-    "ex": "許すことにする"
+    "ex": "失敗を許す"
   },
   {
     "id": "V1402",
@@ -21185,7 +21295,7 @@ const N3_VOCAB = [
       "id": "mimpi"
     },
     "pos": "noun",
-    "ex": "夢について考える"
+    "ex": "夢を見る"
   },
   {
     "id": "V1404",
@@ -21350,7 +21460,12 @@ const N3_VOCAB = [
       "id": "perkiraan"
     },
     "pos": "verb-godan",
-    "ex": "予想ことにする"
+    "ex": "予想ことにする",
+    "syn": [
+      "予測する",
+      "見込む",
+      "想定する"
+    ]
   },
   {
     "id": "V1415",
@@ -21425,7 +21540,7 @@ const N3_VOCAB = [
       "id": "membaca"
     },
     "pos": "verb-godan",
-    "ex": "読むことにする"
+    "ex": "新聞を読む"
   },
   {
     "id": "V1420",
@@ -21455,7 +21570,7 @@ const N3_VOCAB = [
       "id": "malam"
     },
     "pos": "verb-godan",
-    "ex": "夜ことにする"
+    "ex": "夜遅くまで働く"
   },
   {
     "id": "V1422",
@@ -21505,7 +21620,7 @@ const N3_VOCAB = [
       "id": "lemah"
     },
     "pos": "i-adj",
-    "ex": "とても弱いと思う"
+    "ex": "体が弱い"
   },
   {
     "id": "V1425",
@@ -21640,7 +21755,12 @@ const N3_VOCAB = [
       "id": "pemahaman"
     },
     "pos": "i-adj",
-    "ex": "とても理解と思う"
+    "ex": "とても理解と思う",
+    "syn": [
+      "分かる",
+      "把握する",
+      "了解する"
+    ]
   },
   {
     "id": "V1434",
@@ -21730,7 +21850,7 @@ const N3_VOCAB = [
       "id": "penggunaan"
     },
     "pos": "verb-godan",
-    "ex": "利用ことにする"
+    "ex": "公共交通機関を利用する"
   },
   {
     "id": "V1440",
@@ -21760,7 +21880,7 @@ const N3_VOCAB = [
       "id": "perjalanan"
     },
     "pos": "verb-godan",
-    "ex": "旅行ことにする"
+    "ex": "海外旅行に行く"
   },
   {
     "id": "V1442",
@@ -22035,7 +22155,7 @@ const N3_VOCAB = [
       "id": "mengerti"
     },
     "pos": "verb-godan",
-    "ex": "分かることにする"
+    "ex": "意味が分かる"
   },
   {
     "id": "V1460",
@@ -22140,7 +22260,7 @@ const N3_VOCAB = [
       "id": "tertawa"
     },
     "pos": "verb-godan",
-    "ex": "笑うことにする"
+    "ex": "面白くて笑う"
   },
   {
     "id": "V1467",
@@ -22200,7 +22320,7 @@ const N3_VOCAB = [
       "id": "buruk"
     },
     "pos": "i-adj",
-    "ex": "とても悪いと思う"
+    "ex": "天気が悪い"
   },
   {
     "id": "V1471",
@@ -22245,7 +22365,7 @@ const N3_VOCAB = [
       "id": "laut"
     },
     "pos": "noun",
-    "ex": "海について考える"
+    "ex": "夏に海で泳ぐ"
   },
   {
     "id": "V1474",
@@ -22260,7 +22380,7 @@ const N3_VOCAB = [
       "id": "menjual"
     },
     "pos": "verb-godan",
-    "ex": "売ることにする"
+    "ex": "古い本を売る"
   },
   {
     "id": "V1475",
@@ -22275,7 +22395,7 @@ const N3_VOCAB = [
       "id": "bahagia"
     },
     "pos": "i-adj",
-    "ex": "とても嬉しいと思う"
+    "ex": "プレゼントをもらって嬉しい"
   },
   {
     "id": "V1476",
@@ -22290,7 +22410,7 @@ const N3_VOCAB = [
       "id": "atas"
     },
     "pos": "noun",
-    "ex": "上について考える"
+    "ex": "棚の上に置く"
   },
   {
     "id": "V1477",
@@ -22305,7 +22425,7 @@ const N3_VOCAB = [
       "id": "bergerak"
     },
     "pos": "verb-godan",
-    "ex": "動くことにする"
+    "ex": "電車が動き始めた"
   },
   {
     "id": "V1478",
@@ -22335,7 +22455,7 @@ const N3_VOCAB = [
       "id": "menerima"
     },
     "pos": "verb-ichidan",
-    "ex": "受けることにする"
+    "ex": "試験を受ける"
   },
   {
     "id": "V1480",
@@ -22350,7 +22470,7 @@ const N3_VOCAB = [
       "id": "kuda"
     },
     "pos": "noun",
-    "ex": "馬について考える"
+    "ex": "馬に乗る体験をした"
   },
   {
     "id": "V1481",
@@ -22885,7 +23005,7 @@ const N3_VOCAB = [
       "id": "ayah"
     },
     "pos": "noun",
-    "ex": "父について考える"
+    "ex": "父は教師だ"
   },
   {
     "id": "V1516",
@@ -22930,7 +23050,12 @@ const N3_VOCAB = [
       "id": "ketidakpuasan"
     },
     "pos": "noun",
-    "ex": "不満について考える"
+    "ex": "不満について考える",
+    "syn": [
+      "不足",
+      "物足りない",
+      "不服"
+    ]
   },
   {
     "id": "V1519",
@@ -23785,7 +23910,7 @@ const N3_VOCAB = [
       "id": "daughter"
     },
     "pos": "noun",
-    "ex": "娘について考える"
+    "ex": "娘は高校生だ"
   },
   {
     "id": "V1576",
@@ -23800,7 +23925,7 @@ const N3_VOCAB = [
       "id": "son"
     },
     "pos": "noun",
-    "ex": "息子について考える"
+    "ex": "息子が生まれた"
   },
   {
     "id": "V1577",
@@ -24190,7 +24315,7 @@ const N3_VOCAB = [
       "id": "to bake"
     },
     "pos": "verb-godan",
-    "ex": "焼くことにする"
+    "ex": "肉を焼く"
   },
   {
     "id": "V1603",
@@ -24400,7 +24525,7 @@ const N3_VOCAB = [
       "id": "pergi"
     },
     "pos": "verb-godan",
-    "ex": "行くことにする"
+    "ex": "来週東京に行く予定だ"
   },
   {
     "id": "V1617",
@@ -24520,7 +24645,7 @@ const N3_VOCAB = [
       "id": "menelepon"
     },
     "pos": "verb-godan",
-    "ex": "呼ぶことにする"
+    "ex": "名前を呼ぶ"
   },
   {
     "id": "V1625",
@@ -24715,7 +24840,7 @@ const N3_VOCAB = [
       "id": "parents"
     },
     "pos": "noun",
-    "ex": "両親について考える"
+    "ex": "両親に会いに行く"
   },
   {
     "id": "V1638",
@@ -24745,7 +24870,7 @@ const N3_VOCAB = [
       "id": "cooking"
     },
     "pos": "noun",
-    "ex": "料理について考える"
+    "ex": "料理を作る"
   },
   {
     "id": "V1640",
@@ -25165,7 +25290,7 @@ const N3_VOCAB = [
       "id": "cinta"
     },
     "pos": "verb-godan",
-    "ex": "愛情ことにする"
+    "ex": "子供に愛情を注ぐ"
   },
   {
     "id": "V1668",
@@ -25195,7 +25320,7 @@ const N3_VOCAB = [
       "id": "blue"
     },
     "pos": "i-adj",
-    "ex": "とても青いと思う"
+    "ex": "青い空を見上げる"
   },
   {
     "id": "V1670",
@@ -25210,7 +25335,7 @@ const N3_VOCAB = [
       "id": "red"
     },
     "pos": "i-adj",
-    "ex": "とても赤いと思う"
+    "ex": "赤い花が咲いている"
   },
   {
     "id": "V1671",
@@ -25225,7 +25350,7 @@ const N3_VOCAB = [
       "id": "autumn"
     },
     "pos": "noun",
-    "ex": "秋について考える"
+    "ex": "秋になると紅葉が美しい"
   },
   {
     "id": "V1672",
@@ -25240,7 +25365,7 @@ const N3_VOCAB = [
       "id": "to be empty"
     },
     "pos": "verb-godan",
-    "ex": "空くことにする"
+    "ex": "席が空いている"
   },
   {
     "id": "V1673",
@@ -25300,7 +25425,7 @@ const N3_VOCAB = [
       "id": "dangkal"
     },
     "pos": "i-adj",
-    "ex": "とても浅いと思う"
+    "ex": "川の水が浅い"
   },
   {
     "id": "V1677",
@@ -25315,7 +25440,7 @@ const N3_VOCAB = [
       "id": "pagi"
     },
     "pos": "noun",
-    "ex": "朝について考える"
+    "ex": "朝早く起きて運動する"
   },
   {
     "id": "V1678",
@@ -25420,7 +25545,7 @@ const N3_VOCAB = [
       "id": "bermain"
     },
     "pos": "verb-godan",
-    "ex": "遊ぶことにする"
+    "ex": "公園で子供と遊ぶ"
   },
   {
     "id": "V1685",
@@ -25450,7 +25575,7 @@ const N3_VOCAB = [
       "id": "hangat"
     },
     "pos": "i-adj",
-    "ex": "とても暖かいと思う"
+    "ex": "今日は暖かい天気だ"
   },
   {
     "id": "V1687",
@@ -25465,7 +25590,7 @@ const N3_VOCAB = [
       "id": "baru"
     },
     "pos": "i-adj",
-    "ex": "とても新しいと思う"
+    "ex": "新しい仕事を始める"
   },
   {
     "id": "V1688",
@@ -25480,7 +25605,7 @@ const N3_VOCAB = [
       "id": "kepala"
     },
     "pos": "noun",
-    "ex": "頭について考える"
+    "ex": "頭が痛くなった"
   },
   {
     "id": "V1689",
@@ -25510,7 +25635,7 @@ const N3_VOCAB = [
       "id": "tebal"
     },
     "pos": "i-adj",
-    "ex": "とても厚いと思う"
+    "ex": "厚い本を読み終えた"
   },
   {
     "id": "V1691",
@@ -25525,7 +25650,7 @@ const N3_VOCAB = [
       "id": "panas"
     },
     "pos": "i-adj",
-    "ex": "とても暑いと思う"
+    "ex": "今年の夏は暑い"
   },
   {
     "id": "V1692",
@@ -25555,7 +25680,7 @@ const N3_VOCAB = [
       "id": "to gather"
     },
     "pos": "verb-godan",
-    "ex": "集まることにする"
+    "ex": "友達が集まってパーティーをする"
   },
   {
     "id": "V1694",
@@ -25570,7 +25695,7 @@ const N3_VOCAB = [
       "id": "to collect"
     },
     "pos": "verb-ichidan",
-    "ex": "集めることにする"
+    "ex": "切手を集める趣味がある"
   },
   {
     "id": "V1695",
@@ -25600,7 +25725,7 @@ const N3_VOCAB = [
       "id": "older sister"
     },
     "pos": "noun",
-    "ex": "姉について考える"
+    "ex": "姉は来年結婚する予定だ"
   },
   {
     "id": "V1697",
@@ -25630,7 +25755,7 @@ const N3_VOCAB = [
       "id": "berbahaya"
     },
     "pos": "i-adj",
-    "ex": "とても危ないと思う"
+    "ex": "この道は危ないから注意して"
   },
   {
     "id": "V1699",
@@ -25645,7 +25770,7 @@ const N3_VOCAB = [
       "id": "manis"
     },
     "pos": "i-adj",
-    "ex": "とても甘いと思う"
+    "ex": "このケーキは甘すぎる"
   },
   {
     "id": "V1700",
@@ -25660,7 +25785,7 @@ const N3_VOCAB = [
       "id": "rain"
     },
     "pos": "noun",
-    "ex": "雨について考える"
+    "ex": "午後から雨が降るらしい"
   },
   {
     "id": "V1701",
@@ -25675,7 +25800,7 @@ const N3_VOCAB = [
       "id": "candy"
     },
     "pos": "noun",
-    "ex": "飴について考える"
+    "ex": "喉が痛いので飴をなめる"
   },
   {
     "id": "V1702",
@@ -25705,7 +25830,7 @@ const N3_VOCAB = [
       "id": "berjalan"
     },
     "pos": "verb-godan",
-    "ex": "歩くことにする"
+    "ex": "毎日30分歩く習慣がある"
   },
   {
     "id": "V1704",
@@ -25735,7 +25860,7 @@ const N3_VOCAB = [
       "id": "mencuci"
     },
     "pos": "verb-godan",
-    "ex": "洗うことにする"
+    "ex": "手を石鹸で洗う"
   },
   {
     "id": "V1706",
@@ -25765,7 +25890,7 @@ const N3_VOCAB = [
       "id": "to exist"
     },
     "pos": "verb-godan",
-    "ex": "有ることにする"
+    "ex": "ここにペンがある"
   },
   {
     "id": "V1708",
@@ -25795,7 +25920,7 @@ const N3_VOCAB = [
       "id": "baik"
     },
     "pos": "i-adj",
-    "ex": "とても良いと思う"
+    "ex": "今日は良い天気だ"
   },
   {
     "id": "V1710",
@@ -25810,7 +25935,7 @@ const N3_VOCAB = [
       "id": "berkata"
     },
     "pos": "verb-godan",
-    "ex": "言うことにする"
+    "ex": "思ったことを言う"
   },
   {
     "id": "V1711",
@@ -25825,7 +25950,7 @@ const N3_VOCAB = [
       "id": "rumah"
     },
     "pos": "noun",
-    "ex": "家について考える"
+    "ex": "新しい家を建てる"
   },
   {
     "id": "V1712",
@@ -25885,7 +26010,7 @@ const N3_VOCAB = [
       "id": "pond"
     },
     "pos": "noun",
-    "ex": "池について考える"
+    "ex": "池で魚を釣る"
   },
   {
     "id": "V1716",
@@ -25900,7 +26025,7 @@ const N3_VOCAB = [
       "id": "stone"
     },
     "pos": "noun",
-    "ex": "石について考える"
+    "ex": "大きな石につまずいた"
   },
   {
     "id": "V1717",
@@ -25975,7 +26100,7 @@ const N3_VOCAB = [
       "id": "sibuk"
     },
     "pos": "i-adj",
-    "ex": "とても忙しいと思う"
+    "ex": "最近とても忙しい日々だ"
   },
   {
     "id": "V1722",
@@ -25990,7 +26115,7 @@ const N3_VOCAB = [
       "id": "to hurry"
     },
     "pos": "verb-godan",
-    "ex": "急ぐことにする"
+    "ex": "電車に間に合うように急ぐ"
   },
   {
     "id": "V1723",
@@ -26005,7 +26130,7 @@ const N3_VOCAB = [
       "id": "painful"
     },
     "pos": "i-adj",
-    "ex": "とても痛いと思う"
+    "ex": "足が痛くて歩けない"
   },
   {
     "id": "V1724",
@@ -26050,7 +26175,7 @@ const N3_VOCAB = [
       "id": "pertama"
     },
     "pos": "noun",
-    "ex": "一番について考える"
+    "ex": "クラスで一番背が高い"
   },
   {
     "id": "V1727",
@@ -26095,7 +26220,7 @@ const N3_VOCAB = [
       "id": "five"
     },
     "pos": "verb-godan",
-    "ex": "五つことにする"
+    "ex": "りんごを五つ買った"
   },
   {
     "id": "V1730",
@@ -26110,7 +26235,7 @@ const N3_VOCAB = [
       "id": "bersama"
     },
     "pos": "noun",
-    "ex": "一緒について考える"
+    "ex": "友達と一緒に映画を見る"
   },
   {
     "id": "V1731",
@@ -26155,7 +26280,7 @@ const N3_VOCAB = [
       "id": "now"
     },
     "pos": "noun",
-    "ex": "今について考える"
+    "ex": "今すぐ出発しましょう"
   },
   {
     "id": "V1734",
@@ -26170,7 +26295,7 @@ const N3_VOCAB = [
       "id": "meaning"
     },
     "pos": "noun",
-    "ex": "意味について考える"
+    "ex": "この言葉の意味を教えて"
   },
   {
     "id": "V1735",
@@ -26200,7 +26325,7 @@ const N3_VOCAB = [
       "id": "to put in"
     },
     "pos": "verb-ichidan",
-    "ex": "入れることにする"
+    "ex": "かばんに本を入れる"
   },
   {
     "id": "V1737",
@@ -26215,7 +26340,7 @@ const N3_VOCAB = [
       "id": "color"
     },
     "pos": "noun",
-    "ex": "色について考える"
+    "ex": "好きな色は青です"
   },
   {
     "id": "V1738",
@@ -26245,7 +26370,7 @@ const N3_VOCAB = [
       "id": "to celebrate"
     },
     "pos": "verb-godan",
-    "ex": "祝うことにする"
+    "ex": "誕生日を祝う"
   },
   {
     "id": "V1740",
@@ -26320,7 +26445,7 @@ const N3_VOCAB = [
       "id": "song"
     },
     "pos": "noun",
-    "ex": "歌について考える"
+    "ex": "好きな歌を歌う"
   },
   {
     "id": "V1745",
@@ -26335,7 +26460,7 @@ const N3_VOCAB = [
       "id": "bernyanyi"
     },
     "pos": "verb-godan",
-    "ex": "歌うことにする"
+    "ex": "カラオケで歌う"
   },
   {
     "id": "V1746",
@@ -26350,7 +26475,7 @@ const N3_VOCAB = [
       "id": "to hit"
     },
     "pos": "verb-godan",
-    "ex": "打つことにする"
+    "ex": "テニスボールを打つ"
   },
   {
     "id": "V1747",
@@ -26365,7 +26490,7 @@ const N3_VOCAB = [
       "id": "cantik"
     },
     "pos": "i-adj",
-    "ex": "とても美しいと思う"
+    "ex": "美しい景色に感動した"
   },
   {
     "id": "V1748",
@@ -26470,7 +26595,7 @@ const N3_VOCAB = [
       "id": "picture"
     },
     "pos": "noun",
-    "ex": "絵について考える"
+    "ex": "絵を描くのが趣味だ"
   },
   {
     "id": "V1755",
@@ -26485,7 +26610,7 @@ const N3_VOCAB = [
       "id": "memilih"
     },
     "pos": "verb-godan",
-    "ex": "選ぶことにする"
+    "ex": "好きな色を選ぶ"
   },
   {
     "id": "V1756",
@@ -26500,7 +26625,7 @@ const N3_VOCAB = [
       "id": "hebat"
     },
     "pos": "i-adj",
-    "ex": "とても偉いと思う"
+    "ex": "偉い人に会った"
   },
   {
     "id": "V1757",
@@ -26575,7 +26700,7 @@ const N3_VOCAB = [
       "id": "besar"
     },
     "pos": "i-adj",
-    "ex": "とても大きいと思う"
+    "ex": "大きい荷物を運ぶ"
   },
   {
     "id": "V1762",
@@ -26605,7 +26730,7 @@ const N3_VOCAB = [
       "id": "many"
     },
     "pos": "i-adj",
-    "ex": "とても多いと思う"
+    "ex": "今年は雨が多い"
   },
   {
     "id": "V1764",
@@ -26680,7 +26805,7 @@ const N3_VOCAB = [
       "id": "meletakkan"
     },
     "pos": "verb-godan",
-    "ex": "置くことにする"
+    "ex": "テーブルの上に花を置く"
   },
   {
     "id": "V1769",
@@ -26695,7 +26820,7 @@ const N3_VOCAB = [
       "id": "mengirim"
     },
     "pos": "verb-godan",
-    "ex": "送ることにする"
+    "ex": "友達にメールを送る"
   },
   {
     "id": "V1770",
@@ -26725,7 +26850,7 @@ const N3_VOCAB = [
       "id": "to be late"
     },
     "pos": "verb-ichidan",
-    "ex": "遅れることにする"
+    "ex": "約束の時間に遅れる"
   },
   {
     "id": "V1772",
@@ -26805,7 +26930,7 @@ const N3_VOCAB = [
       "id": "mengajar"
     },
     "pos": "verb-ichidan",
-    "ex": "教えることにする"
+    "ex": "子供に勉強を教える"
   },
   {
     "id": "V1777",
@@ -26820,7 +26945,7 @@ const N3_VOCAB = [
       "id": "to push"
     },
     "pos": "verb-godan",
-    "ex": "押すことにする"
+    "ex": "ボタンを押す"
   },
   {
     "id": "V1778",
@@ -26895,7 +27020,7 @@ const N3_VOCAB = [
       "id": "menari"
     },
     "pos": "verb-godan",
-    "ex": "踊ることにする"
+    "ex": "音楽に合わせて踊る"
   },
   {
     "id": "V1783",
@@ -26945,7 +27070,7 @@ const N3_VOCAB = [
       "id": "sama"
     },
     "pos": "noun",
-    "ex": "同じについて考える"
+    "ex": "同じ意見を持っている"
   },
   {
     "id": "V1786",
@@ -27035,7 +27160,7 @@ const N3_VOCAB = [
       "id": "berat"
     },
     "pos": "i-adj",
-    "ex": "とても重いと思う"
+    "ex": "このかばんは重い"
   },
   {
     "id": "V1792",
@@ -27050,7 +27175,7 @@ const N3_VOCAB = [
       "id": "interesting"
     },
     "pos": "i-adj",
-    "ex": "とても面白いと思う"
+    "ex": "この本は面白い"
   },
   {
     "id": "V1793",
@@ -27095,7 +27220,7 @@ const N3_VOCAB = [
       "id": "berenang"
     },
     "pos": "verb-godan",
-    "ex": "泳ぐことにする"
+    "ex": "プールで泳ぐ"
   },
   {
     "id": "V1796",
@@ -27125,7 +27250,7 @@ const N3_VOCAB = [
       "id": "to get off"
     },
     "pos": "verb-ichidan",
-    "ex": "降りることにする"
+    "ex": "電車から降りる"
   },
   {
     "id": "V1798",
@@ -27185,7 +27310,7 @@ const N3_VOCAB = [
       "id": "berakhir"
     },
     "pos": "verb-godan",
-    "ex": "終わることにする"
+    "ex": "映画が終わった"
   },
   {
     "id": "V1802",
@@ -27215,7 +27340,7 @@ const N3_VOCAB = [
       "id": "wanita"
     },
     "pos": "noun",
-    "ex": "女について考える"
+    "ex": "女の人が話しかけてきた"
   },
   {
     "id": "V1804",
@@ -27335,7 +27460,7 @@ const N3_VOCAB = [
       "id": "perusahaan"
     },
     "pos": "noun",
-    "ex": "会社について考える"
+    "ex": "会社に出勤する"
   },
   {
     "id": "V1812",
@@ -27350,7 +27475,7 @@ const N3_VOCAB = [
       "id": "Solusi"
     },
     "pos": "verb-godan",
-    "ex": "解決ことにする"
+    "ex": "問題を解決する"
   },
   {
     "id": "V1813",
@@ -27365,7 +27490,7 @@ const N3_VOCAB = [
       "id": "conversation"
     },
     "pos": "noun",
-    "ex": "会話について考える"
+    "ex": "友達と会話を楽しむ"
   },
   {
     "id": "V1814",
@@ -27500,7 +27625,7 @@ const N3_VOCAB = [
       "id": "menulis"
     },
     "pos": "verb-godan",
-    "ex": "書くことにする"
+    "ex": "日記を書く習慣がある"
   },
   {
     "id": "V1823",
@@ -27545,7 +27670,12 @@ const N3_VOCAB = [
       "id": "confirmation"
     },
     "pos": "noun",
-    "ex": "確認について考える"
+    "ex": "予約を確認する",
+    "syn": [
+      "チェックする",
+      "確かめる",
+      "照合する"
+    ]
   },
   {
     "id": "V1826",
@@ -27590,7 +27720,7 @@ const N3_VOCAB = [
       "id": "wind"
     },
     "pos": "noun",
-    "ex": "風について考える"
+    "ex": "強い風が吹いている"
   },
   {
     "id": "V1829",
@@ -27620,7 +27750,7 @@ const N3_VOCAB = [
       "id": "keluarga"
     },
     "pos": "verb-godan",
-    "ex": "家族ことにする"
+    "ex": "家族と食事をする"
   },
   {
     "id": "V1831",
@@ -27710,7 +27840,7 @@ const N3_VOCAB = [
       "id": "sedih"
     },
     "pos": "i-adj",
-    "ex": "とても悲しいと思う"
+    "ex": "別れが悲しい"
   },
   {
     "id": "V1837",
@@ -27745,7 +27875,7 @@ const N3_VOCAB = [
       "id": "uang"
     },
     "pos": "noun",
-    "ex": "金について考える"
+    "ex": "お金を貯める"
   },
   {
     "id": "V1839",
@@ -27835,7 +27965,7 @@ const N3_VOCAB = [
       "id": "tubuh"
     },
     "pos": "noun",
-    "ex": "体について考える"
+    "ex": "体を鍛える"
   },
   {
     "id": "V1845",
@@ -27880,7 +28010,7 @@ const N3_VOCAB = [
       "id": "to borrow"
     },
     "pos": "verb-ichidan",
-    "ex": "借りることにする"
+    "ex": "図書館で本を借りる"
   },
   {
     "id": "V1848",
@@ -27970,7 +28100,7 @@ const N3_VOCAB = [
       "id": "berubah"
     },
     "pos": "verb-godan",
-    "ex": "変わることにする"
+    "ex": "季節が変わる"
   },
   {
     "id": "V1854",
@@ -28050,7 +28180,7 @@ const N3_VOCAB = [
       "id": "sederhana"
     },
     "pos": "noun",
-    "ex": "簡単について考える"
+    "ex": "この問題は簡単だ"
   },
   {
     "id": "V1859",
@@ -28200,7 +28330,7 @@ const N3_VOCAB = [
       "id": "mendengarkan"
     },
     "pos": "verb-godan",
-    "ex": "聞くことにする"
+    "ex": "音楽を聞く"
   },
   {
     "id": "V1869",
@@ -28230,7 +28360,7 @@ const N3_VOCAB = [
       "id": "danger"
     },
     "pos": "noun",
-    "ex": "危険について考える"
+    "ex": "危険な場所に近づかない"
   },
   {
     "id": "V1871",
@@ -28305,7 +28435,12 @@ const N3_VOCAB = [
       "id": "expectation"
     },
     "pos": "i-adj",
-    "ex": "とても期待と思う"
+    "ex": "とても期待と思う",
+    "syn": [
+      "望む",
+      "待ち望む",
+      "願う"
+    ]
   },
   {
     "id": "V1876",
@@ -28350,7 +28485,12 @@ const N3_VOCAB = [
       "id": "harapan"
     },
     "pos": "verb-godan",
-    "ex": "希望ことにする"
+    "ex": "希望ことにする",
+    "syn": [
+      "望む",
+      "願う",
+      "期待する"
+    ]
   },
   {
     "id": "V1879",
@@ -28440,7 +28580,7 @@ const N3_VOCAB = [
       "id": "Pendidikan"
     },
     "pos": "verb-godan",
-    "ex": "教育ことにする"
+    "ex": "子供の教育に力を入れる"
   },
   {
     "id": "V1885",
@@ -28500,7 +28640,7 @@ const N3_VOCAB = [
       "id": "interest"
     },
     "pos": "noun",
-    "ex": "興味について考える"
+    "ex": "歴史に興味がある"
   },
   {
     "id": "V1889",
@@ -28515,7 +28655,7 @@ const N3_VOCAB = [
       "id": "dislike"
     },
     "pos": "i-adj",
-    "ex": "とても嫌いと思う"
+    "ex": "野菜が嫌いだ"
   },
   {
     "id": "V1890",
@@ -28695,7 +28835,7 @@ const N3_VOCAB = [
       "id": "gelap"
     },
     "pos": "i-adj",
-    "ex": "とても暗いと思う"
+    "ex": "部屋が暗いので電気をつける"
   },
   {
     "id": "V1902",
@@ -28710,7 +28850,7 @@ const N3_VOCAB = [
       "id": "datang"
     },
     "pos": "verb-godan",
-    "ex": "来ることにする"
+    "ex": "友達が家に来る"
   },
   {
     "id": "V1903",
@@ -28770,7 +28910,7 @@ const N3_VOCAB = [
       "id": "black"
     },
     "pos": "i-adj",
-    "ex": "とても黒いと思う"
+    "ex": "黒い服を着る"
   },
   {
     "id": "V1907",
@@ -28830,7 +28970,12 @@ const N3_VOCAB = [
       "id": "rencana"
     },
     "pos": "verb-godan",
-    "ex": "計画ことにする"
+    "ex": "旅行の計画を立てる",
+    "syn": [
+      "プラン",
+      "予定",
+      "スケジュール"
+    ]
   },
   {
     "id": "V1911",
@@ -29035,7 +29180,7 @@ const N3_VOCAB = [
       "id": "marriage"
     },
     "pos": "noun",
-    "ex": "結婚について考える"
+    "ex": "来年結婚する予定だ"
   },
   {
     "id": "V1924",
@@ -29155,7 +29300,12 @@ const N3_VOCAB = [
       "id": "Penelitian"
     },
     "pos": "verb-godan",
-    "ex": "研究ことにする"
+    "ex": "科学を研究する",
+    "syn": [
+      "研鑽する",
+      "探究する",
+      "学ぶ"
+    ]
   },
   {
     "id": "V1932",
@@ -29170,7 +29320,7 @@ const N3_VOCAB = [
       "id": "healthy"
     },
     "pos": "noun",
-    "ex": "元気について考える"
+    "ex": "元気に過ごしている"
   },
   {
     "id": "V1933",
@@ -29290,7 +29440,7 @@ const N3_VOCAB = [
       "id": "after"
     },
     "pos": "noun",
-    "ex": "後について考える"
+    "ex": "仕事の後で飲みに行く"
   },
   {
     "id": "V1941",
@@ -29485,7 +29635,7 @@ const N3_VOCAB = [
       "id": "this year"
     },
     "pos": "noun",
-    "ex": "今年について考える"
+    "ex": "今年の目標を立てる"
   },
   {
     "id": "V1954",
@@ -29500,7 +29650,7 @@ const N3_VOCAB = [
       "id": "anak"
     },
     "pos": "noun",
-    "ex": "子供について考える"
+    "ex": "子供と公園で遊ぶ"
   },
   {
     "id": "V1955",
@@ -29565,7 +29715,7 @@ const N3_VOCAB = [
       "id": "nasi"
     },
     "pos": "noun",
-    "ex": "米について考える"
+    "ex": "米を炊く"
   },
   {
     "id": "V1959",
@@ -29670,7 +29820,7 @@ const N3_VOCAB = [
       "id": "recently"
     },
     "pos": "noun",
-    "ex": "最近について考える"
+    "ex": "最近忙しい日が続く"
   },
   {
     "id": "V1966",
@@ -29685,7 +29835,7 @@ const N3_VOCAB = [
       "id": "last"
     },
     "pos": "noun",
-    "ex": "最後について考える"
+    "ex": "最後まで頑張る"
   },
   {
     "id": "V1967",
@@ -29700,7 +29850,7 @@ const N3_VOCAB = [
       "id": "pertama"
     },
     "pos": "noun",
-    "ex": "最初について考える"
+    "ex": "最初から説明する"
   },
   {
     "id": "V1968",
@@ -29940,7 +30090,7 @@ const N3_VOCAB = [
       "id": "waktu"
     },
     "pos": "noun",
-    "ex": "時間について考える"
+    "ex": "時間を有効に使う"
   },
   {
     "id": "V1984",
@@ -30075,7 +30225,12 @@ const N3_VOCAB = [
       "id": "tenang"
     },
     "pos": "noun",
-    "ex": "静かについて考える"
+    "ex": "静かな場所で勉強する",
+    "syn": [
+      "穏やか",
+      "落ち着いた",
+      "静寂"
+    ]
   },
   {
     "id": "V1993",
@@ -30090,7 +30245,7 @@ const N3_VOCAB = [
       "id": "alam"
     },
     "pos": "noun",
-    "ex": "自然について考える"
+    "ex": "自然を大切にする"
   },
   {
     "id": "V1994",
@@ -30150,7 +30305,12 @@ const N3_VOCAB = [
       "id": "kegagalan"
     },
     "pos": "i-adj",
-    "ex": "とても失敗と思う"
+    "ex": "失敗から学ぶ",
+    "syn": [
+      "しくじる",
+      "失敗する",
+      "ミスする"
+    ]
   },
   {
     "id": "V1998",
@@ -30270,7 +30430,7 @@ const N3_VOCAB = [
       "id": "photograph"
     },
     "pos": "noun",
-    "ex": "写真について考える"
+    "ex": "写真を撮る"
   },
   {
     "id": "V2006",
@@ -30330,7 +30490,12 @@ const N3_VOCAB = [
       "id": "concentration"
     },
     "pos": "verb-godan",
-    "ex": "集中ことにする"
+    "ex": "集中ことにする",
+    "syn": [
+      "集中する",
+      "専念する",
+      "没頭する"
+    ]
   },
   {
     "id": "V2010",
@@ -30425,7 +30590,12 @@ const N3_VOCAB = [
       "id": "preparation"
     },
     "pos": "noun",
-    "ex": "準備について考える"
+    "ex": "旅行の準備をする",
+    "syn": [
+      "用意する",
+      "支度する",
+      "整える"
+    ]
   },
   {
     "id": "V2016",
@@ -30460,7 +30630,7 @@ const N3_VOCAB = [
       "id": "meal"
     },
     "pos": "noun",
-    "ex": "食事について考える"
+    "ex": "家族と食事をする"
   },
   {
     "id": "V2018",
@@ -30475,7 +30645,7 @@ const N3_VOCAB = [
       "id": "to inform"
     },
     "pos": "verb-ichidan",
-    "ex": "知らせることにする"
+    "ex": "ニュースを知らせる"
   },
   {
     "id": "V2019",
@@ -30490,7 +30660,7 @@ const N3_VOCAB = [
       "id": "to investigate"
     },
     "pos": "verb-godan",
-    "ex": "調べることにする"
+    "ex": "インターネットで調べる"
   },
   {
     "id": "V2020",
@@ -30505,7 +30675,7 @@ const N3_VOCAB = [
       "id": "tahu"
     },
     "pos": "verb-ichidan",
-    "ex": "知ることにする"
+    "ex": "事実を知る"
   },
   {
     "id": "V2021",
@@ -30565,7 +30735,7 @@ const N3_VOCAB = [
       "id": "kind"
     },
     "pos": "verb-godan",
-    "ex": "親切ことにする"
+    "ex": "親切な人に助けられた"
   },
   {
     "id": "V2025",
@@ -30580,7 +30750,7 @@ const N3_VOCAB = [
       "id": "worry"
     },
     "pos": "i-adj",
-    "ex": "とても心配と思う"
+    "ex": "健康が心配だ"
   },
   {
     "id": "V2026",
@@ -30790,7 +30960,7 @@ const N3_VOCAB = [
       "id": "few"
     },
     "pos": "i-adj",
-    "ex": "とても少ないと思う"
+    "ex": "時間が少ない"
   },
   {
     "id": "V2040",
@@ -30805,7 +30975,7 @@ const N3_VOCAB = [
       "id": "a little"
     },
     "pos": "noun",
-    "ex": "少しについて考える"
+    "ex": "少し休憩する"
   },
   {
     "id": "V2041",
@@ -30820,7 +30990,7 @@ const N3_VOCAB = [
       "id": "to advance"
     },
     "pos": "verb-godan",
-    "ex": "進むことにする"
+    "ex": "前に進む"
   },
   {
     "id": "V2042",
@@ -30855,7 +31025,7 @@ const N3_VOCAB = [
       "id": "tinggal"
     },
     "pos": "verb-godan",
-    "ex": "住むことにする"
+    "ex": "東京に住んでいる"
   },
   {
     "id": "V2044",
@@ -31080,7 +31250,7 @@ const N3_VOCAB = [
       "id": "explanation"
     },
     "pos": "i-adj",
-    "ex": "とても説明と思う"
+    "ex": "詳しく説明する"
   },
   {
     "id": "V2059",
@@ -31470,7 +31640,7 @@ const N3_VOCAB = [
       "id": "universitas"
     },
     "pos": "verb-godan",
-    "ex": "大学ことにする"
+    "ex": "大学に入学する"
   },
   {
     "id": "V2085",
@@ -31500,7 +31670,12 @@ const N3_VOCAB = [
       "id": "pengalaman"
     },
     "pos": "noun",
-    "ex": "体験について考える"
+    "ex": "体験について考える",
+    "syn": [
+      "経験する",
+      "味わう",
+      "実感する"
+    ]
   },
   {
     "id": "V2087",
@@ -31635,7 +31810,7 @@ const N3_VOCAB = [
       "id": "Berdiri"
     },
     "pos": "verb-godan",
-    "ex": "立つことにする"
+    "ex": "電車で立つ"
   },
   {
     "id": "V2096",
@@ -31725,7 +31900,7 @@ const N3_VOCAB = [
       "id": "fun"
     },
     "pos": "i-adj",
-    "ex": "とても楽しいと思う"
+    "ex": "旅行が楽しい"
   },
   {
     "id": "V2102",
@@ -31950,7 +32125,7 @@ const N3_VOCAB = [
       "id": "kecil"
     },
     "pos": "i-adj",
-    "ex": "とても小さいと思う"
+    "ex": "小さい子供"
   },
   {
     "id": "V2117",
@@ -31965,7 +32140,7 @@ const N3_VOCAB = [
       "id": "dekat"
     },
     "pos": "i-adj",
-    "ex": "とても近いと思う"
+    "ex": "駅が近い"
   },
   {
     "id": "V2118",
@@ -31995,7 +32170,7 @@ const N3_VOCAB = [
       "id": "to differ"
     },
     "pos": "verb-godan",
-    "ex": "違うことにする"
+    "ex": "意見が違う"
   },
   {
     "id": "V2120",
@@ -32240,7 +32415,7 @@ const N3_VOCAB = [
       "id": "menggunakan"
     },
     "pos": "verb-godan",
-    "ex": "使うことにする"
+    "ex": "道具を使う"
   },
   {
     "id": "V2136",
@@ -32255,7 +32430,7 @@ const N3_VOCAB = [
       "id": "to get tired"
     },
     "pos": "verb-ichidan",
-    "ex": "疲れることにする"
+    "ex": "仕事で疲れる"
   },
   {
     "id": "V2137",
@@ -32825,7 +33000,7 @@ const N3_VOCAB = [
       "id": "work"
     },
     "pos": "verb-godan",
-    "ex": "働くことにする"
+    "ex": "会社で働く"
   },
   {
     "id": "V2175",
@@ -33125,7 +33300,7 @@ const N3_VOCAB = [
       "id": "school"
     },
     "pos": "verb-godan",
-    "ex": "学校ことにする"
+    "ex": "学校で授業を受ける"
   },
   {
     "id": "V2195",
@@ -33140,7 +33315,7 @@ const N3_VOCAB = [
       "id": "student"
     },
     "pos": "i-adj",
-    "ex": "とても学生と思う"
+    "ex": "大学で学生をしている"
   },
   {
     "id": "V2196",
@@ -33485,7 +33660,7 @@ const N3_VOCAB = [
       "id": "doctor"
     },
     "pos": "noun",
-    "ex": "医者について考える"
+    "ex": "風邪をひいて医者に行く"
   },
   {
     "id": "V2219",
@@ -33960,7 +34135,7 @@ const N3_VOCAB = [
       "id": "question"
     },
     "pos": "noun",
-    "ex": "質問について考える"
+    "ex": "質問に答える"
   },
   {
     "id": "V2250",
@@ -34565,7 +34740,7 @@ const N3_VOCAB = [
       "id": "every day"
     },
     "pos": "noun",
-    "ex": "毎日について考える"
+    "ex": "毎日運動する"
   },
   {
     "id": "V2290",
@@ -34640,7 +34815,7 @@ const N3_VOCAB = [
       "id": "clothes"
     },
     "pos": "verb-godan",
-    "ex": "服ことにする"
+    "ex": "新しい服を買う"
   },
   {
     "id": "V2295",
@@ -34805,7 +34980,7 @@ const N3_VOCAB = [
       "id": "garden"
     },
     "pos": "noun",
-    "ex": "庭について考える"
+    "ex": "庭で花を育てる"
   },
   {
     "id": "V2306",
@@ -34895,7 +35070,7 @@ const N3_VOCAB = [
       "id": "foreign country"
     },
     "pos": "verb-godan",
-    "ex": "外国ことにする"
+    "ex": "外国で働きたい"
   },
   {
     "id": "V2312",
@@ -34955,7 +35130,7 @@ const N3_VOCAB = [
       "id": "fish"
     },
     "pos": "noun",
-    "ex": "魚について考える"
+    "ex": "魚を焼いて食べる"
   },
   {
     "id": "V2316",
@@ -35150,7 +35325,12 @@ const N3_VOCAB = [
       "id": "practice"
     },
     "pos": "verb-godan",
-    "ex": "練習ことにする"
+    "ex": "練習ことにする",
+    "syn": [
+      "訓練する",
+      "トレーニングする",
+      "稽古する"
+    ]
   },
   {
     "id": "V2329",
@@ -35540,7 +35720,7 @@ const N3_VOCAB = [
       "id": "bright"
     },
     "pos": "i-adj",
-    "ex": "とても明るいと思う"
+    "ex": "明るい性格の人だ"
   },
   {
     "id": "V2355",
@@ -36260,7 +36440,7 @@ const N3_VOCAB = [
       "id": "counter for long objects"
     },
     "pos": "noun",
-    "ex": "本について考える"
+    "ex": "本を読む"
   },
   {
     "id": "V2403",
@@ -36485,7 +36665,7 @@ const N3_VOCAB = [
       "id": "ride"
     },
     "pos": "verb-godan",
-    "ex": "乗ることにする"
+    "ex": "電車に乗る"
   },
   {
     "id": "V2418",
@@ -36530,7 +36710,7 @@ const N3_VOCAB = [
       "id": "fall"
     },
     "pos": "verb-ichidan",
-    "ex": "落ちることにする"
+    "ex": "りんごが木から落ちる"
   },
   {
     "id": "V2421",
@@ -36575,7 +36755,7 @@ const N3_VOCAB = [
       "id": "be visible"
     },
     "pos": "verb-ichidan",
-    "ex": "見えることにする"
+    "ex": "富士山が見える"
   },
   {
     "id": "V2424",
@@ -36605,7 +36785,7 @@ const N3_VOCAB = [
       "id": "speak"
     },
     "pos": "verb-godan",
-    "ex": "話すことにする"
+    "ex": "友達と話す"
   },
   {
     "id": "V2426",
@@ -36655,7 +36835,7 @@ const N3_VOCAB = [
       "id": "learn"
     },
     "pos": "verb-godan",
-    "ex": "習うことにする"
+    "ex": "ピアノを習う"
   },
   {
     "id": "V2429",
@@ -36670,7 +36850,7 @@ const N3_VOCAB = [
       "id": "eat"
     },
     "pos": "verb-godan",
-    "ex": "食べることにする"
+    "ex": "ご飯を食べる"
   },
   {
     "id": "V2430",
@@ -36685,7 +36865,7 @@ const N3_VOCAB = [
       "id": "drink"
     },
     "pos": "verb-godan",
-    "ex": "飲むことにする"
+    "ex": "水を飲む"
   },
   {
     "id": "V2431",
@@ -36805,7 +36985,7 @@ const N3_VOCAB = [
       "id": "take"
     },
     "pos": "verb-godan",
-    "ex": "取ることにする"
+    "ex": "写真を取る"
   },
   {
     "id": "V2439",
@@ -36820,7 +37000,7 @@ const N3_VOCAB = [
       "id": "hold"
     },
     "pos": "verb-godan",
-    "ex": "持つことにする"
+    "ex": "かばんを持つ"
   },
   {
     "id": "V2440",
@@ -36835,7 +37015,7 @@ const N3_VOCAB = [
       "id": "wide"
     },
     "pos": "i-adj",
-    "ex": "とても広いと思う"
+    "ex": "広い部屋に住む"
   },
   {
     "id": "V2441",
@@ -36865,7 +37045,7 @@ const N3_VOCAB = [
       "id": "cold"
     },
     "pos": "i-adj",
-    "ex": "とても冷たいと思う"
+    "ex": "冷たい水を飲む"
   },
   {
     "id": "V2443",
@@ -36880,7 +37060,7 @@ const N3_VOCAB = [
       "id": "cold (weather)"
     },
     "pos": "i-adj",
-    "ex": "とても寒いと思う"
+    "ex": "今日は寒い"
   },
   {
     "id": "V2444",
@@ -36895,7 +37075,7 @@ const N3_VOCAB = [
       "id": "young"
     },
     "pos": "i-adj",
-    "ex": "とても若いと思う"
+    "ex": "若い世代"
   },
   {
     "id": "V2445",
@@ -36910,7 +37090,7 @@ const N3_VOCAB = [
       "id": "slow"
     },
     "pos": "i-adj",
-    "ex": "とても遅いと思う"
+    "ex": "電車が遅れている"
   },
   {
     "id": "V2446",
@@ -36925,7 +37105,7 @@ const N3_VOCAB = [
       "id": "far"
     },
     "pos": "i-adj",
-    "ex": "とても遠いと思う"
+    "ex": "学校まで遠い道のりだ"
   },
   {
     "id": "V2447",
@@ -37045,7 +37225,7 @@ const N3_VOCAB = [
       "id": "station"
     },
     "pos": "noun",
-    "ex": "駅について考える"
+    "ex": "駅で友達と待ち合わせる"
   },
   {
     "id": "V2455",
@@ -38350,7 +38530,7 @@ const N3_VOCAB = [
       "id": "wake up"
     },
     "pos": "verb-ichidan",
-    "ex": "起きることにする"
+    "ex": "朝6時に起きる"
   },
   {
     "id": "V2542",
@@ -38365,7 +38545,7 @@ const N3_VOCAB = [
       "id": "sleep"
     },
     "pos": "verb-ichidan",
-    "ex": "寝ることにする"
+    "ex": "早く寝る"
   },
   {
     "id": "V2543",
@@ -38555,7 +38735,7 @@ const N3_VOCAB = [
       "id": "think"
     },
     "pos": "verb-ichidan",
-    "ex": "考えることにする"
+    "ex": "将来について考える"
   },
   {
     "id": "V2555",
@@ -38570,7 +38750,12 @@ const N3_VOCAB = [
       "id": "confirm"
     },
     "pos": "verb-suru",
-    "ex": "確認することが大切だ"
+    "ex": "確認することが大切だ",
+    "syn": [
+      "チェックする",
+      "照合する",
+      "確かめる"
+    ]
   },
   {
     "id": "V2556",
@@ -39285,7 +39470,7 @@ const N3_VOCAB = [
       "id": "cleaning"
     },
     "pos": "noun",
-    "ex": "掃除について考える"
+    "ex": "部屋を掃除する"
   },
   {
     "id": "V2602",
@@ -40155,7 +40340,7 @@ const N3_VOCAB = [
       "id": "class"
     },
     "pos": "verb-godan",
-    "ex": "授業ことにする"
+    "ex": "授業に出席する"
   },
   {
     "id": "V2660",
@@ -40200,7 +40385,12 @@ const N3_VOCAB = [
       "id": "exam"
     },
     "pos": "noun",
-    "ex": "試験について考える"
+    "ex": "試験について考える",
+    "syn": [
+      "テストする",
+      "検査する",
+      "試す"
+    ]
   },
   {
     "id": "V2663",
@@ -41555,7 +41745,7 @@ const N3_VOCAB = [
       "id": "make a mistake"
     },
     "pos": "verb-ichidan",
-    "ex": "間違えることにする"
+    "ex": "答えを間違える"
   },
   {
     "id": "V2753",
@@ -41635,7 +41825,7 @@ const N3_VOCAB = [
       "id": "sudden"
     },
     "pos": "verb-godan",
-    "ex": "急ことにする"
+    "ex": "急な予定変更があった"
   },
   {
     "id": "V2758",
@@ -41865,7 +42055,7 @@ const N3_VOCAB = [
       "id": "all"
     },
     "pos": "verb-godan",
-    "ex": "全部ことにする"
+    "ex": "全部食べた"
   },
   {
     "id": "V2773",
@@ -44970,7 +45160,12 @@ const N3_VOCAB = [
       "id": "development"
     },
     "pos": "verb-godan",
-    "ex": "開発ことにする"
+    "ex": "開発ことにする",
+    "syn": [
+      "発展させる",
+      "創出する",
+      "作る"
+    ]
   },
   {
     "id": "V2980",
@@ -45210,7 +45405,12 @@ const N3_VOCAB = [
       "id": "to organize"
     },
     "pos": "verb-suru",
-    "ex": "整理することが大切だ"
+    "ex": "整理することが大切だ",
+    "syn": [
+      "片付ける",
+      "整頓する",
+      "分類する"
+    ]
   },
   {
     "id": "V2996",
@@ -45795,7 +45995,7 @@ const N3_VOCAB = [
       "id": "bitter"
     },
     "pos": "i-adj",
-    "ex": "とても苦いと思う"
+    "ex": "この薬は苦い"
   },
   {
     "id": "V3035",
@@ -48000,7 +48200,12 @@ const N3_VOCAB = [
       "id": "noisy"
     },
     "pos": "i-adj",
-    "ex": "とても騒がしいと思う"
+    "ex": "とても騒がしいと思う",
+    "syn": [
+      "うるさい",
+      "賑やか",
+      "喧騒"
+    ]
   },
   {
     "id": "V3182",
@@ -48930,7 +49135,7 @@ const N3_VOCAB = [
       "id": "storm"
     },
     "pos": "noun",
-    "ex": "嵐について考える"
+    "ex": "嵐の前の静けさだ"
   },
   {
     "id": "V3244",
@@ -53165,7 +53370,7 @@ const N3_VOCAB = [
       "id": "more than"
     },
     "pos": "verb-godan",
-    "ex": "以上ことにする"
+    "ex": "50人以上が参加した"
   },
   {
     "id": "V3525",
@@ -53180,7 +53385,7 @@ const N3_VOCAB = [
       "id": "less than"
     },
     "pos": "noun",
-    "ex": "以下について考える"
+    "ex": "100円以下の商品を探す"
   },
   {
     "id": "V3526",
@@ -53600,7 +53805,7 @@ const N3_VOCAB = [
       "id": "spring"
     },
     "pos": "verb-godan",
-    "ex": "春ことにする"
+    "ex": "春になると花が咲く"
   },
   {
     "id": "V3554",
@@ -53615,7 +53820,7 @@ const N3_VOCAB = [
       "id": "summer"
     },
     "pos": "verb-godan",
-    "ex": "夏ことにする"
+    "ex": "夏は暑い"
   },
   {
     "id": "V3555",
