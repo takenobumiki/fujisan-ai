@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>JLPT N4-18 模擬テスト</title>
+<style>
+:root {
+  --primary: #007aff;
+  --primary-dark: #0056b3;
+  --primary-light: #e5f2ff;
+  --bg-gradient: linear-gradient(135deg, #2193b0 0%, #6dd5ed 100%);
+  --header-gradient: linear-gradient(135deg, #1565c0 0%, #42a5f5 100%);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Yu Gothic', sans-serif;
+  background: var(--bg-gradient);
+  min-height: 100vh;
+  padding: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+.container {
+  max-width: 680px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+  overflow: hidden;
+}
+/* Header */
+.header {
+  background: var(--header-gradient);
+  color: #fff;
+  padding: 24px 20px;
+  text-align: center;
+}
+.header h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+  letter-spacing: 0.5px;
+}
+.header .subtitle {
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+/* Home Screen */
+.home-content { padding: 24px; }
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.stat-card {
+  background: var(--header-gradient);
+  color: #fff;
+  padding: 20px 12px;
+  border-radius: 16px;
+  text-align: center;
+}
+.stat-value {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.stat-label {
+  font-size: 0.75rem;
+  opacity: 0.9;
+  margin-top: 4px;
+}
+.home-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.btn:active { transform: scale(0.98); }
+.btn-primary {
+  background: var(--primary);
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 18px 48px;
+}
+.btn-primary:hover { background: var(--primary-dark); }
+.btn-secondary {
+  background: #f0f0f5;
+  color: #333;
+}
+.btn-secondary:hover { background: #e0e0e5; }
+.btn-danger {
+  background: #ff3b30;
+  color: #fff;
+}
+.btn-row {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* Test Screen */
+.test-header {
+  background: var(--header-gradient);
+  color: #fff;
+  padding: 16px 20px;
+}
+.test-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.test-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.timer {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.timer.warning { color: #ffcc00; }
+.timer.danger { color: #ff3b30; animation: blink 1s infinite; }
+@keyframes blink { 50% { opacity: 0.6; } }
+.progress-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.progress-bar {
+  flex: 1;
+  height: 6px;
+  background: rgba(255,255,255,0.3);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  background: #fff;
+  transition: width 0.3s ease;
+}
+.progress-text {
+  font-size: 0.85rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+/* Question */
+.question-container { padding: 20px; }
+.section-badge {
+  display: inline-block;
+  background: var(--primary-light);
+  color: var(--primary-dark);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.question-text {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+  padding: 16px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  border-left: 4px solid var(--primary);
+}
+.question-text u { 
+  text-decoration: none;
+  background: var(--primary-light);
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.options { display: flex; flex-direction: column; gap: 10px; }
+.option {
+  display: flex;
+  align-items: center;
+  padding: 14px 16px;
+  background: #fff;
+  border: 2px solid #e5e5ea;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.option:hover { border-color: var(--primary); background: var(--primary-light); }
+.option.selected { border-color: var(--primary); background: var(--primary-light); }
+.option.correct { border-color: #34c759; background: #e8f9ee; }
+.option.wrong { border-color: #ff3b30; background: #ffebea; }
+.option-label {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-right: 14px;
+  flex-shrink: 0;
+}
+.option.selected .option-label { background: var(--primary-dark); }
+.option.correct .option-label { background: #34c759; }
+.option.wrong .option-label { background: #ff3b30; }
+.option-text { flex: 1; font-size: 1rem; line-height: 1.5; }
+/* Navigation */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  background: #f8f9fa;
+  border-top: 1px solid #e5e5ea;
+}
+.nav-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.nav-btn-prev, .nav-btn-next {
+  background: var(--primary);
+  color: #fff;
+}
+.nav-btn-prev:hover, .nav-btn-next:hover { background: var(--primary-dark); }
+.nav-btn-submit {
+  background: #34c759;
+  color: #fff;
+  padding: 12px 24px;
+}
+.nav-btn-submit:hover { background: #2db350; }
+.nav-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+/* Results */
+.results-content { padding: 24px; }
+.score-card {
+  background: var(--header-gradient);
+  color: #fff;
+  padding: 32px 24px;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.score-value {
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+.score-detail {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+.pass-badge {
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-weight: 700;
+  margin-top: 12px;
+}
+.pass-badge.pass { background: #34c759; }
+.pass-badge.fail { background: #ff3b30; }
+/* Section Scores */
+.section-scores {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.section-score-card {
+  background: #f8f9fa;
+  padding: 16px;
+  border-radius: 12px;
+  text-align: center;
+  border-left: 4px solid var(--primary);
+}
+.section-score-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+.section-score-label {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 4px;
+}
+/* Answer Review */
+.review-section {
+  margin-top: 24px;
+}
+.review-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.review-toggle {
+  background: var(--primary-light);
+  color: var(--primary);
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 16px;
+}
+.answer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+.answer-item {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 16px;
+  border-left: 4px solid #34c759;
+}
+.answer-item.wrong {
+  border-left-color: #ff3b30;
+  background: #fff5f5;
+}
+.answer-q-num {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #666;
+  margin-bottom: 8px;
+}
+.answer-q-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+.answer-result {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.9rem;
+}
+.answer-your {
+  color: #ff3b30;
+}
+.answer-correct {
+  color: #34c759;
+  font-weight: 600;
+}
+/* Results Actions */
+.results-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 24px;
+}
+/* Audio Button */
+.audio-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 16px;
+  transition: all 0.2s;
+}
+.audio-btn:hover { background: var(--primary-dark); }
+.audio-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.audio-btn.playing { animation: pulse 1s infinite; }
+@keyframes pulse { 50% { opacity: 0.7; } }
+/* Utilities */
+.hidden { display: none !important; }
+/* Responsive */
+@media (max-width: 480px) {
+  body { padding: 8px; }
+  .header { padding: 20px 16px; }
+  .header h1 { font-size: 1.3rem; }
+  .stats-grid { gap: 8px; }
+  .stat-card { padding: 16px 8px; }
+  .stat-value { font-size: 1.6rem; }
+  .question-container { padding: 16px; }
+  .question-text { padding: 12px; font-size: 1rem; }
+  .option { padding: 12px 14px; }
+  .nav-bar { padding: 12px 16px; }
+  .nav-btn { padding: 10px 16px; font-size: 0.9rem; }
+  .score-value { font-size: 3rem; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <!-- Header -->
+  <div class="header">
+    <h1>🇯🇵 JLPT N4-18</h1>
+    <div class="subtitle">第18回模擬テスト | v2.0.0</div>
+  </div>
+
+  <!-- Home Screen -->
+  <div id="home" class="home-content">
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-value" id="stat-best">-%</div>
+        <div class="stat-label">最高スコア</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="stat-attempts">0</div>
+        <div class="stat-label">受験回数</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="stat-wrong">0</div>
+        <div class="stat-label">復習問題</div>
+      </div>
+    </div>
+    <div class="home-actions">
+      <button class="btn btn-primary" onclick="startTest()">📝 テスト開始</button>
+      <div class="btn-row">
+        <button class="btn btn-secondary" onclick="startReview()">📚 復習モード</button>
+        <button class="btn btn-danger" onclick="resetData()">🗑️ リセット</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Test Screen -->
+  <div id="test" class="hidden">
+    <div class="test-header">
+      <div class="test-top">
+        <div class="test-title" id="test-title">模擬テスト</div>
+        <div class="timer" id="timer">00:00</div>
+      </div>
+      <div class="progress-container">
+        <div class="progress-bar">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+        <div class="progress-text" id="progress-text">1 / 15</div>
+      </div>
+    </div>
+    <div class="question-container" id="question-container"></div>
+    <div class="nav-bar">
+      <button class="nav-btn nav-btn-prev" id="btn-prev" onclick="prevQ()">← 前へ</button>
+      <button class="nav-btn nav-btn-submit" id="btn-submit" onclick="submitTest()">採点する</button>
+      <button class="nav-btn nav-btn-next" id="btn-next" onclick="nextQ()">次へ →</button>
+    </div>
+  </div>
+
+  <!-- Results Screen -->
+  <div id="results" class="results-content hidden">
+    <div class="score-card">
+      <div class="score-value" id="score-value">0%</div>
+      <div class="score-detail" id="score-detail">0問正解 / 15問中</div>
+      <div class="pass-badge" id="pass-badge">合格</div>
+    </div>
+    <div class="section-scores" id="section-scores"></div>
+    <div class="review-section">
+      <button class="review-toggle" id="review-toggle" onclick="toggleAnswerList()">
+        📋 正誤一覧を表示
+      </button>
+      <div class="answer-list hidden" id="answer-list"></div>
+    </div>
+    <div class="results-actions">
+      <button class="btn btn-primary" onclick="reviewWrong()">❌ 間違えた問題を復習</button>
+      <button class="btn btn-secondary" onclick="startTest()">🔄 もう一度挑戦</button>
+      <button class="btn btn-secondary" onclick="goHome()">🏠 ホームに戻る</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// Test Data (will be replaced)
+const TEST = {"id":"N4-18","title":"N4模擬テスト 第18回","questions":[{"section":"言語知識（文字・語彙） - 漢字読み","text":"あには バスで 会社に （<u>寺</u>） います。","options":["たな","てら","せん","いし"],"answer":1},{"section":"言語知識（文字・語彙） - 漢字読み","text":"<u>相手</u> に 気をつけてください。","options":["りゆう","へらす","あいて","あげる"],"answer":2},{"section":"言語知識（文字・語彙） - 漢字読み","text":"先生に <u>払います</u> を 聞きました。","options":["いんしょう","そだてます","きこえます","はらいます"],"answer":3},{"section":"言語知識（文字・語彙） - 漢字読み","text":"毎日 <u>聞こえます</u> しています。","options":["くらべます","きこえます","ふくしゅう","つたえます"],"answer":1},{"section":"言語知識（文字・語彙） - 漢字読み","text":"毎日 <u>社長</u> しています。","options":["ふくしゅう","くらべます","しょうがつ","しゃちょう"],"answer":3},{"section":"言語知識（文字・語彙） - 漢字読み","text":"毎日 <u>条件</u> しています。","options":["そだてます","きこえます","じょうけん","ふくしゅう"],"answer":2},{"section":"言語知識（文字・語彙） - 漢字読み","text":"先生に <u>市役所</u> を 聞きました。","options":["きこえます","しやくしょ","はこびます","つたえます"],"answer":1},{"section":"言語知識（文字・語彙） - 漢字読み","text":"この <u>売る</u> は とても 便利です。","options":["はこ","いと","うる","れい"],"answer":2},{"section":"言語知識（文字・語彙） - 漢字読み","text":"先生に <u>建築</u> を 聞きました。","options":["まにあう","けんちく","とくべつ","たります"],"answer":1},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>かえす</u>） います。","options":["慣れる","返す","売り場","続ける"],"answer":1},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>あつめる</u>） います。","options":["探す","集める","続ける","慣れる"],"answer":1},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>なれる</u>） います。","options":["壊れる","売り場","落とす","慣れる"],"answer":3},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>かす</u>） います。","options":["売り場","壊れる","貸す","落とす"],"answer":2},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>はらいます</u>） います。","options":["拾う","決まる","集める","払います"],"answer":3},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>うごかす</u>） います。","options":["壊れる","動かす","集める","売り場"],"answer":1},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>はらう</u>） います。","options":["払う","拾う","売り場","落とす"],"answer":0},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>あつまる</u>） います。","options":["慣れる","集まる","落とす","探す"],"answer":1},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>かわる</u>） います。","options":["落とす","決まる","壊れる","変わる"],"answer":3},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>うけとる</u>） います。","options":["探す","壊れる","受け取る","売り場"],"answer":2},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>とめる</u>） います。","options":["落とす","集める","止める","売り場"],"answer":2},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>しらべる</u>） います。","options":["慣れる","決まる","壊れる","調べる"],"answer":3},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>とどける</u>） います。","options":["届ける","続ける","落とす","慣れる"],"answer":0},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>みえる</u>） います。","options":["壊れる","慣れる","受ける","見える"],"answer":3},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>おちる</u>） います。","options":["決まる","慣れる","落ちる","続ける"],"answer":2},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>つづく</u>） います。","options":["落とす","慣れる","拾う","続く"],"answer":3},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>おとす</u>） います。","options":["落とす","拾う","壊れる","続ける"],"answer":0},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>すてる</u>） います。","options":["捨てる","慣れる","拾う","探す"],"answer":0},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>うる</u>） います。","options":["続ける","売る","集める","落とす"],"answer":1},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>かよいます</u>） います。","options":["慣れる","通います","壊れる","受ける"],"answer":1},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>おす</u>） います。","options":["壊れる","押す","集める","慣れる"],"answer":1},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>おくる</u>） います。","options":["落とす","壊れる","送る","決まる"],"answer":2},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>わかれる</u>） います。","options":["別れる","集める","拾う","決まる"],"answer":0},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>ふえる</u>） います。","options":["探す","拾う","売り場","増える"],"answer":3},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>そだてる</u>） います。","options":["受ける","拾う","育てる","落とす"],"answer":2},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>てつだう</u>） います。","options":["受ける","手伝う","続ける","集める"],"answer":1},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>さがす</u>） います。","options":["慣れる","探す","壊れる","落ちる"],"answer":1},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>とまる</u>） います。","options":["止まる","落とす","決まる","集める"],"answer":0},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>ひろう</u>） います。","options":["拾う","慣れる","壊れる","続ける"],"answer":0},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>なおる</u>） います。","options":["探す","直る","壊れる","受ける"],"answer":1},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>こわれる</u>） います。","options":["壊れる","探す","受ける","落ちる"],"answer":0},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>とどく</u>） います。","options":["届く","探す","受ける","集める"],"answer":0},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>みつかる</u>） います。","options":["落とす","決まる","続ける","見つかる"],"answer":3},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>うごく</u>） います。","options":["慣れる","動く","受ける","続ける"],"answer":1},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>かりる</u>） います。","options":["慣れる","壊れる","借りる","続ける"],"answer":2},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>へる</u>） います。","options":["続ける","拾う","慣れる","減る"],"answer":3},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>うまれる</u>） います。","options":["集める","生まれる","拾う","壊れる"],"answer":1},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>つづける</u>） います。","options":["探す","拾う","続ける","集める"],"answer":2},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>へんじ</u>） います。","options":["集める","返事","受ける","慣れる"],"answer":1},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>きめる</u>） います。","options":["決める","慣れる","受ける","続ける"],"answer":0},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>ひく</u>） います。","options":["拾う","決まる","引く","集める"],"answer":2},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>かえる</u>） います。","options":["変える","決まる","落とす","探す"],"answer":0},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>おくります</u>） います。","options":["慣れる","探す","続ける","送ります"],"answer":3},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>うける</u>） います。","options":["受ける","集める","拾う","探す"],"answer":0},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>うりば</u>） います。","options":["売り場","落とす","慣れる","落ちる"],"answer":0},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>あがる</u>） います。","options":["慣れる","探す","上がる","壊れる"],"answer":2},{"section":"言語知識（文字・語彙） - 表記","text":"きょうは かいしゃに （<u>うんてん</u>） います。","options":["探す","運転","売り場","集める"],"answer":1},{"section":"言語知識（文字・語彙） - 文脈規定","text":"スーパーで もらった （　） を 見ると、何を 買ったか わかります。","options":["レジ","さいふ","レシート","おつり"],"answer":2},{"section":"言語知識（文字・語彙） - 文脈規定","text":"この 料理の （　） は スーパーで 買えます。","options":["商品","材料","製品","道具"],"answer":1},{"section":"言語知識（文字・語彙） - 文脈規定","text":"スーパーで もらった （　） を 見ると、何を 買ったか わかります。","options":["レシート","おつり","レジ","さいふ"],"answer":0},{"section":"言語知識（文字・語彙） - 文脈規定","text":"この 料理の （　） は スーパーで 買えます。","options":["道具","材料","製品","商品"],"answer":1},{"section":"言語知識（文字・語彙） - 文脈規定","text":"困ったことが あったら、先生に （　） してください。","options":["連絡","相談","質問","説明"],"answer":1},{"section":"言語知識（文字・語彙） - 文脈規定","text":"スーパーで もらった （　） を 見ると、何を 買ったか わかります。","options":["さいふ","レジ","レシート","おつり"],"answer":2},{"section":"言語知識（文字・語彙） - 文脈規定","text":"海外で 働いた （　） が あります。","options":["経験","期間","時間","予定"],"answer":0},{"section":"言語知識（文字・語彙） - 文脈規定","text":"道が （　） していて、遅れました。","options":["工事","混雑","事故","渋滞"],"answer":3},{"section":"言語知識（文字・語彙） - 文脈規定","text":"料理を 作るのに （　） が 必要です。","options":["袋","材料","容器","道具"],"answer":3},{"section":"言語知識（文字・語彙） - 文脈規定","text":"困ったことが あったら、先生に （　） してください。","options":["質問","連絡","相談","説明"],"answer":2},{"section":"言語知識（文字・語彙） - 言い換え類義","text":"天気が かわりました。","options":["続く","止まる","変わる","決まる"],"answer":2},{"section":"言語知識（文字・語彙） - 言い換え類義","text":"天気が かわりました。","options":["続く","変わる","止まる","決まる"],"answer":1},{"section":"言語知識（文字・語彙） - 言い換え類義","text":"辞書で 意味を しらべました。","options":["答える","調べる","教える","聞く"],"answer":1},{"section":"言語知識（文字・語彙） - 言い換え類義","text":"天気が かわりました。","options":["止まる","変わる","続く","決まる"],"answer":1},{"section":"言語知識（文字・語彙） - 言い換え類義","text":"毎日 運動を つづけて います。","options":["始める","やめる","続ける","終わる"],"answer":2},{"section":"言語知識（文字・語彙） - 用法","text":"「予約」の使い方で正しいものは？","options":["宿題を 予約しました。","映画を 予約しました。","レストランを 予約しました。","買い物を 予約しました。"],"answer":2},{"section":"言語知識（文字・語彙） - 用法","text":"「届く」の使い方で正しいものは？","options":["電車が 届いたら、乗ってください。","友達が 届いたら、案内してください。","荷物が 届いたら、連絡してください。","バスが 届いたら、降りてください。"],"answer":2},{"section":"言語知識（文字・語彙） - 用法","text":"「住所」の使い方で正しいものは？","options":["わたしに Eメールの 住所を おしえてください。","あしたの かいぎの 住所は 5かいです。","としょかんの となりの 住所は ゆうびんきょくです。","ここに あなたの うちの 住所を 書いてください。"],"answer":3},{"section":"言語知識（文字・語彙） - 用法","text":"「住所」の使い方で正しいものは？","options":["わたしに Eメールの 住所を おしえてください。","ここに あなたの うちの 住所を 書いてください。","としょかんの となりの 住所は ゆうびんきょくです。","あしたの かいぎの 住所は 5かいです。"],"answer":1},{"section":"言語知識（文字・語彙） - 用法","text":"「片付ける」の使い方で正しいものは？","options":["本を 片付けてから、読みます。","料理を 片付けてから、食べます。","部屋を 片付けてから、出かけます。","服を 片付けてから、着ます。"],"answer":2},{"section":"言語知識（文法）・読解 - 文法形式の判断","text":"電車が （　）、遅刻しました。","options":["遅れるので","遅れたので","遅れそうなので","遅れているので"],"answer":1},{"section":"言語知識（文法）・読解 - 文法形式の判断","text":"薬を （　）、熱が 下がりました。","options":["飲むと","飲めば","飲んでから","飲んだら"],"answer":3},{"section":"言語知識（文法）・読解 - 文法形式の判断","text":"先生に 漢字を （　）。","options":["教えてくださいました","教えてさしあげました","教えてもらいました","教えていただきました"],"answer":3},{"section":"言語知識（文法）・読解 - 文法形式の判断","text":"明日 （　） 行きます。","options":["必ず","きっと","たぶん","もしかしたら"],"answer":0},{"section":"言語知識（文法）・読解 - 文法形式の判断","text":"薬を （　）、熱が 下がりました。","options":["飲めば","飲むと","飲んだら","飲んでから"],"answer":2},{"section":"言語知識（文法）・読解 - 文法形式の判断","text":"日本語が （　） なりました。","options":["話すように","話したように","話せるように","話しているように"],"answer":2},{"section":"言語知識（文法）・読解 - 文法形式の判断","text":"日本語が （　） なりました。","options":["話したように","話しているように","話せるように","話すように"],"answer":2},{"section":"言語知識（文法）・読解 - 文法形式の判断","text":"友達に 本を （　）。","options":["貸してくれました","貸してもらいました","貸してあげました","貸していました"],"answer":2},{"section":"言語知識（文法）・読解 - 文法形式の判断","text":"電話が （　） 出られませんでした。","options":["鳴れば","鳴っても","鳴ると","鳴ったら"],"answer":1},{"section":"言語知識（文法）・読解 - 文法形式の判断","text":"部長に 資料を （　）。","options":["見せてさしあげました","見せてあげました","お見せになりました","お見せしました"],"answer":3},{"section":"言語知識（文法）・読解 - 文法形式の判断","text":"薬を （　）、熱が 下がりました。","options":["飲めば","飲んでから","飲むと","飲んだら"],"answer":3},{"section":"言語知識（文法）・読解 - 文法形式の判断","text":"電車が （　）、遅刻しました。","options":["遅れたので","遅れるので","遅れそうなので","遅れているので"],"answer":0},{"section":"言語知識（文法）・読解 - 文法形式の判断","text":"もっと （　） 説明してください。","options":["分かりやすく","分かりやすくて","分かりやすいに","分かりやすい"],"answer":0},{"section":"言語知識（文法）・読解 - 文法形式の判断","text":"雨が （　）、傘を 持っていきます。","options":["降っているそうなので","降るそうなので","降りそうなので","降ったそうなので"],"answer":2},{"section":"言語知識（文法）・読解 - 文法形式の判断","text":"もっと （　） 説明してください。","options":["分かりやすくて","分かりやすい","分かりやすく","分かりやすいに"],"answer":2},{"section":"言語知識（文法）・読解 - 文の組み立て","text":"この 本は ＿＿ ＿＿ ★ ＿＿ です。<br>【語句】1.やすく / 2.て / 3.読み / 4.とても","options":["1","2","3","4"],"answer":2},{"section":"言語知識（文法）・読解 - 文の組み立て","text":"先生に ＿＿ ＿＿ ★ ＿＿ もらいました。<br>【語句】1.間違いを / 2.読んで / 3.作文を / 4.直して","options":["1","2","3","4"],"answer":2},{"section":"言語知識（文法）・読解 - 文の組み立て","text":"この 本は ＿＿ ＿＿ ★ ＿＿ です。<br>【語句】1.て / 2.やすく / 3.とても / 4.読み","options":["1","2","3","4"],"answer":2},{"section":"言語知識（文法）・読解 - 文の組み立て","text":"＿＿ ＿＿ ★ ＿＿ 帰りました。<br>【語句】1.から / 2.すぐ / 3.終わって / 4.仕事が","options":["1","2","3","4"],"answer":2},{"section":"言語知識（文法）・読解 - 文の組み立て","text":"＿＿ ＿＿ ★ ＿＿ 帰りました。<br>【語句】1.すぐ / 2.仕事が / 3.終わって / 4.から","options":["1","2","3","4"],"answer":2},{"section":"言語知識（文法）・読解 - 文章の文法","text":"【文章】<br>先週の 日曜日、友達と 一緒に 山に 登りました。朝 早く 起きて、電車で 山の 近くまで 行きました。\n天気が とても （　①　）、景色が きれいでした。山の 上で お弁当を 食べました。\n帰りは 少し 疲れましたが、（　②　） 楽しかったです。また 行きたいと 思います。\n来月は もっと 高い 山に （　③　） つもりです。友達も 一緒に 行くと 言っていました。\n山登りは 体に （　④　） し、気持ちも リフレッシュできるので、とても いい 趣味だと 思います。<br><br>","options":["よかったので","よくて","よいから","よければ"],"answer":1},{"section":"言語知識（文法）・読解 - 文章の文法","text":"【文章】<br>先週の 日曜日、友達と 一緒に 山に 登りました。朝 早く 起きて、電車で 山の 近くまで 行きました。\n天気が とても （　①　）、景色が きれいでした。山の 上で お弁当を 食べました。\n帰りは 少し 疲れましたが、（　②　） 楽しかったです。また 行きたいと 思います。\n来月は もっと 高い 山に （　③　） つもりです。友達も 一緒に 行くと 言っていました。\n山登りは 体に （　④　） し、気持ちも リフレッシュできるので、とても いい 趣味だと 思います。<br><br>","options":["とても","あまり","ぜんぜん","ほとんど"],"answer":0},{"section":"言語知識（文法）・読解 - 文章の文法","text":"【文章】<br>先週の 日曜日、友達と 一緒に 山に 登りました。朝 早く 起きて、電車で 山の 近くまで 行きました。\n天気が とても （　①　）、景色が きれいでした。山の 上で お弁当を 食べました。\n帰りは 少し 疲れましたが、（　②　） 楽しかったです。また 行きたいと 思います。\n来月は もっと 高い 山に （　③　） つもりです。友達も 一緒に 行くと 言っていました。\n山登りは 体に （　④　） し、気持ちも リフレッシュできるので、とても いい 趣味だと 思います。<br><br>","options":["登る","登って","登ろう","登った"],"answer":2},{"section":"言語知識（文法）・読解 - 文章の文法","text":"【文章】<br>先週の 日曜日、友達と 一緒に 山に 登りました。朝 早く 起きて、電車で 山の 近くまで 行きました。\n天気が とても （　①　）、景色が きれいでした。山の 上で お弁当を 食べました。\n帰りは 少し 疲れましたが、（　②　） 楽しかったです。また 行きたいと 思います。\n来月は もっと 高い 山に （　③　） つもりです。友達も 一緒に 行くと 言っていました。\n山登りは 体に （　④　） し、気持ちも リフレッシュできるので、とても いい 趣味だと 思います。<br><br>","options":["いい","よく","よくて","いいの"],"answer":0},{"section":"言語知識（文法）・読解 - 文章の文法","text":"【文章】<br>先週の 日曜日、友達と 一緒に 山に 登りました。朝 早く 起きて、電車で 山の 近くまで 行きました。\n天気が とても （　①　）、景色が きれいでした。山の 上で お弁当を 食べました。\n帰りは 少し 疲れましたが、（　②　） 楽しかったです。また 行きたいと 思います。\n来月は もっと 高い 山に （　③　） つもりです。友達も 一緒に 行くと 言っていました。\n山登りは 体に （　④　） し、気持ちも リフレッシュできるので、とても いい 趣味だと 思います。<br><br>","options":["から","ので","のに","けど"],"answer":1},{"section":"言語知識（文法）・読解 - 読解","text":"【文章】<br>私は 毎朝 6時に 起きます。起きてから すぐ シャワーを 浴びて、朝ごはんを 食べます。\n7時半に 家を 出て、8時に 会社に 着きます。会社まで 電車で 30分 かかります。<br><br>この 人は 何時に 家を 出ますか。","options":["6時","7時","7時半","8時"],"answer":2},{"section":"言語知識（文法）・読解 - 読解","text":"【文章】<br>私は 毎朝 6時に 起きます。起きてから すぐ シャワーを 浴びて、朝ごはんを 食べます。\n7時半に 家を 出て、8時に 会社に 着きます。会社まで 電車で 30分 かかります。<br><br>この 人は 何時に 家を 出ますか。","options":["6時","7時","7時半","8時"],"answer":2},{"section":"言語知識（文法）・読解 - 読解","text":"【文章】<br>私は 毎朝 6時に 起きます。起きてから すぐ シャワーを 浴びて、朝ごはんを 食べます。\n7時半に 家を 出て、8時に 会社に 着きます。会社まで 電車で 30分 かかります。<br><br>この 人は 何時に 家を 出ますか。","options":["6時","7時","7時半","8時"],"answer":2},{"section":"言語知識（文法）・読解 - 読解","text":"【文章】<br>私は 毎朝 6時に 起きます。起きてから すぐ シャワーを 浴びて、朝ごはんを 食べます。\n7時半に 家を 出て、8時に 会社に 着きます。会社まで 電車で 30分 かかります。<br><br>この 人は 何時に 家を 出ますか。","options":["6時","7時","7時半","8時"],"answer":2},{"section":"言語知識（文法）・読解 - 読解","text":"【文章】<br>【日本語教室の お知らせ】\n【クラス】\n初級クラス：月・水曜日 10:00～12:00\n中級クラス：火・木曜日 14:00～16:00\n上級クラス：金曜日 18:00～20:00\n\n【料金】1か月 12,000円\n【場所】市民センター 3階\n【申し込み】電話または メールで<br><br>初級クラスは いつですか。","options":["月・水曜日","火・木曜日","金曜日","土曜日"],"answer":0},{"section":"言語知識（文法）・読解 - 読解","text":"【文章】<br>【日本語教室の お知らせ】\n【クラス】\n初級クラス：月・水曜日 10:00～12:00\n中級クラス：火・木曜日 14:00～16:00\n上級クラス：金曜日 18:00～20:00\n\n【料金】1か月 12,000円\n【場所】市民センター 3階\n【申し込み】電話または メールで<br><br>料金は いくらですか。","options":["10,000円","12,000円","14,000円","16,000円"],"answer":1},{"section":"聴解 - 課題理解","text":"【場面】かいしゃで おとこのひとと おんなのひとが はなしています。おとこのひとは このあと なにを しますか。<br><br>おとこのひとは このあと なにを しますか。","options":["しりょうを こぴーする","ぶちょうに でんわする","かいぎに いく","なにも しない"],"answer":3,"audio":"M: すみません、この しりょう、あした の かいぎで つかいたいんですが。\nF: はい、なんぶ ひつようですか。\nM: 10ぶ おねがいします。\nF: わかりました。こぴーして おきますね。\nM: ありがとうございます。あ、それから、ぶちょうに でんわしてくださいますか。\nF: はい、わかりました。"},{"section":"聴解 - 課題理解","text":"【場面】かいしゃで おとこのひとと おんなのひとが はなしています。おとこのひとは このあと なにを しますか。<br><br>おとこのひとは このあと なにを しますか。","options":["しりょうを こぴーする","ぶちょうに でんわする","かいぎに いく","なにも しない"],"answer":3,"audio":"M: すみません、この しりょう、あした の かいぎで つかいたいんですが。\nF: はい、なんぶ ひつようですか。\nM: 10ぶ おねがいします。\nF: わかりました。こぴーして おきますね。\nM: ありがとうございます。あ、それから、ぶちょうに でんわしてくださいますか。\nF: はい、わかりました。"},{"section":"聴解 - 課題理解","text":"【場面】かいしゃで おとこのひとと おんなのひとが はなしています。おとこのひとは このあと なにを しますか。<br><br>おとこのひとは このあと なにを しますか。","options":["しりょうを こぴーする","ぶちょうに でんわする","かいぎに いく","なにも しない"],"answer":3,"audio":"M: すみません、この しりょう、あした の かいぎで つかいたいんですが。\nF: はい、なんぶ ひつようですか。\nM: 10ぶ おねがいします。\nF: わかりました。こぴーして おきますね。\nM: ありがとうございます。あ、それから、ぶちょうに でんわしてくださいますか。\nF: はい、わかりました。"},{"section":"聴解 - 課題理解","text":"【場面】かいしゃで おとこのひとと おんなのひとが はなしています。おとこのひとは このあと なにを しますか。<br><br>おとこのひとは このあと なにを しますか。","options":["しりょうを こぴーする","ぶちょうに でんわする","かいぎに いく","なにも しない"],"answer":3,"audio":"M: すみません、この しりょう、あした の かいぎで つかいたいんですが。\nF: はい、なんぶ ひつようですか。\nM: 10ぶ おねがいします。\nF: わかりました。こぴーして おきますね。\nM: ありがとうございます。あ、それから、ぶちょうに でんわしてくださいますか。\nF: はい、わかりました。"},{"section":"聴解 - 課題理解","text":"【場面】かいしゃで おとこのひとと おんなのひとが はなしています。おとこのひとは このあと なにを しますか。<br><br>おとこのひとは このあと なにを しますか。","options":["しりょうを こぴーする","ぶちょうに でんわする","かいぎに いく","なにも しない"],"answer":3,"audio":"M: すみません、この しりょう、あした の かいぎで つかいたいんですが。\nF: はい、なんぶ ひつようですか。\nM: 10ぶ おねがいします。\nF: わかりました。こぴーして おきますね。\nM: ありがとうございます。あ、それから、ぶちょうに でんわしてくださいますか。\nF: はい、わかりました。"},{"section":"聴解 - 課題理解","text":"【場面】かいしゃで おとこのひとと おんなのひとが はなしています。おとこのひとは このあと なにを しますか。<br><br>おとこのひとは このあと なにを しますか。","options":["しりょうを こぴーする","ぶちょうに でんわする","かいぎに いく","なにも しない"],"answer":3,"audio":"M: すみません、この しりょう、あした の かいぎで つかいたいんですが。\nF: はい、なんぶ ひつようですか。\nM: 10ぶ おねがいします。\nF: わかりました。こぴーして おきますね。\nM: ありがとうございます。あ、それから、ぶちょうに でんわしてくださいますか。\nF: はい、わかりました。"},{"section":"聴解 - 課題理解","text":"【場面】かいしゃで おとこのひとと おんなのひとが はなしています。おとこのひとは このあと なにを しますか。<br><br>おとこのひとは このあと なにを しますか。","options":["しりょうを こぴーする","ぶちょうに でんわする","かいぎに いく","なにも しない"],"answer":3,"audio":"M: すみません、この しりょう、あした の かいぎで つかいたいんですが。\nF: はい、なんぶ ひつようですか。\nM: 10ぶ おねがいします。\nF: わかりました。こぴーして おきますね。\nM: ありがとうございます。あ、それから、ぶちょうに でんわしてくださいますか。\nF: はい、わかりました。"},{"section":"聴解 - 課題理解","text":"【場面】かいしゃで おとこのひとと おんなのひとが はなしています。おとこのひとは このあと なにを しますか。<br><br>おとこのひとは このあと なにを しますか。","options":["しりょうを こぴーする","ぶちょうに でんわする","かいぎに いく","なにも しない"],"answer":3,"audio":"M: すみません、この しりょう、あした の かいぎで つかいたいんですが。\nF: はい、なんぶ ひつようですか。\nM: 10ぶ おねがいします。\nF: わかりました。こぴーして おきますね。\nM: ありがとうございます。あ、それから、ぶちょうに でんわしてくださいますか。\nF: はい、わかりました。"},{"section":"聴解 - ポイント理解","text":"おとこのひとは どうして おくれましたか。","options":["じこが あったから","でんしゃが おくれたから","ねぼうしたから","みちに まよったから"],"answer":1,"audio":"F: おそいですね。なにか あったんですか。\nM: すみません。でんしゃが じこで とまってしまって。\nF: そうですか、たいへんでしたね。\nM: はい、30ぷんも まちました。"},{"section":"聴解 - ポイント理解","text":"おとこのひとは どうして おくれましたか。","options":["じこが あったから","でんしゃが おくれたから","ねぼうしたから","みちに まよったから"],"answer":1,"audio":"F: おそいですね。なにか あったんですか。\nM: すみません。でんしゃが じこで とまってしまって。\nF: そうですか、たいへんでしたね。\nM: はい、30ぷんも まちました。"},{"section":"聴解 - ポイント理解","text":"おとこのひとは どうして おくれましたか。","options":["じこが あったから","でんしゃが おくれたから","ねぼうしたから","みちに まよったから"],"answer":1,"audio":"F: おそいですね。なにか あったんですか。\nM: すみません。でんしゃが じこで とまってしまって。\nF: そうですか、たいへんでしたね。\nM: はい、30ぷんも まちました。"},{"section":"聴解 - ポイント理解","text":"おとこのひとは どうして おくれましたか。","options":["じこが あったから","でんしゃが おくれたから","ねぼうしたから","みちに まよったから"],"answer":1,"audio":"F: おそいですね。なにか あったんですか。\nM: すみません。でんしゃが じこで とまってしまって。\nF: そうですか、たいへんでしたね。\nM: はい、30ぷんも まちました。"},{"section":"聴解 - ポイント理解","text":"おとこのひとは どうして おくれましたか。","options":["じこが あったから","でんしゃが おくれたから","ねぼうしたから","みちに まよったから"],"answer":1,"audio":"F: おそいですね。なにか あったんですか。\nM: すみません。でんしゃが じこで とまってしまって。\nF: そうですか、たいへんでしたね。\nM: はい、30ぷんも まちました。"},{"section":"聴解 - ポイント理解","text":"おとこのひとは どうして おくれましたか。","options":["じこが あったから","でんしゃが おくれたから","ねぼうしたから","みちに まよったから"],"answer":1,"audio":"F: おそいですね。なにか あったんですか。\nM: すみません。でんしゃが じこで とまってしまって。\nF: そうですか、たいへんでしたね。\nM: はい、30ぷんも まちました。"},{"section":"聴解 - ポイント理解","text":"おとこのひとは どうして おくれましたか。","options":["じこが あったから","でんしゃが おくれたから","ねぼうしたから","みちに まよったから"],"answer":1,"audio":"F: おそいですね。なにか あったんですか。\nM: すみません。でんしゃが じこで とまってしまって。\nF: そうですか、たいへんでしたね。\nM: はい、30ぷんも まちました。"},{"section":"聴解 - 発話表現","text":"【場面】ともだちの いえに いきました。げんかんで おかあさんに あいさつします。<br><br>","options":["おじゃまします","いらっしゃいませ","ただいま"],"answer":0,"audio":"あなたは ともだちの いえに いきました。げんかんで ともだちの おかあさんが でてきました。"},{"section":"聴解 - 発話表現","text":"【場面】ともだちの いえに いきました。げんかんで おかあさんに あいさつします。<br><br>","options":["おじゃまします","いらっしゃいませ","ただいま"],"answer":0,"audio":"あなたは ともだちの いえに いきました。げんかんで ともだちの おかあさんが でてきました。"},{"section":"聴解 - 発話表現","text":"【場面】ともだちの いえに いきました。げんかんで おかあさんに あいさつします。<br><br>","options":["おじゃまします","いらっしゃいませ","ただいま"],"answer":0,"audio":"あなたは ともだちの いえに いきました。げんかんで ともだちの おかあさんが でてきました。"},{"section":"聴解 - 発話表現","text":"【場面】ともだちの いえに いきました。げんかんで おかあさんに あいさつします。<br><br>","options":["おじゃまします","いらっしゃいませ","ただいま"],"answer":0,"audio":"あなたは ともだちの いえに いきました。げんかんで ともだちの おかあさんが でてきました。"},{"section":"聴解 - 発話表現","text":"【場面】ともだちの いえに いきました。げんかんで おかあさんに あいさつします。<br><br>","options":["おじゃまします","いらっしゃいませ","ただいま"],"answer":0,"audio":"あなたは ともだちの いえに いきました。げんかんで ともだちの おかあさんが でてきました。"},{"section":"聴解 - 即時応答","text":"","options":["そうですね","いいえ、あめです","はい、さむいです"],"answer":0,"audio":"F: きょうは いい てんきですね。"},{"section":"聴解 - 即時応答","text":"","options":["そうですね","いいえ、あめです","はい、さむいです"],"answer":0,"audio":"F: きょうは いい てんきですね。"},{"section":"聴解 - 即時応答","text":"","options":["そうですね","いいえ、あめです","はい、さむいです"],"answer":0,"audio":"F: きょうは いい てんきですね。"},{"section":"聴解 - 即時応答","text":"","options":["そうですね","いいえ、あめです","はい、さむいです"],"answer":0,"audio":"F: きょうは いい てんきですね。"},{"section":"聴解 - 即時応答","text":"","options":["そうですね","いいえ、あめです","はい、さむいです"],"answer":0,"audio":"F: きょうは いい てんきですね。"},{"section":"聴解 - 即時応答","text":"","options":["そうですね","いいえ、あめです","はい、さむいです"],"answer":0,"audio":"F: きょうは いい てんきですね。"},{"section":"聴解 - 即時応答","text":"","options":["そうですね","いいえ、あめです","はい、さむいです"],"answer":0,"audio":"F: きょうは いい てんきですね。"},{"section":"聴解 - 即時応答","text":"","options":["そうですね","いいえ、あめです","はい、さむいです"],"answer":0,"audio":"F: きょうは いい てんきですね。"}]};
+const LEVEL = "N4";
+const TIME_LIMIT = 1800; // seconds
+const PASS_SCORE = 60; // percent
+const STORAGE_KEY = "fujisan_mock_v200_N4_18";
+
+// State
+let currentQ = 0;
+let answers = {};
+let startTime = null;
+let timerInterval = null;
+let isReview = false;
+let questions = [];
+let testResults = null;
+
+// Init
+function init() {
+  loadStats();
+}
+
+function loadStats() {
+  const data = getData();
+  document.getElementById('stat-best').textContent = data.best !== null ? data.best + '%' : '-%';
+  document.getElementById('stat-attempts').textContent = data.attempts || 0;
+  document.getElementById('stat-wrong').textContent = (data.wrongQuestions || []).length;
+}
+
+function getData() {
+  const saved = localStorage.getItem(STORAGE_KEY);
+  return saved ? JSON.parse(saved) : { best: null, attempts: 0, wrongQuestions: [] };
+}
+
+function saveData(data) {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+}
+
+// Start Test
+function startTest() {
+  currentQ = 0;
+  answers = {};
+  isReview = false;
+  questions = [...TEST.questions];
+  testResults = null;
+  
+  showScreen('test');
+  document.getElementById('test-title').textContent = TEST.title;
+  
+  startTime = Date.now();
+  updateTimer();
+  timerInterval = setInterval(updateTimer, 1000);
+  
+  renderQuestion();
+}
+
+function startReview() {
+  const data = getData();
+  if (!data.wrongQuestions || data.wrongQuestions.length === 0) {
+    alert('復習する問題がありません！');
+    return;
+  }
+  
+  currentQ = 0;
+  answers = {};
+  isReview = true;
+  questions = data.wrongQuestions.map((q, i) => ({...q, originalIndex: q.index}));
+  testResults = null;
+  
+  showScreen('test');
+  document.getElementById('test-title').textContent = '📚 復習モード';
+  document.getElementById('timer').textContent = '復習中';
+  
+  if (timerInterval) clearInterval(timerInterval);
+  timerInterval = null;
+  
+  renderQuestion();
+}
+
+// Timer
+function updateTimer() {
+  const elapsed = Math.floor((Date.now() - startTime) / 1000);
+  const remaining = TIME_LIMIT - elapsed;
+  
+  const timerEl = document.getElementById('timer');
+  
+  if (remaining <= 0) {
+    clearInterval(timerInterval);
+    timerEl.textContent = '00:00';
+    timerEl.classList.add('danger');
+    submitTest();
+    return;
+  }
+  
+  const mins = Math.floor(remaining / 60);
+  const secs = remaining % 60;
+  timerEl.textContent = String(mins).padStart(2, '0') + ':' + String(secs).padStart(2, '0');
+  
+  timerEl.classList.remove('warning', 'danger');
+  if (remaining <= 60) {
+    timerEl.classList.add('danger');
+  } else if (remaining <= 180) {
+    timerEl.classList.add('warning');
+  }
+}
+
+// Render Question
+function renderQuestion() {
+  const q = questions[currentQ];
+  const container = document.getElementById('question-container');
+  
+  // Progress
+  document.getElementById('progress-fill').style.width = ((currentQ + 1) / questions.length * 100) + '%';
+  document.getElementById('progress-text').textContent = (currentQ + 1) + ' / ' + questions.length;
+  
+  // Navigation buttons
+  document.getElementById('btn-prev').disabled = currentQ === 0;
+  document.getElementById('btn-next').disabled = currentQ === questions.length - 1;
+  
+  // Question
+  let html = '<div class="section-badge">' + (q.section || '問題') + '</div>';
+  
+  // Audio button for listening
+  if (q.audio) {
+    html += '<button class="audio-btn" id="audio-btn" onclick="playAudio()">🔊 音声を再生</button>';
+  }
+  
+  html += '<div class="question-text">' + q.text + '</div>';
+  html += '<div class="options">';
+  
+  q.options.forEach((opt, i) => {
+    const selected = answers[currentQ] === i ? 'selected' : '';
+    html += '<div class="option ' + selected + '" onclick="selectAnswer(' + i + ')">';
+    html += '<span class="option-label">' + (i + 1) + '</span>';
+    html += '<span class="option-text">' + opt + '</span>';
+    html += '</div>';
+  });
+  
+  html += '</div>';
+  container.innerHTML = html;
+}
+
+function selectAnswer(index) {
+  answers[currentQ] = index;
+  renderQuestion();
+}
+
+function prevQ() {
+  if (currentQ > 0) {
+    currentQ--;
+    renderQuestion();
+  }
+}
+
+function nextQ() {
+  if (currentQ < questions.length - 1) {
+    currentQ++;
+    renderQuestion();
+  }
+}
+
+// Audio
+let isPlaying = false;
+function playAudio() {
+  if (isPlaying) return;
+  const q = questions[currentQ];
+  if (!q.audio) return;
+  
+  const btn = document.getElementById('audio-btn');
+  btn.disabled = true;
+  btn.classList.add('playing');
+  btn.textContent = '🔊 再生中...';
+  isPlaying = true;
+  
+  speechSynthesis.cancel();
+  const utterance = new SpeechSynthesisUtterance(q.audio);
+  utterance.lang = 'ja-JP';
+  utterance.rate = 0.9;
+  
+  utterance.onend = () => {
+    btn.disabled = false;
+    btn.classList.remove('playing');
+    btn.textContent = '🔊 もう一度再生';
+    isPlaying = false;
+  };
+  
+  utterance.onerror = () => {
+    btn.disabled = false;
+    btn.classList.remove('playing');
+    btn.textContent = '🔊 音声を再生';
+    isPlaying = false;
+  };
+  
+  speechSynthesis.speak(utterance);
+}
+
+// Submit Test
+function submitTest() {
+  if (timerInterval) {
+    clearInterval(timerInterval);
+    timerInterval = null;
+  }
+  
+  // Calculate results
+  let correct = 0;
+  const wrongQuestions = [];
+  const sectionScores = {};
+  
+  questions.forEach((q, i) => {
+    const section = q.section || '問題';
+    if (!sectionScores[section]) {
+      sectionScores[section] = { correct: 0, total: 0 };
+    }
+    sectionScores[section].total++;
+    
+    if (answers[i] === q.answer) {
+      correct++;
+      sectionScores[section].correct++;
+    } else {
+      wrongQuestions.push({
+        ...q,
+        index: q.originalIndex !== undefined ? q.originalIndex : i,
+        userAnswer: answers[i]
+      });
+    }
+  });
+  
+  const score = Math.round((correct / questions.length) * 100);
+  const passed = score >= PASS_SCORE;
+  
+  testResults = {
+    score,
+    correct,
+    total: questions.length,
+    passed,
+    sectionScores,
+    wrongQuestions,
+    answers: {...answers}
+  };
+  
+  // Save data (not in review mode)
+  if (!isReview) {
+    const data = getData();
+    data.attempts = (data.attempts || 0) + 1;
+    if (data.best === null || score > data.best) {
+      data.best = score;
+    }
+    // Update wrong questions list
+    const existingWrong = data.wrongQuestions || [];
+    wrongQuestions.forEach(wq => {
+      if (!existingWrong.find(e => e.text === wq.text)) {
+        existingWrong.push(wq);
+      }
+    });
+    // Remove questions that were answered correctly
+    data.wrongQuestions = existingWrong.filter(wq => {
+      const idx = questions.findIndex(q => q.text === wq.text);
+      return idx === -1 || answers[idx] !== wq.answer;
+    });
+    saveData(data);
+  }
+  
+  // Show results
+  showResults();
+}
+
+function showResults() {
+  showScreen('results');
+  
+  const { score, correct, total, passed, sectionScores, wrongQuestions } = testResults;
+  
+  document.getElementById('score-value').textContent = score + '%';
+  document.getElementById('score-detail').textContent = correct + '問正解 / ' + total + '問中';
+  
+  const passBadge = document.getElementById('pass-badge');
+  passBadge.textContent = passed ? '合格ライン到達！' : '不合格';
+  passBadge.className = 'pass-badge ' + (passed ? 'pass' : 'fail');
+  
+  // Section scores
+  let sectionsHtml = '';
+  Object.entries(sectionScores).forEach(([section, scores]) => {
+    const pct = Math.round((scores.correct / scores.total) * 100);
+    sectionsHtml += '<div class="section-score-card">';
+    sectionsHtml += '<div class="section-score-value">' + scores.correct + '/' + scores.total + '</div>';
+    sectionsHtml += '<div class="section-score-label">' + section.substring(0, 8) + '</div>';
+    sectionsHtml += '</div>';
+  });
+  document.getElementById('section-scores').innerHTML = sectionsHtml;
+  
+  // Answer list
+  renderAnswerList();
+  
+  loadStats();
+}
+
+function renderAnswerList() {
+  const { answers: testAnswers } = testResults;
+  let html = '';
+  
+  questions.forEach((q, i) => {
+    const isCorrect = testAnswers[i] === q.answer;
+    const userAns = testAnswers[i] !== undefined ? q.options[testAnswers[i]] : '未回答';
+    const correctAns = q.options[q.answer];
+    
+    html += '<div class="answer-item ' + (isCorrect ? '' : 'wrong') + '">';
+    html += '<div class="answer-q-num">問' + (i + 1) + ' - ' + (q.section || '問題') + '</div>';
+    html += '<div class="answer-q-text">' + q.text.substring(0, 100) + (q.text.length > 100 ? '...' : '') + '</div>';
+    html += '<div class="answer-result">';
+    if (isCorrect) {
+      html += '<div class="answer-correct">✓ 正解: ' + correctAns + '</div>';
+    } else {
+      html += '<div class="answer-your">✗ あなたの回答: ' + userAns + '</div>';
+      html += '<div class="answer-correct">○ 正解: ' + correctAns + '</div>';
+    }
+    html += '</div></div>';
+  });
+  
+  document.getElementById('answer-list').innerHTML = html;
+}
+
+function toggleAnswerList() {
+  const list = document.getElementById('answer-list');
+  const btn = document.getElementById('review-toggle');
+  
+  if (list.classList.contains('hidden')) {
+    list.classList.remove('hidden');
+    btn.textContent = '📋 正誤一覧を隠す';
+  } else {
+    list.classList.add('hidden');
+    btn.textContent = '📋 正誤一覧を表示';
+  }
+}
+
+function reviewWrong() {
+  if (!testResults || testResults.wrongQuestions.length === 0) {
+    alert('間違えた問題がありません！');
+    return;
+  }
+  
+  currentQ = 0;
+  answers = {};
+  isReview = true;
+  questions = testResults.wrongQuestions.map((q, i) => ({...q}));
+  testResults = null;
+  
+  showScreen('test');
+  document.getElementById('test-title').textContent = '❌ 間違えた問題';
+  document.getElementById('timer').textContent = '復習中';
+  
+  renderQuestion();
+}
+
+// Navigation
+function showScreen(id) {
+  ['home', 'test', 'results'].forEach(s => {
+    document.getElementById(s).classList.toggle('hidden', s !== id);
+  });
+}
+
+function goHome() {
+  if (timerInterval) {
+    clearInterval(timerInterval);
+    timerInterval = null;
+  }
+  showScreen('home');
+  loadStats();
+}
+
+function resetData() {
+  if (confirm('このテストのすべてのデータをリセットしますか？')) {
+    localStorage.removeItem(STORAGE_KEY);
+    loadStats();
+    alert('リセットしました');
+  }
+}
+
+// Initialize
+init();
+</script>
+</body>
+</html>
