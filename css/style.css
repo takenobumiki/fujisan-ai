@@ -219,6 +219,9 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
 .option-btn.correct { border-color: var(--success); background: var(--success-light); animation: successPop 0.3s ease; }
 .option-btn.incorrect { border-color: var(--error); background: var(--error-light); }
 .option-btn:disabled { pointer-events: none; }
+.option-btn.emoji-option { text-align: center; font-size: 2.5rem; padding: 16px; min-height: 70px; display: flex; align-items: center; justify-content: center; }
+.options.emoji-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+.options.emoji-grid .option-btn { text-align: center; }
 
 /* Feedback Area */
 .feedback-area { background: var(--card); border-radius: 20px; padding: var(--space-md); margin-top: var(--space-sm); box-shadow: 0 4px 16px rgba(0,0,0,0.08); flex-shrink: 0; display: flex; flex-direction: column; animation: slideUp 0.3s ease; }

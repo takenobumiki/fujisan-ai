@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.6.0';
+const APP_VERSION = '18.9.8';
 const STORAGE_KEY = 'fujisan_v1737';
 
 // ========== UI TRANSLATIONS ==========
@@ -25,7 +25,7 @@ const UI_TEXTS = {
     // Quiz/Drill
     quiz_prompt: 'What does this mean?', quiz_correct: 'Correct', quiz_wrong: 'Wrong', quiz_time: 'Time',
     quiz_review_title: 'Review Your Mistakes', quiz_review_btn: 'Review Mistakes',
-    quiz_try_again: 'Try Again', quiz_home: 'Home', quiz_continue: 'Continue', quiz_next_unit: 'Next Unit →',
+    quiz_try_again: 'Try Again', quiz_home: 'Home', quiz_continue: 'Continue', quiz_next_unit: 'Next Unit →', quiz_next: 'Next →',
     // Mock Test
     mock_title: 'Mock Test', mock_mode: 'Mode', mock_full: 'Full', mock_section: 'Section',
     mock_set: 'Set', mock_random: '🎲 Random', mock_last_score: 'Last Score',
@@ -98,7 +98,7 @@ const UI_TEXTS = {
     onboarding_tip: '💡 小提示：', onboarding_skip: '跳過', onboarding_next: '下一步',
     quiz_prompt: '這是什麼意思？', quiz_correct: '正確', quiz_wrong: '錯誤', quiz_time: '時間',
     quiz_review_title: '複習錯誤', quiz_review_btn: '複習錯誤',
-    quiz_try_again: '再試一次', quiz_home: '首頁', quiz_continue: '繼續', quiz_next_unit: '下一單元 →',
+    quiz_try_again: '再試一次', quiz_home: '首頁', quiz_continue: '繼續', quiz_next_unit: '下一單元 →', quiz_next: '下一題 →',
     mock_title: '模擬測驗', mock_mode: '模式', mock_full: '完整', mock_section: '分段',
     mock_set: '套', mock_random: '🎲 隨機', mock_last_score: '上次分數',
     mock_start: '開始測驗', mock_next: '下一題 →', mock_prev: '← 上一題',
@@ -162,7 +162,7 @@ const UI_TEXTS = {
     onboarding_tip: '💡 小提示：', onboarding_skip: '跳过', onboarding_next: '下一步',
     quiz_prompt: '这是什么意思？', quiz_correct: '正确', quiz_wrong: '错误', quiz_time: '时间',
     quiz_review_title: '复习错误', quiz_review_btn: '复习错误',
-    quiz_try_again: '再试一次', quiz_home: '首页', quiz_continue: '继续', quiz_next_unit: '下一单元 →',
+    quiz_try_again: '再试一次', quiz_home: '首页', quiz_continue: '继续', quiz_next_unit: '下一单元 →', quiz_next: '下一题 →',
     mock_title: '模拟测验', mock_mode: '模式', mock_full: '完整', mock_section: '分段',
     mock_set: '套', mock_random: '🎲 随机', mock_last_score: '上次分数',
     mock_start: '开始测验', mock_next: '下一题 →', mock_prev: '← 上一题',
@@ -226,7 +226,7 @@ const UI_TEXTS = {
     onboarding_tip: '💡 팁:', onboarding_skip: '건너뛰기', onboarding_next: '다음',
     quiz_prompt: '이것은 무슨 뜻인가요?', quiz_correct: '정답', quiz_wrong: '오답', quiz_time: '시간',
     quiz_review_title: '오답 복습', quiz_review_btn: '오답 복습',
-    quiz_try_again: '다시 시도', quiz_home: '홈', quiz_continue: '계속', quiz_next_unit: '다음 단원 →',
+    quiz_try_again: '다시 시도', quiz_home: '홈', quiz_continue: '계속', quiz_next_unit: '다음 단원 →', quiz_next: '다음 →',
     mock_title: '모의 테스트', mock_mode: '모드', mock_full: '전체', mock_section: '섹션',
     mock_set: '세트', mock_random: '🎲 랜덤', mock_last_score: '이전 점수',
     mock_start: '테스트 시작', mock_next: '다음 →', mock_prev: '← 이전',
@@ -290,7 +290,7 @@ const UI_TEXTS = {
     onboarding_tip: '💡 Mẹo:', onboarding_skip: 'Bỏ qua', onboarding_next: 'Tiếp',
     quiz_prompt: 'Điều này có nghĩa là gì?', quiz_correct: 'Đúng', quiz_wrong: 'Sai', quiz_time: 'Thời gian',
     quiz_review_title: 'Xem lại lỗi sai', quiz_review_btn: 'Xem lại lỗi',
-    quiz_try_again: 'Thử lại', quiz_home: 'Trang chủ', quiz_continue: 'Tiếp tục', quiz_next_unit: 'Bài tiếp theo →',
+    quiz_try_again: 'Thử lại', quiz_home: 'Trang chủ', quiz_continue: 'Tiếp tục', quiz_next_unit: 'Bài tiếp theo →', quiz_next: 'Tiếp →',
     mock_title: 'Thi thử', mock_mode: 'Chế độ', mock_full: 'Đầy đủ', mock_section: 'Phần',
     mock_set: 'Bộ', mock_random: '🎲 Ngẫu nhiên', mock_last_score: 'Điểm trước',
     mock_start: 'Bắt đầu thi', mock_next: 'Tiếp →', mock_prev: '← Trước',
@@ -2708,9 +2708,13 @@ function showFeedbackArea(item, skill, userAnswer, correctAnswer, isCorrect) {
   
   feedbackArea.style.display = 'block';
   
-  // Show next button
+  // Show next button with localized text
   const nextBtn = document.getElementById('feedback-next-btn');
-  if (nextBtn) nextBtn.style.display = 'block';
+  if (nextBtn) {
+    const texts = UI_TEXTS[state.lang] || UI_TEXTS.en;
+    nextBtn.textContent = texts.quiz_next || 'Next →';
+    nextBtn.style.display = 'block';
+  }
 }
 
 function updateFollowupPlaceholder() {
@@ -3236,11 +3240,32 @@ function showMockQuestion() {
   optionsDiv.innerHTML = '';
   
   const labels = ['A', 'B', 'C', 'D'];
-  (q.opts || q.options).forEach((opt, idx) => {
+  const options = q.opts || q.options;
+  
+  // 絵文字のみの選択肢かどうかを検出
+  const isEmojiOnly = options.every(opt => {
+    if (!opt) return true;
+    const str = String(opt).trim();
+    // 絵文字のみかチェック（絵文字は2文字以下で、通常の文字を含まない）
+    return str.length <= 4 && /^[\u{1F300}-\u{1F9FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}\u{1F600}-\u{1F64F}\u{1F680}-\u{1F6FF}]+$/u.test(str);
+  });
+  
+  if (isEmojiOnly) {
+    optionsDiv.classList.add('emoji-grid');
+  } else {
+    optionsDiv.classList.remove('emoji-grid');
+  }
+  
+  options.forEach((opt, idx) => {
     if (!opt) return; // Skip empty options
     
     const btn = document.createElement('button');
     btn.className = 'option-btn';
+    
+    // 絵文字のみの場合は大きく表示
+    if (isEmojiOnly) {
+      btn.classList.add('emoji-option');
+    }
     
     // Check if already answered
     if (mockState.answers[q.id]) {
@@ -3260,7 +3285,12 @@ function showMockQuestion() {
       const count = (q.counts && q.counts[idx]) || 1;
       iconHtml = `<span class="option-icons" style="font-size:1.5em;margin-right:8px;">${q.icons[idx].repeat(count)}</span>`;
     }
-    btn.innerHTML = `<span class="option-label">${labels[idx]}</span> ${iconHtml}${opt}`;
+    
+    if (isEmojiOnly) {
+      btn.innerHTML = `<span class="option-label">${labels[idx]}</span><span style="font-size:2em;margin-left:8px;">${opt}</span>`;
+    } else {
+      btn.innerHTML = `<span class="option-label">${labels[idx]}</span> ${iconHtml}${opt}`;
+    }
     optionsDiv.appendChild(btn);
   });
   

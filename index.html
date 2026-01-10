@@ -1040,10 +1040,13 @@
             border-color: var(--accent);
         }
         .checkbox-label input:checked + .checkbox-box::after {
-            content: '✓';
-            color: #fff;
-            font-size: 14px;
-            font-weight: 700;
+            content: '';
+            width: 14px;
+            height: 14px;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3'%3E%3Cpath d='M20 6L9 17l-5-5'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
         }
         .checkbox-text { color: var(--text-secondary); }
         .checkbox-text a { color: var(--accent); text-decoration: none; }
@@ -1109,7 +1112,7 @@
             justify-content: center;
         }
         .plan-option.selected .plan-radio { border-color: var(--accent); background: var(--accent); }
-        .plan-option.selected .plan-radio::after { content: '✓'; color: #fff; font-size: 12px; font-weight: 700; }
+        .plan-option.selected .plan-radio::after { content: ''; width: 12px; height: 12px; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3'%3E%3Cpath d='M20 6L9 17l-5-5'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: center; background-size: contain; }
         .plan-name { font-size: 17px; font-weight: 500; }
         .plan-save { font-size: 12px; color: var(--success); font-weight: 600; }
         .plan-price { font-size: 17px; font-weight: 600; }
@@ -1406,7 +1409,7 @@
         .level-stat-label { font-size: 11px; color: var(--text-secondary); }
         .level-features { list-style: none; }
         .level-features li { display: flex; align-items: center; gap: 10px; padding: 6px 0; font-size: 13px; color: var(--text-secondary); }
-        .level-features li::before { content: '✓'; width: 18px; height: 18px; background: var(--success); color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; flex-shrink: 0; }
+        .level-features li::before { content: ''; width: 18px; height: 18px; background: var(--success); color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3'%3E%3Cpath d='M20 6L9 17l-5-5'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: center; background-size: 11px; }
         
         /* Pricing */
         .section-pricing-bg {
@@ -1427,7 +1430,7 @@
         .pricing-features { list-style: none; text-align: left; margin-bottom: 28px; }
         .pricing-features li { display: flex; align-items: center; gap: 10px; padding: 10px 0; font-size: 14px; color: var(--text-secondary); border-bottom: 1px solid var(--border); }
         .pricing-features li:last-child { border-bottom: none; }
-        .pricing-features li::before { content: '✓'; color: var(--success); font-weight: 700; }
+        .pricing-features li::before { content: ''; width: 18px; height: 18px; background: var(--success); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3'%3E%3Cpath d='M20 6L9 17l-5-5'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: center; background-size: 12px; }
         
         /* Japan Section */
         .japan-section { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; }
@@ -1546,8 +1549,8 @@
         .demo-option.correct { border-color: #2E7D32; background: #E8F5E9; }
         .demo-option.incorrect { border-color: #C62828; background: #FFEBEE; }
         .demo-option.disabled { pointer-events: none; opacity: 0.7; }
-        .demo-option.correct::before { content: '✓ '; color: #2E7D32; font-weight: bold; }
-        .demo-option.incorrect::before { content: '✗ '; color: #C62828; font-weight: bold; }
+        .demo-option.correct::before { content: ''; display: inline-block; width: 16px; height: 16px; margin-right: 8px; vertical-align: middle; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232E7D32' stroke-width='3'%3E%3Cpath d='M20 6L9 17l-5-5'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+        .demo-option.incorrect::before { content: ''; display: inline-block; width: 16px; height: 16px; margin-right: 8px; vertical-align: middle; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23C62828' stroke-width='3'%3E%3Cpath d='M18 6L6 18M6 6l12 12'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: center; background-size: contain; }
         
         .demo-ai-feedback { background: #fff; border-radius: 16px; padding: 20px; margin-bottom: 20px; text-align: left; animation: fadeIn 0.5s; }
         .demo-ai-header { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
@@ -1625,7 +1628,7 @@
             </nav>
             <div class="header-actions">
                 <select class="lang-selector" id="langSelector" onchange="changeLanguage(this.value)">
-                    <option value="en">🌐 EN</option>
+                    <option value="en">EN</option>
                     <option value="zh-TW">繁體中文</option>
                     <option value="zh-CN">简体中文</option>
                     <option value="ko">한국어</option>
@@ -1670,7 +1673,7 @@
                             <li>Elaborative Encoding - AI generates unique contextual explanations that create 3x stronger memory pathways</li>
                             <li>Adaptive Difficulty - Machine learning adjusts question difficulty in real-time to keep you in optimal learning zone</li>
                             <li>AI Analysis - Detailed feedback on every question to help you improve</li>
-                            <li>⚡ 10x Faster Learning - Hyper-efficient study eliminates wasted time on material you already know</li>
+                            <li>10x Faster Learning - Hyper-efficient study eliminates wasted time on material you already know</li>
                         </ul>
                     </section>
                     <section>
@@ -1754,7 +1757,7 @@
                                 <div class="demo-word" id="demoWord">食べる</div>
                                 <div class="demo-reading" id="demoReading">たべる</div>
                                 <button class="demo-audio-btn" id="demoAudioBtn" onclick="playDemoAudio()" style="display: none;">
-                                    🔊 Listen
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align: middle; margin-right: 6px;"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg><span data-i18n="demo_listen">Play</span>
                                 </button>
                                 <div class="demo-prompt" id="demoPrompt">What does this word mean?</div>
                             </div>
@@ -1972,7 +1975,7 @@
                         
                         <!-- 100% Coverage Banner -->
                         <div style="background: linear-gradient(135deg, #00C853 0%, #00E676 100%); border-radius: 16px; padding: 24px 32px; margin-bottom: 32px; text-align: center; color: #fff; box-shadow: 0 8px 32px rgba(0,200,83,0.3);">
-                            <div style="font-size: 48px; font-weight: 800; margin-bottom: 8px;"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#00C853" stroke-width="2.5" style="vertical-align:middle;margin-right:8px"><path d="M20 6L9 17l-5-5"/></svg>100% Coverage</div>
+                            <div style="font-size: 48px; font-weight: 800; margin-bottom: 8px;"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" style="vertical-align:middle;margin-right:8px"><path d="M20 6L9 17l-5-5"/></svg>100% Coverage</div>
                             <div style="font-size: 18px; font-weight: 600; margin-bottom: 16px;" data-i18n="coverage_headline">All Official JLPT Requirements Covered</div>
                             <div style="display: flex; justify-content: center; gap: 32px; flex-wrap: wrap; font-size: 15px;">
                                 <div><strong>22,000+</strong> <span data-i18n="coverage_vocab">Vocabulary</span></div>
@@ -1988,7 +1991,7 @@
                                 <div class="level-header">
                                     <div class="level-name">N5</div>
                                     <div class="level-title" data-i18n="level_beginner">Beginner</div>
-                                    <div style="background:#00C853;color:#fff;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:700;">✓ 100%</div>
+                                    <div style="background:#00C853;color:#fff;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:700;display:flex;align-items:center;gap:4px;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>100%</div>
                                 </div>
                                 <div class="level-body">
                                     <p class="level-desc" data-i18n="level_n5_desc">Start your Japanese journey. Master hiragana, katakana, basic kanji, and essential grammar.</p>
@@ -2011,7 +2014,7 @@
                                 <div class="level-header">
                                     <div class="level-name">N4</div>
                                     <div class="level-title" data-i18n="level_elementary">Elementary</div>
-                                    <div style="background:#00C853;color:#fff;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:700;">✓ 100%</div>
+                                    <div style="background:#00C853;color:#fff;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:700;display:flex;align-items:center;gap:4px;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>100%</div>
                                 </div>
                                 <div class="level-body">
                                     <p class="level-desc" data-i18n="level_n4_desc">Build on your foundation. Handle complex conversations and read simple texts.</p>
@@ -2034,7 +2037,7 @@
                                 <div class="level-header">
                                     <div class="level-name">N3</div>
                                     <div class="level-title" data-i18n="level_intermediate">Intermediate</div>
-                                    <div style="background:#00C853;color:#fff;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:700;">✓ 100%</div>
+                                    <div style="background:#00C853;color:#fff;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:700;display:flex;align-items:center;gap:4px;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>100%</div>
                                 </div>
                                 <div class="level-body">
                                     <p class="level-desc" data-i18n="level_n3_desc">The bridge to fluency. Understand everyday Japanese and express nuanced opinions.</p>
@@ -2057,7 +2060,7 @@
                                 <div class="level-header">
                                     <div class="level-name">N2</div>
                                     <div class="level-title" data-i18n="level_advanced">Advanced</div>
-                                    <div style="background:#00C853;color:#fff;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:700;">✓ 100%</div>
+                                    <div style="background:#00C853;color:#fff;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:700;display:flex;align-items:center;gap:4px;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>100%</div>
                                 </div>
                                 <div class="level-body">
                                     <p class="level-desc" data-i18n="level_n2_desc">Professional-level Japanese. Read newspapers and handle business situations.</p>
@@ -2080,7 +2083,7 @@
                                 <div class="level-header">
                                     <div class="level-name">N1</div>
                                     <div class="level-title" data-i18n="level_expert">Expert</div>
-                                    <div style="background:#00C853;color:#fff;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:700;">✓ 100%</div>
+                                    <div style="background:#00C853;color:#fff;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:700;display:flex;align-items:center;gap:4px;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>100%</div>
                                 </div>
                                 <div class="level-body">
                                     <p class="level-desc" data-i18n="level_n1_desc">Near-native proficiency. Master literary Japanese and sophisticated communication.</p>
@@ -2141,75 +2144,75 @@
                                 <tbody>
                                     <tr>
                                         <td>AI Tutor (24/7 Q&A)</td>
-                                        <td class="highlight-col"><span class="check">✓</span></td>
-                                        <td><span class="cross">✗</span></td>
-                                        <td><span class="cross">✗</span></td>
-                                        <td><span class="cross">✗</span></td>
+                                        <td class="highlight-col"><span class="check"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span></td>
+                                        <td><span class="cross"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M18 6L6 18M6 6l12 12"/></svg></span></td>
+                                        <td><span class="cross"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M18 6L6 18M6 6l12 12"/></svg></span></td>
+                                        <td><span class="cross"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M18 6L6 18M6 6l12 12"/></svg></span></td>
                                     </tr>
                                     <tr>
                                         <td>AI Mistake Explanations</td>
-                                        <td class="highlight-col"><span class="check">✓</span></td>
-                                        <td><span class="cross">✗</span></td>
-                                        <td><span class="cross">✗</span></td>
-                                        <td><span class="cross">✗</span></td>
+                                        <td class="highlight-col"><span class="check"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span></td>
+                                        <td><span class="cross"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M18 6L6 18M6 6l12 12"/></svg></span></td>
+                                        <td><span class="cross"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M18 6L6 18M6 6l12 12"/></svg></span></td>
+                                        <td><span class="cross"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M18 6L6 18M6 6l12 12"/></svg></span></td>
                                     </tr>
                                     <tr>
                                         <td>AI Explanations</td>
-                                        <td class="highlight-col"><span class="check">✓</span></td>
-                                        <td><span class="partial">△</span></td>
-                                        <td><span class="cross">✗</span></td>
-                                        <td><span class="partial">△</span></td>
+                                        <td class="highlight-col"><span class="check"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span></td>
+                                        <td><span class="partial"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 9v4M12 17h.01M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg></span></td>
+                                        <td><span class="cross"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M18 6L6 18M6 6l12 12"/></svg></span></td>
+                                        <td><span class="partial"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 9v4M12 17h.01M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg></span></td>
                                     </tr>
                                     <tr>
                                         <td>Pass Probability Prediction</td>
-                                        <td class="highlight-col"><span class="check">✓</span></td>
-                                        <td><span class="cross">✗</span></td>
-                                        <td><span class="cross">✗</span></td>
-                                        <td><span class="cross">✗</span></td>
+                                        <td class="highlight-col"><span class="check"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span></td>
+                                        <td><span class="cross"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M18 6L6 18M6 6l12 12"/></svg></span></td>
+                                        <td><span class="cross"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M18 6L6 18M6 6l12 12"/></svg></span></td>
+                                        <td><span class="cross"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M18 6L6 18M6 6l12 12"/></svg></span></td>
                                     </tr>
                                     <tr>
                                         <td data-i18n="compare_jlpt">JLPT-Focused Curriculum</td>
-                                        <td class="highlight-col"><span class="check">✓</span></td>
-                                        <td><span class="cross">✗</span></td>
-                                        <td><span class="check">✓</span></td>
-                                        <td><span class="partial">△</span></td>
+                                        <td class="highlight-col"><span class="check"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span></td>
+                                        <td><span class="cross"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M18 6L6 18M6 6l12 12"/></svg></span></td>
+                                        <td><span class="check"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span></td>
+                                        <td><span class="partial"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 9v4M12 17h.01M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg></span></td>
                                     </tr>
                                     <tr>
                                         <td data-i18n="compare_mock">Authentic Mock Tests</td>
-                                        <td class="highlight-col"><span class="check">✓</span></td>
-                                        <td><span class="cross">✗</span></td>
-                                        <td><span class="partial">△</span></td>
-                                        <td><span class="partial">△</span></td>
+                                        <td class="highlight-col"><span class="check"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span></td>
+                                        <td><span class="cross"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M18 6L6 18M6 6l12 12"/></svg></span></td>
+                                        <td><span class="partial"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 9v4M12 17h.01M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg></span></td>
+                                        <td><span class="partial"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 9v4M12 17h.01M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg></span></td>
                                     </tr>
                                     <tr>
                                         <td>League & Gamification</td>
-                                        <td class="highlight-col"><span class="check">✓</span></td>
-                                        <td><span class="check">✓</span></td>
-                                        <td><span class="cross">✗</span></td>
-                                        <td><span class="partial">△</span></td>
+                                        <td class="highlight-col"><span class="check"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span></td>
+                                        <td><span class="check"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span></td>
+                                        <td><span class="cross"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M18 6L6 18M6 6l12 12"/></svg></span></td>
+                                        <td><span class="partial"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 9v4M12 17h.01M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg></span></td>
                                     </tr>
                                     <tr>
                                         <td data-i18n="compare_japan">Made in Japan (Tokyo)</td>
-                                        <td class="highlight-col"><span class="check">✓</span></td>
-                                        <td><span class="cross">✗</span></td>
-                                        <td><span class="partial">△</span></td>
-                                        <td><span class="cross">✗</span></td>
+                                        <td class="highlight-col"><span class="check"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span></td>
+                                        <td><span class="cross"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M18 6L6 18M6 6l12 12"/></svg></span></td>
+                                        <td><span class="partial"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 9v4M12 17h.01M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg></span></td>
+                                        <td><span class="cross"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M18 6L6 18M6 6l12 12"/></svg></span></td>
                                     </tr>
                                     <tr>
                                         <td data-i18n="compare_levels">All JLPT Levels (N5-N1)</td>
-                                        <td class="highlight-col"><span class="check">✓</span></td>
-                                        <td><span class="cross">✗</span></td>
-                                        <td><span class="check">✓</span></td>
-                                        <td><span class="partial">△</span></td>
+                                        <td class="highlight-col"><span class="check"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span></td>
+                                        <td><span class="cross"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M18 6L6 18M6 6l12 12"/></svg></span></td>
+                                        <td><span class="check"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span></td>
+                                        <td><span class="partial"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 9v4M12 17h.01M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg></span></td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                         
                         <p style="text-align:center;margin-top:32px;color:var(--text-secondary);font-size:14px;">
-                            <span class="check">✓</span> = <span data-i18n="compare_full">Full support</span> &nbsp;&nbsp;
-                            <span class="partial">△</span> = <span data-i18n="compare_partial">Partial/Limited</span> &nbsp;&nbsp;
-                            <span class="cross">✗</span> = <span data-i18n="compare_none">Not available</span>
+                            <span class="check"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span> = <span data-i18n="compare_full">Full support</span> &nbsp;&nbsp;
+                            <span class="partial"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 9v4M12 17h.01M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg></span> = <span data-i18n="compare_partial">Partial/Limited</span> &nbsp;&nbsp;
+                            <span class="cross"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M18 6L6 18M6 6l12 12"/></svg></span> = <span data-i18n="compare_none">Not available</span>
                         </p>
                     </div>
                 </section>
