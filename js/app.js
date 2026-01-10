@@ -2305,12 +2305,6 @@ async function startReview() {
   showLearningQuestion();
 }
 
-// Start drill from dashboard
-function startDrill(type) {
-  if (type === 'quiz' || type === 'learn') startDrill();
-  else if (type === 'review') startReview();
-}
-
 // ========== SOUND EFFECTS ==========
 const SFX = {
   newQuestion: null,
