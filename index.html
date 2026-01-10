@@ -1264,18 +1264,19 @@
         
         .hero {
             min-height: calc(100vh - 52px);
-            display: flex;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
             align-items: center;
-            justify-content: center;
-            background: #fbfbfd;
+            background: #fff;
             position: relative;
             overflow: hidden;
-            padding: 80px 24px;
+            padding: 0;
         }
         
-        @media (max-width: 768px) {
+        @media (max-width: 968px) {
             .hero {
-                padding: 60px 24px;
+                grid-template-columns: 1fr;
+                min-height: auto;
             }
         }
         
@@ -1290,14 +1291,49 @@
         .hero-content {
             position: relative;
             z-index: 1;
-            text-align: center;
-            max-width: 720px;
-            margin: 0 auto;
-            padding: 0;
+            text-align: left;
+            max-width: 540px;
+            margin: 0;
+            margin-left: auto;
+            padding: 80px 48px 80px 24px;
             background: transparent;
             border-radius: 0;
             backdrop-filter: none;
             box-shadow: none;
+        }
+        
+        @media (max-width: 968px) {
+            .hero-content {
+                text-align: center;
+                max-width: 100%;
+                margin: 0 auto;
+                padding: 60px 24px 40px;
+                order: 1;
+            }
+        }
+        
+        .hero-image {
+            position: relative;
+            height: 100%;
+            min-height: calc(100vh - 52px);
+            overflow: hidden;
+        }
+        
+        .hero-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center right;
+        }
+        
+        @media (max-width: 968px) {
+            .hero-image {
+                min-height: 50vh;
+                order: 2;
+            }
+            .hero-image img {
+                object-position: center center;
+            }
         }
         
         .hero-badge {
@@ -1328,10 +1364,10 @@
         }
         
         .hero h1, .hero-title {
-            font-size: clamp(40px, 8vw, 64px);
+            font-size: clamp(36px, 5vw, 56px);
             font-weight: 600;
             color: #1d1d1f;
-            line-height: 1.05;
+            line-height: 1.08;
             margin-bottom: 20px;
             letter-spacing: -0.025em;
         }
@@ -1343,19 +1379,24 @@
             color: #1d1d1f;
         }
         
-        .hero-sub, .hero-subtitle { font-size: 21px; color: #86868b; margin-bottom: 36px; max-width: 560px; margin-left: auto; margin-right: auto; line-height: 1.5; font-weight: 400; }
+        .hero-sub, .hero-subtitle { font-size: 19px; color: #86868b; margin-bottom: 32px; max-width: 480px; margin-left: 0; margin-right: 0; line-height: 1.5; font-weight: 400; }
+        @media (max-width: 968px) { .hero-sub, .hero-subtitle { margin-left: auto; margin-right: auto; } }
         
-        .hero-cta { display: flex; flex-direction: column; align-items: center; gap: 12px; }
-        .hero-cta-btns { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+        .hero-cta { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; }
+        @media (max-width: 968px) { .hero-cta { align-items: center; } }
+        .hero-cta-btns { display: flex; gap: 12px; flex-wrap: wrap; justify-content: flex-start; }
+        @media (max-width: 968px) { .hero-cta-btns { justify-content: center; } }
         .btn-hero { background: #0066cc; color: #fff; box-shadow: none; border: none; transition: background 0.2s; }
         .btn-hero:hover { transform: none; box-shadow: none; background: #0055b3; }
         .btn-large { height: 50px; padding: 0 28px; font-size: 17px; border-radius: 980px; font-weight: 400; }
         .hero-note { font-size: 12px; color: #86868b; }
         
-        .hero-stats { display: flex; justify-content: center; gap: 48px; margin-top: 56px; flex-wrap: wrap; padding-top: 0; border-top: none; }
-        .hero-stat { text-align: center; }
-        .hero-stat-value { font-size: 48px; font-weight: 600; color: #1d1d1f; letter-spacing: -0.02em; background: none; -webkit-background-clip: unset; -webkit-text-fill-color: #1d1d1f; }
-        .hero-stat-label { font-size: 12px; color: #86868b; text-transform: none; letter-spacing: 0; margin-top: 4px; font-weight: 400; }
+        .hero-stats { display: flex; justify-content: flex-start; gap: 32px; margin-top: 40px; flex-wrap: wrap; padding-top: 24px; border-top: 1px solid #d2d2d7; }
+        @media (max-width: 968px) { .hero-stats { justify-content: center; border-top: none; padding-top: 0; } }
+        .hero-stat { text-align: left; }
+        @media (max-width: 968px) { .hero-stat { text-align: center; } }
+        .hero-stat-value { font-size: 36px; font-weight: 600; color: #1d1d1f; letter-spacing: -0.02em; background: none; -webkit-background-clip: unset; -webkit-text-fill-color: #1d1d1f; }
+        .hero-stat-label { font-size: 12px; color: #86868b; text-transform: none; letter-spacing: 0; margin-top: 2px; font-weight: 400; }
         
         /* Sections - Apple Style */
         .section { padding: 100px 24px; }
@@ -1735,45 +1776,39 @@
                 
                 <!-- Hero -->
                 <section class="hero">
-                    <svg class="hero-fuji" viewBox="0 0 800 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0 300 L200 300 L320 100 L360 130 L400 80 L440 130 L480 100 L600 300 L800 300" stroke="white" stroke-opacity="0.2" stroke-width="2" fill="none"/>
-                        <path d="M360 80 L380 60 L400 50 L420 60 L440 80" stroke="white" stroke-opacity="0.4" stroke-width="2" fill="none"/>
-                    </svg>
-                    
                     <div class="hero-content">
                         <div class="hero-badge">
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-                            <span>Evidence-Based Learning System</span>
+                            <span>Evidence-Based Learning</span>
                         </div>
-                        <h1 class="hero-title">Master Japanese Through<br><span class="highlight">Scientific Methodology</span></h1>
+                        <h1 class="hero-title">Master Japanese.<br>Scientifically.</h1>
                         
                         <p class="hero-subtitle" data-i18n="hero_subtitle">
-                            Where Instructional Design meets Second Language Acquisition theory and AI-driven personalization. Pass JLPT N5-N1 with a system engineered for measurable outcomes.
+                            Instructional Design meets SLA theory and AI-driven personalization. Pass JLPT N5-N1 with a system engineered for results.
                         </p>
                         
                         <div class="hero-cta">
-                            <a href="#pricing" class="btn btn-hero btn-large" data-i18n="hero_cta" style="padding: 16px 48px; font-size: 18px;">Start Free Trial</a>
-                            <p class="hero-note" data-i18n="hero_note">7-day trial • No commitment • Cancel anytime</p>
+                            <a href="#pricing" class="btn btn-hero btn-large" data-i18n="hero_cta">Start Free Trial</a>
+                            <p class="hero-note" data-i18n="hero_note">7-day trial • Cancel anytime</p>
                         </div>
                         
                         <div class="hero-stats">
                             <div class="hero-stat">
                                 <div class="hero-stat-value">94%</div>
-                                <div class="hero-stat-label" data-i18n="hero_stat_retention">Long-term Retention</div>
+                                <div class="hero-stat-label" data-i18n="hero_stat_retention">Retention</div>
                             </div>
                             <div class="hero-stat">
                                 <div class="hero-stat-value">16K+</div>
                                 <div class="hero-stat-label" data-i18n="hero_stat_students">Learners</div>
                             </div>
                             <div class="hero-stat">
-                                <div class="hero-stat-value">19yr</div>
-                                <div class="hero-stat-label" data-i18n="hero_stat_experience">Research Data</div>
-                            </div>
-                            <div class="hero-stat">
                                 <div class="hero-stat-value">N5-N1</div>
-                                <div class="hero-stat-label" data-i18n="hero_stat_levels">Full Coverage</div>
+                                <div class="hero-stat-label" data-i18n="hero_stat_levels">Coverage</div>
                             </div>
                         </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="images/hero-anime-new.jpg" alt="AI-powered Japanese learning">
                     </div>
                 </section>
                 
