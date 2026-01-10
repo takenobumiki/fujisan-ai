@@ -1,4 +1,4 @@
-// N3 Mock Test Data - v18.8.24
+// N3 Mock Test Data - v18.8.25
 if (typeof MOCK_DATA === 'undefined') { var MOCK_DATA = {}; }
 MOCK_DATA['N3'] = {
   "info": {
@@ -1063,7 +1063,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「断る」の意味は？",
+        "text": "「<ruby>断る<rt>ことわる</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "橋",
@@ -1074,7 +1074,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「橋」の意味は？",
+        "text": "「<ruby>橋<rt>はし</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -1085,7 +1085,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「突く」の意味は？",
+        "text": "「<ruby>突く<rt>つく</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -1096,7 +1096,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「裂ける」の意味は？",
+        "text": "「<ruby>裂ける<rt>さける</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -1107,7 +1107,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「急激に」の意味は？",
+        "text": "「<ruby>急激に<rt>きゅうげきに</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -2348,7 +2348,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「下りる」の意味は？",
+        "text": "「<ruby>下りる<rt>おりる</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -2359,7 +2359,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「見解」の意味は？",
+        "text": "「<ruby>見解<rt>けんかい</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -2370,7 +2370,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「冷静になる」の意味は？",
+        "text": "「<ruby>冷静になる<rt>れいせいになる</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "何となく",
@@ -2381,7 +2381,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「何となく」の意味は？",
+        "text": "「<ruby>何となく<rt>なんとなく</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "裂ける",
@@ -2392,7 +2392,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「付ける」の意味は？",
+        "text": "「<ruby>付ける<rt>つける</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -3633,7 +3633,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「ストレッチ」の意味は？",
+        "text": "「<ruby>ストレッチ<rt>すとれっち</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "冷静になる",
@@ -3644,7 +3644,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「背景」の意味は？",
+        "text": "「<ruby>背景<rt>はいけい</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -3655,7 +3655,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「落とす」の意味は？",
+        "text": "「<ruby>落とす<rt>おとす</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -3666,7 +3666,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「櫛」の意味は？",
+        "text": "「<ruby>櫛<rt>くし</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -3677,7 +3677,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「ぼんやり」の意味は？",
+        "text": "「<ruby>ぼんやり<rt>ぼんやり</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "裂ける",
@@ -4918,7 +4918,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「再来年」の意味は？",
+        "text": "「<ruby>再来年<rt>さらいねん</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -4929,7 +4929,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「時折」の意味は？",
+        "text": "「<ruby>時折<rt>ときおり</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -4940,7 +4940,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「体験」の意味は？",
+        "text": "「<ruby>体験<rt>たいけん</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -4951,7 +4951,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「怪我」の意味は？",
+        "text": "「<ruby>怪我<rt>けが</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -4962,7 +4962,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「公式」の意味は？",
+        "text": "「<ruby>公式<rt>こうしき</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -6203,7 +6203,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「世紀」の意味は？",
+        "text": "「<ruby>世紀<rt>せいき</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -6214,7 +6214,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「資料」の意味は？",
+        "text": "「<ruby>資料<rt>しりょう</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -6225,7 +6225,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「めったに」の意味は？",
+        "text": "「<ruby>めったに<rt>めったに</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "裂ける",
@@ -6236,7 +6236,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「組織」の意味は？",
+        "text": "「<ruby>組織<rt>そしき</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -6247,7 +6247,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「ピアノ」の意味は？",
+        "text": "「<ruby>ピアノ<rt>ぴあの</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -7488,7 +7488,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「後日」の意味は？",
+        "text": "「<ruby>後日<rt>ごじつ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -7499,7 +7499,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「唐揚げ」の意味は？",
+        "text": "「<ruby>唐揚げ<rt>からあげ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -7510,7 +7510,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「経済」の意味は？",
+        "text": "「<ruby>経済<rt>けいざい</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -7521,7 +7521,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「誘う」の意味は？",
+        "text": "「<ruby>誘う<rt>さそう</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -7532,7 +7532,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「資源」の意味は？",
+        "text": "「<ruby>資源<rt>しげん</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -8773,7 +8773,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「経路」の意味は？",
+        "text": "「<ruby>経路<rt>けいろ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -8784,7 +8784,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「天井」の意味は？",
+        "text": "「<ruby>天井<rt>てんじょう</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -8795,7 +8795,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「叱る」の意味は？",
+        "text": "「<ruby>叱る<rt>しかる</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -8806,7 +8806,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「やや」の意味は？",
+        "text": "「<ruby>やや<rt>やや</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -8817,7 +8817,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「スマートフォン」の意味は？",
+        "text": "「<ruby>スマートフォン<rt>すまーとふぉん</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "問い合わせる",
@@ -10058,7 +10058,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「常に」の意味は？",
+        "text": "「<ruby>常に<rt>つねに</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -10069,7 +10069,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「月」の意味は？",
+        "text": "「<ruby>月<rt>つき</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -10080,7 +10080,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「家賃」の意味は？",
+        "text": "「<ruby>家賃<rt>やちん</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -10091,7 +10091,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「問い合わせる」の意味は？",
+        "text": "「<ruby>問い合わせる<rt>といあわせる</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "冷静になる",
@@ -10102,7 +10102,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「川」の意味は？",
+        "text": "「<ruby>川<rt>かわ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -11343,7 +11343,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「女性」の意味は？",
+        "text": "「<ruby>女性<rt>じょせい</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -11354,7 +11354,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「勤め」の意味は？",
+        "text": "「<ruby>勤め<rt>つとめ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -11365,7 +11365,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「出来る」の意味は？",
+        "text": "「<ruby>出来る<rt>できる</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -11376,7 +11376,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「効率」の意味は？",
+        "text": "「<ruby>効率<rt>こうりつ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -11387,7 +11387,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「司会」の意味は？",
+        "text": "「<ruby>司会<rt>しかい</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -12628,7 +12628,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「国宝」の意味は？",
+        "text": "「<ruby>国宝<rt>こくほう</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -12639,7 +12639,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「余裕」の意味は？",
+        "text": "「<ruby>余裕<rt>よゆう</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -12650,7 +12650,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「研究」の意味は？",
+        "text": "「<ruby>研究<rt>けんきゅう</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -12661,7 +12661,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「西」の意味は？",
+        "text": "「<ruby>西<rt>にし</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -12672,7 +12672,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「乳製品」の意味は？",
+        "text": "「<ruby>乳製品<rt>にゅうせいひん</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -13913,7 +13913,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「経由地」の意味は？",
+        "text": "「<ruby>経由地<rt>けいゆち</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -13924,7 +13924,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「電気」の意味は？",
+        "text": "「<ruby>電気<rt>でんき</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -13935,7 +13935,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「認識」の意味は？",
+        "text": "「<ruby>認識<rt>にんしき</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -13946,7 +13946,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「器具」の意味は？",
+        "text": "「<ruby>器具<rt>きぐ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -13957,7 +13957,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「教育業」の意味は？",
+        "text": "「<ruby>教育業<rt>きょういくぎょう</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -15198,7 +15198,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「感心」の意味は？",
+        "text": "「<ruby>感心<rt>かんしん</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -15209,7 +15209,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「家具」の意味は？",
+        "text": "「<ruby>家具<rt>かぐ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -15220,7 +15220,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「渡る」の意味は？",
+        "text": "「<ruby>渡る<rt>わたる</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -15231,7 +15231,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「先進」の意味は？",
+        "text": "「<ruby>先進<rt>せんしん</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -15242,7 +15242,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「主要」の意味は？",
+        "text": "「<ruby>主要<rt>しゅよう</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -16483,7 +16483,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「はっきり」の意味は？",
+        "text": "「<ruby>はっきり<rt>はっきり</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "裂ける",
@@ -16494,7 +16494,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「無駄」の意味は？",
+        "text": "「<ruby>無駄<rt>むだ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -16505,7 +16505,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「食べ物」の意味は？",
+        "text": "「<ruby>食べ物<rt>たべもの</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -16516,7 +16516,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「余分」の意味は？",
+        "text": "「<ruby>余分<rt>よぶん</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -16527,7 +16527,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「追いつく」の意味は？",
+        "text": "「<ruby>追いつく<rt>おいつく</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "裂ける",
@@ -17768,7 +17768,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「着替える」の意味は？",
+        "text": "「<ruby>着替える<rt>きがえる</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "裂ける",
@@ -17779,7 +17779,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「平和」の意味は？",
+        "text": "「<ruby>平和<rt>へいわ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -17790,7 +17790,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「仲間」の意味は？",
+        "text": "「<ruby>仲間<rt>なかま</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -17801,7 +17801,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「反映」の意味は？",
+        "text": "「<ruby>反映<rt>はんえい</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -17812,7 +17812,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「全然」の意味は？",
+        "text": "「<ruby>全然<rt>ぜんぜん</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -19053,7 +19053,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「塀」の意味は？",
+        "text": "「<ruby>塀<rt>へい</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -19064,7 +19064,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「課長」の意味は？",
+        "text": "「<ruby>課長<rt>かちょう</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -19075,7 +19075,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「縮小」の意味は？",
+        "text": "「<ruby>縮小<rt>しゅくしょう</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -19086,7 +19086,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「悲しい」の意味は？",
+        "text": "「<ruby>悲しい<rt>かなしい</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -19097,7 +19097,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「原因」の意味は？",
+        "text": "「<ruby>原因<rt>げんいん</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -20338,7 +20338,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「皿」の意味は？",
+        "text": "「<ruby>皿<rt>さら</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -20349,7 +20349,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「それとも」の意味は？",
+        "text": "「<ruby>それとも<rt>それとも</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "裂ける",
@@ -20360,7 +20360,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「激増」の意味は？",
+        "text": "「<ruby>激増<rt>げきぞう</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -20371,7 +20371,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「機関」の意味は？",
+        "text": "「<ruby>機関<rt>きかん</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -20382,7 +20382,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「空気」の意味は？",
+        "text": "「<ruby>空気<rt>くうき</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -21623,7 +21623,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「魅力」の意味は？",
+        "text": "「<ruby>魅力<rt>みりょく</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -21634,7 +21634,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「祖父」の意味は？",
+        "text": "「<ruby>祖父<rt>そふ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -21645,7 +21645,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「次に」の意味は？",
+        "text": "「<ruby>次に<rt>つぎに</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -21656,7 +21656,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「呼吸」の意味は？",
+        "text": "「<ruby>呼吸<rt>こきゅう</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -21667,7 +21667,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「結婚」の意味は？",
+        "text": "「<ruby>結婚<rt>けっこん</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -22908,7 +22908,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「思考」の意味は？",
+        "text": "「<ruby>思考<rt>しこう</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -22919,7 +22919,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「麻痺」の意味は？",
+        "text": "「<ruby>麻痺<rt>まひ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -22930,7 +22930,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「外す」の意味は？",
+        "text": "「<ruby>外す<rt>はずす</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -22941,7 +22941,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「亀」の意味は？",
+        "text": "「<ruby>亀<rt>かめ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -22952,7 +22952,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「病院」の意味は？",
+        "text": "「<ruby>病院<rt>びょういん</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -24193,7 +24193,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「夜景」の意味は？",
+        "text": "「<ruby>夜景<rt>やけい</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -24204,7 +24204,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「夫婦」の意味は？",
+        "text": "「<ruby>夫婦<rt>ふうふ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -24215,7 +24215,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「各々」の意味は？",
+        "text": "「<ruby>各々<rt>おのおの</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -24226,7 +24226,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「継ぐ」の意味は？",
+        "text": "「<ruby>継ぐ<rt>つぐ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -24237,7 +24237,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「議論する」の意味は？",
+        "text": "「<ruby>議論する<rt>ぎろんする</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "裂ける",
@@ -25478,7 +25478,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「宝石店」の意味は？",
+        "text": "「<ruby>宝石店<rt>ほうせきてん</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -25489,7 +25489,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「ゴミ置き場」の意味は？",
+        "text": "「<ruby>ゴミ置き場<rt>ごみおきば</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "冷静になる",
@@ -25500,7 +25500,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「体」の意味は？",
+        "text": "「<ruby>体<rt>からだ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -25511,7 +25511,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「向上」の意味は？",
+        "text": "「<ruby>向上<rt>こうじょう</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",
@@ -25522,7 +25522,7 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "言い換え",
-        "text": "「貴重」の意味は？",
+        "text": "「<ruby>貴重<rt>きちょう</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "断る",

@@ -1,4 +1,4 @@
-// N5 Mock Test Data - v18.8.24
+// N5 Mock Test Data - v18.8.25
 if (typeof MOCK_DATA === 'undefined') { var MOCK_DATA = {}; }
 MOCK_DATA['N5'] = {
   "info": {
@@ -919,7 +919,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>入力</u>するの　いみは？",
+        "text": "<ruby>入力<rt>にゅうりょく</rt></ruby>するの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "カメラ",
@@ -930,7 +930,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>カメラ</u>で撮るの　いみは？",
+        "text": "<ruby>カメラ<rt>カメラ</rt></ruby>で撮るの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -941,7 +941,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>歯</u>を磨くの　いみは？",
+        "text": "<ruby>歯<rt>は</rt></ruby>を磨くの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -952,7 +952,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>どうして</u>来ないの　いみは？",
+        "text": "<ruby>どうして<rt>どうして</rt></ruby>来ないの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "カメラ",
@@ -963,7 +963,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "新しい<u>技術</u>の　いみは？",
+        "text": "新しい<ruby>技術<rt>ぎじゅつ</rt></ruby>の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -1994,7 +1994,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>一人</u>で行くの　いみは？",
+        "text": "<ruby>一人<rt>ひとり</rt></ruby>で行くの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -2005,7 +2005,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>雑誌</u>を買うの　いみは？",
+        "text": "<ruby>雑誌<rt>ざっし</rt></ruby>を買うの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -2016,7 +2016,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>ニュース</u>を見るの　いみは？",
+        "text": "<ruby>ニュース<rt>ニュース</rt></ruby>を見るの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "カメラ",
@@ -2027,7 +2027,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>静か</u>な部屋の　いみは？",
+        "text": "<ruby>静か<rt>しずか</rt></ruby>な部屋の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -2038,7 +2038,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "「駐車場」の　いみは？",
+        "text": "「<ruby>駐車場<rt>ちゅうしゃじょう</rt></ruby>」の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -3069,7 +3069,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>それ</u>は本の　いみは？",
+        "text": "<ruby>それ<rt>それ</rt></ruby>は本の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -3080,7 +3080,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>歴史</u>を学ぶの　いみは？",
+        "text": "<ruby>歴史<rt>れきし</rt></ruby>を学ぶの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -3091,7 +3091,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "「靴下」の　いみは？",
+        "text": "「<ruby>靴下<rt>くつした</rt></ruby>」の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -3102,7 +3102,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>来年</u>結婚するの　いみは？",
+        "text": "<ruby>来年<rt>らいねん</rt></ruby>結婚するの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -3113,7 +3113,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "かばんを<u>持つ</u>の　いみは？",
+        "text": "かばんを<ruby>持つ<rt>もつ</rt></ruby>の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -4144,7 +4144,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "「ネクタイ」の　いみは？",
+        "text": "「<ruby>ネクタイ<rt>ネクタイ</rt></ruby>」の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "カメラ",
@@ -4155,7 +4155,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "ボールを<u>蹴る</u>の　いみは？",
+        "text": "ボールを<ruby>蹴る<rt>ける</rt></ruby>の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -4166,7 +4166,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>椅子</u>に座るの　いみは？",
+        "text": "<ruby>椅子<rt>いす</rt></ruby>に座るの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -4177,7 +4177,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>毎週</u>日曜日にの　いみは？",
+        "text": "<ruby>毎週<rt>まいしゅう</rt></ruby>日曜日にの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -4188,7 +4188,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "プレゼントを<u>喜ぶ</u>の　いみは？",
+        "text": "プレゼントを<ruby>喜ぶ<rt>よろこぶ</rt></ruby>の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -5219,7 +5219,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>お酒</u>を飲むの　いみは？",
+        "text": "<ruby>お酒<rt>おさけ</rt></ruby>を飲むの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -5230,7 +5230,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "お金を<u>払う</u>の　いみは？",
+        "text": "お金を<ruby>払う<rt>はらう</rt></ruby>の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -5241,7 +5241,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "食べた、<u>そして</u>寝たの　いみは？",
+        "text": "食べた、<ruby>そして<rt>そして</rt></ruby>寝たの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -5252,7 +5252,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>優しい</u>人の　いみは？",
+        "text": "<ruby>優しい<rt>やさしい</rt></ruby>人の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -5263,7 +5263,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>私</u>は学生ですの　いみは？",
+        "text": "<ruby>私<rt>わたし</rt></ruby>は学生ですの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -6294,7 +6294,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>あなた</u>は先生ですかの　いみは？",
+        "text": "<ruby>あなた<rt>あなた</rt></ruby>は先生ですかの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -6305,7 +6305,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>いつ</u>来るの　いみは？",
+        "text": "<ruby>いつ<rt>いつ</rt></ruby>来るの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -6316,7 +6316,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>奥さん</u>はお元気ですかの　いみは？",
+        "text": "<ruby>奥さん<rt>おくさん</rt></ruby>はお元気ですかの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -6327,7 +6327,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "タクシーの<u>運転手</u>の　いみは？",
+        "text": "タクシーの<ruby>運転手<rt>うんてんしゅ</rt></ruby>の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -6338,7 +6338,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>眼鏡</u>をかけるの　いみは？",
+        "text": "<ruby>眼鏡<rt>めがね</rt></ruby>をかけるの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -7369,7 +7369,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "そう<u>思う</u>の　いみは？",
+        "text": "そう<ruby>思う<rt>おもう</rt></ruby>の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -7380,7 +7380,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>検索</u>するの　いみは？",
+        "text": "<ruby>検索<rt>けんさく</rt></ruby>するの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -7391,7 +7391,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>翻訳</u>するの　いみは？",
+        "text": "<ruby>翻訳<rt>ほんやく</rt></ruby>するの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -7402,7 +7402,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>妻</u>は先生ですの　いみは？",
+        "text": "<ruby>妻<rt>つま</rt></ruby>は先生ですの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -7413,7 +7413,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>宿題</u>をするの　いみは？",
+        "text": "<ruby>宿題<rt>しゅくだい</rt></ruby>をするの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -8444,7 +8444,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>関係</u>があるの　いみは？",
+        "text": "<ruby>関係<rt>かんけい</rt></ruby>があるの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -8455,7 +8455,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>左</u>に曲がるの　いみは？",
+        "text": "<ruby>左<rt>ひだり</rt></ruby>に曲がるの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -8466,7 +8466,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>看護師</u>は優しいの　いみは？",
+        "text": "<ruby>看護師<rt>かんごし</rt></ruby>は優しいの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -8477,7 +8477,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "二十<u>歳</u>の　いみは？",
+        "text": "二十<ruby>歳<rt>さい</rt></ruby>の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -8488,7 +8488,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "客を<u>迎える</u>の　いみは？",
+        "text": "客を<ruby>迎える<rt>むかえる</rt></ruby>の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -9519,7 +9519,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>妹</u>は中学生ですの　いみは？",
+        "text": "<ruby>妹<rt>いもうと</rt></ruby>は中学生ですの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -9530,7 +9530,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "人が<u>少ない</u>の　いみは？",
+        "text": "人が<ruby>少ない<rt>すくない</rt></ruby>の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -9541,7 +9541,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>あの</u>人の　いみは？",
+        "text": "<ruby>あの<rt>あの</rt></ruby>人の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -9552,7 +9552,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>通訳</u>するの　いみは？",
+        "text": "<ruby>通訳<rt>つうやく</rt></ruby>するの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -9563,7 +9563,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>週末</u>に旅行の　いみは？",
+        "text": "<ruby>週末<rt>しゅうまつ</rt></ruby>に旅行の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -10594,7 +10594,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>道</u>を歩くの　いみは？",
+        "text": "<ruby>道<rt>みち</rt></ruby>を歩くの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -10605,7 +10605,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>雲</u>が多いの　いみは？",
+        "text": "<ruby>雲<rt>くも</rt></ruby>が多いの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -10616,7 +10616,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "服が<u>汚れる</u>の　いみは？",
+        "text": "服が<ruby>汚れる<rt>よごれる</rt></ruby>の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -10627,7 +10627,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>小さい</u>犬の　いみは？",
+        "text": "<ruby>小さい<rt>ちいさい</rt></ruby>犬の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -10638,7 +10638,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>夜</u>寝るの　いみは？",
+        "text": "<ruby>夜<rt>よる</rt></ruby>寝るの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -11669,7 +11669,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "医者に<u>なる</u>の　いみは？",
+        "text": "医者に<ruby>なる<rt>なる</rt></ruby>の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -11680,7 +11680,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>大人</u>になりたいの　いみは？",
+        "text": "<ruby>大人<rt>おとな</rt></ruby>になりたいの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -11691,7 +11691,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "昔を<u>思い出す</u>の　いみは？",
+        "text": "昔を<ruby>思い出す<rt>おもいだす</rt></ruby>の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "カメラ",
@@ -11702,7 +11702,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>エアコン</u>をつけるの　いみは？",
+        "text": "<ruby>エアコン<rt>エアコン</rt></ruby>をつけるの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "カメラ",
@@ -11713,7 +11713,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>削除</u>するの　いみは？",
+        "text": "<ruby>削除<rt>さくじょ</rt></ruby>するの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -12744,7 +12744,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>果物</u>を食べるの　いみは？",
+        "text": "<ruby>果物<rt>くだもの</rt></ruby>を食べるの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -12755,7 +12755,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>完璧</u>ですの　いみは？",
+        "text": "<ruby>完璧<rt>かんぺき</rt></ruby>ですの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -12766,7 +12766,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "「毎晩」の　いみは？",
+        "text": "「<ruby>毎晩<rt>まいばん</rt></ruby>」の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -12777,7 +12777,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>空</u>を見るの　いみは？",
+        "text": "<ruby>空<rt>そら</rt></ruby>を見るの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -12788,7 +12788,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "新しい料理を<u>試す</u>の　いみは？",
+        "text": "新しい料理を<ruby>試す<rt>ためす</rt></ruby>の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -13819,7 +13819,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>スポーツ</u>をするの　いみは？",
+        "text": "<ruby>スポーツ<rt>スポーツ</rt></ruby>をするの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "カメラ",
@@ -13830,7 +13830,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "ダンスを<u>踊る</u>の　いみは？",
+        "text": "ダンスを<ruby>踊る<rt>おどる</rt></ruby>の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -13841,7 +13841,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>心配</u>しないでの　いみは？",
+        "text": "<ruby>心配<rt>しんぱい</rt></ruby>しないでの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -13852,7 +13852,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "火が<u>燃える</u>の　いみは？",
+        "text": "火が<ruby>燃える<rt>もえる</rt></ruby>の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -13863,7 +13863,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "ドアを<u>引く</u>の　いみは？",
+        "text": "ドアを<ruby>引く<rt>ひく</rt></ruby>の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -14894,7 +14894,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "名前を<u>呼ぶ</u>の　いみは？",
+        "text": "名前を<ruby>呼ぶ<rt>よぶ</rt></ruby>の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -14905,7 +14905,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "荷物を<u>預ける</u>の　いみは？",
+        "text": "荷物を<ruby>預ける<rt>あずける</rt></ruby>の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -14916,7 +14916,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "友達が<u>来る</u>の　いみは？",
+        "text": "友達が<ruby>来る<rt>くる</rt></ruby>の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -14927,7 +14927,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>本</u>を読むの　いみは？",
+        "text": "<ruby>本<rt>ほん</rt></ruby>を読むの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -14938,7 +14938,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "靴を<u>履く</u>の　いみは？",
+        "text": "靴を<ruby>履く<rt>はく</rt></ruby>の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -15969,7 +15969,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>色々</u>な物の　いみは？",
+        "text": "<ruby>色々<rt>いろいろ</rt></ruby>な物の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -15980,7 +15980,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "予定を<u>変える</u>の　いみは？",
+        "text": "予定を<ruby>変える<rt>かえる</rt></ruby>の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -15991,7 +15991,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "日本での<u>生活</u>の　いみは？",
+        "text": "日本での<ruby>生活<rt>せいかつ</rt></ruby>の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -16002,7 +16002,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "朝<u>起きる</u>の　いみは？",
+        "text": "朝<ruby>起きる<rt>おきる</rt></ruby>の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -16013,7 +16013,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>共有</u>するの　いみは？",
+        "text": "<ruby>共有<rt>きょうゆう</rt></ruby>するの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -17044,7 +17044,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "ボールを<u>捕まえる</u>の　いみは？",
+        "text": "ボールを<ruby>捕まえる<rt>つかまえる</rt></ruby>の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "カメラ",
@@ -17055,7 +17055,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "「居間」の　いみは？",
+        "text": "「<ruby>居間<rt>いま</rt></ruby>」の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -17066,7 +17066,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>趣味</u>は何の　いみは？",
+        "text": "<ruby>趣味<rt>しゅみ</rt></ruby>は何の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -17077,7 +17077,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>高い</u>ビルの　いみは？",
+        "text": "<ruby>高い<rt>たかい</rt></ruby>ビルの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -17088,7 +17088,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>賑やか</u>な町の　いみは？",
+        "text": "<ruby>賑やか<rt>にぎやか</rt></ruby>な町の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -18119,7 +18119,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>博物館</u>に行くの　いみは？",
+        "text": "<ruby>博物館<rt>はくぶつかん</rt></ruby>に行くの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -18130,7 +18130,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>空港</u>に行くの　いみは？",
+        "text": "<ruby>空港<rt>くうこう</rt></ruby>に行くの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -18141,7 +18141,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>新聞</u>を読むの　いみは？",
+        "text": "<ruby>新聞<rt>しんぶん</rt></ruby>を読むの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -18152,7 +18152,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>足</u>が痛いの　いみは？",
+        "text": "<ruby>足<rt>あし</rt></ruby>が痛いの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -18163,7 +18163,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>今</u>何時ですかの　いみは？",
+        "text": "<ruby>今<rt>いま</rt></ruby>何時ですかの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -19194,7 +19194,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "一<u>万</u>円の　いみは？",
+        "text": "一<ruby>万<rt>まん</rt></ruby>円の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -19205,7 +19205,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>友達</u>と遊ぶの　いみは？",
+        "text": "<ruby>友達<rt>ともだち</rt></ruby>と遊ぶの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -19216,7 +19216,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "「携帯電話」の　いみは？",
+        "text": "「<ruby>携帯電話<rt>けいたいでんわ</rt></ruby>」の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "カメラ",
@@ -19227,7 +19227,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>遅い</u>時間の　いみは？",
+        "text": "<ruby>遅い<rt>おそい</rt></ruby>時間の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -19238,7 +19238,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>荷物</u>を預けるの　いみは？",
+        "text": "<ruby>荷物<rt>にもつ</rt></ruby>を預けるの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -20269,7 +20269,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>入学</u>するの　いみは？",
+        "text": "<ruby>入学<rt>にゅうがく</rt></ruby>するの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -20280,7 +20280,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "駅の<u>前</u>の　いみは？",
+        "text": "駅の<ruby>前<rt>まえ</rt></ruby>の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -20291,7 +20291,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>家族</u>は4人ですの　いみは？",
+        "text": "<ruby>家族<rt>かぞく</rt></ruby>は4人ですの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -20302,7 +20302,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "三十<u>度</u>の　いみは？",
+        "text": "三十<ruby>度<rt>ど</rt></ruby>の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -20313,7 +20313,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>挨拶</u>するの　いみは？",
+        "text": "<ruby>挨拶<rt>あいさつ</rt></ruby>するの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -21344,7 +21344,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>同僚</u>と話すの　いみは？",
+        "text": "<ruby>同僚<rt>どうりょう</rt></ruby>と話すの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -21355,7 +21355,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "学校に<u>行く</u>の　いみは？",
+        "text": "学校に<ruby>行く<rt>いく</rt></ruby>の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -21366,7 +21366,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>傘</u>を持つの　いみは？",
+        "text": "<ruby>傘<rt>かさ</rt></ruby>を持つの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -21377,7 +21377,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "友達に<u>会う</u>の　いみは？",
+        "text": "友達に<ruby>会う<rt>あう</rt></ruby>の　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",
@@ -21388,7 +21388,7 @@ MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "<u>到着</u>するの　いみは？",
+        "text": "<ruby>到着<rt>とうちゃく</rt></ruby>するの　いみは？",
         "question": "意味が近いのは？",
         "options": [
           "入力",

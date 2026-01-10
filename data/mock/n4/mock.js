@@ -1,4 +1,4 @@
-// N4 Mock Test Data - v18.8.24
+// N4 Mock Test Data - v18.8.25
 if (typeof MOCK_DATA === 'undefined') { var MOCK_DATA = {}; }
 MOCK_DATA['N4'] = {
   "info": {
@@ -1011,7 +1011,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「降格」の意味は？",
+        "text": "「<ruby>降格<rt>こうかく</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "飛ぶ",
@@ -1022,7 +1022,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「飛ぶ」の意味は？",
+        "text": "「<ruby>飛ぶ<rt>とぶ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -1033,7 +1033,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「金利」の意味は？",
+        "text": "「<ruby>金利<rt>きんり</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -1044,7 +1044,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「大事」の意味は？",
+        "text": "「<ruby>大事<rt>だいじ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -1055,7 +1055,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「信念」の意味は？",
+        "text": "「<ruby>信念<rt>しんねん</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -2233,7 +2233,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「交渉」の意味は？",
+        "text": "「<ruby>交渉<rt>こうしょう</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -2244,7 +2244,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「届く」の意味は？",
+        "text": "「<ruby>届く<rt>とどく</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -2255,7 +2255,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「浮かべる」の意味は？",
+        "text": "「<ruby>浮かべる<rt>うかべる</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "運動する",
@@ -2266,7 +2266,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「国際」の意味は？",
+        "text": "「<ruby>国際<rt>こくさい</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -2277,7 +2277,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「太る」の意味は？",
+        "text": "「<ruby>太る<rt>ふとる</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -3455,7 +3455,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「運動する」の意味は？",
+        "text": "「<ruby>運動する<rt>うんどうする</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "浮かべる",
@@ -3466,7 +3466,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「判断する」の意味は？",
+        "text": "「<ruby>判断する<rt>はんだんする</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "浮かべる",
@@ -3477,7 +3477,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「体重」の意味は？",
+        "text": "「<ruby>体重<rt>たいじゅう</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -3488,7 +3488,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「煮る」の意味は？",
+        "text": "「<ruby>煮る<rt>にる</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -3499,7 +3499,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「結果」の意味は？",
+        "text": "「<ruby>結果<rt>けっか</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -4677,7 +4677,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「歯科」の意味は？",
+        "text": "「<ruby>歯科<rt>しか</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -4688,7 +4688,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「試合」の意味は？",
+        "text": "「<ruby>試合<rt>しあい</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -4699,7 +4699,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「工程」の意味は？",
+        "text": "「<ruby>工程<rt>こうてい</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -4710,7 +4710,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「診察」の意味は？",
+        "text": "「<ruby>診察<rt>しんさつ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -4721,7 +4721,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「ライセンス」の意味は？",
+        "text": "「<ruby>ライセンス<rt>らいせんす</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "浮かべる",
@@ -5899,7 +5899,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「一括払い」の意味は？",
+        "text": "「<ruby>一括払い<rt>いっかつばらい</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "浮かべる",
@@ -5910,7 +5910,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「影響」の意味は？",
+        "text": "「<ruby>影響<rt>えいきょう</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -5921,7 +5921,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「褒める」の意味は？",
+        "text": "「<ruby>褒める<rt>ほめる</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -5932,7 +5932,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「案内」の意味は？",
+        "text": "「<ruby>案内<rt>あんない</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -5943,7 +5943,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「夢」の意味は？",
+        "text": "「<ruby>夢<rt>ゆめ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -7121,7 +7121,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「救急」の意味は？",
+        "text": "「<ruby>救急<rt>きゅうきゅう</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -7132,7 +7132,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「迷う」の意味は？",
+        "text": "「<ruby>迷う<rt>まよう</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -7143,7 +7143,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「干す」の意味は？",
+        "text": "「<ruby>干す<rt>ほす</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -7154,7 +7154,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「同封」の意味は？",
+        "text": "「<ruby>同封<rt>どうふう</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -7165,7 +7165,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「暮らす」の意味は？",
+        "text": "「<ruby>暮らす<rt>くらす</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -8343,7 +8343,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「正直」の意味は？",
+        "text": "「<ruby>正直<rt>しょうじき</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -8354,7 +8354,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「非常口」の意味は？",
+        "text": "「<ruby>非常口<rt>ひじょうぐち</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -8365,7 +8365,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「届け先」の意味は？",
+        "text": "「<ruby>届け先<rt>とどけさき</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -8376,7 +8376,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「混む」の意味は？",
+        "text": "「<ruby>混む<rt>こむ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -8387,7 +8387,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「免許」の意味は？",
+        "text": "「<ruby>免許<rt>めんきょ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -9565,7 +9565,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「固める」の意味は？",
+        "text": "「<ruby>固める<rt>かためる</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -9576,7 +9576,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「欠ける」の意味は？",
+        "text": "「<ruby>欠ける<rt>かける</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -9587,7 +9587,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「打ち合わせる」の意味は？",
+        "text": "「<ruby>打ち合わせる<rt>うちあわせる</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "ライセンス",
@@ -9598,7 +9598,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「素晴らしい」の意味は？",
+        "text": "「<ruby>素晴らしい<rt>すばらしい</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "浮かべる",
@@ -9609,7 +9609,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「思い出」の意味は？",
+        "text": "「<ruby>思い出<rt>おもいで</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -10787,7 +10787,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「短縮」の意味は？",
+        "text": "「<ruby>短縮<rt>たんしゅく</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -10798,7 +10798,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「維持」の意味は？",
+        "text": "「<ruby>維持<rt>いじ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -10809,7 +10809,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「羨ましい」の意味は？",
+        "text": "「<ruby>羨ましい<rt>うらやましい</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "浮かべる",
@@ -10820,7 +10820,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「骨」の意味は？",
+        "text": "「<ruby>骨<rt>ほね</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -10831,7 +10831,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「最後」の意味は？",
+        "text": "「<ruby>最後<rt>さいご</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -12009,7 +12009,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「貰う」の意味は？",
+        "text": "「<ruby>貰う<rt>もらう</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -12020,7 +12020,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「独立」の意味は？",
+        "text": "「<ruby>独立<rt>どくりつ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -12031,7 +12031,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「試験」の意味は？",
+        "text": "「<ruby>試験<rt>しけん</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -12042,7 +12042,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「始める」の意味は？",
+        "text": "「<ruby>始める<rt>はじめる</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -12053,7 +12053,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「深める」の意味は？",
+        "text": "「<ruby>深める<rt>ふかめる</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -13231,7 +13231,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「当然」の意味は？",
+        "text": "「<ruby>当然<rt>とうぜん</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -13242,7 +13242,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「条件」の意味は？",
+        "text": "「<ruby>条件<rt>じょうけん</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -13253,7 +13253,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「今度」の意味は？",
+        "text": "「<ruby>今度<rt>こんど</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -13264,7 +13264,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「抜ける」の意味は？",
+        "text": "「<ruby>抜ける<rt>ぬける</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -13275,7 +13275,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「設定」の意味は？",
+        "text": "「<ruby>設定<rt>せってい</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -14453,7 +14453,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「吹く」の意味は？",
+        "text": "「<ruby>吹く<rt>ふく</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -14464,7 +14464,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「壊れる」の意味は？",
+        "text": "「<ruby>壊れる<rt>こわれる</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -14475,7 +14475,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「進歩する」の意味は？",
+        "text": "「<ruby>進歩する<rt>しんぽする</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "浮かべる",
@@ -14486,7 +14486,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「欠席」の意味は？",
+        "text": "「<ruby>欠席<rt>けっせき</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -14497,7 +14497,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「届け出」の意味は？",
+        "text": "「<ruby>届け出<rt>とどけで</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -15675,7 +15675,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「落ち着く」の意味は？",
+        "text": "「<ruby>落ち着く<rt>おちつく</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "浮かべる",
@@ -15686,7 +15686,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「信頼」の意味は？",
+        "text": "「<ruby>信頼<rt>しんらい</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -15697,7 +15697,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「真剣」の意味は？",
+        "text": "「<ruby>真剣<rt>しんけん</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -15708,7 +15708,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「覚悟」の意味は？",
+        "text": "「<ruby>覚悟<rt>かくご</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -15719,7 +15719,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「報告書」の意味は？",
+        "text": "「<ruby>報告書<rt>ほうこくしょ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -16897,7 +16897,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「税抜」の意味は？",
+        "text": "「<ruby>税抜<rt>ぜいぬき</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -16908,7 +16908,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「税金」の意味は？",
+        "text": "「<ruby>税金<rt>ぜいきん</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -16919,7 +16919,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「不可能」の意味は？",
+        "text": "「<ruby>不可能<rt>ふかのう</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -16930,7 +16930,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「転職」の意味は？",
+        "text": "「<ruby>転職<rt>てんしょく</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -16941,7 +16941,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「候補」の意味は？",
+        "text": "「<ruby>候補<rt>こうほ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -18119,7 +18119,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「外す」の意味は？",
+        "text": "「<ruby>外す<rt>はずす</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -18130,7 +18130,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「防止」の意味は？",
+        "text": "「<ruby>防止<rt>ぼうし</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -18141,7 +18141,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「取り寄せ」の意味は？",
+        "text": "「<ruby>取り寄せ<rt>とりよせ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "浮かべる",
@@ -18152,7 +18152,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「売上」の意味は？",
+        "text": "「<ruby>売上<rt>うりあげ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -18163,7 +18163,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「告げる」の意味は？",
+        "text": "「<ruby>告げる<rt>つげる</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -19341,7 +19341,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「添付」の意味は？",
+        "text": "「<ruby>添付<rt>てんぷ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -19352,7 +19352,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「練習」の意味は？",
+        "text": "「<ruby>練習<rt>れんしゅう</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -19363,7 +19363,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「携帯」の意味は？",
+        "text": "「<ruby>携帯<rt>けいたい</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -19374,7 +19374,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「安い」の意味は？",
+        "text": "「<ruby>安い<rt>やすい</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -19385,7 +19385,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「部品」の意味は？",
+        "text": "「<ruby>部品<rt>ぶひん</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -20563,7 +20563,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「課長」の意味は？",
+        "text": "「<ruby>課長<rt>かちょう</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -20574,7 +20574,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「向かう」の意味は？",
+        "text": "「<ruby>向かう<rt>むかう</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -20585,7 +20585,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「壊す」の意味は？",
+        "text": "「<ruby>壊す<rt>こわす</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -20596,7 +20596,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「示す」の意味は？",
+        "text": "「<ruby>示す<rt>しめす</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -20607,7 +20607,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「痩せる」の意味は？",
+        "text": "「<ruby>痩せる<rt>やせる</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -21785,7 +21785,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「受け取る」の意味は？",
+        "text": "「<ruby>受け取る<rt>うけとる</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "浮かべる",
@@ -21796,7 +21796,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「泣く」の意味は？",
+        "text": "「<ruby>泣く<rt>なく</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -21807,7 +21807,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「変わる」の意味は？",
+        "text": "「<ruby>変わる<rt>かわる</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -21818,7 +21818,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「固い」の意味は？",
+        "text": "「<ruby>固い<rt>かたい</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -21829,7 +21829,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「領収書」の意味は？",
+        "text": "「<ruby>領収書<rt>りょうしゅうしょ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -23007,7 +23007,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「怪我」の意味は？",
+        "text": "「<ruby>怪我<rt>けが</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -23018,7 +23018,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「季節」の意味は？",
+        "text": "「<ruby>季節<rt>きせつ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -23029,7 +23029,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「大丈夫」の意味は？",
+        "text": "「<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -23040,7 +23040,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「退場」の意味は？",
+        "text": "「<ruby>退場<rt>たいじょう</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -23051,7 +23051,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「役立つ」の意味は？",
+        "text": "「<ruby>役立つ<rt>やくだつ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -24229,7 +24229,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「調べる」の意味は？",
+        "text": "「<ruby>調べる<rt>しらべる</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -24240,7 +24240,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「延ばす」の意味は？",
+        "text": "「<ruby>延ばす<rt>のばす</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -24251,7 +24251,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「願い」の意味は？",
+        "text": "「<ruby>願い<rt>ねがい</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -24262,7 +24262,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「印刷」の意味は？",
+        "text": "「<ruby>印刷<rt>いんさつ</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
@@ -24273,7 +24273,7 @@ MOCK_DATA['N4'] = {
       },
       {
         "type": "言い換え",
-        "text": "「疲れる」の意味は？",
+        "text": "「<ruby>疲れる<rt>つかれる</rt></ruby>」の意味は？",
         "question": "意味が近いのは？",
         "options": [
           "降格",
