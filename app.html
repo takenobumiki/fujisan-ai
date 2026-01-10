@@ -206,6 +206,32 @@
     <button class="level-select-btn" data-level="N1">N1</button>
   </div>
   
+  <!-- AI Coach Card (Adaptive Learning) -->
+  <div class="ai-coach-card" id="ai-coach-card" style="display:none;">
+    <div class="ai-coach-header">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+      <span data-i18n="ai_coach_title">This Week's Focus</span>
+      <button class="ai-coach-refresh" onclick="refreshAICoach()" title="Refresh">↻</button>
+    </div>
+    <div class="ai-coach-focus" id="ai-coach-focus">Loading...</div>
+    <div class="ai-coach-reason" id="ai-coach-reason"></div>
+    <div class="ai-coach-expand" id="ai-coach-expand" onclick="toggleAICoachDetails()">
+      <span data-i18n="ai_coach_details">View Details</span> ▼
+    </div>
+    <div class="ai-coach-details" id="ai-coach-details" style="display:none;">
+      <div class="ai-coach-celebrate" id="ai-coach-celebrate" style="display:none;"></div>
+      <div class="ai-coach-skills">
+        <div class="skill-bar-label"><span data-i18n="ai_coach_receptive">Understanding</span> <span id="receptive-pct">-</span></div>
+        <div class="skill-bar"><div class="skill-bar-fill receptive" id="receptive-bar"></div></div>
+        <div class="skill-bar-label"><span data-i18n="ai_coach_productive">Using</span> <span id="productive-pct">-</span></div>
+        <div class="skill-bar"><div class="skill-bar-fill productive" id="productive-bar"></div></div>
+      </div>
+      <div class="ai-coach-insight" id="ai-coach-insight"></div>
+      <div class="ai-coach-units" id="ai-coach-units"></div>
+      <div class="ai-coach-encouragement" id="ai-coach-encouragement"></div>
+    </div>
+  </div>
+  
   <!-- NAV BAR (3 items: Drill, Mock, AI) -->
   <nav class="nav-bar nav-bar-3">
     <button class="nav-btn active" data-screen="drill"><span class="nav-icon"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M4 4h6c1.1 0 2 .9 2 2v14c0-.55-.45-1-1-1H4V4zm16 0h-6c-1.1 0-2 .9-2 2v14c0-.55.45-1 1-1h7V4z"/></svg></span>Drill</button>

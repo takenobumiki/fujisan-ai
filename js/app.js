@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.10.4';
+const APP_VERSION = '18.11.1';
 const STORAGE_KEY = 'fujisan_v1737';
 
 // ========== UI TRANSLATIONS ==========
@@ -65,6 +65,18 @@ const UI_TEXTS = {
     // Trial success message
     trial_welcome: '🎉 Welcome! Your 7-day free trial of {plan} ({billing}) plan has started. All features are unlocked!',
     billing_annual: 'Annual', billing_monthly: 'Monthly',
+    // AI Coach (Adaptive Learning)
+    ai_coach_title: "This Week's Focus",
+    ai_coach_loading: 'Analyzing your progress...',
+    ai_coach_details: 'View Details',
+    ai_coach_hide: 'Hide Details',
+    ai_coach_receptive: 'Understanding (Listen/Read)',
+    ai_coach_productive: 'Using (Meaning/Write)',
+    ai_coach_recommended: 'Focus',
+    ai_coach_review: 'Review',
+    ai_coach_fallback_focus: 'Keep up your daily practice!',
+    ai_coach_fallback_reason: 'Consistency is the key to mastering Japanese.',
+    ai_coach_fallback_encourage: "You're making great progress!",
     // Mock Result Report
     mock_report_analyzing: '🔍 AI is analyzing your results...',
     mock_report_strengths: 'Strengths',
@@ -317,6 +329,18 @@ const UI_TEXTS = {
     trial_start: '開始7天免費試用', trial_note: '7天免費試用 • 隨時取消', trial_later: '稍後再說',
     trial_welcome: '🎉 歡迎！您的 {plan}（{billing}）方案 7 天免費試用已開始。所有功能已解鎖！',
     billing_annual: '年付', billing_monthly: '月付',
+    // AI Coach
+    ai_coach_title: '本週重點',
+    ai_coach_loading: '正在分析您的學習進度...',
+    ai_coach_details: '查看詳情',
+    ai_coach_hide: '隱藏詳情',
+    ai_coach_receptive: '理解能力（聽/讀）',
+    ai_coach_productive: '運用能力（意思/寫）',
+    ai_coach_recommended: '重點',
+    ai_coach_review: '複習',
+    ai_coach_fallback_focus: '保持每日練習！',
+    ai_coach_fallback_reason: '持續學習是掌握日語的關鍵。',
+    ai_coach_fallback_encourage: '您正在取得很好的進步！',
     mock_report_analyzing: '🔍 AI 正在分析您的結果...',
     mock_report_strengths: '優勢',
     mock_report_weaknesses: '需要加強的領域',
@@ -466,6 +490,18 @@ const UI_TEXTS = {
     trial_start: '开始7天免费试用', trial_note: '7天免费试用 • 随时取消', trial_later: '稍后再说',
     trial_welcome: '🎉 欢迎！您的 {plan}（{billing}）方案 7 天免费试用已开始。所有功能已解锁！',
     billing_annual: '年付', billing_monthly: '月付',
+    // AI Coach
+    ai_coach_title: '本周重点',
+    ai_coach_loading: '正在分析您的学习进度...',
+    ai_coach_details: '查看详情',
+    ai_coach_hide: '隐藏详情',
+    ai_coach_receptive: '理解能力（听/读）',
+    ai_coach_productive: '运用能力（意思/写）',
+    ai_coach_recommended: '重点',
+    ai_coach_review: '复习',
+    ai_coach_fallback_focus: '保持每日练习！',
+    ai_coach_fallback_reason: '持续学习是掌握日语的关键。',
+    ai_coach_fallback_encourage: '您正在取得很好的进步！',
     mock_report_analyzing: '🔍 AI 正在分析您的结果...',
     mock_report_strengths: '优势',
     mock_report_weaknesses: '需要加强的领域',
@@ -615,6 +651,18 @@ const UI_TEXTS = {
     trial_start: '7일 무료 체험 시작', trial_note: '7일 무료 체험 • 언제든 취소', trial_later: '나중에',
     trial_welcome: '🎉 환영합니다! {plan}({billing}) 플랜의 7일 무료 체험이 시작되었습니다. 모든 기능이 잠금 해제되었어요!',
     billing_annual: '연간', billing_monthly: '월간',
+    // AI Coach
+    ai_coach_title: '이번 주 중점',
+    ai_coach_loading: '학습 진도를 분석 중...',
+    ai_coach_details: '상세 보기',
+    ai_coach_hide: '상세 숨기기',
+    ai_coach_receptive: '이해력 (듣기/읽기)',
+    ai_coach_productive: '활용력 (의미/쓰기)',
+    ai_coach_recommended: '중점',
+    ai_coach_review: '복습',
+    ai_coach_fallback_focus: '매일 꾸준히 연습하세요!',
+    ai_coach_fallback_reason: '꾸준함이 일본어 마스터의 핵심입니다.',
+    ai_coach_fallback_encourage: '잘 하고 계세요!',
     mock_report_analyzing: '🔍 AI가 결과를 분석 중입니다...',
     mock_report_strengths: '강점',
     mock_report_weaknesses: '개선이 필요한 부분',
@@ -764,6 +812,18 @@ const UI_TEXTS = {
     trial_start: 'Bắt đầu 7 ngày miễn phí', trial_note: '7 ngày miễn phí • Hủy bất cứ lúc nào', trial_later: 'Để sau',
     trial_welcome: '🎉 Chào mừng! Bản dùng thử 7 ngày miễn phí gói {plan} ({billing}) đã bắt đầu. Tất cả tính năng đã được mở khóa!',
     billing_annual: 'Năm', billing_monthly: 'Tháng',
+    // AI Coach
+    ai_coach_title: 'Trọng tâm tuần này',
+    ai_coach_loading: 'Đang phân tích tiến độ học...',
+    ai_coach_details: 'Xem chi tiết',
+    ai_coach_hide: 'Ẩn chi tiết',
+    ai_coach_receptive: 'Khả năng hiểu (Nghe/Đọc)',
+    ai_coach_productive: 'Khả năng sử dụng (Nghĩa/Viết)',
+    ai_coach_recommended: 'Trọng tâm',
+    ai_coach_review: 'Ôn tập',
+    ai_coach_fallback_focus: 'Hãy luyện tập mỗi ngày!',
+    ai_coach_fallback_reason: 'Sự kiên trì là chìa khóa để thành thạo tiếng Nhật.',
+    ai_coach_fallback_encourage: 'Bạn đang tiến bộ rất tốt!',
     mock_report_analyzing: '🔍 AI đang phân tích kết quả của bạn...',
     mock_report_strengths: 'Điểm mạnh',
     mock_report_weaknesses: 'Cần cải thiện',
@@ -896,6 +956,18 @@ const UI_TEXTS = {
     trial_start: 'Mulai 7 Hari Gratis', trial_note: '7 hari gratis • Batalkan kapan saja', trial_later: 'Nanti',
     trial_welcome: '🎉 Selamat datang! Uji coba 7 hari gratis paket {plan} ({billing}) telah dimulai. Semua fitur terbuka!',
     billing_annual: 'Tahunan', billing_monthly: 'Bulanan',
+    // AI Coach
+    ai_coach_title: 'Fokus Minggu Ini',
+    ai_coach_loading: 'Menganalisis kemajuan belajar...',
+    ai_coach_details: 'Lihat Detail',
+    ai_coach_hide: 'Sembunyikan Detail',
+    ai_coach_receptive: 'Pemahaman (Dengar/Baca)',
+    ai_coach_productive: 'Penggunaan (Arti/Tulis)',
+    ai_coach_recommended: 'Fokus',
+    ai_coach_review: 'Ulang',
+    ai_coach_fallback_focus: 'Terus berlatih setiap hari!',
+    ai_coach_fallback_reason: 'Konsistensi adalah kunci menguasai bahasa Jepang.',
+    ai_coach_fallback_encourage: 'Anda membuat kemajuan yang bagus!',
     mock_report_analyzing: '🔍 AI sedang menganalisis hasil Anda...',
     mock_report_strengths: 'Kekuatan', mock_report_weaknesses: 'Perlu Ditingkatkan', mock_report_next_steps: 'Rencana Belajar',
     mock_report_error: 'Tidak dapat membuat laporan AI. Silakan coba lagi.',
@@ -6170,5 +6242,265 @@ document.querySelectorAll('.level-select-btn').forEach(btn => {
 
 // Set initial level theme
 document.body.setAttribute('data-theme', state.level || 'N5');
+
+// ===== AI Coach (Adaptive Learning) =====
+const AI_COACH_CACHE_KEY = 'fujisan_ai_coach_';
+const AI_COACH_CACHE_DURATION = 24 * 60 * 60 * 1000; // 24 hours
+
+async function loadAICoach(forceRefresh = false) {
+  const card = document.getElementById('ai-coach-card');
+  if (!card) return;
+  
+  const cacheKey = AI_COACH_CACHE_KEY + state.level;
+  const cached = localStorage.getItem(cacheKey);
+  
+  // Check cache
+  if (!forceRefresh && cached) {
+    try {
+      const { data, timestamp } = JSON.parse(cached);
+      if (Date.now() - timestamp < AI_COACH_CACHE_DURATION) {
+        displayAICoach(data);
+        return;
+      }
+    } catch (e) {}
+  }
+  
+  // Collect learner data
+  const learnerData = collectLearnerData();
+  
+  // If not enough data, hide the card
+  if (learnerData.totalAnswers < 10) {
+    card.style.display = 'none';
+    return;
+  }
+  
+  card.style.display = 'block';
+  document.getElementById('ai-coach-focus').textContent = getText('ai_coach_loading') || 'Analyzing your progress...';
+  document.getElementById('ai-coach-reason').textContent = '';
+  
+  try {
+    const response = await fetch('/.netlify/functions/ai-learning-coach', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        learnerData,
+        level: state.level,
+        lang: state.lang
+      })
+    });
+    
+    if (!response.ok) throw new Error('API error');
+    
+    const { analysis } = await response.json();
+    
+    // Cache the result
+    localStorage.setItem(cacheKey, JSON.stringify({
+      data: analysis,
+      timestamp: Date.now()
+    }));
+    
+    displayAICoach(analysis);
+    
+  } catch (error) {
+    console.error('AI Coach error:', error);
+    // Show fallback
+    displayAICoach({
+      weeklyFocus: getText('ai_coach_fallback_focus') || 'Keep up your daily practice!',
+      focusReason: getText('ai_coach_fallback_reason') || 'Consistency is the key to mastering Japanese.',
+      skillBalance: { receptive: 50, productive: 50, insight: '' },
+      recommendedUnits: [],
+      reviewUnits: [],
+      encouragement: getText('ai_coach_fallback_encourage') || "You're making great progress!"
+    });
+  }
+}
+
+function collectLearnerData() {
+  // Gather stats from localStorage
+  const stats = JSON.parse(localStorage.getItem('fujisan_stats_' + state.level) || '{}');
+  const srsData = JSON.parse(localStorage.getItem('fujisan_srs_' + state.level) || '{}');
+  const wrongItems = JSON.parse(localStorage.getItem('fujisan_wrong_' + state.level) || '[]');
+  
+  // Calculate skill breakdown
+  const skillStats = {
+    listening: { correct: 0, total: 0 },
+    reading: { correct: 0, total: 0 },
+    meaning: { correct: 0, total: 0 },
+    writing: { correct: 0, total: 0 }
+  };
+  
+  // Process stats if available
+  if (stats.bySkill) {
+    Object.keys(stats.bySkill).forEach(skill => {
+      if (skillStats[skill]) {
+        skillStats[skill] = stats.bySkill[skill];
+      }
+    });
+  }
+  
+  // Calculate receptive vs productive
+  const receptive = (skillStats.listening.correct + skillStats.reading.correct) / 
+                    Math.max(1, skillStats.listening.total + skillStats.reading.total) * 100;
+  const productive = (skillStats.meaning.correct + skillStats.writing.correct) / 
+                     Math.max(1, skillStats.meaning.total + skillStats.writing.total) * 100;
+  
+  // Get unit completion data
+  const unitProgress = JSON.parse(localStorage.getItem('fujisan_units_' + state.level) || '{}');
+  
+  // Find weak categories
+  const categoryStats = stats.byCategory || {};
+  
+  // Items due for review (from SRS)
+  const now = Date.now();
+  const dueForReview = Object.entries(srsData)
+    .filter(([key, item]) => item.nextReview && item.nextReview <= now)
+    .map(([key]) => key);
+  
+  return {
+    level: state.level,
+    totalAnswers: stats.total || 0,
+    accuracy: stats.total ? Math.round((stats.correct || 0) / stats.total * 100) : 0,
+    skillStats,
+    receptiveAccuracy: Math.round(receptive),
+    productiveAccuracy: Math.round(productive),
+    categoryStats,
+    completedUnits: Object.keys(unitProgress).filter(u => unitProgress[u]?.completed).length,
+    recentWrongItems: wrongItems.slice(-20),
+    itemsDueForReview: dueForReview.length,
+    studyDays: stats.studyDays || 0,
+    lastStudyDate: stats.lastStudyDate || null
+  };
+}
+
+function displayAICoach(analysis) {
+  const card = document.getElementById('ai-coach-card');
+  if (!card) return;
+  
+  card.style.display = 'block';
+  
+  // Main focus
+  document.getElementById('ai-coach-focus').textContent = analysis.weeklyFocus || '';
+  document.getElementById('ai-coach-reason').textContent = analysis.focusReason || '';
+  
+  // Skill balance
+  const receptive = analysis.skillBalance?.receptive || 0;
+  const productive = analysis.skillBalance?.productive || 0;
+  
+  document.getElementById('receptive-pct').textContent = receptive + '%';
+  document.getElementById('productive-pct').textContent = productive + '%';
+  document.getElementById('receptive-bar').style.width = receptive + '%';
+  document.getElementById('productive-bar').style.width = productive + '%';
+  
+  // Insight
+  const insightEl = document.getElementById('ai-coach-insight');
+  if (analysis.skillBalance?.insight) {
+    insightEl.textContent = analysis.skillBalance.insight;
+    insightEl.style.display = 'block';
+  } else {
+    insightEl.style.display = 'none';
+  }
+  
+  // Celebrate Win (new)
+  const celebrateEl = document.getElementById('ai-coach-celebrate');
+  if (celebrateEl && analysis.celebrateWin) {
+    celebrateEl.textContent = '🎉 ' + analysis.celebrateWin;
+    celebrateEl.style.display = 'block';
+  } else if (celebrateEl) {
+    celebrateEl.style.display = 'none';
+  }
+  
+  // Recommended and review units
+  const unitsEl = document.getElementById('ai-coach-units');
+  unitsEl.innerHTML = '';
+  
+  const recLabel = getText('ai_coach_recommended') || 'Recommended';
+  const revLabel = getText('ai_coach_review') || 'Review';
+  
+  (analysis.recommendedUnits || []).forEach(unit => {
+    const tag = document.createElement('span');
+    tag.className = 'ai-coach-unit-tag recommended';
+    tag.textContent = `${recLabel}: Unit ${unit}`;
+    tag.onclick = () => startUnit(unit);
+    tag.style.cursor = 'pointer';
+    unitsEl.appendChild(tag);
+    
+    // Mark on grid
+    const unitBtn = document.querySelector(`.unit-btn[data-unit="${unit}"]`);
+    if (unitBtn) unitBtn.classList.add('ai-recommended');
+  });
+  
+  (analysis.reviewUnits || []).forEach(unit => {
+    const tag = document.createElement('span');
+    tag.className = 'ai-coach-unit-tag review';
+    tag.textContent = `${revLabel}: Unit ${unit}`;
+    tag.onclick = () => startUnit(unit);
+    tag.style.cursor = 'pointer';
+    unitsEl.appendChild(tag);
+    
+    // Mark on grid
+    const unitBtn = document.querySelector(`.unit-btn[data-unit="${unit}"]`);
+    if (unitBtn) unitBtn.classList.add('ai-review');
+  });
+  
+  // Encouragement
+  const encourageEl = document.getElementById('ai-coach-encouragement');
+  if (analysis.encouragement) {
+    encourageEl.textContent = analysis.encouragement;
+    encourageEl.style.display = 'block';
+  } else {
+    encourageEl.style.display = 'none';
+  }
+}
+
+function toggleAICoachDetails() {
+  const details = document.getElementById('ai-coach-details');
+  const expand = document.getElementById('ai-coach-expand');
+  
+  if (details.style.display === 'none') {
+    details.style.display = 'block';
+    expand.innerHTML = '<span data-i18n="ai_coach_hide">Hide Details</span> ▲';
+    expand.classList.add('expanded');
+  } else {
+    details.style.display = 'none';
+    expand.innerHTML = '<span data-i18n="ai_coach_details">View Details</span> ▼';
+    expand.classList.remove('expanded');
+  }
+}
+
+function refreshAICoach() {
+  const btn = document.querySelector('.ai-coach-refresh');
+  if (btn) {
+    btn.classList.add('spinning');
+    setTimeout(() => btn.classList.remove('spinning'), 1000);
+  }
+  
+  // Clear cache for current level
+  localStorage.removeItem(AI_COACH_CACHE_KEY + state.level);
+  
+  // Clear unit markers
+  document.querySelectorAll('.unit-btn').forEach(btn => {
+    btn.classList.remove('ai-recommended', 'ai-review');
+  });
+  
+  loadAICoach(true);
+}
+
+// Load AI Coach on dashboard load (after a short delay)
+setTimeout(() => {
+  if (document.getElementById('screen-drill')?.classList.contains('active')) {
+    loadAICoach();
+  }
+}, 1500);
+
+// Reload AI Coach when level changes
+const originalSelectLevel = window.selectLevel;
+window.selectLevel = function(level) {
+  if (originalSelectLevel) originalSelectLevel(level);
+  // Clear unit markers
+  document.querySelectorAll('.unit-btn').forEach(btn => {
+    btn.classList.remove('ai-recommended', 'ai-review');
+  });
+  setTimeout(() => loadAICoach(), 500);
+};
 
 console.log('Fujisan.AI v' + APP_VERSION + ' loaded (lazy loading enabled)');
