@@ -1,4 +1,4 @@
-// N3 Mock Test Data - v18.8.15
+// N3 Mock Test Data - v18.8.16
 if (typeof MOCK_DATA === 'undefined') { var MOCK_DATA = {}; }
 MOCK_DATA['N3'] = {
   "info": {
@@ -401,65 +401,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>届ける<rt>とどける</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「手」の用法として正しいのは？（1）",
+        "question": "正しいのは？",
         "options": [
-          "荷物を届ける",
-          "届けるを食べる",
-          "届けるに乗る",
-          "届けるを着る"
+          "手が足りない",
+          "手が高い",
+          "手が遅い",
+          "手が軽い"
         ],
         "answer": 0,
         "id": "N3-01-031"
       },
       {
         "type": "用法",
-        "text": "「<ruby>届く<rt>とどく</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「目」の用法として正しいのは？（2）",
+        "question": "正しいのは？",
         "options": [
-          "手紙が届く",
-          "届くを飲む",
-          "届くに住む",
-          "届くを走る"
+          "目が利く",
+          "目が高い",
+          "目が早い",
+          "目が重い"
         ],
         "answer": 0,
         "id": "N3-01-032"
       },
       {
         "type": "用法",
-        "text": "「<ruby>集める<rt>あつめる</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「足」の用法として正しいのは？（3）",
+        "question": "正しいのは？",
         "options": [
-          "情報を集める",
-          "集めるを食べる",
-          "集めるに乗る",
-          "集めるを着る"
+          "足を運ぶ",
+          "足が高い",
+          "足が重い",
+          "足が早い"
         ],
         "answer": 0,
         "id": "N3-01-033"
       },
       {
         "type": "用法",
-        "text": "「<ruby>集まる<rt>あつまる</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「頭」の用法として正しいのは？（4）",
+        "question": "正しいのは？",
         "options": [
-          "人が集まる",
-          "集まるを飲む",
-          "集まるに住む",
-          "集まるを走る"
+          "頭が切れる",
+          "頭が高い",
+          "頭が早い",
+          "頭が重い"
         ],
         "answer": 0,
         "id": "N3-01-034"
       },
       {
         "type": "用法",
-        "text": "「<ruby>始める<rt>はじめる</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「口」の用法として正しいのは？（5）",
+        "question": "正しいのは？",
         "options": [
-          "仕事を始める",
-          "始めるを食べる",
-          "始めるに乗る",
-          "始めるを着る"
+          "口が堅い",
+          "口が高い",
+          "口が早い",
+          "口が重い"
         ],
         "answer": 0,
         "id": "N3-01-035"
@@ -700,65 +700,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文章の文法",
-        "text": "日本語の勉強を始めて3年になります。最初は難しかったですが、今では日常会話（　）できるようになりました。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "日本経済は長期にわたる停滞（　）、回復の兆しを見せ始めている。（1）",
+        "question": "（　）に入るのは？",
         "options": [
-          "なら",
-          "しか",
-          "だけ",
-          "ぐらい"
+          "を経て",
+          "をもって",
+          "に至り",
+          "に反して"
         ],
         "answer": 3,
         "id": "N3-01-054"
       },
       {
         "type": "文章の文法",
-        "text": "彼は優秀な学生です。試験ではいつも高い点を（　）。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の提案は斬新（　）、実現可能性に欠けるという批判もある。（2）",
+        "question": "（　）に入るのは？",
         "options": [
-          "取ります",
-          "取っています",
-          "取りました",
-          "取るでしょう"
+          "ではあるが",
+          "であるから",
+          "なので",
+          "だとしても"
         ],
         "answer": 0,
         "id": "N3-01-055"
       },
       {
         "type": "文章の文法",
-        "text": "この会社は給料は高い（　）、残業が多いので大変です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "環境問題の解決（　）、国際的な協力が不可欠である。（3）",
+        "question": "（　）に入るのは？",
         "options": [
-          "ものの",
-          "とはいえ",
-          "といっても",
-          "にしても"
+          "には",
+          "にとって",
+          "において",
+          "に際して"
         ],
         "answer": 3,
         "id": "N3-01-056"
       },
       {
         "type": "文章の文法",
-        "text": "天気予報では晴れると言っていた（　）、雨が降ってきた。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この研究は長年の努力（　）結実したものである。（4）",
+        "question": "（　）に入るのは？",
         "options": [
-          "にもかかわらず",
-          "のに",
-          "けれども",
-          "が"
+          "が",
+          "の",
+          "を",
+          "に"
         ],
         "answer": 0,
         "id": "N3-01-057"
       },
       {
         "type": "文章の文法",
-        "text": "彼は日本語（　）英語も話せます。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "社会の変化（　）、教育制度も見直しが求められている。（5）",
+        "question": "（　）に入るのは？",
         "options": [
-          "どころか",
-          "ばかりか",
-          "のみならず",
-          "だけでなく"
+          "に伴い",
+          "に関して",
+          "によると",
+          "に対して"
         ],
         "answer": 3,
         "id": "N3-01-058"
@@ -986,25 +986,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "男の人と女の人が会社で話しています。男の人はこのあと何をしますか。（1）",
+        "question": "何をしますか。",
         "options": [
-          "小学校",
-          "ジム",
-          "クリニック",
-          "歯医者"
+          "相談する",
+          "電話する",
+          "買う",
+          "帰る"
         ],
         "answer": 0,
         "id": "N3-01-076",
@@ -1012,25 +1000,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "女の人と学生が学校で話しています。女の人はこのあと何をしますか。（2）",
+        "question": "何をしますか。",
         "options": [
-          "中学校",
-          "小学校",
-          "ジム",
-          "クリニック"
+          "メールする",
+          "帰る",
+          "報告する",
+          "片付ける"
         ],
         "answer": 0,
         "id": "N3-01-077",
@@ -1038,25 +1014,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "学生と先生が病院で話しています。学生はこのあと何をしますか。（3）",
+        "question": "何をしますか。",
         "options": [
-          "高校",
-          "中学校",
-          "小学校",
-          "ジム"
+          "行く",
+          "書類を出す",
+          "帰る",
+          "準備する"
         ],
         "answer": 0,
         "id": "N3-01-078",
@@ -1064,25 +1028,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "先生と上司が銀行で話しています。先生はこのあと何をしますか。（4）",
+        "question": "何をしますか。",
         "options": [
-          "保育園",
-          "高校",
-          "中学校",
-          "小学校"
+          "メールする",
+          "買う",
+          "予約する",
+          "確認する"
         ],
         "answer": 2,
         "id": "N3-01-079",
@@ -1090,25 +1042,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "上司と部下が役所で話しています。上司はこのあと何をしますか。（5）",
+        "question": "何をしますか。",
         "options": [
-          "幼稚園",
-          "保育園",
-          "高校",
-          "中学校"
+          "待つ",
+          "調べる",
+          "確認する",
+          "買う"
         ],
         "answer": 0,
         "id": "N3-01-080",
@@ -1116,25 +1056,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "部下と店員が店で話しています。部下はこのあと何をしますか。（6）",
+        "question": "何をしますか。",
         "options": [
-          "大学",
-          "幼稚園",
-          "保育園",
-          "高校"
+          "相談する",
+          "調べる",
+          "報告する",
+          "電話する"
         ],
         "answer": 0,
         "id": "N3-01-081",
@@ -1142,25 +1070,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "講演を聞いています。最も重要なポイントは何ですか。（1）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "1時",
-          "1時15分",
-          "1時半",
-          "1時45分"
+          "チームワーク",
+          "コミュニケーション",
+          "継続の重要性",
+          "環境の影響"
         ],
         "answer": 1,
         "id": "N3-01-082",
@@ -1168,25 +1084,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ニュースを聞いています。最も重要なポイントは何ですか。（2）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "2時",
-          "2時15分",
-          "2時半",
-          "2時45分"
+          "継続の重要性",
+          "時間管理",
+          "効率化",
+          "才能の必要性"
         ],
         "answer": 2,
         "id": "N3-01-083",
@@ -1194,25 +1098,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "インタビューを聞いています。最も重要なポイントは何ですか。（3）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "3時",
-          "3時15分",
-          "3時半",
-          "3時45分"
+          "人材育成",
+          "環境の影響",
+          "継続の重要性",
+          "リスク低減"
         ],
         "answer": 2,
         "id": "N3-01-084",
@@ -1220,25 +1112,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "説明を聞いています。最も重要なポイントは何ですか。（4）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "4時",
-          "4時15分",
-          "4時半",
-          "4時45分"
+          "効率化",
+          "顧客満足",
+          "運の要素",
+          "品質向上"
         ],
         "answer": 1,
         "id": "N3-01-085",
@@ -1246,25 +1126,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "会議を聞いています。最も重要なポイントは何ですか。（5）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "5時",
-          "5時15分",
-          "5時半",
-          "5時45分"
+          "チームワーク",
+          "効率化",
+          "リーダーシップ",
+          "情報共有"
         ],
         "answer": 2,
         "id": "N3-01-086",
@@ -1272,25 +1140,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "プレゼンを聞いています。最も重要なポイントは何ですか。（6）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "6時",
-          "6時15分",
-          "6時半",
-          "6時45分"
+          "情報共有",
+          "運の要素",
+          "人材育成",
+          "コスト削減"
         ],
         "answer": 1,
         "id": "N3-01-087",
@@ -1298,25 +1154,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "講演を聞いています。この講演の主なテーマは何ですか。（1）",
+        "question": "主なテーマは？",
         "options": [
-          "14日",
-          "15日",
-          "16日",
-          "17日"
+          "健康",
+          "環境",
+          "リーダーシップ",
+          "政治"
         ],
         "answer": 1,
         "id": "N3-01-088",
@@ -1324,25 +1168,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ニュースを聞いています。このニュースの主なテーマは何ですか。（2）",
+        "question": "主なテーマは？",
         "options": [
-          "15日",
-          "16日",
-          "17日",
-          "18日"
+          "イノベーション",
+          "技術",
+          "文化",
+          "チームワーク"
         ],
         "answer": 0,
         "id": "N3-01-089",
@@ -1350,25 +1182,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "インタビューを聞いています。このインタビューの主なテーマは何ですか。（3）",
+        "question": "主なテーマは？",
         "options": [
-          "16日",
-          "17日",
-          "18日",
-          "19日"
+          "歴史",
+          "コミュニケーション",
+          "環境",
+          "教育"
         ],
         "answer": 2,
         "id": "N3-01-090",
@@ -1376,25 +1196,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "友達に映画に誘いたいです。何と言いますか。（1）",
+        "question": "何と言いますか。",
         "options": [
-          "おはようございます",
-          "こんにちは",
-          "こんばんは",
-          "おやすみなさい"
+          "はい、そうです",
+          "いいえ、違います",
+          "今度映画見に行かない？",
+          "ありがとうございます"
         ],
         "answer": 0,
         "id": "N3-01-091",
@@ -1402,25 +1210,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "店員に試着したいと伝えるです。何と言いますか。（2）",
+        "question": "何と言いますか。",
         "options": [
-          "おはよう",
-          "こんにちは",
-          "こんばんは",
-          "じゃあね"
+          "これ、試着できますか",
+          "はい、そうです",
+          "いいえ、違います",
+          "ありがとうございます"
         ],
         "answer": 0,
         "id": "N3-01-092",
@@ -1428,25 +1224,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "道を聞きたいです。何と言いますか。（3）",
+        "question": "何と言いますか。",
         "options": [
-          "行ってきます",
-          "行ってらっしゃい",
-          "ただいま",
-          "おかえりなさい"
+          "はい、そうです",
+          "すみません、駅はどこですか",
+          "ありがとうございます",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-01-093",
@@ -1454,25 +1238,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "お礼を言いたいです。何と言いますか。（4）",
+        "question": "何と言いますか。",
         "options": [
-          "いただきます",
-          "ごちそうさまでした",
-          "おいしかったです",
-          "もう少し"
+          "はい、そうです",
+          "本当にありがとうございます",
+          "ありがとうございます",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-01-094",
@@ -1480,25 +1252,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "すみません、この席、空いていますか。（1）",
+        "question": "返答は？",
         "options": [
-          "田中です",
-          "山田です",
-          "鈴木です",
-          "佐藤です"
+          "はい、どうぞ",
+          "いいえ、違います",
+          "いいえ、行きません",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-01-095",
@@ -1506,25 +1266,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "明日の会議、何時からでしたっけ。（2）",
+        "question": "返答は？",
         "options": [
-          "山田です",
-          "鈴木です",
-          "佐藤です",
-          "高橋です"
+          "10時からです",
+          "はい、食べました",
+          "いいえ、違います",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-01-096",
@@ -1532,25 +1280,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "このへん、コンビニありますか。（3）",
+        "question": "返答は？",
         "options": [
-          "鈴木です",
-          "佐藤です",
-          "高橋です",
-          "伊藤です"
+          "はい、食べました",
+          "いいえ、違います",
+          "あの角を曲がると",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-01-097",
@@ -1558,25 +1294,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ちょっと手伝っていただけませんか。（4）",
+        "question": "返答は？",
         "options": [
-          "佐藤です",
-          "高橋です",
-          "伊藤です",
-          "渡辺です"
+          "いいえ、違います",
+          "はい、食べました",
+          "はい、いいですよ",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-01-098",
@@ -1584,25 +1308,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "この書類、どこに提出すればいいですか。（5）",
+        "question": "返答は？",
         "options": [
-          "高橋です",
-          "伊藤です",
-          "渡辺です",
-          "山本です"
+          "総務部です",
+          "いいえ、違います",
+          "いいえ、行きません",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-01-099",
@@ -1610,25 +1322,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "お名前、お願いできますか。（6）",
+        "question": "返答は？",
         "options": [
-          "伊藤です",
-          "渡辺です",
-          "山本です",
-          "中村です"
+          "いいえ、行きません",
+          "はい、食べました",
+          "田中と申します",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-01-100",
@@ -1636,25 +1336,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "駅まで、どのくらいかかりますか。（7）",
+        "question": "返答は？",
         "options": [
-          "渡辺です",
-          "山本です",
-          "中村です",
-          "小林です"
+          "いいえ、違います",
+          "歩いて10分くらい",
+          "いいえ、行きません",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-01-101",
@@ -1662,25 +1350,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "このパソコン、使ってもいいですか。（8）",
+        "question": "返答は？",
         "options": [
-          "山本です",
-          "中村です",
-          "小林です",
-          "加藤です"
+          "はい、食べました",
+          "いいえ、行きません",
+          "どうぞ",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-01-102",
@@ -2080,65 +1756,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>始まる<rt>はじまる</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「耳」の用法として正しいのは？（6）",
+        "question": "正しいのは？",
         "options": [
-          "授業が始まる",
-          "始まるを飲む",
-          "始まるに住む",
-          "始まるを走る"
+          "耳が痛い",
+          "耳が高い",
+          "耳が早い",
+          "耳が重い"
         ],
         "answer": 0,
         "id": "N3-02-031"
       },
       {
         "type": "用法",
-        "text": "「<ruby>終わる<rt>おわる</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「顔」の用法として正しいのは？（7）",
+        "question": "正しいのは？",
         "options": [
-          "会議が終わる",
-          "終わるを食べる",
-          "終わるに乗る",
-          "終わるを着る"
+          "顔が広い",
+          "顔が高い",
+          "顔が早い",
+          "顔が重い"
         ],
         "answer": 0,
         "id": "N3-02-032"
       },
       {
         "type": "用法",
-        "text": "「<ruby>続ける<rt>つづける</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「腕」の用法として正しいのは？（8）",
+        "question": "正しいのは？",
         "options": [
-          "努力を続ける",
-          "続けるを飲む",
-          "続けるに住む",
-          "続けるを走る"
+          "腕を磨く",
+          "腕が高い",
+          "腕が早い",
+          "腕が重い"
         ],
         "answer": 0,
         "id": "N3-02-033"
       },
       {
         "type": "用法",
-        "text": "「<ruby>続く<rt>つづく</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「肩」の用法として正しいのは？（9）",
+        "question": "正しいのは？",
         "options": [
-          "雨が続く",
-          "続くを食べる",
-          "続くに乗る",
-          "続くを着る"
+          "肩の荷が下りる",
+          "肩が高い",
+          "肩が早い",
+          "肩が重い"
         ],
         "answer": 0,
         "id": "N3-02-034"
       },
       {
         "type": "用法",
-        "text": "「<ruby>決める<rt>きめる</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「腰」の用法として正しいのは？（10）",
+        "question": "正しいのは？",
         "options": [
-          "予定を決める",
-          "決めるを飲む",
-          "決めるに住む",
-          "決めるを走る"
+          "腰が重い",
+          "腰が高い",
+          "腰が早い",
+          "腰が軽い"
         ],
         "answer": 0,
         "id": "N3-02-035"
@@ -2379,65 +2055,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文章の文法",
-        "text": "この仕事は大変な（　）、やりがいがあります。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼女は困難（　）乗り越え、目標を達成した。（6）",
+        "question": "（　）に入るのは？",
         "options": [
-          "一方で",
-          "反面",
-          "かわりに",
-          "その反面"
+          "を",
+          "に",
+          "で",
+          "から"
         ],
         "answer": 0,
         "id": "N3-02-054"
       },
       {
         "type": "文章の文法",
-        "text": "技術が進歩する（　）、生活は便利になっていきます。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "専門家（　）意見を聞く必要がある。（7）",
+        "question": "（　）に入るのは？",
         "options": [
-          "につれて",
-          "にしたがって",
-          "とともに",
-          "にともなって"
+          "の",
+          "から",
+          "による",
+          "への"
         ],
         "answer": 3,
         "id": "N3-02-055"
       },
       {
         "type": "文章の文法",
-        "text": "日本料理は寿司（　）、いろいろな種類があります。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "技術の進歩（　）、生活は大きく変わった。（8）",
+        "question": "（　）に入るのは？",
         "options": [
-          "をはじめ",
-          "をもとに",
-          "をきっかけに",
-          "を通じて"
+          "により",
+          "にとって",
+          "に関して",
+          "に対して"
         ],
         "answer": 0,
         "id": "N3-02-056"
       },
       {
         "type": "文章の文法",
-        "text": "この問題（　）、詳しく説明してください。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の行動は法律（　）許されるものではない。（9）",
+        "question": "（　）に入るのは？",
         "options": [
-          "に関して",
-          "について",
-          "に対して",
-          "において"
+          "上",
+          "的に",
+          "において",
+          "としても"
         ],
         "answer": 3,
         "id": "N3-02-057"
       },
       {
         "type": "文章の文法",
-        "text": "彼は医者（　）、ボランティア活動もしています。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "予算の制約（　）実現が困難だ。（10）",
+        "question": "（　）に入るのは？",
         "options": [
+          "から",
+          "ゆえに",
           "として",
-          "にとって",
-          "について",
-          "に対して"
+          "にして"
         ],
         "answer": 0,
         "id": "N3-02-058"
@@ -2665,25 +2341,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "店員と客がレストランで話しています。店員はこのあと何をしますか。（7）",
+        "question": "何をしますか。",
         "options": [
-          "教会",
-          "大学",
-          "幼稚園",
-          "保育園"
+          "調べる",
+          "メールする",
+          "片付ける",
+          "相談する"
         ],
         "answer": 0,
         "id": "N3-02-076",
@@ -2691,25 +2355,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "客と医者がホテルで話しています。客はこのあと何をしますか。（8）",
+        "question": "何をしますか。",
         "options": [
-          "お寺",
-          "教会",
-          "大学",
-          "幼稚園"
+          "電話する",
+          "調べる",
+          "報告する",
+          "片付ける"
         ],
         "answer": 0,
         "id": "N3-02-077",
@@ -2717,25 +2369,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "医者と患者が駅で話しています。医者はこのあと何をしますか。（9）",
+        "question": "何をしますか。",
         "options": [
-          "神社",
-          "お寺",
-          "教会",
-          "大学"
+          "送る",
+          "相談する",
+          "買う",
+          "準備する"
         ],
         "answer": 2,
         "id": "N3-02-078",
@@ -2743,25 +2383,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "患者と受付が空港で話しています。患者はこのあと何をしますか。（10）",
+        "question": "何をしますか。",
         "options": [
-          "遊園地",
-          "神社",
-          "お寺",
-          "教会"
+          "電話する",
+          "書類を出す",
+          "行く",
+          "片付ける"
         ],
         "answer": 0,
         "id": "N3-02-079",
@@ -2769,25 +2397,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "受付と係員が図書館で話しています。受付はこのあと何をしますか。（11）",
+        "question": "何をしますか。",
         "options": [
-          "水族館",
-          "遊園地",
-          "神社",
-          "お寺"
+          "買う",
+          "メールする",
+          "待つ",
+          "調べる"
         ],
         "answer": 0,
         "id": "N3-02-080",
@@ -2795,25 +2411,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "係員とスタッフが郵便局で話しています。係員はこのあと何をしますか。（12）",
+        "question": "何をしますか。",
         "options": [
-          "動物園",
-          "水族館",
-          "遊園地",
-          "神社"
+          "行く",
+          "買う",
+          "報告する",
+          "調べる"
         ],
         "answer": 0,
         "id": "N3-02-081",
@@ -2821,25 +2425,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "授業を聞いています。最も重要なポイントは何ですか。（7）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "7時",
-          "7時15分",
-          "7時半",
-          "7時45分"
+          "品質向上",
+          "才能の必要性",
+          "情報共有",
+          "チームワーク"
         ],
         "answer": 2,
         "id": "N3-02-082",
@@ -2847,25 +2439,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ラジオを聞いています。最も重要なポイントは何ですか。（8）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "8時",
-          "8時15分",
-          "8時半",
-          "8時45分"
+          "環境の影響",
+          "効率化",
+          "時間管理",
+          "人材育成"
         ],
         "answer": 2,
         "id": "N3-02-083",
@@ -2873,25 +2453,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "案内を聞いています。最も重要なポイントは何ですか。（9）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "9時",
-          "9時15分",
-          "9時半",
-          "9時45分"
+          "顧客満足",
+          "リスク低減",
+          "コスト削減",
+          "リーダーシップ"
         ],
         "answer": 1,
         "id": "N3-02-084",
@@ -2899,25 +2467,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "スピーチを聞いています。最も重要なポイントは何ですか。（10）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "10時",
-          "10時15分",
-          "10時半",
-          "10時45分"
+          "時間管理",
+          "環境の影響",
+          "リスク低減",
+          "コスト削減"
         ],
         "answer": 2,
         "id": "N3-02-085",
@@ -2925,25 +2481,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "報告を聞いています。最も重要なポイントは何ですか。（11）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "11時",
-          "11時15分",
-          "11時半",
-          "11時45分"
+          "情報共有",
+          "リスク低減",
+          "効率化",
+          "時間管理"
         ],
         "answer": 1,
         "id": "N3-02-086",
@@ -2951,25 +2495,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "対談を聞いています。最も重要なポイントは何ですか。（12）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "12時",
-          "12時15分",
-          "12時半",
-          "12時45分"
+          "情報共有",
+          "チームワーク",
+          "リスク低減",
+          "環境の影響"
         ],
         "answer": 2,
         "id": "N3-02-087",
@@ -2977,25 +2509,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "プレゼンを聞いています。このプレゼンの主なテーマは何ですか。（4）",
+        "question": "主なテーマは？",
         "options": [
-          "17日",
-          "18日",
-          "19日",
-          "20日"
+          "社会",
+          "リーダーシップ",
+          "イノベーション",
+          "政治"
         ],
         "answer": 1,
         "id": "N3-02-088",
@@ -3003,25 +2523,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ラジオを聞いています。このラジオの主なテーマは何ですか。（5）",
+        "question": "主なテーマは？",
         "options": [
-          "18日",
-          "19日",
-          "20日",
-          "21日"
+          "コミュニケーション",
+          "教育",
+          "チームワーク",
+          "政治"
         ],
         "answer": 0,
         "id": "N3-02-089",
@@ -3029,25 +2537,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "会議を聞いています。この会議の主なテーマは何ですか。（6）",
+        "question": "主なテーマは？",
         "options": [
-          "19日",
-          "20日",
-          "21日",
-          "22日"
+          "経済",
+          "スポーツ",
+          "環境",
+          "科学"
         ],
         "answer": 2,
         "id": "N3-02-090",
@@ -3055,25 +2551,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "謝りたいです。何と言いますか。（5）",
+        "question": "何と言いますか。",
         "options": [
-          "初めまして",
-          "よろしくお願いします",
-          "こちらこそ",
-          "どうぞよろしく"
+          "ありがとうございます",
+          "いいえ、違います",
+          "申し訳ありませんでした",
+          "はい、そうです"
         ],
         "answer": 0,
         "id": "N3-02-091",
@@ -3081,25 +2565,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "許可を求めたいです。何と言いますか。（6）",
+        "question": "何と言いますか。",
         "options": [
-          "お久しぶりです",
-          "お元気でしたか",
-          "お変わりないですか",
-          "最近どうですか"
+          "ありがとうございます",
+          "はい、そうです",
+          "いいえ、違います",
+          "ここに座ってもいいですか"
         ],
         "answer": 0,
         "id": "N3-02-092",
@@ -3107,25 +2579,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "提案したいです。何と言いますか。（7）",
+        "question": "何と言いますか。",
         "options": [
-          "さようなら",
-          "またね",
-          "お先に",
-          "では"
+          "いいえ、違います",
+          "ありがとうございます",
+          "こうしたらどうですか",
+          "はい、そうです"
         ],
         "answer": 0,
         "id": "N3-02-093",
@@ -3133,25 +2593,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "断りたいです。何と言いますか。（8）",
+        "question": "何と言いますか。",
         "options": [
-          "お邪魔します",
-          "お邪魔しました",
-          "ごめんください",
-          "どうぞお上がりください"
+          "いいえ、違います",
+          "すみません、ちょっと…",
+          "はい、そうです",
+          "ありがとうございます"
         ],
         "answer": 0,
         "id": "N3-02-094",
@@ -3159,25 +2607,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "コーヒー、もう一杯いかがですか。（9）",
+        "question": "返答は？",
         "options": [
-          "中村です",
-          "小林です",
-          "加藤です",
-          "吉田です"
+          "いただきます",
+          "はい、食べました",
+          "いいえ、行きません",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-02-095",
@@ -3185,25 +2621,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "昨日のパーティー、楽しかったですね。（10）",
+        "question": "返答は？",
         "options": [
-          "小林です",
-          "加藤です",
-          "吉田です",
-          "山口です"
+          "はい、食べました",
+          "いいえ、違います",
+          "いいえ、行きません",
+          "本当に楽しかった"
         ],
         "answer": 0,
         "id": "N3-02-096",
@@ -3211,25 +2635,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "この辺に郵便局はありますか。（11）",
+        "question": "返答は？",
         "options": [
-          "加藤です",
-          "吉田です",
-          "山口です",
-          "松本です"
+          "この先にあります",
+          "いいえ、行きません",
+          "いいえ、違います",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-02-097",
@@ -3237,25 +2649,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ちょっとお時間よろしいですか。（12）",
+        "question": "返答は？",
         "options": [
-          "吉田です",
-          "山口です",
-          "松本です",
-          "井上です"
+          "いいえ、行きません",
+          "いいえ、違います",
+          "はい、食べました",
+          "はい、大丈夫です"
         ],
         "answer": 0,
         "id": "N3-02-098",
@@ -3263,25 +2663,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "傘、お持ちですか。（13）",
+        "question": "返答は？",
         "options": [
-          "山口です",
-          "松本です",
-          "井上です",
-          "木村です"
+          "いいえ、違います",
+          "いいえ、忘れました",
+          "いいえ、行きません",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-02-099",
@@ -3289,25 +2677,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "このあたり、静かでいいですね。（14）",
+        "question": "返答は？",
         "options": [
-          "松本です",
-          "井上です",
-          "木村です",
-          "林です"
+          "はい、食べました",
+          "いいえ、行きません",
+          "いいえ、違います",
+          "そうですね"
         ],
         "answer": 0,
         "id": "N3-02-100",
@@ -3315,25 +2691,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "お荷物、お持ちしましょうか。（15）",
+        "question": "返答は？",
         "options": [
-          "井上です",
-          "木村です",
-          "林です",
-          "斎藤です"
+          "いいえ、行きません",
+          "はい、食べました",
+          "ありがとうございます",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-02-101",
@@ -3341,25 +2705,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "今日は暑いですね。（16）",
+        "question": "返答は？",
         "options": [
-          "木村です",
-          "林です",
-          "斎藤です",
-          "清水です"
+          "いいえ、違います",
+          "はい、食べました",
+          "いいえ、行きません",
+          "本当ですね"
         ],
         "answer": 0,
         "id": "N3-02-102",
@@ -3759,65 +3111,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>決まる<rt>きまる</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「気」の用法として正しいのは？（11）",
+        "question": "正しいのは？",
         "options": [
-          "日程が決まる",
-          "決まるを食べる",
-          "決まるに乗る",
-          "決まるを着る"
+          "気が利く",
+          "気が高い",
+          "気が早い",
+          "気が重い"
         ],
         "answer": 0,
         "id": "N3-03-031"
       },
       {
         "type": "用法",
-        "text": "「<ruby>伝える<rt>つたえる</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「息」の用法として正しいのは？（12）",
+        "question": "正しいのは？",
         "options": [
-          "気持ちを伝える",
-          "伝えるを飲む",
-          "伝えるに住む",
-          "伝えるを走る"
+          "息が合う",
+          "息が高い",
+          "息が早い",
+          "息が重い"
         ],
         "answer": 0,
         "id": "N3-03-032"
       },
       {
         "type": "用法",
-        "text": "「<ruby>伝わる<rt>つたわる</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「胸」の用法として正しいのは？（13）",
+        "question": "正しいのは？",
         "options": [
-          "文化が伝わる",
-          "伝わるを食べる",
-          "伝わるに乗る",
-          "伝わるを着る"
+          "胸を張る",
+          "胸が高い",
+          "胸が早い",
+          "胸が重い"
         ],
         "answer": 0,
         "id": "N3-03-033"
       },
       {
         "type": "用法",
-        "text": "「<ruby>変える<rt>かえる</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「背」の用法として正しいのは？（14）",
+        "question": "正しいのは？",
         "options": [
-          "計画を変える",
-          "変えるを飲む",
-          "変えるに住む",
-          "変えるを走る"
+          "背を向ける",
+          "背が広い",
+          "背が早い",
+          "背が重い"
         ],
         "answer": 0,
         "id": "N3-03-034"
       },
       {
         "type": "用法",
-        "text": "「<ruby>変わる<rt>かわる</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「骨」の用法として正しいのは？（15）",
+        "question": "正しいのは？",
         "options": [
-          "季節が変わる",
-          "変わるを食べる",
-          "変わるに乗る",
-          "変わるを着る"
+          "骨を折る",
+          "骨が高い",
+          "骨が早い",
+          "骨が重い"
         ],
         "answer": 0,
         "id": "N3-03-035"
@@ -4058,65 +3410,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文章の文法",
-        "text": "状況（　）、対応を変える必要があります。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "結果（　）良ければ全て良しとは限らない。（11）",
+        "question": "（　）に入るのは？",
         "options": [
-          "によって",
-          "にとって",
-          "によると",
-          "により"
+          "が",
+          "さえ",
+          "こそ",
+          "だけ"
         ],
         "answer": 3,
         "id": "N3-03-054"
       },
       {
         "type": "文章の文法",
-        "text": "この分野（　）、彼は第一人者です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "努力家である（　）、才能にも恵まれている。（12）",
+        "question": "（　）に入るのは？",
         "options": [
-          "において",
-          "にとって",
-          "に対して",
-          "について"
+          "のみならず",
+          "にもかかわらず",
+          "とはいえ",
+          "からこそ"
         ],
         "answer": 0,
         "id": "N3-03-055"
       },
       {
         "type": "文章の文法",
-        "text": "彼は思った（　）優秀ではなかった。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "一朝一夕（　）解決できるものではない。（13）",
+        "question": "（　）に入るのは？",
         "options": [
-          "ほど",
-          "くらい",
-          "ばかり",
-          "だけ"
+          "に",
+          "で",
+          "には",
+          "では"
         ],
         "answer": 3,
         "id": "N3-03-056"
       },
       {
         "type": "文章の文法",
-        "text": "自分（　）できることは自分でやるべきです。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "事実（　）基づいている。（14）",
+        "question": "（　）に入るのは？",
         "options": [
-          "こそ",
-          "だけ",
-          "しか",
-          "のみ"
+          "に",
+          "を",
+          "と",
+          "が"
         ],
         "answer": 0,
         "id": "N3-03-057"
       },
       {
         "type": "文章の文法",
-        "text": "子供（　）この問題は解けません。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "経験（　）勝るものはない。（15）",
+        "question": "（　）に入るのは？",
         "options": [
-          "さえ",
-          "すら",
-          "まで",
-          "でも"
+          "に",
+          "を",
+          "が",
+          "より"
         ],
         "answer": 3,
         "id": "N3-03-058"
@@ -4344,25 +3696,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "スタッフと友人が美容院で話しています。スタッフはこのあと何をしますか。（13）",
+        "question": "何をしますか。",
         "options": [
-          "プール",
-          "動物園",
-          "水族館",
-          "遊園地"
+          "メールする",
+          "相談する",
+          "準備する",
+          "帰る"
         ],
         "answer": 0,
         "id": "N3-03-076",
@@ -4370,25 +3710,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "友人と同僚がジムで話しています。友人はこのあと何をしますか。（14）",
+        "question": "何をしますか。",
         "options": [
-          "体育館",
-          "プール",
-          "動物園",
-          "水族館"
+          "調べる",
+          "相談する",
+          "メールする",
+          "買う"
         ],
         "answer": 2,
         "id": "N3-03-077",
@@ -4396,25 +3724,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "同僚と男の人がカフェで話しています。同僚はこのあと何をしますか。（15）",
+        "question": "何をしますか。",
         "options": [
-          "市役所",
-          "体育館",
-          "プール",
-          "動物園"
+          "送る",
+          "待つ",
+          "予約する",
+          "片付ける"
         ],
         "answer": 0,
         "id": "N3-03-078",
@@ -4422,25 +3738,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "男の人と女の人が会社で話しています。男の人はこのあと何をしますか。（16）",
+        "question": "何をしますか。",
         "options": [
-          "交番",
-          "市役所",
-          "体育館",
-          "プール"
+          "準備する",
+          "確認する",
+          "相談する",
+          "電話する"
         ],
         "answer": 0,
         "id": "N3-03-079",
@@ -4448,25 +3752,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "女の人と学生が学校で話しています。女の人はこのあと何をしますか。（17）",
+        "question": "何をしますか。",
         "options": [
-          "駐車場",
-          "交番",
-          "市役所",
-          "体育館"
+          "調べる",
+          "書類を出す",
+          "電話する",
+          "メールする"
         ],
         "answer": 0,
         "id": "N3-03-080",
@@ -4474,25 +3766,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "学生と先生が病院で話しています。学生はこのあと何をしますか。（18）",
+        "question": "何をしますか。",
         "options": [
-          "本屋",
-          "駐車場",
-          "交番",
-          "市役所"
+          "調べる",
+          "メールする",
+          "片付ける",
+          "書類を出す"
         ],
         "answer": 0,
         "id": "N3-03-081",
@@ -4500,25 +3780,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "講義を聞いています。最も重要なポイントは何ですか。（13）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "午前1時",
-          "午前1時半",
-          "午後1時",
-          "午後1時半"
+          "環境の影響",
+          "コスト削減",
+          "チームワーク",
+          "品質向上"
         ],
         "answer": 2,
         "id": "N3-03-082",
@@ -4526,25 +3794,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "解説を聞いています。最も重要なポイントは何ですか。（14）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "午前2時",
-          "午前2時半",
-          "午後2時",
-          "午後2時半"
+          "コスト削減",
+          "効率化",
+          "リスク低減",
+          "リーダーシップ"
         ],
         "answer": 1,
         "id": "N3-03-083",
@@ -4552,25 +3808,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "討論を聞いています。最も重要なポイントは何ですか。（15）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "午前3時",
-          "午前3時半",
-          "午後3時",
-          "午後3時半"
+          "継続の重要性",
+          "効率化",
+          "コミュニケーション",
+          "品質向上"
         ],
         "answer": 2,
         "id": "N3-03-084",
@@ -4578,25 +3822,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "講演を聞いています。最も重要なポイントは何ですか。（16）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "午前4時",
-          "午前4時半",
-          "午後4時",
-          "午後4時半"
+          "運の要素",
+          "品質向上",
+          "継続の重要性",
+          "リーダーシップ"
         ],
         "answer": 1,
         "id": "N3-03-085",
@@ -4604,25 +3836,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ニュースを聞いています。最も重要なポイントは何ですか。（17）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "午前5時",
-          "午前5時半",
-          "午後5時",
-          "午後5時半"
+          "コスト削減",
+          "才能の必要性",
+          "人材育成",
+          "チームワーク"
         ],
         "answer": 2,
         "id": "N3-03-086",
@@ -4630,25 +3850,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "インタビューを聞いています。最も重要なポイントは何ですか。（18）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "午前6時",
-          "午前6時半",
-          "午後6時",
-          "午後6時半"
+          "コミュニケーション",
+          "チームワーク",
+          "環境の影響",
+          "効率化"
         ],
         "answer": 2,
         "id": "N3-03-087",
@@ -4656,25 +3864,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "授業を聞いています。この授業の主なテーマは何ですか。（7）",
+        "question": "主なテーマは？",
         "options": [
-          "20日",
-          "21日",
-          "22日",
-          "23日"
+          "イノベーション",
+          "文化",
+          "芸術",
+          "経済"
         ],
         "answer": 1,
         "id": "N3-03-088",
@@ -4682,25 +3878,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "スピーチを聞いています。このスピーチの主なテーマは何ですか。（8）",
+        "question": "主なテーマは？",
         "options": [
-          "21日",
-          "22日",
-          "23日",
-          "24日"
+          "コミュニケーション",
+          "経済",
+          "社会",
+          "歴史"
         ],
         "answer": 0,
         "id": "N3-03-089",
@@ -4708,25 +3892,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "対談を聞いています。この対談の主なテーマは何ですか。（9）",
+        "question": "主なテーマは？",
         "options": [
-          "22日",
-          "23日",
-          "24日",
-          "25日"
+          "文化",
+          "リーダーシップ",
+          "技術",
+          "歴史"
         ],
         "answer": 2,
         "id": "N3-03-090",
@@ -4734,25 +3906,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "依頼したいです。何と言いますか。（9）",
+        "question": "何と言いますか。",
         "options": [
-          "いらっしゃいませ",
-          "ありがとうございました",
-          "またお越しください",
-          "お気をつけて"
+          "ありがとうございます",
+          "お願いできますか",
+          "はい、そうです",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-03-091",
@@ -4760,25 +3920,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "確認したいです。何と言いますか。（10）",
+        "question": "何と言いますか。",
         "options": [
-          "お疲れ様です",
-          "お疲れ様でした",
-          "ご苦労様です",
-          "お先に失礼します"
+          "ありがとうございます",
+          "これで合っていますか",
+          "いいえ、違います",
+          "はい、そうです"
         ],
         "answer": 0,
         "id": "N3-03-092",
@@ -4786,25 +3934,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "誘いに応じたいです。何と言いますか。（11）",
+        "question": "何と言いますか。",
         "options": [
-          "おめでとうございます",
+          "いいえ、違います",
+          "ぜひ行きたいです",
           "ありがとうございます",
-          "恐れ入ります",
-          "恐縮です"
+          "はい、そうです"
         ],
         "answer": 0,
         "id": "N3-03-093",
@@ -4812,25 +3948,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "予約をしたいです。何と言いますか。（12）",
+        "question": "何と言いますか。",
         "options": [
-          "お大事に",
-          "お気をつけて",
-          "ご無事で",
-          "お元気で"
+          "ありがとうございます",
+          "予約をお願いします",
+          "はい、そうです",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-03-094",
@@ -4838,25 +3962,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "お仕事、何時までですか。（17）",
+        "question": "返答は？",
         "options": [
-          "林です",
-          "斎藤です",
-          "清水です",
-          "山崎です"
+          "いいえ、行きません",
+          "いいえ、違います",
+          "6時までです",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-03-095",
@@ -4864,25 +3976,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "週末、何か予定ありますか。（18）",
+        "question": "返答は？",
         "options": [
-          "斎藤です",
-          "清水です",
-          "山崎です",
-          "池田です"
+          "特にないです",
+          "いいえ、行きません",
+          "はい、食べました",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-03-096",
@@ -4890,25 +3990,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "この料理、おいしいですね。（19）",
+        "question": "返答は？",
         "options": [
-          "清水です",
-          "山崎です",
-          "池田です",
-          "森です"
+          "いいえ、行きません",
+          "いいえ、違います",
+          "そうですね、おいしい",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-03-097",
@@ -4916,25 +4004,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ここで写真撮ってもいいですか。（20）",
+        "question": "返答は？",
         "options": [
-          "山崎です",
-          "池田です",
-          "森です",
-          "阿部です"
+          "はい、食べました",
+          "いいえ、行きません",
+          "大丈夫ですよ",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-03-098",
@@ -4942,25 +4018,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "すみません、この席、空いていますか。（21）",
+        "question": "返答は？",
         "options": [
-          "池田です",
-          "森です",
-          "阿部です",
-          "石川です"
+          "いいえ、違います",
+          "はい、どうぞ",
+          "はい、食べました",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-03-099",
@@ -4968,25 +4032,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "明日の会議、何時からでしたっけ。（22）",
+        "question": "返答は？",
         "options": [
-          "森です",
-          "阿部です",
-          "石川です",
-          "前田です"
+          "10時からです",
+          "いいえ、違います",
+          "はい、食べました",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-03-100",
@@ -4994,25 +4046,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "このへん、コンビニありますか。（23）",
+        "question": "返答は？",
         "options": [
-          "阿部です",
-          "石川です",
-          "前田です",
-          "藤田です"
+          "はい、食べました",
+          "いいえ、違います",
+          "いいえ、行きません",
+          "あの角を曲がると"
         ],
         "answer": 0,
         "id": "N3-03-101",
@@ -5020,25 +4060,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ちょっと手伝っていただけませんか。（24）",
+        "question": "返答は？",
         "options": [
-          "石川です",
-          "前田です",
-          "藤田です",
-          "小川です"
+          "いいえ、行きません",
+          "いいえ、違います",
+          "はい、いいですよ",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-03-102",
@@ -5438,65 +4466,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>開ける<rt>あける</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「手」の用法として正しいのは？（16）",
+        "question": "正しいのは？",
         "options": [
-          "ドアを開ける",
-          "開けるを飲む",
-          "開けるに住む",
-          "開けるを走る"
+          "手が足りない",
+          "手が高い",
+          "手が遅い",
+          "手が軽い"
         ],
         "answer": 0,
         "id": "N3-04-031"
       },
       {
         "type": "用法",
-        "text": "「<ruby>開く<rt>ひらく</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「目」の用法として正しいのは？（17）",
+        "question": "正しいのは？",
         "options": [
-          "会議を開く",
-          "開くを食べる",
-          "開くに乗る",
-          "開くを着る"
+          "目が利く",
+          "目が高い",
+          "目が早い",
+          "目が重い"
         ],
         "answer": 0,
         "id": "N3-04-032"
       },
       {
         "type": "用法",
-        "text": "「<ruby>閉める<rt>しめる</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「足」の用法として正しいのは？（18）",
+        "question": "正しいのは？",
         "options": [
-          "店を閉める",
-          "閉めるを飲む",
-          "閉めるに住む",
-          "閉めるを走る"
+          "足を運ぶ",
+          "足が高い",
+          "足が重い",
+          "足が早い"
         ],
         "answer": 0,
         "id": "N3-04-033"
       },
       {
         "type": "用法",
-        "text": "「<ruby>閉まる<rt>しまる</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「頭」の用法として正しいのは？（19）",
+        "question": "正しいのは？",
         "options": [
-          "ドアが閉まる",
-          "閉まるを食べる",
-          "閉まるに乗る",
-          "閉まるを着る"
+          "頭が切れる",
+          "頭が高い",
+          "頭が早い",
+          "頭が重い"
         ],
         "answer": 0,
         "id": "N3-04-034"
       },
       {
         "type": "用法",
-        "text": "「<ruby>上げる<rt>あげる</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「口」の用法として正しいのは？（20）",
+        "question": "正しいのは？",
         "options": [
-          "手を上げる",
-          "上げるを飲む",
-          "上げるに住む",
-          "上げるを走る"
+          "口が堅い",
+          "口が高い",
+          "口が早い",
+          "口が重い"
         ],
         "answer": 0,
         "id": "N3-04-035"
@@ -5737,65 +4765,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文章の文法",
-        "text": "休みの日は家で本を読んで（　）います。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "日本経済は長期にわたる停滞（　）、回復の兆しを見せ始めている。（16）",
+        "question": "（　）に入るのは？",
         "options": [
-          "ばかり",
-          "だけ",
-          "しか",
-          "のみ"
+          "を経て",
+          "をもって",
+          "に至り",
+          "に反して"
         ],
         "answer": 0,
         "id": "N3-04-054"
       },
       {
         "type": "文章の文法",
-        "text": "彼が犯人（　）。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の提案は斬新（　）、実現可能性に欠けるという批判もある。（17）",
+        "question": "（　）に入るのは？",
         "options": [
-          "かもしれません",
-          "にちがいありません",
-          "はずがありません",
-          "わけがありません"
+          "ではあるが",
+          "であるから",
+          "なので",
+          "だとしても"
         ],
         "answer": 3,
         "id": "N3-04-055"
       },
       {
         "type": "文章の文法",
-        "text": "努力したのだから、成功する（　）。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "環境問題の解決（　）、国際的な協力が不可欠である。（18）",
+        "question": "（　）に入るのは？",
         "options": [
-          "わけです",
-          "はずです",
-          "べきです",
-          "ことです"
+          "には",
+          "にとって",
+          "において",
+          "に際して"
         ],
         "answer": 0,
         "id": "N3-04-056"
       },
       {
         "type": "文章の文法",
-        "text": "ニュース（　）、明日は雪が降るそうです。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この研究は長年の努力（　）結実したものである。（19）",
+        "question": "（　）に入るのは？",
         "options": [
-          "によると",
-          "として",
-          "について",
-          "に対して"
+          "が",
+          "の",
+          "を",
+          "に"
         ],
         "answer": 3,
         "id": "N3-04-057"
       },
       {
         "type": "文章の文法",
-        "text": "社長は今、会議中で（　）。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "社会の変化（　）、教育制度も見直しが求められている。（20）",
+        "question": "（　）に入るのは？",
         "options": [
-          "いらっしゃいます",
-          "おられます",
-          "ございます",
-          "でいらっしゃいます"
+          "に伴い",
+          "に関して",
+          "によると",
+          "に対して"
         ],
         "answer": 0,
         "id": "N3-04-058"
@@ -6023,25 +5051,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "先生と上司が銀行で話しています。先生はこのあと何をしますか。（19）",
+        "question": "何をしますか。",
         "options": [
-          "薬局",
-          "本屋",
-          "駐車場",
-          "交番"
+          "相談する",
+          "予約する",
+          "報告する",
+          "片付ける"
         ],
         "answer": 2,
         "id": "N3-04-076",
@@ -6049,25 +5065,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "上司と部下が役所で話しています。上司はこのあと何をしますか。（20）",
+        "question": "何をしますか。",
         "options": [
-          "空港",
-          "薬局",
-          "本屋",
-          "駐車場"
+          "買う",
+          "確認する",
+          "予約する",
+          "メールする"
         ],
         "answer": 0,
         "id": "N3-04-077",
@@ -6075,25 +5079,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "部下と店員が店で話しています。部下はこのあと何をしますか。（21）",
+        "question": "何をしますか。",
         "options": [
-          "映画館",
-          "空港",
-          "薬局",
-          "本屋"
+          "電話する",
+          "片付ける",
+          "報告する",
+          "調べる"
         ],
         "answer": 0,
         "id": "N3-04-078",
@@ -6101,25 +5093,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "店員と客がレストランで話しています。店員はこのあと何をしますか。（22）",
+        "question": "何をしますか。",
         "options": [
-          "博物館",
-          "映画館",
-          "空港",
-          "薬局"
+          "準備する",
+          "行く",
+          "相談する",
+          "確認する"
         ],
         "answer": 0,
         "id": "N3-04-079",
@@ -6127,25 +5107,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "客と医者がホテルで話しています。客はこのあと何をしますか。（23）",
+        "question": "何をしますか。",
         "options": [
-          "美術館",
-          "博物館",
-          "映画館",
-          "空港"
+          "待つ",
+          "準備する",
+          "調べる",
+          "片付ける"
         ],
         "answer": 0,
         "id": "N3-04-080",
@@ -6153,25 +5121,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "医者と患者が駅で話しています。医者はこのあと何をしますか。（24）",
+        "question": "何をしますか。",
         "options": [
-          "ホテル",
-          "美術館",
-          "博物館",
-          "映画館"
+          "買う",
+          "準備する",
+          "予約する",
+          "調べる"
         ],
         "answer": 2,
         "id": "N3-04-081",
@@ -6179,25 +5135,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "説明を聞いています。最も重要なポイントは何ですか。（19）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "午前7時",
-          "午前7時半",
-          "午後7時",
-          "午後7時半"
+          "顧客満足",
+          "運の要素",
+          "コスト削減",
+          "効率化"
         ],
         "answer": 1,
         "id": "N3-04-082",
@@ -6205,25 +5149,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "会議を聞いています。最も重要なポイントは何ですか。（20）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "午前8時",
-          "午前8時半",
-          "午後8時",
-          "午後8時半"
+          "環境の影響",
+          "効率化",
+          "チームワーク",
+          "リスク低減"
         ],
         "answer": 2,
         "id": "N3-04-083",
@@ -6231,25 +5163,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "プレゼンを聞いています。最も重要なポイントは何ですか。（21）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "午前9時",
-          "午前9時半",
-          "午後9時",
-          "午後9時半"
+          "コスト削減",
+          "環境の影響",
+          "人材育成",
+          "リスク低減"
         ],
         "answer": 1,
         "id": "N3-04-084",
@@ -6257,25 +5177,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "授業を聞いています。最も重要なポイントは何ですか。（22）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "午前10時",
-          "午前10時半",
-          "午後10時",
-          "午後10時半"
+          "顧客満足",
+          "運の要素",
+          "品質向上",
+          "リスク低減"
         ],
         "answer": 2,
         "id": "N3-04-085",
@@ -6283,25 +5191,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ラジオを聞いています。最も重要なポイントは何ですか。（23）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "午前11時",
-          "午前11時半",
-          "午後11時",
-          "午後11時半"
+          "才能の必要性",
+          "チームワーク",
+          "効率化",
+          "人材育成"
         ],
         "answer": 2,
         "id": "N3-04-086",
@@ -6309,25 +5205,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "案内を聞いています。最も重要なポイントは何ですか。（24）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "午前12時",
-          "午前12時半",
-          "午後12時",
-          "午後12時半"
+          "継続の重要性",
+          "顧客満足",
+          "運の要素",
+          "品質向上"
         ],
         "answer": 1,
         "id": "N3-04-087",
@@ -6335,25 +5219,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "解説を聞いています。この解説の主なテーマは何ですか。（10）",
+        "question": "主なテーマは？",
         "options": [
-          "23日",
-          "24日",
-          "25日",
-          "26日"
+          "技術",
+          "スポーツ",
+          "芸術",
+          "チームワーク"
         ],
         "answer": 1,
         "id": "N3-04-088",
@@ -6361,25 +5233,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ドキュメンタリーを聞いています。このドキュメンタリーの主なテーマは何ですか。（11）",
+        "question": "主なテーマは？",
         "options": [
-          "24日",
-          "25日",
-          "26日",
-          "27日"
+          "経済",
+          "文化",
+          "リーダーシップ",
+          "健康"
         ],
         "answer": 0,
         "id": "N3-04-089",
@@ -6387,25 +5247,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "セミナーを聞いています。このセミナーの主なテーマは何ですか。（12）",
+        "question": "主なテーマは？",
         "options": [
-          "25日",
-          "26日",
-          "27日",
-          "28日"
+          "科学",
+          "政治",
+          "リーダーシップ",
+          "コミュニケーション"
         ],
         "answer": 2,
         "id": "N3-04-090",
@@ -6413,25 +5261,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "注文をしたいです。何と言いますか。（13）",
+        "question": "何と言いますか。",
         "options": [
-          "失礼します",
-          "失礼しました",
-          "すみません",
-          "申し訳ありません"
+          "はい、そうです",
+          "ありがとうございます",
+          "いいえ、違います",
+          "これをお願いします"
         ],
         "answer": 0,
         "id": "N3-04-091",
@@ -6439,25 +5275,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "質問したいです。何と言いますか。（14）",
+        "question": "何と言いますか。",
         "options": [
-          "ごめんなさい",
-          "申し訳ございません",
-          "お詫びします",
-          "許してください"
+          "ちょっとお聞きしたいのですが",
+          "ありがとうございます",
+          "いいえ、違います",
+          "はい、そうです"
         ],
         "answer": 0,
         "id": "N3-04-092",
@@ -6465,25 +5289,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "説明を求めたいです。何と言いますか。（15）",
+        "question": "何と言いますか。",
         "options": [
-          "どういたしまして",
-          "いいえ",
-          "こちらこそ",
-          "とんでもないです"
+          "もう少し詳しく教えていただけますか",
+          "いいえ、違います",
+          "はい、そうです",
+          "ありがとうございます"
         ],
         "answer": 0,
         "id": "N3-04-093",
@@ -6491,25 +5303,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "友達に映画に誘いたいです。何と言いますか。（16）",
+        "question": "何と言いますか。",
         "options": [
-          "お待たせしました",
-          "お待ちください",
-          "もう少しです",
-          "準備中です"
+          "ありがとうございます",
+          "いいえ、違います",
+          "今度映画見に行かない？",
+          "はい、そうです"
         ],
         "answer": 0,
         "id": "N3-04-094",
@@ -6517,25 +5317,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "この書類、どこに提出すればいいですか。（25）",
+        "question": "返答は？",
         "options": [
-          "前田です",
-          "藤田です",
-          "小川です",
-          "後藤です"
+          "はい、食べました",
+          "総務部です",
+          "いいえ、行きません",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-04-095",
@@ -6543,25 +5331,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "お名前、お願いできますか。（26）",
+        "question": "返答は？",
         "options": [
-          "藤田です",
-          "小川です",
-          "後藤です",
-          "岡田です"
+          "いいえ、行きません",
+          "はい、食べました",
+          "いいえ、違います",
+          "田中と申します"
         ],
         "answer": 0,
         "id": "N3-04-096",
@@ -6569,25 +5345,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "駅まで、どのくらいかかりますか。（27）",
+        "question": "返答は？",
         "options": [
-          "小川です",
-          "後藤です",
-          "岡田です",
-          "村上です"
+          "はい、食べました",
+          "歩いて10分くらい",
+          "いいえ、違います",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-04-097",
@@ -6595,25 +5359,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "このパソコン、使ってもいいですか。（28）",
+        "question": "返答は？",
         "options": [
-          "東京です",
-          "大阪です",
-          "京都です",
-          "名古屋です"
+          "いいえ、行きません",
+          "はい、食べました",
+          "いいえ、違います",
+          "どうぞ"
         ],
         "answer": 0,
         "id": "N3-04-098",
@@ -6621,25 +5373,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "コーヒー、もう一杯いかがですか。（29）",
+        "question": "返答は？",
         "options": [
-          "大阪です",
-          "京都です",
-          "名古屋です",
-          "福岡です"
+          "いいえ、違います",
+          "いただきます",
+          "いいえ、行きません",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-04-099",
@@ -6647,25 +5387,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "昨日のパーティー、楽しかったですね。（30）",
+        "question": "返答は？",
         "options": [
-          "京都です",
-          "名古屋です",
-          "福岡です",
-          "札幌です"
+          "本当に楽しかった",
+          "いいえ、行きません",
+          "はい、食べました",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-04-100",
@@ -6673,25 +5401,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "この辺に郵便局はありますか。（31）",
+        "question": "返答は？",
         "options": [
-          "名古屋です",
-          "福岡です",
-          "札幌です",
-          "横浜です"
+          "いいえ、行きません",
+          "この先にあります",
+          "いいえ、違います",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-04-101",
@@ -6699,25 +5415,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ちょっとお時間よろしいですか。（32）",
+        "question": "返答は？",
         "options": [
-          "福岡です",
-          "札幌です",
-          "横浜です",
-          "神戸です"
+          "はい、食べました",
+          "はい、大丈夫です",
+          "いいえ、違います",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-04-102",
@@ -7117,65 +5821,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>上がる<rt>あがる</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「耳」の用法として正しいのは？（21）",
+        "question": "正しいのは？",
         "options": [
-          "気温が上がる",
-          "上がるを食べる",
-          "上がるに乗る",
-          "上がるを着る"
+          "耳が痛い",
+          "耳が高い",
+          "耳が早い",
+          "耳が重い"
         ],
         "answer": 0,
         "id": "N3-05-031"
       },
       {
         "type": "用法",
-        "text": "「<ruby>下げる<rt>さげる</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「顔」の用法として正しいのは？（22）",
+        "question": "正しいのは？",
         "options": [
-          "頭を下げる",
-          "下げるを飲む",
-          "下げるに住む",
-          "下げるを走る"
+          "顔が広い",
+          "顔が高い",
+          "顔が早い",
+          "顔が重い"
         ],
         "answer": 0,
         "id": "N3-05-032"
       },
       {
         "type": "用法",
-        "text": "「<ruby>下がる<rt>さがる</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「腕」の用法として正しいのは？（23）",
+        "question": "正しいのは？",
         "options": [
-          "熱が下がる",
-          "下がるを食べる",
-          "下がるに乗る",
-          "下がるを着る"
+          "腕を磨く",
+          "腕が高い",
+          "腕が早い",
+          "腕が重い"
         ],
         "answer": 0,
         "id": "N3-05-033"
       },
       {
         "type": "用法",
-        "text": "「<ruby>入れる<rt>いれる</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「肩」の用法として正しいのは？（24）",
+        "question": "正しいのは？",
         "options": [
-          "力を入れる",
-          "入れるを飲む",
-          "入れるに住む",
-          "入れるを走る"
+          "肩の荷が下りる",
+          "肩が高い",
+          "肩が早い",
+          "肩が重い"
         ],
         "answer": 0,
         "id": "N3-05-034"
       },
       {
         "type": "用法",
-        "text": "「<ruby>入る<rt>はいる</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「腰」の用法として正しいのは？（25）",
+        "question": "正しいのは？",
         "options": [
-          "大学に入る",
-          "入るを食べる",
-          "入るを着る",
-          "入るに乗る"
+          "腰が重い",
+          "腰が高い",
+          "腰が早い",
+          "腰が軽い"
         ],
         "answer": 0,
         "id": "N3-05-035"
@@ -7416,65 +6120,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文章の文法",
-        "text": "先生は「もっと勉強しなさい」と（　）。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼女は困難（　）乗り越え、目標を達成した。（21）",
+        "question": "（　）に入るのは？",
         "options": [
-          "おっしゃいました",
-          "もうされました",
-          "いわれました",
-          "おっしゃられました"
+          "を",
+          "に",
+          "で",
+          "から"
         ],
         "answer": 3,
         "id": "N3-05-054"
       },
       {
         "type": "文章の文法",
-        "text": "明日のパーティーには、ぜひ参加（　）。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "専門家（　）意見を聞く必要がある。（22）",
+        "question": "（　）に入るのは？",
         "options": [
-          "させていただきます",
-          "いたします",
-          "申します",
-          "参ります"
+          "の",
+          "から",
+          "による",
+          "への"
         ],
         "answer": 0,
         "id": "N3-05-055"
       },
       {
         "type": "文章の文法",
-        "text": "すみませんが、もう少しゆっくり話して（　）。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "技術の進歩（　）、生活は大きく変わった。（23）",
+        "question": "（　）に入るのは？",
         "options": [
-          "いただけませんか",
-          "くださいませんか",
-          "もらえませんか",
-          "くれませんか"
+          "により",
+          "にとって",
+          "に関して",
+          "に対して"
         ],
         "answer": 3,
         "id": "N3-05-056"
       },
       {
         "type": "文章の文法",
-        "text": "天気がいいので、散歩に行きたい気分（　）。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の行動は法律（　）許されるものではない。（24）",
+        "question": "（　）に入るのは？",
         "options": [
-          "です",
-          "みたいです",
-          "ようです",
-          "らしいです"
+          "上",
+          "的に",
+          "において",
+          "としても"
         ],
         "answer": 0,
         "id": "N3-05-057"
       },
       {
         "type": "文章の文法",
-        "text": "毎日運動する（　）、健康を維持しています。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "予算の制約（　）実現が困難だ。（25）",
+        "question": "（　）に入るのは？",
         "options": [
-          "ことで",
-          "ようで",
-          "ために",
-          "ので"
+          "から",
+          "ゆえに",
+          "として",
+          "にして"
         ],
         "answer": 3,
         "id": "N3-05-058"
@@ -7702,25 +6406,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "患者と受付が空港で話しています。患者はこのあと何をしますか。（25）",
+        "question": "何をしますか。",
         "options": [
-          "カフェ",
-          "ホテル",
-          "美術館",
-          "博物館"
+          "帰る",
+          "片付ける",
+          "相談する",
+          "報告する"
         ],
         "answer": 0,
         "id": "N3-05-076",
@@ -7728,25 +6420,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "受付と係員が図書館で話しています。受付はこのあと何をしますか。（26）",
+        "question": "何をしますか。",
         "options": [
-          "レストラン",
-          "カフェ",
-          "ホテル",
-          "美術館"
+          "メールする",
+          "電話する",
+          "買う",
+          "待つ"
         ],
         "answer": 0,
         "id": "N3-05-077",
@@ -7754,25 +6434,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "係員とスタッフが郵便局で話しています。係員はこのあと何をしますか。（27）",
+        "question": "何をしますか。",
         "options": [
-          "会社",
-          "レストラン",
-          "カフェ",
-          "ホテル"
+          "調べる",
+          "予約する",
+          "待つ",
+          "行く"
         ],
         "answer": 0,
         "id": "N3-05-078",
@@ -7780,25 +6448,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "スタッフと友人が美容院で話しています。スタッフはこのあと何をしますか。（28）",
+        "question": "何をしますか。",
         "options": [
-          "学校",
-          "会社",
-          "レストラン",
-          "カフェ"
+          "報告する",
+          "行く",
+          "帰る",
+          "メールする"
         ],
         "answer": 0,
         "id": "N3-05-079",
@@ -7806,25 +6462,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "友人と同僚がジムで話しています。友人はこのあと何をしますか。（29）",
+        "question": "何をしますか。",
         "options": [
-          "公園",
-          "学校",
-          "会社",
-          "レストラン"
+          "買う",
+          "電話する",
+          "報告する",
+          "準備する"
         ],
         "answer": 2,
         "id": "N3-05-080",
@@ -7832,25 +6476,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "同僚と男の人がカフェで話しています。同僚はこのあと何をしますか。（30）",
+        "question": "何をしますか。",
         "options": [
-          "デパート",
-          "公園",
-          "学校",
-          "会社"
+          "報告する",
+          "相談する",
+          "確認する",
+          "送る"
         ],
         "answer": 0,
         "id": "N3-05-081",
@@ -7858,25 +6490,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "スピーチを聞いています。最も重要なポイントは何ですか。（25）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "1:00",
-          "1:10",
-          "1:20",
-          "1:30"
+          "リスク低減",
+          "継続の重要性",
+          "環境の影響",
+          "時間管理"
         ],
         "answer": 2,
         "id": "N3-05-082",
@@ -7884,25 +6504,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "報告を聞いています。最も重要なポイントは何ですか。（26）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "2:00",
-          "2:10",
-          "2:20",
-          "2:30"
+          "才能の必要性",
+          "継続の重要性",
+          "時間管理",
+          "情報共有"
         ],
         "answer": 1,
         "id": "N3-05-083",
@@ -7910,25 +6518,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "対談を聞いています。最も重要なポイントは何ですか。（27）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "3:00",
-          "3:10",
-          "3:20",
-          "3:30"
+          "チームワーク",
+          "顧客満足",
+          "コスト削減",
+          "情報共有"
         ],
         "answer": 2,
         "id": "N3-05-084",
@@ -7936,25 +6532,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "講義を聞いています。最も重要なポイントは何ですか。（28）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "4:00",
-          "4:10",
-          "4:20",
-          "4:30"
+          "チームワーク",
+          "時間管理",
+          "リスク低減",
+          "リーダーシップ"
         ],
         "answer": 2,
         "id": "N3-05-085",
@@ -7962,25 +6546,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "解説を聞いています。最も重要なポイントは何ですか。（29）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "5:00",
-          "5:10",
-          "5:20",
-          "5:30"
+          "コミュニケーション",
+          "チームワーク",
+          "リーダーシップ",
+          "継続の重要性"
         ],
         "answer": 1,
         "id": "N3-05-086",
@@ -7988,25 +6560,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "討論を聞いています。最も重要なポイントは何ですか。（30）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "6:00",
-          "6:10",
-          "6:20",
-          "6:30"
+          "コミュニケーション",
+          "顧客満足",
+          "効率化",
+          "時間管理"
         ],
         "answer": 2,
         "id": "N3-05-087",
@@ -8014,25 +6574,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "報告を聞いています。この報告の主なテーマは何ですか。（13）",
+        "question": "主なテーマは？",
         "options": [
-          "26日",
-          "27日",
-          "28日",
-          "29日"
+          "スポーツ",
+          "歴史",
+          "政治",
+          "社会"
         ],
         "answer": 1,
         "id": "N3-05-088",
@@ -8040,25 +6588,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "討論を聞いています。この討論の主なテーマは何ですか。（14）",
+        "question": "主なテーマは？",
         "options": [
-          "27日",
-          "28日",
-          "29日",
-          "30日"
+          "文化",
+          "リーダーシップ",
+          "科学",
+          "コミュニケーション"
         ],
         "answer": 0,
         "id": "N3-05-089",
@@ -8066,25 +6602,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ガイダンスを聞いています。このガイダンスの主なテーマは何ですか。（15）",
+        "question": "主なテーマは？",
         "options": [
-          "28日",
-          "29日",
-          "30日",
-          "31日"
+          "環境",
+          "コミュニケーション",
+          "芸術",
+          "教育"
         ],
         "answer": 2,
         "id": "N3-05-090",
@@ -8092,25 +6616,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "店員に試着したいと伝えるです。何と言いますか。（17）",
+        "question": "何と言いますか。",
         "options": [
-          "頑張ってください",
-          "応援しています",
-          "期待しています",
-          "楽しみです"
+          "ありがとうございます",
+          "はい、そうです",
+          "いいえ、違います",
+          "これ、試着できますか"
         ],
         "answer": 0,
         "id": "N3-05-091",
@@ -8118,25 +6630,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "道を聞きたいです。何と言いますか。（18）",
+        "question": "何と言いますか。",
         "options": [
-          "お体に気をつけて",
-          "ご自愛ください",
-          "お元気で",
-          "良い一日を"
+          "いいえ、違います",
+          "ありがとうございます",
+          "すみません、駅はどこですか",
+          "はい、そうです"
         ],
         "answer": 0,
         "id": "N3-05-092",
@@ -8144,25 +6644,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "お礼を言いたいです。何と言いますか。（19）",
+        "question": "何と言いますか。",
         "options": [
-          "よい週末を",
-          "よいお年を",
-          "よい旅を",
-          "よい休日を"
+          "はい、そうです",
+          "いいえ、違います",
+          "本当にありがとうございます",
+          "ありがとうございます"
         ],
         "answer": 0,
         "id": "N3-05-093",
@@ -8170,25 +6658,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "謝りたいです。何と言いますか。（20）",
+        "question": "何と言いますか。",
         "options": [
-          "乾杯",
-          "お疲れ様",
-          "いただきます",
-          "ごちそうさま"
+          "いいえ、違います",
+          "申し訳ありませんでした",
+          "ありがとうございます",
+          "はい、そうです"
         ],
         "answer": 0,
         "id": "N3-05-094",
@@ -8196,25 +6672,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "傘、お持ちですか。（33）",
+        "question": "返答は？",
         "options": [
-          "札幌です",
-          "横浜です",
-          "神戸です",
-          "仙台です"
+          "はい、食べました",
+          "いいえ、違います",
+          "いいえ、行きません",
+          "いいえ、忘れました"
         ],
         "answer": 0,
         "id": "N3-05-095",
@@ -8222,25 +6686,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "このあたり、静かでいいですね。（34）",
+        "question": "返答は？",
         "options": [
-          "横浜です",
-          "神戸です",
-          "仙台です",
-          "広島です"
+          "いいえ、行きません",
+          "はい、食べました",
+          "いいえ、違います",
+          "そうですね"
         ],
         "answer": 0,
         "id": "N3-05-096",
@@ -8248,25 +6700,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "お荷物、お持ちしましょうか。（35）",
+        "question": "返答は？",
         "options": [
-          "神戸です",
-          "仙台です",
-          "広島です",
-          "北海道です"
+          "はい、食べました",
+          "いいえ、違います",
+          "ありがとうございます",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-05-097",
@@ -8274,25 +6714,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "今日は暑いですね。（36）",
+        "question": "返答は？",
         "options": [
-          "仙台です",
-          "広島です",
-          "北海道です",
-          "沖縄です"
+          "いいえ、違います",
+          "はい、食べました",
+          "いいえ、行きません",
+          "本当ですね"
         ],
         "answer": 0,
         "id": "N3-05-098",
@@ -8300,25 +6728,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "お仕事、何時までですか。（37）",
+        "question": "返答は？",
         "options": [
-          "広島です",
-          "北海道です",
-          "沖縄です",
-          "奈良です"
+          "6時までです",
+          "はい、食べました",
+          "いいえ、違います",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-05-099",
@@ -8326,25 +6742,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "週末、何か予定ありますか。（38）",
+        "question": "返答は？",
         "options": [
-          "北海道です",
-          "沖縄です",
-          "奈良です",
-          "鎌倉です"
+          "特にないです",
+          "いいえ、違います",
+          "いいえ、行きません",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-05-100",
@@ -8352,25 +6756,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "この料理、おいしいですね。（39）",
+        "question": "返答は？",
         "options": [
-          "沖縄です",
-          "奈良です",
-          "鎌倉です",
-          "箱根です"
+          "いいえ、違います",
+          "そうですね、おいしい",
+          "はい、食べました",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-05-101",
@@ -8378,25 +6770,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ここで写真撮ってもいいですか。（40）",
+        "question": "返答は？",
         "options": [
-          "奈良です",
-          "鎌倉です",
-          "箱根です",
-          "日光です"
+          "いいえ、行きません",
+          "はい、食べました",
+          "大丈夫ですよ",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-05-102",
@@ -8796,65 +7176,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>出す<rt>だす</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「気」の用法として正しいのは？（26）",
+        "question": "正しいのは？",
         "options": [
-          "結果を出す",
-          "出すを飲む",
-          "出すに住む",
-          "出すを走る"
+          "気が利く",
+          "気が高い",
+          "気が早い",
+          "気が重い"
         ],
         "answer": 0,
         "id": "N3-06-031"
       },
       {
         "type": "用法",
-        "text": "「<ruby>出る<rt>でる</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「息」の用法として正しいのは？（27）",
+        "question": "正しいのは？",
         "options": [
-          "答えが出る",
-          "出るを食べる",
-          "出るに乗る",
-          "出るを着る"
+          "息が合う",
+          "息が高い",
+          "息が早い",
+          "息が重い"
         ],
         "answer": 0,
         "id": "N3-06-032"
       },
       {
         "type": "用法",
-        "text": "「<ruby>付ける<rt>つける</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「胸」の用法として正しいのは？（28）",
+        "question": "正しいのは？",
         "options": [
-          "名前を付ける",
-          "付けるを飲む",
-          "付けるに住む",
-          "付けるを走る"
+          "胸を張る",
+          "胸が高い",
+          "胸が早い",
+          "胸が重い"
         ],
         "answer": 0,
         "id": "N3-06-033"
       },
       {
         "type": "用法",
-        "text": "「<ruby>付く<rt>つく</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「背」の用法として正しいのは？（29）",
+        "question": "正しいのは？",
         "options": [
-          "力が付く",
-          "付くを食べる",
-          "付くに乗る",
-          "付くを着る"
+          "背を向ける",
+          "背が広い",
+          "背が早い",
+          "背が重い"
         ],
         "answer": 0,
         "id": "N3-06-034"
       },
       {
         "type": "用法",
-        "text": "「<ruby>立てる<rt>たてる</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「骨」の用法として正しいのは？（30）",
+        "question": "正しいのは？",
         "options": [
-          "計画を立てる",
-          "立てるを飲む",
-          "立てるに住む",
-          "立てるを走る"
+          "骨を折る",
+          "骨が高い",
+          "骨が早い",
+          "骨が重い"
         ],
         "answer": 0,
         "id": "N3-06-035"
@@ -9095,65 +7475,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文章の文法",
-        "text": "電車に乗り遅れ（　）、会議に遅刻してしまいました。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "結果（　）良ければ全て良しとは限らない。（26）",
+        "question": "（　）に入るのは？",
         "options": [
-          "たために",
-          "たから",
-          "たので",
-          "て"
+          "が",
+          "さえ",
+          "こそ",
+          "だけ"
         ],
         "answer": 0,
         "id": "N3-06-054"
       },
       {
         "type": "文章の文法",
-        "text": "日本に来（　）、一度も国に帰っていません。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "努力家である（　）、才能にも恵まれている。（27）",
+        "question": "（　）に入るのは？",
         "options": [
-          "てから",
-          "てまで",
-          "てこそ",
-          "てさえ"
+          "のみならず",
+          "にもかかわらず",
+          "とはいえ",
+          "からこそ"
         ],
         "answer": 3,
         "id": "N3-06-055"
       },
       {
         "type": "文章の文法",
-        "text": "彼女は仕事が忙しい（　）、いつも笑顔です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "一朝一夕（　）解決できるものではない。（28）",
+        "question": "（　）に入るのは？",
         "options": [
-          "のに",
-          "から",
-          "ので",
-          "けど"
+          "に",
+          "で",
+          "には",
+          "では"
         ],
         "answer": 0,
         "id": "N3-06-056"
       },
       {
         "type": "文章の文法",
-        "text": "この映画は期待した（　）面白くなかった。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "事実（　）基づいている。（29）",
+        "question": "（　）に入るのは？",
         "options": [
-          "ほど",
-          "くらい",
-          "ように",
-          "ばかり"
+          "に",
+          "を",
+          "と",
+          "が"
         ],
         "answer": 3,
         "id": "N3-06-057"
       },
       {
         "type": "文章の文法",
-        "text": "あの店は値段の（　）質がいいです。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "経験（　）勝るものはない。（30）",
+        "question": "（　）に入るのは？",
         "options": [
-          "わりに",
-          "くせに",
-          "ために",
-          "ように"
+          "に",
+          "を",
+          "が",
+          "より"
         ],
         "answer": 0,
         "id": "N3-06-058"
@@ -9381,25 +7761,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "男の人と女の人が会社で話しています。男の人はこのあと何をしますか。（31）",
+        "question": "何をしますか。",
         "options": [
-          "コンビニ",
-          "デパート",
-          "公園",
-          "学校"
+          "電話する",
+          "帰る",
+          "書類を出す",
+          "調べる"
         ],
         "answer": 0,
         "id": "N3-06-076",
@@ -9407,25 +7775,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "女の人と学生が学校で話しています。女の人はこのあと何をしますか。（32）",
+        "question": "何をしますか。",
         "options": [
-          "スーパー",
-          "コンビニ",
-          "デパート",
-          "公園"
+          "メールする",
+          "書類を出す",
+          "帰る",
+          "予約する"
         ],
         "answer": 0,
         "id": "N3-06-077",
@@ -9433,25 +7789,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "学生と先生が病院で話しています。学生はこのあと何をしますか。（33）",
+        "question": "何をしますか。",
         "options": [
-          "図書館",
-          "スーパー",
-          "コンビニ",
-          "デパート"
+          "片付ける",
+          "報告する",
+          "予約する",
+          "書類を出す"
         ],
         "answer": 0,
         "id": "N3-06-078",
@@ -9459,25 +7803,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "先生と上司が銀行で話しています。先生はこのあと何をしますか。（34）",
+        "question": "何をしますか。",
         "options": [
-          "郵便局",
-          "図書館",
-          "スーパー",
-          "コンビニ"
+          "待つ",
+          "片付ける",
+          "電話する",
+          "予約する"
         ],
         "answer": 2,
         "id": "N3-06-079",
@@ -9485,25 +7817,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "上司と部下が役所で話しています。上司はこのあと何をしますか。（35）",
+        "question": "何をしますか。",
         "options": [
-          "銀行",
-          "郵便局",
-          "図書館",
-          "スーパー"
+          "相談する",
+          "予約する",
+          "確認する",
+          "片付ける"
         ],
         "answer": 0,
         "id": "N3-06-080",
@@ -9511,25 +7831,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "部下と店員が店で話しています。部下はこのあと何をしますか。（36）",
+        "question": "何をしますか。",
         "options": [
-          "病院",
-          "銀行",
-          "郵便局",
-          "図書館"
+          "報告する",
+          "送る",
+          "帰る",
+          "待つ"
         ],
         "answer": 0,
         "id": "N3-06-081",
@@ -9537,25 +7845,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "講演を聞いています。最も重要なポイントは何ですか。（31）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "7:00",
-          "7:10",
-          "7:20",
-          "7:30"
+          "継続の重要性",
+          "時間管理",
+          "リーダーシップ",
+          "才能の必要性"
         ],
         "answer": 1,
         "id": "N3-06-082",
@@ -9563,25 +7859,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ニュースを聞いています。最も重要なポイントは何ですか。（32）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "8:00",
-          "8:10",
-          "8:20",
-          "8:30"
+          "品質向上",
+          "チームワーク",
+          "コミュニケーション",
+          "才能の必要性"
         ],
         "answer": 2,
         "id": "N3-06-083",
@@ -9589,25 +7873,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "インタビューを聞いています。最も重要なポイントは何ですか。（33）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "9:00",
-          "9:10",
-          "9:20",
-          "9:30"
+          "チームワーク",
+          "情報共有",
+          "環境の影響",
+          "リスク低減"
         ],
         "answer": 2,
         "id": "N3-06-084",
@@ -9615,25 +7887,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "説明を聞いています。最も重要なポイントは何ですか。（34）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "10:00",
-          "10:10",
-          "10:20",
-          "10:30"
+          "コミュニケーション",
+          "運の要素",
+          "環境の影響",
+          "人材育成"
         ],
         "answer": 1,
         "id": "N3-06-085",
@@ -9641,25 +7901,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "会議を聞いています。最も重要なポイントは何ですか。（35）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "11:00",
-          "11:10",
-          "11:20",
-          "11:30"
+          "リーダーシップ",
+          "環境の影響",
+          "顧客満足",
+          "効率化"
         ],
         "answer": 2,
         "id": "N3-06-086",
@@ -9667,25 +7915,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "プレゼンを聞いています。最も重要なポイントは何ですか。（36）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "12:00",
-          "12:10",
-          "12:20",
-          "12:30"
+          "継続の重要性",
+          "情報共有",
+          "コミュニケーション",
+          "コスト削減"
         ],
         "answer": 1,
         "id": "N3-06-087",
@@ -9693,25 +7929,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "放送を聞いています。この放送の主なテーマは何ですか。（16）",
+        "question": "主なテーマは？",
         "options": [
-          "1月",
-          "2月",
-          "3月",
-          "4月"
+          "環境",
+          "コミュニケーション",
+          "芸術",
+          "スポーツ"
         ],
         "answer": 1,
         "id": "N3-06-088",
@@ -9719,25 +7943,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "講演を聞いています。この講演の主なテーマは何ですか。（17）",
+        "question": "主なテーマは？",
         "options": [
-          "2月",
-          "3月",
-          "4月",
-          "5月"
+          "歴史",
+          "教育",
+          "環境",
+          "リーダーシップ"
         ],
         "answer": 0,
         "id": "N3-06-089",
@@ -9745,25 +7957,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ニュースを聞いています。このニュースの主なテーマは何ですか。（18）",
+        "question": "主なテーマは？",
         "options": [
-          "3月",
-          "4月",
-          "5月",
-          "6月"
+          "チームワーク",
+          "健康",
+          "スポーツ",
+          "芸術"
         ],
         "answer": 2,
         "id": "N3-06-090",
@@ -9771,25 +7971,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "許可を求めたいです。何と言いますか。（21）",
+        "question": "何と言いますか。",
         "options": [
-          "はい",
-          "いいえ",
-          "わかりました",
-          "わかりません"
+          "はい、そうです",
+          "ありがとうございます",
+          "いいえ、違います",
+          "ここに座ってもいいですか"
         ],
         "answer": 0,
         "id": "N3-06-091",
@@ -9797,25 +7985,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "提案したいです。何と言いますか。（22）",
+        "question": "何と言いますか。",
         "options": [
-          "そうです",
-          "違います",
-          "そうですか",
-          "ほんとうですか"
+          "はい、そうです",
+          "こうしたらどうですか",
+          "ありがとうございます",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-06-092",
@@ -9823,25 +7999,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "断りたいです。何と言いますか。（23）",
+        "question": "何と言いますか。",
         "options": [
-          "いいですよ",
-          "だめです",
-          "ちょっと...",
-          "無理です"
+          "すみません、ちょっと…",
+          "はい、そうです",
+          "いいえ、違います",
+          "ありがとうございます"
         ],
         "answer": 0,
         "id": "N3-06-093",
@@ -9849,25 +8013,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "依頼したいです。何と言いますか。（24）",
+        "question": "何と言いますか。",
         "options": [
-          "もちろん",
-          "当然です",
-          "絶対に",
-          "きっと"
+          "いいえ、違います",
+          "ありがとうございます",
+          "お願いできますか",
+          "はい、そうです"
         ],
         "answer": 0,
         "id": "N3-06-094",
@@ -9875,25 +8027,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "すみません、この席、空いていますか。（41）",
+        "question": "返答は？",
         "options": [
-          "鎌倉です",
-          "箱根です",
-          "日光です",
-          "金沢です"
+          "いいえ、違います",
+          "いいえ、行きません",
+          "はい、どうぞ",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-06-095",
@@ -9901,25 +8041,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "明日の会議、何時からでしたっけ。（42）",
+        "question": "返答は？",
         "options": [
-          "箱根です",
-          "日光です",
-          "金沢です",
-          "長崎です"
+          "はい、食べました",
+          "いいえ、行きません",
+          "いいえ、違います",
+          "10時からです"
         ],
         "answer": 0,
         "id": "N3-06-096",
@@ -9927,25 +8055,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "このへん、コンビニありますか。（43）",
+        "question": "返答は？",
         "options": [
-          "日光です",
-          "金沢です",
-          "長崎です",
-          "熊本です"
+          "いいえ、違います",
+          "いいえ、行きません",
+          "あの角を曲がると",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-06-097",
@@ -9953,25 +8069,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ちょっと手伝っていただけませんか。（44）",
+        "question": "返答は？",
         "options": [
-          "金沢です",
-          "長崎です",
-          "熊本です",
-          "新潟です"
+          "はい、食べました",
+          "はい、いいですよ",
+          "いいえ、行きません",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-06-098",
@@ -9979,25 +8083,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "この書類、どこに提出すればいいですか。（45）",
+        "question": "返答は？",
         "options": [
-          "長崎です",
-          "熊本です",
-          "新潟です",
-          "静岡です"
+          "はい、食べました",
+          "いいえ、行きません",
+          "いいえ、違います",
+          "総務部です"
         ],
         "answer": 0,
         "id": "N3-06-099",
@@ -10005,25 +8097,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "お名前、お願いできますか。（46）",
+        "question": "返答は？",
         "options": [
-          "熊本です",
-          "新潟です",
-          "静岡です",
-          "岡山です"
+          "はい、食べました",
+          "いいえ、行きません",
+          "田中と申します",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-06-100",
@@ -10031,25 +8111,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "駅まで、どのくらいかかりますか。（47）",
+        "question": "返答は？",
         "options": [
-          "新潟です",
-          "静岡です",
-          "岡山です",
-          "松山です"
+          "はい、食べました",
+          "歩いて10分くらい",
+          "いいえ、行きません",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-06-101",
@@ -10057,25 +8125,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "このパソコン、使ってもいいですか。（48）",
+        "question": "返答は？",
         "options": [
-          "静岡です",
-          "岡山です",
-          "松山です",
-          "高松です"
+          "はい、食べました",
+          "どうぞ",
+          "いいえ、違います",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-06-102",
@@ -10475,65 +8531,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>立つ<rt>たつ</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「手」の用法として正しいのは？（31）",
+        "question": "正しいのは？",
         "options": [
-          "役に立つ",
-          "立つを食べる",
-          "立つに乗る",
-          "立つを着る"
+          "手が足りない",
+          "手が高い",
+          "手が遅い",
+          "手が軽い"
         ],
         "answer": 0,
         "id": "N3-07-031"
       },
       {
         "type": "用法",
-        "text": "「<ruby>取る<rt>とる</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「目」の用法として正しいのは？（32）",
+        "question": "正しいのは？",
         "options": [
-          "休みを取る",
-          "取るを飲む",
-          "取るに住む",
-          "取るを走る"
+          "目が利く",
+          "目が高い",
+          "目が早い",
+          "目が重い"
         ],
         "answer": 0,
         "id": "N3-07-032"
       },
       {
         "type": "用法",
-        "text": "「<ruby>持つ<rt>もつ</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「足」の用法として正しいのは？（33）",
+        "question": "正しいのは？",
         "options": [
-          "興味を持つ",
-          "持つを食べる",
-          "持つに乗る",
-          "持つを着る"
+          "足を運ぶ",
+          "足が高い",
+          "足が重い",
+          "足が早い"
         ],
         "answer": 0,
         "id": "N3-07-033"
       },
       {
         "type": "用法",
-        "text": "「<ruby>置く<rt>おく</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「頭」の用法として正しいのは？（34）",
+        "question": "正しいのは？",
         "options": [
-          "重点を置く",
-          "置くを飲む",
-          "置くに住む",
-          "置くを走る"
+          "頭が切れる",
+          "頭が高い",
+          "頭が早い",
+          "頭が重い"
         ],
         "answer": 0,
         "id": "N3-07-034"
       },
       {
         "type": "用法",
-        "text": "「<ruby>落とす<rt>おとす</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「口」の用法として正しいのは？（35）",
+        "question": "正しいのは？",
         "options": [
-          "スピードを落とす",
-          "落とすを食べる",
-          "落とすに乗る",
-          "落とすを着る"
+          "口が堅い",
+          "口が高い",
+          "口が早い",
+          "口が重い"
         ],
         "answer": 0,
         "id": "N3-07-035"
@@ -10774,65 +8830,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文章の文法",
-        "text": "彼は約束を守らない（　）、みんなに嫌われています。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "日本経済は長期にわたる停滞（　）、回復の兆しを見せ始めている。（31）",
+        "question": "（　）に入るのは？",
         "options": [
-          "ので",
-          "から",
-          "ために",
-          "せいで"
+          "を経て",
+          "をもって",
+          "に至り",
+          "に反して"
         ],
         "answer": 3,
         "id": "N3-07-054"
       },
       {
         "type": "文章の文法",
-        "text": "勉強した（　）、試験に合格しました。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の提案は斬新（　）、実現可能性に欠けるという批判もある。（32）",
+        "question": "（　）に入るのは？",
         "options": [
-          "おかげで",
-          "せいで",
-          "ために",
-          "ので"
+          "ではあるが",
+          "であるから",
+          "なので",
+          "だとしても"
         ],
         "answer": 0,
         "id": "N3-07-055"
       },
       {
         "type": "文章の文法",
-        "text": "彼女は泣き（　）話し始めました。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "環境問題の解決（　）、国際的な協力が不可欠である。（33）",
+        "question": "（　）に入るのは？",
         "options": [
-          "ながら",
-          "つつ",
-          "がてら",
-          "かたわら"
+          "には",
+          "にとって",
+          "において",
+          "に際して"
         ],
         "answer": 3,
         "id": "N3-07-056"
       },
       {
         "type": "文章の文法",
-        "text": "この仕事は明日まで（　）終わらせなければなりません。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この研究は長年の努力（　）結実したものである。（34）",
+        "question": "（　）に入るのは？",
         "options": [
-          "に",
-          "までに",
-          "で",
-          "まで"
+          "が",
+          "の",
+          "を",
+          "に"
         ],
         "answer": 0,
         "id": "N3-07-057"
       },
       {
         "type": "文章の文法",
-        "text": "駅に着いた（　）、電話してください。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "社会の変化（　）、教育制度も見直しが求められている。（35）",
+        "question": "（　）に入るのは？",
         "options": [
-          "ら",
-          "なら",
-          "ば",
-          "と"
+          "に伴い",
+          "に関して",
+          "によると",
+          "に対して"
         ],
         "answer": 3,
         "id": "N3-07-058"
@@ -11060,25 +9116,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "店員と客がレストランで話しています。店員はこのあと何をしますか。（37）",
+        "question": "何をしますか。",
         "options": [
-          "駅",
-          "病院",
-          "銀行",
-          "郵便局"
+          "送る",
+          "電話する",
+          "相談する",
+          "書類を出す"
         ],
         "answer": 0,
         "id": "N3-07-076",
@@ -11086,25 +9130,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "客と医者がホテルで話しています。客はこのあと何をしますか。（38）",
+        "question": "何をしますか。",
         "options": [
-          "1050円",
-          "1100円",
-          "1150円",
-          "1200円"
+          "相談する",
+          "帰る",
+          "書類を出す",
+          "調べる"
         ],
         "answer": 0,
         "id": "N3-07-077",
@@ -11112,25 +9144,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "医者と患者が駅で話しています。医者はこのあと何をしますか。（39）",
+        "question": "何をしますか。",
         "options": [
-          "1000円",
-          "1050円",
-          "1100円",
-          "1150円"
+          "準備する",
+          "待つ",
+          "帰る",
+          "片付ける"
         ],
         "answer": 2,
         "id": "N3-07-078",
@@ -11138,25 +9158,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "患者と受付が空港で話しています。患者はこのあと何をしますか。（40）",
+        "question": "何をしますか。",
         "options": [
-          "950円",
-          "1000円",
-          "1050円",
-          "1100円"
+          "帰る",
+          "相談する",
+          "行く",
+          "片付ける"
         ],
         "answer": 0,
         "id": "N3-07-079",
@@ -11164,25 +9172,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "受付と係員が図書館で話しています。受付はこのあと何をしますか。（41）",
+        "question": "何をしますか。",
         "options": [
-          "900円",
-          "950円",
-          "1000円",
-          "1050円"
+          "メールする",
+          "買う",
+          "待つ",
+          "相談する"
         ],
         "answer": 0,
         "id": "N3-07-080",
@@ -11190,25 +9186,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "係員とスタッフが郵便局で話しています。係員はこのあと何をしますか。（42）",
+        "question": "何をしますか。",
         "options": [
-          "850円",
-          "900円",
-          "950円",
-          "1000円"
+          "行く",
+          "準備する",
+          "電話する",
+          "報告する"
         ],
         "answer": 0,
         "id": "N3-07-081",
@@ -11216,25 +9200,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "授業を聞いています。最も重要なポイントは何ですか。（37）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "1:15",
-          "1:30",
-          "1:45",
-          "2:00"
+          "コスト削減",
+          "才能の必要性",
+          "品質向上",
+          "継続の重要性"
         ],
         "answer": 2,
         "id": "N3-07-082",
@@ -11242,25 +9214,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ラジオを聞いています。最も重要なポイントは何ですか。（38）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "2:15",
-          "2:30",
-          "2:45",
-          "3:00"
+          "リスク低減",
+          "チームワーク",
+          "顧客満足",
+          "人材育成"
         ],
         "answer": 2,
         "id": "N3-07-083",
@@ -11268,25 +9228,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "案内を聞いています。最も重要なポイントは何ですか。（39）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "3:15",
-          "3:30",
-          "3:45",
-          "4:00"
+          "品質向上",
+          "継続の重要性",
+          "顧客満足",
+          "才能の必要性"
         ],
         "answer": 1,
         "id": "N3-07-084",
@@ -11294,25 +9242,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "スピーチを聞いています。最も重要なポイントは何ですか。（40）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "4:15",
-          "4:30",
-          "4:45",
-          "5:00"
+          "コミュニケーション",
+          "継続の重要性",
+          "リスク低減",
+          "リーダーシップ"
         ],
         "answer": 2,
         "id": "N3-07-085",
@@ -11320,25 +9256,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "報告を聞いています。最も重要なポイントは何ですか。（41）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "5:15",
-          "5:30",
-          "5:45",
-          "6:00"
+          "才能の必要性",
+          "コミュニケーション",
+          "人材育成",
+          "時間管理"
         ],
         "answer": 1,
         "id": "N3-07-086",
@@ -11346,25 +9270,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "対談を聞いています。最も重要なポイントは何ですか。（42）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "6:15",
-          "6:30",
-          "6:45",
-          "7:00"
+          "情報共有",
+          "リーダーシップ",
+          "コスト削減",
+          "顧客満足"
         ],
         "answer": 2,
         "id": "N3-07-087",
@@ -11372,25 +9284,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "インタビューを聞いています。このインタビューの主なテーマは何ですか。（19）",
+        "question": "主なテーマは？",
         "options": [
-          "4月",
-          "5月",
-          "6月",
-          "7月"
+          "リーダーシップ",
+          "政治",
+          "経済",
+          "コミュニケーション"
         ],
         "answer": 1,
         "id": "N3-07-088",
@@ -11398,25 +9298,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "プレゼンを聞いています。このプレゼンの主なテーマは何ですか。（20）",
+        "question": "主なテーマは？",
         "options": [
-          "5月",
-          "6月",
-          "7月",
-          "8月"
+          "チームワーク",
+          "イノベーション",
+          "科学",
+          "歴史"
         ],
         "answer": 0,
         "id": "N3-07-089",
@@ -11424,25 +9312,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ラジオを聞いています。このラジオの主なテーマは何ですか。（21）",
+        "question": "主なテーマは？",
         "options": [
-          "6月",
-          "7月",
-          "8月",
-          "9月"
+          "環境",
+          "教育",
+          "健康",
+          "歴史"
         ],
         "answer": 2,
         "id": "N3-07-090",
@@ -11450,25 +9326,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "確認したいです。何と言いますか。（25）",
+        "question": "何と言いますか。",
         "options": [
-          "たぶん",
-          "おそらく",
-          "かもしれません",
-          "でしょう"
+          "はい、そうです",
+          "いいえ、違います",
+          "これで合っていますか",
+          "ありがとうございます"
         ],
         "answer": 0,
         "id": "N3-07-091",
@@ -11476,25 +9340,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "誘いに応じたいです。何と言いますか。（26）",
+        "question": "何と言いますか。",
         "options": [
-          "そうですね",
-          "そうかもしれません",
-          "その通りです",
-          "確かに"
+          "ぜひ行きたいです",
+          "いいえ、違います",
+          "ありがとうございます",
+          "はい、そうです"
         ],
         "answer": 0,
         "id": "N3-07-092",
@@ -11502,25 +9354,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "予約をしたいです。何と言いますか。（27）",
+        "question": "何と言いますか。",
         "options": [
-          "なるほど",
-          "分かりました",
-          "了解です",
-          "承知しました"
+          "ありがとうございます",
+          "はい、そうです",
+          "予約をお願いします",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-07-093",
@@ -11528,25 +9368,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "注文をしたいです。何と言いますか。（28）",
+        "question": "何と言いますか。",
         "options": [
-          "すごいですね",
-          "素晴らしい",
-          "素敵ですね",
-          "良かったですね"
+          "はい、そうです",
+          "これをお願いします",
+          "いいえ、違います",
+          "ありがとうございます"
         ],
         "answer": 0,
         "id": "N3-07-094",
@@ -11554,25 +9382,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "コーヒー、もう一杯いかがですか。（49）",
+        "question": "返答は？",
         "options": [
-          "岡山です",
-          "松山です",
-          "高松です",
-          "那覇です"
+          "はい、食べました",
+          "いただきます",
+          "いいえ、違います",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-07-095",
@@ -11580,25 +9396,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "昨日のパーティー、楽しかったですね。（50）",
+        "question": "返答は？",
         "options": [
-          "松山です",
-          "高松です",
-          "那覇です",
-          "千葉です"
+          "はい、食べました",
+          "いいえ、違います",
+          "いいえ、行きません",
+          "本当に楽しかった"
         ],
         "answer": 0,
         "id": "N3-07-096",
@@ -11606,25 +9410,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "この辺に郵便局はありますか。（51）",
+        "question": "返答は？",
         "options": [
-          "高松です",
-          "那覇です",
-          "千葉です",
-          "埼玉です"
+          "いいえ、行きません",
+          "いいえ、違います",
+          "はい、食べました",
+          "この先にあります"
         ],
         "answer": 0,
         "id": "N3-07-097",
@@ -11632,25 +9424,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ちょっとお時間よろしいですか。（52）",
+        "question": "返答は？",
         "options": [
-          "那覇です",
-          "千葉です",
-          "埼玉です",
-          "栃木です"
+          "いいえ、違います",
+          "はい、食べました",
+          "いいえ、行きません",
+          "はい、大丈夫です"
         ],
         "answer": 0,
         "id": "N3-07-098",
@@ -11658,25 +9438,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "傘、お持ちですか。（53）",
+        "question": "返答は？",
         "options": [
-          "千葉です",
-          "埼玉です",
-          "栃木です",
-          "群馬です"
+          "いいえ、忘れました",
+          "はい、食べました",
+          "いいえ、行きません",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-07-099",
@@ -11684,25 +9452,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "このあたり、静かでいいですね。（54）",
+        "question": "返答は？",
         "options": [
-          "埼玉です",
-          "栃木です",
-          "群馬です",
-          "茨城です"
+          "そうですね",
+          "いいえ、行きません",
+          "はい、食べました",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-07-100",
@@ -11710,25 +9466,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "お荷物、お持ちしましょうか。（55）",
+        "question": "返答は？",
         "options": [
-          "会社員です",
-          "学生です",
-          "教師です",
-          "医者です"
+          "いいえ、違います",
+          "いいえ、行きません",
+          "はい、食べました",
+          "ありがとうございます"
         ],
         "answer": 0,
         "id": "N3-07-101",
@@ -11736,25 +9480,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "今日は暑いですね。（56）",
+        "question": "返答は？",
         "options": [
-          "学生です",
-          "教師です",
-          "医者です",
-          "看護師です"
+          "はい、食べました",
+          "いいえ、行きません",
+          "いいえ、違います",
+          "本当ですね"
         ],
         "answer": 0,
         "id": "N3-07-102",
@@ -12154,65 +9886,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>落ちる<rt>おちる</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「耳」の用法として正しいのは？（36）",
+        "question": "正しいのは？",
         "options": [
-          "試験に落ちる",
-          "落ちるを飲む",
-          "落ちるに住む",
-          "落ちるを走る"
+          "耳が痛い",
+          "耳が高い",
+          "耳が早い",
+          "耳が重い"
         ],
         "answer": 0,
         "id": "N3-08-031"
       },
       {
         "type": "用法",
-        "text": "「<ruby>回す<rt>まわす</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「顔」の用法として正しいのは？（37）",
+        "question": "正しいのは？",
         "options": [
-          "お金を回す",
-          "回すを食べる",
-          "回すに乗る",
-          "回すを着る"
+          "顔が広い",
+          "顔が高い",
+          "顔が早い",
+          "顔が重い"
         ],
         "answer": 0,
         "id": "N3-08-032"
       },
       {
         "type": "用法",
-        "text": "「<ruby>回る<rt>まわる</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「腕」の用法として正しいのは？（38）",
+        "question": "正しいのは？",
         "options": [
-          "頭が回る",
-          "回るを飲む",
-          "回るに住む",
-          "回るを走る"
+          "腕を磨く",
+          "腕が高い",
+          "腕が早い",
+          "腕が重い"
         ],
         "answer": 0,
         "id": "N3-08-033"
       },
       {
         "type": "用法",
-        "text": "「<ruby>通す<rt>とおす</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「肩」の用法として正しいのは？（39）",
+        "question": "正しいのは？",
         "options": [
-          "筋を通す",
-          "通すを食べる",
-          "通すに乗る",
-          "通すを着る"
+          "肩の荷が下りる",
+          "肩が高い",
+          "肩が早い",
+          "肩が重い"
         ],
         "answer": 0,
         "id": "N3-08-034"
       },
       {
         "type": "用法",
-        "text": "「<ruby>通る<rt>とおる</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「腰」の用法として正しいのは？（40）",
+        "question": "正しいのは？",
         "options": [
-          "試験に通る",
-          "通るを飲む",
-          "通るに住む",
-          "通るを走る"
+          "腰が重い",
+          "腰が高い",
+          "腰が早い",
+          "腰が軽い"
         ],
         "answer": 0,
         "id": "N3-08-035"
@@ -12453,65 +10185,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文章の文法",
-        "text": "時間がない（　）、タクシーで行きましょう。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼女は困難（　）乗り越え、目標を達成した。（36）",
+        "question": "（　）に入るのは？",
         "options": [
-          "から",
-          "ので",
-          "のに",
-          "けど"
+          "を",
+          "に",
+          "で",
+          "から"
         ],
         "answer": 0,
         "id": "N3-08-054"
       },
       {
         "type": "文章の文法",
-        "text": "彼は医者になる（　）、毎日勉強しています。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "専門家（　）意見を聞く必要がある。（37）",
+        "question": "（　）に入るのは？",
         "options": [
-          "ために",
-          "ように",
-          "ことに",
-          "のに"
+          "の",
+          "から",
+          "による",
+          "への"
         ],
         "answer": 3,
         "id": "N3-08-055"
       },
       {
         "type": "文章の文法",
-        "text": "日本語が上手に（　）ように、毎日練習しています。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "技術の進歩（　）、生活は大きく変わった。（38）",
+        "question": "（　）に入るのは？",
         "options": [
-          "話せる",
-          "話す",
-          "話して",
-          "話し"
+          "により",
+          "にとって",
+          "に関して",
+          "に対して"
         ],
         "answer": 0,
         "id": "N3-08-056"
       },
       {
         "type": "文章の文法",
-        "text": "彼は怒りを（　）ように努力した。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の行動は法律（　）許されるものではない。（39）",
+        "question": "（　）に入るのは？",
         "options": [
-          "抑える",
-          "抑え",
-          "抑えた",
-          "抑えて"
+          "上",
+          "的に",
+          "において",
+          "としても"
         ],
         "answer": 3,
         "id": "N3-08-057"
       },
       {
         "type": "文章の文法",
-        "text": "この問題は難しすぎて、誰にも（　）。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "予算の制約（　）実現が困難だ。（40）",
+        "question": "（　）に入るのは？",
         "options": [
-          "解けません",
-          "解きません",
-          "解けないです",
-          "解かないです"
+          "から",
+          "ゆえに",
+          "として",
+          "にして"
         ],
         "answer": 0,
         "id": "N3-08-058"
@@ -12739,25 +10471,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "スタッフと友人が美容院で話しています。スタッフはこのあと何をしますか。（43）",
+        "question": "何をしますか。",
         "options": [
-          "800円",
-          "850円",
-          "900円",
-          "950円"
+          "相談する",
+          "帰る",
+          "書類を出す",
+          "報告する"
         ],
         "answer": 0,
         "id": "N3-08-076",
@@ -12765,25 +10485,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "友人と同僚がジムで話しています。友人はこのあと何をしますか。（44）",
+        "question": "何をしますか。",
         "options": [
-          "750円",
-          "800円",
-          "850円",
-          "900円"
+          "送る",
+          "書類を出す",
+          "報告する",
+          "買う"
         ],
         "answer": 2,
         "id": "N3-08-077",
@@ -12791,25 +10499,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "同僚と男の人がカフェで話しています。同僚はこのあと何をしますか。（45）",
+        "question": "何をしますか。",
         "options": [
-          "700円",
-          "750円",
-          "800円",
-          "850円"
+          "調べる",
+          "相談する",
+          "送る",
+          "予約する"
         ],
         "answer": 0,
         "id": "N3-08-078",
@@ -12817,25 +10513,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "男の人と女の人が会社で話しています。男の人はこのあと何をしますか。（46）",
+        "question": "何をしますか。",
         "options": [
-          "650円",
-          "700円",
-          "750円",
-          "800円"
+          "電話する",
+          "買う",
+          "予約する",
+          "帰る"
         ],
         "answer": 0,
         "id": "N3-08-079",
@@ -12843,25 +10527,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "女の人と学生が学校で話しています。女の人はこのあと何をしますか。（47）",
+        "question": "何をしますか。",
         "options": [
-          "600円",
-          "650円",
-          "700円",
-          "750円"
+          "予約する",
+          "送る",
+          "買う",
+          "メールする"
         ],
         "answer": 0,
         "id": "N3-08-080",
@@ -12869,25 +10541,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "学生と先生が病院で話しています。学生はこのあと何をしますか。（48）",
+        "question": "何をしますか。",
         "options": [
-          "550円",
-          "600円",
-          "650円",
-          "700円"
+          "買う",
+          "準備する",
+          "書類を出す",
+          "片付ける"
         ],
         "answer": 0,
         "id": "N3-08-081",
@@ -12895,25 +10555,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "講義を聞いています。最も重要なポイントは何ですか。（43）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "7:15",
-          "7:30",
-          "7:45",
-          "8:00"
+          "情報共有",
+          "チームワーク",
+          "環境の影響",
+          "運の要素"
         ],
         "answer": 2,
         "id": "N3-08-082",
@@ -12921,25 +10569,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "解説を聞いています。最も重要なポイントは何ですか。（44）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "8:15",
-          "8:30",
-          "8:45",
-          "9:00"
+          "継続の重要性",
+          "リーダーシップ",
+          "時間管理",
+          "顧客満足"
         ],
         "answer": 1,
         "id": "N3-08-083",
@@ -12947,25 +10583,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "討論を聞いています。最も重要なポイントは何ですか。（45）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "9:15",
-          "9:30",
-          "9:45",
-          "10:00"
+          "チームワーク",
+          "リーダーシップ",
+          "継続の重要性",
+          "コミュニケーション"
         ],
         "answer": 2,
         "id": "N3-08-084",
@@ -12973,25 +10597,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "講演を聞いています。最も重要なポイントは何ですか。（46）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "10:15",
-          "10:30",
-          "10:45",
-          "11:00"
+          "情報共有",
+          "継続の重要性",
+          "環境の影響",
+          "リーダーシップ"
         ],
         "answer": 1,
         "id": "N3-08-085",
@@ -12999,25 +10611,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ニュースを聞いています。最も重要なポイントは何ですか。（47）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "11:15",
-          "11:30",
-          "11:45",
-          "12:00"
+          "リスク低減",
+          "コスト削減",
+          "継続の重要性",
+          "才能の必要性"
         ],
         "answer": 2,
         "id": "N3-08-086",
@@ -13025,25 +10625,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "インタビューを聞いています。最も重要なポイントは何ですか。（48）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "12:15",
-          "12:30",
-          "12:45",
-          "1:00"
+          "才能の必要性",
+          "環境の影響",
+          "チームワーク",
+          "リーダーシップ"
         ],
         "answer": 2,
         "id": "N3-08-087",
@@ -13051,25 +10639,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "会議を聞いています。この会議の主なテーマは何ですか。（22）",
+        "question": "主なテーマは？",
         "options": [
-          "7月",
-          "8月",
-          "9月",
-          "10月"
+          "環境",
+          "経済",
+          "チームワーク",
+          "芸術"
         ],
         "answer": 1,
         "id": "N3-08-088",
@@ -13077,25 +10653,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "授業を聞いています。この授業の主なテーマは何ですか。（23）",
+        "question": "主なテーマは？",
         "options": [
-          "8月",
-          "9月",
-          "10月",
-          "11月"
+          "経済",
+          "健康",
+          "リーダーシップ",
+          "芸術"
         ],
         "answer": 0,
         "id": "N3-08-089",
@@ -13103,25 +10667,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "スピーチを聞いています。このスピーチの主なテーマは何ですか。（24）",
+        "question": "主なテーマは？",
         "options": [
-          "9月",
-          "10月",
-          "11月",
-          "12月"
+          "歴史",
+          "リーダーシップ",
+          "健康",
+          "社会"
         ],
         "answer": 2,
         "id": "N3-08-090",
@@ -13129,25 +10681,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "質問したいです。何と言いますか。（29）",
+        "question": "何と言いますか。",
         "options": [
-          "残念ですね",
-          "仕方ないですね",
-          "困りましたね",
-          "大変ですね"
+          "いいえ、違います",
+          "ちょっとお聞きしたいのですが",
+          "ありがとうございます",
+          "はい、そうです"
         ],
         "answer": 0,
         "id": "N3-08-091",
@@ -13155,25 +10695,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "説明を求めたいです。何と言いますか。（30）",
+        "question": "何と言いますか。",
         "options": [
-          "本当ですか",
-          "信じられない",
-          "びっくりです",
-          "驚きました"
+          "ありがとうございます",
+          "はい、そうです",
+          "もう少し詳しく教えていただけますか",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-08-092",
@@ -13181,25 +10709,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "友達に映画に誘いたいです。何と言いますか。（31）",
+        "question": "何と言いますか。",
         "options": [
-          "賛成です",
-          "反対です",
-          "どちらとも",
-          "検討します"
+          "今度映画見に行かない？",
+          "はい、そうです",
+          "いいえ、違います",
+          "ありがとうございます"
         ],
         "answer": 0,
         "id": "N3-08-093",
@@ -13207,25 +10723,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "店員に試着したいと伝えるです。何と言いますか。（32）",
+        "question": "何と言いますか。",
         "options": [
-          "大丈夫です",
-          "問題ありません",
-          "心配いりません",
-          "気にしないで"
+          "いいえ、違います",
+          "ありがとうございます",
+          "はい、そうです",
+          "これ、試着できますか"
         ],
         "answer": 0,
         "id": "N3-08-094",
@@ -13233,25 +10737,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "お仕事、何時までですか。（57）",
+        "question": "返答は？",
         "options": [
-          "教師です",
-          "医者です",
-          "看護師です",
-          "弁護士です"
+          "はい、食べました",
+          "いいえ、行きません",
+          "いいえ、違います",
+          "6時までです"
         ],
         "answer": 0,
         "id": "N3-08-095",
@@ -13259,25 +10751,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "週末、何か予定ありますか。（58）",
+        "question": "返答は？",
         "options": [
-          "医者です",
-          "看護師です",
-          "弁護士です",
-          "公務員です"
+          "特にないです",
+          "いいえ、行きません",
+          "いいえ、違います",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-08-096",
@@ -13285,25 +10765,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "この料理、おいしいですね。（59）",
+        "question": "返答は？",
         "options": [
-          "看護師です",
-          "弁護士です",
-          "公務員です",
-          "銀行員です"
+          "はい、食べました",
+          "いいえ、違います",
+          "いいえ、行きません",
+          "そうですね、おいしい"
         ],
         "answer": 0,
         "id": "N3-08-097",
@@ -13311,25 +10779,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ここで写真撮ってもいいですか。（60）",
+        "question": "返答は？",
         "options": [
-          "弁護士です",
-          "公務員です",
-          "銀行員です",
-          "店員です"
+          "大丈夫ですよ",
+          "いいえ、行きません",
+          "はい、食べました",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-08-098",
@@ -13337,25 +10793,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "すみません、この席、空いていますか。（61）",
+        "question": "返答は？",
         "options": [
-          "公務員です",
-          "銀行員です",
-          "店員です",
-          "主婦です"
+          "はい、どうぞ",
+          "いいえ、行きません",
+          "いいえ、違います",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-08-099",
@@ -13363,25 +10807,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "明日の会議、何時からでしたっけ。（62）",
+        "question": "返答は？",
         "options": [
-          "銀行員です",
-          "店員です",
-          "主婦です",
-          "エンジニアです"
+          "いいえ、違います",
+          "いいえ、行きません",
+          "10時からです",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-08-100",
@@ -13389,25 +10821,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "このへん、コンビニありますか。（63）",
+        "question": "返答は？",
         "options": [
-          "店員です",
-          "主婦です",
-          "エンジニアです",
-          "デザイナーです"
+          "いいえ、行きません",
+          "あの角を曲がると",
+          "はい、食べました",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-08-101",
@@ -13415,25 +10835,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ちょっと手伝っていただけませんか。（64）",
+        "question": "返答は？",
         "options": [
-          "主婦です",
-          "エンジニアです",
-          "デザイナーです",
-          "料理人です"
+          "いいえ、違います",
+          "はい、いいですよ",
+          "いいえ、行きません",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-08-102",
@@ -13833,65 +11241,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>引く<rt>ひく</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「気」の用法として正しいのは？（41）",
+        "question": "正しいのは？",
         "options": [
-          "線を引く",
-          "引くを食べる",
-          "引くに乗る",
-          "引くを着る"
+          "気が利く",
+          "気が高い",
+          "気が早い",
+          "気が重い"
         ],
         "answer": 0,
         "id": "N3-09-031"
       },
       {
         "type": "用法",
-        "text": "「<ruby>押す<rt>おす</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「息」の用法として正しいのは？（42）",
+        "question": "正しいのは？",
         "options": [
-          "ボタンを押す",
-          "押すを飲む",
-          "押すに住む",
-          "押すを走る"
+          "息が合う",
+          "息が高い",
+          "息が早い",
+          "息が重い"
         ],
         "answer": 0,
         "id": "N3-09-032"
       },
       {
         "type": "用法",
-        "text": "「<ruby>動かす<rt>うごかす</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「胸」の用法として正しいのは？（43）",
+        "question": "正しいのは？",
         "options": [
-          "心を動かす",
-          "動かすを食べる",
-          "動かすに乗る",
-          "動かすを着る"
+          "胸を張る",
+          "胸が高い",
+          "胸が早い",
+          "胸が重い"
         ],
         "answer": 0,
         "id": "N3-09-033"
       },
       {
         "type": "用法",
-        "text": "「<ruby>動く<rt>うごく</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「背」の用法として正しいのは？（44）",
+        "question": "正しいのは？",
         "options": [
-          "機械が動く",
-          "動くを飲む",
-          "動くに住む",
-          "動くを走る"
+          "背を向ける",
+          "背が広い",
+          "背が早い",
+          "背が重い"
         ],
         "answer": 0,
         "id": "N3-09-034"
       },
       {
         "type": "用法",
-        "text": "「<ruby>直す<rt>なおす</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「骨」の用法として正しいのは？（45）",
+        "question": "正しいのは？",
         "options": [
-          "間違いを直す",
-          "直すを食べる",
-          "直すに乗る",
-          "直すを着る"
+          "骨を折る",
+          "骨が高い",
+          "骨が早い",
+          "骨が重い"
         ],
         "answer": 0,
         "id": "N3-09-035"
@@ -14132,65 +11540,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文章の文法",
-        "text": "彼女は疲れている（　）、まだ働いています。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "結果（　）良ければ全て良しとは限らない。（41）",
+        "question": "（　）に入るのは？",
         "options": [
-          "のに",
-          "から",
-          "ので",
-          "けど"
+          "が",
+          "さえ",
+          "こそ",
+          "だけ"
         ],
         "answer": 3,
         "id": "N3-09-054"
       },
       {
         "type": "文章の文法",
-        "text": "試験に（　）、一生懸命勉強しました。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "努力家である（　）、才能にも恵まれている。（42）",
+        "question": "（　）に入るのは？",
         "options": [
-          "受かるために",
-          "受かるように",
-          "受かったために",
-          "受かったように"
+          "のみならず",
+          "にもかかわらず",
+          "とはいえ",
+          "からこそ"
         ],
         "answer": 0,
         "id": "N3-09-055"
       },
       {
         "type": "文章の文法",
-        "text": "この本は一度（　）読む価値があります。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "一朝一夕（　）解決できるものではない。（43）",
+        "question": "（　）に入るのは？",
         "options": [
-          "は",
-          "も",
-          "でも",
-          "こそ"
+          "に",
+          "で",
+          "には",
+          "では"
         ],
         "answer": 3,
         "id": "N3-09-056"
       },
       {
         "type": "文章の文法",
-        "text": "彼は日本に来て（　）、ずっと東京に住んでいます。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "事実（　）基づいている。（44）",
+        "question": "（　）に入るのは？",
         "options": [
-          "から",
-          "以来",
-          "まで",
-          "間"
+          "に",
+          "を",
+          "と",
+          "が"
         ],
         "answer": 0,
         "id": "N3-09-057"
       },
       {
         "type": "文章の文法",
-        "text": "この店は安い（　）、味もいいです。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "経験（　）勝るものはない。（45）",
+        "question": "（　）に入るのは？",
         "options": [
-          "し",
-          "ので",
-          "から",
-          "けど"
+          "に",
+          "を",
+          "が",
+          "より"
         ],
         "answer": 3,
         "id": "N3-09-058"
@@ -14418,25 +11826,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "先生と上司が銀行で話しています。先生はこのあと何をしますか。（49）",
+        "question": "何をしますか。",
         "options": [
-          "500円",
-          "550円",
-          "600円",
-          "650円"
+          "電話する",
+          "調べる",
+          "待つ",
+          "予約する"
         ],
         "answer": 2,
         "id": "N3-09-076",
@@ -14444,25 +11840,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "上司と部下が役所で話しています。上司はこのあと何をしますか。（50）",
+        "question": "何をしますか。",
         "options": [
-          "450円",
-          "500円",
-          "550円",
-          "600円"
+          "帰る",
+          "予約する",
+          "送る",
+          "確認する"
         ],
         "answer": 0,
         "id": "N3-09-077",
@@ -14470,25 +11854,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "部下と店員が店で話しています。部下はこのあと何をしますか。（51）",
+        "question": "何をしますか。",
         "options": [
-          "400円",
-          "450円",
-          "500円",
-          "550円"
+          "報告する",
+          "調べる",
+          "電話する",
+          "準備する"
         ],
         "answer": 0,
         "id": "N3-09-078",
@@ -14496,25 +11868,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "店員と客がレストランで話しています。店員はこのあと何をしますか。（52）",
+        "question": "何をしますか。",
         "options": [
-          "350円",
-          "400円",
-          "450円",
-          "500円"
+          "相談する",
+          "書類を出す",
+          "買う",
+          "準備する"
         ],
         "answer": 0,
         "id": "N3-09-079",
@@ -14522,25 +11882,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "客と医者がホテルで話しています。客はこのあと何をしますか。（53）",
+        "question": "何をしますか。",
         "options": [
-          "300円",
-          "350円",
-          "400円",
-          "450円"
+          "調べる",
+          "書類を出す",
+          "確認する",
+          "帰る"
         ],
         "answer": 0,
         "id": "N3-09-080",
@@ -14548,25 +11896,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "医者と患者が駅で話しています。医者はこのあと何をしますか。（54）",
+        "question": "何をしますか。",
         "options": [
-          "250円",
-          "300円",
-          "350円",
-          "400円"
+          "待つ",
+          "報告する",
+          "書類を出す",
+          "準備する"
         ],
         "answer": 2,
         "id": "N3-09-081",
@@ -14574,25 +11910,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "説明を聞いています。最も重要なポイントは何ですか。（49）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "1時ごろ",
-          "1時すぎ",
-          "1時前",
-          "1時ちょうど"
+          "コスト削減",
+          "品質向上",
+          "運の要素",
+          "人材育成"
         ],
         "answer": 1,
         "id": "N3-09-082",
@@ -14600,25 +11924,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "会議を聞いています。最も重要なポイントは何ですか。（50）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "2時ごろ",
-          "2時すぎ",
-          "2時前",
-          "2時ちょうど"
+          "才能の必要性",
+          "効率化",
+          "チームワーク",
+          "コスト削減"
         ],
         "answer": 2,
         "id": "N3-09-083",
@@ -14626,25 +11938,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "プレゼンを聞いています。最も重要なポイントは何ですか。（51）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "3時ごろ",
-          "3時すぎ",
-          "3時前",
-          "3時ちょうど"
+          "顧客満足",
+          "コミュニケーション",
+          "時間管理",
+          "コスト削減"
         ],
         "answer": 1,
         "id": "N3-09-084",
@@ -14652,25 +11952,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "授業を聞いています。最も重要なポイントは何ですか。（52）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "4時ごろ",
-          "4時すぎ",
-          "4時前",
-          "4時ちょうど"
+          "時間管理",
+          "顧客満足",
+          "リーダーシップ",
+          "品質向上"
         ],
         "answer": 2,
         "id": "N3-09-085",
@@ -14678,25 +11966,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ラジオを聞いています。最も重要なポイントは何ですか。（53）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "5時ごろ",
-          "5時すぎ",
-          "5時前",
-          "5時ちょうど"
+          "リーダーシップ",
+          "人材育成",
+          "時間管理",
+          "継続の重要性"
         ],
         "answer": 2,
         "id": "N3-09-086",
@@ -14704,25 +11980,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "案内を聞いています。最も重要なポイントは何ですか。（54）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "6時ごろ",
-          "6時すぎ",
-          "6時前",
-          "6時ちょうど"
+          "顧客満足",
+          "人材育成",
+          "効率化",
+          "コミュニケーション"
         ],
         "answer": 1,
         "id": "N3-09-087",
@@ -14730,25 +11994,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "対談を聞いています。この対談の主なテーマは何ですか。（25）",
+        "question": "主なテーマは？",
         "options": [
-          "1個",
-          "2個",
-          "3個",
-          "4個"
+          "歴史",
+          "文化",
+          "経済",
+          "教育"
         ],
         "answer": 1,
         "id": "N3-09-088",
@@ -14756,25 +12008,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "解説を聞いています。この解説の主なテーマは何ですか。（26）",
+        "question": "主なテーマは？",
         "options": [
-          "2個",
-          "3個",
-          "4個",
-          "5個"
+          "文化",
+          "教育",
+          "技術",
+          "科学"
         ],
         "answer": 0,
         "id": "N3-09-089",
@@ -14782,25 +12022,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ドキュメンタリーを聞いています。このドキュメンタリーの主なテーマは何ですか。（27）",
+        "question": "主なテーマは？",
         "options": [
-          "3個",
-          "4個",
-          "5個",
-          "6個"
+          "イノベーション",
+          "スポーツ",
+          "コミュニケーション",
+          "健康"
         ],
         "answer": 2,
         "id": "N3-09-090",
@@ -14808,25 +12036,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "道を聞きたいです。何と言いますか。（33）",
+        "question": "何と言いますか。",
         "options": [
-          "お願いします",
-          "けっこうです",
-          "どちらでもいいです",
-          "考えます"
+          "すみません、駅はどこですか",
+          "はい、そうです",
+          "ありがとうございます",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-09-091",
@@ -14834,25 +12050,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "お礼を言いたいです。何と言いますか。（34）",
+        "question": "何と言いますか。",
         "options": [
-          "喜んで",
-          "是非",
-          "ぜひお願いします",
-          "楽しみです"
+          "はい、そうです",
+          "ありがとうございます",
+          "本当にありがとうございます",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-09-092",
@@ -14860,25 +12064,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "謝りたいです。何と言いますか。（35）",
+        "question": "何と言いますか。",
         "options": [
-          "遠慮します",
-          "ご遠慮ください",
-          "ちょっと...",
-          "今回は"
+          "申し訳ありませんでした",
+          "はい、そうです",
+          "いいえ、違います",
+          "ありがとうございます"
         ],
         "answer": 0,
         "id": "N3-09-093",
@@ -14886,25 +12078,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "許可を求めたいです。何と言いますか。（36）",
+        "question": "何と言いますか。",
         "options": [
-          "覚えています",
-          "覚えていません",
-          "忘れました",
-          "思い出せません"
+          "ありがとうございます",
+          "はい、そうです",
+          "いいえ、違います",
+          "ここに座ってもいいですか"
         ],
         "answer": 0,
         "id": "N3-09-094",
@@ -14912,25 +12092,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "この書類、どこに提出すればいいですか。（65）",
+        "question": "返答は？",
         "options": [
-          "エンジニアです",
-          "デザイナーです",
-          "料理人です",
-          "運転手です"
+          "いいえ、違います",
+          "はい、食べました",
+          "いいえ、行きません",
+          "総務部です"
         ],
         "answer": 0,
         "id": "N3-09-095",
@@ -14938,25 +12106,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "お名前、お願いできますか。（66）",
+        "question": "返答は？",
         "options": [
-          "デザイナーです",
-          "料理人です",
-          "運転手です",
-          "警察官です"
+          "田中と申します",
+          "いいえ、行きません",
+          "いいえ、違います",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-09-096",
@@ -14964,25 +12120,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "駅まで、どのくらいかかりますか。（67）",
+        "question": "返答は？",
         "options": [
-          "料理人です",
-          "運転手です",
-          "警察官です",
-          "消防士です"
+          "いいえ、行きません",
+          "歩いて10分くらい",
+          "いいえ、違います",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-09-097",
@@ -14990,25 +12134,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "このパソコン、使ってもいいですか。（68）",
+        "question": "返答は？",
         "options": [
-          "運転手です",
-          "警察官です",
-          "消防士です",
-          "記者です"
+          "どうぞ",
+          "いいえ、行きません",
+          "はい、食べました",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-09-098",
@@ -15016,25 +12148,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "コーヒー、もう一杯いかがですか。（69）",
+        "question": "返答は？",
         "options": [
-          "警察官です",
-          "消防士です",
-          "記者です",
-          "作家です"
+          "いいえ、違います",
+          "はい、食べました",
+          "いいえ、行きません",
+          "いただきます"
         ],
         "answer": 0,
         "id": "N3-09-099",
@@ -15042,25 +12162,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "昨日のパーティー、楽しかったですね。（70）",
+        "question": "返答は？",
         "options": [
-          "消防士です",
-          "記者です",
-          "作家です",
-          "歌手です"
+          "いいえ、行きません",
+          "本当に楽しかった",
+          "いいえ、違います",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-09-100",
@@ -15068,25 +12176,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "この辺に郵便局はありますか。（71）",
+        "question": "返答は？",
         "options": [
-          "記者です",
-          "作家です",
-          "歌手です",
-          "俳優です"
+          "いいえ、違います",
+          "この先にあります",
+          "いいえ、行きません",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-09-101",
@@ -15094,25 +12190,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ちょっとお時間よろしいですか。（72）",
+        "question": "返答は？",
         "options": [
-          "1時です",
-          "1時半です",
-          "2時です",
-          "2時半です"
+          "いいえ、行きません",
+          "いいえ、違います",
+          "はい、大丈夫です",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-09-102",
@@ -15512,65 +12596,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>直る<rt>なおる</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「手」の用法として正しいのは？（46）",
+        "question": "正しいのは？",
         "options": [
-          "病気が直る",
-          "直るを飲む",
-          "直るに住む",
-          "直るを走る"
+          "手が足りない",
+          "手が高い",
+          "手が遅い",
+          "手が軽い"
         ],
         "answer": 0,
         "id": "N3-10-031"
       },
       {
         "type": "用法",
-        "text": "「<ruby>向ける<rt>むける</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「目」の用法として正しいのは？（47）",
+        "question": "正しいのは？",
         "options": [
-          "注意を向ける",
-          "向けるを食べる",
-          "向けるに乗る",
-          "向けるを着る"
+          "目が利く",
+          "目が高い",
+          "目が早い",
+          "目が重い"
         ],
         "answer": 0,
         "id": "N3-10-032"
       },
       {
         "type": "用法",
-        "text": "「<ruby>向く<rt>むく</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「足」の用法として正しいのは？（48）",
+        "question": "正しいのは？",
         "options": [
-          "仕事に向く",
-          "向くを飲む",
-          "向くに住む",
-          "向くを走る"
+          "足を運ぶ",
+          "足が高い",
+          "足が重い",
+          "足が早い"
         ],
         "answer": 0,
         "id": "N3-10-033"
       },
       {
         "type": "用法",
-        "text": "「<ruby>残す<rt>のこす</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「頭」の用法として正しいのは？（49）",
+        "question": "正しいのは？",
         "options": [
-          "記録を残す",
-          "残すを食べる",
-          "残すに乗る",
-          "残すを着る"
+          "頭が切れる",
+          "頭が高い",
+          "頭が早い",
+          "頭が重い"
         ],
         "answer": 0,
         "id": "N3-10-034"
       },
       {
         "type": "用法",
-        "text": "「<ruby>残る<rt>のこる</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「口」の用法として正しいのは？（50）",
+        "question": "正しいのは？",
         "options": [
-          "記憶に残る",
-          "残るを飲む",
-          "残るに住む",
-          "残るを走る"
+          "口が堅い",
+          "口が高い",
+          "口が早い",
+          "口が重い"
         ],
         "answer": 0,
         "id": "N3-10-035"
@@ -15811,65 +12895,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文章の文法",
-        "text": "彼女が来る（　）、パーティーを始めましょう。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "日本経済は長期にわたる停滞（　）、回復の兆しを見せ始めている。（46）",
+        "question": "（　）に入るのは？",
         "options": [
-          "まで",
-          "までに",
-          "から",
-          "ので"
+          "を経て",
+          "をもって",
+          "に至り",
+          "に反して"
         ],
         "answer": 0,
         "id": "N3-10-054"
       },
       {
         "type": "文章の文法",
-        "text": "雨が降り（　）なので、傘を持っていきましょう。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の提案は斬新（　）、実現可能性に欠けるという批判もある。（47）",
+        "question": "（　）に入るのは？",
         "options": [
-          "そう",
-          "よう",
-          "らしい",
-          "みたい"
+          "ではあるが",
+          "であるから",
+          "なので",
+          "だとしても"
         ],
         "answer": 3,
         "id": "N3-10-055"
       },
       {
         "type": "文章の文法",
-        "text": "彼は優秀な（　）、誰からも尊敬されています。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "環境問題の解決（　）、国際的な協力が不可欠である。（48）",
+        "question": "（　）に入るのは？",
         "options": [
-          "だけあって",
-          "せいで",
-          "おかげで",
-          "ために"
+          "には",
+          "にとって",
+          "において",
+          "に際して"
         ],
         "answer": 0,
         "id": "N3-10-056"
       },
       {
         "type": "文章の文法",
-        "text": "この問題は簡単（　）見えて、実は難しいです。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この研究は長年の努力（　）結実したものである。（49）",
+        "question": "（　）に入るのは？",
         "options": [
-          "に",
-          "で",
-          "そうに",
-          "そうで"
+          "が",
+          "の",
+          "を",
+          "に"
         ],
         "answer": 3,
         "id": "N3-10-057"
       },
       {
         "type": "文章の文法",
-        "text": "彼は病気（　）、会議に出席しました。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "社会の変化（　）、教育制度も見直しが求められている。（50）",
+        "question": "（　）に入るのは？",
         "options": [
-          "にもかかわらず",
-          "なのに",
-          "だけど",
-          "が"
+          "に伴い",
+          "に関して",
+          "によると",
+          "に対して"
         ],
         "answer": 0,
         "id": "N3-10-058"
@@ -16097,25 +13181,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "患者と受付が空港で話しています。患者はこのあと何をしますか。（55）",
+        "question": "何をしますか。",
         "options": [
-          "200円",
-          "250円",
-          "300円",
-          "350円"
+          "送る",
+          "片付ける",
+          "書類を出す",
+          "メールする"
         ],
         "answer": 0,
         "id": "N3-10-076",
@@ -16123,25 +13195,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "受付と係員が図書館で話しています。受付はこのあと何をしますか。（56）",
+        "question": "何をしますか。",
         "options": [
-          "150円",
-          "200円",
-          "250円",
-          "300円"
+          "待つ",
+          "片付ける",
+          "予約する",
+          "相談する"
         ],
         "answer": 0,
         "id": "N3-10-077",
@@ -16149,25 +13209,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "係員とスタッフが郵便局で話しています。係員はこのあと何をしますか。（57）",
+        "question": "何をしますか。",
         "options": [
-          "100円",
-          "150円",
-          "200円",
-          "250円"
+          "書類を出す",
+          "行く",
+          "準備する",
+          "メールする"
         ],
         "answer": 0,
         "id": "N3-10-078",
@@ -16175,25 +13223,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "スタッフと友人が美容院で話しています。スタッフはこのあと何をしますか。（58）",
+        "question": "何をしますか。",
         "options": [
-          "20本",
-          "21本",
-          "22本",
-          "23本"
+          "電話する",
+          "メールする",
+          "帰る",
+          "待つ"
         ],
         "answer": 0,
         "id": "N3-10-079",
@@ -16201,25 +13237,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "友人と同僚がジムで話しています。友人はこのあと何をしますか。（59）",
+        "question": "何をしますか。",
         "options": [
-          "19本",
-          "20本",
-          "21本",
-          "22本"
+          "調べる",
+          "買う",
+          "電話する",
+          "待つ"
         ],
         "answer": 2,
         "id": "N3-10-080",
@@ -16227,25 +13251,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "同僚と男の人がカフェで話しています。同僚はこのあと何をしますか。（60）",
+        "question": "何をしますか。",
         "options": [
-          "18本",
-          "19本",
-          "20本",
-          "21本"
+          "待つ",
+          "書類を出す",
+          "片付ける",
+          "送る"
         ],
         "answer": 0,
         "id": "N3-10-081",
@@ -16253,25 +13265,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "スピーチを聞いています。最も重要なポイントは何ですか。（55）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "7時ごろ",
-          "7時すぎ",
-          "7時前",
-          "7時ちょうど"
+          "リスク低減",
+          "コスト削減",
+          "品質向上",
+          "情報共有"
         ],
         "answer": 2,
         "id": "N3-10-082",
@@ -16279,25 +13279,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "報告を聞いています。最も重要なポイントは何ですか。（56）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "8時ごろ",
-          "8時すぎ",
-          "8時前",
-          "8時ちょうど"
+          "時間管理",
+          "コスト削減",
+          "リーダーシップ",
+          "環境の影響"
         ],
         "answer": 1,
         "id": "N3-10-083",
@@ -16305,25 +13293,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "対談を聞いています。最も重要なポイントは何ですか。（57）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "9時ごろ",
-          "9時すぎ",
-          "9時前",
-          "9時ちょうど"
+          "情報共有",
+          "環境の影響",
+          "品質向上",
+          "効率化"
         ],
         "answer": 2,
         "id": "N3-10-084",
@@ -16331,25 +13307,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "講義を聞いています。最も重要なポイントは何ですか。（58）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "10時ごろ",
-          "10時すぎ",
-          "10時前",
-          "10時ちょうど"
+          "環境の影響",
+          "チームワーク",
+          "コスト削減",
+          "効率化"
         ],
         "answer": 2,
         "id": "N3-10-085",
@@ -16357,25 +13321,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "解説を聞いています。最も重要なポイントは何ですか。（59）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "11時ごろ",
-          "11時すぎ",
-          "11時前",
-          "11時ちょうど"
+          "情報共有",
+          "効率化",
+          "チームワーク",
+          "リーダーシップ"
         ],
         "answer": 1,
         "id": "N3-10-086",
@@ -16383,25 +13335,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "討論を聞いています。最も重要なポイントは何ですか。（60）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "12時ごろ",
-          "12時すぎ",
-          "12時前",
-          "12時ちょうど"
+          "コミュニケーション",
+          "才能の必要性",
+          "チームワーク",
+          "人材育成"
         ],
         "answer": 2,
         "id": "N3-10-087",
@@ -16409,25 +13349,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "セミナーを聞いています。このセミナーの主なテーマは何ですか。（28）",
+        "question": "主なテーマは？",
         "options": [
-          "4個",
-          "5個",
-          "6個",
-          "7個"
+          "科学",
+          "教育",
+          "技術",
+          "政治"
         ],
         "answer": 1,
         "id": "N3-10-088",
@@ -16435,25 +13363,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "報告を聞いています。この報告の主なテーマは何ですか。（29）",
+        "question": "主なテーマは？",
         "options": [
-          "5個",
-          "6個",
-          "7個",
-          "8個"
+          "イノベーション",
+          "芸術",
+          "歴史",
+          "経済"
         ],
         "answer": 0,
         "id": "N3-10-089",
@@ -16461,25 +13377,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "討論を聞いています。この討論の主なテーマは何ですか。（30）",
+        "question": "主なテーマは？",
         "options": [
-          "6個",
-          "7個",
-          "8個",
-          "9個"
+          "科学",
+          "リーダーシップ",
+          "芸術",
+          "環境"
         ],
         "answer": 2,
         "id": "N3-10-090",
@@ -16487,25 +13391,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "提案したいです。何と言いますか。（37）",
+        "question": "何と言いますか。",
         "options": [
-          "知っています",
-          "知りません",
-          "聞いたことがあります",
-          "初めて聞きました"
+          "こうしたらどうですか",
+          "はい、そうです",
+          "ありがとうございます",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-10-091",
@@ -16513,25 +13405,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "断りたいです。何と言いますか。（38）",
+        "question": "何と言いますか。",
         "options": [
-          "できます",
-          "できません",
-          "難しいです",
-          "やってみます"
+          "すみません、ちょっと…",
+          "ありがとうございます",
+          "はい、そうです",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-10-092",
@@ -16539,25 +13419,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "依頼したいです。何と言いますか。（39）",
+        "question": "何と言いますか。",
         "options": [
-          "ありです",
-          "なしです",
-          "微妙です",
-          "考え中です"
+          "はい、そうです",
+          "ありがとうございます",
+          "いいえ、違います",
+          "お願いできますか"
         ],
         "answer": 0,
         "id": "N3-10-093",
@@ -16565,25 +13433,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "確認したいです。何と言いますか。（40）",
+        "question": "何と言いますか。",
         "options": [
-          "行きます",
-          "行けません",
-          "行きたいです",
-          "行けたら行きます"
+          "いいえ、違います",
+          "これで合っていますか",
+          "ありがとうございます",
+          "はい、そうです"
         ],
         "answer": 0,
         "id": "N3-10-094",
@@ -16591,25 +13447,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "傘、お持ちですか。（73）",
+        "question": "返答は？",
         "options": [
-          "2時です",
-          "2時半です",
-          "3時です",
-          "3時半です"
+          "いいえ、違います",
+          "いいえ、忘れました",
+          "はい、食べました",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-10-095",
@@ -16617,25 +13461,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "このあたり、静かでいいですね。（74）",
+        "question": "返答は？",
         "options": [
-          "3時です",
-          "3時半です",
-          "4時です",
-          "4時半です"
+          "いいえ、違います",
+          "はい、食べました",
+          "そうですね",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-10-096",
@@ -16643,25 +13475,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "お荷物、お持ちしましょうか。（75）",
+        "question": "返答は？",
         "options": [
-          "4時です",
-          "4時半です",
-          "5時です",
-          "5時半です"
+          "はい、食べました",
+          "いいえ、違います",
+          "ありがとうございます",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-10-097",
@@ -16669,25 +13489,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "今日は暑いですね。（76）",
+        "question": "返答は？",
         "options": [
-          "5時です",
-          "5時半です",
-          "6時です",
-          "6時半です"
+          "いいえ、違います",
+          "いいえ、行きません",
+          "本当ですね",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-10-098",
@@ -16695,25 +13503,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "お仕事、何時までですか。（77）",
+        "question": "返答は？",
         "options": [
-          "6時です",
-          "6時半です",
-          "7時です",
-          "7時半です"
+          "はい、食べました",
+          "いいえ、違います",
+          "いいえ、行きません",
+          "6時までです"
         ],
         "answer": 0,
         "id": "N3-10-099",
@@ -16721,25 +13517,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "週末、何か予定ありますか。（78）",
+        "question": "返答は？",
         "options": [
-          "7時です",
-          "7時半です",
-          "8時です",
-          "8時半です"
+          "特にないです",
+          "いいえ、行きません",
+          "いいえ、違います",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-10-100",
@@ -16747,25 +13531,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "この料理、おいしいですね。（79）",
+        "question": "返答は？",
         "options": [
-          "8時です",
-          "8時半です",
-          "9時です",
-          "9時半です"
+          "はい、食べました",
+          "そうですね、おいしい",
+          "いいえ、違います",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-10-101",
@@ -16773,25 +13545,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ここで写真撮ってもいいですか。（80）",
+        "question": "返答は？",
         "options": [
-          "9時です",
-          "9時半です",
-          "10時です",
-          "10時半です"
+          "はい、食べました",
+          "いいえ、行きません",
+          "大丈夫ですよ",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-10-102",
@@ -17191,65 +13951,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>深い<rt>ふかい</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「耳」の用法として正しいのは？（51）",
+        "question": "正しいのは？",
         "options": [
-          "関係が深い",
-          "深いを食べる",
-          "深いに乗る",
-          "深いを走る"
+          "耳が痛い",
+          "耳が高い",
+          "耳が早い",
+          "耳が重い"
         ],
         "answer": 0,
         "id": "N3-11-031"
       },
       {
         "type": "用法",
-        "text": "「<ruby>浅い<rt>あさい</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「顔」の用法として正しいのは？（52）",
+        "question": "正しいのは？",
         "options": [
-          "考えが浅い",
-          "浅いを飲む",
-          "浅いに住む",
-          "浅いを着る"
+          "顔が広い",
+          "顔が高い",
+          "顔が早い",
+          "顔が重い"
         ],
         "answer": 0,
         "id": "N3-11-032"
       },
       {
         "type": "用法",
-        "text": "「<ruby>広い<rt>ひろい</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「腕」の用法として正しいのは？（53）",
+        "question": "正しいのは？",
         "options": [
-          "心が広い",
-          "広いを食べる",
-          "広いに乗る",
-          "広いを走る"
+          "腕を磨く",
+          "腕が高い",
+          "腕が早い",
+          "腕が重い"
         ],
         "answer": 0,
         "id": "N3-11-033"
       },
       {
         "type": "用法",
-        "text": "「<ruby>狭い<rt>せまい</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「肩」の用法として正しいのは？（54）",
+        "question": "正しいのは？",
         "options": [
-          "視野が狭い",
-          "狭いを飲む",
-          "狭いに住む",
-          "狭いを着る"
+          "肩の荷が下りる",
+          "肩が高い",
+          "肩が早い",
+          "肩が重い"
         ],
         "answer": 0,
         "id": "N3-11-034"
       },
       {
         "type": "用法",
-        "text": "「<ruby>長い<rt>ながい</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「腰」の用法として正しいのは？（55）",
+        "question": "正しいのは？",
         "options": [
-          "気が長い",
-          "長いを食べる",
-          "長いに乗る",
-          "長いを走る"
+          "腰が重い",
+          "腰が高い",
+          "腰が早い",
+          "腰が軽い"
         ],
         "answer": 0,
         "id": "N3-11-035"
@@ -17490,65 +14250,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文章の文法",
-        "text": "電話が（　）、すぐに出てください。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼女は困難（　）乗り越え、目標を達成した。（51）",
+        "question": "（　）に入るのは？",
         "options": [
-          "鳴ったら",
-          "鳴れば",
-          "鳴ると",
-          "鳴るなら"
+          "を",
+          "に",
+          "で",
+          "から"
         ],
         "answer": 3,
         "id": "N3-11-054"
       },
       {
         "type": "文章の文法",
-        "text": "彼はまるで日本人（　）日本語を話します。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "専門家（　）意見を聞く必要がある。（52）",
+        "question": "（　）に入るのは？",
         "options": [
-          "のように",
-          "みたいに",
-          "らしく",
-          "そうに"
+          "の",
+          "から",
+          "による",
+          "への"
         ],
         "answer": 0,
         "id": "N3-11-055"
       },
       {
         "type": "文章の文法",
-        "text": "彼女は優しい（　）、厳しいところもあります。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "技術の進歩（　）、生活は大きく変わった。（53）",
+        "question": "（　）に入るのは？",
         "options": [
-          "反面",
-          "一方で",
-          "かわりに",
-          "代わりに"
+          "により",
+          "にとって",
+          "に関して",
+          "に対して"
         ],
         "answer": 3,
         "id": "N3-11-056"
       },
       {
         "type": "文章の文法",
-        "text": "この仕事は誰か（　）手伝ってもらわないと終わりません。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の行動は法律（　）許されるものではない。（54）",
+        "question": "（　）に入るのは？",
         "options": [
-          "に",
-          "が",
-          "を",
-          "で"
+          "上",
+          "的に",
+          "において",
+          "としても"
         ],
         "answer": 0,
         "id": "N3-11-057"
       },
       {
         "type": "文章の文法",
-        "text": "彼は約束した（　）、来ませんでした。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "予算の制約（　）実現が困難だ。（55）",
+        "question": "（　）に入るのは？",
         "options": [
-          "のに",
           "から",
-          "ので",
-          "けど"
+          "ゆえに",
+          "として",
+          "にして"
         ],
         "answer": 3,
         "id": "N3-11-058"
@@ -17776,25 +14536,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "男の人と女の人が会社で話しています。男の人はこのあと何をしますか。（61）",
+        "question": "何をしますか。",
         "options": [
-          "17本",
-          "18本",
-          "19本",
-          "20本"
+          "送る",
+          "買う",
+          "メールする",
+          "電話する"
         ],
         "answer": 0,
         "id": "N3-11-076",
@@ -17802,25 +14550,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "女の人と学生が学校で話しています。女の人はこのあと何をしますか。（62）",
+        "question": "何をしますか。",
         "options": [
-          "16本",
-          "17本",
-          "18本",
-          "19本"
+          "帰る",
+          "メールする",
+          "待つ",
+          "相談する"
         ],
         "answer": 0,
         "id": "N3-11-077",
@@ -17828,25 +14564,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "学生と先生が病院で話しています。学生はこのあと何をしますか。（63）",
+        "question": "何をしますか。",
         "options": [
-          "15本",
-          "16本",
-          "17本",
-          "18本"
+          "送る",
+          "待つ",
+          "確認する",
+          "書類を出す"
         ],
         "answer": 0,
         "id": "N3-11-078",
@@ -17854,25 +14578,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "先生と上司が銀行で話しています。先生はこのあと何をしますか。（64）",
+        "question": "何をしますか。",
         "options": [
-          "14本",
-          "15本",
-          "16本",
-          "17本"
+          "予約する",
+          "片付ける",
+          "買う",
+          "準備する"
         ],
         "answer": 2,
         "id": "N3-11-079",
@@ -17880,25 +14592,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "上司と部下が役所で話しています。上司はこのあと何をしますか。（65）",
+        "question": "何をしますか。",
         "options": [
-          "13本",
-          "14本",
-          "15本",
-          "16本"
+          "確認する",
+          "行く",
+          "相談する",
+          "報告する"
         ],
         "answer": 0,
         "id": "N3-11-080",
@@ -17906,25 +14606,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "部下と店員が店で話しています。部下はこのあと何をしますか。（66）",
+        "question": "何をしますか。",
         "options": [
-          "12本",
-          "13本",
-          "14本",
-          "15本"
+          "確認する",
+          "報告する",
+          "電話する",
+          "予約する"
         ],
         "answer": 0,
         "id": "N3-11-081",
@@ -17932,25 +14620,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "講演を聞いています。最も重要なポイントは何ですか。（61）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "月曜日",
-          "火曜日",
-          "水曜日",
-          "木曜日"
+          "効率化",
+          "継続の重要性",
+          "人材育成",
+          "環境の影響"
         ],
         "answer": 1,
         "id": "N3-11-082",
@@ -17958,25 +14634,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ニュースを聞いています。最も重要なポイントは何ですか。（62）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "火曜日",
-          "水曜日",
-          "木曜日",
-          "金曜日"
+          "時間管理",
+          "才能の必要性",
+          "コミュニケーション",
+          "品質向上"
         ],
         "answer": 2,
         "id": "N3-11-083",
@@ -17984,25 +14648,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "インタビューを聞いています。最も重要なポイントは何ですか。（63）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "水曜日",
-          "木曜日",
-          "金曜日",
-          "土曜日"
+          "コミュニケーション",
+          "顧客満足",
+          "リーダーシップ",
+          "環境の影響"
         ],
         "answer": 2,
         "id": "N3-11-084",
@@ -18010,25 +14662,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "説明を聞いています。最も重要なポイントは何ですか。（64）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "木曜日",
-          "金曜日",
-          "土曜日",
-          "日曜日"
+          "品質向上",
+          "顧客満足",
+          "運の要素",
+          "時間管理"
         ],
         "answer": 1,
         "id": "N3-11-085",
@@ -18036,25 +14676,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "会議を聞いています。最も重要なポイントは何ですか。（65）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "金曜日",
-          "土曜日",
-          "日曜日",
-          "月曜日"
+          "品質向上",
+          "効率化",
+          "運の要素",
+          "環境の影響"
         ],
         "answer": 2,
         "id": "N3-11-086",
@@ -18062,25 +14690,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "プレゼンを聞いています。最も重要なポイントは何ですか。（66）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "土曜日",
-          "日曜日",
-          "月曜日",
-          "火曜日"
+          "コスト削減",
+          "リスク低減",
+          "人材育成",
+          "リーダーシップ"
         ],
         "answer": 1,
         "id": "N3-11-087",
@@ -18088,25 +14704,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ガイダンスを聞いています。このガイダンスの主なテーマは何ですか。（31）",
+        "question": "主なテーマは？",
         "options": [
-          "7個",
-          "8個",
-          "9個",
-          "10個"
+          "チームワーク",
+          "科学",
+          "社会",
+          "芸術"
         ],
         "answer": 1,
         "id": "N3-11-088",
@@ -18114,25 +14718,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "放送を聞いています。この放送の主なテーマは何ですか。（32）",
+        "question": "主なテーマは？",
         "options": [
-          "8個",
-          "9個",
-          "10個",
-          "11個"
+          "スポーツ",
+          "経済",
+          "政治",
+          "技術"
         ],
         "answer": 0,
         "id": "N3-11-089",
@@ -18140,25 +14732,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "講演を聞いています。この講演の主なテーマは何ですか。（33）",
+        "question": "主なテーマは？",
         "options": [
-          "9個",
-          "10個",
-          "11個",
-          "12個"
+          "経済",
+          "イノベーション",
+          "技術",
+          "リーダーシップ"
         ],
         "answer": 2,
         "id": "N3-11-090",
@@ -18166,25 +14746,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "誘いに応じたいです。何と言いますか。（41）",
+        "question": "何と言いますか。",
         "options": [
-          "食べます",
-          "食べません",
-          "いただきます",
-          "遠慮します"
+          "いいえ、違います",
+          "ありがとうございます",
+          "ぜひ行きたいです",
+          "はい、そうです"
         ],
         "answer": 0,
         "id": "N3-11-091",
@@ -18192,25 +14760,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "予約をしたいです。何と言いますか。（42）",
+        "question": "何と言いますか。",
         "options": [
-          "飲みます",
-          "飲みません",
-          "いただきます",
-          "結構です"
+          "予約をお願いします",
+          "いいえ、違います",
+          "ありがとうございます",
+          "はい、そうです"
         ],
         "answer": 0,
         "id": "N3-11-092",
@@ -18218,25 +14774,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "注文をしたいです。何と言いますか。（43）",
+        "question": "何と言いますか。",
         "options": [
-          "買います",
-          "買いません",
-          "考えます",
-          "見るだけです"
+          "はい、そうです",
+          "いいえ、違います",
+          "ありがとうございます",
+          "これをお願いします"
         ],
         "answer": 0,
         "id": "N3-11-093",
@@ -18244,25 +14788,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "質問したいです。何と言いますか。（44）",
+        "question": "何と言いますか。",
         "options": [
-          "やります",
-          "やりません",
-          "挑戦します",
-          "今度にします"
+          "いいえ、違います",
+          "はい、そうです",
+          "ちょっとお聞きしたいのですが",
+          "ありがとうございます"
         ],
         "answer": 0,
         "id": "N3-11-094",
@@ -18270,25 +14802,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "すみません、この席、空いていますか。（81）",
+        "question": "返答は？",
         "options": [
-          "10時です",
-          "10時半です",
-          "11時です",
-          "11時半です"
+          "はい、食べました",
+          "いいえ、違います",
+          "はい、どうぞ",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-11-095",
@@ -18296,25 +14816,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "明日の会議、何時からでしたっけ。（82）",
+        "question": "返答は？",
         "options": [
-          "11時です",
-          "11時半です",
-          "12時です",
-          "12時半です"
+          "いいえ、違います",
+          "はい、食べました",
+          "10時からです",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-11-096",
@@ -18322,25 +14830,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "このへん、コンビニありますか。（83）",
+        "question": "返答は？",
         "options": [
-          "12時です",
-          "12時半です",
-          "1時です",
-          "1時半です"
+          "あの角を曲がると",
+          "はい、食べました",
+          "いいえ、行きません",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-11-097",
@@ -18348,25 +14844,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ちょっと手伝っていただけませんか。（84）",
+        "question": "返答は？",
         "options": [
-          "1時ごろです",
-          "1時過ぎです",
-          "1時前です",
-          "1時ちょうどです"
+          "はい、いいですよ",
+          "いいえ、違います",
+          "はい、食べました",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-11-098",
@@ -18374,25 +14858,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "この書類、どこに提出すればいいですか。（85）",
+        "question": "返答は？",
         "options": [
-          "2時ごろです",
-          "2時過ぎです",
-          "2時前です",
-          "2時ちょうどです"
+          "はい、食べました",
+          "いいえ、行きません",
+          "いいえ、違います",
+          "総務部です"
         ],
         "answer": 0,
         "id": "N3-11-099",
@@ -18400,25 +14872,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "お名前、お願いできますか。（86）",
+        "question": "返答は？",
         "options": [
-          "3時ごろです",
-          "3時過ぎです",
-          "3時前です",
-          "3時ちょうどです"
+          "田中と申します",
+          "いいえ、行きません",
+          "いいえ、違います",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-11-100",
@@ -18426,25 +14886,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "駅まで、どのくらいかかりますか。（87）",
+        "question": "返答は？",
         "options": [
-          "4時ごろです",
-          "4時過ぎです",
-          "4時前です",
-          "4時ちょうどです"
+          "歩いて10分くらい",
+          "いいえ、行きません",
+          "はい、食べました",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-11-101",
@@ -18452,25 +14900,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "このパソコン、使ってもいいですか。（88）",
+        "question": "返答は？",
         "options": [
-          "5時ごろです",
-          "5時過ぎです",
-          "5時前です",
-          "5時ちょうどです"
+          "いいえ、違います",
+          "いいえ、行きません",
+          "はい、食べました",
+          "どうぞ"
         ],
         "answer": 0,
         "id": "N3-11-102",
@@ -18870,65 +15306,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>短い<rt>みじかい</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「気」の用法として正しいのは？（56）",
+        "question": "正しいのは？",
         "options": [
-          "気が短い",
-          "短いを飲む",
-          "短いに住む",
-          "短いを着る"
+          "気が利く",
+          "気が高い",
+          "気が早い",
+          "気が重い"
         ],
         "answer": 0,
         "id": "N3-12-031"
       },
       {
         "type": "用法",
-        "text": "「<ruby>強い<rt>つよい</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「息」の用法として正しいのは？（57）",
+        "question": "正しいのは？",
         "options": [
-          "意志が強い",
-          "強いを食べる",
-          "強いに乗る",
-          "強いを走る"
+          "息が合う",
+          "息が高い",
+          "息が早い",
+          "息が重い"
         ],
         "answer": 0,
         "id": "N3-12-032"
       },
       {
         "type": "用法",
-        "text": "「<ruby>弱い<rt>よわい</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「胸」の用法として正しいのは？（58）",
+        "question": "正しいのは？",
         "options": [
-          "体が弱い",
-          "弱いを飲む",
-          "弱いに住む",
-          "弱いを着る"
+          "胸を張る",
+          "胸が高い",
+          "胸が早い",
+          "胸が重い"
         ],
         "answer": 0,
         "id": "N3-12-033"
       },
       {
         "type": "用法",
-        "text": "「<ruby>高い<rt>たかい</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「背」の用法として正しいのは？（59）",
+        "question": "正しいのは？",
         "options": [
-          "目が高い",
-          "高いを食べる",
-          "高いに乗る",
-          "高いを走る"
+          "背を向ける",
+          "背が広い",
+          "背が早い",
+          "背が重い"
         ],
         "answer": 0,
         "id": "N3-12-034"
       },
       {
         "type": "用法",
-        "text": "「<ruby>低い<rt>ひくい</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「骨」の用法として正しいのは？（60）",
+        "question": "正しいのは？",
         "options": [
-          "姿勢が低い",
-          "低いを飲む",
-          "低いに住む",
-          "低いを着る"
+          "骨を折る",
+          "骨が高い",
+          "骨が早い",
+          "骨が重い"
         ],
         "answer": 0,
         "id": "N3-12-035"
@@ -19169,65 +15605,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文章の文法",
-        "text": "日本語を勉強（　）、日本の文化にも興味を持つようになりました。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "結果（　）良ければ全て良しとは限らない。（56）",
+        "question": "（　）に入るのは？",
         "options": [
-          "するうちに",
-          "していたら",
-          "しながら",
-          "するとともに"
+          "が",
+          "さえ",
+          "こそ",
+          "だけ"
         ],
         "answer": 0,
         "id": "N3-12-054"
       },
       {
         "type": "文章の文法",
-        "text": "彼女は歌手（　）、女優としても活躍しています。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "努力家である（　）、才能にも恵まれている。（57）",
+        "question": "（　）に入るのは？",
         "options": [
-          "としてだけでなく",
-          "としてばかりでなく",
           "のみならず",
-          "ばかりか"
+          "にもかかわらず",
+          "とはいえ",
+          "からこそ"
         ],
         "answer": 3,
         "id": "N3-12-055"
       },
       {
         "type": "文章の文法",
-        "text": "この本は子供（　）大人も楽しめます。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "一朝一夕（　）解決できるものではない。（58）",
+        "question": "（　）に入るのは？",
         "options": [
-          "だけでなく",
-          "ばかりでなく",
-          "のみならず",
-          "はもちろん"
+          "に",
+          "で",
+          "には",
+          "では"
         ],
         "answer": 0,
         "id": "N3-12-056"
       },
       {
         "type": "文章の文法",
-        "text": "彼は失敗を（　）、また挑戦しました。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "事実（　）基づいている。（59）",
+        "question": "（　）に入るのは？",
         "options": [
-          "しても",
-          "しながら",
-          "してから",
-          "したあと"
+          "に",
+          "を",
+          "と",
+          "が"
         ],
         "answer": 3,
         "id": "N3-12-057"
       },
       {
         "type": "文章の文法",
-        "text": "この店は値段が高い（　）、いつも混んでいます。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "経験（　）勝るものはない。（60）",
+        "question": "（　）に入るのは？",
         "options": [
-          "にもかかわらず",
-          "のに",
-          "けれども",
-          "が"
+          "に",
+          "を",
+          "が",
+          "より"
         ],
         "answer": 0,
         "id": "N3-12-058"
@@ -19455,25 +15891,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "店員と客がレストランで話しています。店員はこのあと何をしますか。（67）",
+        "question": "何をしますか。",
         "options": [
-          "11本",
-          "12本",
-          "13本",
-          "14本"
+          "電話する",
+          "片付ける",
+          "相談する",
+          "メールする"
         ],
         "answer": 0,
         "id": "N3-12-076",
@@ -19481,25 +15905,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "客と医者がホテルで話しています。客はこのあと何をしますか。（68）",
+        "question": "何をしますか。",
         "options": [
-          "10本",
-          "11本",
-          "12本",
-          "13本"
+          "報告する",
+          "調べる",
+          "電話する",
+          "片付ける"
         ],
         "answer": 0,
         "id": "N3-12-077",
@@ -19507,25 +15919,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "医者と患者が駅で話しています。医者はこのあと何をしますか。（69）",
+        "question": "何をしますか。",
         "options": [
-          "9本",
-          "10本",
-          "11本",
-          "12本"
+          "送る",
+          "買う",
+          "帰る",
+          "準備する"
         ],
         "answer": 2,
         "id": "N3-12-078",
@@ -19533,25 +15933,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "患者と受付が空港で話しています。患者はこのあと何をしますか。（70）",
+        "question": "何をしますか。",
         "options": [
-          "8本",
-          "9本",
-          "10本",
-          "11本"
+          "準備する",
+          "相談する",
+          "行く",
+          "片付ける"
         ],
         "answer": 0,
         "id": "N3-12-079",
@@ -19559,25 +15947,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "受付と係員が図書館で話しています。受付はこのあと何をしますか。（71）",
+        "question": "何をしますか。",
         "options": [
-          "7本",
-          "8本",
-          "9本",
-          "10本"
+          "電話する",
+          "送る",
+          "待つ",
+          "準備する"
         ],
         "answer": 0,
         "id": "N3-12-080",
@@ -19585,25 +15961,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "係員とスタッフが郵便局で話しています。係員はこのあと何をしますか。（72）",
+        "question": "何をしますか。",
         "options": [
-          "6本",
-          "7本",
-          "8本",
-          "9本"
+          "メールする",
+          "行く",
+          "準備する",
+          "予約する"
         ],
         "answer": 0,
         "id": "N3-12-081",
@@ -19611,25 +15975,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "授業を聞いています。最も重要なポイントは何ですか。（67）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "日曜日",
-          "月曜日",
-          "火曜日",
-          "水曜日"
+          "品質向上",
+          "顧客満足",
+          "情報共有",
+          "リスク低減"
         ],
         "answer": 2,
         "id": "N3-12-082",
@@ -19637,25 +15989,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ラジオを聞いています。最も重要なポイントは何ですか。（68）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "1日",
-          "2日",
-          "3日",
-          "4日"
+          "運の要素",
+          "リーダーシップ",
+          "人材育成",
+          "リスク低減"
         ],
         "answer": 2,
         "id": "N3-12-083",
@@ -19663,25 +16003,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "案内を聞いています。最も重要なポイントは何ですか。（69）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "2日",
-          "3日",
-          "4日",
-          "5日"
+          "コミュニケーション",
+          "顧客満足",
+          "品質向上",
+          "時間管理"
         ],
         "answer": 1,
         "id": "N3-12-084",
@@ -19689,25 +16017,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "スピーチを聞いています。最も重要なポイントは何ですか。（70）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "3日",
-          "4日",
-          "5日",
-          "6日"
+          "コミュニケーション",
+          "リスク低減",
+          "時間管理",
+          "顧客満足"
         ],
         "answer": 2,
         "id": "N3-12-085",
@@ -19715,25 +16031,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "報告を聞いています。最も重要なポイントは何ですか。（71）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "4日",
-          "5日",
-          "6日",
-          "7日"
+          "顧客満足",
+          "情報共有",
+          "環境の影響",
+          "時間管理"
         ],
         "answer": 1,
         "id": "N3-12-086",
@@ -19741,25 +16045,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "対談を聞いています。最も重要なポイントは何ですか。（72）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "5日",
-          "6日",
-          "7日",
-          "8日"
+          "チームワーク",
+          "効率化",
+          "運の要素",
+          "情報共有"
         ],
         "answer": 2,
         "id": "N3-12-087",
@@ -19767,25 +16059,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ニュースを聞いています。このニュースの主なテーマは何ですか。（34）",
+        "question": "主なテーマは？",
         "options": [
-          "10個",
-          "11個",
-          "12個",
-          "13個"
+          "チームワーク",
+          "文化",
+          "健康",
+          "社会"
         ],
         "answer": 1,
         "id": "N3-12-088",
@@ -19793,25 +16073,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "インタビューを聞いています。このインタビューの主なテーマは何ですか。（35）",
+        "question": "主なテーマは？",
         "options": [
-          "11個",
-          "12個",
-          "13個",
-          "14個"
+          "科学",
+          "コミュニケーション",
+          "技術",
+          "チームワーク"
         ],
         "answer": 0,
         "id": "N3-12-089",
@@ -19819,25 +16087,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "プレゼンを聞いています。このプレゼンの主なテーマは何ですか。（36）",
+        "question": "主なテーマは？",
         "options": [
-          "12個",
-          "13個",
-          "14個",
-          "15個"
+          "科学",
+          "教育",
+          "イノベーション",
+          "政治"
         ],
         "answer": 2,
         "id": "N3-12-090",
@@ -19845,25 +16101,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "説明を求めたいです。何と言いますか。（45）",
+        "question": "何と言いますか。",
         "options": [
-          "手伝います",
-          "手伝えません",
-          "やってみます",
-          "後で"
+          "もう少し詳しく教えていただけますか",
+          "いいえ、違います",
+          "ありがとうございます",
+          "はい、そうです"
         ],
         "answer": 0,
         "id": "N3-12-091",
@@ -19871,25 +16115,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "友達に映画に誘いたいです。何と言いますか。（46）",
+        "question": "何と言いますか。",
         "options": [
-          "お願いします",
-          "お願いできますか",
-          "していただけますか",
-          "可能ですか"
+          "はい、そうです",
+          "今度映画見に行かない？",
+          "いいえ、違います",
+          "ありがとうございます"
         ],
         "answer": 0,
         "id": "N3-12-092",
@@ -19897,25 +16129,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "店員に試着したいと伝えるです。何と言いますか。（47）",
+        "question": "何と言いますか。",
         "options": [
-          "教えてください",
-          "説明してください",
-          "見せてください",
-          "聞かせてください"
+          "ありがとうございます",
+          "はい、そうです",
+          "いいえ、違います",
+          "これ、試着できますか"
         ],
         "answer": 0,
         "id": "N3-12-093",
@@ -19923,25 +16143,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "道を聞きたいです。何と言いますか。（48）",
+        "question": "何と言いますか。",
         "options": [
-          "待ってください",
-          "止まってください",
-          "座ってください",
-          "立ってください"
+          "ありがとうございます",
+          "はい、そうです",
+          "いいえ、違います",
+          "すみません、駅はどこですか"
         ],
         "answer": 0,
         "id": "N3-12-094",
@@ -19949,25 +16157,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "コーヒー、もう一杯いかがですか。（89）",
+        "question": "返答は？",
         "options": [
-          "6時ごろです",
-          "6時過ぎです",
-          "6時前です",
-          "6時ちょうどです"
+          "いただきます",
+          "いいえ、違います",
+          "いいえ、行きません",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-12-095",
@@ -19975,25 +16171,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "昨日のパーティー、楽しかったですね。（90）",
+        "question": "返答は？",
         "options": [
-          "7時ごろです",
-          "7時過ぎです",
-          "7時前です",
-          "7時ちょうどです"
+          "本当に楽しかった",
+          "はい、食べました",
+          "いいえ、違います",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-12-096",
@@ -20001,25 +16185,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "この辺に郵便局はありますか。（91）",
+        "question": "返答は？",
         "options": [
-          "8時ごろです",
-          "8時過ぎです",
-          "8時前です",
-          "8時ちょうどです"
+          "いいえ、違います",
+          "いいえ、行きません",
+          "この先にあります",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-12-097",
@@ -20027,25 +16199,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ちょっとお時間よろしいですか。（92）",
+        "question": "返答は？",
         "options": [
-          "9時ごろです",
-          "9時過ぎです",
-          "9時前です",
-          "9時ちょうどです"
+          "はい、食べました",
+          "いいえ、行きません",
+          "いいえ、違います",
+          "はい、大丈夫です"
         ],
         "answer": 0,
         "id": "N3-12-098",
@@ -20053,25 +16213,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "傘、お持ちですか。（93）",
+        "question": "返答は？",
         "options": [
-          "10時ごろです",
-          "10時過ぎです",
-          "10時前です",
-          "10時ちょうどです"
+          "いいえ、忘れました",
+          "はい、食べました",
+          "いいえ、行きません",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-12-099",
@@ -20079,25 +16227,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "このあたり、静かでいいですね。（94）",
+        "question": "返答は？",
         "options": [
-          "11時ごろです",
-          "11時過ぎです",
-          "11時前です",
-          "11時ちょうどです"
+          "いいえ、違います",
+          "そうですね",
+          "はい、食べました",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-12-100",
@@ -20105,25 +16241,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "お荷物、お持ちしましょうか。（95）",
+        "question": "返答は？",
         "options": [
-          "12時ごろです",
-          "12時過ぎです",
-          "12時前です",
-          "12時ちょうどです"
+          "いいえ、違います",
+          "ありがとうございます",
+          "はい、食べました",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-12-101",
@@ -20131,25 +16255,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "今日は暑いですね。（96）",
+        "question": "返答は？",
         "options": [
-          "午前1時です",
-          "午後1時です",
-          "1時です",
-          "1時半です"
+          "はい、食べました",
+          "本当ですね",
+          "いいえ、違います",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-12-102",
@@ -20549,65 +16661,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>重い<rt>おもい</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「手」の用法として正しいのは？（61）",
+        "question": "正しいのは？",
         "options": [
-          "責任が重い",
-          "重いを食べる",
-          "重いに乗る",
-          "重いを走る"
+          "手が足りない",
+          "手が高い",
+          "手が遅い",
+          "手が軽い"
         ],
         "answer": 0,
         "id": "N3-13-031"
       },
       {
         "type": "用法",
-        "text": "「<ruby>軽い<rt>かるい</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「目」の用法として正しいのは？（62）",
+        "question": "正しいのは？",
         "options": [
-          "口が軽い",
-          "軽いを飲む",
-          "軽いに住む",
-          "軽いを着る"
+          "目が利く",
+          "目が高い",
+          "目が早い",
+          "目が重い"
         ],
         "answer": 0,
         "id": "N3-13-032"
       },
       {
         "type": "用法",
-        "text": "「<ruby>固い<rt>かたい</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「足」の用法として正しいのは？（63）",
+        "question": "正しいのは？",
         "options": [
-          "約束が固い",
-          "固いを食べる",
-          "固いに乗る",
-          "固いを走る"
+          "足を運ぶ",
+          "足が高い",
+          "足が重い",
+          "足が早い"
         ],
         "answer": 0,
         "id": "N3-13-033"
       },
       {
         "type": "用法",
-        "text": "「<ruby>柔らかい<rt>やわらかい</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「頭」の用法として正しいのは？（64）",
+        "question": "正しいのは？",
         "options": [
-          "頭が柔らかい",
-          "柔らかいを飲む",
-          "柔らかいに住む",
-          "柔らかいを着る"
+          "頭が切れる",
+          "頭が高い",
+          "頭が早い",
+          "頭が重い"
         ],
         "answer": 0,
         "id": "N3-13-034"
       },
       {
         "type": "用法",
-        "text": "「<ruby>甘い<rt>あまい</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「口」の用法として正しいのは？（65）",
+        "question": "正しいのは？",
         "options": [
-          "考えが甘い",
-          "甘いに乗る",
-          "甘いに住む",
-          "甘いを走る"
+          "口が堅い",
+          "口が高い",
+          "口が早い",
+          "口が重い"
         ],
         "answer": 0,
         "id": "N3-13-035"
@@ -20848,65 +16960,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文章の文法",
-        "text": "彼女が来る（　）、電話があったら伝えてください。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "日本経済は長期にわたる停滞（　）、回復の兆しを見せ始めている。（61）",
+        "question": "（　）に入るのは？",
         "options": [
-          "前に",
-          "までに",
-          "間に",
-          "うちに"
+          "を経て",
+          "をもって",
+          "に至り",
+          "に反して"
         ],
         "answer": 3,
         "id": "N3-13-054"
       },
       {
         "type": "文章の文法",
-        "text": "彼は努力家な（　）、いつも成功しています。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の提案は斬新（　）、実現可能性に欠けるという批判もある。（62）",
+        "question": "（　）に入るのは？",
         "options": [
-          "だけあって",
-          "せいで",
-          "おかげで",
-          "ために"
+          "ではあるが",
+          "であるから",
+          "なので",
+          "だとしても"
         ],
         "answer": 0,
         "id": "N3-13-055"
       },
       {
         "type": "文章の文法",
-        "text": "この映画を見て、感動せずには（　）。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "環境問題の解決（　）、国際的な協力が不可欠である。（63）",
+        "question": "（　）に入るのは？",
         "options": [
-          "いられませんでした",
-          "いませんでした",
-          "おれませんでした",
-          "ありませんでした"
+          "には",
+          "にとって",
+          "において",
+          "に際して"
         ],
         "answer": 3,
         "id": "N3-13-056"
       },
       {
         "type": "文章の文法",
-        "text": "彼は病気が（　）、仕事を休みました。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この研究は長年の努力（　）結実したものである。（64）",
+        "question": "（　）に入るのは？",
         "options": [
-          "ひどくなったので",
-          "ひどくなったのに",
-          "ひどくなっても",
-          "ひどくなったけど"
+          "が",
+          "の",
+          "を",
+          "に"
         ],
         "answer": 0,
         "id": "N3-13-057"
       },
       {
         "type": "文章の文法",
-        "text": "この問題は難し（　）、解けないわけではありません。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "社会の変化（　）、教育制度も見直しが求められている。（65）",
+        "question": "（　）に入るのは？",
         "options": [
-          "いといっても",
-          "いにしても",
-          "くても",
-          "いけど"
+          "に伴い",
+          "に関して",
+          "によると",
+          "に対して"
         ],
         "answer": 3,
         "id": "N3-13-058"
@@ -21134,25 +17246,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "スタッフと友人が美容院で話しています。スタッフはこのあと何をしますか。（73）",
+        "question": "何をしますか。",
         "options": [
-          "5本",
-          "6本",
-          "7本",
-          "8本"
+          "準備する",
+          "調べる",
+          "行く",
+          "帰る"
         ],
         "answer": 0,
         "id": "N3-13-076",
@@ -21160,25 +17260,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "友人と同僚がジムで話しています。友人はこのあと何をしますか。（74）",
+        "question": "何をしますか。",
         "options": [
-          "4本",
-          "5本",
-          "6本",
-          "7本"
+          "送る",
+          "相談する",
+          "準備する",
+          "買う"
         ],
         "answer": 2,
         "id": "N3-13-077",
@@ -21186,25 +17274,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "同僚と男の人がカフェで話しています。同僚はこのあと何をしますか。（75）",
+        "question": "何をしますか。",
         "options": [
-          "3本",
-          "4本",
-          "5本",
-          "6本"
+          "買う",
+          "確認する",
+          "送る",
+          "待つ"
         ],
         "answer": 0,
         "id": "N3-13-078",
@@ -21212,25 +17288,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "男の人と女の人が会社で話しています。男の人はこのあと何をしますか。（76）",
+        "question": "何をしますか。",
         "options": [
-          "2本",
-          "3本",
-          "4本",
-          "5本"
+          "待つ",
+          "送る",
+          "帰る",
+          "電話する"
         ],
         "answer": 0,
         "id": "N3-13-079",
@@ -21238,25 +17302,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "女の人と学生が学校で話しています。女の人はこのあと何をしますか。（77）",
+        "question": "何をしますか。",
         "options": [
-          "1本",
-          "2本",
-          "3本",
-          "4本"
+          "行く",
+          "片付ける",
+          "メールする",
+          "予約する"
         ],
         "answer": 0,
         "id": "N3-13-080",
@@ -21264,25 +17316,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "学生と先生が病院で話しています。学生はこのあと何をしますか。（78）",
+        "question": "何をしますか。",
         "options": [
-          "20枚",
-          "21枚",
-          "22枚",
-          "23枚"
+          "帰る",
+          "書類を出す",
+          "メールする",
+          "行く"
         ],
         "answer": 0,
         "id": "N3-13-081",
@@ -21290,25 +17330,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "講義を聞いています。最も重要なポイントは何ですか。（73）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "6日",
-          "7日",
-          "8日",
-          "9日"
+          "リスク低減",
+          "チームワーク",
+          "コミュニケーション",
+          "コスト削減"
         ],
         "answer": 2,
         "id": "N3-13-082",
@@ -21316,25 +17344,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "解説を聞いています。最も重要なポイントは何ですか。（74）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "7日",
-          "8日",
-          "9日",
-          "10日"
+          "顧客満足",
+          "効率化",
+          "リーダーシップ",
+          "環境の影響"
         ],
         "answer": 1,
         "id": "N3-13-083",
@@ -21342,25 +17358,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "討論を聞いています。最も重要なポイントは何ですか。（75）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "8日",
-          "9日",
-          "10日",
-          "11日"
+          "コミュニケーション",
+          "チームワーク",
+          "リスク低減",
+          "リーダーシップ"
         ],
         "answer": 2,
         "id": "N3-13-084",
@@ -21368,25 +17372,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "講演を聞いています。最も重要なポイントは何ですか。（76）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "9日",
-          "10日",
-          "11日",
-          "12日"
+          "効率化",
+          "継続の重要性",
+          "情報共有",
+          "リスク低減"
         ],
         "answer": 1,
         "id": "N3-13-085",
@@ -21394,25 +17386,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ニュースを聞いています。最も重要なポイントは何ですか。（77）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "10日",
-          "11日",
-          "12日",
-          "13日"
+          "才能の必要性",
+          "リーダーシップ",
+          "コミュニケーション",
+          "運の要素"
         ],
         "answer": 2,
         "id": "N3-13-086",
@@ -21420,25 +17400,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "インタビューを聞いています。最も重要なポイントは何ですか。（78）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "11日",
-          "12日",
-          "13日",
-          "14日"
+          "才能の必要性",
+          "コミュニケーション",
+          "リーダーシップ",
+          "環境の影響"
         ],
         "answer": 2,
         "id": "N3-13-087",
@@ -21446,25 +17414,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ラジオを聞いています。このラジオの主なテーマは何ですか。（37）",
+        "question": "主なテーマは？",
         "options": [
-          "13個",
-          "14個",
-          "15個",
-          "16個"
+          "芸術",
+          "教育",
+          "コミュニケーション",
+          "環境"
         ],
         "answer": 1,
         "id": "N3-13-088",
@@ -21472,25 +17428,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "会議を聞いています。この会議の主なテーマは何ですか。（38）",
+        "question": "主なテーマは？",
         "options": [
-          "14個",
-          "15個",
-          "16個",
-          "17個"
+          "スポーツ",
+          "リーダーシップ",
+          "歴史",
+          "環境"
         ],
         "answer": 0,
         "id": "N3-13-089",
@@ -21498,25 +17442,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "授業を聞いています。この授業の主なテーマは何ですか。（39）",
+        "question": "主なテーマは？",
         "options": [
-          "15個",
-          "16個",
-          "17個",
-          "18個"
+          "文化",
+          "チームワーク",
+          "経済",
+          "環境"
         ],
         "answer": 2,
         "id": "N3-13-090",
@@ -21524,25 +17456,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "お礼を言いたいです。何と言いますか。（49）",
+        "question": "何と言いますか。",
         "options": [
-          "開けてください",
-          "閉めてください",
-          "つけてください",
-          "消してください"
+          "ありがとうございます",
+          "はい、そうです",
+          "本当にありがとうございます",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-13-091",
@@ -21550,25 +17470,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "謝りたいです。何と言いますか。（50）",
+        "question": "何と言いますか。",
         "options": [
-          "書いてください",
-          "読んでください",
-          "話してください",
-          "聞いてください"
+          "ありがとうございます",
+          "申し訳ありませんでした",
+          "はい、そうです",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-13-092",
@@ -21576,25 +17484,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "許可を求めたいです。何と言いますか。（51）",
+        "question": "何と言いますか。",
         "options": [
-          "来てください",
-          "行ってください",
-          "帰ってください",
-          "出てください"
+          "はい、そうです",
+          "ありがとうございます",
+          "いいえ、違います",
+          "ここに座ってもいいですか"
         ],
         "answer": 0,
         "id": "N3-13-093",
@@ -21602,25 +17498,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "提案したいです。何と言いますか。（52）",
+        "question": "何と言いますか。",
         "options": [
-          "持ってきてください",
-          "取ってきてください",
-          "連れてきてください",
-          "呼んできてください"
+          "こうしたらどうですか",
+          "はい、そうです",
+          "いいえ、違います",
+          "ありがとうございます"
         ],
         "answer": 0,
         "id": "N3-13-094",
@@ -21628,25 +17512,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "お仕事、何時までですか。（97）",
+        "question": "返答は？",
         "options": [
-          "午前2時です",
-          "午後2時です",
-          "2時です",
-          "2時半です"
+          "はい、食べました",
+          "6時までです",
+          "いいえ、違います",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-13-095",
@@ -21654,25 +17526,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "週末、何か予定ありますか。（98）",
+        "question": "返答は？",
         "options": [
-          "午前3時です",
-          "午後3時です",
-          "3時です",
-          "3時半です"
+          "いいえ、違います",
+          "いいえ、行きません",
+          "はい、食べました",
+          "特にないです"
         ],
         "answer": 0,
         "id": "N3-13-096",
@@ -21680,25 +17540,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "この料理、おいしいですね。（99）",
+        "question": "返答は？",
         "options": [
-          "午前4時です",
-          "午後4時です",
-          "4時です",
-          "4時半です"
+          "いいえ、違います",
+          "はい、食べました",
+          "いいえ、行きません",
+          "そうですね、おいしい"
         ],
         "answer": 0,
         "id": "N3-13-097",
@@ -21706,25 +17554,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ここで写真撮ってもいいですか。（100）",
+        "question": "返答は？",
         "options": [
-          "午前5時です",
-          "午後5時です",
-          "5時です",
-          "5時半です"
+          "はい、食べました",
+          "大丈夫ですよ",
+          "いいえ、違います",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-13-098",
@@ -21732,25 +17568,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "すみません、この席、空いていますか。（101）",
+        "question": "返答は？",
         "options": [
-          "午前6時です",
-          "午後6時です",
-          "6時です",
-          "6時半です"
+          "いいえ、行きません",
+          "はい、どうぞ",
+          "いいえ、違います",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-13-099",
@@ -21758,25 +17582,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "明日の会議、何時からでしたっけ。（102）",
+        "question": "返答は？",
         "options": [
-          "午前7時です",
-          "午後7時です",
-          "7時です",
-          "7時半です"
+          "いいえ、違います",
+          "はい、食べました",
+          "いいえ、行きません",
+          "10時からです"
         ],
         "answer": 0,
         "id": "N3-13-100",
@@ -21784,25 +17596,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "このへん、コンビニありますか。（103）",
+        "question": "返答は？",
         "options": [
-          "午前8時です",
-          "午後8時です",
-          "8時です",
-          "8時半です"
+          "あの角を曲がると",
+          "いいえ、行きません",
+          "いいえ、違います",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-13-101",
@@ -21810,25 +17610,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ちょっと手伝っていただけませんか。（104）",
+        "question": "返答は？",
         "options": [
-          "午前9時です",
-          "午後9時です",
-          "9時です",
-          "9時半です"
+          "いいえ、行きません",
+          "いいえ、違います",
+          "はい、食べました",
+          "はい、いいですよ"
         ],
         "answer": 0,
         "id": "N3-13-102",
@@ -22228,65 +18016,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>辛い<rt>つらい</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「耳」の用法として正しいのは？（66）",
+        "question": "正しいのは？",
         "options": [
-          "仕事が辛い",
-          "辛いを食べる",
-          "辛いに乗る",
-          "辛いを走る"
+          "耳が痛い",
+          "耳が高い",
+          "耳が早い",
+          "耳が重い"
         ],
         "answer": 0,
         "id": "N3-14-031"
       },
       {
         "type": "用法",
-        "text": "「<ruby>明るい<rt>あかるい</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「顔」の用法として正しいのは？（67）",
+        "question": "正しいのは？",
         "options": [
-          "性格が明るい",
-          "明るいを飲む",
-          "明るいに住む",
-          "明るいを着る"
+          "顔が広い",
+          "顔が高い",
+          "顔が早い",
+          "顔が重い"
         ],
         "answer": 0,
         "id": "N3-14-032"
       },
       {
         "type": "用法",
-        "text": "「<ruby>暗い<rt>くらい</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「腕」の用法として正しいのは？（68）",
+        "question": "正しいのは？",
         "options": [
-          "未来が暗い",
-          "暗いを食べる",
-          "暗いに乗る",
-          "暗いを走る"
+          "腕を磨く",
+          "腕が高い",
+          "腕が早い",
+          "腕が重い"
         ],
         "answer": 0,
         "id": "N3-14-033"
       },
       {
         "type": "用法",
-        "text": "「<ruby>温かい<rt>あたたかい</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「肩」の用法として正しいのは？（69）",
+        "question": "正しいのは？",
         "options": [
-          "心が温かい",
-          "温かいを飲む",
-          "温かいに住む",
-          "温かいを着る"
+          "肩の荷が下りる",
+          "肩が高い",
+          "肩が早い",
+          "肩が重い"
         ],
         "answer": 0,
         "id": "N3-14-034"
       },
       {
         "type": "用法",
-        "text": "「<ruby>冷たい<rt>つめたい</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「腰」の用法として正しいのは？（70）",
+        "question": "正しいのは？",
         "options": [
-          "態度が冷たい",
-          "冷たいを食べる",
-          "冷たいに乗る",
-          "冷たいを走る"
+          "腰が重い",
+          "腰が高い",
+          "腰が早い",
+          "腰が軽い"
         ],
         "answer": 0,
         "id": "N3-14-035"
@@ -22527,65 +18315,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文章の文法",
-        "text": "彼女は歌が上手な（　）、ダンスも得意です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼女は困難（　）乗り越え、目標を達成した。（66）",
+        "question": "（　）に入るのは？",
         "options": [
-          "うえに",
-          "ほかに",
-          "だけでなく",
-          "ばかりでなく"
+          "を",
+          "に",
+          "で",
+          "から"
         ],
         "answer": 0,
         "id": "N3-14-054"
       },
       {
         "type": "文章の文法",
-        "text": "彼は勉強熱心な（　）、試験でいつも高得点を取ります。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "専門家（　）意見を聞く必要がある。（67）",
+        "question": "（　）に入るのは？",
         "options": [
-          "だけあって",
-          "せいで",
-          "おかげで",
-          "ために"
+          "の",
+          "から",
+          "による",
+          "への"
         ],
         "answer": 3,
         "id": "N3-14-055"
       },
       {
         "type": "文章の文法",
-        "text": "この本は読めば（　）面白くなります。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "技術の進歩（　）、生活は大きく変わった。（68）",
+        "question": "（　）に入るのは？",
         "options": [
-          "読むほど",
-          "読んだだけ",
-          "読むだけ",
-          "読んだほど"
+          "により",
+          "にとって",
+          "に関して",
+          "に対して"
         ],
         "answer": 0,
         "id": "N3-14-056"
       },
       {
         "type": "文章の文法",
-        "text": "彼女は忙しい（　）、いつも笑顔で対応してくれます。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の行動は法律（　）許されるものではない。（69）",
+        "question": "（　）に入るのは？",
         "options": [
-          "にもかかわらず",
-          "のに",
-          "けれども",
-          "が"
+          "上",
+          "的に",
+          "において",
+          "としても"
         ],
         "answer": 3,
         "id": "N3-14-057"
       },
       {
         "type": "文章の文法",
-        "text": "電車が遅れた（　）、会議に間に合いませんでした。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "予算の制約（　）実現が困難だ。（70）",
+        "question": "（　）に入るのは？",
         "options": [
-          "せいで",
-          "おかげで",
-          "ために",
-          "から"
+          "から",
+          "ゆえに",
+          "として",
+          "にして"
         ],
         "answer": 0,
         "id": "N3-14-058"
@@ -22813,25 +18601,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "先生と上司が銀行で話しています。先生はこのあと何をしますか。（79）",
+        "question": "何をしますか。",
         "options": [
-          "19枚",
-          "20枚",
-          "21枚",
-          "22枚"
+          "予約する",
+          "報告する",
+          "買う",
+          "確認する"
         ],
         "answer": 2,
         "id": "N3-14-076",
@@ -22839,25 +18615,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "上司と部下が役所で話しています。上司はこのあと何をしますか。（80）",
+        "question": "何をしますか。",
         "options": [
-          "18枚",
-          "19枚",
-          "20枚",
-          "21枚"
+          "相談する",
+          "送る",
+          "確認する",
+          "片付ける"
         ],
         "answer": 0,
         "id": "N3-14-077",
@@ -22865,25 +18629,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "部下と店員が店で話しています。部下はこのあと何をしますか。（81）",
+        "question": "何をしますか。",
         "options": [
-          "17枚",
-          "18枚",
-          "19枚",
-          "20枚"
+          "帰る",
+          "調べる",
+          "送る",
+          "報告する"
         ],
         "answer": 0,
         "id": "N3-14-078",
@@ -22891,25 +18643,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "店員と客がレストランで話しています。店員はこのあと何をしますか。（82）",
+        "question": "何をしますか。",
         "options": [
-          "16枚",
-          "17枚",
-          "18枚",
-          "19枚"
+          "帰る",
+          "電話する",
+          "相談する",
+          "調べる"
         ],
         "answer": 0,
         "id": "N3-14-079",
@@ -22917,25 +18657,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "客と医者がホテルで話しています。客はこのあと何をしますか。（83）",
+        "question": "何をしますか。",
         "options": [
-          "15枚",
-          "16枚",
-          "17枚",
-          "18枚"
+          "報告する",
+          "電話する",
+          "調べる",
+          "送る"
         ],
         "answer": 0,
         "id": "N3-14-080",
@@ -22943,25 +18671,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "医者と患者が駅で話しています。医者はこのあと何をしますか。（84）",
+        "question": "何をしますか。",
         "options": [
-          "14枚",
-          "15枚",
-          "16枚",
-          "17枚"
+          "確認する",
+          "調べる",
+          "準備する",
+          "報告する"
         ],
         "answer": 2,
         "id": "N3-14-081",
@@ -22969,25 +18685,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "説明を聞いています。最も重要なポイントは何ですか。（79）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "12日",
-          "13日",
-          "14日",
-          "15日"
+          "時間管理",
+          "運の要素",
+          "顧客満足",
+          "効率化"
         ],
         "answer": 1,
         "id": "N3-14-082",
@@ -22995,25 +18699,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "会議を聞いています。最も重要なポイントは何ですか。（80）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "13日",
-          "14日",
-          "15日",
-          "16日"
+          "リーダーシップ",
+          "効率化",
+          "人材育成",
+          "才能の必要性"
         ],
         "answer": 2,
         "id": "N3-14-083",
@@ -23021,25 +18713,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "プレゼンを聞いています。最も重要なポイントは何ですか。（81）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "14日",
-          "15日",
-          "16日",
-          "17日"
+          "時間管理",
+          "コスト削減",
+          "運の要素",
+          "人材育成"
         ],
         "answer": 1,
         "id": "N3-14-084",
@@ -23047,25 +18727,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "授業を聞いています。最も重要なポイントは何ですか。（82）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "15日",
-          "16日",
-          "17日",
-          "18日"
+          "品質向上",
+          "コスト削減",
+          "才能の必要性",
+          "情報共有"
         ],
         "answer": 2,
         "id": "N3-14-085",
@@ -23073,25 +18741,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ラジオを聞いています。最も重要なポイントは何ですか。（83）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "16日",
-          "17日",
-          "18日",
-          "19日"
+          "チームワーク",
+          "リスク低減",
+          "環境の影響",
+          "人材育成"
         ],
         "answer": 2,
         "id": "N3-14-086",
@@ -23099,25 +18755,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "案内を聞いています。最も重要なポイントは何ですか。（84）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "17日",
-          "18日",
-          "19日",
-          "20日"
+          "顧客満足",
+          "効率化",
+          "時間管理",
+          "情報共有"
         ],
         "answer": 1,
         "id": "N3-14-087",
@@ -23125,25 +18769,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "スピーチを聞いています。このスピーチの主なテーマは何ですか。（40）",
+        "question": "主なテーマは？",
         "options": [
-          "16個",
-          "17個",
-          "18個",
-          "19個"
+          "歴史",
+          "社会",
+          "文化",
+          "政治"
         ],
         "answer": 1,
         "id": "N3-14-088",
@@ -23151,25 +18783,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "対談を聞いています。この対談の主なテーマは何ですか。（41）",
+        "question": "主なテーマは？",
         "options": [
-          "17個",
-          "18個",
-          "19個",
-          "20個"
+          "教育",
+          "文化",
+          "歴史",
+          "チームワーク"
         ],
         "answer": 0,
         "id": "N3-14-089",
@@ -23177,25 +18797,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "解説を聞いています。この解説の主なテーマは何ですか。（42）",
+        "question": "主なテーマは？",
         "options": [
-          "18個",
-          "19個",
-          "20個",
-          "21個"
+          "リーダーシップ",
+          "イノベーション",
+          "技術",
+          "健康"
         ],
         "answer": 2,
         "id": "N3-14-090",
@@ -23203,25 +18811,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "断りたいです。何と言いますか。（53）",
+        "question": "何と言いますか。",
         "options": [
-          "使ってもいいですか",
-          "借りてもいいですか",
-          "見てもいいですか",
-          "触ってもいいですか"
+          "いいえ、違います",
+          "はい、そうです",
+          "ありがとうございます",
+          "すみません、ちょっと…"
         ],
         "answer": 0,
         "id": "N3-14-091",
@@ -23229,25 +18825,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "依頼したいです。何と言いますか。（54）",
+        "question": "何と言いますか。",
         "options": [
-          "入ってもいいですか",
-          "出てもいいですか",
-          "座ってもいいですか",
-          "立ってもいいですか"
+          "いいえ、違います",
+          "ありがとうございます",
+          "お願いできますか",
+          "はい、そうです"
         ],
         "answer": 0,
         "id": "N3-14-092",
@@ -23255,25 +18839,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "確認したいです。何と言いますか。（55）",
+        "question": "何と言いますか。",
         "options": [
-          "写真を撮ってもいいですか",
-          "録音してもいいですか",
-          "メモしてもいいですか",
-          "質問してもいいですか"
+          "ありがとうございます",
+          "いいえ、違います",
+          "はい、そうです",
+          "これで合っていますか"
         ],
         "answer": 0,
         "id": "N3-14-093",
@@ -23281,25 +18853,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "誘いに応じたいです。何と言いますか。（56）",
+        "question": "何と言いますか。",
         "options": [
-          "ちょっといいですか",
-          "少しよろしいですか",
-          "お時間ありますか",
-          "話があります"
+          "ぜひ行きたいです",
+          "いいえ、違います",
+          "はい、そうです",
+          "ありがとうございます"
         ],
         "answer": 0,
         "id": "N3-14-094",
@@ -23307,25 +18867,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "この書類、どこに提出すればいいですか。（105）",
+        "question": "返答は？",
         "options": [
-          "午前10時です",
-          "午後10時です",
-          "10時です",
-          "10時半です"
+          "はい、食べました",
+          "総務部です",
+          "いいえ、違います",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-14-095",
@@ -23333,25 +18881,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "お名前、お願いできますか。（106）",
+        "question": "返答は？",
         "options": [
-          "午前11時です",
-          "午後11時です",
-          "11時です",
-          "11時半です"
+          "田中と申します",
+          "いいえ、違います",
+          "はい、食べました",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-14-096",
@@ -23359,25 +18895,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "駅まで、どのくらいかかりますか。（107）",
+        "question": "返答は？",
         "options": [
-          "午前12時です",
-          "午後12時です",
-          "12時です",
-          "12時半です"
+          "いいえ、違います",
+          "歩いて10分くらい",
+          "はい、食べました",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-14-097",
@@ -23385,25 +18909,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "このパソコン、使ってもいいですか。（108）",
+        "question": "返答は？",
         "options": [
-          "1日です",
-          "2日です",
-          "3日です",
-          "4日です"
+          "いいえ、行きません",
+          "はい、食べました",
+          "いいえ、違います",
+          "どうぞ"
         ],
         "answer": 0,
         "id": "N3-14-098",
@@ -23411,25 +18923,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "コーヒー、もう一杯いかがですか。（109）",
+        "question": "返答は？",
         "options": [
-          "2日です",
-          "3日です",
-          "4日です",
-          "5日です"
+          "はい、食べました",
+          "いただきます",
+          "いいえ、違います",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-14-099",
@@ -23437,25 +18937,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "昨日のパーティー、楽しかったですね。（110）",
+        "question": "返答は？",
         "options": [
-          "3日です",
-          "4日です",
-          "5日です",
-          "6日です"
+          "いいえ、違います",
+          "いいえ、行きません",
+          "本当に楽しかった",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-14-100",
@@ -23463,25 +18951,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "この辺に郵便局はありますか。（111）",
+        "question": "返答は？",
         "options": [
-          "4日です",
-          "5日です",
-          "6日です",
-          "7日です"
+          "はい、食べました",
+          "いいえ、違います",
+          "この先にあります",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-14-101",
@@ -23489,25 +18965,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ちょっとお時間よろしいですか。（112）",
+        "question": "返答は？",
         "options": [
-          "5日です",
-          "6日です",
-          "7日です",
-          "8日です"
+          "いいえ、行きません",
+          "はい、食べました",
+          "はい、大丈夫です",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-14-102",
@@ -23907,65 +19371,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>手<rt>て</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「気」の用法として正しいのは？（71）",
+        "question": "正しいのは？",
         "options": [
-          "手を打つ",
-          "手を食べる",
-          "手に乗る",
-          "手を走る"
+          "気が利く",
+          "気が高い",
+          "気が早い",
+          "気が重い"
         ],
         "answer": 0,
         "id": "N3-15-031"
       },
       {
         "type": "用法",
-        "text": "「<ruby>足<rt>あし</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「息」の用法として正しいのは？（72）",
+        "question": "正しいのは？",
         "options": [
-          "足を運ぶ",
-          "足を飲む",
-          "足に住む",
-          "足を着る"
+          "息が合う",
+          "息が高い",
+          "息が早い",
+          "息が重い"
         ],
         "answer": 0,
         "id": "N3-15-032"
       },
       {
         "type": "用法",
-        "text": "「<ruby>目<rt>め</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「胸」の用法として正しいのは？（73）",
+        "question": "正しいのは？",
         "options": [
-          "目を通す",
-          "目を食べる",
-          "目に乗る",
-          "目を走る"
+          "胸を張る",
+          "胸が高い",
+          "胸が早い",
+          "胸が重い"
         ],
         "answer": 0,
         "id": "N3-15-033"
       },
       {
         "type": "用法",
-        "text": "「<ruby>耳<rt>みみ</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「背」の用法として正しいのは？（74）",
+        "question": "正しいのは？",
         "options": [
-          "耳を傾ける",
-          "耳を飲む",
-          "耳に住む",
-          "耳を着る"
+          "背を向ける",
+          "背が広い",
+          "背が早い",
+          "背が重い"
         ],
         "answer": 0,
         "id": "N3-15-034"
       },
       {
         "type": "用法",
-        "text": "「<ruby>口<rt>くち</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「骨」の用法として正しいのは？（75）",
+        "question": "正しいのは？",
         "options": [
-          "口を出す",
-          "口を食べる",
-          "口に乗る",
-          "口を走る"
+          "骨を折る",
+          "骨が高い",
+          "骨が早い",
+          "骨が重い"
         ],
         "answer": 0,
         "id": "N3-15-035"
@@ -24206,65 +19670,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文章の文法",
-        "text": "彼は優秀な（　）、周りから期待されています。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "結果（　）良ければ全て良しとは限らない。（71）",
+        "question": "（　）に入るのは？",
         "options": [
-          "だけに",
-          "せいで",
-          "おかげで",
-          "ために"
+          "が",
+          "さえ",
+          "こそ",
+          "だけ"
         ],
         "answer": 3,
         "id": "N3-15-054"
       },
       {
         "type": "文章の文法",
-        "text": "この店は安くて美味しい（　）、いつも満席です。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "努力家である（　）、才能にも恵まれている。（72）",
+        "question": "（　）に入るのは？",
         "options": [
-          "だけあって",
-          "せいで",
-          "おかげで",
-          "ので"
+          "のみならず",
+          "にもかかわらず",
+          "とはいえ",
+          "からこそ"
         ],
         "answer": 0,
         "id": "N3-15-055"
       },
       {
         "type": "文章の文法",
-        "text": "彼女が来ない（　）、パーティーは始められません。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "一朝一夕（　）解決できるものではない。（73）",
+        "question": "（　）に入るのは？",
         "options": [
-          "かぎり",
-          "まで",
-          "間",
-          "うち"
+          "に",
+          "で",
+          "には",
+          "では"
         ],
         "answer": 3,
         "id": "N3-15-056"
       },
       {
         "type": "文章の文法",
-        "text": "彼は医者（　）、患者に優しく接しています。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "事実（　）基づいている。（74）",
+        "question": "（　）に入るのは？",
         "options": [
-          "として",
-          "らしく",
-          "みたいに",
-          "のように"
+          "に",
+          "を",
+          "と",
+          "が"
         ],
         "answer": 0,
         "id": "N3-15-057"
       },
       {
         "type": "文章の文法",
-        "text": "この問題は（　）解けば解くほど、難しくなります。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "経験（　）勝るものはない。（75）",
+        "question": "（　）に入るのは？",
         "options": [
-          "一見",
-          "確かに",
-          "実際",
-          "本当は"
+          "に",
+          "を",
+          "が",
+          "より"
         ],
         "answer": 3,
         "id": "N3-15-058"
@@ -24492,25 +19956,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "患者と受付が空港で話しています。患者はこのあと何をしますか。（85）",
+        "question": "何をしますか。",
         "options": [
-          "13枚",
-          "14枚",
-          "15枚",
-          "16枚"
+          "片付ける",
+          "買う",
+          "行く",
+          "準備する"
         ],
         "answer": 0,
         "id": "N3-15-076",
@@ -24518,25 +19970,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "受付と係員が図書館で話しています。受付はこのあと何をしますか。（86）",
+        "question": "何をしますか。",
         "options": [
-          "12枚",
-          "13枚",
-          "14枚",
-          "15枚"
+          "メールする",
+          "待つ",
+          "相談する",
+          "帰る"
         ],
         "answer": 0,
         "id": "N3-15-077",
@@ -24544,25 +19984,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "係員とスタッフが郵便局で話しています。係員はこのあと何をしますか。（87）",
+        "question": "何をしますか。",
         "options": [
-          "11枚",
-          "12枚",
-          "13枚",
-          "14枚"
+          "待つ",
+          "書類を出す",
+          "調べる",
+          "行く"
         ],
         "answer": 0,
         "id": "N3-15-078",
@@ -24570,25 +19998,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "スタッフと友人が美容院で話しています。スタッフはこのあと何をしますか。（88）",
+        "question": "何をしますか。",
         "options": [
-          "10枚",
-          "11枚",
-          "12枚",
-          "13枚"
+          "帰る",
+          "報告する",
+          "メールする",
+          "相談する"
         ],
         "answer": 0,
         "id": "N3-15-079",
@@ -24596,25 +20012,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "友人と同僚がジムで話しています。友人はこのあと何をしますか。（89）",
+        "question": "何をしますか。",
         "options": [
-          "9枚",
-          "10枚",
-          "11枚",
-          "12枚"
+          "買う",
+          "行く",
+          "準備する",
+          "予約する"
         ],
         "answer": 2,
         "id": "N3-15-080",
@@ -24622,25 +20026,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "同僚と男の人がカフェで話しています。同僚はこのあと何をしますか。（90）",
+        "question": "何をしますか。",
         "options": [
-          "8枚",
-          "9枚",
-          "10枚",
-          "11枚"
+          "行く",
+          "待つ",
+          "帰る",
+          "送る"
         ],
         "answer": 0,
         "id": "N3-15-081",
@@ -24648,25 +20040,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "スピーチを聞いています。最も重要なポイントは何ですか。（85）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "18日",
-          "19日",
-          "20日",
-          "21日"
+          "リスク低減",
+          "チームワーク",
+          "運の要素",
+          "効率化"
         ],
         "answer": 2,
         "id": "N3-15-082",
@@ -24674,25 +20054,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "報告を聞いています。最も重要なポイントは何ですか。（86）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "19日",
-          "20日",
-          "21日",
-          "22日"
+          "リーダーシップ",
+          "時間管理",
+          "品質向上",
+          "効率化"
         ],
         "answer": 1,
         "id": "N3-15-083",
@@ -24700,25 +20068,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "対談を聞いています。最も重要なポイントは何ですか。（87）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "20日",
-          "21日",
-          "22日",
-          "23日"
+          "顧客満足",
+          "リーダーシップ",
+          "コスト削減",
+          "情報共有"
         ],
         "answer": 2,
         "id": "N3-15-084",
@@ -24726,25 +20082,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "講義を聞いています。最も重要なポイントは何ですか。（88）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "21日",
-          "22日",
-          "23日",
-          "24日"
+          "運の要素",
+          "人材育成",
+          "効率化",
+          "チームワーク"
         ],
         "answer": 2,
         "id": "N3-15-085",
@@ -24752,25 +20096,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "解説を聞いています。最も重要なポイントは何ですか。（89）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "22日",
-          "23日",
-          "24日",
-          "25日"
+          "効率化",
+          "リーダーシップ",
+          "コミュニケーション",
+          "チームワーク"
         ],
         "answer": 1,
         "id": "N3-15-086",
@@ -24778,25 +20110,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "討論を聞いています。最も重要なポイントは何ですか。（90）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "23日",
-          "24日",
-          "25日",
-          "26日"
+          "リーダーシップ",
+          "効率化",
+          "継続の重要性",
+          "コミュニケーション"
         ],
         "answer": 2,
         "id": "N3-15-087",
@@ -24804,25 +20124,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ドキュメンタリーを聞いています。このドキュメンタリーの主なテーマは何ですか。（43）",
+        "question": "主なテーマは？",
         "options": [
-          "19個",
-          "20個",
-          "21個",
-          "22個"
+          "歴史",
+          "健康",
+          "政治",
+          "イノベーション"
         ],
         "answer": 1,
         "id": "N3-15-088",
@@ -24830,25 +20138,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "セミナーを聞いています。このセミナーの主なテーマは何ですか。（44）",
+        "question": "主なテーマは？",
         "options": [
-          "20個",
-          "21個",
-          "22個",
-          "23個"
+          "経済",
+          "健康",
+          "文化",
+          "政治"
         ],
         "answer": 0,
         "id": "N3-15-089",
@@ -24856,25 +20152,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "報告を聞いています。この報告の主なテーマは何ですか。（45）",
+        "question": "主なテーマは？",
         "options": [
-          "1人",
-          "2人",
-          "3人",
-          "4人"
+          "技術",
+          "歴史",
+          "政治",
+          "環境"
         ],
         "answer": 2,
         "id": "N3-15-090",
@@ -24882,25 +20166,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "予約をしたいです。何と言いますか。（57）",
+        "question": "何と言いますか。",
         "options": [
-          "もう一度お願いします",
-          "ゆっくりお願いします",
-          "大きい声でお願いします",
-          "書いてください"
+          "予約をお願いします",
+          "ありがとうございます",
+          "はい、そうです",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-15-091",
@@ -24908,25 +20180,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "注文をしたいです。何と言いますか。（58）",
+        "question": "何と言いますか。",
         "options": [
-          "すみませんが",
-          "恐れ入りますが",
-          "お手数ですが",
-          "失礼ですが"
+          "はい、そうです",
+          "いいえ、違います",
+          "ありがとうございます",
+          "これをお願いします"
         ],
         "answer": 0,
         "id": "N3-15-092",
@@ -24934,25 +20194,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "質問したいです。何と言いますか。（59）",
+        "question": "何と言いますか。",
         "options": [
-          "どうぞ",
-          "ご自由に",
-          "お使いください",
-          "お座りください"
+          "はい、そうです",
+          "ちょっとお聞きしたいのですが",
+          "いいえ、違います",
+          "ありがとうございます"
         ],
         "answer": 0,
         "id": "N3-15-093",
@@ -24960,25 +20208,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "説明を求めたいです。何と言いますか。（60）",
+        "question": "何と言いますか。",
         "options": [
-          "こちらへどうぞ",
-          "お入りください",
-          "お上がりください",
-          "お座りください"
+          "いいえ、違います",
+          "もう少し詳しく教えていただけますか",
+          "ありがとうございます",
+          "はい、そうです"
         ],
         "answer": 0,
         "id": "N3-15-094",
@@ -24986,25 +20222,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "傘、お持ちですか。（113）",
+        "question": "返答は？",
         "options": [
-          "6日です",
-          "7日です",
-          "8日です",
-          "9日です"
+          "いいえ、行きません",
+          "はい、食べました",
+          "いいえ、忘れました",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-15-095",
@@ -25012,25 +20236,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "このあたり、静かでいいですね。（114）",
+        "question": "返答は？",
         "options": [
-          "7日です",
-          "8日です",
-          "9日です",
-          "10日です"
+          "はい、食べました",
+          "そうですね",
+          "いいえ、違います",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-15-096",
@@ -25038,25 +20250,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "お荷物、お持ちしましょうか。（115）",
+        "question": "返答は？",
         "options": [
-          "1つです",
-          "2つです",
-          "3つです",
-          "4つです"
+          "いいえ、行きません",
+          "いいえ、違います",
+          "はい、食べました",
+          "ありがとうございます"
         ],
         "answer": 0,
         "id": "N3-15-097",
@@ -25064,25 +20264,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "今日は暑いですね。（116）",
+        "question": "返答は？",
         "options": [
-          "2つです",
-          "3つです",
-          "4つです",
-          "5つです"
+          "いいえ、行きません",
+          "本当ですね",
+          "いいえ、違います",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-15-098",
@@ -25090,25 +20278,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "お仕事、何時までですか。（117）",
+        "question": "返答は？",
         "options": [
-          "3つです",
-          "4つです",
-          "5つです",
-          "6つです"
+          "いいえ、行きません",
+          "はい、食べました",
+          "いいえ、違います",
+          "6時までです"
         ],
         "answer": 0,
         "id": "N3-15-099",
@@ -25116,25 +20292,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "週末、何か予定ありますか。（118）",
+        "question": "返答は？",
         "options": [
-          "4つです",
-          "5つです",
-          "6つです",
-          "7つです"
+          "いいえ、違います",
+          "はい、食べました",
+          "特にないです",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-15-100",
@@ -25142,25 +20306,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "この料理、おいしいですね。（119）",
+        "question": "返答は？",
         "options": [
-          "5つです",
-          "6つです",
-          "7つです",
-          "8つです"
+          "いいえ、違います",
+          "いいえ、行きません",
+          "そうですね、おいしい",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-15-101",
@@ -25168,25 +20320,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ここで写真撮ってもいいですか。（120）",
+        "question": "返答は？",
         "options": [
-          "6つです",
-          "7つです",
-          "8つです",
-          "9つです"
+          "いいえ、行きません",
+          "いいえ、違います",
+          "大丈夫ですよ",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-15-102",
@@ -25586,65 +20726,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>顔<rt>かお</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「手」の用法として正しいのは？（76）",
+        "question": "正しいのは？",
         "options": [
-          "顔が広い",
-          "顔を飲む",
-          "顔に住む",
-          "顔を着る"
+          "手が足りない",
+          "手が高い",
+          "手が遅い",
+          "手が軽い"
         ],
         "answer": 0,
         "id": "N3-16-031"
       },
       {
         "type": "用法",
-        "text": "「<ruby>心<rt>こころ</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「目」の用法として正しいのは？（77）",
+        "question": "正しいのは？",
         "options": [
-          "心を打つ",
-          "心を食べる",
-          "心に乗る",
-          "心を走る"
+          "目が利く",
+          "目が高い",
+          "目が早い",
+          "目が重い"
         ],
         "answer": 0,
         "id": "N3-16-032"
       },
       {
         "type": "用法",
-        "text": "「<ruby>気<rt>き</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「足」の用法として正しいのは？（78）",
+        "question": "正しいのは？",
         "options": [
-          "気を使う",
-          "気を食べる",
-          "気に乗る",
-          "気を走る"
+          "足を運ぶ",
+          "足が高い",
+          "足が重い",
+          "足が早い"
         ],
         "answer": 0,
         "id": "N3-16-033"
       },
       {
         "type": "用法",
-        "text": "「<ruby>頭<rt>あたま</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「頭」の用法として正しいのは？（79）",
+        "question": "正しいのは？",
         "options": [
           "頭が切れる",
-          "頭を飲む",
-          "頭に住む",
-          "頭を着る"
+          "頭が高い",
+          "頭が早い",
+          "頭が重い"
         ],
         "answer": 0,
         "id": "N3-16-034"
       },
       {
         "type": "用法",
-        "text": "「<ruby>腕<rt>うで</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「口」の用法として正しいのは？（80）",
+        "question": "正しいのは？",
         "options": [
-          "腕を磨く",
-          "腕を食べる",
-          "腕に乗る",
-          "腕を走る"
+          "口が堅い",
+          "口が高い",
+          "口が早い",
+          "口が重い"
         ],
         "answer": 0,
         "id": "N3-16-035"
@@ -25885,65 +21025,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文章の文法",
-        "text": "彼女は疲れている（　）、まだ働き続けています。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "日本経済は長期にわたる停滞（　）、回復の兆しを見せ始めている。（76）",
+        "question": "（　）に入るのは？",
         "options": [
-          "にもかかわらず",
-          "のに",
-          "けれども",
-          "が"
+          "を経て",
+          "をもって",
+          "に至り",
+          "に反して"
         ],
         "answer": 0,
         "id": "N3-16-054"
       },
       {
         "type": "文章の文法",
-        "text": "日本に来て10年に（　）。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の提案は斬新（　）、実現可能性に欠けるという批判もある。（77）",
+        "question": "（　）に入るのは？",
         "options": [
-          "なります",
-          "なっています",
-          "なりました",
-          "なっていました"
+          "ではあるが",
+          "であるから",
+          "なので",
+          "だとしても"
         ],
         "answer": 3,
         "id": "N3-16-055"
       },
       {
         "type": "文章の文法",
-        "text": "彼は約束を（　）べきです。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "環境問題の解決（　）、国際的な協力が不可欠である。（78）",
+        "question": "（　）に入るのは？",
         "options": [
-          "守る",
-          "守って",
-          "守った",
-          "守り"
+          "には",
+          "にとって",
+          "において",
+          "に際して"
         ],
         "answer": 0,
         "id": "N3-16-056"
       },
       {
         "type": "文章の文法",
-        "text": "この仕事は明日（　）終わらせてください。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この研究は長年の努力（　）結実したものである。（79）",
+        "question": "（　）に入るのは？",
         "options": [
-          "までに",
-          "まで",
-          "に",
-          "で"
+          "が",
+          "の",
+          "を",
+          "に"
         ],
         "answer": 3,
         "id": "N3-16-057"
       },
       {
         "type": "文章の文法",
-        "text": "彼女は歌が（　）そうに歌っています。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "社会の変化（　）、教育制度も見直しが求められている。（80）",
+        "question": "（　）に入るのは？",
         "options": [
-          "上手",
-          "上手な",
-          "上手に",
-          "上手で"
+          "に伴い",
+          "に関して",
+          "によると",
+          "に対して"
         ],
         "answer": 0,
         "id": "N3-16-058"
@@ -26171,25 +21311,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "男の人と女の人が会社で話しています。男の人はこのあと何をしますか。（91）",
+        "question": "何をしますか。",
         "options": [
-          "7枚",
-          "8枚",
-          "9枚",
-          "10枚"
+          "買う",
+          "電話する",
+          "書類を出す",
+          "報告する"
         ],
         "answer": 0,
         "id": "N3-16-076",
@@ -26197,25 +21325,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "女の人と学生が学校で話しています。女の人はこのあと何をしますか。（92）",
+        "question": "何をしますか。",
         "options": [
-          "6枚",
-          "7枚",
-          "8枚",
-          "9枚"
+          "買う",
+          "電話する",
+          "メールする",
+          "準備する"
         ],
         "answer": 0,
         "id": "N3-16-077",
@@ -26223,25 +21339,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "学生と先生が病院で話しています。学生はこのあと何をしますか。（93）",
+        "question": "何をしますか。",
         "options": [
-          "5枚",
-          "6枚",
-          "7枚",
-          "8枚"
+          "書類を出す",
+          "報告する",
+          "準備する",
+          "調べる"
         ],
         "answer": 0,
         "id": "N3-16-078",
@@ -26249,25 +21353,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "先生と上司が銀行で話しています。先生はこのあと何をしますか。（94）",
+        "question": "何をしますか。",
         "options": [
-          "4枚",
-          "5枚",
-          "6枚",
-          "7枚"
+          "メールする",
+          "書類を出す",
+          "予約する",
+          "片付ける"
         ],
         "answer": 2,
         "id": "N3-16-079",
@@ -26275,25 +21367,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "上司と部下が役所で話しています。上司はこのあと何をしますか。（95）",
+        "question": "何をしますか。",
         "options": [
-          "3枚",
-          "4枚",
-          "5枚",
-          "6枚"
+          "行く",
+          "待つ",
+          "確認する",
+          "相談する"
         ],
         "answer": 0,
         "id": "N3-16-080",
@@ -26301,25 +21381,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "部下と店員が店で話しています。部下はこのあと何をしますか。（96）",
+        "question": "何をしますか。",
         "options": [
-          "2枚",
-          "3枚",
-          "4枚",
-          "5枚"
+          "準備する",
+          "待つ",
+          "報告する",
+          "行く"
         ],
         "answer": 0,
         "id": "N3-16-081",
@@ -26327,25 +21395,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "講演を聞いています。最も重要なポイントは何ですか。（91）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "24日",
-          "25日",
-          "26日",
-          "27日"
+          "環境の影響",
+          "継続の重要性",
+          "リーダーシップ",
+          "顧客満足"
         ],
         "answer": 1,
         "id": "N3-16-082",
@@ -26353,25 +21409,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ニュースを聞いています。最も重要なポイントは何ですか。（92）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "25日",
-          "26日",
-          "27日",
-          "28日"
+          "コスト削減",
+          "環境の影響",
+          "才能の必要性",
+          "顧客満足"
         ],
         "answer": 2,
         "id": "N3-16-083",
@@ -26379,25 +21423,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "インタビューを聞いています。最も重要なポイントは何ですか。（93）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "26日",
-          "27日",
-          "28日",
-          "29日"
+          "コスト削減",
+          "人材育成",
+          "環境の影響",
+          "リスク低減"
         ],
         "answer": 2,
         "id": "N3-16-084",
@@ -26405,25 +21437,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "説明を聞いています。最も重要なポイントは何ですか。（94）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "27日",
-          "28日",
-          "29日",
-          "30日"
+          "環境の影響",
+          "コスト削減",
+          "運の要素",
+          "チームワーク"
         ],
         "answer": 1,
         "id": "N3-16-085",
@@ -26431,25 +21451,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "会議を聞いています。最も重要なポイントは何ですか。（95）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "28日",
-          "29日",
-          "30日",
-          "31日"
+          "時間管理",
+          "コミュニケーション",
+          "顧客満足",
+          "効率化"
         ],
         "answer": 2,
         "id": "N3-16-086",
@@ -26457,25 +21465,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "プレゼンを聞いています。最も重要なポイントは何ですか。（96）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "1月",
-          "2月",
-          "3月",
-          "4月"
+          "人材育成",
+          "チームワーク",
+          "リーダーシップ",
+          "コスト削減"
         ],
         "answer": 1,
         "id": "N3-16-087",
@@ -26483,25 +21479,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "討論を聞いています。この討論の主なテーマは何ですか。（46）",
+        "question": "主なテーマは？",
         "options": [
-          "2人",
-          "3人",
-          "4人",
-          "5人"
+          "科学",
+          "健康",
+          "社会",
+          "文化"
         ],
         "answer": 1,
         "id": "N3-16-088",
@@ -26509,25 +21493,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ガイダンスを聞いています。このガイダンスの主なテーマは何ですか。（47）",
+        "question": "主なテーマは？",
         "options": [
-          "3人",
-          "4人",
-          "5人",
-          "6人"
+          "チームワーク",
+          "芸術",
+          "経済",
+          "社会"
         ],
         "answer": 0,
         "id": "N3-16-089",
@@ -26535,25 +21507,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "放送を聞いています。この放送の主なテーマは何ですか。（48）",
+        "question": "主なテーマは？",
         "options": [
-          "4人",
-          "5人",
-          "6人",
-          "7人"
+          "健康",
+          "コミュニケーション",
+          "技術",
+          "スポーツ"
         ],
         "answer": 2,
         "id": "N3-16-090",
@@ -26561,25 +21521,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "友達に映画に誘いたいです。何と言いますか。（61）",
+        "question": "何と言いますか。",
         "options": [
-          "お先にどうぞ",
-          "どうぞ先に",
-          "お待ちください",
-          "お並びください"
+          "ありがとうございます",
+          "今度映画見に行かない？",
+          "いいえ、違います",
+          "はい、そうです"
         ],
         "answer": 0,
         "id": "N3-16-091",
@@ -26587,25 +21535,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "店員に試着したいと伝えるです。何と言いますか。（62）",
+        "question": "何と言いますか。",
         "options": [
-          "ご案内します",
-          "こちらです",
-          "あちらです",
-          "お連れします"
+          "はい、そうです",
+          "これ、試着できますか",
+          "ありがとうございます",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-16-092",
@@ -26613,25 +21549,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "道を聞きたいです。何と言いますか。（63）",
+        "question": "何と言いますか。",
         "options": [
-          "確認させてください",
-          "調べさせてください",
-          "考えさせてください",
-          "相談させてください"
+          "すみません、駅はどこですか",
+          "ありがとうございます",
+          "はい、そうです",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-16-093",
@@ -26639,25 +21563,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "お礼を言いたいです。何と言いますか。（64）",
+        "question": "何と言いますか。",
         "options": [
-          "少々お待ちください",
-          "しばらくお待ちください",
-          "もう少しお待ちください",
-          "お待たせしました"
+          "本当にありがとうございます",
+          "ありがとうございます",
+          "はい、そうです",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-16-094",
@@ -26665,25 +21577,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "すみません、この席、空いていますか。（121）",
+        "question": "返答は？",
         "options": [
-          "7つです",
-          "8つです",
-          "9つです",
-          "10つです"
+          "はい、どうぞ",
+          "いいえ、違います",
+          "はい、食べました",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-16-095",
@@ -26691,25 +21591,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "明日の会議、何時からでしたっけ。（122）",
+        "question": "返答は？",
         "options": [
-          "8つです",
-          "9つです",
-          "10つです",
-          "11つです"
+          "いいえ、違います",
+          "はい、食べました",
+          "いいえ、行きません",
+          "10時からです"
         ],
         "answer": 0,
         "id": "N3-16-096",
@@ -26717,25 +21605,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "このへん、コンビニありますか。（123）",
+        "question": "返答は？",
         "options": [
-          "9つです",
-          "10つです",
-          "11つです",
-          "12つです"
+          "あの角を曲がると",
+          "いいえ、違います",
+          "いいえ、行きません",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-16-097",
@@ -26743,25 +21619,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ちょっと手伝っていただけませんか。（124）",
+        "question": "返答は？",
         "options": [
-          "10つです",
-          "11つです",
-          "12つです",
-          "13つです"
+          "いいえ、行きません",
+          "はい、いいですよ",
+          "はい、食べました",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-16-098",
@@ -26769,25 +21633,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "この書類、どこに提出すればいいですか。（125）",
+        "question": "返答は？",
         "options": [
-          "1個です",
-          "2個です",
-          "3個です",
-          "4個です"
+          "いいえ、行きません",
+          "総務部です",
+          "いいえ、違います",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-16-099",
@@ -26795,25 +21647,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "お名前、お願いできますか。（126）",
+        "question": "返答は？",
         "options": [
-          "2個です",
-          "3個です",
-          "4個です",
-          "5個です"
+          "いいえ、行きません",
+          "いいえ、違います",
+          "田中と申します",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-16-100",
@@ -26821,25 +21661,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "駅まで、どのくらいかかりますか。（127）",
+        "question": "返答は？",
         "options": [
-          "3個です",
-          "4個です",
-          "5個です",
-          "6個です"
+          "いいえ、行きません",
+          "いいえ、違います",
+          "歩いて10分くらい",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-16-101",
@@ -26847,25 +21675,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "このパソコン、使ってもいいですか。（128）",
+        "question": "返答は？",
         "options": [
-          "4個です",
-          "5個です",
-          "6個です",
-          "7個です"
+          "はい、食べました",
+          "どうぞ",
+          "いいえ、違います",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-16-102",
@@ -27265,65 +22081,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>息<rt>いき</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「耳」の用法として正しいのは？（81）",
+        "question": "正しいのは？",
         "options": [
-          "息が合う",
-          "息を食べる",
-          "息に乗る",
-          "息を走る"
+          "耳が痛い",
+          "耳が高い",
+          "耳が早い",
+          "耳が重い"
         ],
         "answer": 0,
         "id": "N3-17-031"
       },
       {
         "type": "用法",
-        "text": "「<ruby>声<rt>こえ</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「顔」の用法として正しいのは？（82）",
+        "question": "正しいのは？",
         "options": [
-          "声を上げる",
-          "声を飲む",
-          "声に住む",
-          "声を着る"
+          "顔が広い",
+          "顔が高い",
+          "顔が早い",
+          "顔が重い"
         ],
         "answer": 0,
         "id": "N3-17-032"
       },
       {
         "type": "用法",
-        "text": "「<ruby>力<rt>ちから</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「腕」の用法として正しいのは？（83）",
+        "question": "正しいのは？",
         "options": [
-          "力を入れる",
-          "力を食べる",
-          "力に乗る",
-          "力を走る"
+          "腕を磨く",
+          "腕が高い",
+          "腕が早い",
+          "腕が重い"
         ],
         "answer": 0,
         "id": "N3-17-033"
       },
       {
         "type": "用法",
-        "text": "「<ruby>道<rt>みち</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「肩」の用法として正しいのは？（84）",
+        "question": "正しいのは？",
         "options": [
-          "道を開く",
-          "道を飲む",
-          "道に住む",
-          "道を着る"
+          "肩の荷が下りる",
+          "肩が高い",
+          "肩が早い",
+          "肩が重い"
         ],
         "answer": 0,
         "id": "N3-17-034"
       },
       {
         "type": "用法",
-        "text": "「<ruby>金<rt>かね</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「腰」の用法として正しいのは？（85）",
+        "question": "正しいのは？",
         "options": [
-          "金がかかる",
-          "金を食べる",
-          "金に乗る",
-          "金を走る"
+          "腰が重い",
+          "腰が高い",
+          "腰が早い",
+          "腰が軽い"
         ],
         "answer": 0,
         "id": "N3-17-035"
@@ -27564,65 +22380,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文章の文法",
-        "text": "電車が（　）、バスで行くことにしました。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼女は困難（　）乗り越え、目標を達成した。（81）",
+        "question": "（　）に入るのは？",
         "options": [
-          "遅れたので",
-          "遅れたのに",
-          "遅れても",
-          "遅れたけど"
+          "を",
+          "に",
+          "で",
+          "から"
         ],
         "answer": 3,
         "id": "N3-17-054"
       },
       {
         "type": "文章の文法",
-        "text": "彼は優秀な学生（　）、先生からも信頼されています。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "専門家（　）意見を聞く必要がある。（82）",
+        "question": "（　）に入るのは？",
         "options": [
-          "であるだけに",
-          "であるせいで",
-          "であるおかげで",
-          "であるために"
+          "の",
+          "から",
+          "による",
+          "への"
         ],
         "answer": 0,
         "id": "N3-17-055"
       },
       {
         "type": "文章の文法",
-        "text": "この本は（　）読んでおくべきです。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "技術の進歩（　）、生活は大きく変わった。（83）",
+        "question": "（　）に入るのは？",
         "options": [
-          "一度は",
-          "一度も",
-          "一度で",
-          "一度が"
+          "により",
+          "にとって",
+          "に関して",
+          "に対して"
         ],
         "answer": 3,
         "id": "N3-17-056"
       },
       {
         "type": "文章の文法",
-        "text": "彼女は病気（　）、学校に来ました。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の行動は法律（　）許されるものではない。（84）",
+        "question": "（　）に入るのは？",
         "options": [
-          "にもかかわらず",
-          "なのに",
-          "だけど",
-          "が"
+          "上",
+          "的に",
+          "において",
+          "としても"
         ],
         "answer": 0,
         "id": "N3-17-057"
       },
       {
         "type": "文章の文法",
-        "text": "日本語が話せる（　）、仕事の幅が広がりました。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "予算の制約（　）実現が困難だ。（85）",
+        "question": "（　）に入るのは？",
         "options": [
-          "ようになって",
-          "ことになって",
-          "ためになって",
-          "せいになって"
+          "から",
+          "ゆえに",
+          "として",
+          "にして"
         ],
         "answer": 3,
         "id": "N3-17-058"
@@ -27850,25 +22666,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "店員と客がレストランで話しています。店員はこのあと何をしますか。（97）",
+        "question": "何をしますか。",
         "options": [
-          "1枚",
-          "2枚",
-          "3枚",
-          "4枚"
+          "確認する",
+          "予約する",
+          "相談する",
+          "報告する"
         ],
         "answer": 0,
         "id": "N3-17-076",
@@ -27876,25 +22680,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "客と医者がホテルで話しています。客はこのあと何をしますか。（98）",
+        "question": "何をしますか。",
         "options": [
-          "20人",
-          "21人",
-          "22人",
-          "23人"
+          "送る",
+          "報告する",
+          "調べる",
+          "相談する"
         ],
         "answer": 0,
         "id": "N3-17-077",
@@ -27902,25 +22694,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "医者と患者が駅で話しています。医者はこのあと何をしますか。（99）",
+        "question": "何をしますか。",
         "options": [
-          "19人",
-          "20人",
-          "21人",
-          "22人"
+          "相談する",
+          "送る",
+          "待つ",
+          "準備する"
         ],
         "answer": 2,
         "id": "N3-17-078",
@@ -27928,25 +22708,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "患者と受付が空港で話しています。患者はこのあと何をしますか。（100）",
+        "question": "何をしますか。",
         "options": [
-          "18人",
-          "19人",
-          "20人",
-          "21人"
+          "行く",
+          "片付ける",
+          "送る",
+          "相談する"
         ],
         "answer": 0,
         "id": "N3-17-079",
@@ -27954,25 +22722,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "受付と係員が図書館で話しています。受付はこのあと何をしますか。（101）",
+        "question": "何をしますか。",
         "options": [
-          "17人",
-          "18人",
-          "19人",
-          "20人"
+          "報告する",
+          "相談する",
+          "待つ",
+          "買う"
         ],
         "answer": 0,
         "id": "N3-17-080",
@@ -27980,25 +22736,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "係員とスタッフが郵便局で話しています。係員はこのあと何をしますか。（102）",
+        "question": "何をしますか。",
         "options": [
-          "16人",
-          "17人",
-          "18人",
-          "19人"
+          "準備する",
+          "待つ",
+          "行く",
+          "片付ける"
         ],
         "answer": 0,
         "id": "N3-17-081",
@@ -28006,25 +22750,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "授業を聞いています。最も重要なポイントは何ですか。（97）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "2月",
-          "3月",
-          "4月",
-          "5月"
+          "品質向上",
+          "情報共有",
+          "人材育成",
+          "コミュニケーション"
         ],
         "answer": 2,
         "id": "N3-17-082",
@@ -28032,25 +22764,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ラジオを聞いています。最も重要なポイントは何ですか。（98）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "3月",
-          "4月",
-          "5月",
-          "6月"
+          "効率化",
+          "リーダーシップ",
+          "人材育成",
+          "コスト削減"
         ],
         "answer": 2,
         "id": "N3-17-083",
@@ -28058,25 +22778,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "案内を聞いています。最も重要なポイントは何ですか。（99）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "4月",
-          "5月",
-          "6月",
-          "7月"
+          "顧客満足",
+          "情報共有",
+          "時間管理",
+          "コスト削減"
         ],
         "answer": 1,
         "id": "N3-17-084",
@@ -28084,25 +22792,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "スピーチを聞いています。最も重要なポイントは何ですか。（100）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "5月",
-          "6月",
-          "7月",
-          "8月"
+          "継続の重要性",
+          "才能の必要性",
+          "コスト削減",
+          "リスク低減"
         ],
         "answer": 2,
         "id": "N3-17-085",
@@ -28110,25 +22806,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "報告を聞いています。最も重要なポイントは何ですか。（101）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "6月",
-          "7月",
-          "8月",
-          "9月"
+          "時間管理",
+          "継続の重要性",
+          "効率化",
+          "品質向上"
         ],
         "answer": 1,
         "id": "N3-17-086",
@@ -28136,25 +22820,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "対談を聞いています。最も重要なポイントは何ですか。（102）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "7月",
-          "8月",
-          "9月",
-          "10月"
+          "継続の重要性",
+          "リーダーシップ",
+          "チームワーク",
+          "情報共有"
         ],
         "answer": 2,
         "id": "N3-17-087",
@@ -28162,25 +22834,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "講演を聞いています。この講演の主なテーマは何ですか。（49）",
+        "question": "主なテーマは？",
         "options": [
-          "5人",
-          "6人",
-          "7人",
-          "8人"
+          "社会",
+          "リーダーシップ",
+          "政治",
+          "科学"
         ],
         "answer": 1,
         "id": "N3-17-088",
@@ -28188,25 +22848,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ニュースを聞いています。このニュースの主なテーマは何ですか。（50）",
+        "question": "主なテーマは？",
         "options": [
-          "6人",
-          "7人",
-          "8人",
-          "9人"
+          "技術",
+          "政治",
+          "スポーツ",
+          "チームワーク"
         ],
         "answer": 0,
         "id": "N3-17-089",
@@ -28214,25 +22862,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "インタビューを聞いています。このインタビューの主なテーマは何ですか。（51）",
+        "question": "主なテーマは？",
         "options": [
-          "7人",
-          "8人",
-          "9人",
-          "10人"
+          "文化",
+          "コミュニケーション",
+          "チームワーク",
+          "政治"
         ],
         "answer": 2,
         "id": "N3-17-090",
@@ -28240,25 +22876,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "謝りたいです。何と言いますか。（65）",
+        "question": "何と言いますか。",
         "options": [
-          "申し訳ございません",
-          "大変申し訳ございません",
-          "ご迷惑をおかけしました",
-          "お詫び申し上げます"
+          "いいえ、違います",
+          "申し訳ありませんでした",
+          "はい、そうです",
+          "ありがとうございます"
         ],
         "answer": 0,
         "id": "N3-17-091",
@@ -28266,25 +22890,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "許可を求めたいです。何と言いますか。（66）",
+        "question": "何と言いますか。",
         "options": [
-          "何ですか",
-          "誰ですか",
-          "どこですか",
-          "いつですか"
+          "ここに座ってもいいですか",
+          "はい、そうです",
+          "ありがとうございます",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-17-092",
@@ -28292,25 +22904,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "提案したいです。何と言いますか。（67）",
+        "question": "何と言いますか。",
         "options": [
-          "いくらですか",
-          "いくつですか",
-          "何人ですか",
-          "何時ですか"
+          "こうしたらどうですか",
+          "いいえ、違います",
+          "ありがとうございます",
+          "はい、そうです"
         ],
         "answer": 0,
         "id": "N3-17-093",
@@ -28318,25 +22918,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "断りたいです。何と言いますか。（68）",
+        "question": "何と言いますか。",
         "options": [
-          "どれですか",
-          "どちらですか",
-          "どのくらいですか",
-          "どうですか"
+          "いいえ、違います",
+          "はい、そうです",
+          "すみません、ちょっと…",
+          "ありがとうございます"
         ],
         "answer": 0,
         "id": "N3-17-094",
@@ -28344,25 +22932,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "コーヒー、もう一杯いかがですか。（129）",
+        "question": "返答は？",
         "options": [
-          "5個です",
-          "6個です",
-          "7個です",
-          "8個です"
+          "はい、食べました",
+          "いいえ、行きません",
+          "いいえ、違います",
+          "いただきます"
         ],
         "answer": 0,
         "id": "N3-17-095",
@@ -28370,25 +22946,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "昨日のパーティー、楽しかったですね。（130）",
+        "question": "返答は？",
         "options": [
-          "6個です",
-          "7個です",
-          "8個です",
-          "9個です"
+          "はい、食べました",
+          "いいえ、違います",
+          "いいえ、行きません",
+          "本当に楽しかった"
         ],
         "answer": 0,
         "id": "N3-17-096",
@@ -28396,25 +22960,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "この辺に郵便局はありますか。（131）",
+        "question": "返答は？",
         "options": [
-          "7個です",
-          "8個です",
-          "9個です",
-          "10個です"
+          "はい、食べました",
+          "いいえ、行きません",
+          "いいえ、違います",
+          "この先にあります"
         ],
         "answer": 0,
         "id": "N3-17-097",
@@ -28422,25 +22974,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ちょっとお時間よろしいですか。（132）",
+        "question": "返答は？",
         "options": [
-          "8個です",
-          "9個です",
-          "10個です",
-          "11個です"
+          "はい、大丈夫です",
+          "はい、食べました",
+          "いいえ、違います",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-17-098",
@@ -28448,25 +22988,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "傘、お持ちですか。（133）",
+        "question": "返答は？",
         "options": [
-          "9個です",
-          "10個です",
-          "11個です",
-          "12個です"
+          "いいえ、忘れました",
+          "いいえ、違います",
+          "はい、食べました",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-17-099",
@@ -28474,25 +23002,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "このあたり、静かでいいですね。（134）",
+        "question": "返答は？",
         "options": [
-          "10個です",
-          "11個です",
-          "12個です",
-          "13個です"
+          "いいえ、違います",
+          "そうですね",
+          "はい、食べました",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-17-100",
@@ -28500,25 +23016,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "お荷物、お持ちしましょうか。（135）",
+        "question": "返答は？",
         "options": [
-          "1人です",
-          "2人です",
-          "3人です",
-          "4人です"
+          "いいえ、違います",
+          "ありがとうございます",
+          "はい、食べました",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-17-101",
@@ -28526,25 +23030,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "今日は暑いですね。（136）",
+        "question": "返答は？",
         "options": [
-          "2人です",
-          "3人です",
-          "4人です",
-          "5人です"
+          "いいえ、違います",
+          "いいえ、行きません",
+          "本当ですね",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-17-102",
@@ -28944,65 +23436,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>時<rt>とき</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「気」の用法として正しいのは？（86）",
+        "question": "正しいのは？",
         "options": [
-          "時が経つ",
-          "時を食べる",
-          "時に乗る",
-          "時を着る"
+          "気が利く",
+          "気が高い",
+          "気が早い",
+          "気が重い"
         ],
         "answer": 0,
         "id": "N3-18-031"
       },
       {
         "type": "用法",
-        "text": "「<ruby>話<rt>はなし</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「息」の用法として正しいのは？（87）",
+        "question": "正しいのは？",
         "options": [
-          "話が弾む",
-          "話を飲む",
-          "話に住む",
-          "話を走る"
+          "息が合う",
+          "息が高い",
+          "息が早い",
+          "息が重い"
         ],
         "answer": 0,
         "id": "N3-18-032"
       },
       {
         "type": "用法",
-        "text": "「<ruby>先<rt>さき</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「胸」の用法として正しいのは？（88）",
+        "question": "正しいのは？",
         "options": [
-          "先を読む",
-          "先を食べる",
-          "先に乗る",
-          "先を着る"
+          "胸を張る",
+          "胸が高い",
+          "胸が早い",
+          "胸が重い"
         ],
         "answer": 0,
         "id": "N3-18-033"
       },
       {
         "type": "用法",
-        "text": "「<ruby>後<rt>あと</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「背」の用法として正しいのは？（89）",
+        "question": "正しいのは？",
         "options": [
-          "後を引く",
-          "後を飲む",
-          "後に住む",
-          "後を走る"
+          "背を向ける",
+          "背が広い",
+          "背が早い",
+          "背が重い"
         ],
         "answer": 0,
         "id": "N3-18-034"
       },
       {
         "type": "用法",
-        "text": "「<ruby>間<rt>ま</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「骨」の用法として正しいのは？（90）",
+        "question": "正しいのは？",
         "options": [
-          "間に合う",
-          "間を食べる",
-          "間に乗る",
-          "間を着る"
+          "骨を折る",
+          "骨が高い",
+          "骨が早い",
+          "骨が重い"
         ],
         "answer": 0,
         "id": "N3-18-035"
@@ -29243,65 +23735,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文章の文法",
-        "text": "彼は失敗を恐れ（　）、新しいことに挑戦しません。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "結果（　）良ければ全て良しとは限らない。（86）",
+        "question": "（　）に入るのは？",
         "options": [
-          "るあまり",
-          "すぎて",
-          "るばかりに",
-          "るから"
+          "が",
+          "さえ",
+          "こそ",
+          "だけ"
         ],
         "answer": 0,
         "id": "N3-18-054"
       },
       {
         "type": "文章の文法",
-        "text": "この問題は考えれば（　）、分からなくなります。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "努力家である（　）、才能にも恵まれている。（87）",
+        "question": "（　）に入るのは？",
         "options": [
-          "考えるほど",
-          "考えたほど",
-          "考えるだけ",
-          "考えただけ"
+          "のみならず",
+          "にもかかわらず",
+          "とはいえ",
+          "からこそ"
         ],
         "answer": 3,
         "id": "N3-18-055"
       },
       {
         "type": "文章の文法",
-        "text": "彼女は努力した（　）、試験に合格しました。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "一朝一夕（　）解決できるものではない。（88）",
+        "question": "（　）に入るのは？",
         "options": [
-          "かいがあって",
-          "せいで",
-          "ために",
-          "から"
+          "に",
+          "で",
+          "には",
+          "では"
         ],
         "answer": 0,
         "id": "N3-18-056"
       },
       {
         "type": "文章の文法",
-        "text": "彼は日本に来て（　）、日本語が上手になりました。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "事実（　）基づいている。（89）",
+        "question": "（　）に入るのは？",
         "options": [
-          "から",
-          "以来",
-          "まで",
-          "間"
+          "に",
+          "を",
+          "と",
+          "が"
         ],
         "answer": 3,
         "id": "N3-18-057"
       },
       {
         "type": "文章の文法",
-        "text": "この映画は期待（　）面白かったです。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "経験（　）勝るものはない。（90）",
+        "question": "（　）に入るのは？",
         "options": [
-          "どおり",
-          "通り",
-          "とおりに",
-          "のとおり"
+          "に",
+          "を",
+          "が",
+          "より"
         ],
         "answer": 0,
         "id": "N3-18-058"
@@ -29529,25 +24021,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "スタッフと友人が美容院で話しています。スタッフはこのあと何をしますか。（103）",
+        "question": "何をしますか。",
         "options": [
-          "15人",
-          "16人",
-          "17人",
-          "18人"
+          "送る",
+          "行く",
+          "書類を出す",
+          "帰る"
         ],
         "answer": 0,
         "id": "N3-18-076",
@@ -29555,25 +24035,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "友人と同僚がジムで話しています。友人はこのあと何をしますか。（104）",
+        "question": "何をしますか。",
         "options": [
-          "14人",
-          "15人",
-          "16人",
-          "17人"
+          "買う",
+          "書類を出す",
+          "メールする",
+          "帰る"
         ],
         "answer": 2,
         "id": "N3-18-077",
@@ -29581,25 +24049,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "同僚と男の人がカフェで話しています。同僚はこのあと何をしますか。（105）",
+        "question": "何をしますか。",
         "options": [
-          "13人",
-          "14人",
-          "15人",
-          "16人"
+          "確認する",
+          "書類を出す",
+          "送る",
+          "相談する"
         ],
         "answer": 0,
         "id": "N3-18-078",
@@ -29607,25 +24063,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "男の人と女の人が会社で話しています。男の人はこのあと何をしますか。（106）",
+        "question": "何をしますか。",
         "options": [
-          "12人",
-          "13人",
-          "14人",
-          "15人"
+          "確認する",
+          "相談する",
+          "電話する",
+          "予約する"
         ],
         "answer": 0,
         "id": "N3-18-079",
@@ -29633,25 +24077,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "女の人と学生が学校で話しています。女の人はこのあと何をしますか。（107）",
+        "question": "何をしますか。",
         "options": [
-          "11人",
-          "12人",
-          "13人",
-          "14人"
+          "予約する",
+          "確認する",
+          "メールする",
+          "片付ける"
         ],
         "answer": 0,
         "id": "N3-18-080",
@@ -29659,25 +24091,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "学生と先生が病院で話しています。学生はこのあと何をしますか。（108）",
+        "question": "何をしますか。",
         "options": [
-          "10人",
-          "11人",
-          "12人",
-          "13人"
+          "メールする",
+          "書類を出す",
+          "送る",
+          "帰る"
         ],
         "answer": 0,
         "id": "N3-18-081",
@@ -29685,25 +24105,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "講義を聞いています。最も重要なポイントは何ですか。（103）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "8月",
-          "9月",
-          "10月",
-          "11月"
+          "才能の必要性",
+          "品質向上",
+          "チームワーク",
+          "運の要素"
         ],
         "answer": 2,
         "id": "N3-18-082",
@@ -29711,25 +24119,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "解説を聞いています。最も重要なポイントは何ですか。（104）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "9月",
-          "10月",
-          "11月",
-          "12月"
+          "リーダーシップ",
+          "効率化",
+          "チームワーク",
+          "環境の影響"
         ],
         "answer": 1,
         "id": "N3-18-083",
@@ -29737,25 +24133,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "討論を聞いています。最も重要なポイントは何ですか。（105）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "1個",
-          "2個",
-          "3個",
-          "4個"
+          "リーダーシップ",
+          "コミュニケーション",
+          "チームワーク",
+          "運の要素"
         ],
         "answer": 2,
         "id": "N3-18-084",
@@ -29763,25 +24147,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "講演を聞いています。最も重要なポイントは何ですか。（106）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "2個",
-          "3個",
-          "4個",
-          "5個"
+          "リスク低減",
+          "継続の重要性",
+          "品質向上",
+          "人材育成"
         ],
         "answer": 1,
         "id": "N3-18-085",
@@ -29789,25 +24161,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ニュースを聞いています。最も重要なポイントは何ですか。（107）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "3個",
-          "4個",
-          "5個",
-          "6個"
+          "チームワーク",
+          "リスク低減",
+          "才能の必要性",
+          "環境の影響"
         ],
         "answer": 2,
         "id": "N3-18-086",
@@ -29815,25 +24175,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "インタビューを聞いています。最も重要なポイントは何ですか。（108）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "4個",
-          "5個",
-          "6個",
-          "7個"
+          "情報共有",
+          "チームワーク",
+          "リーダーシップ",
+          "環境の影響"
         ],
         "answer": 2,
         "id": "N3-18-087",
@@ -29841,25 +24189,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "プレゼンを聞いています。このプレゼンの主なテーマは何ですか。（52）",
+        "question": "主なテーマは？",
         "options": [
-          "8人",
-          "9人",
-          "10人",
-          "11人"
+          "環境",
+          "経済",
+          "コミュニケーション",
+          "イノベーション"
         ],
         "answer": 1,
         "id": "N3-18-088",
@@ -29867,25 +24203,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ラジオを聞いています。このラジオの主なテーマは何ですか。（53）",
+        "question": "主なテーマは？",
         "options": [
-          "9人",
-          "10人",
-          "11人",
-          "12人"
+          "チームワーク",
+          "コミュニケーション",
+          "教育",
+          "リーダーシップ"
         ],
         "answer": 0,
         "id": "N3-18-089",
@@ -29893,25 +24217,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "会議を聞いています。この会議の主なテーマは何ですか。（54）",
+        "question": "主なテーマは？",
         "options": [
-          "10人",
-          "11人",
-          "12人",
-          "13人"
+          "環境",
+          "経済",
+          "科学",
+          "政治"
         ],
         "answer": 2,
         "id": "N3-18-090",
@@ -29919,25 +24231,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "依頼したいです。何と言いますか。（69）",
+        "question": "何と言いますか。",
         "options": [
-          "なぜですか",
-          "どうしてですか",
-          "何のためですか",
-          "どういう意味ですか"
+          "お願いできますか",
+          "ありがとうございます",
+          "いいえ、違います",
+          "はい、そうです"
         ],
         "answer": 0,
         "id": "N3-18-091",
@@ -29945,25 +24245,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "確認したいです。何と言いますか。（70）",
+        "question": "何と言いますか。",
         "options": [
-          "どうやってですか",
-          "どのようにですか",
-          "やり方を教えて",
-          "方法は"
+          "はい、そうです",
+          "これで合っていますか",
+          "いいえ、違います",
+          "ありがとうございます"
         ],
         "answer": 0,
         "id": "N3-18-092",
@@ -29971,25 +24259,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "誘いに応じたいです。何と言いますか。（71）",
+        "question": "何と言いますか。",
         "options": [
-          "何時からですか",
-          "何時までですか",
-          "何時間ですか",
-          "いつまでですか"
+          "いいえ、違います",
+          "ありがとうございます",
+          "ぜひ行きたいです",
+          "はい、そうです"
         ],
         "answer": 0,
         "id": "N3-18-093",
@@ -29997,25 +24273,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "予約をしたいです。何と言いますか。（72）",
+        "question": "何と言いますか。",
         "options": [
-          "何曜日ですか",
-          "何日ですか",
-          "何月ですか",
-          "何年ですか"
+          "ありがとうございます",
+          "いいえ、違います",
+          "はい、そうです",
+          "予約をお願いします"
         ],
         "answer": 0,
         "id": "N3-18-094",
@@ -30023,25 +24287,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "お仕事、何時までですか。（137）",
+        "question": "返答は？",
         "options": [
-          "3人です",
-          "4人です",
-          "5人です",
-          "6人です"
+          "いいえ、違います",
+          "はい、食べました",
+          "いいえ、行きません",
+          "6時までです"
         ],
         "answer": 0,
         "id": "N3-18-095",
@@ -30049,25 +24301,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "週末、何か予定ありますか。（138）",
+        "question": "返答は？",
         "options": [
-          "4人です",
-          "5人です",
-          "6人です",
-          "7人です"
+          "はい、食べました",
+          "いいえ、行きません",
+          "いいえ、違います",
+          "特にないです"
         ],
         "answer": 0,
         "id": "N3-18-096",
@@ -30075,25 +24315,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "この料理、おいしいですね。（139）",
+        "question": "返答は？",
         "options": [
-          "5人です",
-          "6人です",
-          "7人です",
-          "8人です"
+          "いいえ、違います",
+          "いいえ、行きません",
+          "はい、食べました",
+          "そうですね、おいしい"
         ],
         "answer": 0,
         "id": "N3-18-097",
@@ -30101,25 +24329,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ここで写真撮ってもいいですか。（140）",
+        "question": "返答は？",
         "options": [
-          "6人です",
-          "7人です",
-          "8人です",
-          "9人です"
+          "はい、食べました",
+          "いいえ、違います",
+          "大丈夫ですよ",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-18-098",
@@ -30127,25 +24343,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "すみません、この席、空いていますか。（141）",
+        "question": "返答は？",
         "options": [
-          "7人です",
-          "8人です",
-          "9人です",
-          "10人です"
+          "はい、食べました",
+          "はい、どうぞ",
+          "いいえ、違います",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-18-099",
@@ -30153,25 +24357,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "明日の会議、何時からでしたっけ。（142）",
+        "question": "返答は？",
         "options": [
-          "8人です",
-          "9人です",
-          "10人です",
-          "11人です"
+          "10時からです",
+          "いいえ、行きません",
+          "はい、食べました",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-18-100",
@@ -30179,25 +24371,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "このへん、コンビニありますか。（143）",
+        "question": "返答は？",
         "options": [
-          "9人です",
-          "10人です",
-          "11人です",
-          "12人です"
+          "はい、食べました",
+          "いいえ、行きません",
+          "あの角を曲がると",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-18-101",
@@ -30205,25 +24385,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ちょっと手伝っていただけませんか。（144）",
+        "question": "返答は？",
         "options": [
-          "10人です",
-          "11人です",
-          "12人です",
-          "13人です"
+          "はい、いいですよ",
+          "いいえ、違います",
+          "いいえ、行きません",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-18-102",
@@ -30623,65 +24791,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>名<rt>な</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「手」の用法として正しいのは？（91）",
+        "question": "正しいのは？",
         "options": [
-          "名を挙げる",
-          "名を飲む",
-          "名に住む",
-          "名を走る"
+          "手が足りない",
+          "手が高い",
+          "手が遅い",
+          "手が軽い"
         ],
         "answer": 0,
         "id": "N3-19-031"
       },
       {
         "type": "用法",
-        "text": "「<ruby>身<rt>み</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「目」の用法として正しいのは？（92）",
+        "question": "正しいのは？",
         "options": [
-          "身に付く",
-          "身を食べる",
-          "身に乗る",
-          "身を走る"
+          "目が利く",
+          "目が高い",
+          "目が早い",
+          "目が重い"
         ],
         "answer": 0,
         "id": "N3-19-032"
       },
       {
         "type": "用法",
-        "text": "「<ruby>根<rt>ね</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「足」の用法として正しいのは？（93）",
+        "question": "正しいのは？",
         "options": [
-          "根を詰める",
-          "根を飲む",
-          "根に住む",
-          "根を着る"
+          "足を運ぶ",
+          "足が高い",
+          "足が重い",
+          "足が早い"
         ],
         "answer": 0,
         "id": "N3-19-033"
       },
       {
         "type": "用法",
-        "text": "「<ruby>水<rt>みず</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「頭」の用法として正しいのは？（94）",
+        "question": "正しいのは？",
         "options": [
-          "水に流す",
-          "水を食べる",
-          "水に乗る",
-          "水を走る"
+          "頭が切れる",
+          "頭が高い",
+          "頭が早い",
+          "頭が重い"
         ],
         "answer": 0,
         "id": "N3-19-034"
       },
       {
         "type": "用法",
-        "text": "「<ruby>油<rt>あぶら</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「口」の用法として正しいのは？（95）",
+        "question": "正しいのは？",
         "options": [
-          "油を売る",
-          "油を食べる",
-          "油に乗る",
-          "油を走る"
+          "口が堅い",
+          "口が高い",
+          "口が早い",
+          "口が重い"
         ],
         "answer": 0,
         "id": "N3-19-035"
@@ -30922,65 +25090,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文章の文法",
-        "text": "彼女は忙しい（　）時間を作って会ってくれました。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "日本経済は長期にわたる停滞（　）、回復の兆しを見せ始めている。（91）",
+        "question": "（　）に入るのは？",
         "options": [
-          "なか",
-          "中",
-          "中で",
-          "のなか"
+          "を経て",
+          "をもって",
+          "に至り",
+          "に反して"
         ],
         "answer": 3,
         "id": "N3-19-054"
       },
       {
         "type": "文章の文法",
-        "text": "彼は努力家（　）、いつも成功しています。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の提案は斬新（　）、実現可能性に欠けるという批判もある。（92）",
+        "question": "（　）に入るのは？",
         "options": [
-          "だけあって",
-          "だけに",
-          "なだけに",
-          "であるだけに"
+          "ではあるが",
+          "であるから",
+          "なので",
+          "だとしても"
         ],
         "answer": 0,
         "id": "N3-19-055"
       },
       {
         "type": "文章の文法",
-        "text": "この問題は難しい（　）、解けないことはありません。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "環境問題の解決（　）、国際的な協力が不可欠である。（93）",
+        "question": "（　）に入るのは？",
         "options": [
-          "といっても",
-          "にしても",
-          "としても",
-          "にせよ"
+          "には",
+          "にとって",
+          "において",
+          "に際して"
         ],
         "answer": 3,
         "id": "N3-19-056"
       },
       {
         "type": "文章の文法",
-        "text": "彼女は歌手として（　）、女優としても活躍しています。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "この研究は長年の努力（　）結実したものである。（94）",
+        "question": "（　）に入るのは？",
         "options": [
-          "だけでなく",
-          "ばかりでなく",
-          "のみならず",
-          "はもちろん"
+          "が",
+          "の",
+          "を",
+          "に"
         ],
         "answer": 0,
         "id": "N3-19-057"
       },
       {
         "type": "文章の文法",
-        "text": "日本に来て以来、一度（　）国に帰っていません。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "社会の変化（　）、教育制度も見直しが求められている。（95）",
+        "question": "（　）に入るのは？",
         "options": [
-          "も",
-          "は",
-          "しか",
-          "だけ"
+          "に伴い",
+          "に関して",
+          "によると",
+          "に対して"
         ],
         "answer": 3,
         "id": "N3-19-058"
@@ -31208,25 +25376,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "先生と上司が銀行で話しています。先生はこのあと何をしますか。（109）",
+        "question": "何をしますか。",
         "options": [
-          "9人",
-          "10人",
-          "11人",
-          "12人"
+          "報告する",
+          "予約する",
+          "書類を出す",
+          "片付ける"
         ],
         "answer": 2,
         "id": "N3-19-076",
@@ -31234,25 +25390,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "上司と部下が役所で話しています。上司はこのあと何をしますか。（110）",
+        "question": "何をしますか。",
         "options": [
-          "8人",
-          "9人",
-          "10人",
-          "11人"
+          "片付ける",
+          "確認する",
+          "電話する",
+          "帰る"
         ],
         "answer": 0,
         "id": "N3-19-077",
@@ -31260,25 +25404,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "部下と店員が店で話しています。部下はこのあと何をしますか。（111）",
+        "question": "何をしますか。",
         "options": [
-          "7人",
-          "8人",
-          "9人",
-          "10人"
+          "メールする",
+          "片付ける",
+          "確認する",
+          "報告する"
         ],
         "answer": 0,
         "id": "N3-19-078",
@@ -31286,25 +25418,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "店員と客がレストランで話しています。店員はこのあと何をしますか。（112）",
+        "question": "何をしますか。",
         "options": [
-          "6人",
-          "7人",
-          "8人",
-          "9人"
+          "確認する",
+          "買う",
+          "相談する",
+          "帰る"
         ],
         "answer": 0,
         "id": "N3-19-079",
@@ -31312,25 +25432,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "客と医者がホテルで話しています。客はこのあと何をしますか。（113）",
+        "question": "何をしますか。",
         "options": [
-          "5人",
-          "6人",
-          "7人",
-          "8人"
+          "予約する",
+          "報告する",
+          "調べる",
+          "片付ける"
         ],
         "answer": 0,
         "id": "N3-19-080",
@@ -31338,25 +25446,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "医者と患者が駅で話しています。医者はこのあと何をしますか。（114）",
+        "question": "何をしますか。",
         "options": [
-          "4人",
-          "5人",
-          "6人",
-          "7人"
+          "報告する",
+          "準備する",
+          "書類を出す",
+          "相談する"
         ],
         "answer": 2,
         "id": "N3-19-081",
@@ -31364,25 +25460,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "説明を聞いています。最も重要なポイントは何ですか。（109）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "5個",
-          "6個",
-          "7個",
-          "8個"
+          "リーダーシップ",
+          "コミュニケーション",
+          "時間管理",
+          "運の要素"
         ],
         "answer": 1,
         "id": "N3-19-082",
@@ -31390,25 +25474,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "会議を聞いています。最も重要なポイントは何ですか。（110）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "6個",
-          "7個",
-          "8個",
-          "9個"
+          "環境の影響",
+          "品質向上",
+          "効率化",
+          "リーダーシップ"
         ],
         "answer": 2,
         "id": "N3-19-083",
@@ -31416,25 +25488,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "プレゼンを聞いています。最も重要なポイントは何ですか。（111）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "7個",
-          "8個",
-          "9個",
-          "10個"
+          "時間管理",
+          "コスト削減",
+          "情報共有",
+          "リーダーシップ"
         ],
         "answer": 1,
         "id": "N3-19-084",
@@ -31442,25 +25502,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "授業を聞いています。最も重要なポイントは何ですか。（112）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "8個",
-          "9個",
-          "10個",
-          "11個"
+          "チームワーク",
+          "情報共有",
+          "品質向上",
+          "リスク低減"
         ],
         "answer": 2,
         "id": "N3-19-085",
@@ -31468,25 +25516,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ラジオを聞いています。最も重要なポイントは何ですか。（113）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "9個",
-          "10個",
-          "11個",
-          "12個"
+          "顧客満足",
+          "人材育成",
+          "継続の重要性",
+          "運の要素"
         ],
         "answer": 2,
         "id": "N3-19-086",
@@ -31494,25 +25530,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "案内を聞いています。最も重要なポイントは何ですか。（114）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "10個",
-          "11個",
-          "12個",
-          "13個"
+          "運の要素",
+          "顧客満足",
+          "品質向上",
+          "コミュニケーション"
         ],
         "answer": 1,
         "id": "N3-19-087",
@@ -31520,25 +25544,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "授業を聞いています。この授業の主なテーマは何ですか。（55）",
+        "question": "主なテーマは？",
         "options": [
-          "11人",
-          "12人",
-          "13人",
-          "14人"
+          "コミュニケーション",
+          "科学",
+          "スポーツ",
+          "経済"
         ],
         "answer": 1,
         "id": "N3-19-088",
@@ -31546,25 +25558,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "スピーチを聞いています。このスピーチの主なテーマは何ですか。（56）",
+        "question": "主なテーマは？",
         "options": [
-          "12人",
-          "13人",
-          "14人",
-          "15人"
+          "社会",
+          "政治",
+          "イノベーション",
+          "芸術"
         ],
         "answer": 0,
         "id": "N3-19-089",
@@ -31572,25 +25572,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "対談を聞いています。この対談の主なテーマは何ですか。（57）",
+        "question": "主なテーマは？",
         "options": [
-          "13人",
-          "14人",
-          "15人",
-          "16人"
+          "文化",
+          "社会",
+          "スポーツ",
+          "技術"
         ],
         "answer": 2,
         "id": "N3-19-090",
@@ -31598,25 +25586,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "注文をしたいです。何と言いますか。（73）",
+        "question": "何と言いますか。",
         "options": [
-          "どこにありますか",
-          "どこで買えますか",
-          "どこで食べられますか",
-          "どこへ行きますか"
+          "ありがとうございます",
+          "これをお願いします",
+          "はい、そうです",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-19-091",
@@ -31624,25 +25600,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "質問したいです。何と言いますか。（74）",
+        "question": "何と言いますか。",
         "options": [
-          "誰が来ますか",
-          "誰と行きますか",
-          "誰に会いますか",
-          "誰が担当ですか"
+          "はい、そうです",
+          "ちょっとお聞きしたいのですが",
+          "ありがとうございます",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-19-092",
@@ -31650,25 +25614,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "説明を求めたいです。何と言いますか。（75）",
+        "question": "何と言いますか。",
         "options": [
-          "何を食べますか",
-          "何を飲みますか",
-          "何を注文しますか",
-          "何がおすすめですか"
+          "ありがとうございます",
+          "はい、そうです",
+          "もう少し詳しく教えていただけますか",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-19-093",
@@ -31676,25 +25628,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "友達に映画に誘いたいです。何と言いますか。（76）",
+        "question": "何と言いますか。",
         "options": [
-          "空いていますか",
-          "予約できますか",
-          "席はありますか",
-          "部屋はありますか"
+          "いいえ、違います",
+          "はい、そうです",
+          "今度映画見に行かない？",
+          "ありがとうございます"
         ],
         "answer": 0,
         "id": "N3-19-094",
@@ -31702,25 +25642,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "この書類、どこに提出すればいいですか。（145）",
+        "question": "返答は？",
         "options": [
-          "1回です",
-          "2回です",
-          "3回です",
-          "4回です"
+          "総務部です",
+          "いいえ、違います",
+          "はい、食べました",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-19-095",
@@ -31728,25 +25656,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "お名前、お願いできますか。（146）",
+        "question": "返答は？",
         "options": [
-          "2回です",
-          "3回です",
-          "4回です",
-          "5回です"
+          "はい、食べました",
+          "いいえ、違います",
+          "いいえ、行きません",
+          "田中と申します"
         ],
         "answer": 0,
         "id": "N3-19-096",
@@ -31754,25 +25670,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "駅まで、どのくらいかかりますか。（147）",
+        "question": "返答は？",
         "options": [
-          "3回です",
-          "4回です",
-          "5回です",
-          "6回です"
+          "いいえ、行きません",
+          "歩いて10分くらい",
+          "いいえ、違います",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-19-097",
@@ -31780,25 +25684,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "このパソコン、使ってもいいですか。（148）",
+        "question": "返答は？",
         "options": [
-          "4回です",
-          "5回です",
-          "6回です",
-          "7回です"
+          "いいえ、行きません",
+          "どうぞ",
+          "いいえ、違います",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-19-098",
@@ -31806,25 +25698,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "コーヒー、もう一杯いかがですか。（149）",
+        "question": "返答は？",
         "options": [
-          "5回です",
-          "6回です",
-          "7回です",
-          "8回です"
+          "いいえ、違います",
+          "いいえ、行きません",
+          "はい、食べました",
+          "いただきます"
         ],
         "answer": 0,
         "id": "N3-19-099",
@@ -31832,25 +25712,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "昨日のパーティー、楽しかったですね。（150）",
+        "question": "返答は？",
         "options": [
-          "6回です",
-          "7回です",
-          "8回です",
-          "9回です"
+          "本当に楽しかった",
+          "いいえ、違います",
+          "いいえ、行きません",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-19-100",
@@ -31858,25 +25726,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "この辺に郵便局はありますか。（151）",
+        "question": "返答は？",
         "options": [
-          "7回です",
-          "8回です",
-          "9回です",
-          "10回です"
+          "この先にあります",
+          "いいえ、行きません",
+          "はい、食べました",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-19-101",
@@ -31884,25 +25740,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ちょっとお時間よろしいですか。（152）",
+        "question": "返答は？",
         "options": [
-          "8回です",
-          "9回です",
-          "10回です",
-          "11回です"
+          "いいえ、行きません",
+          "はい、大丈夫です",
+          "いいえ、違います",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-19-102",
@@ -32302,65 +26146,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>風<rt>かぜ</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「耳」の用法として正しいのは？（96）",
+        "question": "正しいのは？",
         "options": [
-          "風を切る",
-          "風を飲む",
-          "風に住む",
-          "風を着る"
+          "耳が痛い",
+          "耳が高い",
+          "耳が早い",
+          "耳が重い"
         ],
         "answer": 0,
         "id": "N3-20-031"
       },
       {
         "type": "用法",
-        "text": "「<ruby>火<rt>ひ</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「顔」の用法として正しいのは？（97）",
+        "question": "正しいのは？",
         "options": [
-          "火を付ける",
-          "火を食べる",
-          "火に乗る",
-          "火を走る"
+          "顔が広い",
+          "顔が高い",
+          "顔が早い",
+          "顔が重い"
         ],
         "answer": 0,
         "id": "N3-20-032"
       },
       {
         "type": "用法",
-        "text": "「<ruby>石<rt>いし</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「腕」の用法として正しいのは？（98）",
+        "question": "正しいのは？",
         "options": [
-          "石橋を叩く",
-          "石を飲む",
-          "石に住む",
-          "石を着る"
+          "腕を磨く",
+          "腕が高い",
+          "腕が早い",
+          "腕が重い"
         ],
         "answer": 0,
         "id": "N3-20-033"
       },
       {
         "type": "用法",
-        "text": "「<ruby>波<rt>なみ</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「肩」の用法として正しいのは？（99）",
+        "question": "正しいのは？",
         "options": [
-          "波に乗る",
-          "波を食べる",
-          "波に住む",
-          "波を走る"
+          "肩の荷が下りる",
+          "肩が高い",
+          "肩が早い",
+          "肩が重い"
         ],
         "answer": 0,
         "id": "N3-20-034"
       },
       {
         "type": "用法",
-        "text": "「<ruby>花<rt>はな</rt></ruby>」の使い方",
-        "question": "<ruby>正しい<rt>ただしい</rt></ruby>のは？",
+        "text": "「腰」の用法として正しいのは？（100）",
+        "question": "正しいのは？",
         "options": [
-          "花を咲かせる",
-          "花を飲む",
-          "花に住む",
-          "花を走る"
+          "腰が重い",
+          "腰が高い",
+          "腰が早い",
+          "腰が軽い"
         ],
         "answer": 0,
         "id": "N3-20-035"
@@ -32601,65 +26445,65 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "文章の文法",
-        "text": "彼は約束を破った（　）、謝罪しませんでした。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼女は困難（　）乗り越え、目標を達成した。（96）",
+        "question": "（　）に入るのは？",
         "options": [
-          "うえに",
-          "ほかに",
-          "だけでなく",
-          "ばかりか"
+          "を",
+          "に",
+          "で",
+          "から"
         ],
         "answer": 0,
         "id": "N3-20-054"
       },
       {
         "type": "文章の文法",
-        "text": "<ruby>日本語<rt>にほんご</rt></ruby>の勉強を始めて3<ruby>年<rt>とし</rt></ruby>になります。<ruby>最初<rt>さいしょ</rt></ruby>は<ruby>全然<rt>ぜんぜん</rt></ruby><ruby>話<rt>はなし</rt></ruby>せませんでしたが、<ruby>今<rt>いま</rt></ruby>では<ruby>日常<rt>にちじょう</rt></ruby><ruby>会話<rt>かいわ</rt></ruby>（　）できるようになりました。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "専門家（　）意見を聞く必要がある。（97）",
+        "question": "（　）に入るのは？",
         "options": [
-          "〜なしに",
-          "〜なしには",
-          "〜なくして",
-          "〜ぬきにして"
+          "の",
+          "から",
+          "による",
+          "への"
         ],
         "answer": 3,
         "id": "N3-20-055"
       },
       {
         "type": "文章の文法",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>優秀<rt>ゆうしゅう</rt></ruby>な<ruby>学生<rt>がくせい</rt></ruby>です。<ruby>試験<rt>しけん</rt></ruby>でいつも<ruby>高い<rt>たかい</rt></ruby><ruby>点数<rt>てんすう</rt></ruby>を（　）。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "技術の進歩（　）、生活は大きく変わった。（98）",
+        "question": "（　）に入るのは？",
         "options": [
-          "〜ごとき",
-          "〜ような",
-          "〜みたいな",
-          "〜なんかの"
+          "により",
+          "にとって",
+          "に関して",
+          "に対して"
         ],
         "answer": 0,
         "id": "N3-20-056"
       },
       {
         "type": "文章の文法",
-        "text": "<ruby>日本語<rt>にほんご</rt></ruby>の勉強を始めて3<ruby>年<rt>とし</rt></ruby>になります。<ruby>最初<rt>さいしょ</rt></ruby>は<ruby>全然<rt>ぜんぜん</rt></ruby><ruby>話<rt>はなし</rt></ruby>せませんでしたが、<ruby>今<rt>いま</rt></ruby>では<ruby>日常<rt>にちじょう</rt></ruby><ruby>会話<rt>かいわ</rt></ruby>（　）できるようになりました。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "彼の行動は法律（　）許されるものではない。（99）",
+        "question": "（　）に入るのは？",
         "options": [
-          "〜てやまない",
-          "〜てたまらない",
-          "〜てしかたがない",
-          "〜てならない"
+          "上",
+          "的に",
+          "において",
+          "としても"
         ],
         "answer": 3,
         "id": "N3-20-057"
       },
       {
         "type": "文章の文法",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>優秀<rt>ゆうしゅう</rt></ruby>な<ruby>学生<rt>がくせい</rt></ruby>です。<ruby>試験<rt>しけん</rt></ruby>でいつも<ruby>高い<rt>たかい</rt></ruby><ruby>点数<rt>てんすう</rt></ruby>を（　）。",
-        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "text": "予算の制約（　）実現が困難だ。（100）",
+        "question": "（　）に入るのは？",
         "options": [
-          "なら",
-          "しか",
-          "だけ",
-          "ぐらい"
+          "から",
+          "ゆえに",
+          "として",
+          "にして"
         ],
         "answer": 0,
         "id": "N3-20-058"
@@ -32887,25 +26731,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "患者と受付が空港で話しています。患者はこのあと何をしますか。（115）",
+        "question": "何をしますか。",
         "options": [
-          "3人",
-          "4人",
-          "5人",
-          "6人"
+          "片付ける",
+          "確認する",
+          "待つ",
+          "帰る"
         ],
         "answer": 0,
         "id": "N3-20-076",
@@ -32913,25 +26745,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "受付と係員が図書館で話しています。受付はこのあと何をしますか。（116）",
+        "question": "何をしますか。",
         "options": [
-          "2人",
-          "3人",
-          "4人",
-          "5人"
+          "送る",
+          "相談する",
+          "書類を出す",
+          "待つ"
         ],
         "answer": 0,
         "id": "N3-20-077",
@@ -32939,25 +26759,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "係員とスタッフが郵便局で話しています。係員はこのあと何をしますか。（117）",
+        "question": "何をしますか。",
         "options": [
-          "1人",
-          "2人",
-          "3人",
-          "4人"
+          "予約する",
+          "調べる",
+          "行く",
+          "電話する"
         ],
         "answer": 0,
         "id": "N3-20-078",
@@ -32965,25 +26773,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "スタッフと友人が美容院で話しています。スタッフはこのあと何をしますか。（118）",
+        "question": "何をしますか。",
         "options": [
-          "20個",
-          "21個",
-          "22個",
-          "23個"
+          "メールする",
+          "予約する",
+          "帰る",
+          "確認する"
         ],
         "answer": 0,
         "id": "N3-20-079",
@@ -32991,25 +26787,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "友人と同僚がジムで話しています。友人はこのあと何をしますか。（119）",
+        "question": "何をしますか。",
         "options": [
-          "19個",
-          "20個",
-          "21個",
-          "22個"
+          "買う",
+          "電話する",
+          "相談する",
+          "待つ"
         ],
         "answer": 2,
         "id": "N3-20-080",
@@ -33017,25 +26801,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（課題理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "同僚と男の人がカフェで話しています。同僚はこのあと何をしますか。（120）",
+        "question": "何をしますか。",
         "options": [
-          "18個",
-          "19個",
-          "20個",
-          "21個"
+          "報告する",
+          "送る",
+          "電話する",
+          "予約する"
         ],
         "answer": 0,
         "id": "N3-20-081",
@@ -33043,25 +26815,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "スピーチを聞いています。最も重要なポイントは何ですか。（115）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "11個",
-          "12個",
-          "13個",
-          "14個"
+          "人材育成",
+          "リスク低減",
+          "リーダーシップ",
+          "運の要素"
         ],
         "answer": 2,
         "id": "N3-20-082",
@@ -33069,25 +26829,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "報告を聞いています。最も重要なポイントは何ですか。（116）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "12個",
-          "13個",
-          "14個",
-          "15個"
+          "継続の重要性",
+          "時間管理",
+          "品質向上",
+          "コミュニケーション"
         ],
         "answer": 1,
         "id": "N3-20-083",
@@ -33095,25 +26843,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "対談を聞いています。最も重要なポイントは何ですか。（117）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "13個",
-          "14個",
-          "15個",
-          "16個"
+          "才能の必要性",
+          "情報共有",
+          "顧客満足",
+          "リーダーシップ"
         ],
         "answer": 2,
         "id": "N3-20-084",
@@ -33121,25 +26857,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "講義を聞いています。最も重要なポイントは何ですか。（118）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "14個",
-          "15個",
-          "16個",
-          "17個"
+          "チームワーク",
+          "才能の必要性",
+          "継続の重要性",
+          "時間管理"
         ],
         "answer": 2,
         "id": "N3-20-085",
@@ -33147,25 +26871,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "解説を聞いています。最も重要なポイントは何ですか。（119）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "15個",
-          "16個",
-          "17個",
-          "18個"
+          "継続の重要性",
+          "コスト削減",
+          "リーダーシップ",
+          "才能の必要性"
         ],
         "answer": 1,
         "id": "N3-20-086",
@@ -33173,25 +26885,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "討論を聞いています。最も重要なポイントは何ですか。（120）",
+        "question": "最も重要なポイントは？",
         "options": [
-          "16個",
-          "17個",
-          "18個",
-          "19個"
+          "コスト削減",
+          "コミュニケーション",
+          "リーダーシップ",
+          "人材育成"
         ],
         "answer": 2,
         "id": "N3-20-087",
@@ -33199,25 +26899,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "解説を聞いています。この解説の主なテーマは何ですか。（58）",
+        "question": "主なテーマは？",
         "options": [
-          "14人",
-          "15人",
-          "16人",
-          "17人"
+          "技術",
+          "社会",
+          "環境",
+          "経済"
         ],
         "answer": 1,
         "id": "N3-20-088",
@@ -33225,25 +26913,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ドキュメンタリーを聞いています。このドキュメンタリーの主なテーマは何ですか。（59）",
+        "question": "主なテーマは？",
         "options": [
-          "15人",
-          "16人",
-          "17人",
-          "18人"
+          "コミュニケーション",
+          "スポーツ",
+          "健康",
+          "歴史"
         ],
         "answer": 0,
         "id": "N3-20-089",
@@ -33251,25 +26927,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（概要理解）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "セミナーを聞いています。このセミナーの主なテーマは何ですか。（60）",
+        "question": "主なテーマは？",
         "options": [
-          "16人",
-          "17人",
-          "18人",
-          "19人"
+          "政治",
+          "リーダーシップ",
+          "科学",
+          "文化"
         ],
         "answer": 2,
         "id": "N3-20-090",
@@ -33277,25 +26941,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "店員に試着したいと伝えるです。何と言いますか。（77）",
+        "question": "何と言いますか。",
         "options": [
-          "大丈夫ですか",
-          "平気ですか",
-          "問題ないですか",
-          "よろしいですか"
+          "いいえ、違います",
+          "ありがとうございます",
+          "これ、試着できますか",
+          "はい、そうです"
         ],
         "answer": 0,
         "id": "N3-20-091",
@@ -33303,25 +26955,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "道を聞きたいです。何と言いますか。（78）",
+        "question": "何と言いますか。",
         "options": [
-          "本当ですか",
-          "確かですか",
-          "間違いないですか",
-          "正しいですか"
+          "すみません、駅はどこですか",
+          "はい、そうです",
+          "いいえ、違います",
+          "ありがとうございます"
         ],
         "answer": 0,
         "id": "N3-20-092",
@@ -33329,25 +26969,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "お礼を言いたいです。何と言いますか。（79）",
+        "question": "何と言いますか。",
         "options": [
-          "分かりましたか",
-          "聞こえましたか",
-          "見えましたか",
-          "届きましたか"
+          "ありがとうございます",
+          "本当にありがとうございます",
+          "いいえ、違います",
+          "はい、そうです"
         ],
         "answer": 0,
         "id": "N3-20-093",
@@ -33355,25 +26983,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "謝りたいです。何と言いますか。（80）",
+        "question": "何と言いますか。",
         "options": [
-          "もう終わりましたか",
-          "もう始まりましたか",
-          "まだですか",
-          "準備できましたか"
+          "ありがとうございます",
+          "いいえ、違います",
+          "申し訳ありませんでした",
+          "はい、そうです"
         ],
         "answer": 0,
         "id": "N3-20-094",
@@ -33381,25 +26997,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "傘、お持ちですか。（153）",
+        "question": "返答は？",
         "options": [
-          "9回です",
-          "10回です",
-          "11回です",
-          "12回です"
+          "いいえ、違います",
+          "はい、食べました",
+          "いいえ、忘れました",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-20-095",
@@ -33407,25 +27011,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "このあたり、静かでいいですね。（154）",
+        "question": "返答は？",
         "options": [
-          "10回です",
-          "11回です",
-          "12回です",
-          "13回です"
+          "いいえ、違います",
+          "はい、食べました",
+          "そうですね",
+          "いいえ、行きません"
         ],
         "answer": 0,
         "id": "N3-20-096",
@@ -33433,25 +27025,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "お荷物、お持ちしましょうか。（155）",
+        "question": "返答は？",
         "options": [
-          "はい",
-          "いいえ",
-          "はい、そうです",
-          "いいえ、違います"
+          "いいえ、違います",
+          "いいえ、行きません",
+          "ありがとうございます",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-20-097",
@@ -33459,25 +27039,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "今日は暑いですね。（156）",
+        "question": "返答は？",
         "options": [
-          "そうです",
-          "違います",
-          "そうかもしれません",
-          "分かりません"
+          "本当ですね",
+          "いいえ、行きません",
+          "いいえ、違います",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-20-098",
@@ -33485,25 +27053,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "お仕事、何時までですか。（157）",
+        "question": "返答は？",
         "options": [
-          "分かりました",
-          "分かりません",
-          "了解です",
-          "承知しました"
+          "いいえ、行きません",
+          "はい、食べました",
+          "6時までです",
+          "いいえ、違います"
         ],
         "answer": 0,
         "id": "N3-20-099",
@@ -33511,25 +27067,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "週末、何か予定ありますか。（158）",
+        "question": "返答は？",
         "options": [
-          "いいです",
-          "だめです",
-          "大丈夫です",
-          "無理です"
+          "いいえ、行きません",
+          "はい、食べました",
+          "いいえ、違います",
+          "特にないです"
         ],
         "answer": 0,
         "id": "N3-20-100",
@@ -33537,25 +27081,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "この料理、おいしいですね。（159）",
+        "question": "返答は？",
         "options": [
-          "あります",
-          "ありません",
-          "あるかもしれません",
-          "分かりません"
+          "いいえ、行きません",
+          "いいえ、違います",
+          "そうですね、おいしい",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-20-101",
@@ -33563,25 +27095,13 @@ MOCK_DATA['N3'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": {
-          "ja": "🔊 音声を聞いて答えてください",
-          "en": "🔊 Listen and answer",
-          "zh-TW": "🔊 請聽錄音並回答",
-          "zh-CN": "🔊 请听录音并回答",
-          "ko": "🔊 음성을 듣고 답하세요",
-          "vi": "🔊 Nghe và trả lời",
-          "id": "🔊 Dengarkan dan jawab",
-          "th": "🔊 ฟังและตอบ",
-          "es": "🔊 Escucha y responde",
-          "pt": "🔊 Ouça e responda",
-          "fr": "🔊 Écoutez et répondez"
-        },
-        "question": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "text": "ここで写真撮ってもいいですか。（160）",
+        "question": "返答は？",
         "options": [
-          "います",
-          "いません",
-          "いるかもしれません",
-          "分かりません"
+          "いいえ、違います",
+          "いいえ、行きません",
+          "大丈夫ですよ",
+          "はい、食べました"
         ],
         "answer": 0,
         "id": "N3-20-102",
