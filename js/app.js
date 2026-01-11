@@ -2520,7 +2520,7 @@ document.querySelectorAll('.level-select-btn').forEach(btn => {
   btn.onclick = function() {
     const level = this.dataset.level;
     if (!canAccessLevel(level)) {
-      const requiredPlan = (level === 'N2' || level === 'N1') ? 'Ultimate' : 'Basic';
+      const requiredPlan = (level === 'N2' || level === 'N1') ? 'Premium' : 'Basic';
       showUpgradeModal('level', requiredPlan);
       return;
     }
@@ -2536,7 +2536,7 @@ document.querySelectorAll('.level-btn').forEach(btn => {
   btn.onclick = function() {
     const level = this.dataset.level;
     if (!canAccessLevel(level)) {
-      const requiredPlan = (level === 'N2' || level === 'N1') ? 'Ultimate' : 'Basic';
+      const requiredPlan = (level === 'N2' || level === 'N1') ? 'Premium' : 'Basic';
       showUpgradeModal('level', requiredPlan);
       return;
     }
@@ -5849,32 +5849,27 @@ function checkPlanFromURL() {
       state.billing = billing || 'annual'; // デフォルトは年払い
       state.stripeSessionId = sessionId || null;
       
-      // Check if this is an actual subscription (not trial start)
-      // If session_id exists and status=success, this is a real payment
-      const isRealPayment = sessionId && status === 'success';
+      // Always start with 7-day trial (Stripe handles trial_period_days)
+      // After trial ends, Stripe charges automatically
+      const trialDays = state.referredBy ? 30 : 7;
+      const trialEnd = new Date();
+      trialEnd.setDate(trialEnd.getDate() + trialDays);
       
-      if (isRealPayment) {
-        // Real payment - no longer trialing
-        state.isTrialing = false;
-        // Set plan expiry based on billing cycle
-        const planExpiry = new Date();
-        if (billing === 'monthly') {
-          planExpiry.setMonth(planExpiry.getMonth() + 1);
-        } else {
-          planExpiry.setFullYear(planExpiry.getFullYear() + 1);
-        }
-        state.planExpiry = planExpiry.toISOString();
-        
-        // Reward referrer if applicable
-        checkAndRewardReferrer();
+      state.isTrialing = true;
+      state.trialEndDate = trialEnd.toISOString();
+      state.planStartDate = new Date().toISOString();
+      
+      // Set planExpiry based on billing cycle (actual subscription period)
+      const planExpiry = new Date();
+      if (billing === 'monthly') {
+        planExpiry.setMonth(planExpiry.getMonth() + 1);
       } else {
-        // Trial start - 7 days (or 30 if referred)
-        const trialDays = state.referredBy ? 30 : 7;
-        const trialExpiry = new Date();
-        trialExpiry.setDate(trialExpiry.getDate() + trialDays);
-        state.planExpiry = trialExpiry.toISOString();
-        state.isTrialing = true;
+        planExpiry.setFullYear(planExpiry.getFullYear() + 1);
       }
+      state.planExpiry = planExpiry.toISOString();
+      
+      // Reward referrer if applicable
+      checkAndRewardReferrer();
       
       saveState();
       
@@ -5888,6 +5883,13 @@ function checkPlanFromURL() {
       const billingText = billing === 'monthly' ? texts.billing_monthly : texts.billing_annual;
       
       let message = texts.trial_welcome || '🎉 Welcome! Your 7-day free trial of {plan} ({billing}) plan has started. All features are unlocked!';
+      message = message.replace('{plan}', planName).replace('{billing}', billingText);
+      
+      setTimeout(() => {
+        alert(message);
+      }, 500);
+      
+      console.log('Trial started:', { plan, billing, sessionId, trialDays, trialEndDate: state.trialEndDate });
       message = message.replace('{plan}', planName).replace('{billing}', billingText);
       
       setTimeout(() => {
@@ -5937,16 +5939,27 @@ function isInTrialPeriod() {
   const now = new Date();
   const expiry = new Date(state.planExpiry);
   
-  // If isTrialing flag is set, use it
+  // Method 1: Check trialEndDate if available
+  if (state.trialEndDate) {
+    const trialEnd = new Date(state.trialEndDate);
+    if (now < trialEnd) return true;
+  }
+  
+  // Method 2: If isTrialing flag is set, use it
   if (state.isTrialing === true && now < expiry) return true;
   
-  // Also check if within 7 days of planExpiry being set
-  // (planExpiry is set to 7 days from signup for trial, or 1 year for annual)
-  // If planExpiry is less than 8 days away, user is likely in trial
+  // Method 3: Check planStartDate + 7 days
+  if (state.planStartDate) {
+    const planStart = new Date(state.planStartDate);
+    const trialEnd = new Date(planStart.getTime() + 7 * 24 * 60 * 60 * 1000);
+    if (now < trialEnd) return true;
+  }
+  
+  // Method 4: Fallback for monthly plans (expiry is ~30 days, so check if within first 7 days)
+  // For annual plans, this won't work since expiry is 365 days away
   const daysUntilExpiry = (expiry - now) / (1000 * 60 * 60 * 24);
   
-  // Trial detection: if expiry is 7 days or less AND plan exists
-  // This catches trial users even if isTrialing wasn't set properly
+  // If expiry is 7 days or less (trial-only period)
   if (state.plan && daysUntilExpiry > 0 && daysUntilExpiry <= 7) {
     return true;
   }
@@ -6000,7 +6013,7 @@ function showUpgradeModal(feature, requiredPlan) {
   const messages = {
     'level': `${requiredPlan} plan required to access this level.`,
     'mock': 'Pro plan required for Mock Tests.',
-    'ai': 'Ultimate plan required for AI Tutor.',
+    'ai': 'Premium plan required for AI Tutor.',
     'prediction': 'Pro plan required for Pass Prediction.'
   };
   alert(messages[feature] || 'Upgrade required for this feature.');
@@ -6158,7 +6171,7 @@ function sendAIMessage() {
 
 async function askAI(question) {
   if (!canUseAITutor()) {
-    showUpgradeModal('ai', 'Ultimate');
+    showUpgradeModal('ai', 'Premium');
     return;
   }
   
@@ -7133,7 +7146,7 @@ if (!fromLogin) {
       // Swipe left -> next tab
       const nextScreen = screens[currentIndex + 1];
       if (nextScreen === 'ai' && !canUseAITutor()) {
-        showUpgradeModal('ai', 'Ultimate');
+        showUpgradeModal('ai', 'Premium');
         return;
       }
       showScreen(nextScreen);
@@ -8442,3 +8455,56 @@ window.selectLevel = function(level) {
 };
 
 console.log('Fujisan.AI v' + APP_VERSION + ' loaded (lazy loading enabled)');
+
+// ========== DEBUG: Force Trial Mode ==========
+// Usage: forceTrial() in console
+function forceTrial(days = 7) {
+  const trialEnd = new Date();
+  trialEnd.setDate(trialEnd.getDate() + days);
+  state.trialEndDate = trialEnd.toISOString();
+  state.isTrialing = true;
+  state.planStartDate = new Date().toISOString();
+  saveState();
+  console.log('Trial forced for', days, 'days. Reload page to see effect.');
+  console.log('trialEndDate:', state.trialEndDate);
+}
+
+function endTrial() {
+  state.trialEndDate = null;
+  state.isTrialing = false;
+  state.planStartDate = null;
+  saveState();
+  console.log('Trial ended. Reload page to see effect.');
+}
+
+// ========== DEBUG: Trial Control ==========
+function forceTrial(days = 7) {
+  const trialEnd = new Date();
+  trialEnd.setDate(trialEnd.getDate() + days);
+  state.trialEndDate = trialEnd.toISOString();
+  state.isTrialing = true;
+  state.planStartDate = new Date().toISOString();
+  saveState();
+  console.log('Trial forced for', days, 'days until:', state.trialEndDate);
+  location.reload();
+}
+
+function endTrial() {
+  state.trialEndDate = null;
+  state.isTrialing = false;
+  saveState();
+  console.log('Trial ended.');
+  location.reload();
+}
+
+function checkTrialStatus() {
+  console.log('=== Trial Status ===');
+  console.log('plan:', state.plan);
+  console.log('isTrialing:', state.isTrialing);
+  console.log('trialEndDate:', state.trialEndDate);
+  console.log('planStartDate:', state.planStartDate);
+  console.log('planExpiry:', state.planExpiry);
+  console.log('isInTrialPeriod():', isInTrialPeriod());
+  console.log('canAccessLevel(N1):', canAccessLevel('N1'));
+  console.log('canAccessLevel(N2):', canAccessLevel('N2'));
+}
