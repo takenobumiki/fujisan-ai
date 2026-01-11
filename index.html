@@ -2344,7 +2344,7 @@
                                         <li data-i18n="plan_basic_f4">Daily challenges & XP</li>
                                         <li data-i18n="plan_basic_f5">League competition</li>
                                     </ul>
-                                    <a href="https://buy.stripe.com/dRm3cwbJa72K1a36Ym6g801" class="btn btn-secondary btn-large pricing-cta-btn" style="width:100%;" data-i18n="price_cta">Start 7-Day Free Trial</a>
+                                    <a href="#" onclick="openSignupWithPlan('basic_annual'); return false;" class="btn btn-secondary btn-large pricing-cta-btn" style="width:100%;" data-i18n="price_cta">Start 7-Day Free Trial</a>
                                 </div>
                                 
                                 <!-- Standard Plan -->
@@ -2360,7 +2360,7 @@
                                         <li data-i18n="plan_standard_f4">Full mock tests</li>
                                         <li>AI explains every mistake</li>
                                     </ul>
-                                    <a href="https://buy.stripe.com/eVq4gA14w72KaKD4Qe6g803" class="btn btn-primary btn-large pricing-cta-btn" style="width:100%;" data-i18n="price_cta">Start 7-Day Free Trial</a>
+                                    <a href="#" onclick="openSignupWithPlan('standard_annual'); return false;" class="btn btn-primary btn-large pricing-cta-btn" style="width:100%;" data-i18n="price_cta">Start 7-Day Free Trial</a>
                                 </div>
                                 
                                 <!-- Premium Plan -->
@@ -2376,7 +2376,7 @@
                                         <li data-i18n="plan_premium_f4">⚡ Priority support</li>
                                         <li>🎁 Early access to new features</li>
                                     </ul>
-                                    <a href="https://buy.stripe.com/00w14ofZq72Kg4X6Ym6g805" class="btn btn-secondary btn-large pricing-cta-btn" style="width:100%;" data-i18n="price_cta">Start 7-Day Free Trial</a>
+                                    <a href="#" onclick="openSignupWithPlan('premium_annual'); return false;" class="btn btn-secondary btn-large pricing-cta-btn" style="width:100%;" data-i18n="price_cta">Start 7-Day Free Trial</a>
                                 </div>
                             </div>
                         
@@ -3713,6 +3713,16 @@
         function openModal(type) {
             closeModal();
             document.getElementById(type + 'Modal').classList.add('open');
+        }
+        
+        function openSignupWithPlan(planValue) {
+            openModal('signup');
+            // プランを選択状態にする
+            const planSelect = document.getElementById('planSelect');
+            if (planSelect) {
+                planSelect.value = planValue;
+                updateSelectedPlan();
+            }
         }
         
         function closeModal() {
