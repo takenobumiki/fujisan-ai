@@ -173,7 +173,7 @@ const UI_TEXTS = {
     pass_photo: 'Certificate Photo (optional)', pass_upload: 'Click to upload your certificate',
     pass_submit: 'Submit Report',
     // Common
-    upgrade: 'Fazer Upgrade', upgrade_premium: 'Upgrade to Premium',
+    upgrade: 'Upgrade', upgrade_premium: 'Upgrade to Premium',
     // LP - Methodology Banner
     methodology_label: 'A New Paradigm in Language Learning',
     methodology_headline: 'Instructional Design. SLA Theory. AI.',
@@ -1444,7 +1444,7 @@ const UI_TEXTS = {
     pass_country: 'Negara/Wilayah', pass_message: 'Pesan Anda (akan ditampilkan di website)',
     pass_photo: 'Foto Sertifikat (opsional)', pass_upload: 'Klik untuk upload sertifikat',
     pass_submit: 'Kirim Laporan',
-    upgrade: 'Fazer Upgrade', upgrade_premium: 'Upgrade ke Premium',
+    upgrade: 'Tingkatkan', upgrade_premium: 'Upgrade ke Premium',
     // LP - Bahasa Indonesia
     methodology_label: 'Paradigma Baru dalam Pembelajaran Bahasa',
     methodology_headline: 'Desain Instruksional. Teori SLA. AI.',
