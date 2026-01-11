@@ -87,6 +87,7 @@
       <span class="onboarding-dot" data-step="2"></span>
       <span class="onboarding-dot" data-step="3"></span>
       <span class="onboarding-dot" data-step="4"></span>
+      <span class="onboarding-dot" data-step="5"></span>
     </div>
     
     <!-- Step 1: Welcome -->
@@ -97,83 +98,124 @@
           <path fill="#e6f0f9" d="M12 4L8 10h8L12 4z"/>
         </svg>
       </div>
-      <h1 class="onboarding-title">Welcome to Fujisan.AI</h1>
-      <p class="onboarding-desc">Your AI-powered JLPT tutor. Master Japanese with personalized learning.</p>
+      <h1 class="onboarding-title" data-i18n="onboarding_welcome">Welcome to Fujisan.AI</h1>
+      <p class="onboarding-desc" data-i18n="onboarding_welcome_desc">Your AI-powered JLPT tutor. Master Japanese with personalized learning.</p>
     </div>
     
-    <!-- Step 2: Select Level -->
+    <!-- Step 2: AI Features - Your Personal Tutor -->
     <div class="onboarding-step" data-step="2">
+      <div class="onboarding-icon">
+        <svg viewBox="0 0 24 24" width="72" height="72" fill="none" stroke="#667eea" stroke-width="1.5">
+          <rect x="3" y="11" width="18" height="10" rx="2"/>
+          <circle cx="8.5" cy="15.5" r="1.5" fill="#667eea"/>
+          <circle cx="15.5" cy="15.5" r="1.5" fill="#667eea"/>
+          <path d="M12 2v5M8 4l4 3 4-3"/>
+          <path d="M9 16h6" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <h1 class="onboarding-title" data-i18n="onboarding_ai_title">Meet Your AI Tutor</h1>
+      <p class="onboarding-desc" data-i18n="onboarding_ai_subtitle">Like having a Japanese teacher available 24/7</p>
+      <div class="onboarding-ai-features">
+        <div class="ai-feature-item highlight">
+          <div class="ai-feature-icon"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#ff9500" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12" y2="17.01" stroke-linecap="round"/></svg></div>
+          <div class="ai-feature-content">
+            <strong data-i18n="onboarding_ai_explain">Why? Button</strong>
+            <span data-i18n="onboarding_ai_explain_desc">Don't understand an answer? Tap "Why?" for instant AI explanation in your language</span>
+          </div>
+        </div>
+        <div class="ai-feature-item">
+          <div class="ai-feature-icon"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#007aff" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+          <div class="ai-feature-content">
+            <strong data-i18n="onboarding_ai_chat">Ask AI Anything</strong>
+            <span data-i18n="onboarding_ai_chat_desc">"What's the difference between は and が?" - Just ask!</span>
+          </div>
+        </div>
+        <div class="ai-feature-item">
+          <div class="ai-feature-icon"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#34c759" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+          <div class="ai-feature-content">
+            <strong data-i18n="onboarding_ai_coach">Smart Review</strong>
+            <span data-i18n="onboarding_ai_coach_desc">AI tracks your mistakes and creates personalized review sessions</span>
+          </div>
+        </div>
+      </div>
+      <div class="ai-feature-note" data-i18n="onboarding_ai_note">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" style="display:inline-block;vertical-align:middle;margin-right:6px;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>AI features included free with all plans
+      </div>
+    </div>
+    
+    <!-- Step 3: Select Level -->
+    <div class="onboarding-step" data-step="3">
       <div class="onboarding-icon"><svg viewBox="0 0 24 24" width="64" height="64" fill="none" stroke="#667eea" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div>
-      <h1 class="onboarding-title">What's your goal?</h1>
-      <p class="onboarding-desc">Select your target JLPT level</p>
+      <h1 class="onboarding-title" data-i18n="onboarding_goal">What's your goal?</h1>
+      <p class="onboarding-desc" data-i18n="onboarding_goal_desc">Select your target JLPT level</p>
       <div class="onboarding-levels">
         <button class="onboarding-level-btn" data-level="N5" onclick="selectOnboardingLevel('N5')">
           <span class="level-tag n5">N5</span>
-          <span class="level-name">Beginner</span>
+          <span class="level-name" data-i18n="onboarding_beginner">Beginner</span>
         </button>
         <button class="onboarding-level-btn" data-level="N4" onclick="selectOnboardingLevel('N4')">
           <span class="level-tag n4">N4</span>
-          <span class="level-name">Elementary</span>
+          <span class="level-name" data-i18n="onboarding_elementary">Elementary</span>
         </button>
         <button class="onboarding-level-btn" data-level="N3" onclick="selectOnboardingLevel('N3')">
           <span class="level-tag n3">N3</span>
-          <span class="level-name">Intermediate</span>
+          <span class="level-name" data-i18n="onboarding_intermediate">Intermediate</span>
         </button>
         <button class="onboarding-level-btn" data-level="N2" onclick="selectOnboardingLevel('N2')">
           <span class="level-tag n2">N2</span>
-          <span class="level-name">Advanced</span>
+          <span class="level-name" data-i18n="onboarding_advanced">Advanced</span>
         </button>
         <button class="onboarding-level-btn" data-level="N1" onclick="selectOnboardingLevel('N1')">
           <span class="level-tag n1">N1</span>
-          <span class="level-name">Expert</span>
+          <span class="level-name" data-i18n="onboarding_expert">Expert</span>
         </button>
       </div>
     </div>
     
-    <!-- Step 3: Features -->
-    <div class="onboarding-step" data-step="3">
+    <!-- Step 4: 3 Ways to Learn -->
+    <div class="onboarding-step" data-step="4">
       <div class="onboarding-icon"><svg viewBox="0 0 24 24" width="64" height="64" fill="none" stroke="#667eea" stroke-width="1.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
-      <h1 class="onboarding-title">3 Ways to Learn</h1>
+      <h1 class="onboarding-title" data-i18n="onboarding_features">3 Ways to Learn</h1>
       <div class="onboarding-features">
         <div class="onboarding-feature">
           <div class="feature-icon"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#667eea" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div>
           <div class="feature-text">
-            <strong>Drill</strong>
-            <span>Daily vocabulary, kanji & grammar practice</span>
+            <strong data-i18n="onboarding_drill">Drill</strong>
+            <span data-i18n="onboarding_drill_desc">Daily vocabulary, kanji & grammar practice</span>
           </div>
         </div>
         <div class="onboarding-feature">
           <div class="feature-icon"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#667eea" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
           <div class="feature-text">
-            <strong>Mock Test</strong>
-            <span>Real JLPT format with 20 practice sets</span>
+            <strong data-i18n="onboarding_mock">Mock Test</strong>
+            <span data-i18n="onboarding_mock_desc">Real JLPT format with 20 practice sets</span>
           </div>
         </div>
         <div class="onboarding-feature">
           <div class="feature-icon"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#667eea" stroke-width="2"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="8.5" cy="15.5" r="1.5" fill="#667eea"/><circle cx="15.5" cy="15.5" r="1.5" fill="#667eea"/><path d="M12 2v5M8 4l4 3 4-3"/></svg></div>
           <div class="feature-text">
-            <strong>AI Tutor</strong>
-            <span>Get personalized explanations for mistakes</span>
+            <strong data-i18n="onboarding_ai">AI Tutor</strong>
+            <span data-i18n="onboarding_ai_desc">Get personalized explanations for mistakes</span>
           </div>
         </div>
       </div>
     </div>
     
-    <!-- Step 4: Ready -->
-    <div class="onboarding-step" data-step="4">
+    <!-- Step 5: Ready -->
+    <div class="onboarding-step" data-step="5">
       <div class="onboarding-icon"><svg viewBox="0 0 24 24" width="64" height="64" fill="none" stroke="#667eea" stroke-width="1.5"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg></div>
-      <h1 class="onboarding-title">You're all set!</h1>
-      <p class="onboarding-desc">Start with Unit 1 and let AI guide your journey to JLPT success.</p>
+      <h1 class="onboarding-title" data-i18n="onboarding_ready">You're all set!</h1>
+      <p class="onboarding-desc" data-i18n="onboarding_ready_desc">Start with Unit 1 and let AI guide your journey to JLPT success.</p>
       <div class="onboarding-tip">
-        <strong>💡 Pro Tip:</strong> Complete at least 1 unit daily for best results
+        <strong data-i18n="onboarding_tip"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" style="display:inline-block;vertical-align:middle;margin-right:4px;"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>Pro Tip:</strong> Complete at least 1 unit daily for best results
       </div>
     </div>
     
     <!-- Navigation -->
     <div class="onboarding-nav">
-      <button class="onboarding-skip" onclick="skipOnboarding()">Skip</button>
+      <button class="onboarding-skip" onclick="skipOnboarding()" data-i18n="onboarding_skip">Skip</button>
       <button class="onboarding-next" onclick="nextOnboardingStep()">
-        <span id="onboarding-next-text">Next</span>
+        <span id="onboarding-next-text" data-i18n="onboarding_next">Next</span>
         <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
       </button>
     </div>

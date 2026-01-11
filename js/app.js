@@ -19,9 +19,18 @@ const UI_TEXTS = {
     onboarding_drill: 'Drill', onboarding_drill_desc: 'Daily vocabulary, kanji & grammar practice',
     onboarding_mock: 'Mock Test', onboarding_mock_desc: 'Real JLPT format with 20 practice sets',
     onboarding_ai: 'AI Tutor', onboarding_ai_desc: 'Get personalized explanations for mistakes',
+    onboarding_ai_title: 'Meet Your AI Tutor',
+    onboarding_ai_subtitle: 'Like having a Japanese teacher available 24/7',
+    onboarding_ai_explain: 'Why? Button',
+    onboarding_ai_explain_desc: "Don't understand an answer? Tap \"Why?\" for instant AI explanation in your language",
+    onboarding_ai_chat: 'Ask AI Anything',
+    onboarding_ai_chat_desc: '"What\'s the difference between は and が?" - Just ask!',
+    onboarding_ai_coach: 'Smart Review',
+    onboarding_ai_coach_desc: 'AI tracks your mistakes and creates personalized review sessions',
+    onboarding_ai_note: 'AI features included free with all plans',
     onboarding_ready: "You're all set!",
     onboarding_ready_desc: 'Start with Unit 1 and let AI guide your journey to JLPT success.',
-    onboarding_tip: '💡 Pro Tip:', onboarding_skip: 'Skip', onboarding_next: 'Next',
+    onboarding_tip: 'Pro Tip:', onboarding_skip: 'Skip', onboarding_next: 'Next',
     // Quiz/Drill
     quiz_prompt: 'What does this mean?', quiz_correct: 'Correct', quiz_wrong: 'Wrong', quiz_time: 'Time',
     quiz_review_title: 'Review Your Mistakes', quiz_review_btn: 'Review Mistakes',
@@ -364,9 +373,18 @@ const UI_TEXTS = {
     onboarding_drill: '練習', onboarding_drill_desc: '每日單字、漢字和文法練習',
     onboarding_mock: '模擬測驗', onboarding_mock_desc: '真實JLPT格式，20套練習題',
     onboarding_ai: 'AI導師', onboarding_ai_desc: '針對錯誤獲得個人化解釋',
+    onboarding_ai_title: '認識您的AI導師',
+    onboarding_ai_subtitle: '就像有一位24小時待命的日語老師',
+    onboarding_ai_explain: '為什麼？按鈕',
+    onboarding_ai_explain_desc: '不懂答案？點擊「為什麼？」即可獲得您語言的AI解說',
+    onboarding_ai_chat: '隨時提問AI',
+    onboarding_ai_chat_desc: '「は和が有什麼區別？」- 直接問就好！',
+    onboarding_ai_coach: '智能複習',
+    onboarding_ai_coach_desc: 'AI追蹤您的錯誤，創建個人化複習課程',
+    onboarding_ai_note: '所有方案均包含AI功能',
     onboarding_ready: '準備就緒！',
     onboarding_ready_desc: '從第1單元開始，讓AI引導您邁向JLPT成功。',
-    onboarding_tip: '💡 小提示：', onboarding_skip: '跳過', onboarding_next: '下一步',
+    onboarding_tip: '小提示：', onboarding_skip: '跳過', onboarding_next: '下一步',
     quiz_prompt: '這是什麼意思？', quiz_correct: '正確', quiz_wrong: '錯誤', quiz_time: '時間',
     quiz_review_title: '複習錯誤', quiz_review_btn: '複習錯誤',
     quiz_try_again: '再試一次', quiz_home: '首頁', quiz_continue: '繼續', quiz_next_unit: '下一單元 →', quiz_next: '下一題 →',
@@ -593,9 +611,18 @@ const UI_TEXTS = {
     onboarding_drill: '练习', onboarding_drill_desc: '每日单词、汉字和语法练习',
     onboarding_mock: '模拟测验', onboarding_mock_desc: '真实JLPT格式，20套练习题',
     onboarding_ai: 'AI导师', onboarding_ai_desc: '针对错误获得个性化解释',
+    onboarding_ai_title: '认识您的AI导师',
+    onboarding_ai_subtitle: '就像有一位24小时待命的日语老师',
+    onboarding_ai_explain: '为什么？按钮',
+    onboarding_ai_explain_desc: '不懂答案？点击「为什么？」即可获得您语言的AI解说',
+    onboarding_ai_chat: '随时提问AI',
+    onboarding_ai_chat_desc: '「は和が有什么区别？」- 直接问就好！',
+    onboarding_ai_coach: '智能复习',
+    onboarding_ai_coach_desc: 'AI追踪您的错误，创建个性化复习课程',
+    onboarding_ai_note: '所有方案均包含AI功能',
     onboarding_ready: '准备就绪！',
     onboarding_ready_desc: '从第1单元开始，让AI引导您迈向JLPT成功。',
-    onboarding_tip: '💡 小提示：', onboarding_skip: '跳过', onboarding_next: '下一步',
+    onboarding_tip: '小提示：', onboarding_skip: '跳过', onboarding_next: '下一步',
     quiz_prompt: '这是什么意思？', quiz_correct: '正确', quiz_wrong: '错误', quiz_time: '时间',
     quiz_review_title: '复习错误', quiz_review_btn: '复习错误',
     quiz_try_again: '再试一次', quiz_home: '首页', quiz_continue: '继续', quiz_next_unit: '下一单元 →', quiz_next: '下一题 →',
@@ -822,9 +849,18 @@ const UI_TEXTS = {
     onboarding_drill: '연습', onboarding_drill_desc: '매일 단어, 한자 및 문법 연습',
     onboarding_mock: '모의 테스트', onboarding_mock_desc: '실제 JLPT 형식, 20세트 연습문제',
     onboarding_ai: 'AI 튜터', onboarding_ai_desc: '실수에 대한 맞춤형 설명 받기',
+    onboarding_ai_title: 'AI 튜터를 만나보세요',
+    onboarding_ai_subtitle: '24시간 대기하는 일본어 선생님처럼',
+    onboarding_ai_explain: '왜? 버튼',
+    onboarding_ai_explain_desc: '답이 이해가 안 되나요? "왜?"를 탭하면 AI가 바로 설명해 드려요',
+    onboarding_ai_chat: 'AI에게 뭐든 물어보세요',
+    onboarding_ai_chat_desc: '"は와 が의 차이가 뭐예요?" - 그냥 물어보세요!',
+    onboarding_ai_coach: '스마트 복습',
+    onboarding_ai_coach_desc: 'AI가 실수를 추적하고 맞춤형 복습 세션을 만들어요',
+    onboarding_ai_note: 'AI 기능은 모든 플랜에 무료 포함',
     onboarding_ready: '준비 완료!',
     onboarding_ready_desc: '1단원부터 시작하고 AI가 JLPT 성공으로 안내해 드립니다.',
-    onboarding_tip: '💡 팁:', onboarding_skip: '건너뛰기', onboarding_next: '다음',
+    onboarding_tip: '팁:', onboarding_skip: '건너뛰기', onboarding_next: '다음',
     quiz_prompt: '이것은 무슨 뜻인가요?', quiz_correct: '정답', quiz_wrong: '오답', quiz_time: '시간',
     quiz_review_title: '오답 복습', quiz_review_btn: '오답 복습',
     quiz_try_again: '다시 시도', quiz_home: '홈', quiz_continue: '계속', quiz_next_unit: '다음 단원 →', quiz_next: '다음 →',
@@ -1051,9 +1087,18 @@ const UI_TEXTS = {
     onboarding_drill: 'Luyện tập', onboarding_drill_desc: 'Luyện từ vựng, kanji & ngữ pháp hàng ngày',
     onboarding_mock: 'Thi thử', onboarding_mock_desc: 'Định dạng JLPT thực, 20 bộ đề',
     onboarding_ai: 'Gia sư AI', onboarding_ai_desc: 'Nhận giải thích cá nhân hóa cho các lỗi',
+    onboarding_ai_title: 'Gặp Gia sư AI của bạn',
+    onboarding_ai_subtitle: 'Như có một giáo viên tiếng Nhật sẵn sàng 24/7',
+    onboarding_ai_explain: 'Nút Tại sao?',
+    onboarding_ai_explain_desc: 'Không hiểu câu trả lời? Nhấn "Tại sao?" để AI giải thích ngay bằng ngôn ngữ của bạn',
+    onboarding_ai_chat: 'Hỏi AI bất cứ điều gì',
+    onboarding_ai_chat_desc: '"Sự khác biệt giữa は và が là gì?" - Cứ hỏi thôi!',
+    onboarding_ai_coach: 'Ôn tập thông minh',
+    onboarding_ai_coach_desc: 'AI theo dõi lỗi sai và tạo buổi ôn tập riêng cho bạn',
+    onboarding_ai_note: 'Tính năng AI miễn phí với tất cả gói',
     onboarding_ready: 'Bạn đã sẵn sàng!',
     onboarding_ready_desc: 'Bắt đầu với Bài 1 và để AI hướng dẫn bạn đến thành công JLPT.',
-    onboarding_tip: '💡 Mẹo:', onboarding_skip: 'Bỏ qua', onboarding_next: 'Tiếp',
+    onboarding_tip: 'Mẹo:', onboarding_skip: 'Bỏ qua', onboarding_next: 'Tiếp',
     quiz_prompt: 'Điều này có nghĩa là gì?', quiz_correct: 'Đúng', quiz_wrong: 'Sai', quiz_time: 'Thời gian',
     quiz_review_title: 'Xem lại lỗi sai', quiz_review_btn: 'Xem lại lỗi',
     quiz_try_again: 'Thử lại', quiz_home: 'Trang chủ', quiz_continue: 'Tiếp tục', quiz_next_unit: 'Bài tiếp theo →', quiz_next: 'Tiếp →',
@@ -1263,9 +1308,18 @@ const UI_TEXTS = {
     onboarding_drill: 'Latihan', onboarding_drill_desc: 'Latihan kosakata, kanji & tata bahasa harian',
     onboarding_mock: 'Simulasi', onboarding_mock_desc: 'Format JLPT asli, 20 set soal',
     onboarding_ai: 'Tutor AI', onboarding_ai_desc: 'Dapatkan penjelasan personal untuk kesalahan',
+    onboarding_ai_title: 'Temui Tutor AI Anda',
+    onboarding_ai_subtitle: 'Seperti punya guru bahasa Jepang 24 jam',
+    onboarding_ai_explain: 'Tombol Kenapa?',
+    onboarding_ai_explain_desc: 'Tidak mengerti jawabannya? Ketuk "Kenapa?" untuk penjelasan AI dalam bahasa Anda',
+    onboarding_ai_chat: 'Tanya AI Apa Saja',
+    onboarding_ai_chat_desc: '"Apa bedanya は dan が?" - Langsung tanya saja!',
+    onboarding_ai_coach: 'Review Pintar',
+    onboarding_ai_coach_desc: 'AI melacak kesalahan dan membuat sesi review khusus untuk Anda',
+    onboarding_ai_note: 'Fitur AI gratis di semua paket',
     onboarding_ready: 'Anda siap!',
     onboarding_ready_desc: 'Mulai dari Unit 1 dan biarkan AI membimbing Anda menuju sukses JLPT.',
-    onboarding_tip: '💡 Tips:', onboarding_skip: 'Lewati', onboarding_next: 'Lanjut',
+    onboarding_tip: 'Tips:', onboarding_skip: 'Lewati', onboarding_next: 'Lanjut',
     quiz_prompt: 'Apa artinya ini?', quiz_correct: 'Benar', quiz_wrong: 'Salah', quiz_time: 'Waktu',
     quiz_review_title: 'Review Kesalahan', quiz_review_btn: 'Review Kesalahan',
     quiz_try_again: 'Coba lagi', quiz_home: 'Beranda', quiz_continue: 'Lanjut', quiz_next_unit: 'Unit Selanjutnya →', quiz_next: 'Lanjut →',
@@ -3360,8 +3414,32 @@ function updateTodayFocus() {
 // Get unit progress info
 function getUnitProgressInfo() {
   const currentUnit = state.selectedUnit || 1;
-  const progress = getUnitProgress(state.level, state.category, currentUnit);
-  return { currentUnit, progress: Math.round(progress) };
+  
+  // Calculate progress based on completed questions in current unit
+  const pool = getPool();
+  if (!pool || pool.length === 0) return { currentUnit: null, progress: 0 };
+  
+  // Get items for current unit (22 items per unit)
+  const unitSize = 22;
+  const startIdx = (currentUnit - 1) * unitSize;
+  const endIdx = Math.min(startIdx + unitSize, pool.length);
+  const unitItems = pool.slice(startIdx, endIdx);
+  
+  if (unitItems.length === 0) return { currentUnit: null, progress: 0 };
+  
+  // Check how many items have been answered correctly (in SRS or completed)
+  const categoryKey = `${state.level}_${state.category}`;
+  let completed = 0;
+  
+  unitItems.forEach(item => {
+    const srsKey = `${categoryKey}_${item.id}`;
+    if (state.srs && state.srs[srsKey] && state.srs[srsKey].interval > 0) {
+      completed++;
+    }
+  });
+  
+  const progress = Math.round((completed / unitItems.length) * 100);
+  return { currentUnit, progress };
 }
 
 // Start Today's Focus action (primary action)
@@ -3376,19 +3454,9 @@ function startTodaysFocus() {
   }
 }
 
-// Start mistakes review
-function startMistakesReview() {
-  const categoryKey = `${state.level}_${state.category}`;
-  const mistakes = state.mistakes[categoryKey] || [];
-  if (mistakes.length === 0) {
-    alert('No mistakes to review!');
-    return;
-  }
-  state.mode = 'review';
-  state.currentPool = [...mistakes];
-  state.currentIndex = 0;
-  state.score = 0;
-  showQuiz();
+// Start mistakes review - uses existing startReview which handles both SRS and mistakes
+async function startMistakesReview() {
+  await startReview();
 }
 
 // Continue current unit
@@ -4989,7 +5057,7 @@ Please provide a structured analysis with these sections:
 ## 📚 ${texts.mock_report_next_steps}
 (Provide a concrete 2-week study plan with daily/weekly goals)
 
-## 💡 Pro Tips
+## Pro Tips
 (2-3 specific, actionable study techniques for the weak areas)
 
 Keep the response concise but informative. Use bullet points for clarity.`;
@@ -5844,7 +5912,7 @@ async function generateAIResponse(question) {
         <b>Days until exam:</b> ${daysUntilExam} days<br>
         <b>Total items to master:</b> ${totalItems}<br><br>
         📊 <b>Your Daily Target:</b> <span style="color:var(--primary);font-size:1.2em;font-weight:700">${dailyTarget} items/day</span><br><br>
-        💡 <b>Science-based strategy:</b><br>
+        <b>Science-based strategy:</b><br>
         • Morning: Learn ${Math.ceil(dailyTarget * 0.4)} new items (fresh brain = better encoding)<br>
         • Evening: Review mistakes + practice quiz (sleep consolidates memory)<br>
         • Weekly: Take 1 mock test to build test stamina<br><br>
@@ -5985,7 +6053,7 @@ function generateLocalAIResponse(question, learned, accuracy, weakAreas) {
   
   if (q.includes('weak') || q.includes('弱点')) {
     if (weakAreas.length > 0) {
-      return `📊 <b>Your Growth Areas</b><br><br>Based on your practice patterns, these areas are ripe for breakthrough:<br>• ${weakAreas.join('<br>• ')}<br><br>💡 <b>SLA Insight:</b> These "weak points" are actually where your brain is actively building new neural pathways. Focus here for 10-15 minutes daily — that's your optimal acquisition window. The struggle means learning is happening!`;
+      return `📊 <b>Your Growth Areas</b><br><br>Based on your practice patterns, these areas are ripe for breakthrough:<br>• ${weakAreas.join('<br>• ')}<br><br><b>SLA Insight:</b> These "weak points" are actually where your brain is actively building new neural pathways. Focus here for 10-15 minutes daily — that's your optimal acquisition window. The struggle means learning is happening!`;
     } else {
       return `📊 <b>Building Your Foundation</b><br><br>You're still in the early stages — which is exactly where you should be! In language acquisition, we call this building "comprehensible input."<br><br>Your stats:<br>• Words encountered: ${learned}<br>• Accuracy: ${accuracy}%<br>• Streak: ${state.streak} days<br><br>Keep engaging with the material. Patterns will emerge naturally.`;
     }
@@ -5996,7 +6064,7 @@ function generateLocalAIResponse(question, learned, accuracy, weakAreas) {
   }
   
   if (q.includes('memorize') || q.includes('remember') || q.includes('覚え') || q.includes('暗記')) {
-    return `🧠 <b>Memory Science for Language Learning</b><br><br>Your brain encodes memories best when you:<br><br>1. <b>Elaborative Encoding:</b> Connect new words to personal experiences or vivid images. "食べる (to eat)" — imagine YOUR favorite food!<br><br>2. <b>Retrieval Practice:</b> Testing yourself (even when you fail) strengthens memory 3x more than re-reading.<br><br>3. <b>Sleep:</b> Memory consolidation happens during sleep. Review before bed, let your brain work overnight.<br><br>4. <b>Interleaving:</b> Mix vocabulary, kanji, and grammar in one session. Harder now, but stronger long-term.<br><br>💡 <b>Quick Win:</b> For any new word, immediately make a sentence using it. Active production beats passive recognition.`;
+    return `🧠 <b>Memory Science for Language Learning</b><br><br>Your brain encodes memories best when you:<br><br>1. <b>Elaborative Encoding:</b> Connect new words to personal experiences or vivid images. "食べる (to eat)" — imagine YOUR favorite food!<br><br>2. <b>Retrieval Practice:</b> Testing yourself (even when you fail) strengthens memory 3x more than re-reading.<br><br>3. <b>Sleep:</b> Memory consolidation happens during sleep. Review before bed, let your brain work overnight.<br><br>4. <b>Interleaving:</b> Mix vocabulary, kanji, and grammar in one session. Harder now, but stronger long-term.<br><br><b>Quick Win:</b> For any new word, immediately make a sentence using it. Active production beats passive recognition.`;
   }
   
   if (q.includes('mistake') || q.includes('間違') || q.includes('error')) {
@@ -6010,7 +6078,7 @@ function generateLocalAIResponse(question, learned, accuracy, weakAreas) {
   // === LEARNING CONTENT QUESTIONS ===
   
   if (q.includes('grammar') || q.includes('文法')) {
-    return `📖 <b>Grammar Acquisition for ${state.level}</b><br><br>In SLA, grammar is acquired through meaningful exposure, not just memorization. For your level, focus on:<br><br>• Understanding the "why" behind sentence patterns<br>• Noticing how particles change meaning<br>• Recognizing patterns across multiple examples<br><br>💡 Try reading the grammar point, then immediately practicing it. The "testing effect" strengthens memory 3x more than re-reading!<br><br>Ask me about any specific grammar pattern (e.g., "explain ても", "what's the difference between から and ので?")`;
+    return `📖 <b>Grammar Acquisition for ${state.level}</b><br><br>In SLA, grammar is acquired through meaningful exposure, not just memorization. For your level, focus on:<br><br>• Understanding the "why" behind sentence patterns<br>• Noticing how particles change meaning<br>• Recognizing patterns across multiple examples<br><br>Try reading the grammar point, then immediately practicing it. The "testing effect" strengthens memory 3x more than re-reading!<br><br>Ask me about any specific grammar pattern (e.g., "explain ても", "what's the difference between から and ので?")`;
   }
   
   if (q.includes('kanji') || q.includes('漢字')) {
@@ -6018,7 +6086,7 @@ function generateLocalAIResponse(question, learned, accuracy, weakAreas) {
   }
   
   if (q.includes('particle') || q.includes('助詞') || q.match(/は\s*(vs|と|or)\s*が/) || q.includes('wa vs ga')) {
-    return `🔤 <b>Particles: The Heart of Japanese</b><br><br>Particles are what make Japanese Japanese. Key insights:<br><br><b>は (wa) vs が (ga):</b><br>• は marks the TOPIC (what we're talking about)<br>• が marks the SUBJECT (who does the action) or NEW information<br>• 私<b>は</b>学生です = "As for me, (I'm) a student" (expected info)<br>• 私<b>が</b>学生です = "<b>I</b> am the student" (not someone else)<br><br><b>に vs で:</b><br>• に = destination, time point, existence location<br>• で = action location, means, cause<br><br>💡 Don't try to memorize rules — absorb through examples. Which particle is confusing you?`;
+    return `🔤 <b>Particles: The Heart of Japanese</b><br><br>Particles are what make Japanese Japanese. Key insights:<br><br><b>は (wa) vs が (ga):</b><br>• は marks the TOPIC (what we're talking about)<br>• が marks the SUBJECT (who does the action) or NEW information<br>• 私<b>は</b>学生です = "As for me, (I'm) a student" (expected info)<br>• 私<b>が</b>学生です = "<b>I</b> am the student" (not someone else)<br><br><b>に vs で:</b><br>• に = destination, time point, existence location<br>• で = action location, means, cause<br><br>Don't try to memorize rules — absorb through examples. Which particle is confusing you?`;
   }
   
   if (q.includes('vocab') || q.includes('word') || q.includes('単語') || q.includes('meaning')) {
@@ -6624,7 +6692,7 @@ function logout() {
 
 // ========== ONBOARDING ==========
 let onboardingStep = 1;
-const totalOnboardingSteps = 4;
+const totalOnboardingSteps = 5;
 
 function showOnboarding() {
   if (state.onboardingComplete) return;

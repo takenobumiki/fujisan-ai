@@ -10,6 +10,14 @@ All notable changes to this project will be documented in this file.
   - Each item is clickable and starts the relevant action
   - Added "Start Review" button for quick access to primary task
   - Removed separate DUE TODAY / LEARNING / MASTERED stats bar (redundant)
+  - Icons changed from emoji to SVG (Apple-style design)
+
+### Added
+- **Onboarding AI Features Step**: New dedicated step (Step 4) explaining AI features
+  - AI Explain: Tap any question for instant explanations
+  - AI Chat: Ask anything about Japanese
+  - Today's Focus: AI-powered study recommendations
+  - Full i18n support (EN, 繁中, 简中, 한국어, Tiếng Việt, Indonesia)
 
 ### Removed
 - **SRS Stats Bar Removed**: Removed the bottom 3-button stats display (DUE TODAY, LEARNING, MASTERED)

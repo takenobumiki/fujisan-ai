@@ -876,6 +876,70 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
   color: rgba(255,255,255,0.6);
 }
 
+/* AI Features Step (Step 4) */
+.onboarding-ai-features {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: left;
+  margin-top: var(--space-md);
+}
+
+.ai-feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 14px 16px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 14px;
+  transition: background 0.2s ease;
+}
+
+.ai-feature-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255,0.08);
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.ai-feature-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+
+.ai-feature-content strong {
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.ai-feature-content span {
+  font-size: 13px;
+  color: rgba(255,255,255,0.6);
+  line-height: 1.4;
+}
+
+.ai-feature-item.highlight {
+  background: rgba(255, 149, 0, 0.15);
+  border: 1px solid rgba(255, 149, 0, 0.3);
+}
+
+.ai-feature-note {
+  margin-top: 16px;
+  padding: 10px 14px;
+  background: rgba(102, 126, 234, 0.15);
+  border-radius: 10px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+
 /* Tip */
 .onboarding-tip {
   background: rgba(255, 193, 7, 0.15);
