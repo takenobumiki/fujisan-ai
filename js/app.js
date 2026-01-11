@@ -3202,48 +3202,203 @@ function getSrsStats() {
   return { total, dueToday, mastered };
 }
 
-// Update SRS display on dashboard
-function updateSrsDisplay() {
-  const srsContainer = document.getElementById('srs-stats-container');
-  if (!srsContainer) return;
+// Update Today's Focus display on dashboard
+function updateTodayFocus() {
+  const content = document.getElementById('today-focus-content');
+  const startBtn = document.getElementById('today-focus-start-btn');
+  const aiCoachCard = document.getElementById('ai-coach-card');
+  if (!content) return;
+  
+  // Always show the card
+  if (aiCoachCard) aiCoachCard.style.display = 'block';
   
   const stats = getSrsStats();
   const totalDue = getTotalSrsDueCount();
-  
-  if (stats.total === 0 && totalDue === 0) {
-    srsContainer.style.display = 'none';
-    return;
-  }
-  
-  srsContainer.style.display = 'block';
+  const categoryKey = `${state.level}_${state.category}`;
+  const mistakeCount = (state.mistakes[categoryKey] || []).length;
+  const unitProgress = getUnitProgressInfo();
   
   const lang = state.lang || 'en';
   const labels = {
-    en: { due: 'Due Today', learning: 'Learning', mastered: 'Mastered' },
-    'zh-TW': { due: '今日複習', learning: '學習中', mastered: '已掌握' },
-    'zh-CN': { due: '今日复习', learning: '学习中', mastered: '已掌握' },
-    ko: { due: '오늘 복습', learning: '학습 중', mastered: '마스터' },
-    vi: { due: 'Hôm nay', learning: 'Đang học', mastered: 'Thành thạo' },
-    id: { due: 'Hari ini', learning: 'Sedang belajar', mastered: 'Dikuasai' }
+    en: { 
+      reviewDue: 'items due for review',
+      mistakes: 'mistakes to practice',
+      continueUnit: 'Continue Unit',
+      complete: 'complete',
+      noTasks: 'All caught up! Start a new drill.',
+      startReview: 'Start Review',
+      startPractice: 'Start Practice',
+      startDrill: 'Start Drill'
+    },
+    'zh-TW': { 
+      reviewDue: '項需要複習',
+      mistakes: '個錯誤需要練習',
+      continueUnit: '繼續單元',
+      complete: '完成',
+      noTasks: '全部完成！開始新的練習。',
+      startReview: '開始複習',
+      startPractice: '開始練習',
+      startDrill: '開始練習'
+    },
+    'zh-CN': { 
+      reviewDue: '项需要复习',
+      mistakes: '个错误需要练习',
+      continueUnit: '继续单元',
+      complete: '完成',
+      noTasks: '全部完成！开始新的练习。',
+      startReview: '开始复习',
+      startPractice: '开始练习',
+      startDrill: '开始练习'
+    },
+    ko: { 
+      reviewDue: '개 복습 필요',
+      mistakes: '개 오답 연습',
+      continueUnit: '계속 유닛',
+      complete: '완료',
+      noTasks: '모두 완료! 새로운 연습을 시작하세요.',
+      startReview: '복습 시작',
+      startPractice: '연습 시작',
+      startDrill: '연습 시작'
+    },
+    vi: { 
+      reviewDue: 'mục cần ôn tập',
+      mistakes: 'lỗi cần luyện tập',
+      continueUnit: 'Tiếp tục Unit',
+      complete: 'hoàn thành',
+      noTasks: 'Hoàn thành! Bắt đầu bài tập mới.',
+      startReview: 'Bắt đầu ôn tập',
+      startPractice: 'Bắt đầu luyện tập',
+      startDrill: 'Bắt đầu luyện tập'
+    },
+    id: { 
+      reviewDue: 'item perlu diulang',
+      mistakes: 'kesalahan perlu latihan',
+      continueUnit: 'Lanjutkan Unit',
+      complete: 'selesai',
+      noTasks: 'Semua selesai! Mulai latihan baru.',
+      startReview: 'Mulai Ulang',
+      startPractice: 'Mulai Latihan',
+      startDrill: 'Mulai Latihan'
+    }
   };
   const l = labels[lang] || labels.en;
   
-  srsContainer.innerHTML = `
-    <div class="srs-stats">
-      <div class="srs-stat ${totalDue > 0 ? 'srs-due' : ''}">
-        <span class="srs-stat-value">${totalDue}</span>
-        <span class="srs-stat-label">${l.due}</span>
+  let html = '';
+  let hasTasks = false;
+  let primaryAction = null;
+  
+  // 1. Due items (SRS)
+  if (totalDue > 0) {
+    hasTasks = true;
+    primaryAction = primaryAction || 'srs';
+    html += `
+      <div class="today-focus-item due" onclick="startSRSReview()">
+        <span class="today-focus-item-icon"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg></span>
+        <span class="today-focus-item-text">${totalDue} ${l.reviewDue}</span>
+        <span class="today-focus-item-arrow"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span>
       </div>
-      <div class="srs-stat">
-        <span class="srs-stat-value">${stats.total - stats.mastered}</span>
-        <span class="srs-stat-label">${l.learning}</span>
+    `;
+  }
+  
+  // 2. Mistakes to review
+  if (mistakeCount > 0) {
+    hasTasks = true;
+    primaryAction = primaryAction || 'mistakes';
+    html += `
+      <div class="today-focus-item mistakes" onclick="startMistakesReview()">
+        <span class="today-focus-item-icon"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></span>
+        <span class="today-focus-item-text">${mistakeCount} ${l.mistakes}</span>
+        <span class="today-focus-item-arrow"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span>
       </div>
-      <div class="srs-stat srs-mastered">
-        <span class="srs-stat-value">${stats.mastered}</span>
-        <span class="srs-stat-label">${l.mastered}</span>
+    `;
+  }
+  
+  // 3. Current unit progress
+  if (unitProgress.currentUnit && unitProgress.progress < 100) {
+    hasTasks = true;
+    primaryAction = primaryAction || 'unit';
+    html += `
+      <div class="today-focus-item progress" onclick="continueUnit()">
+        <span class="today-focus-item-icon"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span>
+        <span class="today-focus-item-text">${l.continueUnit} ${unitProgress.currentUnit} (${unitProgress.progress}% ${l.complete})</span>
+        <span class="today-focus-item-arrow"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span>
       </div>
-    </div>
-  `;
+    `;
+  }
+  
+  // No tasks - show encouragement
+  if (!hasTasks) {
+    html = `
+      <div class="today-focus-item empty">
+        <span class="today-focus-item-icon"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></span>
+        <span class="today-focus-item-text">${l.noTasks}</span>
+      </div>
+    `;
+  }
+  
+  content.innerHTML = html;
+  
+  // Update start button
+  if (startBtn) {
+    if (hasTasks) {
+      startBtn.style.display = 'flex';
+      const btnText = startBtn.querySelector('span');
+      if (btnText) {
+        if (primaryAction === 'srs') btnText.textContent = l.startReview;
+        else if (primaryAction === 'mistakes') btnText.textContent = l.startPractice;
+        else btnText.textContent = l.startDrill;
+      }
+    } else {
+      startBtn.style.display = 'none';
+    }
+  }
+  
+  // Store primary action for button click
+  window._todayFocusPrimaryAction = primaryAction;
+}
+
+// Get unit progress info
+function getUnitProgressInfo() {
+  const currentUnit = state.selectedUnit || 1;
+  const progress = getUnitProgress(state.level, state.category, currentUnit);
+  return { currentUnit, progress: Math.round(progress) };
+}
+
+// Start Today's Focus action (primary action)
+function startTodaysFocus() {
+  const action = window._todayFocusPrimaryAction;
+  if (action === 'srs') {
+    startSRSReview();
+  } else if (action === 'mistakes') {
+    startMistakesReview();
+  } else {
+    continueUnit();
+  }
+}
+
+// Start mistakes review
+function startMistakesReview() {
+  const categoryKey = `${state.level}_${state.category}`;
+  const mistakes = state.mistakes[categoryKey] || [];
+  if (mistakes.length === 0) {
+    alert('No mistakes to review!');
+    return;
+  }
+  state.mode = 'review';
+  state.currentPool = [...mistakes];
+  state.currentIndex = 0;
+  state.score = 0;
+  showQuiz();
+}
+
+// Continue current unit
+function continueUnit() {
+  startDrill();
+}
+
+// Legacy function - redirect to new one
+function updateSrsDisplay() {
+  updateTodayFocus();
 }
 
 // ========== END SRS ==========

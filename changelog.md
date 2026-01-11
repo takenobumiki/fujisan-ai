@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [18.15.0] - 2025-01-11
+
+### Changed
+- **Today's Focus Enhanced**: Completely redesigned Today's Focus section
+  - Now shows 3 actionable items: SRS due items, mistakes to practice, current unit progress
+  - Each item is clickable and starts the relevant action
+  - Added "Start Review" button for quick access to primary task
+  - Removed separate DUE TODAY / LEARNING / MASTERED stats bar (redundant)
+
+### Removed
+- **SRS Stats Bar Removed**: Removed the bottom 3-button stats display (DUE TODAY, LEARNING, MASTERED)
+  - Information now integrated into Today's Focus card
+  - Cleaner, less cluttered interface
+
+### Fixed
+- Today's Focus now always visible (was hidden by default)
+- Improved Today's Focus UI with better visual hierarchy
+
 ## [16.2.0] - 2025-01-06
 
 ### Fixed

@@ -969,88 +969,163 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
   font-weight: 500;
 }
 
-/* ========== SRS (Spaced Repetition System) Styles ========== */
-.srs-stats-container {
-  margin: 16px 0;
-  padding: 16px;
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
-  border-radius: 16px;
-  border: 1px solid rgba(102, 126, 234, 0.2);
-}
-
-.srs-stats {
+/* ========== Today's Focus Styles (Apple-style) ========== */
+.today-focus-content {
   display: flex;
-  justify-content: space-around;
-  gap: 12px;
+  flex-direction: column;
+  gap: 10px;
+  margin: 16px 0;
 }
 
-.srs-stat {
-  text-align: center;
-  flex: 1;
-  padding: 8px;
+.today-focus-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
   background: var(--card);
   border-radius: 12px;
-  transition: transform 0.2s ease;
-}
-
-.srs-stat:hover {
-  transform: translateY(-2px);
-}
-
-.srs-stat-value {
-  display: block;
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 15px;
   color: var(--text);
-  line-height: 1.2;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.15s ease;
 }
 
-.srs-stat-label {
-  display: block;
-  font-size: 11px;
-  color: var(--secondary);
-  margin-top: 4px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+.today-focus-item:active {
+  transform: scale(0.98);
 }
 
-.srs-stat.srs-due {
-  background: linear-gradient(135deg, #ff9500 0%, #ffcc00 100%);
-  animation: srs-pulse 2s infinite;
+@media (hover: hover) {
+  .today-focus-item:hover {
+    background: rgba(0, 0, 0, 0.04);
+  }
 }
 
-.srs-stat.srs-due .srs-stat-value,
-.srs-stat.srs-due .srs-stat-label {
-  color: #fff;
+.today-focus-item.due {
+  background: linear-gradient(135deg, rgba(255, 149, 0, 0.08) 0%, rgba(255, 204, 0, 0.08) 100%);
 }
 
-.srs-stat.srs-mastered {
-  background: linear-gradient(135deg, rgba(52, 199, 89, 0.15) 0%, rgba(48, 209, 88, 0.15) 100%);
+.today-focus-item.due .today-focus-item-icon {
+  color: #ff9500;
 }
 
-.srs-stat.srs-mastered .srs-stat-value {
+.today-focus-item.mistakes {
+  background: linear-gradient(135deg, rgba(255, 59, 48, 0.08) 0%, rgba(255, 69, 58, 0.08) 100%);
+}
+
+.today-focus-item.mistakes .today-focus-item-icon {
+  color: #ff3b30;
+}
+
+.today-focus-item.progress {
+  background: linear-gradient(135deg, rgba(0, 122, 255, 0.08) 0%, rgba(10, 132, 255, 0.08) 100%);
+}
+
+.today-focus-item.progress .today-focus-item-icon {
+  color: #007aff;
+}
+
+.today-focus-item.empty {
+  background: linear-gradient(135deg, rgba(52, 199, 89, 0.08) 0%, rgba(48, 209, 88, 0.08) 100%);
+  cursor: default;
+}
+
+.today-focus-item.empty .today-focus-item-icon {
   color: #34c759;
 }
 
-@keyframes srs-pulse {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(255, 149, 0, 0.4); }
-  50% { box-shadow: 0 0 0 8px rgba(255, 149, 0, 0); }
+.today-focus-item.empty:active {
+  transform: none;
+}
+
+.today-focus-item-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+
+.today-focus-item-icon svg {
+  display: block;
+}
+
+.today-focus-item-text {
+  flex: 1;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+.today-focus-item-arrow {
+  color: var(--secondary);
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+}
+
+.today-focus-start-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  margin-top: 4px;
+  padding: 14px 20px;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.15s ease;
+}
+
+.today-focus-start-btn:hover {
+  opacity: 0.9;
+}
+
+.today-focus-start-btn:active {
+  transform: scale(0.98);
+}
+
+.today-focus-start-btn svg {
+  flex-shrink: 0;
+}
+
+/* Dark mode adjustments for Today's Focus */
+@media (prefers-color-scheme: dark) {
+  .today-focus-item {
+    background: rgba(255, 255, 255, 0.06);
+  }
+  
+  @media (hover: hover) {
+    .today-focus-item:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+  }
+  
+  .today-focus-item.due {
+    background: linear-gradient(135deg, rgba(255, 149, 0, 0.15) 0%, rgba(255, 204, 0, 0.1) 100%);
+  }
+  
+  .today-focus-item.mistakes {
+    background: linear-gradient(135deg, rgba(255, 69, 58, 0.15) 0%, rgba(255, 69, 58, 0.1) 100%);
+  }
+  
+  .today-focus-item.progress {
+    background: linear-gradient(135deg, rgba(10, 132, 255, 0.15) 0%, rgba(10, 132, 255, 0.1) 100%);
+  }
+  
+  .today-focus-item.empty {
+    background: linear-gradient(135deg, rgba(48, 209, 88, 0.15) 0%, rgba(48, 209, 88, 0.1) 100%);
+  }
 }
 
 /* SRS Review Header Badge */
 .review-header-btn #review-header-count {
   transition: background 0.3s ease;
-}
-
-/* Dark mode adjustments */
-@media (prefers-color-scheme: dark) {
-  .srs-stats-container {
-    background: linear-gradient(135deg, rgba(102, 126, 234, 0.15) 0%, rgba(118, 75, 162, 0.15) 100%);
-  }
-  
-  .srs-stat {
-    background: rgba(255, 255, 255, 0.05);
-  }
 }
 
 /* ===== AI Coach Card (Adaptive Learning) ===== */
