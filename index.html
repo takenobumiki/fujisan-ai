@@ -1013,6 +1013,9 @@
         .form-input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px rgba(0,113,227,0.15); }
         
         .form-error { color: var(--danger); font-size: 13px; margin-top: 4px; }
+        .form-success { color: var(--success); font-size: 13px; margin-top: 8px; padding: 12px; background: rgba(16, 185, 129, 0.1); border-radius: 8px; }
+        .forgot-password-link { display: block; text-align: right; font-size: 13px; color: var(--primary); margin-top: 8px; text-decoration: none; }
+        .forgot-password-link:hover { text-decoration: underline; }
         
         /* Checkbox */
         .checkbox-group { margin-bottom: 12px; }
@@ -2650,12 +2653,36 @@
                 <div class="form-group">
                     <label class="form-label">Password</label>
                     <input type="password" class="form-input" id="loginPassword" placeholder="Password">
+                    <a href="#" class="forgot-password-link" onclick="openModal('forgotPassword'); return false;">Forgot password?</a>
                 </div>
                 <div id="loginError" class="form-error hidden"></div>
             </div>
             <div class="modal-actions">
                 <button class="btn btn-primary" onclick="loginWithEmail()">Log In</button>
                 <p class="modal-note">No account? <a href="#" onclick="openModal('signup'); return false;">Sign up</a></p>
+            </div>
+            <button class="modal-close" onclick="closeModal()">Cancel</button>
+        </div>
+    </div>
+    
+    <!-- Forgot Password Modal -->
+    <div class="modal-overlay" id="forgotPasswordModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3>Reset Password</h3>
+                <p>Enter your email to receive a reset link</p>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-input" id="resetEmail" placeholder="you@example.com">
+                </div>
+                <div id="resetError" class="form-error hidden"></div>
+                <div id="resetSuccess" class="form-success hidden"></div>
+            </div>
+            <div class="modal-actions">
+                <button class="btn btn-primary" onclick="sendPasswordReset()">Send Reset Link</button>
+                <p class="modal-note">Remember your password? <a href="#" onclick="openModal('login'); return false;">Log in</a></p>
             </div>
             <button class="modal-close" onclick="closeModal()">Cancel</button>
         </div>
@@ -3302,6 +3329,45 @@
                 .catch(err => showError('loginError', err.message));
         }
         
+        function sendPasswordReset() {
+            const email = document.getElementById('resetEmail').value;
+            const errorEl = document.getElementById('resetError');
+            const successEl = document.getElementById('resetSuccess');
+            
+            // Hide previous messages
+            errorEl.classList.add('hidden');
+            successEl.classList.add('hidden');
+            
+            if (!email) {
+                errorEl.textContent = 'Please enter your email address';
+                errorEl.classList.remove('hidden');
+                return;
+            }
+            
+            if (!isFirebaseReady) {
+                errorEl.textContent = 'Firebase not configured. Please try again later.';
+                errorEl.classList.remove('hidden');
+                return;
+            }
+            
+            auth.sendPasswordResetEmail(email)
+                .then(() => {
+                    successEl.innerHTML = '✅ Reset link sent!<br>Check your email inbox (and spam folder) for the password reset link.';
+                    successEl.classList.remove('hidden');
+                    document.getElementById('resetEmail').value = '';
+                })
+                .catch(err => {
+                    let message = err.message;
+                    if (err.code === 'auth/user-not-found') {
+                        message = 'No account found with this email address.';
+                    } else if (err.code === 'auth/invalid-email') {
+                        message = 'Please enter a valid email address.';
+                    }
+                    errorEl.textContent = message;
+                    errorEl.classList.remove('hidden');
+                });
+        }
+        
         function signupWithGoogle() {
             if (!validateSignup()) return;
             
@@ -3652,6 +3718,7 @@
         function closeModal() {
             document.querySelectorAll('.modal-overlay').forEach(m => m.classList.remove('open'));
             document.querySelectorAll('.form-error').forEach(e => e.classList.add('hidden'));
+            document.querySelectorAll('.form-success').forEach(e => e.classList.add('hidden'));
         }
         
         function updateSelectedPlan() {
