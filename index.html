@@ -2478,7 +2478,7 @@
                         </div>
                         <div class="footer-links">
                             <h4 data-i18n="footer_contact">Contact</h4>
-                            <span id="footerEmail" style="cursor:pointer;color:rgba(255,255,255,0.7);" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,0.7)'">support@fujisan.ai</span>
+                            <span style="color:rgba(255,255,255,0.7);font-size:13px;display:block;padding:4px 0;">support@fujisan.ai</span>
                         </div>
                         <div class="footer-links">
                             <h4 data-i18n="footer_company">Company</h4>
@@ -6025,16 +6025,6 @@
         
         // Initialize on load
         init();
-        
-        // Email click handler
-        document.getElementById('footerEmail').addEventListener('click', function() {
-            window.location.href = 'mail' + 'to:' + 'support' + '@' + 'fujisan.ai';
-        });
-        document.querySelectorAll('.email-link').forEach(function(el) {
-            el.addEventListener('click', function() {
-                window.location.href = 'mail' + 'to:' + 'support' + '@' + 'fujisan.ai';
-            });
-        });
     </script>
 </body>
 </html>
