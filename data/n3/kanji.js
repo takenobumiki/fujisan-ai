@@ -1,7 +1,7 @@
 // Fujisan.AI Data
 // Count: 577
 
-const n3Kanji = [
+const N3_KANJI = [
   {
     "id": "K0001",
     "k": "握",
@@ -9107,4 +9107,4 @@ const n3Kanji = [
   }
 ];
 
-if (typeof module !== 'undefined') module.exports = { n3Kanji };
+if (typeof module !== 'undefined') module.exports = { N3_KANJI };

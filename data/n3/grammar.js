@@ -1,7 +1,7 @@
 // Fujisan.AI Data
 // Count: 450
 
-const n3Grammar = [
+const N3_GRAMMAR = [
   {
     "id": "G0001",
     "p": "〜っぽい",
@@ -5404,4 +5404,4 @@ const n3Grammar = [
   }
 ];
 
-if (typeof module !== 'undefined') module.exports = { n3Grammar };
+if (typeof module !== 'undefined') module.exports = { N3_GRAMMAR };

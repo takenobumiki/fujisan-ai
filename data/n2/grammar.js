@@ -1,7 +1,7 @@
 // Fujisan.AI Data
 // Count: 250
 
-const n2Grammar = [
+const N2_GRAMMAR = [
   {
     "id": "G0001",
     "p": "〜に関して",
@@ -3004,4 +3004,4 @@ const n2Grammar = [
   }
 ];
 
-if (typeof module !== 'undefined') module.exports = { n2Grammar };
+if (typeof module !== 'undefined') module.exports = { N2_GRAMMAR };

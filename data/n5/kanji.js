@@ -1,7 +1,7 @@
 // Fujisan.AI Data
 // Count: 144
 
-const n5Kanji = [
+const N5_KANJI = [
   {
     "id": "K0001",
     "k": "一",
@@ -2890,4 +2890,4 @@ const n5Kanji = [
   }
 ];
 
-if (typeof module !== 'undefined') module.exports = { n5Kanji };
+if (typeof module !== 'undefined') module.exports = { N5_KANJI };
