@@ -11,7 +11,9 @@ const N5_GRAMMAR = [
       "zh-CN": "X是Y",
       "ko": "[X is Y]",
       "vi": "[X is Y]",
-      "id": "[X is Y]"
+      "id": "[X is Y]",
+      "es": "X is Y",
+      "pt": "X is Y"
     },
     "ex": "私は学生です",
     "exm": {
@@ -20,7 +22,9 @@ const N5_GRAMMAR = [
       "zh-CN": "我是学生",
       "ko": "[I am a student]",
       "vi": "[I am a student]",
-      "id": "[I am a student]"
+      "id": "[I am a student]",
+      "es": "I am a student",
+      "pt": "I am a student"
     }
   },
   {
@@ -32,7 +36,9 @@ const N5_GRAMMAR = [
       "zh-CN": "X不是Y",
       "ko": "[X is not Y]",
       "vi": "[X is not Y]",
-      "id": "[X is not Y]"
+      "id": "[X is not Y]",
+      "es": "X is not Y",
+      "pt": "X is not Y"
     },
     "ex": "私は先生じゃないです",
     "exm": {
@@ -41,7 +47,9 @@ const N5_GRAMMAR = [
       "zh-CN": "我不是老师",
       "ko": "[I am not a teacher]",
       "vi": "[I am not a teacher]",
-      "id": "[I am not a teacher]"
+      "id": "[I am not a teacher]",
+      "es": "I am not a teacher",
+      "pt": "I am not a teacher"
     }
   },
   {
@@ -53,7 +61,9 @@ const N5_GRAMMAR = [
       "zh-CN": "X是Y吗?",
       "ko": "[Is X Y?]",
       "vi": "[Is X Y?]",
-      "id": "[Is X Y?]"
+      "id": "[Is X Y?]",
+      "es": "Is X Y?",
+      "pt": "Is X Y?"
     },
     "ex": "あなたは学生ですか",
     "exm": {
@@ -62,7 +72,9 @@ const N5_GRAMMAR = [
       "zh-CN": "你是学生吗",
       "ko": "[Are you a student?]",
       "vi": "[Are you a student?]",
-      "id": "[Are you a student?]"
+      "id": "[Are you a student?]",
+      "es": "Are you a student?",
+      "pt": "Are you a student?"
     }
   },
   {
@@ -74,7 +86,9 @@ const N5_GRAMMAR = [
       "zh-CN": "也",
       "ko": "[also/too]",
       "vi": "[also/too]",
-      "id": "[also/too]"
+      "id": "[also/too]",
+      "es": "also/too",
+      "pt": "also/too"
     },
     "ex": "私も学生です",
     "exm": {
@@ -83,7 +97,9 @@ const N5_GRAMMAR = [
       "zh-CN": "我也是学生",
       "ko": "[I am also a student]",
       "vi": "[I am also a student]",
-      "id": "[I am also a student]"
+      "id": "[I am also a student]",
+      "es": "I am also a student",
+      "pt": "I am also a student"
     }
   },
   {
@@ -95,7 +111,9 @@ const N5_GRAMMAR = [
       "zh-CN": "的",
       "ko": "[possessive]",
       "vi": "[possessive]",
-      "id": "[possessive]"
+      "id": "[possessive]",
+      "es": "possessive",
+      "pt": "possessive"
     },
     "ex": "私の本",
     "exm": {
@@ -104,7 +122,9 @@ const N5_GRAMMAR = [
       "zh-CN": "我的书",
       "ko": "[my book]",
       "vi": "[my book]",
-      "id": "[my book]"
+      "id": "[my book]",
+      "es": "my book",
+      "pt": "my book"
     }
   },
   {
@@ -116,7 +136,9 @@ const N5_GRAMMAR = [
       "zh-CN": "在/到",
       "ko": "[to/at (location)]",
       "vi": "[to/at (location)]",
-      "id": "[to/at (location)]"
+      "id": "[to/at (location)]",
+      "es": "to/at (location)",
+      "pt": "to/at (location)"
     },
     "ex": "学校に行く",
     "exm": {
@@ -125,7 +147,9 @@ const N5_GRAMMAR = [
       "zh-CN": "去学校",
       "ko": "[go to school]",
       "vi": "[go to school]",
-      "id": "[go to school]"
+      "id": "[go to school]",
+      "es": "go to school",
+      "pt": "go to school"
     }
   },
   {
@@ -137,7 +161,9 @@ const N5_GRAMMAR = [
       "zh-CN": "在/用",
       "ko": "[at/by means of]",
       "vi": "[at/by means of]",
-      "id": "[at/by means of]"
+      "id": "[at/by means of]",
+      "es": "at/by means of",
+      "pt": "at/by means of"
     },
     "ex": "電車で行く",
     "exm": {
@@ -146,7 +172,9 @@ const N5_GRAMMAR = [
       "zh-CN": "坐电车去",
       "ko": "[go by train]",
       "vi": "[go by train]",
-      "id": "[go by train]"
+      "id": "[go by train]",
+      "es": "go by train",
+      "pt": "go by train"
     }
   },
   {
@@ -158,7 +186,9 @@ const N5_GRAMMAR = [
       "zh-CN": "(宾语助词)",
       "ko": "[object marker]",
       "vi": "[object marker]",
-      "id": "[object marker]"
+      "id": "[object marker]",
+      "es": "object marker",
+      "pt": "object marker"
     },
     "ex": "本を読む",
     "exm": {
@@ -167,7 +197,9 @@ const N5_GRAMMAR = [
       "zh-CN": "看书",
       "ko": "[read a book]",
       "vi": "[read a book]",
-      "id": "[read a book]"
+      "id": "[read a book]",
+      "es": "read a book",
+      "pt": "read a book"
     }
   },
   {
@@ -179,7 +211,9 @@ const N5_GRAMMAR = [
       "zh-CN": "(主语助词)",
       "ko": "[subject marker]",
       "vi": "[subject marker]",
-      "id": "[subject marker]"
+      "id": "[subject marker]",
+      "es": "subject marker",
+      "pt": "subject marker"
     },
     "ex": "雨が降る",
     "exm": {
@@ -188,7 +222,9 @@ const N5_GRAMMAR = [
       "zh-CN": "下雨",
       "ko": "[rain falls]",
       "vi": "[rain falls]",
-      "id": "[rain falls]"
+      "id": "[rain falls]",
+      "es": "rain falls",
+      "pt": "rain falls"
     }
   },
   {
@@ -200,7 +236,9 @@ const N5_GRAMMAR = [
       "zh-CN": "和/与",
       "ko": "[and/with]",
       "vi": "[and/with]",
-      "id": "[and/with]"
+      "id": "[and/with]",
+      "es": "and/with",
+      "pt": "and/with"
     },
     "ex": "友達と行く",
     "exm": {
@@ -209,7 +247,9 @@ const N5_GRAMMAR = [
       "zh-CN": "和朋友去",
       "ko": "[go with friend]",
       "vi": "[go with friend]",
-      "id": "[go with friend]"
+      "id": "[go with friend]",
+      "es": "go with friend",
+      "pt": "go with friend"
     }
   },
   {
@@ -221,7 +261,9 @@ const N5_GRAMMAR = [
       "zh-CN": "从...到...",
       "ko": "[from...to...]",
       "vi": "[from...to...]",
-      "id": "[from...to...]"
+      "id": "[from...to...]",
+      "es": "from...to...",
+      "pt": "from...to..."
     },
     "ex": "9時から5時まで",
     "exm": {
@@ -230,7 +272,9 @@ const N5_GRAMMAR = [
       "zh-CN": "从9点到5点",
       "ko": "[from 9 to 5]",
       "vi": "[from 9 to 5]",
-      "id": "[from 9 to 5]"
+      "id": "[from 9 to 5]",
+      "es": "from 9 to 5",
+      "pt": "from 9 to 5"
     }
   },
   {
@@ -242,7 +286,9 @@ const N5_GRAMMAR = [
       "zh-CN": "(动词礼貌形)",
       "ko": "[polite verb ending]",
       "vi": "[polite verb ending]",
-      "id": "[polite verb ending]"
+      "id": "[polite verb ending]",
+      "es": "polite verb ending",
+      "pt": "polite verb ending"
     },
     "ex": "食べます",
     "exm": {
@@ -251,7 +297,9 @@ const N5_GRAMMAR = [
       "zh-CN": "吃(礼貌)",
       "ko": "[eat (polite)]",
       "vi": "[eat (polite)]",
-      "id": "[eat (polite)]"
+      "id": "[eat (polite)]",
+      "es": "eat (polite)",
+      "pt": "eat (polite)"
     }
   },
   {
@@ -263,7 +311,9 @@ const N5_GRAMMAR = [
       "zh-CN": "不...",
       "ko": "[polite negative]",
       "vi": "[polite negative]",
-      "id": "[polite negative]"
+      "id": "[polite negative]",
+      "es": "polite negative",
+      "pt": "polite negative"
     },
     "ex": "食べません",
     "exm": {
@@ -272,7 +322,9 @@ const N5_GRAMMAR = [
       "zh-CN": "不吃",
       "ko": "[don't eat]",
       "vi": "[don't eat]",
-      "id": "[don't eat]"
+      "id": "[don't eat]",
+      "es": "don't eat",
+      "pt": "don't eat"
     }
   },
   {
@@ -284,7 +336,9 @@ const N5_GRAMMAR = [
       "zh-CN": "...了",
       "ko": "[polite past]",
       "vi": "[polite past]",
-      "id": "[polite past]"
+      "id": "[polite past]",
+      "es": "polite past",
+      "pt": "polite past"
     },
     "ex": "食べました",
     "exm": {
@@ -293,7 +347,9 @@ const N5_GRAMMAR = [
       "zh-CN": "吃了",
       "ko": "[ate]",
       "vi": "[ate]",
-      "id": "[ate]"
+      "id": "[ate]",
+      "es": "ate",
+      "pt": "ate"
     }
   },
   {
@@ -305,7 +361,9 @@ const N5_GRAMMAR = [
       "zh-CN": "没...",
       "ko": "[polite past negative]",
       "vi": "[polite past negative]",
-      "id": "[polite past negative]"
+      "id": "[polite past negative]",
+      "es": "polite past negative",
+      "pt": "polite past negative"
     },
     "ex": "食べませんでした",
     "exm": {
@@ -314,7 +372,9 @@ const N5_GRAMMAR = [
       "zh-CN": "没吃",
       "ko": "[didn't eat]",
       "vi": "[didn't eat]",
-      "id": "[didn't eat]"
+      "id": "[didn't eat]",
+      "es": "didn't eat",
+      "pt": "didn't eat"
     }
   },
   {
@@ -326,7 +386,9 @@ const N5_GRAMMAR = [
       "zh-CN": "一起...吧",
       "ko": "[let's...]",
       "vi": "[let's...]",
-      "id": "[let's...]"
+      "id": "[let's...]",
+      "es": "let's...",
+      "pt": "let's..."
     },
     "ex": "食べましょう",
     "exm": {
@@ -335,7 +397,9 @@ const N5_GRAMMAR = [
       "zh-CN": "一起吃吧",
       "ko": "[let's eat]",
       "vi": "[let's eat]",
-      "id": "[let's eat]"
+      "id": "[let's eat]",
+      "es": "let's eat",
+      "pt": "let's eat"
     }
   },
   {
@@ -347,7 +411,9 @@ const N5_GRAMMAR = [
       "zh-CN": "想...",
       "ko": "[want to...]",
       "vi": "[want to...]",
-      "id": "[want to...]"
+      "id": "[want to...]",
+      "es": "want to...",
+      "pt": "want to..."
     },
     "ex": "食べたい",
     "exm": {
@@ -356,7 +422,9 @@ const N5_GRAMMAR = [
       "zh-CN": "想吃",
       "ko": "[want to eat]",
       "vi": "[want to eat]",
-      "id": "[want to eat]"
+      "id": "[want to eat]",
+      "es": "want to eat",
+      "pt": "want to eat"
     }
   },
   {
@@ -368,7 +436,9 @@ const N5_GRAMMAR = [
       "zh-CN": "请...",
       "ko": "[please do...]",
       "vi": "[please do...]",
-      "id": "[please do...]"
+      "id": "[please do...]",
+      "es": "please do...",
+      "pt": "please do..."
     },
     "ex": "食べてください",
     "exm": {
@@ -377,7 +447,9 @@ const N5_GRAMMAR = [
       "zh-CN": "请吃",
       "ko": "[please eat]",
       "vi": "[please eat]",
-      "id": "[please eat]"
+      "id": "[please eat]",
+      "es": "please eat",
+      "pt": "please eat"
     }
   },
   {
@@ -389,7 +461,9 @@ const N5_GRAMMAR = [
       "zh-CN": "正在...",
       "ko": "[be doing...]",
       "vi": "[be doing...]",
-      "id": "[be doing...]"
+      "id": "[be doing...]",
+      "es": "be doing...",
+      "pt": "be doing..."
     },
     "ex": "食べている",
     "exm": {
@@ -398,7 +472,9 @@ const N5_GRAMMAR = [
       "zh-CN": "正在吃",
       "ko": "[eating]",
       "vi": "[eating]",
-      "id": "[eating]"
+      "id": "[eating]",
+      "es": "eating",
+      "pt": "eating"
     }
   },
   {
@@ -410,7 +486,9 @@ const N5_GRAMMAR = [
       "zh-CN": "可以...",
       "ko": "[may/can...]",
       "vi": "[may/can...]",
-      "id": "[may/can...]"
+      "id": "[may/can...]",
+      "es": "may/can...",
+      "pt": "may/can..."
     },
     "ex": "食べてもいい",
     "exm": {
@@ -419,7 +497,9 @@ const N5_GRAMMAR = [
       "zh-CN": "可以吃",
       "ko": "[may eat]",
       "vi": "[may eat]",
-      "id": "[may eat]"
+      "id": "[may eat]",
+      "es": "may eat",
+      "pt": "may eat"
     }
   },
   {
@@ -431,7 +511,9 @@ const N5_GRAMMAR = [
       "zh-CN": "不可以...",
       "ko": "[must not...]",
       "vi": "[must not...]",
-      "id": "[must not...]"
+      "id": "[must not...]",
+      "es": "must not...",
+      "pt": "must not..."
     },
     "ex": "食べてはいけない",
     "exm": {
@@ -440,7 +522,9 @@ const N5_GRAMMAR = [
       "zh-CN": "不可以吃",
       "ko": "[must not eat]",
       "vi": "[must not eat]",
-      "id": "[must not eat]"
+      "id": "[must not eat]",
+      "es": "must not eat",
+      "pt": "must not eat"
     }
   },
   {
@@ -452,7 +536,9 @@ const N5_GRAMMAR = [
       "zh-CN": "必须...",
       "ko": "[must...]",
       "vi": "[must...]",
-      "id": "[must...]"
+      "id": "[must...]",
+      "es": "must...",
+      "pt": "must..."
     },
     "ex": "食べなければならない",
     "exm": {
@@ -461,7 +547,9 @@ const N5_GRAMMAR = [
       "zh-CN": "必须吃",
       "ko": "[must eat]",
       "vi": "[must eat]",
-      "id": "[must eat]"
+      "id": "[must eat]",
+      "es": "must eat",
+      "pt": "must eat"
     }
   },
   {
@@ -473,7 +561,9 @@ const N5_GRAMMAR = [
       "zh-CN": "能...",
       "ko": "[can...]",
       "vi": "[can...]",
-      "id": "[can...]"
+      "id": "[can...]",
+      "es": "can...",
+      "pt": "can..."
     },
     "ex": "食べることができる",
     "exm": {
@@ -482,7 +572,9 @@ const N5_GRAMMAR = [
       "zh-CN": "能吃",
       "ko": "[can eat]",
       "vi": "[can eat]",
-      "id": "[can eat]"
+      "id": "[can eat]",
+      "es": "can eat",
+      "pt": "can eat"
     }
   },
   {
@@ -494,7 +586,9 @@ const N5_GRAMMAR = [
       "zh-CN": "曾经...过",
       "ko": "[have done...]",
       "vi": "[have done...]",
-      "id": "[have done...]"
+      "id": "[have done...]",
+      "es": "have done...",
+      "pt": "have done..."
     },
     "ex": "食べたことがある",
     "exm": {
@@ -503,7 +597,9 @@ const N5_GRAMMAR = [
       "zh-CN": "曾经吃过",
       "ko": "[have eaten]",
       "vi": "[have eaten]",
-      "id": "[have eaten]"
+      "id": "[have eaten]",
+      "es": "have eaten",
+      "pt": "have eaten"
     }
   },
   {
@@ -515,7 +611,9 @@ const N5_GRAMMAR = [
       "zh-CN": "...之前",
       "ko": "[before...]",
       "vi": "[before...]",
-      "id": "[before...]"
+      "id": "[before...]",
+      "es": "before...",
+      "pt": "before..."
     },
     "ex": "食べる前に",
     "exm": {
@@ -524,7 +622,9 @@ const N5_GRAMMAR = [
       "zh-CN": "吃之前",
       "ko": "[before eating]",
       "vi": "[before eating]",
-      "id": "[before eating]"
+      "id": "[before eating]",
+      "es": "before eating",
+      "pt": "before eating"
     }
   },
   {
@@ -536,7 +636,9 @@ const N5_GRAMMAR = [
       "zh-CN": "...之后",
       "ko": "[after...]",
       "vi": "[after...]",
-      "id": "[after...]"
+      "id": "[after...]",
+      "es": "after...",
+      "pt": "after..."
     },
     "ex": "食べた後で",
     "exm": {
@@ -545,7 +647,9 @@ const N5_GRAMMAR = [
       "zh-CN": "吃之后",
       "ko": "[after eating]",
       "vi": "[after eating]",
-      "id": "[after eating]"
+      "id": "[after eating]",
+      "es": "after eating",
+      "pt": "after eating"
     }
   },
   {
@@ -557,7 +661,9 @@ const N5_GRAMMAR = [
       "zh-CN": "一边...一边",
       "ko": "[while...]",
       "vi": "[while...]",
-      "id": "[while...]"
+      "id": "[while...]",
+      "es": "while...",
+      "pt": "while..."
     },
     "ex": "食べながら話す",
     "exm": {
@@ -566,7 +672,9 @@ const N5_GRAMMAR = [
       "zh-CN": "边吃边说",
       "ko": "[talk while eating]",
       "vi": "[talk while eating]",
-      "id": "[talk while eating]"
+      "id": "[talk while eating]",
+      "es": "talk while eating",
+      "pt": "talk while eating"
     }
   },
   {
@@ -578,7 +686,9 @@ const N5_GRAMMAR = [
       "zh-CN": "又...又...",
       "ko": "[do things like...]",
       "vi": "[do things like...]",
-      "id": "[do things like...]"
+      "id": "[do things like...]",
+      "es": "do things like...",
+      "pt": "do things like..."
     },
     "ex": "食べたり飲んだりする",
     "exm": {
@@ -587,7 +697,9 @@ const N5_GRAMMAR = [
       "zh-CN": "又吃又喝",
       "ko": "[eat and drink]",
       "vi": "[eat and drink]",
-      "id": "[eat and drink]"
+      "id": "[eat and drink]",
+      "es": "eat and drink",
+      "pt": "eat and drink"
     }
   },
   {
@@ -599,7 +711,9 @@ const N5_GRAMMAR = [
       "zh-CN": "喜欢...",
       "ko": "[like doing...]",
       "vi": "[like doing...]",
-      "id": "[like doing...]"
+      "id": "[like doing...]",
+      "es": "like doing...",
+      "pt": "like doing..."
     },
     "ex": "食べるのが好き",
     "exm": {
@@ -608,7 +722,9 @@ const N5_GRAMMAR = [
       "zh-CN": "喜欢吃",
       "ko": "[like eating]",
       "vi": "[like eating]",
-      "id": "[like eating]"
+      "id": "[like eating]",
+      "es": "like eating",
+      "pt": "like eating"
     }
   },
   {
@@ -620,7 +736,9 @@ const N5_GRAMMAR = [
       "zh-CN": "擅长...",
       "ko": "[good at...]",
       "vi": "[good at...]",
-      "id": "[good at...]"
+      "id": "[good at...]",
+      "es": "good at...",
+      "pt": "good at..."
     },
     "ex": "料理するのが上手",
     "exm": {
@@ -629,7 +747,9 @@ const N5_GRAMMAR = [
       "zh-CN": "擅长做菜",
       "ko": "[good at cooking]",
       "vi": "[good at cooking]",
-      "id": "[good at cooking]"
+      "id": "[good at cooking]",
+      "es": "good at cooking",
+      "pt": "good at cooking"
     }
   },
   {
@@ -641,7 +761,9 @@ const N5_GRAMMAR = [
       "zh-CN": "打算...",
       "ko": "[intend to...]",
       "vi": "[intend to...]",
-      "id": "[intend to...]"
+      "id": "[intend to...]",
+      "es": "intend to...",
+      "pt": "intend to..."
     },
     "ex": "食べるつもり",
     "exm": {
@@ -650,7 +772,9 @@ const N5_GRAMMAR = [
       "zh-CN": "打算吃",
       "ko": "[intend to eat]",
       "vi": "[intend to eat]",
-      "id": "[intend to eat]"
+      "id": "[intend to eat]",
+      "es": "intend to eat",
+      "pt": "intend to eat"
     }
   },
   {
@@ -662,7 +786,9 @@ const N5_GRAMMAR = [
       "zh-CN": "最好...",
       "ko": "[should...]",
       "vi": "[should...]",
-      "id": "[should...]"
+      "id": "[should...]",
+      "es": "should...",
+      "pt": "should..."
     },
     "ex": "食べたほうがいい",
     "exm": {
@@ -671,7 +797,9 @@ const N5_GRAMMAR = [
       "zh-CN": "最好吃",
       "ko": "[should eat]",
       "vi": "[should eat]",
-      "id": "[should eat]"
+      "id": "[should eat]",
+      "es": "should eat",
+      "pt": "should eat"
     }
   },
   {
@@ -683,7 +811,9 @@ const N5_GRAMMAR = [
       "zh-CN": "认为...",
       "ko": "[think that...]",
       "vi": "[think that...]",
-      "id": "[think that...]"
+      "id": "[think that...]",
+      "es": "think that...",
+      "pt": "think that..."
     },
     "ex": "美味しいと思う",
     "exm": {
@@ -692,7 +822,9 @@ const N5_GRAMMAR = [
       "zh-CN": "觉得好吃",
       "ko": "[think delicious]",
       "vi": "[think delicious]",
-      "id": "[think delicious]"
+      "id": "[think delicious]",
+      "es": "think delicious",
+      "pt": "think delicious"
     }
   },
   {
@@ -704,7 +836,9 @@ const N5_GRAMMAR = [
       "zh-CN": "说...",
       "ko": "[say that...]",
       "vi": "[say that...]",
-      "id": "[say that...]"
+      "id": "[say that...]",
+      "es": "say that...",
+      "pt": "say that..."
     },
     "ex": "美味しいと言う",
     "exm": {
@@ -713,7 +847,9 @@ const N5_GRAMMAR = [
       "zh-CN": "说好吃",
       "ko": "[say delicious]",
       "vi": "[say delicious]",
-      "id": "[say delicious]"
+      "id": "[say delicious]",
+      "es": "say delicious",
+      "pt": "say delicious"
     }
   },
   {
@@ -725,7 +861,9 @@ const N5_GRAMMAR = [
       "zh-CN": "听说...",
       "ko": "[I heard...]",
       "vi": "[I heard...]",
-      "id": "[I heard...]"
+      "id": "[I heard...]",
+      "es": "I heard...",
+      "pt": "I heard..."
     },
     "ex": "美味しいそうです",
     "exm": {
@@ -734,7 +872,9 @@ const N5_GRAMMAR = [
       "zh-CN": "听说好吃",
       "ko": "[I heard it's delicious]",
       "vi": "[I heard it's delicious]",
-      "id": "[I heard it's delicious]"
+      "id": "[I heard it's delicious]",
+      "es": "I heard it's delicious",
+      "pt": "I heard it's delicious"
     }
   },
   {
@@ -746,7 +886,9 @@ const N5_GRAMMAR = [
       "zh-CN": "尽量...",
       "ko": "[try to...]",
       "vi": "[try to...]",
-      "id": "[try to...]"
+      "id": "[try to...]",
+      "es": "try to...",
+      "pt": "try to..."
     },
     "ex": "毎日食べるようにする",
     "exm": {
@@ -755,7 +897,9 @@ const N5_GRAMMAR = [
       "zh-CN": "尽量每天吃",
       "ko": "[try to eat daily]",
       "vi": "[try to eat daily]",
-      "id": "[try to eat daily]"
+      "id": "[try to eat daily]",
+      "es": "try to eat daily",
+      "pt": "try to eat daily"
     }
   },
   {
@@ -767,7 +911,9 @@ const N5_GRAMMAR = [
       "zh-CN": "变成...",
       "ko": "[become...]",
       "vi": "[become...]",
-      "id": "[become...]"
+      "id": "[become...]",
+      "es": "become...",
+      "pt": "become..."
     },
     "ex": "医者になる",
     "exm": {
@@ -776,7 +922,9 @@ const N5_GRAMMAR = [
       "zh-CN": "成为医生",
       "ko": "[become a doctor]",
       "vi": "[become a doctor]",
-      "id": "[become a doctor]"
+      "id": "[become a doctor]",
+      "es": "become a doctor",
+      "pt": "become a doctor"
     }
   },
   {
@@ -788,7 +936,9 @@ const N5_GRAMMAR = [
       "zh-CN": "决定...",
       "ko": "[decide on...]",
       "vi": "[decide on...]",
-      "id": "[decide on...]"
+      "id": "[decide on...]",
+      "es": "decide on...",
+      "pt": "decide on..."
     },
     "ex": "これにする",
     "exm": {
@@ -797,7 +947,9 @@ const N5_GRAMMAR = [
       "zh-CN": "决定这个",
       "ko": "[decide on this]",
       "vi": "[decide on this]",
-      "id": "[decide on this]"
+      "id": "[decide on this]",
+      "es": "decide on this",
+      "pt": "decide on this"
     }
   },
   {
@@ -809,7 +961,9 @@ const N5_GRAMMAR = [
       "zh-CN": "变得...",
       "ko": "[become (adj)]",
       "vi": "[become (adj)]",
-      "id": "[become (adj)]"
+      "id": "[become (adj)]",
+      "es": "become (adj)",
+      "pt": "become (adj)"
     },
     "ex": "暖かくなる",
     "exm": {
@@ -818,7 +972,9 @@ const N5_GRAMMAR = [
       "zh-CN": "变暖",
       "ko": "[become warm]",
       "vi": "[become warm]",
-      "id": "[become warm]"
+      "id": "[become warm]",
+      "es": "become warm",
+      "pt": "become warm"
     }
   },
   {
@@ -830,7 +986,9 @@ const N5_GRAMMAR = [
       "zh-CN": "太...",
       "ko": "[too much...]",
       "vi": "[too much...]",
-      "id": "[too much...]"
+      "id": "[too much...]",
+      "es": "too much...",
+      "pt": "too much..."
     },
     "ex": "食べすぎる",
     "exm": {
@@ -839,7 +997,9 @@ const N5_GRAMMAR = [
       "zh-CN": "吃太多",
       "ko": "[eat too much]",
       "vi": "[eat too much]",
-      "id": "[eat too much]"
+      "id": "[eat too much]",
+      "es": "eat too much",
+      "pt": "eat too much"
     }
   },
   {
@@ -851,7 +1011,9 @@ const N5_GRAMMAR = [
       "zh-CN": "做完...之后",
       "ko": "~하고 나서",
       "vi": "sau khi",
-      "id": "setelah"
+      "id": "setelah",
+      "es": "after doing",
+      "pt": "after doing"
     },
     "ex": "食べてから寝る",
     "exm": {
@@ -860,7 +1022,9 @@ const N5_GRAMMAR = [
       "zh-CN": "吃完后睡觉",
       "ko": "먹고 나서 자다",
       "vi": "ngủ sau khi ăn",
-      "id": "tidur setelah makan"
+      "id": "tidur setelah makan",
+      "es": "sleep after eating",
+      "pt": "sleep after eating"
     }
   },
   {
@@ -872,7 +1036,9 @@ const N5_GRAMMAR = [
       "zh-CN": "...之前",
       "ko": "~하기 전에",
       "vi": "trước khi",
-      "id": "sebelum"
+      "id": "sebelum",
+      "es": "before",
+      "pt": "before"
     },
     "ex": "寝る前に歯を磨く",
     "exm": {
@@ -881,7 +1047,9 @@ const N5_GRAMMAR = [
       "zh-CN": "睡前刷牙",
       "ko": "자기 전에 이를 닦다",
       "vi": "đánh răng trước khi ngủ",
-      "id": "sikat gigi sebelum tidur"
+      "id": "sikat gigi sebelum tidur",
+      "es": "brush teeth before bed",
+      "pt": "brush teeth before bed"
     }
   },
   {
@@ -893,7 +1061,9 @@ const N5_GRAMMAR = [
       "zh-CN": "...之后",
       "ko": "~한 후에",
       "vi": "sau khi",
-      "id": "setelah"
+      "id": "setelah",
+      "es": "after",
+      "pt": "after"
     },
     "ex": "仕事の後で飲む",
     "exm": {
@@ -902,7 +1072,9 @@ const N5_GRAMMAR = [
       "zh-CN": "工作后喝酒",
       "ko": "일 후에 마시다",
       "vi": "uống sau giờ làm",
-      "id": "minum setelah kerja"
+      "id": "minum setelah kerja",
+      "es": "drink after work",
+      "pt": "drink after work"
     }
   },
   {
@@ -914,7 +1086,9 @@ const N5_GRAMMAR = [
       "zh-CN": "...的时候",
       "ko": "~할 때",
       "vi": "khi",
-      "id": "ketika"
+      "id": "ketika",
+      "es": "when",
+      "pt": "when"
     },
     "ex": "暇な時本を読む",
     "exm": {
@@ -923,7 +1097,9 @@ const N5_GRAMMAR = [
       "zh-CN": "有空时看书",
       "ko": "한가할 때 책을 읽다",
       "vi": "đọc sách khi rảnh",
-      "id": "membaca saat senggang"
+      "id": "membaca saat senggang",
+      "es": "read when free",
+      "pt": "read when free"
     }
   },
   {
@@ -935,7 +1111,9 @@ const N5_GRAMMAR = [
       "zh-CN": "一边...一边",
       "ko": "~하면서",
       "vi": "vừa...vừa",
-      "id": "sambil"
+      "id": "sambil",
+      "es": "while doing",
+      "pt": "while doing"
     },
     "ex": "歌いながら歩く",
     "exm": {
@@ -944,7 +1122,9 @@ const N5_GRAMMAR = [
       "zh-CN": "一边唱歌一边走",
       "ko": "노래하면서 걷다",
       "vi": "vừa hát vừa đi",
-      "id": "berjalan sambil bernyanyi"
+      "id": "berjalan sambil bernyanyi",
+      "es": "walk while singing",
+      "pt": "walk while singing"
     }
   },
   {
@@ -956,7 +1136,9 @@ const N5_GRAMMAR = [
       "zh-CN": "又...又...",
       "ko": "~하거나 ~하거나",
       "vi": "khi thì...khi thì",
-      "id": "kadang...kadang"
+      "id": "kadang...kadang",
+      "es": "doing things like",
+      "pt": "doing things like"
     },
     "ex": "食べたり飲んだりする",
     "exm": {
@@ -965,7 +1147,9 @@ const N5_GRAMMAR = [
       "zh-CN": "又吃又喝",
       "ko": "먹거나 마시거나 하다",
       "vi": "ăn uống",
-      "id": "makan minum dll"
+      "id": "makan minum dll",
+      "es": "eat and drink etc",
+      "pt": "eat and drink etc"
     }
   },
   {
@@ -977,7 +1161,9 @@ const N5_GRAMMAR = [
       "zh-CN": "又...又...",
       "ko": "~하고 ~하고",
       "vi": "vừa...vừa",
-      "id": "dan juga"
+      "id": "dan juga",
+      "es": "and also",
+      "pt": "and also"
     },
     "ex": "安いし美味しい",
     "exm": {
@@ -986,7 +1172,9 @@ const N5_GRAMMAR = [
       "zh-CN": "又便宜又好吃",
       "ko": "싸고 맛있다",
       "vi": "vừa rẻ vừa ngon",
-      "id": "murah dan enak"
+      "id": "murah dan enak",
+      "es": "cheap and delicious",
+      "pt": "cheap and delicious"
     }
   },
   {
@@ -998,7 +1186,9 @@ const N5_GRAMMAR = [
       "zh-CN": "虽然...但是",
       "ko": "~하는데도",
       "vi": "mặc dù",
-      "id": "meskipun"
+      "id": "meskipun",
+      "es": "although",
+      "pt": "although"
     },
     "ex": "高いのに買った",
     "exm": {
@@ -1007,7 +1197,9 @@ const N5_GRAMMAR = [
       "zh-CN": "虽然贵但还是买了",
       "ko": "비싼데도 샀다",
       "vi": "mặc dù đắt nhưng đã mua",
-      "id": "meskipun mahal tetap beli"
+      "id": "meskipun mahal tetap beli",
+      "es": "bought although expensive",
+      "pt": "bought although expensive"
     }
   },
   {
@@ -1019,7 +1211,9 @@ const N5_GRAMMAR = [
       "zh-CN": "即使...也",
       "ko": "~해도",
       "vi": "dù...cũng",
-      "id": "walaupun"
+      "id": "walaupun",
+      "es": "even if",
+      "pt": "even if"
     },
     "ex": "雨が降っても行く",
     "exm": {
@@ -1028,7 +1222,9 @@ const N5_GRAMMAR = [
       "zh-CN": "即使下雨也去",
       "ko": "비가 와도 간다",
       "vi": "dù mưa cũng đi",
-      "id": "pergi walaupun hujan"
+      "id": "pergi walaupun hujan",
+      "es": "go even if rains",
+      "pt": "go even if rains"
     }
   },
   {
@@ -1040,7 +1236,9 @@ const N5_GRAMMAR = [
       "zh-CN": "如果...的话",
       "ko": "~하면",
       "vi": "nếu",
-      "id": "kalau"
+      "id": "kalau",
+      "es": "if/when",
+      "pt": "if/when"
     },
     "ex": "雨が降ったら中止",
     "exm": {
@@ -1049,7 +1247,9 @@ const N5_GRAMMAR = [
       "zh-CN": "如果下雨就取消",
       "ko": "비가 오면 중지",
       "vi": "nếu mưa thì hủy",
-      "id": "kalau hujan dibatalkan"
+      "id": "kalau hujan dibatalkan",
+      "es": "cancel if rain",
+      "pt": "cancel if rain"
     }
   },
   {
@@ -1061,7 +1261,9 @@ const N5_GRAMMAR = [
       "zh-CN": "如果",
       "ko": "~하면",
       "vi": "nếu",
-      "id": "jika"
+      "id": "jika",
+      "es": "if",
+      "pt": "if"
     },
     "ex": "行けば分かる",
     "exm": {
@@ -1070,7 +1272,9 @@ const N5_GRAMMAR = [
       "zh-CN": "去了就知道",
       "ko": "가면 알 수 있다",
       "vi": "đi sẽ biết",
-      "id": "pergi akan tahu"
+      "id": "pergi akan tahu",
+      "es": "will know if go",
+      "pt": "will know if go"
     }
   },
   {
@@ -1082,7 +1286,9 @@ const N5_GRAMMAR = [
       "zh-CN": "如果是...的话",
       "ko": "~라면",
       "vi": "nếu là",
-      "id": "kalau"
+      "id": "kalau",
+      "es": "if it's",
+      "pt": "if it's"
     },
     "ex": "あなたなら大丈夫",
     "exm": {
@@ -1091,7 +1297,9 @@ const N5_GRAMMAR = [
       "zh-CN": "如果是你就没问题",
       "ko": "너라면 괜찮아",
       "vi": "nếu là bạn thì ổn",
-      "id": "kalau kamu pasti baik"
+      "id": "kalau kamu pasti baik",
+      "es": "you will be fine",
+      "pt": "you will be fine"
     }
   },
   {
@@ -1103,7 +1311,9 @@ const N5_GRAMMAR = [
       "zh-CN": "看起来",
       "ko": "~할 것 같다",
       "vi": "trông có vẻ",
-      "id": "kelihatannya"
+      "id": "kelihatannya",
+      "es": "looks like",
+      "pt": "looks like"
     },
     "ex": "美味しそう",
     "exm": {
@@ -1112,7 +1322,9 @@ const N5_GRAMMAR = [
       "zh-CN": "看起来很好吃",
       "ko": "맛있어 보인다",
       "vi": "trông ngon",
-      "id": "kelihatannya enak"
+      "id": "kelihatannya enak",
+      "es": "looks delicious",
+      "pt": "looks delicious"
     }
   },
   {
@@ -1124,7 +1336,9 @@ const N5_GRAMMAR = [
       "zh-CN": "听说",
       "ko": "~라고 한다",
       "vi": "nghe nói",
-      "id": "katanya"
+      "id": "katanya",
+      "es": "I heard that",
+      "pt": "I heard that"
     },
     "ex": "明日雨だそうだ",
     "exm": {
@@ -1133,7 +1347,9 @@ const N5_GRAMMAR = [
       "zh-CN": "听说明天会下雨",
       "ko": "내일 비가 온다고 한다",
       "vi": "nghe nói mai mưa",
-      "id": "katanya besok hujan"
+      "id": "katanya besok hujan",
+      "es": "I heard it will rain",
+      "pt": "I heard it will rain"
     }
   },
   {
@@ -1145,7 +1361,9 @@ const N5_GRAMMAR = [
       "zh-CN": "好像",
       "ko": "~인 것 같다",
       "vi": "có vẻ như",
-      "id": "sepertinya"
+      "id": "sepertinya",
+      "es": "seems like",
+      "pt": "seems like"
     },
     "ex": "風邪のようだ",
     "exm": {
@@ -1154,7 +1372,9 @@ const N5_GRAMMAR = [
       "zh-CN": "好像感冒了",
       "ko": "감기인 것 같다",
       "vi": "có vẻ bị cảm",
-      "id": "sepertinya masuk angin"
+      "id": "sepertinya masuk angin",
+      "es": "seems like cold",
+      "pt": "seems like cold"
     }
   },
   {
@@ -1166,7 +1386,9 @@ const N5_GRAMMAR = [
       "zh-CN": "好像",
       "ko": "~인 것 같다",
       "vi": "hình như",
-      "id": "sepertinya"
+      "id": "sepertinya",
+      "es": "apparently",
+      "pt": "apparently"
     },
     "ex": "彼は医者らしい",
     "exm": {
@@ -1175,7 +1397,9 @@ const N5_GRAMMAR = [
       "zh-CN": "他好像是医生",
       "ko": "그는 의사인 것 같다",
       "vi": "hình như anh ấy là bác sĩ",
-      "id": "sepertinya dia dokter"
+      "id": "sepertinya dia dokter",
+      "es": "he's apparently doctor",
+      "pt": "he's apparently doctor"
     }
   },
   {
@@ -1187,7 +1411,9 @@ const N5_GRAMMAR = [
       "zh-CN": "也许",
       "ko": "~할지도 모른다",
       "vi": "có thể",
-      "id": "mungkin"
+      "id": "mungkin",
+      "es": "might",
+      "pt": "might"
     },
     "ex": "雨かもしれない",
     "exm": {
@@ -1196,7 +1422,9 @@ const N5_GRAMMAR = [
       "zh-CN": "也许会下雨",
       "ko": "비가 올지도 모른다",
       "vi": "có thể mưa",
-      "id": "mungkin hujan"
+      "id": "mungkin hujan",
+      "es": "might rain",
+      "pt": "might rain"
     }
   },
   {
@@ -1208,7 +1436,9 @@ const N5_GRAMMAR = [
       "zh-CN": "应该",
       "ko": "~할 것이다",
       "vi": "chắc hẳn",
-      "id": "seharusnya"
+      "id": "seharusnya",
+      "es": "should be",
+      "pt": "should be"
     },
     "ex": "届くはずだ",
     "exm": {
@@ -1217,7 +1447,9 @@ const N5_GRAMMAR = [
       "zh-CN": "应该会到",
       "ko": "도착할 것이다",
       "vi": "chắc sẽ đến",
-      "id": "seharusnya sampai"
+      "id": "seharusnya sampai",
+      "es": "should arrive",
+      "pt": "should arrive"
     }
   },
   {
@@ -1229,7 +1461,9 @@ const N5_GRAMMAR = [
       "zh-CN": "打算",
       "ko": "~할 생각이다",
       "vi": "định",
-      "id": "berniat"
+      "id": "berniat",
+      "es": "intend to",
+      "pt": "intend to"
     },
     "ex": "行くつもりだ",
     "exm": {
@@ -1238,7 +1472,9 @@ const N5_GRAMMAR = [
       "zh-CN": "打算去",
       "ko": "갈 생각이다",
       "vi": "định đi",
-      "id": "berniat pergi"
+      "id": "berniat pergi",
+      "es": "intend to go",
+      "pt": "intend to go"
     }
   },
   {
@@ -1250,7 +1486,9 @@ const N5_GRAMMAR = [
       "zh-CN": "决定",
       "ko": "~하기로 하다",
       "vi": "quyết định",
-      "id": "memutuskan"
+      "id": "memutuskan",
+      "es": "decide to",
+      "pt": "decide to"
     },
     "ex": "行くことにした",
     "exm": {
@@ -1259,7 +1497,9 @@ const N5_GRAMMAR = [
       "zh-CN": "决定去了",
       "ko": "가기로 했다",
       "vi": "đã quyết định đi",
-      "id": "memutuskan pergi"
+      "id": "memutuskan pergi",
+      "es": "decided to go",
+      "pt": "decided to go"
     }
   },
   {
@@ -1271,7 +1511,9 @@ const N5_GRAMMAR = [
       "zh-CN": "变成",
       "ko": "~하게 되다",
       "vi": "trở nên",
-      "id": "menjadi"
+      "id": "menjadi",
+      "es": "it's been decided",
+      "pt": "it's been decided"
     },
     "ex": "行くことになった",
     "exm": {
@@ -1280,7 +1522,9 @@ const N5_GRAMMAR = [
       "zh-CN": "变成要去了",
       "ko": "가게 되었다",
       "vi": "đã được quyết định đi",
-      "id": "jadi pergi"
+      "id": "jadi pergi",
+      "es": "it was decided to go",
+      "pt": "it was decided to go"
     }
   },
   {
@@ -1292,7 +1536,9 @@ const N5_GRAMMAR = [
       "zh-CN": "尽量",
       "ko": "~하도록 하다",
       "vi": "cố gắng",
-      "id": "berusaha"
+      "id": "berusaha",
+      "es": "try to",
+      "pt": "try to"
     },
     "ex": "早く寝るようにする",
     "exm": {
@@ -1301,7 +1547,9 @@ const N5_GRAMMAR = [
       "zh-CN": "尽量早睡",
       "ko": "일찍 자도록 하다",
       "vi": "cố gắng ngủ sớm",
-      "id": "berusaha tidur awal"
+      "id": "berusaha tidur awal",
+      "es": "try to sleep early",
+      "pt": "try to sleep early"
     }
   },
   {
@@ -1313,7 +1561,9 @@ const N5_GRAMMAR = [
       "zh-CN": "变得能",
       "ko": "~하게 되다",
       "vi": "trở nên có thể",
-      "id": "menjadi bisa"
+      "id": "menjadi bisa",
+      "es": "come to be able",
+      "pt": "come to be able"
     },
     "ex": "話せるようになった",
     "exm": {
@@ -1322,7 +1572,9 @@ const N5_GRAMMAR = [
       "zh-CN": "变得会说了",
       "ko": "말할 수 있게 되었다",
       "vi": "đã có thể nói được",
-      "id": "menjadi bisa berbicara"
+      "id": "menjadi bisa berbicara",
+      "es": "came to be able to speak",
+      "pt": "came to be able to speak"
     }
   },
   {
@@ -1334,7 +1586,9 @@ const N5_GRAMMAR = [
       "zh-CN": "不小心",
       "ko": "~해 버리다",
       "vi": "lỡ",
-      "id": "terlanjur"
+      "id": "terlanjur",
+      "es": "end up doing",
+      "pt": "end up doing"
     },
     "ex": "食べてしまった",
     "exm": {
@@ -1343,7 +1597,9 @@ const N5_GRAMMAR = [
       "zh-CN": "不小心吃掉了",
       "ko": "먹어 버렸다",
       "vi": "đã lỡ ăn",
-      "id": "terlanjur makan"
+      "id": "terlanjur makan",
+      "es": "ended up eating",
+      "pt": "ended up eating"
     }
   },
   {
@@ -1355,7 +1611,9 @@ const N5_GRAMMAR = [
       "zh-CN": "事先",
       "ko": "~해 두다",
       "vi": "làm trước",
-      "id": "siap-siap"
+      "id": "siap-siap",
+      "es": "do in advance",
+      "pt": "do in advance"
     },
     "ex": "買っておく",
     "exm": {
@@ -1364,7 +1622,9 @@ const N5_GRAMMAR = [
       "zh-CN": "事先买好",
       "ko": "사 두다",
       "vi": "mua trước",
-      "id": "beli dulu"
+      "id": "beli dulu",
+      "es": "buy in advance",
+      "pt": "buy in advance"
     }
   },
   {
@@ -1376,7 +1636,9 @@ const N5_GRAMMAR = [
       "zh-CN": "已经...了",
       "ko": "~해 있다",
       "vi": "đã được",
-      "id": "sudah"
+      "id": "sudah",
+      "es": "has been done",
+      "pt": "has been done"
     },
     "ex": "窓が開けてある",
     "exm": {
@@ -1385,7 +1647,9 @@ const N5_GRAMMAR = [
       "zh-CN": "窗户开着",
       "ko": "창문이 열려 있다",
       "vi": "cửa sổ đã được mở",
-      "id": "jendela sudah dibuka"
+      "id": "jendela sudah dibuka",
+      "es": "window has been opened",
+      "pt": "window has been opened"
     }
   },
   {
@@ -1397,7 +1661,9 @@ const N5_GRAMMAR = [
       "zh-CN": "正在...状态",
       "ko": "~하고 있다",
       "vi": "đang ở trạng thái",
-      "id": "sedang"
+      "id": "sedang",
+      "es": "is in state",
+      "pt": "is in state"
     },
     "ex": "結婚している",
     "exm": {
@@ -1406,7 +1672,9 @@ const N5_GRAMMAR = [
       "zh-CN": "已婚",
       "ko": "결혼하고 있다",
       "vi": "đã kết hôn",
-      "id": "sudah menikah"
+      "id": "sudah menikah",
+      "es": "is married",
+      "pt": "is married"
     }
   },
   {
@@ -1418,7 +1686,9 @@ const N5_GRAMMAR = [
       "zh-CN": "...过来",
       "ko": "~해 오다",
       "vi": "đến",
-      "id": "datang"
+      "id": "datang",
+      "es": "come to do",
+      "pt": "come to do"
     },
     "ex": "持ってくる",
     "exm": {
@@ -1427,7 +1697,9 @@ const N5_GRAMMAR = [
       "zh-CN": "带过来",
       "ko": "가져오다",
       "vi": "mang đến",
-      "id": "membawa"
+      "id": "membawa",
+      "es": "bring",
+      "pt": "bring"
     }
   },
   {
@@ -1439,7 +1711,9 @@ const N5_GRAMMAR = [
       "zh-CN": "...下去",
       "ko": "~해 가다",
       "vi": "tiếp tục",
-      "id": "terus"
+      "id": "terus",
+      "es": "go on doing",
+      "pt": "go on doing"
     },
     "ex": "続けていく",
     "exm": {
@@ -1448,7 +1722,9 @@ const N5_GRAMMAR = [
       "zh-CN": "继续下去",
       "ko": "계속해 가다",
       "vi": "tiếp tục",
-      "id": "terus berlanjut"
+      "id": "terus berlanjut",
+      "es": "keep continuing",
+      "pt": "keep continuing"
     }
   },
   {
@@ -1460,7 +1736,9 @@ const N5_GRAMMAR = [
       "zh-CN": "试着",
       "ko": "~해 보다",
       "vi": "thử",
-      "id": "coba"
+      "id": "coba",
+      "es": "try doing",
+      "pt": "try doing"
     },
     "ex": "食べてみる",
     "exm": {
@@ -1469,7 +1747,9 @@ const N5_GRAMMAR = [
       "zh-CN": "试着吃",
       "ko": "먹어 보다",
       "vi": "thử ăn",
-      "id": "coba makan"
+      "id": "coba makan",
+      "es": "try eating",
+      "pt": "try eating"
     }
   },
   {
@@ -1481,7 +1761,9 @@ const N5_GRAMMAR = [
       "zh-CN": "希望...",
       "ko": "~해 주길 바라다",
       "vi": "muốn ai đó",
-      "id": "ingin seseorang"
+      "id": "ingin seseorang",
+      "es": "want someone to",
+      "pt": "want someone to"
     },
     "ex": "来てほしい",
     "exm": {
@@ -1490,7 +1772,9 @@ const N5_GRAMMAR = [
       "zh-CN": "希望你来",
       "ko": "와 주길 바란다",
       "vi": "muốn bạn đến",
-      "id": "ingin kamu datang"
+      "id": "ingin kamu datang",
+      "es": "want you to come",
+      "pt": "want you to come"
     }
   },
   {
@@ -1502,7 +1786,9 @@ const N5_GRAMMAR = [
       "zh-CN": "为...做",
       "ko": "~해 주다",
       "vi": "làm cho",
-      "id": "melakukan untuk"
+      "id": "melakukan untuk",
+      "es": "do for someone",
+      "pt": "do for someone"
     },
     "ex": "教えてあげる",
     "exm": {
@@ -1511,7 +1797,9 @@ const N5_GRAMMAR = [
       "zh-CN": "教你",
       "ko": "가르쳐 주다",
       "vi": "dạy cho bạn",
-      "id": "mengajarkan untukmu"
+      "id": "mengajarkan untukmu",
+      "es": "teach for you",
+      "pt": "teach for you"
     }
   },
   {
@@ -1523,7 +1811,9 @@ const N5_GRAMMAR = [
       "zh-CN": "请...做",
       "ko": "~해 받다",
       "vi": "được ai đó",
-      "id": "minta tolong"
+      "id": "minta tolong",
+      "es": "have someone do",
+      "pt": "have someone do"
     },
     "ex": "手伝ってもらう",
     "exm": {
@@ -1532,7 +1822,9 @@ const N5_GRAMMAR = [
       "zh-CN": "请人帮忙",
       "ko": "도와 받다",
       "vi": "được giúp đỡ",
-      "id": "minta bantuan"
+      "id": "minta bantuan",
+      "es": "have someone help",
+      "pt": "have someone help"
     }
   },
   {
@@ -1544,7 +1836,9 @@ const N5_GRAMMAR = [
       "zh-CN": "为我...",
       "ko": "~해 주다",
       "vi": "ai đó làm cho tôi",
-      "id": "seseorang melakukan untukku"
+      "id": "seseorang melakukan untukku",
+      "es": "someone does for me",
+      "pt": "someone does for me"
     },
     "ex": "友達が助けてくれた",
     "exm": {
@@ -1553,7 +1847,9 @@ const N5_GRAMMAR = [
       "zh-CN": "朋友帮了我",
       "ko": "친구가 도와주었다",
       "vi": "bạn đã giúp tôi",
-      "id": "teman membantu saya"
+      "id": "teman membantu saya",
+      "es": "friend helped me",
+      "pt": "friend helped me"
     }
   },
   {
@@ -1565,7 +1861,9 @@ const N5_GRAMMAR = [
       "zh-CN": "让...做",
       "ko": "~시키다",
       "vi": "bắt/cho",
-      "id": "menyuruh"
+      "id": "menyuruh",
+      "es": "make/let do",
+      "pt": "make/let do"
     },
     "ex": "子供に手伝わせる",
     "exm": {
@@ -1574,7 +1872,9 @@ const N5_GRAMMAR = [
       "zh-CN": "让孩子帮忙",
       "ko": "아이에게 돕게 하다",
       "vi": "bắt con giúp",
-      "id": "menyuruh anak membantu"
+      "id": "menyuruh anak membantu",
+      "es": "make child help",
+      "pt": "make child help"
     }
   },
   {
@@ -1586,7 +1886,9 @@ const N5_GRAMMAR = [
       "zh-CN": "被",
       "ko": "~당하다",
       "vi": "bị",
-      "id": "di-"
+      "id": "di-",
+      "es": "passive",
+      "pt": "passive"
     },
     "ex": "母に叱られた",
     "exm": {
@@ -1595,7 +1897,9 @@ const N5_GRAMMAR = [
       "zh-CN": "被妈妈骂",
       "ko": "엄마에게 혼났다",
       "vi": "bị mẹ mắng",
-      "id": "dimarahi ibu"
+      "id": "dimarahi ibu",
+      "es": "was scolded by mother",
+      "pt": "was scolded by mother"
     }
   },
   {
@@ -1607,7 +1911,9 @@ const N5_GRAMMAR = [
       "zh-CN": "能",
       "ko": "~할 수 있다",
       "vi": "có thể",
-      "id": "bisa"
+      "id": "bisa",
+      "es": "can do",
+      "pt": "can do"
     },
     "ex": "食べられる",
     "exm": {
@@ -1616,7 +1922,9 @@ const N5_GRAMMAR = [
       "zh-CN": "能吃",
       "ko": "먹을 수 있다",
       "vi": "có thể ăn",
-      "id": "bisa makan"
+      "id": "bisa makan",
+      "es": "can eat",
+      "pt": "can eat"
     }
   },
   {
@@ -1628,7 +1936,9 @@ const N5_GRAMMAR = [
       "zh-CN": "(敬语)",
       "ko": "(존경)",
       "vi": "(kính ngữ)",
-      "id": "(hormat)"
+      "id": "(hormat)",
+      "es": "honorific",
+      "pt": "honorific"
     },
     "ex": "先生が来られる",
     "exm": {
@@ -1637,7 +1947,9 @@ const N5_GRAMMAR = [
       "zh-CN": "老师来(敬语)",
       "ko": "선생님이 오시다",
       "vi": "thầy đến",
-      "id": "guru datang"
+      "id": "guru datang",
+      "es": "teacher comes",
+      "pt": "teacher comes"
     }
   },
   {
@@ -1649,7 +1961,9 @@ const N5_GRAMMAR = [
       "zh-CN": "请不要",
       "ko": "~하지 마세요",
       "vi": "xin đừng",
-      "id": "tolong jangan"
+      "id": "tolong jangan",
+      "es": "please don't",
+      "pt": "please don't"
     },
     "ex": "触らないでください",
     "exm": {
@@ -1658,7 +1972,9 @@ const N5_GRAMMAR = [
       "zh-CN": "请不要摸",
       "ko": "만지지 마세요",
       "vi": "xin đừng chạm",
-      "id": "tolong jangan sentuh"
+      "id": "tolong jangan sentuh",
+      "es": "please don't touch",
+      "pt": "please don't touch"
     }
   },
   {
@@ -1670,7 +1986,9 @@ const N5_GRAMMAR = [
       "zh-CN": "必须",
       "ko": "~해야 한다",
       "vi": "phải",
-      "id": "harus"
+      "id": "harus",
+      "es": "must do",
+      "pt": "must do"
     },
     "ex": "行かなければならない",
     "exm": {
@@ -1679,9 +1997,9 @@ const N5_GRAMMAR = [
       "zh-CN": "必须去",
       "ko": "가야 한다",
       "vi": "phải đi",
-      "id": "harus pergi"
+      "id": "harus pergi",
+      "es": "must go",
+      "pt": "must go"
     }
   }
 ];
-
-if (typeof module !== 'undefined') module.exports = { N5_GRAMMAR };

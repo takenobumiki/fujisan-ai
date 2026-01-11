@@ -12,7 +12,9 @@ const N5_VOCAB = [
       "zh-CN": "吃",
       "ko": "먹다",
       "vi": "Ăn",
-      "id": "Makan"
+      "id": "Makan",
+      "es": "comer",
+      "pt": "comer"
     },
     "ex": "ご飯を食べる",
     "exm": {
@@ -21,7 +23,9 @@ const N5_VOCAB = [
       "zh-CN": "吃饭",
       "ko": "[eat rice]",
       "vi": "[eat rice]",
-      "id": "[eat rice]"
+      "id": "[eat rice]",
+      "es": "eat rice",
+      "pt": "eat rice"
     },
     "syn": [
       "食す",
@@ -39,7 +43,9 @@ const N5_VOCAB = [
       "zh-CN": "喝",
       "ko": "마시다",
       "vi": "Uống",
-      "id": "Minum"
+      "id": "Minum",
+      "es": "beber",
+      "pt": "beber"
     },
     "ex": "水を飲む",
     "exm": {
@@ -48,7 +54,9 @@ const N5_VOCAB = [
       "zh-CN": "喝水",
       "ko": "[drink water]",
       "vi": "[drink water]",
-      "id": "[drink water]"
+      "id": "[drink water]",
+      "es": "drink water",
+      "pt": "drink water"
     },
     "syn": [
       "服用する",
@@ -66,7 +74,9 @@ const N5_VOCAB = [
       "zh-CN": "看",
       "ko": "보다",
       "vi": "xem",
-      "id": "melihat"
+      "id": "melihat",
+      "es": "ver",
+      "pt": "ver"
     },
     "ex": "テレビを見る",
     "exm": {
@@ -75,7 +85,9 @@ const N5_VOCAB = [
       "zh-CN": "看电视",
       "ko": "[watch TV]",
       "vi": "[watch TV]",
-      "id": "[watch TV]"
+      "id": "[watch TV]",
+      "es": "watch TV",
+      "pt": "watch TV"
     },
     "syn": [
       "観る",
@@ -93,7 +105,9 @@ const N5_VOCAB = [
       "zh-CN": "听",
       "ko": "듣다",
       "vi": "nghe",
-      "id": "mendengar"
+      "id": "mendengar",
+      "es": "escuchar",
+      "pt": "ouvir"
     },
     "ex": "音楽を聞く",
     "exm": {
@@ -102,7 +116,9 @@ const N5_VOCAB = [
       "zh-CN": "听音乐",
       "ko": "[listen to music]",
       "vi": "[listen to music]",
-      "id": "[listen to music]"
+      "id": "[listen to music]",
+      "es": "listen to music",
+      "pt": "listen to music"
     },
     "syn": [
       "聴く",
@@ -120,7 +136,9 @@ const N5_VOCAB = [
       "zh-CN": "读",
       "ko": "읽다",
       "vi": "Đọc",
-      "id": "Membaca"
+      "id": "Membaca",
+      "es": "leer",
+      "pt": "ler"
     },
     "ex": "本を読む",
     "exm": {
@@ -129,7 +147,9 @@ const N5_VOCAB = [
       "zh-CN": "读书",
       "ko": "[read a book]",
       "vi": "[read a book]",
-      "id": "[read a book]"
+      "id": "[read a book]",
+      "es": "read a book",
+      "pt": "read a book"
     },
     "syn": [
       "目を通す",
@@ -147,7 +167,9 @@ const N5_VOCAB = [
       "zh-CN": "写",
       "ko": "쓰다",
       "vi": "Viết",
-      "id": "Menulis"
+      "id": "Menulis",
+      "es": "escribir",
+      "pt": "escrever"
     },
     "ex": "手紙を書く",
     "exm": {
@@ -156,7 +178,9 @@ const N5_VOCAB = [
       "zh-CN": "写信",
       "ko": "[write a letter]",
       "vi": "[write a letter]",
-      "id": "[write a letter]"
+      "id": "[write a letter]",
+      "es": "write a letter",
+      "pt": "write a letter"
     },
     "syn": [
       "記す",
@@ -174,7 +198,9 @@ const N5_VOCAB = [
       "zh-CN": "说",
       "ko": "말하다",
       "vi": "Nói",
-      "id": "Berbicara"
+      "id": "Berbicara",
+      "es": "to speak",
+      "pt": "to speak"
     },
     "ex": "日本語を話す",
     "exm": {
@@ -183,7 +209,9 @@ const N5_VOCAB = [
       "zh-CN": "说日语",
       "ko": "[speak Japanese]",
       "vi": "[speak Japanese]",
-      "id": "[speak Japanese]"
+      "id": "[speak Japanese]",
+      "es": "speak Japanese",
+      "pt": "speak Japanese"
     },
     "syn": [
       "喋る",
@@ -201,7 +229,9 @@ const N5_VOCAB = [
       "zh-CN": "说",
       "ko": "[to say]",
       "vi": "[to say]",
-      "id": "[to say]"
+      "id": "[to say]",
+      "es": "to say",
+      "pt": "to say"
     },
     "ex": "名前を言う",
     "exm": {
@@ -210,7 +240,9 @@ const N5_VOCAB = [
       "zh-CN": "说名字",
       "ko": "[say name]",
       "vi": "[say name]",
-      "id": "[say name]"
+      "id": "[say name]",
+      "es": "say name",
+      "pt": "say name"
     },
     "syn": [
       "述べる",
@@ -228,7 +260,9 @@ const N5_VOCAB = [
       "zh-CN": "去",
       "ko": "가다",
       "vi": "Đi",
-      "id": "Pergi"
+      "id": "Pergi",
+      "es": "ir",
+      "pt": "ir"
     },
     "ex": "学校に行く",
     "exm": {
@@ -237,7 +271,9 @@ const N5_VOCAB = [
       "zh-CN": "去学校",
       "ko": "[go to school]",
       "vi": "[go to school]",
-      "id": "[go to school]"
+      "id": "[go to school]",
+      "es": "go to school",
+      "pt": "go to school"
     },
     "syn": [
       "向かう",
@@ -255,7 +291,9 @@ const N5_VOCAB = [
       "zh-CN": "来",
       "ko": "오다",
       "vi": "Đến",
-      "id": "Datang"
+      "id": "Datang",
+      "es": "venir",
+      "pt": "vir"
     },
     "ex": "友達が来る",
     "exm": {
@@ -264,7 +302,9 @@ const N5_VOCAB = [
       "zh-CN": "朋友来",
       "ko": "[friend comes]",
       "vi": "[friend comes]",
-      "id": "[friend comes]"
+      "id": "[friend comes]",
+      "es": "friend comes",
+      "pt": "friend comes"
     },
     "syn": [
       "訪れる",
@@ -282,7 +322,9 @@ const N5_VOCAB = [
       "zh-CN": "回来",
       "ko": "돌아오다",
       "vi": "Trở về",
-      "id": "Kembali"
+      "id": "Kembali",
+      "es": "volver",
+      "pt": "voltar"
     },
     "ex": "家に帰る",
     "exm": {
@@ -291,7 +333,9 @@ const N5_VOCAB = [
       "zh-CN": "回家",
       "ko": "[go home]",
       "vi": "[go home]",
-      "id": "[go home]"
+      "id": "[go home]",
+      "es": "go home",
+      "pt": "go home"
     },
     "syn": [
       "戻る",
@@ -309,7 +353,9 @@ const N5_VOCAB = [
       "zh-CN": "进入",
       "ko": "들어가다",
       "vi": "Vào",
-      "id": "Masuk"
+      "id": "Masuk",
+      "es": "to enter",
+      "pt": "to enter"
     },
     "ex": "部屋に入る",
     "exm": {
@@ -318,7 +364,9 @@ const N5_VOCAB = [
       "zh-CN": "进房间",
       "ko": "[enter room]",
       "vi": "[enter room]",
-      "id": "[enter room]"
+      "id": "[enter room]",
+      "es": "enter room",
+      "pt": "enter room"
     },
     "syn": [
       "入室する",
@@ -336,7 +384,9 @@ const N5_VOCAB = [
       "zh-CN": "出去",
       "ko": "[to exit/leave]",
       "vi": "[to exit/leave]",
-      "id": "[to exit/leave]"
+      "id": "[to exit/leave]",
+      "es": "to exit/leave",
+      "pt": "to exit/leave"
     },
     "ex": "外に出る",
     "exm": {
@@ -345,7 +395,9 @@ const N5_VOCAB = [
       "zh-CN": "出去外面",
       "ko": "[go outside]",
       "vi": "[go outside]",
-      "id": "[go outside]"
+      "id": "[go outside]",
+      "es": "go outside",
+      "pt": "go outside"
     },
     "syn": [
       "出発する",
@@ -363,7 +415,9 @@ const N5_VOCAB = [
       "zh-CN": "起床",
       "ko": "일어나다",
       "vi": "Thức dậy",
-      "id": "Bangun"
+      "id": "Bangun",
+      "es": "to wake up",
+      "pt": "to wake up"
     },
     "ex": "朝起きる",
     "exm": {
@@ -372,7 +426,9 @@ const N5_VOCAB = [
       "zh-CN": "早上起床",
       "ko": "[wake up morning]",
       "vi": "[wake up morning]",
-      "id": "[wake up morning]"
+      "id": "[wake up morning]",
+      "es": "wake up morning",
+      "pt": "wake up morning"
     },
     "syn": [
       "起床する",
@@ -390,7 +446,9 @@ const N5_VOCAB = [
       "zh-CN": "睡觉",
       "ko": "자다",
       "vi": "Ngủ",
-      "id": "Tidur"
+      "id": "Tidur",
+      "es": "to sleep",
+      "pt": "to sleep"
     },
     "ex": "夜寝る",
     "exm": {
@@ -399,7 +457,9 @@ const N5_VOCAB = [
       "zh-CN": "晚上睡觉",
       "ko": "[sleep at night]",
       "vi": "[sleep at night]",
-      "id": "[sleep at night]"
+      "id": "[sleep at night]",
+      "es": "sleep at night",
+      "pt": "sleep at night"
     },
     "syn": [
       "就寝する",
@@ -417,7 +477,9 @@ const N5_VOCAB = [
       "zh-CN": "坐",
       "ko": "앉다",
       "vi": "Ngồi",
-      "id": "Duduk"
+      "id": "Duduk",
+      "es": "to sit",
+      "pt": "to sit"
     },
     "ex": "椅子に座る",
     "exm": {
@@ -426,7 +488,9 @@ const N5_VOCAB = [
       "zh-CN": "坐椅子",
       "ko": "[sit on chair]",
       "vi": "[sit on chair]",
-      "id": "[sit on chair]"
+      "id": "[sit on chair]",
+      "es": "sit on chair",
+      "pt": "sit on chair"
     },
     "syn": [
       "着席する",
@@ -444,7 +508,9 @@ const N5_VOCAB = [
       "zh-CN": "站",
       "ko": "서다",
       "vi": "Đứng",
-      "id": "Berdiri"
+      "id": "Berdiri",
+      "es": "to stand",
+      "pt": "to stand"
     },
     "ex": "ここに立つ",
     "exm": {
@@ -453,7 +519,9 @@ const N5_VOCAB = [
       "zh-CN": "站在这里",
       "ko": "[stand here]",
       "vi": "[stand here]",
-      "id": "[stand here]"
+      "id": "[stand here]",
+      "es": "stand here",
+      "pt": "stand here"
     },
     "syn": [
       "起立する",
@@ -471,7 +539,9 @@ const N5_VOCAB = [
       "zh-CN": "走路",
       "ko": "걷다",
       "vi": "Đi bộ",
-      "id": "Berjalan"
+      "id": "Berjalan",
+      "es": "to walk",
+      "pt": "to walk"
     },
     "ex": "道を歩く",
     "exm": {
@@ -480,7 +550,9 @@ const N5_VOCAB = [
       "zh-CN": "走路",
       "ko": "[walk on road]",
       "vi": "[walk on road]",
-      "id": "[walk on road]"
+      "id": "[walk on road]",
+      "es": "walk on road",
+      "pt": "walk on road"
     },
     "syn": [
       "歩行する",
@@ -498,7 +570,9 @@ const N5_VOCAB = [
       "zh-CN": "跑",
       "ko": "달리다",
       "vi": "Chạy",
-      "id": "Berlari"
+      "id": "Berlari",
+      "es": "to run",
+      "pt": "to run"
     },
     "ex": "公園を走る",
     "exm": {
@@ -507,7 +581,9 @@ const N5_VOCAB = [
       "zh-CN": "在公园跑步",
       "ko": "[run in park]",
       "vi": "[run in park]",
-      "id": "[run in park]"
+      "id": "[run in park]",
+      "es": "run in park",
+      "pt": "run in park"
     },
     "syn": [
       "駆ける",
@@ -525,7 +601,9 @@ const N5_VOCAB = [
       "zh-CN": "游泳",
       "ko": "[to swim]",
       "vi": "[to swim]",
-      "id": "[to swim]"
+      "id": "[to swim]",
+      "es": "to swim",
+      "pt": "to swim"
     },
     "ex": "海で泳ぐ",
     "exm": {
@@ -534,7 +612,9 @@ const N5_VOCAB = [
       "zh-CN": "在海游泳",
       "ko": "[swim in sea]",
       "vi": "[swim in sea]",
-      "id": "[swim in sea]"
+      "id": "[swim in sea]",
+      "es": "swim in sea",
+      "pt": "swim in sea"
     },
     "syn": [
       "水泳する",
@@ -552,7 +632,9 @@ const N5_VOCAB = [
       "zh-CN": "买",
       "ko": "사다",
       "vi": "Mua",
-      "id": "Membeli"
+      "id": "Membeli",
+      "es": "to buy",
+      "pt": "to buy"
     },
     "ex": "本を買う",
     "exm": {
@@ -561,7 +643,9 @@ const N5_VOCAB = [
       "zh-CN": "买书",
       "ko": "[buy a book]",
       "vi": "[buy a book]",
-      "id": "[buy a book]"
+      "id": "[buy a book]",
+      "es": "buy a book",
+      "pt": "buy a book"
     },
     "syn": [
       "購入する",
@@ -579,7 +663,9 @@ const N5_VOCAB = [
       "zh-CN": "卖",
       "ko": "팔다",
       "vi": "Bán",
-      "id": "Menjual"
+      "id": "Menjual",
+      "es": "to sell",
+      "pt": "to sell"
     },
     "ex": "車を売る",
     "exm": {
@@ -588,7 +674,9 @@ const N5_VOCAB = [
       "zh-CN": "卖车",
       "ko": "[sell a car]",
       "vi": "[sell a car]",
-      "id": "[sell a car]"
+      "id": "[sell a car]",
+      "es": "sell a car",
+      "pt": "sell a car"
     },
     "syn": [
       "販売する",
@@ -606,7 +694,9 @@ const N5_VOCAB = [
       "zh-CN": "制作",
       "ko": "만들다",
       "vi": "Làm",
-      "id": "Membuat"
+      "id": "Membuat",
+      "es": "to make",
+      "pt": "to make"
     },
     "ex": "料理を作る",
     "exm": {
@@ -615,7 +705,9 @@ const N5_VOCAB = [
       "zh-CN": "做菜",
       "ko": "[make food]",
       "vi": "[make food]",
-      "id": "[make food]"
+      "id": "[make food]",
+      "es": "make food",
+      "pt": "make food"
     },
     "syn": [
       "製作する",
@@ -633,7 +725,9 @@ const N5_VOCAB = [
       "zh-CN": "使用",
       "ko": "사용하다",
       "vi": "Dùng",
-      "id": "Menggunakan"
+      "id": "Menggunakan",
+      "es": "to use",
+      "pt": "to use"
     },
     "ex": "パソコンを使う",
     "exm": {
@@ -642,7 +736,9 @@ const N5_VOCAB = [
       "zh-CN": "用电脑",
       "ko": "[use computer]",
       "vi": "[use computer]",
-      "id": "[use computer]"
+      "id": "[use computer]",
+      "es": "use computer",
+      "pt": "use computer"
     },
     "syn": [
       "利用する",
@@ -660,7 +756,9 @@ const N5_VOCAB = [
       "zh-CN": "拿/有",
       "ko": "오래되다",
       "vi": "cũ",
-      "id": "lama"
+      "id": "lama",
+      "es": "to hold/have",
+      "pt": "to hold/have"
     },
     "ex": "かばんを持つ",
     "exm": {
@@ -669,7 +767,9 @@ const N5_VOCAB = [
       "zh-CN": "拿包",
       "ko": "[carry bag]",
       "vi": "[carry bag]",
-      "id": "[carry bag]"
+      "id": "[carry bag]",
+      "es": "carry bag",
+      "pt": "carry bag"
     },
     "syn": [
       "所有する",
@@ -687,7 +787,9 @@ const N5_VOCAB = [
       "zh-CN": "放",
       "ko": "[to put/place]",
       "vi": "[to put/place]",
-      "id": "[to put/place]"
+      "id": "[to put/place]",
+      "es": "to put/place",
+      "pt": "to put/place"
     },
     "ex": "本を置く",
     "exm": {
@@ -696,7 +798,9 @@ const N5_VOCAB = [
       "zh-CN": "放书",
       "ko": "[put book]",
       "vi": "[put book]",
-      "id": "[put book]"
+      "id": "[put book]",
+      "es": "put book",
+      "pt": "put book"
     },
     "syn": [
       "設置する",
@@ -714,7 +818,9 @@ const N5_VOCAB = [
       "zh-CN": "拿",
       "ko": "가지다",
       "vi": "Lấy",
-      "id": "Mengambil"
+      "id": "Mengambil",
+      "es": "to take",
+      "pt": "to take"
     },
     "ex": "写真を取る",
     "exm": {
@@ -723,7 +829,9 @@ const N5_VOCAB = [
       "zh-CN": "拍照",
       "ko": "[take photo]",
       "vi": "[take photo]",
-      "id": "[take photo]"
+      "id": "[take photo]",
+      "es": "take photo",
+      "pt": "take photo"
     }
   },
   {
@@ -736,7 +844,9 @@ const N5_VOCAB = [
       "zh-CN": "等待",
       "ko": "기다리다",
       "vi": "Đợi",
-      "id": "Menunggu"
+      "id": "Menunggu",
+      "es": "to wait",
+      "pt": "to wait"
     },
     "ex": "ここで待つ",
     "exm": {
@@ -745,7 +855,9 @@ const N5_VOCAB = [
       "zh-CN": "在这等",
       "ko": "[wait here]",
       "vi": "[wait here]",
-      "id": "[wait here]"
+      "id": "[wait here]",
+      "es": "wait here",
+      "pt": "wait here"
     },
     "syn": [
       "待機する",
@@ -763,7 +875,9 @@ const N5_VOCAB = [
       "zh-CN": "见面",
       "ko": "만나다",
       "vi": "Gặp",
-      "id": "Bertemu"
+      "id": "Bertemu",
+      "es": "to meet",
+      "pt": "to meet"
     },
     "ex": "友達に会う",
     "exm": {
@@ -772,7 +886,9 @@ const N5_VOCAB = [
       "zh-CN": "见朋友",
       "ko": "[meet friend]",
       "vi": "[meet friend]",
-      "id": "[meet friend]"
+      "id": "[meet friend]",
+      "es": "meet friend",
+      "pt": "meet friend"
     },
     "syn": [
       "お目にかかる",
@@ -790,7 +906,9 @@ const N5_VOCAB = [
       "zh-CN": "教",
       "ko": "가르치다",
       "vi": "Dạy",
-      "id": "Mengajar"
+      "id": "Mengajar",
+      "es": "to teach",
+      "pt": "to teach"
     },
     "ex": "英語を教える",
     "exm": {
@@ -799,7 +917,9 @@ const N5_VOCAB = [
       "zh-CN": "教英语",
       "ko": "[teach English]",
       "vi": "[teach English]",
-      "id": "[teach English]"
+      "id": "[teach English]",
+      "es": "teach English",
+      "pt": "teach English"
     },
     "syn": [
       "指導する",
@@ -817,7 +937,9 @@ const N5_VOCAB = [
       "zh-CN": "学",
       "ko": "배우다",
       "vi": "Học",
-      "id": "Belajar"
+      "id": "Belajar",
+      "es": "to learn",
+      "pt": "to learn"
     },
     "ex": "日本語を習う",
     "exm": {
@@ -826,7 +948,9 @@ const N5_VOCAB = [
       "zh-CN": "学日语",
       "ko": "[learn Japanese]",
       "vi": "[learn Japanese]",
-      "id": "[learn Japanese]"
+      "id": "[learn Japanese]",
+      "es": "learn Japanese",
+      "pt": "learn Japanese"
     },
     "syn": [
       "学ぶ",
@@ -844,7 +968,9 @@ const N5_VOCAB = [
       "zh-CN": "学习",
       "ko": "공부하다",
       "vi": "Học",
-      "id": "Belajar"
+      "id": "Belajar",
+      "es": "to study",
+      "pt": "to study"
     },
     "ex": "毎日勉強する",
     "exm": {
@@ -853,7 +979,9 @@ const N5_VOCAB = [
       "zh-CN": "每天学习",
       "ko": "[study daily]",
       "vi": "[study daily]",
-      "id": "[study daily]"
+      "id": "[study daily]",
+      "es": "study daily",
+      "pt": "study daily"
     },
     "syn": [
       "学習する",
@@ -871,7 +999,9 @@ const N5_VOCAB = [
       "zh-CN": "工作",
       "ko": "일하다",
       "vi": "Làm việc",
-      "id": "Bekerja"
+      "id": "Bekerja",
+      "es": "to work",
+      "pt": "to work"
     },
     "ex": "会社で働く",
     "exm": {
@@ -880,7 +1010,9 @@ const N5_VOCAB = [
       "zh-CN": "在公司工作",
       "ko": "[work at company]",
       "vi": "[work at company]",
-      "id": "[work at company]"
+      "id": "[work at company]",
+      "es": "work at company",
+      "pt": "work at company"
     },
     "syn": [
       "勤務する",
@@ -898,7 +1030,9 @@ const N5_VOCAB = [
       "zh-CN": "休息",
       "ko": "[to rest]",
       "vi": "[to rest]",
-      "id": "[to rest]"
+      "id": "[to rest]",
+      "es": "to rest",
+      "pt": "to rest"
     },
     "ex": "少し休む",
     "exm": {
@@ -907,7 +1041,9 @@ const N5_VOCAB = [
       "zh-CN": "休息一下",
       "ko": "[rest a little]",
       "vi": "[rest a little]",
-      "id": "[rest a little]"
+      "id": "[rest a little]",
+      "es": "rest a little",
+      "pt": "rest a little"
     },
     "syn": [
       "休憩する",
@@ -925,7 +1061,9 @@ const N5_VOCAB = [
       "zh-CN": "玩",
       "ko": "놀다",
       "vi": "Chơi",
-      "id": "Bermain"
+      "id": "Bermain",
+      "es": "to play",
+      "pt": "to play"
     },
     "ex": "公園で遊ぶ",
     "exm": {
@@ -934,7 +1072,9 @@ const N5_VOCAB = [
       "zh-CN": "在公园玩",
       "ko": "[play in park]",
       "vi": "[play in park]",
-      "id": "[play in park]"
+      "id": "[play in park]",
+      "es": "play in park",
+      "pt": "play in park"
     },
     "syn": [
       "戯れる",
@@ -952,7 +1092,9 @@ const N5_VOCAB = [
       "zh-CN": "唱歌",
       "ko": "[to sing]",
       "vi": "[to sing]",
-      "id": "[to sing]"
+      "id": "[to sing]",
+      "es": "to sing",
+      "pt": "to sing"
     },
     "ex": "歌を歌う",
     "exm": {
@@ -961,7 +1103,9 @@ const N5_VOCAB = [
       "zh-CN": "唱歌",
       "ko": "[sing a song]",
       "vi": "[sing a song]",
-      "id": "[sing a song]"
+      "id": "[sing a song]",
+      "es": "sing a song",
+      "pt": "sing a song"
     }
   },
   {
@@ -974,7 +1118,9 @@ const N5_VOCAB = [
       "zh-CN": "跳舞",
       "ko": "[to dance]",
       "vi": "[to dance]",
-      "id": "[to dance]"
+      "id": "[to dance]",
+      "es": "to dance",
+      "pt": "to dance"
     },
     "ex": "ダンスを踊る",
     "exm": {
@@ -983,7 +1129,9 @@ const N5_VOCAB = [
       "zh-CN": "跳舞",
       "ko": "[dance]",
       "vi": "[dance]",
-      "id": "[dance]"
+      "id": "[dance]",
+      "es": "dance",
+      "pt": "dance"
     }
   },
   {
@@ -996,7 +1144,9 @@ const N5_VOCAB = [
       "zh-CN": "弹奏",
       "ko": "[to play (instrument)]",
       "vi": "[to play (instrument)]",
-      "id": "[to play (instrument)]"
+      "id": "[to play (instrument)]",
+      "es": "to play (instrument)",
+      "pt": "to play (instrument)"
     },
     "ex": "ピアノを弾く",
     "exm": {
@@ -1005,7 +1155,9 @@ const N5_VOCAB = [
       "zh-CN": "弹钢琴",
       "ko": "[play piano]",
       "vi": "[play piano]",
-      "id": "[play piano]"
+      "id": "[play piano]",
+      "es": "play piano",
+      "pt": "play piano"
     }
   },
   {
@@ -1018,7 +1170,9 @@ const N5_VOCAB = [
       "zh-CN": "拍",
       "ko": "덥다",
       "vi": "nóng",
-      "id": "panas"
+      "id": "panas",
+      "es": "to take (photo)",
+      "pt": "to take (photo)"
     },
     "ex": "写真を撮る",
     "exm": {
@@ -1027,7 +1181,9 @@ const N5_VOCAB = [
       "zh-CN": "拍照",
       "ko": "[take photo]",
       "vi": "[take photo]",
-      "id": "[take photo]"
+      "id": "[take photo]",
+      "es": "take photo",
+      "pt": "take photo"
     }
   },
   {
@@ -1040,7 +1196,9 @@ const N5_VOCAB = [
       "zh-CN": "画",
       "ko": "[to draw]",
       "vi": "[to draw]",
-      "id": "[to draw]"
+      "id": "[to draw]",
+      "es": "to draw",
+      "pt": "to draw"
     },
     "ex": "絵を描く",
     "exm": {
@@ -1049,7 +1207,9 @@ const N5_VOCAB = [
       "zh-CN": "画画",
       "ko": "[draw picture]",
       "vi": "[draw picture]",
-      "id": "[draw picture]"
+      "id": "[draw picture]",
+      "es": "draw picture",
+      "pt": "draw picture"
     }
   },
   {
@@ -1062,7 +1222,9 @@ const N5_VOCAB = [
       "zh-CN": "洗",
       "ko": "[to wash]",
       "vi": "[to wash]",
-      "id": "[to wash]"
+      "id": "[to wash]",
+      "es": "to wash",
+      "pt": "to wash"
     },
     "ex": "手を洗う",
     "exm": {
@@ -1071,7 +1233,9 @@ const N5_VOCAB = [
       "zh-CN": "洗手",
       "ko": "[wash hands]",
       "vi": "[wash hands]",
-      "id": "[wash hands]"
+      "id": "[wash hands]",
+      "es": "wash hands",
+      "pt": "wash hands"
     }
   },
   {
@@ -1084,7 +1248,9 @@ const N5_VOCAB = [
       "zh-CN": "打扫",
       "ko": "[to clean]",
       "vi": "[to clean]",
-      "id": "[to clean]"
+      "id": "[to clean]",
+      "es": "to clean",
+      "pt": "to clean"
     },
     "ex": "部屋を掃除する",
     "exm": {
@@ -1093,7 +1259,9 @@ const N5_VOCAB = [
       "zh-CN": "打扫房间",
       "ko": "[clean room]",
       "vi": "[clean room]",
-      "id": "[clean room]"
+      "id": "[clean room]",
+      "es": "clean room",
+      "pt": "clean room"
     }
   },
   {
@@ -1106,7 +1274,9 @@ const N5_VOCAB = [
       "zh-CN": "做菜",
       "ko": "[to cook]",
       "vi": "[to cook]",
-      "id": "[to cook]"
+      "id": "[to cook]",
+      "es": "to cook",
+      "pt": "to cook"
     },
     "ex": "夕飯を料理する",
     "exm": {
@@ -1115,7 +1285,9 @@ const N5_VOCAB = [
       "zh-CN": "做晚餐",
       "ko": "[cook dinner]",
       "vi": "[cook dinner]",
-      "id": "[cook dinner]"
+      "id": "[cook dinner]",
+      "es": "cook dinner",
+      "pt": "cook dinner"
     }
   },
   {
@@ -1128,7 +1300,9 @@ const N5_VOCAB = [
       "zh-CN": "切",
       "ko": "[to cut]",
       "vi": "[to cut]",
-      "id": "[to cut]"
+      "id": "[to cut]",
+      "es": "to cut",
+      "pt": "to cut"
     },
     "ex": "野菜を切る",
     "exm": {
@@ -1137,7 +1311,9 @@ const N5_VOCAB = [
       "zh-CN": "切菜",
       "ko": "[cut vegetables]",
       "vi": "[cut vegetables]",
-      "id": "[cut vegetables]"
+      "id": "[cut vegetables]",
+      "es": "cut vegetables",
+      "pt": "cut vegetables"
     }
   },
   {
@@ -1150,7 +1326,9 @@ const N5_VOCAB = [
       "zh-CN": "打开",
       "ko": "열다",
       "vi": "Mở",
-      "id": "Membuka"
+      "id": "Membuka",
+      "es": "to open",
+      "pt": "to open"
     },
     "ex": "窓を開ける",
     "exm": {
@@ -1159,7 +1337,9 @@ const N5_VOCAB = [
       "zh-CN": "开窗",
       "ko": "[open window]",
       "vi": "[open window]",
-      "id": "[open window]"
+      "id": "[open window]",
+      "es": "open window",
+      "pt": "open window"
     },
     "syn": [
       "開く",
@@ -1177,7 +1357,9 @@ const N5_VOCAB = [
       "zh-CN": "关闭",
       "ko": "닫다",
       "vi": "Đóng",
-      "id": "Menutup"
+      "id": "Menutup",
+      "es": "to close",
+      "pt": "to close"
     },
     "ex": "ドアを閉める",
     "exm": {
@@ -1186,7 +1368,9 @@ const N5_VOCAB = [
       "zh-CN": "关门",
       "ko": "[close door]",
       "vi": "[close door]",
-      "id": "[close door]"
+      "id": "[close door]",
+      "es": "close door",
+      "pt": "close door"
     },
     "syn": [
       "閉じる",
@@ -1204,7 +1388,9 @@ const N5_VOCAB = [
       "zh-CN": "开(电器)",
       "ko": "[to turn on]",
       "vi": "[to turn on]",
-      "id": "[to turn on]"
+      "id": "[to turn on]",
+      "es": "to turn on",
+      "pt": "to turn on"
     },
     "ex": "電気をつける",
     "exm": {
@@ -1213,7 +1399,9 @@ const N5_VOCAB = [
       "zh-CN": "开灯",
       "ko": "[turn on light]",
       "vi": "[turn on light]",
-      "id": "[turn on light]"
+      "id": "[turn on light]",
+      "es": "turn on light",
+      "pt": "turn on light"
     }
   },
   {
@@ -1226,7 +1414,9 @@ const N5_VOCAB = [
       "zh-CN": "关(电器)",
       "ko": "[to turn off]",
       "vi": "[to turn off]",
-      "id": "[to turn off]"
+      "id": "[to turn off]",
+      "es": "to turn off",
+      "pt": "to turn off"
     },
     "ex": "電気を消す",
     "exm": {
@@ -1235,7 +1425,9 @@ const N5_VOCAB = [
       "zh-CN": "关灯",
       "ko": "[turn off light]",
       "vi": "[turn off light]",
-      "id": "[turn off light]"
+      "id": "[turn off light]",
+      "es": "turn off light",
+      "pt": "turn off light"
     }
   },
   {
@@ -1248,7 +1440,9 @@ const N5_VOCAB = [
       "zh-CN": "穿",
       "ko": "[to wear]",
       "vi": "[to wear]",
-      "id": "[to wear]"
+      "id": "[to wear]",
+      "es": "to wear",
+      "pt": "to wear"
     },
     "ex": "服を着る",
     "exm": {
@@ -1257,7 +1451,9 @@ const N5_VOCAB = [
       "zh-CN": "穿衣服",
       "ko": "[wear clothes]",
       "vi": "[wear clothes]",
-      "id": "[wear clothes]"
+      "id": "[wear clothes]",
+      "es": "wear clothes",
+      "pt": "wear clothes"
     }
   },
   {
@@ -1270,7 +1466,9 @@ const N5_VOCAB = [
       "zh-CN": "脱",
       "ko": "[to take off]",
       "vi": "[to take off]",
-      "id": "[to take off]"
+      "id": "[to take off]",
+      "es": "to take off",
+      "pt": "to take off"
     },
     "ex": "靴を脱ぐ",
     "exm": {
@@ -1279,7 +1477,9 @@ const N5_VOCAB = [
       "zh-CN": "脱鞋",
       "ko": "[take off shoes]",
       "vi": "[take off shoes]",
-      "id": "[take off shoes]"
+      "id": "[take off shoes]",
+      "es": "take off shoes",
+      "pt": "take off shoes"
     }
   },
   {
@@ -1292,7 +1492,9 @@ const N5_VOCAB = [
       "zh-CN": "穿(鞋/裤)",
       "ko": "[to wear (shoes/pants)]",
       "vi": "[to wear (shoes/pants)]",
-      "id": "[to wear (shoes/pants)]"
+      "id": "[to wear (shoes/pants)]",
+      "es": "to wear (shoes/pants)",
+      "pt": "to wear (shoes/pants)"
     },
     "ex": "靴を履く",
     "exm": {
@@ -1301,7 +1503,9 @@ const N5_VOCAB = [
       "zh-CN": "穿鞋",
       "ko": "[wear shoes]",
       "vi": "[wear shoes]",
-      "id": "[wear shoes]"
+      "id": "[wear shoes]",
+      "es": "wear shoes",
+      "pt": "wear shoes"
     }
   },
   {
@@ -1314,7 +1518,9 @@ const N5_VOCAB = [
       "zh-CN": "戴(帽子)",
       "ko": "[to wear (hat)]",
       "vi": "[to wear (hat)]",
-      "id": "[to wear (hat)]"
+      "id": "[to wear (hat)]",
+      "es": "to wear (hat)",
+      "pt": "to wear (hat)"
     },
     "ex": "帽子をかぶる",
     "exm": {
@@ -1323,7 +1529,9 @@ const N5_VOCAB = [
       "zh-CN": "戴帽子",
       "ko": "[wear hat]",
       "vi": "[wear hat]",
-      "id": "[wear hat]"
+      "id": "[wear hat]",
+      "es": "wear hat",
+      "pt": "wear hat"
     }
   },
   {
@@ -1336,7 +1544,9 @@ const N5_VOCAB = [
       "zh-CN": "戴(眼镜)",
       "ko": "[to wear (glasses)]",
       "vi": "[to wear (glasses)]",
-      "id": "[to wear (glasses)]"
+      "id": "[to wear (glasses)]",
+      "es": "to wear (glasses)",
+      "pt": "to wear (glasses)"
     },
     "ex": "眼鏡をかける",
     "exm": {
@@ -1345,7 +1555,9 @@ const N5_VOCAB = [
       "zh-CN": "戴眼镜",
       "ko": "[wear glasses]",
       "vi": "[wear glasses]",
-      "id": "[wear glasses]"
+      "id": "[wear glasses]",
+      "es": "wear glasses",
+      "pt": "wear glasses"
     }
   },
   {
@@ -1358,7 +1570,9 @@ const N5_VOCAB = [
       "zh-CN": "搭乘",
       "ko": "[to ride]",
       "vi": "[to ride]",
-      "id": "[to ride]"
+      "id": "[to ride]",
+      "es": "to ride",
+      "pt": "to ride"
     },
     "ex": "電車に乗る",
     "exm": {
@@ -1367,7 +1581,9 @@ const N5_VOCAB = [
       "zh-CN": "坐电车",
       "ko": "[ride train]",
       "vi": "[ride train]",
-      "id": "[ride train]"
+      "id": "[ride train]",
+      "es": "ride train",
+      "pt": "ride train"
     }
   },
   {
@@ -1380,7 +1596,9 @@ const N5_VOCAB = [
       "zh-CN": "下车",
       "ko": "[to get off]",
       "vi": "[to get off]",
-      "id": "[to get off]"
+      "id": "[to get off]",
+      "es": "to get off",
+      "pt": "to get off"
     },
     "ex": "電車を降りる",
     "exm": {
@@ -1389,7 +1607,9 @@ const N5_VOCAB = [
       "zh-CN": "下电车",
       "ko": "[get off train]",
       "vi": "[get off train]",
-      "id": "[get off train]"
+      "id": "[get off train]",
+      "es": "get off train",
+      "pt": "get off train"
     }
   },
   {
@@ -1402,7 +1622,9 @@ const N5_VOCAB = [
       "zh-CN": "开车",
       "ko": "[to drive]",
       "vi": "[to drive]",
-      "id": "[to drive]"
+      "id": "[to drive]",
+      "es": "to drive",
+      "pt": "to drive"
     },
     "ex": "車を運転する",
     "exm": {
@@ -1411,7 +1633,9 @@ const N5_VOCAB = [
       "zh-CN": "开车",
       "ko": "[drive car]",
       "vi": "[drive car]",
-      "id": "[drive car]"
+      "id": "[drive car]",
+      "es": "drive car",
+      "pt": "drive car"
     }
   },
   {
@@ -1424,7 +1648,9 @@ const N5_VOCAB = [
       "zh-CN": "停",
       "ko": "[to stop]",
       "vi": "[to stop]",
-      "id": "[to stop]"
+      "id": "[to stop]",
+      "es": "to stop",
+      "pt": "to stop"
     },
     "ex": "車が止まる",
     "exm": {
@@ -1433,7 +1659,9 @@ const N5_VOCAB = [
       "zh-CN": "车停了",
       "ko": "[car stops]",
       "vi": "[car stops]",
-      "id": "[car stops]"
+      "id": "[car stops]",
+      "es": "car stops",
+      "pt": "car stops"
     }
   },
   {
@@ -1446,7 +1674,9 @@ const N5_VOCAB = [
       "zh-CN": "转弯",
       "ko": "[to turn]",
       "vi": "[to turn]",
-      "id": "[to turn]"
+      "id": "[to turn]",
+      "es": "to turn",
+      "pt": "to turn"
     },
     "ex": "右に曲がる",
     "exm": {
@@ -1455,7 +1685,9 @@ const N5_VOCAB = [
       "zh-CN": "向右转",
       "ko": "[turn right]",
       "vi": "[turn right]",
-      "id": "[turn right]"
+      "id": "[turn right]",
+      "es": "turn right",
+      "pt": "turn right"
     }
   },
   {
@@ -1468,7 +1700,9 @@ const N5_VOCAB = [
       "zh-CN": "过(马路)",
       "ko": "[to cross]",
       "vi": "[to cross]",
-      "id": "[to cross]"
+      "id": "[to cross]",
+      "es": "to cross",
+      "pt": "to cross"
     },
     "ex": "道を渡る",
     "exm": {
@@ -1477,7 +1711,9 @@ const N5_VOCAB = [
       "zh-CN": "过马路",
       "ko": "[cross road]",
       "vi": "[cross road]",
-      "id": "[cross road]"
+      "id": "[cross road]",
+      "es": "cross road",
+      "pt": "cross road"
     }
   },
   {
@@ -1490,7 +1726,9 @@ const N5_VOCAB = [
       "zh-CN": "爬",
       "ko": "[to climb]",
       "vi": "[to climb]",
-      "id": "[to climb]"
+      "id": "[to climb]",
+      "es": "to climb",
+      "pt": "to climb"
     },
     "ex": "山を登る",
     "exm": {
@@ -1499,7 +1737,9 @@ const N5_VOCAB = [
       "zh-CN": "爬山",
       "ko": "[climb mountain]",
       "vi": "[climb mountain]",
-      "id": "[climb mountain]"
+      "id": "[climb mountain]",
+      "es": "climb mountain",
+      "pt": "climb mountain"
     }
   },
   {
@@ -1512,7 +1752,9 @@ const N5_VOCAB = [
       "zh-CN": "知道",
       "ko": "알다",
       "vi": "Biết",
-      "id": "Tahu"
+      "id": "Tahu",
+      "es": "to know",
+      "pt": "to know"
     },
     "ex": "名前を知る",
     "exm": {
@@ -1521,7 +1763,9 @@ const N5_VOCAB = [
       "zh-CN": "知道名字",
       "ko": "[know name]",
       "vi": "[know name]",
-      "id": "[know name]"
+      "id": "[know name]",
+      "es": "know name",
+      "pt": "know name"
     },
     "syn": [
       "理解する",
@@ -1539,7 +1783,9 @@ const N5_VOCAB = [
       "zh-CN": "理解",
       "ko": "이해하다",
       "vi": "Hiểu",
-      "id": "Mengerti"
+      "id": "Mengerti",
+      "es": "to understand",
+      "pt": "to understand"
     },
     "ex": "意味が分かる",
     "exm": {
@@ -1548,7 +1794,9 @@ const N5_VOCAB = [
       "zh-CN": "明白意思",
       "ko": "[understand meaning]",
       "vi": "[understand meaning]",
-      "id": "[understand meaning]"
+      "id": "[understand meaning]",
+      "es": "understand meaning",
+      "pt": "understand meaning"
     },
     "syn": [
       "理解する",
@@ -1566,7 +1814,9 @@ const N5_VOCAB = [
       "zh-CN": "记住",
       "ko": "[to memorize]",
       "vi": "[to memorize]",
-      "id": "[to memorize]"
+      "id": "[to memorize]",
+      "es": "to memorize",
+      "pt": "to memorize"
     },
     "ex": "漢字を覚える",
     "exm": {
@@ -1575,7 +1825,9 @@ const N5_VOCAB = [
       "zh-CN": "记汉字",
       "ko": "[memorize kanji]",
       "vi": "[memorize kanji]",
-      "id": "[memorize kanji]"
+      "id": "[memorize kanji]",
+      "es": "memorize kanji",
+      "pt": "memorize kanji"
     },
     "syn": [
       "記憶する",
@@ -1593,7 +1845,9 @@ const N5_VOCAB = [
       "zh-CN": "忘记",
       "ko": "[to forget]",
       "vi": "[to forget]",
-      "id": "[to forget]"
+      "id": "[to forget]",
+      "es": "to forget",
+      "pt": "to forget"
     },
     "ex": "名前を忘れる",
     "exm": {
@@ -1602,7 +1856,9 @@ const N5_VOCAB = [
       "zh-CN": "忘记名字",
       "ko": "[forget name]",
       "vi": "[forget name]",
-      "id": "[forget name]"
+      "id": "[forget name]",
+      "es": "forget name",
+      "pt": "forget name"
     },
     "syn": [
       "失念する",
@@ -1620,7 +1876,9 @@ const N5_VOCAB = [
       "zh-CN": "想",
       "ko": "생각하다",
       "vi": "Nghĩ",
-      "id": "Berpikir"
+      "id": "Berpikir",
+      "es": "to think",
+      "pt": "to think"
     },
     "ex": "そう思う",
     "exm": {
@@ -1629,7 +1887,9 @@ const N5_VOCAB = [
       "zh-CN": "这样想",
       "ko": "[think so]",
       "vi": "[think so]",
-      "id": "[think so]"
+      "id": "[think so]",
+      "es": "think so",
+      "pt": "think so"
     },
     "syn": [
       "考える",
@@ -1647,7 +1907,9 @@ const N5_VOCAB = [
       "zh-CN": "考虑",
       "ko": "[to consider]",
       "vi": "[to consider]",
-      "id": "[to consider]"
+      "id": "[to consider]",
+      "es": "to consider",
+      "pt": "to consider"
     },
     "ex": "よく考える",
     "exm": {
@@ -1656,7 +1918,9 @@ const N5_VOCAB = [
       "zh-CN": "仔细考虑",
       "ko": "[think carefully]",
       "vi": "[think carefully]",
-      "id": "[think carefully]"
+      "id": "[think carefully]",
+      "es": "think carefully",
+      "pt": "think carefully"
     }
   },
   {
@@ -1669,7 +1933,9 @@ const N5_VOCAB = [
       "zh-CN": "决定",
       "ko": "[to decide]",
       "vi": "[to decide]",
-      "id": "[to decide]"
+      "id": "[to decide]",
+      "es": "to decide",
+      "pt": "to decide"
     },
     "ex": "予定を決める",
     "exm": {
@@ -1678,7 +1944,9 @@ const N5_VOCAB = [
       "zh-CN": "决定行程",
       "ko": "[decide schedule]",
       "vi": "[decide schedule]",
-      "id": "[decide schedule]"
+      "id": "[decide schedule]",
+      "es": "decide schedule",
+      "pt": "decide schedule"
     }
   },
   {
@@ -1691,7 +1959,9 @@ const N5_VOCAB = [
       "zh-CN": "相信",
       "ko": "[to believe]",
       "vi": "[to believe]",
-      "id": "[to believe]"
+      "id": "[to believe]",
+      "es": "to believe",
+      "pt": "to believe"
     },
     "ex": "友達を信じる",
     "exm": {
@@ -1700,7 +1970,9 @@ const N5_VOCAB = [
       "zh-CN": "相信朋友",
       "ko": "[believe friend]",
       "vi": "[believe friend]",
-      "id": "[believe friend]"
+      "id": "[believe friend]",
+      "es": "believe friend",
+      "pt": "believe friend"
     }
   },
   {
@@ -1713,7 +1985,9 @@ const N5_VOCAB = [
       "zh-CN": "找",
       "ko": "[to search]",
       "vi": "[to search]",
-      "id": "[to search]"
+      "id": "[to search]",
+      "es": "to search",
+      "pt": "to search"
     },
     "ex": "鍵を探す",
     "exm": {
@@ -1722,7 +1996,9 @@ const N5_VOCAB = [
       "zh-CN": "找钥匙",
       "ko": "[search for key]",
       "vi": "[search for key]",
-      "id": "[search for key]"
+      "id": "[search for key]",
+      "es": "search for key",
+      "pt": "search for key"
     }
   },
   {
@@ -1735,7 +2011,9 @@ const N5_VOCAB = [
       "zh-CN": "找到",
       "ko": "[to find]",
       "vi": "[to find]",
-      "id": "[to find]"
+      "id": "[to find]",
+      "es": "to find",
+      "pt": "to find"
     },
     "ex": "財布を見つける",
     "exm": {
@@ -1744,7 +2022,9 @@ const N5_VOCAB = [
       "zh-CN": "找到钱包",
       "ko": "[find wallet]",
       "vi": "[find wallet]",
-      "id": "[find wallet]"
+      "id": "[find wallet]",
+      "es": "find wallet",
+      "pt": "find wallet"
     }
   },
   {
@@ -1757,7 +2037,9 @@ const N5_VOCAB = [
       "zh-CN": "开始",
       "ko": "시작하다",
       "vi": "Bắt đầu",
-      "id": "Mulai"
+      "id": "Mulai",
+      "es": "to begin",
+      "pt": "to begin"
     },
     "ex": "仕事を始める",
     "exm": {
@@ -1766,7 +2048,9 @@ const N5_VOCAB = [
       "zh-CN": "开始工作",
       "ko": "[start work]",
       "vi": "[start work]",
-      "id": "[start work]"
+      "id": "[start work]",
+      "es": "start work",
+      "pt": "start work"
     },
     "syn": [
       "開始する",
@@ -1784,7 +2068,9 @@ const N5_VOCAB = [
       "zh-CN": "结束",
       "ko": "끝나다",
       "vi": "Kết thúc",
-      "id": "Selesai"
+      "id": "Selesai",
+      "es": "to end",
+      "pt": "to end"
     },
     "ex": "授業が終わる",
     "exm": {
@@ -1793,7 +2079,9 @@ const N5_VOCAB = [
       "zh-CN": "下课",
       "ko": "[class ends]",
       "vi": "[class ends]",
-      "id": "[class ends]"
+      "id": "[class ends]",
+      "es": "class ends",
+      "pt": "class ends"
     },
     "syn": [
       "終了する",
@@ -1811,7 +2099,9 @@ const N5_VOCAB = [
       "zh-CN": "继续",
       "ko": "[to continue]",
       "vi": "[to continue]",
-      "id": "[to continue]"
+      "id": "[to continue]",
+      "es": "to continue",
+      "pt": "to continue"
     },
     "ex": "勉強を続ける",
     "exm": {
@@ -1820,7 +2110,9 @@ const N5_VOCAB = [
       "zh-CN": "继续学习",
       "ko": "[continue study]",
       "vi": "[continue study]",
-      "id": "[continue study]"
+      "id": "[continue study]",
+      "es": "continue study",
+      "pt": "continue study"
     }
   },
   {
@@ -1833,7 +2125,9 @@ const N5_VOCAB = [
       "zh-CN": "停止",
       "ko": "[to stop/quit]",
       "vi": "[to stop/quit]",
-      "id": "[to stop/quit]"
+      "id": "[to stop/quit]",
+      "es": "to stop/quit",
+      "pt": "to stop/quit"
     },
     "ex": "仕事を止める",
     "exm": {
@@ -1842,7 +2136,9 @@ const N5_VOCAB = [
       "zh-CN": "辞职",
       "ko": "[quit job]",
       "vi": "[quit job]",
-      "id": "[quit job]"
+      "id": "[quit job]",
+      "es": "quit job",
+      "pt": "quit job"
     }
   },
   {
@@ -1855,7 +2151,9 @@ const N5_VOCAB = [
       "zh-CN": "改变",
       "ko": "[to change]",
       "vi": "[to change]",
-      "id": "[to change]"
+      "id": "[to change]",
+      "es": "to change",
+      "pt": "to change"
     },
     "ex": "予定を変える",
     "exm": {
@@ -1864,7 +2162,9 @@ const N5_VOCAB = [
       "zh-CN": "改变计划",
       "ko": "[change schedule]",
       "vi": "[change schedule]",
-      "id": "[change schedule]"
+      "id": "[change schedule]",
+      "es": "change schedule",
+      "pt": "change schedule"
     }
   },
   {
@@ -1877,7 +2177,9 @@ const N5_VOCAB = [
       "zh-CN": "变化",
       "ko": "[to be changed]",
       "vi": "[to be changed]",
-      "id": "[to be changed]"
+      "id": "[to be changed]",
+      "es": "to be changed",
+      "pt": "to be changed"
     },
     "ex": "天気が変わる",
     "exm": {
@@ -1886,7 +2188,9 @@ const N5_VOCAB = [
       "zh-CN": "天气变化",
       "ko": "[weather changes]",
       "vi": "[weather changes]",
-      "id": "[weather changes]"
+      "id": "[weather changes]",
+      "es": "weather changes",
+      "pt": "weather changes"
     }
   },
   {
@@ -1899,7 +2203,9 @@ const N5_VOCAB = [
       "zh-CN": "有(物)",
       "ko": "[to exist (inanimate)]",
       "vi": "[to exist (inanimate)]",
-      "id": "[to exist (inanimate)]"
+      "id": "[to exist (inanimate)]",
+      "es": "to exist (inanimate)",
+      "pt": "to exist (inanimate)"
     },
     "ex": "本がある",
     "exm": {
@@ -1908,7 +2214,9 @@ const N5_VOCAB = [
       "zh-CN": "有书",
       "ko": "[there is a book]",
       "vi": "[there is a book]",
-      "id": "[there is a book]"
+      "id": "[there is a book]",
+      "es": "there is a book",
+      "pt": "there is a book"
     }
   },
   {
@@ -1921,7 +2229,9 @@ const N5_VOCAB = [
       "zh-CN": "有(人/动物)",
       "ko": "[to exist (animate)]",
       "vi": "[to exist (animate)]",
-      "id": "[to exist (animate)]"
+      "id": "[to exist (animate)]",
+      "es": "to exist (animate)",
+      "pt": "to exist (animate)"
     },
     "ex": "猫がいる",
     "exm": {
@@ -1930,7 +2240,9 @@ const N5_VOCAB = [
       "zh-CN": "有猫",
       "ko": "[there is a cat]",
       "vi": "[there is a cat]",
-      "id": "[there is a cat]"
+      "id": "[there is a cat]",
+      "es": "there is a cat",
+      "pt": "there is a cat"
     }
   },
   {
@@ -1943,7 +2255,9 @@ const N5_VOCAB = [
       "zh-CN": "变成",
       "ko": "[to become]",
       "vi": "[to become]",
-      "id": "[to become]"
+      "id": "[to become]",
+      "es": "to become",
+      "pt": "to become"
     },
     "ex": "医者になる",
     "exm": {
@@ -1952,7 +2266,9 @@ const N5_VOCAB = [
       "zh-CN": "成为医生",
       "ko": "[become doctor]",
       "vi": "[become doctor]",
-      "id": "[become doctor]"
+      "id": "[become doctor]",
+      "es": "become doctor",
+      "pt": "become doctor"
     }
   },
   {
@@ -1965,7 +2281,9 @@ const N5_VOCAB = [
       "zh-CN": "能/会",
       "ko": "[can do]",
       "vi": "[can do]",
-      "id": "[can do]"
+      "id": "[can do]",
+      "es": "can do",
+      "pt": "can do"
     },
     "ex": "日本語ができる",
     "exm": {
@@ -1974,7 +2292,9 @@ const N5_VOCAB = [
       "zh-CN": "会日语",
       "ko": "[can speak Japanese]",
       "vi": "[can speak Japanese]",
-      "id": "[can speak Japanese]"
+      "id": "[can speak Japanese]",
+      "es": "can speak Japanese",
+      "pt": "can speak Japanese"
     }
   },
   {
@@ -1987,7 +2307,9 @@ const N5_VOCAB = [
       "zh-CN": "需要",
       "ko": "필요하다",
       "vi": "Cần",
-      "id": "Butuh"
+      "id": "Butuh",
+      "es": "to need",
+      "pt": "to need"
     },
     "ex": "お金が要る",
     "exm": {
@@ -1996,7 +2318,9 @@ const N5_VOCAB = [
       "zh-CN": "需要钱",
       "ko": "[need money]",
       "vi": "[need money]",
-      "id": "[need money]"
+      "id": "[need money]",
+      "es": "need money",
+      "pt": "need money"
     }
   },
   {
@@ -2009,7 +2333,9 @@ const N5_VOCAB = [
       "zh-CN": "想要",
       "ko": "원하다",
       "vi": "Muốn",
-      "id": "Ingin"
+      "id": "Ingin",
+      "es": "to want",
+      "pt": "to want"
     },
     "ex": "車が欲しい",
     "exm": {
@@ -2018,7 +2344,9 @@ const N5_VOCAB = [
       "zh-CN": "想要车",
       "ko": "[want a car]",
       "vi": "[want a car]",
-      "id": "[want a car]"
+      "id": "[want a car]",
+      "es": "want a car",
+      "pt": "want a car"
     }
   },
   {
@@ -2031,7 +2359,9 @@ const N5_VOCAB = [
       "zh-CN": "给",
       "ko": "주다",
       "vi": "Cho",
-      "id": "Memberi"
+      "id": "Memberi",
+      "es": "to give",
+      "pt": "to give"
     },
     "ex": "プレゼントをあげる",
     "exm": {
@@ -2040,7 +2370,9 @@ const N5_VOCAB = [
       "zh-CN": "送礼物",
       "ko": "[give present]",
       "vi": "[give present]",
-      "id": "[give present]"
+      "id": "[give present]",
+      "es": "give present",
+      "pt": "give present"
     }
   },
   {
@@ -2053,7 +2385,9 @@ const N5_VOCAB = [
       "zh-CN": "收到",
       "ko": "받다",
       "vi": "Nhận",
-      "id": "Menerima"
+      "id": "Menerima",
+      "es": "to receive",
+      "pt": "to receive"
     },
     "ex": "手紙をもらう",
     "exm": {
@@ -2062,7 +2396,9 @@ const N5_VOCAB = [
       "zh-CN": "收到信",
       "ko": "[receive letter]",
       "vi": "[receive letter]",
-      "id": "[receive letter]"
+      "id": "[receive letter]",
+      "es": "receive letter",
+      "pt": "receive letter"
     }
   },
   {
@@ -2075,7 +2411,9 @@ const N5_VOCAB = [
       "zh-CN": "给(我)",
       "ko": "[to give (to me)]",
       "vi": "[to give (to me)]",
-      "id": "[to give (to me)]"
+      "id": "[to give (to me)]",
+      "es": "to give (to me)",
+      "pt": "to give (to me)"
     },
     "ex": "本をくれる",
     "exm": {
@@ -2084,7 +2422,9 @@ const N5_VOCAB = [
       "zh-CN": "给我书",
       "ko": "[give me book]",
       "vi": "[give me book]",
-      "id": "[give me book]"
+      "id": "[give me book]",
+      "es": "give me book",
+      "pt": "give me book"
     }
   },
   {
@@ -2097,7 +2437,9 @@ const N5_VOCAB = [
       "zh-CN": "借(出)",
       "ko": "[to lend]",
       "vi": "[to lend]",
-      "id": "[to lend]"
+      "id": "[to lend]",
+      "es": "to lend",
+      "pt": "to lend"
     },
     "ex": "本を貸す",
     "exm": {
@@ -2106,7 +2448,9 @@ const N5_VOCAB = [
       "zh-CN": "借书给人",
       "ko": "[lend book]",
       "vi": "[lend book]",
-      "id": "[lend book]"
+      "id": "[lend book]",
+      "es": "lend book",
+      "pt": "lend book"
     }
   },
   {
@@ -2119,7 +2463,9 @@ const N5_VOCAB = [
       "zh-CN": "借(入)",
       "ko": "[to borrow]",
       "vi": "[to borrow]",
-      "id": "[to borrow]"
+      "id": "[to borrow]",
+      "es": "to borrow",
+      "pt": "to borrow"
     },
     "ex": "本を借りる",
     "exm": {
@@ -2128,7 +2474,9 @@ const N5_VOCAB = [
       "zh-CN": "向人借书",
       "ko": "[borrow book]",
       "vi": "[borrow book]",
-      "id": "[borrow book]"
+      "id": "[borrow book]",
+      "es": "borrow book",
+      "pt": "borrow book"
     }
   },
   {
@@ -2141,7 +2489,9 @@ const N5_VOCAB = [
       "zh-CN": "回来",
       "ko": "돌아오다",
       "vi": "Trở về",
-      "id": "Kembali"
+      "id": "Kembali",
+      "es": "volver",
+      "pt": "voltar"
     },
     "ex": "本を返す",
     "exm": {
@@ -2150,7 +2500,9 @@ const N5_VOCAB = [
       "zh-CN": "还书",
       "ko": "[return book]",
       "vi": "[return book]",
-      "id": "[return book]"
+      "id": "[return book]",
+      "es": "return book",
+      "pt": "return book"
     }
   },
   {
@@ -2163,7 +2515,9 @@ const N5_VOCAB = [
       "zh-CN": "付",
       "ko": "[to pay]",
       "vi": "[to pay]",
-      "id": "[to pay]"
+      "id": "[to pay]",
+      "es": "to pay",
+      "pt": "to pay"
     },
     "ex": "お金を払う",
     "exm": {
@@ -2172,7 +2526,9 @@ const N5_VOCAB = [
       "zh-CN": "付钱",
       "ko": "[pay money]",
       "vi": "[pay money]",
-      "id": "[pay money]"
+      "id": "[pay money]",
+      "es": "pay money",
+      "pt": "pay money"
     }
   },
   {
@@ -2185,7 +2541,9 @@ const N5_VOCAB = [
       "zh-CN": "送",
       "ko": "보내다",
       "vi": "Gửi",
-      "id": "Mengirim"
+      "id": "Mengirim",
+      "es": "to send",
+      "pt": "to send"
     },
     "ex": "手紙を送る",
     "exm": {
@@ -2194,7 +2552,9 @@ const N5_VOCAB = [
       "zh-CN": "寄信",
       "ko": "[send letter]",
       "vi": "[send letter]",
-      "id": "[send letter]"
+      "id": "[send letter]",
+      "es": "send letter",
+      "pt": "send letter"
     }
   },
   {
@@ -2207,7 +2567,9 @@ const N5_VOCAB = [
       "zh-CN": "送达",
       "ko": "[to deliver]",
       "vi": "[to deliver]",
-      "id": "[to deliver]"
+      "id": "[to deliver]",
+      "es": "to deliver",
+      "pt": "to deliver"
     },
     "ex": "荷物を届ける",
     "exm": {
@@ -2216,7 +2578,9 @@ const N5_VOCAB = [
       "zh-CN": "送货",
       "ko": "[deliver package]",
       "vi": "[deliver package]",
-      "id": "[deliver package]"
+      "id": "[deliver package]",
+      "es": "deliver package",
+      "pt": "deliver package"
     }
   },
   {
@@ -2229,7 +2593,9 @@ const N5_VOCAB = [
       "zh-CN": "到达",
       "ko": "[to arrive]",
       "vi": "[to arrive]",
-      "id": "[to arrive]"
+      "id": "[to arrive]",
+      "es": "to arrive",
+      "pt": "to arrive"
     },
     "ex": "手紙が届く",
     "exm": {
@@ -2238,7 +2604,9 @@ const N5_VOCAB = [
       "zh-CN": "信到了",
       "ko": "[letter arrives]",
       "vi": "[letter arrives]",
-      "id": "[letter arrives]"
+      "id": "[letter arrives]",
+      "es": "letter arrives",
+      "pt": "letter arrives"
     }
   },
   {
@@ -2251,7 +2619,9 @@ const N5_VOCAB = [
       "zh-CN": "寄存",
       "ko": "[to deposit]",
       "vi": "[to deposit]",
-      "id": "[to deposit]"
+      "id": "[to deposit]",
+      "es": "to deposit",
+      "pt": "to deposit"
     },
     "ex": "荷物を預ける",
     "exm": {
@@ -2260,7 +2630,9 @@ const N5_VOCAB = [
       "zh-CN": "寄放行李",
       "ko": "[deposit luggage]",
       "vi": "[deposit luggage]",
-      "id": "[deposit luggage]"
+      "id": "[deposit luggage]",
+      "es": "deposit luggage",
+      "pt": "deposit luggage"
     }
   },
   {
@@ -2273,7 +2645,9 @@ const N5_VOCAB = [
       "zh-CN": "收到",
       "ko": "받다",
       "vi": "Nhận",
-      "id": "Menerima"
+      "id": "Menerima",
+      "es": "to receive",
+      "pt": "to receive"
     },
     "ex": "荷物を受け取る",
     "exm": {
@@ -2282,7 +2656,9 @@ const N5_VOCAB = [
       "zh-CN": "领取包裹",
       "ko": "[receive package]",
       "vi": "[receive package]",
-      "id": "[receive package]"
+      "id": "[receive package]",
+      "es": "receive package",
+      "pt": "receive package"
     }
   },
   {
@@ -2295,7 +2671,9 @@ const N5_VOCAB = [
       "zh-CN": "掉落",
       "ko": "[to drop]",
       "vi": "[to drop]",
-      "id": "[to drop]"
+      "id": "[to drop]",
+      "es": "to drop",
+      "pt": "to drop"
     },
     "ex": "財布を落とす",
     "exm": {
@@ -2304,7 +2682,9 @@ const N5_VOCAB = [
       "zh-CN": "掉钱包",
       "ko": "[drop wallet]",
       "vi": "[drop wallet]",
-      "id": "[drop wallet]"
+      "id": "[drop wallet]",
+      "es": "drop wallet",
+      "pt": "drop wallet"
     }
   },
   {
@@ -2317,7 +2697,9 @@ const N5_VOCAB = [
       "zh-CN": "捡",
       "ko": "[to pick up]",
       "vi": "[to pick up]",
-      "id": "[to pick up]"
+      "id": "[to pick up]",
+      "es": "to pick up",
+      "pt": "to pick up"
     },
     "ex": "ゴミを拾う",
     "exm": {
@@ -2326,7 +2708,9 @@ const N5_VOCAB = [
       "zh-CN": "捡垃圾",
       "ko": "[pick up trash]",
       "vi": "[pick up trash]",
-      "id": "[pick up trash]"
+      "id": "[pick up trash]",
+      "es": "pick up trash",
+      "pt": "pick up trash"
     }
   },
   {
@@ -2339,7 +2723,9 @@ const N5_VOCAB = [
       "zh-CN": "修理",
       "ko": "[to fix]",
       "vi": "[to fix]",
-      "id": "[to fix]"
+      "id": "[to fix]",
+      "es": "to fix",
+      "pt": "to fix"
     },
     "ex": "車を直す",
     "exm": {
@@ -2348,7 +2734,9 @@ const N5_VOCAB = [
       "zh-CN": "修车",
       "ko": "[fix car]",
       "vi": "[fix car]",
-      "id": "[fix car]"
+      "id": "[fix car]",
+      "es": "fix car",
+      "pt": "fix car"
     }
   },
   {
@@ -2361,7 +2749,9 @@ const N5_VOCAB = [
       "zh-CN": "弄坏",
       "ko": "[to break]",
       "vi": "[to break]",
-      "id": "[to break]"
+      "id": "[to break]",
+      "es": "to break",
+      "pt": "to break"
     },
     "ex": "パソコンを壊す",
     "exm": {
@@ -2370,7 +2760,9 @@ const N5_VOCAB = [
       "zh-CN": "弄坏电脑",
       "ko": "[break computer]",
       "vi": "[break computer]",
-      "id": "[break computer]"
+      "id": "[break computer]",
+      "es": "break computer",
+      "pt": "break computer"
     }
   },
   {
@@ -2383,7 +2775,9 @@ const N5_VOCAB = [
       "zh-CN": "坏掉",
       "ko": "[to be broken]",
       "vi": "[to be broken]",
-      "id": "[to be broken]"
+      "id": "[to be broken]",
+      "es": "to be broken",
+      "pt": "to be broken"
     },
     "ex": "時計が壊れる",
     "exm": {
@@ -2392,7 +2786,9 @@ const N5_VOCAB = [
       "zh-CN": "手表坏了",
       "ko": "[watch breaks]",
       "vi": "[watch breaks]",
-      "id": "[watch breaks]"
+      "id": "[watch breaks]",
+      "es": "watch breaks",
+      "pt": "watch breaks"
     }
   },
   {
@@ -2405,7 +2801,9 @@ const N5_VOCAB = [
       "zh-CN": "做",
       "ko": "하다",
       "vi": "Làm",
-      "id": "Melakukan"
+      "id": "Melakukan",
+      "es": "to do",
+      "pt": "to do"
     },
     "ex": "運動をする",
     "exm": {
@@ -2414,7 +2812,9 @@ const N5_VOCAB = [
       "zh-CN": "运动",
       "ko": "[exercise]",
       "vi": "[exercise]",
-      "id": "[exercise]"
+      "id": "[exercise]",
+      "es": "exercise",
+      "pt": "exercise"
     }
   },
   {
@@ -2427,7 +2827,9 @@ const N5_VOCAB = [
       "zh-CN": "喜欢",
       "ko": "좋아하다",
       "vi": "Thích",
-      "id": "Suka"
+      "id": "Suka",
+      "es": "to like",
+      "pt": "to like"
     },
     "ex": "寿司が好き",
     "exm": {
@@ -2436,7 +2838,9 @@ const N5_VOCAB = [
       "zh-CN": "喜欢寿司",
       "ko": "[like sushi]",
       "vi": "[like sushi]",
-      "id": "[like sushi]"
+      "id": "[like sushi]",
+      "es": "like sushi",
+      "pt": "like sushi"
     }
   },
   {
@@ -2449,7 +2853,9 @@ const N5_VOCAB = [
       "zh-CN": "讨厌",
       "ko": "[to dislike]",
       "vi": "[to dislike]",
-      "id": "[to dislike]"
+      "id": "[to dislike]",
+      "es": "to dislike",
+      "pt": "to dislike"
     },
     "ex": "野菜が嫌い",
     "exm": {
@@ -2458,7 +2864,9 @@ const N5_VOCAB = [
       "zh-CN": "讨厌蔬菜",
       "ko": "[dislike vegetables]",
       "vi": "[dislike vegetables]",
-      "id": "[dislike vegetables]"
+      "id": "[dislike vegetables]",
+      "es": "dislike vegetables",
+      "pt": "dislike vegetables"
     }
   },
   {
@@ -2471,7 +2879,9 @@ const N5_VOCAB = [
       "zh-CN": "笑",
       "ko": "[to laugh]",
       "vi": "[to laugh]",
-      "id": "[to laugh]"
+      "id": "[to laugh]",
+      "es": "to laugh",
+      "pt": "to laugh"
     },
     "ex": "面白くて笑う",
     "exm": {
@@ -2480,7 +2890,9 @@ const N5_VOCAB = [
       "zh-CN": "好笑而笑",
       "ko": "[laugh funny]",
       "vi": "[laugh funny]",
-      "id": "[laugh funny]"
+      "id": "[laugh funny]",
+      "es": "laugh funny",
+      "pt": "laugh funny"
     }
   },
   {
@@ -2493,7 +2905,9 @@ const N5_VOCAB = [
       "zh-CN": "哭",
       "ko": "[to cry]",
       "vi": "[to cry]",
-      "id": "[to cry]"
+      "id": "[to cry]",
+      "es": "to cry",
+      "pt": "to cry"
     },
     "ex": "悲しくて泣く",
     "exm": {
@@ -2502,7 +2916,9 @@ const N5_VOCAB = [
       "zh-CN": "伤心而哭",
       "ko": "[cry sad]",
       "vi": "[cry sad]",
-      "id": "[cry sad]"
+      "id": "[cry sad]",
+      "es": "cry sad",
+      "pt": "cry sad"
     }
   },
   {
@@ -2515,7 +2931,9 @@ const N5_VOCAB = [
       "zh-CN": "生气",
       "ko": "[to get angry]",
       "vi": "[to get angry]",
-      "id": "[to get angry]"
+      "id": "[to get angry]",
+      "es": "to get angry",
+      "pt": "to get angry"
     },
     "ex": "先生が怒る",
     "exm": {
@@ -2524,7 +2942,9 @@ const N5_VOCAB = [
       "zh-CN": "老师生气",
       "ko": "[teacher angry]",
       "vi": "[teacher angry]",
-      "id": "[teacher angry]"
+      "id": "[teacher angry]",
+      "es": "teacher angry",
+      "pt": "teacher angry"
     }
   },
   {
@@ -2537,7 +2957,9 @@ const N5_VOCAB = [
       "zh-CN": "高兴",
       "ko": "[to be happy]",
       "vi": "[to be happy]",
-      "id": "[to be happy]"
+      "id": "[to be happy]",
+      "es": "to be happy",
+      "pt": "to be happy"
     },
     "ex": "プレゼントを喜ぶ",
     "exm": {
@@ -2546,7 +2968,9 @@ const N5_VOCAB = [
       "zh-CN": "收到礼物很高兴",
       "ko": "[happy gift]",
       "vi": "[happy gift]",
-      "id": "[happy gift]"
+      "id": "[happy gift]",
+      "es": "happy gift",
+      "pt": "happy gift"
     }
   },
   {
@@ -2559,7 +2983,9 @@ const N5_VOCAB = [
       "zh-CN": "悲伤",
       "ko": "[to be sad]",
       "vi": "[to be sad]",
-      "id": "[to be sad]"
+      "id": "[to be sad]",
+      "es": "to be sad",
+      "pt": "to be sad"
     },
     "ex": "別れを悲しむ",
     "exm": {
@@ -2568,7 +2994,9 @@ const N5_VOCAB = [
       "zh-CN": "为离别而悲伤",
       "ko": "[sad parting]",
       "vi": "[sad parting]",
-      "id": "[sad parting]"
+      "id": "[sad parting]",
+      "es": "sad parting",
+      "pt": "sad parting"
     }
   },
   {
@@ -2581,7 +3009,9 @@ const N5_VOCAB = [
       "zh-CN": "惊讶",
       "ko": "[to be surprised]",
       "vi": "[to be surprised]",
-      "id": "[to be surprised]"
+      "id": "[to be surprised]",
+      "es": "to be surprised",
+      "pt": "to be surprised"
     },
     "ex": "ニュースに驚く",
     "exm": {
@@ -2590,7 +3020,9 @@ const N5_VOCAB = [
       "zh-CN": "对新闻感到惊讶",
       "ko": "[surprised news]",
       "vi": "[surprised news]",
-      "id": "[surprised news]"
+      "id": "[surprised news]",
+      "es": "surprised news",
+      "pt": "surprised news"
     }
   },
   {
@@ -2603,7 +3035,9 @@ const N5_VOCAB = [
       "zh-CN": "担心",
       "ko": "[to worry]",
       "vi": "[to worry]",
-      "id": "[to worry]"
+      "id": "[to worry]",
+      "es": "to worry",
+      "pt": "to worry"
     },
     "ex": "友達を心配する",
     "exm": {
@@ -2612,7 +3046,9 @@ const N5_VOCAB = [
       "zh-CN": "担心朋友",
       "ko": "[worry friend]",
       "vi": "[worry friend]",
-      "id": "[worry friend]"
+      "id": "[worry friend]",
+      "es": "worry friend",
+      "pt": "worry friend"
     }
   },
   {
@@ -2625,7 +3061,9 @@ const N5_VOCAB = [
       "zh-CN": "放心",
       "ko": "[to be relieved]",
       "vi": "[to be relieved]",
-      "id": "[to be relieved]"
+      "id": "[to be relieved]",
+      "es": "to be relieved",
+      "pt": "to be relieved"
     },
     "ex": "無事で安心する",
     "exm": {
@@ -2634,7 +3072,9 @@ const N5_VOCAB = [
       "zh-CN": "平安而放心",
       "ko": "[relieved safe]",
       "vi": "[relieved safe]",
-      "id": "[relieved safe]"
+      "id": "[relieved safe]",
+      "es": "relieved safe",
+      "pt": "relieved safe"
     }
   },
   {
@@ -2647,7 +3087,9 @@ const N5_VOCAB = [
       "zh-CN": "困扰",
       "ko": "[to be troubled]",
       "vi": "[to be troubled]",
-      "id": "[to be troubled]"
+      "id": "[to be troubled]",
+      "es": "to be troubled",
+      "pt": "to be troubled"
     },
     "ex": "お金に困る",
     "exm": {
@@ -2656,7 +3098,9 @@ const N5_VOCAB = [
       "zh-CN": "为钱困扰",
       "ko": "[troubled money]",
       "vi": "[troubled money]",
-      "id": "[troubled money]"
+      "id": "[troubled money]",
+      "es": "troubled money",
+      "pt": "troubled money"
     }
   },
   {
@@ -2669,7 +3113,9 @@ const N5_VOCAB = [
       "zh-CN": "累",
       "ko": "[to be tired]",
       "vi": "[to be tired]",
-      "id": "[to be tired]"
+      "id": "[to be tired]",
+      "es": "to be tired",
+      "pt": "to be tired"
     },
     "ex": "仕事で疲れる",
     "exm": {
@@ -2678,7 +3124,9 @@ const N5_VOCAB = [
       "zh-CN": "工作累了",
       "ko": "[tired work]",
       "vi": "[tired work]",
-      "id": "[tired work]"
+      "id": "[tired work]",
+      "es": "tired work",
+      "pt": "tired work"
     }
   },
   {
@@ -2691,7 +3139,9 @@ const N5_VOCAB = [
       "zh-CN": "精神好",
       "ko": "[healthy/energetic]",
       "vi": "[healthy/energetic]",
-      "id": "[healthy/energetic]"
+      "id": "[healthy/energetic]",
+      "es": "healthy/energetic",
+      "pt": "healthy/energetic"
     },
     "ex": "今日は元気",
     "exm": {
@@ -2700,7 +3150,9 @@ const N5_VOCAB = [
       "zh-CN": "今天精神好",
       "ko": "[energetic today]",
       "vi": "[energetic today]",
-      "id": "[energetic today]"
+      "id": "[energetic today]",
+      "es": "energetic today",
+      "pt": "energetic today"
     }
   },
   {
@@ -2713,7 +3165,9 @@ const N5_VOCAB = [
       "zh-CN": "生病",
       "ko": "[sick]",
       "vi": "[sick]",
-      "id": "[sick]"
+      "id": "[sick]",
+      "es": "sick",
+      "pt": "sick"
     },
     "ex": "病気になる",
     "exm": {
@@ -2722,7 +3176,9 @@ const N5_VOCAB = [
       "zh-CN": "生病了",
       "ko": "[get sick]",
       "vi": "[get sick]",
-      "id": "[get sick]"
+      "id": "[get sick]",
+      "es": "get sick",
+      "pt": "get sick"
     }
   },
   {
@@ -2735,7 +3191,9 @@ const N5_VOCAB = [
       "zh-CN": "痊愈",
       "ko": "[to heal]",
       "vi": "[to heal]",
-      "id": "[to heal]"
+      "id": "[to heal]",
+      "es": "to heal",
+      "pt": "to heal"
     },
     "ex": "風邪が治る",
     "exm": {
@@ -2744,7 +3202,9 @@ const N5_VOCAB = [
       "zh-CN": "感冒好了",
       "ko": "[cold heals]",
       "vi": "[cold heals]",
-      "id": "[cold heals]"
+      "id": "[cold heals]",
+      "es": "cold heals",
+      "pt": "cold heals"
     }
   },
   {
@@ -2757,7 +3217,9 @@ const N5_VOCAB = [
       "zh-CN": "出生",
       "ko": "태어나다",
       "vi": "Sinh ra",
-      "id": "Lahir"
+      "id": "Lahir",
+      "es": "to be born",
+      "pt": "to be born"
     },
     "ex": "東京で生まれる",
     "exm": {
@@ -2766,7 +3228,9 @@ const N5_VOCAB = [
       "zh-CN": "在东京出生",
       "ko": "[born Tokyo]",
       "vi": "[born Tokyo]",
-      "id": "[born Tokyo]"
+      "id": "[born Tokyo]",
+      "es": "born Tokyo",
+      "pt": "born Tokyo"
     }
   },
   {
@@ -2779,7 +3243,9 @@ const N5_VOCAB = [
       "zh-CN": "死",
       "ko": "죽다",
       "vi": "Chết",
-      "id": "Mati"
+      "id": "Mati",
+      "es": "to die",
+      "pt": "to die"
     },
     "ex": "花が死ぬ",
     "exm": {
@@ -2788,7 +3254,9 @@ const N5_VOCAB = [
       "zh-CN": "花死了",
       "ko": "[flower dies]",
       "vi": "[flower dies]",
-      "id": "[flower dies]"
+      "id": "[flower dies]",
+      "es": "flower dies",
+      "pt": "flower dies"
     }
   },
   {
@@ -2801,7 +3269,9 @@ const N5_VOCAB = [
       "zh-CN": "住",
       "ko": "살다",
       "vi": "Sống",
-      "id": "Tinggal"
+      "id": "Tinggal",
+      "es": "to live",
+      "pt": "to live"
     },
     "ex": "幸せに生きる",
     "exm": {
@@ -2810,7 +3280,9 @@ const N5_VOCAB = [
       "zh-CN": "幸福地活着",
       "ko": "[live happy]",
       "vi": "[live happy]",
-      "id": "[live happy]"
+      "id": "[live happy]",
+      "es": "live happy",
+      "pt": "live happy"
     }
   },
   {
@@ -2823,7 +3295,9 @@ const N5_VOCAB = [
       "zh-CN": "住",
       "ko": "[to live/reside]",
       "vi": "[to live/reside]",
-      "id": "[to live/reside]"
+      "id": "[to live/reside]",
+      "es": "to live/reside",
+      "pt": "to live/reside"
     },
     "ex": "東京に住む",
     "exm": {
@@ -2832,7 +3306,9 @@ const N5_VOCAB = [
       "zh-CN": "住在东京",
       "ko": "[live Tokyo]",
       "vi": "[live Tokyo]",
-      "id": "[live Tokyo]"
+      "id": "[live Tokyo]",
+      "es": "live Tokyo",
+      "pt": "live Tokyo"
     }
   },
   {
@@ -2845,7 +3321,9 @@ const N5_VOCAB = [
       "zh-CN": "搬家",
       "ko": "[to move house]",
       "vi": "[to move house]",
-      "id": "[to move house]"
+      "id": "[to move house]",
+      "es": "to move house",
+      "pt": "to move house"
     },
     "ex": "大阪に引っ越す",
     "exm": {
@@ -2854,7 +3332,9 @@ const N5_VOCAB = [
       "zh-CN": "搬到大阪",
       "ko": "[move Osaka]",
       "vi": "[move Osaka]",
-      "id": "[move Osaka]"
+      "id": "[move Osaka]",
+      "es": "move Osaka",
+      "pt": "move Osaka"
     }
   },
   {
@@ -2867,7 +3347,9 @@ const N5_VOCAB = [
       "zh-CN": "结婚",
       "ko": "[to marry]",
       "vi": "[to marry]",
-      "id": "[to marry]"
+      "id": "[to marry]",
+      "es": "to marry",
+      "pt": "to marry"
     },
     "ex": "来年結婚する",
     "exm": {
@@ -2876,7 +3358,9 @@ const N5_VOCAB = [
       "zh-CN": "明年结婚",
       "ko": "[marry next year]",
       "vi": "[marry next year]",
-      "id": "[marry next year]"
+      "id": "[marry next year]",
+      "es": "marry next year",
+      "pt": "marry next year"
     }
   },
   {
@@ -2889,7 +3373,9 @@ const N5_VOCAB = [
       "zh-CN": "离婚",
       "ko": "[to divorce]",
       "vi": "[to divorce]",
-      "id": "[to divorce]"
+      "id": "[to divorce]",
+      "es": "to divorce",
+      "pt": "to divorce"
     },
     "ex": "去年離婚した",
     "exm": {
@@ -2898,7 +3384,9 @@ const N5_VOCAB = [
       "zh-CN": "去年离婚了",
       "ko": "[divorced last year]",
       "vi": "[divorced last year]",
-      "id": "[divorced last year]"
+      "id": "[divorced last year]",
+      "es": "divorced last year",
+      "pt": "divorced last year"
     }
   },
   {
@@ -2911,7 +3399,9 @@ const N5_VOCAB = [
       "zh-CN": "交往",
       "ko": "[to date]",
       "vi": "[to date]",
-      "id": "[to date]"
+      "id": "[to date]",
+      "es": "to date",
+      "pt": "to date"
     },
     "ex": "彼と付き合う",
     "exm": {
@@ -2920,7 +3410,9 @@ const N5_VOCAB = [
       "zh-CN": "和他交往",
       "ko": "[date him]",
       "vi": "[date him]",
-      "id": "[date him]"
+      "id": "[date him]",
+      "es": "date him",
+      "pt": "date him"
     }
   },
   {
@@ -2933,7 +3425,9 @@ const N5_VOCAB = [
       "zh-CN": "分手",
       "ko": "[to break up]",
       "vi": "[to break up]",
-      "id": "[to break up]"
+      "id": "[to break up]",
+      "es": "to break up",
+      "pt": "to break up"
     },
     "ex": "彼女と別れる",
     "exm": {
@@ -2942,7 +3436,9 @@ const N5_VOCAB = [
       "zh-CN": "和她分手",
       "ko": "[break up her]",
       "vi": "[break up her]",
-      "id": "[break up her]"
+      "id": "[break up her]",
+      "es": "break up her",
+      "pt": "break up her"
     }
   },
   {
@@ -2955,7 +3451,9 @@ const N5_VOCAB = [
       "zh-CN": "叫醒",
       "ko": "[to wake (someone)]",
       "vi": "[to wake (someone)]",
-      "id": "[to wake (someone)]"
+      "id": "[to wake (someone)]",
+      "es": "to wake (someone)",
+      "pt": "to wake (someone)"
     },
     "ex": "子供を起こす",
     "exm": {
@@ -2964,7 +3462,9 @@ const N5_VOCAB = [
       "zh-CN": "叫醒小孩",
       "ko": "[wake child]",
       "vi": "[wake child]",
-      "id": "[wake child]"
+      "id": "[wake child]",
+      "es": "wake child",
+      "pt": "wake child"
     }
   },
   {
@@ -2977,7 +3477,9 @@ const N5_VOCAB = [
       "zh-CN": "哄睡",
       "ko": "[to put to sleep]",
       "vi": "[to put to sleep]",
-      "id": "[to put to sleep]"
+      "id": "[to put to sleep]",
+      "es": "to put to sleep",
+      "pt": "to put to sleep"
     },
     "ex": "赤ちゃんを寝かす",
     "exm": {
@@ -2986,7 +3488,9 @@ const N5_VOCAB = [
       "zh-CN": "哄婴儿睡觉",
       "ko": "[put baby sleep]",
       "vi": "[put baby sleep]",
-      "id": "[put baby sleep]"
+      "id": "[put baby sleep]",
+      "es": "put baby sleep",
+      "pt": "put baby sleep"
     }
   },
   {
@@ -2999,7 +3503,9 @@ const N5_VOCAB = [
       "zh-CN": "迟到",
       "ko": "[to be late]",
       "vi": "[to be late]",
-      "id": "[to be late]"
+      "id": "[to be late]",
+      "es": "to be late",
+      "pt": "to be late"
     },
     "ex": "会議に遅れる",
     "exm": {
@@ -3008,7 +3514,9 @@ const N5_VOCAB = [
       "zh-CN": "开会迟到",
       "ko": "[late meeting]",
       "vi": "[late meeting]",
-      "id": "[late meeting]"
+      "id": "[late meeting]",
+      "es": "late meeting",
+      "pt": "late meeting"
     }
   },
   {
@@ -3021,7 +3529,9 @@ const N5_VOCAB = [
       "zh-CN": "赶快",
       "ko": "[to hurry]",
       "vi": "[to hurry]",
-      "id": "[to hurry]"
+      "id": "[to hurry]",
+      "es": "to hurry",
+      "pt": "to hurry"
     },
     "ex": "駅に急ぐ",
     "exm": {
@@ -3030,7 +3540,9 @@ const N5_VOCAB = [
       "zh-CN": "赶去车站",
       "ko": "[hurry station]",
       "vi": "[hurry station]",
-      "id": "[hurry station]"
+      "id": "[hurry station]",
+      "es": "hurry station",
+      "pt": "hurry station"
     }
   },
   {
@@ -3043,7 +3555,9 @@ const N5_VOCAB = [
       "zh-CN": "赶上",
       "ko": "[to be on time]",
       "vi": "[to be on time]",
-      "id": "[to be on time]"
+      "id": "[to be on time]",
+      "es": "to be on time",
+      "pt": "to be on time"
     },
     "ex": "電車に間に合う",
     "exm": {
@@ -3052,7 +3566,9 @@ const N5_VOCAB = [
       "zh-CN": "赶上电车",
       "ko": "[catch train]",
       "vi": "[catch train]",
-      "id": "[catch train]"
+      "id": "[catch train]",
+      "es": "catch train",
+      "pt": "catch train"
     }
   },
   {
@@ -3065,7 +3581,9 @@ const N5_VOCAB = [
       "zh-CN": "掉落",
       "ko": "[to fall]",
       "vi": "[to fall]",
-      "id": "[to fall]"
+      "id": "[to fall]",
+      "es": "to fall",
+      "pt": "to fall"
     },
     "ex": "葉が落ちる",
     "exm": {
@@ -3074,7 +3592,9 @@ const N5_VOCAB = [
       "zh-CN": "叶子掉落",
       "ko": "[leaves fall]",
       "vi": "[leaves fall]",
-      "id": "[leaves fall]"
+      "id": "[leaves fall]",
+      "es": "leaves fall",
+      "pt": "leaves fall"
     }
   },
   {
@@ -3087,7 +3607,9 @@ const N5_VOCAB = [
       "zh-CN": "上升",
       "ko": "가다",
       "vi": "đi",
-      "id": "pergi"
+      "id": "pergi",
+      "es": "to go up",
+      "pt": "to go up"
     },
     "ex": "温度が上がる",
     "exm": {
@@ -3096,7 +3618,9 @@ const N5_VOCAB = [
       "zh-CN": "温度上升",
       "ko": "[temp rises]",
       "vi": "[temp rises]",
-      "id": "[temp rises]"
+      "id": "[temp rises]",
+      "es": "temp rises",
+      "pt": "temp rises"
     }
   },
   {
@@ -3109,7 +3633,9 @@ const N5_VOCAB = [
       "zh-CN": "下降",
       "ko": "가다",
       "vi": "đi",
-      "id": "pergi"
+      "id": "pergi",
+      "es": "to go down",
+      "pt": "to go down"
     },
     "ex": "温度が下がる",
     "exm": {
@@ -3118,7 +3644,9 @@ const N5_VOCAB = [
       "zh-CN": "温度下降",
       "ko": "[temp drops]",
       "vi": "[temp drops]",
-      "id": "[temp drops]"
+      "id": "[temp drops]",
+      "es": "temp drops",
+      "pt": "temp drops"
     }
   },
   {
@@ -3131,7 +3659,9 @@ const N5_VOCAB = [
       "zh-CN": "聚集",
       "ko": "[to gather]",
       "vi": "[to gather]",
-      "id": "[to gather]"
+      "id": "[to gather]",
+      "es": "to gather",
+      "pt": "to gather"
     },
     "ex": "人が集まる",
     "exm": {
@@ -3140,7 +3670,9 @@ const N5_VOCAB = [
       "zh-CN": "人聚集",
       "ko": "[people gather]",
       "vi": "[people gather]",
-      "id": "[people gather]"
+      "id": "[people gather]",
+      "es": "people gather",
+      "pt": "people gather"
     }
   },
   {
@@ -3153,7 +3685,9 @@ const N5_VOCAB = [
       "zh-CN": "收集",
       "ko": "[to collect]",
       "vi": "[to collect]",
-      "id": "[to collect]"
+      "id": "[to collect]",
+      "es": "to collect",
+      "pt": "to collect"
     },
     "ex": "切手を集める",
     "exm": {
@@ -3162,7 +3696,9 @@ const N5_VOCAB = [
       "zh-CN": "收集邮票",
       "ko": "[collect stamps]",
       "vi": "[collect stamps]",
-      "id": "[collect stamps]"
+      "id": "[collect stamps]",
+      "es": "collect stamps",
+      "pt": "collect stamps"
     }
   },
   {
@@ -3175,7 +3711,9 @@ const N5_VOCAB = [
       "zh-CN": "排队",
       "ko": "[to line up]",
       "vi": "[to line up]",
-      "id": "[to line up]"
+      "id": "[to line up]",
+      "es": "to line up",
+      "pt": "to line up"
     },
     "ex": "店に並ぶ",
     "exm": {
@@ -3184,7 +3722,9 @@ const N5_VOCAB = [
       "zh-CN": "在店排队",
       "ko": "[line up shop]",
       "vi": "[line up shop]",
-      "id": "[line up shop]"
+      "id": "[line up shop]",
+      "es": "line up shop",
+      "pt": "line up shop"
     }
   },
   {
@@ -3197,7 +3737,9 @@ const N5_VOCAB = [
       "zh-CN": "排列",
       "ko": "[to arrange]",
       "vi": "[to arrange]",
-      "id": "[to arrange]"
+      "id": "[to arrange]",
+      "es": "to arrange",
+      "pt": "to arrange"
     },
     "ex": "本を並べる",
     "exm": {
@@ -3206,7 +3748,9 @@ const N5_VOCAB = [
       "zh-CN": "排列书",
       "ko": "[arrange books]",
       "vi": "[arrange books]",
-      "id": "[arrange books]"
+      "id": "[arrange books]",
+      "es": "arrange books",
+      "pt": "arrange books"
     }
   },
   {
@@ -3219,7 +3763,9 @@ const N5_VOCAB = [
       "zh-CN": "增加",
       "ko": "[to increase]",
       "vi": "[to increase]",
-      "id": "[to increase]"
+      "id": "[to increase]",
+      "es": "to increase",
+      "pt": "to increase"
     },
     "ex": "人口が増える",
     "exm": {
@@ -3228,7 +3774,9 @@ const N5_VOCAB = [
       "zh-CN": "人口增加",
       "ko": "[pop increases]",
       "vi": "[pop increases]",
-      "id": "[pop increases]"
+      "id": "[pop increases]",
+      "es": "pop increases",
+      "pt": "pop increases"
     }
   },
   {
@@ -3241,7 +3789,9 @@ const N5_VOCAB = [
       "zh-CN": "减少",
       "ko": "[to decrease]",
       "vi": "[to decrease]",
-      "id": "[to decrease]"
+      "id": "[to decrease]",
+      "es": "to decrease",
+      "pt": "to decrease"
     },
     "ex": "人口が減る",
     "exm": {
@@ -3250,7 +3800,9 @@ const N5_VOCAB = [
       "zh-CN": "人口减少",
       "ko": "[pop decreases]",
       "vi": "[pop decreases]",
-      "id": "[pop decreases]"
+      "id": "[pop decreases]",
+      "es": "pop decreases",
+      "pt": "pop decreases"
     }
   },
   {
@@ -3263,7 +3815,9 @@ const N5_VOCAB = [
       "zh-CN": "足够",
       "ko": "[to be enough]",
       "vi": "[to be enough]",
-      "id": "[to be enough]"
+      "id": "[to be enough]",
+      "es": "to be enough",
+      "pt": "to be enough"
     },
     "ex": "お金が足りる",
     "exm": {
@@ -3272,7 +3826,9 @@ const N5_VOCAB = [
       "zh-CN": "钱足够",
       "ko": "[money enough]",
       "vi": "[money enough]",
-      "id": "[money enough]"
+      "id": "[money enough]",
+      "es": "money enough",
+      "pt": "money enough"
     }
   },
   {
@@ -3285,7 +3841,9 @@ const N5_VOCAB = [
       "zh-CN": "剩余",
       "ko": "[to be left over]",
       "vi": "[to be left over]",
-      "id": "[to be left over]"
+      "id": "[to be left over]",
+      "es": "to be left over",
+      "pt": "to be left over"
     },
     "ex": "お金が余る",
     "exm": {
@@ -3294,7 +3852,9 @@ const N5_VOCAB = [
       "zh-CN": "钱剩下",
       "ko": "[money left]",
       "vi": "[money left]",
-      "id": "[money left]"
+      "id": "[money left]",
+      "es": "money left",
+      "pt": "money left"
     }
   },
   {
@@ -3307,7 +3867,9 @@ const N5_VOCAB = [
       "zh-CN": "花费",
       "ko": "[to take (time/money)]",
       "vi": "[to take (time/money)]",
-      "id": "[to take (time/money)]"
+      "id": "[to take (time/money)]",
+      "es": "to take (time/money)",
+      "pt": "to take (time/money)"
     },
     "ex": "時間が掛かる",
     "exm": {
@@ -3316,7 +3878,9 @@ const N5_VOCAB = [
       "zh-CN": "花时间",
       "ko": "[takes time]",
       "vi": "[takes time]",
-      "id": "[takes time]"
+      "id": "[takes time]",
+      "es": "takes time",
+      "pt": "takes time"
     }
   },
   {
@@ -3329,7 +3893,9 @@ const N5_VOCAB = [
       "zh-CN": "有用",
       "ko": "[to be useful]",
       "vi": "[to be useful]",
-      "id": "[to be useful]"
+      "id": "[to be useful]",
+      "es": "to be useful",
+      "pt": "to be useful"
     },
     "ex": "辞書が役に立つ",
     "exm": {
@@ -3338,7 +3904,9 @@ const N5_VOCAB = [
       "zh-CN": "字典很有用",
       "ko": "[dictionary useful]",
       "vi": "[dictionary useful]",
-      "id": "[dictionary useful]"
+      "id": "[dictionary useful]",
+      "es": "dictionary useful",
+      "pt": "dictionary useful"
     }
   },
   {
@@ -3351,7 +3919,9 @@ const N5_VOCAB = [
       "zh-CN": "像",
       "ko": "[to resemble]",
       "vi": "[to resemble]",
-      "id": "[to resemble]"
+      "id": "[to resemble]",
+      "es": "to resemble",
+      "pt": "to resemble"
     },
     "ex": "父に似る",
     "exm": {
@@ -3360,7 +3930,9 @@ const N5_VOCAB = [
       "zh-CN": "像爸爸",
       "ko": "[resemble father]",
       "vi": "[resemble father]",
-      "id": "[resemble father]"
+      "id": "[resemble father]",
+      "es": "resemble father",
+      "pt": "resemble father"
     }
   },
   {
@@ -3373,7 +3945,9 @@ const N5_VOCAB = [
       "zh-CN": "不同",
       "ko": "[to be different]",
       "vi": "[to be different]",
-      "id": "[to be different]"
+      "id": "[to be different]",
+      "es": "to be different",
+      "pt": "to be different"
     },
     "ex": "意見が違う",
     "exm": {
@@ -3382,7 +3956,9 @@ const N5_VOCAB = [
       "zh-CN": "意见不同",
       "ko": "[opinions differ]",
       "vi": "[opinions differ]",
-      "id": "[opinions differ]"
+      "id": "[opinions differ]",
+      "es": "opinions differ",
+      "pt": "opinions differ"
     }
   },
   {
@@ -3395,7 +3971,9 @@ const N5_VOCAB = [
       "zh-CN": "合适",
       "ko": "[to fit/match]",
       "vi": "[to fit/match]",
-      "id": "[to fit/match]"
+      "id": "[to fit/match]",
+      "es": "to fit/match",
+      "pt": "to fit/match"
     },
     "ex": "サイズが合う",
     "exm": {
@@ -3404,7 +3982,9 @@ const N5_VOCAB = [
       "zh-CN": "尺寸合适",
       "ko": "[size fits]",
       "vi": "[size fits]",
-      "id": "[size fits]"
+      "id": "[size fits]",
+      "es": "size fits",
+      "pt": "size fits"
     }
   },
   {
@@ -3417,7 +3997,9 @@ const N5_VOCAB = [
       "zh-CN": "习惯",
       "ko": "[to get used to]",
       "vi": "[to get used to]",
-      "id": "[to get used to]"
+      "id": "[to get used to]",
+      "es": "to get used to",
+      "pt": "to get used to"
     },
     "ex": "日本に慣れる",
     "exm": {
@@ -3426,7 +4008,9 @@ const N5_VOCAB = [
       "zh-CN": "习惯日本",
       "ko": "[used to Japan]",
       "vi": "[used to Japan]",
-      "id": "[used to Japan]"
+      "id": "[used to Japan]",
+      "es": "used to Japan",
+      "pt": "used to Japan"
     }
   },
   {
@@ -3439,7 +4023,9 @@ const N5_VOCAB = [
       "zh-CN": "比较",
       "ko": "[to compare]",
       "vi": "[to compare]",
-      "id": "[to compare]"
+      "id": "[to compare]",
+      "es": "to compare",
+      "pt": "to compare"
     },
     "ex": "値段を比べる",
     "exm": {
@@ -3448,7 +4034,9 @@ const N5_VOCAB = [
       "zh-CN": "比较价格",
       "ko": "[compare prices]",
       "vi": "[compare prices]",
-      "id": "[compare prices]"
+      "id": "[compare prices]",
+      "es": "compare prices",
+      "pt": "compare prices"
     }
   },
   {
@@ -3461,7 +4049,9 @@ const N5_VOCAB = [
       "zh-CN": "选择",
       "ko": "[to choose]",
       "vi": "[to choose]",
-      "id": "[to choose]"
+      "id": "[to choose]",
+      "es": "to choose",
+      "pt": "to choose"
     },
     "ex": "色を選ぶ",
     "exm": {
@@ -3470,7 +4060,9 @@ const N5_VOCAB = [
       "zh-CN": "选颜色",
       "ko": "[choose color]",
       "vi": "[choose color]",
-      "id": "[choose color]"
+      "id": "[choose color]",
+      "es": "choose color",
+      "pt": "choose color"
     }
   },
   {
@@ -3483,7 +4075,9 @@ const N5_VOCAB = [
       "zh-CN": "数",
       "ko": "[to count]",
       "vi": "[to count]",
-      "id": "[to count]"
+      "id": "[to count]",
+      "es": "to count",
+      "pt": "to count"
     },
     "ex": "お金を数える",
     "exm": {
@@ -3492,7 +4086,9 @@ const N5_VOCAB = [
       "zh-CN": "数钱",
       "ko": "[count money]",
       "vi": "[count money]",
-      "id": "[count money]"
+      "id": "[count money]",
+      "es": "count money",
+      "pt": "count money"
     }
   },
   {
@@ -3505,7 +4101,9 @@ const N5_VOCAB = [
       "zh-CN": "调查",
       "ko": "[to investigate]",
       "vi": "[to investigate]",
-      "id": "[to investigate]"
+      "id": "[to investigate]",
+      "es": "to investigate",
+      "pt": "to investigate"
     },
     "ex": "辞書で調べる",
     "exm": {
@@ -3514,7 +4112,9 @@ const N5_VOCAB = [
       "zh-CN": "查字典",
       "ko": "[look up dictionary]",
       "vi": "[look up dictionary]",
-      "id": "[look up dictionary]"
+      "id": "[look up dictionary]",
+      "es": "look up dictionary",
+      "pt": "look up dictionary"
     }
   },
   {
@@ -3527,7 +4127,9 @@ const N5_VOCAB = [
       "zh-CN": "尝试",
       "ko": "[to try]",
       "vi": "[to try]",
-      "id": "[to try]"
+      "id": "[to try]",
+      "es": "to try",
+      "pt": "to try"
     },
     "ex": "新しい料理を試す",
     "exm": {
@@ -3536,7 +4138,9 @@ const N5_VOCAB = [
       "zh-CN": "尝试新菜",
       "ko": "[try new food]",
       "vi": "[try new food]",
-      "id": "[try new food]"
+      "id": "[try new food]",
+      "es": "try new food",
+      "pt": "try new food"
     }
   },
   {
@@ -3549,7 +4153,9 @@ const N5_VOCAB = [
       "zh-CN": "努力",
       "ko": "[to make effort]",
       "vi": "[to make effort]",
-      "id": "[to make effort]"
+      "id": "[to make effort]",
+      "es": "to make effort",
+      "pt": "to make effort"
     },
     "ex": "毎日努力する",
     "exm": {
@@ -3558,7 +4164,9 @@ const N5_VOCAB = [
       "zh-CN": "每天努力",
       "ko": "[effort daily]",
       "vi": "[effort daily]",
-      "id": "[effort daily]"
+      "id": "[effort daily]",
+      "es": "effort daily",
+      "pt": "effort daily"
     }
   },
   {
@@ -3571,7 +4179,9 @@ const N5_VOCAB = [
       "zh-CN": "成功",
       "ko": "[to succeed]",
       "vi": "[to succeed]",
-      "id": "[to succeed]"
+      "id": "[to succeed]",
+      "es": "to succeed",
+      "pt": "to succeed"
     },
     "ex": "試験に成功する",
     "exm": {
@@ -3580,7 +4190,9 @@ const N5_VOCAB = [
       "zh-CN": "考试成功",
       "ko": "[succeed exam]",
       "vi": "[succeed exam]",
-      "id": "[succeed exam]"
+      "id": "[succeed exam]",
+      "es": "succeed exam",
+      "pt": "succeed exam"
     }
   },
   {
@@ -3593,7 +4205,9 @@ const N5_VOCAB = [
       "zh-CN": "失败",
       "ko": "[to fail]",
       "vi": "[to fail]",
-      "id": "[to fail]"
+      "id": "[to fail]",
+      "es": "to fail",
+      "pt": "to fail"
     },
     "ex": "試験に失敗する",
     "exm": {
@@ -3602,7 +4216,9 @@ const N5_VOCAB = [
       "zh-CN": "考试失败",
       "ko": "[fail exam]",
       "vi": "[fail exam]",
-      "id": "[fail exam]"
+      "id": "[fail exam]",
+      "es": "fail exam",
+      "pt": "fail exam"
     }
   },
   {
@@ -3615,7 +4231,9 @@ const N5_VOCAB = [
       "zh-CN": "参加",
       "ko": "[to participate]",
       "vi": "[to participate]",
-      "id": "[to participate]"
+      "id": "[to participate]",
+      "es": "to participate",
+      "pt": "to participate"
     },
     "ex": "パーティーに参加する",
     "exm": {
@@ -3624,7 +4242,9 @@ const N5_VOCAB = [
       "zh-CN": "参加派对",
       "ko": "[join party]",
       "vi": "[join party]",
-      "id": "[join party]"
+      "id": "[join party]",
+      "es": "join party",
+      "pt": "join party"
     }
   },
   {
@@ -3637,7 +4257,9 @@ const N5_VOCAB = [
       "zh-CN": "邀请",
       "ko": "[to invite]",
       "vi": "[to invite]",
-      "id": "[to invite]"
+      "id": "[to invite]",
+      "es": "to invite",
+      "pt": "to invite"
     },
     "ex": "友達を招待する",
     "exm": {
@@ -3646,7 +4268,9 @@ const N5_VOCAB = [
       "zh-CN": "邀请朋友",
       "ko": "[invite friend]",
       "vi": "[invite friend]",
-      "id": "[invite friend]"
+      "id": "[invite friend]",
+      "es": "invite friend",
+      "pt": "invite friend"
     }
   },
   {
@@ -3659,7 +4283,9 @@ const N5_VOCAB = [
       "zh-CN": "介绍",
       "ko": "[to introduce]",
       "vi": "[to introduce]",
-      "id": "[to introduce]"
+      "id": "[to introduce]",
+      "es": "to introduce",
+      "pt": "to introduce"
     },
     "ex": "友達を紹介する",
     "exm": {
@@ -3668,7 +4294,9 @@ const N5_VOCAB = [
       "zh-CN": "介绍朋友",
       "ko": "[introduce friend]",
       "vi": "[introduce friend]",
-      "id": "[introduce friend]"
+      "id": "[introduce friend]",
+      "es": "introduce friend",
+      "pt": "introduce friend"
     }
   },
   {
@@ -3681,7 +4309,9 @@ const N5_VOCAB = [
       "zh-CN": "引导",
       "ko": "[to guide]",
       "vi": "[to guide]",
-      "id": "[to guide]"
+      "id": "[to guide]",
+      "es": "to guide",
+      "pt": "to guide"
     },
     "ex": "町を案内する",
     "exm": {
@@ -3690,7 +4320,9 @@ const N5_VOCAB = [
       "zh-CN": "导览城市",
       "ko": "[guide town]",
       "vi": "[guide town]",
-      "id": "[guide town]"
+      "id": "[guide town]",
+      "es": "guide town",
+      "pt": "guide town"
     }
   },
   {
@@ -3703,7 +4335,9 @@ const N5_VOCAB = [
       "zh-CN": "说明",
       "ko": "[to explain]",
       "vi": "[to explain]",
-      "id": "[to explain]"
+      "id": "[to explain]",
+      "es": "to explain",
+      "pt": "to explain"
     },
     "ex": "使い方を説明する",
     "exm": {
@@ -3712,7 +4346,9 @@ const N5_VOCAB = [
       "zh-CN": "说明用法",
       "ko": "[explain use]",
       "vi": "[explain use]",
-      "id": "[explain use]"
+      "id": "[explain use]",
+      "es": "explain use",
+      "pt": "explain use"
     }
   },
   {
@@ -3725,7 +4361,9 @@ const N5_VOCAB = [
       "zh-CN": "问",
       "ko": "묻다",
       "vi": "Hỏi",
-      "id": "Bertanya"
+      "id": "Bertanya",
+      "es": "to ask",
+      "pt": "to ask"
     },
     "ex": "先生に質問する",
     "exm": {
@@ -3734,7 +4372,9 @@ const N5_VOCAB = [
       "zh-CN": "问老师",
       "ko": "[ask teacher]",
       "vi": "[ask teacher]",
-      "id": "[ask teacher]"
+      "id": "[ask teacher]",
+      "es": "ask teacher",
+      "pt": "ask teacher"
     }
   },
   {
@@ -3747,7 +4387,9 @@ const N5_VOCAB = [
       "zh-CN": "回答",
       "ko": "대답하다",
       "vi": "Trả lời",
-      "id": "Menjawab"
+      "id": "Menjawab",
+      "es": "to answer",
+      "pt": "to answer"
     },
     "ex": "質問に答える",
     "exm": {
@@ -3756,7 +4398,9 @@ const N5_VOCAB = [
       "zh-CN": "回答问题",
       "ko": "[answer question]",
       "vi": "[answer question]",
-      "id": "[answer question]"
+      "id": "[answer question]",
+      "es": "answer question",
+      "pt": "answer question"
     },
     "syn": [
       "返答する",
@@ -3774,7 +4418,9 @@ const N5_VOCAB = [
       "zh-CN": "拜托",
       "ko": "[to request]",
       "vi": "[to request]",
-      "id": "[to request]"
+      "id": "[to request]",
+      "es": "to request",
+      "pt": "to request"
     },
     "ex": "友達に頼む",
     "exm": {
@@ -3783,7 +4429,9 @@ const N5_VOCAB = [
       "zh-CN": "拜托朋友",
       "ko": "[ask friend]",
       "vi": "[ask friend]",
-      "id": "[ask friend]"
+      "id": "[ask friend]",
+      "es": "ask friend",
+      "pt": "ask friend"
     }
   },
   {
@@ -3796,7 +4444,9 @@ const N5_VOCAB = [
       "zh-CN": "拒绝",
       "ko": "[to refuse]",
       "vi": "[to refuse]",
-      "id": "[to refuse]"
+      "id": "[to refuse]",
+      "es": "to refuse",
+      "pt": "to refuse"
     },
     "ex": "招待を断る",
     "exm": {
@@ -3805,7 +4455,9 @@ const N5_VOCAB = [
       "zh-CN": "拒绝邀请",
       "ko": "[refuse invitation]",
       "vi": "[refuse invitation]",
-      "id": "[refuse invitation]"
+      "id": "[refuse invitation]",
+      "es": "refuse invitation",
+      "pt": "refuse invitation"
     }
   },
   {
@@ -3818,7 +4470,9 @@ const N5_VOCAB = [
       "zh-CN": "原谅",
       "ko": "[to forgive]",
       "vi": "[to forgive]",
-      "id": "[to forgive]"
+      "id": "[to forgive]",
+      "es": "to forgive",
+      "pt": "to forgive"
     },
     "ex": "友達を許す",
     "exm": {
@@ -3827,7 +4481,9 @@ const N5_VOCAB = [
       "zh-CN": "原谅朋友",
       "ko": "[forgive friend]",
       "vi": "[forgive friend]",
-      "id": "[forgive friend]"
+      "id": "[forgive friend]",
+      "es": "forgive friend",
+      "pt": "forgive friend"
     }
   },
   {
@@ -3840,7 +4496,9 @@ const N5_VOCAB = [
       "zh-CN": "道歉",
       "ko": "[to apologize]",
       "vi": "[to apologize]",
-      "id": "[to apologize]"
+      "id": "[to apologize]",
+      "es": "to apologize",
+      "pt": "to apologize"
     },
     "ex": "間違いを謝る",
     "exm": {
@@ -3849,7 +4507,9 @@ const N5_VOCAB = [
       "zh-CN": "为错误道歉",
       "ko": "[apologize mistake]",
       "vi": "[apologize mistake]",
-      "id": "[apologize mistake]"
+      "id": "[apologize mistake]",
+      "es": "apologize mistake",
+      "pt": "apologize mistake"
     }
   },
   {
@@ -3862,7 +4522,9 @@ const N5_VOCAB = [
       "zh-CN": "称赞",
       "ko": "[to praise]",
       "vi": "[to praise]",
-      "id": "[to praise]"
+      "id": "[to praise]",
+      "es": "to praise",
+      "pt": "to praise"
     },
     "ex": "子供を褒める",
     "exm": {
@@ -3871,7 +4533,9 @@ const N5_VOCAB = [
       "zh-CN": "称赞小孩",
       "ko": "[praise child]",
       "vi": "[praise child]",
-      "id": "[praise child]"
+      "id": "[praise child]",
+      "es": "praise child",
+      "pt": "praise child"
     }
   },
   {
@@ -3884,7 +4548,9 @@ const N5_VOCAB = [
       "zh-CN": "责骂",
       "ko": "오래되다",
       "vi": "cũ",
-      "id": "lama"
+      "id": "lama",
+      "es": "to scold",
+      "pt": "to scold"
     },
     "ex": "子供を叱る",
     "exm": {
@@ -3893,7 +4559,9 @@ const N5_VOCAB = [
       "zh-CN": "骂小孩",
       "ko": "[scold child]",
       "vi": "[scold child]",
-      "id": "[scold child]"
+      "id": "[scold child]",
+      "es": "scold child",
+      "pt": "scold child"
     }
   },
   {
@@ -3906,7 +4574,9 @@ const N5_VOCAB = [
       "zh-CN": "帮忙",
       "ko": "[to help]",
       "vi": "[to help]",
-      "id": "[to help]"
+      "id": "[to help]",
+      "es": "to help",
+      "pt": "to help"
     },
     "ex": "母を手伝う",
     "exm": {
@@ -3915,7 +4585,9 @@ const N5_VOCAB = [
       "zh-CN": "帮妈妈",
       "ko": "[help mother]",
       "vi": "[help mother]",
-      "id": "[help mother]"
+      "id": "[help mother]",
+      "es": "help mother",
+      "pt": "help mother"
     }
   },
   {
@@ -3928,7 +4600,9 @@ const N5_VOCAB = [
       "zh-CN": "救助",
       "ko": "[to rescue]",
       "vi": "[to rescue]",
-      "id": "[to rescue]"
+      "id": "[to rescue]",
+      "es": "to rescue",
+      "pt": "to rescue"
     },
     "ex": "友達を助ける",
     "exm": {
@@ -3937,7 +4611,9 @@ const N5_VOCAB = [
       "zh-CN": "救助朋友",
       "ko": "[help friend]",
       "vi": "[help friend]",
-      "id": "[help friend]"
+      "id": "[help friend]",
+      "es": "help friend",
+      "pt": "help friend"
     }
   },
   {
@@ -3950,7 +4626,9 @@ const N5_VOCAB = [
       "zh-CN": "保护",
       "ko": "[to protect]",
       "vi": "[to protect]",
-      "id": "[to protect]"
+      "id": "[to protect]",
+      "es": "to protect",
+      "pt": "to protect"
     },
     "ex": "約束を守る",
     "exm": {
@@ -3959,7 +4637,9 @@ const N5_VOCAB = [
       "zh-CN": "遵守约定",
       "ko": "[keep promise]",
       "vi": "[keep promise]",
-      "id": "[keep promise]"
+      "id": "[keep promise]",
+      "es": "keep promise",
+      "pt": "keep promise"
     }
   },
   {
@@ -3972,7 +4652,9 @@ const N5_VOCAB = [
       "zh-CN": "触摸",
       "ko": "[to touch]",
       "vi": "[to touch]",
-      "id": "[to touch]"
+      "id": "[to touch]",
+      "es": "to touch",
+      "pt": "to touch"
     },
     "ex": "壁に触る",
     "exm": {
@@ -3981,7 +4663,9 @@ const N5_VOCAB = [
       "zh-CN": "触摸墙壁",
       "ko": "[touch wall]",
       "vi": "[touch wall]",
-      "id": "[touch wall]"
+      "id": "[touch wall]",
+      "es": "touch wall",
+      "pt": "touch wall"
     }
   },
   {
@@ -3994,7 +4678,9 @@ const N5_VOCAB = [
       "zh-CN": "推/按",
       "ko": "[to push]",
       "vi": "[to push]",
-      "id": "[to push]"
+      "id": "[to push]",
+      "es": "to push",
+      "pt": "to push"
     },
     "ex": "ボタンを押す",
     "exm": {
@@ -4003,7 +4689,9 @@ const N5_VOCAB = [
       "zh-CN": "按按钮",
       "ko": "[push button]",
       "vi": "[push button]",
-      "id": "[push button]"
+      "id": "[push button]",
+      "es": "push button",
+      "pt": "push button"
     }
   },
   {
@@ -4016,7 +4704,9 @@ const N5_VOCAB = [
       "zh-CN": "拉",
       "ko": "[to pull]",
       "vi": "[to pull]",
-      "id": "[to pull]"
+      "id": "[to pull]",
+      "es": "to pull",
+      "pt": "to pull"
     },
     "ex": "ドアを引く",
     "exm": {
@@ -4025,7 +4715,9 @@ const N5_VOCAB = [
       "zh-CN": "拉门",
       "ko": "[pull door]",
       "vi": "[pull door]",
-      "id": "[pull door]"
+      "id": "[pull door]",
+      "es": "pull door",
+      "pt": "pull door"
     }
   },
   {
@@ -4038,7 +4730,9 @@ const N5_VOCAB = [
       "zh-CN": "扔",
       "ko": "[to throw]",
       "vi": "[to throw]",
-      "id": "[to throw]"
+      "id": "[to throw]",
+      "es": "to throw",
+      "pt": "to throw"
     },
     "ex": "ボールを投げる",
     "exm": {
@@ -4047,7 +4741,9 @@ const N5_VOCAB = [
       "zh-CN": "扔球",
       "ko": "[throw ball]",
       "vi": "[throw ball]",
-      "id": "[throw ball]"
+      "id": "[throw ball]",
+      "es": "throw ball",
+      "pt": "throw ball"
     }
   },
   {
@@ -4060,7 +4756,9 @@ const N5_VOCAB = [
       "zh-CN": "抓住",
       "ko": "[to catch]",
       "vi": "[to catch]",
-      "id": "[to catch]"
+      "id": "[to catch]",
+      "es": "to catch",
+      "pt": "to catch"
     },
     "ex": "ボールを捕まえる",
     "exm": {
@@ -4069,7 +4767,9 @@ const N5_VOCAB = [
       "zh-CN": "接球",
       "ko": "[catch ball]",
       "vi": "[catch ball]",
-      "id": "[catch ball]"
+      "id": "[catch ball]",
+      "es": "catch ball",
+      "pt": "catch ball"
     }
   },
   {
@@ -4082,7 +4782,9 @@ const N5_VOCAB = [
       "zh-CN": "飞",
       "ko": "[to fly]",
       "vi": "[to fly]",
-      "id": "[to fly]"
+      "id": "[to fly]",
+      "es": "to fly",
+      "pt": "to fly"
     },
     "ex": "鳥が飛ぶ",
     "exm": {
@@ -4091,7 +4793,9 @@ const N5_VOCAB = [
       "zh-CN": "鸟飞",
       "ko": "[bird flies]",
       "vi": "[bird flies]",
-      "id": "[bird flies]"
+      "id": "[bird flies]",
+      "es": "bird flies",
+      "pt": "bird flies"
     }
   },
   {
@@ -4104,7 +4808,9 @@ const N5_VOCAB = [
       "zh-CN": "跳",
       "ko": "[to jump]",
       "vi": "[to jump]",
-      "id": "[to jump]"
+      "id": "[to jump]",
+      "es": "to jump",
+      "pt": "to jump"
     },
     "ex": "高く跳ぶ",
     "exm": {
@@ -4113,7 +4819,9 @@ const N5_VOCAB = [
       "zh-CN": "跳得高",
       "ko": "[jump high]",
       "vi": "[jump high]",
-      "id": "[jump high]"
+      "id": "[jump high]",
+      "es": "jump high",
+      "pt": "jump high"
     }
   },
   {
@@ -4126,7 +4834,9 @@ const N5_VOCAB = [
       "zh-CN": "踢",
       "ko": "[to kick]",
       "vi": "[to kick]",
-      "id": "[to kick]"
+      "id": "[to kick]",
+      "es": "to kick",
+      "pt": "to kick"
     },
     "ex": "ボールを蹴る",
     "exm": {
@@ -4135,7 +4845,9 @@ const N5_VOCAB = [
       "zh-CN": "踢球",
       "ko": "[kick ball]",
       "vi": "[kick ball]",
-      "id": "[kick ball]"
+      "id": "[kick ball]",
+      "es": "kick ball",
+      "pt": "kick ball"
     }
   },
   {
@@ -4148,7 +4860,9 @@ const N5_VOCAB = [
       "zh-CN": "打",
       "ko": "[to hit]",
       "vi": "[to hit]",
-      "id": "[to hit]"
+      "id": "[to hit]",
+      "es": "to hit",
+      "pt": "to hit"
     },
     "ex": "ボールを打つ",
     "exm": {
@@ -4157,7 +4871,9 @@ const N5_VOCAB = [
       "zh-CN": "打球",
       "ko": "[hit ball]",
       "vi": "[hit ball]",
-      "id": "[hit ball]"
+      "id": "[hit ball]",
+      "es": "hit ball",
+      "pt": "hit ball"
     }
   },
   {
@@ -4170,7 +4886,9 @@ const N5_VOCAB = [
       "zh-CN": "敲",
       "ko": "[to knock]",
       "vi": "[to knock]",
-      "id": "[to knock]"
+      "id": "[to knock]",
+      "es": "to knock",
+      "pt": "to knock"
     },
     "ex": "ドアを叩く",
     "exm": {
@@ -4179,7 +4897,9 @@ const N5_VOCAB = [
       "zh-CN": "敲门",
       "ko": "[knock door]",
       "vi": "[knock door]",
-      "id": "[knock door]"
+      "id": "[knock door]",
+      "es": "knock door",
+      "pt": "knock door"
     }
   },
   {
@@ -4192,7 +4912,9 @@ const N5_VOCAB = [
       "zh-CN": "打电话",
       "ko": "전화하다",
       "vi": "Gọi điện",
-      "id": "Menelepon"
+      "id": "Menelepon",
+      "es": "to call",
+      "pt": "to call"
     },
     "ex": "名前を呼ぶ",
     "exm": {
@@ -4201,7 +4923,9 @@ const N5_VOCAB = [
       "zh-CN": "叫名字",
       "ko": "[call name]",
       "vi": "[call name]",
-      "id": "[call name]"
+      "id": "[call name]",
+      "es": "call name",
+      "pt": "call name"
     }
   },
   {
@@ -4214,7 +4938,9 @@ const N5_VOCAB = [
       "zh-CN": "喊叫",
       "ko": "[to shout]",
       "vi": "[to shout]",
-      "id": "[to shout]"
+      "id": "[to shout]",
+      "es": "to shout",
+      "pt": "to shout"
     },
     "ex": "大声で叫ぶ",
     "exm": {
@@ -4223,7 +4949,9 @@ const N5_VOCAB = [
       "zh-CN": "大声喊",
       "ko": "[shout loud]",
       "vi": "[shout loud]",
-      "id": "[shout loud]"
+      "id": "[shout loud]",
+      "es": "shout loud",
+      "pt": "shout loud"
     }
   },
   {
@@ -4236,7 +4964,9 @@ const N5_VOCAB = [
       "zh-CN": "叫(动物)",
       "ko": "[to make sound (animal)]",
       "vi": "[to make sound (animal)]",
-      "id": "[to make sound (animal)]"
+      "id": "[to make sound (animal)]",
+      "es": "to make sound (animal)",
+      "pt": "to make sound (animal)"
     },
     "ex": "犬が鳴く",
     "exm": {
@@ -4245,7 +4975,9 @@ const N5_VOCAB = [
       "zh-CN": "狗叫",
       "ko": "[dog barks]",
       "vi": "[dog barks]",
-      "id": "[dog barks]"
+      "id": "[dog barks]",
+      "es": "dog barks",
+      "pt": "dog barks"
     }
   },
   {
@@ -4258,7 +4990,9 @@ const N5_VOCAB = [
       "zh-CN": "响",
       "ko": "[to ring]",
       "vi": "[to ring]",
-      "id": "[to ring]"
+      "id": "[to ring]",
+      "es": "to ring",
+      "pt": "to ring"
     },
     "ex": "電話が鳴る",
     "exm": {
@@ -4267,7 +5001,9 @@ const N5_VOCAB = [
       "zh-CN": "电话响",
       "ko": "[phone rings]",
       "vi": "[phone rings]",
-      "id": "[phone rings]"
+      "id": "[phone rings]",
+      "es": "phone rings",
+      "pt": "phone rings"
     }
   },
   {
@@ -4280,7 +5016,9 @@ const N5_VOCAB = [
       "zh-CN": "发光",
       "ko": "[to shine]",
       "vi": "[to shine]",
-      "id": "[to shine]"
+      "id": "[to shine]",
+      "es": "to shine",
+      "pt": "to shine"
     },
     "ex": "星が光る",
     "exm": {
@@ -4289,7 +5027,9 @@ const N5_VOCAB = [
       "zh-CN": "星星发光",
       "ko": "[star shines]",
       "vi": "[star shines]",
-      "id": "[star shines]"
+      "id": "[star shines]",
+      "es": "star shines",
+      "pt": "star shines"
     }
   },
   {
@@ -4302,7 +5042,9 @@ const N5_VOCAB = [
       "zh-CN": "燃烧",
       "ko": "[to burn]",
       "vi": "[to burn]",
-      "id": "[to burn]"
+      "id": "[to burn]",
+      "es": "to burn",
+      "pt": "to burn"
     },
     "ex": "火が燃える",
     "exm": {
@@ -4311,7 +5053,9 @@ const N5_VOCAB = [
       "zh-CN": "火在烧",
       "ko": "[fire burns]",
       "vi": "[fire burns]",
-      "id": "[fire burns]"
+      "id": "[fire burns]",
+      "es": "fire burns",
+      "pt": "fire burns"
     }
   },
   {
@@ -4324,7 +5068,9 @@ const N5_VOCAB = [
       "zh-CN": "消失",
       "ko": "[to disappear]",
       "vi": "[to disappear]",
-      "id": "[to disappear]"
+      "id": "[to disappear]",
+      "es": "to disappear",
+      "pt": "to disappear"
     },
     "ex": "火が消える",
     "exm": {
@@ -4333,7 +5079,9 @@ const N5_VOCAB = [
       "zh-CN": "火灭了",
       "ko": "[fire goes out]",
       "vi": "[fire goes out]",
-      "id": "[fire goes out]"
+      "id": "[fire goes out]",
+      "es": "fire goes out",
+      "pt": "fire goes out"
     }
   },
   {
@@ -4346,7 +5094,9 @@ const N5_VOCAB = [
       "zh-CN": "融化",
       "ko": "[to melt]",
       "vi": "[to melt]",
-      "id": "[to melt]"
+      "id": "[to melt]",
+      "es": "to melt",
+      "pt": "to melt"
     },
     "ex": "雪が溶ける",
     "exm": {
@@ -4355,7 +5105,9 @@ const N5_VOCAB = [
       "zh-CN": "雪融化",
       "ko": "[snow melts]",
       "vi": "[snow melts]",
-      "id": "[snow melts]"
+      "id": "[snow melts]",
+      "es": "snow melts",
+      "pt": "snow melts"
     }
   },
   {
@@ -4368,7 +5120,9 @@ const N5_VOCAB = [
       "zh-CN": "结冰",
       "ko": "[to freeze]",
       "vi": "[to freeze]",
-      "id": "[to freeze]"
+      "id": "[to freeze]",
+      "es": "to freeze",
+      "pt": "to freeze"
     },
     "ex": "水が凍る",
     "exm": {
@@ -4377,7 +5131,9 @@ const N5_VOCAB = [
       "zh-CN": "水结冰",
       "ko": "[water freezes]",
       "vi": "[water freezes]",
-      "id": "[water freezes]"
+      "id": "[water freezes]",
+      "es": "water freezes",
+      "pt": "water freezes"
     }
   },
   {
@@ -4390,7 +5146,9 @@ const N5_VOCAB = [
       "zh-CN": "干燥",
       "ko": "[to dry]",
       "vi": "[to dry]",
-      "id": "[to dry]"
+      "id": "[to dry]",
+      "es": "to dry",
+      "pt": "to dry"
     },
     "ex": "洗濯物が乾く",
     "exm": {
@@ -4399,7 +5157,9 @@ const N5_VOCAB = [
       "zh-CN": "衣服干了",
       "ko": "[laundry dries]",
       "vi": "[laundry dries]",
-      "id": "[laundry dries]"
+      "id": "[laundry dries]",
+      "es": "laundry dries",
+      "pt": "laundry dries"
     }
   },
   {
@@ -4412,7 +5172,9 @@ const N5_VOCAB = [
       "zh-CN": "湿",
       "ko": "[to get wet]",
       "vi": "[to get wet]",
-      "id": "[to get wet]"
+      "id": "[to get wet]",
+      "es": "to get wet",
+      "pt": "to get wet"
     },
     "ex": "雨で濡れる",
     "exm": {
@@ -4421,7 +5183,9 @@ const N5_VOCAB = [
       "zh-CN": "被雨淋湿",
       "ko": "[wet from rain]",
       "vi": "[wet from rain]",
-      "id": "[wet from rain]"
+      "id": "[wet from rain]",
+      "es": "wet from rain",
+      "pt": "wet from rain"
     }
   },
   {
@@ -4434,7 +5198,9 @@ const N5_VOCAB = [
       "zh-CN": "弄脏",
       "ko": "[to get dirty]",
       "vi": "[to get dirty]",
-      "id": "[to get dirty]"
+      "id": "[to get dirty]",
+      "es": "to get dirty",
+      "pt": "to get dirty"
     },
     "ex": "服が汚れる",
     "exm": {
@@ -4443,7 +5209,9 @@ const N5_VOCAB = [
       "zh-CN": "衣服脏了",
       "ko": "[clothes dirty]",
       "vi": "[clothes dirty]",
-      "id": "[clothes dirty]"
+      "id": "[clothes dirty]",
+      "es": "clothes dirty",
+      "pt": "clothes dirty"
     }
   },
   {
@@ -4456,7 +5224,9 @@ const N5_VOCAB = [
       "zh-CN": "整理",
       "ko": "[to tidy up]",
       "vi": "[to tidy up]",
-      "id": "[to tidy up]"
+      "id": "[to tidy up]",
+      "es": "to tidy up",
+      "pt": "to tidy up"
     },
     "ex": "部屋を片付ける",
     "exm": {
@@ -4465,7 +5235,9 @@ const N5_VOCAB = [
       "zh-CN": "整理房间",
       "ko": "[tidy room]",
       "vi": "[tidy room]",
-      "id": "[tidy room]"
+      "id": "[tidy room]",
+      "es": "tidy room",
+      "pt": "tidy room"
     }
   },
   {
@@ -4478,7 +5250,9 @@ const N5_VOCAB = [
       "zh-CN": "弄乱",
       "ko": "[to mess up]",
       "vi": "[to mess up]",
-      "id": "[to mess up]"
+      "id": "[to mess up]",
+      "es": "to mess up",
+      "pt": "to mess up"
     },
     "ex": "部屋を散らかす",
     "exm": {
@@ -4487,7 +5261,9 @@ const N5_VOCAB = [
       "zh-CN": "弄乱房间",
       "ko": "[mess room]",
       "vi": "[mess room]",
-      "id": "[mess room]"
+      "id": "[mess room]",
+      "es": "mess room",
+      "pt": "mess room"
     }
   },
   {
@@ -4500,7 +5276,9 @@ const N5_VOCAB = [
       "zh-CN": "包",
       "ko": "[to wrap]",
       "vi": "[to wrap]",
-      "id": "[to wrap]"
+      "id": "[to wrap]",
+      "es": "to wrap",
+      "pt": "to wrap"
     },
     "ex": "プレゼントを包む",
     "exm": {
@@ -4509,7 +5287,9 @@ const N5_VOCAB = [
       "zh-CN": "包礼物",
       "ko": "[wrap gift]",
       "vi": "[wrap gift]",
-      "id": "[wrap gift]"
+      "id": "[wrap gift]",
+      "es": "wrap gift",
+      "pt": "wrap gift"
     }
   },
   {
@@ -4522,7 +5302,9 @@ const N5_VOCAB = [
       "zh-CN": "绑",
       "ko": "[to tie]",
       "vi": "[to tie]",
-      "id": "[to tie]"
+      "id": "[to tie]",
+      "es": "to tie",
+      "pt": "to tie"
     },
     "ex": "紐で縛る",
     "exm": {
@@ -4531,7 +5313,9 @@ const N5_VOCAB = [
       "zh-CN": "用绳子绑",
       "ko": "[tie with string]",
       "vi": "[tie with string]",
-      "id": "[tie with string]"
+      "id": "[tie with string]",
+      "es": "tie with string",
+      "pt": "tie with string"
     }
   },
   {
@@ -4544,7 +5328,9 @@ const N5_VOCAB = [
       "zh-CN": "混合",
       "ko": "[to mix]",
       "vi": "[to mix]",
-      "id": "[to mix]"
+      "id": "[to mix]",
+      "es": "to mix",
+      "pt": "to mix"
     },
     "ex": "材料を混ぜる",
     "exm": {
@@ -4553,7 +5339,9 @@ const N5_VOCAB = [
       "zh-CN": "混合材料",
       "ko": "[mix ingredients]",
       "vi": "[mix ingredients]",
-      "id": "[mix ingredients]"
+      "id": "[mix ingredients]",
+      "es": "mix ingredients",
+      "pt": "mix ingredients"
     }
   },
   {
@@ -4566,7 +5354,9 @@ const N5_VOCAB = [
       "zh-CN": "分",
       "ko": "[to divide]",
       "vi": "[to divide]",
-      "id": "[to divide]"
+      "id": "[to divide]",
+      "es": "to divide",
+      "pt": "to divide"
     },
     "ex": "ケーキを分ける",
     "exm": {
@@ -4575,7 +5365,9 @@ const N5_VOCAB = [
       "zh-CN": "分蛋糕",
       "ko": "[divide cake]",
       "vi": "[divide cake]",
-      "id": "[divide cake]"
+      "id": "[divide cake]",
+      "es": "divide cake",
+      "pt": "divide cake"
     }
   },
   {
@@ -4588,7 +5380,9 @@ const N5_VOCAB = [
       "zh-CN": "连接",
       "ko": "[to connect]",
       "vi": "[to connect]",
-      "id": "[to connect]"
+      "id": "[to connect]",
+      "es": "to connect",
+      "pt": "to connect"
     },
     "ex": "手を繋ぐ",
     "exm": {
@@ -4597,7 +5391,9 @@ const N5_VOCAB = [
       "zh-CN": "牵手",
       "ko": "[hold hands]",
       "vi": "[hold hands]",
-      "id": "[hold hands]"
+      "id": "[hold hands]",
+      "es": "hold hands",
+      "pt": "hold hands"
     }
   },
   {
@@ -4610,7 +5406,9 @@ const N5_VOCAB = [
       "zh-CN": "分开",
       "ko": "[to separate]",
       "vi": "[to separate]",
-      "id": "[to separate]"
+      "id": "[to separate]",
+      "es": "to separate",
+      "pt": "to separate"
     },
     "ex": "手を離す",
     "exm": {
@@ -4619,7 +5417,9 @@ const N5_VOCAB = [
       "zh-CN": "放开手",
       "ko": "[let go hand]",
       "vi": "[let go hand]",
-      "id": "[let go hand]"
+      "id": "[let go hand]",
+      "es": "let go hand",
+      "pt": "let go hand"
     }
   },
   {
@@ -4632,7 +5432,9 @@ const N5_VOCAB = [
       "zh-CN": "我",
       "ko": "[I/me]",
       "vi": "[I/me]",
-      "id": "[I/me]"
+      "id": "[I/me]",
+      "es": "I/me",
+      "pt": "I/me"
     },
     "ex": "私は学生です",
     "exm": {
@@ -4641,7 +5443,9 @@ const N5_VOCAB = [
       "zh-CN": "我是学生",
       "ko": "[I am a student]",
       "vi": "[I am a student]",
-      "id": "[I am a student]"
+      "id": "[I am a student]",
+      "es": "I am a student",
+      "pt": "I am a student"
     }
   },
   {
@@ -4654,7 +5458,9 @@ const N5_VOCAB = [
       "zh-CN": "你",
       "ko": "너",
       "vi": "Bạn",
-      "id": "Anda"
+      "id": "Anda",
+      "es": "you",
+      "pt": "you"
     },
     "ex": "あなたは先生ですか",
     "exm": {
@@ -4663,7 +5469,9 @@ const N5_VOCAB = [
       "zh-CN": "你是老师吗",
       "ko": "[Are you a teacher?]",
       "vi": "[Are you a teacher?]",
-      "id": "[Are you a teacher?]"
+      "id": "[Are you a teacher?]",
+      "es": "Are you a teacher?",
+      "pt": "Are you a teacher?"
     }
   },
   {
@@ -4676,7 +5484,9 @@ const N5_VOCAB = [
       "zh-CN": "他",
       "ko": "[he/boyfriend]",
       "vi": "[he/boyfriend]",
-      "id": "[he/boyfriend]"
+      "id": "[he/boyfriend]",
+      "es": "he/boyfriend",
+      "pt": "he/boyfriend"
     },
     "ex": "彼は日本人です",
     "exm": {
@@ -4685,7 +5495,9 @@ const N5_VOCAB = [
       "zh-CN": "他是日本人",
       "ko": "[He is Japanese]",
       "vi": "[He is Japanese]",
-      "id": "[He is Japanese]"
+      "id": "[He is Japanese]",
+      "es": "He is Japanese",
+      "pt": "He is Japanese"
     }
   },
   {
@@ -4698,7 +5510,9 @@ const N5_VOCAB = [
       "zh-CN": "她",
       "ko": "[she/girlfriend]",
       "vi": "[she/girlfriend]",
-      "id": "[she/girlfriend]"
+      "id": "[she/girlfriend]",
+      "es": "she/girlfriend",
+      "pt": "she/girlfriend"
     },
     "ex": "彼女は学生です",
     "exm": {
@@ -4707,7 +5521,9 @@ const N5_VOCAB = [
       "zh-CN": "她是学生",
       "ko": "[She is a student]",
       "vi": "[She is a student]",
-      "id": "[She is a student]"
+      "id": "[She is a student]",
+      "es": "She is a student",
+      "pt": "She is a student"
     }
   },
   {
@@ -4720,7 +5536,9 @@ const N5_VOCAB = [
       "zh-CN": "大家",
       "ko": "[everyone]",
       "vi": "[everyone]",
-      "id": "[everyone]"
+      "id": "[everyone]",
+      "es": "everyone",
+      "pt": "everyone"
     },
     "ex": "皆さん、おはよう",
     "exm": {
@@ -4729,7 +5547,9 @@ const N5_VOCAB = [
       "zh-CN": "大家早安",
       "ko": "[Good morning everyone]",
       "vi": "[Good morning everyone]",
-      "id": "[Good morning everyone]"
+      "id": "[Good morning everyone]",
+      "es": "Good morning everyone",
+      "pt": "Good morning everyone"
     }
   },
   {
@@ -4742,7 +5562,9 @@ const N5_VOCAB = [
       "zh-CN": "人",
       "ko": "사람",
       "vi": "Người",
-      "id": "Orang"
+      "id": "Orang",
+      "es": "person",
+      "pt": "person"
     },
     "ex": "あの人は誰ですか",
     "exm": {
@@ -4751,7 +5573,9 @@ const N5_VOCAB = [
       "zh-CN": "那个人是谁",
       "ko": "[Who is that person?]",
       "vi": "[Who is that person?]",
-      "id": "[Who is that person?]"
+      "id": "[Who is that person?]",
+      "es": "Who is that person?",
+      "pt": "Who is that person?"
     },
     "syn": [
       "人間",
@@ -4769,7 +5593,9 @@ const N5_VOCAB = [
       "zh-CN": "男人",
       "ko": "남자",
       "vi": "Đàn ông",
-      "id": "Pria"
+      "id": "Pria",
+      "es": "man",
+      "pt": "man"
     },
     "ex": "あの男の人は誰",
     "exm": {
@@ -4778,7 +5604,9 @@ const N5_VOCAB = [
       "zh-CN": "那个男人是谁",
       "ko": "[Who is that man?]",
       "vi": "[Who is that man?]",
-      "id": "[Who is that man?]"
+      "id": "[Who is that man?]",
+      "es": "Who is that man?",
+      "pt": "Who is that man?"
     }
   },
   {
@@ -4791,7 +5619,9 @@ const N5_VOCAB = [
       "zh-CN": "女人",
       "ko": "여자",
       "vi": "Phụ nữ",
-      "id": "Wanita"
+      "id": "Wanita",
+      "es": "woman",
+      "pt": "woman"
     },
     "ex": "あの女の人は誰",
     "exm": {
@@ -4800,7 +5630,9 @@ const N5_VOCAB = [
       "zh-CN": "那个女人是谁",
       "ko": "[Who is that woman?]",
       "vi": "[Who is that woman?]",
-      "id": "[Who is that woman?]"
+      "id": "[Who is that woman?]",
+      "es": "Who is that woman?",
+      "pt": "Who is that woman?"
     }
   },
   {
@@ -4813,7 +5645,9 @@ const N5_VOCAB = [
       "zh-CN": "男孩",
       "ko": "[boy]",
       "vi": "[boy]",
-      "id": "[boy]"
+      "id": "[boy]",
+      "es": "boy",
+      "pt": "boy"
     },
     "ex": "男の子が遊んでいる",
     "exm": {
@@ -4822,7 +5656,9 @@ const N5_VOCAB = [
       "zh-CN": "男孩在玩",
       "ko": "[A boy is playing]",
       "vi": "[A boy is playing]",
-      "id": "[A boy is playing]"
+      "id": "[A boy is playing]",
+      "es": "A boy is playing",
+      "pt": "A boy is playing"
     }
   },
   {
@@ -4835,7 +5671,9 @@ const N5_VOCAB = [
       "zh-CN": "女孩",
       "ko": "[girl]",
       "vi": "[girl]",
-      "id": "[girl]"
+      "id": "[girl]",
+      "es": "girl",
+      "pt": "girl"
     },
     "ex": "女の子が歌っている",
     "exm": {
@@ -4844,7 +5682,9 @@ const N5_VOCAB = [
       "zh-CN": "女孩在唱歌",
       "ko": "[A girl is singing]",
       "vi": "[A girl is singing]",
-      "id": "[A girl is singing]"
+      "id": "[A girl is singing]",
+      "es": "A girl is singing",
+      "pt": "A girl is singing"
     }
   },
   {
@@ -4857,7 +5697,9 @@ const N5_VOCAB = [
       "zh-CN": "孩子",
       "ko": "아이",
       "vi": "Trẻ em",
-      "id": "Anak"
+      "id": "Anak",
+      "es": "child",
+      "pt": "child"
     },
     "ex": "子供が二人います",
     "exm": {
@@ -4866,7 +5708,9 @@ const N5_VOCAB = [
       "zh-CN": "有两个小孩",
       "ko": "[I have two children]",
       "vi": "[I have two children]",
-      "id": "[I have two children]"
+      "id": "[I have two children]",
+      "es": "I have two children",
+      "pt": "I have two children"
     },
     "syn": [
       "子ども",
@@ -4884,7 +5728,9 @@ const N5_VOCAB = [
       "zh-CN": "婴儿",
       "ko": "[baby]",
       "vi": "[baby]",
-      "id": "[baby]"
+      "id": "[baby]",
+      "es": "baby",
+      "pt": "baby"
     },
     "ex": "赤ちゃんが泣いている",
     "exm": {
@@ -4893,7 +5739,9 @@ const N5_VOCAB = [
       "zh-CN": "婴儿在哭",
       "ko": "[The baby is crying]",
       "vi": "[The baby is crying]",
-      "id": "[The baby is crying]"
+      "id": "[The baby is crying]",
+      "es": "The baby is crying",
+      "pt": "The baby is crying"
     }
   },
   {
@@ -4906,7 +5754,9 @@ const N5_VOCAB = [
       "zh-CN": "大人",
       "ko": "[adult]",
       "vi": "[adult]",
-      "id": "[adult]"
+      "id": "[adult]",
+      "es": "adult",
+      "pt": "adult"
     },
     "ex": "大人になりたい",
     "exm": {
@@ -4915,7 +5765,9 @@ const N5_VOCAB = [
       "zh-CN": "想成为大人",
       "ko": "[I want to become an adult]",
       "vi": "[I want to become an adult]",
-      "id": "[I want to become an adult]"
+      "id": "[I want to become an adult]",
+      "es": "I want to become an adult",
+      "pt": "I want to become an adult"
     }
   },
   {
@@ -4928,7 +5780,9 @@ const N5_VOCAB = [
       "zh-CN": "家人",
       "ko": "가족",
       "vi": "Gia đình",
-      "id": "Keluarga"
+      "id": "Keluarga",
+      "es": "family",
+      "pt": "family"
     },
     "ex": "家族は4人です",
     "exm": {
@@ -4937,7 +5791,9 @@ const N5_VOCAB = [
       "zh-CN": "家里有4个人",
       "ko": "[My family has 4 people]",
       "vi": "[My family has 4 people]",
-      "id": "[My family has 4 people]"
+      "id": "[My family has 4 people]",
+      "es": "My family has 4 people",
+      "pt": "My family has 4 people"
     }
   },
   {
@@ -4950,7 +5806,9 @@ const N5_VOCAB = [
       "zh-CN": "父亲",
       "ko": "아버지",
       "vi": "Bố",
-      "id": "Ayah"
+      "id": "Ayah",
+      "es": "father",
+      "pt": "father"
     },
     "ex": "父は会社員です",
     "exm": {
@@ -4959,7 +5817,9 @@ const N5_VOCAB = [
       "zh-CN": "父亲是上班族",
       "ko": "[Father is office worker]",
       "vi": "[Father is office worker]",
-      "id": "[Father is office worker]"
+      "id": "[Father is office worker]",
+      "es": "Father is office worker",
+      "pt": "Father is office worker"
     }
   },
   {
@@ -4972,7 +5832,9 @@ const N5_VOCAB = [
       "zh-CN": "母亲",
       "ko": "어머니",
       "vi": "Mẹ",
-      "id": "Ibu"
+      "id": "Ibu",
+      "es": "mother",
+      "pt": "mother"
     },
     "ex": "母は先生です",
     "exm": {
@@ -4981,7 +5843,9 @@ const N5_VOCAB = [
       "zh-CN": "母亲是老师",
       "ko": "[Mother is teacher]",
       "vi": "[Mother is teacher]",
-      "id": "[Mother is teacher]"
+      "id": "[Mother is teacher]",
+      "es": "Mother is teacher",
+      "pt": "Mother is teacher"
     }
   },
   {
@@ -4994,7 +5858,9 @@ const N5_VOCAB = [
       "zh-CN": "爸爸",
       "ko": "[father (polite)]",
       "vi": "[father (polite)]",
-      "id": "[father (polite)]"
+      "id": "[father (polite)]",
+      "es": "father (polite)",
+      "pt": "father (polite)"
     },
     "ex": "お父さんは元気ですか",
     "exm": {
@@ -5003,7 +5869,9 @@ const N5_VOCAB = [
       "zh-CN": "爸爸好吗",
       "ko": "[Is your father well?]",
       "vi": "[Is your father well?]",
-      "id": "[Is your father well?]"
+      "id": "[Is your father well?]",
+      "es": "Is your father well?",
+      "pt": "Is your father well?"
     }
   },
   {
@@ -5016,7 +5884,9 @@ const N5_VOCAB = [
       "zh-CN": "妈妈",
       "ko": "[mother (polite)]",
       "vi": "[mother (polite)]",
-      "id": "[mother (polite)]"
+      "id": "[mother (polite)]",
+      "es": "mother (polite)",
+      "pt": "mother (polite)"
     },
     "ex": "お母さんに会いたい",
     "exm": {
@@ -5025,7 +5895,9 @@ const N5_VOCAB = [
       "zh-CN": "想见妈妈",
       "ko": "[I want to see mom]",
       "vi": "[I want to see mom]",
-      "id": "[I want to see mom]"
+      "id": "[I want to see mom]",
+      "es": "I want to see mom",
+      "pt": "I want to see mom"
     }
   },
   {
@@ -5038,7 +5910,9 @@ const N5_VOCAB = [
       "zh-CN": "哥哥",
       "ko": "오래되다",
       "vi": "cũ",
-      "id": "lama"
+      "id": "lama",
+      "es": "older brother",
+      "pt": "older brother"
     },
     "ex": "兄は大学生です",
     "exm": {
@@ -5047,7 +5921,9 @@ const N5_VOCAB = [
       "zh-CN": "哥哥是大学生",
       "ko": "[Brother is university student]",
       "vi": "[Brother is university student]",
-      "id": "[Brother is university student]"
+      "id": "[Brother is university student]",
+      "es": "Brother is university student",
+      "pt": "Brother is university student"
     }
   },
   {
@@ -5060,7 +5936,9 @@ const N5_VOCAB = [
       "zh-CN": "姐姐",
       "ko": "오래되다",
       "vi": "cũ",
-      "id": "lama"
+      "id": "lama",
+      "es": "older sister",
+      "pt": "older sister"
     },
     "ex": "姉は医者です",
     "exm": {
@@ -5069,7 +5947,9 @@ const N5_VOCAB = [
       "zh-CN": "姐姐是医生",
       "ko": "[Sister is doctor]",
       "vi": "[Sister is doctor]",
-      "id": "[Sister is doctor]"
+      "id": "[Sister is doctor]",
+      "es": "Sister is doctor",
+      "pt": "Sister is doctor"
     }
   },
   {
@@ -5082,7 +5962,9 @@ const N5_VOCAB = [
       "zh-CN": "弟弟",
       "ko": "[younger brother]",
       "vi": "[younger brother]",
-      "id": "[younger brother]"
+      "id": "[younger brother]",
+      "es": "younger brother",
+      "pt": "younger brother"
     },
     "ex": "弟は高校生です",
     "exm": {
@@ -5091,7 +5973,9 @@ const N5_VOCAB = [
       "zh-CN": "弟弟是高中生",
       "ko": "[Brother is high schooler]",
       "vi": "[Brother is high schooler]",
-      "id": "[Brother is high schooler]"
+      "id": "[Brother is high schooler]",
+      "es": "Brother is high schooler",
+      "pt": "Brother is high schooler"
     }
   },
   {
@@ -5104,7 +5988,9 @@ const N5_VOCAB = [
       "zh-CN": "妹妹",
       "ko": "[younger sister]",
       "vi": "[younger sister]",
-      "id": "[younger sister]"
+      "id": "[younger sister]",
+      "es": "younger sister",
+      "pt": "younger sister"
     },
     "ex": "妹は中学生です",
     "exm": {
@@ -5113,7 +5999,9 @@ const N5_VOCAB = [
       "zh-CN": "妹妹是初中生",
       "ko": "[Sister is middle schooler]",
       "vi": "[Sister is middle schooler]",
-      "id": "[Sister is middle schooler]"
+      "id": "[Sister is middle schooler]",
+      "es": "Sister is middle schooler",
+      "pt": "Sister is middle schooler"
     }
   },
   {
@@ -5126,7 +6014,9 @@ const N5_VOCAB = [
       "zh-CN": "哥哥",
       "ko": "오래되다",
       "vi": "cũ",
-      "id": "lama"
+      "id": "lama",
+      "es": "older brother (polite)",
+      "pt": "older brother (polite)"
     },
     "ex": "お兄さんは優しい",
     "exm": {
@@ -5135,7 +6025,9 @@ const N5_VOCAB = [
       "zh-CN": "哥哥很温柔",
       "ko": "[Brother is kind]",
       "vi": "[Brother is kind]",
-      "id": "[Brother is kind]"
+      "id": "[Brother is kind]",
+      "es": "Brother is kind",
+      "pt": "Brother is kind"
     }
   },
   {
@@ -5148,7 +6040,9 @@ const N5_VOCAB = [
       "zh-CN": "姐姐",
       "ko": "오래되다",
       "vi": "cũ",
-      "id": "lama"
+      "id": "lama",
+      "es": "older sister (polite)",
+      "pt": "older sister (polite)"
     },
     "ex": "お姉さんは綺麗",
     "exm": {
@@ -5157,7 +6051,9 @@ const N5_VOCAB = [
       "zh-CN": "姐姐很漂亮",
       "ko": "[Sister is beautiful]",
       "vi": "[Sister is beautiful]",
-      "id": "[Sister is beautiful]"
+      "id": "[Sister is beautiful]",
+      "es": "Sister is beautiful",
+      "pt": "Sister is beautiful"
     }
   },
   {
@@ -5170,7 +6066,9 @@ const N5_VOCAB = [
       "zh-CN": "祖父",
       "ko": "[grandfather]",
       "vi": "[grandfather]",
-      "id": "[grandfather]"
+      "id": "[grandfather]",
+      "es": "grandfather",
+      "pt": "grandfather"
     },
     "ex": "祖父は元気です",
     "exm": {
@@ -5179,7 +6077,9 @@ const N5_VOCAB = [
       "zh-CN": "祖父很健康",
       "ko": "[Grandfather is healthy]",
       "vi": "[Grandfather is healthy]",
-      "id": "[Grandfather is healthy]"
+      "id": "[Grandfather is healthy]",
+      "es": "Grandfather is healthy",
+      "pt": "Grandfather is healthy"
     }
   },
   {
@@ -5192,7 +6092,9 @@ const N5_VOCAB = [
       "zh-CN": "祖母",
       "ko": "[grandmother]",
       "vi": "[grandmother]",
-      "id": "[grandmother]"
+      "id": "[grandmother]",
+      "es": "grandmother",
+      "pt": "grandmother"
     },
     "ex": "祖母は80歳です",
     "exm": {
@@ -5201,7 +6103,9 @@ const N5_VOCAB = [
       "zh-CN": "祖母80岁",
       "ko": "[Grandmother is 80]",
       "vi": "[Grandmother is 80]",
-      "id": "[Grandmother is 80]"
+      "id": "[Grandmother is 80]",
+      "es": "Grandmother is 80",
+      "pt": "Grandmother is 80"
     }
   },
   {
@@ -5214,7 +6118,9 @@ const N5_VOCAB = [
       "zh-CN": "爷爷",
       "ko": "[grandfather (polite)]",
       "vi": "[grandfather (polite)]",
-      "id": "[grandfather (polite)]"
+      "id": "[grandfather (polite)]",
+      "es": "grandfather (polite)",
+      "pt": "grandfather (polite)"
     },
     "ex": "おじいさんに会う",
     "exm": {
@@ -5223,7 +6129,9 @@ const N5_VOCAB = [
       "zh-CN": "见爷爷",
       "ko": "[Meet grandfather]",
       "vi": "[Meet grandfather]",
-      "id": "[Meet grandfather]"
+      "id": "[Meet grandfather]",
+      "es": "Meet grandfather",
+      "pt": "Meet grandfather"
     }
   },
   {
@@ -5236,7 +6144,9 @@ const N5_VOCAB = [
       "zh-CN": "奶奶",
       "ko": "[grandmother (polite)]",
       "vi": "[grandmother (polite)]",
-      "id": "[grandmother (polite)]"
+      "id": "[grandmother (polite)]",
+      "es": "grandmother (polite)",
+      "pt": "grandmother (polite)"
     },
     "ex": "おばあさんの料理",
     "exm": {
@@ -5245,7 +6155,9 @@ const N5_VOCAB = [
       "zh-CN": "奶奶的菜",
       "ko": "[Grandmother's cooking]",
       "vi": "[Grandmother's cooking]",
-      "id": "[Grandmother's cooking]"
+      "id": "[Grandmother's cooking]",
+      "es": "Grandmother's cooking",
+      "pt": "Grandmother's cooking"
     }
   },
   {
@@ -5258,7 +6170,9 @@ const N5_VOCAB = [
       "zh-CN": "丈夫",
       "ko": "[husband]",
       "vi": "[husband]",
-      "id": "[husband]"
+      "id": "[husband]",
+      "es": "husband",
+      "pt": "husband"
     },
     "ex": "夫は会社員です",
     "exm": {
@@ -5267,7 +6181,9 @@ const N5_VOCAB = [
       "zh-CN": "丈夫是上班族",
       "ko": "[Husband is office worker]",
       "vi": "[Husband is office worker]",
-      "id": "[Husband is office worker]"
+      "id": "[Husband is office worker]",
+      "es": "Husband is office worker",
+      "pt": "Husband is office worker"
     }
   },
   {
@@ -5280,7 +6196,9 @@ const N5_VOCAB = [
       "zh-CN": "妻子",
       "ko": "[wife]",
       "vi": "[wife]",
-      "id": "[wife]"
+      "id": "[wife]",
+      "es": "wife",
+      "pt": "wife"
     },
     "ex": "妻は先生です",
     "exm": {
@@ -5289,7 +6207,9 @@ const N5_VOCAB = [
       "zh-CN": "妻子是老师",
       "ko": "[Wife is teacher]",
       "vi": "[Wife is teacher]",
-      "id": "[Wife is teacher]"
+      "id": "[Wife is teacher]",
+      "es": "Wife is teacher",
+      "pt": "Wife is teacher"
     }
   },
   {
@@ -5302,7 +6222,9 @@ const N5_VOCAB = [
       "zh-CN": "丈夫",
       "ko": "[husband (humble)]",
       "vi": "[husband (humble)]",
-      "id": "[husband (humble)]"
+      "id": "[husband (humble)]",
+      "es": "husband (humble)",
+      "pt": "husband (humble)"
     },
     "ex": "主人は出張中です",
     "exm": {
@@ -5311,7 +6233,9 @@ const N5_VOCAB = [
       "zh-CN": "丈夫出差中",
       "ko": "[Husband on business trip]",
       "vi": "[Husband on business trip]",
-      "id": "[Husband on business trip]"
+      "id": "[Husband on business trip]",
+      "es": "Husband on business trip",
+      "pt": "Husband on business trip"
     }
   },
   {
@@ -5324,7 +6248,9 @@ const N5_VOCAB = [
       "zh-CN": "太太",
       "ko": "[wife (polite)]",
       "vi": "[wife (polite)]",
-      "id": "[wife (polite)]"
+      "id": "[wife (polite)]",
+      "es": "wife (polite)",
+      "pt": "wife (polite)"
     },
     "ex": "奥さんはお元気ですか",
     "exm": {
@@ -5333,7 +6259,9 @@ const N5_VOCAB = [
       "zh-CN": "太太好吗",
       "ko": "[Is your wife well?]",
       "vi": "[Is your wife well?]",
-      "id": "[Is your wife well?]"
+      "id": "[Is your wife well?]",
+      "es": "Is your wife well?",
+      "pt": "Is your wife well?"
     }
   },
   {
@@ -5346,7 +6274,9 @@ const N5_VOCAB = [
       "zh-CN": "朋友",
       "ko": "친구",
       "vi": "Bạn",
-      "id": "Teman"
+      "id": "Teman",
+      "es": "friend",
+      "pt": "friend"
     },
     "ex": "友達と遊ぶ",
     "exm": {
@@ -5355,7 +6285,9 @@ const N5_VOCAB = [
       "zh-CN": "和朋友玩",
       "ko": "[Play with friend]",
       "vi": "[Play with friend]",
-      "id": "[Play with friend]"
+      "id": "[Play with friend]",
+      "es": "Play with friend",
+      "pt": "Play with friend"
     },
     "syn": [
       "友人",
@@ -5373,7 +6305,9 @@ const N5_VOCAB = [
       "zh-CN": "老师",
       "ko": "선생님",
       "vi": "Giáo viên",
-      "id": "Guru"
+      "id": "Guru",
+      "es": "teacher",
+      "pt": "teacher"
     },
     "ex": "先生に聞く",
     "exm": {
@@ -5382,7 +6316,9 @@ const N5_VOCAB = [
       "zh-CN": "问老师",
       "ko": "[Ask teacher]",
       "vi": "[Ask teacher]",
-      "id": "[Ask teacher]"
+      "id": "[Ask teacher]",
+      "es": "Ask teacher",
+      "pt": "Ask teacher"
     },
     "syn": [
       "教師",
@@ -5400,7 +6336,9 @@ const N5_VOCAB = [
       "zh-CN": "学生",
       "ko": "학생",
       "vi": "Học sinh",
-      "id": "Murid"
+      "id": "Murid",
+      "es": "student",
+      "pt": "student"
     },
     "ex": "私は学生です",
     "exm": {
@@ -5409,7 +6347,9 @@ const N5_VOCAB = [
       "zh-CN": "我是学生",
       "ko": "[I am a student]",
       "vi": "[I am a student]",
-      "id": "[I am a student]"
+      "id": "[I am a student]",
+      "es": "I am a student",
+      "pt": "I am a student"
     },
     "syn": [
       "生徒",
@@ -5427,7 +6367,9 @@ const N5_VOCAB = [
       "zh-CN": "医生",
       "ko": "의사",
       "vi": "Bác sĩ",
-      "id": "Dokter"
+      "id": "Dokter",
+      "es": "doctor",
+      "pt": "doctor"
     },
     "ex": "医者になりたい",
     "exm": {
@@ -5436,7 +6378,9 @@ const N5_VOCAB = [
       "zh-CN": "想当医生",
       "ko": "[Want to be doctor]",
       "vi": "[Want to be doctor]",
-      "id": "[Want to be doctor]"
+      "id": "[Want to be doctor]",
+      "es": "Want to be doctor",
+      "pt": "Want to be doctor"
     }
   },
   {
@@ -5449,7 +6393,9 @@ const N5_VOCAB = [
       "zh-CN": "护士",
       "ko": "[nurse]",
       "vi": "[nurse]",
-      "id": "[nurse]"
+      "id": "[nurse]",
+      "es": "nurse",
+      "pt": "nurse"
     },
     "ex": "看護師は優しい",
     "exm": {
@@ -5458,7 +6404,9 @@ const N5_VOCAB = [
       "zh-CN": "护士很温柔",
       "ko": "[Nurse is kind]",
       "vi": "[Nurse is kind]",
-      "id": "[Nurse is kind]"
+      "id": "[Nurse is kind]",
+      "es": "Nurse is kind",
+      "pt": "Nurse is kind"
     }
   },
   {
@@ -5471,7 +6419,9 @@ const N5_VOCAB = [
       "zh-CN": "上班族",
       "ko": "[office worker]",
       "vi": "[office worker]",
-      "id": "[office worker]"
+      "id": "[office worker]",
+      "es": "office worker",
+      "pt": "office worker"
     },
     "ex": "会社員として働く",
     "exm": {
@@ -5480,7 +6430,9 @@ const N5_VOCAB = [
       "zh-CN": "当上班族工作",
       "ko": "[Work as office worker]",
       "vi": "[Work as office worker]",
-      "id": "[Work as office worker]"
+      "id": "[Work as office worker]",
+      "es": "Work as office worker",
+      "pt": "Work as office worker"
     }
   },
   {
@@ -5493,7 +6445,9 @@ const N5_VOCAB = [
       "zh-CN": "店员",
       "ko": "[shop clerk]",
       "vi": "[shop clerk]",
-      "id": "[shop clerk]"
+      "id": "[shop clerk]",
+      "es": "shop clerk",
+      "pt": "shop clerk"
     },
     "ex": "店員に聞く",
     "exm": {
@@ -5502,7 +6456,9 @@ const N5_VOCAB = [
       "zh-CN": "问店员",
       "ko": "[Ask clerk]",
       "vi": "[Ask clerk]",
-      "id": "[Ask clerk]"
+      "id": "[Ask clerk]",
+      "es": "Ask clerk",
+      "pt": "Ask clerk"
     }
   },
   {
@@ -5515,7 +6471,9 @@ const N5_VOCAB = [
       "zh-CN": "司机",
       "ko": "[driver]",
       "vi": "[driver]",
-      "id": "[driver]"
+      "id": "[driver]",
+      "es": "driver",
+      "pt": "driver"
     },
     "ex": "タクシーの運転手",
     "exm": {
@@ -5524,7 +6482,9 @@ const N5_VOCAB = [
       "zh-CN": "出租车司机",
       "ko": "[Taxi driver]",
       "vi": "[Taxi driver]",
-      "id": "[Taxi driver]"
+      "id": "[Taxi driver]",
+      "es": "Taxi driver",
+      "pt": "Taxi driver"
     }
   },
   {
@@ -5537,7 +6497,9 @@ const N5_VOCAB = [
       "zh-CN": "警察",
       "ko": "[police]",
       "vi": "[police]",
-      "id": "[police]"
+      "id": "[police]",
+      "es": "police",
+      "pt": "police"
     },
     "ex": "警察に聞く",
     "exm": {
@@ -5546,7 +6508,9 @@ const N5_VOCAB = [
       "zh-CN": "问警察",
       "ko": "[Ask police]",
       "vi": "[Ask police]",
-      "id": "[Ask police]"
+      "id": "[Ask police]",
+      "es": "Ask police",
+      "pt": "Ask police"
     }
   },
   {
@@ -5559,7 +6523,9 @@ const N5_VOCAB = [
       "zh-CN": "客人",
       "ko": "[customer]",
       "vi": "[customer]",
-      "id": "[customer]"
+      "id": "[customer]",
+      "es": "customer",
+      "pt": "customer"
     },
     "ex": "客が来る",
     "exm": {
@@ -5568,7 +6534,9 @@ const N5_VOCAB = [
       "zh-CN": "客人来了",
       "ko": "[Customer comes]",
       "vi": "[Customer comes]",
-      "id": "[Customer comes]"
+      "id": "[Customer comes]",
+      "es": "Customer comes",
+      "pt": "Customer comes"
     }
   },
   {
@@ -5581,7 +6549,9 @@ const N5_VOCAB = [
       "zh-CN": "顾客",
       "ko": "[customer (polite)]",
       "vi": "[customer (polite)]",
-      "id": "[customer (polite)]"
+      "id": "[customer (polite)]",
+      "es": "customer (polite)",
+      "pt": "customer (polite)"
     },
     "ex": "お客さんを案内する",
     "exm": {
@@ -5590,7 +6560,9 @@ const N5_VOCAB = [
       "zh-CN": "引导顾客",
       "ko": "[Guide customer]",
       "vi": "[Guide customer]",
-      "id": "[Guide customer]"
+      "id": "[Guide customer]",
+      "es": "Guide customer",
+      "pt": "Guide customer"
     }
   },
   {
@@ -5603,7 +6575,9 @@ const N5_VOCAB = [
       "zh-CN": "邻居",
       "ko": "[neighbor]",
       "vi": "[neighbor]",
-      "id": "[neighbor]"
+      "id": "[neighbor]",
+      "es": "neighbor",
+      "pt": "neighbor"
     },
     "ex": "隣の人に挨拶する",
     "exm": {
@@ -5612,7 +6586,9 @@ const N5_VOCAB = [
       "zh-CN": "向邻居打招呼",
       "ko": "[Greet neighbor]",
       "vi": "[Greet neighbor]",
-      "id": "[Greet neighbor]"
+      "id": "[Greet neighbor]",
+      "es": "Greet neighbor",
+      "pt": "Greet neighbor"
     }
   },
   {
@@ -5625,7 +6601,9 @@ const N5_VOCAB = [
       "zh-CN": "社长",
       "ko": "[company president]",
       "vi": "[company president]",
-      "id": "[company president]"
+      "id": "[company president]",
+      "es": "company president",
+      "pt": "company president"
     },
     "ex": "社長に会う",
     "exm": {
@@ -5634,7 +6612,9 @@ const N5_VOCAB = [
       "zh-CN": "见社长",
       "ko": "[Meet president]",
       "vi": "[Meet president]",
-      "id": "[Meet president]"
+      "id": "[Meet president]",
+      "es": "Meet president",
+      "pt": "Meet president"
     }
   },
   {
@@ -5647,7 +6627,9 @@ const N5_VOCAB = [
       "zh-CN": "部长",
       "ko": "[department head]",
       "vi": "[department head]",
-      "id": "[department head]"
+      "id": "[department head]",
+      "es": "department head",
+      "pt": "department head"
     },
     "ex": "部長に報告する",
     "exm": {
@@ -5656,7 +6638,9 @@ const N5_VOCAB = [
       "zh-CN": "向部长报告",
       "ko": "[Report to head]",
       "vi": "[Report to head]",
-      "id": "[Report to head]"
+      "id": "[Report to head]",
+      "es": "Report to head",
+      "pt": "Report to head"
     }
   },
   {
@@ -5669,7 +6653,9 @@ const N5_VOCAB = [
       "zh-CN": "课长",
       "ko": "[section chief]",
       "vi": "[section chief]",
-      "id": "[section chief]"
+      "id": "[section chief]",
+      "es": "section chief",
+      "pt": "section chief"
     },
     "ex": "課長に相談する",
     "exm": {
@@ -5678,7 +6664,9 @@ const N5_VOCAB = [
       "zh-CN": "和课长商量",
       "ko": "[Consult chief]",
       "vi": "[Consult chief]",
-      "id": "[Consult chief]"
+      "id": "[Consult chief]",
+      "es": "Consult chief",
+      "pt": "Consult chief"
     }
   },
   {
@@ -5691,7 +6679,9 @@ const N5_VOCAB = [
       "zh-CN": "同事",
       "ko": "[colleague]",
       "vi": "[colleague]",
-      "id": "[colleague]"
+      "id": "[colleague]",
+      "es": "colleague",
+      "pt": "colleague"
     },
     "ex": "同僚と話す",
     "exm": {
@@ -5700,7 +6690,9 @@ const N5_VOCAB = [
       "zh-CN": "和同事说话",
       "ko": "[Talk with colleague]",
       "vi": "[Talk with colleague]",
-      "id": "[Talk with colleague]"
+      "id": "[Talk with colleague]",
+      "es": "Talk with colleague",
+      "pt": "Talk with colleague"
     }
   },
   {
@@ -5713,7 +6705,9 @@ const N5_VOCAB = [
       "zh-CN": "后辈",
       "ko": "[junior]",
       "vi": "[junior]",
-      "id": "[junior]"
+      "id": "[junior]",
+      "es": "junior",
+      "pt": "junior"
     },
     "ex": "後輩を助ける",
     "exm": {
@@ -5722,7 +6716,9 @@ const N5_VOCAB = [
       "zh-CN": "帮助后辈",
       "ko": "[Help junior]",
       "vi": "[Help junior]",
-      "id": "[Help junior]"
+      "id": "[Help junior]",
+      "es": "Help junior",
+      "pt": "Help junior"
     }
   },
   {
@@ -5735,7 +6731,9 @@ const N5_VOCAB = [
       "zh-CN": "前辈",
       "ko": "[senior]",
       "vi": "[senior]",
-      "id": "[senior]"
+      "id": "[senior]",
+      "es": "senior",
+      "pt": "senior"
     },
     "ex": "先輩に教わる",
     "exm": {
@@ -5744,7 +6742,9 @@ const N5_VOCAB = [
       "zh-CN": "向前辈学习",
       "ko": "[Learn from senior]",
       "vi": "[Learn from senior]",
-      "id": "[Learn from senior]"
+      "id": "[Learn from senior]",
+      "es": "Learn from senior",
+      "pt": "Learn from senior"
     }
   },
   {
@@ -5757,7 +6757,9 @@ const N5_VOCAB = [
       "zh-CN": "房子",
       "ko": "집",
       "vi": "Nhà",
-      "id": "Rumah"
+      "id": "Rumah",
+      "es": "house",
+      "pt": "house"
     },
     "ex": "家に帰る",
     "exm": {
@@ -5766,7 +6768,9 @@ const N5_VOCAB = [
       "zh-CN": "回家",
       "ko": "[Go home]",
       "vi": "[Go home]",
-      "id": "[Go home]"
+      "id": "[Go home]",
+      "es": "Go home",
+      "pt": "Go home"
     },
     "syn": [
       "住宅",
@@ -5784,7 +6788,9 @@ const N5_VOCAB = [
       "zh-CN": "房间",
       "ko": "방",
       "vi": "Phòng",
-      "id": "Kamar"
+      "id": "Kamar",
+      "es": "room",
+      "pt": "room"
     },
     "ex": "部屋を掃除する",
     "exm": {
@@ -5793,7 +6799,9 @@ const N5_VOCAB = [
       "zh-CN": "打扫房间",
       "ko": "[Clean room]",
       "vi": "[Clean room]",
-      "id": "[Clean room]"
+      "id": "[Clean room]",
+      "es": "Clean room",
+      "pt": "Clean room"
     },
     "syn": [
       "室",
@@ -5811,7 +6819,9 @@ const N5_VOCAB = [
       "zh-CN": "厨房",
       "ko": "[kitchen]",
       "vi": "[kitchen]",
-      "id": "[kitchen]"
+      "id": "[kitchen]",
+      "es": "kitchen",
+      "pt": "kitchen"
     },
     "ex": "台所で料理する",
     "exm": {
@@ -5820,7 +6830,9 @@ const N5_VOCAB = [
       "zh-CN": "在厨房做菜",
       "ko": "[Cook in kitchen]",
       "vi": "[Cook in kitchen]",
-      "id": "[Cook in kitchen]"
+      "id": "[Cook in kitchen]",
+      "es": "Cook in kitchen",
+      "pt": "Cook in kitchen"
     }
   },
   {
@@ -5833,7 +6845,9 @@ const N5_VOCAB = [
       "zh-CN": "厕所",
       "ko": "[toilet]",
       "vi": "[toilet]",
-      "id": "[toilet]"
+      "id": "[toilet]",
+      "es": "toilet",
+      "pt": "toilet"
     },
     "ex": "トイレに行く",
     "exm": {
@@ -5842,7 +6856,9 @@ const N5_VOCAB = [
       "zh-CN": "去厕所",
       "ko": "[Go to toilet]",
       "vi": "[Go to toilet]",
-      "id": "[Go to toilet]"
+      "id": "[Go to toilet]",
+      "es": "Go to toilet",
+      "pt": "Go to toilet"
     }
   },
   {
@@ -5855,7 +6871,9 @@ const N5_VOCAB = [
       "zh-CN": "浴室",
       "ko": "[bath]",
       "vi": "[bath]",
-      "id": "[bath]"
+      "id": "[bath]",
+      "es": "bath",
+      "pt": "bath"
     },
     "ex": "お風呂に入る",
     "exm": {
@@ -5864,7 +6882,9 @@ const N5_VOCAB = [
       "zh-CN": "洗澡",
       "ko": "[Take bath]",
       "vi": "[Take bath]",
-      "id": "[Take bath]"
+      "id": "[Take bath]",
+      "es": "Take bath",
+      "pt": "Take bath"
     }
   },
   {
@@ -5877,7 +6897,9 @@ const N5_VOCAB = [
       "zh-CN": "玄关",
       "ko": "[entrance]",
       "vi": "[entrance]",
-      "id": "[entrance]"
+      "id": "[entrance]",
+      "es": "entrance",
+      "pt": "entrance"
     },
     "ex": "玄関で靴を脱ぐ",
     "exm": {
@@ -5886,7 +6908,9 @@ const N5_VOCAB = [
       "zh-CN": "在玄关脱鞋",
       "ko": "[Take off shoes]",
       "vi": "[Take off shoes]",
-      "id": "[Take off shoes]"
+      "id": "[Take off shoes]",
+      "es": "Take off shoes",
+      "pt": "Take off shoes"
     }
   },
   {
@@ -5899,7 +6923,9 @@ const N5_VOCAB = [
       "zh-CN": "庭院",
       "ko": "[garden]",
       "vi": "[garden]",
-      "id": "[garden]"
+      "id": "[garden]",
+      "es": "garden",
+      "pt": "garden"
     },
     "ex": "庭で遊ぶ",
     "exm": {
@@ -5908,7 +6934,9 @@ const N5_VOCAB = [
       "zh-CN": "在庭院玩",
       "ko": "[Play in garden]",
       "vi": "[Play in garden]",
-      "id": "[Play in garden]"
+      "id": "[Play in garden]",
+      "es": "Play in garden",
+      "pt": "Play in garden"
     }
   },
   {
@@ -5921,7 +6949,9 @@ const N5_VOCAB = [
       "zh-CN": "学校",
       "ko": "학교",
       "vi": "Trường học",
-      "id": "Sekolah"
+      "id": "Sekolah",
+      "es": "school",
+      "pt": "school"
     },
     "ex": "学校に行く",
     "exm": {
@@ -5930,7 +6960,9 @@ const N5_VOCAB = [
       "zh-CN": "去学校",
       "ko": "[Go to school]",
       "vi": "[Go to school]",
-      "id": "[Go to school]"
+      "id": "[Go to school]",
+      "es": "Go to school",
+      "pt": "Go to school"
     },
     "syn": [
       "教育機関",
@@ -5948,7 +6980,9 @@ const N5_VOCAB = [
       "zh-CN": "大学",
       "ko": "대학교",
       "vi": "Đại học",
-      "id": "Universitas"
+      "id": "Universitas",
+      "es": "university",
+      "pt": "university"
     },
     "ex": "大学で勉強する",
     "exm": {
@@ -5957,7 +6991,9 @@ const N5_VOCAB = [
       "zh-CN": "在大学学习",
       "ko": "[Study at university]",
       "vi": "[Study at university]",
-      "id": "[Study at university]"
+      "id": "[Study at university]",
+      "es": "Study at university",
+      "pt": "Study at university"
     }
   },
   {
@@ -5970,7 +7006,9 @@ const N5_VOCAB = [
       "zh-CN": "教室",
       "ko": "[classroom]",
       "vi": "[classroom]",
-      "id": "[classroom]"
+      "id": "[classroom]",
+      "es": "classroom",
+      "pt": "classroom"
     },
     "ex": "教室で勉強する",
     "exm": {
@@ -5979,7 +7017,9 @@ const N5_VOCAB = [
       "zh-CN": "在教室学习",
       "ko": "[Study in classroom]",
       "vi": "[Study in classroom]",
-      "id": "[Study in classroom]"
+      "id": "[Study in classroom]",
+      "es": "Study in classroom",
+      "pt": "Study in classroom"
     }
   },
   {
@@ -5992,7 +7032,9 @@ const N5_VOCAB = [
       "zh-CN": "图书馆",
       "ko": "[library]",
       "vi": "[library]",
-      "id": "[library]"
+      "id": "[library]",
+      "es": "library",
+      "pt": "library"
     },
     "ex": "図書館で本を借りる",
     "exm": {
@@ -6001,7 +7043,9 @@ const N5_VOCAB = [
       "zh-CN": "在图书馆借书",
       "ko": "[Borrow at library]",
       "vi": "[Borrow at library]",
-      "id": "[Borrow at library]"
+      "id": "[Borrow at library]",
+      "es": "Borrow at library",
+      "pt": "Borrow at library"
     }
   },
   {
@@ -6014,7 +7058,9 @@ const N5_VOCAB = [
       "zh-CN": "医院",
       "ko": "병원",
       "vi": "Bệnh viện",
-      "id": "Rumah sakit"
+      "id": "Rumah sakit",
+      "es": "hospital",
+      "pt": "hospital"
     },
     "ex": "病院に行く",
     "exm": {
@@ -6023,7 +7069,9 @@ const N5_VOCAB = [
       "zh-CN": "去医院",
       "ko": "[Go to hospital]",
       "vi": "[Go to hospital]",
-      "id": "[Go to hospital]"
+      "id": "[Go to hospital]",
+      "es": "Go to hospital",
+      "pt": "Go to hospital"
     },
     "syn": [
       "医療機関",
@@ -6041,7 +7089,9 @@ const N5_VOCAB = [
       "zh-CN": "银行",
       "ko": "은행",
       "vi": "Ngân hàng",
-      "id": "Bank"
+      "id": "Bank",
+      "es": "bank",
+      "pt": "bank"
     },
     "ex": "銀行でお金をおろす",
     "exm": {
@@ -6050,7 +7100,9 @@ const N5_VOCAB = [
       "zh-CN": "在银行取钱",
       "ko": "[Withdraw at bank]",
       "vi": "[Withdraw at bank]",
-      "id": "[Withdraw at bank]"
+      "id": "[Withdraw at bank]",
+      "es": "Withdraw at bank",
+      "pt": "Withdraw at bank"
     }
   },
   {
@@ -6063,7 +7115,9 @@ const N5_VOCAB = [
       "zh-CN": "邮局",
       "ko": "우체국",
       "vi": "Bưu điện",
-      "id": "Kantor pos"
+      "id": "Kantor pos",
+      "es": "post office",
+      "pt": "post office"
     },
     "ex": "郵便局で送る",
     "exm": {
@@ -6072,7 +7126,9 @@ const N5_VOCAB = [
       "zh-CN": "在邮局寄",
       "ko": "[Send at post office]",
       "vi": "[Send at post office]",
-      "id": "[Send at post office]"
+      "id": "[Send at post office]",
+      "es": "Send at post office",
+      "pt": "Send at post office"
     }
   },
   {
@@ -6085,7 +7141,9 @@ const N5_VOCAB = [
       "zh-CN": "车站",
       "ko": "역",
       "vi": "Ga",
-      "id": "Stasiun"
+      "id": "Stasiun",
+      "es": "station",
+      "pt": "station"
     },
     "ex": "駅で待つ",
     "exm": {
@@ -6094,7 +7152,9 @@ const N5_VOCAB = [
       "zh-CN": "在车站等",
       "ko": "[Wait at station]",
       "vi": "[Wait at station]",
-      "id": "[Wait at station]"
+      "id": "[Wait at station]",
+      "es": "Wait at station",
+      "pt": "Wait at station"
     },
     "syn": [
       "ステーション",
@@ -6112,7 +7172,9 @@ const N5_VOCAB = [
       "zh-CN": "机场",
       "ko": "공항",
       "vi": "Sân bay",
-      "id": "Bandara"
+      "id": "Bandara",
+      "es": "airport",
+      "pt": "airport"
     },
     "ex": "空港に行く",
     "exm": {
@@ -6121,7 +7183,9 @@ const N5_VOCAB = [
       "zh-CN": "去机场",
       "ko": "[Go to airport]",
       "vi": "[Go to airport]",
-      "id": "[Go to airport]"
+      "id": "[Go to airport]",
+      "es": "Go to airport",
+      "pt": "Go to airport"
     }
   },
   {
@@ -6134,7 +7198,9 @@ const N5_VOCAB = [
       "zh-CN": "饭店",
       "ko": "호텔",
       "vi": "Khách sạn",
-      "id": "Hotel"
+      "id": "Hotel",
+      "es": "hotel",
+      "pt": "hotel"
     },
     "ex": "ホテルに泊まる",
     "exm": {
@@ -6143,7 +7209,9 @@ const N5_VOCAB = [
       "zh-CN": "住酒店",
       "ko": "[Stay at hotel]",
       "vi": "[Stay at hotel]",
-      "id": "[Stay at hotel]"
+      "id": "[Stay at hotel]",
+      "es": "Stay at hotel",
+      "pt": "Stay at hotel"
     }
   },
   {
@@ -6156,7 +7224,9 @@ const N5_VOCAB = [
       "zh-CN": "餐厅",
       "ko": "식당",
       "vi": "Nhà hàng",
-      "id": "Restoran"
+      "id": "Restoran",
+      "es": "restaurant",
+      "pt": "restaurant"
     },
     "ex": "レストランで食べる",
     "exm": {
@@ -6165,7 +7235,9 @@ const N5_VOCAB = [
       "zh-CN": "在餐厅吃",
       "ko": "[Eat at restaurant]",
       "vi": "[Eat at restaurant]",
-      "id": "[Eat at restaurant]"
+      "id": "[Eat at restaurant]",
+      "es": "Eat at restaurant",
+      "pt": "Eat at restaurant"
     }
   },
   {
@@ -6178,7 +7250,9 @@ const N5_VOCAB = [
       "zh-CN": "店",
       "ko": "[shop]",
       "vi": "[shop]",
-      "id": "[shop]"
+      "id": "[shop]",
+      "es": "shop",
+      "pt": "shop"
     },
     "ex": "店で買う",
     "exm": {
@@ -6187,7 +7261,9 @@ const N5_VOCAB = [
       "zh-CN": "在店里买",
       "ko": "[Buy at shop]",
       "vi": "[Buy at shop]",
-      "id": "[Buy at shop]"
+      "id": "[Buy at shop]",
+      "es": "Buy at shop",
+      "pt": "Buy at shop"
     },
     "syn": [
       "ショップ",
@@ -6205,7 +7281,9 @@ const N5_VOCAB = [
       "zh-CN": "超市",
       "ko": "[supermarket]",
       "vi": "[supermarket]",
-      "id": "[supermarket]"
+      "id": "[supermarket]",
+      "es": "supermarket",
+      "pt": "supermarket"
     },
     "ex": "スーパーで買い物",
     "exm": {
@@ -6214,7 +7292,9 @@ const N5_VOCAB = [
       "zh-CN": "在超市购物",
       "ko": "[Shop at supermarket]",
       "vi": "[Shop at supermarket]",
-      "id": "[Shop at supermarket]"
+      "id": "[Shop at supermarket]",
+      "es": "Shop at supermarket",
+      "pt": "Shop at supermarket"
     }
   },
   {
@@ -6227,7 +7307,9 @@ const N5_VOCAB = [
       "zh-CN": "便利店",
       "ko": "[convenience store]",
       "vi": "[convenience store]",
-      "id": "[convenience store]"
+      "id": "[convenience store]",
+      "es": "convenience store",
+      "pt": "convenience store"
     },
     "ex": "コンビニで買う",
     "exm": {
@@ -6236,7 +7318,9 @@ const N5_VOCAB = [
       "zh-CN": "在便利店买",
       "ko": "[Buy at convenience store]",
       "vi": "[Buy at convenience store]",
-      "id": "[Buy at convenience store]"
+      "id": "[Buy at convenience store]",
+      "es": "Buy at convenience store",
+      "pt": "Buy at convenience store"
     }
   },
   {
@@ -6249,7 +7333,9 @@ const N5_VOCAB = [
       "zh-CN": "百货公司",
       "ko": "[department store]",
       "vi": "[department store]",
-      "id": "[department store]"
+      "id": "[department store]",
+      "es": "department store",
+      "pt": "department store"
     },
     "ex": "デパートで買い物",
     "exm": {
@@ -6258,7 +7344,9 @@ const N5_VOCAB = [
       "zh-CN": "在百货公司购物",
       "ko": "[Shop at department store]",
       "vi": "[Shop at department store]",
-      "id": "[Shop at department store]"
+      "id": "[Shop at department store]",
+      "es": "Shop at department store",
+      "pt": "Shop at department store"
     }
   },
   {
@@ -6271,7 +7359,9 @@ const N5_VOCAB = [
       "zh-CN": "公园",
       "ko": "[park]",
       "vi": "[park]",
-      "id": "[park]"
+      "id": "[park]",
+      "es": "park",
+      "pt": "park"
     },
     "ex": "公園で遊ぶ",
     "exm": {
@@ -6280,7 +7370,9 @@ const N5_VOCAB = [
       "zh-CN": "在公园玩",
       "ko": "[Play in park]",
       "vi": "[Play in park]",
-      "id": "[Play in park]"
+      "id": "[Play in park]",
+      "es": "Play in park",
+      "pt": "Play in park"
     }
   },
   {
@@ -6293,7 +7385,9 @@ const N5_VOCAB = [
       "zh-CN": "公司",
       "ko": "[company]",
       "vi": "[company]",
-      "id": "[company]"
+      "id": "[company]",
+      "es": "company",
+      "pt": "company"
     },
     "ex": "会社で働く",
     "exm": {
@@ -6302,7 +7396,9 @@ const N5_VOCAB = [
       "zh-CN": "在公司工作",
       "ko": "[Work at company]",
       "vi": "[Work at company]",
-      "id": "[Work at company]"
+      "id": "[Work at company]",
+      "es": "Work at company",
+      "pt": "Work at company"
     },
     "syn": [
       "企業",
@@ -6320,7 +7416,9 @@ const N5_VOCAB = [
       "zh-CN": "工厂",
       "ko": "[factory]",
       "vi": "[factory]",
-      "id": "[factory]"
+      "id": "[factory]",
+      "es": "factory",
+      "pt": "factory"
     },
     "ex": "工場で働く",
     "exm": {
@@ -6329,7 +7427,9 @@ const N5_VOCAB = [
       "zh-CN": "在工厂工作",
       "ko": "[Work at factory]",
       "vi": "[Work at factory]",
-      "id": "[Work at factory]"
+      "id": "[Work at factory]",
+      "es": "Work at factory",
+      "pt": "Work at factory"
     }
   },
   {
@@ -6342,7 +7442,9 @@ const N5_VOCAB = [
       "zh-CN": "电影院",
       "ko": "[movie theater]",
       "vi": "[movie theater]",
-      "id": "[movie theater]"
+      "id": "[movie theater]",
+      "es": "movie theater",
+      "pt": "movie theater"
     },
     "ex": "映画館で映画を見る",
     "exm": {
@@ -6351,7 +7453,9 @@ const N5_VOCAB = [
       "zh-CN": "在电影院看电影",
       "ko": "[Watch movie at theater]",
       "vi": "[Watch movie at theater]",
-      "id": "[Watch movie at theater]"
+      "id": "[Watch movie at theater]",
+      "es": "Watch movie at theater",
+      "pt": "Watch movie at theater"
     }
   },
   {
@@ -6364,7 +7468,9 @@ const N5_VOCAB = [
       "zh-CN": "美术馆",
       "ko": "[art museum]",
       "vi": "[art museum]",
-      "id": "[art museum]"
+      "id": "[art museum]",
+      "es": "art museum",
+      "pt": "art museum"
     },
     "ex": "美術館で絵を見る",
     "exm": {
@@ -6373,7 +7479,9 @@ const N5_VOCAB = [
       "zh-CN": "在美术馆看画",
       "ko": "[See art at museum]",
       "vi": "[See art at museum]",
-      "id": "[See art at museum]"
+      "id": "[See art at museum]",
+      "es": "See art at museum",
+      "pt": "See art at museum"
     }
   },
   {
@@ -6386,7 +7494,9 @@ const N5_VOCAB = [
       "zh-CN": "博物馆",
       "ko": "[museum]",
       "vi": "[museum]",
-      "id": "[museum]"
+      "id": "[museum]",
+      "es": "museum",
+      "pt": "museum"
     },
     "ex": "博物館に行く",
     "exm": {
@@ -6395,7 +7505,9 @@ const N5_VOCAB = [
       "zh-CN": "去博物馆",
       "ko": "[Go to museum]",
       "vi": "[Go to museum]",
-      "id": "[Go to museum]"
+      "id": "[Go to museum]",
+      "es": "Go to museum",
+      "pt": "Go to museum"
     }
   },
   {
@@ -6408,7 +7520,9 @@ const N5_VOCAB = [
       "zh-CN": "神社",
       "ko": "[shrine]",
       "vi": "[shrine]",
-      "id": "[shrine]"
+      "id": "[shrine]",
+      "es": "shrine",
+      "pt": "shrine"
     },
     "ex": "神社に参る",
     "exm": {
@@ -6417,7 +7531,9 @@ const N5_VOCAB = [
       "zh-CN": "参拜神社",
       "ko": "[Visit shrine]",
       "vi": "[Visit shrine]",
-      "id": "[Visit shrine]"
+      "id": "[Visit shrine]",
+      "es": "Visit shrine",
+      "pt": "Visit shrine"
     }
   },
   {
@@ -6430,7 +7546,9 @@ const N5_VOCAB = [
       "zh-CN": "寺庙",
       "ko": "[temple]",
       "vi": "[temple]",
-      "id": "[temple]"
+      "id": "[temple]",
+      "es": "temple",
+      "pt": "temple"
     },
     "ex": "お寺を見る",
     "exm": {
@@ -6439,7 +7557,9 @@ const N5_VOCAB = [
       "zh-CN": "看寺庙",
       "ko": "[See temple]",
       "vi": "[See temple]",
-      "id": "[See temple]"
+      "id": "[See temple]",
+      "es": "See temple",
+      "pt": "See temple"
     }
   },
   {
@@ -6452,7 +7572,9 @@ const N5_VOCAB = [
       "zh-CN": "路",
       "ko": "[road]",
       "vi": "[road]",
-      "id": "[road]"
+      "id": "[road]",
+      "es": "road",
+      "pt": "road"
     },
     "ex": "道を歩く",
     "exm": {
@@ -6461,7 +7583,9 @@ const N5_VOCAB = [
       "zh-CN": "走路",
       "ko": "[Walk on road]",
       "vi": "[Walk on road]",
-      "id": "[Walk on road]"
+      "id": "[Walk on road]",
+      "es": "Walk on road",
+      "pt": "Walk on road"
     },
     "syn": [
       "道路",
@@ -6479,7 +7603,9 @@ const N5_VOCAB = [
       "zh-CN": "街道",
       "ko": "[street]",
       "vi": "[street]",
-      "id": "[street]"
+      "id": "[street]",
+      "es": "street",
+      "pt": "street"
     },
     "ex": "この通りをまっすぐ",
     "exm": {
@@ -6488,7 +7614,9 @@ const N5_VOCAB = [
       "zh-CN": "这条街直走",
       "ko": "[Straight on this street]",
       "vi": "[Straight on this street]",
-      "id": "[Straight on this street]"
+      "id": "[Straight on this street]",
+      "es": "Straight on this street",
+      "pt": "Straight on this street"
     }
   },
   {
@@ -6501,7 +7629,9 @@ const N5_VOCAB = [
       "zh-CN": "桥",
       "ko": "[bridge]",
       "vi": "[bridge]",
-      "id": "[bridge]"
+      "id": "[bridge]",
+      "es": "bridge",
+      "pt": "bridge"
     },
     "ex": "橋を渡る",
     "exm": {
@@ -6510,7 +7640,9 @@ const N5_VOCAB = [
       "zh-CN": "过桥",
       "ko": "[Cross bridge]",
       "vi": "[Cross bridge]",
-      "id": "[Cross bridge]"
+      "id": "[Cross bridge]",
+      "es": "Cross bridge",
+      "pt": "Cross bridge"
     }
   },
   {
@@ -6523,7 +7655,9 @@ const N5_VOCAB = [
       "zh-CN": "十字路口",
       "ko": "[intersection]",
       "vi": "[intersection]",
-      "id": "[intersection]"
+      "id": "[intersection]",
+      "es": "intersection",
+      "pt": "intersection"
     },
     "ex": "交差点を右に曲がる",
     "exm": {
@@ -6532,7 +7666,9 @@ const N5_VOCAB = [
       "zh-CN": "在十字路口右转",
       "ko": "[Turn right at intersection]",
       "vi": "[Turn right at intersection]",
-      "id": "[Turn right at intersection]"
+      "id": "[Turn right at intersection]",
+      "es": "Turn right at intersection",
+      "pt": "Turn right at intersection"
     }
   },
   {
@@ -6545,7 +7681,9 @@ const N5_VOCAB = [
       "zh-CN": "红绿灯",
       "ko": "[traffic light]",
       "vi": "[traffic light]",
-      "id": "[traffic light]"
+      "id": "[traffic light]",
+      "es": "traffic light",
+      "pt": "traffic light"
     },
     "ex": "信号を待つ",
     "exm": {
@@ -6554,7 +7692,9 @@ const N5_VOCAB = [
       "zh-CN": "等红绿灯",
       "ko": "[Wait for light]",
       "vi": "[Wait for light]",
-      "id": "[Wait for light]"
+      "id": "[Wait for light]",
+      "es": "Wait for light",
+      "pt": "Wait for light"
     }
   },
   {
@@ -6567,7 +7707,9 @@ const N5_VOCAB = [
       "zh-CN": "转角",
       "ko": "[corner]",
       "vi": "[corner]",
-      "id": "[corner]"
+      "id": "[corner]",
+      "es": "corner",
+      "pt": "corner"
     },
     "ex": "角を曲がる",
     "exm": {
@@ -6576,7 +7718,9 @@ const N5_VOCAB = [
       "zh-CN": "在转角转弯",
       "ko": "[Turn at corner]",
       "vi": "[Turn at corner]",
-      "id": "[Turn at corner]"
+      "id": "[Turn at corner]",
+      "es": "Turn at corner",
+      "pt": "Turn at corner"
     }
   },
   {
@@ -6589,7 +7733,9 @@ const N5_VOCAB = [
       "zh-CN": "城镇",
       "ko": "[town]",
       "vi": "[town]",
-      "id": "[town]"
+      "id": "[town]",
+      "es": "town",
+      "pt": "town"
     },
     "ex": "町を歩く",
     "exm": {
@@ -6598,7 +7744,9 @@ const N5_VOCAB = [
       "zh-CN": "在城镇走",
       "ko": "[Walk in town]",
       "vi": "[Walk in town]",
-      "id": "[Walk in town]"
+      "id": "[Walk in town]",
+      "es": "Walk in town",
+      "pt": "Walk in town"
     }
   },
   {
@@ -6611,7 +7759,9 @@ const N5_VOCAB = [
       "zh-CN": "村庄",
       "ko": "[village]",
       "vi": "[village]",
-      "id": "[village]"
+      "id": "[village]",
+      "es": "village",
+      "pt": "village"
     },
     "ex": "小さい村",
     "exm": {
@@ -6620,7 +7770,9 @@ const N5_VOCAB = [
       "zh-CN": "小村庄",
       "ko": "[Small village]",
       "vi": "[Small village]",
-      "id": "[Small village]"
+      "id": "[Small village]",
+      "es": "Small village",
+      "pt": "Small village"
     }
   },
   {
@@ -6633,7 +7785,9 @@ const N5_VOCAB = [
       "zh-CN": "市",
       "ko": "[city]",
       "vi": "[city]",
-      "id": "[city]"
+      "id": "[city]",
+      "es": "city",
+      "pt": "city"
     },
     "ex": "東京市",
     "exm": {
@@ -6642,7 +7796,9 @@ const N5_VOCAB = [
       "zh-CN": "东京市",
       "ko": "[Tokyo City]",
       "vi": "[Tokyo City]",
-      "id": "[Tokyo City]"
+      "id": "[Tokyo City]",
+      "es": "Tokyo City",
+      "pt": "Tokyo City"
     }
   },
   {
@@ -6655,7 +7811,9 @@ const N5_VOCAB = [
       "zh-CN": "县",
       "ko": "[prefecture]",
       "vi": "[prefecture]",
-      "id": "[prefecture]"
+      "id": "[prefecture]",
+      "es": "prefecture",
+      "pt": "prefecture"
     },
     "ex": "大阪府",
     "exm": {
@@ -6664,7 +7822,9 @@ const N5_VOCAB = [
       "zh-CN": "大阪府",
       "ko": "[Osaka Prefecture]",
       "vi": "[Osaka Prefecture]",
-      "id": "[Osaka Prefecture]"
+      "id": "[Osaka Prefecture]",
+      "es": "Osaka Prefecture",
+      "pt": "Osaka Prefecture"
     }
   },
   {
@@ -6677,7 +7837,9 @@ const N5_VOCAB = [
       "zh-CN": "国家",
       "ko": "나라",
       "vi": "Quốc gia",
-      "id": "Negara"
+      "id": "Negara",
+      "es": "country",
+      "pt": "country"
     },
     "ex": "日本という国",
     "exm": {
@@ -6686,7 +7848,9 @@ const N5_VOCAB = [
       "zh-CN": "日本这个国家",
       "ko": "[Country called Japan]",
       "vi": "[Country called Japan]",
-      "id": "[Country called Japan]"
+      "id": "[Country called Japan]",
+      "es": "Country called Japan",
+      "pt": "Country called Japan"
     }
   },
   {
@@ -6699,7 +7863,9 @@ const N5_VOCAB = [
       "zh-CN": "世界",
       "ko": "[world]",
       "vi": "[world]",
-      "id": "[world]"
+      "id": "[world]",
+      "es": "world",
+      "pt": "world"
     },
     "ex": "世界を旅行する",
     "exm": {
@@ -6708,7 +7874,9 @@ const N5_VOCAB = [
       "zh-CN": "环游世界",
       "ko": "[Travel the world]",
       "vi": "[Travel the world]",
-      "id": "[Travel the world]"
+      "id": "[Travel the world]",
+      "es": "Travel the world",
+      "pt": "Travel the world"
     }
   },
   {
@@ -6721,7 +7889,9 @@ const N5_VOCAB = [
       "zh-CN": "外国",
       "ko": "[foreign country]",
       "vi": "[foreign country]",
-      "id": "[foreign country]"
+      "id": "[foreign country]",
+      "es": "foreign country",
+      "pt": "foreign country"
     },
     "ex": "外国に行く",
     "exm": {
@@ -6730,7 +7900,9 @@ const N5_VOCAB = [
       "zh-CN": "去外国",
       "ko": "[Go abroad]",
       "vi": "[Go abroad]",
-      "id": "[Go abroad]"
+      "id": "[Go abroad]",
+      "es": "Go abroad",
+      "pt": "Go abroad"
     }
   },
   {
@@ -6743,7 +7915,9 @@ const N5_VOCAB = [
       "zh-CN": "山",
       "ko": "산",
       "vi": "Núi",
-      "id": "Gunung"
+      "id": "Gunung",
+      "es": "mountain",
+      "pt": "mountain"
     },
     "ex": "山に登る",
     "exm": {
@@ -6752,7 +7926,9 @@ const N5_VOCAB = [
       "zh-CN": "爬山",
       "ko": "[Climb mountain]",
       "vi": "[Climb mountain]",
-      "id": "[Climb mountain]"
+      "id": "[Climb mountain]",
+      "es": "Climb mountain",
+      "pt": "Climb mountain"
     },
     "syn": [
       "山岳",
@@ -6770,7 +7946,9 @@ const N5_VOCAB = [
       "zh-CN": "河",
       "ko": "강",
       "vi": "Sông",
-      "id": "Sungai"
+      "id": "Sungai",
+      "es": "river",
+      "pt": "river"
     },
     "ex": "川で泳ぐ",
     "exm": {
@@ -6779,7 +7957,9 @@ const N5_VOCAB = [
       "zh-CN": "在河里游泳",
       "ko": "[Swim in river]",
       "vi": "[Swim in river]",
-      "id": "[Swim in river]"
+      "id": "[Swim in river]",
+      "es": "Swim in river",
+      "pt": "Swim in river"
     },
     "syn": [
       "河川",
@@ -6797,7 +7977,9 @@ const N5_VOCAB = [
       "zh-CN": "海",
       "ko": "바다",
       "vi": "Biển",
-      "id": "Laut"
+      "id": "Laut",
+      "es": "sea",
+      "pt": "sea"
     },
     "ex": "海で泳ぐ",
     "exm": {
@@ -6806,7 +7988,9 @@ const N5_VOCAB = [
       "zh-CN": "在海游泳",
       "ko": "[Swim in sea]",
       "vi": "[Swim in sea]",
-      "id": "[Swim in sea]"
+      "id": "[Swim in sea]",
+      "es": "Swim in sea",
+      "pt": "Swim in sea"
     },
     "syn": [
       "大海",
@@ -6824,7 +8008,9 @@ const N5_VOCAB = [
       "zh-CN": "湖",
       "ko": "[lake]",
       "vi": "[lake]",
-      "id": "[lake]"
+      "id": "[lake]",
+      "es": "lake",
+      "pt": "lake"
     },
     "ex": "湖を見る",
     "exm": {
@@ -6833,7 +8019,9 @@ const N5_VOCAB = [
       "zh-CN": "看湖",
       "ko": "[See lake]",
       "vi": "[See lake]",
-      "id": "[See lake]"
+      "id": "[See lake]",
+      "es": "See lake",
+      "pt": "See lake"
     }
   },
   {
@@ -6846,7 +8034,9 @@ const N5_VOCAB = [
       "zh-CN": "岛",
       "ko": "[island]",
       "vi": "[island]",
-      "id": "[island]"
+      "id": "[island]",
+      "es": "island",
+      "pt": "island"
     },
     "ex": "島に行く",
     "exm": {
@@ -6855,7 +8045,9 @@ const N5_VOCAB = [
       "zh-CN": "去岛上",
       "ko": "[Go to island]",
       "vi": "[Go to island]",
-      "id": "[Go to island]"
+      "id": "[Go to island]",
+      "es": "Go to island",
+      "pt": "Go to island"
     }
   },
   {
@@ -6868,7 +8060,9 @@ const N5_VOCAB = [
       "zh-CN": "森林",
       "ko": "[forest]",
       "vi": "[forest]",
-      "id": "[forest]"
+      "id": "[forest]",
+      "es": "forest",
+      "pt": "forest"
     },
     "ex": "森を歩く",
     "exm": {
@@ -6877,7 +8071,9 @@ const N5_VOCAB = [
       "zh-CN": "在森林走",
       "ko": "[Walk in forest]",
       "vi": "[Walk in forest]",
-      "id": "[Walk in forest]"
+      "id": "[Walk in forest]",
+      "es": "Walk in forest",
+      "pt": "Walk in forest"
     }
   },
   {
@@ -6890,7 +8086,9 @@ const N5_VOCAB = [
       "zh-CN": "树",
       "ko": "나무",
       "vi": "Cây",
-      "id": "Pohon"
+      "id": "Pohon",
+      "es": "tree",
+      "pt": "tree"
     },
     "ex": "木に登る",
     "exm": {
@@ -6899,7 +8097,9 @@ const N5_VOCAB = [
       "zh-CN": "爬树",
       "ko": "[Climb tree]",
       "vi": "[Climb tree]",
-      "id": "[Climb tree]"
+      "id": "[Climb tree]",
+      "es": "Climb tree",
+      "pt": "Climb tree"
     }
   },
   {
@@ -6912,7 +8112,9 @@ const N5_VOCAB = [
       "zh-CN": "花",
       "ko": "꽃",
       "vi": "Hoa",
-      "id": "Bunga"
+      "id": "Bunga",
+      "es": "flower",
+      "pt": "flower"
     },
     "ex": "花をあげる",
     "exm": {
@@ -6921,7 +8123,9 @@ const N5_VOCAB = [
       "zh-CN": "送花",
       "ko": "[Give flowers]",
       "vi": "[Give flowers]",
-      "id": "[Give flowers]"
+      "id": "[Give flowers]",
+      "es": "Give flowers",
+      "pt": "Give flowers"
     }
   },
   {
@@ -6934,7 +8138,9 @@ const N5_VOCAB = [
       "zh-CN": "天空",
       "ko": "하늘",
       "vi": "Bầu trời",
-      "id": "Langit"
+      "id": "Langit",
+      "es": "sky",
+      "pt": "sky"
     },
     "ex": "空を見る",
     "exm": {
@@ -6943,7 +8149,9 @@ const N5_VOCAB = [
       "zh-CN": "看天空",
       "ko": "[Look at sky]",
       "vi": "[Look at sky]",
-      "id": "[Look at sky]"
+      "id": "[Look at sky]",
+      "es": "Look at sky",
+      "pt": "Look at sky"
     },
     "syn": [
       "天空",
@@ -6961,7 +8169,9 @@ const N5_VOCAB = [
       "zh-CN": "云",
       "ko": "[cloud]",
       "vi": "[cloud]",
-      "id": "[cloud]"
+      "id": "[cloud]",
+      "es": "cloud",
+      "pt": "cloud"
     },
     "ex": "雲が多い",
     "exm": {
@@ -6970,7 +8180,9 @@ const N5_VOCAB = [
       "zh-CN": "云很多",
       "ko": "[Many clouds]",
       "vi": "[Many clouds]",
-      "id": "[Many clouds]"
+      "id": "[Many clouds]",
+      "es": "Many clouds",
+      "pt": "Many clouds"
     }
   },
   {
@@ -6983,7 +8195,9 @@ const N5_VOCAB = [
       "zh-CN": "星星",
       "ko": "별",
       "vi": "Ngôi sao",
-      "id": "Bintang"
+      "id": "Bintang",
+      "es": "star",
+      "pt": "star"
     },
     "ex": "星を見る",
     "exm": {
@@ -6992,7 +8206,9 @@ const N5_VOCAB = [
       "zh-CN": "看星星",
       "ko": "[Look at stars]",
       "vi": "[Look at stars]",
-      "id": "[Look at stars]"
+      "id": "[Look at stars]",
+      "es": "Look at stars",
+      "pt": "Look at stars"
     }
   },
   {
@@ -7005,7 +8221,9 @@ const N5_VOCAB = [
       "zh-CN": "月亮",
       "ko": "달",
       "vi": "Mặt trăng",
-      "id": "Bulan"
+      "id": "Bulan",
+      "es": "moon",
+      "pt": "moon"
     },
     "ex": "月がきれい",
     "exm": {
@@ -7014,7 +8232,9 @@ const N5_VOCAB = [
       "zh-CN": "月亮很美",
       "ko": "[Moon is beautiful]",
       "vi": "[Moon is beautiful]",
-      "id": "[Moon is beautiful]"
+      "id": "[Moon is beautiful]",
+      "es": "Moon is beautiful",
+      "pt": "Moon is beautiful"
     }
   },
   {
@@ -7027,7 +8247,9 @@ const N5_VOCAB = [
       "zh-CN": "太阳",
       "ko": "태양",
       "vi": "Mặt trời",
-      "id": "Matahari"
+      "id": "Matahari",
+      "es": "sun",
+      "pt": "sun"
     },
     "ex": "太陽が出る",
     "exm": {
@@ -7036,7 +8258,9 @@ const N5_VOCAB = [
       "zh-CN": "太阳出来",
       "ko": "[Sun comes out]",
       "vi": "[Sun comes out]",
-      "id": "[Sun comes out]"
+      "id": "[Sun comes out]",
+      "es": "Sun comes out",
+      "pt": "Sun comes out"
     }
   },
   {
@@ -7049,7 +8273,9 @@ const N5_VOCAB = [
       "zh-CN": "天气",
       "ko": "날씨",
       "vi": "Thời tiết",
-      "id": "Cuaca"
+      "id": "Cuaca",
+      "es": "weather",
+      "pt": "weather"
     },
     "ex": "今日の天気",
     "exm": {
@@ -7058,7 +8284,9 @@ const N5_VOCAB = [
       "zh-CN": "今天的天气",
       "ko": "[Today's weather]",
       "vi": "[Today's weather]",
-      "id": "[Today's weather]"
+      "id": "[Today's weather]",
+      "es": "Today's weather",
+      "pt": "Today's weather"
     },
     "syn": [
       "天候",
@@ -7076,7 +8304,9 @@ const N5_VOCAB = [
       "zh-CN": "雨",
       "ko": "비",
       "vi": "Mưa",
-      "id": "Hujan"
+      "id": "Hujan",
+      "es": "rain",
+      "pt": "rain"
     },
     "ex": "雨が降る",
     "exm": {
@@ -7085,7 +8315,9 @@ const N5_VOCAB = [
       "zh-CN": "下雨",
       "ko": "[Rain falls]",
       "vi": "[Rain falls]",
-      "id": "[Rain falls]"
+      "id": "[Rain falls]",
+      "es": "Rain falls",
+      "pt": "Rain falls"
     }
   },
   {
@@ -7098,7 +8330,9 @@ const N5_VOCAB = [
       "zh-CN": "雪",
       "ko": "눈",
       "vi": "Tuyết",
-      "id": "Salju"
+      "id": "Salju",
+      "es": "snow",
+      "pt": "snow"
     },
     "ex": "雪が降る",
     "exm": {
@@ -7107,7 +8341,9 @@ const N5_VOCAB = [
       "zh-CN": "下雪",
       "ko": "[Snow falls]",
       "vi": "[Snow falls]",
-      "id": "[Snow falls]"
+      "id": "[Snow falls]",
+      "es": "Snow falls",
+      "pt": "Snow falls"
     }
   },
   {
@@ -7120,7 +8356,9 @@ const N5_VOCAB = [
       "zh-CN": "风",
       "ko": "바람",
       "vi": "Gió",
-      "id": "Angin"
+      "id": "Angin",
+      "es": "wind",
+      "pt": "wind"
     },
     "ex": "風が吹く",
     "exm": {
@@ -7129,7 +8367,9 @@ const N5_VOCAB = [
       "zh-CN": "风吹",
       "ko": "[Wind blows]",
       "vi": "[Wind blows]",
-      "id": "[Wind blows]"
+      "id": "[Wind blows]",
+      "es": "Wind blows",
+      "pt": "Wind blows"
     }
   },
   {
@@ -7142,7 +8382,9 @@ const N5_VOCAB = [
       "zh-CN": "春天",
       "ko": "[spring]",
       "vi": "[spring]",
-      "id": "[spring]"
+      "id": "[spring]",
+      "es": "spring",
+      "pt": "spring"
     },
     "ex": "春が来た",
     "exm": {
@@ -7151,7 +8393,9 @@ const N5_VOCAB = [
       "zh-CN": "春天来了",
       "ko": "[Spring came]",
       "vi": "[Spring came]",
-      "id": "[Spring came]"
+      "id": "[Spring came]",
+      "es": "Spring came",
+      "pt": "Spring came"
     }
   },
   {
@@ -7164,7 +8408,9 @@ const N5_VOCAB = [
       "zh-CN": "夏天",
       "ko": "[summer]",
       "vi": "[summer]",
-      "id": "[summer]"
+      "id": "[summer]",
+      "es": "summer",
+      "pt": "summer"
     },
     "ex": "夏は暑い",
     "exm": {
@@ -7173,7 +8419,9 @@ const N5_VOCAB = [
       "zh-CN": "夏天很热",
       "ko": "[Summer is hot]",
       "vi": "[Summer is hot]",
-      "id": "[Summer is hot]"
+      "id": "[Summer is hot]",
+      "es": "Summer is hot",
+      "pt": "Summer is hot"
     }
   },
   {
@@ -7186,7 +8434,9 @@ const N5_VOCAB = [
       "zh-CN": "秋天",
       "ko": "[autumn]",
       "vi": "[autumn]",
-      "id": "[autumn]"
+      "id": "[autumn]",
+      "es": "autumn",
+      "pt": "autumn"
     },
     "ex": "秋は涼しい",
     "exm": {
@@ -7195,7 +8445,9 @@ const N5_VOCAB = [
       "zh-CN": "秋天很凉爽",
       "ko": "[Autumn is cool]",
       "vi": "[Autumn is cool]",
-      "id": "[Autumn is cool]"
+      "id": "[Autumn is cool]",
+      "es": "Autumn is cool",
+      "pt": "Autumn is cool"
     }
   },
   {
@@ -7208,7 +8460,9 @@ const N5_VOCAB = [
       "zh-CN": "冬天",
       "ko": "[winter]",
       "vi": "[winter]",
-      "id": "[winter]"
+      "id": "[winter]",
+      "es": "winter",
+      "pt": "winter"
     },
     "ex": "冬は寒い",
     "exm": {
@@ -7217,7 +8471,9 @@ const N5_VOCAB = [
       "zh-CN": "冬天很冷",
       "ko": "[Winter is cold]",
       "vi": "[Winter is cold]",
-      "id": "[Winter is cold]"
+      "id": "[Winter is cold]",
+      "es": "Winter is cold",
+      "pt": "Winter is cold"
     }
   },
   {
@@ -7230,7 +8486,9 @@ const N5_VOCAB = [
       "zh-CN": "早上",
       "ko": "아침",
       "vi": "Buổi sáng",
-      "id": "Pagi"
+      "id": "Pagi",
+      "es": "morning",
+      "pt": "morning"
     },
     "ex": "朝起きる",
     "exm": {
@@ -7239,7 +8497,9 @@ const N5_VOCAB = [
       "zh-CN": "早上起床",
       "ko": "[Wake up morning]",
       "vi": "[Wake up morning]",
-      "id": "[Wake up morning]"
+      "id": "[Wake up morning]",
+      "es": "Wake up morning",
+      "pt": "Wake up morning"
     }
   },
   {
@@ -7252,7 +8512,9 @@ const N5_VOCAB = [
       "zh-CN": "中午",
       "ko": "[noon]",
       "vi": "[noon]",
-      "id": "[noon]"
+      "id": "[noon]",
+      "es": "noon",
+      "pt": "noon"
     },
     "ex": "昼ご飯を食べる",
     "exm": {
@@ -7261,7 +8523,9 @@ const N5_VOCAB = [
       "zh-CN": "吃午餐",
       "ko": "[Eat lunch]",
       "vi": "[Eat lunch]",
-      "id": "[Eat lunch]"
+      "id": "[Eat lunch]",
+      "es": "Eat lunch",
+      "pt": "Eat lunch"
     }
   },
   {
@@ -7274,7 +8538,9 @@ const N5_VOCAB = [
       "zh-CN": "夜晚",
       "ko": "밤",
       "vi": "Đêm",
-      "id": "Malam"
+      "id": "Malam",
+      "es": "night",
+      "pt": "night"
     },
     "ex": "夜寝る",
     "exm": {
@@ -7283,7 +8549,9 @@ const N5_VOCAB = [
       "zh-CN": "晚上睡觉",
       "ko": "[Sleep at night]",
       "vi": "[Sleep at night]",
-      "id": "[Sleep at night]"
+      "id": "[Sleep at night]",
+      "es": "Sleep at night",
+      "pt": "Sleep at night"
     }
   },
   {
@@ -7296,7 +8564,9 @@ const N5_VOCAB = [
       "zh-CN": "今天",
       "ko": "오늘",
       "vi": "Hôm nay",
-      "id": "Hari ini"
+      "id": "Hari ini",
+      "es": "today",
+      "pt": "today"
     },
     "ex": "今日は月曜日",
     "exm": {
@@ -7305,7 +8575,9 @@ const N5_VOCAB = [
       "zh-CN": "今天是星期一",
       "ko": "[Today is Monday]",
       "vi": "[Today is Monday]",
-      "id": "[Today is Monday]"
+      "id": "[Today is Monday]",
+      "es": "Today is Monday",
+      "pt": "Today is Monday"
     }
   },
   {
@@ -7318,7 +8590,9 @@ const N5_VOCAB = [
       "zh-CN": "明天",
       "ko": "내일",
       "vi": "Ngày mai",
-      "id": "Besok"
+      "id": "Besok",
+      "es": "tomorrow",
+      "pt": "tomorrow"
     },
     "ex": "明日会おう",
     "exm": {
@@ -7327,7 +8601,9 @@ const N5_VOCAB = [
       "zh-CN": "明天见",
       "ko": "[Let's meet tomorrow]",
       "vi": "[Let's meet tomorrow]",
-      "id": "[Let's meet tomorrow]"
+      "id": "[Let's meet tomorrow]",
+      "es": "Let's meet tomorrow",
+      "pt": "Let's meet tomorrow"
     }
   },
   {
@@ -7340,7 +8616,9 @@ const N5_VOCAB = [
       "zh-CN": "昨天",
       "ko": "어제",
       "vi": "Hôm qua",
-      "id": "Kemarin"
+      "id": "Kemarin",
+      "es": "yesterday",
+      "pt": "yesterday"
     },
     "ex": "昨日は休み",
     "exm": {
@@ -7349,7 +8627,9 @@ const N5_VOCAB = [
       "zh-CN": "昨天休息",
       "ko": "[Yesterday was off]",
       "vi": "[Yesterday was off]",
-      "id": "[Yesterday was off]"
+      "id": "[Yesterday was off]",
+      "es": "Yesterday was off",
+      "pt": "Yesterday was off"
     }
   },
   {
@@ -7362,7 +8642,9 @@ const N5_VOCAB = [
       "zh-CN": "现在",
       "ko": "지금",
       "vi": "Bây giờ",
-      "id": "Sekarang"
+      "id": "Sekarang",
+      "es": "now",
+      "pt": "now"
     },
     "ex": "今何時ですか",
     "exm": {
@@ -7371,7 +8653,9 @@ const N5_VOCAB = [
       "zh-CN": "现在几点",
       "ko": "[What time now?]",
       "vi": "[What time now?]",
-      "id": "[What time now?]"
+      "id": "[What time now?]",
+      "es": "What time now?",
+      "pt": "What time now?"
     }
   },
   {
@@ -7384,7 +8668,9 @@ const N5_VOCAB = [
       "zh-CN": "之后",
       "ko": "[later]",
       "vi": "[later]",
-      "id": "[later]"
+      "id": "[later]",
+      "es": "later",
+      "pt": "later"
     },
     "ex": "後で電話する",
     "exm": {
@@ -7393,7 +8679,9 @@ const N5_VOCAB = [
       "zh-CN": "之后打电话",
       "ko": "[Call later]",
       "vi": "[Call later]",
-      "id": "[Call later]"
+      "id": "[Call later]",
+      "es": "Call later",
+      "pt": "Call later"
     }
   },
   {
@@ -7406,7 +8694,9 @@ const N5_VOCAB = [
       "zh-CN": "星期一",
       "ko": "[Monday]",
       "vi": "[Monday]",
-      "id": "[Monday]"
+      "id": "[Monday]",
+      "es": "Monday",
+      "pt": "Monday"
     },
     "ex": "月曜日に会う",
     "exm": {
@@ -7415,7 +8705,9 @@ const N5_VOCAB = [
       "zh-CN": "星期一见",
       "ko": "[Meet on Monday]",
       "vi": "[Meet on Monday]",
-      "id": "[Meet on Monday]"
+      "id": "[Meet on Monday]",
+      "es": "Meet on Monday",
+      "pt": "Meet on Monday"
     }
   },
   {
@@ -7428,7 +8720,9 @@ const N5_VOCAB = [
       "zh-CN": "星期二",
       "ko": "[Tuesday]",
       "vi": "[Tuesday]",
-      "id": "[Tuesday]"
+      "id": "[Tuesday]",
+      "es": "Tuesday",
+      "pt": "Tuesday"
     },
     "ex": "火曜日は休み",
     "exm": {
@@ -7437,7 +8731,9 @@ const N5_VOCAB = [
       "zh-CN": "星期二休息",
       "ko": "[Tuesday off]",
       "vi": "[Tuesday off]",
-      "id": "[Tuesday off]"
+      "id": "[Tuesday off]",
+      "es": "Tuesday off",
+      "pt": "Tuesday off"
     }
   },
   {
@@ -7450,7 +8746,9 @@ const N5_VOCAB = [
       "zh-CN": "星期三",
       "ko": "[Wednesday]",
       "vi": "[Wednesday]",
-      "id": "[Wednesday]"
+      "id": "[Wednesday]",
+      "es": "Wednesday",
+      "pt": "Wednesday"
     },
     "ex": "水曜日に来る",
     "exm": {
@@ -7459,7 +8757,9 @@ const N5_VOCAB = [
       "zh-CN": "星期三来",
       "ko": "[Come Wednesday]",
       "vi": "[Come Wednesday]",
-      "id": "[Come Wednesday]"
+      "id": "[Come Wednesday]",
+      "es": "Come Wednesday",
+      "pt": "Come Wednesday"
     }
   },
   {
@@ -7472,7 +8772,9 @@ const N5_VOCAB = [
       "zh-CN": "星期四",
       "ko": "[Thursday]",
       "vi": "[Thursday]",
-      "id": "[Thursday]"
+      "id": "[Thursday]",
+      "es": "Thursday",
+      "pt": "Thursday"
     },
     "ex": "木曜日は忙しい",
     "exm": {
@@ -7481,7 +8783,9 @@ const N5_VOCAB = [
       "zh-CN": "星期四很忙",
       "ko": "[Thursday busy]",
       "vi": "[Thursday busy]",
-      "id": "[Thursday busy]"
+      "id": "[Thursday busy]",
+      "es": "Thursday busy",
+      "pt": "Thursday busy"
     }
   },
   {
@@ -7494,7 +8798,9 @@ const N5_VOCAB = [
       "zh-CN": "星期五",
       "ko": "[Friday]",
       "vi": "[Friday]",
-      "id": "[Friday]"
+      "id": "[Friday]",
+      "es": "Friday",
+      "pt": "Friday"
     },
     "ex": "金曜日に終わる",
     "exm": {
@@ -7503,7 +8809,9 @@ const N5_VOCAB = [
       "zh-CN": "星期五结束",
       "ko": "[Finish Friday]",
       "vi": "[Finish Friday]",
-      "id": "[Finish Friday]"
+      "id": "[Finish Friday]",
+      "es": "Finish Friday",
+      "pt": "Finish Friday"
     }
   },
   {
@@ -7516,7 +8824,9 @@ const N5_VOCAB = [
       "zh-CN": "星期六",
       "ko": "[Saturday]",
       "vi": "[Saturday]",
-      "id": "[Saturday]"
+      "id": "[Saturday]",
+      "es": "Saturday",
+      "pt": "Saturday"
     },
     "ex": "土曜日に遊ぶ",
     "exm": {
@@ -7525,7 +8835,9 @@ const N5_VOCAB = [
       "zh-CN": "星期六玩",
       "ko": "[Play Saturday]",
       "vi": "[Play Saturday]",
-      "id": "[Play Saturday]"
+      "id": "[Play Saturday]",
+      "es": "Play Saturday",
+      "pt": "Play Saturday"
     }
   },
   {
@@ -7538,7 +8850,9 @@ const N5_VOCAB = [
       "zh-CN": "星期日",
       "ko": "[Sunday]",
       "vi": "[Sunday]",
-      "id": "[Sunday]"
+      "id": "[Sunday]",
+      "es": "Sunday",
+      "pt": "Sunday"
     },
     "ex": "日曜日は休み",
     "exm": {
@@ -7547,7 +8861,9 @@ const N5_VOCAB = [
       "zh-CN": "星期日休息",
       "ko": "[Sunday off]",
       "vi": "[Sunday off]",
-      "id": "[Sunday off]"
+      "id": "[Sunday off]",
+      "es": "Sunday off",
+      "pt": "Sunday off"
     }
   },
   {
@@ -7560,7 +8876,9 @@ const N5_VOCAB = [
       "zh-CN": "周末",
       "ko": "[weekend]",
       "vi": "[weekend]",
-      "id": "[weekend]"
+      "id": "[weekend]",
+      "es": "weekend",
+      "pt": "weekend"
     },
     "ex": "週末に旅行",
     "exm": {
@@ -7569,7 +8887,9 @@ const N5_VOCAB = [
       "zh-CN": "周末旅行",
       "ko": "[Travel weekend]",
       "vi": "[Travel weekend]",
-      "id": "[Travel weekend]"
+      "id": "[Travel weekend]",
+      "es": "Travel weekend",
+      "pt": "Travel weekend"
     }
   },
   {
@@ -7582,7 +8902,9 @@ const N5_VOCAB = [
       "zh-CN": "这周",
       "ko": "[this week]",
       "vi": "[this week]",
-      "id": "[this week]"
+      "id": "[this week]",
+      "es": "this week",
+      "pt": "this week"
     },
     "ex": "今週は忙しい",
     "exm": {
@@ -7591,7 +8913,9 @@ const N5_VOCAB = [
       "zh-CN": "这周很忙",
       "ko": "[This week busy]",
       "vi": "[This week busy]",
-      "id": "[This week busy]"
+      "id": "[This week busy]",
+      "es": "This week busy",
+      "pt": "This week busy"
     }
   },
   {
@@ -7604,7 +8928,9 @@ const N5_VOCAB = [
       "zh-CN": "下周",
       "ko": "[next week]",
       "vi": "[next week]",
-      "id": "[next week]"
+      "id": "[next week]",
+      "es": "next week",
+      "pt": "next week"
     },
     "ex": "来週会おう",
     "exm": {
@@ -7613,7 +8939,9 @@ const N5_VOCAB = [
       "zh-CN": "下周见",
       "ko": "[Meet next week]",
       "vi": "[Meet next week]",
-      "id": "[Meet next week]"
+      "id": "[Meet next week]",
+      "es": "Meet next week",
+      "pt": "Meet next week"
     }
   },
   {
@@ -7626,7 +8954,9 @@ const N5_VOCAB = [
       "zh-CN": "上周",
       "ko": "[last week]",
       "vi": "[last week]",
-      "id": "[last week]"
+      "id": "[last week]",
+      "es": "last week",
+      "pt": "last week"
     },
     "ex": "先週行った",
     "exm": {
@@ -7635,7 +8965,9 @@ const N5_VOCAB = [
       "zh-CN": "上周去了",
       "ko": "[Went last week]",
       "vi": "[Went last week]",
-      "id": "[Went last week]"
+      "id": "[Went last week]",
+      "es": "Went last week",
+      "pt": "Went last week"
     }
   },
   {
@@ -7648,7 +8980,9 @@ const N5_VOCAB = [
       "zh-CN": "这个月",
       "ko": "[this month]",
       "vi": "[this month]",
-      "id": "[this month]"
+      "id": "[this month]",
+      "es": "this month",
+      "pt": "this month"
     },
     "ex": "今月は忙しい",
     "exm": {
@@ -7657,7 +8991,9 @@ const N5_VOCAB = [
       "zh-CN": "这个月很忙",
       "ko": "[This month busy]",
       "vi": "[This month busy]",
-      "id": "[This month busy]"
+      "id": "[This month busy]",
+      "es": "This month busy",
+      "pt": "This month busy"
     }
   },
   {
@@ -7670,7 +9006,9 @@ const N5_VOCAB = [
       "zh-CN": "下个月",
       "ko": "[next month]",
       "vi": "[next month]",
-      "id": "[next month]"
+      "id": "[next month]",
+      "es": "next month",
+      "pt": "next month"
     },
     "ex": "来月旅行する",
     "exm": {
@@ -7679,7 +9017,9 @@ const N5_VOCAB = [
       "zh-CN": "下个月旅行",
       "ko": "[Travel next month]",
       "vi": "[Travel next month]",
-      "id": "[Travel next month]"
+      "id": "[Travel next month]",
+      "es": "Travel next month",
+      "pt": "Travel next month"
     }
   },
   {
@@ -7692,7 +9032,9 @@ const N5_VOCAB = [
       "zh-CN": "上个月",
       "ko": "[last month]",
       "vi": "[last month]",
-      "id": "[last month]"
+      "id": "[last month]",
+      "es": "last month",
+      "pt": "last month"
     },
     "ex": "先月買った",
     "exm": {
@@ -7701,7 +9043,9 @@ const N5_VOCAB = [
       "zh-CN": "上个月买的",
       "ko": "[Bought last month]",
       "vi": "[Bought last month]",
-      "id": "[Bought last month]"
+      "id": "[Bought last month]",
+      "es": "Bought last month",
+      "pt": "Bought last month"
     }
   },
   {
@@ -7714,7 +9058,9 @@ const N5_VOCAB = [
       "zh-CN": "今年",
       "ko": "[this year]",
       "vi": "[this year]",
-      "id": "[this year]"
+      "id": "[this year]",
+      "es": "this year",
+      "pt": "this year"
     },
     "ex": "今年は2024年",
     "exm": {
@@ -7723,7 +9069,9 @@ const N5_VOCAB = [
       "zh-CN": "今年2024年",
       "ko": "[This year 2024]",
       "vi": "[This year 2024]",
-      "id": "[This year 2024]"
+      "id": "[This year 2024]",
+      "es": "This year 2024",
+      "pt": "This year 2024"
     }
   },
   {
@@ -7736,7 +9084,9 @@ const N5_VOCAB = [
       "zh-CN": "明年",
       "ko": "[next year]",
       "vi": "[next year]",
-      "id": "[next year]"
+      "id": "[next year]",
+      "es": "next year",
+      "pt": "next year"
     },
     "ex": "来年結婚する",
     "exm": {
@@ -7745,7 +9095,9 @@ const N5_VOCAB = [
       "zh-CN": "明年结婚",
       "ko": "[Marry next year]",
       "vi": "[Marry next year]",
-      "id": "[Marry next year]"
+      "id": "[Marry next year]",
+      "es": "Marry next year",
+      "pt": "Marry next year"
     }
   },
   {
@@ -7758,7 +9110,9 @@ const N5_VOCAB = [
       "zh-CN": "去年",
       "ko": "[last year]",
       "vi": "[last year]",
-      "id": "[last year]"
+      "id": "[last year]",
+      "es": "last year",
+      "pt": "last year"
     },
     "ex": "去年日本に行った",
     "exm": {
@@ -7767,7 +9121,9 @@ const N5_VOCAB = [
       "zh-CN": "去年去日本",
       "ko": "[Went Japan last year]",
       "vi": "[Went Japan last year]",
-      "id": "[Went Japan last year]"
+      "id": "[Went Japan last year]",
+      "es": "Went Japan last year",
+      "pt": "Went Japan last year"
     }
   },
   {
@@ -7780,7 +9136,9 @@ const N5_VOCAB = [
       "zh-CN": "每天",
       "ko": "[every day]",
       "vi": "[every day]",
-      "id": "[every day]"
+      "id": "[every day]",
+      "es": "every day",
+      "pt": "every day"
     },
     "ex": "毎日勉強する",
     "exm": {
@@ -7789,7 +9147,9 @@ const N5_VOCAB = [
       "zh-CN": "每天学习",
       "ko": "[Study daily]",
       "vi": "[Study daily]",
-      "id": "[Study daily]"
+      "id": "[Study daily]",
+      "es": "Study daily",
+      "pt": "Study daily"
     }
   },
   {
@@ -7802,7 +9162,9 @@ const N5_VOCAB = [
       "zh-CN": "每周",
       "ko": "[every week]",
       "vi": "[every week]",
-      "id": "[every week]"
+      "id": "[every week]",
+      "es": "every week",
+      "pt": "every week"
     },
     "ex": "毎週日曜日に",
     "exm": {
@@ -7811,7 +9173,9 @@ const N5_VOCAB = [
       "zh-CN": "每周日",
       "ko": "[Every Sunday]",
       "vi": "[Every Sunday]",
-      "id": "[Every Sunday]"
+      "id": "[Every Sunday]",
+      "es": "Every Sunday",
+      "pt": "Every Sunday"
     }
   },
   {
@@ -7824,7 +9188,9 @@ const N5_VOCAB = [
       "zh-CN": "每月",
       "ko": "[every month]",
       "vi": "[every month]",
-      "id": "[every month]"
+      "id": "[every month]",
+      "es": "every month",
+      "pt": "every month"
     },
     "ex": "毎月一回",
     "exm": {
@@ -7833,7 +9199,9 @@ const N5_VOCAB = [
       "zh-CN": "每月一次",
       "ko": "[Once a month]",
       "vi": "[Once a month]",
-      "id": "[Once a month]"
+      "id": "[Once a month]",
+      "es": "Once a month",
+      "pt": "Once a month"
     }
   },
   {
@@ -7846,7 +9214,9 @@ const N5_VOCAB = [
       "zh-CN": "每年",
       "ko": "[every year]",
       "vi": "[every year]",
-      "id": "[every year]"
+      "id": "[every year]",
+      "es": "every year",
+      "pt": "every year"
     },
     "ex": "毎年旅行する",
     "exm": {
@@ -7855,7 +9225,9 @@ const N5_VOCAB = [
       "zh-CN": "每年旅行",
       "ko": "[Travel yearly]",
       "vi": "[Travel yearly]",
-      "id": "[Travel yearly]"
+      "id": "[Travel yearly]",
+      "es": "Travel yearly",
+      "pt": "Travel yearly"
     }
   },
   {
@@ -7868,7 +9240,9 @@ const N5_VOCAB = [
       "zh-CN": "时间",
       "ko": "시간",
       "vi": "Thời gian",
-      "id": "Waktu"
+      "id": "Waktu",
+      "es": "time",
+      "pt": "time"
     },
     "ex": "時間がない",
     "exm": {
@@ -7877,7 +9251,9 @@ const N5_VOCAB = [
       "zh-CN": "没时间",
       "ko": "[No time]",
       "vi": "[No time]",
-      "id": "[No time]"
+      "id": "[No time]",
+      "es": "No time",
+      "pt": "No time"
     },
     "syn": [
       "時刻",
@@ -7895,7 +9271,9 @@ const N5_VOCAB = [
       "zh-CN": "上午",
       "ko": "[morning/AM]",
       "vi": "[morning/AM]",
-      "id": "[morning/AM]"
+      "id": "[morning/AM]",
+      "es": "morning/AM",
+      "pt": "morning/AM"
     },
     "ex": "午前中に",
     "exm": {
@@ -7904,7 +9282,9 @@ const N5_VOCAB = [
       "zh-CN": "在上午",
       "ko": "[In the morning]",
       "vi": "[In the morning]",
-      "id": "[In the morning]"
+      "id": "[In the morning]",
+      "es": "In the morning",
+      "pt": "In the morning"
     }
   },
   {
@@ -7917,7 +9297,9 @@ const N5_VOCAB = [
       "zh-CN": "下午",
       "ko": "[afternoon/PM]",
       "vi": "[afternoon/PM]",
-      "id": "[afternoon/PM]"
+      "id": "[afternoon/PM]",
+      "es": "afternoon/PM",
+      "pt": "afternoon/PM"
     },
     "ex": "午後に会う",
     "exm": {
@@ -7926,7 +9308,9 @@ const N5_VOCAB = [
       "zh-CN": "下午见",
       "ko": "[Meet afternoon]",
       "vi": "[Meet afternoon]",
-      "id": "[Meet afternoon]"
+      "id": "[Meet afternoon]",
+      "es": "Meet afternoon",
+      "pt": "Meet afternoon"
     }
   },
   {
@@ -7939,7 +9323,9 @@ const N5_VOCAB = [
       "zh-CN": "晚上",
       "ko": "저녁",
       "vi": "Buổi tối",
-      "id": "Malam"
+      "id": "Malam",
+      "es": "evening",
+      "pt": "evening"
     },
     "ex": "晩ご飯を食べる",
     "exm": {
@@ -7948,7 +9334,9 @@ const N5_VOCAB = [
       "zh-CN": "吃晚餐",
       "ko": "[Eat dinner]",
       "vi": "[Eat dinner]",
-      "id": "[Eat dinner]"
+      "id": "[Eat dinner]",
+      "es": "Eat dinner",
+      "pt": "Eat dinner"
     }
   },
   {
@@ -7961,7 +9349,9 @@ const N5_VOCAB = [
       "zh-CN": "晚上",
       "ko": "저녁",
       "vi": "Buổi tối",
-      "id": "Malam"
+      "id": "Malam",
+      "es": "evening",
+      "pt": "evening"
     },
     "ex": "夕方に帰る",
     "exm": {
@@ -7970,7 +9360,9 @@ const N5_VOCAB = [
       "zh-CN": "傍晚回来",
       "ko": "[Return evening]",
       "vi": "[Return evening]",
-      "id": "[Return evening]"
+      "id": "[Return evening]",
+      "es": "Return evening",
+      "pt": "Return evening"
     }
   },
   {
@@ -7983,7 +9375,9 @@ const N5_VOCAB = [
       "zh-CN": "分钟",
       "ko": "분",
       "vi": "Phút",
-      "id": "Menit"
+      "id": "Menit",
+      "es": "minute",
+      "pt": "minute"
     },
     "ex": "10分待つ",
     "exm": {
@@ -7992,7 +9386,9 @@ const N5_VOCAB = [
       "zh-CN": "等10分钟",
       "ko": "[Wait 10 minutes]",
       "vi": "[Wait 10 minutes]",
-      "id": "[Wait 10 minutes]"
+      "id": "[Wait 10 minutes]",
+      "es": "Wait 10 minutes",
+      "pt": "Wait 10 minutes"
     }
   },
   {
@@ -8005,7 +9401,9 @@ const N5_VOCAB = [
       "zh-CN": "秒",
       "ko": "초",
       "vi": "Giây",
-      "id": "Detik"
+      "id": "Detik",
+      "es": "second",
+      "pt": "second"
     },
     "ex": "30秒待つ",
     "exm": {
@@ -8014,7 +9412,9 @@ const N5_VOCAB = [
       "zh-CN": "等30秒",
       "ko": "[Wait 30 seconds]",
       "vi": "[Wait 30 seconds]",
-      "id": "[Wait 30 seconds]"
+      "id": "[Wait 30 seconds]",
+      "es": "Wait 30 seconds",
+      "pt": "Wait 30 seconds"
     }
   },
   {
@@ -8027,7 +9427,9 @@ const N5_VOCAB = [
       "zh-CN": "东西",
       "ko": "[thing]",
       "vi": "[thing]",
-      "id": "[thing]"
+      "id": "[thing]",
+      "es": "thing",
+      "pt": "thing"
     },
     "ex": "何か物を買う",
     "exm": {
@@ -8036,7 +9438,9 @@ const N5_VOCAB = [
       "zh-CN": "买东西",
       "ko": "[Buy something]",
       "vi": "[Buy something]",
-      "id": "[Buy something]"
+      "id": "[Buy something]",
+      "es": "Buy something",
+      "pt": "Buy something"
     }
   },
   {
@@ -8049,7 +9453,9 @@ const N5_VOCAB = [
       "zh-CN": "钱",
       "ko": "돈",
       "vi": "Tiền",
-      "id": "Uang"
+      "id": "Uang",
+      "es": "money",
+      "pt": "money"
     },
     "ex": "お金を払う",
     "exm": {
@@ -8058,7 +9464,9 @@ const N5_VOCAB = [
       "zh-CN": "付钱",
       "ko": "[Pay money]",
       "vi": "[Pay money]",
-      "id": "[Pay money]"
+      "id": "[Pay money]",
+      "es": "Pay money",
+      "pt": "Pay money"
     }
   },
   {
@@ -8071,7 +9479,9 @@ const N5_VOCAB = [
       "zh-CN": "钱包",
       "ko": "[wallet]",
       "vi": "[wallet]",
-      "id": "[wallet]"
+      "id": "[wallet]",
+      "es": "wallet",
+      "pt": "wallet"
     },
     "ex": "財布を落とす",
     "exm": {
@@ -8080,7 +9490,9 @@ const N5_VOCAB = [
       "zh-CN": "掉钱包",
       "ko": "[Drop wallet]",
       "vi": "[Drop wallet]",
-      "id": "[Drop wallet]"
+      "id": "[Drop wallet]",
+      "es": "Drop wallet",
+      "pt": "Drop wallet"
     }
   },
   {
@@ -8093,7 +9505,9 @@ const N5_VOCAB = [
       "zh-CN": "钥匙",
       "ko": "[key]",
       "vi": "[key]",
-      "id": "[key]"
+      "id": "[key]",
+      "es": "key",
+      "pt": "key"
     },
     "ex": "鍵をかける",
     "exm": {
@@ -8102,7 +9516,9 @@ const N5_VOCAB = [
       "zh-CN": "锁门",
       "ko": "[Lock]",
       "vi": "[Lock]",
-      "id": "[Lock]"
+      "id": "[Lock]",
+      "es": "Lock",
+      "pt": "Lock"
     }
   },
   {
@@ -8115,7 +9531,9 @@ const N5_VOCAB = [
       "zh-CN": "雨伞",
       "ko": "우산",
       "vi": "Ô",
-      "id": "Payung"
+      "id": "Payung",
+      "es": "umbrella",
+      "pt": "umbrella"
     },
     "ex": "傘を持つ",
     "exm": {
@@ -8124,7 +9542,9 @@ const N5_VOCAB = [
       "zh-CN": "带伞",
       "ko": "[Bring umbrella]",
       "vi": "[Bring umbrella]",
-      "id": "[Bring umbrella]"
+      "id": "[Bring umbrella]",
+      "es": "Bring umbrella",
+      "pt": "Bring umbrella"
     }
   },
   {
@@ -8137,7 +9557,9 @@ const N5_VOCAB = [
       "zh-CN": "包",
       "ko": "가방",
       "vi": "Túi",
-      "id": "Tas"
+      "id": "Tas",
+      "es": "bag",
+      "pt": "bag"
     },
     "ex": "かばんを持つ",
     "exm": {
@@ -8146,7 +9568,9 @@ const N5_VOCAB = [
       "zh-CN": "拿包",
       "ko": "[Carry bag]",
       "vi": "[Carry bag]",
-      "id": "[Carry bag]"
+      "id": "[Carry bag]",
+      "es": "Carry bag",
+      "pt": "Carry bag"
     }
   },
   {
@@ -8159,7 +9583,9 @@ const N5_VOCAB = [
       "zh-CN": "行李",
       "ko": "[luggage]",
       "vi": "[luggage]",
-      "id": "[luggage]"
+      "id": "[luggage]",
+      "es": "luggage",
+      "pt": "luggage"
     },
     "ex": "荷物を預ける",
     "exm": {
@@ -8168,7 +9594,9 @@ const N5_VOCAB = [
       "zh-CN": "寄放行李",
       "ko": "[Check luggage]",
       "vi": "[Check luggage]",
-      "id": "[Check luggage]"
+      "id": "[Check luggage]",
+      "es": "Check luggage",
+      "pt": "Check luggage"
     }
   },
   {
@@ -8181,7 +9609,9 @@ const N5_VOCAB = [
       "zh-CN": "书",
       "ko": "책",
       "vi": "Sách",
-      "id": "Buku"
+      "id": "Buku",
+      "es": "book",
+      "pt": "book"
     },
     "ex": "本を読む",
     "exm": {
@@ -8190,7 +9620,9 @@ const N5_VOCAB = [
       "zh-CN": "看书",
       "ko": "[Read book]",
       "vi": "[Read book]",
-      "id": "[Read book]"
+      "id": "[Read book]",
+      "es": "Read book",
+      "pt": "Read book"
     }
   },
   {
@@ -8203,7 +9635,9 @@ const N5_VOCAB = [
       "zh-CN": "杂志",
       "ko": "[magazine]",
       "vi": "[magazine]",
-      "id": "[magazine]"
+      "id": "[magazine]",
+      "es": "magazine",
+      "pt": "magazine"
     },
     "ex": "雑誌を買う",
     "exm": {
@@ -8212,7 +9646,9 @@ const N5_VOCAB = [
       "zh-CN": "买杂志",
       "ko": "[Buy magazine]",
       "vi": "[Buy magazine]",
-      "id": "[Buy magazine]"
+      "id": "[Buy magazine]",
+      "es": "Buy magazine",
+      "pt": "Buy magazine"
     }
   },
   {
@@ -8225,7 +9661,9 @@ const N5_VOCAB = [
       "zh-CN": "报纸",
       "ko": "새롭다",
       "vi": "mới",
-      "id": "baru"
+      "id": "baru",
+      "es": "newspaper",
+      "pt": "newspaper"
     },
     "ex": "新聞を読む",
     "exm": {
@@ -8234,7 +9672,9 @@ const N5_VOCAB = [
       "zh-CN": "看报纸",
       "ko": "[Read newspaper]",
       "vi": "[Read newspaper]",
-      "id": "[Read newspaper]"
+      "id": "[Read newspaper]",
+      "es": "Read newspaper",
+      "pt": "Read newspaper"
     }
   },
   {
@@ -8247,7 +9687,9 @@ const N5_VOCAB = [
       "zh-CN": "信",
       "ko": "[letter]",
       "vi": "[letter]",
-      "id": "[letter]"
+      "id": "[letter]",
+      "es": "letter",
+      "pt": "letter"
     },
     "ex": "手紙を書く",
     "exm": {
@@ -8256,7 +9698,9 @@ const N5_VOCAB = [
       "zh-CN": "写信",
       "ko": "[Write letter]",
       "vi": "[Write letter]",
-      "id": "[Write letter]"
+      "id": "[Write letter]",
+      "es": "Write letter",
+      "pt": "Write letter"
     }
   },
   {
@@ -8269,7 +9713,9 @@ const N5_VOCAB = [
       "zh-CN": "照片",
       "ko": "사진",
       "vi": "Ảnh",
-      "id": "Foto"
+      "id": "Foto",
+      "es": "photo",
+      "pt": "photo"
     },
     "ex": "写真を撮る",
     "exm": {
@@ -8278,7 +9724,9 @@ const N5_VOCAB = [
       "zh-CN": "拍照",
       "ko": "[Take photo]",
       "vi": "[Take photo]",
-      "id": "[Take photo]"
+      "id": "[Take photo]",
+      "es": "Take photo",
+      "pt": "Take photo"
     }
   },
   {
@@ -8291,7 +9739,9 @@ const N5_VOCAB = [
       "zh-CN": "画",
       "ko": "[picture]",
       "vi": "[picture]",
-      "id": "[picture]"
+      "id": "[picture]",
+      "es": "picture",
+      "pt": "picture"
     },
     "ex": "絵を描く",
     "exm": {
@@ -8300,7 +9750,9 @@ const N5_VOCAB = [
       "zh-CN": "画画",
       "ko": "[Draw picture]",
       "vi": "[Draw picture]",
-      "id": "[Draw picture]"
+      "id": "[Draw picture]",
+      "es": "Draw picture",
+      "pt": "Draw picture"
     }
   },
   {
@@ -8313,7 +9765,9 @@ const N5_VOCAB = [
       "zh-CN": "地图",
       "ko": "[map]",
       "vi": "[map]",
-      "id": "[map]"
+      "id": "[map]",
+      "es": "map",
+      "pt": "map"
     },
     "ex": "地図を見る",
     "exm": {
@@ -8322,7 +9776,9 @@ const N5_VOCAB = [
       "zh-CN": "看地图",
       "ko": "[Look at map]",
       "vi": "[Look at map]",
-      "id": "[Look at map]"
+      "id": "[Look at map]",
+      "es": "Look at map",
+      "pt": "Look at map"
     }
   },
   {
@@ -8335,7 +9791,9 @@ const N5_VOCAB = [
       "zh-CN": "纸",
       "ko": "종이",
       "vi": "Giấy",
-      "id": "Kertas"
+      "id": "Kertas",
+      "es": "paper",
+      "pt": "paper"
     },
     "ex": "紙に書く",
     "exm": {
@@ -8344,7 +9802,9 @@ const N5_VOCAB = [
       "zh-CN": "写在纸上",
       "ko": "[Write on paper]",
       "vi": "[Write on paper]",
-      "id": "[Write on paper]"
+      "id": "[Write on paper]",
+      "es": "Write on paper",
+      "pt": "Write on paper"
     }
   },
   {
@@ -8357,7 +9817,9 @@ const N5_VOCAB = [
       "zh-CN": "笔",
       "ko": "펜",
       "vi": "Bút",
-      "id": "Pena"
+      "id": "Pena",
+      "es": "pen",
+      "pt": "pen"
     },
     "ex": "ペンで書く",
     "exm": {
@@ -8366,7 +9828,9 @@ const N5_VOCAB = [
       "zh-CN": "用笔写",
       "ko": "[Write with pen]",
       "vi": "[Write with pen]",
-      "id": "[Write with pen]"
+      "id": "[Write with pen]",
+      "es": "Write with pen",
+      "pt": "Write with pen"
     }
   },
   {
@@ -8379,7 +9843,9 @@ const N5_VOCAB = [
       "zh-CN": "铅笔",
       "ko": "연필",
       "vi": "Bút chì",
-      "id": "Pensil"
+      "id": "Pensil",
+      "es": "pencil",
+      "pt": "pencil"
     },
     "ex": "鉛筆で書く",
     "exm": {
@@ -8388,7 +9854,9 @@ const N5_VOCAB = [
       "zh-CN": "用铅笔写",
       "ko": "[Write with pencil]",
       "vi": "[Write with pencil]",
-      "id": "[Write with pencil]"
+      "id": "[Write with pencil]",
+      "es": "Write with pencil",
+      "pt": "Write with pencil"
     }
   },
   {
@@ -8401,7 +9869,9 @@ const N5_VOCAB = [
       "zh-CN": "橡皮擦",
       "ko": "[eraser]",
       "vi": "[eraser]",
-      "id": "[eraser]"
+      "id": "[eraser]",
+      "es": "eraser",
+      "pt": "eraser"
     },
     "ex": "消しゴムで消す",
     "exm": {
@@ -8410,7 +9880,9 @@ const N5_VOCAB = [
       "zh-CN": "用橡皮擦擦",
       "ko": "[Erase with eraser]",
       "vi": "[Erase with eraser]",
-      "id": "[Erase with eraser]"
+      "id": "[Erase with eraser]",
+      "es": "Erase with eraser",
+      "pt": "Erase with eraser"
     }
   },
   {
@@ -8423,7 +9895,9 @@ const N5_VOCAB = [
       "zh-CN": "笔记本",
       "ko": "노트",
       "vi": "Vở",
-      "id": "Buku catatan"
+      "id": "Buku catatan",
+      "es": "notebook",
+      "pt": "notebook"
     },
     "ex": "ノートに書く",
     "exm": {
@@ -8432,7 +9906,9 @@ const N5_VOCAB = [
       "zh-CN": "写在笔记本",
       "ko": "[Write in notebook]",
       "vi": "[Write in notebook]",
-      "id": "[Write in notebook]"
+      "id": "[Write in notebook]",
+      "es": "Write in notebook",
+      "pt": "Write in notebook"
     }
   },
   {
@@ -8445,7 +9921,9 @@ const N5_VOCAB = [
       "zh-CN": "字典",
       "ko": "사전",
       "vi": "Từ điển",
-      "id": "Kamus"
+      "id": "Kamus",
+      "es": "dictionary",
+      "pt": "dictionary"
     },
     "ex": "辞書で調べる",
     "exm": {
@@ -8454,7 +9932,9 @@ const N5_VOCAB = [
       "zh-CN": "查字典",
       "ko": "[Look up dictionary]",
       "vi": "[Look up dictionary]",
-      "id": "[Look up dictionary]"
+      "id": "[Look up dictionary]",
+      "es": "Look up dictionary",
+      "pt": "Look up dictionary"
     }
   },
   {
@@ -8467,7 +9947,9 @@ const N5_VOCAB = [
       "zh-CN": "电话",
       "ko": "전화",
       "vi": "Điện thoại",
-      "id": "Telepon"
+      "id": "Telepon",
+      "es": "telephone",
+      "pt": "telephone"
     },
     "ex": "電話をかける",
     "exm": {
@@ -8476,7 +9958,9 @@ const N5_VOCAB = [
       "zh-CN": "打电话",
       "ko": "[Make call]",
       "vi": "[Make call]",
-      "id": "[Make call]"
+      "id": "[Make call]",
+      "es": "Make call",
+      "pt": "Make call"
     },
     "syn": [
       "通話",
@@ -8494,7 +9978,9 @@ const N5_VOCAB = [
       "zh-CN": "手机",
       "ko": "[mobile phone]",
       "vi": "[mobile phone]",
-      "id": "[mobile phone]"
+      "id": "[mobile phone]",
+      "es": "mobile phone",
+      "pt": "mobile phone"
     },
     "ex": "携帯を使う",
     "exm": {
@@ -8503,7 +9989,9 @@ const N5_VOCAB = [
       "zh-CN": "使用手机",
       "ko": "[Use mobile]",
       "vi": "[Use mobile]",
-      "id": "[Use mobile]"
+      "id": "[Use mobile]",
+      "es": "Use mobile",
+      "pt": "Use mobile"
     }
   },
   {
@@ -8516,7 +10004,9 @@ const N5_VOCAB = [
       "zh-CN": "电脑",
       "ko": "[computer]",
       "vi": "[computer]",
-      "id": "[computer]"
+      "id": "[computer]",
+      "es": "computer",
+      "pt": "computer"
     },
     "ex": "パソコンで仕事",
     "exm": {
@@ -8525,7 +10015,9 @@ const N5_VOCAB = [
       "zh-CN": "用电脑工作",
       "ko": "[Work on PC]",
       "vi": "[Work on PC]",
-      "id": "[Work on PC]"
+      "id": "[Work on PC]",
+      "es": "Work on PC",
+      "pt": "Work on PC"
     }
   },
   {
@@ -8538,7 +10030,9 @@ const N5_VOCAB = [
       "zh-CN": "电视",
       "ko": "[television]",
       "vi": "[television]",
-      "id": "[television]"
+      "id": "[television]",
+      "es": "television",
+      "pt": "television"
     },
     "ex": "テレビを見る",
     "exm": {
@@ -8547,7 +10041,9 @@ const N5_VOCAB = [
       "zh-CN": "看电视",
       "ko": "[Watch TV]",
       "vi": "[Watch TV]",
-      "id": "[Watch TV]"
+      "id": "[Watch TV]",
+      "es": "Watch TV",
+      "pt": "Watch TV"
     }
   },
   {
@@ -8560,7 +10056,9 @@ const N5_VOCAB = [
       "zh-CN": "相机",
       "ko": "[camera]",
       "vi": "[camera]",
-      "id": "[camera]"
+      "id": "[camera]",
+      "es": "camera",
+      "pt": "camera"
     },
     "ex": "カメラで撮る",
     "exm": {
@@ -8569,7 +10067,9 @@ const N5_VOCAB = [
       "zh-CN": "用相机拍",
       "ko": "[Take with camera]",
       "vi": "[Take with camera]",
-      "id": "[Take with camera]"
+      "id": "[Take with camera]",
+      "es": "Take with camera",
+      "pt": "Take with camera"
     }
   },
   {
@@ -8582,7 +10082,9 @@ const N5_VOCAB = [
       "zh-CN": "手表",
       "ko": "[watch/clock]",
       "vi": "[watch/clock]",
-      "id": "[watch/clock]"
+      "id": "[watch/clock]",
+      "es": "watch/clock",
+      "pt": "watch/clock"
     },
     "ex": "時計を見る",
     "exm": {
@@ -8591,7 +10093,9 @@ const N5_VOCAB = [
       "zh-CN": "看手表",
       "ko": "[Look at watch]",
       "vi": "[Look at watch]",
-      "id": "[Look at watch]"
+      "id": "[Look at watch]",
+      "es": "Look at watch",
+      "pt": "Look at watch"
     }
   },
   {
@@ -8604,7 +10108,9 @@ const N5_VOCAB = [
       "zh-CN": "眼镜",
       "ko": "[glasses]",
       "vi": "[glasses]",
-      "id": "[glasses]"
+      "id": "[glasses]",
+      "es": "glasses",
+      "pt": "glasses"
     },
     "ex": "眼鏡をかける",
     "exm": {
@@ -8613,7 +10119,9 @@ const N5_VOCAB = [
       "zh-CN": "戴眼镜",
       "ko": "[Wear glasses]",
       "vi": "[Wear glasses]",
-      "id": "[Wear glasses]"
+      "id": "[Wear glasses]",
+      "es": "Wear glasses",
+      "pt": "Wear glasses"
     }
   },
   {
@@ -8626,7 +10134,9 @@ const N5_VOCAB = [
       "zh-CN": "桌子",
       "ko": "책상",
       "vi": "Bàn",
-      "id": "Meja"
+      "id": "Meja",
+      "es": "desk",
+      "pt": "desk"
     },
     "ex": "机で勉強する",
     "exm": {
@@ -8635,7 +10145,9 @@ const N5_VOCAB = [
       "zh-CN": "在书桌学习",
       "ko": "[Study at desk]",
       "vi": "[Study at desk]",
-      "id": "[Study at desk]"
+      "id": "[Study at desk]",
+      "es": "Study at desk",
+      "pt": "Study at desk"
     }
   },
   {
@@ -8648,7 +10160,9 @@ const N5_VOCAB = [
       "zh-CN": "椅子",
       "ko": "의자",
       "vi": "Ghế",
-      "id": "Kursi"
+      "id": "Kursi",
+      "es": "chair",
+      "pt": "chair"
     },
     "ex": "椅子に座る",
     "exm": {
@@ -8657,7 +10171,9 @@ const N5_VOCAB = [
       "zh-CN": "坐椅子",
       "ko": "[Sit on chair]",
       "vi": "[Sit on chair]",
-      "id": "[Sit on chair]"
+      "id": "[Sit on chair]",
+      "es": "Sit on chair",
+      "pt": "Sit on chair"
     }
   },
   {
@@ -8670,7 +10186,9 @@ const N5_VOCAB = [
       "zh-CN": "床",
       "ko": "[bed]",
       "vi": "[bed]",
-      "id": "[bed]"
+      "id": "[bed]",
+      "es": "bed",
+      "pt": "bed"
     },
     "ex": "ベッドで寝る",
     "exm": {
@@ -8679,7 +10197,9 @@ const N5_VOCAB = [
       "zh-CN": "在床上睡觉",
       "ko": "[Sleep in bed]",
       "vi": "[Sleep in bed]",
-      "id": "[Sleep in bed]"
+      "id": "[Sleep in bed]",
+      "es": "Sleep in bed",
+      "pt": "Sleep in bed"
     }
   },
   {
@@ -8692,7 +10212,9 @@ const N5_VOCAB = [
       "zh-CN": "窗户",
       "ko": "창문",
       "vi": "Cửa sổ",
-      "id": "Jendela"
+      "id": "Jendela",
+      "es": "window",
+      "pt": "window"
     },
     "ex": "窓を開ける",
     "exm": {
@@ -8701,7 +10223,9 @@ const N5_VOCAB = [
       "zh-CN": "开窗",
       "ko": "[Open window]",
       "vi": "[Open window]",
-      "id": "[Open window]"
+      "id": "[Open window]",
+      "es": "Open window",
+      "pt": "Open window"
     }
   },
   {
@@ -8714,7 +10238,9 @@ const N5_VOCAB = [
       "zh-CN": "门",
       "ko": "문",
       "vi": "Cửa",
-      "id": "Pintu"
+      "id": "Pintu",
+      "es": "door",
+      "pt": "door"
     },
     "ex": "ドアを閉める",
     "exm": {
@@ -8723,7 +10249,9 @@ const N5_VOCAB = [
       "zh-CN": "关门",
       "ko": "[Close door]",
       "vi": "[Close door]",
-      "id": "[Close door]"
+      "id": "[Close door]",
+      "es": "Close door",
+      "pt": "Close door"
     }
   },
   {
@@ -8736,7 +10264,9 @@ const N5_VOCAB = [
       "zh-CN": "电/灯",
       "ko": "[electricity]",
       "vi": "[electricity]",
-      "id": "[electricity]"
+      "id": "[electricity]",
+      "es": "electricity",
+      "pt": "electricity"
     },
     "ex": "電気をつける",
     "exm": {
@@ -8745,7 +10275,9 @@ const N5_VOCAB = [
       "zh-CN": "开灯",
       "ko": "[Turn on light]",
       "vi": "[Turn on light]",
-      "id": "[Turn on light]"
+      "id": "[Turn on light]",
+      "es": "Turn on light",
+      "pt": "Turn on light"
     }
   },
   {
@@ -8758,7 +10290,9 @@ const N5_VOCAB = [
       "zh-CN": "空调",
       "ko": "[air conditioner]",
       "vi": "[air conditioner]",
-      "id": "[air conditioner]"
+      "id": "[air conditioner]",
+      "es": "air conditioner",
+      "pt": "air conditioner"
     },
     "ex": "エアコンをつける",
     "exm": {
@@ -8767,7 +10301,9 @@ const N5_VOCAB = [
       "zh-CN": "开空调",
       "ko": "[Turn on AC]",
       "vi": "[Turn on AC]",
-      "id": "[Turn on AC]"
+      "id": "[Turn on AC]",
+      "es": "Turn on AC",
+      "pt": "Turn on AC"
     }
   },
   {
@@ -8780,7 +10316,9 @@ const N5_VOCAB = [
       "zh-CN": "冰箱",
       "ko": "[refrigerator]",
       "vi": "[refrigerator]",
-      "id": "[refrigerator]"
+      "id": "[refrigerator]",
+      "es": "refrigerator",
+      "pt": "refrigerator"
     },
     "ex": "冷蔵庫に入れる",
     "exm": {
@@ -8789,7 +10327,9 @@ const N5_VOCAB = [
       "zh-CN": "放进冰箱",
       "ko": "[Put in fridge]",
       "vi": "[Put in fridge]",
-      "id": "[Put in fridge]"
+      "id": "[Put in fridge]",
+      "es": "Put in fridge",
+      "pt": "Put in fridge"
     }
   },
   {
@@ -8802,7 +10342,9 @@ const N5_VOCAB = [
       "zh-CN": "洗衣机",
       "ko": "[washing machine]",
       "vi": "[washing machine]",
-      "id": "[washing machine]"
+      "id": "[washing machine]",
+      "es": "washing machine",
+      "pt": "washing machine"
     },
     "ex": "洗濯機で洗う",
     "exm": {
@@ -8811,7 +10353,9 @@ const N5_VOCAB = [
       "zh-CN": "用洗衣机洗",
       "ko": "[Wash in machine]",
       "vi": "[Wash in machine]",
-      "id": "[Wash in machine]"
+      "id": "[Wash in machine]",
+      "es": "Wash in machine",
+      "pt": "Wash in machine"
     }
   },
   {
@@ -8824,7 +10368,9 @@ const N5_VOCAB = [
       "zh-CN": "饭",
       "ko": "[rice/meal]",
       "vi": "[rice/meal]",
-      "id": "[rice/meal]"
+      "id": "[rice/meal]",
+      "es": "rice/meal",
+      "pt": "rice/meal"
     },
     "ex": "ご飯を食べる",
     "exm": {
@@ -8833,7 +10379,9 @@ const N5_VOCAB = [
       "zh-CN": "吃饭",
       "ko": "[Eat rice]",
       "vi": "[Eat rice]",
-      "id": "[Eat rice]"
+      "id": "[Eat rice]",
+      "es": "Eat rice",
+      "pt": "Eat rice"
     }
   },
   {
@@ -8846,7 +10394,9 @@ const N5_VOCAB = [
       "zh-CN": "面包",
       "ko": "빵",
       "vi": "Bánh mì",
-      "id": "Roti"
+      "id": "Roti",
+      "es": "bread",
+      "pt": "bread"
     },
     "ex": "パンを食べる",
     "exm": {
@@ -8855,7 +10405,9 @@ const N5_VOCAB = [
       "zh-CN": "吃面包",
       "ko": "[Eat bread]",
       "vi": "[Eat bread]",
-      "id": "[Eat bread]"
+      "id": "[Eat bread]",
+      "es": "Eat bread",
+      "pt": "Eat bread"
     }
   },
   {
@@ -8868,7 +10420,9 @@ const N5_VOCAB = [
       "zh-CN": "肉",
       "ko": "고기",
       "vi": "Thịt",
-      "id": "Daging"
+      "id": "Daging",
+      "es": "meat",
+      "pt": "meat"
     },
     "ex": "肉を食べる",
     "exm": {
@@ -8877,7 +10431,9 @@ const N5_VOCAB = [
       "zh-CN": "吃肉",
       "ko": "[Eat meat]",
       "vi": "[Eat meat]",
-      "id": "[Eat meat]"
+      "id": "[Eat meat]",
+      "es": "Eat meat",
+      "pt": "Eat meat"
     }
   },
   {
@@ -8890,7 +10446,9 @@ const N5_VOCAB = [
       "zh-CN": "鱼",
       "ko": "생선",
       "vi": "Cá",
-      "id": "Ikan"
+      "id": "Ikan",
+      "es": "fish",
+      "pt": "fish"
     },
     "ex": "魚を食べる",
     "exm": {
@@ -8899,7 +10457,9 @@ const N5_VOCAB = [
       "zh-CN": "吃鱼",
       "ko": "[Eat fish]",
       "vi": "[Eat fish]",
-      "id": "[Eat fish]"
+      "id": "[Eat fish]",
+      "es": "Eat fish",
+      "pt": "Eat fish"
     }
   },
   {
@@ -8912,7 +10472,9 @@ const N5_VOCAB = [
       "zh-CN": "蔬菜",
       "ko": "야채",
       "vi": "Rau",
-      "id": "Sayuran"
+      "id": "Sayuran",
+      "es": "vegetable",
+      "pt": "vegetable"
     },
     "ex": "野菜を食べる",
     "exm": {
@@ -8921,7 +10483,9 @@ const N5_VOCAB = [
       "zh-CN": "吃蔬菜",
       "ko": "[Eat vegetables]",
       "vi": "[Eat vegetables]",
-      "id": "[Eat vegetables]"
+      "id": "[Eat vegetables]",
+      "es": "Eat vegetables",
+      "pt": "Eat vegetables"
     }
   },
   {
@@ -8934,7 +10498,9 @@ const N5_VOCAB = [
       "zh-CN": "水果",
       "ko": "과일",
       "vi": "Trái cây",
-      "id": "Buah"
+      "id": "Buah",
+      "es": "fruit",
+      "pt": "fruit"
     },
     "ex": "果物を食べる",
     "exm": {
@@ -8943,7 +10509,9 @@ const N5_VOCAB = [
       "zh-CN": "吃水果",
       "ko": "[Eat fruit]",
       "vi": "[Eat fruit]",
-      "id": "[Eat fruit]"
+      "id": "[Eat fruit]",
+      "es": "Eat fruit",
+      "pt": "Eat fruit"
     }
   },
   {
@@ -8956,7 +10524,9 @@ const N5_VOCAB = [
       "zh-CN": "蛋",
       "ko": "달걀",
       "vi": "Trứng",
-      "id": "Telur"
+      "id": "Telur",
+      "es": "egg",
+      "pt": "egg"
     },
     "ex": "卵を食べる",
     "exm": {
@@ -8965,7 +10535,9 @@ const N5_VOCAB = [
       "zh-CN": "吃蛋",
       "ko": "[Eat egg]",
       "vi": "[Eat egg]",
-      "id": "[Eat egg]"
+      "id": "[Eat egg]",
+      "es": "Eat egg",
+      "pt": "Eat egg"
     }
   },
   {
@@ -8978,7 +10550,9 @@ const N5_VOCAB = [
       "zh-CN": "牛奶",
       "ko": "우유",
       "vi": "Sữa",
-      "id": "Susu"
+      "id": "Susu",
+      "es": "milk",
+      "pt": "milk"
     },
     "ex": "牛乳を飲む",
     "exm": {
@@ -8987,7 +10561,9 @@ const N5_VOCAB = [
       "zh-CN": "喝牛奶",
       "ko": "[Drink milk]",
       "vi": "[Drink milk]",
-      "id": "[Drink milk]"
+      "id": "[Drink milk]",
+      "es": "Drink milk",
+      "pt": "Drink milk"
     }
   },
   {
@@ -9000,7 +10576,9 @@ const N5_VOCAB = [
       "zh-CN": "水",
       "ko": "물",
       "vi": "Nước",
-      "id": "Air"
+      "id": "Air",
+      "es": "water",
+      "pt": "water"
     },
     "ex": "水を飲む",
     "exm": {
@@ -9009,7 +10587,9 @@ const N5_VOCAB = [
       "zh-CN": "喝水",
       "ko": "[Drink water]",
       "vi": "[Drink water]",
-      "id": "[Drink water]"
+      "id": "[Drink water]",
+      "es": "Drink water",
+      "pt": "Drink water"
     }
   },
   {
@@ -9022,7 +10602,9 @@ const N5_VOCAB = [
       "zh-CN": "茶",
       "ko": "차",
       "vi": "Trà",
-      "id": "Teh"
+      "id": "Teh",
+      "es": "tea",
+      "pt": "tea"
     },
     "ex": "お茶を飲む",
     "exm": {
@@ -9031,7 +10613,9 @@ const N5_VOCAB = [
       "zh-CN": "喝茶",
       "ko": "[Drink tea]",
       "vi": "[Drink tea]",
-      "id": "[Drink tea]"
+      "id": "[Drink tea]",
+      "es": "Drink tea",
+      "pt": "Drink tea"
     }
   },
   {
@@ -9044,7 +10628,9 @@ const N5_VOCAB = [
       "zh-CN": "咖啡",
       "ko": "커피",
       "vi": "Cà phê",
-      "id": "Kopi"
+      "id": "Kopi",
+      "es": "coffee",
+      "pt": "coffee"
     },
     "ex": "コーヒーを飲む",
     "exm": {
@@ -9053,7 +10639,9 @@ const N5_VOCAB = [
       "zh-CN": "喝咖啡",
       "ko": "[Drink coffee]",
       "vi": "[Drink coffee]",
-      "id": "[Drink coffee]"
+      "id": "[Drink coffee]",
+      "es": "Drink coffee",
+      "pt": "Drink coffee"
     }
   },
   {
@@ -9066,7 +10654,9 @@ const N5_VOCAB = [
       "zh-CN": "果汁",
       "ko": "[juice]",
       "vi": "[juice]",
-      "id": "[juice]"
+      "id": "[juice]",
+      "es": "juice",
+      "pt": "juice"
     },
     "ex": "ジュースを飲む",
     "exm": {
@@ -9075,7 +10665,9 @@ const N5_VOCAB = [
       "zh-CN": "喝果汁",
       "ko": "[Drink juice]",
       "vi": "[Drink juice]",
-      "id": "[Drink juice]"
+      "id": "[Drink juice]",
+      "es": "Drink juice",
+      "pt": "Drink juice"
     }
   },
   {
@@ -9088,7 +10680,9 @@ const N5_VOCAB = [
       "zh-CN": "酒",
       "ko": "[alcohol]",
       "vi": "[alcohol]",
-      "id": "[alcohol]"
+      "id": "[alcohol]",
+      "es": "alcohol",
+      "pt": "alcohol"
     },
     "ex": "お酒を飲む",
     "exm": {
@@ -9097,7 +10691,9 @@ const N5_VOCAB = [
       "zh-CN": "喝酒",
       "ko": "[Drink alcohol]",
       "vi": "[Drink alcohol]",
-      "id": "[Drink alcohol]"
+      "id": "[Drink alcohol]",
+      "es": "Drink alcohol",
+      "pt": "Drink alcohol"
     }
   },
   {
@@ -9110,7 +10706,9 @@ const N5_VOCAB = [
       "zh-CN": "料理",
       "ko": "[cooking/dish]",
       "vi": "[cooking/dish]",
-      "id": "[cooking/dish]"
+      "id": "[cooking/dish]",
+      "es": "cooking/dish",
+      "pt": "cooking/dish"
     },
     "ex": "料理を作る",
     "exm": {
@@ -9119,7 +10717,9 @@ const N5_VOCAB = [
       "zh-CN": "做菜",
       "ko": "[Make dish]",
       "vi": "[Make dish]",
-      "id": "[Make dish]"
+      "id": "[Make dish]",
+      "es": "Make dish",
+      "pt": "Make dish"
     }
   },
   {
@@ -9132,7 +10732,9 @@ const N5_VOCAB = [
       "zh-CN": "大",
       "ko": "큰",
       "vi": "To",
-      "id": "Besar"
+      "id": "Besar",
+      "es": "big",
+      "pt": "big"
     },
     "ex": "大きい家",
     "exm": {
@@ -9141,7 +10743,9 @@ const N5_VOCAB = [
       "zh-CN": "大房子",
       "ko": "[Big house]",
       "vi": "[Big house]",
-      "id": "[Big house]"
+      "id": "[Big house]",
+      "es": "Big house",
+      "pt": "Big house"
     },
     "syn": [
       "巨大",
@@ -9159,7 +10763,9 @@ const N5_VOCAB = [
       "zh-CN": "小",
       "ko": "작은",
       "vi": "Nhỏ",
-      "id": "Kecil"
+      "id": "Kecil",
+      "es": "pequeño",
+      "pt": "pequeno"
     },
     "ex": "小さい犬",
     "exm": {
@@ -9168,7 +10774,9 @@ const N5_VOCAB = [
       "zh-CN": "小狗",
       "ko": "[Small dog]",
       "vi": "[Small dog]",
-      "id": "[Small dog]"
+      "id": "[Small dog]",
+      "es": "Small dog",
+      "pt": "Small dog"
     },
     "syn": [
       "小型",
@@ -9186,7 +10794,9 @@ const N5_VOCAB = [
       "zh-CN": "高/贵",
       "ko": "높다",
       "vi": "cao",
-      "id": "tinggi"
+      "id": "tinggi",
+      "es": "high/expensive",
+      "pt": "high/expensive"
     },
     "ex": "高いビル",
     "exm": {
@@ -9195,7 +10805,9 @@ const N5_VOCAB = [
       "zh-CN": "高楼",
       "ko": "[Tall building]",
       "vi": "[Tall building]",
-      "id": "[Tall building]"
+      "id": "[Tall building]",
+      "es": "Tall building",
+      "pt": "Tall building"
     },
     "syn": [
       "高価",
@@ -9213,7 +10825,9 @@ const N5_VOCAB = [
       "zh-CN": "便宜",
       "ko": "싼",
       "vi": "Rẻ",
-      "id": "Murah"
+      "id": "Murah",
+      "es": "cheap",
+      "pt": "cheap"
     },
     "ex": "安い店",
     "exm": {
@@ -9222,7 +10836,9 @@ const N5_VOCAB = [
       "zh-CN": "便宜的店",
       "ko": "[Cheap shop]",
       "vi": "[Cheap shop]",
-      "id": "[Cheap shop]"
+      "id": "[Cheap shop]",
+      "es": "Cheap shop",
+      "pt": "Cheap shop"
     },
     "syn": [
       "低価格",
@@ -9240,7 +10856,9 @@ const N5_VOCAB = [
       "zh-CN": "长",
       "ko": "긴",
       "vi": "Dài",
-      "id": "Panjang"
+      "id": "Panjang",
+      "es": "long",
+      "pt": "long"
     },
     "ex": "長い髪",
     "exm": {
@@ -9249,7 +10867,9 @@ const N5_VOCAB = [
       "zh-CN": "长头发",
       "ko": "[Long hair]",
       "vi": "[Long hair]",
-      "id": "[Long hair]"
+      "id": "[Long hair]",
+      "es": "Long hair",
+      "pt": "Long hair"
     },
     "syn": [
       "長大",
@@ -9267,7 +10887,9 @@ const N5_VOCAB = [
       "zh-CN": "短",
       "ko": "짧은",
       "vi": "Ngắn",
-      "id": "Pendek"
+      "id": "Pendek",
+      "es": "short",
+      "pt": "short"
     },
     "ex": "短いスカート",
     "exm": {
@@ -9276,7 +10898,9 @@ const N5_VOCAB = [
       "zh-CN": "短裙",
       "ko": "[Short skirt]",
       "vi": "[Short skirt]",
-      "id": "[Short skirt]"
+      "id": "[Short skirt]",
+      "es": "Short skirt",
+      "pt": "Short skirt"
     },
     "syn": [
       "短期",
@@ -9294,7 +10918,9 @@ const N5_VOCAB = [
       "zh-CN": "新",
       "ko": "새로운",
       "vi": "Mới",
-      "id": "Baru"
+      "id": "Baru",
+      "es": "nuevo",
+      "pt": "novo"
     },
     "ex": "新しい車",
     "exm": {
@@ -9303,7 +10929,9 @@ const N5_VOCAB = [
       "zh-CN": "新车",
       "ko": "[New car]",
       "vi": "[New car]",
-      "id": "[New car]"
+      "id": "[New car]",
+      "es": "New car",
+      "pt": "New car"
     },
     "syn": [
       "新品",
@@ -9321,7 +10949,9 @@ const N5_VOCAB = [
       "zh-CN": "旧",
       "ko": "오래된",
       "vi": "Cũ",
-      "id": "Lama"
+      "id": "Lama",
+      "es": "viejo",
+      "pt": "velho"
     },
     "ex": "古い家",
     "exm": {
@@ -9330,7 +10960,9 @@ const N5_VOCAB = [
       "zh-CN": "旧房子",
       "ko": "[Old house]",
       "vi": "[Old house]",
-      "id": "[Old house]"
+      "id": "[Old house]",
+      "es": "Old house",
+      "pt": "Old house"
     },
     "syn": [
       "旧式",
@@ -9348,7 +10980,9 @@ const N5_VOCAB = [
       "zh-CN": "好",
       "ko": "좋은",
       "vi": "Tốt",
-      "id": "Bagus"
+      "id": "Bagus",
+      "es": "bueno",
+      "pt": "bom"
     },
     "ex": "良い天気",
     "exm": {
@@ -9357,7 +10991,9 @@ const N5_VOCAB = [
       "zh-CN": "好天气",
       "ko": "[Good weather]",
       "vi": "[Good weather]",
-      "id": "[Good weather]"
+      "id": "[Good weather]",
+      "es": "Good weather",
+      "pt": "Good weather"
     },
     "syn": [
       "優良",
@@ -9375,7 +11011,9 @@ const N5_VOCAB = [
       "zh-CN": "坏",
       "ko": "나쁜",
       "vi": "Xấu",
-      "id": "Buruk"
+      "id": "Buruk",
+      "es": "malo",
+      "pt": "mau"
     },
     "ex": "悪い人",
     "exm": {
@@ -9384,7 +11022,9 @@ const N5_VOCAB = [
       "zh-CN": "坏人",
       "ko": "[Bad person]",
       "vi": "[Bad person]",
-      "id": "[Bad person]"
+      "id": "[Bad person]",
+      "es": "Bad person",
+      "pt": "Bad person"
     },
     "syn": [
       "不良",
@@ -9402,7 +11042,9 @@ const N5_VOCAB = [
       "zh-CN": "热",
       "ko": "덥다",
       "vi": "nóng",
-      "id": "panas"
+      "id": "panas",
+      "es": "hot (thing)",
+      "pt": "hot (thing)"
     },
     "ex": "熱いお茶",
     "exm": {
@@ -9411,7 +11053,9 @@ const N5_VOCAB = [
       "zh-CN": "热茶",
       "ko": "[Hot tea]",
       "vi": "[Hot tea]",
-      "id": "[Hot tea]"
+      "id": "[Hot tea]",
+      "es": "Hot tea",
+      "pt": "Hot tea"
     }
   },
   {
@@ -9424,7 +11068,9 @@ const N5_VOCAB = [
       "zh-CN": "热",
       "ko": "덥다",
       "vi": "nóng",
-      "id": "panas"
+      "id": "panas",
+      "es": "hot (weather)",
+      "pt": "hot (weather)"
     },
     "ex": "今日は暑い",
     "exm": {
@@ -9433,7 +11079,9 @@ const N5_VOCAB = [
       "zh-CN": "今天很热",
       "ko": "[Today is hot]",
       "vi": "[Today is hot]",
-      "id": "[Today is hot]"
+      "id": "[Today is hot]",
+      "es": "Today is hot",
+      "pt": "Today is hot"
     },
     "syn": [
       "猛暑",
@@ -9451,7 +11099,9 @@ const N5_VOCAB = [
       "zh-CN": "冷",
       "ko": "오래되다",
       "vi": "cũ",
-      "id": "lama"
+      "id": "lama",
+      "es": "cold (thing)",
+      "pt": "cold (thing)"
     },
     "ex": "冷たい水",
     "exm": {
@@ -9460,7 +11110,9 @@ const N5_VOCAB = [
       "zh-CN": "冷水",
       "ko": "[Cold water]",
       "vi": "[Cold water]",
-      "id": "[Cold water]"
+      "id": "[Cold water]",
+      "es": "Cold water",
+      "pt": "Cold water"
     }
   },
   {
@@ -9473,7 +11125,9 @@ const N5_VOCAB = [
       "zh-CN": "冷",
       "ko": "오래되다",
       "vi": "cũ",
-      "id": "lama"
+      "id": "lama",
+      "es": "cold (weather)",
+      "pt": "cold (weather)"
     },
     "ex": "今日は寒い",
     "exm": {
@@ -9482,7 +11136,9 @@ const N5_VOCAB = [
       "zh-CN": "今天很冷",
       "ko": "[Today is cold]",
       "vi": "[Today is cold]",
-      "id": "[Today is cold]"
+      "id": "[Today is cold]",
+      "es": "Today is cold",
+      "pt": "Today is cold"
     },
     "syn": [
       "極寒",
@@ -9500,7 +11156,9 @@ const N5_VOCAB = [
       "zh-CN": "忙",
       "ko": "바쁜",
       "vi": "Bận",
-      "id": "Sibuk"
+      "id": "Sibuk",
+      "es": "busy",
+      "pt": "busy"
     },
     "ex": "忙しい日",
     "exm": {
@@ -9509,7 +11167,9 @@ const N5_VOCAB = [
       "zh-CN": "忙碌的一天",
       "ko": "[Busy day]",
       "vi": "[Busy day]",
-      "id": "[Busy day]"
+      "id": "[Busy day]",
+      "es": "Busy day",
+      "pt": "Busy day"
     },
     "syn": [
       "多忙",
@@ -9527,7 +11187,9 @@ const N5_VOCAB = [
       "zh-CN": "开心",
       "ko": "[fun]",
       "vi": "[fun]",
-      "id": "[fun]"
+      "id": "[fun]",
+      "es": "fun",
+      "pt": "fun"
     },
     "ex": "楽しいパーティー",
     "exm": {
@@ -9536,7 +11198,9 @@ const N5_VOCAB = [
       "zh-CN": "开心的派对",
       "ko": "[Fun party]",
       "vi": "[Fun party]",
-      "id": "[Fun party]"
+      "id": "[Fun party]",
+      "es": "Fun party",
+      "pt": "Fun party"
     },
     "syn": [
       "愉快",
@@ -9554,7 +11218,9 @@ const N5_VOCAB = [
       "zh-CN": "开心",
       "ko": "행복한",
       "vi": "Vui",
-      "id": "Senang"
+      "id": "Senang",
+      "es": "happy",
+      "pt": "happy"
     },
     "ex": "嬉しいニュース",
     "exm": {
@@ -9563,7 +11229,9 @@ const N5_VOCAB = [
       "zh-CN": "高兴的消息",
       "ko": "[Happy news]",
       "vi": "[Happy news]",
-      "id": "[Happy news]"
+      "id": "[Happy news]",
+      "es": "Happy news",
+      "pt": "Happy news"
     },
     "syn": [
       "喜ばしい",
@@ -9581,7 +11249,9 @@ const N5_VOCAB = [
       "zh-CN": "悲伤",
       "ko": "슬픈",
       "vi": "Buồn",
-      "id": "Sedih"
+      "id": "Sedih",
+      "es": "sad",
+      "pt": "sad"
     },
     "ex": "悲しい映画",
     "exm": {
@@ -9590,7 +11260,9 @@ const N5_VOCAB = [
       "zh-CN": "悲伤的电影",
       "ko": "[Sad movie]",
       "vi": "[Sad movie]",
-      "id": "[Sad movie]"
+      "id": "[Sad movie]",
+      "es": "Sad movie",
+      "pt": "Sad movie"
     },
     "syn": [
       "哀しい",
@@ -9608,7 +11280,9 @@ const N5_VOCAB = [
       "zh-CN": "有趣",
       "ko": "재미있는",
       "vi": "Thú vị",
-      "id": "Menarik"
+      "id": "Menarik",
+      "es": "interesting",
+      "pt": "interesting"
     },
     "ex": "面白い本",
     "exm": {
@@ -9617,7 +11291,9 @@ const N5_VOCAB = [
       "zh-CN": "有趣的书",
       "ko": "[Interesting book]",
       "vi": "[Interesting book]",
-      "id": "[Interesting book]"
+      "id": "[Interesting book]",
+      "es": "Interesting book",
+      "pt": "Interesting book"
     },
     "syn": [
       "興味深い",
@@ -9635,7 +11311,9 @@ const N5_VOCAB = [
       "zh-CN": "困难",
       "ko": "어려운",
       "vi": "Khó",
-      "id": "Sulit"
+      "id": "Sulit",
+      "es": "difficult",
+      "pt": "difficult"
     },
     "ex": "難しい問題",
     "exm": {
@@ -9644,7 +11322,9 @@ const N5_VOCAB = [
       "zh-CN": "困难的问题",
       "ko": "[Difficult problem]",
       "vi": "[Difficult problem]",
-      "id": "[Difficult problem]"
+      "id": "[Difficult problem]",
+      "es": "Difficult problem",
+      "pt": "Difficult problem"
     },
     "syn": [
       "困難",
@@ -9662,7 +11342,9 @@ const N5_VOCAB = [
       "zh-CN": "简单",
       "ko": "쉬운",
       "vi": "Dễ",
-      "id": "Mudah"
+      "id": "Mudah",
+      "es": "easy",
+      "pt": "easy"
     },
     "ex": "易しい問題",
     "exm": {
@@ -9671,7 +11353,9 @@ const N5_VOCAB = [
       "zh-CN": "简单的问题",
       "ko": "[Easy problem]",
       "vi": "[Easy problem]",
-      "id": "[Easy problem]"
+      "id": "[Easy problem]",
+      "es": "Easy problem",
+      "pt": "Easy problem"
     },
     "syn": [
       "簡単",
@@ -9689,7 +11373,9 @@ const N5_VOCAB = [
       "zh-CN": "亲切",
       "ko": "친절한",
       "vi": "Tử tế",
-      "id": "Baik"
+      "id": "Baik",
+      "es": "kind",
+      "pt": "kind"
     },
     "ex": "優しい人",
     "exm": {
@@ -9698,7 +11384,9 @@ const N5_VOCAB = [
       "zh-CN": "温柔的人",
       "ko": "[Kind person]",
       "vi": "[Kind person]",
-      "id": "[Kind person]"
+      "id": "[Kind person]",
+      "es": "Kind person",
+      "pt": "Kind person"
     },
     "syn": [
       "親切",
@@ -9716,7 +11404,9 @@ const N5_VOCAB = [
       "zh-CN": "好吃",
       "ko": "맛있는",
       "vi": "Ngon",
-      "id": "Enak"
+      "id": "Enak",
+      "es": "delicious",
+      "pt": "delicious"
     },
     "ex": "美味しい料理",
     "exm": {
@@ -9725,7 +11415,9 @@ const N5_VOCAB = [
       "zh-CN": "好吃的菜",
       "ko": "[Delicious food]",
       "vi": "[Delicious food]",
-      "id": "[Delicious food]"
+      "id": "[Delicious food]",
+      "es": "Delicious food",
+      "pt": "Delicious food"
     },
     "syn": [
       "美味",
@@ -9743,7 +11435,9 @@ const N5_VOCAB = [
       "zh-CN": "甜",
       "ko": "[sweet]",
       "vi": "[sweet]",
-      "id": "[sweet]"
+      "id": "[sweet]",
+      "es": "sweet",
+      "pt": "sweet"
     },
     "ex": "甘いケーキ",
     "exm": {
@@ -9752,7 +11446,9 @@ const N5_VOCAB = [
       "zh-CN": "甜蛋糕",
       "ko": "[Sweet cake]",
       "vi": "[Sweet cake]",
-      "id": "[Sweet cake]"
+      "id": "[Sweet cake]",
+      "es": "Sweet cake",
+      "pt": "Sweet cake"
     }
   },
   {
@@ -9765,7 +11461,9 @@ const N5_VOCAB = [
       "zh-CN": "辣",
       "ko": "[spicy]",
       "vi": "[spicy]",
-      "id": "[spicy]"
+      "id": "[spicy]",
+      "es": "spicy",
+      "pt": "spicy"
     },
     "ex": "辛い料理",
     "exm": {
@@ -9774,7 +11472,9 @@ const N5_VOCAB = [
       "zh-CN": "辣菜",
       "ko": "[Spicy food]",
       "vi": "[Spicy food]",
-      "id": "[Spicy food]"
+      "id": "[Spicy food]",
+      "es": "Spicy food",
+      "pt": "Spicy food"
     }
   },
   {
@@ -9787,7 +11487,9 @@ const N5_VOCAB = [
       "zh-CN": "白色",
       "ko": "흰색",
       "vi": "Trắng",
-      "id": "Putih"
+      "id": "Putih",
+      "es": "white",
+      "pt": "white"
     },
     "ex": "白い雪",
     "exm": {
@@ -9796,7 +11498,9 @@ const N5_VOCAB = [
       "zh-CN": "白雪",
       "ko": "[White snow]",
       "vi": "[White snow]",
-      "id": "[White snow]"
+      "id": "[White snow]",
+      "es": "White snow",
+      "pt": "White snow"
     }
   },
   {
@@ -9809,7 +11513,9 @@ const N5_VOCAB = [
       "zh-CN": "黑色",
       "ko": "검은색",
       "vi": "Đen",
-      "id": "Hitam"
+      "id": "Hitam",
+      "es": "black",
+      "pt": "black"
     },
     "ex": "黒い髪",
     "exm": {
@@ -9818,7 +11524,9 @@ const N5_VOCAB = [
       "zh-CN": "黑头发",
       "ko": "[Black hair]",
       "vi": "[Black hair]",
-      "id": "[Black hair]"
+      "id": "[Black hair]",
+      "es": "Black hair",
+      "pt": "Black hair"
     }
   },
   {
@@ -9831,7 +11539,9 @@ const N5_VOCAB = [
       "zh-CN": "红色",
       "ko": "빨간색",
       "vi": "Đỏ",
-      "id": "Merah"
+      "id": "Merah",
+      "es": "red",
+      "pt": "red"
     },
     "ex": "赤い花",
     "exm": {
@@ -9840,7 +11550,9 @@ const N5_VOCAB = [
       "zh-CN": "红花",
       "ko": "[Red flower]",
       "vi": "[Red flower]",
-      "id": "[Red flower]"
+      "id": "[Red flower]",
+      "es": "Red flower",
+      "pt": "Red flower"
     }
   },
   {
@@ -9853,7 +11565,9 @@ const N5_VOCAB = [
       "zh-CN": "蓝色",
       "ko": "파란색",
       "vi": "Xanh dương",
-      "id": "Biru"
+      "id": "Biru",
+      "es": "blue",
+      "pt": "blue"
     },
     "ex": "青い空",
     "exm": {
@@ -9862,7 +11576,9 @@ const N5_VOCAB = [
       "zh-CN": "蓝天",
       "ko": "[Blue sky]",
       "vi": "[Blue sky]",
-      "id": "[Blue sky]"
+      "id": "[Blue sky]",
+      "es": "Blue sky",
+      "pt": "Blue sky"
     }
   },
   {
@@ -9875,7 +11591,9 @@ const N5_VOCAB = [
       "zh-CN": "宽",
       "ko": "넓은",
       "vi": "Rộng",
-      "id": "Lebar"
+      "id": "Lebar",
+      "es": "wide",
+      "pt": "wide"
     },
     "ex": "広い部屋",
     "exm": {
@@ -9884,7 +11602,9 @@ const N5_VOCAB = [
       "zh-CN": "宽敞的房间",
       "ko": "[Spacious room]",
       "vi": "[Spacious room]",
-      "id": "[Spacious room]"
+      "id": "[Spacious room]",
+      "es": "Spacious room",
+      "pt": "Spacious room"
     }
   },
   {
@@ -9897,7 +11617,9 @@ const N5_VOCAB = [
       "zh-CN": "窄",
       "ko": "좁은",
       "vi": "Hẹp",
-      "id": "Sempit"
+      "id": "Sempit",
+      "es": "narrow",
+      "pt": "narrow"
     },
     "ex": "狭い道",
     "exm": {
@@ -9906,7 +11628,9 @@ const N5_VOCAB = [
       "zh-CN": "窄路",
       "ko": "[Narrow road]",
       "vi": "[Narrow road]",
-      "id": "[Narrow road]"
+      "id": "[Narrow road]",
+      "es": "Narrow road",
+      "pt": "Narrow road"
     }
   },
   {
@@ -9919,7 +11643,9 @@ const N5_VOCAB = [
       "zh-CN": "重",
       "ko": "무거운",
       "vi": "Nặng",
-      "id": "Berat"
+      "id": "Berat",
+      "es": "heavy",
+      "pt": "heavy"
     },
     "ex": "重い荷物",
     "exm": {
@@ -9928,7 +11654,9 @@ const N5_VOCAB = [
       "zh-CN": "重行李",
       "ko": "[Heavy luggage]",
       "vi": "[Heavy luggage]",
-      "id": "[Heavy luggage]"
+      "id": "[Heavy luggage]",
+      "es": "Heavy luggage",
+      "pt": "Heavy luggage"
     }
   },
   {
@@ -9941,7 +11669,9 @@ const N5_VOCAB = [
       "zh-CN": "轻",
       "ko": "가벼운",
       "vi": "Nhẹ",
-      "id": "Ringan"
+      "id": "Ringan",
+      "es": "light",
+      "pt": "light"
     },
     "ex": "軽いかばん",
     "exm": {
@@ -9950,7 +11680,9 @@ const N5_VOCAB = [
       "zh-CN": "轻的包",
       "ko": "[Light bag]",
       "vi": "[Light bag]",
-      "id": "[Light bag]"
+      "id": "[Light bag]",
+      "es": "Light bag",
+      "pt": "Light bag"
     }
   },
   {
@@ -9963,7 +11695,9 @@ const N5_VOCAB = [
       "zh-CN": "快",
       "ko": "빠른",
       "vi": "Nhanh",
-      "id": "Cepat"
+      "id": "Cepat",
+      "es": "fast",
+      "pt": "fast"
     },
     "ex": "速い電車",
     "exm": {
@@ -9972,7 +11706,9 @@ const N5_VOCAB = [
       "zh-CN": "快车",
       "ko": "[Fast train]",
       "vi": "[Fast train]",
-      "id": "[Fast train]"
+      "id": "[Fast train]",
+      "es": "Fast train",
+      "pt": "Fast train"
     }
   },
   {
@@ -9985,7 +11721,9 @@ const N5_VOCAB = [
       "zh-CN": "慢",
       "ko": "느린",
       "vi": "Chậm",
-      "id": "Lambat"
+      "id": "Lambat",
+      "es": "slow",
+      "pt": "slow"
     },
     "ex": "遅い時間",
     "exm": {
@@ -9994,7 +11732,9 @@ const N5_VOCAB = [
       "zh-CN": "很晚",
       "ko": "[Late time]",
       "vi": "[Late time]",
-      "id": "[Late time]"
+      "id": "[Late time]",
+      "es": "Late time",
+      "pt": "Late time"
     }
   },
   {
@@ -10007,7 +11747,9 @@ const N5_VOCAB = [
       "zh-CN": "早",
       "ko": "[early]",
       "vi": "[early]",
-      "id": "[early]"
+      "id": "[early]",
+      "es": "early",
+      "pt": "early"
     },
     "ex": "早い朝",
     "exm": {
@@ -10016,7 +11758,9 @@ const N5_VOCAB = [
       "zh-CN": "很早的早上",
       "ko": "[Early morning]",
       "vi": "[Early morning]",
-      "id": "[Early morning]"
+      "id": "[Early morning]",
+      "es": "Early morning",
+      "pt": "Early morning"
     }
   },
   {
@@ -10029,7 +11773,9 @@ const N5_VOCAB = [
       "zh-CN": "亮",
       "ko": "밝은",
       "vi": "Sáng",
-      "id": "Terang"
+      "id": "Terang",
+      "es": "bright",
+      "pt": "bright"
     },
     "ex": "明るい部屋",
     "exm": {
@@ -10038,7 +11784,9 @@ const N5_VOCAB = [
       "zh-CN": "明亮的房间",
       "ko": "[Bright room]",
       "vi": "[Bright room]",
-      "id": "[Bright room]"
+      "id": "[Bright room]",
+      "es": "Bright room",
+      "pt": "Bright room"
     }
   },
   {
@@ -10051,7 +11799,9 @@ const N5_VOCAB = [
       "zh-CN": "暗",
       "ko": "어두운",
       "vi": "Tối",
-      "id": "Gelap"
+      "id": "Gelap",
+      "es": "dark",
+      "pt": "dark"
     },
     "ex": "暗い部屋",
     "exm": {
@@ -10060,7 +11810,9 @@ const N5_VOCAB = [
       "zh-CN": "暗的房间",
       "ko": "[Dark room]",
       "vi": "[Dark room]",
-      "id": "[Dark room]"
+      "id": "[Dark room]",
+      "es": "Dark room",
+      "pt": "Dark room"
     }
   },
   {
@@ -10073,7 +11825,9 @@ const N5_VOCAB = [
       "zh-CN": "强",
       "ko": "[strong]",
       "vi": "[strong]",
-      "id": "[strong]"
+      "id": "[strong]",
+      "es": "strong",
+      "pt": "strong"
     },
     "ex": "強い風",
     "exm": {
@@ -10082,7 +11836,9 @@ const N5_VOCAB = [
       "zh-CN": "强风",
       "ko": "[Strong wind]",
       "vi": "[Strong wind]",
-      "id": "[Strong wind]"
+      "id": "[Strong wind]",
+      "es": "Strong wind",
+      "pt": "Strong wind"
     }
   },
   {
@@ -10095,7 +11851,9 @@ const N5_VOCAB = [
       "zh-CN": "弱",
       "ko": "[weak]",
       "vi": "[weak]",
-      "id": "[weak]"
+      "id": "[weak]",
+      "es": "weak",
+      "pt": "weak"
     },
     "ex": "弱い人",
     "exm": {
@@ -10104,7 +11862,9 @@ const N5_VOCAB = [
       "zh-CN": "弱的人",
       "ko": "[Weak person]",
       "vi": "[Weak person]",
-      "id": "[Weak person]"
+      "id": "[Weak person]",
+      "es": "Weak person",
+      "pt": "Weak person"
     }
   },
   {
@@ -10117,7 +11877,9 @@ const N5_VOCAB = [
       "zh-CN": "年轻",
       "ko": "[young]",
       "vi": "[young]",
-      "id": "[young]"
+      "id": "[young]",
+      "es": "young",
+      "pt": "young"
     },
     "ex": "若い人",
     "exm": {
@@ -10126,7 +11888,9 @@ const N5_VOCAB = [
       "zh-CN": "年轻人",
       "ko": "[Young person]",
       "vi": "[Young person]",
-      "id": "[Young person]"
+      "id": "[Young person]",
+      "es": "Young person",
+      "pt": "Young person"
     }
   },
   {
@@ -10139,7 +11903,9 @@ const N5_VOCAB = [
       "zh-CN": "近",
       "ko": "가까운",
       "vi": "Gần",
-      "id": "Dekat"
+      "id": "Dekat",
+      "es": "near",
+      "pt": "near"
     },
     "ex": "近い所",
     "exm": {
@@ -10148,7 +11914,9 @@ const N5_VOCAB = [
       "zh-CN": "近的地方",
       "ko": "[Near place]",
       "vi": "[Near place]",
-      "id": "[Near place]"
+      "id": "[Near place]",
+      "es": "Near place",
+      "pt": "Near place"
     }
   },
   {
@@ -10161,7 +11929,9 @@ const N5_VOCAB = [
       "zh-CN": "远",
       "ko": "먼",
       "vi": "Xa",
-      "id": "Jauh"
+      "id": "Jauh",
+      "es": "far",
+      "pt": "far"
     },
     "ex": "遠い所",
     "exm": {
@@ -10170,7 +11940,9 @@ const N5_VOCAB = [
       "zh-CN": "远的地方",
       "ko": "[Far place]",
       "vi": "[Far place]",
-      "id": "[Far place]"
+      "id": "[Far place]",
+      "es": "Far place",
+      "pt": "Far place"
     }
   },
   {
@@ -10183,7 +11955,9 @@ const N5_VOCAB = [
       "zh-CN": "多",
       "ko": "많다",
       "vi": "nhiều",
-      "id": "banyak"
+      "id": "banyak",
+      "es": "many",
+      "pt": "many"
     },
     "ex": "人が多い",
     "exm": {
@@ -10192,7 +11966,9 @@ const N5_VOCAB = [
       "zh-CN": "人很多",
       "ko": "[Many people]",
       "vi": "[Many people]",
-      "id": "[Many people]"
+      "id": "[Many people]",
+      "es": "Many people",
+      "pt": "Many people"
     },
     "syn": [
       "多数",
@@ -10210,7 +11986,9 @@ const N5_VOCAB = [
       "zh-CN": "少",
       "ko": "적다",
       "vi": "ít",
-      "id": "sedikit"
+      "id": "sedikit",
+      "es": "few",
+      "pt": "few"
     },
     "ex": "人が少ない",
     "exm": {
@@ -10219,7 +11997,9 @@ const N5_VOCAB = [
       "zh-CN": "人很少",
       "ko": "[Few people]",
       "vi": "[Few people]",
-      "id": "[Few people]"
+      "id": "[Few people]",
+      "es": "Few people",
+      "pt": "Few people"
     },
     "syn": [
       "少数",
@@ -10237,7 +12017,9 @@ const N5_VOCAB = [
       "zh-CN": "痛",
       "ko": "[painful]",
       "vi": "[painful]",
-      "id": "[painful]"
+      "id": "[painful]",
+      "es": "painful",
+      "pt": "painful"
     },
     "ex": "頭が痛い",
     "exm": {
@@ -10246,7 +12028,9 @@ const N5_VOCAB = [
       "zh-CN": "头痛",
       "ko": "[Headache]",
       "vi": "[Headache]",
-      "id": "[Headache]"
+      "id": "[Headache]",
+      "es": "Headache",
+      "pt": "Headache"
     }
   },
   {
@@ -10259,7 +12043,9 @@ const N5_VOCAB = [
       "zh-CN": "可怕",
       "ko": "[scary]",
       "vi": "[scary]",
-      "id": "[scary]"
+      "id": "[scary]",
+      "es": "scary",
+      "pt": "scary"
     },
     "ex": "怖い映画",
     "exm": {
@@ -10268,7 +12054,9 @@ const N5_VOCAB = [
       "zh-CN": "可怕的电影",
       "ko": "[Scary movie]",
       "vi": "[Scary movie]",
-      "id": "[Scary movie]"
+      "id": "[Scary movie]",
+      "es": "Scary movie",
+      "pt": "Scary movie"
     },
     "syn": [
       "恐ろしい",
@@ -10286,7 +12074,9 @@ const N5_VOCAB = [
       "zh-CN": "困",
       "ko": "[sleepy]",
       "vi": "[sleepy]",
-      "id": "[sleepy]"
+      "id": "[sleepy]",
+      "es": "sleepy",
+      "pt": "sleepy"
     },
     "ex": "とても眠い",
     "exm": {
@@ -10295,7 +12085,9 @@ const N5_VOCAB = [
       "zh-CN": "很困",
       "ko": "[Very sleepy]",
       "vi": "[Very sleepy]",
-      "id": "[Very sleepy]"
+      "id": "[Very sleepy]",
+      "es": "Very sleepy",
+      "pt": "Very sleepy"
     }
   },
   {
@@ -10308,7 +12100,9 @@ const N5_VOCAB = [
       "zh-CN": "可爱",
       "ko": "[cute]",
       "vi": "[cute]",
-      "id": "[cute]"
+      "id": "[cute]",
+      "es": "cute",
+      "pt": "cute"
     },
     "ex": "可愛い子",
     "exm": {
@@ -10317,7 +12111,9 @@ const N5_VOCAB = [
       "zh-CN": "可爱的孩子",
       "ko": "[Cute child]",
       "vi": "[Cute child]",
-      "id": "[Cute child]"
+      "id": "[Cute child]",
+      "es": "Cute child",
+      "pt": "Cute child"
     }
   },
   {
@@ -10330,7 +12126,9 @@ const N5_VOCAB = [
       "zh-CN": "有名",
       "ko": "[famous]",
       "vi": "[famous]",
-      "id": "[famous]"
+      "id": "[famous]",
+      "es": "famous",
+      "pt": "famous"
     },
     "ex": "有名な人",
     "exm": {
@@ -10339,7 +12137,9 @@ const N5_VOCAB = [
       "zh-CN": "有名的人",
       "ko": "[Famous person]",
       "vi": "[Famous person]",
-      "id": "[Famous person]"
+      "id": "[Famous person]",
+      "es": "Famous person",
+      "pt": "Famous person"
     }
   },
   {
@@ -10352,7 +12152,9 @@ const N5_VOCAB = [
       "zh-CN": "安静",
       "ko": "조용한",
       "vi": "Yên tĩnh",
-      "id": "Tenang"
+      "id": "Tenang",
+      "es": "quiet",
+      "pt": "quiet"
     },
     "ex": "静かな部屋",
     "exm": {
@@ -10361,7 +12163,9 @@ const N5_VOCAB = [
       "zh-CN": "安静的房间",
       "ko": "[Quiet room]",
       "vi": "[Quiet room]",
-      "id": "[Quiet room]"
+      "id": "[Quiet room]",
+      "es": "Quiet room",
+      "pt": "Quiet room"
     }
   },
   {
@@ -10374,7 +12178,9 @@ const N5_VOCAB = [
       "zh-CN": "热闹",
       "ko": "[lively]",
       "vi": "[lively]",
-      "id": "[lively]"
+      "id": "[lively]",
+      "es": "lively",
+      "pt": "lively"
     },
     "ex": "賑やかな町",
     "exm": {
@@ -10383,7 +12189,9 @@ const N5_VOCAB = [
       "zh-CN": "热闹的城镇",
       "ko": "[Lively town]",
       "vi": "[Lively town]",
-      "id": "[Lively town]"
+      "id": "[Lively town]",
+      "es": "Lively town",
+      "pt": "Lively town"
     }
   },
   {
@@ -10396,7 +12204,9 @@ const N5_VOCAB = [
       "zh-CN": "美丽",
       "ko": "아름다운",
       "vi": "Đẹp",
-      "id": "Indah"
+      "id": "Indah",
+      "es": "beautiful",
+      "pt": "beautiful"
     },
     "ex": "綺麗な花",
     "exm": {
@@ -10405,7 +12215,9 @@ const N5_VOCAB = [
       "zh-CN": "漂亮的花",
       "ko": "[Beautiful flower]",
       "vi": "[Beautiful flower]",
-      "id": "[Beautiful flower]"
+      "id": "[Beautiful flower]",
+      "es": "Beautiful flower",
+      "pt": "Beautiful flower"
     }
   },
   {
@@ -10418,7 +12230,9 @@ const N5_VOCAB = [
       "zh-CN": "方便",
       "ko": "[convenient]",
       "vi": "[convenient]",
-      "id": "[convenient]"
+      "id": "[convenient]",
+      "es": "convenient",
+      "pt": "convenient"
     },
     "ex": "便利な場所",
     "exm": {
@@ -10427,7 +12241,9 @@ const N5_VOCAB = [
       "zh-CN": "方便的地方",
       "ko": "[Convenient place]",
       "vi": "[Convenient place]",
-      "id": "[Convenient place]"
+      "id": "[Convenient place]",
+      "es": "Convenient place",
+      "pt": "Convenient place"
     }
   },
   {
@@ -10440,7 +12256,9 @@ const N5_VOCAB = [
       "zh-CN": "重要",
       "ko": "[important]",
       "vi": "[important]",
-      "id": "[important]"
+      "id": "[important]",
+      "es": "important",
+      "pt": "important"
     },
     "ex": "大切な人",
     "exm": {
@@ -10449,7 +12267,9 @@ const N5_VOCAB = [
       "zh-CN": "重要的人",
       "ko": "[Important person]",
       "vi": "[Important person]",
-      "id": "[Important person]"
+      "id": "[Important person]",
+      "es": "Important person",
+      "pt": "Important person"
     }
   },
   {
@@ -10462,7 +12282,9 @@ const N5_VOCAB = [
       "zh-CN": "没问题",
       "ko": "[okay]",
       "vi": "[okay]",
-      "id": "[okay]"
+      "id": "[okay]",
+      "es": "okay",
+      "pt": "okay"
     },
     "ex": "大丈夫ですか",
     "exm": {
@@ -10471,7 +12293,9 @@ const N5_VOCAB = [
       "zh-CN": "没问题吗",
       "ko": "[Are you okay?]",
       "vi": "[Are you okay?]",
-      "id": "[Are you okay?]"
+      "id": "[Are you okay?]",
+      "es": "Are you okay?",
+      "pt": "Are you okay?"
     }
   },
   {
@@ -10484,7 +12308,9 @@ const N5_VOCAB = [
       "zh-CN": "擅长",
       "ko": "좋다",
       "vi": "tốt",
-      "id": "baik"
+      "id": "baik",
+      "es": "good at",
+      "pt": "good at"
     },
     "ex": "日本語が上手",
     "exm": {
@@ -10493,7 +12319,9 @@ const N5_VOCAB = [
       "zh-CN": "日语很好",
       "ko": "[Good at Japanese]",
       "vi": "[Good at Japanese]",
-      "id": "[Good at Japanese]"
+      "id": "[Good at Japanese]",
+      "es": "Good at Japanese",
+      "pt": "Good at Japanese"
     }
   },
   {
@@ -10506,7 +12334,9 @@ const N5_VOCAB = [
       "zh-CN": "不擅长",
       "ko": "나쁘다",
       "vi": "xấu",
-      "id": "buruk"
+      "id": "buruk",
+      "es": "bad at",
+      "pt": "bad at"
     },
     "ex": "料理が下手",
     "exm": {
@@ -10515,7 +12345,9 @@ const N5_VOCAB = [
       "zh-CN": "不擅长做菜",
       "ko": "[Bad at cooking]",
       "vi": "[Bad at cooking]",
-      "id": "[Bad at cooking]"
+      "id": "[Bad at cooking]",
+      "es": "Bad at cooking",
+      "pt": "Bad at cooking"
     }
   },
   {
@@ -10528,7 +12360,9 @@ const N5_VOCAB = [
       "zh-CN": "简单",
       "ko": "[simple]",
       "vi": "[simple]",
-      "id": "[simple]"
+      "id": "[simple]",
+      "es": "simple",
+      "pt": "simple"
     },
     "ex": "簡単な問題",
     "exm": {
@@ -10537,7 +12371,9 @@ const N5_VOCAB = [
       "zh-CN": "简单的问题",
       "ko": "[Simple problem]",
       "vi": "[Simple problem]",
-      "id": "[Simple problem]"
+      "id": "[Simple problem]",
+      "es": "Simple problem",
+      "pt": "Simple problem"
     }
   },
   {
@@ -10550,7 +12386,9 @@ const N5_VOCAB = [
       "zh-CN": "亲切",
       "ko": "친절한",
       "vi": "Tử tế",
-      "id": "Baik"
+      "id": "Baik",
+      "es": "kind",
+      "pt": "kind"
     },
     "ex": "親切な人",
     "exm": {
@@ -10559,7 +12397,9 @@ const N5_VOCAB = [
       "zh-CN": "亲切的人",
       "ko": "[Kind person]",
       "vi": "[Kind person]",
-      "id": "[Kind person]"
+      "id": "[Kind person]",
+      "es": "Kind person",
+      "pt": "Kind person"
     }
   },
   {
@@ -10572,7 +12412,9 @@ const N5_VOCAB = [
       "zh-CN": "空闲",
       "ko": "[free time]",
       "vi": "[free time]",
-      "id": "[free time]"
+      "id": "[free time]",
+      "es": "free time",
+      "pt": "free time"
     },
     "ex": "暇な時",
     "exm": {
@@ -10581,7 +12423,9 @@ const N5_VOCAB = [
       "zh-CN": "有空的时候",
       "ko": "[Free time]",
       "vi": "[Free time]",
-      "id": "[Free time]"
+      "id": "[Free time]",
+      "es": "Free time",
+      "pt": "Free time"
     },
     "syn": [
       "閑暇",
@@ -10599,7 +12443,9 @@ const N5_VOCAB = [
       "zh-CN": "不行",
       "ko": "좋다",
       "vi": "tốt",
-      "id": "baik"
+      "id": "baik",
+      "es": "no good",
+      "pt": "no good"
     },
     "ex": "それは駄目",
     "exm": {
@@ -10608,7 +12454,9 @@ const N5_VOCAB = [
       "zh-CN": "那不行",
       "ko": "[That's no good]",
       "vi": "[That's no good]",
-      "id": "[That's no good]"
+      "id": "[That's no good]",
+      "es": "That's no good",
+      "pt": "That's no good"
     }
   },
   {
@@ -10621,7 +12469,9 @@ const N5_VOCAB = [
       "zh-CN": "特别",
       "ko": "[special]",
       "vi": "[special]",
-      "id": "[special]"
+      "id": "[special]",
+      "es": "special",
+      "pt": "special"
     },
     "ex": "特別な日",
     "exm": {
@@ -10630,7 +12480,9 @@ const N5_VOCAB = [
       "zh-CN": "特别的日子",
       "ko": "[Special day]",
       "vi": "[Special day]",
-      "id": "[Special day]"
+      "id": "[Special day]",
+      "es": "Special day",
+      "pt": "Special day"
     }
   },
   {
@@ -10643,7 +12495,9 @@ const N5_VOCAB = [
       "zh-CN": "各种",
       "ko": "[various]",
       "vi": "[various]",
-      "id": "[various]"
+      "id": "[various]",
+      "es": "various",
+      "pt": "various"
     },
     "ex": "色々な物",
     "exm": {
@@ -10652,7 +12506,9 @@ const N5_VOCAB = [
       "zh-CN": "各种东西",
       "ko": "[Various things]",
       "vi": "[Various things]",
-      "id": "[Various things]"
+      "id": "[Various things]",
+      "es": "Various things",
+      "pt": "Various things"
     }
   },
   {
@@ -10665,7 +12521,9 @@ const N5_VOCAB = [
       "zh-CN": "相同",
       "ko": "[same]",
       "vi": "[same]",
-      "id": "[same]"
+      "id": "[same]",
+      "es": "same",
+      "pt": "same"
     },
     "ex": "同じ物",
     "exm": {
@@ -10674,7 +12532,9 @@ const N5_VOCAB = [
       "zh-CN": "相同的东西",
       "ko": "[Same thing]",
       "vi": "[Same thing]",
-      "id": "[Same thing]"
+      "id": "[Same thing]",
+      "es": "Same thing",
+      "pt": "Same thing"
     }
   },
   {
@@ -10687,7 +12547,9 @@ const N5_VOCAB = [
       "zh-CN": "普通",
       "ko": "[ordinary]",
       "vi": "[ordinary]",
-      "id": "[ordinary]"
+      "id": "[ordinary]",
+      "es": "ordinary",
+      "pt": "ordinary"
     },
     "ex": "普通の人",
     "exm": {
@@ -10696,7 +12558,9 @@ const N5_VOCAB = [
       "zh-CN": "普通人",
       "ko": "[Ordinary person]",
       "vi": "[Ordinary person]",
-      "id": "[Ordinary person]"
+      "id": "[Ordinary person]",
+      "es": "Ordinary person",
+      "pt": "Ordinary person"
     }
   },
   {
@@ -10709,7 +12573,9 @@ const N5_VOCAB = [
       "zh-CN": "非常",
       "ko": "[very]",
       "vi": "[very]",
-      "id": "[very]"
+      "id": "[very]",
+      "es": "very",
+      "pt": "very"
     },
     "ex": "とても暑い",
     "exm": {
@@ -10718,7 +12584,9 @@ const N5_VOCAB = [
       "zh-CN": "非常热",
       "ko": "[Very hot]",
       "vi": "[Very hot]",
-      "id": "[Very hot]"
+      "id": "[Very hot]",
+      "es": "Very hot",
+      "pt": "Very hot"
     }
   },
   {
@@ -10731,7 +12599,9 @@ const N5_VOCAB = [
       "zh-CN": "一点",
       "ko": "[a little]",
       "vi": "[a little]",
-      "id": "[a little]"
+      "id": "[a little]",
+      "es": "a little",
+      "pt": "a little"
     },
     "ex": "少し食べる",
     "exm": {
@@ -10740,7 +12610,9 @@ const N5_VOCAB = [
       "zh-CN": "吃一点",
       "ko": "[Eat a little]",
       "vi": "[Eat a little]",
-      "id": "[Eat a little]"
+      "id": "[Eat a little]",
+      "es": "Eat a little",
+      "pt": "Eat a little"
     }
   },
   {
@@ -10753,7 +12625,9 @@ const N5_VOCAB = [
       "zh-CN": "一点",
       "ko": "[a little]",
       "vi": "[a little]",
-      "id": "[a little]"
+      "id": "[a little]",
+      "es": "a little",
+      "pt": "a little"
     },
     "ex": "ちょっと待って",
     "exm": {
@@ -10762,7 +12636,9 @@ const N5_VOCAB = [
       "zh-CN": "等一下",
       "ko": "[Wait a bit]",
       "vi": "[Wait a bit]",
-      "id": "[Wait a bit]"
+      "id": "[Wait a bit]",
+      "es": "Wait a bit",
+      "pt": "Wait a bit"
     }
   },
   {
@@ -10775,7 +12651,9 @@ const N5_VOCAB = [
       "zh-CN": "很多",
       "ko": "많다",
       "vi": "nhiều",
-      "id": "banyak"
+      "id": "banyak",
+      "es": "many",
+      "pt": "many"
     },
     "ex": "たくさん食べる",
     "exm": {
@@ -10784,7 +12662,9 @@ const N5_VOCAB = [
       "zh-CN": "吃很多",
       "ko": "[Eat a lot]",
       "vi": "[Eat a lot]",
-      "id": "[Eat a lot]"
+      "id": "[Eat a lot]",
+      "es": "Eat a lot",
+      "pt": "Eat a lot"
     }
   },
   {
@@ -10797,7 +12677,9 @@ const N5_VOCAB = [
       "zh-CN": "更",
       "ko": "[more]",
       "vi": "[more]",
-      "id": "[more]"
+      "id": "[more]",
+      "es": "more",
+      "pt": "more"
     },
     "ex": "もっと食べる",
     "exm": {
@@ -10806,7 +12688,9 @@ const N5_VOCAB = [
       "zh-CN": "吃更多",
       "ko": "[Eat more]",
       "vi": "[Eat more]",
-      "id": "[Eat more]"
+      "id": "[Eat more]",
+      "es": "Eat more",
+      "pt": "Eat more"
     }
   },
   {
@@ -10819,7 +12703,9 @@ const N5_VOCAB = [
       "zh-CN": "还",
       "ko": "[still/not yet]",
       "vi": "[still/not yet]",
-      "id": "[still/not yet]"
+      "id": "[still/not yet]",
+      "es": "still/not yet",
+      "pt": "still/not yet"
     },
     "ex": "まだ食べていない",
     "exm": {
@@ -10828,7 +12714,9 @@ const N5_VOCAB = [
       "zh-CN": "还没吃",
       "ko": "[Haven't eaten yet]",
       "vi": "[Haven't eaten yet]",
-      "id": "[Haven't eaten yet]"
+      "id": "[Haven't eaten yet]",
+      "es": "Haven't eaten yet",
+      "pt": "Haven't eaten yet"
     }
   },
   {
@@ -10841,7 +12729,9 @@ const N5_VOCAB = [
       "zh-CN": "已经",
       "ko": "[already]",
       "vi": "[already]",
-      "id": "[already]"
+      "id": "[already]",
+      "es": "already",
+      "pt": "already"
     },
     "ex": "もう食べた",
     "exm": {
@@ -10850,7 +12740,9 @@ const N5_VOCAB = [
       "zh-CN": "已经吃了",
       "ko": "[Already ate]",
       "vi": "[Already ate]",
-      "id": "[Already ate]"
+      "id": "[Already ate]",
+      "es": "Already ate",
+      "pt": "Already ate"
     }
   },
   {
@@ -10863,7 +12755,9 @@ const N5_VOCAB = [
       "zh-CN": "总是",
       "ko": "[always]",
       "vi": "[always]",
-      "id": "[always]"
+      "id": "[always]",
+      "es": "always",
+      "pt": "always"
     },
     "ex": "いつも早く起きる",
     "exm": {
@@ -10872,7 +12766,9 @@ const N5_VOCAB = [
       "zh-CN": "总是早起",
       "ko": "[Always wake up early]",
       "vi": "[Always wake up early]",
-      "id": "[Always wake up early]"
+      "id": "[Always wake up early]",
+      "es": "Always wake up early",
+      "pt": "Always wake up early"
     }
   },
   {
@@ -10885,7 +12781,9 @@ const N5_VOCAB = [
       "zh-CN": "有时",
       "ko": "[sometimes]",
       "vi": "[sometimes]",
-      "id": "[sometimes]"
+      "id": "[sometimes]",
+      "es": "sometimes",
+      "pt": "sometimes"
     },
     "ex": "時々映画を見る",
     "exm": {
@@ -10894,7 +12792,9 @@ const N5_VOCAB = [
       "zh-CN": "有时看电影",
       "ko": "[Sometimes watch movies]",
       "vi": "[Sometimes watch movies]",
-      "id": "[Sometimes watch movies]"
+      "id": "[Sometimes watch movies]",
+      "es": "Sometimes watch movies",
+      "pt": "Sometimes watch movies"
     }
   },
   {
@@ -10907,7 +12807,9 @@ const N5_VOCAB = [
       "zh-CN": "经常",
       "ko": "[often]",
       "vi": "[often]",
-      "id": "[often]"
+      "id": "[often]",
+      "es": "often",
+      "pt": "often"
     },
     "ex": "よく勉強する",
     "exm": {
@@ -10916,7 +12818,9 @@ const N5_VOCAB = [
       "zh-CN": "经常学习",
       "ko": "[Study often]",
       "vi": "[Study often]",
-      "id": "[Study often]"
+      "id": "[Study often]",
+      "es": "Study often",
+      "pt": "Study often"
     }
   },
   {
@@ -10929,7 +12833,9 @@ const N5_VOCAB = [
       "zh-CN": "不太",
       "ko": "[not much]",
       "vi": "[not much]",
-      "id": "[not much]"
+      "id": "[not much]",
+      "es": "not much",
+      "pt": "not much"
     },
     "ex": "あまり好きじゃない",
     "exm": {
@@ -10938,7 +12844,9 @@ const N5_VOCAB = [
       "zh-CN": "不太喜欢",
       "ko": "[Don't like much]",
       "vi": "[Don't like much]",
-      "id": "[Don't like much]"
+      "id": "[Don't like much]",
+      "es": "Don't like much",
+      "pt": "Don't like much"
     }
   },
   {
@@ -10951,7 +12859,9 @@ const N5_VOCAB = [
       "zh-CN": "完全不",
       "ko": "[not at all]",
       "vi": "[not at all]",
-      "id": "[not at all]"
+      "id": "[not at all]",
+      "es": "not at all",
+      "pt": "not at all"
     },
     "ex": "全然分からない",
     "exm": {
@@ -10960,7 +12870,9 @@ const N5_VOCAB = [
       "zh-CN": "完全不懂",
       "ko": "[Don't understand]",
       "vi": "[Don't understand]",
-      "id": "[Don't understand]"
+      "id": "[Don't understand]",
+      "es": "Don't understand",
+      "pt": "Don't understand"
     }
   },
   {
@@ -10973,7 +12885,9 @@ const N5_VOCAB = [
       "zh-CN": "慢慢",
       "ko": "[slowly]",
       "vi": "[slowly]",
-      "id": "[slowly]"
+      "id": "[slowly]",
+      "es": "slowly",
+      "pt": "slowly"
     },
     "ex": "ゆっくり話す",
     "exm": {
@@ -10982,7 +12896,9 @@ const N5_VOCAB = [
       "zh-CN": "慢慢说",
       "ko": "[Speak slowly]",
       "vi": "[Speak slowly]",
-      "id": "[Speak slowly]"
+      "id": "[Speak slowly]",
+      "es": "Speak slowly",
+      "pt": "Speak slowly"
     }
   },
   {
@@ -10995,7 +12911,9 @@ const N5_VOCAB = [
       "zh-CN": "马上",
       "ko": "[immediately]",
       "vi": "[immediately]",
-      "id": "[immediately]"
+      "id": "[immediately]",
+      "es": "immediately",
+      "pt": "immediately"
     },
     "ex": "すぐ来る",
     "exm": {
@@ -11004,7 +12922,9 @@ const N5_VOCAB = [
       "zh-CN": "马上来",
       "ko": "[Come immediately]",
       "vi": "[Come immediately]",
-      "id": "[Come immediately]"
+      "id": "[Come immediately]",
+      "es": "Come immediately",
+      "pt": "Come immediately"
     }
   },
   {
@@ -11017,7 +12937,9 @@ const N5_VOCAB = [
       "zh-CN": "一起",
       "ko": "[together]",
       "vi": "[together]",
-      "id": "[together]"
+      "id": "[together]",
+      "es": "together",
+      "pt": "together"
     },
     "ex": "一緒に行く",
     "exm": {
@@ -11026,7 +12948,9 @@ const N5_VOCAB = [
       "zh-CN": "一起去",
       "ko": "[Go together]",
       "vi": "[Go together]",
-      "id": "[Go together]"
+      "id": "[Go together]",
+      "es": "Go together",
+      "pt": "Go together"
     }
   },
   {
@@ -11039,7 +12963,9 @@ const N5_VOCAB = [
       "zh-CN": "第一次",
       "ko": "[first time]",
       "vi": "[first time]",
-      "id": "[first time]"
+      "id": "[first time]",
+      "es": "first time",
+      "pt": "first time"
     },
     "ex": "初めて会う",
     "exm": {
@@ -11048,7 +12974,9 @@ const N5_VOCAB = [
       "zh-CN": "第一次见面",
       "ko": "[Meet for first time]",
       "vi": "[Meet for first time]",
-      "id": "[Meet for first time]"
+      "id": "[Meet for first time]",
+      "es": "Meet for first time",
+      "pt": "Meet for first time"
     }
   },
   {
@@ -11061,7 +12989,9 @@ const N5_VOCAB = [
       "zh-CN": "大概",
       "ko": "[probably]",
       "vi": "[probably]",
-      "id": "[probably]"
+      "id": "[probably]",
+      "es": "probably",
+      "pt": "probably"
     },
     "ex": "多分来る",
     "exm": {
@@ -11070,7 +13000,9 @@ const N5_VOCAB = [
       "zh-CN": "大概会来",
       "ko": "[Probably come]",
       "vi": "[Probably come]",
-      "id": "[Probably come]"
+      "id": "[Probably come]",
+      "es": "Probably come",
+      "pt": "Probably come"
     }
   },
   {
@@ -11083,7 +13015,9 @@ const N5_VOCAB = [
       "zh-CN": "真的",
       "ko": "[really]",
       "vi": "[really]",
-      "id": "[really]"
+      "id": "[really]",
+      "es": "really",
+      "pt": "really"
     },
     "ex": "本当に美味しい",
     "exm": {
@@ -11092,7 +13026,9 @@ const N5_VOCAB = [
       "zh-CN": "真的好吃",
       "ko": "[Really delicious]",
       "vi": "[Really delicious]",
-      "id": "[Really delicious]"
+      "id": "[Really delicious]",
+      "es": "Really delicious",
+      "pt": "Really delicious"
     }
   },
   {
@@ -11105,7 +13041,9 @@ const N5_VOCAB = [
       "zh-CN": "一定",
       "ko": "[certainly]",
       "vi": "[certainly]",
-      "id": "[certainly]"
+      "id": "[certainly]",
+      "es": "certainly",
+      "pt": "certainly"
     },
     "ex": "必ず来る",
     "exm": {
@@ -11114,7 +13052,9 @@ const N5_VOCAB = [
       "zh-CN": "一定来",
       "ko": "[Certainly come]",
       "vi": "[Certainly come]",
-      "id": "[Certainly come]"
+      "id": "[Certainly come]",
+      "es": "Certainly come",
+      "pt": "Certainly come"
     }
   },
   {
@@ -11127,7 +13067,9 @@ const N5_VOCAB = [
       "zh-CN": "渐渐",
       "ko": "[gradually]",
       "vi": "[gradually]",
-      "id": "[gradually]"
+      "id": "[gradually]",
+      "es": "gradually",
+      "pt": "gradually"
     },
     "ex": "だんだん上手になる",
     "exm": {
@@ -11136,7 +13078,9 @@ const N5_VOCAB = [
       "zh-CN": "渐渐变好",
       "ko": "[Gradually improve]",
       "vi": "[Gradually improve]",
-      "id": "[Gradually improve]"
+      "id": "[Gradually improve]",
+      "es": "Gradually improve",
+      "pt": "Gradually improve"
     }
   },
   {
@@ -11149,7 +13093,9 @@ const N5_VOCAB = [
       "zh-CN": "什么",
       "ko": "무엇",
       "vi": "Cái gì",
-      "id": "Apa"
+      "id": "Apa",
+      "es": "what",
+      "pt": "what"
     },
     "ex": "何を食べる",
     "exm": {
@@ -11158,7 +13104,9 @@ const N5_VOCAB = [
       "zh-CN": "吃什么",
       "ko": "[What to eat]",
       "vi": "[What to eat]",
-      "id": "[What to eat]"
+      "id": "[What to eat]",
+      "es": "What to eat",
+      "pt": "What to eat"
     }
   },
   {
@@ -11171,7 +13119,9 @@ const N5_VOCAB = [
       "zh-CN": "谁",
       "ko": "누구",
       "vi": "Ai",
-      "id": "Siapa"
+      "id": "Siapa",
+      "es": "who",
+      "pt": "who"
     },
     "ex": "誰ですか",
     "exm": {
@@ -11180,7 +13130,9 @@ const N5_VOCAB = [
       "zh-CN": "是谁",
       "ko": "[Who is it?]",
       "vi": "[Who is it?]",
-      "id": "[Who is it?]"
+      "id": "[Who is it?]",
+      "es": "Who is it?",
+      "pt": "Who is it?"
     }
   },
   {
@@ -11193,7 +13145,9 @@ const N5_VOCAB = [
       "zh-CN": "哪里",
       "ko": "어디",
       "vi": "Ở đâu",
-      "id": "Di mana"
+      "id": "Di mana",
+      "es": "where",
+      "pt": "where"
     },
     "ex": "どこに行く",
     "exm": {
@@ -11202,7 +13156,9 @@ const N5_VOCAB = [
       "zh-CN": "去哪里",
       "ko": "[Where to go]",
       "vi": "[Where to go]",
-      "id": "[Where to go]"
+      "id": "[Where to go]",
+      "es": "Where to go",
+      "pt": "Where to go"
     }
   },
   {
@@ -11215,7 +13171,9 @@ const N5_VOCAB = [
       "zh-CN": "什么时候",
       "ko": "언제",
       "vi": "Khi nào",
-      "id": "Kapan"
+      "id": "Kapan",
+      "es": "when",
+      "pt": "when"
     },
     "ex": "いつ来る",
     "exm": {
@@ -11224,7 +13182,9 @@ const N5_VOCAB = [
       "zh-CN": "什么时候来",
       "ko": "[When to come]",
       "vi": "[When to come]",
-      "id": "[When to come]"
+      "id": "[When to come]",
+      "es": "When to come",
+      "pt": "When to come"
     }
   },
   {
@@ -11237,7 +13197,9 @@ const N5_VOCAB = [
       "zh-CN": "为什么",
       "ko": "왜",
       "vi": "Tại sao",
-      "id": "Mengapa"
+      "id": "Mengapa",
+      "es": "why",
+      "pt": "why"
     },
     "ex": "どうして来ない",
     "exm": {
@@ -11246,7 +13208,9 @@ const N5_VOCAB = [
       "zh-CN": "为什么不来",
       "ko": "[Why not come]",
       "vi": "[Why not come]",
-      "id": "[Why not come]"
+      "id": "[Why not come]",
+      "es": "Why not come",
+      "pt": "Why not come"
     }
   },
   {
@@ -11259,7 +13223,9 @@ const N5_VOCAB = [
       "zh-CN": "怎么",
       "ko": "어떻게",
       "vi": "Như thế nào",
-      "id": "Bagaimana"
+      "id": "Bagaimana",
+      "es": "how",
+      "pt": "how"
     },
     "ex": "どうですか",
     "exm": {
@@ -11268,7 +13234,9 @@ const N5_VOCAB = [
       "zh-CN": "怎么样",
       "ko": "[How is it?]",
       "vi": "[How is it?]",
-      "id": "[How is it?]"
+      "id": "[How is it?]",
+      "es": "How is it?",
+      "pt": "How is it?"
     }
   },
   {
@@ -11281,7 +13249,9 @@ const N5_VOCAB = [
       "zh-CN": "多少",
       "ko": "얼마",
       "vi": "Bao nhiêu",
-      "id": "Berapa"
+      "id": "Berapa",
+      "es": "how much",
+      "pt": "how much"
     },
     "ex": "いくらですか",
     "exm": {
@@ -11290,7 +13260,9 @@ const N5_VOCAB = [
       "zh-CN": "多少钱",
       "ko": "[How much?]",
       "vi": "[How much?]",
-      "id": "[How much?]"
+      "id": "[How much?]",
+      "es": "How much?",
+      "pt": "How much?"
     }
   },
   {
@@ -11303,7 +13275,9 @@ const N5_VOCAB = [
       "zh-CN": "几个",
       "ko": "많다",
       "vi": "nhiều",
-      "id": "banyak"
+      "id": "banyak",
+      "es": "how many",
+      "pt": "how many"
     },
     "ex": "いくつありますか",
     "exm": {
@@ -11312,7 +13286,9 @@ const N5_VOCAB = [
       "zh-CN": "有几个",
       "ko": "[How many?]",
       "vi": "[How many?]",
-      "id": "[How many?]"
+      "id": "[How many?]",
+      "es": "How many?",
+      "pt": "How many?"
     }
   },
   {
@@ -11325,7 +13301,9 @@ const N5_VOCAB = [
       "zh-CN": "这个",
       "ko": "이것",
       "vi": "Cái này",
-      "id": "Ini"
+      "id": "Ini",
+      "es": "this",
+      "pt": "this"
     },
     "ex": "これは何",
     "exm": {
@@ -11334,7 +13312,9 @@ const N5_VOCAB = [
       "zh-CN": "这是什么",
       "ko": "[What is this?]",
       "vi": "[What is this?]",
-      "id": "[What is this?]"
+      "id": "[What is this?]",
+      "es": "What is this?",
+      "pt": "What is this?"
     }
   },
   {
@@ -11347,7 +13327,9 @@ const N5_VOCAB = [
       "zh-CN": "那个",
       "ko": "저것",
       "vi": "Cái đó",
-      "id": "Itu"
+      "id": "Itu",
+      "es": "that",
+      "pt": "that"
     },
     "ex": "それは本",
     "exm": {
@@ -11356,7 +13338,9 @@ const N5_VOCAB = [
       "zh-CN": "那是书",
       "ko": "[That is a book]",
       "vi": "[That is a book]",
-      "id": "[That is a book]"
+      "id": "[That is a book]",
+      "es": "That is a book",
+      "pt": "That is a book"
     }
   },
   {
@@ -11369,7 +13353,9 @@ const N5_VOCAB = [
       "zh-CN": "那个",
       "ko": "[that (far)]",
       "vi": "[that (far)]",
-      "id": "[that (far)]"
+      "id": "[that (far)]",
+      "es": "that (far)",
+      "pt": "that (far)"
     },
     "ex": "あれは何",
     "exm": {
@@ -11378,7 +13364,9 @@ const N5_VOCAB = [
       "zh-CN": "那是什么",
       "ko": "[What is that?]",
       "vi": "[What is that?]",
-      "id": "[What is that?]"
+      "id": "[What is that?]",
+      "es": "What is that?",
+      "pt": "What is that?"
     }
   },
   {
@@ -11391,7 +13379,9 @@ const N5_VOCAB = [
       "zh-CN": "这个",
       "ko": "이것",
       "vi": "Cái này",
-      "id": "Ini"
+      "id": "Ini",
+      "es": "this",
+      "pt": "this"
     },
     "ex": "この本",
     "exm": {
@@ -11400,7 +13390,9 @@ const N5_VOCAB = [
       "zh-CN": "这本书",
       "ko": "[This book]",
       "vi": "[This book]",
-      "id": "[This book]"
+      "id": "[This book]",
+      "es": "This book",
+      "pt": "This book"
     }
   },
   {
@@ -11413,7 +13405,9 @@ const N5_VOCAB = [
       "zh-CN": "那个",
       "ko": "저것",
       "vi": "Cái đó",
-      "id": "Itu"
+      "id": "Itu",
+      "es": "that",
+      "pt": "that"
     },
     "ex": "その本",
     "exm": {
@@ -11422,7 +13416,9 @@ const N5_VOCAB = [
       "zh-CN": "那本书",
       "ko": "[That book]",
       "vi": "[That book]",
-      "id": "[That book]"
+      "id": "[That book]",
+      "es": "That book",
+      "pt": "That book"
     }
   },
   {
@@ -11435,7 +13431,9 @@ const N5_VOCAB = [
       "zh-CN": "那",
       "ko": "[that (far)]",
       "vi": "[that (far)]",
-      "id": "[that (far)]"
+      "id": "[that (far)]",
+      "es": "that (far)",
+      "pt": "that (far)"
     },
     "ex": "あの人",
     "exm": {
@@ -11444,7 +13442,9 @@ const N5_VOCAB = [
       "zh-CN": "那个人",
       "ko": "[That person]",
       "vi": "[That person]",
-      "id": "[That person]"
+      "id": "[That person]",
+      "es": "That person",
+      "pt": "That person"
     }
   },
   {
@@ -11457,7 +13457,9 @@ const N5_VOCAB = [
       "zh-CN": "这里",
       "ko": "[here]",
       "vi": "[here]",
-      "id": "[here]"
+      "id": "[here]",
+      "es": "here",
+      "pt": "here"
     },
     "ex": "ここに座る",
     "exm": {
@@ -11466,7 +13468,9 @@ const N5_VOCAB = [
       "zh-CN": "坐这里",
       "ko": "[Sit here]",
       "vi": "[Sit here]",
-      "id": "[Sit here]"
+      "id": "[Sit here]",
+      "es": "Sit here",
+      "pt": "Sit here"
     }
   },
   {
@@ -11479,7 +13483,9 @@ const N5_VOCAB = [
       "zh-CN": "那里",
       "ko": "[there]",
       "vi": "[there]",
-      "id": "[there]"
+      "id": "[there]",
+      "es": "there",
+      "pt": "there"
     },
     "ex": "そこに置く",
     "exm": {
@@ -11488,7 +13494,9 @@ const N5_VOCAB = [
       "zh-CN": "放那里",
       "ko": "[Put there]",
       "vi": "[Put there]",
-      "id": "[Put there]"
+      "id": "[Put there]",
+      "es": "Put there",
+      "pt": "Put there"
     }
   },
   {
@@ -11501,7 +13509,9 @@ const N5_VOCAB = [
       "zh-CN": "那边",
       "ko": "[over there]",
       "vi": "[over there]",
-      "id": "[over there]"
+      "id": "[over there]",
+      "es": "over there",
+      "pt": "over there"
     },
     "ex": "あそこに行く",
     "exm": {
@@ -11510,7 +13520,9 @@ const N5_VOCAB = [
       "zh-CN": "去那边",
       "ko": "[Go there]",
       "vi": "[Go there]",
-      "id": "[Go there]"
+      "id": "[Go there]",
+      "es": "Go there",
+      "pt": "Go there"
     }
   },
   {
@@ -11523,7 +13535,9 @@ const N5_VOCAB = [
       "zh-CN": "上面",
       "ko": "위",
       "vi": "Trên",
-      "id": "Atas"
+      "id": "Atas",
+      "es": "above",
+      "pt": "above"
     },
     "ex": "机の上",
     "exm": {
@@ -11532,7 +13546,9 @@ const N5_VOCAB = [
       "zh-CN": "桌上",
       "ko": "[On desk]",
       "vi": "[On desk]",
-      "id": "[On desk]"
+      "id": "[On desk]",
+      "es": "On desk",
+      "pt": "On desk"
     }
   },
   {
@@ -11545,7 +13561,9 @@ const N5_VOCAB = [
       "zh-CN": "下面",
       "ko": "아래",
       "vi": "Dưới",
-      "id": "Bawah"
+      "id": "Bawah",
+      "es": "below",
+      "pt": "below"
     },
     "ex": "机の下",
     "exm": {
@@ -11554,7 +13572,9 @@ const N5_VOCAB = [
       "zh-CN": "桌下",
       "ko": "[Under desk]",
       "vi": "[Under desk]",
-      "id": "[Under desk]"
+      "id": "[Under desk]",
+      "es": "Under desk",
+      "pt": "Under desk"
     }
   },
   {
@@ -11567,7 +13587,9 @@ const N5_VOCAB = [
       "zh-CN": "里面",
       "ko": "안",
       "vi": "Bên trong",
-      "id": "Dalam"
+      "id": "Dalam",
+      "es": "inside",
+      "pt": "inside"
     },
     "ex": "かばんの中",
     "exm": {
@@ -11576,7 +13598,9 @@ const N5_VOCAB = [
       "zh-CN": "包里",
       "ko": "[Inside bag]",
       "vi": "[Inside bag]",
-      "id": "[Inside bag]"
+      "id": "[Inside bag]",
+      "es": "Inside bag",
+      "pt": "Inside bag"
     }
   },
   {
@@ -11589,7 +13613,9 @@ const N5_VOCAB = [
       "zh-CN": "外面",
       "ko": "밖",
       "vi": "Bên ngoài",
-      "id": "Luar"
+      "id": "Luar",
+      "es": "outside",
+      "pt": "outside"
     },
     "ex": "家の外",
     "exm": {
@@ -11598,7 +13624,9 @@ const N5_VOCAB = [
       "zh-CN": "房外",
       "ko": "[Outside house]",
       "vi": "[Outside house]",
-      "id": "[Outside house]"
+      "id": "[Outside house]",
+      "es": "Outside house",
+      "pt": "Outside house"
     }
   },
   {
@@ -11611,7 +13639,9 @@ const N5_VOCAB = [
       "zh-CN": "前",
       "ko": "앞",
       "vi": "Trước",
-      "id": "Depan"
+      "id": "Depan",
+      "es": "front",
+      "pt": "front"
     },
     "ex": "駅の前",
     "exm": {
@@ -11620,7 +13650,9 @@ const N5_VOCAB = [
       "zh-CN": "车站前",
       "ko": "[Front of station]",
       "vi": "[Front of station]",
-      "id": "[Front of station]"
+      "id": "[Front of station]",
+      "es": "Front of station",
+      "pt": "Front of station"
     }
   },
   {
@@ -11633,7 +13665,9 @@ const N5_VOCAB = [
       "zh-CN": "后面",
       "ko": "[behind]",
       "vi": "[behind]",
-      "id": "[behind]"
+      "id": "[behind]",
+      "es": "behind",
+      "pt": "behind"
     },
     "ex": "家の後ろ",
     "exm": {
@@ -11642,7 +13676,9 @@ const N5_VOCAB = [
       "zh-CN": "房后",
       "ko": "[Behind house]",
       "vi": "[Behind house]",
-      "id": "[Behind house]"
+      "id": "[Behind house]",
+      "es": "Behind house",
+      "pt": "Behind house"
     }
   },
   {
@@ -11655,7 +13691,9 @@ const N5_VOCAB = [
       "zh-CN": "右",
       "ko": "오른쪽",
       "vi": "Phải",
-      "id": "Kanan"
+      "id": "Kanan",
+      "es": "right",
+      "pt": "right"
     },
     "ex": "右に曲がる",
     "exm": {
@@ -11664,7 +13702,9 @@ const N5_VOCAB = [
       "zh-CN": "向右转",
       "ko": "[Turn right]",
       "vi": "[Turn right]",
-      "id": "[Turn right]"
+      "id": "[Turn right]",
+      "es": "Turn right",
+      "pt": "Turn right"
     }
   },
   {
@@ -11677,7 +13717,9 @@ const N5_VOCAB = [
       "zh-CN": "左",
       "ko": "왼쪽",
       "vi": "Trái",
-      "id": "Kiri"
+      "id": "Kiri",
+      "es": "left",
+      "pt": "left"
     },
     "ex": "左に曲がる",
     "exm": {
@@ -11686,7 +13728,9 @@ const N5_VOCAB = [
       "zh-CN": "向左转",
       "ko": "[Turn left]",
       "vi": "[Turn left]",
-      "id": "[Turn left]"
+      "id": "[Turn left]",
+      "es": "Turn left",
+      "pt": "Turn left"
     }
   },
   {
@@ -11699,7 +13743,9 @@ const N5_VOCAB = [
       "zh-CN": "隔壁",
       "ko": "[next to]",
       "vi": "[next to]",
-      "id": "[next to]"
+      "id": "[next to]",
+      "es": "next to",
+      "pt": "next to"
     },
     "ex": "隣の部屋",
     "exm": {
@@ -11708,7 +13754,9 @@ const N5_VOCAB = [
       "zh-CN": "隔壁房",
       "ko": "[Next room]",
       "vi": "[Next room]",
-      "id": "[Next room]"
+      "id": "[Next room]",
+      "es": "Next room",
+      "pt": "Next room"
     }
   },
   {
@@ -11721,7 +13769,9 @@ const N5_VOCAB = [
       "zh-CN": "之间",
       "ko": "[between]",
       "vi": "[between]",
-      "id": "[between]"
+      "id": "[between]",
+      "es": "between",
+      "pt": "between"
     },
     "ex": "駅と家の間",
     "exm": {
@@ -11730,7 +13780,9 @@ const N5_VOCAB = [
       "zh-CN": "之间",
       "ko": "[Between]",
       "vi": "[Between]",
-      "id": "[Between]"
+      "id": "[Between]",
+      "es": "Between",
+      "pt": "Between"
     }
   },
   {
@@ -11743,7 +13795,9 @@ const N5_VOCAB = [
       "zh-CN": "是",
       "ko": "[yes]",
       "vi": "[yes]",
-      "id": "[yes]"
+      "id": "[yes]",
+      "es": "yes",
+      "pt": "yes"
     },
     "ex": "はい、そうです",
     "exm": {
@@ -11752,7 +13806,9 @@ const N5_VOCAB = [
       "zh-CN": "是的",
       "ko": "[Yes]",
       "vi": "[Yes]",
-      "id": "[Yes]"
+      "id": "[Yes]",
+      "es": "Yes",
+      "pt": "Yes"
     }
   },
   {
@@ -11765,7 +13821,9 @@ const N5_VOCAB = [
       "zh-CN": "不是",
       "ko": "[no]",
       "vi": "[no]",
-      "id": "[no]"
+      "id": "[no]",
+      "es": "no",
+      "pt": "no"
     },
     "ex": "いいえ、違います",
     "exm": {
@@ -11774,7 +13832,9 @@ const N5_VOCAB = [
       "zh-CN": "不是",
       "ko": "[No]",
       "vi": "[No]",
-      "id": "[No]"
+      "id": "[No]",
+      "es": "No",
+      "pt": "No"
     }
   },
   {
@@ -11787,7 +13847,9 @@ const N5_VOCAB = [
       "zh-CN": "谢谢",
       "ko": "감사합니다",
       "vi": "Cảm ơn",
-      "id": "Terima kasih"
+      "id": "Terima kasih",
+      "es": "thank you",
+      "pt": "thank you"
     },
     "ex": "ありがとうございます",
     "exm": {
@@ -11796,7 +13858,9 @@ const N5_VOCAB = [
       "zh-CN": "谢谢",
       "ko": "[Thank you]",
       "vi": "[Thank you]",
-      "id": "[Thank you]"
+      "id": "[Thank you]",
+      "es": "Thank you",
+      "pt": "Thank you"
     }
   },
   {
@@ -11809,7 +13873,9 @@ const N5_VOCAB = [
       "zh-CN": "不好意思",
       "ko": "실례합니다",
       "vi": "Xin lỗi",
-      "id": "Permisi"
+      "id": "Permisi",
+      "es": "excuse me",
+      "pt": "excuse me"
     },
     "ex": "すみません",
     "exm": {
@@ -11818,7 +13884,9 @@ const N5_VOCAB = [
       "zh-CN": "对不起",
       "ko": "[Excuse me]",
       "vi": "[Excuse me]",
-      "id": "[Excuse me]"
+      "id": "[Excuse me]",
+      "es": "Excuse me",
+      "pt": "Excuse me"
     }
   },
   {
@@ -11831,7 +13899,9 @@ const N5_VOCAB = [
       "zh-CN": "抱歉",
       "ko": "[sorry]",
       "vi": "[sorry]",
-      "id": "[sorry]"
+      "id": "[sorry]",
+      "es": "sorry",
+      "pt": "sorry"
     },
     "ex": "ごめんなさい",
     "exm": {
@@ -11840,7 +13910,9 @@ const N5_VOCAB = [
       "zh-CN": "抱歉",
       "ko": "[I'm sorry]",
       "vi": "[I'm sorry]",
-      "id": "[I'm sorry]"
+      "id": "[I'm sorry]",
+      "es": "I'm sorry",
+      "pt": "I'm sorry"
     }
   },
   {
@@ -11853,7 +13925,9 @@ const N5_VOCAB = [
       "zh-CN": "拜托",
       "ko": "[please]",
       "vi": "[please]",
-      "id": "[please]"
+      "id": "[please]",
+      "es": "please",
+      "pt": "please"
     },
     "ex": "お願いします",
     "exm": {
@@ -11862,7 +13936,9 @@ const N5_VOCAB = [
       "zh-CN": "拜托",
       "ko": "[Please]",
       "vi": "[Please]",
-      "id": "[Please]"
+      "id": "[Please]",
+      "es": "Please",
+      "pt": "Please"
     }
   },
   {
@@ -11875,7 +13951,9 @@ const N5_VOCAB = [
       "zh-CN": "早上好",
       "ko": "좋은 아침",
       "vi": "Chào buổi sáng",
-      "id": "Selamat pagi"
+      "id": "Selamat pagi",
+      "es": "good morning",
+      "pt": "good morning"
     },
     "ex": "おはようございます",
     "exm": {
@@ -11884,7 +13962,9 @@ const N5_VOCAB = [
       "zh-CN": "早安",
       "ko": "[Good morning]",
       "vi": "[Good morning]",
-      "id": "[Good morning]"
+      "id": "[Good morning]",
+      "es": "Good morning",
+      "pt": "Good morning"
     }
   },
   {
@@ -11897,7 +13977,9 @@ const N5_VOCAB = [
       "zh-CN": "你好",
       "ko": "안녕하세요",
       "vi": "Xin chào",
-      "id": "Halo"
+      "id": "Halo",
+      "es": "hello",
+      "pt": "hello"
     },
     "ex": "こんにちは",
     "exm": {
@@ -11906,7 +13988,9 @@ const N5_VOCAB = [
       "zh-CN": "你好",
       "ko": "[Hello]",
       "vi": "[Hello]",
-      "id": "[Hello]"
+      "id": "[Hello]",
+      "es": "Hello",
+      "pt": "Hello"
     }
   },
   {
@@ -11919,7 +14003,9 @@ const N5_VOCAB = [
       "zh-CN": "晚上好",
       "ko": "좋은 저녁",
       "vi": "Chào buổi tối",
-      "id": "Selamat malam"
+      "id": "Selamat malam",
+      "es": "good evening",
+      "pt": "good evening"
     },
     "ex": "こんばんは",
     "exm": {
@@ -11928,7 +14014,9 @@ const N5_VOCAB = [
       "zh-CN": "晚上好",
       "ko": "[Good evening]",
       "vi": "[Good evening]",
-      "id": "[Good evening]"
+      "id": "[Good evening]",
+      "es": "Good evening",
+      "pt": "Good evening"
     }
   },
   {
@@ -11941,7 +14029,9 @@ const N5_VOCAB = [
       "zh-CN": "再见",
       "ko": "안녕히 가세요",
       "vi": "Tạm biệt",
-      "id": "Selamat tinggal"
+      "id": "Selamat tinggal",
+      "es": "goodbye",
+      "pt": "goodbye"
     },
     "ex": "さようなら",
     "exm": {
@@ -11950,7 +14040,9 @@ const N5_VOCAB = [
       "zh-CN": "再见",
       "ko": "[Goodbye]",
       "vi": "[Goodbye]",
-      "id": "[Goodbye]"
+      "id": "[Goodbye]",
+      "es": "Goodbye",
+      "pt": "Goodbye"
     }
   },
   {
@@ -11963,7 +14055,9 @@ const N5_VOCAB = [
       "zh-CN": "晚安",
       "ko": "좋다",
       "vi": "tốt",
-      "id": "baik"
+      "id": "baik",
+      "es": "good night",
+      "pt": "good night"
     },
     "ex": "おやすみなさい",
     "exm": {
@@ -11972,7 +14066,9 @@ const N5_VOCAB = [
       "zh-CN": "晚安",
       "ko": "[Good night]",
       "vi": "[Good night]",
-      "id": "[Good night]"
+      "id": "[Good night]",
+      "es": "Good night",
+      "pt": "Good night"
     }
   },
   {
@@ -11985,7 +14081,9 @@ const N5_VOCAB = [
       "zh-CN": "开动了",
       "ko": "[bon appetit]",
       "vi": "[bon appetit]",
-      "id": "[bon appetit]"
+      "id": "[bon appetit]",
+      "es": "bon appetit",
+      "pt": "bon appetit"
     },
     "ex": "いただきます",
     "exm": {
@@ -11994,7 +14092,9 @@ const N5_VOCAB = [
       "zh-CN": "开动了",
       "ko": "[Let's eat]",
       "vi": "[Let's eat]",
-      "id": "[Let's eat]"
+      "id": "[Let's eat]",
+      "es": "Let's eat",
+      "pt": "Let's eat"
     }
   },
   {
@@ -12007,7 +14107,9 @@ const N5_VOCAB = [
       "zh-CN": "谢谢款待",
       "ko": "[thanks for meal]",
       "vi": "[thanks for meal]",
-      "id": "[thanks for meal]"
+      "id": "[thanks for meal]",
+      "es": "thanks for meal",
+      "pt": "thanks for meal"
     },
     "ex": "ごちそうさまでした",
     "exm": {
@@ -12016,7 +14118,9 @@ const N5_VOCAB = [
       "zh-CN": "谢谢款待",
       "ko": "[Thanks for meal]",
       "vi": "[Thanks for meal]",
-      "id": "[Thanks for meal]"
+      "id": "[Thanks for meal]",
+      "es": "Thanks for meal",
+      "pt": "Thanks for meal"
     }
   },
   {
@@ -12029,7 +14133,9 @@ const N5_VOCAB = [
       "zh-CN": "一个",
       "ko": "[one thing]",
       "vi": "[one thing]",
-      "id": "[one thing]"
+      "id": "[one thing]",
+      "es": "one thing",
+      "pt": "one thing"
     },
     "ex": "一つください",
     "exm": {
@@ -12038,7 +14144,9 @@ const N5_VOCAB = [
       "zh-CN": "请给一个",
       "ko": "[One please]",
       "vi": "[One please]",
-      "id": "[One please]"
+      "id": "[One please]",
+      "es": "One please",
+      "pt": "One please"
     }
   },
   {
@@ -12051,7 +14159,9 @@ const N5_VOCAB = [
       "zh-CN": "两个",
       "ko": "[two things]",
       "vi": "[two things]",
-      "id": "[two things]"
+      "id": "[two things]",
+      "es": "two things",
+      "pt": "two things"
     },
     "ex": "二つ買う",
     "exm": {
@@ -12060,7 +14170,9 @@ const N5_VOCAB = [
       "zh-CN": "买两个",
       "ko": "[Buy two]",
       "vi": "[Buy two]",
-      "id": "[Buy two]"
+      "id": "[Buy two]",
+      "es": "Buy two",
+      "pt": "Buy two"
     }
   },
   {
@@ -12073,7 +14185,9 @@ const N5_VOCAB = [
       "zh-CN": "三个",
       "ko": "[three things]",
       "vi": "[three things]",
-      "id": "[three things]"
+      "id": "[three things]",
+      "es": "three things",
+      "pt": "three things"
     },
     "ex": "三つある",
     "exm": {
@@ -12082,7 +14196,9 @@ const N5_VOCAB = [
       "zh-CN": "有三个",
       "ko": "[There are three]",
       "vi": "[There are three]",
-      "id": "[There are three]"
+      "id": "[There are three]",
+      "es": "There are three",
+      "pt": "There are three"
     }
   },
   {
@@ -12095,7 +14211,9 @@ const N5_VOCAB = [
       "zh-CN": "四个",
       "ko": "[four things]",
       "vi": "[four things]",
-      "id": "[four things]"
+      "id": "[four things]",
+      "es": "four things",
+      "pt": "four things"
     },
     "ex": "四つください",
     "exm": {
@@ -12104,7 +14222,9 @@ const N5_VOCAB = [
       "zh-CN": "请给四个",
       "ko": "[Four please]",
       "vi": "[Four please]",
-      "id": "[Four please]"
+      "id": "[Four please]",
+      "es": "Four please",
+      "pt": "Four please"
     }
   },
   {
@@ -12117,7 +14237,9 @@ const N5_VOCAB = [
       "zh-CN": "五个",
       "ko": "[five things]",
       "vi": "[five things]",
-      "id": "[five things]"
+      "id": "[five things]",
+      "es": "five things",
+      "pt": "five things"
     },
     "ex": "五つ食べた",
     "exm": {
@@ -12126,7 +14248,9 @@ const N5_VOCAB = [
       "zh-CN": "吃了五个",
       "ko": "[Ate five]",
       "vi": "[Ate five]",
-      "id": "[Ate five]"
+      "id": "[Ate five]",
+      "es": "Ate five",
+      "pt": "Ate five"
     }
   },
   {
@@ -12139,7 +14263,9 @@ const N5_VOCAB = [
       "zh-CN": "一个人",
       "ko": "[one person]",
       "vi": "[one person]",
-      "id": "[one person]"
+      "id": "[one person]",
+      "es": "one person",
+      "pt": "one person"
     },
     "ex": "一人で行く",
     "exm": {
@@ -12148,7 +14274,9 @@ const N5_VOCAB = [
       "zh-CN": "一个人去",
       "ko": "[Go alone]",
       "vi": "[Go alone]",
-      "id": "[Go alone]"
+      "id": "[Go alone]",
+      "es": "Go alone",
+      "pt": "Go alone"
     }
   },
   {
@@ -12161,7 +14289,9 @@ const N5_VOCAB = [
       "zh-CN": "两个人",
       "ko": "[two people]",
       "vi": "[two people]",
-      "id": "[two people]"
+      "id": "[two people]",
+      "es": "two people",
+      "pt": "two people"
     },
     "ex": "二人で行く",
     "exm": {
@@ -12170,7 +14300,9 @@ const N5_VOCAB = [
       "zh-CN": "两个人去",
       "ko": "[Go with two]",
       "vi": "[Go with two]",
-      "id": "[Go with two]"
+      "id": "[Go with two]",
+      "es": "Go with two",
+      "pt": "Go with two"
     }
   },
   {
@@ -12183,7 +14315,9 @@ const N5_VOCAB = [
       "zh-CN": "一次",
       "ko": "[one time]",
       "vi": "[one time]",
-      "id": "[one time]"
+      "id": "[one time]",
+      "es": "one time",
+      "pt": "one time"
     },
     "ex": "一回行った",
     "exm": {
@@ -12192,7 +14326,9 @@ const N5_VOCAB = [
       "zh-CN": "去了一次",
       "ko": "[Went once]",
       "vi": "[Went once]",
-      "id": "[Went once]"
+      "id": "[Went once]",
+      "es": "Went once",
+      "pt": "Went once"
     }
   },
   {
@@ -12205,7 +14341,9 @@ const N5_VOCAB = [
       "zh-CN": "一支",
       "ko": "[one (long)]",
       "vi": "[one (long)]",
-      "id": "[one (long)]"
+      "id": "[one (long)]",
+      "es": "one (long)",
+      "pt": "one (long)"
     },
     "ex": "ペンを一本",
     "exm": {
@@ -12214,7 +14352,9 @@ const N5_VOCAB = [
       "zh-CN": "一支笔",
       "ko": "[One pen]",
       "vi": "[One pen]",
-      "id": "[One pen]"
+      "id": "[One pen]",
+      "es": "One pen",
+      "pt": "One pen"
     }
   },
   {
@@ -12227,7 +14367,9 @@ const N5_VOCAB = [
       "zh-CN": "一张",
       "ko": "[one (flat)]",
       "vi": "[one (flat)]",
-      "id": "[one (flat)]"
+      "id": "[one (flat)]",
+      "es": "one (flat)",
+      "pt": "one (flat)"
     },
     "ex": "紙を一枚",
     "exm": {
@@ -12236,7 +14378,9 @@ const N5_VOCAB = [
       "zh-CN": "一张纸",
       "ko": "[One paper]",
       "vi": "[One paper]",
-      "id": "[One paper]"
+      "id": "[One paper]",
+      "es": "One paper",
+      "pt": "One paper"
     }
   },
   {
@@ -12249,7 +14393,9 @@ const N5_VOCAB = [
       "zh-CN": "电影",
       "ko": "[movie]",
       "vi": "[movie]",
-      "id": "[movie]"
+      "id": "[movie]",
+      "es": "movie",
+      "pt": "movie"
     },
     "ex": "映画を見る",
     "exm": {
@@ -12258,7 +14404,9 @@ const N5_VOCAB = [
       "zh-CN": "看电影",
       "ko": "[Watch movie]",
       "vi": "[Watch movie]",
-      "id": "[Watch movie]"
+      "id": "[Watch movie]",
+      "es": "Watch movie",
+      "pt": "Watch movie"
     }
   },
   {
@@ -12271,7 +14419,9 @@ const N5_VOCAB = [
       "zh-CN": "音乐",
       "ko": "[music]",
       "vi": "[music]",
-      "id": "[music]"
+      "id": "[music]",
+      "es": "music",
+      "pt": "music"
     },
     "ex": "音楽を聞く",
     "exm": {
@@ -12280,7 +14430,9 @@ const N5_VOCAB = [
       "zh-CN": "听音乐",
       "ko": "[Listen to music]",
       "vi": "[Listen to music]",
-      "id": "[Listen to music]"
+      "id": "[Listen to music]",
+      "es": "Listen to music",
+      "pt": "Listen to music"
     }
   },
   {
@@ -12293,7 +14445,9 @@ const N5_VOCAB = [
       "zh-CN": "运动",
       "ko": "[sports]",
       "vi": "[sports]",
-      "id": "[sports]"
+      "id": "[sports]",
+      "es": "sports",
+      "pt": "sports"
     },
     "ex": "スポーツをする",
     "exm": {
@@ -12302,7 +14456,9 @@ const N5_VOCAB = [
       "zh-CN": "做运动",
       "ko": "[Do sports]",
       "vi": "[Do sports]",
-      "id": "[Do sports]"
+      "id": "[Do sports]",
+      "es": "Do sports",
+      "pt": "Do sports"
     }
   },
   {
@@ -12315,7 +14471,9 @@ const N5_VOCAB = [
       "zh-CN": "兴趣",
       "ko": "[hobby]",
       "vi": "[hobby]",
-      "id": "[hobby]"
+      "id": "[hobby]",
+      "es": "hobby",
+      "pt": "hobby"
     },
     "ex": "趣味は何",
     "exm": {
@@ -12324,7 +14482,9 @@ const N5_VOCAB = [
       "zh-CN": "兴趣是什么",
       "ko": "[What's your hobby?]",
       "vi": "[What's your hobby?]",
-      "id": "[What's your hobby?]"
+      "id": "[What's your hobby?]",
+      "es": "What's your hobby?",
+      "pt": "What's your hobby?"
     }
   },
   {
@@ -12337,7 +14497,9 @@ const N5_VOCAB = [
       "zh-CN": "休息",
       "ko": "[holiday]",
       "vi": "[holiday]",
-      "id": "[holiday]"
+      "id": "[holiday]",
+      "es": "holiday",
+      "pt": "holiday"
     },
     "ex": "明日は休み",
     "exm": {
@@ -12346,7 +14508,9 @@ const N5_VOCAB = [
       "zh-CN": "明天休息",
       "ko": "[Tomorrow off]",
       "vi": "[Tomorrow off]",
-      "id": "[Tomorrow off]"
+      "id": "[Tomorrow off]",
+      "es": "Tomorrow off",
+      "pt": "Tomorrow off"
     }
   },
   {
@@ -12359,7 +14523,9 @@ const N5_VOCAB = [
       "zh-CN": "旅行",
       "ko": "[travel]",
       "vi": "[travel]",
-      "id": "[travel]"
+      "id": "[travel]",
+      "es": "travel",
+      "pt": "travel"
     },
     "ex": "旅行に行く",
     "exm": {
@@ -12368,7 +14534,9 @@ const N5_VOCAB = [
       "zh-CN": "去旅行",
       "ko": "[Go on trip]",
       "vi": "[Go on trip]",
-      "id": "[Go on trip]"
+      "id": "[Go on trip]",
+      "es": "Go on trip",
+      "pt": "Go on trip"
     }
   },
   {
@@ -12381,7 +14549,9 @@ const N5_VOCAB = [
       "zh-CN": "工作",
       "ko": "[work]",
       "vi": "[work]",
-      "id": "[work]"
+      "id": "[work]",
+      "es": "work",
+      "pt": "work"
     },
     "ex": "仕事をする",
     "exm": {
@@ -12390,7 +14560,9 @@ const N5_VOCAB = [
       "zh-CN": "工作",
       "ko": "[Do work]",
       "vi": "[Do work]",
-      "id": "[Do work]"
+      "id": "[Do work]",
+      "es": "Do work",
+      "pt": "Do work"
     },
     "syn": [
       "業務",
@@ -12408,7 +14580,9 @@ const N5_VOCAB = [
       "zh-CN": "会议",
       "ko": "[meeting]",
       "vi": "[meeting]",
-      "id": "[meeting]"
+      "id": "[meeting]",
+      "es": "meeting",
+      "pt": "meeting"
     },
     "ex": "会議に出る",
     "exm": {
@@ -12417,7 +14591,9 @@ const N5_VOCAB = [
       "zh-CN": "开会",
       "ko": "[Attend meeting]",
       "vi": "[Attend meeting]",
-      "id": "[Attend meeting]"
+      "id": "[Attend meeting]",
+      "es": "Attend meeting",
+      "pt": "Attend meeting"
     }
   },
   {
@@ -12430,7 +14606,9 @@ const N5_VOCAB = [
       "zh-CN": "作业",
       "ko": "[homework]",
       "vi": "[homework]",
-      "id": "[homework]"
+      "id": "[homework]",
+      "es": "homework",
+      "pt": "homework"
     },
     "ex": "宿題をする",
     "exm": {
@@ -12439,7 +14617,9 @@ const N5_VOCAB = [
       "zh-CN": "做作业",
       "ko": "[Do homework]",
       "vi": "[Do homework]",
-      "id": "[Do homework]"
+      "id": "[Do homework]",
+      "es": "Do homework",
+      "pt": "Do homework"
     }
   },
   {
@@ -12452,7 +14632,9 @@ const N5_VOCAB = [
       "zh-CN": "考试",
       "ko": "[exam]",
       "vi": "[exam]",
-      "id": "[exam]"
+      "id": "[exam]",
+      "es": "exam",
+      "pt": "exam"
     },
     "ex": "試験を受ける",
     "exm": {
@@ -12461,7 +14643,9 @@ const N5_VOCAB = [
       "zh-CN": "考试",
       "ko": "[Take exam]",
       "vi": "[Take exam]",
-      "id": "[Take exam]"
+      "id": "[Take exam]",
+      "es": "Take exam",
+      "pt": "Take exam"
     }
   },
   {
@@ -12474,7 +14658,9 @@ const N5_VOCAB = [
       "zh-CN": "问题",
       "ko": "[problem]",
       "vi": "[problem]",
-      "id": "[problem]"
+      "id": "[problem]",
+      "es": "problem",
+      "pt": "problem"
     },
     "ex": "問題を解く",
     "exm": {
@@ -12483,7 +14669,9 @@ const N5_VOCAB = [
       "zh-CN": "解决问题",
       "ko": "[Solve problem]",
       "vi": "[Solve problem]",
-      "id": "[Solve problem]"
+      "id": "[Solve problem]",
+      "es": "Solve problem",
+      "pt": "Solve problem"
     }
   },
   {
@@ -12496,7 +14684,9 @@ const N5_VOCAB = [
       "zh-CN": "答案",
       "ko": "[answer]",
       "vi": "[answer]",
-      "id": "[answer]"
+      "id": "[answer]",
+      "es": "answer",
+      "pt": "answer"
     },
     "ex": "答えを書く",
     "exm": {
@@ -12505,7 +14695,9 @@ const N5_VOCAB = [
       "zh-CN": "写答案",
       "ko": "[Write answer]",
       "vi": "[Write answer]",
-      "id": "[Write answer]"
+      "id": "[Write answer]",
+      "es": "Write answer",
+      "pt": "Write answer"
     }
   },
   {
@@ -12518,7 +14710,9 @@ const N5_VOCAB = [
       "zh-CN": "问题",
       "ko": "[question]",
       "vi": "[question]",
-      "id": "[question]"
+      "id": "[question]",
+      "es": "question",
+      "pt": "question"
     },
     "ex": "質問がある",
     "exm": {
@@ -12527,7 +14721,9 @@ const N5_VOCAB = [
       "zh-CN": "有问题",
       "ko": "[Have question]",
       "vi": "[Have question]",
-      "id": "[Have question]"
+      "id": "[Have question]",
+      "es": "Have question",
+      "pt": "Have question"
     }
   },
   {
@@ -12540,7 +14736,9 @@ const N5_VOCAB = [
       "zh-CN": "意思",
       "ko": "[meaning]",
       "vi": "[meaning]",
-      "id": "[meaning]"
+      "id": "[meaning]",
+      "es": "meaning",
+      "pt": "meaning"
     },
     "ex": "意味が分かる",
     "exm": {
@@ -12549,7 +14747,9 @@ const N5_VOCAB = [
       "zh-CN": "了解意思",
       "ko": "[Understand]",
       "vi": "[Understand]",
-      "id": "[Understand]"
+      "id": "[Understand]",
+      "es": "Understand",
+      "pt": "Understand"
     }
   },
   {
@@ -12562,7 +14762,9 @@ const N5_VOCAB = [
       "zh-CN": "单词",
       "ko": "단어",
       "vi": "Từ",
-      "id": "Kata"
+      "id": "Kata",
+      "es": "word",
+      "pt": "word"
     },
     "ex": "言葉を覚える",
     "exm": {
@@ -12571,7 +14773,9 @@ const N5_VOCAB = [
       "zh-CN": "记住话",
       "ko": "[Learn words]",
       "vi": "[Learn words]",
-      "id": "[Learn words]"
+      "id": "[Learn words]",
+      "es": "Learn words",
+      "pt": "Learn words"
     }
   },
   {
@@ -12584,7 +14788,9 @@ const N5_VOCAB = [
       "zh-CN": "汉字",
       "ko": "[kanji]",
       "vi": "[kanji]",
-      "id": "[kanji]"
+      "id": "[kanji]",
+      "es": "kanji",
+      "pt": "kanji"
     },
     "ex": "漢字を覚える",
     "exm": {
@@ -12593,7 +14799,9 @@ const N5_VOCAB = [
       "zh-CN": "记汉字",
       "ko": "[Learn kanji]",
       "vi": "[Learn kanji]",
-      "id": "[Learn kanji]"
+      "id": "[Learn kanji]",
+      "es": "Learn kanji",
+      "pt": "Learn kanji"
     }
   },
   {
@@ -12606,7 +14814,9 @@ const N5_VOCAB = [
       "zh-CN": "名字",
       "ko": "이름",
       "vi": "Tên",
-      "id": "Nama"
+      "id": "Nama",
+      "es": "name",
+      "pt": "name"
     },
     "ex": "名前を書く",
     "exm": {
@@ -12615,7 +14825,9 @@ const N5_VOCAB = [
       "zh-CN": "写名字",
       "ko": "[Write name]",
       "vi": "[Write name]",
-      "id": "[Write name]"
+      "id": "[Write name]",
+      "es": "Write name",
+      "pt": "Write name"
     }
   },
   {
@@ -12628,7 +14840,9 @@ const N5_VOCAB = [
       "zh-CN": "地址",
       "ko": "[address]",
       "vi": "[address]",
-      "id": "[address]"
+      "id": "[address]",
+      "es": "address",
+      "pt": "address"
     },
     "ex": "住所を書く",
     "exm": {
@@ -12637,7 +14851,9 @@ const N5_VOCAB = [
       "zh-CN": "写地址",
       "ko": "[Write address]",
       "vi": "[Write address]",
-      "id": "[Write address]"
+      "id": "[Write address]",
+      "es": "Write address",
+      "pt": "Write address"
     }
   },
   {
@@ -12650,7 +14866,9 @@ const N5_VOCAB = [
       "zh-CN": "生日",
       "ko": "[birthday]",
       "vi": "[birthday]",
-      "id": "[birthday]"
+      "id": "[birthday]",
+      "es": "birthday",
+      "pt": "birthday"
     },
     "ex": "誕生日を祝う",
     "exm": {
@@ -12659,7 +14877,9 @@ const N5_VOCAB = [
       "zh-CN": "庆祝生日",
       "ko": "[Celebrate]",
       "vi": "[Celebrate]",
-      "id": "[Celebrate]"
+      "id": "[Celebrate]",
+      "es": "Celebrate",
+      "pt": "Celebrate"
     }
   },
   {
@@ -12672,7 +14892,9 @@ const N5_VOCAB = [
       "zh-CN": "狗",
       "ko": "개",
       "vi": "Chó",
-      "id": "Anjing"
+      "id": "Anjing",
+      "es": "dog",
+      "pt": "dog"
     },
     "ex": "犬を飼う",
     "exm": {
@@ -12681,7 +14903,9 @@ const N5_VOCAB = [
       "zh-CN": "养狗",
       "ko": "[Keep dog]",
       "vi": "[Keep dog]",
-      "id": "[Keep dog]"
+      "id": "[Keep dog]",
+      "es": "Keep dog",
+      "pt": "Keep dog"
     }
   },
   {
@@ -12694,7 +14918,9 @@ const N5_VOCAB = [
       "zh-CN": "猫",
       "ko": "고양이",
       "vi": "Mèo",
-      "id": "Kucing"
+      "id": "Kucing",
+      "es": "cat",
+      "pt": "cat"
     },
     "ex": "猫が好き",
     "exm": {
@@ -12703,7 +14929,9 @@ const N5_VOCAB = [
       "zh-CN": "喜欢猫",
       "ko": "[Like cats]",
       "vi": "[Like cats]",
-      "id": "[Like cats]"
+      "id": "[Like cats]",
+      "es": "Like cats",
+      "pt": "Like cats"
     }
   },
   {
@@ -12716,7 +14944,9 @@ const N5_VOCAB = [
       "zh-CN": "鸟",
       "ko": "새",
       "vi": "Chim",
-      "id": "Burung"
+      "id": "Burung",
+      "es": "bird",
+      "pt": "bird"
     },
     "ex": "鳥が飛ぶ",
     "exm": {
@@ -12725,7 +14955,9 @@ const N5_VOCAB = [
       "zh-CN": "鸟飞",
       "ko": "[Bird flies]",
       "vi": "[Bird flies]",
-      "id": "[Bird flies]"
+      "id": "[Bird flies]",
+      "es": "Bird flies",
+      "pt": "Bird flies"
     }
   },
   {
@@ -12738,7 +14970,9 @@ const N5_VOCAB = [
       "zh-CN": "动物",
       "ko": "동물",
       "vi": "Động vật",
-      "id": "Hewan"
+      "id": "Hewan",
+      "es": "animal",
+      "pt": "animal"
     },
     "ex": "動物が好き",
     "exm": {
@@ -12747,7 +14981,9 @@ const N5_VOCAB = [
       "zh-CN": "喜欢动物",
       "ko": "[Like animals]",
       "vi": "[Like animals]",
-      "id": "[Like animals]"
+      "id": "[Like animals]",
+      "es": "Like animals",
+      "pt": "Like animals"
     }
   },
   {
@@ -12760,7 +14996,9 @@ const N5_VOCAB = [
       "zh-CN": "汽车",
       "ko": "자동차",
       "vi": "Xe hơi",
-      "id": "Mobil"
+      "id": "Mobil",
+      "es": "car",
+      "pt": "car"
     },
     "ex": "車を運転する",
     "exm": {
@@ -12769,7 +15007,9 @@ const N5_VOCAB = [
       "zh-CN": "开车",
       "ko": "[Drive car]",
       "vi": "[Drive car]",
-      "id": "[Drive car]"
+      "id": "[Drive car]",
+      "es": "Drive car",
+      "pt": "Drive car"
     },
     "syn": [
       "自動車",
@@ -12787,7 +15027,9 @@ const N5_VOCAB = [
       "zh-CN": "电车",
       "ko": "전철",
       "vi": "Tàu điện",
-      "id": "Kereta"
+      "id": "Kereta",
+      "es": "train",
+      "pt": "train"
     },
     "ex": "電車に乗る",
     "exm": {
@@ -12796,7 +15038,9 @@ const N5_VOCAB = [
       "zh-CN": "坐电车",
       "ko": "[Ride train]",
       "vi": "[Ride train]",
-      "id": "[Ride train]"
+      "id": "[Ride train]",
+      "es": "Ride train",
+      "pt": "Ride train"
     },
     "syn": [
       "列車",
@@ -12814,7 +15058,9 @@ const N5_VOCAB = [
       "zh-CN": "公交车",
       "ko": "버스",
       "vi": "Xe buýt",
-      "id": "Bus"
+      "id": "Bus",
+      "es": "bus",
+      "pt": "bus"
     },
     "ex": "バスに乗る",
     "exm": {
@@ -12823,7 +15069,9 @@ const N5_VOCAB = [
       "zh-CN": "坐公交车",
       "ko": "[Ride bus]",
       "vi": "[Ride bus]",
-      "id": "[Ride bus]"
+      "id": "[Ride bus]",
+      "es": "Ride bus",
+      "pt": "Ride bus"
     }
   },
   {
@@ -12836,7 +15084,9 @@ const N5_VOCAB = [
       "zh-CN": "出租车",
       "ko": "택시",
       "vi": "Taxi",
-      "id": "Taksi"
+      "id": "Taksi",
+      "es": "taxi",
+      "pt": "taxi"
     },
     "ex": "タクシーに乗る",
     "exm": {
@@ -12845,7 +15095,9 @@ const N5_VOCAB = [
       "zh-CN": "打出租车",
       "ko": "[Take taxi]",
       "vi": "[Take taxi]",
-      "id": "[Take taxi]"
+      "id": "[Take taxi]",
+      "es": "Take taxi",
+      "pt": "Take taxi"
     }
   },
   {
@@ -12858,7 +15110,9 @@ const N5_VOCAB = [
       "zh-CN": "飞机",
       "ko": "비행기",
       "vi": "Máy bay",
-      "id": "Pesawat"
+      "id": "Pesawat",
+      "es": "airplane",
+      "pt": "airplane"
     },
     "ex": "飛行機に乗る",
     "exm": {
@@ -12867,7 +15121,9 @@ const N5_VOCAB = [
       "zh-CN": "坐飞机",
       "ko": "[Ride airplane]",
       "vi": "[Ride airplane]",
-      "id": "[Ride airplane]"
+      "id": "[Ride airplane]",
+      "es": "Ride airplane",
+      "pt": "Ride airplane"
     },
     "syn": [
       "航空機",
@@ -12885,7 +15141,9 @@ const N5_VOCAB = [
       "zh-CN": "自行车",
       "ko": "자전거",
       "vi": "Xe đạp",
-      "id": "Sepeda"
+      "id": "Sepeda",
+      "es": "bicycle",
+      "pt": "bicycle"
     },
     "ex": "自転車に乗る",
     "exm": {
@@ -12894,7 +15152,9 @@ const N5_VOCAB = [
       "zh-CN": "骑自行车",
       "ko": "[Ride bicycle]",
       "vi": "[Ride bicycle]",
-      "id": "[Ride bicycle]"
+      "id": "[Ride bicycle]",
+      "es": "Ride bicycle",
+      "pt": "Ride bicycle"
     }
   },
   {
@@ -12907,7 +15167,9 @@ const N5_VOCAB = [
       "zh-CN": "票",
       "ko": "[ticket]",
       "vi": "[ticket]",
-      "id": "[ticket]"
+      "id": "[ticket]",
+      "es": "ticket",
+      "pt": "ticket"
     },
     "ex": "切符を買う",
     "exm": {
@@ -12916,7 +15178,9 @@ const N5_VOCAB = [
       "zh-CN": "买票",
       "ko": "[Buy ticket]",
       "vi": "[Buy ticket]",
-      "id": "[Buy ticket]"
+      "id": "[Buy ticket]",
+      "es": "Buy ticket",
+      "pt": "Buy ticket"
     }
   },
   {
@@ -12929,7 +15193,9 @@ const N5_VOCAB = [
       "zh-CN": "身体",
       "ko": "[body]",
       "vi": "[body]",
-      "id": "[body]"
+      "id": "[body]",
+      "es": "body",
+      "pt": "body"
     },
     "ex": "体が大きい",
     "exm": {
@@ -12938,7 +15204,9 @@ const N5_VOCAB = [
       "zh-CN": "身体大",
       "ko": "[Big body]",
       "vi": "[Big body]",
-      "id": "[Big body]"
+      "id": "[Big body]",
+      "es": "Big body",
+      "pt": "Big body"
     }
   },
   {
@@ -12951,7 +15219,9 @@ const N5_VOCAB = [
       "zh-CN": "头",
       "ko": "[head]",
       "vi": "[head]",
-      "id": "[head]"
+      "id": "[head]",
+      "es": "head",
+      "pt": "head"
     },
     "ex": "頭が痛い",
     "exm": {
@@ -12960,7 +15230,9 @@ const N5_VOCAB = [
       "zh-CN": "头痛",
       "ko": "[Headache]",
       "vi": "[Headache]",
-      "id": "[Headache]"
+      "id": "[Headache]",
+      "es": "Headache",
+      "pt": "Headache"
     }
   },
   {
@@ -12973,7 +15245,9 @@ const N5_VOCAB = [
       "zh-CN": "脸",
       "ko": "[face]",
       "vi": "[face]",
-      "id": "[face]"
+      "id": "[face]",
+      "es": "face",
+      "pt": "face"
     },
     "ex": "顔を洗う",
     "exm": {
@@ -12982,7 +15256,9 @@ const N5_VOCAB = [
       "zh-CN": "洗脸",
       "ko": "[Wash face]",
       "vi": "[Wash face]",
-      "id": "[Wash face]"
+      "id": "[Wash face]",
+      "es": "Wash face",
+      "pt": "Wash face"
     }
   },
   {
@@ -12995,7 +15271,9 @@ const N5_VOCAB = [
       "zh-CN": "眼睛",
       "ko": "[eye]",
       "vi": "[eye]",
-      "id": "[eye]"
+      "id": "[eye]",
+      "es": "eye",
+      "pt": "eye"
     },
     "ex": "目が大きい",
     "exm": {
@@ -13004,7 +15282,9 @@ const N5_VOCAB = [
       "zh-CN": "眼睛大",
       "ko": "[Big eyes]",
       "vi": "[Big eyes]",
-      "id": "[Big eyes]"
+      "id": "[Big eyes]",
+      "es": "Big eyes",
+      "pt": "Big eyes"
     }
   },
   {
@@ -13017,7 +15297,9 @@ const N5_VOCAB = [
       "zh-CN": "耳朵",
       "ko": "[ear]",
       "vi": "[ear]",
-      "id": "[ear]"
+      "id": "[ear]",
+      "es": "ear",
+      "pt": "ear"
     },
     "ex": "耳が痛い",
     "exm": {
@@ -13026,7 +15308,9 @@ const N5_VOCAB = [
       "zh-CN": "耳朵痛",
       "ko": "[Ear hurts]",
       "vi": "[Ear hurts]",
-      "id": "[Ear hurts]"
+      "id": "[Ear hurts]",
+      "es": "Ear hurts",
+      "pt": "Ear hurts"
     }
   },
   {
@@ -13039,7 +15323,9 @@ const N5_VOCAB = [
       "zh-CN": "鼻子",
       "ko": "[nose]",
       "vi": "[nose]",
-      "id": "[nose]"
+      "id": "[nose]",
+      "es": "nose",
+      "pt": "nose"
     },
     "ex": "鼻が高い",
     "exm": {
@@ -13048,7 +15334,9 @@ const N5_VOCAB = [
       "zh-CN": "鼻子高",
       "ko": "[Tall nose]",
       "vi": "[Tall nose]",
-      "id": "[Tall nose]"
+      "id": "[Tall nose]",
+      "es": "Tall nose",
+      "pt": "Tall nose"
     }
   },
   {
@@ -13061,7 +15349,9 @@ const N5_VOCAB = [
       "zh-CN": "嘴巴",
       "ko": "[mouth]",
       "vi": "[mouth]",
-      "id": "[mouth]"
+      "id": "[mouth]",
+      "es": "mouth",
+      "pt": "mouth"
     },
     "ex": "口を開ける",
     "exm": {
@@ -13070,7 +15360,9 @@ const N5_VOCAB = [
       "zh-CN": "张嘴",
       "ko": "[Open mouth]",
       "vi": "[Open mouth]",
-      "id": "[Open mouth]"
+      "id": "[Open mouth]",
+      "es": "Open mouth",
+      "pt": "Open mouth"
     }
   },
   {
@@ -13083,7 +15375,9 @@ const N5_VOCAB = [
       "zh-CN": "牙齿",
       "ko": "[tooth]",
       "vi": "[tooth]",
-      "id": "[tooth]"
+      "id": "[tooth]",
+      "es": "tooth",
+      "pt": "tooth"
     },
     "ex": "歯を磨く",
     "exm": {
@@ -13092,7 +15386,9 @@ const N5_VOCAB = [
       "zh-CN": "刷牙",
       "ko": "[Brush teeth]",
       "vi": "[Brush teeth]",
-      "id": "[Brush teeth]"
+      "id": "[Brush teeth]",
+      "es": "Brush teeth",
+      "pt": "Brush teeth"
     }
   },
   {
@@ -13105,7 +15401,9 @@ const N5_VOCAB = [
       "zh-CN": "手",
       "ko": "[hand]",
       "vi": "[hand]",
-      "id": "[hand]"
+      "id": "[hand]",
+      "es": "hand",
+      "pt": "hand"
     },
     "ex": "手を洗う",
     "exm": {
@@ -13114,7 +15412,9 @@ const N5_VOCAB = [
       "zh-CN": "洗手",
       "ko": "[Wash hands]",
       "vi": "[Wash hands]",
-      "id": "[Wash hands]"
+      "id": "[Wash hands]",
+      "es": "Wash hands",
+      "pt": "Wash hands"
     }
   },
   {
@@ -13127,7 +15427,9 @@ const N5_VOCAB = [
       "zh-CN": "脚",
       "ko": "[leg]",
       "vi": "[leg]",
-      "id": "[leg]"
+      "id": "[leg]",
+      "es": "leg",
+      "pt": "leg"
     },
     "ex": "足が痛い",
     "exm": {
@@ -13136,7 +15438,9 @@ const N5_VOCAB = [
       "zh-CN": "脚痛",
       "ko": "[Foot hurts]",
       "vi": "[Foot hurts]",
-      "id": "[Foot hurts]"
+      "id": "[Foot hurts]",
+      "es": "Foot hurts",
+      "pt": "Foot hurts"
     }
   },
   {
@@ -13149,7 +15453,9 @@ const N5_VOCAB = [
       "zh-CN": "衣服",
       "ko": "[clothes]",
       "vi": "[clothes]",
-      "id": "[clothes]"
+      "id": "[clothes]",
+      "es": "clothes",
+      "pt": "clothes"
     },
     "ex": "服を着る",
     "exm": {
@@ -13158,7 +15464,9 @@ const N5_VOCAB = [
       "zh-CN": "穿衣服",
       "ko": "[Wear clothes]",
       "vi": "[Wear clothes]",
-      "id": "[Wear clothes]"
+      "id": "[Wear clothes]",
+      "es": "Wear clothes",
+      "pt": "Wear clothes"
     }
   },
   {
@@ -13171,7 +15479,9 @@ const N5_VOCAB = [
       "zh-CN": "鞋子",
       "ko": "[shoes]",
       "vi": "[shoes]",
-      "id": "[shoes]"
+      "id": "[shoes]",
+      "es": "shoes",
+      "pt": "shoes"
     },
     "ex": "靴を履く",
     "exm": {
@@ -13180,7 +15490,9 @@ const N5_VOCAB = [
       "zh-CN": "穿鞋",
       "ko": "[Wear shoes]",
       "vi": "[Wear shoes]",
-      "id": "[Wear shoes]"
+      "id": "[Wear shoes]",
+      "es": "Wear shoes",
+      "pt": "Wear shoes"
     }
   },
   {
@@ -13193,7 +15505,9 @@ const N5_VOCAB = [
       "zh-CN": "帽子",
       "ko": "[hat]",
       "vi": "[hat]",
-      "id": "[hat]"
+      "id": "[hat]",
+      "es": "hat",
+      "pt": "hat"
     },
     "ex": "帽子をかぶる",
     "exm": {
@@ -13202,7 +15516,9 @@ const N5_VOCAB = [
       "zh-CN": "戴帽子",
       "ko": "[Wear hat]",
       "vi": "[Wear hat]",
-      "id": "[Wear hat]"
+      "id": "[Wear hat]",
+      "es": "Wear hat",
+      "pt": "Wear hat"
     }
   },
   {
@@ -13215,7 +15531,9 @@ const N5_VOCAB = [
       "zh-CN": "颜色",
       "ko": "색",
       "vi": "Màu",
-      "id": "Warna"
+      "id": "Warna",
+      "es": "color",
+      "pt": "color"
     },
     "ex": "何色が好き",
     "exm": {
@@ -13224,7 +15542,9 @@ const N5_VOCAB = [
       "zh-CN": "喜欢什么色",
       "ko": "[What color?]",
       "vi": "[What color?]",
-      "id": "[What color?]"
+      "id": "[What color?]",
+      "es": "What color?",
+      "pt": "What color?"
     }
   },
   {
@@ -13237,7 +15557,9 @@ const N5_VOCAB = [
       "zh-CN": "价格",
       "ko": "[price]",
       "vi": "[price]",
-      "id": "[price]"
+      "id": "[price]",
+      "es": "price",
+      "pt": "price"
     },
     "ex": "値段を聞く",
     "exm": {
@@ -13246,7 +15568,9 @@ const N5_VOCAB = [
       "zh-CN": "问价格",
       "ko": "[Ask price]",
       "vi": "[Ask price]",
-      "id": "[Ask price]"
+      "id": "[Ask price]",
+      "es": "Ask price",
+      "pt": "Ask price"
     }
   },
   {
@@ -13259,7 +15583,9 @@ const N5_VOCAB = [
       "zh-CN": "购物",
       "ko": "[shopping]",
       "vi": "[shopping]",
-      "id": "[shopping]"
+      "id": "[shopping]",
+      "es": "shopping",
+      "pt": "shopping"
     },
     "ex": "買い物に行く",
     "exm": {
@@ -13268,7 +15594,9 @@ const N5_VOCAB = [
       "zh-CN": "去购物",
       "ko": "[Go shopping]",
       "vi": "[Go shopping]",
-      "id": "[Go shopping]"
+      "id": "[Go shopping]",
+      "es": "Go shopping",
+      "pt": "Go shopping"
     }
   },
   {
@@ -13281,7 +15609,9 @@ const N5_VOCAB = [
       "zh-CN": "预约",
       "ko": "[reservation]",
       "vi": "[reservation]",
-      "id": "[reservation]"
+      "id": "[reservation]",
+      "es": "reservation",
+      "pt": "reservation"
     },
     "ex": "予約する",
     "exm": {
@@ -13290,7 +15620,9 @@ const N5_VOCAB = [
       "zh-CN": "预约",
       "ko": "[Reserve]",
       "vi": "[Reserve]",
-      "id": "[Reserve]"
+      "id": "[Reserve]",
+      "es": "Reserve",
+      "pt": "Reserve"
     }
   },
   {
@@ -13303,7 +15635,9 @@ const N5_VOCAB = [
       "zh-CN": "药",
       "ko": "[medicine]",
       "vi": "[medicine]",
-      "id": "[medicine]"
+      "id": "[medicine]",
+      "es": "medicine",
+      "pt": "medicine"
     },
     "ex": "薬を飲む",
     "exm": {
@@ -13312,7 +15646,9 @@ const N5_VOCAB = [
       "zh-CN": "吃药",
       "ko": "[Take medicine]",
       "vi": "[Take medicine]",
-      "id": "[Take medicine]"
+      "id": "[Take medicine]",
+      "es": "Take medicine",
+      "pt": "Take medicine"
     }
   },
   {
@@ -13325,7 +15661,9 @@ const N5_VOCAB = [
       "zh-CN": "冷",
       "ko": "추운",
       "vi": "Lạnh",
-      "id": "Dingin"
+      "id": "Dingin",
+      "es": "cold",
+      "pt": "cold"
     },
     "ex": "風邪をひく",
     "exm": {
@@ -13334,7 +15672,9 @@ const N5_VOCAB = [
       "zh-CN": "感冒了",
       "ko": "[Catch cold]",
       "vi": "[Catch cold]",
-      "id": "[Catch cold]"
+      "id": "[Catch cold]",
+      "es": "Catch cold",
+      "pt": "Catch cold"
     }
   },
   {
@@ -13347,7 +15687,9 @@ const N5_VOCAB = [
       "zh-CN": "约定",
       "ko": "[promise]",
       "vi": "[promise]",
-      "id": "[promise]"
+      "id": "[promise]",
+      "es": "promise",
+      "pt": "promise"
     },
     "ex": "約束を守る",
     "exm": {
@@ -13356,7 +15698,9 @@ const N5_VOCAB = [
       "zh-CN": "遵守约定",
       "ko": "[Keep promise]",
       "vi": "[Keep promise]",
-      "id": "[Keep promise]"
+      "id": "[Keep promise]",
+      "es": "Keep promise",
+      "pt": "Keep promise"
     }
   },
   {
@@ -13369,7 +15713,9 @@ const N5_VOCAB = [
       "zh-CN": "练习",
       "ko": "[practice]",
       "vi": "[practice]",
-      "id": "[practice]"
+      "id": "[practice]",
+      "es": "practice",
+      "pt": "practice"
     },
     "ex": "練習する",
     "exm": {
@@ -13378,7 +15724,9 @@ const N5_VOCAB = [
       "zh-CN": "练习",
       "ko": "[Practice]",
       "vi": "[Practice]",
-      "id": "[Practice]"
+      "id": "[Practice]",
+      "es": "Practice",
+      "pt": "Practice"
     }
   },
   {
@@ -13391,7 +15739,9 @@ const N5_VOCAB = [
       "zh-CN": "准备",
       "ko": "[preparation]",
       "vi": "[preparation]",
-      "id": "[preparation]"
+      "id": "[preparation]",
+      "es": "preparation",
+      "pt": "preparation"
     },
     "ex": "準備をする",
     "exm": {
@@ -13400,7 +15750,9 @@ const N5_VOCAB = [
       "zh-CN": "准备",
       "ko": "[Prepare]",
       "vi": "[Prepare]",
-      "id": "[Prepare]"
+      "id": "[Prepare]",
+      "es": "Prepare",
+      "pt": "Prepare"
     }
   },
   {
@@ -13413,7 +15765,9 @@ const N5_VOCAB = [
       "zh-CN": "介绍",
       "ko": "[introduction]",
       "vi": "[introduction]",
-      "id": "[introduction]"
+      "id": "[introduction]",
+      "es": "introduction",
+      "pt": "introduction"
     },
     "ex": "紹介する",
     "exm": {
@@ -13422,7 +15776,9 @@ const N5_VOCAB = [
       "zh-CN": "介绍",
       "ko": "[Introduce]",
       "vi": "[Introduce]",
-      "id": "[Introduce]"
+      "id": "[Introduce]",
+      "es": "Introduce",
+      "pt": "Introduce"
     }
   },
   {
@@ -13435,7 +15791,9 @@ const N5_VOCAB = [
       "zh-CN": "联络",
       "ko": "[contact]",
       "vi": "[contact]",
-      "id": "[contact]"
+      "id": "[contact]",
+      "es": "contact",
+      "pt": "contact"
     },
     "ex": "連絡する",
     "exm": {
@@ -13444,7 +15802,9 @@ const N5_VOCAB = [
       "zh-CN": "联络",
       "ko": "[Contact]",
       "vi": "[Contact]",
-      "id": "[Contact]"
+      "id": "[Contact]",
+      "es": "Contact",
+      "pt": "Contact"
     }
   },
   {
@@ -13457,7 +15817,9 @@ const N5_VOCAB = [
       "zh-CN": "全部",
       "ko": "[all]",
       "vi": "[all]",
-      "id": "[all]"
+      "id": "[all]",
+      "es": "all",
+      "pt": "all"
     },
     "ex": "全部食べる",
     "exm": {
@@ -13466,7 +15828,9 @@ const N5_VOCAB = [
       "zh-CN": "全部吃",
       "ko": "[Eat all]",
       "vi": "[Eat all]",
-      "id": "[Eat all]"
+      "id": "[Eat all]",
+      "es": "Eat all",
+      "pt": "Eat all"
     }
   },
   {
@@ -13479,7 +15843,9 @@ const N5_VOCAB = [
       "zh-CN": "一半",
       "ko": "[half]",
       "vi": "[half]",
-      "id": "[half]"
+      "id": "[half]",
+      "es": "half",
+      "pt": "half"
     },
     "ex": "半分食べる",
     "exm": {
@@ -13488,7 +15854,9 @@ const N5_VOCAB = [
       "zh-CN": "吃一半",
       "ko": "[Eat half]",
       "vi": "[Eat half]",
-      "id": "[Eat half]"
+      "id": "[Eat half]",
+      "es": "Eat half",
+      "pt": "Eat half"
     }
   },
   {
@@ -13501,7 +15869,9 @@ const N5_VOCAB = [
       "zh-CN": "自己",
       "ko": "[oneself]",
       "vi": "[oneself]",
-      "id": "[oneself]"
+      "id": "[oneself]",
+      "es": "oneself",
+      "pt": "oneself"
     },
     "ex": "自分でする",
     "exm": {
@@ -13510,7 +15880,9 @@ const N5_VOCAB = [
       "zh-CN": "自己做",
       "ko": "[Do by oneself]",
       "vi": "[Do by oneself]",
-      "id": "[Do by oneself]"
+      "id": "[Do by oneself]",
+      "es": "Do by oneself",
+      "pt": "Do by oneself"
     }
   },
   {
@@ -13523,7 +15895,9 @@ const N5_VOCAB = [
       "zh-CN": "大家",
       "ko": "[everyone]",
       "vi": "[everyone]",
-      "id": "[everyone]"
+      "id": "[everyone]",
+      "es": "everyone",
+      "pt": "everyone"
     },
     "ex": "皆で行く",
     "exm": {
@@ -13532,7 +15906,9 @@ const N5_VOCAB = [
       "zh-CN": "大家去",
       "ko": "[Go together]",
       "vi": "[Go together]",
-      "id": "[Go together]"
+      "id": "[Go together]",
+      "es": "Go together",
+      "pt": "Go together"
     }
   },
   {
@@ -13545,7 +15921,9 @@ const N5_VOCAB = [
       "zh-CN": "真的",
       "ko": "[truth]",
       "vi": "[truth]",
-      "id": "[truth]"
+      "id": "[truth]",
+      "es": "truth",
+      "pt": "truth"
     },
     "ex": "本当ですか",
     "exm": {
@@ -13554,7 +15932,9 @@ const N5_VOCAB = [
       "zh-CN": "真的吗",
       "ko": "[Is it true?]",
       "vi": "[Is it true?]",
-      "id": "[Is it true?]"
+      "id": "[Is it true?]",
+      "es": "Is it true?",
+      "pt": "Is it true?"
     }
   },
   {
@@ -13567,7 +15947,9 @@ const N5_VOCAB = [
       "zh-CN": "出口",
       "ko": "[exit]",
       "vi": "[exit]",
-      "id": "[exit]"
+      "id": "[exit]",
+      "es": "exit",
+      "pt": "exit"
     },
     "ex": "出口はどこ",
     "exm": {
@@ -13576,7 +15958,9 @@ const N5_VOCAB = [
       "zh-CN": "出口在哪",
       "ko": "[Where exit?]",
       "vi": "[Where exit?]",
-      "id": "[Where exit?]"
+      "id": "[Where exit?]",
+      "es": "Where exit?",
+      "pt": "Where exit?"
     }
   },
   {
@@ -13589,7 +15973,9 @@ const N5_VOCAB = [
       "zh-CN": "尺寸",
       "ko": "사이즈",
       "vi": "kích cỡ",
-      "id": "ukuran"
+      "id": "ukuran",
+      "es": "size",
+      "pt": "size"
     },
     "ex": "サイズを選ぶ",
     "exm": {
@@ -13598,7 +15984,9 @@ const N5_VOCAB = [
       "zh-CN": "选尺寸",
       "ko": "사이즈를 고르다",
       "vi": "chọn kích cỡ",
-      "id": "memilih ukuran"
+      "id": "memilih ukuran",
+      "es": "choose size",
+      "pt": "choose size"
     }
   },
   {
@@ -13611,7 +15999,9 @@ const N5_VOCAB = [
       "zh-CN": "折扣",
       "ko": "할인",
       "vi": "giảm giá",
-      "id": "diskon"
+      "id": "diskon",
+      "es": "discount",
+      "pt": "discount"
     },
     "ex": "割引がある",
     "exm": {
@@ -13620,7 +16010,9 @@ const N5_VOCAB = [
       "zh-CN": "有折扣",
       "ko": "할인이 있다",
       "vi": "có giảm giá",
-      "id": "ada diskon"
+      "id": "ada diskon",
+      "es": "there is discount",
+      "pt": "there is discount"
     }
   },
   {
@@ -13633,7 +16025,9 @@ const N5_VOCAB = [
       "zh-CN": "现金",
       "ko": "현금",
       "vi": "tiền mặt",
-      "id": "tunai"
+      "id": "tunai",
+      "es": "cash",
+      "pt": "cash"
     },
     "ex": "現金で払う",
     "exm": {
@@ -13642,7 +16036,9 @@ const N5_VOCAB = [
       "zh-CN": "付现",
       "ko": "현금으로 내다",
       "vi": "trả tiền mặt",
-      "id": "bayar tunai"
+      "id": "bayar tunai",
+      "es": "pay in cash",
+      "pt": "pay in cash"
     }
   },
   {
@@ -13655,7 +16051,9 @@ const N5_VOCAB = [
       "zh-CN": "点餐",
       "ko": "주문",
       "vi": "gọi món",
-      "id": "pesanan"
+      "id": "pesanan",
+      "es": "order",
+      "pt": "order"
     },
     "ex": "注文する",
     "exm": {
@@ -13664,7 +16062,9 @@ const N5_VOCAB = [
       "zh-CN": "点餐",
       "ko": "주문하다",
       "vi": "gọi món",
-      "id": "memesan"
+      "id": "memesan",
+      "es": "order",
+      "pt": "order"
     }
   },
   {
@@ -13677,7 +16077,9 @@ const N5_VOCAB = [
       "zh-CN": "结账",
       "ko": "계산",
       "vi": "thanh toán",
-      "id": "tagihan"
+      "id": "tagihan",
+      "es": "bill",
+      "pt": "bill"
     },
     "ex": "会計をする",
     "exm": {
@@ -13686,7 +16088,9 @@ const N5_VOCAB = [
       "zh-CN": "结账",
       "ko": "계산하다",
       "vi": "thanh toán",
-      "id": "membayar"
+      "id": "membayar",
+      "es": "pay bill",
+      "pt": "pay bill"
     }
   },
   {
@@ -13699,7 +16103,9 @@ const N5_VOCAB = [
       "zh-CN": "空闲",
       "ko": "한가한",
       "vi": "Rảnh",
-      "id": "Bebas"
+      "id": "Bebas",
+      "es": "free",
+      "pt": "free"
     },
     "ex": "無料です",
     "exm": {
@@ -13708,7 +16114,9 @@ const N5_VOCAB = [
       "zh-CN": "免费",
       "ko": "무료입니다",
       "vi": "miễn phí",
-      "id": "gratis"
+      "id": "gratis",
+      "es": "it is free",
+      "pt": "it is free"
     }
   },
   {
@@ -13721,7 +16129,9 @@ const N5_VOCAB = [
       "zh-CN": "担心",
       "ko": "걱정",
       "vi": "lo lắng",
-      "id": "khawatir"
+      "id": "khawatir",
+      "es": "worry",
+      "pt": "worry"
     },
     "ex": "心配しないで",
     "exm": {
@@ -13730,7 +16140,9 @@ const N5_VOCAB = [
       "zh-CN": "别担心",
       "ko": "걱정하지 마",
       "vi": "đừng lo",
-      "id": "jangan khawatir"
+      "id": "jangan khawatir",
+      "es": "don't worry",
+      "pt": "don't worry"
     }
   },
   {
@@ -13743,7 +16155,9 @@ const N5_VOCAB = [
       "zh-CN": "放心",
       "ko": "안심",
       "vi": "yên tâm",
-      "id": "lega"
+      "id": "lega",
+      "es": "relief",
+      "pt": "relief"
     },
     "ex": "安心する",
     "exm": {
@@ -13752,7 +16166,9 @@ const N5_VOCAB = [
       "zh-CN": "放心",
       "ko": "안심하다",
       "vi": "yên tâm",
-      "id": "merasa lega"
+      "id": "merasa lega",
+      "es": "feel relieved",
+      "pt": "feel relieved"
     }
   },
   {
@@ -13765,7 +16181,9 @@ const N5_VOCAB = [
       "zh-CN": "梦",
       "ko": "꿈",
       "vi": "giấc mơ",
-      "id": "mimpi"
+      "id": "mimpi",
+      "es": "dream",
+      "pt": "dream"
     },
     "ex": "夢を見る",
     "exm": {
@@ -13774,7 +16192,9 @@ const N5_VOCAB = [
       "zh-CN": "做梦",
       "ko": "꿈을 꾸다",
       "vi": "mơ",
-      "id": "bermimpi"
+      "id": "bermimpi",
+      "es": "have a dream",
+      "pt": "have a dream"
     }
   },
   {
@@ -13787,7 +16207,9 @@ const N5_VOCAB = [
       "zh-CN": "努力",
       "ko": "노력",
       "vi": "nỗ lực",
-      "id": "usaha"
+      "id": "usaha",
+      "es": "effort",
+      "pt": "effort"
     },
     "ex": "努力する",
     "exm": {
@@ -13796,7 +16218,9 @@ const N5_VOCAB = [
       "zh-CN": "努力",
       "ko": "노력하다",
       "vi": "nỗ lực",
-      "id": "berusaha"
+      "id": "berusaha",
+      "es": "make effort",
+      "pt": "make effort"
     }
   },
   {
@@ -13809,7 +16233,9 @@ const N5_VOCAB = [
       "zh-CN": "成功",
       "ko": "성공",
       "vi": "thành công",
-      "id": "sukses"
+      "id": "sukses",
+      "es": "success",
+      "pt": "success"
     },
     "ex": "成功する",
     "exm": {
@@ -13818,7 +16244,9 @@ const N5_VOCAB = [
       "zh-CN": "成功",
       "ko": "성공하다",
       "vi": "thành công",
-      "id": "berhasil"
+      "id": "berhasil",
+      "es": "succeed",
+      "pt": "succeed"
     }
   },
   {
@@ -13831,7 +16259,9 @@ const N5_VOCAB = [
       "zh-CN": "失败",
       "ko": "실패",
       "vi": "thất bại",
-      "id": "gagal"
+      "id": "gagal",
+      "es": "failure",
+      "pt": "failure"
     },
     "ex": "失敗する",
     "exm": {
@@ -13840,7 +16270,9 @@ const N5_VOCAB = [
       "zh-CN": "失败",
       "ko": "실패하다",
       "vi": "thất bại",
-      "id": "gagal"
+      "id": "gagal",
+      "es": "fail",
+      "pt": "fail"
     }
   },
   {
@@ -13853,7 +16285,9 @@ const N5_VOCAB = [
       "zh-CN": "经验",
       "ko": "경험",
       "vi": "kinh nghiệm",
-      "id": "pengalaman"
+      "id": "pengalaman",
+      "es": "experience",
+      "pt": "experience"
     },
     "ex": "経験がある",
     "exm": {
@@ -13862,7 +16296,9 @@ const N5_VOCAB = [
       "zh-CN": "有经验",
       "ko": "경험이 있다",
       "vi": "có kinh nghiệm",
-      "id": "punya pengalaman"
+      "id": "punya pengalaman",
+      "es": "have experience",
+      "pt": "have experience"
     }
   },
   {
@@ -13875,7 +16311,9 @@ const N5_VOCAB = [
       "zh-CN": "兴趣",
       "ko": "흥미",
       "vi": "hứng thú",
-      "id": "minat"
+      "id": "minat",
+      "es": "interest",
+      "pt": "interest"
     },
     "ex": "興味がある",
     "exm": {
@@ -13884,7 +16322,9 @@ const N5_VOCAB = [
       "zh-CN": "有兴趣",
       "ko": "흥미가 있다",
       "vi": "có hứng thú",
-      "id": "punya minat"
+      "id": "punya minat",
+      "es": "have interest",
+      "pt": "have interest"
     }
   },
   {
@@ -13897,7 +16337,9 @@ const N5_VOCAB = [
       "zh-CN": "理由",
       "ko": "이유",
       "vi": "lý do",
-      "id": "alasan"
+      "id": "alasan",
+      "es": "reason",
+      "pt": "reason"
     },
     "ex": "理由を聞く",
     "exm": {
@@ -13906,7 +16348,9 @@ const N5_VOCAB = [
       "zh-CN": "问理由",
       "ko": "이유를 묻다",
       "vi": "hỏi lý do",
-      "id": "bertanya alasan"
+      "id": "bertanya alasan",
+      "es": "ask reason",
+      "pt": "ask reason"
     }
   },
   {
@@ -13919,7 +16363,9 @@ const N5_VOCAB = [
       "zh-CN": "结果",
       "ko": "결과",
       "vi": "kết quả",
-      "id": "hasil"
+      "id": "hasil",
+      "es": "result",
+      "pt": "result"
     },
     "ex": "結果を待つ",
     "exm": {
@@ -13928,7 +16374,9 @@ const N5_VOCAB = [
       "zh-CN": "等结果",
       "ko": "결과를 기다리다",
       "vi": "chờ kết quả",
-      "id": "menunggu hasil"
+      "id": "menunggu hasil",
+      "es": "wait for result",
+      "pt": "wait for result"
     }
   },
   {
@@ -13941,7 +16389,9 @@ const N5_VOCAB = [
       "zh-CN": "关系",
       "ko": "관계",
       "vi": "mối quan hệ",
-      "id": "hubungan"
+      "id": "hubungan",
+      "es": "relationship",
+      "pt": "relationship"
     },
     "ex": "関係がある",
     "exm": {
@@ -13950,7 +16400,9 @@ const N5_VOCAB = [
       "zh-CN": "有关系",
       "ko": "관계가 있다",
       "vi": "có quan hệ",
-      "id": "ada hubungan"
+      "id": "ada hubungan",
+      "es": "have relation",
+      "pt": "have relation"
     }
   },
   {
@@ -13963,7 +16415,9 @@ const N5_VOCAB = [
       "zh-CN": "结束",
       "ko": "끝내다",
       "vi": "kết thúc",
-      "id": "menyelesaikan"
+      "id": "menyelesaikan",
+      "es": "finish",
+      "pt": "finish"
     },
     "ex": "仕事を終える",
     "exm": {
@@ -13972,7 +16426,9 @@ const N5_VOCAB = [
       "zh-CN": "结束工作",
       "ko": "일을 끝내다",
       "vi": "kết thúc công việc",
-      "id": "menyelesaikan kerja"
+      "id": "menyelesaikan kerja",
+      "es": "finish work",
+      "pt": "finish work"
     }
   },
   {
@@ -13985,7 +16441,9 @@ const N5_VOCAB = [
       "zh-CN": "经过",
       "ko": "지나다",
       "vi": "qua",
-      "id": "lewat"
+      "id": "lewat",
+      "es": "pass",
+      "pt": "pass"
     },
     "ex": "時間が過ぎる",
     "exm": {
@@ -13994,7 +16452,9 @@ const N5_VOCAB = [
       "zh-CN": "时间过去",
       "ko": "시간이 지나다",
       "vi": "thời gian trôi qua",
-      "id": "waktu berlalu"
+      "id": "waktu berlalu",
+      "es": "time passes",
+      "pt": "time passes"
     }
   },
   {
@@ -14007,7 +16467,9 @@ const N5_VOCAB = [
       "zh-CN": "然后",
       "ko": "그리고",
       "vi": "và rồi",
-      "id": "lalu"
+      "id": "lalu",
+      "es": "and then",
+      "pt": "and then"
     },
     "ex": "食べた、そして寝た",
     "exm": {
@@ -14016,7 +16478,9 @@ const N5_VOCAB = [
       "zh-CN": "吃了，然后睡了",
       "ko": "먹고 그리고 잤다",
       "vi": "ăn rồi ngủ",
-      "id": "makan lalu tidur"
+      "id": "makan lalu tidur",
+      "es": "ate, then slept",
+      "pt": "ate, then slept"
     }
   },
   {
@@ -14029,7 +16493,9 @@ const N5_VOCAB = [
       "zh-CN": "但是",
       "ko": "하지만",
       "vi": "nhưng",
-      "id": "tapi"
+      "id": "tapi",
+      "es": "but",
+      "pt": "but"
     },
     "ex": "でも大丈夫",
     "exm": {
@@ -14038,7 +16504,9 @@ const N5_VOCAB = [
       "zh-CN": "但是没关系",
       "ko": "하지만 괜찮아",
       "vi": "nhưng không sao",
-      "id": "tapi tidak apa-apa"
+      "id": "tapi tidak apa-apa",
+      "es": "but it's okay",
+      "pt": "but it's okay"
     }
   },
   {
@@ -14051,7 +16519,9 @@ const N5_VOCAB = [
       "zh-CN": "所以",
       "ko": "그래서",
       "vi": "vì vậy",
-      "id": "karena itu"
+      "id": "karena itu",
+      "es": "therefore",
+      "pt": "therefore"
     },
     "ex": "だから行った",
     "exm": {
@@ -14060,7 +16530,9 @@ const N5_VOCAB = [
       "zh-CN": "所以去了",
       "ko": "그래서 갔다",
       "vi": "vì vậy đã đi",
-      "id": "karena itu pergi"
+      "id": "karena itu pergi",
+      "es": "so I went",
+      "pt": "so I went"
     }
   },
   {
@@ -14073,7 +16545,9 @@ const N5_VOCAB = [
       "zh-CN": "例如",
       "ko": "예를 들어",
       "vi": "ví dụ",
-      "id": "misalnya"
+      "id": "misalnya",
+      "es": "for example",
+      "pt": "for example"
     },
     "ex": "例えば日本",
     "exm": {
@@ -14082,7 +16556,9 @@ const N5_VOCAB = [
       "zh-CN": "例如日本",
       "ko": "예를 들어 일본",
       "vi": "ví dụ Nhật Bản",
-      "id": "misalnya Jepang"
+      "id": "misalnya Jepang",
+      "es": "for example Japan",
+      "pt": "for example Japan"
     }
   },
   {
@@ -14095,7 +16571,9 @@ const N5_VOCAB = [
       "zh-CN": "如果",
       "ko": "만약",
       "vi": "nếu",
-      "id": "jika"
+      "id": "jika",
+      "es": "if",
+      "pt": "if"
     },
     "ex": "もし雨なら",
     "exm": {
@@ -14104,7 +16582,9 @@ const N5_VOCAB = [
       "zh-CN": "如果下雨",
       "ko": "만약 비가 오면",
       "vi": "nếu trời mưa",
-      "id": "jika hujan"
+      "id": "jika hujan",
+      "es": "if it rains",
+      "pt": "if it rains"
     }
   },
   {
@@ -14117,7 +16597,9 @@ const N5_VOCAB = [
       "zh-CN": "果然",
       "ko": "역시",
       "vi": "quả nhiên",
-      "id": "ternyata"
+      "id": "ternyata",
+      "es": "as expected",
+      "pt": "as expected"
     },
     "ex": "やっぱりそうだ",
     "exm": {
@@ -14126,7 +16608,9 @@ const N5_VOCAB = [
       "zh-CN": "果然是这样",
       "ko": "역시 그렇다",
       "vi": "quả nhiên vậy",
-      "id": "ternyata begitu"
+      "id": "ternyata begitu",
+      "es": "as I thought",
+      "pt": "as I thought"
     }
   },
   {
@@ -14139,7 +16623,9 @@ const N5_VOCAB = [
       "zh-CN": "终于",
       "ko": "드디어",
       "vi": "cuối cùng",
-      "id": "akhirnya"
+      "id": "akhirnya",
+      "es": "finally",
+      "pt": "finally"
     },
     "ex": "やっと終わった",
     "exm": {
@@ -14148,7 +16634,9 @@ const N5_VOCAB = [
       "zh-CN": "终于结束了",
       "ko": "드디어 끝났다",
       "vi": "cuối cùng xong",
-      "id": "akhirnya selesai"
+      "id": "akhirnya selesai",
+      "es": "finally finished",
+      "pt": "finally finished"
     }
   },
   {
@@ -14161,7 +16649,9 @@ const N5_VOCAB = [
       "zh-CN": "突然",
       "ko": "갑자기",
       "vi": "đột nhiên",
-      "id": "tiba-tiba"
+      "id": "tiba-tiba",
+      "es": "suddenly",
+      "pt": "suddenly"
     },
     "ex": "急に雨が降る",
     "exm": {
@@ -14170,7 +16660,9 @@ const N5_VOCAB = [
       "zh-CN": "突然下雨",
       "ko": "갑자기 비가 오다",
       "vi": "đột nhiên mưa",
-      "id": "tiba-tiba hujan"
+      "id": "tiba-tiba hujan",
+      "es": "suddenly rains",
+      "pt": "suddenly rains"
     }
   },
   {
@@ -14183,7 +16675,9 @@ const N5_VOCAB = [
       "zh-CN": "好久不见",
       "ko": "오랜만",
       "vi": "lâu rồi",
-      "id": "lama tidak jumpa"
+      "id": "lama tidak jumpa",
+      "es": "long time",
+      "pt": "long time"
     },
     "ex": "久しぶりですね",
     "exm": {
@@ -14192,7 +16686,9 @@ const N5_VOCAB = [
       "zh-CN": "好久不见",
       "ko": "오랜만이네요",
       "vi": "lâu rồi không gặp",
-      "id": "lama tidak jumpa"
+      "id": "lama tidak jumpa",
+      "es": "long time no see",
+      "pt": "long time no see"
     }
   },
   {
@@ -14205,7 +16701,9 @@ const N5_VOCAB = [
       "zh-CN": "最近",
       "ko": "최근",
       "vi": "gần đây",
-      "id": "akhir-akhir ini"
+      "id": "akhir-akhir ini",
+      "es": "recently",
+      "pt": "recently"
     },
     "ex": "最近忙しい",
     "exm": {
@@ -14214,7 +16712,9 @@ const N5_VOCAB = [
       "zh-CN": "最近很忙",
       "ko": "최근 바쁘다",
       "vi": "gần đây bận",
-      "id": "akhir-akhir ini sibuk"
+      "id": "akhir-akhir ini sibuk",
+      "es": "busy recently",
+      "pt": "busy recently"
     }
   },
   {
@@ -14227,7 +16727,9 @@ const N5_VOCAB = [
       "zh-CN": "将来",
       "ko": "장래",
       "vi": "tương lai",
-      "id": "masa depan"
+      "id": "masa depan",
+      "es": "future",
+      "pt": "future"
     },
     "ex": "将来の夢",
     "exm": {
@@ -14236,7 +16738,9 @@ const N5_VOCAB = [
       "zh-CN": "将来的梦想",
       "ko": "장래 꿈",
       "vi": "ước mơ tương lai",
-      "id": "mimpi masa depan"
+      "id": "mimpi masa depan",
+      "es": "future dream",
+      "pt": "future dream"
     }
   },
   {
@@ -14249,7 +16753,9 @@ const N5_VOCAB = [
       "zh-CN": "绝对",
       "ko": "절대",
       "vi": "tuyệt đối",
-      "id": "pasti"
+      "id": "pasti",
+      "es": "absolutely",
+      "pt": "absolutely"
     },
     "ex": "絶対に行く",
     "exm": {
@@ -14258,7 +16764,9 @@ const N5_VOCAB = [
       "zh-CN": "一定去",
       "ko": "절대 간다",
       "vi": "chắc chắn đi",
-      "id": "pasti pergi"
+      "id": "pasti pergi",
+      "es": "will definitely go",
+      "pt": "will definitely go"
     }
   },
   {
@@ -14271,7 +16779,9 @@ const N5_VOCAB = [
       "zh-CN": "可惜",
       "ko": "아쉽다",
       "vi": "đáng tiếc",
-      "id": "sayang"
+      "id": "sayang",
+      "es": "regrettable",
+      "pt": "regrettable"
     },
     "ex": "残念ですね",
     "exm": {
@@ -14280,7 +16790,9 @@ const N5_VOCAB = [
       "zh-CN": "真可惜",
       "ko": "아쉽네요",
       "vi": "thật đáng tiếc",
-      "id": "sayang sekali"
+      "id": "sayang sekali",
+      "es": "that's too bad",
+      "pt": "that's too bad"
     }
   },
   {
@@ -14293,7 +16805,9 @@ const N5_VOCAB = [
       "zh-CN": "万",
       "ko": "만",
       "vi": "vạn",
-      "id": "puluh ribu"
+      "id": "puluh ribu",
+      "es": "ten thousand",
+      "pt": "ten thousand"
     },
     "ex": "一万円",
     "exm": {
@@ -14302,7 +16816,9 @@ const N5_VOCAB = [
       "zh-CN": "一万日元",
       "ko": "만 엔",
       "vi": "một vạn yên",
-      "id": "sepuluh ribu yen"
+      "id": "sepuluh ribu yen",
+      "es": "10000 yen",
+      "pt": "10000 yen"
     }
   },
   {
@@ -14315,7 +16831,9 @@ const N5_VOCAB = [
       "zh-CN": "百",
       "ko": "백",
       "vi": "Trăm",
-      "id": "Seratus"
+      "id": "Seratus",
+      "es": "hundred",
+      "pt": "hundred"
     },
     "ex": "三百円",
     "exm": {
@@ -14324,7 +16842,9 @@ const N5_VOCAB = [
       "zh-CN": "三百日元",
       "ko": "삼백 엔",
       "vi": "ba trăm yên",
-      "id": "tiga ratus yen"
+      "id": "tiga ratus yen",
+      "es": "300 yen",
+      "pt": "300 yen"
     }
   },
   {
@@ -14337,7 +16857,9 @@ const N5_VOCAB = [
       "zh-CN": "千",
       "ko": "천",
       "vi": "Nghìn",
-      "id": "Seribu"
+      "id": "Seribu",
+      "es": "thousand",
+      "pt": "thousand"
     },
     "ex": "五千円",
     "exm": {
@@ -14346,7 +16868,9 @@ const N5_VOCAB = [
       "zh-CN": "五千日元",
       "ko": "오천 엔",
       "vi": "năm nghìn yên",
-      "id": "lima ribu yen"
+      "id": "lima ribu yen",
+      "es": "5000 yen",
+      "pt": "5000 yen"
     }
   },
   {
@@ -14359,7 +16883,9 @@ const N5_VOCAB = [
       "zh-CN": "岁",
       "ko": "살",
       "vi": "tuổi",
-      "id": "tahun"
+      "id": "tahun",
+      "es": "years old",
+      "pt": "years old"
     },
     "ex": "二十歳",
     "exm": {
@@ -14368,7 +16894,9 @@ const N5_VOCAB = [
       "zh-CN": "二十岁",
       "ko": "스무 살",
       "vi": "hai mươi tuổi",
-      "id": "dua puluh tahun"
+      "id": "dua puluh tahun",
+      "es": "20 years old",
+      "pt": "20 years old"
     }
   },
   {
@@ -14381,7 +16909,9 @@ const N5_VOCAB = [
       "zh-CN": "个",
       "ko": "개",
       "vi": "cái",
-      "id": "buah"
+      "id": "buah",
+      "es": "counter",
+      "pt": "counter"
     },
     "ex": "りんご三個",
     "exm": {
@@ -14390,7 +16920,9 @@ const N5_VOCAB = [
       "zh-CN": "三个苹果",
       "ko": "사과 세 개",
       "vi": "ba quả táo",
-      "id": "tiga buah apel"
+      "id": "tiga buah apel",
+      "es": "three apples",
+      "pt": "three apples"
     }
   },
   {
@@ -14403,7 +16935,9 @@ const N5_VOCAB = [
       "zh-CN": "张",
       "ko": "장",
       "vi": "tờ",
-      "id": "lembar"
+      "id": "lembar",
+      "es": "sheet",
+      "pt": "sheet"
     },
     "ex": "紙三枚",
     "exm": {
@@ -14412,7 +16946,9 @@ const N5_VOCAB = [
       "zh-CN": "三张纸",
       "ko": "종이 세 장",
       "vi": "ba tờ giấy",
-      "id": "tiga lembar kertas"
+      "id": "tiga lembar kertas",
+      "es": "three sheets",
+      "pt": "three sheets"
     }
   },
   {
@@ -14425,7 +16961,9 @@ const N5_VOCAB = [
       "zh-CN": "本",
       "ko": "권",
       "vi": "quyển",
-      "id": "buku"
+      "id": "buku",
+      "es": "books",
+      "pt": "books"
     },
     "ex": "本二冊",
     "exm": {
@@ -14434,7 +16972,9 @@ const N5_VOCAB = [
       "zh-CN": "两本书",
       "ko": "책 두 권",
       "vi": "hai quyển sách",
-      "id": "dua buku"
+      "id": "dua buku",
+      "es": "two books",
+      "pt": "two books"
     }
   },
   {
@@ -14447,7 +16987,9 @@ const N5_VOCAB = [
       "zh-CN": "杯",
       "ko": "잔",
       "vi": "ly",
-      "id": "gelas"
+      "id": "gelas",
+      "es": "cup",
+      "pt": "cup"
     },
     "ex": "コーヒー一杯",
     "exm": {
@@ -14456,7 +16998,9 @@ const N5_VOCAB = [
       "zh-CN": "一杯咖啡",
       "ko": "커피 한 잔",
       "vi": "một ly cà phê",
-      "id": "satu gelas kopi"
+      "id": "satu gelas kopi",
+      "es": "one cup of coffee",
+      "pt": "one cup of coffee"
     }
   },
   {
@@ -14469,7 +17013,9 @@ const N5_VOCAB = [
       "zh-CN": "动物",
       "ko": "동물",
       "vi": "Động vật",
-      "id": "Hewan"
+      "id": "Hewan",
+      "es": "animal",
+      "pt": "animal"
     },
     "ex": "猫二匹",
     "exm": {
@@ -14478,7 +17024,9 @@ const N5_VOCAB = [
       "zh-CN": "两只猫",
       "ko": "고양이 두 마리",
       "vi": "hai con mèo",
-      "id": "dua ekor kucing"
+      "id": "dua ekor kucing",
+      "es": "two cats",
+      "pt": "two cats"
     }
   },
   {
@@ -14491,7 +17039,9 @@ const N5_VOCAB = [
       "zh-CN": "台",
       "ko": "대",
       "vi": "chiếc",
-      "id": "unit"
+      "id": "unit",
+      "es": "machine",
+      "pt": "machine"
     },
     "ex": "車一台",
     "exm": {
@@ -14500,7 +17050,9 @@ const N5_VOCAB = [
       "zh-CN": "一辆车",
       "ko": "차 한 대",
       "vi": "một chiếc xe",
-      "id": "satu unit mobil"
+      "id": "satu unit mobil",
+      "es": "one car",
+      "pt": "one car"
     }
   },
   {
@@ -14513,7 +17065,9 @@ const N5_VOCAB = [
       "zh-CN": "楼",
       "ko": "층",
       "vi": "tầng",
-      "id": "lantai"
+      "id": "lantai",
+      "es": "floor",
+      "pt": "floor"
     },
     "ex": "三階",
     "exm": {
@@ -14522,7 +17076,9 @@ const N5_VOCAB = [
       "zh-CN": "三楼",
       "ko": "삼층",
       "vi": "tầng ba",
-      "id": "lantai tiga"
+      "id": "lantai tiga",
+      "es": "3rd floor",
+      "pt": "3rd floor"
     }
   },
   {
@@ -14535,7 +17091,9 @@ const N5_VOCAB = [
       "zh-CN": "数字",
       "ko": "숫자",
       "vi": "Số",
-      "id": "Angka"
+      "id": "Angka",
+      "es": "number",
+      "pt": "number"
     },
     "ex": "一番",
     "exm": {
@@ -14544,7 +17102,9 @@ const N5_VOCAB = [
       "zh-CN": "第一",
       "ko": "일번",
       "vi": "số một",
-      "id": "nomor satu"
+      "id": "nomor satu",
+      "es": "number one",
+      "pt": "number one"
     }
   },
   {
@@ -14557,7 +17117,9 @@ const N5_VOCAB = [
       "zh-CN": "度",
       "ko": "도",
       "vi": "độ",
-      "id": "derajat"
+      "id": "derajat",
+      "es": "degree",
+      "pt": "degree"
     },
     "ex": "三十度",
     "exm": {
@@ -14566,7 +17128,9 @@ const N5_VOCAB = [
       "zh-CN": "三十度",
       "ko": "삼십 도",
       "vi": "ba mươi độ",
-      "id": "tiga puluh derajat"
+      "id": "tiga puluh derajat",
+      "es": "30 degrees",
+      "pt": "30 degrees"
     }
   },
   {
@@ -14579,7 +17143,9 @@ const N5_VOCAB = [
       "zh-CN": "次",
       "ko": "번",
       "vi": "lần",
-      "id": "kali"
+      "id": "kali",
+      "es": "times",
+      "pt": "times"
     },
     "ex": "二回",
     "exm": {
@@ -14588,7 +17154,9 @@ const N5_VOCAB = [
       "zh-CN": "两次",
       "ko": "두 번",
       "vi": "hai lần",
-      "id": "dua kali"
+      "id": "dua kali",
+      "es": "two times",
+      "pt": "two times"
     }
   },
   {
@@ -14601,7 +17169,9 @@ const N5_VOCAB = [
       "zh-CN": "社会",
       "ko": "사회",
       "vi": "xã hội",
-      "id": "masyarakat"
+      "id": "masyarakat",
+      "es": "society",
+      "pt": "society"
     },
     "ex": "社会人",
     "exm": {
@@ -14610,7 +17180,9 @@ const N5_VOCAB = [
       "zh-CN": "社会人",
       "ko": "사회인",
       "vi": "người đi làm",
-      "id": "pekerja"
+      "id": "pekerja",
+      "es": "working adult",
+      "pt": "working adult"
     }
   },
   {
@@ -14623,7 +17195,9 @@ const N5_VOCAB = [
       "zh-CN": "文化",
       "ko": "문화",
       "vi": "văn hóa",
-      "id": "budaya"
+      "id": "budaya",
+      "es": "culture",
+      "pt": "culture"
     },
     "ex": "日本文化",
     "exm": {
@@ -14632,7 +17206,9 @@ const N5_VOCAB = [
       "zh-CN": "日本文化",
       "ko": "일본 문화",
       "vi": "văn hóa Nhật",
-      "id": "budaya Jepang"
+      "id": "budaya Jepang",
+      "es": "Japanese culture",
+      "pt": "Japanese culture"
     }
   },
   {
@@ -14645,7 +17221,9 @@ const N5_VOCAB = [
       "zh-CN": "历史",
       "ko": "역사",
       "vi": "lịch sử",
-      "id": "sejarah"
+      "id": "sejarah",
+      "es": "history",
+      "pt": "history"
     },
     "ex": "歴史を学ぶ",
     "exm": {
@@ -14654,7 +17232,9 @@ const N5_VOCAB = [
       "zh-CN": "学历史",
       "ko": "역사를 배우다",
       "vi": "học lịch sử",
-      "id": "belajar sejarah"
+      "id": "belajar sejarah",
+      "es": "learn history",
+      "pt": "learn history"
     }
   },
   {
@@ -14667,7 +17247,9 @@ const N5_VOCAB = [
       "zh-CN": "环境",
       "ko": "환경",
       "vi": "môi trường",
-      "id": "lingkungan"
+      "id": "lingkungan",
+      "es": "environment",
+      "pt": "environment"
     },
     "ex": "環境問題",
     "exm": {
@@ -14676,7 +17258,9 @@ const N5_VOCAB = [
       "zh-CN": "环境问题",
       "ko": "환경 문제",
       "vi": "vấn đề môi trường",
-      "id": "masalah lingkungan"
+      "id": "masalah lingkungan",
+      "es": "environmental issue",
+      "pt": "environmental issue"
     }
   },
   {
@@ -14689,7 +17273,9 @@ const N5_VOCAB = [
       "zh-CN": "自然",
       "ko": "자연",
       "vi": "tự nhiên",
-      "id": "alam"
+      "id": "alam",
+      "es": "nature",
+      "pt": "nature"
     },
     "ex": "自然が美しい",
     "exm": {
@@ -14698,7 +17284,9 @@ const N5_VOCAB = [
       "zh-CN": "自然很美",
       "ko": "자연이 아름답다",
       "vi": "thiên nhiên đẹp",
-      "id": "alam indah"
+      "id": "alam indah",
+      "es": "nature is beautiful",
+      "pt": "nature is beautiful"
     }
   },
   {
@@ -14711,7 +17299,9 @@ const N5_VOCAB = [
       "zh-CN": "技术",
       "ko": "기술",
       "vi": "kỹ thuật",
-      "id": "teknologi"
+      "id": "teknologi",
+      "es": "technology",
+      "pt": "technology"
     },
     "ex": "新しい技術",
     "exm": {
@@ -14720,7 +17310,9 @@ const N5_VOCAB = [
       "zh-CN": "新技术",
       "ko": "새로운 기술",
       "vi": "kỹ thuật mới",
-      "id": "teknologi baru"
+      "id": "teknologi baru",
+      "es": "new technology",
+      "pt": "new technology"
     }
   },
   {
@@ -14733,7 +17325,9 @@ const N5_VOCAB = [
       "zh-CN": "事故",
       "ko": "사고",
       "vi": "tai nạn",
-      "id": "kecelakaan"
+      "id": "kecelakaan",
+      "es": "accident",
+      "pt": "accident"
     },
     "ex": "事故が起きる",
     "exm": {
@@ -14742,7 +17336,9 @@ const N5_VOCAB = [
       "zh-CN": "发生事故",
       "ko": "사고가 일어나다",
       "vi": "tai nạn xảy ra",
-      "id": "kecelakaan terjadi"
+      "id": "kecelakaan terjadi",
+      "es": "accident happens",
+      "pt": "accident happens"
     }
   },
   {
@@ -14755,7 +17351,9 @@ const N5_VOCAB = [
       "zh-CN": "新闻",
       "ko": "뉴스",
       "vi": "tin tức",
-      "id": "berita"
+      "id": "berita",
+      "es": "news",
+      "pt": "news"
     },
     "ex": "ニュースを見る",
     "exm": {
@@ -14764,7 +17362,9 @@ const N5_VOCAB = [
       "zh-CN": "看新闻",
       "ko": "뉴스를 보다",
       "vi": "xem tin tức",
-      "id": "menonton berita"
+      "id": "menonton berita",
+      "es": "watch news",
+      "pt": "watch news"
     }
   },
   {
@@ -14777,7 +17377,9 @@ const N5_VOCAB = [
       "zh-CN": "信息",
       "ko": "정보",
       "vi": "thông tin",
-      "id": "informasi"
+      "id": "informasi",
+      "es": "information",
+      "pt": "information"
     },
     "ex": "情報を集める",
     "exm": {
@@ -14786,7 +17388,9 @@ const N5_VOCAB = [
       "zh-CN": "收集信息",
       "ko": "정보를 모으다",
       "vi": "thu thập thông tin",
-      "id": "mengumpulkan informasi"
+      "id": "mengumpulkan informasi",
+      "es": "gather info",
+      "pt": "gather info"
     }
   },
   {
@@ -14799,7 +17403,9 @@ const N5_VOCAB = [
       "zh-CN": "意见",
       "ko": "의견",
       "vi": "ý kiến",
-      "id": "pendapat"
+      "id": "pendapat",
+      "es": "opinion",
+      "pt": "opinion"
     },
     "ex": "意見を言う",
     "exm": {
@@ -14808,7 +17414,9 @@ const N5_VOCAB = [
       "zh-CN": "发表意见",
       "ko": "의견을 말하다",
       "vi": "nêu ý kiến",
-      "id": "memberikan pendapat"
+      "id": "memberikan pendapat",
+      "es": "give opinion",
+      "pt": "give opinion"
     }
   },
   {
@@ -14821,7 +17429,9 @@ const N5_VOCAB = [
       "zh-CN": "太棒了",
       "ko": "훌륭하다",
       "vi": "tuyệt vời",
-      "id": "luar biasa"
+      "id": "luar biasa",
+      "es": "wonderful",
+      "pt": "wonderful"
     },
     "ex": "素晴らしい景色",
     "exm": {
@@ -14830,7 +17440,9 @@ const N5_VOCAB = [
       "zh-CN": "美丽的景色",
       "ko": "훌륭한 경치",
       "vi": "cảnh đẹp",
-      "id": "pemandangan indah"
+      "id": "pemandangan indah",
+      "es": "wonderful view",
+      "pt": "wonderful view"
     }
   },
   {
@@ -14843,7 +17455,9 @@ const N5_VOCAB = [
       "zh-CN": "最棒",
       "ko": "최고",
       "vi": "tuyệt nhất",
-      "id": "terbaik"
+      "id": "terbaik",
+      "es": "best",
+      "pt": "best"
     },
     "ex": "最高の日",
     "exm": {
@@ -14852,7 +17466,9 @@ const N5_VOCAB = [
       "zh-CN": "最棒的一天",
       "ko": "최고의 날",
       "vi": "ngày tuyệt nhất",
-      "id": "hari terbaik"
+      "id": "hari terbaik",
+      "es": "best day",
+      "pt": "best day"
     }
   },
   {
@@ -14865,7 +17481,9 @@ const N5_VOCAB = [
       "zh-CN": "正确",
       "ko": "올바르다",
       "vi": "đúng",
-      "id": "benar"
+      "id": "benar",
+      "es": "correct",
+      "pt": "correct"
     },
     "ex": "正しい答え",
     "exm": {
@@ -14874,7 +17492,9 @@ const N5_VOCAB = [
       "zh-CN": "正确答案",
       "ko": "올바른 답",
       "vi": "câu trả lời đúng",
-      "id": "jawaban benar"
+      "id": "jawaban benar",
+      "es": "correct answer",
+      "pt": "correct answer"
     }
   },
   {
@@ -14887,7 +17507,9 @@ const N5_VOCAB = [
       "zh-CN": "错误",
       "ko": "실수",
       "vi": "lỗi",
-      "id": "kesalahan"
+      "id": "kesalahan",
+      "es": "mistake",
+      "pt": "mistake"
     },
     "ex": "間違いがある",
     "exm": {
@@ -14896,7 +17518,9 @@ const N5_VOCAB = [
       "zh-CN": "有错误",
       "ko": "실수가 있다",
       "vi": "có lỗi",
-      "id": "ada kesalahan"
+      "id": "ada kesalahan",
+      "es": "there is mistake",
+      "pt": "there is mistake"
     }
   },
   {
@@ -14909,7 +17533,9 @@ const N5_VOCAB = [
       "zh-CN": "完美",
       "ko": "완벽",
       "vi": "hoàn hảo",
-      "id": "sempurna"
+      "id": "sempurna",
+      "es": "perfect",
+      "pt": "perfect"
     },
     "ex": "完璧です",
     "exm": {
@@ -14918,7 +17544,9 @@ const N5_VOCAB = [
       "zh-CN": "完美",
       "ko": "완벽해요",
       "vi": "hoàn hảo",
-      "id": "sempurna"
+      "id": "sempurna",
+      "es": "it's perfect",
+      "pt": "it's perfect"
     }
   },
   {
@@ -14931,7 +17559,9 @@ const N5_VOCAB = [
       "zh-CN": "足够",
       "ko": "충분",
       "vi": "đủ",
-      "id": "cukup"
+      "id": "cukup",
+      "es": "enough",
+      "pt": "enough"
     },
     "ex": "十分です",
     "exm": {
@@ -14940,7 +17570,9 @@ const N5_VOCAB = [
       "zh-CN": "够了",
       "ko": "충분해요",
       "vi": "đủ rồi",
-      "id": "cukup"
+      "id": "cukup",
+      "es": "it's enough",
+      "pt": "it's enough"
     }
   },
   {
@@ -14953,7 +17585,9 @@ const N5_VOCAB = [
       "zh-CN": "空闲",
       "ko": "한가한",
       "vi": "Rảnh",
-      "id": "Bebas"
+      "id": "Bebas",
+      "es": "free",
+      "pt": "free"
     },
     "ex": "自由な時間",
     "exm": {
@@ -14962,7 +17596,9 @@ const N5_VOCAB = [
       "zh-CN": "自由时间",
       "ko": "자유 시간",
       "vi": "thời gian tự do",
-      "id": "waktu bebas"
+      "id": "waktu bebas",
+      "es": "free time",
+      "pt": "free time"
     }
   },
   {
@@ -14975,7 +17611,9 @@ const N5_VOCAB = [
       "zh-CN": "形状",
       "ko": "모양",
       "vi": "hình dạng",
-      "id": "bentuk"
+      "id": "bentuk",
+      "es": "shape",
+      "pt": "shape"
     },
     "ex": "丸い形",
     "exm": {
@@ -14984,7 +17622,9 @@ const N5_VOCAB = [
       "zh-CN": "圆形",
       "ko": "둥근 모양",
       "vi": "hình tròn",
-      "id": "bentuk bulat"
+      "id": "bentuk bulat",
+      "es": "round shape",
+      "pt": "round shape"
     }
   },
   {
@@ -14997,7 +17637,9 @@ const N5_VOCAB = [
       "zh-CN": "味道",
       "ko": "맛",
       "vi": "vị",
-      "id": "rasa"
+      "id": "rasa",
+      "es": "taste",
+      "pt": "taste"
     },
     "ex": "味が良い",
     "exm": {
@@ -15006,7 +17648,9 @@ const N5_VOCAB = [
       "zh-CN": "味道好",
       "ko": "맛이 좋다",
       "vi": "ngon",
-      "id": "rasanya enak"
+      "id": "rasanya enak",
+      "es": "taste good",
+      "pt": "taste good"
     }
   },
   {
@@ -15019,7 +17663,9 @@ const N5_VOCAB = [
       "zh-CN": "气味",
       "ko": "냄새",
       "vi": "mùi",
-      "id": "bau"
+      "id": "bau",
+      "es": "smell",
+      "pt": "smell"
     },
     "ex": "いい匂い",
     "exm": {
@@ -15028,7 +17674,9 @@ const N5_VOCAB = [
       "zh-CN": "好闻",
       "ko": "좋은 냄새",
       "vi": "mùi thơm",
-      "id": "bau enak"
+      "id": "bau enak",
+      "es": "good smell",
+      "pt": "good smell"
     }
   },
   {
@@ -15041,7 +17689,9 @@ const N5_VOCAB = [
       "zh-CN": "声音",
       "ko": "소리",
       "vi": "âm thanh",
-      "id": "suara"
+      "id": "suara",
+      "es": "sound",
+      "pt": "sound"
     },
     "ex": "音がする",
     "exm": {
@@ -15050,7 +17700,9 @@ const N5_VOCAB = [
       "zh-CN": "发出声音",
       "ko": "소리가 나다",
       "vi": "có tiếng",
-      "id": "bersuara"
+      "id": "bersuara",
+      "es": "make sound",
+      "pt": "make sound"
     }
   },
   {
@@ -15063,7 +17715,9 @@ const N5_VOCAB = [
       "zh-CN": "轻",
       "ko": "가벼운",
       "vi": "Nhẹ",
-      "id": "Ringan"
+      "id": "Ringan",
+      "es": "light",
+      "pt": "light"
     },
     "ex": "光が見える",
     "exm": {
@@ -15072,7 +17726,9 @@ const N5_VOCAB = [
       "zh-CN": "看到光",
       "ko": "빛이 보이다",
       "vi": "thấy ánh sáng",
-      "id": "melihat cahaya"
+      "id": "melihat cahaya",
+      "es": "see light",
+      "pt": "see light"
     }
   },
   {
@@ -15085,7 +17741,9 @@ const N5_VOCAB = [
       "zh-CN": "力量",
       "ko": "힘",
       "vi": "sức mạnh",
-      "id": "kekuatan"
+      "id": "kekuatan",
+      "es": "power",
+      "pt": "power"
     },
     "ex": "力がある",
     "exm": {
@@ -15094,7 +17752,9 @@ const N5_VOCAB = [
       "zh-CN": "有力量",
       "ko": "힘이 있다",
       "vi": "có sức mạnh",
-      "id": "punya kekuatan"
+      "id": "punya kekuatan",
+      "es": "have power",
+      "pt": "have power"
     }
   },
   {
@@ -15107,7 +17767,9 @@ const N5_VOCAB = [
       "zh-CN": "心情",
       "ko": "기분",
       "vi": "cảm giác",
-      "id": "perasaan"
+      "id": "perasaan",
+      "es": "feeling",
+      "pt": "feeling"
     },
     "ex": "気持ちがいい",
     "exm": {
@@ -15116,7 +17778,9 @@ const N5_VOCAB = [
       "zh-CN": "心情好",
       "ko": "기분이 좋다",
       "vi": "cảm giác tốt",
-      "id": "perasaan baik"
+      "id": "perasaan baik",
+      "es": "feel good",
+      "pt": "feel good"
     }
   },
   {
@@ -15129,7 +17793,9 @@ const N5_VOCAB = [
       "zh-CN": "生活",
       "ko": "생활",
       "vi": "cuộc sống",
-      "id": "kehidupan"
+      "id": "kehidupan",
+      "es": "life",
+      "pt": "life"
     },
     "ex": "日本での生活",
     "exm": {
@@ -15138,7 +17804,9 @@ const N5_VOCAB = [
       "zh-CN": "在日本的生活",
       "ko": "일본에서의 생활",
       "vi": "cuộc sống ở Nhật",
-      "id": "kehidupan di Jepang"
+      "id": "kehidupan di Jepang",
+      "es": "life in Japan",
+      "pt": "life in Japan"
     }
   },
   {
@@ -15151,7 +17819,9 @@ const N5_VOCAB = [
       "zh-CN": "习惯",
       "ko": "습관",
       "vi": "thói quen",
-      "id": "kebiasaan"
+      "id": "kebiasaan",
+      "es": "habit",
+      "pt": "habit"
     },
     "ex": "良い習慣",
     "exm": {
@@ -15160,7 +17830,9 @@ const N5_VOCAB = [
       "zh-CN": "好习惯",
       "ko": "좋은 습관",
       "vi": "thói quen tốt",
-      "id": "kebiasaan baik"
+      "id": "kebiasaan baik",
+      "es": "good habit",
+      "pt": "good habit"
     }
   },
   {
@@ -15173,7 +17845,9 @@ const N5_VOCAB = [
       "zh-CN": "计划",
       "ko": "계획",
       "vi": "kế hoạch",
-      "id": "rencana"
+      "id": "rencana",
+      "es": "plan",
+      "pt": "plan"
     },
     "ex": "計画を立てる",
     "exm": {
@@ -15182,7 +17856,9 @@ const N5_VOCAB = [
       "zh-CN": "制定计划",
       "ko": "계획을 세우다",
       "vi": "lập kế hoạch",
-      "id": "membuat rencana"
+      "id": "membuat rencana",
+      "es": "make a plan",
+      "pt": "make a plan"
     }
   },
   {
@@ -15195,7 +17871,9 @@ const N5_VOCAB = [
       "zh-CN": "说明",
       "ko": "설명",
       "vi": "giải thích",
-      "id": "penjelasan"
+      "id": "penjelasan",
+      "es": "explanation",
+      "pt": "explanation"
     },
     "ex": "説明する",
     "exm": {
@@ -15204,7 +17882,9 @@ const N5_VOCAB = [
       "zh-CN": "说明",
       "ko": "설명하다",
       "vi": "giải thích",
-      "id": "menjelaskan"
+      "id": "menjelaskan",
+      "es": "explain",
+      "pt": "explain"
     }
   },
   {
@@ -15217,7 +17897,9 @@ const N5_VOCAB = [
       "zh-CN": "看得见",
       "ko": "보이다",
       "vi": "nhìn thấy",
-      "id": "terlihat"
+      "id": "terlihat",
+      "es": "be visible",
+      "pt": "be visible"
     },
     "ex": "山が見える",
     "exm": {
@@ -15226,7 +17908,9 @@ const N5_VOCAB = [
       "zh-CN": "看得见山",
       "ko": "산이 보이다",
       "vi": "nhìn thấy núi",
-      "id": "gunung terlihat"
+      "id": "gunung terlihat",
+      "es": "can see mountain",
+      "pt": "can see mountain"
     }
   },
   {
@@ -15239,7 +17923,9 @@ const N5_VOCAB = [
       "zh-CN": "听得见",
       "ko": "들리다",
       "vi": "nghe thấy",
-      "id": "terdengar"
+      "id": "terdengar",
+      "es": "be audible",
+      "pt": "be audible"
     },
     "ex": "声が聞こえる",
     "exm": {
@@ -15248,7 +17934,9 @@ const N5_VOCAB = [
       "zh-CN": "听得见声音",
       "ko": "목소리가 들리다",
       "vi": "nghe thấy tiếng",
-      "id": "suara terdengar"
+      "id": "suara terdengar",
+      "es": "can hear voice",
+      "pt": "can hear voice"
     }
   },
   {
@@ -15261,7 +17949,9 @@ const N5_VOCAB = [
       "zh-CN": "拥挤",
       "ko": "붐비다",
       "vi": "đông",
-      "id": "ramai"
+      "id": "ramai",
+      "es": "be crowded",
+      "pt": "be crowded"
     },
     "ex": "電車が混む",
     "exm": {
@@ -15270,7 +17960,9 @@ const N5_VOCAB = [
       "zh-CN": "电车很挤",
       "ko": "전철이 붐비다",
       "vi": "tàu đông",
-      "id": "kereta ramai"
+      "id": "kereta ramai",
+      "es": "train is crowded",
+      "pt": "train is crowded"
     }
   },
   {
@@ -15283,7 +17975,9 @@ const N5_VOCAB = [
       "zh-CN": "空",
       "ko": "비다",
       "vi": "vắng",
-      "id": "kosong"
+      "id": "kosong",
+      "es": "become empty",
+      "pt": "become empty"
     },
     "ex": "お腹が空く",
     "exm": {
@@ -15292,7 +17986,9 @@ const N5_VOCAB = [
       "zh-CN": "肚子饿",
       "ko": "배가 고프다",
       "vi": "đói bụng",
-      "id": "lapar"
+      "id": "lapar",
+      "es": "get hungry",
+      "pt": "get hungry"
     }
   },
   {
@@ -15305,7 +18001,9 @@ const N5_VOCAB = [
       "zh-CN": "想起",
       "ko": "떠올리다",
       "vi": "nhớ ra",
-      "id": "mengingat"
+      "id": "mengingat",
+      "es": "remember",
+      "pt": "remember"
     },
     "ex": "昔を思い出す",
     "exm": {
@@ -15314,7 +18012,9 @@ const N5_VOCAB = [
       "zh-CN": "想起以前",
       "ko": "옛날을 떠올리다",
       "vi": "nhớ lại ngày xưa",
-      "id": "mengingat masa lalu"
+      "id": "mengingat masa lalu",
+      "es": "remember old days",
+      "pt": "remember old days"
     }
   },
   {
@@ -15327,7 +18027,9 @@ const N5_VOCAB = [
       "zh-CN": "回忆",
       "ko": "추억",
       "vi": "kỷ niệm",
-      "id": "kenangan"
+      "id": "kenangan",
+      "es": "memory",
+      "pt": "memory"
     },
     "ex": "楽しい思い出",
     "exm": {
@@ -15336,7 +18038,9 @@ const N5_VOCAB = [
       "zh-CN": "快乐的回忆",
       "ko": "즐거운 추억",
       "vi": "kỷ niệm vui",
-      "id": "kenangan menyenangkan"
+      "id": "kenangan menyenangkan",
+      "es": "fun memory",
+      "pt": "fun memory"
     }
   },
   {
@@ -15349,7 +18053,9 @@ const N5_VOCAB = [
       "zh-CN": "传达",
       "ko": "전하다",
       "vi": "truyền đạt",
-      "id": "menyampaikan"
+      "id": "menyampaikan",
+      "es": "convey",
+      "pt": "convey"
     },
     "ex": "気持ちを伝える",
     "exm": {
@@ -15358,7 +18064,9 @@ const N5_VOCAB = [
       "zh-CN": "传达心意",
       "ko": "마음을 전하다",
       "vi": "truyền đạt cảm xúc",
-      "id": "menyampaikan perasaan"
+      "id": "menyampaikan perasaan",
+      "es": "convey feelings",
+      "pt": "convey feelings"
     }
   },
   {
@@ -15371,7 +18079,9 @@ const N5_VOCAB = [
       "zh-CN": "接受",
       "ko": "받다",
       "vi": "nhận",
-      "id": "menerima"
+      "id": "menerima",
+      "es": "receive",
+      "pt": "receive"
     },
     "ex": "試験を受ける",
     "exm": {
@@ -15380,7 +18090,9 @@ const N5_VOCAB = [
       "zh-CN": "参加考试",
       "ko": "시험을 보다",
       "vi": "thi",
-      "id": "mengikuti ujian"
+      "id": "mengikuti ujian",
+      "es": "take exam",
+      "pt": "take exam"
     }
   },
   {
@@ -15393,7 +18105,9 @@ const N5_VOCAB = [
       "zh-CN": "丢掉",
       "ko": "버리다",
       "vi": "vứt",
-      "id": "membuang"
+      "id": "membuang",
+      "es": "throw away",
+      "pt": "throw away"
     },
     "ex": "ゴミを捨てる",
     "exm": {
@@ -15402,7 +18116,9 @@ const N5_VOCAB = [
       "zh-CN": "丢垃圾",
       "ko": "쓰레기를 버리다",
       "vi": "vứt rác",
-      "id": "membuang sampah"
+      "id": "membuang sampah",
+      "es": "throw trash",
+      "pt": "throw trash"
     }
   },
   {
@@ -15415,7 +18131,9 @@ const N5_VOCAB = [
       "zh-CN": "迎接",
       "ko": "맞이하다",
       "vi": "đón",
-      "id": "menyambut"
+      "id": "menyambut",
+      "es": "welcome",
+      "pt": "welcome"
     },
     "ex": "客を迎える",
     "exm": {
@@ -15424,7 +18142,9 @@ const N5_VOCAB = [
       "zh-CN": "迎接客人",
       "ko": "손님을 맞이하다",
       "vi": "đón khách",
-      "id": "menyambut tamu"
+      "id": "menyambut tamu",
+      "es": "welcome guest",
+      "pt": "welcome guest"
     }
   },
   {
@@ -15437,7 +18157,9 @@ const N5_VOCAB = [
       "zh-CN": "拜访",
       "ko": "방문하다",
       "vi": "thăm",
-      "id": "mengunjungi"
+      "id": "mengunjungi",
+      "es": "visit",
+      "pt": "visit"
     },
     "ex": "友達を訪ねる",
     "exm": {
@@ -15446,7 +18168,9 @@ const N5_VOCAB = [
       "zh-CN": "拜访朋友",
       "ko": "친구를 방문하다",
       "vi": "thăm bạn",
-      "id": "mengunjungi teman"
+      "id": "mengunjungi teman",
+      "es": "visit friend",
+      "pt": "visit friend"
     }
   },
   {
@@ -15459,7 +18183,9 @@ const N5_VOCAB = [
       "zh-CN": "访问",
       "ko": "방문",
       "vi": "viếng thăm",
-      "id": "kunjungan"
+      "id": "kunjungan",
+      "es": "visit",
+      "pt": "visit"
     },
     "ex": "訪問する",
     "exm": {
@@ -15468,7 +18194,9 @@ const N5_VOCAB = [
       "zh-CN": "访问",
       "ko": "방문하다",
       "vi": "viếng thăm",
-      "id": "berkunjung"
+      "id": "berkunjung",
+      "es": "pay a visit",
+      "pt": "pay a visit"
     }
   },
   {
@@ -15481,7 +18209,9 @@ const N5_VOCAB = [
       "zh-CN": "指引",
       "ko": "안내",
       "vi": "hướng dẫn",
-      "id": "panduan"
+      "id": "panduan",
+      "es": "guide",
+      "pt": "guide"
     },
     "ex": "案内する",
     "exm": {
@@ -15490,7 +18220,9 @@ const N5_VOCAB = [
       "zh-CN": "指引",
       "ko": "안내하다",
       "vi": "hướng dẫn",
-      "id": "memandu"
+      "id": "memandu",
+      "es": "guide",
+      "pt": "guide"
     }
   },
   {
@@ -15503,7 +18235,9 @@ const N5_VOCAB = [
       "zh-CN": "商量",
       "ko": "상담",
       "vi": "tham khảo",
-      "id": "konsultasi"
+      "id": "konsultasi",
+      "es": "consultation",
+      "pt": "consultation"
     },
     "ex": "相談する",
     "exm": {
@@ -15512,7 +18246,9 @@ const N5_VOCAB = [
       "zh-CN": "商量",
       "ko": "상담하다",
       "vi": "tham khảo",
-      "id": "berkonsultasi"
+      "id": "berkonsultasi",
+      "es": "consult",
+      "pt": "consult"
     }
   },
   {
@@ -15525,7 +18261,9 @@ const N5_VOCAB = [
       "zh-CN": "邀请",
       "ko": "초대",
       "vi": "mời",
-      "id": "undangan"
+      "id": "undangan",
+      "es": "invitation",
+      "pt": "invitation"
     },
     "ex": "招待する",
     "exm": {
@@ -15534,7 +18272,9 @@ const N5_VOCAB = [
       "zh-CN": "邀请",
       "ko": "초대하다",
       "vi": "mời",
-      "id": "mengundang"
+      "id": "mengundang",
+      "es": "invite",
+      "pt": "invite"
     }
   },
   {
@@ -15547,7 +18287,9 @@ const N5_VOCAB = [
       "zh-CN": "庆祝",
       "ko": "축하",
       "vi": "chúc mừng",
-      "id": "perayaan"
+      "id": "perayaan",
+      "es": "celebration",
+      "pt": "celebration"
     },
     "ex": "お祝いする",
     "exm": {
@@ -15556,7 +18298,9 @@ const N5_VOCAB = [
       "zh-CN": "庆祝",
       "ko": "축하하다",
       "vi": "chúc mừng",
-      "id": "merayakan"
+      "id": "merayakan",
+      "es": "celebrate",
+      "pt": "celebrate"
     }
   },
   {
@@ -15569,7 +18313,9 @@ const N5_VOCAB = [
       "zh-CN": "感谢",
       "ko": "감사",
       "vi": "cảm ơn",
-      "id": "terima kasih"
+      "id": "terima kasih",
+      "es": "thanks",
+      "pt": "thanks"
     },
     "ex": "お礼を言う",
     "exm": {
@@ -15578,7 +18324,9 @@ const N5_VOCAB = [
       "zh-CN": "道谢",
       "ko": "감사 인사를 하다",
       "vi": "nói cảm ơn",
-      "id": "mengucapkan terima kasih"
+      "id": "mengucapkan terima kasih",
+      "es": "say thanks",
+      "pt": "say thanks"
     }
   },
   {
@@ -15591,7 +18339,9 @@ const N5_VOCAB = [
       "zh-CN": "道歉",
       "ko": "사과",
       "vi": "xin lỗi",
-      "id": "permintaan maaf"
+      "id": "permintaan maaf",
+      "es": "apology",
+      "pt": "apology"
     },
     "ex": "お詫びする",
     "exm": {
@@ -15600,7 +18350,9 @@ const N5_VOCAB = [
       "zh-CN": "道歉",
       "ko": "사과하다",
       "vi": "xin lỗi",
-      "id": "meminta maaf"
+      "id": "meminta maaf",
+      "es": "apologize",
+      "pt": "apologize"
     }
   },
   {
@@ -15613,7 +18365,9 @@ const N5_VOCAB = [
       "zh-CN": "拜托",
       "ko": "부탁",
       "vi": "nhờ",
-      "id": "permintaan"
+      "id": "permintaan",
+      "es": "request",
+      "pt": "request"
     },
     "ex": "お願いする",
     "exm": {
@@ -15622,7 +18376,9 @@ const N5_VOCAB = [
       "zh-CN": "拜托",
       "ko": "부탁하다",
       "vi": "nhờ",
-      "id": "meminta"
+      "id": "meminta",
+      "es": "request",
+      "pt": "request"
     }
   },
   {
@@ -15635,7 +18391,9 @@ const N5_VOCAB = [
       "zh-CN": "问候",
       "ko": "인사",
       "vi": "chào hỏi",
-      "id": "salam"
+      "id": "salam",
+      "es": "greeting",
+      "pt": "greeting"
     },
     "ex": "挨拶する",
     "exm": {
@@ -15644,7 +18402,9 @@ const N5_VOCAB = [
       "zh-CN": "问候",
       "ko": "인사하다",
       "vi": "chào hỏi",
-      "id": "menyapa"
+      "id": "menyapa",
+      "es": "greet",
+      "pt": "greet"
     }
   },
   {
@@ -15657,7 +18417,9 @@ const N5_VOCAB = [
       "zh-CN": "回答",
       "ko": "대답",
       "vi": "trả lời",
-      "id": "balasan"
+      "id": "balasan",
+      "es": "reply",
+      "pt": "reply"
     },
     "ex": "返事する",
     "exm": {
@@ -15666,7 +18428,9 @@ const N5_VOCAB = [
       "zh-CN": "回答",
       "ko": "대답하다",
       "vi": "trả lời",
-      "id": "membalas"
+      "id": "membalas",
+      "es": "reply",
+      "pt": "reply"
     }
   },
   {
@@ -15679,7 +18443,9 @@ const N5_VOCAB = [
       "zh-CN": "预定",
       "ko": "예정",
       "vi": "lịch trình",
-      "id": "jadwal"
+      "id": "jadwal",
+      "es": "schedule",
+      "pt": "schedule"
     },
     "ex": "予定がある",
     "exm": {
@@ -15688,7 +18454,9 @@ const N5_VOCAB = [
       "zh-CN": "有预定",
       "ko": "예정이 있다",
       "vi": "có lịch",
-      "id": "ada jadwal"
+      "id": "ada jadwal",
+      "es": "have plans",
+      "pt": "have plans"
     }
   },
   {
@@ -15701,7 +18469,9 @@ const N5_VOCAB = [
       "zh-CN": "事情",
       "ko": "용무",
       "vi": "việc",
-      "id": "urusan"
+      "id": "urusan",
+      "es": "errand",
+      "pt": "errand"
     },
     "ex": "用事がある",
     "exm": {
@@ -15710,7 +18480,9 @@ const N5_VOCAB = [
       "zh-CN": "有事情",
       "ko": "용무가 있다",
       "vi": "có việc",
-      "id": "ada urusan"
+      "id": "ada urusan",
+      "es": "have errand",
+      "pt": "have errand"
     }
   },
   {
@@ -15723,7 +18495,9 @@ const N5_VOCAB = [
       "zh-CN": "准备",
       "ko": "준비",
       "vi": "chuẩn bị",
-      "id": "persiapan"
+      "id": "persiapan",
+      "es": "prepare",
+      "pt": "prepare"
     },
     "ex": "用意する",
     "exm": {
@@ -15732,7 +18506,9 @@ const N5_VOCAB = [
       "zh-CN": "准备",
       "ko": "준비하다",
       "vi": "chuẩn bị",
-      "id": "mempersiapkan"
+      "id": "mempersiapkan",
+      "es": "prepare",
+      "pt": "prepare"
     }
   },
   {
@@ -15745,7 +18521,9 @@ const N5_VOCAB = [
       "zh-CN": "注意",
       "ko": "주의",
       "vi": "chú ý",
-      "id": "perhatian"
+      "id": "perhatian",
+      "es": "caution",
+      "pt": "caution"
     },
     "ex": "注意する",
     "exm": {
@@ -15754,7 +18532,9 @@ const N5_VOCAB = [
       "zh-CN": "注意",
       "ko": "주의하다",
       "vi": "chú ý",
-      "id": "berhati-hati"
+      "id": "berhati-hati",
+      "es": "be careful",
+      "pt": "be careful"
     }
   },
   {
@@ -15767,7 +18547,9 @@ const N5_VOCAB = [
       "zh-CN": "确认",
       "ko": "확인",
       "vi": "xác nhận",
-      "id": "konfirmasi"
+      "id": "konfirmasi",
+      "es": "confirm",
+      "pt": "confirm"
     },
     "ex": "確認する",
     "exm": {
@@ -15776,7 +18558,9 @@ const N5_VOCAB = [
       "zh-CN": "确认",
       "ko": "확인하다",
       "vi": "xác nhận",
-      "id": "mengkonfirmasi"
+      "id": "mengkonfirmasi",
+      "es": "confirm",
+      "pt": "confirm"
     }
   },
   {
@@ -15789,7 +18573,9 @@ const N5_VOCAB = [
       "zh-CN": "赞成",
       "ko": "찬성",
       "vi": "đồng ý",
-      "id": "setuju"
+      "id": "setuju",
+      "es": "agree",
+      "pt": "agree"
     },
     "ex": "賛成する",
     "exm": {
@@ -15798,7 +18584,9 @@ const N5_VOCAB = [
       "zh-CN": "赞成",
       "ko": "찬성하다",
       "vi": "đồng ý",
-      "id": "setuju"
+      "id": "setuju",
+      "es": "agree",
+      "pt": "agree"
     }
   },
   {
@@ -15811,7 +18599,9 @@ const N5_VOCAB = [
       "zh-CN": "反对",
       "ko": "반대",
       "vi": "phản đối",
-      "id": "menentang"
+      "id": "menentang",
+      "es": "oppose",
+      "pt": "oppose"
     },
     "ex": "反対する",
     "exm": {
@@ -15820,7 +18610,9 @@ const N5_VOCAB = [
       "zh-CN": "反对",
       "ko": "반대하다",
       "vi": "phản đối",
-      "id": "menentang"
+      "id": "menentang",
+      "es": "oppose",
+      "pt": "oppose"
     }
   },
   {
@@ -15833,7 +18625,9 @@ const N5_VOCAB = [
       "zh-CN": "参加",
       "ko": "참가",
       "vi": "tham gia",
-      "id": "berpartisipasi"
+      "id": "berpartisipasi",
+      "es": "participate",
+      "pt": "participate"
     },
     "ex": "参加する",
     "exm": {
@@ -15842,7 +18636,9 @@ const N5_VOCAB = [
       "zh-CN": "参加",
       "ko": "참가하다",
       "vi": "tham gia",
-      "id": "berpartisipasi"
+      "id": "berpartisipasi",
+      "es": "participate",
+      "pt": "participate"
     }
   },
   {
@@ -15855,7 +18651,9 @@ const N5_VOCAB = [
       "zh-CN": "出席",
       "ko": "출석",
       "vi": "tham dự",
-      "id": "hadir"
+      "id": "hadir",
+      "es": "attend",
+      "pt": "attend"
     },
     "ex": "出席する",
     "exm": {
@@ -15864,7 +18662,9 @@ const N5_VOCAB = [
       "zh-CN": "出席",
       "ko": "출석하다",
       "vi": "tham dự",
-      "id": "hadir"
+      "id": "hadir",
+      "es": "attend",
+      "pt": "attend"
     }
   },
   {
@@ -15877,7 +18677,9 @@ const N5_VOCAB = [
       "zh-CN": "缺席",
       "ko": "결석",
       "vi": "vắng mặt",
-      "id": "absen"
+      "id": "absen",
+      "es": "absent",
+      "pt": "absent"
     },
     "ex": "欠席する",
     "exm": {
@@ -15886,7 +18688,9 @@ const N5_VOCAB = [
       "zh-CN": "缺席",
       "ko": "결석하다",
       "vi": "vắng mặt",
-      "id": "absen"
+      "id": "absen",
+      "es": "be absent",
+      "pt": "be absent"
     }
   },
   {
@@ -15899,7 +18703,9 @@ const N5_VOCAB = [
       "zh-CN": "迟到",
       "ko": "지각",
       "vi": "muộn",
-      "id": "terlambat"
+      "id": "terlambat",
+      "es": "late",
+      "pt": "late"
     },
     "ex": "遅刻する",
     "exm": {
@@ -15908,7 +18714,9 @@ const N5_VOCAB = [
       "zh-CN": "迟到",
       "ko": "지각하다",
       "vi": "đến muộn",
-      "id": "terlambat"
+      "id": "terlambat",
+      "es": "be late",
+      "pt": "be late"
     }
   },
   {
@@ -15921,7 +18729,9 @@ const N5_VOCAB = [
       "zh-CN": "毕业",
       "ko": "졸업",
       "vi": "tốt nghiệp",
-      "id": "lulus"
+      "id": "lulus",
+      "es": "graduate",
+      "pt": "graduate"
     },
     "ex": "卒業する",
     "exm": {
@@ -15930,7 +18740,9 @@ const N5_VOCAB = [
       "zh-CN": "毕业",
       "ko": "졸업하다",
       "vi": "tốt nghiệp",
-      "id": "lulus"
+      "id": "lulus",
+      "es": "graduate",
+      "pt": "graduate"
     }
   },
   {
@@ -15943,7 +18755,9 @@ const N5_VOCAB = [
       "zh-CN": "入学",
       "ko": "입학",
       "vi": "nhập học",
-      "id": "masuk sekolah"
+      "id": "masuk sekolah",
+      "es": "enroll",
+      "pt": "enroll"
     },
     "ex": "入学する",
     "exm": {
@@ -15952,7 +18766,9 @@ const N5_VOCAB = [
       "zh-CN": "入学",
       "ko": "입학하다",
       "vi": "nhập học",
-      "id": "masuk sekolah"
+      "id": "masuk sekolah",
+      "es": "enroll",
+      "pt": "enroll"
     }
   },
   {
@@ -15965,7 +18781,9 @@ const N5_VOCAB = [
       "zh-CN": "就职",
       "ko": "취직",
       "vi": "xin việc",
-      "id": "mendapat pekerjaan"
+      "id": "mendapat pekerjaan",
+      "es": "get job",
+      "pt": "get job"
     },
     "ex": "就職する",
     "exm": {
@@ -15974,7 +18792,9 @@ const N5_VOCAB = [
       "zh-CN": "就职",
       "ko": "취직하다",
       "vi": "xin được việc",
-      "id": "mendapat pekerjaan"
+      "id": "mendapat pekerjaan",
+      "es": "get a job",
+      "pt": "get a job"
     }
   },
   {
@@ -15987,7 +18807,9 @@ const N5_VOCAB = [
       "zh-CN": "退休",
       "ko": "퇴직",
       "vi": "nghỉ việc",
-      "id": "pensiun"
+      "id": "pensiun",
+      "es": "retire",
+      "pt": "retire"
     },
     "ex": "退職する",
     "exm": {
@@ -15996,7 +18818,9 @@ const N5_VOCAB = [
       "zh-CN": "退休",
       "ko": "퇴직하다",
       "vi": "nghỉ việc",
-      "id": "pensiun"
+      "id": "pensiun",
+      "es": "retire",
+      "pt": "retire"
     }
   },
   {
@@ -16009,7 +18833,9 @@ const N5_VOCAB = [
       "zh-CN": "出差",
       "ko": "출장",
       "vi": "công tác",
-      "id": "perjalanan dinas"
+      "id": "perjalanan dinas",
+      "es": "business trip",
+      "pt": "business trip"
     },
     "ex": "出張する",
     "exm": {
@@ -16018,7 +18844,9 @@ const N5_VOCAB = [
       "zh-CN": "出差",
       "ko": "출장 가다",
       "vi": "đi công tác",
-      "id": "perjalanan dinas"
+      "id": "perjalanan dinas",
+      "es": "go on business trip",
+      "pt": "go on business trip"
     }
   },
   {
@@ -16031,7 +18859,9 @@ const N5_VOCAB = [
       "zh-CN": "休息",
       "ko": "휴식",
       "vi": "nghỉ ngơi",
-      "id": "istirahat"
+      "id": "istirahat",
+      "es": "break",
+      "pt": "break"
     },
     "ex": "休憩する",
     "exm": {
@@ -16040,7 +18870,9 @@ const N5_VOCAB = [
       "zh-CN": "休息",
       "ko": "휴식하다",
       "vi": "nghỉ ngơi",
-      "id": "beristirahat"
+      "id": "beristirahat",
+      "es": "take a break",
+      "pt": "take a break"
     }
   },
   {
@@ -16053,7 +18885,9 @@ const N5_VOCAB = [
       "zh-CN": "散步",
       "ko": "산책",
       "vi": "đi dạo",
-      "id": "jalan-jalan"
+      "id": "jalan-jalan",
+      "es": "walk",
+      "pt": "walk"
     },
     "ex": "散歩する",
     "exm": {
@@ -16062,7 +18896,9 @@ const N5_VOCAB = [
       "zh-CN": "散步",
       "ko": "산책하다",
       "vi": "đi dạo",
-      "id": "jalan-jalan"
+      "id": "jalan-jalan",
+      "es": "take a walk",
+      "pt": "take a walk"
     }
   },
   {
@@ -16075,7 +18911,9 @@ const N5_VOCAB = [
       "zh-CN": "观光",
       "ko": "구경",
       "vi": "tham quan",
-      "id": "wisata"
+      "id": "wisata",
+      "es": "sightseeing",
+      "pt": "sightseeing"
     },
     "ex": "見物する",
     "exm": {
@@ -16084,7 +18922,9 @@ const N5_VOCAB = [
       "zh-CN": "观光",
       "ko": "구경하다",
       "vi": "tham quan",
-      "id": "berwisata"
+      "id": "berwisata",
+      "es": "go sightseeing",
+      "pt": "go sightseeing"
     }
   },
   {
@@ -16097,7 +18937,9 @@ const N5_VOCAB = [
       "zh-CN": "用餐",
       "ko": "식사",
       "vi": "bữa ăn",
-      "id": "makan"
+      "id": "makan",
+      "es": "meal",
+      "pt": "meal"
     },
     "ex": "食事する",
     "exm": {
@@ -16106,7 +18948,9 @@ const N5_VOCAB = [
       "zh-CN": "用餐",
       "ko": "식사하다",
       "vi": "ăn cơm",
-      "id": "makan"
+      "id": "makan",
+      "es": "have meal",
+      "pt": "have meal"
     }
   },
   {
@@ -16119,7 +18963,9 @@ const N5_VOCAB = [
       "zh-CN": "洗衣",
       "ko": "세탁",
       "vi": "giặt đồ",
-      "id": "mencuci"
+      "id": "mencuci",
+      "es": "laundry",
+      "pt": "laundry"
     },
     "ex": "洗濯する",
     "exm": {
@@ -16128,7 +18974,9 @@ const N5_VOCAB = [
       "zh-CN": "洗衣服",
       "ko": "세탁하다",
       "vi": "giặt đồ",
-      "id": "mencuci pakaian"
+      "id": "mencuci pakaian",
+      "es": "do laundry",
+      "pt": "do laundry"
     }
   },
   {
@@ -16141,7 +18989,9 @@ const N5_VOCAB = [
       "zh-CN": "打扫",
       "ko": "청소",
       "vi": "dọn dẹp",
-      "id": "bersih-bersih"
+      "id": "bersih-bersih",
+      "es": "cleaning",
+      "pt": "cleaning"
     },
     "ex": "掃除する",
     "exm": {
@@ -16150,7 +19000,9 @@ const N5_VOCAB = [
       "zh-CN": "打扫",
       "ko": "청소하다",
       "vi": "dọn dẹp",
-      "id": "membersihkan"
+      "id": "membersihkan",
+      "es": "clean",
+      "pt": "clean"
     }
   },
   {
@@ -16163,7 +19015,9 @@ const N5_VOCAB = [
       "zh-CN": "运动",
       "ko": "운동",
       "vi": "vận động",
-      "id": "olahraga"
+      "id": "olahraga",
+      "es": "exercise",
+      "pt": "exercise"
     },
     "ex": "運動する",
     "exm": {
@@ -16172,7 +19026,9 @@ const N5_VOCAB = [
       "zh-CN": "运动",
       "ko": "운동하다",
       "vi": "vận động",
-      "id": "berolahraga"
+      "id": "berolahraga",
+      "es": "exercise",
+      "pt": "exercise"
     }
   },
   {
@@ -16185,7 +19041,9 @@ const N5_VOCAB = [
       "zh-CN": "驾驶",
       "ko": "운전",
       "vi": "lái xe",
-      "id": "mengemudi"
+      "id": "mengemudi",
+      "es": "drive",
+      "pt": "drive"
     },
     "ex": "運転する",
     "exm": {
@@ -16194,7 +19052,9 @@ const N5_VOCAB = [
       "zh-CN": "驾驶",
       "ko": "운전하다",
       "vi": "lái xe",
-      "id": "mengemudi"
+      "id": "mengemudi",
+      "es": "drive",
+      "pt": "drive"
     }
   },
   {
@@ -16207,7 +19067,9 @@ const N5_VOCAB = [
       "zh-CN": "利用",
       "ko": "이용",
       "vi": "sử dụng",
-      "id": "menggunakan"
+      "id": "menggunakan",
+      "es": "use",
+      "pt": "use"
     },
     "ex": "利用する",
     "exm": {
@@ -16216,7 +19078,9 @@ const N5_VOCAB = [
       "zh-CN": "利用",
       "ko": "이용하다",
       "vi": "sử dụng",
-      "id": "menggunakan"
+      "id": "menggunakan",
+      "es": "use",
+      "pt": "use"
     }
   },
   {
@@ -16229,7 +19093,9 @@ const N5_VOCAB = [
       "zh-CN": "进口",
       "ko": "수입",
       "vi": "nhập khẩu",
-      "id": "impor"
+      "id": "impor",
+      "es": "import",
+      "pt": "import"
     },
     "ex": "輸入する",
     "exm": {
@@ -16238,7 +19104,9 @@ const N5_VOCAB = [
       "zh-CN": "进口",
       "ko": "수입하다",
       "vi": "nhập khẩu",
-      "id": "mengimpor"
+      "id": "mengimpor",
+      "es": "import",
+      "pt": "import"
     }
   },
   {
@@ -16251,7 +19119,9 @@ const N5_VOCAB = [
       "zh-CN": "出口",
       "ko": "수출",
       "vi": "xuất khẩu",
-      "id": "ekspor"
+      "id": "ekspor",
+      "es": "export",
+      "pt": "export"
     },
     "ex": "輸出する",
     "exm": {
@@ -16260,7 +19130,9 @@ const N5_VOCAB = [
       "zh-CN": "出口",
       "ko": "수출하다",
       "vi": "xuất khẩu",
-      "id": "mengekspor"
+      "id": "mengekspor",
+      "es": "export",
+      "pt": "export"
     }
   },
   {
@@ -16273,7 +19145,9 @@ const N5_VOCAB = [
       "zh-CN": "发展",
       "ko": "발전",
       "vi": "phát triển",
-      "id": "perkembangan"
+      "id": "perkembangan",
+      "es": "development",
+      "pt": "development"
     },
     "ex": "発展する",
     "exm": {
@@ -16282,7 +19156,9 @@ const N5_VOCAB = [
       "zh-CN": "发展",
       "ko": "발전하다",
       "vi": "phát triển",
-      "id": "berkembang"
+      "id": "berkembang",
+      "es": "develop",
+      "pt": "develop"
     }
   },
   {
@@ -16295,7 +19171,9 @@ const N5_VOCAB = [
       "zh-CN": "发明",
       "ko": "발명",
       "vi": "phát minh",
-      "id": "penemuan"
+      "id": "penemuan",
+      "es": "invention",
+      "pt": "invention"
     },
     "ex": "発明する",
     "exm": {
@@ -16304,7 +19182,9 @@ const N5_VOCAB = [
       "zh-CN": "发明",
       "ko": "발명하다",
       "vi": "phát minh",
-      "id": "menemukan"
+      "id": "menemukan",
+      "es": "invent",
+      "pt": "invent"
     }
   },
   {
@@ -16317,7 +19197,9 @@ const N5_VOCAB = [
       "zh-CN": "发现",
       "ko": "발견",
       "vi": "phát hiện",
-      "id": "penemuan"
+      "id": "penemuan",
+      "es": "discovery",
+      "pt": "discovery"
     },
     "ex": "発見する",
     "exm": {
@@ -16326,7 +19208,9 @@ const N5_VOCAB = [
       "zh-CN": "发现",
       "ko": "발견하다",
       "vi": "phát hiện",
-      "id": "menemukan"
+      "id": "menemukan",
+      "es": "discover",
+      "pt": "discover"
     }
   },
   {
@@ -16339,7 +19223,9 @@ const N5_VOCAB = [
       "zh-CN": "研究",
       "ko": "연구",
       "vi": "nghiên cứu",
-      "id": "penelitian"
+      "id": "penelitian",
+      "es": "research",
+      "pt": "research"
     },
     "ex": "研究する",
     "exm": {
@@ -16348,7 +19234,9 @@ const N5_VOCAB = [
       "zh-CN": "研究",
       "ko": "연구하다",
       "vi": "nghiên cứu",
-      "id": "meneliti"
+      "id": "meneliti",
+      "es": "research",
+      "pt": "research"
     }
   },
   {
@@ -16361,7 +19249,9 @@ const N5_VOCAB = [
       "zh-CN": "调查",
       "ko": "조사",
       "vi": "điều tra",
-      "id": "survei"
+      "id": "survei",
+      "es": "survey",
+      "pt": "survey"
     },
     "ex": "調査する",
     "exm": {
@@ -16370,7 +19260,9 @@ const N5_VOCAB = [
       "zh-CN": "调查",
       "ko": "조사하다",
       "vi": "điều tra",
-      "id": "mensurvei"
+      "id": "mensurvei",
+      "es": "survey",
+      "pt": "survey"
     }
   },
   {
@@ -16383,7 +19275,9 @@ const N5_VOCAB = [
       "zh-CN": "实验",
       "ko": "실험",
       "vi": "thí nghiệm",
-      "id": "eksperimen"
+      "id": "eksperimen",
+      "es": "experiment",
+      "pt": "experiment"
     },
     "ex": "実験する",
     "exm": {
@@ -16392,7 +19286,9 @@ const N5_VOCAB = [
       "zh-CN": "实验",
       "ko": "실험하다",
       "vi": "thí nghiệm",
-      "id": "bereksperimen"
+      "id": "bereksperimen",
+      "es": "experiment",
+      "pt": "experiment"
     }
   },
   {
@@ -16405,7 +19301,9 @@ const N5_VOCAB = [
       "zh-CN": "报告",
       "ko": "보고",
       "vi": "báo cáo",
-      "id": "laporan"
+      "id": "laporan",
+      "es": "report",
+      "pt": "report"
     },
     "ex": "報告する",
     "exm": {
@@ -16414,7 +19312,9 @@ const N5_VOCAB = [
       "zh-CN": "报告",
       "ko": "보고하다",
       "vi": "báo cáo",
-      "id": "melaporkan"
+      "id": "melaporkan",
+      "es": "report",
+      "pt": "report"
     }
   },
   {
@@ -16427,7 +19327,9 @@ const N5_VOCAB = [
       "zh-CN": "发表",
       "ko": "발표",
       "vi": "phát biểu",
-      "id": "pengumuman"
+      "id": "pengumuman",
+      "es": "announce",
+      "pt": "announce"
     },
     "ex": "発表する",
     "exm": {
@@ -16436,7 +19338,9 @@ const N5_VOCAB = [
       "zh-CN": "发表",
       "ko": "발표하다",
       "vi": "phát biểu",
-      "id": "mengumumkan"
+      "id": "mengumumkan",
+      "es": "announce",
+      "pt": "announce"
     }
   },
   {
@@ -16449,7 +19353,9 @@ const N5_VOCAB = [
       "zh-CN": "播放",
       "ko": "방송",
       "vi": "phát sóng",
-      "id": "siaran"
+      "id": "siaran",
+      "es": "broadcast",
+      "pt": "broadcast"
     },
     "ex": "放送する",
     "exm": {
@@ -16458,7 +19364,9 @@ const N5_VOCAB = [
       "zh-CN": "播放",
       "ko": "방송하다",
       "vi": "phát sóng",
-      "id": "menyiarkan"
+      "id": "menyiarkan",
+      "es": "broadcast",
+      "pt": "broadcast"
     }
   },
   {
@@ -16471,7 +19379,9 @@ const N5_VOCAB = [
       "zh-CN": "录音",
       "ko": "녹음",
       "vi": "ghi âm",
-      "id": "rekaman"
+      "id": "rekaman",
+      "es": "record",
+      "pt": "record"
     },
     "ex": "録音する",
     "exm": {
@@ -16480,7 +19390,9 @@ const N5_VOCAB = [
       "zh-CN": "录音",
       "ko": "녹음하다",
       "vi": "ghi âm",
-      "id": "merekam"
+      "id": "merekam",
+      "es": "record",
+      "pt": "record"
     }
   },
   {
@@ -16493,7 +19405,9 @@ const N5_VOCAB = [
       "zh-CN": "拍摄",
       "ko": "촬영",
       "vi": "chụp ảnh",
-      "id": "fotografi"
+      "id": "fotografi",
+      "es": "photography",
+      "pt": "photography"
     },
     "ex": "撮影する",
     "exm": {
@@ -16502,7 +19416,9 @@ const N5_VOCAB = [
       "zh-CN": "拍摄",
       "ko": "촬영하다",
       "vi": "chụp ảnh",
-      "id": "memotret"
+      "id": "memotret",
+      "es": "take photo",
+      "pt": "take photo"
     }
   },
   {
@@ -16515,7 +19431,9 @@ const N5_VOCAB = [
       "zh-CN": "印刷",
       "ko": "인쇄",
       "vi": "in ấn",
-      "id": "cetak"
+      "id": "cetak",
+      "es": "print",
+      "pt": "print"
     },
     "ex": "印刷する",
     "exm": {
@@ -16524,7 +19442,9 @@ const N5_VOCAB = [
       "zh-CN": "印刷",
       "ko": "인쇄하다",
       "vi": "in ấn",
-      "id": "mencetak"
+      "id": "mencetak",
+      "es": "print",
+      "pt": "print"
     }
   },
   {
@@ -16537,7 +19457,9 @@ const N5_VOCAB = [
       "zh-CN": "翻译",
       "ko": "번역",
       "vi": "dịch",
-      "id": "terjemahan"
+      "id": "terjemahan",
+      "es": "translate",
+      "pt": "translate"
     },
     "ex": "翻訳する",
     "exm": {
@@ -16546,7 +19468,9 @@ const N5_VOCAB = [
       "zh-CN": "翻译",
       "ko": "번역하다",
       "vi": "dịch",
-      "id": "menerjemahkan"
+      "id": "menerjemahkan",
+      "es": "translate",
+      "pt": "translate"
     }
   },
   {
@@ -16559,7 +19483,9 @@ const N5_VOCAB = [
       "zh-CN": "口译",
       "ko": "통역",
       "vi": "phiên dịch",
-      "id": "penerjemah"
+      "id": "penerjemah",
+      "es": "interpret",
+      "pt": "interpret"
     },
     "ex": "通訳する",
     "exm": {
@@ -16568,7 +19494,9 @@ const N5_VOCAB = [
       "zh-CN": "口译",
       "ko": "통역하다",
       "vi": "phiên dịch",
-      "id": "menerjemahkan lisan"
+      "id": "menerjemahkan lisan",
+      "es": "interpret",
+      "pt": "interpret"
     }
   },
   {
@@ -16581,7 +19509,9 @@ const N5_VOCAB = [
       "zh-CN": "输入",
       "ko": "입력",
       "vi": "nhập",
-      "id": "input"
+      "id": "input",
+      "es": "input",
+      "pt": "input"
     },
     "ex": "入力する",
     "exm": {
@@ -16590,7 +19520,9 @@ const N5_VOCAB = [
       "zh-CN": "输入",
       "ko": "입력하다",
       "vi": "nhập",
-      "id": "memasukkan"
+      "id": "memasukkan",
+      "es": "input",
+      "pt": "input"
     }
   },
   {
@@ -16603,7 +19535,9 @@ const N5_VOCAB = [
       "zh-CN": "输出",
       "ko": "출력",
       "vi": "xuất",
-      "id": "output"
+      "id": "output",
+      "es": "output",
+      "pt": "output"
     },
     "ex": "出力する",
     "exm": {
@@ -16612,7 +19546,9 @@ const N5_VOCAB = [
       "zh-CN": "输出",
       "ko": "출력하다",
       "vi": "xuất",
-      "id": "mengeluarkan"
+      "id": "mengeluarkan",
+      "es": "output",
+      "pt": "output"
     }
   },
   {
@@ -16625,7 +19561,9 @@ const N5_VOCAB = [
       "zh-CN": "搜索",
       "ko": "검색",
       "vi": "tìm kiếm",
-      "id": "pencarian"
+      "id": "pencarian",
+      "es": "search",
+      "pt": "search"
     },
     "ex": "検索する",
     "exm": {
@@ -16634,7 +19572,9 @@ const N5_VOCAB = [
       "zh-CN": "搜索",
       "ko": "검색하다",
       "vi": "tìm kiếm",
-      "id": "mencari"
+      "id": "mencari",
+      "es": "search",
+      "pt": "search"
     }
   },
   {
@@ -16647,7 +19587,9 @@ const N5_VOCAB = [
       "zh-CN": "注册",
       "ko": "등록",
       "vi": "đăng ký",
-      "id": "pendaftaran"
+      "id": "pendaftaran",
+      "es": "register",
+      "pt": "register"
     },
     "ex": "登録する",
     "exm": {
@@ -16656,7 +19598,9 @@ const N5_VOCAB = [
       "zh-CN": "注册",
       "ko": "등록하다",
       "vi": "đăng ký",
-      "id": "mendaftar"
+      "id": "mendaftar",
+      "es": "register",
+      "pt": "register"
     }
   },
   {
@@ -16669,7 +19613,9 @@ const N5_VOCAB = [
       "zh-CN": "删除",
       "ko": "삭제",
       "vi": "xóa",
-      "id": "hapus"
+      "id": "hapus",
+      "es": "delete",
+      "pt": "delete"
     },
     "ex": "削除する",
     "exm": {
@@ -16678,7 +19624,9 @@ const N5_VOCAB = [
       "zh-CN": "删除",
       "ko": "삭제하다",
       "vi": "xóa",
-      "id": "menghapus"
+      "id": "menghapus",
+      "es": "delete",
+      "pt": "delete"
     }
   },
   {
@@ -16691,7 +19639,9 @@ const N5_VOCAB = [
       "zh-CN": "保存",
       "ko": "저장",
       "vi": "lưu",
-      "id": "simpan"
+      "id": "simpan",
+      "es": "save",
+      "pt": "save"
     },
     "ex": "保存する",
     "exm": {
@@ -16700,7 +19650,9 @@ const N5_VOCAB = [
       "zh-CN": "保存",
       "ko": "저장하다",
       "vi": "lưu",
-      "id": "menyimpan"
+      "id": "menyimpan",
+      "es": "save",
+      "pt": "save"
     }
   },
   {
@@ -16713,7 +19665,9 @@ const N5_VOCAB = [
       "zh-CN": "共享",
       "ko": "공유",
       "vi": "chia sẻ",
-      "id": "berbagi"
+      "id": "berbagi",
+      "es": "share",
+      "pt": "share"
     },
     "ex": "共有する",
     "exm": {
@@ -16722,7 +19676,9 @@ const N5_VOCAB = [
       "zh-CN": "共享",
       "ko": "공유하다",
       "vi": "chia sẻ",
-      "id": "berbagi"
+      "id": "berbagi",
+      "es": "share",
+      "pt": "share"
     }
   },
   {
@@ -16735,7 +19691,9 @@ const N5_VOCAB = [
       "zh-CN": "连接",
       "ko": "접속",
       "vi": "kết nối",
-      "id": "koneksi"
+      "id": "koneksi",
+      "es": "connect",
+      "pt": "connect"
     },
     "ex": "接続する",
     "exm": {
@@ -16744,7 +19702,9 @@ const N5_VOCAB = [
       "zh-CN": "连接",
       "ko": "접속하다",
       "vi": "kết nối",
-      "id": "menghubungkan"
+      "id": "menghubungkan",
+      "es": "connect",
+      "pt": "connect"
     }
   },
   {
@@ -16757,7 +19717,9 @@ const N5_VOCAB = [
       "zh-CN": "充电",
       "ko": "충전",
       "vi": "sạc pin",
-      "id": "mengisi daya"
+      "id": "mengisi daya",
+      "es": "charge",
+      "pt": "charge"
     },
     "ex": "充電する",
     "exm": {
@@ -16766,7 +19728,9 @@ const N5_VOCAB = [
       "zh-CN": "充电",
       "ko": "충전하다",
       "vi": "sạc pin",
-      "id": "mengisi daya"
+      "id": "mengisi daya",
+      "es": "charge",
+      "pt": "charge"
     }
   },
   {
@@ -16779,7 +19743,9 @@ const N5_VOCAB = [
       "zh-CN": "故障",
       "ko": "고장",
       "vi": "hỏng",
-      "id": "rusak"
+      "id": "rusak",
+      "es": "breakdown",
+      "pt": "breakdown"
     },
     "ex": "故障する",
     "exm": {
@@ -16788,7 +19754,9 @@ const N5_VOCAB = [
       "zh-CN": "故障",
       "ko": "고장나다",
       "vi": "bị hỏng",
-      "id": "rusak"
+      "id": "rusak",
+      "es": "break down",
+      "pt": "break down"
     }
   },
   {
@@ -16801,7 +19769,9 @@ const N5_VOCAB = [
       "zh-CN": "修理",
       "ko": "수리",
       "vi": "sửa chữa",
-      "id": "perbaikan"
+      "id": "perbaikan",
+      "es": "repair",
+      "pt": "repair"
     },
     "ex": "修理する",
     "exm": {
@@ -16810,7 +19780,9 @@ const N5_VOCAB = [
       "zh-CN": "修理",
       "ko": "수리하다",
       "vi": "sửa chữa",
-      "id": "memperbaiki"
+      "id": "memperbaiki",
+      "es": "repair",
+      "pt": "repair"
     }
   },
   {
@@ -16823,7 +19795,9 @@ const N5_VOCAB = [
       "zh-CN": "交换",
       "ko": "교환",
       "vi": "trao đổi",
-      "id": "pertukaran"
+      "id": "pertukaran",
+      "es": "exchange",
+      "pt": "exchange"
     },
     "ex": "交換する",
     "exm": {
@@ -16832,7 +19806,9 @@ const N5_VOCAB = [
       "zh-CN": "交换",
       "ko": "교환하다",
       "vi": "trao đổi",
-      "id": "menukar"
+      "id": "menukar",
+      "es": "exchange",
+      "pt": "exchange"
     }
   },
   {
@@ -16845,7 +19821,9 @@ const N5_VOCAB = [
       "zh-CN": "退货",
       "ko": "반품",
       "vi": "trả hàng",
-      "id": "pengembalian"
+      "id": "pengembalian",
+      "es": "return item",
+      "pt": "return item"
     },
     "ex": "返品する",
     "exm": {
@@ -16854,7 +19832,9 @@ const N5_VOCAB = [
       "zh-CN": "退货",
       "ko": "반품하다",
       "vi": "trả hàng",
-      "id": "mengembalikan barang"
+      "id": "mengembalikan barang",
+      "es": "return item",
+      "pt": "return item"
     }
   },
   {
@@ -16867,7 +19847,9 @@ const N5_VOCAB = [
       "zh-CN": "配送",
       "ko": "배달",
       "vi": "giao hàng",
-      "id": "pengiriman"
+      "id": "pengiriman",
+      "es": "delivery",
+      "pt": "delivery"
     },
     "ex": "配達する",
     "exm": {
@@ -16876,7 +19858,9 @@ const N5_VOCAB = [
       "zh-CN": "配送",
       "ko": "배달하다",
       "vi": "giao hàng",
-      "id": "mengirim"
+      "id": "mengirim",
+      "es": "deliver",
+      "pt": "deliver"
     }
   },
   {
@@ -16889,7 +19873,9 @@ const N5_VOCAB = [
       "zh-CN": "船",
       "ko": "배",
       "vi": "Tàu",
-      "id": "Kapal"
+      "id": "Kapal",
+      "es": "ship",
+      "pt": "ship"
     },
     "ex": "発送する",
     "exm": {
@@ -16898,7 +19884,9 @@ const N5_VOCAB = [
       "zh-CN": "发货",
       "ko": "발송하다",
       "vi": "gửi đi",
-      "id": "mengirim"
+      "id": "mengirim",
+      "es": "ship",
+      "pt": "ship"
     }
   },
   {
@@ -16911,7 +19899,9 @@ const N5_VOCAB = [
       "zh-CN": "到达",
       "ko": "도착",
       "vi": "đến nơi",
-      "id": "kedatangan"
+      "id": "kedatangan",
+      "es": "arrival",
+      "pt": "arrival"
     },
     "ex": "到着する",
     "exm": {
@@ -16920,7 +19910,9 @@ const N5_VOCAB = [
       "zh-CN": "到达",
       "ko": "도착하다",
       "vi": "đến nơi",
-      "id": "tiba"
+      "id": "tiba",
+      "es": "arrive",
+      "pt": "arrive"
     }
   },
   {
@@ -16933,7 +19925,9 @@ const N5_VOCAB = [
       "zh-CN": "出发",
       "ko": "출발",
       "vi": "khởi hành",
-      "id": "keberangkatan"
+      "id": "keberangkatan",
+      "es": "departure",
+      "pt": "departure"
     },
     "ex": "出発する",
     "exm": {
@@ -16942,7 +19936,9 @@ const N5_VOCAB = [
       "zh-CN": "出发",
       "ko": "출발하다",
       "vi": "khởi hành",
-      "id": "berangkat"
+      "id": "berangkat",
+      "es": "depart",
+      "pt": "depart"
     }
   },
   {
@@ -16955,7 +19951,9 @@ const N5_VOCAB = [
       "zh-CN": "毎朝",
       "ko": "every morning",
       "vi": "every morning",
-      "id": "every morning"
+      "id": "every morning",
+      "es": "every morning",
+      "pt": "every morning"
     }
   },
   {
@@ -16968,7 +19966,9 @@ const N5_VOCAB = [
       "zh-CN": "毎晩",
       "ko": "every night",
       "vi": "every night",
-      "id": "every night"
+      "id": "every night",
+      "es": "every night",
+      "pt": "every night"
     }
   },
   {
@@ -16981,7 +19981,9 @@ const N5_VOCAB = [
       "zh-CN": "今朝",
       "ko": "this morning",
       "vi": "this morning",
-      "id": "this morning"
+      "id": "this morning",
+      "es": "this morning",
+      "pt": "this morning"
     }
   },
   {
@@ -16994,7 +19996,9 @@ const N5_VOCAB = [
       "zh-CN": "今晩",
       "ko": "tonight",
       "vi": "tonight",
-      "id": "tonight"
+      "id": "tonight",
+      "es": "tonight",
+      "pt": "tonight"
     }
   },
   {
@@ -17007,7 +20011,9 @@ const N5_VOCAB = [
       "zh-CN": "朝ご飯",
       "ko": "breakfast",
       "vi": "breakfast",
-      "id": "breakfast"
+      "id": "breakfast",
+      "es": "breakfast",
+      "pt": "breakfast"
     }
   },
   {
@@ -17020,7 +20026,9 @@ const N5_VOCAB = [
       "zh-CN": "昼ご飯",
       "ko": "lunch",
       "vi": "lunch",
-      "id": "lunch"
+      "id": "lunch",
+      "es": "lunch",
+      "pt": "lunch"
     }
   },
   {
@@ -17033,7 +20041,9 @@ const N5_VOCAB = [
       "zh-CN": "晩ご飯",
       "ko": "dinner",
       "vi": "dinner",
-      "id": "dinner"
+      "id": "dinner",
+      "es": "dinner",
+      "pt": "dinner"
     }
   },
   {
@@ -17046,7 +20056,9 @@ const N5_VOCAB = [
       "zh-CN": "お弁当",
       "ko": "bento",
       "vi": "bento",
-      "id": "bento"
+      "id": "bento",
+      "es": "bento",
+      "pt": "bento"
     }
   },
   {
@@ -17059,7 +20071,9 @@ const N5_VOCAB = [
       "zh-CN": "お水",
       "ko": "water",
       "vi": "water",
-      "id": "water"
+      "id": "water",
+      "es": "water",
+      "pt": "water"
     }
   },
   {
@@ -17072,7 +20086,9 @@ const N5_VOCAB = [
       "zh-CN": "お菓子",
       "ko": "sweets",
       "vi": "sweets",
-      "id": "sweets"
+      "id": "sweets",
+      "es": "sweets",
+      "pt": "sweets"
     }
   },
   {
@@ -17085,7 +20101,9 @@ const N5_VOCAB = [
       "zh-CN": "お店",
       "ko": "shop",
       "vi": "shop",
-      "id": "shop"
+      "id": "shop",
+      "es": "shop",
+      "pt": "shop"
     }
   },
   {
@@ -17098,7 +20116,9 @@ const N5_VOCAB = [
       "zh-CN": "地下鉄",
       "ko": "subway",
       "vi": "subway",
-      "id": "subway"
+      "id": "subway",
+      "es": "subway",
+      "pt": "subway"
     }
   },
   {
@@ -17111,7 +20131,9 @@ const N5_VOCAB = [
       "zh-CN": "バス停",
       "ko": "bus stop",
       "vi": "bus stop",
-      "id": "bus stop"
+      "id": "bus stop",
+      "es": "bus stop",
+      "pt": "bus stop"
     }
   },
   {
@@ -17124,7 +20146,9 @@ const N5_VOCAB = [
       "zh-CN": "階段",
       "ko": "stairs",
       "vi": "stairs",
-      "id": "stairs"
+      "id": "stairs",
+      "es": "stairs",
+      "pt": "stairs"
     }
   },
   {
@@ -17137,7 +20161,9 @@ const N5_VOCAB = [
       "zh-CN": "エレベーター",
       "ko": "elevator",
       "vi": "elevator",
-      "id": "elevator"
+      "id": "elevator",
+      "es": "elevator",
+      "pt": "elevator"
     }
   },
   {
@@ -17150,7 +20176,9 @@ const N5_VOCAB = [
       "zh-CN": "廊下",
       "ko": "hallway",
       "vi": "hallway",
-      "id": "hallway"
+      "id": "hallway",
+      "es": "hallway",
+      "pt": "hallway"
     }
   },
   {
@@ -17163,7 +20191,9 @@ const N5_VOCAB = [
       "zh-CN": "屋根",
       "ko": "roof",
       "vi": "roof",
-      "id": "roof"
+      "id": "roof",
+      "es": "roof",
+      "pt": "roof"
     }
   },
   {
@@ -17176,7 +20206,9 @@ const N5_VOCAB = [
       "zh-CN": "壁",
       "ko": "wall",
       "vi": "wall",
-      "id": "wall"
+      "id": "wall",
+      "es": "wall",
+      "pt": "wall"
     }
   },
   {
@@ -17189,7 +20221,9 @@ const N5_VOCAB = [
       "zh-CN": "床",
       "ko": "floor",
       "vi": "floor",
-      "id": "floor"
+      "id": "floor",
+      "es": "floor",
+      "pt": "floor"
     }
   },
   {
@@ -17202,7 +20236,9 @@ const N5_VOCAB = [
       "zh-CN": "天井",
       "ko": "ceiling",
       "vi": "ceiling",
-      "id": "ceiling"
+      "id": "ceiling",
+      "es": "ceiling",
+      "pt": "ceiling"
     }
   },
   {
@@ -17215,7 +20251,9 @@ const N5_VOCAB = [
       "zh-CN": "居間",
       "ko": "living room",
       "vi": "living room",
-      "id": "living room"
+      "id": "living room",
+      "es": "living room",
+      "pt": "living room"
     }
   },
   {
@@ -17228,7 +20266,9 @@ const N5_VOCAB = [
       "zh-CN": "寝室",
       "ko": "bedroom",
       "vi": "bedroom",
-      "id": "bedroom"
+      "id": "bedroom",
+      "es": "bedroom",
+      "pt": "bedroom"
     }
   },
   {
@@ -17241,7 +20281,9 @@ const N5_VOCAB = [
       "zh-CN": "浴室",
       "ko": "bathroom",
       "vi": "bathroom",
-      "id": "bathroom"
+      "id": "bathroom",
+      "es": "bathroom",
+      "pt": "bathroom"
     }
   },
   {
@@ -17254,7 +20296,9 @@ const N5_VOCAB = [
       "zh-CN": "ベランダ",
       "ko": "balcony",
       "vi": "balcony",
-      "id": "balcony"
+      "id": "balcony",
+      "es": "balcony",
+      "pt": "balcony"
     }
   },
   {
@@ -17267,7 +20311,9 @@ const N5_VOCAB = [
       "zh-CN": "駐車場",
       "ko": "parking lot",
       "vi": "parking lot",
-      "id": "parking lot"
+      "id": "parking lot",
+      "es": "parking lot",
+      "pt": "parking lot"
     }
   },
   {
@@ -17280,7 +20326,9 @@ const N5_VOCAB = [
       "zh-CN": "道路",
       "ko": "road",
       "vi": "road",
-      "id": "road"
+      "id": "road",
+      "es": "road",
+      "pt": "road"
     }
   },
   {
@@ -17293,7 +20341,9 @@ const N5_VOCAB = [
       "zh-CN": "歩道",
       "ko": "sidewalk",
       "vi": "sidewalk",
-      "id": "sidewalk"
+      "id": "sidewalk",
+      "es": "sidewalk",
+      "pt": "sidewalk"
     }
   },
   {
@@ -17306,7 +20356,9 @@ const N5_VOCAB = [
       "zh-CN": "カフェ",
       "ko": "cafe",
       "vi": "cafe",
-      "id": "cafe"
+      "id": "cafe",
+      "es": "cafe",
+      "pt": "cafe"
     }
   },
   {
@@ -17319,7 +20371,9 @@ const N5_VOCAB = [
       "zh-CN": "港",
       "ko": "port",
       "vi": "port",
-      "id": "port"
+      "id": "port",
+      "es": "port",
+      "pt": "port"
     }
   },
   {
@@ -17332,7 +20386,9 @@ const N5_VOCAB = [
       "zh-CN": "テーブル",
       "ko": "table",
       "vi": "table",
-      "id": "table"
+      "id": "table",
+      "es": "table",
+      "pt": "table"
     }
   },
   {
@@ -17345,7 +20401,9 @@ const N5_VOCAB = [
       "zh-CN": "ソファ",
       "ko": "sofa",
       "vi": "sofa",
-      "id": "sofa"
+      "id": "sofa",
+      "es": "sofa",
+      "pt": "sofa"
     }
   },
   {
@@ -17358,7 +20416,9 @@ const N5_VOCAB = [
       "zh-CN": "本棚",
       "ko": "bookshelf",
       "vi": "bookshelf",
-      "id": "bookshelf"
+      "id": "bookshelf",
+      "es": "bookshelf",
+      "pt": "bookshelf"
     }
   },
   {
@@ -17371,7 +20431,9 @@ const N5_VOCAB = [
       "zh-CN": "掃除機",
       "ko": "vacuum cleaner",
       "vi": "vacuum cleaner",
-      "id": "vacuum cleaner"
+      "id": "vacuum cleaner",
+      "es": "vacuum cleaner",
+      "pt": "vacuum cleaner"
     }
   },
   {
@@ -17384,7 +20446,9 @@ const N5_VOCAB = [
       "zh-CN": "携帯電話",
       "ko": "mobile phone",
       "vi": "mobile phone",
-      "id": "mobile phone"
+      "id": "mobile phone",
+      "es": "mobile phone",
+      "pt": "mobile phone"
     }
   },
   {
@@ -17397,7 +20461,9 @@ const N5_VOCAB = [
       "zh-CN": "シャツ",
       "ko": "shirt",
       "vi": "shirt",
-      "id": "shirt"
+      "id": "shirt",
+      "es": "shirt",
+      "pt": "shirt"
     }
   },
   {
@@ -17410,7 +20476,9 @@ const N5_VOCAB = [
       "zh-CN": "ズボン",
       "ko": "pants",
       "vi": "pants",
-      "id": "pants"
+      "id": "pants",
+      "es": "pants",
+      "pt": "pants"
     }
   },
   {
@@ -17423,7 +20491,9 @@ const N5_VOCAB = [
       "zh-CN": "スカート",
       "ko": "skirt",
       "vi": "skirt",
-      "id": "skirt"
+      "id": "skirt",
+      "es": "skirt",
+      "pt": "skirt"
     }
   },
   {
@@ -17436,7 +20506,9 @@ const N5_VOCAB = [
       "zh-CN": "コート",
       "ko": "coat",
       "vi": "coat",
-      "id": "coat"
+      "id": "coat",
+      "es": "coat",
+      "pt": "coat"
     }
   },
   {
@@ -17449,7 +20521,9 @@ const N5_VOCAB = [
       "zh-CN": "セーター",
       "ko": "sweater",
       "vi": "sweater",
-      "id": "sweater"
+      "id": "sweater",
+      "es": "sweater",
+      "pt": "sweater"
     }
   },
   {
@@ -17462,7 +20536,9 @@ const N5_VOCAB = [
       "zh-CN": "靴下",
       "ko": "socks",
       "vi": "socks",
-      "id": "socks"
+      "id": "socks",
+      "es": "socks",
+      "pt": "socks"
     }
   },
   {
@@ -17475,7 +20551,9 @@ const N5_VOCAB = [
       "zh-CN": "手袋",
       "ko": "gloves",
       "vi": "gloves",
-      "id": "gloves"
+      "id": "gloves",
+      "es": "gloves",
+      "pt": "gloves"
     }
   },
   {
@@ -17488,7 +20566,9 @@ const N5_VOCAB = [
       "zh-CN": "マフラー",
       "ko": "scarf",
       "vi": "scarf",
-      "id": "scarf"
+      "id": "scarf",
+      "es": "scarf",
+      "pt": "scarf"
     }
   },
   {
@@ -17501,7 +20581,9 @@ const N5_VOCAB = [
       "zh-CN": "ネクタイ",
       "ko": "necktie",
       "vi": "necktie",
-      "id": "necktie"
+      "id": "necktie",
+      "es": "necktie",
+      "pt": "necktie"
     }
   },
   {
@@ -17514,7 +20596,9 @@ const N5_VOCAB = [
       "zh-CN": "鞄",
       "ko": "bag",
       "vi": "bag",
-      "id": "bag"
+      "id": "bag",
+      "es": "bag",
+      "pt": "bag"
     }
   },
   {
@@ -17527,7 +20611,9 @@ const N5_VOCAB = [
       "zh-CN": "リュック",
       "ko": "backpack",
       "vi": "backpack",
-      "id": "backpack"
+      "id": "backpack",
+      "es": "backpack",
+      "pt": "backpack"
     }
   },
   {
@@ -17540,7 +20626,9 @@ const N5_VOCAB = [
       "zh-CN": "ポケット",
       "ko": "pocket",
       "vi": "pocket",
-      "id": "pocket"
+      "id": "pocket",
+      "es": "pocket",
+      "pt": "pocket"
     }
   },
   {
@@ -17553,7 +20641,9 @@ const N5_VOCAB = [
       "zh-CN": "ボタン",
       "ko": "button",
       "vi": "button",
-      "id": "button"
+      "id": "button",
+      "es": "button",
+      "pt": "button"
     }
   },
   {
@@ -17566,7 +20656,9 @@ const N5_VOCAB = [
       "zh-CN": "石鹸",
       "ko": "soap",
       "vi": "soap",
-      "id": "soap"
+      "id": "soap",
+      "es": "soap",
+      "pt": "soap"
     }
   },
   {
@@ -17579,7 +20671,9 @@ const N5_VOCAB = [
       "zh-CN": "タオル",
       "ko": "towel",
       "vi": "towel",
-      "id": "towel"
+      "id": "towel",
+      "es": "towel",
+      "pt": "towel"
     }
   },
   {
@@ -17592,7 +20686,9 @@ const N5_VOCAB = [
       "zh-CN": "歯ブラシ",
       "ko": "toothbrush",
       "vi": "toothbrush",
-      "id": "toothbrush"
+      "id": "toothbrush",
+      "es": "toothbrush",
+      "pt": "toothbrush"
     }
   },
   {
@@ -17605,7 +20701,9 @@ const N5_VOCAB = [
       "zh-CN": "歯磨き粉",
       "ko": "toothpaste",
       "vi": "toothpaste",
-      "id": "toothpaste"
+      "id": "toothpaste",
+      "es": "toothpaste",
+      "pt": "toothpaste"
     }
   }
 ];

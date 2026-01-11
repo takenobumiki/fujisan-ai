@@ -27,6 +27,8 @@
     <link rel="alternate" hreflang="ko" href="https://fujisan.ai/?lang=ko">
     <link rel="alternate" hreflang="vi" href="https://fujisan.ai/?lang=vi">
     <link rel="alternate" hreflang="id" href="https://fujisan.ai/?lang=id">
+    <link rel="alternate" hreflang="es" href="https://fujisan.ai/?lang=es">
+    <link rel="alternate" hreflang="pt" href="https://fujisan.ai/?lang=pt">
     <link rel="alternate" hreflang="x-default" href="https://fujisan.ai/">
     
     <!-- Favicon -->
@@ -228,7 +230,7 @@
         "operatingSystem": "Web Browser, iOS, Android",
         "browserRequirements": "Requires JavaScript. Requires HTML5.",
         "url": "https://fujisan.ai",
-        "inLanguage": ["en", "zh-TW", "zh-CN"],
+        "inLanguage": ["en", "zh-CN", "id", "ko", "vi", "zh-TW", "es", "pt"],
         "isAccessibleForFree": false,
         "offers": {
             "@type": "AggregateOffer",
@@ -1706,11 +1708,13 @@
             <div class="header-actions">
                 <select class="lang-selector" id="langSelector" onchange="changeLanguage(this.value)">
                     <option value="en">EN</option>
-                    <option value="zh-TW">繁體中文</option>
                     <option value="zh-CN">简体中文</option>
+                    <option value="id">Indonesia</option>
                     <option value="ko">한국어</option>
                     <option value="vi">Tiếng Việt</option>
-                    <option value="id">Indonesia</option>
+                    <option value="zh-TW">繁體中文</option>
+                    <option value="es">Español</option>
+                    <option value="pt">Português</option>
                 </select>
                 <div id="authButtons">
                     <button class="btn btn-text" onclick="openModal('login')" data-i18n="btn_login">Log In</button>
@@ -1997,7 +2001,7 @@
                             <div class="why-card">
                                 <div class="why-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#667eea" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></div>
                                 <h3 class="why-title" data-i18n="feature_lang_title">Multilingual L1 Support</h3>
-                                <p class="why-desc" data-i18n="feature_lang_desc">Interface and AI explanations in 6 languages. Native-language scaffolding accelerates comprehension without translation dependence.</p>
+                                <p class="why-desc" data-i18n="feature_lang_desc">Interface and AI explanations in 8 languages. Native-language scaffolding accelerates comprehension without translation dependence.</p>
                                 <img src="images/study-scene.jpg" alt="Multilingual Japanese learning app interface">
                             </div>
                         </div>
@@ -3693,7 +3697,7 @@
                 hero_title: "Pass JLPT with",
                 hero_title_accent: "AI-Powered Learning",
                 hero_subtitle: "The most authentic JLPT preparation platform with thousands of questions, smart mock tests, and personalized study plans. Made in Japan since 2006.",
-                hero_cta: "Start 7-Day Free Trial",
+                hero_cta: "Start Free",
                 hero_learn: "Learn More",
                 hero_note: "Card required · Cancel anytime",
                 hero_stat_questions: "Practice Questions",
@@ -3736,8 +3740,8 @@
                 feature_ai_desc: "Wrong answer? Our AI instantly explains why in your language. Understand the logic, not just memorize the answer.",
                 feature_srs_title: "Spaced Repetition",
                 feature_srs_desc: "Based on Ebbinghaus forgetting curve. Our SRS schedules reviews at optimal intervals so you remember forever.",
-                feature_lang_title: "6 Languages",
-                feature_lang_desc: "Study in English, 繁體中文, 简体中文, 한국어, Tiếng Việt, or Bahasa Indonesia. AI explanations in your native language.",
+                feature_lang_title: "8 Languages",
+                feature_lang_desc: "Study in English, 简体中文, Indonesia, 한국어, Tiếng Việt, 繁體中文, Español, or Português. AI explanations in your native language.",
                 
                 // Learning Modes
                 modes_label: "Complete Learning System",
@@ -4081,7 +4085,7 @@
                 hero_title: "通過JLPT",
                 hero_title_accent: "AI智能學習",
                 hero_subtitle: "最正宗的JLPT備考平台，擁有大量練習題、智能模擬考試和個人化學習計劃。日本製造，始於2006年。",
-                hero_cta: "開始7天免費試用",
+                hero_cta: "免費開始",
                 hero_learn: "了解更多",
                 hero_note: "需要信用卡 · 隨時取消",
                 hero_stat_questions: "練習題",
@@ -4124,8 +4128,8 @@
                 feature_ai_desc: "答錯了？AI立即用你的語言解釋原因。理解邏輯，而非死記硬背。",
                 feature_srs_title: "間隔重複系統",
                 feature_srs_desc: "基於艾賓浩斯遺忘曲線。SRS在最佳時間安排複習，讓你永遠記住。",
-                feature_lang_title: "支援6種語言",
-                feature_lang_desc: "支援英文、繁中、簡中、韓文、越南文、印尼文。AI解說使用你的母語。",
+                feature_lang_title: "支援8種語言",
+                feature_lang_desc: "支援英文、中文、印尼文、韓文、越南文、西班牙文、葡萄牙文。AI解說使用你的母語。",
                 
                 // Learning Modes
                 modes_label: "完整學習系統",
@@ -4467,7 +4471,7 @@
                 hero_title: "通过JLPT",
                 hero_title_accent: "AI智能学习",
                 hero_subtitle: "最正宗的JLPT备考平台，拥有大量练习题、智能模拟考试和个性化学习计划。日本制造，始于2006年。",
-                hero_cta: "开始7天免费试用",
+                hero_cta: "免费开始",
                 hero_learn: "了解更多",
                 hero_note: "需要信用卡 · 随时取消",
                 hero_stat_questions: "练习题",
@@ -4819,7 +4823,7 @@
                 hero_title: "AI로 JLPT",
                 hero_title_accent: "합격하기",
                 hero_subtitle: "1만 개 이상의 문제, 실전 모의고사, 나만의 학습 플랜까지. 2006년부터 일본에서 만들어온 가장 체계적인 JLPT 대비 플랫폼.",
-                hero_cta: "7일 무료 체험",
+                hero_cta: "무료로 시작하기",
                 hero_learn: "자세히 보기",
                 hero_note: "카드 등록 필요 · 언제든 해지 가능",
                 hero_stat_questions: "연습 문제",
@@ -4987,7 +4991,7 @@
                 hero_title: "Chinh phục JLPT",
                 hero_title_accent: "cùng AI",
                 hero_subtitle: "Hơn 10.000 câu hỏi, đề thi thử sát thực tế, lộ trình học cá nhân hóa. Được phát triển tại Nhật Bản từ năm 2006.",
-                hero_cta: "Dùng thử 7 ngày miễn phí",
+                hero_cta: "Bắt đầu Miễn phí",
                 hero_learn: "Tìm hiểu thêm",
                 hero_note: "Cần thẻ tín dụng · Hủy bất cứ lúc nào",
                 hero_stat_questions: "Câu hỏi",
@@ -5155,7 +5159,7 @@
                 hero_title: "Lulus JLPT",
                 hero_title_accent: "dengan AI",
                 hero_subtitle: "Platform persiapan JLPT terlengkap: 10.000+ soal, simulasi ujian, dan rencana belajar personal. Dikembangkan di Jepang sejak 2006.",
-                hero_cta: "Coba Gratis 7 Hari",
+                hero_cta: "Mulai Gratis",
                 hero_learn: "Selengkapnya",
                 hero_note: "Kartu kredit diperlukan · Bisa batal kapan saja",
                 hero_stat_questions: "Soal Latihan",
@@ -5529,7 +5533,7 @@
             
             let lang = 'en'; // Always default to English
             
-            if (langParam && ['en', 'zh-tw', 'zh-cn'].includes(langParam)) {
+            if (langParam && ['en', 'zh-TW', 'zh-CN', 'ko', 'vi', 'id', 'es', 'pt'].includes(langParam)) {
                 lang = langParam;
             } else if (savedLang) {
                 lang = savedLang;
