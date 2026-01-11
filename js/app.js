@@ -2424,12 +2424,16 @@ function updateContinueButton() {
   const textEl = document.getElementById('continue-btn-text');
   if (!btn || !textEl) return;
   
+  // Level colors
+  const levelColors = { N5: '#34c759', N4: '#007aff', N3: '#af52de', N2: '#1e3a5f', N1: '#ff3b30' };
+  
   if (state.lastSession && state.lastSession.level && state.lastSession.unit !== undefined) {
     const { level, unit, category } = state.lastSession;
     const catNames = { vocab: 'Vocab', kanji: 'Kanji', grammar: 'Grammar' };
     const catName = catNames[category] || 'Vocab';
     textEl.textContent = `Continue ${level} Unit ${unit + 1}`;
     btn.style.display = 'flex';
+    btn.style.backgroundColor = levelColors[level] || levelColors.N5;
   } else {
     btn.style.display = 'none';
   }
@@ -3694,10 +3698,15 @@ function updateTodayFocus() {
   
   content.innerHTML = html;
   
+  // Level colors
+  const levelColors = { N5: '#34c759', N4: '#007aff', N3: '#af52de', N2: '#1e3a5f', N1: '#ff3b30' };
+  const currentColor = levelColors[state.level] || levelColors.N5;
+  
   // Update start button
   if (startBtn) {
     if (hasTasks) {
       startBtn.style.display = 'flex';
+      startBtn.style.backgroundColor = currentColor;
       const btnText = startBtn.querySelector('span');
       if (btnText) {
         if (primaryAction === 'srs') btnText.textContent = l.startReview;
