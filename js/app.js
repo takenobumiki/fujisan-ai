@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.14.3';
+const APP_VERSION = '18.14.6';
 const STORAGE_KEY = 'fujisan_v1737';
 
 // ========== UI TRANSLATIONS ==========
@@ -26,6 +26,19 @@ const UI_TEXTS = {
     quiz_prompt: 'What does this mean?', quiz_correct: 'Correct', quiz_wrong: 'Wrong', quiz_time: 'Time',
     quiz_review_title: 'Review Your Mistakes', quiz_review_btn: 'Review Mistakes',
     quiz_try_again: 'Try Again', quiz_home: 'Home', quiz_continue: 'Continue', quiz_next_unit: 'Next Unit →', quiz_next: 'Next →',
+    quiz_listen_select: 'Listen and select the correct word',
+    quiz_tap_play: 'Tap play to listen',
+    quiz_select_reading: 'Select the correct reading',
+    quiz_select_meaning: 'Select the correct meaning',
+    quiz_select_kanji: 'Select the correct kanji/word',
+    quiz_drill_title: 'Drill',
+    quiz_review_mode: 'Review',
+    // Pass Report
+    pass_submitting: 'Submitting...',
+    pass_submitted: 'Submitted!',
+    pass_change_photo: 'Click to change photo',
+    // Trial
+    trial_bonus_applied: 'Trial bonus applied',
     // Mock Test
     mock_title: 'Mock Test', mock_mode: 'Mode', mock_full: 'Full', mock_section: 'Section',
     mock_set: 'Set', mock_random: '🎲 Random', mock_last_score: 'Last Score',
@@ -107,6 +120,7 @@ const UI_TEXTS = {
     ai_coach_your_roadmap: "Your Personalized Roadmap",
     ai_coach_roadmap_suffix: "'s Roadmap",
     ai_coach_this_week: "This week's focus:",
+    ai_coach_goal: "Your Goal",
     ai_coach_start_btn: "Let's Begin!",
     ai_coach_journey_started: "Your journey has begun!",
     ai_coach_journey_desc: "Complete 10 questions to unlock your detailed weekly analysis.",
@@ -356,6 +370,17 @@ const UI_TEXTS = {
     quiz_prompt: '這是什麼意思？', quiz_correct: '正確', quiz_wrong: '錯誤', quiz_time: '時間',
     quiz_review_title: '複習錯誤', quiz_review_btn: '複習錯誤',
     quiz_try_again: '再試一次', quiz_home: '首頁', quiz_continue: '繼續', quiz_next_unit: '下一單元 →', quiz_next: '下一題 →',
+    quiz_listen_select: '聽並選擇正確的單字',
+    quiz_tap_play: '點擊播放收聽',
+    quiz_select_reading: '選擇正確的讀音',
+    quiz_select_meaning: '選擇正確的意思',
+    quiz_select_kanji: '選擇正確的漢字/單字',
+    quiz_drill_title: '練習',
+    quiz_review_mode: '複習',
+    pass_submitting: '提交中...',
+    pass_submitted: '已提交！',
+    pass_change_photo: '點擊更換照片',
+    trial_bonus_applied: '試用獎勵已套用',
     mock_title: '模擬測驗', mock_mode: '模式', mock_full: '完整', mock_section: '分段',
     mock_set: '套', mock_random: '🎲 隨機', mock_last_score: '上次分數',
     mock_start: '開始測驗', mock_next: '下一題 →', mock_prev: '← 上一題',
@@ -431,6 +456,7 @@ const UI_TEXTS = {
     ai_coach_your_roadmap: "您的專屬學習路線圖",
     ai_coach_roadmap_suffix: "的學習路線圖",
     ai_coach_this_week: "本週重點：",
+    ai_coach_goal: "您的目標",
     ai_coach_start_btn: "開始學習！",
     ai_coach_journey_started: "您的學習之旅已開始！",
     ai_coach_journey_desc: "完成10題後即可解鎖詳細的每週分析。",
@@ -573,6 +599,17 @@ const UI_TEXTS = {
     quiz_prompt: '这是什么意思？', quiz_correct: '正确', quiz_wrong: '错误', quiz_time: '时间',
     quiz_review_title: '复习错误', quiz_review_btn: '复习错误',
     quiz_try_again: '再试一次', quiz_home: '首页', quiz_continue: '继续', quiz_next_unit: '下一单元 →', quiz_next: '下一题 →',
+    quiz_listen_select: '听并选择正确的单词',
+    quiz_tap_play: '点击播放收听',
+    quiz_select_reading: '选择正确的读音',
+    quiz_select_meaning: '选择正确的意思',
+    quiz_select_kanji: '选择正确的汉字/单词',
+    quiz_drill_title: '练习',
+    quiz_review_mode: '复习',
+    pass_submitting: '提交中...',
+    pass_submitted: '已提交！',
+    pass_change_photo: '点击更换照片',
+    trial_bonus_applied: '试用奖励已应用',
     mock_title: '模拟测验', mock_mode: '模式', mock_full: '完整', mock_section: '分段',
     mock_set: '套', mock_random: '🎲 随机', mock_last_score: '上次分数',
     mock_start: '开始测验', mock_next: '下一题 →', mock_prev: '← 上一题',
@@ -648,6 +685,7 @@ const UI_TEXTS = {
     ai_coach_your_roadmap: "您的专属学习路线图",
     ai_coach_roadmap_suffix: "的学习路线图",
     ai_coach_this_week: "本周重点：",
+    ai_coach_goal: "您的目标",
     ai_coach_start_btn: "开始学习！",
     ai_coach_journey_started: "您的学习之旅已开始！",
     ai_coach_journey_desc: "完成10题后即可解锁详细的每周分析。",
@@ -790,6 +828,17 @@ const UI_TEXTS = {
     quiz_prompt: '이것은 무슨 뜻인가요?', quiz_correct: '정답', quiz_wrong: '오답', quiz_time: '시간',
     quiz_review_title: '오답 복습', quiz_review_btn: '오답 복습',
     quiz_try_again: '다시 시도', quiz_home: '홈', quiz_continue: '계속', quiz_next_unit: '다음 단원 →', quiz_next: '다음 →',
+    quiz_listen_select: '듣고 올바른 단어를 선택하세요',
+    quiz_tap_play: '재생을 눌러 들으세요',
+    quiz_select_reading: '올바른 읽기를 선택하세요',
+    quiz_select_meaning: '올바른 의미를 선택하세요',
+    quiz_select_kanji: '올바른 한자/단어를 선택하세요',
+    quiz_drill_title: '연습',
+    quiz_review_mode: '복습',
+    pass_submitting: '제출 중...',
+    pass_submitted: '제출 완료!',
+    pass_change_photo: '사진 변경하려면 클릭',
+    trial_bonus_applied: '체험 보너스 적용됨',
     mock_title: '모의 테스트', mock_mode: '모드', mock_full: '전체', mock_section: '섹션',
     mock_set: '세트', mock_random: '🎲 랜덤', mock_last_score: '이전 점수',
     mock_start: '테스트 시작', mock_next: '다음 →', mock_prev: '← 이전',
@@ -865,6 +914,7 @@ const UI_TEXTS = {
     ai_coach_your_roadmap: "나만의 학습 로드맵",
     ai_coach_roadmap_suffix: "님의 로드맵",
     ai_coach_this_week: "이번 주 중점:",
+    ai_coach_goal: "목표",
     ai_coach_start_btn: "시작하기!",
     ai_coach_journey_started: "학습 여정이 시작됐어요!",
     ai_coach_journey_desc: "10문제를 풀면 상세한 주간 분석이 열려요.",
@@ -1007,6 +1057,17 @@ const UI_TEXTS = {
     quiz_prompt: 'Điều này có nghĩa là gì?', quiz_correct: 'Đúng', quiz_wrong: 'Sai', quiz_time: 'Thời gian',
     quiz_review_title: 'Xem lại lỗi sai', quiz_review_btn: 'Xem lại lỗi',
     quiz_try_again: 'Thử lại', quiz_home: 'Trang chủ', quiz_continue: 'Tiếp tục', quiz_next_unit: 'Bài tiếp theo →', quiz_next: 'Tiếp →',
+    quiz_listen_select: 'Nghe và chọn từ đúng',
+    quiz_tap_play: 'Nhấn để nghe',
+    quiz_select_reading: 'Chọn cách đọc đúng',
+    quiz_select_meaning: 'Chọn nghĩa đúng',
+    quiz_select_kanji: 'Chọn kanji/từ đúng',
+    quiz_drill_title: 'Luyện tập',
+    quiz_review_mode: 'Ôn tập',
+    pass_submitting: 'Đang gửi...',
+    pass_submitted: 'Đã gửi!',
+    pass_change_photo: 'Nhấp để thay đổi ảnh',
+    trial_bonus_applied: 'Đã áp dụng thưởng dùng thử',
     mock_title: 'Thi thử', mock_mode: 'Chế độ', mock_full: 'Đầy đủ', mock_section: 'Phần',
     mock_set: 'Bộ', mock_random: '🎲 Ngẫu nhiên', mock_last_score: 'Điểm trước',
     mock_start: 'Bắt đầu thi', mock_next: 'Tiếp →', mock_prev: '← Trước',
@@ -1082,6 +1143,7 @@ const UI_TEXTS = {
     ai_coach_your_roadmap: "Lộ trình cá nhân của bạn",
     ai_coach_roadmap_suffix: " - Lộ trình",
     ai_coach_this_week: "Trọng tâm tuần này:",
+    ai_coach_goal: "Mục tiêu",
     ai_coach_start_btn: "Bắt đầu!",
     ai_coach_journey_started: "Hành trình của bạn đã bắt đầu!",
     ai_coach_journey_desc: "Hoàn thành 10 câu để mở khóa phân tích chi tiết hàng tuần.",
@@ -1207,6 +1269,17 @@ const UI_TEXTS = {
     quiz_prompt: 'Apa artinya ini?', quiz_correct: 'Benar', quiz_wrong: 'Salah', quiz_time: 'Waktu',
     quiz_review_title: 'Review Kesalahan', quiz_review_btn: 'Review Kesalahan',
     quiz_try_again: 'Coba lagi', quiz_home: 'Beranda', quiz_continue: 'Lanjut', quiz_next_unit: 'Unit Selanjutnya →', quiz_next: 'Lanjut →',
+    quiz_listen_select: 'Dengarkan dan pilih kata yang benar',
+    quiz_tap_play: 'Ketuk untuk mendengarkan',
+    quiz_select_reading: 'Pilih bacaan yang benar',
+    quiz_select_meaning: 'Pilih arti yang benar',
+    quiz_select_kanji: 'Pilih kanji/kata yang benar',
+    quiz_drill_title: 'Latihan',
+    quiz_review_mode: 'Ulasan',
+    pass_submitting: 'Mengirim...',
+    pass_submitted: 'Terkirim!',
+    pass_change_photo: 'Klik untuk ganti foto',
+    trial_bonus_applied: 'Bonus uji coba diterapkan',
     mock_title: 'Simulasi', mock_mode: 'Mode', mock_full: 'Lengkap', mock_section: 'Bagian',
     mock_set: 'Set', mock_random: '🎲 Acak', mock_last_score: 'Skor terakhir',
     mock_start: 'Mulai Tes', mock_next: 'Lanjut →', mock_prev: '← Sebelum',
@@ -1282,6 +1355,7 @@ const UI_TEXTS = {
     ai_coach_your_roadmap: "Peta Jalan Personal Anda",
     ai_coach_roadmap_suffix: " - Peta Jalan",
     ai_coach_this_week: "Fokus minggu ini:",
+    ai_coach_goal: "Tujuan Anda",
     ai_coach_start_btn: "Mulai!",
     ai_coach_journey_started: "Perjalanan Anda telah dimulai!",
     ai_coach_journey_desc: "Selesaikan 10 soal untuk membuka analisis mingguan detail.",
@@ -1627,7 +1701,7 @@ function updateReferralDisplay() {
         const daysLeft = Math.ceil((expiry - new Date()) / (1000 * 60 * 60 * 24));
         bonusTextEl.textContent = `30-day trial: ${daysLeft} days remaining`;
       } else {
-        bonusTextEl.textContent = 'Trial bonus applied';
+        bonusTextEl.textContent = getText('trial_bonus_applied') || 'Trial bonus applied';
       }
     }
   } else if (statusEl) {
@@ -3231,7 +3305,7 @@ async function startDrill() {
     itemResults: {} // Track results per item
   };
   
-  document.getElementById('quiz-title').textContent = '✍️ Drill';
+  document.getElementById('quiz-title').textContent = '✍️ ' + (getText('quiz_drill_title') || 'Drill');
   showScreen('quiz');
   showLearningQuestion();
 }
@@ -3529,9 +3603,9 @@ function showLearningQuestion() {
   let correct, options = [];
   
   if (skill === 'listening') {
-    promptEl.textContent = 'Listen and select the correct word';
+    promptEl.textContent = getText('quiz_listen_select') || 'Listen and select the correct word';
     wordEl.textContent = '🔊';
-    readingEl.textContent = 'Tap play to listen';
+    readingEl.textContent = getText('quiz_tap_play') || 'Tap play to listen';
     audioBtn.style.display = 'block';
     currentWord = item.w || item.k || item.p;
     setTimeout(() => playAudio(), 300);
@@ -3544,7 +3618,7 @@ function showLearningQuestion() {
       .forEach(i => options.push(i.k || i.w || i.p));
       
   } else if (skill === 'reading') {
-    promptEl.textContent = 'Select the correct reading';
+    promptEl.textContent = getText('quiz_select_reading') || 'Select the correct reading';
     wordEl.textContent = item.k || item.w || item.p;
     readingEl.textContent = '';
     audioBtn.style.display = 'block';
@@ -3558,7 +3632,7 @@ function showLearningQuestion() {
       .forEach(i => options.push(i.r || i.w));
       
   } else if (skill === 'meaning') {
-    promptEl.textContent = 'Select the correct meaning';
+    promptEl.textContent = getText('quiz_select_meaning') || 'Select the correct meaning';
     if (item.k) {
       wordEl.textContent = item.k;
       readingEl.textContent = item.r || '';
@@ -3589,7 +3663,7 @@ function showLearningQuestion() {
       .forEach(i => options.push(i.m[state.lang] || i.m.en));
       
   } else if (skill === 'writing') {
-    promptEl.textContent = 'Select the correct kanji/word';
+    promptEl.textContent = getText('quiz_select_kanji') || 'Select the correct kanji/word';
     wordEl.textContent = item.r || item.w;
     readingEl.textContent = item.m[state.lang] || item.m.en;
     audioBtn.style.display = 'block';
@@ -5078,7 +5152,7 @@ function reviewMistakes() {
     itemResults: {}
   };
   
-  document.getElementById('quiz-title').textContent = '復習 Review';
+  document.getElementById('quiz-title').textContent = '📖 ' + (getText('quiz_review_mode') || 'Review');
   showScreen('quiz'); 
   showLearningQuestion();
 }
@@ -5442,7 +5516,7 @@ function previewCertificate(input) {
       preview.src = e.target.result;
       preview.style.display = 'block';
       document.getElementById('passUploadArea').classList.add('has-image');
-      document.querySelector('#passUploadArea .pass-upload-text').textContent = 'Click to change photo';
+      document.querySelector('#passUploadArea .pass-upload-text').textContent = getText('pass_change_photo') || 'Click to change photo';
     };
     reader.readAsDataURL(input.files[0]);
   }
@@ -5484,7 +5558,7 @@ async function submitPassReport(e) {
   
   const btn = document.getElementById('passSubmitBtn');
   btn.disabled = true;
-  btn.textContent = 'Submitting...';
+  btn.textContent = getText('pass_submitting') || 'Submitting...';
   
   const level = document.getElementById('passLevel').value;
   const score = document.getElementById('passScore').value;
@@ -5534,16 +5608,16 @@ async function submitPassReport(e) {
   saveState();
   saveToCloud(); // Sync to Firebase
   
-  btn.textContent = 'Submitted!';
+  btn.textContent = getText('pass_submitted') || 'Submitted!';
   setTimeout(() => {
     closePassReportModal();
     alert('Thank you for sharing your success! Your 3-month bonus has been applied.');
     btn.disabled = false;
-    btn.textContent = 'Submit Report';
+    btn.textContent = getText('pass_submit') || 'Submit Report';
     document.getElementById('passReportForm').reset();
     document.getElementById('passPreview').style.display = 'none';
     document.getElementById('passUploadArea').classList.remove('has-image');
-    document.querySelector('#passUploadArea .pass-upload-text').textContent = 'Click to upload your certificate';
+    document.querySelector('#passUploadArea .pass-upload-text').textContent = getText('pass_upload') || 'Click to upload your certificate';
   }, 1000);
 }
 
@@ -7233,13 +7307,24 @@ async function loadAICoach(forceRefresh = false) {
   const cacheKey = AI_COACH_CACHE_KEY + state.level;
   const cached = localStorage.getItem(cacheKey);
   
+  // Check if onboarding is completed
+  const coachPrefs = JSON.parse(localStorage.getItem('fujisan_coach_prefs') || '{}');
+  const onboardingComplete = coachPrefs.userName && coachPrefs.targetLevel;
+  
   // Collect learner data first
   const learnerData = collectLearnerData();
   
-  // If not enough data, show welcome message for new users
+  // If onboarding not complete, show onboarding regardless of existing data
+  if (!onboardingComplete) {
+    card.style.display = 'block';
+    displayWelcomeCoach(0); // Force onboarding flow
+    return;
+  }
+  
+  // Onboarding complete but not enough progress data yet
   if (learnerData.totalAnswers < 10) {
     card.style.display = 'block';
-    displayWelcomeCoach(learnerData.totalAnswers);
+    displayDailyCoach(coachPrefs);
     return;
   }
   
@@ -7311,85 +7396,69 @@ function displayWelcomeCoach(answeredCount) {
   if (passProbEl) passProbEl.style.display = 'none';
   if (srsEl) srsEl.style.display = 'none';
   
+  // Hide habit tracker during onboarding
+  const habitTracker = document.getElementById('habit-tracker');
+  if (habitTracker) habitTracker.style.display = 'none';
+  
   const detailsEl = document.getElementById('ai-coach-details');
   
-  if (answeredCount === 0) {
-    // Check if onboarding already completed
-    const prefs = JSON.parse(localStorage.getItem('fujisan_coach_prefs') || '{}');
-    if (prefs.targetLevel && prefs.userName) {
-      // Onboarding complete, show daily coach instead
-      displayDailyCoach(prefs);
-      return;
-    }
-    
-    // Hide habit tracker during onboarding
-    const habitTracker = document.getElementById('habit-tracker');
-    if (habitTracker) habitTracker.style.display = 'none';
-    
-    // Show interactive onboarding questionnaire
-    document.getElementById('ai-coach-focus').textContent = getText('ai_coach_intro_title') || "I'm your AI Study Coach";
-    document.getElementById('ai-coach-reason').textContent = getText('ai_coach_intro_desc') || "I'll create a personalized roadmap to JLPT success. Let's get started!";
-    
-    if (detailsEl) {
-      detailsEl.style.display = 'block';
-      detailsEl.innerHTML = `
-        <div class="ai-coach-onboarding">
-          <div class="onboarding-question" id="oq-name">
-            <label>${getText('ai_coach_q_name') || "What's your name?"}</label>
-            <input type="text" id="coach-user-name" class="coach-input" placeholder="${getText('ai_coach_name_placeholder') || 'Enter your name'}" onchange="updateCoachPlan()" maxlength="20">
-          </div>
-          <div class="onboarding-question" id="oq-target-level">
-            <label>${getText('ai_coach_q_target') || 'What JLPT level do you want to pass?'}</label>
-            <div class="target-level-btns">
-              <button class="target-level-btn" data-level="N5" onclick="selectTargetLevel('N5')">N5</button>
-              <button class="target-level-btn" data-level="N4" onclick="selectTargetLevel('N4')">N4</button>
-              <button class="target-level-btn" data-level="N3" onclick="selectTargetLevel('N3')">N3</button>
-              <button class="target-level-btn" data-level="N2" onclick="selectTargetLevel('N2')">N2</button>
-              <button class="target-level-btn" data-level="N1" onclick="selectTargetLevel('N1')">N1</button>
-            </div>
-          </div>
-          <div class="onboarding-question" id="oq-exam-date">
-            <label>${getText('ai_coach_q_exam') || 'When do you plan to take the JLPT?'}</label>
-            <select id="coach-exam-date" onchange="updateCoachPlan()">
-              <option value="">${getText('ai_coach_select') || 'Select...'}</option>
-              <option value="2025-07">${getText('ai_coach_july') || 'July 2025'}</option>
-              <option value="2025-12">${getText('ai_coach_december') || 'December 2025'}</option>
-              <option value="2026-07">${getText('ai_coach_july_next') || 'July 2026'}</option>
-              <option value="undecided">${getText('ai_coach_undecided') || 'Not decided yet'}</option>
-            </select>
-          </div>
-          <div class="onboarding-question" id="oq-current-level">
-            <label>${getText('ai_coach_q_level') || 'What\'s your current Japanese level?'}</label>
-            <select id="coach-current-level" onchange="updateCoachPlan()">
-              <option value="">${getText('ai_coach_select') || 'Select...'}</option>
-              <option value="beginner">${getText('ai_coach_level_beginner') || 'Complete beginner'}</option>
-              <option value="hiragana">${getText('ai_coach_level_hiragana') || 'Know hiragana/katakana'}</option>
-              <option value="n5">${getText('ai_coach_level_n5') || 'N5 level (basic)'}</option>
-              <option value="n4">${getText('ai_coach_level_n4') || 'N4 level (elementary)'}</option>
-              <option value="n3">${getText('ai_coach_level_n3') || 'N3 level (intermediate)'}</option>
-              <option value="n2plus">${getText('ai_coach_level_n2') || 'N2+ level (advanced)'}</option>
-            </select>
-          </div>
-          <div class="onboarding-question" id="oq-study-time">
-            <label>${getText('ai_coach_q_time') || 'How much time can you study daily?'}</label>
-            <select id="coach-study-time" onchange="updateCoachPlan()">
-              <option value="">${getText('ai_coach_select') || 'Select...'}</option>
-              <option value="15">${getText('ai_coach_time_15') || '15 minutes'}</option>
-              <option value="30">${getText('ai_coach_time_30') || '30 minutes'}</option>
-              <option value="60">${getText('ai_coach_time_60') || '1 hour'}</option>
-              <option value="90">${getText('ai_coach_time_90') || '1+ hours'}</option>
-            </select>
-          </div>
-          <div id="coach-roadmap" class="coach-roadmap" style="display:none;"></div>
+  // Show interactive onboarding questionnaire
+  document.getElementById('ai-coach-focus').textContent = getText('ai_coach_intro_title') || "I'm your AI Study Coach";
+  document.getElementById('ai-coach-reason').textContent = getText('ai_coach_intro_desc') || "I'll create a personalized roadmap to JLPT success. Let's get started!";
+  
+  if (detailsEl) {
+    detailsEl.style.display = 'block';
+    detailsEl.innerHTML = `
+      <div class="ai-coach-onboarding">
+        <div class="onboarding-question" id="oq-name">
+          <label>${getText('ai_coach_q_name') || "What's your name?"}</label>
+          <input type="text" id="coach-user-name" class="coach-input" placeholder="${getText('ai_coach_name_placeholder') || 'Enter your name'}" onchange="updateCoachPlan()" maxlength="20">
         </div>
-      `;
-    }
-  } else {
-    // Progress message for users with some answers
-    const remaining = 10 - answeredCount;
-    document.getElementById('ai-coach-focus').textContent = getText('ai_coach_progress_title') || `Great start! ${remaining} more to unlock your plan.`;
-    document.getElementById('ai-coach-reason').textContent = getText('ai_coach_progress_desc') || `You've answered ${answeredCount} questions. Keep going — your personalized AI analysis is almost ready!`;
-    if (detailsEl) detailsEl.style.display = 'none';
+        <div class="onboarding-question" id="oq-target-level">
+          <label>${getText('ai_coach_q_target') || 'What JLPT level do you want to pass?'}</label>
+          <div class="target-level-btns">
+            <button class="target-level-btn" data-level="N5" onclick="selectTargetLevel('N5')">N5</button>
+            <button class="target-level-btn" data-level="N4" onclick="selectTargetLevel('N4')">N4</button>
+            <button class="target-level-btn" data-level="N3" onclick="selectTargetLevel('N3')">N3</button>
+            <button class="target-level-btn" data-level="N2" onclick="selectTargetLevel('N2')">N2</button>
+            <button class="target-level-btn" data-level="N1" onclick="selectTargetLevel('N1')">N1</button>
+          </div>
+        </div>
+        <div class="onboarding-question" id="oq-exam-date">
+          <label>${getText('ai_coach_q_exam') || 'When do you plan to take the JLPT?'}</label>
+          <select id="coach-exam-date" onchange="updateCoachPlan()">
+            <option value="">${getText('ai_coach_select') || 'Select...'}</option>
+            <option value="2025-07">${getText('ai_coach_july') || 'July 2025'}</option>
+            <option value="2025-12">${getText('ai_coach_december') || 'December 2025'}</option>
+            <option value="2026-07">${getText('ai_coach_july_next') || 'July 2026'}</option>
+            <option value="undecided">${getText('ai_coach_undecided') || 'Not decided yet'}</option>
+          </select>
+        </div>
+        <div class="onboarding-question" id="oq-current-level">
+          <label>${getText('ai_coach_q_level') || "What's your current Japanese level?"}</label>
+          <select id="coach-current-level" onchange="updateCoachPlan()">
+            <option value="">${getText('ai_coach_select') || 'Select...'}</option>
+            <option value="beginner">${getText('ai_coach_level_beginner') || 'Complete beginner'}</option>
+            <option value="hiragana">${getText('ai_coach_level_hiragana') || 'Know hiragana/katakana'}</option>
+            <option value="n5">${getText('ai_coach_level_n5') || 'N5 level (basic)'}</option>
+            <option value="n4">${getText('ai_coach_level_n4') || 'N4 level (elementary)'}</option>
+            <option value="n3">${getText('ai_coach_level_n3') || 'N3 level (intermediate)'}</option>
+            <option value="n2plus">${getText('ai_coach_level_n2') || 'N2+ level (advanced)'}</option>
+          </select>
+        </div>
+        <div class="onboarding-question" id="oq-study-time">
+          <label>${getText('ai_coach_q_time') || 'How much time can you study daily?'}</label>
+          <select id="coach-study-time" onchange="updateCoachPlan()">
+            <option value="">${getText('ai_coach_select') || 'Select...'}</option>
+            <option value="15">${getText('ai_coach_time_15') || '15 minutes'}</option>
+            <option value="30">${getText('ai_coach_time_30') || '30 minutes'}</option>
+            <option value="60">${getText('ai_coach_time_60') || '1 hour'}</option>
+            <option value="90">${getText('ai_coach_time_90') || '1+ hours'}</option>
+          </select>
+        </div>
+        <div id="coach-roadmap" class="coach-roadmap" style="display:none;"></div>
+      </div>
+    `;
   }
 }
 
@@ -7834,7 +7903,7 @@ setTimeout(() => {
   if (document.getElementById('screen-drill')?.classList.contains('active')) {
     loadAICoach();
   }
-}, 1500);
+}, 300);
 
 // Reload AI Coach when level changes
 const originalSelectLevel = window.selectLevel;
