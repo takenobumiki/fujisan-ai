@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [18.16.0] - 2025-01-11
+
+### Changed
+- **Compact Dashboard Layout**: Redesigned for single-screen view (Apple Web Guidelines)
+  - Reduced padding and margins throughout
+  - Smaller nav bar, level selector, and category buttons
+  - Compacted AI Coach card and Today's Focus items
+  - Logo size reduced for more content space
+  
+### Added
+- **Responsive Height Media Queries**: Optimized for small screens
+  - `max-height: 700px`: Moderate compacting
+  - `max-height: 600px`: Aggressive compacting for very small screens
+  - All elements scale down proportionally
+  
+### Fixed
+- Bug check completed - all JS syntax validated
+- HTML structure verified (matching open/close tags)
+
 ## [18.15.0] - 2025-01-11
 
 ### Changed
