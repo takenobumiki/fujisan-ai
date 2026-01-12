@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.17.34';
+const APP_VERSION = '18.17.35';
 const STORAGE_KEY = 'fujisan_v1817';
 
 // ========== UI TRANSLATIONS ==========
@@ -3365,7 +3365,9 @@ async function startUnitDrill(unitIndex) {
   // Create question queue
   const questionQueue = [];
   unitItems.forEach((item, itemIndex) => {
-    SKILL_TYPES.forEach((skill, skillIndex) => {
+    // For grammar items (item.p exists), exclude 'writing' skill as it doesn't make sense
+    const skills = item.p ? SKILL_TYPES.filter(s => s !== 'writing') : SKILL_TYPES;
+    skills.forEach((skill, skillIndex) => {
       questionQueue.push({ item, itemIndex, skill, skillIndex });
     });
   });
@@ -3818,10 +3820,11 @@ async function startDrill() {
   // Pick items for this session (22 items = 1 unit)
   const sessionItems = [...unlearnedItems].sort(() => Math.random() - 0.5).slice(0, ITEMS_PER_UNIT);
   
-  // Create question queue: each item x 4 skills, then shuffle to avoid consecutive same items
+  // Create question queue: each item x skills (grammar excludes writing), then shuffle
   const questionQueue = [];
   sessionItems.forEach((item, itemIndex) => {
-    SKILL_TYPES.forEach((skill, skillIndex) => {
+    const skills = item.p ? SKILL_TYPES.filter(s => s !== 'writing') : SKILL_TYPES;
+    skills.forEach((skill, skillIndex) => {
       questionQueue.push({ item, itemIndex, skill, skillIndex });
     });
   });
@@ -3934,10 +3937,11 @@ async function startReview() {
     return;
   }
   
-  // Create question queue with shuffle
+  // Create question queue with shuffle (grammar excludes writing)
   const questionQueue = [];
   reviewItems.forEach((item, itemIndex) => {
-    SKILL_TYPES.forEach((skill, skillIndex) => {
+    const skills = item.p ? SKILL_TYPES.filter(s => s !== 'writing') : SKILL_TYPES;
+    skills.forEach((skill, skillIndex) => {
       questionQueue.push({ item, itemIndex, skill, skillIndex });
     });
   });
