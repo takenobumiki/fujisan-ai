@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.20.54';
+const APP_VERSION = '18.20.55';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FURIGANA SYSTEM ==========
@@ -3856,7 +3856,7 @@ function updateTodayFocus() {
   const labels = {
     en: { 
       reviewDue: 'items due for review',
-      mistakes: 'mistakes to practice',
+      mistakes: 'items to master',
       continueUnit: 'Continue Unit',
       complete: 'complete',
       noTasks: 'All caught up! Start a new drill.',
@@ -3866,7 +3866,7 @@ function updateTodayFocus() {
     },
     'zh-TW': { 
       reviewDue: '項需要複習',
-      mistakes: '個錯誤需要練習',
+      mistakes: '項待掌握',
       continueUnit: '繼續單元',
       complete: '完成',
       noTasks: '全部完成！開始新的練習。',
@@ -3876,7 +3876,7 @@ function updateTodayFocus() {
     },
     'zh-CN': { 
       reviewDue: '项需要复习',
-      mistakes: '个错误需要练习',
+      mistakes: '项待掌握',
       continueUnit: '继续单元',
       complete: '完成',
       noTasks: '全部完成！开始新的练习。',
@@ -3886,7 +3886,7 @@ function updateTodayFocus() {
     },
     ko: { 
       reviewDue: '개 복습 필요',
-      mistakes: '개 오답 연습',
+      mistakes: '개 마스터 필요',
       continueUnit: '계속 유닛',
       complete: '완료',
       noTasks: '모두 완료! 새로운 연습을 시작하세요.',
@@ -3896,7 +3896,7 @@ function updateTodayFocus() {
     },
     vi: { 
       reviewDue: 'mục cần ôn tập',
-      mistakes: 'lỗi cần luyện tập',
+      mistakes: 'mục cần thành thạo',
       continueUnit: 'Tiếp tục Unit',
       complete: 'hoàn thành',
       noTasks: 'Hoàn thành! Bắt đầu bài tập mới.',
@@ -3906,7 +3906,7 @@ function updateTodayFocus() {
     },
     id: { 
       reviewDue: 'item perlu diulang',
-      mistakes: 'kesalahan perlu latihan',
+      mistakes: 'item untuk dikuasai',
       continueUnit: 'Lanjutkan Unit',
       complete: 'selesai',
       noTasks: 'Semua selesai! Mulai latihan baru.',
@@ -3934,13 +3934,13 @@ function updateTodayFocus() {
     `;
   }
   
-  // 2. Mistakes to review
+  // 2. Items to master (was: mistakes)
   if (mistakeCount > 0) {
     hasTasks = true;
     primaryAction = primaryAction || 'mistakes';
     html += `
       <div class="today-focus-item mistakes" onclick="startMistakesReview()">
-        <span class="today-focus-item-icon"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></span>
+        <span class="today-focus-item-icon"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></span>
         <span class="today-focus-item-text">${mistakeCount} ${l.mistakes}</span>
         <span class="today-focus-item-arrow"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span>
       </div>
@@ -4768,13 +4768,9 @@ function selectLearningAnswer(btn, selected, correct, item, skill) {
     state.totalCorrect++;
     state.skills[skillKey] = true;
     
-    // Check if all 4 skills complete for this item
-    const allComplete = SKILL_TYPES.every(s => state.skills[`${baseKey}_${s}`]);
-    if (allComplete) {
-      // Remove from mistakes if present
-      if (state.mistakes[categoryKey]) {
-        state.mistakes[categoryKey] = state.mistakes[categoryKey].filter(id => id !== item.id);
-      }
+    // Remove from mistakes immediately when answered correctly
+    if (state.mistakes[categoryKey]) {
+      state.mistakes[categoryKey] = state.mistakes[categoryKey].filter(id => id !== item.id);
     }
   } else {
     btn.classList.add('incorrect');
