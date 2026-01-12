@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.17.19';
+const APP_VERSION = '18.17.20';
 const STORAGE_KEY = 'fujisan_v1817';
 
 // ========== UI TRANSLATIONS ==========
@@ -2572,7 +2572,17 @@ function selectCategoryAndStart(cat) {
 function updateDrillColors() {
   // Level colors for UI elements
   const levelColors = { N5: '#34c759', N4: '#007aff', N3: '#af52de', N2: '#1e3a5f', N1: '#ff3b30' };
+  const levelLightColors = { N5: 'rgba(52, 199, 89, 0.1)', N4: 'rgba(0, 122, 255, 0.1)', N3: 'rgba(175, 82, 222, 0.1)', N2: 'rgba(30, 58, 95, 0.1)', N1: 'rgba(255, 59, 48, 0.1)' };
+  const levelShadowColors = { N5: 'rgba(52, 199, 89, 0.3)', N4: 'rgba(0, 122, 255, 0.3)', N3: 'rgba(175, 82, 222, 0.3)', N2: 'rgba(30, 58, 95, 0.3)', N1: 'rgba(255, 59, 48, 0.3)' };
+  
   const currentColor = levelColors[state.level] || levelColors.N5;
+  const currentLight = levelLightColors[state.level] || levelLightColors.N5;
+  const currentShadow = levelShadowColors[state.level] || levelShadowColors.N5;
+  
+  // Set CSS variables
+  document.documentElement.style.setProperty('--level-color', currentColor);
+  document.documentElement.style.setProperty('--level-light', currentLight);
+  document.documentElement.style.setProperty('--level-shadow', currentShadow);
 }
 
 function updateReviewHeaderButton() {
