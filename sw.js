@@ -1,6 +1,6 @@
-// Fujisan.AI Service Worker v18.20.2
-const CACHE_NAME = 'fujisan-v18.20.2';
-const APP_VERSION = '18.20.2';
+// Fujisan.AI Service Worker v18.20.3
+const CACHE_NAME = 'fujisan-v18.20.3';
+const APP_VERSION = '18.20.3';
 
 const urlsToCache = [
   '/',

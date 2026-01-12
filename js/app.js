@@ -1,11 +1,28 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.20.2';
+const APP_VERSION = '18.20.3';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FORCE UPDATE SYSTEM ==========
-// Check for updates on app load
+// Check for updates on app load (with loop prevention)
 async function checkForUpdates() {
   try {
+    // Loop prevention: check if we've already tried updating recently
+    const lastUpdateAttempt = localStorage.getItem('fujisan_last_update_attempt');
+    const updateAttemptCount = parseInt(localStorage.getItem('fujisan_update_attempt_count') || '0');
+    const now = Date.now();
+    
+    // If we've tried updating more than 2 times in the last 5 minutes, skip
+    if (lastUpdateAttempt && updateAttemptCount >= 2) {
+      const timeSince = now - parseInt(lastUpdateAttempt);
+      if (timeSince < 5 * 60 * 1000) { // 5 minutes
+        console.log('[Update] Skipping - too many recent attempts');
+        return;
+      } else {
+        // Reset counter after 5 minutes
+        localStorage.setItem('fujisan_update_attempt_count', '0');
+      }
+    }
+    
     // Fetch server version with cache-busting
     const res = await fetch('/version?t=' + Date.now(), { cache: 'no-store' });
     if (!res.ok) return;
@@ -13,13 +30,40 @@ async function checkForUpdates() {
     const serverVersion = (await res.text()).trim();
     console.log('[Update] Local:', APP_VERSION, 'Server:', serverVersion);
     
-    if (serverVersion && serverVersion !== APP_VERSION) {
+    // Compare major.minor.patch only (ignore suffixes like "-rebuild")
+    const localClean = APP_VERSION.replace(/-.*$/, '');
+    const serverClean = serverVersion.replace(/-.*$/, '');
+    
+    if (serverClean && serverClean !== localClean && isNewerVersion(serverClean, localClean)) {
       console.log('[Update] New version available, forcing update...');
+      
+      // Record update attempt
+      localStorage.setItem('fujisan_last_update_attempt', now.toString());
+      localStorage.setItem('fujisan_update_attempt_count', (updateAttemptCount + 1).toString());
+      
       await forceUpdate();
+    } else {
+      // Versions match or server is older - clear update attempt counter
+      localStorage.removeItem('fujisan_update_attempt_count');
+      localStorage.removeItem('fujisan_last_update_attempt');
     }
   } catch(e) {
     console.log('[Update] Check failed:', e.message);
   }
+}
+
+// Compare version strings (returns true if v1 > v2)
+function isNewerVersion(v1, v2) {
+  const parts1 = v1.split('.').map(Number);
+  const parts2 = v2.split('.').map(Number);
+  
+  for (let i = 0; i < Math.max(parts1.length, parts2.length); i++) {
+    const p1 = parts1[i] || 0;
+    const p2 = parts2[i] || 0;
+    if (p1 > p2) return true;
+    if (p1 < p2) return false;
+  }
+  return false;
 }
 
 // Force update: clear all caches and reload
