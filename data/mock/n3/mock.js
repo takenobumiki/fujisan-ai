@@ -160,7 +160,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・問201（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：日本語を / 学生が / 多いです / いる / 勉強して",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：日本語を / 学生が / 多いです / いる / 勉強して",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["勉強して いる 学生が 多いです 日本語を",
           "多いです 学生が いる 勉強して 日本語を",
@@ -171,7 +171,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問202（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>難<rt>むずか</rt></ruby>しすぎて / <ruby>解<rt>と</rt></ruby>けません / 私には / この問題は",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>難<rt>むずか</rt></ruby>しすぎて / <ruby>解<rt>と</rt></ruby>けません / 私には / この問題は",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>解<rt>と</rt></ruby>けません この問題は <ruby>難<rt>むずか</rt></ruby>しすぎて 私には",
           "この問題は<ruby>難<rt>むずか</rt></ruby>しすぎて私には<ruby>解<rt>と</rt></ruby>けません",
@@ -182,7 +182,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問203（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：アメリカに / <ruby>彼<rt>かれ</rt></ruby>は / 3年間 / 住んで / いました",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：アメリカに / <ruby>彼<rt>かれ</rt></ruby>は / 3年間 / 住んで / いました",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>彼<rt>かれ</rt></ruby>はアメリカに3年間住んでいました",
           "いました 住んで 3年間 アメリカに <ruby>彼<rt>かれ</rt></ruby>は",
@@ -193,7 +193,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・問204（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：電車が / しまいました / <ruby>遅刻<rt>ちこく</rt></ruby>して / 遅れた / ため",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：電車が / しまいました / <ruby>遅刻<rt>ちこく</rt></ruby>して / 遅れた / ため",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["電車が遅れたため<ruby>遅刻<rt>ちこく</rt></ruby>してしまいました",
           "しまいました <ruby>遅刻<rt>ちこく</rt></ruby>して ため 遅れた 電車が",
@@ -204,7 +204,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問205（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：面白いと / 思います / この映画は / とても",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：面白いと / 思います / この映画は / とても",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["とても 面白いと 思います この映画は",
           "思います 面白いと とても この映画は",
@@ -1318,7 +1318,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・問206（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：買って / 母に / あげました / プレゼントを",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：買って / 母に / あげました / プレゼントを",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["母にプレゼントを買ってあげました",
           "あげました 買って プレゼントを 母に",
@@ -1329,7 +1329,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問207（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>旅行<rt>りょこう</rt></ruby>に / <ruby>一緒<rt>いっしょ</rt></ruby>に / 友達と / 行きたい / です",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>旅行<rt>りょこう</rt></ruby>に / <ruby>一緒<rt>いっしょ</rt></ruby>に / 友達と / 行きたい / です",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["友達と<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>旅行<rt>りょこう</rt></ruby>に行きたいです",
           "です 友達と <ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい",
@@ -1340,7 +1340,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問208（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：降って / 雨が / ようです / いる",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：降って / 雨が / ようです / いる",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["雨が降っているようです",
           "ようです いる 降って 雨が",
@@ -1351,7 +1351,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・問209（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：終えたら / ください / <ruby>連絡<rt>れんらく</rt></ruby>して / 仕事を",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：終えたら / ください / <ruby>連絡<rt>れんらく</rt></ruby>して / 仕事を",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["仕事を終えたら<ruby>連絡<rt>れんらく</rt></ruby>してください",
           "ください <ruby>連絡<rt>れんらく</rt></ruby>して 終えたら 仕事を",
@@ -1362,7 +1362,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問210（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：作って / 母が / この料理は / くれました",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：作って / 母が / この料理は / くれました",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["この料理は母が作ってくれました",
           "くれました この料理は 母が 作って",
@@ -2465,7 +2465,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・問211（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：図書館で / 読みました / 私は / 本を / <ruby>昨日<rt>きのう</rt></ruby>",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：図書館で / 読みました / 私は / 本を / <ruby>昨日<rt>きのう</rt></ruby>",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>昨日<rt>きのう</rt></ruby> 図書館で 本を 読みました 私は",
           "私は<ruby>昨日<rt>きのう</rt></ruby>図書館で本を読みました",
@@ -2487,7 +2487,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問212（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：します / 公園を / 毎朝 / <ruby>彼女<rt>かのじょ</rt></ruby>は / <ruby>散歩<rt>さんぽ</rt></ruby>",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：します / 公園を / 毎朝 / <ruby>彼女<rt>かのじょ</rt></ruby>は / <ruby>散歩<rt>さんぽ</rt></ruby>",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["毎朝 公園を <ruby>散歩<rt>さんぽ</rt></ruby> します <ruby>彼女<rt>かのじょ</rt></ruby>は",
           "<ruby>彼女<rt>かのじょ</rt></ruby>は毎朝公園を<ruby>散歩<rt>さんぽ</rt></ruby>します",
@@ -2498,7 +2498,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問213（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：この店は / お客さんで / です / いっぱい / いつも",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：この店は / お客さんで / です / いっぱい / いつも",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["です この店は いつも お客さんで いっぱい",
           "です いっぱい お客さんで いつも この店は",
@@ -2509,7 +2509,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・問214（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：質問を / できます / か / 先生に / することが",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：質問を / できます / か / 先生に / することが",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["か できます することが 質問を 先生に",
           "質問を することが できます か 先生に",
@@ -2520,7 +2520,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問215（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>会議<rt>かいぎ</rt></ruby>に / かもしれません / できない / 明日の / 出席",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>会議<rt>かいぎ</rt></ruby>に / かもしれません / できない / 明日の / 出席",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["明日の<ruby>会議<rt>かいぎ</rt></ruby>に出席できないかもしれません",
           "かもしれません 明日の <ruby>会議<rt>かいぎ</rt></ruby>に 出席 できない",
@@ -3634,7 +3634,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・問216（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：勉強して / いる / 日本語を / 学生が / 多いです",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：勉強して / いる / 日本語を / 学生が / 多いです",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["多いです 学生が いる 勉強して 日本語を",
           "多いです 日本語を 勉強して いる 学生が",
@@ -3645,7 +3645,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問217（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>解<rt>と</rt></ruby>けません / 私には / <ruby>難<rt>むずか</rt></ruby>しすぎて / この問題は",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>解<rt>と</rt></ruby>けません / 私には / <ruby>難<rt>むずか</rt></ruby>しすぎて / この問題は",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>解<rt>と</rt></ruby>けません 私には <ruby>難<rt>むずか</rt></ruby>しすぎて この問題は",
           "<ruby>解<rt>と</rt></ruby>けません この問題は <ruby>難<rt>むずか</rt></ruby>しすぎて 私には",
@@ -3656,7 +3656,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問218（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：住んで / アメリカに / 3年間 / いました / <ruby>彼<rt>かれ</rt></ruby>は",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：住んで / アメリカに / 3年間 / いました / <ruby>彼<rt>かれ</rt></ruby>は",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["アメリカに 3年間 住んで いました <ruby>彼<rt>かれ</rt></ruby>は",
           "いました <ruby>彼<rt>かれ</rt></ruby>は アメリカに 3年間 住んで",
@@ -3667,7 +3667,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・問219（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：電車が / しまいました / ため / <ruby>遅刻<rt>ちこく</rt></ruby>して / 遅れた",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：電車が / しまいました / ため / <ruby>遅刻<rt>ちこく</rt></ruby>して / 遅れた",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["しまいました 電車が 遅れた ため <ruby>遅刻<rt>ちこく</rt></ruby>して",
           "しまいました <ruby>遅刻<rt>ちこく</rt></ruby>して ため 遅れた 電車が",
@@ -3678,7 +3678,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問220（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：とても / この映画は / 思います / 面白いと",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：とても / この映画は / 思います / 面白いと",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["思います この映画は とても 面白いと",
           "この映画はとても面白いと思います",
@@ -4748,7 +4748,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・問221（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：買って / 母に / プレゼントを / あげました",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：買って / 母に / プレゼントを / あげました",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["プレゼントを 買って あげました 母に",
           "あげました 母に プレゼントを 買って",
@@ -4770,7 +4770,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問222（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：行きたい / 友達と / です / <ruby>一緒<rt>いっしょ</rt></ruby>に / <ruby>旅行<rt>りょこう</rt></ruby>に",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：行きたい / 友達と / です / <ruby>一緒<rt>いっしょ</rt></ruby>に / <ruby>旅行<rt>りょこう</rt></ruby>に",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["です 友達と <ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい",
           "友達と<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>旅行<rt>りょこう</rt></ruby>に行きたいです",
@@ -4792,7 +4792,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問223（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：いる / ようです / 降って / 雨が",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：いる / ようです / 降って / 雨が",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["雨が降っているようです",
           "ようです いる 降って 雨が",
@@ -4814,7 +4814,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・問224（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>連絡<rt>れんらく</rt></ruby>して / 仕事を / ください / 終えたら",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>連絡<rt>れんらく</rt></ruby>して / 仕事を / ください / 終えたら",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["ください 仕事を 終えたら <ruby>連絡<rt>れんらく</rt></ruby>して",
           "終えたら <ruby>連絡<rt>れんらく</rt></ruby>して ください 仕事を",
@@ -4836,7 +4836,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問225（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：作って / くれました / この料理は / 母が",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：作って / くれました / この料理は / 母が",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["母が 作って くれました この料理は",
           "くれました 作って 母が この料理は",
@@ -5950,7 +5950,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・問226（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：私は / 本を / 図書館で / 読みました / <ruby>昨日<rt>きのう</rt></ruby>",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：私は / 本を / 図書館で / 読みました / <ruby>昨日<rt>きのう</rt></ruby>",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["私は<ruby>昨日<rt>きのう</rt></ruby>図書館で本を読みました",
           "読みました 本を 図書館で <ruby>昨日<rt>きのう</rt></ruby> 私は",
@@ -5961,7 +5961,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問227（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：公園を / <ruby>散歩<rt>さんぽ</rt></ruby> / します / 毎朝 / <ruby>彼女<rt>かのじょ</rt></ruby>は",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：公園を / <ruby>散歩<rt>さんぽ</rt></ruby> / します / 毎朝 / <ruby>彼女<rt>かのじょ</rt></ruby>は",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["します <ruby>彼女<rt>かのじょ</rt></ruby>は 毎朝 公園を <ruby>散歩<rt>さんぽ</rt></ruby>",
           "毎朝 公園を <ruby>散歩<rt>さんぽ</rt></ruby> します <ruby>彼女<rt>かのじょ</rt></ruby>は",
@@ -5972,7 +5972,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問228（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：いつも / です / お客さんで / いっぱい / この店は",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：いつも / です / お客さんで / いっぱい / この店は",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["です この店は いつも お客さんで いっぱい",
           "です いっぱい お客さんで いつも この店は",
@@ -5983,7 +5983,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・問229（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：先生に / か / できます / することが / 質問を",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：先生に / か / できます / することが / 質問を",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["か 先生に 質問を することが できます",
           "先生に質問をすることができますか",
@@ -5994,7 +5994,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問230（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：できない / 出席 / かもしれません / <ruby>会議<rt>かいぎ</rt></ruby>に / 明日の",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：できない / 出席 / かもしれません / <ruby>会議<rt>かいぎ</rt></ruby>に / 明日の",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["かもしれません 明日の <ruby>会議<rt>かいぎ</rt></ruby>に 出席 できない",
           "かもしれません できない 出席 <ruby>会議<rt>かいぎ</rt></ruby>に 明日の",
@@ -6987,7 +6987,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・問231（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：学生が / 多いです / 勉強して / いる / 日本語を",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：学生が / 多いです / 勉強して / いる / 日本語を",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["日本語を勉強している学生が多いです",
           "多いです 学生が いる 勉強して 日本語を",
@@ -7009,7 +7009,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問232（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>難<rt>むずか</rt></ruby>しすぎて / この問題は / <ruby>解<rt>と</rt></ruby>けません / 私には",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>難<rt>むずか</rt></ruby>しすぎて / この問題は / <ruby>解<rt>と</rt></ruby>けません / 私には",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>解<rt>と</rt></ruby>けません この問題は <ruby>難<rt>むずか</rt></ruby>しすぎて 私には",
           "<ruby>難<rt>むずか</rt></ruby>しすぎて 私には <ruby>解<rt>と</rt></ruby>けません この問題は",
@@ -7031,7 +7031,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問233（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：3年間 / 住んで / いました / アメリカに / <ruby>彼<rt>かれ</rt></ruby>は",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：3年間 / 住んで / いました / アメリカに / <ruby>彼<rt>かれ</rt></ruby>は",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["いました <ruby>彼<rt>かれ</rt></ruby>は アメリカに 3年間 住んで",
           "<ruby>彼<rt>かれ</rt></ruby>はアメリカに3年間住んでいました",
@@ -7053,7 +7053,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・問234（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：電車が / 遅れた / <ruby>遅刻<rt>ちこく</rt></ruby>して / ため / しまいました",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：電車が / 遅れた / <ruby>遅刻<rt>ちこく</rt></ruby>して / ため / しまいました",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["しまいました 電車が 遅れた ため <ruby>遅刻<rt>ちこく</rt></ruby>して",
           "遅れた ため <ruby>遅刻<rt>ちこく</rt></ruby>して しまいました 電車が",
@@ -7075,7 +7075,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問235（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：この映画は / 面白いと / 思います / とても",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：この映画は / 面白いと / 思います / とても",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["とても 面白いと 思います この映画は",
           "思います この映画は とても 面白いと",
@@ -8134,7 +8134,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・問236（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：プレゼントを / あげました / 買って / 母に",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：プレゼントを / あげました / 買って / 母に",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["プレゼントを 買って あげました 母に",
           "あげました 母に プレゼントを 買って",
@@ -8156,7 +8156,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問237（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>旅行<rt>りょこう</rt></ruby>に / <ruby>一緒<rt>いっしょ</rt></ruby>に / 友達と / です / 行きたい",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>旅行<rt>りょこう</rt></ruby>に / <ruby>一緒<rt>いっしょ</rt></ruby>に / 友達と / です / 行きたい",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["です 行きたい <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>一緒<rt>いっしょ</rt></ruby>に 友達と",
           "です 友達と <ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい",
@@ -8178,7 +8178,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問238（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：降って / 雨が / いる / ようです",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：降って / 雨が / いる / ようです",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["ようです 雨が 降って いる",
           "降って いる ようです 雨が",
@@ -8200,7 +8200,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・問239（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：仕事を / 終えたら / ください / <ruby>連絡<rt>れんらく</rt></ruby>して",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：仕事を / 終えたら / ください / <ruby>連絡<rt>れんらく</rt></ruby>して",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["ください 仕事を 終えたら <ruby>連絡<rt>れんらく</rt></ruby>して",
           "終えたら <ruby>連絡<rt>れんらく</rt></ruby>して ください 仕事を",
@@ -8222,7 +8222,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問240（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：くれました / 作って / 母が / この料理は",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：くれました / 作って / 母が / この料理は",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["母が 作って くれました この料理は",
           "この料理は母が作ってくれました",
@@ -9424,7 +9424,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・問241（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>昨日<rt>きのう</rt></ruby> / 私は / 本を / 読みました / 図書館で",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>昨日<rt>きのう</rt></ruby> / 私は / 本を / 読みました / 図書館で",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>昨日<rt>きのう</rt></ruby> 図書館で 本を 読みました 私は",
           "読みました 私は <ruby>昨日<rt>きのう</rt></ruby> 図書館で 本を",
@@ -9435,7 +9435,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問242（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：公園を / 毎朝 / <ruby>散歩<rt>さんぽ</rt></ruby> / します / <ruby>彼女<rt>かのじょ</rt></ruby>は",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：公園を / 毎朝 / <ruby>散歩<rt>さんぽ</rt></ruby> / します / <ruby>彼女<rt>かのじょ</rt></ruby>は",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>彼女<rt>かのじょ</rt></ruby>は毎朝公園を<ruby>散歩<rt>さんぽ</rt></ruby>します",
           "します <ruby>散歩<rt>さんぽ</rt></ruby> 公園を 毎朝 <ruby>彼女<rt>かのじょ</rt></ruby>は",
@@ -9446,7 +9446,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問243（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：いっぱい / お客さんで / この店は / いつも / です",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：いっぱい / お客さんで / この店は / いつも / です",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["いつも お客さんで いっぱい です この店は",
           "です この店は いつも お客さんで いっぱい",
@@ -9457,7 +9457,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・問244（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：できます / か / することが / 質問を / 先生に",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：できます / か / することが / 質問を / 先生に",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["か できます することが 質問を 先生に",
           "か 先生に 質問を することが できます",
@@ -9468,7 +9468,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問245（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：明日の / <ruby>会議<rt>かいぎ</rt></ruby>に / できない / かもしれません / 出席",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：明日の / <ruby>会議<rt>かいぎ</rt></ruby>に / できない / かもしれません / 出席",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>会議<rt>かいぎ</rt></ruby>に 出席 できない かもしれません 明日の",
           "かもしれません 明日の <ruby>会議<rt>かいぎ</rt></ruby>に 出席 できない",
@@ -10571,7 +10571,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・問246（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：多いです / 勉強して / 日本語を / 学生が / いる",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：多いです / 勉強して / 日本語を / 学生が / いる",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["多いです 日本語を 勉強して いる 学生が",
           "勉強して いる 学生が 多いです 日本語を",
@@ -10593,7 +10593,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問247（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>難<rt>むずか</rt></ruby>しすぎて / 私には / <ruby>解<rt>と</rt></ruby>けません / この問題は",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>難<rt>むずか</rt></ruby>しすぎて / 私には / <ruby>解<rt>と</rt></ruby>けません / この問題は",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["この問題は<ruby>難<rt>むずか</rt></ruby>しすぎて私には<ruby>解<rt>と</rt></ruby>けません",
           "<ruby>解<rt>と</rt></ruby>けません 私には <ruby>難<rt>むずか</rt></ruby>しすぎて この問題は",
@@ -10604,7 +10604,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問248（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：住んで / 3年間 / <ruby>彼<rt>かれ</rt></ruby>は / いました / アメリカに",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：住んで / 3年間 / <ruby>彼<rt>かれ</rt></ruby>は / いました / アメリカに",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["アメリカに 3年間 住んで いました <ruby>彼<rt>かれ</rt></ruby>は",
           "いました <ruby>彼<rt>かれ</rt></ruby>は アメリカに 3年間 住んで",
@@ -10615,7 +10615,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・問249（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：電車が / ため / <ruby>遅刻<rt>ちこく</rt></ruby>して / しまいました / 遅れた",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：電車が / ため / <ruby>遅刻<rt>ちこく</rt></ruby>して / しまいました / 遅れた",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["しまいました 電車が 遅れた ため <ruby>遅刻<rt>ちこく</rt></ruby>して",
           "遅れた ため <ruby>遅刻<rt>ちこく</rt></ruby>して しまいました 電車が",
@@ -10626,7 +10626,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問250（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：この映画は / 面白いと / 思います / とても",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：この映画は / 面白いと / 思います / とても",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["思います 面白いと とても この映画は",
           "この映画はとても面白いと思います",
@@ -11729,7 +11729,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・問251（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：買って / プレゼントを / 母に / あげました",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：買って / プレゼントを / 母に / あげました",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["あげました 母に プレゼントを 買って",
           "あげました 買って プレゼントを 母に",
@@ -11751,7 +11751,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問252（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：行きたい / です / <ruby>一緒<rt>いっしょ</rt></ruby>に / <ruby>旅行<rt>りょこう</rt></ruby>に / 友達と",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：行きたい / です / <ruby>一緒<rt>いっしょ</rt></ruby>に / <ruby>旅行<rt>りょこう</rt></ruby>に / 友達と",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["です 行きたい <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>一緒<rt>いっしょ</rt></ruby>に 友達と",
           "です 友達と <ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい",
@@ -11762,7 +11762,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問253（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：雨が / いる / ようです / 降って",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：雨が / いる / ようです / 降って",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["ようです 雨が 降って いる",
           "降って いる ようです 雨が",
@@ -11773,7 +11773,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・問254（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：ください / <ruby>連絡<rt>れんらく</rt></ruby>して / 終えたら / 仕事を",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：ください / <ruby>連絡<rt>れんらく</rt></ruby>して / 終えたら / 仕事を",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["ください <ruby>連絡<rt>れんらく</rt></ruby>して 終えたら 仕事を",
           "ください 仕事を 終えたら <ruby>連絡<rt>れんらく</rt></ruby>して",
@@ -11784,7 +11784,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問255（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：作って / この料理は / くれました / 母が",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：作って / この料理は / くれました / 母が",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["くれました この料理は 母が 作って",
           "くれました 作って 母が この料理は",
@@ -12777,7 +12777,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・問256（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：私は / 読みました / 本を / 図書館で / <ruby>昨日<rt>きのう</rt></ruby>",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：私は / 読みました / 本を / 図書館で / <ruby>昨日<rt>きのう</rt></ruby>",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>昨日<rt>きのう</rt></ruby> 図書館で 本を 読みました 私は",
           "私は<ruby>昨日<rt>きのう</rt></ruby>図書館で本を読みました",
@@ -12799,7 +12799,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問257（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>散歩<rt>さんぽ</rt></ruby> / 毎朝 / 公園を / します / <ruby>彼女<rt>かのじょ</rt></ruby>は",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>散歩<rt>さんぽ</rt></ruby> / 毎朝 / 公園を / します / <ruby>彼女<rt>かのじょ</rt></ruby>は",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["毎朝 公園を <ruby>散歩<rt>さんぽ</rt></ruby> します <ruby>彼女<rt>かのじょ</rt></ruby>は",
           "します <ruby>彼女<rt>かのじょ</rt></ruby>は 毎朝 公園を <ruby>散歩<rt>さんぽ</rt></ruby>",
@@ -12810,7 +12810,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問258（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：いつも / この店は / いっぱい / です / お客さんで",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：いつも / この店は / いっぱい / です / お客さんで",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["です この店は いつも お客さんで いっぱい",
           "この店はいつもお客さんでいっぱいです",
@@ -12821,7 +12821,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・問259（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：か / 先生に / 質問を / することが / できます",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：か / 先生に / 質問を / することが / できます",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["か 先生に 質問を することが できます",
           "か できます することが 質問を 先生に",
@@ -12832,7 +12832,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問260（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：出席 / 明日の / かもしれません / できない / <ruby>会議<rt>かいぎ</rt></ruby>に",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：出席 / 明日の / かもしれません / できない / <ruby>会議<rt>かいぎ</rt></ruby>に",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>会議<rt>かいぎ</rt></ruby>に 出席 できない かもしれません 明日の",
           "かもしれません できない 出席 <ruby>会議<rt>かいぎ</rt></ruby>に 明日の",
@@ -13604,7 +13604,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・問261（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：日本語を / 学生が / いる / 多いです / 勉強して",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：日本語を / 学生が / いる / 多いです / 勉強して",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["日本語を勉強している学生が多いです",
           "勉強して いる 学生が 多いです 日本語を",
@@ -13626,7 +13626,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問262（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：私には / <ruby>難<rt>むずか</rt></ruby>しすぎて / この問題は / <ruby>解<rt>と</rt></ruby>けません",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：私には / <ruby>難<rt>むずか</rt></ruby>しすぎて / この問題は / <ruby>解<rt>と</rt></ruby>けません",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["この問題は<ruby>難<rt>むずか</rt></ruby>しすぎて私には<ruby>解<rt>と</rt></ruby>けません",
           "<ruby>難<rt>むずか</rt></ruby>しすぎて 私には <ruby>解<rt>と</rt></ruby>けません この問題は",
@@ -13648,7 +13648,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問263（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：住んで / <ruby>彼<rt>かれ</rt></ruby>は / アメリカに / いました / 3年間",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：住んで / <ruby>彼<rt>かれ</rt></ruby>は / アメリカに / いました / 3年間",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>彼<rt>かれ</rt></ruby>はアメリカに3年間住んでいました",
           "アメリカに 3年間 住んで いました <ruby>彼<rt>かれ</rt></ruby>は",
@@ -13670,7 +13670,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・問264（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>遅刻<rt>ちこく</rt></ruby>して / ため / しまいました / 遅れた / 電車が",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>遅刻<rt>ちこく</rt></ruby>して / ため / しまいました / 遅れた / 電車が",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["しまいました <ruby>遅刻<rt>ちこく</rt></ruby>して ため 遅れた 電車が",
           "しまいました 電車が 遅れた ため <ruby>遅刻<rt>ちこく</rt></ruby>して",
@@ -13692,7 +13692,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問265（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：この映画は / 面白いと / 思います / とても",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：この映画は / 面白いと / 思います / とても",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["思います この映画は とても 面白いと",
           "とても 面白いと 思います この映画は",
@@ -14552,7 +14552,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・問266（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：あげました / 母に / 買って / プレゼントを",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：あげました / 母に / 買って / プレゼントを",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["母にプレゼントを買ってあげました",
           "あげました 買って プレゼントを 母に",
@@ -14574,7 +14574,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問267（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：です / <ruby>旅行<rt>りょこう</rt></ruby>に / 友達と / <ruby>一緒<rt>いっしょ</rt></ruby>に / 行きたい",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：です / <ruby>旅行<rt>りょこう</rt></ruby>に / 友達と / <ruby>一緒<rt>いっしょ</rt></ruby>に / 行きたい",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい です 友達と",
           "です 行きたい <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>一緒<rt>いっしょ</rt></ruby>に 友達と",
@@ -14596,7 +14596,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問268（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：雨が / 降って / いる / ようです",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：雨が / 降って / いる / ようです",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["ようです 雨が 降って いる",
           "ようです いる 降って 雨が",
@@ -14618,7 +14618,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・問269（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：仕事を / ください / 終えたら / <ruby>連絡<rt>れんらく</rt></ruby>して",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：仕事を / ください / 終えたら / <ruby>連絡<rt>れんらく</rt></ruby>して",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["ください <ruby>連絡<rt>れんらく</rt></ruby>して 終えたら 仕事を",
           "仕事を終えたら<ruby>連絡<rt>れんらく</rt></ruby>してください",
@@ -14640,7 +14640,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問270（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：くれました / 母が / この料理は / 作って",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：くれました / 母が / この料理は / 作って",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["この料理は母が作ってくれました",
           "母が 作って くれました この料理は",
@@ -15588,7 +15588,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・問271（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：本を / <ruby>昨日<rt>きのう</rt></ruby> / 読みました / 私は / 図書館で",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：本を / <ruby>昨日<rt>きのう</rt></ruby> / 読みました / 私は / 図書館で",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["読みました 本を 図書館で <ruby>昨日<rt>きのう</rt></ruby> 私は",
           "私は<ruby>昨日<rt>きのう</rt></ruby>図書館で本を読みました",
@@ -15610,7 +15610,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問272（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>散歩<rt>さんぽ</rt></ruby> / します / 毎朝 / <ruby>彼女<rt>かのじょ</rt></ruby>は / 公園を",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>散歩<rt>さんぽ</rt></ruby> / します / 毎朝 / <ruby>彼女<rt>かのじょ</rt></ruby>は / 公園を",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["毎朝 公園を <ruby>散歩<rt>さんぽ</rt></ruby> します <ruby>彼女<rt>かのじょ</rt></ruby>は",
           "します <ruby>彼女<rt>かのじょ</rt></ruby>は 毎朝 公園を <ruby>散歩<rt>さんぽ</rt></ruby>",
@@ -15632,7 +15632,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問273（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：お客さんで / いっぱい / です / いつも / この店は",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：お客さんで / いっぱい / です / いつも / この店は",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["いつも お客さんで いっぱい です この店は",
           "です いっぱい お客さんで いつも この店は",
@@ -15654,7 +15654,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・問274（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：質問を / できます / することが / 先生に / か",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：質問を / できます / することが / 先生に / か",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["先生に質問をすることができますか",
           "か 先生に 質問を することが できます",
@@ -15676,7 +15676,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問275（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：できない / 出席 / <ruby>会議<rt>かいぎ</rt></ruby>に / かもしれません / 明日の",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：できない / 出席 / <ruby>会議<rt>かいぎ</rt></ruby>に / かもしれません / 明日の",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["かもしれません 明日の <ruby>会議<rt>かいぎ</rt></ruby>に 出席 できない",
           "かもしれません できない 出席 <ruby>会議<rt>かいぎ</rt></ruby>に 明日の",
@@ -16558,7 +16558,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・問276（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：学生が / 多いです / いる / 日本語を / 勉強して",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：学生が / 多いです / いる / 日本語を / 勉強して",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["多いです 学生が いる 勉強して 日本語を",
           "日本語を勉強している学生が多いです",
@@ -16580,7 +16580,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問277（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>解<rt>と</rt></ruby>けません / <ruby>難<rt>むずか</rt></ruby>しすぎて / 私には / この問題は",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>解<rt>と</rt></ruby>けません / <ruby>難<rt>むずか</rt></ruby>しすぎて / 私には / この問題は",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>難<rt>むずか</rt></ruby>しすぎて 私には <ruby>解<rt>と</rt></ruby>けません この問題は",
           "この問題は<ruby>難<rt>むずか</rt></ruby>しすぎて私には<ruby>解<rt>と</rt></ruby>けません",
@@ -16602,7 +16602,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問278（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：3年間 / 住んで / アメリカに / いました / <ruby>彼<rt>かれ</rt></ruby>は",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：3年間 / 住んで / アメリカに / いました / <ruby>彼<rt>かれ</rt></ruby>は",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["いました 住んで 3年間 アメリカに <ruby>彼<rt>かれ</rt></ruby>は",
           "アメリカに 3年間 住んで いました <ruby>彼<rt>かれ</rt></ruby>は",
@@ -16613,7 +16613,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・問279（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：遅れた / しまいました / <ruby>遅刻<rt>ちこく</rt></ruby>して / ため / 電車が",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：遅れた / しまいました / <ruby>遅刻<rt>ちこく</rt></ruby>して / ため / 電車が",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["しまいました <ruby>遅刻<rt>ちこく</rt></ruby>して ため 遅れた 電車が",
           "電車が遅れたため<ruby>遅刻<rt>ちこく</rt></ruby>してしまいました",
@@ -16624,7 +16624,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問280（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：とても / 思います / この映画は / 面白いと",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：とても / 思います / この映画は / 面白いと",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["思います この映画は とても 面白いと",
           "思います 面白いと とても この映画は",
@@ -17622,7 +17622,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・問281（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：プレゼントを / あげました / 母に / 買って",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：プレゼントを / あげました / 母に / 買って",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["あげました 母に プレゼントを 買って",
           "あげました 買って プレゼントを 母に",
@@ -17644,7 +17644,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問282（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>一緒<rt>いっしょ</rt></ruby>に / です / <ruby>旅行<rt>りょこう</rt></ruby>に / 友達と / 行きたい",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>一緒<rt>いっしょ</rt></ruby>に / です / <ruby>旅行<rt>りょこう</rt></ruby>に / 友達と / 行きたい",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["です 行きたい <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>一緒<rt>いっしょ</rt></ruby>に 友達と",
           "です 友達と <ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい",
@@ -17666,7 +17666,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問283（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：ようです / 降って / 雨が / いる",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：ようです / 降って / 雨が / いる",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["降って いる ようです 雨が",
           "ようです 雨が 降って いる",
@@ -17688,7 +17688,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・問284（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：終えたら / ください / <ruby>連絡<rt>れんらく</rt></ruby>して / 仕事を",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：終えたら / ください / <ruby>連絡<rt>れんらく</rt></ruby>して / 仕事を",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["ください <ruby>連絡<rt>れんらく</rt></ruby>して 終えたら 仕事を",
           "ください 仕事を 終えたら <ruby>連絡<rt>れんらく</rt></ruby>して",
@@ -17710,7 +17710,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問285（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：この料理は / 作って / くれました / 母が",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：この料理は / 作って / くれました / 母が",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["くれました 作って 母が この料理は",
           "この料理は母が作ってくれました",
@@ -18802,7 +18802,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・問286（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：図書館で / 読みました / <ruby>昨日<rt>きのう</rt></ruby> / 本を / 私は",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：図書館で / 読みました / <ruby>昨日<rt>きのう</rt></ruby> / 本を / 私は",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>昨日<rt>きのう</rt></ruby> 図書館で 本を 読みました 私は",
           "読みました 本を 図書館で <ruby>昨日<rt>きのう</rt></ruby> 私は",
@@ -18824,7 +18824,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問287（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>散歩<rt>さんぽ</rt></ruby> / <ruby>彼女<rt>かのじょ</rt></ruby>は / 公園を / します / 毎朝",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>散歩<rt>さんぽ</rt></ruby> / <ruby>彼女<rt>かのじょ</rt></ruby>は / 公園を / します / 毎朝",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["毎朝 公園を <ruby>散歩<rt>さんぽ</rt></ruby> します <ruby>彼女<rt>かのじょ</rt></ruby>は",
           "<ruby>彼女<rt>かのじょ</rt></ruby>は毎朝公園を<ruby>散歩<rt>さんぽ</rt></ruby>します",
@@ -18846,7 +18846,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問288（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：この店は / です / お客さんで / いつも / いっぱい",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：この店は / です / お客さんで / いつも / いっぱい",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["です この店は いつも お客さんで いっぱい",
           "この店はいつもお客さんでいっぱいです",
@@ -18868,7 +18868,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・問289（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：先生に / か / できます / することが / 質問を",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：先生に / か / できます / することが / 質問を",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["か 先生に 質問を することが できます",
           "質問を することが できます か 先生に",
@@ -18890,7 +18890,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問290（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>会議<rt>かいぎ</rt></ruby>に / できない / かもしれません / 明日の / 出席",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>会議<rt>かいぎ</rt></ruby>に / できない / かもしれません / 明日の / 出席",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["かもしれません 明日の <ruby>会議<rt>かいぎ</rt></ruby>に 出席 できない",
           "明日の<ruby>会議<rt>かいぎ</rt></ruby>に出席できないかもしれません",
@@ -20004,7 +20004,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・問291（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：勉強して / 日本語を / 多いです / いる / 学生が",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：勉強して / 日本語を / 多いです / いる / 学生が",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["日本語を勉強している学生が多いです",
           "勉強して いる 学生が 多いです 日本語を",
@@ -20015,7 +20015,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問292（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：この問題は / <ruby>難<rt>むずか</rt></ruby>しすぎて / <ruby>解<rt>と</rt></ruby>けません / 私には",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：この問題は / <ruby>難<rt>むずか</rt></ruby>しすぎて / <ruby>解<rt>と</rt></ruby>けません / 私には",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>解<rt>と</rt></ruby>けません この問題は <ruby>難<rt>むずか</rt></ruby>しすぎて 私には",
           "<ruby>解<rt>と</rt></ruby>けません 私には <ruby>難<rt>むずか</rt></ruby>しすぎて この問題は",
@@ -20026,7 +20026,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問293（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：アメリカに / 住んで / <ruby>彼<rt>かれ</rt></ruby>は / いました / 3年間",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：アメリカに / 住んで / <ruby>彼<rt>かれ</rt></ruby>は / いました / 3年間",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["アメリカに 3年間 住んで いました <ruby>彼<rt>かれ</rt></ruby>は",
           "いました 住んで 3年間 アメリカに <ruby>彼<rt>かれ</rt></ruby>は",
@@ -20037,7 +20037,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・問294（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：しまいました / 電車が / ため / 遅れた / <ruby>遅刻<rt>ちこく</rt></ruby>して",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：しまいました / 電車が / ため / 遅れた / <ruby>遅刻<rt>ちこく</rt></ruby>して",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["電車が遅れたため<ruby>遅刻<rt>ちこく</rt></ruby>してしまいました",
           "しまいました 電車が 遅れた ため <ruby>遅刻<rt>ちこく</rt></ruby>して",
@@ -20048,7 +20048,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問295（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：この映画は / とても / 思います / 面白いと",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：この映画は / とても / 思います / 面白いと",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["この映画はとても面白いと思います",
           "思います 面白いと とても この映画は",
@@ -21162,7 +21162,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・問296（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：プレゼントを / 買って / 母に / あげました",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：プレゼントを / 買って / 母に / あげました",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["あげました 買って プレゼントを 母に",
           "プレゼントを 買って あげました 母に",
@@ -21173,7 +21173,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問297（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>一緒<rt>いっしょ</rt></ruby>に / <ruby>旅行<rt>りょこう</rt></ruby>に / 友達と / です / 行きたい",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>一緒<rt>いっしょ</rt></ruby>に / <ruby>旅行<rt>りょこう</rt></ruby>に / 友達と / です / 行きたい",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["友達と<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>旅行<rt>りょこう</rt></ruby>に行きたいです",
           "です 友達と <ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい",
@@ -21184,7 +21184,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問298（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：雨が / ようです / 降って / いる",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：雨が / ようです / 降って / いる",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["ようです いる 降って 雨が",
           "降って いる ようです 雨が",
@@ -21195,7 +21195,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・問299（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：仕事を / 終えたら / ください / <ruby>連絡<rt>れんらく</rt></ruby>して",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：仕事を / 終えたら / ください / <ruby>連絡<rt>れんらく</rt></ruby>して",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["ください 仕事を 終えたら <ruby>連絡<rt>れんらく</rt></ruby>して",
           "ください <ruby>連絡<rt>れんらく</rt></ruby>して 終えたら 仕事を",
@@ -21206,7 +21206,7 @@ window.MOCK_DATA['N3'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問300（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：母が / この料理は / くれました / 作って",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：母が / この料理は / くれました / 作って",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["この料理は母が作ってくれました",
           "くれました 作って 母が この料理は",

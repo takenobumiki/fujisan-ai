@@ -116,7 +116,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・<ruby>問<rt>もん</rt></ruby>101（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：プレゼントを / あげました / 買って / 母に",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：プレゼントを / あげました / 買って / 母に",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["プレゼントを 買って あげました 母に",
           "あげました 母に プレゼントを 買って",
@@ -138,7 +138,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・<ruby>問<rt>もん</rt></ruby>102（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>旅行<rt>りょこう</rt></ruby>に / です / 友達と / 行きたい / <ruby>一緒<rt>いっしょ</rt></ruby>に",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>旅行<rt>りょこう</rt></ruby>に / です / 友達と / 行きたい / <ruby>一緒<rt>いっしょ</rt></ruby>に",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["です 行きたい <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>一緒<rt>いっしょ</rt></ruby>に 友達と",
           "<ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい です 友達と",
@@ -160,7 +160,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・<ruby>問<rt>もん</rt></ruby>103（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：いる / 雨が / <ruby>降<rt>ふ</rt></ruby>って / ようです",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：いる / 雨が / <ruby>降<rt>ふ</rt></ruby>って / ようです",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>降<rt>ふ</rt></ruby>って いる ようです 雨が",
           "雨が<ruby>降<rt>ふ</rt></ruby>っているようです",
@@ -182,7 +182,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>もん</rt></ruby>104（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>仕事<rt>しごと</rt></ruby>を / <ruby>終<rt>お</rt></ruby>えたら / ください / <ruby>連絡<rt>れんらく</rt></ruby>して",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>仕事<rt>しごと</rt></ruby>を / <ruby>終<rt>お</rt></ruby>えたら / ください / <ruby>連絡<rt>れんらく</rt></ruby>して",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>仕事<rt>しごと</rt></ruby>を<ruby>終<rt>お</rt></ruby>えたら<ruby>連絡<rt>れんらく</rt></ruby>してください",
           "ください <ruby>連絡<rt>れんらく</rt></ruby>して <ruby>終<rt>お</rt></ruby>えたら <ruby>仕事<rt>しごと</rt></ruby>を",
@@ -204,7 +204,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>もん</rt></ruby>105（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：作って / くれました / 母が / この料理は",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：作って / くれました / 母が / この料理は",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["母が 作って くれました この料理は",
           "くれました この料理は 母が 作って",
@@ -508,7 +508,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-01-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット1<ruby>問<rt>もん</rt></ruby>44】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット1<ruby>問<rt>とい</rt></ruby>44】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -531,7 +531,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-01-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット1<ruby>問<rt>もん</rt></ruby>46】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット1<ruby>問<rt>とい</rt></ruby>46】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -554,7 +554,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-01-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット1<ruby>問<rt>もん</rt></ruby>48】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット1<ruby>問<rt>とい</rt></ruby>48】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -600,7 +600,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-01-085",
-        "script": "ピンについて　はなします。【セット1<ruby>問<rt>もん</rt></ruby>52】"
+        "script": "ピンについて　はなします。【セット1<ruby>問<rt>とい</rt></ruby>52】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -623,7 +623,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-01-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット1<ruby>問<rt>もん</rt></ruby>54】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット1<ruby>問<rt>とい</rt></ruby>54】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -646,7 +646,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-01-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット1<ruby>問<rt>もん</rt></ruby>56】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット1<ruby>問<rt>とい</rt></ruby>56】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -669,7 +669,7 @@ window.MOCK_DATA['N4'] = {
           "📅"],
         "answer": 2,
         "id": "N4-01-086",
-        "script": "ピンについて　はなします。【セット1<ruby>問<rt>もん</rt></ruby>58】"
+        "script": "ピンについて　はなします。【セット1<ruby>問<rt>とい</rt></ruby>58】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -692,7 +692,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-01-084",
-        "script": "ピンについて　はなします。【セット1<ruby>問<rt>もん</rt></ruby>60】"
+        "script": "ピンについて　はなします。【セット1<ruby>問<rt>とい</rt></ruby>60】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -715,7 +715,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-01-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット1<ruby>問<rt>もん</rt></ruby>62】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット1<ruby>問<rt>とい</rt></ruby>62】"
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
@@ -1263,7 +1263,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・<ruby>問<rt>もん</rt></ruby>106（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>図書館<rt>としょかん</rt></ruby>で / 読みました / 本を / <ruby>私<rt>わたし</rt></ruby>は / <ruby>昨日<rt>きのう</rt></ruby>",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>図書館<rt>としょかん</rt></ruby>で / 読みました / 本を / <ruby>私<rt>わたし</rt></ruby>は / <ruby>昨日<rt>きのう</rt></ruby>",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["読みました 本を <ruby>図書館<rt>としょかん</rt></ruby>で <ruby>昨日<rt>きのう</rt></ruby> <ruby>私<rt>わたし</rt></ruby>は",
           "<ruby>私<rt>わたし</rt></ruby>は<ruby>昨日<rt>きのう</rt></ruby><ruby>図書館<rt>としょかん</rt></ruby>で本を読みました",
@@ -1274,7 +1274,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・<ruby>問<rt>もん</rt></ruby>107（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>彼女<rt>かのじょ</rt></ruby>は / <ruby>毎朝<rt>まいあさ</rt></ruby> / します / <ruby>散歩<rt>さんぽ</rt></ruby> / <ruby>公園<rt>こうえん</rt></ruby>を",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>彼女<rt>かのじょ</rt></ruby>は / <ruby>毎朝<rt>まいあさ</rt></ruby> / します / <ruby>散歩<rt>さんぽ</rt></ruby> / <ruby>公園<rt>こうえん</rt></ruby>を",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["します <ruby>散歩<rt>さんぽ</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>を <ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>彼女<rt>かのじょ</rt></ruby>は",
           "<ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>を <ruby>散歩<rt>さんぽ</rt></ruby> します <ruby>彼女<rt>かのじょ</rt></ruby>は",
@@ -1285,7 +1285,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・<ruby>問<rt>もん</rt></ruby>108（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：お<ruby>客<rt>きゃく</rt></ruby>さんで / いっぱい / この<ruby>店<rt>てん</rt></ruby>は / です / いつも",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：お<ruby>客<rt>きゃく</rt></ruby>さんで / いっぱい / この<ruby>店<rt>てん</rt></ruby>は / です / いつも",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["この<ruby>店<rt>てん</rt></ruby>はいつもお<ruby>客<rt>きゃく</rt></ruby>さんでいっぱいです",
           "いつも お<ruby>客<rt>きゃく</rt></ruby>さんで いっぱい です この<ruby>店<rt>てん</rt></ruby>は",
@@ -1296,7 +1296,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>もん</rt></ruby>109（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：先生に / か / することが / <ruby>質問<rt>しつもん</rt></ruby>を / できます",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：先生に / か / することが / <ruby>質問<rt>しつもん</rt></ruby>を / できます",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>質問<rt>しつもん</rt></ruby>を することが できます か 先生に",
           "か できます することが <ruby>質問<rt>しつもん</rt></ruby>を 先生に",
@@ -1307,7 +1307,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>もん</rt></ruby>110（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：できない / 明日の / かもしれません / <ruby>会議<rt>かいぎ</rt></ruby>に / 出席",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：できない / 明日の / かもしれません / <ruby>会議<rt>かいぎ</rt></ruby>に / 出席",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["かもしれません 明日の <ruby>会議<rt>かいぎ</rt></ruby>に 出席 できない",
           "<ruby>会議<rt>かいぎ</rt></ruby>に 出席 できない かもしれません 明日の",
@@ -1491,7 +1491,7 @@ window.MOCK_DATA['N4'] = {
           "📝"],
         "answer": 3,
         "id": "N4-02-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット2<ruby>問<rt>もん</rt></ruby>34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット2<ruby>問<rt>とい</rt></ruby>34】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -1503,7 +1503,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-02-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット2<ruby>問<rt>もん</rt></ruby>35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット2<ruby>問<rt>とい</rt></ruby>35】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -1515,7 +1515,7 @@ window.MOCK_DATA['N4'] = {
           "📋"],
         "answer": 2,
         "id": "N4-02-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：スケジュールを　して　ください。\nおとこ：わかりました。【セット2<ruby>問<rt>もん</rt></ruby>36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：スケジュールを　して　ください。\nおとこ：わかりました。【セット2<ruby>問<rt>とい</rt></ruby>36】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -1527,7 +1527,7 @@ window.MOCK_DATA['N4'] = {
           "💳"],
         "answer": 3,
         "id": "N4-02-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット2<ruby>問<rt>もん</rt></ruby>37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット2<ruby>問<rt>とい</rt></ruby>37】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -1539,7 +1539,7 @@ window.MOCK_DATA['N4'] = {
           "💊"],
         "answer": 1,
         "id": "N4-02-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット2<ruby>問<rt>もん</rt></ruby>38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット2<ruby>問<rt>とい</rt></ruby>38】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -1587,7 +1587,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-02-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット2<ruby>問<rt>もん</rt></ruby>42】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット2<ruby>問<rt>とい</rt></ruby>42】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>発話表現<rt>はつわひょうげん</rt></ruby>）",
@@ -1599,7 +1599,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-02-082",
-        "script": "🍽について　はなします。【セット2<ruby>問<rt>もん</rt></ruby>43】"
+        "script": "🍽について　はなします。【セット2<ruby>問<rt>とい</rt></ruby>43】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -1611,7 +1611,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-02-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット2<ruby>問<rt>もん</rt></ruby>44】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット2<ruby>問<rt>とい</rt></ruby>44】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -1634,7 +1634,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-02-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット2<ruby>問<rt>もん</rt></ruby>46】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット2<ruby>問<rt>とい</rt></ruby>46】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -1657,7 +1657,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-02-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット2<ruby>問<rt>もん</rt></ruby>48】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット2<ruby>問<rt>とい</rt></ruby>48】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -1680,7 +1680,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-02-083",
-        "script": "ピンについて　はなします。【セット2<ruby>問<rt>もん</rt></ruby>50】"
+        "script": "ピンについて　はなします。【セット2<ruby>問<rt>とい</rt></ruby>50】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -1703,7 +1703,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-02-085",
-        "script": "ピンについて　はなします。【セット2<ruby>問<rt>もん</rt></ruby>52】"
+        "script": "ピンについて　はなします。【セット2<ruby>問<rt>とい</rt></ruby>52】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -1726,7 +1726,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-02-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット2<ruby>問<rt>もん</rt></ruby>54】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット2<ruby>問<rt>とい</rt></ruby>54】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -1749,7 +1749,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-02-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット2<ruby>問<rt>もん</rt></ruby>56】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット2<ruby>問<rt>とい</rt></ruby>56】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -1772,7 +1772,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-02-086",
-        "script": "ピンについて　はなします。【セット2<ruby>問<rt>もん</rt></ruby>58】"
+        "script": "ピンについて　はなします。【セット2<ruby>問<rt>とい</rt></ruby>58】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -1795,7 +1795,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-02-084",
-        "script": "ピンについて　はなします。【セット2<ruby>問<rt>もん</rt></ruby>60】"
+        "script": "ピンについて　はなします。【セット2<ruby>問<rt>とい</rt></ruby>60】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -1818,7 +1818,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-02-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット2<ruby>問<rt>もん</rt></ruby>62】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット2<ruby>問<rt>とい</rt></ruby>62】"
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
@@ -2235,7 +2235,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・<ruby>問<rt>もん</rt></ruby>111（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>日本語<rt>にほんご</rt></ruby>を / <ruby>多い<rt>おおい</rt></ruby>です / <ruby>勉強<rt>べんきょう</rt></ruby>して / 学生が / いる",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>日本語<rt>にほんご</rt></ruby>を / <ruby>多い<rt>おおい</rt></ruby>です / <ruby>勉強<rt>べんきょう</rt></ruby>して / 学生が / いる",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>多い<rt>おおい</rt></ruby>です <ruby>日本語<rt>にほんご</rt></ruby>を <ruby>勉強<rt>べんきょう</rt></ruby>して いる 学生が",
           "<ruby>勉強<rt>べんきょう</rt></ruby>して いる 学生が <ruby>多い<rt>おおい</rt></ruby>です <ruby>日本語<rt>にほんご</rt></ruby>を",
@@ -2257,7 +2257,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・<ruby>問<rt>もん</rt></ruby>112（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：この<ruby>問題<rt>もんだい</rt></ruby>は / <ruby>難<rt>むずか</rt></ruby>しすぎて / <ruby>解<rt>と</rt></ruby>けません / <ruby>私<rt>わたし</rt></ruby>には",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：この<ruby>問題<rt>もんだい</rt></ruby>は / <ruby>難<rt>むずか</rt></ruby>しすぎて / <ruby>解<rt>と</rt></ruby>けません / <ruby>私<rt>わたし</rt></ruby>には",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>難<rt>むずか</rt></ruby>しすぎて <ruby>私<rt>わたし</rt></ruby>には <ruby>解<rt>と</rt></ruby>けません この<ruby>問題<rt>もんだい</rt></ruby>は",
           "この<ruby>問題<rt>もんだい</rt></ruby>は<ruby>難<rt>むずか</rt></ruby>しすぎて<ruby>私<rt>わたし</rt></ruby>には<ruby>解<rt>と</rt></ruby>けません",
@@ -2279,7 +2279,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・<ruby>問<rt>もん</rt></ruby>113（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>彼<rt>かれ</rt></ruby>は / アメリカに / いました / <ruby>住<rt>すむ</rt></ruby>んで / 3年間",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>彼<rt>かれ</rt></ruby>は / アメリカに / いました / <ruby>住<rt>すむ</rt></ruby>んで / 3年間",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["いました <ruby>住<rt>すむ</rt></ruby>んで 3年間 アメリカに <ruby>彼<rt>かれ</rt></ruby>は",
           "いました <ruby>彼<rt>かれ</rt></ruby>は アメリカに 3年間 <ruby>住<rt>すむ</rt></ruby>んで",
@@ -2301,7 +2301,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>もん</rt></ruby>114（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>遅刻<rt>ちこく</rt></ruby>して / ため / 電車が / <ruby>遅れ<rt>おくれ</rt></ruby>た / しまいました",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>遅刻<rt>ちこく</rt></ruby>して / ため / 電車が / <ruby>遅れ<rt>おくれ</rt></ruby>た / しまいました",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["しまいました <ruby>遅刻<rt>ちこく</rt></ruby>して ため <ruby>遅れ<rt>おくれ</rt></ruby>た 電車が",
           "しまいました 電車が <ruby>遅れ<rt>おくれ</rt></ruby>た ため <ruby>遅刻<rt>ちこく</rt></ruby>して",
@@ -2323,7 +2323,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>もん</rt></ruby>115（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>思い<rt>おもい</rt></ruby>ます / この<ruby>映画<rt>えいが</rt></ruby>は / 面白いと / とても",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>思い<rt>おもい</rt></ruby>ます / この<ruby>映画<rt>えいが</rt></ruby>は / 面白いと / とても",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>思い<rt>おもい</rt></ruby>ます 面白いと とても この<ruby>映画<rt>えいが</rt></ruby>は",
           "とても 面白いと <ruby>思い<rt>おもい</rt></ruby>ます この<ruby>映画<rt>えいが</rt></ruby>は",
@@ -2595,7 +2595,7 @@ window.MOCK_DATA['N4'] = {
           "🍵"],
         "answer": 2,
         "id": "N4-03-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット3<ruby>問<rt>もん</rt></ruby>34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット3<ruby>問<rt>とい</rt></ruby>34】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -2607,7 +2607,7 @@ window.MOCK_DATA['N4'] = {
           "🔬"],
         "answer": 3,
         "id": "N4-03-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット3<ruby>問<rt>もん</rt></ruby>35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット3<ruby>問<rt>とい</rt></ruby>35】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -2619,7 +2619,7 @@ window.MOCK_DATA['N4'] = {
           "📊"],
         "answer": 2,
         "id": "N4-03-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：メモを　して　ください。\nおとこ：わかりました。【セット3<ruby>問<rt>もん</rt></ruby>36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：メモを　して　ください。\nおとこ：わかりました。【セット3<ruby>問<rt>とい</rt></ruby>36】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -2631,7 +2631,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-03-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット3<ruby>問<rt>もん</rt></ruby>37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット3<ruby>問<rt>とい</rt></ruby>37】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -2643,7 +2643,7 @@ window.MOCK_DATA['N4'] = {
           "📧"],
         "answer": 2,
         "id": "N4-03-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット3<ruby>問<rt>もん</rt></ruby>38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット3<ruby>問<rt>とい</rt></ruby>38】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -2691,7 +2691,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-03-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット3<ruby>問<rt>もん</rt></ruby>42】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット3<ruby>問<rt>とい</rt></ruby>42】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -2715,7 +2715,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-03-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット3<ruby>問<rt>もん</rt></ruby>44】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット3<ruby>問<rt>とい</rt></ruby>44】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>発話表現<rt>はつわひょうげん</rt></ruby>）",
@@ -2727,7 +2727,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-03-082",
-        "script": "🍽について　はなします。【セット3<ruby>問<rt>もん</rt></ruby>45】"
+        "script": "🍽について　はなします。【セット3<ruby>問<rt>とい</rt></ruby>45】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -2739,7 +2739,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-03-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット3<ruby>問<rt>もん</rt></ruby>46】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット3<ruby>問<rt>とい</rt></ruby>46】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -2762,7 +2762,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-03-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット3<ruby>問<rt>もん</rt></ruby>48】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット3<ruby>問<rt>とい</rt></ruby>48】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -2785,7 +2785,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-03-083",
-        "script": "ピンについて　はなします。【セット3<ruby>問<rt>もん</rt></ruby>50】"
+        "script": "ピンについて　はなします。【セット3<ruby>問<rt>とい</rt></ruby>50】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -2808,7 +2808,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-03-085",
-        "script": "ピンについて　はなします。【セット3<ruby>問<rt>もん</rt></ruby>52】"
+        "script": "ピンについて　はなします。【セット3<ruby>問<rt>とい</rt></ruby>52】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -2831,7 +2831,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-03-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット3<ruby>問<rt>もん</rt></ruby>54】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット3<ruby>問<rt>とい</rt></ruby>54】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -2854,7 +2854,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-03-084",
-        "script": "ピンについて　はなします。【セット3<ruby>問<rt>もん</rt></ruby>56】"
+        "script": "ピンについて　はなします。【セット3<ruby>問<rt>とい</rt></ruby>56】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -2877,7 +2877,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-03-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット3<ruby>問<rt>もん</rt></ruby>58】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット3<ruby>問<rt>とい</rt></ruby>58】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -2900,7 +2900,7 @@ window.MOCK_DATA['N4'] = {
           "📅"],
         "answer": 2,
         "id": "N4-03-086",
-        "script": "ピンについて　はなします。【セット3<ruby>問<rt>もん</rt></ruby>60】"
+        "script": "ピンについて　はなします。【セット3<ruby>問<rt>とい</rt></ruby>60】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -3470,7 +3470,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・<ruby>問<rt>もん</rt></ruby>116（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：プレゼントを / あげました / 母に / 買って",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：プレゼントを / あげました / 母に / 買って",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["母にプレゼントを買ってあげました",
           "あげました 買って プレゼントを 母に",
@@ -3481,7 +3481,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・<ruby>問<rt>もん</rt></ruby>117（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>旅行<rt>りょこう</rt></ruby>に / <ruby>一緒<rt>いっしょ</rt></ruby>に / 行きたい / です / 友達と",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>旅行<rt>りょこう</rt></ruby>に / <ruby>一緒<rt>いっしょ</rt></ruby>に / 行きたい / です / 友達と",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["です 行きたい <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>一緒<rt>いっしょ</rt></ruby>に 友達と",
           "です 友達と <ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい",
@@ -3492,7 +3492,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・<ruby>問<rt>もん</rt></ruby>118（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：いる / 雨が / <ruby>降<rt>ふ</rt></ruby>って / ようです",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：いる / 雨が / <ruby>降<rt>ふ</rt></ruby>って / ようです",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["ようです 雨が <ruby>降<rt>ふ</rt></ruby>って いる",
           "ようです いる <ruby>降<rt>ふ</rt></ruby>って 雨が",
@@ -3503,7 +3503,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>もん</rt></ruby>119（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>終<rt>お</rt></ruby>えたら / ください / <ruby>仕事<rt>しごと</rt></ruby>を / <ruby>連絡<rt>れんらく</rt></ruby>して",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>終<rt>お</rt></ruby>えたら / ください / <ruby>仕事<rt>しごと</rt></ruby>を / <ruby>連絡<rt>れんらく</rt></ruby>して",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["ください <ruby>仕事<rt>しごと</rt></ruby>を <ruby>終<rt>お</rt></ruby>えたら <ruby>連絡<rt>れんらく</rt></ruby>して",
           "ください <ruby>連絡<rt>れんらく</rt></ruby>して <ruby>終<rt>お</rt></ruby>えたら <ruby>仕事<rt>しごと</rt></ruby>を",
@@ -3514,7 +3514,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>もん</rt></ruby>120（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：くれました / 作って / 母が / この料理は",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：くれました / 作って / 母が / この料理は",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["母が 作って くれました この料理は",
           "くれました この料理は 母が 作って",
@@ -3698,7 +3698,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-04-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット4<ruby>問<rt>もん</rt></ruby>34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット4<ruby>問<rt>とい</rt></ruby>34】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -3710,7 +3710,7 @@ window.MOCK_DATA['N4'] = {
           "📋"],
         "answer": 2,
         "id": "N4-04-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット4<ruby>問<rt>もん</rt></ruby>35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット4<ruby>問<rt>とい</rt></ruby>35】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -3722,7 +3722,7 @@ window.MOCK_DATA['N4'] = {
           "💳"],
         "answer": 3,
         "id": "N4-04-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：カードを　して　ください。\nおとこ：わかりました。【セット4<ruby>問<rt>もん</rt></ruby>36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：カードを　して　ください。\nおとこ：わかりました。【セット4<ruby>問<rt>とい</rt></ruby>36】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -3734,7 +3734,7 @@ window.MOCK_DATA['N4'] = {
           "🏥"],
         "answer": 1,
         "id": "N4-04-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット4<ruby>問<rt>もん</rt></ruby>37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット4<ruby>問<rt>とい</rt></ruby>37】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -3746,7 +3746,7 @@ window.MOCK_DATA['N4'] = {
           "📝"],
         "answer": 0,
         "id": "N4-04-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット4<ruby>問<rt>もん</rt></ruby>38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット4<ruby>問<rt>とい</rt></ruby>38】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -3770,7 +3770,7 @@ window.MOCK_DATA['N4'] = {
           "📋"],
         "answer": 0,
         "id": "N4-04-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット4<ruby>問<rt>もん</rt></ruby>40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット4<ruby>問<rt>とい</rt></ruby>40】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -3782,7 +3782,7 @@ window.MOCK_DATA['N4'] = {
           "🚪"],
         "answer": 2,
         "id": "N4-04-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット4<ruby>問<rt>もん</rt></ruby>41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット4<ruby>問<rt>とい</rt></ruby>41】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -3794,7 +3794,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-04-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット4<ruby>問<rt>もん</rt></ruby>42】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット4<ruby>問<rt>とい</rt></ruby>42】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>発話表現<rt>はつわひょうげん</rt></ruby>）",
@@ -3806,7 +3806,7 @@ window.MOCK_DATA['N4'] = {
           "🍽️"],
         "answer": 3,
         "id": "N4-04-082",
-        "script": "🍽について　はなします。【セット4<ruby>問<rt>もん</rt></ruby>43】"
+        "script": "🍽について　はなします。【セット4<ruby>問<rt>とい</rt></ruby>43】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -3818,7 +3818,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-04-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット4<ruby>問<rt>もん</rt></ruby>44】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット4<ruby>問<rt>とい</rt></ruby>44】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -3841,7 +3841,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-04-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット4<ruby>問<rt>もん</rt></ruby>46】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット4<ruby>問<rt>とい</rt></ruby>46】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -3864,7 +3864,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-04-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット4<ruby>問<rt>もん</rt></ruby>48】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット4<ruby>問<rt>とい</rt></ruby>48】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -3887,7 +3887,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-04-083",
-        "script": "ピンについて　はなします。【セット4<ruby>問<rt>もん</rt></ruby>50】"
+        "script": "ピンについて　はなします。【セット4<ruby>問<rt>とい</rt></ruby>50】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -3910,7 +3910,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-04-085",
-        "script": "ピンについて　はなします。【セット4<ruby>問<rt>もん</rt></ruby>52】"
+        "script": "ピンについて　はなします。【セット4<ruby>問<rt>とい</rt></ruby>52】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -3933,7 +3933,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-04-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット4<ruby>問<rt>もん</rt></ruby>54】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット4<ruby>問<rt>とい</rt></ruby>54】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -3956,7 +3956,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-04-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット4<ruby>問<rt>もん</rt></ruby>56】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット4<ruby>問<rt>とい</rt></ruby>56】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -3979,7 +3979,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-04-086",
-        "script": "ピンについて　はなします。【セット4<ruby>問<rt>もん</rt></ruby>58】"
+        "script": "ピンについて　はなします。【セット4<ruby>問<rt>とい</rt></ruby>58】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -4002,7 +4002,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-04-084",
-        "script": "ピンについて　はなします。【セット4<ruby>問<rt>もん</rt></ruby>60】"
+        "script": "ピンについて　はなします。【セット4<ruby>問<rt>とい</rt></ruby>60】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -4025,7 +4025,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-04-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット4<ruby>問<rt>もん</rt></ruby>62】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット4<ruby>問<rt>とい</rt></ruby>62】"
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
@@ -4450,7 +4450,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-05-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット5<ruby>問<rt>もん</rt></ruby>2】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット5<ruby>問<rt>とい</rt></ruby>2】"
       },
       {
         "type": "<ruby>文法形式<rt>ぶんぽうけいしき</rt></ruby>",
@@ -4575,7 +4575,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・<ruby>問<rt>もん</rt></ruby>121（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>昨日<rt>きのう</rt></ruby> / 本を / <ruby>図書館<rt>としょかん</rt></ruby>で / <ruby>私<rt>わたし</rt></ruby>は / 読みました",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>昨日<rt>きのう</rt></ruby> / 本を / <ruby>図書館<rt>としょかん</rt></ruby>で / <ruby>私<rt>わたし</rt></ruby>は / 読みました",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>私<rt>わたし</rt></ruby>は<ruby>昨日<rt>きのう</rt></ruby><ruby>図書館<rt>としょかん</rt></ruby>で本を読みました",
           "<ruby>昨日<rt>きのう</rt></ruby> <ruby>図書館<rt>としょかん</rt></ruby>で 本を 読みました <ruby>私<rt>わたし</rt></ruby>は",
@@ -4586,7 +4586,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・<ruby>問<rt>もん</rt></ruby>122（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>彼女<rt>かのじょ</rt></ruby>は / します / <ruby>散歩<rt>さんぽ</rt></ruby> / <ruby>毎朝<rt>まいあさ</rt></ruby> / <ruby>公園<rt>こうえん</rt></ruby>を",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>彼女<rt>かのじょ</rt></ruby>は / します / <ruby>散歩<rt>さんぽ</rt></ruby> / <ruby>毎朝<rt>まいあさ</rt></ruby> / <ruby>公園<rt>こうえん</rt></ruby>を",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["します <ruby>散歩<rt>さんぽ</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>を <ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>彼女<rt>かのじょ</rt></ruby>は",
           "します <ruby>彼女<rt>かのじょ</rt></ruby>は <ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>を <ruby>散歩<rt>さんぽ</rt></ruby>",
@@ -4597,7 +4597,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・<ruby>問<rt>もん</rt></ruby>123（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：いつも / です / いっぱい / この<ruby>店<rt>てん</rt></ruby>は / お<ruby>客<rt>きゃく</rt></ruby>さんで",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：いつも / です / いっぱい / この<ruby>店<rt>てん</rt></ruby>は / お<ruby>客<rt>きゃく</rt></ruby>さんで",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["です いっぱい お<ruby>客<rt>きゃく</rt></ruby>さんで いつも この<ruby>店<rt>てん</rt></ruby>は",
           "です この<ruby>店<rt>てん</rt></ruby>は いつも お<ruby>客<rt>きゃく</rt></ruby>さんで いっぱい",
@@ -4608,7 +4608,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>もん</rt></ruby>124（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>質問<rt>しつもん</rt></ruby>を / することが / 先生に / できます / か",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>質問<rt>しつもん</rt></ruby>を / することが / 先生に / できます / か",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>質問<rt>しつもん</rt></ruby>を することが できます か 先生に",
           "先生に<ruby>質問<rt>しつもん</rt></ruby>をすることができますか",
@@ -4619,7 +4619,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>もん</rt></ruby>125（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：出席 / 明日の / かもしれません / できない / <ruby>会議<rt>かいぎ</rt></ruby>に",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：出席 / 明日の / かもしれません / できない / <ruby>会議<rt>かいぎ</rt></ruby>に",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["かもしれません できない 出席 <ruby>会議<rt>かいぎ</rt></ruby>に 明日の",
           "明日の<ruby>会議<rt>かいぎ</rt></ruby>に出席できないかもしれません",
@@ -4803,7 +4803,7 @@ window.MOCK_DATA['N4'] = {
           "✉️"],
         "answer": 1,
         "id": "N4-05-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット5<ruby>問<rt>もん</rt></ruby>34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット5<ruby>問<rt>とい</rt></ruby>34】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -4815,7 +4815,7 @@ window.MOCK_DATA['N4'] = {
           "📊"],
         "answer": 0,
         "id": "N4-05-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット5<ruby>問<rt>もん</rt></ruby>35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット5<ruby>問<rt>とい</rt></ruby>35】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -4827,7 +4827,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-05-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：ピンを　して　ください。\nおとこ：わかりました。【セット5<ruby>問<rt>もん</rt></ruby>36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：ピンを　して　ください。\nおとこ：わかりました。【セット5<ruby>問<rt>とい</rt></ruby>36】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -4839,7 +4839,7 @@ window.MOCK_DATA['N4'] = {
           "📞"],
         "answer": 2,
         "id": "N4-05-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット5<ruby>問<rt>もん</rt></ruby>37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット5<ruby>問<rt>とい</rt></ruby>37】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -4851,7 +4851,7 @@ window.MOCK_DATA['N4'] = {
           "📢"],
         "answer": 0,
         "id": "N4-05-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット5<ruby>問<rt>もん</rt></ruby>38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット5<ruby>問<rt>とい</rt></ruby>38】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -4863,7 +4863,7 @@ window.MOCK_DATA['N4'] = {
           "✉️"],
         "answer": 1,
         "id": "N4-05-072",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：けんきゅうを　して　ください。\nおとこ：わかりました。【セット5<ruby>問<rt>もん</rt></ruby>39】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：けんきゅうを　して　ください。\nおとこ：わかりました。【セット5<ruby>問<rt>とい</rt></ruby>39】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -4875,7 +4875,7 @@ window.MOCK_DATA['N4'] = {
           "📄"],
         "answer": 2,
         "id": "N4-05-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット5<ruby>問<rt>もん</rt></ruby>40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット5<ruby>問<rt>とい</rt></ruby>40】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -4887,7 +4887,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-05-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット5<ruby>問<rt>もん</rt></ruby>41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット5<ruby>問<rt>とい</rt></ruby>41】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>発話表現<rt>はつわひょうげん</rt></ruby>）",
@@ -4899,7 +4899,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-05-082",
-        "script": "🍽について　はなします。【セット5<ruby>問<rt>もん</rt></ruby>42】"
+        "script": "🍽について　はなします。【セット5<ruby>問<rt>とい</rt></ruby>42】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -4911,7 +4911,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-05-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット5<ruby>問<rt>もん</rt></ruby>43】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット5<ruby>問<rt>とい</rt></ruby>43】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -4934,7 +4934,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-05-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット5<ruby>問<rt>もん</rt></ruby>45】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット5<ruby>問<rt>とい</rt></ruby>45】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -4957,7 +4957,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-05-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット5<ruby>問<rt>もん</rt></ruby>47】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット5<ruby>問<rt>とい</rt></ruby>47】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -4980,7 +4980,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-05-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット5<ruby>問<rt>もん</rt></ruby>49】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット5<ruby>問<rt>とい</rt></ruby>49】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -5003,7 +5003,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-05-084",
-        "script": "ピンについて　はなします。【セット5<ruby>問<rt>もん</rt></ruby>51】"
+        "script": "ピンについて　はなします。【セット5<ruby>問<rt>とい</rt></ruby>51】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -5026,7 +5026,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-05-086",
-        "script": "ピンについて　はなします。【セット5<ruby>問<rt>もん</rt></ruby>53】"
+        "script": "ピンについて　はなします。【セット5<ruby>問<rt>とい</rt></ruby>53】"
       },
       {
         "type": "<ruby>文法形式<rt>ぶんぽうけいしき</rt></ruby>",
@@ -5049,7 +5049,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-05-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット5<ruby>問<rt>もん</rt></ruby>55】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット5<ruby>問<rt>とい</rt></ruby>55】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -5072,7 +5072,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-05-083",
-        "script": "ピンについて　はなします。【セット5<ruby>問<rt>もん</rt></ruby>57】"
+        "script": "ピンについて　はなします。【セット5<ruby>問<rt>とい</rt></ruby>57】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -5095,7 +5095,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-05-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット5<ruby>問<rt>もん</rt></ruby>59】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット5<ruby>問<rt>とい</rt></ruby>59】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -5118,7 +5118,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-05-085",
-        "script": "ピンについて　はなします。【セット5<ruby>問<rt>もん</rt></ruby>61】"
+        "script": "ピンについて　はなします。【セット5<ruby>問<rt>とい</rt></ruby>61】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -5656,7 +5656,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・<ruby>問<rt>もん</rt></ruby>126（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：学生が / <ruby>多い<rt>おおい</rt></ruby>です / <ruby>日本語<rt>にほんご</rt></ruby>を / <ruby>勉強<rt>べんきょう</rt></ruby>して / いる",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：学生が / <ruby>多い<rt>おおい</rt></ruby>です / <ruby>日本語<rt>にほんご</rt></ruby>を / <ruby>勉強<rt>べんきょう</rt></ruby>して / いる",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>勉強<rt>べんきょう</rt></ruby>して いる 学生が <ruby>多い<rt>おおい</rt></ruby>です <ruby>日本語<rt>にほんご</rt></ruby>を",
           "<ruby>多い<rt>おおい</rt></ruby>です <ruby>日本語<rt>にほんご</rt></ruby>を <ruby>勉強<rt>べんきょう</rt></ruby>して いる 学生が",
@@ -5678,7 +5678,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・<ruby>問<rt>もん</rt></ruby>127（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>私<rt>わたし</rt></ruby>には / <ruby>難<rt>むずか</rt></ruby>しすぎて / <ruby>解<rt>と</rt></ruby>けません / この<ruby>問題<rt>もんだい</rt></ruby>は",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>私<rt>わたし</rt></ruby>には / <ruby>難<rt>むずか</rt></ruby>しすぎて / <ruby>解<rt>と</rt></ruby>けません / この<ruby>問題<rt>もんだい</rt></ruby>は",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>難<rt>むずか</rt></ruby>しすぎて <ruby>私<rt>わたし</rt></ruby>には <ruby>解<rt>と</rt></ruby>けません この<ruby>問題<rt>もんだい</rt></ruby>は",
           "<ruby>解<rt>と</rt></ruby>けません この<ruby>問題<rt>もんだい</rt></ruby>は <ruby>難<rt>むずか</rt></ruby>しすぎて <ruby>私<rt>わたし</rt></ruby>には",
@@ -5700,7 +5700,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・<ruby>問<rt>もん</rt></ruby>128（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：3年間 / アメリカに / <ruby>彼<rt>かれ</rt></ruby>は / いました / <ruby>住<rt>すむ</rt></ruby>んで",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：3年間 / アメリカに / <ruby>彼<rt>かれ</rt></ruby>は / いました / <ruby>住<rt>すむ</rt></ruby>んで",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>彼<rt>かれ</rt></ruby>はアメリカに3年間<ruby>住<rt>すむ</rt></ruby>んでいました",
           "アメリカに 3年間 <ruby>住<rt>すむ</rt></ruby>んで いました <ruby>彼<rt>かれ</rt></ruby>は",
@@ -5711,7 +5711,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>もん</rt></ruby>129（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>遅れ<rt>おくれ</rt></ruby>た / しまいました / ため / 電車が / <ruby>遅刻<rt>ちこく</rt></ruby>して",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>遅れ<rt>おくれ</rt></ruby>た / しまいました / ため / 電車が / <ruby>遅刻<rt>ちこく</rt></ruby>して",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["しまいました 電車が <ruby>遅れ<rt>おくれ</rt></ruby>た ため <ruby>遅刻<rt>ちこく</rt></ruby>して",
           "電車が<ruby>遅れ<rt>おくれ</rt></ruby>たため<ruby>遅刻<rt>ちこく</rt></ruby>してしまいました",
@@ -5722,7 +5722,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>もん</rt></ruby>130（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>思い<rt>おもい</rt></ruby>ます / この<ruby>映画<rt>えいが</rt></ruby>は / 面白いと / とても",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>思い<rt>おもい</rt></ruby>ます / この<ruby>映画<rt>えいが</rt></ruby>は / 面白いと / とても",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["とても 面白いと <ruby>思い<rt>おもい</rt></ruby>ます この<ruby>映画<rt>えいが</rt></ruby>は",
           "<ruby>思い<rt>おもい</rt></ruby>ます 面白いと とても この<ruby>映画<rt>えいが</rt></ruby>は",
@@ -5906,7 +5906,7 @@ window.MOCK_DATA['N4'] = {
           "📧"],
         "answer": 1,
         "id": "N4-06-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット6<ruby>問<rt>もん</rt></ruby>34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット6<ruby>問<rt>とい</rt></ruby>34】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -5918,7 +5918,7 @@ window.MOCK_DATA['N4'] = {
           "💳"],
         "answer": 3,
         "id": "N4-06-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット6<ruby>問<rt>もん</rt></ruby>35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット6<ruby>問<rt>とい</rt></ruby>35】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -5930,7 +5930,7 @@ window.MOCK_DATA['N4'] = {
           "💊"],
         "answer": 0,
         "id": "N4-06-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：けんきゅうを　して　ください。\nおとこ：わかりました。【セット6<ruby>問<rt>もん</rt></ruby>36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：けんきゅうを　して　ください。\nおとこ：わかりました。【セット6<ruby>問<rt>とい</rt></ruby>36】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -5942,7 +5942,7 @@ window.MOCK_DATA['N4'] = {
           "📄"],
         "answer": 1,
         "id": "N4-06-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット6<ruby>問<rt>もん</rt></ruby>37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット6<ruby>問<rt>とい</rt></ruby>37】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -5954,7 +5954,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-06-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット6<ruby>問<rt>もん</rt></ruby>38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット6<ruby>問<rt>とい</rt></ruby>38】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -5966,7 +5966,7 @@ window.MOCK_DATA['N4'] = {
           "📧"],
         "answer": 0,
         "id": "N4-06-072",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：スケジュールを　して　ください。\nおとこ：わかりました。【セット6<ruby>問<rt>もん</rt></ruby>39】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：スケジュールを　して　ください。\nおとこ：わかりました。【セット6<ruby>問<rt>とい</rt></ruby>39】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -5978,7 +5978,7 @@ window.MOCK_DATA['N4'] = {
           "🍵"],
         "answer": 1,
         "id": "N4-06-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット6<ruby>問<rt>もん</rt></ruby>40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット6<ruby>問<rt>とい</rt></ruby>40】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -5990,7 +5990,7 @@ window.MOCK_DATA['N4'] = {
           "✉️"],
         "answer": 0,
         "id": "N4-06-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット6<ruby>問<rt>もん</rt></ruby>41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット6<ruby>問<rt>とい</rt></ruby>41】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -6002,7 +6002,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-06-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット6<ruby>問<rt>もん</rt></ruby>42】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット6<ruby>問<rt>とい</rt></ruby>42】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>発話表現<rt>はつわひょうげん</rt></ruby>）",
@@ -6014,7 +6014,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-06-082",
-        "script": "🍽について　はなします。【セット6<ruby>問<rt>もん</rt></ruby>43】"
+        "script": "🍽について　はなします。【セット6<ruby>問<rt>とい</rt></ruby>43】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -6026,7 +6026,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-06-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット6<ruby>問<rt>もん</rt></ruby>44】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット6<ruby>問<rt>とい</rt></ruby>44】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -6049,7 +6049,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-06-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット6<ruby>問<rt>もん</rt></ruby>46】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット6<ruby>問<rt>とい</rt></ruby>46】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -6072,7 +6072,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-06-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット6<ruby>問<rt>もん</rt></ruby>48】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット6<ruby>問<rt>とい</rt></ruby>48】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -6095,7 +6095,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-06-083",
-        "script": "ピンについて　はなします。【セット6<ruby>問<rt>もん</rt></ruby>50】"
+        "script": "ピンについて　はなします。【セット6<ruby>問<rt>とい</rt></ruby>50】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -6118,7 +6118,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-06-085",
-        "script": "ピンについて　はなします。【セット6<ruby>問<rt>もん</rt></ruby>52】"
+        "script": "ピンについて　はなします。【セット6<ruby>問<rt>とい</rt></ruby>52】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -6141,7 +6141,7 @@ window.MOCK_DATA['N4'] = {
           "📕"],
         "answer": 0,
         "id": "N4-06-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット6<ruby>問<rt>もん</rt></ruby>54】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット6<ruby>問<rt>とい</rt></ruby>54】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -6164,7 +6164,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-06-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット6<ruby>問<rt>もん</rt></ruby>56】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット6<ruby>問<rt>とい</rt></ruby>56】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -6187,7 +6187,7 @@ window.MOCK_DATA['N4'] = {
           "📅"],
         "answer": 1,
         "id": "N4-06-086",
-        "script": "ピンについて　はなします。【セット6<ruby>問<rt>もん</rt></ruby>58】"
+        "script": "ピンについて　はなします。【セット6<ruby>問<rt>とい</rt></ruby>58】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -6210,7 +6210,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-06-084",
-        "script": "ピンについて　はなします。【セット6<ruby>問<rt>もん</rt></ruby>60】"
+        "script": "ピンについて　はなします。【セット6<ruby>問<rt>とい</rt></ruby>60】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -6233,7 +6233,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-06-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット6<ruby>問<rt>もん</rt></ruby>62】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット6<ruby>問<rt>とい</rt></ruby>62】"
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
@@ -6760,7 +6760,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・<ruby>問<rt>もん</rt></ruby>131（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：母に / あげました / 買って / プレゼントを",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：母に / あげました / 買って / プレゼントを",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["プレゼントを 買って あげました 母に",
           "あげました 買って プレゼントを 母に",
@@ -6782,7 +6782,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・<ruby>問<rt>もん</rt></ruby>132（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>旅行<rt>りょこう</rt></ruby>に / 行きたい / 友達と / です / <ruby>一緒<rt>いっしょ</rt></ruby>に",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>旅行<rt>りょこう</rt></ruby>に / 行きたい / 友達と / です / <ruby>一緒<rt>いっしょ</rt></ruby>に",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい です 友達と",
           "です 行きたい <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>一緒<rt>いっしょ</rt></ruby>に 友達と",
@@ -6804,7 +6804,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・<ruby>問<rt>もん</rt></ruby>133（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：ようです / <ruby>降<rt>ふ</rt></ruby>って / 雨が / いる",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：ようです / <ruby>降<rt>ふ</rt></ruby>って / 雨が / いる",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["ようです いる <ruby>降<rt>ふ</rt></ruby>って 雨が",
           "<ruby>降<rt>ふ</rt></ruby>って いる ようです 雨が",
@@ -6815,7 +6815,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>もん</rt></ruby>134（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：ください / <ruby>終<rt>お</rt></ruby>えたら / <ruby>仕事<rt>しごと</rt></ruby>を / <ruby>連絡<rt>れんらく</rt></ruby>して",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：ください / <ruby>終<rt>お</rt></ruby>えたら / <ruby>仕事<rt>しごと</rt></ruby>を / <ruby>連絡<rt>れんらく</rt></ruby>して",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["ください <ruby>仕事<rt>しごと</rt></ruby>を <ruby>終<rt>お</rt></ruby>えたら <ruby>連絡<rt>れんらく</rt></ruby>して",
           "<ruby>仕事<rt>しごと</rt></ruby>を<ruby>終<rt>お</rt></ruby>えたら<ruby>連絡<rt>れんらく</rt></ruby>してください",
@@ -6826,7 +6826,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>もん</rt></ruby>135（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：母が / くれました / この料理は / 作って",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：母が / くれました / この料理は / 作って",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["母が 作って くれました この料理は",
           "くれました この料理は 母が 作って",
@@ -7010,7 +7010,7 @@ window.MOCK_DATA['N4'] = {
           "📝"],
         "answer": 0,
         "id": "N4-07-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット7<ruby>問<rt>もん</rt></ruby>34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット7<ruby>問<rt>とい</rt></ruby>34】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -7022,7 +7022,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-07-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット7<ruby>問<rt>もん</rt></ruby>35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット7<ruby>問<rt>とい</rt></ruby>35】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -7034,7 +7034,7 @@ window.MOCK_DATA['N4'] = {
           "📋"],
         "answer": 1,
         "id": "N4-07-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：スケジュールを　して　ください。\nおとこ：わかりました。【セット7<ruby>問<rt>もん</rt></ruby>36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：スケジュールを　して　ください。\nおとこ：わかりました。【セット7<ruby>問<rt>とい</rt></ruby>36】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -7046,7 +7046,7 @@ window.MOCK_DATA['N4'] = {
           "📢"],
         "answer": 0,
         "id": "N4-07-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット7<ruby>問<rt>もん</rt></ruby>37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット7<ruby>問<rt>とい</rt></ruby>37】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -7058,7 +7058,7 @@ window.MOCK_DATA['N4'] = {
           "✉️"],
         "answer": 2,
         "id": "N4-07-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット7<ruby>問<rt>もん</rt></ruby>38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット7<ruby>問<rt>とい</rt></ruby>38】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -7070,7 +7070,7 @@ window.MOCK_DATA['N4'] = {
           "📝"],
         "answer": 1,
         "id": "N4-07-072",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：メモを　して　ください。\nおとこ：わかりました。【セット7<ruby>問<rt>もん</rt></ruby>39】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：メモを　して　ください。\nおとこ：わかりました。【セット7<ruby>問<rt>とい</rt></ruby>39】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -7082,7 +7082,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-07-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット7<ruby>問<rt>もん</rt></ruby>40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット7<ruby>問<rt>とい</rt></ruby>40】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -7094,7 +7094,7 @@ window.MOCK_DATA['N4'] = {
           "📋"],
         "answer": 1,
         "id": "N4-07-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット7<ruby>問<rt>もん</rt></ruby>41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット7<ruby>問<rt>とい</rt></ruby>41】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -7106,7 +7106,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-07-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット7<ruby>問<rt>もん</rt></ruby>42】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット7<ruby>問<rt>とい</rt></ruby>42】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -7118,7 +7118,7 @@ window.MOCK_DATA['N4'] = {
           "📕"],
         "answer": 3,
         "id": "N4-07-077",
-        "script": "きょうの　はなしは　ほんについてです。これは　とても　たいせつです。【セット7<ruby>問<rt>もん</rt></ruby>43】"
+        "script": "きょうの　はなしは　ほんについてです。これは　とても　たいせつです。【セット7<ruby>問<rt>とい</rt></ruby>43】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -7130,7 +7130,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-07-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット7<ruby>問<rt>もん</rt></ruby>44】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット7<ruby>問<rt>とい</rt></ruby>44】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>発話表現<rt>はつわひょうげん</rt></ruby>）",
@@ -7142,7 +7142,7 @@ window.MOCK_DATA['N4'] = {
           "🍽️"],
         "answer": 3,
         "id": "N4-07-082",
-        "script": "🍽について　はなします。【セット7<ruby>問<rt>もん</rt></ruby>45】"
+        "script": "🍽について　はなします。【セット7<ruby>問<rt>とい</rt></ruby>45】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -7154,7 +7154,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-07-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット7<ruby>問<rt>もん</rt></ruby>46】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット7<ruby>問<rt>とい</rt></ruby>46】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -7177,7 +7177,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-07-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット7<ruby>問<rt>もん</rt></ruby>48】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット7<ruby>問<rt>とい</rt></ruby>48】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -7200,7 +7200,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-07-083",
-        "script": "ピンについて　はなします。【セット7<ruby>問<rt>もん</rt></ruby>50】"
+        "script": "ピンについて　はなします。【セット7<ruby>問<rt>とい</rt></ruby>50】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -7223,7 +7223,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-07-085",
-        "script": "ピンについて　はなします。【セット7<ruby>問<rt>もん</rt></ruby>52】"
+        "script": "ピンについて　はなします。【セット7<ruby>問<rt>とい</rt></ruby>52】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -7246,7 +7246,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-07-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット7<ruby>問<rt>もん</rt></ruby>54】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット7<ruby>問<rt>とい</rt></ruby>54】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -7269,7 +7269,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-07-084",
-        "script": "ピンについて　はなします。【セット7<ruby>問<rt>もん</rt></ruby>56】"
+        "script": "ピンについて　はなします。【セット7<ruby>問<rt>とい</rt></ruby>56】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -7292,7 +7292,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-07-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット7<ruby>問<rt>もん</rt></ruby>58】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット7<ruby>問<rt>とい</rt></ruby>58】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -7315,7 +7315,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-07-086",
-        "script": "ピンについて　はなします。【セット7<ruby>問<rt>もん</rt></ruby>60】"
+        "script": "ピンについて　はなします。【セット7<ruby>問<rt>とい</rt></ruby>60】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -7864,7 +7864,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・<ruby>問<rt>もん</rt></ruby>136（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>私<rt>わたし</rt></ruby>は / 読みました / <ruby>昨日<rt>きのう</rt></ruby> / 本を / <ruby>図書館<rt>としょかん</rt></ruby>で",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>私<rt>わたし</rt></ruby>は / 読みました / <ruby>昨日<rt>きのう</rt></ruby> / 本を / <ruby>図書館<rt>としょかん</rt></ruby>で",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>私<rt>わたし</rt></ruby>は<ruby>昨日<rt>きのう</rt></ruby><ruby>図書館<rt>としょかん</rt></ruby>で本を読みました",
           "読みました 本を <ruby>図書館<rt>としょかん</rt></ruby>で <ruby>昨日<rt>きのう</rt></ruby> <ruby>私<rt>わたし</rt></ruby>は",
@@ -7886,7 +7886,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・<ruby>問<rt>もん</rt></ruby>137（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>彼女<rt>かのじょ</rt></ruby>は / <ruby>散歩<rt>さんぽ</rt></ruby> / します / <ruby>毎朝<rt>まいあさ</rt></ruby> / <ruby>公園<rt>こうえん</rt></ruby>を",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>彼女<rt>かのじょ</rt></ruby>は / <ruby>散歩<rt>さんぽ</rt></ruby> / します / <ruby>毎朝<rt>まいあさ</rt></ruby> / <ruby>公園<rt>こうえん</rt></ruby>を",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>を <ruby>散歩<rt>さんぽ</rt></ruby> します <ruby>彼女<rt>かのじょ</rt></ruby>は",
           "<ruby>彼女<rt>かのじょ</rt></ruby>は<ruby>毎朝<rt>まいあさ</rt></ruby><ruby>公園<rt>こうえん</rt></ruby>を<ruby>散歩<rt>さんぽ</rt></ruby>します",
@@ -7908,7 +7908,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・<ruby>問<rt>もん</rt></ruby>138（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：です / この<ruby>店<rt>てん</rt></ruby>は / いつも / お<ruby>客<rt>きゃく</rt></ruby>さんで / いっぱい",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：です / この<ruby>店<rt>てん</rt></ruby>は / いつも / お<ruby>客<rt>きゃく</rt></ruby>さんで / いっぱい",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["です いっぱい お<ruby>客<rt>きゃく</rt></ruby>さんで いつも この<ruby>店<rt>てん</rt></ruby>は",
           "です この<ruby>店<rt>てん</rt></ruby>は いつも お<ruby>客<rt>きゃく</rt></ruby>さんで いっぱい",
@@ -7919,7 +7919,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>もん</rt></ruby>139（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：することが / できます / か / <ruby>質問<rt>しつもん</rt></ruby>を / 先生に",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：することが / できます / か / <ruby>質問<rt>しつもん</rt></ruby>を / 先生に",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["か できます することが <ruby>質問<rt>しつもん</rt></ruby>を 先生に",
           "<ruby>質問<rt>しつもん</rt></ruby>を することが できます か 先生に",
@@ -7930,7 +7930,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>もん</rt></ruby>140（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：出席 / かもしれません / <ruby>会議<rt>かいぎ</rt></ruby>に / できない / 明日の",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：出席 / かもしれません / <ruby>会議<rt>かいぎ</rt></ruby>に / できない / 明日の",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["明日の<ruby>会議<rt>かいぎ</rt></ruby>に出席できないかもしれません",
           "<ruby>会議<rt>かいぎ</rt></ruby>に 出席 できない かもしれません 明日の",
@@ -8114,7 +8114,7 @@ window.MOCK_DATA['N4'] = {
           "🚪"],
         "answer": 0,
         "id": "N4-08-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット8<ruby>問<rt>もん</rt></ruby>34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット8<ruby>問<rt>とい</rt></ruby>34】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -8126,7 +8126,7 @@ window.MOCK_DATA['N4'] = {
           "🏥"],
         "answer": 2,
         "id": "N4-08-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット8<ruby>問<rt>もん</rt></ruby>35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット8<ruby>問<rt>とい</rt></ruby>35】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -8138,7 +8138,7 @@ window.MOCK_DATA['N4'] = {
           "📝"],
         "answer": 3,
         "id": "N4-08-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：メモを　して　ください。\nおとこ：わかりました。【セット8<ruby>問<rt>もん</rt></ruby>36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：メモを　して　ください。\nおとこ：わかりました。【セット8<ruby>問<rt>とい</rt></ruby>36】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -8150,7 +8150,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-08-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット8<ruby>問<rt>もん</rt></ruby>37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット8<ruby>問<rt>とい</rt></ruby>37】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -8162,7 +8162,7 @@ window.MOCK_DATA['N4'] = {
           "🗓️"],
         "answer": 3,
         "id": "N4-08-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット8<ruby>問<rt>もん</rt></ruby>38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット8<ruby>問<rt>とい</rt></ruby>38】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -8174,7 +8174,7 @@ window.MOCK_DATA['N4'] = {
           "📢"],
         "answer": 0,
         "id": "N4-08-072",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：カードを　して　ください。\nおとこ：わかりました。【セット8<ruby>問<rt>もん</rt></ruby>39】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：カードを　して　ください。\nおとこ：わかりました。【セット8<ruby>問<rt>とい</rt></ruby>39】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -8186,7 +8186,7 @@ window.MOCK_DATA['N4'] = {
           "🏥"],
         "answer": 1,
         "id": "N4-08-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット8<ruby>問<rt>もん</rt></ruby>40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット8<ruby>問<rt>とい</rt></ruby>40】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -8198,7 +8198,7 @@ window.MOCK_DATA['N4'] = {
           "📝"],
         "answer": 0,
         "id": "N4-08-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット8<ruby>問<rt>もん</rt></ruby>41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット8<ruby>問<rt>とい</rt></ruby>41】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -8210,7 +8210,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-08-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット8<ruby>問<rt>もん</rt></ruby>42】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット8<ruby>問<rt>とい</rt></ruby>42】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>発話表現<rt>はつわひょうげん</rt></ruby>）",
@@ -8222,7 +8222,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-08-082",
-        "script": "🍽について　はなします。【セット8<ruby>問<rt>もん</rt></ruby>43】"
+        "script": "🍽について　はなします。【セット8<ruby>問<rt>とい</rt></ruby>43】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -8234,7 +8234,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-08-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット8<ruby>問<rt>もん</rt></ruby>44】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット8<ruby>問<rt>とい</rt></ruby>44】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -8257,7 +8257,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-08-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット8<ruby>問<rt>もん</rt></ruby>46】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット8<ruby>問<rt>とい</rt></ruby>46】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -8280,7 +8280,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-08-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット8<ruby>問<rt>もん</rt></ruby>48】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット8<ruby>問<rt>とい</rt></ruby>48】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -8303,7 +8303,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-08-083",
-        "script": "ピンについて　はなします。【セット8<ruby>問<rt>もん</rt></ruby>50】"
+        "script": "ピンについて　はなします。【セット8<ruby>問<rt>とい</rt></ruby>50】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -8326,7 +8326,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-08-085",
-        "script": "ピンについて　はなします。【セット8<ruby>問<rt>もん</rt></ruby>52】"
+        "script": "ピンについて　はなします。【セット8<ruby>問<rt>とい</rt></ruby>52】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -8349,7 +8349,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-08-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット8<ruby>問<rt>もん</rt></ruby>54】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット8<ruby>問<rt>とい</rt></ruby>54】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -8372,7 +8372,7 @@ window.MOCK_DATA['N4'] = {
           "📕"],
         "answer": 1,
         "id": "N4-08-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット8<ruby>問<rt>もん</rt></ruby>56】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット8<ruby>問<rt>とい</rt></ruby>56】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -8395,7 +8395,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-08-086",
-        "script": "ピンについて　はなします。【セット8<ruby>問<rt>もん</rt></ruby>58】"
+        "script": "ピンについて　はなします。【セット8<ruby>問<rt>とい</rt></ruby>58】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -8418,7 +8418,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-08-084",
-        "script": "ピンについて　はなします。【セット8<ruby>問<rt>もん</rt></ruby>60】"
+        "script": "ピンについて　はなします。【セット8<ruby>問<rt>とい</rt></ruby>60】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -8441,7 +8441,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-08-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット8<ruby>問<rt>もん</rt></ruby>62】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット8<ruby>問<rt>とい</rt></ruby>62】"
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
@@ -8880,7 +8880,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・<ruby>問<rt>もん</rt></ruby>141（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>日本語<rt>にほんご</rt></ruby>を / <ruby>勉強<rt>べんきょう</rt></ruby>して / <ruby>多い<rt>おおい</rt></ruby>です / 学生が / いる",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>日本語<rt>にほんご</rt></ruby>を / <ruby>勉強<rt>べんきょう</rt></ruby>して / <ruby>多い<rt>おおい</rt></ruby>です / 学生が / いる",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>している学生が<ruby>多い<rt>おおい</rt></ruby>です",
           "<ruby>多い<rt>おおい</rt></ruby>です <ruby>日本語<rt>にほんご</rt></ruby>を <ruby>勉強<rt>べんきょう</rt></ruby>して いる 学生が",
@@ -8902,7 +8902,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・<ruby>問<rt>もん</rt></ruby>142（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：この<ruby>問題<rt>もんだい</rt></ruby>は / <ruby>私<rt>わたし</rt></ruby>には / <ruby>解<rt>と</rt></ruby>けません / <ruby>難<rt>むずか</rt></ruby>しすぎて",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：この<ruby>問題<rt>もんだい</rt></ruby>は / <ruby>私<rt>わたし</rt></ruby>には / <ruby>解<rt>と</rt></ruby>けません / <ruby>難<rt>むずか</rt></ruby>しすぎて",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["この<ruby>問題<rt>もんだい</rt></ruby>は<ruby>難<rt>むずか</rt></ruby>しすぎて<ruby>私<rt>わたし</rt></ruby>には<ruby>解<rt>と</rt></ruby>けません",
           "<ruby>解<rt>と</rt></ruby>けません この<ruby>問題<rt>もんだい</rt></ruby>は <ruby>難<rt>むずか</rt></ruby>しすぎて <ruby>私<rt>わたし</rt></ruby>には",
@@ -8924,7 +8924,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・<ruby>問<rt>もん</rt></ruby>143（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：アメリカに / 3年間 / <ruby>住<rt>すむ</rt></ruby>んで / いました / <ruby>彼<rt>かれ</rt></ruby>は",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：アメリカに / 3年間 / <ruby>住<rt>すむ</rt></ruby>んで / いました / <ruby>彼<rt>かれ</rt></ruby>は",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["アメリカに 3年間 <ruby>住<rt>すむ</rt></ruby>んで いました <ruby>彼<rt>かれ</rt></ruby>は",
           "いました <ruby>彼<rt>かれ</rt></ruby>は アメリカに 3年間 <ruby>住<rt>すむ</rt></ruby>んで",
@@ -8946,7 +8946,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>もん</rt></ruby>144（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：電車が / しまいました / <ruby>遅刻<rt>ちこく</rt></ruby>して / ため / <ruby>遅れ<rt>おくれ</rt></ruby>た",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：電車が / しまいました / <ruby>遅刻<rt>ちこく</rt></ruby>して / ため / <ruby>遅れ<rt>おくれ</rt></ruby>た",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["しまいました <ruby>遅刻<rt>ちこく</rt></ruby>して ため <ruby>遅れ<rt>おくれ</rt></ruby>た 電車が",
           "<ruby>遅れ<rt>おくれ</rt></ruby>た ため <ruby>遅刻<rt>ちこく</rt></ruby>して しまいました 電車が",
@@ -8968,7 +8968,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>もん</rt></ruby>145（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：面白いと / <ruby>思い<rt>おもい</rt></ruby>ます / この<ruby>映画<rt>えいが</rt></ruby>は / とても",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：面白いと / <ruby>思い<rt>おもい</rt></ruby>ます / この<ruby>映画<rt>えいが</rt></ruby>は / とても",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["この<ruby>映画<rt>えいが</rt></ruby>はとても面白いと<ruby>思い<rt>おもい</rt></ruby>ます",
           "<ruby>思い<rt>おもい</rt></ruby>ます 面白いと とても この<ruby>映画<rt>えいが</rt></ruby>は",
@@ -9218,7 +9218,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-09-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット9<ruby>問<rt>もん</rt></ruby>34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット9<ruby>問<rt>とい</rt></ruby>34】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -9230,7 +9230,7 @@ window.MOCK_DATA['N4'] = {
           "🗓️"],
         "answer": 3,
         "id": "N4-09-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット9<ruby>問<rt>もん</rt></ruby>35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット9<ruby>問<rt>とい</rt></ruby>35】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -9242,7 +9242,7 @@ window.MOCK_DATA['N4'] = {
           "🚪"],
         "answer": 1,
         "id": "N4-09-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：カードを　して　ください。\nおとこ：わかりました。【セット9<ruby>問<rt>もん</rt></ruby>36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：カードを　して　ください。\nおとこ：わかりました。【セット9<ruby>問<rt>とい</rt></ruby>36】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -9254,7 +9254,7 @@ window.MOCK_DATA['N4'] = {
           "🔬"],
         "answer": 3,
         "id": "N4-09-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット9<ruby>問<rt>もん</rt></ruby>37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット9<ruby>問<rt>とい</rt></ruby>37】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -9266,7 +9266,7 @@ window.MOCK_DATA['N4'] = {
           "📄"],
         "answer": 0,
         "id": "N4-09-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット9<ruby>問<rt>もん</rt></ruby>38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット9<ruby>問<rt>とい</rt></ruby>38】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -9278,7 +9278,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-09-072",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：ピンを　して　ください。\nおとこ：わかりました。【セット9<ruby>問<rt>もん</rt></ruby>39】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：ピンを　して　ください。\nおとこ：わかりました。【セット9<ruby>問<rt>とい</rt></ruby>39】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -9290,7 +9290,7 @@ window.MOCK_DATA['N4'] = {
           "📋"],
         "answer": 0,
         "id": "N4-09-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット9<ruby>問<rt>もん</rt></ruby>40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット9<ruby>問<rt>とい</rt></ruby>40】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -9302,7 +9302,7 @@ window.MOCK_DATA['N4'] = {
           "🍵"],
         "answer": 1,
         "id": "N4-09-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット9<ruby>問<rt>もん</rt></ruby>41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット9<ruby>問<rt>とい</rt></ruby>41】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -9314,7 +9314,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-09-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット9<ruby>問<rt>もん</rt></ruby>42】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット9<ruby>問<rt>とい</rt></ruby>42】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>発話表現<rt>はつわひょうげん</rt></ruby>）",
@@ -9326,7 +9326,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-09-082",
-        "script": "🍽について　はなします。【セット9<ruby>問<rt>もん</rt></ruby>43】"
+        "script": "🍽について　はなします。【セット9<ruby>問<rt>とい</rt></ruby>43】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -9338,7 +9338,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-09-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット9<ruby>問<rt>もん</rt></ruby>44】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット9<ruby>問<rt>とい</rt></ruby>44】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -9361,7 +9361,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-09-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット9<ruby>問<rt>もん</rt></ruby>46】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット9<ruby>問<rt>とい</rt></ruby>46】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -9384,7 +9384,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-09-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット9<ruby>問<rt>もん</rt></ruby>48】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット9<ruby>問<rt>とい</rt></ruby>48】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -9407,7 +9407,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-09-083",
-        "script": "ピンについて　はなします。【セット9<ruby>問<rt>もん</rt></ruby>50】"
+        "script": "ピンについて　はなします。【セット9<ruby>問<rt>とい</rt></ruby>50】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -9430,7 +9430,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-09-085",
-        "script": "ピンについて　はなします。【セット9<ruby>問<rt>もん</rt></ruby>52】"
+        "script": "ピンについて　はなします。【セット9<ruby>問<rt>とい</rt></ruby>52】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -9453,7 +9453,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-09-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット9<ruby>問<rt>もん</rt></ruby>54】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット9<ruby>問<rt>とい</rt></ruby>54】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -9476,7 +9476,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-09-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット9<ruby>問<rt>もん</rt></ruby>56】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット9<ruby>問<rt>とい</rt></ruby>56】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -9499,7 +9499,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-09-086",
-        "script": "ピンについて　はなします。【セット9<ruby>問<rt>もん</rt></ruby>58】"
+        "script": "ピンについて　はなします。【セット9<ruby>問<rt>とい</rt></ruby>58】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -9522,7 +9522,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-09-084",
-        "script": "ピンについて　はなします。【セット9<ruby>問<rt>もん</rt></ruby>60】"
+        "script": "ピンについて　はなします。【セット9<ruby>問<rt>とい</rt></ruby>60】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -9545,7 +9545,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-09-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット9<ruby>問<rt>もん</rt></ruby>62】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット9<ruby>問<rt>とい</rt></ruby>62】"
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
@@ -10094,7 +10094,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・<ruby>問<rt>もん</rt></ruby>146（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：買って / プレゼントを / あげました / 母に",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：買って / プレゼントを / あげました / 母に",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["あげました 買って プレゼントを 母に",
           "母にプレゼントを買ってあげました",
@@ -10105,7 +10105,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・<ruby>問<rt>もん</rt></ruby>147（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：友達と / 行きたい / <ruby>一緒<rt>いっしょ</rt></ruby>に / です / <ruby>旅行<rt>りょこう</rt></ruby>に",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：友達と / 行きたい / <ruby>一緒<rt>いっしょ</rt></ruby>に / です / <ruby>旅行<rt>りょこう</rt></ruby>に",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["です 友達と <ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい",
           "友達と<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>旅行<rt>りょこう</rt></ruby>に行きたいです",
@@ -10116,7 +10116,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・<ruby>問<rt>もん</rt></ruby>148（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：雨が / ようです / <ruby>降<rt>ふ</rt></ruby>って / いる",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：雨が / ようです / <ruby>降<rt>ふ</rt></ruby>って / いる",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["ようです いる <ruby>降<rt>ふ</rt></ruby>って 雨が",
           "雨が<ruby>降<rt>ふ</rt></ruby>っているようです",
@@ -10127,7 +10127,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>もん</rt></ruby>149（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>終<rt>お</rt></ruby>えたら / <ruby>連絡<rt>れんらく</rt></ruby>して / <ruby>仕事<rt>しごと</rt></ruby>を / ください",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>終<rt>お</rt></ruby>えたら / <ruby>連絡<rt>れんらく</rt></ruby>して / <ruby>仕事<rt>しごと</rt></ruby>を / ください",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["ください <ruby>仕事<rt>しごと</rt></ruby>を <ruby>終<rt>お</rt></ruby>えたら <ruby>連絡<rt>れんらく</rt></ruby>して",
           "ください <ruby>連絡<rt>れんらく</rt></ruby>して <ruby>終<rt>お</rt></ruby>えたら <ruby>仕事<rt>しごと</rt></ruby>を",
@@ -10138,7 +10138,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>もん</rt></ruby>150（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：この料理は / くれました / 母が / 作って",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：この料理は / くれました / 母が / 作って",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["くれました 作って 母が この料理は",
           "この料理は母が作ってくれました",
@@ -10322,7 +10322,7 @@ window.MOCK_DATA['N4'] = {
           "🏥"],
         "answer": 2,
         "id": "N4-10-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット10<ruby>問<rt>もん</rt></ruby>34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット10<ruby>問<rt>とい</rt></ruby>34】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -10334,7 +10334,7 @@ window.MOCK_DATA['N4'] = {
           "📝"],
         "answer": 3,
         "id": "N4-10-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット10<ruby>問<rt>もん</rt></ruby>35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット10<ruby>問<rt>とい</rt></ruby>35】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -10346,7 +10346,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-10-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：ピンを　して　ください。\nおとこ：わかりました。【セット10<ruby>問<rt>もん</rt></ruby>36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：ピンを　して　ください。\nおとこ：わかりました。【セット10<ruby>問<rt>とい</rt></ruby>36】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -10358,7 +10358,7 @@ window.MOCK_DATA['N4'] = {
           "📞"],
         "answer": 1,
         "id": "N4-10-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット10<ruby>問<rt>もん</rt></ruby>37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット10<ruby>問<rt>とい</rt></ruby>37】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -10370,7 +10370,7 @@ window.MOCK_DATA['N4'] = {
           "📢"],
         "answer": 0,
         "id": "N4-10-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット10<ruby>問<rt>もん</rt></ruby>38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット10<ruby>問<rt>とい</rt></ruby>38】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -10382,7 +10382,7 @@ window.MOCK_DATA['N4'] = {
           "🔬"],
         "answer": 3,
         "id": "N4-10-072",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：けんきゅうを　して　ください。\nおとこ：わかりました。【セット10<ruby>問<rt>もん</rt></ruby>39】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：けんきゅうを　して　ください。\nおとこ：わかりました。【セット10<ruby>問<rt>とい</rt></ruby>39】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -10394,7 +10394,7 @@ window.MOCK_DATA['N4'] = {
           "📊"],
         "answer": 1,
         "id": "N4-10-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット10<ruby>問<rt>もん</rt></ruby>40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット10<ruby>問<rt>とい</rt></ruby>40】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -10406,7 +10406,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-10-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット10<ruby>問<rt>もん</rt></ruby>41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット10<ruby>問<rt>とい</rt></ruby>41】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -10418,7 +10418,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-10-081",
-        "script": "きょうの　はなしは　ほんについてです。これは　とても　たいせつです。【セット10<ruby>問<rt>もん</rt></ruby>42】"
+        "script": "きょうの　はなしは　ほんについてです。これは　とても　たいせつです。【セット10<ruby>問<rt>とい</rt></ruby>42】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -10430,7 +10430,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-10-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット10<ruby>問<rt>もん</rt></ruby>43】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット10<ruby>問<rt>とい</rt></ruby>43】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>発話表現<rt>はつわひょうげん</rt></ruby>）",
@@ -10442,7 +10442,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-10-082",
-        "script": "🍽について　はなします。【セット10<ruby>問<rt>もん</rt></ruby>44】"
+        "script": "🍽について　はなします。【セット10<ruby>問<rt>とい</rt></ruby>44】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -10454,7 +10454,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-10-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット10<ruby>問<rt>もん</rt></ruby>45】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット10<ruby>問<rt>とい</rt></ruby>45】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -10477,7 +10477,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-10-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット10<ruby>問<rt>もん</rt></ruby>47】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット10<ruby>問<rt>とい</rt></ruby>47】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -10500,7 +10500,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-10-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット10<ruby>問<rt>もん</rt></ruby>49】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット10<ruby>問<rt>とい</rt></ruby>49】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -10523,7 +10523,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-10-084",
-        "script": "ピンについて　はなします。【セット10<ruby>問<rt>もん</rt></ruby>51】"
+        "script": "ピンについて　はなします。【セット10<ruby>問<rt>とい</rt></ruby>51】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -10546,7 +10546,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-10-086",
-        "script": "ピンについて　はなします。【セット10<ruby>問<rt>もん</rt></ruby>53】"
+        "script": "ピンについて　はなします。【セット10<ruby>問<rt>とい</rt></ruby>53】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -10569,7 +10569,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-10-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット10<ruby>問<rt>もん</rt></ruby>55】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット10<ruby>問<rt>とい</rt></ruby>55】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -10592,7 +10592,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-10-085",
-        "script": "ピンについて　はなします。【セット10<ruby>問<rt>もん</rt></ruby>57】"
+        "script": "ピンについて　はなします。【セット10<ruby>問<rt>とい</rt></ruby>57】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -10615,7 +10615,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-10-083",
-        "script": "ピンについて　はなします。【セット10<ruby>問<rt>もん</rt></ruby>59】"
+        "script": "ピンについて　はなします。【セット10<ruby>問<rt>とい</rt></ruby>59】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -10638,7 +10638,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-10-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット10<ruby>問<rt>もん</rt></ruby>61】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット10<ruby>問<rt>とい</rt></ruby>61】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -11197,7 +11197,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・<ruby>問<rt>もん</rt></ruby>151（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>図書館<rt>としょかん</rt></ruby>で / 本を / 読みました / <ruby>昨日<rt>きのう</rt></ruby> / <ruby>私<rt>わたし</rt></ruby>は",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>図書館<rt>としょかん</rt></ruby>で / 本を / 読みました / <ruby>昨日<rt>きのう</rt></ruby> / <ruby>私<rt>わたし</rt></ruby>は",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["読みました <ruby>私<rt>わたし</rt></ruby>は <ruby>昨日<rt>きのう</rt></ruby> <ruby>図書館<rt>としょかん</rt></ruby>で 本を",
           "<ruby>私<rt>わたし</rt></ruby>は<ruby>昨日<rt>きのう</rt></ruby><ruby>図書館<rt>としょかん</rt></ruby>で本を読みました",
@@ -11208,7 +11208,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・<ruby>問<rt>もん</rt></ruby>152（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>散歩<rt>さんぽ</rt></ruby> / します / <ruby>公園<rt>こうえん</rt></ruby>を / <ruby>彼女<rt>かのじょ</rt></ruby>は / <ruby>毎朝<rt>まいあさ</rt></ruby>",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>散歩<rt>さんぽ</rt></ruby> / します / <ruby>公園<rt>こうえん</rt></ruby>を / <ruby>彼女<rt>かのじょ</rt></ruby>は / <ruby>毎朝<rt>まいあさ</rt></ruby>",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["します <ruby>散歩<rt>さんぽ</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>を <ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>彼女<rt>かのじょ</rt></ruby>は",
           "<ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>を <ruby>散歩<rt>さんぽ</rt></ruby> します <ruby>彼女<rt>かのじょ</rt></ruby>は",
@@ -11219,7 +11219,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・<ruby>問<rt>もん</rt></ruby>153（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：お<ruby>客<rt>きゃく</rt></ruby>さんで / です / いつも / この<ruby>店<rt>てん</rt></ruby>は / いっぱい",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：お<ruby>客<rt>きゃく</rt></ruby>さんで / です / いつも / この<ruby>店<rt>てん</rt></ruby>は / いっぱい",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["いつも お<ruby>客<rt>きゃく</rt></ruby>さんで いっぱい です この<ruby>店<rt>てん</rt></ruby>は",
           "です いっぱい お<ruby>客<rt>きゃく</rt></ruby>さんで いつも この<ruby>店<rt>てん</rt></ruby>は",
@@ -11230,7 +11230,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>もん</rt></ruby>154（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：できます / 先生に / <ruby>質問<rt>しつもん</rt></ruby>を / することが / か",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：できます / 先生に / <ruby>質問<rt>しつもん</rt></ruby>を / することが / か",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["先生に<ruby>質問<rt>しつもん</rt></ruby>をすることができますか",
           "か できます することが <ruby>質問<rt>しつもん</rt></ruby>を 先生に",
@@ -11241,7 +11241,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>もん</rt></ruby>155（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：かもしれません / 出席 / できない / 明日の / <ruby>会議<rt>かいぎ</rt></ruby>に",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：かもしれません / 出席 / できない / 明日の / <ruby>会議<rt>かいぎ</rt></ruby>に",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>会議<rt>かいぎ</rt></ruby>に 出席 できない かもしれません 明日の",
           "かもしれません できない 出席 <ruby>会議<rt>かいぎ</rt></ruby>に 明日の",
@@ -11425,7 +11425,7 @@ window.MOCK_DATA['N4'] = {
           "📧"],
         "answer": 1,
         "id": "N4-11-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット11<ruby>問<rt>もん</rt></ruby>34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット11<ruby>問<rt>とい</rt></ruby>34】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -11437,7 +11437,7 @@ window.MOCK_DATA['N4'] = {
           "📢"],
         "answer": 2,
         "id": "N4-11-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット11<ruby>問<rt>もん</rt></ruby>35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット11<ruby>問<rt>とい</rt></ruby>35】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -11449,7 +11449,7 @@ window.MOCK_DATA['N4'] = {
           "🔬"],
         "answer": 3,
         "id": "N4-11-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：けんきゅうを　して　ください。\nおとこ：わかりました。【セット11<ruby>問<rt>もん</rt></ruby>36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：けんきゅうを　して　ください。\nおとこ：わかりました。【セット11<ruby>問<rt>とい</rt></ruby>36】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -11461,7 +11461,7 @@ window.MOCK_DATA['N4'] = {
           "📊"],
         "answer": 2,
         "id": "N4-11-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット11<ruby>問<rt>もん</rt></ruby>37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット11<ruby>問<rt>とい</rt></ruby>37】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -11473,7 +11473,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-11-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット11<ruby>問<rt>もん</rt></ruby>38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット11<ruby>問<rt>とい</rt></ruby>38】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -11485,7 +11485,7 @@ window.MOCK_DATA['N4'] = {
           "📞"],
         "answer": 1,
         "id": "N4-11-072",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：スケジュールを　して　ください。\nおとこ：わかりました。【セット11<ruby>問<rt>もん</rt></ruby>39】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：スケジュールを　して　ください。\nおとこ：わかりました。【セット11<ruby>問<rt>とい</rt></ruby>39】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -11497,7 +11497,7 @@ window.MOCK_DATA['N4'] = {
           "🚪"],
         "answer": 0,
         "id": "N4-11-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット11<ruby>問<rt>もん</rt></ruby>40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット11<ruby>問<rt>とい</rt></ruby>40】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -11509,7 +11509,7 @@ window.MOCK_DATA['N4'] = {
           "✉️"],
         "answer": 1,
         "id": "N4-11-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット11<ruby>問<rt>もん</rt></ruby>41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット11<ruby>問<rt>とい</rt></ruby>41】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -11521,7 +11521,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-11-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット11<ruby>問<rt>もん</rt></ruby>42】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット11<ruby>問<rt>とい</rt></ruby>42】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>発話表現<rt>はつわひょうげん</rt></ruby>）",
@@ -11533,7 +11533,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-11-082",
-        "script": "🍽について　はなします。【セット11<ruby>問<rt>もん</rt></ruby>43】"
+        "script": "🍽について　はなします。【セット11<ruby>問<rt>とい</rt></ruby>43】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -11545,7 +11545,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-11-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット11<ruby>問<rt>もん</rt></ruby>44】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット11<ruby>問<rt>とい</rt></ruby>44】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -11568,7 +11568,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-11-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット11<ruby>問<rt>もん</rt></ruby>46】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット11<ruby>問<rt>とい</rt></ruby>46】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -11591,7 +11591,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-11-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット11<ruby>問<rt>もん</rt></ruby>48】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット11<ruby>問<rt>とい</rt></ruby>48】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -11614,7 +11614,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-11-083",
-        "script": "ピンについて　はなします。【セット11<ruby>問<rt>もん</rt></ruby>50】"
+        "script": "ピンについて　はなします。【セット11<ruby>問<rt>とい</rt></ruby>50】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -11637,7 +11637,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-11-085",
-        "script": "ピンについて　はなします。【セット11<ruby>問<rt>もん</rt></ruby>52】"
+        "script": "ピンについて　はなします。【セット11<ruby>問<rt>とい</rt></ruby>52】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -11660,7 +11660,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-11-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット11<ruby>問<rt>もん</rt></ruby>54】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット11<ruby>問<rt>とい</rt></ruby>54】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -11683,7 +11683,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-11-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット11<ruby>問<rt>もん</rt></ruby>56】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット11<ruby>問<rt>とい</rt></ruby>56】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -11706,7 +11706,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-11-086",
-        "script": "ピンについて　はなします。【セット11<ruby>問<rt>もん</rt></ruby>58】"
+        "script": "ピンについて　はなします。【セット11<ruby>問<rt>とい</rt></ruby>58】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -11729,7 +11729,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-11-084",
-        "script": "ピンについて　はなします。【セット11<ruby>問<rt>もん</rt></ruby>60】"
+        "script": "ピンについて　はなします。【セット11<ruby>問<rt>とい</rt></ruby>60】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -11752,7 +11752,7 @@ window.MOCK_DATA['N4'] = {
           "📕"],
         "answer": 0,
         "id": "N4-11-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット11<ruby>問<rt>もん</rt></ruby>62】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット11<ruby>問<rt>とい</rt></ruby>62】"
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
@@ -12090,7 +12090,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・<ruby>問<rt>もん</rt></ruby>156（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>勉強<rt>べんきょう</rt></ruby>して / 学生が / <ruby>日本語<rt>にほんご</rt></ruby>を / いる / <ruby>多い<rt>おおい</rt></ruby>です",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>勉強<rt>べんきょう</rt></ruby>して / 学生が / <ruby>日本語<rt>にほんご</rt></ruby>を / いる / <ruby>多い<rt>おおい</rt></ruby>です",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>勉強<rt>べんきょう</rt></ruby>して いる 学生が <ruby>多い<rt>おおい</rt></ruby>です <ruby>日本語<rt>にほんご</rt></ruby>を",
           "<ruby>多い<rt>おおい</rt></ruby>です 学生が いる <ruby>勉強<rt>べんきょう</rt></ruby>して <ruby>日本語<rt>にほんご</rt></ruby>を",
@@ -12112,7 +12112,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・<ruby>問<rt>もん</rt></ruby>157（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>難<rt>むずか</rt></ruby>しすぎて / <ruby>私<rt>わたし</rt></ruby>には / <ruby>解<rt>と</rt></ruby>けません / この<ruby>問題<rt>もんだい</rt></ruby>は",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>難<rt>むずか</rt></ruby>しすぎて / <ruby>私<rt>わたし</rt></ruby>には / <ruby>解<rt>と</rt></ruby>けません / この<ruby>問題<rt>もんだい</rt></ruby>は",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>難<rt>むずか</rt></ruby>しすぎて <ruby>私<rt>わたし</rt></ruby>には <ruby>解<rt>と</rt></ruby>けません この<ruby>問題<rt>もんだい</rt></ruby>は",
           "<ruby>解<rt>と</rt></ruby>けません この<ruby>問題<rt>もんだい</rt></ruby>は <ruby>難<rt>むずか</rt></ruby>しすぎて <ruby>私<rt>わたし</rt></ruby>には",
@@ -12123,7 +12123,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・<ruby>問<rt>もん</rt></ruby>158（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：アメリカに / いました / 3年間 / <ruby>彼<rt>かれ</rt></ruby>は / <ruby>住<rt>すむ</rt></ruby>んで",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：アメリカに / いました / 3年間 / <ruby>彼<rt>かれ</rt></ruby>は / <ruby>住<rt>すむ</rt></ruby>んで",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["いました <ruby>住<rt>すむ</rt></ruby>んで 3年間 アメリカに <ruby>彼<rt>かれ</rt></ruby>は",
           "いました <ruby>彼<rt>かれ</rt></ruby>は アメリカに 3年間 <ruby>住<rt>すむ</rt></ruby>んで",
@@ -12134,7 +12134,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>もん</rt></ruby>159（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>遅れ<rt>おくれ</rt></ruby>た / しまいました / <ruby>遅刻<rt>ちこく</rt></ruby>して / 電車が / ため",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>遅れ<rt>おくれ</rt></ruby>た / しまいました / <ruby>遅刻<rt>ちこく</rt></ruby>して / 電車が / ため",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["電車が<ruby>遅れ<rt>おくれ</rt></ruby>たため<ruby>遅刻<rt>ちこく</rt></ruby>してしまいました",
           "しまいました 電車が <ruby>遅れ<rt>おくれ</rt></ruby>た ため <ruby>遅刻<rt>ちこく</rt></ruby>して",
@@ -12145,7 +12145,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>もん</rt></ruby>160（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：とても / この<ruby>映画<rt>えいが</rt></ruby>は / <ruby>思い<rt>おもい</rt></ruby>ます / 面白いと",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：とても / この<ruby>映画<rt>えいが</rt></ruby>は / <ruby>思い<rt>おもい</rt></ruby>ます / 面白いと",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>思い<rt>おもい</rt></ruby>ます この<ruby>映画<rt>えいが</rt></ruby>は とても 面白いと",
           "<ruby>思い<rt>おもい</rt></ruby>ます 面白いと とても この<ruby>映画<rt>えいが</rt></ruby>は",
@@ -12329,7 +12329,7 @@ window.MOCK_DATA['N4'] = {
           "📊"],
         "answer": 1,
         "id": "N4-12-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット12<ruby>問<rt>もん</rt></ruby>34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット12<ruby>問<rt>とい</rt></ruby>34】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -12341,7 +12341,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-12-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット12<ruby>問<rt>もん</rt></ruby>35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット12<ruby>問<rt>とい</rt></ruby>35】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -12353,7 +12353,7 @@ window.MOCK_DATA['N4'] = {
           "🗓️"],
         "answer": 3,
         "id": "N4-12-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：スケジュールを　して　ください。\nおとこ：わかりました。【セット12<ruby>問<rt>もん</rt></ruby>36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：スケジュールを　して　ください。\nおとこ：わかりました。【セット12<ruby>問<rt>とい</rt></ruby>36】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -12365,7 +12365,7 @@ window.MOCK_DATA['N4'] = {
           "🚪"],
         "answer": 2,
         "id": "N4-12-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット12<ruby>問<rt>もん</rt></ruby>37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット12<ruby>問<rt>とい</rt></ruby>37】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -12377,7 +12377,7 @@ window.MOCK_DATA['N4'] = {
           "💊"],
         "answer": 1,
         "id": "N4-12-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット12<ruby>問<rt>もん</rt></ruby>38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット12<ruby>問<rt>とい</rt></ruby>38】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -12389,7 +12389,7 @@ window.MOCK_DATA['N4'] = {
           "📊"],
         "answer": 0,
         "id": "N4-12-072",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：メモを　して　ください。\nおとこ：わかりました。【セット12<ruby>問<rt>もん</rt></ruby>39】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：メモを　して　ください。\nおとこ：わかりました。【セット12<ruby>問<rt>とい</rt></ruby>39】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -12401,7 +12401,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-12-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット12<ruby>問<rt>もん</rt></ruby>40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット12<ruby>問<rt>とい</rt></ruby>40】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -12413,7 +12413,7 @@ window.MOCK_DATA['N4'] = {
           "🗓️"],
         "answer": 3,
         "id": "N4-12-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット12<ruby>問<rt>もん</rt></ruby>41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット12<ruby>問<rt>とい</rt></ruby>41】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -12425,7 +12425,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-12-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット12<ruby>問<rt>もん</rt></ruby>42】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット12<ruby>問<rt>とい</rt></ruby>42】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>発話表現<rt>はつわひょうげん</rt></ruby>）",
@@ -12437,7 +12437,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-12-082",
-        "script": "🍽について　はなします。【セット12<ruby>問<rt>もん</rt></ruby>43】"
+        "script": "🍽について　はなします。【セット12<ruby>問<rt>とい</rt></ruby>43】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -12449,7 +12449,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-12-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット12<ruby>問<rt>もん</rt></ruby>44】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット12<ruby>問<rt>とい</rt></ruby>44】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -12472,7 +12472,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-12-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット12<ruby>問<rt>もん</rt></ruby>46】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット12<ruby>問<rt>とい</rt></ruby>46】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -12495,7 +12495,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-12-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット12<ruby>問<rt>もん</rt></ruby>48】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット12<ruby>問<rt>とい</rt></ruby>48】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -12518,7 +12518,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-12-083",
-        "script": "ピンについて　はなします。【セット12<ruby>問<rt>もん</rt></ruby>50】"
+        "script": "ピンについて　はなします。【セット12<ruby>問<rt>とい</rt></ruby>50】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -12541,7 +12541,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-12-085",
-        "script": "ピンについて　はなします。【セット12<ruby>問<rt>もん</rt></ruby>52】"
+        "script": "ピンについて　はなします。【セット12<ruby>問<rt>とい</rt></ruby>52】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -12564,7 +12564,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-12-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット12<ruby>問<rt>もん</rt></ruby>54】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット12<ruby>問<rt>とい</rt></ruby>54】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -12587,7 +12587,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-12-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット12<ruby>問<rt>もん</rt></ruby>56】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット12<ruby>問<rt>とい</rt></ruby>56】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -12610,7 +12610,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-12-086",
-        "script": "ピンについて　はなします。【セット12<ruby>問<rt>もん</rt></ruby>58】"
+        "script": "ピンについて　はなします。【セット12<ruby>問<rt>とい</rt></ruby>58】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -12633,7 +12633,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-12-084",
-        "script": "ピンについて　はなします。【セット12<ruby>問<rt>もん</rt></ruby>60】"
+        "script": "ピンについて　はなします。【セット12<ruby>問<rt>とい</rt></ruby>60】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -12656,7 +12656,7 @@ window.MOCK_DATA['N4'] = {
           "📕"],
         "answer": 1,
         "id": "N4-12-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット12<ruby>問<rt>もん</rt></ruby>62】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット12<ruby>問<rt>とい</rt></ruby>62】"
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
@@ -13005,7 +13005,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・<ruby>問<rt>もん</rt></ruby>161（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：あげました / プレゼントを / 買って / 母に",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：あげました / プレゼントを / 買って / 母に",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["あげました 買って プレゼントを 母に",
           "母にプレゼントを買ってあげました",
@@ -13016,7 +13016,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・<ruby>問<rt>もん</rt></ruby>162（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：です / <ruby>一緒<rt>いっしょ</rt></ruby>に / 行きたい / 友達と / <ruby>旅行<rt>りょこう</rt></ruby>に",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：です / <ruby>一緒<rt>いっしょ</rt></ruby>に / 行きたい / 友達と / <ruby>旅行<rt>りょこう</rt></ruby>に",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい です 友達と",
           "です 行きたい <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>一緒<rt>いっしょ</rt></ruby>に 友達と",
@@ -13027,7 +13027,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・<ruby>問<rt>もん</rt></ruby>163（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：ようです / <ruby>降<rt>ふ</rt></ruby>って / いる / 雨が",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：ようです / <ruby>降<rt>ふ</rt></ruby>って / いる / 雨が",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["ようです 雨が <ruby>降<rt>ふ</rt></ruby>って いる",
           "雨が<ruby>降<rt>ふ</rt></ruby>っているようです",
@@ -13038,7 +13038,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>もん</rt></ruby>164（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>連絡<rt>れんらく</rt></ruby>して / <ruby>終<rt>お</rt></ruby>えたら / <ruby>仕事<rt>しごと</rt></ruby>を / ください",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>連絡<rt>れんらく</rt></ruby>して / <ruby>終<rt>お</rt></ruby>えたら / <ruby>仕事<rt>しごと</rt></ruby>を / ください",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["ください <ruby>仕事<rt>しごと</rt></ruby>を <ruby>終<rt>お</rt></ruby>えたら <ruby>連絡<rt>れんらく</rt></ruby>して",
           "<ruby>終<rt>お</rt></ruby>えたら <ruby>連絡<rt>れんらく</rt></ruby>して ください <ruby>仕事<rt>しごと</rt></ruby>を",
@@ -13049,7 +13049,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>もん</rt></ruby>165（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：この料理は / くれました / 作って / 母が",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：この料理は / くれました / 作って / 母が",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["この料理は母が作ってくれました",
           "母が 作って くれました この料理は",
@@ -13233,7 +13233,7 @@ window.MOCK_DATA['N4'] = {
           "📢"],
         "answer": 1,
         "id": "N4-13-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット13<ruby>問<rt>もん</rt></ruby>34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット13<ruby>問<rt>とい</rt></ruby>34】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -13245,7 +13245,7 @@ window.MOCK_DATA['N4'] = {
           "✉️"],
         "answer": 0,
         "id": "N4-13-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット13<ruby>問<rt>もん</rt></ruby>35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット13<ruby>問<rt>とい</rt></ruby>35】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -13257,7 +13257,7 @@ window.MOCK_DATA['N4'] = {
           "📝"],
         "answer": 3,
         "id": "N4-13-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：メモを　して　ください。\nおとこ：わかりました。【セット13<ruby>問<rt>もん</rt></ruby>36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：メモを　して　ください。\nおとこ：わかりました。【セット13<ruby>問<rt>とい</rt></ruby>36】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -13269,7 +13269,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-13-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット13<ruby>問<rt>もん</rt></ruby>37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット13<ruby>問<rt>とい</rt></ruby>37】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -13281,7 +13281,7 @@ window.MOCK_DATA['N4'] = {
           "🗓️"],
         "answer": 3,
         "id": "N4-13-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット13<ruby>問<rt>もん</rt></ruby>38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット13<ruby>問<rt>とい</rt></ruby>38】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -13293,7 +13293,7 @@ window.MOCK_DATA['N4'] = {
           "📢"],
         "answer": 0,
         "id": "N4-13-072",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：カードを　して　ください。\nおとこ：わかりました。【セット13<ruby>問<rt>もん</rt></ruby>39】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：カードを　して　ください。\nおとこ：わかりました。【セット13<ruby>問<rt>とい</rt></ruby>39】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -13305,7 +13305,7 @@ window.MOCK_DATA['N4'] = {
           "🔬"],
         "answer": 3,
         "id": "N4-13-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット13<ruby>問<rt>もん</rt></ruby>40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット13<ruby>問<rt>とい</rt></ruby>40】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -13317,7 +13317,7 @@ window.MOCK_DATA['N4'] = {
           "📄"],
         "answer": 1,
         "id": "N4-13-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット13<ruby>問<rt>もん</rt></ruby>41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット13<ruby>問<rt>とい</rt></ruby>41】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -13329,7 +13329,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-13-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット13<ruby>問<rt>もん</rt></ruby>42】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット13<ruby>問<rt>とい</rt></ruby>42】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>発話表現<rt>はつわひょうげん</rt></ruby>）",
@@ -13341,7 +13341,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-13-082",
-        "script": "🍽について　はなします。【セット13<ruby>問<rt>もん</rt></ruby>43】"
+        "script": "🍽について　はなします。【セット13<ruby>問<rt>とい</rt></ruby>43】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -13353,7 +13353,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-13-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット13<ruby>問<rt>もん</rt></ruby>44】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット13<ruby>問<rt>とい</rt></ruby>44】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -13376,7 +13376,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-13-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット13<ruby>問<rt>もん</rt></ruby>46】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット13<ruby>問<rt>とい</rt></ruby>46】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -13399,7 +13399,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-13-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット13<ruby>問<rt>もん</rt></ruby>48】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット13<ruby>問<rt>とい</rt></ruby>48】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -13422,7 +13422,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-13-083",
-        "script": "ピンについて　はなします。【セット13<ruby>問<rt>もん</rt></ruby>50】"
+        "script": "ピンについて　はなします。【セット13<ruby>問<rt>とい</rt></ruby>50】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -13445,7 +13445,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-13-085",
-        "script": "ピンについて　はなします。【セット13<ruby>問<rt>もん</rt></ruby>52】"
+        "script": "ピンについて　はなします。【セット13<ruby>問<rt>とい</rt></ruby>52】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -13468,7 +13468,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-13-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット13<ruby>問<rt>もん</rt></ruby>54】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット13<ruby>問<rt>とい</rt></ruby>54】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -13491,7 +13491,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-13-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット13<ruby>問<rt>もん</rt></ruby>56】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット13<ruby>問<rt>とい</rt></ruby>56】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -13514,7 +13514,7 @@ window.MOCK_DATA['N4'] = {
           "📅"],
         "answer": 2,
         "id": "N4-13-086",
-        "script": "ピンについて　はなします。【セット13<ruby>問<rt>もん</rt></ruby>58】"
+        "script": "ピンについて　はなします。【セット13<ruby>問<rt>とい</rt></ruby>58】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -13537,7 +13537,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-13-084",
-        "script": "ピンについて　はなします。【セット13<ruby>問<rt>もん</rt></ruby>60】"
+        "script": "ピンについて　はなします。【セット13<ruby>問<rt>とい</rt></ruby>60】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -13560,7 +13560,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-13-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット13<ruby>問<rt>もん</rt></ruby>62】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット13<ruby>問<rt>とい</rt></ruby>62】"
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
@@ -13909,7 +13909,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・<ruby>問<rt>もん</rt></ruby>166（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>図書館<rt>としょかん</rt></ruby>で / <ruby>昨日<rt>きのう</rt></ruby> / 本を / <ruby>私<rt>わたし</rt></ruby>は / 読みました",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>図書館<rt>としょかん</rt></ruby>で / <ruby>昨日<rt>きのう</rt></ruby> / 本を / <ruby>私<rt>わたし</rt></ruby>は / 読みました",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["読みました <ruby>私<rt>わたし</rt></ruby>は <ruby>昨日<rt>きのう</rt></ruby> <ruby>図書館<rt>としょかん</rt></ruby>で 本を",
           "<ruby>昨日<rt>きのう</rt></ruby> <ruby>図書館<rt>としょかん</rt></ruby>で 本を 読みました <ruby>私<rt>わたし</rt></ruby>は",
@@ -13920,7 +13920,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・<ruby>問<rt>もん</rt></ruby>167（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：します / <ruby>彼女<rt>かのじょ</rt></ruby>は / <ruby>散歩<rt>さんぽ</rt></ruby> / <ruby>毎朝<rt>まいあさ</rt></ruby> / <ruby>公園<rt>こうえん</rt></ruby>を",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：します / <ruby>彼女<rt>かのじょ</rt></ruby>は / <ruby>散歩<rt>さんぽ</rt></ruby> / <ruby>毎朝<rt>まいあさ</rt></ruby> / <ruby>公園<rt>こうえん</rt></ruby>を",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>を <ruby>散歩<rt>さんぽ</rt></ruby> します <ruby>彼女<rt>かのじょ</rt></ruby>は",
           "<ruby>彼女<rt>かのじょ</rt></ruby>は<ruby>毎朝<rt>まいあさ</rt></ruby><ruby>公園<rt>こうえん</rt></ruby>を<ruby>散歩<rt>さんぽ</rt></ruby>します",
@@ -13931,7 +13931,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・<ruby>問<rt>もん</rt></ruby>168（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：この<ruby>店<rt>てん</rt></ruby>は / いっぱい / です / いつも / お<ruby>客<rt>きゃく</rt></ruby>さんで",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：この<ruby>店<rt>てん</rt></ruby>は / いっぱい / です / いつも / お<ruby>客<rt>きゃく</rt></ruby>さんで",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["この<ruby>店<rt>てん</rt></ruby>はいつもお<ruby>客<rt>きゃく</rt></ruby>さんでいっぱいです",
           "です この<ruby>店<rt>てん</rt></ruby>は いつも お<ruby>客<rt>きゃく</rt></ruby>さんで いっぱい",
@@ -13942,7 +13942,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>もん</rt></ruby>169（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>質問<rt>しつもん</rt></ruby>を / 先生に / か / することが / できます",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>質問<rt>しつもん</rt></ruby>を / 先生に / か / することが / できます",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>質問<rt>しつもん</rt></ruby>を することが できます か 先生に",
           "か できます することが <ruby>質問<rt>しつもん</rt></ruby>を 先生に",
@@ -13953,7 +13953,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>もん</rt></ruby>170（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：できない / かもしれません / <ruby>会議<rt>かいぎ</rt></ruby>に / 明日の / 出席",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：できない / かもしれません / <ruby>会議<rt>かいぎ</rt></ruby>に / 明日の / 出席",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>会議<rt>かいぎ</rt></ruby>に 出席 できない かもしれません 明日の",
           "明日の<ruby>会議<rt>かいぎ</rt></ruby>に出席できないかもしれません",
@@ -14137,7 +14137,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-14-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット14<ruby>問<rt>もん</rt></ruby>34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット14<ruby>問<rt>とい</rt></ruby>34】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -14149,7 +14149,7 @@ window.MOCK_DATA['N4'] = {
           "📧"],
         "answer": 2,
         "id": "N4-14-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット14<ruby>問<rt>もん</rt></ruby>35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット14<ruby>問<rt>とい</rt></ruby>35】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -14161,7 +14161,7 @@ window.MOCK_DATA['N4'] = {
           "📢"],
         "answer": 0,
         "id": "N4-14-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：カードを　して　ください。\nおとこ：わかりました。【セット14<ruby>問<rt>もん</rt></ruby>36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：カードを　して　ください。\nおとこ：わかりました。【セット14<ruby>問<rt>とい</rt></ruby>36】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -14173,7 +14173,7 @@ window.MOCK_DATA['N4'] = {
           "🔬"],
         "answer": 3,
         "id": "N4-14-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット14<ruby>問<rt>もん</rt></ruby>37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット14<ruby>問<rt>とい</rt></ruby>37】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -14185,7 +14185,7 @@ window.MOCK_DATA['N4'] = {
           "📊"],
         "answer": 1,
         "id": "N4-14-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット14<ruby>問<rt>もん</rt></ruby>38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット14<ruby>問<rt>とい</rt></ruby>38】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -14197,7 +14197,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-14-072",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：ピンを　して　ください。\nおとこ：わかりました。【セット14<ruby>問<rt>もん</rt></ruby>39】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：ピンを　して　ください。\nおとこ：わかりました。【セット14<ruby>問<rt>とい</rt></ruby>39】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -14209,7 +14209,7 @@ window.MOCK_DATA['N4'] = {
           "🗓️"],
         "answer": 3,
         "id": "N4-14-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット14<ruby>問<rt>もん</rt></ruby>40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット14<ruby>問<rt>とい</rt></ruby>40】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -14221,7 +14221,7 @@ window.MOCK_DATA['N4'] = {
           "🚪"],
         "answer": 2,
         "id": "N4-14-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット14<ruby>問<rt>もん</rt></ruby>41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット14<ruby>問<rt>とい</rt></ruby>41】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -14233,7 +14233,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-14-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット14<ruby>問<rt>もん</rt></ruby>42】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット14<ruby>問<rt>とい</rt></ruby>42】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -14245,7 +14245,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-14-078",
-        "script": "きょうの　はなしは　ほんについてです。これは　とても　たいせつです。【セット14<ruby>問<rt>もん</rt></ruby>43】"
+        "script": "きょうの　はなしは　ほんについてです。これは　とても　たいせつです。【セット14<ruby>問<rt>とい</rt></ruby>43】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -14257,7 +14257,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-14-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット14<ruby>問<rt>もん</rt></ruby>44】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット14<ruby>問<rt>とい</rt></ruby>44】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>発話表現<rt>はつわひょうげん</rt></ruby>）",
@@ -14269,7 +14269,7 @@ window.MOCK_DATA['N4'] = {
           "🍽️"],
         "answer": 3,
         "id": "N4-14-082",
-        "script": "🍽について　はなします。【セット14<ruby>問<rt>もん</rt></ruby>45】"
+        "script": "🍽について　はなします。【セット14<ruby>問<rt>とい</rt></ruby>45】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -14281,7 +14281,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-14-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット14<ruby>問<rt>もん</rt></ruby>46】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット14<ruby>問<rt>とい</rt></ruby>46】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -14304,7 +14304,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-14-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット14<ruby>問<rt>もん</rt></ruby>48】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット14<ruby>問<rt>とい</rt></ruby>48】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -14327,7 +14327,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-14-083",
-        "script": "ピンについて　はなします。【セット14<ruby>問<rt>もん</rt></ruby>50】"
+        "script": "ピンについて　はなします。【セット14<ruby>問<rt>とい</rt></ruby>50】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -14350,7 +14350,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-14-085",
-        "script": "ピンについて　はなします。【セット14<ruby>問<rt>もん</rt></ruby>52】"
+        "script": "ピンについて　はなします。【セット14<ruby>問<rt>とい</rt></ruby>52】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -14373,7 +14373,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-14-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット14<ruby>問<rt>もん</rt></ruby>54】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット14<ruby>問<rt>とい</rt></ruby>54】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -14396,7 +14396,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-14-084",
-        "script": "ピンについて　はなします。【セット14<ruby>問<rt>もん</rt></ruby>56】"
+        "script": "ピンについて　はなします。【セット14<ruby>問<rt>とい</rt></ruby>56】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -14419,7 +14419,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-14-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット14<ruby>問<rt>もん</rt></ruby>58】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット14<ruby>問<rt>とい</rt></ruby>58】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -14442,7 +14442,7 @@ window.MOCK_DATA['N4'] = {
           "📅"],
         "answer": 1,
         "id": "N4-14-086",
-        "script": "ピンについて　はなします。【セット14<ruby>問<rt>もん</rt></ruby>60】"
+        "script": "ピンについて　はなします。【セット14<ruby>問<rt>とい</rt></ruby>60】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -14813,7 +14813,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・<ruby>問<rt>もん</rt></ruby>171（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>日本語<rt>にほんご</rt></ruby>を / いる / 学生が / <ruby>多い<rt>おおい</rt></ruby>です / <ruby>勉強<rt>べんきょう</rt></ruby>して",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>日本語<rt>にほんご</rt></ruby>を / いる / 学生が / <ruby>多い<rt>おおい</rt></ruby>です / <ruby>勉強<rt>べんきょう</rt></ruby>して",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>多い<rt>おおい</rt></ruby>です 学生が いる <ruby>勉強<rt>べんきょう</rt></ruby>して <ruby>日本語<rt>にほんご</rt></ruby>を",
           "<ruby>勉強<rt>べんきょう</rt></ruby>して いる 学生が <ruby>多い<rt>おおい</rt></ruby>です <ruby>日本語<rt>にほんご</rt></ruby>を",
@@ -14824,7 +14824,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・<ruby>問<rt>もん</rt></ruby>172（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>解<rt>と</rt></ruby>けません / <ruby>私<rt>わたし</rt></ruby>には / <ruby>難<rt>むずか</rt></ruby>しすぎて / この<ruby>問題<rt>もんだい</rt></ruby>は",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>解<rt>と</rt></ruby>けません / <ruby>私<rt>わたし</rt></ruby>には / <ruby>難<rt>むずか</rt></ruby>しすぎて / この<ruby>問題<rt>もんだい</rt></ruby>は",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["この<ruby>問題<rt>もんだい</rt></ruby>は<ruby>難<rt>むずか</rt></ruby>しすぎて<ruby>私<rt>わたし</rt></ruby>には<ruby>解<rt>と</rt></ruby>けません",
           "<ruby>解<rt>と</rt></ruby>けません <ruby>私<rt>わたし</rt></ruby>には <ruby>難<rt>むずか</rt></ruby>しすぎて この<ruby>問題<rt>もんだい</rt></ruby>は",
@@ -14835,7 +14835,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・<ruby>問<rt>もん</rt></ruby>173（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：3年間 / <ruby>彼<rt>かれ</rt></ruby>は / アメリカに / いました / <ruby>住<rt>すむ</rt></ruby>んで",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：3年間 / <ruby>彼<rt>かれ</rt></ruby>は / アメリカに / いました / <ruby>住<rt>すむ</rt></ruby>んで",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["いました <ruby>住<rt>すむ</rt></ruby>んで 3年間 アメリカに <ruby>彼<rt>かれ</rt></ruby>は",
           "アメリカに 3年間 <ruby>住<rt>すむ</rt></ruby>んで いました <ruby>彼<rt>かれ</rt></ruby>は",
@@ -14846,7 +14846,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>もん</rt></ruby>174（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：ため / 電車が / <ruby>遅刻<rt>ちこく</rt></ruby>して / しまいました / <ruby>遅れ<rt>おくれ</rt></ruby>た",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：ため / 電車が / <ruby>遅刻<rt>ちこく</rt></ruby>して / しまいました / <ruby>遅れ<rt>おくれ</rt></ruby>た",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["しまいました 電車が <ruby>遅れ<rt>おくれ</rt></ruby>た ため <ruby>遅刻<rt>ちこく</rt></ruby>して",
           "電車が<ruby>遅れ<rt>おくれ</rt></ruby>たため<ruby>遅刻<rt>ちこく</rt></ruby>してしまいました",
@@ -14857,7 +14857,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>もん</rt></ruby>175（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：面白いと / <ruby>思い<rt>おもい</rt></ruby>ます / とても / この<ruby>映画<rt>えいが</rt></ruby>は",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：面白いと / <ruby>思い<rt>おもい</rt></ruby>ます / とても / この<ruby>映画<rt>えいが</rt></ruby>は",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["とても 面白いと <ruby>思い<rt>おもい</rt></ruby>ます この<ruby>映画<rt>えいが</rt></ruby>は",
           "この<ruby>映画<rt>えいが</rt></ruby>はとても面白いと<ruby>思い<rt>おもい</rt></ruby>ます",
@@ -15041,7 +15041,7 @@ window.MOCK_DATA['N4'] = {
           "🏥"],
         "answer": 1,
         "id": "N4-15-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット15<ruby>問<rt>もん</rt></ruby>34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット15<ruby>問<rt>とい</rt></ruby>34】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -15053,7 +15053,7 @@ window.MOCK_DATA['N4'] = {
           "📝"],
         "answer": 3,
         "id": "N4-15-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット15<ruby>問<rt>もん</rt></ruby>35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット15<ruby>問<rt>とい</rt></ruby>35】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -15065,7 +15065,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-15-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：ピンを　して　ください。\nおとこ：わかりました。【セット15<ruby>問<rt>もん</rt></ruby>36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：ピンを　して　ください。\nおとこ：わかりました。【セット15<ruby>問<rt>とい</rt></ruby>36】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -15077,7 +15077,7 @@ window.MOCK_DATA['N4'] = {
           "📞"],
         "answer": 2,
         "id": "N4-15-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット15<ruby>問<rt>もん</rt></ruby>37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット15<ruby>問<rt>とい</rt></ruby>37】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -15089,7 +15089,7 @@ window.MOCK_DATA['N4'] = {
           "📢"],
         "answer": 0,
         "id": "N4-15-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット15<ruby>問<rt>もん</rt></ruby>38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット15<ruby>問<rt>とい</rt></ruby>38】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -15101,7 +15101,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-15-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット15<ruby>問<rt>もん</rt></ruby>39】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット15<ruby>問<rt>とい</rt></ruby>39】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -15113,7 +15113,7 @@ window.MOCK_DATA['N4'] = {
           "📄"],
         "answer": 0,
         "id": "N4-15-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット15<ruby>問<rt>もん</rt></ruby>40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット15<ruby>問<rt>とい</rt></ruby>40】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -15125,7 +15125,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-15-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット15<ruby>問<rt>もん</rt></ruby>41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット15<ruby>問<rt>とい</rt></ruby>41】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>発話表現<rt>はつわひょうげん</rt></ruby>）",
@@ -15137,7 +15137,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-15-082",
-        "script": "🍽について　はなします。【セット15<ruby>問<rt>もん</rt></ruby>42】"
+        "script": "🍽について　はなします。【セット15<ruby>問<rt>とい</rt></ruby>42】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -15149,7 +15149,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-15-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット15<ruby>問<rt>もん</rt></ruby>43】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット15<ruby>問<rt>とい</rt></ruby>43】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -15172,7 +15172,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-15-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット15<ruby>問<rt>もん</rt></ruby>45】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット15<ruby>問<rt>とい</rt></ruby>45】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -15195,7 +15195,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-15-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット15<ruby>問<rt>もん</rt></ruby>47】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット15<ruby>問<rt>とい</rt></ruby>47】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -15218,7 +15218,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-15-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット15<ruby>問<rt>もん</rt></ruby>49】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット15<ruby>問<rt>とい</rt></ruby>49】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -15241,7 +15241,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-15-084",
-        "script": "ピンについて　はなします。【セット15<ruby>問<rt>もん</rt></ruby>51】"
+        "script": "ピンについて　はなします。【セット15<ruby>問<rt>とい</rt></ruby>51】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -15264,7 +15264,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-15-086",
-        "script": "ピンについて　はなします。【セット15<ruby>問<rt>もん</rt></ruby>53】"
+        "script": "ピンについて　はなします。【セット15<ruby>問<rt>とい</rt></ruby>53】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -15287,7 +15287,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-15-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット15<ruby>問<rt>もん</rt></ruby>55】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット15<ruby>問<rt>とい</rt></ruby>55】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -15310,7 +15310,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-15-083",
-        "script": "ピンについて　はなします。【セット15<ruby>問<rt>もん</rt></ruby>57】"
+        "script": "ピンについて　はなします。【セット15<ruby>問<rt>とい</rt></ruby>57】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -15333,7 +15333,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-15-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット15<ruby>問<rt>もん</rt></ruby>59】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット15<ruby>問<rt>とい</rt></ruby>59】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -15356,7 +15356,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-15-085",
-        "script": "ピンについて　はなします。【セット15<ruby>問<rt>もん</rt></ruby>61】"
+        "script": "ピンについて　はなします。【セット15<ruby>問<rt>とい</rt></ruby>61】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -15368,7 +15368,7 @@ window.MOCK_DATA['N4'] = {
           "✉️"],
         "answer": 1,
         "id": "N4-15-072",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット15<ruby>問<rt>もん</rt></ruby>62】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット15<ruby>問<rt>とい</rt></ruby>62】"
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
@@ -15717,7 +15717,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・<ruby>問<rt>もん</rt></ruby>176（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：買って / プレゼントを / あげました / 母に",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：買って / プレゼントを / あげました / 母に",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["プレゼントを 買って あげました 母に",
           "あげました 母に プレゼントを 買って",
@@ -15728,7 +15728,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・<ruby>問<rt>もん</rt></ruby>177（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>一緒<rt>いっしょ</rt></ruby>に / <ruby>旅行<rt>りょこう</rt></ruby>に / です / 行きたい / 友達と",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>一緒<rt>いっしょ</rt></ruby>に / <ruby>旅行<rt>りょこう</rt></ruby>に / です / 行きたい / 友達と",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["友達と<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>旅行<rt>りょこう</rt></ruby>に行きたいです",
           "<ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい です 友達と",
@@ -15739,7 +15739,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・<ruby>問<rt>もん</rt></ruby>178（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：ようです / いる / <ruby>降<rt>ふ</rt></ruby>って / 雨が",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：ようです / いる / <ruby>降<rt>ふ</rt></ruby>って / 雨が",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["ようです 雨が <ruby>降<rt>ふ</rt></ruby>って いる",
           "雨が<ruby>降<rt>ふ</rt></ruby>っているようです",
@@ -15750,7 +15750,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>もん</rt></ruby>179（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>終<rt>お</rt></ruby>えたら / <ruby>連絡<rt>れんらく</rt></ruby>して / ください / <ruby>仕事<rt>しごと</rt></ruby>を",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>終<rt>お</rt></ruby>えたら / <ruby>連絡<rt>れんらく</rt></ruby>して / ください / <ruby>仕事<rt>しごと</rt></ruby>を",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>仕事<rt>しごと</rt></ruby>を<ruby>終<rt>お</rt></ruby>えたら<ruby>連絡<rt>れんらく</rt></ruby>してください",
           "ください <ruby>連絡<rt>れんらく</rt></ruby>して <ruby>終<rt>お</rt></ruby>えたら <ruby>仕事<rt>しごと</rt></ruby>を",
@@ -15761,7 +15761,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>もん</rt></ruby>180（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：くれました / 作って / 母が / この料理は",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：くれました / 作って / 母が / この料理は",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["この料理は母が作ってくれました",
           "くれました この料理は 母が 作って",
@@ -15945,7 +15945,7 @@ window.MOCK_DATA['N4'] = {
           "🗓️"],
         "answer": 3,
         "id": "N4-16-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット16<ruby>問<rt>もん</rt></ruby>34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット16<ruby>問<rt>とい</rt></ruby>34】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -15957,7 +15957,7 @@ window.MOCK_DATA['N4'] = {
           "🚪"],
         "answer": 2,
         "id": "N4-16-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット16<ruby>問<rt>もん</rt></ruby>35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット16<ruby>問<rt>とい</rt></ruby>35】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -15969,7 +15969,7 @@ window.MOCK_DATA['N4'] = {
           "🔬"],
         "answer": 3,
         "id": "N4-16-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：けんきゅうを　して　ください。\nおとこ：わかりました。【セット16<ruby>問<rt>もん</rt></ruby>36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：けんきゅうを　して　ください。\nおとこ：わかりました。【セット16<ruby>問<rt>とい</rt></ruby>36】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -15981,7 +15981,7 @@ window.MOCK_DATA['N4'] = {
           "📝"],
         "answer": 1,
         "id": "N4-16-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット16<ruby>問<rt>もん</rt></ruby>37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット16<ruby>問<rt>とい</rt></ruby>37】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -15993,7 +15993,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-16-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット16<ruby>問<rt>もん</rt></ruby>38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット16<ruby>問<rt>とい</rt></ruby>38】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -16005,7 +16005,7 @@ window.MOCK_DATA['N4'] = {
           "📋"],
         "answer": 2,
         "id": "N4-16-072",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：スケジュールを　して　ください。\nおとこ：わかりました。【セット16<ruby>問<rt>もん</rt></ruby>39】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：スケジュールを　して　ください。\nおとこ：わかりました。【セット16<ruby>問<rt>とい</rt></ruby>39】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -16017,7 +16017,7 @@ window.MOCK_DATA['N4'] = {
           "💳"],
         "answer": 3,
         "id": "N4-16-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット16<ruby>問<rt>もん</rt></ruby>40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット16<ruby>問<rt>とい</rt></ruby>40】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -16029,7 +16029,7 @@ window.MOCK_DATA['N4'] = {
           "✉️"],
         "answer": 2,
         "id": "N4-16-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット16<ruby>問<rt>もん</rt></ruby>41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット16<ruby>問<rt>とい</rt></ruby>41】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -16041,7 +16041,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-16-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット16<ruby>問<rt>もん</rt></ruby>42】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット16<ruby>問<rt>とい</rt></ruby>42】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>発話表現<rt>はつわひょうげん</rt></ruby>）",
@@ -16053,7 +16053,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-16-082",
-        "script": "🍽について　はなします。【セット16<ruby>問<rt>もん</rt></ruby>43】"
+        "script": "🍽について　はなします。【セット16<ruby>問<rt>とい</rt></ruby>43】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -16065,7 +16065,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-16-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット16<ruby>問<rt>もん</rt></ruby>44】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット16<ruby>問<rt>とい</rt></ruby>44】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -16088,7 +16088,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-16-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット16<ruby>問<rt>もん</rt></ruby>46】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット16<ruby>問<rt>とい</rt></ruby>46】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -16111,7 +16111,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-16-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット16<ruby>問<rt>もん</rt></ruby>48】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット16<ruby>問<rt>とい</rt></ruby>48】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -16134,7 +16134,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-16-083",
-        "script": "ピンについて　はなします。【セット16<ruby>問<rt>もん</rt></ruby>50】"
+        "script": "ピンについて　はなします。【セット16<ruby>問<rt>とい</rt></ruby>50】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -16157,7 +16157,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-16-085",
-        "script": "ピンについて　はなします。【セット16<ruby>問<rt>もん</rt></ruby>52】"
+        "script": "ピンについて　はなします。【セット16<ruby>問<rt>とい</rt></ruby>52】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -16180,7 +16180,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-16-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット16<ruby>問<rt>もん</rt></ruby>54】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット16<ruby>問<rt>とい</rt></ruby>54】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -16203,7 +16203,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-16-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット16<ruby>問<rt>もん</rt></ruby>56】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット16<ruby>問<rt>とい</rt></ruby>56】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -16226,7 +16226,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-16-086",
-        "script": "ピンについて　はなします。【セット16<ruby>問<rt>もん</rt></ruby>58】"
+        "script": "ピンについて　はなします。【セット16<ruby>問<rt>とい</rt></ruby>58】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -16249,7 +16249,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-16-084",
-        "script": "ピンについて　はなします。【セット16<ruby>問<rt>もん</rt></ruby>60】"
+        "script": "ピンについて　はなします。【セット16<ruby>問<rt>とい</rt></ruby>60】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -16272,7 +16272,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-16-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット16<ruby>問<rt>もん</rt></ruby>62】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット16<ruby>問<rt>とい</rt></ruby>62】"
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
@@ -16744,7 +16744,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・<ruby>問<rt>もん</rt></ruby>181（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：読みました / <ruby>昨日<rt>きのう</rt></ruby> / <ruby>図書館<rt>としょかん</rt></ruby>で / <ruby>私<rt>わたし</rt></ruby>は / 本を",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：読みました / <ruby>昨日<rt>きのう</rt></ruby> / <ruby>図書館<rt>としょかん</rt></ruby>で / <ruby>私<rt>わたし</rt></ruby>は / 本を",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>私<rt>わたし</rt></ruby>は<ruby>昨日<rt>きのう</rt></ruby><ruby>図書館<rt>としょかん</rt></ruby>で本を読みました",
           "読みました 本を <ruby>図書館<rt>としょかん</rt></ruby>で <ruby>昨日<rt>きのう</rt></ruby> <ruby>私<rt>わたし</rt></ruby>は",
@@ -16766,7 +16766,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・<ruby>問<rt>もん</rt></ruby>182（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：します / <ruby>彼女<rt>かのじょ</rt></ruby>は / <ruby>散歩<rt>さんぽ</rt></ruby> / <ruby>公園<rt>こうえん</rt></ruby>を / <ruby>毎朝<rt>まいあさ</rt></ruby>",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：します / <ruby>彼女<rt>かのじょ</rt></ruby>は / <ruby>散歩<rt>さんぽ</rt></ruby> / <ruby>公園<rt>こうえん</rt></ruby>を / <ruby>毎朝<rt>まいあさ</rt></ruby>",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>彼女<rt>かのじょ</rt></ruby>は<ruby>毎朝<rt>まいあさ</rt></ruby><ruby>公園<rt>こうえん</rt></ruby>を<ruby>散歩<rt>さんぽ</rt></ruby>します",
           "します <ruby>彼女<rt>かのじょ</rt></ruby>は <ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>を <ruby>散歩<rt>さんぽ</rt></ruby>",
@@ -16788,7 +16788,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・<ruby>問<rt>もん</rt></ruby>183（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：いつも / です / お<ruby>客<rt>きゃく</rt></ruby>さんで / この<ruby>店<rt>てん</rt></ruby>は / いっぱい",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：いつも / です / お<ruby>客<rt>きゃく</rt></ruby>さんで / この<ruby>店<rt>てん</rt></ruby>は / いっぱい",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["この<ruby>店<rt>てん</rt></ruby>はいつもお<ruby>客<rt>きゃく</rt></ruby>さんでいっぱいです",
           "いつも お<ruby>客<rt>きゃく</rt></ruby>さんで いっぱい です この<ruby>店<rt>てん</rt></ruby>は",
@@ -16810,7 +16810,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>もん</rt></ruby>184（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>質問<rt>しつもん</rt></ruby>を / 先生に / できます / することが / か",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>質問<rt>しつもん</rt></ruby>を / 先生に / できます / することが / か",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["先生に<ruby>質問<rt>しつもん</rt></ruby>をすることができますか",
           "か 先生に <ruby>質問<rt>しつもん</rt></ruby>を することが できます",
@@ -16832,7 +16832,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>もん</rt></ruby>185（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：かもしれません / 明日の / 出席 / できない / <ruby>会議<rt>かいぎ</rt></ruby>に",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：かもしれません / 明日の / 出席 / できない / <ruby>会議<rt>かいぎ</rt></ruby>に",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["かもしれません できない 出席 <ruby>会議<rt>かいぎ</rt></ruby>に 明日の",
           "<ruby>会議<rt>かいぎ</rt></ruby>に 出席 できない かもしれません 明日の",
@@ -17049,7 +17049,7 @@ window.MOCK_DATA['N4'] = {
           "📊"],
         "answer": 2,
         "id": "N4-17-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット17<ruby>問<rt>もん</rt></ruby>34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット17<ruby>問<rt>とい</rt></ruby>34】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -17061,7 +17061,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-17-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット17<ruby>問<rt>もん</rt></ruby>35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット17<ruby>問<rt>とい</rt></ruby>35】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -17073,7 +17073,7 @@ window.MOCK_DATA['N4'] = {
           "📧"],
         "answer": 0,
         "id": "N4-17-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：スケジュールを　して　ください。\nおとこ：わかりました。【セット17<ruby>問<rt>もん</rt></ruby>36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：スケジュールを　して　ください。\nおとこ：わかりました。【セット17<ruby>問<rt>とい</rt></ruby>36】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -17085,7 +17085,7 @@ window.MOCK_DATA['N4'] = {
           "🚪"],
         "answer": 2,
         "id": "N4-17-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット17<ruby>問<rt>もん</rt></ruby>37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット17<ruby>問<rt>とい</rt></ruby>37】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -17097,7 +17097,7 @@ window.MOCK_DATA['N4'] = {
           "🔬"],
         "answer": 3,
         "id": "N4-17-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット17<ruby>問<rt>もん</rt></ruby>38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット17<ruby>問<rt>とい</rt></ruby>38】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -17109,7 +17109,7 @@ window.MOCK_DATA['N4'] = {
           "📊"],
         "answer": 2,
         "id": "N4-17-072",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：メモを　して　ください。\nおとこ：わかりました。【セット17<ruby>問<rt>もん</rt></ruby>39】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：メモを　して　ください。\nおとこ：わかりました。【セット17<ruby>問<rt>とい</rt></ruby>39】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -17121,7 +17121,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-17-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット17<ruby>問<rt>もん</rt></ruby>40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット17<ruby>問<rt>とい</rt></ruby>40】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -17133,7 +17133,7 @@ window.MOCK_DATA['N4'] = {
           "🗓️"],
         "answer": 3,
         "id": "N4-17-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット17<ruby>問<rt>もん</rt></ruby>41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット17<ruby>問<rt>とい</rt></ruby>41】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -17145,7 +17145,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-17-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット17<ruby>問<rt>もん</rt></ruby>42】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット17<ruby>問<rt>とい</rt></ruby>42】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>発話表現<rt>はつわひょうげん</rt></ruby>）",
@@ -17157,7 +17157,7 @@ window.MOCK_DATA['N4'] = {
           "🍽️"],
         "answer": 3,
         "id": "N4-17-082",
-        "script": "🍽について　はなします。【セット17<ruby>問<rt>もん</rt></ruby>43】"
+        "script": "🍽について　はなします。【セット17<ruby>問<rt>とい</rt></ruby>43】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -17169,7 +17169,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-17-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット17<ruby>問<rt>もん</rt></ruby>44】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット17<ruby>問<rt>とい</rt></ruby>44】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -17192,7 +17192,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-17-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット17<ruby>問<rt>もん</rt></ruby>46】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット17<ruby>問<rt>とい</rt></ruby>46】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -17215,7 +17215,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-17-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット17<ruby>問<rt>もん</rt></ruby>48】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット17<ruby>問<rt>とい</rt></ruby>48】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -17238,7 +17238,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-17-083",
-        "script": "ピンについて　はなします。【セット17<ruby>問<rt>もん</rt></ruby>50】"
+        "script": "ピンについて　はなします。【セット17<ruby>問<rt>とい</rt></ruby>50】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -17261,7 +17261,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-17-085",
-        "script": "ピンについて　はなします。【セット17<ruby>問<rt>もん</rt></ruby>52】"
+        "script": "ピンについて　はなします。【セット17<ruby>問<rt>とい</rt></ruby>52】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -17284,7 +17284,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-17-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット17<ruby>問<rt>もん</rt></ruby>54】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット17<ruby>問<rt>とい</rt></ruby>54】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -17307,7 +17307,7 @@ window.MOCK_DATA['N4'] = {
           "📕"],
         "answer": 1,
         "id": "N4-17-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット17<ruby>問<rt>もん</rt></ruby>56】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット17<ruby>問<rt>とい</rt></ruby>56】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -17330,7 +17330,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-17-086",
-        "script": "ピンについて　はなします。【セット17<ruby>問<rt>もん</rt></ruby>58】"
+        "script": "ピンについて　はなします。【セット17<ruby>問<rt>とい</rt></ruby>58】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -17353,7 +17353,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-17-084",
-        "script": "ピンについて　はなします。【セット17<ruby>問<rt>もん</rt></ruby>60】"
+        "script": "ピンについて　はなします。【セット17<ruby>問<rt>とい</rt></ruby>60】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -17376,7 +17376,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-17-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット17<ruby>問<rt>もん</rt></ruby>62】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット17<ruby>問<rt>とい</rt></ruby>62】"
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
@@ -17925,7 +17925,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・<ruby>問<rt>もん</rt></ruby>186（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：学生が / <ruby>多い<rt>おおい</rt></ruby>です / いる / <ruby>勉強<rt>べんきょう</rt></ruby>して / <ruby>日本語<rt>にほんご</rt></ruby>を",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：学生が / <ruby>多い<rt>おおい</rt></ruby>です / いる / <ruby>勉強<rt>べんきょう</rt></ruby>して / <ruby>日本語<rt>にほんご</rt></ruby>を",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>している学生が<ruby>多い<rt>おおい</rt></ruby>です",
           "<ruby>勉強<rt>べんきょう</rt></ruby>して いる 学生が <ruby>多い<rt>おおい</rt></ruby>です <ruby>日本語<rt>にほんご</rt></ruby>を",
@@ -17936,7 +17936,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・<ruby>問<rt>もん</rt></ruby>187（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>難<rt>むずか</rt></ruby>しすぎて / <ruby>私<rt>わたし</rt></ruby>には / <ruby>解<rt>と</rt></ruby>けません / この<ruby>問題<rt>もんだい</rt></ruby>は",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>難<rt>むずか</rt></ruby>しすぎて / <ruby>私<rt>わたし</rt></ruby>には / <ruby>解<rt>と</rt></ruby>けません / この<ruby>問題<rt>もんだい</rt></ruby>は",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>解<rt>と</rt></ruby>けません この<ruby>問題<rt>もんだい</rt></ruby>は <ruby>難<rt>むずか</rt></ruby>しすぎて <ruby>私<rt>わたし</rt></ruby>には",
           "<ruby>解<rt>と</rt></ruby>けません <ruby>私<rt>わたし</rt></ruby>には <ruby>難<rt>むずか</rt></ruby>しすぎて この<ruby>問題<rt>もんだい</rt></ruby>は",
@@ -17947,7 +17947,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・<ruby>問<rt>もん</rt></ruby>188（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>彼<rt>かれ</rt></ruby>は / 3年間 / いました / アメリカに / <ruby>住<rt>すむ</rt></ruby>んで",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>彼<rt>かれ</rt></ruby>は / 3年間 / いました / アメリカに / <ruby>住<rt>すむ</rt></ruby>んで",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["いました <ruby>彼<rt>かれ</rt></ruby>は アメリカに 3年間 <ruby>住<rt>すむ</rt></ruby>んで",
           "いました <ruby>住<rt>すむ</rt></ruby>んで 3年間 アメリカに <ruby>彼<rt>かれ</rt></ruby>は",
@@ -17958,7 +17958,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>もん</rt></ruby>189（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：しまいました / 電車が / ため / <ruby>遅れ<rt>おくれ</rt></ruby>た / <ruby>遅刻<rt>ちこく</rt></ruby>して",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：しまいました / 電車が / ため / <ruby>遅れ<rt>おくれ</rt></ruby>た / <ruby>遅刻<rt>ちこく</rt></ruby>して",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["しまいました <ruby>遅刻<rt>ちこく</rt></ruby>して ため <ruby>遅れ<rt>おくれ</rt></ruby>た 電車が",
           "電車が<ruby>遅れ<rt>おくれ</rt></ruby>たため<ruby>遅刻<rt>ちこく</rt></ruby>してしまいました",
@@ -17969,7 +17969,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>もん</rt></ruby>190（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：この<ruby>映画<rt>えいが</rt></ruby>は / とても / 面白いと / <ruby>思い<rt>おもい</rt></ruby>ます",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：この<ruby>映画<rt>えいが</rt></ruby>は / とても / 面白いと / <ruby>思い<rt>おもい</rt></ruby>ます",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["とても 面白いと <ruby>思い<rt>おもい</rt></ruby>ます この<ruby>映画<rt>えいが</rt></ruby>は",
           "<ruby>思い<rt>おもい</rt></ruby>ます この<ruby>映画<rt>えいが</rt></ruby>は とても 面白いと",
@@ -18153,7 +18153,7 @@ window.MOCK_DATA['N4'] = {
           "🍵"],
         "answer": 2,
         "id": "N4-18-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット18<ruby>問<rt>もん</rt></ruby>34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット18<ruby>問<rt>とい</rt></ruby>34】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -18165,7 +18165,7 @@ window.MOCK_DATA['N4'] = {
           "✉️"],
         "answer": 0,
         "id": "N4-18-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット18<ruby>問<rt>もん</rt></ruby>35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット18<ruby>問<rt>とい</rt></ruby>35】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -18177,7 +18177,7 @@ window.MOCK_DATA['N4'] = {
           "📄"],
         "answer": 1,
         "id": "N4-18-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：メモを　して　ください。\nおとこ：わかりました。【セット18<ruby>問<rt>もん</rt></ruby>36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：メモを　して　ください。\nおとこ：わかりました。【セット18<ruby>問<rt>とい</rt></ruby>36】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -18189,7 +18189,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-18-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット18<ruby>問<rt>もん</rt></ruby>37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット18<ruby>問<rt>とい</rt></ruby>37】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -18201,7 +18201,7 @@ window.MOCK_DATA['N4'] = {
           "📋"],
         "answer": 2,
         "id": "N4-18-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット18<ruby>問<rt>もん</rt></ruby>38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット18<ruby>問<rt>とい</rt></ruby>38】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -18213,7 +18213,7 @@ window.MOCK_DATA['N4'] = {
           "📢"],
         "answer": 0,
         "id": "N4-18-072",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：カードを　して　ください。\nおとこ：わかりました。【セット18<ruby>問<rt>もん</rt></ruby>39】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：カードを　して　ください。\nおとこ：わかりました。【セット18<ruby>問<rt>とい</rt></ruby>39】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -18225,7 +18225,7 @@ window.MOCK_DATA['N4'] = {
           "✉️"],
         "answer": 1,
         "id": "N4-18-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット18<ruby>問<rt>もん</rt></ruby>40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット18<ruby>問<rt>とい</rt></ruby>40】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -18237,7 +18237,7 @@ window.MOCK_DATA['N4'] = {
           "📝"],
         "answer": 2,
         "id": "N4-18-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット18<ruby>問<rt>もん</rt></ruby>41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット18<ruby>問<rt>とい</rt></ruby>41】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -18249,7 +18249,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-18-075",
-        "script": "きょうの　はなしは　ほんについてです。これは　とても　たいせつです。【セット18<ruby>問<rt>もん</rt></ruby>42】"
+        "script": "きょうの　はなしは　ほんについてです。これは　とても　たいせつです。【セット18<ruby>問<rt>とい</rt></ruby>42】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -18261,7 +18261,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-18-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット18<ruby>問<rt>もん</rt></ruby>43】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット18<ruby>問<rt>とい</rt></ruby>43】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>発話表現<rt>はつわひょうげん</rt></ruby>）",
@@ -18273,7 +18273,7 @@ window.MOCK_DATA['N4'] = {
           "🍽️"],
         "answer": 3,
         "id": "N4-18-082",
-        "script": "🍽について　はなします。【セット18<ruby>問<rt>もん</rt></ruby>44】"
+        "script": "🍽について　はなします。【セット18<ruby>問<rt>とい</rt></ruby>44】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -18285,7 +18285,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-18-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット18<ruby>問<rt>もん</rt></ruby>45】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット18<ruby>問<rt>とい</rt></ruby>45】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -18308,7 +18308,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-18-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット18<ruby>問<rt>もん</rt></ruby>47】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット18<ruby>問<rt>とい</rt></ruby>47】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -18331,7 +18331,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-18-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット18<ruby>問<rt>もん</rt></ruby>49】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット18<ruby>問<rt>とい</rt></ruby>49】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -18354,7 +18354,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-18-084",
-        "script": "ピンについて　はなします。【セット18<ruby>問<rt>もん</rt></ruby>51】"
+        "script": "ピンについて　はなします。【セット18<ruby>問<rt>とい</rt></ruby>51】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -18377,7 +18377,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-18-086",
-        "script": "ピンについて　はなします。【セット18<ruby>問<rt>もん</rt></ruby>53】"
+        "script": "ピンについて　はなします。【セット18<ruby>問<rt>とい</rt></ruby>53】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -18400,7 +18400,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-18-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット18<ruby>問<rt>もん</rt></ruby>55】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット18<ruby>問<rt>とい</rt></ruby>55】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -18423,7 +18423,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-18-085",
-        "script": "ピンについて　はなします。【セット18<ruby>問<rt>もん</rt></ruby>57】"
+        "script": "ピンについて　はなします。【セット18<ruby>問<rt>とい</rt></ruby>57】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -18446,7 +18446,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-18-083",
-        "script": "ピンについて　はなします。【セット18<ruby>問<rt>もん</rt></ruby>59】"
+        "script": "ピンについて　はなします。【セット18<ruby>問<rt>とい</rt></ruby>59】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -18469,7 +18469,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-18-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット18<ruby>問<rt>もん</rt></ruby>61】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット18<ruby>問<rt>とい</rt></ruby>61】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -19029,7 +19029,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・<ruby>問<rt>もん</rt></ruby>191（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：あげました / 母に / 買って / プレゼントを",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：あげました / 母に / 買って / プレゼントを",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["プレゼントを 買って あげました 母に",
           "あげました 買って プレゼントを 母に",
@@ -19040,7 +19040,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・<ruby>問<rt>もん</rt></ruby>192（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：行きたい / です / <ruby>旅行<rt>りょこう</rt></ruby>に / <ruby>一緒<rt>いっしょ</rt></ruby>に / 友達と",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：行きたい / です / <ruby>旅行<rt>りょこう</rt></ruby>に / <ruby>一緒<rt>いっしょ</rt></ruby>に / 友達と",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["です 友達と <ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい",
           "友達と<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>旅行<rt>りょこう</rt></ruby>に行きたいです",
@@ -19051,7 +19051,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・<ruby>問<rt>もん</rt></ruby>193（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：いる / <ruby>降<rt>ふ</rt></ruby>って / 雨が / ようです",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：いる / <ruby>降<rt>ふ</rt></ruby>って / 雨が / ようです",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["ようです いる <ruby>降<rt>ふ</rt></ruby>って 雨が",
           "<ruby>降<rt>ふ</rt></ruby>って いる ようです 雨が",
@@ -19062,7 +19062,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>もん</rt></ruby>194（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>仕事<rt>しごと</rt></ruby>を / ください / <ruby>終<rt>お</rt></ruby>えたら / <ruby>連絡<rt>れんらく</rt></ruby>して",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>仕事<rt>しごと</rt></ruby>を / ください / <ruby>終<rt>お</rt></ruby>えたら / <ruby>連絡<rt>れんらく</rt></ruby>して",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["<ruby>仕事<rt>しごと</rt></ruby>を<ruby>終<rt>お</rt></ruby>えたら<ruby>連絡<rt>れんらく</rt></ruby>してください",
           "ください <ruby>連絡<rt>れんらく</rt></ruby>して <ruby>終<rt>お</rt></ruby>えたら <ruby>仕事<rt>しごと</rt></ruby>を",
@@ -19073,7 +19073,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>もん</rt></ruby>195（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：作って / くれました / 母が / この料理は",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：作って / くれました / 母が / この料理は",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["くれました この料理は 母が 作って",
           "母が 作って くれました この料理は",
@@ -19257,7 +19257,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-19-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット19<ruby>問<rt>もん</rt></ruby>34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット19<ruby>問<rt>とい</rt></ruby>34】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -19269,7 +19269,7 @@ window.MOCK_DATA['N4'] = {
           "📧"],
         "answer": 2,
         "id": "N4-19-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット19<ruby>問<rt>もん</rt></ruby>35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット19<ruby>問<rt>とい</rt></ruby>35】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -19281,7 +19281,7 @@ window.MOCK_DATA['N4'] = {
           "💳"],
         "answer": 3,
         "id": "N4-19-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：カードを　して　ください。\nおとこ：わかりました。【セット19<ruby>問<rt>もん</rt></ruby>36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：カードを　して　ください。\nおとこ：わかりました。【セット19<ruby>問<rt>とい</rt></ruby>36】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -19293,7 +19293,7 @@ window.MOCK_DATA['N4'] = {
           "🏥"],
         "answer": 2,
         "id": "N4-19-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット19<ruby>問<rt>もん</rt></ruby>37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット19<ruby>問<rt>とい</rt></ruby>37】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -19305,7 +19305,7 @@ window.MOCK_DATA['N4'] = {
           "📝"],
         "answer": 0,
         "id": "N4-19-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット19<ruby>問<rt>もん</rt></ruby>38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット19<ruby>問<rt>とい</rt></ruby>38】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -19317,7 +19317,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-19-072",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：ピンを　して　ください。\nおとこ：わかりました。【セット19<ruby>問<rt>もん</rt></ruby>39】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：ピンを　して　ください。\nおとこ：わかりました。【セット19<ruby>問<rt>とい</rt></ruby>39】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -19329,7 +19329,7 @@ window.MOCK_DATA['N4'] = {
           "📋"],
         "answer": 0,
         "id": "N4-19-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット19<ruby>問<rt>もん</rt></ruby>40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット19<ruby>問<rt>とい</rt></ruby>40】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -19341,7 +19341,7 @@ window.MOCK_DATA['N4'] = {
           "💳"],
         "answer": 3,
         "id": "N4-19-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット19<ruby>問<rt>もん</rt></ruby>41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット19<ruby>問<rt>とい</rt></ruby>41】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -19353,7 +19353,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-19-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット19<ruby>問<rt>もん</rt></ruby>42】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット19<ruby>問<rt>とい</rt></ruby>42】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>発話表現<rt>はつわひょうげん</rt></ruby>）",
@@ -19365,7 +19365,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-19-082",
-        "script": "🍽について　はなします。【セット19<ruby>問<rt>もん</rt></ruby>43】"
+        "script": "🍽について　はなします。【セット19<ruby>問<rt>とい</rt></ruby>43】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -19377,7 +19377,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-19-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット19<ruby>問<rt>もん</rt></ruby>44】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット19<ruby>問<rt>とい</rt></ruby>44】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -19400,7 +19400,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-19-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット19<ruby>問<rt>もん</rt></ruby>46】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット19<ruby>問<rt>とい</rt></ruby>46】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -19423,7 +19423,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-19-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット19<ruby>問<rt>もん</rt></ruby>48】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット19<ruby>問<rt>とい</rt></ruby>48】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -19446,7 +19446,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-19-083",
-        "script": "ピンについて　はなします。【セット19<ruby>問<rt>もん</rt></ruby>50】"
+        "script": "ピンについて　はなします。【セット19<ruby>問<rt>とい</rt></ruby>50】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -19469,7 +19469,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-19-085",
-        "script": "ピンについて　はなします。【セット19<ruby>問<rt>もん</rt></ruby>52】"
+        "script": "ピンについて　はなします。【セット19<ruby>問<rt>とい</rt></ruby>52】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -19492,7 +19492,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-19-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット19<ruby>問<rt>もん</rt></ruby>54】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット19<ruby>問<rt>とい</rt></ruby>54】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -19515,7 +19515,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-19-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット19<ruby>問<rt>もん</rt></ruby>56】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット19<ruby>問<rt>とい</rt></ruby>56】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -19538,7 +19538,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-19-086",
-        "script": "ピンについて　はなします。【セット19<ruby>問<rt>もん</rt></ruby>58】"
+        "script": "ピンについて　はなします。【セット19<ruby>問<rt>とい</rt></ruby>58】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -19561,7 +19561,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-19-084",
-        "script": "ピンについて　はなします。【セット19<ruby>問<rt>もん</rt></ruby>60】"
+        "script": "ピンについて　はなします。【セット19<ruby>問<rt>とい</rt></ruby>60】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -19584,7 +19584,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-19-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット19<ruby>問<rt>もん</rt></ruby>62】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット19<ruby>問<rt>とい</rt></ruby>62】"
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
@@ -20133,7 +20133,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>日常会話<rt>にちじょうかいわ</rt></ruby>・<ruby>問<rt>もん</rt></ruby>196（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：本を / <ruby>私<rt>わたし</rt></ruby>は / <ruby>図書館<rt>としょかん</rt></ruby>で / 読みました / <ruby>昨日<rt>きのう</rt></ruby>",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：本を / <ruby>私<rt>わたし</rt></ruby>は / <ruby>図書館<rt>としょかん</rt></ruby>で / 読みました / <ruby>昨日<rt>きのう</rt></ruby>",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["読みました 本を <ruby>図書館<rt>としょかん</rt></ruby>で <ruby>昨日<rt>きのう</rt></ruby> <ruby>私<rt>わたし</rt></ruby>は",
           "<ruby>私<rt>わたし</rt></ruby>は<ruby>昨日<rt>きのう</rt></ruby><ruby>図書館<rt>としょかん</rt></ruby>で本を読みました",
@@ -20144,7 +20144,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・<ruby>問<rt>もん</rt></ruby>197（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>散歩<rt>さんぽ</rt></ruby> / します / <ruby>彼女<rt>かのじょ</rt></ruby>は / <ruby>毎朝<rt>まいあさ</rt></ruby> / <ruby>公園<rt>こうえん</rt></ruby>を",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>散歩<rt>さんぽ</rt></ruby> / します / <ruby>彼女<rt>かのじょ</rt></ruby>は / <ruby>毎朝<rt>まいあさ</rt></ruby> / <ruby>公園<rt>こうえん</rt></ruby>を",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["します <ruby>彼女<rt>かのじょ</rt></ruby>は <ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>を <ruby>散歩<rt>さんぽ</rt></ruby>",
           "<ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>を <ruby>散歩<rt>さんぽ</rt></ruby> します <ruby>彼女<rt>かのじょ</rt></ruby>は",
@@ -20155,7 +20155,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・<ruby>問<rt>もん</rt></ruby>198（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：いっぱい / いつも / お<ruby>客<rt>きゃく</rt></ruby>さんで / この<ruby>店<rt>てん</rt></ruby>は / です",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：いっぱい / いつも / お<ruby>客<rt>きゃく</rt></ruby>さんで / この<ruby>店<rt>てん</rt></ruby>は / です",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["です いっぱい お<ruby>客<rt>きゃく</rt></ruby>さんで いつも この<ruby>店<rt>てん</rt></ruby>は",
           "いつも お<ruby>客<rt>きゃく</rt></ruby>さんで いっぱい です この<ruby>店<rt>てん</rt></ruby>は",
@@ -20166,7 +20166,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>もん</rt></ruby>199（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：できます / <ruby>質問<rt>しつもん</rt></ruby>を / 先生に / することが / か",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：できます / <ruby>質問<rt>しつもん</rt></ruby>を / 先生に / することが / か",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["か 先生に <ruby>質問<rt>しつもん</rt></ruby>を することが できます",
           "か できます することが <ruby>質問<rt>しつもん</rt></ruby>を 先生に",
@@ -20177,7 +20177,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>もん</rt></ruby>200（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>会議<rt>かいぎ</rt></ruby>に / 明日の / 出席 / かもしれません / できない",
+        "text": "次の<ruby>語句<rt>ごく</rt></ruby>を正しい<ruby>順序<rt>じゅんじょ</rt></ruby>に並べてください：<ruby>会議<rt>かいぎ</rt></ruby>に / 明日の / 出席 / かもしれません / できない",
         "question": "正しい<ruby>順序<rt>じゅんじょ</rt></ruby>は？",
         "options": ["明日の<ruby>会議<rt>かいぎ</rt></ruby>に出席できないかもしれません",
           "かもしれません 明日の <ruby>会議<rt>かいぎ</rt></ruby>に 出席 できない",
@@ -20262,7 +20262,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-20-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット20<ruby>問<rt>もん</rt></ruby>25】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット20<ruby>問<rt>とい</rt></ruby>25】"
       },
       {
         "type": "<ruby>読解<rt>どっかい</rt></ruby>（<ruby>短文<rt>たんぶん</rt></ruby>）",
@@ -20362,7 +20362,7 @@ window.MOCK_DATA['N4'] = {
           "✉️"],
         "answer": 2,
         "id": "N4-20-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット20<ruby>問<rt>もん</rt></ruby>34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット20<ruby>問<rt>とい</rt></ruby>34】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -20374,7 +20374,7 @@ window.MOCK_DATA['N4'] = {
           "📝"],
         "answer": 3,
         "id": "N4-20-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット20<ruby>問<rt>もん</rt></ruby>35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット20<ruby>問<rt>とい</rt></ruby>35】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -20386,7 +20386,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-20-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：ピンを　して　ください。\nおとこ：わかりました。【セット20<ruby>問<rt>もん</rt></ruby>36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：ピンを　して　ください。\nおとこ：わかりました。【セット20<ruby>問<rt>とい</rt></ruby>36】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -20398,7 +20398,7 @@ window.MOCK_DATA['N4'] = {
           "📧"],
         "answer": 0,
         "id": "N4-20-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット20<ruby>問<rt>もん</rt></ruby>37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット20<ruby>問<rt>とい</rt></ruby>37】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -20410,7 +20410,7 @@ window.MOCK_DATA['N4'] = {
           "📢"],
         "answer": 1,
         "id": "N4-20-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット20<ruby>問<rt>もん</rt></ruby>38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット20<ruby>問<rt>とい</rt></ruby>38】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -20422,7 +20422,7 @@ window.MOCK_DATA['N4'] = {
           "🏥"],
         "answer": 2,
         "id": "N4-20-072",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：けんきゅうを　して　ください。\nおとこ：わかりました。【セット20<ruby>問<rt>もん</rt></ruby>39】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：けんきゅうを　して　ください。\nおとこ：わかりました。【セット20<ruby>問<rt>とい</rt></ruby>39】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -20434,7 +20434,7 @@ window.MOCK_DATA['N4'] = {
           "📝"],
         "answer": 0,
         "id": "N4-20-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット20<ruby>問<rt>もん</rt></ruby>40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット20<ruby>問<rt>とい</rt></ruby>40】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>課題理解<rt>かだいりかい</rt></ruby>）",
@@ -20446,7 +20446,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-20-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット20<ruby>問<rt>もん</rt></ruby>41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット20<ruby>問<rt>とい</rt></ruby>41】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>発話表現<rt>はつわひょうげん</rt></ruby>）",
@@ -20458,7 +20458,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-20-082",
-        "script": "🍽について　はなします。【セット20<ruby>問<rt>もん</rt></ruby>42】"
+        "script": "🍽について　はなします。【セット20<ruby>問<rt>とい</rt></ruby>42】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（ポイント<ruby>理解<rt>りかい</rt></ruby>）",
@@ -20470,7 +20470,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-20-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット20<ruby>問<rt>もん</rt></ruby>43】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット20<ruby>問<rt>とい</rt></ruby>43】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -20493,7 +20493,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-20-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット20<ruby>問<rt>もん</rt></ruby>45】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット20<ruby>問<rt>とい</rt></ruby>45】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -20516,7 +20516,7 @@ window.MOCK_DATA['N4'] = {
           "📕"],
         "answer": 0,
         "id": "N4-20-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット20<ruby>問<rt>もん</rt></ruby>47】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット20<ruby>問<rt>とい</rt></ruby>47】"
       },
       {
         "type": "<ruby>読解<rt>どっかい</rt></ruby>（<ruby>短文<rt>たんぶん</rt></ruby>）",
@@ -20539,7 +20539,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-20-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット20<ruby>問<rt>もん</rt></ruby>49】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット20<ruby>問<rt>とい</rt></ruby>49】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -20562,7 +20562,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-20-084",
-        "script": "ピンについて　はなします。【セット20<ruby>問<rt>もん</rt></ruby>51】"
+        "script": "ピンについて　はなします。【セット20<ruby>問<rt>とい</rt></ruby>51】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -20585,7 +20585,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-20-086",
-        "script": "ピンについて　はなします。【セット20<ruby>問<rt>もん</rt></ruby>53】"
+        "script": "ピンについて　はなします。【セット20<ruby>問<rt>とい</rt></ruby>53】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -20608,7 +20608,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-20-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット20<ruby>問<rt>もん</rt></ruby>55】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット20<ruby>問<rt>とい</rt></ruby>55】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -20631,7 +20631,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-20-083",
-        "script": "ピンについて　はなします。【セット20<ruby>問<rt>もん</rt></ruby>57】"
+        "script": "ピンについて　はなします。【セット20<ruby>問<rt>とい</rt></ruby>57】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -20654,7 +20654,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-20-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット20<ruby>問<rt>もん</rt></ruby>59】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット20<ruby>問<rt>とい</rt></ruby>59】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
@@ -20677,7 +20677,7 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-20-085",
-        "script": "ピンについて　はなします。【セット20<ruby>問<rt>もん</rt></ruby>61】"
+        "script": "ピンについて　はなします。【セット20<ruby>問<rt>とい</rt></ruby>61】"
       },
       {
         "type": "<ruby>聴解<rt>ちょうかい</rt></ruby>（<ruby>即時応答<rt>そくじおうとう</rt></ruby>）",
