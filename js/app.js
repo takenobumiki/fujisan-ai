@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.17.20';
+const APP_VERSION = '18.17.21';
 const STORAGE_KEY = 'fujisan_v1817';
 
 // ========== UI TRANSLATIONS ==========
@@ -2436,7 +2436,8 @@ function updateContinueButton() {
     const catName = catNames[category] || 'Vocab';
     textEl.textContent = `Continue ${level} Unit ${unit + 1}`;
     btn.style.display = 'flex';
-    btn.style.backgroundColor = levelColors[level] || levelColors.N5;
+    // Use setProperty with important to override CSS variables
+    btn.style.setProperty('background-color', levelColors[level] || levelColors.N5, 'important');
   } else {
     btn.style.display = 'none';
   }
@@ -3719,7 +3720,7 @@ function updateTodayFocus() {
   if (startBtn) {
     if (hasTasks) {
       startBtn.style.display = 'flex';
-      startBtn.style.backgroundColor = currentColor;
+      startBtn.style.setProperty('background-color', currentColor, 'important');
       const btnText = startBtn.querySelector('span');
       if (btnText) {
         if (primaryAction === 'srs') btnText.textContent = l.startReview;
