@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.17.42';
+const APP_VERSION = '18.17.43';
 const STORAGE_KEY = 'fujisan_v1817';
 
 // ========== UI TRANSLATIONS ==========
@@ -2211,6 +2211,7 @@ const DATA = {
 };
 
 // MOCK_DATA is defined by mock.js when loaded
+const MOCK_DATA = {};
 
 // Loading state
 let loadingData = {};
