@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.20.50';
+const APP_VERSION = '18.20.51';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FURIGANA SYSTEM ==========
@@ -2827,6 +2827,10 @@ function updateDashboardUnitGrid() {
   
   const totalUnits = Math.ceil(allItems.length / ITEMS_PER_UNIT);
   
+  // Level colors
+  const levelColors = { N5: '#34c759', N4: '#007aff', N3: '#af52de', N2: '#1e3a5f', N1: '#ff3b30' };
+  const levelColor = levelColors[level] || '#007aff';
+  
   grid.dataset.level = level;
   grid.innerHTML = '';
   
@@ -2842,20 +2846,28 @@ function updateDashboardUnitGrid() {
       if (allComplete) unitMastered++;
     });
     
+    const percent = Math.round((unitMastered / unitItems.length) * 100);
+    
     const cell = document.createElement('div');
     cell.className = 'unit-cell';
     
-    if (unitMastered === unitItems.length) {
+    if (percent === 100) {
+      // Complete: solid color with checkmark
       cell.classList.add('complete');
-    } else if (unitMastered > 0) {
+      cell.style.background = levelColor;
+    } else if (percent > 0) {
+      // In progress: gradient fill from bottom based on percent
       cell.classList.add('in-progress');
-      cell.textContent = u + 1;
+      cell.style.background = `linear-gradient(to top, ${levelColor}40 ${percent}%, var(--bg) ${percent}%)`;
+      cell.style.borderColor = levelColor;
+      cell.innerHTML = `<span class="unit-num">${u + 1}</span><span class="unit-percent">${percent}%</span>`;
     } else {
+      // Available: no progress
       cell.classList.add('available');
       cell.textContent = u + 1;
     }
     
-    cell.onclick = () => { showScreen('drill'); startUnitDrill(u); };
+    cell.onclick = () => startUnitDrill(u);
     grid.appendChild(cell);
   }
 }
