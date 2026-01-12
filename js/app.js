@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.20.24';
+const APP_VERSION = '18.20.25';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FURIGANA SYSTEM ==========
@@ -5336,7 +5336,14 @@ function showMockQuestion() {
     // Check if already answered - show selection only (no correct/incorrect until end)
     if (mockState.answers[q.id]) {
       const answer = mockState.answers[q.id];
-      if (labels[idx] === answer.selected) btn.classList.add('selected');
+      if (labels[idx] === answer.selected) {
+        btn.classList.add('selected');
+        const levelColors = { N5: '#34c759', N4: '#007aff', N3: '#af52de', N2: '#1e3a5f', N1: '#ff3b30' };
+        const levelColor = levelColors[state.level] || '#007aff';
+        btn.style.backgroundColor = levelColor + '20';
+        btn.style.borderColor = levelColor;
+        btn.style.color = levelColor;
+      }
     }
     btn.onclick = () => selectMockAnswer(btn, labels[idx], q);
     
@@ -5521,11 +5528,24 @@ function selectMockAnswer(btn, selected, question) {
   // Save answer without showing correct/incorrect (real exam style)
   mockState.answers[question.id] = { selected, question };
   
-  // Highlight selected answer only
+  // Play selection sound
+  playSound('newQuestion');
+  
+  // Get level color
+  const levelColors = { N5: '#34c759', N4: '#007aff', N3: '#af52de', N2: '#1e3a5f', N1: '#ff3b30' };
+  const levelColor = levelColors[state.level] || '#007aff';
+  
+  // Highlight selected answer with level color
   document.querySelectorAll('#mock-options .option-btn').forEach(b => {
     b.classList.remove('selected');
+    b.style.backgroundColor = '';
+    b.style.borderColor = '';
+    b.style.color = '';
   });
   btn.classList.add('selected');
+  btn.style.backgroundColor = levelColor + '20'; // 20% opacity
+  btn.style.borderColor = levelColor;
+  btn.style.color = levelColor;
 }
 
 function mockPrevQuestion() {
