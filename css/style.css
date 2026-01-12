@@ -1108,37 +1108,6 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
   align-items: center;
 }
 
-.today-focus-start-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-  width: 100%;
-  margin-top: 4px;
-  padding: 10px 16px;
-  background: white;
-  color: var(--text);
-  border: 2px solid var(--border);
-  border-radius: 10px;
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: -0.01em;
-  cursor: pointer;
-  transition: opacity 0.2s ease, transform 0.15s ease;
-}
-
-.today-focus-start-btn:hover {
-  opacity: 0.9;
-}
-
-.today-focus-start-btn:active {
-  transform: scale(0.98);
-}
-
-.today-focus-start-btn svg {
-  flex-shrink: 0;
-}
-
 /* Dark mode adjustments for Today's Focus */
 @media (prefers-color-scheme: dark) {
   .today-focus-item {
@@ -1883,7 +1852,6 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
   .today-focus-item { padding: 8px 10px; font-size: 13px; }
   .today-focus-item-icon { width: 24px; height: 24px; }
   .today-focus-item-icon svg { width: 16px; height: 16px; }
-  .today-focus-start-btn { padding: 8px 12px; font-size: 13px; }
   .dash-unit-section { padding: 8px; }
   .category-row { gap: 6px; }
   .category-btn { padding: 8px 6px; gap: 2px; }
@@ -1903,7 +1871,6 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
   .today-focus-item { padding: 6px 8px; font-size: 12px; gap: 8px; }
   .today-focus-item-icon { width: 20px; height: 20px; }
   .today-focus-item-icon svg { width: 14px; height: 14px; }
-  .today-focus-start-btn { padding: 6px 10px; font-size: 12px; }
   .category-btn { padding: 6px 4px; }
   .category-icon { font-size: 16px; }
   .category-name { font-size: 10px; }
