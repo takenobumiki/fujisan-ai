@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.20.23';
+const APP_VERSION = '18.20.24';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FURIGANA SYSTEM ==========
@@ -3587,7 +3587,11 @@ async function startUnitDrill(unitIndex) {
   const questionQueue = [];
   unitItems.forEach((item, itemIndex) => {
     // For grammar items (item.p exists), exclude 'writing' skill as it doesn't make sense
-    const skills = item.p ? SKILL_TYPES.filter(s => s !== 'writing') : SKILL_TYPES;
+    let skills = item.p ? SKILL_TYPES.filter(s => s !== 'writing') : SKILL_TYPES;
+    // Skip reading skill if word and reading are the same (e.g., hiragana-only words)
+    if (item.w && item.r && item.w === item.r && !item.k) {
+      skills = skills.filter(s => s !== 'reading');
+    }
     skills.forEach((skill, skillIndex) => {
       questionQueue.push({ item, itemIndex, skill, skillIndex });
     });
@@ -4047,7 +4051,11 @@ async function startDrill() {
   // Create question queue: each item x skills (grammar excludes writing), then shuffle
   const questionQueue = [];
   sessionItems.forEach((item, itemIndex) => {
-    const skills = item.p ? SKILL_TYPES.filter(s => s !== 'writing') : SKILL_TYPES;
+    let skills = item.p ? SKILL_TYPES.filter(s => s !== 'writing') : SKILL_TYPES;
+    // Skip reading skill if word and reading are the same (e.g., hiragana-only words)
+    if (item.w && item.r && item.w === item.r && !item.k) {
+      skills = skills.filter(s => s !== 'reading');
+    }
     skills.forEach((skill, skillIndex) => {
       questionQueue.push({ item, itemIndex, skill, skillIndex });
     });
