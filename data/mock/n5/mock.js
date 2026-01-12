@@ -19,12 +19,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "わたしは　がくせい（　）。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "ます",
+        "options": ["ます",
           "いる",
           "です",
-          "ある"
-        ],
+          "ある"],
         "answer": 2,
         "id": "N5-01-026"
       },
@@ -32,12 +30,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "がっこう（　）いきます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "まえ",
+        "options": ["まえ",
           "で",
           "すこし",
-          "に"
-        ],
+          "に"],
         "answer": 3,
         "id": "N5-01-027"
       },
@@ -45,12 +41,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "ほん（　）よみます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "あまり",
+        "options": ["あまり",
           "から",
           "まえ",
-          "を"
-        ],
+          "を"],
         "answer": 3,
         "id": "N5-01-028"
       },
@@ -58,12 +52,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "うみ（　）およぎます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "まえ",
+        "options": ["まえ",
           "で",
           "たくさん",
-          "に"
-        ],
+          "に"],
         "answer": 1,
         "id": "N5-01-029"
       },
@@ -71,12 +63,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "ねこ（　）います。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "あまり",
+        "options": ["あまり",
           "が",
           "まで",
-          "ながら"
-        ],
+          "ながら"],
         "answer": 1,
         "id": "N5-01-030"
       },
@@ -84,12 +74,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "りんご（　）みかんを　かいました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "まで",
+        "options": ["まで",
           "あと",
           "と",
-          "すこし"
-        ],
+          "すこし"],
         "answer": 2,
         "id": "N5-01-031"
       },
@@ -97,12 +85,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "9じ（　）しごとを　はじめます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "から",
+        "options": ["から",
           "ながら",
           "が",
-          "あと"
-        ],
+          "あと"],
         "answer": 0,
         "id": "N5-01-032"
       },
@@ -110,12 +96,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "これは　わたし（　）かばんです。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "まえ",
+        "options": ["まえ",
           "が",
           "の",
-          "すこし"
-        ],
+          "すこし"],
         "answer": 2,
         "id": "N5-01-033"
       },
@@ -123,12 +107,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "あした　ともだちに　（　）。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "あって",
+        "options": ["あって",
           "あいます",
           "あう",
-          "あいました"
-        ],
+          "あいました"],
         "answer": 1,
         "id": "N5-01-034"
       },
@@ -136,142 +118,120 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "きのう　えいがを　（　）。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "みました",
+        "options": ["みました",
           "みます",
           "みて",
-          "みる"
-        ],
+          "みる"],
         "answer": 0,
         "id": "N5-01-035"
       },
       {
         "type": "文の組み立て",
-        "text": "【日常会話・問1（N5レベル）】次の語句を正しい順序に並べてください：本を / 図書館で / 私は / 昨日 / 読みました",
-        "question": "正しい順序は？",
-        "options": [
-          "読みました 私は 昨日 図書館で 本を",
-          "私は昨日図書館で本を読みました",
-          "読みました 本を 図書館で 昨日 私は",
-          "昨日 図書館で 本を 読みました 私は"
-        ],
+        "text": "【<ruby>日常<rt>にちじょう</rt></ruby><ruby>会話<rt>かいわ</rt></ruby>・<ruby>問<rt>とん</rt></ruby>1（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>本<rt>ほん</rt></ruby>を / <ruby>図書館<rt>としょかん</rt></ruby>で / <ruby>私<rt>わたし</rt></ruby>は / <ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby> / <ruby>読み<rt>よみ</rt></ruby>ました",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>読み<rt>よみ</rt></ruby>ました <ruby>私<rt>わたし</rt></ruby>は <ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby> <ruby>図書館<rt>としょかん</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を",
+          "<ruby>私<rt>わたし</rt></ruby>は<ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby><ruby>図書館<rt>としょかん</rt></ruby>で<ruby>本<rt>ほん</rt></ruby>を<ruby>読み<rt>よみ</rt></ruby>ました",
+          "<ruby>読み<rt>よみ</rt></ruby>ました <ruby>本<rt>ほん</rt></ruby>を <ruby>図書館<rt>としょかん</rt></ruby>で <ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby> <ruby>私<rt>わたし</rt></ruby>は",
+          "<ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby> <ruby>図書館<rt>としょかん</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を <ruby>読み<rt>よみ</rt></ruby>ました <ruby>私<rt>わたし</rt></ruby>は"],
         "answer": 1,
         "id": "N5-01-036"
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問2（N4レベル）】次の語句を正しい順序に並べてください：します / 毎朝 / 公園を / 彼女は / 散歩",
-        "question": "正しい順序は？",
-        "options": [
-          "毎朝 公園を 散歩 します 彼女は",
-          "します 彼女は 毎朝 公園を 散歩",
-          "彼女は毎朝公園を散歩します",
-          "します 散歩 公園を 毎朝 彼女は"
-        ],
+        "text": "【ビジネス・<ruby>問<rt>とん</rt></ruby>2（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：します / <ruby>毎朝<rt>まいあさ</rt></ruby> / <ruby>公園<rt>こうえん</rt></ruby>を / <ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は / <ruby>散歩<rt>さんぽ</rt></ruby>",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>を <ruby>散歩<rt>さんぽ</rt></ruby> します <ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は",
+          "します <ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は <ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>を <ruby>散歩<rt>さんぽ</rt></ruby>",
+          "<ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は<ruby>毎朝<rt>まいあさ</rt></ruby><ruby>公園<rt>こうえん</rt></ruby>を<ruby>散歩<rt>さんぽ</rt></ruby>します",
+          "します <ruby>散歩<rt>さんぽ</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>を <ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は"],
         "answer": 0,
         "id": "N5-01-037"
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問3（N3レベル）】次の語句を正しい順序に並べてください：です / この店は / いつも / いっぱい / お客さんで",
-        "question": "正しい順序は？",
-        "options": [
-          "です いっぱい お客さんで いつも この店は",
-          "いつも お客さんで いっぱい です この店は",
-          "です この店は いつも お客さんで いっぱい",
-          "この店はいつもお客さんでいっぱいです"
-        ],
+        "text": "【<ruby>学校<rt>がっこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>3（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：です / この<ruby>店<rt>みせ</rt></ruby>は / いつも / いっぱい / お<ruby>客<rt>きゃく</rt></ruby>さんで",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["です いっぱい お<ruby>客<rt>きゃく</rt></ruby>さんで いつも この<ruby>店<rt>みせ</rt></ruby>は",
+          "いつも お<ruby>客<rt>きゃく</rt></ruby>さんで いっぱい です この<ruby>店<rt>みせ</rt></ruby>は",
+          "です この<ruby>店<rt>みせ</rt></ruby>は いつも お<ruby>客<rt>きゃく</rt></ruby>さんで いっぱい",
+          "この<ruby>店<rt>みせ</rt></ruby>はいつもお<ruby>客<rt>きゃく</rt></ruby>さんでいっぱいです"],
         "answer": 3,
         "id": "N5-01-038"
       },
       {
         "type": "文の組み立て",
-        "text": "【旅行・問4（N2レベル）】次の語句を正しい順序に並べてください：できます / 先生に / することが / か / 質問を",
-        "question": "正しい順序は？",
-        "options": [
-          "質問を することが できます か 先生に",
-          "か 先生に 質問を することが できます",
-          "先生に質問をすることができますか",
-          "か できます することが 質問を 先生に"
-        ],
+        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>4（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：できます / <ruby>先生<rt>せんせい</rt></ruby>に / することが / か / <ruby>質問<rt>しつもん</rt></ruby>を",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>質問<rt>しつもん</rt></ruby>を することが できます か <ruby>先生<rt>せんせい</rt></ruby>に",
+          "か <ruby>先生<rt>せんせい</rt></ruby>に <ruby>質問<rt>しつもん</rt></ruby>を することが できます",
+          "<ruby>先生<rt>せんせい</rt></ruby>に<ruby>質問<rt>しつもん</rt></ruby>をすることができますか",
+          "か できます することが <ruby>質問<rt>しつもん</rt></ruby>を <ruby>先生<rt>せんせい</rt></ruby>に"],
         "answer": 1,
         "id": "N5-01-039"
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問5（N1レベル）】次の語句を正しい順序に並べてください：出席 / できない / かもしれません / 明日の / 会議に",
-        "question": "正しい順序は？",
-        "options": [
-          "明日の会議に出席できないかもしれません",
-          "会議に 出席 できない かもしれません 明日の",
-          "かもしれません できない 出席 会議に 明日の",
-          "かもしれません 明日の 会議に 出席 できない"
-        ],
+        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>とん</rt></ruby>5（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>出<rt>で</rt></ruby>席 / できない / かもしれません / <ruby>明日<rt>あした</rt></ruby>の / <ruby>会議<rt>かいぎ</rt></ruby>に",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>明日<rt>あした</rt></ruby>の<ruby>会議<rt>かいぎ</rt></ruby>に<ruby>出<rt>で</rt></ruby>席できないかもしれません",
+          "<ruby>会議<rt>かいぎ</rt></ruby>に <ruby>出<rt>で</rt></ruby>席 できない かもしれません <ruby>明日<rt>あした</rt></ruby>の",
+          "かもしれません できない <ruby>出<rt>で</rt></ruby>席 <ruby>会議<rt>かいぎ</rt></ruby>に <ruby>明日<rt>あした</rt></ruby>の",
+          "かもしれません <ruby>明日<rt>あした</rt></ruby>の <ruby>会議<rt>かいぎ</rt></ruby>に <ruby>出<rt>で</rt></ruby>席 できない"],
         "answer": 2,
         "id": "N5-01-040"
       },
       {
         "type": "文章の文法",
-        "text": "日本経済は長期にわたる停滞（　）、回復の兆しを見せている。（1）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "を経て",
+        "text": "<ruby>日本<rt>にほん</rt></ruby><ruby>経済<rt>けいざい</rt></ruby>は<ruby>長期<rt>ちょうき</rt></ruby>にわたる<ruby>停滞<rt>ていたい</rt></ruby>（　）、<ruby>回<rt>まわ</rt></ruby>復の<ruby>兆<rt>ちょう</rt></ruby>しを<ruby>見<rt>み</rt></ruby>せている。（1）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["を<ruby>経て<rt>へて</rt></ruby>",
           "に至り",
           "をもって",
-          "に反して"
-        ],
+          "に反して"],
         "answer": 0,
         "id": "N5-01-041"
       },
       {
         "type": "文章の文法",
-        "text": "彼の提案は斬新（　）、実現可能性に欠ける。（2）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "なので",
+        "text": "<ruby>彼<rt>かれ</rt></ruby>の提<ruby>案<rt>あん</rt></ruby>は<ruby>斬新<rt>ざんしん</rt></ruby>（　）、実<ruby>現<rt>あらわ</rt></ruby><ruby>可能性<rt>かのうせい</rt></ruby>に<ruby>欠ける<rt>かける</rt></ruby>。（2）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["なので",
           "だとしても",
           "であるから",
-          "ではあるが"
-        ],
+          "ではあるが"],
         "answer": 3,
         "id": "N5-01-042"
       },
       {
         "type": "文章の文法",
-        "text": "環境問題の解決（　）、国際協力が不可欠だ。（3）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "にとって",
-          "に際して",
+        "text": "<ruby>環境問題<rt>かんきょうもんだい</rt></ruby>の<ruby>解決<rt>かいけつ</rt></ruby>（　）、<ruby>国際協力<rt>こくさいきょうりょく</rt></ruby>が<ruby>不可欠<rt>ふかけつ</rt></ruby>だ。（3）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["にとって",
+          "に<ruby>際<rt>さい</rt></ruby>して",
           "には",
-          "において"
-        ],
+          "において"],
         "answer": 2,
         "id": "N5-01-043"
       },
       {
         "type": "文章の文法",
-        "text": "この研究は長年の努力（　）結実したものだ。（4）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "に",
+        "text": "この<ruby>研究<rt>けんきゅう</rt></ruby>は<ruby>長<rt>ちょう</rt></ruby><ruby>年<rt>とし</rt></ruby>の努<ruby>力<rt>ちから</rt></ruby>（　）<ruby>結<rt>むす</rt></ruby>実したものだ。（4）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["に",
           "を",
           "の",
-          "が"
-        ],
+          "が"],
         "answer": 3,
         "id": "N5-01-044"
       },
       {
         "type": "文章の文法",
-        "text": "社会の変化（　）、教育も見直しが必要だ。（5）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "に関して",
+        "text": "<ruby>社会<rt>しゃかい</rt></ruby>の<ruby>変化<rt>へんか</rt></ruby>（　）、<ruby>教育<rt>きょういく</rt></ruby>も<ruby>見直し<rt>みなおし</rt></ruby>が必要だ。（5）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["に<ruby>関して<rt>かんして</rt></ruby>",
           "によると",
           "に伴い",
-          "に対して"
-        ],
+          "に<ruby>対して<rt>たいして</rt></ruby>"],
         "answer": 2,
         "id": "N5-01-045"
       },
@@ -279,12 +239,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "たなかさんは　まいあさ　7じに　おきます。あさごはんを　たべて、8じに　いえを　でます。",
         "question": "たなかさんは　なんじに　おきますか。",
-        "options": [
-          "7じ",
+        "options": ["7じ",
           "8じ",
           "6じ",
-          "9じ"
-        ],
+          "9じ"],
         "answer": 0,
         "id": "N5-01-046"
       },
@@ -292,12 +250,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "わたしは　まいにち　6じかん　ねます。11じに　ねて、5じに　おきます。",
         "question": "わたしは　なんじに　おきますか。",
-        "options": [
-          "4じ",
+        "options": ["4じ",
           "6じ",
           "5じ",
-          "7じ"
-        ],
+          "7じ"],
         "answer": 2,
         "id": "N5-01-047"
       },
@@ -305,12 +261,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "このみせは　10じに　あきます。6じに　しまります。",
         "question": "このみせは　なんじに　あきますか。",
-        "options": [
-          "10じ",
+        "options": ["10じ",
           "11じ",
           "9じ",
-          "12じ"
-        ],
+          "12じ"],
         "answer": 0,
         "id": "N5-01-048"
       },
@@ -318,12 +272,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "わたしは　まいにち　7じに　おきます。シャワーを　あびて、あさごはんを　たべます。8じに　いえを　でて、がっこうに　いきます。がっこうまで　でんしゃで　30ぷんです。",
         "question": "わたしは　なにで　がっこうに　いきますか。",
-        "options": [
-          "バス",
+        "options": ["バス",
           "あるいて",
           "じてんしゃ",
-          "でんしゃ"
-        ],
+          "でんしゃ"],
         "answer": 3,
         "id": "N5-01-049"
       },
@@ -331,12 +283,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "わたしの　いえには　いぬが　1ぴきと　ねこが　2ひき　います。いぬの　なまえは　ポチです。ねこの　なまえは　タマと　ミケです。まいにち　さんぽを　します。",
         "question": "ねこは　なんびき　いますか。",
-        "options": [
-          "2ひき",
+        "options": ["2ひき",
           "3びき",
           "4ひき",
-          "1ぴき"
-        ],
+          "1ぴき"],
         "answer": 0,
         "id": "N5-01-050"
       },
@@ -344,191 +294,163 @@ window.MOCK_DATA['N5'] = {
         "type": "情報検索",
         "text": "【おしらせ】としょかんは　げつようびが　おやすみです。9じから17じまで　あいています。",
         "question": "としょかんは　いつ　おやすみですか。",
-        "options": [
-          "げつようび",
+        "options": ["げつようび",
           "にちようび",
           "どようび",
-          "まいにち"
-        ],
+          "まいにち"],
         "answer": 2,
         "id": "N5-01-051"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人と女の人がスーパーで話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🍎🍎🍎",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>と<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がスーパーで<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🍎🍎🍎",
           "🍊🍊🍊",
           "🍎🍎",
-          "🍊🍊"
-        ],
+          "🍊🍊"],
         "answer": 0,
         "id": "N5-01-052",
         "script": "M: りんご 3つを　おねがいします。\nF: はい、わかりました。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人がお店で買い物をしています。女の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🍇🍇🍇",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がお<ruby>店<rt>みせ</rt></ruby>で<ruby>買い物<rt>かいもの</rt></ruby>をしています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🍇🍇🍇",
           "🍌🍌🍌🍌",
           "🍇🍇",
-          "🍌🍌"
-        ],
+          "🍌🍌"],
         "answer": 1,
         "id": "N5-01-053",
         "script": "F: これですか。\nM: いいえ、バナナ 4つを　ください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人と女の人が八百屋で話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🥕🥕",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>と<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>八百屋<rt>やおや</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🥕🥕",
           "🍅🍅🍅",
           "🥕🥕🥕",
-          "🍅🍅"
-        ],
+          "🍅🍅"],
         "answer": 3,
         "id": "N5-01-054",
         "script": "M: すみません、トマト 2つは　ありますか。\nF: はい、どうぞ。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人がコンビニで買い物をしています。女の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🍙🍙🍙",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がコンビニで<ruby>買い物<rt>かいもの</rt></ruby>をしています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🍙🍙🍙",
           "🍙🍙",
           "🥪🥪",
-          "🥪"
-        ],
+          "🥪"],
         "answer": 1,
         "id": "N5-01-055",
         "script": "M: おにぎり 2つを　ください。\nF: はい、おにぎり 2つですね。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人がパン屋で話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🍞",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>パン屋<rt>ぱんや</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🍞",
           "🥐🥐",
           "🍞🍞",
-          "🥐🥐🥐"
-        ],
+          "🥐🥐🥐"],
         "answer": 3,
         "id": "N5-01-056",
         "script": "F: なにを　かいますか。\nM: 🥐 3つを　かいます。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人がカフェで注文しています。女の人は何を頼みますか。",
-        "question": "何を頼みますか。",
-        "options": [
-          "☕☕",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がカフェで<ruby>注文<rt>ちゅうもん</rt></ruby>しています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>頼み<rt>たのみ</rt></ruby>ますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>頼み<rt>たのみ</rt></ruby>ますか。",
+        "options": ["☕☕",
           "☕",
           "🍵🍵",
-          "🍵"
-        ],
+          "🍵"],
         "answer": 0,
         "id": "N5-01-057",
         "script": "M: コーヒー 2つを　おねがいします。\nF: はい、わかりました。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "講演を聞いています。話者が最も強調しているのは何ですか。（1）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>講<rt>こう</rt></ruby><ruby>演<rt>えん</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（1）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📕"
-        ],
+          "📕"],
         "answer": 2,
         "id": "N5-01-058",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "友達に「また明日」と言いたい（4）",
-        "question": "適切な表現は？",
-        "options": [
-          "📌",
+        "text": "<ruby>友<rt>とも</rt></ruby>達に「また<ruby>明日<rt>あした</rt></ruby>」と<ruby>言<rt>い</rt></ruby>いたい（4）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📆",
           "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-01-067",
         "script": "📆です。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "インタビューを聞いています。話者が最も強調しているのは何ですか。（3）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "インタビューを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（3）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-01-060",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット1問35】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "この席、空いていますか。（1）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
+        "text": "この席、<ruby>空<rt>そら</rt></ruby>いていますか。（1）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
           "わかりません",
           "はい、どうぞ",
-          "はい、食べました"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 2,
         "id": "N5-01-069"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "会議を聞いています。話者が最も強調しているのは何ですか。（5）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>会議<rt>かいぎ</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（5）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-01-062",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット1問37】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "何時からですか。（2）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
+        "text": "<ruby>何時<rt>いつ</rt></ruby>からですか。（2）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
           "わかりません",
-          "いいえ、違います",
-          "10時からです"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "10<ruby>時<rt>とき</rt></ruby>からです"],
         "answer": 3,
         "id": "N5-01-070"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "友達に「おはよう」と言いたい（1）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>友<rt>とも</rt></ruby>達に「おはよう」と<ruby>言<rt>い</rt></ruby>いたい（1）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-01-064",
         "script": "ピンです。"
@@ -536,107 +458,91 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "コンビニはありますか。（3）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "あの角にあります",
-          "いいえ、違います",
-          "はい、食べました"
-        ],
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "あの<ruby>角<rt>かど</rt></ruby>にあります",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 1,
         "id": "N5-01-071"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "先生に「すみません」と言いたい（3）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>先生<rt>せんせい</rt></ruby>に「すみません」と<ruby>言<rt>い</rt></ruby>いたい（3）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-01-066",
         "script": "ピンです。【セット1問41】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "手伝ってもらえますか。（4）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
-          "はい、食べました",
+        "text": "<ruby>手<rt>て</rt></ruby><ruby>伝<rt>でん</rt></ruby>ってもらえますか。（4）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
           "わかりません",
-          "はい、いいですよ"
-        ],
+          "はい、いいですよ"],
         "answer": 3,
         "id": "N5-01-072"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "家族に「いただきます」と言いたい（5）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>家<rt>いえ</rt></ruby><ruby>族<rt>ぞく</rt></ruby>に「いただきます」と<ruby>言<rt>い</rt></ruby>いたい（5）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-01-068",
         "script": "ピンです。【セット1問43】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに出せばいいですか。（5）",
-        "question": "返答は？",
-        "options": [
-          "総務部です",
-          "いいえ、違います",
-          "はい、食べました",
-          "わかりません"
-        ],
+        "text": "どこに<ruby>出<rt>で</rt></ruby>せばいいですか。（5）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["<ruby>総務部<rt>そうむぶ</rt></ruby>です",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "わかりません"],
         "answer": 0,
         "id": "N5-01-073"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "プレゼンを聞いています。話者が最も強調しているのは何ですか。（6）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "プレゼンを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（6）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-01-063",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット1問45】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "お名前は。（6）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "いいえ、違います",
-          "はい、食べました",
-          "田中です"
-        ],
+        "text": "お<ruby>名前<rt>なまえ</rt></ruby>は。（6）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "<ruby>田<rt>た</rt></ruby><ruby>中<rt>なか</rt></ruby>です"],
         "answer": 3,
         "id": "N5-01-074"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "ニュースを聞いています。話者が最も強調しているのは何ですか。（2）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "ニュースを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（2）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-01-059",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット1問47】"
@@ -644,53 +550,45 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "どのくらいかかりますか。（7）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
-          "はい、食べました",
-          "10分くらいです",
-          "わかりません"
-        ],
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "10<ruby>分<rt>ふん</rt></ruby>くらいです",
+          "わかりません"],
         "answer": 2,
         "id": "N5-01-075"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "店員に「これください」と言いたい（2）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>店員<rt>てんいん</rt></ruby>に「これください」と<ruby>言<rt>い</rt></ruby>いたい（2）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-01-065",
         "script": "ピンです。【セット1問49】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "使ってもいいですか。（8）",
-        "question": "返答は？",
-        "options": [
-          "どうぞ",
-          "いいえ、違います",
+        "text": "<ruby>使<rt>つか</rt></ruby>ってもいいですか。（8）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["どうぞ",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
           "わかりません",
-          "はい、食べました"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 0,
         "id": "N5-01-076"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "説明を聞いています。話者が最も強調しているのは何ですか。（4）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>説明<rt>せつめい</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（4）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-01-061",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット1問51】"
@@ -698,481 +596,401 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "漢字読み",
         "text": "<u>算</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "さん",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["さん",
           "はち、や",
           "ねん、とし",
-          "いま、こん"
-        ],
+          "いま、こん"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>目</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "め",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["め",
           "きゅう、く",
           "がつ、つき",
-          "せん、さき"
-        ],
+          "せん、さき"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>母</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "らい、く",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["らい、く",
           "じゅう、とお",
           "にち、ひ",
-          "はは、かあ"
-        ],
+          "はは、かあ"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>右</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "ひゃく",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["ひゃく",
           "みぎ、う",
           "しゅう",
-          "まい"
-        ],
+          "まい"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>百</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "ひゃく",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["ひゃく",
           "せん",
           "じ、とき",
-          "ひと、にん"
-        ],
+          "ひと、にん"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>黒</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "ふん、ぶん",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["ふん、ぶん",
           "まん",
           "くろ",
-          "こ、し"
-        ],
+          "こ、し"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>食</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "た.べる",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["た.べる",
           "えん",
           "はん",
-          "おんな、じょ"
-        ],
+          "おんな、じょ"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>山</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "おとこ、だん",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["おとこ、だん",
           "ねん、とし",
           "いま、こん",
-          "やま"
-        ],
+          "やま"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>国</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "せん、さき",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["せん、さき",
           "がつ、つき",
           "くに",
-          "ちち、とう"
-        ],
+          "ちち、とう"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>室</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "にち、ひ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["にち、ひ",
           "むろ",
           "らい、く",
-          "はは、かあ"
-        ],
+          "はは、かあ"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>時</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "しゅう",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["しゅう",
           "じ、とき",
           "まい",
-          "とも、ゆう"
-        ],
+          "とも、ゆう"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>半</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "ひと、にん",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["ひと、にん",
           "じ、とき",
           "はん",
-          "がく、まな"
-        ],
+          "がく、まな"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>にゅうりょく</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "少ない",
-          "蹴る",
-          "思う",
-          "入力"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>少ない<rt>すくない</rt></ruby>",
+          "<ruby>蹴る<rt>ける</rt></ruby>",
+          "<ruby>思う<rt>おもう</rt></ruby>",
+          "<ruby>入力<rt>にゅうりょく</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>は</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "歯",
-          "椅子",
-          "検索",
-          "通訳"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>歯<rt>し</rt></ruby>",
+          "<ruby>椅子<rt>いす</rt></ruby>",
+          "<ruby>検索<rt>けんさく</rt></ruby>",
+          "<ruby>通<rt>つう</rt></ruby>訳"],
         "answer": 0
       },
       {
         "type": "表記",
         "text": "<u>ぎじゅつ</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "毎週",
-          "技術",
-          "翻訳",
-          "週末"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>毎週<rt>まいしゅう</rt></ruby>",
+          "<ruby>技術<rt>ぎじゅつ</rt></ruby>",
+          "<ruby>翻<rt>ひるがえ</rt></ruby>訳",
+          "<ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>ひとり</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "妻",
-          "喜ぶ",
-          "一人",
-          "道"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>妻<rt>つま</rt></ruby>",
+          "<ruby>喜ぶ<rt>よろこぶ</rt></ruby>",
+          "<ruby>一人<rt>ひとり</rt></ruby>",
+          "<ruby>道<rt>みち</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>ざっし</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "雑誌",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>雑<rt>ざつ</rt></ruby>誌",
           "お酒",
-          "宿題",
-          "雲"
-        ],
+          "<ruby>宿題<rt>しゅくだい</rt></ruby>",
+          "<ruby>雲<rt>くも</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "表記",
         "text": "<u>しずか</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "払う",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>払う<rt>はらう</rt></ruby>",
           "静か",
-          "関係",
-          "汚れる"
-        ],
+          "<ruby>関係<rt>かんけい</rt></ruby>",
+          "<ruby>汚れる<rt>よごれる</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>ちゅうしゃじょう</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "左",
-          "優しい",
-          "駐車場",
-          "小さい"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>左<rt>ひだり</rt></ruby>",
+          "<ruby>優しい<rt>やさしい</rt></ruby>",
+          "<ruby>駐車場<rt>ちゅうしゃじょう</rt></ruby>",
+          "<ruby>小さい<rt>ちいさい</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>れきし</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "歴史",
-          "私",
-          "看護師",
-          "夜"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["歴<ruby>史<rt>し</rt></ruby>",
+          "<ruby>私<rt>わたし</rt></ruby>",
+          "<ruby>看護<rt>かんご</rt></ruby><ruby>師<rt>し</rt></ruby>",
+          "<ruby>夜<rt>よる</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "ご飯を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "大人",
-          "椅子",
-          "宿題",
-          "食べる"
-        ],
+        "text": "<ruby>ご飯<rt>ごはん</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>大人<rt>おとな</rt></ruby>",
+          "<ruby>椅子<rt>いす</rt></ruby>",
+          "<ruby>宿題<rt>しゅくだい</rt></ruby>",
+          "<ruby>食べる<rt>たべる</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "水を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "毎週",
-          "飲む",
-          "関係",
-          "思い出す"
-        ],
+        "text": "<ruby>水<rt>みず</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>毎週<rt>まいしゅう</rt></ruby>",
+          "<ruby>飲む<rt>のむ</rt></ruby>",
+          "<ruby>関係<rt>かんけい</rt></ruby>",
+          "<ruby>思い出す<rt>おもいだす</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "文脈規定",
         "text": "テレビを（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "見る",
-          "喜ぶ",
-          "左",
-          "エアコン"
-        ],
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>見る<rt>みる</rt></ruby>",
+          "<ruby>喜ぶ<rt>よろこぶ</rt></ruby>",
+          "<ruby>左<rt>ひだり</rt></ruby>",
+          "エアコン"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "音楽を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "削除",
+        "text": "<ruby>音楽<rt>おんがく</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>削<rt>けず</rt></ruby>除",
           "お酒",
-          "看護師",
-          "聞く"
-        ],
+          "<ruby>看護<rt>かんご</rt></ruby><ruby>師<rt>し</rt></ruby>",
+          "<ruby>聞く<rt>きく</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "本を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "払う",
-          "読む",
-          "歳",
-          "果物"
-        ],
+        "text": "<ruby>本<rt>ほん</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>払う<rt>はらう</rt></ruby>",
+          "<ruby>読む<rt>よむ</rt></ruby>",
+          "<ruby>歳<rt>さい</rt></ruby>",
+          "<ruby>果<rt>はな</rt></ruby><ruby>物<rt>もの</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "文脈規定",
-        "text": "手紙を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "迎える",
+        "text": "<ruby>手紙<rt>てがみ</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>迎える<rt>むかえる</rt></ruby>",
           "そして",
-          "書く",
-          "完璧"
-        ],
+          "<ruby>書く<rt>かく</rt></ruby>",
+          "<ruby>完璧<rt>かんぺき</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "日本語を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "毎晩",
-          "優しい",
-          "妹",
-          "話す"
-        ],
+        "text": "<ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>毎晩<rt>まいばん</rt></ruby>",
+          "<ruby>優しい<rt>やさしい</rt></ruby>",
+          "<ruby>妹<rt>いもうと</rt></ruby>",
+          "<ruby>話す<rt>はなす</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "名前を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "少ない",
-          "私",
-          "言う",
-          "空"
-        ],
+        "text": "<ruby>名前<rt>なまえ</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>少ない<rt>すくない</rt></ruby>",
+          "<ruby>私<rt>わたし</rt></ruby>",
+          "<ruby>言う<rt>いう</rt></ruby>",
+          "<ruby>空<rt>そら</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "学校に（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "あの",
+        "text": "<ruby>学校<rt>がっこう</rt></ruby>に（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["あの",
           "あなた",
-          "行く",
-          "試す"
-        ],
+          "<ruby>行く<rt>いく</rt></ruby>",
+          "<ruby>試す<rt>ためす</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "友達が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "スポーツ",
+        "text": "<ruby>友<rt>とも</rt></ruby>達が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["スポーツ",
           "いつ",
-          "通訳",
-          "来る"
-        ],
+          "<ruby>通<rt>つう</rt></ruby>訳",
+          "<ruby>来る<rt>くる</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "家に（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "帰る",
-          "奥さん",
-          "週末",
-          "踊る"
-        ],
+        "text": "<ruby>家<rt>いえ</rt></ruby>に（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>帰る<rt>かえる</rt></ruby>",
+          "<ruby>奥さん<rt>おくさん</rt></ruby>",
+          "<ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby>",
+          "<ruby>踊る<rt>おどる</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "部屋に（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "入る",
-          "運転手",
-          "道",
-          "心配"
-        ],
+        "text": "<ruby>部屋<rt>へや</rt></ruby>に（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>入る<rt>はいる</rt></ruby>",
+          "<ruby>運転手<rt>うんてんしゅ</rt></ruby>",
+          "<ruby>道<rt>みち</rt></ruby>",
+          "<ruby>心<rt>こころ</rt></ruby>配"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "外に（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "燃える",
-          "眼鏡",
-          "雲",
-          "出る"
-        ],
+        "text": "<ruby>外<rt>そと</rt></ruby>に（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["燃える",
+          "<ruby>眼<rt>め</rt></ruby><ruby>鏡<rt>かがみ</rt></ruby>",
+          "<ruby>雲<rt>くも</rt></ruby>",
+          "<ruby>出る<rt>でる</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "朝（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "起きる",
-          "思う",
-          "汚れる",
-          "引く"
-        ],
+        "text": "<ruby>朝<rt>あさ</rt></ruby>（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>起きる<rt>おきる</rt></ruby>",
+          "<ruby>思う<rt>おもう</rt></ruby>",
+          "<ruby>汚れる<rt>よごれる</rt></ruby>",
+          "<ruby>引く<rt>ひく</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "夜（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "寝る",
-          "検索",
-          "小さい",
-          "呼ぶ"
-        ],
+        "text": "<ruby>夜<rt>よる</rt></ruby>（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>寝る<rt>ねる</rt></ruby>",
+          "<ruby>検索<rt>けんさく</rt></ruby>",
+          "<ruby>小さい<rt>ちいさい</rt></ruby>",
+          "<ruby>呼ぶ<rt>よぶ</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "言い換え",
         "text": "ご飯を<ruby>食べる<rt>たべる</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "歳",
-          "食す",
-          "毎晩",
-          "居間"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>歳<rt>さい</rt></ruby>",
+          "<ruby>食<rt>た</rt></ruby>す",
+          "<ruby>毎晩<rt>まいばん</rt></ruby>",
+          "<ruby>居間<rt>いま</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "言い換え",
         "text": "水を<ruby>飲む<rt>のむ</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "服用する",
-          "迎える",
-          "空",
-          "趣味"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>服<rt>ふく</rt></ruby>用する",
+          "<ruby>迎える<rt>むかえる</rt></ruby>",
+          "<ruby>空<rt>そら</rt></ruby>",
+          "<ruby>趣味<rt>しゅみ</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "言い換え",
         "text": "テレビを<ruby>見る<rt>みる</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "妹",
-          "観る",
-          "試す",
-          "高い"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>妹<rt>いもうと</rt></ruby>",
+          "<ruby>観<rt>かん</rt></ruby>る",
+          "<ruby>試す<rt>ためす</rt></ruby>",
+          "<ruby>高い<rt>たかい</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "言い換え",
         "text": "音楽を<ruby>聞く<rt>きく</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "少ない",
-          "聴く",
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>少ない<rt>すくない</rt></ruby>",
+          "<ruby>聴<rt>き</rt></ruby>く",
           "スポーツ",
-          "賑やか"
-        ],
+          "<ruby>賑<rt>しん</rt></ruby>やか"],
         "answer": 1
       },
       {
         "type": "言い換え",
         "text": "本を<ruby>読む<rt>よむ</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "目を通す",
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>目を通す<rt>めをとおす</rt></ruby>",
           "あの",
-          "踊る",
-          "博物館"
-        ],
+          "<ruby>踊る<rt>おどる</rt></ruby>",
+          "博<ruby>物<rt>もの</rt></ruby><ruby>館<rt>かん</rt></ruby>"],
         "answer": 0
       }
     ],
@@ -1181,12 +999,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "わたしは　にくを　（　）。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "たべません",
+        "options": ["たべません",
           "たべます",
           "たべない",
-          "たべる"
-        ],
+          "たべる"],
         "answer": 0,
         "id": "N5-02-026"
       },
@@ -1194,12 +1010,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "てを　あらっ（　）ごはんを　たべます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "に",
+        "options": ["に",
           "て",
           "から",
-          "で"
-        ],
+          "で"],
         "answer": 1,
         "id": "N5-02-027"
       },
@@ -1207,12 +1021,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "いま　ごはんを　（　）います。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "たべ",
+        "options": ["たべ",
           "たべた",
           "たべる",
-          "たべて"
-        ],
+          "たべて"],
         "answer": 3,
         "id": "N5-02-028"
       },
@@ -1220,12 +1032,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "わたしは　にほんに　いき（　）です。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "たい",
+        "options": ["たい",
           "ます",
           "て",
-          "る"
-        ],
+          "る"],
         "answer": 0,
         "id": "N5-02-029"
       },
@@ -1233,12 +1043,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "きょうは　（　）ですね。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "あつかった",
+        "options": ["あつかった",
           "あつく",
           "あつくて",
-          "あつい"
-        ],
+          "あつい"],
         "answer": 3,
         "id": "N5-02-030"
       },
@@ -1246,12 +1054,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "やまださんは　（　）ひとです。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "しんせつな",
+        "options": ["しんせつな",
           "しんせつに",
           "しんせつで",
-          "しんせつ"
-        ],
+          "しんせつ"],
         "answer": 0,
         "id": "N5-02-031"
       },
@@ -1259,12 +1065,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "えきは　（　）ですか。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "だれ",
+        "options": ["だれ",
           "どこ",
           "いつ",
-          "なに"
-        ],
+          "なに"],
         "answer": 1,
         "id": "N5-02-032"
       },
@@ -1272,12 +1076,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "りんごを　（　）ください。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "いっこ",
+        "options": ["いっこ",
           "いちこ",
           "ひとこ",
-          "ひとつ"
-        ],
+          "ひとつ"],
         "answer": 3,
         "id": "N5-02-033"
       },
@@ -1285,12 +1087,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "あめです（　）、でかけません。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "と",
+        "options": ["と",
           "ながら",
           "から",
-          "とき"
-        ],
+          "とき"],
         "answer": 2,
         "id": "N5-02-034"
       },
@@ -1298,142 +1098,120 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "じかんが　あっ（　）、てつだいます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "と",
+        "options": ["と",
           "ら",
           "で",
-          "たら"
-        ],
+          "たら"],
         "answer": 3,
         "id": "N5-02-035"
       },
       {
         "type": "文の組み立て",
-        "text": "【日常会話・問6（N5レベル）】次の語句を正しい順序に並べてください：日本語を / いる / 勉強して / 学生が / 多いです",
-        "question": "正しい順序は？",
-        "options": [
-          "多いです 日本語を 勉強して いる 学生が",
-          "多いです 学生が いる 勉強して 日本語を",
-          "勉強して いる 学生が 多いです 日本語を",
-          "日本語を勉強している学生が多いです"
-        ],
+        "text": "【<ruby>日常<rt>にちじょう</rt></ruby><ruby>会話<rt>かいわ</rt></ruby>・<ruby>問<rt>とん</rt></ruby>6（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を / いる / <ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>して / <ruby>学生<rt>がくせい</rt></ruby>が / <ruby>多い<rt>おおい</rt></ruby>です",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>多い<rt>おおい</rt></ruby>です <ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を <ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>して いる <ruby>学生<rt>がくせい</rt></ruby>が",
+          "<ruby>多い<rt>おおい</rt></ruby>です <ruby>学生<rt>がくせい</rt></ruby>が いる <ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>して <ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を",
+          "<ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>して いる <ruby>学生<rt>がくせい</rt></ruby>が <ruby>多い<rt>おおい</rt></ruby>です <ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を",
+          "<ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を<ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>している<ruby>学生<rt>がくせい</rt></ruby>が<ruby>多い<rt>おおい</rt></ruby>です"],
         "answer": 2,
         "id": "N5-02-036"
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問7（N4レベル）】次の語句を正しい順序に並べてください：私には / 解けません / この問題は / 難しすぎて",
-        "question": "正しい順序は？",
-        "options": [
-          "この問題は難しすぎて私には解けません",
-          "解けません この問題は 難しすぎて 私には",
-          "解けません 私には 難しすぎて この問題は",
-          "難しすぎて 私には 解けません この問題は"
-        ],
+        "text": "【ビジネス・<ruby>問<rt>とん</rt></ruby>7（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>私<rt>わたし</rt></ruby>には / <ruby>解<rt>かい</rt></ruby>けません / この<ruby>問題<rt>もんだい</rt></ruby>は / <ruby>難<rt>なん</rt></ruby>しすぎて",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["この<ruby>問題<rt>もんだい</rt></ruby>は<ruby>難<rt>なん</rt></ruby>しすぎて<ruby>私<rt>わたし</rt></ruby>には<ruby>解<rt>かい</rt></ruby>けません",
+          "<ruby>解<rt>かい</rt></ruby>けません この<ruby>問題<rt>もんだい</rt></ruby>は <ruby>難<rt>なん</rt></ruby>しすぎて <ruby>私<rt>わたし</rt></ruby>には",
+          "<ruby>解<rt>かい</rt></ruby>けません <ruby>私<rt>わたし</rt></ruby>には <ruby>難<rt>なん</rt></ruby>しすぎて この<ruby>問題<rt>もんだい</rt></ruby>は",
+          "<ruby>難<rt>なん</rt></ruby>しすぎて <ruby>私<rt>わたし</rt></ruby>には <ruby>解<rt>かい</rt></ruby>けません この<ruby>問題<rt>もんだい</rt></ruby>は"],
         "answer": 3,
         "id": "N5-02-037"
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問8（N3レベル）】次の語句を正しい順序に並べてください：彼は / 住んで / 3年間 / アメリカに / いました",
-        "question": "正しい順序は？",
-        "options": [
-          "彼はアメリカに3年間住んでいました",
-          "いました 住んで 3年間 アメリカに 彼は",
-          "いました 彼は アメリカに 3年間 住んで",
-          "アメリカに 3年間 住んで いました 彼は"
-        ],
+        "text": "【<ruby>学校<rt>がっこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>8（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>彼<rt>かれ</rt></ruby>は / <ruby>住<rt>すわる</rt></ruby>んで / 3<ruby>年間<rt>ねんかん</rt></ruby> / アメリカに / いました",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>彼<rt>かれ</rt></ruby>はアメリカに3<ruby>年間<rt>ねんかん</rt></ruby><ruby>住<rt>すわる</rt></ruby>んでいました",
+          "いました <ruby>住<rt>すわる</rt></ruby>んで 3<ruby>年間<rt>ねんかん</rt></ruby> アメリカに <ruby>彼<rt>かれ</rt></ruby>は",
+          "いました <ruby>彼<rt>かれ</rt></ruby>は アメリカに 3<ruby>年間<rt>ねんかん</rt></ruby> <ruby>住<rt>すわる</rt></ruby>んで",
+          "アメリカに 3<ruby>年間<rt>ねんかん</rt></ruby> <ruby>住<rt>すわる</rt></ruby>んで いました <ruby>彼<rt>かれ</rt></ruby>は"],
         "answer": 2,
         "id": "N5-02-038"
       },
       {
         "type": "文の組み立て",
-        "text": "【旅行・問9（N2レベル）】次の語句を正しい順序に並べてください：しまいました / 遅れた / 遅刻して / 電車が / ため",
-        "question": "正しい順序は？",
-        "options": [
-          "しまいました 電車が 遅れた ため 遅刻して",
-          "電車が遅れたため遅刻してしまいました",
-          "遅れた ため 遅刻して しまいました 電車が",
-          "しまいました 遅刻して ため 遅れた 電車が"
-        ],
+        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>9（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：しまいました / <ruby>遅れ<rt>おくれ</rt></ruby>た / <ruby>遅刻<rt>ちこく</rt></ruby>して / <ruby>電車<rt>でんしゃ</rt></ruby>が / ため",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["しまいました <ruby>電車<rt>でんしゃ</rt></ruby>が <ruby>遅れ<rt>おくれ</rt></ruby>た ため <ruby>遅刻<rt>ちこく</rt></ruby>して",
+          "<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>遅れ<rt>おくれ</rt></ruby>たため<ruby>遅刻<rt>ちこく</rt></ruby>してしまいました",
+          "<ruby>遅れ<rt>おくれ</rt></ruby>た ため <ruby>遅刻<rt>ちこく</rt></ruby>して しまいました <ruby>電車<rt>でんしゃ</rt></ruby>が",
+          "しまいました <ruby>遅刻<rt>ちこく</rt></ruby>して ため <ruby>遅れ<rt>おくれ</rt></ruby>た <ruby>電車<rt>でんしゃ</rt></ruby>が"],
         "answer": 3,
         "id": "N5-02-039"
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問10（N1レベル）】次の語句を正しい順序に並べてください：この映画は / とても / 面白いと / 思います",
-        "question": "正しい順序は？",
-        "options": [
-          "思います この映画は とても 面白いと",
-          "思います 面白いと とても この映画は",
-          "この映画はとても面白いと思います",
-          "とても 面白いと 思います この映画は"
-        ],
+        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>とん</rt></ruby>10（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：この<ruby>映画<rt>えいが</rt></ruby>は / とても / 面白いと / <ruby>思い<rt>おもい</rt></ruby>ます",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>思い<rt>おもい</rt></ruby>ます この<ruby>映画<rt>えいが</rt></ruby>は とても 面白いと",
+          "<ruby>思い<rt>おもい</rt></ruby>ます 面白いと とても この<ruby>映画<rt>えいが</rt></ruby>は",
+          "この<ruby>映画<rt>えいが</rt></ruby>はとても面白いと<ruby>思い<rt>おもい</rt></ruby>ます",
+          "とても 面白いと <ruby>思い<rt>おもい</rt></ruby>ます この<ruby>映画<rt>えいが</rt></ruby>は"],
         "answer": 2,
         "id": "N5-02-040"
       },
       {
         "type": "文章の文法",
-        "text": "困難（　）乗り越え、目標を達成した。（6）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "に",
+        "text": "<ruby>困難<rt>こんなん</rt></ruby>（　）<ruby>乗<rt>のむ</rt></ruby>り<ruby>越<rt>こ</rt></ruby>え、<ruby>目標<rt>もくひょう</rt></ruby>を達<ruby>成<rt>せい</rt></ruby>した。（6）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["に",
           "を",
           "から",
-          "で"
-        ],
+          "で"],
         "answer": 1,
         "id": "N5-02-041"
       },
       {
         "type": "文章の文法",
-        "text": "専門家（　）意見を聞く必要がある。（7）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "から",
+        "text": "専<ruby>門<rt>もん</rt></ruby><ruby>家<rt>いえ</rt></ruby>（　）<ruby>意見<rt>いけん</rt></ruby>を<ruby>聞く<rt>きく</rt></ruby>必要がある。（7）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["から",
           "への",
           "の",
-          "による"
-        ],
+          "による"],
         "answer": 2,
         "id": "N5-02-042"
       },
       {
         "type": "文章の文法",
-        "text": "技術の進歩（　）、生活は大きく変わった。（8）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "に対して",
+        "text": "<ruby>技術<rt>ぎじゅつ</rt></ruby>の<ruby>進歩<rt>しんぽ</rt></ruby>（　）、<ruby>生活<rt>せいかつ</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変<rt>へん</rt></ruby>わった。（8）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["に<ruby>対して<rt>たいして</rt></ruby>",
           "により",
-          "に関して",
-          "にとって"
-        ],
+          "に<ruby>関して<rt>かんして</rt></ruby>",
+          "にとって"],
         "answer": 1,
         "id": "N5-02-043"
       },
       {
         "type": "文章の文法",
-        "text": "彼の行動は法律（　）許されない。（9）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "的に",
+        "text": "<ruby>彼<rt>かれ</rt></ruby>の<ruby>行動<rt>こうどう</rt></ruby>は<ruby>法律<rt>ほうりつ</rt></ruby>（　）<ruby>許<rt>きょ</rt></ruby>されない。（9）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>的<rt>てき</rt></ruby>に",
           "としても",
-          "上",
-          "において"
-        ],
+          "<ruby>上<rt>うえ</rt></ruby>",
+          "において"],
         "answer": 2,
         "id": "N5-02-044"
       },
       {
         "type": "文章の文法",
-        "text": "予算の制約（　）実現が困難だ。（10）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "として",
+        "text": "<ruby>予算<rt>よさん</rt></ruby>の<ruby>制<rt>せい</rt></ruby>約（　）実<ruby>現<rt>あらわ</rt></ruby>が<ruby>困難<rt>こんなん</rt></ruby>だ。（10）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["として",
           "から",
           "にして",
-          "ゆえに"
-        ],
+          "ゆえに"],
         "answer": 1,
         "id": "N5-02-045"
       },
@@ -1441,12 +1219,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "えいがは　2じかんです。3じに　はじまります。",
         "question": "えいがは　なんじに　おわりますか。",
-        "options": [
-          "5じ",
+        "options": ["5じ",
           "7じ",
           "6じ",
-          "4じ"
-        ],
+          "4じ"],
         "answer": 0,
         "id": "N5-02-046"
       },
@@ -1454,12 +1230,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "バスは　15ふんごとに　きます。いま　9じです。つぎのバスは　9じ15ふんです。",
         "question": "つぎのバスは　なんじですか。",
-        "options": [
-          "9じ30ぷん",
+        "options": ["9じ30ぷん",
           "9じ15ふん",
           "9じ",
-          "10じ"
-        ],
+          "10じ"],
         "answer": 1,
         "id": "N5-02-047"
       },
@@ -1467,12 +1241,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "わたしの　へやには　つくえと　いすが　あります。まどの　ちかくに　ベッドが　あります。",
         "question": "ベッドは　どこに　ありますか。",
-        "options": [
-          "まどの　ちかく",
+        "options": ["まどの　ちかく",
           "ドアの　ちかく",
           "つくえの　ちかく",
-          "いすの　ちかく"
-        ],
+          "いすの　ちかく"],
         "answer": 3,
         "id": "N5-02-048"
       },
@@ -1480,12 +1252,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "きのう　ともだちと　えいがを　みました。えいがは　2じかんでした。そのあと　レストランで　ばんごはんを　たべました。とても　たのしかったです。",
         "question": "えいがの　あとで　なにを　しましたか。",
-        "options": [
-          "ばんごはんを　たべた",
+        "options": ["ばんごはんを　たべた",
           "こうえんに　いった",
           "いえに　かえった",
-          "かいものを　した"
-        ],
+          "かいものを　した"],
         "answer": 0,
         "id": "N5-02-049"
       },
@@ -1493,12 +1263,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "わたしの　しゅみは　りょうりです。どようびに　よく　りょうりを　します。きのうは　カレーを　つくりました。かぞくは　おいしいと　いいました。",
         "question": "きのう　なにを　つくりましたか。",
-        "options": [
-          "サラダ",
+        "options": ["サラダ",
           "ラーメン",
           "すし",
-          "カレー"
-        ],
+          "カレー"],
         "answer": 1,
         "id": "N5-02-050"
       },
@@ -1506,272 +1274,232 @@ window.MOCK_DATA['N5'] = {
         "type": "情報検索",
         "text": "【メニュー】ラーメン500えん、カレー450えん、うどん400えん。セットは　プラス200えん。",
         "question": "カレーは　いくらですか。",
-        "options": [
-          "500えん",
+        "options": ["500えん",
           "400えん",
           "450えん",
-          "200えん"
-        ],
+          "200えん"],
         "answer": 0,
         "id": "N5-02-051"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人がレストランで注文しています。男の人は何を注文しますか。",
-        "question": "何を注文しますか。",
-        "options": [
-          "🍺🍺",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がレストランで<ruby>注文<rt>ちゅうもん</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>注文<rt>ちゅうもん</rt></ruby>しますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>注文<rt>ちゅうもん</rt></ruby>しますか。",
+        "options": ["🍺🍺",
           "🍷",
           "🍺",
-          "🍷🍷"
-        ],
+          "🍷🍷"],
         "answer": 2,
         "id": "N5-02-052",
         "script": "M: 🍺を　おねがいします。\nF: はい、わかりました。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "学生が文房具店で買い物をしています。学生は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "✏️✏️✏️",
+        "text": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>文<rt>ぶん</rt></ruby><ruby>房<rt>ふさ</rt></ruby><ruby>具<rt>ぐ</rt></ruby><ruby>店<rt>みせ</rt></ruby>で<ruby>買い物<rt>かいもの</rt></ruby>をしています。<ruby>学生<rt>がくせい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["✏️✏️✏️",
           "📒",
           "📒📒",
-          "✏️✏️"
-        ],
+          "✏️✏️"],
         "answer": 0,
         "id": "N5-02-053",
         "script": "F: これですか。\nM: いいえ、✏ 3つを　ください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人が本屋で話しています。女の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "📗",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>本屋<rt>ほんや</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["📗",
           "📕",
           "📗📗📗",
-          "📕📕"
-        ],
+          "📕📕"],
         "answer": 3,
         "id": "N5-02-054",
         "script": "M: すみません、ほん 2つは　ありますか。\nF: はい、どうぞ。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人が食堂で注文しています。男の人は何を食べますか。",
-        "question": "何を食べますか。",
-        "options": [
-          "🍛",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>食堂<rt>しょくどう</rt></ruby>で<ruby>注文<rt>ちゅうもん</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>食<rt>た</rt></ruby>べますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>食<rt>た</rt></ruby>べますか。",
+        "options": ["🍛",
           "🍱",
           "🍜",
-          "🍣"
-        ],
+          "🍣"],
         "answer": 0,
         "id": "N5-02-055",
         "script": "M: 🍛を　ください。\nF: はい、🍛ですね。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人がレストランで注文しています。女の人は何を頼みますか。",
-        "question": "何を頼みますか。",
-        "options": [
-          "🍔🍔",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がレストランで<ruby>注文<rt>ちゅうもん</rt></ruby>しています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>頼み<rt>たのみ</rt></ruby>ますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>頼み<rt>たのみ</rt></ruby>ますか。",
+        "options": ["🍔🍔",
           "🍔",
           "🍕🍕",
-          "🍕"
-        ],
+          "🍕"],
         "answer": 3,
         "id": "N5-02-056",
         "script": "F: なにを　かいますか。\nM: 🍕を　かいます。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人と女の人が話しています。女の人はどこへ行きますか。",
-        "question": "どこへ行きますか。",
-        "options": [
-          "🏪",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>と<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>話<rt>はなし</rt></ruby>しています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>はどこへ<ruby>行<rt>い</rt></ruby>きますか。",
+        "question": "どこへ<ruby>行<rt>い</rt></ruby>きますか。",
+        "options": ["🏪",
           "🏥",
           "🏣",
-          "🏫"
-        ],
+          "🏫"],
         "answer": 1,
         "id": "N5-02-057",
         "script": "M: びょういんを　おねがいします。\nF: はい、わかりました。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "授業を聞いています。話者が最も強調しているのは何ですか。（7）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>授業<rt>じゅぎょう</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（7）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-02-058",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット2問33】"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "友達に「また明日」と言いたい（9）",
-        "question": "適切な表現は？",
-        "options": [
-          "📌",
+        "text": "<ruby>友<rt>とも</rt></ruby>達に「また<ruby>明日<rt>あした</rt></ruby>」と<ruby>言<rt>い</rt></ruby>いたい（9）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📆",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-02-067",
         "script": "📆です。【セット2問34】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "案内を聞いています。話者が最も強調しているのは何ですか。（9）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>案内<rt>あんない</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（9）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-02-060",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット2問35】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "もう一杯いかがですか。（9）",
-        "question": "返答は？",
-        "options": [
-          "いただきます",
+        "text": "もう<ruby>一<rt>いち</rt></ruby><ruby>杯<rt>さかずき</rt></ruby>いかがですか。（9）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いただきます",
           "わかりません",
-          "いいえ、違います",
-          "はい、食べました"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 0,
         "id": "N5-02-069"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "報告を聞いています。話者が最も強調しているのは何ですか。（11）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>報告<rt>ほうこく</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（11）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-02-062",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット2問37】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "楽しかったですね。（10）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
-          "はい、食べました",
+        "text": "<ruby>楽<rt>らく</rt></ruby>しかったですね。（10）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
           "わかりません",
-          "本当ですね"
-        ],
+          "<ruby>本<rt>ほん</rt></ruby>当ですね"],
         "answer": 3,
         "id": "N5-02-070"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "友達に「おはよう」と言いたい（6）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>友<rt>とも</rt></ruby>達に「おはよう」と<ruby>言<rt>い</rt></ruby>いたい（6）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-02-064",
         "script": "ピンです。【セット2問39】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "郵便局はどこですか。（11）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
+        "text": "郵<ruby>便<rt>べん</rt></ruby><ruby>局<rt>きょく</rt></ruby>はどこですか。（11）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
           "わかりません",
-          "この先です",
-          "はい、食べました"
-        ],
+          "この<ruby>先<rt>さき</rt></ruby>です",
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 2,
         "id": "N5-02-071"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "先生に「すみません」と言いたい（8）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>先生<rt>せんせい</rt></ruby>に「すみません」と<ruby>言<rt>い</rt></ruby>いたい（8）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-02-066",
         "script": "ピンです。【セット2問41】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "お時間よろしいですか。（12）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "いいえ、違います",
-          "はい、食べました",
-          "大丈夫です"
-        ],
+        "text": "お<ruby>時間<rt>じかん</rt></ruby>よろしいですか。（12）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "<ruby>大<rt>だい</rt></ruby><ruby>丈<rt>たけ</rt></ruby>夫です"],
         "answer": 3,
         "id": "N5-02-072"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "家族に「いただきます」と言いたい（10）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>家<rt>いえ</rt></ruby><ruby>族<rt>ぞく</rt></ruby>に「いただきます」と<ruby>言<rt>い</rt></ruby>いたい（10）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-02-068",
         "script": "ピンです。【セット2問43】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "傘はお持ちですか。（13）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
+        "text": "<ruby>傘<rt>かさ</rt></ruby>はお<ruby>持<rt>もつ</rt></ruby>ちですか。（13）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
           "わかりません",
-          "忘れました",
-          "いいえ、違います"
-        ],
+          "<ruby>忘<rt>ぼう</rt></ruby>れました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 2,
         "id": "N5-02-073"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "対談を聞いています。話者が最も強調しているのは何ですか。（12）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>対<rt>たい</rt></ruby>談を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（12）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-02-063",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット2問45】"
@@ -1779,80 +1507,68 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "静かでいいですね。（14）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
-          "はい、食べました",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
           "わかりません",
-          "そうですね"
-        ],
+          "そうですね"],
         "answer": 3,
         "id": "N5-02-074"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "ラジオを聞いています。話者が最も強調しているのは何ですか。（8）",
-        "question": "最も強調しているのは？",
-        "options": [
-          "📕",
+        "text": "ラジオを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（8）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📕",
           "📌",
           "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-02-059",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット2問47】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "お荷物お持ちしましょうか。（15）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "はい、食べました",
+        "text": "お<ruby>荷物<rt>にもつ</rt></ruby>お<ruby>持<rt>もつ</rt></ruby>ちしましょうか。（15）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
           "ありがとうございます",
-          "いいえ、違います"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 2,
         "id": "N5-02-075"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "店員に「これください」と言いたい（7）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>店員<rt>てんいん</rt></ruby>に「これください」と<ruby>言<rt>い</rt></ruby>いたい（7）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-02-065",
         "script": "ピンです。【セット2問49】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "今日は暑いですね。（16）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "いいえ、違います",
-          "はい、食べました",
-          "本当ですね"
-        ],
+        "text": "<ruby>今日<rt>きょう</rt></ruby>は暑いですね。（16）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "<ruby>本<rt>ほん</rt></ruby>当ですね"],
         "answer": 3,
         "id": "N5-02-076"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "スピーチを聞いています。話者が最も強調しているのは何ですか。（10）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "スピーチを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（10）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-02-061",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット2問51】"
@@ -1860,481 +1576,401 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "漢字読み",
         "text": "<u>高</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "ふん、ぶん",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["ふん、ぶん",
           "たか、こう",
           "こ、し",
-          "こう"
-        ],
+          "こう"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>千</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "せい、う",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["せい、う",
           "はん",
           "おんな、じょ",
-          "せん"
-        ],
+          "せん"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>音</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "ほん、もと",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["ほん、もと",
           "いま、こん",
           "おとこ、だん",
-          "おと"
-        ],
+          "おと"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>大</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "せん、さき",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["せん、さき",
           "おお、だい",
           "ちち、とう",
-          "なに、なん"
-        ],
+          "なに、なん"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>理</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "はは、かあ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["はは、かあ",
           "らい、く",
           "り",
-          "うえ、じょう"
-        ],
+          "うえ、じょう"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>会</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "した、か",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["した、か",
           "まい",
           "とも、ゆう",
-          "あ"
-        ],
+          "あ"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>貝</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "ひと、にん",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["ひと、にん",
           "かい",
           "がく、まな",
-          "なか、ちゅう"
-        ],
+          "なか、ちゅう"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>王</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "おう",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["おう",
           "こ、し",
           "こう",
-          "そと、がい"
-        ],
+          "そと、がい"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>友</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "みぎ、う",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["みぎ、う",
           "おんな、じょ",
           "せい、う",
-          "とも、ゆう"
-        ],
+          "とも、ゆう"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>一</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "ほん、もと",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["ほん、もと",
           "おとこ、だん",
           "いち、ひと",
-          "ひだり、さ"
-        ],
+          "ひだり、さ"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>人</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "きた、ほく",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["きた、ほく",
           "ちち、とう",
           "なに、なん",
-          "ひと、にん"
-        ],
+          "ひと、にん"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>南</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "うえ、じょう",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["うえ、じょう",
           "はは、かあ",
           "みなみ、なん",
-          "はやし"
-        ],
+          "はやし"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>くつした</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "靴下",
-          "奥さん",
-          "歳",
-          "大人"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>靴下<rt>くつした</rt></ruby>",
+          "<ruby>奥さん<rt>おくさん</rt></ruby>",
+          "<ruby>歳<rt>さい</rt></ruby>",
+          "<ruby>大人<rt>おとな</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "表記",
         "text": "<u>らいねん</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "思い出す",
-          "運転手",
-          "迎える",
-          "来年"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>思い出す<rt>おもいだす</rt></ruby>",
+          "<ruby>運転手<rt>うんてんしゅ</rt></ruby>",
+          "<ruby>迎える<rt>むかえる</rt></ruby>",
+          "<ruby>来年<rt>らいねん</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>もつ</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "妹",
-          "眼鏡",
-          "持つ",
-          "削除"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>妹<rt>いもうと</rt></ruby>",
+          "<ruby>眼<rt>め</rt></ruby><ruby>鏡<rt>かがみ</rt></ruby>",
+          "<ruby>持つ<rt>もつ</rt></ruby>",
+          "<ruby>削<rt>けず</rt></ruby>除"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>ける</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "果物",
-          "思う",
-          "少ない",
-          "蹴る"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>果<rt>はな</rt></ruby><ruby>物<rt>もの</rt></ruby>",
+          "<ruby>思う<rt>おもう</rt></ruby>",
+          "<ruby>少ない<rt>すくない</rt></ruby>",
+          "<ruby>蹴る<rt>ける</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>いす</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "検索",
-          "椅子",
-          "通訳",
-          "完璧"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>検索<rt>けんさく</rt></ruby>",
+          "<ruby>椅子<rt>いす</rt></ruby>",
+          "<ruby>通<rt>つう</rt></ruby>訳",
+          "<ruby>完璧<rt>かんぺき</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>まいしゅう</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "週末",
-          "翻訳",
-          "毎週",
-          "毎晩"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby>",
+          "<ruby>翻<rt>ひるがえ</rt></ruby>訳",
+          "<ruby>毎週<rt>まいしゅう</rt></ruby>",
+          "<ruby>毎晩<rt>まいばん</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>よろこぶ</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "妻",
-          "喜ぶ",
-          "道",
-          "空"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>妻<rt>つま</rt></ruby>",
+          "<ruby>喜ぶ<rt>よろこぶ</rt></ruby>",
+          "<ruby>道<rt>みち</rt></ruby>",
+          "<ruby>空<rt>そら</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>おさけ</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "試す",
-          "宿題",
-          "雲",
-          "お酒"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>試す<rt>ためす</rt></ruby>",
+          "<ruby>宿題<rt>しゅくだい</rt></ruby>",
+          "<ruby>雲<rt>くも</rt></ruby>",
+          "お酒"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "椅子に（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "夜",
-          "翻訳",
-          "座る",
-          "預ける"
-        ],
+        "text": "<ruby>椅子<rt>いす</rt></ruby>に（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>夜<rt>よる</rt></ruby>",
+          "<ruby>翻<rt>ひるがえ</rt></ruby>訳",
+          "<ruby>座る<rt>すわる</rt></ruby>",
+          "<ruby>預ける<rt>あずける</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
         "text": "ここに（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "なる",
-          "妻",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["なる",
+          "<ruby>妻<rt>つま</rt></ruby>",
           "立つ",
-          "来る"
-        ],
+          "<ruby>来る<rt>くる</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "道を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "本",
-          "宿題",
-          "大人",
-          "歩く"
-        ],
+        "text": "<ruby>道<rt>みち</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>本<rt>ほん</rt></ruby>",
+          "<ruby>宿題<rt>しゅくだい</rt></ruby>",
+          "<ruby>大人<rt>おとな</rt></ruby>",
+          "<ruby>歩く<rt>あるく</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "公園を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "走る",
-          "関係",
-          "思い出す",
-          "履く"
-        ],
+        "text": "<ruby>公園<rt>こうえん</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>走る<rt>はしる</rt></ruby>",
+          "<ruby>関係<rt>かんけい</rt></ruby>",
+          "<ruby>思い出す<rt>おもいだす</rt></ruby>",
+          "<ruby>履く<rt>はく</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "海で（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "泳ぐ",
-          "左",
+        "text": "<ruby>海<rt>うみ</rt></ruby>で（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>泳ぐ<rt>およぐ</rt></ruby>",
+          "<ruby>左<rt>ひだり</rt></ruby>",
           "エアコン",
-          "色々"
-        ],
+          "<ruby>色々<rt>いろいろ</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "本を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "看護師",
-          "買う",
-          "削除",
-          "変える"
-        ],
+        "text": "<ruby>本<rt>ほん</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>看護<rt>かんご</rt></ruby><ruby>師<rt>し</rt></ruby>",
+          "<ruby>買う<rt>かう</rt></ruby>",
+          "<ruby>削<rt>けず</rt></ruby>除",
+          "<ruby>変える<rt>かえる</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "文脈規定",
-        "text": "車を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "生活",
-          "歳",
-          "果物",
-          "売る"
-        ],
+        "text": "<ruby>車<rt>くるま</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>生活<rt>せいかつ</rt></ruby>",
+          "<ruby>歳<rt>さい</rt></ruby>",
+          "<ruby>果<rt>はな</rt></ruby><ruby>物<rt>もの</rt></ruby>",
+          "<ruby>売る<rt>うる</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "料理を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "迎える",
-          "作る",
-          "完璧",
-          "起きる"
-        ],
+        "text": "料<ruby>理<rt>り</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>迎える<rt>むかえる</rt></ruby>",
+          "<ruby>作る<rt>つくる</rt></ruby>",
+          "<ruby>完璧<rt>かんぺき</rt></ruby>",
+          "<ruby>起きる<rt>おきる</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "文脈規定",
         "text": "パソコンを（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "妹",
-          "使う",
-          "毎晩",
-          "共有"
-        ],
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>妹<rt>いもうと</rt></ruby>",
+          "<ruby>使う<rt>つかう</rt></ruby>",
+          "<ruby>毎晩<rt>まいばん</rt></ruby>",
+          "<ruby>共有<rt>きょうゆう</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "文脈規定",
         "text": "かばんを（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "持つ",
-          "少ない",
-          "空",
-          "捕まえる"
-        ],
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>持つ<rt>もつ</rt></ruby>",
+          "<ruby>少ない<rt>すくない</rt></ruby>",
+          "<ruby>空<rt>そら</rt></ruby>",
+          "<ruby>捕まえる<rt>つかまえる</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "本を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "置く",
+        "text": "<ruby>本<rt>ほん</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["置く",
           "あの",
-          "試す",
-          "居間"
-        ],
+          "<ruby>試す<rt>ためす</rt></ruby>",
+          "<ruby>居間<rt>いま</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "写真を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "通訳",
+        "text": "<ruby>写<rt>うつ</rt></ruby>真を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>通<rt>つう</rt></ruby>訳",
           "取る",
           "スポーツ",
-          "趣味"
-        ],
+          "<ruby>趣味<rt>しゅみ</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "文脈規定",
         "text": "ここで（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "踊る",
-          "週末",
-          "待つ",
-          "高い"
-        ],
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>踊る<rt>おどる</rt></ruby>",
+          "<ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby>",
+          "<ruby>待つ<rt>まつ</rt></ruby>",
+          "<ruby>高い<rt>たかい</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "友達に（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "道",
-          "会う",
-          "心配",
-          "賑やか"
-        ],
+        "text": "<ruby>友<rt>とも</rt></ruby>達に（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>道<rt>みち</rt></ruby>",
+          "<ruby>会う<rt>あう</rt></ruby>",
+          "<ruby>心<rt>こころ</rt></ruby>配",
+          "<ruby>賑<rt>しん</rt></ruby>やか"],
         "answer": 1
       },
       {
         "type": "文脈規定",
-        "text": "英語を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "教える",
-          "雲",
+        "text": "<ruby>英語<rt>えいご</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>教える<rt>おしえる</rt></ruby>",
+          "<ruby>雲<rt>くも</rt></ruby>",
           "燃える",
-          "博物館"
-        ],
+          "博<ruby>物<rt>もの</rt></ruby><ruby>館<rt>かん</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "言い換え",
         "text": "手紙を<ruby>書く<rt>かく</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "通訳",
-          "記す",
-          "心配",
-          "空港"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>通<rt>つう</rt></ruby>訳",
+          "<ruby>記す<rt>しるす</rt></ruby>",
+          "<ruby>心<rt>こころ</rt></ruby>配",
+          "<ruby>空港<rt>くうこう</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "言い換え",
         "text": "日本語を<ruby>話す<rt>はなす</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "燃える",
-          "週末",
-          "喋る",
-          "新聞"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["燃える",
+          "<ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby>",
+          "<ruby>喋<rt>ちょう</rt></ruby>る",
+          "<ruby>新聞<rt>しんぶん</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "言い換え",
         "text": "名前を<ruby>言う<rt>いう</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "道",
-          "述べる",
-          "引く",
-          "足"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>道<rt>みち</rt></ruby>",
+          "<ruby>述べる<rt>のべる</rt></ruby>",
+          "<ruby>引く<rt>ひく</rt></ruby>",
+          "<ruby>足<rt>あし</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "言い換え",
         "text": "学校に<ruby>行く<rt>いく</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "向かう",
-          "雲",
-          "呼ぶ",
-          "今"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>向かう<rt>むかう</rt></ruby>",
+          "<ruby>雲<rt>くも</rt></ruby>",
+          "<ruby>呼ぶ<rt>よぶ</rt></ruby>",
+          "<ruby>今<rt>いま</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "言い換え",
         "text": "友達が<ruby>来る<rt>くる</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "汚れる",
-          "訪れる",
-          "預ける",
-          "万"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>汚れる<rt>よごれる</rt></ruby>",
+          "<ruby>訪れる<rt>おとずれる</rt></ruby>",
+          "<ruby>預ける<rt>あずける</rt></ruby>",
+          "<ruby>万<rt>まん</rt></ruby>"],
         "answer": 1
       }
     ],
@@ -2343,12 +1979,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "ともだち（　）あいました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "あまり",
+        "options": ["あまり",
           "まで",
           "に",
-          "とても"
-        ],
+          "とても"],
         "answer": 2,
         "id": "N5-03-026"
       },
@@ -2356,12 +1990,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "えき（　）おります。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "で",
+        "options": ["で",
           "とても",
           "ながら",
-          "も"
-        ],
+          "も"],
         "answer": 0,
         "id": "N5-03-028"
       },
@@ -2369,12 +2001,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "でんしゃ（　）のります。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "あと",
+        "options": ["あと",
           "が",
           "たくさん",
-          "に"
-        ],
+          "に"],
         "answer": 3,
         "id": "N5-03-027"
       },
@@ -2382,12 +2012,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "にほんご（　）べんきょうします。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "も",
+        "options": ["も",
           "たくさん",
           "を",
-          "あまり"
-        ],
+          "あまり"],
         "answer": 2,
         "id": "N5-03-029"
       },
@@ -2395,12 +2023,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "やま（　）のぼります。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "へ",
+        "options": ["へ",
           "まえ",
           "とき",
-          "に"
-        ],
+          "に"],
         "answer": 3,
         "id": "N5-03-034"
       },
@@ -2408,12 +2034,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "おんがく（　）ききます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "を",
+        "options": ["を",
           "とき",
           "まえ",
-          "に"
-        ],
+          "に"],
         "answer": 0,
         "id": "N5-03-031"
       },
@@ -2421,12 +2045,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "レストラン（　）たべます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "とき",
+        "options": ["とき",
           "を",
           "とても",
-          "で"
-        ],
+          "で"],
         "answer": 3,
         "id": "N5-03-035"
       },
@@ -2434,25 +2056,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "こうえん（　）さんぽします。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "を",
+        "options": ["を",
           "で",
           "あと",
-          "とても"
-        ],
+          "とても"],
         "answer": 0,
         "id": "N5-03-033"
       },
       {
         "type": "文の組み立て",
-        "text": "【日常会話・問11（N5レベル）】次の語句を正しい順序に並べてください：母に / 買って / あげました / プレゼントを",
-        "question": "正しい順序は？",
-        "options": [
-          "母にプレゼントを買ってあげました",
-          "プレゼントを 買って あげました 母に",
-          "あげました 買って プレゼントを 母に",
-          "あげました 母に プレゼントを 買って"
-        ],
+        "text": "【<ruby>日常<rt>にちじょう</rt></ruby><ruby>会話<rt>かいわ</rt></ruby>・<ruby>問<rt>とん</rt></ruby>11（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>母<rt>はは</rt></ruby>に / <ruby>買<rt>か</rt></ruby>って / あげました / プレゼントを",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>母<rt>はは</rt></ruby>にプレゼントを<ruby>買<rt>か</rt></ruby>ってあげました",
+          "プレゼントを <ruby>買<rt>か</rt></ruby>って あげました <ruby>母<rt>はは</rt></ruby>に",
+          "あげました <ruby>買<rt>か</rt></ruby>って プレゼントを <ruby>母<rt>はは</rt></ruby>に",
+          "あげました <ruby>母<rt>はは</rt></ruby>に プレゼントを <ruby>買<rt>か</rt></ruby>って"],
         "answer": 3,
         "id": "N5-03-036"
       },
@@ -2460,25 +2078,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "えいが（　）みます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "を",
+        "options": ["を",
           "すこし",
           "へ",
-          "ながら"
-        ],
+          "ながら"],
         "answer": 0,
         "id": "N5-03-032"
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問12（N4レベル）】次の語句を正しい順序に並べてください：行きたい / 一緒に / 友達と / 旅行に / です",
-        "question": "正しい順序は？",
-        "options": [
-          "友達と一緒に旅行に行きたいです",
-          "一緒に 旅行に 行きたい です 友達と",
-          "です 行きたい 旅行に 一緒に 友達と",
-          "です 友達と 一緒に 旅行に 行きたい"
-        ],
+        "text": "【ビジネス・<ruby>問<rt>とん</rt></ruby>12（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>行<rt>い</rt></ruby>きたい / <ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に / <ruby>友<rt>とも</rt></ruby>達と / <ruby>旅行<rt>りょこう</rt></ruby>に / です",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>友<rt>とも</rt></ruby>達と<ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に<ruby>旅行<rt>りょこう</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたいです",
+          "<ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>行<rt>い</rt></ruby>きたい です <ruby>友<rt>とも</rt></ruby>達と",
+          "です <ruby>行<rt>い</rt></ruby>きたい <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に <ruby>友<rt>とも</rt></ruby>達と",
+          "です <ruby>友<rt>とも</rt></ruby>達と <ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>行<rt>い</rt></ruby>きたい"],
         "answer": 0,
         "id": "N5-03-037"
       },
@@ -2486,90 +2100,76 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "へや（　）そうじします。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "を",
+        "options": ["を",
           "まで",
           "あと",
-          "とき"
-        ],
+          "とき"],
         "answer": 0,
         "id": "N5-03-030"
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問13（N3レベル）】次の語句を正しい順序に並べてください：降って / ようです / 雨が / いる",
-        "question": "正しい順序は？",
-        "options": [
-          "ようです いる 降って 雨が",
-          "雨が降っているようです",
-          "ようです 雨が 降って いる",
-          "降って いる ようです 雨が"
-        ],
+        "text": "【<ruby>学校<rt>がっこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>13（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>降<rt>こう</rt></ruby>って / ようです / <ruby>雨<rt>あめ</rt></ruby>が / いる",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["ようです いる <ruby>降<rt>こう</rt></ruby>って <ruby>雨<rt>あめ</rt></ruby>が",
+          "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>こう</rt></ruby>っているようです",
+          "ようです <ruby>雨<rt>あめ</rt></ruby>が <ruby>降<rt>こう</rt></ruby>って いる",
+          "<ruby>降<rt>こう</rt></ruby>って いる ようです <ruby>雨<rt>あめ</rt></ruby>が"],
         "answer": 1,
         "id": "N5-03-038"
       },
       {
         "type": "文の組み立て",
-        "text": "【旅行・問14（N2レベル）】次の語句を正しい順序に並べてください：連絡して / 仕事を / ください / 終えたら",
-        "question": "正しい順序は？",
-        "options": [
-          "仕事を終えたら連絡してください",
-          "ください 仕事を 終えたら 連絡して",
-          "ください 連絡して 終えたら 仕事を",
-          "終えたら 連絡して ください 仕事を"
-        ],
+        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>14（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>連絡<rt>れんらく</rt></ruby>して / <ruby>仕事<rt>しごと</rt></ruby>を / ください / <ruby>終<rt>しゅう</rt></ruby>えたら",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>仕事<rt>しごと</rt></ruby>を<ruby>終<rt>しゅう</rt></ruby>えたら<ruby>連絡<rt>れんらく</rt></ruby>してください",
+          "ください <ruby>仕事<rt>しごと</rt></ruby>を <ruby>終<rt>しゅう</rt></ruby>えたら <ruby>連絡<rt>れんらく</rt></ruby>して",
+          "ください <ruby>連絡<rt>れんらく</rt></ruby>して <ruby>終<rt>しゅう</rt></ruby>えたら <ruby>仕事<rt>しごと</rt></ruby>を",
+          "<ruby>終<rt>しゅう</rt></ruby>えたら <ruby>連絡<rt>れんらく</rt></ruby>して ください <ruby>仕事<rt>しごと</rt></ruby>を"],
         "answer": 3,
         "id": "N5-03-039"
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問15（N1レベル）】次の語句を正しい順序に並べてください：この料理は / 母が / 作って / くれました",
-        "question": "正しい順序は？",
-        "options": [
-          "くれました 作って 母が この料理は",
-          "くれました この料理は 母が 作って",
-          "母が 作って くれました この料理は",
-          "この料理は母が作ってくれました"
-        ],
+        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>とん</rt></ruby>15（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：この料<ruby>理<rt>り</rt></ruby>は / <ruby>母<rt>はは</rt></ruby>が / <ruby>作<rt>さく</rt></ruby>って / くれました",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["くれました <ruby>作<rt>さく</rt></ruby>って <ruby>母<rt>はは</rt></ruby>が この料<ruby>理<rt>り</rt></ruby>は",
+          "くれました この料<ruby>理<rt>り</rt></ruby>は <ruby>母<rt>はは</rt></ruby>が <ruby>作<rt>さく</rt></ruby>って",
+          "<ruby>母<rt>はは</rt></ruby>が <ruby>作<rt>さく</rt></ruby>って くれました この料<ruby>理<rt>り</rt></ruby>は",
+          "この料<ruby>理<rt>り</rt></ruby>は<ruby>母<rt>はは</rt></ruby>が<ruby>作<rt>さく</rt></ruby>ってくれました"],
         "answer": 2,
         "id": "N5-03-040"
       },
       {
         "type": "文章の文法",
-        "text": "結果（　）良ければ全て良しとは限らない。（11）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "が",
+        "text": "<ruby>結果<rt>けっか</rt></ruby>（　）<ruby>良<rt>りょう</rt></ruby>ければ<ruby>全て<rt>すべて</rt></ruby><ruby>良<rt>りょう</rt></ruby>しとは<ruby>限<rt>かぎ</rt></ruby>らない。（11）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["が",
           "こそ",
           "だけ",
-          "さえ"
-        ],
+          "さえ"],
         "answer": 0,
         "id": "N5-03-041"
       },
       {
         "type": "文章の文法",
-        "text": "努力家である（　）、才能にも恵まれている。（12）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "にもかかわらず",
+        "text": "努<ruby>力<rt>ちから</rt></ruby><ruby>家<rt>いえ</rt></ruby>である（　）、<ruby>才能<rt>さいのう</rt></ruby>にも<ruby>恵<rt>めぐ</rt></ruby>まれている。（12）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["にもかかわらず",
           "からこそ",
           "のみならず",
-          "とはいえ"
-        ],
+          "とはいえ"],
         "answer": 2,
         "id": "N5-03-042"
       },
       {
         "type": "文章の文法",
-        "text": "一朝一夕（　）解決できるものではない。（13）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "に",
+        "text": "<ruby>一朝一夕<rt>いっちょういっせき</rt></ruby>（　）<ruby>解決<rt>かいけつ</rt></ruby>できるものではない。（13）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["に",
           "で",
           "では",
-          "には"
-        ],
+          "には"],
         "answer": 0,
         "id": "N5-03-043"
       },
@@ -2577,25 +2177,21 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "ほんやは　えきの　まえに　あります。ゆうびんきょくは　ほんやの　となりです。",
         "question": "ゆうびんきょくは　どこに　ありますか。",
-        "options": [
-          "えきの　なか",
+        "options": ["えきの　なか",
           "えきの　まえ",
           "ほんやの　となり",
-          "ほんやの　うしろ"
-        ],
+          "ほんやの　うしろ"],
         "answer": 2,
         "id": "N5-03-046"
       },
       {
         "type": "文章の文法",
-        "text": "経験（　）勝るものはない。（15）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "が",
+        "text": "<ruby>経験<rt>けいけん</rt></ruby>（　）<ruby>勝る<rt>まさる</rt></ruby>ものはない。（15）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["が",
           "より",
           "に",
-          "を"
-        ],
+          "を"],
         "answer": 2,
         "id": "N5-03-045"
       },
@@ -2603,25 +2199,21 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "スーパーは　がっこうの　みぎに　あります。びょういんは　がっこうの　ひだりに　あります。",
         "question": "びょういんは　どこに　ありますか。",
-        "options": [
-          "がっこうの　まえ",
+        "options": ["がっこうの　まえ",
           "がっこうの　みぎ",
           "がっこうの　うしろ",
-          "がっこうの　ひだり"
-        ],
+          "がっこうの　ひだり"],
         "answer": 1,
         "id": "N5-03-047"
       },
       {
         "type": "文章の文法",
-        "text": "事実（　）基づいている。（14）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "と",
+        "text": "<ruby>事<rt>こと</rt></ruby>実（　）<ruby>基づいて<rt>もとづいて</rt></ruby>いる。（14）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["と",
           "を",
           "が",
-          "に"
-        ],
+          "に"],
         "answer": 3,
         "id": "N5-03-044"
       },
@@ -2629,12 +2221,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "わたしの　いえは　こうえんの　ちかくに　あります。こうえんまで　あるいて　5ふんです。",
         "question": "こうえんまで　どのくらい　かかりますか。",
-        "options": [
-          "10ぷん",
+        "options": ["10ぷん",
           "15ふん",
           "5ふん",
-          "3ぷん"
-        ],
+          "3ぷん"],
         "answer": 2,
         "id": "N5-03-048"
       },
@@ -2642,12 +2232,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "たなかさんは　かいしゃいんです。まいにち　9じから　6じまで　はたらきます。どようびと　にちようびは　やすみです。やすみの　ひは　テニスを　します。",
         "question": "たなかさんは　いつ　テニスを　しますか。",
-        "options": [
-          "どようびか　にちようび",
+        "options": ["どようびか　にちようび",
           "きんようび",
           "げつようび",
-          "すいようび"
-        ],
+          "すいようび"],
         "answer": 3,
         "id": "N5-03-049"
       },
@@ -2655,12 +2243,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "わたしは　にほんごがっこうの　がくせいです。クラスには　15にんの　がくせいが　います。アメリカじんが　5にん、ちゅうごくじんが　6にん、かんこくじんが　4にん　います。",
         "question": "クラスで　いちばん　おおいのは　どこの　ひとですか。",
-        "options": [
-          "かんこくじん",
+        "options": ["かんこくじん",
           "にほんじん",
           "ちゅうごくじん",
-          "アメリカじん"
-        ],
+          "アメリカじん"],
         "answer": 2,
         "id": "N5-03-050"
       },
@@ -2668,191 +2254,163 @@ window.MOCK_DATA['N5'] = {
         "type": "情報検索",
         "text": "【えいがかん】こども300えん、おとな1000えん。すいようびは　はんがく。",
         "question": "すいようびの　こどもは　いくらですか。",
-        "options": [
-          "150えん",
+        "options": ["150えん",
           "300えん",
           "1000えん",
-          "500えん"
-        ],
+          "500えん"],
         "answer": 3,
         "id": "N5-03-051"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人と女の人が駅で話しています。何で行きますか。",
-        "question": "何で行きますか。",
-        "options": [
-          "🚃",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>と<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>駅<rt>えき</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>何<rt>なに</rt></ruby>で<ruby>行<rt>い</rt></ruby>きますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>で<ruby>行<rt>い</rt></ruby>きますか。",
+        "options": ["🚃",
           "🚕",
           "🚌",
-          "🚶"
-        ],
+          "🚶"],
         "answer": 0,
         "id": "N5-03-052",
         "script": "M: 🚃を　おねがいします。\nF: はい、わかりました。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人が出かける準備をしています。女の人は何を持っていきますか。",
-        "question": "何を持っていきますか。",
-        "options": [
-          "👒",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>出かける<rt>でかける</rt></ruby><ruby>準備<rt>じゅんび</rt></ruby>をしています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>持<rt>もつ</rt></ruby>っていきますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>持<rt>もつ</rt></ruby>っていきますか。",
+        "options": ["👒",
           "🧥",
           "☂️",
-          "🧣"
-        ],
+          "🧣"],
         "answer": 2,
         "id": "N5-03-053",
         "script": "F: これですか。\nM: いいえ、☂を　ください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人がペットショップで話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🐟🐟🐟",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がペットショップで<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🐟🐟🐟",
           "🐹",
           "🐈",
-          "🐕"
-        ],
+          "🐕"],
         "answer": 0,
         "id": "N5-03-054",
         "script": "M: すみません、🐟 3つは　ありますか。\nF: はい、どうぞ。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "友達同士が電話で話しています。明日何をしますか。",
-        "question": "明日何をしますか。",
-        "options": [
-          "⚽",
+        "text": "<ruby>友<rt>とも</rt></ruby>達<ruby>同<rt>どう</rt></ruby>士が<ruby>電話<rt>でんわ</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>明日<rt>あした</rt></ruby><ruby>何<rt>なに</rt></ruby>をしますか。",
+        "question": "<ruby>明日<rt>あした</rt></ruby><ruby>何<rt>なに</rt></ruby>をしますか。",
+        "options": ["⚽",
           "🎿",
           "🎾",
-          "🏊"
-        ],
+          "🏊"],
         "answer": 2,
         "id": "N5-03-055",
         "script": "M: 🎾を　ください。\nF: はい、🎾ですね。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "子供がお母さんと話しています。子供は何をもらいますか。",
-        "question": "何をもらいますか。",
-        "options": [
-          "🍬🍬🍬",
+        "text": "<ruby>子供<rt>こども</rt></ruby>が<ruby>お母さん<rt>おかあさん</rt></ruby>と<ruby>話<rt>はなし</rt></ruby>しています。<ruby>子供<rt>こども</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をもらいますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>をもらいますか。",
+        "options": ["🍬🍬🍬",
           "🍬🍬",
           "🍫🍫",
-          "🍫"
-        ],
+          "🍫"],
         "answer": 0,
         "id": "N5-03-056",
         "script": "F: なにを　かいますか。\nM: 🍬 3つを　かいます。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人がケーキ屋で話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🧁🧁🧁",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>ケーキ屋<rt>けーきや</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🧁🧁🧁",
           "🧁",
           "🍰🍰",
-          "🍰"
-        ],
+          "🍰"],
         "answer": 2,
         "id": "N5-03-057",
         "script": "M: ケーキ 2つを　おねがいします。\nF: はい、わかりました。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "講義を聞いています。話者が最も強調しているのは何ですか。（13）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>講義<rt>こうぎ</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（13）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-03-058",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット3問33】"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "友達に「また明日」と言いたい（14）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>友<rt>とも</rt></ruby>達に「また<ruby>明日<rt>あした</rt></ruby>」と<ruby>言<rt>い</rt></ruby>いたい（14）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📆"
-        ],
+          "📆"],
         "answer": 3,
         "id": "N5-03-067",
         "script": "📆です。【セット3問34】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "討論を聞いています。話者が最も強調しているのは何ですか。（15）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "討<ruby>論<rt>ろん</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（15）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-03-060",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット3問35】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "何時までですか。（17）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "6時までです",
-          "いいえ、違います",
-          "はい、食べました"
-        ],
+        "text": "<ruby>何時<rt>いつ</rt></ruby>までですか。（17）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "6<ruby>時<rt>とき</rt></ruby>までです",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 1,
         "id": "N5-03-069"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "番組を聞いています。話者が最も強調しているのは何ですか。（17）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>番組<rt>ばんぐみ</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（17）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-03-062",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット3問37】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "週末の予定は。（18）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
-          "はい、食べました",
-          "特にないです",
-          "わかりません"
-        ],
+        "text": "<ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby>の<ruby>予定<rt>よてい</rt></ruby>は。（18）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "<ruby>特に<rt>とくに</rt></ruby>ないです",
+          "わかりません"],
         "answer": 2,
         "id": "N5-03-070"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "友達に「おはよう」と言いたい（11）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>友<rt>とも</rt></ruby>達に「おはよう」と<ruby>言<rt>い</rt></ruby>いたい（11）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-03-064",
         "script": "ピンです。【セット3問39】"
@@ -2860,134 +2418,114 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "おいしいですね。（19）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
           "わかりません",
-          "はい、食べました",
-          "そうですね"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "そうですね"],
         "answer": 3,
         "id": "N5-03-071"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "先生に「すみません」と言いたい（13）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>先生<rt>せんせい</rt></ruby>に「すみません」と<ruby>言<rt>い</rt></ruby>いたい（13）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-03-066",
         "script": "ピンです。【セット3問41】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "写真撮ってもいいですか。（20）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
-          "大丈夫ですよ",
-          "いいえ、違います",
-          "わかりません"
-        ],
+        "text": "<ruby>写<rt>うつ</rt></ruby>真<ruby>撮<rt>とる</rt></ruby>ってもいいですか。（20）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
+          "<ruby>大<rt>だい</rt></ruby><ruby>丈<rt>たけ</rt></ruby>夫ですよ",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "わかりません"],
         "answer": 1,
         "id": "N5-03-072"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "家族に「いただきます」と言いたい（15）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>家<rt>いえ</rt></ruby><ruby>族<rt>ぞく</rt></ruby>に「いただきます」と<ruby>言<rt>い</rt></ruby>いたい（15）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-03-068",
         "script": "ピンです。【セット3問43】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "お仕事は何ですか。（21）",
-        "question": "返答は？",
-        "options": [
-          "会社員です",
-          "いいえ、違います",
-          "はい、食べました",
-          "わかりません"
-        ],
+        "text": "お<ruby>仕事<rt>しごと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。（21）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["<ruby>会社<rt>かいしゃ</rt></ruby><ruby>員<rt>いん</rt></ruby>です",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "わかりません"],
         "answer": 0,
         "id": "N5-03-073"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "特集を聞いています。話者が最も強調しているのは何ですか。（18）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>特<rt>とく</rt></ruby><ruby>集<rt>しゅう</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（18）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-03-063",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット3問45】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "趣味は何ですか。（22）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
-          "読書です",
+        "text": "<ruby>趣味<rt>しゅみ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。（22）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
+          "<ruby>読書<rt>どくしょ</rt></ruby>です",
           "わかりません",
-          "いいえ、違います"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 1,
         "id": "N5-03-074"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "解説を聞いています。話者が最も強調しているのは何ですか。（14）",
-        "question": "最も強調しているのは？",
-        "options": [
-          "📕",
+        "text": "<ruby>解説<rt>かいせつ</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（14）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📕",
           "📌",
           "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-03-059",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット3問47】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "出身はどこですか。（23）",
-        "question": "返答は？",
-        "options": [
-          "東京です",
-          "いいえ、違います",
+        "text": "<ruby>出<rt>で</rt></ruby>身はどこですか。（23）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["<ruby>東<rt>ひがし</rt></ruby><ruby>京<rt>きょう</rt></ruby>です",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
           "わかりません",
-          "はい、食べました"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 0,
         "id": "N5-03-075"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "店員に「これください」と言いたい（12）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>店員<rt>てんいん</rt></ruby>に「これください」と<ruby>言<rt>い</rt></ruby>いたい（12）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-03-065",
         "script": "ピンです。【セット3問49】"
@@ -2995,26 +2533,22 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "いつからですか。（24）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
           "わかりません",
-          "はい、食べました",
-          "来週からです"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "<ruby>来週<rt>らいしゅう</rt></ruby>からです"],
         "answer": 3,
         "id": "N5-03-076"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "セミナーを聞いています。話者が最も強調しているのは何ですか。（16）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "セミナーを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（16）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-03-061",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット3問51】"
@@ -3022,481 +2556,401 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "漢字読み",
         "text": "<u>週</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "とも、ゆう",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["とも、ゆう",
           "しゅう",
           "した、か",
-          "ひがし、とう"
-        ],
+          "ひがし、とう"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>虫</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "なか、ちゅう",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["なか、ちゅう",
           "がく、まな",
           "むし",
-          "にし、せい"
-        ],
+          "にし、せい"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>森</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "おお、だい",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["おお、だい",
           "こう",
           "そと、がい",
-          "もり"
-        ],
+          "もり"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>竹</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "みぎ、う",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["みぎ、う",
           "せい、う",
           "たけ",
-          "ちい、しょう"
-        ],
+          "ちい、しょう"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>三</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "ひだり、さ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["ひだり、さ",
           "ほん、もと",
           "さん、み",
-          "たか、こう"
-        ],
+          "たか、こう"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>今</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "いま、こん",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["いま、こん",
           "なに、なん",
           "きた、ほく",
-          "もり"
-        ],
+          "もり"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>力</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "うえ、じょう",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["うえ、じょう",
           "ちから",
           "みなみ、なん",
-          "はやし"
-        ],
+          "はやし"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>弓</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "ゆみ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["ゆみ",
           "した、か",
           "ひがし、とう",
-          "たけ"
-        ],
+          "たけ"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>買</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "なか、ちゅう",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["なか、ちゅう",
           "か.う",
           "にし、せい",
-          "くさ"
-        ],
+          "くさ"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>公</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "むし",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["むし",
           "そと、がい",
           "おお、だい",
-          "おおやけ"
-        ],
+          "おおやけ"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>読</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "みぎ、う",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["みぎ、う",
           "よ.む",
           "ちい、しょう",
-          "かい"
-        ],
+          "かい"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>入</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "はい.る",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["はい.る",
           "ひだり、さ",
           "たか、こう",
-          "いし"
-        ],
+          "いし"],
         "answer": 0
       },
       {
         "type": "表記",
         "text": "<u>はらう</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "汚れる",
-          "関係",
-          "払う",
-          "踊る"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>汚れる<rt>よごれる</rt></ruby>",
+          "<ruby>関係<rt>かんけい</rt></ruby>",
+          "<ruby>払う<rt>はらう</rt></ruby>",
+          "<ruby>踊る<rt>おどる</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>やさしい</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "心配",
-          "左",
-          "小さい",
-          "優しい"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>心<rt>こころ</rt></ruby>配",
+          "<ruby>左<rt>ひだり</rt></ruby>",
+          "<ruby>小さい<rt>ちいさい</rt></ruby>",
+          "<ruby>優しい<rt>やさしい</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>わたし</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "夜",
-          "看護師",
-          "私",
-          "燃える"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>夜<rt>よる</rt></ruby>",
+          "<ruby>看護<rt>かんご</rt></ruby><ruby>師<rt>し</rt></ruby>",
+          "<ruby>私<rt>わたし</rt></ruby>",
+          "燃える"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>おくさん</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "歳",
-          "奥さん",
-          "大人",
-          "引く"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>歳<rt>さい</rt></ruby>",
+          "<ruby>奥さん<rt>おくさん</rt></ruby>",
+          "<ruby>大人<rt>おとな</rt></ruby>",
+          "<ruby>引く<rt>ひく</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>うんてんしゅ</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "迎える",
-          "運転手",
-          "思い出す",
-          "呼ぶ"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>迎える<rt>むかえる</rt></ruby>",
+          "<ruby>運転手<rt>うんてんしゅ</rt></ruby>",
+          "<ruby>思い出す<rt>おもいだす</rt></ruby>",
+          "<ruby>呼ぶ<rt>よぶ</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>めがね</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "預ける",
-          "妹",
-          "削除",
-          "眼鏡"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>預ける<rt>あずける</rt></ruby>",
+          "<ruby>妹<rt>いもうと</rt></ruby>",
+          "<ruby>削<rt>けず</rt></ruby>除",
+          "<ruby>眼<rt>め</rt></ruby><ruby>鏡<rt>かがみ</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>おもう</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "少ない",
-          "思う",
-          "果物",
-          "来る"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>少ない<rt>すくない</rt></ruby>",
+          "<ruby>思う<rt>おもう</rt></ruby>",
+          "<ruby>果<rt>はな</rt></ruby><ruby>物<rt>もの</rt></ruby>",
+          "<ruby>来る<rt>くる</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>けんさく</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "検索",
-          "通訳",
-          "完璧",
-          "本"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>検索<rt>けんさく</rt></ruby>",
+          "<ruby>通<rt>つう</rt></ruby>訳",
+          "<ruby>完璧<rt>かんぺき</rt></ruby>",
+          "<ruby>本<rt>ほん</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "日本語を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "空港",
-          "汚れる",
-          "引く",
-          "習う"
-        ],
+        "text": "<ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>空港<rt>くうこう</rt></ruby>",
+          "<ruby>汚れる<rt>よごれる</rt></ruby>",
+          "<ruby>引く<rt>ひく</rt></ruby>",
+          "<ruby>習う<rt>ならう</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "毎日（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "新聞",
-          "小さい",
-          "呼ぶ",
-          "勉強する"
-        ],
+        "text": "<ruby>毎日<rt>まいにち</rt></ruby>（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>新聞<rt>しんぶん</rt></ruby>",
+          "<ruby>小さい<rt>ちいさい</rt></ruby>",
+          "<ruby>呼ぶ<rt>よぶ</rt></ruby>",
+          "<ruby>勉強する<rt>べんきょうする</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "会社で（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "預ける",
-          "夜",
-          "働く",
-          "足"
-        ],
+        "text": "<ruby>会社<rt>かいしゃ</rt></ruby>で（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>預ける<rt>あずける</rt></ruby>",
+          "<ruby>夜<rt>よる</rt></ruby>",
+          "<ruby>働く<rt>はたらく</rt></ruby>",
+          "<ruby>足<rt>あし</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "少し（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "来る",
+        "text": "<ruby>少し<rt>すこし</rt></ruby>（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>来る<rt>くる</rt></ruby>",
           "なる",
-          "休む",
-          "今"
-        ],
+          "<ruby>休む<rt>やすむ</rt></ruby>",
+          "<ruby>今<rt>いま</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "公園で（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "本",
-          "大人",
+        "text": "<ruby>公園<rt>こうえん</rt></ruby>で（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>本<rt>ほん</rt></ruby>",
+          "<ruby>大人<rt>おとな</rt></ruby>",
           "遊ぶ",
-          "万"
-        ],
+          "<ruby>万<rt>まん</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "歌を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "友達",
-          "思い出す",
-          "履く",
-          "歌う"
-        ],
+        "text": "<ruby>歌<rt>うた</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>友<rt>とも</rt></ruby>達",
+          "<ruby>思い出す<rt>おもいだす</rt></ruby>",
+          "<ruby>履く<rt>はく</rt></ruby>",
+          "<ruby>歌う<rt>うたう</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
         "text": "ダンスを（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "携帯電話",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>携<rt>たずさ</rt></ruby>帯<ruby>電話<rt>でんわ</rt></ruby>",
           "エアコン",
-          "色々",
-          "踊る"
-        ],
+          "<ruby>色々<rt>いろいろ</rt></ruby>",
+          "<ruby>踊る<rt>おどる</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
         "text": "ピアノを（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "変える",
-          "削除",
-          "弾く",
-          "遅い"
-        ],
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>変える<rt>かえる</rt></ruby>",
+          "<ruby>削<rt>けず</rt></ruby>除",
+          "<ruby>弾く<rt>ひく</rt></ruby>",
+          "<ruby>遅い<rt>おそい</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "写真を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "荷物",
-          "果物",
-          "生活",
-          "撮る"
-        ],
+        "text": "<ruby>写<rt>うつ</rt></ruby>真を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>荷物<rt>にもつ</rt></ruby>",
+          "<ruby>果<rt>はな</rt></ruby><ruby>物<rt>もの</rt></ruby>",
+          "<ruby>生活<rt>せいかつ</rt></ruby>",
+          "<ruby>撮る<rt>とる</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "絵を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "入学",
-          "完璧",
-          "起きる",
-          "描く"
-        ],
+        "text": "<ruby>絵<rt>え</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>入学<rt>にゅうがく</rt></ruby>",
+          "<ruby>完璧<rt>かんぺき</rt></ruby>",
+          "<ruby>起きる<rt>おきる</rt></ruby>",
+          "<ruby>描く<rt>えがく</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "手を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "前",
-          "毎晩",
-          "共有",
-          "洗う"
-        ],
+        "text": "<ruby>手<rt>て</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>前<rt>まえ</rt></ruby>",
+          "<ruby>毎晩<rt>まいばん</rt></ruby>",
+          "<ruby>共有<rt>きょうゆう</rt></ruby>",
+          "<ruby>洗う<rt>あらう</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "部屋を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "家族",
-          "空",
-          "捕まえる",
-          "掃除する"
-        ],
+        "text": "<ruby>部屋<rt>へや</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>家<rt>いえ</rt></ruby><ruby>族<rt>ぞく</rt></ruby>",
+          "<ruby>空<rt>そら</rt></ruby>",
+          "<ruby>捕まえる<rt>つかまえる</rt></ruby>",
+          "<ruby>掃<rt>そう</rt></ruby>除する"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "夕飯を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "居間",
-          "試す",
-          "料理する",
-          "度"
-        ],
+        "text": "<ruby>夕飯<rt>ゆうはん</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>居間<rt>いま</rt></ruby>",
+          "<ruby>試す<rt>ためす</rt></ruby>",
+          "料<ruby>理<rt>り</rt></ruby>する",
+          "<ruby>度<rt>ど</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "野菜を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "趣味",
+        "text": "<ruby>野菜<rt>やさい</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>趣味<rt>しゅみ</rt></ruby>",
           "スポーツ",
-          "切る",
-          "挨拶"
-        ],
+          "<ruby>切る<rt>きる</rt></ruby>",
+          "<ruby>挨<rt>あい</rt></ruby><ruby>拶<rt>さつ</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
         "text": "窓を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "踊る",
-          "開ける",
-          "高い",
-          "同僚"
-        ],
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>踊る<rt>おどる</rt></ruby>",
+          "<ruby>開ける<rt>あける</rt></ruby>",
+          "<ruby>高い<rt>たかい</rt></ruby>",
+          "<ruby>同<rt>どう</rt></ruby><ruby>僚<rt>りょう</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "言い換え",
         "text": "家に<ruby>帰る<rt>かえる</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "小さい",
-          "戻る",
-          "来る",
-          "友達"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>小さい<rt>ちいさい</rt></ruby>",
+          "<ruby>戻る<rt>もどる</rt></ruby>",
+          "<ruby>来る<rt>くる</rt></ruby>",
+          "<ruby>友<rt>とも</rt></ruby>達"],
         "answer": 1
       },
       {
         "type": "言い換え",
         "text": "部屋に<ruby>入る<rt>はいる</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "入室する",
-          "夜",
-          "本",
-          "携帯電話"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>入<rt>はい</rt></ruby><ruby>室<rt>しつ</rt></ruby>する",
+          "<ruby>夜<rt>よる</rt></ruby>",
+          "<ruby>本<rt>ほん</rt></ruby>",
+          "<ruby>携<rt>たずさ</rt></ruby>帯<ruby>電話<rt>でんわ</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "言い換え",
         "text": "外に<ruby>出る<rt>でる</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "なる",
-          "出発する",
-          "履く",
-          "遅い"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["なる",
+          "<ruby>出発する<rt>しゅっぱつする</rt></ruby>",
+          "<ruby>履く<rt>はく</rt></ruby>",
+          "<ruby>遅い<rt>おそい</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "言い換え",
         "text": "朝<ruby>起きる<rt>おきる</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "起床する",
-          "大人",
-          "色々",
-          "荷物"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>起床<rt>きしょう</rt></ruby>する",
+          "<ruby>大人<rt>おとな</rt></ruby>",
+          "<ruby>色々<rt>いろいろ</rt></ruby>",
+          "<ruby>荷物<rt>にもつ</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "言い換え",
         "text": "夜<ruby>寝る<rt>ねる</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "思い出す",
-          "就寝する",
-          "変える",
-          "入学"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>思い出す<rt>おもいだす</rt></ruby>",
+          "就<ruby>寝<rt>しん</rt></ruby>する",
+          "<ruby>変える<rt>かえる</rt></ruby>",
+          "<ruby>入学<rt>にゅうがく</rt></ruby>"],
         "answer": 1
       }
     ],
@@ -3505,12 +2959,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "カフェ（　）コーヒーを　のみます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "まで",
+        "options": ["まで",
           "あと",
           "で",
-          "とても"
-        ],
+          "とても"],
         "answer": 2,
         "id": "N5-04-026"
       },
@@ -3518,12 +2970,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "びょういん（　）いきます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "まえ",
+        "options": ["まえ",
           "たくさん",
           "に",
-          "も"
-        ],
+          "も"],
         "answer": 2,
         "id": "N5-04-028"
       },
@@ -3531,12 +2981,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "スーパー（　）かいものします。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "から",
+        "options": ["から",
           "すこし",
           "ながら",
-          "で"
-        ],
+          "で"],
         "answer": 3,
         "id": "N5-04-027"
       },
@@ -3544,12 +2992,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "バス（　）まちます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "あまり",
+        "options": ["あまり",
           "を",
           "が",
-          "すこし"
-        ],
+          "すこし"],
         "answer": 1,
         "id": "N5-04-032"
       },
@@ -3557,12 +3003,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "ぎんこう（　）おかねを　おろします。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "で",
+        "options": ["で",
           "あと",
           "へ",
-          "まえ"
-        ],
+          "まえ"],
         "answer": 0,
         "id": "N5-04-030"
       },
@@ -3570,12 +3014,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "みち（　）あるきます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "の",
+        "options": ["の",
           "とき",
           "を",
-          "あと"
-        ],
+          "あと"],
         "answer": 2,
         "id": "N5-04-033"
       },
@@ -3583,12 +3025,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "ゆうびんきょく（　）てがみを　だします。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "で",
+        "options": ["で",
           "たくさん",
           "ながら",
-          "に"
-        ],
+          "に"],
         "answer": 0,
         "id": "N5-04-029"
       },
@@ -3596,12 +3036,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "はし（　）わたります。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "すこし",
+        "options": ["すこし",
           "ながら",
           "と",
-          "を"
-        ],
+          "を"],
         "answer": 3,
         "id": "N5-04-034"
       },
@@ -3609,12 +3047,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "としょかん（　）ほんを　かります。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "ながら",
+        "options": ["ながら",
           "まで",
           "で",
-          "とき"
-        ],
+          "とき"],
         "answer": 2,
         "id": "N5-04-031"
       },
@@ -3622,142 +3058,120 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "かど（　）まがります。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "あと",
+        "options": ["あと",
           "の",
           "ながら",
-          "を"
-        ],
+          "を"],
         "answer": 3,
         "id": "N5-04-035"
       },
       {
         "type": "文の組み立て",
-        "text": "【日常会話・問16（N5レベル）】次の語句を正しい順序に並べてください：読みました / 本を / 昨日 / 図書館で / 私は",
-        "question": "正しい順序は？",
-        "options": [
-          "読みました 本を 図書館で 昨日 私は",
-          "読みました 私は 昨日 図書館で 本を",
-          "私は昨日図書館で本を読みました",
-          "昨日 図書館で 本を 読みました 私は"
-        ],
+        "text": "【<ruby>日常<rt>にちじょう</rt></ruby><ruby>会話<rt>かいわ</rt></ruby>・<ruby>問<rt>とん</rt></ruby>16（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>読み<rt>よみ</rt></ruby>ました / <ruby>本<rt>ほん</rt></ruby>を / <ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby> / <ruby>図書館<rt>としょかん</rt></ruby>で / <ruby>私<rt>わたし</rt></ruby>は",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>読み<rt>よみ</rt></ruby>ました <ruby>本<rt>ほん</rt></ruby>を <ruby>図書館<rt>としょかん</rt></ruby>で <ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby> <ruby>私<rt>わたし</rt></ruby>は",
+          "<ruby>読み<rt>よみ</rt></ruby>ました <ruby>私<rt>わたし</rt></ruby>は <ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby> <ruby>図書館<rt>としょかん</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を",
+          "<ruby>私<rt>わたし</rt></ruby>は<ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby><ruby>図書館<rt>としょかん</rt></ruby>で<ruby>本<rt>ほん</rt></ruby>を<ruby>読み<rt>よみ</rt></ruby>ました",
+          "<ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby> <ruby>図書館<rt>としょかん</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を <ruby>読み<rt>よみ</rt></ruby>ました <ruby>私<rt>わたし</rt></ruby>は"],
         "answer": 1,
         "id": "N5-04-036"
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問17（N4レベル）】次の語句を正しい順序に並べてください：毎朝 / 公園を / します / 彼女は / 散歩",
-        "question": "正しい順序は？",
-        "options": [
-          "彼女は毎朝公園を散歩します",
-          "します 彼女は 毎朝 公園を 散歩",
-          "毎朝 公園を 散歩 します 彼女は",
-          "します 散歩 公園を 毎朝 彼女は"
-        ],
+        "text": "【ビジネス・<ruby>問<rt>とん</rt></ruby>17（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>毎朝<rt>まいあさ</rt></ruby> / <ruby>公園<rt>こうえん</rt></ruby>を / します / <ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は / <ruby>散歩<rt>さんぽ</rt></ruby>",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は<ruby>毎朝<rt>まいあさ</rt></ruby><ruby>公園<rt>こうえん</rt></ruby>を<ruby>散歩<rt>さんぽ</rt></ruby>します",
+          "します <ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は <ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>を <ruby>散歩<rt>さんぽ</rt></ruby>",
+          "<ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>を <ruby>散歩<rt>さんぽ</rt></ruby> します <ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は",
+          "します <ruby>散歩<rt>さんぽ</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>を <ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は"],
         "answer": 0,
         "id": "N5-04-037"
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問18（N3レベル）】次の語句を正しい順序に並べてください：です / いっぱい / お客さんで / この店は / いつも",
-        "question": "正しい順序は？",
-        "options": [
-          "この店はいつもお客さんでいっぱいです",
-          "です この店は いつも お客さんで いっぱい",
-          "いつも お客さんで いっぱい です この店は",
-          "です いっぱい お客さんで いつも この店は"
-        ],
+        "text": "【<ruby>学校<rt>がっこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>18（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：です / いっぱい / お<ruby>客<rt>きゃく</rt></ruby>さんで / この<ruby>店<rt>みせ</rt></ruby>は / いつも",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["この<ruby>店<rt>みせ</rt></ruby>はいつもお<ruby>客<rt>きゃく</rt></ruby>さんでいっぱいです",
+          "です この<ruby>店<rt>みせ</rt></ruby>は いつも お<ruby>客<rt>きゃく</rt></ruby>さんで いっぱい",
+          "いつも お<ruby>客<rt>きゃく</rt></ruby>さんで いっぱい です この<ruby>店<rt>みせ</rt></ruby>は",
+          "です いっぱい お<ruby>客<rt>きゃく</rt></ruby>さんで いつも この<ruby>店<rt>みせ</rt></ruby>は"],
         "answer": 1,
         "id": "N5-04-038"
       },
       {
         "type": "文の組み立て",
-        "text": "【旅行・問19（N2レベル）】次の語句を正しい順序に並べてください：か / 質問を / できます / 先生に / することが",
-        "question": "正しい順序は？",
-        "options": [
-          "か できます することが 質問を 先生に",
-          "か 先生に 質問を することが できます",
-          "質問を することが できます か 先生に",
-          "先生に質問をすることができますか"
-        ],
+        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>19（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：か / <ruby>質問<rt>しつもん</rt></ruby>を / できます / <ruby>先生<rt>せんせい</rt></ruby>に / することが",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["か できます することが <ruby>質問<rt>しつもん</rt></ruby>を <ruby>先生<rt>せんせい</rt></ruby>に",
+          "か <ruby>先生<rt>せんせい</rt></ruby>に <ruby>質問<rt>しつもん</rt></ruby>を することが できます",
+          "<ruby>質問<rt>しつもん</rt></ruby>を することが できます か <ruby>先生<rt>せんせい</rt></ruby>に",
+          "<ruby>先生<rt>せんせい</rt></ruby>に<ruby>質問<rt>しつもん</rt></ruby>をすることができますか"],
         "answer": 2,
         "id": "N5-04-039"
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問20（N1レベル）】次の語句を正しい順序に並べてください：明日の / 会議に / できない / かもしれません / 出席",
-        "question": "正しい順序は？",
-        "options": [
-          "かもしれません 明日の 会議に 出席 できない",
-          "明日の会議に出席できないかもしれません",
-          "かもしれません できない 出席 会議に 明日の",
-          "会議に 出席 できない かもしれません 明日の"
-        ],
+        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>とん</rt></ruby>20（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>明日<rt>あした</rt></ruby>の / <ruby>会議<rt>かいぎ</rt></ruby>に / できない / かもしれません / <ruby>出<rt>で</rt></ruby>席",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["かもしれません <ruby>明日<rt>あした</rt></ruby>の <ruby>会議<rt>かいぎ</rt></ruby>に <ruby>出<rt>で</rt></ruby>席 できない",
+          "<ruby>明日<rt>あした</rt></ruby>の<ruby>会議<rt>かいぎ</rt></ruby>に<ruby>出<rt>で</rt></ruby>席できないかもしれません",
+          "かもしれません できない <ruby>出<rt>で</rt></ruby>席 <ruby>会議<rt>かいぎ</rt></ruby>に <ruby>明日<rt>あした</rt></ruby>の",
+          "<ruby>会議<rt>かいぎ</rt></ruby>に <ruby>出<rt>で</rt></ruby>席 できない かもしれません <ruby>明日<rt>あした</rt></ruby>の"],
         "answer": 1,
         "id": "N5-04-040"
       },
       {
         "type": "文章の文法",
-        "text": "健康（　）、何事も始まらない。（16）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "なくして",
+        "text": "健<ruby>康<rt>こう</rt></ruby>（　）、<ruby>何<rt>なに</rt></ruby><ruby>事<rt>こと</rt></ruby>も<ruby>始<rt>はじまる</rt></ruby>まらない。（16）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["なくして",
           "ならでは",
           "がなければ",
-          "でなくては"
-        ],
+          "でなくては"],
         "answer": 0,
         "id": "N5-04-041"
       },
       {
         "type": "文章の文法",
-        "text": "時間の許す（　）、できるだけ訪れたい。（17）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "まで",
-          "限り",
+        "text": "<ruby>時間<rt>じかん</rt></ruby>の<ruby>許す<rt>ゆるす</rt></ruby>（　）、できるだけ<ruby>訪<rt>ほう</rt></ruby>れたい。（17）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["まで",
+          "<ruby>限り<rt>かぎり</rt></ruby>",
           "ほど",
-          "うちに"
-        ],
+          "うちに"],
         "answer": 1,
         "id": "N5-04-042"
       },
       {
         "type": "文章の文法",
-        "text": "医師（　）、ボランティアにも熱心だ。（18）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "である傍ら",
+        "text": "<ruby>医師<rt>いし</rt></ruby>（　）、ボランティアにも<ruby>熱心<rt>ねっしん</rt></ruby>だ。（18）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["である<ruby>傍<rt>かたわ</rt></ruby>ら",
           "であれば",
           "として",
-          "なので"
-        ],
+          "なので"],
         "answer": 0,
         "id": "N5-04-043"
       },
       {
         "type": "文章の文法",
-        "text": "医師の処方（　）使用してください。（19）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "に対して",
-          "に関して",
+        "text": "<ruby>医師<rt>いし</rt></ruby>の処<ruby>方<rt>ほう</rt></ruby>（　）<ruby>使<rt>つか</rt></ruby>用してください。（19）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["に<ruby>対して<rt>たいして</rt></ruby>",
+          "に<ruby>関して<rt>かんして</rt></ruby>",
           "によると",
-          "に従って"
-        ],
+          "に従って"],
         "answer": 3,
         "id": "N5-04-044"
       },
       {
         "type": "文章の文法",
-        "text": "予想（　）、売り上げは減少した。（20）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "通り",
+        "text": "<ruby>予<rt>よ</rt></ruby>想（　）、<ruby>売り上げ<rt>うりあげ</rt></ruby>は<ruby>減<rt>へん</rt></ruby><ruby>少し<rt>すこし</rt></ruby>た。（20）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>通り<rt>とおり</rt></ruby>",
           "に反して",
-          "に沿って",
-          "どおり"
-        ],
+          "に<ruby>沿って<rt>そって</rt></ruby>",
+          "どおり"],
         "answer": 1,
         "id": "N5-04-045"
       },
@@ -3765,12 +3179,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "えきから　がっこうまで　バスで　20ぷんです。あるくと　1じかんです。",
         "question": "バスで　なんぷん　かかりますか。",
-        "options": [
-          "1じかん",
+        "options": ["1じかん",
           "10ぷん",
           "20ぷん",
-          "30ぷん"
-        ],
+          "30ぷん"],
         "answer": 2,
         "id": "N5-04-046"
       },
@@ -3778,12 +3190,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "やまださんには　おにいさんが　1にんと　いもうとが　2にん　います。",
         "question": "やまださんには　きょうだいが　なんにん　いますか。",
-        "options": [
-          "2にん",
+        "options": ["2にん",
           "3にん",
           "1にん",
-          "4にん"
-        ],
+          "4にん"],
         "answer": 0,
         "id": "N5-04-047"
       },
@@ -3791,12 +3201,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "わたしの　かぞくは　5にんです。ちちと　ははと　あにと　わたしと　おとうとです。",
         "question": "かぞくは　なんにんですか。",
-        "options": [
-          "6にん",
+        "options": ["6にん",
           "4にん",
           "5にん",
-          "3にん"
-        ],
+          "3にん"],
         "answer": 1,
         "id": "N5-04-048"
       },
@@ -3804,12 +3212,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "きょうの　しゅくだいは　かんじを　20こ　かくことです。あしたまでに　ださなければなりません。かんじは　むずかしいですが、がんばります。",
         "question": "しゅくだいは　なんですか。",
-        "options": [
-          "テストの　べんきょう",
+        "options": ["テストの　べんきょう",
           "さくぶんを　かく",
           "かんじを　かく",
-          "ほんを　よむ"
-        ],
+          "ほんを　よむ"],
         "answer": 2,
         "id": "N5-04-049"
       },
@@ -3817,12 +3223,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "わたしの　がっこうには　としょかんが　あります。ほんが　たくさん　あります。まいにち　ひるやすみに　としょかんで　ほんを　よみます。",
         "question": "いつ　としょかんに　いきますか。",
-        "options": [
-          "よる",
+        "options": ["よる",
           "ひるやすみ",
           "しゅうまつ",
-          "あさ"
-        ],
+          "あさ"],
         "answer": 1,
         "id": "N5-04-050"
       },
@@ -3830,164 +3234,140 @@ window.MOCK_DATA['N5'] = {
         "type": "情報検索",
         "text": "【バス】えきまえから　びょういんまで　15ふん。30ぷんごとに　はしります。",
         "question": "バスは　なんぷんごとに　きますか。",
-        "options": [
-          "1じかん",
+        "options": ["1じかん",
           "15ふん",
           "45ふん",
-          "30ぷん"
-        ],
+          "30ぷん"],
         "answer": 2,
         "id": "N5-04-051"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人がお花屋で買い物をしています。女の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🌸🌸🌸🌸🌸",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がお<ruby>花屋<rt>はなや</rt></ruby>で<ruby>買い物<rt>かいもの</rt></ruby>をしています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🌸🌸🌸🌸🌸",
           "🌷🌷",
           "🌸🌸🌸",
-          "🌷🌷🌷🌷"
-        ],
+          "🌷🌷🌷🌷"],
         "answer": 0,
         "id": "N5-04-052",
         "script": "M: 🌸 5つを　おねがいします。\nF: はい、わかりました。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人がアイス屋で話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🍦",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がアイス<ruby>屋<rt>や</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🍦",
           "🍨",
           "🍨🍨🍨",
-          "🍦🍦"
-        ],
+          "🍦🍦"],
         "answer": 3,
         "id": "N5-04-053",
         "script": "F: これですか。\nM: いいえ、アイスクリーム 2つを　ください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人と女の人がスーパーで話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🍊🍊🍊",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>と<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がスーパーで<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🍊🍊🍊",
           "🍎🍎🍎",
           "🍊🍊",
-          "🍎🍎"
-        ],
+          "🍎🍎"],
         "answer": 1,
         "id": "N5-04-054",
         "script": "M: すみません、りんご 3つは　ありますか。\nF: はい、どうぞ。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人がお店で買い物をしています。女の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🍇🍇🍇",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がお<ruby>店<rt>みせ</rt></ruby>で<ruby>買い物<rt>かいもの</rt></ruby>をしています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🍇🍇🍇",
           "🍇🍇",
           "🍌🍌🍌🍌",
-          "🍌🍌"
-        ],
+          "🍌🍌"],
         "answer": 2,
         "id": "N5-04-055",
         "script": "M: バナナ 4つを　ください。\nF: はい、バナナ 4つですね。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人と女の人が八百屋で話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🥕🥕",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>と<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>八百屋<rt>やおや</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🥕🥕",
           "🍅🍅🍅",
           "🥕🥕🥕",
-          "🍅🍅"
-        ],
+          "🍅🍅"],
         "answer": 3,
         "id": "N5-04-056",
         "script": "F: なにを　かいますか。\nM: トマト 2つを　かいます。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人がコンビニで買い物をしています。女の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🥪",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がコンビニで<ruby>買い物<rt>かいもの</rt></ruby>をしています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🥪",
           "🥪🥪",
           "🍙🍙",
-          "🍙🍙🍙"
-        ],
+          "🍙🍙🍙"],
         "answer": 2,
         "id": "N5-04-057",
         "script": "M: おにぎり 2つを　おねがいします。\nF: はい、わかりました。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "ドキュメンタリーを聞いています。話者が最も強調しているのは何ですか。（19）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "ドキュメンタリーを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（19）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-04-058",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット4問33】"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "友達に「また明日」と言いたい（19）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>友<rt>とも</rt></ruby>達に「また<ruby>明日<rt>あした</rt></ruby>」と<ruby>言<rt>い</rt></ruby>いたい（19）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📆"
-        ],
+          "📆"],
         "answer": 3,
         "id": "N5-04-067",
         "script": "📆です。【セット4問34】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "放送を聞いています。話者が最も強調しているのは何ですか。（21）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "放<ruby>送<rt>お</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（21）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-04-060",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット4問35】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "何人ですか。（25）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "いいえ、違います",
-          "はい、食べました",
-          "3人です"
-        ],
+        "text": "<ruby>何<rt>なに</rt></ruby><ruby>人<rt>ひと</rt></ruby>ですか。（25）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "3<ruby>人<rt>ひと</rt></ruby>です"],
         "answer": 3,
         "id": "N5-04-069"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "研修を聞いています。話者が最も強調しているのは何ですか。（23）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>研修<rt>けんしゅう</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（23）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-04-062",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット4問37】"
@@ -3995,53 +3375,45 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "いくらですか。（26）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
-          "500円です",
-          "はい、食べました",
-          "わかりません"
-        ],
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "500<ruby>円<rt>えん</rt></ruby>です",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "わかりません"],
         "answer": 1,
         "id": "N5-04-070"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "友達に「おはよう」と言いたい（16）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>友<rt>とも</rt></ruby>達に「おはよう」と<ruby>言<rt>い</rt></ruby>いたい（16）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-04-064",
         "script": "ピンです。【セット4問39】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "何階ですか。（27）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "いいえ、違います",
-          "3階です",
-          "はい、食べました"
-        ],
+        "text": "<ruby>何<rt>なに</rt></ruby><ruby>階<rt>かい</rt></ruby>ですか。（27）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "3<ruby>階<rt>かい</rt></ruby>です",
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 2,
         "id": "N5-04-071"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "先生に「すみません」と言いたい（18）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>先生<rt>せんせい</rt></ruby>に「すみません」と<ruby>言<rt>い</rt></ruby>いたい（18）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-04-066",
         "script": "ピンです。【セット4問41】"
@@ -4049,53 +3421,45 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "どちらがいいですか。（28）",
-        "question": "返答は？",
-        "options": [
-          "こちらがいいです",
-          "いいえ、違います",
-          "はい、食べました",
-          "わかりません"
-        ],
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["こちらがいいです",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "わかりません"],
         "answer": 0,
         "id": "N5-04-072"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "家族に「いただきます」と言いたい（20）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>家<rt>いえ</rt></ruby><ruby>族<rt>ぞく</rt></ruby>に「いただきます」と<ruby>言<rt>い</rt></ruby>いたい（20）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-04-068",
         "script": "ピンです。【セット4問43】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "もう終わりましたか。（29）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "いいえ、違います",
-          "はい、食べました",
-          "はい、終わりました"
-        ],
+        "text": "もう<ruby>終わり<rt>おわり</rt></ruby>ましたか。（29）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "はい、<ruby>終わり<rt>おわり</rt></ruby>ました"],
         "answer": 3,
         "id": "N5-04-073"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "朝礼を聞いています。話者が最も強調しているのは何ですか。（24）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>朝<rt>あさ</rt></ruby>礼を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（24）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-04-063",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット4問45】"
@@ -4103,80 +3467,68 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "どうしましたか。（30）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "少し疲れました",
-          "はい、食べました",
-          "いいえ、違います"
-        ],
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "<ruby>少し<rt>すこし</rt></ruby><ruby>疲れ<rt>つかれ</rt></ruby>ました",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 1,
         "id": "N5-04-074"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "トークを聞いています。話者が最も強調しているのは何ですか。（20）",
-        "question": "最も強調しているのは？",
-        "options": [
-          "📕",
+        "text": "トークを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（20）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📕",
           "📌",
           "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-04-059",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット4問47】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "お腹空きましたか。（31）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
-          "はい、食べました",
-          "少し空きました",
-          "わかりません"
-        ],
+        "text": "お腹<ruby>空<rt>そら</rt></ruby>きましたか。（31）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "<ruby>少し<rt>すこし</rt></ruby><ruby>空<rt>そら</rt></ruby>きました",
+          "わかりません"],
         "answer": 2,
         "id": "N5-04-075"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "店員に「これください」と言いたい（17）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>店員<rt>てんいん</rt></ruby>に「これください」と<ruby>言<rt>い</rt></ruby>いたい（17）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-04-065",
         "script": "ピンです。【セット4問49】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "眠いですか。（32）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
-          "はい、食べました",
+        "text": "<ruby>眠い<rt>ねむい</rt></ruby>ですか。（32）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
           "わかりません",
-          "少し眠いです"
-        ],
+          "<ruby>少し<rt>すこし</rt></ruby><ruby>眠い<rt>ねむい</rt></ruby>です"],
         "answer": 3,
         "id": "N5-04-076"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "発表を聞いています。話者が最も強調しているのは何ですか。（22）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>発<rt>はつ</rt></ruby>表を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（22）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-04-061",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット4問51】"
@@ -4184,481 +3536,401 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "漢字読み",
         "text": "<u>火</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "いと",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["いと",
           "きた、ほく",
           "もり",
-          "ひ"
-        ],
+          "ひ"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>計</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "はやし",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["はやし",
           "みなみ、なん",
           "はか",
-          "たま"
-        ],
+          "たま"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>草</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "くさ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["くさ",
           "ひがし、とう",
           "たけ",
-          "おう"
-        ],
+          "おう"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>同</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "ただ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["ただ",
           "にし、せい",
           "くさ",
-          "おな"
-        ],
+          "おな"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>男</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "ふみ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["ふみ",
           "おお、だい",
           "むし",
-          "おとこ、だん"
-        ],
+          "おとこ、だん"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>足</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "かい",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["かい",
           "ちい、しょう",
           "あし",
-          "じ"
-        ],
+          "じ"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>校</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "おと",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["おと",
           "たか、こう",
           "いし",
-          "こう"
-        ],
+          "こう"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>工</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "いと",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["いと",
           "もり",
           "こう",
-          "たの"
-        ],
+          "たの"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>長</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "なが.い",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["なが.い",
           "はやし",
           "たま",
-          "ちから"
-        ],
+          "ちから"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>茶</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "こう",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["こう",
           "たけ",
           "おう",
-          "ちゃ"
-        ],
+          "ちゃ"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>出</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "ただ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["ただ",
           "くさ",
           "で.る",
-          "つく"
-        ],
+          "つく"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>子</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "もと",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["もと",
           "むし",
           "ふみ",
-          "こ、し"
-        ],
+          "こ、し"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>ほんやく</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "履く",
-          "週末",
-          "毎晩",
-          "翻訳"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>履く<rt>はく</rt></ruby>",
+          "<ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby>",
+          "<ruby>毎晩<rt>まいばん</rt></ruby>",
+          "<ruby>翻<rt>ひるがえ</rt></ruby>訳"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>つま</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "道",
-          "妻",
-          "空",
-          "色々"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>道<rt>みち</rt></ruby>",
+          "<ruby>妻<rt>つま</rt></ruby>",
+          "<ruby>空<rt>そら</rt></ruby>",
+          "<ruby>色々<rt>いろいろ</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>しゅくだい</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "雲",
-          "宿題",
-          "試す",
-          "変える"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>雲<rt>くも</rt></ruby>",
+          "<ruby>宿題<rt>しゅくだい</rt></ruby>",
+          "<ruby>試す<rt>ためす</rt></ruby>",
+          "<ruby>変える<rt>かえる</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>かんけい</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "生活",
-          "汚れる",
-          "踊る",
-          "関係"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>生活<rt>せいかつ</rt></ruby>",
+          "<ruby>汚れる<rt>よごれる</rt></ruby>",
+          "<ruby>踊る<rt>おどる</rt></ruby>",
+          "<ruby>関係<rt>かんけい</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>ひだり</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "心配",
-          "小さい",
-          "左",
-          "起きる"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>心<rt>こころ</rt></ruby>配",
+          "<ruby>小さい<rt>ちいさい</rt></ruby>",
+          "<ruby>左<rt>ひだり</rt></ruby>",
+          "<ruby>起きる<rt>おきる</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>かんごし</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "燃える",
-          "夜",
-          "看護師",
-          "共有"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["燃える",
+          "<ruby>夜<rt>よる</rt></ruby>",
+          "<ruby>看護<rt>かんご</rt></ruby><ruby>師<rt>し</rt></ruby>",
+          "<ruby>共有<rt>きょうゆう</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>さい</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "捕まえる",
-          "大人",
-          "引く",
-          "歳"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>捕まえる<rt>つかまえる</rt></ruby>",
+          "<ruby>大人<rt>おとな</rt></ruby>",
+          "<ruby>引く<rt>ひく</rt></ruby>",
+          "<ruby>歳<rt>さい</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>むかえる</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "思い出す",
-          "迎える",
-          "呼ぶ",
-          "居間"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>思い出す<rt>おもいだす</rt></ruby>",
+          "<ruby>迎える<rt>むかえる</rt></ruby>",
+          "<ruby>呼ぶ<rt>よぶ</rt></ruby>",
+          "<ruby>居間<rt>いま</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "文脈規定",
         "text": "ドアを（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "心配",
-          "閉める",
-          "賑やか",
-          "行く"
-        ],
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>心<rt>こころ</rt></ruby>配",
+          "<ruby>閉める<rt>しめる</rt></ruby>",
+          "<ruby>賑<rt>しん</rt></ruby>やか",
+          "<ruby>行く<rt>いく</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "文脈規定",
-        "text": "電気を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "傘",
+        "text": "<ruby>電気<rt>でんき</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>傘<rt>かさ</rt></ruby>",
           "燃える",
-          "博物館",
-          "つける"
-        ],
+          "博<ruby>物<rt>もの</rt></ruby><ruby>館<rt>かん</rt></ruby>",
+          "つける"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "電気を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "消す",
-          "引く",
-          "空港",
-          "会う"
-        ],
+        "text": "<ruby>電気<rt>でんき</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["消す",
+          "<ruby>引く<rt>ひく</rt></ruby>",
+          "<ruby>空港<rt>くうこう</rt></ruby>",
+          "<ruby>会う<rt>あう</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "服を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "新聞",
-          "呼ぶ",
-          "着る",
-          "到着"
-        ],
+        "text": "<ruby>服<rt>ふく</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>新聞<rt>しんぶん</rt></ruby>",
+          "<ruby>呼ぶ<rt>よぶ</rt></ruby>",
+          "<ruby>着る<rt>きる</rt></ruby>",
+          "<ruby>到<rt>とう</rt></ruby><ruby>着<rt>ちゃく</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "靴を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "自然",
-          "預ける",
-          "足",
-          "脱ぐ"
-        ],
+        "text": "<ruby>靴<rt>くつ</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>自<rt>みずか</rt></ruby>然",
+          "<ruby>預ける<rt>あずける</rt></ruby>",
+          "<ruby>足<rt>あし</rt></ruby>",
+          "<ruby>脱ぐ<rt>ぬぐ</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "靴を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "履く",
-          "来る",
-          "今",
-          "ジュース"
-        ],
+        "text": "<ruby>靴<rt>くつ</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>履く<rt>はく</rt></ruby>",
+          "<ruby>来る<rt>くる</rt></ruby>",
+          "<ruby>今<rt>いま</rt></ruby>",
+          "ジュース"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "帽子を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "これ",
-          "本",
-          "万",
-          "かぶる"
-        ],
+        "text": "<ruby>帽子<rt>ぼうし</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["これ",
+          "<ruby>本<rt>ほん</rt></ruby>",
+          "<ruby>万<rt>まん</rt></ruby>",
+          "かぶる"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "眼鏡を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "履く",
+        "text": "<ruby>眼<rt>め</rt></ruby><ruby>鏡<rt>かがみ</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>履く<rt>はく</rt></ruby>",
           "かける",
-          "友達",
-          "おやすみ"
-        ],
+          "<ruby>友<rt>とも</rt></ruby>達",
+          "おやすみ"],
         "answer": 1
       },
       {
         "type": "文脈規定",
-        "text": "電車に（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "色々",
-          "乗る",
-          "携帯電話",
-          "木曜日"
-        ],
+        "text": "<ruby>電車<rt>でんしゃ</rt></ruby>に（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>色々<rt>いろいろ</rt></ruby>",
+          "<ruby>乗る<rt>のる</rt></ruby>",
+          "<ruby>携<rt>たずさ</rt></ruby>帯<ruby>電話<rt>でんわ</rt></ruby>",
+          "<ruby>木曜日<rt>もくようび</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "文脈規定",
-        "text": "電車を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "遅い",
-          "変える",
-          "降りる",
-          "帰る"
-        ],
+        "text": "<ruby>電車<rt>でんしゃ</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>遅い<rt>おそい</rt></ruby>",
+          "<ruby>変える<rt>かえる</rt></ruby>",
+          "<ruby>降りる<rt>おりる</rt></ruby>",
+          "<ruby>帰る<rt>かえる</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "車を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "準備",
-          "生活",
-          "荷物",
-          "運転する"
-        ],
+        "text": "<ruby>車<rt>くるま</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>準備<rt>じゅんび</rt></ruby>",
+          "<ruby>生活<rt>せいかつ</rt></ruby>",
+          "<ruby>荷物<rt>にもつ</rt></ruby>",
+          "<ruby>運転<rt>うんてん</rt></ruby>する"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "車が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "起きる",
-          "止まる",
-          "入学",
-          "洗濯機"
-        ],
+        "text": "<ruby>車<rt>くるま</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>起きる<rt>おきる</rt></ruby>",
+          "<ruby>止まる<rt>とまる</rt></ruby>",
+          "<ruby>入学<rt>にゅうがく</rt></ruby>",
+          "<ruby>洗濯<rt>せんたく</rt></ruby><ruby>機<rt>き</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "文脈規定",
-        "text": "右に（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "前",
-          "共有",
-          "曲がる",
-          "美味しい"
-        ],
+        "text": "<ruby>右<rt>みぎ</rt></ruby>に（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>前<rt>まえ</rt></ruby>",
+          "<ruby>共有<rt>きょうゆう</rt></ruby>",
+          "<ruby>曲がる<rt>まがる</rt></ruby>",
+          "美<ruby>味<rt>あじ</rt></ruby>しい"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "道を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "駅",
-          "捕まえる",
-          "家族",
-          "渡る"
-        ],
+        "text": "<ruby>道<rt>みち</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>駅<rt>えき</rt></ruby>",
+          "<ruby>捕まえる<rt>つかまえる</rt></ruby>",
+          "<ruby>家<rt>いえ</rt></ruby><ruby>族<rt>ぞく</rt></ruby>",
+          "<ruby>渡る<rt>わたる</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "山を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "居間",
-          "登る",
-          "度",
-          "努力"
-        ],
+        "text": "<ruby>山<rt>やま</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>居間<rt>いま</rt></ruby>",
+          "<ruby>登る<rt>のぼる</rt></ruby>",
+          "<ruby>度<rt>ど</rt></ruby>",
+          "努<ruby>力<rt>ちから</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "言い換え",
         "text": "椅子に<ruby>座る<rt>すわる</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "着席する",
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>着<rt>ちゃく</rt></ruby>席する",
           "エアコン",
-          "生活",
-          "前"
-        ],
+          "<ruby>生活<rt>せいかつ</rt></ruby>",
+          "<ruby>前<rt>まえ</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "言い換え",
         "text": "ここに<ruby>立つ<rt>たつ</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "起立する",
-          "削除",
-          "起きる",
-          "家族"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>起<rt>お</rt></ruby>立する",
+          "<ruby>削<rt>けず</rt></ruby>除",
+          "<ruby>起きる<rt>おきる</rt></ruby>",
+          "<ruby>家<rt>いえ</rt></ruby><ruby>族<rt>ぞく</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "言い換え",
         "text": "道を<ruby>歩く<rt>あるく</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "歩行する",
-          "果物",
-          "共有",
-          "度"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>歩<rt>ぶ</rt></ruby><ruby>行<rt>い</rt></ruby>する",
+          "<ruby>果<rt>はな</rt></ruby><ruby>物<rt>もの</rt></ruby>",
+          "<ruby>共有<rt>きょうゆう</rt></ruby>",
+          "<ruby>度<rt>ど</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "言い換え",
         "text": "公園を<ruby>走る<rt>はしる</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "挨拶",
-          "完璧",
-          "捕まえる",
-          "駆ける"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>挨<rt>あい</rt></ruby><ruby>拶<rt>さつ</rt></ruby>",
+          "<ruby>完璧<rt>かんぺき</rt></ruby>",
+          "<ruby>捕まえる<rt>つかまえる</rt></ruby>",
+          "<ruby>駆ける<rt>かける</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "言い換え",
         "text": "海で<ruby>泳ぐ<rt>およぐ</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "同僚",
-          "毎晩",
-          "居間",
-          "水泳する"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>同<rt>どう</rt></ruby><ruby>僚<rt>りょう</rt></ruby>",
+          "<ruby>毎晩<rt>まいばん</rt></ruby>",
+          "<ruby>居間<rt>いま</rt></ruby>",
+          "<ruby>水泳<rt>すいえい</rt></ruby>する"],
         "answer": 3
       }
     ],
@@ -4667,12 +3939,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "いえ（　）かえります。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "へ",
+        "options": ["へ",
           "ながら",
           "に",
-          "まえ"
-        ],
+          "まえ"],
         "answer": 2,
         "id": "N5-05-026"
       },
@@ -4680,12 +3950,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "わたし（　）にほんじんです。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "から",
+        "options": ["から",
           "を",
           "は",
-          "に"
-        ],
+          "に"],
         "answer": 2,
         "id": "N5-05-031"
       },
@@ -4693,12 +3961,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "かいしゃ（　）つとめています。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "に",
+        "options": ["に",
           "あまり",
           "も",
-          "とき"
-        ],
+          "とき"],
         "answer": 0,
         "id": "N5-05-028"
       },
@@ -4706,12 +3972,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "これ（　）わたしの　かばんです。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "に",
+        "options": ["に",
           "から",
           "を",
-          "は"
-        ],
+          "は"],
         "answer": 3,
         "id": "N5-05-032"
       },
@@ -4719,12 +3983,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "アパート（　）すんでいます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "に",
+        "options": ["に",
           "とても",
           "と",
-          "あまり"
-        ],
+          "あまり"],
         "answer": 0,
         "id": "N5-05-030"
       },
@@ -4732,12 +3994,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "あの　ひと（　）だれですか。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "を",
+        "options": ["を",
           "から",
           "は",
-          "に"
-        ],
+          "に"],
         "answer": 2,
         "id": "N5-05-033"
       },
@@ -4745,12 +4005,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "だいがく（　）かよっています。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "と",
+        "options": ["と",
           "とき",
           "に",
-          "たくさん"
-        ],
+          "たくさん"],
         "answer": 2,
         "id": "N5-05-029"
       },
@@ -4758,12 +4016,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "きょう（　）あついですね。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "に",
+        "options": ["に",
           "を",
           "は",
-          "から"
-        ],
+          "から"],
         "answer": 2,
         "id": "N5-05-034"
       },
@@ -4771,12 +4027,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "くに（　）かえります。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "から",
+        "options": ["から",
           "とても",
           "に",
-          "とき"
-        ],
+          "とき"],
         "answer": 2,
         "id": "N5-05-027"
       },
@@ -4784,142 +4038,120 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "にほんご（　）むずかしいです。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "に",
+        "options": ["に",
           "を",
           "から",
-          "は"
-        ],
+          "は"],
         "answer": 3,
         "id": "N5-05-035"
       },
       {
         "type": "文の組み立て",
-        "text": "【日常会話・問21（N5レベル）】次の語句を正しい順序に並べてください：学生が / いる / 日本語を / 多いです / 勉強して",
-        "question": "正しい順序は？",
-        "options": [
-          "日本語を勉強している学生が多いです",
-          "勉強して いる 学生が 多いです 日本語を",
-          "多いです 日本語を 勉強して いる 学生が",
-          "多いです 学生が いる 勉強して 日本語を"
-        ],
+        "text": "【<ruby>日常<rt>にちじょう</rt></ruby><ruby>会話<rt>かいわ</rt></ruby>・<ruby>問<rt>とん</rt></ruby>21（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>学生<rt>がくせい</rt></ruby>が / いる / <ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を / <ruby>多い<rt>おおい</rt></ruby>です / <ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>して",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を<ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>している<ruby>学生<rt>がくせい</rt></ruby>が<ruby>多い<rt>おおい</rt></ruby>です",
+          "<ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>して いる <ruby>学生<rt>がくせい</rt></ruby>が <ruby>多い<rt>おおい</rt></ruby>です <ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を",
+          "<ruby>多い<rt>おおい</rt></ruby>です <ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を <ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>して いる <ruby>学生<rt>がくせい</rt></ruby>が",
+          "<ruby>多い<rt>おおい</rt></ruby>です <ruby>学生<rt>がくせい</rt></ruby>が いる <ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>して <ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を"],
         "answer": 2,
         "id": "N5-05-036"
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問22（N4レベル）】次の語句を正しい順序に並べてください：この問題は / 難しすぎて / 解けません / 私には",
-        "question": "正しい順序は？",
-        "options": [
-          "解けません 私には 難しすぎて この問題は",
-          "難しすぎて 私には 解けません この問題は",
-          "解けません この問題は 難しすぎて 私には",
-          "この問題は難しすぎて私には解けません"
-        ],
+        "text": "【ビジネス・<ruby>問<rt>とん</rt></ruby>22（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：この<ruby>問題<rt>もんだい</rt></ruby>は / <ruby>難<rt>なん</rt></ruby>しすぎて / <ruby>解<rt>かい</rt></ruby>けません / <ruby>私<rt>わたし</rt></ruby>には",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>解<rt>かい</rt></ruby>けません <ruby>私<rt>わたし</rt></ruby>には <ruby>難<rt>なん</rt></ruby>しすぎて この<ruby>問題<rt>もんだい</rt></ruby>は",
+          "<ruby>難<rt>なん</rt></ruby>しすぎて <ruby>私<rt>わたし</rt></ruby>には <ruby>解<rt>かい</rt></ruby>けません この<ruby>問題<rt>もんだい</rt></ruby>は",
+          "<ruby>解<rt>かい</rt></ruby>けません この<ruby>問題<rt>もんだい</rt></ruby>は <ruby>難<rt>なん</rt></ruby>しすぎて <ruby>私<rt>わたし</rt></ruby>には",
+          "この<ruby>問題<rt>もんだい</rt></ruby>は<ruby>難<rt>なん</rt></ruby>しすぎて<ruby>私<rt>わたし</rt></ruby>には<ruby>解<rt>かい</rt></ruby>けません"],
         "answer": 0,
         "id": "N5-05-037"
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問23（N3レベル）】次の語句を正しい順序に並べてください：住んで / 3年間 / アメリカに / 彼は / いました",
-        "question": "正しい順序は？",
-        "options": [
-          "アメリカに 3年間 住んで いました 彼は",
-          "いました 彼は アメリカに 3年間 住んで",
-          "彼はアメリカに3年間住んでいました",
-          "いました 住んで 3年間 アメリカに 彼は"
-        ],
+        "text": "【<ruby>学校<rt>がっこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>23（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>住<rt>すわる</rt></ruby>んで / 3<ruby>年間<rt>ねんかん</rt></ruby> / アメリカに / <ruby>彼<rt>かれ</rt></ruby>は / いました",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["アメリカに 3<ruby>年間<rt>ねんかん</rt></ruby> <ruby>住<rt>すわる</rt></ruby>んで いました <ruby>彼<rt>かれ</rt></ruby>は",
+          "いました <ruby>彼<rt>かれ</rt></ruby>は アメリカに 3<ruby>年間<rt>ねんかん</rt></ruby> <ruby>住<rt>すわる</rt></ruby>んで",
+          "<ruby>彼<rt>かれ</rt></ruby>はアメリカに3<ruby>年間<rt>ねんかん</rt></ruby><ruby>住<rt>すわる</rt></ruby>んでいました",
+          "いました <ruby>住<rt>すわる</rt></ruby>んで 3<ruby>年間<rt>ねんかん</rt></ruby> アメリカに <ruby>彼<rt>かれ</rt></ruby>は"],
         "answer": 2,
         "id": "N5-05-038"
       },
       {
         "type": "文の組み立て",
-        "text": "【旅行・問24（N2レベル）】次の語句を正しい順序に並べてください：ため / 電車が / 遅れた / 遅刻して / しまいました",
-        "question": "正しい順序は？",
-        "options": [
-          "しまいました 遅刻して ため 遅れた 電車が",
-          "しまいました 電車が 遅れた ため 遅刻して",
-          "遅れた ため 遅刻して しまいました 電車が",
-          "電車が遅れたため遅刻してしまいました"
-        ],
+        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>24（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：ため / <ruby>電車<rt>でんしゃ</rt></ruby>が / <ruby>遅れ<rt>おくれ</rt></ruby>た / <ruby>遅刻<rt>ちこく</rt></ruby>して / しまいました",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["しまいました <ruby>遅刻<rt>ちこく</rt></ruby>して ため <ruby>遅れ<rt>おくれ</rt></ruby>た <ruby>電車<rt>でんしゃ</rt></ruby>が",
+          "しまいました <ruby>電車<rt>でんしゃ</rt></ruby>が <ruby>遅れ<rt>おくれ</rt></ruby>た ため <ruby>遅刻<rt>ちこく</rt></ruby>して",
+          "<ruby>遅れ<rt>おくれ</rt></ruby>た ため <ruby>遅刻<rt>ちこく</rt></ruby>して しまいました <ruby>電車<rt>でんしゃ</rt></ruby>が",
+          "<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>遅れ<rt>おくれ</rt></ruby>たため<ruby>遅刻<rt>ちこく</rt></ruby>してしまいました"],
         "answer": 1,
         "id": "N5-05-039"
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問25（N1レベル）】次の語句を正しい順序に並べてください：思います / 面白いと / この映画は / とても",
-        "question": "正しい順序は？",
-        "options": [
-          "とても 面白いと 思います この映画は",
-          "思います この映画は とても 面白いと",
-          "思います 面白いと とても この映画は",
-          "この映画はとても面白いと思います"
-        ],
+        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>とん</rt></ruby>25（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>思い<rt>おもい</rt></ruby>ます / 面白いと / この<ruby>映画<rt>えいが</rt></ruby>は / とても",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["とても 面白いと <ruby>思い<rt>おもい</rt></ruby>ます この<ruby>映画<rt>えいが</rt></ruby>は",
+          "<ruby>思い<rt>おもい</rt></ruby>ます この<ruby>映画<rt>えいが</rt></ruby>は とても 面白いと",
+          "<ruby>思い<rt>おもい</rt></ruby>ます 面白いと とても この<ruby>映画<rt>えいが</rt></ruby>は",
+          "この<ruby>映画<rt>えいが</rt></ruby>はとても面白いと<ruby>思い<rt>おもい</rt></ruby>ます"],
         "answer": 0,
         "id": "N5-05-040"
       },
       {
         "type": "文章の文法",
-        "text": "努力の甲斐（　）、成功を収めた。（21）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "なく",
+        "text": "努<ruby>力<rt>ちから</rt></ruby>の<ruby>甲<rt>こう</rt></ruby>斐（　）、<ruby>成功<rt>せいこう</rt></ruby>を<ruby>収<rt>しゅう</rt></ruby>めた。（21）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["なく",
           "として",
           "ゆえに",
-          "あって"
-        ],
+          "あって"],
         "answer": 3,
         "id": "N5-05-041"
       },
       {
         "type": "文章の文法",
-        "text": "説明を（　）、理解が深まった。（22）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "聞くにつれ",
-          "聞くほど",
-          "聞くや否や",
-          "聞いたところ"
-        ],
+        "text": "<ruby>説明<rt>せつめい</rt></ruby>を（　）、<ruby>理解<rt>りかい</rt></ruby>が<ruby>深<rt>しん</rt></ruby>まった。（22）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>聞く<rt>きく</rt></ruby>につれ",
+          "<ruby>聞く<rt>きく</rt></ruby>ほど",
+          "<ruby>聞く<rt>きく</rt></ruby>や<ruby>否<rt>いな</rt></ruby>や",
+          "<ruby>聞<rt>き</rt></ruby>いたところ"],
         "answer": 0,
         "id": "N5-05-042"
       },
       {
         "type": "文章の文法",
-        "text": "問題が（　）、対策を講じた。（23）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "発生して以来",
-          "発生次第",
-          "発生するや",
-          "発生したとたん"
-        ],
+        "text": "<ruby>問題<rt>もんだい</rt></ruby>が（　）、<ruby>対策<rt>たいさく</rt></ruby>を<ruby>講<rt>こう</rt></ruby>じた。（23）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>発生<rt>はっせい</rt></ruby>して<ruby>以来<rt>いらい</rt></ruby>",
+          "<ruby>発生<rt>はっせい</rt></ruby>次第",
+          "<ruby>発生する<rt>はっせいする</rt></ruby>や",
+          "<ruby>発生<rt>はっせい</rt></ruby>したとたん"],
         "answer": 1,
         "id": "N5-05-043"
       },
       {
         "type": "文章の文法",
-        "text": "彼（　）、この仕事はできない。（24）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "ともなく",
+        "text": "<ruby>彼<rt>かれ</rt></ruby>（　）、この<ruby>仕事<rt>しごと</rt></ruby>はできない。（24）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["ともなく",
           "はさておき",
           "にひきかえ",
-          "をおいて"
-        ],
+          "をおいて"],
         "answer": 3,
         "id": "N5-05-044"
       },
       {
         "type": "文章の文法",
-        "text": "私（　）、そのような発言はしない。（25）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "に限って",
+        "text": "<ruby>私<rt>わたし</rt></ruby>（　）、そのような<ruby>発言<rt>はつげん</rt></ruby>はしない。（25）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["に<ruby>限<rt>かぎ</rt></ruby>って",
           "にしても",
           "ならでは",
-          "としては"
-        ],
+          "としては"],
         "answer": 0,
         "id": "N5-05-045"
       },
@@ -4927,12 +4159,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "たなかさんは　25さいです。おとうとは　20さいです。",
         "question": "おとうとは　なんさいですか。",
-        "options": [
-          "15さい",
+        "options": ["15さい",
           "25さい",
           "20さい",
-          "30さい"
-        ],
+          "30さい"],
         "answer": 2,
         "id": "N5-05-046"
       },
@@ -4940,12 +4170,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "わたしの　せんせいは　にほんじんです。えいごと　ちゅうごくごが　できます。",
         "question": "せんせいは　どこの　ひとですか。",
-        "options": [
-          "ちゅうごくじん",
+        "options": ["ちゅうごくじん",
           "にほんじん",
           "アメリカじん",
-          "かんこくじん"
-        ],
+          "かんこくじん"],
         "answer": 0,
         "id": "N5-05-047"
       },
@@ -4953,12 +4181,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "すずきさんは　かいしゃいんです。まいにち　でんしゃで　かいしゃに　いきます。",
         "question": "すずきさんは　なにを　していますか。",
-        "options": [
-          "いしゃ",
+        "options": ["いしゃ",
           "がくせい",
           "せんせい",
-          "かいしゃいん"
-        ],
+          "かいしゃいん"],
         "answer": 2,
         "id": "N5-05-048"
       },
@@ -4966,12 +4192,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "せんせいは　とても　やさしいです。わからないとき、ていねいに　おしえて　くれます。にほんごの　べんきょうが　すきに　なりました。",
         "question": "せんせいは　どんな　ひとですか。",
-        "options": [
-          "こわい",
+        "options": ["こわい",
           "つまらない",
           "きびしい",
-          "やさしい"
-        ],
+          "やさしい"],
         "answer": 3,
         "id": "N5-05-049"
       },
@@ -4979,12 +4203,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "らいしゅう　しけんが　あります。にほんごの　しけんです。まいにち　3じかん　べんきょうしています。いい　てんを　とりたいです。",
         "question": "なんの　しけんですか。",
-        "options": [
-          "えいご",
+        "options": ["えいご",
           "かがく",
           "すうがく",
-          "にほんご"
-        ],
+          "にほんご"],
         "answer": 2,
         "id": "N5-05-050"
       },
@@ -4992,300 +4214,256 @@ window.MOCK_DATA['N5'] = {
         "type": "情報検索",
         "text": "【みせ】あさ10じから　よる8じまで。にちようびは　6じまで。もくようび　おやすみ。",
         "question": "もくようびは　どうですか。",
-        "options": [
-          "6じまで",
+        "options": ["6じまで",
           "おやすみ",
           "8じまで",
-          "10じから"
-        ],
+          "10じから"],
         "answer": 0,
         "id": "N5-05-051"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人がパン屋で話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🥐🥐",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>パン屋<rt>ぱんや</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🥐🥐",
           "🍞🍞",
           "🥐🥐🥐",
-          "🍞"
-        ],
+          "🍞"],
         "answer": 2,
         "id": "N5-05-052",
         "script": "M: 🥐 3つを　おねがいします。\nF: はい、わかりました。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人がカフェで注文しています。女の人は何を頼みますか。",
-        "question": "何を頼みますか。",
-        "options": [
-          "🍵",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がカフェで<ruby>注文<rt>ちゅうもん</rt></ruby>しています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>頼み<rt>たのみ</rt></ruby>ますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>頼み<rt>たのみ</rt></ruby>ますか。",
+        "options": ["🍵",
           "☕☕",
           "🍵🍵",
-          "☕"
-        ],
+          "☕"],
         "answer": 1,
         "id": "N5-05-053",
         "script": "F: これですか。\nM: いいえ、コーヒー 2つを　ください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人がレストランで注文しています。男の人は何を注文しますか。",
-        "question": "何を注文しますか。",
-        "options": [
-          "🍷🍷",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がレストランで<ruby>注文<rt>ちゅうもん</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>注文<rt>ちゅうもん</rt></ruby>しますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>注文<rt>ちゅうもん</rt></ruby>しますか。",
+        "options": ["🍷🍷",
           "🍷",
           "🍺",
-          "🍺🍺"
-        ],
+          "🍺🍺"],
         "answer": 2,
         "id": "N5-05-054",
         "script": "M: すみません、🍺は　ありますか。\nF: はい、どうぞ。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "学生が文房具店で買い物をしています。学生は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "📒",
+        "text": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>文<rt>ぶん</rt></ruby><ruby>房<rt>ふさ</rt></ruby><ruby>具<rt>ぐ</rt></ruby><ruby>店<rt>みせ</rt></ruby>で<ruby>買い物<rt>かいもの</rt></ruby>をしています。<ruby>学生<rt>がくせい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["📒",
           "📒📒",
           "✏️✏️",
-          "✏️✏️✏️"
-        ],
+          "✏️✏️✏️"],
         "answer": 3,
         "id": "N5-05-055",
         "script": "M: ✏ 3つを　ください。\nF: はい、✏ 3つですね。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人が本屋で話しています。女の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "📕📕",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>本屋<rt>ほんや</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["📕📕",
           "📗📗📗",
           "📗",
-          "📕"
-        ],
+          "📕"],
         "answer": 0,
         "id": "N5-05-056",
         "script": "F: なにを　かいますか。\nM: ほん 2つを　かいます。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人が食堂で注文しています。男の人は何を食べますか。",
-        "question": "何を食べますか。",
-        "options": [
-          "🍣",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>食堂<rt>しょくどう</rt></ruby>で<ruby>注文<rt>ちゅうもん</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>食<rt>た</rt></ruby>べますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>食<rt>た</rt></ruby>べますか。",
+        "options": ["🍣",
           "🍜",
           "🍱",
-          "🍛"
-        ],
+          "🍛"],
         "answer": 3,
         "id": "N5-05-057",
         "script": "M: 🍛を　おねがいします。\nF: はい、わかりました。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "ミーティングを聞いています。話者が最も強調しているのは何ですか。（25）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "ミーティングを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（25）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-05-058",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット5問33】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "講演を聞いています。話者が最も強調しているのは何ですか。（26）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>講<rt>こう</rt></ruby><ruby>演<rt>えん</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（26）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📕"
-        ],
+          "📕"],
         "answer": 3,
         "id": "N5-05-059",
         "script": "きょうは　ほんについて　はなします。ほんは　だいじです。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "ニュースを聞いています。話者が最も強調しているのは何ですか。（27）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "ニュースを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（27）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-05-060",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット5問35】"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "友達に「また明日」と言いたい（24）",
-        "question": "適切な表現は？",
-        "options": [
-          "📌",
+        "text": "<ruby>友<rt>とも</rt></ruby>達に「また<ruby>明日<rt>あした</rt></ruby>」と<ruby>言<rt>い</rt></ruby>いたい（24）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📆",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-05-067",
         "script": "📆です。【セット5問36】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "説明を聞いています。話者が最も強調しているのは何ですか。（29）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>説明<rt>せつめい</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（29）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-05-062",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット5問37】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "準備できましたか。（33）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
+        "text": "<ruby>準備<rt>じゅんび</rt></ruby>できましたか。（33）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
           "はい、できました",
-          "いいえ、違います",
-          "わかりません"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "わかりません"],
         "answer": 1,
         "id": "N5-05-069"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "友達に「おはよう」と言いたい（21）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>友<rt>とも</rt></ruby>達に「おはよう」と<ruby>言<rt>い</rt></ruby>いたい（21）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-05-064",
         "script": "ピンです。【セット5問39】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "分かりましたか。（34）",
-        "question": "返答は？",
-        "options": [
-          "はい、分かりました",
-          "はい、食べました",
+        "text": "<ruby>分<rt>ふん</rt></ruby>かりましたか。（34）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>分<rt>ふん</rt></ruby>かりました",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
           "わかりません",
-          "いいえ、違います"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 0,
         "id": "N5-05-070"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "先生に「すみません」と言いたい（23）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>先生<rt>せんせい</rt></ruby>に「すみません」と<ruby>言<rt>い</rt></ruby>いたい（23）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-05-066",
         "script": "ピンです。【セット5問41】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "聞こえますか。（35）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
-          "はい、聞こえます",
-          "いいえ、違います",
-          "わかりません"
-        ],
+        "text": "<ruby>聞<rt>き</rt></ruby>こえますか。（35）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
+          "はい、<ruby>聞<rt>き</rt></ruby>こえます",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "わかりません"],
         "answer": 1,
         "id": "N5-05-071"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "家族に「いただきます」と言いたい（25）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>家<rt>いえ</rt></ruby><ruby>族<rt>ぞく</rt></ruby>に「いただきます」と<ruby>言<rt>い</rt></ruby>いたい（25）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-05-068",
         "script": "ピンです。【セット5問43】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "この席、空いていますか。（36）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
+        "text": "この席、<ruby>空<rt>そら</rt></ruby>いていますか。（36）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
           "わかりません",
-          "いいえ、違います",
-          "はい、どうぞ"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、どうぞ"],
         "answer": 3,
         "id": "N5-05-072"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "店員に「これください」と言いたい（22）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>店員<rt>てんいん</rt></ruby>に「これください」と<ruby>言<rt>い</rt></ruby>いたい（22）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-05-065",
         "script": "ピンです。【セット5問45】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "何時からですか。（37）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
-          "いいえ、違います",
-          "10時からです",
-          "わかりません"
-        ],
+        "text": "<ruby>何時<rt>いつ</rt></ruby>からですか。（37）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "10<ruby>時<rt>とき</rt></ruby>からです",
+          "わかりません"],
         "answer": 2,
         "id": "N5-05-073"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "会議を聞いています。話者が最も強調しているのは何ですか。（30）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>会議<rt>かいぎ</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（30）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-05-063",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット5問47】"
@@ -5293,534 +4471,446 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "コンビニはありますか。（38）",
-        "question": "返答は？",
-        "options": [
-          "あの角にあります",
-          "はい、食べました",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["あの<ruby>角<rt>かど</rt></ruby>にあります",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
           "わかりません",
-          "いいえ、違います"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 0,
         "id": "N5-05-074"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "インタビューを聞いています。話者が最も強調しているのは何ですか。（28）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "インタビューを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（28）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-05-061",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット5問49】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "手伝ってもらえますか。（39）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
+        "text": "<ruby>手<rt>て</rt></ruby><ruby>伝<rt>でん</rt></ruby>ってもらえますか。（39）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
           "わかりません",
           "はい、いいですよ",
-          "いいえ、違います"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 2,
         "id": "N5-05-075"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに出せばいいですか。（40）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
-          "総務部です",
+        "text": "どこに<ruby>出<rt>で</rt></ruby>せばいいですか。（40）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
+          "<ruby>総務部<rt>そうむぶ</rt></ruby>です",
           "わかりません",
-          "いいえ、違います"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 1,
         "id": "N5-05-076"
       },
       {
         "type": "漢字読み",
         "text": "<u>小</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "おおやけ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["おおやけ",
           "かい",
           "じ",
-          "ちい、しょう"
-        ],
+          "ちい、しょう"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>線</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "いし",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["いし",
           "せん",
           "おと",
-          "みずか"
-        ],
+          "みずか"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>八</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "たの",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["たの",
           "いと",
           "はち、や",
-          "まじ"
-        ],
+          "まじ"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>川</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "あ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["あ",
           "たま",
           "ちから",
-          "かわ"
-        ],
+          "かわ"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>絵</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "やしろ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["やしろ",
           "おう",
           "こう",
-          "え"
-        ],
+          "え"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>分</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "つく",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["つく",
           "ただ",
           "ふん、ぶん",
-          "おな"
-        ],
+          "おな"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>牛</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "ふみ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["ふみ",
           "うし",
           "もと",
-          "あか"
-        ],
+          "あか"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>楽</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "たの",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["たの",
           "じ",
           "おおやけ",
-          "し"
-        ],
+          "し"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>糸</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "いと",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["いと",
           "おと",
           "みずか",
-          "り"
-        ],
+          "り"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>十</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "まじ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["まじ",
           "たの",
           "じゅう、とお",
-          "か"
-        ],
+          "か"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>四</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "あ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["あ",
           "ちから",
           "し、よ",
-          "おし"
-        ],
+          "おし"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>交</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "むろ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["むろ",
           "こう",
           "やしろ",
-          "まじ"
-        ],
+          "まじ"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>いもうと</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "削除",
-          "妹",
-          "預ける",
-          "趣味"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>削<rt>けず</rt></ruby>除",
+          "<ruby>妹<rt>いもうと</rt></ruby>",
+          "<ruby>預ける<rt>あずける</rt></ruby>",
+          "<ruby>趣味<rt>しゅみ</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>すくない</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "果物",
-          "少ない",
-          "来る",
-          "高い"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>果<rt>はな</rt></ruby><ruby>物<rt>もの</rt></ruby>",
+          "<ruby>少ない<rt>すくない</rt></ruby>",
+          "<ruby>来る<rt>くる</rt></ruby>",
+          "<ruby>高い<rt>たかい</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>つうやく</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "完璧",
-          "通訳",
-          "本",
-          "賑やか"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>完璧<rt>かんぺき</rt></ruby>",
+          "<ruby>通<rt>つう</rt></ruby>訳",
+          "<ruby>本<rt>ほん</rt></ruby>",
+          "<ruby>賑<rt>しん</rt></ruby>やか"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>しゅうまつ</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "履く",
-          "毎晩",
-          "週末",
-          "博物館"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>履く<rt>はく</rt></ruby>",
+          "<ruby>毎晩<rt>まいばん</rt></ruby>",
+          "<ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby>",
+          "博<ruby>物<rt>もの</rt></ruby><ruby>館<rt>かん</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>みち</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "空",
-          "道",
-          "色々",
-          "空港"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>空<rt>そら</rt></ruby>",
+          "<ruby>道<rt>みち</rt></ruby>",
+          "<ruby>色々<rt>いろいろ</rt></ruby>",
+          "<ruby>空港<rt>くうこう</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>くも</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "新聞",
-          "試す",
-          "変える",
-          "雲"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>新聞<rt>しんぶん</rt></ruby>",
+          "<ruby>試す<rt>ためす</rt></ruby>",
+          "<ruby>変える<rt>かえる</rt></ruby>",
+          "<ruby>雲<rt>くも</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>よごれる</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "汚れる",
-          "踊る",
-          "生活",
-          "足"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>汚れる<rt>よごれる</rt></ruby>",
+          "<ruby>踊る<rt>おどる</rt></ruby>",
+          "<ruby>生活<rt>せいかつ</rt></ruby>",
+          "<ruby>足<rt>あし</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "表記",
         "text": "<u>ちいさい</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "今",
-          "心配",
-          "起きる",
-          "小さい"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>今<rt>いま</rt></ruby>",
+          "<ruby>心<rt>こころ</rt></ruby>配",
+          "<ruby>起きる<rt>おきる</rt></ruby>",
+          "<ruby>小さい<rt>ちいさい</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "名前を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "挨拶",
-          "趣味",
-          "知る",
-          "投げる"
-        ],
+        "text": "<ruby>名前<rt>なまえ</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>挨<rt>あい</rt></ruby><ruby>拶<rt>さつ</rt></ruby>",
+          "<ruby>趣味<rt>しゅみ</rt></ruby>",
+          "<ruby>知る<rt>しる</rt></ruby>",
+          "<ruby>投げる<rt>なげる</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "意味が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "同僚",
-          "高い",
-          "分かる",
-          "長い"
-        ],
+        "text": "<ruby>意味<rt>いみ</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>同<rt>どう</rt></ruby><ruby>僚<rt>りょう</rt></ruby>",
+          "<ruby>高い<rt>たかい</rt></ruby>",
+          "<ruby>分かる<rt>わかる</rt></ruby>",
+          "<ruby>長い<rt>ながい</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "漢字を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "覚える",
-          "賑やか",
-          "行く",
-          "台"
-        ],
+        "text": "<ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>覚える<rt>おぼえる</rt></ruby>",
+          "<ruby>賑<rt>しん</rt></ruby>やか",
+          "<ruby>行く<rt>いく</rt></ruby>",
+          "<ruby>台<rt>だい</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "名前を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "最高",
-          "博物館",
-          "傘",
-          "忘れる"
-        ],
+        "text": "<ruby>名前<rt>なまえ</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>最高<rt>さいこう</rt></ruby>",
+          "博<ruby>物<rt>もの</rt></ruby><ruby>館<rt>かん</rt></ruby>",
+          "<ruby>傘<rt>かさ</rt></ruby>",
+          "<ruby>忘れる<rt>わすれる</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
         "text": "そう（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "銀行",
-          "空港",
-          "会う",
-          "思う"
-        ],
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>銀行<rt>ぎんこう</rt></ruby>",
+          "<ruby>空港<rt>くうこう</rt></ruby>",
+          "<ruby>会う<rt>あう</rt></ruby>",
+          "<ruby>思う<rt>おもう</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
         "text": "よく（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "到着",
-          "新聞",
-          "考える",
-          "絶対"
-        ],
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>到<rt>とう</rt></ruby><ruby>着<rt>ちゃく</rt></ruby>",
+          "<ruby>新聞<rt>しんぶん</rt></ruby>",
+          "<ruby>考える<rt>かんがえる</rt></ruby>",
+          "<ruby>絶対<rt>ぜったい</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "予定を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "足",
-          "決める",
-          "自然",
-          "渡る"
-        ],
+        "text": "<ruby>予定<rt>よてい</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>足<rt>あし</rt></ruby>",
+          "<ruby>決める<rt>きめる</rt></ruby>",
+          "<ruby>自<rt>みずか</rt></ruby>然",
+          "<ruby>渡る<rt>わたる</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "文脈規定",
-        "text": "友達を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "今",
-          "信じる",
+        "text": "<ruby>友<rt>とも</rt></ruby>達を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>今<rt>いま</rt></ruby>",
+          "<ruby>信じる<rt>しんじる</rt></ruby>",
           "ジュース",
-          "薬"
-        ],
+          "<ruby>薬<rt>くすり</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "文脈規定",
-        "text": "鍵を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "全然",
-          "万",
+        "text": "<ruby>鍵<rt>かぎ</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>全<rt>ぜん</rt></ruby>然",
+          "<ruby>万<rt>まん</rt></ruby>",
           "これ",
-          "探す"
-        ],
+          "<ruby>探す<rt>さがす</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "財布を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "見つける",
-          "友達",
+        "text": "<ruby>財<rt>ざい</rt></ruby>布を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>見つける<rt>みつける</rt></ruby>",
+          "<ruby>友<rt>とも</rt></ruby>達",
           "おやすみ",
-          "ベランダ"
-        ],
+          "ベランダ"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "仕事を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "携帯電話",
-          "始める",
-          "木曜日",
-          "休む"
-        ],
+        "text": "<ruby>仕事<rt>しごと</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>携<rt>たずさ</rt></ruby>帯<ruby>電話<rt>でんわ</rt></ruby>",
+          "<ruby>始める<rt>はじめる</rt></ruby>",
+          "<ruby>木曜日<rt>もくようび</rt></ruby>",
+          "<ruby>休む<rt>やすむ</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "文脈規定",
-        "text": "授業が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "帰る",
-          "遅い",
-          "終わる",
-          "暗い"
-        ],
+        "text": "<ruby>授業<rt>じゅぎょう</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>帰る<rt>かえる</rt></ruby>",
+          "<ruby>遅い<rt>おそい</rt></ruby>",
+          "<ruby>終わる<rt>おわる</rt></ruby>",
+          "<ruby>暗い<rt>くらい</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "勉強を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "準備",
-          "荷物",
+        "text": "<ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>準備<rt>じゅんび</rt></ruby>",
+          "<ruby>荷物<rt>にもつ</rt></ruby>",
           "続ける",
-          "使う"
-        ],
+          "<ruby>使う<rt>つかう</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "仕事を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "さようなら",
-          "入学",
-          "洗濯機",
-          "止める"
-        ],
+        "text": "<ruby>仕事<rt>しごと</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["さようなら",
+          "<ruby>入学<rt>にゅうがく</rt></ruby>",
+          "<ruby>洗濯<rt>せんたく</rt></ruby><ruby>機<rt>き</rt></ruby>",
+          "<ruby>止める<rt>とめる</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "予定を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "困る",
-          "前",
-          "美味しい",
-          "変える"
-        ],
+        "text": "<ruby>予定<rt>よてい</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>困る<rt>こまる</rt></ruby>",
+          "<ruby>前<rt>まえ</rt></ruby>",
+          "美<ruby>味<rt>あじ</rt></ruby>しい",
+          "<ruby>変える<rt>かえる</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "言い換え",
         "text": "本を<ruby>買う<rt>かう</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "購入する",
-          "空",
-          "趣味",
-          "行く"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>購入<rt>こうにゅう</rt></ruby>する",
+          "<ruby>空<rt>そら</rt></ruby>",
+          "<ruby>趣味<rt>しゅみ</rt></ruby>",
+          "<ruby>行く<rt>いく</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "言い換え",
         "text": "車を<ruby>売る<rt>うる</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "傘",
-          "試す",
-          "高い",
-          "販売する"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>傘<rt>かさ</rt></ruby>",
+          "<ruby>試す<rt>ためす</rt></ruby>",
+          "<ruby>高い<rt>たかい</rt></ruby>",
+          "販<ruby>売<rt>う</rt></ruby>する"],
         "answer": 3
       },
       {
         "type": "言い換え",
         "text": "料理を<ruby>作る<rt>つくる</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "賑やか",
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>賑<rt>しん</rt></ruby>やか",
           "スポーツ",
-          "製作する",
-          "会う"
-        ],
+          "<ruby>製作<rt>せいさく</rt></ruby>する",
+          "<ruby>会う<rt>あう</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "言い換え",
         "text": "パソコンを<ruby>使う<rt>つかう</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "博物館",
-          "踊る",
-          "利用する",
-          "到着"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["博<ruby>物<rt>もの</rt></ruby><ruby>館<rt>かん</rt></ruby>",
+          "<ruby>踊る<rt>おどる</rt></ruby>",
+          "<ruby>利<rt>り</rt></ruby>用する",
+          "<ruby>到<rt>とう</rt></ruby><ruby>着<rt>ちゃく</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "言い換え",
         "text": "かばんを<ruby>持つ<rt>もつ</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "自然",
-          "心配",
-          "空港",
-          "所有する"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>自<rt>みずか</rt></ruby>然",
+          "<ruby>心<rt>こころ</rt></ruby>配",
+          "<ruby>空港<rt>くうこう</rt></ruby>",
+          "<ruby>所有<rt>しょゆう</rt></ruby>する"],
         "answer": 3
       }
     ],
@@ -5829,12 +4919,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "この　りんご（　）おいしいです。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "から",
+        "options": ["から",
           "に",
           "は",
-          "を"
-        ],
+          "を"],
         "answer": 2,
         "id": "N5-06-026"
       },
@@ -5842,12 +4930,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "あめ（　）ふっています。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "が",
+        "options": ["が",
           "へ",
           "たくさん",
-          "とき"
-        ],
+          "とき"],
         "answer": 0,
         "id": "N5-06-031"
       },
@@ -5855,12 +4941,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "きのう（　）あめでした。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "は",
+        "options": ["は",
           "から",
           "に",
-          "を"
-        ],
+          "を"],
         "answer": 0,
         "id": "N5-06-028"
       },
@@ -5868,12 +4952,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "つくえの　うえに　ほん（　）あります。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "すこし",
+        "options": ["すこし",
           "あと",
           "で",
-          "が"
-        ],
+          "が"],
         "answer": 3,
         "id": "N5-06-032"
       },
@@ -5881,12 +4963,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "わたし（　）さかなが　すきです。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "に",
+        "options": ["に",
           "から",
           "は",
-          "を"
-        ],
+          "を"],
         "answer": 2,
         "id": "N5-06-030"
       },
@@ -5894,12 +4974,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "わたしは　コーヒー（　）すきです。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "が",
+        "options": ["が",
           "と",
           "とき",
-          "ながら"
-        ],
+          "ながら"],
         "answer": 0,
         "id": "N5-06-033"
       },
@@ -5907,12 +4985,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "らいしゅう（　）テストがあります。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "を",
+        "options": ["を",
           "は",
           "に",
-          "から"
-        ],
+          "から"],
         "answer": 1,
         "id": "N5-06-029"
       },
@@ -5920,12 +4996,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "やまださんは　えいご（　）じょうずです。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "すこし",
+        "options": ["すこし",
           "が",
           "に",
-          "とても"
-        ],
+          "とても"],
         "answer": 1,
         "id": "N5-06-034"
       },
@@ -5933,12 +5007,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "あの　えいが（　）おもしろかったです。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "は",
+        "options": ["は",
           "から",
           "を",
-          "に"
-        ],
+          "に"],
         "answer": 0,
         "id": "N5-06-027"
       },
@@ -5946,142 +5018,120 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "わたしは　あたま（　）いたいです。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "すこし",
+        "options": ["すこし",
           "を",
           "とき",
-          "が"
-        ],
+          "が"],
         "answer": 3,
         "id": "N5-06-035"
       },
       {
         "type": "文の組み立て",
-        "text": "【日常会話・問26（N5レベル）】次の語句を正しい順序に並べてください：買って / 母に / プレゼントを / あげました",
-        "question": "正しい順序は？",
-        "options": [
-          "あげました 買って プレゼントを 母に",
-          "あげました 母に プレゼントを 買って",
-          "プレゼントを 買って あげました 母に",
-          "母にプレゼントを買ってあげました"
-        ],
+        "text": "【<ruby>日常<rt>にちじょう</rt></ruby><ruby>会話<rt>かいわ</rt></ruby>・<ruby>問<rt>とん</rt></ruby>26（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>買<rt>か</rt></ruby>って / <ruby>母<rt>はは</rt></ruby>に / プレゼントを / あげました",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["あげました <ruby>買<rt>か</rt></ruby>って プレゼントを <ruby>母<rt>はは</rt></ruby>に",
+          "あげました <ruby>母<rt>はは</rt></ruby>に プレゼントを <ruby>買<rt>か</rt></ruby>って",
+          "プレゼントを <ruby>買<rt>か</rt></ruby>って あげました <ruby>母<rt>はは</rt></ruby>に",
+          "<ruby>母<rt>はは</rt></ruby>にプレゼントを<ruby>買<rt>か</rt></ruby>ってあげました"],
         "answer": 3,
         "id": "N5-06-036"
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問27（N4レベル）】次の語句を正しい順序に並べてください：旅行に / です / 行きたい / 一緒に / 友達と",
-        "question": "正しい順序は？",
-        "options": [
-          "友達と一緒に旅行に行きたいです",
-          "です 行きたい 旅行に 一緒に 友達と",
-          "です 友達と 一緒に 旅行に 行きたい",
-          "一緒に 旅行に 行きたい です 友達と"
-        ],
+        "text": "【ビジネス・<ruby>問<rt>とん</rt></ruby>27（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>旅行<rt>りょこう</rt></ruby>に / です / <ruby>行<rt>い</rt></ruby>きたい / <ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に / <ruby>友<rt>とも</rt></ruby>達と",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>友<rt>とも</rt></ruby>達と<ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に<ruby>旅行<rt>りょこう</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたいです",
+          "です <ruby>行<rt>い</rt></ruby>きたい <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に <ruby>友<rt>とも</rt></ruby>達と",
+          "です <ruby>友<rt>とも</rt></ruby>達と <ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>行<rt>い</rt></ruby>きたい",
+          "<ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>行<rt>い</rt></ruby>きたい です <ruby>友<rt>とも</rt></ruby>達と"],
         "answer": 0,
         "id": "N5-06-037"
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問28（N3レベル）】次の語句を正しい順序に並べてください：ようです / 雨が / 降って / いる",
-        "question": "正しい順序は？",
-        "options": [
-          "雨が降っているようです",
-          "ようです 雨が 降って いる",
-          "ようです いる 降って 雨が",
-          "降って いる ようです 雨が"
-        ],
+        "text": "【<ruby>学校<rt>がっこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>28（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：ようです / <ruby>雨<rt>あめ</rt></ruby>が / <ruby>降<rt>こう</rt></ruby>って / いる",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>こう</rt></ruby>っているようです",
+          "ようです <ruby>雨<rt>あめ</rt></ruby>が <ruby>降<rt>こう</rt></ruby>って いる",
+          "ようです いる <ruby>降<rt>こう</rt></ruby>って <ruby>雨<rt>あめ</rt></ruby>が",
+          "<ruby>降<rt>こう</rt></ruby>って いる ようです <ruby>雨<rt>あめ</rt></ruby>が"],
         "answer": 1,
         "id": "N5-06-038"
       },
       {
         "type": "文の組み立て",
-        "text": "【旅行・問29（N2レベル）】次の語句を正しい順序に並べてください：仕事を / 連絡して / ください / 終えたら",
-        "question": "正しい順序は？",
-        "options": [
-          "終えたら 連絡して ください 仕事を",
-          "ください 仕事を 終えたら 連絡して",
-          "仕事を終えたら連絡してください",
-          "ください 連絡して 終えたら 仕事を"
-        ],
+        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>29（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>仕事<rt>しごと</rt></ruby>を / <ruby>連絡<rt>れんらく</rt></ruby>して / ください / <ruby>終<rt>しゅう</rt></ruby>えたら",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>終<rt>しゅう</rt></ruby>えたら <ruby>連絡<rt>れんらく</rt></ruby>して ください <ruby>仕事<rt>しごと</rt></ruby>を",
+          "ください <ruby>仕事<rt>しごと</rt></ruby>を <ruby>終<rt>しゅう</rt></ruby>えたら <ruby>連絡<rt>れんらく</rt></ruby>して",
+          "<ruby>仕事<rt>しごと</rt></ruby>を<ruby>終<rt>しゅう</rt></ruby>えたら<ruby>連絡<rt>れんらく</rt></ruby>してください",
+          "ください <ruby>連絡<rt>れんらく</rt></ruby>して <ruby>終<rt>しゅう</rt></ruby>えたら <ruby>仕事<rt>しごと</rt></ruby>を"],
         "answer": 0,
         "id": "N5-06-039"
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問30（N1レベル）】次の語句を正しい順序に並べてください：この料理は / くれました / 作って / 母が",
-        "question": "正しい順序は？",
-        "options": [
-          "この料理は母が作ってくれました",
-          "くれました この料理は 母が 作って",
-          "母が 作って くれました この料理は",
-          "くれました 作って 母が この料理は"
-        ],
+        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>とん</rt></ruby>30（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：この料<ruby>理<rt>り</rt></ruby>は / くれました / <ruby>作<rt>さく</rt></ruby>って / <ruby>母<rt>はは</rt></ruby>が",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["この料<ruby>理<rt>り</rt></ruby>は<ruby>母<rt>はは</rt></ruby>が<ruby>作<rt>さく</rt></ruby>ってくれました",
+          "くれました この料<ruby>理<rt>り</rt></ruby>は <ruby>母<rt>はは</rt></ruby>が <ruby>作<rt>さく</rt></ruby>って",
+          "<ruby>母<rt>はは</rt></ruby>が <ruby>作<rt>さく</rt></ruby>って くれました この料<ruby>理<rt>り</rt></ruby>は",
+          "くれました <ruby>作<rt>さく</rt></ruby>って <ruby>母<rt>はは</rt></ruby>が この料<ruby>理<rt>り</rt></ruby>は"],
         "answer": 1,
         "id": "N5-06-040"
       },
       {
         "type": "文章の文法",
-        "text": "日本経済は長期にわたる停滞（　）、回復の兆しを見せている。（26）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "に至り",
+        "text": "<ruby>日本<rt>にほん</rt></ruby><ruby>経済<rt>けいざい</rt></ruby>は<ruby>長期<rt>ちょうき</rt></ruby>にわたる<ruby>停滞<rt>ていたい</rt></ruby>（　）、<ruby>回<rt>まわ</rt></ruby>復の<ruby>兆<rt>ちょう</rt></ruby>しを<ruby>見<rt>み</rt></ruby>せている。（26）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["に至り",
           "をもって",
           "に反して",
-          "を経て"
-        ],
+          "を<ruby>経て<rt>へて</rt></ruby>"],
         "answer": 3,
         "id": "N5-06-041"
       },
       {
         "type": "文章の文法",
-        "text": "彼の提案は斬新（　）、実現可能性に欠ける。（27）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "だとしても",
+        "text": "<ruby>彼<rt>かれ</rt></ruby>の提<ruby>案<rt>あん</rt></ruby>は<ruby>斬新<rt>ざんしん</rt></ruby>（　）、実<ruby>現<rt>あらわ</rt></ruby><ruby>可能性<rt>かのうせい</rt></ruby>に<ruby>欠ける<rt>かける</rt></ruby>。（27）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["だとしても",
           "であるから",
           "ではあるが",
-          "なので"
-        ],
+          "なので"],
         "answer": 2,
         "id": "N5-06-042"
       },
       {
         "type": "文章の文法",
-        "text": "環境問題の解決（　）、国際協力が不可欠だ。（28）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "にとって",
+        "text": "<ruby>環境問題<rt>かんきょうもんだい</rt></ruby>の<ruby>解決<rt>かいけつ</rt></ruby>（　）、<ruby>国際協力<rt>こくさいきょうりょく</rt></ruby>が<ruby>不可欠<rt>ふかけつ</rt></ruby>だ。（28）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["にとって",
           "には",
           "において",
-          "に際して"
-        ],
+          "に<ruby>際<rt>さい</rt></ruby>して"],
         "answer": 1,
         "id": "N5-06-043"
       },
       {
         "type": "文章の文法",
-        "text": "この研究は長年の努力（　）結実したものだ。（29）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "が",
+        "text": "この<ruby>研究<rt>けんきゅう</rt></ruby>は<ruby>長<rt>ちょう</rt></ruby><ruby>年<rt>とし</rt></ruby>の努<ruby>力<rt>ちから</rt></ruby>（　）<ruby>結<rt>むす</rt></ruby>実したものだ。（29）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["が",
           "に",
           "の",
-          "を"
-        ],
+          "を"],
         "answer": 0,
         "id": "N5-06-044"
       },
       {
         "type": "文章の文法",
-        "text": "社会の変化（　）、教育も見直しが必要だ。（30）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "に関して",
+        "text": "<ruby>社会<rt>しゃかい</rt></ruby>の<ruby>変化<rt>へんか</rt></ruby>（　）、<ruby>教育<rt>きょういく</rt></ruby>も<ruby>見直し<rt>みなおし</rt></ruby>が必要だ。（30）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["に<ruby>関して<rt>かんして</rt></ruby>",
           "に伴い",
-          "に対して",
-          "によると"
-        ],
+          "に<ruby>対して<rt>たいして</rt></ruby>",
+          "によると"],
         "answer": 1,
         "id": "N5-06-045"
       },
@@ -6089,12 +5139,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "わたしは　りんごが　すきです。バナナも　すきです。でも　みかんは　きらいです。",
         "question": "わたしは　なにが　きらいですか。",
-        "options": [
-          "バナナ",
+        "options": ["バナナ",
           "いちご",
           "みかん",
-          "りんご"
-        ],
+          "りんご"],
         "answer": 0,
         "id": "N5-06-046"
       },
@@ -6102,12 +5150,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "やまださんの　しゅみは　どくしょです。まいにち　30ぷん　ほんを　よみます。",
         "question": "やまださんの　しゅみは　なんですか。",
-        "options": [
-          "りょうり",
+        "options": ["りょうり",
           "スポーツ",
           "どくしょ",
-          "りょこう"
-        ],
+          "りょこう"],
         "answer": 2,
         "id": "N5-06-047"
       },
@@ -6115,12 +5161,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "わたしは　サッカーが　すきです。でも　やきゅうは　あまり　すきじゃないです。",
         "question": "わたしは　なにが　すきですか。",
-        "options": [
-          "サッカー",
+        "options": ["サッカー",
           "やきゅう",
           "テニス",
-          "すいえい"
-        ],
+          "すいえい"],
         "answer": 0,
         "id": "N5-06-048"
       },
@@ -6128,12 +5172,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "きのう　かぞくと　うみに　いきました。てんきが　よくて、とても　きれいでした。およいだり、すなで　あそんだり　しました。たのしかったです。",
         "question": "きのう　どこに　いきましたか。",
-        "options": [
-          "まち",
+        "options": ["まち",
           "こうえん",
           "やま",
-          "うみ"
-        ],
+          "うみ"],
         "answer": 3,
         "id": "N5-06-049"
       },
@@ -6141,12 +5183,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "らいげつ　ともだちと　きょうとに　いきます。2はく3にちの　りょこうです。おてらや　じんじゃを　みたいです。",
         "question": "りょこうは　なんにちですか。",
-        "options": [
-          "1にち",
+        "options": ["1にち",
           "2にち",
           "4にち",
-          "3にち"
-        ],
+          "3にち"],
         "answer": 1,
         "id": "N5-06-050"
       },
@@ -6154,192 +5194,164 @@ window.MOCK_DATA['N5'] = {
         "type": "情報検索",
         "text": "【プール】おとな500えん、こども200えん。かいすうけん（10かい）は　おとな4000えん。",
         "question": "おとなの　かいすうけんは　いくらですか。",
-        "options": [
-          "4000えん",
+        "options": ["4000えん",
           "500えん",
           "5000えん",
-          "2000えん"
-        ],
+          "2000えん"],
         "answer": 0,
         "id": "N5-06-051"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人がレストランで注文しています。女の人は何を頼みますか。",
-        "question": "何を頼みますか。",
-        "options": [
-          "🍔",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がレストランで<ruby>注文<rt>ちゅうもん</rt></ruby>しています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>頼み<rt>たのみ</rt></ruby>ますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>頼み<rt>たのみ</rt></ruby>ますか。",
+        "options": ["🍔",
           "🍕🍕",
           "🍕",
-          "🍔🍔"
-        ],
+          "🍔🍔"],
         "answer": 2,
         "id": "N5-06-052",
         "script": "M: 🍕を　おねがいします。\nF: はい、わかりました。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人と女の人が話しています。女の人はどこへ行きますか。",
-        "question": "どこへ行きますか。",
-        "options": [
-          "🏥",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>と<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>話<rt>はなし</rt></ruby>しています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>はどこへ<ruby>行<rt>い</rt></ruby>きますか。",
+        "question": "どこへ<ruby>行<rt>い</rt></ruby>きますか。",
+        "options": ["🏥",
           "🏫",
           "🏣",
-          "🏪"
-        ],
+          "🏪"],
         "answer": 0,
         "id": "N5-06-053",
         "script": "F: これですか。\nM: いいえ、びょういんを　ください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人と女の人が駅で話しています。何で行きますか。",
-        "question": "何で行きますか。",
-        "options": [
-          "🚌",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>と<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>駅<rt>えき</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>何<rt>なに</rt></ruby>で<ruby>行<rt>い</rt></ruby>きますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>で<ruby>行<rt>い</rt></ruby>きますか。",
+        "options": ["🚌",
           "🚃",
           "🚶",
-          "🚕"
-        ],
+          "🚕"],
         "answer": 1,
         "id": "N5-06-054",
         "script": "M: すみません、🚃は　ありますか。\nF: はい、どうぞ。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人が出かける準備をしています。女の人は何を持っていきますか。",
-        "question": "何を持っていきますか。",
-        "options": [
-          "👒",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>出かける<rt>でかける</rt></ruby><ruby>準備<rt>じゅんび</rt></ruby>をしています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>持<rt>もつ</rt></ruby>っていきますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>持<rt>もつ</rt></ruby>っていきますか。",
+        "options": ["👒",
           "🧣",
           "☂️",
-          "🧥"
-        ],
+          "🧥"],
         "answer": 2,
         "id": "N5-06-055",
         "script": "M: ☂を　ください。\nF: はい、☂ですね。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人がペットショップで話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🐟🐟🐟",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がペットショップで<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🐟🐟🐟",
           "🐈",
           "🐕",
-          "🐹"
-        ],
+          "🐹"],
         "answer": 0,
         "id": "N5-06-056",
         "script": "F: なにを　かいますか。\nM: 🐟 3つを　かいます。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "友達同士が電話で話しています。明日何をしますか。",
-        "question": "明日何をしますか。",
-        "options": [
-          "🏊",
+        "text": "<ruby>友<rt>とも</rt></ruby>達<ruby>同<rt>どう</rt></ruby>士が<ruby>電話<rt>でんわ</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>明日<rt>あした</rt></ruby><ruby>何<rt>なに</rt></ruby>をしますか。",
+        "question": "<ruby>明日<rt>あした</rt></ruby><ruby>何<rt>なに</rt></ruby>をしますか。",
+        "options": ["🏊",
           "🎿",
           "⚽",
-          "🎾"
-        ],
+          "🎾"],
         "answer": 3,
         "id": "N5-06-057",
         "script": "M: 🎾を　おねがいします。\nF: はい、わかりました。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "プレゼンを聞いています。話者が最も強調しているのは何ですか。（31）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "プレゼンを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（31）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-06-058",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット6問33】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "ラジオを聞いています。話者が最も強調しているのは何ですか。（33）",
-        "question": "最も強調しているのは？",
-        "options": [
-          "📌",
+        "text": "ラジオを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（33）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📕",
           "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-06-060",
         "script": "きょうは　ほんについて　はなします。ほんは　だいじです。【セット6問34】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "授業を聞いています。話者が最も強調しているのは何ですか。（32）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>授業<rt>じゅぎょう</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（32）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-06-059",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット6問35】"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "友達に「また明日」と言いたい（29）",
-        "question": "適切な表現は？",
-        "options": [
-          "📆",
+        "text": "<ruby>友<rt>とも</rt></ruby>達に「また<ruby>明日<rt>あした</rt></ruby>」と<ruby>言<rt>い</rt></ruby>いたい（29）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📆",
           "📌",
           "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-06-067",
         "script": "📆です。【セット6問36】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "スピーチを聞いています。話者が最も強調しているのは何ですか。（35）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "スピーチを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（35）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-06-062",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット6問37】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "お名前は。（41）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
-          "いいえ、違います",
-          "田中です",
-          "わかりません"
-        ],
+        "text": "お<ruby>名前<rt>なまえ</rt></ruby>は。（41）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "<ruby>田<rt>た</rt></ruby><ruby>中<rt>なか</rt></ruby>です",
+          "わかりません"],
         "answer": 2,
         "id": "N5-06-069"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "友達に「おはよう」と言いたい（26）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>友<rt>とも</rt></ruby>達に「おはよう」と<ruby>言<rt>い</rt></ruby>いたい（26）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-06-064",
         "script": "ピンです。【セット6問39】"
@@ -6347,642 +5359,538 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "どのくらいかかりますか。（42）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "10分くらいです",
-          "はい、食べました",
-          "いいえ、違います"
-        ],
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "10<ruby>分<rt>ふん</rt></ruby>くらいです",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 1,
         "id": "N5-06-070"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "先生に「すみません」と言いたい（28）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>先生<rt>せんせい</rt></ruby>に「すみません」と<ruby>言<rt>い</rt></ruby>いたい（28）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-06-066",
         "script": "ピンです。【セット6問41】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "使ってもいいですか。（43）",
-        "question": "返答は？",
-        "options": [
-          "どうぞ",
-          "はい、食べました",
+        "text": "<ruby>使<rt>つか</rt></ruby>ってもいいですか。（43）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["どうぞ",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
           "わかりません",
-          "いいえ、違います"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 0,
         "id": "N5-06-071"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "家族に「いただきます」と言いたい（30）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>家<rt>いえ</rt></ruby><ruby>族<rt>ぞく</rt></ruby>に「いただきます」と<ruby>言<rt>い</rt></ruby>いたい（30）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-06-068",
         "script": "ピンです。【セット6問43】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "もう一杯いかがですか。（44）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
+        "text": "もう<ruby>一<rt>いち</rt></ruby><ruby>杯<rt>さかずき</rt></ruby>いかがですか。（44）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
           "いただきます",
           "わかりません",
-          "はい、食べました"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 1,
         "id": "N5-06-072"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "店員に「これください」と言いたい（27）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>店員<rt>てんいん</rt></ruby>に「これください」と<ruby>言<rt>い</rt></ruby>いたい（27）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-06-065",
         "script": "ピンです。【セット6問45】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "楽しかったですね。（45）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
+        "text": "<ruby>楽<rt>らく</rt></ruby>しかったですね。（45）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
           "わかりません",
-          "本当ですね",
-          "いいえ、違います"
-        ],
+          "<ruby>本<rt>ほん</rt></ruby>当ですね",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 2,
         "id": "N5-06-073"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "報告を聞いています。話者が最も強調しているのは何ですか。（36）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>報告<rt>ほうこく</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（36）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-06-063",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット6問47】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "郵便局はどこですか。（46）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "この先です",
-          "いいえ、違います",
-          "はい、食べました"
-        ],
+        "text": "郵<ruby>便<rt>べん</rt></ruby><ruby>局<rt>きょく</rt></ruby>はどこですか。（46）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "この<ruby>先<rt>さき</rt></ruby>です",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 1,
         "id": "N5-06-074"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "案内を聞いています。話者が最も強調しているのは何ですか。（34）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>案内<rt>あんない</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（34）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-06-061",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット6問49】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "お時間よろしいですか。（47）",
-        "question": "返答は？",
-        "options": [
-          "大丈夫です",
-          "はい、食べました",
-          "いいえ、違います",
-          "わかりません"
-        ],
+        "text": "お<ruby>時間<rt>じかん</rt></ruby>よろしいですか。（47）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["<ruby>大<rt>だい</rt></ruby><ruby>丈<rt>たけ</rt></ruby>夫です",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "わかりません"],
         "answer": 0,
         "id": "N5-06-075"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "傘はお持ちですか。（48）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
+        "text": "<ruby>傘<rt>かさ</rt></ruby>はお<ruby>持<rt>もつ</rt></ruby>ちですか。（48）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
           "わかりません",
-          "はい、食べました",
-          "忘れました"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "<ruby>忘<rt>ぼう</rt></ruby>れました"],
         "answer": 3,
         "id": "N5-06-076"
       },
       {
         "type": "漢字読み",
         "text": "<u>田</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "はか",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["はか",
           "つく",
           "おな",
-          "た"
-        ],
+          "た"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>口</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "さん",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["さん",
           "もと",
           "あか",
-          "くち"
-        ],
+          "くち"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>名</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "し",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["し",
           "おおやけ",
           "な",
-          "く"
-        ],
+          "く"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>教</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "おし",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["おし",
           "みずか",
           "り",
-          "え"
-        ],
+          "え"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>林</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "か",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["か",
           "まじ",
           "はやし",
-          "せん"
-        ],
+          "せん"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>九</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "あ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["あ",
           "きゅう、く",
           "おし",
-          "や"
-        ],
+          "や"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>年</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "やしろ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["やしろ",
           "ねん、とし",
           "むろ",
-          "ゆみ"
-        ],
+          "ゆみ"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>鳥</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "おな",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["おな",
           "とり",
           "はか",
-          "かたち"
-        ],
+          "かたち"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>空</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "そら",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["そら",
           "あか",
           "さん",
-          "いろ"
-        ],
+          "いろ"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>組</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "うま",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["うま",
           "し",
           "くろ",
-          "く"
-        ],
+          "く"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>木</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "り",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["り",
           "き",
           "え",
-          "ちゃ"
-        ],
+          "ちゃ"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>北</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "か",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["か",
           "きた、ほく",
           "せん",
-          "にく"
-        ],
+          "にく"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>よる</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "共有",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>共有<rt>きょうゆう</rt></ruby>",
           "燃える",
-          "夜",
-          "万"
-        ],
+          "<ruby>夜<rt>よる</rt></ruby>",
+          "<ruby>万<rt>まん</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>おとな</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "大人",
-          "引く",
-          "捕まえる",
-          "友達"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>大人<rt>おとな</rt></ruby>",
+          "<ruby>引く<rt>ひく</rt></ruby>",
+          "<ruby>捕まえる<rt>つかまえる</rt></ruby>",
+          "<ruby>友<rt>とも</rt></ruby>達"],
         "answer": 0
       },
       {
         "type": "表記",
         "text": "<u>おもいだす</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "呼ぶ",
-          "思い出す",
-          "居間",
-          "携帯電話"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>呼ぶ<rt>よぶ</rt></ruby>",
+          "<ruby>思い出す<rt>おもいだす</rt></ruby>",
+          "<ruby>居間<rt>いま</rt></ruby>",
+          "<ruby>携<rt>たずさ</rt></ruby>帯<ruby>電話<rt>でんわ</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>さくじょ</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "預ける",
-          "削除",
-          "趣味",
-          "遅い"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>預ける<rt>あずける</rt></ruby>",
+          "<ruby>削<rt>けず</rt></ruby>除",
+          "<ruby>趣味<rt>しゅみ</rt></ruby>",
+          "<ruby>遅い<rt>おそい</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>くだもの</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "荷物",
-          "来る",
-          "高い",
-          "果物"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>荷物<rt>にもつ</rt></ruby>",
+          "<ruby>来る<rt>くる</rt></ruby>",
+          "<ruby>高い<rt>たかい</rt></ruby>",
+          "<ruby>果<rt>はな</rt></ruby><ruby>物<rt>もの</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>かんぺき</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "賑やか",
-          "本",
-          "完璧",
-          "入学"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>賑<rt>しん</rt></ruby>やか",
+          "<ruby>本<rt>ほん</rt></ruby>",
+          "<ruby>完璧<rt>かんぺき</rt></ruby>",
+          "<ruby>入学<rt>にゅうがく</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>まいばん</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "博物館",
-          "履く",
-          "毎晩",
-          "前"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["博<ruby>物<rt>もの</rt></ruby><ruby>館<rt>かん</rt></ruby>",
+          "<ruby>履く<rt>はく</rt></ruby>",
+          "<ruby>毎晩<rt>まいばん</rt></ruby>",
+          "<ruby>前<rt>まえ</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>そら</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "空港",
-          "色々",
-          "空",
-          "家族"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>空港<rt>くうこう</rt></ruby>",
+          "<ruby>色々<rt>いろいろ</rt></ruby>",
+          "<ruby>空<rt>そら</rt></ruby>",
+          "<ruby>家<rt>いえ</rt></ruby><ruby>族<rt>ぞく</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "天気が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "駅",
-          "家族",
-          "変わる",
-          "歩く"
-        ],
+        "text": "<ruby>天気<rt>てんき</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>駅<rt>えき</rt></ruby>",
+          "<ruby>家<rt>いえ</rt></ruby><ruby>族<rt>ぞく</rt></ruby>",
+          "<ruby>変わる<rt>かわる</rt></ruby>",
+          "<ruby>歩く<rt>あるく</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "本が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "繋ぐ",
-          "度",
-          "努力",
-          "ある"
-        ],
+        "text": "<ruby>本<rt>ほん</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["繋ぐ",
+          "<ruby>度<rt>ど</rt></ruby>",
+          "努<ruby>力<rt>ちから</rt></ruby>",
+          "ある"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "猫が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "投げる",
-          "挨拶",
+        "text": "<ruby>猫<rt>ねこ</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>投げる<rt>なげる</rt></ruby>",
+          "<ruby>挨<rt>あい</rt></ruby><ruby>拶<rt>さつ</rt></ruby>",
           "いる",
-          "お詫び"
-        ],
+          "お詫び"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "医者に（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "失敗",
-          "同僚",
-          "長い",
-          "なる"
-        ],
+        "text": "<ruby>医者<rt>いしゃ</rt></ruby>に（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["失敗",
+          "<ruby>同<rt>どう</rt></ruby><ruby>僚<rt>りょう</rt></ruby>",
+          "<ruby>長い<rt>ながい</rt></ruby>",
+          "なる"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "日本語が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "できる",
-          "行く",
-          "台",
-          "初めて"
-        ],
+        "text": "<ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["できる",
+          "<ruby>行く<rt>いく</rt></ruby>",
+          "<ruby>台<rt>だい</rt></ruby>",
+          "<ruby>初めて<rt>はじめて</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "お金が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "傘",
+        "text": "<ruby>お金<rt>おかね</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>傘<rt>かさ</rt></ruby>",
           "要る",
-          "最高",
-          "全部"
-        ],
+          "<ruby>最高<rt>さいこう</rt></ruby>",
+          "<ruby>全部<rt>ぜんぶ</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "文脈規定",
-        "text": "車が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "銀行",
-          "会う",
-          "欲しい",
-          "靴"
-        ],
+        "text": "<ruby>車<rt>くるま</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>銀行<rt>ぎんこう</rt></ruby>",
+          "<ruby>会う<rt>あう</rt></ruby>",
+          "<ruby>欲しい<rt>ほしい</rt></ruby>",
+          "<ruby>靴<rt>くつ</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
         "text": "プレゼントを（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "あげる",
-          "到着",
-          "絶対",
-          "断る"
-        ],
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["あげる",
+          "<ruby>到<rt>とう</rt></ruby><ruby>着<rt>ちゃく</rt></ruby>",
+          "<ruby>絶対<rt>ぜったい</rt></ruby>",
+          "<ruby>断る<rt>ことわる</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "手紙を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "自然",
+        "text": "<ruby>手紙<rt>てがみ</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>自<rt>みずか</rt></ruby>然",
           "もらう",
-          "渡る",
-          "料理する"
-        ],
+          "<ruby>渡る<rt>わたる</rt></ruby>",
+          "料<ruby>理<rt>り</rt></ruby>する"],
         "answer": 1
       },
       {
         "type": "文脈規定",
-        "text": "本を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "くれる",
+        "text": "<ruby>本<rt>ほん</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["くれる",
           "ジュース",
-          "薬",
-          "放送"
-        ],
+          "<ruby>薬<rt>くすり</rt></ruby>",
+          "放<ruby>送<rt>お</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "本を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "これ",
-          "貸す",
-          "全然",
-          "郵便局"
-        ],
+        "text": "<ruby>本<rt>ほん</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["これ",
+          "<ruby>貸す<rt>かす</rt></ruby>",
+          "<ruby>全<rt>ぜん</rt></ruby>然",
+          "郵<ruby>便<rt>べん</rt></ruby><ruby>局<rt>きょく</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "文脈規定",
-        "text": "本を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "おやすみ",
-          "借りる",
+        "text": "<ruby>本<rt>ほん</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["おやすみ",
+          "<ruby>借りる<rt>かりる</rt></ruby>",
           "ベランダ",
-          "数える"
-        ],
+          "<ruby>数える<rt>かぞえる</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "文脈規定",
-        "text": "本を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "返す",
-          "木曜日",
-          "休む",
-          "予約"
-        ],
+        "text": "<ruby>本<rt>ほん</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["返す",
+          "<ruby>木曜日<rt>もくようび</rt></ruby>",
+          "<ruby>休む<rt>やすむ</rt></ruby>",
+          "<ruby>予<rt>よ</rt></ruby>約"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "お金を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "帰る",
-          "払う",
-          "暗い",
-          "報告"
-        ],
+        "text": "<ruby>お金<rt>おかね</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>帰る<rt>かえる</rt></ruby>",
+          "<ruby>払う<rt>はらう</rt></ruby>",
+          "<ruby>暗い<rt>くらい</rt></ruby>",
+          "<ruby>報告<rt>ほうこく</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "文脈規定",
-        "text": "手紙を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "準備",
-          "送る",
-          "使う",
-          "言葉"
-        ],
+        "text": "<ruby>手紙<rt>てがみ</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>準備<rt>じゅんび</rt></ruby>",
+          "<ruby>送る<rt>おくる</rt></ruby>",
+          "<ruby>使う<rt>つかう</rt></ruby>",
+          "<ruby>言<rt>い</rt></ruby>葉"],
         "answer": 1
       },
       {
         "type": "言い換え",
         "text": "本を<ruby>置く<rt>おく</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "設置する",
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>設<rt>せつ</rt></ruby>置する",
           "燃える",
-          "新聞",
-          "ジュース"
-        ],
+          "<ruby>新聞<rt>しんぶん</rt></ruby>",
+          "ジュース"],
         "answer": 0
       },
       {
         "type": "言い換え",
         "text": "ここで<ruby>待つ<rt>まつ</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "足",
-          "引く",
-          "待機する",
-          "これ"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>足<rt>あし</rt></ruby>",
+          "<ruby>引く<rt>ひく</rt></ruby>",
+          "<ruby>待機<rt>たいき</rt></ruby>する",
+          "これ"],
         "answer": 2
       },
       {
         "type": "言い換え",
         "text": "友達に<ruby>会う<rt>あう</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "お目にかかる",
-          "呼ぶ",
-          "今",
-          "おやすみ"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["お<ruby>目<rt>め</rt></ruby>にかかる",
+          "<ruby>呼ぶ<rt>よぶ</rt></ruby>",
+          "<ruby>今<rt>いま</rt></ruby>",
+          "おやすみ"],
         "answer": 0
       },
       {
         "type": "言い換え",
         "text": "英語を<ruby>教える<rt>おしえる</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "万",
-          "預ける",
-          "指導する",
-          "木曜日"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>万<rt>まん</rt></ruby>",
+          "<ruby>預ける<rt>あずける</rt></ruby>",
+          "<ruby>指<rt>ゆび</rt></ruby>導する",
+          "<ruby>木曜日<rt>もくようび</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "言い換え",
         "text": "日本語を<ruby>習う<rt>ならう</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "学ぶ",
-          "来る",
-          "友達",
-          "帰る"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>学ぶ<rt>まなぶ</rt></ruby>",
+          "<ruby>来る<rt>くる</rt></ruby>",
+          "<ruby>友<rt>とも</rt></ruby>達",
+          "<ruby>帰る<rt>かえる</rt></ruby>"],
         "answer": 0
       }
     ],
@@ -6991,12 +5899,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "のど（　）かわきました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "へ",
+        "options": ["へ",
           "ながら",
           "が",
-          "すこし"
-        ],
+          "すこし"],
         "answer": 2,
         "id": "N5-07-026"
       },
@@ -7004,12 +5910,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "ともだち（　）えいがを　みました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "とても",
+        "options": ["とても",
           "へ",
           "あまり",
-          "と"
-        ],
+          "と"],
         "answer": 3,
         "id": "N5-07-030"
       },
@@ -7017,12 +5921,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "じかん（　）ありません。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "も",
+        "options": ["も",
           "とても",
           "とき",
-          "が"
-        ],
+          "が"],
         "answer": 3,
         "id": "N5-07-028"
       },
@@ -7030,12 +5932,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "パン（　）たまごを　たべました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "あと",
+        "options": ["あと",
           "で",
           "たくさん",
-          "と"
-        ],
+          "と"],
         "answer": 3,
         "id": "N5-07-031"
       },
@@ -7043,12 +5943,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "おなか（　）すきました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "が",
+        "options": ["が",
           "まえ",
           "あと",
-          "の"
-        ],
+          "の"],
         "answer": 0,
         "id": "N5-07-027"
       },
@@ -7056,12 +5954,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "すし（　）てんぷらが　すきです。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "や",
+        "options": ["や",
           "も",
           "と",
-          "が"
-        ],
+          "が"],
         "answer": 0,
         "id": "N5-07-032"
       },
@@ -7069,12 +5965,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "おかね（　）たりません。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "あまり",
+        "options": ["あまり",
           "を",
           "が",
-          "すこし"
-        ],
+          "すこし"],
         "answer": 2,
         "id": "N5-07-029"
       },
@@ -7082,12 +5976,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "ほん（　）ざっしを　よみます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "と",
+        "options": ["と",
           "も",
           "が",
-          "や"
-        ],
+          "や"],
         "answer": 3,
         "id": "N5-07-033"
       },
@@ -7095,25 +5987,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "わたし（　）にほんごを　べんきょうしています。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "に",
+        "options": ["に",
           "も",
           "ながら",
-          "とき"
-        ],
+          "とき"],
         "answer": 1,
         "id": "N5-07-034"
       },
       {
         "type": "文の組み立て",
-        "text": "【日常会話・問31（N5レベル）】次の語句を正しい順序に並べてください：図書館で / 昨日 / 読みました / 本を / 私は",
-        "question": "正しい順序は？",
-        "options": [
-          "昨日 図書館で 本を 読みました 私は",
-          "読みました 本を 図書館で 昨日 私は",
-          "読みました 私は 昨日 図書館で 本を",
-          "私は昨日図書館で本を読みました"
-        ],
+        "text": "【<ruby>日常<rt>にちじょう</rt></ruby><ruby>会話<rt>かいわ</rt></ruby>・<ruby>問<rt>とん</rt></ruby>31（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>図書館<rt>としょかん</rt></ruby>で / <ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby> / <ruby>読み<rt>よみ</rt></ruby>ました / <ruby>本<rt>ほん</rt></ruby>を / <ruby>私<rt>わたし</rt></ruby>は",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby> <ruby>図書館<rt>としょかん</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を <ruby>読み<rt>よみ</rt></ruby>ました <ruby>私<rt>わたし</rt></ruby>は",
+          "<ruby>読み<rt>よみ</rt></ruby>ました <ruby>本<rt>ほん</rt></ruby>を <ruby>図書館<rt>としょかん</rt></ruby>で <ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby> <ruby>私<rt>わたし</rt></ruby>は",
+          "<ruby>読み<rt>よみ</rt></ruby>ました <ruby>私<rt>わたし</rt></ruby>は <ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby> <ruby>図書館<rt>としょかん</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を",
+          "<ruby>私<rt>わたし</rt></ruby>は<ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby><ruby>図書館<rt>としょかん</rt></ruby>で<ruby>本<rt>ほん</rt></ruby>を<ruby>読み<rt>よみ</rt></ruby>ました"],
         "answer": 3,
         "id": "N5-07-036"
       },
@@ -7121,129 +6009,109 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "やまださん（　）きます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "とても",
+        "options": ["とても",
           "ながら",
           "で",
-          "も"
-        ],
+          "も"],
         "answer": 3,
         "id": "N5-07-035"
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問32（N4レベル）】次の語句を正しい順序に並べてください：毎朝 / 公園を / 彼女は / します / 散歩",
-        "question": "正しい順序は？",
-        "options": [
-          "毎朝 公園を 散歩 します 彼女は",
-          "します 散歩 公園を 毎朝 彼女は",
-          "します 彼女は 毎朝 公園を 散歩",
-          "彼女は毎朝公園を散歩します"
-        ],
+        "text": "【ビジネス・<ruby>問<rt>とん</rt></ruby>32（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>毎朝<rt>まいあさ</rt></ruby> / <ruby>公園<rt>こうえん</rt></ruby>を / <ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は / します / <ruby>散歩<rt>さんぽ</rt></ruby>",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>を <ruby>散歩<rt>さんぽ</rt></ruby> します <ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は",
+          "します <ruby>散歩<rt>さんぽ</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>を <ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は",
+          "します <ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は <ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>を <ruby>散歩<rt>さんぽ</rt></ruby>",
+          "<ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は<ruby>毎朝<rt>まいあさ</rt></ruby><ruby>公園<rt>こうえん</rt></ruby>を<ruby>散歩<rt>さんぽ</rt></ruby>します"],
         "answer": 2,
         "id": "N5-07-037"
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問33（N3レベル）】次の語句を正しい順序に並べてください：いつも / いっぱい / この店は / です / お客さんで",
-        "question": "正しい順序は？",
-        "options": [
-          "です いっぱい お客さんで いつも この店は",
-          "この店はいつもお客さんでいっぱいです",
-          "です この店は いつも お客さんで いっぱい",
-          "いつも お客さんで いっぱい です この店は"
-        ],
+        "text": "【<ruby>学校<rt>がっこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>33（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：いつも / いっぱい / この<ruby>店<rt>みせ</rt></ruby>は / です / お<ruby>客<rt>きゃく</rt></ruby>さんで",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["です いっぱい お<ruby>客<rt>きゃく</rt></ruby>さんで いつも この<ruby>店<rt>みせ</rt></ruby>は",
+          "この<ruby>店<rt>みせ</rt></ruby>はいつもお<ruby>客<rt>きゃく</rt></ruby>さんでいっぱいです",
+          "です この<ruby>店<rt>みせ</rt></ruby>は いつも お<ruby>客<rt>きゃく</rt></ruby>さんで いっぱい",
+          "いつも お<ruby>客<rt>きゃく</rt></ruby>さんで いっぱい です この<ruby>店<rt>みせ</rt></ruby>は"],
         "answer": 1,
         "id": "N5-07-038"
       },
       {
         "type": "文の組み立て",
-        "text": "【旅行・問34（N2レベル）】次の語句を正しい順序に並べてください：できます / か / することが / 質問を / 先生に",
-        "question": "正しい順序は？",
-        "options": [
-          "質問を することが できます か 先生に",
-          "か 先生に 質問を することが できます",
-          "か できます することが 質問を 先生に",
-          "先生に質問をすることができますか"
-        ],
+        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>34（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：できます / か / することが / <ruby>質問<rt>しつもん</rt></ruby>を / <ruby>先生<rt>せんせい</rt></ruby>に",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>質問<rt>しつもん</rt></ruby>を することが できます か <ruby>先生<rt>せんせい</rt></ruby>に",
+          "か <ruby>先生<rt>せんせい</rt></ruby>に <ruby>質問<rt>しつもん</rt></ruby>を することが できます",
+          "か できます することが <ruby>質問<rt>しつもん</rt></ruby>を <ruby>先生<rt>せんせい</rt></ruby>に",
+          "<ruby>先生<rt>せんせい</rt></ruby>に<ruby>質問<rt>しつもん</rt></ruby>をすることができますか"],
         "answer": 3,
         "id": "N5-07-039"
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問35（N1レベル）】次の語句を正しい順序に並べてください：出席 / かもしれません / 明日の / できない / 会議に",
-        "question": "正しい順序は？",
-        "options": [
-          "会議に 出席 できない かもしれません 明日の",
-          "かもしれません 明日の 会議に 出席 できない",
-          "かもしれません できない 出席 会議に 明日の",
-          "明日の会議に出席できないかもしれません"
-        ],
+        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>とん</rt></ruby>35（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>出<rt>で</rt></ruby>席 / かもしれません / <ruby>明日<rt>あした</rt></ruby>の / できない / <ruby>会議<rt>かいぎ</rt></ruby>に",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>会議<rt>かいぎ</rt></ruby>に <ruby>出<rt>で</rt></ruby>席 できない かもしれません <ruby>明日<rt>あした</rt></ruby>の",
+          "かもしれません <ruby>明日<rt>あした</rt></ruby>の <ruby>会議<rt>かいぎ</rt></ruby>に <ruby>出<rt>で</rt></ruby>席 できない",
+          "かもしれません できない <ruby>出<rt>で</rt></ruby>席 <ruby>会議<rt>かいぎ</rt></ruby>に <ruby>明日<rt>あした</rt></ruby>の",
+          "<ruby>明日<rt>あした</rt></ruby>の<ruby>会議<rt>かいぎ</rt></ruby>に<ruby>出<rt>で</rt></ruby>席できないかもしれません"],
         "answer": 2,
         "id": "N5-07-040"
       },
       {
         "type": "文章の文法",
-        "text": "困難（　）乗り越え、目標を達成した。（31）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "に",
+        "text": "<ruby>困難<rt>こんなん</rt></ruby>（　）<ruby>乗<rt>のむ</rt></ruby>り<ruby>越<rt>こ</rt></ruby>え、<ruby>目標<rt>もくひょう</rt></ruby>を達<ruby>成<rt>せい</rt></ruby>した。（31）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["に",
           "を",
           "で",
-          "から"
-        ],
+          "から"],
         "answer": 1,
         "id": "N5-07-041"
       },
       {
         "type": "文章の文法",
-        "text": "専門家（　）意見を聞く必要がある。（32）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "への",
+        "text": "専<ruby>門<rt>もん</rt></ruby><ruby>家<rt>いえ</rt></ruby>（　）<ruby>意見<rt>いけん</rt></ruby>を<ruby>聞く<rt>きく</rt></ruby>必要がある。（32）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["への",
           "による",
           "の",
-          "から"
-        ],
+          "から"],
         "answer": 2,
         "id": "N5-07-042"
       },
       {
         "type": "文章の文法",
-        "text": "技術の進歩（　）、生活は大きく変わった。（33）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "に対して",
+        "text": "<ruby>技術<rt>ぎじゅつ</rt></ruby>の<ruby>進歩<rt>しんぽ</rt></ruby>（　）、<ruby>生活<rt>せいかつ</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変<rt>へん</rt></ruby>わった。（33）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["に<ruby>対して<rt>たいして</rt></ruby>",
           "にとって",
-          "に関して",
-          "により"
-        ],
+          "に<ruby>関して<rt>かんして</rt></ruby>",
+          "により"],
         "answer": 3,
         "id": "N5-07-043"
       },
       {
         "type": "文章の文法",
-        "text": "彼の行動は法律（　）許されない。（34）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "上",
+        "text": "<ruby>彼<rt>かれ</rt></ruby>の<ruby>行動<rt>こうどう</rt></ruby>は<ruby>法律<rt>ほうりつ</rt></ruby>（　）<ruby>許<rt>きょ</rt></ruby>されない。（34）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>上<rt>うえ</rt></ruby>",
           "としても",
-          "的に",
-          "において"
-        ],
+          "<ruby>的<rt>てき</rt></ruby>に",
+          "において"],
         "answer": 0,
         "id": "N5-07-044"
       },
       {
         "type": "文章の文法",
-        "text": "予算の制約（　）実現が困難だ。（35）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "ゆえに",
+        "text": "<ruby>予算<rt>よさん</rt></ruby>の<ruby>制<rt>せい</rt></ruby>約（　）実<ruby>現<rt>あらわ</rt></ruby>が<ruby>困難<rt>こんなん</rt></ruby>だ。（35）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["ゆえに",
           "として",
           "から",
-          "にして"
-        ],
+          "にして"],
         "answer": 2,
         "id": "N5-07-045"
       },
@@ -7251,12 +6119,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "このレストランは　やさいりょうりが　おいしいです。にくりょうりも　あります。",
         "question": "なにが　おいしいですか。",
-        "options": [
-          "にくりょうり",
+        "options": ["にくりょうり",
           "めんりょうり",
           "やさいりょうり",
-          "さかなりょうり"
-        ],
+          "さかなりょうり"],
         "answer": 3,
         "id": "N5-07-046"
       },
@@ -7264,12 +6130,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "わたしは　あさ　コーヒーを　のみます。よる　おちゃを　のみます。",
         "question": "あさ　なにを　のみますか。",
-        "options": [
-          "ジュース",
+        "options": ["ジュース",
           "コーヒー",
           "みず",
-          "おちゃ"
-        ],
+          "おちゃ"],
         "answer": 1,
         "id": "N5-07-047"
       },
@@ -7277,12 +6141,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "きょうは　はれです。あしたは　あめです。",
         "question": "あしたの　てんきは　どうですか。",
-        "options": [
-          "はれ",
+        "options": ["はれ",
           "ゆき",
           "あめ",
-          "くもり"
-        ],
+          "くもり"],
         "answer": 3,
         "id": "N5-07-048"
       },
@@ -7290,12 +6152,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "にほんに　きて　3かげつです。とうきょうと　おおさかに　いきました。きょうとには　まだ　いっていません。らいげつ　いきたいです。",
         "question": "どこに　まだ　いっていませんか。",
-        "options": [
-          "きょうと",
+        "options": ["きょうと",
           "とうきょう",
           "おおさか",
-          "なら"
-        ],
+          "なら"],
         "answer": 2,
         "id": "N5-07-049"
       },
@@ -7303,12 +6163,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "きょうは　デパートに　いきました。くつと　かばんを　かいました。くつは　5000えん、かばんは　3000えんでした。",
         "question": "なにを　かいましたか。",
-        "options": [
-          "くつと　かばん",
+        "options": ["くつと　かばん",
           "かばんと　ぼうし",
           "ふくと　かばん",
-          "ふくと　くつ"
-        ],
+          "ふくと　くつ"],
         "answer": 0,
         "id": "N5-07-050"
       },
@@ -7316,137 +6174,117 @@ window.MOCK_DATA['N5'] = {
         "type": "情報検索",
         "text": "【クラス】にほんご１は　げつ・すい・きん、にほんご２は　か・もく。9じから。",
         "question": "にほんご２は　いつですか。",
-        "options": [
-          "げつ・すい・きん",
+        "options": ["げつ・すい・きん",
           "まいにち",
           "か・もく",
-          "どようび"
-        ],
+          "どようび"],
         "answer": 1,
         "id": "N5-07-051"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "子供がお母さんと話しています。子供は何をもらいますか。",
-        "question": "何をもらいますか。",
-        "options": [
-          "🍫",
+        "text": "<ruby>子供<rt>こども</rt></ruby>が<ruby>お母さん<rt>おかあさん</rt></ruby>と<ruby>話<rt>はなし</rt></ruby>しています。<ruby>子供<rt>こども</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をもらいますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>をもらいますか。",
+        "options": ["🍫",
           "🍫🍫",
           "🍬🍬",
-          "🍬🍬🍬"
-        ],
+          "🍬🍬🍬"],
         "answer": 3,
         "id": "N5-07-052",
         "script": "M: 🍬 3つを　おねがいします。\nF: はい、わかりました。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人がケーキ屋で話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🍰🍰",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>ケーキ屋<rt>けーきや</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🍰🍰",
           "🍰",
           "🧁",
-          "🧁🧁🧁"
-        ],
+          "🧁🧁🧁"],
         "answer": 0,
         "id": "N5-07-053",
         "script": "F: これですか。\nM: いいえ、ケーキ 2つを　ください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人がお花屋で買い物をしています。女の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🌸🌸🌸",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がお<ruby>花屋<rt>はなや</rt></ruby>で<ruby>買い物<rt>かいもの</rt></ruby>をしています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🌸🌸🌸",
           "🌷🌷",
           "🌸🌸🌸🌸🌸",
-          "🌷🌷🌷🌷"
-        ],
+          "🌷🌷🌷🌷"],
         "answer": 2,
         "id": "N5-07-054",
         "script": "M: すみません、🌸 5つは　ありますか。\nF: はい、どうぞ。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人がアイス屋で話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🍨🍨🍨",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がアイス<ruby>屋<rt>や</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🍨🍨🍨",
           "🍦",
           "🍨",
-          "🍦🍦"
-        ],
+          "🍦🍦"],
         "answer": 3,
         "id": "N5-07-055",
         "script": "M: アイスクリーム 2つを　ください。\nF: はい、アイスクリーム 2つですね。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人と女の人がスーパーで話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🍎🍎🍎",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>と<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がスーパーで<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🍎🍎🍎",
           "🍎🍎",
           "🍊🍊",
-          "🍊🍊🍊"
-        ],
+          "🍊🍊🍊"],
         "answer": 0,
         "id": "N5-07-056",
         "script": "F: なにを　かいますか。\nM: りんご 3つを　かいます。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人がお店で買い物をしています。女の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🍇🍇🍇",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がお<ruby>店<rt>みせ</rt></ruby>で<ruby>買い物<rt>かいもの</rt></ruby>をしています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🍇🍇🍇",
           "🍌🍌🍌🍌",
           "🍌🍌",
-          "🍇🍇"
-        ],
+          "🍇🍇"],
         "answer": 1,
         "id": "N5-07-057",
         "script": "M: バナナ 4つを　おねがいします。\nF: はい、わかりました。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "対談を聞いています。話者が最も強調しているのは何ですか。（37）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>対<rt>たい</rt></ruby>談を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（37）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-07-058",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット7問33】"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "友達に「また明日」と言いたい（34）",
-        "question": "適切な表現は？",
-        "options": [
-          "📆",
+        "text": "<ruby>友<rt>とも</rt></ruby>達に「また<ruby>明日<rt>あした</rt></ruby>」と<ruby>言<rt>い</rt></ruby>いたい（34）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📆",
           "📌",
           "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-07-067",
         "script": "📆です。【セット7問34】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "解説を聞いています。話者が最も強調しているのは何ですか。（39）",
-        "question": "最も強調しているのは？",
-        "options": [
-          "📌",
+        "text": "<ruby>解説<rt>かいせつ</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（39）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📕",
           "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-07-060",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット7問35】"
@@ -7454,134 +6292,114 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "静かでいいですね。（49）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "いいえ、違います",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
           "そうですね",
-          "はい、食べました"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 2,
         "id": "N5-07-069"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "セミナーを聞いています。話者が最も強調しているのは何ですか。（41）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "セミナーを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（41）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-07-062",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット7問37】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "お荷物お持ちしましょうか。（50）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
+        "text": "お<ruby>荷物<rt>にもつ</rt></ruby>お<ruby>持<rt>もつ</rt></ruby>ちしましょうか。（50）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
           "わかりません",
-          "いいえ、違います",
-          "ありがとうございます"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "ありがとうございます"],
         "answer": 3,
         "id": "N5-07-070"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "友達に「おはよう」と言いたい（31）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>友<rt>とも</rt></ruby>達に「おはよう」と<ruby>言<rt>い</rt></ruby>いたい（31）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-07-064",
         "script": "ピンです。【セット7問39】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "今日は暑いですね。（51）",
-        "question": "返答は？",
-        "options": [
-          "本当ですね",
-          "はい、食べました",
+        "text": "<ruby>今日<rt>きょう</rt></ruby>は暑いですね。（51）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["<ruby>本<rt>ほん</rt></ruby>当ですね",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
           "わかりません",
-          "いいえ、違います"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 0,
         "id": "N5-07-071"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "先生に「すみません」と言いたい（33）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>先生<rt>せんせい</rt></ruby>に「すみません」と<ruby>言<rt>い</rt></ruby>いたい（33）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-07-066",
         "script": "ピンです。【セット7問41】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "何時までですか。（52）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "6時までです",
-          "はい、食べました",
-          "いいえ、違います"
-        ],
+        "text": "<ruby>何時<rt>いつ</rt></ruby>までですか。（52）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "6<ruby>時<rt>とき</rt></ruby>までです",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 1,
         "id": "N5-07-072"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "家族に「いただきます」と言いたい（35）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>家<rt>いえ</rt></ruby><ruby>族<rt>ぞく</rt></ruby>に「いただきます」と<ruby>言<rt>い</rt></ruby>いたい（35）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-07-068",
         "script": "ピンです。【セット7問43】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "週末の予定は。（53）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
-          "いいえ、違います",
-          "特にないです",
-          "わかりません"
-        ],
+        "text": "<ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby>の<ruby>予定<rt>よてい</rt></ruby>は。（53）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "<ruby>特に<rt>とくに</rt></ruby>ないです",
+          "わかりません"],
         "answer": 2,
         "id": "N5-07-073"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "番組を聞いています。話者が最も強調しているのは何ですか。（42）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>番組<rt>ばんぐみ</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（42）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-07-063",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット7問45】"
@@ -7589,80 +6407,68 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "おいしいですね。（54）",
-        "question": "返答は？",
-        "options": [
-          "そうですね",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["そうですね",
           "わかりません",
-          "はい、食べました",
-          "いいえ、違います"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 0,
         "id": "N5-07-074"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "講義を聞いています。話者が最も強調しているのは何ですか。（38）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>講義<rt>こうぎ</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（38）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-07-059",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット7問47】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "写真撮ってもいいですか。（55）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "いいえ、違います",
-          "大丈夫ですよ",
-          "はい、食べました"
-        ],
+        "text": "<ruby>写<rt>うつ</rt></ruby>真<ruby>撮<rt>とる</rt></ruby>ってもいいですか。（55）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "<ruby>大<rt>だい</rt></ruby><ruby>丈<rt>たけ</rt></ruby>夫ですよ",
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 2,
         "id": "N5-07-075"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "店員に「これください」と言いたい（32）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>店員<rt>てんいん</rt></ruby>に「これください」と<ruby>言<rt>い</rt></ruby>いたい（32）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-07-065",
         "script": "ピンです。【セット7問49】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "お仕事は何ですか。（56）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
+        "text": "お<ruby>仕事<rt>しごと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。（56）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
           "わかりません",
-          "いいえ、違います",
-          "会社員です"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "<ruby>会社<rt>かいしゃ</rt></ruby><ruby>員<rt>いん</rt></ruby>です"],
         "answer": 3,
         "id": "N5-07-076"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "討論を聞いています。話者が最も強調しているのは何ですか。（40）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "討<ruby>論<rt>ろん</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（40）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-07-061",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット7問51】"
@@ -7670,481 +6476,401 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "漢字読み",
         "text": "<u>前</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "こめ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["こめ",
           "おし",
           "や",
-          "まえ"
-        ],
+          "まえ"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>午</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "むろ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["むろ",
           "ご",
           "ゆみ",
-          "むぎ"
-        ],
+          "むぎ"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>正</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "かたち",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["かたち",
           "はか",
           "ただ",
-          "と"
-        ],
+          "と"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>門</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "いろ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["いろ",
           "さん",
           "かど",
-          "て"
-        ],
+          "て"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>社</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "くろ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["くろ",
           "く",
           "やしろ",
-          "うま"
-        ],
+          "うま"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>聞</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "き.く",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["き.く",
           "え",
           "ちゃ",
-          "うし"
-        ],
+          "うし"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>円</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "にく",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["にく",
           "せん",
           "えん",
-          "とり"
-        ],
+          "とり"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>休</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "やす.む",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["やす.む",
           "や",
           "こめ",
-          "くち"
-        ],
+          "くち"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>矢</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "むぎ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["むぎ",
           "ゆみ",
           "や",
-          "め"
-        ],
+          "め"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>米</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "と",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["と",
           "かたち",
           "こめ",
-          "みみ"
-        ],
+          "みみ"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>車</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "いろ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["いろ",
           "くるま",
           "かど",
-          "て"
-        ],
+          "て"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>七</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "あし",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["あし",
           "くろ",
           "うま",
-          "しち、なな"
-        ],
+          "しち、なな"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>ためす</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "変える",
-          "試す",
-          "新聞",
-          "度"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>変える<rt>かえる</rt></ruby>",
+          "<ruby>試す<rt>ためす</rt></ruby>",
+          "<ruby>新聞<rt>しんぶん</rt></ruby>",
+          "<ruby>度<rt>ど</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>おどる</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "踊る",
-          "生活",
-          "足",
-          "挨拶"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>踊る<rt>おどる</rt></ruby>",
+          "<ruby>生活<rt>せいかつ</rt></ruby>",
+          "<ruby>足<rt>あし</rt></ruby>",
+          "<ruby>挨<rt>あい</rt></ruby><ruby>拶<rt>さつ</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "表記",
         "text": "<u>しんぱい</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "起きる",
-          "心配",
-          "今",
-          "同僚"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>起きる<rt>おきる</rt></ruby>",
+          "<ruby>心<rt>こころ</rt></ruby>配",
+          "<ruby>今<rt>いま</rt></ruby>",
+          "<ruby>同<rt>どう</rt></ruby><ruby>僚<rt>りょう</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>もえる</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "行く",
-          "共有",
-          "万",
-          "燃える"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>行く<rt>いく</rt></ruby>",
+          "<ruby>共有<rt>きょうゆう</rt></ruby>",
+          "<ruby>万<rt>まん</rt></ruby>",
+          "燃える"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>ひく</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "友達",
-          "捕まえる",
-          "引く",
-          "傘"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>友<rt>とも</rt></ruby>達",
+          "<ruby>捕まえる<rt>つかまえる</rt></ruby>",
+          "<ruby>引く<rt>ひく</rt></ruby>",
+          "<ruby>傘<rt>かさ</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>よぶ</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "居間",
-          "呼ぶ",
-          "携帯電話",
-          "会う"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>居間<rt>いま</rt></ruby>",
+          "<ruby>呼ぶ<rt>よぶ</rt></ruby>",
+          "<ruby>携<rt>たずさ</rt></ruby>帯<ruby>電話<rt>でんわ</rt></ruby>",
+          "<ruby>会う<rt>あう</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>あずける</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "預ける",
-          "趣味",
-          "遅い",
-          "到着"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>預ける<rt>あずける</rt></ruby>",
+          "<ruby>趣味<rt>しゅみ</rt></ruby>",
+          "<ruby>遅い<rt>おそい</rt></ruby>",
+          "<ruby>到<rt>とう</rt></ruby><ruby>着<rt>ちゃく</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "表記",
         "text": "<u>くる</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "荷物",
-          "高い",
-          "来る",
-          "自然"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>荷物<rt>にもつ</rt></ruby>",
+          "<ruby>高い<rt>たかい</rt></ruby>",
+          "<ruby>来る<rt>くる</rt></ruby>",
+          "<ruby>自<rt>みずか</rt></ruby>然"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "荷物を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "さようなら",
-          "洗濯機",
-          "届ける",
-          "遅刻"
-        ],
+        "text": "<ruby>荷物<rt>にもつ</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["さようなら",
+          "<ruby>洗濯<rt>せんたく</rt></ruby><ruby>機<rt>き</rt></ruby>",
+          "<ruby>届ける<rt>とどける</rt></ruby>",
+          "<ruby>遅刻<rt>ちこく</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "手紙が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "困る",
-          "美味しい",
-          "届く",
-          "重い"
-        ],
+        "text": "<ruby>手紙<rt>てがみ</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>困る<rt>こまる</rt></ruby>",
+          "美<ruby>味<rt>あじ</rt></ruby>しい",
+          "<ruby>届く<rt>とどく</rt></ruby>",
+          "<ruby>重い<rt>おもい</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "荷物を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "歩く",
-          "駅",
-          "預ける",
-          "一緒に"
-        ],
+        "text": "<ruby>荷物<rt>にもつ</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>歩く<rt>あるく</rt></ruby>",
+          "<ruby>駅<rt>えき</rt></ruby>",
+          "<ruby>預ける<rt>あずける</rt></ruby>",
+          "<ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "荷物を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "受け取る",
-          "努力",
+        "text": "<ruby>荷物<rt>にもつ</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>受<rt>じゅ</rt></ruby>け取る",
+          "努<ruby>力<rt>ちから</rt></ruby>",
           "繋ぐ",
-          "夏"
-        ],
+          "<ruby>夏<rt>なつ</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "財布を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "投げる",
+        "text": "<ruby>財<rt>ざい</rt></ruby>布を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>投げる<rt>なげる</rt></ruby>",
           "落とす",
           "お詫び",
-          "忙しい"
-        ],
+          "<ruby>忙しい<rt>いそがしい</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "文脈規定",
         "text": "ゴミを（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "減る",
-          "長い",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>減る<rt>へる</rt></ruby>",
+          "<ruby>長い<rt>ながい</rt></ruby>",
           "失敗",
-          "拾う"
-        ],
+          "<ruby>拾う<rt>ひろう</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "車を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "台",
-          "直す",
-          "初めて",
-          "下"
-        ],
+        "text": "<ruby>車<rt>くるま</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>台<rt>だい</rt></ruby>",
+          "<ruby>直す<rt>なおす</rt></ruby>",
+          "<ruby>初めて<rt>はじめて</rt></ruby>",
+          "<ruby>下<rt>した</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "文脈規定",
         "text": "パソコンを（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "壊す",
-          "最高",
-          "全部",
-          "辞書"
-        ],
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>壊す<rt>こわす</rt></ruby>",
+          "<ruby>最高<rt>さいこう</rt></ruby>",
+          "<ruby>全部<rt>ぜんぶ</rt></ruby>",
+          "<ruby>辞書<rt>じしょ</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "時計が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "靴",
-          "銀行",
-          "壊れる",
-          "発表"
-        ],
+        "text": "<ruby>時計<rt>とけい</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>靴<rt>くつ</rt></ruby>",
+          "<ruby>銀行<rt>ぎんこう</rt></ruby>",
+          "<ruby>壊れる<rt>こわれる</rt></ruby>",
+          "<ruby>発<rt>はつ</rt></ruby>表"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "運動を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "する",
-          "絶対",
-          "断る",
-          "悲しい"
-        ],
+        "text": "<ruby>運動<rt>うんどう</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["する",
+          "<ruby>絶対<rt>ぜったい</rt></ruby>",
+          "<ruby>断る<rt>ことわる</rt></ruby>",
+          "<ruby>悲しい<rt>かなしい</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "寿司が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "好き",
-          "渡る",
-          "料理する",
-          "連絡"
-        ],
+        "text": "<ruby>寿<rt>ことぶき</rt></ruby><ruby>司<rt>し</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>好<rt>この</rt></ruby>き",
+          "<ruby>渡る<rt>わたる</rt></ruby>",
+          "料<ruby>理<rt>り</rt></ruby>する",
+          "<ruby>連絡<rt>れんらく</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "野菜が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "こんにちは",
-          "薬",
-          "放送",
-          "嫌い"
-        ],
+        "text": "<ruby>野菜<rt>やさい</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["こんにちは",
+          "<ruby>薬<rt>くすり</rt></ruby>",
+          "放<ruby>送<rt>お</rt></ruby>",
+          "<ruby>嫌い<rt>きらい</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
         "text": "面白くて（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "全然",
-          "笑う",
-          "郵便局",
-          "いいえ"
-        ],
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>全<rt>ぜん</rt></ruby>然",
+          "<ruby>笑う<rt>わらう</rt></ruby>",
+          "郵<ruby>便<rt>べん</rt></ruby><ruby>局<rt>きょく</rt></ruby>",
+          "いいえ"],
         "answer": 1
       },
       {
         "type": "文脈規定",
-        "text": "悲しくて（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "泣く",
+        "text": "<ruby>悲<rt>ひ</rt></ruby>しくて（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>泣く<rt>なく</rt></ruby>",
           "ベランダ",
-          "数える",
-          "客"
-        ],
+          "<ruby>数える<rt>かぞえる</rt></ruby>",
+          "<ruby>客<rt>きゃく</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "先生が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "休む",
-          "怒る",
-          "予約",
-          "書く"
-        ],
+        "text": "<ruby>先生<rt>せんせい</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>休む<rt>やすむ</rt></ruby>",
+          "<ruby>怒る<rt>おこる</rt></ruby>",
+          "<ruby>予<rt>よ</rt></ruby>約",
+          "<ruby>書く<rt>かく</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "言い換え",
         "text": "毎日<ruby>勉強する<rt>べんきょうする</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "準備",
-          "本",
-          "携帯電話",
-          "学習する"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>準備<rt>じゅんび</rt></ruby>",
+          "<ruby>本<rt>ほん</rt></ruby>",
+          "<ruby>携<rt>たずさ</rt></ruby>帯<ruby>電話<rt>でんわ</rt></ruby>",
+          "<ruby>学習<rt>がくしゅう</rt></ruby>する"],
         "answer": 3
       },
       {
         "type": "言い換え",
         "text": "会社で<ruby>働く<rt>はたらく</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "勤務する",
-          "履く",
-          "遅い",
-          "洗濯機"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>勤務<rt>きんむ</rt></ruby>する",
+          "<ruby>履く<rt>はく</rt></ruby>",
+          "<ruby>遅い<rt>おそい</rt></ruby>",
+          "<ruby>洗濯<rt>せんたく</rt></ruby><ruby>機<rt>き</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "言い換え",
         "text": "少し<ruby>休む<rt>やすむ</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "荷物",
-          "色々",
-          "休憩する",
-          "美味しい"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>荷物<rt>にもつ</rt></ruby>",
+          "<ruby>色々<rt>いろいろ</rt></ruby>",
+          "<ruby>休憩する<rt>きゅうけいする</rt></ruby>",
+          "美<ruby>味<rt>あじ</rt></ruby>しい"],
         "answer": 2
       },
       {
         "type": "言い換え",
         "text": "公園で<ruby>遊ぶ<rt>あそぶ</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "入学",
-          "変える",
-          "戯れる",
-          "駅"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>入学<rt>にゅうがく</rt></ruby>",
+          "<ruby>変える<rt>かえる</rt></ruby>",
+          "<ruby>戯<rt>たわむ</rt></ruby>れる",
+          "<ruby>駅<rt>えき</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "言い換え",
         "text": "窓を<ruby>開ける<rt>あける</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "生活",
-          "開く",
-          "前",
-          "努力"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>生活<rt>せいかつ</rt></ruby>",
+          "<ruby>開く<rt>ひらく</rt></ruby>",
+          "<ruby>前<rt>まえ</rt></ruby>",
+          "努<ruby>力<rt>ちから</rt></ruby>"],
         "answer": 1
       }
     ],
@@ -8153,12 +6879,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "5じ（　）しごとを　おわります。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "まで",
+        "options": ["まで",
           "が",
           "とても",
-          "まえ"
-        ],
+          "まえ"],
         "answer": 0,
         "id": "N5-08-026"
       },
@@ -8166,12 +6890,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "うち（　）えきまで　あるきます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "とき",
+        "options": ["とき",
           "も",
           "から",
-          "ながら"
-        ],
+          "ながら"],
         "answer": 2,
         "id": "N5-08-027"
       },
@@ -8179,12 +6901,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "にほん（　）りょうりは　おいしいです。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "とても",
+        "options": ["とても",
           "を",
           "の",
-          "あと"
-        ],
+          "あと"],
         "answer": 2,
         "id": "N5-08-029"
       },
@@ -8192,12 +6912,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "にほん（　）きました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "あと",
+        "options": ["あと",
           "あまり",
           "から",
-          "に"
-        ],
+          "に"],
         "answer": 2,
         "id": "N5-08-028"
       },
@@ -8205,12 +6923,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "やまださん（　）いえは　おおきいです。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "ながら",
+        "options": ["ながら",
           "とても",
           "の",
-          "へ"
-        ],
+          "へ"],
         "answer": 2,
         "id": "N5-08-030"
       },
@@ -8218,12 +6934,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "まいにち　6じに　（　）。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "おきて",
+        "options": ["おきて",
           "おきる",
           "おきます",
-          "おきました"
-        ],
+          "おきました"],
         "answer": 2,
         "id": "N5-08-032"
       },
@@ -8231,12 +6945,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "がっこう（　）せんせいは　しんせつです。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "たくさん",
+        "options": ["たくさん",
           "の",
           "で",
-          "まえ"
-        ],
+          "まえ"],
         "answer": 1,
         "id": "N5-08-031"
       },
@@ -8244,12 +6956,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "よる　11じに　（　）。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "ねる",
+        "options": ["ねる",
           "ねます",
           "ねました",
-          "ねて"
-        ],
+          "ねて"],
         "answer": 1,
         "id": "N5-08-033"
       },
@@ -8257,12 +6967,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "まいにち　しんぶんを　（　）。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "よむ",
+        "options": ["よむ",
           "よんで",
           "よみます",
-          "よみました"
-        ],
+          "よみました"],
         "answer": 2,
         "id": "N5-08-034"
       },
@@ -8270,116 +6978,98 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "せんしゅう　とうきょうに　（　）。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "いって",
+        "options": ["いって",
           "いきました",
           "いきます",
-          "いく"
-        ],
+          "いく"],
         "answer": 1,
         "id": "N5-08-035"
       },
       {
         "type": "文の組み立て",
-        "text": "【日常会話・問36（N5レベル）】次の語句を正しい順序に並べてください：勉強して / 多いです / 日本語を / 学生が / いる",
-        "question": "正しい順序は？",
-        "options": [
-          "多いです 学生が いる 勉強して 日本語を",
-          "多いです 日本語を 勉強して いる 学生が",
-          "勉強して いる 学生が 多いです 日本語を",
-          "日本語を勉強している学生が多いです"
-        ],
+        "text": "【<ruby>日常<rt>にちじょう</rt></ruby><ruby>会話<rt>かいわ</rt></ruby>・<ruby>問<rt>とん</rt></ruby>36（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>して / <ruby>多い<rt>おおい</rt></ruby>です / <ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を / <ruby>学生<rt>がくせい</rt></ruby>が / いる",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>多い<rt>おおい</rt></ruby>です <ruby>学生<rt>がくせい</rt></ruby>が いる <ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>して <ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を",
+          "<ruby>多い<rt>おおい</rt></ruby>です <ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を <ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>して いる <ruby>学生<rt>がくせい</rt></ruby>が",
+          "<ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>して いる <ruby>学生<rt>がくせい</rt></ruby>が <ruby>多い<rt>おおい</rt></ruby>です <ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を",
+          "<ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を<ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>している<ruby>学生<rt>がくせい</rt></ruby>が<ruby>多い<rt>おおい</rt></ruby>です"],
         "answer": 2,
         "id": "N5-08-036"
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問37（N4レベル）】次の語句を正しい順序に並べてください：解けません / 難しすぎて / 私には / この問題は",
-        "question": "正しい順序は？",
-        "options": [
-          "難しすぎて 私には 解けません この問題は",
-          "この問題は難しすぎて私には解けません",
-          "解けません この問題は 難しすぎて 私には",
-          "解けません 私には 難しすぎて この問題は"
-        ],
+        "text": "【ビジネス・<ruby>問<rt>とん</rt></ruby>37（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>解<rt>かい</rt></ruby>けません / <ruby>難<rt>なん</rt></ruby>しすぎて / <ruby>私<rt>わたし</rt></ruby>には / この<ruby>問題<rt>もんだい</rt></ruby>は",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>難<rt>なん</rt></ruby>しすぎて <ruby>私<rt>わたし</rt></ruby>には <ruby>解<rt>かい</rt></ruby>けません この<ruby>問題<rt>もんだい</rt></ruby>は",
+          "この<ruby>問題<rt>もんだい</rt></ruby>は<ruby>難<rt>なん</rt></ruby>しすぎて<ruby>私<rt>わたし</rt></ruby>には<ruby>解<rt>かい</rt></ruby>けません",
+          "<ruby>解<rt>かい</rt></ruby>けません この<ruby>問題<rt>もんだい</rt></ruby>は <ruby>難<rt>なん</rt></ruby>しすぎて <ruby>私<rt>わたし</rt></ruby>には",
+          "<ruby>解<rt>かい</rt></ruby>けません <ruby>私<rt>わたし</rt></ruby>には <ruby>難<rt>なん</rt></ruby>しすぎて この<ruby>問題<rt>もんだい</rt></ruby>は"],
         "answer": 1,
         "id": "N5-08-037"
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問38（N3レベル）】次の語句を正しい順序に並べてください：3年間 / アメリカに / いました / 住んで / 彼は",
-        "question": "正しい順序は？",
-        "options": [
-          "彼はアメリカに3年間住んでいました",
-          "いました 彼は アメリカに 3年間 住んで",
-          "アメリカに 3年間 住んで いました 彼は",
-          "いました 住んで 3年間 アメリカに 彼は"
-        ],
+        "text": "【<ruby>学校<rt>がっこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>38（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：3<ruby>年間<rt>ねんかん</rt></ruby> / アメリカに / いました / <ruby>住<rt>すわる</rt></ruby>んで / <ruby>彼<rt>かれ</rt></ruby>は",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>彼<rt>かれ</rt></ruby>はアメリカに3<ruby>年間<rt>ねんかん</rt></ruby><ruby>住<rt>すわる</rt></ruby>んでいました",
+          "いました <ruby>彼<rt>かれ</rt></ruby>は アメリカに 3<ruby>年間<rt>ねんかん</rt></ruby> <ruby>住<rt>すわる</rt></ruby>んで",
+          "アメリカに 3<ruby>年間<rt>ねんかん</rt></ruby> <ruby>住<rt>すわる</rt></ruby>んで いました <ruby>彼<rt>かれ</rt></ruby>は",
+          "いました <ruby>住<rt>すわる</rt></ruby>んで 3<ruby>年間<rt>ねんかん</rt></ruby> アメリカに <ruby>彼<rt>かれ</rt></ruby>は"],
         "answer": 2,
         "id": "N5-08-038"
       },
       {
         "type": "文の組み立て",
-        "text": "【旅行・問39（N2レベル）】次の語句を正しい順序に並べてください：ため / しまいました / 遅れた / 遅刻して / 電車が",
-        "question": "正しい順序は？",
-        "options": [
-          "遅れた ため 遅刻して しまいました 電車が",
-          "しまいました 遅刻して ため 遅れた 電車が",
-          "しまいました 電車が 遅れた ため 遅刻して",
-          "電車が遅れたため遅刻してしまいました"
-        ],
+        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>39（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：ため / しまいました / <ruby>遅れ<rt>おくれ</rt></ruby>た / <ruby>遅刻<rt>ちこく</rt></ruby>して / <ruby>電車<rt>でんしゃ</rt></ruby>が",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>遅れ<rt>おくれ</rt></ruby>た ため <ruby>遅刻<rt>ちこく</rt></ruby>して しまいました <ruby>電車<rt>でんしゃ</rt></ruby>が",
+          "しまいました <ruby>遅刻<rt>ちこく</rt></ruby>して ため <ruby>遅れ<rt>おくれ</rt></ruby>た <ruby>電車<rt>でんしゃ</rt></ruby>が",
+          "しまいました <ruby>電車<rt>でんしゃ</rt></ruby>が <ruby>遅れ<rt>おくれ</rt></ruby>た ため <ruby>遅刻<rt>ちこく</rt></ruby>して",
+          "<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>遅れ<rt>おくれ</rt></ruby>たため<ruby>遅刻<rt>ちこく</rt></ruby>してしまいました"],
         "answer": 0,
         "id": "N5-08-039"
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問40（N1レベル）】次の語句を正しい順序に並べてください：この映画は / 面白いと / とても / 思います",
-        "question": "正しい順序は？",
-        "options": [
-          "この映画はとても面白いと思います",
-          "思います この映画は とても 面白いと",
-          "思います 面白いと とても この映画は",
-          "とても 面白いと 思います この映画は"
-        ],
+        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>とん</rt></ruby>40（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：この<ruby>映画<rt>えいが</rt></ruby>は / 面白いと / とても / <ruby>思い<rt>おもい</rt></ruby>ます",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["この<ruby>映画<rt>えいが</rt></ruby>はとても面白いと<ruby>思い<rt>おもい</rt></ruby>ます",
+          "<ruby>思い<rt>おもい</rt></ruby>ます この<ruby>映画<rt>えいが</rt></ruby>は とても 面白いと",
+          "<ruby>思い<rt>おもい</rt></ruby>ます 面白いと とても この<ruby>映画<rt>えいが</rt></ruby>は",
+          "とても 面白いと <ruby>思い<rt>おもい</rt></ruby>ます この<ruby>映画<rt>えいが</rt></ruby>は"],
         "answer": 1,
         "id": "N5-08-040"
       },
       {
         "type": "文章の文法",
-        "text": "結果（　）良ければ全て良しとは限らない。（36）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "こそ",
+        "text": "<ruby>結果<rt>けっか</rt></ruby>（　）<ruby>良<rt>りょう</rt></ruby>ければ<ruby>全て<rt>すべて</rt></ruby><ruby>良<rt>りょう</rt></ruby>しとは<ruby>限<rt>かぎ</rt></ruby>らない。（36）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["こそ",
           "さえ",
           "だけ",
-          "が"
-        ],
+          "が"],
         "answer": 3,
         "id": "N5-08-041"
       },
       {
         "type": "文章の文法",
-        "text": "努力家である（　）、才能にも恵まれている。（37）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "にもかかわらず",
+        "text": "努<ruby>力<rt>ちから</rt></ruby><ruby>家<rt>いえ</rt></ruby>である（　）、<ruby>才能<rt>さいのう</rt></ruby>にも<ruby>恵<rt>めぐ</rt></ruby>まれている。（37）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["にもかかわらず",
           "のみならず",
           "とはいえ",
-          "からこそ"
-        ],
+          "からこそ"],
         "answer": 1,
         "id": "N5-08-042"
       },
       {
         "type": "文章の文法",
-        "text": "一朝一夕（　）解決できるものではない。（38）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "には",
+        "text": "<ruby>一朝一夕<rt>いっちょういっせき</rt></ruby>（　）<ruby>解決<rt>かいけつ</rt></ruby>できるものではない。（38）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["には",
           "で",
           "では",
-          "に"
-        ],
+          "に"],
         "answer": 3,
         "id": "N5-08-043"
       },
@@ -8387,25 +7077,21 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "なつは　あついです。ふゆは　さむいです。わたしは　はるが　すきです。",
         "question": "わたしは　どの　きせつが　すきですか。",
-        "options": [
-          "あき",
+        "options": ["あき",
           "ふゆ",
           "なつ",
-          "はる"
-        ],
+          "はる"],
         "answer": 2,
         "id": "N5-08-046"
       },
       {
         "type": "文章の文法",
-        "text": "経験（　）勝るものはない。（40）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "を",
+        "text": "<ruby>経験<rt>けいけん</rt></ruby>（　）<ruby>勝る<rt>まさる</rt></ruby>ものはない。（40）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["を",
           "が",
           "に",
-          "より"
-        ],
+          "より"],
         "answer": 2,
         "id": "N5-08-045"
       },
@@ -8413,25 +7099,21 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "きのうは　さむかったです。きょうは　あたたかいです。",
         "question": "きょうは　どうですか。",
-        "options": [
-          "さむい",
+        "options": ["さむい",
           "すずしい",
           "あたたかい",
-          "あつい"
-        ],
+          "あつい"],
         "answer": 3,
         "id": "N5-08-047"
       },
       {
         "type": "文章の文法",
-        "text": "事実（　）基づいている。（39）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "と",
+        "text": "<ruby>事<rt>こと</rt></ruby>実（　）<ruby>基づいて<rt>もとづいて</rt></ruby>いる。（39）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["と",
           "が",
           "に",
-          "を"
-        ],
+          "を"],
         "answer": 2,
         "id": "N5-08-044"
       },
@@ -8439,12 +7121,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "あめの　ひは　かさを　もっていきます。きょうは　はれなので　かさは　いりません。",
         "question": "きょうは　かさが　いりますか。",
-        "options": [
-          "いいえ、いりません",
+        "options": ["いいえ、いりません",
           "わかりません",
           "たぶん　いります",
-          "はい、いります"
-        ],
+          "はい、いります"],
         "answer": 0,
         "id": "N5-08-048"
       },
@@ -8452,12 +7132,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "どようびに　ともだちの　うちに　いきます。ともだちの　うちは　えきから　あるいて　10ぷんです。3じに　あう　やくそくです。",
         "question": "なんじに　あいますか。",
-        "options": [
-          "4じ",
+        "options": ["4じ",
           "2じ",
           "1じ",
-          "3じ"
-        ],
+          "3じ"],
         "answer": 1,
         "id": "N5-08-049"
       },
@@ -8465,12 +7143,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "このレストランは　イタリアりょうりの　みせです。パスタと　ピザが　ゆうめいです。ランチは　800えんからです。やすくて　おいしいです。",
         "question": "なにりょうりの　みせですか。",
-        "options": [
-          "イタリアりょうり",
+        "options": ["イタリアりょうり",
           "にほんりょうり",
           "ちゅうかりょうり",
-          "フランスりょうり"
-        ],
+          "フランスりょうり"],
         "answer": 2,
         "id": "N5-08-050"
       },
@@ -8478,191 +7154,163 @@ window.MOCK_DATA['N5'] = {
         "type": "情報検索",
         "text": "【レストラン】ランチ11じから2じまで。ディナー5じから9じまで。かようび　おやすみ。",
         "question": "ランチは　なんじからですか。",
-        "options": [
-          "10じ",
+        "options": ["10じ",
           "11じ",
           "12じ",
-          "9じ"
-        ],
+          "9じ"],
         "answer": 1,
         "id": "N5-08-051"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人と女の人が八百屋で話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🥕🥕🥕",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>と<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>八百屋<rt>やおや</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🥕🥕🥕",
           "🍅🍅🍅",
           "🍅🍅",
-          "🥕🥕"
-        ],
+          "🥕🥕"],
         "answer": 2,
         "id": "N5-08-052",
         "script": "M: トマト 2つを　おねがいします。\nF: はい、わかりました。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人がコンビニで買い物をしています。女の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🍙🍙",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がコンビニで<ruby>買い物<rt>かいもの</rt></ruby>をしています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🍙🍙",
           "🍙🍙🍙",
           "🥪",
-          "🥪🥪"
-        ],
+          "🥪🥪"],
         "answer": 0,
         "id": "N5-08-053",
         "script": "F: これですか。\nM: いいえ、おにぎり 2つを　ください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人がパン屋で話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🍞🍞",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>パン屋<rt>ぱんや</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🍞🍞",
           "🍞",
           "🥐🥐",
-          "🥐🥐🥐"
-        ],
+          "🥐🥐🥐"],
         "answer": 3,
         "id": "N5-08-054",
         "script": "M: すみません、🥐 3つは　ありますか。\nF: はい、どうぞ。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人がカフェで注文しています。女の人は何を頼みますか。",
-        "question": "何を頼みますか。",
-        "options": [
-          "🍵🍵",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がカフェで<ruby>注文<rt>ちゅうもん</rt></ruby>しています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>頼み<rt>たのみ</rt></ruby>ますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>頼み<rt>たのみ</rt></ruby>ますか。",
+        "options": ["🍵🍵",
           "☕☕",
           "🍵",
-          "☕"
-        ],
+          "☕"],
         "answer": 1,
         "id": "N5-08-055",
         "script": "M: コーヒー 2つを　ください。\nF: はい、コーヒー 2つですね。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人がレストランで注文しています。男の人は何を注文しますか。",
-        "question": "何を注文しますか。",
-        "options": [
-          "🍷",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がレストランで<ruby>注文<rt>ちゅうもん</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>注文<rt>ちゅうもん</rt></ruby>しますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>注文<rt>ちゅうもん</rt></ruby>しますか。",
+        "options": ["🍷",
           "🍺🍺",
           "🍷🍷",
-          "🍺"
-        ],
+          "🍺"],
         "answer": 3,
         "id": "N5-08-056",
         "script": "F: なにを　かいますか。\nM: 🍺を　かいます。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "学生が文房具店で買い物をしています。学生は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "✏️✏️✏️",
+        "text": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>文<rt>ぶん</rt></ruby><ruby>房<rt>ふさ</rt></ruby><ruby>具<rt>ぐ</rt></ruby><ruby>店<rt>みせ</rt></ruby>で<ruby>買い物<rt>かいもの</rt></ruby>をしています。<ruby>学生<rt>がくせい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["✏️✏️✏️",
           "📒",
           "📒📒",
-          "✏️✏️"
-        ],
+          "✏️✏️"],
         "answer": 0,
         "id": "N5-08-057",
         "script": "M: ✏ 3つを　おねがいします。\nF: はい、わかりました。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "特集を聞いています。話者が最も強調しているのは何ですか。（43）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>特<rt>とく</rt></ruby><ruby>集<rt>しゅう</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（43）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-08-058",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット8問33】"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "友達に「また明日」と言いたい（39）",
-        "question": "適切な表現は？",
-        "options": [
-          "📌",
+        "text": "<ruby>友<rt>とも</rt></ruby>達に「また<ruby>明日<rt>あした</rt></ruby>」と<ruby>言<rt>い</rt></ruby>いたい（39）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📆",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-08-067",
         "script": "📆です。【セット8問34】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "トークを聞いています。話者が最も強調しているのは何ですか。（45）",
-        "question": "最も強調しているのは？",
-        "options": [
-          "📌",
+        "text": "トークを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（45）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📕",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-08-060",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット8問35】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "趣味は何ですか。（57）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
-          "読書です",
-          "はい、食べました",
-          "わかりません"
-        ],
+        "text": "<ruby>趣味<rt>しゅみ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。（57）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "<ruby>読書<rt>どくしょ</rt></ruby>です",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "わかりません"],
         "answer": 1,
         "id": "N5-08-069"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "発表を聞いています。話者が最も強調しているのは何ですか。（47）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>発<rt>はつ</rt></ruby>表を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（47）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-08-062",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット8問37】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "出身はどこですか。（58）",
-        "question": "返答は？",
-        "options": [
-          "東京です",
+        "text": "<ruby>出<rt>で</rt></ruby>身はどこですか。（58）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["<ruby>東<rt>ひがし</rt></ruby><ruby>京<rt>きょう</rt></ruby>です",
           "わかりません",
-          "いいえ、違います",
-          "はい、食べました"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 0,
         "id": "N5-08-070"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "友達に「おはよう」と言いたい（36）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>友<rt>とも</rt></ruby>達に「おはよう」と<ruby>言<rt>い</rt></ruby>いたい（36）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-08-064",
         "script": "ピンです。【セット8問39】"
@@ -8670,53 +7318,45 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "いつからですか。（59）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "いいえ、違います",
-          "来週からです",
-          "はい、食べました"
-        ],
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "<ruby>来週<rt>らいしゅう</rt></ruby>からです",
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 2,
         "id": "N5-08-071"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "先生に「すみません」と言いたい（38）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>先生<rt>せんせい</rt></ruby>に「すみません」と<ruby>言<rt>い</rt></ruby>いたい（38）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-08-066",
         "script": "ピンです。【セット8問41】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "何人ですか。（60）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
-          "いいえ、違います",
+        "text": "<ruby>何<rt>なに</rt></ruby><ruby>人<rt>ひと</rt></ruby>ですか。（60）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
           "わかりません",
-          "3人です"
-        ],
+          "3<ruby>人<rt>ひと</rt></ruby>です"],
         "answer": 3,
         "id": "N5-08-072"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "家族に「いただきます」と言いたい（40）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>家<rt>いえ</rt></ruby><ruby>族<rt>ぞく</rt></ruby>に「いただきます」と<ruby>言<rt>い</rt></ruby>いたい（40）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-08-068",
         "script": "ピンです。【セット8問43】"
@@ -8724,53 +7364,45 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "いくらですか。（61）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
-          "500円です",
-          "いいえ、違います",
-          "わかりません"
-        ],
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
+          "500<ruby>円<rt>えん</rt></ruby>です",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "わかりません"],
         "answer": 1,
         "id": "N5-08-073"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "研修を聞いています。話者が最も強調しているのは何ですか。（48）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>研修<rt>けんしゅう</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（48）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-08-063",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット8問45】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "何階ですか。（62）",
-        "question": "返答は？",
-        "options": [
-          "3階です",
-          "いいえ、違います",
-          "はい、食べました",
-          "わかりません"
-        ],
+        "text": "<ruby>何<rt>なに</rt></ruby><ruby>階<rt>かい</rt></ruby>ですか。（62）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["3<ruby>階<rt>かい</rt></ruby>です",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "わかりません"],
         "answer": 0,
         "id": "N5-08-074"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "ドキュメンタリーを聞いています。話者が最も強調しているのは何ですか。（44）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "ドキュメンタリーを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（44）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-08-059",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット8問47】"
@@ -8778,53 +7410,45 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "どちらがいいですか。（63）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
-          "はい、食べました",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
           "わかりません",
-          "こちらがいいです"
-        ],
+          "こちらがいいです"],
         "answer": 3,
         "id": "N5-08-075"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "店員に「これください」と言いたい（37）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>店員<rt>てんいん</rt></ruby>に「これください」と<ruby>言<rt>い</rt></ruby>いたい（37）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-08-065",
         "script": "ピンです。【セット8問49】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "もう終わりましたか。（64）",
-        "question": "返答は？",
-        "options": [
-          "はい、終わりました",
-          "はい、食べました",
+        "text": "もう<ruby>終わり<rt>おわり</rt></ruby>ましたか。（64）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>終わり<rt>おわり</rt></ruby>ました",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
           "わかりません",
-          "いいえ、違います"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 0,
         "id": "N5-08-076"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "放送を聞いています。話者が最も強調しているのは何ですか。（46）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "放<ruby>送<rt>お</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（46）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-08-061",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット8問51】"
@@ -8832,481 +7456,401 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "漢字読み",
         "text": "<u>六</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "ろく、む",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["ろく、む",
           "ちゃ",
           "うし",
-          "ひ"
-        ],
+          "ひ"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>耳</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "みみ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["みみ",
           "にく",
           "とり",
-          "みず"
-        ],
+          "みず"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>日</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "くち",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["くち",
           "こめ",
           "にち、ひ",
-          "き"
-        ],
+          "き"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>曜</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "むぎ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["むぎ",
           "よう",
           "め",
-          "かね"
-        ],
+          "かね"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>二</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "と",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["と",
           "に、ふた",
           "みみ",
-          "つち"
-        ],
+          "つち"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>下</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "かど",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["かど",
           "した、か",
           "て",
-          "よう"
-        ],
+          "よう"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>先</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "やま",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["やま",
           "うま",
           "あし",
-          "せん、さき"
-        ],
+          "せん、さき"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>西</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "うし",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["うし",
           "にし、せい",
           "ひ",
-          "かわ"
-        ],
+          "かわ"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>雪</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "とり",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["とり",
           "ゆき",
           "みず",
-          "た"
-        ],
+          "た"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>上</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "てん",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["てん",
           "くち",
           "き",
-          "うえ、じょう"
-        ],
+          "うえ、じょう"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>水</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "かね",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["かね",
           "め",
           "みず",
-          "き"
-        ],
+          "き"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>万</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "まん",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["まん",
           "みみ",
           "つち",
-          "あめ"
-        ],
+          "あめ"],
         "answer": 0
       },
       {
         "type": "表記",
         "text": "<u>ほん</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "木曜日",
-          "賑やか",
-          "入学",
-          "本"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>木曜日<rt>もくようび</rt></ruby>",
+          "<ruby>賑<rt>しん</rt></ruby>やか",
+          "<ruby>入学<rt>にゅうがく</rt></ruby>",
+          "<ruby>本<rt>ほん</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>はく</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "博物館",
-          "履く",
-          "前",
-          "帰る"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["博<ruby>物<rt>もの</rt></ruby><ruby>館<rt>かん</rt></ruby>",
+          "<ruby>履く<rt>はく</rt></ruby>",
+          "<ruby>前<rt>まえ</rt></ruby>",
+          "<ruby>帰る<rt>かえる</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>いろいろ</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "準備",
-          "空港",
-          "家族",
-          "色々"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>準備<rt>じゅんび</rt></ruby>",
+          "<ruby>空港<rt>くうこう</rt></ruby>",
+          "<ruby>家<rt>いえ</rt></ruby><ruby>族<rt>ぞく</rt></ruby>",
+          "<ruby>色々<rt>いろいろ</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>かえる</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "変える",
-          "新聞",
-          "度",
-          "洗濯機"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>変える<rt>かえる</rt></ruby>",
+          "<ruby>新聞<rt>しんぶん</rt></ruby>",
+          "<ruby>度<rt>ど</rt></ruby>",
+          "<ruby>洗濯<rt>せんたく</rt></ruby><ruby>機<rt>き</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "表記",
         "text": "<u>せいかつ</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "生活",
-          "足",
-          "挨拶",
-          "美味しい"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>生活<rt>せいかつ</rt></ruby>",
+          "<ruby>足<rt>あし</rt></ruby>",
+          "<ruby>挨<rt>あい</rt></ruby><ruby>拶<rt>さつ</rt></ruby>",
+          "美<ruby>味<rt>あじ</rt></ruby>しい"],
         "answer": 0
       },
       {
         "type": "表記",
         "text": "<u>おきる</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "起きる",
-          "今",
-          "同僚",
-          "駅"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>起きる<rt>おきる</rt></ruby>",
+          "<ruby>今<rt>いま</rt></ruby>",
+          "<ruby>同<rt>どう</rt></ruby><ruby>僚<rt>りょう</rt></ruby>",
+          "<ruby>駅<rt>えき</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "表記",
         "text": "<u>きょうゆう</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "努力",
-          "万",
-          "行く",
-          "共有"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["努<ruby>力<rt>ちから</rt></ruby>",
+          "<ruby>万<rt>まん</rt></ruby>",
+          "<ruby>行く<rt>いく</rt></ruby>",
+          "<ruby>共有<rt>きょうゆう</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>つかまえる</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "友達",
-          "捕まえる",
-          "傘",
-          "投げる"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>友<rt>とも</rt></ruby>達",
+          "<ruby>捕まえる<rt>つかまえる</rt></ruby>",
+          "<ruby>傘<rt>かさ</rt></ruby>",
+          "<ruby>投げる<rt>なげる</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "文脈規定",
         "text": "プレゼントを（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "報告",
-          "暗い",
-          "喜ぶ",
-          "調べる"
-        ],
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>報告<rt>ほうこく</rt></ruby>",
+          "<ruby>暗い<rt>くらい</rt></ruby>",
+          "<ruby>喜ぶ<rt>よろこぶ</rt></ruby>",
+          "調べる"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "別れを（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "言葉",
-          "使う",
-          "悲しむ",
-          "バス"
-        ],
+        "text": "<ruby>別れ<rt>わかれ</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>言<rt>い</rt></ruby>葉",
+          "<ruby>使う<rt>つかう</rt></ruby>",
+          "<ruby>悲しむ<rt>かなしむ</rt></ruby>",
+          "バス"],
         "answer": 2
       },
       {
         "type": "文脈規定",
         "text": "ニュースに（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "公園",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>公園<rt>こうえん</rt></ruby>",
           "さようなら",
-          "遅刻",
-          "驚く"
-        ],
+          "<ruby>遅刻<rt>ちこく</rt></ruby>",
+          "<ruby>驚く<rt>おどろく</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "友達を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "心配する",
-          "困る",
-          "重い",
-          "ご飯"
-        ],
+        "text": "<ruby>友<rt>とも</rt></ruby>達を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>心<rt>こころ</rt></ruby>配する",
+          "<ruby>困る<rt>こまる</rt></ruby>",
+          "<ruby>重い<rt>おもい</rt></ruby>",
+          "<ruby>ご飯<rt>ごはん</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "無事で（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "一緒に",
-          "歩く",
-          "安心する",
-          "一枚"
-        ],
+        "text": "<ruby>無事<rt>ぶじ</rt></ruby>で（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に",
+          "<ruby>歩く<rt>あるく</rt></ruby>",
+          "<ruby>安心する<rt>あんしんする</rt></ruby>",
+          "<ruby>一<rt>いち</rt></ruby><ruby>枚<rt>まい</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "お金に（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "繋ぐ",
-          "困る",
-          "夏",
-          "発見"
-        ],
+        "text": "<ruby>お金<rt>おかね</rt></ruby>に（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["繋ぐ",
+          "<ruby>困る<rt>こまる</rt></ruby>",
+          "<ruby>夏<rt>なつ</rt></ruby>",
+          "<ruby>発見<rt>はっけん</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "文脈規定",
-        "text": "仕事で（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "疲れる",
+        "text": "<ruby>仕事<rt>しごと</rt></ruby>で（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>疲れる<rt>つかれる</rt></ruby>",
           "お詫び",
-          "忙しい",
-          "引っ越す"
-        ],
+          "<ruby>忙しい<rt>いそがしい</rt></ruby>",
+          "<ruby>引っ越す<rt>ひっこす</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "今日は（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "元気",
+        "text": "<ruby>今日<rt>きょう</rt></ruby>は（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>元気<rt>げんき</rt></ruby>",
           "失敗",
-          "減る",
-          "悪い"
-        ],
+          "<ruby>減る<rt>へる</rt></ruby>",
+          "<ruby>悪い<rt>わるい</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
         "text": "（　）になる",
-        "question": "（　）に入るのは？",
-        "options": [
-          "病気",
-          "初めて",
-          "下",
-          "くれる"
-        ],
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>病気<rt>びょうき</rt></ruby>",
+          "<ruby>初めて<rt>はじめて</rt></ruby>",
+          "<ruby>下<rt>した</rt></ruby>",
+          "くれる"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "風邪が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "サイズ",
-          "全部",
-          "辞書",
-          "治る"
-        ],
+        "text": "<ruby>風邪<rt>かぜ</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["サイズ",
+          "<ruby>全部<rt>ぜんぶ</rt></ruby>",
+          "<ruby>辞書<rt>じしょ</rt></ruby>",
+          "<ruby>治る<rt>なおる</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "東京で（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "発表",
-          "靴",
-          "生まれる",
-          "習慣"
-        ],
+        "text": "<ruby>東<rt>ひがし</rt></ruby><ruby>京<rt>きょう</rt></ruby>で（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>発<rt>はつ</rt></ruby>表",
+          "<ruby>靴<rt>くつ</rt></ruby>",
+          "<ruby>生まれる<rt>うまれる</rt></ruby>",
+          "<ruby>習慣<rt>しゅうかん</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "花が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "悲しい",
-          "断る",
-          "死ぬ",
-          "立つ"
-        ],
+        "text": "<ruby>花<rt>はな</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>悲しい<rt>かなしい</rt></ruby>",
+          "<ruby>断る<rt>ことわる</rt></ruby>",
+          "<ruby>死ぬ<rt>しぬ</rt></ruby>",
+          "立つ"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "幸せに（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "連絡",
-          "料理する",
-          "生きる",
-          "あそこ"
-        ],
+        "text": "<ruby>幸せ<rt>しあわせ</rt></ruby>に（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>連絡<rt>れんらく</rt></ruby>",
+          "料<ruby>理<rt>り</rt></ruby>する",
+          "<ruby>生きる<rt>いきる</rt></ruby>",
+          "あそこ"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "東京に（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "住む",
-          "放送",
+        "text": "<ruby>東<rt>ひがし</rt></ruby><ruby>京<rt>きょう</rt></ruby>に（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>住む<rt>すむ</rt></ruby>",
+          "放<ruby>送<rt>お</rt></ruby>",
           "こんにちは",
-          "描く"
-        ],
+          "<ruby>描く<rt>えがく</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "大阪に（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "郵便局",
-          "引っ越す",
+        "text": "<ruby>大<rt>だい</rt></ruby><ruby>阪<rt>はん</rt></ruby>に（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["郵<ruby>便<rt>べん</rt></ruby><ruby>局<rt>きょく</rt></ruby>",
+          "<ruby>引っ越す<rt>ひっこす</rt></ruby>",
           "いいえ",
-          "会社員"
-        ],
+          "<ruby>会社<rt>かいしゃ</rt></ruby><ruby>員<rt>いん</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "言い換え",
         "text": "ドアを<ruby>閉める<rt>しめる</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "閉じる",
-          "起きる",
-          "家族",
-          "投げる"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>閉じる<rt>とじる</rt></ruby>",
+          "<ruby>起きる<rt>おきる</rt></ruby>",
+          "<ruby>家<rt>いえ</rt></ruby><ruby>族<rt>ぞく</rt></ruby>",
+          "<ruby>投げる<rt>なげる</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "言い換え",
         "text": "名前を<ruby>知る<rt>しる</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "度",
-          "共有",
-          "理解する",
-          "長い"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>度<rt>ど</rt></ruby>",
+          "<ruby>共有<rt>きょうゆう</rt></ruby>",
+          "<ruby>理解する<rt>りかいする</rt></ruby>",
+          "<ruby>長い<rt>ながい</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "言い換え",
         "text": "意味が<ruby>分かる<rt>わかる</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "理解する",
-          "捕まえる",
-          "挨拶",
-          "台"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>理解する<rt>りかいする</rt></ruby>",
+          "<ruby>捕まえる<rt>つかまえる</rt></ruby>",
+          "<ruby>挨<rt>あい</rt></ruby><ruby>拶<rt>さつ</rt></ruby>",
+          "<ruby>台<rt>だい</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "言い換え",
         "text": "漢字を<ruby>覚える<rt>おぼえる</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "記憶する",
-          "居間",
-          "同僚",
-          "最高"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>記憶<rt>きおく</rt></ruby>する",
+          "<ruby>居間<rt>いま</rt></ruby>",
+          "<ruby>同<rt>どう</rt></ruby><ruby>僚<rt>りょう</rt></ruby>",
+          "<ruby>最高<rt>さいこう</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "言い換え",
         "text": "名前を<ruby>忘れる<rt>わすれる</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "失念する",
-          "趣味",
-          "行く",
-          "銀行"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["失<ruby>念<rt>ねん</rt></ruby>する",
+          "<ruby>趣味<rt>しゅみ</rt></ruby>",
+          "<ruby>行く<rt>いく</rt></ruby>",
+          "<ruby>銀行<rt>ぎんこう</rt></ruby>"],
         "answer": 0
       }
     ],
@@ -9315,12 +7859,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "きょうは　しごとに　（　）。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "いかない",
+        "options": ["いかない",
           "いきます",
           "いく",
-          "いきません"
-        ],
+          "いきません"],
         "answer": 3,
         "id": "N5-09-026"
       },
@@ -9328,12 +7870,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "おさけは　（　）。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "のみません",
+        "options": ["のみません",
           "のむ",
           "のまない",
-          "のみます"
-        ],
+          "のみます"],
         "answer": 0,
         "id": "N5-09-027"
       },
@@ -9341,12 +7881,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "でんしゃに　のっ（　）いきます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "に",
+        "options": ["に",
           "から",
           "て",
-          "で"
-        ],
+          "で"],
         "answer": 2,
         "id": "N5-09-028"
       },
@@ -9354,12 +7892,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "わたしは　とうきょうに　（　）います。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "すむ",
+        "options": ["すむ",
           "すんだ",
           "すんで",
-          "すみ"
-        ],
+          "すみ"],
         "answer": 2,
         "id": "N5-09-033"
       },
@@ -9367,12 +7903,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "まっすぐ　いっ（　）ください。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "て",
+        "options": ["て",
           "から",
           "で",
-          "に"
-        ],
+          "に"],
         "answer": 0,
         "id": "N5-09-030"
       },
@@ -9380,12 +7914,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "やまださんを　（　）いますか。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "しる",
+        "options": ["しる",
           "しって",
           "しり",
-          "しった"
-        ],
+          "しった"],
         "answer": 1,
         "id": "N5-09-034"
       },
@@ -9393,12 +7925,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "ちょっと　まっ（　）ください。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "から",
+        "options": ["から",
           "で",
           "て",
-          "に"
-        ],
+          "に"],
         "answer": 2,
         "id": "N5-09-032"
       },
@@ -9406,12 +7936,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "いま　ほんを　（　）います。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "よんで",
+        "options": ["よんで",
           "よんだ",
           "よむ",
-          "よみ"
-        ],
+          "よみ"],
         "answer": 0,
         "id": "N5-09-035"
       },
@@ -9419,25 +7947,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "ゆっくり　はなし（　）ください。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "から",
+        "options": ["から",
           "で",
           "に",
-          "て"
-        ],
+          "て"],
         "answer": 3,
         "id": "N5-09-031"
       },
       {
         "type": "文の組み立て",
-        "text": "【日常会話・問41（N5レベル）】次の語句を正しい順序に並べてください：母に / プレゼントを / あげました / 買って",
-        "question": "正しい順序は？",
-        "options": [
-          "あげました 母に プレゼントを 買って",
-          "母にプレゼントを買ってあげました",
-          "プレゼントを 買って あげました 母に",
-          "あげました 買って プレゼントを 母に"
-        ],
+        "text": "【<ruby>日常<rt>にちじょう</rt></ruby><ruby>会話<rt>かいわ</rt></ruby>・<ruby>問<rt>とん</rt></ruby>41（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>母<rt>はは</rt></ruby>に / プレゼントを / あげました / <ruby>買<rt>か</rt></ruby>って",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["あげました <ruby>母<rt>はは</rt></ruby>に プレゼントを <ruby>買<rt>か</rt></ruby>って",
+          "<ruby>母<rt>はは</rt></ruby>にプレゼントを<ruby>買<rt>か</rt></ruby>ってあげました",
+          "プレゼントを <ruby>買<rt>か</rt></ruby>って あげました <ruby>母<rt>はは</rt></ruby>に",
+          "あげました <ruby>買<rt>か</rt></ruby>って プレゼントを <ruby>母<rt>はは</rt></ruby>に"],
         "answer": 1,
         "id": "N5-09-036"
       },
@@ -9445,129 +7969,109 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "ここに　すわっ（　）ください。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "で",
+        "options": ["で",
           "に",
           "から",
-          "て"
-        ],
+          "て"],
         "answer": 3,
         "id": "N5-09-029"
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問42（N4レベル）】次の語句を正しい順序に並べてください：旅行に / 友達と / です / 一緒に / 行きたい",
-        "question": "正しい順序は？",
-        "options": [
-          "です 行きたい 旅行に 一緒に 友達と",
-          "です 友達と 一緒に 旅行に 行きたい",
-          "友達と一緒に旅行に行きたいです",
-          "一緒に 旅行に 行きたい です 友達と"
-        ],
+        "text": "【ビジネス・<ruby>問<rt>とん</rt></ruby>42（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>旅行<rt>りょこう</rt></ruby>に / <ruby>友<rt>とも</rt></ruby>達と / です / <ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に / <ruby>行<rt>い</rt></ruby>きたい",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["です <ruby>行<rt>い</rt></ruby>きたい <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に <ruby>友<rt>とも</rt></ruby>達と",
+          "です <ruby>友<rt>とも</rt></ruby>達と <ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>行<rt>い</rt></ruby>きたい",
+          "<ruby>友<rt>とも</rt></ruby>達と<ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に<ruby>旅行<rt>りょこう</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたいです",
+          "<ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>行<rt>い</rt></ruby>きたい です <ruby>友<rt>とも</rt></ruby>達と"],
         "answer": 2,
         "id": "N5-09-037"
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問43（N3レベル）】次の語句を正しい順序に並べてください：雨が / ようです / いる / 降って",
-        "question": "正しい順序は？",
-        "options": [
-          "ようです 雨が 降って いる",
-          "雨が降っているようです",
-          "ようです いる 降って 雨が",
-          "降って いる ようです 雨が"
-        ],
+        "text": "【<ruby>学校<rt>がっこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>43（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>雨<rt>あめ</rt></ruby>が / ようです / いる / <ruby>降<rt>こう</rt></ruby>って",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["ようです <ruby>雨<rt>あめ</rt></ruby>が <ruby>降<rt>こう</rt></ruby>って いる",
+          "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>こう</rt></ruby>っているようです",
+          "ようです いる <ruby>降<rt>こう</rt></ruby>って <ruby>雨<rt>あめ</rt></ruby>が",
+          "<ruby>降<rt>こう</rt></ruby>って いる ようです <ruby>雨<rt>あめ</rt></ruby>が"],
         "answer": 0,
         "id": "N5-09-038"
       },
       {
         "type": "文の組み立て",
-        "text": "【旅行・問44（N2レベル）】次の語句を正しい順序に並べてください：連絡して / ください / 終えたら / 仕事を",
-        "question": "正しい順序は？",
-        "options": [
-          "終えたら 連絡して ください 仕事を",
-          "仕事を終えたら連絡してください",
-          "ください 連絡して 終えたら 仕事を",
-          "ください 仕事を 終えたら 連絡して"
-        ],
+        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>44（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>連絡<rt>れんらく</rt></ruby>して / ください / <ruby>終<rt>しゅう</rt></ruby>えたら / <ruby>仕事<rt>しごと</rt></ruby>を",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>終<rt>しゅう</rt></ruby>えたら <ruby>連絡<rt>れんらく</rt></ruby>して ください <ruby>仕事<rt>しごと</rt></ruby>を",
+          "<ruby>仕事<rt>しごと</rt></ruby>を<ruby>終<rt>しゅう</rt></ruby>えたら<ruby>連絡<rt>れんらく</rt></ruby>してください",
+          "ください <ruby>連絡<rt>れんらく</rt></ruby>して <ruby>終<rt>しゅう</rt></ruby>えたら <ruby>仕事<rt>しごと</rt></ruby>を",
+          "ください <ruby>仕事<rt>しごと</rt></ruby>を <ruby>終<rt>しゅう</rt></ruby>えたら <ruby>連絡<rt>れんらく</rt></ruby>して"],
         "answer": 2,
         "id": "N5-09-039"
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問45（N1レベル）】次の語句を正しい順序に並べてください：作って / 母が / この料理は / くれました",
-        "question": "正しい順序は？",
-        "options": [
-          "母が 作って くれました この料理は",
-          "くれました 作って 母が この料理は",
-          "くれました この料理は 母が 作って",
-          "この料理は母が作ってくれました"
-        ],
+        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>とん</rt></ruby>45（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>作<rt>さく</rt></ruby>って / <ruby>母<rt>はは</rt></ruby>が / この料<ruby>理<rt>り</rt></ruby>は / くれました",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>母<rt>はは</rt></ruby>が <ruby>作<rt>さく</rt></ruby>って くれました この料<ruby>理<rt>り</rt></ruby>は",
+          "くれました <ruby>作<rt>さく</rt></ruby>って <ruby>母<rt>はは</rt></ruby>が この料<ruby>理<rt>り</rt></ruby>は",
+          "くれました この料<ruby>理<rt>り</rt></ruby>は <ruby>母<rt>はは</rt></ruby>が <ruby>作<rt>さく</rt></ruby>って",
+          "この料<ruby>理<rt>り</rt></ruby>は<ruby>母<rt>はは</rt></ruby>が<ruby>作<rt>さく</rt></ruby>ってくれました"],
         "answer": 0,
         "id": "N5-09-040"
       },
       {
         "type": "文章の文法",
-        "text": "健康（　）、何事も始まらない。（41）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "ならでは",
+        "text": "健<ruby>康<rt>こう</rt></ruby>（　）、<ruby>何<rt>なに</rt></ruby><ruby>事<rt>こと</rt></ruby>も<ruby>始<rt>はじまる</rt></ruby>まらない。（41）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["ならでは",
           "がなければ",
           "なくして",
-          "でなくては"
-        ],
+          "でなくては"],
         "answer": 2,
         "id": "N5-09-041"
       },
       {
         "type": "文章の文法",
-        "text": "時間の許す（　）、できるだけ訪れたい。（42）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "限り",
+        "text": "<ruby>時間<rt>じかん</rt></ruby>の<ruby>許す<rt>ゆるす</rt></ruby>（　）、できるだけ<ruby>訪<rt>ほう</rt></ruby>れたい。（42）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>限り<rt>かぎり</rt></ruby>",
           "まで",
           "うちに",
-          "ほど"
-        ],
+          "ほど"],
         "answer": 0,
         "id": "N5-09-042"
       },
       {
         "type": "文章の文法",
-        "text": "医師（　）、ボランティアにも熱心だ。（43）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "なので",
-          "である傍ら",
+        "text": "<ruby>医師<rt>いし</rt></ruby>（　）、ボランティアにも<ruby>熱心<rt>ねっしん</rt></ruby>だ。（43）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["なので",
+          "である<ruby>傍<rt>かたわ</rt></ruby>ら",
           "として",
-          "であれば"
-        ],
+          "であれば"],
         "answer": 1,
         "id": "N5-09-043"
       },
       {
         "type": "文章の文法",
-        "text": "医師の処方（　）使用してください。（44）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "に関して",
+        "text": "<ruby>医師<rt>いし</rt></ruby>の処<ruby>方<rt>ほう</rt></ruby>（　）<ruby>使<rt>つか</rt></ruby>用してください。（44）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["に<ruby>関して<rt>かんして</rt></ruby>",
           "によると",
-          "に対して",
-          "に従って"
-        ],
+          "に<ruby>対して<rt>たいして</rt></ruby>",
+          "に従って"],
         "answer": 3,
         "id": "N5-09-044"
       },
       {
         "type": "文章の文法",
-        "text": "予想（　）、売り上げは減少した。（45）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "どおり",
+        "text": "<ruby>予<rt>よ</rt></ruby>想（　）、<ruby>売り上げ<rt>うりあげ</rt></ruby>は<ruby>減<rt>へん</rt></ruby><ruby>少し<rt>すこし</rt></ruby>た。（45）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["どおり",
           "に反して",
-          "に沿って",
-          "通り"
-        ],
+          "に<ruby>沿って<rt>そって</rt></ruby>",
+          "<ruby>通り<rt>とおり</rt></ruby>"],
         "answer": 1,
         "id": "N5-09-045"
       },
@@ -9575,12 +8079,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "1がつは　さむいです。7がつは　あついです。",
         "question": "7がつは　どうですか。",
-        "options": [
-          "すずしい",
+        "options": ["すずしい",
           "あつい",
           "さむい",
-          "あたたかい"
-        ],
+          "あたたかい"],
         "answer": 0,
         "id": "N5-09-046"
       },
@@ -9588,12 +8090,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "このほんは　500えんです。あのほんは　800えんです。",
         "question": "あのほんは　いくらですか。",
-        "options": [
-          "1000えん",
+        "options": ["1000えん",
           "500えん",
           "300えん",
-          "800えん"
-        ],
+          "800えん"],
         "answer": 1,
         "id": "N5-09-047"
       },
@@ -9601,12 +8101,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "りんごは　1こ　100えんです。3こ　かいました。",
         "question": "ぜんぶで　いくらですか。",
-        "options": [
-          "100えん",
+        "options": ["100えん",
           "300えん",
           "400えん",
-          "200えん"
-        ],
+          "200えん"],
         "answer": 3,
         "id": "N5-09-048"
       },
@@ -9614,12 +8112,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "わたしは　やさいが　すきです。にくは　あまり　たべません。さかなは　ときどき　たべます。くだものも　だいすきです。",
         "question": "よく　たべるものは　なんですか。",
-        "options": [
-          "やさい",
+        "options": ["やさい",
           "さかな",
           "にく",
-          "たまご"
-        ],
+          "たまご"],
         "answer": 0,
         "id": "N5-09-049"
       },
@@ -9627,12 +8123,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "きょうの　ひるごはんは　おべんとうです。おにぎりが　2こと　たまごやきが　はいっています。おかあさんが　つくりました。",
         "question": "おべんとうを　だれが　つくりましたか。",
-        "options": [
-          "おかあさん",
+        "options": ["おかあさん",
           "ともだち",
           "おとうさん",
-          "わたし"
-        ],
+          "わたし"],
         "answer": 2,
         "id": "N5-09-050"
       },
@@ -9640,137 +8134,117 @@ window.MOCK_DATA['N5'] = {
         "type": "情報検索",
         "text": "【でんしゃ】とうきょうから　おおさかまで　2じかん30ぷん。1まんえん。",
         "question": "とうきょうから　おおさかまで　いくらですか。",
-        "options": [
-          "2まんえん",
+        "options": ["2まんえん",
           "1まんえん",
           "5000えん",
-          "8000えん"
-        ],
+          "8000えん"],
         "answer": 1,
         "id": "N5-09-051"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人が本屋で話しています。女の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "📕",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>本屋<rt>ほんや</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["📕",
           "📗📗📗",
           "📕📕",
-          "📗"
-        ],
+          "📗"],
         "answer": 2,
         "id": "N5-09-052",
         "script": "M: ほん 2つを　おねがいします。\nF: はい、わかりました。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人が食堂で注文しています。男の人は何を食べますか。",
-        "question": "何を食べますか。",
-        "options": [
-          "🍛",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>食堂<rt>しょくどう</rt></ruby>で<ruby>注文<rt>ちゅうもん</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>食<rt>た</rt></ruby>べますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>食<rt>た</rt></ruby>べますか。",
+        "options": ["🍛",
           "🍣",
           "🍱",
-          "🍜"
-        ],
+          "🍜"],
         "answer": 0,
         "id": "N5-09-053",
         "script": "F: これですか。\nM: いいえ、🍛を　ください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人がレストランで注文しています。女の人は何を頼みますか。",
-        "question": "何を頼みますか。",
-        "options": [
-          "🍔",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がレストランで<ruby>注文<rt>ちゅうもん</rt></ruby>しています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>頼み<rt>たのみ</rt></ruby>ますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>頼み<rt>たのみ</rt></ruby>ますか。",
+        "options": ["🍔",
           "🍕🍕",
           "🍕",
-          "🍔🍔"
-        ],
+          "🍔🍔"],
         "answer": 2,
         "id": "N5-09-054",
         "script": "M: すみません、🍕は　ありますか。\nF: はい、どうぞ。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人と女の人が話しています。女の人はどこへ行きますか。",
-        "question": "どこへ行きますか。",
-        "options": [
-          "🏥",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>と<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>話<rt>はなし</rt></ruby>しています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>はどこへ<ruby>行<rt>い</rt></ruby>きますか。",
+        "question": "どこへ<ruby>行<rt>い</rt></ruby>きますか。",
+        "options": ["🏥",
           "🏪",
           "🏫",
-          "🏣"
-        ],
+          "🏣"],
         "answer": 0,
         "id": "N5-09-055",
         "script": "M: びょういんを　ください。\nF: はい、びょういんですね。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人と女の人が駅で話しています。何で行きますか。",
-        "question": "何で行きますか。",
-        "options": [
-          "🚌",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>と<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>駅<rt>えき</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>何<rt>なに</rt></ruby>で<ruby>行<rt>い</rt></ruby>きますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>で<ruby>行<rt>い</rt></ruby>きますか。",
+        "options": ["🚌",
           "🚃",
           "🚶",
-          "🚕"
-        ],
+          "🚕"],
         "answer": 1,
         "id": "N5-09-056",
         "script": "F: なにを　かいますか。\nM: 🚃を　かいます。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人が出かける準備をしています。女の人は何を持っていきますか。",
-        "question": "何を持っていきますか。",
-        "options": [
-          "👒",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>出かける<rt>でかける</rt></ruby><ruby>準備<rt>じゅんび</rt></ruby>をしています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>持<rt>もつ</rt></ruby>っていきますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>持<rt>もつ</rt></ruby>っていきますか。",
+        "options": ["👒",
           "🧣",
           "☂️",
-          "🧥"
-        ],
+          "🧥"],
         "answer": 2,
         "id": "N5-09-057",
         "script": "M: ☂を　おねがいします。\nF: はい、わかりました。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "朝礼を聞いています。話者が最も強調しているのは何ですか。（49）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>朝<rt>あさ</rt></ruby>礼を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（49）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-09-058",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット9問33】"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "友達に「また明日」と言いたい（44）",
-        "question": "適切な表現は？",
-        "options": [
-          "📆",
+        "text": "<ruby>友<rt>とも</rt></ruby>達に「また<ruby>明日<rt>あした</rt></ruby>」と<ruby>言<rt>い</rt></ruby>いたい（44）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📆",
           "📌",
           "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-09-067",
         "script": "📆です。【セット9問34】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "講演を聞いています。話者が最も強調しているのは何ですか。（51）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>講<rt>こう</rt></ruby><ruby>演<rt>えん</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（51）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📕"
-        ],
+          "📕"],
         "answer": 1,
         "id": "N5-09-060",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット9問35】"
@@ -9778,215 +8252,183 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "どうしましたか。（65）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "はい、食べました",
-          "少し疲れました",
-          "いいえ、違います"
-        ],
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "<ruby>少し<rt>すこし</rt></ruby><ruby>疲れ<rt>つかれ</rt></ruby>ました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 2,
         "id": "N5-09-069"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "インタビューを聞いています。話者が最も強調しているのは何ですか。（53）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "インタビューを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（53）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-09-062",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット9問37】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "お腹空きましたか。（66）",
-        "question": "返答は？",
-        "options": [
-          "少し空きました",
+        "text": "お腹<ruby>空<rt>そら</rt></ruby>きましたか。（66）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["<ruby>少し<rt>すこし</rt></ruby><ruby>空<rt>そら</rt></ruby>きました",
           "わかりません",
-          "はい、食べました",
-          "いいえ、違います"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 0,
         "id": "N5-09-070"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "友達に「おはよう」と言いたい（41）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>友<rt>とも</rt></ruby>達に「おはよう」と<ruby>言<rt>い</rt></ruby>いたい（41）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-09-064",
         "script": "ピンです。【セット9問39】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "眠いですか。（67）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "はい、食べました",
-          "いいえ、違います",
-          "少し眠いです"
-        ],
+        "text": "<ruby>眠い<rt>ねむい</rt></ruby>ですか。（67）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "<ruby>少し<rt>すこし</rt></ruby><ruby>眠い<rt>ねむい</rt></ruby>です"],
         "answer": 3,
         "id": "N5-09-071"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "先生に「すみません」と言いたい（43）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>先生<rt>せんせい</rt></ruby>に「すみません」と<ruby>言<rt>い</rt></ruby>いたい（43）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-09-066",
         "script": "ピンです。【セット9問41】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "準備できましたか。（68）",
-        "question": "返答は？",
-        "options": [
-          "はい、できました",
-          "いいえ、違います",
+        "text": "<ruby>準備<rt>じゅんび</rt></ruby>できましたか。（68）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、できました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
           "わかりません",
-          "はい、食べました"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 0,
         "id": "N5-09-072"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "家族に「いただきます」と言いたい（45）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>家<rt>いえ</rt></ruby><ruby>族<rt>ぞく</rt></ruby>に「いただきます」と<ruby>言<rt>い</rt></ruby>いたい（45）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-09-068",
         "script": "ピンです。【セット9問43】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "分かりましたか。（69）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
+        "text": "<ruby>分<rt>ふん</rt></ruby>かりましたか。（69）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
           "わかりません",
-          "いいえ、違います",
-          "はい、分かりました"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>分<rt>ふん</rt></ruby>かりました"],
         "answer": 3,
         "id": "N5-09-073"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "説明を聞いています。話者が最も強調しているのは何ですか。（54）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>説明<rt>せつめい</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（54）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-09-063",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット9問45】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "聞こえますか。（70）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
-          "はい、聞こえます",
+        "text": "<ruby>聞<rt>き</rt></ruby>こえますか。（70）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>聞<rt>き</rt></ruby>こえます",
           "わかりません",
-          "はい、食べました"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 1,
         "id": "N5-09-074"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "ミーティングを聞いています。話者が最も強調しているのは何ですか。（50）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "ミーティングを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（50）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-09-059",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット9問47】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "この席、空いていますか。（71）",
-        "question": "返答は？",
-        "options": [
-          "はい、どうぞ",
-          "はい、食べました",
-          "いいえ、違います",
-          "わかりません"
-        ],
+        "text": "この席、<ruby>空<rt>そら</rt></ruby>いていますか。（71）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、どうぞ",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "わかりません"],
         "answer": 0,
         "id": "N5-09-075"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "店員に「これください」と言いたい（42）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>店員<rt>てんいん</rt></ruby>に「これください」と<ruby>言<rt>い</rt></ruby>いたい（42）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-09-065",
         "script": "ピンです。【セット9問49】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "何時からですか。（72）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "はい、食べました",
-          "10時からです",
-          "いいえ、違います"
-        ],
+        "text": "<ruby>何時<rt>いつ</rt></ruby>からですか。（72）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "10<ruby>時<rt>とき</rt></ruby>からです",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 2,
         "id": "N5-09-076"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "ニュースを聞いています。話者が最も強調しているのは何ですか。（52）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "ニュースを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（52）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-09-061",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット9問51】"
@@ -9994,481 +8436,401 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "漢字読み",
         "text": "<u>何</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "て",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["て",
           "なに、なん",
           "よう",
-          "ゆき"
-        ],
+          "ゆき"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>知</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "あし",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["あし",
           "し",
           "やま",
-          "そら"
-        ],
+          "そら"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>作</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "つく",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["つく",
           "ひ",
           "かわ",
-          "なが.い"
-        ],
+          "なが.い"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>土</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "くに",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["くに",
           "みず",
           "た",
-          "つち"
-        ],
+          "つち"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>後</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "あと",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["あと",
           "き",
           "てん",
-          "い.く"
-        ],
+          "い.く"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>気</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "かね",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["かね",
           "き",
           "で.る",
-          "よ.む"
-        ],
+          "よ.む"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>本</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "ほん、もと",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["ほん、もと",
           "つち",
           "あめ",
-          "はい.る"
-        ],
+          "はい.る"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>駅</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "よう",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["よう",
           "えき",
           "ゆき",
-          "た.べる"
-        ],
+          "た.べる"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>話</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "はなし",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["はなし",
           "やま",
           "そら",
-          "の.む"
-        ],
+          "の.む"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>女</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "おんな、じょ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["おんな、じょ",
           "かわ",
           "なが.い",
-          "み.る"
-        ],
+          "み.る"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>電</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "くに",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["くに",
           "た",
           "でん",
-          "き.く"
-        ],
+          "き.く"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>間</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "あいだ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["あいだ",
           "てん",
           "い.く",
-          "か.く"
-        ],
+          "か.く"],
         "answer": 0
       },
       {
         "type": "表記",
         "text": "<u>いま</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "会う",
-          "携帯電話",
-          "居間",
-          "長い"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>会う<rt>あう</rt></ruby>",
+          "<ruby>携<rt>たずさ</rt></ruby>帯<ruby>電話<rt>でんわ</rt></ruby>",
+          "<ruby>居間<rt>いま</rt></ruby>",
+          "<ruby>長い<rt>ながい</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>しゅみ</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "到着",
-          "遅い",
-          "趣味",
-          "台"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>到<rt>とう</rt></ruby><ruby>着<rt>ちゃく</rt></ruby>",
+          "<ruby>遅い<rt>おそい</rt></ruby>",
+          "<ruby>趣味<rt>しゅみ</rt></ruby>",
+          "<ruby>台<rt>だい</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>たかい</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "自然",
-          "荷物",
-          "高い",
-          "最高"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>自<rt>みずか</rt></ruby>然",
+          "<ruby>荷物<rt>にもつ</rt></ruby>",
+          "<ruby>高い<rt>たかい</rt></ruby>",
+          "<ruby>最高<rt>さいこう</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>にぎやか</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "木曜日",
-          "入学",
-          "賑やか",
-          "銀行"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>木曜日<rt>もくようび</rt></ruby>",
+          "<ruby>入学<rt>にゅうがく</rt></ruby>",
+          "<ruby>賑<rt>しん</rt></ruby>やか",
+          "<ruby>銀行<rt>ぎんこう</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>はくぶつかん</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "絶対",
-          "前",
-          "帰る",
-          "博物館"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>絶対<rt>ぜったい</rt></ruby>",
+          "<ruby>前<rt>まえ</rt></ruby>",
+          "<ruby>帰る<rt>かえる</rt></ruby>",
+          "博<ruby>物<rt>もの</rt></ruby><ruby>館<rt>かん</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>くうこう</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "空港",
-          "家族",
-          "準備",
-          "渡る"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>空港<rt>くうこう</rt></ruby>",
+          "<ruby>家<rt>いえ</rt></ruby><ruby>族<rt>ぞく</rt></ruby>",
+          "<ruby>準備<rt>じゅんび</rt></ruby>",
+          "<ruby>渡る<rt>わたる</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "表記",
         "text": "<u>しんぶん</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "新聞",
-          "度",
-          "洗濯機",
-          "薬"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>新聞<rt>しんぶん</rt></ruby>",
+          "<ruby>度<rt>ど</rt></ruby>",
+          "<ruby>洗濯<rt>せんたく</rt></ruby><ruby>機<rt>き</rt></ruby>",
+          "<ruby>薬<rt>くすり</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "表記",
         "text": "<u>あし</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "足",
-          "挨拶",
-          "美味しい",
-          "全然"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>足<rt>あし</rt></ruby>",
+          "<ruby>挨<rt>あい</rt></ruby><ruby>拶<rt>さつ</rt></ruby>",
+          "美<ruby>味<rt>あじ</rt></ruby>しい",
+          "<ruby>全<rt>ぜん</rt></ruby>然"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "来年（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "客",
-          "数える",
-          "結婚する",
-          "天気"
-        ],
+        "text": "<ruby>来年<rt>らいねん</rt></ruby>（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>客<rt>きゃく</rt></ruby>",
+          "<ruby>数える<rt>かぞえる</rt></ruby>",
+          "<ruby>結婚<rt>けっこん</rt></ruby>する",
+          "<ruby>天気<rt>てんき</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "彼と（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "付き合う",
-          "予約",
-          "書く",
-          "ドア"
-        ],
+        "text": "<ruby>彼<rt>かれ</rt></ruby>と（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["付き<ruby>合う<rt>あう</rt></ruby>",
+          "<ruby>予<rt>よ</rt></ruby>約",
+          "<ruby>書く<rt>かく</rt></ruby>",
+          "ドア"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "彼女と（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "報告",
-          "別れる",
+        "text": "<ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>と（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>報告<rt>ほうこく</rt></ruby>",
+          "<ruby>別れる<rt>わかれる</rt></ruby>",
           "調べる",
-          "山"
-        ],
+          "<ruby>山<rt>やま</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "文脈規定",
-        "text": "子供を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "起こす",
-          "言葉",
+        "text": "<ruby>子供<rt>こども</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>起こす<rt>おこす</rt></ruby>",
+          "<ruby>言<rt>い</rt></ruby>葉",
           "バス",
-          "二つ"
-        ],
+          "<ruby>二つ<rt>ふたつ</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "赤ちゃんを（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "遅刻",
-          "寝かす",
-          "公園",
-          "足りる"
-        ],
+        "text": "<ruby>赤<rt>あか</rt></ruby>ちゃんを（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>遅刻<rt>ちこく</rt></ruby>",
+          "<ruby>寝<rt>しん</rt></ruby>かす",
+          "<ruby>公園<rt>こうえん</rt></ruby>",
+          "<ruby>足りる<rt>たりる</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "文脈規定",
-        "text": "会議に（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "ご飯",
-          "重い",
-          "遅れる",
-          "確認"
-        ],
+        "text": "<ruby>会議<rt>かいぎ</rt></ruby>に（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>ご飯<rt>ごはん</rt></ruby>",
+          "<ruby>重い<rt>おもい</rt></ruby>",
+          "<ruby>遅れる<rt>おくれる</rt></ruby>",
+          "<ruby>確認<rt>かくにん</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "駅に（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "一枚",
-          "一緒に",
-          "急ぐ",
-          "貸す"
-        ],
+        "text": "<ruby>駅<rt>えき</rt></ruby>に（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>一<rt>いち</rt></ruby><ruby>枚<rt>まい</rt></ruby>",
+          "<ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に",
+          "<ruby>急ぐ<rt>いそぐ</rt></ruby>",
+          "<ruby>貸す<rt>かす</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "電車に（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "発見",
-          "夏",
-          "間に合う",
-          "帽子"
-        ],
+        "text": "<ruby>電車<rt>でんしゃ</rt></ruby>に（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>発見<rt>はっけん</rt></ruby>",
+          "<ruby>夏<rt>なつ</rt></ruby>",
+          "<ruby>間に合う<rt>まにあう</rt></ruby>",
+          "<ruby>帽子<rt>ぼうし</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
         "text": "葉が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "引っ越す",
-          "忙しい",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>引っ越す<rt>ひっこす</rt></ruby>",
+          "<ruby>忙しい<rt>いそがしい</rt></ruby>",
           "落ちる",
-          "捨てる"
-        ],
+          "<ruby>捨てる<rt>すてる</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "温度が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "上がる",
-          "減る",
-          "悪い",
-          "掃除"
-        ],
+        "text": "<ruby>温度<rt>おんど</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>上がる<rt>あがる</rt></ruby>",
+          "<ruby>減る<rt>へる</rt></ruby>",
+          "<ruby>悪い<rt>わるい</rt></ruby>",
+          "<ruby>掃<rt>そう</rt></ruby>除"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "温度が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "下がる",
-          "下",
+        "text": "<ruby>温度<rt>おんど</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>下がる<rt>さがる</rt></ruby>",
+          "<ruby>下<rt>した</rt></ruby>",
           "くれる",
-          "毎朝"
-        ],
+          "<ruby>毎朝<rt>まいあさ</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "人が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "力",
-          "辞書",
+        "text": "<ruby>人<rt>ひと</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>力<rt>ちから</rt></ruby>",
+          "<ruby>辞書<rt>じしょ</rt></ruby>",
           "サイズ",
-          "集まる"
-        ],
+          "<ruby>集まる<rt>あつまる</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "切手を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "凍る",
-          "発表",
-          "習慣",
-          "集める"
-        ],
+        "text": "<ruby>切手<rt>きって</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>凍る<rt>こおる</rt></ruby>",
+          "<ruby>発<rt>はつ</rt></ruby>表",
+          "<ruby>習慣<rt>しゅうかん</rt></ruby>",
+          "<ruby>集める<rt>あつめる</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "店に（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "並ぶ",
-          "悲しい",
+        "text": "<ruby>店<rt>みせ</rt></ruby>に（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["並ぶ",
+          "<ruby>悲しい<rt>かなしい</rt></ruby>",
           "立つ",
-          "成功"
-        ],
+          "<ruby>成功<rt>せいこう</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "本を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "本当に",
-          "連絡",
+        "text": "<ruby>本<rt>ほん</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>本<rt>ほん</rt></ruby>当に",
+          "<ruby>連絡<rt>れんらく</rt></ruby>",
           "あそこ",
-          "並べる"
-        ],
+          "並べる"],
         "answer": 3
       },
       {
         "type": "言い換え",
         "text": "そう<ruby>思う<rt>おもう</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "高い",
-          "考える",
-          "傘",
-          "絶対"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>高い<rt>たかい</rt></ruby>",
+          "<ruby>考える<rt>かんがえる</rt></ruby>",
+          "<ruby>傘<rt>かさ</rt></ruby>",
+          "<ruby>絶対<rt>ぜったい</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "言い換え",
         "text": "仕事を<ruby>始める<rt>はじめる</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "開始する",
-          "賑やか",
-          "会う",
-          "渡る"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>開始する<rt>かいしする</rt></ruby>",
+          "<ruby>賑<rt>しん</rt></ruby>やか",
+          "<ruby>会う<rt>あう</rt></ruby>",
+          "<ruby>渡る<rt>わたる</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "言い換え",
         "text": "授業が<ruby>終わる<rt>おわる</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "薬",
-          "博物館",
-          "到着",
-          "終了する"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>薬<rt>くすり</rt></ruby>",
+          "博<ruby>物<rt>もの</rt></ruby><ruby>館<rt>かん</rt></ruby>",
+          "<ruby>到<rt>とう</rt></ruby><ruby>着<rt>ちゃく</rt></ruby>",
+          "<ruby>終了する<rt>しゅうりょうする</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "言い換え",
         "text": "質問に<ruby>答える<rt>こたえる</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "空港",
-          "返答する",
-          "自然",
-          "全然"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>空港<rt>くうこう</rt></ruby>",
+          "返<ruby>答<rt>とう</rt></ruby>する",
+          "<ruby>自<rt>みずか</rt></ruby>然",
+          "<ruby>全<rt>ぜん</rt></ruby>然"],
         "answer": 1
       },
       {
         "type": "言い換え",
         "text": "あの<ruby>人<rt>ひと</rt></ruby>は誰ですかの意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "ジュース",
-          "新聞",
-          "人間",
-          "ベランダ"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["ジュース",
+          "<ruby>新聞<rt>しんぶん</rt></ruby>",
+          "<ruby>人間<rt>にんげん</rt></ruby>",
+          "ベランダ"],
         "answer": 2
       }
     ],
@@ -10477,12 +8839,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "つめたい　みずが　のみ（　）です。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "る",
+        "options": ["る",
           "たい",
           "て",
-          "ます"
-        ],
+          "ます"],
         "answer": 1,
         "id": "N5-10-026"
       },
@@ -10490,12 +8850,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "この　りんごは　（　）です。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "おいしい",
+        "options": ["おいしい",
           "おいしくて",
           "おいしかった",
-          "おいしく"
-        ],
+          "おいしく"],
         "answer": 0,
         "id": "N5-10-029"
       },
@@ -10503,12 +8861,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "えいがを　み（　）です。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "ます",
+        "options": ["ます",
           "たい",
           "る",
-          "て"
-        ],
+          "て"],
         "answer": 1,
         "id": "N5-10-028"
       },
@@ -10516,12 +8872,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "あの　えいがは　（　）でした。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "おもしろく",
+        "options": ["おもしろく",
           "おもしろくて",
           "おもしろい",
-          "おもしろかった"
-        ],
+          "おもしろかった"],
         "answer": 3,
         "id": "N5-10-030"
       },
@@ -10529,12 +8883,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "あたらしい　くつを　かい（　）です。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "たい",
+        "options": ["たい",
           "て",
           "る",
-          "ます"
-        ],
+          "ます"],
         "answer": 0,
         "id": "N5-10-027"
       },
@@ -10542,12 +8894,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "さくらの　はなは　（　）です。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "きれいで",
+        "options": ["きれいで",
           "きれい",
           "きれいな",
-          "きれいに"
-        ],
+          "きれいに"],
         "answer": 1,
         "id": "N5-10-031"
       },
@@ -10555,12 +8905,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "これは　（　）ですか。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "いつ",
+        "options": ["いつ",
           "だれ",
           "どこ",
-          "なん"
-        ],
+          "なん"],
         "answer": 3,
         "id": "N5-10-032"
       },
@@ -10568,12 +8916,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "あの　ひとは　（　）ですか。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "だれ",
+        "options": ["だれ",
           "どこ",
           "なに",
-          "いつ"
-        ],
+          "いつ"],
         "answer": 0,
         "id": "N5-10-033"
       },
@@ -10581,12 +8927,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "みずを　（　）ください。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "ひっぱい",
+        "options": ["ひっぱい",
           "いっぱい",
           "ひとはい",
-          "いちはい"
-        ],
+          "いちはい"],
         "answer": 1,
         "id": "N5-10-034"
       },
@@ -10594,142 +8938,120 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "かみを　（　）ください。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "ひとまい",
+        "options": ["ひとまい",
           "いちばい",
           "いちまい",
-          "ひとばい"
-        ],
+          "ひとばい"],
         "answer": 2,
         "id": "N5-10-035"
       },
       {
         "type": "文の組み立て",
-        "text": "【日常会話・問46（N5レベル）】次の語句を正しい順序に並べてください：本を / 私は / 昨日 / 図書館で / 読みました",
-        "question": "正しい順序は？",
-        "options": [
-          "読みました 本を 図書館で 昨日 私は",
-          "読みました 私は 昨日 図書館で 本を",
-          "昨日 図書館で 本を 読みました 私は",
-          "私は昨日図書館で本を読みました"
-        ],
+        "text": "【<ruby>日常<rt>にちじょう</rt></ruby><ruby>会話<rt>かいわ</rt></ruby>・<ruby>問<rt>とん</rt></ruby>46（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>本<rt>ほん</rt></ruby>を / <ruby>私<rt>わたし</rt></ruby>は / <ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby> / <ruby>図書館<rt>としょかん</rt></ruby>で / <ruby>読み<rt>よみ</rt></ruby>ました",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>読み<rt>よみ</rt></ruby>ました <ruby>本<rt>ほん</rt></ruby>を <ruby>図書館<rt>としょかん</rt></ruby>で <ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby> <ruby>私<rt>わたし</rt></ruby>は",
+          "<ruby>読み<rt>よみ</rt></ruby>ました <ruby>私<rt>わたし</rt></ruby>は <ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby> <ruby>図書館<rt>としょかん</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を",
+          "<ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby> <ruby>図書館<rt>としょかん</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を <ruby>読み<rt>よみ</rt></ruby>ました <ruby>私<rt>わたし</rt></ruby>は",
+          "<ruby>私<rt>わたし</rt></ruby>は<ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby><ruby>図書館<rt>としょかん</rt></ruby>で<ruby>本<rt>ほん</rt></ruby>を<ruby>読み<rt>よみ</rt></ruby>ました"],
         "answer": 0,
         "id": "N5-10-036"
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問47（N4レベル）】次の語句を正しい順序に並べてください：します / 彼女は / 散歩 / 公園を / 毎朝",
-        "question": "正しい順序は？",
-        "options": [
-          "します 彼女は 毎朝 公園を 散歩",
-          "毎朝 公園を 散歩 します 彼女は",
-          "します 散歩 公園を 毎朝 彼女は",
-          "彼女は毎朝公園を散歩します"
-        ],
+        "text": "【ビジネス・<ruby>問<rt>とん</rt></ruby>47（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：します / <ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は / <ruby>散歩<rt>さんぽ</rt></ruby> / <ruby>公園<rt>こうえん</rt></ruby>を / <ruby>毎朝<rt>まいあさ</rt></ruby>",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["します <ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は <ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>を <ruby>散歩<rt>さんぽ</rt></ruby>",
+          "<ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>を <ruby>散歩<rt>さんぽ</rt></ruby> します <ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は",
+          "します <ruby>散歩<rt>さんぽ</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>を <ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は",
+          "<ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は<ruby>毎朝<rt>まいあさ</rt></ruby><ruby>公園<rt>こうえん</rt></ruby>を<ruby>散歩<rt>さんぽ</rt></ruby>します"],
         "answer": 2,
         "id": "N5-10-037"
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問48（N3レベル）】次の語句を正しい順序に並べてください：お客さんで / この店は / いつも / です / いっぱい",
-        "question": "正しい順序は？",
-        "options": [
-          "です この店は いつも お客さんで いっぱい",
-          "この店はいつもお客さんでいっぱいです",
-          "です いっぱい お客さんで いつも この店は",
-          "いつも お客さんで いっぱい です この店は"
-        ],
+        "text": "【<ruby>学校<rt>がっこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>48（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：お<ruby>客<rt>きゃく</rt></ruby>さんで / この<ruby>店<rt>みせ</rt></ruby>は / いつも / です / いっぱい",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["です この<ruby>店<rt>みせ</rt></ruby>は いつも お<ruby>客<rt>きゃく</rt></ruby>さんで いっぱい",
+          "この<ruby>店<rt>みせ</rt></ruby>はいつもお<ruby>客<rt>きゃく</rt></ruby>さんでいっぱいです",
+          "です いっぱい お<ruby>客<rt>きゃく</rt></ruby>さんで いつも この<ruby>店<rt>みせ</rt></ruby>は",
+          "いつも お<ruby>客<rt>きゃく</rt></ruby>さんで いっぱい です この<ruby>店<rt>みせ</rt></ruby>は"],
         "answer": 0,
         "id": "N5-10-038"
       },
       {
         "type": "文の組み立て",
-        "text": "【旅行・問49（N2レベル）】次の語句を正しい順序に並べてください：できます / 先生に / か / することが / 質問を",
-        "question": "正しい順序は？",
-        "options": [
-          "か できます することが 質問を 先生に",
-          "質問を することが できます か 先生に",
-          "か 先生に 質問を することが できます",
-          "先生に質問をすることができますか"
-        ],
+        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>49（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：できます / <ruby>先生<rt>せんせい</rt></ruby>に / か / することが / <ruby>質問<rt>しつもん</rt></ruby>を",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["か できます することが <ruby>質問<rt>しつもん</rt></ruby>を <ruby>先生<rt>せんせい</rt></ruby>に",
+          "<ruby>質問<rt>しつもん</rt></ruby>を することが できます か <ruby>先生<rt>せんせい</rt></ruby>に",
+          "か <ruby>先生<rt>せんせい</rt></ruby>に <ruby>質問<rt>しつもん</rt></ruby>を することが できます",
+          "<ruby>先生<rt>せんせい</rt></ruby>に<ruby>質問<rt>しつもん</rt></ruby>をすることができますか"],
         "answer": 3,
         "id": "N5-10-039"
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問50（N1レベル）】次の語句を正しい順序に並べてください：かもしれません / 出席 / 会議に / できない / 明日の",
-        "question": "正しい順序は？",
-        "options": [
-          "かもしれません できない 出席 会議に 明日の",
-          "会議に 出席 できない かもしれません 明日の",
-          "かもしれません 明日の 会議に 出席 できない",
-          "明日の会議に出席できないかもしれません"
-        ],
+        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>とん</rt></ruby>50（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：かもしれません / <ruby>出<rt>で</rt></ruby>席 / <ruby>会議<rt>かいぎ</rt></ruby>に / できない / <ruby>明日<rt>あした</rt></ruby>の",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["かもしれません できない <ruby>出<rt>で</rt></ruby>席 <ruby>会議<rt>かいぎ</rt></ruby>に <ruby>明日<rt>あした</rt></ruby>の",
+          "<ruby>会議<rt>かいぎ</rt></ruby>に <ruby>出<rt>で</rt></ruby>席 できない かもしれません <ruby>明日<rt>あした</rt></ruby>の",
+          "かもしれません <ruby>明日<rt>あした</rt></ruby>の <ruby>会議<rt>かいぎ</rt></ruby>に <ruby>出<rt>で</rt></ruby>席 できない",
+          "<ruby>明日<rt>あした</rt></ruby>の<ruby>会議<rt>かいぎ</rt></ruby>に<ruby>出<rt>で</rt></ruby>席できないかもしれません"],
         "answer": 2,
         "id": "N5-10-040"
       },
       {
         "type": "文章の文法",
-        "text": "努力の甲斐（　）、成功を収めた。（46）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "なく",
+        "text": "努<ruby>力<rt>ちから</rt></ruby>の<ruby>甲<rt>こう</rt></ruby>斐（　）、<ruby>成功<rt>せいこう</rt></ruby>を<ruby>収<rt>しゅう</rt></ruby>めた。（46）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["なく",
           "ゆえに",
           "として",
-          "あって"
-        ],
+          "あって"],
         "answer": 3,
         "id": "N5-10-041"
       },
       {
         "type": "文章の文法",
-        "text": "説明を（　）、理解が深まった。（47）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "聞くほど",
-          "聞くにつれ",
-          "聞くや否や",
-          "聞いたところ"
-        ],
+        "text": "<ruby>説明<rt>せつめい</rt></ruby>を（　）、<ruby>理解<rt>りかい</rt></ruby>が<ruby>深<rt>しん</rt></ruby>まった。（47）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>聞く<rt>きく</rt></ruby>ほど",
+          "<ruby>聞く<rt>きく</rt></ruby>につれ",
+          "<ruby>聞く<rt>きく</rt></ruby>や<ruby>否<rt>いな</rt></ruby>や",
+          "<ruby>聞<rt>き</rt></ruby>いたところ"],
         "answer": 1,
         "id": "N5-10-042"
       },
       {
         "type": "文章の文法",
-        "text": "問題が（　）、対策を講じた。（48）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "発生したとたん",
-          "発生するや",
-          "発生して以来",
-          "発生次第"
-        ],
+        "text": "<ruby>問題<rt>もんだい</rt></ruby>が（　）、<ruby>対策<rt>たいさく</rt></ruby>を<ruby>講<rt>こう</rt></ruby>じた。（48）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>発生<rt>はっせい</rt></ruby>したとたん",
+          "<ruby>発生する<rt>はっせいする</rt></ruby>や",
+          "<ruby>発生<rt>はっせい</rt></ruby>して<ruby>以来<rt>いらい</rt></ruby>",
+          "<ruby>発生<rt>はっせい</rt></ruby>次第"],
         "answer": 3,
         "id": "N5-10-043"
       },
       {
         "type": "文章の文法",
-        "text": "彼（　）、この仕事はできない。（49）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "はさておき",
+        "text": "<ruby>彼<rt>かれ</rt></ruby>（　）、この<ruby>仕事<rt>しごと</rt></ruby>はできない。（49）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["はさておき",
           "をおいて",
           "ともなく",
-          "にひきかえ"
-        ],
+          "にひきかえ"],
         "answer": 1,
         "id": "N5-10-044"
       },
       {
         "type": "文章の文法",
-        "text": "私（　）、そのような発言はしない。（50）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "にしても",
+        "text": "<ruby>私<rt>わたし</rt></ruby>（　）、そのような<ruby>発言<rt>はつげん</rt></ruby>はしない。（50）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["にしても",
           "ならでは",
-          "に限って",
-          "としては"
-        ],
+          "に<ruby>限<rt>かぎ</rt></ruby>って",
+          "としては"],
         "answer": 2,
         "id": "N5-10-045"
       },
@@ -10737,12 +9059,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "このシャツは　2000えんです。きのうより　500えん　やすいです。",
         "question": "きのうは　いくらでしたか。",
-        "options": [
-          "3000えん",
+        "options": ["3000えん",
           "1500えん",
           "2500えん",
-          "2000えん"
-        ],
+          "2000えん"],
         "answer": 3,
         "id": "N5-10-046"
       },
@@ -10750,12 +9070,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "コーヒーは　300えんです。ケーキは　400えんです。",
         "question": "コーヒーと　ケーキで　いくらですか。",
-        "options": [
-          "600えん",
+        "options": ["600えん",
           "500えん",
           "800えん",
-          "700えん"
-        ],
+          "700えん"],
         "answer": 0,
         "id": "N5-10-047"
       },
@@ -10763,12 +9081,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "このみせは　やすいです。シャツが　1000えんです。",
         "question": "シャツは　いくらですか。",
-        "options": [
-          "2000えん",
+        "options": ["2000えん",
           "500えん",
           "1000えん",
-          "1500えん"
-        ],
+          "1500えん"],
         "answer": 2,
         "id": "N5-10-048"
       },
@@ -10776,12 +9092,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "このカフェは　しずかで　すきです。コーヒーが　おいしいです。よく　ここで　ほんを　よみます。",
         "question": "このカフェは　どうですか。",
-        "options": [
-          "ひろい",
+        "options": ["ひろい",
           "しずか",
           "せまい",
-          "うるさい"
-        ],
+          "うるさい"],
         "answer": 1,
         "id": "N5-10-049"
       },
@@ -10789,12 +9103,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "あしたは　ともだちの　たんじょうびです。パーティーを　します。ケーキを　かいます。プレゼントも　かいました。",
         "question": "あしたは　なにを　しますか。",
-        "options": [
-          "パーティー",
+        "options": ["パーティー",
           "かいもの",
           "りょこう",
-          "えいが"
-        ],
+          "えいが"],
         "answer": 0,
         "id": "N5-10-050"
       },
@@ -10802,137 +9114,117 @@ window.MOCK_DATA['N5'] = {
         "type": "情報検索",
         "text": "【ジム】つきかい8000えん。あさ6じから　よる11じまで。シャワーあり。",
         "question": "ジムは　なんじまでですか。",
-        "options": [
-          "9じ",
+        "options": ["9じ",
           "12じ",
           "10じ",
-          "11じ"
-        ],
+          "11じ"],
         "answer": 3,
         "id": "N5-10-051"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人がペットショップで話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🐈",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がペットショップで<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🐈",
           "🐟🐟🐟",
           "🐹",
-          "🐕"
-        ],
+          "🐕"],
         "answer": 1,
         "id": "N5-10-052",
         "script": "M: 🐟 3つを　おねがいします。\nF: はい、わかりました。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "友達同士が電話で話しています。明日何をしますか。",
-        "question": "明日何をしますか。",
-        "options": [
-          "⚽",
+        "text": "<ruby>友<rt>とも</rt></ruby>達<ruby>同<rt>どう</rt></ruby>士が<ruby>電話<rt>でんわ</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>明日<rt>あした</rt></ruby><ruby>何<rt>なに</rt></ruby>をしますか。",
+        "question": "<ruby>明日<rt>あした</rt></ruby><ruby>何<rt>なに</rt></ruby>をしますか。",
+        "options": ["⚽",
           "🏊",
           "🎾",
-          "🎿"
-        ],
+          "🎿"],
         "answer": 2,
         "id": "N5-10-053",
         "script": "F: これですか。\nM: いいえ、🎾を　ください。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "子供がお母さんと話しています。子供は何をもらいますか。",
-        "question": "何をもらいますか。",
-        "options": [
-          "🍬🍬🍬",
+        "text": "<ruby>子供<rt>こども</rt></ruby>が<ruby>お母さん<rt>おかあさん</rt></ruby>と<ruby>話<rt>はなし</rt></ruby>しています。<ruby>子供<rt>こども</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をもらいますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>をもらいますか。",
+        "options": ["🍬🍬🍬",
           "🍫",
           "🍫🍫",
-          "🍬🍬"
-        ],
+          "🍬🍬"],
         "answer": 0,
         "id": "N5-10-054",
         "script": "M: すみません、🍬 3つは　ありますか。\nF: はい、どうぞ。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人がケーキ屋で話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🧁🧁🧁",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>ケーキ屋<rt>けーきや</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🧁🧁🧁",
           "🍰🍰",
           "🧁",
-          "🍰"
-        ],
+          "🍰"],
         "answer": 1,
         "id": "N5-10-055",
         "script": "M: ケーキ 2つを　ください。\nF: はい、ケーキ 2つですね。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人がお花屋で買い物をしています。女の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🌸🌸🌸",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がお<ruby>花屋<rt>はなや</rt></ruby>で<ruby>買い物<rt>かいもの</rt></ruby>をしています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🌸🌸🌸",
           "🌷🌷",
           "🌷🌷🌷🌷",
-          "🌸🌸🌸🌸🌸"
-        ],
+          "🌸🌸🌸🌸🌸"],
         "answer": 3,
         "id": "N5-10-056",
         "script": "F: なにを　かいますか。\nM: 🌸 5つを　かいます。"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人がアイス屋で話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🍨🍨🍨",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がアイス<ruby>屋<rt>や</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🍨🍨🍨",
           "🍦🍦",
           "🍦",
-          "🍨"
-        ],
+          "🍨"],
         "answer": 1,
         "id": "N5-10-057",
         "script": "M: アイスクリーム 2つを　おねがいします。\nF: はい、わかりました。"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "会議を聞いています。話者が最も強調しているのは何ですか。（55）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>会議<rt>かいぎ</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（55）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-10-058",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット10問33】"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "友達に「また明日」と言いたい（49）",
-        "question": "適切な表現は？",
-        "options": [
-          "📆",
+        "text": "<ruby>友<rt>とも</rt></ruby>達に「また<ruby>明日<rt>あした</rt></ruby>」と<ruby>言<rt>い</rt></ruby>いたい（49）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📆",
           "📌",
           "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-10-067",
         "script": "📆です。【セット10問34】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "授業を聞いています。話者が最も強調しているのは何ですか。（57）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>授業<rt>じゅぎょう</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（57）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-10-060",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット10問35】"
@@ -10940,107 +9232,91 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "コンビニはありますか。（73）",
-        "question": "返答は？",
-        "options": [
-          "あの角にあります",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["あの<ruby>角<rt>かど</rt></ruby>にあります",
           "わかりません",
-          "はい、食べました",
-          "いいえ、違います"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 0,
         "id": "N5-10-069"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "案内を聞いています。話者が最も強調しているのは何ですか。（59）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>案内<rt>あんない</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（59）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-10-062",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット10問37】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "手伝ってもらえますか。（74）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
+        "text": "<ruby>手<rt>て</rt></ruby><ruby>伝<rt>でん</rt></ruby>ってもらえますか。（74）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
           "はい、いいですよ",
-          "いいえ、違います",
-          "はい、食べました"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 1,
         "id": "N5-10-070"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "友達に「おはよう」と言いたい（46）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>友<rt>とも</rt></ruby>達に「おはよう」と<ruby>言<rt>い</rt></ruby>いたい（46）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-10-064",
         "script": "ピンです。【セット10問39】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに出せばいいですか。（75）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
-          "はい、食べました",
+        "text": "どこに<ruby>出<rt>で</rt></ruby>せばいいですか。（75）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
           "わかりません",
-          "総務部です"
-        ],
+          "<ruby>総務部<rt>そうむぶ</rt></ruby>です"],
         "answer": 3,
         "id": "N5-10-071"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "先生に「すみません」と言いたい（48）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>先生<rt>せんせい</rt></ruby>に「すみません」と<ruby>言<rt>い</rt></ruby>いたい（48）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-10-066",
         "script": "ピンです。【セット10問41】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "お名前は。（76）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
-          "いいえ、違います",
-          "田中です",
-          "わかりません"
-        ],
+        "text": "お<ruby>名前<rt>なまえ</rt></ruby>は。（76）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "<ruby>田<rt>た</rt></ruby><ruby>中<rt>なか</rt></ruby>です",
+          "わかりません"],
         "answer": 2,
         "id": "N5-10-072"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "家族に「いただきます」と言いたい（50）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>家<rt>いえ</rt></ruby><ruby>族<rt>ぞく</rt></ruby>に「いただきます」と<ruby>言<rt>い</rt></ruby>いたい（50）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-10-068",
         "script": "ピンです。【セット10問43】"
@@ -11048,107 +9324,91 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "どのくらいかかりますか。（77）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "はい、食べました",
-          "いいえ、違います",
-          "10分くらいです"
-        ],
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "10<ruby>分<rt>ふん</rt></ruby>くらいです"],
         "answer": 3,
         "id": "N5-10-073"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "スピーチを聞いています。話者が最も強調しているのは何ですか。（60）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "スピーチを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（60）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-10-063",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット10問45】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "使ってもいいですか。（78）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
+        "text": "<ruby>使<rt>つか</rt></ruby>ってもいいですか。（78）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
           "どうぞ",
           "わかりません",
-          "いいえ、違います"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 1,
         "id": "N5-10-074"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "プレゼンを聞いています。話者が最も強調しているのは何ですか。（56）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "プレゼンを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（56）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-10-059",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット10問47】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "もう一杯いかがですか。（79）",
-        "question": "返答は？",
-        "options": [
-          "いただきます",
+        "text": "もう<ruby>一<rt>いち</rt></ruby><ruby>杯<rt>さかずき</rt></ruby>いかがですか。（79）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いただきます",
           "わかりません",
-          "いいえ、違います",
-          "はい、食べました"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 0,
         "id": "N5-10-075"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "店員に「これください」と言いたい（47）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>店員<rt>てんいん</rt></ruby>に「これください」と<ruby>言<rt>い</rt></ruby>いたい（47）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-10-065",
         "script": "ピンです。【セット10問49】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "楽しかったですね。（80）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
-          "本当ですね",
+        "text": "<ruby>楽<rt>らく</rt></ruby>しかったですね。（80）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "<ruby>本<rt>ほん</rt></ruby>当ですね",
           "わかりません",
-          "はい、食べました"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 1,
         "id": "N5-10-076"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "ラジオを聞いています。話者が最も強調しているのは何ですか。（58）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "ラジオを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（58）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📕"
-        ],
+          "📕"],
         "answer": 2,
         "id": "N5-10-061",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット10問51】"
@@ -11156,481 +9416,401 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "漢字読み",
         "text": "<u>書</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "よ.む",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["よ.む",
           "き",
           "で.る",
-          "か.く"
-        ],
+          "か.く"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>馬</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "はなし",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["はなし",
           "あめ",
           "はい.る",
-          "うま"
-        ],
+          "うま"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>元</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "た.べる",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["た.べる",
           "ゆき",
           "もと",
-          "か.う"
-        ],
+          "か.う"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>見</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "やす.む",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["やす.む",
           "そら",
           "の.む",
-          "み.る"
-        ],
+          "み.る"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>雨</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "ご",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["ご",
           "なが.い",
           "み.る",
-          "あめ"
-        ],
+          "あめ"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>外</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "まえ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["まえ",
           "くに",
           "き.く",
-          "そと、がい"
-        ],
+          "そと、がい"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>毎</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "あと",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["あと",
           "い.く",
           "か.く",
-          "まい"
-        ],
+          "まい"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>肉</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "あいだ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["あいだ",
           "で.る",
           "よ.む",
-          "にく"
-        ],
+          "にく"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>月</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "な",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["な",
           "はい.る",
           "はなし",
-          "がつ、つき"
-        ],
+          "がつ、つき"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>父</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "か.う",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["か.う",
           "た.べる",
           "ちち、とう",
-          "でん"
-        ],
+          "でん"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>学</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "がく、まな",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["がく、まな",
           "の.む",
           "やす.む",
-          "くるま"
-        ],
+          "くるま"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>中</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "み.る",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["み.る",
           "なか、ちゅう",
           "ご",
-          "みち"
-        ],
+          "みち"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>いま</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "同僚",
-          "今",
-          "駅",
-          "休む"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>同<rt>どう</rt></ruby><ruby>僚<rt>りょう</rt></ruby>",
+          "<ruby>今<rt>いま</rt></ruby>",
+          "<ruby>駅<rt>えき</rt></ruby>",
+          "<ruby>休む<rt>やすむ</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>まん</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "暗い",
-          "行く",
-          "努力",
-          "万"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>暗い<rt>くらい</rt></ruby>",
+          "<ruby>行く<rt>いく</rt></ruby>",
+          "努<ruby>力<rt>ちから</rt></ruby>",
+          "<ruby>万<rt>まん</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>ともだち</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "使う",
-          "傘",
-          "投げる",
-          "友達"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>使う<rt>つかう</rt></ruby>",
+          "<ruby>傘<rt>かさ</rt></ruby>",
+          "<ruby>投げる<rt>なげる</rt></ruby>",
+          "<ruby>友<rt>とも</rt></ruby>達"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>けいたいでんわ</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "会う",
-          "携帯電話",
-          "長い",
-          "困る"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>会う<rt>あう</rt></ruby>",
+          "<ruby>携<rt>たずさ</rt></ruby>帯<ruby>電話<rt>でんわ</rt></ruby>",
+          "<ruby>長い<rt>ながい</rt></ruby>",
+          "<ruby>困る<rt>こまる</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>おそい</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "到着",
-          "遅い",
-          "台",
-          "歩く"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>到<rt>とう</rt></ruby><ruby>着<rt>ちゃく</rt></ruby>",
+          "<ruby>遅い<rt>おそい</rt></ruby>",
+          "<ruby>台<rt>だい</rt></ruby>",
+          "<ruby>歩く<rt>あるく</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>にもつ</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "荷物",
-          "自然",
-          "最高",
-          "繋ぐ"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>荷物<rt>にもつ</rt></ruby>",
+          "<ruby>自<rt>みずか</rt></ruby>然",
+          "<ruby>最高<rt>さいこう</rt></ruby>",
+          "繋ぐ"],
         "answer": 0
       },
       {
         "type": "表記",
         "text": "<u>にゅうがく</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "お詫び",
-          "木曜日",
-          "銀行",
-          "入学"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["お詫び",
+          "<ruby>木曜日<rt>もくようび</rt></ruby>",
+          "<ruby>銀行<rt>ぎんこう</rt></ruby>",
+          "<ruby>入学<rt>にゅうがく</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>まえ</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "帰る",
-          "前",
-          "絶対",
-          "失敗"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>帰る<rt>かえる</rt></ruby>",
+          "<ruby>前<rt>まえ</rt></ruby>",
+          "<ruby>絶対<rt>ぜったい</rt></ruby>",
+          "失敗"],
         "answer": 1
       },
       {
         "type": "文脈規定",
-        "text": "人口が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "起こす",
+        "text": "<ruby>人口<rt>じんこう</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>起こす<rt>おこす</rt></ruby>",
           "こんにちは",
-          "描く",
-          "増える"
-        ],
+          "<ruby>描く<rt>えがく</rt></ruby>",
+          "<ruby>増える<rt>ふえる</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "人口が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "会社員",
+        "text": "<ruby>人口<rt>じんこう</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>会社<rt>かいしゃ</rt></ruby><ruby>員<rt>いん</rt></ruby>",
           "いいえ",
-          "減る",
-          "綺麗"
-        ],
+          "<ruby>減る<rt>へる</rt></ruby>",
+          "綺<ruby>麗<rt>うるわ</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "お金が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "足りる",
-          "客",
-          "天気",
-          "卒業"
-        ],
+        "text": "<ruby>お金<rt>おかね</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>足りる<rt>たりる</rt></ruby>",
+          "<ruby>客<rt>きゃく</rt></ruby>",
+          "<ruby>天気<rt>てんき</rt></ruby>",
+          "卒<ruby>業<rt>ごう</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "お金が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "匂い",
-          "書く",
+        "text": "<ruby>お金<rt>おかね</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>匂い<rt>におい</rt></ruby>",
+          "<ruby>書く<rt>かく</rt></ruby>",
           "ドア",
-          "余る"
-        ],
+          "余る"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "時間が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "掛かる",
+        "text": "<ruby>時間<rt>じかん</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>掛かる<rt>かかる</rt></ruby>",
           "調べる",
-          "山",
-          "あまり"
-        ],
+          "<ruby>山<rt>やま</rt></ruby>",
+          "あまり"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "辞書が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "バス",
+        "text": "<ruby>辞書<rt>じしょ</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["バス",
           "役に立つ",
-          "二つ",
-          "牛乳"
-        ],
+          "<ruby>二つ<rt>ふたつ</rt></ruby>",
+          "<ruby>牛<rt>うし</rt></ruby>乳"],
         "answer": 1
       },
       {
         "type": "文脈規定",
-        "text": "父に（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "庭",
-          "公園",
-          "足りる",
-          "似る"
-        ],
+        "text": "<ruby>父<rt>ちち</rt></ruby>に（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>庭<rt>にわ</rt></ruby>",
+          "<ruby>公園<rt>こうえん</rt></ruby>",
+          "<ruby>足りる<rt>たりる</rt></ruby>",
+          "<ruby>似る<rt>にる</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "意見が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "ご飯",
-          "違う",
-          "確認",
-          "安い"
-        ],
+        "text": "<ruby>意見<rt>いけん</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>ご飯<rt>ごはん</rt></ruby>",
+          "<ruby>違う<rt>ちがう</rt></ruby>",
+          "<ruby>確認<rt>かくにん</rt></ruby>",
+          "<ruby>安い<rt>やすい</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "文脈規定",
         "text": "サイズが（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "合う",
-          "一枚",
-          "貸す",
-          "濡れる"
-        ],
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>合う<rt>あう</rt></ruby>",
+          "<ruby>一<rt>いち</rt></ruby><ruby>枚<rt>まい</rt></ruby>",
+          "<ruby>貸す<rt>かす</rt></ruby>",
+          "<ruby>濡れる<rt>ぬれる</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "日本に（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "発見",
-          "慣れる",
-          "帽子",
-          "洗う"
-        ],
+        "text": "<ruby>日本<rt>にほん</rt></ruby>に（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>発見<rt>はっけん</rt></ruby>",
+          "<ruby>慣れる<rt>なれる</rt></ruby>",
+          "<ruby>帽子<rt>ぼうし</rt></ruby>",
+          "<ruby>洗う<rt>あらう</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "文脈規定",
-        "text": "値段を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "引っ越す",
-          "比べる",
-          "捨てる",
-          "今月"
-        ],
+        "text": "<ruby>値段<rt>ねだん</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>引っ越す<rt>ひっこす</rt></ruby>",
+          "<ruby>比べる<rt>くらべる</rt></ruby>",
+          "<ruby>捨てる<rt>すてる</rt></ruby>",
+          "<ruby>今月<rt>こんげつ</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "文脈規定",
-        "text": "色を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "選ぶ",
-          "悪い",
-          "掃除",
-          "掛かる"
-        ],
+        "text": "<ruby>色<rt>いろ</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["選ぶ",
+          "<ruby>悪い<rt>わるい</rt></ruby>",
+          "<ruby>掃<rt>そう</rt></ruby>除",
+          "<ruby>掛かる<rt>かかる</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "お金を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "時計",
+        "text": "<ruby>お金<rt>おかね</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>時計<rt>とけい</rt></ruby>",
           "くれる",
-          "毎朝",
-          "数える"
-        ],
+          "<ruby>毎朝<rt>まいあさ</rt></ruby>",
+          "<ruby>数える<rt>かぞえる</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "辞書で（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "調べる",
+        "text": "<ruby>辞書<rt>じしょ</rt></ruby>で（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["調べる",
           "サイズ",
-          "力",
-          "落ちる"
-        ],
+          "<ruby>力<rt>ちから</rt></ruby>",
+          "落ちる"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "新しい料理を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "試す",
-          "習慣",
-          "凍る",
-          "光る"
-        ],
+        "text": "<ruby>新しい<rt>あたらしい</rt></ruby>料<ruby>理<rt>り</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>試す<rt>ためす</rt></ruby>",
+          "<ruby>習慣<rt>しゅうかん</rt></ruby>",
+          "<ruby>凍る<rt>こおる</rt></ruby>",
+          "<ruby>光る<rt>ひかる</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "言い換え",
         "text": "<ruby>子供<rt>こども</rt></ruby>が二人いますの意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "休む",
-          "足",
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>休む<rt>やすむ</rt></ruby>",
+          "<ruby>足<rt>あし</rt></ruby>",
           "これ",
-          "子ども"
-        ],
+          "<ruby>子<rt>こ</rt></ruby>ども"],
         "answer": 3
       },
       {
         "type": "言い換え",
         "text": "<ruby>友達<rt>ともだち</rt></ruby>と遊ぶの意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "友人",
-          "今",
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>友人<rt>ゆうじん</rt></ruby>",
+          "<ruby>今<rt>いま</rt></ruby>",
           "おやすみ",
-          "暗い"
-        ],
+          "<ruby>暗い<rt>くらい</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "言い換え",
         "text": "<ruby>先生<rt>せんせい</rt></ruby>に聞くの意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "使う",
-          "万",
-          "木曜日",
-          "教師"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>使う<rt>つかう</rt></ruby>",
+          "<ruby>万<rt>まん</rt></ruby>",
+          "<ruby>木曜日<rt>もくようび</rt></ruby>",
+          "<ruby>教師<rt>きょうし</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "言い換え",
         "text": "私は<ruby>学生<rt>がくせい</rt></ruby>ですの意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "さようなら",
-          "友達",
-          "帰る",
-          "生徒"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["さようなら",
+          "<ruby>友<rt>とも</rt></ruby>達",
+          "<ruby>帰る<rt>かえる</rt></ruby>",
+          "<ruby>生<rt>せい</rt></ruby><ruby>徒<rt>と</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "言い換え",
         "text": "<ruby>家<rt>いえ</rt></ruby>に帰るの意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "携帯電話",
-          "住宅",
-          "準備",
-          "困る"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>携<rt>たずさ</rt></ruby>帯<ruby>電話<rt>でんわ</rt></ruby>",
+          "<ruby>住<rt>すわる</rt></ruby>宅",
+          "<ruby>準備<rt>じゅんび</rt></ruby>",
+          "<ruby>困る<rt>こまる</rt></ruby>"],
         "answer": 1
       }
     ],
@@ -11639,12 +9819,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "おいしい（　）、たかいです。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "けど",
+        "options": ["けど",
           "ので",
           "から",
-          "て"
-        ],
+          "て"],
         "answer": 0,
         "id": "N5-11-026"
       },
@@ -11652,12 +9830,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "しごとが　おわっ（　）、いきましょう。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "と",
+        "options": ["と",
           "から",
           "ら",
-          "たら"
-        ],
+          "たら"],
         "answer": 3,
         "id": "N5-11-027"
       },
@@ -11665,12 +9841,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "もっと　べんきょう（　）ほうがいいです。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "します",
+        "options": ["します",
           "する",
           "した",
-          "して"
-        ],
+          "して"],
         "answer": 2,
         "id": "N5-11-028"
       },
@@ -11678,12 +9852,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "でんき（　）けしてください。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "とても",
+        "options": ["とても",
           "を",
           "すこし",
-          "から"
-        ],
+          "から"],
         "answer": 1,
         "id": "N5-11-029"
       },
@@ -11691,12 +9863,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "せんせい（　）きいてください。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "の",
+        "options": ["の",
           "たくさん",
           "すこし",
-          "に"
-        ],
+          "に"],
         "answer": 3,
         "id": "N5-11-031"
       },
@@ -11704,12 +9874,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "まど（　）あけてください。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "へ",
+        "options": ["へ",
           "を",
           "とても",
-          "あまり"
-        ],
+          "あまり"],
         "answer": 1,
         "id": "N5-11-030"
       },
@@ -11717,12 +9885,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "こども（　）おもちゃを　あげました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "とても",
+        "options": ["とても",
           "が",
           "ながら",
-          "に"
-        ],
+          "に"],
         "answer": 3,
         "id": "N5-11-033"
       },
@@ -11730,12 +9896,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "ははに　てがみ（　）かきました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "ながら",
+        "options": ["ながら",
           "を",
           "すこし",
-          "へ"
-        ],
+          "へ"],
         "answer": 1,
         "id": "N5-11-032"
       },
@@ -11743,25 +9907,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "せんせい（　）ほんを　もらいました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "あまり",
+        "options": ["あまり",
           "に",
           "とても",
-          "と"
-        ],
+          "と"],
         "answer": 1,
         "id": "N5-11-034"
       },
       {
         "type": "文の組み立て",
-        "text": "【日常会話・問51（N5レベル）】次の語句を正しい順序に並べてください：いる / 学生が / 勉強して / 多いです / 日本語を",
-        "question": "正しい順序は？",
-        "options": [
-          "多いです 学生が いる 勉強して 日本語を",
-          "勉強して いる 学生が 多いです 日本語を",
-          "日本語を勉強している学生が多いです",
-          "多いです 日本語を 勉強して いる 学生が"
-        ],
+        "text": "【<ruby>日常<rt>にちじょう</rt></ruby><ruby>会話<rt>かいわ</rt></ruby>・<ruby>問<rt>とん</rt></ruby>51（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：いる / <ruby>学生<rt>がくせい</rt></ruby>が / <ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>して / <ruby>多い<rt>おおい</rt></ruby>です / <ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>多い<rt>おおい</rt></ruby>です <ruby>学生<rt>がくせい</rt></ruby>が いる <ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>して <ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を",
+          "<ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>して いる <ruby>学生<rt>がくせい</rt></ruby>が <ruby>多い<rt>おおい</rt></ruby>です <ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を",
+          "<ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を<ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>している<ruby>学生<rt>がくせい</rt></ruby>が<ruby>多い<rt>おおい</rt></ruby>です",
+          "<ruby>多い<rt>おおい</rt></ruby>です <ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を <ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>して いる <ruby>学生<rt>がくせい</rt></ruby>が"],
         "answer": 2,
         "id": "N5-11-036"
       },
@@ -11769,129 +9929,109 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "この　へや（　）はいらないでください。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "で",
+        "options": ["で",
           "たくさん",
           "に",
-          "すこし"
-        ],
+          "すこし"],
         "answer": 2,
         "id": "N5-11-035"
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問52（N4レベル）】次の語句を正しい順序に並べてください：この問題は / 私には / 解けません / 難しすぎて",
-        "question": "正しい順序は？",
-        "options": [
-          "この問題は難しすぎて私には解けません",
-          "難しすぎて 私には 解けません この問題は",
-          "解けません この問題は 難しすぎて 私には",
-          "解けません 私には 難しすぎて この問題は"
-        ],
+        "text": "【ビジネス・<ruby>問<rt>とん</rt></ruby>52（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：この<ruby>問題<rt>もんだい</rt></ruby>は / <ruby>私<rt>わたし</rt></ruby>には / <ruby>解<rt>かい</rt></ruby>けません / <ruby>難<rt>なん</rt></ruby>しすぎて",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["この<ruby>問題<rt>もんだい</rt></ruby>は<ruby>難<rt>なん</rt></ruby>しすぎて<ruby>私<rt>わたし</rt></ruby>には<ruby>解<rt>かい</rt></ruby>けません",
+          "<ruby>難<rt>なん</rt></ruby>しすぎて <ruby>私<rt>わたし</rt></ruby>には <ruby>解<rt>かい</rt></ruby>けません この<ruby>問題<rt>もんだい</rt></ruby>は",
+          "<ruby>解<rt>かい</rt></ruby>けません この<ruby>問題<rt>もんだい</rt></ruby>は <ruby>難<rt>なん</rt></ruby>しすぎて <ruby>私<rt>わたし</rt></ruby>には",
+          "<ruby>解<rt>かい</rt></ruby>けません <ruby>私<rt>わたし</rt></ruby>には <ruby>難<rt>なん</rt></ruby>しすぎて この<ruby>問題<rt>もんだい</rt></ruby>は"],
         "answer": 3,
         "id": "N5-11-037"
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問53（N3レベル）】次の語句を正しい順序に並べてください：アメリカに / いました / 彼は / 3年間 / 住んで",
-        "question": "正しい順序は？",
-        "options": [
-          "いました 彼は アメリカに 3年間 住んで",
-          "彼はアメリカに3年間住んでいました",
-          "いました 住んで 3年間 アメリカに 彼は",
-          "アメリカに 3年間 住んで いました 彼は"
-        ],
+        "text": "【<ruby>学校<rt>がっこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>53（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：アメリカに / いました / <ruby>彼<rt>かれ</rt></ruby>は / 3<ruby>年間<rt>ねんかん</rt></ruby> / <ruby>住<rt>すわる</rt></ruby>んで",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["いました <ruby>彼<rt>かれ</rt></ruby>は アメリカに 3<ruby>年間<rt>ねんかん</rt></ruby> <ruby>住<rt>すわる</rt></ruby>んで",
+          "<ruby>彼<rt>かれ</rt></ruby>はアメリカに3<ruby>年間<rt>ねんかん</rt></ruby><ruby>住<rt>すわる</rt></ruby>んでいました",
+          "いました <ruby>住<rt>すわる</rt></ruby>んで 3<ruby>年間<rt>ねんかん</rt></ruby> アメリカに <ruby>彼<rt>かれ</rt></ruby>は",
+          "アメリカに 3<ruby>年間<rt>ねんかん</rt></ruby> <ruby>住<rt>すわる</rt></ruby>んで いました <ruby>彼<rt>かれ</rt></ruby>は"],
         "answer": 1,
         "id": "N5-11-038"
       },
       {
         "type": "文の組み立て",
-        "text": "【旅行・問54（N2レベル）】次の語句を正しい順序に並べてください：電車が / しまいました / ため / 遅刻して / 遅れた",
-        "question": "正しい順序は？",
-        "options": [
-          "遅れた ため 遅刻して しまいました 電車が",
-          "しまいました 電車が 遅れた ため 遅刻して",
-          "しまいました 遅刻して ため 遅れた 電車が",
-          "電車が遅れたため遅刻してしまいました"
-        ],
+        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>54（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>電車<rt>でんしゃ</rt></ruby>が / しまいました / ため / <ruby>遅刻<rt>ちこく</rt></ruby>して / <ruby>遅れ<rt>おくれ</rt></ruby>た",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>遅れ<rt>おくれ</rt></ruby>た ため <ruby>遅刻<rt>ちこく</rt></ruby>して しまいました <ruby>電車<rt>でんしゃ</rt></ruby>が",
+          "しまいました <ruby>電車<rt>でんしゃ</rt></ruby>が <ruby>遅れ<rt>おくれ</rt></ruby>た ため <ruby>遅刻<rt>ちこく</rt></ruby>して",
+          "しまいました <ruby>遅刻<rt>ちこく</rt></ruby>して ため <ruby>遅れ<rt>おくれ</rt></ruby>た <ruby>電車<rt>でんしゃ</rt></ruby>が",
+          "<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>遅れ<rt>おくれ</rt></ruby>たため<ruby>遅刻<rt>ちこく</rt></ruby>してしまいました"],
         "answer": 2,
         "id": "N5-11-039"
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問55（N1レベル）】次の語句を正しい順序に並べてください：面白いと / 思います / とても / この映画は",
-        "question": "正しい順序は？",
-        "options": [
-          "思います 面白いと とても この映画は",
-          "この映画はとても面白いと思います",
-          "とても 面白いと 思います この映画は",
-          "思います この映画は とても 面白いと"
-        ],
+        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>とん</rt></ruby>55（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：面白いと / <ruby>思い<rt>おもい</rt></ruby>ます / とても / この<ruby>映画<rt>えいが</rt></ruby>は",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>思い<rt>おもい</rt></ruby>ます 面白いと とても この<ruby>映画<rt>えいが</rt></ruby>は",
+          "この<ruby>映画<rt>えいが</rt></ruby>はとても面白いと<ruby>思い<rt>おもい</rt></ruby>ます",
+          "とても 面白いと <ruby>思い<rt>おもい</rt></ruby>ます この<ruby>映画<rt>えいが</rt></ruby>は",
+          "<ruby>思い<rt>おもい</rt></ruby>ます この<ruby>映画<rt>えいが</rt></ruby>は とても 面白いと"],
         "answer": 1,
         "id": "N5-11-040"
       },
       {
         "type": "文章の文法",
-        "text": "日本経済は長期にわたる停滞（　）、回復の兆しを見せている。（51）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "を経て",
+        "text": "<ruby>日本<rt>にほん</rt></ruby><ruby>経済<rt>けいざい</rt></ruby>は<ruby>長期<rt>ちょうき</rt></ruby>にわたる<ruby>停滞<rt>ていたい</rt></ruby>（　）、<ruby>回<rt>まわ</rt></ruby>復の<ruby>兆<rt>ちょう</rt></ruby>しを<ruby>見<rt>み</rt></ruby>せている。（51）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["を<ruby>経て<rt>へて</rt></ruby>",
           "をもって",
           "に至り",
-          "に反して"
-        ],
+          "に反して"],
         "answer": 0,
         "id": "N5-11-041"
       },
       {
         "type": "文章の文法",
-        "text": "彼の提案は斬新（　）、実現可能性に欠ける。（52）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "なので",
+        "text": "<ruby>彼<rt>かれ</rt></ruby>の提<ruby>案<rt>あん</rt></ruby>は<ruby>斬新<rt>ざんしん</rt></ruby>（　）、実<ruby>現<rt>あらわ</rt></ruby><ruby>可能性<rt>かのうせい</rt></ruby>に<ruby>欠ける<rt>かける</rt></ruby>。（52）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["なので",
           "だとしても",
           "であるから",
-          "ではあるが"
-        ],
+          "ではあるが"],
         "answer": 3,
         "id": "N5-11-042"
       },
       {
         "type": "文章の文法",
-        "text": "環境問題の解決（　）、国際協力が不可欠だ。（53）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "に際して",
+        "text": "<ruby>環境問題<rt>かんきょうもんだい</rt></ruby>の<ruby>解決<rt>かいけつ</rt></ruby>（　）、<ruby>国際協力<rt>こくさいきょうりょく</rt></ruby>が<ruby>不可欠<rt>ふかけつ</rt></ruby>だ。（53）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["に<ruby>際<rt>さい</rt></ruby>して",
           "にとって",
           "には",
-          "において"
-        ],
+          "において"],
         "answer": 2,
         "id": "N5-11-043"
       },
       {
         "type": "文章の文法",
-        "text": "この研究は長年の努力（　）結実したものだ。（54）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "の",
+        "text": "この<ruby>研究<rt>けんきゅう</rt></ruby>は<ruby>長<rt>ちょう</rt></ruby><ruby>年<rt>とし</rt></ruby>の努<ruby>力<rt>ちから</rt></ruby>（　）<ruby>結<rt>むす</rt></ruby>実したものだ。（54）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["の",
           "が",
           "に",
-          "を"
-        ],
+          "を"],
         "answer": 1,
         "id": "N5-11-044"
       },
       {
         "type": "文章の文法",
-        "text": "社会の変化（　）、教育も見直しが必要だ。（55）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "に関して",
-          "に対して",
+        "text": "<ruby>社会<rt>しゃかい</rt></ruby>の<ruby>変化<rt>へんか</rt></ruby>（　）、<ruby>教育<rt>きょういく</rt></ruby>も<ruby>見直し<rt>みなおし</rt></ruby>が必要だ。（55）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["に<ruby>関して<rt>かんして</rt></ruby>",
+          "に<ruby>対して<rt>たいして</rt></ruby>",
           "によると",
-          "に伴い"
-        ],
+          "に伴い"],
         "answer": 3,
         "id": "N5-11-045"
       },
@@ -11899,12 +10039,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "あさごはんに　パンを　たべました。ひるごはんに　ラーメンを　たべました。",
         "question": "ひるごはんに　なにを　たべましたか。",
-        "options": [
-          "ごはん",
+        "options": ["ごはん",
           "ラーメン",
           "サンドイッチ",
-          "パン"
-        ],
+          "パン"],
         "answer": 0,
         "id": "N5-11-046"
       },
@@ -11912,12 +10050,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "わたしは　にくが　すきです。やさいは　あまり　たべません。",
         "question": "わたしは　なにが　すきですか。",
-        "options": [
-          "やさい",
+        "options": ["やさい",
           "にく",
           "さかな",
-          "くだもの"
-        ],
+          "くだもの"],
         "answer": 2,
         "id": "N5-11-047"
       },
@@ -11925,12 +10061,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "きょうの　ばんごはんは　カレーです。あしたは　すしを　たべます。",
         "question": "あしたは　なにを　たべますか。",
-        "options": [
-          "すし",
+        "options": ["すし",
           "カレー",
           "うどん",
-          "ラーメン"
-        ],
+          "ラーメン"],
         "answer": 0,
         "id": "N5-11-048"
       },
@@ -11938,12 +10072,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "にほんの　なつは　あついです。7がつと　8がつが　いちばん　あついです。エアコンが　ひつようです。",
         "question": "いつが　いちばん　あついですか。",
-        "options": [
-          "9がつ",
+        "options": ["9がつ",
           "6がつ",
           "5がつ",
-          "7がつと　8がつ"
-        ],
+          "7がつと　8がつ"],
         "answer": 1,
         "id": "N5-11-049"
       },
@@ -11951,12 +10083,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "はるは　さくらが　きれいです。4がつに　おはなみを　します。こうえんで　おべんとうを　たべます。",
         "question": "はるに　なにを　しますか。",
-        "options": [
-          "もみじがり",
+        "options": ["もみじがり",
           "おはなみ",
           "スキー",
-          "およぐ"
-        ],
+          "およぐ"],
         "answer": 3,
         "id": "N5-11-050"
       },
@@ -11964,218 +10094,186 @@ window.MOCK_DATA['N5'] = {
         "type": "情報検索",
         "text": "【カフェ】コーヒー350えん、ケーキ400えん。セット650えん。テイクアウトOK。",
         "question": "コーヒーと　ケーキの　セットは　いくらですか。",
-        "options": [
-          "400えん",
+        "options": ["400えん",
           "650えん",
           "750えん",
-          "350えん"
-        ],
+          "350えん"],
         "answer": 1,
         "id": "N5-11-051"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人と女の人がスーパーで話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🍎🍎",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>と<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がスーパーで<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🍎🍎",
           "🍊🍊🍊",
           "🍎🍎🍎",
-          "🍊🍊"
-        ],
+          "🍊🍊"],
         "answer": 2,
         "id": "N5-11-052",
         "script": "M: りんご 3つを　おねがいします。\nF: はい、わかりました。【セット11問27】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人がお店で買い物をしています。女の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🍌🍌🍌🍌",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がお<ruby>店<rt>みせ</rt></ruby>で<ruby>買い物<rt>かいもの</rt></ruby>をしています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🍌🍌🍌🍌",
           "🍌🍌",
           "🍇🍇",
-          "🍇🍇🍇"
-        ],
+          "🍇🍇🍇"],
         "answer": 0,
         "id": "N5-11-053",
         "script": "F: これですか。\nM: いいえ、バナナ 4つを　ください。【セット11問28】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人と女の人が八百屋で話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🥕🥕🥕",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>と<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>八百屋<rt>やおや</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🥕🥕🥕",
           "🍅🍅🍅",
           "🥕🥕",
-          "🍅🍅"
-        ],
+          "🍅🍅"],
         "answer": 3,
         "id": "N5-11-054",
         "script": "M: すみません、トマト 2つは　ありますか。\nF: はい、どうぞ。【セット11問29】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人がコンビニで買い物をしています。女の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🍙🍙",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がコンビニで<ruby>買い物<rt>かいもの</rt></ruby>をしています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🍙🍙",
           "🥪",
           "🥪🥪",
-          "🍙🍙🍙"
-        ],
+          "🍙🍙🍙"],
         "answer": 0,
         "id": "N5-11-055",
         "script": "M: おにぎり 2つを　ください。\nF: はい、おにぎり 2つですね。【セット11問30】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人がパン屋で話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🍞🍞",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>パン屋<rt>ぱんや</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🍞🍞",
           "🥐🥐🥐",
           "🍞",
-          "🥐🥐"
-        ],
+          "🥐🥐"],
         "answer": 1,
         "id": "N5-11-056",
         "script": "F: なにを　かいますか。\nM: 🥐 3つを　かいます。【セット11問31】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人がカフェで注文しています。女の人は何を頼みますか。",
-        "question": "何を頼みますか。",
-        "options": [
-          "☕☕",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がカフェで<ruby>注文<rt>ちゅうもん</rt></ruby>しています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>頼み<rt>たのみ</rt></ruby>ますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>頼み<rt>たのみ</rt></ruby>ますか。",
+        "options": ["☕☕",
           "🍵",
           "☕",
-          "🍵🍵"
-        ],
+          "🍵🍵"],
         "answer": 0,
         "id": "N5-11-057",
         "script": "M: コーヒー 2つを　おねがいします。\nF: はい、わかりました。【セット11問32】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "報告を聞いています。話者が最も強調しているのは何ですか。（61）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>報告<rt>ほうこく</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（61）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-11-058",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット11問33】"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "友達に「また明日」と言いたい（54）",
-        "question": "適切な表現は？",
-        "options": [
-          "📆",
+        "text": "<ruby>友<rt>とも</rt></ruby>達に「また<ruby>明日<rt>あした</rt></ruby>」と<ruby>言<rt>い</rt></ruby>いたい（54）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📆",
           "📌",
           "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-11-067",
         "script": "📆です。【セット11問34】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "講義を聞いています。話者が最も強調しているのは何ですか。（63）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>講義<rt>こうぎ</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（63）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-11-060",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット11問35】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "郵便局はどこですか。（81）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
-          "この先です",
-          "はい、食べました",
-          "わかりません"
-        ],
+        "text": "郵<ruby>便<rt>べん</rt></ruby><ruby>局<rt>きょく</rt></ruby>はどこですか。（81）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "この<ruby>先<rt>さき</rt></ruby>です",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "わかりません"],
         "answer": 1,
         "id": "N5-11-069"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "討論を聞いています。話者が最も強調しているのは何ですか。（65）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "討<ruby>論<rt>ろん</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（65）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-11-062",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット11問37】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "お時間よろしいですか。（82）",
-        "question": "返答は？",
-        "options": [
-          "大丈夫です",
+        "text": "お<ruby>時間<rt>じかん</rt></ruby>よろしいですか。（82）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["<ruby>大<rt>だい</rt></ruby><ruby>丈<rt>たけ</rt></ruby>夫です",
           "わかりません",
-          "いいえ、違います",
-          "はい、食べました"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 0,
         "id": "N5-11-070"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "友達に「おはよう」と言いたい（51）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>友<rt>とも</rt></ruby>達に「おはよう」と<ruby>言<rt>い</rt></ruby>いたい（51）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-11-064",
         "script": "ピンです。【セット11問39】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "傘はお持ちですか。（83）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "いいえ、違います",
-          "忘れました",
-          "はい、食べました"
-        ],
+        "text": "<ruby>傘<rt>かさ</rt></ruby>はお<ruby>持<rt>もつ</rt></ruby>ちですか。（83）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "<ruby>忘<rt>ぼう</rt></ruby>れました",
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 2,
         "id": "N5-11-071"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "先生に「すみません」と言いたい（53）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>先生<rt>せんせい</rt></ruby>に「すみません」と<ruby>言<rt>い</rt></ruby>いたい（53）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-11-066",
         "script": "ピンです。【セット11問41】"
@@ -12183,134 +10281,114 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "静かでいいですね。（84）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
           "わかりません",
-          "いいえ、違います",
-          "そうですね"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "そうですね"],
         "answer": 3,
         "id": "N5-11-072"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "家族に「いただきます」と言いたい（55）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>家<rt>いえ</rt></ruby><ruby>族<rt>ぞく</rt></ruby>に「いただきます」と<ruby>言<rt>い</rt></ruby>いたい（55）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-11-068",
         "script": "ピンです。【セット11問43】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "お荷物お持ちしましょうか。（85）",
-        "question": "返答は？",
-        "options": [
-          "ありがとうございます",
-          "いいえ、違います",
-          "はい、食べました",
-          "わかりません"
-        ],
+        "text": "お<ruby>荷物<rt>にもつ</rt></ruby>お<ruby>持<rt>もつ</rt></ruby>ちしましょうか。（85）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["ありがとうございます",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "わかりません"],
         "answer": 0,
         "id": "N5-11-073"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "セミナーを聞いています。話者が最も強調しているのは何ですか。（66）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "セミナーを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（66）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-11-063",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット11問45】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "今日は暑いですね。（86）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
-          "はい、食べました",
-          "本当ですね",
-          "わかりません"
-        ],
+        "text": "<ruby>今日<rt>きょう</rt></ruby>は暑いですね。（86）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "<ruby>本<rt>ほん</rt></ruby>当ですね",
+          "わかりません"],
         "answer": 2,
         "id": "N5-11-074"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "対談を聞いています。話者が最も強調しているのは何ですか。（62）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>対<rt>たい</rt></ruby>談を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（62）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-11-059",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット11問47】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "何時までですか。（87）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
+        "text": "<ruby>何時<rt>いつ</rt></ruby>までですか。（87）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
           "わかりません",
-          "いいえ、違います",
-          "6時までです"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "6<ruby>時<rt>とき</rt></ruby>までです"],
         "answer": 3,
         "id": "N5-11-075"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "店員に「これください」と言いたい（52）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>店員<rt>てんいん</rt></ruby>に「これください」と<ruby>言<rt>い</rt></ruby>いたい（52）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-11-065",
         "script": "ピンです。【セット11問49】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "週末の予定は。（88）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
-          "特にないです",
+        "text": "<ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby>の<ruby>予定<rt>よてい</rt></ruby>は。（88）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "<ruby>特に<rt>とくに</rt></ruby>ないです",
           "わかりません",
-          "はい、食べました"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 1,
         "id": "N5-11-076"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "解説を聞いています。話者が最も強調しているのは何ですか。（64）",
-        "question": "最も強調しているのは？",
-        "options": [
-          "📕",
+        "text": "<ruby>解説<rt>かいせつ</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（64）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📕",
           "📌",
           "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-11-061",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット11問51】"
@@ -12318,481 +10396,401 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "漢字読み",
         "text": "<u>生</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "えき",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["えき",
           "き.く",
           "まえ",
-          "せい、う"
-        ],
+          "せい、う"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>玉</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "たま",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["たま",
           "か.く",
           "あと",
-          "はな"
-        ],
+          "はな"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>色</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "さかな",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["さかな",
           "よ.む",
           "あいだ",
-          "いろ"
-        ],
+          "いろ"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>東</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "な",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["な",
           "はなし",
           "ひがし、とう",
-          "いち、ひと"
-        ],
+          "いち、ひと"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>左</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "か.う",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["か.う",
           "ひだり、さ",
           "でん",
-          "に、ふた"
-        ],
+          "に、ふた"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>自</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "さん、み",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["さん、み",
           "やす.む",
           "くるま",
-          "みずか"
-        ],
+          "みずか"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>戸</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "し、よ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["し、よ",
           "ご",
           "みち",
-          "と"
-        ],
+          "と"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>金</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "えき",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["えき",
           "まえ",
           "かね",
-          "ご、いつ"
-        ],
+          "ご、いつ"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>形</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "はな",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["はな",
           "あと",
           "かたち",
-          "ろく、む"
-        ],
+          "ろく、む"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>道</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "しち、なな",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["しち、なな",
           "あいだ",
           "さかな",
-          "みち"
-        ],
+          "みち"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>麦</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "はち、や",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["はち、や",
           "な",
           "いち、ひと",
-          "むぎ"
-        ],
+          "むぎ"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>科</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "でん",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["でん",
           "か",
           "に、ふた",
-          "きゅう、く"
-        ],
+          "きゅう、く"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>かぞく</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "準備",
-          "家族",
-          "渡る",
-          "初めて"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>準備<rt>じゅんび</rt></ruby>",
+          "<ruby>家<rt>いえ</rt></ruby><ruby>族<rt>ぞく</rt></ruby>",
+          "<ruby>渡る<rt>わたる</rt></ruby>",
+          "<ruby>初めて<rt>はじめて</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>ど</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "洗濯機",
-          "度",
-          "薬",
-          "全部"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>洗濯<rt>せんたく</rt></ruby><ruby>機<rt>き</rt></ruby>",
+          "<ruby>度<rt>ど</rt></ruby>",
+          "<ruby>薬<rt>くすり</rt></ruby>",
+          "<ruby>全部<rt>ぜんぶ</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>あいさつ</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "全然",
-          "美味しい",
-          "挨拶",
-          "靴"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>全<rt>ぜん</rt></ruby>然",
+          "美<ruby>味<rt>あじ</rt></ruby>しい",
+          "<ruby>挨<rt>あい</rt></ruby><ruby>拶<rt>さつ</rt></ruby>",
+          "<ruby>靴<rt>くつ</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>どうりょう</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "断る",
-          "駅",
-          "休む",
-          "同僚"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>断る<rt>ことわる</rt></ruby>",
+          "<ruby>駅<rt>えき</rt></ruby>",
+          "<ruby>休む<rt>やすむ</rt></ruby>",
+          "<ruby>同<rt>どう</rt></ruby><ruby>僚<rt>りょう</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>いく</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "料理する",
-          "努力",
-          "暗い",
-          "行く"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["料<ruby>理<rt>り</rt></ruby>する",
+          "努<ruby>力<rt>ちから</rt></ruby>",
+          "<ruby>暗い<rt>くらい</rt></ruby>",
+          "<ruby>行く<rt>いく</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>かさ</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "使う",
-          "投げる",
-          "傘",
-          "放送"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>使う<rt>つかう</rt></ruby>",
+          "<ruby>投げる<rt>なげる</rt></ruby>",
+          "<ruby>傘<rt>かさ</rt></ruby>",
+          "放<ruby>送<rt>お</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>あう</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "会う",
-          "長い",
-          "困る",
-          "郵便局"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>会う<rt>あう</rt></ruby>",
+          "<ruby>長い<rt>ながい</rt></ruby>",
+          "<ruby>困る<rt>こまる</rt></ruby>",
+          "郵<ruby>便<rt>べん</rt></ruby><ruby>局<rt>きょく</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "表記",
         "text": "<u>とうちゃく</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "到着",
-          "台",
-          "歩く",
-          "数える"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>到<rt>とう</rt></ruby><ruby>着<rt>ちゃく</rt></ruby>",
+          "<ruby>台<rt>だい</rt></ruby>",
+          "<ruby>歩く<rt>あるく</rt></ruby>",
+          "<ruby>数える<rt>かぞえる</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "毎日（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "努力する",
+        "text": "<ruby>毎日<rt>まいにち</rt></ruby>（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["努<ruby>力<rt>ちから</rt></ruby>する",
           "立つ",
-          "成功",
-          "先輩"
-        ],
+          "<ruby>成功<rt>せいこう</rt></ruby>",
+          "<ruby>先輩<rt>せんぱい</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "試験に（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "成功する",
+        "text": "<ruby>試験<rt>しけん</rt></ruby>に（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>成功<rt>せいこう</rt></ruby>する",
           "あそこ",
-          "本当に",
-          "甘い"
-        ],
+          "<ruby>本<rt>ほん</rt></ruby>当に",
+          "<ruby>甘い<rt>あまい</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "試験に（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "散らかす",
-          "描く",
-          "起こす",
-          "失敗する"
-        ],
+        "text": "<ruby>試験<rt>しけん</rt></ruby>に（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>散らかす<rt>ちらかす</rt></ruby>",
+          "<ruby>描く<rt>えがく</rt></ruby>",
+          "<ruby>起こす<rt>おこす</rt></ruby>",
+          "失敗する"],
         "answer": 3
       },
       {
         "type": "文脈規定",
         "text": "パーティーに（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "お弁当",
-          "会社員",
-          "綺麗",
-          "参加する"
-        ],
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["お弁当",
+          "<ruby>会社<rt>かいしゃ</rt></ruby><ruby>員<rt>いん</rt></ruby>",
+          "綺<ruby>麗<rt>うるわ</rt></ruby>",
+          "参<ruby>加<rt>くわ</rt></ruby>する"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "友達を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "卒業",
-          "天気",
-          "招待する",
-          "成功する"
-        ],
+        "text": "<ruby>友<rt>とも</rt></ruby>達を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["卒<ruby>業<rt>ごう</rt></ruby>",
+          "<ruby>天気<rt>てんき</rt></ruby>",
+          "<ruby>招<rt>しょう</rt></ruby><ruby>待<rt>まつ</rt></ruby>する",
+          "<ruby>成功<rt>せいこう</rt></ruby>する"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "友達を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "興味",
+        "text": "<ruby>友<rt>とも</rt></ruby>達を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>興味<rt>きょうみ</rt></ruby>",
           "ドア",
-          "匂い",
-          "紹介する"
-        ],
+          "<ruby>匂い<rt>におい</rt></ruby>",
+          "<ruby>紹介<rt>しょうかい</rt></ruby>する"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "町を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "山",
-          "案内する",
+        "text": "<ruby>町<rt>まち</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>山<rt>やま</rt></ruby>",
+          "<ruby>案内<rt>あんない</rt></ruby>する",
           "あまり",
-          "昼"
-        ],
+          "昼"],
         "answer": 1
       },
       {
         "type": "文脈規定",
-        "text": "使い方を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "紙",
-          "二つ",
-          "牛乳",
-          "説明する"
-        ],
+        "text": "<ruby>使い方<rt>つかいかた</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>紙<rt>かみ</rt></ruby>",
+          "<ruby>二つ<rt>ふたつ</rt></ruby>",
+          "<ruby>牛<rt>うし</rt></ruby>乳",
+          "<ruby>説明する<rt>せつめいする</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "先生に（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "庭",
-          "足りる",
-          "質問する",
-          "意見"
-        ],
+        "text": "<ruby>先生<rt>せんせい</rt></ruby>に（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>庭<rt>にわ</rt></ruby>",
+          "<ruby>足りる<rt>たりる</rt></ruby>",
+          "<ruby>質問する<rt>しつもんする</rt></ruby>",
+          "<ruby>意見<rt>いけん</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "質問に（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "答える",
-          "確認",
-          "安い",
-          "おばあさん"
-        ],
+        "text": "<ruby>質問<rt>しつもん</rt></ruby>に（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>答える<rt>こたえる</rt></ruby>",
+          "<ruby>確認<rt>かくにん</rt></ruby>",
+          "<ruby>安い<rt>やすい</rt></ruby>",
+          "おばあさん"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "友達に（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "頼む",
-          "貸す",
-          "濡れる",
-          "テーブル"
-        ],
+        "text": "<ruby>友<rt>とも</rt></ruby>達に（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>頼む<rt>たのむ</rt></ruby>",
+          "<ruby>貸す<rt>かす</rt></ruby>",
+          "<ruby>濡れる<rt>ぬれる</rt></ruby>",
+          "テーブル"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "招待を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "洗う",
-          "帽子",
-          "断る",
-          "だから"
-        ],
+        "text": "<ruby>招<rt>しょう</rt></ruby><ruby>待<rt>まつ</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>洗う<rt>あらう</rt></ruby>",
+          "<ruby>帽子<rt>ぼうし</rt></ruby>",
+          "<ruby>断る<rt>ことわる</rt></ruby>",
+          "だから"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "友達を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "捨てる",
-          "許す",
-          "今月",
-          "勉強する"
-        ],
+        "text": "<ruby>友<rt>とも</rt></ruby>達を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>捨てる<rt>すてる</rt></ruby>",
+          "<ruby>許す<rt>ゆるす</rt></ruby>",
+          "<ruby>今月<rt>こんげつ</rt></ruby>",
+          "<ruby>勉強する<rt>べんきょうする</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "文脈規定",
-        "text": "間違いを（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "掛かる",
-          "掃除",
-          "謝る",
-          "国"
-        ],
+        "text": "<ruby>間違い<rt>まちがい</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>掛かる<rt>かかる</rt></ruby>",
+          "<ruby>掃<rt>そう</rt></ruby>除",
+          "<ruby>謝る<rt>あやまる</rt></ruby>",
+          "<ruby>国<rt>くに</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "子供を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "卵",
-          "毎朝",
-          "時計",
-          "褒める"
-        ],
+        "text": "<ruby>子供<rt>こども</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["卵",
+          "<ruby>毎朝<rt>まいあさ</rt></ruby>",
+          "<ruby>時計<rt>とけい</rt></ruby>",
+          "<ruby>褒める<rt>ほめる</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "言い換え",
         "text": "<ruby>部屋<rt>へや</rt></ruby>を掃除するの意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "歩く",
-          "遅い",
-          "洗濯機",
-          "室"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>歩く<rt>あるく</rt></ruby>",
+          "<ruby>遅い<rt>おそい</rt></ruby>",
+          "<ruby>洗濯<rt>せんたく</rt></ruby><ruby>機<rt>き</rt></ruby>",
+          "<ruby>室<rt>しつ</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "言い換え",
         "text": "<ruby>学校<rt>がっこう</rt></ruby>に行くの意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "荷物",
-          "教育機関",
-          "美味しい",
-          "繋ぐ"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>荷物<rt>にもつ</rt></ruby>",
+          "<ruby>教育<rt>きょういく</rt></ruby><ruby>機関<rt>きかん</rt></ruby>",
+          "美<ruby>味<rt>あじ</rt></ruby>しい",
+          "繋ぐ"],
         "answer": 1
       },
       {
         "type": "言い換え",
         "text": "<ruby>病院<rt>びょういん</rt></ruby>に行くの意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "医療機関",
-          "入学",
-          "駅",
-          "お詫び"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>医療機関<rt>いりょうきかん</rt></ruby>",
+          "<ruby>入学<rt>にゅうがく</rt></ruby>",
+          "<ruby>駅<rt>えき</rt></ruby>",
+          "お詫び"],
         "answer": 0
       },
       {
         "type": "言い換え",
         "text": "<ruby>駅<rt>えき</rt></ruby>で待つの意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "失敗",
-          "前",
-          "努力",
-          "ステーション"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["失敗",
+          "<ruby>前<rt>まえ</rt></ruby>",
+          "努<ruby>力<rt>ちから</rt></ruby>",
+          "ステーション"],
         "answer": 3
       },
       {
         "type": "言い換え",
         "text": "<ruby>店<rt>みせ</rt></ruby>で買うの意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "ショップ",
-          "家族",
-          "投げる",
-          "初めて"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["ショップ",
+          "<ruby>家<rt>いえ</rt></ruby><ruby>族<rt>ぞく</rt></ruby>",
+          "<ruby>投げる<rt>なげる</rt></ruby>",
+          "<ruby>初めて<rt>はじめて</rt></ruby>"],
         "answer": 0
       }
     ],
@@ -12801,12 +10799,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "きって（　）かいたいです。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "を",
+        "options": ["を",
           "すこし",
           "あと",
-          "へ"
-        ],
+          "へ"],
         "answer": 0,
         "id": "N5-12-026"
       },
@@ -12814,12 +10810,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "にほん（　）すみたいです。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "に",
+        "options": ["に",
           "たくさん",
           "を",
-          "とき"
-        ],
+          "とき"],
         "answer": 0,
         "id": "N5-12-027"
       },
@@ -12827,12 +10821,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "かんじ（　）よめますか。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "たくさん",
+        "options": ["たくさん",
           "ながら",
           "が",
-          "も"
-        ],
+          "も"],
         "answer": 2,
         "id": "N5-12-028"
       },
@@ -12840,12 +10832,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "どこ（　）いきたいですか。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "とても",
+        "options": ["とても",
           "に",
           "すこし",
-          "を"
-        ],
+          "を"],
         "answer": 1,
         "id": "N5-12-032"
       },
@@ -12853,12 +10843,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "ピアノ（　）ひけますか。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "が",
+        "options": ["が",
           "すこし",
           "で",
-          "たくさん"
-        ],
+          "たくさん"],
         "answer": 0,
         "id": "N5-12-030"
       },
@@ -12866,12 +10854,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "だれ（　）あいたいですか。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "に",
+        "options": ["に",
           "を",
           "とき",
-          "たくさん"
-        ],
+          "たくさん"],
         "answer": 0,
         "id": "N5-12-033"
       },
@@ -12879,12 +10865,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "くるま（　）うんてんできます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "へ",
+        "options": ["へ",
           "あと",
           "が",
-          "まえ"
-        ],
+          "まえ"],
         "answer": 2,
         "id": "N5-12-029"
       },
@@ -12892,12 +10876,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "ここ（　）すわってください。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "まえ",
+        "options": ["まえ",
           "に",
           "と",
-          "とき"
-        ],
+          "とき"],
         "answer": 1,
         "id": "N5-12-034"
       },
@@ -12905,12 +10887,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "なに（　）たべたいですか。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "すこし",
+        "options": ["すこし",
           "とても",
           "が",
-          "の"
-        ],
+          "の"],
         "answer": 2,
         "id": "N5-12-031"
       },
@@ -12918,142 +10898,120 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "くつ（　）ぬいでください。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "も",
+        "options": ["も",
           "あと",
           "とても",
-          "を"
-        ],
+          "を"],
         "answer": 3,
         "id": "N5-12-035"
       },
       {
         "type": "文の組み立て",
-        "text": "【日常会話・問56（N5レベル）】次の語句を正しい順序に並べてください：母に / あげました / 買って / プレゼントを",
-        "question": "正しい順序は？",
-        "options": [
-          "あげました 買って プレゼントを 母に",
-          "母にプレゼントを買ってあげました",
-          "プレゼントを 買って あげました 母に",
-          "あげました 母に プレゼントを 買って"
-        ],
+        "text": "【<ruby>日常<rt>にちじょう</rt></ruby><ruby>会話<rt>かいわ</rt></ruby>・<ruby>問<rt>とん</rt></ruby>56（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>母<rt>はは</rt></ruby>に / あげました / <ruby>買<rt>か</rt></ruby>って / プレゼントを",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["あげました <ruby>買<rt>か</rt></ruby>って プレゼントを <ruby>母<rt>はは</rt></ruby>に",
+          "<ruby>母<rt>はは</rt></ruby>にプレゼントを<ruby>買<rt>か</rt></ruby>ってあげました",
+          "プレゼントを <ruby>買<rt>か</rt></ruby>って あげました <ruby>母<rt>はは</rt></ruby>に",
+          "あげました <ruby>母<rt>はは</rt></ruby>に プレゼントを <ruby>買<rt>か</rt></ruby>って"],
         "answer": 0,
         "id": "N5-12-036"
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問57（N4レベル）】次の語句を正しい順序に並べてください：旅行に / です / 行きたい / 友達と / 一緒に",
-        "question": "正しい順序は？",
-        "options": [
-          "一緒に 旅行に 行きたい です 友達と",
-          "です 友達と 一緒に 旅行に 行きたい",
-          "です 行きたい 旅行に 一緒に 友達と",
-          "友達と一緒に旅行に行きたいです"
-        ],
+        "text": "【ビジネス・<ruby>問<rt>とん</rt></ruby>57（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>旅行<rt>りょこう</rt></ruby>に / です / <ruby>行<rt>い</rt></ruby>きたい / <ruby>友<rt>とも</rt></ruby>達と / <ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>行<rt>い</rt></ruby>きたい です <ruby>友<rt>とも</rt></ruby>達と",
+          "です <ruby>友<rt>とも</rt></ruby>達と <ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>行<rt>い</rt></ruby>きたい",
+          "です <ruby>行<rt>い</rt></ruby>きたい <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に <ruby>友<rt>とも</rt></ruby>達と",
+          "<ruby>友<rt>とも</rt></ruby>達と<ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に<ruby>旅行<rt>りょこう</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたいです"],
         "answer": 2,
         "id": "N5-12-037"
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問58（N3レベル）】次の語句を正しい順序に並べてください：ようです / いる / 雨が / 降って",
-        "question": "正しい順序は？",
-        "options": [
-          "雨が降っているようです",
-          "ようです 雨が 降って いる",
-          "ようです いる 降って 雨が",
-          "降って いる ようです 雨が"
-        ],
+        "text": "【<ruby>学校<rt>がっこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>58（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：ようです / いる / <ruby>雨<rt>あめ</rt></ruby>が / <ruby>降<rt>こう</rt></ruby>って",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>こう</rt></ruby>っているようです",
+          "ようです <ruby>雨<rt>あめ</rt></ruby>が <ruby>降<rt>こう</rt></ruby>って いる",
+          "ようです いる <ruby>降<rt>こう</rt></ruby>って <ruby>雨<rt>あめ</rt></ruby>が",
+          "<ruby>降<rt>こう</rt></ruby>って いる ようです <ruby>雨<rt>あめ</rt></ruby>が"],
         "answer": 0,
         "id": "N5-12-038"
       },
       {
         "type": "文の組み立て",
-        "text": "【旅行・問59（N2レベル）】次の語句を正しい順序に並べてください：連絡して / ください / 仕事を / 終えたら",
-        "question": "正しい順序は？",
-        "options": [
-          "ください 仕事を 終えたら 連絡して",
-          "ください 連絡して 終えたら 仕事を",
-          "終えたら 連絡して ください 仕事を",
-          "仕事を終えたら連絡してください"
-        ],
+        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>59（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>連絡<rt>れんらく</rt></ruby>して / ください / <ruby>仕事<rt>しごと</rt></ruby>を / <ruby>終<rt>しゅう</rt></ruby>えたら",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["ください <ruby>仕事<rt>しごと</rt></ruby>を <ruby>終<rt>しゅう</rt></ruby>えたら <ruby>連絡<rt>れんらく</rt></ruby>して",
+          "ください <ruby>連絡<rt>れんらく</rt></ruby>して <ruby>終<rt>しゅう</rt></ruby>えたら <ruby>仕事<rt>しごと</rt></ruby>を",
+          "<ruby>終<rt>しゅう</rt></ruby>えたら <ruby>連絡<rt>れんらく</rt></ruby>して ください <ruby>仕事<rt>しごと</rt></ruby>を",
+          "<ruby>仕事<rt>しごと</rt></ruby>を<ruby>終<rt>しゅう</rt></ruby>えたら<ruby>連絡<rt>れんらく</rt></ruby>してください"],
         "answer": 3,
         "id": "N5-12-039"
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問60（N1レベル）】次の語句を正しい順序に並べてください：母が / この料理は / 作って / くれました",
-        "question": "正しい順序は？",
-        "options": [
-          "くれました 作って 母が この料理は",
-          "この料理は母が作ってくれました",
-          "くれました この料理は 母が 作って",
-          "母が 作って くれました この料理は"
-        ],
+        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>とん</rt></ruby>60（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>母<rt>はは</rt></ruby>が / この料<ruby>理<rt>り</rt></ruby>は / <ruby>作<rt>さく</rt></ruby>って / くれました",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["くれました <ruby>作<rt>さく</rt></ruby>って <ruby>母<rt>はは</rt></ruby>が この料<ruby>理<rt>り</rt></ruby>は",
+          "この料<ruby>理<rt>り</rt></ruby>は<ruby>母<rt>はは</rt></ruby>が<ruby>作<rt>さく</rt></ruby>ってくれました",
+          "くれました この料<ruby>理<rt>り</rt></ruby>は <ruby>母<rt>はは</rt></ruby>が <ruby>作<rt>さく</rt></ruby>って",
+          "<ruby>母<rt>はは</rt></ruby>が <ruby>作<rt>さく</rt></ruby>って くれました この料<ruby>理<rt>り</rt></ruby>は"],
         "answer": 2,
         "id": "N5-12-040"
       },
       {
         "type": "文章の文法",
-        "text": "困難（　）乗り越え、目標を達成した。（56）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "で",
+        "text": "<ruby>困難<rt>こんなん</rt></ruby>（　）<ruby>乗<rt>のむ</rt></ruby>り<ruby>越<rt>こ</rt></ruby>え、<ruby>目標<rt>もくひょう</rt></ruby>を達<ruby>成<rt>せい</rt></ruby>した。（56）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["で",
           "を",
           "に",
-          "から"
-        ],
+          "から"],
         "answer": 1,
         "id": "N5-12-041"
       },
       {
         "type": "文章の文法",
-        "text": "専門家（　）意見を聞く必要がある。（57）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "の",
+        "text": "専<ruby>門<rt>もん</rt></ruby><ruby>家<rt>いえ</rt></ruby>（　）<ruby>意見<rt>いけん</rt></ruby>を<ruby>聞く<rt>きく</rt></ruby>必要がある。（57）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["の",
           "への",
           "から",
-          "による"
-        ],
+          "による"],
         "answer": 0,
         "id": "N5-12-042"
       },
       {
         "type": "文章の文法",
-        "text": "技術の進歩（　）、生活は大きく変わった。（58）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "に対して",
+        "text": "<ruby>技術<rt>ぎじゅつ</rt></ruby>の<ruby>進歩<rt>しんぽ</rt></ruby>（　）、<ruby>生活<rt>せいかつ</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変<rt>へん</rt></ruby>わった。（58）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["に<ruby>対して<rt>たいして</rt></ruby>",
           "にとって",
           "により",
-          "に関して"
-        ],
+          "に<ruby>関して<rt>かんして</rt></ruby>"],
         "answer": 2,
         "id": "N5-12-043"
       },
       {
         "type": "文章の文法",
-        "text": "彼の行動は法律（　）許されない。（59）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "上",
+        "text": "<ruby>彼<rt>かれ</rt></ruby>の<ruby>行動<rt>こうどう</rt></ruby>は<ruby>法律<rt>ほうりつ</rt></ruby>（　）<ruby>許<rt>きょ</rt></ruby>されない。（59）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>上<rt>うえ</rt></ruby>",
           "としても",
           "において",
-          "的に"
-        ],
+          "<ruby>的<rt>てき</rt></ruby>に"],
         "answer": 0,
         "id": "N5-12-044"
       },
       {
         "type": "文章の文法",
-        "text": "予算の制約（　）実現が困難だ。（60）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "ゆえに",
+        "text": "<ruby>予算<rt>よさん</rt></ruby>の<ruby>制<rt>せい</rt></ruby>約（　）実<ruby>現<rt>あらわ</rt></ruby>が<ruby>困難<rt>こんなん</rt></ruby>だ。（60）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["ゆえに",
           "から",
           "にして",
-          "として"
-        ],
+          "として"],
         "answer": 1,
         "id": "N5-12-045"
       },
@@ -13061,12 +11019,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "このみせの　ラーメンは　600えんです。おおもりは　100えん　たかいです。",
         "question": "おおもりは　いくらですか。",
-        "options": [
-          "500えん",
+        "options": ["500えん",
           "800えん",
           "700えん",
-          "600えん"
-        ],
+          "600えん"],
         "answer": 3,
         "id": "N5-12-046"
       },
@@ -13074,12 +11030,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "コーヒーは　ホットと　アイスが　あります。わたしは　ホットを　のみます。",
         "question": "わたしは　なにを　のみますか。",
-        "options": [
-          "アイスコーヒー",
+        "options": ["アイスコーヒー",
           "ホットミルク",
           "ホットコーヒー",
-          "アイスティー"
-        ],
+          "アイスティー"],
         "answer": 2,
         "id": "N5-12-047"
       },
@@ -13087,12 +11041,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "えきから　がっこうまで　あるいて　10ぷんです。",
         "question": "がっこうまで　どのくらい　かかりますか。",
-        "options": [
-          "15ふん",
+        "options": ["15ふん",
           "10ぷん",
           "5ふん",
-          "20ぷん"
-        ],
+          "20ぷん"],
         "answer": 1,
         "id": "N5-12-048"
       },
@@ -13100,12 +11052,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "きょうは　あめです。かさを　もっていきます。あしたは　はれの　よほうです。せんたくが　できます。",
         "question": "あしたの　てんきは　どうですか。",
-        "options": [
-          "ゆき",
+        "options": ["ゆき",
           "あめ",
           "はれ",
-          "くもり"
-        ],
+          "くもり"],
         "answer": 3,
         "id": "N5-12-049"
       },
@@ -13113,12 +11063,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "ふゆは　さむいです。セーターや　コートを　きます。ゆきの　ひは　とても　さむいです。",
         "question": "ふゆに　なにを　きますか。",
-        "options": [
-          "セーターや　コート",
+        "options": ["セーターや　コート",
           "Tシャツ",
           "みずぎ",
-          "はんズボン"
-        ],
+          "はんズボン"],
         "answer": 0,
         "id": "N5-12-050"
       },
@@ -13126,137 +11074,117 @@ window.MOCK_DATA['N5'] = {
         "type": "情報検索",
         "text": "【びょういん】ごぜん9じから12じ、ごご2じから5じ。どようびは　ごぜんだけ。",
         "question": "どようびの　ごごは　どうですか。",
-        "options": [
-          "やっていない",
+        "options": ["やっていない",
           "5じまで",
           "やっている",
-          "2じから"
-        ],
+          "2じから"],
         "answer": 3,
         "id": "N5-12-051"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人がレストランで注文しています。男の人は何を注文しますか。",
-        "question": "何を注文しますか。",
-        "options": [
-          "🍺",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がレストランで<ruby>注文<rt>ちゅうもん</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>注文<rt>ちゅうもん</rt></ruby>しますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>注文<rt>ちゅうもん</rt></ruby>しますか。",
+        "options": ["🍺",
           "🍷🍷",
           "🍺🍺",
-          "🍷"
-        ],
+          "🍷"],
         "answer": 0,
         "id": "N5-12-052",
         "script": "M: 🍺を　おねがいします。\nF: はい、わかりました。【セット12問27】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "学生が文房具店で買い物をしています。学生は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "✏️✏️",
+        "text": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>文<rt>ぶん</rt></ruby><ruby>房<rt>ふさ</rt></ruby><ruby>具<rt>ぐ</rt></ruby><ruby>店<rt>みせ</rt></ruby>で<ruby>買い物<rt>かいもの</rt></ruby>をしています。<ruby>学生<rt>がくせい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["✏️✏️",
           "📒",
           "✏️✏️✏️",
-          "📒📒"
-        ],
+          "📒📒"],
         "answer": 2,
         "id": "N5-12-053",
         "script": "F: これですか。\nM: いいえ、✏ 3つを　ください。【セット12問28】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人が本屋で話しています。女の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "📕📕",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>本屋<rt>ほんや</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["📕📕",
           "📗",
           "📗📗📗",
-          "📕"
-        ],
+          "📕"],
         "answer": 0,
         "id": "N5-12-054",
         "script": "M: すみません、ほん 2つは　ありますか。\nF: はい、どうぞ。【セット12問29】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人が食堂で注文しています。男の人は何を食べますか。",
-        "question": "何を食べますか。",
-        "options": [
-          "🍱",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>食堂<rt>しょくどう</rt></ruby>で<ruby>注文<rt>ちゅうもん</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>食<rt>た</rt></ruby>べますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>食<rt>た</rt></ruby>べますか。",
+        "options": ["🍱",
           "🍣",
           "🍜",
-          "🍛"
-        ],
+          "🍛"],
         "answer": 3,
         "id": "N5-12-055",
         "script": "M: 🍛を　ください。\nF: はい、🍛ですね。【セット12問30】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人がレストランで注文しています。女の人は何を頼みますか。",
-        "question": "何を頼みますか。",
-        "options": [
-          "🍕",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がレストランで<ruby>注文<rt>ちゅうもん</rt></ruby>しています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>頼み<rt>たのみ</rt></ruby>ますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>頼み<rt>たのみ</rt></ruby>ますか。",
+        "options": ["🍕",
           "🍕🍕",
           "🍔🍔",
-          "🍔"
-        ],
+          "🍔"],
         "answer": 0,
         "id": "N5-12-056",
         "script": "F: なにを　かいますか。\nM: 🍕を　かいます。【セット12問31】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人と女の人が話しています。女の人はどこへ行きますか。",
-        "question": "どこへ行きますか。",
-        "options": [
-          "🏪",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>と<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>話<rt>はなし</rt></ruby>しています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>はどこへ<ruby>行<rt>い</rt></ruby>きますか。",
+        "question": "どこへ<ruby>行<rt>い</rt></ruby>きますか。",
+        "options": ["🏪",
           "🏣",
           "🏫",
-          "🏥"
-        ],
+          "🏥"],
         "answer": 3,
         "id": "N5-12-057",
         "script": "M: びょういんを　おねがいします。\nF: はい、わかりました。【セット12問32】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "番組を聞いています。話者が最も強調しているのは何ですか。（67）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>番組<rt>ばんぐみ</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（67）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-12-058",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット12問33】"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "値段を尋ねたい場面です。（59）",
-        "question": "適切な表現は？",
-        "options": [
-          "📌",
+        "text": "<ruby>値段<rt>ねだん</rt></ruby>を<ruby>尋<rt>たず</rt></ruby>ねたい<ruby>場<rt>ば</rt></ruby>面です。（59）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📆",
           "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-12-067",
         "script": "📆です。【セット12問34】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "ドキュメンタリーを聞いています。話者が最も強調しているのは何ですか。（69）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "ドキュメンタリーを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（69）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-12-060",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット12問35】"
@@ -13264,134 +11192,114 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "おいしいですね。（89）",
-        "question": "返答は？",
-        "options": [
-          "そうですね",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["そうですね",
           "わかりません",
-          "はい、食べました",
-          "いいえ、違います"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 0,
         "id": "N5-12-069"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "放送を聞いています。話者が最も強調しているのは何ですか。（71）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "放<ruby>送<rt>お</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（71）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-12-062",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット12問37】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "写真撮ってもいいですか。（90）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
-          "はい、食べました",
-          "大丈夫ですよ",
-          "わかりません"
-        ],
+        "text": "<ruby>写<rt>うつ</rt></ruby>真<ruby>撮<rt>とる</rt></ruby>ってもいいですか。（90）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "<ruby>大<rt>だい</rt></ruby><ruby>丈<rt>たけ</rt></ruby>夫ですよ",
+          "わかりません"],
         "answer": 2,
         "id": "N5-12-070"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "友達に「おはよう」と言いたい（56）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>友<rt>とも</rt></ruby>達に「おはよう」と<ruby>言<rt>い</rt></ruby>いたい（56）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-12-064",
         "script": "ピンです。【セット12問39】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "お仕事は何ですか。（91）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "会社員です",
-          "いいえ、違います",
-          "はい、食べました"
-        ],
+        "text": "お<ruby>仕事<rt>しごと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。（91）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "<ruby>会社<rt>かいしゃ</rt></ruby><ruby>員<rt>いん</rt></ruby>です",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 1,
         "id": "N5-12-071"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "場所を尋ねたい場面です。（58）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>場所<rt>ばしょ</rt></ruby>を<ruby>尋<rt>たず</rt></ruby>ねたい<ruby>場<rt>ば</rt></ruby>面です。（58）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-12-066",
         "script": "ピンです。【セット12問41】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "趣味は何ですか。（92）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
-          "いいえ、違います",
-          "読書です",
-          "わかりません"
-        ],
+        "text": "<ruby>趣味<rt>しゅみ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。（92）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "<ruby>読書<rt>どくしょ</rt></ruby>です",
+          "わかりません"],
         "answer": 2,
         "id": "N5-12-072"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "営業時間を尋ねたい場面です。（60）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>営業<rt>えいぎょう</rt></ruby><ruby>時間<rt>じかん</rt></ruby>を<ruby>尋<rt>たず</rt></ruby>ねたい<ruby>場<rt>ば</rt></ruby>面です。（60）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-12-068",
         "script": "ピンです。【セット12問43】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "出身はどこですか。（93）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "はい、食べました",
-          "いいえ、違います",
-          "東京です"
-        ],
+        "text": "<ruby>出<rt>で</rt></ruby>身はどこですか。（93）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "<ruby>東<rt>ひがし</rt></ruby><ruby>京<rt>きょう</rt></ruby>です"],
         "answer": 3,
         "id": "N5-12-073"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "発表を聞いています。話者が最も強調しているのは何ですか。（72）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>発<rt>はつ</rt></ruby>表を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（72）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-12-063",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット12問45】"
@@ -13399,53 +11307,45 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "いつからですか。（94）",
-        "question": "返答は？",
-        "options": [
-          "来週からです",
-          "はい、食べました",
-          "いいえ、違います",
-          "わかりません"
-        ],
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["<ruby>来週<rt>らいしゅう</rt></ruby>からです",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "わかりません"],
         "answer": 0,
         "id": "N5-12-074"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "特集を聞いています。話者が最も強調しているのは何ですか。（68）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>特<rt>とく</rt></ruby><ruby>集<rt>しゅう</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（68）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-12-059",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット12問47】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "何人ですか。（95）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
-          "3人です",
-          "いいえ、違います",
-          "わかりません"
-        ],
+        "text": "<ruby>何<rt>なに</rt></ruby><ruby>人<rt>ひと</rt></ruby>ですか。（95）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
+          "3<ruby>人<rt>ひと</rt></ruby>です",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "わかりません"],
         "answer": 1,
         "id": "N5-12-075"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "時間を尋ねたい場面です。（57）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>時間<rt>じかん</rt></ruby>を<ruby>尋<rt>たず</rt></ruby>ねたい<ruby>場<rt>ば</rt></ruby>面です。（57）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-12-065",
         "script": "ピンです。【セット12問49】"
@@ -13453,26 +11353,22 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "いくらですか。（96）",
-        "question": "返答は？",
-        "options": [
-          "500円です",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["500<ruby>円<rt>えん</rt></ruby>です",
           "わかりません",
-          "いいえ、違います",
-          "はい、食べました"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 0,
         "id": "N5-12-076"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "トークを聞いています。話者が最も強調しているのは何ですか。（70）",
-        "question": "最も強調しているのは？",
-        "options": [
-          "📕",
+        "text": "トークを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（70）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📕",
           "📌",
           "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-12-061",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット12問51】"
@@ -13480,481 +11376,401 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "漢字読み",
         "text": "<u>字</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "じゅう、とお",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["じゅう、とお",
           "くるま",
           "さん、み",
-          "じ"
-        ],
+          "じ"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>手</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "し、よ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["し、よ",
           "みち",
           "て",
-          "ひゃく"
-        ],
+          "ひゃく"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>石</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "ご、いつ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["ご、いつ",
           "えき",
           "いし",
-          "せん"
-        ],
+          "せん"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>明</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "あか",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["あか",
           "はな",
           "ろく、む",
-          "まん"
-        ],
+          "まん"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>来</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "えん",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["えん",
           "さかな",
           "しち、なな",
-          "らい、く"
-        ],
+          "らい、く"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>五</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "ねん、とし",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["ねん、とし",
           "いち、ひと",
           "はち、や",
-          "ご、いつ"
-        ],
+          "ご、いつ"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>天</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "てん",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["てん",
           "に、ふた",
           "きゅう、く",
-          "がつ、つき"
-        ],
+          "がつ、つき"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>魚</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "さん、み",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["さん、み",
           "さかな",
           "じゅう、とお",
-          "にち、ひ"
-        ],
+          "にち、ひ"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>行</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "しゅう",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["しゅう",
           "し、よ",
           "ひゃく",
-          "い.く"
-        ],
+          "い.く"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>文</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "ふみ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["ふみ",
           "ご、いつ",
           "せん",
-          "じ、とき"
-        ],
+          "じ、とき"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>花</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "ふん、ぶん",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["ふん、ぶん",
           "ろく、む",
           "まん",
-          "はな"
-        ],
+          "はな"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>飲</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "えん",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["えん",
           "しち、なな",
           "の.む",
-          "はん"
-        ],
+          "はん"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>しぜん</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "最高",
-          "自然",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>最高<rt>さいこう</rt></ruby>",
+          "<ruby>自<rt>みずか</rt></ruby>然",
           "繋ぐ",
-          "予約"
-        ],
+          "<ruby>予<rt>よ</rt></ruby>約"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>もくようび</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "報告",
-          "銀行",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>報告<rt>ほうこく</rt></ruby>",
+          "<ruby>銀行<rt>ぎんこう</rt></ruby>",
           "お詫び",
-          "木曜日"
-        ],
+          "<ruby>木曜日<rt>もくようび</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>かえる</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "帰る",
-          "絶対",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>帰る<rt>かえる</rt></ruby>",
+          "<ruby>絶対<rt>ぜったい</rt></ruby>",
           "失敗",
-          "言葉"
-        ],
+          "<ruby>言<rt>い</rt></ruby>葉"],
         "answer": 0
       },
       {
         "type": "表記",
         "text": "<u>じゅんび</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "渡る",
-          "準備",
-          "初めて",
-          "遅刻"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>渡る<rt>わたる</rt></ruby>",
+          "<ruby>準備<rt>じゅんび</rt></ruby>",
+          "<ruby>初めて<rt>はじめて</rt></ruby>",
+          "<ruby>遅刻<rt>ちこく</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>せんたくき</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "重い",
-          "薬",
-          "全部",
-          "洗濯機"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>重い<rt>おもい</rt></ruby>",
+          "<ruby>薬<rt>くすり</rt></ruby>",
+          "<ruby>全部<rt>ぜんぶ</rt></ruby>",
+          "<ruby>洗濯<rt>せんたく</rt></ruby><ruby>機<rt>き</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>おいしい</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "美味しい",
-          "全然",
-          "靴",
-          "一緒に"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["美<ruby>味<rt>あじ</rt></ruby>しい",
+          "<ruby>全<rt>ぜん</rt></ruby>然",
+          "<ruby>靴<rt>くつ</rt></ruby>",
+          "<ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に"],
         "answer": 0
       },
       {
         "type": "表記",
         "text": "<u>えき</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "断る",
-          "休む",
-          "駅",
-          "夏"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>断る<rt>ことわる</rt></ruby>",
+          "<ruby>休む<rt>やすむ</rt></ruby>",
+          "<ruby>駅<rt>えき</rt></ruby>",
+          "<ruby>夏<rt>なつ</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>どりょく</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "忙しい",
-          "暗い",
-          "料理する",
-          "努力"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>忙しい<rt>いそがしい</rt></ruby>",
+          "<ruby>暗い<rt>くらい</rt></ruby>",
+          "料<ruby>理<rt>り</rt></ruby>する",
+          "努<ruby>力<rt>ちから</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "子供を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "階段",
-          "力",
+        "text": "<ruby>子供<rt>こども</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>階段<rt>かいだん</rt></ruby>",
+          "<ruby>力<rt>ちから</rt></ruby>",
           "落ちる",
-          "叱る"
-        ],
+          "<ruby>叱る<rt>しかる</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "母を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "手伝う",
-          "凍る",
-          "光る",
-          "住む"
-        ],
+        "text": "<ruby>母<rt>はは</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>手伝う<rt>てつだう</rt></ruby>",
+          "<ruby>凍る<rt>こおる</rt></ruby>",
+          "<ruby>光る<rt>ひかる</rt></ruby>",
+          "<ruby>住む<rt>すむ</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "友達を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "集まる",
-          "成功",
-          "先輩",
-          "助ける"
-        ],
+        "text": "<ruby>友<rt>とも</rt></ruby>達を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>集まる<rt>あつまる</rt></ruby>",
+          "<ruby>成功<rt>せいこう</rt></ruby>",
+          "<ruby>先輩<rt>せんぱい</rt></ruby>",
+          "<ruby>助ける<rt>たすける</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
         "text": "約束を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "守る",
-          "本当に",
-          "甘い",
-          "番"
-        ],
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>守る<rt>まもる</rt></ruby>",
+          "<ruby>本<rt>ほん</rt></ruby>当に",
+          "<ruby>甘い<rt>あまい</rt></ruby>",
+          "<ruby>番<rt>ばん</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "壁に（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "触る",
-          "起こす",
-          "散らかす",
-          "思い出"
-        ],
+        "text": "<ruby>壁<rt>かべ</rt></ruby>に（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>触る<rt>さわる</rt></ruby>",
+          "<ruby>起こす<rt>おこす</rt></ruby>",
+          "<ruby>散らかす<rt>ちらかす</rt></ruby>",
+          "<ruby>思い出<rt>おもいで</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
         "text": "ボタンを（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "綺麗",
-          "押す",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["綺<ruby>麗<rt>うるわ</rt></ruby>",
+          "<ruby>押す<rt>おす</rt></ruby>",
           "お弁当",
-          "閉める"
-        ],
+          "<ruby>閉める<rt>しめる</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "文脈規定",
         "text": "ドアを（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "成功する",
-          "卒業",
-          "引く",
-          "止まる"
-        ],
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>成功<rt>せいこう</rt></ruby>する",
+          "卒<ruby>業<rt>ごう</rt></ruby>",
+          "<ruby>引く<rt>ひく</rt></ruby>",
+          "<ruby>止まる<rt>とまる</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
         "text": "ボールを（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "杯",
-          "匂い",
-          "興味",
-          "投げる"
-        ],
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>杯<rt>さかずき</rt></ruby>",
+          "<ruby>匂い<rt>におい</rt></ruby>",
+          "<ruby>興味<rt>きょうみ</rt></ruby>",
+          "<ruby>投げる<rt>なげる</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
         "text": "ボールを（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "あまり",
-          "捕まえる",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["あまり",
+          "<ruby>捕まえる<rt>つかまえる</rt></ruby>",
           "昼",
-          "離す"
-        ],
+          "<ruby>離す<rt>はなす</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "文脈規定",
-        "text": "鳥が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "飛ぶ",
-          "牛乳",
-          "紙",
-          "カフェ"
-        ],
+        "text": "<ruby>鳥<rt>とり</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["飛ぶ",
+          "<ruby>牛<rt>うし</rt></ruby>乳",
+          "<ruby>紙<rt>かみ</rt></ruby>",
+          "カフェ"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "高く（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "跳ぶ",
-          "庭",
-          "意見",
-          "秋"
-        ],
+        "text": "<ruby>高<rt>たか</rt></ruby>く（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>跳ぶ<rt>とぶ</rt></ruby>",
+          "<ruby>庭<rt>にわ</rt></ruby>",
+          "<ruby>意見<rt>いけん</rt></ruby>",
+          "<ruby>秋<rt>あき</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
         "text": "ボールを（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "おばあさん",
-          "安い",
-          "蹴る",
-          "そこ"
-        ],
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["おばあさん",
+          "<ruby>安い<rt>やすい</rt></ruby>",
+          "<ruby>蹴る<rt>ける</rt></ruby>",
+          "そこ"],
         "answer": 2
       },
       {
         "type": "文脈規定",
         "text": "ボールを（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "濡れる",
-          "打つ",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>濡れる<rt>ぬれる</rt></ruby>",
+          "<ruby>打つ<rt>うつ</rt></ruby>",
           "テーブル",
-          "片付ける"
-        ],
+          "片付ける"],
         "answer": 1
       },
       {
         "type": "文脈規定",
         "text": "ドアを（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "だから",
-          "洗う",
-          "叩く",
-          "リュック"
-        ],
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["だから",
+          "<ruby>洗う<rt>あらう</rt></ruby>",
+          "<ruby>叩く<rt>たたく</rt></ruby>",
+          "リュック"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "名前を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "お茶",
-          "今月",
-          "勉強する",
-          "呼ぶ"
-        ],
+        "text": "<ruby>名前<rt>なまえ</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>お茶<rt>おちゃ</rt></ruby>",
+          "<ruby>今月<rt>こんげつ</rt></ruby>",
+          "<ruby>勉強する<rt>べんきょうする</rt></ruby>",
+          "<ruby>呼ぶ<rt>よぶ</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "言い換え",
         "text": "<ruby>会社<rt>かいしゃ</rt></ruby>で働くの意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "度",
-          "企業",
-          "長い",
-          "全部"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>度<rt>ど</rt></ruby>",
+          "<ruby>企業<rt>きぎょう</rt></ruby>",
+          "<ruby>長い<rt>ながい</rt></ruby>",
+          "<ruby>全部<rt>ぜんぶ</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "言い換え",
         "text": "<ruby>道<rt>みち</rt></ruby>を歩くの意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "挨拶",
-          "道路",
-          "台",
-          "靴"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>挨<rt>あい</rt></ruby><ruby>拶<rt>さつ</rt></ruby>",
+          "<ruby>道路<rt>どうろ</rt></ruby>",
+          "<ruby>台<rt>だい</rt></ruby>",
+          "<ruby>靴<rt>くつ</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "言い換え",
         "text": "<ruby>山<rt>やま</rt></ruby>に登るの意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "最高",
-          "同僚",
-          "山岳",
-          "断る"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>最高<rt>さいこう</rt></ruby>",
+          "<ruby>同<rt>どう</rt></ruby><ruby>僚<rt>りょう</rt></ruby>",
+          "<ruby>山<rt>やま</rt></ruby><ruby>岳<rt>たけ</rt></ruby>",
+          "<ruby>断る<rt>ことわる</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "言い換え",
         "text": "<ruby>川<rt>かわ</rt></ruby>で泳ぐの意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "河川",
-          "行く",
-          "銀行",
-          "料理する"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>河<rt>か</rt></ruby><ruby>川<rt>かわ</rt></ruby>",
+          "<ruby>行く<rt>いく</rt></ruby>",
+          "<ruby>銀行<rt>ぎんこう</rt></ruby>",
+          "料<ruby>理<rt>り</rt></ruby>する"],
         "answer": 0
       },
       {
         "type": "言い換え",
         "text": "<ruby>海<rt>うみ</rt></ruby>で泳ぐの意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "絶対",
-          "傘",
-          "大海",
-          "放送"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>絶対<rt>ぜったい</rt></ruby>",
+          "<ruby>傘<rt>かさ</rt></ruby>",
+          "<ruby>大<rt>だい</rt></ruby><ruby>海<rt>うみ</rt></ruby>",
+          "放<ruby>送<rt>お</rt></ruby>"],
         "answer": 2
       }
     ],
@@ -13963,12 +11779,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "めがね（　）かけています。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "まえ",
+        "options": ["まえ",
           "と",
           "あと",
-          "を"
-        ],
+          "を"],
         "answer": 3,
         "id": "N5-13-026"
       },
@@ -13976,12 +11790,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "でんわ（　）はなしています。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "とても",
+        "options": ["とても",
           "で",
           "と",
-          "たくさん"
-        ],
+          "たくさん"],
         "answer": 1,
         "id": "N5-13-029"
       },
@@ -13989,12 +11801,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "コート（　）きています。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "を",
+        "options": ["を",
           "とき",
           "ながら",
-          "に"
-        ],
+          "に"],
         "answer": 0,
         "id": "N5-13-028"
       },
@@ -14002,12 +11812,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "にほんご（　）かきます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "で",
+        "options": ["で",
           "から",
           "とき",
-          "とても"
-        ],
+          "とても"],
         "answer": 0,
         "id": "N5-13-030"
       },
@@ -14015,12 +11823,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "ぼうし（　）かぶっています。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "から",
+        "options": ["から",
           "を",
           "とても",
-          "ながら"
-        ],
+          "ながら"],
         "answer": 1,
         "id": "N5-13-027"
       },
@@ -14028,25 +11834,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "えんぴつ（　）かきます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "まえ",
+        "options": ["まえ",
           "ながら",
           "まで",
-          "で"
-        ],
+          "で"],
         "answer": 3,
         "id": "N5-13-031"
       },
       {
         "type": "文の組み立て",
-        "text": "【日常会話・問61（N5レベル）】次の語句を正しい順序に並べてください：本を / 図書館で / 私は / 読みました / 昨日",
-        "question": "正しい順序は？",
-        "options": [
-          "昨日 図書館で 本を 読みました 私は",
-          "読みました 本を 図書館で 昨日 私は",
-          "私は昨日図書館で本を読みました",
-          "読みました 私は 昨日 図書館で 本を"
-        ],
+        "text": "【<ruby>日常<rt>にちじょう</rt></ruby><ruby>会話<rt>かいわ</rt></ruby>・<ruby>問<rt>とん</rt></ruby>61（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>本<rt>ほん</rt></ruby>を / <ruby>図書館<rt>としょかん</rt></ruby>で / <ruby>私<rt>わたし</rt></ruby>は / <ruby>読み<rt>よみ</rt></ruby>ました / <ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby>",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby> <ruby>図書館<rt>としょかん</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を <ruby>読み<rt>よみ</rt></ruby>ました <ruby>私<rt>わたし</rt></ruby>は",
+          "<ruby>読み<rt>よみ</rt></ruby>ました <ruby>本<rt>ほん</rt></ruby>を <ruby>図書館<rt>としょかん</rt></ruby>で <ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby> <ruby>私<rt>わたし</rt></ruby>は",
+          "<ruby>私<rt>わたし</rt></ruby>は<ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby><ruby>図書館<rt>としょかん</rt></ruby>で<ruby>本<rt>ほん</rt></ruby>を<ruby>読み<rt>よみ</rt></ruby>ました",
+          "<ruby>読み<rt>よみ</rt></ruby>ました <ruby>私<rt>わたし</rt></ruby>は <ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby> <ruby>図書館<rt>としょかん</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を"],
         "answer": 3,
         "id": "N5-13-036"
       },
@@ -14054,25 +11856,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "じてんしゃ（　）いきます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "で",
+        "options": ["で",
           "とき",
           "あと",
-          "へ"
-        ],
+          "へ"],
         "answer": 0,
         "id": "N5-13-033"
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問62（N4レベル）】次の語句を正しい順序に並べてください：します / 公園を / 散歩 / 彼女は / 毎朝",
-        "question": "正しい順序は？",
-        "options": [
-          "します 散歩 公園を 毎朝 彼女は",
-          "彼女は毎朝公園を散歩します",
-          "毎朝 公園を 散歩 します 彼女は",
-          "します 彼女は 毎朝 公園を 散歩"
-        ],
+        "text": "【ビジネス・<ruby>問<rt>とん</rt></ruby>62（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：します / <ruby>公園<rt>こうえん</rt></ruby>を / <ruby>散歩<rt>さんぽ</rt></ruby> / <ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は / <ruby>毎朝<rt>まいあさ</rt></ruby>",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["します <ruby>散歩<rt>さんぽ</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>を <ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は",
+          "<ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は<ruby>毎朝<rt>まいあさ</rt></ruby><ruby>公園<rt>こうえん</rt></ruby>を<ruby>散歩<rt>さんぽ</rt></ruby>します",
+          "<ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>を <ruby>散歩<rt>さんぽ</rt></ruby> します <ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は",
+          "します <ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は <ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>を <ruby>散歩<rt>さんぽ</rt></ruby>"],
         "answer": 2,
         "id": "N5-13-037"
       },
@@ -14080,25 +11878,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "ひこうき（　）いきます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "の",
+        "options": ["の",
           "で",
           "たくさん",
-          "とき"
-        ],
+          "とき"],
         "answer": 1,
         "id": "N5-13-035"
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問63（N3レベル）】次の語句を正しい順序に並べてください：この店は / です / いっぱい / お客さんで / いつも",
-        "question": "正しい順序は？",
-        "options": [
-          "です いっぱい お客さんで いつも この店は",
-          "この店はいつもお客さんでいっぱいです",
-          "です この店は いつも お客さんで いっぱい",
-          "いつも お客さんで いっぱい です この店は"
-        ],
+        "text": "【<ruby>学校<rt>がっこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>63（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：この<ruby>店<rt>みせ</rt></ruby>は / です / いっぱい / お<ruby>客<rt>きゃく</rt></ruby>さんで / いつも",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["です いっぱい お<ruby>客<rt>きゃく</rt></ruby>さんで いつも この<ruby>店<rt>みせ</rt></ruby>は",
+          "この<ruby>店<rt>みせ</rt></ruby>はいつもお<ruby>客<rt>きゃく</rt></ruby>さんでいっぱいです",
+          "です この<ruby>店<rt>みせ</rt></ruby>は いつも お<ruby>客<rt>きゃく</rt></ruby>さんで いっぱい",
+          "いつも お<ruby>客<rt>きゃく</rt></ruby>さんで いっぱい です この<ruby>店<rt>みせ</rt></ruby>は"],
         "answer": 1,
         "id": "N5-13-038"
       },
@@ -14106,25 +11900,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "バス（　）いきます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "とき",
+        "options": ["とき",
           "で",
           "あと",
-          "が"
-        ],
+          "が"],
         "answer": 1,
         "id": "N5-13-034"
       },
       {
         "type": "文の組み立て",
-        "text": "【旅行・問64（N2レベル）】次の語句を正しい順序に並べてください：か / することが / 質問を / 先生に / できます",
-        "question": "正しい順序は？",
-        "options": [
-          "先生に質問をすることができますか",
-          "質問を することが できます か 先生に",
-          "か 先生に 質問を することが できます",
-          "か できます することが 質問を 先生に"
-        ],
+        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>64（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：か / することが / <ruby>質問<rt>しつもん</rt></ruby>を / <ruby>先生<rt>せんせい</rt></ruby>に / できます",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>先生<rt>せんせい</rt></ruby>に<ruby>質問<rt>しつもん</rt></ruby>をすることができますか",
+          "<ruby>質問<rt>しつもん</rt></ruby>を することが できます か <ruby>先生<rt>せんせい</rt></ruby>に",
+          "か <ruby>先生<rt>せんせい</rt></ruby>に <ruby>質問<rt>しつもん</rt></ruby>を することが できます",
+          "か できます することが <ruby>質問<rt>しつもん</rt></ruby>を <ruby>先生<rt>せんせい</rt></ruby>に"],
         "answer": 3,
         "id": "N5-13-039"
       },
@@ -14132,64 +11922,54 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "はさみ（　）きります。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "たくさん",
+        "options": ["たくさん",
           "まえ",
           "まで",
-          "で"
-        ],
+          "で"],
         "answer": 3,
         "id": "N5-13-032"
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問65（N1レベル）】次の語句を正しい順序に並べてください：明日の / かもしれません / 会議に / できない / 出席",
-        "question": "正しい順序は？",
-        "options": [
-          "会議に 出席 できない かもしれません 明日の",
-          "かもしれません 明日の 会議に 出席 できない",
-          "明日の会議に出席できないかもしれません",
-          "かもしれません できない 出席 会議に 明日の"
-        ],
+        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>とん</rt></ruby>65（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>明日<rt>あした</rt></ruby>の / かもしれません / <ruby>会議<rt>かいぎ</rt></ruby>に / できない / <ruby>出<rt>で</rt></ruby>席",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>会議<rt>かいぎ</rt></ruby>に <ruby>出<rt>で</rt></ruby>席 できない かもしれません <ruby>明日<rt>あした</rt></ruby>の",
+          "かもしれません <ruby>明日<rt>あした</rt></ruby>の <ruby>会議<rt>かいぎ</rt></ruby>に <ruby>出<rt>で</rt></ruby>席 できない",
+          "<ruby>明日<rt>あした</rt></ruby>の<ruby>会議<rt>かいぎ</rt></ruby>に<ruby>出<rt>で</rt></ruby>席できないかもしれません",
+          "かもしれません できない <ruby>出<rt>で</rt></ruby>席 <ruby>会議<rt>かいぎ</rt></ruby>に <ruby>明日<rt>あした</rt></ruby>の"],
         "answer": 1,
         "id": "N5-13-040"
       },
       {
         "type": "文章の文法",
-        "text": "結果（　）良ければ全て良しとは限らない。（61）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "が",
+        "text": "<ruby>結果<rt>けっか</rt></ruby>（　）<ruby>良<rt>りょう</rt></ruby>ければ<ruby>全て<rt>すべて</rt></ruby><ruby>良<rt>りょう</rt></ruby>しとは<ruby>限<rt>かぎ</rt></ruby>らない。（61）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["が",
           "だけ",
           "こそ",
-          "さえ"
-        ],
+          "さえ"],
         "answer": 0,
         "id": "N5-13-041"
       },
       {
         "type": "文章の文法",
-        "text": "努力家である（　）、才能にも恵まれている。（62）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "にもかかわらず",
+        "text": "努<ruby>力<rt>ちから</rt></ruby><ruby>家<rt>いえ</rt></ruby>である（　）、<ruby>才能<rt>さいのう</rt></ruby>にも<ruby>恵<rt>めぐ</rt></ruby>まれている。（62）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["にもかかわらず",
           "からこそ",
           "のみならず",
-          "とはいえ"
-        ],
+          "とはいえ"],
         "answer": 2,
         "id": "N5-13-042"
       },
       {
         "type": "文章の文法",
-        "text": "一朝一夕（　）解決できるものではない。（63）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "では",
+        "text": "<ruby>一朝一夕<rt>いっちょういっせき</rt></ruby>（　）<ruby>解決<rt>かいけつ</rt></ruby>できるものではない。（63）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["では",
           "には",
           "で",
-          "に"
-        ],
+          "に"],
         "answer": 3,
         "id": "N5-13-043"
       },
@@ -14197,25 +11977,21 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "わたしは　まいにち　じてんしゃで　かいしゃに　いきます。",
         "question": "なにで　かいしゃに　いきますか。",
-        "options": [
-          "じてんしゃ",
+        "options": ["じてんしゃ",
           "でんしゃ",
           "バス",
-          "くるま"
-        ],
+          "くるま"],
         "answer": 2,
         "id": "N5-13-046"
       },
       {
         "type": "文章の文法",
-        "text": "経験（　）勝るものはない。（65）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "より",
+        "text": "<ruby>経験<rt>けいけん</rt></ruby>（　）<ruby>勝る<rt>まさる</rt></ruby>ものはない。（65）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["より",
           "を",
           "が",
-          "に"
-        ],
+          "に"],
         "answer": 3,
         "id": "N5-13-045"
       },
@@ -14223,25 +11999,21 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "とうきょうから　おおさかまで　しんかんせんで　2じかん30ぷんです。",
         "question": "どのくらい　かかりますか。",
-        "options": [
-          "2じかん",
+        "options": ["2じかん",
           "2じかん30ぷん",
           "1じかん",
-          "3じかん"
-        ],
+          "3じかん"],
         "answer": 0,
         "id": "N5-13-047"
       },
       {
         "type": "文章の文法",
-        "text": "事実（　）基づいている。（64）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "に",
+        "text": "<ruby>事<rt>こと</rt></ruby>実（　）<ruby>基づいて<rt>もとづいて</rt></ruby>いる。（64）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["に",
           "が",
           "を",
-          "と"
-        ],
+          "と"],
         "answer": 0,
         "id": "N5-13-044"
       },
@@ -14249,12 +12021,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "バスは　15ふんおきに　きます。でんしゃは　5ふんおきに　きます。",
         "question": "でんしゃは　なんぷんおきに　きますか。",
-        "options": [
-          "15ふん",
+        "options": ["15ふん",
           "10ぷん",
           "20ぷん",
-          "5ふん"
-        ],
+          "5ふん"],
         "answer": 1,
         "id": "N5-13-048"
       },
@@ -14262,12 +12032,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "きのうは　てんきが　よかったです。こうえんで　さんぽを　しました。きょうは　くもりです。すこし　さむいです。",
         "question": "きのうの　てんきは　どうでしたか。",
-        "options": [
-          "よかった",
+        "options": ["よかった",
           "あめ",
           "ゆき",
-          "くもり"
-        ],
+          "くもり"],
         "answer": 3,
         "id": "N5-13-049"
       },
@@ -14275,12 +12043,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "わたしの　しゅみは　おんがくを　きくことです。いちばん　すきな　かしゅは　あいみょんです。コンサートに　いきたいです。",
         "question": "いちばん　すきな　かしゅは　だれですか。",
-        "options": [
-          "Mrs. GREEN APPLE",
+        "options": ["Mrs. GREEN APPLE",
           "YOASOBI",
           "あいみょん",
-          "ひげだん"
-        ],
+          "ひげだん"],
         "answer": 2,
         "id": "N5-13-050"
       },
@@ -14288,192 +12054,164 @@ window.MOCK_DATA['N5'] = {
         "type": "情報検索",
         "text": "【コンサート】7がつ15にち　6じから。チケット3000えん。こども2000えん。",
         "question": "コンサートは　いつですか。",
-        "options": [
-          "7がつ15にち",
+        "options": ["7がつ15にち",
           "7がつ14にち",
           "8がつ15にち",
-          "7がつ16にち"
-        ],
+          "7がつ16にち"],
         "answer": 3,
         "id": "N5-13-051"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人と女の人が駅で話しています。何で行きますか。",
-        "question": "何で行きますか。",
-        "options": [
-          "🚃",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>と<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>駅<rt>えき</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>何<rt>なに</rt></ruby>で<ruby>行<rt>い</rt></ruby>きますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>で<ruby>行<rt>い</rt></ruby>きますか。",
+        "options": ["🚃",
           "🚌",
           "🚶",
-          "🚕"
-        ],
+          "🚕"],
         "answer": 0,
         "id": "N5-13-052",
         "script": "M: 🚃を　おねがいします。\nF: はい、わかりました。【セット13問27】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人が出かける準備をしています。女の人は何を持っていきますか。",
-        "question": "何を持っていきますか。",
-        "options": [
-          "👒",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>出かける<rt>でかける</rt></ruby><ruby>準備<rt>じゅんび</rt></ruby>をしています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>持<rt>もつ</rt></ruby>っていきますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>持<rt>もつ</rt></ruby>っていきますか。",
+        "options": ["👒",
           "🧣",
           "🧥",
-          "☂️"
-        ],
+          "☂️"],
         "answer": 3,
         "id": "N5-13-053",
         "script": "F: これですか。\nM: いいえ、☂を　ください。【セット13問28】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人がペットショップで話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🐟🐟🐟",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がペットショップで<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🐟🐟🐟",
           "🐹",
           "🐈",
-          "🐕"
-        ],
+          "🐕"],
         "answer": 0,
         "id": "N5-13-054",
         "script": "M: すみません、🐟 3つは　ありますか。\nF: はい、どうぞ。【セット13問29】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "友達同士が電話で話しています。明日何をしますか。",
-        "question": "明日何をしますか。",
-        "options": [
-          "⚽",
+        "text": "<ruby>友<rt>とも</rt></ruby>達<ruby>同<rt>どう</rt></ruby>士が<ruby>電話<rt>でんわ</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>明日<rt>あした</rt></ruby><ruby>何<rt>なに</rt></ruby>をしますか。",
+        "question": "<ruby>明日<rt>あした</rt></ruby><ruby>何<rt>なに</rt></ruby>をしますか。",
+        "options": ["⚽",
           "🎿",
           "🎾",
-          "🏊"
-        ],
+          "🏊"],
         "answer": 2,
         "id": "N5-13-055",
         "script": "M: 🎾を　ください。\nF: はい、🎾ですね。【セット13問30】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "子供がお母さんと話しています。子供は何をもらいますか。",
-        "question": "何をもらいますか。",
-        "options": [
-          "🍬🍬",
+        "text": "<ruby>子供<rt>こども</rt></ruby>が<ruby>お母さん<rt>おかあさん</rt></ruby>と<ruby>話<rt>はなし</rt></ruby>しています。<ruby>子供<rt>こども</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をもらいますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>をもらいますか。",
+        "options": ["🍬🍬",
           "🍬🍬🍬",
           "🍫",
-          "🍫🍫"
-        ],
+          "🍫🍫"],
         "answer": 1,
         "id": "N5-13-056",
         "script": "F: なにを　かいますか。\nM: 🍬 3つを　かいます。【セット13問31】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人がケーキ屋で話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🍰",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>ケーキ屋<rt>けーきや</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🍰",
           "🧁",
           "🧁🧁🧁",
-          "🍰🍰"
-        ],
+          "🍰🍰"],
         "answer": 3,
         "id": "N5-13-057",
         "script": "M: ケーキ 2つを　おねがいします。\nF: はい、わかりました。【セット13問32】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "研修を聞いています。話者が最も強調しているのは何ですか。（73）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>研修<rt>けんしゅう</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（73）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-13-058",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット13問33】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "講演を聞いています。話者が最も強調しているのは何ですか。（76）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>講<rt>こう</rt></ruby><ruby>演<rt>えん</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（76）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📕"
-        ],
+          "📕"],
         "answer": 3,
         "id": "N5-13-061",
         "script": "きょうは　ほんについて　はなします。ほんは　だいじです。【セット13問34】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "ミーティングを聞いています。話者が最も強調しているのは何ですか。（75）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "ミーティングを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（75）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-13-060",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット13問35】"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "謝罪したい場面です。（64）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>謝罪<rt>しゃざい</rt></ruby>したい<ruby>場<rt>ば</rt></ruby>面です。（64）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📆"
-        ],
+          "📆"],
         "answer": 3,
         "id": "N5-13-067",
         "script": "📆です。【セット13問36】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "ニュースを聞いています。話者が最も強調しているのは何ですか。（77）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "ニュースを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（77）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-13-062",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット13問37】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "何階ですか。（97）",
-        "question": "返答は？",
-        "options": [
-          "3階です",
-          "いいえ、違います",
-          "はい、食べました",
-          "わかりません"
-        ],
+        "text": "<ruby>何<rt>なに</rt></ruby><ruby>階<rt>かい</rt></ruby>ですか。（97）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["3<ruby>階<rt>かい</rt></ruby>です",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "わかりません"],
         "answer": 0,
         "id": "N5-13-069"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "お礼を言いたい場面です。（61）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "お礼を<ruby>言<rt>い</rt></ruby>いたい<ruby>場<rt>ば</rt></ruby>面です。（61）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-13-064",
         "script": "ピンです。【セット13問39】"
@@ -14481,53 +12219,45 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "どちらがいいですか。（98）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
           "こちらがいいです",
-          "はい、食べました",
-          "わかりません"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "わかりません"],
         "answer": 1,
         "id": "N5-13-070"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "恩を感じていることを伝えたい場面です。（63）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>恩<rt>おん</rt></ruby>を<ruby>感<rt>かん</rt></ruby>じていることを<ruby>伝<rt>でん</rt></ruby>えたい<ruby>場<rt>ば</rt></ruby>面です。（63）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-13-066",
         "script": "ピンです。【セット13問41】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "もう終わりましたか。（99）",
-        "question": "返答は？",
-        "options": [
-          "はい、終わりました",
-          "はい、食べました",
+        "text": "もう<ruby>終わり<rt>おわり</rt></ruby>ましたか。（99）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>終わり<rt>おわり</rt></ruby>ました",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
           "わかりません",
-          "いいえ、違います"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 0,
         "id": "N5-13-071"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "お詫びを入れたい場面です。（65）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "お詫びを<ruby>入<rt>はい</rt></ruby>れたい<ruby>場<rt>ば</rt></ruby>面です。（65）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-13-068",
         "script": "ピンです。【セット13問43】"
@@ -14535,587 +12265,491 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "どうしましたか。（100）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
-          "いいえ、違います",
-          "少し疲れました",
-          "わかりません"
-        ],
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "<ruby>少し<rt>すこし</rt></ruby><ruby>疲れ<rt>つかれ</rt></ruby>ました",
+          "わかりません"],
         "answer": 2,
         "id": "N5-13-072"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "感謝を伝えたい場面です。（62）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>感謝<rt>かんしゃ</rt></ruby>を<ruby>伝<rt>でん</rt></ruby>えたい<ruby>場<rt>ば</rt></ruby>面です。（62）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-13-065",
         "script": "ピンです。【セット13問45】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "お腹空きましたか。（101）",
-        "question": "返答は？",
-        "options": [
-          "少し空きました",
-          "いいえ、違います",
+        "text": "お腹<ruby>空<rt>そら</rt></ruby>きましたか。（101）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["<ruby>少し<rt>すこし</rt></ruby><ruby>空<rt>そら</rt></ruby>きました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
           "わかりません",
-          "はい、食べました"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 0,
         "id": "N5-13-073"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "インタビューを聞いています。話者が最も強調しているのは何ですか。（78）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "インタビューを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（78）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-13-063",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット13問47】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "眠いですか。（102）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "はい、食べました",
-          "いいえ、違います",
-          "少し眠いです"
-        ],
+        "text": "<ruby>眠い<rt>ねむい</rt></ruby>ですか。（102）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "<ruby>少し<rt>すこし</rt></ruby><ruby>眠い<rt>ねむい</rt></ruby>です"],
         "answer": 3,
         "id": "N5-13-074"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "朝礼を聞いています。話者が最も強調しているのは何ですか。（74）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>朝<rt>あさ</rt></ruby>礼を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（74）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-13-059",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット13問49】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "準備できましたか。（103）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
+        "text": "<ruby>準備<rt>じゅんび</rt></ruby>できましたか。（103）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
           "はい、できました",
           "わかりません",
-          "いいえ、違います"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 1,
         "id": "N5-13-075"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "分かりましたか。（104）",
-        "question": "返答は？",
-        "options": [
-          "はい、分かりました",
-          "いいえ、違います",
+        "text": "<ruby>分<rt>ふん</rt></ruby>かりましたか。（104）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>分<rt>ふん</rt></ruby>かりました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
           "わかりません",
-          "はい、食べました"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 0,
         "id": "N5-13-076"
       },
       {
         "type": "漢字読み",
         "text": "<u>算</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "いま、こん",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["いま、こん",
           "はち、や",
           "ねん、とし",
-          "さん"
-        ],
+          "さん"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>目</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "め",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["め",
           "きゅう、く",
           "がつ、つき",
-          "せん、さき"
-        ],
+          "せん、さき"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>母</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "はは、かあ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["はは、かあ",
           "じゅう、とお",
           "にち、ひ",
-          "らい、く"
-        ],
+          "らい、く"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>右</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "みぎ、う",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["みぎ、う",
           "ひゃく",
           "しゅう",
-          "まい"
-        ],
+          "まい"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>百</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "ひゃく",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["ひゃく",
           "せん",
           "じ、とき",
-          "ひと、にん"
-        ],
+          "ひと、にん"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>黒</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "くろ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["くろ",
           "まん",
           "ふん、ぶん",
-          "こ、し"
-        ],
+          "こ、し"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>食</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "おんな、じょ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["おんな、じょ",
           "えん",
           "はん",
-          "た.べる"
-        ],
+          "た.べる"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>山</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "おとこ、だん",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["おとこ、だん",
           "ねん、とし",
           "いま、こん",
-          "やま"
-        ],
+          "やま"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>国</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "せん、さき",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["せん、さき",
           "がつ、つき",
           "くに",
-          "ちち、とう"
-        ],
+          "ちち、とう"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>室</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "らい、く",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["らい、く",
           "にち、ひ",
           "むろ",
-          "はは、かあ"
-        ],
+          "はは、かあ"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>時</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "とも、ゆう",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["とも、ゆう",
           "しゅう",
           "まい",
-          "じ、とき"
-        ],
+          "じ、とき"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>半</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "じ、とき",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["じ、とき",
           "はん",
           "ひと、にん",
-          "がく、まな"
-        ],
+          "がく、まな"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>なげる</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "放送",
-          "使う",
-          "投げる",
-          "減る"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["放<ruby>送<rt>お</rt></ruby>",
+          "<ruby>使う<rt>つかう</rt></ruby>",
+          "<ruby>投げる<rt>なげる</rt></ruby>",
+          "<ruby>減る<rt>へる</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>ながい</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "長い",
-          "困る",
-          "郵便局",
-          "下"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>長い<rt>ながい</rt></ruby>",
+          "<ruby>困る<rt>こまる</rt></ruby>",
+          "郵<ruby>便<rt>べん</rt></ruby><ruby>局<rt>きょく</rt></ruby>",
+          "<ruby>下<rt>した</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "表記",
         "text": "<u>だい</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "数える",
-          "歩く",
-          "台",
-          "辞書"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>数える<rt>かぞえる</rt></ruby>",
+          "<ruby>歩く<rt>あるく</rt></ruby>",
+          "<ruby>台<rt>だい</rt></ruby>",
+          "<ruby>辞書<rt>じしょ</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>さいこう</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "最高",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>最高<rt>さいこう</rt></ruby>",
           "繋ぐ",
-          "予約",
-          "発表"
-        ],
+          "<ruby>予<rt>よ</rt></ruby>約",
+          "<ruby>発<rt>はつ</rt></ruby>表"],
         "answer": 0
       },
       {
         "type": "表記",
         "text": "<u>ぎんこう</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "報告",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>報告<rt>ほうこく</rt></ruby>",
           "お詫び",
-          "銀行",
-          "悲しい"
-        ],
+          "<ruby>銀行<rt>ぎんこう</rt></ruby>",
+          "<ruby>悲しい<rt>かなしい</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>ぜったい</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "連絡",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>連絡<rt>れんらく</rt></ruby>",
           "失敗",
-          "言葉",
-          "絶対"
-        ],
+          "<ruby>言<rt>い</rt></ruby>葉",
+          "<ruby>絶対<rt>ぜったい</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>わたる</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "渡る",
-          "初めて",
-          "遅刻",
-          "客"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>渡る<rt>わたる</rt></ruby>",
+          "<ruby>初めて<rt>はじめて</rt></ruby>",
+          "<ruby>遅刻<rt>ちこく</rt></ruby>",
+          "<ruby>客<rt>きゃく</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "表記",
         "text": "<u>くすり</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "書く",
-          "全部",
-          "重い",
-          "薬"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>書く<rt>かく</rt></ruby>",
+          "<ruby>全部<rt>ぜんぶ</rt></ruby>",
+          "<ruby>重い<rt>おもい</rt></ruby>",
+          "<ruby>薬<rt>くすり</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "大声で（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "春",
-          "掛かる",
-          "国",
-          "叫ぶ"
-        ],
+        "text": "<ruby>大声<rt>おおごえ</rt></ruby>で（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>春<rt>はる</rt></ruby>",
+          "<ruby>掛かる<rt>かかる</rt></ruby>",
+          "<ruby>国<rt>くに</rt></ruby>",
+          "<ruby>叫ぶ<rt>さけぶ</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "犬が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "鳴く",
-          "時計",
+        "text": "<ruby>犬<rt>いぬ</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["鳴く",
+          "<ruby>時計<rt>とけい</rt></ruby>",
           "卵",
-          "仕事"
-        ],
+          "<ruby>仕事<rt>しごと</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "電話が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "鳴る",
+        "text": "<ruby>電話<rt>でんわ</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["鳴る",
           "落ちる",
-          "階段",
-          "事故"
-        ],
+          "<ruby>階段<rt>かいだん</rt></ruby>",
+          "<ruby>事故<rt>じこ</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "星が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "部屋",
-          "住む",
-          "光る"
-        ],
+        "text": "<ruby>星<rt>ほし</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>部屋<rt>へや</rt></ruby>",
+          "<ruby>住む<rt>すむ</rt></ruby>",
+          "<ruby>光る<rt>ひかる</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "火が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "服",
-          "先輩",
-          "集まる",
-          "燃える"
-        ],
+        "text": "<ruby>火<rt>ひ</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>服<rt>ふく</rt></ruby>",
+          "<ruby>先輩<rt>せんぱい</rt></ruby>",
+          "<ruby>集まる<rt>あつまる</rt></ruby>",
+          "燃える"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "火が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "番",
-          "甘い",
+        "text": "<ruby>火<rt>ひ</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>番<rt>ばん</rt></ruby>",
+          "<ruby>甘い<rt>あまい</rt></ruby>",
           "消える",
-          "だんだん"
-        ],
+          "だんだん"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "雪が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "散らかす",
-          "溶ける",
-          "思い出",
-          "ボタン"
-        ],
+        "text": "<ruby>雪<rt>ゆき</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>散らかす<rt>ちらかす</rt></ruby>",
+          "<ruby>溶ける<rt>とける</rt></ruby>",
+          "<ruby>思い出<rt>おもいで</rt></ruby>",
+          "ボタン"],
         "answer": 1
       },
       {
         "type": "文脈規定",
-        "text": "水が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "閉める",
+        "text": "<ruby>水<rt>みず</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>閉める<rt>しめる</rt></ruby>",
           "お弁当",
-          "凍る",
-          "多い"
-        ],
+          "<ruby>凍る<rt>こおる</rt></ruby>",
+          "<ruby>多い<rt>おおい</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "洗濯物が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "成功する",
-          "乾く",
-          "止まる",
-          "少し"
-        ],
+        "text": "<ruby>洗濯<rt>せんたく</rt></ruby><ruby>物<rt>もの</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>成功<rt>せいこう</rt></ruby>する",
+          "<ruby>乾く<rt>かわく</rt></ruby>",
+          "<ruby>止まる<rt>とまる</rt></ruby>",
+          "<ruby>少し<rt>すこし</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "文脈規定",
-        "text": "雨で（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "濡れる",
-          "興味",
-          "杯",
-          "脱ぐ"
-        ],
+        "text": "<ruby>雨<rt>あめ</rt></ruby>で（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>濡れる<rt>ぬれる</rt></ruby>",
+          "<ruby>興味<rt>きょうみ</rt></ruby>",
+          "<ruby>杯<rt>さかずき</rt></ruby>",
+          "<ruby>脱ぐ<rt>ぬぐ</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "服が（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "離す",
+        "text": "<ruby>服<rt>ふく</rt></ruby>が（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>離す<rt>はなす</rt></ruby>",
           "昼",
-          "汚れる",
-          "選ぶ"
-        ],
+          "<ruby>汚れる<rt>よごれる</rt></ruby>",
+          "選ぶ"],
         "answer": 2
       },
       {
         "type": "文脈規定",
-        "text": "部屋を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "片付ける",
-          "紙",
+        "text": "<ruby>部屋<rt>へや</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["片付ける",
+          "<ruby>紙<rt>かみ</rt></ruby>",
           "カフェ",
-          "下手"
-        ],
+          "<ruby>下手<rt>へた</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "文脈規定",
-        "text": "部屋を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "意見",
-          "散らかす",
-          "秋",
-          "もう"
-        ],
+        "text": "<ruby>部屋<rt>へや</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>意見<rt>いけん</rt></ruby>",
+          "<ruby>散らかす<rt>ちらかす</rt></ruby>",
+          "<ruby>秋<rt>あき</rt></ruby>",
+          "もう"],
         "answer": 1
       },
       {
         "type": "文脈規定",
         "text": "プレゼントを（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "悲しむ",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>悲しむ<rt>かなしむ</rt></ruby>",
           "おばあさん",
           "そこ",
-          "包む"
-        ],
+          "<ruby>包む<rt>つつむ</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "紐で（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "狭い",
+        "text": "<ruby>紐<rt>ひも</rt></ruby>で（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>狭い<rt>せまい</rt></ruby>",
           "テーブル",
           "片付ける",
-          "縛る"
-        ],
+          "<ruby>縛る<rt>しばる</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "言い換え",
         "text": "<ruby>空<rt>そら</rt></ruby>を見るの意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "天空",
-          "会う",
-          "渡る",
-          "郵便局"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>天<rt>てん</rt></ruby><ruby>空<rt>そら</rt></ruby>",
+          "<ruby>会う<rt>あう</rt></ruby>",
+          "<ruby>渡る<rt>わたる</rt></ruby>",
+          "郵<ruby>便<rt>べん</rt></ruby><ruby>局<rt>きょく</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "言い換え",
         "text": "今日の<ruby>天気<rt>てんき</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "到着",
-          "天候",
-          "薬",
-          "数える"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>到<rt>とう</rt></ruby><ruby>着<rt>ちゃく</rt></ruby>",
+          "<ruby>天候<rt>てんこう</rt></ruby>",
+          "<ruby>薬<rt>くすり</rt></ruby>",
+          "<ruby>数える<rt>かぞえる</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "言い換え",
         "text": "<ruby>時間<rt>じかん</rt></ruby>がないの意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "全然",
-          "自然",
-          "時刻",
-          "予約"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>全<rt>ぜん</rt></ruby>然",
+          "<ruby>自<rt>みずか</rt></ruby>然",
+          "<ruby>時刻<rt>じこく</rt></ruby>",
+          "<ruby>予<rt>よ</rt></ruby>約"],
         "answer": 2
       },
       {
         "type": "言い換え",
         "text": "<ruby>電話<rt>でんわ</rt></ruby>をかけるの意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "通話",
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>通<rt>つう</rt></ruby><ruby>話<rt>はなし</rt></ruby>",
           "ジュース",
           "ベランダ",
-          "報告"
-        ],
+          "<ruby>報告<rt>ほうこく</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "言い換え",
         "text": "<ruby>大きい<rt>おおきい</rt></ruby>家の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "これ",
-          "巨大",
-          "休む",
-          "言葉"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["これ",
+          "<ruby>巨大<rt>きょだい</rt></ruby>",
+          "<ruby>休む<rt>やすむ</rt></ruby>",
+          "<ruby>言<rt>い</rt></ruby>葉"],
         "answer": 1
       }
     ],
@@ -15124,12 +12758,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "ふね（　）いきます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "を",
+        "options": ["を",
           "たくさん",
           "で",
-          "まえ"
-        ],
+          "まえ"],
         "answer": 2,
         "id": "N5-14-026"
       },
@@ -15137,12 +12769,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "かぞく（　）すんでいます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "とても",
+        "options": ["とても",
           "まで",
           "まえ",
-          "と"
-        ],
+          "と"],
         "answer": 3,
         "id": "N5-14-030"
       },
@@ -15150,12 +12780,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "3にん（　）いきます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "すこし",
+        "options": ["すこし",
           "あと",
           "から",
-          "で"
-        ],
+          "で"],
         "answer": 3,
         "id": "N5-14-028"
       },
@@ -15163,12 +12791,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "いっしょ（　）いきましょう。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "も",
+        "options": ["も",
           "とき",
           "すこし",
-          "に"
-        ],
+          "に"],
         "answer": 3,
         "id": "N5-14-032"
       },
@@ -15176,12 +12802,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "タクシー（　）いきます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "まで",
+        "options": ["まで",
           "すこし",
           "たくさん",
-          "で"
-        ],
+          "で"],
         "answer": 3,
         "id": "N5-14-027"
       },
@@ -15189,12 +12813,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "しずか（　）してください。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "あまり",
+        "options": ["あまり",
           "で",
           "に",
-          "すこし"
-        ],
+          "すこし"],
         "answer": 2,
         "id": "N5-14-033"
       },
@@ -15202,12 +12824,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "ひとり（　）すんでいます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "とても",
+        "options": ["とても",
           "で",
           "を",
-          "とき"
-        ],
+          "とき"],
         "answer": 1,
         "id": "N5-14-029"
       },
@@ -15215,12 +12835,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "きれい（　）してください。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "に",
+        "options": ["に",
           "あと",
           "とき",
-          "と"
-        ],
+          "と"],
         "answer": 0,
         "id": "N5-14-034"
       },
@@ -15228,12 +12846,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "みんな（　）たべましょう。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "と",
+        "options": ["と",
           "とき",
           "で",
-          "すこし"
-        ],
+          "すこし"],
         "answer": 2,
         "id": "N5-14-031"
       },
@@ -15241,142 +12857,120 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "げんき（　）なってください。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "の",
+        "options": ["の",
           "に",
           "ながら",
-          "まえ"
-        ],
+          "まえ"],
         "answer": 1,
         "id": "N5-14-035"
       },
       {
         "type": "文の組み立て",
-        "text": "【日常会話・問66（N5レベル）】次の語句を正しい順序に並べてください：多いです / 勉強して / いる / 学生が / 日本語を",
-        "question": "正しい順序は？",
-        "options": [
-          "多いです 日本語を 勉強して いる 学生が",
-          "勉強して いる 学生が 多いです 日本語を",
-          "日本語を勉強している学生が多いです",
-          "多いです 学生が いる 勉強して 日本語を"
-        ],
+        "text": "【<ruby>日常<rt>にちじょう</rt></ruby><ruby>会話<rt>かいわ</rt></ruby>・<ruby>問<rt>とん</rt></ruby>66（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>多い<rt>おおい</rt></ruby>です / <ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>して / いる / <ruby>学生<rt>がくせい</rt></ruby>が / <ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>多い<rt>おおい</rt></ruby>です <ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を <ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>して いる <ruby>学生<rt>がくせい</rt></ruby>が",
+          "<ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>して いる <ruby>学生<rt>がくせい</rt></ruby>が <ruby>多い<rt>おおい</rt></ruby>です <ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を",
+          "<ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を<ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>している<ruby>学生<rt>がくせい</rt></ruby>が<ruby>多い<rt>おおい</rt></ruby>です",
+          "<ruby>多い<rt>おおい</rt></ruby>です <ruby>学生<rt>がくせい</rt></ruby>が いる <ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>して <ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を"],
         "answer": 3,
         "id": "N5-14-036"
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問67（N4レベル）】次の語句を正しい順序に並べてください：私には / 難しすぎて / 解けません / この問題は",
-        "question": "正しい順序は？",
-        "options": [
-          "この問題は難しすぎて私には解けません",
-          "解けません 私には 難しすぎて この問題は",
-          "解けません この問題は 難しすぎて 私には",
-          "難しすぎて 私には 解けません この問題は"
-        ],
+        "text": "【ビジネス・<ruby>問<rt>とん</rt></ruby>67（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>私<rt>わたし</rt></ruby>には / <ruby>難<rt>なん</rt></ruby>しすぎて / <ruby>解<rt>かい</rt></ruby>けません / この<ruby>問題<rt>もんだい</rt></ruby>は",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["この<ruby>問題<rt>もんだい</rt></ruby>は<ruby>難<rt>なん</rt></ruby>しすぎて<ruby>私<rt>わたし</rt></ruby>には<ruby>解<rt>かい</rt></ruby>けません",
+          "<ruby>解<rt>かい</rt></ruby>けません <ruby>私<rt>わたし</rt></ruby>には <ruby>難<rt>なん</rt></ruby>しすぎて この<ruby>問題<rt>もんだい</rt></ruby>は",
+          "<ruby>解<rt>かい</rt></ruby>けません この<ruby>問題<rt>もんだい</rt></ruby>は <ruby>難<rt>なん</rt></ruby>しすぎて <ruby>私<rt>わたし</rt></ruby>には",
+          "<ruby>難<rt>なん</rt></ruby>しすぎて <ruby>私<rt>わたし</rt></ruby>には <ruby>解<rt>かい</rt></ruby>けません この<ruby>問題<rt>もんだい</rt></ruby>は"],
         "answer": 0,
         "id": "N5-14-037"
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問68（N3レベル）】次の語句を正しい順序に並べてください：3年間 / 彼は / 住んで / アメリカに / いました",
-        "question": "正しい順序は？",
-        "options": [
-          "いました 住んで 3年間 アメリカに 彼は",
-          "いました 彼は アメリカに 3年間 住んで",
-          "アメリカに 3年間 住んで いました 彼は",
-          "彼はアメリカに3年間住んでいました"
-        ],
+        "text": "【<ruby>学校<rt>がっこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>68（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：3<ruby>年間<rt>ねんかん</rt></ruby> / <ruby>彼<rt>かれ</rt></ruby>は / <ruby>住<rt>すわる</rt></ruby>んで / アメリカに / いました",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["いました <ruby>住<rt>すわる</rt></ruby>んで 3<ruby>年間<rt>ねんかん</rt></ruby> アメリカに <ruby>彼<rt>かれ</rt></ruby>は",
+          "いました <ruby>彼<rt>かれ</rt></ruby>は アメリカに 3<ruby>年間<rt>ねんかん</rt></ruby> <ruby>住<rt>すわる</rt></ruby>んで",
+          "アメリカに 3<ruby>年間<rt>ねんかん</rt></ruby> <ruby>住<rt>すわる</rt></ruby>んで いました <ruby>彼<rt>かれ</rt></ruby>は",
+          "<ruby>彼<rt>かれ</rt></ruby>はアメリカに3<ruby>年間<rt>ねんかん</rt></ruby><ruby>住<rt>すわる</rt></ruby>んでいました"],
         "answer": 2,
         "id": "N5-14-038"
       },
       {
         "type": "文の組み立て",
-        "text": "【旅行・問69（N2レベル）】次の語句を正しい順序に並べてください：遅れた / ため / 電車が / 遅刻して / しまいました",
-        "question": "正しい順序は？",
-        "options": [
-          "電車が遅れたため遅刻してしまいました",
-          "しまいました 電車が 遅れた ため 遅刻して",
-          "しまいました 遅刻して ため 遅れた 電車が",
-          "遅れた ため 遅刻して しまいました 電車が"
-        ],
+        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>69（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>遅れ<rt>おくれ</rt></ruby>た / ため / <ruby>電車<rt>でんしゃ</rt></ruby>が / <ruby>遅刻<rt>ちこく</rt></ruby>して / しまいました",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>遅れ<rt>おくれ</rt></ruby>たため<ruby>遅刻<rt>ちこく</rt></ruby>してしまいました",
+          "しまいました <ruby>電車<rt>でんしゃ</rt></ruby>が <ruby>遅れ<rt>おくれ</rt></ruby>た ため <ruby>遅刻<rt>ちこく</rt></ruby>して",
+          "しまいました <ruby>遅刻<rt>ちこく</rt></ruby>して ため <ruby>遅れ<rt>おくれ</rt></ruby>た <ruby>電車<rt>でんしゃ</rt></ruby>が",
+          "<ruby>遅れ<rt>おくれ</rt></ruby>た ため <ruby>遅刻<rt>ちこく</rt></ruby>して しまいました <ruby>電車<rt>でんしゃ</rt></ruby>が"],
         "answer": 3,
         "id": "N5-14-039"
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問70（N1レベル）】次の語句を正しい順序に並べてください：面白いと / 思います / とても / この映画は",
-        "question": "正しい順序は？",
-        "options": [
-          "この映画はとても面白いと思います",
-          "思います 面白いと とても この映画は",
-          "とても 面白いと 思います この映画は",
-          "思います この映画は とても 面白いと"
-        ],
+        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>とん</rt></ruby>70（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：面白いと / <ruby>思い<rt>おもい</rt></ruby>ます / とても / この<ruby>映画<rt>えいが</rt></ruby>は",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["この<ruby>映画<rt>えいが</rt></ruby>はとても面白いと<ruby>思い<rt>おもい</rt></ruby>ます",
+          "<ruby>思い<rt>おもい</rt></ruby>ます 面白いと とても この<ruby>映画<rt>えいが</rt></ruby>は",
+          "とても 面白いと <ruby>思い<rt>おもい</rt></ruby>ます この<ruby>映画<rt>えいが</rt></ruby>は",
+          "<ruby>思い<rt>おもい</rt></ruby>ます この<ruby>映画<rt>えいが</rt></ruby>は とても 面白いと"],
         "answer": 1,
         "id": "N5-14-040"
       },
       {
         "type": "文章の文法",
-        "text": "健康（　）、何事も始まらない。（66）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "なくして",
+        "text": "健<ruby>康<rt>こう</rt></ruby>（　）、<ruby>何<rt>なに</rt></ruby><ruby>事<rt>こと</rt></ruby>も<ruby>始<rt>はじまる</rt></ruby>まらない。（66）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["なくして",
           "がなければ",
           "でなくては",
-          "ならでは"
-        ],
+          "ならでは"],
         "answer": 0,
         "id": "N5-14-041"
       },
       {
         "type": "文章の文法",
-        "text": "時間の許す（　）、できるだけ訪れたい。（67）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "うちに",
+        "text": "<ruby>時間<rt>じかん</rt></ruby>の<ruby>許す<rt>ゆるす</rt></ruby>（　）、できるだけ<ruby>訪<rt>ほう</rt></ruby>れたい。（67）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["うちに",
           "ほど",
-          "限り",
-          "まで"
-        ],
+          "<ruby>限り<rt>かぎり</rt></ruby>",
+          "まで"],
         "answer": 2,
         "id": "N5-14-042"
       },
       {
         "type": "文章の文法",
-        "text": "医師（　）、ボランティアにも熱心だ。（68）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "であれば",
-          "である傍ら",
+        "text": "<ruby>医師<rt>いし</rt></ruby>（　）、ボランティアにも<ruby>熱心<rt>ねっしん</rt></ruby>だ。（68）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["であれば",
+          "である<ruby>傍<rt>かたわ</rt></ruby>ら",
           "なので",
-          "として"
-        ],
+          "として"],
         "answer": 1,
         "id": "N5-14-043"
       },
       {
         "type": "文章の文法",
-        "text": "医師の処方（　）使用してください。（69）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "に対して",
-          "に関して",
+        "text": "<ruby>医師<rt>いし</rt></ruby>の処<ruby>方<rt>ほう</rt></ruby>（　）<ruby>使<rt>つか</rt></ruby>用してください。（69）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["に<ruby>対して<rt>たいして</rt></ruby>",
+          "に<ruby>関して<rt>かんして</rt></ruby>",
           "によると",
-          "に従って"
-        ],
+          "に従って"],
         "answer": 3,
         "id": "N5-14-044"
       },
       {
         "type": "文章の文法",
-        "text": "予想（　）、売り上げは減少した。（70）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "に沿って",
+        "text": "<ruby>予<rt>よ</rt></ruby>想（　）、<ruby>売り上げ<rt>うりあげ</rt></ruby>は<ruby>減<rt>へん</rt></ruby><ruby>少し<rt>すこし</rt></ruby>た。（70）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["に<ruby>沿って<rt>そって</rt></ruby>",
           "に反して",
-          "通り",
-          "どおり"
-        ],
+          "<ruby>通り<rt>とおり</rt></ruby>",
+          "どおり"],
         "answer": 1,
         "id": "N5-14-045"
       },
@@ -15384,12 +12978,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "ひこうきは　9じに　しゅっぱつします。くうこうに　7じに　つきます。",
         "question": "ひこうきは　なんじに　しゅっぱつしますか。",
-        "options": [
-          "7じ",
+        "options": ["7じ",
           "9じ",
           "8じ",
-          "10じ"
-        ],
+          "10じ"],
         "answer": 2,
         "id": "N5-14-046"
       },
@@ -15397,12 +12989,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "わたしは　まいあさ　シャワーを　あびます。かおを　あらって、はを　みがきます。",
         "question": "まいあさ　なにを　しますか。",
-        "options": [
-          "シャワーを　あびます",
+        "options": ["シャワーを　あびます",
           "テレビを　みます",
           "ごはんを　たべます",
-          "さんぽを　します"
-        ],
+          "さんぽを　します"],
         "answer": 0,
         "id": "N5-14-047"
       },
@@ -15410,12 +13000,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "しゅくだいは　まいにち　30ぷんです。きょうは　1じかん　しました。",
         "question": "きょうは　どのくらい　しましたか。",
-        "options": [
-          "15ふん",
+        "options": ["15ふん",
           "1じかん",
           "30ぷん",
-          "45ふん"
-        ],
+          "45ふん"],
         "answer": 2,
         "id": "N5-14-048"
       },
@@ -15423,12 +13011,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "にちようびに　サッカーを　しました。ともだちと　こうえんで　しました。2じかん　あそびました。つかれましたが、たのしかったです。",
         "question": "だれと　サッカーを　しましたか。",
-        "options": [
-          "せんせい",
+        "options": ["せんせい",
           "かぞく",
           "ひとりで",
-          "ともだち"
-        ],
+          "ともだち"],
         "answer": 3,
         "id": "N5-14-049"
       },
@@ -15436,12 +13022,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "やまださんは　えを　かくのが　すきです。まいしゅう　どようびに　えを　かきます。いろいろな　はなの　えを　かきます。",
         "question": "やまださんは　なにを　かきますか。",
-        "options": [
-          "はなの　え",
+        "options": ["はなの　え",
           "どうぶつの　え",
           "うみの　え",
-          "やまの　え"
-        ],
+          "やまの　え"],
         "answer": 2,
         "id": "N5-14-050"
       },
@@ -15449,246 +13033,210 @@ window.MOCK_DATA['N5'] = {
         "type": "情報検索",
         "text": "【ホテル】シングル6000えん、ツイン10000えん。あさごはんつき　プラス1000えん。",
         "question": "あさごはんつきの　シングルは　いくらですか。",
-        "options": [
-          "10000えん",
+        "options": ["10000えん",
           "7000えん",
           "11000えん",
-          "6000えん"
-        ],
+          "6000えん"],
         "answer": 0,
         "id": "N5-14-051"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人がお花屋で買い物をしています。女の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🌷🌷",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がお<ruby>花屋<rt>はなや</rt></ruby>で<ruby>買い物<rt>かいもの</rt></ruby>をしています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🌷🌷",
           "🌸🌸🌸",
           "🌸🌸🌸🌸🌸",
-          "🌷🌷🌷🌷"
-        ],
+          "🌷🌷🌷🌷"],
         "answer": 2,
         "id": "N5-14-052",
         "script": "M: 🌸 5つを　おねがいします。\nF: はい、わかりました。【セット14問27】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人がアイス屋で話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🍦",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がアイス<ruby>屋<rt>や</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🍦",
           "🍦🍦",
           "🍨🍨🍨",
-          "🍨"
-        ],
+          "🍨"],
         "answer": 1,
         "id": "N5-14-053",
         "script": "F: これですか。\nM: いいえ、アイスクリーム 2つを　ください。【セット14問28】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人と女の人がスーパーで話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🍎🍎",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>と<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がスーパーで<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🍎🍎",
           "🍊🍊",
           "🍎🍎🍎",
-          "🍊🍊🍊"
-        ],
+          "🍊🍊🍊"],
         "answer": 2,
         "id": "N5-14-054",
         "script": "M: すみません、りんご 3つは　ありますか。\nF: はい、どうぞ。【セット14問29】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人がお店で買い物をしています。女の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🍇🍇🍇",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がお<ruby>店<rt>みせ</rt></ruby>で<ruby>買い物<rt>かいもの</rt></ruby>をしています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🍇🍇🍇",
           "🍌🍌🍌🍌",
           "🍌🍌",
-          "🍇🍇"
-        ],
+          "🍇🍇"],
         "answer": 1,
         "id": "N5-14-055",
         "script": "M: バナナ 4つを　ください。\nF: はい、バナナ 4つですね。【セット14問30】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人と女の人が八百屋で話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🥕🥕🥕",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>と<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>八百屋<rt>やおや</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🥕🥕🥕",
           "🍅🍅🍅",
           "🥕🥕",
-          "🍅🍅"
-        ],
+          "🍅🍅"],
         "answer": 3,
         "id": "N5-14-056",
         "script": "F: なにを　かいますか。\nM: トマト 2つを　かいます。【セット14問31】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人がコンビニで買い物をしています。女の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🥪🥪",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がコンビニで<ruby>買い物<rt>かいもの</rt></ruby>をしています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🥪🥪",
           "🍙🍙🍙",
           "🍙🍙",
-          "🥪"
-        ],
+          "🥪"],
         "answer": 2,
         "id": "N5-14-057",
         "script": "M: おにぎり 2つを　おねがいします。\nF: はい、わかりました。【セット14問32】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "説明を聞いています。話者が最も強調しているのは何ですか。（79）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>説明<rt>せつめい</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（79）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-14-058",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット14問33】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "ラジオを聞いています。話者が最も強調しているのは何ですか。（83）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "ラジオを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（83）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📕"
-        ],
+          "📕"],
         "answer": 3,
         "id": "N5-14-062",
         "script": "きょうは　ほんについて　はなします。ほんは　だいじです。【セット14問34】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "プレゼンを聞いています。話者が最も強調しているのは何ですか。（81）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "プレゼンを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（81）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-14-060",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット14問35】"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "お見舞いを言いたい場面です。（69）",
-        "question": "適切な表現は？",
-        "options": [
-          "📌",
+        "text": "<ruby>お見舞い<rt>おみまい</rt></ruby>を<ruby>言<rt>い</rt></ruby>いたい<ruby>場<rt>ば</rt></ruby>面です。（69）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📆",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-14-067",
         "script": "📆です。【セット14問36】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "会議を聞いています。話者が最も強調しているのは何ですか。（80）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>会議<rt>かいぎ</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（80）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-14-059",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット14問37】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "聞こえますか。（105）",
-        "question": "返答は？",
-        "options": [
-          "はい、聞こえます",
-          "はい、食べました",
+        "text": "<ruby>聞<rt>き</rt></ruby>こえますか。（105）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>聞<rt>き</rt></ruby>こえます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
           "わかりません",
-          "いいえ、違います"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 0,
         "id": "N5-14-069"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "許可を求めたい場面です。（66）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>許可<rt>きょか</rt></ruby>を<ruby>求<rt>もと</rt></ruby>めたい<ruby>場<rt>ば</rt></ruby>面です。（66）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-14-064",
         "script": "ピンです。【セット14問39】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "この席、空いていますか。（106）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
+        "text": "この席、<ruby>空<rt>そら</rt></ruby>いていますか。（106）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
           "わかりません",
-          "はい、食べました",
-          "はい、どうぞ"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "はい、どうぞ"],
         "answer": 3,
         "id": "N5-14-070"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "提案したい場面です。（68）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "提<ruby>案<rt>あん</rt></ruby>したい<ruby>場<rt>ば</rt></ruby>面です。（68）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-14-066",
         "script": "ピンです。【セット14問41】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "何時からですか。（107）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
+        "text": "<ruby>何時<rt>いつ</rt></ruby>からですか。（107）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
           "わかりません",
-          "10時からです",
-          "いいえ、違います"
-        ],
+          "10<ruby>時<rt>とき</rt></ruby>からです",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 2,
         "id": "N5-14-071"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "励ましたい場面です。（70）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>励<rt>はげ</rt></ruby>ましたい<ruby>場<rt>ば</rt></ruby>面です。（70）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-14-068",
         "script": "ピンです。【セット14問43】"
@@ -15696,468 +13244,392 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "コンビニはありますか。（108）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
           "わかりません",
-          "いいえ、違います",
-          "あの角にあります"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "あの<ruby>角<rt>かど</rt></ruby>にあります"],
         "answer": 3,
         "id": "N5-14-072"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "確認したい場面です。（67）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>確認<rt>かくにん</rt></ruby>したい<ruby>場<rt>ば</rt></ruby>面です。（67）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-14-065",
         "script": "ピンです。【セット14問45】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "手伝ってもらえますか。（109）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
-          "いいえ、違います",
+        "text": "<ruby>手<rt>て</rt></ruby><ruby>伝<rt>でん</rt></ruby>ってもらえますか。（109）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
           "はい、いいですよ",
-          "わかりません"
-        ],
+          "わかりません"],
         "answer": 2,
         "id": "N5-14-073"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "案内を聞いています。話者が最も強調しているのは何ですか。（84）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>案内<rt>あんない</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（84）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-14-063",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット14問47】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに出せばいいですか。（110）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
-          "総務部です",
-          "はい、食べました",
-          "わかりません"
-        ],
+        "text": "どこに<ruby>出<rt>で</rt></ruby>せばいいですか。（110）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "<ruby>総務部<rt>そうむぶ</rt></ruby>です",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "わかりません"],
         "answer": 1,
         "id": "N5-14-074"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "授業を聞いています。話者が最も強調しているのは何ですか。（82）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>授業<rt>じゅぎょう</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（82）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-14-061",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット14問49】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "お名前は。（111）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
-          "いいえ、違います",
+        "text": "お<ruby>名前<rt>なまえ</rt></ruby>は。（111）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
           "わかりません",
-          "田中です"
-        ],
+          "<ruby>田<rt>た</rt></ruby><ruby>中<rt>なか</rt></ruby>です"],
         "answer": 3,
         "id": "N5-14-075"
       },
       {
         "type": "聴解（即時応答）",
         "text": "どのくらいかかりますか。（112）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
-          "10分くらいです",
-          "はい、食べました",
-          "わかりません"
-        ],
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "10<ruby>分<rt>ふん</rt></ruby>くらいです",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "わかりません"],
         "answer": 1,
         "id": "N5-14-076"
       },
       {
         "type": "漢字読み",
         "text": "<u>高</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "ふん、ぶん",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["ふん、ぶん",
           "たか、こう",
           "こ、し",
-          "こう"
-        ],
+          "こう"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>千</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "せん",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["せん",
           "はん",
           "おんな、じょ",
-          "せい、う"
-        ],
+          "せい、う"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>音</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "おとこ、だん",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["おとこ、だん",
           "いま、こん",
           "おと",
-          "ほん、もと"
-        ],
+          "ほん、もと"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>大</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "ちち、とう",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["ちち、とう",
           "せん、さき",
           "おお、だい",
-          "なに、なん"
-        ],
+          "なに、なん"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>理</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "うえ、じょう",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["うえ、じょう",
           "らい、く",
           "はは、かあ",
-          "り"
-        ],
+          "り"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>会</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "まい",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["まい",
           "あ",
           "とも、ゆう",
-          "した、か"
-        ],
+          "した、か"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>貝</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "がく、まな",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["がく、まな",
           "ひと、にん",
           "かい",
-          "なか、ちゅう"
-        ],
+          "なか、ちゅう"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>王</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "おう",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["おう",
           "こ、し",
           "こう",
-          "そと、がい"
-        ],
+          "そと、がい"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>友</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "せい、う",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["せい、う",
           "おんな、じょ",
           "とも、ゆう",
-          "みぎ、う"
-        ],
+          "みぎ、う"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>一</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "ほん、もと",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["ほん、もと",
           "おとこ、だん",
           "いち、ひと",
-          "ひだり、さ"
-        ],
+          "ひだり、さ"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>人</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "なに、なん",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["なに、なん",
           "ちち、とう",
           "ひと、にん",
-          "きた、ほく"
-        ],
+          "きた、ほく"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>南</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "はやし",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["はやし",
           "はは、かあ",
           "うえ、じょう",
-          "みなみ、なん"
-        ],
+          "みなみ、なん"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>ぜんぜん</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "靴",
-          "全然",
-          "一緒に",
-          "調べる"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>靴<rt>くつ</rt></ruby>",
+          "<ruby>全<rt>ぜん</rt></ruby>然",
+          "<ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に",
+          "調べる"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>やすむ</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "断る",
-          "休む",
-          "夏",
-          "公園"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>断る<rt>ことわる</rt></ruby>",
+          "<ruby>休む<rt>やすむ</rt></ruby>",
+          "<ruby>夏<rt>なつ</rt></ruby>",
+          "<ruby>公園<rt>こうえん</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>くらい</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "暗い",
-          "料理する",
-          "忙しい",
-          "ご飯"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>暗い<rt>くらい</rt></ruby>",
+          "料<ruby>理<rt>り</rt></ruby>する",
+          "<ruby>忙しい<rt>いそがしい</rt></ruby>",
+          "<ruby>ご飯<rt>ごはん</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "表記",
         "text": "<u>つかう</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "一枚",
-          "放送",
-          "減る",
-          "使う"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>一<rt>いち</rt></ruby><ruby>枚<rt>まい</rt></ruby>",
+          "放<ruby>送<rt>お</rt></ruby>",
+          "<ruby>減る<rt>へる</rt></ruby>",
+          "<ruby>使う<rt>つかう</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>こまる</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "郵便局",
-          "困る",
-          "下",
-          "発見"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["郵<ruby>便<rt>べん</rt></ruby><ruby>局<rt>きょく</rt></ruby>",
+          "<ruby>困る<rt>こまる</rt></ruby>",
+          "<ruby>下<rt>した</rt></ruby>",
+          "<ruby>発見<rt>はっけん</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>あるく</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "引っ越す",
-          "数える",
-          "辞書",
-          "歩く"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>引っ越す<rt>ひっこす</rt></ruby>",
+          "<ruby>数える<rt>かぞえる</rt></ruby>",
+          "<ruby>辞書<rt>じしょ</rt></ruby>",
+          "<ruby>歩く<rt>あるく</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>つなぐ</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "悪い",
-          "予約",
-          "発表",
-          "繋ぐ"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>悪い<rt>わるい</rt></ruby>",
+          "<ruby>予<rt>よ</rt></ruby>約",
+          "<ruby>発<rt>はつ</rt></ruby>表",
+          "繋ぐ"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>おわび</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "習慣",
-          "報告",
-          "悲しい",
-          "お詫び"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>習慣<rt>しゅうかん</rt></ruby>",
+          "<ruby>報告<rt>ほうこく</rt></ruby>",
+          "<ruby>悲しい<rt>かなしい</rt></ruby>",
+          "お詫び"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "材料を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "机",
+        "text": "<ruby>材<rt>ざい</rt></ruby>料を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>机<rt>つくえ</rt></ruby>",
           "だから",
           "リュック",
-          "混ぜる"
-        ],
+          "<ruby>混ぜる<rt>まぜる</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
         "text": "ケーキを（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "勉強する",
-          "分ける",
-          "お茶",
-          "質問"
-        ],
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>勉強する<rt>べんきょうする</rt></ruby>",
+          "<ruby>分ける<rt>わける</rt></ruby>",
+          "<ruby>お茶<rt>おちゃ</rt></ruby>",
+          "<ruby>質問<rt>しつもん</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "文脈規定",
-        "text": "手を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "国",
+        "text": "<ruby>手<rt>て</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>国<rt>くに</rt></ruby>",
           "繋ぐ",
-          "春",
-          "お願い"
-        ],
+          "<ruby>春<rt>はる</rt></ruby>",
+          "<ruby>お願い<rt>おねがい</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "文脈規定",
-        "text": "手を（　）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "先月",
+        "text": "<ruby>手<rt>て</rt></ruby>を（　）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>先月<rt>せんげつ</rt></ruby>",
           "卵",
-          "仕事",
-          "離す"
-        ],
+          "<ruby>仕事<rt>しごと</rt></ruby>",
+          "<ruby>離す<rt>はなす</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "文脈規定",
-        "text": "（　）は学生です",
-        "question": "（　）に入るのは？",
-        "options": [
-          "事故",
-          "階段",
-          "私",
-          "かばん"
-        ],
+        "text": "（　）は<ruby>学生<rt>がくせい</rt></ruby>です",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>事故<rt>じこ</rt></ruby>",
+          "<ruby>階段<rt>かいだん</rt></ruby>",
+          "<ruby>私<rt>わたし</rt></ruby>",
+          "かばん"],
         "answer": 2
       },
       {
         "type": "言い換え",
         "text": "<ruby>小さい<rt>ちいさい</rt></ruby>犬の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "おやすみ",
-          "小型",
-          "暗い",
-          "遅刻"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["おやすみ",
+          "<ruby>小型<rt>こがた</rt></ruby>",
+          "<ruby>暗い<rt>くらい</rt></ruby>",
+          "<ruby>遅刻<rt>ちこく</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "言い換え",
         "text": "<ruby>高い<rt>たかい</rt></ruby>ビルの意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "木曜日",
-          "高価",
-          "使う",
-          "重い"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>木曜日<rt>もくようび</rt></ruby>",
+          "<ruby>高価<rt>こうか</rt></ruby>",
+          "<ruby>使う<rt>つかう</rt></ruby>",
+          "<ruby>重い<rt>おもい</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "言い換え",
         "text": "<ruby>安い<rt>やすい</rt></ruby>店の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "一緒に",
-          "帰る",
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に",
+          "<ruby>帰る<rt>かえる</rt></ruby>",
           "さようなら",
-          "低価格"
-        ],
+          "<ruby>低<rt>てい</rt></ruby><ruby>価格<rt>かかく</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "言い換え",
         "text": "<ruby>長い<rt>ながい</rt></ruby>髪の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "夏",
-          "準備",
-          "困る",
-          "長大"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>夏<rt>なつ</rt></ruby>",
+          "<ruby>準備<rt>じゅんび</rt></ruby>",
+          "<ruby>困る<rt>こまる</rt></ruby>",
+          "<ruby>長<rt>ちょう</rt></ruby><ruby>大<rt>だい</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "言い換え",
         "text": "<ruby>短い<rt>みじかい</rt></ruby>スカートの意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "短期",
-          "洗濯機",
-          "歩く",
-          "忙しい"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>短期<rt>たんき</rt></ruby>",
+          "<ruby>洗濯<rt>せんたく</rt></ruby><ruby>機<rt>き</rt></ruby>",
+          "<ruby>歩く<rt>あるく</rt></ruby>",
+          "<ruby>忙しい<rt>いそがしい</rt></ruby>"],
         "answer": 0
       }
     ],
@@ -16166,25 +13638,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "ペン（　）かしてください。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "まえ",
+        "options": ["まえ",
           "を",
           "とても",
-          "に"
-        ],
+          "に"],
         "answer": 1,
         "id": "N5-15-026"
       },
       {
         "type": "文の組み立て",
-        "text": "【日常会話・問71（N5レベル）】次の語句を正しい順序に並べてください：母に / あげました / プレゼントを / 買って",
-        "question": "正しい順序は？",
-        "options": [
-          "あげました 母に プレゼントを 買って",
-          "母にプレゼントを買ってあげました",
-          "プレゼントを 買って あげました 母に",
-          "あげました 買って プレゼントを 母に"
-        ],
+        "text": "【<ruby>日常<rt>にちじょう</rt></ruby><ruby>会話<rt>かいわ</rt></ruby>・<ruby>問<rt>とん</rt></ruby>71（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>母<rt>はは</rt></ruby>に / あげました / プレゼントを / <ruby>買<rt>か</rt></ruby>って",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["あげました <ruby>母<rt>はは</rt></ruby>に プレゼントを <ruby>買<rt>か</rt></ruby>って",
+          "<ruby>母<rt>はは</rt></ruby>にプレゼントを<ruby>買<rt>か</rt></ruby>ってあげました",
+          "プレゼントを <ruby>買<rt>か</rt></ruby>って あげました <ruby>母<rt>はは</rt></ruby>に",
+          "あげました <ruby>買<rt>か</rt></ruby>って プレゼントを <ruby>母<rt>はは</rt></ruby>に"],
         "answer": 1,
         "id": "N5-15-036"
       },
@@ -16192,25 +13660,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "さいふ（　）おとしました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "たくさん",
+        "options": ["たくさん",
           "で",
           "を",
-          "すこし"
-        ],
+          "すこし"],
         "answer": 2,
         "id": "N5-15-028"
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問72（N4レベル）】次の語句を正しい順序に並べてください：行きたい / です / 旅行に / 友達と / 一緒に",
-        "question": "正しい順序は？",
-        "options": [
-          "です 友達と 一緒に 旅行に 行きたい",
-          "です 行きたい 旅行に 一緒に 友達と",
-          "友達と一緒に旅行に行きたいです",
-          "一緒に 旅行に 行きたい です 友達と"
-        ],
+        "text": "【ビジネス・<ruby>問<rt>とん</rt></ruby>72（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>行<rt>い</rt></ruby>きたい / です / <ruby>旅行<rt>りょこう</rt></ruby>に / <ruby>友<rt>とも</rt></ruby>達と / <ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["です <ruby>友<rt>とも</rt></ruby>達と <ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>行<rt>い</rt></ruby>きたい",
+          "です <ruby>行<rt>い</rt></ruby>きたい <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に <ruby>友<rt>とも</rt></ruby>達と",
+          "<ruby>友<rt>とも</rt></ruby>達と<ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に<ruby>旅行<rt>りょこう</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたいです",
+          "<ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>行<rt>い</rt></ruby>きたい です <ruby>友<rt>とも</rt></ruby>達と"],
         "answer": 0,
         "id": "N5-15-037"
       },
@@ -16218,25 +13682,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "やくそく（　）わすれないでください。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "の",
+        "options": ["の",
           "あと",
           "とき",
-          "を"
-        ],
+          "を"],
         "answer": 3,
         "id": "N5-15-030"
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問73（N3レベル）】次の語句を正しい順序に並べてください：ようです / いる / 降って / 雨が",
-        "question": "正しい順序は？",
-        "options": [
-          "ようです 雨が 降って いる",
-          "降って いる ようです 雨が",
-          "ようです いる 降って 雨が",
-          "雨が降っているようです"
-        ],
+        "text": "【<ruby>学校<rt>がっこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>73（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：ようです / いる / <ruby>降<rt>こう</rt></ruby>って / <ruby>雨<rt>あめ</rt></ruby>が",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["ようです <ruby>雨<rt>あめ</rt></ruby>が <ruby>降<rt>こう</rt></ruby>って いる",
+          "<ruby>降<rt>こう</rt></ruby>って いる ようです <ruby>雨<rt>あめ</rt></ruby>が",
+          "ようです いる <ruby>降<rt>こう</rt></ruby>って <ruby>雨<rt>あめ</rt></ruby>が",
+          "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>こう</rt></ruby>っているようです"],
         "answer": 2,
         "id": "N5-15-038"
       },
@@ -16244,25 +13704,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "おべんとう（　）つくりました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "を",
+        "options": ["を",
           "とても",
           "あと",
-          "へ"
-        ],
+          "へ"],
         "answer": 0,
         "id": "N5-15-032"
       },
       {
         "type": "文の組み立て",
-        "text": "【旅行・問74（N2レベル）】次の語句を正しい順序に並べてください：終えたら / ください / 仕事を / 連絡して",
-        "question": "正しい順序は？",
-        "options": [
-          "終えたら 連絡して ください 仕事を",
-          "ください 連絡して 終えたら 仕事を",
-          "ください 仕事を 終えたら 連絡して",
-          "仕事を終えたら連絡してください"
-        ],
+        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>74（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>終<rt>しゅう</rt></ruby>えたら / ください / <ruby>仕事<rt>しごと</rt></ruby>を / <ruby>連絡<rt>れんらく</rt></ruby>して",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>終<rt>しゅう</rt></ruby>えたら <ruby>連絡<rt>れんらく</rt></ruby>して ください <ruby>仕事<rt>しごと</rt></ruby>を",
+          "ください <ruby>連絡<rt>れんらく</rt></ruby>して <ruby>終<rt>しゅう</rt></ruby>えたら <ruby>仕事<rt>しごと</rt></ruby>を",
+          "ください <ruby>仕事<rt>しごと</rt></ruby>を <ruby>終<rt>しゅう</rt></ruby>えたら <ruby>連絡<rt>れんらく</rt></ruby>して",
+          "<ruby>仕事<rt>しごと</rt></ruby>を<ruby>終<rt>しゅう</rt></ruby>えたら<ruby>連絡<rt>れんらく</rt></ruby>してください"],
         "answer": 3,
         "id": "N5-15-039"
       },
@@ -16270,25 +13726,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "てがみ（　）だしました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "を",
+        "options": ["を",
           "が",
           "とても",
-          "まえ"
-        ],
+          "まえ"],
         "answer": 0,
         "id": "N5-15-034"
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問75（N1レベル）】次の語句を正しい順序に並べてください：作って / くれました / この料理は / 母が",
-        "question": "正しい順序は？",
-        "options": [
-          "くれました この料理は 母が 作って",
-          "母が 作って くれました この料理は",
-          "くれました 作って 母が この料理は",
-          "この料理は母が作ってくれました"
-        ],
+        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>とん</rt></ruby>75（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>作<rt>さく</rt></ruby>って / くれました / この料<ruby>理<rt>り</rt></ruby>は / <ruby>母<rt>はは</rt></ruby>が",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["くれました この料<ruby>理<rt>り</rt></ruby>は <ruby>母<rt>はは</rt></ruby>が <ruby>作<rt>さく</rt></ruby>って",
+          "<ruby>母<rt>はは</rt></ruby>が <ruby>作<rt>さく</rt></ruby>って くれました この料<ruby>理<rt>り</rt></ruby>は",
+          "くれました <ruby>作<rt>さく</rt></ruby>って <ruby>母<rt>はは</rt></ruby>が この料<ruby>理<rt>り</rt></ruby>は",
+          "この料<ruby>理<rt>り</rt></ruby>は<ruby>母<rt>はは</rt></ruby>が<ruby>作<rt>さく</rt></ruby>ってくれました"],
         "answer": 1,
         "id": "N5-15-040"
       },
@@ -16296,25 +13748,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "かさ（　）わすれました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "を",
+        "options": ["を",
           "たくさん",
           "とても",
-          "に"
-        ],
+          "に"],
         "answer": 0,
         "id": "N5-15-027"
       },
       {
         "type": "文章の文法",
-        "text": "努力の甲斐（　）、成功を収めた。（71）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "ゆえに",
+        "text": "努<ruby>力<rt>ちから</rt></ruby>の<ruby>甲<rt>こう</rt></ruby>斐（　）、<ruby>成功<rt>せいこう</rt></ruby>を<ruby>収<rt>しゅう</rt></ruby>めた。（71）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["ゆえに",
           "として",
           "なく",
-          "あって"
-        ],
+          "あって"],
         "answer": 3,
         "id": "N5-15-041"
       },
@@ -16322,25 +13770,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "おみやげ（　）かってきました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "から",
+        "options": ["から",
           "とても",
           "を",
-          "とき"
-        ],
+          "とき"],
         "answer": 2,
         "id": "N5-15-031"
       },
       {
         "type": "文章の文法",
-        "text": "説明を（　）、理解が深まった。（72）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "聞くほど",
-          "聞いたところ",
-          "聞くにつれ",
-          "聞くや否や"
-        ],
+        "text": "<ruby>説明<rt>せつめい</rt></ruby>を（　）、<ruby>理解<rt>りかい</rt></ruby>が<ruby>深<rt>しん</rt></ruby>まった。（72）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>聞く<rt>きく</rt></ruby>ほど",
+          "<ruby>聞<rt>き</rt></ruby>いたところ",
+          "<ruby>聞く<rt>きく</rt></ruby>につれ",
+          "<ruby>聞く<rt>きく</rt></ruby>や<ruby>否<rt>いな</rt></ruby>や"],
         "answer": 2,
         "id": "N5-15-042"
       },
@@ -16348,25 +13792,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "メール（　）おくりました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "あまり",
+        "options": ["あまり",
           "を",
           "すこし",
-          "で"
-        ],
+          "で"],
         "answer": 1,
         "id": "N5-15-035"
       },
       {
         "type": "文章の文法",
-        "text": "問題が（　）、対策を講じた。（73）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "発生次第",
-          "発生して以来",
-          "発生したとたん",
-          "発生するや"
-        ],
+        "text": "<ruby>問題<rt>もんだい</rt></ruby>が（　）、<ruby>対策<rt>たいさく</rt></ruby>を<ruby>講<rt>こう</rt></ruby>じた。（73）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>発生<rt>はっせい</rt></ruby>次第",
+          "<ruby>発生<rt>はっせい</rt></ruby>して<ruby>以来<rt>いらい</rt></ruby>",
+          "<ruby>発生<rt>はっせい</rt></ruby>したとたん",
+          "<ruby>発生する<rt>はっせいする</rt></ruby>や"],
         "answer": 0,
         "id": "N5-15-043"
       },
@@ -16374,25 +13814,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "しゃしん（　）とりました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "すこし",
+        "options": ["すこし",
           "を",
           "とき",
-          "から"
-        ],
+          "から"],
         "answer": 1,
         "id": "N5-15-033"
       },
       {
         "type": "文章の文法",
-        "text": "彼（　）、この仕事はできない。（74）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "にひきかえ",
+        "text": "<ruby>彼<rt>かれ</rt></ruby>（　）、この<ruby>仕事<rt>しごと</rt></ruby>はできない。（74）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["にひきかえ",
           "はさておき",
           "ともなく",
-          "をおいて"
-        ],
+          "をおいて"],
         "answer": 3,
         "id": "N5-15-044"
       },
@@ -16400,25 +13836,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "かぎ（　）なくしました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "あと",
+        "options": ["あと",
           "まえ",
           "を",
-          "と"
-        ],
+          "と"],
         "answer": 2,
         "id": "N5-15-029"
       },
       {
         "type": "文章の文法",
-        "text": "私（　）、そのような発言はしない。（75）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "ならでは",
+        "text": "<ruby>私<rt>わたし</rt></ruby>（　）、そのような<ruby>発言<rt>はつげん</rt></ruby>はしない。（75）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["ならでは",
           "にしても",
-          "に限って",
-          "としては"
-        ],
+          "に<ruby>限<rt>かぎ</rt></ruby>って",
+          "としては"],
         "answer": 2,
         "id": "N5-15-045"
       },
@@ -16426,12 +13858,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "わたしの　へやは　きれいです。まいにち　そうじを　します。",
         "question": "なぜ　へやは　きれいですか。",
-        "options": [
-          "あたらしいから",
+        "options": ["あたらしいから",
           "まいにち　そうじを　するから",
           "そうじを　しないから",
-          "ひろいから"
-        ],
+          "ひろいから"],
         "answer": 1,
         "id": "N5-15-046"
       },
@@ -16439,12 +13869,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "わたしは　げつようびから　きんようびまで　しごとを　します。",
         "question": "いつ　しごとを　しますか。",
-        "options": [
-          "げつようびだけ",
+        "options": ["げつようびだけ",
           "げつようびから　きんようびまで",
           "まいにち",
-          "どようびと　にちようび"
-        ],
+          "どようびと　にちようび"],
         "answer": 0,
         "id": "N5-15-047"
       },
@@ -16452,12 +13880,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "にちようびは　やすみです。かぞくと　こうえんに　いきます。",
         "question": "にちようびに　なにを　しますか。",
-        "options": [
-          "べんきょうを　します",
+        "options": ["べんきょうを　します",
           "がっこうに　いきます",
           "こうえんに　いきます",
-          "しごとを　します"
-        ],
+          "しごとを　します"],
         "answer": 1,
         "id": "N5-15-048"
       },
@@ -16465,12 +13891,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "わたしは　まいあさ　30ぷん　はしります。けんこうに　いいです。あめの　ひは　いえで　ストレッチを　します。",
         "question": "まいあさ　なにを　しますか。",
-        "options": [
-          "ストレッチ",
+        "options": ["ストレッチ",
           "ヨガ",
           "およぐ",
-          "はしる"
-        ],
+          "はしる"],
         "answer": 3,
         "id": "N5-15-049"
       },
@@ -16478,12 +13902,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "ともだちと　カラオケに　いきました。3じかん　うたいました。のどが　いたくなりました。でも　たのしかったです。",
         "question": "どのくらい　うたいましたか。",
-        "options": [
-          "3じかん",
+        "options": ["3じかん",
           "2じかん",
           "1じかん",
-          "4じかん"
-        ],
+          "4じかん"],
         "answer": 1,
         "id": "N5-15-050"
       },
@@ -16491,299 +13913,255 @@ window.MOCK_DATA['N5'] = {
         "type": "情報検索",
         "text": "【こうえん】あさ8じから　ゆうがた5じまで。いぬOK。じてんしゃはだめ。",
         "question": "こうえんに　じてんしゃで　いけますか。",
-        "options": [
-          "いけない",
+        "options": ["いけない",
           "いける",
           "ゆうがただけ",
-          "あさだけ"
-        ],
+          "あさだけ"],
         "answer": 2,
         "id": "N5-15-051"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人がパン屋で話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🍞",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>パン屋<rt>ぱんや</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🍞",
           "🥐🥐",
           "🍞🍞",
-          "🥐🥐🥐"
-        ],
+          "🥐🥐🥐"],
         "answer": 3,
         "id": "N5-15-052",
         "script": "M: 🥐 3つを　おねがいします。\nF: はい、わかりました。【セット15問27】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人がカフェで注文しています。女の人は何を頼みますか。",
-        "question": "何を頼みますか。",
-        "options": [
-          "☕☕",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がカフェで<ruby>注文<rt>ちゅうもん</rt></ruby>しています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>頼み<rt>たのみ</rt></ruby>ますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>頼み<rt>たのみ</rt></ruby>ますか。",
+        "options": ["☕☕",
           "🍵",
           "☕",
-          "🍵🍵"
-        ],
+          "🍵🍵"],
         "answer": 0,
         "id": "N5-15-053",
         "script": "F: これですか。\nM: いいえ、コーヒー 2つを　ください。【セット15問28】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人がレストランで注文しています。男の人は何を注文しますか。",
-        "question": "何を注文しますか。",
-        "options": [
-          "🍷",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がレストランで<ruby>注文<rt>ちゅうもん</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>注文<rt>ちゅうもん</rt></ruby>しますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>注文<rt>ちゅうもん</rt></ruby>しますか。",
+        "options": ["🍷",
           "🍷🍷",
           "🍺",
-          "🍺🍺"
-        ],
+          "🍺🍺"],
         "answer": 2,
         "id": "N5-15-054",
         "script": "M: すみません、🍺は　ありますか。\nF: はい、どうぞ。【セット15問29】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "学生が文房具店で買い物をしています。学生は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "📒",
+        "text": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>文<rt>ぶん</rt></ruby><ruby>房<rt>ふさ</rt></ruby><ruby>具<rt>ぐ</rt></ruby><ruby>店<rt>みせ</rt></ruby>で<ruby>買い物<rt>かいもの</rt></ruby>をしています。<ruby>学生<rt>がくせい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["📒",
           "✏️✏️✏️",
           "📒📒",
-          "✏️✏️"
-        ],
+          "✏️✏️"],
         "answer": 1,
         "id": "N5-15-055",
         "script": "M: ✏ 3つを　ください。\nF: はい、✏ 3つですね。【セット15問30】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人が本屋で話しています。女の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "📕📕",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>本屋<rt>ほんや</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["📕📕",
           "📗📗📗",
           "📗",
-          "📕"
-        ],
+          "📕"],
         "answer": 0,
         "id": "N5-15-056",
         "script": "F: なにを　かいますか。\nM: ほん 2つを　かいます。【セット15問31】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人が食堂で注文しています。男の人は何を食べますか。",
-        "question": "何を食べますか。",
-        "options": [
-          "🍱",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>食堂<rt>しょくどう</rt></ruby>で<ruby>注文<rt>ちゅうもん</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>食<rt>た</rt></ruby>べますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>食<rt>た</rt></ruby>べますか。",
+        "options": ["🍱",
           "🍣",
           "🍛",
-          "🍜"
-        ],
+          "🍜"],
         "answer": 2,
         "id": "N5-15-057",
         "script": "M: 🍛を　おねがいします。\nF: はい、わかりました。【セット15問32】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "スピーチを聞いています。話者が最も強調しているのは何ですか。（85）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "スピーチを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（85）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-15-058",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット15問33】"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "別れの挨拶をしたい場面です。（74）",
-        "question": "適切な表現は？",
-        "options": [
-          "📌",
+        "text": "<ruby>別れ<rt>わかれ</rt></ruby>の<ruby>挨<rt>あい</rt></ruby><ruby>拶<rt>さつ</rt></ruby>をしたい<ruby>場<rt>ば</rt></ruby>面です。（74）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📆",
           "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-15-067",
         "script": "📆です。【セット15問34】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "対談を聞いています。話者が最も強調しているのは何ですか。（87）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>対<rt>たい</rt></ruby>談を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（87）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-15-060",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット15問35】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "使ってもいいですか。（113）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
+        "text": "<ruby>使<rt>つか</rt></ruby>ってもいいですか。（113）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
           "どうぞ",
           "わかりません",
-          "はい、食べました"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 1,
         "id": "N5-15-069"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "解説を聞いています。話者が最も強調しているのは何ですか。（89）",
-        "question": "最も強調しているのは？",
-        "options": [
-          "📌",
+        "text": "<ruby>解説<rt>かいせつ</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（89）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📕",
           "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-15-062",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット15問37】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "もう一杯いかがですか。（114）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
-          "いいえ、違います",
+        "text": "もう<ruby>一<rt>いち</rt></ruby><ruby>杯<rt>さかずき</rt></ruby>いかがですか。（114）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
           "わかりません",
-          "いただきます"
-        ],
+          "いただきます"],
         "answer": 3,
         "id": "N5-15-070"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "祝福したい場面です。（71）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "祝福したい<ruby>場<rt>ば</rt></ruby>面です。（71）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-15-064",
         "script": "ピンです。【セット15問39】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "楽しかったですね。（115）",
-        "question": "返答は？",
-        "options": [
-          "本当ですね",
+        "text": "<ruby>楽<rt>らく</rt></ruby>しかったですね。（115）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["<ruby>本<rt>ほん</rt></ruby>当ですね",
           "わかりません",
-          "はい、食べました",
-          "いいえ、違います"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 0,
         "id": "N5-15-071"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "心配を伝えたい場面です。（73）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>心<rt>こころ</rt></ruby>配を<ruby>伝<rt>でん</rt></ruby>えたい<ruby>場<rt>ば</rt></ruby>面です。（73）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-15-066",
         "script": "ピンです。【セット15問41】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "郵便局はどこですか。（116）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
-          "この先です",
+        "text": "郵<ruby>便<rt>べん</rt></ruby><ruby>局<rt>きょく</rt></ruby>はどこですか。（116）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
+          "この<ruby>先<rt>さき</rt></ruby>です",
           "わかりません",
-          "いいえ、違います"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 1,
         "id": "N5-15-072"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "初対面の挨拶をしたい場面です。（75）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>初<rt>しょ</rt></ruby><ruby>対<rt>たい</rt></ruby>面の<ruby>挨<rt>あい</rt></ruby><ruby>拶<rt>さつ</rt></ruby>をしたい<ruby>場<rt>ば</rt></ruby>面です。（75）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-15-068",
         "script": "ピンです。【セット15問43】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "お時間よろしいですか。（117）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
-          "はい、食べました",
-          "大丈夫です",
-          "わかりません"
-        ],
+        "text": "お<ruby>時間<rt>じかん</rt></ruby>よろしいですか。（117）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "<ruby>大<rt>だい</rt></ruby><ruby>丈<rt>たけ</rt></ruby>夫です",
+          "わかりません"],
         "answer": 2,
         "id": "N5-15-073"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "討論を聞いています。話者が最も強調しているのは何ですか。（90）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "討<ruby>論<rt>ろん</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（90）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-15-063",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット15問45】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "傘はお持ちですか。（118）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
+        "text": "<ruby>傘<rt>かさ</rt></ruby>はお<ruby>持<rt>もつ</rt></ruby>ちですか。（118）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
           "わかりません",
-          "いいえ、違います",
-          "忘れました"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "<ruby>忘<rt>ぼう</rt></ruby>れました"],
         "answer": 3,
         "id": "N5-15-074"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "報告を聞いています。話者が最も強調しているのは何ですか。（86）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>報告<rt>ほうこく</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（86）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-15-059",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット15問47】"
@@ -16791,53 +14169,45 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "静かでいいですね。（119）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
           "わかりません",
           "そうですね",
-          "はい、食べました"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 2,
         "id": "N5-15-075"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "慰めたい場面です。（72）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>慰<rt>なぐさ</rt></ruby>めたい<ruby>場<rt>ば</rt></ruby>面です。（72）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-15-065",
         "script": "ピンです。【セット15問49】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "お荷物お持ちしましょうか。（120）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
+        "text": "お<ruby>荷物<rt>にもつ</rt></ruby>お<ruby>持<rt>もつ</rt></ruby>ちしましょうか。（120）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
           "ありがとうございます",
-          "はい、食べました",
-          "いいえ、違います"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 1,
         "id": "N5-15-076"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "講義を聞いています。話者が最も強調しているのは何ですか。（88）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>講義<rt>こうぎ</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（88）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-15-061",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット15問51】"
@@ -16845,301 +14215,251 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "漢字読み",
         "text": "<u>週</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "とも、ゆう",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["とも、ゆう",
           "しゅう",
           "した、か",
-          "ひがし、とう"
-        ],
+          "ひがし、とう"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>虫</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "むし",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["むし",
           "がく、まな",
           "なか、ちゅう",
-          "にし、せい"
-        ],
+          "にし、せい"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>森</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "もり",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["もり",
           "こう",
           "そと、がい",
-          "おお、だい"
-        ],
+          "おお、だい"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>竹</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "たけ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["たけ",
           "せい、う",
           "みぎ、う",
-          "ちい、しょう"
-        ],
+          "ちい、しょう"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>三</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "たか、こう",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["たか、こう",
           "ほん、もと",
           "ひだり、さ",
-          "さん、み"
-        ],
+          "さん、み"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>今</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "きた、ほく",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["きた、ほく",
           "なに、なん",
           "いま、こん",
-          "もり"
-        ],
+          "もり"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>力</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "はやし",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["はやし",
           "うえ、じょう",
           "みなみ、なん",
-          "ちから"
-        ],
+          "ちから"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>弓</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "ひがし、とう",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["ひがし、とう",
           "した、か",
           "ゆみ",
-          "たけ"
-        ],
+          "たけ"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>買</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "なか、ちゅう",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["なか、ちゅう",
           "か.う",
           "にし、せい",
-          "くさ"
-        ],
+          "くさ"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>公</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "おお、だい",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["おお、だい",
           "そと、がい",
           "おおやけ",
-          "むし"
-        ],
+          "むし"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>読</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "かい",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["かい",
           "みぎ、う",
           "ちい、しょう",
-          "よ.む"
-        ],
+          "よ.む"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>入</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "たか、こう",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["たか、こう",
           "ひだり、さ",
           "はい.る",
-          "いし"
-        ],
+          "いし"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>しっぱい</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "立つ",
-          "言葉",
-          "連絡",
-          "失敗"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["立つ",
+          "<ruby>言<rt>い</rt></ruby>葉",
+          "<ruby>連絡<rt>れんらく</rt></ruby>",
+          "失敗"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>はじめて</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "遅刻",
-          "初めて",
-          "客",
-          "描く"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>遅刻<rt>ちこく</rt></ruby>",
+          "<ruby>初めて<rt>はじめて</rt></ruby>",
+          "<ruby>客<rt>きゃく</rt></ruby>",
+          "<ruby>描く<rt>えがく</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>ぜんぶ</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "会社員",
-          "重い",
-          "書く",
-          "全部"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>会社<rt>かいしゃ</rt></ruby><ruby>員<rt>いん</rt></ruby>",
+          "<ruby>重い<rt>おもい</rt></ruby>",
+          "<ruby>書く<rt>かく</rt></ruby>",
+          "<ruby>全部<rt>ぜんぶ</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>くつ</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "靴",
-          "一緒に",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>靴<rt>くつ</rt></ruby>",
+          "<ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に",
           "調べる",
-          "天気"
-        ],
+          "<ruby>天気<rt>てんき</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "表記",
         "text": "<u>ことわる</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "公園",
-          "夏",
-          "断る",
-          "山"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>公園<rt>こうえん</rt></ruby>",
+          "<ruby>夏<rt>なつ</rt></ruby>",
+          "<ruby>断る<rt>ことわる</rt></ruby>",
+          "<ruby>山<rt>やま</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>りょうりする</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "ご飯",
-          "忙しい",
-          "料理する",
-          "二つ"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>ご飯<rt>ごはん</rt></ruby>",
+          "<ruby>忙しい<rt>いそがしい</rt></ruby>",
+          "料<ruby>理<rt>り</rt></ruby>する",
+          "<ruby>二つ<rt>ふたつ</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>ほうそう</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "足りる",
-          "減る",
-          "一枚",
-          "放送"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>足りる<rt>たりる</rt></ruby>",
+          "<ruby>減る<rt>へる</rt></ruby>",
+          "<ruby>一<rt>いち</rt></ruby><ruby>枚<rt>まい</rt></ruby>",
+          "放<ruby>送<rt>お</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>ゆうびんきょく</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "発見",
-          "下",
-          "郵便局",
-          "確認"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>発見<rt>はっけん</rt></ruby>",
+          "<ruby>下<rt>した</rt></ruby>",
+          "郵<ruby>便<rt>べん</rt></ruby><ruby>局<rt>きょく</rt></ruby>",
+          "<ruby>確認<rt>かくにん</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "言い換え",
         "text": "<ruby>新しい<rt>あたらしい</rt></ruby>車の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "美味しい",
-          "新品",
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["美<ruby>味<rt>あじ</rt></ruby>しい",
+          "<ruby>新品<rt>しんぴん</rt></ruby>",
           "繋ぐ",
-          "減る"
-        ],
+          "<ruby>減る<rt>へる</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "言い換え",
         "text": "<ruby>古い<rt>ふるい</rt></ruby>家の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "駅",
-          "旧式",
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>駅<rt>えき</rt></ruby>",
+          "<ruby>旧<rt>きゅう</rt></ruby>式",
           "お詫び",
-          "下"
-        ],
+          "<ruby>下<rt>した</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "言い換え",
         "text": "<ruby>良い<rt>よい</rt></ruby>天気の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "失敗",
-          "努力",
-          "優良",
-          "辞書"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["失敗",
+          "努<ruby>力<rt>ちから</rt></ruby>",
+          "<ruby>優<rt>ゆう</rt></ruby><ruby>良<rt>りょう</rt></ruby>",
+          "<ruby>辞書<rt>じしょ</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "言い換え",
         "text": "<ruby>悪い<rt>わるい</rt></ruby>人の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "投げる",
-          "不良",
-          "初めて",
-          "発表"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>投げる<rt>なげる</rt></ruby>",
+          "<ruby>不<rt>ふ</rt></ruby><ruby>良<rt>りょう</rt></ruby>",
+          "<ruby>初めて<rt>はじめて</rt></ruby>",
+          "<ruby>発<rt>はつ</rt></ruby>表"],
         "answer": 1
       },
       {
         "type": "言い換え",
         "text": "今日は<ruby>暑い<rt>あつい</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "悲しい",
-          "長い",
-          "全部",
-          "猛暑"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>悲しい<rt>かなしい</rt></ruby>",
+          "<ruby>長い<rt>ながい</rt></ruby>",
+          "<ruby>全部<rt>ぜんぶ</rt></ruby>",
+          "<ruby>猛<rt>たけ</rt></ruby>暑"],
         "answer": 3
       }
     ],
@@ -17148,25 +14468,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "でんわ（　）かけました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "を",
+        "options": ["を",
           "まえ",
           "とても",
-          "に"
-        ],
+          "に"],
         "answer": 0,
         "id": "N5-16-026"
       },
       {
         "type": "文の組み立て",
-        "text": "【日常会話・問76（N5レベル）】次の語句を正しい順序に並べてください：図書館で / 読みました / 私は / 本を / 昨日",
-        "question": "正しい順序は？",
-        "options": [
-          "昨日 図書館で 本を 読みました 私は",
-          "読みました 私は 昨日 図書館で 本を",
-          "私は昨日図書館で本を読みました",
-          "読みました 本を 図書館で 昨日 私は"
-        ],
+        "text": "【<ruby>日常<rt>にちじょう</rt></ruby><ruby>会話<rt>かいわ</rt></ruby>・<ruby>問<rt>とん</rt></ruby>76（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>図書館<rt>としょかん</rt></ruby>で / <ruby>読み<rt>よみ</rt></ruby>ました / <ruby>私<rt>わたし</rt></ruby>は / <ruby>本<rt>ほん</rt></ruby>を / <ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby>",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby> <ruby>図書館<rt>としょかん</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を <ruby>読み<rt>よみ</rt></ruby>ました <ruby>私<rt>わたし</rt></ruby>は",
+          "<ruby>読み<rt>よみ</rt></ruby>ました <ruby>私<rt>わたし</rt></ruby>は <ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby> <ruby>図書館<rt>としょかん</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を",
+          "<ruby>私<rt>わたし</rt></ruby>は<ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby><ruby>図書館<rt>としょかん</rt></ruby>で<ruby>本<rt>ほん</rt></ruby>を<ruby>読み<rt>よみ</rt></ruby>ました",
+          "<ruby>読み<rt>よみ</rt></ruby>ました <ruby>本<rt>ほん</rt></ruby>を <ruby>図書館<rt>としょかん</rt></ruby>で <ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby> <ruby>私<rt>わたし</rt></ruby>は"],
         "answer": 3,
         "id": "N5-16-036"
       },
@@ -17174,25 +14490,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "けいかく（　）たてました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "も",
+        "options": ["も",
           "あと",
           "を",
-          "ながら"
-        ],
+          "ながら"],
         "answer": 2,
         "id": "N5-16-028"
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問77（N4レベル）】次の語句を正しい順序に並べてください：毎朝 / します / 彼女は / 散歩 / 公園を",
-        "question": "正しい順序は？",
-        "options": [
-          "彼女は毎朝公園を散歩します",
-          "します 散歩 公園を 毎朝 彼女は",
-          "毎朝 公園を 散歩 します 彼女は",
-          "します 彼女は 毎朝 公園を 散歩"
-        ],
+        "text": "【ビジネス・<ruby>問<rt>とん</rt></ruby>77（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>毎朝<rt>まいあさ</rt></ruby> / します / <ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は / <ruby>散歩<rt>さんぽ</rt></ruby> / <ruby>公園<rt>こうえん</rt></ruby>を",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は<ruby>毎朝<rt>まいあさ</rt></ruby><ruby>公園<rt>こうえん</rt></ruby>を<ruby>散歩<rt>さんぽ</rt></ruby>します",
+          "します <ruby>散歩<rt>さんぽ</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>を <ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は",
+          "<ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>を <ruby>散歩<rt>さんぽ</rt></ruby> します <ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は",
+          "します <ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は <ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>を <ruby>散歩<rt>さんぽ</rt></ruby>"],
         "answer": 1,
         "id": "N5-16-037"
       },
@@ -17200,25 +14512,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "そうじ（　）しました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "を",
+        "options": ["を",
           "と",
           "とても",
-          "ながら"
-        ],
+          "ながら"],
         "answer": 0,
         "id": "N5-16-030"
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問78（N3レベル）】次の語句を正しい順序に並べてください：いつも / いっぱい / お客さんで / この店は / です",
-        "question": "正しい順序は？",
-        "options": [
-          "いつも お客さんで いっぱい です この店は",
-          "です この店は いつも お客さんで いっぱい",
-          "この店はいつもお客さんでいっぱいです",
-          "です いっぱい お客さんで いつも この店は"
-        ],
+        "text": "【<ruby>学校<rt>がっこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>78（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：いつも / いっぱい / お<ruby>客<rt>きゃく</rt></ruby>さんで / この<ruby>店<rt>みせ</rt></ruby>は / です",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["いつも お<ruby>客<rt>きゃく</rt></ruby>さんで いっぱい です この<ruby>店<rt>みせ</rt></ruby>は",
+          "です この<ruby>店<rt>みせ</rt></ruby>は いつも お<ruby>客<rt>きゃく</rt></ruby>さんで いっぱい",
+          "この<ruby>店<rt>みせ</rt></ruby>はいつもお<ruby>客<rt>きゃく</rt></ruby>さんでいっぱいです",
+          "です いっぱい お<ruby>客<rt>きゃく</rt></ruby>さんで いつも この<ruby>店<rt>みせ</rt></ruby>は"],
         "answer": 0,
         "id": "N5-16-038"
       },
@@ -17226,25 +14534,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "りょうり（　）しました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "とき",
+        "options": ["とき",
           "を",
           "から",
-          "とても"
-        ],
+          "とても"],
         "answer": 1,
         "id": "N5-16-032"
       },
       {
         "type": "文の組み立て",
-        "text": "【旅行・問79（N2レベル）】次の語句を正しい順序に並べてください：先生に / することが / か / 質問を / できます",
-        "question": "正しい順序は？",
-        "options": [
-          "先生に質問をすることができますか",
-          "か 先生に 質問を することが できます",
-          "か できます することが 質問を 先生に",
-          "質問を することが できます か 先生に"
-        ],
+        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>79（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>先生<rt>せんせい</rt></ruby>に / することが / か / <ruby>質問<rt>しつもん</rt></ruby>を / できます",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>先生<rt>せんせい</rt></ruby>に<ruby>質問<rt>しつもん</rt></ruby>をすることができますか",
+          "か <ruby>先生<rt>せんせい</rt></ruby>に <ruby>質問<rt>しつもん</rt></ruby>を することが できます",
+          "か できます することが <ruby>質問<rt>しつもん</rt></ruby>を <ruby>先生<rt>せんせい</rt></ruby>に",
+          "<ruby>質問<rt>しつもん</rt></ruby>を することが できます か <ruby>先生<rt>せんせい</rt></ruby>に"],
         "answer": 1,
         "id": "N5-16-039"
       },
@@ -17252,25 +14556,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "さんぽ（　）しました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "も",
+        "options": ["も",
           "すこし",
           "を",
-          "まえ"
-        ],
+          "まえ"],
         "answer": 2,
         "id": "N5-16-034"
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問80（N1レベル）】次の語句を正しい順序に並べてください：出席 / できない / 会議に / 明日の / かもしれません",
-        "question": "正しい順序は？",
-        "options": [
-          "会議に 出席 できない かもしれません 明日の",
-          "かもしれません 明日の 会議に 出席 できない",
-          "明日の会議に出席できないかもしれません",
-          "かもしれません できない 出席 会議に 明日の"
-        ],
+        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>とん</rt></ruby>80（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>出<rt>で</rt></ruby>席 / できない / <ruby>会議<rt>かいぎ</rt></ruby>に / <ruby>明日<rt>あした</rt></ruby>の / かもしれません",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>会議<rt>かいぎ</rt></ruby>に <ruby>出<rt>で</rt></ruby>席 できない かもしれません <ruby>明日<rt>あした</rt></ruby>の",
+          "かもしれません <ruby>明日<rt>あした</rt></ruby>の <ruby>会議<rt>かいぎ</rt></ruby>に <ruby>出<rt>で</rt></ruby>席 できない",
+          "<ruby>明日<rt>あした</rt></ruby>の<ruby>会議<rt>かいぎ</rt></ruby>に<ruby>出<rt>で</rt></ruby>席できないかもしれません",
+          "かもしれません できない <ruby>出<rt>で</rt></ruby>席 <ruby>会議<rt>かいぎ</rt></ruby>に <ruby>明日<rt>あした</rt></ruby>の"],
         "answer": 3,
         "id": "N5-16-040"
       },
@@ -17278,25 +14578,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "やくそく（　）しました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "まで",
+        "options": ["まで",
           "を",
           "とき",
-          "ながら"
-        ],
+          "ながら"],
         "answer": 1,
         "id": "N5-16-027"
       },
       {
         "type": "文章の文法",
-        "text": "日本経済は長期にわたる停滞（　）、回復の兆しを見せている。（76）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "を経て",
+        "text": "<ruby>日本<rt>にほん</rt></ruby><ruby>経済<rt>けいざい</rt></ruby>は<ruby>長期<rt>ちょうき</rt></ruby>にわたる<ruby>停滞<rt>ていたい</rt></ruby>（　）、<ruby>回<rt>まわ</rt></ruby>復の<ruby>兆<rt>ちょう</rt></ruby>しを<ruby>見<rt>み</rt></ruby>せている。（76）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["を<ruby>経て<rt>へて</rt></ruby>",
           "をもって",
           "に反して",
-          "に至り"
-        ],
+          "に至り"],
         "answer": 0,
         "id": "N5-16-041"
       },
@@ -17304,25 +14600,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "せんたく（　）しました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "ながら",
+        "options": ["ながら",
           "で",
           "を",
-          "すこし"
-        ],
+          "すこし"],
         "answer": 2,
         "id": "N5-16-031"
       },
       {
         "type": "文章の文法",
-        "text": "彼の提案は斬新（　）、実現可能性に欠ける。（77）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "であるから",
+        "text": "<ruby>彼<rt>かれ</rt></ruby>の提<ruby>案<rt>あん</rt></ruby>は<ruby>斬新<rt>ざんしん</rt></ruby>（　）、実<ruby>現<rt>あらわ</rt></ruby><ruby>可能性<rt>かのうせい</rt></ruby>に<ruby>欠ける<rt>かける</rt></ruby>。（77）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["であるから",
           "ではあるが",
           "だとしても",
-          "なので"
-        ],
+          "なので"],
         "answer": 1,
         "id": "N5-16-042"
       },
@@ -17330,25 +14622,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "うんどう（　）しました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "たくさん",
+        "options": ["たくさん",
           "に",
           "まえ",
-          "を"
-        ],
+          "を"],
         "answer": 3,
         "id": "N5-16-035"
       },
       {
         "type": "文章の文法",
-        "text": "環境問題の解決（　）、国際協力が不可欠だ。（78）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "には",
+        "text": "<ruby>環境問題<rt>かんきょうもんだい</rt></ruby>の<ruby>解決<rt>かいけつ</rt></ruby>（　）、<ruby>国際協力<rt>こくさいきょうりょく</rt></ruby>が<ruby>不可欠<rt>ふかけつ</rt></ruby>だ。（78）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["には",
           "において",
-          "に際して",
-          "にとって"
-        ],
+          "に<ruby>際<rt>さい</rt></ruby>して",
+          "にとって"],
         "answer": 0,
         "id": "N5-16-043"
       },
@@ -17356,25 +14644,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "かいもの（　）しました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "で",
+        "options": ["で",
           "たくさん",
           "あまり",
-          "を"
-        ],
+          "を"],
         "answer": 3,
         "id": "N5-16-033"
       },
       {
         "type": "文章の文法",
-        "text": "この研究は長年の努力（　）結実したものだ。（79）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "の",
+        "text": "この<ruby>研究<rt>けんきゅう</rt></ruby>は<ruby>長<rt>ちょう</rt></ruby><ruby>年<rt>とし</rt></ruby>の努<ruby>力<rt>ちから</rt></ruby>（　）<ruby>結<rt>むす</rt></ruby>実したものだ。（79）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["の",
           "に",
           "を",
-          "が"
-        ],
+          "が"],
         "answer": 3,
         "id": "N5-16-044"
       },
@@ -17382,25 +14666,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "じゅんび（　）しました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "とても",
+        "options": ["とても",
           "も",
           "まえ",
-          "を"
-        ],
+          "を"],
         "answer": 3,
         "id": "N5-16-029"
       },
       {
         "type": "文章の文法",
-        "text": "社会の変化（　）、教育も見直しが必要だ。（80）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "に伴い",
-          "に対して",
+        "text": "<ruby>社会<rt>しゃかい</rt></ruby>の<ruby>変化<rt>へんか</rt></ruby>（　）、<ruby>教育<rt>きょういく</rt></ruby>も<ruby>見直し<rt>みなおし</rt></ruby>が必要だ。（80）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["に伴い",
+          "に<ruby>対して<rt>たいして</rt></ruby>",
           "によると",
-          "に関して"
-        ],
+          "に<ruby>関して<rt>かんして</rt></ruby>"],
         "answer": 0,
         "id": "N5-16-045"
       },
@@ -17408,12 +14688,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "にほんごの　じゅぎょうは　10じからです。12じに　おわります。",
         "question": "じゅぎょうは　なんじに　おわりますか。",
-        "options": [
-          "12じ",
+        "options": ["12じ",
           "1じ",
           "11じ",
-          "10じ"
-        ],
+          "10じ"],
         "answer": 2,
         "id": "N5-16-046"
       },
@@ -17421,12 +14699,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "わたしは　まいにち　2じかん　にほんごを　べんきょうします。",
         "question": "なんじかん　べんきょうしますか。",
-        "options": [
-          "3じかん",
+        "options": ["3じかん",
           "4じかん",
           "1じかん",
-          "2じかん"
-        ],
+          "2じかん"],
         "answer": 3,
         "id": "N5-16-047"
       },
@@ -17434,12 +14710,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "しけんは　らいしゅうの　すいようびです。",
         "question": "しけんは　いつですか。",
-        "options": [
-          "こんしゅうの　すいようび",
+        "options": ["こんしゅうの　すいようび",
           "らいしゅうの　げつようび",
           "らいしゅうの　すいようび",
-          "らいげつ"
-        ],
+          "らいげつ"],
         "answer": 1,
         "id": "N5-16-048"
       },
@@ -17447,12 +14721,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "わたしの　へやは　6じょうです。ベッドと　つくえが　あります。まどから　やまが　みえます。",
         "question": "まどから　なにが　みえますか。",
-        "options": [
-          "やま",
+        "options": ["やま",
           "こうえん",
           "うみ",
-          "まち"
-        ],
+          "まち"],
         "answer": 0,
         "id": "N5-16-049"
       },
@@ -17460,12 +14732,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "あたらしい　アパートに　ひっこしました。えきから　ちかくて　べんりです。へやは　せまいですが、きれいです。",
         "question": "あたらしい　アパートは　どうですか。",
-        "options": [
-          "えきから　とおい",
+        "options": ["えきから　とおい",
           "えきから　ちかい",
           "ふるい",
-          "ひろい"
-        ],
+          "ひろい"],
         "answer": 1,
         "id": "N5-16-050"
       },
@@ -17473,218 +14743,186 @@ window.MOCK_DATA['N5'] = {
         "type": "情報検索",
         "text": "【パーティー】12がつ25にち　7じから。かいひ2000えん。よやくが　ひつよう。",
         "question": "パーティーに　いくには　なにが　ひつようですか。",
-        "options": [
-          "よやく",
+        "options": ["よやく",
           "なにもいらない",
           "おかね",
-          "プレゼント"
-        ],
+          "プレゼント"],
         "answer": 3,
         "id": "N5-16-051"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人がレストランで注文しています。女の人は何を頼みますか。",
-        "question": "何を頼みますか。",
-        "options": [
-          "🍕🍕",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がレストランで<ruby>注文<rt>ちゅうもん</rt></ruby>しています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>頼み<rt>たのみ</rt></ruby>ますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>頼み<rt>たのみ</rt></ruby>ますか。",
+        "options": ["🍕🍕",
           "🍔🍔",
           "🍕",
-          "🍔"
-        ],
+          "🍔"],
         "answer": 2,
         "id": "N5-16-052",
         "script": "M: 🍕を　おねがいします。\nF: はい、わかりました。【セット16問27】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人と女の人が話しています。女の人はどこへ行きますか。",
-        "question": "どこへ行きますか。",
-        "options": [
-          "🏪",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>と<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>話<rt>はなし</rt></ruby>しています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>はどこへ<ruby>行<rt>い</rt></ruby>きますか。",
+        "question": "どこへ<ruby>行<rt>い</rt></ruby>きますか。",
+        "options": ["🏪",
           "🏥",
           "🏫",
-          "🏣"
-        ],
+          "🏣"],
         "answer": 1,
         "id": "N5-16-053",
         "script": "F: これですか。\nM: いいえ、びょういんを　ください。【セット16問28】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人と女の人が駅で話しています。何で行きますか。",
-        "question": "何で行きますか。",
-        "options": [
-          "🚕",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>と<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>駅<rt>えき</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>何<rt>なに</rt></ruby>で<ruby>行<rt>い</rt></ruby>きますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>で<ruby>行<rt>い</rt></ruby>きますか。",
+        "options": ["🚕",
           "🚶",
           "🚃",
-          "🚌"
-        ],
+          "🚌"],
         "answer": 2,
         "id": "N5-16-054",
         "script": "M: すみません、🚃は　ありますか。\nF: はい、どうぞ。【セット16問29】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人が出かける準備をしています。女の人は何を持っていきますか。",
-        "question": "何を持っていきますか。",
-        "options": [
-          "☂️",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>出かける<rt>でかける</rt></ruby><ruby>準備<rt>じゅんび</rt></ruby>をしています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>持<rt>もつ</rt></ruby>っていきますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>持<rt>もつ</rt></ruby>っていきますか。",
+        "options": ["☂️",
           "👒",
           "🧣",
-          "🧥"
-        ],
+          "🧥"],
         "answer": 0,
         "id": "N5-16-055",
         "script": "M: ☂を　ください。\nF: はい、☂ですね。【セット16問30】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人がペットショップで話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🐕",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がペットショップで<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🐕",
           "🐟🐟🐟",
           "🐈",
-          "🐹"
-        ],
+          "🐹"],
         "answer": 1,
         "id": "N5-16-056",
         "script": "F: なにを　かいますか。\nM: 🐟 3つを　かいます。【セット16問31】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "友達同士が電話で話しています。明日何をしますか。",
-        "question": "明日何をしますか。",
-        "options": [
-          "🏊",
+        "text": "<ruby>友<rt>とも</rt></ruby>達<ruby>同<rt>どう</rt></ruby>士が<ruby>電話<rt>でんわ</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>明日<rt>あした</rt></ruby><ruby>何<rt>なに</rt></ruby>をしますか。",
+        "question": "<ruby>明日<rt>あした</rt></ruby><ruby>何<rt>なに</rt></ruby>をしますか。",
+        "options": ["🏊",
           "⚽",
           "🎿",
-          "🎾"
-        ],
+          "🎾"],
         "answer": 3,
         "id": "N5-16-057",
         "script": "M: 🎾を　おねがいします。\nF: はい、わかりました。【セット16問32】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "セミナーを聞いています。話者が最も強調しているのは何ですか。（91）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "セミナーを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（91）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-16-058",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット16問33】"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "同意したい場面です。（79）",
-        "question": "適切な表現は？",
-        "options": [
-          "📆",
+        "text": "<ruby>同意<rt>どうい</rt></ruby>したい<ruby>場<rt>ば</rt></ruby>面です。（79）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📆",
           "📌",
           "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-16-067",
         "script": "📆です。【セット16問34】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "特集を聞いています。話者が最も強調しているのは何ですか。（93）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>特<rt>とく</rt></ruby><ruby>集<rt>しゅう</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（93）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-16-060",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット16問35】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "今日は暑いですね。（121）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
-          "はい、食べました",
-          "本当ですね",
-          "わかりません"
-        ],
+        "text": "<ruby>今日<rt>きょう</rt></ruby>は暑いですね。（121）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "<ruby>本<rt>ほん</rt></ruby>当ですね",
+          "わかりません"],
         "answer": 2,
         "id": "N5-16-069"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "トークを聞いています。話者が最も強調しているのは何ですか。（95）",
-        "question": "最も強調しているのは？",
-        "options": [
-          "📌",
+        "text": "トークを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（95）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📕",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-16-062",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット16問37】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "何時までですか。（122）",
-        "question": "返答は？",
-        "options": [
-          "6時までです",
-          "はい、食べました",
+        "text": "<ruby>何時<rt>いつ</rt></ruby>までですか。（122）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["6<ruby>時<rt>とき</rt></ruby>までです",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
           "わかりません",
-          "いいえ、違います"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 0,
         "id": "N5-16-070"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "久しぶりの挨拶をしたい場面です。（76）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>久しぶり<rt>ひさしぶり</rt></ruby>の<ruby>挨<rt>あい</rt></ruby><ruby>拶<rt>さつ</rt></ruby>をしたい<ruby>場<rt>ば</rt></ruby>面です。（76）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-16-064",
         "script": "ピンです。【セット16問39】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "週末の予定は。（123）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "いいえ、違います",
-          "特にないです",
-          "はい、食べました"
-        ],
+        "text": "<ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby>の<ruby>予定<rt>よてい</rt></ruby>は。（123）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "<ruby>特に<rt>とくに</rt></ruby>ないです",
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 2,
         "id": "N5-16-071"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "依頼したい場面です。（78）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>依頼<rt>いらい</rt></ruby>したい<ruby>場<rt>ば</rt></ruby>面です。（78）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-16-066",
         "script": "ピンです。【セット16問41】"
@@ -17692,134 +14930,114 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "おいしいですね。（124）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "はい、食べました",
-          "いいえ、違います",
-          "そうですね"
-        ],
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "そうですね"],
         "answer": 3,
         "id": "N5-16-072"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "反対意見を言いたい場面です。（80）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "反<ruby>対<rt>たい</rt></ruby><ruby>意見<rt>いけん</rt></ruby>を<ruby>言<rt>い</rt></ruby>いたい<ruby>場<rt>ば</rt></ruby>面です。（80）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-16-068",
         "script": "ピンです。【セット16問43】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "写真撮ってもいいですか。（125）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "いいえ、違います",
-          "大丈夫ですよ",
-          "はい、食べました"
-        ],
+        "text": "<ruby>写<rt>うつ</rt></ruby>真<ruby>撮<rt>とる</rt></ruby>ってもいいですか。（125）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "<ruby>大<rt>だい</rt></ruby><ruby>丈<rt>たけ</rt></ruby>夫ですよ",
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 2,
         "id": "N5-16-073"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "放送を聞いています。話者が最も強調しているのは何ですか。（96）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "放<ruby>送<rt>お</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（96）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-16-063",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット16問45】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "お仕事は何ですか。（126）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
-          "いいえ、違います",
+        "text": "お<ruby>仕事<rt>しごと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。（126）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
           "わかりません",
-          "会社員です"
-        ],
+          "<ruby>会社<rt>かいしゃ</rt></ruby><ruby>員<rt>いん</rt></ruby>です"],
         "answer": 3,
         "id": "N5-16-074"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "番組を聞いています。話者が最も強調しているのは何ですか。（92）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>番組<rt>ばんぐみ</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（92）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-16-059",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット16問47】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "趣味は何ですか。（127）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "読書です",
-          "はい、食べました",
-          "いいえ、違います"
-        ],
+        "text": "<ruby>趣味<rt>しゅみ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。（127）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "<ruby>読書<rt>どくしょ</rt></ruby>です",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 1,
         "id": "N5-16-075"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "断りたい場面です。（77）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>断<rt>だん</rt></ruby>りたい<ruby>場<rt>ば</rt></ruby>面です。（77）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-16-065",
         "script": "ピンです。【セット16問49】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "出身はどこですか。（128）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
-          "いいえ、違います",
-          "東京です",
-          "わかりません"
-        ],
+        "text": "<ruby>出<rt>で</rt></ruby>身はどこですか。（128）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "<ruby>東<rt>ひがし</rt></ruby><ruby>京<rt>きょう</rt></ruby>です",
+          "わかりません"],
         "answer": 2,
         "id": "N5-16-076"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "ドキュメンタリーを聞いています。話者が最も強調しているのは何ですか。（94）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "ドキュメンタリーを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（94）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-16-061",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット16問51】"
@@ -17827,301 +15045,251 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "漢字読み",
         "text": "<u>火</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "もり",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["もり",
           "きた、ほく",
           "ひ",
-          "いと"
-        ],
+          "いと"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>計</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "はか",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["はか",
           "みなみ、なん",
           "はやし",
-          "たま"
-        ],
+          "たま"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>草</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "おう",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["おう",
           "ひがし、とう",
           "たけ",
-          "くさ"
-        ],
+          "くさ"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>同</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "おな",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["おな",
           "にし、せい",
           "くさ",
-          "ただ"
-        ],
+          "ただ"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>男</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "おお、だい",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["おお、だい",
           "おとこ、だん",
           "むし",
-          "ふみ"
-        ],
+          "ふみ"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>足</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "ちい、しょう",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["ちい、しょう",
           "あし",
           "かい",
-          "じ"
-        ],
+          "じ"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>校</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "おと",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["おと",
           "たか、こう",
           "いし",
-          "こう"
-        ],
+          "こう"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>工</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "もり",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["もり",
           "こう",
           "いと",
-          "たの"
-        ],
+          "たの"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>長</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "たま",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["たま",
           "はやし",
           "なが.い",
-          "ちから"
-        ],
+          "ちから"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>茶</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "こう",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["こう",
           "たけ",
           "おう",
-          "ちゃ"
-        ],
+          "ちゃ"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>出</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "つく",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["つく",
           "くさ",
           "ただ",
-          "で.る"
-        ],
+          "で.る"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>子</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "むし",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["むし",
           "こ、し",
           "ふみ",
-          "もと"
-        ],
+          "もと"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>かぞえる</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "貸す",
-          "辞書",
-          "引っ越す",
-          "数える"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>貸す<rt>かす</rt></ruby>",
+          "<ruby>辞書<rt>じしょ</rt></ruby>",
+          "<ruby>引っ越す<rt>ひっこす</rt></ruby>",
+          "<ruby>数える<rt>かぞえる</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>よやく</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "悪い",
-          "発表",
-          "予約",
-          "帽子"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>悪い<rt>わるい</rt></ruby>",
+          "<ruby>発<rt>はつ</rt></ruby>表",
+          "<ruby>予<rt>よ</rt></ruby>約",
+          "<ruby>帽子<rt>ぼうし</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>ほうこく</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "報告",
-          "悲しい",
-          "習慣",
-          "捨てる"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>報告<rt>ほうこく</rt></ruby>",
+          "<ruby>悲しい<rt>かなしい</rt></ruby>",
+          "<ruby>習慣<rt>しゅうかん</rt></ruby>",
+          "<ruby>捨てる<rt>すてる</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "表記",
         "text": "<u>ことば</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "立つ",
-          "連絡",
-          "言葉",
-          "掃除"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["立つ",
+          "<ruby>連絡<rt>れんらく</rt></ruby>",
+          "<ruby>言<rt>い</rt></ruby>葉",
+          "<ruby>掃<rt>そう</rt></ruby>除"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>ちこく</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "客",
-          "遅刻",
-          "描く",
-          "毎朝"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>客<rt>きゃく</rt></ruby>",
+          "<ruby>遅刻<rt>ちこく</rt></ruby>",
+          "<ruby>描く<rt>えがく</rt></ruby>",
+          "<ruby>毎朝<rt>まいあさ</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>おもい</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "力",
-          "書く",
-          "会社員",
-          "重い"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>力<rt>ちから</rt></ruby>",
+          "<ruby>書く<rt>かく</rt></ruby>",
+          "<ruby>会社<rt>かいしゃ</rt></ruby><ruby>員<rt>いん</rt></ruby>",
+          "<ruby>重い<rt>おもい</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>いっしょに</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "天気",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>天気<rt>てんき</rt></ruby>",
           "調べる",
-          "一緒に",
-          "凍る"
-        ],
+          "<ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に",
+          "<ruby>凍る<rt>こおる</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>なつ</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "山",
-          "公園",
-          "夏",
-          "成功"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>山<rt>やま</rt></ruby>",
+          "<ruby>公園<rt>こうえん</rt></ruby>",
+          "<ruby>夏<rt>なつ</rt></ruby>",
+          "<ruby>成功<rt>せいこう</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "言い換え",
         "text": "今日は<ruby>寒い<rt>さむい</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "連絡",
-          "台",
-          "靴",
-          "極寒"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>連絡<rt>れんらく</rt></ruby>",
+          "<ruby>台<rt>だい</rt></ruby>",
+          "<ruby>靴<rt>くつ</rt></ruby>",
+          "<ruby>極<rt>きょく</rt></ruby><ruby>寒<rt>さむ</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "言い換え",
         "text": "<ruby>忙しい<rt>いそがしい</rt></ruby>日の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "断る",
-          "最高",
-          "多忙",
-          "こんにちは"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>断る<rt>ことわる</rt></ruby>",
+          "<ruby>最高<rt>さいこう</rt></ruby>",
+          "<ruby>多<rt>おお</rt></ruby><ruby>忙<rt>ぼう</rt></ruby>",
+          "こんにちは"],
         "answer": 2
       },
       {
         "type": "言い換え",
         "text": "<ruby>楽しい<rt>たのしい</rt></ruby>パーティーの意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "愉快",
-          "銀行",
-          "料理する",
-          "いいえ"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>愉<rt>ゆ</rt></ruby><ruby>快<rt>かい</rt></ruby>",
+          "<ruby>銀行<rt>ぎんこう</rt></ruby>",
+          "料<ruby>理<rt>り</rt></ruby>する",
+          "いいえ"],
         "answer": 0
       },
       {
         "type": "言い換え",
         "text": "<ruby>嬉しい<rt>うれしい</rt></ruby>ニュースの意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "放送",
-          "絶対",
-          "喜ばしい",
-          "客"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["放<ruby>送<rt>お</rt></ruby>",
+          "<ruby>絶対<rt>ぜったい</rt></ruby>",
+          "<ruby>喜<rt>き</rt></ruby>ばしい",
+          "<ruby>客<rt>きゃく</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "言い換え",
         "text": "<ruby>悲しい<rt>かなしい</rt></ruby>映画の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "郵便局",
-          "渡る",
-          "哀しい",
-          "書く"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["郵<ruby>便<rt>べん</rt></ruby><ruby>局<rt>きょく</rt></ruby>",
+          "<ruby>渡る<rt>わたる</rt></ruby>",
+          "<ruby>哀<rt>あわ</rt></ruby>しい",
+          "<ruby>書く<rt>かく</rt></ruby>"],
         "answer": 2
       }
     ],
@@ -18130,12 +15298,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "べんきょう（　）しました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "を",
+        "options": ["を",
           "すこし",
           "も",
-          "たくさん"
-        ],
+          "たくさん"],
         "answer": 0,
         "id": "N5-17-026"
       },
@@ -18143,25 +15309,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "しごと（　）おわりました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "ながら",
+        "options": ["ながら",
           "が",
           "を",
-          "まえ"
-        ],
+          "まえ"],
         "answer": 1,
         "id": "N5-17-027"
       },
       {
         "type": "文の組み立て",
-        "text": "【日常会話・問81（N5レベル）】次の語句を正しい順序に並べてください：日本語を / いる / 多いです / 学生が / 勉強して",
-        "question": "正しい順序は？",
-        "options": [
-          "多いです 学生が いる 勉強して 日本語を",
-          "勉強して いる 学生が 多いです 日本語を",
-          "日本語を勉強している学生が多いです",
-          "多いです 日本語を 勉強して いる 学生が"
-        ],
+        "text": "【<ruby>日常<rt>にちじょう</rt></ruby><ruby>会話<rt>かいわ</rt></ruby>・<ruby>問<rt>とん</rt></ruby>81（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を / いる / <ruby>多い<rt>おおい</rt></ruby>です / <ruby>学生<rt>がくせい</rt></ruby>が / <ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>して",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>多い<rt>おおい</rt></ruby>です <ruby>学生<rt>がくせい</rt></ruby>が いる <ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>して <ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を",
+          "<ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>して いる <ruby>学生<rt>がくせい</rt></ruby>が <ruby>多い<rt>おおい</rt></ruby>です <ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を",
+          "<ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を<ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>している<ruby>学生<rt>がくせい</rt></ruby>が<ruby>多い<rt>おおい</rt></ruby>です",
+          "<ruby>多い<rt>おおい</rt></ruby>です <ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を <ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>して いる <ruby>学生<rt>がくせい</rt></ruby>が"],
         "answer": 0,
         "id": "N5-17-036"
       },
@@ -18169,25 +15331,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "かいぎ（　）おわりました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "が",
+        "options": ["が",
           "あまり",
           "へ",
-          "とても"
-        ],
+          "とても"],
         "answer": 0,
         "id": "N5-17-029"
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問82（N4レベル）】次の語句を正しい順序に並べてください：この問題は / 私には / 解けません / 難しすぎて",
-        "question": "正しい順序は？",
-        "options": [
-          "この問題は難しすぎて私には解けません",
-          "解けません この問題は 難しすぎて 私には",
-          "解けません 私には 難しすぎて この問題は",
-          "難しすぎて 私には 解けません この問題は"
-        ],
+        "text": "【ビジネス・<ruby>問<rt>とん</rt></ruby>82（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：この<ruby>問題<rt>もんだい</rt></ruby>は / <ruby>私<rt>わたし</rt></ruby>には / <ruby>解<rt>かい</rt></ruby>けません / <ruby>難<rt>なん</rt></ruby>しすぎて",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["この<ruby>問題<rt>もんだい</rt></ruby>は<ruby>難<rt>なん</rt></ruby>しすぎて<ruby>私<rt>わたし</rt></ruby>には<ruby>解<rt>かい</rt></ruby>けません",
+          "<ruby>解<rt>かい</rt></ruby>けません この<ruby>問題<rt>もんだい</rt></ruby>は <ruby>難<rt>なん</rt></ruby>しすぎて <ruby>私<rt>わたし</rt></ruby>には",
+          "<ruby>解<rt>かい</rt></ruby>けません <ruby>私<rt>わたし</rt></ruby>には <ruby>難<rt>なん</rt></ruby>しすぎて この<ruby>問題<rt>もんだい</rt></ruby>は",
+          "<ruby>難<rt>なん</rt></ruby>しすぎて <ruby>私<rt>わたし</rt></ruby>には <ruby>解<rt>かい</rt></ruby>けません この<ruby>問題<rt>もんだい</rt></ruby>は"],
         "answer": 2,
         "id": "N5-17-037"
       },
@@ -18195,25 +15353,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "バス（　）きました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "たくさん",
+        "options": ["たくさん",
           "まえ",
           "から",
-          "が"
-        ],
+          "が"],
         "answer": 3,
         "id": "N5-17-031"
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問83（N3レベル）】次の語句を正しい順序に並べてください：いました / 3年間 / 彼は / 住んで / アメリカに",
-        "question": "正しい順序は？",
-        "options": [
-          "彼はアメリカに3年間住んでいました",
-          "いました 住んで 3年間 アメリカに 彼は",
-          "アメリカに 3年間 住んで いました 彼は",
-          "いました 彼は アメリカに 3年間 住んで"
-        ],
+        "text": "【<ruby>学校<rt>がっこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>83（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：いました / 3<ruby>年間<rt>ねんかん</rt></ruby> / <ruby>彼<rt>かれ</rt></ruby>は / <ruby>住<rt>すわる</rt></ruby>んで / アメリカに",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>彼<rt>かれ</rt></ruby>はアメリカに3<ruby>年間<rt>ねんかん</rt></ruby><ruby>住<rt>すわる</rt></ruby>んでいました",
+          "いました <ruby>住<rt>すわる</rt></ruby>んで 3<ruby>年間<rt>ねんかん</rt></ruby> アメリカに <ruby>彼<rt>かれ</rt></ruby>は",
+          "アメリカに 3<ruby>年間<rt>ねんかん</rt></ruby> <ruby>住<rt>すわる</rt></ruby>んで いました <ruby>彼<rt>かれ</rt></ruby>は",
+          "いました <ruby>彼<rt>かれ</rt></ruby>は アメリカに 3<ruby>年間<rt>ねんかん</rt></ruby> <ruby>住<rt>すわる</rt></ruby>んで"],
         "answer": 3,
         "id": "N5-17-038"
       },
@@ -18221,25 +15375,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "かぜ（　）ふいています。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "が",
+        "options": ["が",
           "まで",
           "ながら",
-          "まえ"
-        ],
+          "まえ"],
         "answer": 0,
         "id": "N5-17-033"
       },
       {
         "type": "文の組み立て",
-        "text": "【旅行・問84（N2レベル）】次の語句を正しい順序に並べてください：遅刻して / 電車が / しまいました / ため / 遅れた",
-        "question": "正しい順序は？",
-        "options": [
-          "遅れた ため 遅刻して しまいました 電車が",
-          "しまいました 遅刻して ため 遅れた 電車が",
-          "電車が遅れたため遅刻してしまいました",
-          "しまいました 電車が 遅れた ため 遅刻して"
-        ],
+        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>84（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>遅刻<rt>ちこく</rt></ruby>して / <ruby>電車<rt>でんしゃ</rt></ruby>が / しまいました / ため / <ruby>遅れ<rt>おくれ</rt></ruby>た",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>遅れ<rt>おくれ</rt></ruby>た ため <ruby>遅刻<rt>ちこく</rt></ruby>して しまいました <ruby>電車<rt>でんしゃ</rt></ruby>が",
+          "しまいました <ruby>遅刻<rt>ちこく</rt></ruby>して ため <ruby>遅れ<rt>おくれ</rt></ruby>た <ruby>電車<rt>でんしゃ</rt></ruby>が",
+          "<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>遅れ<rt>おくれ</rt></ruby>たため<ruby>遅刻<rt>ちこく</rt></ruby>してしまいました",
+          "しまいました <ruby>電車<rt>でんしゃ</rt></ruby>が <ruby>遅れ<rt>おくれ</rt></ruby>た ため <ruby>遅刻<rt>ちこく</rt></ruby>して"],
         "answer": 0,
         "id": "N5-17-039"
       },
@@ -18247,25 +15397,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "はな（　）さいています。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "が",
+        "options": ["が",
           "たくさん",
           "も",
-          "とき"
-        ],
+          "とき"],
         "answer": 0,
         "id": "N5-17-035"
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問85（N1レベル）】次の語句を正しい順序に並べてください：面白いと / この映画は / 思います / とても",
-        "question": "正しい順序は？",
-        "options": [
-          "とても 面白いと 思います この映画は",
-          "この映画はとても面白いと思います",
-          "思います 面白いと とても この映画は",
-          "思います この映画は とても 面白いと"
-        ],
+        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>とん</rt></ruby>85（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：面白いと / この<ruby>映画<rt>えいが</rt></ruby>は / <ruby>思い<rt>おもい</rt></ruby>ます / とても",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["とても 面白いと <ruby>思い<rt>おもい</rt></ruby>ます この<ruby>映画<rt>えいが</rt></ruby>は",
+          "この<ruby>映画<rt>えいが</rt></ruby>はとても面白いと<ruby>思い<rt>おもい</rt></ruby>ます",
+          "<ruby>思い<rt>おもい</rt></ruby>ます 面白いと とても この<ruby>映画<rt>えいが</rt></ruby>は",
+          "<ruby>思い<rt>おもい</rt></ruby>ます この<ruby>映画<rt>えいが</rt></ruby>は とても 面白いと"],
         "answer": 1,
         "id": "N5-17-040"
       },
@@ -18273,25 +15419,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "でんしゃ（　）きました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "すこし",
+        "options": ["すこし",
           "が",
           "と",
-          "ながら"
-        ],
+          "ながら"],
         "answer": 1,
         "id": "N5-17-030"
       },
       {
         "type": "文章の文法",
-        "text": "困難（　）乗り越え、目標を達成した。（81）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "を",
+        "text": "<ruby>困難<rt>こんなん</rt></ruby>（　）<ruby>乗<rt>のむ</rt></ruby>り<ruby>越<rt>こ</rt></ruby>え、<ruby>目標<rt>もくひょう</rt></ruby>を達<ruby>成<rt>せい</rt></ruby>した。（81）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["を",
           "で",
           "から",
-          "に"
-        ],
+          "に"],
         "answer": 0,
         "id": "N5-17-041"
       },
@@ -18299,25 +15441,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "ゆき（　）ふっています。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "とても",
+        "options": ["とても",
           "あと",
           "も",
-          "が"
-        ],
+          "が"],
         "answer": 3,
         "id": "N5-17-034"
       },
       {
         "type": "文章の文法",
-        "text": "専門家（　）意見を聞く必要がある。（82）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "への",
+        "text": "専<ruby>門<rt>もん</rt></ruby><ruby>家<rt>いえ</rt></ruby>（　）<ruby>意見<rt>いけん</rt></ruby>を<ruby>聞く<rt>きく</rt></ruby>必要がある。（82）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["への",
           "の",
           "による",
-          "から"
-        ],
+          "から"],
         "answer": 1,
         "id": "N5-17-042"
       },
@@ -18325,25 +15463,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "あめ（　）やみました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "へ",
+        "options": ["へ",
           "とても",
           "が",
-          "とき"
-        ],
+          "とき"],
         "answer": 2,
         "id": "N5-17-032"
       },
       {
         "type": "文章の文法",
-        "text": "技術の進歩（　）、生活は大きく変わった。（83）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "により",
+        "text": "<ruby>技術<rt>ぎじゅつ</rt></ruby>の<ruby>進歩<rt>しんぽ</rt></ruby>（　）、<ruby>生活<rt>せいかつ</rt></ruby>は<ruby>大<rt>だい</rt></ruby>きく<ruby>変<rt>へん</rt></ruby>わった。（83）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["により",
           "にとって",
-          "に関して",
-          "に対して"
-        ],
+          "に<ruby>関して<rt>かんして</rt></ruby>",
+          "に<ruby>対して<rt>たいして</rt></ruby>"],
         "answer": 0,
         "id": "N5-17-043"
       },
@@ -18351,38 +15485,32 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "じゅぎょう（　）はじまりました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "が",
+        "options": ["が",
           "すこし",
           "たくさん",
-          "の"
-        ],
+          "の"],
         "answer": 0,
         "id": "N5-17-028"
       },
       {
         "type": "文章の文法",
-        "text": "彼の行動は法律（　）許されない。（84）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "としても",
-          "的に",
+        "text": "<ruby>彼<rt>かれ</rt></ruby>の<ruby>行動<rt>こうどう</rt></ruby>は<ruby>法律<rt>ほうりつ</rt></ruby>（　）<ruby>許<rt>きょ</rt></ruby>されない。（84）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["としても",
+          "<ruby>的<rt>てき</rt></ruby>に",
           "において",
-          "上"
-        ],
+          "<ruby>上<rt>うえ</rt></ruby>"],
         "answer": 3,
         "id": "N5-17-044"
       },
       {
         "type": "文章の文法",
-        "text": "予算の制約（　）実現が困難だ。（85）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "にして",
+        "text": "<ruby>予算<rt>よさん</rt></ruby>の<ruby>制<rt>せい</rt></ruby>約（　）実<ruby>現<rt>あらわ</rt></ruby>が<ruby>困難<rt>こんなん</rt></ruby>だ。（85）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["にして",
           "から",
           "ゆえに",
-          "として"
-        ],
+          "として"],
         "answer": 1,
         "id": "N5-17-045"
       },
@@ -18390,12 +15518,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "わたしの　クラスには　20にんの　がくせいが　います。",
         "question": "クラスに　なんにん　いますか。",
-        "options": [
-          "10にん",
+        "options": ["10にん",
           "25にん",
           "20にん",
-          "15にん"
-        ],
+          "15にん"],
         "answer": 3,
         "id": "N5-17-046"
       },
@@ -18403,12 +15529,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "せんせいは　えいごと　にほんごを　おしえています。",
         "question": "せんせいは　なにを　おしえていますか。",
-        "options": [
-          "えいごと　にほんご",
+        "options": ["えいごと　にほんご",
           "すうがく",
           "かがく",
-          "れきし"
-        ],
+          "れきし"],
         "answer": 2,
         "id": "N5-17-047"
       },
@@ -18416,12 +15540,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "このほんは　わたしのです。あのほんは　ともだちのです。",
         "question": "あのほんは　だれのですか。",
-        "options": [
-          "せんせいの",
+        "options": ["せんせいの",
           "わたしの",
           "かぞくの",
-          "ともだちの"
-        ],
+          "ともだちの"],
         "answer": 0,
         "id": "N5-17-048"
       },
@@ -18429,12 +15551,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "わたしの　いえには　にわが　あります。はなや　やさいを　そだてています。トマトが　たくさん　なりました。",
         "question": "なにを　そだてていますか。",
-        "options": [
-          "くだもの",
+        "options": ["くだもの",
           "はなや　やさい",
           "どうぶつ",
-          "さかな"
-        ],
+          "さかな"],
         "answer": 1,
         "id": "N5-17-049"
       },
@@ -18442,12 +15562,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "リビングに　テレビが　あります。ソファも　あります。かぞくで　よく　ここで　テレビを　みます。",
         "question": "どこで　テレビを　みますか。",
-        "options": [
-          "リビング",
+        "options": ["リビング",
           "へや",
           "げんかん",
-          "だいどころ"
-        ],
+          "だいどころ"],
         "answer": 0,
         "id": "N5-17-050"
       },
@@ -18455,137 +15573,117 @@ window.MOCK_DATA['N5'] = {
         "type": "情報検索",
         "text": "【スーパー】あさ9じから　よる9じまで。まいにち　あいています。ちゅうしゃじょう　あり。",
         "question": "スーパーは　なんじまでですか。",
-        "options": [
-          "11じ",
+        "options": ["11じ",
           "10じ",
           "9じ",
-          "8じ"
-        ],
+          "8じ"],
         "answer": 1,
         "id": "N5-17-051"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "子供がお母さんと話しています。子供は何をもらいますか。",
-        "question": "何をもらいますか。",
-        "options": [
-          "🍫",
+        "text": "<ruby>子供<rt>こども</rt></ruby>が<ruby>お母さん<rt>おかあさん</rt></ruby>と<ruby>話<rt>はなし</rt></ruby>しています。<ruby>子供<rt>こども</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をもらいますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>をもらいますか。",
+        "options": ["🍫",
           "🍫🍫",
           "🍬🍬",
-          "🍬🍬🍬"
-        ],
+          "🍬🍬🍬"],
         "answer": 3,
         "id": "N5-17-052",
         "script": "M: 🍬 3つを　おねがいします。\nF: はい、わかりました。【セット17問27】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人がケーキ屋で話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🍰🍰",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>ケーキ屋<rt>けーきや</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🍰🍰",
           "🧁🧁🧁",
           "🍰",
-          "🧁"
-        ],
+          "🧁"],
         "answer": 0,
         "id": "N5-17-053",
         "script": "F: これですか。\nM: いいえ、ケーキ 2つを　ください。【セット17問28】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人がお花屋で買い物をしています。女の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🌷🌷",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がお<ruby>花屋<rt>はなや</rt></ruby>で<ruby>買い物<rt>かいもの</rt></ruby>をしています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🌷🌷",
           "🌸🌸🌸🌸🌸",
           "🌷🌷🌷🌷",
-          "🌸🌸🌸"
-        ],
+          "🌸🌸🌸"],
         "answer": 1,
         "id": "N5-17-054",
         "script": "M: すみません、🌸 5つは　ありますか。\nF: はい、どうぞ。【セット17問29】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人がアイス屋で話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🍦",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がアイス<ruby>屋<rt>や</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🍦",
           "🍨",
           "🍦🍦",
-          "🍨🍨🍨"
-        ],
+          "🍨🍨🍨"],
         "answer": 2,
         "id": "N5-17-055",
         "script": "M: アイスクリーム 2つを　ください。\nF: はい、アイスクリーム 2つですね。【セット17問30】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人と女の人がスーパーで話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🍊🍊🍊",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>と<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がスーパーで<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🍊🍊🍊",
           "🍎🍎",
           "🍊🍊",
-          "🍎🍎🍎"
-        ],
+          "🍎🍎🍎"],
         "answer": 3,
         "id": "N5-17-056",
         "script": "F: なにを　かいますか。\nM: りんご 3つを　かいます。【セット17問31】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人がお店で買い物をしています。女の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🍌🍌🍌🍌",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がお<ruby>店<rt>みせ</rt></ruby>で<ruby>買い物<rt>かいもの</rt></ruby>をしています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🍌🍌🍌🍌",
           "🍌🍌",
           "🍇🍇🍇",
-          "🍇🍇"
-        ],
+          "🍇🍇"],
         "answer": 0,
         "id": "N5-17-057",
         "script": "M: バナナ 4つを　おねがいします。\nF: はい、わかりました。【セット17問32】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "発表を聞いています。話者が最も強調しているのは何ですか。（97）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>発<rt>はつ</rt></ruby>表を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（97）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-17-058",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット17問33】"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "後輩をカラオケに誘いたい場面です。（84）",
-        "question": "適切な表現は？",
-        "options": [
-          "📌",
+        "text": "<ruby>後<rt>ご</rt></ruby><ruby>輩<rt>はい</rt></ruby>をカラオケに<ruby>誘<rt>さそ</rt></ruby>いたい<ruby>場<rt>ば</rt></ruby>面です。（84）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📆",
           "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-17-067",
         "script": "📆です。【セット17問34】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "朝礼を聞いています。話者が最も強調しているのは何ですか。（99）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>朝<rt>あさ</rt></ruby>礼を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（99）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-17-060",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット17問35】"
@@ -18593,53 +15691,45 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "いつからですか。（129）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "いいえ、違います",
-          "来週からです",
-          "はい、食べました"
-        ],
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "<ruby>来週<rt>らいしゅう</rt></ruby>からです",
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 2,
         "id": "N5-17-069"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "講演を聞いています。話者が最も強調しているのは何ですか。（101）",
-        "question": "最も強調しているのは？",
-        "options": [
-          "📌",
+        "text": "<ruby>講<rt>こう</rt></ruby><ruby>演<rt>えん</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（101）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📕",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-17-062",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット17問37】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "何人ですか。（130）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
-          "3人です",
+        "text": "<ruby>何<rt>なに</rt></ruby><ruby>人<rt>ひと</rt></ruby>ですか。（130）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
+          "3<ruby>人<rt>ひと</rt></ruby>です",
           "わかりません",
-          "いいえ、違います"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 1,
         "id": "N5-17-070"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "友達を映画に誘いたい場面です。（81）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>友<rt>とも</rt></ruby>達を<ruby>映画<rt>えいが</rt></ruby>に<ruby>誘<rt>さそ</rt></ruby>いたい<ruby>場<rt>ば</rt></ruby>面です。（81）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-17-064",
         "script": "ピンです。【セット17問39】"
@@ -18647,53 +15737,45 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "いくらですか。（131）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
           "わかりません",
-          "500円です",
-          "いいえ、違います"
-        ],
+          "500<ruby>円<rt>えん</rt></ruby>です",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 2,
         "id": "N5-17-071"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "先輩を飲み会に誘いたい場面です。（83）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>先輩<rt>せんぱい</rt></ruby>を<ruby>飲<rt>の</rt></ruby>み<ruby>会<rt>かい</rt></ruby>に<ruby>誘<rt>さそ</rt></ruby>いたい<ruby>場<rt>ば</rt></ruby>面です。（83）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-17-066",
         "script": "ピンです。【セット17問41】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "何階ですか。（132）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "3階です",
-          "いいえ、違います",
-          "はい、食べました"
-        ],
+        "text": "<ruby>何<rt>なに</rt></ruby><ruby>階<rt>かい</rt></ruby>ですか。（132）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "3<ruby>階<rt>かい</rt></ruby>です",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 1,
         "id": "N5-17-072"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "友人をドライブに誘いたい場面です。（85）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>友人<rt>ゆうじん</rt></ruby>をドライブに<ruby>誘<rt>さそ</rt></ruby>いたい<ruby>場<rt>ば</rt></ruby>面です。（85）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-17-068",
         "script": "ピンです。【セット17問43】"
@@ -18701,53 +15783,45 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "どちらがいいですか。（133）",
-        "question": "返答は？",
-        "options": [
-          "こちらがいいです",
-          "いいえ、違います",
-          "はい、食べました",
-          "わかりません"
-        ],
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["こちらがいいです",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "わかりません"],
         "answer": 0,
         "id": "N5-17-073"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "ニュースを聞いています。話者が最も強調しているのは何ですか。（102）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "ニュースを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（102）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-17-063",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット17問45】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "もう終わりましたか。（134）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "はい、食べました",
-          "はい、終わりました",
-          "いいえ、違います"
-        ],
+        "text": "もう<ruby>終わり<rt>おわり</rt></ruby>ましたか。（134）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "はい、<ruby>終わり<rt>おわり</rt></ruby>ました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 2,
         "id": "N5-17-074"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "研修を聞いています。話者が最も強調しているのは何ですか。（98）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>研修<rt>けんしゅう</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（98）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-17-059",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット17問47】"
@@ -18755,53 +15829,45 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "どうしましたか。（135）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
-          "少し疲れました",
-          "はい、食べました",
-          "わかりません"
-        ],
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "<ruby>少し<rt>すこし</rt></ruby><ruby>疲れ<rt>つかれ</rt></ruby>ました",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "わかりません"],
         "answer": 1,
         "id": "N5-17-075"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "同僚をランチに誘いたい場面です。（82）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>同<rt>どう</rt></ruby><ruby>僚<rt>りょう</rt></ruby>をランチに<ruby>誘<rt>さそ</rt></ruby>いたい<ruby>場<rt>ば</rt></ruby>面です。（82）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-17-065",
         "script": "ピンです。【セット17問49】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "お腹空きましたか。（136）",
-        "question": "返答は？",
-        "options": [
-          "少し空きました",
+        "text": "お腹<ruby>空<rt>そら</rt></ruby>きましたか。（136）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["<ruby>少し<rt>すこし</rt></ruby><ruby>空<rt>そら</rt></ruby>きました",
           "わかりません",
-          "はい、食べました",
-          "いいえ、違います"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 0,
         "id": "N5-17-076"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "ミーティングを聞いています。話者が最も強調しているのは何ですか。（100）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "ミーティングを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（100）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-17-061",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット17問51】"
@@ -18809,301 +15875,251 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "漢字読み",
         "text": "<u>小</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "おおやけ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["おおやけ",
           "かい",
           "じ",
-          "ちい、しょう"
-        ],
+          "ちい、しょう"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>線</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "いし",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["いし",
           "せん",
           "おと",
-          "みずか"
-        ],
+          "みずか"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>八</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "まじ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["まじ",
           "いと",
           "たの",
-          "はち、や"
-        ],
+          "はち、や"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>川</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "たま",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["たま",
           "かわ",
           "ちから",
-          "あ"
-        ],
+          "あ"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>絵</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "おう",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["おう",
           "え",
           "こう",
-          "やしろ"
-        ],
+          "やしろ"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>分</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "ふん、ぶん",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["ふん、ぶん",
           "ただ",
           "つく",
-          "おな"
-        ],
+          "おな"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>牛</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "あか",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["あか",
           "ふみ",
           "もと",
-          "うし"
-        ],
+          "うし"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>楽</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "し",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["し",
           "じ",
           "おおやけ",
-          "たの"
-        ],
+          "たの"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>糸</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "おと",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["おと",
           "いと",
           "みずか",
-          "り"
-        ],
+          "り"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>十</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "たの",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["たの",
           "じゅう、とお",
           "まじ",
-          "か"
-        ],
+          "か"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>四</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "ちから",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["ちから",
           "し、よ",
           "あ",
-          "おし"
-        ],
+          "おし"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>交</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "こう",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["こう",
           "まじ",
           "やしろ",
-          "むろ"
-        ],
+          "むろ"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>いそがしい</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "二つ",
-          "ご飯",
-          "忙しい",
-          "本当に"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>二つ<rt>ふたつ</rt></ruby>",
+          "<ruby>ご飯<rt>ごはん</rt></ruby>",
+          "<ruby>忙しい<rt>いそがしい</rt></ruby>",
+          "<ruby>本<rt>ほん</rt></ruby>当に"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>へる</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "足りる",
-          "一枚",
-          "減る",
-          "起こす"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>足りる<rt>たりる</rt></ruby>",
+          "<ruby>一<rt>いち</rt></ruby><ruby>枚<rt>まい</rt></ruby>",
+          "<ruby>減る<rt>へる</rt></ruby>",
+          "<ruby>起こす<rt>おこす</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>した</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "下",
-          "発見",
-          "確認",
-          "綺麗"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>下<rt>した</rt></ruby>",
+          "<ruby>発見<rt>はっけん</rt></ruby>",
+          "<ruby>確認<rt>かくにん</rt></ruby>",
+          "綺<ruby>麗<rt>うるわ</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "表記",
         "text": "<u>じしょ</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "貸す",
-          "引っ越す",
-          "辞書",
-          "卒業"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>貸す<rt>かす</rt></ruby>",
+          "<ruby>引っ越す<rt>ひっこす</rt></ruby>",
+          "<ruby>辞書<rt>じしょ</rt></ruby>",
+          "卒<ruby>業<rt>ごう</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>はっぴょう</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "発表",
-          "悪い",
-          "帽子",
-          "匂い"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>発<rt>はつ</rt></ruby>表",
+          "<ruby>悪い<rt>わるい</rt></ruby>",
+          "<ruby>帽子<rt>ぼうし</rt></ruby>",
+          "<ruby>匂い<rt>におい</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "表記",
         "text": "<u>かなしい</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "牛乳",
-          "習慣",
-          "捨てる",
-          "悲しい"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>牛<rt>うし</rt></ruby>乳",
+          "<ruby>習慣<rt>しゅうかん</rt></ruby>",
+          "<ruby>捨てる<rt>すてる</rt></ruby>",
+          "<ruby>悲しい<rt>かなしい</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>れんらく</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "連絡",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>連絡<rt>れんらく</rt></ruby>",
           "立つ",
-          "掃除",
-          "庭"
-        ],
+          "<ruby>掃<rt>そう</rt></ruby>除",
+          "<ruby>庭<rt>にわ</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "表記",
         "text": "<u>きゃく</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "安い",
-          "描く",
-          "毎朝",
-          "客"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>安い<rt>やすい</rt></ruby>",
+          "<ruby>描く<rt>えがく</rt></ruby>",
+          "<ruby>毎朝<rt>まいあさ</rt></ruby>",
+          "<ruby>客<rt>きゃく</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "言い換え",
         "text": "<ruby>面白い<rt>おもしろい</rt></ruby>本の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "調べる",
-          "薬",
-          "数える",
-          "興味深い"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["調べる",
+          "<ruby>薬<rt>くすり</rt></ruby>",
+          "<ruby>数える<rt>かぞえる</rt></ruby>",
+          "<ruby>興味<rt>きょうみ</rt></ruby><ruby>深い<rt>ふかい</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "言い換え",
         "text": "<ruby>難しい<rt>むずかしい</rt></ruby>問題の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "バス",
-          "全然",
-          "予約",
-          "困難"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["バス",
+          "<ruby>全<rt>ぜん</rt></ruby>然",
+          "<ruby>予<rt>よ</rt></ruby>約",
+          "<ruby>困難<rt>こんなん</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "言い換え",
         "text": "<ruby>易しい<rt>やさしい</rt></ruby>問題の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "公園",
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>公園<rt>こうえん</rt></ruby>",
           "ベランダ",
-          "報告",
-          "簡単"
-        ],
+          "<ruby>報告<rt>ほうこく</rt></ruby>",
+          "<ruby>簡単<rt>かんたん</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "言い換え",
         "text": "<ruby>優しい<rt>やさしい</rt></ruby>人の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "言葉",
-          "休む",
-          "親切",
-          "ご飯"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>言<rt>い</rt></ruby>葉",
+          "<ruby>休む<rt>やすむ</rt></ruby>",
+          "<ruby>親切<rt>しんせつ</rt></ruby>",
+          "<ruby>ご飯<rt>ごはん</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "言い換え",
         "text": "<ruby>美味しい<rt>おいしい</rt></ruby>料理の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "一枚",
-          "暗い",
-          "遅刻",
-          "美味"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>一<rt>いち</rt></ruby><ruby>枚<rt>まい</rt></ruby>",
+          "<ruby>暗い<rt>くらい</rt></ruby>",
+          "<ruby>遅刻<rt>ちこく</rt></ruby>",
+          "美<ruby>味<rt>あじ</rt></ruby>"],
         "answer": 3
       }
     ],
@@ -19112,25 +16128,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "とり（　）ないています。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "が",
+        "options": ["が",
           "あまり",
           "とき",
-          "の"
-        ],
+          "の"],
         "answer": 0,
         "id": "N5-18-026"
       },
       {
         "type": "文の組み立て",
-        "text": "【日常会話・問86（N5レベル）】次の語句を正しい順序に並べてください：あげました / 母に / 買って / プレゼントを",
-        "question": "正しい順序は？",
-        "options": [
-          "プレゼントを 買って あげました 母に",
-          "あげました 母に プレゼントを 買って",
-          "あげました 買って プレゼントを 母に",
-          "母にプレゼントを買ってあげました"
-        ],
+        "text": "【<ruby>日常<rt>にちじょう</rt></ruby><ruby>会話<rt>かいわ</rt></ruby>・<ruby>問<rt>とん</rt></ruby>86（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：あげました / <ruby>母<rt>はは</rt></ruby>に / <ruby>買<rt>か</rt></ruby>って / プレゼントを",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["プレゼントを <ruby>買<rt>か</rt></ruby>って あげました <ruby>母<rt>はは</rt></ruby>に",
+          "あげました <ruby>母<rt>はは</rt></ruby>に プレゼントを <ruby>買<rt>か</rt></ruby>って",
+          "あげました <ruby>買<rt>か</rt></ruby>って プレゼントを <ruby>母<rt>はは</rt></ruby>に",
+          "<ruby>母<rt>はは</rt></ruby>にプレゼントを<ruby>買<rt>か</rt></ruby>ってあげました"],
         "answer": 3,
         "id": "N5-18-036"
       },
@@ -19138,25 +16150,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "こども（　）あそんでいます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "あまり",
+        "options": ["あまり",
           "とき",
           "を",
-          "が"
-        ],
+          "が"],
         "answer": 3,
         "id": "N5-18-028"
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問87（N4レベル）】次の語句を正しい順序に並べてください：行きたい / 友達と / 旅行に / 一緒に / です",
-        "question": "正しい順序は？",
-        "options": [
-          "です 友達と 一緒に 旅行に 行きたい",
-          "友達と一緒に旅行に行きたいです",
-          "です 行きたい 旅行に 一緒に 友達と",
-          "一緒に 旅行に 行きたい です 友達と"
-        ],
+        "text": "【ビジネス・<ruby>問<rt>とん</rt></ruby>87（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>行<rt>い</rt></ruby>きたい / <ruby>友<rt>とも</rt></ruby>達と / <ruby>旅行<rt>りょこう</rt></ruby>に / <ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に / です",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["です <ruby>友<rt>とも</rt></ruby>達と <ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>行<rt>い</rt></ruby>きたい",
+          "<ruby>友<rt>とも</rt></ruby>達と<ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に<ruby>旅行<rt>りょこう</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたいです",
+          "です <ruby>行<rt>い</rt></ruby>きたい <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に <ruby>友<rt>とも</rt></ruby>達と",
+          "<ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>行<rt>い</rt></ruby>きたい です <ruby>友<rt>とも</rt></ruby>達と"],
         "answer": 0,
         "id": "N5-18-037"
       },
@@ -19164,25 +16172,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "ねこ（　）ねています。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "とき",
+        "options": ["とき",
           "まえ",
           "が",
-          "を"
-        ],
+          "を"],
         "answer": 2,
         "id": "N5-18-030"
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問88（N3レベル）】次の語句を正しい順序に並べてください：降って / 雨が / いる / ようです",
-        "question": "正しい順序は？",
-        "options": [
-          "ようです 雨が 降って いる",
-          "ようです いる 降って 雨が",
-          "雨が降っているようです",
-          "降って いる ようです 雨が"
-        ],
+        "text": "【<ruby>学校<rt>がっこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>88（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>降<rt>こう</rt></ruby>って / <ruby>雨<rt>あめ</rt></ruby>が / いる / ようです",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["ようです <ruby>雨<rt>あめ</rt></ruby>が <ruby>降<rt>こう</rt></ruby>って いる",
+          "ようです いる <ruby>降<rt>こう</rt></ruby>って <ruby>雨<rt>あめ</rt></ruby>が",
+          "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>こう</rt></ruby>っているようです",
+          "<ruby>降<rt>こう</rt></ruby>って いる ようです <ruby>雨<rt>あめ</rt></ruby>が"],
         "answer": 1,
         "id": "N5-18-038"
       },
@@ -19190,25 +16194,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "ドア（　）あいています。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "が",
+        "options": ["が",
           "まえ",
           "から",
-          "とても"
-        ],
+          "とても"],
         "answer": 0,
         "id": "N5-18-032"
       },
       {
         "type": "文の組み立て",
-        "text": "【旅行・問89（N2レベル）】次の語句を正しい順序に並べてください：仕事を / 連絡して / 終えたら / ください",
-        "question": "正しい順序は？",
-        "options": [
-          "ください 仕事を 終えたら 連絡して",
-          "ください 連絡して 終えたら 仕事を",
-          "終えたら 連絡して ください 仕事を",
-          "仕事を終えたら連絡してください"
-        ],
+        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>89（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>仕事<rt>しごと</rt></ruby>を / <ruby>連絡<rt>れんらく</rt></ruby>して / <ruby>終<rt>しゅう</rt></ruby>えたら / ください",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["ください <ruby>仕事<rt>しごと</rt></ruby>を <ruby>終<rt>しゅう</rt></ruby>えたら <ruby>連絡<rt>れんらく</rt></ruby>して",
+          "ください <ruby>連絡<rt>れんらく</rt></ruby>して <ruby>終<rt>しゅう</rt></ruby>えたら <ruby>仕事<rt>しごと</rt></ruby>を",
+          "<ruby>終<rt>しゅう</rt></ruby>えたら <ruby>連絡<rt>れんらく</rt></ruby>して ください <ruby>仕事<rt>しごと</rt></ruby>を",
+          "<ruby>仕事<rt>しごと</rt></ruby>を<ruby>終<rt>しゅう</rt></ruby>えたら<ruby>連絡<rt>れんらく</rt></ruby>してください"],
         "answer": 0,
         "id": "N5-18-039"
       },
@@ -19216,25 +16216,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "でんき（　）ついています。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "まえ",
+        "options": ["まえ",
           "ながら",
           "が",
-          "まで"
-        ],
+          "まで"],
         "answer": 2,
         "id": "N5-18-034"
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問90（N1レベル）】次の語句を正しい順序に並べてください：母が / くれました / 作って / この料理は",
-        "question": "正しい順序は？",
-        "options": [
-          "母が 作って くれました この料理は",
-          "くれました 作って 母が この料理は",
-          "くれました この料理は 母が 作って",
-          "この料理は母が作ってくれました"
-        ],
+        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>とん</rt></ruby>90（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>母<rt>はは</rt></ruby>が / くれました / <ruby>作<rt>さく</rt></ruby>って / この料<ruby>理<rt>り</rt></ruby>は",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>母<rt>はは</rt></ruby>が <ruby>作<rt>さく</rt></ruby>って くれました この料<ruby>理<rt>り</rt></ruby>は",
+          "くれました <ruby>作<rt>さく</rt></ruby>って <ruby>母<rt>はは</rt></ruby>が この料<ruby>理<rt>り</rt></ruby>は",
+          "くれました この料<ruby>理<rt>り</rt></ruby>は <ruby>母<rt>はは</rt></ruby>が <ruby>作<rt>さく</rt></ruby>って",
+          "この料<ruby>理<rt>り</rt></ruby>は<ruby>母<rt>はは</rt></ruby>が<ruby>作<rt>さく</rt></ruby>ってくれました"],
         "answer": 1,
         "id": "N5-18-040"
       },
@@ -19242,25 +16238,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "あかちゃん（　）ないています。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "から",
+        "options": ["から",
           "あと",
           "が",
-          "まえ"
-        ],
+          "まえ"],
         "answer": 2,
         "id": "N5-18-027"
       },
       {
         "type": "文章の文法",
-        "text": "努力家である（　）、才能にも恵まれている。（87）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "とはいえ",
+        "text": "努<ruby>力<rt>ちから</rt></ruby><ruby>家<rt>いえ</rt></ruby>である（　）、<ruby>才能<rt>さいのう</rt></ruby>にも<ruby>恵<rt>めぐ</rt></ruby>まれている。（87）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["とはいえ",
           "のみならず",
           "にもかかわらず",
-          "からこそ"
-        ],
+          "からこそ"],
         "answer": 1,
         "id": "N5-18-042"
       },
@@ -19268,25 +16260,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "でんわ（　）なっています。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "へ",
+        "options": ["へ",
           "まえ",
           "あと",
-          "が"
-        ],
+          "が"],
         "answer": 3,
         "id": "N5-18-031"
       },
       {
         "type": "文章の文法",
-        "text": "一朝一夕（　）解決できるものではない。（88）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "では",
+        "text": "<ruby>一朝一夕<rt>いっちょういっせき</rt></ruby>（　）<ruby>解決<rt>かいけつ</rt></ruby>できるものではない。（88）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["では",
           "には",
           "で",
-          "に"
-        ],
+          "に"],
         "answer": 3,
         "id": "N5-18-043"
       },
@@ -19294,25 +16282,21 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "エアコン（　）ついています。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "とき",
+        "options": ["とき",
           "が",
           "から",
-          "ながら"
-        ],
+          "ながら"],
         "answer": 1,
         "id": "N5-18-035"
       },
       {
         "type": "文章の文法",
-        "text": "事実（　）基づいている。（89）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "を",
+        "text": "<ruby>事<rt>こと</rt></ruby>実（　）<ruby>基づいて<rt>もとづいて</rt></ruby>いる。（89）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["を",
           "に",
           "が",
-          "と"
-        ],
+          "と"],
         "answer": 1,
         "id": "N5-18-044"
       },
@@ -19320,38 +16304,32 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "いぬ（　）はしっています。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "たくさん",
+        "options": ["たくさん",
           "が",
           "とても",
-          "に"
-        ],
+          "に"],
         "answer": 1,
         "id": "N5-18-029"
       },
       {
         "type": "文章の文法",
-        "text": "経験（　）勝るものはない。（90）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "を",
+        "text": "<ruby>経験<rt>けいけん</rt></ruby>（　）<ruby>勝る<rt>まさる</rt></ruby>ものはない。（90）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["を",
           "より",
           "が",
-          "に"
-        ],
+          "に"],
         "answer": 3,
         "id": "N5-18-045"
       },
       {
         "type": "文章の文法",
-        "text": "結果（　）良ければ全て良しとは限らない。（86）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "だけ",
+        "text": "<ruby>結果<rt>けっか</rt></ruby>（　）<ruby>良<rt>りょう</rt></ruby>ければ<ruby>全て<rt>すべて</rt></ruby><ruby>良<rt>りょう</rt></ruby>しとは<ruby>限<rt>かぎ</rt></ruby>らない。（86）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["だけ",
           "さえ",
           "こそ",
-          "が"
-        ],
+          "が"],
         "answer": 3,
         "id": "N5-18-041"
       },
@@ -19359,12 +16337,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "わたしは　コーヒーが　すきです。さとうを　いれません。ミルクだけ　いれます。",
         "question": "コーヒーに　なにを　いれますか。",
-        "options": [
-          "さとう",
+        "options": ["さとう",
           "なにも　いれません",
           "ミルク",
-          "さとうと　ミルク"
-        ],
+          "さとうと　ミルク"],
         "answer": 2,
         "id": "N5-18-046"
       },
@@ -19372,12 +16348,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "まど（　）しまっています。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "すこし",
+        "options": ["すこし",
           "が",
           "とき",
-          "も"
-        ],
+          "も"],
         "answer": 1,
         "id": "N5-18-033"
       },
@@ -19385,12 +16359,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "きょうは　もくようびです。あしたは　きんようびです。",
         "question": "あしたは　なんようびですか。",
-        "options": [
-          "きんようび",
+        "options": ["きんようび",
           "もくようび",
           "どようび",
-          "すいようび"
-        ],
+          "すいようび"],
         "answer": 1,
         "id": "N5-18-047"
       },
@@ -19398,12 +16370,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "わたしは　8がつ　15にちに　うまれました。",
         "question": "たんじょうびは　いつですか。",
-        "options": [
-          "8がつ15にち",
+        "options": ["8がつ15にち",
           "10がつ15にち",
           "7がつ15にち",
-          "9がつ15にち"
-        ],
+          "9がつ15にち"],
         "answer": 0,
         "id": "N5-18-048"
       },
@@ -19411,12 +16381,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "わたしの　へやには　ほんだなが　あります。ほんが　100さつ　くらい　あります。まんがも　あります。",
         "question": "ほんは　なんさつ　くらい　ありますか。",
-        "options": [
-          "50さつ",
+        "options": ["50さつ",
           "100さつ",
           "200さつ",
-          "150さつ"
-        ],
+          "150さつ"],
         "answer": 1,
         "id": "N5-18-049"
       },
@@ -19424,12 +16392,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "わたしは　スーパーで　はたらいています。まいにち　10じから　6じまでです。どようびも　はたらきます。にちようびは　やすみです。",
         "question": "いつ　やすみですか。",
-        "options": [
-          "きんようび",
+        "options": ["きんようび",
           "げつようび",
           "どようび",
-          "にちようび"
-        ],
+          "にちようび"],
         "answer": 3,
         "id": "N5-18-050"
       },
@@ -19437,299 +16403,255 @@ window.MOCK_DATA['N5'] = {
         "type": "情報検索",
         "text": "【にほんごクラス】しょきゅう　げつ・すい　10じから。1かげつ15000えん。",
         "question": "しょきゅうクラスは　いくらですか。",
-        "options": [
-          "10000えん",
+        "options": ["10000えん",
           "20000えん",
           "15000えん",
-          "25000えん"
-        ],
+          "25000えん"],
         "answer": 1,
         "id": "N5-18-051"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人と女の人が八百屋で話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🍅🍅",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>と<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>八百屋<rt>やおや</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🍅🍅",
           "🍅🍅🍅",
           "🥕🥕",
-          "🥕🥕🥕"
-        ],
+          "🥕🥕🥕"],
         "answer": 0,
         "id": "N5-18-052",
         "script": "M: トマト 2つを　おねがいします。\nF: はい、わかりました。【セット18問27】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人がコンビニで買い物をしています。女の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🥪🥪",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がコンビニで<ruby>買い物<rt>かいもの</rt></ruby>をしています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🥪🥪",
           "🍙🍙",
           "🍙🍙🍙",
-          "🥪"
-        ],
+          "🥪"],
         "answer": 1,
         "id": "N5-18-053",
         "script": "F: これですか。\nM: いいえ、おにぎり 2つを　ください。【セット18問28】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人がパン屋で話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🥐🥐",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>パン屋<rt>ぱんや</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🥐🥐",
           "🍞",
           "🍞🍞",
-          "🥐🥐🥐"
-        ],
+          "🥐🥐🥐"],
         "answer": 3,
         "id": "N5-18-054",
         "script": "M: すみません、🥐 3つは　ありますか。\nF: はい、どうぞ。【セット18問29】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人がカフェで注文しています。女の人は何を頼みますか。",
-        "question": "何を頼みますか。",
-        "options": [
-          "☕",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がカフェで<ruby>注文<rt>ちゅうもん</rt></ruby>しています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>頼み<rt>たのみ</rt></ruby>ますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>頼み<rt>たのみ</rt></ruby>ますか。",
+        "options": ["☕",
           "☕☕",
           "🍵🍵",
-          "🍵"
-        ],
+          "🍵"],
         "answer": 1,
         "id": "N5-18-055",
         "script": "M: コーヒー 2つを　ください。\nF: はい、コーヒー 2つですね。【セット18問30】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人がレストランで注文しています。男の人は何を注文しますか。",
-        "question": "何を注文しますか。",
-        "options": [
-          "🍺🍺",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がレストランで<ruby>注文<rt>ちゅうもん</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>注文<rt>ちゅうもん</rt></ruby>しますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>注文<rt>ちゅうもん</rt></ruby>しますか。",
+        "options": ["🍺🍺",
           "🍷",
           "🍷🍷",
-          "🍺"
-        ],
+          "🍺"],
         "answer": 3,
         "id": "N5-18-056",
         "script": "F: なにを　かいますか。\nM: 🍺を　かいます。【セット18問31】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "学生が文房具店で買い物をしています。学生は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "✏️✏️✏️",
+        "text": "<ruby>学生<rt>がくせい</rt></ruby>が<ruby>文<rt>ぶん</rt></ruby><ruby>房<rt>ふさ</rt></ruby><ruby>具<rt>ぐ</rt></ruby><ruby>店<rt>みせ</rt></ruby>で<ruby>買い物<rt>かいもの</rt></ruby>をしています。<ruby>学生<rt>がくせい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["✏️✏️✏️",
           "📒📒",
           "📒",
-          "✏️✏️"
-        ],
+          "✏️✏️"],
         "answer": 0,
         "id": "N5-18-057",
         "script": "M: ✏ 3つを　おねがいします。\nF: はい、わかりました。【セット18問32】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "インタビューを聞いています。話者が最も強調しているのは何ですか。（103）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "インタビューを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（103）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-18-058",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット18問33】"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "上司に相談したい場面です。（89）",
-        "question": "適切な表現は？",
-        "options": [
-          "📌",
+        "text": "<ruby>上司<rt>じょうし</rt></ruby>に<ruby>相<rt>そう</rt></ruby>談したい<ruby>場<rt>ば</rt></ruby>面です。（89）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📆",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-18-067",
         "script": "📆です。【セット18問34】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "会議を聞いています。話者が最も強調しているのは何ですか。（105）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>会議<rt>かいぎ</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（105）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-18-060",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット18問35】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "眠いですか。（137）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "いいえ、違います",
-          "はい、食べました",
-          "少し眠いです"
-        ],
+        "text": "<ruby>眠い<rt>ねむい</rt></ruby>ですか。（137）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "<ruby>少し<rt>すこし</rt></ruby><ruby>眠い<rt>ねむい</rt></ruby>です"],
         "answer": 3,
         "id": "N5-18-069"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "授業を聞いています。話者が最も強調しているのは何ですか。（107）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>授業<rt>じゅぎょう</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（107）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-18-062",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット18問37】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "準備できましたか。（138）",
-        "question": "返答は？",
-        "options": [
-          "はい、できました",
+        "text": "<ruby>準備<rt>じゅんび</rt></ruby>できましたか。（138）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、できました",
           "わかりません",
-          "いいえ、違います",
-          "はい、食べました"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 0,
         "id": "N5-18-070"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "上司に休暇を申請したい場面です。（86）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>上司<rt>じょうし</rt></ruby>に<ruby>休暇<rt>きゅうか</rt></ruby>を申<ruby>請<rt>う</rt></ruby>したい<ruby>場<rt>ば</rt></ruby>面です。（86）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-18-064",
         "script": "ピンです。【セット18問39】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "分かりましたか。（139）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
-          "はい、分かりました",
+        "text": "<ruby>分<rt>ふん</rt></ruby>かりましたか。（139）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>分<rt>ふん</rt></ruby>かりました",
           "わかりません",
-          "はい、食べました"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 1,
         "id": "N5-18-071"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "上司に遅刻を詫びたい場面です。（88）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>上司<rt>じょうし</rt></ruby>に<ruby>遅刻<rt>ちこく</rt></ruby>を詫びたい<ruby>場<rt>ば</rt></ruby>面です。（88）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-18-066",
         "script": "ピンです。【セット18問41】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "聞こえますか。（140）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
+        "text": "<ruby>聞<rt>き</rt></ruby>こえますか。（140）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
           "わかりません",
-          "いいえ、違います",
-          "はい、聞こえます"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>聞<rt>き</rt></ruby>こえます"],
         "answer": 3,
         "id": "N5-18-072"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "上司に報告したい場面です。（90）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>上司<rt>じょうし</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>したい<ruby>場<rt>ば</rt></ruby>面です。（90）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-18-068",
         "script": "ピンです。【セット18問43】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "この席、空いていますか。（141）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
+        "text": "この席、<ruby>空<rt>そら</rt></ruby>いていますか。（141）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
           "はい、どうぞ",
-          "はい、食べました",
-          "わかりません"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "わかりません"],
         "answer": 1,
         "id": "N5-18-073"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "ラジオを聞いています。話者が最も強調しているのは何ですか。（108）",
-        "question": "最も強調しているのは？",
-        "options": [
-          "📌",
+        "text": "ラジオを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（108）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📕",
           "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-18-063",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット18問45】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "何時からですか。（142）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
+        "text": "<ruby>何時<rt>いつ</rt></ruby>からですか。（142）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
           "わかりません",
-          "いいえ、違います",
-          "10時からです"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "10<ruby>時<rt>とき</rt></ruby>からです"],
         "answer": 3,
         "id": "N5-18-074"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "説明を聞いています。話者が最も強調しているのは何ですか。（104）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>説明<rt>せつめい</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（104）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-18-059",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット18問47】"
@@ -19737,53 +16659,45 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "コンビニはありますか。（143）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
-          "あの角にあります",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "あの<ruby>角<rt>かど</rt></ruby>にあります",
           "わかりません",
-          "はい、食べました"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 1,
         "id": "N5-18-075"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "上司に早退を申し出たい場面です。（87）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>上司<rt>じょうし</rt></ruby>に<ruby>早退<rt>そうたい</rt></ruby>を申し<ruby>出<rt>で</rt></ruby>たい<ruby>場<rt>ば</rt></ruby>面です。（87）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-18-065",
         "script": "ピンです。【セット18問49】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "手伝ってもらえますか。（144）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
+        "text": "<ruby>手<rt>て</rt></ruby><ruby>伝<rt>でん</rt></ruby>ってもらえますか。（144）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
           "わかりません",
-          "はい、食べました",
-          "はい、いいですよ"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "はい、いいですよ"],
         "answer": 3,
         "id": "N5-18-076"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "プレゼンを聞いています。話者が最も強調しているのは何ですか。（106）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "プレゼンを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（106）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-18-061",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット18問51】"
@@ -19791,301 +16705,251 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "漢字読み",
         "text": "<u>田</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "おな",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["おな",
           "つく",
           "た",
-          "はか"
-        ],
+          "はか"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>口</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "くち",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["くち",
           "もと",
           "あか",
-          "さん"
-        ],
+          "さん"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>名</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "し",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["し",
           "おおやけ",
           "な",
-          "く"
-        ],
+          "く"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>教</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "みずか",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["みずか",
           "おし",
           "り",
-          "え"
-        ],
+          "え"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>林</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "はやし",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["はやし",
           "まじ",
           "か",
-          "せん"
-        ],
+          "せん"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>九</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "あ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["あ",
           "きゅう、く",
           "おし",
-          "や"
-        ],
+          "や"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>年</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "ねん、とし",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["ねん、とし",
           "やしろ",
           "むろ",
-          "ゆみ"
-        ],
+          "ゆみ"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>鳥</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "かたち",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["かたち",
           "おな",
           "はか",
-          "とり"
-        ],
+          "とり"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>空</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "いろ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["いろ",
           "あか",
           "さん",
-          "そら"
-        ],
+          "そら"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>組</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "うま",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["うま",
           "し",
           "くろ",
-          "く"
-        ],
+          "く"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>木</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "え",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["え",
           "り",
           "き",
-          "ちゃ"
-        ],
+          "ちゃ"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>北</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "せん",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["せん",
           "か",
           "きた、ほく",
-          "にく"
-        ],
+          "にく"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>かく</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "書く",
-          "会社員",
-          "力",
-          "濡れる"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>書く<rt>かく</rt></ruby>",
+          "<ruby>会社<rt>かいしゃ</rt></ruby><ruby>員<rt>いん</rt></ruby>",
+          "<ruby>力<rt>ちから</rt></ruby>",
+          "<ruby>濡れる<rt>ぬれる</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "表記",
         "text": "<u>しらべる</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "洗う",
-          "天気",
-          "凍る",
-          "調べる"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>洗う<rt>あらう</rt></ruby>",
+          "<ruby>天気<rt>てんき</rt></ruby>",
+          "<ruby>凍る<rt>こおる</rt></ruby>",
+          "調べる"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>こうえん</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "山",
-          "公園",
-          "成功",
-          "今月"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>山<rt>やま</rt></ruby>",
+          "<ruby>公園<rt>こうえん</rt></ruby>",
+          "<ruby>成功<rt>せいこう</rt></ruby>",
+          "<ruby>今月<rt>こんげつ</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>ごはん</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "二つ",
-          "ご飯",
-          "本当に",
-          "掛かる"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>二つ<rt>ふたつ</rt></ruby>",
+          "<ruby>ご飯<rt>ごはん</rt></ruby>",
+          "<ruby>本<rt>ほん</rt></ruby>当に",
+          "<ruby>掛かる<rt>かかる</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>いちまい</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "時計",
-          "足りる",
-          "起こす",
-          "一枚"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>時計<rt>とけい</rt></ruby>",
+          "<ruby>足りる<rt>たりる</rt></ruby>",
+          "<ruby>起こす<rt>おこす</rt></ruby>",
+          "<ruby>一<rt>いち</rt></ruby><ruby>枚<rt>まい</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>はっけん</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "綺麗",
-          "確認",
-          "発見",
-          "落ちる"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["綺<ruby>麗<rt>うるわ</rt></ruby>",
+          "<ruby>確認<rt>かくにん</rt></ruby>",
+          "<ruby>発見<rt>はっけん</rt></ruby>",
+          "落ちる"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>ひっこす</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "貸す",
-          "引っ越す",
-          "卒業",
-          "光る"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>貸す<rt>かす</rt></ruby>",
+          "<ruby>引っ越す<rt>ひっこす</rt></ruby>",
+          "卒<ruby>業<rt>ごう</rt></ruby>",
+          "<ruby>光る<rt>ひかる</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>わるい</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "悪い",
-          "帽子",
-          "匂い",
-          "先輩"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>悪い<rt>わるい</rt></ruby>",
+          "<ruby>帽子<rt>ぼうし</rt></ruby>",
+          "<ruby>匂い<rt>におい</rt></ruby>",
+          "<ruby>先輩<rt>せんぱい</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "言い換え",
         "text": "人が<ruby>多い<rt>おおい</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "多数",
-          "使う",
-          "重い",
-          "発見"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>多数<rt>たすう</rt></ruby>",
+          "<ruby>使う<rt>つかう</rt></ruby>",
+          "<ruby>重い<rt>おもい</rt></ruby>",
+          "<ruby>発見<rt>はっけん</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "言い換え",
         "text": "人が<ruby>少ない<rt>すくない</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "さようなら",
-          "少数",
-          "一緒に",
-          "引っ越す"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["さようなら",
+          "<ruby>少数<rt>しょうすう</rt></ruby>",
+          "<ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に",
+          "<ruby>引っ越す<rt>ひっこす</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "言い換え",
         "text": "<ruby>怖い<rt>こわい</rt></ruby>映画の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "困る",
-          "恐ろしい",
-          "夏",
-          "悪い"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>困る<rt>こまる</rt></ruby>",
+          "<ruby>恐ろしい<rt>おそろしい</rt></ruby>",
+          "<ruby>夏<rt>なつ</rt></ruby>",
+          "<ruby>悪い<rt>わるい</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "言い換え",
         "text": "<ruby>暇<rt>ひま</rt></ruby>な時の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "忙しい",
-          "歩く",
-          "閑暇",
-          "くれる"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>忙しい<rt>いそがしい</rt></ruby>",
+          "<ruby>歩く<rt>あるく</rt></ruby>",
+          "<ruby>閑暇<rt>かんか</rt></ruby>",
+          "くれる"],
         "answer": 2
       },
       {
         "type": "言い換え",
         "text": "<ruby>仕事<rt>しごと</rt></ruby>をするの意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "減る",
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>減る<rt>へる</rt></ruby>",
           "繋ぐ",
-          "業務",
-          "サイズ"
-        ],
+          "<ruby>業務<rt>ぎょうむ</rt></ruby>",
+          "サイズ"],
         "answer": 2
       }
     ],
@@ -20094,12 +16958,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "テレビ（　）ついています。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "が",
+        "options": ["が",
           "の",
           "すこし",
-          "たくさん"
-        ],
+          "たくさん"],
         "answer": 0,
         "id": "N5-19-026"
       },
@@ -20107,12 +16969,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "がっこう（ 　）いきます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "すこし",
+        "options": ["すこし",
           "とても",
           "が",
-          "に"
-        ],
+          "に"],
         "answer": 3,
         "id": "N5-19-027"
       },
@@ -20120,12 +16980,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "にほんご（　）べんきょうしています。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "に",
+        "options": ["に",
           "たくさん",
           "あまり",
-          "を"
-        ],
+          "を"],
         "answer": 3,
         "id": "N5-19-029"
       },
@@ -20133,12 +16991,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "ともだち（ 　）あいました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "に",
+        "options": ["に",
           "とても",
           "とき",
-          "まで"
-        ],
+          "まで"],
         "answer": 0,
         "id": "N5-19-028"
       },
@@ -20146,12 +17002,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "でんしゃ（　）きます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "まえ",
+        "options": ["まえ",
           "まで",
           "あと",
-          "が"
-        ],
+          "が"],
         "answer": 3,
         "id": "N5-19-030"
       },
@@ -20159,12 +17013,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "えいが（　）みました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "とても",
+        "options": ["とても",
           "ながら",
           "に",
-          "を"
-        ],
+          "を"],
         "answer": 3,
         "id": "N5-19-032"
       },
@@ -20172,12 +17024,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "コーヒー（　）のみたいです。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "が",
+        "options": ["が",
           "ながら",
           "も",
-          "とき"
-        ],
+          "とき"],
         "answer": 0,
         "id": "N5-19-031"
       },
@@ -20185,12 +17035,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "へや（　）きれいです。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "から",
+        "options": ["から",
           "を",
           "に",
-          "は"
-        ],
+          "は"],
         "answer": 3,
         "id": "N5-19-033"
       },
@@ -20198,12 +17046,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "たべ（　）から　ねます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "て",
+        "options": ["て",
           "ない",
           "た",
-          "る"
-        ],
+          "る"],
         "answer": 0,
         "id": "N5-19-034"
       },
@@ -20211,142 +17057,120 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "にほんに　いき（　）です。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "ます",
+        "options": ["ます",
           "た",
           "たい",
-          "る"
-        ],
+          "る"],
         "answer": 2,
         "id": "N5-19-035"
       },
       {
         "type": "文の組み立て",
-        "text": "【日常会話・問91（N5レベル）】次の語句を正しい順序に並べてください：本を / 読みました / 昨日 / 私は / 図書館で",
-        "question": "正しい順序は？",
-        "options": [
-          "読みました 私は 昨日 図書館で 本を",
-          "読みました 本を 図書館で 昨日 私は",
-          "昨日 図書館で 本を 読みました 私は",
-          "私は昨日図書館で本を読みました"
-        ],
+        "text": "【<ruby>日常<rt>にちじょう</rt></ruby><ruby>会話<rt>かいわ</rt></ruby>・<ruby>問<rt>とん</rt></ruby>91（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>本<rt>ほん</rt></ruby>を / <ruby>読み<rt>よみ</rt></ruby>ました / <ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby> / <ruby>私<rt>わたし</rt></ruby>は / <ruby>図書館<rt>としょかん</rt></ruby>で",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>読み<rt>よみ</rt></ruby>ました <ruby>私<rt>わたし</rt></ruby>は <ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby> <ruby>図書館<rt>としょかん</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を",
+          "<ruby>読み<rt>よみ</rt></ruby>ました <ruby>本<rt>ほん</rt></ruby>を <ruby>図書館<rt>としょかん</rt></ruby>で <ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby> <ruby>私<rt>わたし</rt></ruby>は",
+          "<ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby> <ruby>図書館<rt>としょかん</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を <ruby>読み<rt>よみ</rt></ruby>ました <ruby>私<rt>わたし</rt></ruby>は",
+          "<ruby>私<rt>わたし</rt></ruby>は<ruby>昨<rt>さく</rt></ruby><ruby>日<rt>ひ</rt></ruby><ruby>図書館<rt>としょかん</rt></ruby>で<ruby>本<rt>ほん</rt></ruby>を<ruby>読み<rt>よみ</rt></ruby>ました"],
         "answer": 1,
         "id": "N5-19-036"
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問92（N4レベル）】次の語句を正しい順序に並べてください：散歩 / 毎朝 / します / 公園を / 彼女は",
-        "question": "正しい順序は？",
-        "options": [
-          "します 彼女は 毎朝 公園を 散歩",
-          "します 散歩 公園を 毎朝 彼女は",
-          "彼女は毎朝公園を散歩します",
-          "毎朝 公園を 散歩 します 彼女は"
-        ],
+        "text": "【ビジネス・<ruby>問<rt>とん</rt></ruby>92（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>散歩<rt>さんぽ</rt></ruby> / <ruby>毎朝<rt>まいあさ</rt></ruby> / します / <ruby>公園<rt>こうえん</rt></ruby>を / <ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["します <ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は <ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>を <ruby>散歩<rt>さんぽ</rt></ruby>",
+          "します <ruby>散歩<rt>さんぽ</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>を <ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は",
+          "<ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は<ruby>毎朝<rt>まいあさ</rt></ruby><ruby>公園<rt>こうえん</rt></ruby>を<ruby>散歩<rt>さんぽ</rt></ruby>します",
+          "<ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>を <ruby>散歩<rt>さんぽ</rt></ruby> します <ruby>彼<rt>かれ</rt></ruby><ruby>女<rt>おんな</rt></ruby>は"],
         "answer": 3,
         "id": "N5-19-037"
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問93（N3レベル）】次の語句を正しい順序に並べてください：この店は / いつも / です / お客さんで / いっぱい",
-        "question": "正しい順序は？",
-        "options": [
-          "いつも お客さんで いっぱい です この店は",
-          "です この店は いつも お客さんで いっぱい",
-          "です いっぱい お客さんで いつも この店は",
-          "この店はいつもお客さんでいっぱいです"
-        ],
+        "text": "【<ruby>学校<rt>がっこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>93（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：この<ruby>店<rt>みせ</rt></ruby>は / いつも / です / お<ruby>客<rt>きゃく</rt></ruby>さんで / いっぱい",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["いつも お<ruby>客<rt>きゃく</rt></ruby>さんで いっぱい です この<ruby>店<rt>みせ</rt></ruby>は",
+          "です この<ruby>店<rt>みせ</rt></ruby>は いつも お<ruby>客<rt>きゃく</rt></ruby>さんで いっぱい",
+          "です いっぱい お<ruby>客<rt>きゃく</rt></ruby>さんで いつも この<ruby>店<rt>みせ</rt></ruby>は",
+          "この<ruby>店<rt>みせ</rt></ruby>はいつもお<ruby>客<rt>きゃく</rt></ruby>さんでいっぱいです"],
         "answer": 2,
         "id": "N5-19-038"
       },
       {
         "type": "文の組み立て",
-        "text": "【旅行・問94（N2レベル）】次の語句を正しい順序に並べてください：質問を / 先生に / か / できます / することが",
-        "question": "正しい順序は？",
-        "options": [
-          "質問を することが できます か 先生に",
-          "か 先生に 質問を することが できます",
-          "か できます することが 質問を 先生に",
-          "先生に質問をすることができますか"
-        ],
+        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>94（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>質問<rt>しつもん</rt></ruby>を / <ruby>先生<rt>せんせい</rt></ruby>に / か / できます / することが",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>質問<rt>しつもん</rt></ruby>を することが できます か <ruby>先生<rt>せんせい</rt></ruby>に",
+          "か <ruby>先生<rt>せんせい</rt></ruby>に <ruby>質問<rt>しつもん</rt></ruby>を することが できます",
+          "か できます することが <ruby>質問<rt>しつもん</rt></ruby>を <ruby>先生<rt>せんせい</rt></ruby>に",
+          "<ruby>先生<rt>せんせい</rt></ruby>に<ruby>質問<rt>しつもん</rt></ruby>をすることができますか"],
         "answer": 3,
         "id": "N5-19-039"
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問95（N1レベル）】次の語句を正しい順序に並べてください：できない / 出席 / 会議に / 明日の / かもしれません",
-        "question": "正しい順序は？",
-        "options": [
-          "明日の会議に出席できないかもしれません",
-          "かもしれません できない 出席 会議に 明日の",
-          "会議に 出席 できない かもしれません 明日の",
-          "かもしれません 明日の 会議に 出席 できない"
-        ],
+        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>とん</rt></ruby>95（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：できない / <ruby>出<rt>で</rt></ruby>席 / <ruby>会議<rt>かいぎ</rt></ruby>に / <ruby>明日<rt>あした</rt></ruby>の / かもしれません",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>明日<rt>あした</rt></ruby>の<ruby>会議<rt>かいぎ</rt></ruby>に<ruby>出<rt>で</rt></ruby>席できないかもしれません",
+          "かもしれません できない <ruby>出<rt>で</rt></ruby>席 <ruby>会議<rt>かいぎ</rt></ruby>に <ruby>明日<rt>あした</rt></ruby>の",
+          "<ruby>会議<rt>かいぎ</rt></ruby>に <ruby>出<rt>で</rt></ruby>席 できない かもしれません <ruby>明日<rt>あした</rt></ruby>の",
+          "かもしれません <ruby>明日<rt>あした</rt></ruby>の <ruby>会議<rt>かいぎ</rt></ruby>に <ruby>出<rt>で</rt></ruby>席 できない"],
         "answer": 2,
         "id": "N5-19-040"
       },
       {
         "type": "文章の文法",
-        "text": "健康（　）、何事も始まらない。（91）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "でなくては",
+        "text": "健<ruby>康<rt>こう</rt></ruby>（　）、<ruby>何<rt>なに</rt></ruby><ruby>事<rt>こと</rt></ruby>も<ruby>始<rt>はじまる</rt></ruby>まらない。（91）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["でなくては",
           "がなければ",
           "ならでは",
-          "なくして"
-        ],
+          "なくして"],
         "answer": 3,
         "id": "N5-19-041"
       },
       {
         "type": "文章の文法",
-        "text": "時間の許す（　）、できるだけ訪れたい。（92）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "まで",
-          "限り",
+        "text": "<ruby>時間<rt>じかん</rt></ruby>の<ruby>許す<rt>ゆるす</rt></ruby>（　）、できるだけ<ruby>訪<rt>ほう</rt></ruby>れたい。（92）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["まで",
+          "<ruby>限り<rt>かぎり</rt></ruby>",
           "うちに",
-          "ほど"
-        ],
+          "ほど"],
         "answer": 1,
         "id": "N5-19-042"
       },
       {
         "type": "文章の文法",
-        "text": "医師（　）、ボランティアにも熱心だ。（93）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "であれば",
+        "text": "<ruby>医師<rt>いし</rt></ruby>（　）、ボランティアにも<ruby>熱心<rt>ねっしん</rt></ruby>だ。（93）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["であれば",
           "として",
-          "である傍ら",
-          "なので"
-        ],
+          "である<ruby>傍<rt>かたわ</rt></ruby>ら",
+          "なので"],
         "answer": 2,
         "id": "N5-19-043"
       },
       {
         "type": "文章の文法",
-        "text": "医師の処方（　）使用してください。（94）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "に対して",
+        "text": "<ruby>医師<rt>いし</rt></ruby>の処<ruby>方<rt>ほう</rt></ruby>（　）<ruby>使<rt>つか</rt></ruby>用してください。（94）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["に<ruby>対して<rt>たいして</rt></ruby>",
           "に従って",
           "によると",
-          "に関して"
-        ],
+          "に<ruby>関して<rt>かんして</rt></ruby>"],
         "answer": 1,
         "id": "N5-19-044"
       },
       {
         "type": "文章の文法",
-        "text": "予想（　）、売り上げは減少した。（95）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "通り",
-          "に沿って",
+        "text": "<ruby>予<rt>よ</rt></ruby>想（　）、<ruby>売り上げ<rt>うりあげ</rt></ruby>は<ruby>減<rt>へん</rt></ruby><ruby>少し<rt>すこし</rt></ruby>た。（95）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>通り<rt>とおり</rt></ruby>",
+          "に<ruby>沿って<rt>そって</rt></ruby>",
           "に反して",
-          "どおり"
-        ],
+          "どおり"],
         "answer": 2,
         "id": "N5-19-045"
       },
@@ -20354,12 +17178,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "としょかんは　9じから　5じまで　あいています。",
         "question": "としょかんは　なんじまで　あいていますか。",
-        "options": [
-          "6じ",
+        "options": ["6じ",
           "5じ",
           "4じ",
-          "7じ"
-        ],
+          "7じ"],
         "answer": 1,
         "id": "N5-19-046"
       },
@@ -20367,12 +17189,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "わたしは　いぬが　すきです。ねこも　すきです。",
         "question": "なにが　すきですか。",
-        "options": [
-          "とり",
+        "options": ["とり",
           "いぬと　ねこ",
           "いぬだけ",
-          "ねこだけ"
-        ],
+          "ねこだけ"],
         "answer": 3,
         "id": "N5-19-047"
       },
@@ -20380,12 +17200,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "すずきさんは　めがねを　かけています。かみが　ながいです。",
         "question": "すずきさんは　どんな　ひとですか。",
-        "options": [
-          "かみが　みじかい",
+        "options": ["かみが　みじかい",
           "めがねを　かけている",
           "ふとっている",
-          "せが　ひくい"
-        ],
+          "せが　ひくい"],
         "answer": 1,
         "id": "N5-19-048"
       },
@@ -20393,12 +17211,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "たなかさんは　びょういんで　はたらいています。かんごしです。よるも　しごとが　あります。たいへんですが、やりがいが　あります。",
         "question": "たなかさんは　なにを　していますか。",
-        "options": [
-          "かんごし",
+        "options": ["かんごし",
           "いしゃ",
           "じむいん",
-          "やくざいし"
-        ],
+          "やくざいし"],
         "answer": 0,
         "id": "N5-19-049"
       },
@@ -20406,12 +17222,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "あさ　6じに　おきて、7じに　いえを　でます。かいしゃには　8じに　つきます。しごとは　9じから　はじまります。",
         "question": "しごとは　なんじに　はじまりますか。",
-        "options": [
-          "7じ",
+        "options": ["7じ",
           "10じ",
           "8じ",
-          "9じ"
-        ],
+          "9じ"],
         "answer": 2,
         "id": "N5-19-050"
       },
@@ -20419,191 +17233,163 @@ window.MOCK_DATA['N5'] = {
         "type": "情報検索",
         "text": "【でんわ】うけつけは　へいじつ9じから5じまで。どにちは　おやすみ。",
         "question": "にちようびは　でんわできますか。",
-        "options": [
-          "できない",
+        "options": ["できない",
           "ごごだけ",
           "できる",
-          "ごぜんだけ"
-        ],
+          "ごぜんだけ"],
         "answer": 3,
         "id": "N5-19-051"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人が本屋で話しています。女の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "📕📕",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>本屋<rt>ほんや</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["📕📕",
           "📗📗📗",
           "📗",
-          "📕"
-        ],
+          "📕"],
         "answer": 0,
         "id": "N5-19-052",
         "script": "M: ほん 2つを　おねがいします。\nF: はい、わかりました。【セット19問27】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人が食堂で注文しています。男の人は何を食べますか。",
-        "question": "何を食べますか。",
-        "options": [
-          "🍱",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>食堂<rt>しょくどう</rt></ruby>で<ruby>注文<rt>ちゅうもん</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>食<rt>た</rt></ruby>べますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>食<rt>た</rt></ruby>べますか。",
+        "options": ["🍱",
           "🍛",
           "🍣",
-          "🍜"
-        ],
+          "🍜"],
         "answer": 1,
         "id": "N5-19-053",
         "script": "F: これですか。\nM: いいえ、🍛を　ください。【セット19問28】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人がレストランで注文しています。女の人は何を頼みますか。",
-        "question": "何を頼みますか。",
-        "options": [
-          "🍔",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がレストランで<ruby>注文<rt>ちゅうもん</rt></ruby>しています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>頼み<rt>たのみ</rt></ruby>ますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>頼み<rt>たのみ</rt></ruby>ますか。",
+        "options": ["🍔",
           "🍔🍔",
           "🍕🍕",
-          "🍕"
-        ],
+          "🍕"],
         "answer": 3,
         "id": "N5-19-054",
         "script": "M: すみません、🍕は　ありますか。\nF: はい、どうぞ。【セット19問29】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人と女の人が話しています。女の人はどこへ行きますか。",
-        "question": "どこへ行きますか。",
-        "options": [
-          "🏥",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>と<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>話<rt>はなし</rt></ruby>しています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>はどこへ<ruby>行<rt>い</rt></ruby>きますか。",
+        "question": "どこへ<ruby>行<rt>い</rt></ruby>きますか。",
+        "options": ["🏥",
           "🏫",
           "🏪",
-          "🏣"
-        ],
+          "🏣"],
         "answer": 0,
         "id": "N5-19-055",
         "script": "M: びょういんを　ください。\nF: はい、びょういんですね。【セット19問30】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人と女の人が駅で話しています。何で行きますか。",
-        "question": "何で行きますか。",
-        "options": [
-          "🚕",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>と<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>駅<rt>えき</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>何<rt>なに</rt></ruby>で<ruby>行<rt>い</rt></ruby>きますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>で<ruby>行<rt>い</rt></ruby>きますか。",
+        "options": ["🚕",
           "🚌",
           "🚶",
-          "🚃"
-        ],
+          "🚃"],
         "answer": 3,
         "id": "N5-19-056",
         "script": "F: なにを　かいますか。\nM: 🚃を　かいます。【セット19問31】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人が出かける準備をしています。女の人は何を持っていきますか。",
-        "question": "何を持っていきますか。",
-        "options": [
-          "👒",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>出かける<rt>でかける</rt></ruby><ruby>準備<rt>じゅんび</rt></ruby>をしています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>持<rt>もつ</rt></ruby>っていきますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>持<rt>もつ</rt></ruby>っていきますか。",
+        "options": ["👒",
           "☂️",
           "🧥",
-          "🧣"
-        ],
+          "🧣"],
         "answer": 1,
         "id": "N5-19-057",
         "script": "M: ☂を　おねがいします。\nF: はい、わかりました。【セット19問32】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "案内を聞いています。話者が最も強調しているのは何ですか。（109）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>案内<rt>あんない</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（109）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-19-058",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット19問33】"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "店員に返品したい場面です。（94）",
-        "question": "適切な表現は？",
-        "options": [
-          "📌",
+        "text": "<ruby>店員<rt>てんいん</rt></ruby>に返<ruby>品<rt>しな</rt></ruby>したい<ruby>場<rt>ば</rt></ruby>面です。（94）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📆",
           "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-19-067",
         "script": "📆です。【セット19問34】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "報告を聞いています。話者が最も強調しているのは何ですか。（111）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>報告<rt>ほうこく</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（111）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-19-060",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット19問35】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "どこに出せばいいですか。（145）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
-          "総務部です",
-          "はい、食べました",
-          "わかりません"
-        ],
+        "text": "どこに<ruby>出<rt>で</rt></ruby>せばいいですか。（145）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "<ruby>総務部<rt>そうむぶ</rt></ruby>です",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "わかりません"],
         "answer": 1,
         "id": "N5-19-069"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "講義を聞いています。話者が最も強調しているのは何ですか。（113）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>講義<rt>こうぎ</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（113）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-19-062",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット19問37】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "お名前は。（146）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "はい、食べました",
-          "いいえ、違います",
-          "田中です"
-        ],
+        "text": "お<ruby>名前<rt>なまえ</rt></ruby>は。（146）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "<ruby>田<rt>た</rt></ruby><ruby>中<rt>なか</rt></ruby>です"],
         "answer": 3,
         "id": "N5-19-070"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "店員に試着を頼みたい場面です。（91）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>店員<rt>てんいん</rt></ruby>に<ruby>試着<rt>しちゃく</rt></ruby>を<ruby>頼み<rt>たのみ</rt></ruby>たい<ruby>場<rt>ば</rt></ruby>面です。（91）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-19-064",
         "script": "ピンです。【セット19問39】"
@@ -20611,161 +17397,137 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "どのくらいかかりますか。（147）",
-        "question": "返答は？",
-        "options": [
-          "10分くらいです",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["10<ruby>分<rt>ふん</rt></ruby>くらいです",
           "わかりません",
-          "はい、食べました",
-          "いいえ、違います"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 0,
         "id": "N5-19-071"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "店員に在庫を確認したい場面です。（93）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>店員<rt>てんいん</rt></ruby>に<ruby>在庫<rt>ざいこ</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>したい<ruby>場<rt>ば</rt></ruby>面です。（93）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-19-066",
         "script": "ピンです。【セット19問41】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "使ってもいいですか。（148）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
+        "text": "<ruby>使<rt>つか</rt></ruby>ってもいいですか。（148）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
           "どうぞ",
-          "はい、食べました",
-          "いいえ、違います"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 1,
         "id": "N5-19-072"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "店員に包装を頼みたい場面です。（95）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>店員<rt>てんいん</rt></ruby>に<ruby>包<rt>ほう</rt></ruby><ruby>装<rt>そう</rt></ruby>を<ruby>頼み<rt>たのみ</rt></ruby>たい<ruby>場<rt>ば</rt></ruby>面です。（95）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-19-068",
         "script": "ピンです。【セット19問43】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "もう一杯いかがですか。（149）",
-        "question": "返答は？",
-        "options": [
-          "いただきます",
-          "いいえ、違います",
-          "はい、食べました",
-          "わかりません"
-        ],
+        "text": "もう<ruby>一<rt>いち</rt></ruby><ruby>杯<rt>さかずき</rt></ruby>いかがですか。（149）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いただきます",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "わかりません"],
         "answer": 0,
         "id": "N5-19-073"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "解説を聞いています。話者が最も強調しているのは何ですか。（114）",
-        "question": "最も強調しているのは？",
-        "options": [
-          "📕",
+        "text": "<ruby>解説<rt>かいせつ</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（114）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📕",
           "📌",
           "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-19-063",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット19問45】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "楽しかったですね。（150）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "はい、食べました",
-          "本当ですね",
-          "いいえ、違います"
-        ],
+        "text": "<ruby>楽<rt>らく</rt></ruby>しかったですね。（150）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "<ruby>本<rt>ほん</rt></ruby>当ですね",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 2,
         "id": "N5-19-074"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "スピーチを聞いています。話者が最も強調しているのは何ですか。（110）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "スピーチを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（110）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-19-059",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット19問47】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "郵便局はどこですか。（151）",
-        "question": "返答は？",
-        "options": [
-          "この先です",
+        "text": "郵<ruby>便<rt>べん</rt></ruby><ruby>局<rt>きょく</rt></ruby>はどこですか。（151）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["この<ruby>先<rt>さき</rt></ruby>です",
           "わかりません",
-          "いいえ、違います",
-          "はい、食べました"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 0,
         "id": "N5-19-075"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "店員にサイズを聞きたい場面です。（92）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>店員<rt>てんいん</rt></ruby>にサイズを<ruby>聞<rt>き</rt></ruby>きたい<ruby>場<rt>ば</rt></ruby>面です。（92）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-19-065",
         "script": "ピンです。【セット19問49】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "お時間よろしいですか。（152）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
-          "はい、食べました",
+        "text": "お<ruby>時間<rt>じかん</rt></ruby>よろしいですか。（152）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
           "わかりません",
-          "大丈夫です"
-        ],
+          "<ruby>大<rt>だい</rt></ruby><ruby>丈<rt>たけ</rt></ruby>夫です"],
         "answer": 3,
         "id": "N5-19-076"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "対談を聞いています。話者が最も強調しているのは何ですか。（112）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>対<rt>たい</rt></ruby>談を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（112）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-19-061",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット19問51】"
@@ -20773,301 +17535,251 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "漢字読み",
         "text": "<u>前</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "や",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["や",
           "おし",
           "まえ",
-          "こめ"
-        ],
+          "こめ"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>午</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "むろ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["むろ",
           "ご",
           "ゆみ",
-          "むぎ"
-        ],
+          "むぎ"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>正</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "と",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["と",
           "はか",
           "かたち",
-          "ただ"
-        ],
+          "ただ"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>門</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "いろ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["いろ",
           "さん",
           "かど",
-          "て"
-        ],
+          "て"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>社</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "やしろ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["やしろ",
           "く",
           "くろ",
-          "うま"
-        ],
+          "うま"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>聞</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "ちゃ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["ちゃ",
           "え",
           "き.く",
-          "うし"
-        ],
+          "うし"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>円</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "せん",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["せん",
           "えん",
           "にく",
-          "とり"
-        ],
+          "とり"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>休</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "くち",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["くち",
           "や",
           "こめ",
-          "やす.む"
-        ],
+          "やす.む"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>矢</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "ゆみ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["ゆみ",
           "や",
           "むぎ",
-          "め"
-        ],
+          "め"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>米</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "こめ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["こめ",
           "かたち",
           "と",
-          "みみ"
-        ],
+          "みみ"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>車</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "いろ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["いろ",
           "くるま",
           "かど",
-          "て"
-        ],
+          "て"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>七</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "くろ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["くろ",
           "しち、なな",
           "うま",
-          "あし"
-        ],
+          "あし"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>しゅうかん</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "捨てる",
-          "習慣",
-          "牛乳",
-          "甘い"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>捨てる<rt>すてる</rt></ruby>",
+          "<ruby>習慣<rt>しゅうかん</rt></ruby>",
+          "<ruby>牛<rt>うし</rt></ruby>乳",
+          "<ruby>甘い<rt>あまい</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>たつ</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "庭",
-          "掃除",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>庭<rt>にわ</rt></ruby>",
+          "<ruby>掃<rt>そう</rt></ruby>除",
           "立つ",
-          "散らかす"
-        ],
+          "<ruby>散らかす<rt>ちらかす</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>かく</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "お弁当",
-          "毎朝",
-          "安い",
-          "描く"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["お弁当",
+          "<ruby>毎朝<rt>まいあさ</rt></ruby>",
+          "<ruby>安い<rt>やすい</rt></ruby>",
+          "<ruby>描く<rt>えがく</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>かいしゃいん</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "濡れる",
-          "力",
-          "会社員",
-          "成功する"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>濡れる<rt>ぬれる</rt></ruby>",
+          "<ruby>力<rt>ちから</rt></ruby>",
+          "<ruby>会社<rt>かいしゃ</rt></ruby><ruby>員<rt>いん</rt></ruby>",
+          "<ruby>成功<rt>せいこう</rt></ruby>する"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>てんき</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "凍る",
-          "天気",
-          "洗う",
-          "興味"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>凍る<rt>こおる</rt></ruby>",
+          "<ruby>天気<rt>てんき</rt></ruby>",
+          "<ruby>洗う<rt>あらう</rt></ruby>",
+          "<ruby>興味<rt>きょうみ</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>やま</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "山",
-          "成功",
-          "今月",
-          "昼"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>山<rt>やま</rt></ruby>",
+          "<ruby>成功<rt>せいこう</rt></ruby>",
+          "<ruby>今月<rt>こんげつ</rt></ruby>",
+          "昼"],
         "answer": 0
       },
       {
         "type": "表記",
         "text": "<u>ふたつ</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "紙",
-          "本当に",
-          "掛かる",
-          "二つ"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>紙<rt>かみ</rt></ruby>",
+          "<ruby>本<rt>ほん</rt></ruby>当に",
+          "<ruby>掛かる<rt>かかる</rt></ruby>",
+          "<ruby>二つ<rt>ふたつ</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>たりる</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "時計",
-          "起こす",
-          "足りる",
-          "意見"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>時計<rt>とけい</rt></ruby>",
+          "<ruby>起こす<rt>おこす</rt></ruby>",
+          "<ruby>足りる<rt>たりる</rt></ruby>",
+          "<ruby>意見<rt>いけん</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "言い換え",
         "text": "<ruby>車<rt>くるま</rt></ruby>を運転するの意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "お詫び",
-          "自動車",
-          "下",
-          "習慣"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["お詫び",
+          "<ruby>自動車<rt>じどうしゃ</rt></ruby>",
+          "<ruby>下<rt>した</rt></ruby>",
+          "<ruby>習慣<rt>しゅうかん</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "言い換え",
         "text": "<ruby>電車<rt>でんしゃ</rt></ruby>に乗るの意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "立つ",
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["立つ",
           "失敗",
-          "辞書",
-          "列車"
-        ],
+          "<ruby>辞書<rt>じしょ</rt></ruby>",
+          "<ruby>列車<rt>れっしゃ</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "言い換え",
         "text": "<ruby>飛行機<rt>ひこうき</rt></ruby>に乗るの意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "初めて",
-          "航空機",
-          "発表",
-          "あそこ"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>初めて<rt>はじめて</rt></ruby>",
+          "<ruby>航空<rt>こうくう</rt></ruby><ruby>機<rt>き</rt></ruby>",
+          "<ruby>発<rt>はつ</rt></ruby>表",
+          "あそこ"],
         "answer": 1
       },
       {
         "type": "言い換え",
         "text": "ご飯を<ruby>食べる<rt>たべる</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "食す",
-          "全部",
-          "悲しい",
-          "描く"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>食<rt>た</rt></ruby>す",
+          "<ruby>全部<rt>ぜんぶ</rt></ruby>",
+          "<ruby>悲しい<rt>かなしい</rt></ruby>",
+          "<ruby>描く<rt>えがく</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "言い換え",
         "text": "水を<ruby>飲む<rt>のむ</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "会社員",
-          "靴",
-          "連絡",
-          "服用する"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>会社<rt>かいしゃ</rt></ruby><ruby>員<rt>いん</rt></ruby>",
+          "<ruby>靴<rt>くつ</rt></ruby>",
+          "<ruby>連絡<rt>れんらく</rt></ruby>",
+          "<ruby>服<rt>ふく</rt></ruby>用する"],
         "answer": 3
       }
     ],
@@ -21076,12 +17788,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "わたしは　がくせい（ 　）。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "ます",
+        "options": ["ます",
           "です",
           "いる",
-          "ある"
-        ],
+          "ある"],
         "answer": 1,
         "id": "N5-20-026"
       },
@@ -21089,12 +17799,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "がっこう（　）いきます。  ",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "に",
+        "options": ["に",
           "も",
           "たくさん",
-          "あと"
-        ],
+          "あと"],
         "answer": 0,
         "id": "N5-20-027"
       },
@@ -21102,12 +17810,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "にほんご（ 　）べんきょうしています。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "へ",
+        "options": ["へ",
           "を",
           "まえ",
-          "ながら"
-        ],
+          "ながら"],
         "answer": 1,
         "id": "N5-20-029"
       },
@@ -21115,12 +17821,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "ともだち（　）あいました。  ",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "が",
+        "options": ["が",
           "とても",
           "あまり",
-          "に"
-        ],
+          "に"],
         "answer": 3,
         "id": "N5-20-028"
       },
@@ -21128,12 +17832,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "でんしゃ（ 　）きます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "すこし",
+        "options": ["すこし",
           "へ",
           "が",
-          "あまり"
-        ],
+          "あまり"],
         "answer": 2,
         "id": "N5-20-030"
       },
@@ -21141,12 +17843,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "えいが（ 　）みました。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "まえ",
+        "options": ["まえ",
           "が",
           "を",
-          "とても"
-        ],
+          "とても"],
         "answer": 2,
         "id": "N5-20-032"
       },
@@ -21154,12 +17854,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "コーヒー（ 　）のみたいです。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "とき",
+        "options": ["とき",
           "あまり",
           "と",
-          "が"
-        ],
+          "が"],
         "answer": 3,
         "id": "N5-20-031"
       },
@@ -21167,12 +17865,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "へや（ 　）きれいです。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "から",
+        "options": ["から",
           "を",
           "に",
-          "は"
-        ],
+          "は"],
         "answer": 3,
         "id": "N5-20-033"
       },
@@ -21180,12 +17876,10 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "たべ（ 　）から　ねます。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "た",
+        "options": ["た",
           "て",
           "る",
-          "ない"
-        ],
+          "ない"],
         "answer": 1,
         "id": "N5-20-034"
       },
@@ -21193,142 +17887,120 @@ window.MOCK_DATA['N5'] = {
         "type": "文法形式",
         "text": "にほんに　いき（ 　）です。",
         "question": "（　）に　はいるのは？",
-        "options": [
-          "ます",
+        "options": ["ます",
           "た",
           "る",
-          "たい"
-        ],
+          "たい"],
         "answer": 3,
         "id": "N5-20-035"
       },
       {
         "type": "文の組み立て",
-        "text": "【日常会話・問96（N5レベル）】次の語句を正しい順序に並べてください：勉強して / いる / 学生が / 多いです / 日本語を",
-        "question": "正しい順序は？",
-        "options": [
-          "勉強して いる 学生が 多いです 日本語を",
-          "多いです 日本語を 勉強して いる 学生が",
-          "日本語を勉強している学生が多いです",
-          "多いです 学生が いる 勉強して 日本語を"
-        ],
+        "text": "【<ruby>日常<rt>にちじょう</rt></ruby><ruby>会話<rt>かいわ</rt></ruby>・<ruby>問<rt>とん</rt></ruby>96（N5レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>して / いる / <ruby>学生<rt>がくせい</rt></ruby>が / <ruby>多い<rt>おおい</rt></ruby>です / <ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>して いる <ruby>学生<rt>がくせい</rt></ruby>が <ruby>多い<rt>おおい</rt></ruby>です <ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を",
+          "<ruby>多い<rt>おおい</rt></ruby>です <ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を <ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>して いる <ruby>学生<rt>がくせい</rt></ruby>が",
+          "<ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を<ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>している<ruby>学生<rt>がくせい</rt></ruby>が<ruby>多い<rt>おおい</rt></ruby>です",
+          "<ruby>多い<rt>おおい</rt></ruby>です <ruby>学生<rt>がくせい</rt></ruby>が いる <ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>して <ruby>日本<rt>にほん</rt></ruby><ruby>語<rt>ご</rt></ruby>を"],
         "answer": 2,
         "id": "N5-20-036"
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問97（N4レベル）】次の語句を正しい順序に並べてください：難しすぎて / この問題は / 私には / 解けません",
-        "question": "正しい順序は？",
-        "options": [
-          "解けません この問題は 難しすぎて 私には",
-          "解けません 私には 難しすぎて この問題は",
-          "難しすぎて 私には 解けません この問題は",
-          "この問題は難しすぎて私には解けません"
-        ],
+        "text": "【ビジネス・<ruby>問<rt>とん</rt></ruby>97（N4レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>難<rt>なん</rt></ruby>しすぎて / この<ruby>問題<rt>もんだい</rt></ruby>は / <ruby>私<rt>わたし</rt></ruby>には / <ruby>解<rt>かい</rt></ruby>けません",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["<ruby>解<rt>かい</rt></ruby>けません この<ruby>問題<rt>もんだい</rt></ruby>は <ruby>難<rt>なん</rt></ruby>しすぎて <ruby>私<rt>わたし</rt></ruby>には",
+          "<ruby>解<rt>かい</rt></ruby>けません <ruby>私<rt>わたし</rt></ruby>には <ruby>難<rt>なん</rt></ruby>しすぎて この<ruby>問題<rt>もんだい</rt></ruby>は",
+          "<ruby>難<rt>なん</rt></ruby>しすぎて <ruby>私<rt>わたし</rt></ruby>には <ruby>解<rt>かい</rt></ruby>けません この<ruby>問題<rt>もんだい</rt></ruby>は",
+          "この<ruby>問題<rt>もんだい</rt></ruby>は<ruby>難<rt>なん</rt></ruby>しすぎて<ruby>私<rt>わたし</rt></ruby>には<ruby>解<rt>かい</rt></ruby>けません"],
         "answer": 1,
         "id": "N5-20-037"
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・問98（N3レベル）】次の語句を正しい順序に並べてください：いました / 彼は / 3年間 / アメリカに / 住んで",
-        "question": "正しい順序は？",
-        "options": [
-          "アメリカに 3年間 住んで いました 彼は",
-          "彼はアメリカに3年間住んでいました",
-          "いました 住んで 3年間 アメリカに 彼は",
-          "いました 彼は アメリカに 3年間 住んで"
-        ],
+        "text": "【<ruby>学校<rt>がっこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>98（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：いました / <ruby>彼<rt>かれ</rt></ruby>は / 3<ruby>年間<rt>ねんかん</rt></ruby> / アメリカに / <ruby>住<rt>すわる</rt></ruby>んで",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["アメリカに 3<ruby>年間<rt>ねんかん</rt></ruby> <ruby>住<rt>すわる</rt></ruby>んで いました <ruby>彼<rt>かれ</rt></ruby>は",
+          "<ruby>彼<rt>かれ</rt></ruby>はアメリカに3<ruby>年間<rt>ねんかん</rt></ruby><ruby>住<rt>すわる</rt></ruby>んでいました",
+          "いました <ruby>住<rt>すわる</rt></ruby>んで 3<ruby>年間<rt>ねんかん</rt></ruby> アメリカに <ruby>彼<rt>かれ</rt></ruby>は",
+          "いました <ruby>彼<rt>かれ</rt></ruby>は アメリカに 3<ruby>年間<rt>ねんかん</rt></ruby> <ruby>住<rt>すわる</rt></ruby>んで"],
         "answer": 3,
         "id": "N5-20-038"
       },
       {
         "type": "文の組み立て",
-        "text": "【旅行・問99（N2レベル）】次の語句を正しい順序に並べてください：遅れた / 電車が / しまいました / 遅刻して / ため",
-        "question": "正しい順序は？",
-        "options": [
-          "しまいました 遅刻して ため 遅れた 電車が",
-          "しまいました 電車が 遅れた ため 遅刻して",
-          "遅れた ため 遅刻して しまいました 電車が",
-          "電車が遅れたため遅刻してしまいました"
-        ],
+        "text": "【<ruby>旅行<rt>りょこう</rt></ruby>・<ruby>問<rt>とん</rt></ruby>99（N2レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>遅れ<rt>おくれ</rt></ruby>た / <ruby>電車<rt>でんしゃ</rt></ruby>が / しまいました / <ruby>遅刻<rt>ちこく</rt></ruby>して / ため",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["しまいました <ruby>遅刻<rt>ちこく</rt></ruby>して ため <ruby>遅れ<rt>おくれ</rt></ruby>た <ruby>電車<rt>でんしゃ</rt></ruby>が",
+          "しまいました <ruby>電車<rt>でんしゃ</rt></ruby>が <ruby>遅れ<rt>おくれ</rt></ruby>た ため <ruby>遅刻<rt>ちこく</rt></ruby>して",
+          "<ruby>遅れ<rt>おくれ</rt></ruby>た ため <ruby>遅刻<rt>ちこく</rt></ruby>して しまいました <ruby>電車<rt>でんしゃ</rt></ruby>が",
+          "<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>遅れ<rt>おくれ</rt></ruby>たため<ruby>遅刻<rt>ちこく</rt></ruby>してしまいました"],
         "answer": 2,
         "id": "N5-20-039"
       },
       {
         "type": "文の組み立て",
-        "text": "【買い物・問100（N1レベル）】次の語句を正しい順序に並べてください：とても / この映画は / 思います / 面白いと",
-        "question": "正しい順序は？",
-        "options": [
-          "とても 面白いと 思います この映画は",
-          "思います 面白いと とても この映画は",
-          "この映画はとても面白いと思います",
-          "思います この映画は とても 面白いと"
-        ],
+        "text": "【<ruby>買い物<rt>かいもの</rt></ruby>・<ruby>問<rt>とん</rt></ruby>100（N1レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>に並べてください：とても / この<ruby>映画<rt>えいが</rt></ruby>は / <ruby>思い<rt>おもい</rt></ruby>ます / 面白いと",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby>順<ruby>序<rt>じょ</rt></ruby>は？",
+        "options": ["とても 面白いと <ruby>思い<rt>おもい</rt></ruby>ます この<ruby>映画<rt>えいが</rt></ruby>は",
+          "<ruby>思い<rt>おもい</rt></ruby>ます 面白いと とても この<ruby>映画<rt>えいが</rt></ruby>は",
+          "この<ruby>映画<rt>えいが</rt></ruby>はとても面白いと<ruby>思い<rt>おもい</rt></ruby>ます",
+          "<ruby>思い<rt>おもい</rt></ruby>ます この<ruby>映画<rt>えいが</rt></ruby>は とても 面白いと"],
         "answer": 3,
         "id": "N5-20-040"
       },
       {
         "type": "文章の文法",
-        "text": "努力の甲斐（　）、成功を収めた。（96）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "なく",
+        "text": "努<ruby>力<rt>ちから</rt></ruby>の<ruby>甲<rt>こう</rt></ruby>斐（　）、<ruby>成功<rt>せいこう</rt></ruby>を<ruby>収<rt>しゅう</rt></ruby>めた。（96）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["なく",
           "あって",
           "として",
-          "ゆえに"
-        ],
+          "ゆえに"],
         "answer": 1,
         "id": "N5-20-041"
       },
       {
         "type": "文章の文法",
-        "text": "説明を（　）、理解が深まった。（97）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "聞くほど",
-          "聞くや否や",
-          "聞いたところ",
-          "聞くにつれ"
-        ],
+        "text": "<ruby>説明<rt>せつめい</rt></ruby>を（　）、<ruby>理解<rt>りかい</rt></ruby>が<ruby>深<rt>しん</rt></ruby>まった。（97）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>聞く<rt>きく</rt></ruby>ほど",
+          "<ruby>聞く<rt>きく</rt></ruby>や<ruby>否<rt>いな</rt></ruby>や",
+          "<ruby>聞<rt>き</rt></ruby>いたところ",
+          "<ruby>聞く<rt>きく</rt></ruby>につれ"],
         "answer": 3,
         "id": "N5-20-042"
       },
       {
         "type": "文章の文法",
-        "text": "問題が（　）、対策を講じた。（98）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "発生次第",
-          "発生して以来",
-          "発生したとたん",
-          "発生するや"
-        ],
+        "text": "<ruby>問題<rt>もんだい</rt></ruby>が（　）、<ruby>対策<rt>たいさく</rt></ruby>を<ruby>講<rt>こう</rt></ruby>じた。（98）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["<ruby>発生<rt>はっせい</rt></ruby>次第",
+          "<ruby>発生<rt>はっせい</rt></ruby>して<ruby>以来<rt>いらい</rt></ruby>",
+          "<ruby>発生<rt>はっせい</rt></ruby>したとたん",
+          "<ruby>発生する<rt>はっせいする</rt></ruby>や"],
         "answer": 0,
         "id": "N5-20-043"
       },
       {
         "type": "文章の文法",
-        "text": "彼（　）、この仕事はできない。（99）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "はさておき",
+        "text": "<ruby>彼<rt>かれ</rt></ruby>（　）、この<ruby>仕事<rt>しごと</rt></ruby>はできない。（99）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["はさておき",
           "にひきかえ",
           "をおいて",
-          "ともなく"
-        ],
+          "ともなく"],
         "answer": 2,
         "id": "N5-20-044"
       },
       {
         "type": "文章の文法",
-        "text": "私（　）、そのような発言はしない。（100）",
-        "question": "（　）に入るのは？",
-        "options": [
-          "に限って",
+        "text": "<ruby>私<rt>わたし</rt></ruby>（　）、そのような<ruby>発言<rt>はつげん</rt></ruby>はしない。（100）",
+        "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
+        "options": ["に<ruby>限<rt>かぎ</rt></ruby>って",
           "ならでは",
           "としては",
-          "にしても"
-        ],
+          "にしても"],
         "answer": 0,
         "id": "N5-20-045"
       },
@@ -21336,12 +18008,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "このへやは　しずかです。べんきょうに　いいです。",
         "question": "このへやは　どうですか。",
-        "options": [
-          "くらい",
+        "options": ["くらい",
           "うるさい",
           "せまい",
-          "しずか"
-        ],
+          "しずか"],
         "answer": 3,
         "id": "N5-20-046"
       },
@@ -21349,12 +18019,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "わたしは　まいにち　8じに　がっこうに　いきます。",
         "question": "なんじに　がっこうに　いきますか。",
-        "options": [
-          "10じ",
+        "options": ["10じ",
           "8じ",
           "7じ",
-          "9じ"
-        ],
+          "9じ"],
         "answer": 1,
         "id": "N5-20-047"
       },
@@ -21362,12 +18030,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（短文）",
         "text": "えきから　がっこうまで　バスで　10ぷんです。",
         "question": "バスで　なんぷんですか。",
-        "options": [
-          "5ふん",
+        "options": ["5ふん",
           "15ふん",
           "20ぷん",
-          "10ぷん"
-        ],
+          "10ぷん"],
         "answer": 3,
         "id": "N5-20-048"
       },
@@ -21375,12 +18041,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "きょうは　しごとが　いそがしかったです。ざんぎょうを　して、9じに　いえに　かえりました。つかれました。",
         "question": "なんじに　いえに　かえりましたか。",
-        "options": [
-          "9じ",
+        "options": ["9じ",
           "6じ",
           "7じ",
-          "8じ"
-        ],
+          "8じ"],
         "answer": 2,
         "id": "N5-20-049"
       },
@@ -21388,12 +18052,10 @@ window.MOCK_DATA['N5'] = {
         "type": "読解（中文）",
         "text": "わたしの　かいしゃは　おおきいです。500にん　くらい　はたらいています。ビルの　10かいに　あります。\n\nかいしゃには　なんにん　くらい　いますか。",
         "question": "かぞくは　なんにんですか。",
-        "options": [
-          "100にん",
+        "options": ["100にん",
           "300にん",
           "700にん",
-          "500にん"
-        ],
+          "500にん"],
         "answer": 1,
         "id": "N5-20-050"
       },
@@ -21401,164 +18063,140 @@ window.MOCK_DATA['N5'] = {
         "type": "情報検索",
         "text": "【りょこう】2はく3にち　おきなわツアー　50000えん。ひこうき・ホテルこみ。",
         "question": "りょこうは　なんにちですか。",
-        "options": [
-          "1にち",
+        "options": ["1にち",
           "4にち",
           "2にち",
-          "3にち"
-        ],
+          "3にち"],
         "answer": 3,
         "id": "N5-20-051"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人がペットショップで話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🐹",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がペットショップで<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🐹",
           "🐕",
           "🐟🐟🐟",
-          "🐈"
-        ],
+          "🐈"],
         "answer": 2,
         "id": "N5-20-052",
         "script": "M: 🐟 3つを　おねがいします。\nF: はい、わかりました。【セット20問27】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "友達同士が電話で話しています。明日何をしますか。",
-        "question": "明日何をしますか。",
-        "options": [
-          "🏊",
+        "text": "<ruby>友<rt>とも</rt></ruby>達<ruby>同<rt>どう</rt></ruby>士が<ruby>電話<rt>でんわ</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>明日<rt>あした</rt></ruby><ruby>何<rt>なに</rt></ruby>をしますか。",
+        "question": "<ruby>明日<rt>あした</rt></ruby><ruby>何<rt>なに</rt></ruby>をしますか。",
+        "options": ["🏊",
           "🎾",
           "🎿",
-          "⚽"
-        ],
+          "⚽"],
         "answer": 1,
         "id": "N5-20-053",
         "script": "F: これですか。\nM: いいえ、🎾を　ください。【セット20問28】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "子供がお母さんと話しています。子供は何をもらいますか。",
-        "question": "何をもらいますか。",
-        "options": [
-          "🍫🍫",
+        "text": "<ruby>子供<rt>こども</rt></ruby>が<ruby>お母さん<rt>おかあさん</rt></ruby>と<ruby>話<rt>はなし</rt></ruby>しています。<ruby>子供<rt>こども</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をもらいますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>をもらいますか。",
+        "options": ["🍫🍫",
           "🍬🍬",
           "🍫",
-          "🍬🍬🍬"
-        ],
+          "🍬🍬🍬"],
         "answer": 3,
         "id": "N5-20-054",
         "script": "M: すみません、🍬 3つは　ありますか。\nF: はい、どうぞ。【セット20問29】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人がケーキ屋で話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🍰🍰",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>ケーキ屋<rt>けーきや</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🍰🍰",
           "🧁",
           "🧁🧁🧁",
-          "🍰"
-        ],
+          "🍰"],
         "answer": 0,
         "id": "N5-20-055",
         "script": "M: ケーキ 2つを　ください。\nF: はい、ケーキ 2つですね。【セット20問30】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "女の人がお花屋で買い物をしています。女の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🌷🌷🌷🌷",
+        "text": "<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がお<ruby>花屋<rt>はなや</rt></ruby>で<ruby>買い物<rt>かいもの</rt></ruby>をしています。<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🌷🌷🌷🌷",
           "🌸🌸🌸🌸🌸",
           "🌷🌷",
-          "🌸🌸🌸"
-        ],
+          "🌸🌸🌸"],
         "answer": 1,
         "id": "N5-20-056",
         "script": "F: なにを　かいますか。\nM: 🌸 5つを　かいます。【セット20問31】"
       },
       {
         "type": "聴解（課題理解）",
-        "text": "男の人がアイス屋で話しています。男の人は何を買いますか。",
-        "question": "何を買いますか。",
-        "options": [
-          "🍨🍨🍨",
+        "text": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がアイス<ruby>屋<rt>や</rt></ruby>で<ruby>話<rt>はなし</rt></ruby>しています。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "question": "<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いますか。",
+        "options": ["🍨🍨🍨",
           "🍦",
           "🍨",
-          "🍦🍦"
-        ],
+          "🍦🍦"],
         "answer": 3,
         "id": "N5-20-057",
         "script": "M: アイスクリーム 2つを　おねがいします。\nF: はい、わかりました。【セット20問32】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "討論を聞いています。話者が最も強調しているのは何ですか。（115）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "討<ruby>論<rt>ろん</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（115）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-20-058",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット20問33】"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "値段を尋ねたい場面です。（99）",
-        "question": "適切な表現は？",
-        "options": [
-          "📌",
+        "text": "<ruby>値段<rt>ねだん</rt></ruby>を<ruby>尋<rt>たず</rt></ruby>ねたい<ruby>場<rt>ば</rt></ruby>面です。（99）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📆",
           "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-20-067",
         "script": "📆です。【セット20問34】"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "番組を聞いています。話者が最も強調しているのは何ですか。（117）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>番組<rt>ばんぐみ</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（117）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 3,
         "id": "N5-20-060",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット20問35】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "傘はお持ちですか。（153）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
-          "いいえ、違います",
-          "忘れました",
-          "わかりません"
-        ],
+        "text": "<ruby>傘<rt>かさ</rt></ruby>はお<ruby>持<rt>もつ</rt></ruby>ちですか。（153）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "<ruby>忘<rt>ぼう</rt></ruby>れました",
+          "わかりません"],
         "answer": 2,
         "id": "N5-20-069"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "ドキュメンタリーを聞いています。話者が最も強調しているのは何ですか。（119）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "ドキュメンタリーを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（119）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-20-062",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット20問37】"
@@ -21566,134 +18204,114 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "静かでいいですね。（154）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
           "わかりません",
-          "はい、食べました",
-          "そうですね"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました",
+          "そうですね"],
         "answer": 3,
         "id": "N5-20-070"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "道を尋ねたい場面です。（96）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>道<rt>みち</rt></ruby>を<ruby>尋<rt>たず</rt></ruby>ねたい<ruby>場<rt>ば</rt></ruby>面です。（96）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-20-064",
         "script": "ピンです。【セット20問39】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "お荷物お持ちしましょうか。（155）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
-          "いいえ、違います",
+        "text": "お<ruby>荷物<rt>にもつ</rt></ruby>お<ruby>持<rt>もつ</rt></ruby>ちしましょうか。（155）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
           "ありがとうございます",
-          "わかりません"
-        ],
+          "わかりません"],
         "answer": 2,
         "id": "N5-20-071"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "場所を尋ねたい場面です。（98）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>場所<rt>ばしょ</rt></ruby>を<ruby>尋<rt>たず</rt></ruby>ねたい<ruby>場<rt>ば</rt></ruby>面です。（98）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-20-066",
         "script": "ピンです。【セット20問41】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "今日は暑いですね。（156）",
-        "question": "返答は？",
-        "options": [
-          "いいえ、違います",
-          "本当ですね",
+        "text": "<ruby>今日<rt>きょう</rt></ruby>は暑いですね。（156）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "<ruby>本<rt>ほん</rt></ruby>当ですね",
           "わかりません",
-          "はい、食べました"
-        ],
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 1,
         "id": "N5-20-072"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "営業時間を尋ねたい場面です。（100）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>営業<rt>えいぎょう</rt></ruby><ruby>時間<rt>じかん</rt></ruby>を<ruby>尋<rt>たず</rt></ruby>ねたい<ruby>場<rt>ば</rt></ruby>面です。（100）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 0,
         "id": "N5-20-068",
         "script": "ピンです。【セット20問43】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "何時までですか。（157）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
+        "text": "<ruby>何時<rt>いつ</rt></ruby>までですか。（157）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
           "わかりません",
-          "6時までです",
-          "いいえ、違います"
-        ],
+          "6<ruby>時<rt>とき</rt></ruby>までです",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます"],
         "answer": 2,
         "id": "N5-20-073"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "トークを聞いています。話者が最も強調しているのは何ですか。（120）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "トークを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（120）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📕"
-        ],
+          "📕"],
         "answer": 2,
         "id": "N5-20-063",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット20問45】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "週末の予定は。（158）",
-        "question": "返答は？",
-        "options": [
-          "わかりません",
-          "特にないです",
-          "いいえ、違います",
-          "はい、食べました"
-        ],
+        "text": "<ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby>の<ruby>予定<rt>よてい</rt></ruby>は。（158）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["わかりません",
+          "<ruby>特に<rt>とくに</rt></ruby>ないです",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 1,
         "id": "N5-20-074"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "セミナーを聞いています。話者が最も強調しているのは何ですか。（116）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "セミナーを<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（116）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-20-059",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット20問47】"
@@ -21701,53 +18319,45 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "聴解（即時応答）",
         "text": "おいしいですね。（159）",
-        "question": "返答は？",
-        "options": [
-          "はい、食べました",
-          "いいえ、違います",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["はい、<ruby>食<rt>た</rt></ruby>べました",
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
           "そうですね",
-          "わかりません"
-        ],
+          "わかりません"],
         "answer": 2,
         "id": "N5-20-075"
       },
       {
         "type": "聴解（発話表現）",
-        "text": "時間を尋ねたい場面です。（97）",
-        "question": "適切な表現は？",
-        "options": [
+        "text": "<ruby>時間<rt>じかん</rt></ruby>を<ruby>尋<rt>たず</rt></ruby>ねたい<ruby>場<rt>ば</rt></ruby>面です。（97）",
+        "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 2,
         "id": "N5-20-065",
         "script": "ピンです。【セット20問49】"
       },
       {
         "type": "聴解（即時応答）",
-        "text": "写真撮ってもいいですか。（160）",
-        "question": "返答は？",
-        "options": [
-          "大丈夫ですよ",
+        "text": "<ruby>写<rt>うつ</rt></ruby>真<ruby>撮<rt>とる</rt></ruby>ってもいいですか。（160）",
+        "question": "返<ruby>答<rt>とう</rt></ruby>は？",
+        "options": ["<ruby>大<rt>だい</rt></ruby><ruby>丈<rt>たけ</rt></ruby>夫ですよ",
           "わかりません",
-          "いいえ、違います",
-          "はい、食べました"
-        ],
+          "いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
+          "はい、<ruby>食<rt>た</rt></ruby>べました"],
         "answer": 0,
         "id": "N5-20-076"
       },
       {
         "type": "聴解（ポイント理解）",
-        "text": "特集を聞いています。話者が最も強調しているのは何ですか。（118）",
-        "question": "最も強調しているのは？",
-        "options": [
+        "text": "<ruby>特<rt>とく</rt></ruby><ruby>集<rt>しゅう</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いています。<ruby>話<rt>はなし</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは<ruby>何<rt>なに</rt></ruby>ですか。（118）",
+        "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
+        "options": ["📌",
           "📌",
           "📌",
-          "📌",
-          "📌"
-        ],
+          "📌"],
         "answer": 1,
         "id": "N5-20-061",
         "script": "きょうは　ピンについて　はなします。ピンは　だいじです。【セット20問51】"
@@ -21755,300 +18365,250 @@ window.MOCK_DATA['N5'] = {
       {
         "type": "漢字読み",
         "text": "<u>六</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "うし",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["うし",
           "ちゃ",
           "ろく、む",
-          "ひ"
-        ],
+          "ひ"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>耳</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "みず",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["みず",
           "にく",
           "とり",
-          "みみ"
-        ],
+          "みみ"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>日</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "くち",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["くち",
           "こめ",
           "にち、ひ",
-          "き"
-        ],
+          "き"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>曜</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "め",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["め",
           "むぎ",
           "よう",
-          "かね"
-        ],
+          "かね"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>二</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "みみ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["みみ",
           "と",
           "に、ふた",
-          "つち"
-        ],
+          "つち"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>下</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "した、か",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["した、か",
           "かど",
           "て",
-          "よう"
-        ],
+          "よう"],
         "answer": 0
       },
       {
         "type": "漢字読み",
         "text": "<u>先</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "やま",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["やま",
           "うま",
           "あし",
-          "せん、さき"
-        ],
+          "せん、さき"],
         "answer": 3
       },
       {
         "type": "漢字読み",
         "text": "<u>西</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "うし",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["うし",
           "にし、せい",
           "ひ",
-          "かわ"
-        ],
+          "かわ"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>雪</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "とり",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["とり",
           "ゆき",
           "みず",
-          "た"
-        ],
+          "た"],
         "answer": 1
       },
       {
         "type": "漢字読み",
         "text": "<u>上</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "き",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["き",
           "くち",
           "うえ、じょう",
-          "てん"
-        ],
+          "てん"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>水</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "かね",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["かね",
           "め",
           "みず",
-          "き"
-        ],
+          "き"],
         "answer": 2
       },
       {
         "type": "漢字読み",
         "text": "<u>万</u>の　よみかたは？",
-        "question": "正しい読みは？",
-        "options": [
-          "みみ",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>読み<rt>よみ</rt></ruby>は？",
+        "options": ["みみ",
           "まん",
           "つち",
-          "あめ"
-        ],
+          "あめ"],
         "answer": 1
       },
       {
         "type": "表記",
         "text": "<u>かくにん</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "勉強する",
-          "綺麗",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>勉強する<rt>べんきょうする</rt></ruby>",
+          "綺<ruby>麗<rt>うるわ</rt></ruby>",
           "落ちる",
-          "確認"
-        ],
+          "<ruby>確認<rt>かくにん</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>かす</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "光る",
-          "卒業",
-          "貸す",
-          "国"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>光る<rt>ひかる</rt></ruby>",
+          "卒<ruby>業<rt>ごう</rt></ruby>",
+          "<ruby>貸す<rt>かす</rt></ruby>",
+          "<ruby>国<rt>くに</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>ぼうし</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "卵",
-          "匂い",
-          "先輩",
-          "帽子"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["卵",
+          "<ruby>匂い<rt>におい</rt></ruby>",
+          "<ruby>先輩<rt>せんぱい</rt></ruby>",
+          "<ruby>帽子<rt>ぼうし</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>すてる</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "甘い",
-          "牛乳",
-          "捨てる",
-          "階段"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>甘い<rt>あまい</rt></ruby>",
+          "<ruby>牛<rt>うし</rt></ruby>乳",
+          "<ruby>捨てる<rt>すてる</rt></ruby>",
+          "<ruby>階段<rt>かいだん</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "表記",
         "text": "<u>そうじ</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "住む",
-          "庭",
-          "散らかす",
-          "掃除"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>住む<rt>すむ</rt></ruby>",
+          "<ruby>庭<rt>にわ</rt></ruby>",
+          "<ruby>散らかす<rt>ちらかす</rt></ruby>",
+          "<ruby>掃<rt>そう</rt></ruby>除"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>まいあさ</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "集まる",
-          "安い",
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>集まる<rt>あつまる</rt></ruby>",
+          "<ruby>安い<rt>やすい</rt></ruby>",
           "お弁当",
-          "毎朝"
-        ],
+          "<ruby>毎朝<rt>まいあさ</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>ちから</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "番",
-          "濡れる",
-          "成功する",
-          "力"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>番<rt>ばん</rt></ruby>",
+          "<ruby>濡れる<rt>ぬれる</rt></ruby>",
+          "<ruby>成功<rt>せいこう</rt></ruby>する",
+          "<ruby>力<rt>ちから</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "表記",
         "text": "<u>こおる</u>の　かんじは？",
-        "question": "正しい漢字は？",
-        "options": [
-          "興味",
-          "洗う",
-          "凍る",
-          "思い出"
-        ],
+        "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
+        "options": ["<ruby>興味<rt>きょうみ</rt></ruby>",
+          "<ruby>洗う<rt>あらう</rt></ruby>",
+          "<ruby>凍る<rt>こおる</rt></ruby>",
+          "<ruby>思い出<rt>おもいで</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "言い換え",
         "text": "テレビを<ruby>見る<rt>みる</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "断る",
-          "観る",
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>断る<rt>ことわる</rt></ruby>",
+          "<ruby>観<rt>かん</rt></ruby>る",
           "こんにちは",
-          "天気"
-        ],
+          "<ruby>天気<rt>てんき</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "言い換え",
         "text": "音楽を<ruby>聞く<rt>きく</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "料理する",
-          "聴く",
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["料<ruby>理<rt>り</rt></ruby>する",
+          "<ruby>聴<rt>き</rt></ruby>く",
           "いいえ",
-          "ドア"
-        ],
+          "ドア"],
         "answer": 1
       },
       {
         "type": "言い換え",
         "text": "本を<ruby>読む<rt>よむ</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "山",
-          "放送",
-          "客",
-          "目を通す"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>山<rt>やま</rt></ruby>",
+          "放<ruby>送<rt>お</rt></ruby>",
+          "<ruby>客<rt>きゃく</rt></ruby>",
+          "<ruby>目を通す<rt>めをとおす</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "言い換え",
         "text": "手紙を<ruby>書く<rt>かく</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "記す",
-          "郵便局",
-          "二つ"
-        ],
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>記す<rt>しるす</rt></ruby>",
+          "郵<ruby>便<rt>べん</rt></ruby><ruby>局<rt>きょく</rt></ruby>",
+          "<ruby>二つ<rt>ふたつ</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "言い換え",
         "text": "日本語を<ruby>話す<rt>はなす</rt></ruby>の意味は？",
-        "question": "意味が近いのは？",
-        "options": [
-          "数える",
-          "喋る",
+        "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
+        "options": ["<ruby>数える<rt>かぞえる</rt></ruby>",
+          "<ruby>喋<rt>ちょう</rt></ruby>る",
           "調べる",
-          "足りる"
-        ],
+          "<ruby>足りる<rt>たりる</rt></ruby>"],
         "answer": 1
       }
     ]

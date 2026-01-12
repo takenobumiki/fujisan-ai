@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.20.33';
+const APP_VERSION = '18.20.35';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FURIGANA SYSTEM ==========
@@ -62,9 +62,17 @@ function updateLearnedKanjiSet(level) {
 }
 
 // テキストに振り仮名を追加（レベルに応じて）
-// 学習済み漢字にはふりがな不要、未学習漢字にはふりがな必要
+// 振り仮名ルール:
+// - N5: すべての漢字に振り仮名
+// - N4: N5範囲外の漢字に振り仮名
+// - N3: N4範囲外の漢字に振り仮名
+// - N2: N3範囲外の漢字に振り仮名
+// - N1: 振り仮名不要
 function addFurigana(text, reading, level) {
   if (!text || !level) return text;
+  
+  // N1では振り仮名不要
+  if (level === 'N1') return text;
   
   const learnedSet = LEARNED_KANJI[level] || new Set();
   
@@ -78,13 +86,15 @@ function addFurigana(text, reading, level) {
   }
   
   if (!needsFurigana) {
-    return text; // ふりがな不要
+    return text; // ふりがな不要（全て学習済み漢字）
   }
   
   // ふりがなが必要な場合
   if (reading) {
     // 読みがある場合はrubyタグで囲む
-    return `<ruby>${text}<rt>${reading}</rt></ruby>`;
+    // 送り仮名を除去（括弧内の送り仮名を削除）
+    const cleanReading = reading.split('、')[0].replace(/（.*?）/g, '');
+    return `<ruby>${text}<rt>${cleanReading}</rt></ruby>`;
   }
   
   return text;
