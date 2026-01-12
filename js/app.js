@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.20.31';
+const APP_VERSION = '18.20.32';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FURIGANA SYSTEM ==========
@@ -234,6 +234,7 @@ const UI_TEXTS = {
     quiz_review_title: 'Review Your Mistakes', quiz_review_btn: 'Review Mistakes',
     quiz_try_again: 'Try Again', quiz_home: 'Home', quiz_continue: 'Continue', quiz_next_unit: 'Next Unit →', quiz_next: 'Next →',
     quiz_listen_select: 'Listen and select the correct word',
+    generating_explanation: 'Generating explanation...',
     quiz_tap_play: 'Tap play to listen',
     quiz_select_reading: 'Select the correct reading',
     quiz_select_meaning: 'Select the correct meaning',
@@ -587,6 +588,7 @@ const UI_TEXTS = {
     quiz_review_title: '複習錯誤', quiz_review_btn: '複習錯誤',
     quiz_try_again: '再試一次', quiz_home: '首頁', quiz_continue: '繼續', quiz_next_unit: '下一單元 →', quiz_next: '下一題 →',
     quiz_listen_select: '聽並選擇正確的單字',
+    generating_explanation: '生成解說中...',
     quiz_tap_play: '點擊播放收聽',
     quiz_select_reading: '選擇正確的讀音',
     quiz_select_meaning: '選擇正確的意思',
@@ -825,6 +827,7 @@ const UI_TEXTS = {
     quiz_review_title: '复习错误', quiz_review_btn: '复习错误',
     quiz_try_again: '再试一次', quiz_home: '首页', quiz_continue: '继续', quiz_next_unit: '下一单元 →', quiz_next: '下一题 →',
     quiz_listen_select: '听并选择正确的单词',
+    generating_explanation: '生成解说中...',
     quiz_tap_play: '点击播放收听',
     quiz_select_reading: '选择正确的读音',
     quiz_select_meaning: '选择正确的意思',
@@ -1063,6 +1066,7 @@ const UI_TEXTS = {
     quiz_review_title: '오답 복습', quiz_review_btn: '오답 복습',
     quiz_try_again: '다시 시도', quiz_home: '홈', quiz_continue: '계속', quiz_next_unit: '다음 단원 →', quiz_next: '다음 →',
     quiz_listen_select: '듣고 올바른 단어를 선택하세요',
+    generating_explanation: '해설 생성 중...',
     quiz_tap_play: '재생을 눌러 들으세요',
     quiz_select_reading: '올바른 읽기를 선택하세요',
     quiz_select_meaning: '올바른 의미를 선택하세요',
@@ -1301,6 +1305,7 @@ const UI_TEXTS = {
     quiz_review_title: 'Xem lại lỗi sai', quiz_review_btn: 'Xem lại lỗi',
     quiz_try_again: 'Thử lại', quiz_home: 'Trang chủ', quiz_continue: 'Tiếp tục', quiz_next_unit: 'Bài tiếp theo →', quiz_next: 'Tiếp →',
     quiz_listen_select: 'Nghe và chọn từ đúng',
+    generating_explanation: 'Đang tạo giải thích...',
     quiz_tap_play: 'Nhấn để nghe',
     quiz_select_reading: 'Chọn cách đọc đúng',
     quiz_select_meaning: 'Chọn nghĩa đúng',
@@ -1522,6 +1527,7 @@ const UI_TEXTS = {
     quiz_review_title: 'Review Kesalahan', quiz_review_btn: 'Review Kesalahan',
     quiz_try_again: 'Coba lagi', quiz_home: 'Beranda', quiz_continue: 'Lanjut', quiz_next_unit: 'Unit Selanjutnya →', quiz_next: 'Lanjut →',
     quiz_listen_select: 'Dengarkan dan pilih kata yang benar',
+    generating_explanation: 'Membuat penjelasan...',
     quiz_tap_play: 'Ketuk untuk mendengarkan',
     quiz_select_reading: 'Pilih bacaan yang benar',
     quiz_select_meaning: 'Pilih arti yang benar',
@@ -1733,6 +1739,7 @@ const UI_TEXTS = {
     quiz_review_title: 'Revisa tus Errores', quiz_review_btn: 'Revisar Errores',
     quiz_try_again: 'Intentar de Nuevo', quiz_home: 'Inicio', quiz_continue: 'Continuar', quiz_next_unit: 'Siguiente Unidad →', quiz_next: 'Siguiente →',
     quiz_listen_select: 'Escucha y selecciona la palabra correcta', quiz_tap_play: 'Toca reproducir',
+    generating_explanation: 'Generando explicación...',
     quiz_select_reading: 'Selecciona la lectura correcta', quiz_select_meaning: 'Selecciona el significado correcto',
     quiz_select_kanji: 'Selecciona el kanji correcto', quiz_drill_title: 'Práctica', quiz_review_mode: 'Repaso',
     pass_submitting: 'Enviando...', pass_submitted: '¡Enviado!', pass_change_photo: 'Cambiar foto',
@@ -1884,6 +1891,7 @@ const UI_TEXTS = {
     quiz_review_title: 'Revise seus Erros', quiz_review_btn: 'Revisar Erros',
     quiz_try_again: 'Tentar Novamente', quiz_home: 'Início', quiz_continue: 'Continuar', quiz_next_unit: 'Próxima Unidade →', quiz_next: 'Próximo →',
     quiz_listen_select: 'Ouça e selecione a palavra correta', quiz_tap_play: 'Toque para ouvir',
+    generating_explanation: 'Gerando explicação...',
     quiz_select_reading: 'Selecione a leitura correta', quiz_select_meaning: 'Selecione o significado correto',
     quiz_select_kanji: 'Selecione o kanji correto', quiz_drill_title: 'Prática', quiz_review_mode: 'Revisão',
     pass_submitting: 'Enviando...', pass_submitted: 'Enviado!', pass_change_photo: 'Trocar foto',
@@ -4762,7 +4770,7 @@ function showFeedbackArea(item, skill, userAnswer, correctAnswer, isCorrect) {
     // Show AI section and auto-load explanation
     if (canUseAITutor()) {
       feedbackAiSection.style.display = 'block';
-      feedbackAiComment.innerHTML = '<div class="ai-comment-loading">解説を生成中...</div>';
+      feedbackAiComment.innerHTML = '<div class="ai-comment-loading">' + getText('generating_explanation') + '</div>';
       
       // Store for follow-up questions
       session.pendingAI = { item, skill, userAnswer, correctAnswer };
