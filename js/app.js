@@ -1,6 +1,6 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.18.8';
-const STORAGE_KEY = 'fujisan_v1817';
+const APP_VERSION = '18.19.0';
+const STORAGE_KEY = 'fujisan_v1819';
 
 // ========== FORCE UPDATE SYSTEM ==========
 // Check for updates on app load
@@ -2488,6 +2488,9 @@ function showScreen(id) {
   if (id === 'mock') updateMockScreen();
   if (id === 'ai') updateAIScreen();
   if (id === 'settings') updateSettingsUI();
+  
+  // Track screen view
+  FujisanAnalytics.trackScreenView(id);
 }
 
 function updateAIScreen() {
@@ -2781,19 +2784,35 @@ function recordDrillActivity(correct) {
   const statsKey = `fujisan_stats_${today}`;
   const stats = JSON.parse(localStorage.getItem(statsKey) || '{"quizzes":0,"correct":0,"total":0}');
   
+  const wasFirstAnswerToday = stats.total === 0;
+  
   stats.total++;
   if (correct) stats.correct++;
   stats.quizzes = Math.ceil(stats.total / 10); // Approximate quiz count
   
   localStorage.setItem(statsKey, JSON.stringify(stats));
   updateProgressStats();
+  
+  // Track daily study on first answer of the day
+  if (wasFirstAnswerToday) {
+    const streak = calculateStreak();
+    FujisanAnalytics.trackDailyStudy(streak, stats.total);
+    FujisanAnalytics.trackStreakMilestone(streak);
+  }
 }
 
 function selectLevelFromDashboard(level) {
+  const oldLevel = state.level;
   state.level = level;
   saveState();
   updateDashboard();
   updateDrillCounts();
+  
+  // Track level change
+  if (oldLevel !== level) {
+    FujisanAnalytics.trackLevelChange(oldLevel, level);
+    FujisanAnalytics.setUserProperties({ user_level: level });
+  }
   
   // Set level theme color on body
   document.body.setAttribute('data-theme', level);
@@ -3916,6 +3935,9 @@ async function startDrill() {
     return;
   }
   
+  // Track drill start
+  FujisanAnalytics.trackDrillStart(state.category, state.level, state.unit || 1);
+  
   // Pick items for this session (22 items = 1 unit)
   const sessionItems = [...unlearnedItems].sort(() => Math.random() - 0.5).slice(0, ITEMS_PER_UNIT);
   
@@ -4035,6 +4057,9 @@ async function startReview() {
     alert(messages[lang] || messages.en);
     return;
   }
+  
+  // Track review start
+  FujisanAnalytics.trackReviewStart(state.category, reviewItems.length);
   
   // Create question queue with shuffle (grammar excludes writing)
   const questionQueue = [];
@@ -4444,6 +4469,9 @@ function selectLearningAnswer(btn, selected, correct, item, skill) {
   
   // Play sound effect
   playSound(isCorrect ? 'correct' : 'incorrect');
+  
+  // Track answer
+  FujisanAnalytics.trackAnswer(state.category, skill, isCorrect, item.id);
   
   if (isCorrect) {
     session.correct++;
@@ -4989,6 +5017,9 @@ async function startMock() {
     timeMinutes = MOCK_TIME[mockState.selectedSection] || MOCK_TIME.full;
   }
   
+  // Track mock test start
+  FujisanAnalytics.trackMockStart(state.level, setNum, mockState.mode);
+  
   showScreen('mock-q');
   startTimer(timeMinutes * 60);
   showMockQuestion();
@@ -5367,6 +5398,9 @@ function showMockResult() {
   });
   saveState();
   
+  // Track mock test complete
+  FujisanAnalytics.trackMockComplete(state.level, mockState.selectedSet, score, correct, total, passed);
+  
   // Show result screen
   showScreen('mock-result');
   
@@ -5644,6 +5678,17 @@ function showResult() {
   const total = session.questions.length;
   const score = total > 0 ? Math.round(session.correct / total * 100) : 0;
   const elapsed = Date.now() - session.startTime;
+  
+  // Track drill complete
+  FujisanAnalytics.trackDrillComplete(
+    state.category, 
+    state.level, 
+    session.unitIndex || state.unit || 1, 
+    session.correct, 
+    total, 
+    score
+  );
+  
   document.getElementById('result-score').textContent = score + '%';
   document.getElementById('result-correct').textContent = session.correct;
   document.getElementById('result-wrong').textContent = session.wrong;
@@ -5991,6 +6036,11 @@ function changeLang(lang) {
     };
     alert(msgs[lang] || 'Translation coverage is limited for this level.');
   }
+  
+  // Track language change
+  FujisanAnalytics.trackLanguageChange(lang);
+  FujisanAnalytics.setUserProperties({ user_language: lang });
+  
   state.lang = lang; 
   saveState();
   // LPとの言語設定を同期
@@ -6222,6 +6272,9 @@ function canUsePassPrediction() {
 }
 
 function showUpgradeModal(feature, requiredPlan) {
+  // Track upgrade modal shown
+  FujisanAnalytics.trackUpgradeModalShown(feature, requiredPlan);
+  
   const messages = {
     'level': `${requiredPlan} plan required to access this level.`,
     'mock': 'Pro plan required for Mock Tests.',
@@ -6358,6 +6411,9 @@ async function submitPassReport(e) {
   saveState();
   saveToCloud(); // Sync to Firebase
   
+  // Track pass report submission
+  FujisanAnalytics.trackPassReportSubmit(level);
+  
   btn.textContent = getText('pass_submitted') || 'Submitted!';
   setTimeout(() => {
     closePassReportModal();
@@ -6387,6 +6443,9 @@ async function askAI(question) {
     return;
   }
   
+  // Track AI tutor question
+  FujisanAnalytics.trackAIQuestion('general');
+  
   const chatHistory = document.getElementById('aiChatHistory');
   
   // Add user message
@@ -6403,6 +6462,7 @@ async function askAI(question) {
     chatHistory.scrollTop = chatHistory.scrollHeight;
   } catch (error) {
     console.error('AI Tutor error:', error);
+    FujisanAnalytics.trackError('ai_tutor', error.message);
     document.querySelector('.ai-typing-msg')?.remove();
     chatHistory.innerHTML += `<div class="ai-message assistant">Sorry, I couldn't process your question. Please try again.</div>`;
     chatHistory.scrollTop = chatHistory.scrollHeight;
@@ -7075,7 +7135,279 @@ const firebaseConfig = {
 
 let firebaseAuth = null;
 let firebaseDb = null;
+let firebaseAnalytics = null;
 let currentUser = null;
+
+// ========== ANALYTICS TRACKING ==========
+const FujisanAnalytics = {
+  // Log event to Firebase Analytics
+  logEvent: function(eventName, params = {}) {
+    try {
+      if (firebaseAnalytics) {
+        firebase.analytics().logEvent(eventName, {
+          ...params,
+          app_version: APP_VERSION,
+          user_level: state?.level || 'unknown',
+          user_plan: state?.plan || 'free',
+          timestamp: Date.now()
+        });
+        console.log('[Analytics]', eventName, params);
+      }
+    } catch (e) {
+      console.log('[Analytics] Error:', e.message);
+    }
+  },
+
+  // Set user properties
+  setUserProperties: function(props) {
+    try {
+      if (firebaseAnalytics) {
+        Object.entries(props).forEach(([key, value]) => {
+          firebase.analytics().setUserProperties({ [key]: value });
+        });
+        console.log('[Analytics] User properties set:', props);
+      }
+    } catch (e) {
+      console.log('[Analytics] setUserProperties error:', e.message);
+    }
+  },
+
+  // Set user ID
+  setUserId: function(userId) {
+    try {
+      if (firebaseAnalytics && userId) {
+        firebase.analytics().setUserId(userId);
+        console.log('[Analytics] User ID set:', userId);
+      }
+    } catch (e) {
+      console.log('[Analytics] setUserId error:', e.message);
+    }
+  },
+
+  // ===== USER LIFECYCLE EVENTS =====
+  
+  // App opened
+  trackAppOpen: function() {
+    this.logEvent('app_open', {
+      source: document.referrer || 'direct'
+    });
+  },
+
+  // User login
+  trackLogin: function(method) {
+    this.logEvent('login', {
+      method: method || 'email'
+    });
+  },
+
+  // User signup
+  trackSignUp: function(method) {
+    this.logEvent('sign_up', {
+      method: method || 'email'
+    });
+  },
+
+  // Onboarding complete
+  trackOnboardingComplete: function(selectedLevel) {
+    this.logEvent('tutorial_complete', {
+      selected_level: selectedLevel
+    });
+  },
+
+  // ===== LEARNING EVENTS =====
+  
+  // Drill session start
+  trackDrillStart: function(category, level, unit) {
+    this.logEvent('drill_start', {
+      category: category,
+      level: level,
+      unit: unit
+    });
+  },
+
+  // Answer submitted (individual)
+  trackAnswer: function(category, skill, isCorrect, itemId) {
+    this.logEvent('answer_submitted', {
+      category: category,
+      skill: skill,
+      is_correct: isCorrect,
+      item_id: itemId
+    });
+  },
+
+  // Drill session complete
+  trackDrillComplete: function(category, level, unit, correct, total, accuracy) {
+    this.logEvent('drill_complete', {
+      category: category,
+      level: level,
+      unit: unit,
+      correct: correct,
+      total: total,
+      accuracy: accuracy
+    });
+  },
+
+  // ===== MOCK TEST EVENTS =====
+  
+  // Mock test start
+  trackMockStart: function(level, setNumber, mode) {
+    this.logEvent('mock_test_start', {
+      level: level,
+      set_number: setNumber,
+      mode: mode
+    });
+  },
+
+  // Mock test complete
+  trackMockComplete: function(level, setNumber, score, correct, total, passed) {
+    this.logEvent('mock_test_complete', {
+      level: level,
+      set_number: setNumber,
+      score: score,
+      correct: correct,
+      total: total,
+      passed: passed
+    });
+  },
+
+  // ===== AI FEATURES =====
+  
+  // AI tutor question
+  trackAIQuestion: function(questionType) {
+    this.logEvent('ai_tutor_question', {
+      question_type: questionType || 'general'
+    });
+  },
+
+  // AI explanation requested (Why button)
+  trackAIExplanation: function(category, itemId) {
+    this.logEvent('ai_explanation_request', {
+      category: category,
+      item_id: itemId
+    });
+  },
+
+  // AI Coach viewed
+  trackAICoach: function() {
+    this.logEvent('ai_coach_view');
+  },
+
+  // ===== NAVIGATION & ENGAGEMENT =====
+  
+  // Screen view
+  trackScreenView: function(screenName) {
+    this.logEvent('screen_view', {
+      screen_name: screenName
+    });
+  },
+
+  // Level changed
+  trackLevelChange: function(oldLevel, newLevel) {
+    this.logEvent('level_change', {
+      old_level: oldLevel,
+      new_level: newLevel
+    });
+  },
+
+  // Language changed
+  trackLanguageChange: function(language) {
+    this.logEvent('language_change', {
+      language: language
+    });
+  },
+
+  // ===== MONETIZATION =====
+  
+  // Upgrade modal shown
+  trackUpgradeModalShown: function(feature, requiredPlan) {
+    this.logEvent('upgrade_modal_shown', {
+      feature: feature,
+      required_plan: requiredPlan
+    });
+  },
+
+  // Purchase initiated
+  trackPurchaseStart: function(plan, price, currency) {
+    this.logEvent('begin_checkout', {
+      plan: plan,
+      value: price,
+      currency: currency || 'USD'
+    });
+  },
+
+  // Purchase complete
+  trackPurchase: function(plan, price, currency, transactionId) {
+    this.logEvent('purchase', {
+      plan: plan,
+      value: price,
+      currency: currency || 'USD',
+      transaction_id: transactionId
+    });
+  },
+
+  // Trial started
+  trackTrialStart: function(level) {
+    this.logEvent('trial_start', {
+      level: level
+    });
+  },
+
+  // ===== RETENTION & STREAK =====
+  
+  // Daily study
+  trackDailyStudy: function(streak, answersToday) {
+    this.logEvent('daily_study', {
+      streak: streak,
+      answers_today: answersToday
+    });
+  },
+
+  // Streak achieved
+  trackStreakMilestone: function(streak) {
+    if ([3, 7, 14, 30, 60, 100].includes(streak)) {
+      this.logEvent('streak_milestone', {
+        streak_days: streak
+      });
+    }
+  },
+
+  // ===== CONTENT ENGAGEMENT =====
+  
+  // Audio played
+  trackAudioPlay: function(type, itemId) {
+    this.logEvent('audio_play', {
+      type: type,
+      item_id: itemId
+    });
+  },
+
+  // Review mode started
+  trackReviewStart: function(category, mistakeCount) {
+    this.logEvent('review_start', {
+      category: category,
+      mistake_count: mistakeCount
+    });
+  },
+
+  // Pass report submitted
+  trackPassReportSubmit: function(level) {
+    this.logEvent('pass_report_submit', {
+      level: level
+    });
+  },
+
+  // ===== ERROR TRACKING =====
+  
+  trackError: function(errorType, errorMessage) {
+    this.logEvent('app_error', {
+      error_type: errorType,
+      error_message: errorMessage?.substring(0, 100)
+    });
+  }
+};
+
+// Make globally available
+window.FujisanAnalytics = FujisanAnalytics;
 
 function initFirebase() {
   try {
@@ -7083,10 +7415,29 @@ function initFirebase() {
     firebaseAuth = firebase.auth();
     firebaseDb = firebase.firestore();
     
+    // Initialize Analytics
+    if (typeof firebase.analytics === 'function') {
+      firebaseAnalytics = firebase.analytics();
+      console.log('[Firebase] Analytics initialized');
+      
+      // Track app open
+      FujisanAnalytics.trackAppOpen();
+    }
+    
     firebaseAuth.onAuthStateChanged(user => {
       if (user) {
         currentUser = user;
         console.log('Logged in as:', user.email);
+        
+        // Set Analytics user ID and properties
+        FujisanAnalytics.setUserId(user.uid);
+        FujisanAnalytics.setUserProperties({
+          user_level: state.level || 'N5',
+          user_plan: state.plan || 'free',
+          user_language: state.lang || 'en'
+        });
+        FujisanAnalytics.trackLogin('email');
+        
         syncUserData();
         showScreen('drill');
       } else {
@@ -7099,6 +7450,7 @@ function initFirebase() {
     });
   } catch (e) {
     console.log('Firebase init error:', e);
+    FujisanAnalytics.trackError('firebase_init', e.message);
     // Demo mode fallback
     showScreen('drill');
     hideAppLoadingOverlay();
@@ -7279,6 +7631,9 @@ function skipOnboarding() {
 function completeOnboarding() {
   state.onboardingComplete = true;
   saveState();
+  
+  // Track onboarding complete
+  FujisanAnalytics.trackOnboardingComplete(state.level);
   
   const overlay = document.getElementById('onboarding-overlay');
   if (overlay) {
