@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.20.0';
+const APP_VERSION = '18.20.1';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FORCE UPDATE SYSTEM ==========
@@ -7765,12 +7765,11 @@ async function submitPassReportToCloud(report) {
 function logout() {
   if (firebaseAuth) {
     firebaseAuth.signOut().then(() => {
-      // Stay on app.html but show auth modal
-      currentUser = null;
-      showAuthModal('login');
+      // Redirect to landing page after logout
+      window.location.href = 'index.html';
     });
   } else {
-    showAuthModal('login');
+    window.location.href = 'index.html';
   }
 }
 
