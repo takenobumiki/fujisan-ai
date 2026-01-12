@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.17.43';
+const APP_VERSION = '18.18.0';
 const STORAGE_KEY = 'fujisan_v1817';
 
 // ========== UI TRANSLATIONS ==========
@@ -4764,12 +4764,7 @@ function selectMockSet(set) {
   const labelEl = document.getElementById('mockSetLabel');
   if (labelEl) labelEl.textContent = set === 'random' ? '(Random)' : `(Set ${set})`;
   
-  // If specific set (not random), open HTML file in new tab
-  if (set !== 'random') {
-    const level = state.level.toLowerCase();
-    const setNum = String(set).padStart(2, '0');
-    window.open(`data/mock/${level}/${setNum}.html`, '_blank');
-  }
+  // No longer open HTML in new tab - use unified mock.js interface instead
 }
 
 function updateMockInfo() {
