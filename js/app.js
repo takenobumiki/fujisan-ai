@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.20.7';
+const APP_VERSION = '18.20.8';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FORCE UPDATE SYSTEM ==========
@@ -4348,30 +4348,53 @@ function showLearningQuestion() {
       
   } else if (skill === 'reading') {
     promptEl.textContent = getText('quiz_select_reading') || 'Select the correct reading';
-    wordEl.textContent = item.k || item.w || item.p;
-    readingEl.textContent = '';
-    audioBtn.style.display = 'block';
-    // For TTS, use first reading for pronunciation
-    const getFirstReading = (r) => r ? r.split('、')[0].trim() : '';
-    currentWord = getFirstReading(item.r) || item.p || item.w;
-    session.currentItem = item; // Store for playAudio
     
-    // Display full reading (kun, on) for options
-    correct = item.r || item.p || item.w;
-    options = [correct];
-    
-    // Filter out items with same reading (to avoid duplicate options)
-    sameTypePool.filter(i => {
-      if (i.id === item.id) return false;
-      if (!(i.r || i.p || i.w)) return false;
-      // Exclude items with same reading
-      const iReading = i.r || i.p || i.w;
-      if (iReading === correct) return false;
-      return true;
-    })
-      .sort(() => Math.random() - 0.5)
-      .slice(0, 3)
-      .forEach(i => options.push(i.r || i.p || i.w));
+    // For grammar items, show pattern and ask for meaning instead
+    if (item.p) {
+      // Grammar: pattern → meaning (since there's no "reading" for grammar)
+      promptEl.textContent = getText('quiz_select_meaning') || 'Select the correct meaning';
+      wordEl.textContent = item.p;
+      readingEl.textContent = '';
+      audioBtn.style.display = 'block';
+      currentWord = item.r || item.p;
+      session.currentItem = item;
+      
+      correct = item.m[state.lang] || item.m.en;
+      options = [correct];
+      
+      sameTypePool.filter(i => {
+        if (i.id === item.id) return false;
+        const iMeaning = i.m ? (i.m[state.lang] || i.m.en) : null;
+        if (!iMeaning) return false;
+        if (iMeaning === correct) return false;
+        return true;
+      })
+        .sort(() => Math.random() - 0.5)
+        .slice(0, 3)
+        .forEach(i => options.push(i.m[state.lang] || i.m.en));
+    } else {
+      // Vocab/Kanji: word → reading
+      wordEl.textContent = item.k || item.w || item.p;
+      readingEl.textContent = '';
+      audioBtn.style.display = 'block';
+      const getFirstReading = (r) => r ? r.split('、')[0].trim() : '';
+      currentWord = getFirstReading(item.r) || item.p || item.w;
+      session.currentItem = item;
+      
+      correct = item.r || item.p || item.w;
+      options = [correct];
+      
+      sameTypePool.filter(i => {
+        if (i.id === item.id) return false;
+        if (!(i.r || i.p || i.w)) return false;
+        const iReading = i.r || i.p || i.w;
+        if (iReading === correct) return false;
+        return true;
+      })
+        .sort(() => Math.random() - 0.5)
+        .slice(0, 3)
+        .forEach(i => options.push(i.r || i.p || i.w));
+    }
       
   } else if (skill === 'meaning') {
     promptEl.textContent = getText('quiz_select_meaning') || 'Select the correct meaning';
