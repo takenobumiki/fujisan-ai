@@ -1,8 +1,8 @@
 // Fujisan.AI Mock Test Data - N3
 // All consecutive same answers eliminated
 
-if (typeof MOCK_DATA === 'undefined') {
-  var MOCK_DATA = {};
+if (typeof window.MOCK_DATA === 'undefined') {
+  window.MOCK_DATA = {};
 }
 
 MOCK_DATA['N3'] = {

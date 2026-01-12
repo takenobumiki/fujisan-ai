@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.20.3';
+const APP_VERSION = '18.20.4';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FORCE UPDATE SYSTEM ==========
@@ -2352,8 +2352,7 @@ const DATA = {
   }
 };
 
-// MOCK_DATA is defined by mock.js when loaded
-const MOCK_DATA = {};
+// MOCK_DATA is defined by mock.js when loaded (on window object)
 
 // Loading state
 let loadingData = {};
@@ -2411,7 +2410,7 @@ async function loadDrillData(level) {
 // Load Mock data for a level
 async function loadMockData(level) {
   // Check if already loaded (mock.js sets MOCK_DATA directly)
-  if (typeof MOCK_DATA !== 'undefined' && MOCK_DATA[level] && MOCK_DATA[level].sets && Object.keys(MOCK_DATA[level].sets).length > 0) {
+  if (typeof window.MOCK_DATA !== 'undefined' && window.MOCK_DATA[level] && window.MOCK_DATA[level].sets && Object.keys(window.MOCK_DATA[level].sets).length > 0) {
     return true;
   }
   if (loadingData[`mock_${level}`]) return loadingData[`mock_${level}`];
@@ -2422,8 +2421,8 @@ async function loadMockData(level) {
       await loadScript(`data/mock/${lvl}/mock.js`);
       
       // Verify data was loaded
-      if (typeof MOCK_DATA !== 'undefined' && MOCK_DATA[level] && MOCK_DATA[level].sets) {
-        console.log(`Mock data loaded: ${level} (${MOCK_DATA[level].info?.totalSets || 0} sets)`);
+      if (typeof window.MOCK_DATA !== 'undefined' && window.MOCK_DATA[level] && window.MOCK_DATA[level].sets) {
+        console.log(`Mock data loaded: ${level} (${window.MOCK_DATA[level].info?.totalSets || 0} sets)`);
         return true;
       }
       return false;
@@ -5002,12 +5001,12 @@ async function startMock() {
   const loaded = await loadMockData(state.level);
   hideLoading();
   
-  if (!loaded || !MOCK_DATA[state.level]) {
+  if (!loaded || !window.MOCK_DATA[state.level]) {
     alert('Mock test data not available for ' + state.level + '. Please try again.');
     return;
   }
   
-  const mockData = MOCK_DATA[state.level];
+  const mockData = window.MOCK_DATA[state.level];
   
   // Check if data has sets
   if (!mockData.sets || !mockData.sets[1]) {
