@@ -1,5 +1,5 @@
 // Fujisan.AI Mock Test Data - N1
-// Answer distribution randomized
+// Answer distribution randomized, ambiguous options fixed
 
 if (typeof window.MOCK_DATA === 'undefined') {
   window.MOCK_DATA = {};
@@ -8478,7 +8478,7 @@ window.MOCK_DATA['N1'] = {
           "に",
           "は",
           "を",
-          "が"
+          "から"
         ],
         "answer": 1,
         "id": "N1-07-034"
@@ -8502,7 +8502,7 @@ window.MOCK_DATA['N1'] = {
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
           "は",
-          "が",
+          "から",
           "に",
           "を"
         ],
@@ -11102,7 +11102,7 @@ window.MOCK_DATA['N1'] = {
         "text": "彼の努力（　）まことに敬服に値する。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "が",
+          "から",
           "に",
           "を",
           "は"
@@ -11128,7 +11128,7 @@ window.MOCK_DATA['N1'] = {
         "text": "彼女の勇気（　）称賛に値する。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "が",
+          "から",
           "は",
           "に",
           "を"
@@ -12175,7 +12175,7 @@ window.MOCK_DATA['N1'] = {
         "text": "その発見（　）注目に値する。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "が",
+          "から",
           "を",
           "は",
           "に"
@@ -12201,7 +12201,7 @@ window.MOCK_DATA['N1'] = {
         "text": "彼の業績（　）評価に値する。",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": [
-          "が",
+          "から",
           "は",
           "に",
           "を"

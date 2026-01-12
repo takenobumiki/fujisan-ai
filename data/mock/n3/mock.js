@@ -1,5 +1,5 @@
 // Fujisan.AI Mock Test Data - N3
-// Answer distribution randomized
+// Answer distribution randomized, ambiguous options fixed
 
 if (typeof window.MOCK_DATA === 'undefined') {
   window.MOCK_DATA = {};

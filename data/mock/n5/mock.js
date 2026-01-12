@@ -1,5 +1,5 @@
 // Fujisan.AI Mock Test Data - N5
-// Answer distribution randomized
+// Answer distribution randomized, ambiguous options fixed
 
 if (typeof window.MOCK_DATA === 'undefined') {
   window.MOCK_DATA = {};
@@ -20,7 +20,7 @@ window.MOCK_DATA['N5'] = {
         "question": "（　）に　はいるのは？",
         "options": [
           "ます",
-          "だ",
+          "いる",
           "です",
           "ある"
         ],
@@ -72,7 +72,7 @@ window.MOCK_DATA['N5'] = {
         "question": "（　）に　はいるのは？",
         "options": [
           "を",
-          "は",
+          "から",
           "に",
           "が"
         ],
@@ -4712,7 +4712,7 @@ window.MOCK_DATA['N5'] = {
         "text": "わたし（　）にほんじんです。",
         "question": "（　）に　はいるのは？",
         "options": [
-          "が",
+          "から",
           "を",
           "は",
           "に"
@@ -4739,7 +4739,7 @@ window.MOCK_DATA['N5'] = {
         "question": "（　）に　はいるのは？",
         "options": [
           "に",
-          "が",
+          "から",
           "を",
           "は"
         ],
@@ -4765,7 +4765,7 @@ window.MOCK_DATA['N5'] = {
         "question": "（　）に　はいるのは？",
         "options": [
           "を",
-          "が",
+          "から",
           "は",
           "に"
         ],
@@ -4793,7 +4793,7 @@ window.MOCK_DATA['N5'] = {
           "に",
           "を",
           "は",
-          "が"
+          "から"
         ],
         "answer": 2,
         "id": "N5-05-034"
@@ -4818,7 +4818,7 @@ window.MOCK_DATA['N5'] = {
         "options": [
           "に",
           "を",
-          "が",
+          "から",
           "は"
         ],
         "answer": 3,
@@ -5869,7 +5869,7 @@ window.MOCK_DATA['N5'] = {
         "text": "この　りんご（　）おいしいです。",
         "question": "（　）に　はいるのは？",
         "options": [
-          "が",
+          "から",
           "に",
           "は",
           "を"
@@ -5883,7 +5883,7 @@ window.MOCK_DATA['N5'] = {
         "question": "（　）に　はいるのは？",
         "options": [
           "を",
-          "は",
+          "から",
           "が",
           "に"
         ],
@@ -5896,7 +5896,7 @@ window.MOCK_DATA['N5'] = {
         "question": "（　）に　はいるのは？",
         "options": [
           "は",
-          "が",
+          "から",
           "に",
           "を"
         ],
@@ -5909,7 +5909,7 @@ window.MOCK_DATA['N5'] = {
         "question": "（　）に　はいるのは？",
         "options": [
           "が",
-          "は",
+          "から",
           "に",
           "を"
         ],
@@ -5922,7 +5922,7 @@ window.MOCK_DATA['N5'] = {
         "question": "（　）に　はいるのは？",
         "options": [
           "に",
-          "が",
+          "から",
           "は",
           "を"
         ],
@@ -5937,7 +5937,7 @@ window.MOCK_DATA['N5'] = {
           "が",
           "に",
           "を",
-          "は"
+          "から"
         ],
         "answer": 0,
         "id": "N5-06-033"
@@ -5950,7 +5950,7 @@ window.MOCK_DATA['N5'] = {
           "を",
           "は",
           "に",
-          "が"
+          "から"
         ],
         "answer": 1,
         "id": "N5-06-029"
@@ -5961,7 +5961,7 @@ window.MOCK_DATA['N5'] = {
         "question": "（　）に　はいるのは？",
         "options": [
           "に",
-          "は",
+          "から",
           "が",
           "を"
         ],
@@ -5974,7 +5974,7 @@ window.MOCK_DATA['N5'] = {
         "question": "（　）に　はいるのは？",
         "options": [
           "は",
-          "が",
+          "から",
           "を",
           "に"
         ],
@@ -5988,7 +5988,7 @@ window.MOCK_DATA['N5'] = {
         "options": [
           "に",
           "を",
-          "は",
+          "から",
           "が"
         ],
         "answer": 3,
@@ -7040,7 +7040,7 @@ window.MOCK_DATA['N5'] = {
         "question": "（　）に　はいるのは？",
         "options": [
           "を",
-          "は",
+          "から",
           "に",
           "が"
         ],
@@ -7066,7 +7066,7 @@ window.MOCK_DATA['N5'] = {
         "question": "（　）に　はいるのは？",
         "options": [
           "が",
-          "は",
+          "から",
           "を",
           "に"
         ],
@@ -7093,7 +7093,7 @@ window.MOCK_DATA['N5'] = {
         "options": [
           "に",
           "を",
-          "は",
+          "から",
           "が"
         ],
         "answer": 3,
@@ -7117,7 +7117,7 @@ window.MOCK_DATA['N5'] = {
         "text": "おかね（　）たりません。",
         "question": "（　）に　はいるのは？",
         "options": [
-          "は",
+          "から",
           "に",
           "が",
           "を"
@@ -20293,7 +20293,7 @@ window.MOCK_DATA['N5'] = {
           "に",
           "が",
           "を",
-          "は"
+          "から"
         ],
         "answer": 1,
         "id": "N5-19-030"
@@ -20317,7 +20317,7 @@ window.MOCK_DATA['N5'] = {
         "question": "（　）に　はいるのは？",
         "options": [
           "に",
-          "は",
+          "から",
           "を",
           "が"
         ],
@@ -20329,7 +20329,7 @@ window.MOCK_DATA['N5'] = {
         "text": "へや（　）きれいです。",
         "question": "（　）に　はいるのは？",
         "options": [
-          "が",
+          "から",
           "を",
           "に",
           "は"
@@ -21230,7 +21230,7 @@ window.MOCK_DATA['N5'] = {
         "options": [
           "ます",
           "です",
-          "だ",
+          "いる",
           "ある"
         ],
         "answer": 1,
@@ -21280,7 +21280,7 @@ window.MOCK_DATA['N5'] = {
         "text": "でんしゃ（ 　）きます。",
         "question": "（　）に　はいるのは？",
         "options": [
-          "は",
+          "から",
           "が",
           "に",
           "を"
@@ -21308,7 +21308,7 @@ window.MOCK_DATA['N5'] = {
         "options": [
           "を",
           "に",
-          "は",
+          "から",
           "が"
         ],
         "answer": 3,
@@ -21319,7 +21319,7 @@ window.MOCK_DATA['N5'] = {
         "text": "へや（ 　）きれいです。",
         "question": "（　）に　はいるのは？",
         "options": [
-          "が",
+          "から",
           "を",
           "に",
           "は"

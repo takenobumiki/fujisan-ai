@@ -1,5 +1,5 @@
 // Fujisan.AI Mock Test Data - N4
-// Answer distribution randomized
+// Answer distribution randomized, ambiguous options fixed
 
 if (typeof window.MOCK_DATA === 'undefined') {
   window.MOCK_DATA = {};
@@ -14305,7 +14305,7 @@ window.MOCK_DATA['N4'] = {
           "なくて",
           "ない",
           "なかった",
-          "ません"
+          "たら"
         ],
         "answer": 1,
         "id": "N4-12-037"
@@ -14316,7 +14316,7 @@ window.MOCK_DATA['N4'] = {
         "question": "（　）に　はいるのは？",
         "options": [
           "た",
-          "ます",
+          "たら",
           "る",
           "て"
         ],
@@ -14342,7 +14342,7 @@ window.MOCK_DATA['N4'] = {
         "question": "（　）に　はいるのは？",
         "options": [
           "なかった",
-          "ません",
+          "たら",
           "ない",
           "なくて"
         ],
