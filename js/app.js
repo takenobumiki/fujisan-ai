@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.20.21';
+const APP_VERSION = '18.20.23';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FURIGANA SYSTEM ==========
@@ -5241,7 +5241,7 @@ function showMockQuestion() {
                       ['課題理解', 'ポイント理解', '概要理解', '即時応答', '統合理解'].includes(q.type || '');
   
   if (isListening) {
-    // 聴解問題：テキスト非表示、TTSボタン表示
+    // 聴解問題：テキスト非表示、TTSボタン表示、質問文は表示
     const listeningMsg = {
       en: '🎧 Press play to listen',
       ja: '🎧 音声を再生してください',
@@ -5256,6 +5256,9 @@ function showMockQuestion() {
     };
     const lang = localStorage.getItem('fujisan_lang') || (state && state.lang) || 'en';
     const msg = listeningMsg[lang] || listeningMsg['en'];
+    
+    // 質問文を取得（question または q フィールド）
+    const questionText = q.question || q.q || '';
     
     // 会話形式の判定（scriptフィールドも確認）
     const scriptContent = q.script || '';
@@ -5272,9 +5275,13 @@ function showMockQuestion() {
       questionTextEl.innerHTML = '<div style="text-align:center;padding:20px;color:#666;">' + msg + '</div>';
     }
     
+    // TTSテキスト：script + question を連結
+    const ttsText = (q.script || q.q || (typeof q.text === 'string' ? q.text : '') || '') + 
+                    (questionText ? '。質問：' + questionText : '');
+    
     audioBtn.classList.remove('hidden');
     audioBtn.innerHTML = '🔊';
-    audioBtn.onclick = () => playListeningTTS(q.script || q.q || (typeof q.text === 'string' ? q.text : '') || '');
+    audioBtn.onclick = () => playListeningTTS(ttsText);
     audioEl.src = '';
   } else if (q.audio) {
     audioBtn.classList.remove('hidden');
