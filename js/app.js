@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.17.25';
+const APP_VERSION = '18.17.26';
 const STORAGE_KEY = 'fujisan_v1817';
 
 // ========== UI TRANSLATIONS ==========
@@ -2408,7 +2408,6 @@ function updateDrillScreen() {
   updateDashboardUnitGrid();
   updateDrillColors();
   updateHabitTracker();
-  updateContinueButton(); // S2: Update continue button
   
   // Update level selector buttons
   document.querySelectorAll('.level-select-btn').forEach(btn => {
@@ -2419,33 +2418,6 @@ function updateDrillScreen() {
   document.querySelectorAll('.category-btn').forEach(btn => {
     btn.classList.toggle('selected', btn.dataset.cat === state.category);
   });
-}
-
-// S2: Continue from last session
-function updateContinueButton() {
-  const btn = document.getElementById('continue-btn');
-  const textEl = document.getElementById('continue-btn-text');
-  if (!btn || !textEl) return;
-  
-  if (state.lastSession && state.lastSession.level && state.lastSession.unit !== undefined) {
-    const { level, unit, category } = state.lastSession;
-    textEl.textContent = `Continue ${level} Unit ${unit + 1}`;
-    btn.style.display = 'flex';
-    // Use standard primary color
-    btn.style.removeProperty('background-color');
-  } else {
-    btn.style.display = 'none';
-  }
-}
-
-function continueLastSession() {
-  if (!state.lastSession) return;
-  const { level, unit, category } = state.lastSession;
-  state.level = level;
-  state.category = category || 'vocab';
-  saveState();
-  updateDrillScreen();
-  startUnitDrill(unit);
 }
 
 // S1: Auto-select first incomplete unit
