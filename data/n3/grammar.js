@@ -67,7 +67,7 @@ const N3_GRAMMAR = [
   },
   {
     "id": "G0006",
-    "p": "〜次第",
+    "p": "〜しだい",
     "r": "〜しだい",
     "m": {
       "en": "depending on",
@@ -93,7 +93,7 @@ const N3_GRAMMAR = [
   },
   {
     "id": "G0008",
-    "p": "〜途中",
+    "p": "〜とちゅう",
     "r": "〜とちゅう",
     "m": {
       "en": "on the way",
@@ -1208,7 +1208,7 @@ const N3_GRAMMAR = [
   },
   {
     "id": "G0100",
-    "p": "〜反面",
+    "p": "〜はんめん",
     "r": "〜はんめん",
     "m": {
       "en": "on the other hand",
@@ -1341,7 +1341,7 @@ const N3_GRAMMAR = [
   },
   {
     "id": "G0111",
-    "p": "〜に伴って",
+    "p": "〜にともなって",
     "r": "〜にともなって",
     "m": {
       "en": "along with",
@@ -1523,7 +1523,7 @@ const N3_GRAMMAR = [
   },
   {
     "id": "G0126",
-    "p": "〜次第で",
+    "p": "〜しだいで",
     "r": "〜しだいで",
     "m": {
       "en": "depending on",
@@ -1549,7 +1549,7 @@ const N3_GRAMMAR = [
   },
   {
     "id": "G0128",
-    "p": "〜途中で",
+    "p": "〜とちゅうで",
     "r": "〜とちゅうで",
     "m": {
       "en": "on the way",
@@ -1586,7 +1586,7 @@ const N3_GRAMMAR = [
   },
   {
     "id": "G0131",
-    "p": "〜た結果",
+    "p": "〜たけっか",
     "r": "〜たけっか",
     "m": {
       "en": "as a result",
@@ -2525,7 +2525,7 @@ const N3_GRAMMAR = [
   },
   {
     "id": "G0209",
-    "p": "〜を皮切りに",
+    "p": "〜をかわきりに",
     "r": "〜をかわきりに",
     "m": {
       "en": "beginning with",
@@ -2982,7 +2982,7 @@ const N3_GRAMMAR = [
   },
   {
     "id": "G0247",
-    "p": "〜の至り",
+    "p": "〜のいたり",
     "r": "〜のいたり",
     "m": {
       "en": "the height of",
@@ -5425,7 +5425,7 @@ const N3_GRAMMAR = [
   },
   {
     "id": "G0450",
-    "p": "反面",
+    "p": "はんめん",
     "r": "はんめん",
     "m": {
       "en": "on the other hand; while",
@@ -5437,5 +5437,3 @@ const N3_GRAMMAR = [
     }
   }
 ];
-
-if (typeof module !== 'undefined') module.exports = { N3_GRAMMAR };

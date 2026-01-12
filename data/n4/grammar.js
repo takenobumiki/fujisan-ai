@@ -886,7 +886,7 @@ const N4_GRAMMAR = [
   },
   {
     "id": "G0074",
-    "p": "〜続ける",
+    "p": "〜つづける",
     "r": "〜つづける",
     "m": {
       "en": "continue",
@@ -925,7 +925,7 @@ const N4_GRAMMAR = [
   },
   {
     "id": "G0077",
-    "p": "〜直す",
+    "p": "〜なおす",
     "r": "〜なおす",
     "m": {
       "en": "redo",
@@ -938,7 +938,7 @@ const N4_GRAMMAR = [
   },
   {
     "id": "G0078",
-    "p": "〜込む",
+    "p": "〜こむ",
     "r": "〜こむ",
     "m": {
       "en": "into",
@@ -2478,5 +2478,3 @@ const N4_GRAMMAR = [
     }
   }
 ];
-
-if (typeof module !== 'undefined') module.exports = { N4_GRAMMAR };

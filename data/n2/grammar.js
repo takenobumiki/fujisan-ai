@@ -102,7 +102,7 @@ const N2_GRAMMAR = [
   },
   {
     "id": "G0009",
-    "p": "〜に伴って",
+    "p": "〜にともなって",
     "r": "〜にともなって",
     "m": {
       "en": "along with",
@@ -284,7 +284,7 @@ const N2_GRAMMAR = [
   },
   {
     "id": "G0024",
-    "p": "〜次第",
+    "p": "〜しだい",
     "r": "〜しだい",
     "m": {
       "en": "as soon as",
@@ -297,7 +297,7 @@ const N2_GRAMMAR = [
   },
   {
     "id": "G0025",
-    "p": "〜次第で",
+    "p": "〜しだいで",
     "r": "〜しだいで",
     "m": {
       "en": "depending on",
@@ -430,7 +430,7 @@ const N2_GRAMMAR = [
   },
   {
     "id": "G0036",
-    "p": "〜反面",
+    "p": "〜はんめん",
     "r": "〜はんめん",
     "m": {
       "en": "on the other hand",
@@ -1145,7 +1145,7 @@ const N2_GRAMMAR = [
   },
   {
     "id": "G0095",
-    "p": "〜込む",
+    "p": "〜こむ",
     "r": "〜こむ",
     "m": {
       "en": "into",
@@ -1184,7 +1184,7 @@ const N2_GRAMMAR = [
   },
   {
     "id": "G0098",
-    "p": "〜直す",
+    "p": "〜なおす",
     "r": "〜なおす",
     "m": {
       "en": "redo",
@@ -1197,7 +1197,7 @@ const N2_GRAMMAR = [
   },
   {
     "id": "G0099",
-    "p": "〜返す",
+    "p": "〜かえす",
     "r": "〜かえす",
     "m": {
       "en": "back",
@@ -1210,7 +1210,7 @@ const N2_GRAMMAR = [
   },
   {
     "id": "G0100",
-    "p": "〜続ける",
+    "p": "〜つづける",
     "r": "〜つづける",
     "m": {
       "en": "continue",
@@ -1729,7 +1729,7 @@ const N2_GRAMMAR = [
   },
   {
     "id": "G0143",
-    "p": "〜結果",
+    "p": "〜けっか",
     "r": "〜けっか",
     "m": {
       "en": "as a result",
@@ -1923,7 +1923,7 @@ const N2_GRAMMAR = [
   },
   {
     "id": "G0159",
-    "p": "〜至り",
+    "p": "〜いたり",
     "r": "〜いたり",
     "m": {
       "en": "height of",
@@ -1936,7 +1936,7 @@ const N2_GRAMMAR = [
   },
   {
     "id": "G0160",
-    "p": "〜の極み",
+    "p": "〜のきわみ",
     "r": "〜のきわみ",
     "m": {
       "en": "height of",
@@ -2515,7 +2515,7 @@ const N2_GRAMMAR = [
   },
   {
     "id": "G0208",
-    "p": "を皮切りに",
+    "p": "をかわきりに",
     "r": "をかわきりに",
     "m": {
       "en": "starting with",
@@ -3033,5 +3033,3 @@ const N2_GRAMMAR = [
     }
   }
 ];
-
-if (typeof module !== 'undefined') module.exports = { N2_GRAMMAR };

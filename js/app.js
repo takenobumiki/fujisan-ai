@@ -1,6 +1,102 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.20.9';
+const APP_VERSION = '18.20.14';
 const STORAGE_KEY = 'fujisan_v1820';
+
+// ========== FURIGANA SYSTEM ==========
+// 各レベルで学習済みとみなす漢字セット（そのレベルより下のレベルの漢字）
+// N5では全ての漢字にふりがなが必要
+// N4ではN5漢字は学習済み、N4新出漢字にはふりがな必要
+// N3ではN5+N4漢字は学習済み、N3新出漢字にはふりがな必要...
+const LEARNED_KANJI = {
+  N5: new Set(),
+  N4: new Set(),
+  N3: new Set(),
+  N2: new Set(),
+  N1: new Set()
+};
+
+// 各レベルの漢字セット（そのレベルで新出の漢字）
+const LEVEL_KANJI = {
+  N5: new Set(),
+  N4: new Set(),
+  N3: new Set(),
+  N2: new Set(),
+  N1: new Set()
+};
+
+// 文字が漢字かどうか判定
+function isKanji(char) {
+  const code = char.charCodeAt(0);
+  return (code >= 0x4E00 && code <= 0x9FFF) || (code >= 0x3400 && code <= 0x4DBF);
+}
+
+// 漢字データからそのレベルの漢字セットを構築
+function updateLearnedKanjiSet(level) {
+  const kanjiVar = `${level}_KANJI`;
+  if (typeof window[kanjiVar] === 'undefined') return;
+  
+  // そのレベルの新出漢字を収集
+  window[kanjiVar].forEach(item => {
+    if (item.k) {
+      for (const char of item.k) {
+        if (isKanji(char)) {
+          LEVEL_KANJI[level].add(char);
+        }
+      }
+    }
+  });
+  
+  // 学習済み漢字セットを再構築（下のレベルの漢字を累積）
+  const levels = ['N5', 'N4', 'N3', 'N2', 'N1'];
+  let cumulative = new Set();
+  
+  for (let i = 0; i < levels.length; i++) {
+    const lvl = levels[i];
+    // このレベルでは、前のレベルまでの漢字が学習済み
+    LEARNED_KANJI[lvl] = new Set(cumulative);
+    // 次のレベル用に、このレベルの漢字を累積に追加
+    LEVEL_KANJI[lvl].forEach(k => cumulative.add(k));
+  }
+  
+  console.log(`[Furigana] ${level}: ${LEVEL_KANJI[level].size} kanji, learned: ${LEARNED_KANJI[level].size}`);
+}
+
+// テキストに振り仮名を追加（レベルに応じて）
+// 学習済み漢字にはふりがな不要、未学習漢字にはふりがな必要
+function addFurigana(text, reading, level) {
+  if (!text || !level) return text;
+  
+  const learnedSet = LEARNED_KANJI[level] || new Set();
+  
+  // 未学習の漢字があるかチェック
+  let needsFurigana = false;
+  for (const char of text) {
+    if (isKanji(char) && !learnedSet.has(char)) {
+      needsFurigana = true;
+      break;
+    }
+  }
+  
+  if (!needsFurigana) {
+    return text; // ふりがな不要
+  }
+  
+  // ふりがなが必要な場合
+  if (reading) {
+    // 読みがある場合はrubyタグで囲む
+    return `<ruby>${text}<rt>${reading}</rt></ruby>`;
+  }
+  
+  return text;
+}
+
+// 選択肢配列にふりがなを追加
+function addFuriganaToOptions(options, level) {
+  if (!options || !Array.isArray(options)) return options;
+  // 選択肢は通常読みがないので、そのまま返す
+  // TODO: 選択肢用の読み情報があれば対応
+  return options;
+}
 
 // ========== FORCE UPDATE SYSTEM ==========
 // Check for updates on app load
@@ -2356,6 +2452,10 @@ async function loadDrillData(level) {
       if (typeof window[grammarVar] !== 'undefined') DATA[level].grammar = window[grammarVar];
       
       DATA[level].loaded = true;
+      
+      // 学習済み漢字セットを更新
+      updateLearnedKanjiSet(level);
+      
       console.log(`Drill data loaded: ${level}`);
       return true;
     } catch (e) {
@@ -4281,30 +4381,83 @@ function showLearningQuestion() {
     wordEl.textContent = '🔊';
     readingEl.textContent = getText('quiz_tap_play') || 'Tap play to listen';
     audioBtn.style.display = 'block';
-    // For TTS, use first reading only for correct pronunciation
-    const getFirstReading = (r) => r ? r.split('、')[0].trim() : '';
-    currentWord = getFirstReading(item.r) || item.w || item.k || item.p;
-    session.currentItem = item; // Store for playAudio
+    
+    // Helper: convert katakana to hiragana
+    const katakanaToHiragana = (str) => {
+      if (!str) return '';
+      return str.replace(/[\u30A1-\u30F6]/g, (match) => 
+        String.fromCharCode(match.charCodeAt(0) - 0x60)
+      );
+    };
+    // Helper: get all readings as array
+    const getAllReadings = (r) => r ? r.split('、').map(s => s.trim()).filter(s => s) : [];
+    // Helper: get random reading from all readings
+    const getRandomReading = (r) => {
+      const readings = getAllReadings(r);
+      if (readings.length === 0) return '';
+      return readings[Math.floor(Math.random() * readings.length)];
+    };
+    // Helper: convert reading to TTS format (hiragana, remove parentheses)
+    const getReadingForTTS = (reading) => {
+      if (!reading) return '';
+      // Convert katakana to hiragana for better TTS
+      const hiragana = katakanaToHiragana(reading);
+      // "かな（う）" → "かなう"
+      return hiragana.replace(/（/g, '').replace(/）/g, '');
+    };
+    // Helper: format kanji with okurigana for display based on selected reading
+    const formatKanjiWithOkurigana = (kanji, reading) => {
+      if (!kanji || !reading) return kanji;
+      // Extract okurigana from reading like "かな（う）" or "カナ（ウ）" → "う"
+      const match = reading.match(/（(.+)）/);
+      if (match) {
+        return kanji + '（' + katakanaToHiragana(match[1]) + '）';
+      }
+      return kanji;
+    };
+    
+    // For kanji, randomly select one reading (訓読み or 音読み)
+    let selectedReading = '';
+    if (item.k && item.r) {
+      selectedReading = getRandomReading(item.r);
+    }
+    
+    // For TTS, use selected reading (as hiragana)
+    currentWord = getReadingForTTS(selectedReading) || item.w || item.k || item.p;
+    session.currentItem = item;
     setTimeout(() => playAudio(), 300);
     
-    correct = item.k || item.w || item.p;
+    // For kanji, show with okurigana based on selected reading
+    if (item.k) {
+      correct = formatKanjiWithOkurigana(item.k, selectedReading);
+    } else {
+      correct = item.w || item.p;
+    }
     options = [correct];
     
-    // Get correct item's reading for comparison
-    const correctReading = getFirstReading(item.r) || '';
+    // Get correct item's reading for comparison (without okurigana markers)
+    const correctReading = getReadingForTTS(selectedReading) || '';
     
     // Filter out items with same reading (to avoid multiple correct answers)
     sameTypePool.filter(i => {
       if (i.id === item.id) return false;
       if (!(i.k || i.w || i.p)) return false;
-      // Exclude items with same reading as correct answer
-      const iReading = getFirstReading(i.r) || '';
-      if (correctReading && iReading === correctReading) return false;
+      // Exclude items with any reading that matches correct answer
+      const iReadings = getAllReadings(i.r).map(r => getReadingForTTS(r));
+      if (correctReading && iReadings.includes(correctReading)) return false;
       return true;
     })
       .sort(() => Math.random() - 0.5)
       .slice(0, 3)
-      .forEach(i => options.push(i.k || i.w || i.p));
+      .forEach(i => {
+        if (i.k) {
+          // For distractors, also randomly select a reading
+          const distReading = getRandomReading(i.r);
+          options.push(formatKanjiWithOkurigana(i.k, distReading));
+        } else {
+          options.push(i.w || i.p);
+        }
+      });
       
   } else if (skill === 'reading') {
     promptEl.textContent = getText('quiz_select_reading') || 'Select the correct reading';
@@ -4359,16 +4512,21 @@ function showLearningQuestion() {
   } else if (skill === 'meaning') {
     promptEl.textContent = getText('quiz_select_meaning') || 'Select the correct meaning';
     if (item.k) {
+      // 漢字アイテム：読みを下に表示
       wordEl.textContent = item.k;
       readingEl.textContent = item.r || '';
       currentWord = item.r || item.k;
     } else if (item.p) {
+      // 文法アイテム
       wordEl.textContent = item.p;
       readingEl.textContent = '';
-      currentWord = item.r || item.p; // Use reading for TTS if available
+      currentWord = item.r || item.p;
     } else {
-      wordEl.textContent = item.w;
-      readingEl.textContent = item.r || '';
+      // 語彙アイテム：レベルに応じて振り仮名を適用
+      const wordWithFurigana = addFurigana(item.w, item.r, state.level);
+      wordEl.innerHTML = wordWithFurigana;
+      // 振り仮名が付いた場合は読みを非表示
+      readingEl.textContent = wordWithFurigana.includes('<ruby>') ? '' : (item.r || '');
       currentWord = item.r || item.w;
     }
     audioBtn.style.display = 'block';
@@ -6018,9 +6176,9 @@ function playAudio() {
     const audio = new Audio(audioPath);
     
     audio.play().catch(e => {
-      // フォールバック：ブラウザTTS
+      // フォールバック：ブラウザTTS（currentWordには最初の読み方のみが設定されている）
       console.log('TTS file not found, using browser TTS:', e.message);
-      playBrowserTTS(item.r || item.w || item.k || item.p || currentWord);
+      playBrowserTTS(currentWord || item.r?.split('、')[0] || item.w || item.k || item.p);
     });
     return;
   }
