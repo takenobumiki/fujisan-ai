@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.17.37';
+const APP_VERSION = '18.17.40';
 const STORAGE_KEY = 'fujisan_v1817';
 
 // ========== UI TRANSLATIONS ==========
@@ -4154,8 +4154,9 @@ function showLearningQuestion() {
     wordEl.textContent = '🔊';
     readingEl.textContent = getText('quiz_tap_play') || 'Tap play to listen';
     audioBtn.style.display = 'block';
-    // For TTS, use reading (r) if available to ensure correct pronunciation
-    currentWord = item.r || item.w || item.k || item.p;
+    // For TTS, use first reading only for correct pronunciation
+    const getFirstReading = (r) => r ? r.split('、')[0].trim() : '';
+    currentWord = getFirstReading(item.r) || item.w || item.k || item.p;
     session.currentItem = item; // Store for playAudio
     setTimeout(() => playAudio(), 300);
     
@@ -4171,9 +4172,12 @@ function showLearningQuestion() {
     wordEl.textContent = item.k || item.w || item.p;
     readingEl.textContent = '';
     audioBtn.style.display = 'block';
-    currentWord = item.r || item.p || item.w;
+    // For TTS, use first reading for pronunciation
+    const getFirstReading = (r) => r ? r.split('、')[0].trim() : '';
+    currentWord = getFirstReading(item.r) || item.p || item.w;
     session.currentItem = item; // Store for playAudio
     
+    // Display full reading (kun, on) for options
     correct = item.r || item.p || item.w;
     options = [correct];
     sameTypePool.filter(i => i.id !== item.id && (i.r || i.p || i.w))
