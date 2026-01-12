@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.20.40';
+const APP_VERSION = '18.20.42';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FURIGANA SYSTEM ==========
