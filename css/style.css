@@ -47,7 +47,7 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
 
 /* Level theme applies to all major UI elements */
 .nav-btn.active { background: var(--level-color) !important; box-shadow: 0 4px 12px var(--level-shadow) !important; }
-.continue-btn { background: var(--level-color) !important; box-shadow: 0 4px 16px var(--level-shadow) !important; }
+/* .continue-btn background controlled by JavaScript */
 .category-btn.selected { border: 2px solid var(--level-color); background: var(--level-light); }
 .unit-cell.in-progress { background: var(--level-light) !important; color: var(--level-color) !important; box-shadow: 0 2px 8px var(--level-shadow) !important; }
 
@@ -685,7 +685,7 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
   gap: 8px;
   width: 100%;
   padding: 14px 20px;
-  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  /* background controlled by JavaScript */
   color: white;
   border: none;
   border-radius: 14px;
@@ -1138,7 +1138,7 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
   width: 100%;
   margin-top: 4px;
   padding: 10px 16px;
-  background: var(--primary);
+  /* background controlled by JavaScript */
   color: white;
   border: none;
   border-radius: 10px;
