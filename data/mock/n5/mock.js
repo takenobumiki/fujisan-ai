@@ -21522,5 +21522,14 @@ MOCK_DATA['N5'].getRandomSet = function() {
 
 MOCK_DATA['N5'].getBySection = function(setNum, section) {
   if (!this.sets[setNum]) return [];
-  return this.sets[setNum].filter(q => q.section === section);
+  
+  // Map section names to type patterns
+  const typePatterns = {
+    '言語知識（文字・語彙）': ['漢字読み', '表記', '文脈規定', '言い換え'],
+    '言語知識（文法）・読解': ['文法形式', '文の組み立て', '文章の文法', '読解（短文）', '読解（中文）', '情報検索'],
+    '聴解': ['聴解（課題理解）', '聴解（ポイント理解）', '聴解（発話表現）', '聴解（即時応答）']
+  };
+  
+  const patterns = typePatterns[section] || [];
+  return this.sets[setNum].filter(q => patterns.some(p => (q.type || '').includes(p)));
 };

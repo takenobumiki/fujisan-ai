@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.18.5';
+const APP_VERSION = '18.18.6';
 const STORAGE_KEY = 'fujisan_v1817';
 
 // ========== UI TRANSLATIONS ==========
@@ -1870,7 +1870,7 @@ const STRIPE_LINKS = {
 };
 
 // Stripe Customer Portal URL (for managing subscriptions / cancellation)
-const STRIPE_CUSTOMER_PORTAL = 'https://billing.stripe.com/p/login/6oE6s81f66Wkgko8ww';
+const STRIPE_CUSTOMER_PORTAL = 'https://billing.stripe.com/p/login/5kA00lgSR1gg4Le8ww';
 
 // ========== REFERRAL SYSTEM ==========
 const REFERRAL_CODES = ['REF001', 'REF002', 'REF003', 'REF004', 'REF005', 'REF006', 'REF007', 'REF008', 'REF009', 'REF010'];
