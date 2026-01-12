@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.17.14';
+const APP_VERSION = '18.17.15';
 const STORAGE_KEY = 'fujisan_v1817';
 
 // ========== UI TRANSLATIONS ==========
@@ -1821,6 +1821,9 @@ function t(key) {
   const lang = state.lang || 'en';
   return UI_TEXTS[lang]?.[key] || UI_TEXTS['en'][key] || key;
 }
+
+// Alias for getText
+const getText = t;
 
 // ========== CONSTANTS ==========
 const LEVELS = ['N5', 'N4', 'N3', 'N2', 'N1'];
