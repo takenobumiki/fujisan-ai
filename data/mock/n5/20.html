@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>JLPT N5-20 模擬テスト</title>
+<style>
+:root {
+  --primary: #34c759;
+  --primary-dark: #2db350;
+  --primary-light: #e8f9ee;
+  --bg-gradient: linear-gradient(135deg, #56ab2f 0%, #a8e063 100%);
+  --header-gradient: linear-gradient(135deg, #2e7d32 0%, #4caf50 100%);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Yu Gothic', sans-serif;
+  background: var(--bg-gradient);
+  min-height: 100vh;
+  padding: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+.container {
+  max-width: 680px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+  overflow: hidden;
+}
+/* Header */
+.header {
+  background: var(--header-gradient);
+  color: #fff;
+  padding: 24px 20px;
+  text-align: center;
+}
+.header h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+  letter-spacing: 0.5px;
+}
+.header .subtitle {
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+/* Home Screen */
+.home-content { padding: 24px; }
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.stat-card {
+  background: var(--header-gradient);
+  color: #fff;
+  padding: 20px 12px;
+  border-radius: 16px;
+  text-align: center;
+}
+.stat-value {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.stat-label {
+  font-size: 0.75rem;
+  opacity: 0.9;
+  margin-top: 4px;
+}
+.home-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.btn:active { transform: scale(0.98); }
+.btn-primary {
+  background: var(--primary);
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 18px 48px;
+}
+.btn-primary:hover { background: var(--primary-dark); }
+.btn-secondary {
+  background: #f0f0f5;
+  color: #333;
+}
+.btn-secondary:hover { background: #e0e0e5; }
+.btn-danger {
+  background: #ff3b30;
+  color: #fff;
+}
+.btn-row {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* Test Screen */
+.test-header {
+  background: var(--header-gradient);
+  color: #fff;
+  padding: 16px 20px;
+}
+.test-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.test-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.timer {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.timer.warning { color: #ffcc00; }
+.timer.danger { color: #ff3b30; animation: blink 1s infinite; }
+@keyframes blink { 50% { opacity: 0.6; } }
+.progress-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.progress-bar {
+  flex: 1;
+  height: 6px;
+  background: rgba(255,255,255,0.3);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  background: #fff;
+  transition: width 0.3s ease;
+}
+.progress-text {
+  font-size: 0.85rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+/* Question */
+.question-container { padding: 20px; }
+.section-badge {
+  display: inline-block;
+  background: var(--primary-light);
+  color: var(--primary-dark);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.question-text {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+  padding: 16px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  border-left: 4px solid var(--primary);
+}
+.question-text u { 
+  text-decoration: none;
+  background: var(--primary-light);
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.options { display: flex; flex-direction: column; gap: 10px; }
+.option {
+  display: flex;
+  align-items: center;
+  padding: 14px 16px;
+  background: #fff;
+  border: 2px solid #e5e5ea;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.option:hover { border-color: var(--primary); background: var(--primary-light); }
+.option.selected { border-color: var(--primary); background: var(--primary-light); }
+.option.correct { border-color: #34c759; background: #e8f9ee; }
+.option.wrong { border-color: #ff3b30; background: #ffebea; }
+.option-label {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-right: 14px;
+  flex-shrink: 0;
+}
+.option.selected .option-label { background: var(--primary-dark); }
+.option.correct .option-label { background: #34c759; }
+.option.wrong .option-label { background: #ff3b30; }
+.option-text { flex: 1; font-size: 1rem; line-height: 1.5; }
+/* Navigation */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  background: #f8f9fa;
+  border-top: 1px solid #e5e5ea;
+}
+.nav-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.nav-btn-prev, .nav-btn-next {
+  background: var(--primary);
+  color: #fff;
+}
+.nav-btn-prev:hover, .nav-btn-next:hover { background: var(--primary-dark); }
+.nav-btn-submit {
+  background: #34c759;
+  color: #fff;
+  padding: 12px 24px;
+}
+.nav-btn-submit:hover { background: #2db350; }
+.nav-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+/* Results */
+.results-content { padding: 24px; }
+.score-card {
+  background: var(--header-gradient);
+  color: #fff;
+  padding: 32px 24px;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.score-value {
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+.score-detail {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+.pass-badge {
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-weight: 700;
+  margin-top: 12px;
+}
+.pass-badge.pass { background: #34c759; }
+.pass-badge.fail { background: #ff3b30; }
+/* Section Scores */
+.section-scores {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.section-score-card {
+  background: #f8f9fa;
+  padding: 16px;
+  border-radius: 12px;
+  text-align: center;
+  border-left: 4px solid var(--primary);
+}
+.section-score-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+.section-score-label {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 4px;
+}
+/* Answer Review */
+.review-section {
+  margin-top: 24px;
+}
+.review-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.review-toggle {
+  background: var(--primary-light);
+  color: var(--primary);
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 16px;
+}
+.answer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+.answer-item {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 16px;
+  border-left: 4px solid #34c759;
+}
+.answer-item.wrong {
+  border-left-color: #ff3b30;
+  background: #fff5f5;
+}
+.answer-q-num {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #666;
+  margin-bottom: 8px;
+}
+.answer-q-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+.answer-result {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.9rem;
+}
+.answer-your {
+  color: #ff3b30;
+}
+.answer-correct {
+  color: #34c759;
+  font-weight: 600;
+}
+/* Results Actions */
+.results-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 24px;
+}
+/* Audio Button */
+.audio-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 16px;
+  transition: all 0.2s;
+}
+.audio-btn:hover { background: var(--primary-dark); }
+.audio-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.audio-btn.playing { animation: pulse 1s infinite; }
+@keyframes pulse { 50% { opacity: 0.7; } }
+/* Utilities */
+.hidden { display: none !important; }
+/* Responsive */
+@media (max-width: 480px) {
+  body { padding: 8px; }
+  .header { padding: 20px 16px; }
+  .header h1 { font-size: 1.3rem; }
+  .stats-grid { gap: 8px; }
+  .stat-card { padding: 16px 8px; }
+  .stat-value { font-size: 1.6rem; }
+  .question-container { padding: 16px; }
+  .question-text { padding: 12px; font-size: 1rem; }
+  .option { padding: 12px 14px; }
+  .nav-bar { padding: 12px 16px; }
+  .nav-btn { padding: 10px 16px; font-size: 0.9rem; }
+  .score-value { font-size: 3rem; }
+}
+
+/* 聴解アイコン表示 */
+.listening-icons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-bottom: 20px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icon-option {
+  background: #f8f9fa;
+  border: 3px solid #e9ecef;
+  border-radius: 16px;
+  padding: 16px 8px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.icon-option:hover {
+  border-color: var(--primary);
+  background: #f0f4ff;
+  transform: translateY(-2px);
+}
+.icon-option.selected {
+  border-color: var(--primary);
+  background: #e8edff;
+}
+.icon-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  min-height: 44px;
+  margin-bottom: 4px;
+  flex-wrap: wrap;
+}
+.icon-display .icon {
+  font-size: 32px;
+  line-height: 1;
+}
+.icon-display.count-3 .icon { font-size: 28px; }
+.icon-display.count-4 .icon { font-size: 24px; }
+.icon-display.count-5 .icon { font-size: 20px; }
+.icon-number {
+  font-size: 16px;
+  font-weight: 600;
+  color: #666;
+}
+
+
+/* 聴解問題：テキスト非表示、音声ボタン表示 */
+.listening-mode .question-text {
+  display: none;
+}
+.tts-container {
+  text-align: center;
+  padding: 30px 20px;
+  background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+.tts-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 20px 40px;
+  border-radius: 50px;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+  transition: all 0.3s;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.tts-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.5);
+}
+.tts-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.tts-btn .icon {
+  font-size: 24px;
+}
+.tts-status {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #666;
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+  <!-- Header -->
+  <div class="header">
+    <h1>🇯🇵 JLPT N5-20</h1>
+    <div class="subtitle">第20回模擬テスト | v2.0.0</div>
+  </div>
+
+  <!-- Home Screen -->
+  <div id="home" class="home-content">
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-value" id="stat-best">-%</div>
+        <div class="stat-label">最高スコア</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="stat-attempts">0</div>
+        <div class="stat-label">受験回数</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="stat-wrong">0</div>
+        <div class="stat-label">復習問題</div>
+      </div>
+    </div>
+    <div class="home-actions">
+      <button class="btn btn-primary" onclick="startTest()">📝 テスト開始</button>
+      <div class="btn-row">
+        <button class="btn btn-secondary" onclick="startReview()">📚 復習モード</button>
+        <button class="btn btn-danger" onclick="resetData()">🗑️ リセット</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Test Screen -->
+  <div id="test" class="hidden">
+    <div class="test-header">
+      <div class="test-top">
+        <div class="test-title" id="test-title">模擬テスト</div>
+        <div class="timer" id="timer">00:00</div>
+      </div>
+      <div class="progress-container">
+        <div class="progress-bar">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+        <div class="progress-text" id="progress-text">1 / 15</div>
+      </div>
+    </div>
+    <div class="question-container" id="question-container"></div>
+    <div class="nav-bar">
+      <button class="nav-btn nav-btn-prev" id="btn-prev" onclick="prevQ()">← 前へ</button>
+      <button class="nav-btn nav-btn-submit" id="btn-submit" onclick="submitTest()">採点する</button>
+      <button class="nav-btn nav-btn-next" id="btn-next" onclick="nextQ()">次へ →</button>
+    </div>
+  </div>
+
+  <!-- Results Screen -->
+  <div id="results" class="results-content hidden">
+    <div class="score-card">
+      <div class="score-value" id="score-value">0%</div>
+      <div class="score-detail" id="score-detail">0問正解 / 15問中</div>
+      <div class="pass-badge" id="pass-badge">合格</div>
+    </div>
+    <div class="section-scores" id="section-scores"></div>
+    <div class="review-section">
+      <button class="review-toggle" id="review-toggle" onclick="toggleAnswerList()">
+        📋 正誤一覧を表示
+      </button>
+      <div class="answer-list hidden" id="answer-list"></div>
+    </div>
+    <div class="results-actions">
+      <button class="btn btn-primary" onclick="reviewWrong()">❌ 間違えた問題を復習</button>
+      <button class="btn btn-secondary" onclick="startTest()">🔄 もう一度挑戦</button>
+      <button class="btn btn-secondary" onclick="goHome()">🏠 ホームに戻る</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// Test Data (will be replaced)
+const TEST = {"id":"N5-20","title":"N5模擬テスト 第20回","questions":[{"text":"<u>今日</u>は <u>一月</u> 八日です。<br><br>「今日」のよみかたは？","options":["きょう","きのう","あした","いま"],"answer":0,"type":"漢字読み"},{"text":"<u>父</u>と <u>母</u>は <u>元気</u>です。<br><br>「父」のよみかたは？","options":["はは","あに","あね","ちち"],"answer":3,"type":"漢字読み"},{"text":"この <u>本</u>は <u>安</u>いです。<br><br>「安」いのよみかたは？","options":["たか","やす","あたら","ふる"],"answer":1,"type":"漢字読み"},{"text":"<u>水曜日</u>に <u>映画</u>を 見ます。<br><br>「水曜日」のよみかたは？","options":["かようび","もくようび","すいようび","きんようび"],"answer":2,"type":"漢字読み"},{"text":"<u>田中</u>さんは <u>足</u>が <u>長</u>いです。<br><br>「長」いのよみかたは？","options":["ながい","ひろい","みじかい","おもい"],"answer":0,"type":"漢字読み"},{"text":"<u>南</u>の ほうへ <u>行</u>きます。<br><br>「南」のよみかたは？","options":["きた","みなみ","にし","ひがし"],"answer":1,"type":"漢字読み"},{"text":"<u>名前</u>を <u>書</u>いてください。<br><br>「名前」のよみかたは？","options":["めいまえ","めいぜん","なまえ","なぜん"],"answer":2,"type":"漢字読み"},{"text":"<u>英語</u>を <u>話</u>します。<br><br>「話」しますのよみかたは？","options":["よ","き","か","はな"],"answer":3,"type":"漢字読み"},{"text":"<u>自分</u>で <u>作</u>りました。<br><br>「作」りましたのよみかたは？","options":["つく","つか","か","よ"],"answer":0,"type":"漢字読み"},{"text":"<u>半分</u> <u>食</u>べました。<br><br>「半分」のよみかたは？","options":["はんぷん","はんぶん","ほんぶん","はなぶん"],"answer":1,"type":"漢字読み"},{"text":"<u>時間</u>が <u>少</u>ないです。<br><br>「少」ないのよみかたは？","options":["おお","ちいさ","すくな","ひく"],"answer":2,"type":"漢字読み"},{"text":"<u>百</u>円の <u>ペン</u>を <u>買</u>いました。<br><br>「百」のよみかたは？","options":["せん","まん","じゅう","ひゃく"],"answer":3,"type":"漢字読み"},{"text":"<u>でんしゃ</u>に のりました。<br><br>「でんしゃ」のかきかたは？","options":["電車","田車","自車","伝車"],"answer":0,"type":"表記"},{"text":"<u>あした</u> 会いましょう。<br><br>「あした」のかきかたは？","options":["昨日","明日","今日","来週"],"answer":1,"type":"表記"},{"text":"<u>しろい</u> シャツを 着ます。<br><br>「しろい」のかきかたは？","options":["青い","赤い","白い","黒い"],"answer":2,"type":"表記"},{"text":"<u>ごふん</u> 待ってください。<br><br>「ごふん」のかきかたは？","options":["五時","五日","五回","五分"],"answer":3,"type":"表記"},{"text":"<u>がいこく</u>へ 行きます。<br><br>「がいこく」のかきかたは？","options":["外国","中国","国名","外人"],"answer":0,"type":"表記"},{"text":"<u>くるま</u>が あります。<br><br>「くるま」のかきかたは？","options":["道","車","電","駅"],"answer":1,"type":"表記"},{"text":"<u>ともだち</u>と 会います。<br><br>「ともだち」のかきかたは？","options":["友人","友立","友だち","友"],"answer":2,"type":"表記"},{"text":"<u>よる</u> 本を 読みます。<br><br>「よる」のかきかたは？","options":["朝","昼","晩","夜"],"answer":3,"type":"表記"},{"text":"（　　）を ぬぎます。部屋に 入りますから。<br><br>（　）になにがはいりますか。","options":["くつ","シャツ","ぼうし","めがね"],"answer":0,"type":"文脈規定"},{"text":"この 荷物は （　　）ですね。手伝ってください。<br><br>（　）になにがはいりますか。","options":["かるい","おもい","ひろい","あかるい"],"answer":1,"type":"文脈規定"},{"text":"（　　）を つけてください。ニュースを 見ます。<br><br>（　）になにがはいりますか。","options":["ラジオ","エアコン","テレビ","ストーブ"],"answer":2,"type":"文脈規定"},{"text":"（　　）を 見て、時間を 確認します。<br><br>（　）になにがはいりますか。","options":["ノート","じしょ","かばん","とけい"],"answer":3,"type":"文脈規定"},{"text":"おなかが （　　）です。何か 食べましょう。<br><br>（　）になにがはいりますか。","options":["すきました","いたいです","あついです","いっぱい"],"answer":0,"type":"文脈規定"},{"text":"（　　）を 撮りましょう。とても きれいな 山ですね。<br><br>（　）になにがはいりますか。","options":["てがみ","しゃしん","えいが","テレビ"],"answer":1,"type":"文脈規定"},{"text":"すみませんが、窓を （　　）ください。暑いですから。<br><br>（　）になにがはいりますか。","options":["しめて","つけて","あけて","けして"],"answer":2,"type":"文脈規定"},{"text":"（　　）を あらいます。ご飯を 食べる 前です。<br><br>（　）になにがはいりますか。","options":["かお","あし","は","て"],"answer":3,"type":"文脈規定"},{"text":"（　　）を かけて、本を 読みます。目が わるいですから。<br><br>（　）になにがはいりますか。","options":["めがね","シャツ","くつ","ネクタイ"],"answer":0,"type":"文脈規定"},{"text":"（　　）が いたいので、休みます。<br><br>（　）になにがはいりますか。","options":["みみ","あたま","はな","せなか"],"answer":1,"type":"文脈規定"},{"text":"<u>すぐ</u> 終わります。<br><br>「すぐ」に ちかい いみの ことばは？","options":["あとで","時間をかけて","いまから","ゆっくり"],"answer":2,"type":"言い換え類義"},{"text":"<u>ちょうど</u> 十時です。<br><br>「ちょうど」に ちかい いみの ことばは？","options":["だいたい","すこし","もうすぐ","ぴったり"],"answer":3,"type":"言い換え類義"},{"text":"あの 店は <u>ひま</u>ですね。<br><br>「ひま」に ちかい いみの ことばは？","options":["人がいない","いそがしい","休み","あそび"],"answer":0,"type":"言い換え類義"},{"text":"<u>おもしろい</u> 映画でした。<br><br>「おもしろい」に ちかい いみの ことばは？","options":["つまらない","たのしい","ながい","こわい"],"answer":1,"type":"言い換え類義"},{"text":"<u>たぶん</u> 雨です。<br><br>「たぶん」に ちかい いみの ことばは？","options":["ぜったい","かならず","おそらく","いつも"],"answer":2,"type":"言い換え類義"},{"text":"「のぼる」の つかいかたで ただしいものは？<br><br>ただしいものを えらんでください。","options":["道を のぼる。","川を のぼる。","空を のぼる。","山に のぼる。"],"answer":3,"type":"用法"},{"text":"「みがく」の つかいかたで ただしいものは？<br><br>ただしいものを えらんでください。","options":["歯を みがく。","顔を みがく。","手を みがく。","足を みがく。"],"answer":0,"type":"用法"},{"text":"「ぬぐ」の つかいかたで ただしいものは？<br><br>ただしいものを えらんでください。","options":["めがねを ぬぐ。","コートを ぬぐ。","かばんを ぬぐ。","傘を ぬぐ。"],"answer":1,"type":"用法"},{"text":"「ひく」の つかいかたで ただしいものは？<br><br>ただしいものを えらんでください。","options":["うたを ひく。","しゃしんを ひく。","ピアノを ひく。","テレビを ひく。"],"answer":2,"type":"用法"},{"text":"「あびる」の つかいかたで ただしいものは？<br><br>ただしいものを えらんでください。","options":["水を あびる。","ご飯を あびる。","お茶を あびる。","シャワーを あびる。"],"answer":3,"type":"用法"},{"text":"ペン（　　） 名前を 書きました。<br><br>（　）になにがはいりますか。","options":["で","を","に","が"],"answer":0,"type":"文法形式"},{"text":"あした 学校（　　） 行きません。<br><br>（　）になにがはいりますか。","options":["へを","へは","へが","へに"],"answer":1,"type":"文法形式"},{"text":"だれ（　　） 来ませんでした。<br><br>（　）になにがはいりますか。","options":["に","を","も","は"],"answer":2,"type":"文法形式"},{"text":"あそこに 猫が （　　） います。<br><br>（　）になにがはいりますか。","options":["ひとつ","ひとり","いちまい","いっぴき"],"answer":3,"type":"文法形式"},{"text":"おんがくを （　　）ながら 勉強します。<br><br>（　）になにがはいりますか。","options":["きき","きいて","きく","きいた"],"answer":0,"type":"文法形式"},{"text":"日本語を 話すのが （　　）です。<br><br>（　）になにがはいりますか。","options":["うまく","じょうず","はやく","たのしく"],"answer":1,"type":"文法形式"},{"text":"宿題を （　　）から、遊びに行きます。<br><br>（　）になにがはいりますか。","options":["した","する","して","しない"],"answer":2,"type":"文法形式"},{"text":"この 料理は （　　） おいしくないです。<br><br>（　）になにがはいりますか。","options":["とても","すこし","ぜんぶ","あまり"],"answer":3,"type":"文法形式"},{"text":"これ（　　） わたしの 鞄です。<br><br>（　）になにがはいりますか。","options":["は","を","に","で"],"answer":0,"type":"文法形式"},{"text":"昨日 （　　） 映画は おもしろかったです。<br><br>（　）になにがはいりますか。","options":["みて","みた","みる","み"],"answer":1,"type":"文法形式"},{"text":"コーヒー（　　） 紅茶、どちらが いいですか。<br><br>（　）になにがはいりますか。","options":["と","を","か","に"],"answer":2,"type":"文法形式"},{"text":"今日は （　　） 寒いですね。<br><br>（　）になにがはいりますか。","options":["あまり","すこし","ちょうど","とても"],"answer":3,"type":"文法形式"},{"text":"あの 建物は （　　）ですか。<br><br>（　）になにがはいりますか。","options":["なん","どこ","だれ","どれ"],"answer":0,"type":"文法形式"},{"text":"机の上に 辞書（　　） あります。<br><br>（　）になにがはいりますか。","options":["を","が","に","は"],"answer":1,"type":"文法形式"},{"text":"ここ（　　） 名前を 書いてください。<br><br>（　）になにがはいりますか。","options":["を","で","に","へ"],"answer":2,"type":"文法形式"},{"text":"わたしは 毎朝 六時に 牛乳を 一回 飲みます。<br><br>★に入るものはどれですか。","options":["毎朝","六時に","牛乳を","一回"],"answer":3,"type":"文の組み立て"},{"text":"あそこに 白い 帽子を かぶった 人が います。<br><br>★に入るものはどれですか。","options":["白い","帽子を","かぶった","人が"],"answer":0,"type":"文の組み立て"},{"text":"そこに ゆっくり 椅子に 座って かけて ください。<br><br>★に入るものはどれですか。","options":["そこに","座って","椅子に","ゆっくり"],"answer":1,"type":"文の組み立て"},{"text":"公園の 中に 子供が 五人 遊んで います。<br><br>★に入るものはどれですか。","options":["中に","子供が","五人","遊んで"],"answer":2,"type":"文の組み立て"},{"text":"ここに ボールペンで 名前を 書いて ください。<br><br>★に入るものはどれですか。","options":["ここに","名前を","書いて","ボールペンで"],"answer":3,"type":"文の組み立て"},{"text":"（手紙）田中さん、元気ですか。あしたは 日曜日ですね。（ 1 ） しますか。<br><br>（ 1 ）になにがはいりますか。","options":["なにを","どこを","だれが","いつを"],"answer":0,"type":"文章の文法"},{"text":"（手紙）わたしは 友だちと 海へ （ 2 ）。<br><br>（ 2 ）になにがはいりますか。","options":["行きました","行きます","行って","行かない"],"answer":1,"type":"文章の文法"},{"text":"（手紙）海で たくさん （ 3 ） 泳ぎます。<br><br>（ 3 ）になにがはいりますか。","options":["魚と","水を","元気に","いっしょに"],"answer":2,"type":"文章の文法"},{"text":"（手紙）田中さんも （ 4 ） 行きませんか。<br><br>（ 4 ）になにがはいりますか。","options":["ひとりで","どこかへ","ゆっくり","いっしょに"],"answer":3,"type":"文章の文法"},{"text":"（手紙）（ 5 ） お返事を ください。<br><br>（ 5 ）になにがはいりますか。","options":["ぜひ","たぶん","もっと","すこし"],"answer":0,"type":"文章の文法"},{"text":"（短文）佐藤さんは 毎日 七時に おきます。パンを 食べてから 仕事に 行きます。<br><br>佐藤さんは 朝 何を しますか。","options":["コーヒーを飲む","パンを食べる","新聞を読む","散歩をする"],"answer":1,"type":"読解（短文）"},{"text":"（短文）わたしの 家は 駅から 十五分くらいです。とても 便利です。<br><br>家は どうですか。","options":["遠くて不便","少し遠い","便利だ","広くて古い"],"answer":2,"type":"読解（短文）"},{"text":"（短文）昨日は 休みでした。どこへも 行きませんでした。家で 本を 読みました。<br><br>昨日は 何を しましたか。","options":["買い物に行った","公園に行った","映画に行った","家で本を読んだ"],"answer":3,"type":"読解（短文）"},{"text":"（短文）この 料理は 少し 辛いですが、とても おいしいです。<br><br>この 料理は どうですか。","options":["辛いがおいしい","甘い","まずい","苦い"],"answer":0,"type":"読解（短文）"},{"text":"（短文）明日は 月曜日です。テストが ありますから、今日は 勉強します。<br><br>いつ 勉強しますか。","options":["明日","今日","昨日","火曜日"],"answer":1,"type":"読解（短文）"},{"text":"（短文）この ズボンは 少し 短いです。もっと 長いのは ありませんか。<br><br>この ズボンは どうですか。","options":["長い","太い","短い","細い"],"answer":2,"type":"読解（短文）"},{"text":"（短文）木村さんは ギターが 好きです。毎日 練習します。<br><br>木村さんは 何を 練習しますか。","options":["ピアノ","歌","ダンス","ギター"],"answer":3,"type":"読解（短文）"},{"type":"読解（中文）","text":"日本のお弁当は とても おもしろいです。いろいろな 食べものが 入っています。お肉、お魚、野菜、卵などです。形も きれいです。わたしは 毎日 自分で お弁当を 作ります。コンビニでも 買うことが できますが、自分で 作ったほうが 安いです。<br><br>お弁当には なにが 入っていますか。","options":["パンだけ","いろいろな もの","くだものだけ","お肉だけ"],"answer":1},{"text":"（中文）わたしは 日本に 来て 一年に なります。日本語学校で べんきょうしています。<br><br>日本に 来て どのくらいですか。","options":["一年","半年","二年","三年"],"answer":0,"type":"読解（中文）"},{"text":"（中文）学校は 月曜日から 金曜日まで あります。<br><br>学校は いつ ありますか。","options":["毎日","週末","月曜日から金曜日","土曜日と日曜日"],"answer":2,"type":"読解（中文）"},{"type":"読解（中文）","text":"わたしの 趣味は ギターです。毎晩 自分の 部屋で 練習します。最初は 難しかったですが、今は 少し 上手になりました。来月の パーティーで 弾きますから、毎日 頑張っています。友達に 聞いてもらうのが 楽しみです。<br><br>この人は いつ ギターを 練習しますか。","options":["毎朝","毎晩","日曜日だけ","パーティーのとき"],"answer":1},{"text":"（中文）わたしの しゅみは サッカーです。週に 二回 練習します。<br><br>しゅみは 何ですか。","options":["サッカー","テニス","野球","水泳"],"answer":0,"type":"読解（中文）"},{"text":"（中文）週末は 友だちと サッカーを します。とても たのしいです。<br><br>だれと サッカーを しますか。","options":["一人で","先生","家族","友だち"],"answer":3,"type":"読解（中文）"},{"text":"（中文）来月 サッカーの 大会が あります。たくさん 練習します。<br><br>来月 何が ありますか。","options":["りょこう","しけん","大会","パーティー"],"answer":2,"type":"読解（中文）"},{"text":"（情報検索）【休館日】月曜日：やすみ　火〜日：9時〜19時　祝日：日曜日と同じ<br><br>月曜日は 休みですか。","options":["いいえ","午前だけ","午後だけ","はい、休みです"],"answer":3,"type":"読解（情報検索）"},{"text":"（情報検索）【休館日】火〜日：9時〜19時<br><br>何時に 閉まりますか。","options":["十九時","五時","六時","八時"],"answer":0,"type":"読解（情報検索）"},{"text":"（情報検索）【休館日】祝日：日曜日と同じ<br><br>祝日は 何曜日と 同じですか。","options":["月曜日","日曜日","火曜日","水曜日"],"answer":1,"type":"読解（情報検索）"},{"text":"女：くだものを 買いに 行きます。何が いいですか。<br>男：ぶどうを おねがいします。<br><br>何を 買いますか。","options":["りんご","みかん","ぶどう","バナナ"],"answer":2,"type":"聴解（課題理解）","icons":["🍎","🍊","🍇","🍌"],"counts":[1,1,1,1]},{"text":"男：いつ 会いましょうか。<br>女：十三日は どうですか。<br>男：いいですよ。<br><br>いつ 会いますか。","options":["十日","十一日","十二日","十三日"],"answer":3,"type":"聴解（課題理解）"},{"text":"女：どこで 会いますか。<br>男：駅の 前は どうですか。<br>女：わかりました。<br><br>どこで 会いますか。","options":["駅","公園","学校","デパート"],"answer":0,"type":"聴解（課題理解）","icons":["🚉","🌳","🏫","🏬"],"counts":[1,1,1,1]},{"text":"男：誰と 行きますか。<br>女：田中さんと 行きます。<br><br>誰と 行きますか。","options":["先生","田中さん","鈴木さん","佐藤さん"],"answer":1,"type":"聴解（課題理解）"},{"text":"女：何で 行きますか。<br>男：自転車で 行きます。<br><br>何で 行きますか。","options":["バス","電車","自転車","徒歩"],"answer":2,"type":"聴解（課題理解）"},{"text":"男：映画は 何時間ですか。<br>女：三時間です。<br><br>何時間ですか。","options":["二時間","四時間","五時間","三時間"],"answer":3,"type":"聴解（課題理解）"},{"text":"女：どうして 行きませんでしたか。<br>男：忙しかったからです。<br><br>どうして 行きませんでしたか。","options":["忙しいから","寒いから","遠いから","雨だから"],"answer":0,"type":"聴解（ポイント理解）"},{"text":"男：鍵は どこに ありましたか。<br>女：机の 上に ありました。<br><br>どこに ありましたか。","options":["箱の中","机の上","椅子の下","棚の上"],"answer":1,"type":"聴解（ポイント理解）"},{"text":"女：何色が 好きですか。<br>男：白が 好きです。<br><br>何色が 好きですか。","options":["赤","青","白","黒"],"answer":2,"type":"聴解（ポイント理解）"},{"text":"男：何番の バスですか。<br>女：四番です。<br><br>何番ですか。","options":["一番","二番","三番","四番"],"answer":3,"type":"聴解（ポイント理解）"},{"text":"女：誰が 来ましたか。<br>男：兄が 来ました。<br><br>誰が 来ましたか。","options":["兄","姉","父","母"],"answer":0,"type":"聴解（ポイント理解）"},{"text":"男：どこへ 行きたいですか。<br>女：大阪へ 行きたいです。<br><br>どこへ 行きたいですか。","options":["東京","大阪","京都","北海道"],"answer":1,"type":"聴解（ポイント理解）"},{"text":"こんにちは。<br><br>なんと こたえますか。","options":["おはよう","おやすみ","こんにちは","さようなら"],"answer":2,"type":"聴解（即時応答）"},{"text":"おやすみなさい。<br><br>なんと こたえますか。","options":["おはよう","ありがとう","すみません","おやすみなさい"],"answer":3,"type":"聴解（即時応答）"},{"text":"いってきます。<br><br>なんと こたえますか。","options":["いってらっしゃい","おかえりなさい","こんにちは","こんばんは"],"answer":0,"type":"聴解（即時応答）"},{"text":"はじめまして。<br><br>なんと こたえますか。","options":["ありがとう","はじめまして、よろしく","すみません","はい"],"answer":1,"type":"聴解（即時応答）"},{"text":"お名前は？<br><br>なんと こたえますか。","options":["銀行員です","二十歳です","田中です","日本人です"],"answer":2,"type":"聴解（即時応答）"},{"text":"また 来週。<br><br>なんと こたえますか。","options":["おはよう","おやすみなさい","こんにちは","はい、また来週"],"answer":3,"type":"聴解（即時応答）"}]};
+const LEVEL = "N5";
+const TIME_LIMIT = 1500; // seconds
+const PASS_SCORE = 60; // percent
+const STORAGE_KEY = "fujisan_mock_v200_N5_20";
+
+// State
+let currentQ = 0;
+let answers = {};
+let startTime = null;
+let timerInterval = null;
+let isReview = false;
+let questions = [];
+let testResults = null;
+
+// Init
+function init() {
+  loadStats();
+}
+
+function loadStats() {
+  const data = getData();
+  document.getElementById('stat-best').textContent = data.best !== null ? data.best + '%' : '-%';
+  document.getElementById('stat-attempts').textContent = data.attempts || 0;
+  document.getElementById('stat-wrong').textContent = (data.wrongQuestions || []).length;
+}
+
+function getData() {
+  const saved = localStorage.getItem(STORAGE_KEY);
+  return saved ? JSON.parse(saved) : { best: null, attempts: 0, wrongQuestions: [] };
+}
+
+function saveData(data) {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+}
+
+// Start Test
+function startTest() {
+  currentQ = 0;
+  answers = {};
+  isReview = false;
+  questions = [...TEST.questions];
+  testResults = null;
+  
+  showScreen('test');
+  document.getElementById('test-title').textContent = TEST.title;
+  
+  startTime = Date.now();
+  updateTimer();
+  timerInterval = setInterval(updateTimer, 1000);
+  
+  renderQuestion();
+}
+
+function startReview() {
+  const data = getData();
+  if (!data.wrongQuestions || data.wrongQuestions.length === 0) {
+    alert('復習する問題がありません！');
+    return;
+  }
+  
+  currentQ = 0;
+  answers = {};
+  isReview = true;
+  questions = data.wrongQuestions.map((q, i) => ({...q, originalIndex: q.index}));
+  testResults = null;
+  
+  showScreen('test');
+  document.getElementById('test-title').textContent = '📚 復習モード';
+  document.getElementById('timer').textContent = '復習中';
+  
+  if (timerInterval) clearInterval(timerInterval);
+  timerInterval = null;
+  
+  renderQuestion();
+}
+
+// Timer
+function updateTimer() {
+  const elapsed = Math.floor((Date.now() - startTime) / 1000);
+  const remaining = TIME_LIMIT - elapsed;
+  
+  const timerEl = document.getElementById('timer');
+  
+  if (remaining <= 0) {
+    clearInterval(timerInterval);
+    timerEl.textContent = '00:00';
+    timerEl.classList.add('danger');
+    submitTest();
+    return;
+  }
+  
+  const mins = Math.floor(remaining / 60);
+  const secs = remaining % 60;
+  timerEl.textContent = String(mins).padStart(2, '0') + ':' + String(secs).padStart(2, '0');
+  
+  timerEl.classList.remove('warning', 'danger');
+  if (remaining <= 60) {
+    timerEl.classList.add('danger');
+  } else if (remaining <= 180) {
+    timerEl.classList.add('warning');
+  }
+}
+
+// Render Question
+
+// TTS (Text-to-Speech) for listening questions
+let ttsUtterance = null;
+let isSpeaking = false;
+
+function speakText(text, onEnd) {
+  if ('speechSynthesis' in window) {
+    window.speechSynthesis.cancel();
+    ttsUtterance = new SpeechSynthesisUtterance(text);
+    ttsUtterance.lang = 'ja-JP';
+    ttsUtterance.rate = 0.9;
+    ttsUtterance.pitch = 1;
+    
+    ttsUtterance.onstart = () => {
+      isSpeaking = true;
+      updateTTSButton();
+    };
+    ttsUtterance.onend = () => {
+      isSpeaking = false;
+      updateTTSButton();
+      if (onEnd) onEnd();
+    };
+    ttsUtterance.onerror = () => {
+      isSpeaking = false;
+      updateTTSButton();
+    };
+    
+    window.speechSynthesis.speak(ttsUtterance);
+  } else {
+    alert('お使いのブラウザは音声読み上げに対応していません');
+  }
+}
+
+function stopTTS() {
+  if ('speechSynthesis' in window) {
+    window.speechSynthesis.cancel();
+    isSpeaking = false;
+    updateTTSButton();
+  }
+}
+
+function toggleTTS() {
+  if (isSpeaking) {
+    stopTTS();
+  } else {
+    const q = questions[currentQ];
+    // HTMLタグを除去してテキストを取得
+    const text = q.text.replace(/<br>/g, '\n').replace(/<[^>]*>/g, '');
+    speakText(text);
+  }
+}
+
+function updateTTSButton() {
+  const btn = document.getElementById('tts-btn');
+  const status = document.getElementById('tts-status');
+  if (btn) {
+    if (isSpeaking) {
+      btn.innerHTML = '<span class="icon">⏹️</span> 停止';
+      if (status) status.textContent = '再生中...';
+    } else {
+      btn.innerHTML = '<span class="icon">🔊</span> 音声を再生';
+      if (status) status.textContent = 'タップして問題を聞く';
+    }
+  }
+}
+
+function renderQuestion() {
+  const q = questions[currentQ];
+  const container = document.getElementById('question-container');
+  
+  // Stop any ongoing TTS
+  if (typeof stopTTS === 'function') stopTTS();
+  
+  // Progress
+  document.getElementById('progress-fill').style.width = ((currentQ + 1) / questions.length * 100) + '%';
+  document.getElementById('progress-text').textContent = (currentQ + 1) + ' / ' + questions.length;
+  
+  // Navigation buttons
+  document.getElementById('btn-prev').disabled = currentQ === 0;
+  document.getElementById('btn-next').disabled = currentQ === questions.length - 1;
+  
+  // Check if listening question (Q81-100, index 80-99)
+  const isListening = currentQ >= 80 && currentQ < 100;
+  
+  // Question
+  let html = '<div class="section-badge">' + (q.section || '問題') + '</div>';
+  
+  if (isListening) {
+    // 聴解問題：TTSボタンを表示、テキストは非表示
+    html += '<div class="tts-container">';
+    html += '<button class="tts-btn" id="tts-btn" onclick="toggleTTS()">';
+    html += '<span class="icon">🔊</span> 音声を再生</button>';
+    html += '<div class="tts-status" id="tts-status">タップして問題を聞く</div>';
+    html += '</div>';
+  } else {
+    // 通常問題：テキスト表示
+    html += '<div class="question-text">' + q.text + '</div>';
+  }
+  
+  // アイコン表示（聴解問題でiconsがある場合）
+  if (q.icons && q.icons.length === 4) {
+    html += '<div class="listening-icons">';
+    for (let i = 0; i < 4; i++) {
+      const count = q.counts ? q.counts[i] : 1;
+      const countClass = count > 2 ? ' count-' + Math.min(count, 5) : '';
+      const icons = Array(count).fill('<span class="icon">' + q.icons[i] + '</span>').join('');
+      const selected = answers[currentQ] === i ? ' selected' : '';
+      html += '<div class="icon-option' + selected + '" onclick="selectAnswer(' + i + ')">';
+      html += '<div class="icon-display' + countClass + '">' + icons + '</div>';
+      html += '<div class="icon-number">' + (i + 1) + '</div></div>';
+    }
+    html += '</div>';
+  } else {
+    // 通常の選択肢表示
+    html += '<div class="options">';
+    q.options.forEach((opt, i) => {
+      const selected = answers[currentQ] === i ? 'selected' : '';
+      html += '<div class="option ' + selected + '" onclick="selectAnswer(' + i + ')">';
+      html += '<span class="option-label">' + (i + 1) + '</span>';
+      html += '<span class="option-text">' + opt + '</span>';
+      html += '</div>';
+    });
+    html += '</div>';
+  }
+  
+  container.innerHTML = html;
+}
+
+function selectAnswer(index) {
+  answers[currentQ] = index;
+  renderQuestion();
+}
+
+function prevQ() {
+  if (currentQ > 0) {
+    currentQ--;
+    renderQuestion();
+  }
+}
+
+function nextQ() {
+  if (currentQ < questions.length - 1) {
+    currentQ++;
+    renderQuestion();
+  }
+}
+
+// Audio
+let isPlaying = false;
+function playAudio() {
+  if (isPlaying) return;
+  const q = questions[currentQ];
+  if (!q.audio) return;
+  
+  const btn = document.getElementById('audio-btn');
+  btn.disabled = true;
+  btn.classList.add('playing');
+  btn.textContent = '🔊 再生中...';
+  isPlaying = true;
+  
+  speechSynthesis.cancel();
+  const utterance = new SpeechSynthesisUtterance(q.audio);
+  utterance.lang = 'ja-JP';
+  utterance.rate = 0.9;
+  
+  utterance.onend = () => {
+    btn.disabled = false;
+    btn.classList.remove('playing');
+    btn.textContent = '🔊 もう一度再生';
+    isPlaying = false;
+  };
+  
+  utterance.onerror = () => {
+    btn.disabled = false;
+    btn.classList.remove('playing');
+    btn.textContent = '🔊 音声を再生';
+    isPlaying = false;
+  };
+  
+  speechSynthesis.speak(utterance);
+}
+
+// Submit Test
+function submitTest() {
+  if (timerInterval) {
+    clearInterval(timerInterval);
+    timerInterval = null;
+  }
+  
+  // Calculate results
+  let correct = 0;
+  const wrongQuestions = [];
+  const sectionScores = {};
+  
+  questions.forEach((q, i) => {
+    const section = q.section || '問題';
+    if (!sectionScores[section]) {
+      sectionScores[section] = { correct: 0, total: 0 };
+    }
+    sectionScores[section].total++;
+    
+    if (answers[i] === q.answer) {
+      correct++;
+      sectionScores[section].correct++;
+    } else {
+      wrongQuestions.push({
+        ...q,
+        index: q.originalIndex !== undefined ? q.originalIndex : i,
+        userAnswer: answers[i]
+      });
+    }
+  });
+  
+  const score = Math.round((correct / questions.length) * 100);
+  const passed = score >= PASS_SCORE;
+  
+  testResults = {
+    score,
+    correct,
+    total: questions.length,
+    passed,
+    sectionScores,
+    wrongQuestions,
+    answers: {...answers}
+  };
+  
+  // Save data (not in review mode)
+  if (!isReview) {
+    const data = getData();
+    data.attempts = (data.attempts || 0) + 1;
+    if (data.best === null || score > data.best) {
+      data.best = score;
+    }
+    // Update wrong questions list
+    const existingWrong = data.wrongQuestions || [];
+    wrongQuestions.forEach(wq => {
+      if (!existingWrong.find(e => e.text === wq.text)) {
+        existingWrong.push(wq);
+      }
+    });
+    // Remove questions that were answered correctly
+    data.wrongQuestions = existingWrong.filter(wq => {
+      const idx = questions.findIndex(q => q.text === wq.text);
+      return idx === -1 || answers[idx] !== wq.answer;
+    });
+    saveData(data);
+  }
+  
+  // Show results
+  showResults();
+}
+
+function showResults() {
+  showScreen('results');
+  
+  const { score, correct, total, passed, sectionScores, wrongQuestions } = testResults;
+  
+  document.getElementById('score-value').textContent = score + '%';
+  document.getElementById('score-detail').textContent = correct + '問正解 / ' + total + '問中';
+  
+  const passBadge = document.getElementById('pass-badge');
+  passBadge.textContent = passed ? '合格ライン到達！' : '不合格';
+  passBadge.className = 'pass-badge ' + (passed ? 'pass' : 'fail');
+  
+  // Section scores
+  let sectionsHtml = '';
+  Object.entries(sectionScores).forEach(([section, scores]) => {
+    const pct = Math.round((scores.correct / scores.total) * 100);
+    sectionsHtml += '<div class="section-score-card">';
+    sectionsHtml += '<div class="section-score-value">' + scores.correct + '/' + scores.total + '</div>';
+    sectionsHtml += '<div class="section-score-label">' + section.substring(0, 8) + '</div>';
+    sectionsHtml += '</div>';
+  });
+  document.getElementById('section-scores').innerHTML = sectionsHtml;
+  
+  // Answer list
+  renderAnswerList();
+  
+  loadStats();
+}
+
+function renderAnswerList() {
+  const { answers: testAnswers } = testResults;
+  let html = '';
+  
+  questions.forEach((q, i) => {
+    const isCorrect = testAnswers[i] === q.answer;
+    const userAns = testAnswers[i] !== undefined ? q.options[testAnswers[i]] : '未回答';
+    const correctAns = q.options[q.answer];
+    
+    html += '<div class="answer-item ' + (isCorrect ? '' : 'wrong') + '">';
+    html += '<div class="answer-q-num">問' + (i + 1) + ' - ' + (q.section || '問題') + '</div>';
+    html += '<div class="answer-q-text">' + q.text.substring(0, 100) + (q.text.length > 100 ? '...' : '') + '</div>';
+    html += '<div class="answer-result">';
+    if (isCorrect) {
+      html += '<div class="answer-correct">✓ 正解: ' + correctAns + '</div>';
+    } else {
+      html += '<div class="answer-your">✗ あなたの回答: ' + userAns + '</div>';
+      html += '<div class="answer-correct">○ 正解: ' + correctAns + '</div>';
+    }
+    html += '</div></div>';
+  });
+  
+  document.getElementById('answer-list').innerHTML = html;
+}
+
+function toggleAnswerList() {
+  const list = document.getElementById('answer-list');
+  const btn = document.getElementById('review-toggle');
+  
+  if (list.classList.contains('hidden')) {
+    list.classList.remove('hidden');
+    btn.textContent = '📋 正誤一覧を隠す';
+  } else {
+    list.classList.add('hidden');
+    btn.textContent = '📋 正誤一覧を表示';
+  }
+}
+
+function reviewWrong() {
+  if (!testResults || testResults.wrongQuestions.length === 0) {
+    alert('間違えた問題がありません！');
+    return;
+  }
+  
+  currentQ = 0;
+  answers = {};
+  isReview = true;
+  questions = testResults.wrongQuestions.map((q, i) => ({...q}));
+  testResults = null;
+  
+  showScreen('test');
+  document.getElementById('test-title').textContent = '❌ 間違えた問題';
+  document.getElementById('timer').textContent = '復習中';
+  
+  renderQuestion();
+}
+
+// Navigation
+function showScreen(id) {
+  ['home', 'test', 'results'].forEach(s => {
+    document.getElementById(s).classList.toggle('hidden', s !== id);
+  });
+}
+
+function goHome() {
+  if (timerInterval) {
+    clearInterval(timerInterval);
+    timerInterval = null;
+  }
+  showScreen('home');
+  loadStats();
+}
+
+function resetData() {
+  if (confirm('このテストのすべてのデータをリセットしますか？')) {
+    localStorage.removeItem(STORAGE_KEY);
+    loadStats();
+    alert('リセットしました');
+  }
+}
+
+// Initialize
+init();
+</script>
+</body>
+</html>
