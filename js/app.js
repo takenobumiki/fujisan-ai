@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.20.53';
+const APP_VERSION = '18.20.54';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FURIGANA SYSTEM ==========
@@ -4260,7 +4260,7 @@ const SFX = {
   incorrect: null
 };
 
-// Create premium sound effects using Web Audio API
+// Create Apple-style minimal sound effects using Web Audio API
 function initSoundEffects() {
   try {
     const AudioContext = window.AudioContext || window.webkitAudioContext;
@@ -4268,119 +4268,78 @@ function initSoundEffects() {
     
     const ctx = new AudioContext();
     
-    // Helper: Create reverb impulse response for premium feel
-    const createReverb = (duration = 1.5, decay = 2) => {
-      const rate = ctx.sampleRate;
-      const length = rate * duration;
-      const impulse = ctx.createBuffer(2, length, rate);
-      for (let i = 0; i < 2; i++) {
-        const channel = impulse.getChannelData(i);
-        for (let j = 0; j < length; j++) {
-          channel[j] = (Math.random() * 2 - 1) * Math.pow(1 - j / length, decay);
-        }
-      }
-      const convolver = ctx.createConvolver();
-      convolver.buffer = impulse;
-      return convolver;
-    };
-    
-    // Correct sound - Elegant chime with harmonics (like a crystal bell)
+    // Correct sound - Apple-style marimba "pop" (like iPhone text sent)
     SFX.correct = () => {
       const t = ctx.currentTime;
-      const master = ctx.createGain();
-      const reverb = createReverb(1.2, 2.5);
-      const dryGain = ctx.createGain();
-      const wetGain = ctx.createGain();
       
-      dryGain.gain.value = 0.7;
-      wetGain.gain.value = 0.3;
-      master.gain.setValueAtTime(0.12, t);
-      master.gain.exponentialRampToValueAtTime(0.001, t + 1.2);
+      // Main tone (marimba-like)
+      const osc1 = ctx.createOscillator();
+      const gain1 = ctx.createGain();
+      osc1.type = 'sine';
+      osc1.frequency.setValueAtTime(1400, t); // High, bright
+      osc1.frequency.exponentialRampToValueAtTime(1200, t + 0.08);
+      gain1.gain.setValueAtTime(0.3, t);
+      gain1.gain.exponentialRampToValueAtTime(0.001, t + 0.12);
+      osc1.connect(gain1);
+      gain1.connect(ctx.destination);
+      osc1.start(t);
+      osc1.stop(t + 0.15);
       
-      dryGain.connect(ctx.destination);
-      reverb.connect(wetGain);
-      wetGain.connect(ctx.destination);
-      
-      // Rich harmonic series for bell-like tone
-      const frequencies = [784, 1046.5, 1318.5, 1568]; // G5, C6, E6, G6 (G major arpeggio)
-      const delays = [0, 0.05, 0.1, 0.15];
-      const volumes = [0.4, 0.3, 0.2, 0.15];
-      
-      frequencies.forEach((freq, i) => {
-        const osc = ctx.createOscillator();
-        const gain = ctx.createGain();
-        osc.type = 'sine';
-        osc.frequency.setValueAtTime(freq, t);
-        gain.gain.setValueAtTime(0, t);
-        gain.gain.linearRampToValueAtTime(volumes[i], t + delays[i] + 0.02);
-        gain.gain.exponentialRampToValueAtTime(0.001, t + 0.8 + delays[i]);
-        osc.connect(gain);
-        gain.connect(master);
-        master.connect(dryGain);
-        master.connect(reverb);
-        osc.start(t + delays[i]);
-        osc.stop(t + 1.2);
-      });
+      // Harmonic for wooden texture
+      const osc2 = ctx.createOscillator();
+      const gain2 = ctx.createGain();
+      osc2.type = 'triangle';
+      osc2.frequency.setValueAtTime(2800, t);
+      gain2.gain.setValueAtTime(0.08, t);
+      gain2.gain.exponentialRampToValueAtTime(0.001, t + 0.06);
+      osc2.connect(gain2);
+      gain2.connect(ctx.destination);
+      osc2.start(t);
+      osc2.stop(t + 0.08);
     };
     
-    // Incorrect sound - Soft, gentle two-tone (not harsh, but clear feedback)
+    // Incorrect sound - Soft low "tock" (gentle feedback)
     SFX.incorrect = () => {
       const t = ctx.currentTime;
-      const master = ctx.createGain();
-      const filter = ctx.createBiquadFilter();
       
-      filter.type = 'lowpass';
-      filter.frequency.value = 800;
-      filter.Q.value = 1;
-      
-      master.gain.setValueAtTime(0.08, t);
-      master.gain.exponentialRampToValueAtTime(0.001, t + 0.4);
-      
-      filter.connect(master);
-      master.connect(ctx.destination);
-      
-      // Two descending tones (gentle "mm-mm" sound)
-      const notes = [349.23, 293.66]; // F4 to D4
-      const times = [0, 0.12];
-      
-      notes.forEach((freq, i) => {
-        const osc = ctx.createOscillator();
-        const gain = ctx.createGain();
-        osc.type = 'triangle';
-        osc.frequency.setValueAtTime(freq, t + times[i]);
-        gain.gain.setValueAtTime(0, t + times[i]);
-        gain.gain.linearRampToValueAtTime(0.5, t + times[i] + 0.02);
-        gain.gain.exponentialRampToValueAtTime(0.01, t + times[i] + 0.15);
-        osc.connect(gain);
-        gain.connect(filter);
-        osc.start(t + times[i]);
-        osc.stop(t + times[i] + 0.2);
-      });
-    };
-    
-    // New question sound - Subtle, soft notification
-    SFX.newQuestion = () => {
-      const t = ctx.currentTime;
       const osc = ctx.createOscillator();
       const gain = ctx.createGain();
       const filter = ctx.createBiquadFilter();
       
       filter.type = 'lowpass';
-      filter.frequency.value = 2000;
+      filter.frequency.value = 600;
       
       osc.type = 'sine';
-      osc.frequency.setValueAtTime(587.33, t); // D5
-      osc.frequency.exponentialRampToValueAtTime(880, t + 0.08); // to A5
+      osc.frequency.setValueAtTime(400, t);
+      osc.frequency.exponentialRampToValueAtTime(300, t + 0.08);
       
-      gain.gain.setValueAtTime(0, t);
-      gain.gain.linearRampToValueAtTime(0.06, t + 0.02);
-      gain.gain.exponentialRampToValueAtTime(0.001, t + 0.2);
+      gain.gain.setValueAtTime(0.2, t);
+      gain.gain.exponentialRampToValueAtTime(0.001, t + 0.1);
       
       osc.connect(filter);
       filter.connect(gain);
       gain.connect(ctx.destination);
       osc.start(t);
-      osc.stop(t + 0.25);
+      osc.stop(t + 0.12);
+    };
+    
+    // New question sound - Subtle high "tick"
+    SFX.newQuestion = () => {
+      const t = ctx.currentTime;
+      
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(1800, t);
+      
+      gain.gain.setValueAtTime(0.08, t);
+      gain.gain.exponentialRampToValueAtTime(0.001, t + 0.05);
+      
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start(t);
+      osc.stop(t + 0.06);
     };
   } catch (e) {
     console.log('Sound effects not available');
