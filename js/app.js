@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.20.4';
+const APP_VERSION = '18.20.5';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FORCE UPDATE SYSTEM ==========

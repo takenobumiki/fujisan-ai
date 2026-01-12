@@ -5,7 +5,7 @@ if (typeof window.MOCK_DATA === 'undefined') {
   window.MOCK_DATA = {};
 }
 
-MOCK_DATA['N5'] = {
+window.MOCK_DATA['N5'] = {
   "info": {
     "level": "N5",
     "totalSets": 20,
@@ -21515,12 +21515,12 @@ MOCK_DATA['N5'] = {
 };
 
 // Helper methods
-MOCK_DATA['N5'].getRandomSet = function() {
+window.MOCK_DATA['N5'].getRandomSet = function() {
   const sets = Object.keys(this.sets);
   return sets[Math.floor(Math.random() * sets.length)];
 };
 
-MOCK_DATA['N5'].getBySection = function(setNum, section) {
+window.MOCK_DATA['N5'].getBySection = function(setNum, section) {
   if (!this.sets[setNum]) return [];
   
   // Map section names to type patterns

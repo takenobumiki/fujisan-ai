@@ -5,7 +5,7 @@ if (typeof window.MOCK_DATA === 'undefined') {
   window.MOCK_DATA = {};
 }
 
-MOCK_DATA['N3'] = {
+window.MOCK_DATA['N3'] = {
   "info": {
     "level": "N3",
     "totalSets": 20,
@@ -25717,12 +25717,12 @@ MOCK_DATA['N3'] = {
 };
 
 // Helper methods
-MOCK_DATA['N3'].getRandomSet = function() {
+window.MOCK_DATA['N3'].getRandomSet = function() {
   const sets = Object.keys(this.sets);
   return sets[Math.floor(Math.random() * sets.length)];
 };
 
-MOCK_DATA['N3'].getBySection = function(setNum, section) {
+window.MOCK_DATA['N3'].getBySection = function(setNum, section) {
   if (!this.sets[setNum]) return [];
   
   const typePatterns = {"言語知識（文字・語彙）": ["漢字読み", "表記", "文脈規定", "言い換え", "用法"], "言語知識（文法）・読解": ["文法形式", "文の組み立て", "文章の文法", "読解（短文）", "読解（中文）", "読解（長文）", "情報検索"], "聴解": ["聴解（課題理解）", "聴解（ポイント理解）", "聴解（発話表現）", "聴解（即時応答）", "聴解（概要理解）"]};
