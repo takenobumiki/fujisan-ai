@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.17.17';
+const APP_VERSION = '18.17.18';
 const STORAGE_KEY = 'fujisan_v1817';
 
 // ========== UI TRANSLATIONS ==========
@@ -4201,10 +4201,15 @@ function showLearningQuestion() {
       
   } else if (skill === 'writing') {
     promptEl.textContent = getText('quiz_select_kanji') || 'Select the correct kanji/word';
-    wordEl.textContent = item.r || item.p || item.w;
-    readingEl.textContent = item.m[state.lang] || item.m.en;
-    audioBtn.style.display = 'block';
-    currentWord = item.r || item.p || item.w;
+    const displayWord = item.r || item.p || item.w;
+    const displayMeaning = item.m[state.lang] || item.m.en;
+    wordEl.textContent = displayWord;
+    readingEl.textContent = displayMeaning;
+    
+    // Only show audio button if displaying Japanese text (not just meaning)
+    const isJapanese = /[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FAF]/.test(displayWord);
+    audioBtn.style.display = isJapanese ? 'block' : 'none';
+    currentWord = displayWord;
     
     correct = item.k || item.w || item.p;
     options = [correct];
