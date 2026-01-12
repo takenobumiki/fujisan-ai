@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.20.30';
+const APP_VERSION = '18.20.31';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FURIGANA SYSTEM ==========
@@ -4621,16 +4621,16 @@ function showLearningQuestion() {
   const maxAttempts = 50; // Prevent infinite loop
   while (options.length < 4 && attempts < maxAttempts) {
     attempts++;
-    const extra = pool[Math.floor(Math.random() * pool.length)];
+    const extra = sameTypePool[Math.floor(Math.random() * sameTypePool.length)];
     if (extra) {
       let opt;
       if (skill === 'listening' || skill === 'writing') opt = extra.k || extra.w || extra.p;
       else if (skill === 'reading') opt = extra.r || extra.p || extra.w;
       else if (skill === 'meaning') {
-        // Prefer proper translation, but fall back to English if needed
-        if (hasProperTrans(extra)) {
+        // For meaning skill, only use items with proper meaning data
+        if (extra.m && hasProperTrans(extra)) {
           opt = extra.m[state.lang] || extra.m.en;
-        } else if (attempts > 30) {
+        } else if (extra.m && attempts > 30) {
           // After many attempts, use English as fallback
           opt = extra.m.en;
         }
@@ -4641,7 +4641,7 @@ function showLearningQuestion() {
   
   // Final fallback: fill with English if still not enough
   if (options.length < 4 && skill === 'meaning') {
-    const englishOptions = pool
+    const englishOptions = sameTypePool
       .filter(i => i.m && i.m.en && !options.includes(i.m.en))
       .map(i => i.m.en)
       .sort(() => Math.random() - 0.5);
