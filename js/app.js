@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.20.52';
+const APP_VERSION = '18.20.53';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FURIGANA SYSTEM ==========
@@ -4560,7 +4560,7 @@ function showLearningQuestion() {
         .slice(0, 3)
         .forEach(i => options.push(i.m[state.lang] || i.m.en));
     } else {
-      // For kanji/vocab: listen to reading, select word/kanji
+      // For kanji/vocab: listen to reading, select reading (all hiragana for consistency)
       // For kanji, randomly select one reading (訓読み or 音読み)
       let selectedReading = '';
       if (item.k && item.r) {
@@ -4568,40 +4568,34 @@ function showLearningQuestion() {
       }
       
       // For TTS, use selected reading (as hiragana)
-      currentWord = getReadingForTTS(selectedReading) || item.w || item.k;
+      currentWord = getReadingForTTS(selectedReading) || item.r || item.w || item.k;
       session.currentItem = item;
       setTimeout(() => playAudio(), 300);
       
-      // For kanji, show with okurigana based on selected reading
-      if (item.k) {
-        correct = formatKanjiWithOkurigana(item.k, selectedReading);
-      } else {
-        correct = item.w;
-      }
+      // Always use hiragana reading for listening options (consistent display)
+      correct = getReadingForTTS(selectedReading) || item.r || item.w;
       options = [correct];
       
       // Get correct item's reading for comparison (without okurigana markers)
-      const correctReading = getReadingForTTS(selectedReading) || '';
+      const correctReading = getReadingForTTS(selectedReading) || item.r || '';
       
       // Filter out items with same reading (to avoid multiple correct answers)
       sameTypePool.filter(i => {
         if (i.id === item.id) return false;
-        if (!(i.k || i.w)) return false;
+        if (!(i.r || i.w)) return false;
         // Exclude items with any reading that matches correct answer
         const iReadings = getAllReadings(i.r).map(r => getReadingForTTS(r));
         if (correctReading && iReadings.includes(correctReading)) return false;
+        // Also exclude if w matches (for hiragana-only words)
+        if (i.w === correctReading) return false;
         return true;
       })
         .sort(() => Math.random() - 0.5)
         .slice(0, 3)
         .forEach(i => {
-          if (i.k) {
-            // For distractors, also randomly select a reading
-            const distReading = getRandomReading(i.r);
-            options.push(formatKanjiWithOkurigana(i.k, distReading));
-          } else {
-            options.push(i.w);
-          }
+          // Always use hiragana reading for distractors
+          const distReading = getRandomReading(i.r);
+          options.push(getReadingForTTS(distReading) || i.r || i.w);
         });
     }
       
