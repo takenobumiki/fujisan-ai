@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.17.23';
+const APP_VERSION = '18.17.24';
 const STORAGE_KEY = 'fujisan_v1817';
 
 // ========== UI TRANSLATIONS ==========
@@ -32,7 +32,7 @@ const UI_TEXTS = {
     onboarding_ready_desc: 'Start with Unit 1 and let AI guide your journey to JLPT success.',
     onboarding_tip: 'Pro Tip:', onboarding_skip: 'Skip', onboarding_next: 'Next',
     // Quiz/Drill
-    quiz_prompt: 'What does this mean?', quiz_correct: 'Correct', quiz_wrong: 'Wrong', quiz_time: 'Time',
+    quiz_prompt: 'What does this mean?', quiz_correct: 'Correct', quiz_wrong: 'Wrong', quiz_time: 'Time', correct_answer: 'Correct answer',
     quiz_review_title: 'Review Your Mistakes', quiz_review_btn: 'Review Mistakes',
     quiz_try_again: 'Try Again', quiz_home: 'Home', quiz_continue: 'Continue', quiz_next_unit: 'Next Unit →', quiz_next: 'Next →',
     quiz_listen_select: 'Listen and select the correct word',
@@ -385,7 +385,7 @@ const UI_TEXTS = {
     onboarding_ready: '準備就緒！',
     onboarding_ready_desc: '從第1單元開始，讓AI引導您邁向JLPT成功。',
     onboarding_tip: '小提示：', onboarding_skip: '跳過', onboarding_next: '下一步',
-    quiz_prompt: '這是什麼意思？', quiz_correct: '正確', quiz_wrong: '錯誤', quiz_time: '時間',
+    quiz_prompt: '這是什麼意思？', quiz_correct: '正確', quiz_wrong: '錯誤', quiz_time: '時間', correct_answer: '正確答案',
     quiz_review_title: '複習錯誤', quiz_review_btn: '複習錯誤',
     quiz_try_again: '再試一次', quiz_home: '首頁', quiz_continue: '繼續', quiz_next_unit: '下一單元 →', quiz_next: '下一題 →',
     quiz_listen_select: '聽並選擇正確的單字',
@@ -623,7 +623,7 @@ const UI_TEXTS = {
     onboarding_ready: '准备就绪！',
     onboarding_ready_desc: '从第1单元开始，让AI引导您迈向JLPT成功。',
     onboarding_tip: '小提示：', onboarding_skip: '跳过', onboarding_next: '下一步',
-    quiz_prompt: '这是什么意思？', quiz_correct: '正确', quiz_wrong: '错误', quiz_time: '时间',
+    quiz_prompt: '这是什么意思？', quiz_correct: '正确', quiz_wrong: '错误', quiz_time: '时间', correct_answer: '正确答案',
     quiz_review_title: '复习错误', quiz_review_btn: '复习错误',
     quiz_try_again: '再试一次', quiz_home: '首页', quiz_continue: '继续', quiz_next_unit: '下一单元 →', quiz_next: '下一题 →',
     quiz_listen_select: '听并选择正确的单词',
@@ -861,7 +861,7 @@ const UI_TEXTS = {
     onboarding_ready: '준비 완료!',
     onboarding_ready_desc: '1단원부터 시작하고 AI가 JLPT 성공으로 안내해 드립니다.',
     onboarding_tip: '팁:', onboarding_skip: '건너뛰기', onboarding_next: '다음',
-    quiz_prompt: '이것은 무슨 뜻인가요?', quiz_correct: '정답', quiz_wrong: '오답', quiz_time: '시간',
+    quiz_prompt: '이것은 무슨 뜻인가요?', quiz_correct: '정답', quiz_wrong: '오답', quiz_time: '시간', correct_answer: '정답',
     quiz_review_title: '오답 복습', quiz_review_btn: '오답 복습',
     quiz_try_again: '다시 시도', quiz_home: '홈', quiz_continue: '계속', quiz_next_unit: '다음 단원 →', quiz_next: '다음 →',
     quiz_listen_select: '듣고 올바른 단어를 선택하세요',
@@ -1099,7 +1099,7 @@ const UI_TEXTS = {
     onboarding_ready: 'Bạn đã sẵn sàng!',
     onboarding_ready_desc: 'Bắt đầu với Bài 1 và để AI hướng dẫn bạn đến thành công JLPT.',
     onboarding_tip: 'Mẹo:', onboarding_skip: 'Bỏ qua', onboarding_next: 'Tiếp',
-    quiz_prompt: 'Điều này có nghĩa là gì?', quiz_correct: 'Đúng', quiz_wrong: 'Sai', quiz_time: 'Thời gian',
+    quiz_prompt: 'Điều này có nghĩa là gì?', quiz_correct: 'Đúng', quiz_wrong: 'Sai', quiz_time: 'Thời gian', correct_answer: 'Đáp án đúng',
     quiz_review_title: 'Xem lại lỗi sai', quiz_review_btn: 'Xem lại lỗi',
     quiz_try_again: 'Thử lại', quiz_home: 'Trang chủ', quiz_continue: 'Tiếp tục', quiz_next_unit: 'Bài tiếp theo →', quiz_next: 'Tiếp →',
     quiz_listen_select: 'Nghe và chọn từ đúng',
@@ -1320,7 +1320,7 @@ const UI_TEXTS = {
     onboarding_ready: 'Anda siap!',
     onboarding_ready_desc: 'Mulai dari Unit 1 dan biarkan AI membimbing Anda menuju sukses JLPT.',
     onboarding_tip: 'Tips:', onboarding_skip: 'Lewati', onboarding_next: 'Lanjut',
-    quiz_prompt: 'Apa artinya ini?', quiz_correct: 'Benar', quiz_wrong: 'Salah', quiz_time: 'Waktu',
+    quiz_prompt: 'Apa artinya ini?', quiz_correct: 'Benar', quiz_wrong: 'Salah', quiz_time: 'Waktu', correct_answer: 'Jawaban benar',
     quiz_review_title: 'Review Kesalahan', quiz_review_btn: 'Review Kesalahan',
     quiz_try_again: 'Coba lagi', quiz_home: 'Beranda', quiz_continue: 'Lanjut', quiz_next_unit: 'Unit Selanjutnya →', quiz_next: 'Lanjut →',
     quiz_listen_select: 'Dengarkan dan pilih kata yang benar',
@@ -1531,7 +1531,7 @@ const UI_TEXTS = {
     onboarding_ai_note: 'Funciones IA incluidas en todos los planes',
     onboarding_ready: '¡Estás listo!', onboarding_ready_desc: 'Comienza con la Unidad 1.',
     onboarding_tip: 'Consejo:', onboarding_skip: 'Saltar', onboarding_next: 'Siguiente',
-    quiz_prompt: '¿Qué significa esto?', quiz_correct: 'Correcto', quiz_wrong: 'Incorrecto', quiz_time: 'Tiempo',
+    quiz_prompt: '¿Qué significa esto?', quiz_correct: 'Correcto', quiz_wrong: 'Incorrecto', quiz_time: 'Tiempo', correct_answer: 'Respuesta correcta',
     quiz_review_title: 'Revisa tus Errores', quiz_review_btn: 'Revisar Errores',
     quiz_try_again: 'Intentar de Nuevo', quiz_home: 'Inicio', quiz_continue: 'Continuar', quiz_next_unit: 'Siguiente Unidad →', quiz_next: 'Siguiente →',
     quiz_listen_select: 'Escucha y selecciona la palabra correcta', quiz_tap_play: 'Toca reproducir',
@@ -1682,7 +1682,7 @@ const UI_TEXTS = {
     onboarding_ai_note: 'Recursos IA incluídos em todos os planos',
     onboarding_ready: 'Você está pronto!', onboarding_ready_desc: 'Comece com a Unidade 1.',
     onboarding_tip: 'Dica:', onboarding_skip: 'Pular', onboarding_next: 'Próximo',
-    quiz_prompt: 'O que significa?', quiz_correct: 'Correto', quiz_wrong: 'Incorreto', quiz_time: 'Tempo',
+    quiz_prompt: 'O que significa?', quiz_correct: 'Correto', quiz_wrong: 'Incorreto', quiz_time: 'Tempo', correct_answer: 'Resposta correta',
     quiz_review_title: 'Revise seus Erros', quiz_review_btn: 'Revisar Erros',
     quiz_try_again: 'Tentar Novamente', quiz_home: 'Início', quiz_continue: 'Continuar', quiz_next_unit: 'Próxima Unidade →', quiz_next: 'Próximo →',
     quiz_listen_select: 'Ouça e selecione a palavra correta', quiz_tap_play: 'Toque para ouvir',
@@ -4364,16 +4364,22 @@ function showFeedbackArea(item, skill, userAnswer, correctAnswer, isCorrect) {
   const followupInput = document.getElementById('followup-input');
   const followupResponse = document.getElementById('followup-response');
   
+  // Get translations
+  const texts = UI_TEXTS[state.lang] || UI_TEXTS['en'];
+  const correctText = texts.quiz_correct || 'Correct';
+  const incorrectText = texts.quiz_wrong || 'Wrong';
+  const correctAnswerLabel = texts.correct_answer || 'Correct answer';
+  
   // Reset
   feedbackResult.className = 'feedback-result ' + (isCorrect ? 'correct' : 'incorrect');
-  feedbackText.textContent = isCorrect ? '正解！' : '不正解';
+  feedbackText.textContent = isCorrect ? `✓ ${correctText}！` : `✗ ${incorrectText}`;
   followupResponse.style.display = 'none';
   followupResponse.innerHTML = '';
   if (followupInput) followupInput.value = '';
   
   // Show correct answer for wrong answers
   if (!isCorrect) {
-    feedbackAnswer.textContent = `正解: ${correctAnswer}`;
+    feedbackAnswer.textContent = `${correctAnswerLabel}: ${correctAnswer}`;
     feedbackAnswer.style.display = 'block';
     
     // Show AI section and auto-load explanation
