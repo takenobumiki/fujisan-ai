@@ -16,7 +16,7 @@ window.MOCK_DATA['N4'] = {
   "sets": {
     "1": [
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "日本<ruby>語<rt>ご</rt></ruby>が　話せる（　）なりました。",
         "question": "（　）に　はいるのは？",
         "options": ["まま",
@@ -27,7 +27,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-034"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "健<ruby>康<rt>こう</rt></ruby>の（　）毎日　<ruby>運動<rt>うんどう</rt></ruby>しています。",
         "question": "（　）に　はいるのは？",
         "options": ["ために",
@@ -38,7 +38,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-038"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>早<rt>そう</rt></ruby>く　<ruby>寝る<rt>ねる</rt></ruby>（　）しています。",
         "question": "（　）に　はいるのは？",
         "options": ["ため",
@@ -49,7 +49,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-036"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>試験<rt>しけん</rt></ruby>に　<ruby>受かる<rt>うかる</rt></ruby>（　）<ruby>頑<rt>がん</rt></ruby><ruby>張<rt>ちょう</rt></ruby>っています。",
         "question": "（　）に　はいるのは？",
         "options": ["のに",
@@ -60,7 +60,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-039"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>漢<rt>かん</rt></ruby>字が　読める（　）なりたいです。",
         "question": "（　）に　はいるのは？",
         "options": ["ように",
@@ -71,7 +71,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-035"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>旅行<rt>りょこう</rt></ruby>の（　）お金を　貯めています。",
         "question": "（　）に　はいるのは？",
         "options": ["ことに",
@@ -82,7 +82,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-040"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>忘<rt>ぼう</rt></ruby>れない（　）メモします。",
         "question": "（　）に　はいるのは？",
         "options": ["から",
@@ -93,7 +93,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-037"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>家<rt>いえ</rt></ruby><ruby>族<rt>ぞく</rt></ruby>の（　）<ruby>働<rt>どう</rt></ruby>いています。",
         "question": "（　）に　はいるのは？",
         "options": ["ように",
@@ -104,7 +104,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-041"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>仕事<rt>しごと</rt></ruby>を　休む（　）にしました。",
         "question": "（　）に　はいるのは？",
         "options": ["の",
@@ -126,7 +126,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-047"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>新しい<rt>あたらしい</rt></ruby>　<ruby>仕事<rt>しごと</rt></ruby>を　<ruby>始める<rt>はじめる</rt></ruby>（　）にしました。",
         "question": "（　）に　はいるのは？",
         "options": ["よう",
@@ -148,7 +148,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-048"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "タバコを　やめる（　）にしました。",
         "question": "（　）に　はいるのは？",
         "options": ["ため",
@@ -170,7 +170,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-049"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "毎日　<ruby>運動<rt>うんどう</rt></ruby>する（　）にしています。",
         "question": "（　）に　はいるのは？",
         "options": ["ため",
@@ -192,7 +192,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-050"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "日本に　行く（　）にしました。",
         "question": "（　）に　はいるのは？",
         "options": ["こと",
@@ -214,7 +214,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-051"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "日本<ruby>経済<rt>けいざい</rt></ruby>は<ruby>長期<rt>ちょうき</rt></ruby>にわたる<ruby>停滞<rt>ていたい</rt></ruby>（　）、<ruby>回<rt>まわ</rt></ruby>復の<ruby>兆<rt>ちょう</rt></ruby>しを見せている。（101）",
         "question": "（　）に入るのは？",
         "options": ["をもって",
@@ -225,7 +225,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-052"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>彼<rt>かれ</rt></ruby>の提<ruby>案<rt>あん</rt></ruby>は<ruby>斬新<rt>ざんしん</rt></ruby>（　）、実<ruby>現<rt>あらわ</rt></ruby><ruby>可能性<rt>かのうせい</rt></ruby>に<ruby>欠ける<rt>かける</rt></ruby>。（102）",
         "question": "（　）に入るのは？",
         "options": ["だとしても",
@@ -236,7 +236,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-053"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>環境問題<rt>かんきょうもんだい</rt></ruby>の<ruby>解決<rt>かいけつ</rt></ruby>（　）、<ruby>国際協力<rt>こくさいきょうりょく</rt></ruby>が<ruby>不可欠<rt>ふかけつ</rt></ruby>だ。（103）",
         "question": "（　）に入るのは？",
         "options": ["にとって",
@@ -247,7 +247,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-054"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "この<ruby>研究<rt>けんきゅう</rt></ruby>は長年の努力（　）<ruby>結<rt>むす</rt></ruby>実したものだ。（104）",
         "question": "（　）に入るのは？",
         "options": ["が",
@@ -258,7 +258,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-055"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "社会の<ruby>変化<rt>へんか</rt></ruby>（　）、<ruby>教育<rt>きょういく</rt></ruby>も<ruby>見直し<rt>みなおし</rt></ruby>が必要だ。（105）",
         "question": "（　）に入るのは？",
         "options": ["に<ruby>対して<rt>たいして</rt></ruby>",
@@ -269,7 +269,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-056"
       },
       {
-        "type": "読解（短文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
         "text": "このレストランは<ruby>人気<rt>にんき</rt></ruby>があります。<ruby>予約<rt>よやく</rt></ruby>しないと<ruby>入<rt>はい</rt></ruby>れないことがあります。",
         "question": "このレストランについて正しいのはどれですか。",
         "options": ["<ruby>予約<rt>よやく</rt></ruby>が必要なことがある",
@@ -280,7 +280,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-057"
       },
       {
-        "type": "読解（短文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
         "text": "<ruby>山田<rt>やまだ</rt></ruby>さんはかぜをひいて、きょうは<ruby>会社<rt>かいしゃ</rt></ruby>を休みました。",
         "question": "<ruby>山田<rt>やまだ</rt></ruby>さんはどうしましたか。",
         "options": ["<ruby>元気<rt>げんき</rt></ruby>になった",
@@ -291,8 +291,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-058"
       },
       {
-        "type": "読解（短文）",
-        "text": "この<ruby>店<rt>みせ</rt></ruby>は朝7時から夜10時まで開いています。日曜日は休みです。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "この<ruby>店<rt>みせ</rt></ruby>は<ruby>朝<rt>あさ</rt></ruby>7時から<ruby>夜<rt>よる</rt></ruby>10時まで<ruby>開<rt>あ</rt></ruby>いています。日曜日は休みです。",
         "question": "この<ruby>店<rt>みせ</rt></ruby>はいつ休みですか。",
         "options": ["日曜日",
           "毎日<ruby>開<rt>あ</rt></ruby>いている",
@@ -302,8 +302,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-059"
       },
       {
-        "type": "読解（短文）",
-        "text": "<ruby>電車<rt>でんしゃ</rt></ruby>が遅れたので、<ruby>会議<rt>かいぎ</rt></ruby>に間に合いませんでした。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>遅<rt>ち</rt></ruby>れたので、<ruby>会議<rt>かいぎ</rt></ruby>に間に<ruby>合<rt>あ</rt></ruby>いませんでした。",
         "question": "どうして<ruby>会議<rt>かいぎ</rt></ruby>に<ruby>遅れ<rt>おくれ</rt></ruby>ましたか。",
         "options": ["<ruby>忘<rt>ぼう</rt></ruby>れた",
           "<ruby>寝<rt>しん</rt></ruby><ruby>坊<rt>ぼう</rt></ruby>した",
@@ -313,7 +313,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-060"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "わたしは来月から<ruby>新しい<rt>あたらしい</rt></ruby>会社で<ruby>働き<rt>はたらき</rt></ruby>ます。今の会社は3年間<ruby>働き<rt>はたらき</rt></ruby>ましたが、もっと<ruby>成長<rt>せいちょう</rt></ruby>したいと<ruby>思い<rt>おもい</rt></ruby>ました。<ruby>新しい<rt>あたらしい</rt></ruby>会社は<ruby>給<rt>きゅう</rt></ruby>料が<ruby>少し<rt>すこし</rt></ruby>下がりますが、やりがいがありそうです。",
         "question": "どうして<ruby>転職<rt>てんしょく</rt></ruby>しましたか。",
         "options": ["<ruby>成長<rt>せいちょう</rt></ruby>したかった",
@@ -324,7 +324,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-061"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "わたしの会社では、<ruby>在<rt>ざい</rt></ruby>宅<ruby>勤務<rt>きんむ</rt></ruby>ができるようになりました。週に2日は<ruby>家<rt>いえ</rt></ruby>で<ruby>仕事<rt>しごと</rt></ruby>ができます。<ruby>通勤<rt>つうきん</rt></ruby>時間がなくなって、とても楽になりました。",
         "question": "<ruby>在<rt>ざい</rt></ruby>宅<ruby>勤務<rt>きんむ</rt></ruby>のいいところは何ですか。",
         "options": ["<ruby>給<rt>きゅう</rt></ruby>料が上がる",
@@ -335,7 +335,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-062"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "日本で<ruby>働き<rt>はたらき</rt></ruby><ruby>始<rt>はじまる</rt></ruby>めて半年になります。<ruby>最初<rt>さいしょ</rt></ruby>は<ruby>敬語<rt>けいご</rt></ruby>が<ruby>難<rt>なん</rt></ruby>しくて、よく間<ruby>違<rt>ちが</rt></ruby>えました。でも、<ruby>上司<rt>じょうし</rt></ruby>が<ruby>優<rt>ゆう</rt></ruby>しく教えてくれて、だんだん<ruby>使<rt>つか</rt></ruby>えるようになりました。",
         "question": "<ruby>敬語<rt>けいご</rt></ruby>についてどう<ruby>思<rt>おも</rt></ruby>っていますか。",
         "options": ["<ruby>自信<rt>じしん</rt></ruby>がついてきた",
@@ -346,7 +346,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-063"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "来月、<ruby>昇進<rt>しょうしん</rt></ruby>することになりました。<ruby>責<rt>せき</rt></ruby>任が<ruby>重<rt>おも</rt></ruby>くなりますが、やりがいも<ruby>増える<rt>ふえる</rt></ruby>と<ruby>思い<rt>おもい</rt></ruby>ます。<ruby>新しい<rt>あたらしい</rt></ruby><ruby>部下<rt>ぶか</rt></ruby>ができるので、しっかり教えられるようになりたいです。",
         "question": "来月どうなりますか。",
         "options": ["<ruby>休職<rt>きゅうしょく</rt></ruby>する",
@@ -357,7 +357,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-064"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【<ruby>図書館<rt>としょかん</rt></ruby>】平日9:00-20:00、土日10:00-17:00　<ruby>貸<rt>か</rt></ruby>出5冊2週間　月曜・祝日休<ruby>館<rt>かん</rt></ruby>",
         "question": "土曜は何時まで？",
         "options": ["18:00",
@@ -368,7 +368,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-065"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【ジム】入会金10,000円　月<ruby>額<rt>ひたい</rt></ruby>8,000円　<ruby>営業<rt>えいぎょう</rt></ruby>6:00-23:00",
         "question": "月<ruby>額<rt>ひたい</rt></ruby>は？",
         "options": ["12,000円",
@@ -379,7 +379,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-066"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>上司<rt>じょうし</rt></ruby>と<ruby>部下<rt>ぶか</rt></ruby>がオフィスで<ruby>打ち合わせ<rt>うちあわせ</rt></ruby>中（1）",
         "question": "何をしますか。",
         "options": ["🗓️",
@@ -391,7 +391,7 @@ window.MOCK_DATA['N4'] = {
         "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>受<rt>じゅ</rt></ruby>付と<ruby>来客<rt>らいきゃく</rt></ruby>がロビーで<ruby>対応<rt>たいおう</rt></ruby>中（2）",
         "question": "何をしますか。",
         "options": ["🍵",
@@ -403,7 +403,7 @@ window.MOCK_DATA['N4'] = {
         "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>医師<rt>いし</rt></ruby>と<ruby>患者<rt>かんじゃ</rt></ruby>が<ruby>病院<rt>びょういん</rt></ruby>で<ruby>診<rt>みる</rt></ruby>察中（3）",
         "question": "何をしますか。",
         "options": ["🔬",
@@ -415,7 +415,7 @@ window.MOCK_DATA['N4'] = {
         "script": "おとこ：つぎは　なにを　しますか。\nおんな：けんきゅうを　して　ください。\nおとこ：わかりました。"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>教師<rt>きょうし</rt></ruby>と保<ruby>護<rt>まも</rt></ruby><ruby>者<rt>もの</rt></ruby>が学校で面談中（4）",
         "question": "何をしますか。",
         "options": ["📄",
@@ -427,7 +427,7 @@ window.MOCK_DATA['N4'] = {
         "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>店<rt>みせ</rt></ruby>長とスタッフが<ruby>店舗<rt>てんぽ</rt></ruby>で<ruby>相<rt>そう</rt></ruby>談中（5）",
         "question": "何をしますか。",
         "options": ["📌",
@@ -439,7 +439,7 @@ window.MOCK_DATA['N4'] = {
         "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>上司<rt>じょうし</rt></ruby>と<ruby>部下<rt>ぶか</rt></ruby>がオフィスで<ruby>打ち合わせ<rt>うちあわせ</rt></ruby>中（6）",
         "question": "何をしますか。",
         "options": ["📞",
@@ -451,7 +451,7 @@ window.MOCK_DATA['N4'] = {
         "script": "おとこ：つぎは　なにを　しますか。\nおんな：スケジュールを　して　ください。\nおとこ：わかりました。"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>受<rt>じゅ</rt></ruby>付と<ruby>来客<rt>らいきゃく</rt></ruby>がロビーで<ruby>対応<rt>たいおう</rt></ruby>中（7）",
         "question": "何をしますか。",
         "options": ["📢",
@@ -463,7 +463,7 @@ window.MOCK_DATA['N4'] = {
         "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>医師<rt>いし</rt></ruby>と<ruby>患者<rt>かんじゃ</rt></ruby>が<ruby>病院<rt>びょういん</rt></ruby>で<ruby>診<rt>みる</rt></ruby>察中（8）",
         "question": "何をしますか。",
         "options": ["✉️",
@@ -475,7 +475,7 @@ window.MOCK_DATA['N4'] = {
         "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>講<rt>こう</rt></ruby><ruby>演<rt>えん</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（101）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -487,7 +487,7 @@ window.MOCK_DATA['N4'] = {
         "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "友達を<ruby>ご飯<rt>ごはん</rt></ruby>に<ruby>誘<rt>さそ</rt></ruby>いたい（1）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["🍽️",
@@ -499,7 +499,7 @@ window.MOCK_DATA['N4'] = {
         "script": "🍽について　はなします。"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "インタビューを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（103）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -508,10 +508,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-01-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット1問44】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット1<ruby>問<rt>と</rt></ruby>44】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "どこに出せばいいですか。（145）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -522,7 +522,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-087"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（105）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -531,10 +531,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-01-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット1問46】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット1<ruby>問<rt>と</rt></ruby>46】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "お名前は。（146）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["田中です",
@@ -545,7 +545,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-088"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>授業<rt>じゅぎょう</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（107）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -554,10 +554,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-01-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット1問48】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット1<ruby>問<rt>と</rt></ruby>48】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "どのくらいかかりますか。（147）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -568,7 +568,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-089"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>店員<rt>てんいん</rt></ruby>に<ruby>値段<rt>ねだん</rt></ruby>を聞きたい（2）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -580,7 +580,7 @@ window.MOCK_DATA['N4'] = {
         "script": "ピンについて　はなします。"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "<ruby>使<rt>つか</rt></ruby>ってもいいですか。（148）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["どうぞ",
@@ -591,8 +591,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-090"
       },
       {
-        "type": "聴解（発話表現）",
-        "text": "同<ruby>僚<rt>りょう</rt></ruby>にお礼を<ruby>言<rt>い</rt></ruby>いたい（4）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
+        "text": "同<ruby>僚<rt>りょう</rt></ruby>にお<ruby>礼<rt>れい</rt></ruby>を<ruby>言<rt>い</rt></ruby>いたい（4）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
           "📌",
@@ -600,10 +600,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-01-085",
-        "script": "ピンについて　はなします。【セット1問52】"
+        "script": "ピンについて　はなします。【セット1<ruby>問<rt>と</rt></ruby>52】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "もう一<ruby>杯<rt>さかずき</rt></ruby>いかがですか。（149）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -614,7 +614,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-091"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>説明<rt>せつめい</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（104）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -623,10 +623,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-01-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット1問54】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット1<ruby>問<rt>と</rt></ruby>54】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "楽しかったですね。（150）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["本当ですね",
@@ -637,7 +637,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-092"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "ニュースを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（102）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -646,10 +646,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-01-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット1問56】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット1<ruby>問<rt>と</rt></ruby>56】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "郵<ruby>便<rt>べん</rt></ruby><ruby>局<rt>きょく</rt></ruby>はどこですか。（151）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -660,7 +660,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-093"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "友達に<ruby>断<rt>だん</rt></ruby>りたい（5）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -669,10 +669,10 @@ window.MOCK_DATA['N4'] = {
           "📅"],
         "answer": 2,
         "id": "N4-01-086",
-        "script": "ピンについて　はなします。【セット1問58】"
+        "script": "ピンについて　はなします。【セット1<ruby>問<rt>と</rt></ruby>58】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "お時間よろしいですか。（152）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["大<ruby>丈<rt>たけ</rt></ruby>夫です",
@@ -683,7 +683,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-094"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "先生に<ruby>質問<rt>しつもん</rt></ruby>したい（3）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -692,10 +692,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-01-084",
-        "script": "ピンについて　はなします。【セット1問60】"
+        "script": "ピンについて　はなします。【セット1<ruby>問<rt>と</rt></ruby>60】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "<ruby>傘<rt>かさ</rt></ruby>はお<ruby>持<rt>もつ</rt></ruby>ちですか。（153）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -706,7 +706,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-01-095"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "プレゼンを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（106）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -715,10 +715,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-01-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット1問62】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット1<ruby>問<rt>と</rt></ruby>62】"
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>せいりつ</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>安定<rt>あんてい</rt></ruby>",
@@ -728,7 +728,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>わる</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["真面目",
@@ -738,7 +738,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>ぜいぬき</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>価値観<rt>かちかん</rt></ruby>",
@@ -748,7 +748,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>げんじつ</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["尊<ruby>敬<rt>うやま</rt></ruby>",
@@ -758,7 +758,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>くらい</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>暗い<rt>くらい</rt></ruby>",
@@ -768,7 +768,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>とどける</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>訂正<rt>ていせい</rt></ruby>",
@@ -778,8 +778,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "友達に<ruby>荷物<rt>にもつ</rt></ruby>を<u>届ける</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "友達に<ruby>荷物<rt>にもつ</rt></ruby>を<u><ruby>届<rt>とど</rt></ruby>ける</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["そだ",
           "とどける",
@@ -788,8 +788,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>悪化</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>悪<rt>わる</rt></ruby><ruby>化<rt>か</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["や",
           "いん",
@@ -798,8 +798,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>安心する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>安<rt>やす</rt></ruby><ruby>心<rt>こころ</rt></ruby>する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["いん",
           "あんしんする",
@@ -808,8 +808,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>暗証番号</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>暗<rt>くら</rt></ruby><ruby>証<rt>しょう</rt></ruby><ruby>番<rt>ばん</rt></ruby><ruby>号<rt>ごう</rt></ruby></u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["かつ",
           "はこ",
@@ -818,8 +818,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>以</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>以<rt>い</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["えい",
           "い",
@@ -828,8 +828,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>注意する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>注<rt>そそ</rt></ruby><ruby>意<rt>い</rt></ruby>する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["ちゅういする",
           "うつ",
@@ -838,8 +838,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>医</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>医<rt>い</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["その",
           "い",
@@ -848,8 +848,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "花を<u>育てる</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "花を<u><ruby>育<rt>そだ</rt></ruby>てる</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["そだてる",
           "とお",
@@ -858,8 +858,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>社員</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u>社<ruby>員<rt>いん</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["や",
           "しゃいん",
@@ -868,7 +868,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "友達に<ruby>荷物<rt>にもつ</rt></ruby>を（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>届ける<rt>とどける</rt></ruby>",
@@ -878,7 +878,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>手紙<rt>てがみ</rt></ruby>が（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>固める<rt>かためる</rt></ruby>",
@@ -888,7 +888,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）を出す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>抜ける<rt>ぬける</rt></ruby>",
@@ -898,7 +898,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）を提出する",
         "question": "（　）に入るのは？",
         "options": ["<ruby>一括払い<rt>いっかつばらい</rt></ruby>",
@@ -908,7 +908,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）を<ruby>確認<rt>かくにん</rt></ruby>する",
         "question": "（　）に入るのは？",
         "options": ["<ruby>影響<rt>えいきょう</rt></ruby>",
@@ -918,7 +918,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>切手<rt>きって</rt></ruby>を（　）のが<ruby>趣味<rt>しゅみ</rt></ruby>だ",
         "question": "（　）に入るのは？",
         "options": ["<ruby>集める<rt>あつめる</rt></ruby>",
@@ -928,7 +928,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "駅前に人が（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>案内<rt>あんない</rt></ruby>",
@@ -938,7 +938,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>工事<rt>こうじ</rt></ruby>が順調に（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>維持<rt>いじ</rt></ruby>",
@@ -948,7 +948,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>計画<rt>けいかく</rt></ruby>を（　）",
         "question": "（　）に入るのは？",
         "options": ["羨ましい",
@@ -958,7 +958,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>旅行<rt>りょこう</rt></ruby>の日程を（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>決める<rt>きめる</rt></ruby>",
@@ -968,7 +968,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>が（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>決まる<rt>きまる</rt></ruby>",
@@ -978,7 +978,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>髪<rt>かみ</rt></ruby><ruby>型<rt>かた</rt></ruby>を（　）",
         "question": "（　）に入るのは？",
         "options": ["貰う",
@@ -988,7 +988,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>季節<rt>きせつ</rt></ruby>が（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>変わる<rt>かわる</rt></ruby>",
@@ -998,7 +998,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>感謝<rt>かんしゃ</rt></ruby>の<ruby>気持ち<rt>きもち</rt></ruby>を（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>試験<rt>しけん</rt></ruby>",
@@ -1008,7 +1008,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>噂<rt>うわさ</rt></ruby>が（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>始める<rt>はじめる</rt></ruby>",
@@ -1018,7 +1018,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "花を（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>育てる<rt>そだてる</rt></ruby>",
@@ -1028,7 +1028,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>子供<rt>こども</rt></ruby>が元気に（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>育つ<rt>そだつ</rt></ruby>",
@@ -1038,7 +1038,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>観光<rt>かんこう</rt></ruby><ruby>客<rt>きゃく</rt></ruby>が（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>増える<rt>ふえる</rt></ruby>",
@@ -1048,7 +1048,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "貯金を（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>固める<rt>かためる</rt></ruby>",
@@ -1058,7 +1058,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "人口が（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>減る<rt>へる</rt></ruby>",
@@ -1068,8 +1068,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "言い換え",
-        "text": "友達に荷物を<ruby>届ける<rt>とどける</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "友達に<ruby>荷<rt>にな</rt></ruby><ruby>物<rt>もの</rt></ruby>を<ruby>届ける<rt>とどける</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>進歩<rt>しんぽ</rt></ruby>する",
           "<ruby>素<rt>そ</rt></ruby>晴らしい",
@@ -1078,8 +1078,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "言い換え",
-        "text": "手紙が<ruby>届く<rt>とどく</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "手<ruby>紙<rt>かみ</rt></ruby>が<ruby>届く<rt>とどく</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>携<rt>たずさ</rt></ruby>帯",
           "<ruby>思い出<rt>おもいで</rt></ruby>",
@@ -1088,8 +1088,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "言い換え",
-        "text": "<ruby>届け出<rt>とどけで</rt></ruby>を提出するの意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>届け出<rt>とどけで</rt></ruby>を提出するの<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>安い<rt>やすい</rt></ruby>",
           "<ruby>短<rt>たん</rt></ruby>縮",
@@ -1097,8 +1097,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "言い換え",
-        "text": "<ruby>届け先<rt>とどけさき</rt></ruby>を確認するの意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>届け先<rt>とどけさき</rt></ruby>を<ruby>確<rt>かく</rt></ruby><ruby>認<rt>にん</rt></ruby>するの<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["落ち<ruby>着く<rt>つく</rt></ruby>",
           "<ruby>維持<rt>いじ</rt></ruby>",
@@ -1107,8 +1107,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "言い換え",
-        "text": "切手を<ruby>集める<rt>あつめる</rt></ruby>のが趣味だの意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>切<rt>き</rt></ruby>手を<ruby>集める<rt>あつめる</rt></ruby>のが<ruby>趣<rt>おもむき</rt></ruby><ruby>味<rt>あじ</rt></ruby>だの<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["羨ましい",
           "<ruby>収集<rt>しゅうしゅう</rt></ruby>する",
@@ -1119,7 +1119,7 @@ window.MOCK_DATA['N4'] = {
     ],
     "2": [
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "来年　<ruby>結婚<rt>けっこん</rt></ruby>する（　）になりました。",
         "question": "（　）に　はいるのは？",
         "options": ["よう",
@@ -1130,7 +1130,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-034"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>富<rt>ふ</rt></ruby>士山に　<ruby>登<rt>とう</rt></ruby>っ（　）ことが　あります。",
         "question": "（　）に　はいるのは？",
         "options": ["た",
@@ -1141,7 +1141,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-041"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "日本<ruby>語<rt>ご</rt></ruby>を　話す（　）ができます。",
         "question": "（　）に　はいるのは？",
         "options": ["ため",
@@ -1152,7 +1152,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-036"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "日本に　行っ（　）ことが　あります。",
         "question": "（　）に　はいるのは？",
         "options": ["て",
@@ -1163,7 +1163,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-042"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "ピアノを　<ruby>弾く<rt>ひく</rt></ruby>（　）ができます。",
         "question": "（　）に　はいるのは？",
         "options": ["の",
@@ -1174,7 +1174,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-038"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>寿<rt>ことぶき</rt></ruby><ruby>司<rt>し</rt></ruby>を　食べ（　）ことが　あります。",
         "question": "（　）に　はいるのは？",
         "options": ["て",
@@ -1185,7 +1185,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-043"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "日本料理を　作る（　）ができます。",
         "question": "（　）に　はいるのは？",
         "options": ["の",
@@ -1196,7 +1196,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-040"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>温<rt>おん</rt></ruby>泉に　入っ（　）ことが　あります。",
         "question": "（　）に　はいるのは？",
         "options": ["り",
@@ -1207,7 +1207,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-044"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "車を　<ruby>運転<rt>うんてん</rt></ruby>する（　）ができます。",
         "question": "（　）に　はいるのは？",
         "options": ["ため",
@@ -1218,7 +1218,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-037"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>歌舞伎<rt>かぶき</rt></ruby>を　見（　）ことが　ありますか。",
         "question": "（　）に　はいるのは？",
         "options": ["の",
@@ -1229,7 +1229,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-045"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "会社を　<ruby>辞める<rt>やめる</rt></ruby>（　）になりました。",
         "question": "（　）に　はいるのは？",
         "options": ["よう",
@@ -1240,7 +1240,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-035"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>財<rt>ざい</rt></ruby>布を　なくし（　）しまいました。",
         "question": "（　）に　はいるのは？",
         "options": ["た",
@@ -1251,7 +1251,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-046"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>漢<rt>かん</rt></ruby>字を　読む（　）ができます。",
         "question": "（　）に　はいるのは？",
         "options": ["よう",
@@ -1317,7 +1317,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-051"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>困難<rt>こんなん</rt></ruby>（　）<ruby>乗<rt>の</rt></ruby>り<ruby>越<rt>こ</rt></ruby>え、<ruby>目標<rt>もくひょう</rt></ruby>を達<ruby>成<rt>せい</rt></ruby>した。（106）",
         "question": "（　）に入るのは？",
         "options": ["を",
@@ -1328,7 +1328,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-052"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "専門<ruby>家<rt>いえ</rt></ruby>（　）<ruby>意見<rt>いけん</rt></ruby>を聞く必要がある。（107）",
         "question": "（　）に入るのは？",
         "options": ["への",
@@ -1339,7 +1339,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-053"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>技術<rt>ぎじゅつ</rt></ruby>の<ruby>進歩<rt>しんぽ</rt></ruby>（　）、<ruby>生活<rt>せいかつ</rt></ruby>は大きく<ruby>変<rt>へん</rt></ruby>わった。（108）",
         "question": "（　）に入るのは？",
         "options": ["により",
@@ -1350,7 +1350,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-054"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>彼<rt>かれ</rt></ruby>の<ruby>行動<rt>こうどう</rt></ruby>は<ruby>法律<rt>ほうりつ</rt></ruby>（　）<ruby>許<rt>きょ</rt></ruby>されない。（109）",
         "question": "（　）に入るのは？",
         "options": ["としても",
@@ -1361,7 +1361,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-055"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>予算<rt>よさん</rt></ruby>の<ruby>制<rt>せい</rt></ruby>約（　）実<ruby>現<rt>あらわ</rt></ruby>が<ruby>困難<rt>こんなん</rt></ruby>だ。（110）",
         "question": "（　）に入るのは？",
         "options": ["から",
@@ -1372,7 +1372,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-056"
       },
       {
-        "type": "読解（短文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
         "text": "来週の金曜日に友達の<ruby>結婚式<rt>けっこんしき</rt></ruby>があります。プレゼントを買わなければなりません。",
         "question": "来週何がありますか。",
         "options": ["卒<ruby>業<rt>ごう</rt></ruby>式",
@@ -1383,7 +1383,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-057"
       },
       {
-        "type": "読解（短文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
         "text": "このプールは<ruby>子供<rt>こども</rt></ruby>だけでは入れません。大人といっしょに来てください。",
         "question": "<ruby>子供<rt>こども</rt></ruby>がプールに入るにはどうしますか。",
         "options": ["ひとりで行く",
@@ -1394,8 +1394,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-058"
       },
       {
-        "type": "読解（短文）",
-        "text": "<ruby>図書館<rt>としょかん</rt></ruby>の本は2週間借りられます。返すのが遅くなると、次は借りられません。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>図書館<rt>としょかん</rt></ruby>の本は2週間<ruby>借<rt>か</rt></ruby>りられます。返すのが<ruby>遅<rt>ち</rt></ruby>くなると、次は<ruby>借<rt>か</rt></ruby>りられません。",
         "question": "本はどのくらい<ruby>借り<rt>かり</rt></ruby>られますか。",
         "options": ["1か月",
           "1週間",
@@ -1405,8 +1405,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-059"
       },
       {
-        "type": "読解（短文）",
-        "text": "エレベーターは<ruby>工事中<rt>こうじちゅう</rt></ruby>です。階段を使ってください。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "エレベーターは<ruby>工事中<rt>こうじちゅう</rt></ruby>です。<ruby>階<rt>かい</rt></ruby><ruby>段<rt>だん</rt></ruby>を<ruby>使<rt>つか</rt></ruby>ってください。",
         "question": "エレベーターはどうなっていますか。",
         "options": ["<ruby>新しい<rt>あたらしい</rt></ruby>",
           "<ruby>工事<rt>こうじ</rt></ruby>中",
@@ -1416,7 +1416,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-060"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "今年の<ruby>新入社員<rt>しんにゅうしゃいん</rt></ruby><ruby>研修<rt>けんしゅう</rt></ruby>を担当することになりました。<ruby>初めて<rt>はじめて</rt></ruby>の<ruby>経験<rt>けいけん</rt></ruby>なので<ruby>緊張<rt>きんちょう</rt></ruby>しています。自分が<ruby>新<rt>しん</rt></ruby>人だった頃を<ruby>思い出<rt>おもいで</rt></ruby>して、分かりやすく教えたいと<ruby>思い<rt>おもい</rt></ruby>ます。",
         "question": "この人は今年何をしますか。",
         "options": ["<ruby>研修<rt>けんしゅう</rt></ruby>を担当する",
@@ -1427,7 +1427,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-061"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "先月、<ruby>新しい<rt>あたらしい</rt></ruby>アパートに<ruby>引っ越し<rt>ひっこし</rt></ruby>ました。前の<ruby>部屋<rt>へや</rt></ruby>より<ruby>広<rt>ひろ</rt></ruby>くて、駅からも<ruby>近い<rt>ちかい</rt></ruby>です。<ruby>家<rt>いえ</rt></ruby><ruby>賃<rt>ちん</rt></ruby>は<ruby>少し<rt>すこし</rt></ruby>高くなりましたが、とても<ruby>満足<rt>まんぞく</rt></ruby>しています。",
         "question": "<ruby>新しい<rt>あたらしい</rt></ruby>アパートはどうですか。",
         "options": ["<ruby>広<rt>ひろ</rt></ruby>くて駅から<ruby>近い<rt>ちかい</rt></ruby>",
@@ -1438,7 +1438,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-062"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "アパートの<ruby>隣<rt>となり</rt></ruby>の人と<ruby>仲<rt>なか</rt></ruby><ruby>良<rt>りょう</rt></ruby>くなりました。時々料理を作って<ruby>持<rt>もつ</rt></ruby>っていくと、<ruby>喜<rt>き</rt></ruby>んでくれます。日本の<ruby>生活<rt>せいかつ</rt></ruby>で<ruby>困<rt>こん</rt></ruby>った時も<ruby>助<rt>じょ</rt></ruby>けてくれます。",
         "question": "<ruby>隣<rt>となり</rt></ruby>の人はどんな人ですか。",
         "options": ["<ruby>冷たい<rt>つめたい</rt></ruby>",
@@ -1449,7 +1449,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-063"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "この<ruby>町<rt>まち</rt></ruby>は自然が<ruby>豊か<rt>ゆたか</rt></ruby>で、とても<ruby>住<rt>す</rt></ruby>みやすいです。<ruby>近く<rt>ちかく</rt></ruby>に大きな<ruby>公園<rt>こうえん</rt></ruby>があり、週<ruby>末<rt>まつ</rt></ruby>は<ruby>家<rt>いえ</rt></ruby><ruby>族<rt>ぞく</rt></ruby>で<ruby>散歩<rt>さんぽ</rt></ruby>に行きます。<ruby>交通<rt>こうつう</rt></ruby>は<ruby>少し<rt>すこし</rt></ruby><ruby>不便<rt>ふべん</rt></ruby>ですが、静かなので気に入っています。",
         "question": "この<ruby>町<rt>まち</rt></ruby>の<ruby>問題<rt>もんだい</rt></ruby>点は何ですか。",
         "options": ["うるさい",
@@ -1460,7 +1460,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-064"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【料理教室】月4<ruby>回<rt>まわ</rt></ruby>12,000円（<ruby>材<rt>ざい</rt></ruby>料<ruby>費<rt>ひ</rt></ruby><ruby>込<rt>こ</rt></ruby>み）<ruby>定員<rt>ていいん</rt></ruby>8名　土曜14:00",
         "question": "<ruby>材<rt>ざい</rt></ruby>料<ruby>費<rt>ひ</rt></ruby>は？",
         "options": ["<ruby>不<rt>ふ</rt></ruby>明",
@@ -1471,7 +1471,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-065"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【<ruby>英<rt>えい</rt></ruby>会話】グループ月8<ruby>回<rt>まわ</rt></ruby>15,000円　<ruby>個人<rt>こじん</rt></ruby>1<ruby>回<rt>まわ</rt></ruby>5,000円　入会金<ruby>無<rt>む</rt></ruby>料",
         "question": "入会金は？",
         "options": ["<ruby>無<rt>む</rt></ruby>料",
@@ -1482,7 +1482,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-066"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>教師<rt>きょうし</rt></ruby>と保<ruby>護<rt>まも</rt></ruby><ruby>者<rt>もの</rt></ruby>が学校で面談中（9）",
         "question": "何をしますか。",
         "options": ["📝",
@@ -1491,10 +1491,10 @@ window.MOCK_DATA['N4'] = {
           "📝"],
         "answer": 3,
         "id": "N4-02-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット2問34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット2<ruby>問<rt>と</rt></ruby>34】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>店<rt>みせ</rt></ruby>長とスタッフが<ruby>店舗<rt>てんぽ</rt></ruby>で<ruby>相<rt>そう</rt></ruby>談中（10）",
         "question": "何をしますか。",
         "options": ["📌",
@@ -1503,10 +1503,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-02-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット2問35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット2<ruby>問<rt>と</rt></ruby>35】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>上司<rt>じょうし</rt></ruby>と<ruby>部下<rt>ぶか</rt></ruby>がオフィスで<ruby>打ち合わせ<rt>うちあわせ</rt></ruby>中（11）",
         "question": "何をしますか。",
         "options": ["📞",
@@ -1515,10 +1515,10 @@ window.MOCK_DATA['N4'] = {
           "📋"],
         "answer": 2,
         "id": "N4-02-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：スケジュールを　して　ください。\nおとこ：わかりました。【セット2問36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：スケジュールを　して　ください。\nおとこ：わかりました。【セット2<ruby>問<rt>と</rt></ruby>36】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>受<rt>じゅ</rt></ruby>付と<ruby>来客<rt>らいきゃく</rt></ruby>がロビーで<ruby>対応<rt>たいおう</rt></ruby>中（12）",
         "question": "何をしますか。",
         "options": ["🚪",
@@ -1527,10 +1527,10 @@ window.MOCK_DATA['N4'] = {
           "💳"],
         "answer": 3,
         "id": "N4-02-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット2問37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット2<ruby>問<rt>と</rt></ruby>37】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>医師<rt>いし</rt></ruby>と<ruby>患者<rt>かんじゃ</rt></ruby>が<ruby>病院<rt>びょういん</rt></ruby>で<ruby>診<rt>みる</rt></ruby>察中（13）",
         "question": "何をしますか。",
         "options": ["🏥",
@@ -1539,10 +1539,10 @@ window.MOCK_DATA['N4'] = {
           "💊"],
         "answer": 1,
         "id": "N4-02-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット2問38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット2<ruby>問<rt>と</rt></ruby>38】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>教師<rt>きょうし</rt></ruby>と保<ruby>護<rt>まも</rt></ruby><ruby>者<rt>もの</rt></ruby>が学校で面談中（14）",
         "question": "何をしますか。",
         "options": ["📝",
@@ -1554,7 +1554,7 @@ window.MOCK_DATA['N4'] = {
         "script": "おとこ：つぎは　なにを　しますか。\nおんな：メモを　して　ください。\nおとこ：わかりました。"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>店<rt>みせ</rt></ruby>長とスタッフが<ruby>店舗<rt>てんぽ</rt></ruby>で<ruby>相<rt>そう</rt></ruby>談中（15）",
         "question": "何をしますか。",
         "options": ["📌",
@@ -1566,7 +1566,7 @@ window.MOCK_DATA['N4'] = {
         "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>上司<rt>じょうし</rt></ruby>と<ruby>部下<rt>ぶか</rt></ruby>がオフィスで<ruby>打ち合わせ<rt>うちあわせ</rt></ruby>中（16）",
         "question": "何をしますか。",
         "options": ["🗓️",
@@ -1578,7 +1578,7 @@ window.MOCK_DATA['N4'] = {
         "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "ラジオを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（108）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -1587,10 +1587,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-02-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット2問42】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット2<ruby>問<rt>と</rt></ruby>42】"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "友達を<ruby>ご飯<rt>ごはん</rt></ruby>に<ruby>誘<rt>さそ</rt></ruby>いたい（6）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -1599,10 +1599,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-02-082",
-        "script": "🍽について　はなします。【セット2問43】"
+        "script": "🍽について　はなします。【セット2<ruby>問<rt>と</rt></ruby>43】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "スピーチを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（110）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -1611,10 +1611,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-02-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット2問44】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット2<ruby>問<rt>と</rt></ruby>44】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "静かでいいですね。（154）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["そうですね",
@@ -1625,7 +1625,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-087"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>対<rt>たい</rt></ruby>談を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（112）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -1634,10 +1634,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-02-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット2問46】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット2<ruby>問<rt>と</rt></ruby>46】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "お<ruby>荷物<rt>にもつ</rt></ruby>お<ruby>持<rt>もつ</rt></ruby>ちしましょうか。（155）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -1648,7 +1648,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-088"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>解説<rt>かいせつ</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（114）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -1657,10 +1657,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-02-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット2問48】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット2<ruby>問<rt>と</rt></ruby>48】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "今日は暑いですね。（156）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["本当ですね",
@@ -1671,7 +1671,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-089"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>店員<rt>てんいん</rt></ruby>に<ruby>値段<rt>ねだん</rt></ruby>を聞きたい（7）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -1680,10 +1680,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-02-083",
-        "script": "ピンについて　はなします。【セット2問50】"
+        "script": "ピンについて　はなします。【セット2<ruby>問<rt>と</rt></ruby>50】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "何時までですか。（157）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -1694,8 +1694,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-090"
       },
       {
-        "type": "聴解（発話表現）",
-        "text": "同<ruby>僚<rt>りょう</rt></ruby>にお礼を<ruby>言<rt>い</rt></ruby>いたい（9）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
+        "text": "同<ruby>僚<rt>りょう</rt></ruby>にお<ruby>礼<rt>れい</rt></ruby>を<ruby>言<rt>い</rt></ruby>いたい（9）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
           "📌",
@@ -1703,10 +1703,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-02-085",
-        "script": "ピンについて　はなします。【セット2問52】"
+        "script": "ピンについて　はなします。【セット2<ruby>問<rt>と</rt></ruby>52】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "週<ruby>末<rt>まつ</rt></ruby>の<ruby>予定<rt>よてい</rt></ruby>は。（158）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -1717,7 +1717,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-091"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>報告<rt>ほうこく</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（111）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -1726,10 +1726,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-02-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット2問54】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット2<ruby>問<rt>と</rt></ruby>54】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "おいしいですね。（159）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -1740,7 +1740,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-092"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>案内<rt>あんない</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（109）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -1749,10 +1749,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-02-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット2問56】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット2<ruby>問<rt>と</rt></ruby>56】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "<ruby>写<rt>うつ</rt></ruby>真<ruby>撮<rt>とる</rt></ruby>ってもいいですか。（160）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["大<ruby>丈<rt>たけ</rt></ruby>夫ですよ",
@@ -1763,7 +1763,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-093"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "友達に<ruby>断<rt>だん</rt></ruby>りたい（10）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📅",
@@ -1772,10 +1772,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-02-086",
-        "script": "ピンについて　はなします。【セット2問58】"
+        "script": "ピンについて　はなします。【セット2<ruby>問<rt>と</rt></ruby>58】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "お<ruby>仕事<rt>しごと</rt></ruby>は何ですか。（161）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -1786,7 +1786,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-094"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "先生に<ruby>質問<rt>しつもん</rt></ruby>したい（8）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -1795,10 +1795,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-02-084",
-        "script": "ピンについて　はなします。【セット2問60】"
+        "script": "ピンについて　はなします。【セット2<ruby>問<rt>と</rt></ruby>60】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "<ruby>趣味<rt>しゅみ</rt></ruby>は何ですか。（162）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -1809,7 +1809,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-02-095"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>講義<rt>こうぎ</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（113）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -1818,10 +1818,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-02-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット2問62】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット2<ruby>問<rt>と</rt></ruby>62】"
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>きのう</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>依<rt>よ</rt></ruby><ruby>存<rt>そん</rt></ruby>",
@@ -1831,7 +1831,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>じむしょ</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>進める<rt>すすめる</rt></ruby>",
@@ -1841,7 +1841,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>しみん</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>介護<rt>かいご</rt></ruby>",
@@ -1851,7 +1851,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>かのじょ</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>心<rt>こころ</rt></ruby>配する",
@@ -1861,7 +1861,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>ひょうじゅんか</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>炊く<rt>たく</rt></ruby>",
@@ -1871,7 +1871,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>あんてい</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>通知<rt>つうち</rt></ruby>",
@@ -1881,8 +1881,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>入院</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u>入<ruby>院<rt>いん</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["かえ",
           "うた",
@@ -1891,8 +1891,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>運動する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>運<rt>はこ</rt></ruby><ruby>動<rt>うご</rt></ruby>する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["お",
           "え",
@@ -1901,8 +1901,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>英</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>英<rt>えい</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["えい",
           "うみ",
@@ -1911,8 +1911,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "とても<u>反映</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "とても<u>反<ruby>映<rt>うつ</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["さむ",
           "あ",
@@ -1921,8 +1921,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>公園</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u>公<ruby>園<rt>その</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["かん",
           "かい",
@@ -1931,8 +1931,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "とても<u>遠い</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "とても<u><ruby>遠<rt>とお</rt></ruby>い</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["かん",
           "かい",
@@ -1941,8 +1941,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>屋</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>屋<rt>や</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["や",
           "おぼ",
@@ -1951,8 +1951,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>歌</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>歌<rt>うた</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["うた",
           "かど",
@@ -1961,8 +1961,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>計画する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u>計<ruby>画<rt>え</rt></ruby>する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["かつ",
           "けいかくする",
@@ -1971,7 +1971,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>出費<rt>しゅっぴ</rt></ruby>を（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>打ち合わせる<rt>うちあわせる</rt></ruby>",
@@ -1981,7 +1981,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "毎日<ruby>運動<rt>うんどう</rt></ruby>を（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>吹く<rt>ふく</rt></ruby>",
@@ -1991,7 +1991,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "雨が三日間（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>売上<rt>うりあげ</rt></ruby>",
@@ -2001,7 +2001,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>印<rt>しるし</rt></ruby>象に（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>短<rt>たん</rt></ruby>縮",
@@ -2011,7 +2011,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>仕事<rt>しごと</rt></ruby>を（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>欠<rt>か</rt></ruby>席",
@@ -2021,7 +2021,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>部屋<rt>へや</rt></ruby>を（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>届け出<rt>とどけで</rt></ruby>",
@@ -2031,7 +2031,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>仕事<rt>しごと</rt></ruby>が（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>骨<rt>ほね</rt></ruby>",
@@ -2041,7 +2041,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "落とし<ruby>物<rt>もの</rt></ruby>を（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>安い<rt>やすい</rt></ruby>",
@@ -2051,7 +2051,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "犯人が（　）",
         "question": "（　）に入るのは？",
         "options": ["貰う",
@@ -2061,7 +2061,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "電車に（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>課<rt>か</rt></ruby>長",
@@ -2071,7 +2071,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>経験<rt>けいけん</rt></ruby>が（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>試験<rt>しけん</rt></ruby>",
@@ -2081,7 +2081,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>間違い<rt>まちがい</rt></ruby>に（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>税<rt>ぜい</rt></ruby><ruby>抜<rt>ばつ</rt></ruby>",
@@ -2091,7 +2091,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>子供<rt>こども</rt></ruby>の頃を（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>思い出す<rt>おもいだす</rt></ruby>",
@@ -2101,7 +2101,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "セミナーに（　）",
         "question": "（　）に入るのは？",
         "options": ["当然",
@@ -2111,7 +2111,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>予<rt>よ</rt></ruby>約を（　）",
         "question": "（　）に入るのは？",
         "options": ["取り消す",
@@ -2121,7 +2121,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>仕事<rt>しごと</rt></ruby>を（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>引き受ける<rt>ひきうける</rt></ruby>",
@@ -2131,7 +2131,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>荷物<rt>にもつ</rt></ruby>を（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>抜ける<rt>ぬける</rt></ruby>",
@@ -2141,7 +2141,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "申し<ruby>込<rt>こ</rt></ruby>みを（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>受<rt>じゅ</rt></ruby>け付ける",
@@ -2151,7 +2151,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "テーマとして（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>領収書<rt>りょうしゅうしょ</rt></ruby>",
@@ -2161,7 +2161,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "プレゼントを（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>売上<rt>うりあげ</rt></ruby>",
@@ -2171,8 +2171,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "言い換え",
-        "text": "駅前に人が<ruby>集まる<rt>あつまる</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "駅前に人が<ruby>集まる<rt>あつまる</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>向かう<rt>むかう</rt></ruby>",
           "<ruby>骨<rt>ほね</rt></ruby>",
@@ -2181,8 +2181,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "言い換え",
-        "text": "工事が順調に<ruby>進む<rt>すすむ</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "工<ruby>事<rt>こと</rt></ruby>が順調に<ruby>進む<rt>すすむ</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>最後<rt>さいご</rt></ruby>",
           "<ruby>前進<rt>ぜんしん</rt></ruby>する",
@@ -2191,8 +2191,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "言い換え",
-        "text": "計画を<ruby>進める<rt>すすめる</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "計<ruby>画<rt>え</rt></ruby>を<ruby>進める<rt>すすめる</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["推<ruby>進<rt>すす</rt></ruby>する",
           "貰う",
@@ -2201,8 +2201,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "言い換え",
-        "text": "旅行の日程を<ruby>決める<rt>きめる</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>旅<rt>たび</rt></ruby>行の日程を<ruby>決める<rt>きめる</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>税<rt>ぜい</rt></ruby><ruby>抜<rt>ばつ</rt></ruby>",
           "独立",
@@ -2211,8 +2211,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "言い換え",
-        "text": "会議の場所が<ruby>決まる<rt>きまる</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "会<ruby>議<rt>ぎ</rt></ruby>の<ruby>場<rt>ば</rt></ruby><ruby>所<rt>ところ</rt></ruby>が<ruby>決まる<rt>きまる</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>受<rt>じゅ</rt></ruby>け取る",
           "<ruby>試験<rt>しけん</rt></ruby>",
@@ -2223,7 +2223,7 @@ window.MOCK_DATA['N4'] = {
     ],
     "3": [
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "電車に　<ruby>乗<rt>の</rt></ruby>り<ruby>遅れ<rt>おくれ</rt></ruby>（　）しまいました。",
         "question": "（　）に　はいるのは？",
         "options": ["の",
@@ -2245,7 +2245,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-047"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "ケーキを　<ruby>全部<rt>ぜんぶ</rt></ruby>　食べ（　）しまいました。",
         "question": "（　）に　はいるのは？",
         "options": ["る",
@@ -2267,7 +2267,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-048"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "約束を　<ruby>忘<rt>ぼう</rt></ruby>れ（　）しまいました。",
         "question": "（　）に　はいるのは？",
         "options": ["る",
@@ -2289,7 +2289,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-049"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "お酒を　飲みすぎ（　）しまいました。",
         "question": "（　）に　はいるのは？",
         "options": ["の",
@@ -2311,7 +2311,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-050"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "窓を　<ruby>開<rt>あ</rt></ruby>け（　）おいてください。",
         "question": "（　）に　はいるのは？",
         "options": ["た",
@@ -2333,7 +2333,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-051"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "電気が　つけ（　）あります。",
         "question": "（　）に　はいるのは？",
         "options": ["る",
@@ -2344,7 +2344,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-044"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>結果<rt>けっか</rt></ruby>（　）<ruby>良<rt>りょう</rt></ruby>ければ<ruby>全て<rt>すべて</rt></ruby><ruby>良<rt>りょう</rt></ruby>しとは<ruby>限<rt>かぎ</rt></ruby>らない。（111）",
         "question": "（　）に入るのは？",
         "options": ["さえ",
@@ -2355,7 +2355,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-052"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "テーブルに　花が　<ruby>飾<rt>しょく</rt></ruby>っ（　）あります。",
         "question": "（　）に　はいるのは？",
         "options": ["の",
@@ -2366,7 +2366,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-046"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "努力<ruby>家<rt>いえ</rt></ruby>である（　）、<ruby>才能<rt>さいのう</rt></ruby>にも<ruby>恵<rt>めぐ</rt></ruby>まれている。（112）",
         "question": "（　）に入るのは？",
         "options": ["にもかかわらず",
@@ -2377,7 +2377,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-053"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "パーティーの　前に　<ruby>掃<rt>そう</rt></ruby>除し（　）おきます。",
         "question": "（　）に　はいるのは？",
         "options": ["た",
@@ -2388,7 +2388,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-039"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>一朝一夕<rt>いっちょういっせき</rt></ruby>（　）<ruby>解決<rt>かいけつ</rt></ruby>できるものではない。（113）",
         "question": "（　）に入るのは？",
         "options": ["に",
@@ -2399,7 +2399,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-054"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>忘<rt>ぼう</rt></ruby>れない　ように　メモし（　）おきます。",
         "question": "（　）に　はいるのは？",
         "options": ["て",
@@ -2410,7 +2410,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-041"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>事<rt>こと</rt></ruby>実（　）<ruby>基づいて<rt>もとづいて</rt></ruby>いる。（114）",
         "question": "（　）に入るのは？",
         "options": ["と",
@@ -2421,7 +2421,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-055"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "ドアが　<ruby>閉<rt>へい</rt></ruby>め（　）あります。",
         "question": "（　）に　はいるのは？",
         "options": ["る",
@@ -2432,7 +2432,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-045"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>経験<rt>けいけん</rt></ruby>（　）<ruby>勝る<rt>まさる</rt></ruby>ものはない。（115）",
         "question": "（　）に入るのは？",
         "options": ["に",
@@ -2443,7 +2443,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-056"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "明日　<ruby>使う<rt>つかう</rt></ruby>　<ruby>資<rt>し</rt></ruby>料を　<ruby>準備<rt>じゅんび</rt></ruby>し（　）おきます。",
         "question": "（　）に　はいるのは？",
         "options": ["て",
@@ -2454,8 +2454,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-040"
       },
       {
-        "type": "読解（短文）",
-        "text": "この<ruby>駐車場<rt>ちゅうしゃじょう</rt></ruby>は1時間200円です。<ruby>最大<rt>さいだい</rt></ruby>1000円で止められます。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "この<ruby>駐車場<rt>ちゅうしゃじょう</rt></ruby>は1時間200円です。<ruby>最大<rt>さいだい</rt></ruby>1000円で<ruby>止<rt>と</rt></ruby>められます。",
         "question": "5時間<ruby>止める<rt>とめる</rt></ruby>といくらですか。",
         "options": ["500円",
           "1200円",
@@ -2465,7 +2465,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-057"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>旅行<rt>りょこう</rt></ruby>の　前に　ホテルを　<ruby>予<rt>よ</rt></ruby>約し（　）おきます。",
         "question": "（　）に　はいるのは？",
         "options": ["る",
@@ -2476,8 +2476,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-038"
       },
       {
-        "type": "読解（短文）",
-        "text": "明日の<ruby>遠足<rt>えんそく</rt></ruby>は雨でも行きます。お弁当と傘を持ってきてください。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "明日の<ruby>遠足<rt>えんそく</rt></ruby>は雨でも行きます。お弁当と<ruby>傘<rt>かさ</rt></ruby>を<ruby>持<rt>も</rt></ruby>ってきてください。",
         "question": "雨のとき<ruby>遠足<rt>えんそく</rt></ruby>はどうなりますか。",
         "options": ["<ruby>場所<rt>ばしょ</rt></ruby>が<ruby>変わる<rt>かわる</rt></ruby>",
           "<ruby>予定<rt>よてい</rt></ruby><ruby>通り<rt>とおり</rt></ruby>行く",
@@ -2487,7 +2487,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-058"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "窓が　<ruby>開<rt>あ</rt></ruby>け（　）あります。",
         "question": "（　）に　はいるのは？",
         "options": ["る",
@@ -2498,8 +2498,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-043"
       },
       {
-        "type": "読解（短文）",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>は午後3時から5時までです。<ruby>資料<rt>しりょう</rt></ruby>を準備しておいてください。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>会議<rt>かいぎ</rt></ruby>は午後3時から5時までです。<ruby>資料<rt>しりょう</rt></ruby>を<ruby>準<rt>じゅん</rt></ruby><ruby>備<rt>び</rt></ruby>しておいてください。",
         "question": "<ruby>会議<rt>かいぎ</rt></ruby>は何時間ですか。",
         "options": ["4時間",
           "1時間",
@@ -2509,8 +2509,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-059"
       },
       {
-        "type": "読解（短文）",
-        "text": "田中さんは<ruby>出張<rt>しゅっちょう</rt></ruby>で大阪に行っています。来週の月曜日に戻ります。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "田中さんは<ruby>出張<rt>しゅっちょう</rt></ruby>で大<ruby>阪<rt>はん</rt></ruby>に行っています。来週の月曜日に<ruby>戻<rt>もど</rt></ruby>ります。",
         "question": "田中さんはいつ<ruby>戻<rt>もど</rt></ruby>りますか。",
         "options": ["来週の月曜日",
           "今週の金曜日",
@@ -2520,7 +2520,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-060"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "ゴミの<ruby>分別<rt>ぶんべつ</rt></ruby>が<ruby>難しい<rt>むずかしい</rt></ruby>です。燃えるゴミ、燃えないゴミ、<ruby>資源<rt>しげん</rt></ruby>ゴミなど、<ruby>種類<rt>しゅるい</rt></ruby>がたくさんあります。<ruby>間違える<rt>まちがえる</rt></ruby>と<ruby>持<rt>もつ</rt></ruby>っていってもらえません。",
         "question": "ゴミの<ruby>分別<rt>ぶんべつ</rt></ruby>についてどう<ruby>思い<rt>おもい</rt></ruby>ますか。",
         "options": ["<ruby>簡単<rt>かんたん</rt></ruby>",
@@ -2531,7 +2531,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-061"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "<ruby>夜<rt>よる</rt></ruby>10時<ruby>以降<rt>いこう</rt></ruby>は静かにしなければなりません。<ruby>隣<rt>となり</rt></ruby>の人に<ruby>迷惑<rt>めいわく</rt></ruby>をかけないように、テレビの音も小さくしています。",
         "question": "<ruby>夜<rt>よる</rt></ruby>10時<ruby>以降<rt>いこう</rt></ruby>どうしなければなりませんか。",
         "options": ["外に出る",
@@ -2542,7 +2542,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-062"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "<ruby>最近<rt>さいきん</rt></ruby>、料理を<ruby>始<rt>はじまる</rt></ruby>めました。毎週土曜日に<ruby>新しい<rt>あたらしい</rt></ruby>料理に<ruby>挑<rt>いど</rt></ruby>戦しています。失敗することもありますが、上手にできるととても<ruby>嬉しい<rt>うれしい</rt></ruby>です。",
         "question": "いつ料理をしますか。",
         "options": ["月に1<ruby>回<rt>まわ</rt></ruby>",
@@ -2553,7 +2553,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-063"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "<ruby>子供<rt>こども</rt></ruby>の頃から絵を<ruby>描く<rt>えがく</rt></ruby>のが<ruby>好<rt>この</rt></ruby>きでした。大人になってからも<ruby>趣味<rt>しゅみ</rt></ruby>で続けています。<ruby>最近<rt>さいきん</rt></ruby>は水<ruby>彩<rt>いろど</rt></ruby><ruby>画<rt>え</rt></ruby>を<ruby>習<rt>しゅう</rt></ruby>い<ruby>始<rt>はじまる</rt></ruby>めました。いつか<ruby>展覧<rt>てんらん</rt></ruby>会に出したいです。",
         "question": "この人の<ruby>夢<rt>ゆめ</rt></ruby>は何ですか。",
         "options": ["絵を<ruby>売る<rt>うる</rt></ruby>",
@@ -2564,7 +2564,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-064"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【<ruby>映画館<rt>えいがかん</rt></ruby>】一般1,800円　学生1,500円　水曜<ruby>女性<rt>じょせい</rt></ruby>1,100円",
         "question": "水曜<ruby>女性<rt>じょせい</rt></ruby>は？",
         "options": ["1,200円",
@@ -2575,7 +2575,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-065"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【美<ruby>術<rt>じゅつ</rt></ruby><ruby>館<rt>かん</rt></ruby>】大人800円　大学生500円　高校生<ruby>以下<rt>いか</rt></ruby><ruby>無<rt>む</rt></ruby>料",
         "question": "高校生は？",
         "options": ["300円",
@@ -2586,7 +2586,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-066"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>受<rt>じゅ</rt></ruby>付と<ruby>来客<rt>らいきゃく</rt></ruby>がロビーで<ruby>対応<rt>たいおう</rt></ruby>中（17）",
         "question": "何をしますか。",
         "options": ["🚪",
@@ -2595,10 +2595,10 @@ window.MOCK_DATA['N4'] = {
           "🍵"],
         "answer": 2,
         "id": "N4-03-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット3問34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット3<ruby>問<rt>と</rt></ruby>34】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>医師<rt>いし</rt></ruby>と<ruby>患者<rt>かんじゃ</rt></ruby>が<ruby>病院<rt>びょういん</rt></ruby>で<ruby>診<rt>みる</rt></ruby>察中（18）",
         "question": "何をしますか。",
         "options": ["🏥",
@@ -2607,10 +2607,10 @@ window.MOCK_DATA['N4'] = {
           "🔬"],
         "answer": 3,
         "id": "N4-03-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット3問35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット3<ruby>問<rt>と</rt></ruby>35】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>教師<rt>きょうし</rt></ruby>と保<ruby>護<rt>まも</rt></ruby><ruby>者<rt>もの</rt></ruby>が学校で面談中（19）",
         "question": "何をしますか。",
         "options": ["📄",
@@ -2619,10 +2619,10 @@ window.MOCK_DATA['N4'] = {
           "📊"],
         "answer": 2,
         "id": "N4-03-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：メモを　して　ください。\nおとこ：わかりました。【セット3問36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：メモを　して　ください。\nおとこ：わかりました。【セット3<ruby>問<rt>と</rt></ruby>36】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>店<rt>みせ</rt></ruby>長とスタッフが<ruby>店舗<rt>てんぽ</rt></ruby>で<ruby>相<rt>そう</rt></ruby>談中（20）",
         "question": "何をしますか。",
         "options": ["📌",
@@ -2631,10 +2631,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-03-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット3問37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット3<ruby>問<rt>と</rt></ruby>37】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>上司<rt>じょうし</rt></ruby>と<ruby>部下<rt>ぶか</rt></ruby>がオフィスで<ruby>打ち合わせ<rt>うちあわせ</rt></ruby>中（21）",
         "question": "何をしますか。",
         "options": ["📋",
@@ -2643,10 +2643,10 @@ window.MOCK_DATA['N4'] = {
           "📧"],
         "answer": 2,
         "id": "N4-03-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット3問38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット3<ruby>問<rt>と</rt></ruby>38】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>受<rt>じゅ</rt></ruby>付と<ruby>来客<rt>らいきゃく</rt></ruby>がロビーで<ruby>対応<rt>たいおう</rt></ruby>中（22）",
         "question": "何をしますか。",
         "options": ["🍵",
@@ -2658,7 +2658,7 @@ window.MOCK_DATA['N4'] = {
         "script": "おとこ：つぎは　なにを　しますか。\nおんな：カードを　して　ください。\nおとこ：わかりました。"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>医師<rt>いし</rt></ruby>と<ruby>患者<rt>かんじゃ</rt></ruby>が<ruby>病院<rt>びょういん</rt></ruby>で<ruby>診<rt>みる</rt></ruby>察中（23）",
         "question": "何をしますか。",
         "options": ["🔬",
@@ -2670,7 +2670,7 @@ window.MOCK_DATA['N4'] = {
         "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>教師<rt>きょうし</rt></ruby>と保<ruby>護<rt>まも</rt></ruby><ruby>者<rt>もの</rt></ruby>が学校で面談中（24）",
         "question": "何をしますか。",
         "options": ["📄",
@@ -2682,7 +2682,7 @@ window.MOCK_DATA['N4'] = {
         "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "討<ruby>論<rt>ろん</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（115）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -2691,10 +2691,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-03-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット3問42】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット3<ruby>問<rt>と</rt></ruby>42】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "トークを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（120）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -2706,7 +2706,7 @@ window.MOCK_DATA['N4'] = {
         "script": "きょうの　はなしは　ほんについてです。これは　とても　たいせつです。"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>番組<rt>ばんぐみ</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（117）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -2715,10 +2715,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-03-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット3問44】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット3<ruby>問<rt>と</rt></ruby>44】"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "友達を<ruby>ご飯<rt>ごはん</rt></ruby>に<ruby>誘<rt>さそ</rt></ruby>いたい（11）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["🍽️",
@@ -2727,10 +2727,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-03-082",
-        "script": "🍽について　はなします。【セット3問45】"
+        "script": "🍽について　はなします。【セット3<ruby>問<rt>と</rt></ruby>45】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "ドキュメンタリーを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（119）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -2739,10 +2739,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-03-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット3問46】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット3<ruby>問<rt>と</rt></ruby>46】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "出身はどこですか。（163）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["東<ruby>京<rt>きょう</rt></ruby>です",
@@ -2753,7 +2753,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-087"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "放<ruby>送<rt>お</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（121）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -2762,10 +2762,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-03-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット3問48】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット3<ruby>問<rt>と</rt></ruby>48】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "いつからですか。（164）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -2776,7 +2776,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-088"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>店員<rt>てんいん</rt></ruby>に<ruby>値段<rt>ねだん</rt></ruby>を聞きたい（12）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -2785,10 +2785,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-03-083",
-        "script": "ピンについて　はなします。【セット3問50】"
+        "script": "ピンについて　はなします。【セット3<ruby>問<rt>と</rt></ruby>50】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "何人ですか。（165）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -2799,8 +2799,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-089"
       },
       {
-        "type": "聴解（発話表現）",
-        "text": "同<ruby>僚<rt>りょう</rt></ruby>にお礼を<ruby>言<rt>い</rt></ruby>いたい（14）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
+        "text": "同<ruby>僚<rt>りょう</rt></ruby>にお<ruby>礼<rt>れい</rt></ruby>を<ruby>言<rt>い</rt></ruby>いたい（14）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
           "📌",
@@ -2808,10 +2808,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-03-085",
-        "script": "ピンについて　はなします。【セット3問52】"
+        "script": "ピンについて　はなします。【セット3<ruby>問<rt>と</rt></ruby>52】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "いくらですか。（166）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -2822,7 +2822,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-090"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "セミナーを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（116）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -2831,10 +2831,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-03-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット3問54】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット3<ruby>問<rt>と</rt></ruby>54】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "何<ruby>階<rt>かい</rt></ruby>ですか。（167）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -2845,7 +2845,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-091"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "先生に<ruby>質問<rt>しつもん</rt></ruby>したい（13）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -2854,10 +2854,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-03-084",
-        "script": "ピンについて　はなします。【セット3問56】"
+        "script": "ピンについて　はなします。【セット3<ruby>問<rt>と</rt></ruby>56】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "どちらがいいですか。（168）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["こちらがいいです",
@@ -2868,7 +2868,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-092"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>特<rt>とく</rt></ruby><ruby>集<rt>しゅう</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（118）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -2877,10 +2877,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-03-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット3問58】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット3<ruby>問<rt>と</rt></ruby>58】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "もう<ruby>終わり<rt>おわり</rt></ruby>ましたか。（169）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -2891,7 +2891,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-093"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "友達に<ruby>断<rt>だん</rt></ruby>りたい（15）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -2900,10 +2900,10 @@ window.MOCK_DATA['N4'] = {
           "📅"],
         "answer": 2,
         "id": "N4-03-086",
-        "script": "ピンについて　はなします。【セット3問60】"
+        "script": "ピンについて　はなします。【セット3<ruby>問<rt>と</rt></ruby>60】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "どうしましたか。（170）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -2914,7 +2914,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-094"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "お腹空きましたか。（171）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -2925,7 +2925,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-03-095"
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>かがく</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["真面目",
@@ -2935,7 +2935,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>こうえん</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>吹く<rt>ふく</rt></ruby>",
@@ -2945,7 +2945,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>たんしょ</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>定年<rt>ていねん</rt></ruby>",
@@ -2955,7 +2955,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>もうしこみ</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>見送り<rt>みおくり</rt></ruby>",
@@ -2965,7 +2965,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>ていせい</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>成果<rt>せいか</rt></ruby>",
@@ -2975,7 +2975,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>けんぴん</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>検品<rt>けんぴん</rt></ruby>",
@@ -2985,8 +2985,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>海</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>海<rt>うみ</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["きゅう",
           "かん",
@@ -2995,8 +2995,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>開く</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>開<rt>あ</rt></ruby>く</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["さむ",
           "ひらく",
@@ -3005,8 +3005,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "とても<u>世界</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "とても<u><ruby>世<rt>よ</rt></ruby><ruby>界<rt>かい</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["さ",
           "かん",
@@ -3015,8 +3015,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>階段</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>階<rt>かい</rt></ruby><ruby>段<rt>だん</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["かいだん",
           "かん",
@@ -3025,8 +3025,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>覚める</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>覚<rt>おぼ</rt></ruby>める</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["かる",
           "かお",
@@ -3035,8 +3035,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>角</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>角<rt>かど</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["き",
           "かえ",
@@ -3045,8 +3045,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>活用する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>活<rt>か</rt></ruby>用する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["ぎん",
           "お",
@@ -3055,8 +3055,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>博物館</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u>博<ruby>物<rt>もの</rt></ruby><ruby>館<rt>かん</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["く",
           "きゅう",
@@ -3065,8 +3065,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "とても<u>寒冷</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "とても<u><ruby>寒<rt>さむ</rt></ruby><ruby>冷<rt>れい</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["けん",
           "いそ",
@@ -3075,7 +3075,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>別れ<rt>わかれ</rt></ruby>を（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>季節<rt>きせつ</rt></ruby>",
@@ -3085,7 +3085,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "ニュースに（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>欠<rt>か</rt></ruby>席",
@@ -3095,8 +3095,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
-        "text": "失礼な<ruby>態度<rt>たいど</rt></ruby>に（　）",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
+        "text": "失<ruby>礼<rt>れい</rt></ruby>な<ruby>態度<rt>たいど</rt></ruby>に（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>届け出<rt>とどけで</rt></ruby>",
           "<ruby>怒る<rt>おこる</rt></ruby>",
@@ -3105,7 +3105,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "道に<ruby>迷<rt>めい</rt></ruby>って（　）",
         "question": "（　）に入るのは？",
         "options": ["役立つ",
@@ -3115,7 +3115,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>進路<rt>しんろ</rt></ruby>に（　）",
         "question": "（　）に入るのは？",
         "options": ["調べる",
@@ -3125,7 +3125,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>新しい<rt>あたらしい</rt></ruby><ruby>環境<rt>かんきょう</rt></ruby>に（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>部品<rt>ぶひん</rt></ruby>",
@@ -3135,7 +3135,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>仕事<rt>しごと</rt></ruby>で（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>疲れる<rt>つかれる</rt></ruby>",
@@ -3145,7 +3145,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "食べ<ruby>過<rt>か</rt></ruby>ぎて（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>向かう<rt>むかう</rt></ruby>",
@@ -3155,7 +3155,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "ダイエットで（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>疲れる<rt>つかれる</rt></ruby>",
@@ -3165,7 +3165,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>税金<rt>ぜいきん</rt></ruby>",
@@ -3175,7 +3175,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>痩せる<rt>やせる</rt></ruby>",
@@ -3185,7 +3185,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["学ぶ",
@@ -3195,7 +3195,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>候補<rt>こうほ</rt></ruby>",
@@ -3205,7 +3205,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>素直<rt>すなお</rt></ruby>",
@@ -3215,7 +3215,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>解決<rt>かいけつ</rt></ruby>する",
@@ -3225,7 +3225,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>心<rt>こころ</rt></ruby>配する",
@@ -3235,7 +3235,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>完全<rt>かんぜん</rt></ruby>",
@@ -3245,7 +3245,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>親会社<rt>おやがいしゃ</rt></ruby>",
@@ -3255,7 +3255,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>幸せ<rt>しあわせ</rt></ruby>",
@@ -3265,7 +3265,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>練習<rt>れんしゅう</rt></ruby>",
@@ -3275,8 +3275,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "言い換え",
-        "text": "髪型を<ruby>変える<rt>かえる</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>髪<rt>かみ</rt></ruby><ruby>型<rt>かた</rt></ruby>を<ruby>変える<rt>かえる</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>変更<rt>へんこう</rt></ruby>する",
           "<ruby>始める<rt>はじめる</rt></ruby>",
@@ -3285,8 +3285,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "言い換え",
-        "text": "季節が<ruby>変わる<rt>かわる</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>季<rt>き</rt></ruby><ruby>節<rt>せつ</rt></ruby>が<ruby>変わる<rt>かわる</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>深める<rt>ふかめる</rt></ruby>",
           "<ruby>変化<rt>へんか</rt></ruby>する",
@@ -3294,8 +3294,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "言い換え",
-        "text": "感謝の気持ちを<ruby>伝える<rt>つたえる</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>感<rt>かん</rt></ruby><ruby>謝<rt>しゃ</rt></ruby>の気<ruby>持<rt>も</rt></ruby>ちを<ruby>伝える<rt>つたえる</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>固い<rt>かたい</rt></ruby>",
           "当然",
@@ -3304,8 +3304,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "言い換え",
-        "text": "噂が<ruby>伝わる<rt>つたわる</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>噂<rt>うわさ</rt></ruby>が<ruby>伝わる<rt>つたわる</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>領収書<rt>りょうしゅうしょ</rt></ruby>",
           "<ruby>条件<rt>じょうけん</rt></ruby>",
@@ -3314,8 +3314,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "言い換え",
-        "text": "花を<ruby>育てる<rt>そだてる</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "花を<ruby>育てる<rt>そだてる</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>怪<rt>かい</rt></ruby><ruby>我<rt>われ</rt></ruby>",
           "<ruby>今度<rt>こんど</rt></ruby>",
@@ -3326,7 +3326,7 @@ window.MOCK_DATA['N4'] = {
     ],
     "4": [
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>予<rt>よ</rt></ruby>約が　し（　）あります。",
         "question": "（　）に　はいるのは？",
         "options": ["の",
@@ -3337,7 +3337,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-034"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "電車の　中で　足を　<ruby>踏<rt>とう</rt></ruby>ま（　）ました。",
         "question": "（　）に　はいるのは？",
         "options": ["め",
@@ -3348,7 +3348,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-040"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>新しい<rt>あたらしい</rt></ruby>　アプリを　<ruby>使<rt>つか</rt></ruby>っ（　）みました。",
         "question": "（　）に　はいるのは？",
         "options": ["て",
@@ -3359,7 +3359,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-036"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "雨に　<ruby>降<rt>こう</rt></ruby>ら（　）ました。",
         "question": "（　）に　はいるのは？",
         "options": ["る",
@@ -3370,7 +3370,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-041"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "この　<ruby>靴<rt>くつ</rt></ruby>を　<ruby>履<rt>は</rt></ruby>い（　）みてもいいですか。",
         "question": "（　）に　はいるのは？",
         "options": ["て",
@@ -3381,7 +3381,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-038"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "先生に　<ruby>褒<rt>ほ</rt></ruby>め（　）ました。",
         "question": "（　）に　はいるのは？",
         "options": ["む",
@@ -3392,7 +3392,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-042"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "この　料理を　食べ（　）みてください。",
         "question": "（　）に　はいるのは？",
         "options": ["て",
@@ -3403,7 +3403,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-035"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "母に　<ruby>怒<rt>ど</rt></ruby>ら（　）ました。",
         "question": "（　）に　はいるのは？",
         "options": ["り",
@@ -3414,7 +3414,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-043"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "インターネットで　調べ（　）みます。",
         "question": "（　）に　はいるのは？",
         "options": ["の",
@@ -3425,7 +3425,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-039"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>泥棒<rt>どろぼう</rt></ruby>に　<ruby>財<rt>ざい</rt></ruby>布を　<ruby>盗<rt>ぬす</rt></ruby>ま（　）ました。",
         "question": "（　）に　はいるのは？",
         "options": ["む",
@@ -3436,7 +3436,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-044"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "日本<ruby>語<rt>ご</rt></ruby>で　話し（　）みてください。",
         "question": "（　）に　はいるのは？",
         "options": ["て",
@@ -3447,7 +3447,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-037"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "雨が　<ruby>降<rt>こう</rt></ruby>（　）、サッカーは　<ruby>中止<rt>ちゅうし</rt></ruby>です。",
         "question": "（　）に　はいるのは？",
         "options": ["ると",
@@ -3458,7 +3458,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-045"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>安<rt>やす</rt></ruby>（　）、買います。",
         "question": "（　）に　はいるのは？",
         "options": ["いと",
@@ -3524,7 +3524,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-051"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "健<ruby>康<rt>こう</rt></ruby>（　）、何<ruby>事<rt>こと</rt></ruby>も<ruby>始<rt>はじまる</rt></ruby>まらない。（116）",
         "question": "（　）に入るのは？",
         "options": ["がなければ",
@@ -3535,7 +3535,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-052"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "時間の<ruby>許す<rt>ゆるす</rt></ruby>（　）、できるだけ<ruby>訪<rt>ほう</rt></ruby>れたい。（117）",
         "question": "（　）に入るのは？",
         "options": ["ほど",
@@ -3546,7 +3546,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-053"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>医師<rt>いし</rt></ruby>（　）、ボランティアにも<ruby>熱心<rt>ねっしん</rt></ruby>だ。（118）",
         "question": "（　）に入るのは？",
         "options": ["として",
@@ -3557,7 +3557,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-054"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>医師<rt>いし</rt></ruby>の処<ruby>方<rt>ほう</rt></ruby>（　）<ruby>使<rt>つか</rt></ruby>用してください。（119）",
         "question": "（　）に入るのは？",
         "options": ["に<ruby>対して<rt>たいして</rt></ruby>",
@@ -3568,7 +3568,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-055"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>予<rt>よ</rt></ruby>想（　）、<ruby>売り上げ<rt>うりあげ</rt></ruby>は<ruby>減<rt>へん</rt></ruby><ruby>少し<rt>すこし</rt></ruby>た。（120）",
         "question": "（　）に入るのは？",
         "options": ["に反して",
@@ -3579,9 +3579,9 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-056"
       },
       {
-        "type": "読解（短文）",
-        "text": "この仕事は金曜日までに終わらせてください。難しかったら、<ruby>相談<rt>そうだん</rt></ruby>してください。",
-        "question": "仕事の<ruby>締<rt>し</rt></ruby>め切りはいつですか。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "この<ruby>仕<rt>つか</rt></ruby><ruby>事<rt>こと</rt></ruby>は金曜日までに<ruby>終<rt>しゅう</rt></ruby>わらせてください。<ruby>難<rt>なん</rt></ruby>しかったら、<ruby>相談<rt>そうだん</rt></ruby>してください。",
+        "question": "<ruby>仕<rt>つか</rt></ruby><ruby>事<rt>こと</rt></ruby>の<ruby>締<rt>し</rt></ruby>め<ruby>切<rt>き</rt></ruby>りはいつですか。",
         "options": ["土曜日",
           "水曜日",
           "金曜日",
@@ -3590,8 +3590,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-057"
       },
       {
-        "type": "読解（短文）",
-        "text": "新しい<ruby>社員<rt>しゃいん</rt></ruby>が来月から入ります。<ruby>歓迎会<rt>かんげいかい</rt></ruby>を開きましょう。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>新<rt>あたら</rt></ruby>しい<ruby>社員<rt>しゃいん</rt></ruby>が来月から入ります。<ruby>歓迎会<rt>かんげいかい</rt></ruby>を<ruby>開<rt>あ</rt></ruby>きましょう。",
         "question": "来月何がありますか。",
         "options": ["<ruby>新<rt>しん</rt></ruby>年会",
           "<ruby>歓迎<rt>かんげい</rt></ruby>会",
@@ -3601,8 +3601,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-058"
       },
       {
-        "type": "読解（短文）",
-        "text": "今日の会議は中止になりました。<ruby>部長<rt>ぶちょう</rt></ruby>が急に出張になったからです。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "今日の会<ruby>議<rt>ぎ</rt></ruby>は中<ruby>止<rt>と</rt></ruby>になりました。<ruby>部長<rt>ぶちょう</rt></ruby>が<ruby>急<rt>いそ</rt></ruby>に出<ruby>張<rt>ちょう</rt></ruby>になったからです。",
         "question": "どうして<ruby>会議<rt>かいぎ</rt></ruby>が<ruby>中止<rt>ちゅうし</rt></ruby>になりましたか。",
         "options": ["時間がないから",
           "<ruby>資<rt>し</rt></ruby>料がないから",
@@ -3612,7 +3612,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-059"
       },
       {
-        "type": "読解（短文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
         "text": "セール中はすべての<ruby>商品<rt>しょうひん</rt></ruby>が20%オフです。日曜日まで<ruby>開催<rt>かいさい</rt></ruby>しています。",
         "question": "いつまでセールですか。",
         "options": ["来月",
@@ -3623,7 +3623,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-060"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "週に2<ruby>回<rt>まわ</rt></ruby>、スポーツジムに<ruby>通<rt>つう</rt></ruby>っています。<ruby>筋<rt>すじ</rt></ruby>トレと<ruby>有<rt>ゆう</rt></ruby><ruby>酸<rt>さん</rt></ruby><ruby>素<rt>そ</rt></ruby><ruby>運動<rt>うんどう</rt></ruby>をしています。3か月続けたら、<ruby>体力<rt>たいりょく</rt></ruby>がついてきました。",
         "question": "ジムに<ruby>通<rt>つう</rt></ruby>って何が<ruby>変わり<rt>かわり</rt></ruby>ましたか。",
         "options": ["<ruby>太<rt>ふと</rt></ruby>った",
@@ -3634,7 +3634,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-061"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "<ruby>映画を見る<rt>えいがをみる</rt></ruby>のが<ruby>好<rt>この</rt></ruby>きです。週に1本は必ず見ます。<ruby>最近<rt>さいきん</rt></ruby>は配<ruby>信<rt>しん</rt></ruby>サービスで<ruby>家<rt>いえ</rt></ruby>で見ることが<ruby>多い<rt>おおい</rt></ruby>です。字<ruby>幕<rt>まく</rt></ruby>で見ると、日本<ruby>語<rt>ご</rt></ruby>の<ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>にもなります。",
         "question": "<ruby>映画<rt>えいが</rt></ruby>をどこで見ることが<ruby>多い<rt>おおい</rt></ruby>ですか。",
         "options": ["電車の中",
@@ -3645,7 +3645,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-062"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "カメラを<ruby>始<rt>はじまる</rt></ruby>めて1年になります。<ruby>最初<rt>さいしょ</rt></ruby>は<ruby>風景<rt>ふうけい</rt></ruby>ばかり<ruby>撮<rt>とる</rt></ruby>っていましたが、<ruby>最近<rt>さいきん</rt></ruby>は<ruby>人物<rt>じんぶつ</rt></ruby>を<ruby>撮る<rt>とる</rt></ruby>のも楽しくなりました。",
         "question": "<ruby>最近<rt>さいきん</rt></ruby>は何を<ruby>撮<rt>とる</rt></ruby>っていますか。",
         "options": ["<ruby>人物<rt>じんぶつ</rt></ruby>も",
@@ -3656,7 +3656,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-063"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "読書が<ruby>趣味<rt>しゅみ</rt></ruby>で、月に5冊ぐらい本を読みます。<ruby>図書館<rt>としょかん</rt></ruby>をよく<ruby>利<rt>り</rt></ruby>用しています。買うより<ruby>安い<rt>やすい</rt></ruby>ので、<ruby>節<rt>せつ</rt></ruby>約にもなります。",
         "question": "どうして<ruby>図書館<rt>としょかん</rt></ruby>を<ruby>使い<rt>つかい</rt></ruby>ますか。",
         "options": ["<ruby>近い<rt>ちかい</rt></ruby>から",
@@ -3667,7 +3667,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-064"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【ホテル】シングル8,000円　ツイン12,000円　<ruby>朝食<rt>ちょうしょく</rt></ruby>+1,500円",
         "question": "<ruby>朝食<rt>ちょうしょく</rt></ruby>付シングルは？",
         "options": ["9,500円",
@@ -3678,7 +3678,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-065"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【レンタカー】<ruby>軽<rt>かる</rt></ruby>1日5,000円　<ruby>普通<rt>ふつう</rt></ruby>車1日8,000円　ガソリン<ruby>満<rt>まん</rt></ruby>タン返<ruby>却<rt>きゃく</rt></ruby>",
         "question": "<ruby>普通<rt>ふつう</rt></ruby>車は？",
         "options": ["5,000円",
@@ -3689,7 +3689,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-066"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>店<rt>みせ</rt></ruby>長とスタッフが<ruby>店舗<rt>てんぽ</rt></ruby>で<ruby>相<rt>そう</rt></ruby>談中（25）",
         "question": "何をしますか。",
         "options": ["📌",
@@ -3698,10 +3698,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-04-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット4問34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット4<ruby>問<rt>と</rt></ruby>34】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>上司<rt>じょうし</rt></ruby>と<ruby>部下<rt>ぶか</rt></ruby>がオフィスで<ruby>打ち合わせ<rt>うちあわせ</rt></ruby>中（26）",
         "question": "何をしますか。",
         "options": ["📧",
@@ -3710,10 +3710,10 @@ window.MOCK_DATA['N4'] = {
           "📋"],
         "answer": 2,
         "id": "N4-04-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット4問35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット4<ruby>問<rt>と</rt></ruby>35】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>受<rt>じゅ</rt></ruby>付と<ruby>来客<rt>らいきゃく</rt></ruby>がロビーで<ruby>対応<rt>たいおう</rt></ruby>中（27）",
         "question": "何をしますか。",
         "options": ["🚪",
@@ -3722,10 +3722,10 @@ window.MOCK_DATA['N4'] = {
           "💳"],
         "answer": 3,
         "id": "N4-04-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：カードを　して　ください。\nおとこ：わかりました。【セット4問36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：カードを　して　ください。\nおとこ：わかりました。【セット4<ruby>問<rt>と</rt></ruby>36】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>医師<rt>いし</rt></ruby>と<ruby>患者<rt>かんじゃ</rt></ruby>が<ruby>病院<rt>びょういん</rt></ruby>で<ruby>診<rt>みる</rt></ruby>察中（28）",
         "question": "何をしますか。",
         "options": ["💊",
@@ -3734,10 +3734,10 @@ window.MOCK_DATA['N4'] = {
           "🏥"],
         "answer": 1,
         "id": "N4-04-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット4問37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット4<ruby>問<rt>と</rt></ruby>37】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>教師<rt>きょうし</rt></ruby>と保<ruby>護<rt>まも</rt></ruby><ruby>者<rt>もの</rt></ruby>が学校で面談中（29）",
         "question": "何をしますか。",
         "options": ["📝",
@@ -3746,10 +3746,10 @@ window.MOCK_DATA['N4'] = {
           "📝"],
         "answer": 0,
         "id": "N4-04-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット4問38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット4<ruby>問<rt>と</rt></ruby>38】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>店<rt>みせ</rt></ruby>長とスタッフが<ruby>店舗<rt>てんぽ</rt></ruby>で<ruby>相<rt>そう</rt></ruby>談中（30）",
         "question": "何をしますか。",
         "options": ["📌",
@@ -3761,7 +3761,7 @@ window.MOCK_DATA['N4'] = {
         "script": "おとこ：つぎは　なにを　しますか。\nおんな：ピンを　して　ください。\nおとこ：わかりました。"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>上司<rt>じょうし</rt></ruby>と<ruby>部下<rt>ぶか</rt></ruby>がオフィスで<ruby>打ち合わせ<rt>うちあわせ</rt></ruby>中（31）",
         "question": "何をしますか。",
         "options": ["🗓️",
@@ -3770,10 +3770,10 @@ window.MOCK_DATA['N4'] = {
           "📋"],
         "answer": 0,
         "id": "N4-04-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット4問40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット4<ruby>問<rt>と</rt></ruby>40】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>受<rt>じゅ</rt></ruby>付と<ruby>来客<rt>らいきゃく</rt></ruby>がロビーで<ruby>対応<rt>たいおう</rt></ruby>中（32）",
         "question": "何をしますか。",
         "options": ["🍵",
@@ -3782,10 +3782,10 @@ window.MOCK_DATA['N4'] = {
           "🚪"],
         "answer": 2,
         "id": "N4-04-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット4問41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット4<ruby>問<rt>と</rt></ruby>41】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>発<rt>はつ</rt></ruby>表を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（122）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -3794,10 +3794,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-04-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット4問42】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット4<ruby>問<rt>と</rt></ruby>42】"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "友達を<ruby>ご飯<rt>ごはん</rt></ruby>に<ruby>誘<rt>さそ</rt></ruby>いたい（16）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -3806,11 +3806,11 @@ window.MOCK_DATA['N4'] = {
           "🍽️"],
         "answer": 3,
         "id": "N4-04-082",
-        "script": "🍽について　はなします。【セット4問43】"
+        "script": "🍽について　はなします。【セット4<ruby>問<rt>と</rt></ruby>43】"
       },
       {
-        "type": "聴解（ポイント理解）",
-        "text": "<ruby>朝<rt>あさ</rt></ruby>礼を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（124）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
+        "text": "<ruby>朝<rt>あさ</rt></ruby><ruby>礼<rt>れい</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（124）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
           "📌",
@@ -3818,10 +3818,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-04-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット4問44】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット4<ruby>問<rt>と</rt></ruby>44】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "<ruby>眠い<rt>ねむい</rt></ruby>ですか。（172）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -3832,7 +3832,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-087"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>講<rt>こう</rt></ruby><ruby>演<rt>えん</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（126）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -3841,10 +3841,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-04-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット4問46】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット4<ruby>問<rt>と</rt></ruby>46】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "<ruby>準備<rt>じゅんび</rt></ruby>できましたか。（173）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -3855,7 +3855,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-088"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "インタビューを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（128）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -3864,10 +3864,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-04-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット4問48】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット4<ruby>問<rt>と</rt></ruby>48】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "分かりましたか。（174）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -3878,7 +3878,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-089"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>店員<rt>てんいん</rt></ruby>に<ruby>値段<rt>ねだん</rt></ruby>を聞きたい（17）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -3887,10 +3887,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-04-083",
-        "script": "ピンについて　はなします。【セット4問50】"
+        "script": "ピンについて　はなします。【セット4<ruby>問<rt>と</rt></ruby>50】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "聞こえますか。（175）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -3901,8 +3901,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-090"
       },
       {
-        "type": "聴解（発話表現）",
-        "text": "同<ruby>僚<rt>りょう</rt></ruby>にお礼を<ruby>言<rt>い</rt></ruby>いたい（19）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
+        "text": "同<ruby>僚<rt>りょう</rt></ruby>にお<ruby>礼<rt>れい</rt></ruby>を<ruby>言<rt>い</rt></ruby>いたい（19）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
           "📌",
@@ -3910,10 +3910,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-04-085",
-        "script": "ピンについて　はなします。【セット4問52】"
+        "script": "ピンについて　はなします。【セット4<ruby>問<rt>と</rt></ruby>52】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "この席、空いていますか。（176）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、どうぞ",
@@ -3924,7 +3924,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-091"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "ミーティングを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（125）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -3933,10 +3933,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-04-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット4問54】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット4<ruby>問<rt>と</rt></ruby>54】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "何時からですか。（177）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -3947,7 +3947,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-092"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>研修<rt>けんしゅう</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（123）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -3956,10 +3956,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-04-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット4問56】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット4<ruby>問<rt>と</rt></ruby>56】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "コンビニはありますか。（178）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -3970,7 +3970,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-093"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "友達に<ruby>断<rt>だん</rt></ruby>りたい（20）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -3979,10 +3979,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-04-086",
-        "script": "ピンについて　はなします。【セット4問58】"
+        "script": "ピンについて　はなします。【セット4<ruby>問<rt>と</rt></ruby>58】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "手<ruby>伝<rt>つた</rt></ruby>ってもらえますか。（179）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -3993,7 +3993,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-094"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "先生に<ruby>質問<rt>しつもん</rt></ruby>したい（18）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -4002,10 +4002,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-04-084",
-        "script": "ピンについて　はなします。【セット4問60】"
+        "script": "ピンについて　はなします。【セット4<ruby>問<rt>と</rt></ruby>60】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "どこに出せばいいですか。（180）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["<ruby>総務部<rt>そうむぶ</rt></ruby>です",
@@ -4016,7 +4016,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-04-095"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "ニュースを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（127）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -4025,10 +4025,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-04-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット4問62】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット4<ruby>問<rt>と</rt></ruby>62】"
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>すすめる</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>観<rt>かん</rt></ruby>点",
@@ -4038,7 +4038,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>しめす</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>介護<rt>かいご</rt></ruby>",
@@ -4048,7 +4048,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>しゅつえん</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["片付ける",
@@ -4058,7 +4058,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>たく</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>着<rt>ちゃく</rt></ruby><ruby>払い<rt>はらい</rt></ruby>",
@@ -4068,7 +4068,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>たのしい</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["楽しい",
@@ -4078,7 +4078,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>かなう</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>季節<rt>きせつ</rt></ruby>",
@@ -4088,8 +4088,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>漢</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>漢<rt>かん</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["けい",
           "さ",
@@ -4098,8 +4098,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>関係する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>関<rt>かん</rt></ruby><ruby>係<rt>かか</rt></ruby>する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["ふる",
           "つよ",
@@ -4108,8 +4108,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>顔</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>顔<rt>かお</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["かお",
           "ぎょう",
@@ -4118,8 +4118,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>日帰り</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u>日<ruby>帰<rt>かえ</rt></ruby>り</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["ひがえり",
           "ちか",
@@ -4128,8 +4128,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>起こす</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>起<rt>お</rt></ruby>こす</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["けん",
           "ぎん",
@@ -4138,8 +4138,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>研究所</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>研<rt>けん</rt></ruby><ruby>究<rt>きゅう</rt></ruby><ruby>所<rt>ところ</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["けんきゅうじょ",
           "く",
@@ -4148,8 +4148,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>救急</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>救<rt>すく</rt></ruby><ruby>急<rt>いそ</rt></ruby></u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["ぐ",
           "きゅうきゅう",
@@ -4158,8 +4158,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>去</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>去<rt>さ</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["さ",
           "けい",
@@ -4168,8 +4168,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>強化</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>強<rt>つよ</rt></ruby><ruby>化<rt>か</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["な",
           "あに",
@@ -4178,7 +4178,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>携<rt>たずさ</rt></ruby>帯",
@@ -4188,7 +4188,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["調べる",
@@ -4198,7 +4198,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>延ばす<rt>のばす</rt></ruby>",
@@ -4208,7 +4208,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>感<rt>かん</rt></ruby>想",
@@ -4218,7 +4218,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>曖昧<rt>あいまい</rt></ruby>",
@@ -4228,7 +4228,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）だ",
         "question": "（　）に入るのは？",
         "options": ["<ruby>壁<rt>かべ</rt></ruby>",
@@ -4238,7 +4238,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）だ",
         "question": "（　）に入るのは？",
         "options": ["<ruby>抽<rt>ちゅう</rt></ruby>象<ruby>的<rt>てき</rt></ruby>",
@@ -4248,7 +4248,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）だ",
         "question": "（　）に入るのは？",
         "options": ["<ruby>焦<rt>こ</rt></ruby>点",
@@ -4258,7 +4258,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>椅子<rt>いす</rt></ruby>に（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>座る<rt>すわる</rt></ruby>",
@@ -4268,7 +4268,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>開く<rt>ひらく</rt></ruby>",
@@ -4278,7 +4278,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>仲間<rt>なかま</rt></ruby>",
@@ -4288,7 +4288,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>重ねる<rt>かさねる</rt></ruby>",
@@ -4298,7 +4298,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>心<rt>こころ</rt></ruby>配する",
@@ -4308,7 +4308,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["学<ruby>期<rt>き</rt></ruby>",
@@ -4318,7 +4318,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>楽器<rt>がっき</rt></ruby>",
@@ -4328,7 +4328,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>翻<rt>ひるがえ</rt></ruby>訳",
@@ -4338,7 +4338,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>受<rt>じゅ</rt></ruby>付",
@@ -4348,7 +4348,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["役立つ",
@@ -4358,7 +4358,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["ローン",
@@ -4368,7 +4368,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>彼<rt>かれ</rt></ruby>女",
@@ -4378,8 +4378,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "言い換え",
-        "text": "子供が元気に<ruby>育つ<rt>そだつ</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "子<ruby>供<rt>そな</rt></ruby>が元気に<ruby>育つ<rt>そだつ</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>季節<rt>きせつ</rt></ruby>",
           "<ruby>抜ける<rt>ぬける</rt></ruby>",
@@ -4388,8 +4388,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "言い換え",
-        "text": "観光客が<ruby>増える<rt>ふえる</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>観<rt>かん</rt></ruby><ruby>光<rt>こう</rt></ruby><ruby>客<rt>きゃく</rt></ruby>が<ruby>増える<rt>ふえる</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>設定<rt>せってい</rt></ruby>",
           "<ruby>増<rt>ぞう</rt></ruby><ruby>加<rt>くわ</rt></ruby>する",
@@ -4398,8 +4398,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "言い換え",
-        "text": "貯金を<ruby>増やす<rt>ふやす</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "貯金を<ruby>増やす<rt>ふやす</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>告げる<rt>つげる</rt></ruby>",
           "<ruby>吹く<rt>ふく</rt></ruby>",
@@ -4408,8 +4408,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "言い換え",
-        "text": "人口が<ruby>減る<rt>へる</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "人口が<ruby>減る<rt>へる</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>壊れる<rt>こわれる</rt></ruby>",
           "<ruby>減少<rt>げんしょう</rt></ruby>する",
@@ -4418,8 +4418,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "言い換え",
-        "text": "出費を<ruby>減らす<rt>へらす</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "出<ruby>費<rt>ひ</rt></ruby>を<ruby>減らす<rt>へらす</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["調べる",
           "<ruby>進歩<rt>しんぽ</rt></ruby>する",
@@ -4430,7 +4430,7 @@ window.MOCK_DATA['N4'] = {
     ],
     "5": [
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>便利<rt>べんり</rt></ruby>（　）、<ruby>使い<rt>つかい</rt></ruby>ます。",
         "question": "（　）に　はいるのは？",
         "options": ["だったら",
@@ -4441,7 +4441,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-034"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "スピーチを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（135）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -4450,10 +4450,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-05-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット5問2】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット5<ruby>問<rt>と</rt></ruby>2】"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>暇<rt>ひま</rt></ruby>（　）、手<ruby>伝<rt>つた</rt></ruby>ってください。",
         "question": "（　）に　はいるのは？",
         "options": ["なら",
@@ -4464,7 +4464,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-035"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "山田さんは　会社に　いる（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["こと",
@@ -4475,7 +4475,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-037"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "明日は　雨が　<ruby>降る<rt>ふる</rt></ruby>（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["はず",
@@ -4486,7 +4486,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-039"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>彼<rt>かれ</rt></ruby>は　もう　<ruby>帰<rt>かえ</rt></ruby>った（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["はず",
@@ -4497,7 +4497,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-038"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "来月　日本に　行く（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["つもり",
@@ -4508,7 +4508,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-040"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "この　<ruby>仕事<rt>しごと</rt></ruby>は　<ruby>大変<rt>たいへん</rt></ruby>（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["そう",
@@ -4519,7 +4519,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-042"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "来年　<ruby>結婚<rt>けっこん</rt></ruby>する（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["よう",
@@ -4530,7 +4530,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-041"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "あの　人は　<ruby>親切<rt>しんせつ</rt></ruby>（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["そう",
@@ -4541,7 +4541,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-043"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>彼<rt>かれ</rt></ruby>は　学生（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["そう",
@@ -4552,7 +4552,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-045"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "雨が　<ruby>降<rt>こう</rt></ruby>り（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["よう",
@@ -4563,7 +4563,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-044"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "あの　<ruby>映画<rt>えいが</rt></ruby>は　面白い（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["よう",
@@ -4629,7 +4629,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-051"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "努力の<ruby>甲<rt>こう</rt></ruby>斐（　）、<ruby>成功<rt>せいこう</rt></ruby>を<ruby>収<rt>しゅう</rt></ruby>めた。（121）",
         "question": "（　）に入るのは？",
         "options": ["あって",
@@ -4640,7 +4640,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-052"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>説明<rt>せつめい</rt></ruby>を（　）、<ruby>理解<rt>りかい</rt></ruby>が<ruby>深<rt>しん</rt></ruby>まった。（122）",
         "question": "（　）に入るのは？",
         "options": ["聞いたところ",
@@ -4651,7 +4651,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-053"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>問題<rt>もんだい</rt></ruby>が（　）、<ruby>対策<rt>たいさく</rt></ruby>を<ruby>講<rt>こう</rt></ruby>じた。（123）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>発生<rt>はっせい</rt></ruby>したとたん",
@@ -4662,7 +4662,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-054"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>彼<rt>かれ</rt></ruby>（　）、この<ruby>仕事<rt>しごと</rt></ruby>はできない。（124）",
         "question": "（　）に入るのは？",
         "options": ["はさておき",
@@ -4673,7 +4673,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-055"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>私<rt>わたし</rt></ruby>（　）、そのような<ruby>発言<rt>はつげん</rt></ruby>はしない。（125）",
         "question": "（　）に入るのは？",
         "options": ["に<ruby>限<rt>かぎ</rt></ruby>って",
@@ -4684,8 +4684,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-056"
       },
       {
-        "type": "読解（短文）",
-        "text": "この商品は<ruby>返品<rt>へんぴん</rt></ruby>できません。買う前によく<ruby>確認<rt>かくにん</rt></ruby>してください。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "この<ruby>商<rt>しょう</rt></ruby><ruby>品<rt>しな</rt></ruby>は<ruby>返品<rt>へんぴん</rt></ruby>できません。買う前によく<ruby>確認<rt>かくにん</rt></ruby>してください。",
         "question": "この<ruby>商品<rt>しょうひん</rt></ruby>について正しいのはどれですか。",
         "options": ["<ruby>交換<rt>こうかん</rt></ruby>できる",
           "セール中",
@@ -4695,8 +4695,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-057"
       },
       {
-        "type": "読解（短文）",
-        "text": "<ruby>会員<rt>かいいん</rt></ruby>になると、ポイントが2倍になります。<ruby>入会金<rt>にゅうかいきん</rt></ruby>は無料です。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>会員<rt>かいいん</rt></ruby>になると、ポイントが2<ruby>倍<rt>ばい</rt></ruby>になります。<ruby>入会金<rt>にゅうかいきん</rt></ruby>は<ruby>無<rt>む</rt></ruby>料です。",
         "question": "<ruby>会員<rt>かいいん</rt></ruby>になるとどうなりますか。",
         "options": ["<ruby>安<rt>やす</rt></ruby>くなる",
           "ポイントが2<ruby>倍<rt>ばい</rt></ruby>になる",
@@ -4706,8 +4706,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-058"
       },
       {
-        "type": "読解（短文）",
-        "text": "この店は<ruby>現金<rt>げんきん</rt></ruby>のみです。カードは使えません。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "この<ruby>店<rt>てん</rt></ruby>は<ruby>現金<rt>げんきん</rt></ruby>のみです。カードは<ruby>使<rt>つか</rt></ruby>えません。",
         "question": "この<ruby>店<rt>みせ</rt></ruby>でカードは<ruby>使<rt>つか</rt></ruby>えますか。",
         "options": ["<ruby>使<rt>つか</rt></ruby>える",
           "ポイントカードだけ<ruby>使<rt>つか</rt></ruby>える",
@@ -4717,8 +4717,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-059"
       },
       {
-        "type": "読解（短文）",
-        "text": "<ruby>配達<rt>はいたつ</rt></ruby>は<ruby>注文<rt>ちゅうもん</rt></ruby>から3日かかります。急ぎの場合は<ruby>別料金<rt>べつりょうきん</rt></ruby>で翌日届けます。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>配達<rt>はいたつ</rt></ruby>は<ruby>注文<rt>ちゅうもん</rt></ruby>から3日かかります。<ruby>急<rt>いそ</rt></ruby>ぎの<ruby>場<rt>ば</rt></ruby><ruby>合<rt>あ</rt></ruby>は<ruby>別料金<rt>べつりょうきん</rt></ruby>で翌日<ruby>届<rt>とど</rt></ruby>けます。",
         "question": "<ruby>普通<rt>ふつう</rt></ruby>の配達は何日かかりますか。",
         "options": ["1週間",
           "3日",
@@ -4728,7 +4728,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-060"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "ランニングを<ruby>始<rt>はじまる</rt></ruby>めて3か月になります。<ruby>最初<rt>さいしょ</rt></ruby>は1キロも<ruby>走<rt>はしる</rt></ruby>れませんでしたが、今は5キロ<ruby>走<rt>はしる</rt></ruby>れるようになりました。来月、10キロのマラソン大会に出る<ruby>予定<rt>よてい</rt></ruby>です。",
         "question": "来月何をする<ruby>予定<rt>よてい</rt></ruby>ですか。",
         "options": ["<ruby>旅行<rt>りょこう</rt></ruby>に行く",
@@ -4739,7 +4739,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-061"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "友達とカラオケに行きました。3時間<ruby>歌<rt>うた</rt></ruby>って、のどが<ruby>痛<rt>つう</rt></ruby>くなりました。でも、ストレス<ruby>発散<rt>はっさん</rt></ruby>になって、とても楽しかったです。",
         "question": "カラオケについてどう<ruby>思い<rt>おもい</rt></ruby>ましたか。",
         "options": ["楽しかった",
@@ -4750,7 +4750,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-062"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "日本のアニメが<ruby>好<rt>この</rt></ruby>きで、日本<ruby>語<rt>ご</rt></ruby>を<ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>し<ruby>始<rt>はじまる</rt></ruby>めました。字<ruby>幕<rt>まく</rt></ruby>なしで見られるようになることが<ruby>目標<rt>もくひょう</rt></ruby>です。<ruby>最近<rt>さいきん</rt></ruby>は半分ぐらい分かるようになりました。",
         "question": "日本<ruby>語<rt>ご</rt></ruby>を<ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>した理由は何ですか。",
         "options": ["友達に<ruby>誘<rt>さそ</rt></ruby>われたから",
@@ -4761,7 +4761,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-063"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "日本の<ruby>夏<rt>なつ</rt></ruby>は暑いですが、楽しいことも<ruby>多い<rt>おおい</rt></ruby>です。花火大会や<ruby>夏<rt>なつ</rt></ruby><ruby>祭り<rt>まつり</rt></ruby>があります。浴<ruby>衣<rt>ころも</rt></ruby>を<ruby>着<rt>ちゃく</rt></ruby>て、<ruby>屋<rt>や</rt></ruby><ruby>台<rt>だい</rt></ruby>で<ruby>食べ物<rt>たべもの</rt></ruby>を買ったりします。",
         "question": "日本の<ruby>夏<rt>なつ</rt></ruby>について正しいのは何ですか。",
         "options": ["<ruby>涼しい<rt>すずしい</rt></ruby>",
@@ -4772,7 +4772,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-064"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【<ruby>歯医者<rt>はいしゃ</rt></ruby>】平日9:00-19:00　土曜9:00-13:00　日祝休<ruby>診<rt>みる</rt></ruby>",
         "question": "土曜は何時まで？",
         "options": ["12:00",
@@ -4783,7 +4783,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-065"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【<ruby>塾<rt>じゅく</rt></ruby>】小学生週2<ruby>回<rt>まわ</rt></ruby>15,000円　中学生週3<ruby>回<rt>まわ</rt></ruby>22,000円　教<ruby>材<rt>ざい</rt></ruby><ruby>費<rt>ひ</rt></ruby><ruby>別<rt>べつ</rt></ruby>",
         "question": "中学生は？",
         "options": ["18,000円",
@@ -4794,7 +4794,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-066"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>医師<rt>いし</rt></ruby>と<ruby>患者<rt>かんじゃ</rt></ruby>が<ruby>病院<rt>びょういん</rt></ruby>で<ruby>診<rt>みる</rt></ruby>察中（33）",
         "question": "何をしますか。",
         "options": ["🏥",
@@ -4803,10 +4803,10 @@ window.MOCK_DATA['N4'] = {
           "✉️"],
         "answer": 1,
         "id": "N4-05-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット5問34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット5<ruby>問<rt>と</rt></ruby>34】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>教師<rt>きょうし</rt></ruby>と保<ruby>護<rt>まも</rt></ruby><ruby>者<rt>もの</rt></ruby>が学校で面談中（34）",
         "question": "何をしますか。",
         "options": ["📝",
@@ -4815,10 +4815,10 @@ window.MOCK_DATA['N4'] = {
           "📊"],
         "answer": 0,
         "id": "N4-05-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット5問35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット5<ruby>問<rt>と</rt></ruby>35】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>店<rt>みせ</rt></ruby>長とスタッフが<ruby>店舗<rt>てんぽ</rt></ruby>で<ruby>相<rt>そう</rt></ruby>談中（35）",
         "question": "何をしますか。",
         "options": ["📌",
@@ -4827,10 +4827,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-05-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：ピンを　して　ください。\nおとこ：わかりました。【セット5問36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：ピンを　して　ください。\nおとこ：わかりました。【セット5<ruby>問<rt>と</rt></ruby>36】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>上司<rt>じょうし</rt></ruby>と<ruby>部下<rt>ぶか</rt></ruby>がオフィスで<ruby>打ち合わせ<rt>うちあわせ</rt></ruby>中（36）",
         "question": "何をしますか。",
         "options": ["📋",
@@ -4839,10 +4839,10 @@ window.MOCK_DATA['N4'] = {
           "📞"],
         "answer": 2,
         "id": "N4-05-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット5問37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット5<ruby>問<rt>と</rt></ruby>37】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>受<rt>じゅ</rt></ruby>付と<ruby>来客<rt>らいきゃく</rt></ruby>がロビーで<ruby>対応<rt>たいおう</rt></ruby>中（37）",
         "question": "何をしますか。",
         "options": ["💳",
@@ -4851,10 +4851,10 @@ window.MOCK_DATA['N4'] = {
           "📢"],
         "answer": 0,
         "id": "N4-05-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット5問38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット5<ruby>問<rt>と</rt></ruby>38】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>医師<rt>いし</rt></ruby>と<ruby>患者<rt>かんじゃ</rt></ruby>が<ruby>病院<rt>びょういん</rt></ruby>で<ruby>診<rt>みる</rt></ruby>察中（38）",
         "question": "何をしますか。",
         "options": ["💊",
@@ -4863,10 +4863,10 @@ window.MOCK_DATA['N4'] = {
           "✉️"],
         "answer": 1,
         "id": "N4-05-072",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：けんきゅうを　して　ください。\nおとこ：わかりました。【セット5問39】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：けんきゅうを　して　ください。\nおとこ：わかりました。【セット5<ruby>問<rt>と</rt></ruby>39】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>教師<rt>きょうし</rt></ruby>と保<ruby>護<rt>まも</rt></ruby><ruby>者<rt>もの</rt></ruby>が学校で面談中（39）",
         "question": "何をしますか。",
         "options": ["📝",
@@ -4875,10 +4875,10 @@ window.MOCK_DATA['N4'] = {
           "📄"],
         "answer": 2,
         "id": "N4-05-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット5問40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット5<ruby>問<rt>と</rt></ruby>40】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>店<rt>みせ</rt></ruby>長とスタッフが<ruby>店舗<rt>てんぽ</rt></ruby>で<ruby>相<rt>そう</rt></ruby>談中（40）",
         "question": "何をしますか。",
         "options": ["📌",
@@ -4887,10 +4887,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-05-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット5問41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット5<ruby>問<rt>と</rt></ruby>41】"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "友達を<ruby>ご飯<rt>ごはん</rt></ruby>に<ruby>誘<rt>さそ</rt></ruby>いたい（21）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -4899,10 +4899,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-05-082",
-        "script": "🍽について　はなします。【セット5問42】"
+        "script": "🍽について　はなします。【セット5<ruby>問<rt>と</rt></ruby>42】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（130）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -4911,10 +4911,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-05-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット5問43】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット5<ruby>問<rt>と</rt></ruby>43】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "お名前は。（181）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -4925,7 +4925,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-087"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "プレゼンを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（131）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -4934,10 +4934,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-05-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット5問45】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット5<ruby>問<rt>と</rt></ruby>45】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "どのくらいかかりますか。（182）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -4948,7 +4948,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-088"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>案内<rt>あんない</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（134）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -4957,10 +4957,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-05-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット5問47】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット5<ruby>問<rt>と</rt></ruby>47】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "<ruby>使<rt>つか</rt></ruby>ってもいいですか。（183）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -4971,7 +4971,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-089"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>説明<rt>せつめい</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（129）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -4980,10 +4980,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-05-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット5問49】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット5<ruby>問<rt>と</rt></ruby>49】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "もう一<ruby>杯<rt>さかずき</rt></ruby>いかがですか。（184）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いただきます",
@@ -4994,7 +4994,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-090"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "先生に<ruby>質問<rt>しつもん</rt></ruby>したい（23）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -5003,10 +5003,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-05-084",
-        "script": "ピンについて　はなします。【セット5問51】"
+        "script": "ピンについて　はなします。【セット5<ruby>問<rt>と</rt></ruby>51】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "楽しかったですね。（185）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -5017,7 +5017,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-091"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "友達に<ruby>断<rt>だん</rt></ruby>りたい（25）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -5026,10 +5026,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-05-086",
-        "script": "ピンについて　はなします。【セット5問53】"
+        "script": "ピンについて　はなします。【セット5<ruby>問<rt>と</rt></ruby>53】"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "明日　天気が　<ruby>良<rt>りょう</rt></ruby>（　）、出かけます。",
         "question": "（　）に　はいるのは？",
         "options": ["かったら",
@@ -5040,7 +5040,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-036"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "ラジオを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（133）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -5049,10 +5049,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-05-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット5問55】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット5<ruby>問<rt>と</rt></ruby>55】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "お時間よろしいですか。（187）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -5063,7 +5063,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-093"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>店員<rt>てんいん</rt></ruby>に<ruby>値段<rt>ねだん</rt></ruby>を聞きたい（22）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -5072,10 +5072,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-05-083",
-        "script": "ピンについて　はなします。【セット5問57】"
+        "script": "ピンについて　はなします。【セット5<ruby>問<rt>と</rt></ruby>57】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "<ruby>傘<rt>かさ</rt></ruby>はお<ruby>持<rt>もつ</rt></ruby>ちですか。（188）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["<ruby>忘<rt>ぼう</rt></ruby>れました",
@@ -5086,7 +5086,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-094"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>授業<rt>じゅぎょう</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（132）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -5095,10 +5095,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-05-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット5問59】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット5<ruby>問<rt>と</rt></ruby>59】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "静かでいいですね。（189）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -5109,8 +5109,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-095"
       },
       {
-        "type": "聴解（発話表現）",
-        "text": "同<ruby>僚<rt>りょう</rt></ruby>にお礼を<ruby>言<rt>い</rt></ruby>いたい（24）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
+        "text": "同<ruby>僚<rt>りょう</rt></ruby>にお<ruby>礼<rt>れい</rt></ruby>を<ruby>言<rt>い</rt></ruby>いたい（24）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
           "📌",
@@ -5118,10 +5118,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-05-085",
-        "script": "ピンについて　はなします。【セット5問61】"
+        "script": "ピンについて　はなします。【セット5<ruby>問<rt>と</rt></ruby>61】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "郵<ruby>便<rt>べん</rt></ruby><ruby>局<rt>きょく</rt></ruby>はどこですか。（186）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -5132,7 +5132,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-05-092"
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>じゅぎょう</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>吹く<rt>ふく</rt></ruby>",
@@ -5142,7 +5142,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>ていねん</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>盗む<rt>ぬすむ</rt></ruby>",
@@ -5152,7 +5152,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>みおくり</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>対<rt>たい</rt></ruby>処",
@@ -5162,7 +5162,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>おちつく</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["落ち<ruby>着く<rt>つく</rt></ruby>",
@@ -5172,7 +5172,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>いそん</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>予算<rt>よさん</rt></ruby>",
@@ -5182,7 +5182,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>にげる</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>等しい<rt>ひとしい</rt></ruby>",
@@ -5192,8 +5192,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>卒業する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u>卒<ruby>業<rt>ぎょう</rt></ruby>する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["こ",
           "かる",
@@ -5202,8 +5202,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>近づく</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>近<rt>ちか</rt></ruby>づく</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["ちかづく",
           "き",
@@ -5212,8 +5212,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>銀</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>銀<rt>ぎん</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["ひろ",
           "けん",
@@ -5222,8 +5222,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>区別する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>区<rt>く</rt></ruby><ruby>別<rt>わか</rt></ruby>する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["くべつする",
           "けん",
@@ -5232,8 +5232,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "とても<u>具体的</u>だの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "とても<u><ruby>具<rt>ぐ</rt></ruby><ruby>体<rt>からだ</rt></ruby><ruby>的<rt>てき</rt></ruby></u>だの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["あね",
           "けん",
@@ -5242,8 +5242,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>経験する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>経<rt>けい</rt></ruby><ruby>験<rt>けん</rt></ruby>する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["けいけんする",
           "い",
@@ -5252,8 +5252,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>兄</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>兄<rt>あに</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["わたし",
           "ふる",
@@ -5262,8 +5262,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "とても<u>軽い</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "とても<u><ruby>軽<rt>かる</rt></ruby>い</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["う",
           "こ",
@@ -5272,8 +5272,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<ruby>旅行<rt>りょこう</rt></ruby>の日程を<u>決める</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<ruby>旅行<rt>りょこう</rt></ruby>の日程を<u><ruby>決<rt>き</rt></ruby>める</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["きめる",
           "かた",
@@ -5282,7 +5282,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>願い<rt>ねがい</rt></ruby>",
@@ -5292,7 +5292,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "人間（　）を<ruby>大切<rt>たいせつ</rt></ruby>にする",
         "question": "（　）に入るのは？",
         "options": ["努力",
@@ -5302,7 +5302,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>求める<rt>もとめる</rt></ruby>",
@@ -5312,7 +5312,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>機会<rt>きかい</rt></ruby>",
@@ -5322,7 +5322,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>焦<rt>こ</rt></ruby>点",
@@ -5332,7 +5332,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>記事<rt>きじ</rt></ruby>",
@@ -5342,7 +5342,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>期<rt>き</rt></ruby><ruby>待<rt>まつ</rt></ruby>",
@@ -5352,7 +5352,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>却下<rt>きゃっか</rt></ruby>",
@@ -5362,7 +5362,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>重ねる<rt>かさねる</rt></ruby>",
@@ -5372,7 +5372,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "日本<ruby>文化<rt>ぶんか</rt></ruby>に（　）がある",
         "question": "（　）に入るのは？",
         "options": ["<ruby>監査<rt>かんさ</rt></ruby>",
@@ -5382,7 +5382,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>走る<rt>はしる</rt></ruby>",
@@ -5392,7 +5392,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>分野<rt>ぶんや</rt></ruby>",
@@ -5402,7 +5402,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>貴重な<rt>きちょうな</rt></ruby>（　）を積む",
         "question": "（　）に入るのは？",
         "options": ["<ruby>経験<rt>けいけん</rt></ruby>",
@@ -5412,7 +5412,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>試験<rt>しけん</rt></ruby>の（　）が出る",
         "question": "（　）に入るのは？",
         "options": ["<ruby>残る<rt>のこる</rt></ruby>",
@@ -5422,7 +5422,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>道路<rt>どうろ</rt></ruby>",
@@ -5432,7 +5432,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>事故<rt>じこ</rt></ruby>の（　）を調べる",
         "question": "（　）に入るのは？",
         "options": ["<ruby>中断<rt>ちゅうだん</rt></ruby>",
@@ -5442,7 +5442,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>資産<rt>しさん</rt></ruby>",
@@ -5452,7 +5452,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>公園<rt>こうえん</rt></ruby>",
@@ -5462,7 +5462,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>訂正<rt>ていせい</rt></ruby>",
@@ -5472,7 +5472,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>壁<rt>かべ</rt></ruby>",
@@ -5482,8 +5482,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "言い換え",
-        "text": "毎日運動を<ruby>続ける<rt>つづける</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "毎日<ruby>運<rt>はこ</rt></ruby><ruby>動<rt>うご</rt></ruby>を<ruby>続ける<rt>つづける</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>延ばす<rt>のばす</rt></ruby>",
           "<ruby>欠<rt>か</rt></ruby>席",
@@ -5492,8 +5492,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "言い換え",
-        "text": "雨が三日間<ruby>続く<rt>つづく</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "雨が三日間<ruby>続く<rt>つづく</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>安い<rt>やすい</rt></ruby>",
           "<ruby>届け出<rt>とどけで</rt></ruby>",
@@ -5502,8 +5502,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "言い換え",
-        "text": "印象に<ruby>残る<rt>のこる</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>印<rt>しるし</rt></ruby>象に<ruby>残る<rt>のこる</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>印<rt>しるし</rt></ruby><ruby>刷<rt>さつ</rt></ruby>",
           "落ち<ruby>着く<rt>つく</rt></ruby>",
@@ -5512,8 +5512,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "言い換え",
-        "text": "仕事を<ruby>残す<rt>のこす</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>仕<rt>つか</rt></ruby><ruby>事<rt>こと</rt></ruby>を<ruby>残す<rt>のこす</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>疲れる<rt>つかれる</rt></ruby>",
           "<ruby>信頼<rt>しんらい</rt></ruby>",
@@ -5522,8 +5522,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "言い換え",
-        "text": "部屋を<ruby>片付ける<rt>かたづける</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>部<rt>ぶ</rt></ruby><ruby>屋<rt>や</rt></ruby>を<ruby>片付ける<rt>かたづける</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>特許<rt>とっきょ</rt></ruby>",
           "真<ruby>剣<rt>つるぎ</rt></ruby>",
@@ -5534,7 +5534,7 @@ window.MOCK_DATA['N4'] = {
     ],
     "6": [
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>寒い<rt>さむい</rt></ruby>（　）、コートを　<ruby>着<rt>ちゃく</rt></ruby>ています。",
         "question": "（　）に　はいるのは？",
         "options": ["ので",
@@ -5545,7 +5545,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-034"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "食べ（　）、手を　<ruby>洗<rt>あら</rt></ruby>ってください。",
         "question": "（　）に　はいるのは？",
         "options": ["てから",
@@ -5556,7 +5556,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-037"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "時間が　ない（　）、タクシーで　行きました。",
         "question": "（　）に　はいるのは？",
         "options": ["ため",
@@ -5567,7 +5567,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-036"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "シャワーを　浴び（　）、<ruby>寝<rt>しん</rt></ruby>ました。",
         "question": "（　）に　はいるのは？",
         "options": ["てから",
@@ -5578,7 +5578,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-038"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>病気<rt>びょうき</rt></ruby>な（　）、<ruby>仕事<rt>しごと</rt></ruby>を　休みました。",
         "question": "（　）に　はいるのは？",
         "options": ["が",
@@ -5589,7 +5589,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-035"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>ご飯<rt>ごはん</rt></ruby>を　食べ（　）、<ruby>歯<rt>し</rt></ruby>を　<ruby>磨<rt>みが</rt></ruby>きます。",
         "question": "（　）に　はいるのは？",
         "options": ["る前に",
@@ -5600,7 +5600,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-039"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "音楽を　聞き（　）、<ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>します。",
         "question": "（　）に　はいるのは？",
         "options": ["から",
@@ -5611,7 +5611,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-040"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "この　本は　読み（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["そう",
@@ -5622,7 +5622,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-042"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>歩<rt>ぶ</rt></ruby>き（　）、スマホを　見ないでください。",
         "question": "（　）に　はいるのは？",
         "options": ["まま",
@@ -5633,7 +5633,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-041"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "この　<ruby>漢<rt>かん</rt></ruby>字は　書き（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["そう",
@@ -5644,7 +5644,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-043"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "この　<ruby>問題<rt>もんだい</rt></ruby>は　分かり（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["やすい",
@@ -5666,7 +5666,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-047"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "山田さんは　話し（　）人です。",
         "question": "（　）に　はいるのは？",
         "options": ["たい",
@@ -5688,7 +5688,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-048"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "この　<ruby>靴<rt>くつ</rt></ruby>は　<ruby>履<rt>は</rt></ruby>き（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["にくい",
@@ -5732,7 +5732,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-051"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "日本<ruby>経済<rt>けいざい</rt></ruby>は<ruby>長期<rt>ちょうき</rt></ruby>にわたる<ruby>停滞<rt>ていたい</rt></ruby>（　）、<ruby>回<rt>まわ</rt></ruby>復の<ruby>兆<rt>ちょう</rt></ruby>しを見せている。（126）",
         "question": "（　）に入るのは？",
         "options": ["に至り",
@@ -5743,7 +5743,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-052"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>彼<rt>かれ</rt></ruby>の提<ruby>案<rt>あん</rt></ruby>は<ruby>斬新<rt>ざんしん</rt></ruby>（　）、実<ruby>現<rt>あらわ</rt></ruby><ruby>可能性<rt>かのうせい</rt></ruby>に<ruby>欠ける<rt>かける</rt></ruby>。（127）",
         "question": "（　）に入るのは？",
         "options": ["ではあるが",
@@ -5754,7 +5754,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-053"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>環境問題<rt>かんきょうもんだい</rt></ruby>の<ruby>解決<rt>かいけつ</rt></ruby>（　）、<ruby>国際協力<rt>こくさいきょうりょく</rt></ruby>が<ruby>不可欠<rt>ふかけつ</rt></ruby>だ。（128）",
         "question": "（　）に入るのは？",
         "options": ["にとって",
@@ -5765,7 +5765,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-054"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "この<ruby>研究<rt>けんきゅう</rt></ruby>は長年の努力（　）<ruby>結<rt>むす</rt></ruby>実したものだ。（129）",
         "question": "（　）に入るのは？",
         "options": ["の",
@@ -5776,7 +5776,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-055"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "社会の<ruby>変化<rt>へんか</rt></ruby>（　）、<ruby>教育<rt>きょういく</rt></ruby>も<ruby>見直し<rt>みなおし</rt></ruby>が必要だ。（130）",
         "question": "（　）に入るのは？",
         "options": ["に伴い",
@@ -5787,8 +5787,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-056"
       },
       {
-        "type": "読解（短文）",
-        "text": "<ruby>試験<rt>しけん</rt></ruby>は来週の水曜日です。<ruby>範囲<rt>はんい</rt></ruby>は1課から5課までです。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>試験<rt>しけん</rt></ruby>は来週の水曜日です。<ruby>範囲<rt>はんい</rt></ruby>は1<ruby>課<rt>か</rt></ruby>から5<ruby>課<rt>か</rt></ruby>までです。",
         "question": "<ruby>試験<rt>しけん</rt></ruby>の<ruby>範囲<rt>はんい</rt></ruby>はどこまでですか。",
         "options": ["6<ruby>課<rt>か</rt></ruby>まで",
           "4<ruby>課<rt>か</rt></ruby>まで",
@@ -5798,8 +5798,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-057"
       },
       {
-        "type": "読解（短文）",
-        "text": "<ruby>宿題<rt>しゅくだい</rt></ruby>は金曜日までに出してください。遅れると<ruby>点数<rt>てんすう</rt></ruby>が下がります。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>宿題<rt>しゅくだい</rt></ruby>は金曜日までに出してください。<ruby>遅<rt>ち</rt></ruby>れると<ruby>点数<rt>てんすう</rt></ruby>が下がります。",
         "question": "<ruby>宿題<rt>しゅくだい</rt></ruby>を<ruby>遅れ<rt>おくれ</rt></ruby>て出すとどうなりますか。",
         "options": ["点<ruby>数<rt>すう</rt></ruby>が下がる",
           "<ruby>受<rt>じゅ</rt></ruby>け取ってもらえない",
@@ -5809,8 +5809,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-058"
       },
       {
-        "type": "読解（短文）",
-        "text": "<ruby>授業<rt>じゅぎょう</rt></ruby>を休むときは、<ruby>事前<rt>じぜん</rt></ruby>に連絡してください。<ruby>無断<rt>むだん</rt></ruby>で休むと<ruby>欠席<rt>けっせき</rt></ruby>になります。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>授業<rt>じゅぎょう</rt></ruby>を休むときは、<ruby>事前<rt>じぜん</rt></ruby>に<ruby>連<rt>れん</rt></ruby><ruby>絡<rt>から</rt></ruby>してください。<ruby>無断<rt>むだん</rt></ruby>で休むと<ruby>欠席<rt>けっせき</rt></ruby>になります。",
         "question": "<ruby>授業<rt>じゅぎょう</rt></ruby>を休むときはどうしますか。",
         "options": ["友達に<ruby>言う<rt>いう</rt></ruby>",
           "<ruby>事前<rt>じぜん</rt></ruby>に<ruby>連絡<rt>れんらく</rt></ruby>する",
@@ -5820,8 +5820,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-059"
       },
       {
-        "type": "読解（短文）",
-        "text": "<ruby>教科書<rt>きょうかしょ</rt></ruby>を忘れた人は、隣の人と見てください。次からは忘れないように。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>教科書<rt>きょうかしょ</rt></ruby>を<ruby>忘<rt>ぼう</rt></ruby>れた人は、<ruby>隣<rt>となり</rt></ruby>の人と見てください。次からは<ruby>忘<rt>ぼう</rt></ruby>れないように。",
         "question": "教科書を<ruby>忘<rt>ぼう</rt></ruby>れたらどうしますか。",
         "options": ["<ruby>隣<rt>となり</rt></ruby>の人と見る",
           "<ruby>帰る<rt>かえる</rt></ruby>",
@@ -5831,7 +5831,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-060"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "<ruby>医者<rt>いしゃ</rt></ruby>に「もっと<ruby>運動<rt>うんどう</rt></ruby>したほうがいい」と<ruby>言<rt>い</rt></ruby>われました。それで、<ruby>毎朝<rt>まいあさ</rt></ruby>30分<ruby>散歩<rt>さんぽ</rt></ruby>することにしました。1か月続けたら、<ruby>体<rt>からだ</rt></ruby>が<ruby>軽<rt>かる</rt></ruby>くなりました。",
         "question": "どうして<ruby>散歩<rt>さんぽ</rt></ruby>を<ruby>始<rt>はじまる</rt></ruby>めましたか。",
         "options": ["ダイエットのため",
@@ -5842,7 +5842,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-061"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>野菜<rt>やさい</rt></ruby>を<ruby>多<rt>おお</rt></ruby>く食べるようにしています。<ruby>以前<rt>いぜん</rt></ruby>は肉ばかり食べていましたが、健<ruby>康<rt>こう</rt></ruby>のために<ruby>変<rt>へん</rt></ruby>えました。<ruby>体<rt>からだ</rt></ruby>の調子が<ruby>良<rt>りょう</rt></ruby>くなった気がします。",
         "question": "どうして<ruby>野菜<rt>やさい</rt></ruby>を食べるようになりましたか。",
         "options": ["ダイエットのため",
@@ -5853,7 +5853,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-062"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "<ruby>毎朝<rt>まいあさ</rt></ruby>コーヒーを飲みます。カフェインがないと目が<ruby>覚<rt>おぼ</rt></ruby>めません。でも、飲みすぎると<ruby>夜<rt>よる</rt></ruby><ruby>眠<rt>みん</rt></ruby>れなくなるので、午後3時<ruby>以降<rt>いこう</rt></ruby>は飲まないようにしています。",
         "question": "午後3時<ruby>以降<rt>いこう</rt></ruby>コーヒーを飲まない理由は何ですか。",
         "options": ["<ruby>嫌い<rt>きらい</rt></ruby>だから",
@@ -5864,7 +5864,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-063"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>睡眠<rt>すいみん</rt></ruby>の<ruby>質<rt>しつ</rt></ruby>が<ruby>悪い<rt>わるい</rt></ruby>です。<ruby>夜中<rt>よなか</rt></ruby>に何<ruby>度<rt>ど</rt></ruby>も目が<ruby>覚<rt>おぼ</rt></ruby>めます。スマホを見る時間を<ruby>減<rt>へん</rt></ruby>らしたら、よく<ruby>眠<rt>みん</rt></ruby>れるようになりました。",
         "question": "よく<ruby>眠<rt>みん</rt></ruby>れるようになるために何をしましたか。",
         "options": ["<ruby>薬<rt>くすり</rt></ruby>を飲んだ",
@@ -5875,7 +5875,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-064"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【クリーニング】ワイシャツ250円　スーツ1,800円　<ruby>即<rt>そく</rt></ruby>日+300円",
         "question": "スーツ<ruby>即<rt>そく</rt></ruby>日は？",
         "options": ["2,100円",
@@ -5886,7 +5886,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-065"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【カラオケ】平日昼30分150円　<ruby>夜<rt>よる</rt></ruby>250円　土日祝300円",
         "question": "土曜1時間は？",
         "options": ["600円",
@@ -5897,7 +5897,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-066"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>上司<rt>じょうし</rt></ruby>と<ruby>部下<rt>ぶか</rt></ruby>がオフィスで<ruby>打ち合わせ<rt>うちあわせ</rt></ruby>中（41）",
         "question": "何をしますか。",
         "options": ["📋",
@@ -5906,10 +5906,10 @@ window.MOCK_DATA['N4'] = {
           "📧"],
         "answer": 1,
         "id": "N4-06-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット6問34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット6<ruby>問<rt>と</rt></ruby>34】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>受<rt>じゅ</rt></ruby>付と<ruby>来客<rt>らいきゃく</rt></ruby>がロビーで<ruby>対応<rt>たいおう</rt></ruby>中（42）",
         "question": "何をしますか。",
         "options": ["🍵",
@@ -5918,10 +5918,10 @@ window.MOCK_DATA['N4'] = {
           "💳"],
         "answer": 3,
         "id": "N4-06-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット6問35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット6<ruby>問<rt>と</rt></ruby>35】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>医師<rt>いし</rt></ruby>と<ruby>患者<rt>かんじゃ</rt></ruby>が<ruby>病院<rt>びょういん</rt></ruby>で<ruby>診<rt>みる</rt></ruby>察中（43）",
         "question": "何をしますか。",
         "options": ["🔬",
@@ -5930,10 +5930,10 @@ window.MOCK_DATA['N4'] = {
           "💊"],
         "answer": 0,
         "id": "N4-06-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：けんきゅうを　して　ください。\nおとこ：わかりました。【セット6問36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：けんきゅうを　して　ください。\nおとこ：わかりました。【セット6<ruby>問<rt>と</rt></ruby>36】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>教師<rt>きょうし</rt></ruby>と保<ruby>護<rt>まも</rt></ruby><ruby>者<rt>もの</rt></ruby>が学校で面談中（44）",
         "question": "何をしますか。",
         "options": ["📝",
@@ -5942,10 +5942,10 @@ window.MOCK_DATA['N4'] = {
           "📄"],
         "answer": 1,
         "id": "N4-06-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット6問37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット6<ruby>問<rt>と</rt></ruby>37】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>店<rt>みせ</rt></ruby>長とスタッフが<ruby>店舗<rt>てんぽ</rt></ruby>で<ruby>相<rt>そう</rt></ruby>談中（45）",
         "question": "何をしますか。",
         "options": ["📌",
@@ -5954,10 +5954,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-06-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット6問38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット6<ruby>問<rt>と</rt></ruby>38】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>上司<rt>じょうし</rt></ruby>と<ruby>部下<rt>ぶか</rt></ruby>がオフィスで<ruby>打ち合わせ<rt>うちあわせ</rt></ruby>中（46）",
         "question": "何をしますか。",
         "options": ["🗓️",
@@ -5966,10 +5966,10 @@ window.MOCK_DATA['N4'] = {
           "📧"],
         "answer": 0,
         "id": "N4-06-072",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：スケジュールを　して　ください。\nおとこ：わかりました。【セット6問39】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：スケジュールを　して　ください。\nおとこ：わかりました。【セット6<ruby>問<rt>と</rt></ruby>39】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>受<rt>じゅ</rt></ruby>付と<ruby>来客<rt>らいきゃく</rt></ruby>がロビーで<ruby>対応<rt>たいおう</rt></ruby>中（47）",
         "question": "何をしますか。",
         "options": ["📢",
@@ -5978,10 +5978,10 @@ window.MOCK_DATA['N4'] = {
           "🍵"],
         "answer": 1,
         "id": "N4-06-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット6問40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット6<ruby>問<rt>と</rt></ruby>40】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>医師<rt>いし</rt></ruby>と<ruby>患者<rt>かんじゃ</rt></ruby>が<ruby>病院<rt>びょういん</rt></ruby>で<ruby>診<rt>みる</rt></ruby>察中（48）",
         "question": "何をしますか。",
         "options": ["🔬",
@@ -5990,10 +5990,10 @@ window.MOCK_DATA['N4'] = {
           "✉️"],
         "answer": 0,
         "id": "N4-06-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット6問41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット6<ruby>問<rt>と</rt></ruby>41】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>報告<rt>ほうこく</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（136）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -6002,10 +6002,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-06-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット6問42】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット6<ruby>問<rt>と</rt></ruby>42】"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "友達を<ruby>ご飯<rt>ごはん</rt></ruby>に<ruby>誘<rt>さそ</rt></ruby>いたい（26）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -6014,10 +6014,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-06-082",
-        "script": "🍽について　はなします。【セット6問43】"
+        "script": "🍽について　はなします。【セット6<ruby>問<rt>と</rt></ruby>43】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>講義<rt>こうぎ</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（138）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -6026,10 +6026,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-06-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット6問44】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット6<ruby>問<rt>と</rt></ruby>44】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "お<ruby>荷物<rt>にもつ</rt></ruby>お<ruby>持<rt>もつ</rt></ruby>ちしましょうか。（190）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -6040,7 +6040,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-087"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "討<ruby>論<rt>ろん</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（140）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -6049,10 +6049,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-06-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット6問46】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット6<ruby>問<rt>と</rt></ruby>46】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "今日は暑いですね。（191）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -6063,7 +6063,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-088"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>番組<rt>ばんぐみ</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（142）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -6072,10 +6072,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-06-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット6問48】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット6<ruby>問<rt>と</rt></ruby>48】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "何時までですか。（192）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -6086,7 +6086,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-089"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>店員<rt>てんいん</rt></ruby>に<ruby>値段<rt>ねだん</rt></ruby>を聞きたい（27）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -6095,10 +6095,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-06-083",
-        "script": "ピンについて　はなします。【セット6問50】"
+        "script": "ピンについて　はなします。【セット6<ruby>問<rt>と</rt></ruby>50】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "週<ruby>末<rt>まつ</rt></ruby>の<ruby>予定<rt>よてい</rt></ruby>は。（193）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["<ruby>特に<rt>とくに</rt></ruby>ないです",
@@ -6109,8 +6109,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-090"
       },
       {
-        "type": "聴解（発話表現）",
-        "text": "同<ruby>僚<rt>りょう</rt></ruby>にお礼を<ruby>言<rt>い</rt></ruby>いたい（29）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
+        "text": "同<ruby>僚<rt>りょう</rt></ruby>にお<ruby>礼<rt>れい</rt></ruby>を<ruby>言<rt>い</rt></ruby>いたい（29）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
           "📌",
@@ -6118,10 +6118,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-06-085",
-        "script": "ピンについて　はなします。【セット6問52】"
+        "script": "ピンについて　はなします。【セット6<ruby>問<rt>と</rt></ruby>52】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "おいしいですね。（194）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -6132,7 +6132,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-091"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>解説<rt>かいせつ</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（139）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -6141,10 +6141,10 @@ window.MOCK_DATA['N4'] = {
           "📕"],
         "answer": 0,
         "id": "N4-06-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット6問54】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット6<ruby>問<rt>と</rt></ruby>54】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "<ruby>写<rt>うつ</rt></ruby>真<ruby>撮<rt>とる</rt></ruby>ってもいいですか。（195）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -6155,7 +6155,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-092"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>対<rt>たい</rt></ruby>談を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（137）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -6164,10 +6164,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-06-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット6問56】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット6<ruby>問<rt>と</rt></ruby>56】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "お<ruby>仕事<rt>しごと</rt></ruby>は何ですか。（196）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -6178,7 +6178,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-093"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "友達に<ruby>断<rt>だん</rt></ruby>りたい（30）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -6187,10 +6187,10 @@ window.MOCK_DATA['N4'] = {
           "📅"],
         "answer": 1,
         "id": "N4-06-086",
-        "script": "ピンについて　はなします。【セット6問58】"
+        "script": "ピンについて　はなします。【セット6<ruby>問<rt>と</rt></ruby>58】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "<ruby>趣味<rt>しゅみ</rt></ruby>は何ですか。（197）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -6201,7 +6201,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-094"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "先生に<ruby>質問<rt>しつもん</rt></ruby>したい（28）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -6210,10 +6210,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-06-084",
-        "script": "ピンについて　はなします。【セット6問60】"
+        "script": "ピンについて　はなします。【セット6<ruby>問<rt>と</rt></ruby>60】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "出身はどこですか。（198）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -6224,7 +6224,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-06-095"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "セミナーを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（141）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -6233,10 +6233,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-06-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット6問62】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット6<ruby>問<rt>と</rt></ruby>62】"
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>かいご</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>介護<rt>かいご</rt></ruby>",
@@ -6246,7 +6246,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>かたづける</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["片付ける",
@@ -6256,7 +6256,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>きおく</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>記憶<rt>きおく</rt></ruby>",
@@ -6266,7 +6266,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>つうち</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>預<rt>よ</rt></ruby>け入れ",
@@ -6276,7 +6276,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>まじめ</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>季節<rt>きせつ</rt></ruby>",
@@ -6286,7 +6286,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>かちかん</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>吹く<rt>ふく</rt></ruby>",
@@ -6296,8 +6296,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>研究所</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>研<rt>けん</rt></ruby><ruby>究<rt>きゅう</rt></ruby><ruby>所<rt>ところ</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["いち",
           "ひろ",
@@ -6306,8 +6306,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>県</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>県<rt>けん</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["けん",
           "かんが",
@@ -6316,8 +6316,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>経験する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>経<rt>けい</rt></ruby><ruby>験<rt>けん</rt></ruby>する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["あ",
           "けいけんする",
@@ -6326,8 +6326,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>言葉</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>言<rt>い</rt></ruby>葉</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["おも",
           "さい",
@@ -6336,8 +6336,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>中古</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u>中<ruby>古<rt>ふる</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["ちゅうこ",
           "な",
@@ -6346,8 +6346,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>倉庫</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u>倉<ruby>庫<rt>こ</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["そうこ",
           "う",
@@ -6356,8 +6356,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>語る</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>語<rt>かた</rt></ruby>る</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["もの",
           "し",
@@ -6366,8 +6366,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>広がる</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>広<rt>ひろ</rt></ruby>がる</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["か",
           "つか",
@@ -6376,8 +6376,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>考える</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>考<rt>かんが</rt></ruby>える</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["かんがえる",
           "はじ",
@@ -6386,7 +6386,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["食べる",
@@ -6396,7 +6396,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>変える<rt>かえる</rt></ruby>",
@@ -6406,7 +6406,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>言<rt>い</rt></ruby>葉",
@@ -6416,7 +6416,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>今度<rt>こんど</rt></ruby>",
@@ -6426,7 +6426,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["望む",
@@ -6436,7 +6436,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>重ねる<rt>かさねる</rt></ruby>",
@@ -6446,7 +6446,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>不<rt>ふ</rt></ruby>正<ruby>解<rt>かい</rt></ruby>",
@@ -6456,7 +6456,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>作品<rt>さくひん</rt></ruby>",
@@ -6466,7 +6466,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>違う<rt>ちがう</rt></ruby>",
@@ -6476,7 +6476,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>残念<rt>ざんねん</rt></ruby>",
@@ -6486,7 +6486,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>沈む<rt>しずむ</rt></ruby>",
@@ -6496,7 +6496,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>事故<rt>じこ</rt></ruby>",
@@ -6506,7 +6506,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>中断<rt>ちゅうだん</rt></ruby>",
@@ -6516,7 +6516,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["出席",
@@ -6526,7 +6526,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>締め切り<rt>しめきり</rt></ruby>",
@@ -6536,7 +6536,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["必然",
@@ -6546,7 +6546,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>踊る<rt>おどる</rt></ruby>",
@@ -6556,7 +6556,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["食べる",
@@ -6566,7 +6566,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>減らす<rt>へらす</rt></ruby>",
@@ -6576,7 +6576,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>事務所<rt>じむしょ</rt></ruby>",
@@ -6586,8 +6586,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "言い換え",
-        "text": "仕事が<ruby>片付く<rt>かたづく</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>仕<rt>つか</rt></ruby><ruby>事<rt>こと</rt></ruby>が<ruby>片付く<rt>かたづく</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>焦<rt>こ</rt></ruby>点",
           "<ruby>覚悟<rt>かくご</rt></ruby>",
@@ -6596,8 +6596,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "言い換え",
-        "text": "落とし物を<ruby>見つける<rt>みつける</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "落とし<ruby>物<rt>もの</rt></ruby>を<ruby>見つける<rt>みつける</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>示す<rt>しめす</rt></ruby>",
           "<ruby>報告書<rt>ほうこくしょ</rt></ruby>",
@@ -6606,8 +6606,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "言い換え",
-        "text": "犯人が<ruby>見つかる<rt>みつかる</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "犯人が<ruby>見つかる<rt>みつかる</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>痩せる<rt>やせる</rt></ruby>",
           "<ruby>税<rt>ぜい</rt></ruby><ruby>抜<rt>ばつ</rt></ruby>",
@@ -6616,8 +6616,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "言い換え",
-        "text": "電車に<ruby>間に合う<rt>まにあう</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "電車に<ruby>間に合う<rt>まにあう</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>到<rt>とう</rt></ruby><ruby>着<rt>ちゃく</rt></ruby>する",
           "<ruby>税金<rt>ぜいきん</rt></ruby>",
@@ -6626,8 +6626,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "言い換え",
-        "text": "経験が<ruby>役立つ<rt>やくだつ</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>経<rt>けい</rt></ruby><ruby>験<rt>けん</rt></ruby>が<ruby>役立つ<rt>やくだつ</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>不可能<rt>ふかのう</rt></ruby>",
           "役に立つ",
@@ -6638,7 +6638,7 @@ window.MOCK_DATA['N4'] = {
     ],
     "7": [
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>遅れ<rt>おくれ</rt></ruby>ない（　）<ruby>早<rt>そう</rt></ruby>く　<ruby>起<rt>お</rt></ruby>きます。",
         "question": "（　）に　はいるのは？",
         "options": ["けど",
@@ -6649,7 +6649,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-034"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "ダイエットの（　）<ruby>野菜<rt>やさい</rt></ruby>を　たくさん　食べています。",
         "question": "（　）に　はいるのは？",
         "options": ["ことに",
@@ -6660,7 +6660,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-037"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>皆<rt>みな</rt></ruby>が　分かる（　）<ruby>説明<rt>せつめい</rt></ruby>してください。",
         "question": "（　）に　はいるのは？",
         "options": ["まで",
@@ -6671,7 +6671,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-036"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "もっと　<ruby>野菜<rt>やさい</rt></ruby>を　食べる（　）にします。",
         "question": "（　）に　はいるのは？",
         "options": ["こと",
@@ -6682,7 +6682,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-039"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>病気<rt>びょうき</rt></ruby>が　<ruby>治る<rt>なおる</rt></ruby>（　）<ruby>薬<rt>くすり</rt></ruby>を　飲んでいます。",
         "question": "（　）に　はいるのは？",
         "options": ["まま",
@@ -6693,7 +6693,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-038"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "お酒を　飲まない（　）にしています。",
         "question": "（　）に　はいるのは？",
         "options": ["ため",
@@ -6704,7 +6704,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-040"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>風邪<rt>かぜ</rt></ruby>を　<ruby>引<rt>いん</rt></ruby>かない（　）気をつけています。",
         "question": "（　）に　はいるのは？",
         "options": ["が",
@@ -6715,7 +6715,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-035"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>早<rt>そう</rt></ruby>く　<ruby>寝る<rt>ねる</rt></ruby>（　）にしています。",
         "question": "（　）に　はいるのは？",
         "options": ["ため",
@@ -6726,7 +6726,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-041"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>病気<rt>びょうき</rt></ruby>で　<ruby>旅行<rt>りょこう</rt></ruby>を　やめる（　）にしました。",
         "question": "（　）に　はいるのは？",
         "options": ["ため",
@@ -6737,7 +6737,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-043"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>定<rt>てい</rt></ruby>時に　<ruby>帰る<rt>かえる</rt></ruby>（　）にしています。",
         "question": "（　）に　はいるのは？",
         "options": ["ため",
@@ -6748,7 +6748,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-042"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "ギターを　<ruby>弾く<rt>ひく</rt></ruby>（　）ができません。",
         "question": "（　）に　はいるのは？",
         "options": ["ため",
@@ -6770,7 +6770,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-047"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>刺<rt>さ</rt></ruby>身を　食べる（　）ができません。",
         "question": "（　）に　はいるのは？",
         "options": ["の",
@@ -6792,7 +6792,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-048"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>泳ぐ<rt>およぐ</rt></ruby>（　）ができません。",
         "question": "（　）に　はいるのは？",
         "options": ["よう",
@@ -6836,7 +6836,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-051"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>困難<rt>こんなん</rt></ruby>（　）<ruby>乗<rt>の</rt></ruby>り<ruby>越<rt>こ</rt></ruby>え、<ruby>目標<rt>もくひょう</rt></ruby>を達<ruby>成<rt>せい</rt></ruby>した。（131）",
         "question": "（　）に入るのは？",
         "options": ["を",
@@ -6847,7 +6847,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-052"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "専門<ruby>家<rt>いえ</rt></ruby>（　）<ruby>意見<rt>いけん</rt></ruby>を聞く必要がある。（132）",
         "question": "（　）に入るのは？",
         "options": ["への",
@@ -6858,7 +6858,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-053"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>技術<rt>ぎじゅつ</rt></ruby>の<ruby>進歩<rt>しんぽ</rt></ruby>（　）、<ruby>生活<rt>せいかつ</rt></ruby>は大きく<ruby>変<rt>へん</rt></ruby>わった。（133）",
         "question": "（　）に入るのは？",
         "options": ["に<ruby>関して<rt>かんして</rt></ruby>",
@@ -6869,7 +6869,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-054"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>彼<rt>かれ</rt></ruby>の<ruby>行動<rt>こうどう</rt></ruby>は<ruby>法律<rt>ほうりつ</rt></ruby>（　）<ruby>許<rt>きょ</rt></ruby>されない。（134）",
         "question": "（　）に入るのは？",
         "options": ["上",
@@ -6880,7 +6880,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-055"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>予算<rt>よさん</rt></ruby>の<ruby>制<rt>せい</rt></ruby>約（　）実<ruby>現<rt>あらわ</rt></ruby>が<ruby>困難<rt>こんなん</rt></ruby>だ。（135）",
         "question": "（　）に入るのは？",
         "options": ["にして",
@@ -6891,7 +6891,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-056"
       },
       {
-        "type": "読解（短文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
         "text": "来月から<ruby>新しい<rt>あたらしい</rt></ruby>先生が来ます。日本で10年日本<ruby>語<rt>ご</rt></ruby>を教えていた人です。",
         "question": "<ruby>新しい<rt>あたらしい</rt></ruby>先生はどんな人ですか。",
         "options": ["10年教えていた人",
@@ -6902,8 +6902,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-057"
       },
       {
-        "type": "読解（短文）",
-        "text": "熱があるときは、無理をしないで休んでください。<ruby>薬<rt>くすり</rt></ruby>を飲んで、<ruby>水分<rt>すいぶん</rt></ruby>をたくさんとりましょう。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>熱<rt>ねつ</rt></ruby>があるときは、<ruby>無<rt>む</rt></ruby>理をしないで休んでください。<ruby>薬<rt>くすり</rt></ruby>を飲んで、<ruby>水分<rt>すいぶん</rt></ruby>をたくさんとりましょう。",
         "question": "<ruby>熱<rt>ねつ</rt></ruby>があるときどうしますか。",
         "options": ["<ruby>仕事<rt>しごと</rt></ruby>に行く",
           "休んで<ruby>薬を飲む<rt>くすりをのむ</rt></ruby>",
@@ -6913,8 +6913,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-058"
       },
       {
-        "type": "読解（短文）",
-        "text": "この薬は1日3回、<ruby>食後<rt>しょくご</rt></ruby>に飲んでください。眠くなることがあります。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "この<ruby>薬<rt>くすり</rt></ruby>は1日3<ruby>回<rt>まわ</rt></ruby>、<ruby>食後<rt>しょくご</rt></ruby>に飲んでください。<ruby>眠<rt>みん</rt></ruby>くなることがあります。",
         "question": "この<ruby>薬<rt>くすり</rt></ruby>はいつ飲みますか。",
         "options": ["いつでも",
           "<ruby>寝る<rt>ねる</rt></ruby>前",
@@ -6924,8 +6924,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-059"
       },
       {
-        "type": "読解（短文）",
-        "text": "<ruby>病院<rt>びょういん</rt></ruby>は予約が必要です。電話かインターネットで予約してください。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>病院<rt>びょういん</rt></ruby>は<ruby>予<rt>よ</rt></ruby>約が必要です。電話かインターネットで<ruby>予<rt>よ</rt></ruby>約してください。",
         "question": "<ruby>病院に行く<rt>びょういんにいく</rt></ruby>にはどうしますか。",
         "options": ["保<ruby>険<rt>けわ</rt></ruby><ruby>証<rt>あかし</rt></ruby>を<ruby>持<rt>もつ</rt></ruby>っていく",
           "<ruby>紹介状<rt>しょうかいじょう</rt></ruby>をもらう",
@@ -6935,7 +6935,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-060"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "花粉<ruby>症<rt>しょう</rt></ruby>で<ruby>春<rt>はる</rt></ruby>は<ruby>大変<rt>たいへん</rt></ruby>です。目が<ruby>痒<rt>よう</rt></ruby>くて、鼻水が<ruby>止<rt>とる</rt></ruby>まりません。マスクをして、<ruby>薬<rt>くすり</rt></ruby>を飲んでいますが、<ruby>早<rt>そう</rt></ruby>く<ruby>春<rt>はる</rt></ruby>が<ruby>終<rt>しゅう</rt></ruby>わってほしいです。",
         "question": "この人は<ruby>春<rt>はる</rt></ruby>にどうなりますか。",
         "options": ["<ruby>忙<rt>ぼう</rt></ruby>しくなる",
@@ -6946,7 +6946,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-061"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "日本に来て<ruby>太<rt>ふと</rt></ruby>りました。美<ruby>味<rt>あじ</rt></ruby>しいものが<ruby>多<rt>おお</rt></ruby>くて、つい食べすぎてしまいます。来月からジムに<ruby>通う<rt>かよう</rt></ruby><ruby>予定<rt>よてい</rt></ruby>です。",
         "question": "日本に来てどうなりましたか。",
         "options": ["<ruby>太<rt>ふと</rt></ruby>った",
@@ -6957,7 +6957,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-062"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "日本の<ruby>病院<rt>びょういん</rt></ruby>に<ruby>初めて<rt>はじめて</rt></ruby>行きました。<ruby>受<rt>じゅ</rt></ruby>付で保<ruby>険<rt>けわ</rt></ruby><ruby>証<rt>あかし</rt></ruby>を見せて、<ruby>問診<rt>もんしん</rt></ruby><ruby>票<rt>ひょう</rt></ruby>を書きました。<ruby>医者<rt>いしゃ</rt></ruby>は<ruby>親切<rt>しんせつ</rt></ruby>に<ruby>説明<rt>せつめい</rt></ruby>してくれました。",
         "question": "<ruby>病院<rt>びょういん</rt></ruby>で<ruby>最初<rt>さいしょ</rt></ruby>に何をしましたか。",
         "options": ["保<ruby>険<rt>けわ</rt></ruby><ruby>証<rt>あかし</rt></ruby>を見せた",
@@ -6968,7 +6968,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-063"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "来月、健<ruby>康<rt>こう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>があります。<ruby>去年<rt>きょねん</rt></ruby>は<ruby>血<rt>ち</rt></ruby><ruby>圧<rt>あつ</rt></ruby>が高いと<ruby>言<rt>い</rt></ruby>われました。今年は<ruby>運動<rt>うんどう</rt></ruby>を続けているので、<ruby>良い<rt>よい</rt></ruby><ruby>結果<rt>けっか</rt></ruby>が出るといいです。",
         "question": "<ruby>去年<rt>きょねん</rt></ruby>の健<ruby>康<rt>こう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>で何を<ruby>言<rt>い</rt></ruby>われましたか。",
         "options": ["何も<ruby>問題<rt>もんだい</rt></ruby>ない",
@@ -6979,7 +6979,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-064"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【<ruby>温<rt>おん</rt></ruby>泉】大人1,000円　<ruby>子供<rt>こども</rt></ruby>500円　タオル200円　10:00-22:00",
         "question": "大人+タオルは？",
         "options": ["1,000円",
@@ -6990,7 +6990,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-065"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【ヨガ】月4<ruby>回<rt>まわ</rt></ruby>6,000円　月8<ruby>回<rt>まわ</rt></ruby>10,000円　<ruby>体験<rt>たいけん</rt></ruby>1,000円",
         "question": "月8<ruby>回<rt>まわ</rt></ruby>は？",
         "options": ["6,000円",
@@ -7001,7 +7001,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-066"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>教師<rt>きょうし</rt></ruby>と保<ruby>護<rt>まも</rt></ruby><ruby>者<rt>もの</rt></ruby>が学校で面談中（49）",
         "question": "何をしますか。",
         "options": ["📝",
@@ -7010,10 +7010,10 @@ window.MOCK_DATA['N4'] = {
           "📝"],
         "answer": 0,
         "id": "N4-07-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット7問34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット7<ruby>問<rt>と</rt></ruby>34】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>店<rt>みせ</rt></ruby>長とスタッフが<ruby>店舗<rt>てんぽ</rt></ruby>で<ruby>相<rt>そう</rt></ruby>談中（50）",
         "question": "何をしますか。",
         "options": ["📌",
@@ -7022,10 +7022,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-07-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット7問35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット7<ruby>問<rt>と</rt></ruby>35】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>上司<rt>じょうし</rt></ruby>と<ruby>部下<rt>ぶか</rt></ruby>がオフィスで<ruby>打ち合わせ<rt>うちあわせ</rt></ruby>中（51）",
         "question": "何をしますか。",
         "options": ["📞",
@@ -7034,10 +7034,10 @@ window.MOCK_DATA['N4'] = {
           "📋"],
         "answer": 1,
         "id": "N4-07-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：スケジュールを　して　ください。\nおとこ：わかりました。【セット7問36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：スケジュールを　して　ください。\nおとこ：わかりました。【セット7<ruby>問<rt>と</rt></ruby>36】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>受<rt>じゅ</rt></ruby>付と<ruby>来客<rt>らいきゃく</rt></ruby>がロビーで<ruby>対応<rt>たいおう</rt></ruby>中（52）",
         "question": "何をしますか。",
         "options": ["💳",
@@ -7046,10 +7046,10 @@ window.MOCK_DATA['N4'] = {
           "📢"],
         "answer": 0,
         "id": "N4-07-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット7問37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット7<ruby>問<rt>と</rt></ruby>37】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>医師<rt>いし</rt></ruby>と<ruby>患者<rt>かんじゃ</rt></ruby>が<ruby>病院<rt>びょういん</rt></ruby>で<ruby>診<rt>みる</rt></ruby>察中（53）",
         "question": "何をしますか。",
         "options": ["💊",
@@ -7058,10 +7058,10 @@ window.MOCK_DATA['N4'] = {
           "✉️"],
         "answer": 2,
         "id": "N4-07-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット7問38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット7<ruby>問<rt>と</rt></ruby>38】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>教師<rt>きょうし</rt></ruby>と保<ruby>護<rt>まも</rt></ruby><ruby>者<rt>もの</rt></ruby>が学校で面談中（54）",
         "question": "何をしますか。",
         "options": ["📊",
@@ -7070,10 +7070,10 @@ window.MOCK_DATA['N4'] = {
           "📝"],
         "answer": 1,
         "id": "N4-07-072",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：メモを　して　ください。\nおとこ：わかりました。【セット7問39】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：メモを　して　ください。\nおとこ：わかりました。【セット7<ruby>問<rt>と</rt></ruby>39】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>店<rt>みせ</rt></ruby>長とスタッフが<ruby>店舗<rt>てんぽ</rt></ruby>で<ruby>相<rt>そう</rt></ruby>談中（55）",
         "question": "何をしますか。",
         "options": ["📌",
@@ -7082,10 +7082,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-07-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット7問40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット7<ruby>問<rt>と</rt></ruby>40】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>上司<rt>じょうし</rt></ruby>と<ruby>部下<rt>ぶか</rt></ruby>がオフィスで<ruby>打ち合わせ<rt>うちあわせ</rt></ruby>中（56）",
         "question": "何をしますか。",
         "options": ["📧",
@@ -7094,10 +7094,10 @@ window.MOCK_DATA['N4'] = {
           "📋"],
         "answer": 1,
         "id": "N4-07-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット7問41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット7<ruby>問<rt>と</rt></ruby>41】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>特<rt>とく</rt></ruby><ruby>集<rt>しゅう</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（143）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -7106,10 +7106,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-07-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット7問42】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット7<ruby>問<rt>と</rt></ruby>42】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "トークを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（145）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -7118,10 +7118,10 @@ window.MOCK_DATA['N4'] = {
           "📕"],
         "answer": 3,
         "id": "N4-07-077",
-        "script": "きょうの　はなしは　ほんについてです。これは　とても　たいせつです。【セット7問43】"
+        "script": "きょうの　はなしは　ほんについてです。これは　とても　たいせつです。【セット7<ruby>問<rt>と</rt></ruby>43】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "ドキュメンタリーを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（144）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -7130,10 +7130,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-07-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット7問44】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット7<ruby>問<rt>と</rt></ruby>44】"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "友達を<ruby>ご飯<rt>ごはん</rt></ruby>に<ruby>誘<rt>さそ</rt></ruby>いたい（31）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -7142,10 +7142,10 @@ window.MOCK_DATA['N4'] = {
           "🍽️"],
         "answer": 3,
         "id": "N4-07-082",
-        "script": "🍽について　はなします。【セット7問45】"
+        "script": "🍽について　はなします。【セット7<ruby>問<rt>と</rt></ruby>45】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>発<rt>はつ</rt></ruby>表を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（147）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -7154,10 +7154,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-07-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット7問46】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット7<ruby>問<rt>と</rt></ruby>46】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "いつからですか。（199）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -7168,8 +7168,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-087"
       },
       {
-        "type": "聴解（ポイント理解）",
-        "text": "<ruby>朝<rt>あさ</rt></ruby>礼を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（149）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
+        "text": "<ruby>朝<rt>あさ</rt></ruby><ruby>礼<rt>れい</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（149）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
           "📌",
@@ -7177,10 +7177,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-07-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット7問48】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット7<ruby>問<rt>と</rt></ruby>48】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "何人ですか。（200）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -7191,7 +7191,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-088"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>店員<rt>てんいん</rt></ruby>に<ruby>値段<rt>ねだん</rt></ruby>を聞きたい（32）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -7200,10 +7200,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-07-083",
-        "script": "ピンについて　はなします。【セット7問50】"
+        "script": "ピンについて　はなします。【セット7<ruby>問<rt>と</rt></ruby>50】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "いくらですか。（201）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -7214,8 +7214,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-089"
       },
       {
-        "type": "聴解（発話表現）",
-        "text": "同<ruby>僚<rt>りょう</rt></ruby>にお礼を<ruby>言<rt>い</rt></ruby>いたい（34）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
+        "text": "同<ruby>僚<rt>りょう</rt></ruby>にお<ruby>礼<rt>れい</rt></ruby>を<ruby>言<rt>い</rt></ruby>いたい（34）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
           "📌",
@@ -7223,10 +7223,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-07-085",
-        "script": "ピンについて　はなします。【セット7問52】"
+        "script": "ピンについて　はなします。【セット7<ruby>問<rt>と</rt></ruby>52】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "何<ruby>階<rt>かい</rt></ruby>ですか。（202）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["3<ruby>階<rt>かい</rt></ruby>です",
@@ -7237,7 +7237,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-090"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>研修<rt>けんしゅう</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（148）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -7246,10 +7246,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-07-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット7問54】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット7<ruby>問<rt>と</rt></ruby>54】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "どちらがいいですか。（203）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -7260,7 +7260,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-091"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "先生に<ruby>質問<rt>しつもん</rt></ruby>したい（33）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -7269,10 +7269,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-07-084",
-        "script": "ピンについて　はなします。【セット7問56】"
+        "script": "ピンについて　はなします。【セット7<ruby>問<rt>と</rt></ruby>56】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "もう<ruby>終わり<rt>おわり</rt></ruby>ましたか。（204）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、<ruby>終わり<rt>おわり</rt></ruby>ました",
@@ -7283,7 +7283,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-092"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "放<ruby>送<rt>お</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（146）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -7292,10 +7292,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-07-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット7問58】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット7<ruby>問<rt>と</rt></ruby>58】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "どうしましたか。（205）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -7306,7 +7306,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-093"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "友達に<ruby>断<rt>だん</rt></ruby>りたい（35）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📅",
@@ -7315,10 +7315,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-07-086",
-        "script": "ピンについて　はなします。【セット7問60】"
+        "script": "ピンについて　はなします。【セット7<ruby>問<rt>と</rt></ruby>60】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "お腹空きましたか。（206）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -7329,7 +7329,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-094"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "<ruby>眠い<rt>ねむい</rt></ruby>ですか。（207）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -7340,7 +7340,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-07-095"
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>そんけい</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["話す",
@@ -7350,7 +7350,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>たいしょ</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>対<rt>たい</rt></ruby>処",
@@ -7360,7 +7360,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>しんけん</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>成果<rt>せいか</rt></ruby>",
@@ -7370,7 +7370,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>はいし</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>不<rt>ふ</rt></ruby>要",
@@ -7380,7 +7380,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>ひとしい</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>等しい<rt>ひとしい</rt></ruby>",
@@ -7390,7 +7390,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>ちりょう</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>警<rt>けい</rt></ruby>察<ruby>官<rt>かん</rt></ruby>",
@@ -7400,8 +7400,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "電車に<u>間に合う</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "電車に<u>間に<ruby>合<rt>あ</rt></ruby>う</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["あね",
           "まにあう",
@@ -7410,8 +7410,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>才能</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>才<rt>さい</rt></ruby><ruby>能<rt>のう</rt></ruby></u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["くび",
           "おも",
@@ -7420,8 +7420,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>菜</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>菜<rt>な</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["わたし",
           "な",
@@ -7430,8 +7430,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>産休</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>産<rt>う</rt></ruby>休</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["す",
           "かみ",
@@ -7440,8 +7440,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>必死</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u>必<ruby>死<rt>し</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["と",
           "ひっし",
@@ -7450,8 +7450,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>使う</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>使<rt>つか</rt></ruby>う</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["はる",
           "いち",
@@ -7460,8 +7460,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>始まる</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>始<rt>はじ</rt></ruby>まる</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["つか",
           "はじまる",
@@ -7470,8 +7470,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>姉</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>姉<rt>あね</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["ぬし",
           "こと",
@@ -7480,8 +7480,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<ruby>子供<rt>こども</rt></ruby>の頃を<u>思い出す</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<ruby>子供<rt>こども</rt></ruby>の頃を<u><ruby>思<rt>おも</rt></ruby>い出す</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["ば",
           "も",
@@ -7490,7 +7490,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>方向<rt>ほうこう</rt></ruby>",
@@ -7500,7 +7500,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>信号<rt>しんごう</rt></ruby>",
@@ -7510,7 +7510,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["消防",
@@ -7520,7 +7520,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>書類<rt>しょるい</rt></ruby>",
@@ -7530,7 +7530,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>旅行<rt>りょこう</rt></ruby>の（　）をする",
         "question": "（　）に入るのは？",
         "options": ["<ruby>遂行<rt>すいこう</rt></ruby>",
@@ -7540,7 +7540,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>分野<rt>ぶんや</rt></ruby>",
@@ -7550,7 +7550,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>更<rt>さら</rt></ruby><ruby>衣<rt>ころも</rt></ruby>室",
@@ -7560,7 +7560,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>老<rt>お</rt></ruby><ruby>舗<rt>ほ</rt></ruby>",
@@ -7570,7 +7570,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>審査<rt>しんさ</rt></ruby>",
@@ -7580,7 +7580,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>書類<rt>しょるい</rt></ruby>",
@@ -7590,7 +7590,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["出席",
@@ -7600,7 +7600,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>締め切り<rt>しめきり</rt></ruby>",
@@ -7610,7 +7610,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>政治<rt>せいじ</rt></ruby>",
@@ -7620,7 +7620,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>漏れる<rt>もれる</rt></ruby>",
@@ -7630,7 +7630,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["食べる",
@@ -7640,7 +7640,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["席",
@@ -7650,7 +7650,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>詳しい<rt>くわしい</rt></ruby>（　）を聞く",
         "question": "（　）に入るのは？",
         "options": ["<ruby>判定<rt>はんてい</rt></ruby>",
@@ -7660,7 +7660,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>乗る<rt>のる</rt></ruby>",
@@ -7670,7 +7670,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>接<rt>せつ</rt></ruby>続",
@@ -7680,7 +7680,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["消防",
@@ -7690,8 +7690,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "言い換え",
-        "text": "間違いに<ruby>気付く<rt>きづく</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "間<ruby>違<rt>ちが</rt></ruby>いに<ruby>気付く<rt>きづく</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["気がつく",
           "<ruby>転職<rt>てんしょく</rt></ruby>",
@@ -7700,8 +7700,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "言い換え",
-        "text": "子供の頃を<ruby>思い出す<rt>おもいだす</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "子<ruby>供<rt>そな</rt></ruby>の頃を<ruby>思い出す<rt>おもいだす</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>候補<rt>こうほ</rt></ruby>",
           "<ruby>回<rt>まわ</rt></ruby>想する",
@@ -7710,8 +7710,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "言い換え",
-        "text": "セミナーに<ruby>申し込む<rt>もうしこむ</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "セミナーに<ruby>申し込む<rt>もうしこむ</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>親会社<rt>おやがいしゃ</rt></ruby>",
           "外す",
@@ -7720,8 +7720,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "言い換え",
-        "text": "予約を<ruby>取り消す<rt>とりけす</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>予<rt>よ</rt></ruby>約を<ruby>取り消す<rt>とりけす</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["防<ruby>止<rt>とる</rt></ruby>",
           "キャンセルする",
@@ -7730,8 +7730,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "言い換え",
-        "text": "仕事を<ruby>引き受ける<rt>ひきうける</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>仕<rt>つか</rt></ruby><ruby>事<rt>こと</rt></ruby>を<ruby>引き受ける<rt>ひきうける</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>受<rt>じゅ</rt></ruby>付",
           "取り<ruby>寄<rt>き</rt></ruby>せ",
@@ -7742,7 +7742,7 @@ window.MOCK_DATA['N4'] = {
     ],
     "8": [
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "このアプリで　<ruby>予<rt>よ</rt></ruby>約する（　）ができます。",
         "question": "（　）に　はいるのは？",
         "options": ["ため",
@@ -7753,7 +7753,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-034"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "酒を　飲ん（　）ことが　ありますか。",
         "question": "（　）に　はいるのは？",
         "options": ["で",
@@ -7764,7 +7764,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-036"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "クレジットカードで　<ruby>払う<rt>はらう</rt></ruby>（　）ができますか。",
         "question": "（　）に　はいるのは？",
         "options": ["の",
@@ -7775,7 +7775,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-035"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>新幹線<rt>しんかんせん</rt></ruby>に　<ruby>乗<rt>の</rt></ruby>っ（　）ことが　ありません。",
         "question": "（　）に　はいるのは？",
         "options": ["り",
@@ -7786,7 +7786,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-037"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>鍵<rt>かぎ</rt></ruby>を　<ruby>家<rt>いえ</rt></ruby>に　<ruby>忘<rt>ぼう</rt></ruby>れ（　）しまいました。",
         "question": "（　）に　はいるのは？",
         "options": ["る",
@@ -7797,7 +7797,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-041"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "日本の　<ruby>映画<rt>えいが</rt></ruby>を　見（　）ことが　あります。",
         "question": "（　）に　はいるのは？",
         "options": ["て",
@@ -7808,7 +7808,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-039"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "花<ruby>瓶<rt>びん</rt></ruby>を　<ruby>割<rt>わり</rt></ruby>っ（　）しまいました。",
         "question": "（　）に　はいるのは？",
         "options": ["て",
@@ -7819,7 +7819,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-042"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>着物<rt>きもの</rt></ruby>を　<ruby>着<rt>ちゃく</rt></ruby>（　）ことが　ありますか。",
         "question": "（　）に　はいるのは？",
         "options": ["た",
@@ -7830,7 +7830,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-038"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "パソコンが　<ruby>壊<rt>こわ</rt></ruby>れ（　）しまいました。",
         "question": "（　）に　はいるのは？",
         "options": ["た",
@@ -7841,7 +7841,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-043"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "カラオケで　<ruby>歌<rt>うた</rt></ruby>っ（　）ことが　あります。",
         "question": "（　）に　はいるのは？",
         "options": ["う",
@@ -7852,7 +7852,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-040"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>寝<rt>しん</rt></ruby><ruby>坊<rt>ぼう</rt></ruby>し（　）しまいました。",
         "question": "（　）に　はいるのは？",
         "options": ["る",
@@ -7874,7 +7874,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-047"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "食べる　前に　手を　<ruby>洗<rt>あら</rt></ruby>っ（　）おいてください。",
         "question": "（　）に　はいるのは？",
         "options": ["て",
@@ -7896,7 +7896,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-048"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "お金を　<ruby>全部<rt>ぜんぶ</rt></ruby>　<ruby>使<rt>つか</rt></ruby>っ（　）しまいました。",
         "question": "（　）に　はいるのは？",
         "options": ["て",
@@ -7940,7 +7940,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-051"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>結果<rt>けっか</rt></ruby>（　）<ruby>良<rt>りょう</rt></ruby>ければ<ruby>全て<rt>すべて</rt></ruby><ruby>良<rt>りょう</rt></ruby>しとは<ruby>限<rt>かぎ</rt></ruby>らない。（136）",
         "question": "（　）に入るのは？",
         "options": ["こそ",
@@ -7951,7 +7951,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-052"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "努力<ruby>家<rt>いえ</rt></ruby>である（　）、<ruby>才能<rt>さいのう</rt></ruby>にも<ruby>恵<rt>めぐ</rt></ruby>まれている。（137）",
         "question": "（　）に入るのは？",
         "options": ["からこそ",
@@ -7962,7 +7962,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-053"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>一朝一夕<rt>いっちょういっせき</rt></ruby>（　）<ruby>解決<rt>かいけつ</rt></ruby>できるものではない。（138）",
         "question": "（　）に入るのは？",
         "options": ["で",
@@ -7973,8 +7973,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-054"
       },
       {
-        "type": "読解（短文）",
-        "text": "<ruby>健康診断<rt>けんこうしんだん</rt></ruby>の前日は夜9時から何も食べないでください。水は飲んでもいいです。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>健康診断<rt>けんこうしんだん</rt></ruby>の前日は<ruby>夜<rt>よる</rt></ruby>9時から何も食べないでください。水は飲んでもいいです。",
         "question": "健<ruby>康<rt>こう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>の前日、何をしてはいけませんか。",
         "options": ["<ruby>夜<rt>よる</rt></ruby>9時から食べる",
           "<ruby>運動<rt>うんどう</rt></ruby>する",
@@ -7984,7 +7984,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-057"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>経験<rt>けいけん</rt></ruby>（　）<ruby>勝る<rt>まさる</rt></ruby>ものはない。（140）",
         "question": "（　）に入るのは？",
         "options": ["を",
@@ -7995,8 +7995,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-056"
       },
       {
-        "type": "読解（短文）",
-        "text": "<ruby>受付<rt>うけつけ</rt></ruby>は午前11時までです。それより遅いと、午後の<ruby>診察<rt>しんさつ</rt></ruby>になります。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>受付<rt>うけつけ</rt></ruby>は午前11時までです。それより<ruby>遅<rt>ち</rt></ruby>いと、午後の<ruby>診察<rt>しんさつ</rt></ruby>になります。",
         "question": "午前中に見てもらうには何時までに行きますか。",
         "options": ["1時",
           "10時",
@@ -8006,7 +8006,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-058"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>事<rt>こと</rt></ruby>実（　）<ruby>基づいて<rt>もとづいて</rt></ruby>いる。（139）",
         "question": "（　）に入るのは？",
         "options": ["が",
@@ -8017,8 +8017,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-055"
       },
       {
-        "type": "読解（短文）",
-        "text": "この電車は<ruby>各駅停車<rt>かくえきていしゃ</rt></ruby>です。<ruby>急行<rt>きゅうこう</rt></ruby>に乗りたい人は、次の駅で乗り換えてください。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "この電車は<ruby>各駅停車<rt>かくえきていしゃ</rt></ruby>です。<ruby>急行<rt>きゅうこう</rt></ruby>に<ruby>乗<rt>の</rt></ruby>りたい人は、次の駅で<ruby>乗<rt>の</rt></ruby>り<ruby>換<rt>か</rt></ruby>えてください。",
         "question": "<ruby>急<rt>きゅう</rt></ruby>行に<ruby>乗る<rt>のる</rt></ruby>にはどうしますか。",
         "options": ["次の駅で<ruby>乗り換える<rt>のりかえる</rt></ruby>",
           "前の駅に<ruby>戻る<rt>もどる</rt></ruby>",
@@ -8028,8 +8028,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-059"
       },
       {
-        "type": "読解（短文）",
-        "text": "<ruby>駐輪場<rt>ちゅうりんじょう</rt></ruby>は駅の北側にあります。1日100円で止められます。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>駐輪場<rt>ちゅうりんじょう</rt></ruby>は駅の北側にあります。1日100円で<ruby>止<rt>と</rt></ruby>められます。",
         "question": "<ruby>自転車<rt>じてんしゃ</rt></ruby>はどこに<ruby>止<rt>とる</rt></ruby>められますか。",
         "options": ["駅の中",
           "どこでも",
@@ -8039,7 +8039,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-060"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "電気<ruby>代<rt>だい</rt></ruby>が高いので、<ruby>節<rt>せつ</rt></ruby>約しています。<ruby>使<rt>つか</rt></ruby>わない<ruby>部屋<rt>へや</rt></ruby>の電気は消すようにしています。エアコンの<ruby>温度<rt>おんど</rt></ruby>も<ruby>控<rt>ひか</rt></ruby>えめにしています。",
         "question": "電気<ruby>代<rt>だい</rt></ruby>を<ruby>節<rt>せつ</rt></ruby>約するために何をしていますか。",
         "options": ["<ruby>引っ越す<rt>ひっこす</rt></ruby>",
@@ -8050,7 +8050,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-061"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "日本の<ruby>夏<rt>なつ</rt></ruby>は<ruby>湿度<rt>しつど</rt></ruby>が高くて<ruby>大変<rt>たいへん</rt></ruby>です。エアコンなしでは<ruby>生活<rt>せいかつ</rt></ruby>できません。母国は<ruby>乾燥<rt>かんそう</rt></ruby>しているので、<ruby>慣れる<rt>なれる</rt></ruby>のに時間がかかりました。",
         "question": "日本の<ruby>夏<rt>なつ</rt></ruby>はどうですか。",
         "options": ["<ruby>寒い<rt>さむい</rt></ruby>",
@@ -8061,7 +8061,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-062"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "日本<ruby>語<rt>ご</rt></ruby>の<ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>を<ruby>始<rt>はじまる</rt></ruby>めて2年になります。<ruby>最初<rt>さいしょ</rt></ruby>は<ruby>難<rt>なん</rt></ruby>しくて何<ruby>度<rt>ど</rt></ruby>も<ruby>諦<rt>てい</rt></ruby>めようと<ruby>思い<rt>おもい</rt></ruby>ました。でも、先生や友達が<ruby>励<rt>はげ</rt></ruby>ましてくれて、続けることができました。",
         "question": "日本<ruby>語<rt>ご</rt></ruby>の<ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>を続けられた理由は何ですか。",
         "options": ["<ruby>仕事<rt>しごと</rt></ruby>で必要だから",
@@ -8072,7 +8072,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-063"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "日本<ruby>語<rt>ご</rt></ruby>の聞き取りが<ruby>苦手<rt>にがて</rt></ruby>です。<ruby>特に<rt>とくに</rt></ruby>ニュースが<ruby>速<rt>はやい</rt></ruby>くて分かりません。毎日ニュースを聞く<ruby>練習<rt>れんしゅう</rt></ruby>をしています。<ruby>少し<rt>すこし</rt></ruby>ずつ分かるようになってきました。",
         "question": "この人は何が<ruby>苦手<rt>にがて</rt></ruby>ですか。",
         "options": ["読むこと",
@@ -8083,7 +8083,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-064"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【ペットホテル】<ruby>小型<rt>こがた</rt></ruby><ruby>犬<rt>いぬ</rt></ruby>3,000円/<ruby>泊<rt>はく</rt></ruby>　大<ruby>型<rt>かた</rt></ruby><ruby>犬<rt>いぬ</rt></ruby>5,000円/<ruby>泊<rt>はく</rt></ruby>　<ruby>送<rt>お</rt></ruby><ruby>迎<rt>むか</rt></ruby>+500円",
         "question": "大<ruby>型<rt>かた</rt></ruby><ruby>犬<rt>いぬ</rt></ruby>1<ruby>泊<rt>はく</rt></ruby>は？",
         "options": ["5,000円",
@@ -8094,7 +8094,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-065"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【<ruby>写<rt>うつ</rt></ruby>真スタジオ】<ruby>撮影<rt>さつえい</rt></ruby>3,000円　プリント1<ruby>枚<rt>まい</rt></ruby>500円　データ3,000円",
         "question": "<ruby>撮影<rt>さつえい</rt></ruby>+データは？",
         "options": ["3,000円",
@@ -8105,7 +8105,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-066"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>受<rt>じゅ</rt></ruby>付と<ruby>来客<rt>らいきゃく</rt></ruby>がロビーで<ruby>対応<rt>たいおう</rt></ruby>中（57）",
         "question": "何をしますか。",
         "options": ["💳",
@@ -8114,10 +8114,10 @@ window.MOCK_DATA['N4'] = {
           "🚪"],
         "answer": 0,
         "id": "N4-08-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット8問34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット8<ruby>問<rt>と</rt></ruby>34】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>医師<rt>いし</rt></ruby>と<ruby>患者<rt>かんじゃ</rt></ruby>が<ruby>病院<rt>びょういん</rt></ruby>で<ruby>診<rt>みる</rt></ruby>察中（58）",
         "question": "何をしますか。",
         "options": ["✉️",
@@ -8126,10 +8126,10 @@ window.MOCK_DATA['N4'] = {
           "🏥"],
         "answer": 2,
         "id": "N4-08-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット8問35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット8<ruby>問<rt>と</rt></ruby>35】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>教師<rt>きょうし</rt></ruby>と保<ruby>護<rt>まも</rt></ruby><ruby>者<rt>もの</rt></ruby>が学校で面談中（59）",
         "question": "何をしますか。",
         "options": ["📝",
@@ -8138,10 +8138,10 @@ window.MOCK_DATA['N4'] = {
           "📝"],
         "answer": 3,
         "id": "N4-08-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：メモを　して　ください。\nおとこ：わかりました。【セット8問36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：メモを　して　ください。\nおとこ：わかりました。【セット8<ruby>問<rt>と</rt></ruby>36】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>店<rt>みせ</rt></ruby>長とスタッフが<ruby>店舗<rt>てんぽ</rt></ruby>で<ruby>相<rt>そう</rt></ruby>談中（60）",
         "question": "何をしますか。",
         "options": ["📌",
@@ -8150,10 +8150,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-08-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット8問37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット8<ruby>問<rt>と</rt></ruby>37】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>上司<rt>じょうし</rt></ruby>と<ruby>部下<rt>ぶか</rt></ruby>がオフィスで<ruby>打ち合わせ<rt>うちあわせ</rt></ruby>中（61）",
         "question": "何をしますか。",
         "options": ["📋",
@@ -8162,10 +8162,10 @@ window.MOCK_DATA['N4'] = {
           "🗓️"],
         "answer": 3,
         "id": "N4-08-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット8問38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット8<ruby>問<rt>と</rt></ruby>38】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>受<rt>じゅ</rt></ruby>付と<ruby>来客<rt>らいきゃく</rt></ruby>がロビーで<ruby>対応<rt>たいおう</rt></ruby>中（62）",
         "question": "何をしますか。",
         "options": ["💳",
@@ -8174,10 +8174,10 @@ window.MOCK_DATA['N4'] = {
           "📢"],
         "answer": 0,
         "id": "N4-08-072",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：カードを　して　ください。\nおとこ：わかりました。【セット8問39】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：カードを　して　ください。\nおとこ：わかりました。【セット8<ruby>問<rt>と</rt></ruby>39】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>医師<rt>いし</rt></ruby>と<ruby>患者<rt>かんじゃ</rt></ruby>が<ruby>病院<rt>びょういん</rt></ruby>で<ruby>診<rt>みる</rt></ruby>察中（63）",
         "question": "何をしますか。",
         "options": ["✉️",
@@ -8186,10 +8186,10 @@ window.MOCK_DATA['N4'] = {
           "🏥"],
         "answer": 1,
         "id": "N4-08-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット8問40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット8<ruby>問<rt>と</rt></ruby>40】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>教師<rt>きょうし</rt></ruby>と保<ruby>護<rt>まも</rt></ruby><ruby>者<rt>もの</rt></ruby>が学校で面談中（64）",
         "question": "何をしますか。",
         "options": ["📝",
@@ -8198,10 +8198,10 @@ window.MOCK_DATA['N4'] = {
           "📝"],
         "answer": 0,
         "id": "N4-08-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット8問41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット8<ruby>問<rt>と</rt></ruby>41】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "ミーティングを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（150）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -8210,10 +8210,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-08-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット8問42】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット8<ruby>問<rt>と</rt></ruby>42】"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "友達を<ruby>ご飯<rt>ごはん</rt></ruby>に<ruby>誘<rt>さそ</rt></ruby>いたい（36）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -8222,10 +8222,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-08-082",
-        "script": "🍽について　はなします。【セット8問43】"
+        "script": "🍽について　はなします。【セット8<ruby>問<rt>と</rt></ruby>43】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "ニュースを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（152）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -8234,10 +8234,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-08-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット8問44】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット8<ruby>問<rt>と</rt></ruby>44】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "<ruby>準備<rt>じゅんび</rt></ruby>できましたか。（208）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、できました",
@@ -8248,7 +8248,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-087"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>説明<rt>せつめい</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（154）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -8257,10 +8257,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-08-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット8問46】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット8<ruby>問<rt>と</rt></ruby>46】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "分かりましたか。（209）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -8271,7 +8271,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-088"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "プレゼンを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（156）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -8280,10 +8280,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-08-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット8問48】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット8<ruby>問<rt>と</rt></ruby>48】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "聞こえますか。（210）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -8294,7 +8294,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-089"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>店員<rt>てんいん</rt></ruby>に<ruby>値段<rt>ねだん</rt></ruby>を聞きたい（37）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -8303,10 +8303,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-08-083",
-        "script": "ピンについて　はなします。【セット8問50】"
+        "script": "ピンについて　はなします。【セット8<ruby>問<rt>と</rt></ruby>50】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "この席、空いていますか。（211）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -8317,8 +8317,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-090"
       },
       {
-        "type": "聴解（発話表現）",
-        "text": "同<ruby>僚<rt>りょう</rt></ruby>にお礼を<ruby>言<rt>い</rt></ruby>いたい（39）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
+        "text": "同<ruby>僚<rt>りょう</rt></ruby>にお<ruby>礼<rt>れい</rt></ruby>を<ruby>言<rt>い</rt></ruby>いたい（39）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
           "📌",
@@ -8326,10 +8326,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-08-085",
-        "script": "ピンについて　はなします。【セット8問52】"
+        "script": "ピンについて　はなします。【セット8<ruby>問<rt>と</rt></ruby>52】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "何時からですか。（212）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -8340,7 +8340,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-091"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "インタビューを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（153）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -8349,10 +8349,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-08-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット8問54】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット8<ruby>問<rt>と</rt></ruby>54】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "コンビニはありますか。（213）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -8363,7 +8363,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-092"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>講<rt>こう</rt></ruby><ruby>演<rt>えん</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（151）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -8372,10 +8372,10 @@ window.MOCK_DATA['N4'] = {
           "📕"],
         "answer": 1,
         "id": "N4-08-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット8問56】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット8<ruby>問<rt>と</rt></ruby>56】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "手<ruby>伝<rt>つた</rt></ruby>ってもらえますか。（214）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -8386,7 +8386,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-093"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "友達に<ruby>断<rt>だん</rt></ruby>りたい（40）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -8395,10 +8395,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-08-086",
-        "script": "ピンについて　はなします。【セット8問58】"
+        "script": "ピンについて　はなします。【セット8<ruby>問<rt>と</rt></ruby>58】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "どこに出せばいいですか。（215）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["<ruby>総務部<rt>そうむぶ</rt></ruby>です",
@@ -8409,7 +8409,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-094"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "先生に<ruby>質問<rt>しつもん</rt></ruby>したい（38）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -8418,10 +8418,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-08-084",
-        "script": "ピンについて　はなします。【セット8問60】"
+        "script": "ピンについて　はなします。【セット8<ruby>問<rt>と</rt></ruby>60】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "お名前は。（216）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -8432,7 +8432,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-08-095"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（155）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -8441,10 +8441,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-08-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット8問62】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット8<ruby>問<rt>と</rt></ruby>62】"
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>しんぱいする</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>心<rt>こころ</rt></ruby>配する",
@@ -8454,7 +8454,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>げんざい</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["争点",
@@ -8464,7 +8464,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>ていか</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>始まる<rt>はじまる</rt></ruby>",
@@ -8474,7 +8474,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>きせつ</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["出入口",
@@ -8484,7 +8484,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>ふく</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>吹く<rt>ふく</rt></ruby>",
@@ -8494,7 +8494,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>はなす</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>履く<rt>はく</rt></ruby>",
@@ -8504,8 +8504,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>私</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>私<rt>わたし</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["わたし",
           "しつ",
@@ -8514,8 +8514,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>紙</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>紙<rt>かみ</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["かみ",
           "うつ",
@@ -8524,8 +8524,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>止まる</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>止<rt>と</rt></ruby>まる</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["あたら",
           "もの",
@@ -8534,8 +8534,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>市民</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>市<rt>いち</rt></ruby><ruby>民<rt>たみ</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["か",
           "しみん",
@@ -8544,8 +8544,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>仕上げる</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>仕<rt>つか</rt></ruby>上げる</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["すす",
           "よわ",
@@ -8554,8 +8554,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>記事</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>記<rt>しる</rt></ruby><ruby>事<rt>こと</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["きじ",
           "ぬし",
@@ -8564,8 +8564,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>持つ</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>持<rt>も</rt></ruby>つ</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["こえ",
           "くび",
@@ -8574,8 +8574,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>質問</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>質<rt>しつ</rt></ruby><ruby>問<rt>と</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["しつもん",
           "あつ",
@@ -8584,8 +8584,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>複写</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>複<rt>ふく</rt></ruby><ruby>写<rt>うつ</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["よ",
           "す",
@@ -8594,7 +8594,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "先生に（　）する",
         "question": "（　）に入るのは？",
         "options": ["<ruby>不<rt>ふ</rt></ruby>正<ruby>解<rt>かい</rt></ruby>",
@@ -8604,7 +8604,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["付く",
@@ -8614,7 +8614,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>観<rt>かん</rt></ruby><ruby>覧<rt>らん</rt></ruby>",
@@ -8624,7 +8624,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>大事<rt>だいじ</rt></ruby>",
@@ -8634,7 +8634,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["申し<ruby>込む<rt>こむ</rt></ruby>",
@@ -8644,7 +8644,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>棚<rt>たな</rt></ruby>",
@@ -8654,7 +8654,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>発展<rt>はってん</rt></ruby>する",
@@ -8664,7 +8664,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>男性<rt>だんせい</rt></ruby>",
@@ -8674,7 +8674,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>現在<rt>げんざい</rt></ruby>",
@@ -8684,7 +8684,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）を<ruby>払う<rt>はらう</rt></ruby>",
         "question": "（　）に入るのは？",
         "options": ["必然",
@@ -8694,7 +8694,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>踊る<rt>おどる</rt></ruby>",
@@ -8704,7 +8704,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>企業<rt>きぎょう</rt></ruby>",
@@ -8714,7 +8714,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["束ねる",
@@ -8724,7 +8724,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>判定<rt>はんてい</rt></ruby>",
@@ -8734,7 +8734,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>投資<rt>とうし</rt></ruby>",
@@ -8744,7 +8744,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>送る<rt>おくる</rt></ruby>",
@@ -8754,7 +8754,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>促進<rt>そくしん</rt></ruby>",
@@ -8764,7 +8764,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["表<ruby>示<rt>し</rt></ruby>",
@@ -8774,7 +8774,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>入院<rt>にゅういん</rt></ruby>",
@@ -8784,7 +8784,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>観<rt>かん</rt></ruby><ruby>覧<rt>らん</rt></ruby>",
@@ -8794,8 +8794,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "言い換え",
-        "text": "荷物を<ruby>受け取る<rt>うけとる</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>荷<rt>にな</rt></ruby><ruby>物<rt>もの</rt></ruby>を<ruby>受け取る<rt>うけとる</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>売上<rt>うりあげ</rt></ruby>",
           "<ruby>受領<rt>じゅりょう</rt></ruby>する",
@@ -8804,8 +8804,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "言い換え",
-        "text": "申し込みを<ruby>受け付ける<rt>うけつける</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "申し<ruby>込<rt>こ</rt></ruby>みを<ruby>受け付ける<rt>うけつける</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>退場<rt>たいじょう</rt></ruby>",
           "<ruby>告げる<rt>つげる</rt></ruby>",
@@ -8814,8 +8814,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "言い換え",
-        "text": "テーマとして<ruby>取り上げる<rt>とりあげる</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "テーマとして<ruby>取り上げる<rt>とりあげる</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>扱う<rt>あつかう</rt></ruby>",
           "添付",
@@ -8824,8 +8824,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "言い換え",
-        "text": "プレゼントを<ruby>喜ぶ<rt>よろこぶ</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "プレゼントを<ruby>喜ぶ<rt>よろこぶ</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>感<rt>かん</rt></ruby>想",
           "<ruby>練習<rt>れんしゅう</rt></ruby>",
@@ -8834,8 +8834,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "言い換え",
-        "text": "別れを<ruby>悲しむ<rt>かなしむ</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>別<rt>わか</rt></ruby>れを<ruby>悲しむ<rt>かなしむ</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>延ばす<rt>のばす</rt></ruby>",
           "<ruby>携<rt>たずさ</rt></ruby>帯",
@@ -8846,7 +8846,7 @@ window.MOCK_DATA['N4'] = {
     ],
     "9": [
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>の　前に　<ruby>名刺<rt>めいし</rt></ruby>を　<ruby>準備<rt>じゅんび</rt></ruby>し（　）おいてください。",
         "question": "（　）に　はいるのは？",
         "options": ["た",
@@ -8857,7 +8857,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-034"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "この　本を　読ん（　）みたいです。",
         "question": "（　）に　はいるのは？",
         "options": ["から",
@@ -8868,7 +8868,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-045"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "エアコンを　つけ（　）おいてください。",
         "question": "（　）に　はいるのは？",
         "options": ["の",
@@ -8890,7 +8890,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-047"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "ドアを　<ruby>閉<rt>へい</rt></ruby>め（　）おいてください。",
         "question": "（　）に　はいるのは？",
         "options": ["て",
@@ -8912,7 +8912,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-048"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>冷<rt>れい</rt></ruby>蔵<ruby>庫<rt>こ</rt></ruby>に　ビールが　<ruby>冷<rt>れい</rt></ruby>やし（　）あります。",
         "question": "（　）に　はいるのは？",
         "options": ["て",
@@ -8934,7 +8934,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-049"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>荷物<rt>にもつ</rt></ruby>が　置い（　）あります。",
         "question": "（　）に　はいるのは？",
         "options": ["た",
@@ -8956,7 +8956,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-050"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>一度<rt>いちど</rt></ruby>　やっ（　）みます。",
         "question": "（　）に　はいるのは？",
         "options": ["て",
@@ -8978,7 +8978,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-051"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>寿<rt>ことぶき</rt></ruby><ruby>司<rt>し</rt></ruby>を　作っ（　）みたいです。",
         "question": "（　）に　はいるのは？",
         "options": ["る",
@@ -8989,7 +8989,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-046"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "健<ruby>康<rt>こう</rt></ruby>（　）、何<ruby>事<rt>こと</rt></ruby>も<ruby>始<rt>はじまる</rt></ruby>まらない。（141）",
         "question": "（　）に入るのは？",
         "options": ["がなければ",
@@ -9000,7 +9000,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-052"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>庭<rt>にわ</rt></ruby>に　木が　植え（　）あります。",
         "question": "（　）に　はいるのは？",
         "options": ["る",
@@ -9011,7 +9011,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-039"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "時間の<ruby>許す<rt>ゆるす</rt></ruby>（　）、できるだけ<ruby>訪<rt>ほう</rt></ruby>れたい。（142）",
         "question": "（　）に入るのは？",
         "options": ["うちに",
@@ -9022,7 +9022,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-053"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "この　<ruby>服<rt>ふく</rt></ruby>を　<ruby>着<rt>ちゃく</rt></ruby>（　）みてもいいですか。",
         "question": "（　）に　はいるのは？",
         "options": ["て",
@@ -9033,7 +9033,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-043"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>医師<rt>いし</rt></ruby>（　）、ボランティアにも<ruby>熱心<rt>ねっしん</rt></ruby>だ。（143）",
         "question": "（　）に入るのは？",
         "options": ["として",
@@ -9044,7 +9044,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-054"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>壁<rt>かべ</rt></ruby>に　絵が　<ruby>掛<rt>か</rt></ruby>け（　）あります。",
         "question": "（　）に　はいるのは？",
         "options": ["て",
@@ -9055,7 +9055,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-038"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>医師<rt>いし</rt></ruby>の処<ruby>方<rt>ほう</rt></ruby>（　）<ruby>使<rt>つか</rt></ruby>用してください。（144）",
         "question": "（　）に入るのは？",
         "options": ["に従って",
@@ -9066,7 +9066,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-055"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "電気を　消し（　）おいてください。",
         "question": "（　）に　はいるのは？",
         "options": ["た",
@@ -9077,7 +9077,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-036"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>予<rt>よ</rt></ruby>想（　）、<ruby>売り上げ<rt>うりあげ</rt></ruby>は<ruby>減<rt>へん</rt></ruby><ruby>少し<rt>すこし</rt></ruby>た。（145）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>通り<rt>とおり</rt></ruby>",
@@ -9088,7 +9088,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-056"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>資<rt>し</rt></ruby>料が　コピーし（　）あります。",
         "question": "（　）に　はいるのは？",
         "options": ["た",
@@ -9099,8 +9099,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-041"
       },
       {
-        "type": "読解（短文）",
-        "text": "<ruby>終電<rt>しゅうでん</rt></ruby>は11時30分です。乗り遅れないように気をつけてください。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>終電<rt>しゅうでん</rt></ruby>は11時30分です。<ruby>乗<rt>の</rt></ruby>り<ruby>遅<rt>ち</rt></ruby>れないように気をつけてください。",
         "question": "<ruby>終<rt>しゅう</rt></ruby>電は何時ですか。",
         "options": ["10時30分",
           "11時",
@@ -9110,8 +9110,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-057"
       },
       {
-        "type": "読解（短文）",
-        "text": "<ruby>台風<rt>たいふう</rt></ruby>の<ruby>影響<rt>えいきょう</rt></ruby>で、電車が止まっています。<ruby>運転再開<rt>うんてんさいかい</rt></ruby>は夕方の予定です。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>台風<rt>たいふう</rt></ruby>の<ruby>影響<rt>えいきょう</rt></ruby>で、電車が<ruby>止<rt>と</rt></ruby>まっています。<ruby>運転再開<rt>うんてんさいかい</rt></ruby>は<ruby>夕<rt>ゆう</rt></ruby><ruby>方<rt>かた</rt></ruby>の<ruby>予<rt>よ</rt></ruby><ruby>定<rt>てい</rt></ruby>です。",
         "question": "どうして電車が<ruby>止<rt>とる</rt></ruby>まっていますか。",
         "options": ["<ruby>台風<rt>たいふう</rt></ruby>",
           "<ruby>故障<rt>こしょう</rt></ruby>",
@@ -9121,7 +9121,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-058"
       },
       {
-        "type": "読解（短文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
         "text": "<ruby>空港<rt>くうこう</rt></ruby>まではバスで1時間かかります。電車なら40分です。",
         "question": "電車だと<ruby>空港<rt>くうこう</rt></ruby>までどのくらいですか。",
         "options": ["1時間30分",
@@ -9132,8 +9132,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-059"
       },
       {
-        "type": "読解（短文）",
-        "text": "ゴミは決まった日に出してください。<ruby>燃<rt>も</rt></ruby>えるゴミは火曜日と金曜日です。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "ゴミは<ruby>決<rt>き</rt></ruby>まった日に出してください。<ruby>燃<rt>も</rt></ruby>えるゴミは火曜日と金曜日です。",
         "question": "燃えるゴミはいつ出しますか。",
         "options": ["火曜日と金曜日",
           "水曜日と土曜日",
@@ -9143,7 +9143,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-060"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "日本<ruby>語<rt>ご</rt></ruby>の<ruby>漢<rt>かん</rt></ruby>字を<ruby>覚える<rt>おぼえる</rt></ruby>のが<ruby>大変<rt>たいへん</rt></ruby>です。でも、<ruby>漢<rt>かん</rt></ruby>字が読めると、<ruby>看<rt>かん</rt></ruby>板やメニューが分かるので<ruby>便利<rt>べんり</rt></ruby>です。毎日10<ruby>個<rt>こ</rt></ruby>ずつ<ruby>覚える<rt>おぼえる</rt></ruby>ようにしています。",
         "question": "<ruby>漢<rt>かん</rt></ruby>字が読めると何が<ruby>便利<rt>べんり</rt></ruby>ですか。",
         "options": ["友達ができる",
@@ -9154,7 +9154,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-061"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "<ruby>敬語<rt>けいご</rt></ruby>の<ruby>使い<rt>つかい</rt></ruby>分けが<ruby>難しい<rt>むずかしい</rt></ruby>です。「です・ます」は<ruby>使<rt>つか</rt></ruby>えますが、「尊<ruby>敬語<rt>けいご</rt></ruby>」と「<ruby>謙譲<rt>けんじょう</rt></ruby><ruby>語<rt>ご</rt></ruby>」がまだ<ruby>苦手<rt>にがて</rt></ruby>です。",
         "question": "この人は何が<ruby>苦手<rt>にがて</rt></ruby>ですか。",
         "options": ["尊<ruby>敬語<rt>けいご</rt></ruby>と<ruby>謙譲<rt>けんじょう</rt></ruby><ruby>語<rt>ご</rt></ruby>",
@@ -9165,7 +9165,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-062"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "電話で日本<ruby>語<rt>ご</rt></ruby>を話すのが<ruby>苦手<rt>にがて</rt></ruby>です。<ruby>顔<rt>かお</rt></ruby>が見えないので、聞き取りにくいです。メールやLINEの<ruby>方<rt>ほう</rt></ruby>が楽です。",
         "question": "電話が<ruby>苦手<rt>にがて</rt></ruby>な理由は何ですか。",
         "options": ["<ruby>声<rt>こえ</rt></ruby>が小さいから",
@@ -9176,7 +9176,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-063"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "日本の<ruby>文化<rt>ぶんか</rt></ruby>で<ruby>驚<rt>おどろ</rt></ruby>いたのは、<ruby>靴<rt>くつ</rt></ruby>を<ruby>脱ぐ<rt>ぬぐ</rt></ruby><ruby>文化<rt>ぶんか</rt></ruby>です。<ruby>家<rt>いえ</rt></ruby>に入る時だけでなく、<ruby>旅館<rt>りょかん</rt></ruby>や学校でも<ruby>靴<rt>くつ</rt></ruby>を<ruby>脱<rt>ぬ</rt></ruby>ぎます。<ruby>最初<rt>さいしょ</rt></ruby>は<ruby>忘れる<rt>わすれる</rt></ruby>ことが<ruby>多<rt>おお</rt></ruby>かったです。",
         "question": "何に<ruby>驚き<rt>おどろき</rt></ruby>ましたか。",
         "options": ["お<ruby>辞<rt>じ</rt></ruby><ruby>儀<rt>ぎ</rt></ruby>",
@@ -9187,7 +9187,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-064"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【ピアノ教室】月4<ruby>回<rt>まわ</rt></ruby>8,000円　月2<ruby>回<rt>まわ</rt></ruby>5,000円　入会金5,000円",
         "question": "月4<ruby>回<rt>まわ</rt></ruby>は？",
         "options": ["6,000円",
@@ -9198,7 +9198,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-065"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【<ruby>駐車場<rt>ちゅうしゃじょう</rt></ruby>】1時間300円　30分150円　1日<ruby>最大<rt>さいだい</rt></ruby>1,500円",
         "question": "2時間は？",
         "options": ["900円",
@@ -9209,7 +9209,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-066"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>店<rt>みせ</rt></ruby>長とスタッフが<ruby>店舗<rt>てんぽ</rt></ruby>で<ruby>相<rt>そう</rt></ruby>談中（65）",
         "question": "何をしますか。",
         "options": ["📌",
@@ -9218,10 +9218,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-09-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット9問34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット9<ruby>問<rt>と</rt></ruby>34】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>上司<rt>じょうし</rt></ruby>と<ruby>部下<rt>ぶか</rt></ruby>がオフィスで<ruby>打ち合わせ<rt>うちあわせ</rt></ruby>中（66）",
         "question": "何をしますか。",
         "options": ["📋",
@@ -9230,10 +9230,10 @@ window.MOCK_DATA['N4'] = {
           "🗓️"],
         "answer": 3,
         "id": "N4-09-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット9問35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット9<ruby>問<rt>と</rt></ruby>35】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>受<rt>じゅ</rt></ruby>付と<ruby>来客<rt>らいきゃく</rt></ruby>がロビーで<ruby>対応<rt>たいおう</rt></ruby>中（67）",
         "question": "何をしますか。",
         "options": ["📢",
@@ -9242,10 +9242,10 @@ window.MOCK_DATA['N4'] = {
           "🚪"],
         "answer": 1,
         "id": "N4-09-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：カードを　して　ください。\nおとこ：わかりました。【セット9問36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：カードを　して　ください。\nおとこ：わかりました。【セット9<ruby>問<rt>と</rt></ruby>36】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>医師<rt>いし</rt></ruby>と<ruby>患者<rt>かんじゃ</rt></ruby>が<ruby>病院<rt>びょういん</rt></ruby>で<ruby>診<rt>みる</rt></ruby>察中（68）",
         "question": "何をしますか。",
         "options": ["🏥",
@@ -9254,10 +9254,10 @@ window.MOCK_DATA['N4'] = {
           "🔬"],
         "answer": 3,
         "id": "N4-09-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット9問37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット9<ruby>問<rt>と</rt></ruby>37】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>教師<rt>きょうし</rt></ruby>と保<ruby>護<rt>まも</rt></ruby><ruby>者<rt>もの</rt></ruby>が学校で面談中（69）",
         "question": "何をしますか。",
         "options": ["📝",
@@ -9266,10 +9266,10 @@ window.MOCK_DATA['N4'] = {
           "📄"],
         "answer": 0,
         "id": "N4-09-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット9問38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット9<ruby>問<rt>と</rt></ruby>38】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>店<rt>みせ</rt></ruby>長とスタッフが<ruby>店舗<rt>てんぽ</rt></ruby>で<ruby>相<rt>そう</rt></ruby>談中（70）",
         "question": "何をしますか。",
         "options": ["📌",
@@ -9278,10 +9278,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-09-072",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：ピンを　して　ください。\nおとこ：わかりました。【セット9問39】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：ピンを　して　ください。\nおとこ：わかりました。【セット9<ruby>問<rt>と</rt></ruby>39】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>上司<rt>じょうし</rt></ruby>と<ruby>部下<rt>ぶか</rt></ruby>がオフィスで<ruby>打ち合わせ<rt>うちあわせ</rt></ruby>中（71）",
         "question": "何をしますか。",
         "options": ["🗓️",
@@ -9290,10 +9290,10 @@ window.MOCK_DATA['N4'] = {
           "📋"],
         "answer": 0,
         "id": "N4-09-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット9問40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット9<ruby>問<rt>と</rt></ruby>40】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>受<rt>じゅ</rt></ruby>付と<ruby>来客<rt>らいきゃく</rt></ruby>がロビーで<ruby>対応<rt>たいおう</rt></ruby>中（72）",
         "question": "何をしますか。",
         "options": ["🚪",
@@ -9302,10 +9302,10 @@ window.MOCK_DATA['N4'] = {
           "🍵"],
         "answer": 1,
         "id": "N4-09-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット9問41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット9<ruby>問<rt>と</rt></ruby>41】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>授業<rt>じゅぎょう</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（157）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -9314,10 +9314,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-09-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット9問42】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット9<ruby>問<rt>と</rt></ruby>42】"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "友達を<ruby>ご飯<rt>ごはん</rt></ruby>に<ruby>誘<rt>さそ</rt></ruby>いたい（41）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["🍽️",
@@ -9326,10 +9326,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-09-082",
-        "script": "🍽について　はなします。【セット9問43】"
+        "script": "🍽について　はなします。【セット9<ruby>問<rt>と</rt></ruby>43】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>案内<rt>あんない</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（159）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -9338,10 +9338,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-09-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット9問44】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット9<ruby>問<rt>と</rt></ruby>44】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "どのくらいかかりますか。（217）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -9352,7 +9352,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-087"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>報告<rt>ほうこく</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（161）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -9361,10 +9361,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-09-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット9問46】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット9<ruby>問<rt>と</rt></ruby>46】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "<ruby>使<rt>つか</rt></ruby>ってもいいですか。（218）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -9375,7 +9375,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-088"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>講義<rt>こうぎ</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（163）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -9384,10 +9384,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-09-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット9問48】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット9<ruby>問<rt>と</rt></ruby>48】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "もう一<ruby>杯<rt>さかずき</rt></ruby>いかがですか。（219）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いただきます",
@@ -9398,7 +9398,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-089"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>店員<rt>てんいん</rt></ruby>に<ruby>値段<rt>ねだん</rt></ruby>を聞きたい（42）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -9407,10 +9407,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-09-083",
-        "script": "ピンについて　はなします。【セット9問50】"
+        "script": "ピンについて　はなします。【セット9<ruby>問<rt>と</rt></ruby>50】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "楽しかったですね。（220）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -9421,8 +9421,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-090"
       },
       {
-        "type": "聴解（発話表現）",
-        "text": "同<ruby>僚<rt>りょう</rt></ruby>にお礼を<ruby>言<rt>い</rt></ruby>いたい（44）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
+        "text": "同<ruby>僚<rt>りょう</rt></ruby>にお<ruby>礼<rt>れい</rt></ruby>を<ruby>言<rt>い</rt></ruby>いたい（44）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
           "📌",
@@ -9430,10 +9430,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-09-085",
-        "script": "ピンについて　はなします。【セット9問52】"
+        "script": "ピンについて　はなします。【セット9<ruby>問<rt>と</rt></ruby>52】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "郵<ruby>便<rt>べん</rt></ruby><ruby>局<rt>きょく</rt></ruby>はどこですか。（221）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["この先です",
@@ -9444,7 +9444,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-091"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "スピーチを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（160）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -9453,10 +9453,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-09-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット9問54】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット9<ruby>問<rt>と</rt></ruby>54】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "お時間よろしいですか。（222）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -9467,7 +9467,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-092"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "ラジオを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（158）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -9476,10 +9476,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-09-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット9問56】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット9<ruby>問<rt>と</rt></ruby>56】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "<ruby>傘<rt>かさ</rt></ruby>はお<ruby>持<rt>もつ</rt></ruby>ちですか。（223）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -9490,7 +9490,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-093"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "友達に<ruby>断<rt>だん</rt></ruby>りたい（45）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -9499,10 +9499,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-09-086",
-        "script": "ピンについて　はなします。【セット9問58】"
+        "script": "ピンについて　はなします。【セット9<ruby>問<rt>と</rt></ruby>58】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "静かでいいですね。（224）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -9513,7 +9513,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-094"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "先生に<ruby>質問<rt>しつもん</rt></ruby>したい（43）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -9522,10 +9522,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-09-084",
-        "script": "ピンについて　はなします。【セット9問60】"
+        "script": "ピンについて　はなします。【セット9<ruby>問<rt>と</rt></ruby>60】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "お<ruby>荷物<rt>にもつ</rt></ruby>お<ruby>持<rt>もつ</rt></ruby>ちしましょうか。（225）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["ありがとうございます",
@@ -9536,7 +9536,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-09-095"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>対<rt>たい</rt></ruby>談を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（162）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -9545,10 +9545,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-09-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット9問62】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット9<ruby>問<rt>と</rt></ruby>62】"
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>つかまる</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>深い<rt>ふかい</rt></ruby>",
@@ -9558,7 +9558,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>せいか</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["非<ruby>常<rt>じょう</rt></ruby>口",
@@ -9568,7 +9568,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>よさん</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>議論<rt>ぎろん</rt></ruby>",
@@ -9578,7 +9578,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>かんてん</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>観<rt>かん</rt></ruby>点",
@@ -9588,7 +9588,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>ひえる</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>略<rt>りゃく</rt></ruby>歴",
@@ -9598,7 +9598,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>とめる</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>研究<rt>けんきゅう</rt></ruby>",
@@ -9608,8 +9608,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>者</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>者<rt>もの</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["あたら",
           "おも",
@@ -9618,8 +9618,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>借金</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>借<rt>か</rt></ruby>金</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["しゃっきん",
           "はる",
@@ -9628,8 +9628,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "とても<u>弱体</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "とても<u><ruby>弱<rt>よわ</rt></ruby><ruby>体<rt>からだ</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["ところ",
           "じゃくたい",
@@ -9638,8 +9638,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>主張</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>主<rt>ぬし</rt></ruby><ruby>張<rt>ちょう</rt></ruby></u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["すこ",
           "しゅちょう",
@@ -9648,8 +9648,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>首相</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>首<rt>くび</rt></ruby><ruby>相<rt>あい</rt></ruby></u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["ば",
           "しゅしょう",
@@ -9658,8 +9658,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<ruby>切手<rt>きって</rt></ruby>を<u>集める</u>のが<ruby>趣味<rt>しゅみ</rt></ruby>だの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<ruby>切手<rt>きって</rt></ruby>を<u><ruby>集<rt>あつ</rt></ruby>める</u>のが<ruby>趣味<rt>しゅみ</rt></ruby>だの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["あお",
           "の",
@@ -9668,8 +9668,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>住所</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>住<rt>す</rt></ruby><ruby>所<rt>ところ</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["こころ",
           "じゅうしょ",
@@ -9678,8 +9678,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>重要</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>重<rt>おも</rt></ruby>要</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["あか",
           "あたら",
@@ -9688,8 +9688,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>春</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>春<rt>はる</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["ぞく",
           "おや",
@@ -9698,7 +9698,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>溶<rt>とる</rt></ruby><ruby>接<rt>せつ</rt></ruby>",
@@ -9708,7 +9708,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>年齢<rt>ねんれい</rt></ruby>",
@@ -9718,7 +9718,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>降りる<rt>おりる</rt></ruby>",
@@ -9728,7 +9728,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>無くなる<rt>なくなる</rt></ruby>",
@@ -9738,7 +9738,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>番組<rt>ばんぐみ</rt></ruby>",
@@ -9748,7 +9748,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>連れる<rt>つれる</rt></ruby>",
@@ -9758,7 +9758,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>充<rt>あ</rt></ruby>実",
@@ -9768,7 +9768,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["表<ruby>現す<rt>あらわす</rt></ruby>る",
@@ -9778,7 +9778,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["立てる",
@@ -9788,7 +9788,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["申<ruby>込<rt>こ</rt></ruby>",
@@ -9798,7 +9798,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>文化<rt>ぶんか</rt></ruby>",
@@ -9808,7 +9808,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>乗る<rt>のる</rt></ruby>",
@@ -9818,7 +9818,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>記念<rt>きねん</rt></ruby>",
@@ -9828,7 +9828,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>促進<rt>そくしん</rt></ruby>",
@@ -9838,7 +9838,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>新しい<rt>あたらしい</rt></ruby>（　）を<ruby>試す<rt>ためす</rt></ruby>",
         "question": "（　）に入るのは？",
         "options": ["<ruby>方法<rt>ほうほう</rt></ruby>",
@@ -9848,7 +9848,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>貿易<rt>ぼうえき</rt></ruby>",
@@ -9858,7 +9858,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["毎日",
@@ -9868,7 +9868,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>溶<rt>とる</rt></ruby><ruby>接<rt>せつ</rt></ruby>",
@@ -9878,7 +9878,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["申し<ruby>込む<rt>こむ</rt></ruby>",
@@ -9888,7 +9888,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["要<ruby>件<rt>けん</rt></ruby>",
@@ -9898,8 +9898,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "言い換え",
-        "text": "ニュースに<ruby>驚く<rt>おどろく</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "ニュースに<ruby>驚く<rt>おどろく</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>願い<rt>ねがい</rt></ruby>",
           "<ruby>安い<rt>やすい</rt></ruby>",
@@ -9908,8 +9908,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "言い換え",
-        "text": "失礼な態度に<ruby>怒る<rt>おこる</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "失<ruby>礼<rt>れい</rt></ruby>な<ruby>態<rt>たい</rt></ruby><ruby>度<rt>ど</rt></ruby>に<ruby>怒る<rt>おこる</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>印<rt>しるし</rt></ruby><ruby>刷<rt>さつ</rt></ruby>",
           "<ruby>部品<rt>ぶひん</rt></ruby>",
@@ -9918,8 +9918,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "言い換え",
-        "text": "道に迷って<ruby>困る<rt>こまる</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "道に<ruby>迷<rt>めい</rt></ruby>って<ruby>困る<rt>こまる</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>疲れる<rt>つかれる</rt></ruby>",
           "<ruby>課<rt>か</rt></ruby>長",
@@ -9928,8 +9928,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "言い換え",
-        "text": "進路に<ruby>迷う<rt>まよう</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>進<rt>すす</rt></ruby><ruby>路<rt>ろ</rt></ruby>に<ruby>迷う<rt>まよう</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>悩む<rt>なやむ</rt></ruby>",
           "<ruby>向かう<rt>むかう</rt></ruby>",
@@ -9938,8 +9938,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "言い換え",
-        "text": "新しい環境に<ruby>慣れる<rt>なれる</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>新<rt>あたら</rt></ruby>しい<ruby>環<rt>かん</rt></ruby><ruby>境<rt>きょう</rt></ruby>に<ruby>慣れる<rt>なれる</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>壊す<rt>こわす</rt></ruby>",
           "<ruby>習<rt>しゅう</rt></ruby>熟する",
@@ -9950,7 +9950,7 @@ window.MOCK_DATA['N4'] = {
     ],
     "10": [
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>温<rt>おん</rt></ruby>泉に　入っ（　）みたいです。",
         "question": "（　）に　はいるのは？",
         "options": ["る",
@@ -9961,7 +9961,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-034"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "友達に　<ruby>誘<rt>さそ</rt></ruby>わ（　）ました。",
         "question": "（　）に　はいるのは？",
         "options": ["え",
@@ -9972,7 +9972,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-035"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "この　<ruby>映画<rt>えいが</rt></ruby>は　<ruby>世界<rt>せかい</rt></ruby>中で　見（　）ています。",
         "question": "（　）に　はいるのは？",
         "options": ["る",
@@ -9983,7 +9983,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-038"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>皆<rt>みな</rt></ruby>に　<ruby>笑<rt>しょう</rt></ruby>わ（　）ました。",
         "question": "（　）に　はいるのは？",
         "options": ["れ",
@@ -9994,7 +9994,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-037"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>値段<rt>ねだん</rt></ruby>が　高（　）、買いません。",
         "question": "（　）に　はいるのは？",
         "options": ["いと",
@@ -10005,7 +10005,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-040"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "日本<ruby>語<rt>ご</rt></ruby>は　色々な　国で　話さ（　）ています。",
         "question": "（　）に　はいるのは？",
         "options": ["し",
@@ -10016,7 +10016,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-039"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "静か（　）、<ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>できます。",
         "question": "（　）に　はいるのは？",
         "options": ["だと",
@@ -10027,7 +10027,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-041"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>彼<rt>かれ</rt></ruby>に　<ruby>嘘<rt>うそ</rt></ruby>を　つか（　）ました。",
         "question": "（　）に　はいるのは？",
         "options": ["け",
@@ -10038,7 +10038,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-036"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "時間が　あ（　）、一<ruby>緒<rt>お</rt></ruby>に　行きましょう。",
         "question": "（　）に　はいるのは？",
         "options": ["ると",
@@ -10049,7 +10049,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-042"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "このボタンを　<ruby>押<rt>おう</rt></ruby>（　）、ドアが　<ruby>開<rt>あ</rt></ruby>きます。",
         "question": "（　）に　はいるのは？",
         "options": ["すと",
@@ -10060,7 +10060,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-043"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "右に　<ruby>曲<rt>きょく</rt></ruby>が（　）、駅が　あります。",
         "question": "（　）に　はいるのは？",
         "options": ["れば",
@@ -10071,7 +10071,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-044"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>彼<rt>かれ</rt></ruby>女は　<ruby>病気<rt>びょうき</rt></ruby>の（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["はず",
@@ -10082,7 +10082,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-045"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "明日は　<ruby>仕事<rt>しごと</rt></ruby>を　休む（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["こと",
@@ -10148,7 +10148,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-051"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "努力の<ruby>甲<rt>こう</rt></ruby>斐（　）、<ruby>成功<rt>せいこう</rt></ruby>を<ruby>収<rt>しゅう</rt></ruby>めた。（146）",
         "question": "（　）に入るのは？",
         "options": ["として",
@@ -10159,7 +10159,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-052"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>説明<rt>せつめい</rt></ruby>を（　）、<ruby>理解<rt>りかい</rt></ruby>が<ruby>深<rt>しん</rt></ruby>まった。（147）",
         "question": "（　）に入るのは？",
         "options": ["聞いたところ",
@@ -10170,7 +10170,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-053"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>問題<rt>もんだい</rt></ruby>が（　）、<ruby>対策<rt>たいさく</rt></ruby>を<ruby>講<rt>こう</rt></ruby>じた。（148）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>発生<rt>はっせい</rt></ruby>次第",
@@ -10181,7 +10181,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-054"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>彼<rt>かれ</rt></ruby>（　）、この<ruby>仕事<rt>しごと</rt></ruby>はできない。（149）",
         "question": "（　）に入るのは？",
         "options": ["はさておき",
@@ -10192,7 +10192,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-055"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>私<rt>わたし</rt></ruby>（　）、そのような<ruby>発言<rt>はつげん</rt></ruby>はしない。（150）",
         "question": "（　）に入るのは？",
         "options": ["にしても",
@@ -10203,7 +10203,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-056"
       },
       {
-        "type": "読解（短文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
         "text": "<ruby>夜<rt>よる</rt></ruby>10時から<ruby>朝<rt>あさ</rt></ruby>7時までは静かにしてください。ピアノなどの音は出さないでください。",
         "question": "<ruby>夜<rt>よる</rt></ruby>何をしてはいけませんか。",
         "options": ["テレビを見る",
@@ -10214,8 +10214,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-057"
       },
       {
-        "type": "読解（短文）",
-        "text": "エアコンの<ruby>温度<rt>おんど</rt></ruby>は28度にしてください。<ruby>節電<rt>せつでん</rt></ruby>にご協力ください。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "エアコンの<ruby>温度<rt>おんど</rt></ruby>は28<ruby>度<rt>ど</rt></ruby>にしてください。<ruby>節電<rt>せつでん</rt></ruby>にご<ruby>協<rt>きょう</rt></ruby>力ください。",
         "question": "エアコンは何<ruby>度<rt>ど</rt></ruby>にしますか。",
         "options": ["30<ruby>度<rt>ど</rt></ruby>",
           "28<ruby>度<rt>ど</rt></ruby>",
@@ -10225,8 +10225,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-058"
       },
       {
-        "type": "読解（短文）",
-        "text": "ペットを飼うときは、<ruby>管理人<rt>かんりにん</rt></ruby>に届け出をしてください。<ruby>大型犬<rt>おおがたけん</rt></ruby>は禁止です。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "ペットを<ruby>飼<rt>し</rt></ruby>うときは、<ruby>管理人<rt>かんりにん</rt></ruby>に<ruby>届<rt>とど</rt></ruby>け出をしてください。<ruby>大型犬<rt>おおがたけん</rt></ruby>は<ruby>禁<rt>きん</rt></ruby><ruby>止<rt>と</rt></ruby>です。",
         "question": "大<ruby>型<rt>かた</rt></ruby><ruby>犬<rt>いぬ</rt></ruby>は<ruby>飼<rt>し</rt></ruby>えますか。",
         "options": ["<ruby>飼<rt>し</rt></ruby>える",
           "<ruby>届け出<rt>とどけで</rt></ruby>をすれば<ruby>飼<rt>し</rt></ruby>える",
@@ -10236,8 +10236,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-059"
       },
       {
-        "type": "読解（短文）",
-        "text": "<ruby>宅配便<rt>たくはいびん</rt></ruby>が届きました。<ruby>不在<rt>ふざい</rt></ruby>の場合は、<ruby>再配達<rt>さいはいたつ</rt></ruby>を<ruby>依頼<rt>いらい</rt></ruby>してください。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>宅配便<rt>たくはいびん</rt></ruby>が<ruby>届<rt>とど</rt></ruby>きました。<ruby>不在<rt>ふざい</rt></ruby>の<ruby>場<rt>ば</rt></ruby><ruby>合<rt>あ</rt></ruby>は、<ruby>再配達<rt>さいはいたつ</rt></ruby>を<ruby>依頼<rt>いらい</rt></ruby>してください。",
         "question": "<ruby>家<rt>いえ</rt></ruby>にいなかったときどうしますか。",
         "options": ["<ruby>再<rt>さい</rt></ruby>配達を<ruby>頼む<rt>たのむ</rt></ruby>",
           "<ruby>諦める<rt>あきらめる</rt></ruby>",
@@ -10247,7 +10247,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-060"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "日本のお<ruby>風<rt>かぜ</rt></ruby>呂<ruby>文化<rt>ぶんか</rt></ruby>に<ruby>驚き<rt>おどろき</rt></ruby>ました。<ruby>体<rt>からだ</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>ってから湯船に入ります。<ruby>最初<rt>さいしょ</rt></ruby>は知らなくて、友達に教えてもらいました。",
         "question": "お<ruby>風<rt>かぜ</rt></ruby>呂で<ruby>最初<rt>さいしょ</rt></ruby>に何をしますか。",
         "options": ["<ruby>体<rt>からだ</rt></ruby>を<ruby>洗う<rt>あらう</rt></ruby>",
@@ -10258,7 +10258,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-061"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "日本のお正月を<ruby>初めて<rt>はじめて</rt></ruby><ruby>体験<rt>たいけん</rt></ruby>しました。おせち料理を食べて、<ruby>初<rt>しょ</rt></ruby><ruby>詣<rt>けい</rt></ruby>に行きました。日本の<ruby>伝統<rt>でんとう</rt></ruby>を<ruby>感じる<rt>かんじる</rt></ruby>ことができました。",
         "question": "お正月に何をしましたか。",
         "options": ["<ruby>旅行<rt>りょこう</rt></ruby>した",
@@ -10269,7 +10269,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-062"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "日本の四<ruby>季<rt>き</rt></ruby>が<ruby>好<rt>この</rt></ruby>きです。<ruby>春<rt>はる</rt></ruby>は<ruby>桜<rt>さくら</rt></ruby>、<ruby>夏<rt>なつ</rt></ruby>は花火、<ruby>秋<rt>あき</rt></ruby>は<ruby>紅<rt>べに</rt></ruby>葉、<ruby>冬<rt>ふゆ</rt></ruby>は雪が楽しめます。母国には四<ruby>季<rt>き</rt></ruby>がないので、とても<ruby>新鮮<rt>しんせん</rt></ruby>です。",
         "question": "この人の国には何がありませんか。",
         "options": ["<ruby>桜<rt>さくら</rt></ruby>",
@@ -10280,7 +10280,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-063"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "日本のサービスはとても丁<ruby>寧<rt>ねい</rt></ruby>だと<ruby>思い<rt>おもい</rt></ruby>ます。お<ruby>店<rt>みせ</rt></ruby>の人がいつも<ruby>笑顔<rt>えがお</rt></ruby>で<ruby>対応<rt>たいおう</rt></ruby>してくれます。母国と<ruby>比べる<rt>くらべる</rt></ruby>と、<ruby>違い<rt>ちがい</rt></ruby>を<ruby>感<rt>かん</rt></ruby>じます。",
         "question": "日本のサービスについてどう<ruby>思い<rt>おもい</rt></ruby>ますか。",
         "options": ["<ruby>悪い<rt>わるい</rt></ruby>",
@@ -10291,7 +10291,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-064"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【宅配<ruby>便<rt>べん</rt></ruby>】60サイズ800円　80サイズ1,000円　100サイズ1,300円",
         "question": "80サイズは？",
         "options": ["800円",
@@ -10302,7 +10302,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-065"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【<ruby>眼<rt>め</rt></ruby><ruby>鏡<rt>かがみ</rt></ruby><ruby>店<rt>みせ</rt></ruby>】フレーム5,000円～　レンズ8,000円～　<ruby>検<rt>けん</rt></ruby><ruby>眼<rt>め</rt></ruby><ruby>無<rt>む</rt></ruby>料",
         "question": "<ruby>検<rt>けん</rt></ruby><ruby>眼<rt>め</rt></ruby>は？",
         "options": ["2,000円",
@@ -10313,7 +10313,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-066"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>医師<rt>いし</rt></ruby>と<ruby>患者<rt>かんじゃ</rt></ruby>が<ruby>病院<rt>びょういん</rt></ruby>で<ruby>診<rt>みる</rt></ruby>察中（73）",
         "question": "何をしますか。",
         "options": ["💊",
@@ -10322,10 +10322,10 @@ window.MOCK_DATA['N4'] = {
           "🏥"],
         "answer": 2,
         "id": "N4-10-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット10問34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット10<ruby>問<rt>と</rt></ruby>34】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>教師<rt>きょうし</rt></ruby>と保<ruby>護<rt>まも</rt></ruby><ruby>者<rt>もの</rt></ruby>が学校で面談中（74）",
         "question": "何をしますか。",
         "options": ["📄",
@@ -10334,10 +10334,10 @@ window.MOCK_DATA['N4'] = {
           "📝"],
         "answer": 3,
         "id": "N4-10-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット10問35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット10<ruby>問<rt>と</rt></ruby>35】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>店<rt>みせ</rt></ruby>長とスタッフが<ruby>店舗<rt>てんぽ</rt></ruby>で<ruby>相<rt>そう</rt></ruby>談中（75）",
         "question": "何をしますか。",
         "options": ["📌",
@@ -10346,10 +10346,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-10-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：ピンを　して　ください。\nおとこ：わかりました。【セット10問36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：ピンを　して　ください。\nおとこ：わかりました。【セット10<ruby>問<rt>と</rt></ruby>36】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>上司<rt>じょうし</rt></ruby>と<ruby>部下<rt>ぶか</rt></ruby>がオフィスで<ruby>打ち合わせ<rt>うちあわせ</rt></ruby>中（76）",
         "question": "何をしますか。",
         "options": ["📋",
@@ -10358,10 +10358,10 @@ window.MOCK_DATA['N4'] = {
           "📞"],
         "answer": 1,
         "id": "N4-10-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット10問37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット10<ruby>問<rt>と</rt></ruby>37】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>受<rt>じゅ</rt></ruby>付と<ruby>来客<rt>らいきゃく</rt></ruby>がロビーで<ruby>対応<rt>たいおう</rt></ruby>中（77）",
         "question": "何をしますか。",
         "options": ["💳",
@@ -10370,10 +10370,10 @@ window.MOCK_DATA['N4'] = {
           "📢"],
         "answer": 0,
         "id": "N4-10-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット10問38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット10<ruby>問<rt>と</rt></ruby>38】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>医師<rt>いし</rt></ruby>と<ruby>患者<rt>かんじゃ</rt></ruby>が<ruby>病院<rt>びょういん</rt></ruby>で<ruby>診<rt>みる</rt></ruby>察中（78）",
         "question": "何をしますか。",
         "options": ["💊",
@@ -10382,10 +10382,10 @@ window.MOCK_DATA['N4'] = {
           "🔬"],
         "answer": 3,
         "id": "N4-10-072",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：けんきゅうを　して　ください。\nおとこ：わかりました。【セット10問39】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：けんきゅうを　して　ください。\nおとこ：わかりました。【セット10<ruby>問<rt>と</rt></ruby>39】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>教師<rt>きょうし</rt></ruby>と保<ruby>護<rt>まも</rt></ruby><ruby>者<rt>もの</rt></ruby>が学校で面談中（79）",
         "question": "何をしますか。",
         "options": ["📝",
@@ -10394,10 +10394,10 @@ window.MOCK_DATA['N4'] = {
           "📊"],
         "answer": 1,
         "id": "N4-10-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット10問40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット10<ruby>問<rt>と</rt></ruby>40】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>店<rt>みせ</rt></ruby>長とスタッフが<ruby>店舗<rt>てんぽ</rt></ruby>で<ruby>相<rt>そう</rt></ruby>談中（80）",
         "question": "何をしますか。",
         "options": ["📌",
@@ -10406,10 +10406,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-10-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット10問41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット10<ruby>問<rt>と</rt></ruby>41】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "トークを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（170）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -10418,10 +10418,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-10-081",
-        "script": "きょうの　はなしは　ほんについてです。これは　とても　たいせつです。【セット10問42】"
+        "script": "きょうの　はなしは　ほんについてです。これは　とても　たいせつです。【セット10<ruby>問<rt>と</rt></ruby>42】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "討<ruby>論<rt>ろん</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（165）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -10430,10 +10430,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-10-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット10問43】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット10<ruby>問<rt>と</rt></ruby>43】"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "友達を<ruby>ご飯<rt>ごはん</rt></ruby>に<ruby>誘<rt>さそ</rt></ruby>いたい（46）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -10442,10 +10442,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-10-082",
-        "script": "🍽について　はなします。【セット10問44】"
+        "script": "🍽について　はなします。【セット10<ruby>問<rt>と</rt></ruby>44】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>番組<rt>ばんぐみ</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（167）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -10454,10 +10454,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-10-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット10問45】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット10<ruby>問<rt>と</rt></ruby>45】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "今日は暑いですね。（226）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["本当ですね",
@@ -10468,7 +10468,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-087"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "ドキュメンタリーを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（169）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -10477,10 +10477,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-10-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット10問47】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット10<ruby>問<rt>と</rt></ruby>47】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "何時までですか。（227）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -10491,7 +10491,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-088"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "セミナーを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（166）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -10500,10 +10500,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-10-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット10問49】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット10<ruby>問<rt>と</rt></ruby>49】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "週<ruby>末<rt>まつ</rt></ruby>の<ruby>予定<rt>よてい</rt></ruby>は。（228）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["<ruby>特に<rt>とくに</rt></ruby>ないです",
@@ -10514,7 +10514,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-089"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "先生に<ruby>質問<rt>しつもん</rt></ruby>したい（48）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -10523,10 +10523,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-10-084",
-        "script": "ピンについて　はなします。【セット10問51】"
+        "script": "ピンについて　はなします。【セット10<ruby>問<rt>と</rt></ruby>51】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "おいしいですね。（229）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -10537,7 +10537,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-090"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "友達に<ruby>断<rt>だん</rt></ruby>りたい（50）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -10546,10 +10546,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-10-086",
-        "script": "ピンについて　はなします。【セット10問53】"
+        "script": "ピンについて　はなします。【セット10<ruby>問<rt>と</rt></ruby>53】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "<ruby>写<rt>うつ</rt></ruby>真<ruby>撮<rt>とる</rt></ruby>ってもいいですか。（230）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -10560,7 +10560,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-091"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>解説<rt>かいせつ</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（164）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -10569,10 +10569,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-10-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット10問55】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット10<ruby>問<rt>と</rt></ruby>55】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "お<ruby>仕事<rt>しごと</rt></ruby>は何ですか。（231）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -10583,8 +10583,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-092"
       },
       {
-        "type": "聴解（発話表現）",
-        "text": "同<ruby>僚<rt>りょう</rt></ruby>にお礼を<ruby>言<rt>い</rt></ruby>いたい（49）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
+        "text": "同<ruby>僚<rt>りょう</rt></ruby>にお<ruby>礼<rt>れい</rt></ruby>を<ruby>言<rt>い</rt></ruby>いたい（49）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
           "📌",
@@ -10592,10 +10592,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-10-085",
-        "script": "ピンについて　はなします。【セット10問57】"
+        "script": "ピンについて　はなします。【セット10<ruby>問<rt>と</rt></ruby>57】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "<ruby>趣味<rt>しゅみ</rt></ruby>は何ですか。（232）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -10606,7 +10606,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-093"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>店員<rt>てんいん</rt></ruby>に<ruby>値段<rt>ねだん</rt></ruby>を聞きたい（47）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -10615,10 +10615,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-10-083",
-        "script": "ピンについて　はなします。【セット10問59】"
+        "script": "ピンについて　はなします。【セット10<ruby>問<rt>と</rt></ruby>59】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "出身はどこですか。（233）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["東<ruby>京<rt>きょう</rt></ruby>です",
@@ -10629,7 +10629,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-094"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>特<rt>とく</rt></ruby><ruby>集<rt>しゅう</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（168）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -10638,10 +10638,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-10-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット10問61】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット10<ruby>問<rt>と</rt></ruby>61】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "いつからですか。（234）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -10652,7 +10652,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-10-095"
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>ちゃくばらい</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>気持ち<rt>きもち</rt></ruby>",
@@ -10662,7 +10662,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>あずけいれ</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>預<rt>よ</rt></ruby>け入れ",
@@ -10672,7 +10672,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>くべつ</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["出入口",
@@ -10682,7 +10682,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>しゅうり</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["左側",
@@ -10692,7 +10692,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>ぬすむ</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>浮かべる<rt>うかべる</rt></ruby>",
@@ -10702,7 +10702,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>ちゅうしん</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>中心<rt>ちゅうしん</rt></ruby>",
@@ -10712,8 +10712,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>事務所</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>事<rt>こと</rt></ruby><ruby>務<rt>む</rt></ruby><ruby>所<rt>ところ</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["むら",
           "すす",
@@ -10722,8 +10722,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>減少</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>減<rt>へ</rt></ruby><ruby>少<rt>すこ</rt></ruby></u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["おお",
           "ず",
@@ -10732,8 +10732,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>会場</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u>会<ruby>場<rt>ば</rt></ruby></u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["かいじょう",
           "こえ",
@@ -10742,8 +10742,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>乗る</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>乗<rt>の</rt></ruby>る</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["あお",
           "のる",
@@ -10752,8 +10752,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>心配する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>心<rt>こころ</rt></ruby>配する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["よ",
           "しんぱいする",
@@ -10762,8 +10762,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>新聞</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>新<rt>あたら</rt></ruby>聞</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["あか",
           "しんぶん",
@@ -10772,8 +10772,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>親切</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>親<rt>おや</rt></ruby><ruby>切<rt>き</rt></ruby></u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["ぞく",
           "き",
@@ -10782,8 +10782,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<ruby>工事<rt>こうじ</rt></ruby>が順調に<u>進む</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<ruby>工事<rt>こうじ</rt></ruby>が順調に<u><ruby>進<rt>すす</rt></ruby>む</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["むら",
           "と",
@@ -10792,8 +10792,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>地図</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>地<rt>ち</rt></ruby><ruby>図<rt>ず</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["あら",
           "ちず",
@@ -10802,7 +10802,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>方<rt>ほう</rt></ruby>針",
@@ -10812,7 +10812,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>無理<rt>むり</rt></ruby>",
@@ -10822,7 +10822,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>旅行<rt>りょこう</rt></ruby>の（　）を話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>連れる<rt>つれる</rt></ruby>",
@@ -10832,7 +10832,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）を<ruby>解決<rt>かいけつ</rt></ruby>する",
         "question": "（　）に入るのは？",
         "options": ["<ruby>問題<rt>もんだい</rt></ruby>",
@@ -10841,7 +10841,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>終了<rt>しゅうりょう</rt></ruby>",
@@ -10851,7 +10851,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["ロイヤリティ",
@@ -10861,7 +10861,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["垂れる",
@@ -10871,7 +10871,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["コンテナ",
@@ -10881,7 +10881,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "<ruby>遅刻<rt>ちこく</rt></ruby>の（　）を<ruby>説明<rt>せつめい</rt></ruby>する",
         "question": "（　）に入るのは？",
         "options": ["福<ruby>利<rt>り</rt></ruby><ruby>厚<rt>あつ</rt></ruby>生",
@@ -10891,7 +10891,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>複雑<rt>ふくざつ</rt></ruby>",
@@ -10901,7 +10901,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "友達に（　）する",
         "question": "（　）に入るのは？",
         "options": ["<ruby>連絡<rt>れんらく</rt></ruby>",
@@ -10911,7 +10911,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>休憩<rt>きゅうけい</rt></ruby>",
@@ -10921,7 +10921,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>劇場<rt>げきじょう</rt></ruby>",
@@ -10931,7 +10931,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["失敗する",
@@ -10941,7 +10941,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>成る<rt>なる</rt></ruby>",
@@ -10951,7 +10951,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>眠い<rt>ねむい</rt></ruby>",
@@ -10961,7 +10961,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["要<ruby>件<rt>けん</rt></ruby>",
@@ -10971,7 +10971,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>乗り物<rt>のりもの</rt></ruby>",
@@ -10981,7 +10981,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["焼く",
@@ -10991,7 +10991,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "文脈規定",
+        "type": "文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>運<rt>うん</rt></ruby>用",
@@ -11001,8 +11001,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "言い換え",
-        "text": "仕事で<ruby>疲れる<rt>つかれる</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>仕<rt>つか</rt></ruby><ruby>事<rt>こと</rt></ruby>で<ruby>疲れる<rt>つかれる</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>示す<rt>しめす</rt></ruby>",
           "<ruby>疲労<rt>ひろう</rt></ruby>する",
@@ -11011,8 +11011,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "言い換え",
-        "text": "食べ過ぎて<ruby>太る<rt>ふとる</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "食べ<ruby>過<rt>か</rt></ruby>ぎて<ruby>太る<rt>ふとる</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>開く<rt>ひらく</rt></ruby>",
           "<ruby>痩せる<rt>やせる</rt></ruby>",
@@ -11021,8 +11021,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "言い換え",
-        "text": "ダイエットで<ruby>痩せる<rt>やせる</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "ダイエットで<ruby>痩せる<rt>やせる</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>監査<rt>かんさ</rt></ruby>",
           "<ruby>受<rt>じゅ</rt></ruby>け取る",
@@ -11031,8 +11031,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "言い換え",
-        "text": "「<ruby>預ける<rt>あずける</rt></ruby>」の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "「<ruby>預ける<rt>あずける</rt></ruby>」の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>泣く<rt>なく</rt></ruby>",
           "<ruby>預<rt>よ</rt></ruby><ruby>託す<rt>たくす</rt></ruby>る",
@@ -11041,8 +11041,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "言い換え",
-        "text": "「<ruby>預かる<rt>あずかる</rt></ruby>」の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "「<ruby>預かる<rt>あずかる</rt></ruby>」の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>変わる<rt>かわる</rt></ruby>",
           "保<ruby>管<rt>かん</rt></ruby>する",
@@ -11053,7 +11053,7 @@ window.MOCK_DATA['N4'] = {
     ],
     "11": [
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "日本<ruby>語<rt>ご</rt></ruby>を　もっと　<ruby>勉強<rt>べんきょう</rt></ruby>する（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["はず",
@@ -11064,7 +11064,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-034"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "美<ruby>味<rt>あじ</rt></ruby>し（　）ですね。",
         "question": "（　）に　はいるのは？",
         "options": ["みたい",
@@ -11075,7 +11075,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-035"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>彼<rt>かれ</rt></ruby>女は　日本人（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["よう",
@@ -11086,7 +11086,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-036"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>頭<rt>あたま</rt></ruby>が　<ruby>痛い<rt>いたい</rt></ruby>（　）、<ruby>薬<rt>くすり</rt></ruby>を　飲みました。",
         "question": "（　）に　はいるのは？",
         "options": ["ても",
@@ -11097,7 +11097,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-037"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "雨（　）、<ruby>傘<rt>かさ</rt></ruby>を　<ruby>持<rt>もつ</rt></ruby>っていきます。",
         "question": "（　）に　はいるのは？",
         "options": ["だから",
@@ -11108,7 +11108,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-038"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>便利<rt>べんり</rt></ruby>な（　）、<ruby>使<rt>つか</rt></ruby>っています。",
         "question": "（　）に　はいるのは？",
         "options": ["ので",
@@ -11119,7 +11119,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-040"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "休み（　）、<ruby>旅行<rt>りょこう</rt></ruby>に　行きます。",
         "question": "（　）に　はいるのは？",
         "options": ["だけど",
@@ -11130,7 +11130,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-039"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "手を　<ruby>洗<rt>あら</rt></ruby>っ（　）、食べてください。",
         "question": "（　）に　はいるのは？",
         "options": ["た後で",
@@ -11141,7 +11141,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-041"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "出かける（　）、電話が　ありました。",
         "question": "（　）に　はいるのは？",
         "options": ["てから",
@@ -11152,7 +11152,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-042"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "テレビを　見（　）、<ruby>ご飯<rt>ごはん</rt></ruby>を　食べます。",
         "question": "（　）に　はいるのは？",
         "options": ["まま",
@@ -11163,7 +11163,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-043"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "この　<ruby>説明<rt>せつめい</rt></ruby>は　分かり（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["やすい",
@@ -11174,7 +11174,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-044"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "この　ペンは　書き（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["やすい",
@@ -11185,7 +11185,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-046"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "あの　先生は　<ruby>質問<rt>しつもん</rt></ruby>し（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["たい",
@@ -11251,7 +11251,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-051"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "日本<ruby>経済<rt>けいざい</rt></ruby>は<ruby>長期<rt>ちょうき</rt></ruby>にわたる<ruby>停滞<rt>ていたい</rt></ruby>（　）、<ruby>回<rt>まわ</rt></ruby>復の<ruby>兆<rt>ちょう</rt></ruby>しを見せている。（151）",
         "question": "（　）に入るのは？",
         "options": ["をもって",
@@ -11262,7 +11262,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-052"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>彼<rt>かれ</rt></ruby>の提<ruby>案<rt>あん</rt></ruby>は<ruby>斬新<rt>ざんしん</rt></ruby>（　）、実<ruby>現<rt>あらわ</rt></ruby><ruby>可能性<rt>かのうせい</rt></ruby>に<ruby>欠ける<rt>かける</rt></ruby>。（152）",
         "question": "（　）に入るのは？",
         "options": ["であるから",
@@ -11273,7 +11273,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-053"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>環境問題<rt>かんきょうもんだい</rt></ruby>の<ruby>解決<rt>かいけつ</rt></ruby>（　）、<ruby>国際協力<rt>こくさいきょうりょく</rt></ruby>が<ruby>不可欠<rt>ふかけつ</rt></ruby>だ。（153）",
         "question": "（　）に入るのは？",
         "options": ["にとって",
@@ -11284,7 +11284,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-054"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "この<ruby>研究<rt>けんきゅう</rt></ruby>は長年の努力（　）<ruby>結<rt>むす</rt></ruby>実したものだ。（154）",
         "question": "（　）に入るのは？",
         "options": ["に",
@@ -11295,7 +11295,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-055"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "社会の<ruby>変化<rt>へんか</rt></ruby>（　）、<ruby>教育<rt>きょういく</rt></ruby>も<ruby>見直し<rt>みなおし</rt></ruby>が必要だ。（155）",
         "question": "（　）に入るのは？",
         "options": ["によると",
@@ -11306,8 +11306,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-056"
       },
       {
-        "type": "読解（短文）",
-        "text": "明日は雨の<ruby>予報<rt>よほう</rt></ruby>です。傘を持っていった方がいいでしょう。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "明日は雨の<ruby>予報<rt>よほう</rt></ruby>です。<ruby>傘<rt>かさ</rt></ruby>を<ruby>持<rt>も</rt></ruby>っていった<ruby>方<rt>かた</rt></ruby>がいいでしょう。",
         "question": "明日の天気はどうですか。",
         "options": ["雨",
           "雪",
@@ -11317,8 +11317,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-057"
       },
       {
-        "type": "読解（短文）",
-        "text": "今日は<ruby>気温<rt>きおん</rt></ruby>が35度を超えそうです。<ruby>熱中症<rt>ねっちゅうしょう</rt></ruby>に気をつけてください。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "今日は<ruby>気温<rt>きおん</rt></ruby>が35<ruby>度<rt>ど</rt></ruby>を<ruby>超<rt>こ</rt></ruby>えそうです。<ruby>熱中症<rt>ねっちゅうしょう</rt></ruby>に気をつけてください。",
         "question": "今日はどんな天気ですか。",
         "options": ["とても暑い",
           "雨",
@@ -11328,8 +11328,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-058"
       },
       {
-        "type": "読解（短文）",
-        "text": "台風が近づいています。明日は<ruby>外出<rt>がいしゅつ</rt></ruby>しない方がいいでしょう。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>台<rt>だい</rt></ruby><ruby>風<rt>ふう</rt></ruby>が<ruby>近<rt>ちか</rt></ruby>づいています。明日は<ruby>外出<rt>がいしゅつ</rt></ruby>しない<ruby>方<rt>かた</rt></ruby>がいいでしょう。",
         "question": "明日はどうした<ruby>方<rt>ほう</rt></ruby>がいいですか。",
         "options": ["外出する",
           "電車で行く",
@@ -11339,8 +11339,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-059"
       },
       {
-        "type": "読解（短文）",
-        "text": "<ruby>花見<rt>はなみ</rt></ruby>の季節です。公園の<ruby>桜<rt>さくら</rt></ruby>が<ruby>満開<rt>まんかい</rt></ruby>になりました。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>花見<rt>はなみ</rt></ruby>の<ruby>季<rt>き</rt></ruby><ruby>節<rt>せつ</rt></ruby>です。公<ruby>園<rt>その</rt></ruby>の<ruby>桜<rt>さくら</rt></ruby>が<ruby>満開<rt>まんかい</rt></ruby>になりました。",
         "question": "今はどんな<ruby>季節<rt>きせつ</rt></ruby>ですか。",
         "options": ["<ruby>秋<rt>あき</rt></ruby>",
           "<ruby>冬<rt>ふゆ</rt></ruby>",
@@ -11350,7 +11350,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-060"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "来週、<ruby>家<rt>いえ</rt></ruby><ruby>族<rt>ぞく</rt></ruby>で<ruby>沖<rt>おき</rt></ruby><ruby>縄<rt>なわ</rt></ruby>に<ruby>旅行<rt>りょこう</rt></ruby>に行きます。飛行<ruby>機<rt>き</rt></ruby>とホテルはもう<ruby>予<rt>よ</rt></ruby>約しました。<ruby>海<rt>うみ</rt></ruby>で<ruby>泳<rt>えい</rt></ruby>いだり、<ruby>沖<rt>おき</rt></ruby><ruby>縄<rt>なわ</rt></ruby>料理を食べたりしたいです。",
         "question": "<ruby>沖<rt>おき</rt></ruby><ruby>縄<rt>なわ</rt></ruby>で何をしたいですか。",
         "options": ["山に<ruby>登る<rt>のぼる</rt></ruby>",
@@ -11361,7 +11361,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-061"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "先週、<ruby>京<rt>きょう</rt></ruby><ruby>都<rt>みやこ</rt></ruby>に<ruby>日帰り<rt>ひがえり</rt></ruby>で行ってきました。<ruby>紅<rt>べに</rt></ruby>葉がとてもきれいでした。お寺をいくつか<ruby>回<rt>まわ</rt></ruby>って、<ruby>抹<rt>まつ</rt></ruby>茶を飲みました。",
         "question": "<ruby>京<rt>きょう</rt></ruby><ruby>都<rt>みやこ</rt></ruby>で何をしましたか。",
         "options": ["<ruby>温<rt>おん</rt></ruby>泉に入った",
@@ -11372,7 +11372,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-062"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "日本に来て<ruby>初めて<rt>はじめて</rt></ruby><ruby>温<rt>おん</rt></ruby>泉に入りました。<ruby>最初<rt>さいしょ</rt></ruby>は<ruby>裸<rt>はだか</rt></ruby>で入ることに<ruby>抵抗<rt>ていこう</rt></ruby>がありましたが、入ってみるととても<ruby>気持ち<rt>きもち</rt></ruby>よかったです。",
         "question": "<ruby>温<rt>おん</rt></ruby>泉についてどう<ruby>思い<rt>おもい</rt></ruby>ましたか。",
         "options": ["<ruby>嫌<rt>いや</rt></ruby>だった",
@@ -11383,7 +11383,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-063"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "日本の<ruby>桜<rt>さくら</rt></ruby>を<ruby>初めて<rt>はじめて</rt></ruby>見ました。<ruby>写<rt>うつ</rt></ruby>真よりもっときれいでした。<ruby>公園<rt>こうえん</rt></ruby>でお弁当を食べながら花見をしました。来年も<ruby>絶対<rt>ぜったい</rt></ruby>見たいです。",
         "question": "<ruby>桜<rt>さくら</rt></ruby>についてどう<ruby>思い<rt>おもい</rt></ruby>ましたか。",
         "options": ["<ruby>写<rt>うつ</rt></ruby>真よりきれいだった",
@@ -11394,7 +11394,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-064"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【<ruby>花屋<rt>はなや</rt></ruby>】花束3,000円～　配達500円　9:00-19:00　水曜休み",
         "question": "配達は？",
         "options": ["1,000円",
@@ -11405,7 +11405,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-065"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【パソコン教室】入門月4<ruby>回<rt>まわ</rt></ruby>8,000円　<ruby>応<rt>おう</rt></ruby>用12,000円　テキスト2,000円",
         "question": "入門+テキストは？",
         "options": ["12,000円",
@@ -11416,7 +11416,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-066"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>上司<rt>じょうし</rt></ruby>と<ruby>部下<rt>ぶか</rt></ruby>がオフィスで<ruby>打ち合わせ<rt>うちあわせ</rt></ruby>中（81）",
         "question": "何をしますか。",
         "options": ["📞",
@@ -11425,10 +11425,10 @@ window.MOCK_DATA['N4'] = {
           "📧"],
         "answer": 1,
         "id": "N4-11-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット11問34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット11<ruby>問<rt>と</rt></ruby>34】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>受<rt>じゅ</rt></ruby>付と<ruby>来客<rt>らいきゃく</rt></ruby>がロビーで<ruby>対応<rt>たいおう</rt></ruby>中（82）",
         "question": "何をしますか。",
         "options": ["🚪",
@@ -11437,10 +11437,10 @@ window.MOCK_DATA['N4'] = {
           "📢"],
         "answer": 2,
         "id": "N4-11-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット11問35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット11<ruby>問<rt>と</rt></ruby>35】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>医師<rt>いし</rt></ruby>と<ruby>患者<rt>かんじゃ</rt></ruby>が<ruby>病院<rt>びょういん</rt></ruby>で<ruby>診<rt>みる</rt></ruby>察中（83）",
         "question": "何をしますか。",
         "options": ["🏥",
@@ -11449,10 +11449,10 @@ window.MOCK_DATA['N4'] = {
           "🔬"],
         "answer": 3,
         "id": "N4-11-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：けんきゅうを　して　ください。\nおとこ：わかりました。【セット11問36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：けんきゅうを　して　ください。\nおとこ：わかりました。【セット11<ruby>問<rt>と</rt></ruby>36】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>教師<rt>きょうし</rt></ruby>と保<ruby>護<rt>まも</rt></ruby><ruby>者<rt>もの</rt></ruby>が学校で面談中（84）",
         "question": "何をしますか。",
         "options": ["📄",
@@ -11461,10 +11461,10 @@ window.MOCK_DATA['N4'] = {
           "📊"],
         "answer": 2,
         "id": "N4-11-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット11問37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット11<ruby>問<rt>と</rt></ruby>37】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>店<rt>みせ</rt></ruby>長とスタッフが<ruby>店舗<rt>てんぽ</rt></ruby>で<ruby>相<rt>そう</rt></ruby>談中（85）",
         "question": "何をしますか。",
         "options": ["📌",
@@ -11473,10 +11473,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-11-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット11問38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット11<ruby>問<rt>と</rt></ruby>38】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>上司<rt>じょうし</rt></ruby>と<ruby>部下<rt>ぶか</rt></ruby>がオフィスで<ruby>打ち合わせ<rt>うちあわせ</rt></ruby>中（86）",
         "question": "何をしますか。",
         "options": ["📋",
@@ -11485,10 +11485,10 @@ window.MOCK_DATA['N4'] = {
           "📞"],
         "answer": 1,
         "id": "N4-11-072",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：スケジュールを　して　ください。\nおとこ：わかりました。【セット11問39】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：スケジュールを　して　ください。\nおとこ：わかりました。【セット11<ruby>問<rt>と</rt></ruby>39】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>受<rt>じゅ</rt></ruby>付と<ruby>来客<rt>らいきゃく</rt></ruby>がロビーで<ruby>対応<rt>たいおう</rt></ruby>中（87）",
         "question": "何をしますか。",
         "options": ["💳",
@@ -11497,10 +11497,10 @@ window.MOCK_DATA['N4'] = {
           "🚪"],
         "answer": 0,
         "id": "N4-11-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット11問40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット11<ruby>問<rt>と</rt></ruby>40】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>医師<rt>いし</rt></ruby>と<ruby>患者<rt>かんじゃ</rt></ruby>が<ruby>病院<rt>びょういん</rt></ruby>で<ruby>診<rt>みる</rt></ruby>察中（88）",
         "question": "何をしますか。",
         "options": ["💊",
@@ -11509,10 +11509,10 @@ window.MOCK_DATA['N4'] = {
           "✉️"],
         "answer": 1,
         "id": "N4-11-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット11問41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット11<ruby>問<rt>と</rt></ruby>41】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "放<ruby>送<rt>お</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（171）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -11521,10 +11521,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-11-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット11問42】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット11<ruby>問<rt>と</rt></ruby>42】"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "友達を<ruby>ご飯<rt>ごはん</rt></ruby>に<ruby>誘<rt>さそ</rt></ruby>いたい（51）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -11533,10 +11533,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-11-082",
-        "script": "🍽について　はなします。【セット11問43】"
+        "script": "🍽について　はなします。【セット11<ruby>問<rt>と</rt></ruby>43】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>研修<rt>けんしゅう</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（173）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -11545,10 +11545,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-11-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット11問44】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット11<ruby>問<rt>と</rt></ruby>44】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "何人ですか。（235）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["3人です",
@@ -11559,7 +11559,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-087"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "ミーティングを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（175）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -11568,10 +11568,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-11-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット11問46】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット11<ruby>問<rt>と</rt></ruby>46】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "いくらですか。（236）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -11582,7 +11582,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-088"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "ニュースを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（177）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -11591,10 +11591,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-11-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット11問48】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット11<ruby>問<rt>と</rt></ruby>48】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "何<ruby>階<rt>かい</rt></ruby>ですか。（237）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["3<ruby>階<rt>かい</rt></ruby>です",
@@ -11605,7 +11605,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-089"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>店員<rt>てんいん</rt></ruby>に<ruby>値段<rt>ねだん</rt></ruby>を聞きたい（52）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -11614,10 +11614,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-11-083",
-        "script": "ピンについて　はなします。【セット11問50】"
+        "script": "ピンについて　はなします。【セット11<ruby>問<rt>と</rt></ruby>50】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "どちらがいいですか。（238）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -11628,8 +11628,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-090"
       },
       {
-        "type": "聴解（発話表現）",
-        "text": "同<ruby>僚<rt>りょう</rt></ruby>にお礼を<ruby>言<rt>い</rt></ruby>いたい（54）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
+        "text": "同<ruby>僚<rt>りょう</rt></ruby>にお<ruby>礼<rt>れい</rt></ruby>を<ruby>言<rt>い</rt></ruby>いたい（54）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
           "📌",
@@ -11637,10 +11637,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-11-085",
-        "script": "ピンについて　はなします。【セット11問52】"
+        "script": "ピンについて　はなします。【セット11<ruby>問<rt>と</rt></ruby>52】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "もう<ruby>終わり<rt>おわり</rt></ruby>ましたか。（239）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -11651,8 +11651,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-091"
       },
       {
-        "type": "聴解（ポイント理解）",
-        "text": "<ruby>朝<rt>あさ</rt></ruby>礼を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（174）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
+        "text": "<ruby>朝<rt>あさ</rt></ruby><ruby>礼<rt>れい</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（174）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
           "📌",
@@ -11660,10 +11660,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-11-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット11問54】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット11<ruby>問<rt>と</rt></ruby>54】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "どうしましたか。（240）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["<ruby>少し<rt>すこし</rt></ruby><ruby>疲れ<rt>つかれ</rt></ruby>ました",
@@ -11674,7 +11674,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-092"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>発<rt>はつ</rt></ruby>表を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（172）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -11683,10 +11683,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-11-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット11問56】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット11<ruby>問<rt>と</rt></ruby>56】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "お腹空きましたか。（241）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -11697,7 +11697,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-093"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "友達に<ruby>断<rt>だん</rt></ruby>りたい（55）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📅",
@@ -11706,10 +11706,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-11-086",
-        "script": "ピンについて　はなします。【セット11問58】"
+        "script": "ピンについて　はなします。【セット11<ruby>問<rt>と</rt></ruby>58】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "<ruby>眠い<rt>ねむい</rt></ruby>ですか。（242）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["<ruby>少し<rt>すこし</rt></ruby><ruby>眠い<rt>ねむい</rt></ruby>です",
@@ -11720,7 +11720,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-094"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "先生に<ruby>質問<rt>しつもん</rt></ruby>したい（53）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -11729,10 +11729,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-11-084",
-        "script": "ピンについて　はなします。【セット11問60】"
+        "script": "ピンについて　はなします。【セット11<ruby>問<rt>と</rt></ruby>60】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "<ruby>準備<rt>じゅんび</rt></ruby>できましたか。（243）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -11743,7 +11743,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-11-095"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>講<rt>こう</rt></ruby><ruby>演<rt>えん</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（176）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -11752,10 +11752,10 @@ window.MOCK_DATA['N4'] = {
           "📕"],
         "answer": 0,
         "id": "N4-11-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット11問62】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット11<ruby>問<rt>と</rt></ruby>62】"
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>ひじょうぐち</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["非<ruby>常<rt>じょう</rt></ruby>口",
@@ -11765,7 +11765,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>どうにゅう</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>不<rt>ふ</rt></ruby>要",
@@ -11775,7 +11775,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>ていか</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>低下<rt>ていか</rt></ruby>",
@@ -11785,7 +11785,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>としょかん</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>警<rt>けい</rt></ruby>察<ruby>官<rt>かん</rt></ruby>",
@@ -11795,7 +11795,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>ほじょ</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>研究<rt>けんきゅう</rt></ruby>",
@@ -11805,7 +11805,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>きもち</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["纏める",
@@ -11815,8 +11815,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>声</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>声<rt>こえ</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["だい",
           "おく",
@@ -11825,8 +11825,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>青</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>青<rt>あお</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["あお",
           "あい",
@@ -11835,8 +11835,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "とても<u>世界</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "とても<u><ruby>世<rt>よ</rt></ruby><ruby>界<rt>かい</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["せかい",
           "はし",
@@ -11845,8 +11845,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>赤字</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>赤<rt>あか</rt></ruby>字</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["ま",
           "はや",
@@ -11855,8 +11855,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>親切</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>親<rt>おや</rt></ruby><ruby>切<rt>き</rt></ruby></u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["か",
           "ぞく",
@@ -11865,8 +11865,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>説明する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>説<rt>と</rt></ruby>明する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["せつめいする",
           "むら",
@@ -11875,8 +11875,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>洗面所</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>洗<rt>あら</rt></ruby>面<ruby>所<rt>ところ</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["あさ",
           "おお",
@@ -11885,8 +11885,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>送る</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>送<rt>お</rt></ruby>る</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["だい",
           "ふと",
@@ -11895,8 +11895,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>相談する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>相<rt>あい</rt></ruby>談する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["とお",
           "からだ",
@@ -11905,8 +11905,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "言い換え",
-        "text": "「<ruby>終わる<rt>おわる</rt></ruby>」の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "「<ruby>終わる<rt>おわる</rt></ruby>」の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>走る<rt>はしる</rt></ruby>",
           "<ruby>固い<rt>かたい</rt></ruby>",
@@ -11915,8 +11915,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "言い換え",
-        "text": "「<ruby>下がる<rt>さがる</rt></ruby>」の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "「<ruby>下がる<rt>さがる</rt></ruby>」の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>親会社<rt>おやがいしゃ</rt></ruby>",
           "<ruby>領収書<rt>りょうしゅうしょ</rt></ruby>",
@@ -11925,8 +11925,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "言い換え",
-        "text": "「<ruby>下げる<rt>さげる</rt></ruby>」の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "「<ruby>下げる<rt>さげる</rt></ruby>」の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["下手",
           "<ruby>怪<rt>かい</rt></ruby><ruby>我<rt>われ</rt></ruby>",
@@ -11935,8 +11935,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "言い換え",
-        "text": "椅子に<ruby>座る<rt>すわる</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>椅<rt>い</rt></ruby>子に<ruby>座る<rt>すわる</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>受<rt>じゅ</rt></ruby>付",
           "<ruby>季節<rt>きせつ</rt></ruby>",
@@ -11945,8 +11945,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "言い換え",
-        "text": "「<ruby>止まる<rt>とまる</rt></ruby>」の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "「<ruby>止まる<rt>とまる</rt></ruby>」の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["大<ruby>丈<rt>たけ</rt></ruby>夫",
           "<ruby>停止<rt>ていし</rt></ruby>する",
@@ -11957,7 +11957,7 @@ window.MOCK_DATA['N4'] = {
     ],
     "12": [
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "この　<ruby>椅子<rt>いす</rt></ruby>は　<ruby>座<rt>ざ</rt></ruby>り（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["やすい",
@@ -11968,7 +11968,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-034"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "毎日　<ruby>運動<rt>うんどう</rt></ruby>（　）ようにしています。",
         "question": "（　）に　はいるのは？",
         "options": ["する",
@@ -11979,7 +11979,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-036"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "ひらがなは　<ruby>覚え<rt>おぼえ</rt></ruby>（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["やすい",
@@ -11990,7 +11990,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-035"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "お酒を　飲みすぎ（　）ようにしています。",
         "question": "（　）に　はいるのは？",
         "options": ["なくて",
@@ -12001,7 +12001,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-037"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>早<rt>そう</rt></ruby>く　<ruby>寝<rt>しん</rt></ruby>（　）ようにしています。",
         "question": "（　）に　はいるのは？",
         "options": ["た",
@@ -12012,7 +12012,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-038"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>忘れ物<rt>わすれもの</rt></ruby>（　）ないように　気をつけます。",
         "question": "（　）に　はいるのは？",
         "options": ["が",
@@ -12023,7 +12023,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-039"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>遅れ<rt>おくれ</rt></ruby>（　）ように　<ruby>早<rt>そう</rt></ruby>く　出ます。",
         "question": "（　）に　はいるのは？",
         "options": ["なかった",
@@ -12034,7 +12034,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-040"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "この　<ruby>書類<rt>しょるい</rt></ruby>は　明日（　）に　出してください。",
         "question": "（　）に　はいるのは？",
         "options": ["まで",
@@ -12045,7 +12045,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-041"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>彼<rt>かれ</rt></ruby>は　先生に　なりたい（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["みたい",
@@ -12056,7 +12056,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-045"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "レポートを　月曜日（　）に　出してください。",
         "question": "（　）に　はいるのは？",
         "options": ["まで",
@@ -12067,7 +12067,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-043"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "このケーキは　おいしい（　）見えます。",
         "question": "（　）に　はいるのは？",
         "options": ["に",
@@ -12078,7 +12078,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-046"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>は　5時（　）に　<ruby>終わり<rt>おわり</rt></ruby>ます。",
         "question": "（　）に　はいるのは？",
         "options": ["と",
@@ -12100,7 +12100,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-047"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>宿題<rt>しゅくだい</rt></ruby>を　明日（　）に　<ruby>終<rt>しゅう</rt></ruby>わらせます。",
         "question": "（　）に　はいるのは？",
         "options": ["と",
@@ -12155,7 +12155,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-051"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>困難<rt>こんなん</rt></ruby>（　）<ruby>乗<rt>の</rt></ruby>り<ruby>越<rt>こ</rt></ruby>え、<ruby>目標<rt>もくひょう</rt></ruby>を達<ruby>成<rt>せい</rt></ruby>した。（156）",
         "question": "（　）に入るのは？",
         "options": ["から",
@@ -12166,7 +12166,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-052"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "専門<ruby>家<rt>いえ</rt></ruby>（　）<ruby>意見<rt>いけん</rt></ruby>を聞く必要がある。（157）",
         "question": "（　）に入るのは？",
         "options": ["の",
@@ -12177,7 +12177,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-053"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>技術<rt>ぎじゅつ</rt></ruby>の<ruby>進歩<rt>しんぽ</rt></ruby>（　）、<ruby>生活<rt>せいかつ</rt></ruby>は大きく<ruby>変<rt>へん</rt></ruby>わった。（158）",
         "question": "（　）に入るのは？",
         "options": ["にとって",
@@ -12188,7 +12188,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-054"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>彼<rt>かれ</rt></ruby>の<ruby>行動<rt>こうどう</rt></ruby>は<ruby>法律<rt>ほうりつ</rt></ruby>（　）<ruby>許<rt>きょ</rt></ruby>されない。（159）",
         "question": "（　）に入るのは？",
         "options": ["としても",
@@ -12199,7 +12199,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-055"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>予算<rt>よさん</rt></ruby>の<ruby>制<rt>せい</rt></ruby>約（　）実<ruby>現<rt>あらわ</rt></ruby>が<ruby>困難<rt>こんなん</rt></ruby>だ。（160）",
         "question": "（　）に入るのは？",
         "options": ["から",
@@ -12210,8 +12210,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-056"
       },
       {
-        "type": "読解（短文）",
-        "text": "<ruby>紅葉<rt>こうよう</rt></ruby>がきれいな季節になりました。山に行きませんか。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>紅葉<rt>こうよう</rt></ruby>がきれいな<ruby>季<rt>き</rt></ruby><ruby>節<rt>せつ</rt></ruby>になりました。山に行きませんか。",
         "question": "今はどんな<ruby>季節<rt>きせつ</rt></ruby>ですか。",
         "options": ["<ruby>秋<rt>あき</rt></ruby>",
           "<ruby>夏<rt>なつ</rt></ruby>",
@@ -12221,8 +12221,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-057"
       },
       {
-        "type": "読解（短文）",
-        "text": "来月の<ruby>運動会<rt>うんどうかい</rt></ruby>は10月15日です。雨の場合は翌日に<ruby>延期<rt>えんき</rt></ruby>します。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "来月の<ruby>運動会<rt>うんどうかい</rt></ruby>は10月15日です。雨の<ruby>場<rt>ば</rt></ruby><ruby>合<rt>あ</rt></ruby>は翌日に<ruby>延期<rt>えんき</rt></ruby>します。",
         "question": "雨なら<ruby>運動<rt>うんどう</rt></ruby>会はどうなりますか。",
         "options": ["<ruby>中止<rt>ちゅうし</rt></ruby>",
           "<ruby>予定<rt>よてい</rt></ruby><ruby>通り<rt>とおり</rt></ruby>やる",
@@ -12232,8 +12232,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-058"
       },
       {
-        "type": "読解（短文）",
-        "text": "<ruby>忘年会<rt>ぼうねんかい</rt></ruby>は12月20日です。<ruby>参加<rt>さんか</rt></ruby><ruby>希望<rt>きぼう</rt></ruby>の人は、今週中に連絡してください。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>忘年会<rt>ぼうねんかい</rt></ruby>は12月20日です。<ruby>参加<rt>さんか</rt></ruby><ruby>希望<rt>きぼう</rt></ruby>の人は、今週中に<ruby>連<rt>れん</rt></ruby><ruby>絡<rt>から</rt></ruby>してください。",
         "question": "いつまでに<ruby>連絡<rt>れんらく</rt></ruby>しますか。",
         "options": ["今週中",
           "今日中",
@@ -12243,8 +12243,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-059"
       },
       {
-        "type": "読解（短文）",
-        "text": "<ruby>文化祭<rt>ぶんかさい</rt></ruby>では、各クラスが出店を出します。<ruby>一般<rt>いっぱん</rt></ruby>の方も入れます。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>文化祭<rt>ぶんかさい</rt></ruby>では、<ruby>各<rt>かく</rt></ruby>クラスが出<ruby>店<rt>てん</rt></ruby>を出します。<ruby>一般<rt>いっぱん</rt></ruby>の<ruby>方<rt>かた</rt></ruby>も入れます。",
         "question": "<ruby>文化<rt>ぶんか</rt></ruby><ruby>祭<rt>まつ</rt></ruby>はだれが入れますか。",
         "options": ["先生だけ",
           "一般の人も",
@@ -12254,7 +12254,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-060"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "年<ruby>末<rt>まつ</rt></ruby><ruby>年始<rt>ねんし</rt></ruby>は母国に<ruby>帰る<rt>かえる</rt></ruby><ruby>予定<rt>よてい</rt></ruby>です。<ruby>航空<rt>こうくう</rt></ruby><ruby>券<rt>けん</rt></ruby>は高いですが、<ruby>家<rt>いえ</rt></ruby><ruby>族<rt>ぞく</rt></ruby>に会いたいです。1年ぶりなので、とても楽しみです。",
         "question": "年<ruby>末<rt>まつ</rt></ruby><ruby>年始<rt>ねんし</rt></ruby>に何をする<ruby>予定<rt>よてい</rt></ruby>ですか。",
         "options": ["<ruby>働く<rt>はたらく</rt></ruby>",
@@ -12265,7 +12265,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-061"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "インターネットで<ruby>買い物<rt>かいもの</rt></ruby>をすることが<ruby>増<rt>ぞう</rt></ruby>えました。<ruby>店<rt>みせ</rt></ruby>に行かなくても<ruby>家<rt>いえ</rt></ruby>で買えるので<ruby>便利<rt>べんり</rt></ruby>です。でも、<ruby>思<rt>おも</rt></ruby>っていたものと<ruby>違う<rt>ちがう</rt></ruby>こともあります。",
         "question": "インターネットの<ruby>買い物<rt>かいもの</rt></ruby>で<ruby>困る<rt>こまる</rt></ruby>ことは何ですか。",
         "options": ["<ruby>種類<rt>しゅるい</rt></ruby>が<ruby>少ない<rt>すくない</rt></ruby>",
@@ -12276,7 +12276,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-062"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "<ruby>新しい<rt>あたらしい</rt></ruby>スマートフォンを買いました。前のものより<ruby>画<rt>え</rt></ruby>面が大きくて、見やすいです。カメラの<ruby>性能<rt>せいのう</rt></ruby>も<ruby>良<rt>りょう</rt></ruby>くなりました。",
         "question": "<ruby>新しい<rt>あたらしい</rt></ruby>スマートフォンはどうですか。",
         "options": ["カメラが<ruby>悪い<rt>わるい</rt></ruby>",
@@ -12287,7 +12287,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-064"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "日本のコンビニは<ruby>便利<rt>べんり</rt></ruby>です。24時間<ruby>開<rt>あ</rt></ruby>いていて、何でも買えます。ATMもあるし、<ruby>公共<rt>こうきょう</rt></ruby>料金も<ruby>払<rt>はら</rt></ruby>えます。",
         "question": "日本のコンビニについてどう<ruby>思い<rt>おもい</rt></ruby>ますか。",
         "options": ["<ruby>不便<rt>ふべん</rt></ruby>",
@@ -12298,7 +12298,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-063"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【ネイルサロン】ジェル6,000円　アート1本+500円　<ruby>予<rt>よ</rt></ruby>約<ruby>制<rt>せい</rt></ruby>",
         "question": "ジェル+アート3本は？",
         "options": ["6,500円",
@@ -12309,7 +12309,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-065"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【<ruby>居<rt>きょ</rt></ruby>酒<ruby>屋<rt>や</rt></ruby>】飲み放<ruby>題<rt>だい</rt></ruby>2h2,000円　食べ放<ruby>題<rt>だい</rt></ruby>3,500円　コース4,000円～",
         "question": "飲み放<ruby>題<rt>だい</rt></ruby>は？",
         "options": ["3,000円",
@@ -12320,7 +12320,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-066"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>教師<rt>きょうし</rt></ruby>と保<ruby>護<rt>まも</rt></ruby><ruby>者<rt>もの</rt></ruby>が学校で面談中（89）",
         "question": "何をしますか。",
         "options": ["📄",
@@ -12329,10 +12329,10 @@ window.MOCK_DATA['N4'] = {
           "📊"],
         "answer": 1,
         "id": "N4-12-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット12問34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット12<ruby>問<rt>と</rt></ruby>34】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>店<rt>みせ</rt></ruby>長とスタッフが<ruby>店舗<rt>てんぽ</rt></ruby>で<ruby>相<rt>そう</rt></ruby>談中（90）",
         "question": "何をしますか。",
         "options": ["📌",
@@ -12341,10 +12341,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-12-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット12問35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット12<ruby>問<rt>と</rt></ruby>35】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>上司<rt>じょうし</rt></ruby>と<ruby>部下<rt>ぶか</rt></ruby>がオフィスで<ruby>打ち合わせ<rt>うちあわせ</rt></ruby>中（91）",
         "question": "何をしますか。",
         "options": ["📞",
@@ -12353,10 +12353,10 @@ window.MOCK_DATA['N4'] = {
           "🗓️"],
         "answer": 3,
         "id": "N4-12-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：スケジュールを　して　ください。\nおとこ：わかりました。【セット12問36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：スケジュールを　して　ください。\nおとこ：わかりました。【セット12<ruby>問<rt>と</rt></ruby>36】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>受<rt>じゅ</rt></ruby>付と<ruby>来客<rt>らいきゃく</rt></ruby>がロビーで<ruby>対応<rt>たいおう</rt></ruby>中（92）",
         "question": "何をしますか。",
         "options": ["📢",
@@ -12365,10 +12365,10 @@ window.MOCK_DATA['N4'] = {
           "🚪"],
         "answer": 2,
         "id": "N4-12-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット12問37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット12<ruby>問<rt>と</rt></ruby>37】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>医師<rt>いし</rt></ruby>と<ruby>患者<rt>かんじゃ</rt></ruby>が<ruby>病院<rt>びょういん</rt></ruby>で<ruby>診<rt>みる</rt></ruby>察中（93）",
         "question": "何をしますか。",
         "options": ["✉️",
@@ -12377,10 +12377,10 @@ window.MOCK_DATA['N4'] = {
           "💊"],
         "answer": 1,
         "id": "N4-12-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット12問38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット12<ruby>問<rt>と</rt></ruby>38】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>教師<rt>きょうし</rt></ruby>と保<ruby>護<rt>まも</rt></ruby><ruby>者<rt>もの</rt></ruby>が学校で面談中（94）",
         "question": "何をしますか。",
         "options": ["📝",
@@ -12389,10 +12389,10 @@ window.MOCK_DATA['N4'] = {
           "📊"],
         "answer": 0,
         "id": "N4-12-072",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：メモを　して　ください。\nおとこ：わかりました。【セット12問39】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：メモを　して　ください。\nおとこ：わかりました。【セット12<ruby>問<rt>と</rt></ruby>39】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>店<rt>みせ</rt></ruby>長とスタッフが<ruby>店舗<rt>てんぽ</rt></ruby>で<ruby>相<rt>そう</rt></ruby>談中（95）",
         "question": "何をしますか。",
         "options": ["📌",
@@ -12401,10 +12401,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-12-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット12問40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット12<ruby>問<rt>と</rt></ruby>40】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>上司<rt>じょうし</rt></ruby>と<ruby>部下<rt>ぶか</rt></ruby>がオフィスで<ruby>打ち合わせ<rt>うちあわせ</rt></ruby>中（96）",
         "question": "何をしますか。",
         "options": ["📧",
@@ -12413,10 +12413,10 @@ window.MOCK_DATA['N4'] = {
           "🗓️"],
         "answer": 3,
         "id": "N4-12-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット12問41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット12<ruby>問<rt>と</rt></ruby>41】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "インタビューを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（178）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -12425,10 +12425,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-12-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット12問42】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット12<ruby>問<rt>と</rt></ruby>42】"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "友達を<ruby>ご飯<rt>ごはん</rt></ruby>に<ruby>誘<rt>さそ</rt></ruby>いたい（56）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["🍽️",
@@ -12437,10 +12437,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-12-082",
-        "script": "🍽について　はなします。【セット12問43】"
+        "script": "🍽について　はなします。【セット12<ruby>問<rt>と</rt></ruby>43】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（180）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -12449,10 +12449,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-12-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット12問44】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット12<ruby>問<rt>と</rt></ruby>44】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "分かりましたか。（244）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -12463,7 +12463,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-087"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>授業<rt>じゅぎょう</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（182）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -12472,10 +12472,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-12-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット12問46】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット12<ruby>問<rt>と</rt></ruby>46】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "聞こえますか。（245）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -12486,7 +12486,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-088"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>案内<rt>あんない</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（184）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -12495,10 +12495,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-12-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット12問48】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット12<ruby>問<rt>と</rt></ruby>48】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "この席、空いていますか。（246）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、どうぞ",
@@ -12509,7 +12509,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-089"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>心<rt>こころ</rt></ruby>配を<ruby>伝<rt>つた</rt></ruby>えたい<ruby>場<rt>ば</rt></ruby>面です。（113）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -12518,10 +12518,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-12-083",
-        "script": "ピンについて　はなします。【セット12問50】"
+        "script": "ピンについて　はなします。【セット12<ruby>問<rt>と</rt></ruby>50】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "何時からですか。（247）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -12532,7 +12532,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-090"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>初<rt>しょ</rt></ruby><ruby>対<rt>たい</rt></ruby>面の<ruby>挨<rt>あい</rt></ruby><ruby>拶<rt>さつ</rt></ruby>をしたい<ruby>場<rt>ば</rt></ruby>面です。（115）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -12541,10 +12541,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-12-085",
-        "script": "ピンについて　はなします。【セット12問52】"
+        "script": "ピンについて　はなします。【セット12<ruby>問<rt>と</rt></ruby>52】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "コンビニはありますか。（248）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -12555,7 +12555,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-091"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "プレゼンを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（181）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -12564,10 +12564,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-12-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット12問54】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット12<ruby>問<rt>と</rt></ruby>54】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "手<ruby>伝<rt>つた</rt></ruby>ってもらえますか。（249）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -12578,7 +12578,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-092"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>説明<rt>せつめい</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（179）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -12587,10 +12587,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-12-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット12問56】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット12<ruby>問<rt>と</rt></ruby>56】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "どこに出せばいいですか。（250）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -12601,7 +12601,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-093"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>久しぶり<rt>ひさしぶり</rt></ruby>の<ruby>挨<rt>あい</rt></ruby><ruby>拶<rt>さつ</rt></ruby>をしたい<ruby>場<rt>ば</rt></ruby>面です。（116）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -12610,10 +12610,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-12-086",
-        "script": "ピンについて　はなします。【セット12問58】"
+        "script": "ピンについて　はなします。【セット12<ruby>問<rt>と</rt></ruby>58】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "お名前は。（251）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["田中です",
@@ -12624,7 +12624,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-094"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>別れ<rt>わかれ</rt></ruby>の<ruby>挨<rt>あい</rt></ruby><ruby>拶<rt>さつ</rt></ruby>をしたい<ruby>場<rt>ば</rt></ruby>面です。（114）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -12633,10 +12633,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-12-084",
-        "script": "ピンについて　はなします。【セット12問60】"
+        "script": "ピンについて　はなします。【セット12<ruby>問<rt>と</rt></ruby>60】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "どのくらいかかりますか。（252）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -12647,7 +12647,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-12-095"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "ラジオを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（183）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -12656,10 +12656,10 @@ window.MOCK_DATA['N4'] = {
           "📕"],
         "answer": 1,
         "id": "N4-12-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット12問62】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット12<ruby>問<rt>と</rt></ruby>62】"
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>かいとう</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>届け先<rt>とどけさき</rt></ruby>",
@@ -12669,7 +12669,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>ほんやく</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["出入口",
@@ -12679,7 +12679,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>ぶんせき</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["取<ruby>引<rt>いん</rt></ruby>先",
@@ -12689,7 +12689,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>はく</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["提<ruby>携<rt>たずさ</rt></ruby>",
@@ -12699,7 +12699,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>せってい</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>企業<rt>きぎょう</rt></ruby>",
@@ -12709,7 +12709,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>かける</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>壁<rt>かべ</rt></ruby>",
@@ -12719,8 +12719,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>走る</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>走<rt>はし</rt></ruby>る</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["ち",
           "たい",
@@ -12729,8 +12729,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>速達</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>速<rt>はや</rt></ruby>達</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["どう",
           "ま",
@@ -12739,8 +12739,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>水族館</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u>水<ruby>族<rt>ぞく</rt></ruby><ruby>館<rt>かん</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["うち",
           "か",
@@ -12749,8 +12749,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>村</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>村<rt>むら</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["そそ",
           "か",
@@ -12759,8 +12759,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>多様化</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>多<rt>おお</rt></ruby>様<ruby>化<rt>か</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["だい",
           "たようか",
@@ -12769,8 +12769,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "食べ<ruby>過<rt>か</rt></ruby>ぎて<u>太る</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "食べ<ruby>過<rt>か</rt></ruby>ぎて<u><ruby>太<rt>ふと</rt></ruby>る</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["だい",
           "ふとる",
@@ -12779,8 +12779,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "とても<u>具体的</u>だの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "とても<u><ruby>具<rt>ぐ</rt></ruby><ruby>体<rt>からだ</rt></ruby><ruby>的<rt>てき</rt></ruby></u>だの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["とお",
           "みじか",
@@ -12789,8 +12789,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>反対する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u>反<ruby>対<rt>たい</rt></ruby>する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["うご",
           "ち",
@@ -12799,8 +12799,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>待つ</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>待<rt>ま</rt></ruby>つ</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["しな",
           "いけ",
@@ -12809,8 +12809,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "言い換え",
-        "text": "「<ruby>止める<rt>とめる</rt></ruby>」の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "「<ruby>止める<rt>とめる</rt></ruby>」の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>退場<rt>たいじょう</rt></ruby>",
           "<ruby>停止<rt>ていし</rt></ruby>させる",
@@ -12819,8 +12819,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "言い換え",
-        "text": "「<ruby>始まる<rt>はじまる</rt></ruby>」の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "「<ruby>始まる<rt>はじまる</rt></ruby>」の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>開始<rt>かいし</rt></ruby>する",
           "役立つ",
@@ -12829,8 +12829,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "言い換え",
-        "text": "「<ruby>開く<rt>ひらく</rt></ruby>」の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "「<ruby>開く<rt>ひらく</rt></ruby>」の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>感<rt>かん</rt></ruby>想",
           "調べる",
@@ -12839,8 +12839,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "言い換え",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>について話すの意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>会議<rt>かいぎ</rt></ruby>について話すの<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>注文<rt>ちゅうもん</rt></ruby>",
           "<ruby>延ばす<rt>のばす</rt></ruby>",
@@ -12849,8 +12849,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "言い換え",
-        "text": "人間<ruby>関係<rt>かんけい</rt></ruby>を大切にするの意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "人間<ruby>関係<rt>かんけい</rt></ruby>を大<ruby>切<rt>き</rt></ruby>にするの<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>壁<rt>かべ</rt></ruby>",
           "<ruby>願い<rt>ねがい</rt></ruby>",
@@ -12861,7 +12861,7 @@ window.MOCK_DATA['N4'] = {
     ],
     "13": [
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>彼<rt>かれ</rt></ruby>女は　<ruby>嬉<rt>うれ</rt></ruby>し（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["みたい",
@@ -12872,7 +12872,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-034"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>難<rt>なん</rt></ruby>し（　）見えますが、<ruby>簡単<rt>かんたん</rt></ruby>です。",
         "question": "（　）に　はいるのは？",
         "options": ["らしく",
@@ -12883,7 +12883,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-035"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "雨が　<ruby>降<rt>こう</rt></ruby>り（　）空です。",
         "question": "（　）に　はいるのは？",
         "options": ["そうな",
@@ -12894,7 +12894,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-036"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は　<ruby>簡単<rt>かんたん</rt></ruby>（　）見えます。",
         "question": "（　）に　はいるのは？",
         "options": ["そうに",
@@ -12905,7 +12905,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-038"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>彼<rt>かれ</rt></ruby>は　<ruby>優<rt>ゆう</rt></ruby>し（　）人です。",
         "question": "（　）に　はいるのは？",
         "options": ["い",
@@ -12916,7 +12916,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-037"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "その話は　本当（　）ですか。",
         "question": "（　）に　はいるのは？",
         "options": ["みたい",
@@ -12927,7 +12927,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-039"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>彼<rt>かれ</rt></ruby>女は　先生（　）話します。",
         "question": "（　）に　はいるのは？",
         "options": ["みたいに",
@@ -12938,7 +12938,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-040"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "男（　）<ruby>強<rt>つよ</rt></ruby>くなりたいです。",
         "question": "（　）に　はいるのは？",
         "options": ["ように",
@@ -12949,7 +12949,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-042"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>子供<rt>こども</rt></ruby>（　）<ruby>泣<rt>きゅう</rt></ruby>かないでください。",
         "question": "（　）に　はいるのは？",
         "options": ["みたいに",
@@ -12960,7 +12960,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-041"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "この<ruby>店<rt>みせ</rt></ruby>は　<ruby>有名<rt>ゆうめい</rt></ruby>（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["よう",
@@ -12971,7 +12971,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-045"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>彼<rt>かれ</rt></ruby>は　学生（　）見えます。",
         "question": "（　）に　はいるのは？",
         "options": ["らしく",
@@ -12982,7 +12982,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-044"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "電車が　来る（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["ところ",
@@ -12993,7 +12993,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-046"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "日本人（　）日本<ruby>語<rt>ご</rt></ruby>を　話します。",
         "question": "（　）に　はいるのは？",
         "options": ["らしく",
@@ -13059,7 +13059,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-051"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>結果<rt>けっか</rt></ruby>（　）<ruby>良<rt>りょう</rt></ruby>ければ<ruby>全て<rt>すべて</rt></ruby><ruby>良<rt>りょう</rt></ruby>しとは<ruby>限<rt>かぎ</rt></ruby>らない。（161）",
         "question": "（　）に入るのは？",
         "options": ["が",
@@ -13070,7 +13070,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-052"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "努力<ruby>家<rt>いえ</rt></ruby>である（　）、<ruby>才能<rt>さいのう</rt></ruby>にも<ruby>恵<rt>めぐ</rt></ruby>まれている。（162）",
         "question": "（　）に入るのは？",
         "options": ["からこそ",
@@ -13081,7 +13081,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-053"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>一朝一夕<rt>いっちょういっせき</rt></ruby>（　）<ruby>解決<rt>かいけつ</rt></ruby>できるものではない。（163）",
         "question": "（　）に入るのは？",
         "options": ["で",
@@ -13092,7 +13092,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-054"
       },
       {
-        "type": "読解（短文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
         "text": "<ruby>卒業式<rt>そつぎょうしき</rt></ruby>は3月15日です。<ruby>正装<rt>せいそう</rt></ruby>で出席してください。",
         "question": "卒<ruby>業<rt>ごう</rt></ruby>式にはどんな<ruby>服<rt>ふく</rt></ruby>で行きますか。",
         "options": ["<ruby>制服<rt>せいふく</rt></ruby>",
@@ -13103,7 +13103,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-057"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>経験<rt>けいけん</rt></ruby>（　）<ruby>勝る<rt>まさる</rt></ruby>ものはない。（165）",
         "question": "（　）に入るのは？",
         "options": ["が",
@@ -13114,8 +13114,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-056"
       },
       {
-        "type": "読解（短文）",
-        "text": "<ruby>夏祭<rt>なつまつ</rt></ruby>りは来週の土曜日です。<ruby>浴衣<rt>ゆかた</rt></ruby>を着て行きませんか。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>夏祭<rt>なつまつ</rt></ruby>りは来週の土曜日です。<ruby>浴衣<rt>ゆかた</rt></ruby>を<ruby>着<rt>き</rt></ruby>て行きませんか。",
         "question": "<ruby>夏<rt>なつ</rt></ruby><ruby>祭り<rt>まつり</rt></ruby>はいつですか。",
         "options": ["今週の日曜日",
           "来週の土曜日",
@@ -13125,7 +13125,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-058"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>事<rt>こと</rt></ruby>実（　）<ruby>基づいて<rt>もとづいて</rt></ruby>いる。（164）",
         "question": "（　）に入るのは？",
         "options": ["と",
@@ -13136,7 +13136,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-055"
       },
       {
-        "type": "読解（短文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
         "text": "<ruby>映画<rt>えいが</rt></ruby>は2時間半です。<ruby>途中<rt>とちゅう</rt></ruby>で10分の<ruby>休憩<rt>きゅうけい</rt></ruby>があります。",
         "question": "<ruby>映画<rt>えいが</rt></ruby>はどのくらいですか。",
         "options": ["3時間",
@@ -13147,8 +13147,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-059"
       },
       {
-        "type": "読解（短文）",
-        "text": "<ruby>美術館<rt>びじゅつかん</rt></ruby>は<ruby>写真撮影<rt>しゃしんさつえい</rt></ruby>禁止です。<ruby>携帯電話<rt>けいたいでんわ</rt></ruby>もマナーモードにしてください。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>美術館<rt>びじゅつかん</rt></ruby>は<ruby>写真撮影<rt>しゃしんさつえい</rt></ruby><ruby>禁<rt>きん</rt></ruby><ruby>止<rt>と</rt></ruby>です。<ruby>携帯電話<rt>けいたいでんわ</rt></ruby>もマナーモードにしてください。",
         "question": "美<ruby>術<rt>じゅつ</rt></ruby><ruby>館<rt>かん</rt></ruby>で<ruby>写<rt>うつ</rt></ruby>真を<ruby>撮<rt>とる</rt></ruby>ってもいいですか。",
         "options": ["<ruby>許可<rt>きょか</rt></ruby>があればいい",
           "だめ",
@@ -13158,7 +13158,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-060"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "日本の電車は<ruby>時刻<rt>じこく</rt></ruby>表どおりに来るので、すごいと<ruby>思い<rt>おもい</rt></ruby>ます。母国では電車がよく<ruby>遅れる<rt>おくれる</rt></ruby>ので、<ruby>最初<rt>さいしょ</rt></ruby>は<ruby>驚き<rt>おどろき</rt></ruby>ました。",
         "question": "日本の電車について何が<ruby>驚き<rt>おどろき</rt></ruby>でしたか。",
         "options": ["<ruby>遅れる<rt>おくれる</rt></ruby>こと",
@@ -13169,7 +13169,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-061"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "<ruby>通勤<rt>つうきん</rt></ruby>電車がとても<ruby>混<rt>こん</rt></ruby>んでいます。<ruby>朝<rt>あさ</rt></ruby>のラッシュ時は身<ruby>動き<rt>うごき</rt></ruby>が取れません。<ruby>早<rt>そう</rt></ruby>く<ruby>起<rt>お</rt></ruby>きて、ラッシュ前の電車に<ruby>乗る<rt>のる</rt></ruby>ようにしています。",
         "question": "ラッシュを<ruby>避ける<rt>さける</rt></ruby>ために何をしていますか。",
         "options": ["<ruby>歩いて行く<rt>あるいていく</rt></ruby>",
@@ -13180,7 +13180,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-062"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "日本のラーメンは<ruby>種類<rt>しゅるい</rt></ruby>が<ruby>多い<rt>おおい</rt></ruby>です。<ruby>味<rt>あじ</rt></ruby>噌、醤油、<ruby>塩<rt>しお</rt></ruby>、<ruby>豚<rt>ぶた</rt></ruby><ruby>骨<rt>ほね</rt></ruby>など、いろいろあります。今のところ、<ruby>豚<rt>ぶた</rt></ruby><ruby>骨<rt>ほね</rt></ruby>が<ruby>一番<rt>いちばん</rt></ruby><ruby>好<rt>この</rt></ruby>きです。",
         "question": "<ruby>一番<rt>いちばん</rt></ruby><ruby>好<rt>この</rt></ruby>きなラーメンは何ですか。",
         "options": ["<ruby>塩<rt>しお</rt></ruby>",
@@ -13191,7 +13191,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-063"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "日本で<ruby>初めて<rt>はじめて</rt></ruby><ruby>回<rt>まわ</rt></ruby><ruby>転<rt>てん</rt></ruby><ruby>寿<rt>ことぶき</rt></ruby><ruby>司<rt>し</rt></ruby>に行きました。<ruby>皿<rt>さら</rt></ruby>が流れてくるのがおもしろかったです。<ruby>新鮮<rt>しんせん</rt></ruby>で<ruby>安<rt>やす</rt></ruby>くて、とても気に入りました。",
         "question": "<ruby>回<rt>まわ</rt></ruby><ruby>転<rt>てん</rt></ruby><ruby>寿<rt>ことぶき</rt></ruby><ruby>司<rt>し</rt></ruby>についてどう<ruby>思い<rt>おもい</rt></ruby>ましたか。",
         "options": ["高かった",
@@ -13202,7 +13202,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-064"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【<ruby>スキー場<rt>すきーじょう</rt></ruby>】リフト1日5,000円　半日3,000円　レンタル3,500円",
         "question": "1日+レンタルは？",
         "options": ["8,500円",
@@ -13213,7 +13213,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-065"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【ゴルフ<ruby>練習<rt>れんしゅう</rt></ruby><ruby>場<rt>ば</rt></ruby>】1<ruby>球<rt>たま</rt></ruby>10円　<ruby>打<rt>だ</rt></ruby>ち放<ruby>題<rt>だい</rt></ruby>1h1,500円　クラブ300円",
         "question": "<ruby>打<rt>だ</rt></ruby>ち放<ruby>題<rt>だい</rt></ruby>+クラブは？",
         "options": ["2,000円",
@@ -13224,7 +13224,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-066"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>受<rt>じゅ</rt></ruby>付と<ruby>来客<rt>らいきゃく</rt></ruby>がロビーで<ruby>対応<rt>たいおう</rt></ruby>中（97）",
         "question": "何をしますか。",
         "options": ["🚪",
@@ -13233,10 +13233,10 @@ window.MOCK_DATA['N4'] = {
           "📢"],
         "answer": 1,
         "id": "N4-13-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット13問34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット13<ruby>問<rt>と</rt></ruby>34】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>医師<rt>いし</rt></ruby>と<ruby>患者<rt>かんじゃ</rt></ruby>が<ruby>病院<rt>びょういん</rt></ruby>で<ruby>診<rt>みる</rt></ruby>察中（98）",
         "question": "何をしますか。",
         "options": ["🔬",
@@ -13245,10 +13245,10 @@ window.MOCK_DATA['N4'] = {
           "✉️"],
         "answer": 0,
         "id": "N4-13-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット13問35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット13<ruby>問<rt>と</rt></ruby>35】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>教師<rt>きょうし</rt></ruby>と保<ruby>護<rt>まも</rt></ruby><ruby>者<rt>もの</rt></ruby>が学校で面談中（99）",
         "question": "何をしますか。",
         "options": ["📄",
@@ -13257,10 +13257,10 @@ window.MOCK_DATA['N4'] = {
           "📝"],
         "answer": 3,
         "id": "N4-13-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：メモを　して　ください。\nおとこ：わかりました。【セット13問36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：メモを　して　ください。\nおとこ：わかりました。【セット13<ruby>問<rt>と</rt></ruby>36】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>店<rt>みせ</rt></ruby>長とスタッフが<ruby>店舗<rt>てんぽ</rt></ruby>で<ruby>相<rt>そう</rt></ruby>談中（100）",
         "question": "何をしますか。",
         "options": ["📌",
@@ -13269,10 +13269,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-13-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット13問37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット13<ruby>問<rt>と</rt></ruby>37】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>上司<rt>じょうし</rt></ruby>と<ruby>部下<rt>ぶか</rt></ruby>が<ruby>会議室<rt>かいぎしつ</rt></ruby>で<ruby>打ち合わせ<rt>うちあわせ</rt></ruby>中です。このあと何をしますか。（201）",
         "question": "何をしますか。",
         "options": ["📞",
@@ -13281,10 +13281,10 @@ window.MOCK_DATA['N4'] = {
           "🗓️"],
         "answer": 3,
         "id": "N4-13-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット13問38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット13<ruby>問<rt>と</rt></ruby>38】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "同<ruby>僚<rt>りょう</rt></ruby>同士がオフィスで<ruby>相<rt>そう</rt></ruby>談中です。このあと何をしますか。（202）",
         "question": "何をしますか。",
         "options": ["💳",
@@ -13293,10 +13293,10 @@ window.MOCK_DATA['N4'] = {
           "📢"],
         "answer": 0,
         "id": "N4-13-072",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：カードを　して　ください。\nおとこ：わかりました。【セット13問39】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：カードを　して　ください。\nおとこ：わかりました。【セット13<ruby>問<rt>と</rt></ruby>39】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>店<rt>みせ</rt></ruby>長とアルバイトがバックヤードで話し中です。このあと何をしますか。（203）",
         "question": "何をしますか。",
         "options": ["✉️",
@@ -13305,10 +13305,10 @@ window.MOCK_DATA['N4'] = {
           "🔬"],
         "answer": 3,
         "id": "N4-13-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット13問40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット13<ruby>問<rt>と</rt></ruby>40】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>医師<rt>いし</rt></ruby>と<ruby>患者<rt>かんじゃ</rt></ruby>が<ruby>診<rt>みる</rt></ruby>察室で<ruby>対話<rt>たいわ</rt></ruby>中です。このあと何をしますか。（204）",
         "question": "何をしますか。",
         "options": ["📝",
@@ -13317,10 +13317,10 @@ window.MOCK_DATA['N4'] = {
           "📄"],
         "answer": 1,
         "id": "N4-13-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット13問41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット13<ruby>問<rt>と</rt></ruby>41】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "スピーチを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（185）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -13329,10 +13329,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-13-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット13問42】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット13<ruby>問<rt>と</rt></ruby>42】"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>断<rt>だん</rt></ruby>りたい<ruby>場<rt>ば</rt></ruby>面です。（117）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -13341,10 +13341,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-13-082",
-        "script": "🍽について　はなします。【セット13問43】"
+        "script": "🍽について　はなします。【セット13<ruby>問<rt>と</rt></ruby>43】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>対<rt>たい</rt></ruby>談を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（187）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -13353,10 +13353,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-13-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット13問44】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット13<ruby>問<rt>と</rt></ruby>44】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "<ruby>使<rt>つか</rt></ruby>ってもいいですか。（253）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -13367,7 +13367,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-087"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>解説<rt>かいせつ</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（189）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -13376,10 +13376,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-13-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット13問46】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット13<ruby>問<rt>と</rt></ruby>46】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "もう一<ruby>杯<rt>さかずき</rt></ruby>いかがですか。（254）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -13390,7 +13390,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-088"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "セミナーを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（191）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -13399,10 +13399,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-13-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット13問48】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット13<ruby>問<rt>と</rt></ruby>48】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "楽しかったですね。（255）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -13413,7 +13413,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-089"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>依頼<rt>いらい</rt></ruby>したい<ruby>場<rt>ば</rt></ruby>面です。（118）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -13422,10 +13422,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-13-083",
-        "script": "ピンについて　はなします。【セット13問50】"
+        "script": "ピンについて　はなします。【セット13<ruby>問<rt>と</rt></ruby>50】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "郵<ruby>便<rt>べん</rt></ruby><ruby>局<rt>きょく</rt></ruby>はどこですか。（256）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["この先です",
@@ -13436,7 +13436,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-090"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "反<ruby>対<rt>たい</rt></ruby><ruby>意見<rt>いけん</rt></ruby>を<ruby>言<rt>い</rt></ruby>いたい<ruby>場<rt>ば</rt></ruby>面です。（120）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -13445,10 +13445,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-13-085",
-        "script": "ピンについて　はなします。【セット13問52】"
+        "script": "ピンについて　はなします。【セット13<ruby>問<rt>と</rt></ruby>52】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "お時間よろしいですか。（257）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -13459,7 +13459,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-091"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>講義<rt>こうぎ</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（188）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -13468,10 +13468,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-13-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット13問54】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット13<ruby>問<rt>と</rt></ruby>54】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "<ruby>傘<rt>かさ</rt></ruby>はお<ruby>持<rt>もつ</rt></ruby>ちですか。（258）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -13482,7 +13482,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-092"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>報告<rt>ほうこく</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（186）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -13491,10 +13491,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-13-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット13問56】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット13<ruby>問<rt>と</rt></ruby>56】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "静かでいいですね。（259）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -13505,7 +13505,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-093"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "友達を<ruby>映画<rt>えいが</rt></ruby>に<ruby>誘<rt>さそ</rt></ruby>いたい<ruby>場<rt>ば</rt></ruby>面です。（121）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -13514,10 +13514,10 @@ window.MOCK_DATA['N4'] = {
           "📅"],
         "answer": 2,
         "id": "N4-13-086",
-        "script": "ピンについて　はなします。【セット13問58】"
+        "script": "ピンについて　はなします。【セット13<ruby>問<rt>と</rt></ruby>58】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "お<ruby>荷物<rt>にもつ</rt></ruby>お<ruby>持<rt>もつ</rt></ruby>ちしましょうか。（260）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -13528,7 +13528,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-094"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>同意<rt>どうい</rt></ruby>したい<ruby>場<rt>ば</rt></ruby>面です。（119）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -13537,10 +13537,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-13-084",
-        "script": "ピンについて　はなします。【セット13問60】"
+        "script": "ピンについて　はなします。【セット13<ruby>問<rt>と</rt></ruby>60】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "今日は暑いですね。（261）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -13551,7 +13551,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-13-095"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "討<ruby>論<rt>ろん</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（190）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -13560,10 +13560,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-13-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット13問62】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット13<ruby>問<rt>と</rt></ruby>62】"
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>ふよう</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>不<rt>ふ</rt></ruby>要",
@@ -13573,7 +13573,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>ゆしゅつ</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["手続き",
@@ -13583,7 +13583,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>けいさつかん</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>略<rt>りゃく</rt></ruby>歴",
@@ -13593,7 +13593,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>けんきゅう</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["知らせる",
@@ -13603,7 +13603,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>そうてん</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["争点",
@@ -13613,7 +13613,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>はじまる</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>始まる<rt>はじまる</rt></ruby>",
@@ -13623,8 +13623,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>貸</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>貸<rt>か</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["か",
           "き",
@@ -13633,8 +13633,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "とても<u>年代</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "とても<u>年<ruby>代<rt>か</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["そそ",
           "ねんだい",
@@ -13643,8 +13643,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>問題</u>を<ruby>解決<rt>かいけつ</rt></ruby>するの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>問<rt>と</rt></ruby><ruby>題<rt>だい</rt></ruby></u>を<ruby>解決<rt>かいけつ</rt></ruby>するの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["あさ",
           "もんだい",
@@ -13653,8 +13653,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>台風</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>台<rt>だい</rt></ruby><ruby>風<rt>ふう</rt></ruby></u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["わか",
           "まち",
@@ -13663,8 +13663,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>短所</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>短<rt>みじか</rt></ruby><ruby>所<rt>ところ</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["たんしょ",
           "とお",
@@ -13673,8 +13673,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>地震</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>地<rt>ち</rt></ruby><ruby>震<rt>しん</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["うご",
           "じしん",
@@ -13683,8 +13683,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>電池</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u>電<ruby>池<rt>いけ</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["でんち",
           "どう",
@@ -13693,8 +13693,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>落ち着く</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u>落ち<ruby>着<rt>き</rt></ruby>く</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["いもうと",
           "うち",
@@ -13703,8 +13703,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>注文する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>注<rt>そそ</rt></ruby>文する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["あじ",
           "う",
@@ -13713,8 +13713,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "言い換え",
-        "text": "「<ruby>給料<rt>きゅうりょう</rt></ruby>」の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "「<ruby>給料<rt>きゅうりょう</rt></ruby>」の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>支出<rt>ししゅつ</rt></ruby>",
           "<ruby>印<rt>しるし</rt></ruby><ruby>刷<rt>さつ</rt></ruby>",
@@ -13723,8 +13723,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "言い換え",
-        "text": "日本文化に<ruby>興味<rt>きょうみ</rt></ruby>があるの意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "日本文<ruby>化<rt>か</rt></ruby>に<ruby>興味<rt>きょうみ</rt></ruby>があるの<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>方向<rt>ほうこう</rt></ruby>",
           "<ruby>疲れる<rt>つかれる</rt></ruby>",
@@ -13733,8 +13733,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "言い換え",
-        "text": "貴重な<ruby>経験<rt>けいけん</rt></ruby>を積むの意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>貴<rt>たっと</rt></ruby><ruby>重<rt>おも</rt></ruby>な<ruby>経験<rt>けいけん</rt></ruby>を積むの<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["望む",
           "<ruby>特許<rt>とっきょ</rt></ruby>",
@@ -13743,8 +13743,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "言い換え",
-        "text": "試験の<ruby>結果<rt>けっか</rt></ruby>が出るの意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>試<rt>し</rt></ruby><ruby>験<rt>けん</rt></ruby>の<ruby>結果<rt>けっか</rt></ruby>が出るの<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>焦<rt>こ</rt></ruby>点",
           "<ruby>成果<rt>せいか</rt></ruby>",
@@ -13753,8 +13753,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "言い換え",
-        "text": "事故の<ruby>原因<rt>げんいん</rt></ruby>を調べるの意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>事<rt>こと</rt></ruby><ruby>故<rt>ゆえ</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>を調べるの<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>出演<rt>しゅつえん</rt></ruby>",
           "学ぶ",
@@ -13765,7 +13765,7 @@ window.MOCK_DATA['N4'] = {
     ],
     "14": [
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "今　食べている（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["よう",
@@ -13776,7 +13776,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-034"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "食べた（　）なので、お腹が　いっぱいです。",
         "question": "（　）に　はいるのは？",
         "options": ["ところ",
@@ -13787,7 +13787,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-038"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "出かけようとした（　）、電話が　鳴りました。",
         "question": "（　）に　はいるのは？",
         "options": ["ため",
@@ -13798,7 +13798,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-036"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "買った（　）の　本を　読んでいます。",
         "question": "（　）に　はいるのは？",
         "options": ["とき",
@@ -13809,7 +13809,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-039"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "食べた（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["ところ",
@@ -13820,7 +13820,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-035"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>結婚<rt>けっこん</rt></ruby>した（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["ばかり",
@@ -13831,7 +13831,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-040"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>帰<rt>かえ</rt></ruby>ろうとした（　）に　雨が　<ruby>降<rt>こう</rt></ruby>り出しました。",
         "question": "（　）に　はいるのは？",
         "options": ["とき",
@@ -13842,7 +13842,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-037"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "日本に　来た（　）の　頃は　<ruby>大変<rt>たいへん</rt></ruby>でした。",
         "question": "（　）に　はいるのは？",
         "options": ["とき",
@@ -13853,7 +13853,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-041"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>寝る<rt>ねる</rt></ruby>前に　本を　読む（　）があります。",
         "question": "（　）に　はいるのは？",
         "options": ["もの",
@@ -13864,7 +13864,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-042"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "昔は　よく　ここで　遊んだ（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["こと",
@@ -13875,7 +13875,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-044"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>毎朝<rt>まいあさ</rt></ruby>　ジョギングする（　）にしています。",
         "question": "（　）に　はいるのは？",
         "options": ["ため",
@@ -13886,7 +13886,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-043"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>子供<rt>こども</rt></ruby>の頃は　<ruby>野菜<rt>やさい</rt></ruby>が　<ruby>嫌い<rt>きらい</rt></ruby>だった（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["もの",
@@ -13897,7 +13897,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-045"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "あの<ruby>映画<rt>えいが</rt></ruby>は　<ruby>感動<rt>かんどう</rt></ruby><ruby>的<rt>てき</rt></ruby>だった（　）。",
         "question": "（　）に　はいるのは？",
         "options": ["なあ",
@@ -13963,7 +13963,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-051"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "健<ruby>康<rt>こう</rt></ruby>（　）、何<ruby>事<rt>こと</rt></ruby>も<ruby>始<rt>はじまる</rt></ruby>まらない。（166）",
         "question": "（　）に入るのは？",
         "options": ["なくして",
@@ -13974,7 +13974,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-052"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "時間の<ruby>許す<rt>ゆるす</rt></ruby>（　）、できるだけ<ruby>訪<rt>ほう</rt></ruby>れたい。（167）",
         "question": "（　）に入るのは？",
         "options": ["うちに",
@@ -13985,7 +13985,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-053"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>医師<rt>いし</rt></ruby>（　）、ボランティアにも<ruby>熱心<rt>ねっしん</rt></ruby>だ。（168）",
         "question": "（　）に入るのは？",
         "options": ["として",
@@ -13996,7 +13996,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-054"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>医師<rt>いし</rt></ruby>の処<ruby>方<rt>ほう</rt></ruby>（　）<ruby>使<rt>つか</rt></ruby>用してください。（169）",
         "question": "（　）に入るのは？",
         "options": ["に従って",
@@ -14007,7 +14007,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-055"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>予<rt>よ</rt></ruby>想（　）、<ruby>売り上げ<rt>うりあげ</rt></ruby>は<ruby>減<rt>へん</rt></ruby><ruby>少し<rt>すこし</rt></ruby>た。（170）",
         "question": "（　）に入るのは？",
         "options": ["に<ruby>沿って<rt>そって</rt></ruby>",
@@ -14018,7 +14018,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-056"
       },
       {
-        "type": "読解（短文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
         "text": "駅前に<ruby>新しい<rt>あたらしい</rt></ruby>コンビニが<ruby>開<rt>あ</rt></ruby><ruby>店<rt>みせ</rt></ruby>しました。24時間<ruby>営業<rt>えいぎょう</rt></ruby>です。",
         "question": "このコンビニはいつまで<ruby>開<rt>あ</rt></ruby>いていますか。",
         "options": ["<ruby>夜<rt>よる</rt></ruby>12時まで",
@@ -14029,8 +14029,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-057"
       },
       {
-        "type": "読解（短文）",
-        "text": "図書館の本を<ruby>汚<rt>よご</rt></ruby>したり、なくしたりしたら、<ruby>弁償<rt>べんしょう</rt></ruby>してください。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>図<rt>ず</rt></ruby>書<ruby>館<rt>かん</rt></ruby>の本を<ruby>汚<rt>よご</rt></ruby>したり、なくしたりしたら、<ruby>弁償<rt>べんしょう</rt></ruby>してください。",
         "question": "本をなくしたらどうなりますか。",
         "options": ["<ruby>謝<rt>しゃ</rt></ruby>ればいい",
           "何もない",
@@ -14040,8 +14040,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-058"
       },
       {
-        "type": "読解（短文）",
-        "text": "<ruby>料理教室<rt>りょうりきょうしつ</rt></ruby>の申し込みは<ruby>先着<rt>せんちゃく</rt></ruby>20名です。お早めに申し込んでください。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>料理教室<rt>りょうりきょうしつ</rt></ruby>の申し<ruby>込<rt>こ</rt></ruby>みは<ruby>先着<rt>せんちゃく</rt></ruby>20名です。お<ruby>早<rt>そう</rt></ruby>めに申し<ruby>込<rt>こ</rt></ruby>んでください。",
         "question": "何人まで参<ruby>加<rt>くわ</rt></ruby>できますか。",
         "options": ["30人",
           "20人",
@@ -14051,7 +14051,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-059"
       },
       {
-        "type": "読解（短文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
         "text": "電気を消すときは、<ruby>最後<rt>さいご</rt></ruby>の人が消してください。<ruby>節電<rt>せつでん</rt></ruby>にご<ruby>協力<rt>きょうりょく</rt></ruby>ください。",
         "question": "だれが電気を消しますか。",
         "options": ["<ruby>最後<rt>さいご</rt></ruby>の人",
@@ -14062,7 +14062,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-060"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>自炊<rt>じすい</rt></ruby>を<ruby>始<rt>はじまる</rt></ruby>めました。外食より<ruby>安<rt>やす</rt></ruby>くて、<ruby>栄<rt>えい</rt></ruby>養のバランスも<ruby>考え<rt>かんがえ</rt></ruby>られます。<ruby>簡単<rt>かんたん</rt></ruby>な料理から<ruby>始<rt>はじまる</rt></ruby>めて、だんだん上手になってきました。",
         "question": "<ruby>自炊<rt>じすい</rt></ruby>のいいところは何ですか。",
         "options": ["<ruby>簡単<rt>かんたん</rt></ruby>",
@@ -14073,7 +14073,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-061"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "先週、<ruby>猫<rt>ねこ</rt></ruby>を<ruby>飼<rt>し</rt></ruby>い<ruby>始<rt>はじまる</rt></ruby>めました。名前は「ミミ」です。<ruby>最初<rt>さいしょ</rt></ruby>は<ruby>怖<rt>ふ</rt></ruby>がっていましたが、今は<ruby>慣れ<rt>なれ</rt></ruby>て、<ruby>私<rt>わたし</rt></ruby>の<ruby>膝<rt>ひざ</rt></ruby>の上で<ruby>寝る<rt>ねる</rt></ruby>ようになりました。",
         "question": "<ruby>猫<rt>ねこ</rt></ruby>は今どうですか。",
         "options": ["<ruby>逃<rt>とう</rt></ruby>げた",
@@ -14084,7 +14084,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-062"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "高校<ruby>時代<rt>じだい</rt></ruby>の友達と10年ぶりに会いました。お<ruby>互いに<rt>たがいに</rt></ruby><ruby>変<rt>へん</rt></ruby>わっていて、<ruby>最初<rt>さいしょ</rt></ruby>は誰か分かりませんでした。でも、話し<ruby>始める<rt>はじめる</rt></ruby>と、すぐに昔のように楽しく話せました。",
         "question": "友達に会ってどうでしたか。",
         "options": ["もう会いたくない",
@@ -14095,7 +14095,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-063"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "週<ruby>末<rt>まつ</rt></ruby>、ボランティア<ruby>活動<rt>かつどう</rt></ruby>に参<ruby>加<rt>くわ</rt></ruby>しました。<ruby>公園<rt>こうえん</rt></ruby>の清<ruby>掃<rt>そう</rt></ruby>をしました。<ruby>地域<rt>ちいき</rt></ruby>の人と交流できて、<ruby>良い<rt>よい</rt></ruby><ruby>経験<rt>けいけん</rt></ruby>になりました。",
         "question": "週<ruby>末<rt>まつ</rt></ruby>何をしましたか。",
         "options": ["<ruby>仕事<rt>しごと</rt></ruby>をした",
@@ -14106,7 +14106,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-064"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【音楽教室】ピアノ月4<ruby>回<rt>まわ</rt></ruby>10,000円　ギター8,000円　<ruby>楽器<rt>がっき</rt></ruby>レンタルあり",
         "question": "ギターは？",
         "options": ["6,000円",
@@ -14117,7 +14117,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-065"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【<ruby>引越<rt>ひっこし</rt></ruby>し】<ruby>単<rt>たん</rt></ruby>身30,000円～　<ruby>家<rt>いえ</rt></ruby><ruby>族<rt>ぞく</rt></ruby>80,000円～　見積もり<ruby>無<rt>む</rt></ruby>料",
         "question": "<ruby>単<rt>たん</rt></ruby>身は？",
         "options": ["50,000円",
@@ -14128,7 +14128,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-066"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>教授<rt>きょうじゅ</rt></ruby>と学生が<ruby>研究<rt>けんきゅう</rt></ruby>室で<ruby>議論<rt>ぎろん</rt></ruby>中です。このあと何をしますか。（205）",
         "question": "何をしますか。",
         "options": ["📌",
@@ -14137,10 +14137,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-14-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット14問34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット14<ruby>問<rt>と</rt></ruby>34】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "マネージャーとスタッフが<ruby>店<rt>みせ</rt></ruby><ruby>頭<rt>あたま</rt></ruby>で<ruby>確認<rt>かくにん</rt></ruby>中です。このあと何をしますか。（206）",
         "question": "何をしますか。",
         "options": ["📞",
@@ -14149,10 +14149,10 @@ window.MOCK_DATA['N4'] = {
           "📧"],
         "answer": 2,
         "id": "N4-14-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット14問35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット14<ruby>問<rt>と</rt></ruby>35】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>営業<rt>えいぎょう</rt></ruby>担当と<ruby>顧客<rt>こきゃく</rt></ruby>が<ruby>商<rt>しょう</rt></ruby>談室で<ruby>交渉<rt>こうしょう</rt></ruby>中です。このあと何をしますか。（207）",
         "question": "何をしますか。",
         "options": ["💳",
@@ -14161,10 +14161,10 @@ window.MOCK_DATA['N4'] = {
           "📢"],
         "answer": 0,
         "id": "N4-14-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：カードを　して　ください。\nおとこ：わかりました。【セット14問36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：カードを　して　ください。\nおとこ：わかりました。【セット14<ruby>問<rt>と</rt></ruby>36】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>受<rt>じゅ</rt></ruby>付と<ruby>来訪<rt>らいほう</rt></ruby><ruby>者<rt>もの</rt></ruby>がロビーで<ruby>案内<rt>あんない</rt></ruby>中です。このあと何をしますか。（208）",
         "question": "何をしますか。",
         "options": ["🏥",
@@ -14173,10 +14173,10 @@ window.MOCK_DATA['N4'] = {
           "🔬"],
         "answer": 3,
         "id": "N4-14-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット14問37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット14<ruby>問<rt>と</rt></ruby>37】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>技術者<rt>ぎじゅつしゃ</rt></ruby>とクライアントが<ruby>現場<rt>げんば</rt></ruby>で<ruby>説明<rt>せつめい</rt></ruby>中です。このあと何をしますか。（209）",
         "question": "何をしますか。",
         "options": ["📝",
@@ -14185,10 +14185,10 @@ window.MOCK_DATA['N4'] = {
           "📊"],
         "answer": 1,
         "id": "N4-14-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット14問38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット14<ruby>問<rt>と</rt></ruby>38】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "コーチと選手がジムでトレーニング<ruby>相<rt>そう</rt></ruby>談中です。このあと何をしますか。（210）",
         "question": "何をしますか。",
         "options": ["📌",
@@ -14197,10 +14197,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-14-072",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：ピンを　して　ください。\nおとこ：わかりました。【セット14問39】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：ピンを　して　ください。\nおとこ：わかりました。【セット14<ruby>問<rt>と</rt></ruby>39】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>先輩<rt>せんぱい</rt></ruby>と後<ruby>輩<rt>はい</rt></ruby>が<ruby>休憩室<rt>きゅうけいしつ</rt></ruby>で<ruby>雑<rt>ざつ</rt></ruby>談中です。このあと何をしますか。（211）",
         "question": "何をしますか。",
         "options": ["📞",
@@ -14209,10 +14209,10 @@ window.MOCK_DATA['N4'] = {
           "🗓️"],
         "answer": 3,
         "id": "N4-14-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット14問40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット14<ruby>問<rt>と</rt></ruby>40】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>司<rt>し</rt></ruby>書と<ruby>利<rt>り</rt></ruby>用<ruby>者<rt>もの</rt></ruby>が<ruby>図書館<rt>としょかん</rt></ruby>で<ruby>対応<rt>たいおう</rt></ruby>中です。このあと何をしますか。（212）",
         "question": "何をしますか。",
         "options": ["📢",
@@ -14221,10 +14221,10 @@ window.MOCK_DATA['N4'] = {
           "🚪"],
         "answer": 2,
         "id": "N4-14-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット14問41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット14<ruby>問<rt>と</rt></ruby>41】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>番組<rt>ばんぐみ</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（192）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -14233,10 +14233,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-14-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット14問42】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット14<ruby>問<rt>と</rt></ruby>42】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "トークを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（195）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -14245,10 +14245,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-14-078",
-        "script": "きょうの　はなしは　ほんについてです。これは　とても　たいせつです。【セット14問43】"
+        "script": "きょうの　はなしは　ほんについてです。これは　とても　たいせつです。【セット14<ruby>問<rt>と</rt></ruby>43】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "ドキュメンタリーを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（194）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -14257,10 +14257,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-14-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット14問44】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット14<ruby>問<rt>と</rt></ruby>44】"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "同<ruby>僚<rt>りょう</rt></ruby>をランチに<ruby>誘<rt>さそ</rt></ruby>いたい<ruby>場<rt>ば</rt></ruby>面です。（122）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -14269,10 +14269,10 @@ window.MOCK_DATA['N4'] = {
           "🍽️"],
         "answer": 3,
         "id": "N4-14-082",
-        "script": "🍽について　はなします。【セット14問45】"
+        "script": "🍽について　はなします。【セット14<ruby>問<rt>と</rt></ruby>45】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "放<ruby>送<rt>お</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（196）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -14281,10 +14281,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-14-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット14問46】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット14<ruby>問<rt>と</rt></ruby>46】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "何時までですか。（262）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -14295,7 +14295,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-087"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>研修<rt>けんしゅう</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（198）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -14304,10 +14304,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-14-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット14問48】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット14<ruby>問<rt>と</rt></ruby>48】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "週<ruby>末<rt>まつ</rt></ruby>の<ruby>予定<rt>よてい</rt></ruby>は。（263）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["<ruby>特に<rt>とくに</rt></ruby>ないです",
@@ -14318,7 +14318,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-088"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>先輩<rt>せんぱい</rt></ruby>を飲み会に<ruby>誘<rt>さそ</rt></ruby>いたい<ruby>場<rt>ば</rt></ruby>面です。（123）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -14327,10 +14327,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-14-083",
-        "script": "ピンについて　はなします。【セット14問50】"
+        "script": "ピンについて　はなします。【セット14<ruby>問<rt>と</rt></ruby>50】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "おいしいですね。（264）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -14341,7 +14341,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-089"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "友人をドライブに<ruby>誘<rt>さそ</rt></ruby>いたい<ruby>場<rt>ば</rt></ruby>面です。（125）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -14350,10 +14350,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-14-085",
-        "script": "ピンについて　はなします。【セット14問52】"
+        "script": "ピンについて　はなします。【セット14<ruby>問<rt>と</rt></ruby>52】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "<ruby>写<rt>うつ</rt></ruby>真<ruby>撮<rt>とる</rt></ruby>ってもいいですか。（265）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["大<ruby>丈<rt>たけ</rt></ruby>夫ですよ",
@@ -14364,7 +14364,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-090"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>発<rt>はつ</rt></ruby>表を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（197）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -14373,10 +14373,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-14-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット14問54】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット14<ruby>問<rt>と</rt></ruby>54】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "お<ruby>仕事<rt>しごと</rt></ruby>は何ですか。（266）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -14387,7 +14387,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-091"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "後<ruby>輩<rt>はい</rt></ruby>をカラオケに<ruby>誘<rt>さそ</rt></ruby>いたい<ruby>場<rt>ば</rt></ruby>面です。（124）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -14396,10 +14396,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-14-084",
-        "script": "ピンについて　はなします。【セット14問56】"
+        "script": "ピンについて　はなします。【セット14<ruby>問<rt>と</rt></ruby>56】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "<ruby>趣味<rt>しゅみ</rt></ruby>は何ですか。（267）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -14410,7 +14410,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-092"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>特<rt>とく</rt></ruby><ruby>集<rt>しゅう</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（193）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -14419,10 +14419,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-14-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット14問58】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット14<ruby>問<rt>と</rt></ruby>58】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "出身はどこですか。（268）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -14433,7 +14433,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-093"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>上司<rt>じょうし</rt></ruby>に<ruby>休暇<rt>きゅうか</rt></ruby>を申<ruby>請<rt>う</rt></ruby>したい<ruby>場<rt>ば</rt></ruby>面です。（126）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -14442,10 +14442,10 @@ window.MOCK_DATA['N4'] = {
           "📅"],
         "answer": 1,
         "id": "N4-14-086",
-        "script": "ピンについて　はなします。【セット14問60】"
+        "script": "ピンについて　はなします。【セット14<ruby>問<rt>と</rt></ruby>60】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "いつからですか。（269）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -14456,7 +14456,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-094"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "何人ですか。（270）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -14467,7 +14467,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-14-095"
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>でいりぐち</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["美しい",
@@ -14477,7 +14477,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>ひだりがわ</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["左側",
@@ -14487,7 +14487,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>ていけい</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>浮かべる<rt>うかべる</rt></ruby>",
@@ -14497,7 +14497,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>ふかい</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>企業<rt>きぎょう</rt></ruby>",
@@ -14507,7 +14507,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>かためる</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>固める<rt>かためる</rt></ruby>",
@@ -14517,7 +14517,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>ぎろん</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["納<ruby>品<rt>しな</rt></ruby>書",
@@ -14527,8 +14527,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>朝</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>朝<rt>あさ</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["たみ",
           "はつ",
@@ -14537,8 +14537,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>町</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>町<rt>まち</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["めし",
           "まち",
@@ -14547,8 +14547,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>普通</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>普<rt>ふ</rt></ruby><ruby>通<rt>とお</rt></ruby></u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["ばん",
           "ふつう",
@@ -14557,8 +14557,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>運動する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>運<rt>はこ</rt></ruby><ruby>動<rt>うご</rt></ruby>する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["の",
           "やまい",
@@ -14567,8 +14567,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>食堂</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u>食<ruby>堂<rt>どう</rt></ruby></u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["くすり",
           "しな",
@@ -14577,8 +14577,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>案内する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>案<rt>あん</rt></ruby><ruby>内<rt>うち</rt></ruby>する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["ぶ",
           "あんないする",
@@ -14587,8 +14587,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>売れる</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>売<rt>う</rt></ruby>れる</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["ふく",
           "うれる",
@@ -14597,8 +14597,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>発見する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>発<rt>はつ</rt></ruby>見する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["はっけんする",
           "もの",
@@ -14607,8 +14607,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>飯</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>飯<rt>めし</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["けん",
           "わか",
@@ -14617,8 +14617,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "言い換え",
-        "text": "「<ruby>交通<rt>こうつう</rt></ruby>」の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "「<ruby>交通<rt>こうつう</rt></ruby>」の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>開く<rt>ひらく</rt></ruby>",
           "<ruby>輸送<rt>ゆそう</rt></ruby>",
@@ -14627,8 +14627,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "言い換え",
-        "text": "とても<ruby>失敗<rt>しっぱい</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "とても<ruby>失敗<rt>しっぱい</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>監査<rt>かんさ</rt></ruby>",
           "<ruby>却下<rt>きゃっか</rt></ruby>",
@@ -14637,8 +14637,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "言い換え",
-        "text": "<ruby>質問<rt>しつもん</rt></ruby>について話すの意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>質問<rt>しつもん</rt></ruby>について話すの<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["聞く",
           "<ruby>解決<rt>かいけつ</rt></ruby>する",
@@ -14647,8 +14647,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "言い換え",
-        "text": "「<ruby>授業<rt>じゅぎょう</rt></ruby>」の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "「<ruby>授業<rt>じゅぎょう</rt></ruby>」の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>止める<rt>とめる</rt></ruby>",
           "<ruby>心<rt>こころ</rt></ruby>配する",
@@ -14657,8 +14657,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "言い換え",
-        "text": "旅行の<ruby>準備<rt>じゅんび</rt></ruby>をするの意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>旅<rt>たび</rt></ruby>行の<ruby>準備<rt>じゅんび</rt></ruby>をするの<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>道路<rt>どうろ</rt></ruby>",
           "<ruby>走る<rt>はしる</rt></ruby>",
@@ -14669,7 +14669,7 @@ window.MOCK_DATA['N4'] = {
     ],
     "15": [
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "明日は　晴れる（　）。",
         "question": "（　）に　はいるのは？",
         "options": ["なあ",
@@ -14680,7 +14680,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-034"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>彼<rt>かれ</rt></ruby>は　来る（　）。",
         "question": "（　）に　はいるのは？",
         "options": ["よね",
@@ -14691,7 +14691,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-035"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "今日は　暑い（　）。",
         "question": "（　）に　はいるのは？",
         "options": ["な",
@@ -14702,7 +14702,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-036"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "これは　あなたの（　）。",
         "question": "（　）に　はいるのは？",
         "options": ["だろう",
@@ -14713,7 +14713,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-037"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>彼<rt>かれ</rt></ruby>は　<ruby>医者<rt>いしゃ</rt></ruby>に　なる（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["よう",
@@ -14724,7 +14724,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-039"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "美<ruby>味<rt>あじ</rt></ruby>しかった（　）。",
         "question": "（　）に　はいるのは？",
         "options": ["だろう",
@@ -14735,7 +14735,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-038"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "学生は　<ruby>勉<rt>べん</rt></ruby><ruby>強<rt>つよ</rt></ruby>（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["するよう",
@@ -14746,7 +14746,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-040"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "約束は　<ruby>守る<rt>まもる</rt></ruby>（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["べき",
@@ -14757,7 +14757,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-041"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>規則<rt>きそく</rt></ruby>は　<ruby>守<rt>しゅ</rt></ruby>ら（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["てはいけない",
@@ -14768,7 +14768,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-042"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "ここで　タバコを　吸っ（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["てはいけない",
@@ -14779,7 +14779,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-045"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>宿題<rt>しゅくだい</rt></ruby>を　し（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["てもいい",
@@ -14790,7 +14790,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-044"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>写<rt>うつ</rt></ruby>真を　<ruby>撮<rt>とる</rt></ruby>っ（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["てもいい",
@@ -14801,7 +14801,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-046"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "明日は　<ruby>早<rt>そう</rt></ruby>く　<ruby>起<rt>お</rt></ruby>き（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["てもいい",
@@ -14867,7 +14867,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-051"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "努力の<ruby>甲<rt>こう</rt></ruby>斐（　）、<ruby>成功<rt>せいこう</rt></ruby>を<ruby>収<rt>しゅう</rt></ruby>めた。（171）",
         "question": "（　）に入るのは？",
         "options": ["あって",
@@ -14878,7 +14878,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-052"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>説明<rt>せつめい</rt></ruby>を（　）、<ruby>理解<rt>りかい</rt></ruby>が<ruby>深<rt>しん</rt></ruby>まった。（172）",
         "question": "（　）に入るのは？",
         "options": ["聞くや<ruby>否<rt>いな</rt></ruby>や",
@@ -14889,7 +14889,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-053"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>問題<rt>もんだい</rt></ruby>が（　）、<ruby>対策<rt>たいさく</rt></ruby>を<ruby>講<rt>こう</rt></ruby>じた。（173）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>発生<rt>はっせい</rt></ruby>するや",
@@ -14900,7 +14900,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-054"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>彼<rt>かれ</rt></ruby>（　）、この<ruby>仕事<rt>しごと</rt></ruby>はできない。（174）",
         "question": "（　）に入るのは？",
         "options": ["にひきかえ",
@@ -14911,7 +14911,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-055"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>私<rt>わたし</rt></ruby>（　）、そのような<ruby>発言<rt>はつげん</rt></ruby>はしない。（175）",
         "question": "（　）に入るのは？",
         "options": ["ならでは",
@@ -14922,8 +14922,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-056"
       },
       {
-        "type": "読解（短文）",
-        "text": "忘れ物は<ruby>事務室<rt>じむしつ</rt></ruby>で預かっています。<ruby>心当<rt>こころあ</rt></ruby>たりのある方は確認してください。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>忘<rt>ぼう</rt></ruby>れ<ruby>物<rt>もの</rt></ruby>は<ruby>事務室<rt>じむしつ</rt></ruby>で<ruby>預<rt>よ</rt></ruby>かっています。<ruby>心当<rt>こころあ</rt></ruby>たりのある<ruby>方<rt>かた</rt></ruby>は<ruby>確<rt>かく</rt></ruby><ruby>認<rt>にん</rt></ruby>してください。",
         "question": "<ruby>忘れ物<rt>わすれもの</rt></ruby>はどこにありますか。",
         "options": ["<ruby>玄関<rt>げんかん</rt></ruby>",
           "教室",
@@ -14933,8 +14933,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-057"
       },
       {
-        "type": "読解（短文）",
-        "text": "<ruby>荷物<rt>にもつ</rt></ruby>はロッカーに入れてください。<ruby>貴重品<rt>きちょうひん</rt></ruby>は自分で管理してください。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>荷物<rt>にもつ</rt></ruby>はロッカーに入れてください。<ruby>貴重品<rt>きちょうひん</rt></ruby>は自分で<ruby>管<rt>くだ</rt></ruby>理してください。",
         "question": "<ruby>貴重<rt>きちょう</rt></ruby><ruby>品<rt>しな</rt></ruby>はどうしますか。",
         "options": ["自分で<ruby>持つ<rt>もつ</rt></ruby>",
           "<ruby>受<rt>じゅ</rt></ruby>付に<ruby>預ける<rt>あずける</rt></ruby>",
@@ -14944,8 +14944,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-058"
       },
       {
-        "type": "読解（短文）",
-        "text": "<ruby>喫煙<rt>きつえん</rt></ruby>は決まった場所でしてください。建物の中は<ruby>全面禁煙<rt>ぜんめんきんえん</rt></ruby>です。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>喫煙<rt>きつえん</rt></ruby>は<ruby>決<rt>き</rt></ruby>まった<ruby>場<rt>ば</rt></ruby><ruby>所<rt>ところ</rt></ruby>でしてください。<ruby>建<rt>たべる</rt></ruby><ruby>物<rt>もの</rt></ruby>の中は<ruby>全面禁煙<rt>ぜんめんきんえん</rt></ruby>です。",
         "question": "<ruby>建物<rt>たてもの</rt></ruby>の中でタバコを吸ってもいいですか。",
         "options": ["<ruby>許可<rt>きょか</rt></ruby>があればいい",
           "いい",
@@ -14955,8 +14955,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-059"
       },
       {
-        "type": "読解（短文）",
-        "text": "<ruby>非常口<rt>ひじょうぐち</rt></ruby>は廊下の突き当たりにあります。<ruby>緊急<rt>きんきゅう</rt></ruby>の時は階段を使ってください。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>非常口<rt>ひじょうぐち</rt></ruby>は<ruby>廊<rt>ろう</rt></ruby>下の<ruby>突<rt>つける</rt></ruby>き当たりにあります。<ruby>緊急<rt>きんきゅう</rt></ruby>の時は<ruby>階<rt>かい</rt></ruby><ruby>段<rt>だん</rt></ruby>を<ruby>使<rt>つか</rt></ruby>ってください。",
         "question": "非<ruby>常<rt>じょう</rt></ruby>口はどこにありますか。",
         "options": ["<ruby>廊下<rt>ろうか</rt></ruby>の<ruby>突<rt>つける</rt></ruby>き当たり",
           "エレベーターの<ruby>横<rt>よこ</rt></ruby>",
@@ -14966,7 +14966,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-060"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "友達の誕生日パーティーを<ruby>企画<rt>きかく</rt></ruby>しています。ケーキを<ruby>注文<rt>ちゅうもん</rt></ruby>したり、プレゼントを買ったりしなければなりません。サプライズにしたいので、秘<ruby>密<rt>みつ</rt></ruby>にしています。",
         "question": "パーティーをどうしたいですか。",
         "options": ["一人でやりたい",
@@ -14977,7 +14977,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-061"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "日本で<ruby>銀行<rt>ぎんこう</rt></ruby>口<ruby>座<rt>ざ</rt></ruby>を<ruby>開<rt>あ</rt></ruby>きました。<ruby>最初<rt>さいしょ</rt></ruby>は手続きが<ruby>難<rt>なん</rt></ruby>しかったですが、<ruby>銀行<rt>ぎんこう</rt></ruby>の人が<ruby>親切<rt>しんせつ</rt></ruby>に教えてくれました。これで<ruby>給<rt>きゅう</rt></ruby>料が<ruby>振り<rt>ふり</rt></ruby><ruby>込<rt>こ</rt></ruby>まれます。",
         "question": "<ruby>銀行<rt>ぎんこう</rt></ruby>口<ruby>座<rt>ざ</rt></ruby>を<ruby>開く<rt>ひらく</rt></ruby>のはどうでしたか。",
         "options": ["必要なかった",
@@ -14988,7 +14988,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-062"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "日本の<ruby>交通<rt>こうつう</rt></ruby><ruby>機関<rt>きかん</rt></ruby>は<ruby>便利<rt>べんり</rt></ruby>ですが、<ruby>複雑<rt>ふくざつ</rt></ruby>です。<ruby>乗り換え<rt>のりかえ</rt></ruby>が<ruby>多<rt>おお</rt></ruby>くて、<ruby>最初<rt>さいしょ</rt></ruby>は<ruby>迷<rt>めい</rt></ruby>いました。今はアプリを<ruby>使<rt>つか</rt></ruby>って、<ruby>迷<rt>めい</rt></ruby>わなくなりました。",
         "question": "電車に<ruby>乗る<rt>のる</rt></ruby>ときどうしていますか。",
         "options": ["アプリを<ruby>使う<rt>つかう</rt></ruby>",
@@ -14999,7 +14999,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-063"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "<ruby>資格<rt>しかく</rt></ruby><ruby>試験<rt>しけん</rt></ruby>に<ruby>合格<rt>ごうかく</rt></ruby>しました。3<ruby>回<rt>まわ</rt></ruby>目の<ruby>挑<rt>いど</rt></ruby>戦でやっと<ruby>受<rt>じゅ</rt></ruby>かりました。2<ruby>回<rt>まわ</rt></ruby>落ちた時は<ruby>諦<rt>てい</rt></ruby>めようかと<ruby>思い<rt>おもい</rt></ruby>ましたが、続けてよかったです。",
         "question": "<ruby>試験<rt>しけん</rt></ruby>に何<ruby>回<rt>まわ</rt></ruby>目で<ruby>受<rt>じゅ</rt></ruby>かりましたか。",
         "options": ["1<ruby>回<rt>まわ</rt></ruby>目",
@@ -15010,7 +15010,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-064"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【タクシー】<ruby>初<rt>しょ</rt></ruby><ruby>乗<rt>の</rt></ruby>り500円　300mごと80円　<ruby>深夜<rt>しんや</rt></ruby>20%<ruby>増<rt>ぞう</rt></ruby>",
         "question": "<ruby>初<rt>しょ</rt></ruby><ruby>乗<rt>の</rt></ruby>りは？",
         "options": ["500円",
@@ -15021,7 +15021,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-065"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【美容室】カット4,000円　カラー5,000円　パーマ7,000円　<ruby>初<rt>しょ</rt></ruby><ruby>回<rt>まわ</rt></ruby>20%オフ",
         "question": "<ruby>初<rt>しょ</rt></ruby><ruby>回<rt>まわ</rt></ruby>カットは？",
         "options": ["3,200円",
@@ -15032,7 +15032,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-066"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>薬剤師<rt>やくざいし</rt></ruby>と<ruby>患者<rt>かんじゃ</rt></ruby>が<ruby>薬局<rt>やっきょく</rt></ruby>で<ruby>説明<rt>せつめい</rt></ruby>中です。このあと何をしますか。（213）",
         "question": "何をしますか。",
         "options": ["✉️",
@@ -15041,10 +15041,10 @@ window.MOCK_DATA['N4'] = {
           "🏥"],
         "answer": 1,
         "id": "N4-15-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット15問34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット15<ruby>問<rt>と</rt></ruby>34】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "美容<ruby>師<rt>し</rt></ruby>と<ruby>客<rt>きゃく</rt></ruby>がサロンで<ruby>相<rt>そう</rt></ruby>談中です。このあと何をしますか。（214）",
         "question": "何をしますか。",
         "options": ["📊",
@@ -15053,10 +15053,10 @@ window.MOCK_DATA['N4'] = {
           "📝"],
         "answer": 3,
         "id": "N4-15-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット15問35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット15<ruby>問<rt>と</rt></ruby>35】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "整<ruby>備<rt>び</rt></ruby>士と車オーナーが<ruby>工場<rt>こうじょう</rt></ruby>で<ruby>確認<rt>かくにん</rt></ruby>中です。このあと何をしますか。（215）",
         "question": "何をしますか。",
         "options": ["📌",
@@ -15065,10 +15065,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-15-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：ピンを　して　ください。\nおとこ：わかりました。【セット15問36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：ピンを　して　ください。\nおとこ：わかりました。【セット15<ruby>問<rt>と</rt></ruby>36】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>不動産<rt>ふどうさん</rt></ruby><ruby>屋<rt>や</rt></ruby>と<ruby>客<rt>きゃく</rt></ruby>が<ruby>物件<rt>ぶっけん</rt></ruby><ruby>案内<rt>あんない</rt></ruby>中です。このあと何をしますか。（216）",
         "question": "何をしますか。",
         "options": ["📧",
@@ -15077,10 +15077,10 @@ window.MOCK_DATA['N4'] = {
           "📞"],
         "answer": 2,
         "id": "N4-15-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット15問37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット15<ruby>問<rt>と</rt></ruby>37】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>旅行<rt>りょこう</rt></ruby><ruby>代理<rt>だいり</rt></ruby><ruby>店<rt>みせ</rt></ruby>と<ruby>客<rt>きゃく</rt></ruby>がカウンターで<ruby>相<rt>そう</rt></ruby>談中です。このあと何をしますか。（217）",
         "question": "何をしますか。",
         "options": ["💳",
@@ -15089,10 +15089,10 @@ window.MOCK_DATA['N4'] = {
           "📢"],
         "answer": 0,
         "id": "N4-15-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット15問38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット15<ruby>問<rt>と</rt></ruby>38】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（205）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -15101,10 +15101,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-15-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット15問39】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット15<ruby>問<rt>と</rt></ruby>39】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "ホテルスタッフと<ruby>宿泊<rt>しゅくはく</rt></ruby><ruby>客<rt>きゃく</rt></ruby>がフロントで<ruby>対応<rt>たいおう</rt></ruby>中です。このあと何をしますか。（219）",
         "question": "何をしますか。",
         "options": ["📝",
@@ -15113,10 +15113,10 @@ window.MOCK_DATA['N4'] = {
           "📄"],
         "answer": 0,
         "id": "N4-15-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット15問40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット15<ruby>問<rt>と</rt></ruby>40】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "配達<ruby>員<rt>いん</rt></ruby>と<ruby>受<rt>じゅ</rt></ruby>取人が<ruby>玄関<rt>げんかん</rt></ruby>で<ruby>受<rt>じゅ</rt></ruby>け<ruby>渡<rt>と</rt></ruby>し中です。このあと何をしますか。（220）",
         "question": "何をしますか。",
         "options": ["📌",
@@ -15125,10 +15125,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-15-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット15問41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット15<ruby>問<rt>と</rt></ruby>41】"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>上司<rt>じょうし</rt></ruby>に<ruby>早退<rt>そうたい</rt></ruby>を申し出たい<ruby>場<rt>ば</rt></ruby>面です。（127）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -15137,10 +15137,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-15-082",
-        "script": "🍽について　はなします。【セット15問42】"
+        "script": "🍽について　はなします。【セット15<ruby>問<rt>と</rt></ruby>42】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "ミーティングを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（200）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -15149,10 +15149,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-15-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット15問43】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット15<ruby>問<rt>と</rt></ruby>43】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "いくらですか。（271）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -15163,7 +15163,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-087"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>講<rt>こう</rt></ruby><ruby>演<rt>えん</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（201）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -15172,10 +15172,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-15-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット15問45】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット15<ruby>問<rt>と</rt></ruby>45】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "何<ruby>階<rt>かい</rt></ruby>ですか。（272）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -15186,7 +15186,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-088"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>説明<rt>せつめい</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（204）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -15195,10 +15195,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-15-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット15問47】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット15<ruby>問<rt>と</rt></ruby>47】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "どちらがいいですか。（273）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["こちらがいいです",
@@ -15209,8 +15209,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-089"
       },
       {
-        "type": "聴解（ポイント理解）",
-        "text": "<ruby>朝<rt>あさ</rt></ruby>礼を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（199）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
+        "text": "<ruby>朝<rt>あさ</rt></ruby><ruby>礼<rt>れい</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（199）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
           "📌",
@@ -15218,10 +15218,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-15-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット15問49】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット15<ruby>問<rt>と</rt></ruby>49】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "もう<ruby>終わり<rt>おわり</rt></ruby>ましたか。（274）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -15232,7 +15232,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-090"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>上司<rt>じょうし</rt></ruby>に<ruby>相<rt>そう</rt></ruby>談したい<ruby>場<rt>ば</rt></ruby>面です。（129）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -15241,10 +15241,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-15-084",
-        "script": "ピンについて　はなします。【セット15問51】"
+        "script": "ピンについて　はなします。【セット15<ruby>問<rt>と</rt></ruby>51】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "どうしましたか。（275）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["<ruby>少し<rt>すこし</rt></ruby><ruby>疲れ<rt>つかれ</rt></ruby>ました",
@@ -15255,7 +15255,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-091"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>店員<rt>てんいん</rt></ruby>に<ruby>試着<rt>しちゃく</rt></ruby>を<ruby>頼み<rt>たのみ</rt></ruby>たい<ruby>場<rt>ば</rt></ruby>面です。（131）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -15264,10 +15264,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-15-086",
-        "script": "ピンについて　はなします。【セット15問53】"
+        "script": "ピンについて　はなします。【セット15<ruby>問<rt>と</rt></ruby>53】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "お腹空きましたか。（276）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -15278,7 +15278,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-092"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "インタビューを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（203）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -15287,10 +15287,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-15-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット15問55】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット15<ruby>問<rt>と</rt></ruby>55】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "<ruby>眠い<rt>ねむい</rt></ruby>ですか。（277）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["<ruby>少し<rt>すこし</rt></ruby><ruby>眠い<rt>ねむい</rt></ruby>です",
@@ -15301,7 +15301,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-093"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>上司<rt>じょうし</rt></ruby>に<ruby>遅刻<rt>ちこく</rt></ruby>を詫びたい<ruby>場<rt>ば</rt></ruby>面です。（128）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -15310,10 +15310,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-15-083",
-        "script": "ピンについて　はなします。【セット15問57】"
+        "script": "ピンについて　はなします。【セット15<ruby>問<rt>と</rt></ruby>57】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "<ruby>準備<rt>じゅんび</rt></ruby>できましたか。（278）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -15324,7 +15324,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-094"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "ニュースを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（202）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -15333,10 +15333,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-15-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット15問59】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット15<ruby>問<rt>と</rt></ruby>59】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "分かりましたか。（279）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -15347,7 +15347,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-15-095"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>上司<rt>じょうし</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>したい<ruby>場<rt>ば</rt></ruby>面です。（130）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -15356,10 +15356,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-15-085",
-        "script": "ピンについて　はなします。【セット15問61】"
+        "script": "ピンについて　はなします。【セット15<ruby>問<rt>と</rt></ruby>61】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>銀行<rt>ぎんこう</rt></ruby><ruby>員<rt>いん</rt></ruby>と<ruby>客<rt>きゃく</rt></ruby>が窓口で手続き中です。このあと何をしますか。（218）",
         "question": "何をしますか。",
         "options": ["🏥",
@@ -15368,10 +15368,10 @@ window.MOCK_DATA['N4'] = {
           "✉️"],
         "answer": 1,
         "id": "N4-15-072",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット15問62】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット15<ruby>問<rt>と</rt></ruby>62】"
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>てつづき</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["返<ruby>事<rt>こと</rt></ruby>",
@@ -15381,7 +15381,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>りゃくれき</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>欠<rt>か</rt></ruby>席",
@@ -15391,7 +15391,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>ふくざつか</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>複雑化<rt>ふくざつか</rt></ruby>",
@@ -15401,7 +15401,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>まとめる</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>沈む<rt>しずむ</rt></ruby>",
@@ -15411,7 +15411,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>とどけさき</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["子会社",
@@ -15421,7 +15421,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>ほうこくしょ</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["美しい",
@@ -15431,8 +15431,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>番組</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>番<rt>ばん</rt></ruby>組</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["よる",
           "べん",
@@ -15441,8 +15441,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>病院</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>病<rt>やまい</rt></ruby><ruby>院<rt>いん</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["てい",
           "ある",
@@ -15451,8 +15451,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>作品</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u>作<ruby>品<rt>しな</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["くすり",
           "かた",
@@ -15461,8 +15461,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>部長</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>部<rt>ぶ</rt></ruby>長</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["ぶちょう",
           "いもうと",
@@ -15471,8 +15471,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>服</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>服<rt>ふく</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["あじ",
           "ふく",
@@ -15481,8 +15481,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>宝物</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>宝<rt>ほう</rt></ruby><ruby>物<rt>もの</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["たからもの",
           "たみ",
@@ -15491,8 +15491,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>区別する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>区<rt>く</rt></ruby><ruby>別<rt>わか</rt></ruby>する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["と",
           "くべつする",
@@ -15501,8 +15501,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>勉</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>勉<rt>べん</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["べん",
           "よる",
@@ -15511,8 +15511,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>散歩する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>散<rt>さん</rt></ruby><ruby>歩<rt>ある</rt></ruby>する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["の",
           "さんぽする",
@@ -15521,8 +15521,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "言い換え",
-        "text": "とても<ruby>紹介<rt>しょうかい</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "とても<ruby>紹介<rt>しょうかい</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>案内<rt>あんない</rt></ruby>する",
           "<ruby>親会社<rt>おやがいしゃ</rt></ruby>",
@@ -15531,8 +15531,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "言い換え",
-        "text": "とても<ruby>素晴らしい<rt>すばらしい</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "とても<ruby>素晴らしい<rt>すばらしい</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>近い<rt>ちかい</rt></ruby>",
           "下手",
@@ -15541,8 +15541,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "言い換え",
-        "text": "詳しい<ruby>説明<rt>せつめい</rt></ruby>を聞くの意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>詳<rt>しょう</rt></ruby>しい<ruby>説明<rt>せつめい</rt></ruby>を聞くの<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>解説<rt>かいせつ</rt></ruby>",
           "<ruby>受<rt>じゅ</rt></ruby>付",
@@ -15551,8 +15551,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "言い換え",
-        "text": "先生に<ruby>相談<rt>そうだん</rt></ruby>するの意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "先生に<ruby>相談<rt>そうだん</rt></ruby>するの<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>協議<rt>きょうぎ</rt></ruby>",
           "<ruby>記事<rt>きじ</rt></ruby>",
@@ -15561,8 +15561,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "言い換え",
-        "text": "<ruby>注意<rt>ちゅうい</rt></ruby>を払うの意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>注意<rt>ちゅうい</rt></ruby>を<ruby>払<rt>はら</rt></ruby>うの<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["ローン",
           "<ruby>警戒<rt>けいかい</rt></ruby>",
@@ -15573,7 +15573,7 @@ window.MOCK_DATA['N4'] = {
     ],
     "16": [
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "ここで　食べ（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["なければならない",
@@ -15584,7 +15584,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-034"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>靴<rt>くつ</rt></ruby>を　<ruby>脱<rt>ぬ</rt></ruby>が（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["なくてもいい",
@@ -15595,7 +15595,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-035"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "ここで　<ruby>写<rt>うつ</rt></ruby>真を　<ruby>撮<rt>とる</rt></ruby>っ（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["てもいい",
@@ -15606,7 +15606,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-038"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "ネクタイを　し（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["なくてもいい",
@@ -15617,7 +15617,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-037"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "ここに　<ruby>座<rt>ざ</rt></ruby>っ（　）ですか。",
         "question": "（　）に　はいるのは？",
         "options": ["てはいけない",
@@ -15628,7 +15628,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-039"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>予<rt>よ</rt></ruby>約し（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["なくてもいい",
@@ -15639,7 +15639,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-036"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>帰<rt>かえ</rt></ruby>っ（　）ですか。",
         "question": "（　）に　はいるのは？",
         "options": ["なくてもいい",
@@ -15650,7 +15650,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-040"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>彼<rt>かれ</rt></ruby>女は　<ruby>歌<rt>うた</rt></ruby>が　上手（　）、ダンスも　上手です。",
         "question": "（　）に　はいるのは？",
         "options": ["だし",
@@ -15661,7 +15661,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-043"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "窓を　<ruby>開<rt>あ</rt></ruby>け（　）ですか。",
         "question": "（　）に　はいるのは？",
         "options": ["てはいけない",
@@ -15672,7 +15672,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-042"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "この<ruby>店<rt>みせ</rt></ruby>は　<ruby>安い<rt>やすい</rt></ruby>（　）、美<ruby>味<rt>あじ</rt></ruby>しいです。",
         "question": "（　）に　はいるのは？",
         "options": ["から",
@@ -15683,7 +15683,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-044"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "この本を　<ruby>借り<rt>かり</rt></ruby>（　）ですか。",
         "question": "（　）に　はいるのは？",
         "options": ["てもいい",
@@ -15694,7 +15694,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-041"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>頭<rt>あたま</rt></ruby>も　いい（　）、<ruby>性格<rt>せいかく</rt></ruby>も　いいです。",
         "question": "（　）に　はいるのは？",
         "options": ["て",
@@ -15705,7 +15705,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-045"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>彼<rt>かれ</rt></ruby>は　真面目（　）、<ruby>優しい<rt>やさしい</rt></ruby>です。",
         "question": "（　）に　はいるのは？",
         "options": ["で",
@@ -15771,7 +15771,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-051"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "日本<ruby>経済<rt>けいざい</rt></ruby>は<ruby>長期<rt>ちょうき</rt></ruby>にわたる<ruby>停滞<rt>ていたい</rt></ruby>（　）、<ruby>回<rt>まわ</rt></ruby>復の<ruby>兆<rt>ちょう</rt></ruby>しを見せている。（176）",
         "question": "（　）に入るのは？",
         "options": ["に反して",
@@ -15782,7 +15782,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-052"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>彼<rt>かれ</rt></ruby>の提<ruby>案<rt>あん</rt></ruby>は<ruby>斬新<rt>ざんしん</rt></ruby>（　）、実<ruby>現<rt>あらわ</rt></ruby><ruby>可能性<rt>かのうせい</rt></ruby>に<ruby>欠ける<rt>かける</rt></ruby>。（177）",
         "question": "（　）に入るのは？",
         "options": ["なので",
@@ -15793,7 +15793,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-053"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>環境問題<rt>かんきょうもんだい</rt></ruby>の<ruby>解決<rt>かいけつ</rt></ruby>（　）、<ruby>国際協力<rt>こくさいきょうりょく</rt></ruby>が<ruby>不可欠<rt>ふかけつ</rt></ruby>だ。（178）",
         "question": "（　）に入るのは？",
         "options": ["にとって",
@@ -15804,7 +15804,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-054"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "この<ruby>研究<rt>けんきゅう</rt></ruby>は長年の努力（　）<ruby>結<rt>むす</rt></ruby>実したものだ。（179）",
         "question": "（　）に入るのは？",
         "options": ["の",
@@ -15815,7 +15815,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-055"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "社会の<ruby>変化<rt>へんか</rt></ruby>（　）、<ruby>教育<rt>きょういく</rt></ruby>も<ruby>見直し<rt>みなおし</rt></ruby>が必要だ。（180）",
         "question": "（　）に入るのは？",
         "options": ["に<ruby>対して<rt>たいして</rt></ruby>",
@@ -15826,7 +15826,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-056"
       },
       {
-        "type": "読解（短文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
         "text": "コピー<ruby>機<rt>き</rt></ruby>は1<ruby>枚<rt>まい</rt></ruby>10円です。<ruby>両<rt>りょう</rt></ruby>面コピーは20円です。",
         "question": "<ruby>両<rt>りょう</rt></ruby>面コピーはいくらですか。",
         "options": ["15円",
@@ -15837,8 +15837,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-057"
       },
       {
-        "type": "読解（短文）",
-        "text": "このジムは<ruby>会員制<rt>かいいんせい</rt></ruby>です。見学は無料でできます。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "このジムは<ruby>会員制<rt>かいいんせい</rt></ruby>です。見学は<ruby>無<rt>む</rt></ruby>料でできます。",
         "question": "見学するにはいくらかかりますか。",
         "options": ["<ruby>会員<rt>かいいん</rt></ruby>にならないとできない",
           "500円",
@@ -15848,8 +15848,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-058"
       },
       {
-        "type": "読解（短文）",
-        "text": "申し込みは<ruby>締<rt>し</rt></ruby>め切りました。次回は来月の予定です。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "申し<ruby>込<rt>こ</rt></ruby>みは<ruby>締<rt>し</rt></ruby>め<ruby>切<rt>き</rt></ruby>りました。次<ruby>回<rt>まわ</rt></ruby>は来月の<ruby>予<rt>よ</rt></ruby><ruby>定<rt>てい</rt></ruby>です。",
         "question": "今から申し<ruby>込<rt>こ</rt></ruby>めますか。",
         "options": ["申し<ruby>込<rt>こ</rt></ruby>めない",
           "電話すれば申し<ruby>込める<rt>こめる</rt></ruby>",
@@ -15859,8 +15859,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-059"
       },
       {
-        "type": "読解（短文）",
-        "text": "この道は<ruby>一方通行<rt>いっぽうつうこう</rt></ruby>です。反対側からは入れません。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "この道は<ruby>一方通行<rt>いっぽうつうこう</rt></ruby>です。反<ruby>対<rt>たい</rt></ruby>側からは入れません。",
         "question": "この道はどうなっていますか。",
         "options": ["<ruby>工事<rt>こうじ</rt></ruby>中",
           "<ruby>両方<rt>りょうほう</rt></ruby><ruby>通<rt>つう</rt></ruby>れる",
@@ -15870,7 +15870,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-060"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "わたしは　らいげつから　あたらしい　かいしゃで　はたらきます。いまの　かいしゃは　3ねんかん　はたらきましたが、もっと　せいちょうしたいと　おもいました。",
         "question": "どうして　てんしょくしましたか。",
         "options": ["きゅうりょうが　やすかった",
@@ -15881,7 +15881,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-061"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "このまちは　しずかで　みどりが　おおいです。こうつうは　ふべんですが、すみやすいです。",
         "question": "このまちの　いいところは？",
         "options": ["しずかで　みどりが　おおい",
@@ -15892,7 +15892,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-062"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "きょうの　かいぎは　3じかん　かかりました。ながかったですが、だいじな　けつろんが　でました。",
         "question": "かいぎは　どうでしたか。",
         "options": ["かんたんだった",
@@ -15903,7 +15903,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-063"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "わたしは　らいげつから　あたらしい　かいしゃで　はたらきます。いまの　かいしゃは　3ねんかん　はたらきましたが、もっと　せいちょうしたいと　おもいました。",
         "question": "どうして　てんしょくしましたか。",
         "options": ["せいちょうしたかった",
@@ -15914,7 +15914,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-064"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【カフェ】コーヒー350円　ケーキ450円　セット700円　11:00-20:00",
         "question": "セットは？",
         "options": ["850円",
@@ -15925,7 +15925,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-065"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【ラーメン】ラーメン850円　チャーシュー<ruby>麺<rt>めん</rt></ruby>1,050円　餃子350円",
         "question": "チャーシュー<ruby>麺<rt>めん</rt></ruby>は？",
         "options": ["1,000円",
@@ -15936,7 +15936,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-066"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "カスタマーサポートと<ruby>顧客<rt>こきゃく</rt></ruby>が電話で<ruby>対応<rt>たいおう</rt></ruby>中です。このあと何をしますか。（221）",
         "question": "何をしますか。",
         "options": ["📧",
@@ -15945,10 +15945,10 @@ window.MOCK_DATA['N4'] = {
           "🗓️"],
         "answer": 3,
         "id": "N4-16-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット16問34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット16<ruby>問<rt>と</rt></ruby>34】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "イベントスタッフと参<ruby>加<rt>くわ</rt></ruby><ruby>者<rt>もの</rt></ruby>が<ruby>会場<rt>かいじょう</rt></ruby>で<ruby>案内<rt>あんない</rt></ruby>中です。このあと何をしますか。（222）",
         "question": "何をしますか。",
         "options": ["📢",
@@ -15957,10 +15957,10 @@ window.MOCK_DATA['N4'] = {
           "🚪"],
         "answer": 2,
         "id": "N4-16-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット16問35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット16<ruby>問<rt>と</rt></ruby>35】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "ジムトレーナーと<ruby>会員<rt>かいいん</rt></ruby>がマシン前で<ruby>指<rt>ゆび</rt></ruby>導中です。このあと何をしますか。（223）",
         "question": "何をしますか。",
         "options": ["💊",
@@ -15969,10 +15969,10 @@ window.MOCK_DATA['N4'] = {
           "🔬"],
         "answer": 3,
         "id": "N4-16-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：けんきゅうを　して　ください。\nおとこ：わかりました。【セット16問36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：けんきゅうを　して　ください。\nおとこ：わかりました。【セット16<ruby>問<rt>と</rt></ruby>36】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>講師<rt>こうし</rt></ruby>と<ruby>受<rt>じゅ</rt></ruby><ruby>講<rt>こう</rt></ruby>生が教室で<ruby>質疑<rt>しつぎ</rt></ruby><ruby>応答<rt>おうとう</rt></ruby>中です。このあと何をしますか。（224）",
         "question": "何をしますか。",
         "options": ["📊",
@@ -15981,10 +15981,10 @@ window.MOCK_DATA['N4'] = {
           "📝"],
         "answer": 1,
         "id": "N4-16-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット16問37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット16<ruby>問<rt>と</rt></ruby>37】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "カフェ<ruby>店員<rt>てんいん</rt></ruby>と<ruby>客<rt>きゃく</rt></ruby>がカウンターで<ruby>注文<rt>ちゅうもん</rt></ruby>中です。このあと何をしますか。（225）",
         "question": "何をしますか。",
         "options": ["📌",
@@ -15993,10 +15993,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-16-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット16問38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット16<ruby>問<rt>と</rt></ruby>38】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "レストランウェイターと<ruby>客<rt>きゃく</rt></ruby>がテーブルで<ruby>対応<rt>たいおう</rt></ruby>中です。このあと何をしますか。（226）",
         "question": "何をしますか。",
         "options": ["📞",
@@ -16005,10 +16005,10 @@ window.MOCK_DATA['N4'] = {
           "📋"],
         "answer": 2,
         "id": "N4-16-072",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：スケジュールを　して　ください。\nおとこ：わかりました。【セット16問39】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：スケジュールを　して　ください。\nおとこ：わかりました。【セット16<ruby>問<rt>と</rt></ruby>39】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "コンビニ<ruby>店員<rt>てんいん</rt></ruby>と<ruby>客<rt>きゃく</rt></ruby>がレジで会計中です。このあと何をしますか。（227）",
         "question": "何をしますか。",
         "options": ["🍵",
@@ -16017,10 +16017,10 @@ window.MOCK_DATA['N4'] = {
           "💳"],
         "answer": 3,
         "id": "N4-16-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット16問40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット16<ruby>問<rt>と</rt></ruby>40】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "スーパー<ruby>店員<rt>てんいん</rt></ruby>と<ruby>客<rt>きゃく</rt></ruby>が<ruby>売り場<rt>うりば</rt></ruby>で<ruby>案内<rt>あんない</rt></ruby>中です。このあと何をしますか。（228）",
         "question": "何をしますか。",
         "options": ["🏥",
@@ -16029,10 +16029,10 @@ window.MOCK_DATA['N4'] = {
           "✉️"],
         "answer": 2,
         "id": "N4-16-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット16問41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット16<ruby>問<rt>と</rt></ruby>41】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "プレゼンを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（206）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -16041,10 +16041,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-16-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット16問42】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット16<ruby>問<rt>と</rt></ruby>42】"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>店員<rt>てんいん</rt></ruby>にサイズを聞きたい<ruby>場<rt>ば</rt></ruby>面です。（132）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -16053,10 +16053,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-16-082",
-        "script": "🍽について　はなします。【セット16問43】"
+        "script": "🍽について　はなします。【セット16<ruby>問<rt>と</rt></ruby>43】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "ラジオを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（208）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📕",
@@ -16065,10 +16065,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-16-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット16問44】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット16<ruby>問<rt>と</rt></ruby>44】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "聞こえますか。（280）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、聞こえます",
@@ -16079,7 +16079,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-087"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "スピーチを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（210）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -16088,10 +16088,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-16-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット16問46】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット16<ruby>問<rt>と</rt></ruby>46】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "この席、空いていますか。（281）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -16102,7 +16102,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-088"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>対<rt>たい</rt></ruby>談を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（212）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -16111,10 +16111,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-16-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット16問48】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット16<ruby>問<rt>と</rt></ruby>48】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "何時からですか。（282）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["10時からです",
@@ -16125,7 +16125,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-089"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>店員<rt>てんいん</rt></ruby>に<ruby>在庫<rt>ざいこ</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>したい<ruby>場<rt>ば</rt></ruby>面です。（133）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -16134,10 +16134,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-16-083",
-        "script": "ピンについて　はなします。【セット16問50】"
+        "script": "ピンについて　はなします。【セット16<ruby>問<rt>と</rt></ruby>50】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "コンビニはありますか。（283）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -16148,7 +16148,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-090"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>店員<rt>てんいん</rt></ruby>に<ruby>包<rt>ほう</rt></ruby><ruby>装<rt>そう</rt></ruby>を<ruby>頼み<rt>たのみ</rt></ruby>たい<ruby>場<rt>ば</rt></ruby>面です。（135）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -16157,10 +16157,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-16-085",
-        "script": "ピンについて　はなします。【セット16問52】"
+        "script": "ピンについて　はなします。【セット16<ruby>問<rt>と</rt></ruby>52】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "手<ruby>伝<rt>つた</rt></ruby>ってもらえますか。（284）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -16171,7 +16171,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-091"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>案内<rt>あんない</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（209）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -16180,10 +16180,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-16-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット16問54】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット16<ruby>問<rt>と</rt></ruby>54】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "どこに出せばいいですか。（285）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -16194,7 +16194,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-092"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>授業<rt>じゅぎょう</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（207）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -16203,10 +16203,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-16-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット16問56】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット16<ruby>問<rt>と</rt></ruby>56】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "お名前は。（286）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -16217,7 +16217,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-093"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "道を<ruby>尋<rt>たず</rt></ruby>ねたい<ruby>場<rt>ば</rt></ruby>面です。（136）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📅",
@@ -16226,10 +16226,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-16-086",
-        "script": "ピンについて　はなします。【セット16問58】"
+        "script": "ピンについて　はなします。【セット16<ruby>問<rt>と</rt></ruby>58】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "どのくらいかかりますか。（287）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["10分くらいです",
@@ -16240,7 +16240,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-094"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>店員<rt>てんいん</rt></ruby>に返<ruby>品<rt>しな</rt></ruby>したい<ruby>場<rt>ば</rt></ruby>面です。（134）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -16249,10 +16249,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-16-084",
-        "script": "ピンについて　はなします。【セット16問60】"
+        "script": "ピンについて　はなします。【セット16<ruby>問<rt>と</rt></ruby>60】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "<ruby>使<rt>つか</rt></ruby>ってもいいですか。（288）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -16263,7 +16263,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-16-095"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>報告<rt>ほうこく</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（211）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -16272,10 +16272,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-16-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット16問62】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット16<ruby>問<rt>と</rt></ruby>62】"
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>とりひきさき</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>抜ける<rt>ぬける</rt></ruby>",
@@ -16285,7 +16285,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>うかべる</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>人生観<rt>じんせいかん</rt></ruby>",
@@ -16295,7 +16295,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>きぎょう</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>企業<rt>きぎょう</rt></ruby>",
@@ -16305,7 +16305,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>かいせい</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["水道",
@@ -16315,7 +16315,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>おりる</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>判断<rt>はんだん</rt></ruby>する",
@@ -16325,7 +16325,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>おうようする</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>発明<rt>はつめい</rt></ruby>",
@@ -16335,8 +16335,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<ruby>新しい<rt>あたらしい</rt></ruby><u>方法</u>を<ruby>試す<rt>ためす</rt></ruby>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<ruby>新しい<rt>あたらしい</rt></ruby><u><ruby>方<rt>かた</rt></ruby><ruby>法<rt>ほう</rt></ruby></u>を<ruby>試す<rt>ためす</rt></ruby>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["くすり",
           "ほうほう",
@@ -16345,8 +16345,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>妹</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>妹<rt>いもうと</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["かかり",
           "よ",
@@ -16355,8 +16355,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>味わう</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>味<rt>あじ</rt></ruby>わう</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["おく",
           "でん",
@@ -16365,8 +16365,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>市民</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>市<rt>いち</rt></ruby><ruby>民<rt>たみ</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["か",
           "しみん",
@@ -16375,8 +16375,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>質問</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>質<rt>しつ</rt></ruby><ruby>問<rt>と</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["しつもん",
           "けん",
@@ -16385,8 +16385,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>夜</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>夜<rt>よる</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["てん",
           "しん",
@@ -16395,8 +16395,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>分野</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u>分<ruby>野<rt>のむ</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["さい",
           "てい",
@@ -16405,8 +16405,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>薬</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>薬<rt>くすり</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["れい",
           "くすり",
@@ -16415,8 +16415,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>予約する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>予<rt>よ</rt></ruby>約する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["かかり",
           "よやくする",
@@ -16425,7 +16425,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>届ける<rt>とどける</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>手紙<rt>てがみ</rt></ruby>が<ruby>届く<rt>とどく</rt></ruby>",
@@ -16435,7 +16435,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>届く<rt>とどく</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>届<rt>とどけ</rt></ruby>を出す",
@@ -16445,7 +16445,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>届<rt>とどけ</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>切手<rt>きって</rt></ruby>を<ruby>集める<rt>あつめる</rt></ruby>のが<ruby>趣味<rt>しゅみ</rt></ruby>だ",
@@ -16455,7 +16455,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>届け出<rt>とどけで</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>届け先<rt>とどけさき</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>する",
@@ -16465,7 +16465,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>届け先<rt>とどけさき</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>切手<rt>きって</rt></ruby>を<ruby>集める<rt>あつめる</rt></ruby>のが<ruby>趣味<rt>しゅみ</rt></ruby>だ",
@@ -16475,7 +16475,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>集める<rt>あつめる</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>切手<rt>きって</rt></ruby>を<ruby>集める<rt>あつめる</rt></ruby>のが<ruby>趣味<rt>しゅみ</rt></ruby>だ",
@@ -16485,7 +16485,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>集まる<rt>あつまる</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["駅前に人が<ruby>集まる<rt>あつまる</rt></ruby>",
@@ -16495,7 +16495,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>進む<rt>すすむ</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>計画<rt>けいかく</rt></ruby>を<ruby>進める<rt>すすめる</rt></ruby>",
@@ -16505,7 +16505,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>進める<rt>すすめる</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>会議<rt>かいぎ</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>が<ruby>決まる<rt>きまる</rt></ruby>",
@@ -16515,7 +16515,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>決める<rt>きめる</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>旅行<rt>りょこう</rt></ruby>の日程を<ruby>決める<rt>きめる</rt></ruby>",
@@ -16525,7 +16525,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>決まる<rt>きまる</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>感謝<rt>かんしゃ</rt></ruby>の<ruby>気持ち<rt>きもち</rt></ruby>を<ruby>伝える<rt>つたえる</rt></ruby>",
@@ -16535,7 +16535,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>変える<rt>かえる</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>噂<rt>うわさ</rt></ruby>が<ruby>伝わる<rt>つたわる</rt></ruby>",
@@ -16545,7 +16545,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>変わる<rt>かわる</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>季節<rt>きせつ</rt></ruby>が<ruby>変わる<rt>かわる</rt></ruby>",
@@ -16555,7 +16555,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>伝える<rt>つたえる</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["花を<ruby>育てる<rt>そだてる</rt></ruby>",
@@ -16565,7 +16565,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>伝わる<rt>つたわる</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["花を<ruby>育てる<rt>そだてる</rt></ruby>",
@@ -16575,7 +16575,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>育てる<rt>そだてる</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["貯金を<ruby>増やす<rt>ふやす</rt></ruby>",
@@ -16585,7 +16585,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>育つ<rt>そだつ</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>子供<rt>こども</rt></ruby>が元気に<ruby>育つ<rt>そだつ</rt></ruby>",
@@ -16595,7 +16595,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>増える<rt>ふえる</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["人口が<ruby>減る<rt>へる</rt></ruby>",
@@ -16605,7 +16605,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>増やす<rt>ふやす</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>出費<rt>しゅっぴ</rt></ruby>を<ruby>減らす<rt>へらす</rt></ruby>",
@@ -16615,7 +16615,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>減る<rt>へる</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["人口が<ruby>減る<rt>へる</rt></ruby>",
@@ -16625,8 +16625,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "言い換え",
-        "text": "とても<ruby>反対<rt>はんたい</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "とても<ruby>反対<rt>はんたい</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["努力",
           "<ruby>笑い<rt>わらい</rt></ruby>",
@@ -16635,8 +16635,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "言い換え",
-        "text": "新しい<ruby>方法<rt>ほうほう</rt></ruby>を試すの意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>新<rt>あたら</rt></ruby>しい<ruby>方法<rt>ほうほう</rt></ruby>を<ruby>試<rt>し</rt></ruby>すの<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>求める<rt>もとめる</rt></ruby>",
           "<ruby>感<rt>かん</rt></ruby>想",
@@ -16645,8 +16645,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "言い換え",
-        "text": "旅行の<ruby>目的<rt>もくてき</rt></ruby>を話すの意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>旅<rt>たび</rt></ruby>行の<ruby>目的<rt>もくてき</rt></ruby>を話すの<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>注文<rt>ちゅうもん</rt></ruby>",
           "<ruby>訂正<rt>ていせい</rt></ruby>",
@@ -16655,8 +16655,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "言い換え",
-        "text": "<ruby>問題<rt>もんだい</rt></ruby>を解決するの意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>問題<rt>もんだい</rt></ruby>を<ruby>解<rt>かい</rt></ruby><ruby>決<rt>き</rt></ruby>するの<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["選<ruby>挙<rt>あ</rt></ruby>",
           "<ruby>壁<rt>かべ</rt></ruby>",
@@ -16665,8 +16665,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "言い換え",
-        "text": "「<ruby>予約<rt>よやく</rt></ruby>」の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "「<ruby>予約<rt>よやく</rt></ruby>」の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>予定<rt>よてい</rt></ruby>する",
           "<ruby>支出<rt>ししゅつ</rt></ruby>",
@@ -16677,7 +16677,7 @@ window.MOCK_DATA['N4'] = {
     ],
     "17": [
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "時間も　ある（　）、お金も　あります。",
         "question": "（　）に　はいるのは？",
         "options": ["から",
@@ -16688,7 +16688,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-034"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "この料理は　<ruby>辛<rt>から</rt></ruby>（　）ぎます。",
         "question": "（　）に　はいるのは？",
         "options": ["く",
@@ -16699,7 +16699,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-036"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>疲れ<rt>つかれ</rt></ruby>た（　）、お腹も　空きました。",
         "question": "（　）に　はいるのは？",
         "options": ["し",
@@ -16710,7 +16710,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-035"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>昨<rt>さく</rt></ruby>日は　飲み（　）ました。",
         "question": "（　）に　はいるのは？",
         "options": ["たく",
@@ -16721,7 +16721,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-037"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "田中さんに　よろしく　お<ruby>伝<rt>つた</rt></ruby>え（　）。",
         "question": "（　）に　はいるのは？",
         "options": ["します",
@@ -16732,7 +16732,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-046"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "食べ（　）は　<ruby>体<rt>からだ</rt></ruby>に　<ruby>悪い<rt>わるい</rt></ruby>です。",
         "question": "（　）に　はいるのは？",
         "options": ["にく",
@@ -16754,7 +16754,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-047"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "この<ruby>部屋<rt>へや</rt></ruby>は　<ruby>暗<rt>くら</rt></ruby>（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["やす",
@@ -16776,7 +16776,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-048"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "この<ruby>問題<rt>もんだい</rt></ruby>は　<ruby>簡単<rt>かんたん</rt></ruby>（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["すぎ",
@@ -16798,7 +16798,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-049"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>彼<rt>かれ</rt></ruby>女は　真面目（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["にく",
@@ -16820,7 +16820,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-050"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>荷物<rt>にもつ</rt></ruby>が　<ruby>多<rt>おお</rt></ruby>（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["にく",
@@ -16842,7 +16842,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-051"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "あの人は　<ruby>親切<rt>しんせつ</rt></ruby>（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["すぎ",
@@ -16853,7 +16853,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-044"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>困難<rt>こんなん</rt></ruby>（　）<ruby>乗<rt>の</rt></ruby>り<ruby>越<rt>こ</rt></ruby>え、<ruby>目標<rt>もくひょう</rt></ruby>を達<ruby>成<rt>せい</rt></ruby>した。（181）",
         "question": "（　）に入るのは？",
         "options": ["を",
@@ -16864,7 +16864,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-052"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>量<rt>りょう</rt></ruby>が　<ruby>少<rt>すこ</rt></ruby>な（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["すぎ",
@@ -16875,7 +16875,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-042"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "専門<ruby>家<rt>いえ</rt></ruby>（　）<ruby>意見<rt>いけん</rt></ruby>を聞く必要がある。（182）",
         "question": "（　）に入るのは？",
         "options": ["への",
@@ -16886,7 +16886,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-053"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>彼<rt>かれ</rt></ruby>は　<ruby>働き<rt>はたらき</rt></ruby>（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["たく",
@@ -16897,7 +16897,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-038"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>技術<rt>ぎじゅつ</rt></ruby>の<ruby>進歩<rt>しんぽ</rt></ruby>（　）、<ruby>生活<rt>せいかつ</rt></ruby>は大きく<ruby>変<rt>へん</rt></ruby>わった。（183）",
         "question": "（　）に入るのは？",
         "options": ["により",
@@ -16908,7 +16908,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-054"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>彼<rt>かれ</rt></ruby>の<ruby>行動<rt>こうどう</rt></ruby>は<ruby>法律<rt>ほうりつ</rt></ruby>（　）<ruby>許<rt>きょ</rt></ruby>されない。（184）",
         "question": "（　）に入るのは？",
         "options": ["において",
@@ -16919,7 +16919,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-055"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>予算<rt>よさん</rt></ruby>の<ruby>制<rt>せい</rt></ruby>約（　）実<ruby>現<rt>あらわ</rt></ruby>が<ruby>困難<rt>こんなん</rt></ruby>だ。（185）",
         "question": "（　）に入るのは？",
         "options": ["から",
@@ -16930,8 +16930,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-056"
       },
       {
-        "type": "読解（短文）",
-        "text": "ご<ruby>利用<rt>りよう</rt></ruby>の方は<ruby>整理券<rt>せいりけん</rt></ruby>を取ってお待ちください。<ruby>順番<rt>じゅんばん</rt></ruby>にお呼びします。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "ご<ruby>利用<rt>りよう</rt></ruby>の<ruby>方<rt>かた</rt></ruby>は<ruby>整理券<rt>せいりけん</rt></ruby>を取ってお<ruby>待<rt>ま</rt></ruby>ちください。<ruby>順番<rt>じゅんばん</rt></ruby>にお<ruby>呼<rt>こ</rt></ruby>びします。",
         "question": "<ruby>待<rt>まつ</rt></ruby>っているときどうしますか。",
         "options": ["電話する",
           "整理<ruby>券<rt>けん</rt></ruby>を取る",
@@ -16941,8 +16941,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-057"
       },
       {
-        "type": "読解（短文）",
-        "text": "ATMは<ruby>平日<rt>へいじつ</rt></ruby>は夜8時まで、土日は夜6時までです。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "ATMは<ruby>平日<rt>へいじつ</rt></ruby>は<ruby>夜<rt>よる</rt></ruby>8時まで、土日は<ruby>夜<rt>よる</rt></ruby>6時までです。",
         "question": "土曜日のATMは何時までですか。",
         "options": ["<ruby>夜<rt>よる</rt></ruby>6時",
           "<ruby>夜<rt>よる</rt></ruby>8時",
@@ -16952,8 +16952,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-058"
       },
       {
-        "type": "読解（短文）",
-        "text": "<ruby>定休日<rt>ていきゅうび</rt></ruby>は毎週水曜日です。<ruby>祝日<rt>しゅくじつ</rt></ruby>の場合は<ruby>営業<rt>えいぎょう</rt></ruby>します。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>定休日<rt>ていきゅうび</rt></ruby>は毎週水曜日です。<ruby>祝日<rt>しゅくじつ</rt></ruby>の<ruby>場<rt>ば</rt></ruby><ruby>合<rt>あ</rt></ruby>は<ruby>営業<rt>えいぎょう</rt></ruby>します。",
         "question": "いつ休みですか。",
         "options": ["木曜日",
           "水曜日",
@@ -16963,7 +16963,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-059"
       },
       {
-        "type": "読解（短文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
         "text": "ランチタイムは11時から14時までです。ラストオーダーは13時30分です。",
         "question": "ラストオーダーは何時ですか。",
         "options": ["13時30分",
@@ -16974,7 +16974,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-060"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "わたしは　らいげつから　あたらしい　かいしゃで　はたらきます。いまの　かいしゃは　3ねんかん　はたらきましたが、もっと　せいちょうしたいと　おもいました。",
         "question": "どうして　てんしょくしましたか。",
         "options": ["せいちょうしたかった",
@@ -16985,7 +16985,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-061"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "このまちは　しずかで　みどりが　おおいです。こうつうは　ふべんですが、すみやすいです。",
         "question": "このまちの　いいところは？",
         "options": ["こうつうが　べんり",
@@ -16996,7 +16996,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-062"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "きょうの　かいぎは　3じかん　かかりました。ながかったですが、だいじな　けつろんが　でました。",
         "question": "かいぎは　どうでしたか。",
         "options": ["かんたんだった",
@@ -17007,7 +17007,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-063"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "わたしは　らいげつから　あたらしい　かいしゃで　はたらきます。いまの　かいしゃは　3ねんかん　はたらきましたが、もっと　せいちょうしたいと　おもいました。",
         "question": "どうして　てんしょくしましたか。",
         "options": ["せいちょうしたかった",
@@ -17018,7 +17018,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-064"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【クリニック】<ruby>初<rt>しょ</rt></ruby><ruby>診<rt>みる</rt></ruby>料1,500円　<ruby>再<rt>さい</rt></ruby><ruby>診<rt>みる</rt></ruby>500円　平日9:00-18:00　木日休",
         "question": "<ruby>初<rt>しょ</rt></ruby><ruby>診<rt>みる</rt></ruby>料は？",
         "options": ["2,000円",
@@ -17029,7 +17029,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-065"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【<ruby>本屋<rt>ほんや</rt></ruby>】10:00-21:00　年中<ruby>無<rt>む</rt></ruby>休　ポイントカードあり",
         "question": "何時まで？",
         "options": ["20:00",
@@ -17040,7 +17040,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-066"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "デパート<ruby>店員<rt>てんいん</rt></ruby>と<ruby>客<rt>きゃく</rt></ruby>が<ruby>売り場<rt>うりば</rt></ruby>で<ruby>接客<rt>せっきゃく</rt></ruby>中です。このあと何をしますか。（229）",
         "question": "何をしますか。",
         "options": ["📄",
@@ -17049,10 +17049,10 @@ window.MOCK_DATA['N4'] = {
           "📊"],
         "answer": 2,
         "id": "N4-17-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット17問34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット17<ruby>問<rt>と</rt></ruby>34】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>家<rt>いえ</rt></ruby>電<ruby>量<rt>りょう</rt></ruby>販<ruby>店員<rt>てんいん</rt></ruby>と<ruby>客<rt>きゃく</rt></ruby>が<ruby>商品<rt>しょうひん</rt></ruby>前で<ruby>説明<rt>せつめい</rt></ruby>中です。このあと何をしますか。（230）",
         "question": "何をしますか。",
         "options": ["📌",
@@ -17061,10 +17061,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-17-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット17問35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット17<ruby>問<rt>と</rt></ruby>35】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "書<ruby>店員<rt>てんいん</rt></ruby>と<ruby>客<rt>きゃく</rt></ruby>が書<ruby>棚<rt>たな</rt></ruby>前で<ruby>案内<rt>あんない</rt></ruby>中です。このあと何をしますか。（231）",
         "question": "何をしますか。",
         "options": ["🗓️",
@@ -17073,10 +17073,10 @@ window.MOCK_DATA['N4'] = {
           "📧"],
         "answer": 0,
         "id": "N4-17-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：スケジュールを　して　ください。\nおとこ：わかりました。【セット17問36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：スケジュールを　して　ください。\nおとこ：わかりました。【セット17<ruby>問<rt>と</rt></ruby>36】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>靴屋<rt>くつや</rt></ruby><ruby>店員<rt>てんいん</rt></ruby>と<ruby>客<rt>きゃく</rt></ruby>がフィッティング中です。このあと何をしますか。（232）",
         "question": "何をしますか。",
         "options": ["🍵",
@@ -17085,10 +17085,10 @@ window.MOCK_DATA['N4'] = {
           "🚪"],
         "answer": 2,
         "id": "N4-17-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット17問37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット17<ruby>問<rt>と</rt></ruby>37】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "アパレル<ruby>店員<rt>てんいん</rt></ruby>と<ruby>客<rt>きゃく</rt></ruby>が<ruby>試着<rt>しちゃく</rt></ruby>室前で<ruby>相<rt>そう</rt></ruby>談中です。このあと何をしますか。（233）",
         "question": "何をしますか。",
         "options": ["💊",
@@ -17097,10 +17097,10 @@ window.MOCK_DATA['N4'] = {
           "🔬"],
         "answer": 3,
         "id": "N4-17-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット17問38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット17<ruby>問<rt>と</rt></ruby>38】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>眼<rt>め</rt></ruby><ruby>鏡<rt>かがみ</rt></ruby><ruby>店員<rt>てんいん</rt></ruby>と<ruby>客<rt>きゃく</rt></ruby>が<ruby>検査<rt>けんさ</rt></ruby>後に<ruby>相<rt>そう</rt></ruby>談中です。このあと何をしますか。（234）",
         "question": "何をしますか。",
         "options": ["📄",
@@ -17109,10 +17109,10 @@ window.MOCK_DATA['N4'] = {
           "📊"],
         "answer": 2,
         "id": "N4-17-072",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：メモを　して　ください。\nおとこ：わかりました。【セット17問39】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：メモを　して　ください。\nおとこ：わかりました。【セット17<ruby>問<rt>と</rt></ruby>39】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>携<rt>たずさ</rt></ruby>帯ショップ<ruby>店員<rt>てんいん</rt></ruby>と<ruby>客<rt>きゃく</rt></ruby>がカウンターで<ruby>契<rt>ちぎ</rt></ruby>約中です。このあと何をしますか。（235）",
         "question": "何をしますか。",
         "options": ["📌",
@@ -17121,10 +17121,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-17-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット17問40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット17<ruby>問<rt>と</rt></ruby>40】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "保<ruby>険<rt>けわ</rt></ruby>外交<ruby>員<rt>いん</rt></ruby>と<ruby>客<rt>きゃく</rt></ruby>が自宅で<ruby>説明<rt>せつめい</rt></ruby>中です。このあと何をしますか。（236）",
         "question": "何をしますか。",
         "options": ["📞",
@@ -17133,10 +17133,10 @@ window.MOCK_DATA['N4'] = {
           "🗓️"],
         "answer": 3,
         "id": "N4-17-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット17問41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット17<ruby>問<rt>と</rt></ruby>41】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>講義<rt>こうぎ</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（213）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -17145,10 +17145,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-17-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット17問42】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット17<ruby>問<rt>と</rt></ruby>42】"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "時間を<ruby>尋<rt>たず</rt></ruby>ねたい<ruby>場<rt>ば</rt></ruby>面です。（137）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -17157,10 +17157,10 @@ window.MOCK_DATA['N4'] = {
           "🍽️"],
         "answer": 3,
         "id": "N4-17-082",
-        "script": "🍽について　はなします。【セット17問43】"
+        "script": "🍽について　はなします。【セット17<ruby>問<rt>と</rt></ruby>43】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "討<ruby>論<rt>ろん</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（215）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -17169,10 +17169,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-17-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット17問44】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット17<ruby>問<rt>と</rt></ruby>44】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "もう一<ruby>杯<rt>さかずき</rt></ruby>いかがですか。（289）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -17183,7 +17183,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-087"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>番組<rt>ばんぐみ</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（217）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -17192,10 +17192,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-17-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット17問46】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット17<ruby>問<rt>と</rt></ruby>46】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "楽しかったですね。（290）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -17206,7 +17206,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-088"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "ドキュメンタリーを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（219）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -17215,10 +17215,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-17-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット17問48】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット17<ruby>問<rt>と</rt></ruby>48】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "郵<ruby>便<rt>べん</rt></ruby><ruby>局<rt>きょく</rt></ruby>はどこですか。（291）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -17229,7 +17229,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-089"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>場所<rt>ばしょ</rt></ruby>を<ruby>尋<rt>たず</rt></ruby>ねたい<ruby>場<rt>ば</rt></ruby>面です。（138）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -17238,10 +17238,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-17-083",
-        "script": "ピンについて　はなします。【セット17問50】"
+        "script": "ピンについて　はなします。【セット17<ruby>問<rt>と</rt></ruby>50】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "お時間よろしいですか。（292）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -17252,7 +17252,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-090"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>営業<rt>えいぎょう</rt></ruby>時間を<ruby>尋<rt>たず</rt></ruby>ねたい<ruby>場<rt>ば</rt></ruby>面です。（140）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -17261,10 +17261,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-17-085",
-        "script": "ピンについて　はなします。【セット17問52】"
+        "script": "ピンについて　はなします。【セット17<ruby>問<rt>と</rt></ruby>52】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "<ruby>傘<rt>かさ</rt></ruby>はお<ruby>持<rt>もつ</rt></ruby>ちですか。（293）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["<ruby>忘<rt>ぼう</rt></ruby>れました",
@@ -17275,7 +17275,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-091"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "セミナーを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（216）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -17284,10 +17284,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-17-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット17問54】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット17<ruby>問<rt>と</rt></ruby>54】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "静かでいいですね。（294）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -17298,7 +17298,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-092"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>解説<rt>かいせつ</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（214）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -17307,10 +17307,10 @@ window.MOCK_DATA['N4'] = {
           "📕"],
         "answer": 1,
         "id": "N4-17-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット17問56】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット17<ruby>問<rt>と</rt></ruby>56】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "お<ruby>荷物<rt>にもつ</rt></ruby>お<ruby>持<rt>もつ</rt></ruby>ちしましょうか。（295）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -17321,8 +17321,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-093"
       },
       {
-        "type": "聴解（発話表現）",
-        "text": "お礼を<ruby>言<rt>い</rt></ruby>いたい<ruby>場<rt>ば</rt></ruby>面です。（141）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
+        "text": "お<ruby>礼<rt>れい</rt></ruby>を<ruby>言<rt>い</rt></ruby>いたい<ruby>場<rt>ば</rt></ruby>面です。（141）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📅",
           "📌",
@@ -17330,10 +17330,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-17-086",
-        "script": "ピンについて　はなします。【セット17問58】"
+        "script": "ピンについて　はなします。【セット17<ruby>問<rt>と</rt></ruby>58】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "今日は暑いですね。（296）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -17344,7 +17344,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-094"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>値段<rt>ねだん</rt></ruby>を<ruby>尋<rt>たず</rt></ruby>ねたい<ruby>場<rt>ば</rt></ruby>面です。（139）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -17353,10 +17353,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-17-084",
-        "script": "ピンについて　はなします。【セット17問60】"
+        "script": "ピンについて　はなします。【セット17<ruby>問<rt>と</rt></ruby>60】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "何時までですか。（297）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["6時までです",
@@ -17367,7 +17367,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-17-095"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>特<rt>とく</rt></ruby><ruby>集<rt>しゅう</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（218）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -17376,10 +17376,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-17-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット17問62】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット17<ruby>問<rt>と</rt></ruby>62】"
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>しゅっせき</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["鳴る",
@@ -17389,7 +17389,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>しらせる</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["知らせる",
@@ -17399,7 +17399,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>ふさい</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["調べる",
@@ -17409,7 +17409,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>こがいしゃ</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>通勤<rt>つうきん</rt></ruby>",
@@ -17419,7 +17419,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>うつくしい</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>詳しい<rt>くわしい</rt></ruby>",
@@ -17429,7 +17429,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>ぼうえき</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>抜ける<rt>ぬける</rt></ruby>",
@@ -17439,8 +17439,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<ruby>感謝<rt>かんしゃ</rt></ruby>の<ruby>気持ち<rt>きもち</rt></ruby>を<u>伝える</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<ruby>感謝<rt>かんしゃ</rt></ruby>の<ruby>気持ち<rt>きもち</rt></ruby>を<u><ruby>伝<rt>でん</rt></ruby>える</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["しん",
           "つたえる",
@@ -17449,8 +17449,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>仮</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>仮<rt>か</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["そく",
           "しゅう",
@@ -17459,8 +17459,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>事件</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>事<rt>こと</rt></ruby><ruby>件<rt>けん</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["ばい",
           "じけん",
@@ -17469,8 +17469,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>伸ばす</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>伸<rt>しん</rt></ruby>ばす</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["てん",
           "こう",
@@ -17479,8 +17479,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>低下</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>低<rt>てい</rt></ruby>下</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["ち",
           "ていか",
@@ -17489,8 +17489,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>例</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>例<rt>れい</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["れい",
           "ゆう",
@@ -17499,8 +17499,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>関係する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>関<rt>かん</rt></ruby><ruby>係<rt>かか</rt></ruby>する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["かんけいする",
           "ぞう",
@@ -17509,8 +17509,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>信じる</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>信<rt>しん</rt></ruby>じる</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["しんじる",
           "おく",
@@ -17519,8 +17519,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>修理</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>修<rt>しゅう</rt></ruby>理</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["しゅうり",
           "じ",
@@ -17529,7 +17529,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>減らす<rt>へらす</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>印<rt>しるし</rt></ruby>象に<ruby>残る<rt>のこる</rt></ruby>",
@@ -17539,7 +17539,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「続ける」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["雨が三日間続く",
@@ -17549,7 +17549,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「続く」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["雨が三日間続く",
@@ -17559,7 +17559,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>残る<rt>のこる</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>仕事<rt>しごと</rt></ruby>を<ruby>残す<rt>のこす</rt></ruby>",
@@ -17569,7 +17569,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>残す<rt>のこす</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["落とし<ruby>物<rt>もの</rt></ruby>を見つける",
@@ -17579,7 +17579,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「片付ける」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>仕事<rt>しごと</rt></ruby>が片付く",
@@ -17589,7 +17589,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「片付く」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["電車に<ruby>間に合う<rt>まにあう</rt></ruby>",
@@ -17599,7 +17599,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「見つける」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["電車に<ruby>間に合う<rt>まにあう</rt></ruby>",
@@ -17609,7 +17609,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「見つかる」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>経験<rt>けいけん</rt></ruby>が役立つ",
@@ -17619,7 +17619,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>間に合う<rt>まにあう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>経験<rt>けいけん</rt></ruby>が役立つ",
@@ -17629,7 +17629,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「役立つ」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>経験<rt>けいけん</rt></ruby>が役立つ",
@@ -17639,7 +17639,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「気付く」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>予<rt>よ</rt></ruby>約を取り消す",
@@ -17649,7 +17649,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>思い出す<rt>おもいだす</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>仕事<rt>しごと</rt></ruby>を<ruby>引き受ける<rt>ひきうける</rt></ruby>",
@@ -17659,7 +17659,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「申し<ruby>込む<rt>こむ</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>仕事<rt>しごと</rt></ruby>を<ruby>引き受ける<rt>ひきうける</rt></ruby>",
@@ -17669,7 +17669,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「取り消す」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["申し<ruby>込<rt>こ</rt></ruby>みを<ruby>受<rt>じゅ</rt></ruby>け付ける",
@@ -17679,7 +17679,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>引き受ける<rt>ひきうける</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>仕事<rt>しごと</rt></ruby>を<ruby>引き受ける<rt>ひきうける</rt></ruby>",
@@ -17689,7 +17689,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>受<rt>じゅ</rt></ruby>け取る」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["申し<ruby>込<rt>こ</rt></ruby>みを<ruby>受<rt>じゅ</rt></ruby>け付ける",
@@ -17699,7 +17699,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>受<rt>じゅ</rt></ruby>け付ける」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["プレゼントを<ruby>喜ぶ<rt>よろこぶ</rt></ruby>",
@@ -17709,7 +17709,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「取り上げる」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["テーマとして取り上げる",
@@ -17719,18 +17719,18 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>喜ぶ<rt>よろこぶ</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>別れ<rt>わかれ</rt></ruby>を<ruby>悲しむ<rt>かなしむ</rt></ruby>",
           "プレゼントを<ruby>喜ぶ<rt>よろこぶ</rt></ruby>",
           "ニュースに<ruby>驚く<rt>おどろく</rt></ruby>",
-          "失礼な<ruby>態度<rt>たいど</rt></ruby>に<ruby>怒る<rt>おこる</rt></ruby>"],
+          "失<ruby>礼<rt>れい</rt></ruby>な<ruby>態度<rt>たいど</rt></ruby>に<ruby>怒る<rt>おこる</rt></ruby>"],
         "answer": 1
       },
       {
-        "type": "言い換え",
-        "text": "遅刻の<ruby>理由<rt>りゆう</rt></ruby>を説明するの意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>遅<rt>ち</rt></ruby><ruby>刻<rt>きざ</rt></ruby>の<ruby>理由<rt>りゆう</rt></ruby>を<ruby>説<rt>と</rt></ruby>明するの<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>扱う<rt>あつかう</rt></ruby>",
           "<ruby>原因<rt>げんいん</rt></ruby>",
@@ -17739,8 +17739,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "言い換え",
-        "text": "友達に<ruby>連絡<rt>れんらく</rt></ruby>するの意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "友達に<ruby>連絡<rt>れんらく</rt></ruby>するの<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>不<rt>ふ</rt></ruby>正<ruby>解<rt>かい</rt></ruby>",
           "<ruby>追加<rt>ついか</rt></ruby>",
@@ -17749,8 +17749,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "言い換え",
-        "text": "「<ruby>練習<rt>れんしゅう</rt></ruby>」の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "「<ruby>練習<rt>れんしゅう</rt></ruby>」の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>部長<rt>ぶちょう</rt></ruby>",
           "<ruby>刺す<rt>さす</rt></ruby>",
@@ -17759,8 +17759,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "言い換え",
-        "text": "「<ruby>配達<rt>はいたつ</rt></ruby>」の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "「<ruby>配達<rt>はいたつ</rt></ruby>」の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>仲間<rt>なかま</rt></ruby>",
           "<ruby>届ける<rt>とどける</rt></ruby>",
@@ -17769,8 +17769,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "言い換え",
-        "text": "とても<ruby>恥ずかしい<rt>はずかしい</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "とても<ruby>恥ずかしい<rt>はずかしい</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>輸出<rt>ゆしゅつ</rt></ruby>",
           "<ruby>重ねる<rt>かさねる</rt></ruby>",
@@ -17781,7 +17781,7 @@ window.MOCK_DATA['N4'] = {
     ],
     "18": [
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>少<rt>すこ</rt></ruby>々　お<ruby>待<rt>まつ</rt></ruby>ち（　）。",
         "question": "（　）に　はいるのは？",
         "options": ["です",
@@ -17792,7 +17792,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-034"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>私<rt>わたし</rt></ruby>が　ご<ruby>説明<rt>せつめい</rt></ruby>（　）。",
         "question": "（　）に　はいるのは？",
         "options": ["ます",
@@ -17803,7 +17803,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-038"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "お名前を　お書き（　）。",
         "question": "（　）に　はいるのは？",
         "options": ["ください",
@@ -17814,7 +17814,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-036"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>私<rt>わたし</rt></ruby>が　お<ruby>持<rt>もつ</rt></ruby>ち（　）。",
         "question": "（　）に　はいるのは？",
         "options": ["ください",
@@ -17825,7 +17825,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-039"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "こちらへ　どうぞ　お入り（　）。",
         "question": "（　）に　はいるのは？",
         "options": ["します",
@@ -17836,7 +17836,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-035"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>私<rt>わたし</rt></ruby>が　ご<ruby>案内<rt>あんない</rt></ruby>（　）。",
         "question": "（　）に　はいるのは？",
         "options": ["します",
@@ -17847,7 +17847,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-040"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "どうぞ　お<ruby>座<rt>ざ</rt></ruby>り（　）。",
         "question": "（　）に　はいるのは？",
         "options": ["ください",
@@ -17858,7 +17858,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-037"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "後で　お電話（　）。",
         "question": "（　）に　はいるのは？",
         "options": ["ます",
@@ -17869,7 +17869,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-041"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "先生は　何時に　いらっしゃい（　）か。",
         "question": "（　）に　はいるのは？",
         "options": ["します",
@@ -17880,7 +17880,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-043"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>私<rt>わたし</rt></ruby>が　お<ruby>送<rt>お</rt></ruby>り（　）。",
         "question": "（　）に　はいるのは？",
         "options": ["ください",
@@ -17891,7 +17891,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-042"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "社長は　もう　お<ruby>帰り<rt>かえり</rt></ruby>に（　）。",
         "question": "（　）に　はいるのは？",
         "options": ["です",
@@ -17902,7 +17902,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-044"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>部長<rt>ぶちょう</rt></ruby>は　<ruby>会議室<rt>かいぎしつ</rt></ruby>に　いらっしゃい（　）。",
         "question": "（　）に　はいるのは？",
         "options": ["ます",
@@ -17913,7 +17913,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-045"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "お<ruby>客<rt>きゃく</rt></ruby>様が　お見えに（　）。",
         "question": "（　）に　はいるのは？",
         "options": ["ください",
@@ -17979,7 +17979,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-051"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>結果<rt>けっか</rt></ruby>（　）<ruby>良<rt>りょう</rt></ruby>ければ<ruby>全て<rt>すべて</rt></ruby><ruby>良<rt>りょう</rt></ruby>しとは<ruby>限<rt>かぎ</rt></ruby>らない。（186）",
         "question": "（　）に入るのは？",
         "options": ["が",
@@ -17990,7 +17990,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-052"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "努力<ruby>家<rt>いえ</rt></ruby>である（　）、<ruby>才能<rt>さいのう</rt></ruby>にも<ruby>恵<rt>めぐ</rt></ruby>まれている。（187）",
         "question": "（　）に入るのは？",
         "options": ["とはいえ",
@@ -18001,7 +18001,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-053"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>一朝一夕<rt>いっちょういっせき</rt></ruby>（　）<ruby>解決<rt>かいけつ</rt></ruby>できるものではない。（188）",
         "question": "（　）に入るのは？",
         "options": ["では",
@@ -18012,8 +18012,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-054"
       },
       {
-        "type": "読解（短文）",
-        "text": "<ruby>貸出<rt>かしだし</rt></ruby>は1人3冊までです。<ruby>延長<rt>えんちょう</rt></ruby>したい場合は連絡してください。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "<ruby>貸出<rt>かしだし</rt></ruby>は1人3冊までです。<ruby>延長<rt>えんちょう</rt></ruby>したい<ruby>場<rt>ば</rt></ruby><ruby>合<rt>あ</rt></ruby>は<ruby>連<rt>れん</rt></ruby><ruby>絡<rt>から</rt></ruby>してください。",
         "question": "何冊まで<ruby>借り<rt>かり</rt></ruby>られますか。",
         "options": ["1冊",
           "2冊",
@@ -18023,7 +18023,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-057"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>経験<rt>けいけん</rt></ruby>（　）<ruby>勝る<rt>まさる</rt></ruby>ものはない。（190）",
         "question": "（　）に入るのは？",
         "options": ["を",
@@ -18034,8 +18034,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-056"
       },
       {
-        "type": "読解（短文）",
-        "text": "チケットは<ruby>払<rt>はら</rt></ruby>い<ruby>戻<rt>もど</rt></ruby>しできません。日程変更もできません。",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
+        "text": "チケットは<ruby>払<rt>はら</rt></ruby>い<ruby>戻<rt>もど</rt></ruby>しできません。日程<ruby>変<rt>へん</rt></ruby><ruby>更<rt>さら</rt></ruby>もできません。",
         "question": "チケットについて正しいのはどれですか。",
         "options": ["日程<ruby>変更<rt>へんこう</rt></ruby>できる",
           "どちらもできる",
@@ -18045,7 +18045,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-058"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>事<rt>こと</rt></ruby>実（　）<ruby>基づいて<rt>もとづいて</rt></ruby>いる。（189）",
         "question": "（　）に入るのは？",
         "options": ["が",
@@ -18056,7 +18056,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-055"
       },
       {
-        "type": "読解（短文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
         "text": "このでんしゃは　つぎの　えきで　10ぷん　とまります。",
         "question": "でんしゃは　どのくらい　とまりますか。",
         "options": ["15ふん",
@@ -18067,7 +18067,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-059"
       },
       {
-        "type": "読解（短文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
         "text": "あしたは　あめの　よほうです。かさを　もっていったほうが　いいです。",
         "question": "あしたの　てんきは？",
         "options": ["くもり",
@@ -18078,7 +18078,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-060"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "わたしは　らいげつから　あたらしい　かいしゃで　はたらきます。いまの　かいしゃは　3ねんかん　はたらきましたが、もっと　せいちょうしたいと　おもいました。",
         "question": "どうして　てんしょくしましたか。",
         "options": ["きゅうりょうが　やすかった",
@@ -18089,7 +18089,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-061"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "このまちは　しずかで　みどりが　おおいです。こうつうは　ふべんですが、すみやすいです。",
         "question": "このまちの　いいところは？",
         "options": ["こうつうが　べんり",
@@ -18100,7 +18100,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-062"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "きょうの　かいぎは　3じかん　かかりました。ながかったですが、だいじな　けつろんが　でました。",
         "question": "かいぎは　どうでしたか。",
         "options": ["みじかかった",
@@ -18111,7 +18111,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-063"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "わたしは　らいげつから　あたらしい　かいしゃで　はたらきます。いまの　かいしゃは　3ねんかん　はたらきましたが、もっと　せいちょうしたいと　おもいました。",
         "question": "どうして　てんしょくしましたか。",
         "options": ["いえから　とおかった",
@@ -18122,7 +18122,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-064"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【<ruby>パン屋<rt>ぱんや</rt></ruby>】7:00-19:00　日曜休み　食パン280円　あんぱん150円",
         "question": "何時に<ruby>開く<rt>ひらく</rt></ruby>？",
         "options": ["7:00",
@@ -18133,7 +18133,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-065"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【100円ショップ】10:00-20:00　年中<ruby>無<rt>む</rt></ruby>休　<ruby>税<rt>ぜい</rt></ruby><ruby>込<rt>こ</rt></ruby>110円",
         "question": "<ruby>税<rt>ぜい</rt></ruby><ruby>込<rt>こ</rt></ruby>いくら？",
         "options": ["105円",
@@ -18144,7 +18144,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-066"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>引っ越し<rt>ひっこし</rt></ruby><ruby>業<rt>ごう</rt></ruby><ruby>者<rt>もの</rt></ruby>と<ruby>客<rt>きゃく</rt></ruby>が見積もり中です。このあと何をしますか。（237）",
         "question": "何をしますか。",
         "options": ["🚪",
@@ -18153,10 +18153,10 @@ window.MOCK_DATA['N4'] = {
           "🍵"],
         "answer": 2,
         "id": "N4-18-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット18問34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：カードから　はじめましょう。【セット18<ruby>問<rt>と</rt></ruby>34】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>クリーニング店<rt>くりーにんぐてん</rt></ruby><ruby>員<rt>いん</rt></ruby>と<ruby>客<rt>きゃく</rt></ruby>が<ruby>受<rt>じゅ</rt></ruby>付で<ruby>対応<rt>たいおう</rt></ruby>中です。このあと何をしますか。（238）",
         "question": "何をしますか。",
         "options": ["🔬",
@@ -18165,10 +18165,10 @@ window.MOCK_DATA['N4'] = {
           "✉️"],
         "answer": 0,
         "id": "N4-18-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット18問35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：けんきゅうを　おねがいします。\nおんな：はい。【セット18<ruby>問<rt>と</rt></ruby>35】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>写<rt>うつ</rt></ruby>真スタジオスタッフと<ruby>客<rt>きゃく</rt></ruby>が<ruby>撮影<rt>さつえい</rt></ruby><ruby>相<rt>そう</rt></ruby>談中です。このあと何をしますか。（239）",
         "question": "何をしますか。",
         "options": ["📝",
@@ -18177,10 +18177,10 @@ window.MOCK_DATA['N4'] = {
           "📄"],
         "answer": 1,
         "id": "N4-18-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：メモを　して　ください。\nおとこ：わかりました。【セット18問36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：メモを　して　ください。\nおとこ：わかりました。【セット18<ruby>問<rt>と</rt></ruby>36】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>花屋<rt>はなや</rt></ruby><ruby>店員<rt>てんいん</rt></ruby>と<ruby>客<rt>きゃく</rt></ruby>がアレンジメント<ruby>相<rt>そう</rt></ruby>談中です。このあと何をしますか。（240）",
         "question": "何をしますか。",
         "options": ["📌",
@@ -18189,10 +18189,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-18-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット18問37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット18<ruby>問<rt>と</rt></ruby>37】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>上司<rt>じょうし</rt></ruby>と<ruby>部下<rt>ぶか</rt></ruby>が<ruby>会議室<rt>かいぎしつ</rt></ruby>で<ruby>打ち合わせ<rt>うちあわせ</rt></ruby>中です。このあと何をしますか。（241）",
         "question": "何をしますか。",
         "options": ["📧",
@@ -18201,10 +18201,10 @@ window.MOCK_DATA['N4'] = {
           "📋"],
         "answer": 2,
         "id": "N4-18-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット18問38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット18<ruby>問<rt>と</rt></ruby>38】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "同<ruby>僚<rt>りょう</rt></ruby>同士がオフィスで<ruby>相<rt>そう</rt></ruby>談中です。このあと何をしますか。（242）",
         "question": "何をしますか。",
         "options": ["💳",
@@ -18213,10 +18213,10 @@ window.MOCK_DATA['N4'] = {
           "📢"],
         "answer": 0,
         "id": "N4-18-072",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：カードを　して　ください。\nおとこ：わかりました。【セット18問39】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：カードを　して　ください。\nおとこ：わかりました。【セット18<ruby>問<rt>と</rt></ruby>39】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>店<rt>みせ</rt></ruby>長とアルバイトがバックヤードで話し中です。このあと何をしますか。（243）",
         "question": "何をしますか。",
         "options": ["🏥",
@@ -18225,10 +18225,10 @@ window.MOCK_DATA['N4'] = {
           "✉️"],
         "answer": 1,
         "id": "N4-18-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット18問40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット18<ruby>問<rt>と</rt></ruby>40】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>医師<rt>いし</rt></ruby>と<ruby>患者<rt>かんじゃ</rt></ruby>が<ruby>診<rt>みる</rt></ruby>察室で<ruby>対話<rt>たいわ</rt></ruby>中です。このあと何をしますか。（244）",
         "question": "何をしますか。",
         "options": ["📊",
@@ -18237,10 +18237,10 @@ window.MOCK_DATA['N4'] = {
           "📝"],
         "answer": 2,
         "id": "N4-18-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット18問41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット18<ruby>問<rt>と</rt></ruby>41】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "トークを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（220）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -18249,10 +18249,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-18-075",
-        "script": "きょうの　はなしは　ほんについてです。これは　とても　たいせつです。【セット18問42】"
+        "script": "きょうの　はなしは　ほんについてです。これは　とても　たいせつです。【セット18<ruby>問<rt>と</rt></ruby>42】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "放<ruby>送<rt>お</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（221）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -18261,10 +18261,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-18-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット18問43】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット18<ruby>問<rt>と</rt></ruby>43】"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>感謝<rt>かんしゃ</rt></ruby>を<ruby>伝<rt>つた</rt></ruby>えたい<ruby>場<rt>ば</rt></ruby>面です。（142）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -18273,10 +18273,10 @@ window.MOCK_DATA['N4'] = {
           "🍽️"],
         "answer": 3,
         "id": "N4-18-082",
-        "script": "🍽について　はなします。【セット18問44】"
+        "script": "🍽について　はなします。【セット18<ruby>問<rt>と</rt></ruby>44】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>研修<rt>けんしゅう</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（223）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -18285,10 +18285,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-18-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット18問45】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット18<ruby>問<rt>と</rt></ruby>45】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "週<ruby>末<rt>まつ</rt></ruby>の<ruby>予定<rt>よてい</rt></ruby>は。（298）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -18299,7 +18299,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-087"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "ミーティングを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（225）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -18308,10 +18308,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-18-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット18問47】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット18<ruby>問<rt>と</rt></ruby>47】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "おいしいですね。（299）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -18322,7 +18322,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-088"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>発<rt>はつ</rt></ruby>表を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（222）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -18331,10 +18331,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-18-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット18問49】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット18<ruby>問<rt>と</rt></ruby>49】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "<ruby>写<rt>うつ</rt></ruby>真<ruby>撮<rt>とる</rt></ruby>ってもいいですか。（300）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["大<ruby>丈<rt>たけ</rt></ruby>夫ですよ",
@@ -18345,7 +18345,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-089"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>謝罪<rt>しゃざい</rt></ruby>したい<ruby>場<rt>ば</rt></ruby>面です。（144）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -18354,10 +18354,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-18-084",
-        "script": "ピンについて　はなします。【セット18問51】"
+        "script": "ピンについて　はなします。【セット18<ruby>問<rt>と</rt></ruby>51】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "お<ruby>仕事<rt>しごと</rt></ruby>は何ですか。（301）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -18368,7 +18368,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-090"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>許可<rt>きょか</rt></ruby>を<ruby>求<rt>もと</rt></ruby>めたい<ruby>場<rt>ば</rt></ruby>面です。（146）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -18377,10 +18377,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-18-086",
-        "script": "ピンについて　はなします。【セット18問53】"
+        "script": "ピンについて　はなします。【セット18<ruby>問<rt>と</rt></ruby>53】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "<ruby>趣味<rt>しゅみ</rt></ruby>は何ですか。（302）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -18391,7 +18391,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-091"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>講<rt>こう</rt></ruby><ruby>演<rt>えん</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（226）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -18400,10 +18400,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-18-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット18問55】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット18<ruby>問<rt>と</rt></ruby>55】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "出身はどこですか。（303）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -18414,7 +18414,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-092"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "お詫びを入れたい<ruby>場<rt>ば</rt></ruby>面です。（145）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -18423,10 +18423,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-18-085",
-        "script": "ピンについて　はなします。【セット18問57】"
+        "script": "ピンについて　はなします。【セット18<ruby>問<rt>と</rt></ruby>57】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "いつからですか。（304）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -18437,7 +18437,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-093"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>恩<rt>おん</rt></ruby>を<ruby>感<rt>かん</rt></ruby>じていることを<ruby>伝<rt>つた</rt></ruby>えたい<ruby>場<rt>ば</rt></ruby>面です。（143）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -18446,10 +18446,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-18-083",
-        "script": "ピンについて　はなします。【セット18問59】"
+        "script": "ピンについて　はなします。【セット18<ruby>問<rt>と</rt></ruby>59】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "何人ですか。（305）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -18460,8 +18460,8 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-094"
       },
       {
-        "type": "聴解（ポイント理解）",
-        "text": "<ruby>朝<rt>あさ</rt></ruby>礼を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（224）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
+        "text": "<ruby>朝<rt>あさ</rt></ruby><ruby>礼<rt>れい</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（224）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
           "📌",
@@ -18469,10 +18469,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-18-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット18問61】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット18<ruby>問<rt>と</rt></ruby>61】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "いくらですか。（306）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["500円です",
@@ -18483,7 +18483,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-18-095"
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>しはらい</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>人生観<rt>じんせいかん</rt></ruby>",
@@ -18493,7 +18493,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>そふ</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>撮影<rt>さつえい</rt></ruby>",
@@ -18503,7 +18503,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>かべ</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["水道",
@@ -18513,7 +18513,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>はんだんする</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["失う",
@@ -18523,7 +18523,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>はつめい</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>更新<rt>こうしん</rt></ruby>",
@@ -18533,7 +18533,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>けっせき</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>欠<rt>か</rt></ruby>席",
@@ -18543,8 +18543,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "とても<u>倍</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "とても<u><ruby>倍<rt>ばい</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["きょう",
           "ばい",
@@ -18553,8 +18553,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>天候</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u>天<ruby>候<rt>こう</rt></ruby></u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["し",
           "てん",
@@ -18563,8 +18563,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>値段</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>値<rt>ち</rt></ruby><ruby>段<rt>だん</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["こう",
           "さい",
@@ -18573,8 +18573,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>優れる</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>優<rt>ゆう</rt></ruby>れる</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["すぐれる",
           "れい",
@@ -18583,8 +18583,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>像</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>像<rt>ぞう</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["ぞう",
           "れつ",
@@ -18593,8 +18593,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>億</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>億<rt>お</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["む",
           "はん",
@@ -18603,8 +18603,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>小児科</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u>小<ruby>児<rt>じ</rt></ruby>科</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["せい",
           "そく",
@@ -18613,8 +18613,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>共同</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>共<rt>きょう</rt></ruby>同</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["いん",
           "ふく",
@@ -18623,8 +18623,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>典</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>典<rt>てん</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["わり",
           "てん",
@@ -18633,37 +18633,37 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>悲しむ<rt>かなしむ</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>別れ<rt>わかれ</rt></ruby>を<ruby>悲しむ<rt>かなしむ</rt></ruby>",
           "ニュースに<ruby>驚く<rt>おどろく</rt></ruby>",
-          "失礼な<ruby>態度<rt>たいど</rt></ruby>に<ruby>怒る<rt>おこる</rt></ruby>",
+          "失<ruby>礼<rt>れい</rt></ruby>な<ruby>態度<rt>たいど</rt></ruby>に<ruby>怒る<rt>おこる</rt></ruby>",
           "道に<ruby>迷<rt>めい</rt></ruby>って<ruby>困る<rt>こまる</rt></ruby>"],
         "answer": 0
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>驚く<rt>おどろく</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["ニュースに<ruby>驚く<rt>おどろく</rt></ruby>",
-          "失礼な<ruby>態度<rt>たいど</rt></ruby>に<ruby>怒る<rt>おこる</rt></ruby>",
+          "失<ruby>礼<rt>れい</rt></ruby>な<ruby>態度<rt>たいど</rt></ruby>に<ruby>怒る<rt>おこる</rt></ruby>",
           "道に<ruby>迷<rt>めい</rt></ruby>って<ruby>困る<rt>こまる</rt></ruby>",
           "<ruby>進路<rt>しんろ</rt></ruby>に<ruby>迷う<rt>まよう</rt></ruby>"],
         "answer": 0
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>怒る<rt>おこる</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["道に<ruby>迷<rt>めい</rt></ruby>って<ruby>困る<rt>こまる</rt></ruby>",
-          "失礼な<ruby>態度<rt>たいど</rt></ruby>に<ruby>怒る<rt>おこる</rt></ruby>",
+          "失<ruby>礼<rt>れい</rt></ruby>な<ruby>態度<rt>たいど</rt></ruby>に<ruby>怒る<rt>おこる</rt></ruby>",
           "<ruby>進路<rt>しんろ</rt></ruby>に<ruby>迷う<rt>まよう</rt></ruby>",
           "<ruby>新しい<rt>あたらしい</rt></ruby><ruby>環境<rt>かんきょう</rt></ruby>に<ruby>慣れる<rt>なれる</rt></ruby>"],
         "answer": 1
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>困る<rt>こまる</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["道に<ruby>迷<rt>めい</rt></ruby>って<ruby>困る<rt>こまる</rt></ruby>",
@@ -18673,7 +18673,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>迷う<rt>まよう</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>新しい<rt>あたらしい</rt></ruby><ruby>環境<rt>かんきょう</rt></ruby>に<ruby>慣れる<rt>なれる</rt></ruby>",
@@ -18683,7 +18683,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>慣れる<rt>なれる</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>新しい<rt>あたらしい</rt></ruby><ruby>環境<rt>かんきょう</rt></ruby>に<ruby>慣れる<rt>なれる</rt></ruby>",
@@ -18693,7 +18693,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>疲れる<rt>つかれる</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["食べ<ruby>過<rt>か</rt></ruby>ぎて<ruby>太る<rt>ふとる</rt></ruby>",
@@ -18703,7 +18703,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>太る<rt>ふとる</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["ダイエットで<ruby>痩せる<rt>やせる</rt></ruby>",
@@ -18713,7 +18713,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>痩せる<rt>やせる</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["真面目について話す",
@@ -18723,7 +18723,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「丁<ruby>寧<rt>ねい</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>熱心に<rt>ねっしんに</rt></ruby>ついて話す",
@@ -18733,7 +18733,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>熱心<rt>ねっしん</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>素直に<rt>すなおに</rt></ruby>ついて話す",
@@ -18743,7 +18743,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「真面目」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>素直に<rt>すなおに</rt></ruby>ついて話す",
@@ -18753,7 +18753,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>正直<rt>しょうじき</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>安全<rt>あんぜん</rt></ruby>について話す",
@@ -18763,7 +18763,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>素直<rt>すなお</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>素直に<rt>すなおに</rt></ruby>ついて話す",
@@ -18773,7 +18773,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>危険<rt>きけん</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>不安<rt>ふあん</rt></ruby>について話す",
@@ -18783,7 +18783,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>安全<rt>あんぜん</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>幸せ<rt>しあわせ</rt></ruby>について話す",
@@ -18793,7 +18793,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>完全<rt>かんぜん</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>簡単<rt>かんたん</rt></ruby>について話す",
@@ -18803,7 +18803,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>不安<rt>ふあん</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>簡単<rt>かんたん</rt></ruby>について話す",
@@ -18813,7 +18813,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>幸せ<rt>しあわせ</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["とても得<ruby>意<rt>い</rt></ruby>",
@@ -18823,7 +18823,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>簡単<rt>かんたん</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>苦手<rt>にがて</rt></ruby>について話す",
@@ -18833,8 +18833,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "言い換え",
-        "text": "とても<ruby>販売<rt>はんばい</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "とても<ruby>販売<rt>はんばい</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>監査<rt>かんさ</rt></ruby>",
           "<ruby>売る<rt>うる</rt></ruby>",
@@ -18843,8 +18843,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "言い換え",
-        "text": "「<ruby>報告<rt>ほうこく</rt></ruby>」の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "「<ruby>報告<rt>ほうこく</rt></ruby>」の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>証明<rt>しょうめい</rt></ruby>",
           "知らせる",
@@ -18853,8 +18853,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "言い換え",
-        "text": "「<ruby>計画<rt>けいかく</rt></ruby>」の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "「<ruby>計画<rt>けいかく</rt></ruby>」の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>首相<rt>しゅしょう</rt></ruby>",
           "<ruby>止める<rt>とめる</rt></ruby>",
@@ -18863,8 +18863,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "言い換え",
-        "text": "今週の<ruby>予定<rt>よてい</rt></ruby>を確認するの意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "今週の<ruby>予定<rt>よてい</rt></ruby>を<ruby>確<rt>かく</rt></ruby><ruby>認<rt>にん</rt></ruby>するの<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["スケジュール",
           "<ruby>翻<rt>ひるがえ</rt></ruby>訳",
@@ -18873,8 +18873,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "言い換え",
-        "text": "「<ruby>契約<rt>けいやく</rt></ruby>」の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "「<ruby>契約<rt>けいやく</rt></ruby>」の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>締め切り<rt>しめきり</rt></ruby>",
           "<ruby>決算<rt>けっさん</rt></ruby>",
@@ -18885,7 +18885,7 @@ window.MOCK_DATA['N4'] = {
     ],
     "19": [
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "先生が　おっしゃっ（　）ことは　正しいです。",
         "question": "（　）に　はいるのは？",
         "options": ["た",
@@ -18896,7 +18896,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-034"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "社長に　お会い（　）ことが　あります。",
         "question": "（　）に　はいるのは？",
         "options": ["の",
@@ -18907,7 +18907,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-036"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "先生の　お話を　聞い（　）。",
         "question": "（　）に　はいるのは？",
         "options": ["て",
@@ -18918,7 +18918,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-035"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "お<ruby>客<rt>きゃく</rt></ruby>様を　お<ruby>迎<rt>むか</rt></ruby>え（　）。",
         "question": "（　）に　はいるのは？",
         "options": ["します",
@@ -18929,7 +18929,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-037"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "ご<ruby>注文<rt>ちゅうもん</rt></ruby>は　お<ruby>決まり<rt>きまり</rt></ruby>（　）か。",
         "question": "（　）に　はいるのは？",
         "options": ["ましたか",
@@ -18940,7 +18940,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-038"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "お<ruby>荷物<rt>にもつ</rt></ruby>を　お<ruby>預<rt>よ</rt></ruby>かり（　）。",
         "question": "（　）に　はいるのは？",
         "options": ["です",
@@ -18951,7 +18951,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-040"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "何名様（　）か。",
         "question": "（　）に　はいるのは？",
         "options": ["しますか",
@@ -18962,7 +18962,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-039"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "こちらで　お<ruby>待<rt>まつ</rt></ruby>ち（　）か。",
         "question": "（　）に　はいるのは？",
         "options": ["です",
@@ -18973,7 +18973,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-041"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "お<ruby>飲み物<rt>のみもの</rt></ruby>は　いかが（　）か。",
         "question": "（　）に　はいるのは？",
         "options": ["しますか",
@@ -18984,7 +18984,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-042"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>風邪<rt>かぜ</rt></ruby>（　）<ruby>引<rt>いん</rt></ruby>いてしまいました。",
         "question": "（　）に　はいるのは？",
         "options": ["ても",
@@ -18995,7 +18995,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-043"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>熱<rt>ねつ</rt></ruby>（　）出てしまいました。",
         "question": "（　）に　はいるのは？",
         "options": ["が",
@@ -19006,7 +19006,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-044"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>薬<rt>くすり</rt></ruby>（　）飲んでください。",
         "question": "（　）に　はいるのは？",
         "options": ["と",
@@ -19017,7 +19017,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-046"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>咳<rt>せき</rt></ruby>（　）<ruby>止<rt>とる</rt></ruby>まりません。",
         "question": "（　）に　はいるのは？",
         "options": ["まま",
@@ -19083,7 +19083,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-051"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "健<ruby>康<rt>こう</rt></ruby>（　）、何<ruby>事<rt>こと</rt></ruby>も<ruby>始<rt>はじまる</rt></ruby>まらない。（191）",
         "question": "（　）に入るのは？",
         "options": ["でなくては",
@@ -19094,7 +19094,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-052"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "時間の<ruby>許す<rt>ゆるす</rt></ruby>（　）、できるだけ<ruby>訪<rt>ほう</rt></ruby>れたい。（192）",
         "question": "（　）に入るのは？",
         "options": ["まで",
@@ -19105,7 +19105,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-053"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>医師<rt>いし</rt></ruby>（　）、ボランティアにも<ruby>熱心<rt>ねっしん</rt></ruby>だ。（193）",
         "question": "（　）に入るのは？",
         "options": ["なので",
@@ -19116,7 +19116,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-054"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>医師<rt>いし</rt></ruby>の処<ruby>方<rt>ほう</rt></ruby>（　）<ruby>使<rt>つか</rt></ruby>用してください。（194）",
         "question": "（　）に入るのは？",
         "options": ["に従って",
@@ -19127,7 +19127,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-055"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>予<rt>よ</rt></ruby>想（　）、<ruby>売り上げ<rt>うりあげ</rt></ruby>は<ruby>減<rt>へん</rt></ruby><ruby>少し<rt>すこし</rt></ruby>た。（195）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>通り<rt>とおり</rt></ruby>",
@@ -19138,7 +19138,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-056"
       },
       {
-        "type": "読解（短文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
         "text": "このレストランは　人気が　あります。よやくしないと　はいれないことが　あります。",
         "question": "このレストランについて　ただしいのは？",
         "options": ["いつも　すいている",
@@ -19149,7 +19149,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-057"
       },
       {
-        "type": "読解（短文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
         "text": "やまださんは　かぜを　ひいて、きょうは　かいしゃを　やすみました。",
         "question": "やまださんは　どうして　やすみましたか。",
         "options": ["やすみの　ひだった",
@@ -19160,7 +19160,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-058"
       },
       {
-        "type": "読解（短文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
         "text": "このでんしゃは　つぎの　えきで　10ぷん　とまります。",
         "question": "でんしゃは　どのくらい　とまりますか。",
         "options": ["10ぷん",
@@ -19171,7 +19171,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-059"
       },
       {
-        "type": "読解（短文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
         "text": "あしたは　あめの　よほうです。かさを　もっていったほうが　いいです。",
         "question": "あしたの　てんきは？",
         "options": ["はれ",
@@ -19182,7 +19182,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-060"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "わたしは　らいげつから　あたらしい　かいしゃで　はたらきます。いまの　かいしゃは　3ねんかん　はたらきましたが、もっと　せいちょうしたいと　おもいました。",
         "question": "どうして　てんしょくしましたか。",
         "options": ["いえから　とおかった",
@@ -19193,7 +19193,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-061"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "このまちは　しずかで　みどりが　おおいです。こうつうは　ふべんですが、すみやすいです。",
         "question": "このまちの　いいところは？",
         "options": ["しずかで　みどりが　おおい",
@@ -19204,7 +19204,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-062"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "きょうの　かいぎは　3じかん　かかりました。ながかったですが、だいじな　けつろんが　でました。",
         "question": "かいぎは　どうでしたか。",
         "options": ["かんたんだった",
@@ -19215,7 +19215,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-063"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "わたしは　らいげつから　あたらしい　かいしゃで　はたらきます。いまの　かいしゃは　3ねんかん　はたらきましたが、もっと　せいちょうしたいと　おもいました。",
         "question": "どうして　てんしょくしましたか。",
         "options": ["しごとが　つまらなかった",
@@ -19226,7 +19226,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-064"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【郵<ruby>便<rt>べん</rt></ruby><ruby>局<rt>きょく</rt></ruby>】平日9:00-17:00　土日休　ATM9:00-19:00",
         "question": "土曜は？",
         "options": ["<ruby>開<rt>あ</rt></ruby>いている",
@@ -19237,7 +19237,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-065"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【<ruby>銀行<rt>ぎんこう</rt></ruby>】9:00-15:00　土日祝休　ATM7:00-23:00",
         "question": "窓口は何時まで？",
         "options": ["15:00",
@@ -19248,7 +19248,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-066"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>教授<rt>きょうじゅ</rt></ruby>と学生が<ruby>研究<rt>けんきゅう</rt></ruby>室で<ruby>議論<rt>ぎろん</rt></ruby>中です。このあと何をしますか。（245）",
         "question": "何をしますか。",
         "options": ["📌",
@@ -19257,10 +19257,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-19-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット19問34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：ピンから　はじめましょう。【セット19<ruby>問<rt>と</rt></ruby>34】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "マネージャーとスタッフが<ruby>店<rt>みせ</rt></ruby><ruby>頭<rt>あたま</rt></ruby>で<ruby>確認<rt>かくにん</rt></ruby>中です。このあと何をしますか。（246）",
         "question": "何をしますか。",
         "options": ["📋",
@@ -19269,10 +19269,10 @@ window.MOCK_DATA['N4'] = {
           "📧"],
         "answer": 2,
         "id": "N4-19-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット19問35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：スケジュールを　おねがいします。\nおんな：はい。【セット19<ruby>問<rt>と</rt></ruby>35】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>営業<rt>えいぎょう</rt></ruby>担当と<ruby>顧客<rt>こきゃく</rt></ruby>が<ruby>商<rt>しょう</rt></ruby>談室で<ruby>交渉<rt>こうしょう</rt></ruby>中です。このあと何をしますか。（247）",
         "question": "何をしますか。",
         "options": ["📢",
@@ -19281,10 +19281,10 @@ window.MOCK_DATA['N4'] = {
           "💳"],
         "answer": 3,
         "id": "N4-19-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：カードを　して　ください。\nおとこ：わかりました。【セット19問36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：カードを　して　ください。\nおとこ：わかりました。【セット19<ruby>問<rt>と</rt></ruby>36】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>受<rt>じゅ</rt></ruby>付と<ruby>来訪<rt>らいほう</rt></ruby><ruby>者<rt>もの</rt></ruby>がロビーで<ruby>案内<rt>あんない</rt></ruby>中です。このあと何をしますか。（248）",
         "question": "何をしますか。",
         "options": ["✉️",
@@ -19293,10 +19293,10 @@ window.MOCK_DATA['N4'] = {
           "🏥"],
         "answer": 2,
         "id": "N4-19-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット19問37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット19<ruby>問<rt>と</rt></ruby>37】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>技術者<rt>ぎじゅつしゃ</rt></ruby>とクライアントが<ruby>現場<rt>げんば</rt></ruby>で<ruby>説明<rt>せつめい</rt></ruby>中です。このあと何をしますか。（249）",
         "question": "何をしますか。",
         "options": ["📝",
@@ -19305,10 +19305,10 @@ window.MOCK_DATA['N4'] = {
           "📝"],
         "answer": 0,
         "id": "N4-19-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット19問38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット19<ruby>問<rt>と</rt></ruby>38】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "コーチと選手がジムでトレーニング<ruby>相<rt>そう</rt></ruby>談中です。このあと何をしますか。（250）",
         "question": "何をしますか。",
         "options": ["📌",
@@ -19317,10 +19317,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-19-072",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：ピンを　して　ください。\nおとこ：わかりました。【セット19問39】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：ピンを　して　ください。\nおとこ：わかりました。【セット19<ruby>問<rt>と</rt></ruby>39】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>先輩<rt>せんぱい</rt></ruby>と後<ruby>輩<rt>はい</rt></ruby>が<ruby>休憩室<rt>きゅうけいしつ</rt></ruby>で<ruby>雑<rt>ざつ</rt></ruby>談中です。このあと何をしますか。（251）",
         "question": "何をしますか。",
         "options": ["🗓️",
@@ -19329,10 +19329,10 @@ window.MOCK_DATA['N4'] = {
           "📋"],
         "answer": 0,
         "id": "N4-19-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット19問40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット19<ruby>問<rt>と</rt></ruby>40】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>司<rt>し</rt></ruby>書と<ruby>利<rt>り</rt></ruby>用<ruby>者<rt>もの</rt></ruby>が<ruby>図書館<rt>としょかん</rt></ruby>で<ruby>対応<rt>たいおう</rt></ruby>中です。このあと何をしますか。（252）",
         "question": "何をしますか。",
         "options": ["📢",
@@ -19341,10 +19341,10 @@ window.MOCK_DATA['N4'] = {
           "💳"],
         "answer": 3,
         "id": "N4-19-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット19問41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット19<ruby>問<rt>と</rt></ruby>41】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "ニュースを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（227）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -19353,10 +19353,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-19-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット19問42】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット19<ruby>問<rt>と</rt></ruby>42】"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>確認<rt>かくにん</rt></ruby>したい<ruby>場<rt>ば</rt></ruby>面です。（147）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["🍽️",
@@ -19365,10 +19365,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-19-082",
-        "script": "🍽について　はなします。【セット19問43】"
+        "script": "🍽について　はなします。【セット19<ruby>問<rt>と</rt></ruby>43】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>説明<rt>せつめい</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（229）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -19377,10 +19377,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-19-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット19問44】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット19<ruby>問<rt>と</rt></ruby>44】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "何<ruby>階<rt>かい</rt></ruby>ですか。（307）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
@@ -19391,7 +19391,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-087"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "プレゼンを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（231）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -19400,10 +19400,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-19-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット19問46】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット19<ruby>問<rt>と</rt></ruby>46】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "どちらがいいですか。（308）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["こちらがいいです",
@@ -19414,7 +19414,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-088"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "ラジオを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（233）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -19423,10 +19423,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-19-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット19問48】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット19<ruby>問<rt>と</rt></ruby>48】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "もう<ruby>終わり<rt>おわり</rt></ruby>ましたか。（309）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -19437,7 +19437,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-089"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "提<ruby>案<rt>あん</rt></ruby>したい<ruby>場<rt>ば</rt></ruby>面です。（148）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -19446,10 +19446,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-19-083",
-        "script": "ピンについて　はなします。【セット19問50】"
+        "script": "ピンについて　はなします。【セット19<ruby>問<rt>と</rt></ruby>50】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "どうしましたか。（310）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["<ruby>少し<rt>すこし</rt></ruby><ruby>疲れ<rt>つかれ</rt></ruby>ました",
@@ -19460,7 +19460,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-090"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>励<rt>はげ</rt></ruby>ましたい<ruby>場<rt>ば</rt></ruby>面です。（150）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -19469,10 +19469,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-19-085",
-        "script": "ピンについて　はなします。【セット19問52】"
+        "script": "ピンについて　はなします。【セット19<ruby>問<rt>と</rt></ruby>52】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "お腹空きましたか。（311）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -19483,7 +19483,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-091"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>会議<rt>かいぎ</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（230）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -19492,10 +19492,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-19-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット19問54】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット19<ruby>問<rt>と</rt></ruby>54】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "<ruby>眠い<rt>ねむい</rt></ruby>ですか。（312）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -19506,7 +19506,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-092"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "インタビューを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（228）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -19515,10 +19515,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-19-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット19問56】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット19<ruby>問<rt>と</rt></ruby>56】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "<ruby>準備<rt>じゅんび</rt></ruby>できましたか。（313）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、できました",
@@ -19529,7 +19529,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-093"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "祝福したい<ruby>場<rt>ば</rt></ruby>面です。（151）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -19538,10 +19538,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-19-086",
-        "script": "ピンについて　はなします。【セット19問58】"
+        "script": "ピンについて　はなします。【セット19<ruby>問<rt>と</rt></ruby>58】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "分かりましたか。（314）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -19552,7 +19552,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-094"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>お見舞い<rt>おみまい</rt></ruby>を<ruby>言<rt>い</rt></ruby>いたい<ruby>場<rt>ば</rt></ruby>面です。（149）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -19561,10 +19561,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-19-084",
-        "script": "ピンについて　はなします。【セット19問60】"
+        "script": "ピンについて　はなします。【セット19<ruby>問<rt>と</rt></ruby>60】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "聞こえますか。（315）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -19575,7 +19575,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-19-095"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>授業<rt>じゅぎょう</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（232）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -19584,10 +19584,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-19-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット19問62】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット19<ruby>問<rt>と</rt></ruby>62】"
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>ほどうきょう</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>引き受ける<rt>ひきうける</rt></ruby>",
@@ -19597,7 +19597,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>しずむ</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["調べる",
@@ -19607,7 +19607,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>とどけで</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>届け出<rt>とどけで</rt></ruby>",
@@ -19617,7 +19617,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>くわしい</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>仲間<rt>なかま</rt></ruby>",
@@ -19627,7 +19627,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>しこう</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["見積書",
@@ -19637,7 +19637,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>じんせいかん</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>主張<rt>しゅちょう</rt></ruby>",
@@ -19647,8 +19647,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>再起動</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>再<rt>さい</rt></ruby><ruby>起<rt>お</rt></ruby><ruby>動<rt>うご</rt></ruby></u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["こう",
           "さいきどう",
@@ -19657,8 +19657,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>冷える</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>冷<rt>れい</rt></ruby>える</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["こう",
           "ひえる",
@@ -19667,8 +19667,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>列</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>列<rt>れつ</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["がん",
           "しょう",
@@ -19677,8 +19677,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>判断する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>判<rt>はん</rt></ruby><ruby>断<rt>だん</rt></ruby>する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["はんだんする",
           "む",
@@ -19687,8 +19687,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>規則</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>規<rt>き</rt></ruby><ruby>則<rt>そく</rt></ruby></u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["せい",
           "きそく",
@@ -19697,8 +19697,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>副作用</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>副<rt>ふく</rt></ruby>作用</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["ふくさよう",
           "ほう",
@@ -19707,8 +19707,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>割る</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>割<rt>わり</rt></ruby>る</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["い",
           "し",
@@ -19717,8 +19717,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>成功する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>成<rt>せい</rt></ruby><ruby>功<rt>こう</rt></ruby>する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["こ",
           "し",
@@ -19727,8 +19727,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>有効</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>有<rt>ゆう</rt></ruby><ruby>効<rt>こう</rt></ruby></u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["き",
           "ひ",
@@ -19737,7 +19737,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「得<ruby>意<rt>い</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["とても得<ruby>意<rt>い</rt></ruby>",
@@ -19747,7 +19747,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>苦手<rt>にがて</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["上手について話す",
@@ -19757,7 +19757,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「上手」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["とても<ruby>具体的<rt>ぐたいてき</rt></ruby>だ",
@@ -19767,7 +19767,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「下手」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["とても<ruby>具体的<rt>ぐたいてき</rt></ruby>だ",
@@ -19777,7 +19777,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>曖昧<rt>あいまい</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["とても<ruby>具体的<rt>ぐたいてき</rt></ruby>だ",
@@ -19787,7 +19787,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>具体的<rt>ぐたいてき</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["とても<ruby>具体的<rt>ぐたいてき</rt></ruby>だ",
@@ -19797,7 +19797,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>抽<rt>ちゅう</rt></ruby>象<ruby>的<rt>てき</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>椅子<rt>いす</rt></ruby>に<ruby>座る<rt>すわる</rt></ruby>",
@@ -19807,7 +19807,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「積<ruby>極<rt>きょく</rt></ruby><ruby>的<rt>てき</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["とても積<ruby>極<rt>きょく</rt></ruby><ruby>的<rt>てき</rt></ruby>だ",
@@ -19817,7 +19817,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>座る<rt>すわる</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["会話について話す",
@@ -19827,7 +19827,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>会議<rt>かいぎ</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>階段<rt>かいだん</rt></ruby>について話す",
@@ -19837,7 +19837,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>階段<rt>かいだん</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>階段<rt>かいだん</rt></ruby>について話す",
@@ -19847,7 +19847,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「会話」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>楽器<rt>がっき</rt></ruby>について話す",
@@ -19857,7 +19857,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>鏡<rt>かがみ</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>角<rt>かど</rt></ruby>について話す",
@@ -19867,7 +19867,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「学<ruby>期<rt>き</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>角<rt>かど</rt></ruby>について話す",
@@ -19877,7 +19877,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>楽器<rt>がっき</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>楽器<rt>がっき</rt></ruby>について話す",
@@ -19887,7 +19887,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>角<rt>かど</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>髪<rt>かみ</rt></ruby>について話す",
@@ -19897,7 +19897,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>壁<rt>かべ</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>彼<rt>かれ</rt></ruby>女について話す",
@@ -19907,7 +19907,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>髪<rt>かみ</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>紙<rt>かみ</rt></ruby>について話す",
@@ -19917,7 +19917,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>紙<rt>かみ</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>彼<rt>かれ</rt></ruby>女について話す",
@@ -19927,7 +19927,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>彼<rt>かれ</rt></ruby>女」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>彼<rt>かれ</rt></ruby>氏について話す",
@@ -19937,8 +19937,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "言い換え",
-        "text": "<ruby>確認<rt>かくにん</rt></ruby>について話すの意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>確認<rt>かくにん</rt></ruby>について話すの<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["必然",
           "<ruby>近い<rt>ちかい</rt></ruby>",
@@ -19947,8 +19947,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "言い換え",
-        "text": "「<ruby>成功<rt>せいこう</rt></ruby>」の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "「<ruby>成功<rt>せいこう</rt></ruby>」の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>仕切る<rt>しきる</rt></ruby>",
           "<ruby>公園<rt>こうえん</rt></ruby>",
@@ -19957,8 +19957,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "言い換え",
-        "text": "<ruby>意見<rt>いけん</rt></ruby>を述べるの意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>意見<rt>いけん</rt></ruby>を<ruby>述<rt>じゅつ</rt></ruby>べるの<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>募<rt>つの</rt></ruby><ruby>集<rt>しゅう</rt></ruby>",
           "<ruby>考え<rt>かんがえ</rt></ruby>",
@@ -19967,8 +19967,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "言い換え",
-        "text": "とても<ruby>賛成<rt>さんせい</rt></ruby>の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "とても<ruby>賛成<rt>さんせい</rt></ruby>の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>同意<rt>どうい</rt></ruby>する",
           "<ruby>普通<rt>ふつう</rt></ruby>",
@@ -19977,8 +19977,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "言い換え",
-        "text": "「<ruby>資料<rt>しりょう</rt></ruby>」の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "「<ruby>資料<rt>しりょう</rt></ruby>」の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["食べる",
           "努力",
@@ -19989,7 +19989,7 @@ window.MOCK_DATA['N4'] = {
     ],
     "20": [
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>注<rt>ちゅう</rt></ruby>射（　）<ruby>打<rt>だ</rt></ruby>ちます。",
         "question": "（　）に　はいるのは？",
         "options": ["から",
@@ -20000,7 +20000,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-034"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>骨<rt>ほね</rt></ruby>（　）<ruby>折<rt>おり</rt></ruby>れました。",
         "question": "（　）に　はいるのは？",
         "options": ["が",
@@ -20011,7 +20011,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-036"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>怪<rt>かい</rt></ruby><ruby>我<rt>われ</rt></ruby>（　）しました。",
         "question": "（　）に　はいるのは？",
         "options": ["が",
@@ -20022,7 +20022,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-035"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>病院<rt>びょういん</rt></ruby>（　）行ってきます。",
         "question": "（　）に　はいるのは？",
         "options": ["のに",
@@ -20033,7 +20033,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-038"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>手術<rt>しゅじゅつ</rt></ruby>（　）<ruby>受<rt>じゅ</rt></ruby>けました。",
         "question": "（　）に　はいるのは？",
         "options": ["から",
@@ -20044,7 +20044,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-037"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>体<rt>からだ</rt></ruby>調（　）<ruby>悪い<rt>わるい</rt></ruby>です。",
         "question": "（　）に　はいるのは？",
         "options": ["が",
@@ -20055,7 +20055,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-041"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>退院<rt>たいいん</rt></ruby>（　）しました。",
         "question": "（　）に　はいるのは？",
         "options": ["から",
@@ -20066,7 +20066,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-040"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "気分（　）<ruby>良<rt>りょう</rt></ruby>くなりました。",
         "question": "（　）に　はいるのは？",
         "options": ["を",
@@ -20077,7 +20077,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-042"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>入院<rt>にゅういん</rt></ruby>（　）しなければなりません。",
         "question": "（　）に　はいるのは？",
         "options": ["ても",
@@ -20088,7 +20088,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-039"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "健<ruby>康<rt>こう</rt></ruby>（　）気をつけています。",
         "question": "（　）に　はいるのは？",
         "options": ["から",
@@ -20099,7 +20099,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-043"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "処<ruby>方<rt>ほう</rt></ruby>箋（　）もらいました。",
         "question": "（　）に　はいるのは？",
         "options": ["から",
@@ -20110,7 +20110,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-045"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "<ruby>医者<rt>いしゃ</rt></ruby>（　）<ruby>診<rt>みる</rt></ruby>てもらいました。",
         "question": "（　）に　はいるのは？",
         "options": ["が",
@@ -20121,7 +20121,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-044"
       },
       {
-        "type": "文法形式",
+        "type": "文<ruby>法<rt>ほう</rt></ruby>形式",
         "text": "この　しょるいは　あした（　）に　だしてください。",
         "question": "（　）に　はいるのは？",
         "options": ["ため",
@@ -20187,7 +20187,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-051"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "努力の<ruby>甲<rt>こう</rt></ruby>斐（　）、<ruby>成功<rt>せいこう</rt></ruby>を<ruby>収<rt>しゅう</rt></ruby>めた。（196）",
         "question": "（　）に入るのは？",
         "options": ["あって",
@@ -20198,7 +20198,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-052"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>説明<rt>せつめい</rt></ruby>を（　）、<ruby>理解<rt>りかい</rt></ruby>が<ruby>深<rt>しん</rt></ruby>まった。（197）",
         "question": "（　）に入るのは？",
         "options": ["聞いたところ",
@@ -20209,7 +20209,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-053"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>問題<rt>もんだい</rt></ruby>が（　）、<ruby>対策<rt>たいさく</rt></ruby>を<ruby>講<rt>こう</rt></ruby>じた。（198）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>発生<rt>はっせい</rt></ruby>したとたん",
@@ -20220,7 +20220,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-054"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>彼<rt>かれ</rt></ruby>（　）、この<ruby>仕事<rt>しごと</rt></ruby>はできない。（199）",
         "question": "（　）に入るのは？",
         "options": ["をおいて",
@@ -20231,7 +20231,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-055"
       },
       {
-        "type": "文章の文法",
+        "type": "文章の文<ruby>法<rt>ほう</rt></ruby>",
         "text": "<ruby>私<rt>わたし</rt></ruby>（　）、そのような<ruby>発言<rt>はつげん</rt></ruby>はしない。（200）",
         "question": "（　）に入るのは？",
         "options": ["ならでは",
@@ -20242,7 +20242,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-056"
       },
       {
-        "type": "読解（短文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
         "text": "このレストランは　人気が　あります。よやくしないと　はいれないことが　あります。",
         "question": "このレストランについて　ただしいのは？",
         "options": ["いつも　すいている",
@@ -20253,7 +20253,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-057"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "討<ruby>論<rt>ろん</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（240）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -20262,10 +20262,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-20-081",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット20問25】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット20<ruby>問<rt>と</rt></ruby>25】"
       },
       {
-        "type": "読解（短文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
         "text": "このでんしゃは　つぎの　えきで　10ぷん　とまります。",
         "question": "でんしゃは　どのくらい　とまりますか。",
         "options": ["15ふん",
@@ -20276,7 +20276,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-059"
       },
       {
-        "type": "読解（短文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
         "text": "あしたは　あめの　よほうです。かさを　もっていったほうが　いいです。",
         "question": "あしたの　てんきは？",
         "options": ["ゆき",
@@ -20287,7 +20287,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-060"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "わたしは　らいげつから　あたらしい　かいしゃで　はたらきます。いまの　かいしゃは　3ねんかん　はたらきましたが、もっと　せいちょうしたいと　おもいました。",
         "question": "どうして　てんしょくしましたか。",
         "options": ["いえから　とおかった",
@@ -20298,7 +20298,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-061"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "このまちは　しずかで　みどりが　おおいです。こうつうは　ふべんですが、すみやすいです。",
         "question": "このまちの　いいところは？",
         "options": ["しずかで　みどりが　おおい",
@@ -20309,7 +20309,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-062"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "きょうの　かいぎは　3じかん　かかりました。ながかったですが、だいじな　けつろんが　でました。",
         "question": "かいぎは　どうでしたか。",
         "options": ["かんたんだった",
@@ -20320,7 +20320,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-063"
       },
       {
-        "type": "読解（中文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（中文）",
         "text": "わたしは　らいげつから　あたらしい　かいしゃで　はたらきます。いまの　かいしゃは　3ねんかん　はたらきましたが、もっと　せいちょうしたいと　おもいました。",
         "question": "どうして　てんしょくしましたか。",
         "options": ["いえから　とおかった",
@@ -20331,7 +20331,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-064"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【コンビニ】24時間<ruby>営業<rt>えいぎょう</rt></ruby>　ATMあり　コピー10円/<ruby>枚<rt>まい</rt></ruby>　宅配<ruby>便<rt>べん</rt></ruby><ruby>受<rt>じゅ</rt></ruby>付",
         "question": "コピーは？",
         "options": ["30円",
@@ -20342,7 +20342,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-065"
       },
       {
-        "type": "情報検索",
+        "type": "<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>",
         "text": "【ピザ<ruby>屋<rt>や</rt></ruby>】Mサイズ1500円、Lサイズ2200円。デリバリー<ruby>無<rt>む</rt></ruby>料（2000円<ruby>以上<rt>いじょう</rt></ruby>）。",
         "question": "Lサイズは　いくらですか。",
         "options": ["2000円",
@@ -20353,7 +20353,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-066"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>薬剤師<rt>やくざいし</rt></ruby>と<ruby>患者<rt>かんじゃ</rt></ruby>が<ruby>薬局<rt>やっきょく</rt></ruby>で<ruby>説明<rt>せつめい</rt></ruby>中です。このあと何をしますか。（253）",
         "question": "何をしますか。",
         "options": ["💊",
@@ -20362,10 +20362,10 @@ window.MOCK_DATA['N4'] = {
           "✉️"],
         "answer": 2,
         "id": "N4-20-067",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット20問34】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：けんきゅうから　はじめましょう。【セット20<ruby>問<rt>と</rt></ruby>34】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "美容<ruby>師<rt>し</rt></ruby>と<ruby>客<rt>きゃく</rt></ruby>がサロンで<ruby>相<rt>そう</rt></ruby>談中です。このあと何をしますか。（254）",
         "question": "何をしますか。",
         "options": ["📄",
@@ -20374,10 +20374,10 @@ window.MOCK_DATA['N4'] = {
           "📝"],
         "answer": 3,
         "id": "N4-20-068",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット20問35】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：メモを　おねがいします。\nおんな：はい。【セット20<ruby>問<rt>と</rt></ruby>35】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "整<ruby>備<rt>び</rt></ruby>士と車オーナーが<ruby>工場<rt>こうじょう</rt></ruby>で<ruby>確認<rt>かくにん</rt></ruby>中です。このあと何をしますか。（255）",
         "question": "何をしますか。",
         "options": ["📌",
@@ -20386,10 +20386,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-20-069",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：ピンを　して　ください。\nおとこ：わかりました。【セット20問36】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：ピンを　して　ください。\nおとこ：わかりました。【セット20<ruby>問<rt>と</rt></ruby>36】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>不動産<rt>ふどうさん</rt></ruby><ruby>屋<rt>や</rt></ruby>と<ruby>客<rt>きゃく</rt></ruby>が<ruby>物件<rt>ぶっけん</rt></ruby><ruby>案内<rt>あんない</rt></ruby>中です。このあと何をしますか。（256）",
         "question": "何をしますか。",
         "options": ["🗓️",
@@ -20398,10 +20398,10 @@ window.MOCK_DATA['N4'] = {
           "📧"],
         "answer": 0,
         "id": "N4-20-070",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット20問37】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：スケジュールから　はじめましょう。【セット20<ruby>問<rt>と</rt></ruby>37】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>旅行<rt>りょこう</rt></ruby><ruby>代理<rt>だいり</rt></ruby><ruby>店<rt>みせ</rt></ruby>と<ruby>客<rt>きゃく</rt></ruby>がカウンターで<ruby>相<rt>そう</rt></ruby>談中です。このあと何をしますか。（257）",
         "question": "何をしますか。",
         "options": ["🚪",
@@ -20410,10 +20410,10 @@ window.MOCK_DATA['N4'] = {
           "📢"],
         "answer": 1,
         "id": "N4-20-071",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット20問38】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：カードを　おねがいします。\nおんな：はい。【セット20<ruby>問<rt>と</rt></ruby>38】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>銀行<rt>ぎんこう</rt></ruby><ruby>員<rt>いん</rt></ruby>と<ruby>客<rt>きゃく</rt></ruby>が窓口で手続き中です。このあと何をしますか。（258）",
         "question": "何をしますか。",
         "options": ["💊",
@@ -20422,10 +20422,10 @@ window.MOCK_DATA['N4'] = {
           "🏥"],
         "answer": 2,
         "id": "N4-20-072",
-        "script": "おとこ：つぎは　なにを　しますか。\nおんな：けんきゅうを　して　ください。\nおとこ：わかりました。【セット20問39】"
+        "script": "おとこ：つぎは　なにを　しますか。\nおんな：けんきゅうを　して　ください。\nおとこ：わかりました。【セット20<ruby>問<rt>と</rt></ruby>39】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "ホテルスタッフと<ruby>宿泊<rt>しゅくはく</rt></ruby><ruby>客<rt>きゃく</rt></ruby>がフロントで<ruby>対応<rt>たいおう</rt></ruby>中です。このあと何をしますか。（259）",
         "question": "何をしますか。",
         "options": ["📝",
@@ -20434,10 +20434,10 @@ window.MOCK_DATA['N4'] = {
           "📝"],
         "answer": 0,
         "id": "N4-20-073",
-        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット20問40】"
+        "script": "おんな：まず　なにを　しますか。\nおとこ：メモから　はじめましょう。【セット20<ruby>問<rt>と</rt></ruby>40】"
       },
       {
-        "type": "聴解（課題理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>）",
         "text": "配達<ruby>員<rt>いん</rt></ruby>と<ruby>受<rt>じゅ</rt></ruby>取人が<ruby>玄関<rt>げんかん</rt></ruby>で<ruby>受<rt>じゅ</rt></ruby>け<ruby>渡<rt>と</rt></ruby>し中です。このあと何をしますか。（260）",
         "question": "何をしますか。",
         "options": ["📌",
@@ -20446,10 +20446,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-20-074",
-        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット20問41】"
+        "script": "おとこ：おねがいが　あります。\nおんな：なんですか。\nおとこ：ピンを　おねがいします。\nおんな：はい。【セット20<ruby>問<rt>と</rt></ruby>41】"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>慰<rt>なぐさ</rt></ruby>めたい<ruby>場<rt>ば</rt></ruby>面です。（152）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -20458,10 +20458,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-20-082",
-        "script": "🍽について　はなします。【セット20問42】"
+        "script": "🍽について　はなします。【セット20<ruby>問<rt>と</rt></ruby>42】"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "スピーチを聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（235）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -20470,10 +20470,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-20-076",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット20問43】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット20<ruby>問<rt>と</rt></ruby>43】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "この席、空いていますか。（316）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -20484,7 +20484,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-087"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>報告<rt>ほうこく</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（236）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -20493,10 +20493,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-20-077",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット20問45】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット20<ruby>問<rt>と</rt></ruby>45】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "何時からですか。（317）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -20507,7 +20507,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-088"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>解説<rt>かいせつ</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（239）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -20516,10 +20516,10 @@ window.MOCK_DATA['N4'] = {
           "📕"],
         "answer": 0,
         "id": "N4-20-080",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット20問47】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット20<ruby>問<rt>と</rt></ruby>47】"
       },
       {
-        "type": "読解（短文）",
+        "type": "読<ruby>解<rt>かい</rt></ruby>（<ruby>短<rt>みじか</rt></ruby>文）",
         "text": "やまださんは　かぜを　ひいて、きょうは　かいしゃを　やすみました。",
         "question": "やまださんは　どうして　やすみましたか。",
         "options": ["かぜを　ひいた",
@@ -20530,7 +20530,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-058"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>案内<rt>あんない</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（234）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -20539,10 +20539,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 0,
         "id": "N4-20-075",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット20問49】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット20<ruby>問<rt>と</rt></ruby>49】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "手<ruby>伝<rt>つた</rt></ruby>ってもらえますか。（319）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -20553,7 +20553,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-090"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>別れ<rt>わかれ</rt></ruby>の<ruby>挨<rt>あい</rt></ruby><ruby>拶<rt>さつ</rt></ruby>をしたい<ruby>場<rt>ば</rt></ruby>面です。（154）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -20562,10 +20562,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-20-084",
-        "script": "ピンについて　はなします。【セット20問51】"
+        "script": "ピンについて　はなします。【セット20<ruby>問<rt>と</rt></ruby>51】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "どこに出せばいいですか。（320）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -20576,7 +20576,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-091"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>久しぶり<rt>ひさしぶり</rt></ruby>の<ruby>挨<rt>あい</rt></ruby><ruby>拶<rt>さつ</rt></ruby>をしたい<ruby>場<rt>ば</rt></ruby>面です。（156）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📅",
@@ -20585,10 +20585,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-20-086",
-        "script": "ピンについて　はなします。【セット20問53】"
+        "script": "ピンについて　はなします。【セット20<ruby>問<rt>と</rt></ruby>53】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "お名前は。（321）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["はい、食べました",
@@ -20599,7 +20599,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-092"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>講義<rt>こうぎ</rt></ruby>を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（238）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -20608,10 +20608,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-20-079",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット20問55】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット20<ruby>問<rt>と</rt></ruby>55】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "どのくらいかかりますか。（322）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["10分くらいです",
@@ -20622,7 +20622,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-093"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>心<rt>こころ</rt></ruby>配を<ruby>伝<rt>つた</rt></ruby>えたい<ruby>場<rt>ば</rt></ruby>面です。（153）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -20631,10 +20631,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 3,
         "id": "N4-20-083",
-        "script": "ピンについて　はなします。【セット20問57】"
+        "script": "ピンについて　はなします。【セット20<ruby>問<rt>と</rt></ruby>57】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "<ruby>使<rt>つか</rt></ruby>ってもいいですか。（323）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -20645,7 +20645,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-094"
       },
       {
-        "type": "聴解（ポイント理解）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（ポイント理<ruby>解<rt>かい</rt></ruby>）",
         "text": "<ruby>対<rt>たい</rt></ruby>談を聞いています。話<ruby>者<rt>もの</rt></ruby>が<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは何ですか。（237）",
         "question": "<ruby>最も<rt>もっとも</rt></ruby><ruby>強<rt>つよ</rt></ruby>調しているのは？",
         "options": ["📌",
@@ -20654,10 +20654,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 1,
         "id": "N4-20-078",
-        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット20問59】"
+        "script": "きょうの　はなしは　ピンについてです。これは　とても　たいせつです。【セット20<ruby>問<rt>と</rt></ruby>59】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "もう一<ruby>杯<rt>さかずき</rt></ruby>いかがですか。（324）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
@@ -20668,7 +20668,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-095"
       },
       {
-        "type": "聴解（発話表現）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>発<rt>はつ</rt></ruby>話表<ruby>現<rt>あらわ</rt></ruby>）",
         "text": "<ruby>初<rt>しょ</rt></ruby><ruby>対<rt>たい</rt></ruby>面の<ruby>挨<rt>あい</rt></ruby><ruby>拶<rt>さつ</rt></ruby>をしたい<ruby>場<rt>ば</rt></ruby>面です。（155）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
@@ -20677,10 +20677,10 @@ window.MOCK_DATA['N4'] = {
           "📌"],
         "answer": 2,
         "id": "N4-20-085",
-        "script": "ピンについて　はなします。【セット20問61】"
+        "script": "ピンについて　はなします。【セット20<ruby>問<rt>と</rt></ruby>61】"
       },
       {
-        "type": "聴解（即時応答）",
+        "type": "<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>（<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>）",
         "text": "コンビニはありますか。（318）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["あの<ruby>角<rt>かど</rt></ruby>にあります",
@@ -20691,7 +20691,7 @@ window.MOCK_DATA['N4'] = {
         "id": "N4-20-089"
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>うたがう</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["表<ruby>現す<rt>あらわす</rt></ruby>る",
@@ -20701,7 +20701,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>すいどう</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>振<rt>しん</rt></ruby><ruby>込<rt>こ</rt></ruby>",
@@ -20711,7 +20711,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>のうひんしょ</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["納<ruby>品<rt>しな</rt></ruby>書",
@@ -20721,7 +20721,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>へんじ</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>売れる<rt>うれる</rt></ruby>",
@@ -20731,7 +20731,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>ながす</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>自動<rt>じどう</rt></ruby>販<ruby>売<rt>う</rt></ruby><ruby>機<rt>き</rt></ruby>",
@@ -20741,7 +20741,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "表記",
+        "type": "表<ruby>記<rt>しる</rt></ruby>",
         "text": "<u>おくりもの</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["<ruby>引き受ける<rt>ひきうける</rt></ruby>",
@@ -20751,8 +20751,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "漢字読み",
-        "text": "<u>勝つ</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>勝<rt>しょう</rt></ruby>つ</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["こん",
           "がん",
@@ -20761,8 +20761,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>事務所</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>事<rt>こと</rt></ruby><ruby>務<rt>む</rt></ruby><ruby>所<rt>ところ</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["じむしょ",
           "こく",
@@ -20771,8 +20771,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "漢字読み",
-        "text": "<u>勢</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>勢<rt>せい</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["こ",
           "せい",
@@ -20781,8 +20781,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>包む</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>包<rt>ほう</rt></ruby>む</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["えい",
           "いん",
@@ -20791,8 +20791,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>歴史</u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u>歴<ruby>史<rt>し</rt></ruby></u>について話すの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["しゅう",
           "い",
@@ -20801,8 +20801,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>司</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>司<rt>し</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["いん",
           "こ",
@@ -20811,8 +20811,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "とても<u>否定</u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "とても<u><ruby>否<rt>ひ</rt></ruby><ruby>定<rt>てい</rt></ruby></u>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["おう",
           "き",
@@ -20821,8 +20821,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "漢字読み",
-        "text": "<u>含む</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>含<rt>がん</rt></ruby>む</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["ほう",
           "ふくむ",
@@ -20831,8 +20831,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "漢字読み",
-        "text": "<u>報告する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "type": "<ruby>漢<rt>かん</rt></ruby>字読み",
+        "text": "<u><ruby>報<rt>ほう</rt></ruby><ruby>告<rt>こく</rt></ruby>する</u>ことができるの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["ほうこくする",
           "きょう",
@@ -20841,7 +20841,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>彼<rt>かれ</rt></ruby>氏」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>彼<rt>かれ</rt></ruby>氏について話す",
@@ -20851,7 +20851,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>関係<rt>かんけい</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["とても<ruby>機会<rt>きかい</rt></ruby>",
@@ -20861,7 +20861,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>完成<rt>かんせい</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["とても<ruby>機<rt>き</rt></ruby><ruby>械<rt>かい</rt></ruby>",
@@ -20871,7 +20871,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>機会<rt>きかい</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>記事<rt>きじ</rt></ruby>について話す",
@@ -20881,7 +20881,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>機<rt>き</rt></ruby><ruby>械<rt>かい</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["気分について話す",
@@ -20891,7 +20891,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>記事<rt>きじ</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["とても<ruby>期<rt>き</rt></ruby><ruby>待<rt>まつ</rt></ruby>",
@@ -20901,7 +20901,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>期<rt>き</rt></ruby><ruby>待<rt>まつ</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["日本<ruby>文化<rt>ぶんか</rt></ruby>に<ruby>興味<rt>きょうみ</rt></ruby>がある",
@@ -20911,7 +20911,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「気分」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>距離<rt>きょり</rt></ruby>について話す",
@@ -20921,7 +20921,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>気持ち<rt>きもち</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["日本<ruby>文化<rt>ぶんか</rt></ruby>に<ruby>興味<rt>きょうみ</rt></ruby>がある",
@@ -20931,7 +20931,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>興味<rt>きょうみ</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>貴重な<rt>きちょうな</rt></ruby><ruby>経験<rt>けいけん</rt></ruby>を積む",
@@ -20941,7 +20941,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>距離<rt>きょり</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>禁止<rt>きんし</rt></ruby>について話す",
@@ -20951,7 +20951,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>禁止<rt>きんし</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>禁止<rt>きんし</rt></ruby>について話す",
@@ -20961,7 +20961,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>経験<rt>けいけん</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>事故<rt>じこ</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>を調べる",
@@ -20971,7 +20971,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>結果<rt>けっか</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["とても<ruby>現在<rt>げんざい</rt></ruby>",
@@ -20981,7 +20981,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>結婚<rt>けっこん</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["とても<ruby>現在<rt>げんざい</rt></ruby>",
@@ -20991,7 +20991,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>原因<rt>げんいん</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>公園<rt>こうえん</rt></ruby>について話す",
@@ -21001,7 +21001,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>現在<rt>げんざい</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>講義<rt>こうぎ</rt></ruby>について話す",
@@ -21011,7 +21011,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>公園<rt>こうえん</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>講義<rt>こうぎ</rt></ruby>について話す",
@@ -21021,7 +21021,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>講義<rt>こうぎ</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["とても<ruby>国際<rt>こくさい</rt></ruby>",
@@ -21031,7 +21031,7 @@ window.MOCK_DATA['N4'] = {
         "answer": 1
       },
       {
-        "type": "用法",
+        "type": "用<ruby>法<rt>ほう</rt></ruby>",
         "text": "「<ruby>国際<rt>こくさい</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>答え<rt>こたえ</rt></ruby>について話す",
@@ -21041,8 +21041,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 2
       },
       {
-        "type": "言い換え",
-        "text": "「<ruby>努力<rt>どりょく</rt></ruby>」の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "「<ruby>努力<rt>どりょく</rt></ruby>」の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>頑<rt>がん</rt></ruby><ruby>張<rt>ちょう</rt></ruby>り",
           "<ruby>求める<rt>もとめる</rt></ruby>",
@@ -21051,8 +21051,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 0
       },
       {
-        "type": "言い換え",
-        "text": "<ruby>発言<rt>はつげん</rt></ruby>について話すの意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>発言<rt>はつげん</rt></ruby>について話すの<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>接<rt>せつ</rt></ruby>続",
           "<ruby>注文<rt>ちゅうもん</rt></ruby>",
@@ -21061,8 +21061,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "言い換え",
-        "text": "「<ruby>回答<rt>かいとう</rt></ruby>」の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "「<ruby>回答<rt>かいとう</rt></ruby>」の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>理解<rt>りかい</rt></ruby>",
           "<ruby>変える<rt>かえる</rt></ruby>",
@@ -21071,8 +21071,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "言い換え",
-        "text": "「<ruby>購入<rt>こうにゅう</rt></ruby>」の意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "「<ruby>購入<rt>こうにゅう</rt></ruby>」の<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>書類<rt>しょるい</rt></ruby>",
           "<ruby>味わう<rt>あじわう</rt></ruby>",
@@ -21081,8 +21081,8 @@ window.MOCK_DATA['N4'] = {
         "answer": 3
       },
       {
-        "type": "言い換え",
-        "text": "<ruby>注文<rt>ちゅうもん</rt></ruby>について話すの意味は？",
+        "type": "<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え",
+        "text": "<ruby>注文<rt>ちゅうもん</rt></ruby>について話すの<ruby>意<rt>い</rt></ruby><ruby>味<rt>あじ</rt></ruby>は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["消防",
           "<ruby>方向<rt>ほうこう</rt></ruby>",
@@ -21096,9 +21096,9 @@ window.MOCK_DATA['N4'] = {
 
 window.MOCK_DATA['N4'].getSectionQuestions = function(setNum, section) {
   const typePatterns = {
-    '言語知識（文字・語彙）': ['漢字読み', '表記', '文脈規定', '言い換え', '用法', '語形成', 'もじ', 'ごい'],
-    '言語知識（文法）・読解': ['文法形式', '文の組み立て', '文章の文法', '読解', '内容理解', '主張理解', '情報検索', '統合理解', 'ぶんぽう'],
-    '聴解': ['聴解', '課題理解', 'ポイント理解', '概要理解', '即時応答', '統合理解', 'ちょうかい']
+    '<ruby>言<rt>い</rt></ruby><ruby>語<rt>かた</rt></ruby>知<ruby>識<rt>しき</rt></ruby>（文字・<ruby>語<rt>かた</rt></ruby><ruby>彙<rt>い</rt></ruby>）': ['<ruby>漢<rt>かん</rt></ruby>字読み', '表<ruby>記<rt>しる</rt></ruby>', '文<ruby>脈<rt>みゃく</rt></ruby><ruby>規<rt>き</rt></ruby><ruby>定<rt>てい</rt></ruby>', '<ruby>言<rt>い</rt></ruby>い<ruby>換<rt>か</rt></ruby>え', '用<ruby>法<rt>ほう</rt></ruby>', '<ruby>語<rt>かた</rt></ruby>形<ruby>成<rt>せい</rt></ruby>', 'もじ', 'ごい'],
+    '<ruby>言<rt>い</rt></ruby><ruby>語<rt>かた</rt></ruby>知<ruby>識<rt>しき</rt></ruby>（文<ruby>法<rt>ほう</rt></ruby>）・読<ruby>解<rt>かい</rt></ruby>': ['文<ruby>法<rt>ほう</rt></ruby>形式', '文の組み立て', '文章の文<ruby>法<rt>ほう</rt></ruby>', '読<ruby>解<rt>かい</rt></ruby>', '<ruby>内<rt>うち</rt></ruby>容理<ruby>解<rt>かい</rt></ruby>', '<ruby>主<rt>ぬし</rt></ruby><ruby>張<rt>ちょう</rt></ruby>理<ruby>解<rt>かい</rt></ruby>', '<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby><ruby>検<rt>けん</rt></ruby><ruby>索<rt>さく</rt></ruby>', '<ruby>統<rt>とう</rt></ruby><ruby>合<rt>あ</rt></ruby>理<ruby>解<rt>かい</rt></ruby>', 'ぶんぽう'],
+    '<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>': ['<ruby>聴<rt>き</rt></ruby><ruby>解<rt>かい</rt></ruby>', '<ruby>課<rt>か</rt></ruby><ruby>題<rt>だい</rt></ruby>理<ruby>解<rt>かい</rt></ruby>', 'ポイント理<ruby>解<rt>かい</rt></ruby>', '<ruby>概<rt>おおむ</rt></ruby>要理<ruby>解<rt>かい</rt></ruby>', '<ruby>即<rt>そく</rt></ruby>時<ruby>応<rt>おう</rt></ruby><ruby>答<rt>とう</rt></ruby>', '<ruby>統<rt>とう</rt></ruby><ruby>合<rt>あ</rt></ruby>理<ruby>解<rt>かい</rt></ruby>', 'ちょうかい']
   };
   
   const patterns = typePatterns[section] || [];

@@ -3386,7 +3386,7 @@ const N1_KANJI = [
       "vi": "sweet",
       "id": "sweet"
     },
-    "r": "（読み未設定）"
+    "r": "てん"
   },
   {
     "id": "K0261",
@@ -3401,7 +3401,7 @@ const N1_KANJI = [
       "vi": "field",
       "id": "field"
     },
-    "r": "（読み未設定）"
+    "r": "はたけ、はた"
   },
   {
     "id": "K0262",
@@ -3431,7 +3431,7 @@ const N1_KANJI = [
       "vi": "ridge",
       "id": "ridge"
     },
-    "r": "（読み未設定）"
+    "r": "あぜ、けい"
   },
   {
     "id": "K0264",
@@ -3446,7 +3446,7 @@ const N1_KANJI = [
       "vi": "alienate",
       "id": "alienate"
     },
-    "r": "（読み未設定）"
+    "r": "うと（い）、そ"
   },
   {
     "id": "K0265",
@@ -3461,7 +3461,7 @@ const N1_KANJI = [
       "vi": "sparse",
       "id": "sparse"
     },
-    "r": "（読み未設定）"
+    "r": "そ"
   },
   {
     "id": "K0266",
@@ -3476,7 +3476,7 @@ const N1_KANJI = [
       "vi": "jaundice",
       "id": "jaundice"
     },
-    "r": "（読み未設定）"
+    "r": "たん"
   },
   {
     "id": "K0267",
@@ -3551,7 +3551,7 @@ const N1_KANJI = [
       "vi": "phlegm",
       "id": "phlegm"
     },
-    "r": "（読み未設定）"
+    "r": "たん"
   },
   {
     "id": "K0272",
@@ -3626,7 +3626,7 @@ const N1_KANJI = [
       "vi": "swamp",
       "id": "swamp"
     },
-    "r": "（読み未設定）"
+    "r": "さつき、こう"
   },
   {
     "id": "K0277",
@@ -3641,7 +3641,7 @@ const N1_KANJI = [
       "vi": "white",
       "id": "white"
     },
-    "r": "（読み未設定）"
+    "r": "こう"
   },
   {
     "id": "K0278",
@@ -3656,7 +3656,7 @@ const N1_KANJI = [
       "vi": "skin",
       "id": "skin"
     },
-    "r": "（読み未設定）"
+    "r": "かわ、ひ"
   },
   {
     "id": "K0279",
@@ -3686,7 +3686,7 @@ const N1_KANJI = [
       "vi": "alliance",
       "id": "alliance"
     },
-    "r": "（読み未設定）"
+    "r": "めい"
   },
   {
     "id": "K0281",
@@ -3716,7 +3716,7 @@ const N1_KANJI = [
       "vi": "straight",
       "id": "straight"
     },
-    "r": "（読み未設定）"
+    "r": "なお（す）、ちょく"
   },
   {
     "id": "K0283",
@@ -3731,7 +3731,7 @@ const N1_KANJI = [
       "vi": "true",
       "id": "true"
     },
-    "r": "（読み未設定）"
+    "r": "ま、しん"
   },
   {
     "id": "K0284",
@@ -3746,7 +3746,7 @@ const N1_KANJI = [
       "vi": "dazzling",
       "id": "dazzling"
     },
-    "r": "（読み未設定）"
+    "r": "まぶ（しい）、げん"
   },
   {
     "id": "K0285",
@@ -3761,7 +3761,7 @@ const N1_KANJI = [
       "vi": "friendly",
       "id": "friendly"
     },
-    "r": "（読み未設定）"
+    "r": "むつ（まじい）、ぼく"
   },
   {
     "id": "K0286",
@@ -3776,7 +3776,7 @@ const N1_KANJI = [
       "vi": "glare",
       "id": "glare"
     },
-    "r": "（読み未設定）"
+    "r": "にら（む）、げい"
   },
   {
     "id": "K0287",
@@ -3791,7 +3791,7 @@ const N1_KANJI = [
       "vi": "close eyes",
       "id": "close eyes"
     },
-    "r": "（読み未設定）"
+    "r": "めい"
   },
   {
     "id": "K0288",
@@ -3806,7 +3806,7 @@ const N1_KANJI = [
       "vi": "glance",
       "id": "glance"
     },
-    "r": "（読み未設定）"
+    "r": "べつ"
   },
   {
     "id": "K0289",
@@ -3821,7 +3821,7 @@ const N1_KANJI = [
       "vi": "pupil",
       "id": "pupil"
     },
-    "r": "（読み未設定）"
+    "r": "ひとみ、どう"
   },
   {
     "id": "K0290",
@@ -3836,7 +3836,7 @@ const N1_KANJI = [
       "vi": "rectangle",
       "id": "rectangle"
     },
-    "r": "（読み未設定）"
+    "r": "く"
   },
   {
     "id": "K0291",
@@ -3851,7 +3851,7 @@ const N1_KANJI = [
       "vi": "break",
       "id": "break"
     },
-    "r": "（読み未設定）"
+    "r": "やぶ（る）、は"
   },
   {
     "id": "K0292",
@@ -3866,7 +3866,7 @@ const N1_KANJI = [
       "vi": "whetstone",
       "id": "whetstone"
     },
-    "r": "（読み未設定）"
+    "r": "れい"
   },
   {
     "id": "K0293",
@@ -3881,7 +3881,7 @@ const N1_KANJI = [
       "vi": "anchor",
       "id": "anchor"
     },
-    "r": "（読み未設定）"
+    "r": "いかり、てい"
   },
   {
     "id": "K0294",
@@ -3896,7 +3896,7 @@ const N1_KANJI = [
       "vi": "bowl",
       "id": "bowl"
     },
-    "r": "（読み未設定）"
+    "r": "わん"
   },
   {
     "id": "K0295",
@@ -3911,7 +3911,7 @@ const N1_KANJI = [
       "vi": "rock",
       "id": "rock"
     },
-    "r": "（読み未設定）"
+    "r": "いわ、ばん"
   },
   {
     "id": "K0296",
@@ -3926,7 +3926,7 @@ const N1_KANJI = [
       "vi": "ceremony",
       "id": "ceremony"
     },
-    "r": "（読み未設定）"
+    "r": "れい"
   },
   {
     "id": "K0297",
@@ -3941,7 +3941,7 @@ const N1_KANJI = [
       "vi": "enshrine",
       "id": "enshrine"
     },
-    "r": "（読み未設定）"
+    "r": "まつ（る）、し"
   },
   {
     "id": "K0298",

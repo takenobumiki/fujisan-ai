@@ -8432,7 +8432,7 @@ const N2_KANJI = [
       "vi": "praise",
       "id": "praise"
     },
-    "r": "（読み未設定）"
+    "r": "さん"
   },
   {
     "id": "K0649",
@@ -8447,7 +8447,7 @@ const N2_KANJI = [
       "vi": "precious",
       "id": "precious"
     },
-    "r": "（読み未設定）"
+    "r": "たっと（い）、き"
   },
   {
     "id": "K0650",
@@ -8462,7 +8462,7 @@ const N2_KANJI = [
       "vi": "bribe",
       "id": "bribe"
     },
-    "r": "（読み未設定）"
+    "r": "まかな（う）、わい"
   },
   {
     "id": "K0651",
@@ -8477,7 +8477,7 @@ const N2_KANJI = [
       "vi": "bribe",
       "id": "bribe"
     },
-    "r": "（読み未設定）"
+    "r": "ろ"
   },
   {
     "id": "K0652",
