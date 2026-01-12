@@ -161,6 +161,7 @@ const N4_GRAMMAR = [
   {
     "id": "G0014",
     "p": "〜前に",
+    "r": "〜まえに",
     "m": {
       "en": "before doing",
       "zh-TW": "...之前",
@@ -173,6 +174,7 @@ const N4_GRAMMAR = [
   {
     "id": "G0015",
     "p": "〜後で",
+    "r": "〜あとで",
     "m": {
       "en": "after doing",
       "zh-TW": "...之後",
@@ -185,6 +187,7 @@ const N4_GRAMMAR = [
   {
     "id": "G0016",
     "p": "〜時",
+    "r": "〜とき",
     "m": {
       "en": "when",
       "zh-TW": "...的時候",
@@ -197,6 +200,7 @@ const N4_GRAMMAR = [
   {
     "id": "G0017",
     "p": "〜間",
+    "r": "〜あいだ",
     "m": {
       "en": "during",
       "zh-TW": "...期間",
@@ -857,6 +861,7 @@ const N4_GRAMMAR = [
   {
     "id": "G0072",
     "p": "〜始める",
+    "r": "〜はじめる",
     "m": {
       "en": "start to",
       "zh-TW": "開始",
@@ -869,6 +874,7 @@ const N4_GRAMMAR = [
   {
     "id": "G0073",
     "p": "〜終わる",
+    "r": "〜おわる",
     "m": {
       "en": "finish",
       "zh-TW": "結束",
@@ -881,6 +887,7 @@ const N4_GRAMMAR = [
   {
     "id": "G0074",
     "p": "〜続ける",
+    "r": "〜つづける",
     "m": {
       "en": "continue",
       "zh-TW": "繼續",
@@ -893,6 +900,7 @@ const N4_GRAMMAR = [
   {
     "id": "G0075",
     "p": "〜出す",
+    "r": "〜だす",
     "m": {
       "en": "start to",
       "zh-TW": "開始",
@@ -905,6 +913,7 @@ const N4_GRAMMAR = [
   {
     "id": "G0076",
     "p": "〜合う",
+    "r": "〜あう",
     "m": {
       "en": "each other",
       "zh-TW": "互相",
@@ -917,6 +926,7 @@ const N4_GRAMMAR = [
   {
     "id": "G0077",
     "p": "〜直す",
+    "r": "〜なおす",
     "m": {
       "en": "redo",
       "zh-TW": "重新",
@@ -929,6 +939,7 @@ const N4_GRAMMAR = [
   {
     "id": "G0078",
     "p": "〜込む",
+    "r": "〜こむ",
     "m": {
       "en": "into",
       "zh-TW": "進入",
@@ -941,6 +952,7 @@ const N4_GRAMMAR = [
   {
     "id": "G0079",
     "p": "〜方",
+    "r": "〜かた",
     "m": {
       "en": "way of",
       "zh-TW": "方法",
@@ -1325,6 +1337,7 @@ const N4_GRAMMAR = [
   {
     "id": "G0111",
     "p": "〜に対して",
+    "r": "〜にたいして",
     "m": {
       "en": "towards",
       "zh-TW": "對於",
@@ -1361,6 +1374,7 @@ const N4_GRAMMAR = [
   {
     "id": "G0114",
     "p": "〜に関して",
+    "r": "〜にかんして",
     "m": {
       "en": "regarding",
       "zh-TW": "關於",
@@ -1433,6 +1447,7 @@ const N4_GRAMMAR = [
   {
     "id": "G0120",
     "p": "〜を中心に",
+    "r": "〜をちゅうしんに",
     "m": {
       "en": "centered on",
       "zh-TW": "以為中心",

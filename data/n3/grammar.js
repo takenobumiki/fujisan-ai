@@ -29,6 +29,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0003",
     "p": "〜気味",
+    "r": "〜ぎみ",
     "m": {
       "en": "somewhat",
       "zh-TW": "有點",
@@ -41,6 +42,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0004",
     "p": "〜向き",
+    "r": "〜むき",
     "m": {
       "en": "suitable for",
       "zh-TW": "適合",
@@ -53,6 +55,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0005",
     "p": "〜向け",
+    "r": "〜むけ",
     "m": {
       "en": "intended for",
       "zh-TW": "針對",
@@ -65,6 +68,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0006",
     "p": "〜次第",
+    "r": "〜しだい",
     "m": {
       "en": "depending on",
       "zh-TW": "取決於",
@@ -77,6 +81,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0007",
     "p": "〜最中",
+    "r": "〜さいちゅう",
     "m": {
       "en": "in the middle of",
       "zh-TW": "正在",
@@ -89,6 +94,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0008",
     "p": "〜途中",
+    "r": "〜とちゅう",
     "m": {
       "en": "on the way",
       "zh-TW": "途中",
@@ -101,6 +107,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0009",
     "p": "〜際",
+    "r": "〜さい",
     "m": {
       "en": "when",
       "zh-TW": "時候",
@@ -113,6 +120,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0010",
     "p": "〜上",
+    "r": "〜じょう",
     "m": {
       "en": "from the standpoint",
       "zh-TW": "上",
@@ -197,6 +205,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0017",
     "p": "〜割に",
+    "r": "〜わりに",
     "m": {
       "en": "considering",
       "zh-TW": "相對",
@@ -209,6 +218,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0018",
     "p": "〜に関して",
+    "r": "〜にかんして",
     "m": {
       "en": "regarding",
       "zh-TW": "關於",
@@ -221,6 +231,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0019",
     "p": "〜に対して",
+    "r": "〜にたいして",
     "m": {
       "en": "towards",
       "zh-TW": "對於",
@@ -329,6 +340,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0028",
     "p": "〜を中心に",
+    "r": "〜をちゅうしんに",
     "m": {
       "en": "centered on",
       "zh-TW": "以為中心",
@@ -1085,6 +1097,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0091",
     "p": "〜限り",
+    "r": "〜かぎり",
     "m": {
       "en": "as long as",
       "zh-TW": "只要",
@@ -1097,6 +1110,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0092",
     "p": "〜限りでは",
+    "r": "〜かぎりでは",
     "m": {
       "en": "as far as",
       "zh-TW": "就所知",
@@ -1169,6 +1183,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0098",
     "p": "〜一方だ",
+    "r": "〜いっぽうだ",
     "m": {
       "en": "keep doing",
       "zh-TW": "一直",
@@ -1181,6 +1196,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0099",
     "p": "〜一方で",
+    "r": "〜いっぽうで",
     "m": {
       "en": "while",
       "zh-TW": "一方面",
@@ -1193,6 +1209,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0100",
     "p": "〜反面",
+    "r": "〜はんめん",
     "m": {
       "en": "on the other hand",
       "zh-TW": "另一方面",
@@ -1325,6 +1342,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0111",
     "p": "〜に伴って",
+    "r": "〜にともなって",
     "m": {
       "en": "along with",
       "zh-TW": "伴隨著",
@@ -1493,6 +1511,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0125",
     "p": "〜際に",
+    "r": "〜さいに",
     "m": {
       "en": "when/at the time",
       "zh-TW": "在...時",
@@ -1505,6 +1524,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0126",
     "p": "〜次第で",
+    "r": "〜しだいで",
     "m": {
       "en": "depending on",
       "zh-TW": "取決於",
@@ -1517,6 +1537,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0127",
     "p": "〜最中に",
+    "r": "〜さいちゅうに",
     "m": {
       "en": "in the middle of",
       "zh-TW": "正在...的時候",
@@ -1529,6 +1550,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0128",
     "p": "〜途中で",
+    "r": "〜とちゅうで",
     "m": {
       "en": "on the way",
       "zh-TW": "在途中",
@@ -1565,6 +1587,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0131",
     "p": "〜た結果",
+    "r": "〜たけっか",
     "m": {
       "en": "as a result",
       "zh-TW": "結果",
@@ -1841,6 +1864,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0154",
     "p": "〜抜く",
+    "r": "〜ぬく",
     "m": {
       "en": "through to the end",
       "zh-TW": "堅持到底",
@@ -2465,6 +2489,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0206",
     "p": "〜に際して",
+    "r": "〜にさいして",
     "m": {
       "en": "on the occasion",
       "zh-TW": "在...之際",
@@ -2501,6 +2526,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0209",
     "p": "〜を皮切りに",
+    "r": "〜をかわきりに",
     "m": {
       "en": "beginning with",
       "zh-TW": "從...開始",
@@ -2957,6 +2983,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0247",
     "p": "〜の至り",
+    "r": "〜のいたり",
     "m": {
       "en": "the height of",
       "zh-TW": "極致",
@@ -3413,6 +3440,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0285",
     "p": "〜限りだ",
+    "r": "〜かぎりだ",
     "m": {
       "en": "extremely",
       "zh-TW": "非常",
@@ -3629,6 +3657,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0303",
     "p": "〜限りは",
+    "r": "〜かぎりは",
     "m": {
       "en": "as long as",
       "zh-TW": "只要",
@@ -4193,6 +4222,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0350",
     "p": "〜通す",
+    "r": "〜とおす",
     "m": {
       "en": "do throughout",
       "zh-TW": "貫徹",
@@ -5141,6 +5171,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0429",
     "p": "に対して",
+    "r": "にたいして",
     "m": {
       "en": "toward; in contrast to",
       "zh-TW": "[toward; in contrast to]",
@@ -5189,6 +5220,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0433",
     "p": "に関して",
+    "r": "にかんして",
     "m": {
       "en": "regarding; concerning",
       "zh-TW": "[regarding; concerning]",
@@ -5381,6 +5413,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0449",
     "p": "一方で",
+    "r": "いっぽうで",
     "m": {
       "en": "on the other hand; while",
       "zh-TW": "[on the other hand; while]",
@@ -5393,6 +5426,7 @@ const N3_GRAMMAR = [
   {
     "id": "G0450",
     "p": "反面",
+    "r": "はんめん",
     "m": {
       "en": "on the other hand; while",
       "zh-TW": "[on the other hand; while]",

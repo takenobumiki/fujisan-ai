@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.17.32';
+const APP_VERSION = '18.17.33';
 const STORAGE_KEY = 'fujisan_v1817';
 
 // ========== UI TRANSLATIONS ==========
@@ -4145,7 +4145,9 @@ function showLearningQuestion() {
     wordEl.textContent = '🔊';
     readingEl.textContent = getText('quiz_tap_play') || 'Tap play to listen';
     audioBtn.style.display = 'block';
-    currentWord = item.w || item.k || item.p;
+    // For TTS, use reading (r) if available to ensure correct pronunciation
+    currentWord = item.r || item.w || item.k || item.p;
+    session.currentItem = item; // Store for playAudio
     setTimeout(() => playAudio(), 300);
     
     correct = item.k || item.w || item.p;
@@ -4161,6 +4163,7 @@ function showLearningQuestion() {
     readingEl.textContent = '';
     audioBtn.style.display = 'block';
     currentWord = item.r || item.p || item.w;
+    session.currentItem = item; // Store for playAudio
     
     correct = item.r || item.p || item.w;
     options = [correct];
@@ -4178,13 +4181,14 @@ function showLearningQuestion() {
     } else if (item.p) {
       wordEl.textContent = item.p;
       readingEl.textContent = '';
-      currentWord = item.p;
+      currentWord = item.r || item.p; // Use reading for TTS if available
     } else {
       wordEl.textContent = item.w;
       readingEl.textContent = item.r || '';
       currentWord = item.r || item.w;
     }
     audioBtn.style.display = 'block';
+    session.currentItem = item; // Store for playAudio
     
     correct = item.m[state.lang] || item.m.en;
     options = [correct];
@@ -4211,6 +4215,7 @@ function showLearningQuestion() {
     const isJapanese = /[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FAF]/.test(displayWord);
     audioBtn.style.display = isJapanese ? 'block' : 'none';
     currentWord = displayWord;
+    session.currentItem = item; // Store for playAudio
     
     correct = item.k || item.w || item.p;
     options = [correct];

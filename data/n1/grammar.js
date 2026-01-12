@@ -103,6 +103,7 @@ const N1_GRAMMAR = [
   {
     "id": "G0008",
     "p": "〜を限りに",
+    "r": "〜をかぎりに",
     "m": {
       "en": "as of",
       "zh-TW": "到...為止",
@@ -117,6 +118,7 @@ const N1_GRAMMAR = [
   {
     "id": "G0009",
     "p": "〜を皮切りに",
+    "r": "〜をかわきりに",
     "m": {
       "en": "starting with",
       "zh-TW": "以...為開端",
@@ -537,6 +539,7 @@ const N1_GRAMMAR = [
   {
     "id": "G0039",
     "p": "〜の至りだ",
+    "r": "〜のいたりだ",
     "m": {
       "en": "height of",
       "zh-TW": "極度",
@@ -551,6 +554,7 @@ const N1_GRAMMAR = [
   {
     "id": "G0040",
     "p": "〜の極みだ",
+    "r": "〜のきわみだ",
     "m": {
       "en": "height of",
       "zh-TW": "極度",
@@ -1195,6 +1199,7 @@ const N1_GRAMMAR = [
   {
     "id": "G0086",
     "p": "〜限りだ",
+    "r": "〜かぎりだ",
     "m": {
       "en": "extremely",
       "zh-TW": "非常",
@@ -1209,6 +1214,7 @@ const N1_GRAMMAR = [
   {
     "id": "G0087",
     "p": "〜の至り",
+    "r": "〜のいたり",
     "m": {
       "en": "height of",
       "zh-TW": "極度",
@@ -2651,6 +2657,7 @@ const N1_GRAMMAR = [
   {
     "id": "G0190",
     "p": "〜向きがある",
+    "r": "〜むきがある",
     "m": {
       "en": "there is tendency",
       "zh-TW": "有...傾向",
