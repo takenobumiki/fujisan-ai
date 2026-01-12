@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.17.36';
+const APP_VERSION = '18.17.37';
 const STORAGE_KEY = 'fujisan_v1817';
 
 // ========== UI TRANSLATIONS ==========
@@ -4126,6 +4126,11 @@ function showLearningQuestion() {
   // Use session.allItems if available (for unit quiz), otherwise getPool()
   const pool = session.allItems || getPool();
   
+  // Filter pool to same item type (vocab/kanji/grammar) for distractors
+  const getItemType = (i) => i.k ? 'kanji' : i.p ? 'grammar' : 'vocab';
+  const itemType = getItemType(item);
+  const sameTypePool = pool.filter(i => getItemType(i) === itemType);
+  
   if (!pool || pool.length === 0) {
     console.error('No pool data available');
     alert('Error: No data available for quiz.');
@@ -4156,7 +4161,7 @@ function showLearningQuestion() {
     
     correct = item.k || item.w || item.p;
     options = [correct];
-    pool.filter(i => i.id !== item.id && (i.k || i.w || i.p))
+    sameTypePool.filter(i => i.id !== item.id && (i.k || i.w || i.p))
       .sort(() => Math.random() - 0.5)
       .slice(0, 3)
       .forEach(i => options.push(i.k || i.w || i.p));
@@ -4171,7 +4176,7 @@ function showLearningQuestion() {
     
     correct = item.r || item.p || item.w;
     options = [correct];
-    pool.filter(i => i.id !== item.id && (i.r || i.p || i.w))
+    sameTypePool.filter(i => i.id !== item.id && (i.r || i.p || i.w))
       .sort(() => Math.random() - 0.5)
       .slice(0, 3)
       .forEach(i => options.push(i.r || i.p || i.w));
@@ -4203,7 +4208,7 @@ function showLearningQuestion() {
       // Check if translation exists and is not just English (contains non-ASCII)
       return trans && /[^\x00-\x7F]/.test(trans);
     };
-    pool.filter(i => i.id !== item.id && hasProperTranslation(i))
+    sameTypePool.filter(i => i.id !== item.id && hasProperTranslation(i))
       .sort(() => Math.random() - 0.5)
       .slice(0, 3)
       .forEach(i => options.push(i.m[state.lang] || i.m.en));
@@ -4222,7 +4227,7 @@ function showLearningQuestion() {
     
     correct = item.k || item.w || item.p;
     options = [correct];
-    pool.filter(i => i.id !== item.id && (i.k || i.w || i.p))
+    sameTypePool.filter(i => i.id !== item.id && (i.k || i.w || i.p))
       .sort(() => Math.random() - 0.5)
       .slice(0, 3)
       .forEach(i => options.push(i.k || i.w || i.p));
