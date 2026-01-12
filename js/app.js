@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.20.44';
+const APP_VERSION = '18.20.45';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FURIGANA SYSTEM ==========
@@ -4643,7 +4643,14 @@ function showLearningQuestion() {
     if (extra) {
       let opt;
       if (skill === 'listening' || skill === 'writing') opt = extra.k || extra.w || extra.p;
-      else if (skill === 'reading') opt = extra.r || extra.p || extra.w;
+      else if (skill === 'reading') {
+        // For grammar items in reading skill, we ask for meaning not reading
+        if (extra.p && extra.m) {
+          opt = extra.m[state.lang] || extra.m.en;
+        } else {
+          opt = extra.r || extra.w;
+        }
+      }
       else if (skill === 'meaning') {
         // For meaning skill, only use items with proper meaning data
         if (extra.m && hasProperTrans(extra)) {
