@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.17.22';
+const APP_VERSION = '18.17.23';
 const STORAGE_KEY = 'fujisan_v1817';
 
 // ========== UI TRANSLATIONS ==========
@@ -2427,7 +2427,7 @@ function updateContinueButton() {
   const textEl = document.getElementById('continue-btn-text');
   if (!btn || !textEl) return;
   
-  // Level colors - use current level, not lastSession level
+  // Level colors - use ACTIVE level (state.level), not hover level
   const levelColors = { N5: '#34c759', N4: '#007aff', N3: '#af52de', N2: '#1e3a5f', N1: '#ff3b30' };
   const currentColor = levelColors[state.level] || levelColors.N5;
   
@@ -2437,8 +2437,10 @@ function updateContinueButton() {
     const catName = catNames[category] || 'Vocab';
     textEl.textContent = `Continue ${level} Unit ${unit + 1}`;
     btn.style.display = 'flex';
-    // Use current level color for consistency
+    // Use inline style with important - won't change on hover
     btn.style.setProperty('background-color', currentColor, 'important');
+    // Store the color as data attribute for reference
+    btn.dataset.levelColor = currentColor;
   } else {
     btn.style.display = 'none';
   }
@@ -3717,11 +3719,12 @@ function updateTodayFocus() {
   const levelColors = { N5: '#34c759', N4: '#007aff', N3: '#af52de', N2: '#1e3a5f', N1: '#ff3b30' };
   const currentColor = levelColors[state.level] || levelColors.N5;
   
-  // Update start button
+  // Update start button - uses CSS variable so it changes on hover
   if (startBtn) {
     if (hasTasks) {
       startBtn.style.display = 'flex';
-      startBtn.style.setProperty('background-color', currentColor, 'important');
+      // Remove inline style to let CSS variable control color
+      startBtn.style.removeProperty('background-color');
       const btnText = startBtn.querySelector('span');
       if (btnText) {
         if (primaryAction === 'srs') btnText.textContent = l.startReview;

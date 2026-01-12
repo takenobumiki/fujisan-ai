@@ -1138,7 +1138,7 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
   width: 100%;
   margin-top: 4px;
   padding: 10px 16px;
-  /* background controlled by JavaScript */
+  background: var(--level-color);
   color: white;
   border: none;
   border-radius: 10px;
@@ -1146,7 +1146,7 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
   font-weight: 600;
   letter-spacing: -0.01em;
   cursor: pointer;
-  transition: opacity 0.2s ease, transform 0.15s ease;
+  transition: background-color 0.2s ease, opacity 0.2s ease, transform 0.15s ease;
 }
 
 .today-focus-start-btn:hover {
