@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.18.6';
+const APP_VERSION = '18.18.7';
 const STORAGE_KEY = 'fujisan_v1817';
 
 // ========== UI TRANSLATIONS ==========
@@ -4163,7 +4163,19 @@ function showLearningQuestion() {
     
     correct = item.k || item.w || item.p;
     options = [correct];
-    sameTypePool.filter(i => i.id !== item.id && (i.k || i.w || i.p))
+    
+    // Get correct item's reading for comparison
+    const correctReading = getFirstReading(item.r) || '';
+    
+    // Filter out items with same reading (to avoid multiple correct answers)
+    sameTypePool.filter(i => {
+      if (i.id === item.id) return false;
+      if (!(i.k || i.w || i.p)) return false;
+      // Exclude items with same reading as correct answer
+      const iReading = getFirstReading(i.r) || '';
+      if (correctReading && iReading === correctReading) return false;
+      return true;
+    })
       .sort(() => Math.random() - 0.5)
       .slice(0, 3)
       .forEach(i => options.push(i.k || i.w || i.p));
@@ -4181,7 +4193,16 @@ function showLearningQuestion() {
     // Display full reading (kun, on) for options
     correct = item.r || item.p || item.w;
     options = [correct];
-    sameTypePool.filter(i => i.id !== item.id && (i.r || i.p || i.w))
+    
+    // Filter out items with same reading (to avoid duplicate options)
+    sameTypePool.filter(i => {
+      if (i.id === item.id) return false;
+      if (!(i.r || i.p || i.w)) return false;
+      // Exclude items with same reading
+      const iReading = i.r || i.p || i.w;
+      if (iReading === correct) return false;
+      return true;
+    })
       .sort(() => Math.random() - 0.5)
       .slice(0, 3)
       .forEach(i => options.push(i.r || i.p || i.w));
@@ -4213,7 +4234,15 @@ function showLearningQuestion() {
       // Check if translation exists and is not just English (contains non-ASCII)
       return trans && /[^\x00-\x7F]/.test(trans);
     };
-    sameTypePool.filter(i => i.id !== item.id && hasProperTranslation(i))
+    // Filter out items with same meaning (to avoid duplicate options)
+    sameTypePool.filter(i => {
+      if (i.id === item.id) return false;
+      if (!hasProperTranslation(i)) return false;
+      // Exclude items with same meaning
+      const iMeaning = i.m[state.lang] || i.m.en;
+      if (iMeaning === correct) return false;
+      return true;
+    })
       .sort(() => Math.random() - 0.5)
       .slice(0, 3)
       .forEach(i => options.push(i.m[state.lang] || i.m.en));
@@ -4231,7 +4260,20 @@ function showLearningQuestion() {
     
     correct = item.k || item.w || item.p;
     options = [correct];
-    sameTypePool.filter(i => i.id !== item.id && (i.k || i.w || i.p))
+    
+    // Get correct item's reading for comparison
+    const getFirstReading = (r) => r ? r.split('、')[0].trim() : '';
+    const correctReading = getFirstReading(item.r) || '';
+    
+    // Filter out items with same reading (to avoid multiple correct answers when reading is shown)
+    sameTypePool.filter(i => {
+      if (i.id === item.id) return false;
+      if (!(i.k || i.w || i.p)) return false;
+      // Exclude items with same reading
+      const iReading = getFirstReading(i.r) || '';
+      if (correctReading && iReading === correctReading) return false;
+      return true;
+    })
       .sort(() => Math.random() - 0.5)
       .slice(0, 3)
       .forEach(i => options.push(i.k || i.w || i.p));
