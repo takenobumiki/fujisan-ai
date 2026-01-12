@@ -1,6 +1,3 @@
-// Fujisan.AI Data
-// Count: 80
-
 const N5_GRAMMAR = [
   {
     "id": "G0001",
@@ -1032,58 +1029,6 @@ const N5_GRAMMAR = [
     }
   },
   {
-    "id": "G0042",
-    "p": "〜前に",
-    "r": "〜まえに",
-    "m": {
-      "en": "before",
-      "zh-TW": "...之前",
-      "zh-CN": "...之前",
-      "ko": "~하기 전에",
-      "vi": "trước khi",
-      "id": "sebelum",
-      "es": "before",
-      "pt": "before"
-    },
-    "ex": "寝る前に歯を磨く",
-    "exm": {
-      "en": "brush teeth before bed",
-      "zh-TW": "睡前刷牙",
-      "zh-CN": "睡前刷牙",
-      "ko": "자기 전에 이를 닦다",
-      "vi": "đánh răng trước khi ngủ",
-      "id": "sikat gigi sebelum tidur",
-      "es": "brush teeth before bed",
-      "pt": "brush teeth before bed"
-    }
-  },
-  {
-    "id": "G0043",
-    "p": "〜後で",
-    "r": "〜あとで",
-    "m": {
-      "en": "after",
-      "zh-TW": "...之後",
-      "zh-CN": "...之后",
-      "ko": "~한 후에",
-      "vi": "sau khi",
-      "id": "setelah",
-      "es": "after",
-      "pt": "after"
-    },
-    "ex": "仕事の後で飲む",
-    "exm": {
-      "en": "drink after work",
-      "zh-TW": "工作後喝酒",
-      "zh-CN": "工作后喝酒",
-      "ko": "일 후에 마시다",
-      "vi": "uống sau giờ làm",
-      "id": "minum setelah kerja",
-      "es": "drink after work",
-      "pt": "drink after work"
-    }
-  },
-  {
     "id": "G0044",
     "p": "〜時",
     "r": "〜とき",
@@ -1107,31 +1052,6 @@ const N5_GRAMMAR = [
       "id": "membaca saat senggang",
       "es": "read when free",
       "pt": "read when free"
-    }
-  },
-  {
-    "id": "G0045",
-    "p": "〜ながら",
-    "m": {
-      "en": "while doing",
-      "zh-TW": "一邊...一邊",
-      "zh-CN": "一边...一边",
-      "ko": "~하면서",
-      "vi": "vừa...vừa",
-      "id": "sambil",
-      "es": "while doing",
-      "pt": "while doing"
-    },
-    "ex": "歌いながら歩く",
-    "exm": {
-      "en": "walk while singing",
-      "zh-TW": "一邊唱歌一邊走",
-      "zh-CN": "一边唱歌一边走",
-      "ko": "노래하면서 걷다",
-      "vi": "vừa hát vừa đi",
-      "id": "berjalan sambil bernyanyi",
-      "es": "walk while singing",
-      "pt": "walk while singing"
     }
   },
   {
@@ -1532,31 +1452,6 @@ const N5_GRAMMAR = [
       "id": "jadi pergi",
       "es": "it was decided to go",
       "pt": "it was decided to go"
-    }
-  },
-  {
-    "id": "G0062",
-    "p": "〜ようにする",
-    "m": {
-      "en": "try to",
-      "zh-TW": "盡量",
-      "zh-CN": "尽量",
-      "ko": "~하도록 하다",
-      "vi": "cố gắng",
-      "id": "berusaha",
-      "es": "try to",
-      "pt": "try to"
-    },
-    "ex": "早く寝るようにする",
-    "exm": {
-      "en": "try to sleep early",
-      "zh-TW": "盡量早睡",
-      "zh-CN": "尽量早睡",
-      "ko": "일찍 자도록 하다",
-      "vi": "cố gắng ngủ sớm",
-      "id": "berusaha tidur awal",
-      "es": "try to sleep early",
-      "pt": "try to sleep early"
     }
   },
   {
@@ -1982,31 +1877,6 @@ const N5_GRAMMAR = [
       "id": "tolong jangan sentuh",
       "es": "please don't touch",
       "pt": "please don't touch"
-    }
-  },
-  {
-    "id": "G0080",
-    "p": "〜なければならない",
-    "m": {
-      "en": "must do",
-      "zh-TW": "必須",
-      "zh-CN": "必须",
-      "ko": "~해야 한다",
-      "vi": "phải",
-      "id": "harus",
-      "es": "must do",
-      "pt": "must do"
-    },
-    "ex": "行かなければならない",
-    "exm": {
-      "en": "must go",
-      "zh-TW": "必須去",
-      "zh-CN": "必须去",
-      "ko": "가야 한다",
-      "vi": "phải đi",
-      "id": "harus pergi",
-      "es": "must go",
-      "pt": "must go"
     }
   }
 ];

@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.20.46';
+const APP_VERSION = '18.20.47';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FURIGANA SYSTEM ==========
@@ -4460,48 +4460,72 @@ function showLearningQuestion() {
       return kanji;
     };
     
-    // For kanji, randomly select one reading (訓読み or 音読み)
-    let selectedReading = '';
-    if (item.k && item.r) {
-      selectedReading = getRandomReading(item.r);
-    }
-    
-    // For TTS, use selected reading (as hiragana)
-    currentWord = getReadingForTTS(selectedReading) || item.w || item.k || item.p;
-    session.currentItem = item;
-    setTimeout(() => playAudio(), 300);
-    
-    // For kanji, show with okurigana based on selected reading
-    if (item.k) {
-      correct = formatKanjiWithOkurigana(item.k, selectedReading);
+    // For grammar items: listen to pattern, select meaning
+    if (item.p) {
+      promptEl.textContent = getText('quiz_listen_select_meaning') || 'Listen and select the correct meaning';
+      currentWord = item.r || item.p;
+      session.currentItem = item;
+      setTimeout(() => playAudio(), 300);
+      
+      correct = item.m[state.lang] || item.m.en;
+      options = [correct];
+      
+      // Filter out items with same meaning
+      sameTypePool.filter(i => {
+        if (i.id === item.id) return false;
+        const iMeaning = i.m ? (i.m[state.lang] || i.m.en) : null;
+        if (!iMeaning) return false;
+        if (iMeaning === correct) return false;
+        return true;
+      })
+        .sort(() => Math.random() - 0.5)
+        .slice(0, 3)
+        .forEach(i => options.push(i.m[state.lang] || i.m.en));
     } else {
-      correct = item.w || item.p;
+      // For kanji/vocab: listen to reading, select word/kanji
+      // For kanji, randomly select one reading (訓読み or 音読み)
+      let selectedReading = '';
+      if (item.k && item.r) {
+        selectedReading = getRandomReading(item.r);
+      }
+      
+      // For TTS, use selected reading (as hiragana)
+      currentWord = getReadingForTTS(selectedReading) || item.w || item.k;
+      session.currentItem = item;
+      setTimeout(() => playAudio(), 300);
+      
+      // For kanji, show with okurigana based on selected reading
+      if (item.k) {
+        correct = formatKanjiWithOkurigana(item.k, selectedReading);
+      } else {
+        correct = item.w;
+      }
+      options = [correct];
+      
+      // Get correct item's reading for comparison (without okurigana markers)
+      const correctReading = getReadingForTTS(selectedReading) || '';
+      
+      // Filter out items with same reading (to avoid multiple correct answers)
+      sameTypePool.filter(i => {
+        if (i.id === item.id) return false;
+        if (!(i.k || i.w)) return false;
+        // Exclude items with any reading that matches correct answer
+        const iReadings = getAllReadings(i.r).map(r => getReadingForTTS(r));
+        if (correctReading && iReadings.includes(correctReading)) return false;
+        return true;
+      })
+        .sort(() => Math.random() - 0.5)
+        .slice(0, 3)
+        .forEach(i => {
+          if (i.k) {
+            // For distractors, also randomly select a reading
+            const distReading = getRandomReading(i.r);
+            options.push(formatKanjiWithOkurigana(i.k, distReading));
+          } else {
+            options.push(i.w);
+          }
+        });
     }
-    options = [correct];
-    
-    // Get correct item's reading for comparison (without okurigana markers)
-    const correctReading = getReadingForTTS(selectedReading) || '';
-    
-    // Filter out items with same reading (to avoid multiple correct answers)
-    sameTypePool.filter(i => {
-      if (i.id === item.id) return false;
-      if (!(i.k || i.w || i.p)) return false;
-      // Exclude items with any reading that matches correct answer
-      const iReadings = getAllReadings(i.r).map(r => getReadingForTTS(r));
-      if (correctReading && iReadings.includes(correctReading)) return false;
-      return true;
-    })
-      .sort(() => Math.random() - 0.5)
-      .slice(0, 3)
-      .forEach(i => {
-        if (i.k) {
-          // For distractors, also randomly select a reading
-          const distReading = getRandomReading(i.r);
-          options.push(formatKanjiWithOkurigana(i.k, distReading));
-        } else {
-          options.push(i.w || i.p);
-        }
-      });
       
   } else if (skill === 'reading') {
     promptEl.textContent = getText('quiz_select_reading') || 'Select the correct reading';

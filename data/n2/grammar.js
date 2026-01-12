@@ -1,6 +1,3 @@
-// Fujisan.AI Data
-// Count: 250
-
 const N2_GRAMMAR = [
   {
     "id": "G0001",
@@ -2342,18 +2339,6 @@ const N2_GRAMMAR = [
       "ko": "~하더라도",
       "vi": "cho dù",
       "id": "meskipun"
-    }
-  },
-  {
-    "id": "G0194",
-    "p": "〜ようものなら",
-    "m": {
-      "en": "if by any chance",
-      "zh-TW": "萬一",
-      "zh-CN": "万一",
-      "ko": "~하기라도 하면",
-      "vi": "nếu chẳng may",
-      "id": "jika kebetulan"
     }
   },
   {

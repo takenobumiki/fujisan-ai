@@ -1,6 +1,3 @@
-// Fujisan.AI Data
-// Count: 200
-
 const N1_GRAMMAR = [
   {
     "id": "G0001",
@@ -1465,20 +1462,6 @@ const N1_GRAMMAR = [
     }
   },
   {
-    "id": "G0105",
-    "p": "〜ものを",
-    "m": {
-      "en": "if only",
-      "zh-TW": "要是",
-      "zh-CN": "要是",
-      "ko": "~하면 좋을 텐데",
-      "vi": "giá mà",
-      "id": "seandainya",
-      "es": "if only",
-      "pt": "if only"
-    }
-  },
-  {
     "id": "G0106",
     "p": "〜にあるまじき",
     "m": {
@@ -1871,20 +1854,6 @@ const N1_GRAMMAR = [
     }
   },
   {
-    "id": "G0134",
-    "p": "〜にひきかえ",
-    "m": {
-      "en": "in contrast to",
-      "zh-TW": "與...相反",
-      "zh-CN": "与...相反",
-      "ko": "~에 반해",
-      "vi": "ngược lại",
-      "id": "berbeda dengan",
-      "es": "in contrast to",
-      "pt": "in contrast to"
-    }
-  },
-  {
     "id": "G0135",
     "p": "〜にもまして",
     "m": {
@@ -2134,20 +2103,6 @@ const N1_GRAMMAR = [
       "id": "meskipun",
       "es": "even if",
       "pt": "even if"
-    }
-  },
-  {
-    "id": "G0153",
-    "p": "〜なり",
-    "m": {
-      "en": "or",
-      "zh-TW": "或",
-      "zh-CN": "或",
-      "ko": "~든지",
-      "vi": "hay",
-      "id": "atau",
-      "es": "or",
-      "pt": "or"
     }
   },
   {
@@ -2641,20 +2596,6 @@ const N1_GRAMMAR = [
     }
   },
   {
-    "id": "G0189",
-    "p": "〜まで",
-    "m": {
-      "en": "until",
-      "zh-TW": "直到",
-      "zh-CN": "直到",
-      "ko": "~까지",
-      "vi": "cho đến",
-      "id": "sampai",
-      "es": "until",
-      "pt": "until"
-    }
-  },
-  {
     "id": "G0190",
     "p": "〜向きがある",
     "r": "〜むきがある",
@@ -2695,20 +2636,6 @@ const N1_GRAMMAR = [
       "id": "jika mau",
       "es": "if one wants",
       "pt": "if one wants"
-    }
-  },
-  {
-    "id": "G0193",
-    "p": "〜ようにも〜ない",
-    "m": {
-      "en": "cannot even if",
-      "zh-TW": "想...也不能",
-      "zh-CN": "想...也不能",
-      "ko": "~하려고 해도 못한다",
-      "vi": "muốn cũng không",
-      "id": "mau juga tidak",
-      "es": "cannot even if",
-      "pt": "cannot even if"
     }
   },
   {
