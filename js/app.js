@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.18.2';
+const APP_VERSION = '18.18.3';
 const STORAGE_KEY = 'fujisan_v1817';
 
 // ========== UI TRANSLATIONS ==========
@@ -4389,7 +4389,7 @@ function showFeedbackArea(item, skill, userAnswer, correctAnswer, isCorrect) {
     // Show AI section and auto-load explanation
     if (canUseAITutor()) {
       feedbackAiSection.style.display = 'block';
-      feedbackAiComment.innerHTML = '<div class="ai-comment-loading">🤖 解説を生成中...</div>';
+      feedbackAiComment.innerHTML = '<div class="ai-comment-loading">解説を生成中...</div>';
       
       // Store for follow-up questions
       session.pendingAI = { item, skill, userAnswer, correctAnswer };
@@ -4539,7 +4539,7 @@ async function askFollowup() {
   
   btn.disabled = true;
   responseDiv.style.display = 'block';
-  responseDiv.innerHTML = '<span style="color:#667eea">🤖 ...</span>';
+  responseDiv.innerHTML = '<span style="color:#667eea">Loading...</span>';
   
   try {
     const { item } = session.pendingAI;
@@ -5232,7 +5232,7 @@ function showMockResult() {
   showScreen('mock-result');
   
   // Display score
-  document.getElementById('mock-result-icon').textContent = passed ? '🎉' : '📚';
+  document.getElementById('mock-result-icon').textContent = passed ? 'PASS' : 'FAIL';
   document.getElementById('mock-result-icon').className = 'mock-result-icon ' + (passed ? 'passed' : 'failed');
   document.getElementById('mock-result-score').textContent = score + '%';
   document.getElementById('mock-result-label').textContent = passed ? '合格 PASSED!' : '不合格 Keep Studying!';
@@ -5256,7 +5256,7 @@ function showMockResult() {
   // Save for AI Coach pass probability
   saveMockResultForCoach(sectionScores, score);
   
-  let sectionHtml = '<div class="section-breakdown-title">📊 Section Breakdown</div>';
+  let sectionHtml = '<div class="section-breakdown-title">Section Breakdown</div>';
   Object.entries(sectionScores).forEach(([section, data]) => {
     const pct = Math.round((data.correct / data.total) * 100);
     const sectionName = section === 'moji_goi' ? '文字・語彙' : section === 'bunpou_dokkai' ? '文法・読解' : section === 'choukai' ? '聴解' : section;
@@ -5281,12 +5281,12 @@ function generateMockExplanations(wrongAnswers) {
   if (!listEl) return;
   
   if (wrongAnswers.length === 0) {
-    listEl.innerHTML = '<div style="text-align:center;padding:20px;color:var(--success);font-weight:600;">🎉 Perfect score! No mistakes to review.</div>';
+    listEl.innerHTML = '<div style="text-align:center;padding:20px;color:var(--success);font-weight:600;">Perfect score! No mistakes to review.</div>';
     return;
   }
   
   let html = '';
-  wrongAnswers.slice(0, 20).forEach((item, i) => {
+  wrongAnswers.forEach((item, i) => {
     const q = item.question;
     const yourAnswer = item.selected || '(No answer)';
     const correctAnswer = item.correct;
@@ -5297,16 +5297,12 @@ function generateMockExplanations(wrongAnswers) {
     html += `
       <div class="mock-explanation-item">
         <div class="mock-explanation-q">${i + 1}. ${q.q || q.text || 'Question'}</div>
-        <div class="mock-explanation-your">❌ Your answer: ${yourAnswer}</div>
-        <div class="mock-explanation-correct">✓ Correct: ${correctAnswer}</div>
+        <div class="mock-explanation-your">Your answer: ${yourAnswer}</div>
+        <div class="mock-explanation-correct">Correct: ${correctAnswer}</div>
         <div class="mock-explanation-detail">${explanation}</div>
       </div>
     `;
   });
-  
-  if (wrongAnswers.length > 20) {
-    html += `<div style="text-align:center;padding:12px;color:var(--text-light);">...and ${wrongAnswers.length - 20} more mistakes</div>`;
-  }
   
   listEl.innerHTML = html;
 }
