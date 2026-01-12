@@ -1318,7 +1318,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文章の文法",
-        "text": "<ruby>困難<rt>こんなん</rt></ruby>（　）<ruby>乗<rt>のむ</rt></ruby>り<ruby>越<rt>こ</rt></ruby>え、<ruby>目標<rt>もくひょう</rt></ruby>を達<ruby>成<rt>せい</rt></ruby>した。（106）",
+        "text": "<ruby>困難<rt>こんなん</rt></ruby>（　）<ruby>乗<rt>の</rt></ruby>り<ruby>越<rt>こ</rt></ruby>え、<ruby>目標<rt>もくひょう</rt></ruby>を達<ruby>成<rt>せい</rt></ruby>した。（106）",
         "question": "（　）に入るのは？",
         "options": ["を",
           "から",
@@ -1450,7 +1450,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "読解（中文）",
-        "text": "この<ruby>町<rt>まち</rt></ruby>は自然が<ruby>豊か<rt>ゆたか</rt></ruby>で、とても<ruby>住<rt>すわる</rt></ruby>みやすいです。<ruby>近く<rt>ちかく</rt></ruby>に大きな<ruby>公園<rt>こうえん</rt></ruby>があり、週<ruby>末<rt>まつ</rt></ruby>は<ruby>家<rt>いえ</rt></ruby><ruby>族<rt>ぞく</rt></ruby>で<ruby>散歩<rt>さんぽ</rt></ruby>に行きます。<ruby>交通<rt>こうつう</rt></ruby>は<ruby>少し<rt>すこし</rt></ruby><ruby>不便<rt>ふべん</rt></ruby>ですが、静かなので気に入っています。",
+        "text": "この<ruby>町<rt>まち</rt></ruby>は自然が<ruby>豊か<rt>ゆたか</rt></ruby>で、とても<ruby>住<rt>す</rt></ruby>みやすいです。<ruby>近く<rt>ちかく</rt></ruby>に大きな<ruby>公園<rt>こうえん</rt></ruby>があり、週<ruby>末<rt>まつ</rt></ruby>は<ruby>家<rt>いえ</rt></ruby><ruby>族<rt>ぞく</rt></ruby>で<ruby>散歩<rt>さんぽ</rt></ruby>に行きます。<ruby>交通<rt>こうつう</rt></ruby>は<ruby>少し<rt>すこし</rt></ruby><ruby>不便<rt>ふべん</rt></ruby>ですが、静かなので気に入っています。",
         "question": "この<ruby>町<rt>まち</rt></ruby>の<ruby>問題<rt>もんだい</rt></ruby>点は何ですか。",
         "options": ["うるさい",
           "<ruby>交通<rt>こうつう</rt></ruby>が<ruby>不便<rt>ふべん</rt></ruby>",
@@ -2224,7 +2224,7 @@ window.MOCK_DATA['N4'] = {
     "3": [
       {
         "type": "文法形式",
-        "text": "電車に　<ruby>乗<rt>のむ</rt></ruby>り<ruby>遅れ<rt>おくれ</rt></ruby>（　）しまいました。",
+        "text": "電車に　<ruby>乗<rt>の</rt></ruby>り<ruby>遅れ<rt>おくれ</rt></ruby>（　）しまいました。",
         "question": "（　）に　はいるのは？",
         "options": ["の",
           "る",
@@ -2279,12 +2279,12 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・<ruby>問<rt>とん</rt></ruby>113（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>彼<rt>かれ</rt></ruby>は / アメリカに / いました / <ruby>住<rt>すわる</rt></ruby>んで / 3年間",
+        "text": "【学校・<ruby>問<rt>とん</rt></ruby>113（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>彼<rt>かれ</rt></ruby>は / アメリカに / いました / <ruby>住<rt>す</rt></ruby>んで / 3年間",
         "question": "正しい順<ruby>序<rt>じょ</rt></ruby>は？",
-        "options": ["いました <ruby>住<rt>すわる</rt></ruby>んで 3年間 アメリカに <ruby>彼<rt>かれ</rt></ruby>は",
-          "いました <ruby>彼<rt>かれ</rt></ruby>は アメリカに 3年間 <ruby>住<rt>すわる</rt></ruby>んで",
-          "アメリカに 3年間 <ruby>住<rt>すわる</rt></ruby>んで いました <ruby>彼<rt>かれ</rt></ruby>は",
-          "<ruby>彼<rt>かれ</rt></ruby>はアメリカに3年間<ruby>住<rt>すわる</rt></ruby>んでいました"],
+        "options": ["いました <ruby>住<rt>す</rt></ruby>んで 3年間 アメリカに <ruby>彼<rt>かれ</rt></ruby>は",
+          "いました <ruby>彼<rt>かれ</rt></ruby>は アメリカに 3年間 <ruby>住<rt>す</rt></ruby>んで",
+          "アメリカに 3年間 <ruby>住<rt>す</rt></ruby>んで いました <ruby>彼<rt>かれ</rt></ruby>は",
+          "<ruby>彼<rt>かれ</rt></ruby>はアメリカに3年間<ruby>住<rt>す</rt></ruby>んでいました"],
         "answer": 0,
         "id": "N4-03-049"
       },
@@ -3983,7 +3983,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": "手<ruby>伝<rt>でん</rt></ruby>ってもらえますか。（179）",
+        "text": "手<ruby>伝<rt>つた</rt></ruby>ってもらえますか。（179）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
           "はい、食べました",
@@ -4454,7 +4454,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>暇<rt>ひま</rt></ruby>（　）、手<ruby>伝<rt>でん</rt></ruby>ってください。",
+        "text": "<ruby>暇<rt>ひま</rt></ruby>（　）、手<ruby>伝<rt>つた</rt></ruby>ってください。",
         "question": "（　）に　はいるのは？",
         "options": ["なら",
           "で",
@@ -5700,12 +5700,12 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・<ruby>問<rt>とん</rt></ruby>128（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい順<ruby>序<rt>じょ</rt></ruby>に並べてください：3年間 / アメリカに / <ruby>彼<rt>かれ</rt></ruby>は / いました / <ruby>住<rt>すわる</rt></ruby>んで",
+        "text": "【学校・<ruby>問<rt>とん</rt></ruby>128（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい順<ruby>序<rt>じょ</rt></ruby>に並べてください：3年間 / アメリカに / <ruby>彼<rt>かれ</rt></ruby>は / いました / <ruby>住<rt>す</rt></ruby>んで",
         "question": "正しい順<ruby>序<rt>じょ</rt></ruby>は？",
-        "options": ["<ruby>彼<rt>かれ</rt></ruby>はアメリカに3年間<ruby>住<rt>すわる</rt></ruby>んでいました",
-          "アメリカに 3年間 <ruby>住<rt>すわる</rt></ruby>んで いました <ruby>彼<rt>かれ</rt></ruby>は",
-          "いました <ruby>彼<rt>かれ</rt></ruby>は アメリカに 3年間 <ruby>住<rt>すわる</rt></ruby>んで",
-          "いました <ruby>住<rt>すわる</rt></ruby>んで 3年間 アメリカに <ruby>彼<rt>かれ</rt></ruby>は"],
+        "options": ["<ruby>彼<rt>かれ</rt></ruby>はアメリカに3年間<ruby>住<rt>す</rt></ruby>んでいました",
+          "アメリカに 3年間 <ruby>住<rt>す</rt></ruby>んで いました <ruby>彼<rt>かれ</rt></ruby>は",
+          "いました <ruby>彼<rt>かれ</rt></ruby>は アメリカに 3年間 <ruby>住<rt>す</rt></ruby>んで",
+          "いました <ruby>住<rt>す</rt></ruby>んで 3年間 アメリカに <ruby>彼<rt>かれ</rt></ruby>は"],
         "answer": 2,
         "id": "N4-06-049"
       },
@@ -6837,7 +6837,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文章の文法",
-        "text": "<ruby>困難<rt>こんなん</rt></ruby>（　）<ruby>乗<rt>のむ</rt></ruby>り<ruby>越<rt>こ</rt></ruby>え、<ruby>目標<rt>もくひょう</rt></ruby>を達<ruby>成<rt>せい</rt></ruby>した。（131）",
+        "text": "<ruby>困難<rt>こんなん</rt></ruby>（　）<ruby>乗<rt>の</rt></ruby>り<ruby>越<rt>こ</rt></ruby>え、<ruby>目標<rt>もくひょう</rt></ruby>を達<ruby>成<rt>せい</rt></ruby>した。（131）",
         "question": "（　）に入るのは？",
         "options": ["を",
           "から",
@@ -7776,7 +7776,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>新幹線<rt>しんかんせん</rt></ruby>に　<ruby>乗<rt>のむ</rt></ruby>っ（　）ことが　ありません。",
+        "text": "<ruby>新幹線<rt>しんかんせん</rt></ruby>に　<ruby>乗<rt>の</rt></ruby>っ（　）ことが　ありません。",
         "question": "（　）に　はいるのは？",
         "options": ["り",
           "て",
@@ -8376,7 +8376,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": "手<ruby>伝<rt>でん</rt></ruby>ってもらえますか。（214）",
+        "text": "手<ruby>伝<rt>つた</rt></ruby>ってもらえますか。（214）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
           "はい、いいですよ",
@@ -8924,12 +8924,12 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・<ruby>問<rt>とん</rt></ruby>143（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい順<ruby>序<rt>じょ</rt></ruby>に並べてください：アメリカに / 3年間 / <ruby>住<rt>すわる</rt></ruby>んで / いました / <ruby>彼<rt>かれ</rt></ruby>は",
+        "text": "【学校・<ruby>問<rt>とん</rt></ruby>143（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい順<ruby>序<rt>じょ</rt></ruby>に並べてください：アメリカに / 3年間 / <ruby>住<rt>す</rt></ruby>んで / いました / <ruby>彼<rt>かれ</rt></ruby>は",
         "question": "正しい順<ruby>序<rt>じょ</rt></ruby>は？",
-        "options": ["アメリカに 3年間 <ruby>住<rt>すわる</rt></ruby>んで いました <ruby>彼<rt>かれ</rt></ruby>は",
-          "いました <ruby>彼<rt>かれ</rt></ruby>は アメリカに 3年間 <ruby>住<rt>すわる</rt></ruby>んで",
-          "いました <ruby>住<rt>すわる</rt></ruby>んで 3年間 アメリカに <ruby>彼<rt>かれ</rt></ruby>は",
-          "<ruby>彼<rt>かれ</rt></ruby>はアメリカに3年間<ruby>住<rt>すわる</rt></ruby>んでいました"],
+        "options": ["アメリカに 3年間 <ruby>住<rt>す</rt></ruby>んで いました <ruby>彼<rt>かれ</rt></ruby>は",
+          "いました <ruby>彼<rt>かれ</rt></ruby>は アメリカに 3年間 <ruby>住<rt>す</rt></ruby>んで",
+          "いました <ruby>住<rt>す</rt></ruby>んで 3年間 アメリカに <ruby>彼<rt>かれ</rt></ruby>は",
+          "<ruby>彼<rt>かれ</rt></ruby>はアメリカに3年間<ruby>住<rt>す</rt></ruby>んでいました"],
         "answer": 2,
         "id": "N4-09-049"
       },
@@ -12123,12 +12123,12 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・<ruby>問<rt>とん</rt></ruby>158（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい順<ruby>序<rt>じょ</rt></ruby>に並べてください：アメリカに / いました / 3年間 / <ruby>彼<rt>かれ</rt></ruby>は / <ruby>住<rt>すわる</rt></ruby>んで",
+        "text": "【学校・<ruby>問<rt>とん</rt></ruby>158（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい順<ruby>序<rt>じょ</rt></ruby>に並べてください：アメリカに / いました / 3年間 / <ruby>彼<rt>かれ</rt></ruby>は / <ruby>住<rt>す</rt></ruby>んで",
         "question": "正しい順<ruby>序<rt>じょ</rt></ruby>は？",
-        "options": ["いました <ruby>住<rt>すわる</rt></ruby>んで 3年間 アメリカに <ruby>彼<rt>かれ</rt></ruby>は",
-          "いました <ruby>彼<rt>かれ</rt></ruby>は アメリカに 3年間 <ruby>住<rt>すわる</rt></ruby>んで",
-          "<ruby>彼<rt>かれ</rt></ruby>はアメリカに3年間<ruby>住<rt>すわる</rt></ruby>んでいました",
-          "アメリカに 3年間 <ruby>住<rt>すわる</rt></ruby>んで いました <ruby>彼<rt>かれ</rt></ruby>は"],
+        "options": ["いました <ruby>住<rt>す</rt></ruby>んで 3年間 アメリカに <ruby>彼<rt>かれ</rt></ruby>は",
+          "いました <ruby>彼<rt>かれ</rt></ruby>は アメリカに 3年間 <ruby>住<rt>す</rt></ruby>んで",
+          "<ruby>彼<rt>かれ</rt></ruby>はアメリカに3年間<ruby>住<rt>す</rt></ruby>んでいました",
+          "アメリカに 3年間 <ruby>住<rt>す</rt></ruby>んで いました <ruby>彼<rt>かれ</rt></ruby>は"],
         "answer": 2,
         "id": "N4-12-049"
       },
@@ -12156,7 +12156,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文章の文法",
-        "text": "<ruby>困難<rt>こんなん</rt></ruby>（　）<ruby>乗<rt>のむ</rt></ruby>り<ruby>越<rt>こ</rt></ruby>え、<ruby>目標<rt>もくひょう</rt></ruby>を達<ruby>成<rt>せい</rt></ruby>した。（156）",
+        "text": "<ruby>困難<rt>こんなん</rt></ruby>（　）<ruby>乗<rt>の</rt></ruby>り<ruby>越<rt>こ</rt></ruby>え、<ruby>目標<rt>もくひょう</rt></ruby>を達<ruby>成<rt>せい</rt></ruby>した。（156）",
         "question": "（　）に入るのは？",
         "options": ["から",
           "で",
@@ -12510,7 +12510,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>心<rt>こころ</rt></ruby>配を<ruby>伝<rt>でん</rt></ruby>えたい<ruby>場<rt>ば</rt></ruby>面です。（113）",
+        "text": "<ruby>心<rt>こころ</rt></ruby>配を<ruby>伝<rt>つた</rt></ruby>えたい<ruby>場<rt>ば</rt></ruby>面です。（113）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
           "📌",
@@ -12568,7 +12568,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": "手<ruby>伝<rt>でん</rt></ruby>ってもらえますか。（249）",
+        "text": "手<ruby>伝<rt>つた</rt></ruby>ってもらえますか。（249）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
           "はい、いいですよ",
@@ -14835,12 +14835,12 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・<ruby>問<rt>とん</rt></ruby>173（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい順<ruby>序<rt>じょ</rt></ruby>に並べてください：3年間 / <ruby>彼<rt>かれ</rt></ruby>は / アメリカに / いました / <ruby>住<rt>すわる</rt></ruby>んで",
+        "text": "【学校・<ruby>問<rt>とん</rt></ruby>173（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい順<ruby>序<rt>じょ</rt></ruby>に並べてください：3年間 / <ruby>彼<rt>かれ</rt></ruby>は / アメリカに / いました / <ruby>住<rt>す</rt></ruby>んで",
         "question": "正しい順<ruby>序<rt>じょ</rt></ruby>は？",
-        "options": ["いました <ruby>住<rt>すわる</rt></ruby>んで 3年間 アメリカに <ruby>彼<rt>かれ</rt></ruby>は",
-          "アメリカに 3年間 <ruby>住<rt>すわる</rt></ruby>んで いました <ruby>彼<rt>かれ</rt></ruby>は",
-          "<ruby>彼<rt>かれ</rt></ruby>はアメリカに3年間<ruby>住<rt>すわる</rt></ruby>んでいました",
-          "いました <ruby>彼<rt>かれ</rt></ruby>は アメリカに 3年間 <ruby>住<rt>すわる</rt></ruby>んで"],
+        "options": ["いました <ruby>住<rt>す</rt></ruby>んで 3年間 アメリカに <ruby>彼<rt>かれ</rt></ruby>は",
+          "アメリカに 3年間 <ruby>住<rt>す</rt></ruby>んで いました <ruby>彼<rt>かれ</rt></ruby>は",
+          "<ruby>彼<rt>かれ</rt></ruby>はアメリカに3年間<ruby>住<rt>す</rt></ruby>んでいました",
+          "いました <ruby>彼<rt>かれ</rt></ruby>は アメリカに 3年間 <ruby>住<rt>す</rt></ruby>んで"],
         "answer": 2,
         "id": "N4-15-049"
       },
@@ -15011,8 +15011,8 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "情報検索",
-        "text": "【タクシー】<ruby>初<rt>しょ</rt></ruby><ruby>乗<rt>のむ</rt></ruby>り500円　300mごと80円　<ruby>深夜<rt>しんや</rt></ruby>20%<ruby>増<rt>ぞう</rt></ruby>",
-        "question": "<ruby>初<rt>しょ</rt></ruby><ruby>乗<rt>のむ</rt></ruby>りは？",
+        "text": "【タクシー】<ruby>初<rt>しょ</rt></ruby><ruby>乗<rt>の</rt></ruby>り500円　300mごと80円　<ruby>深夜<rt>しんや</rt></ruby>20%<ruby>増<rt>ぞう</rt></ruby>",
+        "question": "<ruby>初<rt>しょ</rt></ruby><ruby>乗<rt>の</rt></ruby>りは？",
         "options": ["500円",
           "600円",
           "700円",
@@ -16161,7 +16161,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": "手<ruby>伝<rt>でん</rt></ruby>ってもらえますか。（284）",
+        "text": "手<ruby>伝<rt>つた</rt></ruby>ってもらえますか。（284）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["いいえ、<ruby>違い<rt>ちがい</rt></ruby>ます",
           "はい、食べました",
@@ -16722,7 +16722,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文法形式",
-        "text": "田中さんに　よろしく　お<ruby>伝<rt>でん</rt></ruby>え（　）。",
+        "text": "田中さんに　よろしく　お<ruby>伝<rt>つた</rt></ruby>え（　）。",
         "question": "（　）に　はいるのは？",
         "options": ["します",
           "ます",
@@ -16854,7 +16854,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文章の文法",
-        "text": "<ruby>困難<rt>こんなん</rt></ruby>（　）<ruby>乗<rt>のむ</rt></ruby>り<ruby>越<rt>こ</rt></ruby>え、<ruby>目標<rt>もくひょう</rt></ruby>を達<ruby>成<rt>せい</rt></ruby>した。（181）",
+        "text": "<ruby>困難<rt>こんなん</rt></ruby>（　）<ruby>乗<rt>の</rt></ruby>り<ruby>越<rt>こ</rt></ruby>え、<ruby>目標<rt>もくひょう</rt></ruby>を達<ruby>成<rt>せい</rt></ruby>した。（181）",
         "question": "（　）に入るのは？",
         "options": ["を",
           "で",
@@ -17947,12 +17947,12 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【学校・<ruby>問<rt>とん</rt></ruby>188（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>彼<rt>かれ</rt></ruby>は / 3年間 / いました / アメリカに / <ruby>住<rt>すわる</rt></ruby>んで",
+        "text": "【学校・<ruby>問<rt>とん</rt></ruby>188（N3レベル）】次の<ruby>語句<rt>ごく</rt></ruby>を正しい順<ruby>序<rt>じょ</rt></ruby>に並べてください：<ruby>彼<rt>かれ</rt></ruby>は / 3年間 / いました / アメリカに / <ruby>住<rt>す</rt></ruby>んで",
         "question": "正しい順<ruby>序<rt>じょ</rt></ruby>は？",
-        "options": ["いました <ruby>彼<rt>かれ</rt></ruby>は アメリカに 3年間 <ruby>住<rt>すわる</rt></ruby>んで",
-          "いました <ruby>住<rt>すわる</rt></ruby>んで 3年間 アメリカに <ruby>彼<rt>かれ</rt></ruby>は",
-          "アメリカに 3年間 <ruby>住<rt>すわる</rt></ruby>んで いました <ruby>彼<rt>かれ</rt></ruby>は",
-          "<ruby>彼<rt>かれ</rt></ruby>はアメリカに3年間<ruby>住<rt>すわる</rt></ruby>んでいました"],
+        "options": ["いました <ruby>彼<rt>かれ</rt></ruby>は アメリカに 3年間 <ruby>住<rt>す</rt></ruby>んで",
+          "いました <ruby>住<rt>す</rt></ruby>んで 3年間 アメリカに <ruby>彼<rt>かれ</rt></ruby>は",
+          "アメリカに 3年間 <ruby>住<rt>す</rt></ruby>んで いました <ruby>彼<rt>かれ</rt></ruby>は",
+          "<ruby>彼<rt>かれ</rt></ruby>はアメリカに3年間<ruby>住<rt>す</rt></ruby>んでいました"],
         "answer": 2,
         "id": "N4-18-049"
       },
@@ -18265,7 +18265,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>感謝<rt>かんしゃ</rt></ruby>を<ruby>伝<rt>でん</rt></ruby>えたい<ruby>場<rt>ば</rt></ruby>面です。（142）",
+        "text": "<ruby>感謝<rt>かんしゃ</rt></ruby>を<ruby>伝<rt>つた</rt></ruby>えたい<ruby>場<rt>ば</rt></ruby>面です。（142）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
           "📌",
@@ -18438,7 +18438,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>恩<rt>おん</rt></ruby>を<ruby>感<rt>かん</rt></ruby>じていることを<ruby>伝<rt>でん</rt></ruby>えたい<ruby>場<rt>ば</rt></ruby>面です。（143）",
+        "text": "<ruby>恩<rt>おん</rt></ruby>を<ruby>感<rt>かん</rt></ruby>じていることを<ruby>伝<rt>つた</rt></ruby>えたい<ruby>場<rt>ば</rt></ruby>面です。（143）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
           "📌",
@@ -20543,7 +20543,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "聴解（即時応答）",
-        "text": "手<ruby>伝<rt>でん</rt></ruby>ってもらえますか。（319）",
+        "text": "手<ruby>伝<rt>つた</rt></ruby>ってもらえますか。（319）",
         "question": "返<ruby>答<rt>とう</rt></ruby>は？",
         "options": ["わかりません",
           "はい、食べました",
@@ -20623,7 +20623,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "聴解（発話表現）",
-        "text": "<ruby>心<rt>こころ</rt></ruby>配を<ruby>伝<rt>でん</rt></ruby>えたい<ruby>場<rt>ば</rt></ruby>面です。（153）",
+        "text": "<ruby>心<rt>こころ</rt></ruby>配を<ruby>伝<rt>つた</rt></ruby>えたい<ruby>場<rt>ば</rt></ruby>面です。（153）",
         "question": "<ruby>適切な<rt>てきせつな</rt></ruby>表<ruby>現<rt>あらわ</rt></ruby>は？",
         "options": ["📌",
           "📌",

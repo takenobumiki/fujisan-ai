@@ -1162,7 +1162,7 @@ window.MOCK_DATA['N5'] = {
       },
       {
         "type": "文章の文法",
-        "text": "<ruby>困難<rt>こんなん</rt></ruby>（　）<ruby>乗<rt>のむ</rt></ruby>り<ruby>越<rt>こ</rt></ruby>え、<ruby>目標<rt>もくひょう</rt></ruby>を達<ruby>成<rt>せい</rt></ruby>した。（6）",
+        "text": "<ruby>困難<rt>こんなん</rt></ruby>（　）<ruby>乗<rt>の</rt></ruby>り<ruby>越<rt>こ</rt></ruby>え、<ruby>目標<rt>もくひょう</rt></ruby>を達<ruby>成<rt>せい</rt></ruby>した。（6）",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": ["に",
           "を",
@@ -6062,7 +6062,7 @@ window.MOCK_DATA['N5'] = {
       },
       {
         "type": "文章の文法",
-        "text": "<ruby>困難<rt>こんなん</rt></ruby>（　）<ruby>乗<rt>のむ</rt></ruby>り<ruby>越<rt>こ</rt></ruby>え、<ruby>目標<rt>もくひょう</rt></ruby>を達<ruby>成<rt>せい</rt></ruby>した。（31）",
+        "text": "<ruby>困難<rt>こんなん</rt></ruby>（　）<ruby>乗<rt>の</rt></ruby>り<ruby>越<rt>こ</rt></ruby>え、<ruby>目標<rt>もくひょう</rt></ruby>を達<ruby>成<rt>せい</rt></ruby>した。（31）",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": ["に",
           "を",
@@ -10962,7 +10962,7 @@ window.MOCK_DATA['N5'] = {
       },
       {
         "type": "文章の文法",
-        "text": "<ruby>困難<rt>こんなん</rt></ruby>（　）<ruby>乗<rt>のむ</rt></ruby>り<ruby>越<rt>こ</rt></ruby>え、<ruby>目標<rt>もくひょう</rt></ruby>を達<ruby>成<rt>せい</rt></ruby>した。（56）",
+        "text": "<ruby>困難<rt>こんなん</rt></ruby>（　）<ruby>乗<rt>の</rt></ruby>り<ruby>越<rt>こ</rt></ruby>え、<ruby>目標<rt>もくひょう</rt></ruby>を達<ruby>成<rt>せい</rt></ruby>した。（56）",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": ["で",
           "を",
@@ -15428,7 +15428,7 @@ window.MOCK_DATA['N5'] = {
       },
       {
         "type": "文章の文法",
-        "text": "<ruby>困難<rt>こんなん</rt></ruby>（　）<ruby>乗<rt>のむ</rt></ruby>り<ruby>越<rt>こ</rt></ruby>え、<ruby>目標<rt>もくひょう</rt></ruby>を達<ruby>成<rt>せい</rt></ruby>した。（81）",
+        "text": "<ruby>困難<rt>こんなん</rt></ruby>（　）<ruby>乗<rt>の</rt></ruby>り<ruby>越<rt>こ</rt></ruby>え、<ruby>目標<rt>もくひょう</rt></ruby>を達<ruby>成<rt>せい</rt></ruby>した。（81）",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": ["を",
           "で",
