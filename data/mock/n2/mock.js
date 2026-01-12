@@ -94,7 +94,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>が犯人だ（　）疑いようがない。",
+        "text": "<ruby>彼<rt>かれ</rt></ruby>が犯人だと（　）疑いようがない。",
         "question": "（　）に入るのは？",
         "options": ["ところは",
           "ものは",
