@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.17.16';
+const APP_VERSION = '18.17.17';
 const STORAGE_KEY = 'fujisan_v1817';
 
 // ========== UI TRANSLATIONS ==========
@@ -4159,14 +4159,14 @@ function showLearningQuestion() {
     wordEl.textContent = item.k || item.w || item.p;
     readingEl.textContent = '';
     audioBtn.style.display = 'block';
-    currentWord = item.r || item.w;
+    currentWord = item.r || item.p || item.w;
     
-    correct = item.r || item.w;
+    correct = item.r || item.p || item.w;
     options = [correct];
-    pool.filter(i => i.id !== item.id && (i.r || i.w))
+    pool.filter(i => i.id !== item.id && (i.r || i.p || i.w))
       .sort(() => Math.random() - 0.5)
       .slice(0, 3)
-      .forEach(i => options.push(i.r || i.w));
+      .forEach(i => options.push(i.r || i.p || i.w));
       
   } else if (skill === 'meaning') {
     promptEl.textContent = getText('quiz_select_meaning') || 'Select the correct meaning';
@@ -4201,10 +4201,10 @@ function showLearningQuestion() {
       
   } else if (skill === 'writing') {
     promptEl.textContent = getText('quiz_select_kanji') || 'Select the correct kanji/word';
-    wordEl.textContent = item.r || item.w;
+    wordEl.textContent = item.r || item.p || item.w;
     readingEl.textContent = item.m[state.lang] || item.m.en;
     audioBtn.style.display = 'block';
-    currentWord = item.r || item.w;
+    currentWord = item.r || item.p || item.w;
     
     correct = item.k || item.w || item.p;
     options = [correct];
@@ -4231,7 +4231,7 @@ function showLearningQuestion() {
     if (extra) {
       let opt;
       if (skill === 'listening' || skill === 'writing') opt = extra.k || extra.w || extra.p;
-      else if (skill === 'reading') opt = extra.r || extra.w;
+      else if (skill === 'reading') opt = extra.r || extra.p || extra.w;
       else if (skill === 'meaning') {
         // Prefer proper translation, but fall back to English if needed
         if (hasProperTrans(extra)) {
