@@ -61,7 +61,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "天気が<ruby>良<rt>りょう</rt></ruby>い（　）、出かけよう。",
+        "text": "天気が<ruby>良い<rt>よい</rt></ruby>（　）、出かけよう。",
         "question": "（　）に入るのは？",
         "options": ["わけだし",
           "ものだし",
@@ -119,7 +119,7 @@ window.MOCK_DATA['N2'] = {
         "text": "<ruby>彼<rt>かれ</rt></ruby>は医者である（　）、研究者でもある。",
         "question": "（　）に入るのは？",
         "options": ["のみならず",
-          "に<ruby>加<rt>くわ</rt></ruby>えて",
+          "に<ruby>加<rt>くわえる</rt></ruby>えて",
           "とともに",
           "と同時に"],
         "answer": 3,
@@ -127,7 +127,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>女が来る（　）どうかわからない。",
+        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>が来る（　）どうかわからない。",
         "question": "（　）に入るのは？",
         "options": ["が",
           "に",
@@ -140,7 +140,7 @@ window.MOCK_DATA['N2'] = {
         "type": "文法形式",
         "text": "時代の変化（　）、考え方も変わる。",
         "question": "（　）に入るのは？",
-        "options": ["に<ruby>加<rt>くわ</rt></ruby>えて",
+        "options": ["に<ruby>加<rt>くわえる</rt></ruby>えて",
           "のみならず",
           "とともに",
           "と同時に"],
@@ -149,23 +149,23 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【日常会話・問301（N5レベル）】次の語句を正しい順序に並べてください：読みました / <ruby>昨<rt>さく</rt></ruby>日 / 私は / 本を / 図書館で",
+        "text": "【日常会話・問301（N5レベル）】次の語句を正しい順序に並べてください：読みました / <ruby>昨日<rt>きのう</rt></ruby> / 私は / 本を / 図書館で",
         "question": "正しい順序は？",
-        "options": ["<ruby>昨<rt>さく</rt></ruby>日 図書館で 本を 読みました 私は",
-          "読みました 私は <ruby>昨<rt>さく</rt></ruby>日 図書館で 本を",
-          "読みました 本を 図書館で <ruby>昨<rt>さく</rt></ruby>日 私は",
-          "私は<ruby>昨<rt>さく</rt></ruby>日図書館で本を読みました"],
+        "options": ["<ruby>昨日<rt>きのう</rt></ruby> 図書館で 本を 読みました 私は",
+          "読みました 私は <ruby>昨日<rt>きのう</rt></ruby> 図書館で 本を",
+          "読みました 本を 図書館で <ruby>昨日<rt>きのう</rt></ruby> 私は",
+          "私は<ruby>昨日<rt>きのう</rt></ruby>図書館で本を読みました"],
         "answer": 1,
         "id": "N2-01-045"
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問302（N4レベル）】次の語句を正しい順序に並べてください：公園を / 散歩 / します / <ruby>彼<rt>かれ</rt></ruby>女は / 毎朝",
+        "text": "【ビジネス・問302（N4レベル）】次の語句を正しい順序に並べてください：公園を / 散歩 / します / <ruby>彼女<rt>かのじょ</rt></ruby>は / 毎朝",
         "question": "正しい順序は？",
-        "options": ["<ruby>彼<rt>かれ</rt></ruby>女は毎朝公園を散歩します",
-          "毎朝 公園を 散歩 します <ruby>彼<rt>かれ</rt></ruby>女は",
-          "します <ruby>彼<rt>かれ</rt></ruby>女は 毎朝 公園を 散歩",
-          "します 散歩 公園を 毎朝 <ruby>彼<rt>かれ</rt></ruby>女は"],
+        "options": ["<ruby>彼女<rt>かのじょ</rt></ruby>は毎朝公園を散歩します",
+          "毎朝 公園を 散歩 します <ruby>彼女<rt>かのじょ</rt></ruby>は",
+          "します <ruby>彼女<rt>かのじょ</rt></ruby>は 毎朝 公園を 散歩",
+          "します 散歩 公園を 毎朝 <ruby>彼女<rt>かのじょ</rt></ruby>は"],
         "answer": 3,
         "id": "N2-01-046"
       },
@@ -204,7 +204,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文章の文法",
-        "text": "日本経済は<ruby>長期<rt>ちょうき</rt></ruby>にわたる<ruby>停滞<rt>ていたい</rt></ruby>（　）、<ruby>回<rt>まわ</rt></ruby>復の<ruby>兆<rt>ちょう</rt></ruby>しを見せている。（301）",
+        "text": "日本経済は<ruby>長期<rt>ちょうき</rt></ruby>にわたる<ruby>停滞<rt>ていたい</rt></ruby>（　）、<ruby>回復<rt>かいふく</rt></ruby>の<ruby>兆<rt>ちょう</rt></ruby>しを見せている。（301）",
         "question": "（　）に入るのは？",
         "options": ["をもって",
           "を経て",
@@ -248,7 +248,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文章の文法",
-        "text": "社会の変化（　）、教育も見<ruby>直<rt>なお</rt></ruby>しが必要だ。（305）",
+        "text": "社会の変化（　）、教育も<ruby>見直し<rt>みなおし</rt></ruby>が必要だ。（305）",
         "question": "（　）に入るのは？",
         "options": ["に伴い",
           "に対して",
@@ -259,7 +259,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が進む現代、異文化理解力が<ruby>求<rt>もと</rt></ruby>められている。文化的背景を理解することが重要だ。",
+        "text": "グローバル化が進む現代、異文化理解力が<ruby>求<rt>もとめる</rt></ruby>められている。文化的背景を理解することが重要だ。",
         "question": "筆者が言いたいことは何か。",
         "options": ["不要",
           "反対",
@@ -295,8 +295,8 @@ window.MOCK_DATA['N2'] = {
         "text": "働き方<ruby>改革<rt>かいかく</rt></ruby>で残業が減ったが、仕事量は変わらず効率化が<ruby>課題<rt>かだい</rt></ruby>となっている。",
         "question": "<ruby>課題<rt>かだい</rt></ruby>は何か。",
         "options": ["休み減",
-          "残業増<ruby>加<rt>くわ</rt></ruby>",
-          "<ruby>給<rt>きゅう</rt></ruby>料減",
+          "残業<ruby>増加<rt>ぞうか</rt></ruby>",
+          "<ruby>給料<rt>きゅうりょう</rt></ruby>減",
           "効率化"],
         "answer": 3,
         "id": "N2-01-058"
@@ -349,7 +349,7 @@ window.MOCK_DATA['N2'] = {
         "type": "読解（中文）",
         "text": "多様性を尊重する社会では全ての人が<ruby>活躍<rt>かつやく</rt></ruby>できる。違いを強みとして活かすことが重要だ。",
         "question": "多様性社会とは何か。",
-        "options": ["<ruby>競<rt>きそ</rt></ruby>争社会",
+        "options": ["<ruby>競争<rt>きょうそう</rt></ruby>社会",
           "<ruby>閉鎖<rt>へいさ</rt></ruby>社会",
           "全員が<ruby>活躍<rt>かつやく</rt></ruby>できる",
           "同じ人だけ"],
@@ -358,10 +358,10 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（中文）",
-        "text": "時間<ruby>管理<rt>かんり</rt></ruby>では優先順<ruby>位<rt>くら</rt></ruby>をつけ重要な仕事から取り組む。<ruby>完璧<rt>かんぺき</rt></ruby>を<ruby>求<rt>もと</rt></ruby>めすぎないことも大切だ。",
+        "text": "時間<ruby>管理<rt>かんり</rt></ruby>では<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>をつけ重要な仕事から取り組む。<ruby>完璧<rt>かんぺき</rt></ruby>を<ruby>求<rt>もとめる</rt></ruby>めすぎないことも大切だ。",
         "question": "大切なのは何か。",
-        "options": ["優先順<ruby>位<rt>くら</rt></ruby>",
-          "後<ruby>回<rt>まわ</rt></ruby>し",
+        "options": ["<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>",
+          "<ruby>後回し<rt>あとまわし</rt></ruby>",
           "全部同時",
           "<ruby>完璧<rt>かんぺき</rt></ruby>主義"],
         "answer": 0,
@@ -382,7 +382,7 @@ window.MOCK_DATA['N2'] = {
         "type": "読解（中文）",
         "text": "失敗を恐れていては挑戦できない。失敗は成功へのステップであり学ぶことが大切だ。",
         "question": "失敗について何と言っているか。",
-        "options": ["<ruby>避<rt>さ</rt></ruby>ける",
+        "options": ["<ruby>避ける<rt>さける</rt></ruby>",
           "無意味",
           "成功へのステップ",
           "恥ずかしい"],
@@ -406,7 +406,7 @@ window.MOCK_DATA['N2'] = {
         "question": "大切なのは何か。",
         "options": ["一人で頑張る",
           "命令",
-          "<ruby>競<rt>きそ</rt></ruby>争",
+          "<ruby>競争<rt>きょうそう</rt></ruby>",
           "強みを活かす"],
         "answer": 3,
         "id": "N2-01-068"
@@ -418,28 +418,28 @@ window.MOCK_DATA['N2'] = {
         "options": ["メリットだけ",
           "両方ある",
           "デメリットだけ",
-          "オフィスが<ruby>良<rt>りょう</rt></ruby>い"],
+          "オフィスが<ruby>良い<rt>よい</rt></ruby>"],
         "answer": 0,
         "id": "N2-01-069",
         "script": "話者A：この問題については、メリットだけという点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：はい。その通りだと思います。"
       },
       {
         "type": "統合理解",
-        "text": "【A】日本の出生率は低下、少子化が<ruby>深刻<rt>しんこく</rt></ruby>だ。【B】<ruby>高齢者<rt>こうれいしゃ</rt></ruby>人口は増<ruby>加<rt>くわ</rt></ruby>、社会保<ruby>障<rt>さわ</rt></ruby>費増大が懸念される。",
+        "text": "【A】日本の出生率は低下、少子化が<ruby>深刻<rt>しんこく</rt></ruby>だ。【B】<ruby>高齢者<rt>こうれいしゃ</rt></ruby>人口は<ruby>増加<rt>ぞうか</rt></ruby>、社会保<ruby>障<rt>さわ</rt></ruby>費増大が懸念される。",
         "question": "日本の<ruby>課題<rt>かだい</rt></ruby>は何か。",
         "options": ["<ruby>少子高齢化<rt>しょうしこうれいか</rt></ruby>",
           "経済成長",
-          "人口増<ruby>加<rt>くわ</rt></ruby>",
+          "人口<ruby>増加<rt>ぞうか</rt></ruby>",
           "失業率"],
         "answer": 2,
         "id": "N2-01-070",
-        "script": "話者A：この問題については、人口増<ruby>加<rt>くわ</rt></ruby>という点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：ええ。その通りだと思います。"
+        "script": "話者A：この問題については、人口<ruby>増加<rt>ぞうか</rt></ruby>という点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：ええ。その通りだと思います。"
       },
       {
         "type": "主張理解（長文）",
-        "text": "現代の教育には<ruby>課題<rt>かだい</rt></ruby>がある。知識詰め<ruby>込<rt>こ</rt></ruby>みから思考力重視への転換が必要だ。社会で<ruby>活躍<rt>かつやく</rt></ruby>できる<ruby>人材育成<rt>じんざいいくせい</rt></ruby>が目標であるべきだ。",
+        "text": "現代の教育には<ruby>課題<rt>かだい</rt></ruby>がある。知識詰め<ruby>込<rt>こむ</rt></ruby>みから思考力重視への転換が必要だ。社会で<ruby>活躍<rt>かつやく</rt></ruby>できる<ruby>人材育成<rt>じんざいいくせい</rt></ruby>が目標であるべきだ。",
         "question": "主張は何か。",
-        "options": ["知識詰め<ruby>込<rt>こ</rt></ruby>み",
+        "options": ["知識詰め<ruby>込<rt>こむ</rt></ruby>み",
           "教育不要",
           "テスト重視",
           "思考力重視への転換"],
@@ -469,7 +469,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-01-073"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
         "text": "【図書館案内】平日9-20時、土日祝10-18時。貸出10冊まで、2週間。<ruby>延<rt>のむ</rt></ruby><ruby>滞<rt>とどこお</rt></ruby>で貸出停止。",
         "question": "正しいのは何か。",
         "options": ["24時間",
@@ -480,7 +480,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-01-074"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
         "text": "【スピーチコンテスト】12月15日13-17時、市民ホール。日本語学習者対象。<ruby>締<rt>しめる</rt></ruby>切11月30日。無料。",
         "question": "正しいのは何か。",
         "options": ["<ruby>締<rt>しめる</rt></ruby>切11月30日",
@@ -491,7 +491,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-01-075"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "男の人と女の人が話しています。男の人はこのあとまず何をしますか。",
         "question": "まず何をしますか。",
         "options": ["会議室を予約する",
@@ -503,7 +503,7 @@ window.MOCK_DATA['N2'] = {
         "script": "男：それでは、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：会議室を予約していただけますか。\n女：<ruby>了解<rt>りょうかい</rt></ruby>です、すぐに対応します。"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "女の人と男の人が話しています。女の人はこのあと何をしますか。",
         "question": "何をしますか。",
         "options": ["電話をする",
@@ -515,31 +515,31 @@ window.MOCK_DATA['N2'] = {
         "script": "男：えーと、この件について進め方を検討しましょう。\n女：そうですか、何をすればよいでしょうか。\n男：まず会議に出席してください。\n女：承知しました。よろしくお願いします。"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "店員と客が話しています。客はこのあと何をしますか。",
         "question": "何をしますか。",
         "options": ["別の店を探す",
           "店を出る",
           "注文を変更する",
-          "支<ruby>払<rt>はら</rt></ruby>いをする"],
+          "<ruby>支払い<rt>しはらい</rt></ruby>をする"],
         "answer": 0,
         "id": "N2-01-078",
         "script": "男：次の段階に進む準備ができましたね。\n女：あのう、はい、何から始めましょうか。\n男：別の店を探すください。\n女：うん。お願いします。"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "先生と学生が話しています。学生はこのあと何をしますか。",
         "question": "何をしますか。",
         "options": ["先生に質問する",
-          "レポートを書き<ruby>直<rt>なお</rt></ruby>す",
+          "レポートを書き<ruby>直す<rt>なおす</rt></ruby>",
           "図書館で調べる",
           "友達に聞く"],
         "answer": 1,
         "id": "N2-01-079",
-        "script": "男：すみません、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：レポートを書き<ruby>直<rt>なお</rt></ruby>すいただけますか。\n女：はい、すぐに対応します。"
+        "script": "男：すみません、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：レポートを書き<ruby>直す<rt>なおす</rt></ruby>いただけますか。\n女：はい、すぐに対応します。"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "医者と患者が話しています。患者はこのあと何をしますか。",
         "question": "何をしますか。",
         "options": ["運動する",
@@ -600,10 +600,10 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "ポイント理解",
-        "text": "会議を聞いています。今後の<ruby>課題<rt>かだい</rt></ruby>として<ruby>挙<rt>あ</rt></ruby>げられているのは何ですか。",
+        "text": "会議を聞いています。今後の<ruby>課題<rt>かだい</rt></ruby>として<ruby>挙<rt>あう</rt></ruby>げられているのは何ですか。",
         "question": "<ruby>課題<rt>かだい</rt></ruby>は何ですか。",
         "options": ["納<ruby>期<rt>き</rt></ruby>短縮",
-          "コスト<ruby>削減<rt>さくげん</rt></ruby>",
+          "<ruby>コスト削減<rt>こすとさくげん</rt></ruby>",
           "<ruby>人材育成<rt>じんざいいくせい</rt></ruby>",
           "品質向上"],
         "answer": 3,
@@ -615,7 +615,7 @@ window.MOCK_DATA['N2'] = {
         "text": "プレゼンを聞いています。この提案のメリットは何ですか。",
         "question": "メリットは何ですか。",
         "options": ["リスク低減",
-          "コスト<ruby>削減<rt>さくげん</rt></ruby>",
+          "<ruby>コスト削減<rt>こすとさくげん</rt></ruby>",
           "効率化",
           "顧客満足度向上"],
         "answer": 2,
@@ -652,7 +652,7 @@ window.MOCK_DATA['N2'] = {
         "question": "主に何について？",
         "options": ["将来",
           "<ruby>趣味<rt>しゅみ</rt></ruby>",
-          "<ruby>家<rt>いえ</rt></ruby>族",
+          "<ruby>家族<rt>かぞく</rt></ruby>",
           "キャリア"],
         "answer": 3,
         "id": "N2-01-089",
@@ -683,8 +683,8 @@ window.MOCK_DATA['N2'] = {
         "script": "<ruby>今回<rt>こんかい</rt></ruby>お伝えしたいのは教育についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "お支<ruby>払<rt>はら</rt></ruby>いは現金ですか。（145）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "お<ruby>支払い<rt>しはらい</rt></ruby>は現金ですか。（145）",
         "question": "返答は？",
         "options": ["わかりません",
           "カードでお願いします",
@@ -694,7 +694,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-01-092"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "領収書は要りますか。（146）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -705,7 +705,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-01-093"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "ご予約はされていますか。（147）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -716,7 +716,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-01-094"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お<ruby>荷物<rt>にもつ</rt></ruby>をお預かりしましょうか。（148）",
         "question": "返答は？",
         "options": ["お願いします",
@@ -727,7 +727,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-01-095"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "チェックアウトは何時ですか。（149）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -738,7 +738,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-01-096"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "朝食は何時からですか。（150）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -749,7 +749,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-01-097"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "すみません、トイレはどこですか。（151）",
         "question": "返答は？",
         "options": ["いいえ、違います",
@@ -760,8 +760,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-01-098"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "この電車は<ruby>渋<rt>しぶ</rt></ruby>谷に止まりますか。（152）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "この電車は<ruby>渋谷<rt>しぶや</rt></ruby>に止まりますか。（152）",
         "question": "返答は？",
         "options": ["いいえ、違います",
           "はい、止まります",
@@ -771,7 +771,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-01-099"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お水をいただけますか。（153）",
         "question": "返答は？",
         "options": ["はい、どうぞ",
@@ -782,7 +782,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-01-100"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "何名様ですか。（155）",
         "question": "返答は？",
         "options": ["いいえ、違います",
@@ -793,7 +793,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-01-102"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "ここで待っていてもいいですか。（154）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -804,7 +804,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-01-101"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "禁煙席でよろしいですか。（156）",
         "question": "返答は？",
         "options": ["いいえ、違います",
@@ -865,17 +865,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>けんこうしんだん</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["売買",
           "<ruby>医療過誤<rt>いりょうかご</rt></ruby>",
           "健康<ruby>診断<rt>しんだん</rt></ruby>",
-          "<ruby>既<rt>すで</rt></ruby>に"],
+          "<ruby>既に<rt>すでに</rt></ruby>"],
         "answer": 2
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>かくにん</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["収める",
@@ -885,7 +885,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>きょうてい</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["<ruby>駄目<rt>だめ</rt></ruby>",
@@ -895,7 +895,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>らくせん</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["落選",
@@ -905,12 +905,12 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>たかまる</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["原告",
           "政争",
-          "原<ruby>材<rt>ざい</rt></ruby>料",
+          "原<ruby>材料<rt>ざいりょう</rt></ruby>",
           "高まる"],
         "answer": 3
       },
@@ -965,7 +965,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "子供に深い（　）を注ぐ",
         "question": "（　）に入るのは？",
         "options": ["検討事項",
@@ -975,17 +975,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "<ruby>彼<rt>かれ</rt></ruby>は（　）元気だ",
         "question": "（　）に入るのは？",
         "options": ["相変わらず",
-          "福<ruby>祉<rt>し</rt></ruby>",
+          "<ruby>福祉<rt>ふくし</rt></ruby>",
           "<ruby>出荷<rt>しゅっか</rt></ruby>検査",
           "元"],
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "（　）な態度を取る",
         "question": "（　）に入るのは？",
         "options": ["校舎",
@@ -995,27 +995,27 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "交通事故に（　）",
         "question": "（　）に入るのは？",
-        "options": ["<ruby>遭<rt>あ</rt></ruby>う",
+        "options": ["<ruby>遭う<rt>あう</rt></ruby>",
           "響く",
           "企業",
           "亡くなる"],
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "不安を（　）報道",
         "question": "（　）に入るのは？",
-        "options": ["<ruby>褒<rt>ほ</rt></ruby>める",
+        "options": ["<ruby>褒める<rt>ほめる</rt></ruby>",
           "混じる",
-          "<ruby>励<rt>はげ</rt></ruby>む",
+          "<ruby>励む<rt>はげむ</rt></ruby>",
           "煽る"],
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "相手チームを（　）する",
         "question": "（　）に入るのは？",
         "options": ["情報通信技術",
@@ -1025,7 +1025,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "上司から（　）をかけられる",
         "question": "（　）に入るのは？",
         "options": ["巧妙",
@@ -1035,7 +1035,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "計算の（　）を見つける",
         "question": "（　）に入るのは？",
         "options": ["助教",
@@ -1045,8 +1045,8 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
-        "text": "一<ruby>位<rt>くら</rt></ruby>を（　）試合",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
+        "text": "一<ruby>位<rt>くらい</rt></ruby>を（　）試合",
         "question": "（　）に入るのは？",
         "options": ["リードタイム",
           "争う",
@@ -1055,17 +1055,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "会社の（　）を振り返る",
         "question": "（　）に入るのは？",
-        "options": ["<ruby>釣<rt>つける</rt></ruby>る",
+        "options": ["<ruby>釣る<rt>つる</rt></ruby>",
           "放棄する",
           "歩み",
           "受注活動"],
         "answer": 2
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "体重を（　）する",
         "question": "（　）に入るのは？",
         "options": ["保護",
@@ -1075,17 +1075,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "（　）確認しておく",
         "question": "（　）に入るのは？",
-        "options": ["<ruby>請求<rt>せいきゅう</rt></ruby>書",
+        "options": ["<ruby>請求書<rt>せいきゅうしょ</rt></ruby>",
           "音声認識",
           "<ruby>弾力<rt>だんりょく</rt></ruby>",
           "一応"],
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "（　）は言えない問題",
         "question": "（　）に入るのは？",
         "options": ["環境問題",
@@ -1095,7 +1095,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "電車で（　）する",
         "question": "（　）に入るのは？",
         "options": ["理想",
@@ -1105,41 +1105,41 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "会社を（　）",
         "question": "（　）に入るのは？",
         "options": ["抜き取り検査",
-          "<ruby>訴<rt>うった</rt></ruby>える",
+          "<ruby>訴える<rt>うったえる</rt></ruby>",
           "引当金",
           "苦い"],
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "（　）を伸ばす",
         "question": "（　）に入るのは？",
         "options": ["<ruby>併<rt>あわ</rt></ruby>用",
           "<ruby>家<rt>いえ</rt></ruby>庭",
           "売り上げ",
-          "総選<ruby>挙<rt>あ</rt></ruby>"],
+          "総選<ruby>挙<rt>あう</rt></ruby>"],
         "answer": 2
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "予想を（　）業績",
         "question": "（　）に入るのは？",
         "options": ["傷口",
           "<ruby>威力<rt>いりょく</rt></ruby>",
-          "上<ruby>回<rt>まわ</rt></ruby>る",
+          "<ruby>上回る<rt>うわまわる</rt></ruby>",
           "終わり"],
         "answer": 2
       },
       {
         "type": "言い換え",
-        "text": "<ruby>労働<rt>ろうどう</rt></ruby>環境を<ruby>改<rt>あら</rt></ruby>善するの意味は？",
+        "text": "<ruby>労働<rt>ろうどう</rt></ruby>環境を<ruby>改善<rt>かいぜん</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": ["三権分立",
-          "<ruby>励<rt>はげ</rt></ruby>む",
+          "<ruby>励む<rt>はげむ</rt></ruby>",
           "国<ruby>家<rt>いえ</rt></ruby>機関",
           "<ruby>状況<rt>じょうきょう</rt></ruby>"],
         "answer": 3
@@ -1192,7 +1192,7 @@ window.MOCK_DATA['N2'] = {
         "question": "（　）に入るのは？",
         "options": ["と同時に",
           "のみならず",
-          "に<ruby>加<rt>くわ</rt></ruby>えて",
+          "に<ruby>加<rt>くわえる</rt></ruby>えて",
           "とともに"],
         "answer": 2,
         "id": "N2-02-033"
@@ -1201,7 +1201,7 @@ window.MOCK_DATA['N2'] = {
         "type": "文法形式",
         "text": "日本（　）、海外でも人気がある。",
         "question": "（　）に入るのは？",
-        "options": ["に<ruby>加<rt>くわ</rt></ruby>えて",
+        "options": ["に<ruby>加<rt>くわえる</rt></ruby>えて",
           "とともに",
           "と同時に",
           "のみならず"],
@@ -1213,7 +1213,7 @@ window.MOCK_DATA['N2'] = {
         "text": "<ruby>年齢<rt>ねんれい</rt></ruby>を重ねる（　）、体力が落ちてきた。",
         "question": "（　）に入るのは？",
         "options": ["にしたがって",
-          "に<ruby>加<rt>くわ</rt></ruby>えて",
+          "に<ruby>加<rt>くわえる</rt></ruby>えて",
           "につれて",
           "とともに"],
         "answer": 2,
@@ -1223,7 +1223,7 @@ window.MOCK_DATA['N2'] = {
         "type": "文法形式",
         "text": "指示（　）、行動してください。",
         "question": "（　）に入るのは？",
-        "options": ["に<ruby>加<rt>くわ</rt></ruby>えて",
+        "options": ["に<ruby>加<rt>くわえる</rt></ruby>えて",
           "につれて",
           "にしたがって",
           "とともに"],
@@ -1235,7 +1235,7 @@ window.MOCK_DATA['N2'] = {
         "text": "春が近づく（　）、暖かくなってきた。",
         "question": "（　）に入るのは？",
         "options": ["とともに",
-          "に<ruby>加<rt>くわ</rt></ruby>えて",
+          "に<ruby>加<rt>くわえる</rt></ruby>えて",
           "にしたがって",
           "につれて"],
         "answer": 3,
@@ -1247,14 +1247,14 @@ window.MOCK_DATA['N2'] = {
         "question": "（　）に入るのは？",
         "options": ["につれて",
           "にしたがって",
-          "に<ruby>加<rt>くわ</rt></ruby>えて",
+          "に<ruby>加<rt>くわえる</rt></ruby>えて",
           "とともに"],
         "answer": 1,
         "id": "N2-02-038"
       },
       {
         "type": "文法形式",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>女は美しい（　）、頭もいい。",
+        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は美しい（　）、頭もいい。",
         "question": "（　）に入るのは？",
         "options": ["のみならず",
           "どころか",
@@ -1375,7 +1375,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文章の文法",
-        "text": "困難（　）乗り<ruby>越<rt>こ</rt></ruby>え、目標を達成した。（306）",
+        "text": "困難（　）乗り<ruby>越<rt>こえる</rt></ruby>え、目標を達成した。（306）",
         "question": "（　）に入るのは？",
         "options": ["から",
           "に",
@@ -1386,7 +1386,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文章の文法",
-        "text": "専門<ruby>家<rt>いえ</rt></ruby>（　）意見を聞く必要がある。（307）",
+        "text": "<ruby>専門家<rt>せんもんか</rt></ruby>（　）意見を聞く必要がある。（307）",
         "question": "（　）に入るのは？",
         "options": ["から",
           "の",
@@ -1454,7 +1454,7 @@ window.MOCK_DATA['N2'] = {
         "type": "読解（短文）",
         "text": "リモートワークは<ruby>通勤<rt>つうきん</rt></ruby><ruby>削減<rt>さくげん</rt></ruby>できるがコミュニケーション不足になりやすい。",
         "question": "<ruby>課題<rt>かだい</rt></ruby>は何か。",
-        "options": ["<ruby>給<rt>きゅう</rt></ruby>料減",
+        "options": ["<ruby>給料<rt>きゅうりょう</rt></ruby>減",
           "休めない",
           "<ruby>通勤<rt>つうきん</rt></ruby>",
           "コミュニケーション不足"],
@@ -1474,7 +1474,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "教育では知識詰め<ruby>込<rt>こ</rt></ruby>みより考える力を養うことが重視されている。",
+        "text": "教育では知識詰め<ruby>込<rt>こむ</rt></ruby>みより考える力を養うことが重視されている。",
         "question": "重視されているのは何か。",
         "options": ["体力",
           "暗<ruby>記<rt>しる</rt></ruby>力",
@@ -1532,20 +1532,20 @@ window.MOCK_DATA['N2'] = {
         "text": "働き方<ruby>改革<rt>かいかく</rt></ruby>では<ruby>労働<rt>ろうどう</rt></ruby>時間短縮だけでなく生産性向上が重要だ。多様な働き方も認めるべきだ。",
         "question": "重要なのは何か。",
         "options": ["時間短縮だけ",
-          "<ruby>給<rt>きゅう</rt></ruby>料アップ",
-          "休み増<ruby>加<rt>くわ</rt></ruby>",
+          "<ruby>給料<rt>きゅうりょう</rt></ruby>アップ",
+          "休み<ruby>増加<rt>ぞうか</rt></ruby>",
           "生産性向上と多様性"],
         "answer": 3,
         "id": "N2-02-064"
       },
       {
         "type": "読解（中文）",
-        "text": "教育では知識詰め<ruby>込<rt>こ</rt></ruby>みから思考力重視への転換が<ruby>求<rt>もと</rt></ruby>められている。社会で<ruby>活躍<rt>かつやく</rt></ruby>できる<ruby>人材育成<rt>じんざいいくせい</rt></ruby>が目標だ。",
-        "question": "<ruby>求<rt>もと</rt></ruby>められているのは何か。",
+        "text": "教育では知識詰め<ruby>込<rt>こむ</rt></ruby>みから思考力重視への転換が<ruby>求<rt>もとめる</rt></ruby>められている。社会で<ruby>活躍<rt>かつやく</rt></ruby>できる<ruby>人材育成<rt>じんざいいくせい</rt></ruby>が目標だ。",
+        "question": "<ruby>求<rt>もとめる</rt></ruby>められているのは何か。",
         "options": ["不要",
           "思考力重視",
           "テスト重視",
-          "知識詰め<ruby>込<rt>こ</rt></ruby>み"],
+          "知識詰め<ruby>込<rt>こむ</rt></ruby>み"],
         "answer": 1,
         "id": "N2-02-065"
       },
@@ -1584,7 +1584,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "統合理解",
-        "text": "【A】電気自動車は環境に優しくCO2<ruby>削減<rt>さくげん</rt></ruby>できる。【B】<ruby>充電<rt>じゅうでん</rt></ruby>インフラ整備が遅れ長<ruby>距離<rt>きょり</rt></ruby>移動に<ruby>課題<rt>かだい</rt></ruby>がある。",
+        "text": "【A】電気自動車は環境に優しく<ruby>CO2削減<rt>しーおーつーさくげん</rt></ruby>できる。【B】<ruby>充電<rt>じゅうでん</rt></ruby>インフラ整備が遅れ長<ruby>距離<rt>きょり</rt></ruby>移動に<ruby>課題<rt>かだい</rt></ruby>がある。",
         "question": "分かることは何か。",
         "options": ["使えない",
           "メリットと<ruby>課題<rt>かだい</rt></ruby>がある",
@@ -1608,7 +1608,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "AI発展は社会に<ruby>変革<rt>へんかく</rt></ruby>をもたらしている。AIを恐れるのではなく共存方法を考えるべきだ。人間の創造性や<ruby>共感<rt>きょうかん</rt></ruby>力を<ruby>磨<rt>みが</rt></ruby>くことが鍵となる。",
+        "text": "AI発展は社会に<ruby>変革<rt>へんかく</rt></ruby>をもたらしている。AIを恐れるのではなく共存方法を考えるべきだ。人間の創造性や<ruby>共感<rt>きょうかん</rt></ruby>力を<ruby>磨く<rt>みがく</rt></ruby>ことが鍵となる。",
         "question": "主張は何か。",
         "options": ["全てAI任せ",
           "AI禁止",
@@ -1623,49 +1623,49 @@ window.MOCK_DATA['N2'] = {
         "question": "重要なのは何か。",
         "options": ["生産性と多様性",
           "時間短縮だけ",
-          "<ruby>給<rt>きゅう</rt></ruby>料アップ",
-          "休み増<ruby>加<rt>くわ</rt></ruby>"],
+          "<ruby>給料<rt>きゅうりょう</rt></ruby>アップ",
+          "休み<ruby>増加<rt>ぞうか</rt></ruby>"],
         "answer": 2,
         "id": "N2-02-072"
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>少子高齢化<rt>しょうしこうれいか</rt></ruby>は<ruby>深刻<rt>しんこく</rt></ruby>な問題だ。社会保<ruby>障<rt>さわ</rt></ruby>の持続性と経済成長の両立が<ruby>課題<rt>かだい</rt></ruby>だ。若い世代と<ruby>高齢<rt>こうれい</rt></ruby>世代の相互理解も重要である。",
+        "text": "<ruby>少子高齢化<rt>しょうしこうれいか</rt></ruby>は<ruby>深刻な<rt>しんこくな</rt></ruby>問題だ。社会保<ruby>障<rt>さわ</rt></ruby>の持続性と経済成長の両立が<ruby>課題<rt>かだい</rt></ruby>だ。若い世代と<ruby>高齢<rt>こうれい</rt></ruby>世代の相互理解も重要である。",
         "question": "<ruby>課題<rt>かだい</rt></ruby>は何か。",
         "options": ["若者だけ支援",
-          "<ruby>高齢者<rt>こうれいしゃ</rt></ruby><ruby>排<rt>はい</rt></ruby>除",
+          "<ruby>高齢者<rt>こうれいしゃ</rt></ruby><ruby>排除<rt>はいじょ</rt></ruby>",
           "何もしない",
           "社会保<ruby>障<rt>さわ</rt></ruby>と経済の両立"],
         "answer": 0,
         "id": "N2-02-073"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
-        "text": "【ビジネスセミナー】毎週水曜18:30-20:30。定員20名先着順。1<ruby>回<rt>まわ</rt></ruby>3,000円、5<ruby>回<rt>まわ</rt></ruby>12,000円。",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
+        "text": "【ビジネスセミナー】毎週水曜18:30-20:30。定員20名先着順。1<ruby>回<rt>まわす</rt></ruby>3,000円、5<ruby>回<rt>まわす</rt></ruby>12,000円。",
         "question": "正しいのは何か。",
         "options": ["土曜日",
           "無料",
           "定員50名",
-          "5<ruby>回<rt>まわ</rt></ruby>で12,000円"],
+          "5<ruby>回<rt>まわす</rt></ruby>で12,000円"],
         "answer": 3,
         "id": "N2-02-074"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
-        "text": "【アルバイト】時<ruby>給<rt>きゅう</rt></ruby>1,100円（研修1,000円）。9-22時で4時間以上。18<ruby>歳<rt>さい</rt></ruby>以上、週3日以上。交通費支<ruby>給<rt>きゅう</rt></ruby>。",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
+        "text": "【アルバイト】<ruby>時給<rt>じきゅう</rt></ruby>1,100円（研修1,000円）。9-22時で4時間以上。18<ruby>歳<rt>さい</rt></ruby>以上、週3日以上。交通費支<ruby>給<rt>きゅう</rt></ruby>。",
         "question": "正しいのは何か。",
         "options": ["交通費支<ruby>給<rt>きゅう</rt></ruby>あり",
           "週1日可",
-          "時<ruby>給<rt>きゅう</rt></ruby>1,200円",
+          "<ruby>時給<rt>じきゅう</rt></ruby>1,200円",
           "17<ruby>歳<rt>さい</rt></ruby>可"],
         "answer": 1,
         "id": "N2-02-075"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "上司と部下が話しています。部下はこのあと何をしますか。",
         "question": "何をしますか。",
-        "options": ["クライアントに<ruby>連絡<rt>れんらく</rt></ruby>する",
+        "options": ["クライアントに<ruby>連絡する<rt>れんらくする</rt></ruby>",
           "報告書を作成する",
           "データを確認する",
           "会議を設定する"],
@@ -1674,7 +1674,7 @@ window.MOCK_DATA['N2'] = {
         "script": "男：それでは、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：データを確認していただけますか。\n女：<ruby>了解<rt>りょうかい</rt></ruby>です、すぐに対応します。"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "受付と来客が話しています。来客はこのあと何をしますか。",
         "question": "何をしますか。",
         "options": ["ロビーで待つ",
@@ -1686,11 +1686,11 @@ window.MOCK_DATA['N2'] = {
         "script": "男：えーと、この件について進め方を検討しましょう。\n女：そうですか、何をすればよいでしょうか。\n男：まず書類に<ruby>記入<rt>きにゅう</rt></ruby>してください。\n女：承知しました。よろしくお願いします。"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "<ruby>旅行<rt>りょこう</rt></ruby>会社の人と客が話しています。客はこのあと何をしますか。",
         "question": "何をしますか。",
         "options": ["予約をキャンセルする",
-          "<ruby>追加<rt>ついか</rt></ruby>料金を<ruby>払<rt>はら</rt></ruby>う",
+          "<ruby>追加<rt>ついか</rt></ruby>料金を<ruby>払う<rt>はらう</rt></ruby>",
           "パンフレットを見る",
           "別のプランを選ぶ"],
         "answer": 2,
@@ -1698,7 +1698,7 @@ window.MOCK_DATA['N2'] = {
         "script": "男：次の段階に進む準備ができましたね。\n女：あのう、はい、何から始めましょうか。\n男：パンフレットを見るください。\n女：うん。お願いします。"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "銀行員と客が話しています。客はこのあと何をしますか。",
         "question": "何をしますか。",
         "options": ["窓口で待つ",
@@ -1710,11 +1710,11 @@ window.MOCK_DATA['N2'] = {
         "script": "男：すみません、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：書類に<ruby>記入<rt>きにゅう</rt></ruby>していただけますか。\n女：はい、すぐに対応します。"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "不動産屋と客が話しています。客はこのあと何をしますか。",
         "question": "何をしますか。",
         "options": ["保証人を探す",
-          "引っ<ruby>越<rt>こ</rt></ruby>し日を決める",
+          "<ruby>引っ越し<rt>ひっこし</rt></ruby>日を決める",
           "契約書を確認する",
           "物件を見に行く"],
         "answer": 3,
@@ -1735,7 +1735,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "ポイント理解",
-        "text": "ラジオを聞いています。専門<ruby>家<rt>いえ</rt></ruby>が心配しているのは何ですか。",
+        "text": "ラジオを聞いています。<ruby>専門家<rt>せんもんか</rt></ruby>が心配しているのは何ですか。",
         "question": "心配しているのは？",
         "options": ["環境への影響",
           "経済への影響",
@@ -1762,9 +1762,9 @@ window.MOCK_DATA['N2'] = {
         "text": "スピーチを聞いています。話者が<ruby>感謝<rt>かんしゃ</rt></ruby>しているのは何ですか。",
         "question": "<ruby>感謝<rt>かんしゃ</rt></ruby>しているのは？",
         "options": ["周囲の支援",
-          "<ruby>家<rt>いえ</rt></ruby>族の理解",
+          "<ruby>家族<rt>かぞく</rt></ruby>の理解",
           "顧客の信頼",
-          "同<ruby>僚<rt>りょう</rt></ruby>の協力"],
+          "<ruby>同僚<rt>どうりょう</rt></ruby>の協力"],
         "answer": 0,
         "id": "N2-02-084",
         "script": "周囲の支援が最も重要な要素です。様々な観点から検討しましたが、この点を強調したいと思います。"
@@ -1773,9 +1773,9 @@ window.MOCK_DATA['N2'] = {
         "type": "ポイント理解",
         "text": "報告を聞いています。問題の解決策として提案されているのは何ですか。",
         "question": "解決策は何ですか。",
-        "options": ["人員増<ruby>加<rt>くわ</rt></ruby>",
+        "options": ["人員<ruby>増加<rt>ぞうか</rt></ruby>",
           "ルール変更",
-          "システム<ruby>改<rt>あら</rt></ruby>善",
+          "システム<ruby>改善<rt>かいぜん</rt></ruby>",
           "研修実<ruby>施<rt>ほどこ</rt></ruby>"],
         "answer": 1,
         "id": "N2-02-085",
@@ -1854,7 +1854,7 @@ window.MOCK_DATA['N2'] = {
         "script": "<ruby>今回<rt>こんかい</rt></ruby>お伝えしたいのは過去の経験についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お持ち帰りですか。（157）",
         "question": "返答は？",
         "options": ["いいえ、違います",
@@ -1865,7 +1865,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-02-092"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "<ruby>袋<rt>ふくろ</rt></ruby>は要りますか。（158）",
         "question": "返答は？",
         "options": ["はい、お願いします",
@@ -1876,7 +1876,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-02-093"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "ポイントカードはお持ちですか。（159）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -1887,8 +1887,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-02-094"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "お支<ruby>払<rt>はら</rt></ruby>いは現金ですか。（160）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "お<ruby>支払い<rt>しはらい</rt></ruby>は現金ですか。（160）",
         "question": "返答は？",
         "options": ["はい、食べました",
           "カードでお願いします",
@@ -1898,7 +1898,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-02-095"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "領収書は要りますか。（161）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -1909,7 +1909,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-02-096"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "ご予約はされていますか。（162）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -1920,7 +1920,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-02-097"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お<ruby>荷物<rt>にもつ</rt></ruby>をお預かりしましょうか。（163）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -1931,7 +1931,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-02-098"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "チェックアウトは何時ですか。（164）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -1942,7 +1942,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-02-099"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "朝食は何時からですか。（165）",
         "question": "返答は？",
         "options": ["7時からです",
@@ -1953,7 +1953,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-02-100"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "すみません、トイレはどこですか。（166）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -1964,8 +1964,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-02-101"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "この電車は<ruby>渋<rt>しぶ</rt></ruby>谷に止まりますか。（167）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "この電車は<ruby>渋谷<rt>しぶや</rt></ruby>に止まりますか。（167）",
         "question": "返答は？",
         "options": ["わかりません",
           "いいえ、違います",
@@ -1975,7 +1975,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-02-102"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お水をいただけますか。（168）",
         "question": "返答は？",
         "options": ["はい、どうぞ",
@@ -2036,7 +2036,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>かこむ</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["囲む",
@@ -2046,7 +2046,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>しょうしこうれいか</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["厳密な",
@@ -2056,17 +2056,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>けずる</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>削<rt>けず</rt></ruby>る",
+        "options": ["<ruby>削る<rt>けずる</rt></ruby>",
           "大学生",
           "投げる",
           "集会"],
         "answer": 0
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>かんぶ</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["<ruby>期<rt>き</rt></ruby>限",
@@ -2076,12 +2076,12 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>しもんする</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["市民",
-          "<ruby>壊滅<rt>かいめつ</rt></ruby>的な",
-          "<ruby>諮<rt>はか</rt></ruby>問する",
+          "<ruby>壊滅的な<rt>かいめつてきな</rt></ruby>",
+          "<ruby>諮問する<rt>しもんする</rt></ruby>",
           "染まる"],
         "answer": 2
       },
@@ -2136,7 +2136,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "イベントを（　）する",
         "question": "（　）に入るのは？",
         "options": ["包括する",
@@ -2146,7 +2146,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "資産を（　）する",
         "question": "（　）に入るのは？",
         "options": ["<ruby>出荷<rt>しゅっか</rt></ruby>検査",
@@ -2156,7 +2156,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "信頼を（　）",
         "question": "（　）に入るのは？",
         "options": ["得る",
@@ -2166,8 +2166,8 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
-        "text": "（　）にコストを<ruby>削減<rt>さくげん</rt></ruby>する",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
+        "text": "（　）にコストを<ruby>削減する<rt>さくげんする</rt></ruby>",
         "question": "（　）に入るのは？",
         "options": ["<ruby>大幅<rt>おおはば</rt></ruby>",
           "企業",
@@ -2176,17 +2176,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
-        "text": "<ruby>良<rt>りょう</rt></ruby>い成績を（　）",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
+        "text": "<ruby>良い<rt>よい</rt></ruby>成績を（　）",
         "question": "（　）に入るのは？",
-        "options": ["<ruby>褒<rt>ほ</rt></ruby>める",
-          "<ruby>励<rt>はげ</rt></ruby>む",
+        "options": ["<ruby>褒める<rt>ほめる</rt></ruby>",
+          "<ruby>励む<rt>はげむ</rt></ruby>",
           "収める",
           "当選"],
         "answer": 2
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "（　）考える",
         "question": "（　）に入るのは？",
         "options": ["笑い",
@@ -2196,7 +2196,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "仕事と予定が（　）",
         "question": "（　）に入るのは？",
         "options": ["解明する",
@@ -2206,7 +2206,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "<ruby>彼<rt>かれ</rt></ruby>の意見に（　）",
         "question": "（　）に入るのは？",
         "options": ["助教",
@@ -2216,8 +2216,8 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
-        "text": "<ruby>労働<rt>ろうどう</rt></ruby>（　）を<ruby>改<rt>あら</rt></ruby>善する",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
+        "text": "<ruby>労働<rt>ろうどう</rt></ruby>（　）を<ruby>改善<rt>かいぜん</rt></ruby>する",
         "question": "（　）に入るのは？",
         "options": ["戦い",
           "ろくに",
@@ -2226,17 +2226,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "別の（　）から考える",
         "question": "（　）に入るのは？",
         "options": ["受注活動",
-          "<ruby>釣<rt>つける</rt></ruby>る",
+          "<ruby>釣る<rt>つる</rt></ruby>",
           "観点",
           "高まる"],
         "answer": 2
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "キャリアを（　）",
         "question": "（　）に入るのは？",
         "options": ["築く",
@@ -2246,17 +2246,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "評価の（　）を設ける",
         "question": "（　）に入るのは？",
         "options": ["基準",
           "<ruby>弾力<rt>だんりょく</rt></ruby>",
-          "<ruby>請求<rt>せいきゅう</rt></ruby>書",
+          "<ruby>請求書<rt>せいきゅうしょ</rt></ruby>",
           "小売物価"],
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "（　）考える",
         "question": "（　）に入るのは？",
         "options": ["環境問題",
@@ -2266,17 +2266,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "システムが（　）する",
         "question": "（　）に入るのは？",
         "options": ["<ruby>英雄<rt>えいゆう</rt></ruby>",
           "機能",
           "理想",
-          "<ruby>起訴<rt>きそ</rt></ruby>する"],
+          "<ruby>起訴する<rt>きそする</rt></ruby>"],
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "事業の（　）を<ruby>拡大<rt>かくだい</rt></ruby>する",
         "question": "（　）に入るのは？",
         "options": ["引当金",
@@ -2286,17 +2286,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "体制を（　）する",
         "question": "（　）に入るのは？",
-        "options": ["総選<ruby>挙<rt>あ</rt></ruby>",
+        "options": ["総選<ruby>挙<rt>あう</rt></ruby>",
           "<ruby>併<rt>あわ</rt></ruby>用",
           "強化",
           "イノベーション"],
         "answer": 2
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "電力の（　）が安定する",
         "question": "（　）に入るのは？",
         "options": ["マニフェスト",
@@ -2309,10 +2309,10 @@ window.MOCK_DATA['N2'] = {
         "type": "言い換え",
         "text": "体制を強化するの意味は？",
         "question": "意味が近いのは？",
-        "options": ["<ruby>請求<rt>せいきゅう</rt></ruby>書",
-          "<ruby>釣<rt>つける</rt></ruby>る",
+        "options": ["<ruby>請求書<rt>せいきゅうしょ</rt></ruby>",
+          "<ruby>釣る<rt>つる</rt></ruby>",
           "強める",
-          "<ruby>起訴<rt>きそ</rt></ruby>する"],
+          "<ruby>起訴する<rt>きそする</rt></ruby>"],
         "answer": 2
       },
       {
@@ -2327,7 +2327,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "激しい<ruby>競<rt>きそ</rt></ruby>争に勝つの意味は？",
+        "text": "激しい<ruby>競争<rt>きょうそう</rt></ruby>に勝つの意味は？",
         "question": "意味が近いのは？",
         "options": ["理想",
           "<ruby>弾力<rt>だんりょく</rt></ruby>",
@@ -2351,7 +2351,7 @@ window.MOCK_DATA['N2'] = {
         "question": "意味が近いのは？",
         "options": ["<ruby>英雄<rt>えいゆう</rt></ruby>",
           "認可",
-          "総選<ruby>挙<rt>あ</rt></ruby>",
+          "総選<ruby>挙<rt>あう</rt></ruby>",
           "条件"],
         "answer": 1
       }
@@ -2370,7 +2370,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>女の行動は常識（　）反している。",
+        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>の行動は常識（　）反している。",
         "question": "（　）に入るのは？",
         "options": ["といっても",
           "が",
@@ -2425,12 +2425,12 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問312（N4レベル）】次の語句を正しい順序に並べてください：友達と / <ruby>旅行<rt>りょこう</rt></ruby>に / 一<ruby>緒<rt>お</rt></ruby>に / 行きたい / です",
+        "text": "【ビジネス・問312（N4レベル）】次の語句を正しい順序に並べてください：友達と / <ruby>旅行<rt>りょこう</rt></ruby>に / <ruby>一緒<rt>いっしょ</rt></ruby>に / 行きたい / です",
         "question": "正しい順序は？",
-        "options": ["一<ruby>緒<rt>お</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい です 友達と",
-          "友達と一<ruby>緒<rt>お</rt></ruby>に<ruby>旅行<rt>りょこう</rt></ruby>に行きたいです",
-          "です 行きたい <ruby>旅行<rt>りょこう</rt></ruby>に 一<ruby>緒<rt>お</rt></ruby>に 友達と",
-          "です 友達と 一<ruby>緒<rt>お</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい"],
+        "options": ["<ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい です 友達と",
+          "友達と<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>旅行<rt>りょこう</rt></ruby>に行きたいです",
+          "です 行きたい <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>一緒<rt>いっしょ</rt></ruby>に 友達と",
+          "です 友達と <ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい"],
         "answer": 3,
         "id": "N2-03-046"
       },
@@ -2506,7 +2506,7 @@ window.MOCK_DATA['N2'] = {
         "question": "（　）に入るのは？",
         "options": ["といっても",
           "を",
-          "に<ruby>即<rt>そく</rt></ruby>して",
+          "に<ruby>即して<rt>そくして</rt></ruby>",
           "に"],
         "answer": 3,
         "id": "N2-03-039"
@@ -2562,7 +2562,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["計算力",
           "情報収集",
           "正しく判断する力",
-          "<ruby>記憶<rt>きおく</rt></ruby>力"],
+          "<ruby>記憶力<rt>きおくりょく</rt></ruby>"],
         "answer": 2,
         "id": "N2-03-055"
       },
@@ -2579,11 +2579,11 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "多様性を認め合う社会の実現が<ruby>求<rt>もと</rt></ruby>められている。",
-        "question": "<ruby>求<rt>もと</rt></ruby>められているのは何か。",
+        "text": "多様性を認め合う社会の実現が<ruby>求<rt>もとめる</rt></ruby>められている。",
+        "question": "<ruby>求<rt>もとめる</rt></ruby>められているのは何か。",
         "options": ["多様性を認める社会",
           "均一性",
-          "<ruby>競<rt>きそ</rt></ruby>争社会",
+          "<ruby>競争<rt>きょうそう</rt></ruby>社会",
           "<ruby>閉鎖<rt>へいさ</rt></ruby>社会"],
         "answer": 0,
         "id": "N2-03-056"
@@ -2634,7 +2634,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>期<rt>き</rt></ruby>待（　）反して、失敗した。",
+        "text": "<ruby>期待<rt>きたい</rt></ruby>（　）反して、失敗した。",
         "question": "（　）に入るのは？",
         "options": ["ながら",
           "に",
@@ -2660,17 +2660,17 @@ window.MOCK_DATA['N2'] = {
         "question": "多様性社会とは何か。",
         "options": ["<ruby>閉鎖<rt>へいさ</rt></ruby>社会",
           "全員が<ruby>活躍<rt>かつやく</rt></ruby>できる",
-          "<ruby>競<rt>きそ</rt></ruby>争社会",
+          "<ruby>競争<rt>きょうそう</rt></ruby>社会",
           "同じ人だけ"],
         "answer": 1,
         "id": "N2-03-060"
       },
       {
         "type": "読解（中文）",
-        "text": "時間<ruby>管理<rt>かんり</rt></ruby>では優先順<ruby>位<rt>くら</rt></ruby>をつけ重要な仕事から取り組む。<ruby>完璧<rt>かんぺき</rt></ruby>を<ruby>求<rt>もと</rt></ruby>めすぎないことも大切だ。（問20）",
+        "text": "時間<ruby>管理<rt>かんり</rt></ruby>では<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>をつけ重要な仕事から取り組む。<ruby>完璧<rt>かんぺき</rt></ruby>を<ruby>求<rt>もとめる</rt></ruby>めすぎないことも大切だ。（問20）",
         "question": "大切なのは何か。",
-        "options": ["優先順<ruby>位<rt>くら</rt></ruby>",
-          "後<ruby>回<rt>まわ</rt></ruby>し",
+        "options": ["<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>",
+          "<ruby>後回し<rt>あとまわし</rt></ruby>",
           "全部同時",
           "<ruby>完璧<rt>かんぺき</rt></ruby>主義"],
         "answer": 0,
@@ -2694,7 +2694,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["恥ずかしい",
           "無意味",
           "成功へのステップ",
-          "<ruby>避<rt>さ</rt></ruby>ける"],
+          "<ruby>避ける<rt>さける</rt></ruby>"],
         "answer": 2,
         "id": "N2-03-063"
       },
@@ -2716,7 +2716,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["一人で頑張る",
           "命令",
           "強みを活かす",
-          "<ruby>競<rt>きそ</rt></ruby>争"],
+          "<ruby>競争<rt>きょうそう</rt></ruby>"],
         "answer": 2,
         "id": "N2-03-065"
       },
@@ -2767,7 +2767,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "情報社会では情報リテラシーが不可欠だ。フェイクニュースを見分け批判的に考える力が<ruby>求<rt>もと</rt></ruby>められる。メディアリテラシー教育の<ruby>充<rt>あ</rt></ruby>実が必要だ。",
+        "text": "情報社会では情報リテラシーが不可欠だ。フェイクニュースを見分け批判的に考える力が<ruby>求<rt>もとめる</rt></ruby>められる。メディアリテラシー教育の<ruby>充実<rt>じゅうじつ</rt></ruby>が必要だ。",
         "question": "必要なのは何か。",
         "options": ["批判的思考力",
           "一つの情報源",
@@ -2790,7 +2790,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "多様性を尊重する社会の実現が<ruby>求<rt>もと</rt></ruby>められている。違いを認めそれぞれの強みを活かすことでイノベーションが生まれる。",
+        "text": "多様性を尊重する社会の実現が<ruby>求<rt>もとめる</rt></ruby>められている。違いを認めそれぞれの強みを活かすことでイノベーションが生まれる。",
         "question": "多様性のメリットは何か。",
         "options": ["コスト減",
           "<ruby>管理<rt>かんり</rt></ruby>が楽",
@@ -2811,30 +2811,30 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-03-073"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
-        "text": "【ヨガ教室】月水金10-11時。月額8,000円。初<ruby>回<rt>まわ</rt></ruby>無料体験あり。定員15名。",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
+        "text": "【ヨガ教室】月水金10-11時。月額8,000円。初<ruby>回<rt>まわす</rt></ruby>無料体験あり。定員15名。",
         "question": "正しいのは何か。",
         "options": ["定員30名",
           "毎日<ruby>開催<rt>かいさい</rt></ruby>",
-          "初<ruby>回<rt>まわ</rt></ruby>無料体験あり",
+          "初<ruby>回<rt>まわす</rt></ruby>無料体験あり",
           "月額10,000円"],
         "answer": 2,
         "id": "N2-03-074"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
-        "text": "【料理教室】土曜14-17時。1<ruby>回<rt>まわ</rt></ruby>5,000円（<ruby>材<rt>ざい</rt></ruby>料費<ruby>込<rt>こ</rt></ruby>）。定員8名。初心者歓迎。",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
+        "text": "【料理教室】土曜14-17時。1<ruby>回<rt>まわす</rt></ruby>5,000円（<ruby>材料<rt>ざいりょう</rt></ruby>費<ruby>込<rt>こむ</rt></ruby>）。定員8名。初心者歓迎。",
         "question": "正しいのは何か。",
         "options": ["平日<ruby>開催<rt>かいさい</rt></ruby>",
-          "<ruby>材<rt>ざい</rt></ruby>料費別",
+          "<ruby>材料<rt>ざいりょう</rt></ruby>費別",
           "経験者のみ",
           "定員8名"],
         "answer": 1,
         "id": "N2-03-075"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
-        "text": "同<ruby>僚<rt>りょう</rt></ruby>同士が話しています。男の人はこのあと何をしますか。",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
+        "text": "<ruby>同僚<rt>どうりょう</rt></ruby>同士が話しています。男の人はこのあと何をしますか。",
         "question": "何をしますか。",
         "options": ["クライアントに電話する",
           "会議室を確認する",
@@ -2845,7 +2845,7 @@ window.MOCK_DATA['N2'] = {
         "script": "男：それでは、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：資料を<ruby>印<rt>しるし</rt></ruby><ruby>刷<rt>さつ</rt></ruby>していただけますか。\n女：<ruby>了解<rt>りょうかい</rt></ruby>です、すぐに対応します。"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "友人同士が話しています。女の人はこのあと何をしますか。",
         "question": "何をしますか。",
         "options": ["駅で待ち合わせる",
@@ -2857,7 +2857,7 @@ window.MOCK_DATA['N2'] = {
         "script": "男：えーと、この件について進め方を検討しましょう。\n女：そうですか、何をすればよいでしょうか。\n男：まず駅で待ち合わせるください。\n女：承知しました。よろしくお願いします。"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "親子が話しています。子供はこのあと何をしますか。",
         "question": "何をしますか。",
         "options": ["夕食を食べる",
@@ -2869,7 +2869,7 @@ window.MOCK_DATA['N2'] = {
         "script": "男：次の段階に進む準備ができましたね。\n女：あのう、はい、何から始めましょうか。\n男：宿題をしてください。\n女：うん。お願いします。"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "店員と客が話しています。店員はこのあと何をしますか。",
         "question": "何をしますか。",
         "options": ["レジで会計する",
@@ -2881,11 +2881,11 @@ window.MOCK_DATA['N2'] = {
         "script": "男：すみません、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：在庫を確認していただけますか。\n女：はい、すぐに対応します。"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "教授と学生が話しています。学生は何をすべきですか。",
         "question": "何をすべきですか。",
-        "options": ["データを再<ruby>分析<rt>ぶんせき</rt></ruby>する",
-          "<ruby>結論<rt>けつろん</rt></ruby>を書き<ruby>直<rt>なお</rt></ruby>す",
+        "options": ["データを再<ruby>分析する<rt>ぶんせきする</rt></ruby>",
+          "<ruby>結論<rt>けつろん</rt></ruby>を書き<ruby>直す<rt>なおす</rt></ruby>",
           "構成を変更する",
           "参考文献を<ruby>追加<rt>ついか</rt></ruby>する"],
         "answer": 3,
@@ -2918,7 +2918,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "ポイント理解",
-        "text": "討<ruby>論<rt>ろん</rt></ruby>を聞いています。反対意見の<ruby>根拠<rt>こんきょ</rt></ruby>は何ですか。",
+        "text": "<ruby>討論<rt>とうろん</rt></ruby>を聞いています。反対意見の<ruby>根拠<rt>こんきょ</rt></ruby>は何ですか。",
         "question": "<ruby>根拠<rt>こんきょ</rt></ruby>は何ですか。",
         "options": ["コスト高",
           "データ不足",
@@ -2946,11 +2946,11 @@ window.MOCK_DATA['N2'] = {
         "question": "呼びかけているのは？",
         "options": ["理解",
           "注意",
-          "参<ruby>加<rt>くわ</rt></ruby>",
+          "<ruby>参加<rt>さんか</rt></ruby>",
           "協力"],
         "answer": 2,
         "id": "N2-03-085",
-        "script": "参<ruby>加<rt>くわ</rt></ruby>が最も重要な要素です。様々な観点から検討しましたが、私はこう確信しています。"
+        "script": "<ruby>参加<rt>さんか</rt></ruby>が最も重要な要素です。様々な観点から検討しましたが、私はこう確信しています。"
       },
       {
         "type": "ポイント理解",
@@ -2995,14 +2995,14 @@ window.MOCK_DATA['N2'] = {
         "options": ["継続検討",
           "中止",
           "成功",
-          "<ruby>改<rt>あら</rt></ruby>善必要"],
+          "<ruby>改善<rt>かいぜん</rt></ruby>必要"],
         "answer": 2,
         "id": "N2-03-089",
         "script": "今日の話題は成功についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。"
       },
       {
         "type": "概要理解",
-        "text": "討<ruby>論<rt>ろん</rt></ruby>を聞いています。主な対立点は何ですか。",
+        "text": "<ruby>討論<rt>とうろん</rt></ruby>を聞いています。主な対立点は何ですか。",
         "question": "対立点は何ですか。",
         "options": ["方法",
           "目的",
@@ -3019,13 +3019,13 @@ window.MOCK_DATA['N2'] = {
         "options": ["日程",
           "場所",
           "注意事項",
-          "申<ruby>込<rt>こ</rt></ruby>方法"],
+          "<ruby>申込<rt>もうしこみ</rt></ruby>方法"],
         "answer": 0,
         "id": "N2-03-091",
         "script": "<ruby>今回<rt>こんかい</rt></ruby>お伝えしたいのは日程についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "ここで待っていてもいいですか。（169）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -3036,7 +3036,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-03-092"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "何名様ですか。（170）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -3047,7 +3047,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-03-093"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "禁煙席でよろしいですか。（171）",
         "question": "返答は？",
         "options": ["はい、お願いします",
@@ -3058,7 +3058,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-03-094"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お持ち帰りですか。（172）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -3069,7 +3069,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-03-095"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "<ruby>袋<rt>ふくろ</rt></ruby>は要りますか。（173）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -3080,7 +3080,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-03-096"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "ポイントカードはお持ちですか。（174）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -3091,8 +3091,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-03-097"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "お支<ruby>払<rt>はら</rt></ruby>いは現金ですか。（175）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "お<ruby>支払い<rt>しはらい</rt></ruby>は現金ですか。（175）",
         "question": "返答は？",
         "options": ["いいえ、違います",
           "はい、食べました",
@@ -3102,7 +3102,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-03-098"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "領収書は要りますか。（176）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -3113,7 +3113,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-03-099"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "ご予約はされていますか。（177）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -3124,7 +3124,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-03-100"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お<ruby>荷物<rt>にもつ</rt></ruby>をお預かりしましょうか。（178）",
         "question": "返答は？",
         "options": ["いいえ、違います",
@@ -3135,7 +3135,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-03-101"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "チェックアウトは何時ですか。（179）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -3146,7 +3146,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-03-102"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "朝食は何時からですか。（180）",
         "question": "返答は？",
         "options": ["7時からです",
@@ -3207,7 +3207,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>だんかいてきに</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["段階的に",
@@ -3217,17 +3217,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>いりょうかご</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>既<rt>すで</rt></ruby>に",
+        "options": ["<ruby>既に<rt>すでに</rt></ruby>",
           "売買",
           "<ruby>医療過誤<rt>いりょうかご</rt></ruby>",
           "証券投資"],
         "answer": 2
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>おさめる</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["一貫性",
@@ -3237,7 +3237,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>だめ</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["発展",
@@ -3247,7 +3247,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>つかれる</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["気にする",
@@ -3307,17 +3307,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "激しい（　）に勝つ",
         "question": "（　）に入るのは？",
         "options": ["条件",
           "検討事項",
           "<ruby>穀物<rt>こくもつ</rt></ruby>",
-          "<ruby>競<rt>きそ</rt></ruby>争"],
+          "<ruby>競争<rt>きょうそう</rt></ruby>"],
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "安全性を（　）する",
         "question": "（　）に入るのは？",
         "options": ["サイト",
@@ -3327,7 +3327,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "（　）の<ruby>趣味<rt>しゅみ</rt></ruby>がある",
         "question": "（　）に入るのは？",
         "options": ["目覚ましい",
@@ -3337,67 +3337,67 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "情報を（　）する",
         "question": "（　）に入るのは？",
         "options": ["今週",
           "亡くなる",
           "共有",
-          "要<ruby>求<rt>もと</rt></ruby>"],
+          "<ruby>要求<rt>ようきゅう</rt></ruby>"],
         "answer": 2
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "（　）を得る",
         "question": "（　）に入るのは？",
         "options": ["許可",
-          "<ruby>褒<rt>ほ</rt></ruby>める",
+          "<ruby>褒める<rt>ほめる</rt></ruby>",
           "当選",
-          "<ruby>匂<rt>にお</rt></ruby>い"],
+          "<ruby>匂い<rt>におい</rt></ruby>"],
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "気持ちを（　）",
         "question": "（　）に入るのは？",
         "options": ["俳句",
           "情報システム部",
-          "切り<ruby>替<rt>か</rt></ruby>える",
+          "<ruby>切り替える<rt>きりかえる</rt></ruby>",
           "生活水準"],
         "answer": 2
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "体調が（　）",
         "question": "（　）に入るのは？",
         "options": ["語り",
           "国<ruby>家<rt>いえ</rt></ruby>機関",
           "値下がり",
-          "<ruby>崩<rt>くず</rt></ruby>れる"],
+          "<ruby>崩れる<rt>くずれる</rt></ruby>"],
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "一人で（　）",
         "question": "（　）に入るのは？",
         "options": ["助教",
-          "<ruby>暮<rt>く</rt></ruby>らす",
+          "<ruby>暮らす<rt>くらす</rt></ruby>",
           "<ruby>直接<rt>ちょくせつ</rt></ruby>民主制",
           "<ruby>株価指数<rt>かぶかしすう</rt></ruby>"],
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "メンバーに（　）",
         "question": "（　）に入るのは？",
         "options": ["三権分立",
           "戦い",
-          "<ruby>加<rt>くわ</rt></ruby>える",
+          "<ruby>加える<rt>くわえる</rt></ruby>",
           "地点"],
         "answer": 2
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "手術後の（　）を見る",
         "question": "（　）に入るのは？",
         "options": ["受注活動",
@@ -3407,7 +3407,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "若者に多い（　）がある",
         "question": "（　）に入るのは？",
         "options": ["傾向",
@@ -3417,17 +3417,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "活動を（　）する",
         "question": "（　）に入るのは？",
         "options": ["遅<ruby>延<rt>のむ</rt></ruby>なく",
-          "<ruby>請求<rt>せいきゅう</rt></ruby>書",
+          "<ruby>請求書<rt>せいきゅうしょ</rt></ruby>",
           "小売物価",
           "継続"],
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "賃貸（　）を結ぶ",
         "question": "（　）に入るのは？",
         "options": ["足りる",
@@ -3437,17 +3437,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "<ruby>議論<rt>ぎろん</rt></ruby>の（　）を出す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>結論<rt>けつろん</rt></ruby>",
           "理想",
-          "<ruby>起訴<rt>きそ</rt></ruby>する",
+          "<ruby>起訴する<rt>きそする</rt></ruby>",
           "変"],
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "数量を（　）する",
         "question": "（　）に入るのは？",
         "options": ["苦い",
@@ -3457,18 +3457,18 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
-        "text": "<ruby>即<rt>そく</rt></ruby><ruby>座<rt>すわ</rt></ruby>に（　）を起こす",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
+        "text": "<ruby>即<rt>そく</rt></ruby><ruby>座<rt>すわる</rt></ruby>に（　）を起こす",
         "question": "（　）に入るのは？",
         "options": ["行動",
-          "総選<ruby>挙<rt>あ</rt></ruby>",
+          "総選<ruby>挙<rt>あう</rt></ruby>",
           "イノベーション",
           "<ruby>旅行<rt>りょこう</rt></ruby>"],
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
-        "text": "<ruby>期<rt>き</rt></ruby>待通りの（　）がある",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
+        "text": "<ruby>期待<rt>きたい</rt></ruby>通りの（　）がある",
         "question": "（　）に入るのは？",
         "options": ["片道",
           "終わり",
@@ -3503,22 +3503,22 @@ window.MOCK_DATA['N2'] = {
         "options": ["限る",
           "傷口",
           "持続",
-          "要<ruby>求<rt>もと</rt></ruby>"],
+          "<ruby>要求<rt>ようきゅう</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "言い換え",
-        "text": "<ruby>期<rt>き</rt></ruby>待通りの<ruby>効果<rt>こうか</rt></ruby>があるの意味は？",
+        "text": "<ruby>期待<rt>きたい</rt></ruby>通りの<ruby>効果<rt>こうか</rt></ruby>があるの意味は？",
         "question": "意味が近いのは？",
         "options": ["目覚ましい",
           "検討事項",
           "効き目",
-          "<ruby>匂<rt>にお</rt></ruby>い"],
+          "<ruby>匂い<rt>におい</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "言い換え",
-        "text": "業務効率を<ruby>改<rt>あら</rt></ruby>善するの意味は？",
+        "text": "業務効率を<ruby>改善<rt>かいぜん</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": ["元",
           "能率",
@@ -3622,7 +3622,7 @@ window.MOCK_DATA['N2'] = {
         "question": "（　）に入るのは？",
         "options": ["ものなら",
           "に",
-          "に<ruby>即<rt>そく</rt></ruby>して",
+          "に<ruby>即して<rt>そくして</rt></ruby>",
           "から"],
         "answer": 1,
         "id": "N2-04-038"
@@ -3651,12 +3651,12 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【日常会話・問316（N5レベル）】次の語句を正しい順序に並べてください：私は / 本を / 図書館で / <ruby>昨<rt>さく</rt></ruby>日 / 読みました",
+        "text": "【日常会話・問316（N5レベル）】次の語句を正しい順序に並べてください：私は / 本を / 図書館で / <ruby>昨日<rt>きのう</rt></ruby> / 読みました",
         "question": "正しい順序は？",
-        "options": ["読みました 私は <ruby>昨<rt>さく</rt></ruby>日 図書館で 本を",
-          "読みました 本を 図書館で <ruby>昨<rt>さく</rt></ruby>日 私は",
-          "私は<ruby>昨<rt>さく</rt></ruby>日図書館で本を読みました",
-          "<ruby>昨<rt>さく</rt></ruby>日 図書館で 本を 読みました 私は"],
+        "options": ["読みました 私は <ruby>昨日<rt>きのう</rt></ruby> 図書館で 本を",
+          "読みました 本を 図書館で <ruby>昨日<rt>きのう</rt></ruby> 私は",
+          "私は<ruby>昨日<rt>きのう</rt></ruby>図書館で本を読みました",
+          "<ruby>昨日<rt>きのう</rt></ruby> 図書館で 本を 読みました 私は"],
         "answer": 1,
         "id": "N2-04-045"
       },
@@ -3673,12 +3673,12 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問317（N4レベル）】次の語句を正しい順序に並べてください：散歩 / 公園を / <ruby>彼<rt>かれ</rt></ruby>女は / 毎朝 / します",
+        "text": "【ビジネス・問317（N4レベル）】次の語句を正しい順序に並べてください：散歩 / 公園を / <ruby>彼女<rt>かのじょ</rt></ruby>は / 毎朝 / します",
         "question": "正しい順序は？",
-        "options": ["します <ruby>彼<rt>かれ</rt></ruby>女は 毎朝 公園を 散歩",
-          "毎朝 公園を 散歩 します <ruby>彼<rt>かれ</rt></ruby>女は",
-          "<ruby>彼<rt>かれ</rt></ruby>女は毎朝公園を散歩します",
-          "します 散歩 公園を 毎朝 <ruby>彼<rt>かれ</rt></ruby>女は"],
+        "options": ["します <ruby>彼女<rt>かのじょ</rt></ruby>は 毎朝 公園を 散歩",
+          "毎朝 公園を 散歩 します <ruby>彼女<rt>かのじょ</rt></ruby>は",
+          "<ruby>彼女<rt>かのじょ</rt></ruby>は毎朝公園を散歩します",
+          "します 散歩 公園を 毎朝 <ruby>彼女<rt>かのじょ</rt></ruby>は"],
         "answer": 0,
         "id": "N2-04-046"
       },
@@ -3764,7 +3764,7 @@ window.MOCK_DATA['N2'] = {
         "text": "予想（　）、売り上げは減少した。（320）",
         "question": "（　）に入るのは？",
         "options": ["に反して",
-          "に<ruby>沿<rt>そ</rt></ruby>って",
+          "に<ruby>沿って<rt>そって</rt></ruby>",
           "通り",
           "どおり"],
         "answer": 0,
@@ -3787,8 +3787,8 @@ window.MOCK_DATA['N2'] = {
         "question": "大切なのは何か。",
         "options": ["命令",
           "一人で頑張る",
-          "<ruby>競<rt>きそ</rt></ruby>争",
-          "強みと弱みを<ruby>補<rt>おぎな</rt></ruby>う"],
+          "<ruby>競争<rt>きょうそう</rt></ruby>",
+          "強みと弱みを<ruby>補う<rt>おぎなう</rt></ruby>"],
         "answer": 3,
         "id": "N2-04-056"
       },
@@ -3816,11 +3816,11 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "時間<ruby>管理<rt>かんり</rt></ruby>では優先順<ruby>位<rt>くら</rt></ruby>をつけることが基本である。",
+        "text": "時間<ruby>管理<rt>かんり</rt></ruby>では<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>をつけることが基本である。",
         "question": "基本は何か。",
         "options": ["全部同時",
-          "優先順<ruby>位<rt>くら</rt></ruby>",
-          "後<ruby>回<rt>まわ</rt></ruby>し",
+          "<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>",
+          "<ruby>後回し<rt>あとまわし</rt></ruby>",
           "<ruby>完璧<rt>かんぺき</rt></ruby>主義"],
         "answer": 1,
         "id": "N2-04-059"
@@ -3840,8 +3840,8 @@ window.MOCK_DATA['N2'] = {
         "type": "読解（中文）",
         "text": "働き方<ruby>改革<rt>かいかく</rt></ruby>では<ruby>労働<rt>ろうどう</rt></ruby>時間短縮だけでなく生産性向上が重要だ。多様な働き方も認めるべきだ。（問29）",
         "question": "重要なのは何か。",
-        "options": ["休み増<ruby>加<rt>くわ</rt></ruby>",
-          "<ruby>給<rt>きゅう</rt></ruby>料アップ",
+        "options": ["休み<ruby>増加<rt>ぞうか</rt></ruby>",
+          "<ruby>給料<rt>きゅうりょう</rt></ruby>アップ",
           "生産性向上と多様性",
           "時間短縮だけ"],
         "answer": 2,
@@ -3849,9 +3849,9 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（中文）",
-        "text": "教育では知識詰め<ruby>込<rt>こ</rt></ruby>みから思考力重視への転換が<ruby>求<rt>もと</rt></ruby>められている。社会で<ruby>活躍<rt>かつやく</rt></ruby>できる<ruby>人材育成<rt>じんざいいくせい</rt></ruby>が目標だ。（問30）",
-        "question": "<ruby>求<rt>もと</rt></ruby>められているのは何か。",
-        "options": ["知識詰め<ruby>込<rt>こ</rt></ruby>み",
+        "text": "教育では知識詰め<ruby>込<rt>こむ</rt></ruby>みから思考力重視への転換が<ruby>求<rt>もとめる</rt></ruby>められている。社会で<ruby>活躍<rt>かつやく</rt></ruby>できる<ruby>人材育成<rt>じんざいいくせい</rt></ruby>が目標だ。（問30）",
+        "question": "<ruby>求<rt>もとめる</rt></ruby>められているのは何か。",
+        "options": ["知識詰め<ruby>込<rt>こむ</rt></ruby>み",
           "不要",
           "テスト重視",
           "思考力重視"],
@@ -3897,19 +3897,19 @@ window.MOCK_DATA['N2'] = {
         "question": "多様性社会とは何か。",
         "options": ["全員が<ruby>活躍<rt>かつやく</rt></ruby>できる",
           "<ruby>閉鎖<rt>へいさ</rt></ruby>社会",
-          "<ruby>競<rt>きそ</rt></ruby>争社会",
+          "<ruby>競争<rt>きょうそう</rt></ruby>社会",
           "同じ人だけ"],
         "answer": 0,
         "id": "N2-04-066"
       },
       {
         "type": "読解（中文）",
-        "text": "時間<ruby>管理<rt>かんり</rt></ruby>では優先順<ruby>位<rt>くら</rt></ruby>をつけ重要な仕事から取り組む。<ruby>完璧<rt>かんぺき</rt></ruby>を<ruby>求<rt>もと</rt></ruby>めすぎないことも大切だ。（問35）",
+        "text": "時間<ruby>管理<rt>かんり</rt></ruby>では<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>をつけ重要な仕事から取り組む。<ruby>完璧<rt>かんぺき</rt></ruby>を<ruby>求<rt>もとめる</rt></ruby>めすぎないことも大切だ。（問35）",
         "question": "大切なのは何か。",
         "options": ["<ruby>完璧<rt>かんぺき</rt></ruby>主義",
-          "後<ruby>回<rt>まわ</rt></ruby>し",
+          "<ruby>後回し<rt>あとまわし</rt></ruby>",
           "全部同時",
-          "優先順<ruby>位<rt>くら</rt></ruby>"],
+          "<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>"],
         "answer": 3,
         "id": "N2-04-067"
       },
@@ -3928,13 +3928,13 @@ window.MOCK_DATA['N2'] = {
         "type": "統合理解",
         "text": "【A】グローバル化で海外との取引が増えた。【B】言語や文化の違いによる<ruby>摩擦<rt>まさつ</rt></ruby>も増えている。",
         "question": "分かることは何か。",
-        "options": ["<ruby>良<rt>りょう</rt></ruby>いだけ",
-          "<ruby>良<rt>りょう</rt></ruby>い面と<ruby>課題<rt>かだい</rt></ruby>がある",
+        "options": ["<ruby>良い<rt>よい</rt></ruby>だけ",
+          "<ruby>良い<rt>よい</rt></ruby>面と<ruby>課題<rt>かだい</rt></ruby>がある",
           "<ruby>鎖<rt>くさり</rt></ruby>国すべき",
           "悪いだけ"],
         "answer": 0,
         "id": "N2-04-069",
-        "script": "話者A：この問題については、<ruby>良<rt>りょう</rt></ruby>いだけという点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：はい。その通りだと思います。"
+        "script": "話者A：この問題については、<ruby>良い<rt>よい</rt></ruby>だけという点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：はい。その通りだと思います。"
       },
       {
         "type": "統合理解",
@@ -3950,7 +3950,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "健康は自己責任だけでなく社会的要因も大きい。予防<ruby>医療<rt>いりょう</rt></ruby>の<ruby>充<rt>あ</rt></ruby>実と健康教育の<ruby>普及<rt>ふきゅう</rt></ruby>が重要である。",
+        "text": "健康は自己責任だけでなく社会的要因も大きい。予防<ruby>医療<rt>いりょう</rt></ruby>の<ruby>充実<rt>じゅうじつ</rt></ruby>と健康教育の<ruby>普及<rt>ふきゅう</rt></ruby>が重要である。",
         "question": "健康について正しいのは何か。",
         "options": ["社会的要因もある",
           "自己責任のみ",
@@ -3982,7 +3982,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-04-073"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
         "text": "【映画館】一般1,800円、学生1,500円、シニア1,200円。毎週水曜レディースデー1,100円。",
         "question": "正しいのは何か。",
         "options": ["シニア1,200円",
@@ -3993,7 +3993,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-04-074"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
         "text": "【スポーツジム】月額10,000円。営業6-24時。シャワー完備。初月無料キャンペーン中。",
         "question": "正しいのは何か。",
         "options": ["24時間営業",
@@ -4004,7 +4004,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-04-075"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "美容師と客が話しています。美容師はこのあと何をしますか。",
         "question": "何をしますか。",
         "options": ["シャンプーをする",
@@ -4016,19 +4016,19 @@ window.MOCK_DATA['N2'] = {
         "script": "男：それでは、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：シャンプーをしていただけますか。\n女：<ruby>了解<rt>りょうかい</rt></ruby>です、すぐに対応します。"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "配達員と客が話しています。客はこのあと何をしますか。",
         "question": "何をしますか。",
         "options": ["中身を確認する",
           "再配達を依頼する",
           "サインをする",
-          "代金を<ruby>払<rt>はら</rt></ruby>う"],
+          "代金を<ruby>払う<rt>はらう</rt></ruby>"],
         "answer": 3,
         "id": "N2-04-077",
-        "script": "男：えーと、この件について進め方を検討しましょう。\n女：そうですか、何をすればよいでしょうか。\n男：まず代金を<ruby>払<rt>はら</rt></ruby>うください。\n女：承知しました。よろしくお願いします。"
+        "script": "男：えーと、この件について進め方を検討しましょう。\n女：そうですか、何をすればよいでしょうか。\n男：まず代金を<ruby>払う<rt>はらう</rt></ruby>ください。\n女：承知しました。よろしくお願いします。"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "ホテルのフロントと客が話しています。客はこのあと何をしますか。",
         "question": "何をしますか。",
         "options": ["チェックインする",
@@ -4040,28 +4040,28 @@ window.MOCK_DATA['N2'] = {
         "script": "男：次の段階に進む準備ができましたね。\n女：あのう、はい、何から始めましょうか。\n男：チェックインしてください。\n女：うん。お願いします。"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "電話で話しています。電話を受けた人は何をしますか。",
         "question": "何をしますか。",
         "options": ["折り返し電話する",
           "伝言を残す",
-          "メールで<ruby>連絡<rt>れんらく</rt></ruby>する",
+          "メールで<ruby>連絡する<rt>れんらくする</rt></ruby>",
           "担当者に取り次ぐ"],
         "answer": 3,
         "id": "N2-04-079",
         "script": "男：すみません、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：担当者に取り次ぐいただけますか。\n女：はい、すぐに対応します。"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "ジムのスタッフと客が話しています。客はこのあと何をしますか。",
         "question": "何をしますか。",
         "options": ["マシンを使う",
           "プランを変更する",
-          "着<ruby>替<rt>か</rt></ruby>える",
+          "<ruby>着替え<rt>きがえ</rt></ruby>る",
           "トレーナーに相談する"],
         "answer": 2,
         "id": "N2-04-080",
-        "script": "男：ちょっと、この件について進め方を検討しましょう。\n女：ええ、何をすればよいでしょうか。\n男：まず着<ruby>替<rt>か</rt></ruby>えるください。\n女：承知しました。早速取りかかります。"
+        "script": "男：ちょっと、この件について進め方を検討しましょう。\n女：ええ、何をすればよいでしょうか。\n男：まず<ruby>着替え<rt>きがえ</rt></ruby>るください。\n女：承知しました。早速取りかかります。"
       },
       {
         "type": "ポイント理解",
@@ -4081,11 +4081,11 @@ window.MOCK_DATA['N2'] = {
         "question": "<ruby>深刻<rt>しんこく</rt></ruby>さを示すのは？",
         "options": ["<ruby>被害<rt>ひがい</rt></ruby>の<ruby>甚大<rt>じんだい</rt></ruby>さ",
           "<ruby>範囲<rt>はんい</rt></ruby>の<ruby>拡大<rt>かくだい</rt></ruby>",
-          "数字の増<ruby>加<rt>くわ</rt></ruby>",
+          "数字の<ruby>増加<rt>ぞうか</rt></ruby>",
           "対策の遅れ"],
         "answer": 2,
         "id": "N2-04-082",
-        "script": "数字の増<ruby>加<rt>くわ</rt></ruby>が最も重要な要素です。様々な観点から検討しましたが、これが最も重要です。"
+        "script": "数字の<ruby>増加<rt>ぞうか</rt></ruby>が最も重要な要素です。様々な観点から検討しましたが、これが最も重要です。"
       },
       {
         "type": "ポイント理解",
@@ -4178,10 +4178,10 @@ window.MOCK_DATA['N2'] = {
         "options": ["関係者",
           "一般人",
           "学生",
-          "専門<ruby>家<rt>いえ</rt></ruby>"],
+          "<ruby>専門家<rt>せんもんか</rt></ruby>"],
         "answer": 3,
         "id": "N2-04-090",
-        "script": "本日の主題は専門<ruby>家<rt>いえ</rt></ruby>についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。"
+        "script": "本日の主題は<ruby>専門家<rt>せんもんか</rt></ruby>についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。"
       },
       {
         "type": "概要理解",
@@ -4196,7 +4196,7 @@ window.MOCK_DATA['N2'] = {
         "script": "<ruby>今回<rt>こんかい</rt></ruby>お伝えしたいのは海外についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "すみません、トイレはどこですか。（181）",
         "question": "返答は？",
         "options": ["あちらです",
@@ -4207,8 +4207,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-04-092"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "この電車は<ruby>渋<rt>しぶ</rt></ruby>谷に止まりますか。（182）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "この電車は<ruby>渋谷<rt>しぶや</rt></ruby>に止まりますか。（182）",
         "question": "返答は？",
         "options": ["わかりません",
           "はい、食べました",
@@ -4218,7 +4218,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-04-093"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お水をいただけますか。（183）",
         "question": "返答は？",
         "options": ["はい、どうぞ",
@@ -4229,7 +4229,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-04-094"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "何名様ですか。（185）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -4240,7 +4240,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-04-096"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "ここで待っていてもいいですか。（184）",
         "question": "返答は？",
         "options": ["はい、どうぞ",
@@ -4251,7 +4251,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-04-095"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "禁煙席でよろしいですか。（186）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -4262,7 +4262,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-04-097"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お持ち帰りですか。（187）",
         "question": "返答は？",
         "options": ["いいえ、違います",
@@ -4273,7 +4273,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-04-098"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "<ruby>袋<rt>ふくろ</rt></ruby>は要りますか。（188）",
         "question": "返答は？",
         "options": ["はい、お願いします",
@@ -4284,7 +4284,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-04-099"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "ポイントカードはお持ちですか。（189）",
         "question": "返答は？",
         "options": ["いいえ、違います",
@@ -4295,8 +4295,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-04-100"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "お支<ruby>払<rt>はら</rt></ruby>いは現金ですか。（190）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "お<ruby>支払い<rt>しはらい</rt></ruby>は現金ですか。（190）",
         "question": "返答は？",
         "options": ["カードでお願いします",
           "いいえ、違います",
@@ -4306,7 +4306,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-04-101"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "領収書は要りますか。（191）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -4317,7 +4317,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-04-102"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "ご予約はされていますか。（192）",
         "question": "返答は？",
         "options": ["はい、田中で予約しています",
@@ -4378,17 +4378,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>せいそう</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["政争",
-          "原<ruby>材<rt>ざい</rt></ruby>料",
+          "原<ruby>材料<rt>ざいりょう</rt></ruby>",
           "原告",
           "特別"],
         "answer": 0
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>きゅうよ</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["階層別研修",
@@ -4398,7 +4398,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>じょうしょうけいこう</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["公表",
@@ -4408,7 +4408,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>だいがくせい</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["集会",
@@ -4418,7 +4418,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>びょうどう</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["<ruby>期<rt>き</rt></ruby>限",
@@ -4478,7 +4478,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "チームに（　）する",
         "question": "（　）に入るのは？",
         "options": ["問い合わせ",
@@ -4488,8 +4488,8 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
-        "text": "業務（　）を<ruby>改<rt>あら</rt></ruby>善する",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
+        "text": "業務（　）を<ruby>改善<rt>かいぜん</rt></ruby>する",
         "question": "（　）に入るのは？",
         "options": ["効率",
           "持続",
@@ -4498,7 +4498,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "弱点を（　）する",
         "question": "（　）に入るのは？",
         "options": ["<ruby>克服<rt>こくふく</rt></ruby>",
@@ -4508,27 +4508,27 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "（　）ことが大切だ",
         "question": "（　）に入るのは？",
         "options": ["<ruby>遠慮<rt>えんりょ</rt></ruby>",
           "今週",
-          "要<ruby>求<rt>もと</rt></ruby>",
+          "<ruby>要求<rt>ようきゅう</rt></ruby>",
           "こする"],
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "（　）考える",
         "question": "（　）に入るのは？",
-        "options": ["<ruby>匂<rt>にお</rt></ruby>い",
+        "options": ["<ruby>匂い<rt>におい</rt></ruby>",
           "当選",
           "事",
           "派遣社員"],
         "answer": 2
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "科学的な（　）を示す",
         "question": "（　）に入るのは？",
         "options": ["環境アセスメント",
@@ -4538,7 +4538,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "（　）考える",
         "question": "（　）に入るのは？",
         "options": ["語り",
@@ -4548,7 +4548,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "新技術を（　）する",
         "question": "（　）に入るのは？",
         "options": ["<ruby>株価指数<rt>かぶかしすう</rt></ruby>",
@@ -4558,17 +4558,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "コストを（　）する",
         "question": "（　）に入るのは？",
         "options": ["三権分立",
           "<ruby>削減<rt>さくげん</rt></ruby>",
           "地点",
-          "<ruby>高齢者<rt>こうれいしゃ</rt></ruby>福<ruby>祉<rt>し</rt></ruby>"],
+          "<ruby>高齢者<rt>こうれいしゃ</rt></ruby><ruby>福祉<rt>ふくし</rt></ruby>"],
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "企画書を（　）する",
         "question": "（　）に入るのは？",
         "options": ["情報処理",
@@ -4578,7 +4578,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "（　）考える",
         "question": "（　）に入るのは？",
         "options": ["資金調達",
@@ -4588,7 +4588,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "マニュアルを（　）する",
         "question": "（　）に入るのは？",
         "options": ["遅<ruby>延<rt>のむ</rt></ruby>なく",
@@ -4598,7 +4598,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "天然（　）を活用する",
         "question": "（　）に入るのは？",
         "options": ["資源",
@@ -4608,17 +4608,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "新しい方法を（　）する",
         "question": "（　）に入るのは？",
         "options": ["試行",
-          "<ruby>起訴<rt>きそ</rt></ruby>する",
+          "<ruby>起訴する<rt>きそする</rt></ruby>",
           "変",
           "人間"],
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "（　）考える",
         "question": "（　）に入るのは？",
         "options": ["契約条件",
@@ -4628,7 +4628,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "多くの（　）を得る",
         "question": "（　）に入るのは？",
         "options": ["自然",
@@ -4638,7 +4638,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "上司の（　）に従う",
         "question": "（　）に入るのは？",
         "options": ["マニフェスト",
@@ -4649,7 +4649,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "コストを<ruby>削減<rt>さくげん</rt></ruby>するの意味は？",
+        "text": "コストを<ruby>削減する<rt>さくげんする</rt></ruby>の意味は？",
         "question": "意味が近いのは？",
         "options": ["当選",
           "校舎",
@@ -4672,7 +4672,7 @@ window.MOCK_DATA['N2'] = {
         "text": "新しい方法を試行するの意味は？",
         "question": "意味が近いのは？",
         "options": ["値下がり",
-          "<ruby>褒<rt>ほ</rt></ruby>める",
+          "<ruby>褒める<rt>ほめる</rt></ruby>",
           "試す",
           "地点"],
         "answer": 2
@@ -4723,7 +4723,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の態度（　）、<ruby>怪<rt>かい</rt></ruby>しい。",
+        "text": "<ruby>彼<rt>かれ</rt></ruby>の態度（　）、<ruby>怪しい<rt>あやしい</rt></ruby>。",
         "question": "（　）に入るのは？",
         "options": ["からして",
           "について",
@@ -4989,7 +4989,7 @@ window.MOCK_DATA['N2'] = {
         "type": "読解（短文）",
         "text": "失敗は成功へのステップであり恐れる必要はない。",
         "question": "失敗について正しいのは何か。",
-        "options": ["<ruby>避<rt>さ</rt></ruby>けるべき",
+        "options": ["<ruby>避ける<rt>さける</rt></ruby>べき",
           "無意味",
           "成功へのステップ",
           "恥ずかしい"],
@@ -5011,7 +5011,7 @@ window.MOCK_DATA['N2'] = {
         "type": "読解（中文）",
         "text": "失敗を恐れていては挑戦できない。失敗は成功へのステップであり学ぶことが大切だ。（問37）",
         "question": "失敗について何と言っているか。",
-        "options": ["<ruby>避<rt>さ</rt></ruby>ける",
+        "options": ["<ruby>避ける<rt>さける</rt></ruby>",
           "成功へのステップ",
           "無意味",
           "恥ずかしい"],
@@ -5023,7 +5023,7 @@ window.MOCK_DATA['N2'] = {
         "text": "チームワークは組織の成功に欠かせない。強みを活かし弱みを<ruby>補<rt>おぎな</rt></ruby>い合うことが大切だ。（問39）",
         "question": "大切なのは何か。",
         "options": ["強みを活かす",
-          "<ruby>競<rt>きそ</rt></ruby>争",
+          "<ruby>競争<rt>きょうそう</rt></ruby>",
           "一人で頑張る",
           "命令"],
         "answer": 0,
@@ -5077,19 +5077,19 @@ window.MOCK_DATA['N2'] = {
         "type": "読解（中文）",
         "text": "働き方<ruby>改革<rt>かいかく</rt></ruby>では<ruby>労働<rt>ろうどう</rt></ruby>時間短縮だけでなく生産性向上が重要だ。多様な働き方も認めるべきだ。（問44）",
         "question": "重要なのは何か。",
-        "options": ["休み増<ruby>加<rt>くわ</rt></ruby>",
+        "options": ["休み<ruby>増加<rt>ぞうか</rt></ruby>",
           "生産性向上と多様性",
-          "<ruby>給<rt>きゅう</rt></ruby>料アップ",
+          "<ruby>給料<rt>きゅうりょう</rt></ruby>アップ",
           "時間短縮だけ"],
         "answer": 1,
         "id": "N2-05-067"
       },
       {
         "type": "読解（中文）",
-        "text": "教育では知識詰め<ruby>込<rt>こ</rt></ruby>みから思考力重視への転換が<ruby>求<rt>もと</rt></ruby>められている。社会で<ruby>活躍<rt>かつやく</rt></ruby>できる<ruby>人材育成<rt>じんざいいくせい</rt></ruby>が目標だ。（問45）",
-        "question": "<ruby>求<rt>もと</rt></ruby>められているのは何か。",
+        "text": "教育では知識詰め<ruby>込<rt>こむ</rt></ruby>みから思考力重視への転換が<ruby>求<rt>もとめる</rt></ruby>められている。社会で<ruby>活躍<rt>かつやく</rt></ruby>できる<ruby>人材育成<rt>じんざいいくせい</rt></ruby>が目標だ。（問45）",
+        "question": "<ruby>求<rt>もとめる</rt></ruby>められているのは何か。",
         "options": ["思考力重視",
-          "知識詰め<ruby>込<rt>こ</rt></ruby>み",
+          "知識詰め<ruby>込<rt>こむ</rt></ruby>み",
           "不要",
           "テスト重視"],
         "answer": 0,
@@ -5100,24 +5100,24 @@ window.MOCK_DATA['N2'] = {
         "text": "【A】都市は便利で仕事も多い。【B】地方は自然が豊かで生活費が安い。",
         "question": "都市と地方について分かることは何か。",
         "options": ["どちらも悪い",
-          "それぞれ<ruby>良<rt>りょう</rt></ruby>い点がある",
-          "地方が<ruby>良<rt>りょう</rt></ruby>い",
-          "都市が<ruby>良<rt>りょう</rt></ruby>い"],
+          "それぞれ<ruby>良い<rt>よい</rt></ruby>点がある",
+          "地方が<ruby>良い<rt>よい</rt></ruby>",
+          "都市が<ruby>良い<rt>よい</rt></ruby>"],
         "answer": 3,
         "id": "N2-05-069",
-        "script": "話者A：この問題については、都市が<ruby>良<rt>りょう</rt></ruby>いという点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：はい。その通りだと思います。"
+        "script": "話者A：この問題については、都市が<ruby>良い<rt>よい</rt></ruby>という点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：はい。その通りだと思います。"
       },
       {
         "type": "統合理解",
         "text": "【A】オンライン教育は場所を選ばず学べる。【B】対面授業は<ruby>直接<rt>ちょくせつ</rt></ruby>の交流ができる。",
         "question": "分かることは何か。",
         "options": ["どちらも悪い",
-          "対面が<ruby>良<rt>りょう</rt></ruby>い",
-          "オンラインが<ruby>良<rt>りょう</rt></ruby>い",
-          "それぞれ<ruby>良<rt>りょう</rt></ruby>い点がある"],
+          "対面が<ruby>良い<rt>よい</rt></ruby>",
+          "オンラインが<ruby>良い<rt>よい</rt></ruby>",
+          "それぞれ<ruby>良い<rt>よい</rt></ruby>点がある"],
         "answer": 2,
         "id": "N2-05-070",
-        "script": "話者A：この問題については、オンラインが<ruby>良<rt>りょう</rt></ruby>いという点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：ええ。その通りだと思います。"
+        "script": "話者A：この問題については、オンラインが<ruby>良い<rt>よい</rt></ruby>という点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：ええ。その通りだと思います。"
       },
       {
         "type": "主張理解（長文）",
@@ -5134,7 +5134,7 @@ window.MOCK_DATA['N2'] = {
         "type": "主張理解（長文）",
         "text": "失敗は成功の母である。失敗から学び次に活かすことが成長につながる。失敗を恐れて挑戦しないことこそ本当の失敗だ。",
         "question": "失敗について正しいのは何か。",
-        "options": ["<ruby>避<rt>さ</rt></ruby>けるべき",
+        "options": ["<ruby>避ける<rt>さける</rt></ruby>べき",
           "無意味",
           "成功の母",
           "恥"],
@@ -5143,17 +5143,17 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "時間は有限である。優先順<ruby>位<rt>くら</rt></ruby>をつけて重要なことに集中することが<ruby>充<rt>あ</rt></ruby>実した人生につながる。",
+        "text": "時間は有限である。<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>をつけて重要なことに集中することが<ruby>充実<rt>じゅうじつ</rt></ruby>した人生につながる。",
         "question": "時間<ruby>管理<rt>かんり</rt></ruby>で大切なのは何か。",
         "options": ["<ruby>完璧<rt>かんぺき</rt></ruby>主義",
-          "優先順<ruby>位<rt>くら</rt></ruby>",
-          "後<ruby>回<rt>まわ</rt></ruby>し",
+          "<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>",
+          "<ruby>後回し<rt>あとまわし</rt></ruby>",
           "全部やる"],
         "answer": 0,
         "id": "N2-05-073"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
         "text": "【美術館】大人800円、大学生500円、高校生以下無料。毎月第3日曜は無料開放日。",
         "question": "正しいのは何か。",
         "options": ["大学生無料",
@@ -5164,7 +5164,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-05-074"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
         "text": "【駐車場】最初の1時間300円、以降30分150円。最大料金1,500円（24時間）。",
         "question": "正しいのは何か。",
         "options": ["無料",
@@ -5175,7 +5175,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-05-075"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "男の人と女の人が話しています。男の人はこのあとまず何をしますか。（21）",
         "question": "まず何をしますか。",
         "options": ["メールを送る",
@@ -5187,7 +5187,7 @@ window.MOCK_DATA['N2'] = {
         "script": "男：それでは、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：会議室を予約していただけますか。\n女：<ruby>了解<rt>りょうかい</rt></ruby>です、すぐに対応します。【セット5問44】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "女の人と男の人が話しています。女の人はこのあと何をしますか。（22）",
         "question": "何をしますか。",
         "options": ["会議に出席する",
@@ -5199,31 +5199,31 @@ window.MOCK_DATA['N2'] = {
         "script": "男：えーと、この件について進め方を検討しましょう。\n女：そうですか、何をすればよいでしょうか。\n男：まず会議に出席してください。\n女：承知しました。よろしくお願いします。【セット5問45】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "店員と客が話しています。客はこのあと何をしますか。（23）",
         "question": "何をしますか。",
         "options": ["店を出る",
           "別の店を探す",
           "注文を変更する",
-          "支<ruby>払<rt>はら</rt></ruby>いをする"],
+          "<ruby>支払い<rt>しはらい</rt></ruby>をする"],
         "answer": 1,
         "id": "N2-05-078",
         "script": "男：次の段階に進む準備ができましたね。\n女：あのう、はい、何から始めましょうか。\n男：別の店を探すください。\n女：うん。お願いします。【セット5問46】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "先生と学生が話しています。学生はこのあと何をしますか。（24）",
         "question": "何をしますか。",
         "options": ["図書館で調べる",
           "先生に質問する",
-          "レポートを書き<ruby>直<rt>なお</rt></ruby>す",
+          "レポートを書き<ruby>直す<rt>なおす</rt></ruby>",
           "友達に聞く"],
         "answer": 2,
         "id": "N2-05-079",
-        "script": "男：すみません、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：レポートを書き<ruby>直<rt>なお</rt></ruby>すいただけますか。\n女：はい、すぐに対応します。【セット5問47】"
+        "script": "男：すみません、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：レポートを書き<ruby>直す<rt>なおす</rt></ruby>いただけますか。\n女：はい、すぐに対応します。【セット5問47】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "医者と患者が話しています。患者はこのあと何をしますか。（25）",
         "question": "何をしますか。",
         "options": ["運動する",
@@ -5236,11 +5236,11 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "ポイント理解",
-        "text": "会議を聞いています。今後の<ruby>課題<rt>かだい</rt></ruby>として<ruby>挙<rt>あ</rt></ruby>げられているのは何ですか。（25）",
+        "text": "会議を聞いています。今後の<ruby>課題<rt>かだい</rt></ruby>として<ruby>挙<rt>あう</rt></ruby>げられているのは何ですか。（25）",
         "question": "<ruby>課題<rt>かだい</rt></ruby>は何ですか。",
         "options": ["納<ruby>期<rt>き</rt></ruby>短縮",
           "<ruby>人材育成<rt>じんざいいくせい</rt></ruby>",
-          "コスト<ruby>削減<rt>さくげん</rt></ruby>",
+          "<ruby>コスト削減<rt>こすとさくげん</rt></ruby>",
           "品質向上"],
         "answer": 3,
         "id": "N2-05-081",
@@ -5253,7 +5253,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["顧客満足度向上",
           "効率化",
           "リスク低減",
-          "コスト<ruby>削減<rt>さくげん</rt></ruby>"],
+          "<ruby>コスト削減<rt>こすとさくげん</rt></ruby>"],
         "answer": 1,
         "id": "N2-05-082",
         "script": "効率化が最も重要な要素です。様々な観点から検討しましたが、これが最も重要です。"
@@ -5272,7 +5272,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "ポイント理解",
-        "text": "ラジオを聞いています。専門<ruby>家<rt>いえ</rt></ruby>が心配しているのは何ですか。（28）",
+        "text": "ラジオを聞いています。<ruby>専門家<rt>せんもんか</rt></ruby>が心配しているのは何ですか。（28）",
         "question": "心配しているのは？",
         "options": ["健康への影響",
           "環境への影響",
@@ -5299,8 +5299,8 @@ window.MOCK_DATA['N2'] = {
         "text": "スピーチを聞いています。話者が<ruby>感謝<rt>かんしゃ</rt></ruby>しているのは何ですか。（30）",
         "question": "<ruby>感謝<rt>かんしゃ</rt></ruby>しているのは？",
         "options": ["顧客の信頼",
-          "<ruby>家<rt>いえ</rt></ruby>族の理解",
-          "同<ruby>僚<rt>りょう</rt></ruby>の協力",
+          "<ruby>家族<rt>かぞく</rt></ruby>の理解",
+          "<ruby>同僚<rt>どうりょう</rt></ruby>の協力",
           "周囲の支援"],
         "answer": 3,
         "id": "N2-05-086",
@@ -5336,11 +5336,11 @@ window.MOCK_DATA['N2'] = {
         "question": "主に何について？",
         "options": ["<ruby>趣味<rt>しゅみ</rt></ruby>",
           "キャリア",
-          "<ruby>家<rt>いえ</rt></ruby>族",
+          "<ruby>家族<rt>かぞく</rt></ruby>",
           "将来"],
         "answer": 2,
         "id": "N2-05-089",
-        "script": "今日の話題は<ruby>家<rt>いえ</rt></ruby>族についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。"
+        "script": "今日の話題は<ruby>家族<rt>かぞく</rt></ruby>についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。"
       },
       {
         "type": "概要理解",
@@ -5367,7 +5367,7 @@ window.MOCK_DATA['N2'] = {
         "script": "<ruby>今回<rt>こんかい</rt></ruby>お伝えしたいのは健康についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お<ruby>荷物<rt>にもつ</rt></ruby>をお預かりしましょうか。（193）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -5378,7 +5378,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-05-092"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "チェックアウトは何時ですか。（194）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -5389,7 +5389,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-05-093"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "朝食は何時からですか。（195）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -5400,7 +5400,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-05-094"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "すみません、トイレはどこですか。（196）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -5411,8 +5411,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-05-095"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "この電車は<ruby>渋<rt>しぶ</rt></ruby>谷に止まりますか。（197）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "この電車は<ruby>渋谷<rt>しぶや</rt></ruby>に止まりますか。（197）",
         "question": "返答は？",
         "options": ["はい、止まります",
           "わかりません",
@@ -5422,7 +5422,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-05-096"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お水をいただけますか。（198）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -5433,7 +5433,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-05-097"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "何名様ですか。（200）",
         "question": "返答は？",
         "options": ["2名です",
@@ -5444,7 +5444,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-05-099"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "ここで待っていてもいいですか。（199）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -5455,7 +5455,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-05-098"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "禁煙席でよろしいですか。（201）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -5466,7 +5466,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-05-100"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お持ち帰りですか。（202）",
         "question": "返答は？",
         "options": ["ここで食べます",
@@ -5477,7 +5477,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-05-101"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "<ruby>袋<rt>ふくろ</rt></ruby>は要りますか。（203）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -5488,7 +5488,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-05-102"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "ポイントカードはお持ちですか。（204）",
         "question": "返答は？",
         "options": ["いいえ、違います",
@@ -5549,17 +5549,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>かいめつてきな</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["支社",
           "市民",
           "染まる",
-          "<ruby>壊滅<rt>かいめつ</rt></ruby>的な"],
+          "<ruby>壊滅的な<rt>かいめつてきな</rt></ruby>"],
         "answer": 3
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>おうさま</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["<ruby>管轄<rt>かんかつ</rt></ruby><ruby>裁判<rt>さいばん</rt></ruby>所",
@@ -5569,17 +5569,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>ばいばい</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["売買",
-          "<ruby>既<rt>すで</rt></ruby>に",
+          "<ruby>既に<rt>すでに</rt></ruby>",
           "証券投資",
           "抗体"],
         "answer": 0
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>いっかんせい</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["<ruby>連動<rt>れんどう</rt></ruby>",
@@ -5589,7 +5589,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>はってん</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["<ruby>傾斜<rt>けいしゃ</rt></ruby>",
@@ -5649,7 +5649,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "計画を（　）する",
         "question": "（　）に入るのは？",
         "options": ["実現",
@@ -5659,7 +5659,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "計画を（　）する",
         "question": "（　）に入るのは？",
         "options": ["<ruby>仲裁<rt>ちゅうさい</rt></ruby>手続き",
@@ -5669,37 +5669,37 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "学んだことを（　）する",
         "question": "（　）に入るのは？",
         "options": ["歪<ruby>曲<rt>まが</rt></ruby>",
-          "実<ruby>践<rt>せん</rt></ruby>",
+          "<ruby>実践<rt>じっせん</rt></ruby>",
           "本格",
-          "付<ruby>加<rt>くわ</rt></ruby>価値"],
+          "<ruby>付加価値<rt>ふかかち</rt></ruby>"],
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "過去の（　）を評価する",
         "question": "（　）に入るのは？",
-        "options": ["要<ruby>求<rt>もと</rt></ruby>",
+        "options": ["<ruby>要求<rt>ようきゅう</rt></ruby>",
           "実績",
           "<ruby>遠慮<rt>えんりょ</rt></ruby>",
-          "入<ruby>荷<rt>にな</rt></ruby>"],
+          "<ruby>入荷<rt>にゅうか</rt></ruby>"],
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "（　）考える",
         "question": "（　）に入るのは？",
         "options": ["派遣社員",
-          "<ruby>匂<rt>にお</rt></ruby>い",
+          "<ruby>匂い<rt>におい</rt></ruby>",
           "<ruby>嫉妬<rt>しっと</rt></ruby>",
           "在庫<ruby>管理<rt>かんり</rt></ruby>する"],
         "answer": 2
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "受取場所を（　）する",
         "question": "（　）に入るのは？",
         "options": ["実用化研究",
@@ -5709,8 +5709,8 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
-        "text": "選<ruby>択<rt>たく</rt></ruby><ruby>肢<rt>し</rt></ruby>を（　）",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
+        "text": "<ruby>選択肢<rt>せんたくし</rt></ruby>を（　）",
         "question": "（　）に入るのは？",
         "options": ["獣医",
           "語り",
@@ -5719,7 +5719,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "明確な方針を（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>血管<rt>けっかん</rt></ruby>",
@@ -5729,17 +5729,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "（　）考える",
         "question": "（　）に入るのは？",
         "options": ["地点",
           "地元",
-          "<ruby>高齢者<rt>こうれいしゃ</rt></ruby>福<ruby>祉<rt>し</rt></ruby>",
+          "<ruby>高齢者<rt>こうれいしゃ</rt></ruby><ruby>福祉<rt>ふくし</rt></ruby>",
           "疑い"],
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "誤りを（　）する",
         "question": "（　）に入るのは？",
         "options": ["修正",
@@ -5749,17 +5749,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "最後の（　）を使う",
         "question": "（　）に入るのは？",
-        "options": ["<ruby>既<rt>すで</rt></ruby>に",
+        "options": ["<ruby>既に<rt>すでに</rt></ruby>",
           "EdTech",
           "資金調達",
           "手段"],
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "自分の意見を（　）する",
         "question": "（　）に入るのは？",
         "options": ["主張",
@@ -5769,17 +5769,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "市場の（　）が増える",
         "question": "（　）に入るのは？",
-        "options": ["<ruby>需<rt>じゅ</rt></ruby>要",
+        "options": ["<ruby>需要<rt>じゅよう</rt></ruby>",
           "系列企業",
           "人々",
           "経営"],
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "プロジェクトが（　）に進む",
         "question": "（　）に入るのは？",
         "options": ["変",
@@ -5789,7 +5789,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "（　）を満たす",
         "question": "（　）に入るのは？",
         "options": ["気軽",
@@ -5799,8 +5799,8 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
-        "text": "国際（　）を<ruby>分析<rt>ぶんせき</rt></ruby>する",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
+        "text": "国際（　）を<ruby>分析する<rt>ぶんせきする</rt></ruby>",
         "question": "（　）に入るのは？",
         "options": ["自然",
           "<ruby>旅行<rt>りょこう</rt></ruby>",
@@ -5809,7 +5809,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "気温が（　）する",
         "question": "（　）に入るのは？",
         "options": ["<ruby>上昇<rt>じょうしょう</rt></ruby>",
@@ -5820,7 +5820,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "市場の<ruby>需<rt>じゅ</rt></ruby>要が増えるの意味は？",
+        "text": "市場の<ruby>需要<rt>じゅよう</rt></ruby>が増えるの意味は？",
         "question": "意味が近いのは？",
         "options": ["高まる",
           "助教",
@@ -5840,7 +5840,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "国際情勢を<ruby>分析<rt>ぶんせき</rt></ruby>するの意味は？",
+        "text": "国際情勢を<ruby>分析する<rt>ぶんせきする</rt></ruby>の意味は？",
         "question": "意味が近いのは？",
         "options": ["変",
           "受注活動",
@@ -5850,7 +5850,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "気温が<ruby>上昇<rt>じょうしょう</rt></ruby>するの意味は？",
+        "text": "気温が<ruby>上昇する<rt>じょうしょうする</rt></ruby>の意味は？",
         "question": "意味が近いのは？",
         "options": ["上がる",
           "知的財産",
@@ -5862,8 +5862,8 @@ window.MOCK_DATA['N2'] = {
         "type": "言い換え",
         "text": "エネルギーを消費するの意味は？",
         "question": "意味が近いのは？",
-        "options": ["<ruby>起訴<rt>きそ</rt></ruby>する",
-          "<ruby>請求<rt>せいきゅう</rt></ruby>書",
+        "options": ["<ruby>起訴する<rt>きそする</rt></ruby>",
+          "<ruby>請求書<rt>せいきゅうしょ</rt></ruby>",
           "使う",
           "<ruby>旅行<rt>りょこう</rt></ruby>"],
         "answer": 2
@@ -5883,7 +5883,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "専門<ruby>家<rt>いえ</rt></ruby>（　）、この問題は難しい。",
+        "text": "<ruby>専門家<rt>せんもんか</rt></ruby>（　）、この問題は難しい。",
         "question": "（　）に入るのは？",
         "options": ["としても",
           "であっても",
@@ -6004,7 +6004,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "さすが専門<ruby>家<rt>いえ</rt></ruby>（　）あって、詳しい。",
+        "text": "さすが<ruby>専門家<rt>せんもんか</rt></ruby>（　）あって、詳しい。",
         "question": "（　）に入るのは？",
         "options": ["と",
           "なら",
@@ -6015,12 +6015,12 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問327（N4レベル）】次の語句を正しい順序に並べてください：です / 行きたい / 友達と / <ruby>旅行<rt>りょこう</rt></ruby>に / 一<ruby>緒<rt>お</rt></ruby>に",
+        "text": "【ビジネス・問327（N4レベル）】次の語句を正しい順序に並べてください：です / 行きたい / 友達と / <ruby>旅行<rt>りょこう</rt></ruby>に / <ruby>一緒<rt>いっしょ</rt></ruby>に",
         "question": "正しい順序は？",
-        "options": ["です 友達と 一<ruby>緒<rt>お</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい",
-          "友達と一<ruby>緒<rt>お</rt></ruby>に<ruby>旅行<rt>りょこう</rt></ruby>に行きたいです",
-          "です 行きたい <ruby>旅行<rt>りょこう</rt></ruby>に 一<ruby>緒<rt>お</rt></ruby>に 友達と",
-          "一<ruby>緒<rt>お</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい です 友達と"],
+        "options": ["です 友達と <ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい",
+          "友達と<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>旅行<rt>りょこう</rt></ruby>に行きたいです",
+          "です 行きたい <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>一緒<rt>いっしょ</rt></ruby>に 友達と",
+          "<ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい です 友達と"],
         "answer": 1,
         "id": "N2-06-046"
       },
@@ -6059,7 +6059,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文章の文法",
-        "text": "日本経済は<ruby>長期<rt>ちょうき</rt></ruby>にわたる<ruby>停滞<rt>ていたい</rt></ruby>（　）、<ruby>回<rt>まわ</rt></ruby>復の<ruby>兆<rt>ちょう</rt></ruby>しを見せている。（326）",
+        "text": "日本経済は<ruby>長期<rt>ちょうき</rt></ruby>にわたる<ruby>停滞<rt>ていたい</rt></ruby>（　）、<ruby>回復<rt>かいふく</rt></ruby>の<ruby>兆<rt>ちょう</rt></ruby>しを見せている。（326）",
         "question": "（　）に入るのは？",
         "options": ["に至り",
           "を経て",
@@ -6103,7 +6103,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文章の文法",
-        "text": "社会の変化（　）、教育も見<ruby>直<rt>なお</rt></ruby>しが必要だ。（330）",
+        "text": "社会の変化（　）、教育も<ruby>見直し<rt>みなおし</rt></ruby>が必要だ。（330）",
         "question": "（　）に入るのは？",
         "options": ["に伴い",
           "によると",
@@ -6114,7 +6114,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が進む現代、異文化理解力が<ruby>求<rt>もと</rt></ruby>められている。文化的背景を理解することが重要だ。（問26）",
+        "text": "グローバル化が進む現代、異文化理解力が<ruby>求<rt>もとめる</rt></ruby>められている。文化的背景を理解することが重要だ。（問26）",
         "question": "筆者が言いたいことは何か。",
         "options": ["外国語学習",
           "文化理解が重要",
@@ -6150,8 +6150,8 @@ window.MOCK_DATA['N2'] = {
         "text": "働き方<ruby>改革<rt>かいかく</rt></ruby>で残業が減ったが、仕事量は変わらず効率化が<ruby>課題<rt>かだい</rt></ruby>となっている。（問29）",
         "question": "<ruby>課題<rt>かだい</rt></ruby>は何か。",
         "options": ["効率化",
-          "残業増<ruby>加<rt>くわ</rt></ruby>",
-          "<ruby>給<rt>きゅう</rt></ruby>料減",
+          "残業<ruby>増加<rt>ぞうか</rt></ruby>",
+          "<ruby>給料<rt>きゅうりょう</rt></ruby>減",
           "休み減"],
         "answer": 0,
         "id": "N2-06-058"
@@ -6204,7 +6204,7 @@ window.MOCK_DATA['N2'] = {
         "type": "読解（中文）",
         "text": "多様性を尊重する社会では全ての人が<ruby>活躍<rt>かつやく</rt></ruby>できる。違いを強みとして活かすことが重要だ。（問49）",
         "question": "多様性社会とは何か。",
-        "options": ["<ruby>競<rt>きそ</rt></ruby>争社会",
+        "options": ["<ruby>競争<rt>きょうそう</rt></ruby>社会",
           "<ruby>閉鎖<rt>へいさ</rt></ruby>社会",
           "同じ人だけ",
           "全員が<ruby>活躍<rt>かつやく</rt></ruby>できる"],
@@ -6213,11 +6213,11 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（中文）",
-        "text": "時間<ruby>管理<rt>かんり</rt></ruby>では優先順<ruby>位<rt>くら</rt></ruby>をつけ重要な仕事から取り組む。<ruby>完璧<rt>かんぺき</rt></ruby>を<ruby>求<rt>もと</rt></ruby>めすぎないことも大切だ。（問50）",
+        "text": "時間<ruby>管理<rt>かんり</rt></ruby>では<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>をつけ重要な仕事から取り組む。<ruby>完璧<rt>かんぺき</rt></ruby>を<ruby>求<rt>もとめる</rt></ruby>めすぎないことも大切だ。（問50）",
         "question": "大切なのは何か。",
-        "options": ["後<ruby>回<rt>まわ</rt></ruby>し",
+        "options": ["<ruby>後回し<rt>あとまわし</rt></ruby>",
           "全部同時",
-          "優先順<ruby>位<rt>くら</rt></ruby>",
+          "<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>",
           "<ruby>完璧<rt>かんぺき</rt></ruby>主義"],
         "answer": 2,
         "id": "N2-06-064"
@@ -6240,7 +6240,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["恥ずかしい",
           "無意味",
           "成功へのステップ",
-          "<ruby>避<rt>さ</rt></ruby>ける"],
+          "<ruby>避ける<rt>さける</rt></ruby>"],
         "answer": 2,
         "id": "N2-06-066"
       },
@@ -6259,7 +6259,7 @@ window.MOCK_DATA['N2'] = {
         "type": "読解（中文）",
         "text": "チームワークは組織の成功に欠かせない。強みを活かし弱みを<ruby>補<rt>おぎな</rt></ruby>い合うことが大切だ。（問54）",
         "question": "大切なのは何か。",
-        "options": ["<ruby>競<rt>きそ</rt></ruby>争",
+        "options": ["<ruby>競争<rt>きょうそう</rt></ruby>",
           "命令",
           "一人で頑張る",
           "強みを活かす"],
@@ -6280,11 +6280,11 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "統合理解",
-        "text": "【A】早起きは健康に<ruby>良<rt>りょう</rt></ruby>い。【B】夜<ruby>型<rt>かた</rt></ruby>の人も<ruby>成果<rt>せいか</rt></ruby>を出している。",
+        "text": "【A】早起きは健康に<ruby>良い<rt>よい</rt></ruby>。【B】夜<ruby>型<rt>かたい</rt></ruby>の人も<ruby>成果<rt>せいか</rt></ruby>を出している。",
         "question": "分かることは何か。",
         "options": ["人により異なる",
           "時間は関係ない",
-          "夜<ruby>型<rt>かた</rt></ruby>が正解",
+          "夜<ruby>型<rt>かたい</rt></ruby>が正解",
           "早起きが正解"],
         "answer": 3,
         "id": "N2-06-070",
@@ -6306,7 +6306,7 @@ window.MOCK_DATA['N2'] = {
         "text": "チームワークでは個人の能力より協力する力が重要だ。互いの強みを活かし弱みを<ruby>補<rt>おぎな</rt></ruby>い合うことで大きな<ruby>成果<rt>せいか</rt></ruby>が出る。",
         "question": "チームワークで重要なのは何か。",
         "options": ["協力する力",
-          "<ruby>競<rt>きそ</rt></ruby>争",
+          "<ruby>競争<rt>きょうそう</rt></ruby>",
           "命令",
           "個人の能力"],
         "answer": 1,
@@ -6324,8 +6324,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-06-073"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
-        "text": "【英会話教室】グループ月4<ruby>回<rt>まわ</rt></ruby>12,000円、マンツーマン1<ruby>回<rt>まわ</rt></ruby>5,000円。入会金10,000円、今月無料。",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
+        "text": "【英会話教室】グループ月4<ruby>回<rt>まわす</rt></ruby>12,000円、マンツーマン1<ruby>回<rt>まわす</rt></ruby>5,000円。入会金10,000円、今月無料。",
         "question": "正しいのは何か。",
         "options": ["入会金不要",
           "グループ20,000円",
@@ -6335,21 +6335,21 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-06-074"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
-        "text": "【レンタカー】軽自動車1日5,000円、<ruby>普通<rt>ふつう</rt></ruby>車1日8,000円。ガソリン満タン返却。<ruby>免許<rt>めんきょ</rt></ruby>証必須。",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
+        "text": "【レンタカー】軽自動車1日5,000円、<ruby>普通<rt>ふつう</rt></ruby>車1日8,000円。ガソリン満タン返却。<ruby>免許証<rt>めんきょしょう</rt></ruby>必須。",
         "question": "正しいのは何か。",
         "options": ["<ruby>普通<rt>ふつう</rt></ruby>車1日8,000円",
-          "<ruby>免許<rt>めんきょ</rt></ruby>証不要",
+          "<ruby>免許証<rt>めんきょしょう</rt></ruby>不要",
           "軽10,000円",
           "ガソリン空でOK"],
         "answer": 3,
         "id": "N2-06-075"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "上司と部下が話しています。部下はこのあと何をしますか。（26）",
         "question": "何をしますか。",
-        "options": ["クライアントに<ruby>連絡<rt>れんらく</rt></ruby>する",
+        "options": ["クライアントに<ruby>連絡する<rt>れんらくする</rt></ruby>",
           "会議を設定する",
           "データを確認する",
           "報告書を作成する"],
@@ -6358,7 +6358,7 @@ window.MOCK_DATA['N2'] = {
         "script": "男：それでは、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：データを確認していただけますか。\n女：<ruby>了解<rt>りょうかい</rt></ruby>です、すぐに対応します。【セット6問44】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "受付と来客が話しています。来客はこのあと何をしますか。（27）",
         "question": "何をしますか。",
         "options": ["電話をする",
@@ -6370,19 +6370,19 @@ window.MOCK_DATA['N2'] = {
         "script": "男：えーと、この件について進め方を検討しましょう。\n女：そうですか、何をすればよいでしょうか。\n男：まず書類に<ruby>記入<rt>きにゅう</rt></ruby>してください。\n女：承知しました。よろしくお願いします。【セット6問45】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "<ruby>旅行<rt>りょこう</rt></ruby>会社の人と客が話しています。客はこのあと何をしますか。（28）",
         "question": "何をしますか。",
         "options": ["別のプランを選ぶ",
           "パンフレットを見る",
           "予約をキャンセルする",
-          "<ruby>追加<rt>ついか</rt></ruby>料金を<ruby>払<rt>はら</rt></ruby>う"],
+          "<ruby>追加<rt>ついか</rt></ruby>料金を<ruby>払う<rt>はらう</rt></ruby>"],
         "answer": 1,
         "id": "N2-06-078",
         "script": "男：次の段階に進む準備ができましたね。\n女：あのう、はい、何から始めましょうか。\n男：パンフレットを見るください。\n女：うん。お願いします。【セット6問46】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "銀行員と客が話しています。客はこのあと何をしますか。（29）",
         "question": "何をしますか。",
         "options": ["書類に<ruby>記入<rt>きにゅう</rt></ruby>する",
@@ -6394,10 +6394,10 @@ window.MOCK_DATA['N2'] = {
         "script": "男：すみません、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：書類に<ruby>記入<rt>きにゅう</rt></ruby>していただけますか。\n女：はい、すぐに対応します。【セット6問47】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "不動産屋と客が話しています。客はこのあと何をしますか。（30）",
         "question": "何をしますか。",
-        "options": ["引っ<ruby>越<rt>こ</rt></ruby>し日を決める",
+        "options": ["<ruby>引っ越し<rt>ひっこし</rt></ruby>日を決める",
           "契約書を確認する",
           "保証人を探す",
           "物件を見に行く"],
@@ -6410,8 +6410,8 @@ window.MOCK_DATA['N2'] = {
         "text": "報告を聞いています。問題の解決策として提案されているのは何ですか。（31）",
         "question": "解決策は何ですか。",
         "options": ["ルール変更",
-          "システム<ruby>改<rt>あら</rt></ruby>善",
-          "人員増<ruby>加<rt>くわ</rt></ruby>",
+          "システム<ruby>改善<rt>かいぜん</rt></ruby>",
+          "人員<ruby>増加<rt>ぞうか</rt></ruby>",
           "研修実<ruby>施<rt>ほどこ</rt></ruby>"],
         "answer": 0,
         "id": "N2-06-081",
@@ -6455,7 +6455,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "ポイント理解",
-        "text": "討<ruby>論<rt>ろん</rt></ruby>を聞いています。反対意見の<ruby>根拠<rt>こんきょ</rt></ruby>は何ですか。（35）",
+        "text": "<ruby>討論<rt>とうろん</rt></ruby>を聞いています。反対意見の<ruby>根拠<rt>こんきょ</rt></ruby>は何ですか。（35）",
         "question": "<ruby>根拠<rt>こんきょ</rt></ruby>は何ですか。",
         "options": ["<ruby>効果<rt>こうか</rt></ruby>不明",
           "コスト高",
@@ -6538,8 +6538,8 @@ window.MOCK_DATA['N2'] = {
         "script": "<ruby>今回<rt>こんかい</rt></ruby>お伝えしたいのは過去の経験についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。【セット6問59】"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "お支<ruby>払<rt>はら</rt></ruby>いは現金ですか。（205）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "お<ruby>支払い<rt>しはらい</rt></ruby>は現金ですか。（205）",
         "question": "返答は？",
         "options": ["はい、食べました",
           "カードでお願いします",
@@ -6549,7 +6549,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-06-092"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "領収書は要りますか。（206）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -6560,7 +6560,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-06-093"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "ご予約はされていますか。（207）",
         "question": "返答は？",
         "options": ["はい、田中で予約しています",
@@ -6571,7 +6571,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-06-094"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お<ruby>荷物<rt>にもつ</rt></ruby>をお預かりしましょうか。（208）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -6582,7 +6582,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-06-095"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "チェックアウトは何時ですか。（209）",
         "question": "返答は？",
         "options": ["いいえ、違います",
@@ -6593,7 +6593,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-06-096"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "朝食は何時からですか。（210）",
         "question": "返答は？",
         "options": ["7時からです",
@@ -6604,7 +6604,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-06-097"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "すみません、トイレはどこですか。（211）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -6615,8 +6615,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-06-098"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "この電車は<ruby>渋<rt>しぶ</rt></ruby>谷に止まりますか。（212）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "この電車は<ruby>渋谷<rt>しぶや</rt></ruby>に止まりますか。（212）",
         "question": "返答は？",
         "options": ["いいえ、違います",
           "はい、止まります",
@@ -6626,7 +6626,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-06-099"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お水をいただけますか。（213）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -6637,7 +6637,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-06-100"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "何名様ですか。（215）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -6648,7 +6648,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-06-102"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "ここで待っていてもいいですか。（214）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -6659,7 +6659,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-06-101"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "禁煙席でよろしいですか。（216）",
         "question": "返答は？",
         "options": ["いいえ、違います",
@@ -6720,27 +6720,27 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>きにする</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["太陽光発電",
           "気にする",
           "<ruby>尿検査<rt>にょうけんさ</rt></ruby>",
-          "<ruby>敷<rt>しめる</rt></ruby>く"],
+          "<ruby>敷く<rt>しく</rt></ruby>"],
         "answer": 1
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>げんざいりょう</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["原告",
-          "原<ruby>材<rt>ざい</rt></ruby>料",
+          "原<ruby>材料<rt>ざいりょう</rt></ruby>",
           "特別",
           "城"],
         "answer": 1
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>とくちょう</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["階層別研修",
@@ -6750,7 +6750,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>おおまか</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["追いつく",
@@ -6760,7 +6760,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>なげる</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["投げる",
@@ -6820,7 +6820,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "エネルギーを（　）する",
         "question": "（　）に入るのは？",
         "options": ["問い合わせ",
@@ -6830,7 +6830,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "書類を（　）する",
         "question": "（　）に入るのは？",
         "options": ["表<ruby>彰<rt>しょう</rt></ruby>",
@@ -6840,27 +6840,27 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "（　）考える",
         "question": "（　）に入るのは？",
         "options": ["<ruby>結論<rt>けつろん</rt></ruby>",
           "本格",
-          "付<ruby>加<rt>くわ</rt></ruby>価値",
+          "<ruby>付加価値<rt>ふかかち</rt></ruby>",
           "素人"],
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "書類を（　）する",
         "question": "（　）に入るのは？",
         "options": ["技能実習",
           "<ruby>遠慮<rt>えんりょ</rt></ruby>",
-          "入<ruby>荷<rt>にな</rt></ruby>",
+          "<ruby>入荷<rt>にゅうか</rt></ruby>",
           "<ruby>審査<rt>しんさ</rt></ruby>"],
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "品質（　）を維持する",
         "question": "（　）に入るのは？",
         "options": ["水準",
@@ -6870,7 +6870,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "原因を（　）する",
         "question": "（　）に入るのは？",
         "options": ["環境アセスメント",
@@ -6880,17 +6880,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "（　）考える",
         "question": "（　）に入るのは？",
         "options": ["着実",
           "<ruby>労働者<rt>ろうどうしゃ</rt></ruby>",
           "獣医",
-          "<ruby>既<rt>すで</rt></ruby>に"],
+          "<ruby>既に<rt>すでに</rt></ruby>"],
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "研究の（　）を発表する",
         "question": "（　）に入るのは？",
         "options": ["ディスクロージャー",
@@ -6900,17 +6900,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "インフラを（　）する",
         "question": "（　）に入るのは？",
         "options": ["整備",
-          "<ruby>高齢者<rt>こうれいしゃ</rt></ruby>福<ruby>祉<rt>し</rt></ruby>",
+          "<ruby>高齢者<rt>こうれいしゃ</rt></ruby><ruby>福祉<rt>ふくし</rt></ruby>",
           "疑い",
           "体調<ruby>管理<rt>かんり</rt></ruby>"],
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "（　）条件を確認する",
         "question": "（　）に入るのは？",
         "options": ["前提",
@@ -6920,27 +6920,27 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "研究に（　）する",
         "question": "（　）に入るのは？",
         "options": ["専念",
           "資金調達",
-          "<ruby>既<rt>すで</rt></ruby>に",
+          "<ruby>既に<rt>すでに</rt></ruby>",
           "学習指導"],
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "人口が（　）する",
         "question": "（　）に入るのは？",
         "options": ["自発的に",
           "体力",
-          "増<ruby>加<rt>くわ</rt></ruby>",
+          "<ruby>増加<rt>ぞうか</rt></ruby>",
           "<ruby>投票<rt>とうひょう</rt></ruby>"],
         "answer": 2
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "血行を（　）する",
         "question": "（　）に入るのは？",
         "options": ["実証",
@@ -6950,7 +6950,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "（　）考える",
         "question": "（　）に入るのは？",
         "options": ["やっぱり",
@@ -6960,7 +6960,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "企業の（　）が危ぶまれる",
         "question": "（　）に入るのは？",
         "options": ["<ruby>被覆<rt>ひふく</rt></ruby>",
@@ -6970,7 +6970,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "<ruby>効果<rt>こうか</rt></ruby>的な（　）を講じる",
         "question": "（　）に入るのは？",
         "options": ["自然",
@@ -6980,7 +6980,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "調査の（　）とする",
         "question": "（　）に入るのは？",
         "options": ["対象",
@@ -6991,11 +6991,11 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "書類を<ruby>審査<rt>しんさ</rt></ruby>するの意味は？",
+        "text": "書類を<ruby>審査する<rt>しんさする</rt></ruby>の意味は？",
         "question": "意味が近いのは？",
         "options": ["契約条件",
           "足りる",
-          "<ruby>審査<rt>しんさ</rt></ruby>する",
+          "<ruby>審査する<rt>しんさする</rt></ruby>",
           "片道"],
         "answer": 2
       },
@@ -7021,10 +7021,10 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "人口が増<ruby>加<rt>くわ</rt></ruby>するの意味は？",
+        "text": "人口が<ruby>増加<rt>ぞうか</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": ["条件",
-          "総選<ruby>挙<rt>あ</rt></ruby>",
+          "総選<ruby>挙<rt>あう</rt></ruby>",
           "増える",
           "本格"],
         "answer": 2
@@ -7175,23 +7175,23 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【日常会話・問331（N5レベル）】次の語句を正しい順序に並べてください：図書館で / 私は / 読みました / <ruby>昨<rt>さく</rt></ruby>日 / 本を",
+        "text": "【日常会話・問331（N5レベル）】次の語句を正しい順序に並べてください：図書館で / 私は / 読みました / <ruby>昨日<rt>きのう</rt></ruby> / 本を",
         "question": "正しい順序は？",
-        "options": ["<ruby>昨<rt>さく</rt></ruby>日 図書館で 本を 読みました 私は",
-          "私は<ruby>昨<rt>さく</rt></ruby>日図書館で本を読みました",
-          "読みました 私は <ruby>昨<rt>さく</rt></ruby>日 図書館で 本を",
-          "読みました 本を 図書館で <ruby>昨<rt>さく</rt></ruby>日 私は"],
+        "options": ["<ruby>昨日<rt>きのう</rt></ruby> 図書館で 本を 読みました 私は",
+          "私は<ruby>昨日<rt>きのう</rt></ruby>図書館で本を読みました",
+          "読みました 私は <ruby>昨日<rt>きのう</rt></ruby> 図書館で 本を",
+          "読みました 本を 図書館で <ruby>昨日<rt>きのう</rt></ruby> 私は"],
         "answer": 1,
         "id": "N2-07-045"
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問332（N4レベル）】次の語句を正しい順序に並べてください：毎朝 / <ruby>彼<rt>かれ</rt></ruby>女は / 散歩 / 公園を / します",
+        "text": "【ビジネス・問332（N4レベル）】次の語句を正しい順序に並べてください：毎朝 / <ruby>彼女<rt>かのじょ</rt></ruby>は / 散歩 / 公園を / します",
         "question": "正しい順序は？",
-        "options": ["<ruby>彼<rt>かれ</rt></ruby>女は毎朝公園を散歩します",
-          "します 散歩 公園を 毎朝 <ruby>彼<rt>かれ</rt></ruby>女は",
-          "します <ruby>彼<rt>かれ</rt></ruby>女は 毎朝 公園を 散歩",
-          "毎朝 公園を 散歩 します <ruby>彼<rt>かれ</rt></ruby>女は"],
+        "options": ["<ruby>彼女<rt>かのじょ</rt></ruby>は毎朝公園を散歩します",
+          "します 散歩 公園を 毎朝 <ruby>彼女<rt>かのじょ</rt></ruby>は",
+          "します <ruby>彼女<rt>かのじょ</rt></ruby>は 毎朝 公園を 散歩",
+          "毎朝 公園を 散歩 します <ruby>彼女<rt>かのじょ</rt></ruby>は"],
         "answer": 2,
         "id": "N2-07-046"
       },
@@ -7230,7 +7230,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文章の文法",
-        "text": "困難（　）乗り<ruby>越<rt>こ</rt></ruby>え、目標を達成した。（331）",
+        "text": "困難（　）乗り<ruby>越<rt>こえる</rt></ruby>え、目標を達成した。（331）",
         "question": "（　）に入るのは？",
         "options": ["で",
           "を",
@@ -7241,7 +7241,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文章の文法",
-        "text": "専門<ruby>家<rt>いえ</rt></ruby>（　）意見を聞く必要がある。（332）",
+        "text": "<ruby>専門家<rt>せんもんか</rt></ruby>（　）意見を聞く必要がある。（332）",
         "question": "（　）に入るのは？",
         "options": ["への",
           "による",
@@ -7309,7 +7309,7 @@ window.MOCK_DATA['N2'] = {
         "type": "読解（短文）",
         "text": "リモートワークは<ruby>通勤<rt>つうきん</rt></ruby><ruby>削減<rt>さくげん</rt></ruby>できるがコミュニケーション不足になりやすい。（問33）",
         "question": "<ruby>課題<rt>かだい</rt></ruby>は何か。",
-        "options": ["<ruby>給<rt>きゅう</rt></ruby>料減",
+        "options": ["<ruby>給料<rt>きゅうりょう</rt></ruby>減",
           "コミュニケーション不足",
           "休めない",
           "<ruby>通勤<rt>つうきん</rt></ruby>"],
@@ -7329,7 +7329,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "教育では知識詰め<ruby>込<rt>こ</rt></ruby>みより考える力を養うことが重視されている。（問35）",
+        "text": "教育では知識詰め<ruby>込<rt>こむ</rt></ruby>みより考える力を養うことが重視されている。（問35）",
         "question": "重視されているのは何か。",
         "options": ["<ruby>芸術<rt>げいじゅつ</rt></ruby>",
           "暗<ruby>記<rt>しる</rt></ruby>力",
@@ -7386,21 +7386,21 @@ window.MOCK_DATA['N2'] = {
         "type": "読解（中文）",
         "text": "働き方<ruby>改革<rt>かいかく</rt></ruby>では<ruby>労働<rt>ろうどう</rt></ruby>時間短縮だけでなく生産性向上が重要だ。多様な働き方も認めるべきだ。（問59）",
         "question": "重要なのは何か。",
-        "options": ["<ruby>給<rt>きゅう</rt></ruby>料アップ",
+        "options": ["<ruby>給料<rt>きゅうりょう</rt></ruby>アップ",
           "時間短縮だけ",
-          "休み増<ruby>加<rt>くわ</rt></ruby>",
+          "休み<ruby>増加<rt>ぞうか</rt></ruby>",
           "生産性向上と多様性"],
         "answer": 3,
         "id": "N2-07-064"
       },
       {
         "type": "読解（中文）",
-        "text": "教育では知識詰め<ruby>込<rt>こ</rt></ruby>みから思考力重視への転換が<ruby>求<rt>もと</rt></ruby>められている。社会で<ruby>活躍<rt>かつやく</rt></ruby>できる<ruby>人材育成<rt>じんざいいくせい</rt></ruby>が目標だ。（問60）",
-        "question": "<ruby>求<rt>もと</rt></ruby>められているのは何か。",
+        "text": "教育では知識詰め<ruby>込<rt>こむ</rt></ruby>みから思考力重視への転換が<ruby>求<rt>もとめる</rt></ruby>められている。社会で<ruby>活躍<rt>かつやく</rt></ruby>できる<ruby>人材育成<rt>じんざいいくせい</rt></ruby>が目標だ。（問60）",
+        "question": "<ruby>求<rt>もとめる</rt></ruby>められているのは何か。",
         "options": ["思考力重視",
           "不要",
           "テスト重視",
-          "知識詰め<ruby>込<rt>こ</rt></ruby>み"],
+          "知識詰め<ruby>込<rt>こむ</rt></ruby>み"],
         "answer": 0,
         "id": "N2-07-065"
       },
@@ -7441,13 +7441,13 @@ window.MOCK_DATA['N2'] = {
         "type": "統合理解",
         "text": "【A】チームワークで大きな<ruby>成果<rt>せいか</rt></ruby>が出る。【B】個人作業の方が効率的な場合もある。",
         "question": "分かることは何か。",
-        "options": ["個人が常に<ruby>良<rt>りょう</rt></ruby>い",
+        "options": ["個人が常に<ruby>良い<rt>よい</rt></ruby>",
           "<ruby>状況<rt>じょうきょう</rt></ruby>により異なる",
           "どちらも不要",
-          "チームが常に<ruby>良<rt>りょう</rt></ruby>い"],
+          "チームが常に<ruby>良い<rt>よい</rt></ruby>"],
         "answer": 3,
         "id": "N2-07-069",
-        "script": "話者A：この問題については、チームが常に<ruby>良<rt>りょう</rt></ruby>いという点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：はい。その通りだと思います。"
+        "script": "話者A：この問題については、チームが常に<ruby>良い<rt>よい</rt></ruby>という点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：はい。その通りだと思います。"
       },
       {
         "type": "統合理解",
@@ -7463,11 +7463,11 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "持続可能な社会のために今の世代が責任を持つべきだ。将来世代のことを考えた選<ruby>択<rt>たく</rt></ruby>が<ruby>求<rt>もと</rt></ruby>められる。",
+        "text": "持続可能な社会のために今の世代が責任を持つべきだ。将来世代のことを考えた<ruby>選択<rt>せんたく</rt></ruby>が<ruby>求<rt>もとめる</rt></ruby>められる。",
         "question": "持続可能な社会のために必要なのは何か。",
         "options": ["今だけ考える",
           "将来世代を考える",
-          "<ruby>諦<rt>てい</rt></ruby>める",
+          "<ruby>諦める<rt>あきらめる</rt></ruby>",
           "何もしない"],
         "answer": 3,
         "id": "N2-07-071"
@@ -7495,7 +7495,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-07-073"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
         "text": "【宅配便】60サイズ800円、80サイズ1,000円、100サイズ1,300円。翌日配達対応地域限定。",
         "question": "正しいのは何か。",
         "options": ["全国翌日配達",
@@ -7506,7 +7506,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-07-074"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
         "text": "【携帯電話】基本料金2,980円/月、データ無制限。2年契約。<ruby>途中<rt>とちゅう</rt></ruby>解約金10,000円。",
         "question": "正しいのは何か。",
         "options": ["2年契約",
@@ -7517,8 +7517,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-07-075"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
-        "text": "同<ruby>僚<rt>りょう</rt></ruby>同士が話しています。男の人はこのあと何をしますか。（31）",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
+        "text": "<ruby>同僚<rt>どうりょう</rt></ruby>同士が話しています。男の人はこのあと何をしますか。（31）",
         "question": "何をしますか。",
         "options": ["クライアントに電話する",
           "会議室を確認する",
@@ -7529,7 +7529,7 @@ window.MOCK_DATA['N2'] = {
         "script": "男：それでは、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：資料を<ruby>印<rt>しるし</rt></ruby><ruby>刷<rt>さつ</rt></ruby>していただけますか。\n女：<ruby>了解<rt>りょうかい</rt></ruby>です、すぐに対応します。【セット7問44】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "友人同士が話しています。女の人はこのあと何をしますか。（32）",
         "question": "何をしますか。",
         "options": ["駅で待ち合わせる",
@@ -7541,7 +7541,7 @@ window.MOCK_DATA['N2'] = {
         "script": "男：えーと、この件について進め方を検討しましょう。\n女：そうですか、何をすればよいでしょうか。\n男：まず駅で待ち合わせるください。\n女：承知しました。よろしくお願いします。【セット7問45】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "親子が話しています。子供はこのあと何をしますか。（33）",
         "question": "何をしますか。",
         "options": ["お風呂に入る",
@@ -7553,7 +7553,7 @@ window.MOCK_DATA['N2'] = {
         "script": "男：次の段階に進む準備ができましたね。\n女：あのう、はい、何から始めましょうか。\n男：宿題をしてください。\n女：うん。お願いします。【セット7問46】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "店員と客が話しています。店員はこのあと何をしますか。（34）",
         "question": "何をしますか。",
         "options": ["上司を呼ぶ",
@@ -7565,13 +7565,13 @@ window.MOCK_DATA['N2'] = {
         "script": "男：すみません、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：在庫を確認していただけますか。\n女：はい、すぐに対応します。【セット7問47】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "教授と学生が話しています。学生は何をすべきですか。（35）",
         "question": "何をすべきですか。",
         "options": ["参考文献を<ruby>追加<rt>ついか</rt></ruby>する",
           "構成を変更する",
-          "データを再<ruby>分析<rt>ぶんせき</rt></ruby>する",
-          "<ruby>結論<rt>けつろん</rt></ruby>を書き<ruby>直<rt>なお</rt></ruby>す"],
+          "データを再<ruby>分析する<rt>ぶんせきする</rt></ruby>",
+          "<ruby>結論<rt>けつろん</rt></ruby>を書き<ruby>直す<rt>なおす</rt></ruby>"],
         "answer": 0,
         "id": "N2-07-080",
         "script": "男：ちょっと、この件について進め方を検討しましょう。\n女：ええ、何をすればよいでしょうか。\n男：まず参考文献を<ruby>追加<rt>ついか</rt></ruby>してください。\n女：承知しました。早速取りかかります。【セット7問48】"
@@ -7582,11 +7582,11 @@ window.MOCK_DATA['N2'] = {
         "question": "呼びかけているのは？",
         "options": ["理解",
           "注意",
-          "参<ruby>加<rt>くわ</rt></ruby>",
+          "<ruby>参加<rt>さんか</rt></ruby>",
           "協力"],
         "answer": 2,
         "id": "N2-07-081",
-        "script": "参<ruby>加<rt>くわ</rt></ruby>が最も重要な要素です。様々な観点から検討しましたが、ここに真実があります。"
+        "script": "<ruby>参加<rt>さんか</rt></ruby>が最も重要な要素です。様々な観点から検討しましたが、ここに真実があります。"
       },
       {
         "type": "ポイント理解",
@@ -7619,10 +7619,10 @@ window.MOCK_DATA['N2'] = {
         "options": ["<ruby>範囲<rt>はんい</rt></ruby>の<ruby>拡大<rt>かくだい</rt></ruby>",
           "<ruby>被害<rt>ひがい</rt></ruby>の<ruby>甚大<rt>じんだい</rt></ruby>さ",
           "対策の遅れ",
-          "数字の増<ruby>加<rt>くわ</rt></ruby>"],
+          "数字の<ruby>増加<rt>ぞうか</rt></ruby>"],
         "answer": 3,
         "id": "N2-07-084",
-        "script": "数字の増<ruby>加<rt>くわ</rt></ruby>が最も重要な要素です。様々な観点から検討しましたが、この点を強調したいと思います。"
+        "script": "数字の<ruby>増加<rt>ぞうか</rt></ruby>が最も重要な要素です。様々な観点から検討しましたが、この点を強調したいと思います。"
       },
       {
         "type": "ポイント理解",
@@ -7676,7 +7676,7 @@ window.MOCK_DATA['N2'] = {
         "type": "概要理解",
         "text": "報告を聞いています。この報告の<ruby>結論<rt>けつろん</rt></ruby>は何ですか。（33）",
         "question": "<ruby>結論<rt>けつろん</rt></ruby>は何ですか。",
-        "options": ["<ruby>改<rt>あら</rt></ruby>善必要",
+        "options": ["<ruby>改善<rt>かいぜん</rt></ruby>必要",
           "成功",
           "継続検討",
           "中止"],
@@ -7686,7 +7686,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "概要理解",
-        "text": "討<ruby>論<rt>ろん</rt></ruby>を聞いています。主な対立点は何ですか。（34）",
+        "text": "<ruby>討論<rt>とうろん</rt></ruby>を聞いています。主な対立点は何ですか。（34）",
         "question": "対立点は何ですか。",
         "options": ["方法",
           "目的",
@@ -7700,7 +7700,7 @@ window.MOCK_DATA['N2'] = {
         "type": "概要理解",
         "text": "案内を聞いています。この案内は主に何を伝えていますか。（35）",
         "question": "伝えているのは？",
-        "options": ["申<ruby>込<rt>こ</rt></ruby>方法",
+        "options": ["<ruby>申込<rt>もうしこみ</rt></ruby>方法",
           "注意事項",
           "場所",
           "日程"],
@@ -7709,7 +7709,7 @@ window.MOCK_DATA['N2'] = {
         "script": "<ruby>今回<rt>こんかい</rt></ruby>お伝えしたいのは注意事項についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お持ち帰りですか。（217）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -7720,7 +7720,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-07-092"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "<ruby>袋<rt>ふくろ</rt></ruby>は要りますか。（218）",
         "question": "返答は？",
         "options": ["いいえ、違います",
@@ -7731,7 +7731,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-07-093"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "ポイントカードはお持ちですか。（219）",
         "question": "返答は？",
         "options": ["持っていません",
@@ -7742,8 +7742,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-07-094"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "お支<ruby>払<rt>はら</rt></ruby>いは現金ですか。（220）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "お<ruby>支払い<rt>しはらい</rt></ruby>は現金ですか。（220）",
         "question": "返答は？",
         "options": ["はい、食べました",
           "カードでお願いします",
@@ -7753,7 +7753,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-07-095"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "領収書は要りますか。（221）",
         "question": "返答は？",
         "options": ["はい、お願いします",
@@ -7764,7 +7764,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-07-096"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "ご予約はされていますか。（222）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -7775,7 +7775,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-07-097"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お<ruby>荷物<rt>にもつ</rt></ruby>をお預かりしましょうか。（223）",
         "question": "返答は？",
         "options": ["いいえ、違います",
@@ -7786,7 +7786,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-07-098"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "チェックアウトは何時ですか。（224）",
         "question": "返答は？",
         "options": ["11時です",
@@ -7797,7 +7797,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-07-099"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "朝食は何時からですか。（225）",
         "question": "返答は？",
         "options": ["いいえ、違います",
@@ -7808,7 +7808,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-07-100"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "すみません、トイレはどこですか。（226）",
         "question": "返答は？",
         "options": ["あちらです",
@@ -7819,8 +7819,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-07-101"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "この電車は<ruby>渋<rt>しぶ</rt></ruby>谷に止まりますか。（227）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "この電車は<ruby>渋谷<rt>しぶや</rt></ruby>に止まりますか。（227）",
         "question": "返答は？",
         "options": ["わかりません",
           "いいえ、違います",
@@ -7830,7 +7830,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-07-102"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お水をいただけますか。（228）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -7891,7 +7891,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>ふだん</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["<ruby>期<rt>き</rt></ruby>限",
@@ -7901,7 +7901,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>しみん</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["<ruby>直接<rt>ちょくせつ</rt></ruby>民主制",
@@ -7911,7 +7911,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>ぶっかじょうしょう</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["<ruby>物価上昇<rt>ぶっかじょうしょう</rt></ruby>",
@@ -7921,17 +7921,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>すでに</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["証券投資",
-          "<ruby>既<rt>すで</rt></ruby>に",
+          "<ruby>既に<rt>すでに</rt></ruby>",
           "抗体",
           "政権運営"],
         "answer": 1
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>れんどう</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["負わせる",
@@ -7991,7 +7991,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "クレームに（　）する",
         "question": "（　）に入るのは？",
         "options": ["基本的に",
@@ -8001,7 +8001,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "<ruby>緊張<rt>きんちょう</rt></ruby>が（　）",
         "question": "（　）に入るのは？",
         "options": ["高まる",
@@ -8011,27 +8011,27 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "（　）ことが大切だ",
         "question": "（　）に入るのは？",
-        "options": ["付<ruby>加<rt>くわ</rt></ruby>価値",
+        "options": ["<ruby>付加価値<rt>ふかかち</rt></ruby>",
           "達する",
           "<ruby>結論<rt>けつろん</rt></ruby>",
           "<ruby>産学連携<rt>さんがくれんけい</rt></ruby>"],
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "（　）考える",
         "question": "（　）に入るのは？",
         "options": ["谷",
-          "入<ruby>荷<rt>にな</rt></ruby>",
+          "<ruby>入荷<rt>にゅうか</rt></ruby>",
           "技能実習",
           "かつて"],
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "営業を（　）する",
         "question": "（　）に入るのは？",
         "options": ["担当",
@@ -8041,7 +8041,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "（　）考える",
         "question": "（　）に入るのは？",
         "options": ["ゴミ出し",
@@ -8051,27 +8051,27 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "データを（　）する",
         "question": "（　）に入るのは？",
         "options": ["<ruby>蓄<rt>たくわ</rt></ruby>積",
           "獣医",
           "着実",
-          "<ruby>絡<rt>から</rt></ruby>む"],
+          "<ruby>絡む<rt>からむ</rt></ruby>"],
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "危機に（　）する",
         "question": "（　）に入るのは？",
         "options": ["ディスクロージャー",
-          "<ruby>直<rt>なお</rt></ruby>面",
+          "<ruby>直面<rt>ちょくめん</rt></ruby>",
           "指定",
           "狭める"],
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "（　）考える",
         "question": "（　）に入るのは？",
         "options": ["常に",
@@ -8081,7 +8081,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "情報を（　）する",
         "question": "（　）に入るのは？",
         "options": ["環境規制",
@@ -8091,17 +8091,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "新しい習慣が（　）する",
         "question": "（　）に入るのは？",
         "options": ["学習指導",
-          "<ruby>既<rt>すで</rt></ruby>に",
+          "<ruby>既に<rt>すでに</rt></ruby>",
           "定着",
           "顧客ロイヤルティ"],
         "answer": 2
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "価格が（　）する",
         "question": "（　）に入るのは？",
         "options": ["低下",
@@ -8111,7 +8111,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "（　）考える",
         "question": "（　）に入るのは？",
         "options": ["税務",
@@ -8121,17 +8121,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "新環境に（　）する",
         "question": "（　）に入るのは？",
-        "options": ["<ruby>賄<rt>まかな</rt></ruby>う",
+        "options": ["<ruby>賄う<rt>まかなう</rt></ruby>",
           "築年数",
           "やっぱり",
           "適応"],
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "新ルールを（　）する",
         "question": "（　）に入るのは？",
         "options": ["<ruby>被覆<rt>ひふく</rt></ruby>",
@@ -8141,17 +8141,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "調査を（　）する",
         "question": "（　）に入るのは？",
         "options": ["<ruby>連動<rt>れんどう</rt></ruby>",
           "反らす",
           "働く",
-          "<ruby>徹<rt>てつ</rt></ruby>底"],
+          "<ruby>徹底<rt>てってい</rt></ruby>"],
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "海外に事業を（　）する",
         "question": "（　）に入るのは？",
         "options": ["成立",
@@ -8176,7 +8176,7 @@ window.MOCK_DATA['N2'] = {
         "question": "意味が近いのは？",
         "options": ["持続",
           "積み重ねる",
-          "要<ruby>求<rt>もと</rt></ruby>",
+          "<ruby>要求<rt>ようきゅう</rt></ruby>",
           "環境アセスメント"],
         "answer": 1
       },
@@ -8186,13 +8186,13 @@ window.MOCK_DATA['N2'] = {
         "question": "意味が近いのは？",
         "options": ["<ruby>労働者<rt>ろうどうしゃ</rt></ruby>",
           "目覚ましい",
-          "<ruby>匂<rt>にお</rt></ruby>い",
+          "<ruby>匂い<rt>におい</rt></ruby>",
           "下がる"],
         "answer": 3
       },
       {
         "type": "言い換え",
-        "text": "調査を<ruby>徹<rt>てつ</rt></ruby>底するの意味は？",
+        "text": "調査を<ruby>徹底<rt>てってい</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": ["生活水準",
           "今週",
@@ -8204,7 +8204,7 @@ window.MOCK_DATA['N2'] = {
         "type": "言い換え",
         "text": "製品の品質を<ruby>管理<rt>かんり</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
-        "options": ["<ruby>高齢者<rt>こうれいしゃ</rt></ruby>福<ruby>祉<rt>し</rt></ruby>",
+        "options": ["<ruby>高齢者<rt>こうれいしゃ</rt></ruby><ruby>福祉<rt>ふくし</rt></ruby>",
           "当選",
           "語り",
           "クオリティ"],
@@ -8258,7 +8258,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>女が<ruby>優秀<rt>ゆうしゅう</rt></ruby>である（　）は認める。",
+        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>が<ruby>優秀<rt>ゆうしゅう</rt></ruby>である（　）は認める。",
         "question": "（　）に入るのは？",
         "options": ["こと",
           "わけ",
@@ -8346,7 +8346,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "笑い（　）、<ruby>彼<rt>かれ</rt></ruby>女は話し続けた。",
+        "text": "笑い（　）、<ruby>彼女<rt>かのじょ</rt></ruby>は話し続けた。",
         "question": "（　）に入るのは？",
         "options": ["といっても",
           "に関して",
@@ -8438,7 +8438,7 @@ window.MOCK_DATA['N2'] = {
         "question": "重要なのは何か。",
         "options": ["正しく判断する力",
           "計算力",
-          "<ruby>記憶<rt>きおく</rt></ruby>力",
+          "<ruby>記憶力<rt>きおくりょく</rt></ruby>",
           "情報収集"],
         "answer": 0,
         "id": "N2-08-055"
@@ -8456,12 +8456,12 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "多様性を認め合う社会の実現が<ruby>求<rt>もと</rt></ruby>められている。（問37）",
-        "question": "<ruby>求<rt>もと</rt></ruby>められているのは何か。",
+        "text": "多様性を認め合う社会の実現が<ruby>求<rt>もとめる</rt></ruby>められている。（問37）",
+        "question": "<ruby>求<rt>もとめる</rt></ruby>められているのは何か。",
         "options": ["均一性",
           "<ruby>閉鎖<rt>へいさ</rt></ruby>社会",
           "多様性を認める社会",
-          "<ruby>競<rt>きそ</rt></ruby>争社会"],
+          "<ruby>競争<rt>きょうそう</rt></ruby>社会"],
         "answer": 2,
         "id": "N2-08-056"
       },
@@ -8515,19 +8515,19 @@ window.MOCK_DATA['N2'] = {
         "question": "多様性社会とは何か。",
         "options": ["同じ人だけ",
           "<ruby>閉鎖<rt>へいさ</rt></ruby>社会",
-          "<ruby>競<rt>きそ</rt></ruby>争社会",
+          "<ruby>競争<rt>きょうそう</rt></ruby>社会",
           "全員が<ruby>活躍<rt>かつやく</rt></ruby>できる"],
         "answer": 3,
         "id": "N2-08-060"
       },
       {
         "type": "読解（中文）",
-        "text": "時間<ruby>管理<rt>かんり</rt></ruby>では優先順<ruby>位<rt>くら</rt></ruby>をつけ重要な仕事から取り組む。<ruby>完璧<rt>かんぺき</rt></ruby>を<ruby>求<rt>もと</rt></ruby>めすぎないことも大切だ。（問65）",
+        "text": "時間<ruby>管理<rt>かんり</rt></ruby>では<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>をつけ重要な仕事から取り組む。<ruby>完璧<rt>かんぺき</rt></ruby>を<ruby>求<rt>もとめる</rt></ruby>めすぎないことも大切だ。（問65）",
         "question": "大切なのは何か。",
-        "options": ["優先順<ruby>位<rt>くら</rt></ruby>",
+        "options": ["<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>",
           "<ruby>完璧<rt>かんぺき</rt></ruby>主義",
           "全部同時",
-          "後<ruby>回<rt>まわ</rt></ruby>し"],
+          "<ruby>後回し<rt>あとまわし</rt></ruby>"],
         "answer": 0,
         "id": "N2-08-061"
       },
@@ -8549,7 +8549,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["成功へのステップ",
           "無意味",
           "恥ずかしい",
-          "<ruby>避<rt>さ</rt></ruby>ける"],
+          "<ruby>避ける<rt>さける</rt></ruby>"],
         "answer": 0,
         "id": "N2-08-063"
       },
@@ -8569,7 +8569,7 @@ window.MOCK_DATA['N2'] = {
         "text": "チームワークは組織の成功に欠かせない。強みを活かし弱みを<ruby>補<rt>おぎな</rt></ruby>い合うことが大切だ。（問69）",
         "question": "大切なのは何か。",
         "options": ["強みを活かす",
-          "<ruby>競<rt>きそ</rt></ruby>争",
+          "<ruby>競争<rt>きょうそう</rt></ruby>",
           "一人で頑張る",
           "命令"],
         "answer": 0,
@@ -8613,29 +8613,29 @@ window.MOCK_DATA['N2'] = {
         "text": "【A】大企業は安定している。【B】ベンチャー企業は成長の機会が多い。",
         "question": "分かることは何か。",
         "options": ["どちらも悪い",
-          "それぞれ<ruby>良<rt>りょう</rt></ruby>い点がある",
-          "大企業が<ruby>良<rt>りょう</rt></ruby>い",
-          "ベンチャーが<ruby>良<rt>りょう</rt></ruby>い"],
+          "それぞれ<ruby>良い<rt>よい</rt></ruby>点がある",
+          "大企業が<ruby>良い<rt>よい</rt></ruby>",
+          "ベンチャーが<ruby>良い<rt>よい</rt></ruby>"],
         "answer": 2,
         "id": "N2-08-069",
-        "script": "話者A：この問題については、大企業が<ruby>良<rt>りょう</rt></ruby>いという点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：はい。その通りだと思います。"
+        "script": "話者A：この問題については、大企業が<ruby>良い<rt>よい</rt></ruby>という点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：はい。その通りだと思います。"
       },
       {
         "type": "統合理解",
-        "text": "【A】紙の本は手触りが<ruby>良<rt>りょう</rt></ruby>い。【B】電子書<ruby>籍<rt>せき</rt></ruby>は持ち運びが便利だ。",
+        "text": "【A】紙の本は手触りが<ruby>良い<rt>よい</rt></ruby>。【B】電子書<ruby>籍<rt>せき</rt></ruby>は持ち運びが便利だ。",
         "question": "分かることは何か。",
-        "options": ["電子が<ruby>良<rt>りょう</rt></ruby>い",
-          "それぞれ<ruby>良<rt>りょう</rt></ruby>い点がある",
+        "options": ["電子が<ruby>良い<rt>よい</rt></ruby>",
+          "それぞれ<ruby>良い<rt>よい</rt></ruby>点がある",
           "本は不要",
-          "紙が<ruby>良<rt>りょう</rt></ruby>い"],
+          "紙が<ruby>良い<rt>よい</rt></ruby>"],
         "answer": 3,
         "id": "N2-08-070",
-        "script": "話者A：この問題については、紙が<ruby>良<rt>りょう</rt></ruby>いという点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：ええ。その通りだと思います。"
+        "script": "話者A：この問題については、紙が<ruby>良い<rt>よい</rt></ruby>という点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：ええ。その通りだと思います。"
       },
       {
         "type": "主張理解（長文）",
-        "text": "自然との共生が<ruby>求<rt>もと</rt></ruby>められる時代だ。経済発展と環境保護のバランスを取ることが持続可能な発展につながる。",
-        "question": "<ruby>求<rt>もと</rt></ruby>められているのは何か。",
+        "text": "自然との共生が<ruby>求<rt>もとめる</rt></ruby>められる時代だ。経済発展と環境保護のバランスを取ることが持続可能な発展につながる。",
+        "question": "<ruby>求<rt>もとめる</rt></ruby>められているのは何か。",
         "options": ["何もしない",
           "バランス",
           "環境優先",
@@ -8666,7 +8666,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-08-073"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
         "text": "【ホテル】シングル8,000円、ツイン12,000円。朝食付きプラス1,500円。チェックイン15時。",
         "question": "正しいのは何か。",
         "options": ["チェックアウト15時",
@@ -8677,7 +8677,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-08-074"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
         "text": "【歯科医院】平日9-19時、土曜9-13時、日祝休<ruby>診<rt>みる</rt></ruby>。予約優先。急患<ruby>随時<rt>ずいじ</rt></ruby>受付。",
         "question": "正しいのは何か。",
         "options": ["24時間",
@@ -8688,7 +8688,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-08-075"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "美容師と客が話しています。美容師はこのあと何をしますか。（36）",
         "question": "何をしますか。",
         "options": ["シャンプーをする",
@@ -8700,19 +8700,19 @@ window.MOCK_DATA['N2'] = {
         "script": "男：それでは、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：シャンプーをしていただけますか。\n女：<ruby>了解<rt>りょうかい</rt></ruby>です、すぐに対応します。【セット8問44】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "配達員と客が話しています。客はこのあと何をしますか。（37）",
         "question": "何をしますか。",
         "options": ["中身を確認する",
           "再配達を依頼する",
-          "代金を<ruby>払<rt>はら</rt></ruby>う",
+          "代金を<ruby>払う<rt>はらう</rt></ruby>",
           "サインをする"],
         "answer": 2,
         "id": "N2-08-077",
-        "script": "男：えーと、この件について進め方を検討しましょう。\n女：そうですか、何をすればよいでしょうか。\n男：まず代金を<ruby>払<rt>はら</rt></ruby>うください。\n女：承知しました。よろしくお願いします。【セット8問45】"
+        "script": "男：えーと、この件について進め方を検討しましょう。\n女：そうですか、何をすればよいでしょうか。\n男：まず代金を<ruby>払う<rt>はらう</rt></ruby>ください。\n女：承知しました。よろしくお願いします。【セット8問45】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "ホテルのフロントと客が話しています。客はこのあと何をしますか。（38）",
         "question": "何をしますか。",
         "options": ["朝食を予約する",
@@ -8724,28 +8724,28 @@ window.MOCK_DATA['N2'] = {
         "script": "男：次の段階に進む準備ができましたね。\n女：あのう、はい、何から始めましょうか。\n男：チェックインしてください。\n女：うん。お願いします。【セット8問46】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "電話で話しています。電話を受けた人は何をしますか。（39）",
         "question": "何をしますか。",
         "options": ["担当者に取り次ぐ",
           "伝言を残す",
           "折り返し電話する",
-          "メールで<ruby>連絡<rt>れんらく</rt></ruby>する"],
+          "メールで<ruby>連絡する<rt>れんらくする</rt></ruby>"],
         "answer": 0,
         "id": "N2-08-079",
         "script": "男：すみません、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：担当者に取り次ぐいただけますか。\n女：はい、すぐに対応します。【セット8問47】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "ジムのスタッフと客が話しています。客はこのあと何をしますか。（40）",
         "question": "何をしますか。",
         "options": ["マシンを使う",
           "トレーナーに相談する",
           "プランを変更する",
-          "着<ruby>替<rt>か</rt></ruby>える"],
+          "<ruby>着替え<rt>きがえ</rt></ruby>る"],
         "answer": 3,
         "id": "N2-08-080",
-        "script": "男：ちょっと、この件について進め方を検討しましょう。\n女：ええ、何をすればよいでしょうか。\n男：まず着<ruby>替<rt>か</rt></ruby>えるください。\n女：承知しました。早速取りかかります。【セット8問48】"
+        "script": "男：ちょっと、この件について進め方を検討しましょう。\n女：ええ、何をすればよいでしょうか。\n男：まず<ruby>着替え<rt>きがえ</rt></ruby>るください。\n女：承知しました。早速取りかかります。【セット8問48】"
       },
       {
         "type": "ポイント理解",
@@ -8773,9 +8773,9 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "ポイント理解",
-        "text": "会議を聞いています。今後の<ruby>課題<rt>かだい</rt></ruby>として<ruby>挙<rt>あ</rt></ruby>げられているのは何ですか。（45）",
+        "text": "会議を聞いています。今後の<ruby>課題<rt>かだい</rt></ruby>として<ruby>挙<rt>あう</rt></ruby>げられているのは何ですか。（45）",
         "question": "<ruby>課題<rt>かだい</rt></ruby>は何ですか。",
-        "options": ["コスト<ruby>削減<rt>さくげん</rt></ruby>",
+        "options": ["<ruby>コスト削減<rt>こすとさくげん</rt></ruby>",
           "納<ruby>期<rt>き</rt></ruby>短縮",
           "<ruby>人材育成<rt>じんざいいくせい</rt></ruby>",
           "品質向上"],
@@ -8787,7 +8787,7 @@ window.MOCK_DATA['N2'] = {
         "type": "ポイント理解",
         "text": "プレゼンを聞いています。この提案のメリットは何ですか。（46）",
         "question": "メリットは何ですか。",
-        "options": ["コスト<ruby>削減<rt>さくげん</rt></ruby>",
+        "options": ["<ruby>コスト削減<rt>こすとさくげん</rt></ruby>",
           "顧客満足度向上",
           "効率化",
           "リスク低減"],
@@ -8809,7 +8809,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "ポイント理解",
-        "text": "ラジオを聞いています。専門<ruby>家<rt>いえ</rt></ruby>が心配しているのは何ですか。（48）",
+        "text": "ラジオを聞いています。<ruby>専門家<rt>せんもんか</rt></ruby>が心配しているのは何ですか。（48）",
         "question": "心配しているのは？",
         "options": ["経済への影響",
           "健康への影響",
@@ -8862,10 +8862,10 @@ window.MOCK_DATA['N2'] = {
         "options": ["一般人",
           "学生",
           "関係者",
-          "専門<ruby>家<rt>いえ</rt></ruby>"],
+          "<ruby>専門家<rt>せんもんか</rt></ruby>"],
         "answer": 3,
         "id": "N2-08-090",
-        "script": "本日の主題は専門<ruby>家<rt>いえ</rt></ruby>についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。【セット8問58】"
+        "script": "本日の主題は<ruby>専門家<rt>せんもんか</rt></ruby>についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。【セット8問58】"
       },
       {
         "type": "概要理解",
@@ -8880,7 +8880,7 @@ window.MOCK_DATA['N2'] = {
         "script": "<ruby>今回<rt>こんかい</rt></ruby>お伝えしたいのは都市についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "ここで待っていてもいいですか。（229）",
         "question": "返答は？",
         "options": ["はい、どうぞ",
@@ -8891,7 +8891,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-08-092"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "何名様ですか。（230）",
         "question": "返答は？",
         "options": ["いいえ、違います",
@@ -8902,7 +8902,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-08-093"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "禁煙席でよろしいですか。（231）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -8913,7 +8913,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-08-094"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お持ち帰りですか。（232）",
         "question": "返答は？",
         "options": ["ここで食べます",
@@ -8924,7 +8924,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-08-095"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "<ruby>袋<rt>ふくろ</rt></ruby>は要りますか。（233）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -8935,7 +8935,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-08-096"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "ポイントカードはお持ちですか。（234）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -8946,8 +8946,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-08-097"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "お支<ruby>払<rt>はら</rt></ruby>いは現金ですか。（235）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "お<ruby>支払い<rt>しはらい</rt></ruby>は現金ですか。（235）",
         "question": "返答は？",
         "options": ["わかりません",
           "いいえ、違います",
@@ -8957,7 +8957,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-08-098"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "領収書は要りますか。（236）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -8968,7 +8968,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-08-099"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "ご予約はされていますか。（237）",
         "question": "返答は？",
         "options": ["はい、田中で予約しています",
@@ -8979,7 +8979,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-08-100"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お<ruby>荷物<rt>にもつ</rt></ruby>をお預かりしましょうか。（238）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -8990,7 +8990,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-08-101"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "チェックアウトは何時ですか。（239）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -9001,7 +9001,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-08-102"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "朝食は何時からですか。（240）",
         "question": "返答は？",
         "options": ["いいえ、違います",
@@ -9062,7 +9062,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>ひととおり</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["<ruby>傾斜<rt>けいしゃ</rt></ruby>",
@@ -9072,17 +9072,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>たいようこうはつでん</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>敷<rt>しめる</rt></ruby>く",
+        "options": ["<ruby>敷く<rt>しく</rt></ruby>",
           "<ruby>尿検査<rt>にょうけんさ</rt></ruby>",
           "太陽光発電",
           "高度"],
         "answer": 2
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>げんこく</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["城",
@@ -9092,7 +9092,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>ふりょうりつ</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["階層別研修",
@@ -9102,7 +9102,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>げんみつな</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["公表",
@@ -9162,7 +9162,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "基準を（　）する",
         "question": "（　）に入るのは？",
         "options": ["新婚",
@@ -9172,7 +9172,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "原因を（　）する",
         "question": "（　）に入るのは？",
         "options": ["方針",
@@ -9182,7 +9182,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "リスクを（　）投資",
         "question": "（　）に入るのは？",
         "options": ["<ruby>産学連携<rt>さんがくれんけい</rt></ruby>",
@@ -9192,7 +9192,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "環境問題に（　）",
         "question": "（　）に入るのは？",
         "options": ["技能実習",
@@ -9202,7 +9202,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "重要性を（　）する",
         "question": "（　）に入るのは？",
         "options": ["<ruby>国債<rt>こくさい</rt></ruby>",
@@ -9212,7 +9212,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "<ruby>株価<rt>かぶか</rt></ruby>の（　）が下がる",
         "question": "（　）に入るのは？",
         "options": ["会計",
@@ -9222,17 +9222,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "現状を（　）する",
         "question": "（　）に入るのは？",
-        "options": ["<ruby>絡<rt>から</rt></ruby>む",
+        "options": ["<ruby>絡む<rt>からむ</rt></ruby>",
           "着実",
           "<ruby>把握<rt>はあく</rt></ruby>",
           "帰宅"],
         "answer": 2
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "実力を（　）する",
         "question": "（　）に入るのは？",
         "options": ["EBITDA",
@@ -9242,7 +9242,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "証明書を（　）する",
         "question": "（　）に入るのは？",
         "options": ["発行",
@@ -9252,17 +9252,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "地震が（　）する",
         "question": "（　）に入るのは？",
         "options": ["<ruby>棚卸資産<rt>たなおろししさん</rt></ruby>",
           "発生",
           "環境規制",
-          "<ruby>恨<rt>うら</rt></ruby>む"],
+          "<ruby>恨む<rt>うらむ</rt></ruby>"],
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "調査（　）を広げる",
         "question": "（　）に入るのは？",
         "options": ["<ruby>範囲<rt>はんい</rt></ruby>",
@@ -9272,7 +9272,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "意見を（　）する",
         "question": "（　）に入るのは？",
         "options": ["<ruby>投票<rt>とうひょう</rt></ruby>",
@@ -9282,7 +9282,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "過去を（　）する",
         "question": "（　）に入るのは？",
         "options": ["実証",
@@ -9292,17 +9292,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "（　）考える",
         "question": "（　）に入るのは？",
-        "options": ["<ruby>賄<rt>まかな</rt></ruby>う",
+        "options": ["<ruby>賄う<rt>まかなう</rt></ruby>",
           "やっぱり",
           "人",
           "詰める"],
         "answer": 2
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "（　）考える",
         "question": "（　）に入るのは？",
         "options": ["編入",
@@ -9312,7 +9312,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "（　）考える",
         "question": "（　）に入るのは？",
         "options": ["<ruby>連動<rt>れんどう</rt></ruby>",
@@ -9322,7 +9322,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "業績を（　）する",
         "question": "（　）に入るのは？",
         "options": ["王様",
@@ -9373,9 +9373,9 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "規制を<ruby>緩和<rt>かんわ</rt></ruby>するの意味は？",
+        "text": "規制を<ruby>緩和する<rt>かんわする</rt></ruby>の意味は？",
         "question": "意味が近いのは？",
-        "options": ["<ruby>和<rt>わ</rt></ruby>らげる",
+        "options": ["<ruby>和らげる<rt>やわらげる</rt></ruby>",
           "高まる",
           "遅<ruby>延<rt>のむ</rt></ruby>なく",
           "人間"],
@@ -9400,7 +9400,7 @@ window.MOCK_DATA['N2'] = {
         "question": "（　）に入るのは？",
         "options": ["を",
           "に関して",
-          "に<ruby>即<rt>そく</rt></ruby>して",
+          "に<ruby>即して<rt>そくして</rt></ruby>",
           "まで"],
         "answer": 0,
         "id": "N2-09-034"
@@ -9440,7 +9440,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>女は美しさ（　）引き換えに、自由を失った。",
+        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は美しさ（　）引き換えに、自由を失った。",
         "question": "（　）に入るのは？",
         "options": ["ばかりに",
           "から",
@@ -9506,7 +9506,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "問題（　）<ruby>直<rt>なお</rt></ruby>面している。",
+        "text": "問題（　）<ruby>直面<rt>ちょくめん</rt></ruby>している。",
         "question": "（　）に入るのは？",
         "options": ["きり",
           "に対して",
@@ -9528,12 +9528,12 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問342（N4レベル）】次の語句を正しい順序に並べてください：行きたい / です / 友達と / 一<ruby>緒<rt>お</rt></ruby>に / <ruby>旅行<rt>りょこう</rt></ruby>に",
+        "text": "【ビジネス・問342（N4レベル）】次の語句を正しい順序に並べてください：行きたい / です / 友達と / <ruby>一緒<rt>いっしょ</rt></ruby>に / <ruby>旅行<rt>りょこう</rt></ruby>に",
         "question": "正しい順序は？",
-        "options": ["です 友達と 一<ruby>緒<rt>お</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい",
-          "一<ruby>緒<rt>お</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい です 友達と",
-          "です 行きたい <ruby>旅行<rt>りょこう</rt></ruby>に 一<ruby>緒<rt>お</rt></ruby>に 友達と",
-          "友達と一<ruby>緒<rt>お</rt></ruby>に<ruby>旅行<rt>りょこう</rt></ruby>に行きたいです"],
+        "options": ["です 友達と <ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい",
+          "<ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい です 友達と",
+          "です 行きたい <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>一緒<rt>いっしょ</rt></ruby>に 友達と",
+          "友達と<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>旅行<rt>りょこう</rt></ruby>に行きたいです"],
         "answer": 1,
         "id": "N2-09-046"
       },
@@ -9619,7 +9619,7 @@ window.MOCK_DATA['N2'] = {
         "text": "予想（　）、売り上げは減少した。（345）",
         "question": "（　）に入るのは？",
         "options": ["に反して",
-          "に<ruby>沿<rt>そ</rt></ruby>って",
+          "に<ruby>沿って<rt>そって</rt></ruby>",
           "通り",
           "どおり"],
         "answer": 0,
@@ -9642,8 +9642,8 @@ window.MOCK_DATA['N2'] = {
         "question": "大切なのは何か。",
         "options": ["命令",
           "一人で頑張る",
-          "<ruby>競<rt>きそ</rt></ruby>争",
-          "強みと弱みを<ruby>補<rt>おぎな</rt></ruby>う"],
+          "<ruby>競争<rt>きょうそう</rt></ruby>",
+          "強みと弱みを<ruby>補う<rt>おぎなう</rt></ruby>"],
         "answer": 3,
         "id": "N2-09-056"
       },
@@ -9671,12 +9671,12 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "時間<ruby>管理<rt>かんり</rt></ruby>では優先順<ruby>位<rt>くら</rt></ruby>をつけることが基本である。（問45）",
+        "text": "時間<ruby>管理<rt>かんり</rt></ruby>では<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>をつけることが基本である。（問45）",
         "question": "基本は何か。",
         "options": ["<ruby>完璧<rt>かんぺき</rt></ruby>主義",
-          "後<ruby>回<rt>まわ</rt></ruby>し",
+          "<ruby>後回し<rt>あとまわし</rt></ruby>",
           "全部同時",
-          "優先順<ruby>位<rt>くら</rt></ruby>"],
+          "<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>"],
         "answer": 3,
         "id": "N2-09-059"
       },
@@ -9696,19 +9696,19 @@ window.MOCK_DATA['N2'] = {
         "text": "働き方<ruby>改革<rt>かいかく</rt></ruby>では<ruby>労働<rt>ろうどう</rt></ruby>時間短縮だけでなく生産性向上が重要だ。多様な働き方も認めるべきだ。（問74）",
         "question": "重要なのは何か。",
         "options": ["時間短縮だけ",
-          "<ruby>給<rt>きゅう</rt></ruby>料アップ",
-          "休み増<ruby>加<rt>くわ</rt></ruby>",
+          "<ruby>給料<rt>きゅうりょう</rt></ruby>アップ",
+          "休み<ruby>増加<rt>ぞうか</rt></ruby>",
           "生産性向上と多様性"],
         "answer": 3,
         "id": "N2-09-061"
       },
       {
         "type": "読解（中文）",
-        "text": "教育では知識詰め<ruby>込<rt>こ</rt></ruby>みから思考力重視への転換が<ruby>求<rt>もと</rt></ruby>められている。社会で<ruby>活躍<rt>かつやく</rt></ruby>できる<ruby>人材育成<rt>じんざいいくせい</rt></ruby>が目標だ。（問75）",
-        "question": "<ruby>求<rt>もと</rt></ruby>められているのは何か。",
+        "text": "教育では知識詰め<ruby>込<rt>こむ</rt></ruby>みから思考力重視への転換が<ruby>求<rt>もとめる</rt></ruby>められている。社会で<ruby>活躍<rt>かつやく</rt></ruby>できる<ruby>人材育成<rt>じんざいいくせい</rt></ruby>が目標だ。（問75）",
+        "question": "<ruby>求<rt>もとめる</rt></ruby>められているのは何か。",
         "options": ["テスト重視",
           "思考力重視",
-          "知識詰め<ruby>込<rt>こ</rt></ruby>み",
+          "知識詰め<ruby>込<rt>こむ</rt></ruby>み",
           "不要"],
         "answer": 1,
         "id": "N2-09-062"
@@ -9751,7 +9751,7 @@ window.MOCK_DATA['N2'] = {
         "text": "多様性を尊重する社会では全ての人が<ruby>活躍<rt>かつやく</rt></ruby>できる。違いを強みとして活かすことが重要だ。（問79）",
         "question": "多様性社会とは何か。",
         "options": ["<ruby>閉鎖<rt>へいさ</rt></ruby>社会",
-          "<ruby>競<rt>きそ</rt></ruby>争社会",
+          "<ruby>競争<rt>きょうそう</rt></ruby>社会",
           "全員が<ruby>活躍<rt>かつやく</rt></ruby>できる",
           "同じ人だけ"],
         "answer": 2,
@@ -9759,10 +9759,10 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（中文）",
-        "text": "時間<ruby>管理<rt>かんり</rt></ruby>では優先順<ruby>位<rt>くら</rt></ruby>をつけ重要な仕事から取り組む。<ruby>完璧<rt>かんぺき</rt></ruby>を<ruby>求<rt>もと</rt></ruby>めすぎないことも大切だ。（問80）",
+        "text": "時間<ruby>管理<rt>かんり</rt></ruby>では<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>をつけ重要な仕事から取り組む。<ruby>完璧<rt>かんぺき</rt></ruby>を<ruby>求<rt>もとめる</rt></ruby>めすぎないことも大切だ。（問80）",
         "question": "大切なのは何か。",
-        "options": ["優先順<ruby>位<rt>くら</rt></ruby>",
-          "後<ruby>回<rt>まわ</rt></ruby>し",
+        "options": ["<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>",
+          "<ruby>後回し<rt>あとまわし</rt></ruby>",
           "全部同時",
           "<ruby>完璧<rt>かんぺき</rt></ruby>主義"],
         "answer": 0,
@@ -9781,27 +9781,27 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "統合理解",
-        "text": "【A】一人<ruby>暮<rt>く</rt></ruby>らしは自由だ。【B】<ruby>家<rt>いえ</rt></ruby>族と<ruby>暮<rt>く</rt></ruby>らすと支え合える。",
+        "text": "【A】一人<ruby>暮らし<rt>くらし</rt></ruby>は自由だ。【B】<ruby>家族<rt>かぞく</rt></ruby>と<ruby>暮らす<rt>くらす</rt></ruby>と支え合える。",
         "question": "分かることは何か。",
-        "options": ["一人が<ruby>良<rt>りょう</rt></ruby>い",
+        "options": ["一人が<ruby>良い<rt>よい</rt></ruby>",
           "どちらも悪い",
-          "それぞれ<ruby>良<rt>りょう</rt></ruby>い点がある",
-          "<ruby>家<rt>いえ</rt></ruby>族が<ruby>良<rt>りょう</rt></ruby>い"],
+          "それぞれ<ruby>良い<rt>よい</rt></ruby>点がある",
+          "<ruby>家族<rt>かぞく</rt></ruby>が<ruby>良い<rt>よい</rt></ruby>"],
         "answer": 0,
         "id": "N2-09-069",
-        "script": "話者A：この問題については、一人が<ruby>良<rt>りょう</rt></ruby>いという点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：はい。その通りだと思います。"
+        "script": "話者A：この問題については、一人が<ruby>良い<rt>よい</rt></ruby>という点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：はい。その通りだと思います。"
       },
       {
         "type": "統合理解",
         "text": "【A】現金は使いすぎを防げる。【B】キャッシュレスはポイントが貯まる。",
         "question": "分かることは何か。",
         "options": ["どちらも悪い",
-          "それぞれ<ruby>良<rt>りょう</rt></ruby>い点がある",
-          "キャッシュレスが<ruby>良<rt>りょう</rt></ruby>い",
-          "現金が<ruby>良<rt>りょう</rt></ruby>い"],
+          "それぞれ<ruby>良い<rt>よい</rt></ruby>点がある",
+          "キャッシュレスが<ruby>良い<rt>よい</rt></ruby>",
+          "現金が<ruby>良い<rt>よい</rt></ruby>"],
         "answer": 3,
         "id": "N2-09-070",
-        "script": "話者A：この問題については、現金が<ruby>良<rt>りょう</rt></ruby>いという点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：ええ。その通りだと思います。"
+        "script": "話者A：この問題については、現金が<ruby>良い<rt>よい</rt></ruby>という点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：ええ。その通りだと思います。"
       },
       {
         "type": "主張理解（長文）",
@@ -9837,29 +9837,29 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-09-073"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
-        "text": "【<ruby>塾<rt>じゅく</rt></ruby>】小学生週2<ruby>回<rt>まわ</rt></ruby>15,000円、中学生週3<ruby>回<rt>まわ</rt></ruby>22,000円。教<ruby>材<rt>ざい</rt></ruby>費別<ruby>途<rt>と</rt></ruby>。無料体験授業あり。",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
+        "text": "【<ruby>塾<rt>じゅく</rt></ruby>】小学生週2<ruby>回<rt>まわす</rt></ruby>15,000円、中学生週3<ruby>回<rt>まわす</rt></ruby>22,000円。教<ruby>材<rt>ざい</rt></ruby>費別<ruby>途<rt>と</rt></ruby>。無料体験授業あり。",
         "question": "正しいのは何か。",
         "options": ["無料体験あり",
           "小学生10,000円",
-          "中学生週2<ruby>回<rt>まわ</rt></ruby>",
-          "教<ruby>材<rt>ざい</rt></ruby>費<ruby>込<rt>こ</rt></ruby>み"],
+          "中学生週2<ruby>回<rt>まわす</rt></ruby>",
+          "教<ruby>材<rt>ざい</rt></ruby>費<ruby>込<rt>こむ</rt></ruby>み"],
         "answer": 1,
         "id": "N2-09-074"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
-        "text": "【クリーニング】ワイシャツ250円、スーツ上下1,800円。<ruby>即<rt>そく</rt></ruby>日仕上げプラス300円。",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
+        "text": "【クリーニング】ワイシャツ250円、スーツ上下1,800円。<ruby>即日<rt>そくじつ</rt></ruby>仕上げプラス300円。",
         "question": "正しいのは何か。",
-        "options": ["<ruby>即<rt>そく</rt></ruby>日無料",
-          "<ruby>即<rt>そく</rt></ruby>日不可",
+        "options": ["<ruby>即日<rt>そくじつ</rt></ruby>無料",
+          "<ruby>即日<rt>そくじつ</rt></ruby>不可",
           "スーツ上下1,800円",
           "ワイシャツ500円"],
         "answer": 2,
         "id": "N2-09-075"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "男の人と女の人が話しています。男の人はこのあとまず何をしますか。（41）",
         "question": "まず何をしますか。",
         "options": ["メールを送る",
@@ -9871,7 +9871,7 @@ window.MOCK_DATA['N2'] = {
         "script": "男：それでは、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：会議室を予約していただけますか。\n女：<ruby>了解<rt>りょうかい</rt></ruby>です、すぐに対応します。【セット9問44】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "女の人と男の人が話しています。女の人はこのあと何をしますか。（42）",
         "question": "何をしますか。",
         "options": ["書類を提出する",
@@ -9883,31 +9883,31 @@ window.MOCK_DATA['N2'] = {
         "script": "男：えーと、この件について進め方を検討しましょう。\n女：そうですか、何をすればよいでしょうか。\n男：まず会議に出席してください。\n女：承知しました。よろしくお願いします。【セット9問45】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "店員と客が話しています。客はこのあと何をしますか。（43）",
         "question": "何をしますか。",
         "options": ["注文を変更する",
           "別の店を探す",
           "店を出る",
-          "支<ruby>払<rt>はら</rt></ruby>いをする"],
+          "<ruby>支払い<rt>しはらい</rt></ruby>をする"],
         "answer": 1,
         "id": "N2-09-078",
         "script": "男：次の段階に進む準備ができましたね。\n女：あのう、はい、何から始めましょうか。\n男：別の店を探すください。\n女：うん。お願いします。【セット9問46】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "先生と学生が話しています。学生はこのあと何をしますか。（44）",
         "question": "何をしますか。",
-        "options": ["レポートを書き<ruby>直<rt>なお</rt></ruby>す",
+        "options": ["レポートを書き<ruby>直す<rt>なおす</rt></ruby>",
           "図書館で調べる",
           "先生に質問する",
           "友達に聞く"],
         "answer": 0,
         "id": "N2-09-079",
-        "script": "男：すみません、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：レポートを書き<ruby>直<rt>なお</rt></ruby>すいただけますか。\n女：はい、すぐに対応します。【セット9問47】"
+        "script": "男：すみません、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：レポートを書き<ruby>直す<rt>なおす</rt></ruby>いただけますか。\n女：はい、すぐに対応します。【セット9問47】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "医者と患者が話しています。患者はこのあと何をしますか。（45）",
         "question": "何をしますか。",
         "options": ["検査を受ける",
@@ -9935,9 +9935,9 @@ window.MOCK_DATA['N2'] = {
         "text": "スピーチを聞いています。話者が<ruby>感謝<rt>かんしゃ</rt></ruby>しているのは何ですか。（50）",
         "question": "<ruby>感謝<rt>かんしゃ</rt></ruby>しているのは？",
         "options": ["顧客の信頼",
-          "<ruby>家<rt>いえ</rt></ruby>族の理解",
+          "<ruby>家族<rt>かぞく</rt></ruby>の理解",
           "周囲の支援",
-          "同<ruby>僚<rt>りょう</rt></ruby>の協力"],
+          "<ruby>同僚<rt>どうりょう</rt></ruby>の協力"],
         "answer": 2,
         "id": "N2-09-082",
         "script": "周囲の支援が最も重要な要素です。様々な観点から検討しましたが、これが最も重要です。"
@@ -9948,8 +9948,8 @@ window.MOCK_DATA['N2'] = {
         "question": "解決策は何ですか。",
         "options": ["ルール変更",
           "研修実<ruby>施<rt>ほどこ</rt></ruby>",
-          "システム<ruby>改<rt>あら</rt></ruby>善",
-          "人員増<ruby>加<rt>くわ</rt></ruby>"],
+          "システム<ruby>改善<rt>かいぜん</rt></ruby>",
+          "人員<ruby>増加<rt>ぞうか</rt></ruby>"],
         "answer": 0,
         "id": "N2-09-083",
         "script": "ルール変更が最も重要な要素です。様々な観点から検討しましたが、ここが肝心なポイントです。"
@@ -10019,7 +10019,7 @@ window.MOCK_DATA['N2'] = {
         "text": "インタビューを聞いています。この人は主に何について話していますか。（43）",
         "question": "主に何について？",
         "options": ["<ruby>趣味<rt>しゅみ</rt></ruby>",
-          "<ruby>家<rt>いえ</rt></ruby>族",
+          "<ruby>家族<rt>かぞく</rt></ruby>",
           "将来",
           "キャリア"],
         "answer": 3,
@@ -10051,7 +10051,7 @@ window.MOCK_DATA['N2'] = {
         "script": "<ruby>今回<rt>こんかい</rt></ruby>お伝えしたいのは健康についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。【セット9問59】"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "オフィスで「お疲れ様です」と言われました。（問97）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -10062,8 +10062,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-09-092"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "学校で「失<ruby>礼<rt>れい</rt></ruby>します」と言われました。（問98）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "学校で「<ruby>失礼<rt>しつれい</rt></ruby>します」と言われました。（問98）",
         "question": "返答は？",
         "options": ["どうぞ",
           "いいえ、行きません",
@@ -10073,7 +10073,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-09-093"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "電車で「おはようございます」と言われました。（問100）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
@@ -10084,7 +10084,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-09-095"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お店で「よろしくお願いします」と言われました。（問99）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
@@ -10095,7 +10095,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-09-094"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "エレベーターで「こんにちは」と言われました。（問101）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
@@ -10106,7 +10106,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-09-096"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "<ruby>廊下<rt>ろうか</rt></ruby>で「こんばんは」と言われました。（問102）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
@@ -10117,8 +10117,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-09-097"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "受付で「お先に失<ruby>礼<rt>れい</rt></ruby>します」と言われました。（問103）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "受付で「お先に<ruby>失礼<rt>しつれい</rt></ruby>します」と言われました。（問103）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
           "はい、食べました",
@@ -10128,7 +10128,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-09-098"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "会議室で「いってきます」と言われました。（問104）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -10139,7 +10139,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-09-099"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お店で「お元気ですか」と言われました。（問107）",
         "question": "返答は？",
         "options": ["おかげさまで元気です",
@@ -10150,7 +10150,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-09-102"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "学校で「今日は暑いですね」と言われました。（問106）",
         "question": "返答は？",
         "options": ["本当ですね",
@@ -10161,7 +10161,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-09-101"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "電車で「お久しぶりです」と言われました。（問108）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -10172,7 +10172,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-09-103"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "オフィスで「ただいま」と言われました。（問105）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
@@ -10233,7 +10233,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>しゅうかい</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["監査報告書",
@@ -10243,7 +10243,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>きげん</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["細菌検査",
@@ -10253,7 +10253,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>そまる</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["所在",
@@ -10263,7 +10263,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>しゅんこうする</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["<ruby>竣<rt>しゅん</rt></ruby>工する",
@@ -10273,7 +10273,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>しょうけんとうし</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["生産する",
@@ -10333,7 +10333,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "（　）を設定する",
         "question": "（　）に入るのは？",
         "options": ["<ruby>名簿<rt>めいぼ</rt></ruby>",
@@ -10343,7 +10343,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "製品の（　）を<ruby>管理<rt>かんり</rt></ruby>する",
         "question": "（　）に入るのは？",
         "options": ["方針",
@@ -10353,7 +10353,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "スマホが（　）する",
         "question": "（　）に入るのは？",
         "options": ["<ruby>産学連携<rt>さんがくれんけい</rt></ruby>",
@@ -10363,7 +10363,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "文<ruby>脈<rt>みゃく</rt></ruby>規定",
+        "type": "<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>",
         "text": "予定を（　）する",
         "question": "（　）に入るのは？",
         "options": ["契約社員",
@@ -10407,7 +10407,7 @@ window.MOCK_DATA['N2'] = {
         "text": "価格の推移を追うの意味は？",
         "question": "意味が近いのは？",
         "options": ["変化",
-          "<ruby>起訴<rt>きそ</rt></ruby>する",
+          "<ruby>起訴する<rt>きそする</rt></ruby>",
           "<ruby>旅行<rt>りょこう</rt></ruby>",
           "つかまえる"],
         "answer": 0
@@ -10426,7 +10426,7 @@ window.MOCK_DATA['N2'] = {
     "10": [
       {
         "type": "文法形式",
-        "text": "困難（　）<ruby>直<rt>なお</rt></ruby>面した。",
+        "text": "困難（　）<ruby>直面<rt>ちょくめん</rt></ruby>した。",
         "question": "（　）に入るのは？",
         "options": ["で",
           "にもかかわらず",
@@ -10547,10 +10547,10 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>女は歌手である（　）、女優でもある。",
+        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は歌手である（　）、女優でもある。",
         "question": "（　）に入るのは？",
         "options": ["のみならず",
-          "に<ruby>加<rt>くわ</rt></ruby>えて",
+          "に<ruby>加<rt>くわえる</rt></ruby>えて",
           "とともに",
           "と同時に"],
         "answer": 3,
@@ -10558,23 +10558,23 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【日常会話・問346（N5レベル）】次の語句を正しい順序に並べてください：図書館で / 私は / 本を / <ruby>昨<rt>さく</rt></ruby>日 / 読みました",
+        "text": "【日常会話・問346（N5レベル）】次の語句を正しい順序に並べてください：図書館で / 私は / 本を / <ruby>昨日<rt>きのう</rt></ruby> / 読みました",
         "question": "正しい順序は？",
-        "options": ["私は<ruby>昨<rt>さく</rt></ruby>日図書館で本を読みました",
-          "<ruby>昨<rt>さく</rt></ruby>日 図書館で 本を 読みました 私は",
-          "読みました 本を 図書館で <ruby>昨<rt>さく</rt></ruby>日 私は",
-          "読みました 私は <ruby>昨<rt>さく</rt></ruby>日 図書館で 本を"],
+        "options": ["私は<ruby>昨日<rt>きのう</rt></ruby>図書館で本を読みました",
+          "<ruby>昨日<rt>きのう</rt></ruby> 図書館で 本を 読みました 私は",
+          "読みました 本を 図書館で <ruby>昨日<rt>きのう</rt></ruby> 私は",
+          "読みました 私は <ruby>昨日<rt>きのう</rt></ruby> 図書館で 本を"],
         "answer": 2,
         "id": "N2-10-045"
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問347（N4レベル）】次の語句を正しい順序に並べてください：散歩 / 公園を / します / <ruby>彼<rt>かれ</rt></ruby>女は / 毎朝",
+        "text": "【ビジネス・問347（N4レベル）】次の語句を正しい順序に並べてください：散歩 / 公園を / します / <ruby>彼女<rt>かのじょ</rt></ruby>は / 毎朝",
         "question": "正しい順序は？",
-        "options": ["毎朝 公園を 散歩 します <ruby>彼<rt>かれ</rt></ruby>女は",
-          "<ruby>彼<rt>かれ</rt></ruby>女は毎朝公園を散歩します",
-          "します <ruby>彼<rt>かれ</rt></ruby>女は 毎朝 公園を 散歩",
-          "します 散歩 公園を 毎朝 <ruby>彼<rt>かれ</rt></ruby>女は"],
+        "options": ["毎朝 公園を 散歩 します <ruby>彼女<rt>かのじょ</rt></ruby>は",
+          "<ruby>彼女<rt>かのじょ</rt></ruby>は毎朝公園を散歩します",
+          "します <ruby>彼女<rt>かのじょ</rt></ruby>は 毎朝 公園を 散歩",
+          "します 散歩 公園を 毎朝 <ruby>彼女<rt>かのじょ</rt></ruby>は"],
         "answer": 3,
         "id": "N2-10-046"
       },
@@ -10715,7 +10715,7 @@ window.MOCK_DATA['N2'] = {
         "text": "失敗は成功へのステップであり恐れる必要はない。（問50）",
         "question": "失敗について正しいのは何か。",
         "options": ["無意味",
-          "<ruby>避<rt>さ</rt></ruby>けるべき",
+          "<ruby>避ける<rt>さける</rt></ruby>べき",
           "恥ずかしい",
           "成功へのステップ"],
         "answer": 3,
@@ -10736,7 +10736,7 @@ window.MOCK_DATA['N2'] = {
         "type": "読解（中文）",
         "text": "失敗を恐れていては挑戦できない。失敗は成功へのステップであり学ぶことが大切だ。（問82）",
         "question": "失敗について何と言っているか。",
-        "options": ["<ruby>避<rt>さ</rt></ruby>ける",
+        "options": ["<ruby>避ける<rt>さける</rt></ruby>",
           "成功へのステップ",
           "無意味",
           "恥ずかしい"],
@@ -10749,7 +10749,7 @@ window.MOCK_DATA['N2'] = {
         "question": "大切なのは何か。",
         "options": ["一人で頑張る",
           "命令",
-          "<ruby>競<rt>きそ</rt></ruby>争",
+          "<ruby>競争<rt>きょうそう</rt></ruby>",
           "強みを活かす"],
         "answer": 3,
         "id": "N2-10-062"
@@ -10804,19 +10804,19 @@ window.MOCK_DATA['N2'] = {
         "question": "重要なのは何か。",
         "options": ["生産性向上と多様性",
           "時間短縮だけ",
-          "休み増<ruby>加<rt>くわ</rt></ruby>",
-          "<ruby>給<rt>きゅう</rt></ruby>料アップ"],
+          "休み<ruby>増加<rt>ぞうか</rt></ruby>",
+          "<ruby>給料<rt>きゅうりょう</rt></ruby>アップ"],
         "answer": 0,
         "id": "N2-10-067"
       },
       {
         "type": "読解（中文）",
-        "text": "教育では知識詰め<ruby>込<rt>こ</rt></ruby>みから思考力重視への転換が<ruby>求<rt>もと</rt></ruby>められている。社会で<ruby>活躍<rt>かつやく</rt></ruby>できる<ruby>人材育成<rt>じんざいいくせい</rt></ruby>が目標だ。（問90）",
-        "question": "<ruby>求<rt>もと</rt></ruby>められているのは何か。",
+        "text": "教育では知識詰め<ruby>込<rt>こむ</rt></ruby>みから思考力重視への転換が<ruby>求<rt>もとめる</rt></ruby>められている。社会で<ruby>活躍<rt>かつやく</rt></ruby>できる<ruby>人材育成<rt>じんざいいくせい</rt></ruby>が目標だ。（問90）",
+        "question": "<ruby>求<rt>もとめる</rt></ruby>められているのは何か。",
         "options": ["テスト重視",
           "不要",
           "思考力重視",
-          "知識詰め<ruby>込<rt>こ</rt></ruby>み"],
+          "知識詰め<ruby>込<rt>こむ</rt></ruby>み"],
         "answer": 2,
         "id": "N2-10-068"
       },
@@ -10825,16 +10825,16 @@ window.MOCK_DATA['N2'] = {
         "text": "【A】新卒採用は育成しやすい。【B】<ruby>中途<rt>ちゅうと</rt></ruby>採用は<ruby>即<rt>そく</rt></ruby>戦力になる。",
         "question": "分かることは何か。",
         "options": ["どちらも悪い",
-          "<ruby>中途<rt>ちゅうと</rt></ruby>が<ruby>良<rt>りょう</rt></ruby>い",
-          "それぞれ<ruby>良<rt>りょう</rt></ruby>い点がある",
-          "新卒が<ruby>良<rt>りょう</rt></ruby>い"],
+          "<ruby>中途<rt>ちゅうと</rt></ruby>が<ruby>良い<rt>よい</rt></ruby>",
+          "それぞれ<ruby>良い<rt>よい</rt></ruby>点がある",
+          "新卒が<ruby>良い<rt>よい</rt></ruby>"],
         "answer": 3,
         "id": "N2-10-069",
-        "script": "話者A：この問題については、新卒が<ruby>良<rt>りょう</rt></ruby>いという点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：はい。その通りだと思います。"
+        "script": "話者A：この問題については、新卒が<ruby>良い<rt>よい</rt></ruby>という点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：はい。その通りだと思います。"
       },
       {
         "type": "統合理解",
-        "text": "【A】専門<ruby>家<rt>いえ</rt></ruby>の意見は信頼できる。【B】専門<ruby>家<rt>いえ</rt></ruby>も間違えることがある。",
+        "text": "【A】<ruby>専門家<rt>せんもんか</rt></ruby>の意見は信頼できる。【B】<ruby>専門家<rt>せんもんか</rt></ruby>も間違えることがある。",
         "question": "分かることは何か。",
         "options": ["常に正しい",
           "誰も信用できない",
@@ -10857,9 +10857,9 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>感謝<rt>かんしゃ</rt></ruby>の気持ちを持つことは幸福<ruby>感<rt>かん</rt></ruby>を高める。当たり前と思うことにも<ruby>感謝<rt>かんしゃ</rt></ruby>できる心が大切だ。",
+        "text": "<ruby>感謝<rt>かんしゃ</rt></ruby>の気持ちを持つことは<ruby>幸福感<rt>こうふくかん</rt></ruby>を高める。当たり前と思うことにも<ruby>感謝<rt>かんしゃ</rt></ruby>できる心が大切だ。",
         "question": "<ruby>感謝<rt>かんしゃ</rt></ruby>について正しいのは何か。",
-        "options": ["幸福<ruby>感<rt>かん</rt></ruby>を高める",
+        "options": ["<ruby>幸福感<rt>こうふくかん</rt></ruby>を高める",
           "弱さ",
           "形式的",
           "不要"],
@@ -10878,41 +10878,41 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-10-073"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
-        "text": "【引っ<ruby>越<rt>こ</rt></ruby>し】単身パック30,000円〜、<ruby>家<rt>いえ</rt></ruby>族80,000円〜。見積もり無料。土日祝10%増し。",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
+        "text": "【<ruby>引っ越し<rt>ひっこし</rt></ruby>】単身パック30,000円〜、<ruby>家族<rt>かぞく</rt></ruby>80,000円〜。見積もり無料。土日祝10%増し。",
         "question": "正しいのは何か。",
         "options": ["土日祝10%増し",
           "見積もり有料",
           "単身50,000円〜",
-          "<ruby>家<rt>いえ</rt></ruby>族50,000円〜"],
+          "<ruby>家族<rt>かぞく</rt></ruby>50,000円〜"],
         "answer": 2,
         "id": "N2-10-074"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
-        "text": "【ペットホテル】<ruby>小型<rt>こがた</rt></ruby>犬3,000円/<ruby>泊<rt>はく</rt></ruby>、大<ruby>型<rt>かた</rt></ruby>犬5,000円/<ruby>泊<rt>はく</rt></ruby>。予防接種証明必須。送迎サービスあり。",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
+        "text": "【ペットホテル】<ruby>小型<rt>こがた</rt></ruby>犬3,000円/<ruby>泊<rt>はく</rt></ruby>、大<ruby>型<rt>かたい</rt></ruby>犬5,000円/<ruby>泊<rt>はく</rt></ruby>。予防接種証明必須。送迎サービスあり。",
         "question": "正しいのは何か。",
         "options": ["送迎サービスあり",
           "証明不要",
-          "大<ruby>型<rt>かた</rt></ruby>犬3,000円",
+          "大<ruby>型<rt>かたい</rt></ruby>犬3,000円",
           "<ruby>小型<rt>こがた</rt></ruby>犬5,000円"],
         "answer": 0,
         "id": "N2-10-075"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "上司と部下が話しています。部下はこのあと何をしますか。（46）",
         "question": "何をしますか。",
         "options": ["会議を設定する",
           "報告書を作成する",
-          "クライアントに<ruby>連絡<rt>れんらく</rt></ruby>する",
+          "クライアントに<ruby>連絡する<rt>れんらくする</rt></ruby>",
           "データを確認する"],
         "answer": 3,
         "id": "N2-10-076",
         "script": "男：それでは、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：データを確認していただけますか。\n女：<ruby>了解<rt>りょうかい</rt></ruby>です、すぐに対応します。【セット10問44】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "受付と来客が話しています。来客はこのあと何をしますか。（47）",
         "question": "何をしますか。",
         "options": ["電話をする",
@@ -10924,11 +10924,11 @@ window.MOCK_DATA['N2'] = {
         "script": "男：えーと、この件について進め方を検討しましょう。\n女：そうですか、何をすればよいでしょうか。\n男：まず書類に<ruby>記入<rt>きにゅう</rt></ruby>してください。\n女：承知しました。よろしくお願いします。【セット10問45】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "<ruby>旅行<rt>りょこう</rt></ruby>会社の人と客が話しています。客はこのあと何をしますか。（48）",
         "question": "何をしますか。",
         "options": ["パンフレットを見る",
-          "<ruby>追加<rt>ついか</rt></ruby>料金を<ruby>払<rt>はら</rt></ruby>う",
+          "<ruby>追加<rt>ついか</rt></ruby>料金を<ruby>払う<rt>はらう</rt></ruby>",
           "別のプランを選ぶ",
           "予約をキャンセルする"],
         "answer": 0,
@@ -10936,7 +10936,7 @@ window.MOCK_DATA['N2'] = {
         "script": "男：次の段階に進む準備ができましたね。\n女：あのう、はい、何から始めましょうか。\n男：パンフレットを見るください。\n女：うん。お願いします。【セット10問46】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "銀行員と客が話しています。客はこのあと何をしますか。（49）",
         "question": "何をしますか。",
         "options": ["窓口で待つ",
@@ -10948,20 +10948,20 @@ window.MOCK_DATA['N2'] = {
         "script": "男：すみません、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：書類に<ruby>記入<rt>きにゅう</rt></ruby>していただけますか。\n女：はい、すぐに対応します。【セット10問47】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "不動産屋と客が話しています。客はこのあと何をしますか。（50）",
         "question": "何をしますか。",
         "options": ["保証人を探す",
           "契約書を確認する",
           "物件を見に行く",
-          "引っ<ruby>越<rt>こ</rt></ruby>し日を決める"],
+          "<ruby>引っ越し<rt>ひっこし</rt></ruby>日を決める"],
         "answer": 2,
         "id": "N2-10-080",
         "script": "男：ちょっと、この件について進め方を検討しましょう。\n女：ええ、何をすればよいでしょうか。\n男：まず物件を見に行くください。\n女：承知しました。早速取りかかります。【セット10問48】"
       },
       {
         "type": "ポイント理解",
-        "text": "討<ruby>論<rt>ろん</rt></ruby>を聞いています。反対意見の<ruby>根拠<rt>こんきょ</rt></ruby>は何ですか。（55）",
+        "text": "<ruby>討論<rt>とうろん</rt></ruby>を聞いています。反対意見の<ruby>根拠<rt>こんきょ</rt></ruby>は何ですか。（55）",
         "question": "<ruby>根拠<rt>こんきょ</rt></ruby>は何ですか。",
         "options": ["コスト高",
           "データ不足",
@@ -10987,13 +10987,13 @@ window.MOCK_DATA['N2'] = {
         "type": "ポイント理解",
         "text": "放送を聞いています。<ruby>主催<rt>しゅさい</rt></ruby>者が呼びかけているのは何ですか。（57）",
         "question": "呼びかけているのは？",
-        "options": ["参<ruby>加<rt>くわ</rt></ruby>",
+        "options": ["<ruby>参加<rt>さんか</rt></ruby>",
           "注意",
           "協力",
           "理解"],
         "answer": 0,
         "id": "N2-10-083",
-        "script": "参<ruby>加<rt>くわ</rt></ruby>が最も重要な要素です。様々な観点から検討しましたが、ここが肝心なポイントです。"
+        "script": "<ruby>参加<rt>さんか</rt></ruby>が最も重要な要素です。様々な観点から検討しましたが、ここが肝心なポイントです。"
       },
       {
         "type": "ポイント理解",
@@ -11024,12 +11024,12 @@ window.MOCK_DATA['N2'] = {
         "text": "ドキュメンタリーを見ています。この問題の<ruby>深刻<rt>しんこく</rt></ruby>さを示しているのは何ですか。（60）",
         "question": "<ruby>深刻<rt>しんこく</rt></ruby>さを示すのは？",
         "options": ["対策の遅れ",
-          "数字の増<ruby>加<rt>くわ</rt></ruby>",
+          "数字の<ruby>増加<rt>ぞうか</rt></ruby>",
           "<ruby>被害<rt>ひがい</rt></ruby>の<ruby>甚大<rt>じんだい</rt></ruby>さ",
           "<ruby>範囲<rt>はんい</rt></ruby>の<ruby>拡大<rt>かくだい</rt></ruby>"],
         "answer": 1,
         "id": "N2-10-086",
-        "script": "数字の増<ruby>加<rt>くわ</rt></ruby>が最も重要な要素です。様々な観点から検討しましたが、これこそが成功の鍵です。"
+        "script": "数字の<ruby>増加<rt>ぞうか</rt></ruby>が最も重要な要素です。様々な観点から検討しましたが、これこそが成功の鍵です。"
       },
       {
         "type": "概要理解",
@@ -11092,7 +11092,7 @@ window.MOCK_DATA['N2'] = {
         "script": "<ruby>今回<rt>こんかい</rt></ruby>お伝えしたいのは将来の展望についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "エレベーターで「初めまして」と言われました。（問109）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -11103,7 +11103,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-10-092"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "<ruby>廊下<rt>ろうか</rt></ruby>で「ありがとうございます」と言われました。（問110）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
@@ -11114,7 +11114,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-10-093"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "会議室で「お疲れ様です」と言われました。（問112）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
@@ -11125,10 +11125,10 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-10-095"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "受付で「すみません」と言われました。（問111）",
         "question": "返答は？",
-        "options": ["いいえ、大<ruby>丈<rt>たけ</rt></ruby>夫です",
+        "options": ["いいえ、<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>です",
           "わかりません",
           "いいえ、行きません",
           "はい、食べました"],
@@ -11136,8 +11136,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-10-094"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "オフィスで「失<ruby>礼<rt>れい</rt></ruby>します」と言われました。（問113）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "オフィスで「<ruby>失礼<rt>しつれい</rt></ruby>します」と言われました。（問113）",
         "question": "返答は？",
         "options": ["どうぞ",
           "わかりません",
@@ -11147,7 +11147,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-10-096"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "学校で「よろしくお願いします」と言われました。（問114）",
         "question": "返答は？",
         "options": ["こちらこそよろしくお願いします",
@@ -11158,7 +11158,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-10-097"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お店で「おはようございます」と言われました。（問115）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
@@ -11169,7 +11169,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-10-098"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "電車で「こんにちは」と言われました。（問116）",
         "question": "返答は？",
         "options": ["こんにちは",
@@ -11180,7 +11180,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-10-099"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "エレベーターで「こんばんは」と言われました。（問117）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
@@ -11191,8 +11191,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-10-100"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "<ruby>廊下<rt>ろうか</rt></ruby>で「お先に失<ruby>礼<rt>れい</rt></ruby>します」と言われました。（問118）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "<ruby>廊下<rt>ろうか</rt></ruby>で「お先に<ruby>失礼<rt>しつれい</rt></ruby>します」と言われました。（問118）",
         "question": "返答は？",
         "options": ["はい、食べました",
           "わかりません",
@@ -11202,7 +11202,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-10-101"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "受付で「いってきます」と言われました。（問119）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -11213,7 +11213,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-10-102"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "会議室で「ただいま」と言われました。（問120）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -11274,7 +11274,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>おわせる</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["就職活動",
@@ -11284,7 +11284,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>けいしゃ</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["<ruby>傾斜<rt>けいしゃ</rt></ruby>",
@@ -11294,17 +11294,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>にょうけんさ</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>敷<rt>しめる</rt></ruby>く",
+        "options": ["<ruby>敷く<rt>しく</rt></ruby>",
           "<ruby>尿検査<rt>にょうけんさ</rt></ruby>",
           "高度",
           "空っぽ"],
         "answer": 1
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>とくべつ</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["城",
@@ -11314,7 +11314,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>かいそうべつけんしゅう</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["恒久的な",
@@ -11377,10 +11377,10 @@ window.MOCK_DATA['N2'] = {
         "type": "言い換え",
         "text": "目標を達成するの意味は？",
         "question": "意味が近いのは？",
-        "options": ["付<ruby>加<rt>くわ</rt></ruby>価値",
+        "options": ["<ruby>付加価値<rt>ふかかち</rt></ruby>",
           "イノベーション",
           "問い合わせ",
-          "成し<ruby>遂<rt>とる</rt></ruby>げる"],
+          "<ruby>成し遂げる<rt>なしとげる</rt></ruby>"],
         "answer": 3
       },
       {
@@ -11390,7 +11390,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["開発<ruby>委託<rt>いたく</rt></ruby>",
           "マニフェスト",
           "手に入れる",
-          "入<ruby>荷<rt>にな</rt></ruby>"],
+          "<ruby>入荷<rt>にゅうか</rt></ruby>"],
         "answer": 2
       },
       {
@@ -11429,7 +11429,7 @@ window.MOCK_DATA['N2'] = {
         "type": "文法形式",
         "text": "<ruby>練習<rt>れんしゅう</rt></ruby>を重ねる（　）、上手になってきた。",
         "question": "（　）に入るのは？",
-        "options": ["に<ruby>加<rt>くわ</rt></ruby>えて",
+        "options": ["に<ruby>加<rt>くわえる</rt></ruby>えて",
           "にしたがって",
           "とともに",
           "につれて"],
@@ -11440,7 +11440,7 @@ window.MOCK_DATA['N2'] = {
         "type": "文法形式",
         "text": "会議に出席する（　）、報告書を提出した。",
         "question": "（　）に入るのは？",
-        "options": ["に<ruby>加<rt>くわ</rt></ruby>えて",
+        "options": ["に<ruby>加<rt>くわえる</rt></ruby>えて",
           "とともに",
           "につれて",
           "にしたがって"],
@@ -11451,7 +11451,7 @@ window.MOCK_DATA['N2'] = {
         "type": "文法形式",
         "text": "<ruby>彼<rt>かれ</rt></ruby>は学者として（　）、政治<ruby>家<rt>いえ</rt></ruby>としても活動している。",
         "question": "（　）に入るのは？",
-        "options": ["に<ruby>加<rt>くわ</rt></ruby>えて",
+        "options": ["に<ruby>加<rt>くわえる</rt></ruby>えて",
           "とともに",
           "と同時に",
           "のみならず"],
@@ -11476,7 +11476,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["のみならず",
           "と同時に",
           "とともに",
-          "に<ruby>加<rt>くわ</rt></ruby>えて"],
+          "に<ruby>加<rt>くわえる</rt></ruby>えて"],
         "answer": 0,
         "id": "N2-11-036"
       },
@@ -11614,7 +11614,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文章の文法",
-        "text": "日本経済は<ruby>長期<rt>ちょうき</rt></ruby>にわたる<ruby>停滞<rt>ていたい</rt></ruby>（　）、<ruby>回<rt>まわ</rt></ruby>復の<ruby>兆<rt>ちょう</rt></ruby>しを見せている。（351）",
+        "text": "日本経済は<ruby>長期<rt>ちょうき</rt></ruby>にわたる<ruby>停滞<rt>ていたい</rt></ruby>（　）、<ruby>回復<rt>かいふく</rt></ruby>の<ruby>兆<rt>ちょう</rt></ruby>しを見せている。（351）",
         "question": "（　）に入るのは？",
         "options": ["に反して",
           "を経て",
@@ -11658,7 +11658,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文章の文法",
-        "text": "社会の変化（　）、教育も見<ruby>直<rt>なお</rt></ruby>しが必要だ。（355）",
+        "text": "社会の変化（　）、教育も<ruby>見直し<rt>みなおし</rt></ruby>が必要だ。（355）",
         "question": "（　）に入るのは？",
         "options": ["に伴い",
           "に対して",
@@ -11669,7 +11669,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が進む現代、異文化理解力が<ruby>求<rt>もと</rt></ruby>められている。文化的背景を理解することが重要だ。（問51）",
+        "text": "グローバル化が進む現代、異文化理解力が<ruby>求<rt>もとめる</rt></ruby>められている。文化的背景を理解することが重要だ。（問51）",
         "question": "筆者が言いたいことは何か。",
         "options": ["反対",
           "外国語学習",
@@ -11705,8 +11705,8 @@ window.MOCK_DATA['N2'] = {
         "text": "働き方<ruby>改革<rt>かいかく</rt></ruby>で残業が減ったが、仕事量は変わらず効率化が<ruby>課題<rt>かだい</rt></ruby>となっている。（問54）",
         "question": "<ruby>課題<rt>かだい</rt></ruby>は何か。",
         "options": ["休み減",
-          "<ruby>給<rt>きゅう</rt></ruby>料減",
-          "残業増<ruby>加<rt>くわ</rt></ruby>",
+          "<ruby>給料<rt>きゅうりょう</rt></ruby>減",
+          "残業<ruby>増加<rt>ぞうか</rt></ruby>",
           "効率化"],
         "answer": 3,
         "id": "N2-11-058"
@@ -11762,18 +11762,18 @@ window.MOCK_DATA['N2'] = {
         "options": ["全員が<ruby>活躍<rt>かつやく</rt></ruby>できる",
           "<ruby>閉鎖<rt>へいさ</rt></ruby>社会",
           "同じ人だけ",
-          "<ruby>競<rt>きそ</rt></ruby>争社会"],
+          "<ruby>競争<rt>きょうそう</rt></ruby>社会"],
         "answer": 0,
         "id": "N2-11-063"
       },
       {
         "type": "読解（中文）",
-        "text": "時間<ruby>管理<rt>かんり</rt></ruby>では優先順<ruby>位<rt>くら</rt></ruby>をつけ重要な仕事から取り組む。<ruby>完璧<rt>かんぺき</rt></ruby>を<ruby>求<rt>もと</rt></ruby>めすぎないことも大切だ。（問95）",
+        "text": "時間<ruby>管理<rt>かんり</rt></ruby>では<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>をつけ重要な仕事から取り組む。<ruby>完璧<rt>かんぺき</rt></ruby>を<ruby>求<rt>もとめる</rt></ruby>めすぎないことも大切だ。（問95）",
         "question": "大切なのは何か。",
         "options": ["<ruby>完璧<rt>かんぺき</rt></ruby>主義",
           "全部同時",
-          "後<ruby>回<rt>まわ</rt></ruby>し",
-          "優先順<ruby>位<rt>くら</rt></ruby>"],
+          "<ruby>後回し<rt>あとまわし</rt></ruby>",
+          "<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>"],
         "answer": 3,
         "id": "N2-11-064"
       },
@@ -11793,7 +11793,7 @@ window.MOCK_DATA['N2'] = {
         "text": "失敗を恐れていては挑戦できない。失敗は成功へのステップであり学ぶことが大切だ。（問97）",
         "question": "失敗について何と言っているか。",
         "options": ["無意味",
-          "<ruby>避<rt>さ</rt></ruby>ける",
+          "<ruby>避ける<rt>さける</rt></ruby>",
           "恥ずかしい",
           "成功へのステップ"],
         "answer": 3,
@@ -11817,7 +11817,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["命令",
           "強みを活かす",
           "一人で頑張る",
-          "<ruby>競<rt>きそ</rt></ruby>争"],
+          "<ruby>競争<rt>きょうそう</rt></ruby>"],
         "answer": 1,
         "id": "N2-11-068"
       },
@@ -11835,21 +11835,21 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "統合理解",
-        "text": "【A】<ruby>競<rt>きそ</rt></ruby>争は成長を<ruby>促<rt>うなが</rt></ruby>す。【B】協力も<ruby>成果<rt>せいか</rt></ruby>を生む。",
+        "text": "【A】<ruby>競争<rt>きょうそう</rt></ruby>は成長を<ruby>促す<rt>うながす</rt></ruby>。【B】協力も<ruby>成果<rt>せいか</rt></ruby>を生む。",
         "question": "分かることは何か。",
-        "options": ["<ruby>競<rt>きそ</rt></ruby>争だけ",
+        "options": ["<ruby>競争<rt>きょうそう</rt></ruby>だけ",
           "両方重要",
           "協力だけ",
           "どちらも不要"],
         "answer": 0,
         "id": "N2-11-070",
-        "script": "話者A：この問題については、<ruby>競<rt>きそ</rt></ruby>争だけという点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：ええ。その通りだと思います。"
+        "script": "話者A：この問題については、<ruby>競争<rt>きょうそう</rt></ruby>だけという点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：ええ。その通りだと思います。"
       },
       {
         "type": "主張理解（長文）",
         "text": "好奇心は学びの原動力だ。疑問を持ち追究する<ruby>姿勢<rt>しせい</rt></ruby>が知識や能力を伸ばす。",
         "question": "学びに重要なのは何か。",
-        "options": ["<ruby>記憶<rt>きおく</rt></ruby>力",
+        "options": ["<ruby>記憶力<rt>きおくりょく</rt></ruby>",
           "お金",
           "学歴",
           "好奇心"],
@@ -11858,7 +11858,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "柔軟性は変化の時代に必須のスキルだ。固定観念にとらわれず新しいやり方を受け入れる<ruby>姿勢<rt>しせい</rt></ruby>が<ruby>求<rt>もと</rt></ruby>められる。",
+        "text": "柔軟性は変化の時代に必須のスキルだ。固定観念にとらわれず新しいやり方を受け入れる<ruby>姿勢<rt>しせい</rt></ruby>が<ruby>求<rt>もとめる</rt></ruby>められる。",
         "question": "変化の時代に必要なのは何か。",
         "options": ["柔軟性",
           "頑固さ",
@@ -11869,7 +11869,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "自分の意見を持つことと他者の意見を尊重することは両立する。対話を通じてより<ruby>良<rt>りょう</rt></ruby>い<ruby>結論<rt>けつろん</rt></ruby>に至ることができる。",
+        "text": "自分の意見を持つことと他者の意見を尊重することは両立する。対話を通じてより<ruby>良い<rt>よい</rt></ruby><ruby>結論<rt>けつろん</rt></ruby>に至ることができる。",
         "question": "意見について正しいのは何か。",
         "options": ["両立する",
           "他者に従う",
@@ -11879,30 +11879,30 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-11-073"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
-        "text": "【結婚式場】<ruby>挙<rt>あ</rt></ruby>式料200,000円、<ruby>披<rt>ひ</rt></ruby>露<ruby>宴<rt>うたげ</rt></ruby>1名25,000円〜。試食会毎週土曜。予約制。",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
+        "text": "【結婚式場】<ruby>挙<rt>あう</rt></ruby>式料200,000円、<ruby>披<rt>ひ</rt></ruby>露<ruby>宴<rt>うたげ</rt></ruby>1名25,000円〜。試食会毎週土曜。予約制。",
         "question": "正しいのは何か。",
         "options": ["<ruby>披<rt>ひ</rt></ruby>露<ruby>宴<rt>うたげ</rt></ruby>1名10,000円",
           "試食会予約制",
           "試食会毎日",
-          "<ruby>挙<rt>あ</rt></ruby>式無料"],
+          "<ruby>挙<rt>あう</rt></ruby>式無料"],
         "answer": 0,
         "id": "N2-11-074"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
         "text": "【写真スタジオ】<ruby>撮影<rt>さつえい</rt></ruby>基本料5,000円、プリント1<ruby>枚<rt>まい</rt></ruby>500円。データ渡しプラス3,000円。",
         "question": "正しいのは何か。",
         "options": ["プリント無料",
           "データ渡し3,000円<ruby>追加<rt>ついか</rt></ruby>",
           "<ruby>撮影<rt>さつえい</rt></ruby>無料",
-          "データ<ruby>込<rt>こ</rt></ruby>み"],
+          "データ<ruby>込<rt>こむ</rt></ruby>み"],
         "answer": 2,
         "id": "N2-11-075"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
-        "text": "同<ruby>僚<rt>りょう</rt></ruby>同士が話しています。男の人はこのあと何をしますか。（51）",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
+        "text": "<ruby>同僚<rt>どうりょう</rt></ruby>同士が話しています。男の人はこのあと何をしますか。（51）",
         "question": "何をしますか。",
         "options": ["資料を<ruby>印<rt>しるし</rt></ruby><ruby>刷<rt>さつ</rt></ruby>する",
           "会議室を確認する",
@@ -11913,7 +11913,7 @@ window.MOCK_DATA['N2'] = {
         "script": "男：それでは、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：資料を<ruby>印<rt>しるし</rt></ruby><ruby>刷<rt>さつ</rt></ruby>していただけますか。\n女：<ruby>了解<rt>りょうかい</rt></ruby>です、すぐに対応します。【セット11問44】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "友人同士が話しています。女の人はこのあと何をしますか。（52）",
         "question": "何をしますか。",
         "options": ["レストランを予約する",
@@ -11925,7 +11925,7 @@ window.MOCK_DATA['N2'] = {
         "script": "男：えーと、この件について進め方を検討しましょう。\n女：そうですか、何をすればよいでしょうか。\n男：まず駅で待ち合わせるください。\n女：承知しました。よろしくお願いします。【セット11問45】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "親子が話しています。子供はこのあと何をしますか。（53）",
         "question": "何をしますか。",
         "options": ["宿題をする",
@@ -11937,7 +11937,7 @@ window.MOCK_DATA['N2'] = {
         "script": "男：次の段階に進む準備ができましたね。\n女：あのう、はい、何から始めましょうか。\n男：宿題をしてください。\n女：うん。お願いします。【セット11問46】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "店員と客が話しています。店員はこのあと何をしますか。（54）",
         "question": "何をしますか。",
         "options": ["レジで会計する",
@@ -11949,12 +11949,12 @@ window.MOCK_DATA['N2'] = {
         "script": "男：すみません、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：在庫を確認していただけますか。\n女：はい、すぐに対応します。【セット11問47】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "教授と学生が話しています。学生は何をすべきですか。（55）",
         "question": "何をすべきですか。",
         "options": ["構成を変更する",
-          "<ruby>結論<rt>けつろん</rt></ruby>を書き<ruby>直<rt>なお</rt></ruby>す",
-          "データを再<ruby>分析<rt>ぶんせき</rt></ruby>する",
+          "<ruby>結論<rt>けつろん</rt></ruby>を書き<ruby>直す<rt>なおす</rt></ruby>",
+          "データを再<ruby>分析する<rt>ぶんせきする</rt></ruby>",
           "参考文献を<ruby>追加<rt>ついか</rt></ruby>する"],
         "answer": 3,
         "id": "N2-11-080",
@@ -12010,10 +12010,10 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "ポイント理解",
-        "text": "会議を聞いています。今後の<ruby>課題<rt>かだい</rt></ruby>として<ruby>挙<rt>あ</rt></ruby>げられているのは何ですか。（65）",
+        "text": "会議を聞いています。今後の<ruby>課題<rt>かだい</rt></ruby>として<ruby>挙<rt>あう</rt></ruby>げられているのは何ですか。（65）",
         "question": "<ruby>課題<rt>かだい</rt></ruby>は何ですか。",
         "options": ["<ruby>人材育成<rt>じんざいいくせい</rt></ruby>",
-          "コスト<ruby>削減<rt>さくげん</rt></ruby>",
+          "<ruby>コスト削減<rt>こすとさくげん</rt></ruby>",
           "納<ruby>期<rt>き</rt></ruby>短縮",
           "品質向上"],
         "answer": 3,
@@ -12027,7 +12027,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["効率化",
           "リスク低減",
           "顧客満足度向上",
-          "コスト<ruby>削減<rt>さくげん</rt></ruby>"],
+          "<ruby>コスト削減<rt>こすとさくげん</rt></ruby>"],
         "answer": 0,
         "id": "N2-11-086",
         "script": "効率化が最も重要な要素です。様々な観点から検討しましたが、これこそが成功の鍵です。【セット11問54】"
@@ -12062,7 +12062,7 @@ window.MOCK_DATA['N2'] = {
         "question": "<ruby>結論<rt>けつろん</rt></ruby>は何ですか。",
         "options": ["中止",
           "継続検討",
-          "<ruby>改<rt>あら</rt></ruby>善必要",
+          "<ruby>改善<rt>かいぜん</rt></ruby>必要",
           "成功"],
         "answer": 1,
         "id": "N2-11-089",
@@ -12070,7 +12070,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "概要理解",
-        "text": "討<ruby>論<rt>ろん</rt></ruby>を聞いています。主な対立点は何ですか。（54）",
+        "text": "<ruby>討論<rt>とうろん</rt></ruby>を聞いています。主な対立点は何ですか。（54）",
         "question": "対立点は何ですか。",
         "options": ["方法",
           "費用",
@@ -12087,13 +12087,13 @@ window.MOCK_DATA['N2'] = {
         "options": ["注意事項",
           "日程",
           "場所",
-          "申<ruby>込<rt>こ</rt></ruby>方法"],
+          "<ruby>申込<rt>もうしこみ</rt></ruby>方法"],
         "answer": 1,
         "id": "N2-11-091",
         "script": "<ruby>今回<rt>こんかい</rt></ruby>お伝えしたいのは日程についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。【セット11問59】"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "オフィスで「今日は暑いですね」と言われました。（問121）",
         "question": "返答は？",
         "options": ["本当ですね",
@@ -12104,7 +12104,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-11-092"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "学校で「お元気ですか」と言われました。（問122）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
@@ -12115,7 +12115,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-11-093"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "エレベーターで「ありがとうございます」と言われました。（問125）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -12126,7 +12126,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-11-096"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "電車で「初めまして」と言われました。（問124）",
         "question": "返答は？",
         "options": ["初めまして、よろしくお願いします",
@@ -12137,10 +12137,10 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-11-095"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "<ruby>廊下<rt>ろうか</rt></ruby>で「すみません」と言われました。（問126）",
         "question": "返答は？",
-        "options": ["いいえ、大<ruby>丈<rt>たけ</rt></ruby>夫です",
+        "options": ["いいえ、<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>です",
           "いいえ、行きません",
           "はい、食べました",
           "わかりません"],
@@ -12148,7 +12148,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-11-097"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お店で「お久しぶりです」と言われました。（問123）",
         "question": "返答は？",
         "options": ["お久しぶりです、お変わりないですか",
@@ -12159,7 +12159,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-11-094"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "受付で「お疲れ様です」と言われました。（問127）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -12170,8 +12170,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-11-098"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "会議室で「失<ruby>礼<rt>れい</rt></ruby>します」と言われました。（問128）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "会議室で「<ruby>失礼<rt>しつれい</rt></ruby>します」と言われました。（問128）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
           "どうぞ",
@@ -12181,7 +12181,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-11-099"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "オフィスで「よろしくお願いします」と言われました。（問129）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -12192,7 +12192,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-11-100"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "学校で「おはようございます」と言われました。（問130）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -12203,7 +12203,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-11-101"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お店で「こんにちは」と言われました。（問131）",
         "question": "返答は？",
         "options": ["こんにちは",
@@ -12214,7 +12214,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-11-102"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "電車で「こんばんは」と言われました。（問132）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -12275,7 +12275,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>こうひょう</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["細かい",
@@ -12285,7 +12285,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>はいく</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["監査報告書",
@@ -12295,7 +12295,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>めぐみ</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["恵み",
@@ -12305,7 +12305,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>ししゃ</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["検品",
@@ -12315,7 +12315,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>かんかつさいばんしょ</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["間食",
@@ -12379,7 +12379,7 @@ window.MOCK_DATA['N2'] = {
         "text": "会社が成長するの意味は？",
         "question": "意味が近いのは？",
         "options": ["ディスクロージャー",
-          "要<ruby>求<rt>もと</rt></ruby>",
+          "<ruby>要求<rt>ようきゅう</rt></ruby>",
           "環境アセスメント",
           "発展"],
         "answer": 3
@@ -12389,7 +12389,7 @@ window.MOCK_DATA['N2'] = {
         "text": "計画を承認するの意味は？",
         "question": "意味が近いのは？",
         "options": ["<ruby>労働者<rt>ろうどうしゃ</rt></ruby>",
-          "<ruby>匂<rt>にお</rt></ruby>い",
+          "<ruby>匂い<rt>におい</rt></ruby>",
           "認める",
           "疑い"],
         "answer": 2
@@ -12410,8 +12410,8 @@ window.MOCK_DATA['N2'] = {
         "question": "意味が近いのは？",
         "options": ["語り",
           "利益",
-          "<ruby>高齢者<rt>こうれいしゃ</rt></ruby>福<ruby>祉<rt>し</rt></ruby>",
-          "<ruby>既<rt>すで</rt></ruby>に"],
+          "<ruby>高齢者<rt>こうれいしゃ</rt></ruby><ruby>福祉<rt>ふくし</rt></ruby>",
+          "<ruby>既に<rt>すでに</rt></ruby>"],
         "answer": 1
       },
       {
@@ -12432,7 +12432,7 @@ window.MOCK_DATA['N2'] = {
         "question": "（　）に入るのは？",
         "options": ["に",
           "ほど",
-          "に<ruby>即<rt>そく</rt></ruby>して",
+          "に<ruby>即して<rt>そくして</rt></ruby>",
           "が"],
         "answer": 0,
         "id": "N2-12-033"
@@ -12505,7 +12505,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "たとえ反対されて（　）、やり<ruby>遂<rt>とる</rt></ruby>げる。",
+        "text": "たとえ反対されて（　）、やり<ruby>遂げる<rt>とげる</rt></ruby>。",
         "question": "（　）に入るのは？",
         "options": ["といえども",
           "であっても",
@@ -12527,7 +12527,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>の態度（　）、<ruby>怪<rt>かい</rt></ruby>しい。",
+        "text": "<ruby>彼<rt>かれ</rt></ruby>の態度（　）、<ruby>怪しい<rt>あやしい</rt></ruby>。",
         "question": "（　）に入るのは？",
         "options": ["について",
           "からして",
@@ -12549,7 +12549,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "お金がない（　）、<ruby>諦<rt>てい</rt></ruby>めるな。",
+        "text": "お金がない（　）、<ruby>諦める<rt>あきらめる</rt></ruby>な。",
         "question": "（　）に入るのは？",
         "options": ["であっても",
           "からといって",
@@ -12571,12 +12571,12 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問357（N4レベル）】次の語句を正しい順序に並べてください：一<ruby>緒<rt>お</rt></ruby>に / 友達と / 行きたい / <ruby>旅行<rt>りょこう</rt></ruby>に / です",
+        "text": "【ビジネス・問357（N4レベル）】次の語句を正しい順序に並べてください：<ruby>一緒<rt>いっしょ</rt></ruby>に / 友達と / 行きたい / <ruby>旅行<rt>りょこう</rt></ruby>に / です",
         "question": "正しい順序は？",
-        "options": ["です 行きたい <ruby>旅行<rt>りょこう</rt></ruby>に 一<ruby>緒<rt>お</rt></ruby>に 友達と",
-          "です 友達と 一<ruby>緒<rt>お</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい",
-          "友達と一<ruby>緒<rt>お</rt></ruby>に<ruby>旅行<rt>りょこう</rt></ruby>に行きたいです",
-          "一<ruby>緒<rt>お</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい です 友達と"],
+        "options": ["です 行きたい <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>一緒<rt>いっしょ</rt></ruby>に 友達と",
+          "です 友達と <ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい",
+          "友達と<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>旅行<rt>りょこう</rt></ruby>に行きたいです",
+          "<ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい です 友達と"],
         "answer": 1,
         "id": "N2-12-046"
       },
@@ -12615,7 +12615,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文章の文法",
-        "text": "困難（　）乗り<ruby>越<rt>こ</rt></ruby>え、目標を達成した。（356）",
+        "text": "困難（　）乗り<ruby>越<rt>こえる</rt></ruby>え、目標を達成した。（356）",
         "question": "（　）に入るのは？",
         "options": ["で",
           "から",
@@ -12626,7 +12626,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文章の文法",
-        "text": "専門<ruby>家<rt>いえ</rt></ruby>（　）意見を聞く必要がある。（357）",
+        "text": "<ruby>専門家<rt>せんもんか</rt></ruby>（　）意見を聞く必要がある。（357）",
         "question": "（　）に入るのは？",
         "options": ["による",
           "の",
@@ -12697,7 +12697,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["<ruby>通勤<rt>つうきん</rt></ruby>",
           "休めない",
           "コミュニケーション不足",
-          "<ruby>給<rt>きゅう</rt></ruby>料減"],
+          "<ruby>給料<rt>きゅうりょう</rt></ruby>減"],
         "answer": 2,
         "id": "N2-12-057"
       },
@@ -12714,7 +12714,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "教育では知識詰め<ruby>込<rt>こ</rt></ruby>みより考える力を養うことが重視されている。（問60）",
+        "text": "教育では知識詰め<ruby>込<rt>こむ</rt></ruby>みより考える力を養うことが重視されている。（問60）",
         "question": "重視されているのは何か。",
         "options": ["<ruby>芸術<rt>げいじゅつ</rt></ruby>",
           "体力",
@@ -12772,20 +12772,20 @@ window.MOCK_DATA['N2'] = {
         "text": "働き方<ruby>改革<rt>かいかく</rt></ruby>では<ruby>労働<rt>ろうどう</rt></ruby>時間短縮だけでなく生産性向上が重要だ。多様な働き方も認めるべきだ。（問104）",
         "question": "重要なのは何か。",
         "options": ["時間短縮だけ",
-          "休み増<ruby>加<rt>くわ</rt></ruby>",
+          "休み<ruby>増加<rt>ぞうか</rt></ruby>",
           "生産性向上と多様性",
-          "<ruby>給<rt>きゅう</rt></ruby>料アップ"],
+          "<ruby>給料<rt>きゅうりょう</rt></ruby>アップ"],
         "answer": 2,
         "id": "N2-12-064"
       },
       {
         "type": "読解（中文）",
-        "text": "教育では知識詰め<ruby>込<rt>こ</rt></ruby>みから思考力重視への転換が<ruby>求<rt>もと</rt></ruby>められている。社会で<ruby>活躍<rt>かつやく</rt></ruby>できる<ruby>人材育成<rt>じんざいいくせい</rt></ruby>が目標だ。（問105）",
-        "question": "<ruby>求<rt>もと</rt></ruby>められているのは何か。",
+        "text": "教育では知識詰め<ruby>込<rt>こむ</rt></ruby>みから思考力重視への転換が<ruby>求<rt>もとめる</rt></ruby>められている。社会で<ruby>活躍<rt>かつやく</rt></ruby>できる<ruby>人材育成<rt>じんざいいくせい</rt></ruby>が目標だ。（問105）",
+        "question": "<ruby>求<rt>もとめる</rt></ruby>められているのは何か。",
         "options": ["不要",
           "思考力重視",
           "テスト重視",
-          "知識詰め<ruby>込<rt>こ</rt></ruby>み"],
+          "知識詰め<ruby>込<rt>こむ</rt></ruby>み"],
         "answer": 1,
         "id": "N2-12-065"
       },
@@ -12827,24 +12827,24 @@ window.MOCK_DATA['N2'] = {
         "text": "【A】<ruby>長時間労働<rt>ちょうじかんろうどう</rt></ruby>は<ruby>成果<rt>せいか</rt></ruby>につながる。【B】効率的に働くことも重要だ。",
         "question": "分かることは何か。",
         "options": ["効率が重要",
-          "短時間が<ruby>良<rt>りょう</rt></ruby>い",
-          "長時間が<ruby>良<rt>りょう</rt></ruby>い",
-          "働かなくて<ruby>良<rt>りょう</rt></ruby>い"],
+          "短時間が<ruby>良い<rt>よい</rt></ruby>",
+          "長時間が<ruby>良い<rt>よい</rt></ruby>",
+          "働かなくて<ruby>良い<rt>よい</rt></ruby>"],
         "answer": 2,
         "id": "N2-12-069",
-        "script": "話者A：この問題については、長時間が<ruby>良<rt>りょう</rt></ruby>いという点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：はい。その通りだと思います。"
+        "script": "話者A：この問題については、長時間が<ruby>良い<rt>よい</rt></ruby>という点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：はい。その通りだと思います。"
       },
       {
         "type": "統合理解",
         "text": "【A】若者の発想は<ruby>斬新<rt>ざんしん</rt></ruby>だ。【B】経験者の知恵は<ruby>貴重<rt>きちょう</rt></ruby>だ。",
         "question": "分かることは何か。",
-        "options": ["若者が<ruby>良<rt>りょう</rt></ruby>い",
+        "options": ["若者が<ruby>良い<rt>よい</rt></ruby>",
           "両方価値がある",
-          "経験者が<ruby>良<rt>りょう</rt></ruby>い",
+          "経験者が<ruby>良い<rt>よい</rt></ruby>",
           "どちらも不要"],
         "answer": 0,
         "id": "N2-12-070",
-        "script": "話者A：この問題については、若者が<ruby>良<rt>りょう</rt></ruby>いという点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：ええ。その通りだと思います。"
+        "script": "話者A：この問題については、若者が<ruby>良い<rt>よい</rt></ruby>という点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：ええ。その通りだと思います。"
       },
       {
         "type": "主張理解（長文）",
@@ -12859,8 +12859,8 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "専門性と<ruby>幅<rt>はば</rt></ruby>広い知識の両方が<ruby>求<rt>もと</rt></ruby>められる時代だ。深い専門知識と広い視野を持つT<ruby>型<rt>かた</rt></ruby><ruby>人材<rt>じんざい</rt></ruby>が<ruby>活躍<rt>かつやく</rt></ruby>する。",
-        "question": "<ruby>求<rt>もと</rt></ruby>められる<ruby>人材<rt>じんざい</rt></ruby>は何か。",
+        "text": "専門性と<ruby>幅<rt>はば</rt></ruby>広い知識の両方が<ruby>求<rt>もとめる</rt></ruby>められる時代だ。深い専門知識と広い視野を持つT<ruby>型<rt>かたい</rt></ruby><ruby>人材<rt>じんざい</rt></ruby>が<ruby>活躍<rt>かつやく</rt></ruby>する。",
+        "question": "<ruby>求<rt>もとめる</rt></ruby>められる<ruby>人材<rt>じんざい</rt></ruby>は何か。",
         "options": ["どちらも不要",
           "<ruby>幅<rt>はば</rt></ruby>広いだけ",
           "両方持つ<ruby>人材<rt>じんざい</rt></ruby>",
@@ -12880,7 +12880,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-12-073"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
         "text": "【カラオケ】平日昼500円/時間、夜800円/時間。土日祝1,000円/時間。飲み放題プラス500円。",
         "question": "正しいのは何か。",
         "options": ["土日祝500円",
@@ -12891,7 +12891,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-12-074"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
         "text": "【<ruby>家<rt>いえ</rt></ruby>電量販店】ポイント還元10%。配送無料（3,000円以上）。設置工事別<ruby>途<rt>と</rt></ruby>。",
         "question": "正しいのは何か。",
         "options": ["配送有料",
@@ -12902,7 +12902,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-12-075"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "美容師と客が話しています。美容師はこのあと何をしますか。（56）",
         "question": "何をしますか。",
         "options": ["雑誌を持ってくる",
@@ -12914,19 +12914,19 @@ window.MOCK_DATA['N2'] = {
         "script": "男：それでは、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：シャンプーをしていただけますか。\n女：<ruby>了解<rt>りょうかい</rt></ruby>です、すぐに対応します。【セット12問44】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "配達員と客が話しています。客はこのあと何をしますか。（57）",
         "question": "何をしますか。",
         "options": ["中身を確認する",
           "サインをする",
-          "代金を<ruby>払<rt>はら</rt></ruby>う",
+          "代金を<ruby>払う<rt>はらう</rt></ruby>",
           "再配達を依頼する"],
         "answer": 2,
         "id": "N2-12-077",
-        "script": "男：えーと、この件について進め方を検討しましょう。\n女：そうですか、何をすればよいでしょうか。\n男：まず代金を<ruby>払<rt>はら</rt></ruby>うください。\n女：承知しました。よろしくお願いします。【セット12問45】"
+        "script": "男：えーと、この件について進め方を検討しましょう。\n女：そうですか、何をすればよいでしょうか。\n男：まず代金を<ruby>払う<rt>はらう</rt></ruby>ください。\n女：承知しました。よろしくお願いします。【セット12問45】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "ホテルのフロントと客が話しています。客はこのあと何をしますか。（58）",
         "question": "何をしますか。",
         "options": ["チェックインする",
@@ -12938,10 +12938,10 @@ window.MOCK_DATA['N2'] = {
         "script": "男：次の段階に進む準備ができましたね。\n女：あのう、はい、何から始めましょうか。\n男：チェックインしてください。\n女：うん。お願いします。【セット12問46】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "電話で話しています。電話を受けた人は何をしますか。（59）",
         "question": "何をしますか。",
-        "options": ["メールで<ruby>連絡<rt>れんらく</rt></ruby>する",
+        "options": ["メールで<ruby>連絡する<rt>れんらくする</rt></ruby>",
           "担当者に取り次ぐ",
           "折り返し電話する",
           "伝言を残す"],
@@ -12950,16 +12950,16 @@ window.MOCK_DATA['N2'] = {
         "script": "男：すみません、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：担当者に取り次ぐいただけますか。\n女：はい、すぐに対応します。【セット12問47】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "ジムのスタッフと客が話しています。客はこのあと何をしますか。（60）",
         "question": "何をしますか。",
-        "options": ["着<ruby>替<rt>か</rt></ruby>える",
+        "options": ["<ruby>着替え<rt>きがえ</rt></ruby>る",
           "プランを変更する",
           "トレーナーに相談する",
           "マシンを使う"],
         "answer": 0,
         "id": "N2-12-080",
-        "script": "男：ちょっと、この件について進め方を検討しましょう。\n女：ええ、何をすればよいでしょうか。\n男：まず着<ruby>替<rt>か</rt></ruby>えるください。\n女：承知しました。早速取りかかります。【セット12問48】"
+        "script": "男：ちょっと、この件について進め方を検討しましょう。\n女：ええ、何をすればよいでしょうか。\n男：まず<ruby>着替え<rt>きがえ</rt></ruby>るください。\n女：承知しました。早速取りかかります。【セット12問48】"
       },
       {
         "type": "ポイント理解",
@@ -12975,7 +12975,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "ポイント理解",
-        "text": "ラジオを聞いています。専門<ruby>家<rt>いえ</rt></ruby>が心配しているのは何ですか。（68）",
+        "text": "ラジオを聞いています。<ruby>専門家<rt>せんもんか</rt></ruby>が心配しているのは何ですか。（68）",
         "question": "心配しているのは？",
         "options": ["経済への影響",
           "健康への影響",
@@ -13001,9 +13001,9 @@ window.MOCK_DATA['N2'] = {
         "type": "ポイント理解",
         "text": "スピーチを聞いています。話者が<ruby>感謝<rt>かんしゃ</rt></ruby>しているのは何ですか。（70）",
         "question": "<ruby>感謝<rt>かんしゃ</rt></ruby>しているのは？",
-        "options": ["同<ruby>僚<rt>りょう</rt></ruby>の協力",
+        "options": ["<ruby>同僚<rt>どうりょう</rt></ruby>の協力",
           "顧客の信頼",
-          "<ruby>家<rt>いえ</rt></ruby>族の理解",
+          "<ruby>家族<rt>かぞく</rt></ruby>の理解",
           "周囲の支援"],
         "answer": 3,
         "id": "N2-12-084",
@@ -13015,8 +13015,8 @@ window.MOCK_DATA['N2'] = {
         "question": "解決策は何ですか。",
         "options": ["研修実<ruby>施<rt>ほどこ</rt></ruby>",
           "ルール変更",
-          "システム<ruby>改<rt>あら</rt></ruby>善",
-          "人員増<ruby>加<rt>くわ</rt></ruby>"],
+          "システム<ruby>改善<rt>かいぜん</rt></ruby>",
+          "人員<ruby>増加<rt>ぞうか</rt></ruby>"],
         "answer": 1,
         "id": "N2-12-085",
         "script": "ルール変更が最も重要な要素です。様々な観点から検討しましたが、私はこう確信しています。【セット12問53】"
@@ -13076,7 +13076,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["関係者",
           "一般人",
           "学生",
-          "専門<ruby>家<rt>いえ</rt></ruby>"],
+          "<ruby>専門家<rt>せんもんか</rt></ruby>"],
         "answer": 2,
         "id": "N2-12-090",
         "script": "本日の主題は学生についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。"
@@ -13094,8 +13094,8 @@ window.MOCK_DATA['N2'] = {
         "script": "<ruby>今回<rt>こんかい</rt></ruby>お伝えしたいのは都市についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。【セット12問59】"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "エレベーターで「お先に失<ruby>礼<rt>れい</rt></ruby>します」と言われました。（問133）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "エレベーターで「お先に<ruby>失礼<rt>しつれい</rt></ruby>します」と言われました。（問133）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
           "わかりません",
@@ -13105,7 +13105,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-12-092"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "<ruby>廊下<rt>ろうか</rt></ruby>で「いってきます」と言われました。（問134）",
         "question": "返答は？",
         "options": ["いってらっしゃい",
@@ -13116,7 +13116,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-12-093"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "受付で「ただいま」と言われました。（問135）",
         "question": "返答は？",
         "options": ["おかえりなさい",
@@ -13127,7 +13127,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-12-094"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "会議室で「今日は暑いですね」と言われました。（問136）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -13138,7 +13138,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-12-095"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "オフィスで「お元気ですか」と言われました。（問137）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -13149,7 +13149,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-12-096"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お店で「初めまして」と言われました。（問139）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -13160,7 +13160,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-12-098"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "学校で「お久しぶりです」と言われました。（問138）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -13171,7 +13171,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-12-097"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "電車で「ありがとうございます」と言われました。（問140）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -13182,19 +13182,19 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-12-099"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "エレベーターで「すみません」と言われました。（問141）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
-          "いいえ、大<ruby>丈<rt>たけ</rt></ruby>夫です",
+          "いいえ、<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>です",
           "はい、食べました",
           "わかりません"],
         "answer": 0,
         "id": "N2-12-100"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "受付で「失<ruby>礼<rt>れい</rt></ruby>します」と言われました。（問143）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "受付で「<ruby>失礼<rt>しつれい</rt></ruby>します」と言われました。（問143）",
         "question": "返答は？",
         "options": ["はい、食べました",
           "どうぞ",
@@ -13204,7 +13204,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-12-102"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "<ruby>廊下<rt>ろうか</rt></ruby>で「お疲れ様です」と言われました。（問142）",
         "question": "返答は？",
         "options": ["お疲れ様です",
@@ -13215,7 +13215,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-12-101"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "会議室で「よろしくお願いします」と言われました。（問144）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
@@ -13276,7 +13276,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>こうたい</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["生産する",
@@ -13286,7 +13286,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>にんかせい</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["時差",
@@ -13296,7 +13296,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>めんせきじこう</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["巧妙",
@@ -13306,17 +13306,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>しく</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["空っぽ",
           "高度",
-          "<ruby>敷<rt>しめる</rt></ruby>く",
+          "<ruby>敷く<rt>しく</rt></ruby>",
           "来る"],
         "answer": 2
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>しろ</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["適用する",
@@ -13379,7 +13379,7 @@ window.MOCK_DATA['N2'] = {
         "type": "言い換え",
         "text": "<ruby>競合<rt>きょうごう</rt></ruby>他社と争うの意味は？",
         "question": "意味が近いのは？",
-        "options": ["<ruby>競<rt>きそ</rt></ruby>争相手",
+        "options": ["<ruby>競争<rt>きょうそう</rt></ruby>相手",
           "地点",
           "資金調達",
           "経営"],
@@ -13389,7 +13389,7 @@ window.MOCK_DATA['N2'] = {
         "type": "言い換え",
         "text": "提案を検討するの意味は？",
         "question": "意味が近いのは？",
-        "options": ["<ruby>考慮<rt>こうりょ</rt></ruby>する",
+        "options": ["<ruby>考慮する<rt>こうりょする</rt></ruby>",
           "企業統治",
           "体力",
           "築年数"],
@@ -13397,7 +13397,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "データを<ruby>分析<rt>ぶんせき</rt></ruby>するの意味は？",
+        "text": "データを<ruby>分析する<rt>ぶんせきする</rt></ruby>の意味は？",
         "question": "意味が近いのは？",
         "options": ["<ruby>解析<rt>かいせき</rt></ruby>する",
           "EdTech",
@@ -13506,7 +13506,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "許される（　）なら、もう一度やり<ruby>直<rt>なお</rt></ruby>したい。",
+        "text": "許される（　）なら、もう一度やり<ruby>直<rt>なおす</rt></ruby>したい。",
         "question": "（　）に入るのは？",
         "options": ["ところ",
           "もの",
@@ -13561,23 +13561,23 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【日常会話・問361（N5レベル）】次の語句を正しい順序に並べてください：私は / 図書館で / 読みました / 本を / <ruby>昨<rt>さく</rt></ruby>日",
+        "text": "【日常会話・問361（N5レベル）】次の語句を正しい順序に並べてください：私は / 図書館で / 読みました / 本を / <ruby>昨日<rt>きのう</rt></ruby>",
         "question": "正しい順序は？",
-        "options": ["読みました 私は <ruby>昨<rt>さく</rt></ruby>日 図書館で 本を",
-          "<ruby>昨<rt>さく</rt></ruby>日 図書館で 本を 読みました 私は",
-          "私は<ruby>昨<rt>さく</rt></ruby>日図書館で本を読みました",
-          "読みました 本を 図書館で <ruby>昨<rt>さく</rt></ruby>日 私は"],
+        "options": ["読みました 私は <ruby>昨日<rt>きのう</rt></ruby> 図書館で 本を",
+          "<ruby>昨日<rt>きのう</rt></ruby> 図書館で 本を 読みました 私は",
+          "私は<ruby>昨日<rt>きのう</rt></ruby>図書館で本を読みました",
+          "読みました 本を 図書館で <ruby>昨日<rt>きのう</rt></ruby> 私は"],
         "answer": 2,
         "id": "N2-13-045"
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問362（N4レベル）】次の語句を正しい順序に並べてください：毎朝 / します / 公園を / 散歩 / <ruby>彼<rt>かれ</rt></ruby>女は",
+        "text": "【ビジネス・問362（N4レベル）】次の語句を正しい順序に並べてください：毎朝 / します / 公園を / 散歩 / <ruby>彼女<rt>かのじょ</rt></ruby>は",
         "question": "正しい順序は？",
-        "options": ["します <ruby>彼<rt>かれ</rt></ruby>女は 毎朝 公園を 散歩",
-          "します 散歩 公園を 毎朝 <ruby>彼<rt>かれ</rt></ruby>女は",
-          "毎朝 公園を 散歩 します <ruby>彼<rt>かれ</rt></ruby>女は",
-          "<ruby>彼<rt>かれ</rt></ruby>女は毎朝公園を散歩します"],
+        "options": ["します <ruby>彼女<rt>かのじょ</rt></ruby>は 毎朝 公園を 散歩",
+          "します 散歩 公園を 毎朝 <ruby>彼女<rt>かのじょ</rt></ruby>は",
+          "毎朝 公園を 散歩 します <ruby>彼女<rt>かのじょ</rt></ruby>は",
+          "<ruby>彼女<rt>かのじょ</rt></ruby>は毎朝公園を散歩します"],
         "answer": 1,
         "id": "N2-13-046"
       },
@@ -13652,7 +13652,7 @@ window.MOCK_DATA['N2'] = {
         "text": "情報化社会では情報を正しく判断する力が重要である。（問61）",
         "question": "重要なのは何か。",
         "options": ["計算力",
-          "<ruby>記憶<rt>きおく</rt></ruby>力",
+          "<ruby>記憶力<rt>きおくりょく</rt></ruby>",
           "情報収集",
           "正しく判断する力"],
         "answer": 3,
@@ -13671,11 +13671,11 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "多様性を認め合う社会の実現が<ruby>求<rt>もと</rt></ruby>められている。（問62）",
-        "question": "<ruby>求<rt>もと</rt></ruby>められているのは何か。",
+        "text": "多様性を認め合う社会の実現が<ruby>求<rt>もとめる</rt></ruby>められている。（問62）",
+        "question": "<ruby>求<rt>もとめる</rt></ruby>められているのは何か。",
         "options": ["均一性",
           "多様性を認める社会",
-          "<ruby>競<rt>きそ</rt></ruby>争社会",
+          "<ruby>競争<rt>きょうそう</rt></ruby>社会",
           "<ruby>閉鎖<rt>へいさ</rt></ruby>社会"],
         "answer": 1,
         "id": "N2-13-056"
@@ -13731,18 +13731,18 @@ window.MOCK_DATA['N2'] = {
         "options": ["全員が<ruby>活躍<rt>かつやく</rt></ruby>できる",
           "同じ人だけ",
           "<ruby>閉鎖<rt>へいさ</rt></ruby>社会",
-          "<ruby>競<rt>きそ</rt></ruby>争社会"],
+          "<ruby>競争<rt>きょうそう</rt></ruby>社会"],
         "answer": 0,
         "id": "N2-13-060"
       },
       {
         "type": "読解（中文）",
-        "text": "時間<ruby>管理<rt>かんり</rt></ruby>では優先順<ruby>位<rt>くら</rt></ruby>をつけ重要な仕事から取り組む。<ruby>完璧<rt>かんぺき</rt></ruby>を<ruby>求<rt>もと</rt></ruby>めすぎないことも大切だ。（問110）",
+        "text": "時間<ruby>管理<rt>かんり</rt></ruby>では<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>をつけ重要な仕事から取り組む。<ruby>完璧<rt>かんぺき</rt></ruby>を<ruby>求<rt>もとめる</rt></ruby>めすぎないことも大切だ。（問110）",
         "question": "大切なのは何か。",
         "options": ["<ruby>完璧<rt>かんぺき</rt></ruby>主義",
           "全部同時",
-          "後<ruby>回<rt>まわ</rt></ruby>し",
-          "優先順<ruby>位<rt>くら</rt></ruby>"],
+          "<ruby>後回し<rt>あとまわし</rt></ruby>",
+          "<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>"],
         "answer": 3,
         "id": "N2-13-061"
       },
@@ -13764,7 +13764,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["恥ずかしい",
           "成功へのステップ",
           "無意味",
-          "<ruby>避<rt>さ</rt></ruby>ける"],
+          "<ruby>避ける<rt>さける</rt></ruby>"],
         "answer": 1,
         "id": "N2-13-063"
       },
@@ -13785,7 +13785,7 @@ window.MOCK_DATA['N2'] = {
         "question": "大切なのは何か。",
         "options": ["強みを活かす",
           "一人で頑張る",
-          "<ruby>競<rt>きそ</rt></ruby>争",
+          "<ruby>競争<rt>きょうそう</rt></ruby>",
           "命令"],
         "answer": 0,
         "id": "N2-13-065"
@@ -13825,15 +13825,15 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "統合理解",
-        "text": "【A】自社開発は技術が<ruby>蓄<rt>たくわ</rt></ruby>積される。【B】外注は専門<ruby>家<rt>いえ</rt></ruby>に任せられる。",
+        "text": "【A】自社開発は技術が<ruby>蓄<rt>たくわ</rt></ruby>積される。【B】外注は<ruby>専門家<rt>せんもんか</rt></ruby>に任せられる。",
         "question": "分かることは何か。",
-        "options": ["それぞれ<ruby>良<rt>りょう</rt></ruby>い点がある",
+        "options": ["それぞれ<ruby>良い<rt>よい</rt></ruby>点がある",
           "どちらも悪い",
-          "自社が<ruby>良<rt>りょう</rt></ruby>い",
-          "外注が<ruby>良<rt>りょう</rt></ruby>い"],
+          "自社が<ruby>良い<rt>よい</rt></ruby>",
+          "外注が<ruby>良い<rt>よい</rt></ruby>"],
         "answer": 2,
         "id": "N2-13-069",
-        "script": "話者A：この問題については、自社が<ruby>良<rt>りょう</rt></ruby>いという点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：はい。その通りだと思います。"
+        "script": "話者A：この問題については、自社が<ruby>良い<rt>よい</rt></ruby>という点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：はい。その通りだと思います。"
       },
       {
         "type": "統合理解",
@@ -13863,9 +13863,9 @@ window.MOCK_DATA['N2'] = {
         "text": "目標設定は達成への第一歩だ。具体的で測定可能な目標を立てることが成功の確率を高める。",
         "question": "目標設定について正しいのは何か。",
         "options": ["不要",
-          "高すぎるほど<ruby>良<rt>りょう</rt></ruby>い",
+          "高すぎるほど<ruby>良い<rt>よい</rt></ruby>",
           "<ruby>曖昧<rt>あいまい</rt></ruby>でよい",
-          "具体的が<ruby>良<rt>りょう</rt></ruby>い"],
+          "具体的が<ruby>良い<rt>よい</rt></ruby>"],
         "answer": 0,
         "id": "N2-13-072"
       },
@@ -13876,12 +13876,12 @@ window.MOCK_DATA['N2'] = {
         "options": ["挑戦",
           "休息",
           "安定",
-          "<ruby>競<rt>きそ</rt></ruby>争"],
+          "<ruby>競争<rt>きょうそう</rt></ruby>"],
         "answer": 1,
         "id": "N2-13-073"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
         "text": "【タクシー】初乗り500円（1.5km）、以降80円/300m。深夜割増20%。",
         "question": "正しいのは何か。",
         "options": ["初乗り1,000円",
@@ -13892,7 +13892,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-13-074"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
         "text": "【温泉<ruby>施設<rt>しせつ</rt></ruby>】大人1,200円、子供600円。タオルレンタル200円。営業10-22時。",
         "question": "正しいのは何か。",
         "options": ["タオル無料",
@@ -13903,7 +13903,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-13-075"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "男の人と女の人が話しています。男の人はこのあとまず何をしますか。（61）",
         "question": "まず何をしますか。",
         "options": ["メールを送る",
@@ -13915,7 +13915,7 @@ window.MOCK_DATA['N2'] = {
         "script": "男：それでは、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：会議室を予約していただけますか。\n女：<ruby>了解<rt>りょうかい</rt></ruby>です、すぐに対応します。【セット13問44】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "女の人と男の人が話しています。女の人はこのあと何をしますか。（62）",
         "question": "何をしますか。",
         "options": ["会議に出席する",
@@ -13927,11 +13927,11 @@ window.MOCK_DATA['N2'] = {
         "script": "男：えーと、この件について進め方を検討しましょう。\n女：そうですか、何をすればよいでしょうか。\n男：まず会議に出席してください。\n女：承知しました。よろしくお願いします。【セット13問45】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "店員と客が話しています。客はこのあと何をしますか。（63）",
         "question": "何をしますか。",
         "options": ["店を出る",
-          "支<ruby>払<rt>はら</rt></ruby>いをする",
+          "<ruby>支払い<rt>しはらい</rt></ruby>をする",
           "注文を変更する",
           "別の店を探す"],
         "answer": 3,
@@ -13939,19 +13939,19 @@ window.MOCK_DATA['N2'] = {
         "script": "男：次の段階に進む準備ができましたね。\n女：あのう、はい、何から始めましょうか。\n男：別の店を探すください。\n女：うん。お願いします。【セット13問46】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "先生と学生が話しています。学生はこのあと何をしますか。（64）",
         "question": "何をしますか。",
         "options": ["友達に聞く",
-          "レポートを書き<ruby>直<rt>なお</rt></ruby>す",
+          "レポートを書き<ruby>直す<rt>なおす</rt></ruby>",
           "図書館で調べる",
           "先生に質問する"],
         "answer": 1,
         "id": "N2-13-079",
-        "script": "男：すみません、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：レポートを書き<ruby>直<rt>なお</rt></ruby>すいただけますか。\n女：はい、すぐに対応します。【セット13問47】"
+        "script": "男：すみません、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：レポートを書き<ruby>直す<rt>なおす</rt></ruby>いただけますか。\n女：はい、すぐに対応します。【セット13問47】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "医者と患者が話しています。患者はこのあと何をしますか。（65）",
         "question": "何をしますか。",
         "options": ["運動する",
@@ -13988,7 +13988,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "ポイント理解",
-        "text": "討<ruby>論<rt>ろん</rt></ruby>を聞いています。反対意見の<ruby>根拠<rt>こんきょ</rt></ruby>は何ですか。（75）",
+        "text": "<ruby>討論<rt>とうろん</rt></ruby>を聞いています。反対意見の<ruby>根拠<rt>こんきょ</rt></ruby>は何ですか。（75）",
         "question": "<ruby>根拠<rt>こんきょ</rt></ruby>は何ですか。",
         "options": ["<ruby>効果<rt>こうか</rt></ruby>不明",
           "実現困難",
@@ -14015,12 +14015,12 @@ window.MOCK_DATA['N2'] = {
         "text": "放送を聞いています。<ruby>主催<rt>しゅさい</rt></ruby>者が呼びかけているのは何ですか。（77）",
         "question": "呼びかけているのは？",
         "options": ["注意",
-          "参<ruby>加<rt>くわ</rt></ruby>",
+          "<ruby>参加<rt>さんか</rt></ruby>",
           "協力",
           "理解"],
         "answer": 1,
         "id": "N2-13-085",
-        "script": "参<ruby>加<rt>くわ</rt></ruby>が最も重要な要素です。様々な観点から検討しましたが、私はこう確信しています。【セット13問53】"
+        "script": "<ruby>参加<rt>さんか</rt></ruby>が最も重要な要素です。様々な観点から検討しましたが、私はこう確信しています。【セット13問53】"
       },
       {
         "type": "ポイント理解",
@@ -14065,7 +14065,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["<ruby>趣味<rt>しゅみ</rt></ruby>",
           "将来",
           "キャリア",
-          "<ruby>家<rt>いえ</rt></ruby>族"],
+          "<ruby>家族<rt>かぞく</rt></ruby>"],
         "answer": 2,
         "id": "N2-13-089",
         "script": "今日の話題はキャリアについてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。【セット13問57】"
@@ -14095,7 +14095,7 @@ window.MOCK_DATA['N2'] = {
         "script": "<ruby>今回<rt>こんかい</rt></ruby>お伝えしたいのは教育についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。【セット13問59】"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "オフィスで「おはようございます」と言われました。（問145）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -14106,7 +14106,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-13-092"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "学校で「こんにちは」と言われました。（問146）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -14117,7 +14117,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-13-093"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お店で「こんばんは」と言われました。（問147）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -14128,8 +14128,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-13-094"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "電車で「お先に失<ruby>礼<rt>れい</rt></ruby>します」と言われました。（問148）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "電車で「お先に<ruby>失礼<rt>しつれい</rt></ruby>します」と言われました。（問148）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
           "はい、食べました",
@@ -14139,7 +14139,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-13-095"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "エレベーターで「いってきます」と言われました。（問149）",
         "question": "返答は？",
         "options": ["いってらっしゃい",
@@ -14150,7 +14150,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-13-096"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "<ruby>廊下<rt>ろうか</rt></ruby>で「ただいま」と言われました。（問150）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -14161,7 +14161,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-13-097"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "受付で「今日は暑いですね」と言われました。（問151）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -14172,7 +14172,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-13-098"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "会議室で「お元気ですか」と言われました。（問152）",
         "question": "返答は？",
         "options": ["おかげさまで元気です",
@@ -14183,7 +14183,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-13-099"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "オフィスで「お久しぶりです」と言われました。（問153）",
         "question": "返答は？",
         "options": ["お久しぶりです、お変わりないですか",
@@ -14194,7 +14194,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-13-100"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "学校で「初めまして」と言われました。（問154）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -14205,7 +14205,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-13-101"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お店で「ありがとうございます」と言われました。（問155）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -14216,12 +14216,12 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-13-102"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "電車で「すみません」と言われました。（問156）",
         "question": "返答は？",
         "options": ["はい、食べました",
           "わかりません",
-          "いいえ、大<ruby>丈<rt>たけ</rt></ruby>夫です",
+          "いいえ、<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>です",
           "いいえ、行きません"],
         "answer": 2,
         "id": "N2-13-103"
@@ -14277,7 +14277,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>かんれんがいしゃ</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["不利",
@@ -14287,7 +14287,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>おいつく</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["追いつく",
@@ -14297,7 +14297,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>ほうりつか</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["作る",
@@ -14307,7 +14307,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>ひかんぜいしょうへき</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["非<ruby>関税障壁<rt>かんぜいしょうへき</rt></ruby>",
@@ -14317,7 +14317,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>ちょくせつみんしゅせい</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["所在",
@@ -14398,7 +14398,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "品質を<ruby>改<rt>あら</rt></ruby>善するの意味は？",
+        "text": "品質を<ruby>改善<rt>かいぜん</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": ["<ruby>結論<rt>けつろん</rt></ruby>",
           "<ruby>旅行<rt>りょこう</rt></ruby>",
@@ -14422,7 +14422,7 @@ window.MOCK_DATA['N2'] = {
         "question": "意味が近いのは？",
         "options": ["完全",
           "問い合わせ",
-          "付<ruby>加<rt>くわ</rt></ruby>価値",
+          "<ruby>付加価値<rt>ふかかち</rt></ruby>",
           "チェックする"],
         "answer": 3
       }
@@ -14664,7 +14664,7 @@ window.MOCK_DATA['N2'] = {
         "text": "予想（　）、売り上げは減少した。（370）",
         "question": "（　）に入るのは？",
         "options": ["に反して",
-          "に<ruby>沿<rt>そ</rt></ruby>って",
+          "に<ruby>沿って<rt>そって</rt></ruby>",
           "どおり",
           "通り"],
         "answer": 0,
@@ -14685,8 +14685,8 @@ window.MOCK_DATA['N2'] = {
         "type": "読解（短文）",
         "text": "チームワークでは強みを活かし弱みを<ruby>補<rt>おぎな</rt></ruby>い合うことが大切だ。（問67）",
         "question": "大切なのは何か。",
-        "options": ["強みと弱みを<ruby>補<rt>おぎな</rt></ruby>う",
-          "<ruby>競<rt>きそ</rt></ruby>争",
+        "options": ["強みと弱みを<ruby>補う<rt>おぎなう</rt></ruby>",
+          "<ruby>競争<rt>きょうそう</rt></ruby>",
           "命令",
           "一人で頑張る"],
         "answer": 0,
@@ -14716,12 +14716,12 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "時間<ruby>管理<rt>かんり</rt></ruby>では優先順<ruby>位<rt>くら</rt></ruby>をつけることが基本である。（問70）",
+        "text": "時間<ruby>管理<rt>かんり</rt></ruby>では<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>をつけることが基本である。（問70）",
         "question": "基本は何か。",
-        "options": ["後<ruby>回<rt>まわ</rt></ruby>し",
+        "options": ["<ruby>後回し<rt>あとまわし</rt></ruby>",
           "全部同時",
           "<ruby>完璧<rt>かんぺき</rt></ruby>主義",
-          "優先順<ruby>位<rt>くら</rt></ruby>"],
+          "<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>"],
         "answer": 3,
         "id": "N2-14-059"
       },
@@ -14741,20 +14741,20 @@ window.MOCK_DATA['N2'] = {
         "text": "働き方<ruby>改革<rt>かいかく</rt></ruby>では<ruby>労働<rt>ろうどう</rt></ruby>時間短縮だけでなく生産性向上が重要だ。多様な働き方も認めるべきだ。（問119）",
         "question": "重要なのは何か。",
         "options": ["時間短縮だけ",
-          "<ruby>給<rt>きゅう</rt></ruby>料アップ",
-          "休み増<ruby>加<rt>くわ</rt></ruby>",
+          "<ruby>給料<rt>きゅうりょう</rt></ruby>アップ",
+          "休み<ruby>増加<rt>ぞうか</rt></ruby>",
           "生産性向上と多様性"],
         "answer": 3,
         "id": "N2-14-061"
       },
       {
         "type": "読解（中文）",
-        "text": "教育では知識詰め<ruby>込<rt>こ</rt></ruby>みから思考力重視への転換が<ruby>求<rt>もと</rt></ruby>められている。社会で<ruby>活躍<rt>かつやく</rt></ruby>できる<ruby>人材育成<rt>じんざいいくせい</rt></ruby>が目標だ。（問120）",
-        "question": "<ruby>求<rt>もと</rt></ruby>められているのは何か。",
+        "text": "教育では知識詰め<ruby>込<rt>こむ</rt></ruby>みから思考力重視への転換が<ruby>求<rt>もとめる</rt></ruby>められている。社会で<ruby>活躍<rt>かつやく</rt></ruby>できる<ruby>人材育成<rt>じんざいいくせい</rt></ruby>が目標だ。（問120）",
+        "question": "<ruby>求<rt>もとめる</rt></ruby>められているのは何か。",
         "options": ["思考力重視",
           "不要",
           "テスト重視",
-          "知識詰め<ruby>込<rt>こ</rt></ruby>み"],
+          "知識詰め<ruby>込<rt>こむ</rt></ruby>み"],
         "answer": 0,
         "id": "N2-14-062"
       },
@@ -14795,7 +14795,7 @@ window.MOCK_DATA['N2'] = {
         "type": "読解（中文）",
         "text": "多様性を尊重する社会では全ての人が<ruby>活躍<rt>かつやく</rt></ruby>できる。違いを強みとして活かすことが重要だ。（問124）",
         "question": "多様性社会とは何か。",
-        "options": ["<ruby>競<rt>きそ</rt></ruby>争社会",
+        "options": ["<ruby>競争<rt>きょうそう</rt></ruby>社会",
           "<ruby>閉鎖<rt>へいさ</rt></ruby>社会",
           "同じ人だけ",
           "全員が<ruby>活躍<rt>かつやく</rt></ruby>できる"],
@@ -14803,7 +14803,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-14-066"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "エレベーターで「ただいま」と言われました。（問165）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
@@ -14861,7 +14861,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "デジタル化は<ruby>避<rt>さ</rt></ruby>けられない流れだ。しかし全てをデジタルにする必要はなく<ruby>適材適所<rt>てきざいてきしょ</rt></ruby>で使い分けることが重要だ。",
+        "text": "デジタル化は<ruby>避<rt>さける</rt></ruby>けられない流れだ。しかし全てをデジタルにする必要はなく<ruby>適材適所<rt>てきざいてきしょ</rt></ruby>で使い分けることが重要だ。",
         "question": "デジタル化について正しいのは何か。",
         "options": ["<ruby>適材適所<rt>てきざいてきしょ</rt></ruby>",
           "アナログのみ",
@@ -14882,18 +14882,18 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-14-073"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
-        "text": "【パソコン教室】入門コース月4<ruby>回<rt>まわ</rt></ruby>8,000円、応用コース月4<ruby>回<rt>まわ</rt></ruby>12,000円。テキスト代2,000円。",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
+        "text": "【パソコン教室】入門コース月4<ruby>回<rt>まわす</rt></ruby>8,000円、応用コース月4<ruby>回<rt>まわす</rt></ruby>12,000円。テキスト代2,000円。",
         "question": "正しいのは何か。",
         "options": ["テキスト無料",
           "応用10,000円",
           "テキスト5,000円",
-          "入門コース月4<ruby>回<rt>まわ</rt></ruby>8,000円"],
+          "入門コース月4<ruby>回<rt>まわす</rt></ruby>8,000円"],
         "answer": 1,
         "id": "N2-14-074"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
         "text": "【ネイルサロン】ジェルネイル6,000円、アート1本500円<ruby>追加<rt>ついか</rt></ruby>。完全予約制。",
         "question": "正しいのは何か。",
         "options": ["ジェル3,000円",
@@ -14904,10 +14904,10 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-14-075"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "上司と部下が話しています。部下はこのあと何をしますか。（66）",
         "question": "何をしますか。",
-        "options": ["クライアントに<ruby>連絡<rt>れんらく</rt></ruby>する",
+        "options": ["クライアントに<ruby>連絡する<rt>れんらくする</rt></ruby>",
           "データを確認する",
           "会議を設定する",
           "報告書を作成する"],
@@ -14916,7 +14916,7 @@ window.MOCK_DATA['N2'] = {
         "script": "男：それでは、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：データを確認していただけますか。\n女：<ruby>了解<rt>りょうかい</rt></ruby>です、すぐに対応します。【セット14問44】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "受付と来客が話しています。来客はこのあと何をしますか。（67）",
         "question": "何をしますか。",
         "options": ["電話をする",
@@ -14928,19 +14928,19 @@ window.MOCK_DATA['N2'] = {
         "script": "男：えーと、この件について進め方を検討しましょう。\n女：そうですか、何をすればよいでしょうか。\n男：まず書類に<ruby>記入<rt>きにゅう</rt></ruby>してください。\n女：承知しました。よろしくお願いします。【セット14問45】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "<ruby>旅行<rt>りょこう</rt></ruby>会社の人と客が話しています。客はこのあと何をしますか。（68）",
         "question": "何をしますか。",
         "options": ["別のプランを選ぶ",
           "予約をキャンセルする",
           "パンフレットを見る",
-          "<ruby>追加<rt>ついか</rt></ruby>料金を<ruby>払<rt>はら</rt></ruby>う"],
+          "<ruby>追加<rt>ついか</rt></ruby>料金を<ruby>払う<rt>はらう</rt></ruby>"],
         "answer": 2,
         "id": "N2-14-078",
         "script": "男：次の段階に進む準備ができましたね。\n女：あのう、はい、何から始めましょうか。\n男：パンフレットを見るください。\n女：うん。お願いします。【セット14問46】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "銀行員と客が話しています。客はこのあと何をしますか。（69）",
         "question": "何をしますか。",
         "options": ["窓口で待つ",
@@ -14952,12 +14952,12 @@ window.MOCK_DATA['N2'] = {
         "script": "男：すみません、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：書類に<ruby>記入<rt>きにゅう</rt></ruby>していただけますか。\n女：はい、すぐに対応します。【セット14問47】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "不動産屋と客が話しています。客はこのあと何をしますか。（70）",
         "question": "何をしますか。",
         "options": ["保証人を探す",
           "契約書を確認する",
-          "引っ<ruby>越<rt>こ</rt></ruby>し日を決める",
+          "<ruby>引っ越し<rt>ひっこし</rt></ruby>日を決める",
           "物件を見に行く"],
         "answer": 3,
         "id": "N2-14-080",
@@ -14982,10 +14982,10 @@ window.MOCK_DATA['N2'] = {
         "options": ["対策の遅れ",
           "<ruby>範囲<rt>はんい</rt></ruby>の<ruby>拡大<rt>かくだい</rt></ruby>",
           "<ruby>被害<rt>ひがい</rt></ruby>の<ruby>甚大<rt>じんだい</rt></ruby>さ",
-          "数字の増<ruby>加<rt>くわ</rt></ruby>"],
+          "数字の<ruby>増加<rt>ぞうか</rt></ruby>"],
         "answer": 3,
         "id": "N2-14-082",
-        "script": "数字の増<ruby>加<rt>くわ</rt></ruby>が最も重要な要素です。様々な観点から検討しましたが、これが最も重要です。【セット14問50】"
+        "script": "数字の<ruby>増加<rt>ぞうか</rt></ruby>が最も重要な要素です。様々な観点から検討しましたが、これが最も重要です。【セット14問50】"
       },
       {
         "type": "ポイント理解",
@@ -15096,7 +15096,7 @@ window.MOCK_DATA['N2'] = {
         "script": "<ruby>今回<rt>こんかい</rt></ruby>お伝えしたいのは過去の経験についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。【セット14問59】"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "エレベーターで「お疲れ様です」と言われました。（問157）",
         "question": "返答は？",
         "options": ["お疲れ様です",
@@ -15107,8 +15107,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-14-092"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "<ruby>廊下<rt>ろうか</rt></ruby>で「失<ruby>礼<rt>れい</rt></ruby>します」と言われました。（問158）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "<ruby>廊下<rt>ろうか</rt></ruby>で「<ruby>失礼<rt>しつれい</rt></ruby>します」と言われました。（問158）",
         "question": "返答は？",
         "options": ["どうぞ",
           "いいえ、行きません",
@@ -15118,7 +15118,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-14-093"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "会議室で「おはようございます」と言われました。（問160）",
         "question": "返答は？",
         "options": ["おはようございます",
@@ -15129,7 +15129,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-14-095"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "受付で「よろしくお願いします」と言われました。（問159）",
         "question": "返答は？",
         "options": ["こちらこそよろしくお願いします",
@@ -15140,7 +15140,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-14-094"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "オフィスで「こんにちは」と言われました。（問161）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -15151,7 +15151,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-14-096"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "学校で「こんばんは」と言われました。（問162）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -15162,7 +15162,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-14-097"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "電車で「いってきます」と言われました。（問164）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -15173,8 +15173,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-14-099"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "お店で「お先に失<ruby>礼<rt>れい</rt></ruby>します」と言われました。（問163）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "お店で「お先に<ruby>失礼<rt>しつれい</rt></ruby>します」と言われました。（問163）",
         "question": "返答は？",
         "options": ["わかりません",
           "いいえ、行きません",
@@ -15184,7 +15184,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-14-098"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "受付で「お元気ですか」と言われました。（問167）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -15195,7 +15195,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-14-102"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "<ruby>廊下<rt>ろうか</rt></ruby>で「今日は暑いですね」と言われました。（問166）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -15207,17 +15207,17 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（中文）",
-        "text": "時間<ruby>管理<rt>かんり</rt></ruby>では優先順<ruby>位<rt>くら</rt></ruby>をつけ重要な仕事から取り組む。<ruby>完璧<rt>かんぺき</rt></ruby>を<ruby>求<rt>もと</rt></ruby>めすぎないことも大切だ。（問125）",
+        "text": "時間<ruby>管理<rt>かんり</rt></ruby>では<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>をつけ重要な仕事から取り組む。<ruby>完璧<rt>かんぺき</rt></ruby>を<ruby>求<rt>もとめる</rt></ruby>めすぎないことも大切だ。（問125）",
         "question": "大切なのは何か。",
-        "options": ["優先順<ruby>位<rt>くら</rt></ruby>",
-          "後<ruby>回<rt>まわ</rt></ruby>し",
+        "options": ["<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>",
+          "<ruby>後回し<rt>あとまわし</rt></ruby>",
           "全部同時",
           "<ruby>完璧<rt>かんぺき</rt></ruby>主義"],
         "answer": 0,
         "id": "N2-14-067"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "会議室で「お久しぶりです」と言われました。（問168）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -15278,7 +15278,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>そうしき</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["年寄り",
@@ -15288,7 +15288,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>せいけんうんえい</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["生産する",
@@ -15298,7 +15298,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>じさ</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["付く",
@@ -15308,17 +15308,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>こうみょう</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["追い<ruby>越<rt>こ</rt></ruby>す",
+        "options": ["<ruby>追い越す<rt>おいこす</rt></ruby>",
           "進む",
           "支出",
           "巧妙"],
         "answer": 3
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>こうど</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["特売",
@@ -15379,17 +15379,17 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "<ruby>状況<rt>じょうきょう</rt></ruby>を<ruby>把握<rt>はあく</rt></ruby>するの意味は？",
+        "text": "<ruby>状況<rt>じょうきょう</rt></ruby>を<ruby>把握する<rt>はあくする</rt></ruby>の意味は？",
         "question": "意味が近いのは？",
         "options": ["理解する",
           "開発<ruby>委託<rt>いたく</rt></ruby>",
-          "入<ruby>荷<rt>にな</rt></ruby>",
+          "<ruby>入荷<rt>にゅうか</rt></ruby>",
           "<ruby>廃止<rt>はいし</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "言い換え",
-        "text": "コストを<ruby>削減<rt>さくげん</rt></ruby>するの意味は？",
+        "text": "コストを<ruby>削減する<rt>さくげんする</rt></ruby>の意味は？",
         "question": "意味が近いのは？",
         "options": ["減らす",
           "本格",
@@ -15399,7 +15399,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "<ruby>交渉<rt>こうしょう</rt></ruby>することが大切だの意味は？",
+        "text": "<ruby>交渉する<rt>こうしょうする</rt></ruby>ことが大切だの意味は？",
         "question": "意味が近いのは？",
         "options": ["話し合う",
           "<ruby>遠慮<rt>えんりょ</rt></ruby>",
@@ -15442,7 +15442,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "危機（　）<ruby>直<rt>なお</rt></ruby>面している。",
+        "text": "危機（　）<ruby>直面<rt>ちょくめん</rt></ruby>している。",
         "question": "（　）に入るのは？",
         "options": ["で",
           "ので",
@@ -15464,10 +15464,10 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "現実（　）<ruby>直<rt>なお</rt></ruby>面しなければならない。",
+        "text": "現実（　）<ruby>直面<rt>ちょくめん</rt></ruby>しなければならない。",
         "question": "（　）に入るのは？",
         "options": ["以上",
-          "に<ruby>即<rt>そく</rt></ruby>して",
+          "に<ruby>即して<rt>そくして</rt></ruby>",
           "まで",
           "に"],
         "answer": 3,
@@ -15508,7 +15508,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>希<rt>き</rt></ruby>望（　）満ちた未来。",
+        "text": "<ruby>希望<rt>きぼう</rt></ruby>（　）満ちた未来。",
         "question": "（　）に入るのは？",
         "options": ["ばかり",
           "まで",
@@ -15519,7 +15519,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>女は医者で（　）、<ruby>作家<rt>さっか</rt></ruby>でもある。",
+        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は医者で（　）、<ruby>作家<rt>さっか</rt></ruby>でもある。",
         "question": "（　）に入るのは？",
         "options": ["あるのに",
           "ありつつ",
@@ -15552,7 +15552,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>女は医者で（ 　）、<ruby>作家<rt>さっか</rt></ruby>でもある。",
+        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は医者で（ 　）、<ruby>作家<rt>さっか</rt></ruby>でもある。",
         "question": "（　）に入るのは？",
         "options": ["あって",
           "ありつつ",
@@ -15574,12 +15574,12 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問372（N4レベル）】次の語句を正しい順序に並べてください：です / 一<ruby>緒<rt>お</rt></ruby>に / <ruby>旅行<rt>りょこう</rt></ruby>に / 行きたい / 友達と",
+        "text": "【ビジネス・問372（N4レベル）】次の語句を正しい順序に並べてください：です / <ruby>一緒<rt>いっしょ</rt></ruby>に / <ruby>旅行<rt>りょこう</rt></ruby>に / 行きたい / 友達と",
         "question": "正しい順序は？",
-        "options": ["友達と一<ruby>緒<rt>お</rt></ruby>に<ruby>旅行<rt>りょこう</rt></ruby>に行きたいです",
-          "です 行きたい <ruby>旅行<rt>りょこう</rt></ruby>に 一<ruby>緒<rt>お</rt></ruby>に 友達と",
-          "一<ruby>緒<rt>お</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい です 友達と",
-          "です 友達と 一<ruby>緒<rt>お</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい"],
+        "options": ["友達と<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>旅行<rt>りょこう</rt></ruby>に行きたいです",
+          "です 行きたい <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>一緒<rt>いっしょ</rt></ruby>に 友達と",
+          "<ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい です 友達と",
+          "です 友達と <ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい"],
         "answer": 0,
         "id": "N2-15-046"
       },
@@ -15721,7 +15721,7 @@ window.MOCK_DATA['N2'] = {
         "question": "失敗について正しいのは何か。",
         "options": ["恥ずかしい",
           "成功へのステップ",
-          "<ruby>避<rt>さ</rt></ruby>けるべき",
+          "<ruby>避ける<rt>さける</rt></ruby>べき",
           "無意味"],
         "answer": 1,
         "id": "N2-15-059"
@@ -15744,7 +15744,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["恥ずかしい",
           "成功へのステップ",
           "無意味",
-          "<ruby>避<rt>さ</rt></ruby>ける"],
+          "<ruby>避ける<rt>さける</rt></ruby>"],
         "answer": 1,
         "id": "N2-15-060"
       },
@@ -15753,7 +15753,7 @@ window.MOCK_DATA['N2'] = {
         "text": "チームワークは組織の成功に欠かせない。強みを活かし弱みを<ruby>補<rt>おぎな</rt></ruby>い合うことが大切だ。（問129）",
         "question": "大切なのは何か。",
         "options": ["一人で頑張る",
-          "<ruby>競<rt>きそ</rt></ruby>争",
+          "<ruby>競争<rt>きょうそう</rt></ruby>",
           "強みを活かす",
           "命令"],
         "answer": 2,
@@ -15807,18 +15807,18 @@ window.MOCK_DATA['N2'] = {
         "type": "読解（中文）",
         "text": "働き方<ruby>改革<rt>かいかく</rt></ruby>では<ruby>労働<rt>ろうどう</rt></ruby>時間短縮だけでなく生産性向上が重要だ。多様な働き方も認めるべきだ。（問134）",
         "question": "重要なのは何か。",
-        "options": ["<ruby>給<rt>きゅう</rt></ruby>料アップ",
+        "options": ["<ruby>給料<rt>きゅうりょう</rt></ruby>アップ",
           "時間短縮だけ",
           "生産性向上と多様性",
-          "休み増<ruby>加<rt>くわ</rt></ruby>"],
+          "休み<ruby>増加<rt>ぞうか</rt></ruby>"],
         "answer": 2,
         "id": "N2-15-067"
       },
       {
         "type": "読解（中文）",
-        "text": "教育では知識詰め<ruby>込<rt>こ</rt></ruby>みから思考力重視への転換が<ruby>求<rt>もと</rt></ruby>められている。社会で<ruby>活躍<rt>かつやく</rt></ruby>できる<ruby>人材育成<rt>じんざいいくせい</rt></ruby>が目標だ。（問135）",
-        "question": "<ruby>求<rt>もと</rt></ruby>められているのは何か。",
-        "options": ["知識詰め<ruby>込<rt>こ</rt></ruby>み",
+        "text": "教育では知識詰め<ruby>込<rt>こむ</rt></ruby>みから思考力重視への転換が<ruby>求<rt>もとめる</rt></ruby>められている。社会で<ruby>活躍<rt>かつやく</rt></ruby>できる<ruby>人材育成<rt>じんざいいくせい</rt></ruby>が目標だ。（問135）",
+        "question": "<ruby>求<rt>もとめる</rt></ruby>められているのは何か。",
+        "options": ["知識詰め<ruby>込<rt>こむ</rt></ruby>み",
           "思考力重視",
           "テスト重視",
           "不要"],
@@ -15827,10 +15827,10 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "統合理解",
-        "text": "【A】<ruby>理論<rt>りろん</rt></ruby>は<ruby>基礎<rt>きそ</rt></ruby>として重要だ。【B】実<ruby>践<rt>せん</rt></ruby>で身につくことも多い。",
+        "text": "【A】<ruby>理論<rt>りろん</rt></ruby>は<ruby>基礎<rt>きそ</rt></ruby>として重要だ。【B】<ruby>実践<rt>じっせん</rt></ruby>で身につくことも多い。",
         "question": "分かることは何か。",
         "options": ["どちらも不要",
-          "実<ruby>践<rt>せん</rt></ruby>だけ",
+          "<ruby>実践<rt>じっせん</rt></ruby>だけ",
           "<ruby>理論<rt>りろん</rt></ruby>だけ",
           "両方重要"],
         "answer": 2,
@@ -15864,7 +15864,7 @@ window.MOCK_DATA['N2'] = {
         "type": "主張理解（長文）",
         "text": "<ruby>人脈<rt>じんみゃく</rt></ruby>は量より質が重要だ。深い信頼関係を築ける人が何人いるかが大切だ。",
         "question": "<ruby>人脈<rt>じんみゃく</rt></ruby>について正しいのは何か。",
-        "options": ["多いほど<ruby>良<rt>りょう</rt></ruby>い",
+        "options": ["多いほど<ruby>良い<rt>よい</rt></ruby>",
           "不要",
           "質が大事",
           "量が大事"],
@@ -15873,17 +15873,17 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "健康投資は最も効率の<ruby>良<rt>りょう</rt></ruby>い投資だ。健康でなければ何も始まらない。",
+        "text": "健康投資は最も効率の<ruby>良い<rt>よい</rt></ruby>投資だ。健康でなければ何も始まらない。",
         "question": "健康について正しいのは何か。",
         "options": ["お金があれば解決",
           "最も重要な投資",
           "運",
-          "後<ruby>回<rt>まわ</rt></ruby>しでよい"],
+          "<ruby>後回し<rt>あとまわし</rt></ruby>でよい"],
         "answer": 0,
         "id": "N2-15-073"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
         "text": "【フィットネスクラブ】月額12,000円。プール・ジム利用可。タオル無料。ロッカー月500円。",
         "question": "正しいのは何か。",
         "options": ["タオル無料",
@@ -15894,7 +15894,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-15-074"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
         "text": "【居酒屋】飲み放題2時間2,000円。食べ放題3,500円。コース料理4,000円から。",
         "question": "正しいのは何か。",
         "options": ["食べ放題2,000円",
@@ -15905,8 +15905,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-15-075"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
-        "text": "同<ruby>僚<rt>りょう</rt></ruby>同士が話しています。男の人はこのあと何をしますか。（71）",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
+        "text": "<ruby>同僚<rt>どうりょう</rt></ruby>同士が話しています。男の人はこのあと何をしますか。（71）",
         "question": "何をしますか。",
         "options": ["資料を<ruby>印<rt>しるし</rt></ruby><ruby>刷<rt>さつ</rt></ruby>する",
           "上司に報告する",
@@ -15917,7 +15917,7 @@ window.MOCK_DATA['N2'] = {
         "script": "男：それでは、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：資料を<ruby>印<rt>しるし</rt></ruby><ruby>刷<rt>さつ</rt></ruby>していただけますか。\n女：<ruby>了解<rt>りょうかい</rt></ruby>です、すぐに対応します。【セット15問44】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "友人同士が話しています。女の人はこのあと何をしますか。（72）",
         "question": "何をしますか。",
         "options": ["レストランを予約する",
@@ -15929,7 +15929,7 @@ window.MOCK_DATA['N2'] = {
         "script": "男：えーと、この件について進め方を検討しましょう。\n女：そうですか、何をすればよいでしょうか。\n男：まず駅で待ち合わせるください。\n女：承知しました。よろしくお願いします。【セット15問45】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "親子が話しています。子供はこのあと何をしますか。（73）",
         "question": "何をしますか。",
         "options": ["お風呂に入る",
@@ -15941,7 +15941,7 @@ window.MOCK_DATA['N2'] = {
         "script": "男：次の段階に進む準備ができましたね。\n女：あのう、はい、何から始めましょうか。\n男：宿題をしてください。\n女：うん。お願いします。【セット15問46】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "店員と客が話しています。店員はこのあと何をしますか。（74）",
         "question": "何をしますか。",
         "options": ["上司を呼ぶ",
@@ -15953,24 +15953,24 @@ window.MOCK_DATA['N2'] = {
         "script": "男：すみません、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：在庫を確認していただけますか。\n女：はい、すぐに対応します。【セット15問47】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "教授と学生が話しています。学生は何をすべきですか。（75）",
         "question": "何をすべきですか。",
         "options": ["参考文献を<ruby>追加<rt>ついか</rt></ruby>する",
-          "データを再<ruby>分析<rt>ぶんせき</rt></ruby>する",
+          "データを再<ruby>分析する<rt>ぶんせきする</rt></ruby>",
           "構成を変更する",
-          "<ruby>結論<rt>けつろん</rt></ruby>を書き<ruby>直<rt>なお</rt></ruby>す"],
+          "<ruby>結論<rt>けつろん</rt></ruby>を書き<ruby>直す<rt>なおす</rt></ruby>"],
         "answer": 0,
         "id": "N2-15-080",
         "script": "男：ちょっと、この件について進め方を検討しましょう。\n女：ええ、何をすればよいでしょうか。\n男：まず参考文献を<ruby>追加<rt>ついか</rt></ruby>してください。\n女：承知しました。早速取りかかります。【セット15問48】"
       },
       {
         "type": "ポイント理解",
-        "text": "会議を聞いています。今後の<ruby>課題<rt>かだい</rt></ruby>として<ruby>挙<rt>あ</rt></ruby>げられているのは何ですか。（85）",
+        "text": "会議を聞いています。今後の<ruby>課題<rt>かだい</rt></ruby>として<ruby>挙<rt>あう</rt></ruby>げられているのは何ですか。（85）",
         "question": "<ruby>課題<rt>かだい</rt></ruby>は何ですか。",
         "options": ["納<ruby>期<rt>き</rt></ruby>短縮",
           "品質向上",
-          "コスト<ruby>削減<rt>さくげん</rt></ruby>",
+          "<ruby>コスト削減<rt>こすとさくげん</rt></ruby>",
           "<ruby>人材育成<rt>じんざいいくせい</rt></ruby>"],
         "answer": 1,
         "id": "N2-15-081",
@@ -15981,7 +15981,7 @@ window.MOCK_DATA['N2'] = {
         "text": "プレゼンを聞いています。この提案のメリットは何ですか。（86）",
         "question": "メリットは何ですか。",
         "options": ["顧客満足度向上",
-          "コスト<ruby>削減<rt>さくげん</rt></ruby>",
+          "<ruby>コスト削減<rt>こすとさくげん</rt></ruby>",
           "効率化",
           "リスク低減"],
         "answer": 2,
@@ -16002,7 +16002,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "ポイント理解",
-        "text": "ラジオを聞いています。専門<ruby>家<rt>いえ</rt></ruby>が心配しているのは何ですか。（88）",
+        "text": "ラジオを聞いています。<ruby>専門家<rt>せんもんか</rt></ruby>が心配しているのは何ですか。（88）",
         "question": "心配しているのは？",
         "options": ["経済への影響",
           "社会への影響",
@@ -16028,8 +16028,8 @@ window.MOCK_DATA['N2'] = {
         "type": "ポイント理解",
         "text": "スピーチを聞いています。話者が<ruby>感謝<rt>かんしゃ</rt></ruby>しているのは何ですか。（90）",
         "question": "<ruby>感謝<rt>かんしゃ</rt></ruby>しているのは？",
-        "options": ["<ruby>家<rt>いえ</rt></ruby>族の理解",
-          "同<ruby>僚<rt>りょう</rt></ruby>の協力",
+        "options": ["<ruby>家族<rt>かぞく</rt></ruby>の理解",
+          "<ruby>同僚<rt>どうりょう</rt></ruby>の協力",
           "顧客の信頼",
           "周囲の支援"],
         "answer": 3,
@@ -16066,7 +16066,7 @@ window.MOCK_DATA['N2'] = {
         "question": "<ruby>結論<rt>けつろん</rt></ruby>は何ですか。",
         "options": ["継続検討",
           "成功",
-          "<ruby>改<rt>あら</rt></ruby>善必要",
+          "<ruby>改善<rt>かいぜん</rt></ruby>必要",
           "中止"],
         "answer": 1,
         "id": "N2-15-089",
@@ -16074,7 +16074,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "概要理解",
-        "text": "討<ruby>論<rt>ろん</rt></ruby>を聞いています。主な対立点は何ですか。（74）",
+        "text": "<ruby>討論<rt>とうろん</rt></ruby>を聞いています。主な対立点は何ですか。（74）",
         "question": "対立点は何ですか。",
         "options": ["<ruby>時期<rt>じき</rt></ruby>",
           "目的",
@@ -16088,7 +16088,7 @@ window.MOCK_DATA['N2'] = {
         "type": "概要理解",
         "text": "案内を聞いています。この案内は主に何を伝えていますか。（75）",
         "question": "伝えているのは？",
-        "options": ["申<ruby>込<rt>こ</rt></ruby>方法",
+        "options": ["<ruby>申込<rt>もうしこみ</rt></ruby>方法",
           "日程",
           "場所",
           "注意事項"],
@@ -16097,7 +16097,7 @@ window.MOCK_DATA['N2'] = {
         "script": "<ruby>今回<rt>こんかい</rt></ruby>お伝えしたいのは日程についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。【セット15問59】"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "オフィスで「初めまして」と言われました。（問169）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -16108,7 +16108,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-15-092"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "学校で「ありがとうございます」と言われました。（問170）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
@@ -16119,10 +16119,10 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-15-093"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お店で「すみません」と言われました。（問171）",
         "question": "返答は？",
-        "options": ["いいえ、大<ruby>丈<rt>たけ</rt></ruby>夫です",
+        "options": ["いいえ、<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>です",
           "いいえ、行きません",
           "はい、食べました",
           "わかりません"],
@@ -16130,7 +16130,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-15-094"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "電車で「お疲れ様です」と言われました。（問172）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
@@ -16141,8 +16141,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-15-095"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "エレベーターで「失<ruby>礼<rt>れい</rt></ruby>します」と言われました。（問173）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "エレベーターで「<ruby>失礼<rt>しつれい</rt></ruby>します」と言われました。（問173）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
           "はい、食べました",
@@ -16152,7 +16152,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-15-096"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "<ruby>廊下<rt>ろうか</rt></ruby>で「よろしくお願いします」と言われました。（問174）",
         "question": "返答は？",
         "options": ["こちらこそよろしくお願いします",
@@ -16163,7 +16163,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-15-097"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "受付で「おはようございます」と言われました。（問175）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
@@ -16174,7 +16174,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-15-098"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "会議室で「こんにちは」と言われました。（問176）",
         "question": "返答は？",
         "options": ["こんにちは",
@@ -16185,7 +16185,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-15-099"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "オフィスで「こんばんは」と言われました。（問177）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
@@ -16196,8 +16196,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-15-100"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "学校で「お先に失<ruby>礼<rt>れい</rt></ruby>します」と言われました。（問178）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "学校で「お先に<ruby>失礼<rt>しつれい</rt></ruby>します」と言われました。（問178）",
         "question": "返答は？",
         "options": ["わかりません",
           "はい、食べました",
@@ -16207,7 +16207,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-15-101"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お店で「いってきます」と言われました。（問179）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -16218,7 +16218,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-15-102"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "電車で「ただいま」と言われました。（問180）",
         "question": "返答は？",
         "options": ["おかえりなさい",
@@ -16279,17 +16279,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>てきようする</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["適用する",
           "様々な",
           "現れ",
-          "<ruby>埋<rt>う</rt></ruby>まる"],
+          "<ruby>埋まる<rt>うまる</rt></ruby>"],
         "answer": 0
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>こうきゅうてきな</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["配る",
@@ -16299,7 +16299,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>ぶんかつする</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["健全な",
@@ -16309,23 +16309,23 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>かんさほうこくしょ</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["作る",
           "繰り下げる",
           "監査報告書",
-          "<ruby>補<rt>おぎな</rt></ruby>う"],
+          "<ruby>補う<rt>おぎなう</rt></ruby>"],
         "answer": 2
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>さいきんけんさ</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["細菌検査",
           "学習指導",
           "正社員",
-          "<ruby>暫定的<rt>ざんていてき</rt></ruby>な"],
+          "<ruby>暫定的な<rt>ざんていてきな</rt></ruby>"],
         "answer": 0
       },
       {
@@ -16384,16 +16384,16 @@ window.MOCK_DATA['N2'] = {
         "question": "正しい使い方は？",
         "options": ["子供に深い<ruby>愛情<rt>あいじょう</rt></ruby>を注ぐ",
           "<ruby>彼<rt>かれ</rt></ruby>は相変わらず元気だ",
-          "<ruby>曖昧<rt>あいまい</rt></ruby>な態度を取る",
-          "交通事故に<ruby>遭<rt>あ</rt></ruby>う"],
+          "<ruby>曖昧な<rt>あいまいな</rt></ruby>態度を取る",
+          "交通事故に<ruby>遭う<rt>あう</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "用法",
         "text": "「相変わらず」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
-        "options": ["交通事故に<ruby>遭<rt>あ</rt></ruby>う",
-          "<ruby>曖昧<rt>あいまい</rt></ruby>な態度を取る",
+        "options": ["交通事故に<ruby>遭う<rt>あう</rt></ruby>",
+          "<ruby>曖昧な<rt>あいまいな</rt></ruby>態度を取る",
           "<ruby>彼<rt>かれ</rt></ruby>は相変わらず元気だ",
           "不安を煽る報道"],
         "answer": 2
@@ -16402,18 +16402,18 @@ window.MOCK_DATA['N2'] = {
         "type": "用法",
         "text": "「<ruby>曖昧<rt>あいまい</rt></ruby>」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
-        "options": ["交通事故に<ruby>遭<rt>あ</rt></ruby>う",
-          "<ruby>曖昧<rt>あいまい</rt></ruby>な態度を取る",
+        "options": ["交通事故に<ruby>遭う<rt>あう</rt></ruby>",
+          "<ruby>曖昧な<rt>あいまいな</rt></ruby>態度を取る",
           "不安を煽る報道",
           "相手チームを<ruby>圧倒<rt>あっとう</rt></ruby>する"],
         "answer": 1
       },
       {
         "type": "用法",
-        "text": "「<ruby>遭<rt>あ</rt></ruby>う」の使い方として正しいのはどれか。",
+        "text": "「<ruby>遭う<rt>あう</rt></ruby>」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["不安を煽る報道",
-          "交通事故に<ruby>遭<rt>あ</rt></ruby>う",
+          "交通事故に<ruby>遭う<rt>あう</rt></ruby>",
           "相手チームを<ruby>圧倒<rt>あっとう</rt></ruby>する",
           "上司から圧力をかけられる"],
         "answer": 1
@@ -16432,7 +16432,7 @@ window.MOCK_DATA['N2'] = {
         "type": "用法",
         "text": "「<ruby>圧倒<rt>あっとう</rt></ruby>」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
-        "options": ["一<ruby>位<rt>くら</rt></ruby>を争う試合",
+        "options": ["一<ruby>位<rt>くらい</rt></ruby>を争う試合",
           "上司から圧力をかけられる",
           "計算の誤りを見つける",
           "相手チームを<ruby>圧倒<rt>あっとう</rt></ruby>する"],
@@ -16444,7 +16444,7 @@ window.MOCK_DATA['N2'] = {
         "question": "正しい使い方は？",
         "options": ["計算の誤りを見つける",
           "上司から圧力をかけられる",
-          "一<ruby>位<rt>くら</rt></ruby>を争う試合",
+          "一<ruby>位<rt>くらい</rt></ruby>を争う試合",
           "会社の歩みを振り返る"],
         "answer": 1
       },
@@ -16453,7 +16453,7 @@ window.MOCK_DATA['N2'] = {
         "text": "「誤り」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["会社の歩みを振り返る",
-          "一<ruby>位<rt>くら</rt></ruby>を争う試合",
+          "一<ruby>位<rt>くらい</rt></ruby>を争う試合",
           "計算の誤りを見つける",
           "体重を維持する"],
         "answer": 2
@@ -16462,7 +16462,7 @@ window.MOCK_DATA['N2'] = {
         "type": "用法",
         "text": "「争う」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
-        "options": ["一<ruby>位<rt>くら</rt></ruby>を争う試合",
+        "options": ["一<ruby>位<rt>くらい</rt></ruby>を争う試合",
           "会社の歩みを振り返る",
           "体重を維持する",
           "一応確認しておく"],
@@ -16492,7 +16492,7 @@ window.MOCK_DATA['N2'] = {
         "type": "用法",
         "text": "「一応」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
-        "options": ["会社を<ruby>訴<rt>うった</rt></ruby>える",
+        "options": ["会社を<ruby>訴える<rt>うったえる</rt></ruby>",
           "一概には言えない問題",
           "電車で移動する",
           "一応確認しておく"],
@@ -16504,7 +16504,7 @@ window.MOCK_DATA['N2'] = {
         "question": "正しい使い方は？",
         "options": ["一概には言えない問題",
           "電車で移動する",
-          "会社を<ruby>訴<rt>うった</rt></ruby>える",
+          "会社を<ruby>訴える<rt>うったえる</rt></ruby>",
           "売り上げを伸ばす"],
         "answer": 0
       },
@@ -16512,19 +16512,19 @@ window.MOCK_DATA['N2'] = {
         "type": "用法",
         "text": "「移動」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
-        "options": ["会社を<ruby>訴<rt>うった</rt></ruby>える",
+        "options": ["会社を<ruby>訴える<rt>うったえる</rt></ruby>",
           "電車で移動する",
           "売り上げを伸ばす",
-          "予想を上<ruby>回<rt>まわ</rt></ruby>る業績"],
+          "予想を<ruby>上回る<rt>うわまわる</rt></ruby>業績"],
         "answer": 1
       },
       {
         "type": "用法",
-        "text": "「<ruby>訴<rt>うった</rt></ruby>える」の使い方として正しいのはどれか。",
+        "text": "「<ruby>訴える<rt>うったえる</rt></ruby>」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["売り上げを伸ばす",
-          "会社を<ruby>訴<rt>うった</rt></ruby>える",
-          "予想を上<ruby>回<rt>まわ</rt></ruby>る業績",
+          "会社を<ruby>訴える<rt>うったえる</rt></ruby>",
+          "予想を<ruby>上回る<rt>うわまわる</rt></ruby>業績",
           "イベントを運営する"],
         "answer": 1
       },
@@ -16540,7 +16540,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "法律を<ruby>遵守<rt>じゅんしゅ</rt></ruby>するの意味は？",
+        "text": "法律を<ruby>遵守する<rt>じゅんしゅする</rt></ruby>の意味は？",
         "question": "意味が近いのは？",
         "options": ["実力",
           "<ruby>血管<rt>けっかん</rt></ruby>",
@@ -16553,8 +16553,8 @@ window.MOCK_DATA['N2'] = {
         "text": "システムを構築するの意味は？",
         "question": "意味が近いのは？",
         "options": ["実証",
-          "<ruby>高齢者<rt>こうれいしゃ</rt></ruby>福<ruby>祉<rt>し</rt></ruby>",
-          "<ruby>既<rt>すで</rt></ruby>に",
+          "<ruby>高齢者<rt>こうれいしゃ</rt></ruby><ruby>福祉<rt>ふくし</rt></ruby>",
+          "<ruby>既に<rt>すでに</rt></ruby>",
           "作る"],
         "answer": 3
       },
@@ -16604,7 +16604,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>女は医者で（　）、<ruby>作家<rt>さっか</rt></ruby>でもある。  ",
+        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は医者で（　）、<ruby>作家<rt>さっか</rt></ruby>でもある。  ",
         "question": "（　）に入るのは？",
         "options": ["ありながら",
           "あって",
@@ -16637,7 +16637,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>女は医者で（  　）、<ruby>作家<rt>さっか</rt></ruby>でもある。",
+        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は医者で（  　）、<ruby>作家<rt>さっか</rt></ruby>でもある。",
         "question": "（　）に入るのは？",
         "options": ["ありつつ",
           "あって",
@@ -16670,7 +16670,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>女は医者で（　）、<ruby>作家<rt>さっか</rt></ruby>でもある。    ",
+        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は医者で（　）、<ruby>作家<rt>さっか</rt></ruby>でもある。    ",
         "question": "（　）に入るのは？",
         "options": ["あって",
           "ありつつ",
@@ -16703,7 +16703,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>女は医者で（　）、<ruby>作家<rt>さっか</rt></ruby>でもある。      ",
+        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は医者で（　）、<ruby>作家<rt>さっか</rt></ruby>でもある。      ",
         "question": "（　）に入るのは？",
         "options": ["あって",
           "ありながら",
@@ -16714,23 +16714,23 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【日常会話・問376（N5レベル）】次の語句を正しい順序に並べてください：<ruby>昨<rt>さく</rt></ruby>日 / 読みました / 私は / 本を / 図書館で",
+        "text": "【日常会話・問376（N5レベル）】次の語句を正しい順序に並べてください：<ruby>昨日<rt>きのう</rt></ruby> / 読みました / 私は / 本を / 図書館で",
         "question": "正しい順序は？",
-        "options": ["<ruby>昨<rt>さく</rt></ruby>日 図書館で 本を 読みました 私は",
-          "読みました 本を 図書館で <ruby>昨<rt>さく</rt></ruby>日 私は",
-          "読みました 私は <ruby>昨<rt>さく</rt></ruby>日 図書館で 本を",
-          "私は<ruby>昨<rt>さく</rt></ruby>日図書館で本を読みました"],
+        "options": ["<ruby>昨日<rt>きのう</rt></ruby> 図書館で 本を 読みました 私は",
+          "読みました 本を 図書館で <ruby>昨日<rt>きのう</rt></ruby> 私は",
+          "読みました 私は <ruby>昨日<rt>きのう</rt></ruby> 図書館で 本を",
+          "私は<ruby>昨日<rt>きのう</rt></ruby>図書館で本を読みました"],
         "answer": 0,
         "id": "N2-16-045"
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問377（N4レベル）】次の語句を正しい順序に並べてください：公園を / <ruby>彼<rt>かれ</rt></ruby>女は / 散歩 / します / 毎朝",
+        "text": "【ビジネス・問377（N4レベル）】次の語句を正しい順序に並べてください：公園を / <ruby>彼女<rt>かのじょ</rt></ruby>は / 散歩 / します / 毎朝",
         "question": "正しい順序は？",
-        "options": ["<ruby>彼<rt>かれ</rt></ruby>女は毎朝公園を散歩します",
-          "毎朝 公園を 散歩 します <ruby>彼<rt>かれ</rt></ruby>女は",
-          "します 散歩 公園を 毎朝 <ruby>彼<rt>かれ</rt></ruby>女は",
-          "します <ruby>彼<rt>かれ</rt></ruby>女は 毎朝 公園を 散歩"],
+        "options": ["<ruby>彼女<rt>かのじょ</rt></ruby>は毎朝公園を散歩します",
+          "毎朝 公園を 散歩 します <ruby>彼女<rt>かのじょ</rt></ruby>は",
+          "します 散歩 公園を 毎朝 <ruby>彼女<rt>かのじょ</rt></ruby>は",
+          "します <ruby>彼女<rt>かのじょ</rt></ruby>は 毎朝 公園を 散歩"],
         "answer": 2,
         "id": "N2-16-046"
       },
@@ -16769,7 +16769,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文章の文法",
-        "text": "日本経済は<ruby>長期<rt>ちょうき</rt></ruby>にわたる<ruby>停滞<rt>ていたい</rt></ruby>（　）、<ruby>回<rt>まわ</rt></ruby>復の<ruby>兆<rt>ちょう</rt></ruby>しを見せている。（376）",
+        "text": "日本経済は<ruby>長期<rt>ちょうき</rt></ruby>にわたる<ruby>停滞<rt>ていたい</rt></ruby>（　）、<ruby>回復<rt>かいふく</rt></ruby>の<ruby>兆<rt>ちょう</rt></ruby>しを見せている。（376）",
         "question": "（　）に入るのは？",
         "options": ["を経て",
           "をもって",
@@ -16813,7 +16813,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文章の文法",
-        "text": "社会の変化（　）、教育も見<ruby>直<rt>なお</rt></ruby>しが必要だ。（380）",
+        "text": "社会の変化（　）、教育も<ruby>見直し<rt>みなおし</rt></ruby>が必要だ。（380）",
         "question": "（　）に入るのは？",
         "options": ["に伴い",
           "に関して",
@@ -16824,7 +16824,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "グローバル化が進む現代、異文化理解力が<ruby>求<rt>もと</rt></ruby>められている。文化的背景を理解することが重要だ。（問76）",
+        "text": "グローバル化が進む現代、異文化理解力が<ruby>求<rt>もとめる</rt></ruby>められている。文化的背景を理解することが重要だ。（問76）",
         "question": "筆者が言いたいことは何か。",
         "options": ["反対",
           "外国語学習",
@@ -16860,8 +16860,8 @@ window.MOCK_DATA['N2'] = {
         "text": "働き方<ruby>改革<rt>かいかく</rt></ruby>で残業が減ったが、仕事量は変わらず効率化が<ruby>課題<rt>かだい</rt></ruby>となっている。（問79）",
         "question": "<ruby>課題<rt>かだい</rt></ruby>は何か。",
         "options": ["効率化",
-          "残業増<ruby>加<rt>くわ</rt></ruby>",
-          "<ruby>給<rt>きゅう</rt></ruby>料減",
+          "残業<ruby>増加<rt>ぞうか</rt></ruby>",
+          "<ruby>給料<rt>きゅうりょう</rt></ruby>減",
           "休み減"],
         "answer": 0,
         "id": "N2-16-058"
@@ -16915,7 +16915,7 @@ window.MOCK_DATA['N2'] = {
         "text": "多様性を尊重する社会では全ての人が<ruby>活躍<rt>かつやく</rt></ruby>できる。違いを強みとして活かすことが重要だ。（問139）",
         "question": "多様性社会とは何か。",
         "options": ["同じ人だけ",
-          "<ruby>競<rt>きそ</rt></ruby>争社会",
+          "<ruby>競争<rt>きょうそう</rt></ruby>社会",
           "<ruby>閉鎖<rt>へいさ</rt></ruby>社会",
           "全員が<ruby>活躍<rt>かつやく</rt></ruby>できる"],
         "answer": 3,
@@ -16923,11 +16923,11 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（中文）",
-        "text": "時間<ruby>管理<rt>かんり</rt></ruby>では優先順<ruby>位<rt>くら</rt></ruby>をつけ重要な仕事から取り組む。<ruby>完璧<rt>かんぺき</rt></ruby>を<ruby>求<rt>もと</rt></ruby>めすぎないことも大切だ。（問140）",
+        "text": "時間<ruby>管理<rt>かんり</rt></ruby>では<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>をつけ重要な仕事から取り組む。<ruby>完璧<rt>かんぺき</rt></ruby>を<ruby>求<rt>もとめる</rt></ruby>めすぎないことも大切だ。（問140）",
         "question": "大切なのは何か。",
-        "options": ["後<ruby>回<rt>まわ</rt></ruby>し",
+        "options": ["<ruby>後回し<rt>あとまわし</rt></ruby>",
           "<ruby>完璧<rt>かんぺき</rt></ruby>主義",
-          "優先順<ruby>位<rt>くら</rt></ruby>",
+          "<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>",
           "全部同時"],
         "answer": 2,
         "id": "N2-16-064"
@@ -16948,7 +16948,7 @@ window.MOCK_DATA['N2'] = {
         "text": "失敗を恐れていては挑戦できない。失敗は成功へのステップであり学ぶことが大切だ。（問142）",
         "question": "失敗について何と言っているか。",
         "options": ["恥ずかしい",
-          "<ruby>避<rt>さ</rt></ruby>ける",
+          "<ruby>避ける<rt>さける</rt></ruby>",
           "成功へのステップ",
           "無意味"],
         "answer": 2,
@@ -16971,7 +16971,7 @@ window.MOCK_DATA['N2'] = {
         "question": "大切なのは何か。",
         "options": ["強みを活かす",
           "一人で頑張る",
-          "<ruby>競<rt>きそ</rt></ruby>争",
+          "<ruby>競争<rt>きょうそう</rt></ruby>",
           "命令"],
         "answer": 0,
         "id": "N2-16-068"
@@ -16994,11 +16994,11 @@ window.MOCK_DATA['N2'] = {
         "question": "分かることは何か。",
         "options": ["投資は不要",
           "それぞれメリットがある",
-          "集中が<ruby>良<rt>りょう</rt></ruby>い",
-          "分散が<ruby>良<rt>りょう</rt></ruby>い"],
+          "集中が<ruby>良い<rt>よい</rt></ruby>",
+          "分散が<ruby>良い<rt>よい</rt></ruby>"],
         "answer": 2,
         "id": "N2-16-070",
-        "script": "話者A：この問題については、集中が<ruby>良<rt>りょう</rt></ruby>いという点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：ええ。その通りだと思います。"
+        "script": "話者A：この問題については、集中が<ruby>良い<rt>よい</rt></ruby>という点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：ええ。その通りだと思います。"
       },
       {
         "type": "主張理解（長文）",
@@ -17013,7 +17013,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "言葉は人を傷つけることも<ruby>励<rt>はげ</rt></ruby>ますこともできる。言葉の力を自覚して使うことが大切だ。",
+        "text": "言葉は人を傷つけることも<ruby>励ます<rt>はげます</rt></ruby>こともできる。言葉の力を自覚して使うことが大切だ。",
         "question": "言葉について正しいのは何か。",
         "options": ["何でもよい",
           "少ない方がよい",
@@ -17029,23 +17029,23 @@ window.MOCK_DATA['N2'] = {
         "options": ["目指すべき",
           "必要",
           "足かせになることも",
-          "常に<ruby>良<rt>りょう</rt></ruby>い"],
+          "常に<ruby>良い<rt>よい</rt></ruby>"],
         "answer": 1,
         "id": "N2-16-073"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
-        "text": "【美容室】カット4,000円、カラー5,000円、パーマ7,000円。初<ruby>回<rt>まわ</rt></ruby>20%オフ。",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
+        "text": "【美容室】カット4,000円、カラー5,000円、パーマ7,000円。初<ruby>回<rt>まわす</rt></ruby>20%オフ。",
         "question": "正しいのは何か。",
-        "options": ["初<ruby>回<rt>まわ</rt></ruby>20%オフ",
+        "options": ["初<ruby>回<rt>まわす</rt></ruby>20%オフ",
           "カット2,000円",
           "カラー3,000円",
-          "初<ruby>回<rt>まわ</rt></ruby>50%オフ"],
+          "初<ruby>回<rt>まわす</rt></ruby>50%オフ"],
         "answer": 3,
         "id": "N2-16-074"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
         "text": "【スキー場】リフト1日券5,000円、半日3,000円。レンタルセット3,500円。",
         "question": "正しいのは何か。",
         "options": ["レンタル5,000円",
@@ -17056,7 +17056,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-16-075"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "美容師と客が話しています。美容師はこのあと何をしますか。（76）",
         "question": "何をしますか。",
         "options": ["シャンプーをする",
@@ -17068,19 +17068,19 @@ window.MOCK_DATA['N2'] = {
         "script": "男：それでは、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：シャンプーをしていただけますか。\n女：<ruby>了解<rt>りょうかい</rt></ruby>です、すぐに対応します。【セット16問44】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "配達員と客が話しています。客はこのあと何をしますか。（77）",
         "question": "何をしますか。",
         "options": ["中身を確認する",
-          "代金を<ruby>払<rt>はら</rt></ruby>う",
+          "代金を<ruby>払う<rt>はらう</rt></ruby>",
           "サインをする",
           "再配達を依頼する"],
         "answer": 1,
         "id": "N2-16-077",
-        "script": "男：えーと、この件について進め方を検討しましょう。\n女：そうですか、何をすればよいでしょうか。\n男：まず代金を<ruby>払<rt>はら</rt></ruby>うください。\n女：承知しました。よろしくお願いします。【セット16問45】"
+        "script": "男：えーと、この件について進め方を検討しましょう。\n女：そうですか、何をすればよいでしょうか。\n男：まず代金を<ruby>払う<rt>はらう</rt></ruby>ください。\n女：承知しました。よろしくお願いします。【セット16問45】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "ホテルのフロントと客が話しています。客はこのあと何をしますか。（78）",
         "question": "何をしますか。",
         "options": ["朝食を予約する",
@@ -17092,37 +17092,37 @@ window.MOCK_DATA['N2'] = {
         "script": "男：次の段階に進む準備ができましたね。\n女：あのう、はい、何から始めましょうか。\n男：チェックインしてください。\n女：うん。お願いします。【セット16問46】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "電話で話しています。電話を受けた人は何をしますか。（79）",
         "question": "何をしますか。",
         "options": ["担当者に取り次ぐ",
           "折り返し電話する",
-          "メールで<ruby>連絡<rt>れんらく</rt></ruby>する",
+          "メールで<ruby>連絡する<rt>れんらくする</rt></ruby>",
           "伝言を残す"],
         "answer": 0,
         "id": "N2-16-079",
         "script": "男：すみません、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：担当者に取り次ぐいただけますか。\n女：はい、すぐに対応します。【セット16問47】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "ジムのスタッフと客が話しています。客はこのあと何をしますか。（80）",
         "question": "何をしますか。",
         "options": ["プランを変更する",
           "マシンを使う",
-          "着<ruby>替<rt>か</rt></ruby>える",
+          "<ruby>着替え<rt>きがえ</rt></ruby>る",
           "トレーナーに相談する"],
         "answer": 2,
         "id": "N2-16-080",
-        "script": "男：ちょっと、この件について進め方を検討しましょう。\n女：ええ、何をすればよいでしょうか。\n男：まず着<ruby>替<rt>か</rt></ruby>えるください。\n女：承知しました。早速取りかかります。【セット16問48】"
+        "script": "男：ちょっと、この件について進め方を検討しましょう。\n女：ええ、何をすればよいでしょうか。\n男：まず<ruby>着替え<rt>きがえ</rt></ruby>るください。\n女：承知しました。早速取りかかります。【セット16問48】"
       },
       {
         "type": "ポイント理解",
         "text": "報告を聞いています。問題の解決策として提案されているのは何ですか。（91）",
         "question": "解決策は何ですか。",
         "options": ["ルール変更",
-          "システム<ruby>改<rt>あら</rt></ruby>善",
+          "システム<ruby>改善<rt>かいぜん</rt></ruby>",
           "研修実<ruby>施<rt>ほどこ</rt></ruby>",
-          "人員増<ruby>加<rt>くわ</rt></ruby>"],
+          "人員<ruby>増加<rt>ぞうか</rt></ruby>"],
         "answer": 0,
         "id": "N2-16-081",
         "script": "ルール変更が最も重要な要素です。様々な観点から検討しましたが、ここに真実があります。【セット16問49】"
@@ -17165,7 +17165,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "ポイント理解",
-        "text": "討<ruby>論<rt>ろん</rt></ruby>を聞いています。反対意見の<ruby>根拠<rt>こんきょ</rt></ruby>は何ですか。（95）",
+        "text": "<ruby>討論<rt>とうろん</rt></ruby>を聞いています。反対意見の<ruby>根拠<rt>こんきょ</rt></ruby>は何ですか。（95）",
         "question": "<ruby>根拠<rt>こんきょ</rt></ruby>は何ですか。",
         "options": ["実現困難",
           "データ不足",
@@ -17230,10 +17230,10 @@ window.MOCK_DATA['N2'] = {
         "options": ["関係者",
           "学生",
           "一般人",
-          "専門<ruby>家<rt>いえ</rt></ruby>"],
+          "<ruby>専門家<rt>せんもんか</rt></ruby>"],
         "answer": 3,
         "id": "N2-16-090",
-        "script": "本日の主題は専門<ruby>家<rt>いえ</rt></ruby>についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。【セット16問58】"
+        "script": "本日の主題は<ruby>専門家<rt>せんもんか</rt></ruby>についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。【セット16問58】"
       },
       {
         "type": "概要理解",
@@ -17248,7 +17248,7 @@ window.MOCK_DATA['N2'] = {
         "script": "<ruby>今回<rt>こんかい</rt></ruby>お伝えしたいのは海外についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。【セット16問59】"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "エレベーターで「今日は暑いですね」と言われました。（問181）",
         "question": "返答は？",
         "options": ["本当ですね",
@@ -17259,7 +17259,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-16-092"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "<ruby>廊下<rt>ろうか</rt></ruby>で「お元気ですか」と言われました。（問182）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -17270,7 +17270,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-16-093"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "会議室で「初めまして」と言われました。（問184）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -17281,7 +17281,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-16-095"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "受付で「お久しぶりです」と言われました。（問183）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -17292,7 +17292,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-16-094"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "オフィスで「ありがとうございます」と言われました。（問185）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -17303,18 +17303,18 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-16-096"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "学校で「すみません」と言われました。（問186）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
           "わかりません",
           "はい、食べました",
-          "いいえ、大<ruby>丈<rt>たけ</rt></ruby>夫です"],
+          "いいえ、<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>です"],
         "answer": 3,
         "id": "N2-16-097"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お店で「お疲れ様です」と言われました。（問187）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
@@ -17325,8 +17325,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-16-098"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "電車で「失<ruby>礼<rt>れい</rt></ruby>します」と言われました。（問188）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "電車で「<ruby>失礼<rt>しつれい</rt></ruby>します」と言われました。（問188）",
         "question": "返答は？",
         "options": ["はい、食べました",
           "どうぞ",
@@ -17336,7 +17336,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-16-099"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "<ruby>廊下<rt>ろうか</rt></ruby>で「おはようございます」と言われました。（問190）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
@@ -17347,7 +17347,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-16-101"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "エレベーターで「よろしくお願いします」と言われました。（問189）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
@@ -17358,7 +17358,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-16-100"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "受付で「こんにちは」と言われました。（問191）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
@@ -17369,7 +17369,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-16-102"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "会議室で「こんばんは」と言われました。（問192）",
         "question": "返答は？",
         "options": ["こんばんは",
@@ -17430,7 +17430,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>しょざい</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["検品",
@@ -17440,7 +17440,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>としより</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["認可する",
@@ -17450,7 +17450,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>せいさんする</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["嫌",
@@ -17460,7 +17460,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>しゅうしょくかつどう</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["就職活動",
@@ -17470,12 +17470,12 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>すすむ</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["支出",
           "進む",
-          "追い<ruby>越<rt>こ</rt></ruby>す",
+          "<ruby>追い越す<rt>おいこす</rt></ruby>",
           "伝達"],
         "answer": 1
       },
@@ -17534,18 +17534,18 @@ window.MOCK_DATA['N2'] = {
         "text": "「売り上げ」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["売り上げを伸ばす",
-          "予想を上<ruby>回<rt>まわ</rt></ruby>る業績",
+          "予想を<ruby>上回る<rt>うわまわる</rt></ruby>業績",
           "イベントを運営する",
           "資産を運用する"],
         "answer": 0
       },
       {
         "type": "用法",
-        "text": "「上<ruby>回<rt>まわ</rt></ruby>る」の使い方として正しいのはどれか。",
+        "text": "「<ruby>上回る<rt>うわまわる</rt></ruby>」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["資産を運用する",
           "イベントを運営する",
-          "予想を上<ruby>回<rt>まわ</rt></ruby>る業績",
+          "予想を<ruby>上回る<rt>うわまわる</rt></ruby>業績",
           "信頼を得る"],
         "answer": 2
       },
@@ -17556,7 +17556,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["資産を運用する",
           "イベントを運営する",
           "信頼を得る",
-          "<ruby>大幅<rt>おおはば</rt></ruby>にコストを<ruby>削減<rt>さくげん</rt></ruby>する"],
+          "<ruby>大幅<rt>おおはば</rt></ruby>にコストを<ruby>削減する<rt>さくげんする</rt></ruby>"],
         "answer": 1
       },
       {
@@ -17565,17 +17565,17 @@ window.MOCK_DATA['N2'] = {
         "question": "正しい使い方は？",
         "options": ["資産を運用する",
           "信頼を得る",
-          "<ruby>大幅<rt>おおはば</rt></ruby>にコストを<ruby>削減<rt>さくげん</rt></ruby>する",
-          "<ruby>良<rt>りょう</rt></ruby>い成績を収める"],
+          "<ruby>大幅<rt>おおはば</rt></ruby>にコストを<ruby>削減する<rt>さくげんする</rt></ruby>",
+          "<ruby>良い<rt>よい</rt></ruby>成績を収める"],
         "answer": 0
       },
       {
         "type": "用法",
         "text": "「得る」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
-        "options": ["<ruby>大幅<rt>おおはば</rt></ruby>にコストを<ruby>削減<rt>さくげん</rt></ruby>する",
+        "options": ["<ruby>大幅<rt>おおはば</rt></ruby>にコストを<ruby>削減する<rt>さくげんする</rt></ruby>",
           "信頼を得る",
-          "<ruby>良<rt>りょう</rt></ruby>い成績を収める",
+          "<ruby>良い<rt>よい</rt></ruby>成績を収める",
           "主に考える"],
         "answer": 1
       },
@@ -17584,9 +17584,9 @@ window.MOCK_DATA['N2'] = {
         "text": "「<ruby>大幅<rt>おおはば</rt></ruby>」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["仕事と予定が重なる",
-          "<ruby>良<rt>りょう</rt></ruby>い成績を収める",
+          "<ruby>良い<rt>よい</rt></ruby>成績を収める",
           "主に考える",
-          "<ruby>大幅<rt>おおはば</rt></ruby>にコストを<ruby>削減<rt>さくげん</rt></ruby>する"],
+          "<ruby>大幅<rt>おおはば</rt></ruby>にコストを<ruby>削減する<rt>さくげんする</rt></ruby>"],
         "answer": 3
       },
       {
@@ -17596,7 +17596,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["<ruby>彼<rt>かれ</rt></ruby>の意見に傾く",
           "主に考える",
           "仕事と予定が重なる",
-          "<ruby>良<rt>りょう</rt></ruby>い成績を収める"],
+          "<ruby>良い<rt>よい</rt></ruby>成績を収める"],
         "answer": 3
       },
       {
@@ -17606,14 +17606,14 @@ window.MOCK_DATA['N2'] = {
         "options": ["<ruby>彼<rt>かれ</rt></ruby>の意見に傾く",
           "仕事と予定が重なる",
           "主に考える",
-          "<ruby>労働<rt>ろうどう</rt></ruby>環境を<ruby>改<rt>あら</rt></ruby>善する"],
+          "<ruby>労働<rt>ろうどう</rt></ruby>環境を<ruby>改善<rt>かいぜん</rt></ruby>する"],
         "answer": 2
       },
       {
         "type": "用法",
         "text": "「重なる」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
-        "options": ["<ruby>労働<rt>ろうどう</rt></ruby>環境を<ruby>改<rt>あら</rt></ruby>善する",
+        "options": ["<ruby>労働<rt>ろうどう</rt></ruby>環境を<ruby>改善<rt>かいぜん</rt></ruby>する",
           "<ruby>彼<rt>かれ</rt></ruby>の意見に傾く",
           "仕事と予定が重なる",
           "別の観点から考える"],
@@ -17624,7 +17624,7 @@ window.MOCK_DATA['N2'] = {
         "text": "「傾く」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["キャリアを築く",
-          "<ruby>労働<rt>ろうどう</rt></ruby>環境を<ruby>改<rt>あら</rt></ruby>善する",
+          "<ruby>労働<rt>ろうどう</rt></ruby>環境を<ruby>改善<rt>かいぜん</rt></ruby>する",
           "別の観点から考える",
           "<ruby>彼<rt>かれ</rt></ruby>の意見に傾く"],
         "answer": 3
@@ -17634,7 +17634,7 @@ window.MOCK_DATA['N2'] = {
         "text": "「環境」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["別の観点から考える",
-          "<ruby>労働<rt>ろうどう</rt></ruby>環境を<ruby>改<rt>あら</rt></ruby>善する",
+          "<ruby>労働<rt>ろうどう</rt></ruby>環境を<ruby>改善<rt>かいぜん</rt></ruby>する",
           "キャリアを築く",
           "評価の基準を設ける"],
         "answer": 1
@@ -17696,7 +17696,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["電力の<ruby>供給<rt>きょうきゅう</rt></ruby>が安定する",
           "体制を強化する",
           "事業の規模を<ruby>拡大<rt>かくだい</rt></ruby>する",
-          "激しい<ruby>競<rt>きそ</rt></ruby>争に勝つ"],
+          "激しい<ruby>競争<rt>きょうそう</rt></ruby>に勝つ"],
         "answer": 2
       },
       {
@@ -17721,7 +17721,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "スマートフォンが<ruby>普及<rt>ふきゅう</rt></ruby>するの意味は？",
+        "text": "スマートフォンが<ruby>普及する<rt>ふきゅうする</rt></ruby>の意味は？",
         "question": "意味が近いのは？",
         "options": ["広まる",
           "人間",
@@ -17731,7 +17731,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "交流を<ruby>促進<rt>そくしん</rt></ruby>するの意味は？",
+        "text": "交流を<ruby>促進する<rt>そくしんする</rt></ruby>の意味は？",
         "question": "意味が近いのは？",
         "options": ["推進する",
           "気軽",
@@ -17775,7 +17775,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>女は医者で（　）、<ruby>作家<rt>さっか</rt></ruby>でもあるね。",
+        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は医者で（　）、<ruby>作家<rt>さっか</rt></ruby>でもあるね。",
         "question": "（　）に入るのは？",
         "options": ["あって",
           "ありながら",
@@ -17808,7 +17808,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>女は医者で（ 　）、<ruby>作家<rt>さっか</rt></ruby>でもあるね。",
+        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は医者で（ 　）、<ruby>作家<rt>さっか</rt></ruby>でもあるね。",
         "question": "（　）に入るのは？",
         "options": ["ありつつ",
           "あって",
@@ -17841,7 +17841,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>女は医者で（　）、<ruby>作家<rt>さっか</rt></ruby>でもあるよ。",
+        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は医者で（　）、<ruby>作家<rt>さっか</rt></ruby>でもあるよ。",
         "question": "（　）に入るのは？",
         "options": ["あるのに",
           "ありながら",
@@ -17874,7 +17874,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>女は医者で（　）、<ruby>作家<rt>さっか</rt></ruby>でもあるね。  ",
+        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は医者で（　）、<ruby>作家<rt>さっか</rt></ruby>でもあるね。  ",
         "question": "（　）に入るのは？",
         "options": ["ありながら",
           "あって",
@@ -17940,7 +17940,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文章の文法",
-        "text": "困難（　）乗り<ruby>越<rt>こ</rt></ruby>え、目標を達成した。（381）",
+        "text": "困難（　）乗り<ruby>越<rt>こえる</rt></ruby>え、目標を達成した。（381）",
         "question": "（　）に入るのは？",
         "options": ["から",
           "に",
@@ -17951,7 +17951,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文章の文法",
-        "text": "専門<ruby>家<rt>いえ</rt></ruby>（　）意見を聞く必要がある。（382）",
+        "text": "<ruby>専門家<rt>せんもんか</rt></ruby>（　）意見を聞く必要がある。（382）",
         "question": "（　）に入るのは？",
         "options": ["の",
           "による",
@@ -18019,7 +18019,7 @@ window.MOCK_DATA['N2'] = {
         "type": "読解（短文）",
         "text": "リモートワークは<ruby>通勤<rt>つうきん</rt></ruby><ruby>削減<rt>さくげん</rt></ruby>できるがコミュニケーション不足になりやすい。（問83）",
         "question": "<ruby>課題<rt>かだい</rt></ruby>は何か。",
-        "options": ["<ruby>給<rt>きゅう</rt></ruby>料減",
+        "options": ["<ruby>給料<rt>きゅうりょう</rt></ruby>減",
           "<ruby>通勤<rt>つうきん</rt></ruby>",
           "コミュニケーション不足",
           "休めない"],
@@ -18039,7 +18039,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "教育では知識詰め<ruby>込<rt>こ</rt></ruby>みより考える力を養うことが重視されている。（問85）",
+        "text": "教育では知識詰め<ruby>込<rt>こむ</rt></ruby>みより考える力を養うことが重視されている。（問85）",
         "question": "重視されているのは何か。",
         "options": ["体力",
           "暗<ruby>記<rt>しる</rt></ruby>力",
@@ -18098,17 +18098,17 @@ window.MOCK_DATA['N2'] = {
         "question": "重要なのは何か。",
         "options": ["時間短縮だけ",
           "生産性向上と多様性",
-          "<ruby>給<rt>きゅう</rt></ruby>料アップ",
-          "休み増<ruby>加<rt>くわ</rt></ruby>"],
+          "<ruby>給料<rt>きゅうりょう</rt></ruby>アップ",
+          "休み<ruby>増加<rt>ぞうか</rt></ruby>"],
         "answer": 1,
         "id": "N2-17-064"
       },
       {
         "type": "読解（中文）",
-        "text": "教育では知識詰め<ruby>込<rt>こ</rt></ruby>みから思考力重視への転換が<ruby>求<rt>もと</rt></ruby>められている。社会で<ruby>活躍<rt>かつやく</rt></ruby>できる<ruby>人材育成<rt>じんざいいくせい</rt></ruby>が目標だ。（問150）",
-        "question": "<ruby>求<rt>もと</rt></ruby>められているのは何か。",
+        "text": "教育では知識詰め<ruby>込<rt>こむ</rt></ruby>みから思考力重視への転換が<ruby>求<rt>もとめる</rt></ruby>められている。社会で<ruby>活躍<rt>かつやく</rt></ruby>できる<ruby>人材育成<rt>じんざいいくせい</rt></ruby>が目標だ。（問150）",
+        "question": "<ruby>求<rt>もとめる</rt></ruby>められているのは何か。",
         "options": ["思考力重視",
-          "知識詰め<ruby>込<rt>こ</rt></ruby>み",
+          "知識詰め<ruby>込<rt>こむ</rt></ruby>み",
           "不要",
           "テスト重視"],
         "answer": 0,
@@ -18149,7 +18149,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "統合理解",
-        "text": "【A】スピードは<ruby>競<rt>きそ</rt></ruby>争優<ruby>位<rt>くら</rt></ruby>になる。【B】品質も重要だ。",
+        "text": "【A】スピードは<ruby>競争<rt>きょうそう</rt></ruby>優<ruby>位<rt>くらい</rt></ruby>になる。【B】品質も重要だ。",
         "question": "分かることは何か。",
         "options": ["スピードだけ",
           "どちらも不要",
@@ -18163,13 +18163,13 @@ window.MOCK_DATA['N2'] = {
         "type": "統合理解",
         "text": "【A】独学は自分のペースで学べる。【B】教わると効率的に学べる。",
         "question": "分かることは何か。",
-        "options": ["教わる方が<ruby>良<rt>りょう</rt></ruby>い",
-          "それぞれ<ruby>良<rt>りょう</rt></ruby>い点がある",
-          "独学が<ruby>良<rt>りょう</rt></ruby>い",
-          "学ばなくて<ruby>良<rt>りょう</rt></ruby>い"],
+        "options": ["教わる方が<ruby>良い<rt>よい</rt></ruby>",
+          "それぞれ<ruby>良い<rt>よい</rt></ruby>点がある",
+          "独学が<ruby>良い<rt>よい</rt></ruby>",
+          "学ばなくて<ruby>良い<rt>よい</rt></ruby>"],
         "answer": 2,
         "id": "N2-17-070",
-        "script": "話者A：この問題については、独学が<ruby>良<rt>りょう</rt></ruby>いという点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：ええ。その通りだと思います。"
+        "script": "話者A：この問題については、独学が<ruby>良い<rt>よい</rt></ruby>という点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：ええ。その通りだと思います。"
       },
       {
         "type": "主張理解（長文）",
@@ -18184,11 +18184,11 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>共感<rt>きょうかん</rt></ruby>力はAI時代に人間に<ruby>求<rt>もと</rt></ruby>められる重要なスキルだ。人の気持ちを理解し寄り添う力は<ruby>機械<rt>きかい</rt></ruby>には難しい。",
+        "text": "<ruby>共感<rt>きょうかん</rt></ruby>力はAI時代に人間に<ruby>求<rt>もとめる</rt></ruby>められる重要なスキルだ。人の気持ちを理解し寄り添う力は機<ruby>械<rt>かい</rt></ruby>には難しい。",
         "question": "<ruby>共感<rt>きょうかん</rt></ruby>力について正しいのは何か。",
         "options": ["不要",
           "減っていく",
-          "<ruby>機械<rt>きかい</rt></ruby>にもできる",
+          "機<ruby>械<rt>かい</rt></ruby>にもできる",
           "AI時代に重要"],
         "answer": 2,
         "id": "N2-17-072"
@@ -18205,29 +18205,29 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-17-073"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
-        "text": "【保育園】月額30,000円〜。<ruby>延長<rt>えんちょう</rt></ruby>保育1時間500円。<ruby>給<rt>きゅう</rt></ruby>食費<ruby>込<rt>こ</rt></ruby>み。",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
+        "text": "【保育園】月額30,000円〜。<ruby>延長<rt>えんちょう</rt></ruby>保育1時間500円。<ruby>給<rt>きゅう</rt></ruby>食費<ruby>込<rt>こむ</rt></ruby>み。",
         "question": "正しいのは何か。",
         "options": ["月額50,000円",
           "<ruby>延長<rt>えんちょう</rt></ruby>保育無料",
           "<ruby>給<rt>きゅう</rt></ruby>食費別",
-          "<ruby>給<rt>きゅう</rt></ruby>食費<ruby>込<rt>こ</rt></ruby>み"],
+          "<ruby>給<rt>きゅう</rt></ruby>食費<ruby>込<rt>こむ</rt></ruby>み"],
         "answer": 1,
         "id": "N2-17-074"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
-        "text": "【動物病院】<ruby>診<rt>みる</rt></ruby>察料1,500円、ワクチン3,000円〜。夜間救急対応（別<ruby>途<rt>と</rt></ruby>5,000円）。",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
+        "text": "【動物病院】<ruby>診察<rt>しんさつ</rt></ruby>料1,500円、ワクチン3,000円〜。夜間救急対応（別<ruby>途<rt>と</rt></ruby>5,000円）。",
         "question": "正しいのは何か。",
         "options": ["夜間救急5,000円<ruby>追加<rt>ついか</rt></ruby>",
           "ワクチン無料",
           "夜間対応なし",
-          "<ruby>診<rt>みる</rt></ruby>察無料"],
+          "<ruby>診察<rt>しんさつ</rt></ruby>無料"],
         "answer": 3,
         "id": "N2-17-075"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "男の人と女の人が話しています。男の人はこのあとまず何をしますか。（81）",
         "question": "まず何をしますか。",
         "options": ["メールを送る",
@@ -18239,7 +18239,7 @@ window.MOCK_DATA['N2'] = {
         "script": "男：それでは、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：会議室を予約していただけますか。\n女：<ruby>了解<rt>りょうかい</rt></ruby>です、すぐに対応します。【セット17問44】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "女の人と男の人が話しています。女の人はこのあと何をしますか。（82）",
         "question": "何をしますか。",
         "options": ["書類を提出する",
@@ -18251,10 +18251,10 @@ window.MOCK_DATA['N2'] = {
         "script": "男：えーと、この件について進め方を検討しましょう。\n女：そうですか、何をすればよいでしょうか。\n男：まず会議に出席してください。\n女：承知しました。よろしくお願いします。【セット17問45】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "店員と客が話しています。客はこのあと何をしますか。（83）",
         "question": "何をしますか。",
-        "options": ["支<ruby>払<rt>はら</rt></ruby>いをする",
+        "options": ["<ruby>支払い<rt>しはらい</rt></ruby>をする",
           "別の店を探す",
           "注文を変更する",
           "店を出る"],
@@ -18263,19 +18263,19 @@ window.MOCK_DATA['N2'] = {
         "script": "男：次の段階に進む準備ができましたね。\n女：あのう、はい、何から始めましょうか。\n男：別の店を探すください。\n女：うん。お願いします。【セット17問46】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "先生と学生が話しています。学生はこのあと何をしますか。（84）",
         "question": "何をしますか。",
         "options": ["友達に聞く",
           "図書館で調べる",
-          "レポートを書き<ruby>直<rt>なお</rt></ruby>す",
+          "レポートを書き<ruby>直す<rt>なおす</rt></ruby>",
           "先生に質問する"],
         "answer": 2,
         "id": "N2-17-079",
-        "script": "男：すみません、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：レポートを書き<ruby>直<rt>なお</rt></ruby>すいただけますか。\n女：はい、すぐに対応します。【セット17問47】"
+        "script": "男：すみません、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：レポートを書き<ruby>直す<rt>なおす</rt></ruby>いただけますか。\n女：はい、すぐに対応します。【セット17問47】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "医者と患者が話しています。患者はこのあと何をしますか。（85）",
         "question": "何をしますか。",
         "options": ["検査を受ける",
@@ -18292,11 +18292,11 @@ window.MOCK_DATA['N2'] = {
         "question": "呼びかけているのは？",
         "options": ["注意",
           "理解",
-          "参<ruby>加<rt>くわ</rt></ruby>",
+          "<ruby>参加<rt>さんか</rt></ruby>",
           "協力"],
         "answer": 2,
         "id": "N2-17-081",
-        "script": "参<ruby>加<rt>くわ</rt></ruby>が最も重要な要素です。様々な観点から検討しましたが、ここに真実があります。【セット17問49】"
+        "script": "<ruby>参加<rt>さんか</rt></ruby>が最も重要な要素です。様々な観点から検討しましたが、ここに真実があります。【セット17問49】"
       },
       {
         "type": "ポイント理解",
@@ -18326,13 +18326,13 @@ window.MOCK_DATA['N2'] = {
         "type": "ポイント理解",
         "text": "ドキュメンタリーを見ています。この問題の<ruby>深刻<rt>しんこく</rt></ruby>さを示しているのは何ですか。（100）",
         "question": "<ruby>深刻<rt>しんこく</rt></ruby>さを示すのは？",
-        "options": ["数字の増<ruby>加<rt>くわ</rt></ruby>",
+        "options": ["数字の<ruby>増加<rt>ぞうか</rt></ruby>",
           "<ruby>被害<rt>ひがい</rt></ruby>の<ruby>甚大<rt>じんだい</rt></ruby>さ",
           "対策の遅れ",
           "<ruby>範囲<rt>はんい</rt></ruby>の<ruby>拡大<rt>かくだい</rt></ruby>"],
         "answer": 0,
         "id": "N2-17-084",
-        "script": "数字の増<ruby>加<rt>くわ</rt></ruby>が最も重要な要素です。様々な観点から検討しましたが、この点を強調したいと思います。【セット17問52】"
+        "script": "数字の<ruby>増加<rt>ぞうか</rt></ruby>が最も重要な要素です。様々な観点から検討しましたが、この点を強調したいと思います。【セット17問52】"
       },
       {
         "type": "ポイント理解",
@@ -18388,11 +18388,11 @@ window.MOCK_DATA['N2'] = {
         "question": "主に何について？",
         "options": ["キャリア",
           "将来",
-          "<ruby>家<rt>いえ</rt></ruby>族",
+          "<ruby>家族<rt>かぞく</rt></ruby>",
           "<ruby>趣味<rt>しゅみ</rt></ruby>"],
         "answer": 2,
         "id": "N2-17-089",
-        "script": "今日の話題は<ruby>家<rt>いえ</rt></ruby>族についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。【セット17問57】"
+        "script": "今日の話題は<ruby>家族<rt>かぞく</rt></ruby>についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。【セット17問57】"
       },
       {
         "type": "概要理解",
@@ -18419,8 +18419,8 @@ window.MOCK_DATA['N2'] = {
         "script": "<ruby>今回<rt>こんかい</rt></ruby>お伝えしたいのは健康についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。【セット17問59】"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "オフィスで「お先に失<ruby>礼<rt>れい</rt></ruby>します」と言われました。（問193）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "オフィスで「お先に<ruby>失礼<rt>しつれい</rt></ruby>します」と言われました。（問193）",
         "question": "返答は？",
         "options": ["わかりません",
           "いいえ、行きません",
@@ -18430,7 +18430,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-17-092"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "学校で「いってきます」と言われました。（問194）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -18441,7 +18441,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-17-093"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "電車で「今日は暑いですね」と言われました。（問196）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -18452,7 +18452,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-17-095"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お店で「ただいま」と言われました。（問195）",
         "question": "返答は？",
         "options": ["おかえりなさい",
@@ -18463,7 +18463,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-17-094"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "エレベーターで「お元気ですか」と言われました。（問197）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
@@ -18474,7 +18474,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-17-096"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "<ruby>廊下<rt>ろうか</rt></ruby>で「お久しぶりです」と言われました。（問198）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
@@ -18485,10 +18485,10 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-17-097"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "オフィスで「すみません」と言われました。（問201）",
         "question": "返答は？",
-        "options": ["いいえ、大<ruby>丈<rt>たけ</rt></ruby>夫です",
+        "options": ["いいえ、<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>です",
           "はい、食べました",
           "いいえ、行きません",
           "わかりません"],
@@ -18496,7 +18496,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-17-100"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "会議室で「ありがとうございます」と言われました。（問200）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -18507,8 +18507,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-17-099"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "お店で「失<ruby>礼<rt>れい</rt></ruby>します」と言われました。（問203）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "お店で「<ruby>失礼<rt>しつれい</rt></ruby>します」と言われました。（問203）",
         "question": "返答は？",
         "options": ["わかりません",
           "いいえ、行きません",
@@ -18518,7 +18518,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-17-102"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "学校で「お疲れ様です」と言われました。（問202）",
         "question": "返答は？",
         "options": ["お疲れ様です",
@@ -18540,11 +18540,11 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "ポイント理解",
-        "text": "会議を聞いています。今後の<ruby>課題<rt>かだい</rt></ruby>として<ruby>挙<rt>あ</rt></ruby>げられているのは何ですか。（105）",
+        "text": "会議を聞いています。今後の<ruby>課題<rt>かだい</rt></ruby>として<ruby>挙<rt>あう</rt></ruby>げられているのは何ですか。（105）",
         "question": "<ruby>課題<rt>かだい</rt></ruby>は何ですか。",
         "options": ["<ruby>人材育成<rt>じんざいいくせい</rt></ruby>",
           "品質向上",
-          "コスト<ruby>削減<rt>さくげん</rt></ruby>",
+          "<ruby>コスト削減<rt>こすとさくげん</rt></ruby>",
           "納<ruby>期<rt>き</rt></ruby>短縮"],
         "answer": 1,
         "id": "N2-18-083",
@@ -18601,7 +18601,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>からっぽ</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["空っぽ",
@@ -18611,17 +18611,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>さまざまな</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["証券会社",
           "現れ",
-          "<ruby>埋<rt>う</rt></ruby>まる",
+          "<ruby>埋まる<rt>うまる</rt></ruby>",
           "様々な"],
         "answer": 3
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>ふり</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["不利",
@@ -18631,7 +18631,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>こまかい</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["健全な",
@@ -18641,12 +18641,12 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>くりさげる</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["繰り下げる",
           "作る",
-          "<ruby>補<rt>おぎな</rt></ruby>う",
+          "<ruby>補う<rt>おぎなう</rt></ruby>",
           "規格"],
         "answer": 0
       },
@@ -18671,7 +18671,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "<ruby>廊下<rt>ろうか</rt></ruby>で「こんにちは」と言われました。（問206）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -18705,7 +18705,7 @@ window.MOCK_DATA['N2'] = {
         "type": "用法",
         "text": "「強化」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
-        "options": ["激しい<ruby>競<rt>きそ</rt></ruby>争に勝つ",
+        "options": ["激しい<ruby>競争<rt>きょうそう</rt></ruby>に勝つ",
           "電力の<ruby>供給<rt>きょうきゅう</rt></ruby>が安定する",
           "体制を強化する",
           "安全性を強調する"],
@@ -18716,17 +18716,17 @@ window.MOCK_DATA['N2'] = {
         "text": "「<ruby>供給<rt>きょうきゅう</rt></ruby>」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["電力の<ruby>供給<rt>きょうきゅう</rt></ruby>が安定する",
-          "激しい<ruby>競<rt>きそ</rt></ruby>争に勝つ",
+          "激しい<ruby>競争<rt>きょうそう</rt></ruby>に勝つ",
           "安全性を強調する",
           "共通の<ruby>趣味<rt>しゅみ</rt></ruby>がある"],
         "answer": 0
       },
       {
         "type": "用法",
-        "text": "「<ruby>競<rt>きそ</rt></ruby>争」の使い方として正しいのはどれか。",
+        "text": "「<ruby>競争<rt>きょうそう</rt></ruby>」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["安全性を強調する",
-          "激しい<ruby>競<rt>きそ</rt></ruby>争に勝つ",
+          "激しい<ruby>競争<rt>きょうそう</rt></ruby>に勝つ",
           "共通の<ruby>趣味<rt>しゅみ</rt></ruby>がある",
           "情報を共有する"],
         "answer": 1
@@ -18748,16 +18748,16 @@ window.MOCK_DATA['N2'] = {
         "options": ["許可を得る",
           "情報を共有する",
           "共通の<ruby>趣味<rt>しゅみ</rt></ruby>がある",
-          "気持ちを切り<ruby>替<rt>か</rt></ruby>える"],
+          "気持ちを<ruby>切り替える<rt>きりかえる</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "用法",
         "text": "「共有」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
-        "options": ["体調が<ruby>崩<rt>くず</rt></ruby>れる",
+        "options": ["体調が<ruby>崩れる<rt>くずれる</rt></ruby>",
           "許可を得る",
-          "気持ちを切り<ruby>替<rt>か</rt></ruby>える",
+          "気持ちを<ruby>切り替える<rt>きりかえる</rt></ruby>",
           "情報を共有する"],
         "answer": 3
       },
@@ -18766,49 +18766,49 @@ window.MOCK_DATA['N2'] = {
         "text": "「許可」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["許可を得る",
-          "気持ちを切り<ruby>替<rt>か</rt></ruby>える",
-          "体調が<ruby>崩<rt>くず</rt></ruby>れる",
-          "一人で<ruby>暮<rt>く</rt></ruby>らす"],
+          "気持ちを<ruby>切り替える<rt>きりかえる</rt></ruby>",
+          "体調が<ruby>崩れる<rt>くずれる</rt></ruby>",
+          "一人で<ruby>暮らす<rt>くらす</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "用法",
-        "text": "「切り<ruby>替<rt>か</rt></ruby>える」の使い方として正しいのはどれか。",
+        "text": "「<ruby>切り替える<rt>きりかえる</rt></ruby>」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
-        "options": ["一人で<ruby>暮<rt>く</rt></ruby>らす",
-          "体調が<ruby>崩<rt>くず</rt></ruby>れる",
-          "気持ちを切り<ruby>替<rt>か</rt></ruby>える",
-          "メンバーに<ruby>加<rt>くわ</rt></ruby>える"],
+        "options": ["一人で<ruby>暮らす<rt>くらす</rt></ruby>",
+          "体調が<ruby>崩れる<rt>くずれる</rt></ruby>",
+          "気持ちを<ruby>切り替える<rt>きりかえる</rt></ruby>",
+          "メンバーに<ruby>加える<rt>くわえる</rt></ruby>"],
         "answer": 2
       },
       {
         "type": "用法",
-        "text": "「<ruby>崩<rt>くず</rt></ruby>れる」の使い方として正しいのはどれか。",
+        "text": "「<ruby>崩れる<rt>くずれる</rt></ruby>」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["手術後の経過を見る",
-          "一人で<ruby>暮<rt>く</rt></ruby>らす",
-          "メンバーに<ruby>加<rt>くわ</rt></ruby>える",
-          "体調が<ruby>崩<rt>くず</rt></ruby>れる"],
+          "一人で<ruby>暮らす<rt>くらす</rt></ruby>",
+          "メンバーに<ruby>加える<rt>くわえる</rt></ruby>",
+          "体調が<ruby>崩れる<rt>くずれる</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "用法",
-        "text": "「<ruby>暮<rt>く</rt></ruby>らす」の使い方として正しいのはどれか。",
+        "text": "「<ruby>暮らす<rt>くらす</rt></ruby>」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["若者に多い傾向がある",
-          "メンバーに<ruby>加<rt>くわ</rt></ruby>える",
+          "メンバーに<ruby>加える<rt>くわえる</rt></ruby>",
           "手術後の経過を見る",
-          "一人で<ruby>暮<rt>く</rt></ruby>らす"],
+          "一人で<ruby>暮らす<rt>くらす</rt></ruby>"],
         "answer": 3
       },
       {
         "type": "用法",
-        "text": "「<ruby>加<rt>くわ</rt></ruby>える」の使い方として正しいのはどれか。",
+        "text": "「<ruby>加える<rt>くわえる</rt></ruby>」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["活動を継続する",
           "手術後の経過を見る",
           "若者に多い傾向がある",
-          "メンバーに<ruby>加<rt>くわ</rt></ruby>える"],
+          "メンバーに<ruby>加える<rt>くわえる</rt></ruby>"],
         "answer": 3
       },
       {
@@ -18848,7 +18848,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["賃貸契約を結ぶ",
           "<ruby>議論<rt>ぎろん</rt></ruby>の<ruby>結論<rt>けつろん</rt></ruby>を出す",
           "数量を限定する",
-          "<ruby>即<rt>そく</rt></ruby><ruby>座<rt>すわ</rt></ruby>に行動を起こす"],
+          "<ruby>即<rt>そく</rt></ruby><ruby>座<rt>すわる</rt></ruby>に行動を起こす"],
         "answer": 0
       },
       {
@@ -18857,16 +18857,16 @@ window.MOCK_DATA['N2'] = {
         "question": "正しい使い方は？",
         "options": ["<ruby>議論<rt>ぎろん</rt></ruby>の<ruby>結論<rt>けつろん</rt></ruby>を出す",
           "数量を限定する",
-          "<ruby>即<rt>そく</rt></ruby><ruby>座<rt>すわ</rt></ruby>に行動を起こす",
-          "<ruby>期<rt>き</rt></ruby>待通りの<ruby>効果<rt>こうか</rt></ruby>がある"],
+          "<ruby>即<rt>そく</rt></ruby><ruby>座<rt>すわる</rt></ruby>に行動を起こす",
+          "<ruby>期待<rt>きたい</rt></ruby>通りの<ruby>効果<rt>こうか</rt></ruby>がある"],
         "answer": 0
       },
       {
         "type": "用法",
         "text": "「限定」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
-        "options": ["<ruby>期<rt>き</rt></ruby>待通りの<ruby>効果<rt>こうか</rt></ruby>がある",
-          "<ruby>即<rt>そく</rt></ruby><ruby>座<rt>すわ</rt></ruby>に行動を起こす",
+        "options": ["<ruby>期待<rt>きたい</rt></ruby>通りの<ruby>効果<rt>こうか</rt></ruby>がある",
+          "<ruby>即<rt>そく</rt></ruby><ruby>座<rt>すわる</rt></ruby>に行動を起こす",
           "数量を限定する",
           "チームに貢献する"],
         "answer": 2
@@ -18905,10 +18905,10 @@ window.MOCK_DATA['N2'] = {
         "type": "言い換え",
         "text": "運営することが大切だの意味は？",
         "question": "意味が近いのは？",
-        "options": ["付<ruby>加<rt>くわ</rt></ruby>価値",
+        "options": ["<ruby>付加価値<rt>ふかかち</rt></ruby>",
           "経営する",
           "完全",
-          "<ruby>絡<rt>から</rt></ruby>む"],
+          "<ruby>絡む<rt>からむ</rt></ruby>"],
         "answer": 1
       },
       {
@@ -18916,7 +18916,7 @@ window.MOCK_DATA['N2'] = {
         "text": "資源を活用するの意味は？",
         "question": "意味が近いのは？",
         "options": ["<ruby>廃止<rt>はいし</rt></ruby>",
-          "入<ruby>荷<rt>にな</rt></ruby>",
+          "<ruby>入荷<rt>にゅうか</rt></ruby>",
           "利用する",
           "狭める"],
         "answer": 2
@@ -18947,7 +18947,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>女は医者で（  　）、<ruby>作家<rt>さっか</rt></ruby>でもあるね。",
+        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は医者で（  　）、<ruby>作家<rt>さっか</rt></ruby>でもあるね。",
         "question": "（　）に入るのは？",
         "options": ["あって",
           "あるのに",
@@ -18980,7 +18980,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>女は医者で（　）、<ruby>作家<rt>さっか</rt></ruby>でもあるか。",
+        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は医者で（　）、<ruby>作家<rt>さっか</rt></ruby>でもあるか。",
         "question": "（　）に入るのは？",
         "options": ["あるのに",
           "ありながら",
@@ -19013,7 +19013,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>女は医者で（　）、<ruby>作家<rt>さっか</rt></ruby>でもあるな。",
+        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は医者で（　）、<ruby>作家<rt>さっか</rt></ruby>でもあるな。",
         "question": "（　）に入るのは？",
         "options": ["ありながら",
           "ありつつ",
@@ -19046,7 +19046,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>女は医者で（ 　）、<ruby>作家<rt>さっか</rt></ruby>でもあるよ。",
+        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は医者で（ 　）、<ruby>作家<rt>さっか</rt></ruby>でもあるよ。",
         "question": "（　）に入るのは？",
         "options": ["ありながら",
           "あって",
@@ -19068,12 +19068,12 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問387（N4レベル）】次の語句を正しい順序に並べてください：一<ruby>緒<rt>お</rt></ruby>に / です / 友達と / <ruby>旅行<rt>りょこう</rt></ruby>に / 行きたい",
+        "text": "【ビジネス・問387（N4レベル）】次の語句を正しい順序に並べてください：<ruby>一緒<rt>いっしょ</rt></ruby>に / です / 友達と / <ruby>旅行<rt>りょこう</rt></ruby>に / 行きたい",
         "question": "正しい順序は？",
-        "options": ["です 行きたい <ruby>旅行<rt>りょこう</rt></ruby>に 一<ruby>緒<rt>お</rt></ruby>に 友達と",
-          "です 友達と 一<ruby>緒<rt>お</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい",
-          "一<ruby>緒<rt>お</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい です 友達と",
-          "友達と一<ruby>緒<rt>お</rt></ruby>に<ruby>旅行<rt>りょこう</rt></ruby>に行きたいです"],
+        "options": ["です 行きたい <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>一緒<rt>いっしょ</rt></ruby>に 友達と",
+          "です 友達と <ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい",
+          "<ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>旅行<rt>りょこう</rt></ruby>に 行きたい です 友達と",
+          "友達と<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>旅行<rt>りょこう</rt></ruby>に行きたいです"],
         "answer": 0,
         "id": "N2-18-046"
       },
@@ -19147,7 +19147,7 @@ window.MOCK_DATA['N2'] = {
         "type": "読解（短文）",
         "text": "情報化社会では情報を正しく判断する力が重要である。（問86）",
         "question": "重要なのは何か。",
-        "options": ["<ruby>記憶<rt>きおく</rt></ruby>力",
+        "options": ["<ruby>記憶力<rt>きおくりょく</rt></ruby>",
           "計算力",
           "情報収集",
           "正しく判断する力"],
@@ -19167,12 +19167,12 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "多様性を認め合う社会の実現が<ruby>求<rt>もと</rt></ruby>められている。（問87）",
-        "question": "<ruby>求<rt>もと</rt></ruby>められているのは何か。",
+        "text": "多様性を認め合う社会の実現が<ruby>求<rt>もとめる</rt></ruby>められている。（問87）",
+        "question": "<ruby>求<rt>もとめる</rt></ruby>められているのは何か。",
         "options": ["<ruby>閉鎖<rt>へいさ</rt></ruby>社会",
           "均一性",
           "多様性を認める社会",
-          "<ruby>競<rt>きそ</rt></ruby>争社会"],
+          "<ruby>競争<rt>きょうそう</rt></ruby>社会"],
         "answer": 2,
         "id": "N2-18-056"
       },
@@ -19224,7 +19224,7 @@ window.MOCK_DATA['N2'] = {
         "type": "読解（中文）",
         "text": "多様性を尊重する社会では全ての人が<ruby>活躍<rt>かつやく</rt></ruby>できる。違いを強みとして活かすことが重要だ。（問154）",
         "question": "多様性社会とは何か。",
-        "options": ["<ruby>競<rt>きそ</rt></ruby>争社会",
+        "options": ["<ruby>競争<rt>きょうそう</rt></ruby>社会",
           "同じ人だけ",
           "<ruby>閉鎖<rt>へいさ</rt></ruby>社会",
           "全員が<ruby>活躍<rt>かつやく</rt></ruby>できる"],
@@ -19233,11 +19233,11 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（中文）",
-        "text": "時間<ruby>管理<rt>かんり</rt></ruby>では優先順<ruby>位<rt>くら</rt></ruby>をつけ重要な仕事から取り組む。<ruby>完璧<rt>かんぺき</rt></ruby>を<ruby>求<rt>もと</rt></ruby>めすぎないことも大切だ。（問155）",
+        "text": "時間<ruby>管理<rt>かんり</rt></ruby>では<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>をつけ重要な仕事から取り組む。<ruby>完璧<rt>かんぺき</rt></ruby>を<ruby>求<rt>もとめる</rt></ruby>めすぎないことも大切だ。（問155）",
         "question": "大切なのは何か。",
         "options": ["<ruby>完璧<rt>かんぺき</rt></ruby>主義",
-          "優先順<ruby>位<rt>くら</rt></ruby>",
-          "後<ruby>回<rt>まわ</rt></ruby>し",
+          "<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>",
+          "<ruby>後回し<rt>あとまわし</rt></ruby>",
           "全部同時"],
         "answer": 1,
         "id": "N2-18-061"
@@ -19259,7 +19259,7 @@ window.MOCK_DATA['N2'] = {
         "question": "失敗について何と言っているか。",
         "options": ["無意味",
           "成功へのステップ",
-          "<ruby>避<rt>さ</rt></ruby>ける",
+          "<ruby>避ける<rt>さける</rt></ruby>",
           "恥ずかしい"],
         "answer": 1,
         "id": "N2-18-063"
@@ -19279,7 +19279,7 @@ window.MOCK_DATA['N2'] = {
         "type": "読解（中文）",
         "text": "チームワークは組織の成功に欠かせない。強みを活かし弱みを<ruby>補<rt>おぎな</rt></ruby>い合うことが大切だ。（問159）",
         "question": "大切なのは何か。",
-        "options": ["<ruby>競<rt>きそ</rt></ruby>争",
+        "options": ["<ruby>競争<rt>きょうそう</rt></ruby>",
           "一人で頑張る",
           "強みを活かす",
           "命令"],
@@ -19337,17 +19337,17 @@ window.MOCK_DATA['N2'] = {
         "question": "分かることは何か。",
         "options": ["会議は悪い",
           "会議は不要",
-          "会議は<ruby>良<rt>りょう</rt></ruby>い",
+          "会議は<ruby>良い<rt>よい</rt></ruby>",
           "メリットとデメリットがある"],
         "answer": 2,
         "id": "N2-18-070",
-        "script": "話者A：この問題については、会議は<ruby>良<rt>りょう</rt></ruby>いという点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：ええ。その通りだと思います。"
+        "script": "話者A：この問題については、会議は<ruby>良い<rt>よい</rt></ruby>という点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：ええ。その通りだと思います。"
       },
       {
         "type": "主張理解（長文）",
         "text": "変化を恐れるより変化を楽しむ<ruby>姿勢<rt>しせい</rt></ruby>が大切だ。変化は成長の機会でもある。",
         "question": "変化について正しいのは何か。",
-        "options": ["<ruby>避<rt>さ</rt></ruby>ける",
+        "options": ["<ruby>避ける<rt>さける</rt></ruby>",
           "楽しむ",
           "恐れる",
           "関係ない"],
@@ -19367,28 +19367,28 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "<ruby>睡眠<rt>すいみん</rt></ruby>は生産性に<ruby>直<rt>なお</rt></ruby>結する。十分な<ruby>睡眠<rt>すいみん</rt></ruby>を取ることが効率的な仕事につながる。",
+        "text": "<ruby>睡眠<rt>すいみん</rt></ruby>は生産性に<ruby>直<rt>なおす</rt></ruby>結する。十分な<ruby>睡眠<rt>すいみん</rt></ruby>を取ることが効率的な仕事につながる。",
         "question": "<ruby>睡眠<rt>すいみん</rt></ruby>について正しいのは何か。",
         "options": ["関係ない",
-          "生産性に<ruby>直<rt>なお</rt></ruby>結",
+          "生産性に<ruby>直<rt>なおす</rt></ruby>結",
           "少ない方がよい",
-          "<ruby>削<rt>けず</rt></ruby>るべき"],
+          "<ruby>削る<rt>けずる</rt></ruby>べき"],
         "answer": 0,
         "id": "N2-18-073"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
-        "text": "【カーシェア】15分220円、6時間パック4,000円。ガソリン代<ruby>込<rt>こ</rt></ruby>み。",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
+        "text": "【カーシェア】15分220円、6時間パック4,000円。ガソリン代<ruby>込<rt>こむ</rt></ruby>み。",
         "question": "正しいのは何か。",
         "options": ["6時間5,000円",
-          "ガソリン代<ruby>込<rt>こ</rt></ruby>み",
+          "ガソリン代<ruby>込<rt>こむ</rt></ruby>み",
           "ガソリン別",
           "15分100円"],
         "answer": 3,
         "id": "N2-18-074"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
         "text": "【ゴルフ<ruby>練習<rt>れんしゅう</rt></ruby>場】1球10円、打ち放題1時間1,500円。クラブレンタル300円。",
         "question": "正しいのは何か。",
         "options": ["1球20円",
@@ -19399,10 +19399,10 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-18-075"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "上司と部下が話しています。部下はこのあと何をしますか。（86）",
         "question": "何をしますか。",
-        "options": ["クライアントに<ruby>連絡<rt>れんらく</rt></ruby>する",
+        "options": ["クライアントに<ruby>連絡する<rt>れんらくする</rt></ruby>",
           "会議を設定する",
           "データを確認する",
           "報告書を作成する"],
@@ -19411,7 +19411,7 @@ window.MOCK_DATA['N2'] = {
         "script": "男：それでは、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：データを確認していただけますか。\n女：<ruby>了解<rt>りょうかい</rt></ruby>です、すぐに対応します。【セット18問44】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "受付と来客が話しています。来客はこのあと何をしますか。（87）",
         "question": "何をしますか。",
         "options": ["書類に<ruby>記入<rt>きにゅう</rt></ruby>する",
@@ -19423,11 +19423,11 @@ window.MOCK_DATA['N2'] = {
         "script": "男：えーと、この件について進め方を検討しましょう。\n女：そうですか、何をすればよいでしょうか。\n男：まず書類に<ruby>記入<rt>きにゅう</rt></ruby>してください。\n女：承知しました。よろしくお願いします。【セット18問45】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "<ruby>旅行<rt>りょこう</rt></ruby>会社の人と客が話しています。客はこのあと何をしますか。（88）",
         "question": "何をしますか。",
         "options": ["予約をキャンセルする",
-          "<ruby>追加<rt>ついか</rt></ruby>料金を<ruby>払<rt>はら</rt></ruby>う",
+          "<ruby>追加<rt>ついか</rt></ruby>料金を<ruby>払う<rt>はらう</rt></ruby>",
           "パンフレットを見る",
           "別のプランを選ぶ"],
         "answer": 2,
@@ -19435,7 +19435,7 @@ window.MOCK_DATA['N2'] = {
         "script": "男：次の段階に進む準備ができましたね。\n女：あのう、はい、何から始めましょうか。\n男：パンフレットを見るください。\n女：うん。お願いします。【セット18問46】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "銀行員と客が話しています。客はこのあと何をしますか。（89）",
         "question": "何をしますか。",
         "options": ["窓口で待つ",
@@ -19447,12 +19447,12 @@ window.MOCK_DATA['N2'] = {
         "script": "男：すみません、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：書類に<ruby>記入<rt>きにゅう</rt></ruby>していただけますか。\n女：はい、すぐに対応します。【セット18問47】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "不動産屋と客が話しています。客はこのあと何をしますか。（90）",
         "question": "何をしますか。",
         "options": ["物件を見に行く",
           "保証人を探す",
-          "引っ<ruby>越<rt>こ</rt></ruby>し日を決める",
+          "<ruby>引っ越し<rt>ひっこし</rt></ruby>日を決める",
           "契約書を確認する"],
         "answer": 0,
         "id": "N2-18-080",
@@ -19483,7 +19483,7 @@ window.MOCK_DATA['N2'] = {
         "script": "使いやすさが最も重要な要素です。様々な観点から検討しましたが、これが最も重要です。【セット18問50】"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "電車で「よろしくお願いします」と言われました。（問204）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -19498,7 +19498,7 @@ window.MOCK_DATA['N2'] = {
         "text": "プレゼンを聞いています。この提案のメリットは何ですか。（106）",
         "question": "メリットは何ですか。",
         "options": ["リスク低減",
-          "コスト<ruby>削減<rt>さくげん</rt></ruby>",
+          "<ruby>コスト削減<rt>こすとさくげん</rt></ruby>",
           "顧客満足度向上",
           "効率化"],
         "answer": 3,
@@ -19519,7 +19519,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "ポイント理解",
-        "text": "ラジオを聞いています。専門<ruby>家<rt>いえ</rt></ruby>が心配しているのは何ですか。（108）",
+        "text": "ラジオを聞いています。<ruby>専門家<rt>せんもんか</rt></ruby>が心配しているのは何ですか。（108）",
         "question": "心配しているのは？",
         "options": ["経済への影響",
           "環境への影響",
@@ -19542,13 +19542,13 @@ window.MOCK_DATA['N2'] = {
         "script": "<ruby>今回<rt>こんかい</rt></ruby>のテーマは計画についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。【セット18問55】"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "会議室で「すみません」と言われました。（問216）",
         "question": "返答は？",
         "options": ["わかりません",
           "いいえ、行きません",
           "はい、食べました",
-          "いいえ、大<ruby>丈<rt>たけ</rt></ruby>夫です"],
+          "いいえ、<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>です"],
         "answer": 1,
         "id": "N2-18-103"
       },
@@ -19589,7 +19589,7 @@ window.MOCK_DATA['N2'] = {
         "script": "<ruby>今回<rt>こんかい</rt></ruby>お伝えしたいのは過去の経験についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。【セット18問59】"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "エレベーターで「おはようございます」と言われました。（問205）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
@@ -19600,7 +19600,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-18-092"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "受付で「初めまして」と言われました。（問199）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
@@ -19611,7 +19611,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-17-098"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "受付で「こんばんは」と言われました。（問207）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
@@ -19622,8 +19622,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-18-094"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "会議室で「お先に失<ruby>礼<rt>れい</rt></ruby>します」と言われました。（問208）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "会議室で「お先に<ruby>失礼<rt>しつれい</rt></ruby>します」と言われました。（問208）",
         "question": "返答は？",
         "options": ["わかりません",
           "はい、食べました",
@@ -19633,7 +19633,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-18-095"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "オフィスで「いってきます」と言われました。（問209）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -19644,7 +19644,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-18-096"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "学校で「ただいま」と言われました。（問210）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -19655,7 +19655,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-18-097"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "電車で「お元気ですか」と言われました。（問212）",
         "question": "返答は？",
         "options": ["おかげさまで元気です",
@@ -19666,7 +19666,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-18-099"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お店で「今日は暑いですね」と言われました。（問211）",
         "question": "返答は？",
         "options": ["本当ですね",
@@ -19677,7 +19677,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-18-098"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "エレベーターで「お久しぶりです」と言われました。（問213）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
@@ -19688,7 +19688,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-18-100"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "<ruby>廊下<rt>ろうか</rt></ruby>で「初めまして」と言われました。（問214）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -19699,7 +19699,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-18-101"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "受付で「ありがとうございます」と言われました。（問215）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -19772,17 +19772,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>がくしゅうしどう</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["学習指導",
           "正社員",
-          "<ruby>暫定的<rt>ざんていてき</rt></ruby>な",
+          "<ruby>暫定的な<rt>ざんていてきな</rt></ruby>",
           "損害"],
         "answer": 0
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>けんぴん</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["勝ち",
@@ -19792,17 +19792,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 1
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>かんしょく</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["ロボット工学",
           "認可する",
           "間食",
-          "参<ruby>加<rt>くわ</rt></ruby>"],
+          "<ruby>参加<rt>さんか</rt></ruby>"],
         "answer": 2
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>よさんへんせい</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["配当",
@@ -19812,13 +19812,13 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>つく</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["企画書",
           "付く",
           "<ruby>今回<rt>こんかい</rt></ruby>",
-          "<ruby>暴<rt>ぼう</rt></ruby><ruby>騰<rt>とう</rt></ruby>する"],
+          "<ruby>暴騰する<rt>ぼうとうする</rt></ruby>"],
         "answer": 1
       },
       {
@@ -19875,10 +19875,10 @@ window.MOCK_DATA['N2'] = {
         "type": "用法",
         "text": "「行動」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
-        "options": ["<ruby>即<rt>そく</rt></ruby><ruby>座<rt>すわ</rt></ruby>に行動を起こす",
-          "<ruby>期<rt>き</rt></ruby>待通りの<ruby>効果<rt>こうか</rt></ruby>がある",
+        "options": ["<ruby>即<rt>そく</rt></ruby><ruby>座<rt>すわる</rt></ruby>に行動を起こす",
+          "<ruby>期待<rt>きたい</rt></ruby>通りの<ruby>効果<rt>こうか</rt></ruby>がある",
           "チームに貢献する",
-          "業務効率を<ruby>改<rt>あら</rt></ruby>善する"],
+          "業務効率を<ruby>改善<rt>かいぜん</rt></ruby>する"],
         "answer": 0
       },
       {
@@ -19886,8 +19886,8 @@ window.MOCK_DATA['N2'] = {
         "text": "「<ruby>効果<rt>こうか</rt></ruby>」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["チームに貢献する",
-          "<ruby>期<rt>き</rt></ruby>待通りの<ruby>効果<rt>こうか</rt></ruby>がある",
-          "業務効率を<ruby>改<rt>あら</rt></ruby>善する",
+          "<ruby>期待<rt>きたい</rt></ruby>通りの<ruby>効果<rt>こうか</rt></ruby>がある",
+          "業務効率を<ruby>改善<rt>かいぜん</rt></ruby>する",
           "弱点を<ruby>克服<rt>こくふく</rt></ruby>する"],
         "answer": 1
       },
@@ -19896,7 +19896,7 @@ window.MOCK_DATA['N2'] = {
         "text": "「貢献」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["弱点を<ruby>克服<rt>こくふく</rt></ruby>する",
-          "業務効率を<ruby>改<rt>あら</rt></ruby>善する",
+          "業務効率を<ruby>改善<rt>かいぜん</rt></ruby>する",
           "チームに貢献する",
           "こすることが大切だ"],
         "answer": 2
@@ -19908,7 +19908,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["事考える",
           "弱点を<ruby>克服<rt>こくふく</rt></ruby>する",
           "こすることが大切だ",
-          "業務効率を<ruby>改<rt>あら</rt></ruby>善する"],
+          "業務効率を<ruby>改善<rt>かいぜん</rt></ruby>する"],
         "answer": 3
       },
       {
@@ -19948,7 +19948,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["コンビニ考える",
           "科学的な<ruby>根拠<rt>こんきょ</rt></ruby>を示す",
           "新技術を採用する",
-          "コストを<ruby>削減<rt>さくげん</rt></ruby>する"],
+          "コストを<ruby>削減する<rt>さくげんする</rt></ruby>"],
         "answer": 1
       },
       {
@@ -19957,7 +19957,7 @@ window.MOCK_DATA['N2'] = {
         "question": "正しい使い方は？",
         "options": ["新技術を採用する",
           "コンビニ考える",
-          "コストを<ruby>削減<rt>さくげん</rt></ruby>する",
+          "コストを<ruby>削減する<rt>さくげんする</rt></ruby>",
           "企画書を作成する"],
         "answer": 1
       },
@@ -19966,7 +19966,7 @@ window.MOCK_DATA['N2'] = {
         "text": "「採用」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["さらに考える",
-          "コストを<ruby>削減<rt>さくげん</rt></ruby>する",
+          "コストを<ruby>削減する<rt>さくげんする</rt></ruby>",
           "企画書を作成する",
           "新技術を採用する"],
         "answer": 3
@@ -19977,7 +19977,7 @@ window.MOCK_DATA['N2'] = {
         "question": "正しい使い方は？",
         "options": ["さらに考える",
           "企画書を作成する",
-          "コストを<ruby>削減<rt>さくげん</rt></ruby>する",
+          "コストを<ruby>削減する<rt>さくげんする</rt></ruby>",
           "マニュアルを参照する"],
         "answer": 2
       },
@@ -20083,7 +20083,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "<ruby>労働<rt>ろうどう</rt></ruby>環境を<ruby>改<rt>あら</rt></ruby>善するの意味は？",
+        "text": "<ruby>労働<rt>ろうどう</rt></ruby>環境を<ruby>改善<rt>かいぜん</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": ["税務",
           "疑い",
@@ -20117,7 +20117,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>女は医者で（　）、<ruby>作家<rt>さっか</rt></ruby>でもあるぞ。",
+        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は医者で（　）、<ruby>作家<rt>さっか</rt></ruby>でもあるぞ。",
         "question": "（　）に入るのは？",
         "options": ["あって",
           "ありつつ",
@@ -20150,7 +20150,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>女は医者で（　）、<ruby>作家<rt>さっか</rt></ruby>でもあるね。    ",
+        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は医者で（　）、<ruby>作家<rt>さっか</rt></ruby>でもあるね。    ",
         "question": "（　）に入るのは？",
         "options": ["ありながら",
           "あるのに",
@@ -20183,7 +20183,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>女は医者で（　）、<ruby>作家<rt>さっか</rt></ruby>でもあるね。      ",
+        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は医者で（　）、<ruby>作家<rt>さっか</rt></ruby>でもあるね。      ",
         "question": "（　）に入るのは？",
         "options": ["あって",
           "ありながら",
@@ -20216,7 +20216,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>女は医者で（　）、<ruby>作家<rt>さっか</rt></ruby>でもあるよ。  ",
+        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は医者で（　）、<ruby>作家<rt>さっか</rt></ruby>でもあるよ。  ",
         "question": "（　）に入るのは？",
         "options": ["あって",
           "ありつつ",
@@ -20227,23 +20227,23 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文の組み立て",
-        "text": "【日常会話・問391（N5レベル）】次の語句を正しい順序に並べてください：私は / 読みました / <ruby>昨<rt>さく</rt></ruby>日 / 図書館で / 本を",
+        "text": "【日常会話・問391（N5レベル）】次の語句を正しい順序に並べてください：私は / 読みました / <ruby>昨日<rt>きのう</rt></ruby> / 図書館で / 本を",
         "question": "正しい順序は？",
-        "options": ["私は<ruby>昨<rt>さく</rt></ruby>日図書館で本を読みました",
-          "読みました 私は <ruby>昨<rt>さく</rt></ruby>日 図書館で 本を",
-          "読みました 本を 図書館で <ruby>昨<rt>さく</rt></ruby>日 私は",
-          "<ruby>昨<rt>さく</rt></ruby>日 図書館で 本を 読みました 私は"],
+        "options": ["私は<ruby>昨日<rt>きのう</rt></ruby>図書館で本を読みました",
+          "読みました 私は <ruby>昨日<rt>きのう</rt></ruby> 図書館で 本を",
+          "読みました 本を 図書館で <ruby>昨日<rt>きのう</rt></ruby> 私は",
+          "<ruby>昨日<rt>きのう</rt></ruby> 図書館で 本を 読みました 私は"],
         "answer": 1,
         "id": "N2-19-045"
       },
       {
         "type": "文の組み立て",
-        "text": "【ビジネス・問392（N4レベル）】次の語句を正しい順序に並べてください：公園を / 毎朝 / します / 散歩 / <ruby>彼<rt>かれ</rt></ruby>女は",
+        "text": "【ビジネス・問392（N4レベル）】次の語句を正しい順序に並べてください：公園を / 毎朝 / します / 散歩 / <ruby>彼女<rt>かのじょ</rt></ruby>は",
         "question": "正しい順序は？",
-        "options": ["します <ruby>彼<rt>かれ</rt></ruby>女は 毎朝 公園を 散歩",
-          "<ruby>彼<rt>かれ</rt></ruby>女は毎朝公園を散歩します",
-          "します 散歩 公園を 毎朝 <ruby>彼<rt>かれ</rt></ruby>女は",
-          "毎朝 公園を 散歩 します <ruby>彼<rt>かれ</rt></ruby>女は"],
+        "options": ["します <ruby>彼女<rt>かのじょ</rt></ruby>は 毎朝 公園を 散歩",
+          "<ruby>彼女<rt>かのじょ</rt></ruby>は毎朝公園を散歩します",
+          "します 散歩 公園を 毎朝 <ruby>彼女<rt>かのじょ</rt></ruby>は",
+          "毎朝 公園を 散歩 します <ruby>彼女<rt>かのじょ</rt></ruby>は"],
         "answer": 3,
         "id": "N2-19-046"
       },
@@ -20329,7 +20329,7 @@ window.MOCK_DATA['N2'] = {
         "text": "予想（　）、売り上げは減少した。（395）",
         "question": "（　）に入るのは？",
         "options": ["に反して",
-          "に<ruby>沿<rt>そ</rt></ruby>って",
+          "に<ruby>沿って<rt>そって</rt></ruby>",
           "どおり",
           "通り"],
         "answer": 0,
@@ -20350,10 +20350,10 @@ window.MOCK_DATA['N2'] = {
         "type": "読解（短文）",
         "text": "チームワークでは強みを活かし弱みを<ruby>補<rt>おぎな</rt></ruby>い合うことが大切だ。（問92）",
         "question": "大切なのは何か。",
-        "options": ["強みと弱みを<ruby>補<rt>おぎな</rt></ruby>う",
+        "options": ["強みと弱みを<ruby>補う<rt>おぎなう</rt></ruby>",
           "命令",
           "一人で頑張る",
-          "<ruby>競<rt>きそ</rt></ruby>争"],
+          "<ruby>競争<rt>きょうそう</rt></ruby>"],
         "answer": 0,
         "id": "N2-19-056"
       },
@@ -20381,11 +20381,11 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（短文）",
-        "text": "時間<ruby>管理<rt>かんり</rt></ruby>では優先順<ruby>位<rt>くら</rt></ruby>をつけることが基本である。（問95）",
+        "text": "時間<ruby>管理<rt>かんり</rt></ruby>では<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>をつけることが基本である。（問95）",
         "question": "基本は何か。",
         "options": ["<ruby>完璧<rt>かんぺき</rt></ruby>主義",
-          "優先順<ruby>位<rt>くら</rt></ruby>",
-          "後<ruby>回<rt>まわ</rt></ruby>し",
+          "<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>",
+          "<ruby>後回し<rt>あとまわし</rt></ruby>",
           "全部同時"],
         "answer": 1,
         "id": "N2-19-059"
@@ -20407,16 +20407,16 @@ window.MOCK_DATA['N2'] = {
         "question": "重要なのは何か。",
         "options": ["生産性向上と多様性",
           "時間短縮だけ",
-          "休み増<ruby>加<rt>くわ</rt></ruby>",
-          "<ruby>給<rt>きゅう</rt></ruby>料アップ"],
+          "休み<ruby>増加<rt>ぞうか</rt></ruby>",
+          "<ruby>給料<rt>きゅうりょう</rt></ruby>アップ"],
         "answer": 0,
         "id": "N2-19-061"
       },
       {
         "type": "読解（中文）",
-        "text": "教育では知識詰め<ruby>込<rt>こ</rt></ruby>みから思考力重視への転換が<ruby>求<rt>もと</rt></ruby>められている。社会で<ruby>活躍<rt>かつやく</rt></ruby>できる<ruby>人材育成<rt>じんざいいくせい</rt></ruby>が目標だ。（問165）",
-        "question": "<ruby>求<rt>もと</rt></ruby>められているのは何か。",
-        "options": ["知識詰め<ruby>込<rt>こ</rt></ruby>み",
+        "text": "教育では知識詰め<ruby>込<rt>こむ</rt></ruby>みから思考力重視への転換が<ruby>求<rt>もとめる</rt></ruby>められている。社会で<ruby>活躍<rt>かつやく</rt></ruby>できる<ruby>人材育成<rt>じんざいいくせい</rt></ruby>が目標だ。（問165）",
+        "question": "<ruby>求<rt>もとめる</rt></ruby>められているのは何か。",
+        "options": ["知識詰め<ruby>込<rt>こむ</rt></ruby>み",
           "不要",
           "テスト重視",
           "思考力重視"],
@@ -20462,17 +20462,17 @@ window.MOCK_DATA['N2'] = {
         "question": "多様性社会とは何か。",
         "options": ["<ruby>閉鎖<rt>へいさ</rt></ruby>社会",
           "全員が<ruby>活躍<rt>かつやく</rt></ruby>できる",
-          "<ruby>競<rt>きそ</rt></ruby>争社会",
+          "<ruby>競争<rt>きょうそう</rt></ruby>社会",
           "同じ人だけ"],
         "answer": 1,
         "id": "N2-19-066"
       },
       {
         "type": "読解（中文）",
-        "text": "時間<ruby>管理<rt>かんり</rt></ruby>では優先順<ruby>位<rt>くら</rt></ruby>をつけ重要な仕事から取り組む。<ruby>完璧<rt>かんぺき</rt></ruby>を<ruby>求<rt>もと</rt></ruby>めすぎないことも大切だ。（問170）",
+        "text": "時間<ruby>管理<rt>かんり</rt></ruby>では<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>をつけ重要な仕事から取り組む。<ruby>完璧<rt>かんぺき</rt></ruby>を<ruby>求<rt>もとめる</rt></ruby>めすぎないことも大切だ。（問170）",
         "question": "大切なのは何か。",
-        "options": ["優先順<ruby>位<rt>くら</rt></ruby>",
-          "後<ruby>回<rt>まわ</rt></ruby>し",
+        "options": ["<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>",
+          "<ruby>後回し<rt>あとまわし</rt></ruby>",
           "<ruby>完璧<rt>かんぺき</rt></ruby>主義",
           "全部同時"],
         "answer": 0,
@@ -20496,10 +20496,10 @@ window.MOCK_DATA['N2'] = {
         "options": ["転職は悪い",
           "メリットとリスクがある",
           "転職は不要",
-          "転職は<ruby>良<rt>りょう</rt></ruby>い"],
+          "転職は<ruby>良い<rt>よい</rt></ruby>"],
         "answer": 3,
         "id": "N2-19-069",
-        "script": "話者A：この問題については、転職は<ruby>良<rt>りょう</rt></ruby>いという点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：はい。その通りだと思います。"
+        "script": "話者A：この問題については、転職は<ruby>良い<rt>よい</rt></ruby>という点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：はい。その通りだと思います。"
       },
       {
         "type": "統合理解",
@@ -20547,8 +20547,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-19-073"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
-        "text": "【音楽教室】ピアノ月4<ruby>回<rt>まわ</rt></ruby>10,000円、ギター月4<ruby>回<rt>まわ</rt></ruby>8,000円。楽器レンタルあり。",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
+        "text": "【音楽教室】ピアノ月4<ruby>回<rt>まわす</rt></ruby>10,000円、ギター月4<ruby>回<rt>まわす</rt></ruby>8,000円。楽器レンタルあり。",
         "question": "正しいのは何か。",
         "options": ["レンタルなし",
           "楽器レンタルあり",
@@ -20558,7 +20558,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-19-074"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
         "text": "【ハウスクリーニング】1R 15,000円、2LDK 30,000円。エアコン清掃8,000円。",
         "question": "正しいのは何か。",
         "options": ["エアコン15,000円",
@@ -20569,8 +20569,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-19-075"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
-        "text": "同<ruby>僚<rt>りょう</rt></ruby>同士が話しています。男の人はこのあと何をしますか。（91）",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
+        "text": "<ruby>同僚<rt>どうりょう</rt></ruby>同士が話しています。男の人はこのあと何をしますか。（91）",
         "question": "何をしますか。",
         "options": ["資料を<ruby>印<rt>しるし</rt></ruby><ruby>刷<rt>さつ</rt></ruby>する",
           "上司に報告する",
@@ -20581,7 +20581,7 @@ window.MOCK_DATA['N2'] = {
         "script": "男：それでは、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：資料を<ruby>印<rt>しるし</rt></ruby><ruby>刷<rt>さつ</rt></ruby>していただけますか。\n女：<ruby>了解<rt>りょうかい</rt></ruby>です、すぐに対応します。【セット19問44】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "友人同士が話しています。女の人はこのあと何をしますか。（92）",
         "question": "何をしますか。",
         "options": ["チケットを買う",
@@ -20593,7 +20593,7 @@ window.MOCK_DATA['N2'] = {
         "script": "男：えーと、この件について進め方を検討しましょう。\n女：そうですか、何をすればよいでしょうか。\n男：まず駅で待ち合わせるください。\n女：承知しました。よろしくお願いします。【セット19問45】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "親子が話しています。子供はこのあと何をしますか。（93）",
         "question": "何をしますか。",
         "options": ["宿題をする",
@@ -20605,7 +20605,7 @@ window.MOCK_DATA['N2'] = {
         "script": "男：次の段階に進む準備ができましたね。\n女：あのう、はい、何から始めましょうか。\n男：宿題をしてください。\n女：うん。お願いします。【セット19問46】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "店員と客が話しています。店員はこのあと何をしますか。（94）",
         "question": "何をしますか。",
         "options": ["商品を包<ruby>装<rt>そう</rt></ruby>する",
@@ -20617,13 +20617,13 @@ window.MOCK_DATA['N2'] = {
         "script": "男：すみません、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：在庫を確認していただけますか。\n女：はい、すぐに対応します。【セット19問47】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "教授と学生が話しています。学生は何をすべきですか。（95）",
         "question": "何をすべきですか。",
         "options": ["参考文献を<ruby>追加<rt>ついか</rt></ruby>する",
           "構成を変更する",
-          "<ruby>結論<rt>けつろん</rt></ruby>を書き<ruby>直<rt>なお</rt></ruby>す",
-          "データを再<ruby>分析<rt>ぶんせき</rt></ruby>する"],
+          "<ruby>結論<rt>けつろん</rt></ruby>を書き<ruby>直す<rt>なおす</rt></ruby>",
+          "データを再<ruby>分析する<rt>ぶんせきする</rt></ruby>"],
         "answer": 0,
         "id": "N2-19-080",
         "script": "男：ちょっと、この件について進め方を検討しましょう。\n女：ええ、何をすればよいでしょうか。\n男：まず参考文献を<ruby>追加<rt>ついか</rt></ruby>してください。\n女：承知しました。早速取りかかります。【セット19問48】"
@@ -20645,9 +20645,9 @@ window.MOCK_DATA['N2'] = {
         "text": "スピーチを聞いています。話者が<ruby>感謝<rt>かんしゃ</rt></ruby>しているのは何ですか。（110）",
         "question": "<ruby>感謝<rt>かんしゃ</rt></ruby>しているのは？",
         "options": ["顧客の信頼",
-          "同<ruby>僚<rt>りょう</rt></ruby>の協力",
+          "<ruby>同僚<rt>どうりょう</rt></ruby>の協力",
           "周囲の支援",
-          "<ruby>家<rt>いえ</rt></ruby>族の理解"],
+          "<ruby>家族<rt>かぞく</rt></ruby>の理解"],
         "answer": 2,
         "id": "N2-19-082",
         "script": "周囲の支援が最も重要な要素です。様々な観点から検討しましたが、これが最も重要です。【セット19問50】"
@@ -20657,9 +20657,9 @@ window.MOCK_DATA['N2'] = {
         "text": "報告を聞いています。問題の解決策として提案されているのは何ですか。（111）",
         "question": "解決策は何ですか。",
         "options": ["ルール変更",
-          "人員増<ruby>加<rt>くわ</rt></ruby>",
+          "人員<ruby>増加<rt>ぞうか</rt></ruby>",
           "研修実<ruby>施<rt>ほどこ</rt></ruby>",
-          "システム<ruby>改<rt>あら</rt></ruby>善"],
+          "システム<ruby>改善<rt>かいぜん</rt></ruby>"],
         "answer": 0,
         "id": "N2-19-083",
         "script": "ルール変更が最も重要な要素です。様々な観点から検討しましたが、ここが肝心なポイントです。【セット19問51】"
@@ -20731,14 +20731,14 @@ window.MOCK_DATA['N2'] = {
         "options": ["中止",
           "継続検討",
           "成功",
-          "<ruby>改<rt>あら</rt></ruby>善必要"],
+          "<ruby>改善<rt>かいぜん</rt></ruby>必要"],
         "answer": 2,
         "id": "N2-19-089",
         "script": "今日の話題は成功についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。【セット19問57】"
       },
       {
         "type": "概要理解",
-        "text": "討<ruby>論<rt>ろん</rt></ruby>を聞いています。主な対立点は何ですか。（94）",
+        "text": "<ruby>討論<rt>とうろん</rt></ruby>を聞いています。主な対立点は何ですか。（94）",
         "question": "対立点は何ですか。",
         "options": ["<ruby>時期<rt>じき</rt></ruby>",
           "費用",
@@ -20755,13 +20755,13 @@ window.MOCK_DATA['N2'] = {
         "options": ["注意事項",
           "日程",
           "場所",
-          "申<ruby>込<rt>こ</rt></ruby>方法"],
+          "<ruby>申込<rt>もうしこみ</rt></ruby>方法"],
         "answer": 0,
         "id": "N2-19-091",
         "script": "<ruby>今回<rt>こんかい</rt></ruby>お伝えしたいのは注意事項についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。【セット19問59】"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "オフィスで「お疲れ様です」と言われました。（問217）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -20772,8 +20772,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-19-092"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "学校で「失<ruby>礼<rt>れい</rt></ruby>します」と言われました。（問218）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "学校で「<ruby>失礼<rt>しつれい</rt></ruby>します」と言われました。（問218）",
         "question": "返答は？",
         "options": ["どうぞ",
           "わかりません",
@@ -20783,7 +20783,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-19-093"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お店で「よろしくお願いします」と言われました。（問219）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -20794,7 +20794,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-19-094"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "電車で「おはようございます」と言われました。（問220）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -20805,7 +20805,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-19-095"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "エレベーターで「こんにちは」と言われました。（問221）",
         "question": "返答は？",
         "options": ["こんにちは",
@@ -20816,8 +20816,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-19-096"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "受付で「お先に失<ruby>礼<rt>れい</rt></ruby>します」と言われました。（問223）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "受付で「お先に<ruby>失礼<rt>しつれい</rt></ruby>します」と言われました。（問223）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
           "お疲れ様でした",
@@ -20827,7 +20827,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-19-098"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "<ruby>廊下<rt>ろうか</rt></ruby>で「こんばんは」と言われました。（問222）",
         "question": "返答は？",
         "options": ["こんばんは",
@@ -20838,7 +20838,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-19-097"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "会議室で「いってきます」と言われました。（問224）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -20849,7 +20849,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-19-099"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お店で「お元気ですか」と言われました。（問227）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
@@ -20860,7 +20860,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-19-102"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "学校で「今日は暑いですね」と言われました。（問226）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
@@ -20871,7 +20871,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-19-101"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "電車で「お久しぶりです」と言われました。（問228）",
         "question": "返答は？",
         "options": ["お久しぶりです、お変わりないですか",
@@ -20882,7 +20882,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-19-103"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "オフィスで「ただいま」と言われました。（問225）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -20943,17 +20943,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>ししゅつ</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["年度計画",
-          "追い<ruby>越<rt>こ</rt></ruby>す",
+          "<ruby>追い越す<rt>おいこす</rt></ruby>",
           "伝達",
           "支出"],
         "answer": 3
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>くる</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["来る",
@@ -20963,17 +20963,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 0
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>あらわれ</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["証券会社",
-          "<ruby>埋<rt>う</rt></ruby>まる",
+          "<ruby>埋まる<rt>うまる</rt></ruby>",
           "現れ",
           "<ruby>結果<rt>けっか</rt></ruby>"],
         "answer": 2
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>くばる</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["並ぶ",
@@ -20983,7 +20983,7 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>せいさんらいん</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["陰性",
@@ -21056,7 +21056,7 @@ window.MOCK_DATA['N2'] = {
         "type": "用法",
         "text": "「指示」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
-        "options": ["学んだことを実<ruby>践<rt>せん</rt></ruby>する",
+        "options": ["学んだことを<ruby>実践<rt>じっせん</rt></ruby>する",
           "計画を実現する",
           "計画を実<ruby>施<rt>ほどこ</rt></ruby>する",
           "上司の指示に従う"],
@@ -21068,7 +21068,7 @@ window.MOCK_DATA['N2'] = {
         "question": "正しい使い方は？",
         "options": ["計画を実<ruby>施<rt>ほどこ</rt></ruby>する",
           "計画を実現する",
-          "学んだことを実<ruby>践<rt>せん</rt></ruby>する",
+          "学んだことを<ruby>実践<rt>じっせん</rt></ruby>する",
           "過去の実績を評価する"],
         "answer": 1
       },
@@ -21077,18 +21077,18 @@ window.MOCK_DATA['N2'] = {
         "text": "「実<ruby>施<rt>ほどこ</rt></ruby>」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["計画を実<ruby>施<rt>ほどこ</rt></ruby>する",
-          "学んだことを実<ruby>践<rt>せん</rt></ruby>する",
+          "学んだことを<ruby>実践<rt>じっせん</rt></ruby>する",
           "過去の実績を評価する",
           "<ruby>嫉妬<rt>しっと</rt></ruby>考える"],
         "answer": 0
       },
       {
         "type": "用法",
-        "text": "「実<ruby>践<rt>せん</rt></ruby>」の使い方として正しいのはどれか。",
+        "text": "「<ruby>実践<rt>じっせん</rt></ruby>」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["<ruby>嫉妬<rt>しっと</rt></ruby>考える",
           "過去の実績を評価する",
-          "学んだことを実<ruby>践<rt>せん</rt></ruby>する",
+          "学んだことを<ruby>実践<rt>じっせん</rt></ruby>する",
           "受取場所を指定する"],
         "answer": 2
       },
@@ -21099,7 +21099,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["<ruby>嫉妬<rt>しっと</rt></ruby>考える",
           "過去の実績を評価する",
           "受取場所を指定する",
-          "選<ruby>択<rt>たく</rt></ruby><ruby>肢<rt>し</rt></ruby>を絞る"],
+          "<ruby>選択肢<rt>せんたくし</rt></ruby>を絞る"],
         "answer": 1
       },
       {
@@ -21108,7 +21108,7 @@ window.MOCK_DATA['N2'] = {
         "question": "正しい使い方は？",
         "options": ["<ruby>嫉妬<rt>しっと</rt></ruby>考える",
           "受取場所を指定する",
-          "選<ruby>択<rt>たく</rt></ruby><ruby>肢<rt>し</rt></ruby>を絞る",
+          "<ruby>選択肢<rt>せんたくし</rt></ruby>を絞る",
           "明確な方針を示す"],
         "answer": 0
       },
@@ -21117,7 +21117,7 @@ window.MOCK_DATA['N2'] = {
         "text": "「指定」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["地元考える",
-          "選<ruby>択<rt>たく</rt></ruby><ruby>肢<rt>し</rt></ruby>を絞る",
+          "<ruby>選択肢<rt>せんたくし</rt></ruby>を絞る",
           "明確な方針を示す",
           "受取場所を指定する"],
         "answer": 3
@@ -21129,7 +21129,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["誤りを修正する",
           "明確な方針を示す",
           "地元考える",
-          "選<ruby>択<rt>たく</rt></ruby><ruby>肢<rt>し</rt></ruby>を絞る"],
+          "<ruby>選択肢<rt>せんたくし</rt></ruby>を絞る"],
         "answer": 3
       },
       {
@@ -21159,7 +21159,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["自分の意見を主張する",
           "最後の手段を使う",
           "誤りを修正する",
-          "市場の<ruby>需<rt>じゅ</rt></ruby>要が増える"],
+          "市場の<ruby>需要<rt>じゅよう</rt></ruby>が増える"],
         "answer": 2
       },
       {
@@ -21168,7 +21168,7 @@ window.MOCK_DATA['N2'] = {
         "question": "正しい使い方は？",
         "options": ["プロジェクトが順調に進む",
           "自分の意見を主張する",
-          "市場の<ruby>需<rt>じゅ</rt></ruby>要が増える",
+          "市場の<ruby>需要<rt>じゅよう</rt></ruby>が増える",
           "最後の手段を使う"],
         "answer": 3
       },
@@ -21177,29 +21177,29 @@ window.MOCK_DATA['N2'] = {
         "text": "「主張」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["プロジェクトが順調に進む",
-          "市場の<ruby>需<rt>じゅ</rt></ruby>要が増える",
+          "市場の<ruby>需要<rt>じゅよう</rt></ruby>が増える",
           "自分の意見を主張する",
           "条件を満たす"],
         "answer": 2
       },
       {
         "type": "用法",
-        "text": "「<ruby>需<rt>じゅ</rt></ruby>要」の使い方として正しいのはどれか。",
+        "text": "「<ruby>需要<rt>じゅよう</rt></ruby>」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
-        "options": ["市場の<ruby>需<rt>じゅ</rt></ruby>要が増える",
+        "options": ["市場の<ruby>需要<rt>じゅよう</rt></ruby>が増える",
           "プロジェクトが順調に進む",
           "条件を満たす",
-          "国際情勢を<ruby>分析<rt>ぶんせき</rt></ruby>する"],
+          "国際情勢を<ruby>分析する<rt>ぶんせきする</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "用法",
         "text": "「順調」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
-        "options": ["国際情勢を<ruby>分析<rt>ぶんせき</rt></ruby>する",
+        "options": ["国際情勢を<ruby>分析する<rt>ぶんせきする</rt></ruby>",
           "条件を満たす",
           "プロジェクトが順調に進む",
-          "気温が<ruby>上昇<rt>じょうしょう</rt></ruby>する"],
+          "気温が<ruby>上昇する<rt>じょうしょうする</rt></ruby>"],
         "answer": 2
       },
       {
@@ -21207,8 +21207,8 @@ window.MOCK_DATA['N2'] = {
         "text": "「条件」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["条件を満たす",
-          "国際情勢を<ruby>分析<rt>ぶんせき</rt></ruby>する",
-          "気温が<ruby>上昇<rt>じょうしょう</rt></ruby>する",
+          "国際情勢を<ruby>分析する<rt>ぶんせきする</rt></ruby>",
+          "気温が<ruby>上昇する<rt>じょうしょうする</rt></ruby>",
           "エネルギーを消費する"],
         "answer": 0
       },
@@ -21219,14 +21219,14 @@ window.MOCK_DATA['N2'] = {
         "options": ["視点",
           "実力",
           "<ruby>投票<rt>とうひょう</rt></ruby>",
-          "<ruby>賄<rt>まかな</rt></ruby>う"],
+          "<ruby>賄う<rt>まかなう</rt></ruby>"],
         "answer": 0
       },
       {
         "type": "言い換え",
         "text": "評価の基準を設けるの意味は？",
         "question": "意味が近いのは？",
-        "options": ["<ruby>既<rt>すで</rt></ruby>に",
+        "options": ["<ruby>既に<rt>すでに</rt></ruby>",
           "標準",
           "実証",
           "編入"],
@@ -21288,7 +21288,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>女は医者で（ 　）、<ruby>作家<rt>さっか</rt></ruby>でもあるか。",
+        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は医者で（ 　）、<ruby>作家<rt>さっか</rt></ruby>でもあるか。",
         "question": "（　）に入るのは？",
         "options": ["ありながら",
           "あって",
@@ -21321,7 +21321,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>女は医者で（　）、<ruby>作家<rt>さっか</rt></ruby>でもあるか。  ",
+        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は医者で（　）、<ruby>作家<rt>さっか</rt></ruby>でもあるか。  ",
         "question": "（　）に入るのは？",
         "options": ["ありながら",
           "ありつつ",
@@ -21354,7 +21354,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>女は医者で（ 　）、<ruby>作家<rt>さっか</rt></ruby>でもあるな。",
+        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は医者で（ 　）、<ruby>作家<rt>さっか</rt></ruby>でもあるな。",
         "question": "（　）に入るのは？",
         "options": ["あるのに",
           "あって",
@@ -21387,7 +21387,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文法形式",
-        "text": "<ruby>彼<rt>かれ</rt></ruby>女は医者で（  　）、<ruby>作家<rt>さっか</rt></ruby>でもあるよ。",
+        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>は医者で（  　）、<ruby>作家<rt>さっか</rt></ruby>でもあるよ。",
         "question": "（　）に入るのは？",
         "options": ["あって",
           "あるのに",
@@ -21485,8 +21485,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-20-052"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "<ruby>廊下<rt>ろうか</rt></ruby>で「お先に失<ruby>礼<rt>れい</rt></ruby>します」と言われました。（問238）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "<ruby>廊下<rt>ろうか</rt></ruby>で「お先に<ruby>失礼<rt>しつれい</rt></ruby>します」と言われました。（問238）",
         "question": "返答は？",
         "options": ["わかりません",
           "いいえ、行きません",
@@ -21557,7 +21557,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["成功へのステップ",
           "無意味",
           "恥ずかしい",
-          "<ruby>避<rt>さ</rt></ruby>けるべき"],
+          "<ruby>避ける<rt>さける</rt></ruby>べき"],
         "answer": 0,
         "id": "N2-20-059"
       },
@@ -21579,7 +21579,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["恥ずかしい",
           "無意味",
           "成功へのステップ",
-          "<ruby>避<rt>さ</rt></ruby>ける"],
+          "<ruby>避ける<rt>さける</rt></ruby>"],
         "answer": 2,
         "id": "N2-20-060"
       },
@@ -21590,7 +21590,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["命令",
           "一人で頑張る",
           "強みを活かす",
-          "<ruby>競<rt>きそ</rt></ruby>争"],
+          "<ruby>競争<rt>きょうそう</rt></ruby>"],
         "answer": 2,
         "id": "N2-20-062"
       },
@@ -21642,8 +21642,8 @@ window.MOCK_DATA['N2'] = {
         "type": "読解（中文）",
         "text": "働き方<ruby>改革<rt>かいかく</rt></ruby>では<ruby>労働<rt>ろうどう</rt></ruby>時間短縮だけでなく生産性向上が重要だ。多様な働き方も認めるべきだ。（問179）",
         "question": "重要なのは何か。",
-        "options": ["休み増<ruby>加<rt>くわ</rt></ruby>",
-          "<ruby>給<rt>きゅう</rt></ruby>料アップ",
+        "options": ["休み<ruby>増加<rt>ぞうか</rt></ruby>",
+          "<ruby>給料<rt>きゅうりょう</rt></ruby>アップ",
           "生産性向上と多様性",
           "時間短縮だけ"],
         "answer": 2,
@@ -21651,10 +21651,10 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "読解（中文）",
-        "text": "教育では知識詰め<ruby>込<rt>こ</rt></ruby>みから思考力重視への転換が<ruby>求<rt>もと</rt></ruby>められている。社会で<ruby>活躍<rt>かつやく</rt></ruby>できる<ruby>人材育成<rt>じんざいいくせい</rt></ruby>が目標だ。（問180）",
-        "question": "<ruby>求<rt>もと</rt></ruby>められているのは何か。",
+        "text": "教育では知識詰め<ruby>込<rt>こむ</rt></ruby>みから思考力重視への転換が<ruby>求<rt>もとめる</rt></ruby>められている。社会で<ruby>活躍<rt>かつやく</rt></ruby>できる<ruby>人材育成<rt>じんざいいくせい</rt></ruby>が目標だ。（問180）",
+        "question": "<ruby>求<rt>もとめる</rt></ruby>められているのは何か。",
         "options": ["テスト重視",
-          "知識詰め<ruby>込<rt>こ</rt></ruby>み",
+          "知識詰め<ruby>込<rt>こむ</rt></ruby>み",
           "不要",
           "思考力重視"],
         "answer": 3,
@@ -21662,7 +21662,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "統合理解",
-        "text": "【A】ルールは<ruby>秩序<rt>ちつじょ</rt></ruby>を守る。【B】ルールに<ruby>縛<rt>しば</rt></ruby>られすぎると柔軟性を失う。",
+        "text": "【A】ルールは<ruby>秩序<rt>ちつじょ</rt></ruby>を守る。【B】ルールに<ruby>縛<rt>しばる</rt></ruby>られすぎると柔軟性を失う。",
         "question": "分かることは何か。",
         "options": ["ルールは不要",
           "バランスが大切",
@@ -21676,13 +21676,13 @@ window.MOCK_DATA['N2'] = {
         "type": "統合理解",
         "text": "【A】デジタル化で業務が効率化された。【B】セキュリティリスクも増えている。",
         "question": "分かることは何か。",
-        "options": ["デジタル化は<ruby>良<rt>りょう</rt></ruby>い",
+        "options": ["デジタル化は<ruby>良い<rt>よい</rt></ruby>",
           "デジタル化は不要",
           "デジタル化は悪い",
           "メリットとリスクがある"],
         "answer": 0,
         "id": "N2-20-070",
-        "script": "話者A：この問題については、デジタル化は<ruby>良<rt>りょう</rt></ruby>いという点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：ええ。その通りだと思います。"
+        "script": "話者A：この問題については、デジタル化は<ruby>良い<rt>よい</rt></ruby>という点で意見が<ruby>一致<rt>いっち</rt></ruby>していますね。\n話者B：ええ。その通りだと思います。"
       },
       {
         "type": "主張理解（長文）",
@@ -21697,10 +21697,10 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "本質を見<ruby>極<rt>きわ</rt></ruby>める力が重要だ。表面的な現象にとらわれず<ruby>根本<rt>こんぽん</rt></ruby>原因を考えることが問題解決につながる。",
+        "text": "<ruby>本質を見極める<rt>ほんしつをみきわめる</rt></ruby>力が重要だ。表面的な現象にとらわれず<ruby>根本<rt>こんぽん</rt></ruby>原因を考えることが問題解決につながる。",
         "question": "問題解決に重要なのは何か。",
         "options": ["他人に任せる",
-          "本質を見<ruby>極<rt>きわ</rt></ruby>める",
+          "<ruby>本質を見極める<rt>ほんしつをみきわめる</rt></ruby>",
           "表面的対応",
           "すぐに行動"],
         "answer": 3,
@@ -21708,17 +21708,17 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "主張理解（長文）",
-        "text": "人は一人では生きていけない。他者との関わりの中で成長し幸福を<ruby>感<rt>かん</rt></ruby>じることができる。",
+        "text": "人は一人では生きていけない。他者との関わりの中で成長し幸福を<ruby>感じる<rt>かんじる</rt></ruby>ことができる。",
         "question": "人について正しいのは何か。",
         "options": ["他者との関わりが大切",
           "一人で十分",
           "関わりは不要",
-          "<ruby>競<rt>きそ</rt></ruby>争が大切"],
+          "<ruby>競争<rt>きょうそう</rt></ruby>が大切"],
         "answer": 2,
         "id": "N2-20-073"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
         "text": "【<ruby>旅行<rt>りょこう</rt></ruby>代理店】国内ツアー20,000円〜、海外ツアー50,000円〜。キャンセル料7日前から。",
         "question": "正しいのは何か。",
         "options": ["海外30,000円〜",
@@ -21729,10 +21729,10 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-20-074"
       },
       {
-        "type": "情報<ruby>検索<rt>けんさく</rt></ruby>",
-        "text": "【アルバイト】時<ruby>給<rt>きゅう</rt></ruby>1,100円（研修1,000円）。9-22時で4時間以上。18<ruby>歳<rt>さい</rt></ruby>以上、週3日以上。交通費支<ruby>給<rt>きゅう</rt></ruby>、まかない有。（問40）",
+        "type": "<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>",
+        "text": "【アルバイト】<ruby>時給<rt>じきゅう</rt></ruby>1,100円（研修1,000円）。9-22時で4時間以上。18<ruby>歳<rt>さい</rt></ruby>以上、週3日以上。交通費支<ruby>給<rt>きゅう</rt></ruby>、まかない有。（問40）",
         "question": "正しいのは何か。",
-        "options": ["時<ruby>給<rt>きゅう</rt></ruby>1,200円",
+        "options": ["<ruby>時給<rt>じきゅう</rt></ruby>1,200円",
           "交通費支<ruby>給<rt>きゅう</rt></ruby>",
           "週1日可",
           "17<ruby>歳<rt>さい</rt></ruby>可"],
@@ -21740,7 +21740,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-20-075"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "美容師と客が話しています。美容師はこのあと何をしますか。（96）",
         "question": "何をしますか。",
         "options": ["シャンプーをする",
@@ -21752,19 +21752,19 @@ window.MOCK_DATA['N2'] = {
         "script": "男：それでは、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：シャンプーをしていただけますか。\n女：<ruby>了解<rt>りょうかい</rt></ruby>です、すぐに対応します。【セット20問44】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "配達員と客が話しています。客はこのあと何をしますか。（97）",
         "question": "何をしますか。",
         "options": ["再配達を依頼する",
           "サインをする",
-          "代金を<ruby>払<rt>はら</rt></ruby>う",
+          "代金を<ruby>払う<rt>はらう</rt></ruby>",
           "中身を確認する"],
         "answer": 2,
         "id": "N2-20-077",
-        "script": "男：えーと、この件について進め方を検討しましょう。\n女：そうですか、何をすればよいでしょうか。\n男：まず代金を<ruby>払<rt>はら</rt></ruby>うください。\n女：承知しました。よろしくお願いします。【セット20問45】"
+        "script": "男：えーと、この件について進め方を検討しましょう。\n女：そうですか、何をすればよいでしょうか。\n男：まず代金を<ruby>払う<rt>はらう</rt></ruby>ください。\n女：承知しました。よろしくお願いします。【セット20問45】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "ホテルのフロントと客が話しています。客はこのあと何をしますか。（98）",
         "question": "何をしますか。",
         "options": ["<ruby>荷物<rt>にもつ</rt></ruby>を預ける",
@@ -21776,11 +21776,11 @@ window.MOCK_DATA['N2'] = {
         "script": "男：次の段階に進む準備ができましたね。\n女：あのう、はい、何から始めましょうか。\n男：チェックインしてください。\n女：うん。お願いします。【セット20問46】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "電話で話しています。電話を受けた人は何をしますか。（99）",
         "question": "何をしますか。",
         "options": ["担当者に取り次ぐ",
-          "メールで<ruby>連絡<rt>れんらく</rt></ruby>する",
+          "メールで<ruby>連絡する<rt>れんらくする</rt></ruby>",
           "伝言を残す",
           "折り返し電話する"],
         "answer": 0,
@@ -21788,20 +21788,20 @@ window.MOCK_DATA['N2'] = {
         "script": "男：すみません、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：担当者に取り次ぐいただけますか。\n女：はい、すぐに対応します。【セット20問47】"
       },
       {
-        "type": "<ruby>課題<rt>かだい</rt></ruby>理解",
+        "type": "<ruby>課題理解<rt>かだいりかい</rt></ruby>",
         "text": "ジムのスタッフと客が話しています。客はこのあと何をしますか。（100）",
         "question": "何をしますか。",
         "options": ["マシンを使う",
           "トレーナーに相談する",
-          "着<ruby>替<rt>か</rt></ruby>える",
+          "<ruby>着替え<rt>きがえ</rt></ruby>る",
           "プランを変更する"],
         "answer": 2,
         "id": "N2-20-080",
-        "script": "男：ちょっと、この件について進め方を検討しましょう。\n女：ええ、何をすればよいでしょうか。\n男：まず着<ruby>替<rt>か</rt></ruby>えるください。\n女：承知しました。早速取りかかります。【セット20問48】"
+        "script": "男：ちょっと、この件について進め方を検討しましょう。\n女：ええ、何をすればよいでしょうか。\n男：まず<ruby>着替え<rt>きがえ</rt></ruby>るください。\n女：承知しました。早速取りかかります。【セット20問48】"
       },
       {
         "type": "ポイント理解",
-        "text": "討<ruby>論<rt>ろん</rt></ruby>を聞いています。反対意見の<ruby>根拠<rt>こんきょ</rt></ruby>は何ですか。（115）",
+        "text": "<ruby>討論<rt>とうろん</rt></ruby>を聞いています。反対意見の<ruby>根拠<rt>こんきょ</rt></ruby>は何ですか。（115）",
         "question": "<ruby>根拠<rt>こんきょ</rt></ruby>は何ですか。",
         "options": ["コスト高",
           "実現困難",
@@ -21827,13 +21827,13 @@ window.MOCK_DATA['N2'] = {
         "type": "ポイント理解",
         "text": "放送を聞いています。<ruby>主催<rt>しゅさい</rt></ruby>者が呼びかけているのは何ですか。（117）",
         "question": "呼びかけているのは？",
-        "options": ["参<ruby>加<rt>くわ</rt></ruby>",
+        "options": ["<ruby>参加<rt>さんか</rt></ruby>",
           "理解",
           "注意",
           "協力"],
         "answer": 0,
         "id": "N2-20-083",
-        "script": "参<ruby>加<rt>くわ</rt></ruby>が最も重要な要素です。様々な観点から検討しましたが、ここが肝心なポイントです。【セット20問51】"
+        "script": "<ruby>参加<rt>さんか</rt></ruby>が最も重要な要素です。様々な観点から検討しましたが、ここが肝心なポイントです。【セット20問51】"
       },
       {
         "type": "ポイント理解",
@@ -21866,10 +21866,10 @@ window.MOCK_DATA['N2'] = {
         "options": ["<ruby>範囲<rt>はんい</rt></ruby>の<ruby>拡大<rt>かくだい</rt></ruby>",
           "対策の遅れ",
           "<ruby>被害<rt>ひがい</rt></ruby>の<ruby>甚大<rt>じんだい</rt></ruby>さ",
-          "数字の増<ruby>加<rt>くわ</rt></ruby>"],
+          "数字の<ruby>増加<rt>ぞうか</rt></ruby>"],
         "answer": 3,
         "id": "N2-20-086",
-        "script": "数字の増<ruby>加<rt>くわ</rt></ruby>が最も重要な要素です。様々な観点から検討しましたが、これこそが成功の鍵です。【セット20問54】"
+        "script": "数字の<ruby>増加<rt>ぞうか</rt></ruby>が最も重要な要素です。様々な観点から検討しましたが、これこそが成功の鍵です。【セット20問54】"
       },
       {
         "type": "概要理解",
@@ -21914,10 +21914,10 @@ window.MOCK_DATA['N2'] = {
         "options": ["関係者",
           "一般人",
           "学生",
-          "専門<ruby>家<rt>いえ</rt></ruby>"],
+          "<ruby>専門家<rt>せんもんか</rt></ruby>"],
         "answer": 3,
         "id": "N2-20-090",
-        "script": "本日の主題は専門<ruby>家<rt>いえ</rt></ruby>についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。【セット20問58】"
+        "script": "本日の主題は<ruby>専門家<rt>せんもんか</rt></ruby>についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。【セット20問58】"
       },
       {
         "type": "概要理解",
@@ -21932,7 +21932,7 @@ window.MOCK_DATA['N2'] = {
         "script": "<ruby>今回<rt>こんかい</rt></ruby>お伝えしたいのは都市についてです。この問題は現代社会において重要な<ruby>課題<rt>かだい</rt></ruby>であり、多角的な検討が必要です。【セット20問59】"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "エレベーターで「初めまして」と言われました。（問229）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -21943,7 +21943,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-20-092"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "<ruby>廊下<rt>ろうか</rt></ruby>で「ありがとうございます」と言われました。（問230）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
@@ -21954,10 +21954,10 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-20-093"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "受付で「すみません」と言われました。（問231）",
         "question": "返答は？",
-        "options": ["いいえ、大<ruby>丈<rt>たけ</rt></ruby>夫です",
+        "options": ["いいえ、<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>です",
           "わかりません",
           "はい、食べました",
           "いいえ、行きません"],
@@ -21965,7 +21965,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-20-094"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "会議室で「お疲れ様です」と言われました。（問232）",
         "question": "返答は？",
         "options": ["お疲れ様です",
@@ -21976,8 +21976,8 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-20-095"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
-        "text": "オフィスで「失<ruby>礼<rt>れい</rt></ruby>します」と言われました。（問233）",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
+        "text": "オフィスで「<ruby>失礼<rt>しつれい</rt></ruby>します」と言われました。（問233）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
           "どうぞ",
@@ -21987,7 +21987,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-20-096"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "学校で「よろしくお願いします」と言われました。（問234）",
         "question": "返答は？",
         "options": ["はい、食べました",
@@ -21998,7 +21998,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-20-097"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "お店で「おはようございます」と言われました。（問235）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -22009,7 +22009,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-20-098"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "エレベーターで「こんばんは」と言われました。（問237）",
         "question": "返答は？",
         "options": ["こんばんは",
@@ -22020,7 +22020,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-20-100"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "電車で「こんにちは」と言われました。（問236）",
         "question": "返答は？",
         "options": ["こんにちは",
@@ -22031,7 +22031,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-20-099"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "会議室で「ただいま」と言われました。（問240）",
         "question": "返答は？",
         "options": ["わかりません",
@@ -22042,7 +22042,7 @@ window.MOCK_DATA['N2'] = {
         "id": "N2-20-103"
       },
       {
-        "type": "<ruby>即時<rt>そくじ</rt></ruby>応答",
+        "type": "<ruby>即時応答<rt>そくじおうとう</rt></ruby>",
         "text": "受付で「いってきます」と言われました。（問239）",
         "question": "返答は？",
         "options": ["いいえ、行きません",
@@ -22114,27 +22114,27 @@ window.MOCK_DATA['N2'] = {
         "answer": 3
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>つくる</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>補<rt>おぎな</rt></ruby>う",
+        "options": ["<ruby>補う<rt>おぎなう</rt></ruby>",
           "作る",
           "規格",
-          "<ruby>勤<rt>つと</rt></ruby>め"],
+          "<ruby>勤<rt>つとめる</rt></ruby>め"],
         "answer": 1
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>せいしゃいん</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>暫定的<rt>ざんていてき</rt></ruby>な",
+        "options": ["<ruby>暫定的な<rt>ざんていてきな</rt></ruby>",
           "正社員",
           "損害",
           "相談"],
         "answer": 1
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>かち</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["低下",
@@ -22144,17 +22144,17 @@ window.MOCK_DATA['N2'] = {
         "answer": 2
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>にんかする</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["参<ruby>加<rt>くわ</rt></ruby>",
+        "options": ["<ruby>参加<rt>さんか</rt></ruby>",
           "ロボット工学",
           "認可する",
           "広報"],
         "answer": 2
       },
       {
-        "type": "表<ruby>記<rt>しる</rt></ruby>",
+        "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>てんてき</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["点<ruby>滴<rt>しずく</rt></ruby>",
@@ -22218,9 +22218,9 @@ window.MOCK_DATA['N2'] = {
         "text": "「情勢」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["書類を処理する",
-          "気温が<ruby>上昇<rt>じょうしょう</rt></ruby>する",
+          "気温が<ruby>上昇する<rt>じょうしょうする</rt></ruby>",
           "エネルギーを消費する",
-          "国際情勢を<ruby>分析<rt>ぶんせき</rt></ruby>する"],
+          "国際情勢を<ruby>分析する<rt>ぶんせきする</rt></ruby>"],
         "answer": 3
       },
       {
@@ -22230,7 +22230,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["素人考える",
           "エネルギーを消費する",
           "書類を処理する",
-          "気温が<ruby>上昇<rt>じょうしょう</rt></ruby>する"],
+          "気温が<ruby>上昇する<rt>じょうしょうする</rt></ruby>"],
         "answer": 3
       },
       {
@@ -22240,7 +22240,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["書類を処理する",
           "エネルギーを消費する",
           "素人考える",
-          "書類を<ruby>審査<rt>しんさ</rt></ruby>する"],
+          "書類を<ruby>審査する<rt>しんさする</rt></ruby>"],
         "answer": 1
       },
       {
@@ -22249,7 +22249,7 @@ window.MOCK_DATA['N2'] = {
         "question": "正しい使い方は？",
         "options": ["書類を処理する",
           "素人考える",
-          "書類を<ruby>審査<rt>しんさ</rt></ruby>する",
+          "書類を<ruby>審査する<rt>しんさする</rt></ruby>",
           "品質水準を維持する"],
         "answer": 0
       },
@@ -22258,7 +22258,7 @@ window.MOCK_DATA['N2'] = {
         "text": "「素人」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["品質水準を維持する",
-          "書類を<ruby>審査<rt>しんさ</rt></ruby>する",
+          "書類を<ruby>審査する<rt>しんさする</rt></ruby>",
           "素人考える",
           "原因を推測する"],
         "answer": 2
@@ -22268,16 +22268,16 @@ window.MOCK_DATA['N2'] = {
         "text": "「<ruby>審査<rt>しんさ</rt></ruby>」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["品質水準を維持する",
-          "書類を<ruby>審査<rt>しんさ</rt></ruby>する",
+          "書類を<ruby>審査する<rt>しんさする</rt></ruby>",
           "原因を推測する",
-          "<ruby>既<rt>すで</rt></ruby>に考える"],
+          "<ruby>既に<rt>すでに</rt></ruby>考える"],
         "answer": 1
       },
       {
         "type": "用法",
         "text": "「水準」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
-        "options": ["<ruby>既<rt>すで</rt></ruby>に考える",
+        "options": ["<ruby>既に<rt>すでに</rt></ruby>考える",
           "原因を推測する",
           "品質水準を維持する",
           "研究の<ruby>成果<rt>せいか</rt></ruby>を発表する"],
@@ -22287,7 +22287,7 @@ window.MOCK_DATA['N2'] = {
         "type": "用法",
         "text": "「推測」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
-        "options": ["<ruby>既<rt>すで</rt></ruby>に考える",
+        "options": ["<ruby>既に<rt>すでに</rt></ruby>考える",
           "原因を推測する",
           "研究の<ruby>成果<rt>せいか</rt></ruby>を発表する",
           "インフラを整備する"],
@@ -22295,11 +22295,11 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "用法",
-        "text": "「<ruby>既<rt>すで</rt></ruby>に」の使い方として正しいのはどれか。",
+        "text": "「<ruby>既に<rt>すでに</rt></ruby>」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["インフラを整備する",
           "研究の<ruby>成果<rt>せいか</rt></ruby>を発表する",
-          "<ruby>既<rt>すで</rt></ruby>に考える",
+          "<ruby>既に<rt>すでに</rt></ruby>考える",
           "前提条件を確認する"],
         "answer": 2
       },
@@ -22320,7 +22320,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["前提条件を確認する",
           "インフラを整備する",
           "研究に専念する",
-          "人口が増<ruby>加<rt>くわ</rt></ruby>する"],
+          "人口が<ruby>増加<rt>ぞうか</rt></ruby>する"],
         "answer": 1
       },
       {
@@ -22329,27 +22329,27 @@ window.MOCK_DATA['N2'] = {
         "question": "正しい使い方は？",
         "options": ["研究に専念する",
           "前提条件を確認する",
-          "人口が増<ruby>加<rt>くわ</rt></ruby>する",
-          "血行を<ruby>促進<rt>そくしん</rt></ruby>する"],
+          "人口が<ruby>増加<rt>ぞうか</rt></ruby>する",
+          "血行を<ruby>促進する<rt>そくしんする</rt></ruby>"],
         "answer": 1
       },
       {
         "type": "用法",
         "text": "「専念」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
-        "options": ["血行を<ruby>促進<rt>そくしん</rt></ruby>する",
-          "人口が増<ruby>加<rt>くわ</rt></ruby>する",
+        "options": ["血行を<ruby>促進する<rt>そくしんする</rt></ruby>",
+          "人口が<ruby>増加<rt>ぞうか</rt></ruby>する",
           "研究に専念する",
           "そっと考える"],
         "answer": 2
       },
       {
         "type": "用法",
-        "text": "「増<ruby>加<rt>くわ</rt></ruby>」の使い方として正しいのはどれか。",
+        "text": "「<ruby>増加<rt>ぞうか</rt></ruby>」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["そっと考える",
-          "血行を<ruby>促進<rt>そくしん</rt></ruby>する",
-          "人口が増<ruby>加<rt>くわ</rt></ruby>する",
+          "血行を<ruby>促進する<rt>そくしんする</rt></ruby>",
+          "人口が<ruby>増加<rt>ぞうか</rt></ruby>する",
           "企業の存続が危ぶまれる"],
         "answer": 2
       },
@@ -22359,7 +22359,7 @@ window.MOCK_DATA['N2'] = {
         "question": "正しい使い方は？",
         "options": ["企業の存続が危ぶまれる",
           "そっと考える",
-          "血行を<ruby>促進<rt>そくしん</rt></ruby>する",
+          "血行を<ruby>促進する<rt>そくしんする</rt></ruby>",
           "<ruby>効果<rt>こうか</rt></ruby>的な対策を講じる"],
         "answer": 2
       },
@@ -22395,7 +22395,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "激しい<ruby>競<rt>きそ</rt></ruby>争に勝つの意味は？",
+        "text": "激しい<ruby>競争<rt>きょうそう</rt></ruby>に勝つの意味は？",
         "question": "意味が近いのは？",
         "options": ["反らす",
           "<ruby>競<rt>きそ</rt></ruby>い合い",
@@ -22439,9 +22439,9 @@ window.MOCK_DATA['N2'] = {
 
 window.MOCK_DATA['N2'].getSectionQuestions = function(setNum, section) {
   const typePatterns = {
-    '言語知識（文字・<ruby>語彙<rt>ごい</rt></ruby>）': ['漢字読み', '表<ruby>記<rt>しる</rt></ruby>', '文<ruby>脈<rt>みゃく</rt></ruby>規定', '言い換え', '用法', '語形成', 'もじ', 'ごい'],
-    '言語知識（文法）・読解': ['文法形式', '文の組み立て', '文章の文法', '読解', '内容理解', '主張理解', '情報<ruby>検索<rt>けんさく</rt></ruby>', '統合理解', 'ぶんぽう'],
-    '聴解': ['聴解', '<ruby>課題<rt>かだい</rt></ruby>理解', 'ポイント理解', '概要理解', '<ruby>即時<rt>そくじ</rt></ruby>応答', '統合理解', 'ちょうかい']
+    '言語知識（文字・<ruby>語彙<rt>ごい</rt></ruby>）': ['漢字読み', '<ruby>表記<rt>ひょうき</rt></ruby>', '<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>', '言い換え', '用法', '語形成', 'もじ', 'ごい'],
+    '言語知識（文法）・読解': ['文法形式', '文の組み立て', '文章の文法', '読解', '内容理解', '主張理解', '<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>', '統合理解', 'ぶんぽう'],
+    '聴解': ['聴解', '<ruby>課題理解<rt>かだいりかい</rt></ruby>', 'ポイント理解', '概要理解', '<ruby>即時応答<rt>そくじおうとう</rt></ruby>', '統合理解', 'ちょうかい']
   };
   
   const patterns = typePatterns[section] || [];
