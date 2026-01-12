@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.20.15';
+const APP_VERSION = '18.20.18';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FURIGANA SYSTEM ==========
@@ -5318,17 +5318,12 @@ function showMockQuestion() {
       btn.classList.add('emoji-option');
     }
     
-    // Check if already answered
+    // Check if already answered - show selection only (no correct/incorrect until end)
     if (mockState.answers[q.id]) {
-      btn.onclick = null;
       const answer = mockState.answers[q.id];
-      const correctLabel = q.ans || labels[q.answer];
-      if (labels[idx] === correctLabel) btn.classList.add('correct');
-      if (labels[idx] === answer.selected && labels[idx] !== correctLabel) btn.classList.add('incorrect');
       if (labels[idx] === answer.selected) btn.classList.add('selected');
-    } else {
-      btn.onclick = () => selectMockAnswer(btn, labels[idx], q);
     }
+    btn.onclick = () => selectMockAnswer(btn, labels[idx], q);
     
     // アイコン表示（icons配列がある場合）
     let iconHtml = '';

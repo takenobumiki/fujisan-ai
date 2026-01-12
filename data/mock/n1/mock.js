@@ -1058,7 +1058,7 @@ window.MOCK_DATA['N1'] = {
       },
       {
         "type": "漢字読み",
-        "text": "<u>侃</u>の読み方は？",
+        "text": "<u>柑</u>の読み方は？",
         "question": "正しい読みは？",
         "options": [
           "かん",
