@@ -1,60 +1,82 @@
-// Fujisan.AI Service Worker v18.5.2
-const CACHE_NAME = 'fujisan-v18.5.2';
+// Fujisan.AI Service Worker v18.18.8
+const CACHE_NAME = 'fujisan-v18.18.8';
+const APP_VERSION = '18.18.8';
+
 const urlsToCache = [
   '/',
   '/index.html',
   '/app.html',
   '/css/style.css',
   '/js/app.js',
-  '/data/n5/vocab.js',
-  '/data/n5/kanji.js',
-  '/data/n5/grammar.js',
-  '/data/n4/vocab.js',
-  '/data/n4/kanji.js',
-  '/data/n4/grammar.js',
-  '/data/n3/vocab.js',
-  '/data/n3/kanji.js',
-  '/data/n3/grammar.js',
-  '/data/n2/vocab.js',
-  '/data/n2/kanji.js',
-  '/data/n2/grammar.js',
-  '/data/n1/vocab.js',
-  '/data/n1/kanji.js',
-  '/data/n1/grammar.js',
-  '/data/mock/n5/mock.js',
-  '/data/mock/n4/mock.js',
-  '/data/mock/n3/mock.js',
-  '/data/mock/n2/mock.js',
-  '/data/mock/n1/mock.js',
   '/images/og-image.jpg'
 ];
 
-// Install event - cache files
+// Install event - cache files and skip waiting
 self.addEventListener('install', event => {
+  console.log('[SW] Installing version:', APP_VERSION);
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then(cache => cache.addAll(urlsToCache))
-      .then(() => self.skipWaiting())
+      .then(() => self.skipWaiting()) // Force activate immediately
   );
 });
 
-// Activate event - clean old caches
+// Activate event - clean ALL old caches and claim clients
 self.addEventListener('activate', event => {
+  console.log('[SW] Activating version:', APP_VERSION);
   event.waitUntil(
     caches.keys().then(cacheNames => {
       return Promise.all(
         cacheNames.map(cacheName => {
           if (cacheName !== CACHE_NAME) {
+            console.log('[SW] Deleting old cache:', cacheName);
             return caches.delete(cacheName);
           }
         })
       );
-    }).then(() => self.clients.claim())
+    }).then(() => {
+      // Claim all clients immediately
+      return self.clients.claim();
+    }).then(() => {
+      // Notify all clients to refresh
+      return self.clients.matchAll().then(clients => {
+        clients.forEach(client => {
+          client.postMessage({ type: 'SW_UPDATED', version: APP_VERSION });
+        });
+      });
+    })
   );
 });
 
-// Fetch event - serve from cache, fallback to network
+// Fetch event - network first for HTML/JS, cache fallback for others
 self.addEventListener('fetch', event => {
+  const url = new URL(event.request.url);
+  
+  // Always fetch fresh for version file
+  if (url.pathname === '/version') {
+    event.respondWith(fetch(event.request));
+    return;
+  }
+  
+  // Network first for HTML and JS files (to get updates quickly)
+  if (url.pathname.endsWith('.html') || url.pathname.endsWith('.js')) {
+    event.respondWith(
+      fetch(event.request)
+        .then(response => {
+          if (response && response.status === 200) {
+            const responseToCache = response.clone();
+            caches.open(CACHE_NAME).then(cache => {
+              cache.put(event.request, responseToCache);
+            });
+          }
+          return response;
+        })
+        .catch(() => caches.match(event.request))
+    );
+    return;
+  }
+  
+  // Cache first for other assets (images, etc.)
   event.respondWith(
     caches.match(event.request)
       .then(response => {
@@ -62,11 +84,9 @@ self.addEventListener('fetch', event => {
           return response;
         }
         return fetch(event.request).then(response => {
-          // Don't cache non-successful responses or non-GET requests
           if (!response || response.status !== 200 || event.request.method !== 'GET') {
             return response;
           }
-          // Clone and cache
           const responseToCache = response.clone();
           caches.open(CACHE_NAME).then(cache => {
             cache.put(event.request, responseToCache);
@@ -75,4 +95,11 @@ self.addEventListener('fetch', event => {
         });
       })
   );
+});
+
+// Listen for skip waiting message from client
+self.addEventListener('message', event => {
+  if (event.data && event.data.type === 'SKIP_WAITING') {
+    self.skipWaiting();
+  }
 });
