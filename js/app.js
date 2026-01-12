@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.17.29';
+const APP_VERSION = '18.17.32';
 const STORAGE_KEY = 'fujisan_v1817';
 
 // ========== UI TRANSLATIONS ==========
@@ -3307,6 +3307,28 @@ function updateUnitGrid(level, totalUnits, masteredItems, allItems) {
 }
 
 async function startUnitDrill(unitIndex) {
+  // Check for resume session
+  const resumeData = localStorage.getItem('fujisan_resume_session');
+  if (resumeData) {
+    try {
+      const resume = JSON.parse(resumeData);
+      // Check if same level/category/unit and not too old (6 months)
+      if (resume.level === state.level && 
+          resume.category === state.category && 
+          resume.unit === unitIndex &&
+          Date.now() - resume.timestamp < 6 * 30 * 24 * 60 * 60 * 1000) {
+        if (confirm('Resume previous session?')) {
+          localStorage.removeItem('fujisan_resume_session');
+          return resumeDrill(resume);
+        }
+      }
+      // Clear old resume data
+      localStorage.removeItem('fujisan_resume_session');
+    } catch (e) {
+      localStorage.removeItem('fujisan_resume_session');
+    }
+  }
+  
   // N5 is always free, other levels require valid plan or trial
   if (state.level !== 'N5' && !hasValidPlan() && !isInTrialPeriod()) {
     showSubscriptionRequiredModal();
@@ -5714,7 +5736,47 @@ function retrySession() {
 }
 
 function endSession() { showScreen('drill'); updateDrillCounts(); }
-function confirmExit() { if (confirm('Exit? Progress will be lost.')) { clearInterval(timerInterval); showScreen('drill'); updateDrillCounts(); } }
+function confirmExit() {
+  // Save current progress for resume
+  if (session.queue && session.queue.length > 0) {
+    const resumeData = {
+      level: state.level,
+      category: state.category,
+      unit: session.unitIndex,
+      queue: session.queue,
+      currentIndex: session.currentQuestionIndex,
+      correctCount: session.correctCount,
+      timestamp: Date.now()
+    };
+    localStorage.setItem('fujisan_resume_session', JSON.stringify(resumeData));
+  }
+  clearInterval(timerInterval);
+  showScreen('drill');
+  updateDrillCounts();
+}
+
+// Resume drill from saved session
+async function resumeDrill(resume) {
+  showLoading(`Resuming ${resume.level} drill...`);
+  const loaded = await loadDrillData(resume.level);
+  hideLoading();
+  
+  if (!loaded) {
+    alert('Failed to load data.');
+    return;
+  }
+  
+  session = {
+    mode: 'quiz',
+    queue: resume.queue,
+    currentQuestionIndex: resume.currentIndex,
+    correctCount: resume.correctCount || 0,
+    unitIndex: resume.unit
+  };
+  
+  showScreen('quiz');
+  showLearningQuestion();
+}
 
 // ========== AUDIO ==========
 let speechSynth = window.speechSynthesis;
