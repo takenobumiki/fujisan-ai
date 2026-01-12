@@ -22178,12 +22178,16 @@ window.MOCK_DATA['N3'] = {
 };
 
 window.MOCK_DATA['N3'].getSectionQuestions = function(setNum, section) {
+  const stripRuby = (str) => (str || '').replace(/<ruby>|<rt>[^<]*<\/rt>|<\/ruby>/g, '');
+  const sectionClean = stripRuby(section);
   const typePatterns = {
-    '<ruby>言語知識<rt>げんごちしき</rt></ruby>（文字・<ruby>語彙<rt>ごい</rt></ruby>）': ['漢字読み', '<ruby>表記<rt>ひょうき</rt></ruby>', '<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>', '言い<ruby>換<rt>かく</rt></ruby>え', '<ruby>用法<rt>ようほう</rt></ruby>', '<ruby>語形成<rt>ごけいせい</rt></ruby>', 'もじ', 'ごい'],
-    '<ruby>言語知識<rt>げんごちしき</rt></ruby>（<ruby>文法<rt>ぶんぽう</rt></ruby>）・<ruby>読解<rt>どっかい</rt></ruby>': ['<ruby>文法形式<rt>ぶんぽうけいしき</rt></ruby>', '文の組み立て', '文章の<ruby>文法<rt>ぶんぽう</rt></ruby>', '<ruby>読解<rt>どっかい</rt></ruby>', '<ruby>内容理解<rt>ないようりかい</rt></ruby>', '<ruby>主張理解<rt>しゅちょうりかい</rt></ruby>', '<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>', '<ruby>統合理解<rt>とうごうりかい</rt></ruby>', 'ぶんぽう'],
-    '<ruby>聴解<rt>ちょうかい</rt></ruby>': ['<ruby>聴解<rt>ちょうかい</rt></ruby>', '<ruby>課題理解<rt>かだいりかい</rt></ruby>', 'ポイント<ruby>理解<rt>りかい</rt></ruby>', '<ruby>概要理解<rt>がいようりかい</rt></ruby>', '<ruby>即時応答<rt>そくじおうとう</rt></ruby>', '<ruby>統合理解<rt>とうごうりかい</rt></ruby>', 'ちょうかい']
+    '言語知識（文字・語彙）': ['漢字読み', '表記', '文脈規定', '言い換え', '用法', '語形成', 'もじ', 'ごい'],
+    '言語知識（文法）・読解': ['文法形式', '文の組み立て', '文章の文法', '読解', '内容理解', '主張理解', '情報検索', '統合理解', 'ぶんぽう'],
+    '聴解': ['聴解', '課題理解', 'ポイント理解', '概要理解', '即時応答', '統合理解', '発話表現', 'ちょうかい']
   };
-  
-  const patterns = typePatterns[section] || [];
-  return this.sets[setNum].filter(q => patterns.some(p => (q.type || '').includes(p)));
+  const patterns = typePatterns[sectionClean] || [];
+  return this.sets[setNum].filter(q => {
+    const typeClean = stripRuby(q.type);
+    return patterns.some(p => typeClean.includes(p));
+  });
 };

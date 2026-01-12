@@ -22438,12 +22438,16 @@ window.MOCK_DATA['N2'] = {
 };
 
 window.MOCK_DATA['N2'].getSectionQuestions = function(setNum, section) {
+  const stripRuby = (str) => (str || '').replace(/<ruby>|<rt>[^<]*<\/rt>|<\/ruby>/g, '');
+  const sectionClean = stripRuby(section);
   const typePatterns = {
-    '言語知識（文字・<ruby>語彙<rt>ごい</rt></ruby>）': ['漢字読み', '<ruby>表記<rt>ひょうき</rt></ruby>', '<ruby>文脈規定<rt>ぶんみゃくきてい</rt></ruby>', '言い換え', '用法', '語形成', 'もじ', 'ごい'],
-    '言語知識（文法）・読解': ['文法形式', '文の組み立て', '文章の文法', '読解', '内容理解', '主張理解', '<ruby>情報検索<rt>じょうほうけんさく</rt></ruby>', '統合理解', 'ぶんぽう'],
-    '聴解': ['聴解', '<ruby>課題理解<rt>かだいりかい</rt></ruby>', 'ポイント理解', '概要理解', '<ruby>即時応答<rt>そくじおうとう</rt></ruby>', '統合理解', 'ちょうかい']
+    '言語知識（文字・語彙）': ['漢字読み', '表記', '文脈規定', '言い換え', '用法', '語形成', 'もじ', 'ごい'],
+    '言語知識（文法）・読解': ['文法形式', '文の組み立て', '文章の文法', '読解', '内容理解', '主張理解', '情報検索', '統合理解', 'ぶんぽう'],
+    '聴解': ['聴解', '課題理解', 'ポイント理解', '概要理解', '即時応答', '統合理解', '発話表現', 'ちょうかい']
   };
-  
-  const patterns = typePatterns[section] || [];
-  return this.sets[setNum].filter(q => patterns.some(p => (q.type || '').includes(p)));
+  const patterns = typePatterns[sectionClean] || [];
+  return this.sets[setNum].filter(q => {
+    const typeClean = stripRuby(q.type);
+    return patterns.some(p => typeClean.includes(p));
+  });
 };
