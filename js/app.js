@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.17.21';
+const APP_VERSION = '18.17.22';
 const STORAGE_KEY = 'fujisan_v1817';
 
 // ========== UI TRANSLATIONS ==========
@@ -2427,8 +2427,9 @@ function updateContinueButton() {
   const textEl = document.getElementById('continue-btn-text');
   if (!btn || !textEl) return;
   
-  // Level colors
+  // Level colors - use current level, not lastSession level
   const levelColors = { N5: '#34c759', N4: '#007aff', N3: '#af52de', N2: '#1e3a5f', N1: '#ff3b30' };
+  const currentColor = levelColors[state.level] || levelColors.N5;
   
   if (state.lastSession && state.lastSession.level && state.lastSession.unit !== undefined) {
     const { level, unit, category } = state.lastSession;
@@ -2436,8 +2437,8 @@ function updateContinueButton() {
     const catName = catNames[category] || 'Vocab';
     textEl.textContent = `Continue ${level} Unit ${unit + 1}`;
     btn.style.display = 'flex';
-    // Use setProperty with important to override CSS variables
-    btn.style.setProperty('background-color', levelColors[level] || levelColors.N5, 'important');
+    // Use current level color for consistency
+    btn.style.setProperty('background-color', currentColor, 'important');
   } else {
     btn.style.display = 'none';
   }
