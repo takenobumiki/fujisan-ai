@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.17.26';
+const APP_VERSION = '18.17.27';
 const STORAGE_KEY = 'fujisan_v1817';
 
 // ========== UI TRANSLATIONS ==========
