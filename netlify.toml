@@ -1,9 +1,0 @@
-[build]
-  functions = "netlify/functions"
-  publish = "."
-
-[functions]
-  node_bundler = "esbuild"
-
-# Environment variables (set in Netlify Dashboard):
-# GEMINI_API_KEY = your-gemini-api-key
