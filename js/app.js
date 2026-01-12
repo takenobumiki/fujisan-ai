@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.17.15';
+const APP_VERSION = '18.17.16';
 const STORAGE_KEY = 'fujisan_v1817';
 
 // ========== UI TRANSLATIONS ==========
@@ -2392,8 +2392,8 @@ function showScreen(id) {
 }
 
 function updateAIScreen() {
-  // Check if user has premium plan
-  const hasPremium = state.plan === 'premium';
+  // Check if user has premium plan OR is in trial period (trial = all features)
+  const hasPremium = state.plan === 'premium' || isInTrialPeriod();
   const aiLocked = document.getElementById('aiLocked');
   const aiUnlocked = document.getElementById('aiUnlocked');
   
