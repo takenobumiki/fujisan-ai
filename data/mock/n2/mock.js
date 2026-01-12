@@ -1665,7 +1665,7 @@ window.MOCK_DATA['N2'] = {
         "type": "課題理解",
         "text": "上司と部下が話しています。部下はこのあと何をしますか。",
         "question": "何をしますか。",
-        "options": ["クライアントに<ruby>連絡する<rt>れんらくする</rt></ruby>",
+        "options": ["クライアントに<ruby>連絡<rt>れんらく</rt></ruby>する",
           "報告書を作成する",
           "データを確認する",
           "会議を設定する"],
@@ -2081,7 +2081,7 @@ window.MOCK_DATA['N2'] = {
         "question": "正しい漢字は？",
         "options": ["市民",
           "<ruby>壊滅的な<rt>かいめつてきな</rt></ruby>",
-          "<ruby>諮問する<rt>しもんする</rt></ruby>",
+          "<ruby>諮問<rt>しもん</rt></ruby>する",
           "染まる"],
         "answer": 2
       },
@@ -2167,7 +2167,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文脈規定",
-        "text": "（　）にコストを<ruby>削減する<rt>さくげんする</rt></ruby>",
+        "text": "（　）にコストを<ruby>削減<rt>さくげん</rt></ruby>する",
         "question": "（　）に入るのは？",
         "options": ["<ruby>大幅<rt>おおはば</rt></ruby>",
           "企業",
@@ -2272,7 +2272,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["<ruby>英雄<rt>えいゆう</rt></ruby>",
           "機能",
           "理想",
-          "<ruby>起訴する<rt>きそする</rt></ruby>"],
+          "<ruby>起訴<rt>きそ</rt></ruby>する"],
         "answer": 1
       },
       {
@@ -2312,7 +2312,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["<ruby>請求<rt>せいきゅう</rt></ruby>書",
           "<ruby>釣る<rt>つる</rt></ruby>",
           "強める",
-          "<ruby>起訴する<rt>きそする</rt></ruby>"],
+          "<ruby>起訴<rt>きそ</rt></ruby>する"],
         "answer": 2
       },
       {
@@ -2884,7 +2884,7 @@ window.MOCK_DATA['N2'] = {
         "type": "課題理解",
         "text": "教授と学生が話しています。学生は何をすべきですか。",
         "question": "何をすべきですか。",
-        "options": ["データを再<ruby>分析する<rt>ぶんせきする</rt></ruby>",
+        "options": ["データを再<ruby>分析<rt>ぶんせき</rt></ruby>する",
           "<ruby>結論<rt>けつろん</rt></ruby>を書き<ruby>直す<rt>なおす</rt></ruby>",
           "構成を変更する",
           "参考文献を<ruby>追加<rt>ついか</rt></ruby>する"],
@@ -3442,7 +3442,7 @@ window.MOCK_DATA['N2'] = {
         "question": "（　）に入るのは？",
         "options": ["<ruby>結論<rt>けつろん</rt></ruby>",
           "理想",
-          "<ruby>起訴する<rt>きそする</rt></ruby>",
+          "<ruby>起訴<rt>きそ</rt></ruby>する",
           "変"],
         "answer": 0
       },
@@ -4045,7 +4045,7 @@ window.MOCK_DATA['N2'] = {
         "question": "何をしますか。",
         "options": ["折り返し電話する",
           "伝言を残す",
-          "メールで<ruby>連絡する<rt>れんらくする</rt></ruby>",
+          "メールで<ruby>連絡<rt>れんらく</rt></ruby>する",
           "担当者に取り次ぐ"],
         "answer": 3,
         "id": "N2-04-079",
@@ -4612,7 +4612,7 @@ window.MOCK_DATA['N2'] = {
         "text": "新しい方法を（　）する",
         "question": "（　）に入るのは？",
         "options": ["試行",
-          "<ruby>起訴する<rt>きそする</rt></ruby>",
+          "<ruby>起訴<rt>きそ</rt></ruby>する",
           "変",
           "人間"],
         "answer": 0
@@ -5800,7 +5800,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "文脈規定",
-        "text": "国際（　）を<ruby>分析する<rt>ぶんせきする</rt></ruby>",
+        "text": "国際（　）を<ruby>分析<rt>ぶんせき</rt></ruby>する",
         "question": "（　）に入るのは？",
         "options": ["自然",
           "<ruby>旅行<rt>りょこう</rt></ruby>",
@@ -5862,7 +5862,7 @@ window.MOCK_DATA['N2'] = {
         "type": "言い換え",
         "text": "エネルギーを<ruby>消費<rt>しょうひ</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
-        "options": ["<ruby>起訴する<rt>きそする</rt></ruby>",
+        "options": ["<ruby>起訴<rt>きそ</rt></ruby>する",
           "<ruby>請求<rt>せいきゅう</rt></ruby>書",
           "使う",
           "<ruby>旅行<rt>りょこう</rt></ruby>"],
@@ -6349,7 +6349,7 @@ window.MOCK_DATA['N2'] = {
         "type": "課題理解",
         "text": "上司と部下が話しています。部下はこのあと何をしますか。（26）",
         "question": "何をしますか。",
-        "options": ["クライアントに<ruby>連絡する<rt>れんらくする</rt></ruby>",
+        "options": ["クライアントに<ruby>連絡<rt>れんらく</rt></ruby>する",
           "会議を設定する",
           "データを確認する",
           "報告書を作成する"],
@@ -6995,7 +6995,7 @@ window.MOCK_DATA['N2'] = {
         "question": "意味が近いのは？",
         "options": ["契約条件",
           "足りる",
-          "<ruby>審査する<rt>しんさする</rt></ruby>",
+          "<ruby>審査<rt>しんさ</rt></ruby>する",
           "片道"],
         "answer": 2
       },
@@ -7570,7 +7570,7 @@ window.MOCK_DATA['N2'] = {
         "question": "何をすべきですか。",
         "options": ["参考文献を<ruby>追加<rt>ついか</rt></ruby>する",
           "構成を変更する",
-          "データを再<ruby>分析する<rt>ぶんせきする</rt></ruby>",
+          "データを再<ruby>分析<rt>ぶんせき</rt></ruby>する",
           "<ruby>結論<rt>けつろん</rt></ruby>を書き<ruby>直す<rt>なおす</rt></ruby>"],
         "answer": 0,
         "id": "N2-07-080",
@@ -8730,7 +8730,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["担当者に取り次ぐ",
           "伝言を残す",
           "折り返し電話する",
-          "メールで<ruby>連絡する<rt>れんらくする</rt></ruby>"],
+          "メールで<ruby>連絡<rt>れんらく</rt></ruby>する"],
         "answer": 0,
         "id": "N2-08-079",
         "script": "男：すみません、優先的に対応すべき事項があります。\n女：何でしょうか。\n男：担当者に取り次ぐいただけますか。\n女：はい、すぐに対応します。【セット8問47】"
@@ -10407,7 +10407,7 @@ window.MOCK_DATA['N2'] = {
         "text": "価格の<ruby>推移<rt>すいい</rt></ruby>を追うの意味は？",
         "question": "意味が近いのは？",
         "options": ["変化",
-          "<ruby>起訴する<rt>きそする</rt></ruby>",
+          "<ruby>起訴<rt>きそ</rt></ruby>する",
           "<ruby>旅行<rt>りょこう</rt></ruby>",
           "つかまえる"],
         "answer": 0
@@ -10905,7 +10905,7 @@ window.MOCK_DATA['N2'] = {
         "question": "何をしますか。",
         "options": ["会議を設定する",
           "報告書を作成する",
-          "クライアントに<ruby>連絡する<rt>れんらくする</rt></ruby>",
+          "クライアントに<ruby>連絡<rt>れんらく</rt></ruby>する",
           "データを確認する"],
         "answer": 3,
         "id": "N2-10-076",
@@ -11954,7 +11954,7 @@ window.MOCK_DATA['N2'] = {
         "question": "何をすべきですか。",
         "options": ["構成を変更する",
           "<ruby>結論<rt>けつろん</rt></ruby>を書き<ruby>直す<rt>なおす</rt></ruby>",
-          "データを再<ruby>分析する<rt>ぶんせきする</rt></ruby>",
+          "データを再<ruby>分析<rt>ぶんせき</rt></ruby>する",
           "参考文献を<ruby>追加<rt>ついか</rt></ruby>する"],
         "answer": 3,
         "id": "N2-11-080",
@@ -12941,7 +12941,7 @@ window.MOCK_DATA['N2'] = {
         "type": "課題理解",
         "text": "電話で話しています。電話を受けた人は何をしますか。（59）",
         "question": "何をしますか。",
-        "options": ["メールで<ruby>連絡する<rt>れんらくする</rt></ruby>",
+        "options": ["メールで<ruby>連絡<rt>れんらく</rt></ruby>する",
           "担当者に取り次ぐ",
           "折り返し電話する",
           "伝言を残す"],
@@ -13387,9 +13387,9 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "提案を<ruby>検討する<rt>けんとうする</rt></ruby>の意味は？",
+        "text": "提案を<ruby>検討<rt>けんとう</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
-        "options": ["<ruby>考慮する<rt>こうりょする</rt></ruby>",
+        "options": ["<ruby>考慮<rt>こうりょ</rt></ruby>する",
           "企業統治",
           "体力",
           "築年数"],
@@ -13397,7 +13397,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "データを<ruby>分析する<rt>ぶんせきする</rt></ruby>の意味は？",
+        "text": "データを<ruby>分析<rt>ぶんせき</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": ["<ruby>解析<rt>かいせき</rt></ruby>する",
           "EdTech",
@@ -13407,7 +13407,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "計画を<ruby>実施する<rt>じっしする</rt></ruby>の意味は？",
+        "text": "計画を<ruby>実施<rt>じっし</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": ["人間",
           "遅<ruby>延<rt>のむ</rt></ruby>なく",
@@ -13417,7 +13417,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "新システムを<ruby>導入する<rt>どうにゅうする</rt></ruby>の意味は？",
+        "text": "新システムを<ruby>導入<rt>どうにゅう</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": ["系列企業",
           "採用する",
@@ -14378,7 +14378,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "プロジェクトを<ruby>推進する<rt>すいしんする</rt></ruby>の意味は？",
+        "text": "プロジェクトを<ruby>推進<rt>すいしん</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": ["変",
           "進める",
@@ -14388,7 +14388,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "健康を<ruby>維持する<rt>いじする</rt></ruby>の意味は？",
+        "text": "健康を<ruby>維持<rt>いじ</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": ["耕す",
           "健康<ruby>診断<rt>しんだん</rt></ruby><ruby>結果<rt>けっか</rt></ruby>",
@@ -14398,7 +14398,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "品質を<ruby>改善する<rt>かいぜんする</rt></ruby>の意味は？",
+        "text": "品質を<ruby>改善<rt>かいぜん</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": ["<ruby>結論<rt>けつろん</rt></ruby>",
           "<ruby>旅行<rt>りょこう</rt></ruby>",
@@ -14408,7 +14408,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "成果を<ruby>評価する<rt>ひょうかする</rt></ruby>の意味は？",
+        "text": "成果を<ruby>評価<rt>ひょうか</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": ["技能実習",
           "片道",
@@ -14418,7 +14418,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "予約を<ruby>確認する<rt>かくにんする</rt></ruby>の意味は？",
+        "text": "予約を<ruby>確認<rt>かくにん</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": ["完全",
           "問い合わせ",
@@ -14907,7 +14907,7 @@ window.MOCK_DATA['N2'] = {
         "type": "課題理解",
         "text": "上司と部下が話しています。部下はこのあと何をしますか。（66）",
         "question": "何をしますか。",
-        "options": ["クライアントに<ruby>連絡する<rt>れんらくする</rt></ruby>",
+        "options": ["クライアントに<ruby>連絡<rt>れんらく</rt></ruby>する",
           "データを確認する",
           "会議を設定する",
           "報告書を作成する"],
@@ -15379,7 +15379,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "状況を<ruby>把握する<rt>はあくする</rt></ruby>の意味は？",
+        "text": "状況を<ruby>把握<rt>はあく</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": ["理解する",
           "開発<ruby>委託<rt>いたく</rt></ruby>",
@@ -15389,7 +15389,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "コストを<ruby>削減する<rt>さくげんする</rt></ruby>の意味は？",
+        "text": "コストを<ruby>削減<rt>さくげん</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": ["減らす",
           "本格",
@@ -15399,7 +15399,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "<ruby>交渉する<rt>こうしょうする</rt></ruby>ことが大切だの意味は？",
+        "text": "<ruby>交渉<rt>こうしょう</rt></ruby>することが大切だの意味は？",
         "question": "意味が近いのは？",
         "options": ["話し合う",
           "<ruby>遠慮<rt>えんりょ</rt></ruby>",
@@ -15409,7 +15409,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "スケジュールを<ruby>調整する<rt>ちょうせいする</rt></ruby>の意味は？",
+        "text": "スケジュールを<ruby>調整<rt>ちょうせい</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": ["整える",
           "派遣社員",
@@ -15957,7 +15957,7 @@ window.MOCK_DATA['N2'] = {
         "text": "教授と学生が話しています。学生は何をすべきですか。（75）",
         "question": "何をすべきですか。",
         "options": ["参考文献を<ruby>追加<rt>ついか</rt></ruby>する",
-          "データを再<ruby>分析する<rt>ぶんせきする</rt></ruby>",
+          "データを再<ruby>分析<rt>ぶんせき</rt></ruby>する",
           "構成を変更する",
           "<ruby>結論<rt>けつろん</rt></ruby>を書き<ruby>直す<rt>なおす</rt></ruby>"],
         "answer": 0,
@@ -16570,7 +16570,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "問題に<ruby>対応する<rt>たいおうする</rt></ruby>の意味は？",
+        "text": "問題に<ruby>対応<rt>たいおう</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": ["応じる",
           "資金調達",
@@ -17097,7 +17097,7 @@ window.MOCK_DATA['N2'] = {
         "question": "何をしますか。",
         "options": ["担当者に取り次ぐ",
           "折り返し電話する",
-          "メールで<ruby>連絡する<rt>れんらくする</rt></ruby>",
+          "メールで<ruby>連絡<rt>れんらく</rt></ruby>する",
           "伝言を残す"],
         "answer": 0,
         "id": "N2-16-079",
@@ -17556,7 +17556,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["資産を運用する",
           "イベントを運営する",
           "信頼を得る",
-          "<ruby>大幅<rt>おおはば</rt></ruby>にコストを<ruby>削減する<rt>さくげんする</rt></ruby>"],
+          "<ruby>大幅<rt>おおはば</rt></ruby>にコストを<ruby>削減<rt>さくげん</rt></ruby>する"],
         "answer": 1
       },
       {
@@ -17565,7 +17565,7 @@ window.MOCK_DATA['N2'] = {
         "question": "正しい使い方は？",
         "options": ["資産を運用する",
           "信頼を得る",
-          "<ruby>大幅<rt>おおはば</rt></ruby>にコストを<ruby>削減する<rt>さくげんする</rt></ruby>",
+          "<ruby>大幅<rt>おおはば</rt></ruby>にコストを<ruby>削減<rt>さくげん</rt></ruby>する",
           "<ruby>良い<rt>よい</rt></ruby>成績を収める"],
         "answer": 0
       },
@@ -17573,7 +17573,7 @@ window.MOCK_DATA['N2'] = {
         "type": "用法",
         "text": "「得る」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
-        "options": ["<ruby>大幅<rt>おおはば</rt></ruby>にコストを<ruby>削減する<rt>さくげんする</rt></ruby>",
+        "options": ["<ruby>大幅<rt>おおはば</rt></ruby>にコストを<ruby>削減<rt>さくげん</rt></ruby>する",
           "信頼を得る",
           "<ruby>良い<rt>よい</rt></ruby>成績を収める",
           "主に考える"],
@@ -17586,7 +17586,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["仕事と予定が重なる",
           "<ruby>良い<rt>よい</rt></ruby>成績を収める",
           "主に考える",
-          "<ruby>大幅<rt>おおはば</rt></ruby>にコストを<ruby>削減する<rt>さくげんする</rt></ruby>"],
+          "<ruby>大幅<rt>おおはば</rt></ruby>にコストを<ruby>削減<rt>さくげん</rt></ruby>する"],
         "answer": 3
       },
       {
@@ -17701,7 +17701,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "問題を<ruby>解決する<rt>かいけつする</rt></ruby>の意味は？",
+        "text": "問題を<ruby>解決<rt>かいけつ</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": ["解消する",
           "体力",
@@ -17711,7 +17711,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "経済が<ruby>発展する<rt>はってんする</rt></ruby>の意味は？",
+        "text": "経済が<ruby>発展<rt>はってん</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": ["<ruby>被覆<rt>ひふく</rt></ruby>",
           "人々",
@@ -17721,7 +17721,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "スマートフォンが<ruby>普及する<rt>ふきゅうする</rt></ruby>の意味は？",
+        "text": "スマートフォンが<ruby>普及<rt>ふきゅう</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": ["広まる",
           "人間",
@@ -17731,7 +17731,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "交流を<ruby>促進する<rt>そくしんする</rt></ruby>の意味は？",
+        "text": "交流を<ruby>促進<rt>そくしん</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": ["推進する",
           "気軽",
@@ -17741,7 +17741,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "目標を<ruby>達成する<rt>たっせいする</rt></ruby>の意味は？",
+        "text": "目標を<ruby>達成<rt>たっせい</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": ["<ruby>産学連携<rt>さんがくれんけい</rt></ruby>",
           "自然",
@@ -18873,7 +18873,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "事業を<ruby>拡大する<rt>かくだいする</rt></ruby>の意味は？",
+        "text": "事業を<ruby>拡大<rt>かくだい</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": ["表<ruby>彰<rt>しょう</rt></ruby>",
           "耕す",
@@ -18883,7 +18883,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "規模を<ruby>縮小する<rt>しゅくしょうする</rt></ruby>の意味は？",
+        "text": "規模を<ruby>縮小<rt>しゅくしょう</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": ["減らす",
           "つかまえる",
@@ -18893,7 +18893,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "在庫を<ruby>管理する<rt>かんりする</rt></ruby>の意味は？",
+        "text": "在庫を<ruby>管理<rt>かんり</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": ["ゴミ出し",
           "<ruby>仲裁<rt>ちゅうさい</rt></ruby>手続き",
@@ -18903,7 +18903,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "<ruby>運営する<rt>うんえいする</rt></ruby>ことが大切だの意味は？",
+        "text": "<ruby>運営<rt>うんえい</rt></ruby>することが大切だの意味は？",
         "question": "意味が近いのは？",
         "options": ["付<ruby>加<rt>くわ</rt></ruby>価値",
           "経営する",
@@ -18913,7 +18913,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "資源を<ruby>活用する<rt>かつようする</rt></ruby>の意味は？",
+        "text": "資源を<ruby>活用<rt>かつよう</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": ["<ruby>廃止<rt>はいし</rt></ruby>",
           "入<ruby>荷<rt>にな</rt></ruby>",
@@ -19402,7 +19402,7 @@ window.MOCK_DATA['N2'] = {
         "type": "課題理解",
         "text": "上司と部下が話しています。部下はこのあと何をしますか。（86）",
         "question": "何をしますか。",
-        "options": ["クライアントに<ruby>連絡する<rt>れんらくする</rt></ruby>",
+        "options": ["クライアントに<ruby>連絡<rt>れんらく</rt></ruby>する",
           "会議を設定する",
           "データを確認する",
           "報告書を作成する"],
@@ -19818,7 +19818,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["企画書",
           "付く",
           "<ruby>今回<rt>こんかい</rt></ruby>",
-          "<ruby>暴騰する<rt>ぼうとうする</rt></ruby>"],
+          "<ruby>暴騰<rt>ぼうとう</rt></ruby>する"],
         "answer": 1
       },
       {
@@ -19948,7 +19948,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["コンビニ考える",
           "科学的な<ruby>根拠<rt>こんきょ</rt></ruby>を示す",
           "新技術を採用する",
-          "コストを<ruby>削減する<rt>さくげんする</rt></ruby>"],
+          "コストを<ruby>削減<rt>さくげん</rt></ruby>する"],
         "answer": 1
       },
       {
@@ -19957,7 +19957,7 @@ window.MOCK_DATA['N2'] = {
         "question": "正しい使い方は？",
         "options": ["新技術を採用する",
           "コンビニ考える",
-          "コストを<ruby>削減する<rt>さくげんする</rt></ruby>",
+          "コストを<ruby>削減<rt>さくげん</rt></ruby>する",
           "企画書を作成する"],
         "answer": 1
       },
@@ -19966,7 +19966,7 @@ window.MOCK_DATA['N2'] = {
         "text": "「採用」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["さらに考える",
-          "コストを<ruby>削減する<rt>さくげんする</rt></ruby>",
+          "コストを<ruby>削減<rt>さくげん</rt></ruby>する",
           "企画書を作成する",
           "新技術を採用する"],
         "answer": 3
@@ -19977,7 +19977,7 @@ window.MOCK_DATA['N2'] = {
         "question": "正しい使い方は？",
         "options": ["さらに考える",
           "企画書を作成する",
-          "コストを<ruby>削減する<rt>さくげんする</rt></ruby>",
+          "コストを<ruby>削減<rt>さくげん</rt></ruby>する",
           "マニュアルを参照する"],
         "answer": 2
       },
@@ -20043,7 +20043,7 @@ window.MOCK_DATA['N2'] = {
       },
       {
         "type": "言い換え",
-        "text": "社会に<ruby>貢献する<rt>こうけんする</rt></ruby>の意味は？",
+        "text": "社会に<ruby>貢献<rt>こうけん</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": ["着実",
           "在庫<ruby>管理<rt>かんり</rt></ruby>する",
@@ -20623,7 +20623,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["参考文献を<ruby>追加<rt>ついか</rt></ruby>する",
           "構成を変更する",
           "<ruby>結論<rt>けつろん</rt></ruby>を書き<ruby>直す<rt>なおす</rt></ruby>",
-          "データを再<ruby>分析する<rt>ぶんせきする</rt></ruby>"],
+          "データを再<ruby>分析<rt>ぶんせき</rt></ruby>する"],
         "answer": 0,
         "id": "N2-19-080",
         "script": "男：ちょっと、この件について進め方を検討しましょう。\n女：ええ、何をすればよいでしょうか。\n男：まず参考文献を追加してください。\n女：承知しました。早速取りかかります。【セット19問48】"
@@ -21189,17 +21189,17 @@ window.MOCK_DATA['N2'] = {
         "options": ["市場の<ruby>需<rt>じゅ</rt></ruby>要が増える",
           "プロジェクトが順調に進む",
           "条件を満たす",
-          "国際情勢を<ruby>分析する<rt>ぶんせきする</rt></ruby>"],
+          "国際情勢を<ruby>分析<rt>ぶんせき</rt></ruby>する"],
         "answer": 0
       },
       {
         "type": "用法",
         "text": "「順調」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
-        "options": ["国際情勢を<ruby>分析する<rt>ぶんせきする</rt></ruby>",
+        "options": ["国際情勢を<ruby>分析<rt>ぶんせき</rt></ruby>する",
           "条件を満たす",
           "プロジェクトが順調に進む",
-          "気温が<ruby>上昇する<rt>じょうしょうする</rt></ruby>"],
+          "気温が<ruby>上昇<rt>じょうしょう</rt></ruby>する"],
         "answer": 2
       },
       {
@@ -21207,8 +21207,8 @@ window.MOCK_DATA['N2'] = {
         "text": "「条件」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["条件を満たす",
-          "国際情勢を<ruby>分析する<rt>ぶんせきする</rt></ruby>",
-          "気温が<ruby>上昇する<rt>じょうしょうする</rt></ruby>",
+          "国際情勢を<ruby>分析<rt>ぶんせき</rt></ruby>する",
+          "気温が<ruby>上昇<rt>じょうしょう</rt></ruby>する",
           "エネルギーを消費する"],
         "answer": 0
       },
@@ -21780,7 +21780,7 @@ window.MOCK_DATA['N2'] = {
         "text": "電話で話しています。電話を受けた人は何をしますか。（99）",
         "question": "何をしますか。",
         "options": ["担当者に取り次ぐ",
-          "メールで<ruby>連絡する<rt>れんらくする</rt></ruby>",
+          "メールで<ruby>連絡<rt>れんらく</rt></ruby>する",
           "伝言を残す",
           "折り返し電話する"],
         "answer": 0,
@@ -22218,9 +22218,9 @@ window.MOCK_DATA['N2'] = {
         "text": "「情勢」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["書類を処理する",
-          "気温が<ruby>上昇する<rt>じょうしょうする</rt></ruby>",
+          "気温が<ruby>上昇<rt>じょうしょう</rt></ruby>する",
           "エネルギーを消費する",
-          "国際情勢を<ruby>分析する<rt>ぶんせきする</rt></ruby>"],
+          "国際情勢を<ruby>分析<rt>ぶんせき</rt></ruby>する"],
         "answer": 3
       },
       {
@@ -22230,7 +22230,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["素人考える",
           "エネルギーを消費する",
           "書類を処理する",
-          "気温が<ruby>上昇する<rt>じょうしょうする</rt></ruby>"],
+          "気温が<ruby>上昇<rt>じょうしょう</rt></ruby>する"],
         "answer": 3
       },
       {
@@ -22240,7 +22240,7 @@ window.MOCK_DATA['N2'] = {
         "options": ["書類を処理する",
           "エネルギーを消費する",
           "素人考える",
-          "書類を<ruby>審査する<rt>しんさする</rt></ruby>"],
+          "書類を<ruby>審査<rt>しんさ</rt></ruby>する"],
         "answer": 1
       },
       {
@@ -22249,7 +22249,7 @@ window.MOCK_DATA['N2'] = {
         "question": "正しい使い方は？",
         "options": ["書類を処理する",
           "素人考える",
-          "書類を<ruby>審査する<rt>しんさする</rt></ruby>",
+          "書類を<ruby>審査<rt>しんさ</rt></ruby>する",
           "品質水準を維持する"],
         "answer": 0
       },
@@ -22258,7 +22258,7 @@ window.MOCK_DATA['N2'] = {
         "text": "「素人」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["品質水準を維持する",
-          "書類を<ruby>審査する<rt>しんさする</rt></ruby>",
+          "書類を<ruby>審査<rt>しんさ</rt></ruby>する",
           "素人考える",
           "原因を推測する"],
         "answer": 2
@@ -22268,7 +22268,7 @@ window.MOCK_DATA['N2'] = {
         "text": "「<ruby>審査<rt>しんさ</rt></ruby>」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["品質水準を維持する",
-          "書類を<ruby>審査する<rt>しんさする</rt></ruby>",
+          "書類を<ruby>審査<rt>しんさ</rt></ruby>する",
           "原因を推測する",
           "<ruby>既に<rt>すでに</rt></ruby>考える"],
         "answer": 1
@@ -22330,14 +22330,14 @@ window.MOCK_DATA['N2'] = {
         "options": ["研究に専念する",
           "前提条件を確認する",
           "人口が増<ruby>加<rt>くわ</rt></ruby>する",
-          "血行を<ruby>促進する<rt>そくしんする</rt></ruby>"],
+          "血行を<ruby>促進<rt>そくしん</rt></ruby>する"],
         "answer": 1
       },
       {
         "type": "用法",
         "text": "「専念」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
-        "options": ["血行を<ruby>促進する<rt>そくしんする</rt></ruby>",
+        "options": ["血行を<ruby>促進<rt>そくしん</rt></ruby>する",
           "人口が増<ruby>加<rt>くわ</rt></ruby>する",
           "研究に専念する",
           "そっと考える"],
@@ -22348,7 +22348,7 @@ window.MOCK_DATA['N2'] = {
         "text": "「増<ruby>加<rt>くわ</rt></ruby>」の使い方として正しいのはどれか。",
         "question": "正しい使い方は？",
         "options": ["そっと考える",
-          "血行を<ruby>促進する<rt>そくしんする</rt></ruby>",
+          "血行を<ruby>促進<rt>そくしん</rt></ruby>する",
           "人口が増<ruby>加<rt>くわ</rt></ruby>する",
           "企業の存続が危ぶまれる"],
         "answer": 2
@@ -22359,7 +22359,7 @@ window.MOCK_DATA['N2'] = {
         "question": "正しい使い方は？",
         "options": ["企業の存続が危ぶまれる",
           "そっと考える",
-          "血行を<ruby>促進する<rt>そくしんする</rt></ruby>",
+          "血行を<ruby>促進<rt>そくしん</rt></ruby>する",
           "<ruby>効果<rt>こうか</rt></ruby>的な対策を講じる"],
         "answer": 2
       },

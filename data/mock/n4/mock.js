@@ -171,7 +171,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文法形式",
-        "text": "毎日　<ruby>運動する<rt>うんどうする</rt></ruby>（　）にしています。",
+        "text": "毎日　<ruby>運動<rt>うんどう</rt></ruby>する（　）にしています。",
         "question": "（　）に　はいるのは？",
         "options": ["ため",
           "こと",
@@ -347,12 +347,12 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "読解（中文）",
-        "text": "来月、<ruby>昇進する<rt>しょうしんする</rt></ruby>ことになりました。<ruby>責<rt>せき</rt></ruby>任が<ruby>重<rt>おも</rt></ruby>くなりますが、やりがいも<ruby>増える<rt>ふえる</rt></ruby>と<ruby>思い<rt>おもい</rt></ruby>ます。<ruby>新しい<rt>あたらしい</rt></ruby><ruby>部下<rt>ぶか</rt></ruby>ができるので、しっかり教えられるようになりたいです。",
+        "text": "来月、<ruby>昇進<rt>しょうしん</rt></ruby>することになりました。<ruby>責<rt>せき</rt></ruby>任が<ruby>重<rt>おも</rt></ruby>くなりますが、やりがいも<ruby>増える<rt>ふえる</rt></ruby>と<ruby>思い<rt>おもい</rt></ruby>ます。<ruby>新しい<rt>あたらしい</rt></ruby><ruby>部下<rt>ぶか</rt></ruby>ができるので、しっかり教えられるようになりたいです。",
         "question": "来月どうなりますか。",
         "options": ["<ruby>休職<rt>きゅうしょく</rt></ruby>する",
-          "<ruby>退職する<rt>たいしょくする</rt></ruby>",
-          "<ruby>転職する<rt>てんしょくする</rt></ruby>",
-          "<ruby>昇進する<rt>しょうしんする</rt></ruby>"],
+          "<ruby>退職<rt>たいしょく</rt></ruby>する",
+          "<ruby>転職<rt>てんしょく</rt></ruby>する",
+          "<ruby>昇進<rt>しょうしん</rt></ruby>する"],
         "answer": 3,
         "id": "N4-01-064"
       },
@@ -909,7 +909,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>確認する<rt>かくにんする</rt></ruby>",
+        "text": "（　）を<ruby>確認<rt>かくにん</rt></ruby>する",
         "question": "（　）に入るのは？",
         "options": ["<ruby>影響<rt>えいきょう</rt></ruby>",
           "<ruby>届け先<rt>とどけさき</rt></ruby>",
@@ -934,7 +934,7 @@ window.MOCK_DATA['N4'] = {
         "options": ["<ruby>案内<rt>あんない</rt></ruby>",
           "<ruby>集まる<rt>あつまる</rt></ruby>",
           "<ruby>短<rt>たん</rt></ruby>縮",
-          "<ruby>進歩する<rt>しんぽする</rt></ruby>"],
+          "<ruby>進歩<rt>しんぽ</rt></ruby>する"],
         "answer": 1
       },
       {
@@ -1071,7 +1071,7 @@ window.MOCK_DATA['N4'] = {
         "type": "言い換え",
         "text": "友達に荷物を<ruby>届ける<rt>とどける</rt></ruby>の意味は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
-        "options": ["<ruby>進歩する<rt>しんぽする</rt></ruby>",
+        "options": ["<ruby>進歩<rt>しんぽ</rt></ruby>する",
           "<ruby>素<rt>そ</rt></ruby>晴らしい",
           "配達する",
           "<ruby>練習<rt>れんしゅう</rt></ruby>"],
@@ -1111,7 +1111,7 @@ window.MOCK_DATA['N4'] = {
         "text": "切手を<ruby>集める<rt>あつめる</rt></ruby>のが趣味だの意味は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["羨ましい",
-          "<ruby>収集する<rt>しゅうしゅうする</rt></ruby>",
+          "<ruby>収集<rt>しゅうしゅう</rt></ruby>する",
           "<ruby>信頼<rt>しんらい</rt></ruby>",
           "<ruby>課<rt>か</rt></ruby>長"],
         "answer": 1
@@ -1421,7 +1421,7 @@ window.MOCK_DATA['N4'] = {
         "question": "この人は今年何をしますか。",
         "options": ["<ruby>研修<rt>けんしゅう</rt></ruby>を担当する",
           "<ruby>研修<rt>けんしゅう</rt></ruby>を<ruby>受ける<rt>うける</rt></ruby>",
-          "<ruby>退職する<rt>たいしょくする</rt></ruby>",
+          "<ruby>退職<rt>たいしょく</rt></ruby>する",
           "<ruby>新<rt>しん</rt></ruby>人になる"],
         "answer": 1,
         "id": "N4-02-061"
@@ -2006,7 +2006,7 @@ window.MOCK_DATA['N4'] = {
         "question": "（　）に入るのは？",
         "options": ["<ruby>短<rt>たん</rt></ruby>縮",
           "<ruby>残る<rt>のこる</rt></ruby>",
-          "<ruby>進歩する<rt>しんぽする</rt></ruby>",
+          "<ruby>進歩<rt>しんぽ</rt></ruby>する",
           "<ruby>告げる<rt>つげる</rt></ruby>"],
         "answer": 1
       },
@@ -2206,7 +2206,7 @@ window.MOCK_DATA['N4'] = {
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>税<rt>ぜい</rt></ruby><ruby>抜<rt>ばつ</rt></ruby>",
           "独立",
-          "<ruby>決定する<rt>けっていする</rt></ruby>",
+          "<ruby>決定<rt>けってい</rt></ruby>する",
           "<ruby>痩せる<rt>やせる</rt></ruby>"],
         "answer": 2
       },
@@ -3079,7 +3079,7 @@ window.MOCK_DATA['N4'] = {
         "text": "<ruby>別れ<rt>わかれ</rt></ruby>を（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>季節<rt>きせつ</rt></ruby>",
-          "<ruby>進歩する<rt>しんぽする</rt></ruby>",
+          "<ruby>進歩<rt>しんぽ</rt></ruby>する",
           "<ruby>告げる<rt>つげる</rt></ruby>",
           "<ruby>悲しむ<rt>かなしむ</rt></ruby>"],
         "answer": 3
@@ -3218,7 +3218,7 @@ window.MOCK_DATA['N4'] = {
         "type": "文脈規定",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
-        "options": ["<ruby>解決する<rt>かいけつする</rt></ruby>",
+        "options": ["<ruby>解決<rt>かいけつ</rt></ruby>する",
           "防<ruby>止<rt>とる</rt></ruby>",
           "<ruby>固い<rt>かたい</rt></ruby>",
           "<ruby>危険<rt>きけん</rt></ruby>"],
@@ -3289,7 +3289,7 @@ window.MOCK_DATA['N4'] = {
         "text": "季節が<ruby>変わる<rt>かわる</rt></ruby>の意味は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>深める<rt>ふかめる</rt></ruby>",
-          "<ruby>変化する<rt>へんかする</rt></ruby>",
+          "<ruby>変化<rt>へんか</rt></ruby>する",
           "<ruby>転職<rt>てんしょく</rt></ruby>"],
         "answer": 1
       },
@@ -4293,7 +4293,7 @@ window.MOCK_DATA['N4'] = {
         "question": "（　）に入るのは？",
         "options": ["<ruby>重ねる<rt>かさねる</rt></ruby>",
           "<ruby>固い<rt>かたい</rt></ruby>",
-          "<ruby>解決する<rt>かいけつする</rt></ruby>",
+          "<ruby>解決<rt>かいけつ</rt></ruby>する",
           "会話"],
         "answer": 3
       },
@@ -4384,7 +4384,7 @@ window.MOCK_DATA['N4'] = {
         "options": ["<ruby>季節<rt>きせつ</rt></ruby>",
           "<ruby>抜ける<rt>ぬける</rt></ruby>",
           "取り<ruby>寄<rt>き</rt></ruby>せ",
-          "<ruby>成長する<rt>せいちょうする</rt></ruby>"],
+          "<ruby>成長<rt>せいちょう</rt></ruby>する"],
         "answer": 3
       },
       {
@@ -4412,7 +4412,7 @@ window.MOCK_DATA['N4'] = {
         "text": "人口が<ruby>減る<rt>へる</rt></ruby>の意味は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>壊れる<rt>こわれる</rt></ruby>",
-          "<ruby>減少する<rt>げんしょうする</rt></ruby>",
+          "<ruby>減少<rt>げんしょう</rt></ruby>する",
           "添付",
           "役立つ"],
         "answer": 1
@@ -4422,9 +4422,9 @@ window.MOCK_DATA['N4'] = {
         "text": "出費を<ruby>減らす<rt>へらす</rt></ruby>の意味は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["調べる",
-          "<ruby>進歩する<rt>しんぽする</rt></ruby>",
+          "<ruby>進歩<rt>しんぽ</rt></ruby>する",
           "<ruby>練習<rt>れんしゅう</rt></ruby>",
-          "<ruby>削減する<rt>さくげんする</rt></ruby>"],
+          "<ruby>削減<rt>さくげん</rt></ruby>する"],
         "answer": 3
       }
     ],
@@ -4655,7 +4655,7 @@ window.MOCK_DATA['N4'] = {
         "text": "<ruby>問題<rt>もんだい</rt></ruby>が（　）、<ruby>対策<rt>たいさく</rt></ruby>を<ruby>講<rt>こう</rt></ruby>じた。（123）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>発生<rt>はっせい</rt></ruby>したとたん",
-          "<ruby>発生する<rt>はっせいする</rt></ruby>や",
+          "<ruby>発生<rt>はっせい</rt></ruby>するや",
           "<ruby>発生<rt>はっせい</rt></ruby>次第",
           "<ruby>発生<rt>はっせい</rt></ruby>して<ruby>以来<rt>いらい</rt></ruby>"],
         "answer": 2,
@@ -5366,7 +5366,7 @@ window.MOCK_DATA['N4'] = {
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
         "options": ["<ruby>重ねる<rt>かさねる</rt></ruby>",
-          "<ruby>解決する<rt>かいけつする</rt></ruby>",
+          "<ruby>解決<rt>かいけつ</rt></ruby>する",
           "<ruby>気持ち<rt>きもち</rt></ruby>",
           "下落"],
         "answer": 2
@@ -5508,7 +5508,7 @@ window.MOCK_DATA['N4'] = {
         "options": ["<ruby>印<rt>しるし</rt></ruby><ruby>刷<rt>さつ</rt></ruby>",
           "落ち<ruby>着く<rt>つく</rt></ruby>",
           "<ruby>部品<rt>ぶひん</rt></ruby>",
-          "<ruby>残存する<rt>ざんそんする</rt></ruby>"],
+          "<ruby>残存<rt>ざんそん</rt></ruby>する"],
         "answer": 3
       },
       {
@@ -5813,9 +5813,9 @@ window.MOCK_DATA['N4'] = {
         "text": "<ruby>授業<rt>じゅぎょう</rt></ruby>を休むときは、<ruby>事前<rt>じぜん</rt></ruby>に連絡してください。<ruby>無断<rt>むだん</rt></ruby>で休むと<ruby>欠席<rt>けっせき</rt></ruby>になります。",
         "question": "<ruby>授業<rt>じゅぎょう</rt></ruby>を休むときはどうしますか。",
         "options": ["友達に<ruby>言う<rt>いう</rt></ruby>",
-          "<ruby>事前<rt>じぜん</rt></ruby>に<ruby>連絡する<rt>れんらくする</rt></ruby>",
+          "<ruby>事前<rt>じぜん</rt></ruby>に<ruby>連絡<rt>れんらく</rt></ruby>する",
           "何もしない",
-          "後で<ruby>連絡する<rt>れんらくする</rt></ruby>"],
+          "後で<ruby>連絡<rt>れんらく</rt></ruby>する"],
         "answer": 1,
         "id": "N4-06-059"
       },
@@ -5832,7 +5832,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "読解（中文）",
-        "text": "<ruby>医者<rt>いしゃ</rt></ruby>に「もっと<ruby>運動<rt>うんどう</rt></ruby>したほうがいい」と<ruby>言<rt>い</rt></ruby>われました。それで、<ruby>毎朝<rt>まいあさ</rt></ruby>30分<ruby>散歩する<rt>さんぽする</rt></ruby>ことにしました。1か月続けたら、<ruby>体<rt>からだ</rt></ruby>が<ruby>軽<rt>かる</rt></ruby>くなりました。",
+        "text": "<ruby>医者<rt>いしゃ</rt></ruby>に「もっと<ruby>運動<rt>うんどう</rt></ruby>したほうがいい」と<ruby>言<rt>い</rt></ruby>われました。それで、<ruby>毎朝<rt>まいあさ</rt></ruby>30分<ruby>散歩<rt>さんぽ</rt></ruby>することにしました。1か月続けたら、<ruby>体<rt>からだ</rt></ruby>が<ruby>軽<rt>かる</rt></ruby>くなりました。",
         "question": "どうして<ruby>散歩<rt>さんぽ</rt></ruby>を<ruby>始<rt>はじまる</rt></ruby>めましたか。",
         "options": ["ダイエットのため",
           "<ruby>医者<rt>いしゃ</rt></ruby>に<ruby>言<rt>い</rt></ruby>われた",
@@ -6601,7 +6601,7 @@ window.MOCK_DATA['N4'] = {
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>示す<rt>しめす</rt></ruby>",
           "<ruby>報告書<rt>ほうこくしょ</rt></ruby>",
-          "<ruby>発見する<rt>はっけんする</rt></ruby>",
+          "<ruby>発見<rt>はっけん</rt></ruby>する",
           "学ぶ"],
         "answer": 2
       },
@@ -6632,7 +6632,7 @@ window.MOCK_DATA['N4'] = {
         "options": ["<ruby>不可能<rt>ふかのう</rt></ruby>",
           "役に立つ",
           "<ruby>泣く<rt>なく</rt></ruby>",
-          "<ruby>解決する<rt>かいけつする</rt></ruby>"],
+          "<ruby>解決<rt>かいけつ</rt></ruby>する"],
         "answer": 1
       }
     ],
@@ -6907,7 +6907,7 @@ window.MOCK_DATA['N4'] = {
         "question": "<ruby>熱<rt>ねつ</rt></ruby>があるときどうしますか。",
         "options": ["<ruby>仕事<rt>しごと</rt></ruby>に行く",
           "休んで<ruby>薬を飲む<rt>くすりをのむ</rt></ruby>",
-          "<ruby>運動する<rt>うんどうする</rt></ruby>",
+          "<ruby>運動<rt>うんどう</rt></ruby>する",
           "おふろに入る"],
         "answer": 1,
         "id": "N4-07-058"
@@ -7977,7 +7977,7 @@ window.MOCK_DATA['N4'] = {
         "text": "<ruby>健康診断<rt>けんこうしんだん</rt></ruby>の前日は夜9時から何も食べないでください。水は飲んでもいいです。",
         "question": "健<ruby>康<rt>こう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>の前日、何をしてはいけませんか。",
         "options": ["<ruby>夜<rt>よる</rt></ruby>9時から食べる",
-          "<ruby>運動する<rt>うんどうする</rt></ruby>",
+          "<ruby>運動<rt>うんどう</rt></ruby>する",
           "<ruby>寝る<rt>ねる</rt></ruby>",
           "水を飲む"],
         "answer": 0,
@@ -8657,7 +8657,7 @@ window.MOCK_DATA['N4'] = {
         "type": "文脈規定",
         "text": "（　）について話す",
         "question": "（　）に入るのは？",
-        "options": ["<ruby>発展する<rt>はってんする</rt></ruby>",
+        "options": ["<ruby>発展<rt>はってん</rt></ruby>する",
           "<ruby>首相<rt>しゅしょう</rt></ruby>",
           "人々",
           "誕生日"],
@@ -9733,7 +9733,7 @@ window.MOCK_DATA['N4'] = {
         "question": "（　）に入るのは？",
         "options": ["<ruby>無くなる<rt>なくなる</rt></ruby>",
           "人々",
-          "<ruby>発展する<rt>はってんする</rt></ruby>",
+          "<ruby>発展<rt>はってん</rt></ruby>する",
           "<ruby>売り場<rt>うりば</rt></ruby>"],
         "answer": 3
       },
@@ -9923,7 +9923,7 @@ window.MOCK_DATA['N4'] = {
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>疲れる<rt>つかれる</rt></ruby>",
           "<ruby>課<rt>か</rt></ruby>長",
-          "<ruby>困惑する<rt>こんわくする</rt></ruby>",
+          "<ruby>困惑<rt>こんわく</rt></ruby>する",
           "<ruby>扱う<rt>あつかう</rt></ruby>"],
         "answer": 2
       },
@@ -10175,7 +10175,7 @@ window.MOCK_DATA['N4'] = {
         "question": "（　）に入るのは？",
         "options": ["<ruby>発生<rt>はっせい</rt></ruby>次第",
           "<ruby>発生<rt>はっせい</rt></ruby>して<ruby>以来<rt>いらい</rt></ruby>",
-          "<ruby>発生する<rt>はっせいする</rt></ruby>や",
+          "<ruby>発生<rt>はっせい</rt></ruby>するや",
           "<ruby>発生<rt>はっせい</rt></ruby>したとたん"],
         "answer": 0,
         "id": "N4-10-054"
@@ -10209,7 +10209,7 @@ window.MOCK_DATA['N4'] = {
         "options": ["テレビを見る",
           "料理をする",
           "大きな音を出す",
-          "<ruby>勉強する<rt>べんきょうする</rt></ruby>"],
+          "<ruby>勉強<rt>べんきょう</rt></ruby>する"],
         "answer": 2,
         "id": "N4-10-057"
       },
@@ -10806,7 +10806,7 @@ window.MOCK_DATA['N4'] = {
         "text": "とても（　）",
         "question": "（　）に入るのは？",
         "options": ["<ruby>方<rt>ほう</rt></ruby>針",
-          "<ruby>発展する<rt>はってんする</rt></ruby>",
+          "<ruby>発展<rt>はってん</rt></ruby>する",
           "<ruby>無くなる<rt>なくなる</rt></ruby>",
           "未来"],
         "answer": 3
@@ -10833,7 +10833,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文脈規定",
-        "text": "（　）を<ruby>解決する<rt>かいけつする</rt></ruby>",
+        "text": "（　）を<ruby>解決<rt>かいけつ</rt></ruby>する",
         "question": "（　）に入るのは？",
         "options": ["<ruby>問題<rt>もんだい</rt></ruby>",
           "<ruby>苦手<rt>にがて</rt></ruby>",
@@ -10882,7 +10882,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "文脈規定",
-        "text": "<ruby>遅刻<rt>ちこく</rt></ruby>の（　）を<ruby>説明する<rt>せつめいする</rt></ruby>",
+        "text": "<ruby>遅刻<rt>ちこく</rt></ruby>の（　）を<ruby>説明<rt>せつめい</rt></ruby>する",
         "question": "（　）に入るのは？",
         "options": ["福<ruby>利<rt>り</rt></ruby><ruby>厚<rt>あつ</rt></ruby>生",
           "<ruby>割る<rt>わる</rt></ruby>",
@@ -11036,7 +11036,7 @@ window.MOCK_DATA['N4'] = {
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>泣く<rt>なく</rt></ruby>",
           "<ruby>預<rt>よ</rt></ruby><ruby>託す<rt>たくす</rt></ruby>る",
-          "<ruby>解決する<rt>かいけつする</rt></ruby>",
+          "<ruby>解決<rt>かいけつ</rt></ruby>する",
           "<ruby>証明<rt>しょうめい</rt></ruby>"],
         "answer": 1
       },
@@ -11054,7 +11054,7 @@ window.MOCK_DATA['N4'] = {
     "11": [
       {
         "type": "文法形式",
-        "text": "日本<ruby>語<rt>ご</rt></ruby>を　もっと　<ruby>勉強する<rt>べんきょうする</rt></ruby>（　）です。",
+        "text": "日本<ruby>語<rt>ご</rt></ruby>を　もっと　<ruby>勉強<rt>べんきょう</rt></ruby>する（　）です。",
         "question": "（　）に　はいるのは？",
         "options": ["はず",
           "こと",
@@ -11910,7 +11910,7 @@ window.MOCK_DATA['N4'] = {
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>走る<rt>はしる</rt></ruby>",
           "<ruby>固い<rt>かたい</rt></ruby>",
-          "<ruby>終了する<rt>しゅうりょうする</rt></ruby>",
+          "<ruby>終了<rt>しゅうりょう</rt></ruby>する",
           "<ruby>翻<rt>ひるがえ</rt></ruby>訳"],
         "answer": 2
       },
@@ -12259,7 +12259,7 @@ window.MOCK_DATA['N4'] = {
         "question": "年<ruby>末<rt>まつ</rt></ruby><ruby>年始<rt>ねんし</rt></ruby>に何をする<ruby>予定<rt>よてい</rt></ruby>ですか。",
         "options": ["<ruby>働く<rt>はたらく</rt></ruby>",
           "<ruby>旅行<rt>りょこう</rt></ruby>する",
-          "<ruby>勉強する<rt>べんきょうする</rt></ruby>",
+          "<ruby>勉強<rt>べんきょう</rt></ruby>する",
           "母国に<ruby>帰る<rt>かえる</rt></ruby>"],
         "answer": 3,
         "id": "N4-12-061"
@@ -12822,7 +12822,7 @@ window.MOCK_DATA['N4'] = {
         "type": "言い換え",
         "text": "「<ruby>始まる<rt>はじまる</rt></ruby>」の意味は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
-        "options": ["<ruby>開始する<rt>かいしする</rt></ruby>",
+        "options": ["<ruby>開始<rt>かいし</rt></ruby>する",
           "役立つ",
           "<ruby>笑い<rt>わらい</rt></ruby>",
           "努力"],
@@ -12834,7 +12834,7 @@ window.MOCK_DATA['N4'] = {
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>感<rt>かん</rt></ruby>想",
           "調べる",
-          "<ruby>開催する<rt>かいさいする</rt></ruby>",
+          "<ruby>開催<rt>かいさい</rt></ruby>する",
           "<ruby>求める<rt>もとめる</rt></ruby>"],
         "answer": 2
       },
@@ -13569,7 +13569,7 @@ window.MOCK_DATA['N4'] = {
         "options": ["<ruby>不<rt>ふ</rt></ruby>要",
           "<ruby>議論<rt>ぎろん</rt></ruby>",
           "<ruby>降りる<rt>おりる</rt></ruby>",
-          "<ruby>判断する<rt>はんだんする</rt></ruby>"],
+          "<ruby>判断<rt>はんだん</rt></ruby>する"],
         "answer": 0
       },
       {
@@ -13644,7 +13644,7 @@ window.MOCK_DATA['N4'] = {
       },
       {
         "type": "漢字読み",
-        "text": "<u>問題</u>を<ruby>解決する<rt>かいけつする</rt></ruby>の<ruby>読み方<rt>よみかた</rt></ruby>は？",
+        "text": "<u>問題</u>を<ruby>解決<rt>かいけつ</rt></ruby>するの<ruby>読み方<rt>よみかた</rt></ruby>は？",
         "question": "正しい読みは？",
         "options": ["あさ",
           "もんだい",
@@ -14522,7 +14522,7 @@ window.MOCK_DATA['N4'] = {
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["納<ruby>品<rt>しな</rt></ruby>書",
           "<ruby>降りる<rt>おりる</rt></ruby>",
-          "<ruby>判断する<rt>はんだんする</rt></ruby>",
+          "<ruby>判断<rt>はんだん</rt></ruby>する",
           "<ruby>議論<rt>ぎろん</rt></ruby>"],
         "answer": 3
       },
@@ -14641,7 +14641,7 @@ window.MOCK_DATA['N4'] = {
         "text": "<ruby>質問<rt>しつもん</rt></ruby>について話すの意味は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["聞く",
-          "<ruby>解決する<rt>かいけつする</rt></ruby>",
+          "<ruby>解決<rt>かいけつ</rt></ruby>する",
           "<ruby>証明<rt>しょうめい</rt></ruby>",
           "<ruby>祈る<rt>いのる</rt></ruby>"],
         "answer": 0
@@ -14892,7 +14892,7 @@ window.MOCK_DATA['N4'] = {
         "type": "文章の文法",
         "text": "<ruby>問題<rt>もんだい</rt></ruby>が（　）、<ruby>対策<rt>たいさく</rt></ruby>を<ruby>講<rt>こう</rt></ruby>じた。（173）",
         "question": "（　）に入るのは？",
-        "options": ["<ruby>発生する<rt>はっせいする</rt></ruby>や",
+        "options": ["<ruby>発生<rt>はっせい</rt></ruby>するや",
           "<ruby>発生<rt>はっせい</rt></ruby>次第",
           "<ruby>発生<rt>はっせい</rt></ruby>して<ruby>以来<rt>いらい</rt></ruby>",
           "<ruby>発生<rt>はっせい</rt></ruby>したとたん"],
@@ -16318,7 +16318,7 @@ window.MOCK_DATA['N4'] = {
         "type": "表記",
         "text": "<u>おりる</u>の<ruby>漢<rt>かん</rt></ruby>字は？",
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
-        "options": ["<ruby>判断する<rt>はんだんする</rt></ruby>",
+        "options": ["<ruby>判断<rt>はんだん</rt></ruby>する",
           "<ruby>降りる<rt>おりる</rt></ruby>",
           "納<ruby>品<rt>しな</rt></ruby>書",
           "失う"],
@@ -16441,7 +16441,7 @@ window.MOCK_DATA['N4'] = {
         "options": ["<ruby>届<rt>とどけ</rt></ruby>を出す",
           "<ruby>手紙<rt>てがみ</rt></ruby>が<ruby>届く<rt>とどく</rt></ruby>",
           "<ruby>届け出<rt>とどけで</rt></ruby>を提出する",
-          "<ruby>届け先<rt>とどけさき</rt></ruby>を<ruby>確認する<rt>かくにんする</rt></ruby>"],
+          "<ruby>届け先<rt>とどけさき</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>する"],
         "answer": 1
       },
       {
@@ -16458,7 +16458,7 @@ window.MOCK_DATA['N4'] = {
         "type": "用法",
         "text": "「<ruby>届け出<rt>とどけで</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
-        "options": ["<ruby>届け先<rt>とどけさき</rt></ruby>を<ruby>確認する<rt>かくにんする</rt></ruby>",
+        "options": ["<ruby>届け先<rt>とどけさき</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>する",
           "<ruby>届け出<rt>とどけで</rt></ruby>を提出する",
           "<ruby>切手<rt>きって</rt></ruby>を<ruby>集める<rt>あつめる</rt></ruby>のが<ruby>趣味<rt>しゅみ</rt></ruby>だ",
           "駅前に人が<ruby>集まる<rt>あつまる</rt></ruby>"],
@@ -16469,7 +16469,7 @@ window.MOCK_DATA['N4'] = {
         "text": "「<ruby>届け先<rt>とどけさき</rt></ruby>」の<ruby>使い方<rt>つかいかた</rt></ruby>として正しいのはどれか。",
         "question": "正しい<ruby>使い方<rt>つかいかた</rt></ruby>は？",
         "options": ["<ruby>切手<rt>きって</rt></ruby>を<ruby>集める<rt>あつめる</rt></ruby>のが<ruby>趣味<rt>しゅみ</rt></ruby>だ",
-          "<ruby>届け先<rt>とどけさき</rt></ruby>を<ruby>確認する<rt>かくにんする</rt></ruby>",
+          "<ruby>届け先<rt>とどけさき</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>する",
           "駅前に人が<ruby>集まる<rt>あつまる</rt></ruby>",
           "<ruby>工事<rt>こうじ</rt></ruby>が順調に<ruby>進む<rt>すすむ</rt></ruby>"],
         "answer": 1
@@ -18518,7 +18518,7 @@ window.MOCK_DATA['N4'] = {
         "question": "正しい<ruby>漢<rt>かん</rt></ruby>字は？",
         "options": ["失う",
           "納<ruby>品<rt>しな</rt></ruby>書",
-          "<ruby>判断する<rt>はんだんする</rt></ruby>",
+          "<ruby>判断<rt>はんだん</rt></ruby>する",
           "<ruby>覚悟<rt>かくご</rt></ruby>"],
         "answer": 2
       },
@@ -19970,7 +19970,7 @@ window.MOCK_DATA['N4'] = {
         "type": "言い換え",
         "text": "とても<ruby>賛成<rt>さんせい</rt></ruby>の意味は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
-        "options": ["<ruby>同意する<rt>どういする</rt></ruby>",
+        "options": ["<ruby>同意<rt>どうい</rt></ruby>する",
           "<ruby>普通<rt>ふつう</rt></ruby>",
           "<ruby>漏れる<rt>もれる</rt></ruby>",
           "束ねる"],
@@ -20215,7 +20215,7 @@ window.MOCK_DATA['N4'] = {
         "options": ["<ruby>発生<rt>はっせい</rt></ruby>したとたん",
           "<ruby>発生<rt>はっせい</rt></ruby>して<ruby>以来<rt>いらい</rt></ruby>",
           "<ruby>発生<rt>はっせい</rt></ruby>次第",
-          "<ruby>発生する<rt>はっせいする</rt></ruby>や"],
+          "<ruby>発生<rt>はっせい</rt></ruby>するや"],
         "answer": 2,
         "id": "N4-20-054"
       },

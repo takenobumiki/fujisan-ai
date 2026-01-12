@@ -14375,7 +14375,7 @@ window.MOCK_DATA['N1'] = {
       },
       {
         "type": "言い換え類義",
-        "text": "<ruby>断行する<rt>だんこうする</rt></ruby>ことが大切だの意味は？",
+        "text": "<ruby>断行<rt>だんこう</rt></ruby>することが大切だの意味は？",
         "question": "意味が近いのは？",
         "options": [
           "擡頭",
@@ -14399,7 +14399,7 @@ window.MOCK_DATA['N1'] = {
       },
       {
         "type": "言い換え類義",
-        "text": "問題が<ruby>露呈する<rt>ろていする</rt></ruby>の意味は？",
+        "text": "問題が<ruby>露呈<rt>ろてい</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": [
           "頼る",
@@ -15495,7 +15495,7 @@ window.MOCK_DATA['N1'] = {
       },
       {
         "type": "言い換え類義",
-        "text": "問題が<ruby>派生する<rt>はせいする</rt></ruby>の意味は？",
+        "text": "問題が<ruby>派生<rt>はせい</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": [
           "生じる",
@@ -15507,7 +15507,7 @@ window.MOCK_DATA['N1'] = {
       },
       {
         "type": "言い換え類義",
-        "text": "<ruby>吟味する<rt>ぎんみする</rt></ruby>ことが大切だの意味は？",
+        "text": "<ruby>吟味<rt>ぎんみ</rt></ruby>することが大切だの意味は？",
         "question": "意味が近いのは？",
         "options": [
           "検討する",
@@ -15519,7 +15519,7 @@ window.MOCK_DATA['N1'] = {
       },
       {
         "type": "言い換え類義",
-        "text": "書類を<ruby>精査する<rt>せいさする</rt></ruby>の意味は？",
+        "text": "書類を<ruby>精査<rt>せいさ</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": [
           "土木工学",
@@ -15531,7 +15531,7 @@ window.MOCK_DATA['N1'] = {
       },
       {
         "type": "言い換え類義",
-        "text": "<ruby>撤回する<rt>てっかいする</rt></ruby>ことが大切だの意味は？",
+        "text": "<ruby>撤回<rt>てっかい</rt></ruby>することが大切だの意味は？",
         "question": "意味が近いのは？",
         "options": [
           "写真",
@@ -15555,7 +15555,7 @@ window.MOCK_DATA['N1'] = {
       },
       {
         "type": "言い換え類義",
-        "text": "<ruby>醸成する<rt>じょうせいする</rt></ruby>ことが大切だの意味は？",
+        "text": "<ruby>醸成<rt>じょうせい</rt></ruby>することが大切だの意味は？",
         "question": "意味が近いのは？",
         "options": [
           "設計",
@@ -16651,7 +16651,7 @@ window.MOCK_DATA['N1'] = {
       },
       {
         "type": "言い換え類義",
-        "text": "決定を<ruby>熟慮する<rt>じゅくりょする</rt></ruby>の意味は？",
+        "text": "決定を<ruby>熟慮<rt>じゅくりょ</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": [
           "帰納する",
@@ -16663,7 +16663,7 @@ window.MOCK_DATA['N1'] = {
       },
       {
         "type": "言い換え類義",
-        "text": "可能性を<ruby>示唆する<rt>しさする</rt></ruby>の意味は？",
+        "text": "可能性を<ruby>示唆<rt>しさ</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": [
           "たしなみ",
@@ -16675,7 +16675,7 @@ window.MOCK_DATA['N1'] = {
       },
       {
         "type": "言い換え類義",
-        "text": "ライバルを<ruby>凌駕する<rt>りょうがする</rt></ruby>の意味は？",
+        "text": "ライバルを<ruby>凌駕<rt>りょうが</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": [
           "判然としない",
@@ -16699,7 +16699,7 @@ window.MOCK_DATA['N1'] = {
       },
       {
         "type": "言い換え類義",
-        "text": "心情を<ruby>推察する<rt>すいさつする</rt></ruby>の意味は？",
+        "text": "心情を<ruby>推察<rt>すいさつ</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": [
           "推測する",
@@ -16711,7 +16711,7 @@ window.MOCK_DATA['N1'] = {
       },
       {
         "type": "言い換え類義",
-        "text": "<ruby>締結する<rt>ていけつする</rt></ruby>ことが大切だの意味は？",
+        "text": "<ruby>締結<rt>ていけつ</rt></ruby>することが大切だの意味は？",
         "question": "意味が近いのは？",
         "options": [
           "結ぶ",
@@ -17879,7 +17879,7 @@ window.MOCK_DATA['N1'] = {
       },
       {
         "type": "言い換え類義",
-        "text": "法律を<ruby>遵守する<rt>じゅんしゅする</rt></ruby>の意味は？",
+        "text": "法律を<ruby>遵守<rt>じゅんしゅ</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": [
           "成立",
@@ -17891,7 +17891,7 @@ window.MOCK_DATA['N1'] = {
       },
       {
         "type": "言い換え類義",
-        "text": "規則から<ruby>逸脱する<rt>いつだつする</rt></ruby>の意味は？",
+        "text": "規則から<ruby>逸脱<rt>いつだつ</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": [
           "節目",
@@ -17915,7 +17915,7 @@ window.MOCK_DATA['N1'] = {
       },
       {
         "type": "言い換え類義",
-        "text": "方針を<ruby>堅持する<rt>けんじする</rt></ruby>の意味は？",
+        "text": "方針を<ruby>堅持<rt>けんじ</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": [
           "排出基準",
@@ -17927,7 +17927,7 @@ window.MOCK_DATA['N1'] = {
       },
       {
         "type": "言い換え類義",
-        "text": "研究に<ruby>傾倒する<rt>けいとうする</rt></ruby>の意味は？",
+        "text": "研究に<ruby>傾倒<rt>けいとう</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": [
           "気付く",
@@ -17939,7 +17939,7 @@ window.MOCK_DATA['N1'] = {
       },
       {
         "type": "言い換え類義",
-        "text": "青春を<ruby>謳歌する<rt>おうかする</rt></ruby>の意味は？",
+        "text": "青春を<ruby>謳歌<rt>おうか</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": [
           "楽しむ",
@@ -19275,7 +19275,7 @@ window.MOCK_DATA['N1'] = {
       },
       {
         "type": "言い換え類義",
-        "text": "将来を<ruby>懸念する<rt>けねんする</rt></ruby>の意味は？",
+        "text": "将来を<ruby>懸念<rt>けねん</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": [
           "聞き取る",
@@ -19299,7 +19299,7 @@ window.MOCK_DATA['N1'] = {
       },
       {
         "type": "言い換え類義",
-        "text": "全体を<ruby>統括する<rt>とうかつする</rt></ruby>の意味は？",
+        "text": "全体を<ruby>統括<rt>とうかつ</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": [
           "統率する",
@@ -19311,7 +19311,7 @@ window.MOCK_DATA['N1'] = {
       },
       {
         "type": "言い換え類義",
-        "text": "全分野を<ruby>網羅する<rt>もうらする</rt></ruby>の意味は？",
+        "text": "全分野を<ruby>網羅<rt>もうら</rt></ruby>するの意味は？",
         "question": "意味が近いのは？",
         "options": [
           "人",
@@ -20659,7 +20659,7 @@ window.MOCK_DATA['N1'] = {
       },
       {
         "type": "言い換え類義",
-        "text": "<ruby>刷新する<rt>さっしんする</rt></ruby>ことが大切だの意味は？",
+        "text": "<ruby>刷新<rt>さっしん</rt></ruby>することが大切だの意味は？",
         "question": "意味が近いのは？",
         "options": [
           "帰納する",
@@ -20671,7 +20671,7 @@ window.MOCK_DATA['N1'] = {
       },
       {
         "type": "言い換え類義",
-        "text": "<ruby>是正する<rt>ぜせいする</rt></ruby>ことが大切だの意味は？",
+        "text": "<ruby>是正<rt>ぜせい</rt></ruby>することが大切だの意味は？",
         "question": "意味が近いのは？",
         "options": [
           "たしなみ",

@@ -2770,7 +2770,7 @@ window.MOCK_DATA['N5'] = {
         "options": ["<ruby>新聞<rt>しんぶん</rt></ruby>",
           "<ruby>小さい<rt>ちいさい</rt></ruby>",
           "<ruby>呼ぶ<rt>よぶ</rt></ruby>",
-          "<ruby>勉強する<rt>べんきょうする</rt></ruby>"],
+          "<ruby>勉強<rt>べんきょう</rt></ruby>する"],
         "answer": 3
       },
       {
@@ -2928,7 +2928,7 @@ window.MOCK_DATA['N5'] = {
         "text": "外に<ruby>出る<rt>でる</rt></ruby>の意味は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["なる",
-          "<ruby>出発する<rt>しゅっぱつする</rt></ruby>",
+          "<ruby>出発<rt>しゅっぱつ</rt></ruby>する",
           "<ruby>履く<rt>はく</rt></ruby>",
           "<ruby>遅い<rt>おそい</rt></ruby>"],
         "answer": 1
@@ -4128,7 +4128,7 @@ window.MOCK_DATA['N5'] = {
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": ["<ruby>発生<rt>はっせい</rt></ruby>して<ruby>以来<rt>いらい</rt></ruby>",
           "<ruby>発生<rt>はっせい</rt></ruby>次第",
-          "<ruby>発生する<rt>はっせいする</rt></ruby>や",
+          "<ruby>発生<rt>はっせい</rt></ruby>するや",
           "<ruby>発生<rt>はっせい</rt></ruby>したとたん"],
         "answer": 1,
         "id": "N5-05-043"
@@ -6825,7 +6825,7 @@ window.MOCK_DATA['N5'] = {
       },
       {
         "type": "言い換え",
-        "text": "毎日<ruby>勉強する<rt>べんきょうする</rt></ruby>の意味は？",
+        "text": "毎日<ruby>勉強<rt>べんきょう</rt></ruby>するの意味は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>準備<rt>じゅんび</rt></ruby>",
           "<ruby>本<rt>ほん</rt></ruby>",
@@ -6849,7 +6849,7 @@ window.MOCK_DATA['N5'] = {
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>荷物<rt>にもつ</rt></ruby>",
           "<ruby>色々<rt>いろいろ</rt></ruby>",
-          "<ruby>休憩する<rt>きゅうけいする</rt></ruby>",
+          "<ruby>休憩<rt>きゅうけい</rt></ruby>する",
           "美<ruby>味<rt>あじ</rt></ruby>しい"],
         "answer": 2
       },
@@ -7699,7 +7699,7 @@ window.MOCK_DATA['N5'] = {
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": ["<ruby>一<rt>いち</rt></ruby><ruby>緒<rt>お</rt></ruby>に",
           "<ruby>歩く<rt>あるく</rt></ruby>",
-          "<ruby>安心する<rt>あんしんする</rt></ruby>",
+          "<ruby>安心<rt>あんしん</rt></ruby>する",
           "<ruby>一<rt>いち</rt></ruby><ruby>枚<rt>まい</rt></ruby>"],
         "answer": 2
       },
@@ -7819,7 +7819,7 @@ window.MOCK_DATA['N5'] = {
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
         "options": ["<ruby>度<rt>ど</rt></ruby>",
           "<ruby>共有<rt>きょうゆう</rt></ruby>",
-          "<ruby>理解する<rt>りかいする</rt></ruby>",
+          "<ruby>理解<rt>りかい</rt></ruby>する",
           "<ruby>長い<rt>ながい</rt></ruby>"],
         "answer": 2
       },
@@ -7827,7 +7827,7 @@ window.MOCK_DATA['N5'] = {
         "type": "言い換え",
         "text": "意味が<ruby>分かる<rt>わかる</rt></ruby>の意味は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
-        "options": ["<ruby>理解する<rt>りかいする</rt></ruby>",
+        "options": ["<ruby>理解<rt>りかい</rt></ruby>する",
           "<ruby>捕まえる<rt>つかまえる</rt></ruby>",
           "<ruby>挨<rt>あい</rt></ruby><ruby>拶<rt>さつ</rt></ruby>",
           "<ruby>台<rt>だい</rt></ruby>"],
@@ -8797,7 +8797,7 @@ window.MOCK_DATA['N5'] = {
         "type": "言い換え",
         "text": "仕事を<ruby>始める<rt>はじめる</rt></ruby>の意味は？",
         "question": "<ruby>意味<rt>いみ</rt></ruby>が<ruby>近い<rt>ちかい</rt></ruby>のは？",
-        "options": ["<ruby>開始する<rt>かいしする</rt></ruby>",
+        "options": ["<ruby>開始<rt>かいし</rt></ruby>する",
           "<ruby>賑<rt>しん</rt></ruby>やか",
           "<ruby>会う<rt>あう</rt></ruby>",
           "<ruby>渡る<rt>わたる</rt></ruby>"],
@@ -8810,7 +8810,7 @@ window.MOCK_DATA['N5'] = {
         "options": ["<ruby>薬<rt>くすり</rt></ruby>",
           "博<ruby>物<rt>もの</rt></ruby><ruby>館<rt>かん</rt></ruby>",
           "<ruby>到<rt>とう</rt></ruby><ruby>着<rt>ちゃく</rt></ruby>",
-          "<ruby>終了する<rt>しゅうりょうする</rt></ruby>"],
+          "<ruby>終了<rt>しゅうりょう</rt></ruby>する"],
         "answer": 3
       },
       {
@@ -9027,7 +9027,7 @@ window.MOCK_DATA['N5'] = {
         "text": "<ruby>問題<rt>もんだい</rt></ruby>が（　）、<ruby>対策<rt>たいさく</rt></ruby>を<ruby>講<rt>こう</rt></ruby>じた。（48）",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": ["<ruby>発生<rt>はっせい</rt></ruby>したとたん",
-          "<ruby>発生する<rt>はっせいする</rt></ruby>や",
+          "<ruby>発生<rt>はっせい</rt></ruby>するや",
           "<ruby>発生<rt>はっせい</rt></ruby>して<ruby>以来<rt>いらい</rt></ruby>",
           "<ruby>発生<rt>はっせい</rt></ruby>次第"],
         "answer": 3,
@@ -10670,7 +10670,7 @@ window.MOCK_DATA['N5'] = {
         "options": ["<ruby>紙<rt>かみ</rt></ruby>",
           "<ruby>二つ<rt>ふたつ</rt></ruby>",
           "<ruby>牛<rt>うし</rt></ruby>乳",
-          "<ruby>説明する<rt>せつめいする</rt></ruby>"],
+          "<ruby>説明<rt>せつめい</rt></ruby>する"],
         "answer": 3
       },
       {
@@ -10679,7 +10679,7 @@ window.MOCK_DATA['N5'] = {
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": ["<ruby>庭<rt>にわ</rt></ruby>",
           "<ruby>足りる<rt>たりる</rt></ruby>",
-          "<ruby>質問する<rt>しつもんする</rt></ruby>",
+          "<ruby>質問<rt>しつもん</rt></ruby>する",
           "<ruby>意見<rt>いけん</rt></ruby>"],
         "answer": 2
       },
@@ -10720,7 +10720,7 @@ window.MOCK_DATA['N5'] = {
         "options": ["<ruby>捨てる<rt>すてる</rt></ruby>",
           "<ruby>許す<rt>ゆるす</rt></ruby>",
           "<ruby>今月<rt>こんげつ</rt></ruby>",
-          "<ruby>勉強する<rt>べんきょうする</rt></ruby>"],
+          "<ruby>勉強<rt>べんきょう</rt></ruby>する"],
         "answer": 1
       },
       {
@@ -11719,7 +11719,7 @@ window.MOCK_DATA['N5'] = {
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
         "options": ["<ruby>お茶<rt>おちゃ</rt></ruby>",
           "<ruby>今月<rt>こんげつ</rt></ruby>",
-          "<ruby>勉強する<rt>べんきょうする</rt></ruby>",
+          "<ruby>勉強<rt>べんきょう</rt></ruby>する",
           "<ruby>呼ぶ<rt>よぶ</rt></ruby>"],
         "answer": 3
       },
@@ -13546,7 +13546,7 @@ window.MOCK_DATA['N5'] = {
         "type": "文脈規定",
         "text": "ケーキを（　）",
         "question": "（　）に<ruby>入る<rt>はいる</rt></ruby>のは？",
-        "options": ["<ruby>勉強する<rt>べんきょうする</rt></ruby>",
+        "options": ["<ruby>勉強<rt>べんきょう</rt></ruby>する",
           "<ruby>分ける<rt>わける</rt></ruby>",
           "<ruby>お茶<rt>おちゃ</rt></ruby>",
           "<ruby>質問<rt>しつもん</rt></ruby>"],
@@ -13806,7 +13806,7 @@ window.MOCK_DATA['N5'] = {
         "options": ["<ruby>発生<rt>はっせい</rt></ruby>次第",
           "<ruby>発生<rt>はっせい</rt></ruby>して<ruby>以来<rt>いらい</rt></ruby>",
           "<ruby>発生<rt>はっせい</rt></ruby>したとたん",
-          "<ruby>発生する<rt>はっせいする</rt></ruby>や"],
+          "<ruby>発生<rt>はっせい</rt></ruby>するや"],
         "answer": 0,
         "id": "N5-15-043"
       },
@@ -17978,7 +17978,7 @@ window.MOCK_DATA['N5'] = {
         "options": ["<ruby>発生<rt>はっせい</rt></ruby>次第",
           "<ruby>発生<rt>はっせい</rt></ruby>して<ruby>以来<rt>いらい</rt></ruby>",
           "<ruby>発生<rt>はっせい</rt></ruby>したとたん",
-          "<ruby>発生する<rt>はっせいする</rt></ruby>や"],
+          "<ruby>発生<rt>はっせい</rt></ruby>するや"],
         "answer": 0,
         "id": "N5-20-043"
       },
@@ -18486,7 +18486,7 @@ window.MOCK_DATA['N5'] = {
         "type": "表記",
         "text": "<u>かくにん</u>の　かんじは？",
         "question": "<ruby>正しい<rt>ただしい</rt></ruby><ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>は？",
-        "options": ["<ruby>勉強する<rt>べんきょうする</rt></ruby>",
+        "options": ["<ruby>勉強<rt>べんきょう</rt></ruby>する",
           "綺<ruby>麗<rt>うるわ</rt></ruby>",
           "落ちる",
           "<ruby>確認<rt>かくにん</rt></ruby>"],
