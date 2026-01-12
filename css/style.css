@@ -45,11 +45,11 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
 [data-theme="N2"] { --level-color: var(--n2); --level-light: var(--n2-light); --level-shadow: rgba(0, 91, 172, 0.35); }
 [data-theme="N1"] { --level-color: var(--n1); --level-light: var(--n1-light); --level-shadow: rgba(255, 59, 48, 0.35); }
 
-/* Level theme applies to all major UI elements */
-.nav-btn.active { background: var(--level-color) !important; box-shadow: 0 4px 12px var(--level-shadow) !important; }
-/* .continue-btn background controlled by JavaScript */
-.category-btn.selected { border: 2px solid var(--level-color); background: var(--level-light); }
-.unit-cell.in-progress { background: var(--level-light) !important; color: var(--level-color) !important; box-shadow: 0 2px 8px var(--level-shadow) !important; }
+/* Level theme applies to level selector buttons only */
+.level-select-btn.active { background: var(--level-color); box-shadow: 0 4px 12px var(--level-shadow); }
+/* .continue-btn uses standard primary color */
+.category-btn.selected { border: 2px solid var(--primary); background: var(--primary-light); }
+.unit-cell.in-progress { background: var(--primary-light) !important; color: var(--primary) !important; box-shadow: 0 2px 8px rgba(0, 91, 172, 0.2) !important; }
 
 /* Animations - Apple-style smooth easing */
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
@@ -685,7 +685,7 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
   gap: 8px;
   width: 100%;
   padding: 14px 20px;
-  /* background controlled by JavaScript */
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
   color: white;
   border: none;
   border-radius: 14px;
@@ -1138,7 +1138,7 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
   width: 100%;
   margin-top: 4px;
   padding: 10px 16px;
-  background: var(--level-color);
+  background: var(--primary);
   color: white;
   border: none;
   border-radius: 10px;
@@ -1146,7 +1146,7 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
   font-weight: 600;
   letter-spacing: -0.01em;
   cursor: pointer;
-  transition: background-color 0.2s ease, opacity 0.2s ease, transform 0.15s ease;
+  transition: opacity 0.2s ease, transform 0.15s ease;
 }
 
 .today-focus-start-btn:hover {

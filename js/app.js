@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.17.24';
+const APP_VERSION = '18.17.25';
 const STORAGE_KEY = 'fujisan_v1817';
 
 // ========== UI TRANSLATIONS ==========
@@ -2427,20 +2427,12 @@ function updateContinueButton() {
   const textEl = document.getElementById('continue-btn-text');
   if (!btn || !textEl) return;
   
-  // Level colors - use ACTIVE level (state.level), not hover level
-  const levelColors = { N5: '#34c759', N4: '#007aff', N3: '#af52de', N2: '#1e3a5f', N1: '#ff3b30' };
-  const currentColor = levelColors[state.level] || levelColors.N5;
-  
   if (state.lastSession && state.lastSession.level && state.lastSession.unit !== undefined) {
     const { level, unit, category } = state.lastSession;
-    const catNames = { vocab: 'Vocab', kanji: 'Kanji', grammar: 'Grammar' };
-    const catName = catNames[category] || 'Vocab';
     textEl.textContent = `Continue ${level} Unit ${unit + 1}`;
     btn.style.display = 'flex';
-    // Use inline style with important - won't change on hover
-    btn.style.setProperty('background-color', currentColor, 'important');
-    // Store the color as data attribute for reference
-    btn.dataset.levelColor = currentColor;
+    // Use standard primary color
+    btn.style.removeProperty('background-color');
   } else {
     btn.style.display = 'none';
   }
@@ -7232,21 +7224,6 @@ loadDrillData(state.level).then(() => {
 // Sync level buttons with saved state
 document.querySelectorAll('.level-select-btn').forEach(btn => {
   btn.classList.toggle('active', btn.dataset.level === state.level);
-});
-
-// Level hover preview - instantly change all UI colors on hover
-document.querySelectorAll('.level-select-btn').forEach(btn => {
-  btn.addEventListener('mouseenter', () => {
-    document.body.setAttribute('data-theme', btn.dataset.level);
-  });
-  btn.addEventListener('mouseleave', () => {
-    // Revert to active level when mouse leaves
-    document.body.setAttribute('data-theme', state.level);
-  });
-  // Touch support for mobile
-  btn.addEventListener('touchstart', () => {
-    document.body.setAttribute('data-theme', btn.dataset.level);
-  }, { passive: true });
 });
 
 // Set initial level theme
