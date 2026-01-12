@@ -1,6 +1,6 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.19.0';
-const STORAGE_KEY = 'fujisan_v1819';
+const APP_VERSION = '18.20.0';
+const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FORCE UPDATE SYSTEM ==========
 // Check for updates on app load
@@ -3447,8 +3447,8 @@ async function startUnitDrill(unitIndex) {
     }
   }
   
-  // N5 is always free, other levels require valid plan or trial
-  if (state.level !== 'N5' && !hasValidPlan() && !isInTrialPeriod()) {
+  // All levels require valid subscription or trial
+  if (!hasValidPlan() && !isInTrialPeriod()) {
     showSubscriptionRequiredModal();
     return;
   }
@@ -3907,8 +3907,8 @@ function updateSrsDisplay() {
 // ========== END SRS ==========
 
 async function startDrill() {
-  // N5 is always free, other levels require valid plan or trial
-  if (state.level !== 'N5' && !hasValidPlan() && !isInTrialPeriod()) {
+  // All levels require valid subscription or trial
+  if (!hasValidPlan() && !isInTrialPeriod()) {
     showSubscriptionRequiredModal();
     return;
   }
@@ -6292,14 +6292,24 @@ function showSubscriptionRequiredModal() {
   } else {
     // Fallback if modal doesn't exist
     if (confirm('🔒 Start Your Free Trial\n\nGet full access to all JLPT levels, Mock Tests, and AI Tutor for 7 days free.\n\nNo charge until trial ends. Cancel anytime.\n\nStart free trial now?')) {
-      window.location.href = 'index.html#pricing';
+      const email = currentUser?.email || '';
+      redirectToStripeCheckout(email);
     }
   }
+}
+
+function goToStripeFromModal() {
+  const email = currentUser?.email || '';
+  redirectToStripeCheckout(email);
 }
 
 function closeSubscriptionRequiredModal() {
   const modal = document.getElementById('subscriptionRequiredModal');
   if (modal) modal.classList.add('hidden');
+  // If no subscription, log out and show auth
+  if (!hasValidSubscription() && !isInTrialPeriod()) {
+    logout();
+  }
 }
 
 // ========== PASS REPORT ==========
@@ -7409,6 +7419,187 @@ const FujisanAnalytics = {
 // Make globally available
 window.FujisanAnalytics = FujisanAnalytics;
 
+// ========== AUTH MODAL FUNCTIONS ==========
+function showAuthModal(view = 'login') {
+  document.getElementById('authModal').classList.remove('hidden');
+  showAuthView(view);
+}
+
+function closeAuthModal() {
+  document.getElementById('authModal').classList.add('hidden');
+}
+
+function showAuthView(view) {
+  // Hide all views
+  document.getElementById('authLoginView').classList.add('hidden');
+  document.getElementById('authSignupView').classList.add('hidden');
+  document.getElementById('authResetView').classList.add('hidden');
+  
+  // Clear errors
+  document.querySelectorAll('.auth-error, .auth-success').forEach(el => el.classList.add('hidden'));
+  
+  // Show selected view
+  if (view === 'login') {
+    document.getElementById('authLoginView').classList.remove('hidden');
+  } else if (view === 'signup') {
+    document.getElementById('authSignupView').classList.remove('hidden');
+  } else if (view === 'reset') {
+    document.getElementById('authResetView').classList.remove('hidden');
+  }
+}
+
+function showAuthError(elementId, message) {
+  const el = document.getElementById(elementId);
+  el.textContent = message;
+  el.classList.remove('hidden');
+}
+
+function authLogin() {
+  const email = document.getElementById('authLoginEmail').value.trim();
+  const password = document.getElementById('authLoginPassword').value;
+  
+  if (!email || !password) {
+    showAuthError('authLoginError', 'Please enter email and password');
+    return;
+  }
+  
+  firebaseAuth.signInWithEmailAndPassword(email, password)
+    .then(() => {
+      closeAuthModal();
+      FujisanAnalytics.trackLogin('email');
+    })
+    .catch(err => {
+      let msg = 'Login failed. Please try again.';
+      if (err.code === 'auth/user-not-found') msg = 'No account found with this email';
+      else if (err.code === 'auth/wrong-password') msg = 'Incorrect password';
+      else if (err.code === 'auth/invalid-email') msg = 'Invalid email format';
+      showAuthError('authLoginError', msg);
+    });
+}
+
+function authLoginGoogle() {
+  const provider = new firebase.auth.GoogleAuthProvider();
+  firebaseAuth.signInWithPopup(provider)
+    .then(() => {
+      closeAuthModal();
+      FujisanAnalytics.trackLogin('google');
+    })
+    .catch(err => showAuthError('authLoginError', err.message));
+}
+
+function authSignup() {
+  const email = document.getElementById('authSignupEmail').value.trim();
+  const password = document.getElementById('authSignupPassword').value;
+  const ageCheck = document.getElementById('authAgeCheck').checked;
+  const termsCheck = document.getElementById('authTermsCheck').checked;
+  const renewalCheck = document.getElementById('authRenewalCheck').checked;
+  
+  if (!email) {
+    showAuthError('authSignupError', 'Please enter your email');
+    return;
+  }
+  if (password.length < 8) {
+    showAuthError('authSignupError', 'Password must be at least 8 characters');
+    return;
+  }
+  if (!ageCheck) {
+    showAuthError('authSignupError', 'You must be 13 years or older');
+    return;
+  }
+  if (!termsCheck) {
+    showAuthError('authSignupError', 'You must agree to Terms & Privacy Policy');
+    return;
+  }
+  if (!renewalCheck) {
+    showAuthError('authSignupError', 'You must acknowledge the auto-renewal policy');
+    return;
+  }
+  
+  firebaseAuth.createUserWithEmailAndPassword(email, password)
+    .then((userCredential) => {
+      closeAuthModal();
+      FujisanAnalytics.trackSignUp('email');
+      // After signup, redirect to Stripe for subscription
+      redirectToStripeCheckout(email);
+    })
+    .catch(err => {
+      let msg = 'Signup failed. Please try again.';
+      if (err.code === 'auth/email-already-in-use') msg = 'An account with this email already exists';
+      else if (err.code === 'auth/invalid-email') msg = 'Invalid email format';
+      else if (err.code === 'auth/weak-password') msg = 'Password is too weak';
+      showAuthError('authSignupError', msg);
+    });
+}
+
+function authSignupGoogle() {
+  const ageCheck = document.getElementById('authAgeCheck').checked;
+  const termsCheck = document.getElementById('authTermsCheck').checked;
+  const renewalCheck = document.getElementById('authRenewalCheck').checked;
+  
+  if (!ageCheck) {
+    showAuthError('authSignupError', 'You must be 13 years or older');
+    return;
+  }
+  if (!termsCheck) {
+    showAuthError('authSignupError', 'You must agree to Terms & Privacy Policy');
+    return;
+  }
+  if (!renewalCheck) {
+    showAuthError('authSignupError', 'You must acknowledge the auto-renewal policy');
+    return;
+  }
+  
+  const provider = new firebase.auth.GoogleAuthProvider();
+  firebaseAuth.signInWithPopup(provider)
+    .then((result) => {
+      closeAuthModal();
+      FujisanAnalytics.trackSignUp('google');
+      // After signup, redirect to Stripe for subscription
+      redirectToStripeCheckout(result.user.email);
+    })
+    .catch(err => showAuthError('authSignupError', err.message));
+}
+
+function authResetPassword() {
+  const email = document.getElementById('authResetEmail').value.trim();
+  
+  if (!email) {
+    showAuthError('authResetError', 'Please enter your email');
+    return;
+  }
+  
+  firebaseAuth.sendPasswordResetEmail(email)
+    .then(() => {
+      document.getElementById('authResetError').classList.add('hidden');
+      const successEl = document.getElementById('authResetSuccess');
+      successEl.textContent = 'Password reset email sent! Check your inbox.';
+      successEl.classList.remove('hidden');
+      FujisanAnalytics.logEvent('password_reset_sent', { email_domain: email.split('@')[1] });
+    })
+    .catch(err => {
+      let msg = 'Failed to send reset email.';
+      if (err.code === 'auth/user-not-found') msg = 'No account found with this email';
+      else if (err.code === 'auth/invalid-email') msg = 'Invalid email format';
+      showAuthError('authResetError', msg);
+    });
+}
+
+function redirectToStripeCheckout(email) {
+  // Default to standard annual plan
+  const linkKey = 'standard_annual';
+  const stripeLink = STRIPE_LINKS[linkKey];
+  if (stripeLink) {
+    window.location.href = stripeLink + '?prefilled_email=' + encodeURIComponent(email);
+  }
+}
+
+// Check if user has valid subscription (logged in + has plan with valid expiry)
+function hasValidSubscription() {
+  if (!currentUser) return false;
+  if (!state.plan || !state.planExpiry) return false;
+  return new Date(state.planExpiry) > new Date();
+}
+
 function initFirebase() {
   try {
     firebase.initializeApp(firebaseConfig);
@@ -7424,7 +7615,7 @@ function initFirebase() {
       FujisanAnalytics.trackAppOpen();
     }
     
-    firebaseAuth.onAuthStateChanged(user => {
+    firebaseAuth.onAuthStateChanged(async user => {
       if (user) {
         currentUser = user;
         console.log('Logged in as:', user.email);
@@ -7436,14 +7627,26 @@ function initFirebase() {
           user_plan: state.plan || 'free',
           user_language: state.lang || 'en'
         });
-        FujisanAnalytics.trackLogin('email');
         
-        syncUserData();
-        showScreen('drill');
+        // Sync user data from Firestore
+        await syncUserData();
+        
+        // Check if user has valid subscription
+        if (hasValidSubscription() || isInTrialPeriod()) {
+          // User has active subscription or trial
+          showScreen('drill');
+        } else {
+          // User logged in but no subscription - show subscription modal
+          hideAppLoadingOverlay();
+          showSubscriptionRequiredModal();
+          return;
+        }
       } else {
-        // Demo mode - show drill without login
-        console.log('Demo mode - no login required');
-        showScreen('drill');
+        // Not logged in - show auth modal
+        console.log('User not logged in - showing auth modal');
+        hideAppLoadingOverlay();
+        showAuthModal('signup');
+        return;
       }
       // Hide loading overlay with smooth fade
       hideAppLoadingOverlay();
@@ -7451,9 +7654,9 @@ function initFirebase() {
   } catch (e) {
     console.log('Firebase init error:', e);
     FujisanAnalytics.trackError('firebase_init', e.message);
-    // Demo mode fallback
-    showScreen('drill');
+    // Show auth modal on error
     hideAppLoadingOverlay();
+    showAuthModal('signup');
   }
 }
 
@@ -7562,10 +7765,12 @@ async function submitPassReportToCloud(report) {
 function logout() {
   if (firebaseAuth) {
     firebaseAuth.signOut().then(() => {
-      window.location.href = 'index.html';
+      // Stay on app.html but show auth modal
+      currentUser = null;
+      showAuthModal('login');
     });
   } else {
-    window.location.href = 'index.html';
+    showAuthModal('login');
   }
 }
 
