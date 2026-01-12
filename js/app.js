@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.18.3';
+const APP_VERSION = '18.18.5';
 const STORAGE_KEY = 'fujisan_v1817';
 
 // ========== UI TRANSLATIONS ==========
@@ -4219,16 +4219,15 @@ function showLearningQuestion() {
       .forEach(i => options.push(i.m[state.lang] || i.m.en));
       
   } else if (skill === 'writing') {
-    promptEl.textContent = getText('quiz_listen_select') || 'Listen and select the correct word';
-    // Show speaker icon instead of text (like listening skill)
-    wordEl.textContent = '🔊';
-    readingEl.textContent = getText('quiz_tap_play') || 'Tap play to listen';
+    promptEl.textContent = getText('quiz_select_kanji') || 'Select the correct kanji/word';
+    // Show reading and meaning, user selects kanji
+    wordEl.textContent = item.r || item.p || '';
+    readingEl.textContent = item.m[state.lang] || item.m.en || '';
     audioBtn.style.display = 'block';
     
     // For TTS, use reading if available
     currentWord = item.r || item.w || item.k || item.p;
     session.currentItem = item; // Store for playAudio
-    setTimeout(() => playAudio(), 300);
     
     correct = item.k || item.w || item.p;
     options = [correct];
