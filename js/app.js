@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.20.20';
+const APP_VERSION = '18.20.21';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FURIGANA SYSTEM ==========
@@ -5171,7 +5171,7 @@ async function startMock() {
     questions = mockData.sets[setNum].map(q => ({ ...q, setNum }));
   } else if (mockState.mode === 'section' && mockState.selectedSection) {
     const sectionName = sectionMap[mockState.selectedSection];
-    questions = mockData.getBySection(setNum, sectionName).map(q => ({ ...q, setNum }));
+    questions = mockData.getSectionQuestions(setNum, sectionName).map(q => ({ ...q, setNum }));
   }
   
   if (questions.length === 0) {
