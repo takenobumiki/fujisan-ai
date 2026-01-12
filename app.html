@@ -952,40 +952,78 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- Subscription Required Modal (for users without plan) -->
 <div class="modal-overlay hidden" id="subscriptionRequiredModal">
-  <div class="modal-box" style="text-align:center;">
-    <div class="modal-icon" style="margin-bottom:16px;"><svg viewBox="0 0 24 24" width="64" height="64" fill="none" stroke="#667eea" stroke-width="1.5"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div>
-    <h2 style="font-size:22px;font-weight:700;margin-bottom:8px;">Start Your Free Trial</h2>
-    <p style="font-size:14px;color:var(--text-secondary);margin-bottom:20px;line-height:1.5;">
-      Get <strong>full access</strong> to all JLPT levels, Mock Tests, and AI Tutor for <strong>7 days free</strong>.
-    </p>
-    
-    <div style="background:var(--bg);border-radius:12px;padding:16px;margin-bottom:20px;text-align:left;">
-      <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
-        <span style="font-size:20px;">✅</span>
-        <span style="font-size:14px;">All N5-N1 vocabulary, kanji & grammar</span>
-      </div>
-      <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
-        <span style="font-size:20px;">✅</span>
-        <span style="font-size:14px;">20 full Mock Tests per level</span>
-      </div>
-      <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
-        <span style="font-size:20px;">✅</span>
-        <span style="font-size:14px;">AI Tutor explains every mistake</span>
-      </div>
-      <div style="display:flex;align-items:center;gap:12px;">
-        <span style="font-size:20px;">✅</span>
-        <span style="font-size:14px;">Cancel anytime before trial ends</span>
-      </div>
+  <div class="modal-box" style="max-width:480px;max-height:90vh;overflow-y:auto;">
+    <div style="text-align:center;margin-bottom:20px;">
+      <div class="modal-icon" style="margin-bottom:12px;"><svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="#667eea" stroke-width="1.5"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div>
+      <h2 style="font-size:20px;font-weight:700;margin-bottom:4px;">Choose Your Plan</h2>
+      <p style="font-size:13px;color:var(--text-secondary);">7-day free trial • Cancel anytime</p>
     </div>
     
-    <button class="btn-primary" style="display:block;width:100%;padding:16px;font-size:16px;border-radius:12px;" onclick="goToStripeFromModal()">
-      Start 7-Day Free Trial
-    </button>
-    <p style="font-size:12px;color:var(--text-tertiary);margin-top:12px;">
+    <!-- Billing Toggle -->
+    <div style="display:flex;justify-content:center;gap:8px;margin-bottom:16px;">
+      <button id="billingAnnual" class="billing-toggle active" onclick="setBilling('annual')">Annual <span style="color:#16a34a;font-size:11px;">Save 50%</span></button>
+      <button id="billingMonthly" class="billing-toggle" onclick="setBilling('monthly')">Monthly</button>
+    </div>
+    
+    <!-- Plan Cards -->
+    <div style="display:flex;flex-direction:column;gap:10px;margin-bottom:16px;">
+      
+      <!-- Basic -->
+      <div class="plan-select-card" onclick="selectPlanAndGo('basic')">
+        <div style="display:flex;justify-content:space-between;align-items:center;">
+          <div>
+            <div style="font-weight:600;font-size:15px;">Basic</div>
+            <div style="font-size:12px;color:var(--text-tertiary);">N5-N3 • Drill & Review</div>
+          </div>
+          <div style="text-align:right;">
+            <div class="plan-price-annual" style="font-weight:700;font-size:16px;">$47.99<span style="font-size:12px;font-weight:400;">/year</span></div>
+            <div class="plan-price-monthly hidden" style="font-weight:700;font-size:16px;">$7.99<span style="font-size:12px;font-weight:400;">/month</span></div>
+            <div class="plan-price-annual" style="font-size:11px;color:var(--text-tertiary);">$4/month</div>
+            <div class="plan-price-monthly hidden" style="font-size:11px;color:var(--text-tertiary);">billed monthly</div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Standard (Recommended) -->
+      <div class="plan-select-card featured" onclick="selectPlanAndGo('standard')">
+        <div style="position:absolute;top:-8px;right:12px;background:linear-gradient(135deg,#667eea,#764ba2);color:#fff;font-size:10px;padding:2px 8px;border-radius:10px;font-weight:600;">POPULAR</div>
+        <div style="display:flex;justify-content:space-between;align-items:center;">
+          <div>
+            <div style="font-weight:600;font-size:15px;">Standard</div>
+            <div style="font-size:12px;color:var(--text-tertiary);">N5-N1 • Mock Tests • AI Review</div>
+          </div>
+          <div style="text-align:right;">
+            <div class="plan-price-annual" style="font-weight:700;font-size:16px;">$89.99<span style="font-size:12px;font-weight:400;">/year</span></div>
+            <div class="plan-price-monthly hidden" style="font-weight:700;font-size:16px;">$14.99<span style="font-size:12px;font-weight:400;">/month</span></div>
+            <div class="plan-price-annual" style="font-size:11px;color:var(--text-tertiary);">$7.50/month</div>
+            <div class="plan-price-monthly hidden" style="font-size:11px;color:var(--text-tertiary);">billed monthly</div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Premium -->
+      <div class="plan-select-card" onclick="selectPlanAndGo('premium')">
+        <div style="display:flex;justify-content:space-between;align-items:center;">
+          <div>
+            <div style="font-weight:600;font-size:15px;">Premium</div>
+            <div style="font-size:12px;color:var(--text-tertiary);">All features • AI Tutor • Priority</div>
+          </div>
+          <div style="text-align:right;">
+            <div class="plan-price-annual" style="font-weight:700;font-size:16px;">$179.99<span style="font-size:12px;font-weight:400;">/year</span></div>
+            <div class="plan-price-monthly hidden" style="font-weight:700;font-size:16px;">$29.99<span style="font-size:12px;font-weight:400;">/month</span></div>
+            <div class="plan-price-annual" style="font-size:11px;color:var(--text-tertiary);">$15/month</div>
+            <div class="plan-price-monthly hidden" style="font-size:11px;color:var(--text-tertiary);">billed monthly</div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+    <p style="font-size:11px;color:var(--text-tertiary);text-align:center;margin-bottom:12px;">
       💳 Card required • No charge until trial ends
     </p>
     
-    <button class="btn-secondary" style="width:100%;margin-top:12px;padding:12px;" onclick="closeSubscriptionRequiredModal()">Log Out</button>
+    <button class="btn-secondary" style="width:100%;padding:10px;font-size:13px;" onclick="closeSubscriptionRequiredModal()">Log Out</button>
   </div>
 </div>
 

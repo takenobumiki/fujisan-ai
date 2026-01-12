@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.20.1';
+const APP_VERSION = '18.20.2';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FORCE UPDATE SYSTEM ==========
@@ -6301,6 +6301,39 @@ function showSubscriptionRequiredModal() {
 function goToStripeFromModal() {
   const email = currentUser?.email || '';
   redirectToStripeCheckout(email);
+}
+
+// Plan selection state
+let selectedBilling = 'annual';
+
+function setBilling(billing) {
+  selectedBilling = billing;
+  
+  // Update toggle buttons
+  document.getElementById('billingAnnual').classList.toggle('active', billing === 'annual');
+  document.getElementById('billingMonthly').classList.toggle('active', billing === 'monthly');
+  
+  // Show/hide prices
+  document.querySelectorAll('.plan-price-annual').forEach(el => {
+    el.classList.toggle('hidden', billing !== 'annual');
+  });
+  document.querySelectorAll('.plan-price-monthly').forEach(el => {
+    el.classList.toggle('hidden', billing !== 'monthly');
+  });
+}
+
+function selectPlanAndGo(plan) {
+  const email = currentUser?.email || '';
+  const linkKey = plan + '_' + selectedBilling;
+  const stripeLink = STRIPE_LINKS[linkKey];
+  
+  if (stripeLink) {
+    // Track plan selection
+    FujisanAnalytics.trackPurchaseStart(plan, 0, 'USD');
+    window.location.href = stripeLink + '?prefilled_email=' + encodeURIComponent(email);
+  } else {
+    console.error('Stripe link not found:', linkKey);
+  }
 }
 
 function closeSubscriptionRequiredModal() {
