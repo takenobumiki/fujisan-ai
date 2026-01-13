@@ -855,8 +855,8 @@ window.MOCK_DATA['N3'] = {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>かいさつ</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>現状<rt>げんじょう</rt></ruby>",
-          "<ruby>改札<rt>かいさつ</rt></ruby>",
+        "options": ["現状",
+          "改札",
           "鳥",
           "円"],
         "answer": 1
@@ -866,17 +866,17 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>うけいれる</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["日",
-          "<ruby>受け入れる<rt>うけいれる</rt></ruby>",
-          "<ruby>痛い<rt>いたい</rt></ruby>",
-          "<ruby>感謝<rt>かんしゃ</rt></ruby>"],
+          "受け入れる",
+          "痛い",
+          "感謝"],
         "answer": 1
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>ほけん</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>保険<rt>ほけん</rt></ruby>",
-          "<ruby>荷物<rt>にもつ</rt></ruby>",
+        "options": ["保険",
+          "荷物",
           "作り",
           "フォークを使う"],
         "answer": 0
@@ -885,8 +885,8 @@ window.MOCK_DATA['N3'] = {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>でんわ</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>手芸<rt>しゅげい</rt></ruby>",
-          "<ruby>駆ける<rt>かける</rt></ruby>",
+        "options": ["手芸",
+          "駆ける",
           "電話",
           "合理"],
         "answer": 2
@@ -895,17 +895,17 @@ window.MOCK_DATA['N3'] = {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>おみまい</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>贈呈<rt>ぞうてい</rt></ruby>",
-          "<ruby>陸上<rt>りくじょう</rt></ruby>",
-          "<ruby>お見舞い<rt>おみまい</rt></ruby>",
-          "<ruby>政策<rt>せいさく</rt></ruby>"],
+        "options": ["贈呈",
+          "陸上",
+          "お見舞い",
+          "政策"],
         "answer": 2
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>にんむ</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>狂う<rt>くるう</rt></ruby>",
+        "options": ["狂う",
           "仕事中",
           "任務",
           "批判"],
@@ -2014,19 +2014,19 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>やけい</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["店員",
-          "<ruby>肌<rt>はだ</rt></ruby>寒い",
-          "<ruby>夜景<rt>やけい</rt></ruby>",
-          "<ruby>惑星<rt>わくせい</rt></ruby>"],
+          "肌寒い",
+          "夜景",
+          "惑星"],
         "answer": 2
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>かくさん</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>拡散<rt>かくさん</rt></ruby>",
+        "options": ["拡散",
           "冷静",
-          "<ruby>排除<rt>はいじょ</rt></ruby>",
-          "<ruby>載せる<rt>のせる</rt></ruby>"],
+          "排除",
+          "載せる"],
         "answer": 0
       },
       {
@@ -2034,19 +2034,19 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>くちべに</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["友人",
-          "<ruby>曇る<rt>くもる</rt></ruby>",
+          "曇る",
           "見送る",
-          "<ruby>口紅<rt>くちべに</rt></ruby>"],
+          "口紅"],
         "answer": 3
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>めざす</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>課題<rt>かだい</rt></ruby>",
-          "<ruby>岩<rt>いわ</rt></ruby>",
+        "options": ["課題",
+          "岩",
           "目指す",
-          "<ruby>澄む<rt>すむ</rt></ruby>"],
+          "澄む"],
         "answer": 2
       },
       {
@@ -2055,8 +2055,8 @@ window.MOCK_DATA['N3'] = {
         "question": "正しい漢字は？",
         "options": ["当たり前",
           "秋",
-          "<ruby>政治<rt>せいじ</rt></ruby>",
-          "配<ruby>慮<rt>おもんぱか</rt></ruby>"],
+          "政治",
+          "配慮"],
         "answer": 2
       },
       {
@@ -2064,7 +2064,7 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>げんじょう</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["鳥",
-          "<ruby>現状<rt>げんじょう</rt></ruby>",
+          "現状",
           "円",
           "関心"],
         "answer": 1
@@ -3171,10 +3171,10 @@ window.MOCK_DATA['N3'] = {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>ひ</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>痛い<rt>いたい</rt></ruby>",
+        "options": ["痛い",
           "日",
-          "<ruby>感謝<rt>かんしゃ</rt></ruby>",
-          "<ruby>祈る<rt>いのる</rt></ruby>"],
+          "感謝",
+          "祈る"],
         "answer": 1
       },
       {
@@ -3182,9 +3182,9 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>にもつ</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["作り",
-          "<ruby>荷物<rt>にもつ</rt></ruby>",
+          "荷物",
           "フォークを使う",
-          "<ruby>直る<rt>なおる</rt></ruby>"],
+          "直る"],
         "answer": 1
       },
       {
@@ -3192,29 +3192,29 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>かける</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["合理",
-          "<ruby>手芸<rt>しゅげい</rt></ruby>",
-          "<ruby>駆ける<rt>かける</rt></ruby>",
-          "<ruby>葬<rt>ほうむ</rt></ruby><ruby>儀<rt>ぎ</rt></ruby>場"],
+          "手芸",
+          "駆ける",
+          "葬儀場"],
         "answer": 2
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>りくじょう</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>交換する<rt>こうかんする</rt></ruby>",
-          "<ruby>贈呈<rt>ぞうてい</rt></ruby>",
-          "<ruby>政策<rt>せいさく</rt></ruby>",
-          "<ruby>陸上<rt>りくじょう</rt></ruby>"],
+        "options": ["交換する",
+          "贈呈",
+          "政策",
+          "陸上"],
         "answer": 3
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>しごとちゅう</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>狂う<rt>くるう</rt></ruby>",
+        "options": ["狂う",
           "仕事中",
           "批判",
-          "<ruby>通過<rt>つうか</rt></ruby>"],
+          "通過"],
         "answer": 1
       },
       {
@@ -3222,9 +3222,9 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>はださむい</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["店員",
-          "<ruby>肌<rt>はだ</rt></ruby>寒い",
-          "<ruby>惑星<rt>わくせい</rt></ruby>",
-          "<ruby>位置<rt>いち</rt></ruby>"],
+          "肌寒い",
+          "惑星",
+          "位置"],
         "answer": 1
       },
       {
@@ -4329,10 +4329,10 @@ window.MOCK_DATA['N3'] = {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>れいせい</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>排除<rt>はいじょ</rt></ruby>",
+        "options": ["排除",
           "冷静",
-          "<ruby>載せる<rt>のせる</rt></ruby>",
-          "<ruby>略<rt>りゃく</rt></ruby>"],
+          "載せる",
+          "略"],
         "answer": 1
       },
       {
@@ -4340,7 +4340,7 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>くもる</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["見送る",
-          "<ruby>曇る<rt>くもる</rt></ruby>",
+          "曇る",
           "友人",
           "中学"],
         "answer": 1
@@ -4349,9 +4349,9 @@ window.MOCK_DATA['N3'] = {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>いわ</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>課題<rt>かだい</rt></ruby>",
-          "<ruby>岩<rt>いわ</rt></ruby>",
-          "<ruby>澄む<rt>すむ</rt></ruby>",
+        "options": ["課題",
+          "岩",
+          "澄む",
           "料理する"],
         "answer": 1
       },
@@ -4359,10 +4359,10 @@ window.MOCK_DATA['N3'] = {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>あき</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["配<ruby>慮<rt>おもんぱか</rt></ruby>",
+        "options": ["配慮",
           "当たり前",
           "秋",
-          "<ruby>加わる<rt>くわわる</rt></ruby>"],
+          "加わる"],
         "answer": 2
       },
       {
@@ -4379,9 +4379,9 @@ window.MOCK_DATA['N3'] = {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>いたい</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>痛い<rt>いたい</rt></ruby>",
-          "<ruby>感謝<rt>かんしゃ</rt></ruby>",
-          "<ruby>祈る<rt>いのる</rt></ruby>",
+        "options": ["痛い",
+          "感謝",
+          "祈る",
           "提出"],
         "answer": 0
       },
@@ -5489,7 +5489,7 @@ window.MOCK_DATA['N3'] = {
         "question": "正しい漢字は？",
         "options": ["フォークを使う",
           "作り",
-          "<ruby>直る<rt>なおる</rt></ruby>",
+          "直る",
           "数日"],
         "answer": 1
       },
@@ -5497,29 +5497,29 @@ window.MOCK_DATA['N3'] = {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>しゅげい</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>泣く<rt>なく</rt></ruby>",
+        "options": ["泣く",
           "合理",
-          "<ruby>葬<rt>ほうむ</rt></ruby><ruby>儀<rt>ぎ</rt></ruby>場",
-          "<ruby>手芸<rt>しゅげい</rt></ruby>"],
+          "葬儀場",
+          "手芸"],
         "answer": 3
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>ぞうてい</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>交換する<rt>こうかんする</rt></ruby>",
-          "<ruby>政策<rt>せいさく</rt></ruby>",
-          "<ruby>贈呈<rt>ぞうてい</rt></ruby>",
-          "<ruby>恋人<rt>こいびと</rt></ruby>"],
+        "options": ["交換する",
+          "政策",
+          "贈呈",
+          "恋人"],
         "answer": 2
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>くるう</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>狂う<rt>くるう</rt></ruby>",
+        "options": ["狂う",
           "批判",
-          "<ruby>通過<rt>つうか</rt></ruby>",
+          "通過",
           "待ち合わせ"],
         "answer": 0
       },
@@ -5528,18 +5528,18 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>てんいん</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["店員",
-          "<ruby>惑星<rt>わくせい</rt></ruby>",
-          "<ruby>位置<rt>いち</rt></ruby>",
-          "<ruby>泡<rt>あわ</rt></ruby>"],
+          "惑星",
+          "位置",
+          "泡"],
         "answer": 0
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>はいじょ</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>載せる<rt>のせる</rt></ruby>",
-          "<ruby>排除<rt>はいじょ</rt></ruby>",
-          "<ruby>略<rt>りゃく</rt></ruby>",
+        "options": ["載せる",
+          "排除",
+          "略",
           "食料"],
         "answer": 1
       },
@@ -6648,17 +6648,17 @@ window.MOCK_DATA['N3'] = {
         "options": ["見送る",
           "友人",
           "中学",
-          "暗<ruby>記す<rt>しるす</rt></ruby>る"],
+          "暗記する"],
         "answer": 0
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>かだい</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>課題<rt>かだい</rt></ruby>",
-          "<ruby>澄む<rt>すむ</rt></ruby>",
+        "options": ["課題",
+          "澄む",
           "料理する",
-          "<ruby>表現<rt>ひょうげん</rt></ruby>"],
+          "表現"],
         "answer": 0
       },
       {
@@ -6666,8 +6666,8 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>あたりまえ</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["当たり前",
-          "配<ruby>慮<rt>おもんぱか</rt></ruby>",
-          "<ruby>加わる<rt>くわわる</rt></ruby>",
+          "配慮",
+          "加わる",
           "引く"],
         "answer": 0
       },
@@ -6686,8 +6686,8 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>かんしゃ</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["提出",
-          "<ruby>祈る<rt>いのる</rt></ruby>",
-          "<ruby>感謝<rt>かんしゃ</rt></ruby>",
+          "祈る",
+          "感謝",
           "丁度"],
         "answer": 2
       },
@@ -6696,7 +6696,7 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>ふぉーくをつかう</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["数日",
-          "<ruby>直る<rt>なおる</rt></ruby>",
+          "直る",
           "フォークを使う",
           "失敗"],
         "answer": 2
@@ -7804,8 +7804,8 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>ごうり</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["想像",
-          "<ruby>葬<rt>ほうむ</rt></ruby><ruby>儀<rt>ぎ</rt></ruby>場",
-          "<ruby>泣く<rt>なく</rt></ruby>",
+          "葬儀場",
+          "泣く",
           "合理"],
         "answer": 3
       },
@@ -7813,9 +7813,9 @@ window.MOCK_DATA['N3'] = {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>せいさく</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>恋人<rt>こいびと</rt></ruby>",
-          "<ruby>交換する<rt>こうかんする</rt></ruby>",
-          "<ruby>政策<rt>せいさく</rt></ruby>",
+        "options": ["恋人",
+          "交換する",
+          "政策",
           "科目"],
         "answer": 2
       },
@@ -7824,7 +7824,7 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>ひはん</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["待ち合わせ",
-          "<ruby>通過<rt>つうか</rt></ruby>",
+          "通過",
           "批判",
           "大事"],
         "answer": 2
@@ -7833,9 +7833,9 @@ window.MOCK_DATA['N3'] = {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>わくせい</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>惑星<rt>わくせい</rt></ruby>",
-          "<ruby>位置<rt>いち</rt></ruby>",
-          "<ruby>泡<rt>あわ</rt></ruby>",
+        "options": ["惑星",
+          "位置",
+          "泡",
           "得る"],
         "answer": 0
       },
@@ -7844,9 +7844,9 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>のせる</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["買う",
-          "<ruby>略<rt>りゃく</rt></ruby>",
+          "略",
           "食料",
-          "<ruby>載せる<rt>のせる</rt></ruby>"],
+          "載せる"],
         "answer": 3
       },
       {
@@ -7855,7 +7855,7 @@ window.MOCK_DATA['N3'] = {
         "question": "正しい漢字は？",
         "options": ["望み",
           "中学",
-          "暗<ruby>記す<rt>しるす</rt></ruby>る",
+          "暗記する",
           "友人"],
         "answer": 3
       },
@@ -8962,8 +8962,8 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>すむ</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["料理する",
-          "<ruby>澄む<rt>すむ</rt></ruby>",
-          "<ruby>表現<rt>ひょうげん</rt></ruby>",
+          "澄む",
+          "表現",
           "大学"],
         "answer": 1
       },
@@ -8971,8 +8971,8 @@ window.MOCK_DATA['N3'] = {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>はいりょ</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["配<ruby>慮<rt>おもんぱか</rt></ruby>",
-          "<ruby>加わる<rt>くわわる</rt></ruby>",
+        "options": ["配慮",
+          "加わる",
           "引く",
           "落ちる"],
         "answer": 0
@@ -8991,10 +8991,10 @@ window.MOCK_DATA['N3'] = {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>いのる</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>祈る<rt>いのる</rt></ruby>",
+        "options": ["祈る",
           "提出",
           "丁度",
-          "<ruby>差し支える<rt>さしつかえる</rt></ruby>"],
+          "差し支える"],
         "answer": 0
       },
       {
@@ -9002,17 +9002,17 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>なおる</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["数日",
-          "<ruby>直る<rt>なおる</rt></ruby>",
+          "直る",
           "失敗",
-          "<ruby>杉<rt>すぎ</rt></ruby>"],
+          "杉"],
         "answer": 1
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>そうぎじょう</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>葬<rt>ほうむ</rt></ruby><ruby>儀<rt>ぎ</rt></ruby>場",
-          "<ruby>泣く<rt>なく</rt></ruby>",
+        "options": ["葬儀場",
+          "泣く",
           "想像",
           "力"],
         "answer": 0
@@ -10119,10 +10119,10 @@ window.MOCK_DATA['N3'] = {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>こうかんする</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>一致<rt>いっち</rt></ruby>",
-          "<ruby>恋人<rt>こいびと</rt></ruby>",
+        "options": ["一致",
+          "恋人",
           "科目",
-          "<ruby>交換する<rt>こうかんする</rt></ruby>"],
+          "交換する"],
         "answer": 3
       },
       {
@@ -10130,17 +10130,17 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>つうか</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["待ち合わせ",
-          "<ruby>通過<rt>つうか</rt></ruby>",
+          "通過",
           "大事",
-          "<ruby>豊か<rt>ゆたか</rt></ruby>"],
+          "豊か"],
         "answer": 1
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>いち</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>位置<rt>いち</rt></ruby>",
-          "<ruby>泡<rt>あわ</rt></ruby>",
+        "options": ["位置",
+          "泡",
           "得る",
           "引き起こす"],
         "answer": 0
@@ -10151,7 +10151,7 @@ window.MOCK_DATA['N3'] = {
         "question": "正しい漢字は？",
         "options": ["買う",
           "食料",
-          "<ruby>略<rt>りゃく</rt></ruby>",
+          "略",
           "夫婦"],
         "answer": 2
       },
@@ -10159,8 +10159,8 @@ window.MOCK_DATA['N3'] = {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>ちゅうがく</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>課長<rt>かちょう</rt></ruby>",
-          "暗<ruby>記す<rt>しるす</rt></ruby>る",
+        "options": ["課長",
+          "暗記する",
           "望み",
           "中学"],
         "answer": 3
@@ -10169,7 +10169,7 @@ window.MOCK_DATA['N3'] = {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>りょうりする</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>表現<rt>ひょうげん</rt></ruby>",
+        "options": ["表現",
           "料理する",
           "大学",
           "広げる"],
@@ -11278,9 +11278,9 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>くわわる</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["引く",
-          "<ruby>加わる<rt>くわわる</rt></ruby>",
+          "加わる",
           "落ちる",
-          "<ruby>展望<rt>てんぼう</rt></ruby>"],
+          "展望"],
         "answer": 1
       },
       {
@@ -11290,7 +11290,7 @@ window.MOCK_DATA['N3'] = {
         "options": ["対人",
           "作業着",
           "野菜",
-          "<ruby>震える<rt>ふるえる</rt></ruby>"],
+          "震える"],
         "answer": 2
       },
       {
@@ -11299,15 +11299,15 @@ window.MOCK_DATA['N3'] = {
         "question": "正しい漢字は？",
         "options": ["提出",
           "丁度",
-          "<ruby>差し支える<rt>さしつかえる</rt></ruby>",
-          "<ruby>恐れる<rt>おそれる</rt></ruby>"],
+          "差し支える",
+          "恐れる"],
         "answer": 0
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>すうじつ</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>杉<rt>すぎ</rt></ruby>",
+        "options": ["杉",
           "失敗",
           "数日",
           "蜂"],
@@ -11319,7 +11319,7 @@ window.MOCK_DATA['N3'] = {
         "question": "正しい漢字は？",
         "options": ["力",
           "想像",
-          "<ruby>泣く<rt>なく</rt></ruby>",
+          "泣く",
           "計る"],
         "answer": 2
       },
@@ -11328,8 +11328,8 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>こいびと</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["科目",
-          "<ruby>恋人<rt>こいびと</rt></ruby>",
-          "<ruby>一致<rt>いっち</rt></ruby>",
+          "恋人",
+          "一致",
           "祝い"],
         "answer": 1
       },
@@ -12435,10 +12435,10 @@ window.MOCK_DATA['N3'] = {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>まちあわせ</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>豊か<rt>ゆたか</rt></ruby>",
+        "options": ["豊か",
           "大事",
           "待ち合わせ",
-          "<ruby>濁る<rt>にごる</rt></ruby>"],
+          "濁る"],
         "answer": 2
       },
       {
@@ -12447,8 +12447,8 @@ window.MOCK_DATA['N3'] = {
         "question": "正しい漢字は？",
         "options": ["引き起こす",
           "得る",
-          "<ruby>泡<rt>あわ</rt></ruby>",
-          "<ruby>特定<rt>とくてい</rt></ruby>"],
+          "泡",
+          "特定"],
         "answer": 2
       },
       {
@@ -12458,7 +12458,7 @@ window.MOCK_DATA['N3'] = {
         "options": ["夫婦",
           "買う",
           "食料",
-          "<ruby>慌てる<rt>あわてる</rt></ruby>"],
+          "慌てる"],
         "answer": 2
       },
       {
@@ -12466,19 +12466,19 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>あんきする</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["望み",
-          "暗<ruby>記す<rt>しるす</rt></ruby>る",
-          "<ruby>課長<rt>かちょう</rt></ruby>",
-          "<ruby>打ち合わせ<rt>うちあわせ</rt></ruby>"],
+          "暗記する",
+          "課長",
+          "打ち合わせ"],
         "answer": 1
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>ひょうげん</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>表現<rt>ひょうげん</rt></ruby>",
+        "options": ["表現",
           "大学",
           "広げる",
-          "<ruby>信頼<rt>しんらい</rt></ruby>"],
+          "信頼"],
         "answer": 0
       },
       {
@@ -12487,8 +12487,8 @@ window.MOCK_DATA['N3'] = {
         "question": "正しい漢字は？",
         "options": ["落ちる",
           "引く",
-          "<ruby>展望<rt>てんぼう</rt></ruby>",
-          "<ruby>資源<rt>しげん</rt></ruby>"],
+          "展望",
+          "資源"],
         "answer": 1
       },
       {
@@ -13485,7 +13485,7 @@ window.MOCK_DATA['N3'] = {
         "question": "正しい漢字は？",
         "options": ["付く",
           "対人",
-          "<ruby>震える<rt>ふるえる</rt></ruby>",
+          "震える",
           "作業着"],
         "answer": 3
       },
@@ -13494,9 +13494,9 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>ちょうど</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["丁度",
-          "<ruby>差し支える<rt>さしつかえる</rt></ruby>",
-          "<ruby>恐れる<rt>おそれる</rt></ruby>",
-          "<ruby>或いは<rt>あるいは</rt></ruby>"],
+          "差し支える",
+          "恐れる",
+          "或いは"],
         "answer": 0
       },
       {
@@ -13504,7 +13504,7 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>しっぱい</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["蜂",
-          "<ruby>杉<rt>すぎ</rt></ruby>",
+          "杉",
           "失敗",
           "発生"],
         "answer": 2
@@ -13516,7 +13516,7 @@ window.MOCK_DATA['N3'] = {
         "options": ["計る",
           "力",
           "想像",
-          "<ruby>克服<rt>こくふく</rt></ruby>"],
+          "克服"],
         "answer": 2
       },
       {
@@ -13524,7 +13524,7 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>かもく</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["科目",
-          "<ruby>一致<rt>いっち</rt></ruby>",
+          "一致",
           "祝い",
           "席"],
         "answer": 0
@@ -13534,8 +13534,8 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>だいじ</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["大事",
-          "<ruby>豊か<rt>ゆたか</rt></ruby>",
-          "<ruby>濁る<rt>にごる</rt></ruby>",
+          "豊か",
+          "濁る",
           "有効"],
         "answer": 0
       },
@@ -14431,7 +14431,7 @@ window.MOCK_DATA['N3'] = {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>える</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>特定<rt>とくてい</rt></ruby>",
+        "options": ["特定",
           "引き起こす",
           "得る",
           "押し入れ"],
@@ -14443,7 +14443,7 @@ window.MOCK_DATA['N3'] = {
         "question": "正しい漢字は？",
         "options": ["開ける",
           "夫婦",
-          "<ruby>慌てる<rt>あわてる</rt></ruby>",
+          "慌てる",
           "買う"],
         "answer": 3
       },
@@ -14451,9 +14451,9 @@ window.MOCK_DATA['N3'] = {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>のぞみ</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>大統領<rt>だいとうりょう</rt></ruby>",
-          "<ruby>課長<rt>かちょう</rt></ruby>",
-          "<ruby>打ち合わせ<rt>うちあわせ</rt></ruby>",
+        "options": ["大統領",
+          "課長",
+          "打ち合わせ",
           "望み"],
         "answer": 3
       },
@@ -14461,7 +14461,7 @@ window.MOCK_DATA['N3'] = {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>だいがく</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>信頼<rt>しんらい</rt></ruby>",
+        "options": ["信頼",
           "広げる",
           "大学",
           "農村"],
@@ -14472,8 +14472,8 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>おちる</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["落ちる",
-          "<ruby>展望<rt>てんぼう</rt></ruby>",
-          "<ruby>資源<rt>しげん</rt></ruby>",
+          "展望",
+          "資源",
           "元気"],
         "answer": 0
       },
@@ -14482,7 +14482,7 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>たいじん</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["奥",
-          "<ruby>震える<rt>ふるえる</rt></ruby>",
+          "震える",
           "付く",
           "対人"],
         "answer": 3
@@ -15379,9 +15379,9 @@ window.MOCK_DATA['N3'] = {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>さしつかえる</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>或いは<rt>あるいは</rt></ruby>",
-          "<ruby>恐れる<rt>おそれる</rt></ruby>",
-          "<ruby>差し支える<rt>さしつかえる</rt></ruby>",
+        "options": ["或いは",
+          "恐れる",
+          "差し支える",
           "燃やす"],
         "answer": 2
       },
@@ -15389,10 +15389,10 @@ window.MOCK_DATA['N3'] = {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>すぎ</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>杉<rt>すぎ</rt></ruby>",
+        "options": ["杉",
           "蜂",
           "発生",
-          "<ruby>制服<rt>せいふく</rt></ruby>"],
+          "制服"],
         "answer": 0
       },
       {
@@ -15401,8 +15401,8 @@ window.MOCK_DATA['N3'] = {
         "question": "正しい漢字は？",
         "options": ["力",
           "計る",
-          "<ruby>克服<rt>こくふく</rt></ruby>",
-          "<ruby>興奮<rt>こうふん</rt></ruby>"],
+          "克服",
+          "興奮"],
         "answer": 0
       },
       {
@@ -15410,7 +15410,7 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>いっち</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["祝い",
-          "<ruby>一致<rt>いっち</rt></ruby>",
+          "一致",
           "席",
           "再来月"],
         "answer": 1
@@ -15420,17 +15420,17 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>ゆたか</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["有効",
-          "<ruby>濁る<rt>にごる</rt></ruby>",
-          "<ruby>豊か<rt>ゆたか</rt></ruby>",
-          "<ruby>階段<rt>かいだん</rt></ruby>"],
+          "濁る",
+          "豊か",
+          "階段"],
         "answer": 2
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>ひきおこす</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>悲しみ<rt>かなしみ</rt></ruby>",
-          "<ruby>特定<rt>とくてい</rt></ruby>",
+        "options": ["悲しみ",
+          "特定",
           "押し入れ",
           "引き起こす"],
         "answer": 3
@@ -16328,19 +16328,19 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>ふうふ</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["夫婦",
-          "<ruby>慌てる<rt>あわてる</rt></ruby>",
+          "慌てる",
           "開ける",
-          "<ruby>陸<rt>りく</rt></ruby>"],
+          "陸"],
         "answer": 0
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>かちょう</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>課長<rt>かちょう</rt></ruby>",
-          "<ruby>打ち合わせ<rt>うちあわせ</rt></ruby>",
-          "<ruby>大統領<rt>だいとうりょう</rt></ruby>",
-          "<ruby>茂る<rt>しげる</rt></ruby>"],
+        "options": ["課長",
+          "打ち合わせ",
+          "大統領",
+          "茂る"],
         "answer": 0
       },
       {
@@ -16348,7 +16348,7 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>ひろげる</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["言う",
-          "<ruby>信頼<rt>しんらい</rt></ruby>",
+          "信頼",
           "農村",
           "広げる"],
         "answer": 3
@@ -16358,8 +16358,8 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>てんぼう</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["元気",
-          "<ruby>資源<rt>しげん</rt></ruby>",
-          "<ruby>展望<rt>てんぼう</rt></ruby>",
+          "資源",
+          "展望",
           "毎週"],
         "answer": 2
       },
@@ -16369,7 +16369,7 @@ window.MOCK_DATA['N3'] = {
         "question": "正しい漢字は？",
         "options": ["奥",
           "付く",
-          "<ruby>震える<rt>ふるえる</rt></ruby>",
+          "震える",
           "お願い"],
         "answer": 2
       },
@@ -16378,9 +16378,9 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>おそれる</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["中学校",
-          "<ruby>或いは<rt>あるいは</rt></ruby>",
+          "或いは",
           "燃やす",
-          "<ruby>恐れる<rt>おそれる</rt></ruby>"],
+          "恐れる"],
         "answer": 3
       },
       {
@@ -17275,7 +17275,7 @@ window.MOCK_DATA['N3'] = {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>はち</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>制服<rt>せいふく</rt></ruby>",
+        "options": ["制服",
           "発生",
           "蜂",
           "話し合い"],
@@ -17285,9 +17285,9 @@ window.MOCK_DATA['N3'] = {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>はかる</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>克服<rt>こくふく</rt></ruby>",
+        "options": ["克服",
           "計る",
-          "<ruby>興奮<rt>こうふん</rt></ruby>",
+          "興奮",
           "努める"],
         "answer": 1
       },
@@ -17305,10 +17305,10 @@ window.MOCK_DATA['N3'] = {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>にごる</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>急激<rt>きゅうげき</rt></ruby>",
+        "options": ["急激",
           "有効",
-          "<ruby>階段<rt>かいだん</rt></ruby>",
-          "<ruby>濁る<rt>にごる</rt></ruby>"],
+          "階段",
+          "濁る"],
         "answer": 3
       },
       {
@@ -17317,17 +17317,17 @@ window.MOCK_DATA['N3'] = {
         "question": "正しい漢字は？",
         "options": ["身体",
           "押し入れ",
-          "<ruby>悲しみ<rt>かなしみ</rt></ruby>",
-          "<ruby>特定<rt>とくてい</rt></ruby>"],
+          "悲しみ",
+          "特定"],
         "answer": 3
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>あわてる</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>慌てる<rt>あわてる</rt></ruby>",
+        "options": ["慌てる",
           "開ける",
-          "<ruby>陸<rt>りく</rt></ruby>",
+          "陸",
           "買い物する"],
         "answer": 0
       },
@@ -18383,9 +18383,9 @@ window.MOCK_DATA['N3'] = {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>うちあわせ</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>打ち合わせ<rt>うちあわせ</rt></ruby>",
-          "<ruby>大統領<rt>だいとうりょう</rt></ruby>",
-          "<ruby>茂る<rt>しげる</rt></ruby>",
+        "options": ["打ち合わせ",
+          "大統領",
+          "茂る",
           "積もる"],
         "answer": 0
       },
@@ -18395,15 +18395,15 @@ window.MOCK_DATA['N3'] = {
         "question": "正しい漢字は？",
         "options": ["言う",
           "農村",
-          "<ruby>信頼<rt>しんらい</rt></ruby>",
-          "<ruby>既に<rt>すでに</rt></ruby>"],
+          "信頼",
+          "既に"],
         "answer": 2
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>しげん</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>資源<rt>しげん</rt></ruby>",
+        "options": ["資源",
           "元気",
           "毎週",
           "出版"],
@@ -18426,17 +18426,17 @@ window.MOCK_DATA['N3'] = {
         "options": ["この間",
           "燃やす",
           "中学校",
-          "<ruby>或いは<rt>あるいは</rt></ruby>"],
+          "或いは"],
         "answer": 3
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>はっせい</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>制服<rt>せいふく</rt></ruby>",
+        "options": ["制服",
           "発生",
           "話し合い",
-          "<ruby>輸出<rt>ゆしゅつ</rt></ruby>"],
+          "輸出"],
         "answer": 1
       },
       {
@@ -19541,8 +19541,8 @@ window.MOCK_DATA['N3'] = {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>こくふく</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>克服<rt>こくふく</rt></ruby>",
-          "<ruby>興奮<rt>こうふん</rt></ruby>",
+        "options": ["克服",
+          "興奮",
           "努める",
           "安い"],
         "answer": 0
@@ -19554,16 +19554,16 @@ window.MOCK_DATA['N3'] = {
         "options": ["再来月",
           "席",
           "休み",
-          "<ruby>降水量<rt>こうすいりょう</rt></ruby>"],
+          "降水量"],
         "answer": 1
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>ゆうこう</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>階段<rt>かいだん</rt></ruby>",
+        "options": ["階段",
           "有効",
-          "<ruby>急激<rt>きゅうげき</rt></ruby>",
+          "急激",
           "具合"],
         "answer": 1
       },
@@ -19572,9 +19572,9 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>おしいれ</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["押し入れ",
-          "<ruby>悲しみ<rt>かなしみ</rt></ruby>",
+          "悲しみ",
           "身体",
-          "<ruby>倒す<rt>たおす</rt></ruby>"],
+          "倒す"],
         "answer": 0
       },
       {
@@ -19582,7 +19582,7 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>あける</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["買い物する",
-          "<ruby>陸<rt>りく</rt></ruby>",
+          "陸",
           "開ける",
           "空間"],
         "answer": 2
@@ -19591,10 +19591,10 @@ window.MOCK_DATA['N3'] = {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>だいとうりょう</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>茂る<rt>しげる</rt></ruby>",
-          "<ruby>大統領<rt>だいとうりょう</rt></ruby>",
+        "options": ["茂る",
+          "大統領",
           "積もる",
-          "<ruby>雑<rt>ざつ</rt></ruby>誌"],
+          "雑誌"],
         "answer": 1
       },
       {
@@ -20701,7 +20701,7 @@ window.MOCK_DATA['N3'] = {
         "question": "正しい漢字は？",
         "options": ["言う",
           "農村",
-          "<ruby>既に<rt>すでに</rt></ruby>",
+          "既に",
           "争う"],
         "answer": 1
       },
@@ -20712,7 +20712,7 @@ window.MOCK_DATA['N3'] = {
         "options": ["毎週",
           "元気",
           "出版",
-          "<ruby>悔しい<rt>くやしい</rt></ruby>"],
+          "悔しい"],
         "answer": 1
       },
       {
@@ -20739,20 +20739,20 @@ window.MOCK_DATA['N3'] = {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>せいふく</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>制服<rt>せいふく</rt></ruby>",
+        "options": ["制服",
           "話し合い",
-          "<ruby>輸出<rt>ゆしゅつ</rt></ruby>",
-          "<ruby>更に<rt>さらに</rt></ruby>"],
+          "輸出",
+          "更に"],
         "answer": 0
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>こうふん</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>寄る<rt>よる</rt></ruby>",
+        "options": ["寄る",
           "努める",
           "安い",
-          "<ruby>興奮<rt>こうふん</rt></ruby>"],
+          "興奮"],
         "answer": 3
       },
       {
@@ -21859,7 +21859,7 @@ window.MOCK_DATA['N3'] = {
         "question": "正しい漢字は？",
         "options": ["再来月",
           "休み",
-          "<ruby>降水量<rt>こうすいりょう</rt></ruby>",
+          "降水量",
           "時計屋"],
         "answer": 0
       },
@@ -21868,9 +21868,9 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>かいだん</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["具合",
-          "<ruby>急激<rt>きゅうげき</rt></ruby>",
-          "<ruby>階段<rt>かいだん</rt></ruby>",
-          "<ruby>女性<rt>じょせい</rt></ruby>"],
+          "急激",
+          "階段",
+          "女性"],
         "answer": 2
       },
       {
@@ -21879,28 +21879,28 @@ window.MOCK_DATA['N3'] = {
         "question": "正しい漢字は？",
         "options": ["間食",
           "身体",
-          "<ruby>倒す<rt>たおす</rt></ruby>",
-          "<ruby>悲しみ<rt>かなしみ</rt></ruby>"],
+          "倒す",
+          "悲しみ"],
         "answer": 3
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>りく</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["画<ruby>家<rt>いえ</rt></ruby>",
+        "options": ["画家",
           "買い物する",
           "空間",
-          "<ruby>陸<rt>りく</rt></ruby>"],
+          "陸"],
         "answer": 3
       },
       {
         "type": "<ruby>表記<rt>ひょうき</rt></ruby>",
         "text": "<u>しげる</u>の漢字は？",
         "question": "正しい漢字は？",
-        "options": ["<ruby>茂る<rt>しげる</rt></ruby>",
+        "options": ["茂る",
           "積もる",
-          "<ruby>雑<rt>ざつ</rt></ruby>誌",
-          "<ruby>義務<rt>ぎむ</rt></ruby>"],
+          "雑誌",
+          "義務"],
         "answer": 0
       },
       {
@@ -21908,9 +21908,9 @@ window.MOCK_DATA['N3'] = {
         "text": "<u>いう</u>の漢字は？",
         "question": "正しい漢字は？",
         "options": ["言う",
-          "<ruby>既に<rt>すでに</rt></ruby>",
+          "既に",
           "争う",
-          "<ruby>砂<rt>さ</rt></ruby>糖"],
+          "砂糖"],
         "answer": 0
       },
       {

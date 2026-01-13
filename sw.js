@@ -1,5 +1,5 @@
 // Fujisan.AI Service Worker v18.24.1 - Simplified
-const CACHE_NAME = 'fujisan-v18.24.6';
+const CACHE_NAME = 'fujisan-v18.24.7';
 
 // Minimal cache - only critical files
 const urlsToCache = [
