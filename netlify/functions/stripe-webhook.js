@@ -21,22 +21,33 @@ let admin = null;
 let db = null;
 
 function initFirebase() {
-  if (admin) return;
+  if (db) return; // 既に初期化済み
   
-  admin = require('firebase-admin');
-  
-  if (!admin.apps.length) {
-    // 環境変数からサービスアカウントを取得 (Base64エンコード)
-    const serviceAccount = JSON.parse(
-      Buffer.from(process.env.FIREBASE_SERVICE_ACCOUNT, 'base64').toString('utf8')
-    );
+  try {
+    admin = require('firebase-admin');
     
-    admin.initializeApp({
-      credential: admin.credential.cert(serviceAccount)
-    });
+    if (!admin.apps.length) {
+      // 環境変数からサービスアカウントを取得 (Base64エンコード)
+      const base64 = process.env.FIREBASE_SERVICE_ACCOUNT;
+      if (!base64) {
+        throw new Error('FIREBASE_SERVICE_ACCOUNT environment variable is not set');
+      }
+      
+      const serviceAccount = JSON.parse(
+        Buffer.from(base64, 'base64').toString('utf8')
+      );
+      
+      admin.initializeApp({
+        credential: admin.credential.cert(serviceAccount)
+      });
+    }
+    
+    db = admin.firestore();
+    console.log('Firebase initialized successfully');
+  } catch (err) {
+    console.error('Firebase initialization error:', err.message);
+    throw err;
   }
-  
-  db = admin.firestore();
 }
 
 // ステータスマッピング
