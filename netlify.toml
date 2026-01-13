@@ -5,5 +5,14 @@
 [functions]
   node_bundler = "esbuild"
 
+# Stripe Webhook endpoint
+[[redirects]]
+  from = "/api/stripe-webhook"
+  to = "/.netlify/functions/stripe-webhook"
+  status = 200
+
 # Environment variables (set in Netlify Dashboard):
 # GEMINI_API_KEY = your-gemini-api-key
+# STRIPE_SECRET_KEY = sk_live_xxx or sk_test_xxx
+# STRIPE_WEBHOOK_SECRET = whsec_xxx
+# FIREBASE_SERVICE_ACCOUNT = Base64 encoded service account JSON

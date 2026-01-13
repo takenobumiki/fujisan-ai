@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.20.61';
+const APP_VERSION = '18.21.0';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FURIGANA SYSTEM ==========
@@ -2552,10 +2552,18 @@ let state = {
   totalAnswered: 0,
   // Last session tracking for "Continue" feature
   lastSession: null, // { level: 'N5', unit: 1, category: 'vocab', timestamp: Date }
-  // Plan System (basic, standard, premium - all with 7-day trial)
-  plan: null,
-  planExpiry: null,
-  isTrialing: false, // True during 7-day trial period
+  // Plan System (synced from Firestore via Stripe Webhook)
+  plan: null,           // 'basic', 'standard', 'premium'
+  billing: null,        // 'monthly', 'annual'
+  planExpiry: null,     // ISO date string (currentPeriodEnd)
+  isTrialing: false,    // True during trial period
+  trialEndDate: null,   // ISO date string
+  isCancelled: false,   // True if subscription cancelled (may still have access)
+  paymentFailed: false, // True if payment failed
+  lastPaymentError: null,
+  stripeCustomerId: null,
+  stripeSubscriptionId: null,
+  // XP & Progress
   xp: 0,
   // Pass Report
   passReportSubmitted: false,
@@ -6397,77 +6405,37 @@ function selectPlan(plan) {
   }
 }
 
+/**
+ * URL Parameters Handler
+ * 
+ * 処理するパラメータ:
+ * - ref: 紹介コード → handleReferralCode()
+ * - from_checkout: Stripe決済後のリダイレクト（表示用のみ）
+ * 
+ * 注意: プラン情報はStripe WebhookでFirestoreに保存され、
+ * syncUserData()で取得するため、URLパラメータでは設定しない
+ */
 function checkPlanFromURL() {
   const params = new URLSearchParams(window.location.search);
-  const plan = params.get('plan');
-  const status = params.get('status');
-  const billing = params.get('billing');
-  const sessionId = params.get('session_id');
   const refCode = params.get('ref');
+  const fromCheckout = params.get('from_checkout');
   
   // Handle referral code: ?ref=XXX
   if (refCode && !state.referredBy) {
     handleReferralCode(refCode);
   }
   
-  // Stripe成功時: ?plan=xxx&billing=xxx&status=success&session_id=xxx
-  if (plan && ['basic', 'standard', 'premium'].includes(plan)) {
-    // status=successがある場合のみ処理（Stripeからのリダイレクト）
-    // または既存の単純な?plan=xxxも許可（後方互換性）
-    if (status === 'success' || !status) {
-      state.plan = plan;
-      state.billing = billing || 'annual'; // デフォルトは年払い
-      state.stripeSessionId = sessionId || null;
-      
-      // Always start with 7-day trial (Stripe handles trial_period_days)
-      // After trial ends, Stripe charges automatically
-      const trialDays = state.referredBy ? 30 : 7;
-      const trialEnd = new Date();
-      trialEnd.setDate(trialEnd.getDate() + trialDays);
-      
-      state.isTrialing = true;
-      state.trialEndDate = trialEnd.toISOString();
-      state.planStartDate = new Date().toISOString();
-      
-      // Set planExpiry based on billing cycle (actual subscription period)
-      const planExpiry = new Date();
-      if (billing === 'monthly') {
-        planExpiry.setMonth(planExpiry.getMonth() + 1);
-      } else {
-        planExpiry.setFullYear(planExpiry.getFullYear() + 1);
-      }
-      state.planExpiry = planExpiry.toISOString();
-      
-      // Reward referrer if applicable
-      checkAndRewardReferrer();
-      
-      saveState();
-      
-      // URLをクリーンに
-      window.history.replaceState({}, '', window.location.pathname);
-      
-      // Show welcome message (multilingual)
-      const planName = plan.charAt(0).toUpperCase() + plan.slice(1);
-      const lang = state.lang || 'en';
-      const texts = UI_TEXTS[lang] || UI_TEXTS['en'];
-      const billingText = billing === 'monthly' ? texts.billing_monthly : texts.billing_annual;
-      
-      let message = texts.trial_welcome || '🎉 Welcome! Your 7-day free trial of {plan} ({billing}) plan has started. All features are unlocked!';
-      message = message.replace('{plan}', planName).replace('{billing}', billingText);
-      
-      setTimeout(() => {
-        alert(message);
-      }, 500);
-      
-      console.log('Trial started:', { plan, billing, sessionId, trialDays, trialEndDate: state.trialEndDate });
-      message = message.replace('{plan}', planName).replace('{billing}', billingText);
-      
-      setTimeout(() => {
-        alert(message);
-      }, 500);
-      
-      console.log('Trial started:', { plan, billing, sessionId, lang });
-    }
+  // Stripeからのリダイレクト時（表示用）
+  // 実際のプラン情報はWebhook → Firestore → syncUserData()で取得
+  if (fromCheckout === 'success') {
+    console.log('[Checkout] Returned from Stripe - subscription will be synced from Firestore');
+    
+    // URLをクリーンに
+    window.history.replaceState({}, '', window.location.pathname);
+    
+    // ウェルカムメッセージは syncUserData() 完了後に表示
+    state.showWelcomeMessage = true;
+    saveState();
   }
 }
 
@@ -6638,7 +6606,15 @@ function selectPlanAndGo(plan) {
   if (stripeLink) {
     // Track plan selection
     FujisanAnalytics.trackPurchaseStart(plan, 0, 'USD');
-    window.location.href = stripeLink + '?prefilled_email=' + encodeURIComponent(email);
+    
+    // Build URL with client_reference_id for Webhook
+    const params = new URLSearchParams();
+    params.set('prefilled_email', email);
+    if (currentUser?.uid) {
+      params.set('client_reference_id', currentUser.uid);
+    }
+    
+    window.location.href = stripeLink + '?' + params.toString();
   } else {
     console.error('Stripe link not found:', linkKey);
   }
@@ -7925,18 +7901,45 @@ function authResetPassword() {
     });
 }
 
-function redirectToStripeCheckout(email) {
-  // Default to standard annual plan
-  const linkKey = 'standard_annual';
-  const stripeLink = STRIPE_LINKS[linkKey];
+/**
+ * Redirect to Stripe Checkout
+ * 
+ * Payment Linkに渡すパラメータ:
+ * - prefilled_email: ユーザーのメールアドレス
+ * - client_reference_id: Firebase UID (Webhookでユーザー特定に使用)
+ * 
+ * 注意: Stripe DashboardでPayment Linkの設定が必要:
+ * 1. success_url: https://fujisan.ai/app.html?from_checkout=success
+ * 2. cancel_url: https://fujisan.ai/cancel.html
+ * 3. client_reference_id を許可
+ */
+function redirectToStripeCheckout(email, plan = 'standard', billing = 'annual') {
+  const linkKey = plan + '_' + billing;
+  const stripeLink = STRIPE_LINKS[linkKey] || STRIPE_LINKS['standard_annual'];
+  
   if (stripeLink) {
-    window.location.href = stripeLink + '?prefilled_email=' + encodeURIComponent(email);
+    const params = new URLSearchParams();
+    params.set('prefilled_email', email);
+    
+    // Firebase UID を client_reference_id として渡す（Webhookでユーザー特定）
+    if (currentUser?.uid) {
+      params.set('client_reference_id', currentUser.uid);
+    }
+    
+    window.location.href = stripeLink + '?' + params.toString();
   }
 }
 
 // Check if user has valid subscription (logged in + has plan with valid expiry)
 function hasValidSubscription() {
   if (!currentUser) return false;
+  
+  // Check for cancelled but still within period
+  if (state.isCancelled && state.planExpiry) {
+    return new Date(state.planExpiry) > new Date();
+  }
+  
+  // Check for active subscription
   if (!state.plan || !state.planExpiry) return false;
   return new Date(state.planExpiry) > new Date();
 }
@@ -8023,13 +8026,73 @@ async function syncUserData() {
     const userDoc = await firebaseDb.collection('users').doc(currentUser.uid).get();
     if (userDoc.exists) {
       const userData = userDoc.data();
-      // Merge cloud data with local state
-      if (userData.plan) state.plan = userData.plan;
-      if (userData.planExpiry) state.planExpiry = userData.planExpiry;
+      
+      // ========== SUBSCRIPTION SYNC (from Stripe Webhook) ==========
+      const sub = userData.subscription;
+      if (sub) {
+        console.log('[Sync] Subscription from Firestore:', sub.status, sub.plan);
+        
+        // Check subscription status
+        const validStatuses = ['active', 'trialing'];
+        if (validStatuses.includes(sub.status)) {
+          // Active subscription
+          state.plan = sub.plan || 'standard';
+          state.billing = sub.billing || 'annual';
+          state.isTrialing = sub.status === 'trialing';
+          
+          // Set expiry dates
+          if (sub.trialEnd) {
+            state.trialEndDate = sub.trialEnd;
+          }
+          if (sub.currentPeriodEnd) {
+            state.planExpiry = sub.currentPeriodEnd;
+          }
+          
+          state.stripeCustomerId = sub.stripeCustomerId;
+          state.stripeSubscriptionId = sub.stripeSubscriptionId;
+          
+        } else if (sub.status === 'cancelled' || sub.status === 'canceled') {
+          // Cancelled subscription - check if still within period
+          const periodEnd = sub.currentPeriodEnd ? new Date(sub.currentPeriodEnd) : null;
+          if (periodEnd && periodEnd > new Date()) {
+            // Still within paid period, keep access
+            state.plan = sub.plan || 'standard';
+            state.planExpiry = sub.currentPeriodEnd;
+            state.isTrialing = false;
+            state.isCancelled = true; // Show "expires on" message
+          } else {
+            // Period ended, revoke access
+            state.plan = null;
+            state.planExpiry = null;
+            state.isTrialing = false;
+            state.isCancelled = true;
+          }
+          
+        } else if (sub.status === 'past_due' || sub.status === 'unpaid') {
+          // Payment failed - show warning but keep limited access
+          state.plan = sub.plan;
+          state.planExpiry = sub.currentPeriodEnd;
+          state.paymentFailed = true;
+          state.lastPaymentError = sub.lastPaymentError;
+          
+        } else {
+          // Unknown or expired status
+          state.plan = null;
+          state.planExpiry = null;
+          state.isTrialing = false;
+        }
+      }
+      // ========== END SUBSCRIPTION SYNC ==========
+      
+      // Merge other cloud data with local state
       if (userData.xp) state.xp = Math.max(state.xp, userData.xp);
       if (userData.streak) state.streak = Math.max(state.streak, userData.streak);
+      if (userData.level) state.level = userData.level;
+      if (userData.referredBy) state.referredBy = userData.referredBy;
+      
       saveState();
       updateDashboard();
+      updateSubscriptionUI();
     }
     
     // Record referral to Firestore if pending (user was referred before login)
@@ -8042,6 +8105,26 @@ async function syncUserData() {
     
   } catch (e) {
     console.log('Sync error:', e);
+  }
+}
+
+// Update UI based on subscription state
+function updateSubscriptionUI() {
+  const planEl = document.getElementById('settingsPlan');
+  if (!planEl) return;
+  
+  if (state.paymentFailed) {
+    planEl.innerHTML = `<span style="color:#ef4444;">⚠️ Payment Failed</span> - <a href="#" onclick="openCustomerPortal();return false;">Update Payment</a>`;
+  } else if (state.isCancelled && state.planExpiry) {
+    const expiryDate = new Date(state.planExpiry).toLocaleDateString();
+    planEl.innerHTML = `${state.plan} (Expires: ${expiryDate})`;
+  } else if (state.isTrialing && state.trialEndDate) {
+    const trialEnd = new Date(state.trialEndDate).toLocaleDateString();
+    planEl.innerHTML = `${state.plan} <span style="color:#667eea;">(Trial until ${trialEnd})</span>`;
+  } else if (state.plan) {
+    planEl.textContent = state.plan.charAt(0).toUpperCase() + state.plan.slice(1);
+  } else {
+    planEl.textContent = 'Free';
   }
 }
 
@@ -9561,55 +9644,45 @@ window.selectLevel = function(level) {
 
 console.log('Fujisan.AI v' + APP_VERSION + ' loaded (lazy loading enabled)');
 
-// ========== DEBUG: Force Trial Mode ==========
-// Usage: forceTrial() in console
+// ========== DEBUG: Subscription Control ==========
+// Usage in console: forceTrial(), endTrial(), checkSubscriptionStatus()
 function forceTrial(days = 7) {
   const trialEnd = new Date();
   trialEnd.setDate(trialEnd.getDate() + days);
+  state.plan = state.plan || 'standard';
   state.trialEndDate = trialEnd.toISOString();
   state.isTrialing = true;
-  state.planStartDate = new Date().toISOString();
-  saveState();
-  console.log('Trial forced for', days, 'days. Reload page to see effect.');
-  console.log('trialEndDate:', state.trialEndDate);
-}
-
-function endTrial() {
-  state.trialEndDate = null;
-  state.isTrialing = false;
-  state.planStartDate = null;
-  saveState();
-  console.log('Trial ended. Reload page to see effect.');
-}
-
-// ========== DEBUG: Trial Control ==========
-function forceTrial(days = 7) {
-  const trialEnd = new Date();
-  trialEnd.setDate(trialEnd.getDate() + days);
-  state.trialEndDate = trialEnd.toISOString();
-  state.isTrialing = true;
-  state.planStartDate = new Date().toISOString();
+  state.isCancelled = false;
+  state.paymentFailed = false;
   saveState();
   console.log('Trial forced for', days, 'days until:', state.trialEndDate);
   location.reload();
 }
 
 function endTrial() {
+  state.plan = null;
+  state.planExpiry = null;
   state.trialEndDate = null;
   state.isTrialing = false;
+  state.isCancelled = false;
   saveState();
-  console.log('Trial ended.');
+  console.log('Trial/Subscription ended.');
   location.reload();
 }
 
-function checkTrialStatus() {
-  console.log('=== Trial Status ===');
+function checkSubscriptionStatus() {
+  console.log('=== Subscription Status ===');
   console.log('plan:', state.plan);
+  console.log('billing:', state.billing);
   console.log('isTrialing:', state.isTrialing);
   console.log('trialEndDate:', state.trialEndDate);
-  console.log('planStartDate:', state.planStartDate);
   console.log('planExpiry:', state.planExpiry);
+  console.log('isCancelled:', state.isCancelled);
+  console.log('paymentFailed:', state.paymentFailed);
+  console.log('stripeCustomerId:', state.stripeCustomerId);
+  console.log('---');
   console.log('isInTrialPeriod():', isInTrialPeriod());
+  console.log('hasValidPlan():', hasValidPlan());
+  console.log('hasValidSubscription():', hasValidSubscription());
   console.log('canAccessLevel(N1):', canAccessLevel('N1'));
-  console.log('canAccessLevel(N2):', canAccessLevel('N2'));
 }
