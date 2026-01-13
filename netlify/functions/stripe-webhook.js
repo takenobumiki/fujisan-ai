@@ -396,3 +396,4 @@ async function cancelReferralRewardIfNeeded(userId) {
     console.log('Referral cancellation error:', err.message);
   }
 }
+// force redeploy 2026年 1月13日 火曜日 17時30分08秒 JST
