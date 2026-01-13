@@ -182,8 +182,14 @@ async function handleCheckoutCompleted(session) {
       }
       
       subscriptionData.status = STATUS_MAP[subscription.status] || subscription.status;
-      subscriptionData.currentPeriodStart = new Date(subscription.current_period_start * 1000).toISOString();
-      subscriptionData.currentPeriodEnd = new Date(subscription.current_period_end * 1000).toISOString();
+      
+      // 日付フィールドを安全に処理
+      if (subscription.current_period_start && typeof subscription.current_period_start === 'number') {
+        subscriptionData.currentPeriodStart = new Date(subscription.current_period_start * 1000).toISOString();
+      }
+      if (subscription.current_period_end && typeof subscription.current_period_end === 'number') {
+        subscriptionData.currentPeriodEnd = new Date(subscription.current_period_end * 1000).toISOString();
+      }
       
       if (subscription.trial_end && typeof subscription.trial_end === 'number') {
         subscriptionData.trialEnd = new Date(subscription.trial_end * 1000).toISOString();
@@ -235,10 +241,16 @@ async function handleSubscriptionUpdate(subscription) {
 
   const updateData = {
     'subscription.status': status,
-    'subscription.currentPeriodStart': new Date(subscription.current_period_start * 1000).toISOString(),
-    'subscription.currentPeriodEnd': new Date(subscription.current_period_end * 1000).toISOString(),
     'subscription.updatedAt': new Date().toISOString()
   };
+
+  // 日付フィールドを安全に処理
+  if (subscription.current_period_start && typeof subscription.current_period_start === 'number') {
+    updateData['subscription.currentPeriodStart'] = new Date(subscription.current_period_start * 1000).toISOString();
+  }
+  if (subscription.current_period_end && typeof subscription.current_period_end === 'number') {
+    updateData['subscription.currentPeriodEnd'] = new Date(subscription.current_period_end * 1000).toISOString();
+  }
 
   // トライアル終了日
   if (subscription.trial_end && typeof subscription.trial_end === 'number') {
@@ -396,4 +408,3 @@ async function cancelReferralRewardIfNeeded(userId) {
     console.log('Referral cancellation error:', err.message);
   }
 }
-// force redeploy 2026年 1月13日 火曜日 17時30分08秒 JST
