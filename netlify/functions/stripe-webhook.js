@@ -229,9 +229,22 @@ async function handleCheckoutCompleted(session) {
       await userDoc.ref.update({ subscription: subscriptionData });
       console.log(`User ${userDoc.id} subscription created (by email)`);
     } else {
-      // 新規ユーザーとして作成（メールをキーに）
-      await db.collection('subscriptions').doc(customerId).set(subscriptionData);
-      console.log(`Subscription ${customerId} created (no user found)`);
+      // Firebase Authでユーザーを検索してUIDを取得
+      try {
+        const admin = require('firebase-admin');
+        const userRecord = await admin.auth().getUserByEmail(customerEmail);
+        // ユーザーが見つかった場合、そのUIDでドキュメントを作成
+        await db.collection('users').doc(userRecord.uid).set({
+          email: customerEmail,
+          subscription: subscriptionData,
+          createdAt: new Date().toISOString()
+        }, { merge: true });
+        console.log(`User ${userRecord.uid} created with subscription (by Firebase Auth)`);
+      } catch (authErr) {
+        // Firebase Authにもユーザーがない場合はsubscriptionsに保存
+        await db.collection('subscriptions').doc(customerId).set(subscriptionData);
+        console.log(`Subscription ${customerId} created (no user found in Auth)`);
+      }
     }
   }
 

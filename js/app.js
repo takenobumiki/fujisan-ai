@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.23.1';
+const APP_VERSION = '18.23.2';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FURIGANA SYSTEM ==========
@@ -7862,7 +7862,18 @@ function authSignup() {
   }
   
   firebaseAuth.createUserWithEmailAndPassword(email, password)
-    .then((userCredential) => {
+    .then(async (userCredential) => {
+      // Firestoreにユーザードキュメントを作成
+      try {
+        await firebaseDb.collection('users').doc(userCredential.user.uid).set({
+          email: email,
+          createdAt: new Date().toISOString()
+        }, { merge: true });
+        console.log('User document created in Firestore');
+      } catch (err) {
+        console.log('Could not create user document:', err.message);
+      }
+      
       closeAuthModal();
       FujisanAnalytics.trackSignUp('email');
       // After signup, redirect to Stripe for subscription
@@ -7897,7 +7908,18 @@ function authSignupGoogle() {
   
   const provider = new firebase.auth.GoogleAuthProvider();
   firebaseAuth.signInWithPopup(provider)
-    .then((result) => {
+    .then(async (result) => {
+      // Firestoreにユーザードキュメントを作成
+      try {
+        await firebaseDb.collection('users').doc(result.user.uid).set({
+          email: result.user.email,
+          createdAt: new Date().toISOString()
+        }, { merge: true });
+        console.log('User document created in Firestore');
+      } catch (err) {
+        console.log('Could not create user document:', err.message);
+      }
+      
       closeAuthModal();
       FujisanAnalytics.trackSignUp('google');
       // After signup, redirect to Stripe for subscription
