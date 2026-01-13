@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.24.5';
+const APP_VERSION = '18.24.6';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FURIGANA SYSTEM ==========
@@ -5324,9 +5324,9 @@ function showMockQuestion() {
   // Update progress
   document.getElementById('mock-progress').textContent = `${mockState.current + 1}/${mockState.questions.length}`;
   
-  // Update section header
-  document.getElementById('mockSectionCurrent').textContent = q.section;
-  document.getElementById('mockSubsectionCurrent').textContent = (q.subsection || q.type || '').replace('_', ' ');
+  // Update section header (use innerHTML to render ruby tags)
+  document.getElementById('mockSectionCurrent').innerHTML = q.section || '';
+  document.getElementById('mockSubsectionCurrent').innerHTML = (q.subsection || q.type || '').replace('_', ' ');
   
   // Get instruction based on subsection
   const instruction = getMockInstruction(q.subsection || q.type);
