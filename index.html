@@ -3039,8 +3039,8 @@
                 premium_monthly: 'https://buy.stripe.com/fZu5kEaF6gDkf0T3Ma6g80a',
                 premium_annual: 'https://buy.stripe.com/dRm9AUcNe4UC6un2I66g80b'
             },
-            // 有効な紹介コード
-            validReferralCodes: ['REF001', 'REF002', 'REF003', 'REF004', 'REF005', 'REF006', 'REF007', 'REF008', 'REF009', 'REF010']
+            // Legacy referral codes (kept for backward compatibility)
+            legacyReferralCodes: ['REF001', 'REF002', 'REF003', 'REF004', 'REF005', 'REF006', 'REF007', 'REF008', 'REF009', 'REF010']
         };
         
         // 紹介コード状態
@@ -3049,10 +3049,37 @@
             referralCode: null
         };
         
+        // Calculate check digit using Luhn-like algorithm
+        function calculateCheckDigit(code) {
+            const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+            let sum = 0;
+            for (let i = 0; i < code.length; i++) {
+                const idx = chars.indexOf(code[i]);
+                if (idx >= 0) {
+                    sum += (i % 2 === 0) ? idx : idx * 2;
+                }
+            }
+            return chars[sum % chars.length];
+        }
+        
+        // Validate referral code with check digit
+        function isValidReferralCodeFormat(code) {
+            if (!code || code.length !== 8) return false;
+            if (!code.startsWith('FJ')) return false;
+            const baseCode = code.substring(0, 7);
+            const checkDigit = code.substring(7, 8);
+            return calculateCheckDigit(baseCode) === checkDigit;
+        }
+        
         // 紹介コード検証
         function validateReferralCode(code) {
             const upperCode = code.toUpperCase().trim();
-            return STRIPE_CONFIG.validReferralCodes.includes(upperCode);
+            // Check legacy codes first
+            if (STRIPE_CONFIG.legacyReferralCodes.includes(upperCode)) {
+                return true;
+            }
+            // Check new format with check digit (FJ + 5 chars + 1 check digit)
+            return isValidReferralCodeFormat(upperCode);
         }
         
         // 紹介コード適用
