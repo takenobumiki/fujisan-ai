@@ -185,7 +185,7 @@ async function handleCheckoutCompleted(session) {
       subscriptionData.currentPeriodStart = new Date(subscription.current_period_start * 1000).toISOString();
       subscriptionData.currentPeriodEnd = new Date(subscription.current_period_end * 1000).toISOString();
       
-      if (subscription.trial_end) {
+      if (subscription.trial_end && typeof subscription.trial_end === 'number') {
         subscriptionData.trialEnd = new Date(subscription.trial_end * 1000).toISOString();
       }
     } catch (err) {
@@ -241,7 +241,7 @@ async function handleSubscriptionUpdate(subscription) {
   };
 
   // トライアル終了日
-  if (subscription.trial_end) {
+  if (subscription.trial_end && typeof subscription.trial_end === 'number') {
     updateData['subscription.trialEnd'] = new Date(subscription.trial_end * 1000).toISOString();
   }
 
