@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.24.1';
+const APP_VERSION = '18.24.2';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FURIGANA SYSTEM ==========
@@ -6426,34 +6426,37 @@ function isTrialActive() {
 }
 
 function isInTrialPeriod() {
-  // Check if user is in the trial period (first 7 days after signup)
-  if (!state.plan || !state.planExpiry) return false;
+  // Check if user is in active trial
   const now = new Date();
-  const expiry = new Date(state.planExpiry);
   
-  // Method 1: Check trialEndDate if available
+  // Method 1: Check trialEndDate directly (primary method for Stripe trials)
   if (state.trialEndDate) {
     const trialEnd = new Date(state.trialEndDate);
-    if (now < trialEnd) return true;
+    if (now < trialEnd) {
+      console.log('[Trial] Active via trialEndDate:', state.trialEndDate);
+      return true;
+    }
   }
   
-  // Method 2: If isTrialing flag is set, use it
-  if (state.isTrialing === true && now < expiry) return true;
-  
-  // Method 3: Check planStartDate + 7 days
-  if (state.planStartDate) {
-    const planStart = new Date(state.planStartDate);
-    const trialEnd = new Date(planStart.getTime() + 7 * 24 * 60 * 60 * 1000);
-    if (now < trialEnd) return true;
+  // Method 2: If isTrialing flag is set
+  if (state.isTrialing === true) {
+    // If we have planExpiry, check it
+    if (state.planExpiry) {
+      const expiry = new Date(state.planExpiry);
+      if (now < expiry) return true;
+    } else {
+      // Just trust the isTrialing flag if no expiry set
+      return true;
+    }
   }
   
-  // Method 4: Fallback for monthly plans (expiry is ~30 days, so check if within first 7 days)
-  // For annual plans, this won't work since expiry is 365 days away
-  const daysUntilExpiry = (expiry - now) / (1000 * 60 * 60 * 24);
-  
-  // If expiry is 7 days or less (trial-only period)
-  if (state.plan && daysUntilExpiry > 0 && daysUntilExpiry <= 7) {
-    return true;
+  // Method 3: Legacy check with planExpiry
+  if (state.plan && state.planExpiry) {
+    const expiry = new Date(state.planExpiry);
+    const daysUntilExpiry = (expiry - now) / (1000 * 60 * 60 * 24);
+    if (daysUntilExpiry > 0 && daysUntilExpiry <= 7) {
+      return true;
+    }
   }
   
   return false;
