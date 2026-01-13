@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.24.2';
+const APP_VERSION = '18.24.3';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FURIGANA SYSTEM ==========
@@ -2032,7 +2032,7 @@ function getCategoryKey() {
 
 // ========== STRIPE LINKS ==========
 // Stripe Customer Portal URL (for managing subscriptions / cancellation)
-const STRIPE_CUSTOMER_PORTAL = 'https://billing.stripe.com/p/login/5kA00lgSR1gg4Le8ww';
+const STRIPE_CUSTOMER_PORTAL = 'https://billing.stripe.com/p/login/4gMeVeaF65YGaKD3Ma6g800';
 
 // LP URL for subscription (all subscription flows go through LP)
 const SUBSCRIPTION_LP_URL = 'https://fujisan.ai/#pricing';
