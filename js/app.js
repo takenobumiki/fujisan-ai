@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.23.2';
+const APP_VERSION = '18.24.0';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FURIGANA SYSTEM ==========
@@ -2076,17 +2076,11 @@ function getCategoryKey() {
 }
 
 // ========== STRIPE LINKS ==========
-const STRIPE_LINKS = {
-  basic_monthly: 'https://buy.stripe.com/4gMeVeaF65YGaKD3Ma6g800',
-  basic_annual: 'https://buy.stripe.com/dRm3cwbJa72K1a36Ym6g801',
-  standard_monthly: 'https://buy.stripe.com/5kQ6oIeVmgDk4mffuS6g802',
-  standard_annual: 'https://buy.stripe.com/eVq4gA14w72KaKD4Qe6g803',
-  premium_monthly: 'https://buy.stripe.com/dRm8wQeVmcn4f0T3Ma6g804',
-  premium_annual: 'https://buy.stripe.com/00w14ofZq72Kg4X6Ym6g805'
-};
-
 // Stripe Customer Portal URL (for managing subscriptions / cancellation)
 const STRIPE_CUSTOMER_PORTAL = 'https://billing.stripe.com/p/login/5kA00lgSR1gg4Le8ww';
+
+// LP URL for subscription (all subscription flows go through LP)
+const SUBSCRIPTION_LP_URL = 'https://fujisan.ai/#pricing';
 
 // ========== REFERRAL SYSTEM ==========
 const REFERRAL_CODES = ['REF001', 'REF002', 'REF003', 'REF004', 'REF005', 'REF006', 'REF007', 'REF008', 'REF009', 'REF010'];
@@ -6396,15 +6390,18 @@ function updateSettingsUI() {
 }
 
 // ========== PLAN SYSTEM ==========
-function openSubscriptionModal() { document.getElementById('subscriptionModal').classList.remove('hidden'); }
-function closeSubscriptionModal() { document.getElementById('subscriptionModal').classList.add('hidden'); }
+function openSubscriptionModal() { 
+  // Redirect to LP for subscription
+  window.location.href = SUBSCRIPTION_LP_URL;
+}
+function closeSubscriptionModal() { 
+  // Legacy - now just redirects
+  window.location.href = SUBSCRIPTION_LP_URL;
+}
 
 function selectPlan(plan) {
-  // Default to annual plan
-  const linkKey = plan + '_annual';
-  if (STRIPE_LINKS[linkKey]) {
-    window.location.href = STRIPE_LINKS[linkKey];
-  }
+  // Redirect to LP for subscription
+  window.location.href = SUBSCRIPTION_LP_URL;
 }
 
 /**
@@ -6564,95 +6561,29 @@ function showUpgradeModal(feature, requiredPlan) {
 }
 
 function showSubscriptionRequiredModal() {
-  const modal = document.getElementById('subscriptionRequiredModal');
-  if (modal) {
-    // Update modal content based on user status
-    const titleEl = modal.querySelector('.modal-title');
-    const subtitleEl = modal.querySelector('.subscription-modal-subtitle');
-    const noteEl = document.getElementById('trialNote');
-    const returningNotice = document.getElementById('returningUserNotice');
-    
-    if (state.isExpiredUser) {
-      // Returning user (previously subscribed, now expired)
-      if (titleEl) titleEl.textContent = 'Welcome Back!';
-      if (subtitleEl) subtitleEl.textContent = 'Reactivate your subscription';
-      if (noteEl) noteEl.innerHTML = '💳 Subscription starts immediately • Your progress is saved';
-      if (returningNotice) returningNotice.classList.remove('hidden');
+  // Redirect to LP for subscription
+  // All subscription flows now go through the landing page
+  const isReturning = state.isExpiredUser;
+  
+  if (isReturning) {
+    // Returning user
+    if (confirm('👋 Welcome Back!\n\nYour subscription has expired. Your learning data is still saved.\n\nGo to subscription page to reactivate?')) {
+      window.location.href = SUBSCRIPTION_LP_URL;
     } else {
-      // New user
-      if (titleEl) titleEl.textContent = 'Start Your Free Trial';
-      if (subtitleEl) subtitleEl.textContent = '7-day free trial • Cancel anytime';
-      if (noteEl) noteEl.innerHTML = '💳 Card required • No charge until trial ends';
-      if (returningNotice) returningNotice.classList.add('hidden');
+      logout();
     }
-    
-    modal.classList.remove('hidden');
   } else {
-    // Fallback if modal doesn't exist
-    if (state.isExpiredUser) {
-      if (confirm('👋 Welcome Back!\n\nYour subscription has expired. Your learning data is still saved.\n\n⚠️ As a returning user, subscriptions start immediately (no free trial).\n\nSubscribe now to continue?')) {
-        const email = currentUser?.email || '';
-        redirectToStripeCheckout(email);
-      }
+    // New user
+    if (confirm('🔒 Subscription Required\n\nStart your 7-day free trial to access all JLPT levels, Mock Tests, and AI Tutor.\n\nNo charge until trial ends. Cancel anytime.\n\nGo to subscription page?')) {
+      window.location.href = SUBSCRIPTION_LP_URL;
     } else {
-      if (confirm('🔒 Start Your Free Trial\n\nGet full access to all JLPT levels, Mock Tests, and AI Tutor for 7 days free.\n\nNo charge until trial ends. Cancel anytime.\n\nStart free trial now?')) {
-        const email = currentUser?.email || '';
-        redirectToStripeCheckout(email);
-      }
+      logout();
     }
-  }
-}
-
-function goToStripeFromModal() {
-  const email = currentUser?.email || '';
-  redirectToStripeCheckout(email);
-}
-
-// Plan selection state
-let selectedBilling = 'annual';
-
-function setBilling(billing) {
-  selectedBilling = billing;
-  
-  // Update toggle buttons
-  document.getElementById('billingAnnual').classList.toggle('active', billing === 'annual');
-  document.getElementById('billingMonthly').classList.toggle('active', billing === 'monthly');
-  
-  // Show/hide prices
-  document.querySelectorAll('.plan-price-annual').forEach(el => {
-    el.classList.toggle('hidden', billing !== 'annual');
-  });
-  document.querySelectorAll('.plan-price-monthly').forEach(el => {
-    el.classList.toggle('hidden', billing !== 'monthly');
-  });
-}
-
-function selectPlanAndGo(plan) {
-  const email = currentUser?.email || '';
-  const linkKey = plan + '_' + selectedBilling;
-  const stripeLink = STRIPE_LINKS[linkKey];
-  
-  if (stripeLink) {
-    // Track plan selection
-    FujisanAnalytics.trackPurchaseStart(plan, 0, 'USD');
-    
-    // Build URL with client_reference_id for Webhook
-    const params = new URLSearchParams();
-    params.set('prefilled_email', email);
-    if (currentUser?.uid) {
-      params.set('client_reference_id', currentUser.uid);
-    }
-    
-    window.location.href = stripeLink + '?' + params.toString();
-  } else {
-    console.error('Stripe link not found:', linkKey);
   }
 }
 
 function closeSubscriptionRequiredModal() {
-  const modal = document.getElementById('subscriptionRequiredModal');
-  if (modal) modal.classList.add('hidden');
-  // If no subscription, log out and show auth
+  // Legacy function - now just logs out if no subscription
   if (!hasValidSubscription() && !isInTrialPeriod()) {
     logout();
   }
@@ -7876,8 +7807,8 @@ function authSignup() {
       
       closeAuthModal();
       FujisanAnalytics.trackSignUp('email');
-      // After signup, redirect to Stripe for subscription
-      redirectToStripeCheckout(email);
+      // After signup, redirect to LP for subscription
+      window.location.href = SUBSCRIPTION_LP_URL;
     })
     .catch(err => {
       let msg = 'Signup failed. Please try again.';
@@ -7922,8 +7853,8 @@ function authSignupGoogle() {
       
       closeAuthModal();
       FujisanAnalytics.trackSignUp('google');
-      // After signup, redirect to Stripe for subscription
-      redirectToStripeCheckout(result.user.email);
+      // After signup, redirect to LP for subscription
+      window.location.href = SUBSCRIPTION_LP_URL;
     })
     .catch(err => showAuthError('authSignupError', err.message));
 }
@@ -7950,35 +7881,6 @@ function authResetPassword() {
       else if (err.code === 'auth/invalid-email') msg = 'Invalid email format';
       showAuthError('authResetError', msg);
     });
-}
-
-/**
- * Redirect to Stripe Checkout
- * 
- * Payment Linkに渡すパラメータ:
- * - prefilled_email: ユーザーのメールアドレス
- * - client_reference_id: Firebase UID (Webhookでユーザー特定に使用)
- * 
- * 注意: Stripe DashboardでPayment Linkの設定が必要:
- * 1. success_url: https://fujisan.ai/app.html?from_checkout=success
- * 2. cancel_url: https://fujisan.ai/cancel.html
- * 3. client_reference_id を許可
- */
-function redirectToStripeCheckout(email, plan = 'standard', billing = 'annual') {
-  const linkKey = plan + '_' + billing;
-  const stripeLink = STRIPE_LINKS[linkKey] || STRIPE_LINKS['standard_annual'];
-  
-  if (stripeLink) {
-    const params = new URLSearchParams();
-    params.set('prefilled_email', email);
-    
-    // Firebase UID を client_reference_id として渡す（Webhookでユーザー特定）
-    if (currentUser?.uid) {
-      params.set('client_reference_id', currentUser.uid);
-    }
-    
-    window.location.href = stripeLink + '?' + params.toString();
-  }
 }
 
 // Check if user has valid subscription (logged in + has plan with valid expiry)
