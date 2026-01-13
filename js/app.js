@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.24.3';
+const APP_VERSION = '18.24.4';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FURIGANA SYSTEM ==========
@@ -2040,19 +2040,59 @@ const SUBSCRIPTION_LP_URL = 'https://fujisan.ai/#pricing';
 // ========== REFERRAL SYSTEM ==========
 const REFERRAL_CODES = ['REF001', 'REF002', 'REF003', 'REF004', 'REF005', 'REF006', 'REF007', 'REF008', 'REF009', 'REF010'];
 
-// Generate unique referral code for user
+// Calculate check digit using Luhn-like algorithm
+function calculateCheckDigit(code) {
+  const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'; // Exclude confusing chars: 0,O,1,I
+  let sum = 0;
+  for (let i = 0; i < code.length; i++) {
+    const idx = chars.indexOf(code[i]);
+    if (idx >= 0) {
+      sum += (i % 2 === 0) ? idx : idx * 2;
+    }
+  }
+  return chars[sum % chars.length];
+}
+
+// Validate referral code with check digit
+function isValidReferralCode(code) {
+  if (!code || code.length !== 8) return false;
+  const baseCode = code.substring(0, 7);
+  const checkDigit = code.substring(7, 8);
+  return calculateCheckDigit(baseCode) === checkDigit;
+}
+
+// Generate unique referral code with check digit
 function generateUniqueReferralCode() {
-  // Use userId if available, otherwise create random
-  const base = state.userId ? state.userId.substring(0, 6).toUpperCase() : '';
-  const random = Math.random().toString(36).substring(2, 6).toUpperCase();
-  return 'FJ' + (base || random) + random.substring(0, 2);
+  const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'; // Exclude confusing chars
+  let code = 'FJ'; // Prefix
+  
+  // Generate 5 random characters
+  for (let i = 0; i < 5; i++) {
+    code += chars[Math.floor(Math.random() * chars.length)];
+  }
+  
+  // Add check digit
+  code += calculateCheckDigit(code);
+  
+  return code; // Format: FJ + 5 random + 1 check = 8 chars (e.g., FJK8X2P4)
 }
 
 // Get user's assigned referral code (for now, based on user index or manual assignment)
 function getMyReferralCode() {
   // Check if already assigned
   let myCode = localStorage.getItem('fujisan_my_referral_code');
-  if (myCode && myCode !== 'Coming Soon') return myCode;
+  
+  // Validate existing code - if old format, regenerate
+  if (myCode && myCode !== 'Coming Soon') {
+    // Check if it's the new format (8 chars, starts with FJ, valid check digit)
+    if (myCode.length === 8 && myCode.startsWith('FJ') && isValidReferralCode(myCode)) {
+      return myCode;
+    }
+    // Old format detected - clear and regenerate
+    console.log('[Referral] Old format detected, regenerating:', myCode);
+    localStorage.removeItem('fujisan_my_referral_code');
+    myCode = null;
+  }
   
   // Generate unique code based on userId or random
   if (state.userId) {
@@ -2060,8 +2100,8 @@ function getMyReferralCode() {
     localStorage.setItem('fujisan_my_referral_code', myCode);
     
     // Also save to Firestore for tracking
-    if (typeof db !== 'undefined') {
-      db.collection('users').doc(state.userId).set({
+    if (typeof firebaseDb !== 'undefined' && firebaseDb) {
+      firebaseDb.collection('users').doc(state.userId).set({
         referralCode: myCode,
         referralCodeCreatedAt: firebase.firestore.FieldValue.serverTimestamp()
       }, { merge: true }).catch(e => console.log('Could not save referral code:', e));
@@ -2086,8 +2126,16 @@ function getMyReferralCode() {
 
 // Handle incoming referral code from URL
 async function handleReferralCode(refCode) {
-  // Validate referral code format
+  // Validate referral code format and check digit
   if (!refCode || refCode.length < 3) return;
+  
+  // Check digit validation for new format codes (8 chars starting with FJ)
+  if (refCode.length === 8 && refCode.startsWith('FJ')) {
+    if (!isValidReferralCode(refCode)) {
+      console.log('Invalid referral code (check digit failed):', refCode);
+      return;
+    }
+  }
   
   // Don't allow self-referral
   const myCode = localStorage.getItem('fujisan_my_referral_code');
