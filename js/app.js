@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.21.0';
+const APP_VERSION = '18.23.0';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FURIGANA SYSTEM ==========
@@ -2559,6 +2559,8 @@ let state = {
   isTrialing: false,    // True during trial period
   trialEndDate: null,   // ISO date string
   isCancelled: false,   // True if subscription cancelled (may still have access)
+  isExpiredUser: false, // True if subscription expired (no trial on re-subscribe)
+  previousPlan: null,   // Previous plan before cancellation
   paymentFailed: false, // True if payment failed
   lastPaymentError: null,
   stripeCustomerId: null,
@@ -6564,12 +6566,39 @@ function showUpgradeModal(feature, requiredPlan) {
 function showSubscriptionRequiredModal() {
   const modal = document.getElementById('subscriptionRequiredModal');
   if (modal) {
+    // Update modal content based on user status
+    const titleEl = modal.querySelector('.modal-title');
+    const subtitleEl = modal.querySelector('.subscription-modal-subtitle');
+    const noteEl = document.getElementById('trialNote');
+    const returningNotice = document.getElementById('returningUserNotice');
+    
+    if (state.isExpiredUser) {
+      // Returning user (previously subscribed, now expired)
+      if (titleEl) titleEl.textContent = 'Welcome Back!';
+      if (subtitleEl) subtitleEl.textContent = 'Reactivate your subscription';
+      if (noteEl) noteEl.innerHTML = '💳 Subscription starts immediately • Your progress is saved';
+      if (returningNotice) returningNotice.classList.remove('hidden');
+    } else {
+      // New user
+      if (titleEl) titleEl.textContent = 'Start Your Free Trial';
+      if (subtitleEl) subtitleEl.textContent = '7-day free trial • Cancel anytime';
+      if (noteEl) noteEl.innerHTML = '💳 Card required • No charge until trial ends';
+      if (returningNotice) returningNotice.classList.add('hidden');
+    }
+    
     modal.classList.remove('hidden');
   } else {
     // Fallback if modal doesn't exist
-    if (confirm('🔒 Start Your Free Trial\n\nGet full access to all JLPT levels, Mock Tests, and AI Tutor for 7 days free.\n\nNo charge until trial ends. Cancel anytime.\n\nStart free trial now?')) {
-      const email = currentUser?.email || '';
-      redirectToStripeCheckout(email);
+    if (state.isExpiredUser) {
+      if (confirm('👋 Welcome Back!\n\nYour subscription has expired. Your learning data is still saved.\n\n⚠️ As a returning user, subscriptions start immediately (no free trial).\n\nSubscribe now to continue?')) {
+        const email = currentUser?.email || '';
+        redirectToStripeCheckout(email);
+      }
+    } else {
+      if (confirm('🔒 Start Your Free Trial\n\nGet full access to all JLPT levels, Mock Tests, and AI Tutor for 7 days free.\n\nNo charge until trial ends. Cancel anytime.\n\nStart free trial now?')) {
+        const email = currentUser?.email || '';
+        redirectToStripeCheckout(email);
+      }
     }
   }
 }
@@ -8060,12 +8089,25 @@ async function syncUserData() {
             state.planExpiry = sub.currentPeriodEnd;
             state.isTrialing = false;
             state.isCancelled = true; // Show "expires on" message
+            state.isExpiredUser = false;
           } else {
-            // Period ended, revoke access
+            // Period ended, revoke access completely
             state.plan = null;
             state.planExpiry = null;
             state.isTrialing = false;
             state.isCancelled = true;
+            state.isExpiredUser = true; // Flag for "no trial on re-subscribe"
+            state.previousPlan = sub.plan; // Remember their previous plan
+            
+            // Mark user as "was subscribed" in Firestore for webhook to check
+            try {
+              await firebaseDb.collection('users').doc(currentUser.uid).update({
+                wasSubscribed: true,
+                lastCancelledAt: sub.cancelledAt || new Date().toISOString()
+              });
+            } catch (e) {
+              console.log('Could not update wasSubscribed flag:', e);
+            }
           }
           
         } else if (sub.status === 'past_due' || sub.status === 'unpaid') {
@@ -8110,22 +8152,148 @@ async function syncUserData() {
 
 // Update UI based on subscription state
 function updateSubscriptionUI() {
-  const planEl = document.getElementById('settingsPlan');
-  if (!planEl) return;
+  const planDescEl = document.getElementById('settingsPlanDesc');
+  const planActionBtn = document.getElementById('planActionBtn');
+  const subStatusItem = document.getElementById('subscriptionStatusItem');
+  const subStatusTitle = document.getElementById('subscriptionStatusTitle');
+  const subStatusDesc = document.getElementById('subscriptionStatusDesc');
+  const manageSubBtn = document.getElementById('manageSubBtn');
+  
+  if (!planDescEl) return;
+  
+  const formatDate = (dateStr) => {
+    if (!dateStr) return '-';
+    return new Date(dateStr).toLocaleDateString(state.lang === 'ja' ? 'ja-JP' : 'en-US', {
+      year: 'numeric', month: 'short', day: 'numeric'
+    });
+  };
+  
+  // Reset visibility
+  if (subStatusItem) subStatusItem.classList.add('hidden');
   
   if (state.paymentFailed) {
-    planEl.innerHTML = `<span style="color:#ef4444;">⚠️ Payment Failed</span> - <a href="#" onclick="openCustomerPortal();return false;">Update Payment</a>`;
-  } else if (state.isCancelled && state.planExpiry) {
-    const expiryDate = new Date(state.planExpiry).toLocaleDateString();
-    planEl.innerHTML = `${state.plan} (Expires: ${expiryDate})`;
+    // Payment failed state
+    planDescEl.innerHTML = `<span style="color:#ef4444;">⚠️ Payment Failed</span>`;
+    if (planActionBtn) {
+      planActionBtn.textContent = 'Update Payment';
+      planActionBtn.onclick = openCustomerPortal;
+      planActionBtn.style.background = '#ef4444';
+      planActionBtn.style.color = '#fff';
+    }
+    if (subStatusItem) {
+      subStatusItem.classList.remove('hidden');
+      subStatusTitle.textContent = '⚠️ Payment Issue';
+      subStatusTitle.style.color = '#ef4444';
+      subStatusDesc.textContent = state.lastPaymentError || 'Please update your payment method';
+    }
+    
+  } else if (state.isCancelled) {
+    // Cancelled but may still have access
+    const planName = state.plan ? state.plan.charAt(0).toUpperCase() + state.plan.slice(1) : 'Free';
+    
+    if (state.planExpiry && new Date(state.planExpiry) > new Date()) {
+      // Still has access until expiry
+      planDescEl.innerHTML = `${planName} <span style="color:#f59e0b;">(Cancelled)</span>`;
+      if (planActionBtn) {
+        planActionBtn.textContent = 'Resubscribe';
+        planActionBtn.onclick = openSubscriptionModal;
+        planActionBtn.style.background = '';
+        planActionBtn.style.color = '';
+      }
+      if (subStatusItem) {
+        subStatusItem.classList.remove('hidden');
+        subStatusItem.style.background = 'rgba(245,158,11,0.1)';
+        subStatusTitle.textContent = 'Subscription Cancelled';
+        subStatusTitle.style.color = '#f59e0b';
+        subStatusDesc.textContent = `Access until ${formatDate(state.planExpiry)}`;
+        manageSubBtn.textContent = 'Resubscribe';
+        manageSubBtn.onclick = openSubscriptionModal;
+      }
+    } else {
+      // Access expired
+      planDescEl.textContent = 'Free';
+      if (planActionBtn) {
+        planActionBtn.textContent = 'Upgrade';
+        planActionBtn.onclick = openSubscriptionModal;
+        planActionBtn.style.background = '';
+        planActionBtn.style.color = '';
+      }
+    }
+    
   } else if (state.isTrialing && state.trialEndDate) {
-    const trialEnd = new Date(state.trialEndDate).toLocaleDateString();
-    planEl.innerHTML = `${state.plan} <span style="color:#667eea;">(Trial until ${trialEnd})</span>`;
+    // Trial period
+    const planName = state.plan ? state.plan.charAt(0).toUpperCase() + state.plan.slice(1) : 'Standard';
+    planDescEl.innerHTML = `${planName} <span style="color:#667eea;">(Trial)</span>`;
+    if (planActionBtn) {
+      planActionBtn.textContent = 'Manage';
+      planActionBtn.onclick = openCustomerPortal;
+      planActionBtn.style.background = '#f3f4f6';
+      planActionBtn.style.color = '#374151';
+    }
+    if (subStatusItem) {
+      subStatusItem.classList.remove('hidden');
+      subStatusItem.style.background = 'rgba(102,126,234,0.05)';
+      subStatusTitle.textContent = '🎉 Free Trial Active';
+      subStatusTitle.style.color = '#667eea';
+      subStatusDesc.textContent = `Trial ends ${formatDate(state.trialEndDate)}`;
+      manageSubBtn.textContent = 'Manage';
+      manageSubBtn.onclick = openCustomerPortal;
+    }
+    
   } else if (state.plan) {
-    planEl.textContent = state.plan.charAt(0).toUpperCase() + state.plan.slice(1);
+    // Active subscription
+    const planName = state.plan.charAt(0).toUpperCase() + state.plan.slice(1);
+    planDescEl.textContent = planName;
+    if (planActionBtn) {
+      planActionBtn.textContent = 'Manage';
+      planActionBtn.onclick = openCustomerPortal;
+      planActionBtn.style.background = '#f3f4f6';
+      planActionBtn.style.color = '#374151';
+    }
+    if (subStatusItem && state.planExpiry) {
+      subStatusItem.classList.remove('hidden');
+      subStatusItem.style.background = 'rgba(16,185,129,0.05)';
+      subStatusTitle.textContent = '✓ Active';
+      subStatusTitle.style.color = '#10b981';
+      subStatusDesc.textContent = `Renews ${formatDate(state.planExpiry)}`;
+      manageSubBtn.textContent = 'Manage';
+      manageSubBtn.onclick = openCustomerPortal;
+    }
+    
   } else {
-    planEl.textContent = 'Free';
+    // Free user
+    planDescEl.textContent = 'Free';
+    if (planActionBtn) {
+      planActionBtn.textContent = 'Upgrade';
+      planActionBtn.onclick = openSubscriptionModal;
+      planActionBtn.style.background = '';
+      planActionBtn.style.color = '';
+    }
   }
+}
+
+// Open cancel subscription modal
+function openCancelModal() {
+  const modal = document.getElementById('cancelSubscriptionModal');
+  const accessUntil = document.getElementById('cancelAccessUntil');
+  
+  if (accessUntil && state.planExpiry) {
+    accessUntil.textContent = new Date(state.planExpiry).toLocaleDateString();
+  }
+  
+  if (modal) modal.classList.remove('hidden');
+}
+
+// Close cancel subscription modal
+function closeCancelModal() {
+  const modal = document.getElementById('cancelSubscriptionModal');
+  if (modal) modal.classList.add('hidden');
+}
+
+// Confirm cancel - redirect to Stripe Customer Portal
+function confirmCancelSubscription() {
+  closeCancelModal();
+  openCustomerPortal();
 }
 
 // Record referral relationship to Firestore

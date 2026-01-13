@@ -140,6 +140,21 @@ async function handleCheckoutCompleted(session) {
   const plan = session.metadata?.plan || 'standard';
   const billing = session.metadata?.billing || 'annual';
 
+  // Check if this is a returning user (was previously subscribed)
+  let isReturningUser = false;
+  if (userId) {
+    try {
+      const userDoc = await db.collection('users').doc(userId).get();
+      if (userDoc.exists) {
+        const userData = userDoc.data();
+        isReturningUser = userData.wasSubscribed === true;
+        console.log(`User ${userId} isReturningUser:`, isReturningUser);
+      }
+    } catch (err) {
+      console.log('Could not check wasSubscribed:', err.message);
+    }
+  }
+
   // サブスクリプション詳細を取得
   let subscriptionData = {
     stripeCustomerId: customerId,
@@ -149,12 +164,23 @@ async function handleCheckoutCompleted(session) {
     billing: billing,
     status: 'trialing', // デフォルトはトライアル
     createdAt: new Date().toISOString(),
-    updatedAt: new Date().toISOString()
+    updatedAt: new Date().toISOString(),
+    isReturningUser: isReturningUser
   };
 
   if (subscriptionId) {
     try {
-      const subscription = await stripe.subscriptions.retrieve(subscriptionId);
+      let subscription = await stripe.subscriptions.retrieve(subscriptionId);
+      
+      // If returning user and still in trial, end the trial immediately
+      if (isReturningUser && subscription.status === 'trialing') {
+        console.log(`Ending trial for returning user ${userId}`);
+        subscription = await stripe.subscriptions.update(subscriptionId, {
+          trial_end: 'now'
+        });
+        console.log(`Trial ended, new status: ${subscription.status}`);
+      }
+      
       subscriptionData.status = STATUS_MAP[subscription.status] || subscription.status;
       subscriptionData.currentPeriodStart = new Date(subscription.current_period_start * 1000).toISOString();
       subscriptionData.currentPeriodEnd = new Date(subscription.current_period_end * 1000).toISOString();
@@ -163,7 +189,7 @@ async function handleCheckoutCompleted(session) {
         subscriptionData.trialEnd = new Date(subscription.trial_end * 1000).toISOString();
       }
     } catch (err) {
-      console.log('Could not retrieve subscription:', err.message);
+      console.log('Could not retrieve/update subscription:', err.message);
     }
   }
 
