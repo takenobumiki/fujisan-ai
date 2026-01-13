@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.24.0';
+const APP_VERSION = '18.24.1';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FURIGANA SYSTEM ==========
@@ -108,107 +108,62 @@ function addFuriganaToOptions(options, level) {
   return options;
 }
 
-// ========== FORCE UPDATE SYSTEM ==========
-// Check for updates on app load
+// ========== SIMPLE UPDATE SYSTEM ==========
+// Only check once per session, no loops
+const UPDATE_CHECK_KEY = 'fujisan_update_checked_' + APP_VERSION;
+
 async function checkForUpdates() {
+  // Skip if already checked this session for this version
+  if (sessionStorage.getItem(UPDATE_CHECK_KEY)) {
+    console.log('[Update] Already checked this session');
+    return;
+  }
+  
+  // Mark as checked immediately to prevent loops
+  sessionStorage.setItem(UPDATE_CHECK_KEY, 'true');
+  
   try {
-    // Fetch server version with cache-busting
     const res = await fetch('/version?t=' + Date.now(), { cache: 'no-store' });
     if (!res.ok) return;
     
     const serverVersion = (await res.text()).trim();
     console.log('[Update] Local:', APP_VERSION, 'Server:', serverVersion);
     
-    // Compare versions (ignore suffixes like "-rebuild")
-    const localClean = APP_VERSION.replace(/-.*$/, '');
-    const serverClean = serverVersion.replace(/-.*$/, '');
-    
-    if (serverClean && serverClean !== localClean) {
-      console.log('[Update] Version mismatch, forcing update...');
-      await forceUpdate();
+    // Simple version comparison
+    if (serverVersion && serverVersion !== APP_VERSION) {
+      console.log('[Update] New version available:', serverVersion);
+      // Just clear caches and reload once
+      await clearCachesAndReload();
     }
   } catch(e) {
     console.log('[Update] Check failed:', e.message);
   }
 }
 
-// Force update: clear all caches and reload
-async function forceUpdate() {
-  // Show update notification
-  showUpdateNotification();
-  
+// Simple cache clear and reload
+async function clearCachesAndReload() {
   try {
-    // 1. Unregister service worker
+    // Clear service worker
     if ('serviceWorker' in navigator) {
-      const registrations = await navigator.serviceWorker.getRegistrations();
-      for (const registration of registrations) {
-        await registration.unregister();
-        console.log('[Update] Service Worker unregistered');
-      }
+      const regs = await navigator.serviceWorker.getRegistrations();
+      await Promise.all(regs.map(r => r.unregister()));
     }
     
-    // 2. Clear all caches
+    // Clear caches
     if ('caches' in window) {
-      const cacheNames = await caches.keys();
-      await Promise.all(cacheNames.map(name => {
-        console.log('[Update] Deleting cache:', name);
-        return caches.delete(name);
-      }));
+      const names = await caches.keys();
+      await Promise.all(names.map(n => caches.delete(n)));
     }
     
-    // 3. Clear localStorage version marker (but keep user data)
-    localStorage.removeItem('fujisan_app_version');
-    
-    // 4. Hard reload after short delay
-    setTimeout(() => {
-      window.location.reload(true);
-    }, 1000);
-    
+    // Reload after brief delay
+    setTimeout(() => window.location.reload(true), 500);
   } catch(e) {
-    console.error('[Update] Force update failed:', e);
-    // Fallback: just reload
     window.location.reload(true);
   }
 }
 
-// Show update notification overlay
-function showUpdateNotification() {
-  const overlay = document.createElement('div');
-  overlay.id = 'update-overlay';
-  overlay.innerHTML = `
-    <div style="position:fixed;inset:0;background:rgba(0,0,0,0.8);display:flex;align-items:center;justify-content:center;z-index:99999;">
-      <div style="background:#fff;padding:32px;border-radius:16px;text-align:center;max-width:300px;">
-        <div style="font-size:48px;margin-bottom:16px;">🔄</div>
-        <div style="font-size:18px;font-weight:600;margin-bottom:8px;">Updating Fujisan.AI</div>
-        <div style="font-size:14px;color:#666;">Please wait...</div>
-        <div style="margin-top:16px;width:100%;height:4px;background:#eee;border-radius:2px;overflow:hidden;">
-          <div style="width:100%;height:100%;background:linear-gradient(90deg,#667eea,#764ba2);animation:loading 1s ease-in-out infinite;"></div>
-        </div>
-      </div>
-    </div>
-    <style>@keyframes loading{0%{transform:translateX(-100%)}100%{transform:translateX(100%)}}</style>
-  `;
-  document.body.appendChild(overlay);
-}
-
-// Listen for Service Worker update messages
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.addEventListener('message', event => {
-    if (event.data && event.data.type === 'SW_UPDATED') {
-      console.log('[SW] Updated to version:', event.data.version);
-      if (event.data.version !== APP_VERSION) {
-        forceUpdate();
-      }
-    }
-  });
-}
-
-// Run update check when DOM is ready
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', () => setTimeout(checkForUpdates, 1000));
-} else {
-  setTimeout(checkForUpdates, 1000);
-}
+// Check once on load (with delay)
+setTimeout(checkForUpdates, 2000);
 
 // ========== UI TRANSLATIONS ==========
 const UI_TEXTS = {

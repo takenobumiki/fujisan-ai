@@ -1,105 +1,58 @@
-// Fujisan.AI Service Worker v18.20.19
-const CACHE_NAME = 'fujisan-v18.24.0';
-const APP_VERSION = '18.23.2';
+// Fujisan.AI Service Worker v18.24.1 - Simplified
+const CACHE_NAME = 'fujisan-v18.24.1';
 
+// Minimal cache - only critical files
 const urlsToCache = [
-  '/',
-  '/index.html',
   '/app.html',
   '/css/style.css',
-  '/js/app.js',
-  '/images/og-image.jpg'
+  '/js/app.js'
 ];
 
-// Install event - cache files and skip waiting
+// Install - cache essential files
 self.addEventListener('install', event => {
-  console.log('[SW] Installing version:', APP_VERSION);
+  console.log('[SW] Installing');
+  self.skipWaiting();
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then(cache => cache.addAll(urlsToCache))
-      .then(() => self.skipWaiting()) // Force activate immediately
+      .catch(e => console.log('[SW] Cache failed:', e))
   );
 });
 
-// Activate event - clean ALL old caches and claim clients
+// Activate - delete old caches
 self.addEventListener('activate', event => {
-  console.log('[SW] Activating version:', APP_VERSION);
+  console.log('[SW] Activating');
   event.waitUntil(
-    caches.keys().then(cacheNames => {
-      return Promise.all(
-        cacheNames.map(cacheName => {
-          if (cacheName !== CACHE_NAME) {
-            console.log('[SW] Deleting old cache:', cacheName);
-            return caches.delete(cacheName);
-          }
-        })
-      );
-    }).then(() => {
-      // Claim all clients immediately
-      return self.clients.claim();
-    }).then(() => {
-      // Notify all clients to refresh
-      return self.clients.matchAll().then(clients => {
-        clients.forEach(client => {
-          client.postMessage({ type: 'SW_UPDATED', version: APP_VERSION });
-        });
-      });
-    })
+    caches.keys()
+      .then(names => Promise.all(
+        names.filter(n => n !== CACHE_NAME).map(n => caches.delete(n))
+      ))
+      .then(() => self.clients.claim())
   );
 });
 
-// Fetch event - network first for HTML/JS, cache fallback for others
+// Fetch - network first, cache fallback
 self.addEventListener('fetch', event => {
-  const url = new URL(event.request.url);
+  // Skip non-GET requests
+  if (event.request.method !== 'GET') return;
   
-  // Always fetch fresh for version file
-  if (url.pathname === '/version') {
+  // Always fetch version file fresh
+  if (event.request.url.includes('/version')) {
     event.respondWith(fetch(event.request));
     return;
   }
   
-  // Network first for HTML and JS files (to get updates quickly)
-  if (url.pathname.endsWith('.html') || url.pathname.endsWith('.js')) {
-    event.respondWith(
-      fetch(event.request)
-        .then(response => {
-          if (response && response.status === 200) {
-            const responseToCache = response.clone();
-            caches.open(CACHE_NAME).then(cache => {
-              cache.put(event.request, responseToCache);
-            });
-          }
-          return response;
-        })
-        .catch(() => caches.match(event.request))
-    );
-    return;
-  }
-  
-  // Cache first for other assets (images, etc.)
+  // Network first strategy
   event.respondWith(
-    caches.match(event.request)
+    fetch(event.request)
       .then(response => {
-        if (response) {
-          return response;
+        // Cache successful responses
+        if (response.ok) {
+          const clone = response.clone();
+          caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
         }
-        return fetch(event.request).then(response => {
-          if (!response || response.status !== 200 || event.request.method !== 'GET') {
-            return response;
-          }
-          const responseToCache = response.clone();
-          caches.open(CACHE_NAME).then(cache => {
-            cache.put(event.request, responseToCache);
-          });
-          return response;
-        });
+        return response;
       })
+      .catch(() => caches.match(event.request))
   );
-});
-
-// Listen for skip waiting message from client
-self.addEventListener('message', event => {
-  if (event.data && event.data.type === 'SKIP_WAITING') {
-    self.skipWaiting();
-  }
 });
