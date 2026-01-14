@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.23.8';
+const APP_VERSION = '18.23.9';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FURIGANA SYSTEM ==========
@@ -9407,10 +9407,12 @@ function displayWelcomeCoach(answeredCount) {
   if (habitTracker) habitTracker.style.display = 'none';
   
   const detailsEl = document.getElementById('ai-coach-details');
+  const focusEl = document.getElementById('ai-coach-focus');
+  const reasonEl = document.getElementById('ai-coach-reason');
   
   // Show interactive onboarding questionnaire
-  document.getElementById('ai-coach-focus').textContent = getText('ai_coach_intro_title') || "I'm your AI Study Coach";
-  document.getElementById('ai-coach-reason').textContent = getText('ai_coach_intro_desc') || "I'll create a personalized roadmap to JLPT success. Let's get started!";
+  if (focusEl) focusEl.textContent = getText('ai_coach_intro_title') || "I'm your AI Study Coach";
+  if (reasonEl) reasonEl.textContent = getText('ai_coach_intro_desc') || "I'll create a personalized roadmap to JLPT success. Let's get started!";
   
   if (detailsEl) {
     detailsEl.style.display = 'block';
