@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '19.1.9';
+const APP_VERSION = '19.1.10';
 const STORAGE_KEY = 'fujisan_v1820';
 const PROGRESS_KEY_PREFIX = 'fujisan_progress_';
 

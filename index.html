@@ -2543,7 +2543,7 @@
                     </div>
                     <div class="footer-bottom">
                         <div data-i18n="footer_copyright">© 2025 TORAIZ Inc. All rights reserved.</div>
-                        <div style="opacity:0.5;">v19.1.9</div>
+                        <div style="opacity:0.5;">v19.1.10</div>
                         <div data-i18n="footer_made">Made with ❤️ in Tokyo, Japan</div>
                     </div>
                 </footer>
@@ -3419,13 +3419,39 @@
                 return;
             }
             
+            // サインアップ中フラグを設定（onAuthStateChangedでapp.htmlへリダイレクトしないように）
+            state.isSigningUp = true;
+            
             const provider = new firebase.auth.GoogleAuthProvider();
             auth.signInWithPopup(provider)
-                .then(() => {
+                .then(async (userCredential) => {
+                    // Firestoreにユーザードキュメントを作成
+                    const user = userCredential.user;
+                    const now = new Date().toISOString();
+                    const trialEnd = new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString();
+                    
+                    // 既存ユーザーかチェック
+                    const userDoc = await db.collection('users').doc(user.uid).get();
+                    if (!userDoc.exists) {
+                        await db.collection('users').doc(user.uid).set({
+                            email: user.email,
+                            plan: state.selectedPlan.split('_')[0],
+                            billing: state.selectedPlan.split('_')[1],
+                            trialStart: now,
+                            trialEnd: trialEnd,
+                            planExpiry: trialEnd,
+                            createdAt: now,
+                            updatedAt: now
+                        });
+                    }
+                    
                     closeModal();
-                    redirectToStripe();
+                    redirectToStripe(user.uid);
                 })
-                .catch(err => showError('signupError', err.message));
+                .catch(err => {
+                    state.isSigningUp = false;
+                    showError('signupError', err.message);
+                });
         }
         
         function signupWithEmail() {
