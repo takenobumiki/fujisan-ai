@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.23.7';
+const APP_VERSION = '18.23.8';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FURIGANA SYSTEM ==========
@@ -7879,12 +7879,38 @@ function authLoginGoogle() {
     .catch(err => showAuthError('authLoginError', err.message));
 }
 
+// Auth billing state
+let authSelectedBilling = 'annual';
+
+function setAuthBilling(billing) {
+  authSelectedBilling = billing;
+  
+  // Update toggle buttons
+  document.getElementById('authBillingAnnual').classList.toggle('active', billing === 'annual');
+  document.getElementById('authBillingMonthly').classList.toggle('active', billing === 'monthly');
+  
+  // Show/hide prices
+  document.querySelectorAll('.auth-price-annual').forEach(el => {
+    el.classList.toggle('hidden', billing !== 'annual');
+  });
+  document.querySelectorAll('.auth-price-monthly').forEach(el => {
+    el.classList.toggle('hidden', billing !== 'monthly');
+  });
+}
+
+function getSelectedAuthPlan() {
+  const selectedRadio = document.querySelector('input[name="authPlan"]:checked');
+  const plan = selectedRadio ? selectedRadio.value : 'standard';
+  return plan + '_' + authSelectedBilling;
+}
+
 function authSignup() {
   const email = document.getElementById('authSignupEmail').value.trim();
   const password = document.getElementById('authSignupPassword').value;
   const ageCheck = document.getElementById('authAgeCheck').checked;
   const termsCheck = document.getElementById('authTermsCheck').checked;
   const renewalCheck = document.getElementById('authRenewalCheck').checked;
+  const selectedPlanKey = getSelectedAuthPlan();
   
   if (!email) {
     showAuthError('authSignupError', 'Please enter your email');
@@ -7922,8 +7948,8 @@ function authSignup() {
       
       closeAuthModal();
       FujisanAnalytics.trackSignUp('email');
-      // After signup, redirect to Stripe for subscription
-      redirectToStripeCheckout(email);
+      // After signup, redirect to Stripe with selected plan
+      redirectToStripeCheckoutWithPlanKey(email, selectedPlanKey, userCredential.user.uid);
     })
     .catch(err => {
       let msg = 'Signup failed. Please try again.';
@@ -7938,6 +7964,7 @@ function authSignupGoogle() {
   const ageCheck = document.getElementById('authAgeCheck').checked;
   const termsCheck = document.getElementById('authTermsCheck').checked;
   const renewalCheck = document.getElementById('authRenewalCheck').checked;
+  const selectedPlanKey = getSelectedAuthPlan();
   
   if (!ageCheck) {
     showAuthError('authSignupError', 'You must be 13 years or older');
@@ -7968,8 +7995,8 @@ function authSignupGoogle() {
       
       closeAuthModal();
       FujisanAnalytics.trackSignUp('google');
-      // After signup, redirect to Stripe for subscription
-      redirectToStripeCheckout(result.user.email);
+      // After signup, redirect to Stripe with selected plan
+      redirectToStripeCheckoutWithPlanKey(result.user.email, selectedPlanKey, result.user.uid);
     })
     .catch(err => showAuthError('authSignupError', err.message));
 }
@@ -8023,6 +8050,24 @@ function redirectToStripeCheckout(email, plan = 'standard', billing = 'annual') 
       params.set('client_reference_id', currentUser.uid);
     }
     
+    window.location.href = stripeLink + '?' + params.toString();
+  }
+}
+
+// Redirect to Stripe with pre-selected plan key (e.g., 'standard_annual')
+function redirectToStripeCheckoutWithPlanKey(email, planKey, uid) {
+  const stripeLink = STRIPE_LINKS[planKey] || STRIPE_LINKS['standard_annual'];
+  
+  if (stripeLink) {
+    const params = new URLSearchParams();
+    params.set('prefilled_email', email);
+    
+    // Firebase UID を client_reference_id として渡す（Webhookでユーザー特定）
+    if (uid) {
+      params.set('client_reference_id', uid);
+    }
+    
+    console.log('[Stripe] Redirecting to:', planKey);
     window.location.href = stripeLink + '?' + params.toString();
   }
 }

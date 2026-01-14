@@ -2060,3 +2060,124 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
 .plan-select-card.featured:hover {
   background: linear-gradient(135deg, rgba(102,126,234,0.1), rgba(118,75,162,0.1));
 }
+
+/* Auth Plan Selection */
+.auth-plan-section {
+  background: var(--bg);
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 16px;
+}
+
+.auth-plan-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.auth-billing-toggle {
+  display: flex;
+  gap: 4px;
+  background: var(--card);
+  padding: 3px;
+  border-radius: 8px;
+}
+
+.auth-billing-btn {
+  padding: 4px 10px;
+  border: none;
+  background: transparent;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.auth-billing-btn.active {
+  background: var(--primary);
+  color: white;
+}
+
+.auth-plan-options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.auth-plan-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  background: var(--card);
+  border: 2px solid transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+}
+
+.auth-plan-option:hover {
+  border-color: var(--border);
+}
+
+.auth-plan-option:has(input:checked) {
+  border-color: var(--primary);
+  background: rgba(102, 126, 234, 0.05);
+}
+
+.auth-plan-option.recommended {
+  border-color: rgba(102, 126, 234, 0.3);
+}
+
+.auth-plan-option input[type="radio"] {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--primary);
+  flex-shrink: 0;
+}
+
+.auth-plan-badge {
+  position: absolute;
+  top: -8px;
+  right: 10px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  font-size: 9px;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 6px;
+}
+
+.auth-plan-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.auth-plan-name {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.auth-plan-desc {
+  font-size: 11px;
+  color: var(--text-tertiary);
+}
+
+.auth-plan-price {
+  text-align: right;
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--primary);
+}
+
+.auth-plan-price small {
+  font-weight: 400;
+  font-size: 10px;
+  color: var(--text-tertiary);
+}
