@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.24.7';
+const APP_VERSION = '18.23.7';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FURIGANA SYSTEM ==========
@@ -108,62 +108,107 @@ function addFuriganaToOptions(options, level) {
   return options;
 }
 
-// ========== SIMPLE UPDATE SYSTEM ==========
-// Only check once per session, no loops
-const UPDATE_CHECK_KEY = 'fujisan_update_checked_' + APP_VERSION;
-
+// ========== FORCE UPDATE SYSTEM ==========
+// Check for updates on app load
 async function checkForUpdates() {
-  // Skip if already checked this session for this version
-  if (sessionStorage.getItem(UPDATE_CHECK_KEY)) {
-    console.log('[Update] Already checked this session');
-    return;
-  }
-  
-  // Mark as checked immediately to prevent loops
-  sessionStorage.setItem(UPDATE_CHECK_KEY, 'true');
-  
   try {
+    // Fetch server version with cache-busting
     const res = await fetch('/version?t=' + Date.now(), { cache: 'no-store' });
     if (!res.ok) return;
     
     const serverVersion = (await res.text()).trim();
     console.log('[Update] Local:', APP_VERSION, 'Server:', serverVersion);
     
-    // Simple version comparison
-    if (serverVersion && serverVersion !== APP_VERSION) {
-      console.log('[Update] New version available:', serverVersion);
-      // Just clear caches and reload once
-      await clearCachesAndReload();
+    // Compare versions (ignore suffixes like "-rebuild")
+    const localClean = APP_VERSION.replace(/-.*$/, '');
+    const serverClean = serverVersion.replace(/-.*$/, '');
+    
+    if (serverClean && serverClean !== localClean) {
+      console.log('[Update] Version mismatch, forcing update...');
+      await forceUpdate();
     }
   } catch(e) {
     console.log('[Update] Check failed:', e.message);
   }
 }
 
-// Simple cache clear and reload
-async function clearCachesAndReload() {
+// Force update: clear all caches and reload
+async function forceUpdate() {
+  // Show update notification
+  showUpdateNotification();
+  
   try {
-    // Clear service worker
+    // 1. Unregister service worker
     if ('serviceWorker' in navigator) {
-      const regs = await navigator.serviceWorker.getRegistrations();
-      await Promise.all(regs.map(r => r.unregister()));
+      const registrations = await navigator.serviceWorker.getRegistrations();
+      for (const registration of registrations) {
+        await registration.unregister();
+        console.log('[Update] Service Worker unregistered');
+      }
     }
     
-    // Clear caches
+    // 2. Clear all caches
     if ('caches' in window) {
-      const names = await caches.keys();
-      await Promise.all(names.map(n => caches.delete(n)));
+      const cacheNames = await caches.keys();
+      await Promise.all(cacheNames.map(name => {
+        console.log('[Update] Deleting cache:', name);
+        return caches.delete(name);
+      }));
     }
     
-    // Reload after brief delay
-    setTimeout(() => window.location.reload(true), 500);
+    // 3. Clear localStorage version marker (but keep user data)
+    localStorage.removeItem('fujisan_app_version');
+    
+    // 4. Hard reload after short delay
+    setTimeout(() => {
+      window.location.reload(true);
+    }, 1000);
+    
   } catch(e) {
+    console.error('[Update] Force update failed:', e);
+    // Fallback: just reload
     window.location.reload(true);
   }
 }
 
-// Check once on load (with delay)
-setTimeout(checkForUpdates, 2000);
+// Show update notification overlay
+function showUpdateNotification() {
+  const overlay = document.createElement('div');
+  overlay.id = 'update-overlay';
+  overlay.innerHTML = `
+    <div style="position:fixed;inset:0;background:rgba(0,0,0,0.8);display:flex;align-items:center;justify-content:center;z-index:99999;">
+      <div style="background:#fff;padding:32px;border-radius:16px;text-align:center;max-width:300px;">
+        <div style="font-size:48px;margin-bottom:16px;">🔄</div>
+        <div style="font-size:18px;font-weight:600;margin-bottom:8px;">Updating Fujisan.AI</div>
+        <div style="font-size:14px;color:#666;">Please wait...</div>
+        <div style="margin-top:16px;width:100%;height:4px;background:#eee;border-radius:2px;overflow:hidden;">
+          <div style="width:100%;height:100%;background:linear-gradient(90deg,#667eea,#764ba2);animation:loading 1s ease-in-out infinite;"></div>
+        </div>
+      </div>
+    </div>
+    <style>@keyframes loading{0%{transform:translateX(-100%)}100%{transform:translateX(100%)}}</style>
+  `;
+  document.body.appendChild(overlay);
+}
+
+// Listen for Service Worker update messages
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.addEventListener('message', event => {
+    if (event.data && event.data.type === 'SW_UPDATED') {
+      console.log('[SW] Updated to version:', event.data.version);
+      if (event.data.version !== APP_VERSION) {
+        forceUpdate();
+      }
+    }
+  });
+}
+
+// Run update check when DOM is ready
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', () => setTimeout(checkForUpdates, 1000));
+} else {
+  setTimeout(checkForUpdates, 1000);
+}
 
 // ========== UI TRANSLATIONS ==========
 const UI_TEXTS = {
@@ -247,7 +292,7 @@ const UI_TEXTS = {
     trial_desc: 'Get <strong>full access</strong> to all JLPT levels, Mock Tests, and AI Tutor for <strong>7 days free</strong>.',
     trial_f1: 'All N5-N1 vocabulary, kanji & grammar', trial_f2: '20 full Mock Tests per level',
     trial_f3: 'AI Tutor explains every mistake', trial_f4: 'Cancel anytime before trial ends',
-    trial_start: 'Start 7-Day Free Trial', trial_note: '7-day free trial • Cancel anytime', trial_later: 'Maybe Later',
+    trial_start: 'Start 7-Day Free Trial', trial_note: '7-day free trial • Cancel anytime',
     // Trial success message
     trial_welcome: '🎉 Welcome! Your 7-day free trial of {plan} ({billing}) plan has started. All features are unlocked!',
     billing_annual: 'Annual', billing_monthly: 'Monthly',
@@ -2031,68 +2076,34 @@ function getCategoryKey() {
 }
 
 // ========== STRIPE LINKS ==========
-// Stripe Customer Portal URL (for managing subscriptions / cancellation)
-const STRIPE_CUSTOMER_PORTAL = 'https://billing.stripe.com/p/login/4gMeVeaF65YGaKD3Ma6g800';
+const STRIPE_LINKS = {
+  basic_monthly: 'https://buy.stripe.com/4gMeVeaF65YGaKD3Ma6g800',
+  basic_annual: 'https://buy.stripe.com/dRm3cwbJa72K1a36Ym6g801',
+  standard_monthly: 'https://buy.stripe.com/5kQ6oIeVmgDk4mffuS6g802',
+  standard_annual: 'https://buy.stripe.com/eVq4gA14w72KaKD4Qe6g803',
+  premium_monthly: 'https://buy.stripe.com/dRm8wQeVmcn4f0T3Ma6g804',
+  premium_annual: 'https://buy.stripe.com/00w14ofZq72Kg4X6Ym6g805'
+};
 
-// LP URL for subscription (all subscription flows go through LP)
-const SUBSCRIPTION_LP_URL = 'https://fujisan.ai/#pricing';
+// Stripe Customer Portal URL (for managing subscriptions / cancellation)
+const STRIPE_CUSTOMER_PORTAL = 'https://billing.stripe.com/p/login/5kA00lgSR1gg4Le8ww';
 
 // ========== REFERRAL SYSTEM ==========
 const REFERRAL_CODES = ['REF001', 'REF002', 'REF003', 'REF004', 'REF005', 'REF006', 'REF007', 'REF008', 'REF009', 'REF010'];
 
-// Calculate check digit using Luhn-like algorithm
-function calculateCheckDigit(code) {
-  const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'; // Exclude confusing chars: 0,O,1,I
-  let sum = 0;
-  for (let i = 0; i < code.length; i++) {
-    const idx = chars.indexOf(code[i]);
-    if (idx >= 0) {
-      sum += (i % 2 === 0) ? idx : idx * 2;
-    }
-  }
-  return chars[sum % chars.length];
-}
-
-// Validate referral code with check digit
-function isValidReferralCode(code) {
-  if (!code || code.length !== 8) return false;
-  const baseCode = code.substring(0, 7);
-  const checkDigit = code.substring(7, 8);
-  return calculateCheckDigit(baseCode) === checkDigit;
-}
-
-// Generate unique referral code with check digit
+// Generate unique referral code for user
 function generateUniqueReferralCode() {
-  const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'; // Exclude confusing chars
-  let code = 'FJ'; // Prefix
-  
-  // Generate 5 random characters
-  for (let i = 0; i < 5; i++) {
-    code += chars[Math.floor(Math.random() * chars.length)];
-  }
-  
-  // Add check digit
-  code += calculateCheckDigit(code);
-  
-  return code; // Format: FJ + 5 random + 1 check = 8 chars (e.g., FJK8X2P4)
+  // Use userId if available, otherwise create random
+  const base = state.userId ? state.userId.substring(0, 6).toUpperCase() : '';
+  const random = Math.random().toString(36).substring(2, 6).toUpperCase();
+  return 'FJ' + (base || random) + random.substring(0, 2);
 }
 
 // Get user's assigned referral code (for now, based on user index or manual assignment)
 function getMyReferralCode() {
   // Check if already assigned
   let myCode = localStorage.getItem('fujisan_my_referral_code');
-  
-  // Validate existing code - if old format, regenerate
-  if (myCode && myCode !== 'Coming Soon') {
-    // Check if it's the new format (8 chars, starts with FJ, valid check digit)
-    if (myCode.length === 8 && myCode.startsWith('FJ') && isValidReferralCode(myCode)) {
-      return myCode;
-    }
-    // Old format detected - clear and regenerate
-    console.log('[Referral] Old format detected, regenerating:', myCode);
-    localStorage.removeItem('fujisan_my_referral_code');
-    myCode = null;
-  }
+  if (myCode && myCode !== 'Coming Soon') return myCode;
   
   // Generate unique code based on userId or random
   if (state.userId) {
@@ -2100,8 +2111,8 @@ function getMyReferralCode() {
     localStorage.setItem('fujisan_my_referral_code', myCode);
     
     // Also save to Firestore for tracking
-    if (typeof firebaseDb !== 'undefined' && firebaseDb) {
-      firebaseDb.collection('users').doc(state.userId).set({
+    if (typeof db !== 'undefined') {
+      db.collection('users').doc(state.userId).set({
         referralCode: myCode,
         referralCodeCreatedAt: firebase.firestore.FieldValue.serverTimestamp()
       }, { merge: true }).catch(e => console.log('Could not save referral code:', e));
@@ -2126,16 +2137,8 @@ function getMyReferralCode() {
 
 // Handle incoming referral code from URL
 async function handleReferralCode(refCode) {
-  // Validate referral code format and check digit
+  // Validate referral code format
   if (!refCode || refCode.length < 3) return;
-  
-  // Check digit validation for new format codes (8 chars starting with FJ)
-  if (refCode.length === 8 && refCode.startsWith('FJ')) {
-    if (!isValidReferralCode(refCode)) {
-      console.log('Invalid referral code (check digit failed):', refCode);
-      return;
-    }
-  }
   
   // Don't allow self-referral
   const myCode = localStorage.getItem('fujisan_my_referral_code');
@@ -3601,7 +3604,7 @@ async function startUnitDrill(unitIndex) {
   
   // All levels require valid subscription or trial
   if (!hasValidPlan() && !isInTrialPeriod()) {
-    showSubscriptionRequiredModal();
+    window.location.href = 'https://fujisan.ai/#pricing';
     return;
   }
   
@@ -4067,7 +4070,7 @@ function updateSrsDisplay() {
 async function startDrill() {
   // All levels require valid subscription or trial
   if (!hasValidPlan() && !isInTrialPeriod()) {
-    showSubscriptionRequiredModal();
+    window.location.href = 'https://fujisan.ai/#pricing';
     return;
   }
   
@@ -5324,9 +5327,9 @@ function showMockQuestion() {
   // Update progress
   document.getElementById('mock-progress').textContent = `${mockState.current + 1}/${mockState.questions.length}`;
   
-  // Update section header (use innerHTML to render ruby tags)
-  document.getElementById('mockSectionCurrent').innerHTML = q.section || '';
-  document.getElementById('mockSubsectionCurrent').innerHTML = (q.subsection || q.type || '').replace('_', ' ');
+  // Update section header
+  document.getElementById('mockSectionCurrent').textContent = q.section;
+  document.getElementById('mockSubsectionCurrent').textContent = (q.subsection || q.type || '').replace('_', ' ');
   
   // Get instruction based on subsection
   const instruction = getMockInstruction(q.subsection || q.type);
@@ -6393,18 +6396,15 @@ function updateSettingsUI() {
 }
 
 // ========== PLAN SYSTEM ==========
-function openSubscriptionModal() { 
-  // Redirect to LP for subscription
-  window.location.href = SUBSCRIPTION_LP_URL;
-}
-function closeSubscriptionModal() { 
-  // Legacy - now just redirects
-  window.location.href = SUBSCRIPTION_LP_URL;
-}
+function openSubscriptionModal() { document.getElementById('subscriptionModal').classList.remove('hidden'); }
+function closeSubscriptionModal() { document.getElementById('subscriptionModal').classList.add('hidden'); }
 
 function selectPlan(plan) {
-  // Redirect to LP for subscription
-  window.location.href = SUBSCRIPTION_LP_URL;
+  // Default to annual plan
+  const linkKey = plan + '_annual';
+  if (STRIPE_LINKS[linkKey]) {
+    window.location.href = STRIPE_LINKS[linkKey];
+  }
 }
 
 /**
@@ -6421,14 +6421,36 @@ function checkPlanFromURL() {
   const params = new URLSearchParams(window.location.search);
   const refCode = params.get('ref');
   const fromCheckout = params.get('from_checkout');
+  const status = params.get('status');
+  const plan = params.get('plan');
+  const billing = params.get('billing');
   
   // Handle referral code: ?ref=XXX
   if (refCode && !state.referredBy) {
     handleReferralCode(refCode);
   }
   
-  // Stripeからのリダイレクト時（表示用）
-  // 実際のプラン情報はWebhook → Firestore → syncUserData()で取得
+  // Stripeからのリダイレクト時（status=success）
+  if (status === 'success') {
+    console.log('[Checkout] Returned from Stripe with success');
+    
+    // コンバージョントラッキング（Google Ads）
+    const purchasePlan = plan || 'standard';
+    const purchaseBilling = billing || 'annual';
+    const price = getPriceForPlan(purchasePlan, purchaseBilling);
+    
+    FujisanAnalytics.trackPurchase(purchasePlan, price, 'USD', params.get('session_id') || '');
+    console.log('[Analytics] Purchase conversion tracked:', purchasePlan, purchaseBilling, price);
+    
+    // URLをクリーンに
+    window.history.replaceState({}, '', window.location.pathname);
+    
+    // ウェルカムメッセージは syncUserData() 完了後に表示
+    state.showWelcomeMessage = true;
+    saveState();
+  }
+  
+  // 旧形式のリダイレクト対応（from_checkout=success）
   if (fromCheckout === 'success') {
     console.log('[Checkout] Returned from Stripe - subscription will be synced from Firestore');
     
@@ -6439,6 +6461,18 @@ function checkPlanFromURL() {
     state.showWelcomeMessage = true;
     saveState();
   }
+}
+
+/**
+ * プランと課金周期から価格を取得
+ */
+function getPriceForPlan(plan, billing) {
+  const prices = {
+    basic: { monthly: 7.99, annual: 47.99 },
+    standard: { monthly: 14.99, annual: 89.99 },
+    premium: { monthly: 29.99, annual: 179.99 }
+  };
+  return prices[plan]?.[billing] || 89.99;
 }
 
 // ========== STORAGE ==========
@@ -6474,37 +6508,34 @@ function isTrialActive() {
 }
 
 function isInTrialPeriod() {
-  // Check if user is in active trial
+  // Check if user is in the trial period (first 7 days after signup)
+  if (!state.plan || !state.planExpiry) return false;
   const now = new Date();
+  const expiry = new Date(state.planExpiry);
   
-  // Method 1: Check trialEndDate directly (primary method for Stripe trials)
+  // Method 1: Check trialEndDate if available
   if (state.trialEndDate) {
     const trialEnd = new Date(state.trialEndDate);
-    if (now < trialEnd) {
-      console.log('[Trial] Active via trialEndDate:', state.trialEndDate);
-      return true;
-    }
+    if (now < trialEnd) return true;
   }
   
-  // Method 2: If isTrialing flag is set
-  if (state.isTrialing === true) {
-    // If we have planExpiry, check it
-    if (state.planExpiry) {
-      const expiry = new Date(state.planExpiry);
-      if (now < expiry) return true;
-    } else {
-      // Just trust the isTrialing flag if no expiry set
-      return true;
-    }
+  // Method 2: If isTrialing flag is set, use it
+  if (state.isTrialing === true && now < expiry) return true;
+  
+  // Method 3: Check planStartDate + 7 days
+  if (state.planStartDate) {
+    const planStart = new Date(state.planStartDate);
+    const trialEnd = new Date(planStart.getTime() + 7 * 24 * 60 * 60 * 1000);
+    if (now < trialEnd) return true;
   }
   
-  // Method 3: Legacy check with planExpiry
-  if (state.plan && state.planExpiry) {
-    const expiry = new Date(state.planExpiry);
-    const daysUntilExpiry = (expiry - now) / (1000 * 60 * 60 * 24);
-    if (daysUntilExpiry > 0 && daysUntilExpiry <= 7) {
-      return true;
-    }
+  // Method 4: Fallback for monthly plans (expiry is ~30 days, so check if within first 7 days)
+  // For annual plans, this won't work since expiry is 365 days away
+  const daysUntilExpiry = (expiry - now) / (1000 * 60 * 60 * 24);
+  
+  // If expiry is 7 days or less (trial-only period)
+  if (state.plan && daysUntilExpiry > 0 && daysUntilExpiry <= 7) {
+    return true;
   }
   
   return false;
@@ -6567,29 +6598,95 @@ function showUpgradeModal(feature, requiredPlan) {
 }
 
 function showSubscriptionRequiredModal() {
-  // Redirect to LP for subscription
-  // All subscription flows now go through the landing page
-  const isReturning = state.isExpiredUser;
-  
-  if (isReturning) {
-    // Returning user
-    if (confirm('👋 Welcome Back!\n\nYour subscription has expired. Your learning data is still saved.\n\nGo to subscription page to reactivate?')) {
-      window.location.href = SUBSCRIPTION_LP_URL;
+  const modal = document.getElementById('subscriptionRequiredModal');
+  if (modal) {
+    // Update modal content based on user status
+    const titleEl = modal.querySelector('.modal-title');
+    const subtitleEl = modal.querySelector('.subscription-modal-subtitle');
+    const noteEl = document.getElementById('trialNote');
+    const returningNotice = document.getElementById('returningUserNotice');
+    
+    if (state.isExpiredUser) {
+      // Returning user (previously subscribed, now expired)
+      if (titleEl) titleEl.textContent = 'Welcome Back!';
+      if (subtitleEl) subtitleEl.textContent = 'Reactivate your subscription';
+      if (noteEl) noteEl.innerHTML = '💳 Subscription starts immediately • Your progress is saved';
+      if (returningNotice) returningNotice.classList.remove('hidden');
     } else {
-      logout();
+      // New user
+      if (titleEl) titleEl.textContent = 'Start Your Free Trial';
+      if (subtitleEl) subtitleEl.textContent = '7-day free trial • Cancel anytime';
+      if (noteEl) noteEl.innerHTML = '💳 Card required • No charge until trial ends';
+      if (returningNotice) returningNotice.classList.add('hidden');
     }
+    
+    modal.classList.remove('hidden');
   } else {
-    // New user
-    if (confirm('🔒 Subscription Required\n\nStart your 7-day free trial to access all JLPT levels, Mock Tests, and AI Tutor.\n\nNo charge until trial ends. Cancel anytime.\n\nGo to subscription page?')) {
-      window.location.href = SUBSCRIPTION_LP_URL;
+    // Fallback if modal doesn't exist
+    if (state.isExpiredUser) {
+      if (confirm('👋 Welcome Back!\n\nYour subscription has expired. Your learning data is still saved.\n\n⚠️ As a returning user, subscriptions start immediately (no free trial).\n\nSubscribe now to continue?')) {
+        const email = currentUser?.email || '';
+        redirectToStripeCheckout(email);
+      }
     } else {
-      logout();
+      if (confirm('🔒 Start Your Free Trial\n\nGet full access to all JLPT levels, Mock Tests, and AI Tutor for 7 days free.\n\nNo charge until trial ends. Cancel anytime.\n\nStart free trial now?')) {
+        const email = currentUser?.email || '';
+        redirectToStripeCheckout(email);
+      }
     }
   }
 }
 
+function goToStripeFromModal() {
+  const email = currentUser?.email || '';
+  redirectToStripeCheckout(email);
+}
+
+// Plan selection state
+let selectedBilling = 'annual';
+
+function setBilling(billing) {
+  selectedBilling = billing;
+  
+  // Update toggle buttons
+  document.getElementById('billingAnnual').classList.toggle('active', billing === 'annual');
+  document.getElementById('billingMonthly').classList.toggle('active', billing === 'monthly');
+  
+  // Show/hide prices
+  document.querySelectorAll('.plan-price-annual').forEach(el => {
+    el.classList.toggle('hidden', billing !== 'annual');
+  });
+  document.querySelectorAll('.plan-price-monthly').forEach(el => {
+    el.classList.toggle('hidden', billing !== 'monthly');
+  });
+}
+
+function selectPlanAndGo(plan) {
+  const email = currentUser?.email || '';
+  const linkKey = plan + '_' + selectedBilling;
+  const stripeLink = STRIPE_LINKS[linkKey];
+  
+  if (stripeLink) {
+    // Track plan selection
+    FujisanAnalytics.trackPurchaseStart(plan, 0, 'USD');
+    
+    // Build URL with client_reference_id for Webhook
+    const params = new URLSearchParams();
+    params.set('prefilled_email', email);
+    if (currentUser?.uid) {
+      params.set('client_reference_id', currentUser.uid);
+    }
+    
+    window.location.href = stripeLink + '?' + params.toString();
+  } else {
+    console.error('Stripe link not found:', linkKey);
+  }
+}
+
 function closeSubscriptionRequiredModal() {
-  // Legacy function - now just logs out if no subscription
+  const modal = document.getElementById('subscriptionRequiredModal');
+  if (modal) modal.classList.add('hidden');
+  // If no subscription, log out and show auth
   if (!hasValidSubscription() && !isInTrialPeriod()) {
     logout();
   }
@@ -7630,12 +7727,24 @@ const FujisanAnalytics = {
 
   // Purchase complete
   trackPurchase: function(plan, price, currency, transactionId) {
+    // Firebase Analytics
     this.logEvent('purchase', {
       plan: plan,
       value: price,
       currency: currency || 'USD',
       transaction_id: transactionId
     });
+    
+    // Google Ads コンバージョン
+    if (typeof gtag === 'function') {
+      gtag('event', 'conversion', {
+        'send_to': 'AW-16752515498/purchase', // TODO: 実際のコンバージョンラベルに置き換え
+        'value': price,
+        'currency': currency || 'USD',
+        'transaction_id': transactionId
+      });
+      console.log('[Google Ads] Purchase conversion sent:', plan, price);
+    }
   },
 
   // Trial started
@@ -7813,8 +7922,8 @@ function authSignup() {
       
       closeAuthModal();
       FujisanAnalytics.trackSignUp('email');
-      // After signup, redirect to LP for subscription
-      window.location.href = SUBSCRIPTION_LP_URL;
+      // After signup, redirect to Stripe for subscription
+      redirectToStripeCheckout(email);
     })
     .catch(err => {
       let msg = 'Signup failed. Please try again.';
@@ -7859,8 +7968,8 @@ function authSignupGoogle() {
       
       closeAuthModal();
       FujisanAnalytics.trackSignUp('google');
-      // After signup, redirect to LP for subscription
-      window.location.href = SUBSCRIPTION_LP_URL;
+      // After signup, redirect to Stripe for subscription
+      redirectToStripeCheckout(result.user.email);
     })
     .catch(err => showAuthError('authSignupError', err.message));
 }
@@ -7887,6 +7996,35 @@ function authResetPassword() {
       else if (err.code === 'auth/invalid-email') msg = 'Invalid email format';
       showAuthError('authResetError', msg);
     });
+}
+
+/**
+ * Redirect to Stripe Checkout
+ * 
+ * Payment Linkに渡すパラメータ:
+ * - prefilled_email: ユーザーのメールアドレス
+ * - client_reference_id: Firebase UID (Webhookでユーザー特定に使用)
+ * 
+ * 注意: Stripe DashboardでPayment Linkの設定が必要:
+ * 1. success_url: https://fujisan.ai/app.html?from_checkout=success
+ * 2. cancel_url: https://fujisan.ai/cancel.html
+ * 3. client_reference_id を許可
+ */
+function redirectToStripeCheckout(email, plan = 'standard', billing = 'annual') {
+  const linkKey = plan + '_' + billing;
+  const stripeLink = STRIPE_LINKS[linkKey] || STRIPE_LINKS['standard_annual'];
+  
+  if (stripeLink) {
+    const params = new URLSearchParams();
+    params.set('prefilled_email', email);
+    
+    // Firebase UID を client_reference_id として渡す（Webhookでユーザー特定）
+    if (currentUser?.uid) {
+      params.set('client_reference_id', currentUser.uid);
+    }
+    
+    window.location.href = stripeLink + '?' + params.toString();
+  }
 }
 
 // Check if user has valid subscription (logged in + has plan with valid expiry)
@@ -7947,16 +8085,15 @@ function initFirebase() {
           // User has active subscription or trial
           showScreen('drill');
         } else {
-          // User logged in but no subscription - show subscription modal
-          hideAppLoadingOverlay();
-          showSubscriptionRequiredModal();
+          // User logged in but no subscription - redirect to LP
+          console.log('No subscription - redirecting to LP');
+          window.location.href = 'https://fujisan.ai/#pricing';
           return;
         }
       } else {
-        // Not logged in - show auth modal
-        console.log('User not logged in - showing auth modal');
-        hideAppLoadingOverlay();
-        showAuthModal('signup');
+        // Not logged in - redirect to LP
+        console.log('User not logged in - redirecting to LP');
+        window.location.href = 'https://fujisan.ai/';
         return;
       }
       // Hide loading overlay with smooth fade
