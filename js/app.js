@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.23.9';
+const APP_VERSION = '18.23.10';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FURIGANA SYSTEM ==========
@@ -134,6 +134,13 @@ async function checkForUpdates() {
 
 // Force update: clear all caches and reload
 async function forceUpdate() {
+  // Prevent multiple calls
+  if (window._forceUpdateCalled) {
+    console.log('[Update] Already updating, skipping...');
+    return;
+  }
+  window._forceUpdateCalled = true;
+  
   // Show update notification
   showUpdateNotification();
   
@@ -192,11 +199,14 @@ function showUpdateNotification() {
 }
 
 // Listen for Service Worker update messages
+let isUpdating = false;
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.addEventListener('message', event => {
     if (event.data && event.data.type === 'SW_UPDATED') {
-      console.log('[SW] Updated to version:', event.data.version);
-      if (event.data.version !== APP_VERSION) {
+      console.log('[SW] Updated to version:', event.data.version, 'Local:', APP_VERSION);
+      // Only update if versions differ AND not already updating
+      if (event.data.version !== APP_VERSION && !isUpdating) {
+        isUpdating = true;
         forceUpdate();
       }
     }
