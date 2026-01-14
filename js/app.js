@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '19.1.0';
+const APP_VERSION = '19.1.1';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FURIGANA SYSTEM ==========
@@ -8123,9 +8123,13 @@ function initFirebase() {
         // Sync user data from Firestore
         await syncUserData();
         
+        // Check if returned from Stripe checkout
+        const params = new URLSearchParams(window.location.search);
+        const fromCheckout = params.get('from_checkout') === 'success' || params.get('status') === 'success';
+        
         // Check if user has valid subscription
-        if (hasValidSubscription() || isInTrialPeriod()) {
-          // User has active subscription or trial
+        if (hasValidSubscription() || isInTrialPeriod() || fromCheckout) {
+          // User has active subscription, trial, or just completed checkout
           showScreen('drill');
         } else {
           // User logged in but no subscription - redirect to LP
