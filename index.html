@@ -2542,7 +2542,7 @@
                     </div>
                     <div class="footer-bottom">
                         <div data-i18n="footer_copyright">© 2025 TORAIZ Inc. All rights reserved.</div>
-                        <div style="opacity:0.5;">v19.1.4</div>
+                        <div style="opacity:0.5;">v19.1.5</div>
                         <div data-i18n="footer_made">Made with ❤️ in Tokyo, Japan</div>
                     </div>
                 </footer>
@@ -3044,10 +3044,12 @@
         // Initialize Firebase
         let auth;
         let isFirebaseReady = false;
+        let db = null;
         
         try {
             firebase.initializeApp(firebaseConfig);
             auth = firebase.auth();
+            db = firebase.firestore();
             isFirebaseReady = true;
         } catch (e) {
             console.log('Firebase not configured - running in demo mode');
