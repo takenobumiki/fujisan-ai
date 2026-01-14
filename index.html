@@ -3441,9 +3441,25 @@
             }
             
             auth.createUserWithEmailAndPassword(email, password)
-                .then(() => {
+                .then(async (userCredential) => {
+                    // Firestoreにユーザードキュメントを作成
+                    const user = userCredential.user;
+                    const now = new Date().toISOString();
+                    const trialEnd = new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString();
+                    
+                    await db.collection('users').doc(user.uid).set({
+                        email: user.email,
+                        plan: state.selectedPlan.split('_')[0], // 'basic', 'standard', or 'premium'
+                        billing: state.selectedPlan.split('_')[1], // 'monthly' or 'annual'
+                        trialStart: now,
+                        trialEnd: trialEnd,
+                        planExpiry: trialEnd,
+                        createdAt: now,
+                        updatedAt: now
+                    });
+                    
                     closeModal();
-                    redirectToStripe();
+                    redirectToStripe(user.uid);
                 })
                 .catch(err => showError('signupError', err.message));
         }
@@ -3468,10 +3484,14 @@
             return true;
         }
         
-        function redirectToStripe() {
+        function redirectToStripe(uid) {
             const link = STRIPE_CONFIG.paymentLinks[state.selectedPlan];
-            const email = state.user?.email || '';
-            window.location.href = link + '?prefilled_email=' + encodeURIComponent(email);
+            const email = auth.currentUser?.email || state.user?.email || '';
+            let url = link + '?prefilled_email=' + encodeURIComponent(email);
+            if (uid) {
+                url += '&client_reference_id=' + uid;
+            }
+            window.location.href = url;
         }
         
         function logout() {
