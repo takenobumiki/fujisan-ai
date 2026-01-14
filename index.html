@@ -2543,7 +2543,7 @@
                     </div>
                     <div class="footer-bottom">
                         <div data-i18n="footer_copyright">© 2025 TORAIZ Inc. All rights reserved.</div>
-                        <div style="opacity:0.5;">v19.1.6</div>
+                        <div style="opacity:0.5;">v19.1.7</div>
                         <div data-i18n="footer_made">Made with ❤️ in Tokyo, Japan</div>
                     </div>
                 </footer>
@@ -3275,6 +3275,11 @@
                 auth.onAuthStateChanged(user => {
                     document.getElementById('loadingOverlay').style.display = 'none';
                     if (user) {
+                        // サインアップ中（Stripeへリダイレクト予定）はスキップ
+                        if (state.isSigningUp) {
+                            console.log('Signing up - skip redirect to app.html');
+                            return;
+                        }
                         // ログイン済みならapp.htmlへリダイレクト
                         window.location.href = 'app.html?logged_in=1';
                         return;
@@ -3445,6 +3450,9 @@
                 return;
             }
             
+            // サインアップ中フラグを設定（onAuthStateChangedでapp.htmlへリダイレクトしないように）
+            state.isSigningUp = true;
+            
             auth.createUserWithEmailAndPassword(email, password)
                 .then(async (userCredential) => {
                     // Firestoreにユーザードキュメントを作成
@@ -3490,12 +3498,21 @@
         }
         
         function redirectToStripe(uid) {
+            console.log('redirectToStripe called, selectedPlan:', state.selectedPlan);
             const link = STRIPE_CONFIG.paymentLinks[state.selectedPlan];
+            console.log('Stripe link:', link);
+            if (!link) {
+                console.error('No Stripe link found for plan:', state.selectedPlan);
+                // フォールバック: standard_monthlyにリダイレクト
+                window.location.href = 'https://buy.stripe.com/5kQ6oIeVmgDk4mffuS6g802?prefilled_email=' + encodeURIComponent(auth.currentUser?.email || '');
+                return;
+            }
             const email = auth.currentUser?.email || state.user?.email || '';
             let url = link + '?prefilled_email=' + encodeURIComponent(email);
             if (uid) {
                 url += '&client_reference_id=' + uid;
             }
+            console.log('Redirecting to:', url);
             window.location.href = url;
         }
         
