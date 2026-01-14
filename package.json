@@ -1,6 +1,6 @@
 {
   "name": "fujisan-ai",
-  "version": "19.1.7",
+  "version": "19.1.8",
   "private": true,
   "dependencies": {
     "stripe": "^14.0.0"
