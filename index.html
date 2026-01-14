@@ -2760,24 +2760,6 @@
                     <label class="form-label">Password (min 8 characters)</label>
                     <input type="password" class="form-input" id="signupPassword" placeholder="Create password">
                 </div>
-                <div class="form-group">
-                    <label class="form-label">Plan</label>
-                    <select class="form-input" id="planSelect" onchange="updateSelectedPlan()">
-                        <optgroup label="Basic - Learn & Practice">
-                            <option value="basic_monthly">Basic Monthly - $7.99/mo</option>
-                            <option value="basic_annual" selected>Basic Annual - $47.99/yr (Save 50%)</option>
-                        </optgroup>
-                        <optgroup label="Standard - + Mock Tests & AI">
-                            <option value="standard_monthly">Standard Monthly - $14.99/mo</option>
-                            <option value="standard_annual">Standard Annual - $89.99/yr (Save 50%)</option>
-                        </optgroup>
-                        <optgroup label="Premium - All Features">
-                            <option value="premium_monthly">Premium Monthly - $29.99/mo</option>
-                            <option value="premium_annual">Premium Annual - $179.99/yr (Save 50%)</option>
-                        </optgroup>
-                    </select>
-                </div>
-                
                 <div class="renewal-notice">
                     ⚠️ Your 7-day free trial will automatically convert to a paid subscription. Cancel anytime before to avoid charges.
                 </div>
@@ -3767,24 +3749,14 @@
         }
         
         function openSignupWithPlan(planValue) {
+            state.selectedPlan = planValue;
             openModal('signup');
-            // プランを選択状態にする
-            const planSelect = document.getElementById('planSelect');
-            if (planSelect) {
-                planSelect.value = planValue;
-                updateSelectedPlan();
-            }
         }
         
         function closeModal() {
             document.querySelectorAll('.modal-overlay').forEach(m => m.classList.remove('open'));
             document.querySelectorAll('.form-error').forEach(e => e.classList.add('hidden'));
             document.querySelectorAll('.form-success').forEach(e => e.classList.add('hidden'));
-        }
-        
-        function updateSelectedPlan() {
-            const select = document.getElementById('planSelect');
-            state.selectedPlan = select.value;
         }
         
         function toggleUserMenu() {

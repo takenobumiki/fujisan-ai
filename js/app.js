@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '19.0.0';
+const APP_VERSION = '19.1.0';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FURIGANA SYSTEM ==========
@@ -7893,25 +7893,13 @@ function authLoginGoogle() {
 let authSelectedBilling = 'annual';
 
 function setAuthBilling(billing) {
+  // プラン選択UIは削除されたため、この関数は何もしない
   authSelectedBilling = billing;
-  
-  // Update toggle buttons
-  document.getElementById('authBillingAnnual').classList.toggle('active', billing === 'annual');
-  document.getElementById('authBillingMonthly').classList.toggle('active', billing === 'monthly');
-  
-  // Show/hide prices
-  document.querySelectorAll('.auth-price-annual').forEach(el => {
-    el.classList.toggle('hidden', billing !== 'annual');
-  });
-  document.querySelectorAll('.auth-price-monthly').forEach(el => {
-    el.classList.toggle('hidden', billing !== 'monthly');
-  });
 }
 
 function getSelectedAuthPlan() {
-  const selectedRadio = document.querySelector('input[name="authPlan"]:checked');
-  const plan = selectedRadio ? selectedRadio.value : 'standard';
-  return plan + '_' + authSelectedBilling;
+  // LPでプラン選択済みのため、デフォルトでstandard_annualを使用
+  return 'standard_annual';
 }
 
 function authSignup() {
