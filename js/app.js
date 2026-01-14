@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '19.1.3';
+const APP_VERSION = '19.1.4';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FURIGANA SYSTEM ==========
@@ -8132,10 +8132,34 @@ function initFirebase() {
           // User has active subscription, trial, or just completed checkout
           showScreen('drill');
         } else {
-          // User logged in but no subscription - redirect to LP
-          console.log('No subscription - redirecting to LP');
-          window.location.href = 'https://fujisan.ai/#pricing';
-          return;
+          // User logged in but no subscription - auto-grant trial
+          console.log('No subscription - auto-granting trial');
+          const now = new Date();
+          const trialEnd = new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000);
+          state.trialStart = now.toISOString();
+          state.trialEnd = trialEnd.toISOString();
+          state.plan = 'standard';
+          state.planExpiry = trialEnd.toISOString();
+          saveState();
+          
+          // Also save to Firestore
+          if (firebaseDb && currentUser) {
+            try {
+              await firebaseDb.collection('users').doc(currentUser.uid).set({
+                trialStart: state.trialStart,
+                trialEnd: state.trialEnd,
+                plan: 'standard',
+                planExpiry: state.planExpiry,
+                email: currentUser.email,
+                updatedAt: now.toISOString()
+              }, { merge: true });
+              console.log('Trial saved to Firestore');
+            } catch (e) {
+              console.log('Failed to save trial to Firestore:', e);
+            }
+          }
+          
+          showScreen('drill');
         }
       } else {
         // Not logged in - redirect to LP
