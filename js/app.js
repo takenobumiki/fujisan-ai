@@ -1,6 +1,7 @@
 // ========== CONFIG ==========
-const APP_VERSION = '19.1.8';
+const APP_VERSION = '19.1.9';
 const STORAGE_KEY = 'fujisan_v1820';
+const PROGRESS_KEY_PREFIX = 'fujisan_progress_';
 
 // ========== FURIGANA SYSTEM ==========
 // 各レベルで学習済みとみなす漢字セット（そのレベルより下のレベルの漢字）
@@ -8711,7 +8712,6 @@ document.body.setAttribute('data-theme', state.level || 'N5');
 // ===== AI Coach (Adaptive Learning) =====
 const AI_COACH_CACHE_KEY = 'fujisan_ai_coach_';
 const AI_COACH_CACHE_DURATION = 24 * 60 * 60 * 1000; // 24 hours
-const PROGRESS_KEY_PREFIX = 'fujisan_progress_';
 const MOCK_RESULTS_KEY = 'fujisan_mock_results_';
 
 // Save mock test result for AI Coach analysis
