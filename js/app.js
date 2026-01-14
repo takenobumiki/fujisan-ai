@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '18.23.15';
+const APP_VERSION = '19.0.0';
 const STORAGE_KEY = 'fujisan_v1820';
 
 // ========== FURIGANA SYSTEM ==========
@@ -2096,7 +2096,7 @@ const STRIPE_LINKS = {
 };
 
 // Stripe Customer Portal URL (for managing subscriptions / cancellation)
-const STRIPE_CUSTOMER_PORTAL = 'https://billing.stripe.com/p/login/5kA00lgSR1gg4Le8ww';
+const STRIPE_CUSTOMER_PORTAL = 'https://billing.stripe.com/p/login/4gw00444h8Kq1UY3cc';
 
 // ========== REFERRAL SYSTEM ==========
 const REFERRAL_CODES = ['REF001', 'REF002', 'REF003', 'REF004', 'REF005', 'REF006', 'REF007', 'REF008', 'REF009', 'REF010'];
